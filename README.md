@@ -1,4 +1,4 @@
-# getLocaleFromGeoPT
+# geo-pt-api
 
 Detect official divisional administrative regions of Portugal, providing coordinates
 
