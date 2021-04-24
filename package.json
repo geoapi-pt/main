@@ -1,5 +1,5 @@
 {
-  "name": "getlocalefromgeopt",
+  "name": "geo-pt-api",
   "version": "0.0.2",
   "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jfoclpf/getLocaleFromGeoPT.git"
+    "url": "git+https://github.com/jfoclpf/geo-pt-api.git"
   },
   "keywords": [
     "portugal"
@@ -16,11 +16,12 @@
   "author": "João Pimentel Ferreira",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/jfoclpf/getLocaleFromGeoPT/issues"
+    "url": "https://github.com/jfoclpf/geo-pt-api/issues"
   },
-  "homepage": "https://github.com/jfoclpf/getLocaleFromGeoPT#readme",
+  "homepage": "https://github.com/jfoclpf/geo-pt-api#readme",
   "dependencies": {
     "async": "^3.2.0",
+    "polygon-lookup": "^2.6.0",
     "shapefile": "^0.6.6"
   },
   "devDependencies": {

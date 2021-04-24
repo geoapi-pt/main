@@ -1,5 +1,6 @@
 const path = require('path')
 const shapefile = require('shapefile')
+const PolygonLookup = require('polygon-lookup')
 const async = require('async')
 
 const shapeFiles = {
@@ -27,6 +28,12 @@ async.forEachOf(shapeFiles, (value, key, callback) => {
     console.error(err.message)
     process.exitCode = 1
   } else {
-    console.log(geojson)
+    const point = {
+      lat: 38.569566888238924,
+      lon: -7.905490149218761
+    }
+    const lookupDistritos = new PolygonLookup(geojson.distritos)
+    const distrito = lookupDistritos.search(point.lon, point.lat)
+    console.log(distrito.properties.NAME_1)
   }
 })
