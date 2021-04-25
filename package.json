@@ -2,9 +2,9 @@
   "name": "geo-pt-api",
   "version": "0.0.4",
   "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
-  "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "start": "node startServer.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jfoclpf/geo-pt-api#readme",
   "dependencies": {
     "async": "^3.2.0",
+    "debug": "^4.3.1",
     "extract-zip": "^2.0.1",
     "polygon-lookup": "^2.6.0",
     "proj4": "^2.6.0",
