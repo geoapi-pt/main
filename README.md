@@ -15,9 +15,9 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
 ## How to install the API on your machine
 
  1. Install nodeJS, npm and git
- 2. Clone the project:
+ 2. Clone the project:<br>
     `git clone https://github.com/jfoclpf/geo-pt-api.git`
- 3. Enter the newly created directory and install dependencies
+ 3. Enter the newly created directory and install dependencies<br>
     `cd geo-pt-api && npm install`
  4. Start the server
     `npm start --port=8080`
