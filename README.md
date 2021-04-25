@@ -19,7 +19,7 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
     `git clone https://github.com/jfoclpf/geo-pt-api.git`
  3. Enter the newly created directory and install dependencies<br>
     `cd geo-pt-api && npm install`
- 4. Start the server
+ 4. Start the server<br>
     `npm start --port=8080`
 
 ## Continuous operation
