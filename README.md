@@ -21,7 +21,6 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
     `cd geo-pt-api && npm install`
  4. Start the server
     `npm start --port=8080`
-    It will open a local http server on specified port
 
 ## Continuous operation
 
