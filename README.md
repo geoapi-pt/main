@@ -24,13 +24,15 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
 
 ## Continuous operation
 
-For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever), using directly the node script `node startServer.js --port=8080`.
+For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever), using directly the node script located at the root directory
+
+`node server.js --port=8080`.
 
 ### With pm2
 
 ```
 npm install pm2@latest -g
-pm2 start startServer.js -- --port 8080
+pm2 start server.js -- --port 8080
 ```
 
 ## Debug
