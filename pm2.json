@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name"        : "geo-pt-api",
+    "script"      : "server.js",
+    "args"        : "--port=4057",
+    "instances"   : 2,
+    "watch"       : false,
+    "exec_mode"   : "cluster",
+    "log_date_format": "DD-MM-YYYY"
+  }]
+}
