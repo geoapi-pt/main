@@ -1,6 +1,6 @@
 # geo-pt-api
 
-Detect official divisional administrative regions of Portugal (last updated 2020, from [here](http://mapas.dgterritorio.pt/ATOM-download/CAOP-Cont/Cont_AAD_CAOP2020.zip)), providing GPS coordinates as input.
+Detect official divisional administrative regions of Portugal ("Carta Administrativa Oficial de Portugal - CAOP 2020", from [here](http://mapas.dgterritorio.pt/ATOM-download/CAOP-Cont/Cont_AAD_CAOP2020.zip)), providing GPS coordinates as input. You can use the public API [here](http://geo-pt-api.joaopimentel.com/?lat=40.153687&lon=-8.514602).
 
 It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
 
