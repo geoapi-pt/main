@@ -8,9 +8,13 @@ const proj4 = require('proj4')
 const extract = require('extract-zip')
 const async = require('async')
 const debug = require('debug')('http')
+const commandLineArgs = require('command-line-args')
 
 const filenameWithoutExtension = 'Cont_AAD_CAOP2020'
-const serverPort = '5094'
+
+const serverPort = process.env.npm_config_port ||
+                   commandLineArgs([{ name: 'port', type: Number }]).port ||
+                   '8080'
 
 let geojson
 let projection
