@@ -2,7 +2,7 @@
 
 Detect official divisional administrative regions of Portugal (last updated 2020, from [here](http://mapas.dgterritorio.pt/ATOM-download/CAOP-Cont/Cont_AAD_CAOP2020.zip)), providing GPS coordinates as input.
 
-## How does it work
+## How does it work?
 
 It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
 
@@ -25,7 +25,7 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
     `npm start --port=8080`
     It will open a local http server on specified port
 
-## Permanent operation
+## Continuous operation
 
 For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever), using directly the node script `node startServer.js --port=8080`
 
