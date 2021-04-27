@@ -159,7 +159,7 @@ function startServer (callback) {
       debug('Error on server')
       debug(e)
       res.writeHead(400, { 'Content-Type': 'text/plain' })
-      res.write(`Wrong request! Example of good request: ${req.headers.host || ''}/?lat=40.153687&lon=-8.514602`)
+      res.write('Wrong request! Example of good request: /?lat=40.153687&lon=-8.514602')
       res.end()
     }
   }).listen(serverPort, () => {
