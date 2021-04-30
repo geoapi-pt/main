@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const http = require('http')
+const express = require('express')
 const url = require('url')
 const shapefile = require('shapefile')
 const PolygonLookup = require('polygon-lookup')
@@ -114,7 +114,9 @@ function readProjectionFile (mainCallback) {
 }
 
 function startServer (callback) {
-  http.createServer(function (req, res) {
+  const app = express()
+
+  app.get('/', function (req, res) {
     try {
       if (req.url.includes('favicon.ico')) {
         res.writeHead(204) // no content
@@ -159,13 +161,17 @@ function startServer (callback) {
       debug('Error on server')
       debug(e)
       res.writeHead(400, { 'Content-Type': 'text/plain' })
-      res.write('Wrong request! Example of good request: /?lat=40.153687&lon=-8.514602')
+      res.write('Wrong request! Example of good request:  /?lat=40.153687&lon=-8.514602')
       res.end()
     }
-  }).listen(serverPort, () => {
+  })
+
+  app.listen(serverPort, () => {
     console.log(`Server initiated on port ${serverPort}, check for example:`)
     console.log(colors.green(`http://localhost:${serverPort}/?lat=40.153687&lon=-8.514602`))
   })
+
+  callback()
 }
 
 async.series([extractZip, readShapefile, readProjectionFile, startServer],
@@ -174,7 +180,7 @@ async.series([extractZip, readShapefile, readProjectionFile, startServer],
       console.error(err)
       process.exitCode = 1
     } else {
-      console.log('Everything done with success')
+      console.log('Everything done with ' + colors.green.bold('success'))
       debug(regions)
     }
   })
