@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const express = require('express')
+const cors = require('cors')
 const url = require('url')
 const shapefile = require('shapefile')
 const PolygonLookup = require('polygon-lookup')
@@ -115,6 +116,7 @@ function readProjectionFile (mainCallback) {
 
 function startServer (callback) {
   const app = express()
+  app.use(cors())
 
   app.get('/', function (req, res) {
     try {
