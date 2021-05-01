@@ -126,10 +126,9 @@ function startServer (callback) {
         return
       }
 
-      const searchParams = url.parse(req.url, true).query // eslint-disable-line
-
-      const lat = parseFloat(searchParams.lat) // ex: 40.153687
-      const lon = parseFloat(searchParams.lon) // ex: -8.514602
+      debug('new query: ', req.query)
+      const lat = parseFloat(req.query.lat) // ex: 40.153687
+      const lon = parseFloat(req.query.lon) // ex: -8.514602
 
       const point = [lon, lat] // longitude, latitude
 
