@@ -43,6 +43,8 @@ const regions = {
   }
 }
 
+const details = {} // for municipalities and parishes
+
 // extracts zip file with shapefile and projection files
 function extractZip (mainCallback) {
   async.forEachOf(regions, function (value, key, callback) {
@@ -113,6 +115,24 @@ function readProjectionFile (mainCallback) {
   })
 }
 
+function readJsonFiles (mainCallback) {
+  try {
+    details.freguesias = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', 'detalhesFreguesias.json'), 'utf8')
+    ).d
+    console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
+    details.municipios = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', 'detalhesMunicipios.json'), 'utf8')
+    ).d
+    console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
+  } catch (e) {
+    console.error(e)
+    mainCallback(Error(e))
+  }
+
+  mainCallback()
+}
+
 function startServer (callback) {
   const app = express()
   app.use(cors())
@@ -138,12 +158,45 @@ function startServer (callback) {
         const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
 
         if (freguesia) {
-          debug('Found freguesia')
+          debug('Found freguesia: ', freguesia)
           const local = {
             freguesia: freguesia.properties.Freguesia,
             concelho: freguesia.properties.Concelho,
             distrito: freguesia.properties.Distrito
           }
+
+          // search for details for parishes (freguesias)
+          const numberOfParishes = details.freguesias.length
+          const Dicofre = parseInt(freguesia.properties.Dicofre)
+          for (let i = 0; i < numberOfParishes; i++) {
+            if (Dicofre === parseInt(details.freguesias[i].codigoine)) {
+              local.detalhesFreguesia = details.freguesias[i]
+              // delete superfluous fields
+              delete local.detalhesFreguesia.PartitionKey
+              delete local.detalhesFreguesia.RowKey
+              delete local.detalhesFreguesia.Timestamp
+              delete local.detalhesFreguesia.entityid
+
+              break // found it, break loop
+            }
+          }
+
+          // search for details for municipalities (municipios)
+          const numberOfMunicipalities = details.municipios.length
+          const concelho = freguesia.properties.Concelho.toLowerCase().trim()
+          for (let i = 0; i < numberOfMunicipalities; i++) {
+            if (concelho === details.municipios[i].entidade.toLowerCase().trim()) {
+              local.detalhesMunicipio = details.municipios[i]
+              // delete superfluous fields
+              delete local.detalhesMunicipio.PartitionKey
+              delete local.detalhesMunicipio.RowKey
+              delete local.detalhesMunicipio.Timestamp
+              delete local.detalhesMunicipio.entityid
+
+              break // found it, break loop
+            }
+          }
+
           debug(local)
 
           res.writeHead(200, { 'Content-Type': 'application/json' })
@@ -174,7 +227,7 @@ function startServer (callback) {
   callback()
 }
 
-async.series([extractZip, readShapefile, readProjectionFile, startServer],
+async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, startServer],
   function (err) {
     if (err) {
       console.error(err)
