@@ -199,24 +199,45 @@ function startServer (callback) {
 
           debug(local)
 
-          res.writeHead(200, { 'Content-Type': 'application/json' })
-          res.write(JSON.stringify(local))
+          res.set('Content-Type', 'application/json')
+          res.status(200)
+          res.send(JSON.stringify(local))
           res.end()
           return
         }
       }
 
       debug('Results not found')
-      res.writeHead(404, { 'Content-Type': 'text/plain' })
-      res.write('Results not found. Coordinates out of scope!')
+
+      res.status(404)
+      res.send({ error: 'Results not found. Coordinates out of scope!' })
       res.end()
     } catch (e) {
-      debug('Error on server')
-      debug(e)
-      res.writeHead(400, { 'Content-Type': 'text/plain' })
-      res.write('Wrong request! Example of good request:  /?lat=40.153687&lon=-8.514602')
+      debug('Error on server', e)
+
+      res.status(400)
+      res.send({ error: 'Wrong request! Example of good request:  /?lat=40.153687&lon=-8.514602' })
       res.end()
     }
+  })
+
+  app.get('/listaDeFreguesias', function (req, res) {
+    res.set('Content-Type', 'application/json')
+    res.status(200)
+    res.send(JSON.stringify(administrations.listOfFreguesiasNames))
+    res.end()
+  })
+
+  app.get('/listaDeMunicipios', function (req, res) {
+    res.set('Content-Type', 'application/json')
+    res.status(200)
+    res.send(JSON.stringify(administrations.listOfMunicipiosNames))
+    res.end()
+  })
+
+  app.use(function (req, res) {
+    debug('Not Found')
+    res.sendStatus(404)
   })
 
   app.listen(serverPort, () => {
