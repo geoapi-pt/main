@@ -139,11 +139,12 @@ function readProjectionFile (mainCallback) {
 
 function readJsonFiles (mainCallback) {
   try {
-    administrations.freguesias = JSON.parse(fs.readFileSync(
+    administrations.freguesiasDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', 'detalhesFreguesias.json'), 'utf8')
     ).d
     console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
-    administrations.municipios = JSON.parse(fs.readFileSync(
+
+    administrations.municipiosDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', 'detalhesMunicipios.json'), 'utf8')
     ).d
     console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
