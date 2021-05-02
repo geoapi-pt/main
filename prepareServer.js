@@ -142,6 +142,7 @@ function readJsonFiles (mainCallback) {
       delete parish.RowKey
       delete parish.Timestamp
       delete parish.entityid
+      delete parish.tipoentidade
     }
     console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
 
@@ -154,6 +155,7 @@ function readJsonFiles (mainCallback) {
       delete municipality.RowKey
       delete municipality.Timestamp
       delete municipality.entityid
+      delete municipality.tipoentidade
     }
     console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
   } catch (e) {
@@ -177,6 +179,18 @@ function buildAdministrationsObject (mainCallback) {
 
         administrations.listOfParishesNames.push(parishName + ` (${municipalityName})`)
         administrations.listOfMunicipalitiesNames.push(municipalityName)
+
+        // extract parish names from geoson files, because names of parishes do not coincide between sources
+        // adding an extra field nomecompleto2 to administrations.parishesDetails
+        for (const parish2 of administrations.parishesDetails) {
+          const dicofre = parish.properties.Dicofre || parish.properties.DICOFRE
+
+          // Regex to remove leading zeros from string
+          if (parish2.codigoine.replace(/^0+/, '') === dicofre.replace(/^0+/, '')) {
+            parish2.nomecompleto2 = parishName
+            break
+          }
+        }
 
         // create listOfMunicipalitiesWithParishes
         // ex: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
