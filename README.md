@@ -20,7 +20,7 @@ The GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
 }
 ```
 
-You may also request details for the returned municipality and parish with `/?lat=40.153687&lon=-8.514602&detalhes=1`, which outputs:
+You may also request details for the returned municipality and parish with<br>`/?lat=40.153687&lon=-8.514602&detalhes=1`, which outputs:
 
 ```json
 {
