@@ -11,5 +11,5 @@ We should not select either the ones ending in `GPKG`.
 
 ### json files
 
-The JSON files have the detailed information of the [Municipalities](https://dados.gov.pt/pt/datasets/municipios-dados-gerais/) and [Parishes](https://dados.gov.pt/pt/datasets/freguesias-dados-gerais/) (freguesias). 
-These resources were downloaded from the website https://dados.gov.pt/pt. We should search for something like "Municípios Dados Gerais".
+The JSON files have the detailed information of the [Municipalities (2 de maio de 2018)](https://dados.gov.pt/pt/datasets/municipios-dados-gerais/) and [Parishes (2 de maio de 2018)](https://dados.gov.pt/pt/datasets/freguesias-dados-gerais/) (freguesias).
+These resources were downloaded from the website https://dados.gov.pt/pt. If the links are unavailable, we should search for something like "Municípios Dados Gerais".
