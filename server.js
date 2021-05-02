@@ -85,15 +85,6 @@ function readShapefile (mainCallback) {
         `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
         `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
       )
-
-      // now fill in listOfParishesNames
-      for (const parish of geojson.features) {
-        administrations.listOfParishesNames.push(
-          parish.properties.Freguesia + ` (${parish.properties.Concelho})`
-        )
-        administrations.listOfMunicipalitiesNames.push(parish.properties.Concelho)
-      }
-
       callback()
     }).catch((error) => {
       console.error(error.stack)
@@ -103,13 +94,6 @@ function readShapefile (mainCallback) {
     if (err) {
       mainCallback(Error(err))
     } else {
-      // remove duplicates in arrays
-      administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
-      administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
-      // sort alphabetically arrays
-      administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
-      administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
-
       mainCallback()
     }
   })
@@ -155,6 +139,43 @@ function readJsonFiles (mainCallback) {
   }
 
   mainCallback()
+}
+
+// builds up global object administrations
+function buildAdministrationsObject (mainCallback) {
+  async.forEachOf(regions, function (value, key, callback) {
+    // now fill in listOfParishesNames, listOfMunicipalitiesNames and listOfMunicipalitiesWithParishes
+    const parishesArray = regions[key].geojson.features
+    for (const parish of parishesArray) {
+      administrations.listOfParishesNames.push(
+        parish.properties.Freguesia + ` (${parish.properties.Concelho})`
+      )
+      administrations.listOfMunicipalitiesNames.push(parish.properties.Concelho)
+
+      // create listOfMunicipalitiesWithParishes
+      if (administrations.listOfMunicipalitiesWithParishes.includes(parish.properties.Concelho)) {
+        // add parish to already available municipality
+      } else {
+        // create municipality and add its parish
+      }
+    }
+
+    callback()
+  }, function (err) {
+    if (err) {
+      mainCallback(Error(err))
+    } else {
+      // remove duplicates in arrays
+      administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
+      administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
+      // sort alphabetically arrays
+      administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
+      administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
+
+      console.log('administrations Object created with success')
+      mainCallback()
+    }
+  })
 }
 
 function startServer (callback) {
@@ -275,7 +296,7 @@ function startServer (callback) {
   callback()
 }
 
-async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, startServer],
+async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject, startServer],
   function (err) {
     if (err) {
       console.error(err)
