@@ -64,9 +64,10 @@ function startServer (callback) {
           if (isDetails) {
             // search for details for parishes (freguesias)
             const numberOfParishes = administrations.parishesDetails.length
-            const codigoine = parseInt(freguesia.properties.Dicofre)
+            // regex to remove leading zeros
+            const codigoine = (freguesia.properties.Dicofre || freguesia.properties.DICOFRE).replace(/^0+/, '')
             for (let i = 0; i < numberOfParishes; i++) {
-              if (codigoine === parseInt(administrations.parishesDetails[i].codigoine)) {
+              if (codigoine === administrations.parishesDetails[i].codigoine.replace(/^0+/, '')) {
                 local.detalhesFreguesia = administrations.parishesDetails[i]
                 break // found it, break loop
               }
