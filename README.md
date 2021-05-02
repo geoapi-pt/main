@@ -50,6 +50,11 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
 }
 ```
 
+Other GET paths are also available:
+
+ - `/listaDeMunicipios` returns a JSON array of municipalities
+ - `/listaDeFreguesias` returns a JSON array of parishes
+
 ## How to install the API on your machine
 
  1. Install nodeJS, npm and git
