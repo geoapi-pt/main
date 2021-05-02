@@ -8,6 +8,16 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
 {
    "freguesia":"Anobra",
    "concelho":"Condeixa-A-Nova",
+   "distrito":"Coimbra"
+}
+```
+
+You may also request details for the returned municipality and parish with `/?lat=40.153687&lon=-8.514602&detalhes=1`, which outputs:
+
+```json
+{
+   "freguesia":"Anobra",
+   "concelho":"Condeixa-A-Nova",
    "distrito":"Coimbra",
    "detalhesFreguesia":{
       "codigo":"6946",
@@ -50,12 +60,12 @@ It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` retu
 }
 ```
 
-Other GET paths are also available:
+Other GET requests are also available:
 
- - `/listaDeMunicipios` returns a JSON array of municipalities
- - `/listaDeFreguesias` returns a JSON array of parishes
+ - `/listaDeMunicipios` returns a JSON array with municipalities names
+ - `/listaDeFreguesias` returns a JSON array with parishes names
 
-## How to install the API on your machine
+## How to install this API on your machine
 
  1. Install nodeJS, npm and git
  2. Clone the project:<br>
