@@ -2,7 +2,15 @@
 
 Detect official divisional administrative regions of Portugal ("Carta Administrativa Oficial de Portugal - CAOP 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)), providing GPS coordinates as input. You can use the public API [here](https://geo-pt-api.joaopimentel.com/?lat=40.153687&lon=-8.514602). It includes mainland Portugal, Azores and Madeira.
 
-It creates a HTTP server, whose GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
+It creates a HTTP server allowing several GET requests.
+
+## Paths and parameters
+
+### Root path /
+
+The root path has three parameters: `lat`, `lon` and `detalhes` (optional).
+
+The GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
 
 ```json
 {
@@ -60,10 +68,57 @@ You may also request details for the returned municipality and parish with `/?la
 }
 ```
 
-Other GET requests are also available:
+### /listaDeMunicipios
 
- - `/listaDeMunicipios` returns a JSON array with municipalities names
- - `/listaDeFreguesias` returns a JSON array with parishes names
+Returns a JSON array with municipalities names, alphabetically sorted
+
+### /listaDeFreguesias
+
+Returns a JSON array with parishes (freguesias) names, alphabetically sorted
+
+
+### /listaDeMunicipiosComFreguesias
+
+Returns a JSON array of objects, each object corresponding to a municipality and an array of its parishes
+
+```json
+[
+   {
+      "nome":"Abrantes",
+      "freguesias":[
+         "Bemposta",
+         "Carvalhal",
+         "Fontes",
+         "Martinchel",
+         "Mouriscas",
+         "Pego",
+         "Rio de Moinhos",
+         "Tramagal",
+         "União das freguesias de Abrantes (São Vicente e São João) e Alferrarede",
+         "União das freguesias de Aldeia do Mato e Souto",
+         "União das freguesias de Alvega e Concavada",
+         "União das freguesias de São Facundo e Vale das Mós",
+         "União das freguesias de São Miguel do Rio Torto e Rossio ao Sul do Tejo"
+      ]
+   },
+   {
+      "nome":"Aguiar da Beira",
+      "freguesias":[
+         "Carapito",
+         "Cortiçada",
+         "Dornelas",
+         "Eirado",
+         "Forninhos",
+         "Pena Verde",
+         "Pinheiro",
+         "União das freguesias de Aguiar da Beira e Coruche",
+         "União das freguesias de Sequeiros e Gradiz",
+         "União das freguesias de Souto de Aguiar da Beira e Valverde"
+      ]
+   },
+   "etc"
+ ]
+```
 
 ## How to install this API on your machine
 

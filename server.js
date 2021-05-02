@@ -1,179 +1,29 @@
-const fs = require('fs')
 const path = require('path')
 const express = require('express')
 const cors = require('cors')
-const shapefile = require('shapefile')
 const PolygonLookup = require('polygon-lookup')
 const proj4 = require('proj4')
-const extract = require('extract-zip')
 const async = require('async')
 const debug = require('debug')('http')
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
+const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
+
 const serverPort = process.env.npm_config_port ||
                    commandLineArgs([{ name: 'port', type: Number }]).port ||
                    '8080'
 
-const regions = {
-  cont: {
-    name: 'Continente',
-    zipFileName: 'Cont_AAD_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2020'
-  },
-  ArqMadeira: {
-    name: 'Arquipélago da Madeira',
-    zipFileName: 'ArqMadeira_AAD_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2020'
-  },
-  ArqAcores_GOcidental: {
-    name: 'Arquipélago dos Açores (Grupo Ocidental)',
-    zipFileName: 'ArqAcores_GOcidental_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2020'
-  },
-  ArqAcores_GCentral: {
-    name: 'Arquipélago dos Açores (Grupo Central)',
-    zipFileName: 'ArqAcores_GCentral_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2020'
-  },
-  ArqAcores_GOriental: {
-    name: 'Arquipélago dos Açores (Grupo Oriental)',
-    zipFileName: 'ArqAcores_GOriental_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2020'
-  }
-}
+let regions, administrations
 
-// for municipalities and parishes
-const administrations = {
-  parishesDetails: [], // array with details of freguesias
-  muncicipalitiesDetails: [], // array with details of municípios
-  listOfParishesNames: [], // an array with just names/strings of freguesias
-  listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
-  listOfMunicipiosWithFreguesias: [] // array of objects, each object comprising a municipality and a list of its parishes
-}
-
-// extracts zip file with shapefile and projection files
-function extractZip (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    const zipFile = path.join(__dirname, 'res', value.zipFileName)
-    extract(zipFile, { dir: path.join(__dirname, 'res') })
-      .then(() => {
-        console.log(`zip file extraction for ${value.name} complete`)
-        callback()
-      })
-      .catch((errOnUnzip) => {
-        callback(Error('Error unziping file ' + zipFile + '. ' + errOnUnzip.message))
-      })
-  }, function (err) {
+function prepareServer (callback) {
+  prepareServerMod((err, data) => {
     if (err) {
-      mainCallback(Error(err))
+      callback(Error(err))
     } else {
-      mainCallback()
-    }
-  })
-}
-
-function readShapefile (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    shapefile.read(
-      path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.shp'),
-      path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.dbf'),
-      { encoding: 'utf-8' }
-    ).then(geojson => {
-      regions[key].geojson = geojson
-      console.log(
-        `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
-        `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
-      )
+      regions = data.regions
+      administrations = data.administrations
       callback()
-    }).catch((error) => {
-      console.error(error.stack)
-      callback(Error('Error reading shapefile'))
-    })
-  }, function (err) {
-    if (err) {
-      mainCallback(Error(err))
-    } else {
-      mainCallback()
-    }
-  })
-}
-
-function readProjectionFile (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    fs.readFile(
-      path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.prj'),
-      'utf8',
-      (err, data) => {
-        if (err) {
-          callback(Error(err))
-        } else {
-          regions[key].projection = data
-          console.log(`Projection info read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`)
-          callback()
-        }
-      })
-  }, function (err) {
-    if (err) {
-      mainCallback(Error(err))
-    } else {
-      mainCallback()
-    }
-  })
-}
-
-function readJsonFiles (mainCallback) {
-  try {
-    administrations.parishesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'detalhesFreguesias.json'), 'utf8')
-    ).d
-    console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
-
-    administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'detalhesMunicipios.json'), 'utf8')
-    ).d
-    console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
-  } catch (e) {
-    console.error(e)
-    mainCallback(Error(e))
-  }
-
-  mainCallback()
-}
-
-// builds up global object administrations
-function buildAdministrationsObject (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    // now fill in listOfParishesNames, listOfMunicipalitiesNames and listOfMunicipalitiesWithParishes
-    const parishesArray = regions[key].geojson.features
-    for (const parish of parishesArray) {
-      administrations.listOfParishesNames.push(
-        parish.properties.Freguesia + ` (${parish.properties.Concelho})`
-      )
-      administrations.listOfMunicipalitiesNames.push(parish.properties.Concelho)
-
-      // create listOfMunicipalitiesWithParishes
-      if (administrations.listOfMunicipalitiesWithParishes.includes(parish.properties.Concelho)) {
-        // add parish to already available municipality
-      } else {
-        // create municipality and add its parish
-      }
-    }
-
-    callback()
-  }, function (err) {
-    if (err) {
-      mainCallback(Error(err))
-    } else {
-      // remove duplicates in arrays
-      administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
-      administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
-      // sort alphabetically arrays
-      administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
-      administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
-
-      console.log('administrations Object created with success')
-      mainCallback()
     }
   })
 }
@@ -214,16 +64,10 @@ function startServer (callback) {
           if (isDetails) {
             // search for details for parishes (freguesias)
             const numberOfParishes = administrations.parishesDetails.length
-            const Dicofre = parseInt(freguesia.properties.Dicofre)
+            const codigoine = parseInt(freguesia.properties.Dicofre)
             for (let i = 0; i < numberOfParishes; i++) {
-              if (Dicofre === parseInt(administrations.parishesDetails[i].codigoine)) {
+              if (codigoine === parseInt(administrations.parishesDetails[i].codigoine)) {
                 local.detalhesFreguesia = administrations.parishesDetails[i]
-                // delete superfluous fields
-                delete local.detalhesFreguesia.PartitionKey
-                delete local.detalhesFreguesia.RowKey
-                delete local.detalhesFreguesia.Timestamp
-                delete local.detalhesFreguesia.entityid
-
                 break // found it, break loop
               }
             }
@@ -234,12 +78,6 @@ function startServer (callback) {
             for (let i = 0; i < numberOfMunicipalities; i++) {
               if (concelho === administrations.muncicipalitiesDetails[i].entidade.toLowerCase().trim()) {
                 local.detalhesMunicipio = administrations.muncicipalitiesDetails[i]
-                // delete superfluous fields
-                delete local.detalhesMunicipio.PartitionKey
-                delete local.detalhesMunicipio.RowKey
-                delete local.detalhesMunicipio.Timestamp
-                delete local.detalhesMunicipio.entityid
-
                 break // found it, break loop
               }
             }
@@ -283,6 +121,13 @@ function startServer (callback) {
     res.end()
   })
 
+  app.get('/listaDeMunicipiosComFreguesias', function (req, res) {
+    res.set('Content-Type', 'application/json')
+    res.status(200)
+    res.send(JSON.stringify(administrations.listOfMunicipalitiesWithParishes))
+    res.end()
+  })
+
   app.use(function (req, res) {
     debug('Not Found')
     res.sendStatus(404)
@@ -296,7 +141,7 @@ function startServer (callback) {
   callback()
 }
 
-async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject, startServer],
+async.series([prepareServer, startServer],
   function (err) {
     if (err) {
       console.error(err)
