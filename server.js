@@ -43,7 +43,13 @@ const regions = {
   }
 }
 
-const details = {} // for municipalities and parishes
+// for municipalities and parishes
+const administrations = {
+  freguesiasDetails: [], // array with details of freguesias
+  municipiosDetails: [], // array with details of municípios
+  listOfFreguesiasNames: [], // an array with just names/strings of freguesias
+  listOfMunicipiosNames: [] // an array with just names/strings of municipios
+}
 
 // extracts zip file with shapefile and projection files
 function extractZip (mainCallback) {
@@ -78,6 +84,15 @@ function readShapefile (mainCallback) {
         `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
         `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
       )
+
+      // now fill in listOfFreguesiasNames
+      for (const parish of geojson.features) {
+        administrations.listOfFreguesiasNames.push(
+          parish.properties.Freguesia + ` (${parish.properties.Concelho})`
+        )
+        administrations.listOfMunicipiosNames.push(parish.properties.Concelho)
+      }
+
       callback()
     }).catch((error) => {
       console.error(error.stack)
@@ -87,6 +102,13 @@ function readShapefile (mainCallback) {
     if (err) {
       mainCallback(Error(err))
     } else {
+      // remove duplicates in arrays
+      administrations.listOfFreguesiasNames = [...new Set(administrations.listOfFreguesiasNames)]
+      administrations.listOfMunicipiosNames = [...new Set(administrations.listOfMunicipiosNames)]
+      // sort alphabetically arrays
+      administrations.listOfFreguesiasNames = administrations.listOfFreguesiasNames.sort()
+      administrations.listOfMunicipiosNames = administrations.listOfMunicipiosNames.sort()
+
       mainCallback()
     }
   })
@@ -117,11 +139,11 @@ function readProjectionFile (mainCallback) {
 
 function readJsonFiles (mainCallback) {
   try {
-    details.freguesias = JSON.parse(fs.readFileSync(
+    administrations.freguesias = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', 'detalhesFreguesias.json'), 'utf8')
     ).d
     console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
-    details.municipios = JSON.parse(fs.readFileSync(
+    administrations.municipios = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', 'detalhesMunicipios.json'), 'utf8')
     ).d
     console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
@@ -166,11 +188,11 @@ function startServer (callback) {
           }
 
           // search for details for parishes (freguesias)
-          const numberOfParishes = details.freguesias.length
+          const numberOfParishes = administrations.freguesiasDetails.length
           const Dicofre = parseInt(freguesia.properties.Dicofre)
           for (let i = 0; i < numberOfParishes; i++) {
-            if (Dicofre === parseInt(details.freguesias[i].codigoine)) {
-              local.detalhesFreguesia = details.freguesias[i]
+            if (Dicofre === parseInt(administrations.freguesiasDetails[i].codigoine)) {
+              local.detalhesFreguesia = administrations.freguesiasDetails[i]
               // delete superfluous fields
               delete local.detalhesFreguesia.PartitionKey
               delete local.detalhesFreguesia.RowKey
@@ -182,11 +204,11 @@ function startServer (callback) {
           }
 
           // search for details for municipalities (municipios)
-          const numberOfMunicipalities = details.municipios.length
+          const numberOfMunicipalities = administrations.municipiosDetails.length
           const concelho = freguesia.properties.Concelho.toLowerCase().trim()
           for (let i = 0; i < numberOfMunicipalities; i++) {
-            if (concelho === details.municipios[i].entidade.toLowerCase().trim()) {
-              local.detalhesMunicipio = details.municipios[i]
+            if (concelho === administrations.municipiosDetails[i].entidade.toLowerCase().trim()) {
+              local.detalhesMunicipio = administrations.municipiosDetails[i]
               // delete superfluous fields
               delete local.detalhesMunicipio.PartitionKey
               delete local.detalhesMunicipio.RowKey
