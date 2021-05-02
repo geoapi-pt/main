@@ -45,10 +45,11 @@ const regions = {
 
 // for municipalities and parishes
 const administrations = {
-  freguesiasDetails: [], // array with details of freguesias
-  municipiosDetails: [], // array with details of municípios
-  listOfFreguesiasNames: [], // an array with just names/strings of freguesias
-  listOfMunicipiosNames: [] // an array with just names/strings of municipios
+  parishesDetails: [], // array with details of freguesias
+  muncicipalitiesDetails: [], // array with details of municípios
+  listOfParishesNames: [], // an array with just names/strings of freguesias
+  listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
+  listOfMunicipiosWithFreguesias: [] // array of objects, each object comprising a municipality and a list of its parishes
 }
 
 // extracts zip file with shapefile and projection files
@@ -85,12 +86,12 @@ function readShapefile (mainCallback) {
         `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
       )
 
-      // now fill in listOfFreguesiasNames
+      // now fill in listOfParishesNames
       for (const parish of geojson.features) {
-        administrations.listOfFreguesiasNames.push(
+        administrations.listOfParishesNames.push(
           parish.properties.Freguesia + ` (${parish.properties.Concelho})`
         )
-        administrations.listOfMunicipiosNames.push(parish.properties.Concelho)
+        administrations.listOfMunicipalitiesNames.push(parish.properties.Concelho)
       }
 
       callback()
@@ -103,11 +104,11 @@ function readShapefile (mainCallback) {
       mainCallback(Error(err))
     } else {
       // remove duplicates in arrays
-      administrations.listOfFreguesiasNames = [...new Set(administrations.listOfFreguesiasNames)]
-      administrations.listOfMunicipiosNames = [...new Set(administrations.listOfMunicipiosNames)]
+      administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
+      administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
       // sort alphabetically arrays
-      administrations.listOfFreguesiasNames = administrations.listOfFreguesiasNames.sort()
-      administrations.listOfMunicipiosNames = administrations.listOfMunicipiosNames.sort()
+      administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
+      administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
 
       mainCallback()
     }
@@ -139,12 +140,12 @@ function readProjectionFile (mainCallback) {
 
 function readJsonFiles (mainCallback) {
   try {
-    administrations.freguesiasDetails = JSON.parse(fs.readFileSync(
+    administrations.parishesDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', 'detalhesFreguesias.json'), 'utf8')
     ).d
     console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
 
-    administrations.municipiosDetails = JSON.parse(fs.readFileSync(
+    administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', 'detalhesMunicipios.json'), 'utf8')
     ).d
     console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
@@ -191,11 +192,11 @@ function startServer (callback) {
 
           if (isDetails) {
             // search for details for parishes (freguesias)
-            const numberOfParishes = administrations.freguesiasDetails.length
+            const numberOfParishes = administrations.parishesDetails.length
             const Dicofre = parseInt(freguesia.properties.Dicofre)
             for (let i = 0; i < numberOfParishes; i++) {
-              if (Dicofre === parseInt(administrations.freguesiasDetails[i].codigoine)) {
-                local.detalhesFreguesia = administrations.freguesiasDetails[i]
+              if (Dicofre === parseInt(administrations.parishesDetails[i].codigoine)) {
+                local.detalhesFreguesia = administrations.parishesDetails[i]
                 // delete superfluous fields
                 delete local.detalhesFreguesia.PartitionKey
                 delete local.detalhesFreguesia.RowKey
@@ -207,11 +208,11 @@ function startServer (callback) {
             }
 
             // search for details for municipalities (municipios)
-            const numberOfMunicipalities = administrations.municipiosDetails.length
+            const numberOfMunicipalities = administrations.muncicipalitiesDetails.length
             const concelho = freguesia.properties.Concelho.toLowerCase().trim()
             for (let i = 0; i < numberOfMunicipalities; i++) {
-              if (concelho === administrations.municipiosDetails[i].entidade.toLowerCase().trim()) {
-                local.detalhesMunicipio = administrations.municipiosDetails[i]
+              if (concelho === administrations.muncicipalitiesDetails[i].entidade.toLowerCase().trim()) {
+                local.detalhesMunicipio = administrations.muncicipalitiesDetails[i]
                 // delete superfluous fields
                 delete local.detalhesMunicipio.PartitionKey
                 delete local.detalhesMunicipio.RowKey
@@ -250,14 +251,14 @@ function startServer (callback) {
   app.get('/listaDeFreguesias', function (req, res) {
     res.set('Content-Type', 'application/json')
     res.status(200)
-    res.send(JSON.stringify(administrations.listOfFreguesiasNames))
+    res.send(JSON.stringify(administrations.listOfParishesNames))
     res.end()
   })
 
   app.get('/listaDeMunicipios', function (req, res) {
     res.set('Content-Type', 'application/json')
     res.status(200)
-    res.send(JSON.stringify(administrations.listOfMunicipiosNames))
+    res.send(JSON.stringify(administrations.listOfMunicipalitiesNames))
     res.end()
   })
 
