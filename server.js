@@ -171,6 +171,7 @@ function startServer (callback) {
       debug('new query: ', req.query)
       const lat = parseFloat(req.query.lat) // ex: 40.153687
       const lon = parseFloat(req.query.lon) // ex: -8.514602
+      const isDetails = Boolean(parseInt(req.query.detalhes))
 
       const point = [lon, lat] // longitude, latitude
 
@@ -188,35 +189,37 @@ function startServer (callback) {
             distrito: freguesia.properties.Distrito
           }
 
-          // search for details for parishes (freguesias)
-          const numberOfParishes = administrations.freguesiasDetails.length
-          const Dicofre = parseInt(freguesia.properties.Dicofre)
-          for (let i = 0; i < numberOfParishes; i++) {
-            if (Dicofre === parseInt(administrations.freguesiasDetails[i].codigoine)) {
-              local.detalhesFreguesia = administrations.freguesiasDetails[i]
-              // delete superfluous fields
-              delete local.detalhesFreguesia.PartitionKey
-              delete local.detalhesFreguesia.RowKey
-              delete local.detalhesFreguesia.Timestamp
-              delete local.detalhesFreguesia.entityid
+          if (isDetails) {
+            // search for details for parishes (freguesias)
+            const numberOfParishes = administrations.freguesiasDetails.length
+            const Dicofre = parseInt(freguesia.properties.Dicofre)
+            for (let i = 0; i < numberOfParishes; i++) {
+              if (Dicofre === parseInt(administrations.freguesiasDetails[i].codigoine)) {
+                local.detalhesFreguesia = administrations.freguesiasDetails[i]
+                // delete superfluous fields
+                delete local.detalhesFreguesia.PartitionKey
+                delete local.detalhesFreguesia.RowKey
+                delete local.detalhesFreguesia.Timestamp
+                delete local.detalhesFreguesia.entityid
 
-              break // found it, break loop
+                break // found it, break loop
+              }
             }
-          }
 
-          // search for details for municipalities (municipios)
-          const numberOfMunicipalities = administrations.municipiosDetails.length
-          const concelho = freguesia.properties.Concelho.toLowerCase().trim()
-          for (let i = 0; i < numberOfMunicipalities; i++) {
-            if (concelho === administrations.municipiosDetails[i].entidade.toLowerCase().trim()) {
-              local.detalhesMunicipio = administrations.municipiosDetails[i]
-              // delete superfluous fields
-              delete local.detalhesMunicipio.PartitionKey
-              delete local.detalhesMunicipio.RowKey
-              delete local.detalhesMunicipio.Timestamp
-              delete local.detalhesMunicipio.entityid
+            // search for details for municipalities (municipios)
+            const numberOfMunicipalities = administrations.municipiosDetails.length
+            const concelho = freguesia.properties.Concelho.toLowerCase().trim()
+            for (let i = 0; i < numberOfMunicipalities; i++) {
+              if (concelho === administrations.municipiosDetails[i].entidade.toLowerCase().trim()) {
+                local.detalhesMunicipio = administrations.municipiosDetails[i]
+                // delete superfluous fields
+                delete local.detalhesMunicipio.PartitionKey
+                delete local.detalhesMunicipio.RowKey
+                delete local.detalhesMunicipio.Timestamp
+                delete local.detalhesMunicipio.entityid
 
-              break // found it, break loop
+                break // found it, break loop
+              }
             }
           }
 
