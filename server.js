@@ -8,6 +8,8 @@ const debug = require('debug')('http')
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
+const mainPageUrl = 'https://jfoclpf.github.io/geo-pt-api/'
+
 const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 
 const serverPort = process.env.npm_config_port ||
@@ -35,13 +37,16 @@ function startServer (callback) {
   app.use(cors())
 
   app.get('/', function (req, res) {
-    try {
-      if (req.url.includes('favicon.ico')) {
-        res.writeHead(204) // no content
-        res.end()
-        return
-      }
+    if (req.url.includes('favicon.ico')) {
+      res.writeHead(204) // no content
+      res.end()
+      return
+    }
+    res.redirect(mainPageUrl)
+  })
 
+  app.get('/gps', function (req, res) {
+    try {
       debug('new query: ', req.query)
       const lat = parseFloat(req.query.lat) // ex: 40.153687
       const lon = parseFloat(req.query.lon) // ex: -8.514602
@@ -105,65 +110,83 @@ function startServer (callback) {
       debug('Error on server', e)
 
       res.status(400)
-      res.send({ error: 'Wrong request! Example of good request:  /?lat=40.153687&lon=-8.514602' })
+      res.send({ error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' })
       res.end()
     }
   })
 
-  app.get('/detalheMunicipio', function (req, res) {
-    const nameOfMunicipality = req.query.nome.toLowerCase().trim()
-
-    for (const municipality of administrations.muncicipalitiesDetails) {
-      if (nameOfMunicipality === municipality.nome.toLowerCase().trim()) {
-        res.set('Content-Type', 'application/json')
-        res.status(200)
-        res.send(JSON.stringify(municipality))
-        res.end()
-        return
-      }
+  app.get(['/municipio', '/municipios'], function (req, res) {
+    // no parameters, list of municipalities
+    if (Object.keys(req.query).length === 0) {
+      res.set('Content-Type', 'application/json')
+      res.status(200)
+      res.send(JSON.stringify(administrations.listOfMunicipalitiesNames))
+      res.end()
+      return
     }
 
-    res.status(404)
-    res.send({ error: 'Municipality not found with that name. Check a list of municipalities with /listaDeMunicipios' })
-    res.end()
-  })
+    if (Object.keys(req.query).length === 1 && req.query.nome) {
+      const nameOfMunicipality = req.query.nome.toLowerCase().trim()
 
-  app.get('/detalheFreguesia', function (req, res) {
-    const nameOfParish = req.query.nome.toLowerCase().trim()
-
-    for (const parish of administrations.parishesDetails) {
-      const name1 = parish.nome.toLowerCase().trim()
-      const name2 = parish.nomecompleto.toLowerCase().trim()
-      const name3 = parish.nomecompleto2.toLowerCase().trim()
-      if (nameOfParish === name1 || nameOfParish === name2 || nameOfParish === name3) {
-        res.set('Content-Type', 'application/json')
-        res.status(200)
-        res.send(JSON.stringify(parish))
-        res.end()
-        return
+      for (const municipality of administrations.muncicipalitiesDetails) {
+        if (nameOfMunicipality === municipality.nome.toLowerCase().trim()) {
+          res.set('Content-Type', 'application/json')
+          res.status(200)
+          res.send(JSON.stringify(municipality))
+          res.end()
+          return
+        }
       }
+
+      res.status(404)
+      res.send({ error: 'Municipality not found!' })
+      res.end()
+      return
     }
 
-    res.status(404)
-    res.send({ error: 'Parish not found with that name. Check a list of parishes with /listaDeFreguesias' })
+    res.status(400)
+    res.send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
     res.end()
   })
 
-  app.get('/listaDeFreguesias', function (req, res) {
-    res.set('Content-Type', 'application/json')
-    res.status(200)
-    res.send(JSON.stringify(administrations.listOfParishesNames))
+  app.get(['/freguesia', '/freguesias'], function (req, res) {
+    // no parameters, list of parishes
+    if (Object.keys(req.query).length === 0) {
+      res.set('Content-Type', 'application/json')
+      res.status(200)
+      res.send(JSON.stringify(administrations.listOfParishesNames))
+      res.end()
+      return
+    }
+
+    if (Object.keys(req.query).length === 1 && req.query.nome) {
+      const nameOfParish = req.query.nome.toLowerCase().trim()
+
+      for (const parish of administrations.parishesDetails) {
+        const name1 = parish.nome.toLowerCase().trim()
+        const name2 = parish.nomecompleto.toLowerCase().trim()
+        const name3 = parish.nomecompleto2.toLowerCase().trim()
+        if (nameOfParish === name1 || nameOfParish === name2 || nameOfParish === name3) {
+          res.set('Content-Type', 'application/json')
+          res.status(200)
+          res.send(JSON.stringify(parish))
+          res.end()
+          return
+        }
+      }
+
+      res.status(404)
+      res.send({ error: 'Parish not found!' })
+      res.end()
+      return
+    }
+
+    res.status(400)
+    res.send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
     res.end()
   })
 
-  app.get('/listaDeMunicipios', function (req, res) {
-    res.set('Content-Type', 'application/json')
-    res.status(200)
-    res.send(JSON.stringify(administrations.listOfMunicipalitiesNames))
-    res.end()
-  })
-
-  app.get('/listaDeMunicipiosComFreguesias', function (req, res) {
+  app.get('/municipiosComFreguesias', function (req, res) {
     res.set('Content-Type', 'application/json')
     res.status(200)
     res.send(JSON.stringify(administrations.listOfMunicipalitiesWithParishes))
@@ -171,13 +194,25 @@ function startServer (callback) {
   })
 
   app.use(function (req, res) {
-    debug('Not Found')
-    res.sendStatus(404)
+    res.status(404)
+    res.send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
+    res.end()
   })
 
-  app.listen(serverPort, () => {
-    console.log(`Server initiated on port ${serverPort}, check for example:`)
-    console.log(colors.green(`http://localhost:${serverPort}/?lat=40.153687&lon=-8.514602`))
+  const server = app.listen(serverPort, () => {
+    console.log('Listening on port ' + serverPort)
+    console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
+    console.log('*******************************************************************************')
+    console.log('**                             GEO-PT-API                                    **')
+    console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('http://localhost:' + serverPort) + Array(17).join(' ')}**`)
+    console.log(`**        for instructions see ${colors.cyan.bold(mainPageUrl)}         **`)
+    console.log('*******************************************************************************')
+  })
+
+  // catches CTRL-C
+  process.on('SIGINT', function () {
+    console.log('Closing http server')
+    server.close()
   })
 
   callback()
