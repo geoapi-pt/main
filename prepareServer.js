@@ -143,6 +143,10 @@ function readJsonFiles (mainCallback) {
       delete parish.Timestamp
       delete parish.entityid
       delete parish.tipoentidade
+
+      // replace property name form entidade to nome
+      parish.nome = parish.entidade
+      delete parish.entidade
     }
     console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
 
@@ -156,6 +160,10 @@ function readJsonFiles (mainCallback) {
       delete municipality.Timestamp
       delete municipality.entityid
       delete municipality.tipoentidade
+
+      // replace property name form entidade to nome
+      municipality.nome = municipality.entidade
+      delete municipality.entidade
     }
     console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
   } catch (e) {
