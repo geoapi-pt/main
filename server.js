@@ -77,7 +77,7 @@ function startServer (callback) {
             const numberOfMunicipalities = administrations.muncicipalitiesDetails.length
             const concelho = freguesia.properties.Concelho.toLowerCase().trim()
             for (let i = 0; i < numberOfMunicipalities; i++) {
-              if (concelho === administrations.muncicipalitiesDetails[i].entidade.toLowerCase().trim()) {
+              if (concelho === administrations.muncicipalitiesDetails[i].nome.toLowerCase().trim()) {
                 local.detalhesMunicipio = administrations.muncicipalitiesDetails[i]
                 break // found it, break loop
               }
