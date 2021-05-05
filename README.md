@@ -101,26 +101,48 @@ With no parameters, returns a JSON array with parishes (freguesias) names, alpha
 Accept parameter `nome`. For example the request `/freguesia?nome=serzedelo` will return
 
 ```json
-{
-  "codigo":"6235",
-  "nif":"506863115",
-  "rua":"Rua do Grupo Desportivo, N.º 23",
-  "localidade":"Serzedelo (GUIMARÃES)",
-  "codigopostal":"4765-533",
-  "descrpostal":"SERZEDELO",
-  "email":"junta.serzedelo@gmail.com",
-  "telefone":"253532236",
-  "fax":"253532236",
-  "sitio":"",
-  "codigoine":"30866",
-  "eleitores2011":"3504",
-  "populacao2011":"4073",
-  "areaha":"514.44",
-  "nomecompleto":"Serzedelo",
-  "nome":"Serzedelo",
-  "municipio":"GUIMARÃES",
-  "nomecompleto2":"Serzedelo"
-}
+[
+   {
+      "codigo":"6235",
+      "nif":"506863115",
+      "rua":"Rua do Grupo Desportivo, N.º 23",
+      "localidade":"Serzedelo (GUIMARÃES)",
+      "codigopostal":"4765-533",
+      "descrpostal":"SERZEDELO",
+      "email":"junta.serzedelo@gmail.com",
+      "telefone":"253532236",
+      "fax":"253532236",
+      "sitio":"",
+      "codigoine":"30866",
+      "eleitores2011":"3504",
+      "populacao2011":"4073",
+      "areaha":"514.44",
+      "nomecompleto":"Serzedelo",
+      "nome":"Serzedelo",
+      "municipio":"GUIMARÃES",
+      "nomecompleto2":"Serzedelo"
+   },
+   {
+      "codigo":"6269",
+      "nif":"507009460",
+      "rua":"Rua da Igreja",
+      "localidade":"Serzedelo (PÓVOA DE LANHOSO)",
+      "codigopostal":"4830-698",
+      "descrpostal":"SERZEDELO",
+      "email":"info@jf-serzedelo.pt",
+      "telefone":"253636601",
+      "fax":"253636601",
+      "sitio":"",
+      "codigoine":"30924",
+      "eleitores2011":"798",
+      "populacao2011":"830",
+      "areaha":"964.51",
+      "nomecompleto":"Serzedelo",
+      "nome":"Serzedelo",
+      "municipio":"PÓVOA DE LANHOSO",
+      "nomecompleto2":"Serzedelo"
+   }
+]
 ```
 
 Several names are allowed for the same parish, for example `Alcobaça e Vestiaria` and `União das freguesias de Alcobaça e Vestiaria` return both the details of the parish of Alcobaça.
