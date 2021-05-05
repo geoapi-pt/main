@@ -29,8 +29,7 @@ You may also request details for the returned municipality and parish with<br>`/
    "distrito":"Coimbra",
    "detalhesFreguesia":{
       "codigo":"6946",
-      "entidade":"Anobra (CONDEIXA-A-NOVA)",
-      "tipoentidade":"Freguesia",
+      "nome":"Anobra (CONDEIXA-A-NOVA)",
       "nif":"501280049",
       "rua":"Beco da Junta",
       "localidade":"Anobra (CONDEIXA-A-NOVA)",
@@ -48,8 +47,7 @@ You may also request details for the returned municipality and parish with<br>`/
    },
    "detalhesMunicipio":{
       "codigo":"2630",
-      "entidade":"CONDEIXA-A-NOVA",
-      "tipoentidade":"Município",
+      "nome":"CONDEIXA-A-NOVA",
       "nif":"501275380",
       "rua":"Largo Artur Barreto",
       "localidade":"CONDEIXA-A-NOVA",
