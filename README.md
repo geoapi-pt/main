@@ -67,6 +67,60 @@ You may also request details for the returned municipality and parish with<br>`/
 }
 ```
 
+### /detalheFreguesia
+
+Accept parameter `nome`. For example the request `/detalheFreguesia?nome=serzedelo` will return
+
+```json
+{
+  "codigo":"6235",
+  "nif":"506863115",
+  "rua":"Rua do Grupo Desportivo, N.º 23",
+  "localidade":"Serzedelo (GUIMARÃES)",
+  "codigopostal":"4765-533",
+  "descrpostal":"SERZEDELO",
+  "email":"junta.serzedelo@gmail.com",
+  "telefone":"253532236",
+  "fax":"253532236",
+  "sitio":"",
+  "codigoine":"30866",
+  "eleitores2011":"3504",
+  "populacao2011":"4073",
+  "areaha":"514.44",
+  "nomecompleto":"Serzedelo",
+  "nome":"Serzedelo",
+  "municipio":"GUIMARÃES",
+  "nomecompleto2":"Serzedelo"
+}
+```
+
+Several names are allowed for the same parish, for example `Alcobaça e Vestiaria` and `União das freguesias de Alcobaça e Vestiaria` return both the details of the parish of Alcobaça.
+
+### /detalheMunicipio
+
+Accept parameter `nome`. For example the request `/detalheMunicipio?nome=Évora` will return
+
+```json
+{
+  "codigo":"2643",
+  "nif":"504828576",
+  "rua":"Praça do Sertório",
+  "localidade":"EVORA",
+  "codigopostal":"7004-506",
+  "descrpostal":"EVORA",
+  "email":"cmevora@mail.evora.net",
+  "telefone":"266777000",
+  "fax":"266702950",
+  "sitio":"www.cm-evora.pt",
+  "presidentecamara":"Carlos Manuel Rodrigues Pinto de Sá",
+  "areaha":"1307.03",
+  "populacao":"56596",
+  "eleitores":"47923",
+  "codigoine":"705",
+  "nome":"ÉVORA"
+}
+```
+
 ### /listaDeMunicipios
 
 Returns a JSON array with municipalities names, alphabetically sorted
