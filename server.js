@@ -162,22 +162,27 @@ function startServer (callback) {
     if (Object.keys(req.query).length === 1 && req.query.nome) {
       const nameOfParish = req.query.nome.toLowerCase().trim()
 
+      const parishes = []
       for (const parish of administrations.parishesDetails) {
         const name1 = parish.nome.toLowerCase().trim()
         const name2 = parish.nomecompleto.toLowerCase().trim()
         const name3 = parish.nomecompleto2.toLowerCase().trim()
         if (nameOfParish === name1 || nameOfParish === name2 || nameOfParish === name3) {
-          res.set('Content-Type', 'application/json')
-          res.status(200)
-          res.send(JSON.stringify(parish))
-          res.end()
-          return
+          parishes.push(parish)
         }
       }
 
-      res.status(404)
-      res.send({ error: 'Parish not found!' })
-      res.end()
+      if (parishes.length) {
+        res.set('Content-Type', 'application/json')
+        res.status(200)
+        res.send(JSON.stringify(parishes))
+        res.end()
+      } else {
+        res.status(404)
+        res.send({ error: 'Parish not found!' })
+        res.end()
+      }
+
       return
     }
 
