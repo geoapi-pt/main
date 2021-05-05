@@ -25,7 +25,6 @@ function prepareServer (callback) {
     } else {
       regions = data.regions
       administrations = data.administrations
-      console.log(administrations.parishesDetails)
       callback()
     }
   })
@@ -112,10 +111,41 @@ function startServer (callback) {
   })
 
   app.get('/detalheMunicipio', function (req, res) {
-    const nome = req.query.nome
-    res.set('Content-Type', 'application/json')
-    res.status(200)
-    res.send(JSON.stringify(administrations.listOfParishesNames))
+    const nameOfMunicipality = req.query.nome.toLowerCase().trim()
+
+    for (const municipality of administrations.muncicipalitiesDetails) {
+      if (nameOfMunicipality === municipality.nome.toLowerCase().trim()) {
+        res.set('Content-Type', 'application/json')
+        res.status(200)
+        res.send(JSON.stringify(municipality))
+        res.end()
+        return
+      }
+    }
+
+    res.status(404)
+    res.send({ error: 'Municipality not found with that name. Check a list of municipalities with /listaDeMunicipios' })
+    res.end()
+  })
+
+  app.get('/detalheFreguesia', function (req, res) {
+    const nameOfParish = req.query.nome.toLowerCase().trim()
+
+    for (const parish of administrations.parishesDetails) {
+      const name1 = parish.nome.toLowerCase().trim()
+      const name2 = parish.nomecompleto.toLowerCase().trim()
+      const name3 = parish.nomecompleto2.toLowerCase().trim()
+      if (nameOfParish === name1 || nameOfParish === name2 || nameOfParish === name3) {
+        res.set('Content-Type', 'application/json')
+        res.status(200)
+        res.send(JSON.stringify(parish))
+        res.end()
+        return
+      }
+    }
+
+    res.status(404)
+    res.send({ error: 'Parish not found with that name. Check a list of parishes with /listaDeFreguesias' })
     res.end()
   })
 
