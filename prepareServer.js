@@ -144,8 +144,11 @@ function readJsonFiles (mainCallback) {
       delete parish.entityid
       delete parish.tipoentidade
 
-      // replace property name form entidade to nome
-      parish.nome = parish.entidade
+      // name is for ex.: "Anobra (CONDEIXA-A-NOVA)"
+      // extract municipality from parenthesis
+      const regExp = /(.+)\s\(([^)]+)\)/
+      parish.nome = regExp.exec(parish.entidade)[1] // nome da freguesia
+      parish.municipio = regExp.exec(parish.entidade)[2]
       delete parish.entidade
     }
     console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')

@@ -29,7 +29,8 @@ You may also request details for the returned municipality and parish with<br>`/
    "distrito":"Coimbra",
    "detalhesFreguesia":{
       "codigo":"6946",
-      "nome":"Anobra (CONDEIXA-A-NOVA)",
+      "nome":"Anobra",
+      "municipio": "CONDEIXA-A-NOVA",
       "nif":"501280049",
       "rua":"Beco da Junta",
       "localidade":"Anobra (CONDEIXA-A-NOVA)",
