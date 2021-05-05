@@ -14,6 +14,8 @@ const serverPort = process.env.npm_config_port ||
                    commandLineArgs([{ name: 'port', type: Number }]).port ||
                    '8080'
 
+// fetched from prepareServerMod
+// see global objects "regions" and "administrations" on prepareServer.js
 let regions, administrations
 
 function prepareServer (callback) {
@@ -23,6 +25,7 @@ function prepareServer (callback) {
     } else {
       regions = data.regions
       administrations = data.administrations
+      console.log(administrations.muncicipalitiesDetails)
       callback()
     }
   })
@@ -106,6 +109,14 @@ function startServer (callback) {
       res.send({ error: 'Wrong request! Example of good request:  /?lat=40.153687&lon=-8.514602' })
       res.end()
     }
+  })
+
+  app.get('/detalheMunicipio', function (req, res) {
+    const nome = req.query.nome
+    res.set('Content-Type', 'application/json')
+    res.status(200)
+    res.send(JSON.stringify(administrations.listOfParishesNames))
+    res.end()
   })
 
   app.get('/listaDeFreguesias', function (req, res) {
