@@ -6,11 +6,11 @@ It creates a HTTP server allowing several GET requests.
 
 ## Paths and parameters
 
-### Root path /
+### /gps
 
-The root path has three parameters: `lat`, `lon` and `detalhes` (optional).
+The `/gps` path has three parameters: `lat`, `lon` and `detalhes` (optional).
 
-The GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
+The GET request `/gps?lat=40.153687&lon=-8.514602` returns a JSON
 
 ```json
 {
@@ -20,7 +20,7 @@ The GET request `/?lat=40.153687&lon=-8.514602` returns a JSON
 }
 ```
 
-You may also request details for the returned municipality and parish with<br>`/?lat=40.153687&lon=-8.514602&detalhes=1`, which outputs:
+You may also request details for the returned municipality and parish with<br>`/gps?lat=40.153687&lon=-8.514602&detalhes=1`, which outputs:
 
 ```json
 {
@@ -67,9 +67,38 @@ You may also request details for the returned municipality and parish with<br>`/
 }
 ```
 
-### /detalheFreguesia
+### /municipio or /municipios
 
-Accept parameter `nome`. For example the request `/detalheFreguesia?nome=serzedelo` will return
+With no parameters, returns a JSON array with municipalities names, alphabetically sorted.
+
+Accept parameter `nome`. For example the request `/municipio?nome=Évora` will return
+
+```json
+{
+  "codigo":"2643",
+  "nif":"504828576",
+  "rua":"Praça do Sertório",
+  "localidade":"EVORA",
+  "codigopostal":"7004-506",
+  "descrpostal":"EVORA",
+  "email":"cmevora@mail.evora.net",
+  "telefone":"266777000",
+  "fax":"266702950",
+  "sitio":"www.cm-evora.pt",
+  "presidentecamara":"Carlos Manuel Rodrigues Pinto de Sá",
+  "areaha":"1307.03",
+  "populacao":"56596",
+  "eleitores":"47923",
+  "codigoine":"705",
+  "nome":"ÉVORA"
+}
+```
+
+### /freguesia or /freguesias
+
+With no parameters, returns a JSON array with parishes (freguesias) names, alphabetically sorted.
+
+Accept parameter `nome`. For example the request `/freguesia?nome=serzedelo` will return
 
 ```json
 {
@@ -96,41 +125,7 @@ Accept parameter `nome`. For example the request `/detalheFreguesia?nome=serzede
 
 Several names are allowed for the same parish, for example `Alcobaça e Vestiaria` and `União das freguesias de Alcobaça e Vestiaria` return both the details of the parish of Alcobaça.
 
-### /detalheMunicipio
-
-Accept parameter `nome`. For example the request `/detalheMunicipio?nome=Évora` will return
-
-```json
-{
-  "codigo":"2643",
-  "nif":"504828576",
-  "rua":"Praça do Sertório",
-  "localidade":"EVORA",
-  "codigopostal":"7004-506",
-  "descrpostal":"EVORA",
-  "email":"cmevora@mail.evora.net",
-  "telefone":"266777000",
-  "fax":"266702950",
-  "sitio":"www.cm-evora.pt",
-  "presidentecamara":"Carlos Manuel Rodrigues Pinto de Sá",
-  "areaha":"1307.03",
-  "populacao":"56596",
-  "eleitores":"47923",
-  "codigoine":"705",
-  "nome":"ÉVORA"
-}
-```
-
-### /listaDeMunicipios
-
-Returns a JSON array with municipalities names, alphabetically sorted
-
-### /listaDeFreguesias
-
-Returns a JSON array with parishes (freguesias) names, alphabetically sorted
-
-
-### /listaDeMunicipiosComFreguesias
+### /municipiosComFreguesias
 
 Returns a JSON array of objects, each object corresponding to a municipality and an array of its parishes
 
