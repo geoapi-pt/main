@@ -25,7 +25,7 @@ function prepareServer (callback) {
     } else {
       regions = data.regions
       administrations = data.administrations
-      console.log(administrations.muncicipalitiesDetails)
+      console.log(administrations.parishesDetails)
       callback()
     }
   })
