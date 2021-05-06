@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const bodyParser = require('body-parser')
 const cors = require('cors')
 const PolygonLookup = require('polygon-lookup')
 const proj4 = require('proj4')
@@ -35,6 +36,7 @@ function prepareServer (callback) {
 function startServer (callback) {
   const app = express()
   app.use(cors())
+  app.use(bodyParser.json())
 
   app.get('/', function (req, res) {
     if (req.url.includes('favicon.ico')) {
@@ -93,35 +95,27 @@ function startServer (callback) {
 
           debug(local)
 
-          res.set('Content-Type', 'application/json')
-          res.status(200)
-          res.send(JSON.stringify(local))
-          res.end()
+          res.status(200).send(local)
           return
         }
       }
 
       debug('Results not found')
 
-      res.status(404)
-      res.send({ error: 'Results not found. Coordinates out of scope!' })
-      res.end()
+      res.status(404).send({ error: 'Results not found. Coordinates out of scope!' })
     } catch (e) {
       debug('Error on server', e)
 
-      res.status(400)
-      res.send({ error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' })
-      res.end()
+      res.status(400).send(
+        { error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' }
+      )
     }
   })
 
   app.get(['/municipio', '/municipios'], function (req, res) {
     // no parameters, list of municipalities
     if (Object.keys(req.query).length === 0) {
-      res.set('Content-Type', 'application/json')
-      res.status(200)
-      res.send(JSON.stringify(administrations.listOfMunicipalitiesNames))
-      res.end()
+      res.status(200).send(administrations.listOfMunicipalitiesNames)
       return
     }
 
@@ -130,32 +124,22 @@ function startServer (callback) {
 
       for (const municipality of administrations.muncicipalitiesDetails) {
         if (nameOfMunicipality === municipality.nome.toLowerCase().trim()) {
-          res.set('Content-Type', 'application/json')
-          res.status(200)
-          res.send(JSON.stringify(municipality))
-          res.end()
+          res.status(200).send(municipality)
           return
         }
       }
 
-      res.status(404)
-      res.send({ error: 'Municipality not found!' })
-      res.end()
+      res.status(404).send({ error: 'Municipality not found!' })
       return
     }
 
-    res.status(400)
-    res.send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
-    res.end()
+    res.status(400).send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
   })
 
   app.get(['/freguesia', '/freguesias'], function (req, res) {
     // no parameters, list of parishes
     if (Object.keys(req.query).length === 0) {
-      res.set('Content-Type', 'application/json')
-      res.status(200)
-      res.send(JSON.stringify(administrations.listOfParishesNames))
-      res.end()
+      res.status(200).send(administrations.listOfParishesNames)
       return
     }
 
@@ -173,35 +157,23 @@ function startServer (callback) {
       }
 
       if (parishes.length) {
-        res.set('Content-Type', 'application/json')
-        res.status(200)
-        res.send(JSON.stringify(parishes))
-        res.end()
+        res.status(200).send(parishes)
       } else {
-        res.status(404)
-        res.send({ error: 'Parish not found!' })
-        res.end()
+        res.status(404).send({ error: 'Parish not found!' })
       }
 
       return
     }
 
-    res.status(400)
-    res.send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
-    res.end()
+    res.status(400).send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
   })
 
   app.get('/municipiosComFreguesias', function (req, res) {
-    res.set('Content-Type', 'application/json')
-    res.status(200)
-    res.send(JSON.stringify(administrations.listOfMunicipalitiesWithParishes))
-    res.end()
+    res.status(200).send(administrations.listOfMunicipalitiesWithParishes)
   })
 
   app.use(function (req, res) {
-    res.status(404)
-    res.send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
-    res.end()
+    res.status(404).send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
   })
 
   const server = app.listen(serverPort, () => {
@@ -210,7 +182,7 @@ function startServer (callback) {
     console.log('*******************************************************************************')
     console.log('**                             GEO PT API                                    **')
     console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('http://localhost:' + serverPort) + Array(17).join(' ')}**`)
-    console.log(`**        for instructions see ${colors.cyan.bold(mainPageUrl)}         **`)
+    console.log(`**              for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(16).join(' ')}**`)
     console.log('*******************************************************************************')
   })
 
