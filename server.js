@@ -39,11 +39,6 @@ function startServer (callback) {
   app.use(bodyParser.json())
 
   app.get('/', function (req, res) {
-    if (req.url.includes('favicon.ico')) {
-      res.writeHead(204) // no content
-      res.end()
-      return
-    }
     res.redirect(mainPageUrl)
   })
 
@@ -196,7 +191,14 @@ function startServer (callback) {
   })
 
   app.use(function (req, res) {
-    res.status(404).send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
+    if (req.url.includes('favicon.ico')) {
+      res.writeHead(204) // no content
+      res.end()
+    } else {
+      res.status(404).send(
+        { error: 'Bad request. Check instrucions on ' + mainPageUrl }
+      )
+    }
   })
 
   const server = app.listen(serverPort, () => {
