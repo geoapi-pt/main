@@ -1,6 +1,6 @@
 # GEO PT API
 
-Detect official divisional administrative regions of Portugal ("Carta Administrativa Oficial de Portugal - CAOP 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)), providing GPS coordinates as input. You can use the public API [here](https://geo-pt-api.joaopimentel.com/gps?lat=40.153687&lon=-8.514602). It includes mainland Portugal, Azores and Madeira.
+Detect official divisional administrative regions of Portugal ("Carta Administrativa Oficial de Portugal - CAOP 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)), providing GPS coordinates as input. You can use the public API [here](https://geoptapi.org/gps?lat=40.153687&lon=-8.514602). It includes mainland Portugal, Azores and Madeira.
 
 It uses nodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
@@ -194,9 +194,9 @@ Returns a JSON array of objects, each object corresponding to a municipality and
 
  1. Install nodeJS, npm and git
  2. Clone the project:<br>
-    `git clone https://github.com/jfoclpf/geo-pt-api.git`
+    `git clone https://github.com/jfoclpf/geoptapi.git`
  3. Enter the newly created directory and install dependencies<br>
-    `cd geo-pt-api && npm install`
+    `cd geoptapi && npm install`
  4. Start the server<br>
     `npm start --port=8080`
 
