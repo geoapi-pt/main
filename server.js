@@ -119,21 +119,31 @@ function startServer (callback) {
       return
     }
 
-    if (Object.keys(req.query).length === 1 && req.query.nome) {
-      const nameOfMunicipality = req.query.nome.toLowerCase().trim()
+    const { nome } = req.query
+    let results = [...administrations.muncicipalitiesDetails]
 
-      for (const municipality of administrations.muncicipalitiesDetails) {
-        if (nameOfMunicipality === municipality.nome.toLowerCase().trim()) {
-          res.status(200).send(municipality)
-          return
-        }
-      }
-
-      res.status(404).send({ error: 'Municipality not found!' })
-      return
+    if (nome) {
+      const municipalityToFind = nome.toLowerCase().trim()
+      results = results.filter(
+        municipality => municipality.nome.toLowerCase().trim() === municipalityToFind
+      )
     }
 
-    res.status(400).send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
+    // remaining filters
+    const filters = ['codigo', 'nif', 'codigopostal',
+      'email', 'telefone', 'fax', 'sitio', 'codigoine']
+
+    for (const filter of filters) {
+      if (req.query[filter]) {
+        results = results.filter(p => p[filter] === req.query[filter])
+      }
+    }
+
+    if (results.length) {
+      res.status(200).send(results)
+    } else {
+      res.status(404).send({ error: 'Municipality not found!' })
+    }
   })
 
   app.get(['/freguesia', '/freguesias'], function (req, res) {
@@ -143,32 +153,45 @@ function startServer (callback) {
       return
     }
 
-    if (Object.keys(req.query).length === 1 && req.query.nome) {
-      const nameOfParish = req.query.nome.toLowerCase().trim()
+    const { nome, municipio } = req.query
+    let results = [...administrations.parishesDetails]
 
-      const parishes = []
-      for (const parish of administrations.parishesDetails) {
+    if (nome) {
+      const parishToFind = nome.toLowerCase().trim()
+      results = results.filter(parish => {
         const name1 = parish.nome.toLowerCase().trim()
         const name2 = parish.nomecompleto.toLowerCase().trim()
         const name3 = parish.nomecompleto2.toLowerCase().trim()
-        if (nameOfParish === name1 || nameOfParish === name2 || nameOfParish === name3) {
-          parishes.push(parish)
-        }
-      }
-
-      if (parishes.length) {
-        res.status(200).send(parishes)
-      } else {
-        res.status(404).send({ error: 'Parish not found!' })
-      }
-
-      return
+        return parishToFind === name1 || parishToFind === name2 || parishToFind === name3
+      })
     }
 
-    res.status(400).send({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
+    if (municipio) {
+      const municipalityToFind = municipio.toLowerCase().trim()
+      results = results.filter(
+        parish => parish.municipio.toLowerCase().trim() === municipalityToFind
+      )
+    }
+
+    // remaining filters
+    const filters = ['codigo', 'nif', 'codigopostal',
+      'email', 'telefone', 'fax', 'sitio', 'codigoine']
+
+    for (const filter of filters) {
+      if (req.query[filter]) {
+        results = results.filter(p => p[filter] === req.query[filter])
+      }
+    }
+
+    if (results.length) {
+      res.status(200).send(results)
+    } else {
+      res.status(404).send({ error: 'Parish not found!' })
+    }
   })
 
-  app.get('/municipiosComFreguesias', function (req, res) {
+  // /municipio(s)/freguesia(s)
+  app.get(/^\/municipios?\/freguesias?$/, function (req, res) {
     res.status(200).send(administrations.listOfMunicipalitiesWithParishes)
   })
 
