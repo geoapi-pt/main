@@ -176,7 +176,7 @@ And the request `/freguesia?nome=serzedelo&municipio=guimarães` will return
 ]
 ```
 
-### /municipio(s)/freguesia(s)
+### /municipios/freguesias
 
 Returns a JSON array of objects, each object corresponding to a municipality and an array of its parishes
 
