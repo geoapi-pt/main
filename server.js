@@ -193,7 +193,6 @@ function startServer (callback) {
   app.use(function (req, res) {
     if (req.url.includes('favicon.ico')) {
       res.writeHead(204) // no content
-      res.end()
     } else {
       res.status(404).send(
         { error: 'Bad request. Check instrucions on ' + mainPageUrl }
