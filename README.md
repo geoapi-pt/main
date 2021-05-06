@@ -1,6 +1,6 @@
 # GEO PT API
 
-Detect official divisional administrative regions of Portugal ("Carta Administrativa Oficial de Portugal - CAOP 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)), providing GPS coordinates as input. You can use the public API [here](https://geoptapi.org/gps?lat=40.153687&lon=-8.514602). It includes mainland Portugal, Azores and Madeira.
+Detect official divisional administrative regions of Portugal ("Carta Administrativa Oficial de Portugal - CAOP 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)), providing GPS coordinates as input. You can use the public API at [geoptapi.org](https://geoptapi.org/gps?lat=40.153687&lon=-8.514602). It includes mainland Portugal, Azores and Madeira.
 
 It uses nodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
