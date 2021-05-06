@@ -208,7 +208,7 @@ function startServer (callback) {
     console.log('Listening on port ' + serverPort)
     console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
     console.log('*******************************************************************************')
-    console.log('**                             GEO-PT-API                                    **')
+    console.log('**                             GEO PT API                                    **')
     console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('http://localhost:' + serverPort) + Array(17).join(' ')}**`)
     console.log(`**        for instructions see ${colors.cyan.bold(mainPageUrl)}         **`)
     console.log('*******************************************************************************')
