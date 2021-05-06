@@ -8,7 +8,7 @@ const debug = require('debug')('http')
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
-const mainPageUrl = 'https://jfoclpf.github.io/geo-pt-api/'
+const mainPageUrl = 'https://jfoclpf.github.io/geoptapi/'
 
 const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 
