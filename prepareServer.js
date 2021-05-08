@@ -52,6 +52,14 @@ const regions = {
   }
 }
 
+// some files are more recent bu they have less information
+// thus information from different sources will be merged
+const jsonResFiles = {
+  parishes2018: 'detalhesFreguesias2018.json',
+  municipalities2018: 'detalhesMunicipios2018.json',
+  municipalities2021: 'detalhesMunicipios2021DGAL.json'
+}
+
 // for municipalities and parishes
 const administrations = {
   parishesDetails: [], // array with details of freguesias
@@ -134,7 +142,7 @@ function readProjectionFile (mainCallback) {
 function readJsonFiles (mainCallback) {
   try {
     administrations.parishesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'detalhesFreguesias.json'), 'utf8')
+      path.join(__dirname, 'res', jsonResFiles.parishes2018), 'utf8')
     ).d
     // just strip out irrelevant info
     for (const parish of administrations.parishesDetails) {
@@ -151,10 +159,10 @@ function readJsonFiles (mainCallback) {
       parish.municipio = regExp.exec(parish.entidade)[2]
       delete parish.entidade
     }
-    console.log(colors.cyan('detalhesFreguesias.json') + ' read with success')
+    console.log(colors.cyan(jsonResFiles.parishes2018) + ' read with success')
 
     administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'detalhesMunicipios.json'), 'utf8')
+      path.join(__dirname, 'res', jsonResFiles.municipalities2018), 'utf8')
     ).d
     // just strip out irrelevant info
     for (const municipality of administrations.muncicipalitiesDetails) {
@@ -168,7 +176,7 @@ function readJsonFiles (mainCallback) {
       municipality.nome = municipality.entidade
       delete municipality.entidade
     }
-    console.log(colors.cyan('detalhesMunicipios.json') + ' read with success')
+    console.log(colors.cyan(jsonResFiles.municipalities2018) + ' read with success')
   } catch (e) {
     console.error(e)
     mainCallback(Error(e))
