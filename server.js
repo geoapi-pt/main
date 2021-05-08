@@ -90,18 +90,18 @@ function startServer (callback) {
 
           debug(local)
 
-          res.status(200).send(local)
+          res.status(200).json(local)
           return
         }
       }
 
       debug('Results not found')
 
-      res.status(404).send({ error: 'Results not found. Coordinates out of scope!' })
+      res.status(404).json({ error: 'Results not found. Coordinates out of scope!' })
     } catch (e) {
       debug('Error on server', e)
 
-      res.status(400).send(
+      res.status(400).json(
         { error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' }
       )
     }
@@ -110,7 +110,7 @@ function startServer (callback) {
   app.get(['/municipio', '/municipios'], function (req, res) {
     // no parameters, list of municipalities
     if (Object.keys(req.query).length === 0) {
-      res.status(200).send(administrations.listOfMunicipalitiesNames)
+      res.status(200).json(administrations.listOfMunicipalitiesNames)
       return
     }
 
@@ -135,16 +135,16 @@ function startServer (callback) {
     }
 
     if (results.length) {
-      res.status(200).send(results)
+      res.status(200).json(results)
     } else {
-      res.status(404).send({ error: 'Municipality not found!' })
+      res.status(404).json({ error: 'Municipality not found!' })
     }
   })
 
   app.get(['/freguesia', '/freguesias'], function (req, res) {
     // no parameters, list of parishes
     if (Object.keys(req.query).length === 0) {
-      res.status(200).send(administrations.listOfParishesNames)
+      res.status(200).json(administrations.listOfParishesNames)
       return
     }
 
@@ -179,22 +179,22 @@ function startServer (callback) {
     }
 
     if (results.length) {
-      res.status(200).send(results)
+      res.status(200).json(results)
     } else {
-      res.status(404).send({ error: 'Parish not found!' })
+      res.status(404).json({ error: 'Parish not found!' })
     }
   })
 
   // /municipio(s)/freguesia(s)
   app.get(/^\/municipios?\/freguesias?$/, function (req, res) {
-    res.status(200).send(administrations.listOfMunicipalitiesWithParishes)
+    res.status(200).json(administrations.listOfMunicipalitiesWithParishes)
   })
 
   app.use(function (req, res) {
     if (req.url.includes('favicon.ico')) {
       res.writeHead(204) // no content
     } else {
-      res.status(404).send(
+      res.status(404).json(
         { error: 'Bad request. Check instrucions on ' + mainPageUrl }
       )
     }
