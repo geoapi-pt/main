@@ -204,17 +204,19 @@ function readJsonFiles (mainCallback) {
       path.join(__dirname, 'res', jsonResFiles.parishes2019), 'utf8')
     ).Contatos_freguesias
 
-    for (const parish of administrations.parishesDetails) {
-      for (const parish2019 of parishesDetails2019) {
-        // removes what is between parentheses
-        const nameOfParish2019 = parish2019.NOME.replace(/\s+(.+)/, '')
-        if (cleanStr(parish2019.MUNICÍPIO) === cleanStr(parish.municipio) &&
-            (
-              cleanStr(nameOfParish2019) === cleanStr(parish.nome) ||
-              cleanStr(nameOfParish2019) === cleanStr(parish.nomecompleto)
-            )
+    for (const parish2019 of parishesDetails2019) {
+      // removes what is between parentheses
+      const nameOfParish2019 = parish2019.NOME.replace(/\s+(.+)/, '')
+      for (const parish of administrations.parishesDetails) {
+        if (
+          (
+            cleanStr(nameOfParish2019) === cleanStr(parish.nome) ||
+            cleanStr(nameOfParish2019) === cleanStr(parish.nomecompleto)
+          ) &&
+            cleanStr(parish2019.MUNICÍPIO) === cleanStr(parish.municipio)
         ) {
           parish.email = parish2019.EMAIL || parish.email
+          parish.telefone = parish2019.TELEFONE || parish.telefone
           break
         }
       }
