@@ -8,6 +8,7 @@ const extract = require('extract-zip')
 const async = require('async')
 const debug = require('debug')('http')
 const colors = require('colors/safe')
+const ProgressBar = require('progress')
 
 module.exports = function (callback) {
   async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject],
@@ -205,7 +206,10 @@ function readJsonFiles (mainCallback) {
       path.join(__dirname, 'res', jsonResFiles.parishes2019), 'utf8')
     ).Contatos_freguesias
 
+    const bar = new ProgressBar(`Fetching from ${colors.cyan(jsonResFiles.parishes2019)} :percent`, { total: parishesDetails2019.length })
+
     for (const parish2019 of parishesDetails2019) {
+      bar.tick()
       // removes what is between parentheses
       const nameOfParish2019 = parish2019.NOME.replace(/\s+(.+)/, '')
       for (const parish of administrations.parishesDetails) {
