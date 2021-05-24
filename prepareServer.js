@@ -177,6 +177,24 @@ function readJsonFiles (mainCallback) {
       delete municipality.entidade
     }
     console.log(colors.cyan(jsonResFiles.municipalities2018) + ' read with success')
+
+    // still fetches information from municipalities file from 2021 and merges into muncicipalitiesDetails
+    // that is, updates the muncicipalitiesDetails object with info from 2021
+    const muncicipalitiesDetails2021 = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', jsonResFiles.municipalities2021), 'utf8')
+    ).municipios
+
+    for (const municipality of administrations.muncicipalitiesDetails) {
+      for (const municipality2021 of muncicipalitiesDetails2021) {
+        if (cleanStr(municipality2021.MUNICÍPIO) === cleanStr(municipality.nome)) {
+          municipality.distrito = municipality2021.Distrito.replace(/Distrito\s/, '')
+          municipality.email = municipality2021['E-mail'] || municipality.email
+          municipality.telefone = municipality2021['Telefone '] || municipality2021.Telefone || municipality.telefone
+          municipality.sitio = municipality2021.Sitio || municipality.sitio
+          break
+        }
+      }
+    }
   } catch (e) {
     console.error(e)
     mainCallback(Error(e))
@@ -272,4 +290,10 @@ function buildAdministrationsObject (mainCallback) {
     console.log('administrations Object created with success')
     mainCallback()
   })
+}
+
+// clean string: lower case, trim whitespaces and remove diacritics
+// see also: https://stackoverflow.com/a/37511463/1243247
+function cleanStr (str) {
+  return str.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 }
