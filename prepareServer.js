@@ -56,6 +56,7 @@ const regions = {
 // thus information from different sources will be merged
 const jsonResFiles = {
   parishes2018: 'detalhesFreguesias2018.json',
+  parishes2019: 'detalhesFreguesias2019DGAL.json',
   municipalities2018: 'detalhesMunicipios2018.json',
   municipalities2021: 'detalhesMunicipios2021DGAL.json'
 }
@@ -195,6 +196,30 @@ function readJsonFiles (mainCallback) {
         }
       }
     }
+    console.log('Fetched info from ' + colors.cyan(jsonResFiles.municipalities2021))
+
+    // still fetches information from parishes file from 2019 and merges into parishesDetails
+    // that is, updates the parishesDetails object with info from 2019 (from DGAL)
+    const parishesDetails2019 = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', jsonResFiles.parishes2019), 'utf8')
+    ).Contatos_freguesias
+
+    for (const parish of administrations.parishesDetails) {
+      for (const parish2019 of parishesDetails2019) {
+        // removes what is between parentheses
+        const nameOfParish2019 = parish2019.NOME.replace(/\s+(.+)/, '')
+        if (cleanStr(parish2019.MUNICÍPIO) === cleanStr(parish.municipio) &&
+            (
+              cleanStr(nameOfParish2019) === cleanStr(parish.nome) ||
+              cleanStr(nameOfParish2019) === cleanStr(parish.nomecompleto)
+            )
+        ) {
+          parish.email = parish2019.EMAIL || parish.email
+          break
+        }
+      }
+    }
+    console.log('Fetched info from ' + colors.cyan(jsonResFiles.parishes2019))
   } catch (e) {
     console.error(e)
     mainCallback(Error(e))
