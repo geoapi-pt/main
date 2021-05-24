@@ -221,7 +221,7 @@ function readJsonFiles (mainCallback) {
         }
       }
     }
-    console.log('Fetched info from ' + colors.cyan(jsonResFiles.parishes2019))
+    console.log('Fetched email and telefone from ' + colors.cyan(jsonResFiles.parishes2019))
   } catch (e) {
     console.error(e)
     mainCallback(Error(e))
