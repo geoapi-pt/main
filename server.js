@@ -79,9 +79,9 @@ function startServer (callback) {
 
             // search for details for municipalities (municipios)
             const numberOfMunicipalities = administrations.muncicipalitiesDetails.length
-            const concelho = freguesia.properties.Concelho.toLowerCase().trim()
+            const concelho = cleanStr(freguesia.properties.Concelho)
             for (let i = 0; i < numberOfMunicipalities; i++) {
-              if (concelho === administrations.muncicipalitiesDetails[i].nome.toLowerCase().trim()) {
+              if (concelho === cleanStr(administrations.muncicipalitiesDetails[i].nome)) {
                 local.detalhesMunicipio = administrations.muncicipalitiesDetails[i]
                 break // found it, break loop
               }
@@ -118,9 +118,9 @@ function startServer (callback) {
     let results = [...administrations.muncicipalitiesDetails]
 
     if (nome) {
-      const municipalityToFind = nome.toLowerCase().trim()
+      const municipalityToFind = cleanStr(nome)
       results = results.filter(
-        municipality => municipality.nome.toLowerCase().trim() === municipalityToFind
+        municipality => cleanStr(municipality.nome) === municipalityToFind
       )
     }
 
@@ -152,19 +152,19 @@ function startServer (callback) {
     let results = [...administrations.parishesDetails]
 
     if (nome) {
-      const parishToFind = nome.toLowerCase().trim()
+      const parishToFind = cleanStr(nome)
       results = results.filter(parish => {
-        const name1 = parish.nome.toLowerCase().trim()
-        const name2 = parish.nomecompleto.toLowerCase().trim()
-        const name3 = parish.nomecompleto2.toLowerCase().trim()
+        const name1 = cleanStr(parish.nome)
+        const name2 = cleanStr(parish.nomecompleto)
+        const name3 = cleanStr(parish.nomecompleto2)
         return parishToFind === name1 || parishToFind === name2 || parishToFind === name3
       })
     }
 
     if (municipio) {
-      const municipalityToFind = municipio.toLowerCase().trim()
+      const municipalityToFind = cleanStr(municipio)
       results = results.filter(
-        parish => parish.municipio.toLowerCase().trim() === municipalityToFind
+        parish => cleanStr(parish.municipio) === municipalityToFind
       )
     }
 
@@ -229,3 +229,9 @@ async.series([prepareServer, startServer],
       debug(regions)
     }
   })
+
+// clean string: lower case, trim whitespaces and remove diacritics
+// see also: https://stackoverflow.com/a/37511463/1243247
+function cleanStr (str) {
+  return str.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+}
