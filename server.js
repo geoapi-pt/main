@@ -180,8 +180,10 @@ function startServer (callback) {
       }
     }
 
-    if (results.length) {
+    if (results.length > 1) {
       res.status(200).json(results)
+    } else if (results.length === 1) {
+      res.status(200).json(results[0])
     } else {
       res.status(404).json({ error: 'Parish not found!' })
     }
