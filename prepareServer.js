@@ -210,8 +210,8 @@ function readJsonFiles (mainCallback) {
 
     for (const parish2019 of parishesDetails2019) {
       bar.tick()
-      // removes what is between parentheses
-      const nameOfParish2019 = parish2019.NOME.replace(/\s+(.+)/, '')
+      // removes what is between the last parentheses
+      const nameOfParish2019 = parish2019.NOME.replace(/\s*\([^)]*\)\s*$/, '')
       for (const parish of administrations.parishesDetails) {
         if (
           (
