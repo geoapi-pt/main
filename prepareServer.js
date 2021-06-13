@@ -57,9 +57,9 @@ const regions = {
 // thus information from different sources will be merged
 const jsonResFiles = {
   parishes2018: 'detalhesFreguesias2018.json',
-  parishes2019: 'detalhesFreguesias2019DGAL.json',
+  parishes2019: 'detalhesFreguesias2019.json',
   municipalities2018: 'detalhesMunicipios2018.json',
-  municipalities2021: 'detalhesMunicipios2021DGAL.json'
+  municipalities2021: 'detalhesMunicipios2021.json'
 }
 
 // for municipalities and parishes
