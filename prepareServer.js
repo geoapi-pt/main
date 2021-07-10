@@ -105,9 +105,8 @@ function readShapefile (mainCallback) {
         `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
       )
       callback()
-    }).catch((error) => {
-      console.error(error.stack)
-      callback(Error('Error reading shapefile'))
+    }).catch((err) => {
+      callback(Error(err))
     })
   }, function (err) {
     if (err) {
