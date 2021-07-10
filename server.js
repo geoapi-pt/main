@@ -217,7 +217,12 @@ function startServer (callback) {
   // catches CTRL-C
   process.on('SIGINT', function () {
     console.log('Closing http server')
-    server.close()
+    try {
+      server.close()
+      process.exitCode = 0
+    } catch (e) {
+      process.exitCode = 1
+    }
   })
 
   callback()
