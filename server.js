@@ -214,16 +214,20 @@ function startServer (callback) {
     console.log('*******************************************************************************')
   })
 
-  // catches CTRL-C
-  process.on('SIGINT', function () {
-    console.log('Closing http server')
+  // gracefully exiting upon CTRL-C or when PM2 stops the process
+  process.on('SIGINT', gracefulShutdown)
+  process.on('SIGTERM', gracefulShutdown)
+  function gracefulShutdown (signal) {
+    console.log(`Received signal ${signal}. Closing http server`)
     try {
       server.close()
-      process.exit(0)
-    } catch (e) {
-      process.exit(1)
+      console.log('http server closed successfully. Exiting!')
+      setTimeout(() => process.exit(0), 500)
+    } catch (err) {
+      console.error('There was an error')
+      setTimeout(() => process.exit(1), 500)
     }
-  })
+  }
 
   callback()
 }
