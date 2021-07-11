@@ -93,20 +93,30 @@ function extractZip (mainCallback) {
 }
 
 function readShapefile (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    shapefile.read(
-      path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.shp'),
-      path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.dbf'),
-      { encoding: 'utf-8' }
-    ).then(geojson => {
-      regions[key].geojson = geojson
-      console.log(
-        `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
-        `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
-      )
-      callback()
-    }).catch((err) => {
-      callback(Error(err))
+  async.forEachOf(regions, function (value, key, forEachOfCallback) {
+    // try calling shapefile.read 5 times, waiting 500 ms between each retry
+    // see: https://github.com/mbostock/shapefile/issues/67
+    async.retry({ times: 5, interval: 500 }, function (retryCallback) {
+      shapefile.read(
+        path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.shp'),
+        path.join(__dirname, 'res', value.unzippedFilenamesWithoutExtension + '.dbf'),
+        { encoding: 'utf-8' }
+      ).then(geojson => {
+        console.log(
+          `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
+          `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
+        )
+        retryCallback(null, geojson)
+      }).catch((err) => {
+        retryCallback(Error(err))
+      })
+    }, function (err, result) {
+      if (err) {
+        forEachOfCallback(Error(err))
+      } else {
+        regions[key].geojson = result
+        forEachOfCallback()
+      }
     })
   }, function (err) {
     if (err) {
@@ -242,6 +252,10 @@ function buildAdministrationsObject (mainCallback) {
       // now fill in listOfParishesNames, listOfMunicipalitiesNames and listOfMunicipalitiesWithParishes
       const parishesArray = regions[key].geojson.features
       for (const parish of parishesArray) {
+        if (!parish || !parish.properties) {
+          throw Error(`Object parish (${parish}) or parish.properties (${parish.properties})undefined.\n` +
+            JSON.stringify(parishesArray, null, 2))
+        }
         const municipalityName = parish.properties.Concelho
         const parishName = parish.properties.Freguesia
 
