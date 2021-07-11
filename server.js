@@ -232,7 +232,7 @@ async.series([prepareServer, startServer],
   function (err) {
     if (err) {
       console.error(err)
-      process.exitCode = 1
+      process.exit(1)
     } else {
       console.log('Everything done with ' + colors.green.bold('success'))
       debug(regions)
