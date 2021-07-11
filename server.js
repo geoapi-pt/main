@@ -219,9 +219,9 @@ function startServer (callback) {
     console.log('Closing http server')
     try {
       server.close()
-      process.exitCode = 0
+      process.exit(0)
     } catch (e) {
-      process.exitCode = 1
+      process.exit(1)
     }
   })
 
