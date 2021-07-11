@@ -57,7 +57,7 @@ const regions = {
 // thus information from different sources will be merged
 const jsonResFiles = {
   parishes2018: 'detalhesFreguesias2018.json',
-  parishes2019: 'detalhesFreguesias2019.json',
+  parishes2021: 'detalhesFreguesias2021.json',
   municipalities2018: 'detalhesMunicipios2018.json',
   municipalities2021: 'detalhesMunicipios2021.json'
 }
@@ -212,10 +212,10 @@ function readJsonFiles (mainCallback) {
     // still fetches information from parishes file from 2019 and merges into parishesDetails
     // that is, updates the parishesDetails object with info from 2019 (from DGAL)
     const parishesDetails2019 = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.parishes2019), 'utf8')
+      path.join(__dirname, 'res', jsonResFiles.parishes2021), 'utf8')
     ).Contatos_freguesias
 
-    const bar = new ProgressBar(`Fetching from ${colors.cyan(jsonResFiles.parishes2019)} :percent`, { total: parishesDetails2019.length })
+    const bar = new ProgressBar(`Fetching from ${colors.cyan(jsonResFiles.parishes2021)} :percent`, { total: parishesDetails2019.length })
 
     for (const parish2019 of parishesDetails2019) {
       bar.tick()
@@ -235,7 +235,7 @@ function readJsonFiles (mainCallback) {
         }
       }
     }
-    console.log('Fetched email and telefone from ' + colors.cyan(jsonResFiles.parishes2019))
+    console.log('Fetched email and telefone from ' + colors.cyan(jsonResFiles.parishes2021))
   } catch (e) {
     console.error(e)
     mainCallback(Error(e))
