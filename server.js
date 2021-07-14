@@ -212,6 +212,12 @@ function startServer (callback) {
     console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('http://localhost:' + serverPort) + Array(17).join(' ')}**`)
     console.log(`**              for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(16).join(' ')}**`)
     console.log('*******************************************************************************')
+    
+    // if this is a test run for example through "npm test", exit after server started
+    const isTest = process.argv[2] === '--test'
+    if (isTest) {
+      setTimeout(() => process.exit(0), 500)
+    }
   })
 
   // gracefully exiting upon CTRL-C or when PM2 stops the process
@@ -222,7 +228,7 @@ function startServer (callback) {
     try {
       server.close()
       console.log('http server closed successfully. Exiting!')
-      setTimeout(() => process.exit(0), 500)
+      setTimeout(() => process.exit(0), 500) // give some time for console.log or for PM2 to write on the log files
     } catch (err) {
       console.error('There was an error')
       setTimeout(() => process.exit(1), 500)
