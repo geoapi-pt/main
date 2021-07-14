@@ -1,5 +1,3 @@
-# GEO PT API
-
 [![Build Status][travis_img]][travis_url]
 [![Dependency Status][dependency status_img]][dependency status_url]
 [![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/geoptapi/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/geoptapi?targetFile=package.json)
@@ -14,6 +12,7 @@
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
 
+# GEO PT API
 
 Provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira.
 
