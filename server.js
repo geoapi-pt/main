@@ -214,8 +214,7 @@ function startServer (callback) {
     console.log('*******************************************************************************')
 
     // if this is a test run for example through "npm test", exit after server started
-    const isTest = process.argv[2] === '--test' || process.env.NODE_ENV.trim() === 'test'
-    if (isTest) {
+    if (process.env.NODE_ENV.trim() === 'test') {
       setTimeout(() => process.exit(0), 500)
     }
   })
