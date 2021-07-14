@@ -13,8 +13,13 @@ const mainPageUrl = 'https://www.geoptapi.org/'
 
 const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 
+const argvOptions = commandLineArgs([
+  { name: 'port', type: Number },
+  { name: 'test', type: Boolean }
+])  
+
 const serverPort = process.env.npm_config_port ||
-                   commandLineArgs([{ name: 'port', type: Number }]).port ||
+                   argvOptions.port ||
                    '8080'
 
 // fetched from prepareServerMod
@@ -214,7 +219,7 @@ function startServer (callback) {
     console.log('*******************************************************************************')
 
     // if this is a test run for example through "npm test", exit after server started
-    if (process.env.NODE_ENV.trim() === 'test') {
+    if (argvOptions.test || process.env.NODE_ENV.trim() === 'test') {
       setTimeout(() => process.exit(0), 500)
     }
   })
