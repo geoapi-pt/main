@@ -212,9 +212,9 @@ function startServer (callback) {
     console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('http://localhost:' + serverPort) + Array(17).join(' ')}**`)
     console.log(`**              for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(16).join(' ')}**`)
     console.log('*******************************************************************************')
-    
+
     // if this is a test run for example through "npm test", exit after server started
-    const isTest = process.argv[2] === '--test'
+    const isTest = process.argv[2] === '--test' || process.env.NODE_ENV.trim() === 'test'
     if (isTest) {
       setTimeout(() => process.exit(0), 500)
     }
