@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
   "scripts": {
-    "test": "standard",
+    "test": "standard && node server.js --test",
     "start": "node server.js"
   },
   "repository": {
