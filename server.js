@@ -16,7 +16,7 @@ const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
   { name: 'test', type: Boolean }
-])  
+])
 
 const serverPort = process.env.npm_config_port ||
                    argvOptions.port ||
