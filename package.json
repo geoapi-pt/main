@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
   "scripts": {
-    "test": "standard && node server.js --test",
+    "test": "standard && npx depcheck --ignores=\"depcheck\" && node server.js --test",
     "start": "node server.js"
   },
   "repository": {
@@ -34,6 +34,7 @@
     "shapefile": "^0.6.6"
   },
   "devDependencies": {
+    "depcheck": "^1.4.2",
     "standard": "^16.0.3"
   }
 }
