@@ -56,10 +56,10 @@ const regions = {
 // some files are more recent bu they have less information
 // thus information from different sources will be merged
 const jsonResFiles = {
-  parishes2018: 'detalhesFreguesias2018.json',
-  parishes2021: 'detalhesFreguesias2021.json',
-  municipalities2018: 'detalhesMunicipios2018.json',
-  municipalities2021: 'detalhesMunicipios2021.json'
+  parishesA: 'detalhesFreguesiasA.json',
+  parishesB: 'detalhesFreguesiasB.json',
+  municipalitiesA: 'detalhesMunicipiosA.json',
+  municipalitiesB: 'detalhesMunicipiosB.json'
 }
 
 // for municipalities and parishes
@@ -153,7 +153,7 @@ function readProjectionFile (mainCallback) {
 function readJsonFiles (mainCallback) {
   try {
     administrations.parishesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.parishes2018), 'utf8')
+      path.join(__dirname, 'res', jsonResFiles.parishesA), 'utf8')
     ).d
     // just strip out irrelevant info
     for (const parish of administrations.parishesDetails) {
@@ -170,10 +170,10 @@ function readJsonFiles (mainCallback) {
       parish.municipio = regExp.exec(parish.entidade)[2]
       delete parish.entidade
     }
-    console.log(colors.cyan(jsonResFiles.parishes2018) + ' read with success')
+    console.log(colors.cyan(jsonResFiles.parishesA) + ' read with success')
 
     administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.municipalities2018), 'utf8')
+      path.join(__dirname, 'res', jsonResFiles.municipalitiesA), 'utf8')
     ).d
     // just strip out irrelevant info
     for (const municipality of administrations.muncicipalitiesDetails) {
@@ -187,55 +187,55 @@ function readJsonFiles (mainCallback) {
       municipality.nome = municipality.entidade
       delete municipality.entidade
     }
-    console.log(colors.cyan(jsonResFiles.municipalities2018) + ' read with success')
+    console.log(colors.cyan(jsonResFiles.municipalitiesA) + ' read with success')
 
     // still fetches information from municipalities file from 2021 and merges into muncicipalitiesDetails
     // that is, updates the muncicipalitiesDetails object with info from 2021
-    const muncicipalitiesDetails2021 = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.municipalities2021), 'utf8')
+    const muncicipalitiesDetailsB = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', jsonResFiles.municipalitiesB), 'utf8')
     ).municipios
 
     for (const municipality of administrations.muncicipalitiesDetails) {
-      for (const municipality2021 of muncicipalitiesDetails2021) {
-        if (cleanStr(municipality2021.MUNICÍPIO) === cleanStr(municipality.nome)) {
-          municipality.distrito = municipality2021.Distrito.replace(/Distrito\s/, '')
-          municipality.email = municipality2021['E-mail'] || municipality.email
-          municipality.telefone = municipality2021['Telefone '] || municipality2021.Telefone || municipality.telefone
-          municipality.sitio = municipality2021.Sitio || municipality.sitio
-          municipality.presidentecamara = (municipality2021['Nome  Presidente'] || municipality.presidentecamara || '').trim()
+      for (const municipalityB of muncicipalitiesDetailsB) {
+        if (cleanStr(municipalityB.MUNICÍPIO) === cleanStr(municipality.nome)) {
+          municipality.distrito = municipalityB.Distrito.replace(/Distrito\s/, '')
+          municipality.email = municipalityB['E-mail'] || municipality.email
+          municipality.telefone = municipalityB['Telefone '] || municipalityB.Telefone || municipality.telefone
+          municipality.sitio = municipalityB.Sitio || municipality.sitio
+          municipality.presidentecamara = (municipalityB['Nome  Presidente'] || municipality.presidentecamara || '').trim()
           break
         }
       }
     }
-    console.log('Fetched info from ' + colors.cyan(jsonResFiles.municipalities2021))
+    console.log('Fetched info from ' + colors.cyan(jsonResFiles.municipalitiesB))
 
     // still fetches information from parishes file from 2019 and merges into parishesDetails
     // that is, updates the parishesDetails object with info from 2019 (from DGAL)
-    const parishesDetails2019 = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.parishes2021), 'utf8')
+    const parishesDetailsB = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', jsonResFiles.parishesB), 'utf8')
     ).Contatos_freguesias
 
-    const bar = new ProgressBar(`Fetching from ${colors.cyan(jsonResFiles.parishes2021)} :percent`, { total: parishesDetails2019.length })
+    const bar = new ProgressBar(`Fetching from ${colors.cyan(jsonResFiles.parishesB)} :percent`, { total: parishesDetailsB.length })
 
-    for (const parish2019 of parishesDetails2019) {
+    for (const parishB of parishesDetailsB) {
       bar.tick()
       // removes what is between the last parentheses
-      const nameOfParish2019 = parish2019.NOME.replace(/\s*\([^)]*\)\s*$/, '')
+      const nameOfParish2019 = parishB.NOME.replace(/\s*\([^)]*\)\s*$/, '')
       for (const parish of administrations.parishesDetails) {
         if (
           (
             cleanStr(nameOfParish2019) === cleanStr(parish.nome) ||
             cleanStr(nameOfParish2019) === cleanStr(parish.nomecompleto)
           ) &&
-            cleanStr(parish2019.MUNICÍPIO) === cleanStr(parish.municipio)
+            cleanStr(parishB.MUNICÍPIO) === cleanStr(parish.municipio)
         ) {
-          parish.email = parish2019.EMAIL || parish.email
-          parish.telefone = parish2019.TELEFONE || parish.telefone
+          parish.email = parishB.EMAIL || parish.email
+          parish.telefone = parishB.TELEFONE || parish.telefone
           break
         }
       }
     }
-    console.log('Fetched email and telefone from ' + colors.cyan(jsonResFiles.parishes2021))
+    console.log('Fetched email and telefone from ' + colors.cyan(jsonResFiles.parishesB))
   } catch (e) {
     console.error(e)
     mainCallback(Error(e))
