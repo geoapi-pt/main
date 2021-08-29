@@ -152,26 +152,8 @@ function readProjectionFile (mainCallback) {
 
 function readJsonFiles (mainCallback) {
   try {
-    administrations.parishesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.parishesA), 'utf8')
-    ).d
-    // just strip out irrelevant info
-    for (const parish of administrations.parishesDetails) {
-      delete parish.PartitionKey
-      delete parish.RowKey
-      delete parish.Timestamp
-      delete parish.entityid
-      delete parish.tipoentidade
-
-      // name is for ex.: "Anobra (CONDEIXA-A-NOVA)"
-      // extract municipality from parenthesis
-      const regExp = /(.+)\s\(([^)]+)\)/
-      parish.nome = regExp.exec(parish.entidade)[1] // nome da freguesia
-      parish.municipio = regExp.exec(parish.entidade)[2]
-      delete parish.entidade
-    }
-    console.log(colors.cyan(jsonResFiles.parishesA) + ' read with success')
-
+    /********************************************************************************************/
+    // municipalities
     administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.municipalitiesA), 'utf8')
     ).d
@@ -205,11 +187,43 @@ function readJsonFiles (mainCallback) {
           break
         }
       }
-    }
-    console.log('Fetched info from ' + colors.cyan(jsonResFiles.municipalitiesB))
 
-    // still fetches information from parishes file from 2019 and merges into parishesDetails
-    // that is, updates the parishesDetails object with info from 2019 (from DGAL)
+      // some names are in the form: "municipality (region)", for ex: "Calheta (Madeira)"
+      const matches = /\(([^)]+)\)/.exec(municipality.nome) // extract info between parentheses
+      if (matches && matches[1]) {
+        municipality['região'] = matches[1]
+        municipality.nome = municipality.nome.replace(/ *\([^)]*\) */g, '').trim() // remove text between parentheses
+      }
+    }
+    console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.municipalitiesB))
+  } catch (e) {
+    mainCallback(Error(`Error processing municipalities json files: ${e}`))
+    return
+  }
+
+  // parishes
+  try {
+    administrations.parishesDetails = JSON.parse(fs.readFileSync(
+      path.join(__dirname, 'res', jsonResFiles.parishesA), 'utf8')
+    ).d
+    // just strip out irrelevant info
+    for (const parish of administrations.parishesDetails) {
+      delete parish.PartitionKey
+      delete parish.RowKey
+      delete parish.Timestamp
+      delete parish.entityid
+      delete parish.tipoentidade
+
+      // name is for ex.: "Anobra (CONDEIXA-A-NOVA)"
+      // extract municipality from parenthesis
+      const regExp = /(.+)\s\(([^)]+)\)/
+      parish.nome = regExp.exec(parish.entidade)[1] // nome da freguesia
+      parish.municipio = regExp.exec(parish.entidade)[2]
+      delete parish.entidade
+    }
+    console.log(colors.cyan(jsonResFiles.parishesA) + ' read with success')
+
+    // still fetches information from parishes file from DGAL and merges into parishesDetails
     const parishesDetailsB = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.parishesB), 'utf8')
     ).Contatos_freguesias
@@ -234,10 +248,9 @@ function readJsonFiles (mainCallback) {
         }
       }
     }
-    console.log('Fetched email and telefone from ' + colors.cyan(jsonResFiles.parishesB))
+    console.log('Fetched and processed info from' + colors.cyan(jsonResFiles.parishesB))
   } catch (e) {
-    console.error(e)
-    mainCallback(Error(e))
+    mainCallback(Error(`Error processing parishes json files: ${e}`))
     return
   }
 
