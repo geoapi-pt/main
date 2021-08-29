@@ -11,11 +11,13 @@ We should not select either the ones ending in `GPKG`.
 
 ## json files
 
-The JSON files have the detailed information of the Municipalities and Parishes. The `A` files were downloaded from https://dados.gov.pt/pt and the `B` files from Direção Geral das Autarquias Locais's (DGAL) website. The code merges these two sources.
+The JSON files have the detailed information of the Municipalities and Parishes. The `A` files were downloaded from dados.gov.pt and the `B` files from Direção Geral das Autarquias Locais's (DGAL) website. The function `readJsonFiles` at [`prepareServer.js`](../prepareServer.js) merges data from these two different sources.
 
 Many of the contacts reported by DGAL were not correct nor updated, therefore further corrections and updates were done manually to the `B` files by looking the websites of parishes and municipalities on the Internet.
 
 | Administration | dados.gov.pt | DGAL |
 | -------------- | ----------- | --------------|
-| Municipalities | [extracted on 02-05-2018 (A file)](https://dados.gov.pt/pt/datasets/municipios-dados-gerais/) | [extracted on 08-05-2021 (B file)](http://www.portalautarquico.dgal.gov.pt/pt-PT/administracao-local/entidades-autarquicas/municipios/) |
-| Parishes   | [extracted on 02-05-2018 (A file)](https://dados.gov.pt/pt/datasets/municipios-dados-gerais/)  | as |
+| Municipalities | [detalhesMunicipiosA.json (02-05-2018)](https://dados.gov.pt/pt/datasets/municipios-dados-gerais/) | [detalhesMunicipiosB.json (08-05-2021)](http://www.portalautarquico.dgal.gov.pt/pt-PT/administracao-local/entidades-autarquicas/municipios/) |
+| Parishes   | [detalhesFreguesiasA.json (02-05-2018)](https://dados.gov.pt/pt/datasets/freguesias-dados-gerais/)  | [detalhesFreguesiasB.json (24-05-2021)](http://www.portalautarquico.dgal.gov.pt/pt-PT/administracao-local/entidades-autarquicas/freguesias/) |
+
+Further manual updates should be done to the `B` files.
