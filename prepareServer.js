@@ -151,9 +151,8 @@ function readProjectionFile (mainCallback) {
 }
 
 function readJsonFiles (mainCallback) {
+  // municipalities
   try {
-    /********************************************************************************************/
-    // municipalities
     administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.municipalitiesA), 'utf8')
     ).d
