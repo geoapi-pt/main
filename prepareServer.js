@@ -29,27 +29,32 @@ const regions = {
   cont: {
     name: 'Continente',
     zipFileName: 'Cont_AAD_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2020'
+    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2020',
+    geojson: {} // to be filled, info extracted from respective files
   },
   ArqMadeira: {
     name: 'Arquipélago da Madeira',
     zipFileName: 'ArqMadeira_AAD_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2020'
+    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2020',
+    geojson: {}
   },
   ArqAcores_GOcidental: {
     name: 'Arquipélago dos Açores (Grupo Ocidental)',
     zipFileName: 'ArqAcores_GOcidental_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2020'
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2020',
+    geojson: {}
   },
   ArqAcores_GCentral: {
     name: 'Arquipélago dos Açores (Grupo Central)',
     zipFileName: 'ArqAcores_GCentral_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2020'
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2020',
+    geojson: {}
   },
   ArqAcores_GOriental: {
     name: 'Arquipélago dos Açores (Grupo Oriental)',
     zipFileName: 'ArqAcores_GOriental_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2020'
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2020',
+    geojson: {}
   }
 }
 
@@ -247,7 +252,7 @@ function readJsonFiles (mainCallback) {
         }
       }
     }
-    console.log('Fetched and processed info from' + colors.cyan(jsonResFiles.parishesB))
+    console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.parishesB))
   } catch (e) {
     mainCallback(Error(`Error processing parishes json files: ${e}`))
     return
