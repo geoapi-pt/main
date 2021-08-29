@@ -189,8 +189,7 @@ function readJsonFiles (mainCallback) {
     }
     console.log(colors.cyan(jsonResFiles.municipalitiesA) + ' read with success')
 
-    // still fetches information from municipalities file from 2021 and merges into muncicipalitiesDetails
-    // that is, updates the muncicipalitiesDetails object with info from 2021
+    // still fetches information from municipalities file from DGAL and merges into muncicipalitiesDetails
     const muncicipalitiesDetailsB = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.municipalitiesB), 'utf8')
     ).municipios
@@ -220,12 +219,12 @@ function readJsonFiles (mainCallback) {
     for (const parishB of parishesDetailsB) {
       bar.tick()
       // removes what is between the last parentheses
-      const nameOfParish2019 = parishB.NOME.replace(/\s*\([^)]*\)\s*$/, '')
+      const nameOfParishB = parishB.NOME.replace(/\s*\([^)]*\)\s*$/, '')
       for (const parish of administrations.parishesDetails) {
         if (
           (
-            cleanStr(nameOfParish2019) === cleanStr(parish.nome) ||
-            cleanStr(nameOfParish2019) === cleanStr(parish.nomecompleto)
+            cleanStr(nameOfParishB) === cleanStr(parish.nome) ||
+            cleanStr(nameOfParishB) === cleanStr(parish.nomecompleto)
           ) &&
             cleanStr(parishB.MUNICÍPIO) === cleanStr(parish.municipio)
         ) {
