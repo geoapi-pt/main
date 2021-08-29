@@ -218,7 +218,9 @@ function startServer (callback) {
     console.log(`**              for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(16).join(' ')}**`)
     console.log('*******************************************************************************')
 
-    process.send('ready') // very important, trigger to PM2 that app is ready
+    if (process.send) {
+      process.send('ready') // very important, trigger to PM2 that app is ready
+    }
 
     // if this is a test run for example through "npm test", exit after server started
     if (argvOptions.test || (process.env.NODE_ENV && process.env.NODE_ENV.trim() === 'test')) {
