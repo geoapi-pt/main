@@ -218,6 +218,8 @@ function startServer (callback) {
     console.log(`**              for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(16).join(' ')}**`)
     console.log('*******************************************************************************')
 
+    process.send('ready') // very important, trigger to PM2 that app is ready
+
     // if this is a test run for example through "npm test", exit after server started
     if (argvOptions.test || (process.env.NODE_ENV && process.env.NODE_ENV.trim() === 'test')) {
       setTimeout(() => process.exit(0), 500)
@@ -230,9 +232,12 @@ function startServer (callback) {
   function gracefulShutdown (signal) {
     console.log(`Received signal ${signal}. Closing http server`)
     try {
-      server.close()
-      console.log('http server closed successfully. Exiting!')
-      setTimeout(() => process.exit(0), 500) // give some time for console.log or for PM2 to write on the log files
+      server.close(function (err) {
+        if (!err) {
+          console.log('http server closed successfully. Exiting!')
+        }
+        process.exit(err ? 1 : 0)
+      })
     } catch (err) {
       console.error('There was an error')
       setTimeout(() => process.exit(1), 500)
