@@ -3,6 +3,7 @@
     "name"        : "geoptapi",
     "script"      : "server.js",
     "args"        : "--port=4057",
+    "wait_ready"  : true,
     "watch"       : false,
     "instances"   : 4,
     "exec_mode"   : "cluster",
