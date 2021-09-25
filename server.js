@@ -27,7 +27,7 @@ const serverPort = process.env.npm_config_port ||
 let regions, administrations
 
 function prepareServer (callback) {
-  prepareServerMod((err, data) => {
+  prepareServerMod.prepare((err, data) => {
     if (err) {
       callback(Error(err))
     } else {

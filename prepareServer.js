@@ -10,19 +10,21 @@ const debug = require('debug')('http')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
 
-module.exports = function (callback) {
-  async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject],
-    function (err) {
-      if (err) {
-        console.error(err)
-        callback(Error(err))
-        process.exitCode = 1
-      } else {
-        console.log('Server prepared with ' + colors.green.bold('success'))
-        debug(regions)
-        callback(null, { regions, administrations })
-      }
-    })
+module.exports = {
+  prepare: function (callback) {
+    async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject],
+      function (err) {
+        if (err) {
+          console.error(err)
+          callback(Error(err))
+          process.exitCode = 1
+        } else {
+          console.log('Server prepared with ' + colors.green.bold('success'))
+          debug(regions)
+          callback(null, { regions, administrations })
+        }
+      })
+  }
 }
 
 const regions = {
