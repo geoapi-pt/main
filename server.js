@@ -15,7 +15,7 @@ const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
-  { name: 'test', type: Boolean }
+  { name: 'testStartup', type: Boolean }
 ])
 
 const serverPort = process.env.npm_config_port ||
@@ -210,6 +210,13 @@ function startServer (callback) {
   })
 
   const server = app.listen(serverPort, () => {
+    // if this is a test to merely test the start up of the server
+    if (argvOptions.testStartup) {
+      console.log('This was just to test the startup of the server, exiting now...')
+      gracefulShutdown()
+      return
+    }
+
     console.log('Listening on port ' + serverPort)
     console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
     console.log('*******************************************************************************')
@@ -221,18 +228,17 @@ function startServer (callback) {
     if (process.send) {
       process.send('ready') // very important, trigger to PM2 that app is ready
     }
-
-    // if this is a test run for example through "npm test", exit after server started
-    if (argvOptions.test || (process.env.NODE_ENV && process.env.NODE_ENV.trim() === 'test')) {
-      setTimeout(() => process.exit(0), 500)
-    }
   })
 
   // gracefully exiting upon CTRL-C or when PM2 stops the process
   process.on('SIGINT', gracefulShutdown)
   process.on('SIGTERM', gracefulShutdown)
   function gracefulShutdown (signal) {
-    console.log(`Received signal ${signal}. Closing http server`)
+    if (signal) {
+      console.log(`Received signal ${signal}`)
+    }
+    console.log('Gracefully closing http server')
+
     try {
       server.close(function (err) {
         if (!err) {
