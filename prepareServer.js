@@ -266,95 +266,80 @@ function readJsonFiles (mainCallback) {
 }
 
 // builds up global object administrations
-function buildAdministrationsObject (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    try {
-      // now fill in listOfParishesNames, listOfMunicipalitiesNames and listOfMunicipalitiesWithParishes
-      const parishesArray = regions[key].geojson.features
-      for (const parish of parishesArray) {
-        if (!parish || !parish.properties) {
-          throw Error(`Object parish (${parish}) or parish.properties (${parish.properties})undefined.\n` +
-            JSON.stringify(parishesArray, null, 2))
-        }
-        const municipalityName = parish.properties.Concelho
-        const parishName = parish.properties.Freguesia
+function buildAdministrationsObject (callback) {
+  for (const key in regions) {
+    // now fill in listOfParishesNames, listOfMunicipalitiesNames and listOfMunicipalitiesWithParishes
+    const parishesArray = regions[key].geojson.features
+    for (const parish of parishesArray) {
+      if (!parish || !parish.properties) {
+        throw Error(`Object parish (${parish}) or parish.properties (${parish.properties})undefined.\n` +
+          JSON.stringify(parishesArray, null, 2))
+      }
+      const municipalityName = parish.properties.Concelho
+      const parishName = parish.properties.Freguesia
+      const dicofre = parish.properties.Dicofre || parish.properties.DICOFRE
 
-        administrations.listOfParishesNames.push(parishName + ` (${municipalityName})`)
-        administrations.listOfMunicipalitiesNames.push(municipalityName)
+      administrations.listOfParishesNames.push(parishName + ` (${municipalityName})`)
+      administrations.listOfMunicipalitiesNames.push(municipalityName)
 
-        // extract parish names from geoson files, because names of parishes do not coincide between sources
-        // adding an extra field nomecompleto2 to administrations.parishesDetails
-        for (const parish2 of administrations.parishesDetails) {
-          const dicofre = parish.properties.Dicofre || parish.properties.DICOFRE
-
-          // Regex to remove leading zeros from string
-          if (parish2.codigoine.replace(/^0+/, '') === dicofre.replace(/^0+/, '')) {
-            parish2.nomecompleto2 = parishName
-            break
+      // extract parish names from geoson files, because names of parishes do not coincide between sources
+      // adding an extra fields nomecompleto2 and nomecompleto3 to administrations.parishesDetails
+      for (const parish2 of administrations.parishesDetails) {
+        // Regex to remove leading zeros from string
+        if (parish2.codigoine.replace(/^0+/, '') === dicofre.replace(/^0+/, '')) {
+          parish2.nomecompleto2 = parishName
+          if (parish.properties.Des_Simpli) {
+            parish2.nomecompleto3 = parish.properties.Des_Simpli
           }
-        }
-
-        // create listOfMunicipalitiesWithParishes
-        // ex: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
-        if (administrations.listOfMunicipalitiesWithParishes.some((el) => el.nome === municipalityName)) {
-          // add parish to already created municipality object
-          for (const muncipality of administrations.listOfMunicipalitiesWithParishes) {
-            if (muncipality.nome === municipalityName) {
-              muncipality.freguesias.push(parishName)
-            }
-          }
-        } else {
-          // create municipality and add its parish
-          const municipalityObj = {
-            nome: municipalityName,
-            freguesias: [parishName]
-          }
-          administrations.listOfMunicipalitiesWithParishes.push(municipalityObj)
+          break
         }
       }
-    } catch (e) {
-      callback(Error(e))
-      return
-    }
 
-    callback()
-  }, function (err) {
-    if (err) {
-      mainCallback(Error(err))
-      return
-    }
-
-    try {
-      // remove duplicates and sorts arrays
-      administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
-      administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
-
-      administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
-      administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
-
+      // create listOfMunicipalitiesWithParishes
       // ex: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
-      // remove duplicates
-      administrations.listOfMunicipalitiesWithParishes = [...new Set(administrations.listOfMunicipalitiesWithParishes)]
-      // sort alphabetically by name of municipality
-      administrations.listOfMunicipalitiesWithParishes = administrations
-        .listOfMunicipalitiesWithParishes.sort((a, b) => {
-          const municipalityA = a.nome.toUpperCase()
-          const municipalityB = b.nome.toUpperCase()
-          return (municipalityA < municipalityB) ? -1 : (municipalityA > municipalityB) ? 1 : 0
-        })
-      // remove duplicate parishes and sort them for each municipality
-      for (const municipality of administrations.listOfMunicipalitiesWithParishes) {
-        municipality.freguesias = [...new Set(municipality.freguesias)]
-        municipality.freguesias.sort()
+      if (administrations.listOfMunicipalitiesWithParishes.some((el) => el.nome === municipalityName)) {
+        // add parish to already created municipality object
+        for (const muncipality of administrations.listOfMunicipalitiesWithParishes) {
+          if (muncipality.nome === municipalityName) {
+            muncipality.freguesias.push(parishName)
+          }
+        }
+      } else {
+        // create municipality and add its parish
+        const municipalityObj = {
+          nome: municipalityName,
+          freguesias: [parishName]
+        }
+        administrations.listOfMunicipalitiesWithParishes.push(municipalityObj)
       }
-    } catch (e) {
-      mainCallback(Error(e))
-      return
     }
+  }
 
-    console.log('administrations Object created with success')
-    mainCallback()
-  })
+  // remove duplicates and sorts arrays
+  administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
+  administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
+
+  administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
+  administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
+
+  // ex: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
+  // remove duplicates
+  administrations.listOfMunicipalitiesWithParishes = [...new Set(administrations.listOfMunicipalitiesWithParishes)]
+  // sort alphabetically by name of municipality
+  administrations.listOfMunicipalitiesWithParishes = administrations
+    .listOfMunicipalitiesWithParishes.sort((a, b) => {
+      const municipalityA = a.nome.toUpperCase()
+      const municipalityB = b.nome.toUpperCase()
+      return (municipalityA < municipalityB) ? -1 : (municipalityA > municipalityB) ? 1 : 0
+    })
+  // remove duplicate parishes and sort them for each municipality
+  for (const municipality of administrations.listOfMunicipalitiesWithParishes) {
+    municipality.freguesias = [...new Set(municipality.freguesias)]
+    municipality.freguesias.sort()
+  }
+
+  console.log('administrations Object created with success')
+  callback()
 }
 
 // clean string: lower case, trim whitespaces and remove diacritics
