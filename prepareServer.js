@@ -60,6 +60,8 @@ const regions = {
   }
 }
 
+module.exports.regions = regions
+
 // some files are more recent bu they have less information
 // thus information from different sources will be merged
 const jsonResFiles = {
