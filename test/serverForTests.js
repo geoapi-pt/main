@@ -1,9 +1,9 @@
-/* server which opens in background to test the server */
+/* server which opens in background to test the server entries */
 /* Local server used for tests */
 
 const path = require('path')
 const { fork } = require('child_process')
-const debug = require('debug')('test:testServer')
+const debug = require('debug')('test:serverForTests')
 
 module.exports = {
   startsServerForTests: startsServerForTests,
