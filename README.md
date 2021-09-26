@@ -17,7 +17,7 @@
 
 Provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira.
 
-You can use freely the public API at [geoptapi.org](https://geoptapi.org/gps?lat=40.153687&lon=-8.514602).
+You can use freely the public API at `https://geoptapi.org` (without www). Example [here](https://geoptapi.org/gps?lat=40.153687&lon=-8.514602).
 
 It uses nodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
