@@ -12,6 +12,7 @@ const colors = require('colors/safe')
 const mainPageUrl = 'https://www.geoptapi.org/'
 
 const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
+const normalizeName = prepareServerMod.normalizeName
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -84,9 +85,9 @@ function startServer (callback) {
 
             // search for details for municipalities (municipios)
             const numberOfMunicipalities = administrations.muncicipalitiesDetails.length
-            const concelho = cleanStr(freguesia.properties.Concelho)
+            const concelho = normalizeName(freguesia.properties.Concelho)
             for (let i = 0; i < numberOfMunicipalities; i++) {
-              if (concelho === cleanStr(administrations.muncicipalitiesDetails[i].nome)) {
+              if (concelho === normalizeName(administrations.muncicipalitiesDetails[i].nome)) {
                 local.detalhesMunicipio = administrations.muncicipalitiesDetails[i]
                 break // found it, break loop
               }
@@ -123,9 +124,9 @@ function startServer (callback) {
     let results = [...administrations.muncicipalitiesDetails]
 
     if (nome) {
-      const municipalityToFind = cleanStr(nome)
+      const municipalityToFind = normalizeName(nome)
       results = results.filter(
-        municipality => cleanStr(municipality.nome) === municipalityToFind
+        municipality => normalizeName(municipality.nome) === municipalityToFind
       )
     }
 
@@ -159,19 +160,20 @@ function startServer (callback) {
     let results = [...administrations.parishesDetails]
 
     if (nome) {
-      const parishToFind = cleanStr(nome)
+      const parishToFind = normalizeName(nome)
       results = results.filter(parish => {
-        const name1 = cleanStr(parish.nome)
-        const name2 = cleanStr(parish.nomecompleto)
-        const name3 = cleanStr(parish.nomecompleto2)
-        return parishToFind === name1 || parishToFind === name2 || parishToFind === name3
+        const name0 = normalizeName(parish.nome)
+        const name1 = normalizeName(parish.nomecompleto)
+        const name2 = normalizeName(parish.nomecompleto2)
+        const name3 = normalizeName(parish.nomecompleto3)
+        return parishToFind === name0 || parishToFind === name1 || parishToFind === name2 || parishToFind === name3
       })
     }
 
     if (municipio) {
-      const municipalityToFind = cleanStr(municipio)
+      const municipalityToFind = normalizeName(municipio)
       results = results.filter(
-        parish => cleanStr(parish.municipio) === municipalityToFind
+        parish => normalizeName(parish.municipio) === municipalityToFind
       )
     }
 
@@ -265,9 +267,3 @@ async.series([prepareServer, startServer],
       debug(regions)
     }
   })
-
-// clean string: lower case, trim whitespaces and remove diacritics
-// see also: https://stackoverflow.com/a/37511463/1243247
-function cleanStr (str) {
-  return str.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-}

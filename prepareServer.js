@@ -24,7 +24,8 @@ module.exports = {
           callback(null, { regions, administrations })
         }
       })
-  }
+  },
+  normalizeName: normalizeName
 }
 
 const regions = {
@@ -186,7 +187,7 @@ function readJsonFiles (mainCallback) {
 
     for (const municipality of administrations.muncicipalitiesDetails) {
       for (const municipalityB of muncicipalitiesDetailsB) {
-        if (cleanStr(municipalityB.MUNICÍPIO) === cleanStr(municipality.nome)) {
+        if (normalizeName(municipalityB.MUNICÍPIO) === normalizeName(municipality.nome)) {
           municipality.distrito = municipalityB.Distrito.replace(/Distrito\s/, '')
           municipality.email = municipalityB['E-mail'] || municipality.email
           municipality.telefone = municipalityB['Telefone '] || municipalityB.Telefone || municipality.telefone
@@ -222,11 +223,13 @@ function readJsonFiles (mainCallback) {
       delete parish.entityid
       delete parish.tipoentidade
 
-      // name is for ex.: "Anobra (CONDEIXA-A-NOVA)"
-      // extract municipality from parenthesis
-      const regExp = /(.+)\s\(([^)]+)\)/
-      parish.nome = regExp.exec(parish.entidade)[1] // nome da freguesia
-      parish.municipio = regExp.exec(parish.entidade)[2]
+      const tempObj = extractParishInfoFromStr(parish.entidade)
+      parish.nome = tempObj.parish
+      parish.municipio = tempObj.municipality
+      if (tempObj.region) {
+        parish['região'] = tempObj.region
+      }
+
       delete parish.entidade
     }
     console.log(colors.cyan(jsonResFiles.parishesA) + ' read with success')
@@ -240,15 +243,17 @@ function readJsonFiles (mainCallback) {
 
     for (const parishB of parishesDetailsB) {
       bar.tick()
-      // removes what is between the last parentheses
-      const nameOfParishB = parishB.NOME.replace(/\s*\([^)]*\)\s*$/, '')
+
+      const nameOfParishB = extractParishInfoFromStr(parishB.NOME).parish
       for (const parish of administrations.parishesDetails) {
+        const normalizedNameOfParishB = normalizeName(nameOfParishB)
         if (
           (
-            cleanStr(nameOfParishB) === cleanStr(parish.nome) ||
-            cleanStr(nameOfParishB) === cleanStr(parish.nomecompleto)
+            normalizedNameOfParishB === normalizeName(parish.nome) ||
+            normalizedNameOfParishB === normalizeName(parish.nomecompleto)
           ) &&
-            cleanStr(parishB.MUNICÍPIO) === cleanStr(parish.municipio)
+            parishB.MUNICÍPIO && parish.municipio &&
+            normalizeName(parishB.MUNICÍPIO) === normalizeName(parish.municipio)
         ) {
           parish.email = parishB.EMAIL || parish.email
           parish.telefone = parishB.TELEFONE || parish.telefone
@@ -258,6 +263,7 @@ function readJsonFiles (mainCallback) {
     }
     console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.parishesB))
   } catch (e) {
+    console.error(e)
     mainCallback(Error(`Error processing parishes json files: ${e}`))
     return
   }
@@ -275,9 +281,11 @@ function buildAdministrationsObject (callback) {
         throw Error(`Object parish (${parish}) or parish.properties (${parish.properties})undefined.\n` +
           JSON.stringify(parishesArray, null, 2))
       }
+
+      // information from geojson
       const municipalityName = parish.properties.Concelho
       const parishName = parish.properties.Freguesia
-      const dicofre = parish.properties.Dicofre || parish.properties.DICOFRE
+      const codigoine = parish.properties.Dicofre || parish.properties.DICOFRE
 
       administrations.listOfParishesNames.push(parishName + ` (${municipalityName})`)
       administrations.listOfMunicipalitiesNames.push(municipalityName)
@@ -285,8 +293,9 @@ function buildAdministrationsObject (callback) {
       // extract parish names from geoson files, because names of parishes do not coincide between sources
       // adding an extra fields nomecompleto2 and nomecompleto3 to administrations.parishesDetails
       for (const parish2 of administrations.parishesDetails) {
+        // it detects the parish via Código do INE from different sources
         // Regex to remove leading zeros from string
-        if (parish2.codigoine.replace(/^0+/, '') === dicofre.replace(/^0+/, '')) {
+        if (parish2.codigoine.replace(/^0+/, '') === codigoine.replace(/^0+/, '')) {
           parish2.nomecompleto2 = parishName
           if (parish.properties.Des_Simpli) {
             parish2.nomecompleto3 = parish.properties.Des_Simpli
@@ -342,8 +351,42 @@ function buildAdministrationsObject (callback) {
   callback()
 }
 
-// clean string: lower case, trim whitespaces and remove diacritics
-// see also: https://stackoverflow.com/a/37511463/1243247
-function cleanStr (str) {
-  return str.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+// str is a string in the format "Parish (Municipality)" or "Parish (Municipality (Region))"
+// extract {Parish, Municipality, Region} from str, test here: https://regex101.com/r/NsM3rf/1
+function extractParishInfoFromStr (str) {
+  try {
+    const extractRegex = /^\s*(.+)\s*\(\s*([^()]+)(\s*|\s*\(.*\)\s*)\)\s*$/
+    const matches = str.match(extractRegex)
+    const parish = matches[1].trim()
+    const municipality = matches[2].trim()
+    let region
+
+    if (!parish || !municipality) {
+      throw Error(`Extracting parish name and municipality from string '${str}' threw an error`)
+    }
+
+    if (matches[3] && matches[3].trim()) {
+      const temp = matches[3].trim().match(/^\s*\(\s*(.*)\s*\)\s*$/)
+      region = temp[1].trim()
+    }
+
+    return { parish: parish, municipality: municipality, region: region }
+  } catch (err) {
+    throw Error(`Extracting parish name and municipality from string '${str}' threw an error: ${err}`)
+  }
+}
+
+// normalize name of parish or name of municipality such that it can be compared
+function normalizeName (name) {
+  if (typeof name === 'string') {
+    return name
+      .trim()
+      .toLowerCase()
+      .replace(/\.(\w)/g, '. $1') // add space after a dot followed by letter: 'N.AB' -> 'N. AB'
+      .replace(/\s(dos|das|de|da)\s/g, ' ') // remove words 'dos', 'das', 'de' e 'da'
+      .replace(/\s+/g, ' ') // removes excess of whitespaces
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // removes diacritics
+  } else {
+    return null
+  }
 }
