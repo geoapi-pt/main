@@ -37,7 +37,7 @@ async.series([startsHttpServer, readShapefile, buildMetaParishes, testAllParishe
 
 // starts http server on localhost on test default port
 function startsHttpServer (callback) {
-  console.log('Please wait for server to start up...')
+  console.log('Please wait for server to start on...')
   testServer.startsServerForTests(
     ['--port', TEST_PORT],
     function () {
@@ -122,10 +122,10 @@ function buildMetaParishes (callback) {
 
 // function to test all parishes
 function testAllParishes (mainCallback) {
-  const bar = new ProgressBar(':bar', { total: Parishes.length + 2 })
+  const bar = new ProgressBar('[:bar] :percent :info', { total: Parishes.length + 2, width: 80 })
   async.forEachOfLimit(Parishes, 50, function (el, key, callback) {
     testParishWithMunicipality(el.parish, el.muncipality, (err, res) => {
-      bar.tick({ info: `${el.parish}, ${el.muncipality}` })
+      bar.tick({ info: `${el.muncipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
       if (err) {
         callback(Error(err))
       } else {
