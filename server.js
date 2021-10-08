@@ -69,11 +69,12 @@ function startServer (callback) {
           const local = {
             freguesia: freguesia.properties.Freguesia,
             concelho: freguesia.properties.Concelho,
-            distrito: freguesia.properties.Distrito
+            distrito: freguesia.properties.Distrito,
+            ilha: freguesia.properties.Ilha
           }
 
           if (isDetails) {
-            // search for details for parishes (freguesias)
+            // search for details for parishes by código INE
             const numberOfParishes = administrations.parishesDetails.length
             // regex to remove leading zeros
             const codigoine = (freguesia.properties.Dicofre || freguesia.properties.DICOFRE).replace(/^0+/, '')
@@ -84,7 +85,7 @@ function startServer (callback) {
               }
             }
 
-            // search for details for municipalities (municipios)
+            // search for details for municipalities by name
             const numberOfMunicipalities = administrations.muncicipalitiesDetails.length
             const concelho = normalizeName(freguesia.properties.Concelho)
             for (let i = 0; i < numberOfMunicipalities; i++) {
