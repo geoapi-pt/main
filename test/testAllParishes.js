@@ -23,6 +23,7 @@ async.series([startsHttpServer, readShapefile, buildMetaParishes, testAllParishe
   // done after execution of above funcitons
   function (err, results) {
     testServer.closeServer()
+    console.timeEnd('timeToTestServer')
 
     if (err) {
       console.error(Error(err))
@@ -37,7 +38,9 @@ async.series([startsHttpServer, readShapefile, buildMetaParishes, testAllParishe
 
 // starts http server on localhost on test default port
 function startsHttpServer (callback) {
+  console.time('timeToTestServer')
   console.log('Please wait for server to start on...')
+
   testServer.startsServerForTests(
     ['--port', TEST_PORT],
     function () {
