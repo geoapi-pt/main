@@ -125,8 +125,9 @@ function buildMetaParishes (callback) {
 
 // function to test all parishes
 function testAllParishes (mainCallback) {
+  console.log('Test server with all parishes from geojson file,\nrequesting server with url /freguesia?nome=parish&municipio=municipality')
   const bar = new ProgressBar('[:bar] :percent :info', { total: Parishes.length + 2, width: 80 })
-  async.forEachOfLimit(Parishes, 50, function (el, key, callback) {
+  async.forEachOfLimit(Parishes, 100, function (el, key, callback) {
     testParishWithMunicipality(el.parish, el.muncipality, (err, res) => {
       bar.tick({ info: `${el.muncipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
       if (err) {
