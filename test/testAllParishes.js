@@ -127,7 +127,7 @@ function testAllParishes (mainCallback) {
     testParishWithMunicipality(el.parish, el.muncipality, (err, res) => {
       bar.tick({ info: `${el.muncipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
       if (err) {
-        callback(Error(err))
+        callback(Error(`Error on ${el.parish}, ${el.muncipality} : ${err}`))
       } else {
         callback()
       }
@@ -147,10 +147,12 @@ function testAllParishes (mainCallback) {
 function testParishWithMunicipality (parish, municipality, callback) {
   got(`http://localhost:${TEST_PORT}/freguesia?nome=${parish}&municipio=${municipality}`).json()
     .then(body => {
-      if (body.nome && !body.error) {
-        callback(null, body)
+      if (typeof body !== 'object' || Array.isArray(body)) {
+        callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on /freguesia?nome=${parish}&municipio=${municipality}\n`))
+      } else if (body.nome && !body.error) {
+        callback(null, body) // success
       } else {
-        callback(Error(body.error))
+        callback(Error(`\nError ${body.error}, on /freguesia?nome=${parish}&municipio=${municipality}\n`))
       }
     })
     .catch(err => {
