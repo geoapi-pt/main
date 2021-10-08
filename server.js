@@ -28,6 +28,7 @@ const serverPort = process.env.npm_config_port ||
 let regions, administrations
 
 function prepareServer (callback) {
+  console.time('serverTimeToStart')
   prepareServerMod.prepare((err, data) => {
     if (err) {
       callback(Error(err))
@@ -218,6 +219,8 @@ function startServer (callback) {
       gracefulShutdown()
       return
     }
+
+    console.timeEnd('serverTimeToStart')
 
     console.log('Listening on port ' + serverPort)
     console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
