@@ -205,7 +205,6 @@ function readJsonFiles (mainCallback) {
       }
     }
 
-    debug(administrations.muncicipalitiesDetails.filter(el => el.nome.toLowerCase().includes('calheta')))
     console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.municipalitiesB))
   } catch (e) {
     mainCallback(Error(`Error processing municipalities json files: ${e}`))
@@ -264,7 +263,6 @@ function readJsonFiles (mainCallback) {
       }
     }
 
-    debug(administrations.parishesDetails.filter(el => el.municipio.toLowerCase().includes('calheta')))
     console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.parishesB))
   } catch (e) {
     console.error(e)
