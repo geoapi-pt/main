@@ -4,7 +4,7 @@
     "script" : "server.js",
     "args" : "--port=4057",
     "wait_ready" : true,
-    "listen_timeout" : 15000,
+    "listen_timeout" : 50000,
     "watch" : false,
     "instances" : 4,
     "exec_mode" : "cluster",
