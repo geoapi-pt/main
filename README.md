@@ -260,5 +260,5 @@ pm2 start server.js -- --port 8080
 ## Debug
 
 ```
-DEBUG=http npm start --port=8080
+DEBUG=server npm start --port=8080
 ```
