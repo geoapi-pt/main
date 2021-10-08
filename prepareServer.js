@@ -6,9 +6,9 @@ const path = require('path')
 const shapefile = require('shapefile')
 const extract = require('extract-zip')
 const async = require('async')
-const debug = require('debug')('http')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
+const debug = require('debug')('prepareServer') // run: DEBUG=server npm start
 
 module.exports = {
   prepare: function (callback) {

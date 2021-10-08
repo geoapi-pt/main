@@ -5,7 +5,7 @@ const cors = require('cors')
 const PolygonLookup = require('polygon-lookup')
 const proj4 = require('proj4')
 const async = require('async')
-const debug = require('debug')('http')
+const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
