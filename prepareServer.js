@@ -310,9 +310,9 @@ function buildAdministrationsObject (callback) {
       // ex: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
       if (administrations.listOfMunicipalitiesWithParishes.some((el) => el.nome === municipalityName)) {
         // add parish to already created municipality object
-        for (const muncipality of administrations.listOfMunicipalitiesWithParishes) {
-          if (muncipality.nome === municipalityName) {
-            muncipality.freguesias.push(parishName)
+        for (const municipality of administrations.listOfMunicipalitiesWithParishes) {
+          if (municipality.nome === municipalityName) {
+            municipality.freguesias.push(parishName)
           }
         }
       } else {
