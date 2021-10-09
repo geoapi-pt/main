@@ -53,7 +53,7 @@ function startServer (callback) {
     try {
       debug('new query: ', req.query)
 
-      // sanitize request query
+      // ### validate request query ###
       const parameters = Object.keys(req.query)
       const numberOfParameters = parameters.length
       let isQueryValid = numberOfParameters === 2 || numberOfParameters === 3
@@ -63,8 +63,17 @@ function startServer (callback) {
         res.status(404).json({ error: 'Bad request for /gps. Check instrucions on ' + mainPageUrl })
         return
       }
+      // check that lat and lon are valid numbers
+      const isNumeric = function (str) {
+        if (typeof str !== 'string') return false
+        return !isNaN(str) && !isNaN(parseFloat(str))
+      }
+      if (!isNumeric(req.query.lat) || !isNumeric(req.query.lon)) {
+        res.status(404).json({ error: `Parameters lat and lon must be a valid number on ${req.originalUrl}` })
+        return
+      }
+      // ### request is valid from here ###
 
-      // request is sanitized from here
       const lat = parseFloat(req.query.lat) // ex: 40.153687
       const lon = parseFloat(req.query.lon) // ex: -8.514602
       const isDetails = Boolean(parseInt(req.query.detalhes))
