@@ -14,6 +14,9 @@ module.exports = {
   prepare: function (callback) {
     async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject],
       function (err) {
+        debug(administrations.municipalitiesDetails)
+        debug(administrations.parishesDetails)
+
         if (err) {
           console.error(err)
           callback(Error(err))
