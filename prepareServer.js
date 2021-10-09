@@ -173,6 +173,7 @@ function readJsonFiles (mainCallback) {
       delete municipality.Timestamp
       delete municipality.entityid
       delete municipality.tipoentidade
+      // may change every 4 years and would demand more maintenance to update
       delete municipality.presidentecamara
 
       // replace property name form entidade to nome
