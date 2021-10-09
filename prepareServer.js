@@ -75,7 +75,7 @@ const jsonResFiles = {
 // for municipalities and parishes
 const administrations = {
   parishesDetails: [], // array with details of freguesias
-  muncicipalitiesDetails: [], // array with details of municípios
+  municipalitiesDetails: [], // array with details of municípios
   listOfParishesNames: [], // an array with just names/strings of freguesias
   listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
   listOfMunicipalitiesWithParishes: [] // array of objects, each object corresponding to a municipality and an array of its parishes
@@ -163,11 +163,11 @@ function readProjectionFile (mainCallback) {
 function readJsonFiles (mainCallback) {
   // municipalities
   try {
-    administrations.muncicipalitiesDetails = JSON.parse(fs.readFileSync(
+    administrations.municipalitiesDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.municipalitiesA), 'utf8')
     ).d
     // just strip out irrelevant info
-    for (const municipality of administrations.muncicipalitiesDetails) {
+    for (const municipality of administrations.municipalitiesDetails) {
       delete municipality.PartitionKey
       delete municipality.RowKey
       delete municipality.Timestamp
@@ -182,12 +182,12 @@ function readJsonFiles (mainCallback) {
     }
     console.log(colors.cyan(jsonResFiles.municipalitiesA) + ' read with success')
 
-    // still fetches information from municipalities file from DGAL and merges into muncicipalitiesDetails
+    // still fetches information from municipalities file from DGAL and merges into municipalitiesDetails
     const muncicipalitiesDetailsB = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.municipalitiesB), 'utf8')
     ).municipios
 
-    for (const municipality of administrations.muncicipalitiesDetails) {
+    for (const municipality of administrations.municipalitiesDetails) {
       for (const municipalityB of muncicipalitiesDetailsB) {
         if (normalizeName(municipalityB.MUNICÍPIO) === normalizeName(municipality.nome)) {
           municipality.distrito = municipalityB.Distrito.replace(/Distrito\s/, '')
