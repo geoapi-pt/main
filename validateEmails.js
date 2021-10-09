@@ -50,13 +50,13 @@ if (claOptions.help || Object.keys(claOptions).length === 0) {
 
 if (claOptions.zerobounce || claOptions['email-verify']) {
   if (claOptions.municipalities) {
-    const muncicipalitiesDetails = JSON.parse(fs.readFileSync(
+    const municipalitiesDetails = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.municipalities2021), 'utf8')
     ).municipios
 
     // when a municipality has multiple emails, create other records to verify all the emails
     municipalities = []
-    for (const municipality of muncicipalitiesDetails) {
+    for (const municipality of municipalitiesDetails) {
       const emails = municipality['E-mail'].trim().split(';')
       for (const email of emails) {
         const municipalityCopy = Object.assign({}, municipality) // clone object
