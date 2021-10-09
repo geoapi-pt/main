@@ -173,6 +173,7 @@ function readJsonFiles (mainCallback) {
       delete municipality.Timestamp
       delete municipality.entityid
       delete municipality.tipoentidade
+      delete municipality.presidentecamara
 
       // replace property name form entidade to nome
       municipality.nome = municipality.entidade
