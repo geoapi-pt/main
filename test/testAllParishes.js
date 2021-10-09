@@ -96,14 +96,14 @@ function buildMetaParishes (callback) {
         const geojsonParish = regions[key1].geojson.features[key2]
         parishes.push({
           parish: geojsonParish.properties.Freguesia,
-          muncipality: geojsonParish.properties.Concelho,
+          municipality: geojsonParish.properties.Concelho,
           region: regions[key1].name
         })
         // sometimes an alternative name is available, add it also
         if (geojsonParish.properties.Des_Simpli) {
           parishes.push({
             parish: geojsonParish.properties.Des_Simpli,
-            muncipality: geojsonParish.properties.Concelho,
+            municipality: geojsonParish.properties.Concelho,
             region: regions[key1].name
           })
         }
@@ -113,7 +113,7 @@ function buildMetaParishes (callback) {
     // now removes duplicates from Array
     Parishes = parishes.filter(
       (el, index, array) => array.findIndex(
-        el2 => (el2.parish === el.parish && el2.muncipality === el.muncipality && el2.region === el.region)
+        el2 => (el2.parish === el.parish && el2.municipality === el.municipality && el2.region === el.region)
       ) === index
     )
 
@@ -128,10 +128,10 @@ function testAllParishes (mainCallback) {
   console.log('Test server with all parishes from geojson file,\nrequesting server with url /freguesia?nome=parish&municipio=municipality')
   const bar = new ProgressBar('[:bar] :percent :info', { total: Parishes.length + 2, width: 80 })
   async.forEachOfLimit(Parishes, 100, function (el, key, callback) {
-    testParishWithMunicipality(el.parish, el.muncipality, (err, res) => {
-      bar.tick({ info: `${el.muncipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
+    testParishWithMunicipality(el.parish, el.municipality, (err, res) => {
+      bar.tick({ info: `${el.municipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
       if (err) {
-        callback(Error(`Error on ${el.parish}, ${el.muncipality} : ${err}`))
+        callback(Error(`Error on ${el.parish}, ${el.municipality} : ${err}`))
       } else {
         callback()
       }
