@@ -137,15 +137,31 @@ function startServer (callback) {
     }
   })
 
-  app.get(['/municipio', '/municipios'], function (req, res) {
-    // no parameters, list of municipalities
+  app.get(['/municipio', '/municipios'], function (req, res, next) {
+    debug(req.path, req.query)
+
+    // ### validate request query ###
     if (Object.keys(req.query).length === 0) {
-      res.status(200).json(administrations.listOfMunicipalitiesNames)
+      next() // it goes next because the path /municipios/freguesias is still possible
       return
     }
 
+    // check if all parameters of request exist in municipalitiesDetails
+    const keysOfMunicipalitiesDetails = Object.keys(administrations.municipalitiesDetails[0])
+    const reqParametersThatDontExist = []
+    for (const param in req.query) {
+      if (!keysOfMunicipalitiesDetails.includes(param)) {
+        reqParametersThatDontExist.push(param)
+      }
+    }
+    if (reqParametersThatDontExist.length) {
+      res.status(404).json({ error: `These parameters don't exist for ${req.path}: ${reqParametersThatDontExist}` })
+      return
+    }
+    // ### request query is valid from here ###
+
     const { nome } = req.query
-    let results = [...administrations.muncicipalitiesDetails]
+    let results = [...administrations.municipalitiesDetails]
 
     if (nome) {
       const municipalityToFind = normalizeName(nome)
@@ -179,6 +195,21 @@ function startServer (callback) {
       res.status(200).json(administrations.listOfParishesNames)
       return
     }
+
+    // ### validate request query ###
+    // check if all parameters of request exist in parishesDetails
+    const keysOfParishesDetails = Object.keys(administrations.parishesDetails[0])
+    const reqParametersThatDontExist = []
+    for (const param in req.query) {
+      if (!keysOfParishesDetails.includes(param)) {
+        reqParametersThatDontExist.push(param)
+      }
+    }
+    if (reqParametersThatDontExist.length) {
+      res.status(404).json({ error: `These parameters don't exist for ${req.path}: ${reqParametersThatDontExist}` })
+      return
+    }
+    // ### request query is valid from here ###
 
     const { nome, municipio } = req.query
     let results = [...administrations.parishesDetails]
@@ -229,9 +260,7 @@ function startServer (callback) {
     if (req.url.includes('favicon.ico')) {
       res.writeHead(204) // no content
     } else {
-      res.status(404).json(
-        { error: 'Bad request. Check instrucions on ' + mainPageUrl }
-      )
+      res.status(404).json({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
     }
   })
 
