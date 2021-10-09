@@ -19,22 +19,28 @@ const testServer = require(path.join(__dirname, 'serverForTests'))
 const { regions } = require(path.join(__dirname, '..', 'prepareServer'))
 let Parishes = [] // Array with ALL the parishes, each element is an object {freguesia, concelho, region}
 
-async.series([startsHttpServer, readShapefile, buildMetaParishes, testAllParishes],
-  // done after execution of above funcitons
-  function (err, results) {
-    testServer.closeServer()
-    console.timeEnd('timeToTestServer')
+// main sequence of functions
+async.series([
+  startsHttpServer,
+  readShapefile,
+  buildMetaParishes,
+  testAllParishesFromGeojson,
+  testAllParishesFromServerRequest
+],
+// done after execution of above funcitons
+function (err, results) {
+  testServer.closeServer()
+  console.timeEnd('timeToTestServer')
 
-    if (err) {
-      console.error(Error(err))
-      console.log(colors.red('An error occurred'))
-      process.exitCode = 1
-    } else {
-      console.log(colors.green('All parishes and municipalities have been tested OK\n'))
-      process.exitCode = 0
-    }
+  if (err) {
+    console.error(Error(err))
+    console.log(colors.red('An error occurred'))
+    process.exitCode = 1
+  } else {
+    console.log(colors.green('All parishes and municipalities have been tested OK\n'))
+    process.exitCode = 0
   }
-)
+})
 
 // starts http server on localhost on test default port
 function startsHttpServer (callback) {
@@ -89,6 +95,7 @@ function readShapefile (mainCallback) {
 /* from object regions and their geojsons, build a single Parishes Array with Objects of the type
    {freguesia, concelho, region} for later simple processing */
 function buildMetaParishes (callback) {
+  console.log('\nBuilding a meta parishes Object, for requesting each parish to the server, to test the server...')
   try {
     const parishes = []
     for (const key1 in regions) {
@@ -117,16 +124,20 @@ function buildMetaParishes (callback) {
       ) === index
     )
 
+    // sorts by municipality and joins them together (different parishes from the same municipality)
+    Parishes.sort((a, b) => (a.municipality > b.municipality) ? 1 : ((b.municipality > a.municipality) ? -1 : 0))
+
+    console.log('Meta parishes Object created')
     callback()
   } catch (err) {
     callback(Error(err))
   }
 }
 
-// function to test all parishes
-function testAllParishes (mainCallback) {
-  console.log('Test server with all parishes from geojson file,\nrequesting server with url /freguesia?nome=parish&municipio=municipality')
-  const bar = new ProgressBar('[:bar] :percent :info', { total: Parishes.length + 2, width: 80 })
+// function to test the server with all parishes located on geoson
+function testAllParishesFromGeojson (mainCallback) {
+  console.log('Test server with all parishes from geojson file, requesting server with url /freguesia?nome=parish&municipio=municipality')
+  const bar = new ProgressBar('[:bar] :percent :info', { total: Parishes.length + 1, width: 80 })
   async.forEachOfLimit(Parishes, 100, function (el, key, callback) {
     testParishWithMunicipality(el.parish, el.municipality, (err, res) => {
       bar.tick({ info: `${el.municipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
@@ -145,6 +156,47 @@ function testAllParishes (mainCallback) {
       mainCallback()
     }
   })
+}
+
+// function to test the server with all parishes obtained from server request /municipios/freguesias
+function testAllParishesFromServerRequest (mainCallback) {
+  console.log('Test server with all parishes obtained from server request /municipios/freguesias')
+
+  got(`http://localhost:${TEST_PORT}/municipios/freguesias`).json()
+    .then(municipalities => {
+      // municipalities ex.: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
+      const numberOfMunicipalities = municipalities.length
+      const parishes = [] // build a parishes object from municipalities
+      for (const municipality of municipalities) {
+        for (const parish of municipality.freguesias) {
+          parishes.push({ municipality: municipality.nome, parish: parish })
+        }
+      }
+      console.log(`Found ${numberOfMunicipalities} municipalities and ${parishes.length} parishes`)
+
+      const bar = new ProgressBar('[:bar] :percent :info', { total: parishes.length + 1, width: 80 })
+      async.forEachOfLimit(parishes, 50, function (el, key, callback) {
+        testParishWithMunicipality(el.parish, el.municipality, (err, res) => {
+          bar.tick({ info: `${el.municipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
+          if (err) {
+            callback(Error(`Error on ${el.parish}, ${el.municipality} : ${err}`))
+          } else {
+            callback()
+          }
+        })
+      }, function (err) {
+        bar.tick({ info: '' })
+        bar.terminate()
+        if (err) {
+          mainCallback(Error(err))
+        } else {
+          mainCallback()
+        }
+      })
+    })
+    .catch(err => {
+      mainCallback(Error(`\n${err} on /municipio/freguesias`))
+    })
 }
 
 // function to test a single parish-municipality combination
