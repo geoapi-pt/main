@@ -52,6 +52,19 @@ function startServer (callback) {
   app.get('/gps', function (req, res) {
     try {
       debug('new query: ', req.query)
+
+      // sanitize request query
+      const parameters = Object.keys(req.query)
+      const numberOfParameters = parameters.length
+      let isQueryValid = numberOfParameters === 2 || numberOfParameters === 3
+      isQueryValid = isQueryValid && parameters.includes('lat') && parameters.includes('lon')
+      if (numberOfParameters === 3) { isQueryValid = isQueryValid && parameters.includes('detalhes') }
+      if (!isQueryValid) {
+        res.status(404).json({ error: 'Bad request for /gps. Check instrucions on ' + mainPageUrl })
+        return
+      }
+
+      // request is sanitized from here
       const lat = parseFloat(req.query.lat) // ex: 40.153687
       const lon = parseFloat(req.query.lon) // ex: -8.514602
       const isDetails = Boolean(parseInt(req.query.detalhes))
