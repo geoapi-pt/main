@@ -197,7 +197,6 @@ function readJsonFiles (mainCallback) {
           municipality.email = municipalityB['E-mail'] || municipality.email
           municipality.telefone = municipalityB['Telefone '] || municipalityB.Telefone || municipality.telefone
           municipality.sitio = municipalityB.Sitio || municipality.sitio
-          municipality.presidentecamara = (municipalityB['Nome  Presidente'] || municipality.presidentecamara || '').trim()
           break
         }
       }
