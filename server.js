@@ -86,11 +86,11 @@ function startServer (callback) {
             }
 
             // search for details for municipalities by name
-            const numberOfMunicipalities = administrations.muncicipalitiesDetails.length
+            const numberOfMunicipalities = administrations.municipalitiesDetails.length
             const concelho = normalizeName(freguesia.properties.Concelho)
             for (let i = 0; i < numberOfMunicipalities; i++) {
-              if (concelho === normalizeName(administrations.muncicipalitiesDetails[i].nome)) {
-                local.detalhesMunicipio = administrations.muncicipalitiesDetails[i]
+              if (concelho === normalizeName(administrations.municipalitiesDetails[i].nome)) {
+                local.detalhesMunicipio = administrations.municipalitiesDetails[i]
                 break // found it, break loop
               }
             }
