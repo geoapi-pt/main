@@ -148,7 +148,7 @@ function startServer (callback) {
     }
 
     // check if all parameters of request exist in municipalitiesDetails
-    const keysOfMunicipalitiesDetails = Object.keys(administrations.keysOfMunicipalitiesDetails)
+    const keysOfMunicipalitiesDetails = administrations.keysOfMunicipalitiesDetails
     const reqParametersThatDontExist = []
     for (const param in req.query) {
       if (!keysOfMunicipalitiesDetails.includes(param)) {
@@ -199,7 +199,7 @@ function startServer (callback) {
 
     // ### validate request query ###
     // check if all parameters of request exist in parishesDetails
-    const keysOfParishesDetails = Object.keys(administrations.keysOfParishesDetails)
+    const keysOfParishesDetails = administrations.keysOfParishesDetails
     const reqParametersThatDontExist = []
     for (const param in req.query) {
       if (!keysOfParishesDetails.includes(param)) {
