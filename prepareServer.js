@@ -78,7 +78,9 @@ const jsonResFiles = {
 // for municipalities and parishes
 const administrations = {
   parishesDetails: [], // array with details of freguesias
+  keysOfParishesDetails: [], // used to validate request parameters of /freguesia
   municipalitiesDetails: [], // array with details of municípios
+  keysOfMunicipalitiesDetails: [], // used to validate request parameters of /municipio
   listOfParishesNames: [], // an array with just names/strings of freguesias
   listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
   listOfMunicipalitiesWithParishes: [] // array of objects, each object corresponding to a municipality and an array of its parishes
@@ -209,7 +211,17 @@ function readJsonFiles (mainCallback) {
       }
     }
 
+    // build administrations.keysOfMunicipalitiesDetails, used to validate request parameters of /municipio
+    for (const municipality of administrations.municipalitiesDetails) {
+      for (const key in municipality) {
+        if (!administrations.keysOfMunicipalitiesDetails.includes(key)) {
+          administrations.keysOfMunicipalitiesDetails.push(key)
+        }
+      }
+    }
+
     console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.municipalitiesB))
+    console.log(`Array of Objects ${colors.cyan('municipalitiesDetails')} created`)
   } catch (e) {
     mainCallback(Error(`Error processing municipalities json files: ${e}`))
     return
@@ -239,19 +251,22 @@ function readJsonFiles (mainCallback) {
     }
     console.log(colors.cyan(jsonResFiles.parishesA) + ' read with success')
 
-    // still fetches information from parishes file from DGAL and merges into parishesDetails
+    // still fetches information (email and telephone) from parishes file from DGAL and merges into parishesDetails
     const parishesDetailsB = JSON.parse(fs.readFileSync(
       path.join(__dirname, 'res', jsonResFiles.parishesB), 'utf8')
     ).Contatos_freguesias
 
-    const bar = new ProgressBar(`Fetching from ${colors.cyan(jsonResFiles.parishesB)} :percent`, { total: parishesDetailsB.length })
+    const bar = new ProgressBar(
+      `Merging from ${colors.cyan(jsonResFiles.parishesB)} into ${colors.cyan(jsonResFiles.parishesA)} to create a ${colors.cyan('parishesDetails')} Array of Objects :percent`,
+      { total: parishesDetailsB.length }
+    )
 
     for (const parishB of parishesDetailsB) {
       bar.tick()
 
-      const nameOfParishB = extractParishInfoFromStr(parishB.NOME).parish
+      const normalizedNameOfParishB = normalizeName(extractParishInfoFromStr(parishB.NOME).parish)
+
       for (const parish of administrations.parishesDetails) {
-        const normalizedNameOfParishB = normalizeName(nameOfParishB)
         if (
           (
             normalizedNameOfParishB === normalizeName(parish.nome) ||
@@ -262,12 +277,23 @@ function readJsonFiles (mainCallback) {
         ) {
           parish.email = parishB.EMAIL || parish.email
           parish.telefone = parishB.TELEFONE || parish.telefone
+          parish.fax = parishB.FAX || parish.fax
           break
         }
       }
     }
 
+    // build administrations.keysOfParishesDetails, used to validate request parameters of /freguesia
+    for (const parish of administrations.parishesDetails) {
+      for (const key in parish) {
+        if (!administrations.keysOfParishesDetails.includes(key)) {
+          administrations.keysOfParishesDetails.push(key)
+        }
+      }
+    }
+
     console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.parishesB))
+    console.log(`Array of Objects ${colors.cyan('parishesDetails')} created`)
   } catch (e) {
     console.error(e)
     mainCallback(Error(`Error processing parishes json files: ${e}`))
