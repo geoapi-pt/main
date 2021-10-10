@@ -141,22 +141,22 @@ function startServer (callback) {
   app.get(['/municipio', '/municipios'], function (req, res, next) {
     debug(req.path, req.query)
 
-    // ### validate request query ###
     if (Object.keys(req.query).length === 0) {
-      next() // it goes next because the path /municipios/freguesias is still possible
+      res.status(200).json(administrations.listOfMunicipalitiesNames)
       return
     }
 
+    // ### validate request query ###
     // check if all parameters of request exist in municipalitiesDetails
     const keysOfMunicipalitiesDetails = administrations.keysOfMunicipalitiesDetails
-    const reqParametersThatDontExist = []
+    const invalidParameters = []
     for (const param in req.query) {
-      if (!keysOfMunicipalitiesDetails.includes(param)) {
-        reqParametersThatDontExist.push(param)
+      if (!req.query[param] || !keysOfMunicipalitiesDetails.includes(param)) {
+        invalidParameters.push(param)
       }
     }
-    if (reqParametersThatDontExist.length) {
-      res.status(404).json({ error: `These parameters don't exist for ${req.path}: ${reqParametersThatDontExist}` })
+    if (invalidParameters.length) {
+      res.status(404).json({ error: `These parameters are invalid or don't exist for ${req.path}: ${invalidParameters}` })
       return
     }
     // ### request query is valid from here ###
@@ -200,14 +200,14 @@ function startServer (callback) {
     // ### validate request query ###
     // check if all parameters of request exist in parishesDetails
     const keysOfParishesDetails = administrations.keysOfParishesDetails
-    const reqParametersThatDontExist = []
+    const invalidParameters = []
     for (const param in req.query) {
-      if (!keysOfParishesDetails.includes(param)) {
-        reqParametersThatDontExist.push(param)
+      if (!req.query[param] || !keysOfParishesDetails.includes(param)) {
+        invalidParameters.push(param)
       }
     }
-    if (reqParametersThatDontExist.length) {
-      res.status(404).json({ error: `These parameters don't exist for ${req.path}: ${reqParametersThatDontExist}` })
+    if (invalidParameters.length) {
+      res.status(404).json({ error: `These parameters are invalid or don't exist for for ${req.path}: ${invalidParameters}` })
       return
     }
     // ### request query is valid from here ###
