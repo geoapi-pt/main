@@ -226,7 +226,7 @@ Returns a JSON array of objects, each object corresponding to a municipality and
 
 ## How to install this API on your machine
 
- 1. Install nodeJS, npm and git
+ 1. Install NodeJS and git
  2. Clone the project:<br>
     `git clone https://github.com/jfoclpf/geoptapi.git`
  3. Enter the newly created directory and install dependencies<br>
