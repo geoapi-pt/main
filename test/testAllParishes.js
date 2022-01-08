@@ -63,8 +63,8 @@ function readShapefile (mainCallback) {
     // see: https://github.com/mbostock/shapefile/issues/67
     async.retry({ times: 5, interval: 500 }, function (retryCallback) {
       shapefile.read(
-        path.join(__dirname, '..', 'res', value.unzippedFilenamesWithoutExtension + '.shp'),
-        path.join(__dirname, '..', 'res', value.unzippedFilenamesWithoutExtension + '.dbf'),
+        path.join(__dirname, '..', 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
+        path.join(__dirname, '..', 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
         { encoding: 'utf-8' }
       ).then(geojson => {
         console.log(

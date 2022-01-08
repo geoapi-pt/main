@@ -1,5 +1,7 @@
 /* several taks performed before the server is initiated
-   either to extract zip or read JSON files or to preprocess data for fast delivery */
+   either to extract zip from Carta Administrativa de Portugal
+   or read JSON files from details of Parishes and Municipalities
+   and then to preprocess and combine data for fast delivery */
 
 const fs = require('fs')
 const path = require('path')
