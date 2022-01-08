@@ -1,11 +1,11 @@
 // prepare código postais
 
-const fs = require('fs')
+// const fs = require('fs')
 const path = require('path')
 const extract = require('extract-zip')
 const async = require('async')
 const colors = require('colors/safe')
-const debug = require('debug')('prepareCP') // run: DEBUG=server npm start
+// const debug = require('debug')('prepareCP') // run: DEBUG=server npm start
 
 const zipFile = path.join(__dirname, 'res', 'CodigosPostais.zip')
 
@@ -37,4 +37,4 @@ function extractZip (callback) {
     })
 }
 
-module.exports.prepare(()=>{})
+module.exports.prepare(() => {})
