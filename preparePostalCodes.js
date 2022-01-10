@@ -6,11 +6,12 @@ const extract = require('extract-zip')
 const async = require('async')
 const colors = require('colors/safe')
 const csv = require('csvtojson')
-// const debug = require('debug')('prepareCP') // run: DEBUG=server npm start
 
 const resDirectory = path.join(__dirname, 'res', 'postal-codes')
 const zipFile = path.join(__dirname, 'res', 'postal-codes', 'CodigosPostais.zip')
 const unzippedFilesEncoding = 'latin1' // see https://stackoverflow.com/a/14551669/1243247
+
+let mainData = [] // to be exported from the current module
 
 const mainResObj = {
   postalCodes: {
@@ -21,12 +22,12 @@ const mainResObj = {
       LLLL: 'Código da localidade',
       LOCALIDADE: 'Nome da localidade',
       ART_COD: 'Código da Artéria',
-      ART_TIPO: 'Artéria - Tipo (Rua, Praça, etc)',
+      ART_TIPO: 'Tipo de Artéria',
       PRI_PREP: 'Primeira preposição',
-      ART_TITULO: 'Artéria - Titulo (Doutor, Eng.º, Professor, etc)',
+      ART_TITULO: 'Titulo da Artéria',
       SEG_PREP: 'Segunda preposição',
-      ART_DESIG: 'Artéria - Designação',
-      ART_LOCAL: 'Artéria - Informação do Local/Zona',
+      ART_DESIG: 'Designação da Artéria',
+      ART_LOCAL: 'Informação do Local/Zona da Artéria',
       TROCO: 'Descrição do troço',
       PORTA: 'Número da porta',
       CLIENTE: 'Nome do cliente',
@@ -57,7 +58,7 @@ const mainResObj = {
 
 module.exports = {
   prepare: function (callback) {
-    async.series([extractZip, parseCsvFiles],
+    async.series([extractZip, parseCsvFiles, assembleMainData],
       function (err) {
         if (err) {
           console.error(err)
@@ -65,7 +66,7 @@ module.exports = {
           process.exitCode = 1
         } else {
           console.log('Postal Codes prepared with ' + colors.green.bold('success'))
-          callback()
+          callback(null, mainData)
         }
       })
   }
@@ -93,7 +94,7 @@ function parseCsvFiles (mainCallback) {
       .fromStream(fs.createReadStream(el.unzippedFilePath, { encoding: unzippedFilesEncoding }))
       .subscribe((json) => {
         if (Array.isArray(json)) { // json is array
-          el.data = el.data.concat(json)
+          el.data.push(...json)
         } else { // json is element
           el.data.push(json)
         }
@@ -102,6 +103,7 @@ function parseCsvFiles (mainCallback) {
         callback(Error(err))
       },
       () => {
+        console.log('Extracted CSV data from ' + el.unzippedFilePath)
         callback()
       })
   },
@@ -114,7 +116,49 @@ function parseCsvFiles (mainCallback) {
   })
 }
 
-module.exports.prepare(() => {
-  console.log(mainObj.regions.data)
-  console.log(mainObj.postalCodes.data)
-})
+function assembleMainData (callback) {
+  try {
+    mainData = [...mainResObj.postalCodes.data] // clone array
+    for (const obj of mainData) {
+      obj.Distrito = mainResObj.regions.data.find(el => el.DD === obj.DD).DESIG
+      obj.Concelho = mainResObj.municipalities.data.find(el => el.DD === obj.DD && el.CC === obj.CC).DESIG
+      delete obj.DD
+      delete obj.CC
+      delete obj.LLLL
+
+      obj.CP = obj.CP4 + '-' + obj.CP3
+
+      obj.Artéria = obj.ART_TIPO + ' ' +
+                    obj.PRI_PREP + ' ' +
+                    obj.ART_TITULO + ' ' +
+                    obj.SEG_PREP + ' ' +
+                    obj.ART_DESIG
+      obj.Artéria = obj.Artéria.replace(/\s\s+/g, ' ') // remove excess spaces
+
+      delete obj.ART_TIPO
+      delete obj.PRI_PREP
+      delete obj.ART_TITULO
+      delete obj.SEG_PREP
+      delete obj.ART_DESIG
+
+      obj.Localidade = obj.LOCALIDADE
+      obj.Local = obj.ART_LOCAL
+      obj.Troço = obj.TROCO
+      obj.Porta = obj.PORTA
+      obj.Cliente = obj.CLIENTE
+      obj['Designação Postal'] = obj.CPALF
+
+      delete obj.LOCALIDADE
+      delete obj.ART_COD
+      delete obj.ART_LOCAL
+      delete obj.TROCO
+      delete obj.PORTA
+      delete obj.CLIENTE
+      delete obj.CPALF
+    }
+
+    callback()
+  } catch (err) {
+    callback(Error(err))
+  }
+}

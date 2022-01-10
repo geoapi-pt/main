@@ -24,4 +24,4 @@ Further manual updates should be done to the `B` files.
 
 ## Postal Codes
 
-The postal code zip file were downloaded from the CTT website [here](https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx). We must create an account, but the download of this file is free of costs.
+The postal code zip file were downloaded from the CTT website [here](https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx). We must create an account, but the download of this file is free of costs. That zip file is unzipped into the directory `/res/postal-codes` and it contains 3 CSV files with no headers, and one file `leiame.txt`. The headers of the CSV files are present in `leiame.txt`.

@@ -14,6 +14,8 @@ const mainPageUrl = 'https://www.geoptapi.org/'
 const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 const normalizeName = prepareServerMod.normalizeName
 
+const preparePostalCodesMod = require(path.join(__dirname, 'preparePostalCodes.js'))
+
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
   { name: 'testStartup', type: Boolean }
@@ -23,12 +25,24 @@ const serverPort = process.env.npm_config_port ||
                    argvOptions.port ||
                    '8080'
 
+console.time('serverTimeToStart')
+
 // fetched from prepareServerMod
 // see global objects "regions" and "administrations" on prepareServer.js
-let regions, administrations
+let regions, administrations, postalCodes
+
+async.series([prepareServer, preparePostalCodes, startServer],
+  function (err) {
+    if (err) {
+      console.error(err)
+      process.exit(1)
+    } else {
+      console.log('Everything done with ' + colors.green.bold('success'))
+      debug(regions)
+    }
+  })
 
 function prepareServer (callback) {
-  console.time('serverTimeToStart')
   prepareServerMod.prepare((err, data) => {
     if (err) {
       callback(Error(err))
@@ -40,7 +54,21 @@ function prepareServer (callback) {
   })
 }
 
+function preparePostalCodes (callback) {
+  preparePostalCodesMod.prepare((err, data) => {
+    if (err) {
+      callback(Error(err))
+    } else {
+      postalCodes = data
+      callback()
+    }
+  })
+}
+
 function startServer (callback) {
+  console.log('Server prepared with ' + colors.green.bold('success'))
+  console.log('Starting server...')
+
   const app = express()
   app.use(cors())
   app.use(bodyParser.json())
@@ -257,6 +285,43 @@ function startServer (callback) {
     res.status(200).json(administrations.listOfMunicipalitiesWithParishes)
   })
 
+  // Path for Postal Codes
+  // /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
+  app.get('/cp/:cp', function (req, res) {
+    const cp = req.params.cp
+
+    // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
+    if (/^\d{4}(-?\d{3})?$/.test(cp)) {
+      const cleanCp = cp.replace(/-/, '')
+      const cp4 = cleanCp.slice(0, 4) // first 4 digits of CP
+      const cp3 = cleanCp.slice(4, 7) // last 3 digits of CP or '' when not available
+
+      let results
+      if (cp3) { // last 3 digits of CP are available
+        results = postalCodes.filter(el => el.CP4 === cp4 && el.CP3 === cp3)
+      } else {
+        results = postalCodes.filter(el => el.CP4 === cp4)
+      }
+
+      // clean empty fields
+      results.forEach((el) => {
+        for (const key in el) {
+          if (!el[key]) delete el[key]
+        }
+      })
+
+      if (results.length > 1) {
+        res.status(200).json(results)
+      } else if (results.length === 1) {
+        res.status(200).json(results[0])
+      } else {
+        res.status(404).json({ error: 'Postal Code not found!' })
+      }
+    } else {
+      res.status(404).json({ error: 'Postal Code format must be /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY' })
+    }
+  })
+
   app.use(function (req, res) {
     if (req.url.includes('favicon.ico')) {
       res.writeHead(204) // no content
@@ -312,14 +377,3 @@ function startServer (callback) {
 
   callback()
 }
-
-async.series([prepareServer, startServer],
-  function (err) {
-    if (err) {
-      console.error(err)
-      process.exit(1)
-    } else {
-      console.log('Everything done with ' + colors.green.bold('success'))
-      debug(regions)
-    }
-  })

@@ -224,6 +224,22 @@ Returns a JSON array of objects, each object corresponding to a municipality and
  ]
 ```
 
+### /cp
+
+The path `/cp` makes reference to Postal Codes (Código Postal in Portuguese). You may search with only the first 4 digits, i.e. `/cp/XXXX`; or with the complete 7 digits, i.e. `/cp/XXXXYYY` or `/cp/XXXX-YYY` (normal hyphen `-`).
+
+For example the request `/cp/1950-449` or `/cp/1950449` returns:
+
+```
+{"CP4":"1950","CP3":"449","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1950-449","Artéria":"Rua Fernando Maurício","Localidade":"Lisboa","Troço":"Pares de 30 a 36C","Designação Postal":"LISBOA"}
+```
+
+And the request `/cp/2495-300` or `/cp/2495300` returns:
+
+```
+[{"CP4":"2495","CP3":"300","Distrito":"Santarém","Concelho":"Ourém","CP":"2495-300","Artéria":"Estrada do Casal Selão","Localidade":"Boleiros","Designação Postal":"FÁTIMA"},{"CP4":"2495","CP3":"300","Distrito":"Santarém","Concelho":"Ourém","CP":"2495-300","Artéria":"Estrada de Minde","Localidade":"Boleiros","Designação Postal":"FÁTIMA"},{"CP4":"2495","CP3":"300","Distrito":"Santarém","Concelho":"Ourém","CP":"2495-300","Artéria":"Rua da Serrada Machada","Localidade":"Boleiros","Designação Postal":"FÁTIMA"}]
+```
+
 ## How to install this API on your machine
 
  1. Install NodeJS and git
