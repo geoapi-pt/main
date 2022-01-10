@@ -1,6 +1,9 @@
 [![Node.js CI](https://github.com/jfoclpf/geoptapi/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoptapi/actions/workflows/node.js.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/geoptapi/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/geoptapi?targetFile=package.json)
-[![js-standard-style][js-standard-style_img]][js-standard-style_url] [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=J7F3ALLQAFWEJ)
+[![js-standard-style][js-standard-style_img]][js-standard-style_url]
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/context:javascript)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=J7F3ALLQAFWEJ)
 
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
