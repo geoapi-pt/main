@@ -25,7 +25,8 @@ async.series([
   readShapefile,
   buildMetaParishes,
   testAllParishesFromGeojson,
-  testAllParishesFromServerRequest
+  testAllParishesFromServerRequest,
+  testPostalCode
 ],
 // done after execution of above funcitons
 function (err, results) {
@@ -37,7 +38,7 @@ function (err, results) {
     console.log(colors.red('An error occurred'))
     process.exitCode = 1
   } else {
-    console.log(colors.green('All parishes and municipalities have been tested OK\n'))
+    console.log(colors.green('All tests have been tested OK\n'))
     process.exitCode = 0
   }
 })
@@ -190,6 +191,7 @@ function testAllParishesFromServerRequest (mainCallback) {
         if (err) {
           mainCallback(Error(err))
         } else {
+          console.log(colors.green('All parishes and municipalities have been tested OK\n'))
           mainCallback()
         }
       })
@@ -213,5 +215,32 @@ function testParishWithMunicipality (parish, municipality, callback) {
     })
     .catch(err => {
       callback(Error(`\n${err} on /freguesia?nome=${parish}&municipio=${municipality}\n`))
+    })
+}
+
+function testPostalCode (callback) {
+  got(`http://localhost:${TEST_PORT}/cp/1950-449`).json()
+    .then(body => {
+      if (body.error) {
+        callback(Error('\nThere was an error in postal code'))
+        return
+      }
+
+      let body1
+      if (Array.isArray(body)) {
+        body1 = body[0]
+      } else {
+        body1 = body
+      }
+
+      if (body1.CP === '1950-449') {
+        console.log(colors.green('Postal Code tested OK\n'))
+        callback()
+      } else {
+        callback(Error('\nResult does not match postal code'))
+      }
+    })
+    .catch(err => {
+      callback(Error(`\n${err} on /cp/1950-449\n`))
     })
 }

@@ -24,7 +24,7 @@ module.exports = {
           callback(Error(err))
           process.exitCode = 1
         } else {
-          console.log('Server prepared with ' + colors.green.bold('success'))
+          console.log('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
           debug(regions)
           callback(null, { regions, administrations })
         }
