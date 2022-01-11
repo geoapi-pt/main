@@ -2,12 +2,13 @@ This directory has all the resource information. You should read this to later u
 
 ## Carta Administrativa Oficial de Portugal
 
-The "Carta Administrativa Oficial de Portugal" was downloaded from the Direção Geral de Território website [here](https://www.dgterritorio.gov.pt/dados-abertos).
-This directory `res/portuguese-administrative-chart/` has five different zip files, corresponding to Continental Portugal, Madeira and Western, Central and Eastern group of Azores.
+The ZIP files of the "Carta Administrativa Oficial de Portugal" were downloaded from the Direção Geral de Território website [here](https://www.dgterritorio.gov.pt/dados-abertos) into the directory `res/portuguese-administrative-chart/`. These are 5 ZIP files, corresponding to Continental Portugal, Madeira and Western, Central and Eastern group of Azores.
 
 In each download link several options appear, but the versions ending in `AAd_CAOP2020.zip` should selected.
 That is, we should not download the files with `troco` because they make reference to the lines (troço) and not to the surfaces.
 We should not select either the ones ending in `GPKG`.
+
+To update, we must only download the 5 ZIP files and the code should do the rest, if the structure of thoese files is unchanged. We must also update the files names in the object `regions` in the file `/prepareServer.js`
 
 ## Details about Parishes and Municipalities
 
