@@ -80,7 +80,7 @@ function startServer (callback) {
   app.get('/gps', function (req, res) {
     try {
       debug('new query: ', req.query)
-      debug(req.headers)
+      debug(req.headers, req.accepts(['html', 'json']))
 
       // ### validate request query ###
       // query parameters must be "lat and lon" or "lat, lon and detalhes"
@@ -168,7 +168,7 @@ function startServer (callback) {
   })
 
   app.get(['/municipio', '/municipios'], function (req, res, next) {
-    debug(req.path, req.query, req.headers)
+    debug(req.path, req.query, req.headers, req.accepts(['html', 'json']))
 
     if (Object.keys(req.query).length === 0) {
       res.status(200).json(administrations.listOfMunicipalitiesNames)
@@ -220,7 +220,7 @@ function startServer (callback) {
   })
 
   app.get(['/freguesia', '/freguesias'], function (req, res) {
-    debug(req.path, req.query, req.headers)
+    debug(req.path, req.query, req.headers, req.accepts(['html', 'json']))
 
     // no parameters, list of parishes
     if (Object.keys(req.query).length === 0) {
@@ -291,7 +291,7 @@ function startServer (callback) {
   // Path for Postal Codes
   // /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
   app.get('/cp/:cp', function (req, res) {
-    debug(req.path, req.query, req.headers)
+    debug(req.path, req.query, req.headers, req.accepts(['html', 'json']))
 
     const cp = req.params.cp
 
