@@ -1,13 +1,17 @@
 const path = require('path')
 const express = require('express')
+const { engine } = require('express-handlebars')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const PolygonLookup = require('polygon-lookup')
 const proj4 = require('proj4')
 const async = require('async')
+const nocache = require('nocache')
 const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
+
+const { obj2html } = require(path.join(__dirname, 'functions.js'))
 
 const mainPageUrl = 'https://www.geoptapi.org/'
 
@@ -38,7 +42,6 @@ async.series([prepareServer, preparePostalCodes, startServer],
       process.exit(1)
     } else {
       console.log('Everything done with ' + colors.green.bold('success'))
-      debug(regions)
     }
   })
 
@@ -48,6 +51,7 @@ function prepareServer (callback) {
       callback(Error(err))
     } else {
       regions = data.regions
+      debug(regions)
       administrations = data.administrations
       callback()
     }
@@ -72,34 +76,67 @@ function startServer (callback) {
   const app = express()
   app.use(cors())
   app.use(bodyParser.json())
+  app.use(nocache())
+
+  app.engine('.hbs', engine({ extname: '.hbs' }))
+  app.set('view engine', '.hbs')
+  app.set('views', './views')
+
+  app.use('/css', express.static(path.join(__dirname, 'views', 'css')))
+  app.use('/fonts', express.static(path.join(__dirname, 'views', 'fonts')))
+
+  app.use(function (req, res, next) {
+    res.sendData = function (data, input) {
+      debug(req.accepts(['html', 'json']))
+
+      res.set('Connection', 'close')
+      if (req.accepts(['html', 'json']) === 'json' || parseInt(req.query.json)) {
+        res.json(data)
+      } else {
+        res.type('text/html')
+
+        res.render('home', {
+          layout: false,
+          data: obj2html(data),
+          input: input ? obj2html(input) : ''
+        })
+      }
+    }
+    next()
+  })
 
   app.get('/', function (req, res) {
     res.redirect(mainPageUrl)
   })
 
-  app.get('/gps', function (req, res) {
+  app.get(['/gps', '/gps/:lat?,:lon?'], function (req, res) {
     try {
       debug('new query: ', req.query)
-      debug(req.headers, req.accepts(['html', 'json']))
+      debug(req.headers, req.params)
 
-      // ### validate request query ###
-      // query parameters must be "lat and lon" or "lat, lon and detalhes"
-      const parameters = Object.keys(req.query)
-      const numberOfParameters = parameters.length
-      let isQueryValid = numberOfParameters === 2 || numberOfParameters === 3
-      isQueryValid = isQueryValid && parameters.includes('lat') && parameters.includes('lon')
-      if (numberOfParameters === 3) { isQueryValid = isQueryValid && parameters.includes('detalhes') }
-      if (!isQueryValid) {
-        res.status(404).json({ error: 'Bad request for /gps. Check instrucions on ' + mainPageUrl })
-        return
-      }
       // check that lat and lon are valid numbers
       const isNumeric = function (str) {
         if (typeof str !== 'string') return false
         return !isNaN(str) && !isNaN(parseFloat(str))
       }
+
+      // use url format /gps/lat,lon
+      if (isNumeric(req.params.lat) && isNumeric(req.params.lon)) {
+        req.query.lat = req.params.lat
+        req.query.lon = req.params.lon
+      }
+
+      // ### validate request query ###
+      // query parameters must be "lat and lon" or "lat, lon and detalhes"
+      const parameters = Object.keys(req.query)
+      const isQueryValid = parameters.includes('lat') && parameters.includes('lon')
+      if (!isQueryValid) {
+        res.status(404).sendData({ error: 'Bad request for /gps. Check instrucions on ' + mainPageUrl })
+        return
+      }
+
       if (!isNumeric(req.query.lat) || !isNumeric(req.query.lon)) {
-        res.status(404).json({ error: `Parameters lat and lon must be a valid number on ${req.originalUrl}` })
+        res.status(404).sendData({ error: `Parameters lat and lon must be a valid number on ${req.originalUrl}` })
         return
       }
       // ### request is valid from here ###
@@ -150,42 +187,57 @@ function startServer (callback) {
 
           debug(local)
 
-          res.status(200).json(local)
+          res.status(200).sendData(
+            local,
+            { latitude: lat, longitude: lon } // inform user of input in case of text/html
+          )
           return
         }
       }
 
       debug('Results not found')
 
-      res.status(404).json({ error: 'Results not found. Coordinates out of scope!' })
+      res.status(404).sendData({ error: 'Results not found. Coordinates out of scope!' })
     } catch (e) {
       debug('Error on server', e)
 
-      res.status(400).json(
+      res.status(400).sendData(
         { error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' }
       )
     }
   })
 
-  app.get(['/municipio', '/municipios'], function (req, res, next) {
-    debug(req.path, req.query, req.headers, req.accepts(['html', 'json']))
+  app.get('/munic(i|í)pios?/:municipality?', function (req, res, next) {
+    debug(req.path, req.query, req.headers)
 
-    if (Object.keys(req.query).length === 0) {
-      res.status(200).json(administrations.listOfMunicipalitiesNames)
+    if (req.params.municipality === 'freguesia' || req.params.municipality === 'freguesias') {
+      next()
+      return
+    }
+
+    // if name is not provided in query, consider parameter from url instead
+    // example /municipio/Évora
+    if (req.params.municipality && !req.query.nome) {
+      req.query.nome = req.params.municipality
+    }
+
+    const numberOfQueryVars = Object.keys(req.query).length
+    if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
+      res.status(200).sendData(administrations.listOfMunicipalitiesNames, 'Lista de todos os municípios')
       return
     }
 
     // ### validate request query ###
     // check if all parameters of request exist in municipalitiesDetails
-    const keysOfMunicipalitiesDetails = administrations.keysOfMunicipalitiesDetails
+    const allowableParams = administrations.keysOfMunicipalitiesDetails.concat('json')
     const invalidParameters = []
     for (const param in req.query) {
-      if (!req.query[param] || !keysOfMunicipalitiesDetails.includes(param)) {
+      if (!req.query[param] || !allowableParams.includes(param)) {
         invalidParameters.push(param)
       }
     }
     if (invalidParameters.length) {
-      res.status(404).json({ error: `These parameters are invalid or don't exist for ${req.path}: ${invalidParameters}` })
+      res.status(404).sendData({ error: `These parameters are invalid or don't exist for ${req.path}: ${invalidParameters}` })
       return
     }
     // ### request query is valid from here ###
@@ -211,34 +263,41 @@ function startServer (callback) {
     }
 
     if (results.length > 1) {
-      res.status(200).json(results)
+      res.status(200).sendData(results, 'Lista de municípios')
     } else if (results.length === 1) {
-      res.status(200).json(results[0])
+      res.status(200).sendData(results[0], { Município: results[0].nome })
     } else {
-      res.status(404).json({ error: 'Municipality not found!' })
+      res.status(404).sendData({ error: 'Município não encontrado!' })
     }
   })
 
-  app.get(['/freguesia', '/freguesias'], function (req, res) {
-    debug(req.path, req.query, req.headers, req.accepts(['html', 'json']))
+  app.get('/freguesias?/:parish?', function (req, res) {
+    debug(req.path, req.query, req.headers)
+
+    // if name is not provided in query, consider parameter from url instead
+    // example /freguesia/serzedelo
+    if (req.params.parish && !req.query.nome) {
+      req.query.nome = req.params.parish
+    }
 
     // no parameters, list of parishes
-    if (Object.keys(req.query).length === 0) {
-      res.status(200).json(administrations.listOfParishesNames)
+    const numberOfQueryVars = Object.keys(req.query).length
+    if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
+      res.status(200).sendData(administrations.listOfParishesNames)
       return
     }
 
     // ### validate request query ###
     // check if all parameters of request exist in parishesDetails
-    const keysOfParishesDetails = administrations.keysOfParishesDetails
+    const allowableParams = administrations.keysOfParishesDetails.concat('json')
     const invalidParameters = []
     for (const param in req.query) {
-      if (!req.query[param] || !keysOfParishesDetails.includes(param)) {
+      if (!req.query[param] || !allowableParams.includes(param)) {
         invalidParameters.push(param)
       }
     }
     if (invalidParameters.length) {
-      res.status(404).json({ error: `These parameters are invalid or don't exist for for ${req.path}: ${invalidParameters}` })
+      res.status(404).sendData({ error: `These parameters are invalid or don't exist for for ${req.path}: ${invalidParameters}` })
       return
     }
     // ### request query is valid from here ###
@@ -275,23 +334,24 @@ function startServer (callback) {
     }
 
     if (results.length > 1) {
-      res.status(200).json(results)
+      res.status(200).sendData(results, 'Lista de freguesias')
     } else if (results.length === 1) {
-      res.status(200).json(results[0])
+      res.status(200).sendData(results[0], { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` })
     } else {
-      res.status(404).json({ error: 'Parish not found!' })
+      res.status(404).sendData({ error: 'Freguesia não encontrada!' })
     }
   })
 
   // /municipio(s)/freguesia(s)
   app.get(/^\/municipios?\/freguesias?$/, function (req, res) {
-    res.status(200).json(administrations.listOfMunicipalitiesWithParishes)
+    debug(req.path, req.query, req.headers)
+    res.status(200).sendData(administrations.listOfMunicipalitiesWithParishes, 'Lista de municípios com as respetivas freguesias')
   })
 
   // Path for Postal Codes
   // /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
   app.get('/cp/:cp', function (req, res) {
-    debug(req.path, req.query, req.headers, req.accepts(['html', 'json']))
+    debug(req.path, req.query, req.headers)
 
     const cp = req.params.cp
 
@@ -315,15 +375,18 @@ function startServer (callback) {
         }
       })
 
+      // present also the input in case of text/html rendering
+      const input = { 'Código Postal': cp4 + (cp3 ? '-' + cp3 : '') }
+
       if (results.length > 1) {
-        res.status(200).json(results)
+        res.status(200).sendData(results, input)
       } else if (results.length === 1) {
-        res.status(200).json(results[0])
+        res.status(200).sendData(results[0], input)
       } else {
-        res.status(404).json({ error: 'Postal Code not found!' })
+        res.status(404).sendData({ error: 'Postal Code not found!' })
       }
     } else {
-      res.status(404).json({ error: 'Postal Code format must be /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY' })
+      res.status(404).sendData({ error: 'Postal Code format must be /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY' })
     }
   })
 
@@ -331,7 +394,7 @@ function startServer (callback) {
     if (req.url.includes('favicon.ico')) {
       res.writeHead(204) // no content
     } else {
-      res.status(404).json({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
+      res.status(404).sendData({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
     }
   })
 
@@ -362,6 +425,8 @@ function startServer (callback) {
     if (process.send) {
       process.send('ready') // very important, trigger to PM2 that app is ready
     }
+
+    callback()
   })
 
   // gracefully exiting upon CTRL-C or when PM2 stops the process
@@ -385,6 +450,4 @@ function startServer (callback) {
       setTimeout(() => process.exit(1), 500)
     }
   }
-
-  callback()
 }

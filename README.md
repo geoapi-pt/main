@@ -20,13 +20,20 @@ You can use freely the public API at `https://geoptapi.org` (without www). Examp
 
 It uses nodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
+## JSON or HTML
+
+By default the server replies with `text/html` format. To receive JSON format, either
+
+ - attach the query var `json=1` at the URL (ex.: `/municipios?nome=Évora&json=1`)
+ - in the GET request set the HTTP header Accept as JSON, that is, `Accept: application/json`
+
 ## Paths and parameters
 
 ### /gps
 
 The `/gps` path has three parameters: `lat`, `lon` and `detalhes` (optional).
 
-The GET request `/gps?lat=40.153687&lon=-8.514602` returns a JSON
+The GET requests `/gps/40.153687,-8.514602` and `/gps?lat=40.153687&lon=-8.514602` are equivalent and return
 
 ```json
 {
@@ -88,7 +95,7 @@ With no parameters, returns a JSON array with municipalities names, alphabetical
 
 Accept parameters `nome`, `codigo`, `nif`, `codigopostal`, `email`, `telefone`, `fax`, `sitio` and `codigoine`.
 
-For example the request `/municipio?nome=Évora` will return:
+The requests `/municipio/Évora` and `/municipio?nome=Évora` are equivalent and will return:
 
 ```json
 {
@@ -116,7 +123,7 @@ With no parameters, returns a JSON array with parishes (freguesias) names, alpha
 
 Accept parameter `nome`, which makes reference to fields `nome`, `nomecompleto` and `nomecompleto2`. Also accepts parameters `municipio`, `codigo`, `nif`, `codigopostal`, `email`, `telefone`, `fax`, `sitio` and `codigoine`.
 
-For example the request `/freguesia?nome=serzedelo` will return
+The requests `/freguesia/serzedelo` and `/freguesia?nome=serzedelo` are equivalent and will return
 
 ```json
 [
