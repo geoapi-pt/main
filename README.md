@@ -91,7 +91,7 @@ You may also request details for the returned municipality and parish with<br>`/
 
 ### /municipio or /municipios
 
-With no parameters, returns a JSON array with municipalities names, alphabetically sorted.
+With no parameters, returns an array with municipalities names, alphabetically sorted.
 
 Accept parameters `nome`, `codigo`, `nif`, `codigopostal`, `email`, `telefone`, `fax`, `sitio` and `codigoine`.
 
@@ -197,7 +197,7 @@ And the request `/freguesia?nome=serzedelo&municipio=guimarães` will return
 
 ### /municipios/freguesias
 
-Returns a JSON array of objects, each object corresponding to a municipality and an array of its parishes
+Returns an array of objects, each object corresponding to a municipality and an array of its parishes
 
 ```json
 [
