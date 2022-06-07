@@ -195,6 +195,25 @@ And the request `/freguesia?nome=serzedelo&municipio=guimarães` will return
 }
 ```
 
+### /municipios/{nome}/freguesias
+
+Returns the parishes for the respective municipality, for example `/municipios/porto/freguesias` returns
+
+```json
+{
+   "nome":"Porto",
+   "freguesias":[
+      "Bonfim",
+      "Campanhã",
+      "Paranhos",
+      "Ramalde",
+      "União das freguesias de Aldoar, Foz do Douro e Nevogilde",
+      "União das freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+      "União das freguesias de Lordelo do Ouro e Massarelos"
+   ]
+}
+```
+
 ### /municipios/freguesias
 
 Returns an array of objects, each object corresponding to a municipality and an array of its parishes
