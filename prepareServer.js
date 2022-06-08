@@ -14,7 +14,15 @@ const debug = require('debug')('prepareServer') // run: DEBUG=server npm start
 
 module.exports = {
   prepare: function (callback) {
-    async.series([extractZip, readShapefile, readProjectionFile, readJsonFiles, buildAdministrationsObject],
+    async.series(
+      [
+        extractZip,
+        readShapefile,
+        readProjectionFile,
+        readJsonFiles,
+        buildAdministrationsObject,
+        buildsAdministrationsDistrictsArrays
+      ],
       function (err) {
         debug(administrations.municipalitiesDetails)
         debug(administrations.parishesDetails)
@@ -26,6 +34,7 @@ module.exports = {
         } else {
           console.log('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
           debug(regions)
+          debug(administrations)
           callback(null, { regions, administrations })
         }
       })
@@ -86,7 +95,9 @@ const administrations = {
   keysOfMunicipalitiesDetails: [], // used to validate request parameters of /municipio
   listOfParishesNames: [], // an array with just names/strings of freguesias
   listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
-  listOfMunicipalitiesWithParishes: [] // array of objects, each object corresponding to a municipality and an array of its parishes
+  listOfMunicipalitiesWithParishes: [], // array of objects, each object corresponding to a municipality and an array of its parishes
+  listOfDistricts: [], // array of objects, list de distritos
+  listOfDistrictsWithMunicipalities: [] // array of objects, lista de distritos contendo os municípios
 }
 
 // extracts zip file with shapefile and projection files
@@ -382,9 +393,45 @@ function buildAdministrationsObject (callback) {
     municipality.freguesias.sort()
   }
 
-  console.log('administrations Object created with success')
   callback()
 }
+
+function buildsAdministrationsDistrictsArrays (callback) {
+  // builds administrations.listOfDistricts
+  for (const municipality of administrations.municipalitiesDetails) {
+    if (municipality.distrito) {
+      administrations.listOfDistricts.push(municipality.distrito)
+    }
+  }
+  administrations.listOfDistricts = [...new Set(administrations.listOfDistricts)]
+  administrations.listOfDistricts.sort()
+
+  // builds administrations.listOfDistrictsWithMunicipalities
+  administrations.listOfDistrictsWithMunicipalities =
+    administrations.listOfDistricts.map(el => ({ distrito: el, municipios: [] }))
+
+  for (const municipality of administrations.municipalitiesDetails) {
+    if (municipality.nome && municipality.distrito) {
+      administrations.listOfDistrictsWithMunicipalities
+        .find(el => el.distrito === municipality.distrito)
+        .municipios.push(municipality.nome)
+    }
+  }
+
+  administrations.listOfDistricts = administrations.listOfDistricts.map(el => correctCase(el))
+
+  for (const district of administrations.listOfDistrictsWithMunicipalities) {
+    district.municipios = [...new Set(district.municipios)]
+    district.municipios.sort()
+
+    district.distrito = correctCase(district.distrito)
+    district.municipios = district.municipios.map(el => correctCase(el))
+  }
+
+  callback()
+}
+
+/* ****** Auxiliary functions ******** */
 
 // str is a string in the format "Parish (Municipality)" or "Parish (Municipality (Region))"
 // extract {Parish, Municipality, Region} from str, test here: https://regex101.com/r/NsM3rf/1
@@ -424,4 +471,24 @@ function normalizeName (name) {
   } else {
     return null
   }
+}
+
+// REGUENGOS DE MONSARAZ => Reguengos de Monzaraz
+// VENDAS NOVAS => Vendas Novas
+// R. A. MADEIRA => R. A. Madeira
+function correctCase (_str) {
+  let str = _str.toLowerCase()
+    .replace(/\s\s+/g, ' ') // remove excess of spaces
+
+  str = str.split(' ').map(word => {
+    if (word.length > 2) {
+      return word.charAt(0).toUpperCase() + word.slice(1) // capitalize first letter of word
+    } else if (word.length === 2 && word.charAt(1) === '.') { // 'r.' => 'R.'
+      return word.toUpperCase()
+    } else {
+      return word
+    }
+  }).join(' ')
+
+  return str
 }
