@@ -370,6 +370,21 @@ function startServer (callback) {
     res.status(200).sendData(administrations.listOfMunicipalitiesWithParishes, 'Lista de municípios com as respetivas freguesias')
   })
 
+  // /distrito(s)
+  app.get(/^\/distritos?$/, function (req, res) {
+    debug(req.path, req.query, req.headers)
+    res.status(200).sendData(administrations.listOfDistricts, 'Lista de distritos')
+  })
+
+  // /distrito(s)/municipio(s)
+  app.get(/^\/distritos?\/municipios?$/, function (req, res) {
+    debug(req.path, req.query, req.headers)
+    res.status(200).sendData(
+      administrations.listOfDistrictsWithMunicipalities,
+      'Lista de distritos com os respetivos municípios'
+    )
+  })
+
   // Path for Postal Codes
   // /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
   app.get('/cp/:cp', function (req, res) {

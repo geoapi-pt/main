@@ -258,6 +258,14 @@ Returns an array of objects, each object corresponding to a municipality and an 
  ]
 ```
 
+### /distrito(s)
+
+Returns an array of objects with the list of districts (distritos)
+
+### /distrito(s)/municipio(s)
+
+Returns an array of objects with the list of districts (distritos), each district with the corresponding list of municipalities
+
 ### /cp
 
 The path `/cp` makes reference to Postal Codes (Código Postal in Portuguese). You may search with only the first 4 digits, i.e. `/cp/XXXX`; or with the complete 7 digits, i.e. `/cp/XXXXYYY` or `/cp/XXXX-YYY` (normal hyphen `-`).
