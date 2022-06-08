@@ -257,11 +257,11 @@ Returns an array of objects, each object corresponding to a municipality and an 
  ]
 ```
 
-### /distrito(s)
+### /distritos
 
 Returns an array of objects with the list of districts (distritos)
 
-### /distrito(s)/municipio(s)
+### /distritos/municipios
 
 Returns an array of objects with the list of districts (distritos), each district with the corresponding list of municipalities
 
