@@ -11,7 +11,7 @@ const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
-const { obj2html } = require(path.join(__dirname, 'functions.js'))
+const { obj2html } = require(path.join(__dirname, 'renderHtml.js'))
 
 const mainPageUrl = 'https://www.geoptapi.org/'
 
