@@ -3,6 +3,8 @@
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/context:javascript)
+![Request last hour](https://img.shields.io/endpoint?url=https://geoptapi.org/shieldsio/requestsLastHour)
+![Request last day](https://img.shields.io/endpoint?url=https://geoptapi.org/shieldsio/requestsLastDay)
 <br>
 [![Donate with librepay](https://img.shields.io/liberapay/receives/joaopimentel1980.svg?logo=liberapay)](https://en.liberapay.com/joaopimentel1980)
 [![Donate with librepay](https://img.shields.io/badge/donate-Donate-yellow?logo=liberapay)](https://en.liberapay.com/joaopimentel1980/donate)
