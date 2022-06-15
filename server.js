@@ -85,8 +85,27 @@ function startServer (callback) {
   app.use('/css', express.static(path.join(__dirname, 'views', 'css')))
   app.use('/fonts', express.static(path.join(__dirname, 'views', 'fonts')))
 
+  // counter of requests per hour
+  let requestsCounterPerHour = 0
+  let requestsLastHour = 0
+  setInterval(() => {
+    requestsLastHour = requestsCounterPerHour
+    requestsCounterPerHour = 0
+  }, 1000 * 60 * 60)
+
+  // counter of requests per day
+  let requestsCounterPerDay = 0
+  let requestsLastDay = 0
+  setInterval(() => {
+    requestsLastDay = requestsCounterPerDay
+    requestsCounterPerDay = 0
+  }, 1000 * 60 * 60 * 24)
+
   app.use(function (req, res, next) {
     res.sendData = function (data, input) {
+      requestsCounterPerHour++
+      requestsCounterPerDay++
+
       debug(req.accepts(['html', 'json']))
 
       res.set('Connection', 'close')
@@ -107,6 +126,24 @@ function startServer (callback) {
 
   app.get('/', function (req, res) {
     res.redirect(mainPageUrl)
+  })
+
+  app.get('/shieldsio/requestsLastHour', function (req, res) {
+    res.json({
+      schemaVersion: 1,
+      label: 'Rquests last hour',
+      message: requestsLastHour.toString(),
+      color: 'orange'
+    })
+  })
+
+  app.get('/shieldsio/requestsLastDay', function (req, res) {
+    res.json({
+      schemaVersion: 1,
+      label: 'Rquests last day',
+      message: requestsLastDay.toString(),
+      color: 'orange'
+    })
   })
 
   app.get(['/gps', '/gps/:lat?,:lon?'], function (req, res) {
