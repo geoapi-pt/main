@@ -12,7 +12,7 @@
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
 
-# TLDR
+# Resumo
 
  - Obter Distrito, Município e Freguesia através de coordenadas GPS: https://geoptapi.org/gps/40.153687,-8.514602 
  - Detalhes sobre Município: https://geoptapi.org/municipio/Évora
