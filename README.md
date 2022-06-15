@@ -14,12 +14,12 @@
 
 # Resumo
 
- - Obter Distrito, Município e Freguesia através de coordenadas GPS: https://geoptapi.org/gps/40.153687,-8.514602 
- - Detalhes sobre Município: https://geoptapi.org/municipio/Évora
- - Lista de Freguesias no Município: https://geoptapi.org/municipios/porto/freguesias
- - Detalhes sobre Freguesia: https://geoptapi.org/freguesia/serzedelo
- - Municípios por Distrito: https://geoptapi.org/distritos/municipios
- - Detalhes sobre Códigos Postais: https://geoptapi.org/cp/2495-300 ou https://geoptapi.org/cp/2495
+ - Obter Distrito, Município e Freguesia através de coordenadas GPS: [https://geoptapi.org/gps/40.153687,-8.514602](https://geoptapi.org/gps/40.153687,-8.514602)
+ - Detalhes sobre Município: [https://geoptapi.org/municipio/Évora](https://geoptapi.org/municipio/Évora)
+ - Lista de Freguesias no Município: [https://geoptapi.org/municipios/porto/freguesias](https://geoptapi.org/municipios/porto/freguesias)
+ - Detalhes sobre Freguesia: [https://geoptapi.org/freguesia/serzedelo](https://geoptapi.org/freguesia/serzedelo)
+ - Municípios por Distrito: [https://geoptapi.org/distritos/municipios](https://geoptapi.org/distritos/municipios)
+ - Detalhes sobre Códigos Postais: [https://geoptapi.org/cp/2495-300](https://geoptapi.org/cp/2495-300) ou [https://geoptapi.org/cp/2495](https://geoptapi.org/cp/2495)
 
 # GEO PT API
 
