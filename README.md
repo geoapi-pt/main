@@ -12,13 +12,22 @@
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
 
+# TLDR
+
+ - Obter Distrito, Município e Freguesia através de coordenadas GPS: https://geoptapi.org/gps/40.153687,-8.514602 
+ - Detalhes sobre Município: https://geoptapi.org/municipio/Évora
+ - Lista de Freguesias no Município: https://geoptapi.org/municipios/porto/freguesias
+ - Detalhes sobre Freguesia: https://geoptapi.org/freguesia/serzedelo
+ - Municípios por Distrito: https://geoptapi.org/distritos/municipios
+ - Detalhes sobre Códigos Postais: https://geoptapi.org/cp/2495-300 ou https://geoptapi.org/cp/2495
+
 # GEO PT API
 
 Provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira.
 
 It also provides information on Postal Codes.
 
-You can use freely the public API at `https://geoptapi.org` (without www). Example [here](https://geoptapi.org/gps?lat=40.153687&lon=-8.514602).
+You can use freely the public API at `https://geoptapi.org` (without www).
 
 It uses nodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
