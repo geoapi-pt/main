@@ -131,7 +131,7 @@ function startServer (callback) {
   app.get('/shieldsio/requestsLastHour', function (req, res) {
     res.json({
       schemaVersion: 1,
-      label: 'Rquests last hour',
+      label: 'Requests on last hour',
       message: requestsLastHour.toString(),
       color: 'orange'
     })
@@ -140,7 +140,7 @@ function startServer (callback) {
   app.get('/shieldsio/requestsLastDay', function (req, res) {
     res.json({
       schemaVersion: 1,
-      label: 'Rquests last day',
+      label: 'Requests on last day',
       message: requestsLastDay.toString(),
       color: 'orange'
     })
