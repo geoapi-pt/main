@@ -13,7 +13,7 @@ const colors = require('colors/safe')
 
 const { obj2html } = require(path.join(__dirname, 'renderHtml.js'))
 
-const mainPageUrl = 'https://www.geoptapi.org/'
+const mainPageUrl = 'https://www.geoapi.pt/'
 
 const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
 const normalizeName = prepareServerMod.normalizeName

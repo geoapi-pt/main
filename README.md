@@ -3,8 +3,8 @@
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/context:javascript)
-![Request last hour](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoptapi.org%2Fshieldsio%2FrequestsLastHour)
-![Request last day](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoptapi.org%2Fshieldsio%2FrequestsLastDay)
+![Request last hour](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastHour)
+![Request last day](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastDay)
 <br>
 [![Donate with librepay](https://img.shields.io/liberapay/receives/joaopimentel1980.svg?logo=liberapay)](https://en.liberapay.com/joaopimentel1980)
 [![Donate with librepay](https://img.shields.io/badge/donate-Donate-yellow?logo=liberapay)](https://en.liberapay.com/joaopimentel1980/donate)
@@ -14,12 +14,12 @@
 
 # Resumo
 
- - Obter Distrito, Município e Freguesia através de coordenadas GPS: [https://geoptapi.org/gps/40.153687,-8.514602](https://geoptapi.org/gps/40.153687,-8.514602)
- - Detalhes sobre Município: [https://geoptapi.org/municipio/Évora](https://geoptapi.org/municipio/Évora)
- - Lista de Freguesias no Município: [https://geoptapi.org/municipios/porto/freguesias](https://geoptapi.org/municipios/porto/freguesias)
- - Detalhes sobre Freguesia: [https://geoptapi.org/freguesia/serzedelo](https://geoptapi.org/freguesia/serzedelo)
- - Municípios por Distrito: [https://geoptapi.org/distritos/municipios](https://geoptapi.org/distritos/municipios)
- - Detalhes sobre Códigos Postais: [https://geoptapi.org/cp/2495-300](https://geoptapi.org/cp/2495-300) ou [https://geoptapi.org/cp/2495](https://geoptapi.org/cp/2495)
+ - Obter Distrito, Município e Freguesia através de coordenadas GPS: [https://geoapi.pt/gps/40.153687,-8.514602](https://geoapi.pt/gps/40.153687,-8.514602)
+ - Detalhes sobre Município: [https://geoapi.pt/municipio/Évora](https://geoapi.pt/municipio/Évora)
+ - Lista de Freguesias no Município: [https://geoapi.pt/municipios/porto/freguesias](https://geoapi.pt/municipios/porto/freguesias)
+ - Detalhes sobre Freguesia: [https://geoapi.pt/freguesia/serzedelo](https://geoapi.pt/freguesia/serzedelo)
+ - Municípios por Distrito: [https://geoapi.pt/distritos/municipios](https://geoapi.pt/distritos/municipios)
+ - Detalhes sobre Códigos Postais: [https://geoapi.pt/cp/2495-300](https://geoapi.pt/cp/2495-300) ou [https://geoapi.pt/cp/2495](https://geoapi.pt/cp/2495)
 
 # GEO PT API
 
@@ -27,7 +27,7 @@ Provides information on official divisional administrative regions of Portugal (
 
 It also provides information on Postal Codes.
 
-You can use freely the public API at `https://geoptapi.org` (without www).
+You can use freely the public API at `https://geoapi.pt` (without www).
 
 It uses nodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
