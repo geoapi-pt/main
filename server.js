@@ -485,7 +485,7 @@ function startServer (callback) {
     console.log('Listening on port ' + serverPort)
     console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
     console.log('*******************************************************************************')
-    console.log('**                             GEO PT API                                    **')
+    console.log('**                             GEO API PT                                    **')
     console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('localhost:' + serverPort) + Array(24).join(' ')}**`)
     console.log('**                                                                           **')
     console.log('**     Examples:                                                             **')
