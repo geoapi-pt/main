@@ -1,8 +1,8 @@
-[![Node.js CI](https://github.com/jfoclpf/geoptapi/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoptapi/actions/workflows/node.js.yml)
-[![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/geoptapi/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/geoptapi?targetFile=package.json)
+[![Node.js CI](https://github.com/jfoclpf/geoapipt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoapipt/actions/workflows/node.js.yml)
+[![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/geoapipt/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/geoapipt?targetFile=package.json)
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jfoclpf/geoptapi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoptapi/context:javascript)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jfoclpf/geoapipt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoapipt/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jfoclpf/geoapipt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoapipt/context:javascript)
 ![Request last hour](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastHour)
 ![Request last day](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastDay)
 <br>
@@ -21,7 +21,7 @@
  - Municípios por Distrito: [https://geoapi.pt/distritos/municipios](https://geoapi.pt/distritos/municipios)
  - Detalhes sobre Códigos Postais: [https://geoapi.pt/cp/2495-300](https://geoapi.pt/cp/2495-300) ou [https://geoapi.pt/cp/2495](https://geoapi.pt/cp/2495)
 
-# GEO PT API
+# GEO API PT
 
 Provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira.
 
@@ -337,9 +337,9 @@ And the request `/cp/2495-300` or `/cp/2495300` returns:
 
  1. Install NodeJS and git
  2. Clone the project:<br>
-    `git clone https://github.com/jfoclpf/geoptapi.git`
+    `git clone https://github.com/jfoclpf/geoapipt.git`
  3. Enter the newly created directory and install dependencies<br>
-    `cd geoptapi && npm install`
+    `cd geoapipt && npm install`
  4. Start the server<br>
     `npm start --port=8080`
 
