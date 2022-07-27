@@ -1,4 +1,4 @@
-/* validate emails from the geoapipt, using zerobounce.net */
+/* validate emails from the geoapi.pt, using zerobounce.net */
 
 const fs = require('fs')
 const path = require('path')
@@ -31,7 +31,7 @@ const claOptions = commandLineArgs(optionDefinitions)
 const sections = [
   {
     header: 'Validatdes emails',
-    content: 'Validate the municipalities and parishes emails of the geoapipt, using zerobounce.net API or email-verify NPM module'
+    content: 'Validate the municipalities and parishes emails of the geoapi.pt, using zerobounce.net API or email-verify NPM module'
   },
   {
     header: 'Options',
