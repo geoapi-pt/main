@@ -8,6 +8,8 @@ const verifier = require('email-verify')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 
+const resDir = path.join(__dirname, '..', 'res')
+
 const jsonResFiles = {
   parishes2021: 'detalhesFreguesias2021.json',
   municipalities2021: 'detalhesMunicipios2021.json'
@@ -16,7 +18,7 @@ const jsonResFiles = {
 let municipalities
 let parishes
 
-const apiKey = JSON.parse(fs.readFileSync(path.join(__dirname, 'credentials.json'), 'utf8')).zerobounce.apiKey
+const apiKey = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'credentials.json'), 'utf8')).zerobounce.apiKey
 
 const optionDefinitions = [
   { name: 'credits', alias: 'c', type: Boolean, description: 'Fecthes the remaining amount of credits for the zerobounce API' },
@@ -51,7 +53,7 @@ if (claOptions.help || Object.keys(claOptions).length === 0) {
 if (claOptions.zerobounce || claOptions['email-verify']) {
   if (claOptions.municipalities) {
     const municipalitiesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.municipalities2021), 'utf8')
+      path.join(resDir, jsonResFiles.municipalities2021), 'utf8')
     ).municipios
 
     // when a municipality has multiple emails, create other records to verify all the emails
@@ -68,7 +70,7 @@ if (claOptions.zerobounce || claOptions['email-verify']) {
 
   if (claOptions.parishes) {
     const parishesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', jsonResFiles.parishes2021), 'utf8')
+      path.join(resDir, jsonResFiles.parishes2021), 'utf8')
     ).Contatos_freguesias
 
     // when a municipality has multiple emails, create other records
