@@ -12,6 +12,8 @@ const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const debug = require('debug')('prepareServer') // run: DEBUG=server npm start
 
+const resDir = path.join(__dirname, '..', 'res')
+
 module.exports = {
   prepare: function (callback) {
     async.series(
@@ -103,8 +105,8 @@ const administrations = {
 // extracts zip file with shapefile and projection files
 function extractZip (mainCallback) {
   async.forEachOf(regions, function (value, key, callback) {
-    const zipFile = path.join(__dirname, 'res', 'portuguese-administrative-chart', value.zipFileName)
-    extract(zipFile, { dir: path.join(__dirname, 'res', 'portuguese-administrative-chart') })
+    const zipFile = path.join(resDir, 'portuguese-administrative-chart', value.zipFileName)
+    extract(zipFile, { dir: path.join(resDir, 'portuguese-administrative-chart') })
       .then(() => {
         console.log(`zip file extraction for ${value.name} complete`)
         callback()
@@ -127,8 +129,8 @@ function readShapefile (mainCallback) {
     // see: https://github.com/mbostock/shapefile/issues/67
     async.retry({ times: 5, interval: 500 }, function (retryCallback) {
       shapefile.read(
-        path.join(__dirname, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
-        path.join(__dirname, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
+        path.join(resDir, 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
+        path.join(resDir, 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
         { encoding: 'utf-8' }
       ).then(geojson => {
         console.log(
@@ -159,7 +161,7 @@ function readShapefile (mainCallback) {
 function readProjectionFile (mainCallback) {
   async.forEachOf(regions, function (value, key, callback) {
     fs.readFile(
-      path.join(__dirname, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.prj'),
+      path.join(resDir, 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.prj'),
       'utf8',
       (err, data) => {
         if (err) {
@@ -183,7 +185,7 @@ function readJsonFiles (mainCallback) {
   // municipalities
   try {
     administrations.municipalitiesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'details-parishes-municipalities', jsonResFiles.municipalitiesA), 'utf8')
+      path.join(resDir, 'details-parishes-municipalities', jsonResFiles.municipalitiesA), 'utf8')
     ).d
     // just strip out irrelevant info
     for (const municipality of administrations.municipalitiesDetails) {
@@ -203,7 +205,7 @@ function readJsonFiles (mainCallback) {
 
     // still fetches information from municipalities file from DGAL and merges into municipalitiesDetails
     const muncicipalitiesDetailsB = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'details-parishes-municipalities', jsonResFiles.municipalitiesB), 'utf8')
+      path.join(resDir, 'details-parishes-municipalities', jsonResFiles.municipalitiesB), 'utf8')
     ).municipios
 
     for (const municipality of administrations.municipalitiesDetails) {
@@ -244,7 +246,7 @@ function readJsonFiles (mainCallback) {
   // parishes
   try {
     administrations.parishesDetails = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'details-parishes-municipalities', jsonResFiles.parishesA), 'utf8')
+      path.join(resDir, 'details-parishes-municipalities', jsonResFiles.parishesA), 'utf8')
     ).d
     // just strip out irrelevant info
     for (const parish of administrations.parishesDetails) {
@@ -267,7 +269,7 @@ function readJsonFiles (mainCallback) {
 
     // still fetches information (email and telephone) from parishes file from DGAL and merges into parishesDetails
     const parishesDetailsB = JSON.parse(fs.readFileSync(
-      path.join(__dirname, 'res', 'details-parishes-municipalities', jsonResFiles.parishesB), 'utf8')
+      path.join(resDir, 'details-parishes-municipalities', jsonResFiles.parishesB), 'utf8')
     ).Contatos_freguesias
 
     const bar = new ProgressBar(

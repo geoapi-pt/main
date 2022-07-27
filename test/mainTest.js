@@ -16,7 +16,7 @@ const shapefile = require('shapefile')
 const ProgressBar = require('progress')
 
 const testServer = require(path.join(__dirname, 'serverForTests'))
-const { regions } = require(path.join(__dirname, '..', 'prepareServer'))
+const { regions } = require(path.join(__dirname, '..', 'js', 'prepareServer'))
 let Parishes = [] // Array with ALL the parishes, each element is an object {freguesia, concelho, region}
 
 // main sequence of functions
