@@ -11,14 +11,14 @@ const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
-const { obj2html } = require(path.join(__dirname, 'renderHtml.js'))
+const { obj2html } = require(path.join(__dirname, 'js', 'renderHtml.js'))
 
 const mainPageUrl = 'https://www.geoapi.pt/'
 
-const prepareServerMod = require(path.join(__dirname, 'prepareServer.js'))
+const prepareServerMod = require(path.join(__dirname, 'js', 'prepareServer.js'))
 const normalizeName = prepareServerMod.normalizeName
 
-const preparePostalCodesMod = require(path.join(__dirname, 'preparePostalCodes.js'))
+const preparePostalCodesMod = require(path.join(__dirname, 'js', 'preparePostalCodes.js'))
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },

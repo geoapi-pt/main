@@ -7,15 +7,15 @@ const async = require('async')
 const colors = require('colors/safe')
 const csv = require('csvtojson')
 
-const resDirectory = path.join(__dirname, 'res', 'postal-codes')
-const zipFile = path.join(__dirname, 'res', 'postal-codes', 'CodigosPostais.zip')
+const resDirectory = path.join(__dirname, '..', 'res', 'postal-codes')
+const zipFile = path.join(resDirectory, 'CodigosPostais.zip')
 const unzippedFilesEncoding = 'latin1' // see https://stackoverflow.com/a/14551669/1243247
 
 let mainData = [] // to be exported from the current module
 
 const mainResObj = {
   postalCodes: {
-    unzippedFilePath: path.join(__dirname, 'res', 'postal-codes', 'todos_cp.txt'),
+    unzippedFilePath: path.join(resDirectory, 'todos_cp.txt'),
     fileHeader: { // for more info see file leiame.txt
       DD: 'Código do Distrito',
       CC: 'Código do Concelho',
@@ -38,7 +38,7 @@ const mainResObj = {
     data: [] // data extracted from CSV file
   },
   regions: {
-    unzippedFilePath: path.join(__dirname, 'res', 'postal-codes', 'distritos.txt'),
+    unzippedFilePath: path.join(resDirectory, 'distritos.txt'),
     fileHeader: {
       DD: 'Código do Distrito',
       DESIG: 'Designação do Distrito'
@@ -46,7 +46,7 @@ const mainResObj = {
     data: [] // data extracted from CSV file
   },
   municipalities: {
-    unzippedFilePath: path.join(__dirname, 'res', 'postal-codes', 'concelhos.txt'),
+    unzippedFilePath: path.join(resDirectory, 'concelhos.txt'),
     fileHeader: {
       DD: 'Código do Distrito',
       CC: 'Código do Concelho',
