@@ -9,8 +9,8 @@ selectMunicipality.addEventListener('change', () => {
   fetch(`${geoApiUrl}/municipios/${this.value}/freguesias?json=1`).then(res => res.json())
     .then((res) => {
       // clean select
-      var length = selectFreguesia.options.length;
-      for (var i = length - 1; i >= 0; i--) {
+      const length = selectFreguesia.options.length
+      for (let i = length - 1; i >= 0; i--) {
         selectFreguesia.options[i] = null
       }
 
@@ -27,14 +27,14 @@ selectMunicipality.addEventListener('change', () => {
 
 selectFreguesia.addEventListener('change', () => {
   fetch(`${geoApiUrl}/freguesia/${this.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
-    .then(function(res) {
+    .then((res) => {
       const result = document.getElementById('result')
       result.innerHTML = ''
       for (const el in res) {
         result.innerHTML += `<tr><th>${el}</th><td>${res[el]}</td></tr>`
       }
     })
-    .catch(function(err) {
+    .catch((err) => {
       console.error('error fetching freguesias', err)
     })
 })
