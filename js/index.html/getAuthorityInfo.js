@@ -6,7 +6,7 @@ const selectMunicipality = document.getElementById('select-municipio')
 const selectFreguesia = document.getElementById('select-freguesia')
 
 selectMunicipality.addEventListener('change', () => {
-  fetch(`${geoApiUrl}/municipios/${this.value}/freguesias?json=1`).then(res => res.json())
+  fetch(`${geoApiUrl}/municipios/${selectMunicipality.value}/freguesias?json=1`).then(res => res.json())
     .then((res) => {
       // clean select
       const length = selectFreguesia.options.length
@@ -26,7 +26,7 @@ selectMunicipality.addEventListener('change', () => {
 })
 
 selectFreguesia.addEventListener('change', () => {
-  fetch(`${geoApiUrl}/freguesia/${this.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
+  fetch(`${geoApiUrl}/freguesia/${selectFreguesia.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
     .then((res) => {
       const result = document.getElementById('result')
       result.innerHTML = ''
