@@ -29,7 +29,7 @@
             }
           }
 
-          document.getElementById('result').innerHTML = html
+          document.getElementById('result-codigo-postal').innerHTML = html
         })
         .catch((err) => {
           console.error('error fetching códigos postais', err)

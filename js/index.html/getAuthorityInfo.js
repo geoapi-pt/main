@@ -29,7 +29,7 @@
   selectFreguesia.addEventListener('change', () => {
     fetch(`${geoApiUrl}/freguesia/${selectFreguesia.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
       .then((res) => {
-        const result = document.getElementById('result')
+        const result = document.getElementById('result-freguesia')
         result.innerHTML = ''
         for (const el in res) {
           result.innerHTML += `<tr><th>${el}</th><td>${res[el]}</td></tr>`
