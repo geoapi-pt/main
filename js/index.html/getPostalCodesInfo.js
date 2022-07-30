@@ -6,9 +6,9 @@ const inputCodigoPostal = document.getElementById('codigo-postal')
 
 inputCodigoPostal.addEventListener('input', () => {
   if (!isPostalCodeOK(inputCodigoPostal.value)) {
-    inputCodigoPostal.style.borderColor = 'red 1px solid'
+    inputCodigoPostal.classList.add('border-danger')
   } else {
-    inputCodigoPostal.style.borderColor = ''
+    inputCodigoPostal.classList.remove('border-danger')
     fetch(`${geoApiUrl}/cp/${inputCodigoPostal.value}?json=1`)
       .then(res => res.json())
       .then((cpResults) => {
