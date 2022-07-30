@@ -36,9 +36,22 @@
       <li>Detalhes sobre Códigos Postais: <a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a> ou <a href="https://geoapi.pt/cp/2495">https://geoapi.pt/cp/2495</a></li>
    </ul>
 </div>
-   
+
 <div class="limiter" style="padding: 2% 10%;">
-   <h2>Exemplo para obter informação de freguesias</h2>
+   <h2>Obter informação de Códigos Postais</h2>
+   <p>Código Javascript <a href="https://github.com/jfoclpf/geoapi.pt/blob/main/js/index.html/getPostalCodesInfo.js">aqui</a></p>
+   
+   <label for="select-codigo-postal">Código Postal</label>
+   <input type="text" id="codigo-postal" name="codigo-postal" placeholder="1234-567" required minlength="8" maxlength="8" size="10">
+   
+   <table class="table">
+     <tbody id="result">
+     </tbody>
+   </table>   
+</div>
+
+<div class="limiter" style="padding: 2% 10%;">
+   <h2>Obter informação de freguesias</h2>
    <p>Código Javascript <a href="https://github.com/jfoclpf/geoapi.pt/blob/main/js/index.html/getAuthorityInfo.js">aqui</a></p>
    
    <label for="select-municipio">Município</label>
@@ -52,6 +65,7 @@
    </table>
 </div>
 
+<script src="/js/index.html/getPostalCodesInfo.js" type="text/javascript"></script>
 <script src="/js/index.html/getAuthorityInfo.js" type="text/javascript"></script>
 
 </body>
