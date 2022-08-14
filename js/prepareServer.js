@@ -49,31 +49,36 @@ const regions = {
     name: 'Continente',
     zipFileName: 'Cont_AAD_CAOP2020.zip',
     unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2020',
-    geojson: {} // to be filled, info extracted from respective files
+    geojson: {}, // geojson FeatureCollection of polygons of all parishes
+    projection: '' // info regarding the coordinates transformation
   },
   ArqMadeira: {
     name: 'Arquipélago da Madeira',
     zipFileName: 'ArqMadeira_AAD_CAOP2020.zip',
     unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2020',
-    geojson: {}
+    geojson: {},
+    projection: ''
   },
   ArqAcores_GOcidental: {
     name: 'Arquipélago dos Açores (Grupo Ocidental)',
     zipFileName: 'ArqAcores_GOcidental_AAd_CAOP2020.zip',
     unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2020',
-    geojson: {}
+    geojson: {},
+    projection: ''
   },
   ArqAcores_GCentral: {
     name: 'Arquipélago dos Açores (Grupo Central)',
     zipFileName: 'ArqAcores_GCentral_AAd_CAOP2020.zip',
     unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2020',
-    geojson: {}
+    geojson: {},
+    projection: ''
   },
   ArqAcores_GOriental: {
     name: 'Arquipélago dos Açores (Grupo Oriental)',
     zipFileName: 'ArqAcores_GOriental_AAd_CAOP2020.zip',
     unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2020',
-    geojson: {}
+    geojson: {},
+    projection: ''
   }
 }
 
@@ -104,11 +109,11 @@ const administrations = {
 
 // extracts zip file with shapefile and projection files
 function extractZip (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
-    const zipFile = path.join(resDir, 'portuguese-administrative-chart', value.zipFileName)
+  async.forEachOf(regions, function (region, key, callback) {
+    const zipFile = path.join(resDir, 'portuguese-administrative-chart', region.zipFileName)
     extract(zipFile, { dir: path.join(resDir, 'portuguese-administrative-chart') })
       .then(() => {
-        console.log(`zip file extraction for ${value.name} complete`)
+        console.log(`zip file extraction for ${region.name} complete`)
         callback()
       })
       .catch((errOnUnzip) => {
@@ -125,18 +130,18 @@ function extractZip (mainCallback) {
 
 // fill in the geoson fields in the regions Object
 function readShapefile (mainCallback) {
-  async.forEachOf(regions, function (value, key, forEachOfCallback) {
+  async.forEachOf(regions, function (region, key, forEachOfCallback) {
     // try calling shapefile.read 5 times, waiting 500 ms between each retry
     // see: https://github.com/mbostock/shapefile/issues/67
-    async.retry({ times: 5, interval: 500 }, function (retryCallback) {
+    async.retry({ times: 5, interval: (retryCount) => 50 * Math.pow(2, retryCount) }, function (retryCallback) {
       shapefile.read(
-        path.join(resDir, 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
-        path.join(resDir, 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
+        path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.shp'),
+        path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.dbf'),
         { encoding: 'utf-8' }
       ).then(geojson => {
         console.log(
-          `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
-          `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
+          `Shapefiles read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.shp')} ` +
+          `and from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`
         )
         retryCallback(null, geojson)
       }).catch((err) => {
@@ -154,7 +159,7 @@ function readShapefile (mainCallback) {
     if (err) {
       mainCallback(Error(err))
     } else {
-      mainCallback()
+      setTimeout(mainCallback, 3000) // this must be here because shapefile.read is buggy
     }
   })
 }
@@ -163,16 +168,16 @@ function readShapefile (mainCallback) {
 // the system of coordinates of these map files is not ECEF (Earth-centered, Earth-fixed coordinate system)
 // thus a transformation must be done according to the projection data for each region
 function readProjectionFile (mainCallback) {
-  async.forEachOf(regions, function (value, key, callback) {
+  async.forEachOf(regions, function (region, key, callback) {
     fs.readFile(
-      path.join(resDir, 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.prj'),
+      path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.prj'),
       'utf8',
       (err, data) => {
         if (err) {
           callback(Error(err))
         } else {
           regions[key].projection = data
-          console.log(`Projection info read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`)
+          console.log(`Projection info read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`)
           callback()
         }
       })
