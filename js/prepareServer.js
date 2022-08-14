@@ -18,10 +18,10 @@ module.exports = {
   prepare: function (callback) {
     async.series(
       [
-        extractZip,
-        readShapefile,
-        readProjectionFile,
-        readJsonFiles,
+        extractZip, // extracts zip file with shapefile and projection files
+        readShapefile, // fill in the geoson fields in the regions Object
+        readProjectionFile, // fill in the projection fields in the regions Object
+        readJsonFiles, // read JSON files with information (email, phone, etc.) of municipalities and parishes
         buildAdministrationsObject,
         buildsAdministrationsDistrictsArrays
       ],
@@ -123,6 +123,7 @@ function extractZip (mainCallback) {
   })
 }
 
+// fill in the geoson fields in the regions Object
 function readShapefile (mainCallback) {
   async.forEachOf(regions, function (value, key, forEachOfCallback) {
     // try calling shapefile.read 5 times, waiting 500 ms between each retry
@@ -158,6 +159,9 @@ function readShapefile (mainCallback) {
   })
 }
 
+// fill in the projection fields in the regions Object
+// the system of coordinates of these map files is not ECEF (Earth-centered, Earth-fixed coordinate system)
+// thus a transformation must be done according to the projection data for each region
 function readProjectionFile (mainCallback) {
   async.forEachOf(regions, function (value, key, callback) {
     fs.readFile(
@@ -181,6 +185,7 @@ function readProjectionFile (mainCallback) {
   })
 }
 
+// read JSON files with information (email, phone, etc.) of municipalities and parishes
 function readJsonFiles (mainCallback) {
   // municipalities
   try {
