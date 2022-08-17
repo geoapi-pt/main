@@ -18,7 +18,7 @@ const mainPageUrl = 'https://www.geoapi.pt/'
 const prepareServerMod = require(path.join(__dirname, 'js', 'prepareServer.js'))
 const normalizeName = prepareServerMod.normalizeName
 
-const preparePostalCodesMod = require(path.join(__dirname, 'js', 'preparePostalCodes.js'))
+const preparePostalCodesCTTMod = require(path.join(__dirname, 'js', 'preparePostalCodesCTT.js'))
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -35,7 +35,7 @@ console.time('serverTimeToStart')
 // see global objects "regions" and "administrations" on prepareServer.js
 let regions, administrations, postalCodes
 
-async.series([prepareServer, preparePostalCodes, startServer],
+async.series([prepareServer, preparePostalCodesCTT, startServer],
   function (err) {
     if (err) {
       console.error(err)
@@ -58,8 +58,8 @@ function prepareServer (callback) {
   })
 }
 
-function preparePostalCodes (callback) {
-  preparePostalCodesMod.prepare((err, data) => {
+function preparePostalCodesCTT (callback) {
+  preparePostalCodesCTTMod.prepare((err, data) => {
     if (err) {
       callback(Error(err))
     } else {
