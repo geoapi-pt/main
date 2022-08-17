@@ -148,7 +148,10 @@ function assembleData (callback) {
     cttData[i].coordenadas = coordenadas
 
     // calculates centroid for this postal code, based on coordenadas
-    if (coordenadas.length) {
+    if (
+      coordenadas.length &&
+      coordenadas.every(coord => Number.isFinite(coord[0] && Number.isFinite(coord[1])))
+    ) {
       const geojsonCoord = {
         type: 'Feature',
         geometry: {
