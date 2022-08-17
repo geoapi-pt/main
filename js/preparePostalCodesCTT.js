@@ -10,6 +10,7 @@ const csv = require('csvtojson')
 const resDirectory = path.join(__dirname, '..', 'res', 'postal-codes')
 const zipFile = path.join(resDirectory, 'CodigosPostais.zip')
 const unzippedFilesEncoding = 'latin1' // see https://stackoverflow.com/a/14551669/1243247
+const unzippedFilenames = []
 
 let mainData = [] // to be exported from the current module
 
@@ -58,7 +59,7 @@ const mainResObj = {
 
 module.exports = {
   prepare: function (callback) {
-    async.series([extractZip, parseCsvFiles, assembleMainData],
+    async.series([extractZip, parseCsvFiles, assembleMainData, deleteUnzippedFiles],
       function (err) {
         if (err) {
           console.error(err)
@@ -74,14 +75,17 @@ module.exports = {
 
 // extracts all zip files to res/postal-codes
 function extractZip (callback) {
-  extract(zipFile, { dir: resDirectory })
-    .then(() => {
-      console.log(`zip file extraction for ${zipFile} complete`)
-      callback()
-    })
-    .catch((errOnUnzip) => {
-      callback(Error('Error unziping file ' + zipFile + '. ' + errOnUnzip.message))
-    })
+  extract(zipFile, {
+    dir: resDirectory,
+    onEntry: (entry, zipfile) => {
+      unzippedFilenames.push(path.join(resDirectory, entry.fileName))
+    }
+  }).then(() => {
+    console.log(`zip file extraction for ${zipFile} complete`)
+    callback()
+  }).catch((errOnUnzip) => {
+    callback(Error('Error unziping file ' + zipFile + '. ' + errOnUnzip.message))
+  })
 }
 
 function parseCsvFiles (mainCallback) {
@@ -161,4 +165,14 @@ function assembleMainData (callback) {
   } catch (err) {
     callback(Error(err))
   }
+}
+
+function deleteUnzippedFiles (callback) {
+  unzippedFilenames.forEach(filename => {
+    if (fs.existsSync(filename)) {
+      fs.unlinkSync(filename)
+    }
+  })
+  console.log('Extracted files deleted')
+  callback()
 }
