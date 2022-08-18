@@ -10,6 +10,7 @@ const nocache = require('nocache')
 const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
+const colors = require('colors/safe')
 
 const { obj2html } = require(path.join(__dirname, 'js', 'renderHtml.js'))
 
@@ -185,10 +186,12 @@ function startServer (callback) {
       const point = [lon, lat] // longitude, latitude
 
       for (const key in regions) {
-        const transformedPoint = proj4(regions[key].projection, point)
+  
+      for (const key in regions) {
+        const transformedPoint = proj4(regions[key].regions[key].projection, point)
 
-        const lookupFreguesias = new PolygonLookup(regions[key].geojson)
-        const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
+          const lookupFreguesias = new PolygonLookup(regions[key].regions[key].geojson)
+          const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
 
         if (freguesia) {
           debug('Found freguesia: ', freguesia)
