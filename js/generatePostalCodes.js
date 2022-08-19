@@ -128,7 +128,7 @@ function preparePostalCodesCTT (callback) {
 function assembleData (callback) {
   console.log('Process and assemble data from both databases (OpenAddresses and CTT)')
 
-  const cttDataLen = 150 // cttData.length
+  const cttDataLen = cttData.length
   const openAddressesDataLen = openAddressesData.length
   const bar = new ProgressBar('[:bar] :percent :info', { total: cttDataLen, width: 150 })
 
