@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ed25393220d13598c74ae65f64bd5150efb9e6f7322b81259bee60aeaf0737e1
-size 1327
+{
+  "name": "geoapi.pt",
+  "version": "1.0.3",
+  "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
+  "scripts": {
+    "test": "standard && npx depcheck --ignores=\"depcheck\" && node server.js --testStartup && node test/mainTest.js",
+    "start": "node server.js",
+    "validate-emails": "node validateEmails.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfoclpf/geoapi.pt.git"
+  },
+  "keywords": [
+    "portugal"
+  ],
+  "author": "João Pimentel Ferreira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jfoclpf/geoapi.pt/issues"
+  },
+  "homepage": "https://www.geoapi.pt/",
+  "dependencies": {
+    "@turf/centroid": "^6.5.0",
+    "async": "^3.2.1",
+    "body-parser": "^1.19.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.6",
+    "extract-zip": "^2.0.1",
+    "nocache": "^3.0.4",
+    "polygon-lookup": "^2.6.0",
+    "progress": "^2.0.3",
+    "proj4": "^2.6.0",
+    "shapefile": "^0.6.6"
+  },
+  "devDependencies": {
+    "command-line-args": "^5.2.0",
+    "command-line-usage": "^6.1.1",
+    "depcheck": "^1.4.2",
+    "email-verify": "^0.1.1",
+    "got": "^11.8.2",
+    "standard": "^16.0.3"
+  }
+}
