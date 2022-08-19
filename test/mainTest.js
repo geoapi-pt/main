@@ -26,7 +26,8 @@ async.series([
   buildMetaParishes,
   testAllParishesFromGeojson,
   testAllParishesFromServerRequest,
-  testPostalCode
+  testPostalCode,
+  testSomeGpsCoordinates
 ],
 // done after execution of above funcitons
 function (err, results) {
@@ -243,4 +244,37 @@ function testPostalCode (callback) {
     .catch(err => {
       callback(Error(`\n${err} on /cp/1950-449\n`))
     })
+}
+
+function testSomeGpsCoordinates (mainCallback) {
+  async.each([
+    '/gps/40.153687,-8.514602',
+    '/gps?lat=40.153687&lon=-8.514602'
+  ], function (urlAbsolutePath, eachCallback) {
+    got(`http://localhost:${TEST_PORT}${urlAbsolutePath}`).json()
+      .then(body => {
+        if (body.error) {
+          eachCallback(Error('\nThere was an error in gps coordinates'))
+          return
+        }
+
+        if (
+          body.freguesia === 'Anobra' &&
+          body.concelho === 'Condeixa-A-Nova' &&
+          body.distrito === 'Coimbra'
+        ) {
+          eachCallback()
+        } else {
+          eachCallback(Error('\nResult does not match gps coordinates'))
+        }
+      })
+      .catch(err => {
+        eachCallback(Error(`\n${err} on /cp/1950-449\n`))
+      })
+  }).then(() => {
+    console.log(colors.green('GPS route tested OK\n'))
+    mainCallback()
+  }).catch(err => {
+    mainCallback(Error(err))
+  })
 }
