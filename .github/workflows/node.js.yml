@@ -27,5 +27,9 @@ jobs:
         cache: 'npm'
     - name: Upgrade NPM
       run: npm install -g npm
+    - name: Install GIT LFS
+      run: | 
+        curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+        git lfs install
     - run: npm ci
     - run: npm test
