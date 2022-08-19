@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:51d9274a69512351e313c20064fd20fb6d5baf869054dd8589c3832257627a8d
-size 319
+{
+  "apps" : [{
+    "name" : "geoapi.pt",
+    "script" : "server.js",
+    "args" : "--port=4057",
+    "wait_ready" : true,
+    "listen_timeout" : 50000,
+    "watch" : false,
+    "instances" : 4,
+    "exec_mode" : "cluster",
+    "log_date_format" : "DD-MM-YYYY",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}
