@@ -5,6 +5,7 @@
   "scripts": {
     "test": "standard && npx depcheck --ignores=\"depcheck\" && node server.js --testStartup && node test/mainTest.js",
     "start": "node server.js",
+    "generate-postalcodes": "node --max-old-space-size=16384 js/generatePostalCodes.js",
     "validate-emails": "node validateEmails.js"
   },
   "repository": {
