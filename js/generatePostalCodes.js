@@ -219,7 +219,7 @@ function preparePostalCodesCTT (callback) {
 function assembleData (callback) {
   console.log('Process and assemble Postal Codes data from both databases (OpenAddresses and CTT)')
 
-  const cttDataLen = 50 // cttData.length
+  const cttDataLen = cttData.length
   const openAddressesDataLen = openAddressesData.length
   const file = fs.createWriteStream(fileToBeSaved)
   file.write('[')
