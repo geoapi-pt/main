@@ -219,7 +219,7 @@ function preparePostalCodesCTT (callback) {
 function assembleData (callback) {
   console.log('Process and assemble Postal Codes data from both databases (OpenAddresses and CTT)')
 
-  const cttDataLen = cttData.length
+  const cttDataLen = 50 // cttData.length
   const openAddressesDataLen = openAddressesData.length
   const file = fs.createWriteStream(fileToBeSaved)
   file.write('[')
@@ -228,6 +228,22 @@ function assembleData (callback) {
 
   for (let i = 0; i < cttDataLen; i++) {
     const cttDataEl = cttData[i]
+
+    // these fields are easily obtained with CP = CP4-CP3
+    // save space in file
+    delete cttDataEl.CP3
+    delete cttDataEl.CP4
+
+    // delete unused keys to save space on disk
+    for (const key in cttDataEl) {
+      if (
+        !cttDataEl[key] ||
+        (typeof cttDataEl[key] === 'string' && !cttDataEl[key].trim())
+      ) {
+        delete cttDataEl[key]
+      }
+    }
+
     const CP = cttDataEl.CP
     bar.tick({ info: CP })
 
@@ -240,12 +256,13 @@ function assembleData (callback) {
         ])
       }
     }
-    cttDataEl.coordenadas = coordenadas
+
+    // cttDataEl.coordenadas = coordenadas
 
     // calculates centroid for this postal code, based on coordenadas
     if (
       coordenadas.length &&
-      coordenadas.every(coord => Number.isFinite(coord[0] && Number.isFinite(coord[1])))
+      coordenadas.every(coord => Number.isFinite(coord[0]) && Number.isFinite(coord[1]))
     ) {
       const geojsonCoord = {
         type: 'Feature',
@@ -255,7 +272,7 @@ function assembleData (callback) {
         }
       }
       const geojsonCentroid = turfCentroid(geojsonCoord)
-      cttData[i].centroide = geojsonCentroid.geometry.coordinates
+      cttDataEl.centroide = geojsonCentroid.geometry.coordinates
     }
     file.write(JSON.stringify(cttDataEl) + (i !== cttDataLen - 1 ? ',' : ''))
   }
