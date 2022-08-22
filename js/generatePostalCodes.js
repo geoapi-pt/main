@@ -29,8 +29,6 @@ const openAddressesDefaultZipFilePath = path.join(resDirectory, 'pt_addresses.cs
 const unzippedFilesEncoding = 'utf8' // see https://stackoverflow.com/a/14551669/1243247
 let unzippedFilePath
 
-const fileToBeSaved = path.join(__dirname, '..', 'res', 'postal-codes', 'postalCodes.json')
-
 let cttData = []
 const openAddressesData = []
 let numberOfEntries
@@ -66,7 +64,7 @@ async.series(
       console.error(err)
       process.exitCode = 1
     } else {
-      console.log(`Postal Codes generated with ${colors.green.bold('success')} on ${fileToBeSaved}`)
+      console.log(`Postal Codes JSON files generated with ${colors.green.bold('success')}`)
     }
   })
 
@@ -217,83 +215,110 @@ function preparePostalCodesCTT (callback) {
 
 // process and assemble data from both databases, i.e., OpenAddresses and CTT
 function assembleData (callback) {
+  // for tests, just get first N entries, i.e., trim array
+  // cttData = cttData.slice(0, 200)
+
+  // data directory where all CP4/CP3.json will be stored
+  if (!fs.existsSync(path.join(resDirectory, 'data'))) {
+    fs.mkdirSync(path.join(resDirectory, 'data'))
+  }
+
+  console.log('Generating Array of Unique CP4 values ')
+  // Array of single CP4 values (no duplicates)
+  const CP4Arr = [...new Set(cttData.map(el => el.CP4))]
+
+  console.log(`Creating ${CP4Arr.length} directories for postal codes, each directory for each CP4`)
+  const barDirectories = new ProgressBar('[:bar] :percent :info', { total: CP4Arr.length, width: 80 })
+  for (const CP4 of CP4Arr) {
+    if (!fs.existsSync(path.join(resDirectory, 'data', CP4))) {
+      fs.mkdirSync(path.join(resDirectory, 'data', CP4), { recursive: true })
+      barDirectories.tick({ info: `${path.join('res', 'postal-codes', 'data', CP4)} created` })
+    } else {
+      barDirectories.tick({ info: `${path.join('res', 'postal-codes', 'data', CP4)} already exists` })
+    }
+  }
+  barDirectories.terminate()
+
   console.log('Process and assemble Postal Codes data from both databases (OpenAddresses and CTT)')
-
-  const cttDataLen = cttData.length
   const openAddressesDataLen = openAddressesData.length
-  const file = fs.createWriteStream(fileToBeSaved)
-  file.write('[')
 
-  const bar = new ProgressBar('[:bar] :percent :info', { total: cttDataLen, width: 150 })
+  const barAssemble = new ProgressBar('[:bar] :percent :info', { total: cttData.length + 1, width: 80 })
+  barAssemble.tick({ info: 'Beginning' })
 
-  for (let i = 0; i < cttDataLen; i++) {
+  async.each(cttData, function (cttDataEl, callbackAsync) {
+    const filename = path.join(resDirectory, 'data', cttDataEl.CP4, cttDataEl.CP3 + '.json')
+    barAssemble.tick({ info: filename })
+
     let CP
-    const coordenadas = []
+    const locais = [] // locales fetched from OpenAddresses CSV file corresponding to this CP
     try {
-      const cttDataEl = cttData[i]
-
-      // these fields are easily obtained with CP = CP4-CP3
-      // save space in file
-      delete cttDataEl.CP3
-      delete cttDataEl.CP4
-
-      // delete unused keys to save space on disk
-      for (const key in cttDataEl) {
-        if (
-          !cttDataEl[key] ||
-          (typeof cttDataEl[key] === 'string' && !cttDataEl[key].trim())
-        ) {
-          delete cttDataEl[key]
-        }
-      }
-
       CP = cttDataEl.CP
-      bar.tick({ info: CP })
 
       for (let j = 0; j < openAddressesDataLen; j++) {
         if (CP === openAddressesData[j].postcode) {
-          coordenadas.push([
-            parseFloat(openAddressesData[j].lat),
-            parseFloat(openAddressesData[j].lon)
-          ])
+          locais.push({
+            id: openAddressesData[j].id,
+            rua: openAddressesData[j].street,
+            casa: openAddressesData[j].house,
+            coordenadas: [
+              parseFloat(openAddressesData[j].lat),
+              parseFloat(openAddressesData[j].lon)
+            ]
+          })
         }
       }
 
-      // cttDataEl.coordenadas = coordenadas
+      cttDataEl.locais = locais
+
+      // get unique arrays of streets
+      const streets = locais.map(local => local.rua)
+      cttDataEl.ruas = [...new Set(streets)] // remove duplicate elements of array
 
       // calculates centroid for this postal code, based on coordenadas
       if (
-        coordenadas.length === 1 &&
-        Number.isFinite(coordenadas[0][0]) && Number.isFinite(coordenadas[0][1])
+        locais.length === 1 &&
+        Number.isFinite(locais[0].coordenadas[0]) && Number.isFinite(locais[0].coordenadas[1])
       ) {
-        cttDataEl.centroide = coordenadas[0]
+        cttDataEl.centroide = locais[0].coordenadas
       } else if (
-        coordenadas.length > 1 &&
-        coordenadas.every(coord => Number.isFinite(coord[0]) && Number.isFinite(coord[1]))
+        locais.length > 1 &&
+        locais.every(local =>
+          Number.isFinite(local.coordenadas[0]) && Number.isFinite(local.coordenadas[1])
+        )
       ) {
         const geojsonCoord = {
           type: 'Feature',
           geometry: {
             type: 'Polygon',
-            coordinates: [coordenadas]
+            coordinates: [locais.map(local => [local.coordenadas[0], local.coordenadas[1]])]
           }
         }
 
         const geojsonCentroid = turfCentroid(geojsonCoord)
         cttDataEl.centroide = geojsonCentroid.geometry.coordinates
       }
-      file.write(JSON.stringify(cttDataEl) + (i !== cttDataLen - 1 ? ',' : ''))
-    } catch (e) {
-      console.error('\nCP: ', CP)
-      console.error('coordenadas: ', coordenadas)
-      console.error(e.message)
-      callback(Error('Error on ' + CP))
-      return
+
+      fs.writeFile(filename, JSON.stringify(cttDataEl), function (err) {
+        if (err) {
+          console.error('Error creating file ' + filename)
+          throw err
+        } else {
+          callbackAsync()
+        }
+      })
+    } catch (err) {
+      console.error(`Error on ${CP}. ${err.message}.`)
+      console.error('\nlocais for this CP: ', locais)
+      callbackAsync(Error(err))
     }
-  }
-
-  bar.terminate()
-  file.end(']')
-
-  callback()
+  },
+  function (err) {
+    barAssemble.terminate()
+    if (err) {
+      callback(Error(err))
+    } else {
+      console.log('All JSON files have been created successfully')
+      callback()
+    }
+  })
 }
