@@ -227,54 +227,69 @@ function assembleData (callback) {
   const bar = new ProgressBar('[:bar] :percent :info', { total: cttDataLen, width: 150 })
 
   for (let i = 0; i < cttDataLen; i++) {
-    const cttDataEl = cttData[i]
-
-    // these fields are easily obtained with CP = CP4-CP3
-    // save space in file
-    delete cttDataEl.CP3
-    delete cttDataEl.CP4
-
-    // delete unused keys to save space on disk
-    for (const key in cttDataEl) {
-      if (
-        !cttDataEl[key] ||
-        (typeof cttDataEl[key] === 'string' && !cttDataEl[key].trim())
-      ) {
-        delete cttDataEl[key]
-      }
-    }
-
-    const CP = cttDataEl.CP
-    bar.tick({ info: CP })
-
+    let CP
     const coordenadas = []
-    for (let j = 0; j < openAddressesDataLen; j++) {
-      if (CP === openAddressesData[j].postcode) {
-        coordenadas.push([
-          parseFloat(openAddressesData[j].lat),
-          parseFloat(openAddressesData[j].lon)
-        ])
-      }
-    }
+    try {
+      const cttDataEl = cttData[i]
 
-    // cttDataEl.coordenadas = coordenadas
+      // these fields are easily obtained with CP = CP4-CP3
+      // save space in file
+      delete cttDataEl.CP3
+      delete cttDataEl.CP4
 
-    // calculates centroid for this postal code, based on coordenadas
-    if (
-      coordenadas.length &&
-      coordenadas.every(coord => Number.isFinite(coord[0]) && Number.isFinite(coord[1]))
-    ) {
-      const geojsonCoord = {
-        type: 'Feature',
-        geometry: {
-          type: 'Polygon',
-          coordinates: [coordenadas]
+      // delete unused keys to save space on disk
+      for (const key in cttDataEl) {
+        if (
+          !cttDataEl[key] ||
+          (typeof cttDataEl[key] === 'string' && !cttDataEl[key].trim())
+        ) {
+          delete cttDataEl[key]
         }
       }
-      const geojsonCentroid = turfCentroid(geojsonCoord)
-      cttDataEl.centroide = geojsonCentroid.geometry.coordinates
+
+      CP = cttDataEl.CP
+      bar.tick({ info: CP })
+
+      for (let j = 0; j < openAddressesDataLen; j++) {
+        if (CP === openAddressesData[j].postcode) {
+          coordenadas.push([
+            parseFloat(openAddressesData[j].lat),
+            parseFloat(openAddressesData[j].lon)
+          ])
+        }
+      }
+
+      // cttDataEl.coordenadas = coordenadas
+
+      // calculates centroid for this postal code, based on coordenadas
+      if (
+        coordenadas.length === 1 &&
+        Number.isFinite(coordenadas[0][0]) && Number.isFinite(coordenadas[0][1])
+      ) {
+        cttDataEl.centroide = coordenadas[0]
+      } else if (
+        coordenadas.length > 1 &&
+        coordenadas.every(coord => Number.isFinite(coord[0]) && Number.isFinite(coord[1]))
+      ) {
+        const geojsonCoord = {
+          type: 'Feature',
+          geometry: {
+            type: 'Polygon',
+            coordinates: [coordenadas]
+          }
+        }
+
+        const geojsonCentroid = turfCentroid(geojsonCoord)
+        cttDataEl.centroide = geojsonCentroid.geometry.coordinates
+      }
+      file.write(JSON.stringify(cttDataEl) + (i !== cttDataLen - 1 ? ',' : ''))
+    } catch (e) {
+      console.error('\nCP: ', CP)
+      console.error('coordenadas: ', coordenadas)
+      console.error(e.message)
+      callback(Error('Error on ' + CP))
+      return
     }
-    file.write(JSON.stringify(cttDataEl) + (i !== cttDataLen - 1 ? ',' : ''))
   }
 
   bar.terminate()
