@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
   "scripts": {
-    "test": "standard && npx depcheck --ignores=\"depcheck\" && node server.js --testStartup && node test/mainTest.js",
+    "test": "standard && depcheck --ignores=\"depcheck\" --ignore-patterns=\"res/*\" && node server.js --testStartup && node test/mainTest.js",
     "start": "node server.js",
     "generate-postalcodes": "node --max-old-space-size=16384 js/generatePostalCodes.js",
     "validate-emails": "node validateEmails.js"
@@ -42,7 +42,7 @@
   "devDependencies": {
     "command-line-args": "^5.2.0",
     "command-line-usage": "^6.1.1",
-    "depcheck": "^1.4.2",
+    "depcheck": "^1.4.3",
     "email-verify": "^0.1.1",
     "got": "^11.8.2",
     "standard": "^16.0.3"
