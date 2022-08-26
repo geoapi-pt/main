@@ -1,5 +1,5 @@
 /* Fetch addresses from OpenAddresses and check for each Postal Code the corresponding GPS
-   coordinates and calculate a centroid for each said Postal Code.
+   coordinates and calculate a center and polygon for each said Postal Code.
    File from OpenAddresses available on:
    https://github.com/openaddresses/openaddresses/blob/master/sources/pt/countrywide.json */
 
@@ -12,11 +12,12 @@ const download = require('download')
 const got = require('got')
 const extract = require('extract-zip')
 const async = require('async')
-const turfCentroid = require('@turf/centroid').default
+const turf = require('@turf/turf')
 const ProgressBar = require('progress')
 const colors = require('colors/safe')
 const csv = require('csvtojson')
 const process = require('process')
+const debug = require('debug')('generate-postal-codes')
 
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'preparePostalCodesCTT.js'))
 
@@ -216,7 +217,7 @@ function preparePostalCodesCTT (callback) {
 // process and assemble data from both databases, i.e., OpenAddresses and CTT
 function assembleData (callback) {
   // for tests, just get first N entries, i.e., trim array
-  // cttData = cttData.slice(0, 200)
+  cttData = cttData.slice(0, 200)
 
   // data directory where all CP4/CP3.json will be stored
   if (!fs.existsSync(path.join(resDirectory, 'data'))) {
@@ -254,6 +255,7 @@ function assembleData (callback) {
     try {
       CP = cttDataEl.CP
 
+      // merges data from OpenAddresses into the CTT data object
       for (let j = 0; j < openAddressesDataLen; j++) {
         if (CP === openAddressesData[j].postcode) {
           locais.push({
@@ -274,31 +276,49 @@ function assembleData (callback) {
       const streets = locais.map(local => local.rua)
       cttDataEl.ruas = [...new Set(streets)] // remove duplicate elements of array
 
-      // calculates centroid for this postal code, based on coordenadas
       if (
-        locais.length === 1 &&
-        Number.isFinite(locais[0].coordenadas[0]) && Number.isFinite(locais[0].coordenadas[1])
-      ) {
-        cttDataEl.centroide = locais[0].coordenadas
-      } else if (
-        locais.length > 1 &&
         locais.every(local =>
           Number.isFinite(local.coordenadas[0]) && Number.isFinite(local.coordenadas[1])
         )
       ) {
-        const geojsonCoord = {
-          type: 'Feature',
-          geometry: {
-            type: 'Polygon',
-            coordinates: [locais.map(local => [local.coordenadas[0], local.coordenadas[1]])]
-          }
-        }
+        if (locais.length === 1) {
+          // just 1 point, center is that single point
+          const centro = locais[0].coordenadas
+          cttDataEl.centro = cttDataEl.centroide = cttDataEl.centroDeMassa = centro
+        } else if (locais.length === 2) {
+          // just 2 points, calculates center
+          const points = turf.points(locais.map(local => [local.coordenadas[0], local.coordenadas[1]]))
+          const geojsonCenter = turf.center(points)
+          const centro = geojsonCenter.geometry.coordinates
+          cttDataEl.centro = cttDataEl.centroide = cttDataEl.centroDeMassa = centro
+        } else if (locais.length > 2) {
+          // computes center from set of points
+          // computes also corresponding convex hull polygon
+          // from hull polygon, computes centroid and center of mass
+          // https://en.wikipedia.org/wiki/Convex_hull_of_a_simple_polygon
+          // https://github.com/jfoclpf/geoapi.pt/issues/27#issuecomment-1222236088
+          // https://stackoverflow.com/a/61162868/1243247
 
-        const geojsonCentroid = turfCentroid(geojsonCoord)
-        cttDataEl.centroide = geojsonCentroid.geometry.coordinates
+          // converts to geojson object
+          const points = turf.points(locais.map(local => [local.coordenadas[0], local.coordenadas[1]]))
+
+          // computes center
+          const geojsonCenter = turf.center(points)
+          cttDataEl.centro = geojsonCenter.geometry.coordinates
+
+          // computes convex hull polygon, the minimum polygon than embraces all the points
+          const hullPolygon = turf.convex(points)
+          cttDataEl.poligono = turf.polygonSmooth(hullPolygon, { iterations: 3 })
+
+          // computes centroide and center of mass from hull polygon
+          cttDataEl.centroide = turf.centroid(hullPolygon).geometry.coordinates
+          cttDataEl.centroDeMassa = turf.center(hullPolygon).geometry.coordinates
+        }
       }
 
-      fs.writeFile(filename, JSON.stringify(cttDataEl), function (err) {
+      debug(filename)
+      fs.rmSync(filename, { force: true })
+      fs.writeFile(filename, JSON.stringify(cttDataEl, null, 2), function (err) {
         if (err) {
           console.error('Error creating file ' + filename)
           throw err
@@ -307,7 +327,7 @@ function assembleData (callback) {
         }
       })
     } catch (err) {
-      console.error(`Error on ${CP}. ${err.message}.`)
+      console.error(`\nError on ${CP}. ${err.message}.`, err)
       console.error('\nlocais for this CP: ', locais)
       callbackAsync(Error(err))
     }
