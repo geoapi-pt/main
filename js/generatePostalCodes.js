@@ -243,7 +243,13 @@ function assembleData (callback) {
   console.log('Process and assemble Postal Codes data from both databases (OpenAddresses and CTT)')
   const openAddressesDataLen = openAddressesData.length
 
-  const barAssemble = new ProgressBar('[:bar] :percent :info', { total: cttData.length + 1, width: 80 })
+  let barAssemble
+  if (!debug.enabled) {
+    barAssemble = new ProgressBar('[:bar] :percent :info', { total: cttData.length + 1, width: 80 })
+  } else {
+    barAssemble = { tick: () => {}, terminate: () => {} }
+  }
+
   barAssemble.tick({ info: 'Beginning' })
 
   async.each(cttData, function (cttDataEl, callbackAsync) {
