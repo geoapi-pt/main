@@ -12,7 +12,7 @@ const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const debug = require('debug')('prepareServer') // run: DEBUG=server npm start
 
-const resDir = path.join(__dirname, '..', 'res')
+const resDir = path.join(__dirname, '..', '..', 'res')
 
 module.exports = {
   prepare: function (callback) {
