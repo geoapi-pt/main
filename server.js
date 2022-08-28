@@ -10,15 +10,17 @@ const nocache = require('nocache')
 const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
-
-const { obj2html } = require(path.join(__dirname, 'js', 'server-modules', 'renderHtml.js'))
+const fs = require('fs')
 
 const mainPageUrl = 'https://www.geoapi.pt/'
 
-const prepareServerMod = require(path.join(__dirname, 'js', 'server-modules', 'prepareServer.js'))
-const normalizeName = prepareServerMod.normalizeName
+// import server project modules
+const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
+const { obj2html } = require(path.join(serverModulesDir, 'renderHtml.js'))
+const prepareServerMod = require(path.join(serverModulesDir, 'prepareServer.js'))
+const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
 
-const preparePostalCodesCTTMod = require(path.join(__dirname, 'js', 'routines', 'preparePostalCodesCTT.js'))
+const normalizeName = prepareServerMod.normalizeName
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -33,9 +35,9 @@ console.time('serverTimeToStart')
 
 // fetched from prepareServerMod
 // see global objects "regions" and "administrations" on prepareServer.js
-let regions, administrations, postalCodes
+let regions, administrations
 
-async.series([prepareServer, preparePostalCodesCTT, startServer],
+async.series([copyFrontEndNpmModules, prepareServer, startServer],
   function (err) {
     if (err) {
       console.error(err)
