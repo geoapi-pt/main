@@ -1,1 +1,416 @@
-{"CP4":"5000","CP3":"172","Distrito":"Vila Real","Concelho":"Vila Real","CP":"5000-172","Artéria":"Rua Engenheiro Sousa Campos","Localidade":"Lordelo","Local":"Urbanização São Lourenço","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA REAL","locais":[{"id":"pt.ine.add.PTCONT.5320629","rua":"R ENG SOUSA CAMPOS B","casa":"B3B","coordenadas":[41.30652920850108,-7.758181186687931]},{"id":"pt.ine.add.PTCONT.5322364","rua":"R ENG SOUSA CAMPOS B","casa":"B2B","coordenadas":[41.30616761016306,-7.757741440043645]},{"id":"pt.ine.add.PTCONT.5334193","rua":"R ENG SOUSA CAMPOS","casa":"","coordenadas":[41.306983561046906,-7.759456289804223]},{"id":"pt.ine.add.PTCONT.5344136","rua":"R ENG SOUSA CAMPOS TORREA","casa":"TORREA2","coordenadas":[41.305110949564785,-7.7567683514718135]},{"id":"pt.ine.add.PTCONT.5344142","rua":"R ENG SOUSA CAMPOS","casa":"TORRE A2","coordenadas":[41.305110949564785,-7.7567683514718135]},{"id":"pt.ine.add.PTCONT.5344194","rua":"R ENG SOUSA CAMPOS","casa":"TORRE A2","coordenadas":[41.305110949564785,-7.7567683514718135]},{"id":"pt.ine.add.PTCONT.5344200","rua":"R ENG SOUSA CAMPOS A","casa":"A2","coordenadas":[41.305110949564785,-7.7567683514718135]},{"id":"pt.ine.add.PTCONT.5344201","rua":"R ENG SOUSA CAMPOS","casa":"","coordenadas":[41.305110949564785,-7.7567683514718135]},{"id":"pt.ine.add.PTCONT.5344203","rua":"R ENG SOUSA CAMPOS","casa":"TORRE A2","coordenadas":[41.305110949564785,-7.7567683514718135]},{"id":"pt.ine.add.PTCONT.5347983","rua":"R ENG SOUSA CAMPOS B","casa":"B1B","coordenadas":[41.305824018067206,-7.75730159485976]},{"id":"pt.ine.add.PTCONT.5357320","rua":"R ENG SOUSA CAMPOS B","casa":"B3A","coordenadas":[41.306402647328696,-7.758026677767626]},{"id":"pt.ine.add.PTCONT.5385559","rua":"R ENG SOUSA CAMPOS","casa":"","coordenadas":[41.30662638380922,-7.757607456699836]},{"id":"pt.ine.add.PTCONT.5401971","rua":"R ENG SOUSA CAMPOS","casa":"C1B","coordenadas":[41.30680980834682,-7.75863334277727]},{"id":"pt.ine.add.PTCONT.5404823","rua":"R ENG SOUSA CAMPOS C","casa":"C1","coordenadas":[41.30671926362872,-7.758478626168617]},{"id":"pt.ine.add.PTCONT.5407004","rua":"R ENG SOUSA CAMPOS","casa":"","coordenadas":[41.3056704828249,-7.757159185173419]},{"id":"pt.ine.add.PTCONT.5412527","rua":"R ENG SOUSA CAMPOS B","casa":"B2A","coordenadas":[41.306050052361726,-7.757586881167215]},{"id":"pt.ine.add.PTCONT.5412528","rua":"R ENG SOUSA CAMPOS B","casa":"B2 ENT A","coordenadas":[41.306050052361726,-7.757586881167215]},{"id":"pt.ine.add.PTCONT.5412651","rua":"R ENG SOUSA CAMPOS A","casa":"A","coordenadas":[41.306050052361726,-7.757586881167215]},{"id":"pt.ine.add.PTCONT.5422255","rua":"R ENG SOUSA CAMPOS","casa":"TORRE A1","coordenadas":[41.30478672882242,-7.756746334081588]},{"id":"pt.ine.add.PTCONT.5422274","rua":"R ENG SOUSA CAMPOS","casa":"TORRE A1","coordenadas":[41.30478672882242,-7.756746334081588]},{"id":"pt.ine.add.PTCONT.5423973","rua":"R ENG SOUSA CAMPOS VENUS","casa":"VENUS","coordenadas":[41.30703350812861,-7.758202180185997]}],"ruas":["R ENG SOUSA CAMPOS B","R ENG SOUSA CAMPOS","R ENG SOUSA CAMPOS TORREA","R ENG SOUSA CAMPOS A","R ENG SOUSA CAMPOS C","R ENG SOUSA CAMPOS VENUS"],"centroide":[41.30580611479176,-7.7574724610239]}
+{
+  "CP": "5000-172",
+  "CP4": "5000",
+  "CP3": "172",
+  "Distrito": "Vila Real",
+  "Concelho": "Vila Real",
+  "Localidade": "Lordelo",
+  "Designação Postal": "VILA REAL",
+  "partes": [
+    {
+      "Artéria": "Rua do Ribatejo",
+      "Local": "Urbanização São Lourenço",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Engenheiro Sousa Campos",
+      "Local": "Urbanização São Lourenço",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5320629",
+      "rua": "R ENG SOUSA CAMPOS B",
+      "casa": "B3B",
+      "coordenadas": [
+        41.30652920850108,
+        -7.758181186687931
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5322364",
+      "rua": "R ENG SOUSA CAMPOS B",
+      "casa": "B2B",
+      "coordenadas": [
+        41.30616761016306,
+        -7.757741440043645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5334193",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "",
+      "coordenadas": [
+        41.306983561046906,
+        -7.759456289804223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5344136",
+      "rua": "R ENG SOUSA CAMPOS TORREA",
+      "casa": "TORREA2",
+      "coordenadas": [
+        41.305110949564785,
+        -7.7567683514718135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5344142",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "TORRE A2",
+      "coordenadas": [
+        41.305110949564785,
+        -7.7567683514718135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5344194",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "TORRE A2",
+      "coordenadas": [
+        41.305110949564785,
+        -7.7567683514718135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5344200",
+      "rua": "R ENG SOUSA CAMPOS A",
+      "casa": "A2",
+      "coordenadas": [
+        41.305110949564785,
+        -7.7567683514718135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5344201",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "",
+      "coordenadas": [
+        41.305110949564785,
+        -7.7567683514718135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5344203",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "TORRE A2",
+      "coordenadas": [
+        41.305110949564785,
+        -7.7567683514718135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5347983",
+      "rua": "R ENG SOUSA CAMPOS B",
+      "casa": "B1B",
+      "coordenadas": [
+        41.305824018067206,
+        -7.75730159485976
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5357320",
+      "rua": "R ENG SOUSA CAMPOS B",
+      "casa": "B3A",
+      "coordenadas": [
+        41.306402647328696,
+        -7.758026677767626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5385559",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "",
+      "coordenadas": [
+        41.30662638380922,
+        -7.757607456699836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5401971",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "C1B",
+      "coordenadas": [
+        41.30680980834682,
+        -7.75863334277727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5404823",
+      "rua": "R ENG SOUSA CAMPOS C",
+      "casa": "C1",
+      "coordenadas": [
+        41.30671926362872,
+        -7.758478626168617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5407004",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "",
+      "coordenadas": [
+        41.3056704828249,
+        -7.757159185173419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5412527",
+      "rua": "R ENG SOUSA CAMPOS B",
+      "casa": "B2A",
+      "coordenadas": [
+        41.306050052361726,
+        -7.757586881167215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5412528",
+      "rua": "R ENG SOUSA CAMPOS B",
+      "casa": "B2 ENT A",
+      "coordenadas": [
+        41.306050052361726,
+        -7.757586881167215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5412651",
+      "rua": "R ENG SOUSA CAMPOS A",
+      "casa": "A",
+      "coordenadas": [
+        41.306050052361726,
+        -7.757586881167215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5422255",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "TORRE A1",
+      "coordenadas": [
+        41.30478672882242,
+        -7.756746334081588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5422274",
+      "rua": "R ENG SOUSA CAMPOS",
+      "casa": "TORRE A1",
+      "coordenadas": [
+        41.30478672882242,
+        -7.756746334081588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5423973",
+      "rua": "R ENG SOUSA CAMPOS VENUS",
+      "casa": "VENUS",
+      "coordenadas": [
+        41.30703350812861,
+        -7.758202180185997
+      ]
+    }
+  ],
+  "ruas": [
+    "R ENG SOUSA CAMPOS B",
+    "R ENG SOUSA CAMPOS",
+    "R ENG SOUSA CAMPOS TORREA",
+    "R ENG SOUSA CAMPOS A",
+    "R ENG SOUSA CAMPOS C",
+    "R ENG SOUSA CAMPOS VENUS"
+  ],
+  "centro": [
+    41.305910118475516,
+    -7.758101311942905
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.306022446948695,
+                -7.758270684175571
+              ],
+              [
+                41.30574784292063,
+                -7.757931939710241
+              ],
+              [
+                41.30551263034518,
+                -7.7576358823248
+              ],
+              [
+                41.30531680922233,
+                -7.757382512019248
+              ],
+              [
+                41.30516037955209,
+                -7.757171828793584
+              ],
+              [
+                41.30504334133446,
+                -7.757003832647808
+              ],
+              [
+                41.30496569456943,
+                -7.7568785235819195
+              ],
+              [
+                41.304927439257014,
+                -7.756795901595921
+              ],
+              [
+                41.304928575397206,
+                -7.756755966689811
+              ],
+              [
+                41.30496910299,
+                -7.7567587188635905
+              ],
+              [
+                41.30502824329377,
+                -7.756774238034834
+              ],
+              [
+                41.305105996308505,
+                -7.756802524203543
+              ],
+              [
+                41.30520236203421,
+                -7.756843577369718
+              ],
+              [
+                41.305317340470886,
+                -7.756897397533359
+              ],
+              [
+                41.30545093161853,
+                -7.756963984694465
+              ],
+              [
+                41.30560313547714,
+                -7.757043338853037
+              ],
+              [
+                41.30577395204673,
+                -7.757135460009073
+              ],
+              [
+                41.30596338132728,
+                -7.7572403481625765
+              ],
+              [
+                41.30613549326526,
+                -7.757341417851363
+              ],
+              [
+                41.30629028786065,
+                -7.757438669075432
+              ],
+              [
+                41.30642776511347,
+                -7.757532101834785
+              ],
+              [
+                41.30654792502371,
+                -7.757621716129421
+              ],
+              [
+                41.306650767591364,
+                -7.7577075119593415
+              ],
+              [
+                41.30673629281645,
+                -7.757789489324544
+              ],
+              [
+                41.30680450069895,
+                -7.757867648225031
+              ],
+              [
+                41.30685539123888,
+                -7.757941988660802
+              ],
+              [
+                41.306899140038155,
+                -7.758026632004885
+              ],
+              [
+                41.3069357470968,
+                -7.758121578257282
+              ],
+              [
+                41.306965212414795,
+                -7.758226827417992
+              ],
+              [
+                41.30698753599215,
+                -7.758342379487017
+              ],
+              [
+                41.307002717828865,
+                -7.758468234464354
+              ],
+              [
+                41.30701075792493,
+                -7.758604392350005
+              ],
+              [
+                41.307011656280366,
+                -7.758750853143971
+              ],
+              [
+                41.30700541289515,
+                -7.758907616846249
+              ],
+              [
+                41.30696562442959,
+                -7.759002442027576
+              ],
+              [
+                41.30689229088366,
+                -7.759035328687954
+              ],
+              [
+                41.306785412257376,
+                -7.759006276827379
+              ],
+              [
+                41.306644988550744,
+                -7.758915286445852
+              ],
+              [
+                41.30647101976375,
+                -7.758762357543375
+              ],
+              [
+                41.3062635058964,
+                -7.758547490119949
+              ],
+              [
+                41.306022446948695,
+                -7.758270684175571
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.30610822627439,
+    -7.757756122448692
+  ],
+  "centroDeMassa": [
+    41.305910118475516,
+    -7.758101311942905
+  ]
+}

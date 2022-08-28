@@ -1,1 +1,468 @@
-{"CP4":"4405","CP3":"747","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4405-747","Artéria":"Travessa de Fonte de Aguim","Localidade":"Vila Nova de Gaia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3570408","rua":"TV FONTE DE AGUIM","casa":"88","coordenadas":[41.10600630666993,-8.633058401685089]},{"id":"pt.ine.add.PTCONT.3620879","rua":"TV FONTE DE AGUIM","casa":"101","coordenadas":[41.10709818763249,-8.634590505941242]},{"id":"pt.ine.add.PTCONT.3628272","rua":"TV FONTE AGUIM","casa":"121","coordenadas":[41.1070339148504,-8.634875733345869]},{"id":"pt.ine.add.PTCONT.3738831","rua":"TV FONTE DE AGUIM","casa":"103","coordenadas":[41.106979890118026,-8.634875322077178]},{"id":"pt.ine.add.PTCONT.3747241","rua":"TV FONTE DE AGUIM","casa":"103","coordenadas":[41.106899164064885,-8.63480327858769]},{"id":"pt.ine.add.PTCONT.3828954","rua":"TV FONTE DE AGUIM","casa":"182","coordenadas":[41.10604522330032,-8.63446344816643]},{"id":"pt.ine.add.PTCONT.3840576","rua":"TV FONTE DE AGUIM","casa":"179","coordenadas":[41.10566963857137,-8.633865361254413]},{"id":"pt.ine.add.PTCONT.3861025","rua":"TV FONTE DE AGUIM","casa":"37","coordenadas":[41.107212545136825,-8.63521042990826]},{"id":"pt.ine.add.PTCONT.3898966","rua":"TV FONTE DE AGUIM","casa":"238","coordenadas":[41.10696752565725,-8.63357760054744]},{"id":"pt.ine.add.PTCONT.3911665","rua":"TV FONTE DE AGUIM","casa":"97","coordenadas":[41.107223986249,-8.63465098748191]},{"id":"pt.ine.add.PTCONT.3938874","rua":"TV FONTE AGUIM","casa":"144","coordenadas":[41.106728863155574,-8.634623410422044]},{"id":"pt.ine.add.PTCONT.3958450","rua":"TV FONTE DE AGUIM","casa":"97","coordenadas":[41.107161216488315,-8.634590985484465]},{"id":"pt.ine.add.PTCONT.3977675","rua":"TV FONTE DE AGUIM","casa":"103","coordenadas":[41.10689880117318,-8.634886609607564]},{"id":"pt.ine.add.PTCONT.3988374","rua":"TV FONTE DE AGUIM","casa":"73","coordenadas":[41.107132234238776,-8.63504314996887]},{"id":"pt.ine.add.PTCONT.3990262","rua":"TV FONTE DE AGUIM","casa":"73","coordenadas":[41.107132234238776,-8.63504314996887]},{"id":"pt.ine.add.PTCONT.4048495","rua":"TV FONTE DE AGUIM","casa":"","coordenadas":[41.106746249488985,-8.634766400291324]},{"id":"pt.ine.add.PTCONT.4087992","rua":"TV FONTE DE AGUIM","casa":"114","coordenadas":[41.106925243159075,-8.635017764041912]},{"id":"pt.ine.add.PTCONT.4087993","rua":"TV FONTE DE AGUIM","casa":"114","coordenadas":[41.106925243159075,-8.635017764041912]},{"id":"pt.ine.add.PTCONT.4087994","rua":"TV FONTE DE AGUIM","casa":"114","coordenadas":[41.106925243159075,-8.635017764041912]},{"id":"pt.ine.add.PTCONT.4088874","rua":"TV FONTE DE AGUIM","casa":"114","coordenadas":[41.106925243159075,-8.635017764041912]},{"id":"pt.ine.add.PTCONT.4120814","rua":"TV FONTE DE AGUIM","casa":"33","coordenadas":[41.10732023140128,-8.635294584550262]},{"id":"pt.ine.add.PTCONT.4126969","rua":"TV FONTE DE AGUIM","casa":"5","coordenadas":[41.10751712828908,-8.635569898286986]},{"id":"pt.ine.add.PTCONT.4192576","rua":"TV FONTE DE AGUIM","casa":"103","coordenadas":[41.10698061582601,-8.634708659830585]},{"id":"pt.ine.add.PTCONT.4247169","rua":"TV FONTE DE AGUIM","casa":"27","coordenadas":[41.107382948893665,-8.635366491878255]},{"id":"pt.ine.add.PTCONT.4271984","rua":"TV FONTE DE AGUIM","casa":"100","coordenadas":[41.10595119686422,-8.633307981451393]},{"id":"pt.ine.add.PTCONT.4323796","rua":"TV FONTE DE AGUIM","casa":"103","coordenadas":[41.10689052277389,-8.634719879043036]},{"id":"pt.ine.add.PTCONT.4350717","rua":"TV FONTE DE AGUIM","casa":"95","coordenadas":[41.10715133132171,-8.634793293093058]},{"id":"pt.ine.add.PTCONT.4379946","rua":"TV FONTE AGUIM","casa":"128","coordenadas":[41.10606752682927,-8.63347552969491]}],"ruas":["TV FONTE DE AGUIM","TV FONTE AGUIM"],"centroide":[41.10688262700149,-8.634694689594069]}
+{
+  "CP": "4405-747",
+  "CP4": "4405",
+  "CP3": "747",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Travessa de Fonte de Aguim",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3570408",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "88",
+      "coordenadas": [
+        41.10600630666993,
+        -8.633058401685089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3620879",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "101",
+      "coordenadas": [
+        41.10709818763249,
+        -8.634590505941242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3628272",
+      "rua": "TV FONTE AGUIM",
+      "casa": "121",
+      "coordenadas": [
+        41.1070339148504,
+        -8.634875733345869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3738831",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "103",
+      "coordenadas": [
+        41.106979890118026,
+        -8.634875322077178
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3747241",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "103",
+      "coordenadas": [
+        41.106899164064885,
+        -8.63480327858769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3828954",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "182",
+      "coordenadas": [
+        41.10604522330032,
+        -8.63446344816643
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3840576",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "179",
+      "coordenadas": [
+        41.10566963857137,
+        -8.633865361254413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3861025",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "37",
+      "coordenadas": [
+        41.107212545136825,
+        -8.63521042990826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3898966",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "238",
+      "coordenadas": [
+        41.10696752565725,
+        -8.63357760054744
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3911665",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "97",
+      "coordenadas": [
+        41.107223986249,
+        -8.63465098748191
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3938874",
+      "rua": "TV FONTE AGUIM",
+      "casa": "144",
+      "coordenadas": [
+        41.106728863155574,
+        -8.634623410422044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3958450",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "97",
+      "coordenadas": [
+        41.107161216488315,
+        -8.634590985484465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3977675",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "103",
+      "coordenadas": [
+        41.10689880117318,
+        -8.634886609607564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3988374",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "73",
+      "coordenadas": [
+        41.107132234238776,
+        -8.63504314996887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990262",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "73",
+      "coordenadas": [
+        41.107132234238776,
+        -8.63504314996887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4048495",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "",
+      "coordenadas": [
+        41.106746249488985,
+        -8.634766400291324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4087992",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "114",
+      "coordenadas": [
+        41.106925243159075,
+        -8.635017764041912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4087993",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "114",
+      "coordenadas": [
+        41.106925243159075,
+        -8.635017764041912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4087994",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "114",
+      "coordenadas": [
+        41.106925243159075,
+        -8.635017764041912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4088874",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "114",
+      "coordenadas": [
+        41.106925243159075,
+        -8.635017764041912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4120814",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "33",
+      "coordenadas": [
+        41.10732023140128,
+        -8.635294584550262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4126969",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "5",
+      "coordenadas": [
+        41.10751712828908,
+        -8.635569898286986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4192576",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "103",
+      "coordenadas": [
+        41.10698061582601,
+        -8.634708659830585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4247169",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "27",
+      "coordenadas": [
+        41.107382948893665,
+        -8.635366491878255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4271984",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "100",
+      "coordenadas": [
+        41.10595119686422,
+        -8.633307981451393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4323796",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "103",
+      "coordenadas": [
+        41.10689052277389,
+        -8.634719879043036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4350717",
+      "rua": "TV FONTE DE AGUIM",
+      "casa": "95",
+      "coordenadas": [
+        41.10715133132171,
+        -8.634793293093058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4379946",
+      "rua": "TV FONTE AGUIM",
+      "casa": "128",
+      "coordenadas": [
+        41.10606752682927,
+        -8.63347552969491
+      ]
+    }
+  ],
+  "ruas": [
+    "TV FONTE DE AGUIM",
+    "TV FONTE AGUIM"
+  ],
+  "centro": [
+    41.10659338343022,
+    -8.634314149986038
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.105880904981404,
+                -8.634201785142423
+              ],
+              [
+                41.10583395689028,
+                -8.63412702427842
+              ],
+              [
+                41.105798137749595,
+                -8.634048999779147
+              ],
+              [
+                41.105773447559336,
+                -8.633967711644605
+              ],
+              [
+                41.105759886319504,
+                -8.633883159874792
+              ],
+              [
+                41.10575745403011,
+                -8.633795344469707
+              ],
+              [
+                41.10576615069114,
+                -8.633704265429355
+              ],
+              [
+                41.1057859763026,
+                -8.633609922753728
+              ],
+              [
+                41.10581693086449,
+                -8.633512316442832
+              ],
+              [
+                41.105859014376804,
+                -8.63341144649667
+              ],
+              [
+                41.10591085649676,
+                -8.633331297775998
+              ],
+              [
+                41.10597245722436,
+                -8.633271870280822
+              ],
+              [
+                41.10604381655959,
+                -8.633233164011141
+              ],
+              [
+                41.10612493450245,
+                -8.633215178966955
+              ],
+              [
+                41.106215811052955,
+                -8.633217915148265
+              ],
+              [
+                41.1063164462111,
+                -8.63324137255507
+              ],
+              [
+                41.10642683997688,
+                -8.633285551187367
+              ],
+              [
+                41.106546992350296,
+                -8.633350451045162
+              ],
+              [
+                41.10666071321816,
+                -8.633438368072913
+              ],
+              [
+                41.106768002580466,
+                -8.63354930227062
+              ],
+              [
+                41.10686886043722,
+                -8.633683253638281
+              ],
+              [
+                41.106963286788414,
+                -8.633840222175898
+              ],
+              [
+                41.10705128163406,
+                -8.634020207883474
+              ],
+              [
+                41.107132844974146,
+                -8.634223210761006
+              ],
+              [
+                41.107207976808674,
+                -8.634449230808492
+              ],
+              [
+                41.107276677137655,
+                -8.634698268025934
+              ],
+              [
+                41.10731379141006,
+                -8.634898887308063
+              ],
+              [
+                41.107319319625894,
+                -8.635051088654878
+              ],
+              [
+                41.10729326178516,
+                -8.635154872066378
+              ],
+              [
+                41.10723561788785,
+                -8.635210237542568
+              ],
+              [
+                41.10714638793397,
+                -8.635217185083441
+              ],
+              [
+                41.10702557192352,
+                -8.635175714688998
+              ],
+              [
+                41.1068731698565,
+                -8.635085826359242
+              ],
+              [
+                41.106689181732904,
+                -8.634947520094174
+              ],
+              [
+                41.10652232361337,
+                -8.634817157004239
+              ],
+              [
+                41.10637259549789,
+                -8.634694737089436
+              ],
+              [
+                41.106239997386474,
+                -8.634580260349766
+              ],
+              [
+                41.106124529279114,
+                -8.634473726785231
+              ],
+              [
+                41.106026191175815,
+                -8.634375136395828
+              ],
+              [
+                41.10594498307658,
+                -8.634284489181558
+              ],
+              [
+                41.105880904981404,
+                -8.634201785142423
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.10644116449759,
+    -8.634106941988072
+  ],
+  "centroDeMassa": [
+    41.10659338343022,
+    -8.634314149986038
+  ]
+}

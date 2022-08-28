@@ -1,1 +1,499 @@
-{"CP4":"3810","CP3":"581","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3810-581","Artéria":"Rua Professor Belarmino Nunes","Localidade":"Nariz","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"NARIZ","locais":[{"id":"pt.ine.add.PTCONT.313833","rua":"R PROF BELARMINO NUNES","casa":"116","coordenadas":[40.535124230628526,-8.594219081459036]},{"id":"pt.ine.add.PTCONT.313835","rua":"R PROF BELARMINO NUNES","casa":"149","coordenadas":[40.533668989590275,-8.595566425011521]},{"id":"pt.ine.add.PTCONT.315543","rua":"R PROF BELARMINO NUNES","casa":"138","coordenadas":[40.53442871935691,-8.594745444519852]},{"id":"pt.ine.add.PTCONT.350279","rua":"R PROF BELARMINO NUNES","casa":"84","coordenadas":[40.536045430744984,-8.593552614711365]},{"id":"pt.ine.add.PTCONT.5819","rua":"R PROF BELARMINO NUNES","casa":"155","coordenadas":[40.53356045629044,-8.595683706427074]},{"id":"pt.ine.add.PTCONT.5820","rua":"R PROF BELARMINO NUNES","casa":"155","coordenadas":[40.53356045629044,-8.595683706427074]},{"id":"pt.ine.add.PTCONT.5821","rua":"R PROF BELARMINO NUNES","casa":"155","coordenadas":[40.53356045629044,-8.595683706427074]},{"id":"pt.ine.add.PTCONT.37972","rua":"R PROF BELARMINO NUNES","casa":"","coordenadas":[40.536611302154846,-8.591656157878129]},{"id":"pt.ine.add.PTCONT.40701","rua":"R PROF BELARMINO NUNES","casa":"33","coordenadas":[40.53665735773125,-8.59139679916497]},{"id":"pt.ine.add.PTCONT.75701","rua":"R PROF BELARMINO NUNES","casa":"1","coordenadas":[40.53780310734838,-8.590873448704778]},{"id":"pt.ine.add.PTCONT.81182","rua":"R PROF BELARMINO NUNES","casa":"37","coordenadas":[40.53655778690009,-8.5915259568584]},{"id":"pt.ine.add.PTCONT.106882","rua":"R PROF BELARMINO NUNES","casa":"41","coordenadas":[40.53642210195081,-8.59167847448086]},{"id":"pt.ine.add.PTCONT.110461","rua":"R PROF BELARMINO NUNES","casa":"44","coordenadas":[40.53671973771271,-8.591562470645085]},{"id":"pt.ine.add.PTCONT.118433","rua":"R PROF BELARMINO NUNES","casa":"34","coordenadas":[40.53697248844366,-8.591410749831756]},{"id":"pt.ine.add.PTCONT.123848","rua":"R PROF BELARMINO NUNES","casa":"135","coordenadas":[40.53407719144056,-8.594825651890357]},{"id":"pt.ine.add.PTCONT.155558","rua":"R PROF BELARMINO NUNES","casa":"135","coordenadas":[40.53375088532377,-8.595354537773176]},{"id":"pt.ine.add.PTCONT.162203","rua":"R PROF BELARMINO NUNES","casa":"","coordenadas":[40.534737248038425,-8.594157413667086]},{"id":"pt.ine.add.PTCONT.162204","rua":"R PROF BELARMINO NUNES","casa":"29","coordenadas":[40.53672090812833,-8.591267395716716]},{"id":"pt.ine.add.PTCONT.172185","rua":"R PROF BELARMINO NUNES","casa":"140","coordenadas":[40.5343018465516,-8.594945222911765]},{"id":"pt.ine.add.PTCONT.176957","rua":"","casa":"","coordenadas":[40.53594478624557,-8.591687023315913]},{"id":"pt.ine.add.PTCONT.214428","rua":"R PROF BELARMINO NUNES","casa":"","coordenadas":[40.53683727190842,-8.591445238445969]},{"id":"pt.ine.add.PTCONT.220112","rua":"R PROF BELARMINO NUNES","casa":"131","coordenadas":[40.53415885010205,-8.594672775167714]},{"id":"pt.ine.add.PTCONT.233399","rua":"R PROF BELARMINO NUNES","casa":"15","coordenadas":[40.53720051556332,-8.590680492841212]},{"id":"pt.ine.add.PTCONT.249777","rua":"R PROF BELARMINO NUNES","casa":"128","coordenadas":[40.5347269238377,-8.594487825935218]},{"id":"pt.ine.add.PTCONT.252286","rua":"R PROF BELARMINO NUNES","casa":"145","coordenadas":[40.53380562386457,-8.595177871887923]},{"id":"pt.ine.add.PTCONT.260834","rua":"R PROF BELARMINO NUNES","casa":"139","coordenadas":[40.533914015088726,-8.595095996723492]},{"id":"pt.ine.add.PTCONT.271355","rua":"R PROF BELARMINO NUNES","casa":"134","coordenadas":[40.534528482331666,-8.594569085256271]},{"id":"pt.ine.add.PTCONT.271357","rua":"R PROF BELARMINO NUNES","casa":"137","coordenadas":[40.53390585924039,-8.594883489923175]}],"ruas":["R PROF BELARMINO NUNES",""],"centroide":[40.53527396925402,-8.593466862002956]}
+{
+  "CP": "3810-581",
+  "CP4": "3810",
+  "CP3": "581",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "Nariz",
+  "Designação Postal": "NARIZ",
+  "partes": [
+    {
+      "Artéria": "Rua Professor Belarmino Nunes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.313833",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "116",
+      "coordenadas": [
+        40.535124230628526,
+        -8.594219081459036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.313835",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "149",
+      "coordenadas": [
+        40.533668989590275,
+        -8.595566425011521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.315543",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "138",
+      "coordenadas": [
+        40.53442871935691,
+        -8.594745444519852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.350279",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "84",
+      "coordenadas": [
+        40.536045430744984,
+        -8.593552614711365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5819",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "155",
+      "coordenadas": [
+        40.53356045629044,
+        -8.595683706427074
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5820",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "155",
+      "coordenadas": [
+        40.53356045629044,
+        -8.595683706427074
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5821",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "155",
+      "coordenadas": [
+        40.53356045629044,
+        -8.595683706427074
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.37972",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "",
+      "coordenadas": [
+        40.536611302154846,
+        -8.591656157878129
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.40701",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "33",
+      "coordenadas": [
+        40.53665735773125,
+        -8.59139679916497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.75701",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "1",
+      "coordenadas": [
+        40.53780310734838,
+        -8.590873448704778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.81182",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "37",
+      "coordenadas": [
+        40.53655778690009,
+        -8.5915259568584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.106882",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "41",
+      "coordenadas": [
+        40.53642210195081,
+        -8.59167847448086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.110461",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "44",
+      "coordenadas": [
+        40.53671973771271,
+        -8.591562470645085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118433",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "34",
+      "coordenadas": [
+        40.53697248844366,
+        -8.591410749831756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.123848",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "135",
+      "coordenadas": [
+        40.53407719144056,
+        -8.594825651890357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.155558",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "135",
+      "coordenadas": [
+        40.53375088532377,
+        -8.595354537773176
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.162203",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "",
+      "coordenadas": [
+        40.534737248038425,
+        -8.594157413667086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.162204",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "29",
+      "coordenadas": [
+        40.53672090812833,
+        -8.591267395716716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172185",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "140",
+      "coordenadas": [
+        40.5343018465516,
+        -8.594945222911765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.176957",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.53594478624557,
+        -8.591687023315913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214428",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "",
+      "coordenadas": [
+        40.53683727190842,
+        -8.591445238445969
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220112",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "131",
+      "coordenadas": [
+        40.53415885010205,
+        -8.594672775167714
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.233399",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "15",
+      "coordenadas": [
+        40.53720051556332,
+        -8.590680492841212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.249777",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "128",
+      "coordenadas": [
+        40.5347269238377,
+        -8.594487825935218
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252286",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "145",
+      "coordenadas": [
+        40.53380562386457,
+        -8.595177871887923
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.260834",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "139",
+      "coordenadas": [
+        40.533914015088726,
+        -8.595095996723492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.271355",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "134",
+      "coordenadas": [
+        40.534528482331666,
+        -8.594569085256271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.271357",
+      "rua": "R PROF BELARMINO NUNES",
+      "casa": "137",
+      "coordenadas": [
+        40.53390585924039,
+        -8.594883489923175
+      ]
+    }
+  ],
+  "ruas": [
+    "R PROF BELARMINO NUNES"
+  ],
+  "centro": [
+    40.535681781819406,
+    -8.593182099634143
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.53495825442112,
+                -8.594484967336989
+              ],
+              [
+                40.5346476326143,
+                -8.59475135380145
+              ],
+              [
+                40.534381235454426,
+                -8.594971938574982
+              ],
+              [
+                40.5341590629415,
+                -8.595146721657585
+              ],
+              [
+                40.53398111507551,
+                -8.595275703049253
+              ],
+              [
+                40.533847391856476,
+                -8.595358882749993
+              ],
+              [
+                40.53375789328439,
+                -8.5953962607598
+              ],
+              [
+                40.533712619359235,
+                -8.595387837078675
+              ],
+              [
+                40.53371157008104,
+                -8.59533361170662
+              ],
+              [
+                40.533754745449784,
+                -8.595233584643632
+              ],
+              [
+                40.53382438213189,
+                -8.59509611617278
+              ],
+              [
+                40.533920480127364,
+                -8.59492120629406
+              ],
+              [
+                40.53404303943619,
+                -8.594708855007479
+              ],
+              [
+                40.534192060058395,
+                -8.594459062313032
+              ],
+              [
+                40.53436754199395,
+                -8.594171828210719
+              ],
+              [
+                40.53456948524287,
+                -8.59384715270054
+              ],
+              [
+                40.534797889805155,
+                -8.593485035782498
+              ],
+              [
+                40.5350527556808,
+                -8.59308547745659
+              ],
+              [
+                40.535295384092585,
+                -8.592720136882754
+              ],
+              [
+                40.5355257750405,
+                -8.59238901406099
+              ],
+              [
+                40.535743928524546,
+                -8.592092108991295
+              ],
+              [
+                40.53594984454473,
+                -8.591829421673673
+              ],
+              [
+                40.536143523101046,
+                -8.59160095210812
+              ],
+              [
+                40.536324964193504,
+                -8.591406700294641
+              ],
+              [
+                40.53649416782209,
+                -8.591246666233232
+              ],
+              [
+                40.5366511339868,
+                -8.591120849923893
+              ],
+              [
+                40.53679789487757,
+                -8.591013775588593
+              ],
+              [
+                40.5369344504944,
+                -8.590925443227324
+              ],
+              [
+                40.537060800837274,
+                -8.590855852840093
+              ],
+              [
+                40.5371769459062,
+                -8.590805004426898
+              ],
+              [
+                40.537282885701174,
+                -8.590772897987737
+              ],
+              [
+                40.537378620222206,
+                -8.590759533522613
+              ],
+              [
+                40.53746414946929,
+                -8.590764911031524
+              ],
+              [
+                40.537539473442415,
+                -8.590789030514468
+              ],
+              [
+                40.53757791822198,
+                -8.5908519970309
+              ],
+              [
+                40.537579483807974,
+                -8.590953810580816
+              ],
+              [
+                40.5375441702004,
+                -8.591094471164215
+              ],
+              [
+                40.53747197739925,
+                -8.591273978781098
+              ],
+              [
+                40.537362905404535,
+                -8.591492333431468
+              ],
+              [
+                40.53721695421625,
+                -8.591749535115321
+              ],
+              [
+                40.53703412383439,
+                -8.592045583832661
+              ],
+              [
+                40.53681441425897,
+                -8.592380479583483
+              ],
+              [
+                40.536583340654616,
+                -8.592706811673512
+              ],
+              [
+                40.53634090302135,
+                -8.593024580102744
+              ],
+              [
+                40.53608710135915,
+                -8.593333784871183
+              ],
+              [
+                40.535821935668025,
+                -8.593634425978829
+              ],
+              [
+                40.535545405947985,
+                -8.593926503425678
+              ],
+              [
+                40.53525751219901,
+                -8.59421001721173
+              ],
+              [
+                40.53495825442112,
+                -8.594484967336989
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.53574335923884,
+    -8.59289346265392
+  ],
+  "centroDeMassa": [
+    40.535681781819406,
+    -8.593182099634143
+  ]
+}

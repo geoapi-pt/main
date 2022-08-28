@@ -1,1 +1,606 @@
-{"CP4":"4505","CP3":"125","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4505-125","Artéria":"Rua Fonte do Carvalhal","Localidade":"Argoncilhe","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARGONCILHE","locais":[{"id":"pt.ine.add.PTCONT.290367","rua":"R FONTE DO CARVALHAL","casa":"16","coordenadas":[41.02374944656977,-8.529017869384523]},{"id":"pt.ine.add.PTCONT.295829","rua":"R FONTE DO CARVALHAL","casa":"216","coordenadas":[41.023990932512476,-8.526867242556191]},{"id":"pt.ine.add.PTCONT.308887","rua":"R FONTE DO CARVALHAL","casa":"22","coordenadas":[41.023723249971134,-8.52877991533518]},{"id":"pt.ine.add.PTCONT.314187","rua":"R FONTE DO CARVALHAL","casa":"65","coordenadas":[41.02431782493351,-8.528700244315713]},{"id":"pt.ine.add.PTCONT.314188","rua":"R FONTE DO CARVALHAL","casa":"96","coordenadas":[41.02427427129489,-8.528271945221414]},{"id":"pt.ine.add.PTCONT.323467","rua":"R FONTE DO CARVALHAL","casa":"288","coordenadas":[41.02376825774494,-8.526152524229113]},{"id":"pt.ine.add.PTCONT.330963","rua":"R FONTE DO CARVALHAL CASA DA NETA","casa":"97","coordenadas":[41.02449974769314,-8.528166283075407]},{"id":"pt.ine.add.PTCONT.3583","rua":"R FONTE DO CARVALHAL","casa":"22","coordenadas":[41.02375063040981,-8.528673070446795]},{"id":"pt.ine.add.PTCONT.16920","rua":"R FONTE DO CARVALHAL","casa":"22","coordenadas":[41.02364298578603,-8.528553527904364]},{"id":"pt.ine.add.PTCONT.33520","rua":"R FONTE DO CARVALHAL","casa":"393","coordenadas":[41.02376378662672,-8.524820832647285]},{"id":"pt.ine.add.PTCONT.54383","rua":"R FONTE DO CARVALHAL","casa":"","coordenadas":[41.02424191749045,-8.527201656175897]},{"id":"pt.ine.add.PTCONT.78774","rua":"R FONTE DO CARVALHAL","casa":"172","coordenadas":[41.024151263716234,-8.527379464776528]},{"id":"pt.ine.add.PTCONT.100649","rua":"R FONTE DO CARVALHAL","casa":"22","coordenadas":[41.023687395688206,-8.528732141331702]},{"id":"pt.ine.add.PTCONT.111272","rua":"R FONTE DO CARVALHAL","casa":"237","coordenadas":[41.024126891596,-8.526606473897955]},{"id":"pt.ine.add.PTCONT.118852","rua":"R FONTE DO CARVALHAL","casa":"315","coordenadas":[41.023869129251096,-8.525618079142328]},{"id":"pt.ine.add.PTCONT.137680","rua":"R FONTE DO CARVALHAL","casa":"225","coordenadas":[41.02420720021612,-8.52682097095312]},{"id":"pt.ine.add.PTCONT.142808","rua":"R FONTE DO CARVALHAL","casa":"22","coordenadas":[41.02369684891136,-8.528601409517552]},{"id":"pt.ine.add.PTCONT.148261","rua":"R FONTE CARVALHAL","casa":"303","coordenadas":[41.02399397542854,-8.525975517635267]},{"id":"pt.ine.add.PTCONT.149467","rua":"R FONTE DO CARVALHAL","casa":"91","coordenadas":[41.02450781444117,-8.528439801267789]},{"id":"pt.ine.add.PTCONT.149468","rua":"R FONTE DO CARVALHAL","casa":"91","coordenadas":[41.02450781444117,-8.528439801267789]},{"id":"pt.ine.add.PTCONT.167452","rua":"R FONTE DO CARVALHAL","casa":"110","coordenadas":[41.0242838869903,-8.528093653315025]},{"id":"pt.ine.add.PTCONT.169214","rua":"R FONTE DO CARVALHAL","casa":"148","coordenadas":[41.02429403175186,-8.52776079502348]},{"id":"pt.ine.add.PTCONT.175817","rua":"R FONTE DO CARVALHAL","casa":"254","coordenadas":[41.02364937499452,-8.526686860449896]},{"id":"pt.ine.add.PTCONT.199040","rua":"R FONTE DO CARVALHAL","casa":"82","coordenadas":[41.02421099601075,-8.528342906657775]},{"id":"pt.ine.add.PTCONT.202042","rua":"R FONTE DO CARVALHAL","casa":"257","coordenadas":[41.02412774374529,-8.526356790412535]},{"id":"pt.ine.add.PTCONT.217661","rua":"R FONTE DO CARVALHAL CASA DA NETA","casa":"97","coordenadas":[41.02458050183984,-8.528249995761067]},{"id":"pt.ine.add.PTCONT.220419","rua":"R FONTE DO CARVALHAL","casa":"254","coordenadas":[41.023568213717915,-8.526722046742913]},{"id":"pt.ine.add.PTCONT.231189","rua":"R FONTE DO CARVALHAL","casa":"356","coordenadas":[41.02356370869559,-8.525402248794203]},{"id":"pt.ine.add.PTCONT.261730","rua":"R FONTE DO CARVALHAL","casa":"47","coordenadas":[41.024182228592956,-8.528854002114851]}],"ruas":["R FONTE DO CARVALHAL","R FONTE DO CARVALHAL CASA DA NETA","R FONTE CARVALHAL"],"centroide":[41.02402678008817,-8.527479788151386]}
+{
+  "CP": "4505-125",
+  "CP4": "4505",
+  "CP3": "125",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Argoncilhe",
+  "Designação Postal": "ARGONCILHE",
+  "partes": [
+    {
+      "Artéria": "Rua Fonte do Carvalhal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.290367",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "16",
+      "coordenadas": [
+        41.02374944656977,
+        -8.529017869384523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.295829",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "216",
+      "coordenadas": [
+        41.023990932512476,
+        -8.526867242556191
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.308887",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "22",
+      "coordenadas": [
+        41.023723249971134,
+        -8.52877991533518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.314187",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "65",
+      "coordenadas": [
+        41.02431782493351,
+        -8.528700244315713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.314188",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "96",
+      "coordenadas": [
+        41.02427427129489,
+        -8.528271945221414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.323467",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "288",
+      "coordenadas": [
+        41.02376825774494,
+        -8.526152524229113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.330963",
+      "rua": "R FONTE DO CARVALHAL CASA DA NETA",
+      "casa": "97",
+      "coordenadas": [
+        41.02449974769314,
+        -8.528166283075407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3583",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "22",
+      "coordenadas": [
+        41.02375063040981,
+        -8.528673070446795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.16920",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "22",
+      "coordenadas": [
+        41.02364298578603,
+        -8.528553527904364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.33520",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "393",
+      "coordenadas": [
+        41.02376378662672,
+        -8.524820832647285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54383",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "",
+      "coordenadas": [
+        41.02424191749045,
+        -8.527201656175897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.78774",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "172",
+      "coordenadas": [
+        41.024151263716234,
+        -8.527379464776528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.100649",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "22",
+      "coordenadas": [
+        41.023687395688206,
+        -8.528732141331702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.111272",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "237",
+      "coordenadas": [
+        41.024126891596,
+        -8.526606473897955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118852",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "315",
+      "coordenadas": [
+        41.023869129251096,
+        -8.525618079142328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137680",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "225",
+      "coordenadas": [
+        41.02420720021612,
+        -8.52682097095312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.142808",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "22",
+      "coordenadas": [
+        41.02369684891136,
+        -8.528601409517552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.148261",
+      "rua": "R FONTE CARVALHAL",
+      "casa": "303",
+      "coordenadas": [
+        41.02399397542854,
+        -8.525975517635267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.149467",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "91",
+      "coordenadas": [
+        41.02450781444117,
+        -8.528439801267789
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.149468",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "91",
+      "coordenadas": [
+        41.02450781444117,
+        -8.528439801267789
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.167452",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "110",
+      "coordenadas": [
+        41.0242838869903,
+        -8.528093653315025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.169214",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "148",
+      "coordenadas": [
+        41.02429403175186,
+        -8.52776079502348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.175817",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "254",
+      "coordenadas": [
+        41.02364937499452,
+        -8.526686860449896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.199040",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "82",
+      "coordenadas": [
+        41.02421099601075,
+        -8.528342906657775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.202042",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "257",
+      "coordenadas": [
+        41.02412774374529,
+        -8.526356790412535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217661",
+      "rua": "R FONTE DO CARVALHAL CASA DA NETA",
+      "casa": "97",
+      "coordenadas": [
+        41.02458050183984,
+        -8.528249995761067
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220419",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "254",
+      "coordenadas": [
+        41.023568213717915,
+        -8.526722046742913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.231189",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "356",
+      "coordenadas": [
+        41.02356370869559,
+        -8.525402248794203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.261730",
+      "rua": "R FONTE DO CARVALHAL",
+      "casa": "47",
+      "coordenadas": [
+        41.024182228592956,
+        -8.528854002114851
+      ]
+    }
+  ],
+  "ruas": [
+    "R FONTE DO CARVALHAL",
+    "R FONTE DO CARVALHAL CASA DA NETA",
+    "R FONTE CARVALHAL"
+  ],
+  "centro": [
+    41.02407210526772,
+    -8.526919351015904
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.023566242770656,
+                -8.526144635140351
+              ],
+              [
+                41.02356567964286,
+                -8.525979660396764
+              ],
+              [
+                41.02356831312372,
+                -8.525826222868828
+              ],
+              [
+                41.02357414321322,
+                -8.525684322556545
+              ],
+              [
+                41.023583169911376,
+                -8.525553959459916
+              ],
+              [
+                41.02359539321817,
+                -8.525435133578938
+              ],
+              [
+                41.02361081313363,
+                -8.525327844913615
+              ],
+              [
+                41.02362942965772,
+                -8.525232093463943
+              ],
+              [
+                41.023651242790464,
+                -8.525147879229925
+              ],
+              [
+                41.02367625253186,
+                -8.525075202211562
+              ],
+              [
+                41.02371089723078,
+                -8.525065190494146
+              ],
+              [
+                41.023755176887235,
+                -8.525117844077677
+              ],
+              [
+                41.023809091501214,
+                -8.525233162962156
+              ],
+              [
+                41.023872641072735,
+                -8.525411147147587
+              ],
+              [
+                41.02394582560178,
+                -8.525651796633964
+              ],
+              [
+                41.02402864508835,
+                -8.52595511142129
+              ],
+              [
+                41.024121099532465,
+                -8.526321091509564
+              ],
+              [
+                41.0242231889341,
+                -8.526749736898788
+              ],
+              [
+                41.024311381419935,
+                -8.5271277673254
+              ],
+              [
+                41.02438567698995,
+                -8.527455182789401
+              ],
+              [
+                41.024446075644164,
+                -8.527731983290794
+              ],
+              [
+                41.024492577382574,
+                -8.527958168829576
+              ],
+              [
+                41.02452518220517,
+                -8.528133739405748
+              ],
+              [
+                41.02454389011195,
+                -8.528258695019307
+              ],
+              [
+                41.02454870110293,
+                -8.528333035670258
+              ],
+              [
+                41.024539615178085,
+                -8.528356761358598
+              ],
+              [
+                41.0245286964078,
+                -8.528381590758519
+              ],
+              [
+                41.02451594479206,
+                -8.528407523870023
+              ],
+              [
+                41.02450136033087,
+                -8.528434560693107
+              ],
+              [
+                41.02448494302423,
+                -8.528462701227772
+              ],
+              [
+                41.02446669287213,
+                -8.52849194547402
+              ],
+              [
+                41.02444660987457,
+                -8.528522293431847
+              ],
+              [
+                41.02442469403157,
+                -8.528553745101256
+              ],
+              [
+                41.02440094534311,
+                -8.528586300482246
+              ],
+              [
+                41.024378046547895,
+                -8.528617188906225
+              ],
+              [
+                41.024355997645905,
+                -8.528646410373188
+              ],
+              [
+                41.024334798637156,
+                -8.528673964883144
+              ],
+              [
+                41.02431444952164,
+                -8.528699852436084
+              ],
+              [
+                41.024294950299364,
+                -8.528724073032015
+              ],
+              [
+                41.02427630097033,
+                -8.52874662667093
+              ],
+              [
+                41.02425850153452,
+                -8.528767513352836
+              ],
+              [
+                41.02424155199195,
+                -8.528786733077727
+              ],
+              [
+                41.02421995892309,
+                -8.528806110763096
+              ],
+              [
+                41.02419372232794,
+                -8.528825646408944
+              ],
+              [
+                41.02416284220649,
+                -8.528845340015268
+              ],
+              [
+                41.02412731855876,
+                -8.528865191582067
+              ],
+              [
+                41.024087151384734,
+                -8.528885201109347
+              ],
+              [
+                41.02404234068442,
+                -8.528905368597101
+              ],
+              [
+                41.02399288645781,
+                -8.528925694045332
+              ],
+              [
+                41.02393878870491,
+                -8.528946177454042
+              ],
+              [
+                41.02388978972138,
+                -8.528956845101034
+              ],
+              [
+                41.023845889507214,
+                -8.528957696986312
+              ],
+              [
+                41.02380708806241,
+                -8.528948733109873
+              ],
+              [
+                41.02377338538698,
+                -8.528929953471716
+              ],
+              [
+                41.023744781480914,
+                -8.528901358071845
+              ],
+              [
+                41.02372127634421,
+                -8.528862946910257
+              ],
+              [
+                41.02370286997688,
+                -8.528814719986954
+              ],
+              [
+                41.02368956237891,
+                -8.528756677301935
+              ],
+              [
+                41.02367674991713,
+                -8.528677273059396
+              ],
+              [
+                41.02366443259152,
+                -8.528576507259334
+              ],
+              [
+                41.023652610402095,
+                -8.528454379901754
+              ],
+              [
+                41.023641283348866,
+                -8.528310890986651
+              ],
+              [
+                41.023630451431806,
+                -8.52814604051403
+              ],
+              [
+                41.023620114650925,
+                -8.527959828483889
+              ],
+              [
+                41.02361027300623,
+                -8.527752254896228
+              ],
+              [
+                41.02360092649772,
+                -8.527523319751047
+              ],
+              [
+                41.02359267791179,
+                -8.527302379656065
+              ],
+              [
+                41.023585527248464,
+                -8.527089434611282
+              ],
+              [
+                41.02357947450772,
+                -8.526884484616698
+              ],
+              [
+                41.02357451968957,
+                -8.526687529672312
+              ],
+              [
+                41.02357066279401,
+                -8.526498569778127
+              ],
+              [
+                41.02356790382103,
+                -8.526317604934139
+              ],
+              [
+                41.023566242770656,
+                -8.526144635140351
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.02398627902261,
+    -8.527640063214744
+  ],
+  "centroDeMassa": [
+    41.02407210526772,
+    -8.526919351015904
+  ]
+}

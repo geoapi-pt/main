@@ -1,1 +1,532 @@
-{"CP4":"2520","CP3":"007","Distrito":"Leiria","Concelho":"Peniche","CP":"2520-007","Artéria":"Travessa das Valas","Localidade":"Baleal","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FERREL","locais":[{"id":"pt.ine.add.PTCONT.1980712","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"29","coordenadas":[39.37429420427722,-9.340520559534413]},{"id":"pt.ine.add.PTCONT.1987955","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"4","coordenadas":[39.37365543932675,-9.340451532576365]},{"id":"pt.ine.add.PTCONT.2003434","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"2","coordenadas":[39.37358339797495,-9.340450291607647]},{"id":"pt.ine.add.PTCONT.2019336","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"19","coordenadas":[39.37400531646485,-9.340585210800215]},{"id":"pt.ine.add.PTCONT.2027627","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"14","coordenadas":[39.37410473453698,-9.340552109545543]},{"id":"pt.ine.add.PTCONT.2028440","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"21","coordenadas":[39.374050342304336,-9.34058598650343]},{"id":"pt.ine.add.PTCONT.2034777","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"6","coordenadas":[39.3737004651712,-9.340452308184073]},{"id":"pt.ine.add.PTCONT.2056211","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"39","coordenadas":[39.37451957427315,-9.340501232559527]},{"id":"pt.ine.add.PTCONT.2058469","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"25","coordenadas":[39.37415780225045,-9.340645861248284]},{"id":"pt.ine.add.PTCONT.2062210","rua":"TV MAJ BALTAZAR","casa":"","coordenadas":[39.37468058360581,-9.340608449227632]},{"id":"pt.ine.add.PTCONT.2062211","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"23","coordenadas":[39.374149880782696,-9.340541282621299]},{"id":"pt.ine.add.PTCONT.2085958","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"13","coordenadas":[39.37385210819803,-9.340594175981787]},{"id":"pt.ine.add.PTCONT.2085959","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"8","coordenadas":[39.37375437578734,-9.340464841459484]},{"id":"pt.ine.add.PTCONT.2101196","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"3","coordenadas":[39.373590837905965,-9.340601279444757]},{"id":"pt.ine.add.PTCONT.2115206","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"5","coordenadas":[39.37364486891687,-9.340602210287498]},{"id":"pt.ine.add.PTCONT.2139419","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"31","coordenadas":[39.37434847608965,-9.340498285054286]},{"id":"pt.ine.add.PTCONT.2144274","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"15","coordenadas":[39.37390613920664,-9.3405951068277]},{"id":"pt.ine.add.PTCONT.2163152","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"7","coordenadas":[39.37368989475887,-9.340602985991698]},{"id":"pt.ine.add.PTCONT.2165464","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"33","coordenadas":[39.37434727201087,-9.340614311471072]},{"id":"pt.ine.add.PTCONT.2167725","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"12 A","coordenadas":[39.37384442747386,-9.340466392699188]},{"id":"pt.ine.add.PTCONT.2184969","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"92","coordenadas":[39.373881050122556,-9.340409000372688]},{"id":"pt.ine.add.PTCONT.2209783","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"41","coordenadas":[39.3745736052774,-9.340502163355868]},{"id":"pt.ine.add.PTCONT.2212002","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"27","coordenadas":[39.37422156090132,-9.340577331570863]},{"id":"pt.ine.add.PTCONT.2218612","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"37","coordenadas":[39.37445653810089,-9.34050014663362]},{"id":"pt.ine.add.PTCONT.2220706","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"10","coordenadas":[39.373799281232756,-9.340477219629715]},{"id":"pt.ine.add.PTCONT.2253433","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"17","coordenadas":[39.37394215987873,-9.340595727393028]},{"id":"pt.ine.add.PTCONT.2253437","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"1","coordenadas":[39.373545691652346,-9.340612106253081]},{"id":"pt.ine.add.PTCONT.2254269","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"9","coordenadas":[39.37374416658865,-9.34058071175587]},{"id":"pt.ine.add.PTCONT.2258027","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"11","coordenadas":[39.37380708235714,-9.340593400278777]},{"id":"pt.ine.add.PTCONT.2260328","rua":"R JOSE FORMOSINHO SANCHEZ","casa":"35","coordenadas":[39.374411391860185,-9.340510973626767]}],"ruas":["R JOSE FORMOSINHO SANCHEZ","TV MAJ BALTAZAR"],"centroide":[39.37399487163546,-9.340544214512738]}738]}738]}
+{
+  "CP": "2520-007",
+  "CP4": "2520",
+  "CP3": "007",
+  "Distrito": "Leiria",
+  "Concelho": "Peniche",
+  "Localidade": "Baleal",
+  "Designação Postal": "FERREL",
+  "partes": [
+    {
+      "Artéria": "Rua José Formosinho Sanchez",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Major Baltazar",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa das Valas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1980712",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "29",
+      "coordenadas": [
+        39.37429420427722,
+        -9.340520559534413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1987955",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "4",
+      "coordenadas": [
+        39.37365543932675,
+        -9.340451532576365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003434",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "2",
+      "coordenadas": [
+        39.37358339797495,
+        -9.340450291607647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2019336",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "19",
+      "coordenadas": [
+        39.37400531646485,
+        -9.340585210800215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2027627",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "14",
+      "coordenadas": [
+        39.37410473453698,
+        -9.340552109545543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2028440",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "21",
+      "coordenadas": [
+        39.374050342304336,
+        -9.34058598650343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2034777",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "6",
+      "coordenadas": [
+        39.3737004651712,
+        -9.340452308184073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2056211",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "39",
+      "coordenadas": [
+        39.37451957427315,
+        -9.340501232559527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2058469",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "25",
+      "coordenadas": [
+        39.37415780225045,
+        -9.340645861248284
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2062210",
+      "rua": "TV MAJ BALTAZAR",
+      "casa": "",
+      "coordenadas": [
+        39.37468058360581,
+        -9.340608449227632
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2062211",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "23",
+      "coordenadas": [
+        39.374149880782696,
+        -9.340541282621299
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2085958",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "13",
+      "coordenadas": [
+        39.37385210819803,
+        -9.340594175981787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2085959",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "8",
+      "coordenadas": [
+        39.37375437578734,
+        -9.340464841459484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2101196",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "3",
+      "coordenadas": [
+        39.373590837905965,
+        -9.340601279444757
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2115206",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "5",
+      "coordenadas": [
+        39.37364486891687,
+        -9.340602210287498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2139419",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "31",
+      "coordenadas": [
+        39.37434847608965,
+        -9.340498285054286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2144274",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "15",
+      "coordenadas": [
+        39.37390613920664,
+        -9.3405951068277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2163152",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "7",
+      "coordenadas": [
+        39.37368989475887,
+        -9.340602985991698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2165464",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "33",
+      "coordenadas": [
+        39.37434727201087,
+        -9.340614311471072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2167725",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "12 A",
+      "coordenadas": [
+        39.37384442747386,
+        -9.340466392699188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2184969",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "92",
+      "coordenadas": [
+        39.373881050122556,
+        -9.340409000372688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2209783",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "41",
+      "coordenadas": [
+        39.3745736052774,
+        -9.340502163355868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2212002",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "27",
+      "coordenadas": [
+        39.37422156090132,
+        -9.340577331570863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2218612",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "37",
+      "coordenadas": [
+        39.37445653810089,
+        -9.34050014663362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2220706",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "10",
+      "coordenadas": [
+        39.373799281232756,
+        -9.340477219629715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2253433",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "17",
+      "coordenadas": [
+        39.37394215987873,
+        -9.340595727393028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2253437",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "1",
+      "coordenadas": [
+        39.373545691652346,
+        -9.340612106253081
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2254269",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "9",
+      "coordenadas": [
+        39.37374416658865,
+        -9.34058071175587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2258027",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "11",
+      "coordenadas": [
+        39.37380708235714,
+        -9.340593400278777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2260328",
+      "rua": "R JOSE FORMOSINHO SANCHEZ",
+      "casa": "35",
+      "coordenadas": [
+        39.374411391860185,
+        -9.340510973626767
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE FORMOSINHO SANCHEZ",
+    "TV MAJ BALTAZAR"
+  ],
+  "centro": [
+    39.37411313762908,
+    -9.340527430810486
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.37389000386378,
+                -9.340631093437883
+              ],
+              [
+                39.37381349003902,
+                -9.340626874063481
+              ],
+              [
+                39.37374712960364,
+                -9.340620653757046
+              ],
+              [
+                39.37369092255764,
+                -9.340612432518576
+              ],
+              [
+                39.37364486890104,
+                -9.340602210348072
+              ],
+              [
+                39.37360896863383,
+                -9.340589987245531
+              ],
+              [
+                39.37358322175599,
+                -9.340575763210957
+              ],
+              [
+                39.37356762826755,
+                -9.34055953824435
+              ],
+              [
+                39.373562188168485,
+                -9.340541312345705
+              ],
+              [
+                39.37356690145881,
+                -9.340521085515023
+              ],
+              [
+                39.37357567640265,
+                -9.340502741862633
+              ],
+              [
+                39.373588513,
+                -9.340486281388532
+              ],
+              [
+                39.37360541125088,
+                -9.34047170409272
+              ],
+              [
+                39.37362637115527,
+                -9.340459009975195
+              ],
+              [
+                39.37365139271317,
+                -9.340448199035958
+              ],
+              [
+                39.37368047592459,
+                -9.340439271275011
+              ],
+              [
+                39.37371362078952,
+                -9.340432226692352
+              ],
+              [
+                39.37375082730798,
+                -9.340427065287981
+              ],
+              [
+                39.37379420418591,
+                -9.34042400473077
+              ],
+              [
+                39.373843751423344,
+                -9.340423045020717
+              ],
+              [
+                39.37389946902026,
+                -9.340424186157822
+              ],
+              [
+                39.373961356976665,
+                -9.340427428142087
+              ],
+              [
+                39.374029415292554,
+                -9.340432770973509
+              ],
+              [
+                39.37410364396793,
+                -9.340440214652089
+              ],
+              [
+                39.3741840430028,
+                -9.34044975917783
+              ],
+              [
+                39.374270612397154,
+                -9.340461404550727
+              ],
+              [
+                39.37434803215359,
+                -9.34047325496876
+              ],
+              [
+                39.374416302272124,
+                -9.340485310431925
+              ],
+              [
+                39.374475422752745,
+                -9.340497570940224
+              ],
+              [
+                39.37452539359545,
+                -9.34051003649366
+              ],
+              [
+                39.37456621480024,
+                -9.340522707092227
+              ],
+              [
+                39.37459788636712,
+                -9.34053558273593
+              ],
+              [
+                39.37462040829608,
+                -9.340548663424766
+              ],
+              [
+                39.37463378058713,
+                -9.340561949158737
+              ],
+              [
+                39.374637312883124,
+                -9.340574158738784
+              ],
+              [
+                39.37463100518406,
+                -9.340585292164906
+              ],
+              [
+                39.37461485748993,
+                -9.340595349437107
+              ],
+              [
+                39.374588869800746,
+                -9.340604330555381
+              ],
+              [
+                39.3745530421165,
+                -9.340612235519734
+              ],
+              [
+                39.3745073744372,
+                -9.340619064330163
+              ],
+              [
+                39.37445186676284,
+                -9.340624816986667
+              ],
+              [
+                39.37438651909342,
+                -9.340629493489248
+              ],
+              [
+                39.374319775654584,
+                -9.340633058007207
+              ],
+              [
+                39.37425163644633,
+                -9.340635510540542
+              ],
+              [
+                39.374182101468655,
+                -9.340636851089256
+              ],
+              [
+                39.37411117072156,
+                -9.340637079653348
+              ],
+              [
+                39.37403884420505,
+                -9.340636196232815
+              ],
+              [
+                39.37396512191913,
+                -9.340634200827662
+              ],
+              [
+                39.37389000386378,
+                -9.340631093437883
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.374070355147246,
+    -9.340537978677533
+  ],
+  "centroDeMassa": [
+    39.37411313762908,
+    -9.340527430810486
+  ]
+}

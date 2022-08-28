@@ -1,1 +1,621 @@
-{"CP4":"2510","CP3":"212","Distrito":"Leiria","Concelho":"Óbidos","CP":"2510-212","Artéria":"Estrada dos Casais Brancos","Localidade":"Óbidos","Local":"","Troço":"Pares de 50 a 102","Porta":"","Cliente":"","Designação Postal":"ÓBIDOS","locais":[{"id":"pt.ine.add.PTCONT.1987586","rua":"R PRINCIPAL","casa":"","coordenadas":[39.35307164583149,-9.135926294474263]},{"id":"pt.ine.add.PTCONT.2003109","rua":"CASAIS BRANCOS","casa":"","coordenadas":[39.35397272780312,-9.13588116963943]},{"id":"pt.ine.add.PTCONT.2009642","rua":"CSL TABELAO","casa":"","coordenadas":[39.349811827351665,-9.138977110784039]},{"id":"pt.ine.add.PTCONT.2011804","rua":"CASAIS BRANCOS","casa":"","coordenadas":[39.35571055528842,-9.13698498168133]},{"id":"pt.ine.add.PTCONT.2016215","rua":"CSL TABELAO","casa":"15","coordenadas":[39.3499394125421,-9.138804927680473]},{"id":"pt.ine.add.PTCONT.2022145","rua":"R PRINCIPAL","casa":"7","coordenadas":[39.353440384722106,-9.13598957328907]},{"id":"pt.ine.add.PTCONT.2028806","rua":"ESTR PRINCIPAL","casa":"4","coordenadas":[39.35883310947596,-9.151822610008859]},{"id":"pt.ine.add.PTCONT.2031554","rua":"R PRINCIPAL","casa":"2","coordenadas":[39.35039861491327,-9.135690866385453]},{"id":"pt.ine.add.PTCONT.2047824","rua":"R PRINCIPAL","casa":"","coordenadas":[39.35327897966193,-9.135906055879374]},{"id":"pt.ine.add.PTCONT.2058077","rua":"CASAIS BRANCOS","casa":"14 A","coordenadas":[39.35430614309042,-9.135862733200083]},{"id":"pt.ine.add.PTCONT.2083986","rua":"R PRINCIPAL","casa":"","coordenadas":[39.353430666307055,-9.135026517164128]},{"id":"pt.ine.add.PTCONT.2113447","rua":"R PRINCIPAL","casa":"3 B","coordenadas":[39.35312378132571,-9.136147465685289]},{"id":"pt.ine.add.PTCONT.2127240","rua":"R PRINCIPAL","casa":"5","coordenadas":[39.35397072843655,-9.13611317107063]},{"id":"pt.ine.add.PTCONT.2130559","rua":"R PRINCIPAL","casa":"2","coordenadas":[39.359797558163834,-9.153797434707936]},{"id":"pt.ine.add.PTCONT.2136708","rua":"CASAIS BRANCOS","casa":"","coordenadas":[39.35489942762101,-9.135998833294236]},{"id":"pt.ine.add.PTCONT.2169437","rua":"CASAIS BRANCOS","casa":"7","coordenadas":[39.35437499047531,-9.136234967627137]},{"id":"pt.ine.add.PTCONT.2178004","rua":"CASAIS BRANCOS","casa":"","coordenadas":[39.35537914116729,-9.136771406988869]},{"id":"pt.ine.add.PTCONT.2184575","rua":"CASAIS BRANCOS","casa":"16","coordenadas":[39.35450497080857,-9.135784364588762]},{"id":"pt.ine.add.PTCONT.2189086","rua":"R PRINCIPAL","casa":"","coordenadas":[39.353487412931415,-9.135758217265789]},{"id":"pt.ine.add.PTCONT.2189087","rua":"CSL TABELAO","casa":"17","coordenadas":[39.35019997983326,-9.138878268450576]},{"id":"pt.ine.add.PTCONT.2200475","rua":"ESTR CASAIS BRANCOS","casa":"","coordenadas":[39.3593471131635,-9.141411136826468]},{"id":"pt.ine.add.PTCONT.2202704","rua":"R PRINCIPAL","casa":"5","coordenadas":[39.34951895324696,-9.137430010021752]},{"id":"pt.ine.add.PTCONT.2216019","rua":"R PRINCIPAL","casa":"42","coordenadas":[39.38621965389322,-9.191556201316104]},{"id":"pt.ine.add.PTCONT.2228605","rua":"CSL TABELAO","casa":"19","coordenadas":[39.35021618682728,-9.139087316609054]},{"id":"pt.ine.add.PTCONT.2233152","rua":"R PRINCIPAL","casa":"3C","coordenadas":[39.35330349782015,-9.136196441158638]},{"id":"pt.ine.add.PTCONT.2239853","rua":"R PRINCIPAL","casa":"10","coordenadas":[39.3534800060565,-9.135572488672416]},{"id":"pt.ine.add.PTCONT.2263303","rua":"R CASAIS BRANCOS","casa":"","coordenadas":[39.360366778422375,-9.14119374684091]},{"id":"pt.ine.add.PTCONT.2267830","rua":"CSL TABELAO","casa":"21","coordenadas":[39.34978160109655,-9.139347903164818]},{"id":"pt.ine.add.PTCONT.2268606","rua":"ESTR PRINCIPAL","casa":"3","coordenadas":[39.352734131120336,-9.136420324942277]}],"ruas":["R PRINCIPAL","CASAIS BRANCOS","CSL TABELAO","ESTR PRINCIPAL","ESTR CASAIS BRANCOS","R CASAIS BRANCOS"],"centroide":[39.35493449458132,-9.140148293374137]}}
+{
+  "CP": "2510-212",
+  "CP4": "2510",
+  "CP3": "212",
+  "Distrito": "Leiria",
+  "Concelho": "Óbidos",
+  "Localidade": [
+    "Casais Brancos",
+    "Óbidos"
+  ],
+  "Designação Postal": "ÓBIDOS",
+  "partes": [
+    {
+      "Artéria": "Estrada dos Casais Brancos",
+      "Localidade": "Casais Brancos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Principal",
+      "Localidade": "Casais Brancos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Casal Tabeleão",
+      "Localidade": "Casais Brancos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Reis",
+      "Localidade": "Casais Brancos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada dos Casais Brancos",
+      "Localidade": "Óbidos",
+      "Local": "",
+      "Troço": "Impares de 51 a 99",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada dos Casais Brancos",
+      "Localidade": "Óbidos",
+      "Local": "",
+      "Troço": "Pares de 50 a 102",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1987586",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.35307164583149,
+        -9.135926294474263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003109",
+      "rua": "CASAIS BRANCOS",
+      "casa": "",
+      "coordenadas": [
+        39.35397272780312,
+        -9.13588116963943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2009642",
+      "rua": "CSL TABELAO",
+      "casa": "",
+      "coordenadas": [
+        39.349811827351665,
+        -9.138977110784039
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2011804",
+      "rua": "CASAIS BRANCOS",
+      "casa": "",
+      "coordenadas": [
+        39.35571055528842,
+        -9.13698498168133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2016215",
+      "rua": "CSL TABELAO",
+      "casa": "15",
+      "coordenadas": [
+        39.3499394125421,
+        -9.138804927680473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2022145",
+      "rua": "R PRINCIPAL",
+      "casa": "7",
+      "coordenadas": [
+        39.353440384722106,
+        -9.13598957328907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2028806",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "4",
+      "coordenadas": [
+        39.35883310947596,
+        -9.151822610008859
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2031554",
+      "rua": "R PRINCIPAL",
+      "casa": "2",
+      "coordenadas": [
+        39.35039861491327,
+        -9.135690866385453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2047824",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.35327897966193,
+        -9.135906055879374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2058077",
+      "rua": "CASAIS BRANCOS",
+      "casa": "14 A",
+      "coordenadas": [
+        39.35430614309042,
+        -9.135862733200083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2083986",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.353430666307055,
+        -9.135026517164128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2113447",
+      "rua": "R PRINCIPAL",
+      "casa": "3 B",
+      "coordenadas": [
+        39.35312378132571,
+        -9.136147465685289
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2127240",
+      "rua": "R PRINCIPAL",
+      "casa": "5",
+      "coordenadas": [
+        39.35397072843655,
+        -9.13611317107063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2130559",
+      "rua": "R PRINCIPAL",
+      "casa": "2",
+      "coordenadas": [
+        39.359797558163834,
+        -9.153797434707936
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2136708",
+      "rua": "CASAIS BRANCOS",
+      "casa": "",
+      "coordenadas": [
+        39.35489942762101,
+        -9.135998833294236
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2169437",
+      "rua": "CASAIS BRANCOS",
+      "casa": "7",
+      "coordenadas": [
+        39.35437499047531,
+        -9.136234967627137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2178004",
+      "rua": "CASAIS BRANCOS",
+      "casa": "",
+      "coordenadas": [
+        39.35537914116729,
+        -9.136771406988869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2184575",
+      "rua": "CASAIS BRANCOS",
+      "casa": "16",
+      "coordenadas": [
+        39.35450497080857,
+        -9.135784364588762
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2189086",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.353487412931415,
+        -9.135758217265789
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2189087",
+      "rua": "CSL TABELAO",
+      "casa": "17",
+      "coordenadas": [
+        39.35019997983326,
+        -9.138878268450576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2200475",
+      "rua": "ESTR CASAIS BRANCOS",
+      "casa": "",
+      "coordenadas": [
+        39.3593471131635,
+        -9.141411136826468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2202704",
+      "rua": "R PRINCIPAL",
+      "casa": "5",
+      "coordenadas": [
+        39.34951895324696,
+        -9.137430010021752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2216019",
+      "rua": "R PRINCIPAL",
+      "casa": "42",
+      "coordenadas": [
+        39.38621965389322,
+        -9.191556201316104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2228605",
+      "rua": "CSL TABELAO",
+      "casa": "19",
+      "coordenadas": [
+        39.35021618682728,
+        -9.139087316609054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2233152",
+      "rua": "R PRINCIPAL",
+      "casa": "3C",
+      "coordenadas": [
+        39.35330349782015,
+        -9.136196441158638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2239853",
+      "rua": "R PRINCIPAL",
+      "casa": "10",
+      "coordenadas": [
+        39.3534800060565,
+        -9.135572488672416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2263303",
+      "rua": "R CASAIS BRANCOS",
+      "casa": "",
+      "coordenadas": [
+        39.360366778422375,
+        -9.14119374684091
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2267830",
+      "rua": "CSL TABELAO",
+      "casa": "21",
+      "coordenadas": [
+        39.34978160109655,
+        -9.139347903164818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2268606",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "3",
+      "coordenadas": [
+        39.352734131120336,
+        -9.136420324942277
+      ]
+    }
+  ],
+  "ruas": [
+    "R PRINCIPAL",
+    "CASAIS BRANCOS",
+    "CSL TABELAO",
+    "ESTR PRINCIPAL",
+    "ESTR CASAIS BRANCOS",
+    "R CASAIS BRANCOS"
+  ],
+  "centro": [
+    39.36786930357009,
+    -9.163291359240116
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.34966669266235,
+                -9.138508824914727
+              ],
+              [
+                39.349633861681156,
+                -9.138269088271844
+              ],
+              [
+                39.34961887928614,
+                -9.138032144590005
+              ],
+              [
+                39.34962174547731,
+                -9.137797993869208
+              ],
+              [
+                39.34964246025467,
+                -9.137566636109455
+              ],
+              [
+                39.34968102361822,
+                -9.137338071310744
+              ],
+              [
+                39.349737435567945,
+                -9.137112299473076
+              ],
+              [
+                39.34981169610387,
+                -9.136889320596453
+              ],
+              [
+                39.34990380522597,
+                -9.13666913468087
+              ],
+              [
+                39.35001376293425,
+                -9.136451741726335
+              ],
+              [
+                39.35015735173204,
+                -9.136251142434531
+              ],
+              [
+                39.35033457161931,
+                -9.13606733680546
+              ],
+              [
+                39.35054542259607,
+                -9.135900324839124
+              ],
+              [
+                39.35078990466233,
+                -9.135750106535525
+              ],
+              [
+                39.35106801781808,
+                -9.135616681894657
+              ],
+              [
+                39.35137976206332,
+                -9.135500050916523
+              ],
+              [
+                39.35172513739805,
+                -9.135400213601123
+              ],
+              [
+                39.352104143822274,
+                -9.135317169948458
+              ],
+              [
+                39.352458723839,
+                -9.13525969919191
+              ],
+              [
+                39.35278887744823,
+                -9.135227801331474
+              ],
+              [
+                39.35309460464996,
+                -9.135221476367159
+              ],
+              [
+                39.353375905444196,
+                -9.135240724298956
+              ],
+              [
+                39.35363277983093,
+                -9.135285545126873
+              ],
+              [
+                39.35386522781017,
+                -9.135355938850903
+              ],
+              [
+                39.35407324938191,
+                -9.13545190547105
+              ],
+              [
+                39.35425684454615,
+                -9.135573444987315
+              ],
+              [
+                39.354502917671134,
+                -9.135760962588211
+              ],
+              [
+                39.354811468756864,
+                -9.136014458273742
+              ],
+              [
+                39.35518249780333,
+                -9.136333932043907
+              ],
+              [
+                39.35561600481054,
+                -9.136719383898706
+              ],
+              [
+                39.35611198977849,
+                -9.13717081383814
+              ],
+              [
+                39.35667045270718,
+                -9.137688221862206
+              ],
+              [
+                39.35729139359661,
+                -9.138271607970907
+              ],
+              [
+                39.35797481244677,
+                -9.13892097216424
+              ],
+              [
+                39.358976755119905,
+                -9.140276079184583
+              ],
+              [
+                39.360297221615994,
+                -9.142336929031934
+              ],
+              [
+                39.36193621193505,
+                -9.145103521706291
+              ],
+              [
+                39.36389372607706,
+                -9.148575857207659
+              ],
+              [
+                39.366169764042034,
+                -9.152753935536033
+              ],
+              [
+                39.36876432582997,
+                -9.157637756691415
+              ],
+              [
+                39.37167741144087,
+                -9.163227320673807
+              ],
+              [
+                39.374909020874725,
+                -9.169522627483207
+              ],
+              [
+                39.37732383388358,
+                -9.174441040213178
+              ],
+              [
+                39.378921850467435,
+                -9.177982558863723
+              ],
+              [
+                39.37970307062628,
+                -9.18014718343484
+              ],
+              [
+                39.379667494360106,
+                -9.180934913926528
+              ],
+              [
+                39.37881512166895,
+                -9.180345750338791
+              ],
+              [
+                39.37714595255278,
+                -9.178379692671625
+              ],
+              [
+                39.37465998701161,
+                -9.17503674092503
+              ],
+              [
+                39.37135722504544,
+                -9.17031689509901
+              ],
+              [
+                39.36831080899586,
+                -9.16596125607088
+              ],
+              [
+                39.365520738862884,
+                -9.16196982384064
+              ],
+              [
+                39.36298701464649,
+                -9.158342598408293
+              ],
+              [
+                39.360709636346705,
+                -9.15507957977384
+              ],
+              [
+                39.35868860396351,
+                -9.152180767937276
+              ],
+              [
+                39.35692391749691,
+                -9.149646162898604
+              ],
+              [
+                39.3554155769469,
+                -9.147475764657823
+              ],
+              [
+                39.35416358231348,
+                -9.145669573214931
+              ],
+              [
+                39.3530639831366,
+                -9.144059188622043
+              ],
+              [
+                39.35211677941625,
+                -9.142644610879156
+              ],
+              [
+                39.351321971152416,
+                -9.141425839986269
+              ],
+              [
+                39.350679558345114,
+                -9.140402875943382
+              ],
+              [
+                39.350189540994336,
+                -9.139575718750496
+              ],
+              [
+                39.34985191910008,
+                -9.13894436840761
+              ],
+              [
+                39.34966669266235,
+                -9.138508824914727
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.358051656708035,
+    -9.146255189111919
+  ],
+  "centroDeMassa": [
+    39.36786930357009,
+    -9.163291359240116
+  ]
+}

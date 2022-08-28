@@ -1,1 +1,561 @@
-{"CP4":"2955","CP3":"101","Distrito":"Setúbal","Concelho":"Palmela","CP":"2955-101","Artéria":"Rua de Nossa Senhora de Aires","Localidade":"Pinhal Novo","Local":"Cascalheira","Troço":"","Porta":"","Cliente":"","Designação Postal":"PINHAL NOVO","locais":[{"id":"pt.ine.add.PTCONT.4689560","rua":"R NSA SRA DE AIRES","casa":"33","coordenadas":[38.61661817298965,-8.916631223903325]},{"id":"pt.ine.add.PTCONT.4700410","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.616481522634174,-8.916859374432587]},{"id":"pt.ine.add.PTCONT.4704482","rua":"R 6 CCI","casa":"CCI 10402","coordenadas":[38.6144878445654,-8.919972140016108]},{"id":"pt.ine.add.PTCONT.4711195","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.616291042246985,-8.915709118841061]},{"id":"pt.ine.add.PTCONT.4714720","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.6166301108718,-8.917538422387578]},{"id":"pt.ine.add.PTCONT.4748213","rua":"R NSA SRA DE AIRES","casa":"36","coordenadas":[38.61699710868222,-8.917886877823745]},{"id":"pt.ine.add.PTCONT.4762468","rua":"R NSA SRA DE AIRES","casa":"25","coordenadas":[38.61641983426739,-8.91530865361712]},{"id":"pt.ine.add.PTCONT.4784059","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61617747583412,-8.915179721556614]},{"id":"pt.ine.add.PTCONT.4822710","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61641230726734,-8.916433792891606]},{"id":"pt.ine.add.PTCONT.4833889","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61669085375103,-8.91788354069396]},{"id":"pt.ine.add.PTCONT.4835374","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61669085375103,-8.91788354069396]},{"id":"pt.ine.add.PTCONT.4847821","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61628812341339,-8.916145396563245]},{"id":"pt.ine.add.PTCONT.4886226","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.616776922987675,-8.918481537550965]},{"id":"pt.ine.add.PTCONT.4894504","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61607038326849,-8.915029295358343]},{"id":"pt.ine.add.PTCONT.4895645","rua":"R NOSSA SENHORA DE AIRES","casa":"37","coordenadas":[38.61687862494626,-8.91809226131487]},{"id":"pt.ine.add.PTCONT.4909493","rua":"R NSA SRA DE AIRES","casa":"38","coordenadas":[38.616958305789844,-8.918299804585514]},{"id":"pt.ine.add.PTCONT.4930011","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61638643755383,-8.91626128388502]},{"id":"pt.ine.add.PTCONT.4933253","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61618965550837,-8.916052471511122]},{"id":"pt.ine.add.PTCONT.4950734","rua":"R 6","casa":"","coordenadas":[38.61451457656893,-8.918675017754019]},{"id":"pt.ine.add.PTCONT.4972553","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61602787698144,-8.914649934929901]},{"id":"pt.ine.add.PTCONT.4976377","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61668962154252,-8.918067237508758]},{"id":"pt.ine.add.PTCONT.5021620","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61623584525093,-8.91588074634974]},{"id":"pt.ine.add.PTCONT.5021621","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61656905921443,-8.917239228781694]},{"id":"pt.ine.add.PTCONT.5069565","rua":"R NOSSA SENHORA DE AIRES","casa":"47","coordenadas":[38.61661286551745,-8.917423415775247]},{"id":"pt.ine.add.PTCONT.5085612","rua":"R NSA SRA DE AIRES","casa":"15","coordenadas":[38.616862920187366,-8.917747632608581]},{"id":"pt.ine.add.PTCONT.5103249","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61604520177691,-8.914753459031191]},{"id":"pt.ine.add.PTCONT.5105032","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61666521714492,-8.917676587391218]},{"id":"pt.ine.add.PTCONT.5114546","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.616212277901525,-8.915363808513947]},{"id":"pt.ine.add.PTCONT.5121741","rua":"R NSA SRA DE AIRES","casa":"29","coordenadas":[38.61654079446098,-8.916079252465057]},{"id":"pt.ine.add.PTCONT.5125592","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61673327244996,-8.918274387407225]},{"id":"pt.ine.add.PTCONT.5131677","rua":"R NSA SRA DE AIRES","casa":"","coordenadas":[38.61656905921443,-8.917239228781694]}],"ruas":["R NSA SRA DE AIRES","R 6 CCI","R NOSSA SENHORA DE AIRES","R 6"],"centroide":[38.61637183697754,-8.916915972204778]}
+{
+  "CP": "2955-101",
+  "CP4": "2955",
+  "CP3": "101",
+  "Distrito": "Setúbal",
+  "Concelho": "Palmela",
+  "Localidade": "Pinhal Novo",
+  "Designação Postal": "PINHAL NOVO",
+  "partes": [
+    {
+      "Artéria": "Rua de Nossa Senhora de Aires",
+      "Local": "Cascalheira",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4689560",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "33",
+      "coordenadas": [
+        38.61661817298965,
+        -8.916631223903325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4700410",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.616481522634174,
+        -8.916859374432587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4704482",
+      "rua": "R 6 CCI",
+      "casa": "CCI 10402",
+      "coordenadas": [
+        38.6144878445654,
+        -8.919972140016108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4711195",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.616291042246985,
+        -8.915709118841061
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4714720",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.6166301108718,
+        -8.917538422387578
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4748213",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "36",
+      "coordenadas": [
+        38.61699710868222,
+        -8.917886877823745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4762468",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "25",
+      "coordenadas": [
+        38.61641983426739,
+        -8.91530865361712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4784059",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61617747583412,
+        -8.915179721556614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4822710",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61641230726734,
+        -8.916433792891606
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4833889",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61669085375103,
+        -8.91788354069396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4835374",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61669085375103,
+        -8.91788354069396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4847821",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61628812341339,
+        -8.916145396563245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4886226",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.616776922987675,
+        -8.918481537550965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4894504",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61607038326849,
+        -8.915029295358343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4895645",
+      "rua": "R NOSSA SENHORA DE AIRES",
+      "casa": "37",
+      "coordenadas": [
+        38.61687862494626,
+        -8.91809226131487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4909493",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "38",
+      "coordenadas": [
+        38.616958305789844,
+        -8.918299804585514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4930011",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61638643755383,
+        -8.91626128388502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4933253",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61618965550837,
+        -8.916052471511122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4950734",
+      "rua": "R 6",
+      "casa": "",
+      "coordenadas": [
+        38.61451457656893,
+        -8.918675017754019
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4972553",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61602787698144,
+        -8.914649934929901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4976377",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61668962154252,
+        -8.918067237508758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5021620",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61623584525093,
+        -8.91588074634974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5021621",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61656905921443,
+        -8.917239228781694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5069565",
+      "rua": "R NOSSA SENHORA DE AIRES",
+      "casa": "47",
+      "coordenadas": [
+        38.61661286551745,
+        -8.917423415775247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5085612",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "15",
+      "coordenadas": [
+        38.616862920187366,
+        -8.917747632608581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5103249",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61604520177691,
+        -8.914753459031191
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5105032",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61666521714492,
+        -8.917676587391218
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5114546",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.616212277901525,
+        -8.915363808513947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5121741",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "29",
+      "coordenadas": [
+        38.61654079446098,
+        -8.916079252465057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5125592",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61673327244996,
+        -8.918274387407225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5131677",
+      "rua": "R NSA SRA DE AIRES",
+      "casa": "",
+      "coordenadas": [
+        38.61656905921443,
+        -8.917239228781694
+      ]
+    }
+  ],
+  "ruas": [
+    "R NSA SRA DE AIRES",
+    "R 6 CCI",
+    "R NOSSA SENHORA DE AIRES",
+    "R 6"
+  ],
+  "centro": [
+    38.61574247662381,
+    -8.917311037473006
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.61577545117794,
+                -8.919133676129464
+              ],
+              [
+                38.61548931637515,
+                -8.91932000143761
+              ],
+              [
+                38.615239366110266,
+                -8.91946276854689
+              ],
+              [
+                38.61502560038329,
+                -8.919561977457306
+              ],
+              [
+                38.61484801919421,
+                -8.91961762816886
+              ],
+              [
+                38.614706622543046,
+                -8.91962972068155
+              ],
+              [
+                38.61460141042978,
+                -8.919598254995378
+              ],
+              [
+                38.61453238285441,
+                -8.919523231110343
+              ],
+              [
+                38.61449953981695,
+                -8.919404649026445
+              ],
+              [
+                38.614502881317385,
+                -8.919242508743682
+              ],
+              [
+                38.61452945044922,
+                -8.91903774407714
+              ],
+              [
+                38.61457924721244,
+                -8.918790355026815
+              ],
+              [
+                38.61465227160705,
+                -8.91850034159271
+              ],
+              [
+                38.614748523633054,
+                -8.918167703774822
+              ],
+              [
+                38.61486800329045,
+                -8.917792441573152
+              ],
+              [
+                38.61501071057923,
+                -8.917374554987703
+              ],
+              [
+                38.6151766454994,
+                -8.916914044018469
+              ],
+              [
+                38.61536580805097,
+                -8.916410908665451
+              ],
+              [
+                38.61553744961618,
+                -8.915980957711051
+              ],
+              [
+                38.61569157019504,
+                -8.915624191155267
+              ],
+              [
+                38.61582816978755,
+                -8.915340608998095
+              ],
+              [
+                38.615947248393695,
+                -8.915130211239541
+              ],
+              [
+                38.6160488060135,
+                -8.9149929978796
+              ],
+              [
+                38.61613284264695,
+                -8.914928968918272
+              ],
+              [
+                38.61619935829405,
+                -8.91493812435556
+              ],
+              [
+                38.616248352954784,
+                -8.915020464191462
+              ],
+              [
+                38.61630024319567,
+                -8.915132796301105
+              ],
+              [
+                38.61635502901669,
+                -8.91527512068449
+              ],
+              [
+                38.61641271041785,
+                -8.915447437341614
+              ],
+              [
+                38.61647328739915,
+                -8.915649746272479
+              ],
+              [
+                38.616536759960596,
+                -8.915882047477085
+              ],
+              [
+                38.61660312810217,
+                -8.916144340955432
+              ],
+              [
+                38.61667239182388,
+                -8.916436626707519
+              ],
+              [
+                38.616744551125734,
+                -8.916758904733348
+              ],
+              [
+                38.61680708421966,
+                -8.9170473499866
+              ],
+              [
+                38.616859991105656,
+                -8.917301962467276
+              ],
+              [
+                38.61690327178374,
+                -8.917522742175377
+              ],
+              [
+                38.61693692625389,
+                -8.917709689110902
+              ],
+              [
+                38.616960954516124,
+                -8.91786280327385
+              ],
+              [
+                38.61697535657042,
+                -8.917982084664223
+              ],
+              [
+                38.616980132416806,
+                -8.91806753328202
+              ],
+              [
+                38.61697528205526,
+                -8.91811914912724
+              ],
+              [
+                38.61696820388262,
+                -8.918167152569394
+              ],
+              [
+                38.6169588978989,
+                -8.91821154360848
+              ],
+              [
+                38.61694736410408,
+                -8.918252322244498
+              ],
+              [
+                38.616933602498165,
+                -8.918289488477448
+              ],
+              [
+                38.61691761308116,
+                -8.918323042307332
+              ],
+              [
+                38.616899395853075,
+                -8.918352983734149
+              ],
+              [
+                38.6168789508139,
+                -8.9183793127579
+              ],
+              [
+                38.61685627796362,
+                -8.91840202937858
+              ],
+              [
+                38.61680067236929,
+                -8.918445197085195
+              ],
+              [
+                38.61671213403089,
+                -8.918508815877741
+              ],
+              [
+                38.616590662948425,
+                -8.91859288575622
+              ],
+              [
+                38.616436259121905,
+                -8.918697406720632
+              ],
+              [
+                38.616248922551314,
+                -8.918822378770978
+              ],
+              [
+                38.616028653236654,
+                -8.918967801907254
+              ],
+              [
+                38.61577545117794,
+                -8.919133676129464
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.616026067120416,
+    -8.917610566611055
+  ],
+  "centroDeMassa": [
+    38.61574247662381,
+    -8.917311037473006
+  ]
+}

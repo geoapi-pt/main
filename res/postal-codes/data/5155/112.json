@@ -1,1 +1,385 @@
-{"CP4":"5155","CP3":"112","Distrito":"Guarda","Concelho":"Vila Nova de Foz Côa","CP":"5155-112","Artéria":"Travessa dos Espinheirinhos","Localidade":"Custóias","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CUSTÓIAS VLF","locais":[{"id":"pt.ine.add.PTCONT.1908205","rua":"R DOS ESPINHEIROS","casa":"44","coordenadas":[41.10572428915906,-7.322379764867217]},{"id":"pt.ine.add.PTCONT.1917451","rua":"R DOS ESPINHEIROS","casa":"48","coordenadas":[41.10585209788181,-7.3226281880686965]},{"id":"pt.ine.add.PTCONT.1919608","rua":"R DOS ESPINHEIROS","casa":"24","coordenadas":[41.10568374982516,-7.321737420218541]},{"id":"pt.ine.add.PTCONT.1924493","rua":"R DOS ESPINHEIROS","casa":"28","coordenadas":[41.1056752492219,-7.321808951879854]},{"id":"pt.ine.add.PTCONT.1933446","rua":"R DOS ESPINHEIROS","casa":"18","coordenadas":[41.10567315325439,-7.321511365099979]},{"id":"pt.ine.add.PTCONT.1939674","rua":"R DOS ESPINHEIROS","casa":"13","coordenadas":[41.10558261445993,-7.321441052993904]},{"id":"pt.ine.add.PTCONT.1945644","rua":"R DOS ESPINHEIROS","casa":"36","coordenadas":[41.10567667404084,-7.322011310908108]},{"id":"pt.ine.add.PTCONT.1950320","rua":"R DOS ESPINHEIROS","casa":"46","coordenadas":[41.10583291828202,-7.322461760453194]},{"id":"pt.ine.add.PTCONT.1963941","rua":"R DOS ESPINHEIROS","casa":"60","coordenadas":[41.106394017030986,-7.324145317551566]},{"id":"pt.ine.add.PTCONT.1970429","rua":"R DOS ESPINHEIROS","casa":"15","coordenadas":[41.10558320145809,-7.321524377173204]},{"id":"pt.ine.add.PTCONT.1857762","rua":"R DOS ESPINHEIROS","casa":"60","coordenadas":[41.10574932817167,-7.323379436348123]},{"id":"pt.ine.add.PTCONT.1858611","rua":"R DOS ESPINHEIROS","casa":"58","coordenadas":[41.10572081136543,-7.323165505448767]},{"id":"pt.ine.add.PTCONT.1859667","rua":"R DOS ESPINHEIRINHOS","casa":"65","coordenadas":[41.10505822804501,-7.323697440458141]},{"id":"pt.ine.add.PTCONT.1860501","rua":"R DOS ESPINHEIROS","casa":"25","coordenadas":[41.105575958525485,-7.321774460551734]},{"id":"pt.ine.add.PTCONT.1866688","rua":"R DOS ESPINHEIROS","casa":"37","coordenadas":[41.10570485785334,-7.32217762721695]},{"id":"pt.ine.add.PTCONT.1868554","rua":"R DOS ESPINHEIRINHOS","casa":"37","coordenadas":[41.10557931061089,-7.322250598743568]},{"id":"pt.ine.add.PTCONT.1876597","rua":"R DOS ESPINHEIROS","casa":"29","coordenadas":[41.10555912484717,-7.321941330515771]},{"id":"pt.ine.add.PTCONT.1879347","rua":"R DOS ESPINHEIRINHOS","casa":"41","coordenadas":[41.1055903244851,-7.322536170975415]},{"id":"pt.ine.add.PTCONT.1886868","rua":"R DOS ESPINHEIROS","casa":"2","coordenadas":[41.10568881198663,-7.321177846128388]},{"id":"pt.ine.add.PTCONT.1896018","rua":"R DOS ESPINHEIROS","casa":"12","coordenadas":[41.10568106661207,-7.321356509103555]}],"ruas":["R DOS ESPINHEIROS","R DOS ESPINHEIRINHOS"],"centroide":[41.10567919581605,-7.322302627663217]}
+{
+  "CP": "5155-112",
+  "CP4": "5155",
+  "CP3": "112",
+  "Distrito": "Guarda",
+  "Concelho": "Vila Nova de Foz Côa",
+  "Localidade": "Custóias",
+  "Designação Postal": "CUSTÓIAS VLF",
+  "partes": [
+    {
+      "Artéria": "Rua Espinheiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Fonte Ferreiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Fonte Ferreiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa dos Espinheirinhos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1908205",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "44",
+      "coordenadas": [
+        41.10572428915906,
+        -7.322379764867217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1917451",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "48",
+      "coordenadas": [
+        41.10585209788181,
+        -7.3226281880686965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1919608",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "24",
+      "coordenadas": [
+        41.10568374982516,
+        -7.321737420218541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1924493",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "28",
+      "coordenadas": [
+        41.1056752492219,
+        -7.321808951879854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1933446",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "18",
+      "coordenadas": [
+        41.10567315325439,
+        -7.321511365099979
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1939674",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "13",
+      "coordenadas": [
+        41.10558261445993,
+        -7.321441052993904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1945644",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "36",
+      "coordenadas": [
+        41.10567667404084,
+        -7.322011310908108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1950320",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "46",
+      "coordenadas": [
+        41.10583291828202,
+        -7.322461760453194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1963941",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "60",
+      "coordenadas": [
+        41.106394017030986,
+        -7.324145317551566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1970429",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "15",
+      "coordenadas": [
+        41.10558320145809,
+        -7.321524377173204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1857762",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "60",
+      "coordenadas": [
+        41.10574932817167,
+        -7.323379436348123
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1858611",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "58",
+      "coordenadas": [
+        41.10572081136543,
+        -7.323165505448767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1859667",
+      "rua": "R DOS ESPINHEIRINHOS",
+      "casa": "65",
+      "coordenadas": [
+        41.10505822804501,
+        -7.323697440458141
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1860501",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "25",
+      "coordenadas": [
+        41.105575958525485,
+        -7.321774460551734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1866688",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "37",
+      "coordenadas": [
+        41.10570485785334,
+        -7.32217762721695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1868554",
+      "rua": "R DOS ESPINHEIRINHOS",
+      "casa": "37",
+      "coordenadas": [
+        41.10557931061089,
+        -7.322250598743568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1876597",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "29",
+      "coordenadas": [
+        41.10555912484717,
+        -7.321941330515771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1879347",
+      "rua": "R DOS ESPINHEIRINHOS",
+      "casa": "41",
+      "coordenadas": [
+        41.1055903244851,
+        -7.322536170975415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1886868",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "2",
+      "coordenadas": [
+        41.10568881198663,
+        -7.321177846128388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1896018",
+      "rua": "R DOS ESPINHEIROS",
+      "casa": "12",
+      "coordenadas": [
+        41.10568106661207,
+        -7.321356509103555
+      ]
+    }
+  ],
+  "ruas": [
+    "R DOS ESPINHEIROS",
+    "R DOS ESPINHEIRINHOS"
+  ],
+  "centro": [
+    41.105726122538,
+    -7.322661581839977
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.10580960934962,
+                -7.323949371323193
+              ],
+              [
+                41.105642635726376,
+                -7.323893386686515
+              ],
+              [
+                41.105504727343764,
+                -7.323809144075293
+              ],
+              [
+                41.1053958842018,
+                -7.323696643489527
+              ],
+              [
+                41.10531610630047,
+                -7.323555884929217
+              ],
+              [
+                41.105265393639776,
+                -7.323386868394363
+              ],
+              [
+                41.10524374621973,
+                -7.3231895938849645
+              ],
+              [
+                41.10525116404032,
+                -7.322964061401024
+              ],
+              [
+                41.10528764710154,
+                -7.322710270942538
+              ],
+              [
+                41.1053531954034,
+                -7.322428222509507
+              ],
+              [
+                41.10541220950389,
+                -7.322177317523333
+              ],
+              [
+                41.10546468940299,
+                -7.321957555984014
+              ],
+              [
+                41.10551063510072,
+                -7.321768937891549
+              ],
+              [
+                41.105550046597074,
+                -7.321611463245939
+              ],
+              [
+                41.105582923892044,
+                -7.321485132047185
+              ],
+              [
+                41.105609266985645,
+                -7.3213899442952854
+              ],
+              [
+                41.105629075877864,
+                -7.32132589999024
+              ],
+              [
+                41.105642350568694,
+                -7.3212929991320514
+              ],
+              [
+                41.105664984751996,
+                -7.321310577622123
+              ],
+              [
+                41.105696978427765,
+                -7.321378635460455
+              ],
+              [
+                41.105738331595994,
+                -7.321497172647048
+              ],
+              [
+                41.10578904425669,
+                -7.321666189181902
+              ],
+              [
+                41.10584911640984,
+                -7.321885685065016
+              ],
+              [
+                41.10591854805546,
+                -7.322155660296391
+              ],
+              [
+                41.10599733919354,
+                -7.322476114876028
+              ],
+              [
+                41.106085489824075,
+                -7.322847048803927
+              ],
+              [
+                41.1061417499229,
+                -7.323164617911252
+              ],
+              [
+                41.10616611948999,
+                -7.323428822198005
+              ],
+              [
+                41.10615859852537,
+                -7.323639661664187
+              ],
+              [
+                41.10611918702902,
+                -7.323797136309795
+              ],
+              [
+                41.10604788500095,
+                -7.323901246134833
+              ],
+              [
+                41.10594469244114,
+                -7.3239519911393
+              ],
+              [
+                41.10580960934962,
+                -7.323949371323193
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.10568091788064,
+    -7.322615414283
+  ],
+  "centroDeMassa": [
+    41.105726122538,
+    -7.322661581839977
+  ]
+}

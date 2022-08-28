@@ -1,1 +1,508 @@
-{"CP4":"2415","CP3":"415","Distrito":"Leiria","Concelho":"Leiria","CP":"2415-415","Artéria":"Rua Heróis do Ultramar","Localidade":"Leiria","Local":"Leiria Gare","Troço":"","Porta":"","Cliente":"","Designação Postal":"LEIRIA","locais":[{"id":"pt.ine.add.PTCONT.1985209","rua":"R HEROIS DO ULTRAMAR","casa":"18","coordenadas":[39.759925232246566,-8.822491576531952]},{"id":"pt.ine.add.PTCONT.2002879","rua":"R HEROIS DO ULTRAMAR","casa":"12","coordenadas":[39.76047999361032,-8.823103928351115]},{"id":"pt.ine.add.PTCONT.2009365","rua":"R HEROIS DO ULTRAMAR","casa":"16","coordenadas":[39.760166867018185,-8.822750716357362]},{"id":"pt.ine.add.PTCONT.2081357","rua":"R HEROIS DO ULTRAMAR","casa":"20","coordenadas":[39.75975356528354,-8.822583220768937]},{"id":"pt.ine.add.PTCONT.2088143","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088144","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088145","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088146","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088147","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088148","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088149","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088150","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088151","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088152","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2088189","rua":"R HEROIS DO ULTRAMAR","casa":"33","coordenadas":[39.76002623750203,-8.822165836535447]},{"id":"pt.ine.add.PTCONT.2089142","rua":"R HEROIS DO ULTRAMAR","casa":"21","coordenadas":[39.75927930023848,-8.82206503697586]},{"id":"pt.ine.add.PTCONT.2090398","rua":"R HEROIS DO ULTRAMAR","casa":"11","coordenadas":[39.76039263893742,-8.822647942033338]},{"id":"pt.ine.add.PTCONT.2110477","rua":"R HEROIS DO ULTRAMAR","casa":"14","coordenadas":[39.76032800276397,-8.822915697983088]},{"id":"pt.ine.add.PTCONT.2111522","rua":"R HEROIS DO ULTRAMAR","casa":"","coordenadas":[39.759469601894914,-8.821868552705864]},{"id":"pt.ine.add.PTCONT.2129790","rua":"R HEROIS DO ULTRAMAR","casa":"","coordenadas":[39.75963995264302,-8.82199861398856]},{"id":"pt.ine.add.PTCONT.2162522","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[39.75905532949561,-8.82186442574973]},{"id":"pt.ine.add.PTCONT.2162523","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[39.75905532949561,-8.82186442574973]},{"id":"pt.ine.add.PTCONT.2162524","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[39.75905532949561,-8.82186442574973]},{"id":"pt.ine.add.PTCONT.2162525","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[39.75905532949561,-8.82186442574973]},{"id":"pt.ine.add.PTCONT.2162527","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[39.75905532949561,-8.82186442574973]},{"id":"pt.ine.add.PTCONT.2162528","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[39.75905532949561,-8.82186442574973]},{"id":"pt.ine.add.PTCONT.2162553","rua":"R HEROIS DO ULTRAMAR","casa":"","coordenadas":[39.75941577409161,-8.821833008157666]},{"id":"pt.ine.add.PTCONT.2171330","rua":"R HEROIS DO ULTRAMAR","casa":"","coordenadas":[39.75929038352696,-8.821715064913413]},{"id":"pt.ine.add.PTCONT.2262680","rua":"R HEROIS DO ULTRAMAR","casa":"20","coordenadas":[39.75975356528354,-8.822583220768937]}],"ruas":["R HEROIS DO ULTRAMAR"],"centroide":[39.7594747331827,-8.822142004269987]}
+{
+  "CP": "2415-415",
+  "CP4": "2415",
+  "CP3": "415",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Leiria",
+  "Designação Postal": "LEIRIA",
+  "partes": [
+    {
+      "Artéria": "Rua Heróis do Ultramar",
+      "Local": "Leiria Gare",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1985209",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "18",
+      "coordenadas": [
+        39.759925232246566,
+        -8.822491576531952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2002879",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "12",
+      "coordenadas": [
+        39.76047999361032,
+        -8.823103928351115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2009365",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "16",
+      "coordenadas": [
+        39.760166867018185,
+        -8.822750716357362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2081357",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "20",
+      "coordenadas": [
+        39.75975356528354,
+        -8.822583220768937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088143",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088144",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088145",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088146",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088147",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088148",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088149",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088150",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088151",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088152",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088189",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "33",
+      "coordenadas": [
+        39.76002623750203,
+        -8.822165836535447
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2089142",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "21",
+      "coordenadas": [
+        39.75927930023848,
+        -8.82206503697586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2090398",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "11",
+      "coordenadas": [
+        39.76039263893742,
+        -8.822647942033338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2110477",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "14",
+      "coordenadas": [
+        39.76032800276397,
+        -8.822915697983088
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2111522",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "",
+      "coordenadas": [
+        39.759469601894914,
+        -8.821868552705864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2129790",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "",
+      "coordenadas": [
+        39.75963995264302,
+        -8.82199861398856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162522",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        39.75905532949561,
+        -8.82186442574973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162523",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        39.75905532949561,
+        -8.82186442574973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162524",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        39.75905532949561,
+        -8.82186442574973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162525",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        39.75905532949561,
+        -8.82186442574973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162527",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        39.75905532949561,
+        -8.82186442574973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162528",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        39.75905532949561,
+        -8.82186442574973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162553",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "",
+      "coordenadas": [
+        39.75941577409161,
+        -8.821833008157666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2171330",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "",
+      "coordenadas": [
+        39.75929038352696,
+        -8.821715064913413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2262680",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "20",
+      "coordenadas": [
+        39.75975356528354,
+        -8.822583220768937
+      ]
+    }
+  ],
+  "ruas": [
+    "R HEROIS DO ULTRAMAR"
+  ],
+  "centro": [
+    39.759767661552964,
+    -8.822409496632265
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.759448087126316,
+                -8.822268747948034
+              ],
+              [
+                39.759360807652826,
+                -8.822178898570634
+              ],
+              [
+                39.75928811083276,
+                -8.82209794660234
+              ],
+              [
+                39.75922999666612,
+                -8.822025892043154
+              ],
+              [
+                39.759186465152915,
+                -8.821962734893077
+              ],
+              [
+                39.75915751629312,
+                -8.821908475152107
+              ],
+              [
+                39.759143150086764,
+                -8.821863112820244
+              ],
+              [
+                39.759143366533834,
+                -8.821826647897488
+              ],
+              [
+                39.759158165634325,
+                -8.821799080383842
+              ],
+              [
+                39.759187547388244,
+                -8.8217804102793
+              ],
+              [
+                39.759224754141286,
+                -8.821771117244424
+              ],
+              [
+                39.75926978589344,
+                -8.821771201279207
+              ],
+              [
+                39.75932264264472,
+                -8.821780662383652
+              ],
+              [
+                39.75938332439513,
+                -8.82179950055776
+              ],
+              [
+                39.75945183114465,
+                -8.821827715801529
+              ],
+              [
+                39.75952816289329,
+                -8.821865308114958
+              ],
+              [
+                39.75961231964105,
+                -8.821912277498052
+              ],
+              [
+                39.75970430138794,
+                -8.821968623950807
+              ],
+              [
+                39.75979051043889,
+                -8.822025459995373
+              ],
+              [
+                39.7598709467939,
+                -8.822082785631746
+              ],
+              [
+                39.75994561045299,
+                -8.822140600859932
+              ],
+              [
+                39.76001450141615,
+                -8.822198905679926
+              ],
+              [
+                39.76007761968337,
+                -8.822257700091733
+              ],
+              [
+                39.76013496525465,
+                -8.82231698409535
+              ],
+              [
+                39.760186538130014,
+                -8.822376757690776
+              ],
+              [
+                39.760232338309436,
+                -8.82243702087801
+              ],
+              [
+                39.7602737783832,
+                -8.822496875953057
+              ],
+              [
+                39.760310858351296,
+                -8.822556322915915
+              ],
+              [
+                39.76034357821373,
+                -8.822615361766584
+              ],
+              [
+                39.76037193797049,
+                -8.822673992505063
+              ],
+              [
+                39.760395937621595,
+                -8.822732215131353
+              ],
+              [
+                39.76041557716703,
+                -8.822790029645454
+              ],
+              [
+                39.76043085660681,
+                -8.822847436047365
+              ],
+              [
+                39.760441775940926,
+                -8.822904434337087
+              ],
+              [
+                39.760439979915674,
+                -8.822946171784622
+              ],
+              [
+                39.76042546853104,
+                -8.822972648389971
+              ],
+              [
+                39.760398241787044,
+                -8.822983864153134
+              ],
+              [
+                39.76035829968367,
+                -8.822979819074106
+              ],
+              [
+                39.760305642220935,
+                -8.822960513152896
+              ],
+              [
+                39.76024026939883,
+                -8.822925946389496
+              ],
+              [
+                39.76016218121735,
+                -8.822876118783912
+              ],
+              [
+                39.76007137767651,
+                -8.82281103033614
+              ],
+              [
+                39.75998101464408,
+                -8.822742846772163
+              ],
+              [
+                39.75989109212007,
+                -8.822671568091986
+              ],
+              [
+                39.759801610104475,
+                -8.822597194295602
+              ],
+              [
+                39.75971256859731,
+                -8.822519725383014
+              ],
+              [
+                39.75962396759856,
+                -8.822439161354225
+              ],
+              [
+                39.75953580710822,
+                -8.82235550220923
+              ],
+              [
+                39.759448087126316,
+                -8.822268747948034
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.75983302472598,
+    -8.822346736391998
+  ],
+  "centroDeMassa": [
+    39.759767661552964,
+    -8.822409496632265
+  ]
+}

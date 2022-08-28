@@ -1,1 +1,509 @@
-{"CP4":"2135","CP3":"182","Distrito":"Santarém","Concelho":"Benavente","CP":"2135-182","Artéria":"Rua José Júlio Simplício","Localidade":"Samora Correia","Local":"Urbanização das Cegonhas","Troço":"","Porta":"","Cliente":"","Designação Postal":"SAMORA CORREIA","locais":[{"id":"pt.ine.add.PTCONT.4404214","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93321837708876,-8.861147291298249]},{"id":"pt.ine.add.PTCONT.4410177","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93365144711171,-8.862477998292304]},{"id":"pt.ine.add.PTCONT.4410192","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933306721793976,-8.861424981913801]},{"id":"pt.ine.add.PTCONT.4418299","rua":"R JOSE JULIO SIMPLÍCIO","casa":"13","coordenadas":[38.93335961314206,-8.861610047936754]},{"id":"pt.ine.add.PTCONT.4426553","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93358047086685,-8.862304278527306]},{"id":"pt.ine.add.PTCONT.4434842","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93371327181684,-8.862674690387513]},{"id":"pt.ine.add.PTCONT.4456591","rua":"R JOSE JULIO SIMPLICIO","casa":"18","coordenadas":[38.933869707309604,-8.862145779876826]},{"id":"pt.ine.add.PTCONT.4463712","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933280204063465,-8.861343981071133]},{"id":"pt.ine.add.PTCONT.4478385","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933129096935055,-8.861019517932657]},{"id":"pt.ine.add.PTCONT.4487880","rua":"R JOSE JULIO SIMPLICIO","casa":"17","coordenadas":[38.93343051844455,-8.861795298574105]},{"id":"pt.ine.add.PTCONT.4493169","rua":"R JOSE JULIO SIMPLICIO","casa":"55 B","coordenadas":[38.933739788612435,-8.862755692206399]},{"id":"pt.ine.add.PTCONT.4498533","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.9340506420102,-8.862020770146179]},{"id":"pt.ine.add.PTCONT.4501356","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93393160461419,-8.862330940128183]},{"id":"pt.ine.add.PTCONT.4517761","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93350142344864,-8.861980549576884]},{"id":"pt.ine.add.PTCONT.4525309","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93367522239272,-8.861555612493314]},{"id":"pt.ine.add.PTCONT.4538267","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93334203070282,-8.861540671181217]},{"id":"pt.ine.add.PTCONT.4569349","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93370188391802,-8.861613549594692]},{"id":"pt.ine.add.PTCONT.4579202","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93366895692189,-8.862558907700237]},{"id":"pt.ine.add.PTCONT.4598497","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933554169848165,-8.86218868072581]},{"id":"pt.ine.add.PTCONT.4598498","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93352772467527,-8.86209614721881]},{"id":"pt.ine.add.PTCONT.4608370","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93382560792866,-8.861995400793234]},{"id":"pt.ine.add.PTCONT.4619244","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933640057415424,-8.861416858424315]},{"id":"pt.ine.add.PTCONT.4632069","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933763710085245,-8.861810241102269]},{"id":"pt.ine.add.PTCONT.4632070","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933244894957426,-8.861228291999122]},{"id":"pt.ine.add.PTCONT.4640136","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933616067095535,-8.862373840188534]},{"id":"pt.ine.add.PTCONT.4644081","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.933403928991105,-8.861725829542275]},{"id":"pt.ine.add.PTCONT.4648107","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93379909060404,-8.861914399151045]},{"id":"pt.ine.add.PTCONT.4658102","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93348384123227,-8.861911172594601]},{"id":"pt.ine.add.PTCONT.4659789","rua":"R JOSE JULIO SIMPLÍCIO","casa":"","coordenadas":[38.93373712064533,-8.861740771737969]}],"ruas":["R JOSE JULIO SIMPLÍCIO","R JOSE JULIO SIMPLICIO"],"centroide":[38.93357178835811,-8.861891479306347]}
+{
+  "CP": "2135-182",
+  "CP4": "2135",
+  "CP3": "182",
+  "Distrito": "Santarém",
+  "Concelho": "Benavente",
+  "Localidade": "Samora Correia",
+  "Designação Postal": "SAMORA CORREIA",
+  "partes": [
+    {
+      "Artéria": "Rua José Júlio Simplício",
+      "Local": "Urbanização das Cegonhas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4404214",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93321837708876,
+        -8.861147291298249
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4410177",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93365144711171,
+        -8.862477998292304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4410192",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933306721793976,
+        -8.861424981913801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4418299",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "13",
+      "coordenadas": [
+        38.93335961314206,
+        -8.861610047936754
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4426553",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93358047086685,
+        -8.862304278527306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4434842",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93371327181684,
+        -8.862674690387513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4456591",
+      "rua": "R JOSE JULIO SIMPLICIO",
+      "casa": "18",
+      "coordenadas": [
+        38.933869707309604,
+        -8.862145779876826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4463712",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933280204063465,
+        -8.861343981071133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4478385",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933129096935055,
+        -8.861019517932657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4487880",
+      "rua": "R JOSE JULIO SIMPLICIO",
+      "casa": "17",
+      "coordenadas": [
+        38.93343051844455,
+        -8.861795298574105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4493169",
+      "rua": "R JOSE JULIO SIMPLICIO",
+      "casa": "55 B",
+      "coordenadas": [
+        38.933739788612435,
+        -8.862755692206399
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498533",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.9340506420102,
+        -8.862020770146179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4501356",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93393160461419,
+        -8.862330940128183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4517761",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93350142344864,
+        -8.861980549576884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4525309",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93367522239272,
+        -8.861555612493314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4538267",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93334203070282,
+        -8.861540671181217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4569349",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93370188391802,
+        -8.861613549594692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4579202",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93366895692189,
+        -8.862558907700237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4598497",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933554169848165,
+        -8.86218868072581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4598498",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93352772467527,
+        -8.86209614721881
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4608370",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93382560792866,
+        -8.861995400793234
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4619244",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933640057415424,
+        -8.861416858424315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4632069",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933763710085245,
+        -8.861810241102269
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4632070",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933244894957426,
+        -8.861228291999122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4640136",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933616067095535,
+        -8.862373840188534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4644081",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.933403928991105,
+        -8.861725829542275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4648107",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93379909060404,
+        -8.861914399151045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4658102",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93348384123227,
+        -8.861911172594601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4659789",
+      "rua": "R JOSE JULIO SIMPLÍCIO",
+      "casa": "",
+      "coordenadas": [
+        38.93373712064533,
+        -8.861740771737969
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE JULIO SIMPLÍCIO",
+    "R JOSE JULIO SIMPLICIO"
+  ],
+  "centro": [
+    38.93358986947263,
+    -8.861887605069528
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.93343276817765,
+                -8.861885424676922
+              ],
+              [
+                38.933365285679294,
+                -8.861693000955972
+              ],
+              [
+                38.93331422225074,
+                -8.861530838645326
+              ],
+              [
+                38.933279577891994,
+                -8.86139893774498
+              ],
+              [
+                38.93326135260304,
+                -8.861297298254934
+              ],
+              [
+                38.93325954638388,
+                -8.86122592017519
+              ],
+              [
+                38.93327415923452,
+                -8.861184803505745
+              ],
+              [
+                38.93330519115497,
+                -8.861173948246602
+              ],
+              [
+                38.933352642145216,
+                -8.86119335439776
+              ],
+              [
+                38.93341651220526,
+                -8.861243021959215
+              ],
+              [
+                38.933478813892094,
+                -8.861295917196145
+              ],
+              [
+                38.93353954720572,
+                -8.861352040108546
+              ],
+              [
+                38.93359871214612,
+                -8.861411390696418
+              ],
+              [
+                38.933656308713324,
+                -8.861473968959764
+              ],
+              [
+                38.933712336907305,
+                -8.861539774898581
+              ],
+              [
+                38.93376679672808,
+                -8.86160880851287
+              ],
+              [
+                38.93381968817564,
+                -8.86168106980263
+              ],
+              [
+                38.933871011249984,
+                -8.861756558767864
+              ],
+              [
+                38.93391405898073,
+                -8.86182745801841
+              ],
+              [
+                38.933948831367864,
+                -8.861893767554271
+              ],
+              [
+                38.93397532841139,
+                -8.861955487375448
+              ],
+              [
+                38.93399355011131,
+                -8.862012617481943
+              ],
+              [
+                38.93400349646763,
+                -8.862065157873749
+              ],
+              [
+                38.93400516748034,
+                -8.86211310855087
+              ],
+              [
+                38.933998563149444,
+                -8.862156469513307
+              ],
+              [
+                38.93398368347495,
+                -8.862195240761055
+              ],
+              [
+                38.93396766663473,
+                -8.86223580235406
+              ],
+              [
+                38.9339505126288,
+                -8.862278154292317
+              ],
+              [
+                38.933932221457155,
+                -8.86232229657583
+              ],
+              [
+                38.93391279311979,
+                -8.862368229204591
+              ],
+              [
+                38.93389222761672,
+                -8.862415952178608
+              ],
+              [
+                38.93387052494793,
+                -8.86246546549788
+              ],
+              [
+                38.93384768511342,
+                -8.862516769162402
+              ],
+              [
+                38.93382370811321,
+                -8.86256986317218
+              ],
+              [
+                38.93380162149285,
+                -8.862613245672826
+              ],
+              [
+                38.933781425252356,
+                -8.86264691666434
+              ],
+              [
+                38.93376311939173,
+                -8.862670876146726
+              ],
+              [
+                38.933746703910955,
+                -8.862685124119977
+              ],
+              [
+                38.933732178810054,
+                -8.8626896605841
+              ],
+              [
+                38.93371954408901,
+                -8.862684485539093
+              ],
+              [
+                38.933708799747826,
+                -8.862669598984954
+              ],
+              [
+                38.93369994578651,
+                -8.862645000921681
+              ],
+              [
+                38.93368376325806,
+                -8.8625994246512
+              ],
+              [
+                38.93366025216248,
+                -8.862532870173514
+              ],
+              [
+                38.933629412499776,
+                -8.862445337488614
+              ],
+              [
+                38.93359124426994,
+                -8.862336826596506
+              ],
+              [
+                38.93354574747298,
+                -8.862207337497187
+              ],
+              [
+                38.933492922108876,
+                -8.86205687019066
+              ],
+              [
+                38.93343276817765,
+                -8.861885424676922
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.93369335775153,
+    -8.862017114422995
+  ],
+  "centroDeMassa": [
+    38.93358986947263,
+    -8.861887605069528
+  ]
+}

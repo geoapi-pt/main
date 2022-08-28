@@ -1,1 +1,514 @@
-{"CP4":"2135","CP3":"411","Distrito":"Santarém","Concelho":"Benavente","CP":"2135-411","Artéria":"Estrada Lagoa do Madeiro","Localidade":"Samora Correia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SAMORA CORREIA","locais":[{"id":"pt.ine.add.PTCONT.4395768","rua":"ESTR LAGOA DO MADEIRO","casa":"6 B","coordenadas":[38.9139622310654,-8.867960551972219]},{"id":"pt.ine.add.PTCONT.4424544","rua":"ESTR LAGOA DO MADEIRO","casa":"13","coordenadas":[38.912499873731136,-8.869882416812212]},{"id":"pt.ine.add.PTCONT.4424552","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.9138841348378,-8.870346385885737]},{"id":"pt.ine.add.PTCONT.4426071","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.9138841348378,-8.870346385885737]},{"id":"pt.ine.add.PTCONT.4437034","rua":"ESTR LAGOA DO MADEIRO","casa":"4","coordenadas":[38.91378165276469,-8.868027867603075]},{"id":"pt.ine.add.PTCONT.4441190","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91499253367158,-8.868847445047525]},{"id":"pt.ine.add.PTCONT.4447206","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.915761476651575,-8.869754721913278]},{"id":"pt.ine.add.PTCONT.4453351","rua":"ESTR LAGOA DO MADEIRO","casa":"11","coordenadas":[38.91219093815419,-8.870305809944966]},{"id":"pt.ine.add.PTCONT.4459768","rua":"ESTR LAGOA DO MADEIRO","casa":"21","coordenadas":[38.91361930507118,-8.869490454440905]},{"id":"pt.ine.add.PTCONT.4474153","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91523920818914,-8.869726262782391]},{"id":"pt.ine.add.PTCONT.4477231","rua":"ESTR LAGOA DO MADEIRO","casa":"23","coordenadas":[38.91384927101493,-8.870161550748584]},{"id":"pt.ine.add.PTCONT.4511532","rua":"ESTR LAGOA DO MADEIRO QTA DAS TILIAS","casa":"29","coordenadas":[38.91429853599798,-8.87033914362406]},{"id":"pt.ine.add.PTCONT.4521376","rua":"ESTR LAGOA DO MADEIRO","casa":"41","coordenadas":[38.91530959183158,-8.869992177839515]},{"id":"pt.ine.add.PTCONT.4523521","rua":"ESTR LAGOA DO MADEIRO","casa":"6A","coordenadas":[38.91408746014964,-8.868100199716977]},{"id":"pt.ine.add.PTCONT.4532892","rua":"ESTR LAGOA DO MADEIRO","casa":"43","coordenadas":[38.91512821180603,-8.870186309691999]},{"id":"pt.ine.add.PTCONT.4546482","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91560087566506,-8.869510932899619]},{"id":"pt.ine.add.PTCONT.4548468","rua":"ESTR LAGOA DO MADEIRO","casa":"46","coordenadas":[38.91722075539541,-8.871176493257197]},{"id":"pt.ine.add.PTCONT.4563234","rua":"ESTR LAGOA DO MADEIRO","casa":"47","coordenadas":[38.91514236655376,-8.870797538760181]},{"id":"pt.ine.add.PTCONT.4563251","rua":"ESTR LAGOA DO MADEIRO","casa":"15","coordenadas":[38.912755912172024,-8.870703656758051]},{"id":"pt.ine.add.PTCONT.4586064","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91487382774441,-8.870529572827152]},{"id":"pt.ine.add.PTCONT.4586065","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91487382774441,-8.870529572827152]},{"id":"pt.ine.add.PTCONT.4615159","rua":"ESTR LAGOA DO MADEIRO","casa":"5","coordenadas":[38.91156283990597,-8.869918846143046]},{"id":"pt.ine.add.PTCONT.4635956","rua":"ESTR LAGOA DO MADEIRO","casa":"57","coordenadas":[38.91646893387821,-8.871837449697122]},{"id":"pt.ine.add.PTCONT.4659221","rua":"ESTR LAGOA DO MADEIRO","casa":"57","coordenadas":[38.91646893387821,-8.871837449697122]},{"id":"pt.ine.add.PTCONT.4660841","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91487382774441,-8.870529572827152]},{"id":"pt.ine.add.PTCONT.4661978","rua":"ESTR LAGOA DO MADEIRO","casa":"","coordenadas":[38.91499253367158,-8.868847445047525]}],"ruas":["ESTR LAGOA DO MADEIRO","ESTR LAGOA DO MADEIRO QTA DAS TILIAS"],"centroide":[38.91449322641826,-8.87003355078412]}
+{
+  "CP": "2135-411",
+  "CP4": "2135",
+  "CP3": "411",
+  "Distrito": "Santarém",
+  "Concelho": "Benavente",
+  "Localidade": "Samora Correia",
+  "Designação Postal": "SAMORA CORREIA",
+  "partes": [
+    {
+      "Artéria": "Estrada Lagoa do Madeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4395768",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "6 B",
+      "coordenadas": [
+        38.9139622310654,
+        -8.867960551972219
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4424544",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "13",
+      "coordenadas": [
+        38.912499873731136,
+        -8.869882416812212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4424552",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.9138841348378,
+        -8.870346385885737
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4426071",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.9138841348378,
+        -8.870346385885737
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4437034",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "4",
+      "coordenadas": [
+        38.91378165276469,
+        -8.868027867603075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4441190",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91499253367158,
+        -8.868847445047525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4447206",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.915761476651575,
+        -8.869754721913278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4453351",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "11",
+      "coordenadas": [
+        38.91219093815419,
+        -8.870305809944966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4459768",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "21",
+      "coordenadas": [
+        38.91361930507118,
+        -8.869490454440905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4474153",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91523920818914,
+        -8.869726262782391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4477231",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "23",
+      "coordenadas": [
+        38.91384927101493,
+        -8.870161550748584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4511532",
+      "rua": "ESTR LAGOA DO MADEIRO QTA DAS TILIAS",
+      "casa": "29",
+      "coordenadas": [
+        38.91429853599798,
+        -8.87033914362406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4521376",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "41",
+      "coordenadas": [
+        38.91530959183158,
+        -8.869992177839515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4523521",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "6A",
+      "coordenadas": [
+        38.91408746014964,
+        -8.868100199716977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532892",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "43",
+      "coordenadas": [
+        38.91512821180603,
+        -8.870186309691999
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546482",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91560087566506,
+        -8.869510932899619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4548468",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "46",
+      "coordenadas": [
+        38.91722075539541,
+        -8.871176493257197
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4563234",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "47",
+      "coordenadas": [
+        38.91514236655376,
+        -8.870797538760181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4563251",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "15",
+      "coordenadas": [
+        38.912755912172024,
+        -8.870703656758051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4586064",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91487382774441,
+        -8.870529572827152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4586065",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91487382774441,
+        -8.870529572827152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4615159",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "5",
+      "coordenadas": [
+        38.91156283990597,
+        -8.869918846143046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4635956",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "57",
+      "coordenadas": [
+        38.91646893387821,
+        -8.871837449697122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4659221",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "57",
+      "coordenadas": [
+        38.91646893387821,
+        -8.871837449697122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4660841",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91487382774441,
+        -8.870529572827152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4661978",
+      "rua": "ESTR LAGOA DO MADEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.91499253367158,
+        -8.868847445047525
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR LAGOA DO MADEIRO",
+    "ESTR LAGOA DO MADEIRO QTA DAS TILIAS"
+  ],
+  "centro": [
+    38.914391797650694,
+    -8.869899000834671
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.912233943055625,
+                -8.870360302113987
+              ],
+              [
+                38.91208480902237,
+                -8.87026220078711
+              ],
+              [
+                38.91198898569419,
+                -8.870146815586407
+              ],
+              [
+                38.91194647307108,
+                -8.870014146511878
+              ],
+              [
+                38.91195727115305,
+                -8.869864193563519
+              ],
+              [
+                38.91202137994009,
+                -8.869696956741333
+              ],
+              [
+                38.91213879943221,
+                -8.86951243604532
+              ],
+              [
+                38.9123095296294,
+                -8.869310631475477
+              ],
+              [
+                38.912533570531664,
+                -8.869091543031807
+              ],
+              [
+                38.912810922139,
+                -8.868855170714312
+              ],
+              [
+                38.91305642633137,
+                -8.868647293129772
+              ],
+              [
+                38.91327008310877,
+                -8.868467910278184
+              ],
+              [
+                38.91345189247121,
+                -8.868317022159554
+              ],
+              [
+                38.913601854418665,
+                -8.868194628773876
+              ],
+              [
+                38.91371996895116,
+                -8.868100730121155
+              ],
+              [
+                38.913806236068694,
+                -8.868035326201387
+              ],
+              [
+                38.91386065577125,
+                -8.867998417014576
+              ],
+              [
+                38.91388322805884,
+                -8.867990002560719
+              ],
+              [
+                38.9139190772887,
+                -8.867996497617895
+              ],
+              [
+                38.91396820346084,
+                -8.868017902186107
+              ],
+              [
+                38.914030606575245,
+                -8.868054216265351
+              ],
+              [
+                38.91410628663192,
+                -8.86810543985563
+              ],
+              [
+                38.91419524363087,
+                -8.86817157295694
+              ],
+              [
+                38.914297477572106,
+                -8.868252615569288
+              ],
+              [
+                38.9144129884556,
+                -8.868348567692667
+              ],
+              [
+                38.914541776281375,
+                -8.868459429327078
+              ],
+              [
+                38.91468928159336,
+                -8.868592824635467
+              ],
+              [
+                38.91485550439156,
+                -8.868748753617828
+              ],
+              [
+                38.915040444675974,
+                -8.868927216274166
+              ],
+              [
+                38.9152441024466,
+                -8.869128212604476
+              ],
+              [
+                38.91546647770344,
+                -8.869351742608764
+              ],
+              [
+                38.91570757044649,
+                -8.869597806287022
+              ],
+              [
+                38.91596738067576,
+                -8.869866403639257
+              ],
+              [
+                38.91624590839123,
+                -8.870157534665466
+              ],
+              [
+                38.91647787293107,
+                -8.870422601757774
+              ],
+              [
+                38.91666327429527,
+                -8.870661604916176
+              ],
+              [
+                38.91680211248382,
+                -8.87087454414068
+              ],
+              [
+                38.91689438749674,
+                -8.871061419431278
+              ],
+              [
+                38.91694009933401,
+                -8.871222230787977
+              ],
+              [
+                38.91693924799564,
+                -8.871356978210772
+              ],
+              [
+                38.916891833481635,
+                -8.871465661699665
+              ],
+              [
+                38.916797855791984,
+                -8.871548281254654
+              ],
+              [
+                38.916657609349386,
+                -8.871602857850599
+              ],
+              [
+                38.91647109415383,
+                -8.871629391487495
+              ],
+              [
+                38.916238310205316,
+                -8.871627882165345
+              ],
+              [
+                38.91595925750386,
+                -8.871598329884149
+              ],
+              [
+                38.91563393604944,
+                -8.871540734643904
+              ],
+              [
+                38.91526234584207,
+                -8.871455096444615
+              ],
+              [
+                38.914844486881755,
+                -8.871341415286278
+              ],
+              [
+                38.914380359168476,
+                -8.871199691168894
+              ],
+              [
+                38.91395560566521,
+                -8.871063419900324
+              ],
+              [
+                38.91357022637193,
+                -8.870932601480565
+              ],
+              [
+                38.913224221288665,
+                -8.870807235909624
+              ],
+              [
+                38.91291759041541,
+                -8.870687323187493
+              ],
+              [
+                38.91265033375215,
+                -8.870572863314178
+              ],
+              [
+                38.91242245129888,
+                -8.870463856289675
+              ],
+              [
+                38.912233943055625,
+                -8.870360302113987
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.91439212269332,
+    -8.869781758639748
+  ],
+  "centroDeMassa": [
+    38.914391797650694,
+    -8.869899000834671
+  ]
+}

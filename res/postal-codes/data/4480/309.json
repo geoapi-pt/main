@@ -1,1 +1,556 @@
-{"CP4":"4480","CP3":"309","Distrito":"Porto","Concelho":"Vila do Conde","CP":"4480-309","Artéria":"Rua Joaquim Cerqueira da Costa","Localidade":"Junqueira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"JUNQUEIRA VCD","locais":[{"id":"pt.ine.add.PTCONT.3550196","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"248","coordenadas":[41.37325521597444,-8.694698103921112]},{"id":"pt.ine.add.PTCONT.3563208","rua":"R JOAQUIM CERQUEIRA COSTA","casa":"331","coordenadas":[41.372409342521664,-8.694595204172158]},{"id":"pt.ine.add.PTCONT.3588520","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"319","coordenadas":[41.372473708883184,-8.69432083625823]},{"id":"pt.ine.add.PTCONT.3588521","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"155","coordenadas":[41.372998773590474,-8.693739642299118]},{"id":"pt.ine.add.PTCONT.3609387","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"187","coordenadas":[41.37319510567716,-8.694099925111063]},{"id":"pt.ine.add.PTCONT.3640474","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"108","coordenadas":[41.37310937801975,-8.693214650235134]},{"id":"pt.ine.add.PTCONT.3679591","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"","coordenadas":[41.37282289065364,-8.69287750404322]},{"id":"pt.ine.add.PTCONT.3796565","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"30","coordenadas":[41.37285245856349,-8.692351817863601]},{"id":"pt.ine.add.PTCONT.3813484","rua":"R JOAQUIM CERQUEIRA DA COSTA ANEXO","casa":"251","coordenadas":[41.373130156789706,-8.694493823504505]},{"id":"pt.ine.add.PTCONT.3827866","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"532","coordenadas":[41.372433494207,-8.695181113592238]},{"id":"pt.ine.add.PTCONT.3827867","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"532","coordenadas":[41.372433494207,-8.695181113592238]},{"id":"pt.ine.add.PTCONT.3827868","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"532","coordenadas":[41.372433494207,-8.695181113592238]},{"id":"pt.ine.add.PTCONT.3847773","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"18","coordenadas":[41.37281760557773,-8.692112456002517]},{"id":"pt.ine.add.PTCONT.3859979","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"211","coordenadas":[41.373265910686,-8.694351551675785]},{"id":"pt.ine.add.PTCONT.3899969","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"135","coordenadas":[41.373008941596275,-8.693500665553032]},{"id":"pt.ine.add.PTCONT.3955135","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"","coordenadas":[41.37263613929387,-8.692397777698826]},{"id":"pt.ine.add.PTCONT.3955305","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"58","coordenadas":[41.37289625655732,-8.692603209805624]},{"id":"pt.ine.add.PTCONT.4047501","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"185","coordenadas":[41.37317773932908,-8.693968290340973]},{"id":"pt.ine.add.PTCONT.4060902","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"65","coordenadas":[41.37276962467071,-8.692721656342545]},{"id":"pt.ine.add.PTCONT.4132608","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"532","coordenadas":[41.372272421379535,-8.694976524952994]},{"id":"pt.ine.add.PTCONT.4165738","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"1680","coordenadas":[41.37129997219254,-8.694980110377012]},{"id":"pt.ine.add.PTCONT.4224380","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"285","coordenadas":[41.37275200484566,-8.69449057233411]},{"id":"pt.ine.add.PTCONT.4275403","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"","coordenadas":[41.3731617120678,-8.693561742841178]},{"id":"pt.ine.add.PTCONT.4290669","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"201","coordenadas":[41.37323059567325,-8.694207809212841]},{"id":"pt.ine.add.PTCONT.4323033","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"103","coordenadas":[41.372902527467055,-8.693165063146418]},{"id":"pt.ine.add.PTCONT.4373300","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"86","coordenadas":[41.37297571961901,-8.692926627000162]},{"id":"pt.ine.add.PTCONT.4380890","rua":"R JOAQUIM CERQUEIRA DA COSTA","casa":"167","coordenadas":[41.373115238251536,-8.69386017448795]}],"ruas":["R JOAQUIM CERQUEIRA DA COSTA","R JOAQUIM CERQUEIRA COSTA","R JOAQUIM CERQUEIRA DA COSTA ANEXO"],"centroide":[41.37279671862502,-8.693842265594956]}
+{
+  "CP": "4480-309",
+  "CP4": "4480",
+  "CP3": "309",
+  "Distrito": "Porto",
+  "Concelho": "Vila do Conde",
+  "Localidade": "Junqueira",
+  "Designação Postal": "JUNQUEIRA VCD",
+  "partes": [
+    {
+      "Artéria": "Rua Joaquim Cerqueira da Costa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3550196",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "248",
+      "coordenadas": [
+        41.37325521597444,
+        -8.694698103921112
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3563208",
+      "rua": "R JOAQUIM CERQUEIRA COSTA",
+      "casa": "331",
+      "coordenadas": [
+        41.372409342521664,
+        -8.694595204172158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3588520",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "319",
+      "coordenadas": [
+        41.372473708883184,
+        -8.69432083625823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3588521",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "155",
+      "coordenadas": [
+        41.372998773590474,
+        -8.693739642299118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3609387",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "187",
+      "coordenadas": [
+        41.37319510567716,
+        -8.694099925111063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3640474",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "108",
+      "coordenadas": [
+        41.37310937801975,
+        -8.693214650235134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3679591",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        41.37282289065364,
+        -8.69287750404322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3796565",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "30",
+      "coordenadas": [
+        41.37285245856349,
+        -8.692351817863601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3813484",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA ANEXO",
+      "casa": "251",
+      "coordenadas": [
+        41.373130156789706,
+        -8.694493823504505
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3827866",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "532",
+      "coordenadas": [
+        41.372433494207,
+        -8.695181113592238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3827867",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "532",
+      "coordenadas": [
+        41.372433494207,
+        -8.695181113592238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3827868",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "532",
+      "coordenadas": [
+        41.372433494207,
+        -8.695181113592238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3847773",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "18",
+      "coordenadas": [
+        41.37281760557773,
+        -8.692112456002517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3859979",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "211",
+      "coordenadas": [
+        41.373265910686,
+        -8.694351551675785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3899969",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "135",
+      "coordenadas": [
+        41.373008941596275,
+        -8.693500665553032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3955135",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        41.37263613929387,
+        -8.692397777698826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3955305",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "58",
+      "coordenadas": [
+        41.37289625655732,
+        -8.692603209805624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4047501",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "185",
+      "coordenadas": [
+        41.37317773932908,
+        -8.693968290340973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4060902",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "65",
+      "coordenadas": [
+        41.37276962467071,
+        -8.692721656342545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4132608",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "532",
+      "coordenadas": [
+        41.372272421379535,
+        -8.694976524952994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4165738",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "1680",
+      "coordenadas": [
+        41.37129997219254,
+        -8.694980110377012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4224380",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "285",
+      "coordenadas": [
+        41.37275200484566,
+        -8.69449057233411
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4275403",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        41.3731617120678,
+        -8.693561742841178
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4290669",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "201",
+      "coordenadas": [
+        41.37323059567325,
+        -8.694207809212841
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4323033",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "103",
+      "coordenadas": [
+        41.372902527467055,
+        -8.693165063146418
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4373300",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "86",
+      "coordenadas": [
+        41.37297571961901,
+        -8.692926627000162
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4380890",
+      "rua": "R JOAQUIM CERQUEIRA DA COSTA",
+      "casa": "167",
+      "coordenadas": [
+        41.373115238251536,
+        -8.69386017448795
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOAQUIM CERQUEIRA DA COSTA",
+    "R JOAQUIM CERQUEIRA COSTA",
+    "R JOAQUIM CERQUEIRA DA COSTA ANEXO"
+  ],
+  "centro": [
+    41.372282941439266,
+    -8.693646784797377
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.37193757832567,
+                -8.695093174685578
+              ],
+              [
+                41.37179588807387,
+                -8.695068049283673
+              ],
+              [
+                41.3716927867145,
+                -8.695005715608911
+              ],
+              [
+                41.371628274247556,
+                -8.694906173661291
+              ],
+              [
+                41.37160235067305,
+                -8.694769423440812
+              ],
+              [
+                41.371615015990976,
+                -8.694595464947474
+              ],
+              [
+                41.37166627020134,
+                -8.694384298181276
+              ],
+              [
+                41.37175611330414,
+                -8.69413592314222
+              ],
+              [
+                41.371884545299366,
+                -8.693850339830306
+              ],
+              [
+                41.37205156618704,
+                -8.693527548245534
+              ],
+              [
+                41.37220054487443,
+                -8.693240647457351
+              ],
+              [
+                41.37233148136154,
+                -8.692989637465763
+              ],
+              [
+                41.37244437564839,
+                -8.692774518270763
+              ],
+              [
+                41.37253922773497,
+                -8.692595289872358
+              ],
+              [
+                41.37261603762127,
+                -8.692451952270542
+              ],
+              [
+                41.3726748053073,
+                -8.692344505465321
+              ],
+              [
+                41.37271553079306,
+                -8.69227294945669
+              ],
+              [
+                41.37273821407854,
+                -8.692237284244651
+              ],
+              [
+                41.372762620897745,
+                -8.692223298969003
+              ],
+              [
+                41.37278875125067,
+                -8.692230993629742
+              ],
+              [
+                41.37281660513732,
+                -8.692260368226872
+              ],
+              [
+                41.37284618255768,
+                -8.692311422760392
+              ],
+              [
+                41.37287748351177,
+                -8.6923841572303
+              ],
+              [
+                41.372910507999585,
+                -8.692478571636599
+              ],
+              [
+                41.37294525602111,
+                -8.692594665979287
+              ],
+              [
+                41.37298172757637,
+                -8.692732440258364
+              ],
+              [
+                41.37301445790671,
+                -8.692858416074527
+              ],
+              [
+                41.37304344701216,
+                -8.692972593427774
+              ],
+              [
+                41.373068694892694,
+                -8.693074972318104
+              ],
+              [
+                41.37309020154832,
+                -8.693165552745521
+              ],
+              [
+                41.37310796697905,
+                -8.693244334710021
+              ],
+              [
+                41.37312199118486,
+                -8.693311318211608
+              ],
+              [
+                41.37313227416577,
+                -8.693366503250278
+              ],
+              [
+                41.37313881592178,
+                -8.693409889826032
+              ],
+              [
+                41.37314616806169,
+                -8.69346019384286
+              ],
+              [
+                41.373154330585514,
+                -8.693517415300759
+              ],
+              [
+                41.37316330349324,
+                -8.693581554199728
+              ],
+              [
+                41.37317308678489,
+                -8.69365261053977
+              ],
+              [
+                41.373183680460436,
+                -8.693730584320882
+              ],
+              [
+                41.37319508451989,
+                -8.693815475543065
+              ],
+              [
+                41.37320729896326,
+                -8.69390728420632
+              ],
+              [
+                41.37322032379054,
+                -8.694006010310643
+              ],
+              [
+                41.37323155340954,
+                -8.69409781053076
+              ],
+              [
+                41.37324098782025,
+                -8.694182684866671
+              ],
+              [
+                41.3732486270227,
+                -8.694260633318375
+              ],
+              [
+                41.373254471016864,
+                -8.694331655885872
+              ],
+              [
+                41.37325851980275,
+                -8.69439575256916
+              ],
+              [
+                41.373260773380366,
+                -8.694452923368242
+              ],
+              [
+                41.373261231749694,
+                -8.694503168283116
+              ],
+              [
+                41.373259894910746,
+                -8.694546487313783
+              ],
+              [
+                41.373245885774054,
+                -8.694591938491726
+              ],
+              [
+                41.373219204339605,
+                -8.69463952181695
+              ],
+              [
+                41.37317985060742,
+                -8.694689237289449
+              ],
+              [
+                41.37312782457749,
+                -8.694741084909227
+              ],
+              [
+                41.373063126249804,
+                -8.694795064676283
+              ],
+              [
+                41.37298575562437,
+                -8.694851176590618
+              ],
+              [
+                41.37289571270119,
+                -8.69490942065223
+              ],
+              [
+                41.37279299748025,
+                -8.69496979686112
+              ],
+              [
+                41.37268541038046,
+                -8.695019485368661
+              ],
+              [
+                41.372572951401814,
+                -8.695058486174855
+              ],
+              [
+                41.37245562054431,
+                -8.695086799279697
+              ],
+              [
+                41.37233341780794,
+                -8.69510442468319
+              ],
+              [
+                41.37220634319271,
+                -8.695111362385335
+              ],
+              [
+                41.37207439669862,
+                -8.695107612386131
+              ],
+              [
+                41.37193757832567,
+                -8.695093174685578
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.372747428502386,
+    -8.693812188292975
+  ],
+  "centroDeMassa": [
+    41.372282941439266,
+    -8.693646784797377
+  ]
+}

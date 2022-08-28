@@ -1,1 +1,370 @@
-{"CP4":"9555","CP3":"031","Distrito":"Ilha de São Miguel","Concelho":"Ponta Delgada","CP":"9555-031","Artéria":"Ramal da Lomba D'Água de Baixo","Localidade":"Candelária","Local":"Lomba D'Água","Troço":"","Porta":"","Cliente":"","Designação Postal":"CANDELÁRIA PDL","locais":[{"id":"pt.ine.add.AC26.24047","rua":"R LOMBA D AGUA","casa":"47","coordenadas":[37.82591647521793,-25.82110338854896]},{"id":"pt.ine.add.AC26.24048","rua":"R LOMBA D AGUA","casa":"41","coordenadas":[37.8257658992098,-25.821367120255264]},{"id":"pt.ine.add.AC26.24049","rua":"R LOMBA D ÁGUA","casa":"37","coordenadas":[37.82559604962657,-25.82150617089951]},{"id":"pt.ine.add.AC26.24050","rua":"R LOMBA D AGUA","casa":"35","coordenadas":[37.82541124602151,-25.821952242986715]},{"id":"pt.ine.add.AC26.24051","rua":"R LOMBA D AGUA","casa":"25","coordenadas":[37.82534108766812,-25.82214651869957]},{"id":"pt.ine.add.AC26.24052","rua":"R LOMBA D AGUA","casa":"21","coordenadas":[37.82528906510789,-25.822351868170767]},{"id":"pt.ine.add.AC26.24860","rua":"R LOMBA D AGUA","casa":"28","coordenadas":[37.82536459866959,-25.82179391138402]},{"id":"pt.ine.add.AC26.24861","rua":"R LOMBA D AGUA","casa":"48","coordenadas":[37.82616892779495,-25.820213097238348]},{"id":"pt.ine.add.AC26.24862","rua":"R LOMBA D AGUA","casa":"58","coordenadas":[37.82595891557041,-25.820841376637198]},{"id":"pt.ine.add.AC26.57977","rua":"R LOMBA D AGUA","casa":"28","coordenadas":[37.82662000450871,-25.822058013039314]},{"id":"pt.ine.add.AC26.60562","rua":"R LOMBA D AGUA","casa":"62","coordenadas":[37.82632919538731,-25.820017382524316]},{"id":"pt.ine.add.AC26.60567","rua":"R LOMBA DAGUA DE BAIXO","casa":"159","coordenadas":[37.82470204410441,-25.823133832210395]},{"id":"pt.ine.add.AC26.64157","rua":"R LOMBA D AGUA","casa":"45","coordenadas":[37.82614473893078,-25.820497544680016]},{"id":"pt.ine.add.AC26.66904","rua":"R LOMBA D AGUA","casa":"13","coordenadas":[37.82521958755418,-25.822614306482837]},{"id":"pt.ine.add.AC26.77086","rua":"R LOMBA DAGUA DE BAIXO","casa":"151","coordenadas":[37.823989739516975,-25.822202085449952]},{"id":"pt.ine.add.AC26.82637","rua":"R LOMBA DAGUA DE BAIXO","casa":"1","coordenadas":[37.82447070248837,-25.823432924605456]},{"id":"pt.ine.add.AC26.82785","rua":"R LOMBA DAGUA DE BAIXO","casa":"5","coordenadas":[37.82439107644053,-25.823581897850556]},{"id":"pt.ine.add.AC26.106844","rua":"R LOMBA D AGUA","casa":"39","coordenadas":[37.82574022972727,-25.821503877742103]},{"id":"pt.ine.add.AC26.107057","rua":"R LOMBA DAGUA DE BAIXO","casa":"159","coordenadas":[37.82470204410441,-25.823133832210395]}],"ruas":["R LOMBA D AGUA","R LOMBA D ÁGUA","R LOMBA DAGUA DE BAIXO"],"centroide":[37.82546775464141,-25.821795419966957]}
+{
+  "CP": "9555-031",
+  "CP4": "9555",
+  "CP3": "031",
+  "Distrito": "Ilha de São Miguel",
+  "Concelho": "Ponta Delgada",
+  "Localidade": "Candelária",
+  "Designação Postal": "CANDELÁRIA PDL",
+  "partes": [
+    {
+      "Artéria": "Rua da Lomba D'Água",
+      "Local": "Lomba D'Água",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Ramal da Lomba D'Água",
+      "Local": "Lomba D'Água",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Ramal da Lomba D'Água de Baixo",
+      "Local": "Lomba D'Água",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.AC26.24047",
+      "rua": "R LOMBA D AGUA",
+      "casa": "47",
+      "coordenadas": [
+        37.82591647521793,
+        -25.82110338854896
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24048",
+      "rua": "R LOMBA D AGUA",
+      "casa": "41",
+      "coordenadas": [
+        37.8257658992098,
+        -25.821367120255264
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24049",
+      "rua": "R LOMBA D ÁGUA",
+      "casa": "37",
+      "coordenadas": [
+        37.82559604962657,
+        -25.82150617089951
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24050",
+      "rua": "R LOMBA D AGUA",
+      "casa": "35",
+      "coordenadas": [
+        37.82541124602151,
+        -25.821952242986715
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24051",
+      "rua": "R LOMBA D AGUA",
+      "casa": "25",
+      "coordenadas": [
+        37.82534108766812,
+        -25.82214651869957
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24052",
+      "rua": "R LOMBA D AGUA",
+      "casa": "21",
+      "coordenadas": [
+        37.82528906510789,
+        -25.822351868170767
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24860",
+      "rua": "R LOMBA D AGUA",
+      "casa": "28",
+      "coordenadas": [
+        37.82536459866959,
+        -25.82179391138402
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24861",
+      "rua": "R LOMBA D AGUA",
+      "casa": "48",
+      "coordenadas": [
+        37.82616892779495,
+        -25.820213097238348
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.24862",
+      "rua": "R LOMBA D AGUA",
+      "casa": "58",
+      "coordenadas": [
+        37.82595891557041,
+        -25.820841376637198
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.57977",
+      "rua": "R LOMBA D AGUA",
+      "casa": "28",
+      "coordenadas": [
+        37.82662000450871,
+        -25.822058013039314
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.60562",
+      "rua": "R LOMBA D AGUA",
+      "casa": "62",
+      "coordenadas": [
+        37.82632919538731,
+        -25.820017382524316
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.60567",
+      "rua": "R LOMBA DAGUA DE BAIXO",
+      "casa": "159",
+      "coordenadas": [
+        37.82470204410441,
+        -25.823133832210395
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.64157",
+      "rua": "R LOMBA D AGUA",
+      "casa": "45",
+      "coordenadas": [
+        37.82614473893078,
+        -25.820497544680016
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.66904",
+      "rua": "R LOMBA D AGUA",
+      "casa": "13",
+      "coordenadas": [
+        37.82521958755418,
+        -25.822614306482837
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.77086",
+      "rua": "R LOMBA DAGUA DE BAIXO",
+      "casa": "151",
+      "coordenadas": [
+        37.823989739516975,
+        -25.822202085449952
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.82637",
+      "rua": "R LOMBA DAGUA DE BAIXO",
+      "casa": "1",
+      "coordenadas": [
+        37.82447070248837,
+        -25.823432924605456
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.82785",
+      "rua": "R LOMBA DAGUA DE BAIXO",
+      "casa": "5",
+      "coordenadas": [
+        37.82439107644053,
+        -25.823581897850556
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.106844",
+      "rua": "R LOMBA D AGUA",
+      "casa": "39",
+      "coordenadas": [
+        37.82574022972727,
+        -25.821503877742103
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.107057",
+      "rua": "R LOMBA DAGUA DE BAIXO",
+      "casa": "159",
+      "coordenadas": [
+        37.82470204410441,
+        -25.823133832210395
+      ]
+    }
+  ],
+  "ruas": [
+    "R LOMBA D AGUA",
+    "R LOMBA D ÁGUA",
+    "R LOMBA DAGUA DE BAIXO"
+  ],
+  "centro": [
+    37.82530487201284,
+    -25.821799640187436
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.82421549153647,
+                -25.82297822992529
+              ],
+              [
+                37.824165324421024,
+                -25.822805753375217
+              ],
+              [
+                37.824157982192986,
+                -25.82262070041069
+              ],
+              [
+                37.82419346485235,
+                -25.822423071031704
+              ],
+              [
+                37.82427177239912,
+                -25.822212865238267
+              ],
+              [
+                37.824392904833296,
+                -25.821990083030375
+              ],
+              [
+                37.82455686215487,
+                -25.82175472440803
+              ],
+              [
+                37.824763644363856,
+                -25.821506789371234
+              ],
+              [
+                37.82501325146024,
+                -25.821246277919986
+              ],
+              [
+                37.825305683444036,
+                -25.820973190054282
+              ],
+              [
+                37.82556610532238,
+                -25.82076612302359
+              ],
+              [
+                37.82579451709526,
+                -25.820625076827906
+              ],
+              [
+                37.8259909187627,
+                -25.82055005146723
+              ],
+              [
+                37.826155310324694,
+                -25.820541046941564
+              ],
+              [
+                37.826287691781225,
+                -25.82059806325091
+              ],
+              [
+                37.8263880631323,
+                -25.820721100395264
+              ],
+              [
+                37.82645642437792,
+                -25.82091015837463
+              ],
+              [
+                37.826492775518105,
+                -25.821165237189003
+              ],
+              [
+                37.82648975576469,
+                -25.821412241851757
+              ],
+              [
+                37.82644736511769,
+                -25.82165117236289
+              ],
+              [
+                37.8263656035771,
+                -25.8218820287224
+              ],
+              [
+                37.82624447114293,
+                -25.822104810930288
+              ],
+              [
+                37.826083967815165,
+                -25.822319518986557
+              ],
+              [
+                37.82588409359382,
+                -25.822526152891207
+              ],
+              [
+                37.82564484847889,
+                -25.82272471264423
+              ],
+              [
+                37.82536623247036,
+                -25.82291519824564
+              ],
+              [
+                37.82511617257347,
+                -25.823060313578107
+              ],
+              [
+                37.824894668788225,
+                -25.82316005864164
+              ],
+              [
+                37.82470172111461,
+                -25.82321443343624
+              ],
+              [
+                37.82453732955261,
+                -25.823223437961907
+              ],
+              [
+                37.82440149410226,
+                -25.823187072218637
+              ],
+              [
+                37.824294214763555,
+                -25.82310533620643
+              ],
+              [
+                37.82421549153647,
+                -25.82297822992529
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.82533250396338,
+    -25.82196484471603
+  ],
+  "centroDeMassa": [
+    37.82530487201284,
+    -25.821799640187436
+  ]
+}

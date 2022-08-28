@@ -1,1 +1,502 @@
-{"CP4":"2690","CP3":"531","Distrito":"Lisboa","Concelho":"Loures","CP":"2690-531","Artéria":"Rua Ruy Luís Gomes","Localidade":"Santa Iria de Azóia","Local":"Bairro dos Forninhos","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTA IRIA DE AZÓIA","locais":[{"id":"pt.ine.add.PTCONT.3052224","rua":"R RUY LUIS GOMES","casa":"14","coordenadas":[38.848267323940064,-9.079625304325061]},{"id":"pt.ine.add.PTCONT.3052225","rua":"R RUY LUIS GOMES","casa":"14","coordenadas":[38.848267323940064,-9.079625304325061]},{"id":"pt.ine.add.PTCONT.3108798","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.8491337884726,-9.08052375503012]},{"id":"pt.ine.add.PTCONT.3155581","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.84908086902659,-9.080384824392434]},{"id":"pt.ine.add.PTCONT.3155582","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.84908086902659,-9.080384824392434]},{"id":"pt.ine.add.PTCONT.3173934","rua":"R RUY LUIS GOMES","casa":"12","coordenadas":[38.84841903856309,-9.079800099112173]},{"id":"pt.ine.add.PTCONT.3311884","rua":"R RUY LUIS GOMES","casa":"7","coordenadas":[38.84825219499229,-9.079630476257032]},{"id":"pt.ine.add.PTCONT.3311885","rua":"R RUY LUIS GOMES","casa":"7","coordenadas":[38.84825219499229,-9.079630476257032]},{"id":"pt.ine.add.PTCONT.3311886","rua":"R RUY LUIS GOMES","casa":"7","coordenadas":[38.84825219499229,-9.079630476257032]},{"id":"pt.ine.add.PTCONT.3340190","rua":"R RUY LUÍS GOMES","casa":"","coordenadas":[38.848546906697585,-9.079582933581902]},{"id":"pt.ine.add.PTCONT.3395721","rua":"R RUY LUIS GOMES","casa":"67","coordenadas":[38.84874902027323,-9.080207638013782]},{"id":"pt.ine.add.PTCONT.3395725","rua":"R RUY LUIS GOMES","casa":"27","coordenadas":[38.847877557525244,-9.078813818830715]},{"id":"pt.ine.add.PTCONT.3395789","rua":"R RUY LUIS GOMES","casa":"27","coordenadas":[38.847877557525244,-9.078813818830715]},{"id":"pt.ine.add.PTCONT.3437050","rua":"R RUY LUIS GOMES","casa":"19","coordenadas":[38.848654147691875,-9.079688025594521]},{"id":"pt.ine.add.PTCONT.3441346","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.84855591345258,-9.079583052937695]},{"id":"pt.ine.add.PTCONT.2302472","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.84847559929933,-9.079489836975423]},{"id":"pt.ine.add.PTCONT.2302473","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.84847559929933,-9.079489836975423]},{"id":"pt.ine.add.PTCONT.2320883","rua":"R RUY LUIS GOMES","casa":"16","coordenadas":[38.848395658324364,-9.079350550391364]},{"id":"pt.ine.add.PTCONT.2403235","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.848996070751646,-9.080844461300465]},{"id":"pt.ine.add.PTCONT.2403236","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.848996070751646,-9.080844461300465]},{"id":"pt.ine.add.PTCONT.2474809","rua":"R RAINHA D LEONOR","casa":"","coordenadas":[38.85357641420823,-9.082518016938053]},{"id":"pt.ine.add.PTCONT.2474810","rua":"R RAINHA D LEONOR","casa":"","coordenadas":[38.85357641420823,-9.082518016938053]},{"id":"pt.ine.add.PTCONT.2494155","rua":"R RUY LUIS GOMES","casa":"24","coordenadas":[38.84831720980004,-9.0790269809808]},{"id":"pt.ine.add.PTCONT.2628834","rua":"R RUY LUIS GOMES","casa":"","coordenadas":[38.84891622487697,-9.080693654418708]},{"id":"pt.ine.add.PTCONT.2672734","rua":"R PAPOILAS","casa":"","coordenadas":[38.854640815158376,-9.083442244841917]},{"id":"pt.ine.add.PTCONT.2825564","rua":"R RUY LUIS GOMES","casa":"23","coordenadas":[38.848351837500985,-9.079200223648193]},{"id":"pt.ine.add.PTCONT.2825565","rua":"R RUY LUIS GOMES","casa":"23","coordenadas":[38.848351837500985,-9.079200223648193]},{"id":"pt.ine.add.PTCONT.2833266","rua":"R RUY LUIS GOMES","casa":"18","coordenadas":[38.84894828952801,-9.080072052072213]}],"ruas":["R RUY LUIS GOMES","R RUY LUÍS GOMES","R RAINHA D LEONOR","R PAPOILAS"],"centroide":[38.84912357973303,-9.080094197647954]}
+{
+  "CP": "2690-531",
+  "CP4": "2690",
+  "CP3": "531",
+  "Distrito": "Lisboa",
+  "Concelho": "Loures",
+  "Localidade": "Santa Iria de Azóia",
+  "Designação Postal": "SANTA IRIA DE AZÓIA",
+  "partes": [
+    {
+      "Artéria": "Rua Ruy Luís Gomes",
+      "Local": "Bairro dos Forninhos",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3052224",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "14",
+      "coordenadas": [
+        38.848267323940064,
+        -9.079625304325061
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3052225",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "14",
+      "coordenadas": [
+        38.848267323940064,
+        -9.079625304325061
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3108798",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.8491337884726,
+        -9.08052375503012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3155581",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.84908086902659,
+        -9.080384824392434
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3155582",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.84908086902659,
+        -9.080384824392434
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3173934",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "12",
+      "coordenadas": [
+        38.84841903856309,
+        -9.079800099112173
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3311884",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "7",
+      "coordenadas": [
+        38.84825219499229,
+        -9.079630476257032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3311885",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "7",
+      "coordenadas": [
+        38.84825219499229,
+        -9.079630476257032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3311886",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "7",
+      "coordenadas": [
+        38.84825219499229,
+        -9.079630476257032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3340190",
+      "rua": "R RUY LUÍS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.848546906697585,
+        -9.079582933581902
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3395721",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "67",
+      "coordenadas": [
+        38.84874902027323,
+        -9.080207638013782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3395725",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "27",
+      "coordenadas": [
+        38.847877557525244,
+        -9.078813818830715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3395789",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "27",
+      "coordenadas": [
+        38.847877557525244,
+        -9.078813818830715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3437050",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "19",
+      "coordenadas": [
+        38.848654147691875,
+        -9.079688025594521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3441346",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.84855591345258,
+        -9.079583052937695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2302472",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.84847559929933,
+        -9.079489836975423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2302473",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.84847559929933,
+        -9.079489836975423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2320883",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "16",
+      "coordenadas": [
+        38.848395658324364,
+        -9.079350550391364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2403235",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.848996070751646,
+        -9.080844461300465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2403236",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.848996070751646,
+        -9.080844461300465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2474809",
+      "rua": "R RAINHA D LEONOR",
+      "casa": "",
+      "coordenadas": [
+        38.85357641420823,
+        -9.082518016938053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2474810",
+      "rua": "R RAINHA D LEONOR",
+      "casa": "",
+      "coordenadas": [
+        38.85357641420823,
+        -9.082518016938053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2494155",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "24",
+      "coordenadas": [
+        38.84831720980004,
+        -9.0790269809808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2628834",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "",
+      "coordenadas": [
+        38.84891622487697,
+        -9.080693654418708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2672734",
+      "rua": "R PAPOILAS",
+      "casa": "",
+      "coordenadas": [
+        38.854640815158376,
+        -9.083442244841917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2825564",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "23",
+      "coordenadas": [
+        38.848351837500985,
+        -9.079200223648193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2825565",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "23",
+      "coordenadas": [
+        38.848351837500985,
+        -9.079200223648193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2833266",
+      "rua": "R RUY LUIS GOMES",
+      "casa": "18",
+      "coordenadas": [
+        38.84894828952801,
+        -9.080072052072213
+      ]
+    }
+  ],
+  "ruas": [
+    "R RUY LUIS GOMES",
+    "R RUY LUÍS GOMES",
+    "R RAINHA D LEONOR",
+    "R PAPOILAS"
+  ],
+  "centro": [
+    38.85125918634181,
+    -9.081128031836316
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.84808829110045,
+                -9.07927318863302
+              ],
+              [
+                38.84804146141708,
+                -9.079171106454728
+              ],
+              [
+                38.848007355010914,
+                -9.07908511520732
+              ],
+              [
+                38.84798597188197,
+                -9.079015214890793
+              ],
+              [
+                38.84797731203024,
+                -9.078961405505147
+              ],
+              [
+                38.84798137545572,
+                -9.078923687050382
+              ],
+              [
+                38.84799816215842,
+                -9.078902059526499
+              ],
+              [
+                38.84802767213833,
+                -9.078896522933498
+              ],
+              [
+                38.84806990539546,
+                -9.078907077271378
+              ],
+              [
+                38.84812486192982,
+                -9.078933722540139
+              ],
+              [
+                38.84825512396625,
+                -9.079011584587136
+              ],
+              [
+                38.84846069150476,
+                -9.079140663412371
+              ],
+              [
+                38.848741564545364,
+                -9.079320959015842
+              ],
+              [
+                38.84909774308805,
+                -9.07955247139755
+              ],
+              [
+                38.84952922713282,
+                -9.079835200557495
+              ],
+              [
+                38.85003601667968,
+                -9.08016914649568
+              ],
+              [
+                38.85061811172862,
+                -9.080554309212099
+              ],
+              [
+                38.85127551227964,
+                -9.080990688706754
+              ],
+              [
+                38.851867369026635,
+                -9.081386961825576
+              ],
+              [
+                38.8523936819696,
+                -9.081743128568565
+              ],
+              [
+                38.85285445110853,
+                -9.08205918893572
+              ],
+              [
+                38.85324967644342,
+                -9.08233514292704
+              ],
+              [
+                38.85357935797428,
+                -9.082570990542525
+              ],
+              [
+                38.85384349570112,
+                -9.082766731782176
+              ],
+              [
+                38.85404208962392,
+                -9.082922366645994
+              ],
+              [
+                38.854175139742686,
+                -9.083037895133977
+              ],
+              [
+                38.85420335946525,
+                -9.083098392193126
+              ],
+              [
+                38.854126748791614,
+                -9.083103857823444
+              ],
+              [
+                38.85394530772178,
+                -9.083054292024928
+              ],
+              [
+                38.85365903625574,
+                -9.082949694797577
+              ],
+              [
+                38.8532679343935,
+                -9.082790066141396
+              ],
+              [
+                38.85277200213507,
+                -9.08257540605638
+              ],
+              [
+                38.85217123948043,
+                -9.082305714542532
+              ],
+              [
+                38.85146564642959,
+                -9.08198099159985
+              ],
+              [
+                38.850836629451365,
+                -9.0816778905087
+              ],
+              [
+                38.85028418854576,
+                -9.081396411269083
+              ],
+              [
+                38.849808323712764,
+                -9.081136553880995
+              ],
+              [
+                38.84940903495237,
+                -9.08089831834444
+              ],
+              [
+                38.84908632226461,
+                -9.080681704659415
+              ],
+              [
+                38.848840185649465,
+                -9.080486712825923
+              ],
+              [
+                38.848670625106934,
+                -9.080313342843963
+              ],
+              [
+                38.848577640637004,
+                -9.080161594713534
+              ],
+              [
+                38.84849042551541,
+                -9.080016054827123
+              ],
+              [
+                38.84840897974212,
+                -9.079876723184729
+              ],
+              [
+                38.848333303317155,
+                -9.079743599786351
+              ],
+              [
+                38.848263396240505,
+                -9.079616684631993
+              ],
+              [
+                38.84819925851217,
+                -9.07949597772165
+              ],
+              [
+                38.84814089013216,
+                -9.079381479055325
+              ],
+              [
+                38.84808829110045,
+                -9.07927318863302
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.85027671040597,
+    -9.08071266652483
+  ],
+  "centroDeMassa": [
+    38.85125918634181,
+    -9.081128031836316
+  ]
+}

@@ -1,1 +1,531 @@
-{"CP4":"3060","CP3":"333","Distrito":"Coimbra","Concelho":"Cantanhede","CP":"3060-333","Artéria":"Rua Manuel Oliveira Pinhal","Localidade":"Fontinha","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FEBRES","locais":[{"id":"pt.ine.add.PTCONT.1108155","rua":"R MANUEL OLIVEIRA PINHAL","casa":"12","coordenadas":[40.38878065343299,-8.632367717549984]},{"id":"pt.ine.add.PTCONT.1112352","rua":"R MANUEL OLIVEIRA PINHAL","casa":"35","coordenadas":[40.38642412202429,-8.633775337346925]},{"id":"pt.ine.add.PTCONT.1126168","rua":"R MANUEL OLIVEIRA PINHAL","casa":"9","coordenadas":[40.38903412204777,-8.632063374748094]},{"id":"pt.ine.add.PTCONT.1131093","rua":"R MANUEL OLIVEIRA PINHAL","casa":"22","coordenadas":[40.38800472688098,-8.632703529712616]},{"id":"pt.ine.add.PTCONT.1133220","rua":"R MANUEL OLIVEIRA PINHAL","casa":"19","coordenadas":[40.3879886998046,-8.632244096626819]},{"id":"pt.ine.add.PTCONT.1133221","rua":"R MANUEL OLIVEIRA PINHAL","casa":"19","coordenadas":[40.3879886998046,-8.632244096626819]},{"id":"pt.ine.add.PTCONT.1139794","rua":"R MANUEL OLIVEIRA PINHAL","casa":"31","coordenadas":[40.38655065438778,-8.633670280830076]},{"id":"pt.ine.add.PTCONT.1147218","rua":"R MANUEL OLIVEIRA PINHAL","casa":"19","coordenadas":[40.389550163638994,-8.631431194286444]},{"id":"pt.ine.add.PTCONT.1169348","rua":"R MANUEL OLIVEIRA PINHAL","casa":"23","coordenadas":[40.38939641451136,-8.631583169133338]},{"id":"pt.ine.add.PTCONT.1177385","rua":"R MANUEL OLIVEIRA PINHAL","casa":"5","coordenadas":[40.389268614222516,-8.631982662632003]},{"id":"pt.ine.add.PTCONT.1185431","rua":"R MANUEL OLIVEIRA PINHAL","casa":"30","coordenadas":[40.38754439035486,-8.632947449931986]},{"id":"pt.ine.add.PTCONT.1185433","rua":"R MANUEL OLIVEIRA PINHAL","casa":"27","coordenadas":[40.38696693410141,-8.633202277758286]},{"id":"pt.ine.add.PTCONT.1196913","rua":"R MANUEL OLIVEIRA PINHAL","casa":"16","coordenadas":[40.388609350290274,-8.63241356222448]},{"id":"pt.ine.add.PTCONT.1205946","rua":"R MANUEL OLIVEIRA PINHAL","casa":"50","coordenadas":[40.38632174751801,-8.634540084841086]},{"id":"pt.ine.add.PTCONT.1238093","rua":"R MANUEL OLIVEIRA PINHAL","casa":"3","coordenadas":[40.38951297501721,-8.63170180417118]},{"id":"pt.ine.add.PTCONT.1254438","rua":"R MANUEL OLIVEIRA PINHAL","casa":"15","coordenadas":[40.38840294133867,-8.632247154712697]},{"id":"pt.ine.add.PTCONT.1266816","rua":"R MANUEL OLIVEIRA PINHAL","casa":"23","coordenadas":[40.38750114503203,-8.632534927748656]},{"id":"pt.ine.add.PTCONT.1280172","rua":"R MANUEL OLIVEIRA PINHAL","casa":"","coordenadas":[40.38912310713319,-8.632311358880706]},{"id":"pt.ine.add.PTCONT.1301886","rua":"R MANUEL OLIVEIRA PINHAL","casa":"17","coordenadas":[40.38820467331862,-8.632281023026088]},{"id":"pt.ine.add.PTCONT.1309110","rua":"R MANUEL OLIVEIRA PINHAL","casa":"8","coordenadas":[40.3890061405729,-8.63228694029769]},{"id":"pt.ine.add.PTCONT.1311199","rua":"R MANUEL OLIVEIRA PINHAL","casa":"38","coordenadas":[40.387181786490835,-8.633498295812473]},{"id":"pt.ine.add.PTCONT.1317280","rua":"R MANUEL OLIVEIRA PINHAL","casa":"36","coordenadas":[40.387299007624364,-8.633463831790323]},{"id":"pt.ine.add.PTCONT.1319101","rua":"R MANUEL OLIVEIRA PINHAL","casa":"SL","coordenadas":[40.38734525650477,-8.633181521560157]},{"id":"pt.ine.add.PTCONT.1327351","rua":"R MANUEL OLIVEIRA PINHAL","casa":"20","coordenadas":[40.38815857921195,-8.632528006618777]},{"id":"pt.ine.add.PTCONT.1341832","rua":"R MANUEL OLIVEIRA PINHAL","casa":"10","coordenadas":[40.3889067777735,-8.632356871438116]},{"id":"pt.ine.add.PTCONT.1344604","rua":"R MANUEL OLIVEIRA PINHAL","casa":"13","coordenadas":[40.38858370709406,-8.632095382977688]},{"id":"pt.ine.add.PTCONT.1344605","rua":"R MANUEL OLIVEIRA PINHAL","casa":"39","coordenadas":[40.38605378469373,-8.634031688350364]},{"id":"pt.ine.add.PTCONT.1355791","rua":"R MANUEL OLIVEIRA PINHAL","casa":"32","coordenadas":[40.38746298673502,-8.633029288600918]}],"ruas":["R MANUEL OLIVEIRA PINHAL"],"centroide":[40.388063302771336,-8.632655097838292]}
+{
+  "CP": "3060-333",
+  "CP4": "3060",
+  "CP3": "333",
+  "Distrito": "Coimbra",
+  "Concelho": "Cantanhede",
+  "Localidade": "Fontinha",
+  "Designação Postal": "FEBRES",
+  "partes": [
+    {
+      "Artéria": "Rua Manuel Oliveira Pinhal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1108155",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "12",
+      "coordenadas": [
+        40.38878065343299,
+        -8.632367717549984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1112352",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "35",
+      "coordenadas": [
+        40.38642412202429,
+        -8.633775337346925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1126168",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "9",
+      "coordenadas": [
+        40.38903412204777,
+        -8.632063374748094
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1131093",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "22",
+      "coordenadas": [
+        40.38800472688098,
+        -8.632703529712616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1133220",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "19",
+      "coordenadas": [
+        40.3879886998046,
+        -8.632244096626819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1133221",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "19",
+      "coordenadas": [
+        40.3879886998046,
+        -8.632244096626819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1139794",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "31",
+      "coordenadas": [
+        40.38655065438778,
+        -8.633670280830076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147218",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "19",
+      "coordenadas": [
+        40.389550163638994,
+        -8.631431194286444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1169348",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "23",
+      "coordenadas": [
+        40.38939641451136,
+        -8.631583169133338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1177385",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "5",
+      "coordenadas": [
+        40.389268614222516,
+        -8.631982662632003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185431",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "30",
+      "coordenadas": [
+        40.38754439035486,
+        -8.632947449931986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185433",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "27",
+      "coordenadas": [
+        40.38696693410141,
+        -8.633202277758286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1196913",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "16",
+      "coordenadas": [
+        40.388609350290274,
+        -8.63241356222448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1205946",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "50",
+      "coordenadas": [
+        40.38632174751801,
+        -8.634540084841086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1238093",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "3",
+      "coordenadas": [
+        40.38951297501721,
+        -8.63170180417118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1254438",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "15",
+      "coordenadas": [
+        40.38840294133867,
+        -8.632247154712697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1266816",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "23",
+      "coordenadas": [
+        40.38750114503203,
+        -8.632534927748656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1280172",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "",
+      "coordenadas": [
+        40.38912310713319,
+        -8.632311358880706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1301886",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "17",
+      "coordenadas": [
+        40.38820467331862,
+        -8.632281023026088
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1309110",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "8",
+      "coordenadas": [
+        40.3890061405729,
+        -8.63228694029769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1311199",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "38",
+      "coordenadas": [
+        40.387181786490835,
+        -8.633498295812473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1317280",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "36",
+      "coordenadas": [
+        40.387299007624364,
+        -8.633463831790323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1319101",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "SL",
+      "coordenadas": [
+        40.38734525650477,
+        -8.633181521560157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1327351",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "20",
+      "coordenadas": [
+        40.38815857921195,
+        -8.632528006618777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1341832",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "10",
+      "coordenadas": [
+        40.3889067777735,
+        -8.632356871438116
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1344604",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "13",
+      "coordenadas": [
+        40.38858370709406,
+        -8.632095382977688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1344605",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "39",
+      "coordenadas": [
+        40.38605378469373,
+        -8.634031688350364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1355791",
+      "rua": "R MANUEL OLIVEIRA PINHAL",
+      "casa": "32",
+      "coordenadas": [
+        40.38746298673502,
+        -8.633029288600918
+      ]
+    }
+  ],
+  "ruas": [
+    "R MANUEL OLIVEIRA PINHAL"
+  ],
+  "centro": [
+    40.387801974166365,
+    -8.632985639563765
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.38620451378239,
+                -8.634317661376397
+              ],
+              [
+                40.38617101842935,
+                -8.634254111815054
+              ],
+              [
+                40.386164325000735,
+                -8.63417511906448
+              ],
+              [
+                40.38618443349654,
+                -8.634080683124672
+              ],
+              [
+                40.38623134391675,
+                -8.63397080399563
+              ],
+              [
+                40.386305056261364,
+                -8.633845481677351
+              ],
+              [
+                40.38640557053041,
+                -8.633704716169841
+              ],
+              [
+                40.38653288672386,
+                -8.633548507473096
+              ],
+              [
+                40.38668700484173,
+                -8.633376855587116
+              ],
+              [
+                40.38686792488403,
+                -8.633189760511904
+              ],
+              [
+                40.38703384796435,
+                -8.633021508084813
+              ],
+              [
+                40.38718477408271,
+                -8.632872098305844
+              ],
+              [
+                40.3873207032391,
+                -8.632741531175
+              ],
+              [
+                40.38744163543353,
+                -8.632629806692279
+              ],
+              [
+                40.387547570665994,
+                -8.63253692485768
+              ],
+              [
+                40.3876385089365,
+                -8.632462885671204
+              ],
+              [
+                40.387714450245035,
+                -8.632407689132851
+              ],
+              [
+                40.38777539459161,
+                -8.632371335242624
+              ],
+              [
+                40.38785311876727,
+                -8.632326823989604
+              ],
+              [
+                40.387947622772025,
+                -8.632274155373793
+              ],
+              [
+                40.38805890660587,
+                -8.632213329395196
+              ],
+              [
+                40.3881869702688,
+                -8.632144346053806
+              ],
+              [
+                40.38833181376083,
+                -8.63206720534963
+              ],
+              [
+                40.38849343708194,
+                -8.631981907282661
+              ],
+              [
+                40.38867184023215,
+                -8.631888451852905
+              ],
+              [
+                40.388867023211446,
+                -8.631786839060357
+              ],
+              [
+                40.38903722724612,
+                -8.631702156146329
+              ],
+              [
+                40.38918245233616,
+                -8.631634403110818
+              ],
+              [
+                40.38930269848157,
+                -8.631583579953823
+              ],
+              [
+                40.38939796568236,
+                -8.631549686675344
+              ],
+              [
+                40.38946825393852,
+                -8.631532723275384
+              ],
+              [
+                40.38951356325005,
+                -8.631532689753941
+              ],
+              [
+                40.38953389361696,
+                -8.631549586111017
+              ],
+              [
+                40.38952924503924,
+                -8.631583412346608
+              ],
+              [
+                40.38951908584804,
+                -8.631622534595088
+              ],
+              [
+                40.389503416043375,
+                -8.631666952856454
+              ],
+              [
+                40.38948223562524,
+                -8.631716667130709
+              ],
+              [
+                40.38945554459362,
+                -8.63177167741785
+              ],
+              [
+                40.38942334294854,
+                -8.631831983717879
+              ],
+              [
+                40.389385630689986,
+                -8.631897586030796
+              ],
+              [
+                40.389342407817956,
+                -8.631968484356598
+              ],
+              [
+                40.38929367433244,
+                -8.632044678695289
+              ],
+              [
+                40.38920726128864,
+                -8.632146172584774
+              ],
+              [
+                40.38908316868655,
+                -8.632272966025052
+              ],
+              [
+                40.38892139652614,
+                -8.632425059016128
+              ],
+              [
+                40.38872194480744,
+                -8.632602451557997
+              ],
+              [
+                40.38848481353045,
+                -8.63280514365066
+              ],
+              [
+                40.38821000269514,
+                -8.63303313529412
+              ],
+              [
+                40.38789751230154,
+                -8.633286426488372
+              ],
+              [
+                40.387547342349656,
+                -8.63356501723342
+              ],
+              [
+                40.387236756722615,
+                -8.63380084044017
+              ],
+              [
+                40.38696575542043,
+                -8.63399389610862
+              ],
+              [
+                40.386734338443105,
+                -8.634144184238773
+              ],
+              [
+                40.386542505790636,
+                -8.634251704830625
+              ],
+              [
+                40.38639025746303,
+                -8.63431645788418
+              ],
+              [
+                40.38627759346028,
+                -8.634338443399438
+              ],
+              [
+                40.38620451378239,
+                -8.634317661376397
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.38800737469111,
+    -8.632685022129321
+  ],
+  "centroDeMassa": [
+    40.387801974166365,
+    -8.632985639563765
+  ]
+}

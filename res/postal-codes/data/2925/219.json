@@ -1,1 +1,459 @@
-{"CP4":"2925","CP3":"219","Distrito":"Setúbal","Concelho":"Setúbal","CP":"2925-219","Artéria":"Rua Rafael Bordalo Pinheiro","Localidade":"Azeitão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AZEITÃO","locais":[{"id":"pt.ine.add.PTCONT.4709358","rua":"R RAFAEL BORDALO PINHEIRO","casa":"33A","coordenadas":[38.539372075259074,-9.017871501090491]},{"id":"pt.ine.add.PTCONT.4742463","rua":"R RAFAEL BORDALO PINHEIRO","casa":"33C","coordenadas":[38.5393169908275,-9.018008460383797]},{"id":"pt.ine.add.PTCONT.4742464","rua":"R RAFAEL BORDALO PINHEIRO","casa":"47C","coordenadas":[38.5393054691885,-9.018340934965343]},{"id":"pt.ine.add.PTCONT.4774415","rua":"R RAFAEL BORDALO PINHEIRO","casa":"47E","coordenadas":[38.53943997295726,-9.018422870350392]},{"id":"pt.ine.add.PTCONT.4774421","rua":"R RAFAEL BORDALO PINHEIRO","casa":"49","coordenadas":[38.539071450550686,-9.018315127573544]},{"id":"pt.ine.add.PTCONT.4817429","rua":"R RAFAEL BORDALO PINHEIRO","casa":"8","coordenadas":[38.54027644557025,-9.018593699840324]},{"id":"pt.ine.add.PTCONT.4838852","rua":"R RAFAEL BORDALO PINHEIRO","casa":"30","coordenadas":[38.53944318093523,-9.017998537043093]},{"id":"pt.ine.add.PTCONT.4841371","rua":"R RAFAEL BORDALO PINHEIRO","casa":"37","coordenadas":[38.53954970913221,-9.01820629416608]},{"id":"pt.ine.add.PTCONT.4847534","rua":"R RAFAEL BORDALO PINHEIRO","casa":"34","coordenadas":[38.53918170664544,-9.01802974175451]},{"id":"pt.ine.add.PTCONT.4891263","rua":"R RAFAEL BORDALO PINHEIRO","casa":"47DI","coordenadas":[38.539350332690944,-9.01836442390843]},{"id":"pt.ine.add.PTCONT.4912264","rua":"R RAFAEL BORDALO PINHEIRO","casa":"47F","coordenadas":[38.539395109468025,-9.018399381340984]},{"id":"pt.ine.add.PTCONT.4947925","rua":"R RAFAEL BORDALO PINHEIRO","casa":"30C","coordenadas":[38.53956209703922,-9.017759133551365]},{"id":"pt.ine.add.PTCONT.4973684","rua":"R RAFAEL BORDALO PINHEIRO","casa":"30D","coordenadas":[38.53950727274471,-9.017861687852895]},{"id":"pt.ine.add.PTCONT.4973687","rua":"R RAFAEL BORDALO PINHEIRO","casa":"47G","coordenadas":[38.53926060568069,-9.018317446051887]},{"id":"pt.ine.add.PTCONT.5025000","rua":"R RAFAEL BORDALO PINHEIRO","casa":"","coordenadas":[38.538371301723686,-9.017985403933718]},{"id":"pt.ine.add.PTCONT.5025001","rua":"R RAFAEL BORDALO PINHEIRO","casa":"","coordenadas":[38.538371301723686,-9.017985403933718]},{"id":"pt.ine.add.PTCONT.5028860","rua":"R RAFAEL BORDALO PINHEIRO","casa":"47B","coordenadas":[38.539269092773964,-9.018386367096037]},{"id":"pt.ine.add.PTCONT.5043197","rua":"R RAFAEL BORDALO PINHEIRO","casa":"33B","coordenadas":[38.53932660496224,-9.017928291598276]},{"id":"pt.ine.add.PTCONT.5046863","rua":"R RAFAEL BORDALO PINHEIRO","casa":"30A","coordenadas":[38.539463275739905,-9.0177235144425]},{"id":"pt.ine.add.PTCONT.5090323","rua":"R RAFAEL BORDALO PINHEIRO","casa":"30B","coordenadas":[38.539508139369,-9.017747003057648]}],"ruas":["R RAFAEL BORDALO PINHEIRO"],"centroide":[38.539307052400694,-9.018131485309336]}
+{
+  "CP": "2925-219",
+  "CP4": "2925",
+  "CP3": "219",
+  "Distrito": "Setúbal",
+  "Concelho": "Setúbal",
+  "Localidade": "Azeitão",
+  "Designação Postal": "AZEITÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Rafael Bordalo Pinheiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4709358",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "33A",
+      "coordenadas": [
+        38.539372075259074,
+        -9.017871501090491
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4742463",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "33C",
+      "coordenadas": [
+        38.5393169908275,
+        -9.018008460383797
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4742464",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "47C",
+      "coordenadas": [
+        38.5393054691885,
+        -9.018340934965343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4774415",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "47E",
+      "coordenadas": [
+        38.53943997295726,
+        -9.018422870350392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4774421",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "49",
+      "coordenadas": [
+        38.539071450550686,
+        -9.018315127573544
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4817429",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "8",
+      "coordenadas": [
+        38.54027644557025,
+        -9.018593699840324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4838852",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "30",
+      "coordenadas": [
+        38.53944318093523,
+        -9.017998537043093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4841371",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "37",
+      "coordenadas": [
+        38.53954970913221,
+        -9.01820629416608
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4847534",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "34",
+      "coordenadas": [
+        38.53918170664544,
+        -9.01802974175451
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4891263",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "47DI",
+      "coordenadas": [
+        38.539350332690944,
+        -9.01836442390843
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4912264",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "47F",
+      "coordenadas": [
+        38.539395109468025,
+        -9.018399381340984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4947925",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "30C",
+      "coordenadas": [
+        38.53956209703922,
+        -9.017759133551365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4973684",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "30D",
+      "coordenadas": [
+        38.53950727274471,
+        -9.017861687852895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4973687",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "47G",
+      "coordenadas": [
+        38.53926060568069,
+        -9.018317446051887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5025000",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.538371301723686,
+        -9.017985403933718
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5025001",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.538371301723686,
+        -9.017985403933718
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5028860",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "47B",
+      "coordenadas": [
+        38.539269092773964,
+        -9.018386367096037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5043197",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "33B",
+      "coordenadas": [
+        38.53932660496224,
+        -9.017928291598276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5046863",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "30A",
+      "coordenadas": [
+        38.539463275739905,
+        -9.0177235144425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5090323",
+      "rua": "R RAFAEL BORDALO PINHEIRO",
+      "casa": "30B",
+      "coordenadas": [
+        38.539508139369,
+        -9.017747003057648
+      ]
+    }
+  ],
+  "ruas": [
+    "R RAFAEL BORDALO PINHEIRO"
+  ],
+  "centro": [
+    38.539323873646964,
+    -9.018158607141412
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.53876513543888,
+                -9.018170873481122
+              ],
+              [
+                38.5386776168355,
+                -9.01812965802614
+              ],
+              [
+                38.53861810015155,
+                -9.018089502479734
+              ],
+              [
+                38.53858658538702,
+                -9.018050406841901
+              ],
+              [
+                38.538583072541925,
+                -9.018012371112638
+              ],
+              [
+                38.53860756161625,
+                -9.017975395291948
+              ],
+              [
+                38.538660052610005,
+                -9.01793947937983
+              ],
+              [
+                38.538740545523176,
+                -9.017904623376284
+              ],
+              [
+                38.53884904035578,
+                -9.01787082728131
+              ],
+              [
+                38.53898553710781,
+                -9.017838091094907
+              ],
+              [
+                38.53910651584864,
+                -9.017810003480381
+              ],
+              [
+                38.53921197657826,
+                -9.017786564437731
+              ],
+              [
+                38.53930191929668,
+                -9.017767773966959
+              ],
+              [
+                38.539376344003905,
+                -9.017753632068061
+              ],
+              [
+                38.539435250699924,
+                -9.01774413874104
+              ],
+              [
+                38.53947863938474,
+                -9.017739293985898
+              ],
+              [
+                38.53950651005836,
+                -9.017739097802629
+              ],
+              [
+                38.53951886272077,
+                -9.017743550191238
+              ],
+              [
+                38.53954083299618,
+                -9.017760486129536
+              ],
+              [
+                38.53957242088458,
+                -9.01778990561752
+              ],
+              [
+                38.539613626385986,
+                -9.017831808655195
+              ],
+              [
+                38.539664449500386,
+                -9.017886195242559
+              ],
+              [
+                38.539724890227774,
+                -9.017953065379611
+              ],
+              [
+                38.539794948568165,
+                -9.018032419066355
+              ],
+              [
+                38.539874624521545,
+                -9.018124256302785
+              ],
+              [
+                38.53996391808793,
+                -9.018228577088903
+              ],
+              [
+                38.54002898007393,
+                -9.018317188565979
+              ],
+              [
+                38.54006981047955,
+                -9.018390090734009
+              ],
+              [
+                38.540086409304806,
+                -9.018447283592993
+              ],
+              [
+                38.54007877654969,
+                -9.018488767142932
+              ],
+              [
+                38.540046912214194,
+                -9.018514541383826
+              ],
+              [
+                38.539990816298314,
+                -9.018524606315674
+              ],
+              [
+                38.539910488802064,
+                -9.018518961938478
+              ],
+              [
+                38.539805929725446,
+                -9.018497608252238
+              ],
+              [
+                38.53971177053053,
+                -9.018478353413427
+              ],
+              [
+                38.53962801121734,
+                -9.018461197422047
+              ],
+              [
+                38.539554651785856,
+                -9.018446140278098
+              ],
+              [
+                38.53949169223608,
+                -9.01843318198158
+              ],
+              [
+                38.539439132568035,
+                -9.018422322532492
+              ],
+              [
+                38.53939697278169,
+                -9.018413561930837
+              ],
+              [
+                38.539365212877065,
+                -9.018406900176611
+              ],
+              [
+                38.53934385285416,
+                -9.018402337269816
+              ],
+              [
+                38.539322074674374,
+                -9.018397231608834
+              ],
+              [
+                38.53929987833771,
+                -9.01839158319366
+              ],
+              [
+                38.53927726384417,
+                -9.018385392024296
+              ],
+              [
+                38.539254231193766,
+                -9.018378658100744
+              ],
+              [
+                38.539230780386475,
+                -9.018371381423
+              ],
+              [
+                38.53920691142232,
+                -9.018363561991068
+              ],
+              [
+                38.53918262430128,
+                -9.018355199804946
+              ],
+              [
+                38.53915791902337,
+                -9.018346294864633
+              ],
+              [
+                38.53912536207977,
+                -9.018333351109987
+              ],
+              [
+                38.5390849534705,
+                -9.018316368541011
+              ],
+              [
+                38.53903669319554,
+                -9.0182953471577
+              ],
+              [
+                38.538980581254904,
+                -9.018270286960057
+              ],
+              [
+                38.538916617648574,
+                -9.018241187948078
+              ],
+              [
+                38.538844802376566,
+                -9.018208050121766
+              ],
+              [
+                38.53876513543888,
+                -9.018170873481122
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.539350519479285,
+    -9.018169445255412
+  ],
+  "centroDeMassa": [
+    38.539323873646964,
+    -9.018158607141412
+  ]
+}

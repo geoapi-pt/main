@@ -1,1 +1,427 @@
-{"CP4":"3880","CP3":"303","Distrito":"Aveiro","Concelho":"Ovar","CP":"3880-303","Artéria":"Rua Família Silva Pereira","Localidade":"Ovar","Local":"Torrão do Lameiro","Troço":"","Porta":"","Cliente":"","Designação Postal":"OVAR","locais":[{"id":"pt.ine.add.PTCONT.309751","rua":"R FAMILIA SILVA PEREIRA","casa":"496","coordenadas":[40.84685739625954,-8.666312496157015]},{"id":"pt.ine.add.PTCONT.328678","rua":"R FAMILIA SILVA PEREIRA","casa":"20","coordenadas":[40.844692734600635,-8.665121227214035]},{"id":"pt.ine.add.PTCONT.339324","rua":"R FAMILIA SILVA PEREIRA","casa":"11","coordenadas":[40.845525773413954,-8.666076522496432]},{"id":"pt.ine.add.PTCONT.351099","rua":"R FAMILIA SILVA PEREIRA","casa":"223","coordenadas":[40.84460934167901,-8.665630443737463]},{"id":"pt.ine.add.PTCONT.9884","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.84656347978195,-8.66561051227769]},{"id":"pt.ine.add.PTCONT.15106","rua":"R FAMILIA SILVA PEREIRA","casa":"3","coordenadas":[40.84423001782052,-8.663919900604352]},{"id":"pt.ine.add.PTCONT.63431","rua":"R FAMILIA SILVA PEREIRA","casa":"4","coordenadas":[40.844185213585206,-8.663872112407741]},{"id":"pt.ine.add.PTCONT.65095","rua":"R FAMILIA SILVA PEREIRA","casa":"5","coordenadas":[40.84494954097052,-8.666060048230717]},{"id":"pt.ine.add.PTCONT.127630","rua":"R FAMILIA SILVA PEREIRA","casa":"588","coordenadas":[40.84722219151128,-8.66726407772471]},{"id":"pt.ine.add.PTCONT.129084","rua":"R FAMILIA SILVA PEREIRA","casa":"2","coordenadas":[40.844274767470175,-8.663979546124558]},{"id":"pt.ine.add.PTCONT.164956","rua":"R FAMILIA SILVA PEREIRA","casa":"14","coordenadas":[40.84431831621225,-8.664300051590326]},{"id":"pt.ine.add.PTCONT.167506","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.84395295090389,-8.663467099751562]},{"id":"pt.ine.add.PTCONT.181650","rua":"R FAMILIA SILVA PEREIRA","casa":"566","coordenadas":[40.847097885124214,-8.666883617260345]},{"id":"pt.ine.add.PTCONT.186182","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.84432841243425,-8.664062978123235]},{"id":"pt.ine.add.PTCONT.191302","rua":"R FAMILIA SILVA PEREIRA","casa":"5","coordenadas":[40.844549865492475,-8.664859214347707]},{"id":"pt.ine.add.PTCONT.215859","rua":"R FAMILIA SILVA PEREIRA","casa":"490","coordenadas":[40.846732538950626,-8.66605061646428]},{"id":"pt.ine.add.PTCONT.223972","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.84496979491507,-8.665574039954542]},{"id":"pt.ine.add.PTCONT.232044","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.844131459385444,-8.663812395210153]},{"id":"pt.ine.add.PTCONT.256504","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.845626575199695,-8.665697876159312]},{"id":"pt.ine.add.PTCONT.256505","rua":"R FAMILIA SILVA PEREIRA","casa":"","coordenadas":[40.84741798296984,-8.667763696577792]}],"ruas":["R FAMILIA SILVA PEREIRA"],"centroide":[40.84520096082688,-8.665187093465063]}
+{
+  "CP": "3880-303",
+  "CP4": "3880",
+  "CP3": "303",
+  "Distrito": "Aveiro",
+  "Concelho": "Ovar",
+  "Localidade": "Ovar",
+  "Designação Postal": "OVAR",
+  "partes": [
+    {
+      "Artéria": "Rua Família Silva Pereira",
+      "Local": "Torrão do Lameiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.309751",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "496",
+      "coordenadas": [
+        40.84685739625954,
+        -8.666312496157015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.328678",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "20",
+      "coordenadas": [
+        40.844692734600635,
+        -8.665121227214035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.339324",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "11",
+      "coordenadas": [
+        40.845525773413954,
+        -8.666076522496432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.351099",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "223",
+      "coordenadas": [
+        40.84460934167901,
+        -8.665630443737463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.9884",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.84656347978195,
+        -8.66561051227769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.15106",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "3",
+      "coordenadas": [
+        40.84423001782052,
+        -8.663919900604352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.63431",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "4",
+      "coordenadas": [
+        40.844185213585206,
+        -8.663872112407741
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.65095",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "5",
+      "coordenadas": [
+        40.84494954097052,
+        -8.666060048230717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.127630",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "588",
+      "coordenadas": [
+        40.84722219151128,
+        -8.66726407772471
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.129084",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "2",
+      "coordenadas": [
+        40.844274767470175,
+        -8.663979546124558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.164956",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "14",
+      "coordenadas": [
+        40.84431831621225,
+        -8.664300051590326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.167506",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.84395295090389,
+        -8.663467099751562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.181650",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "566",
+      "coordenadas": [
+        40.847097885124214,
+        -8.666883617260345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.186182",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.84432841243425,
+        -8.664062978123235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.191302",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "5",
+      "coordenadas": [
+        40.844549865492475,
+        -8.664859214347707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.215859",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "490",
+      "coordenadas": [
+        40.846732538950626,
+        -8.66605061646428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.223972",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.84496979491507,
+        -8.665574039954542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.232044",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.844131459385444,
+        -8.663812395210153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.256504",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.845626575199695,
+        -8.665697876159312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.256505",
+      "rua": "R FAMILIA SILVA PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.84741798296984,
+        -8.667763696577792
+      ]
+    }
+  ],
+  "ruas": [
+    "R FAMILIA SILVA PEREIRA"
+  ],
+  "centro": [
+    40.845685466936864,
+    -8.665615398164677
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.8443221707149,
+                -8.664683980743632
+              ],
+              [
+                40.844240121868005,
+                -8.664413562745393
+              ],
+              [
+                40.8442091186407,
+                -8.664210437817655
+              ],
+              [
+                40.84422916103298,
+                -8.664074605960419
+              ],
+              [
+                40.84430024904483,
+                -8.664006067173684
+              ],
+              [
+                40.84442238267626,
+                -8.664004821457446
+              ],
+              [
+                40.84459556192727,
+                -8.664070868811711
+              ],
+              [
+                40.84481978679787,
+                -8.664204209236477
+              ],
+              [
+                40.84509505728805,
+                -8.664404842731743
+              ],
+              [
+                40.8454213733978,
+                -8.664672769297509
+              ],
+              [
+                40.845715250077305,
+                -8.66492709730791
+              ],
+              [
+                40.84597668732657,
+                -8.665167826762941
+              ],
+              [
+                40.84620568514559,
+                -8.665394957662606
+              ],
+              [
+                40.84640224353436,
+                -8.665608490006907
+              ],
+              [
+                40.84656636249288,
+                -8.665808423795838
+              ],
+              [
+                40.84669804202116,
+                -8.665994759029404
+              ],
+              [
+                40.846797282119184,
+                -8.666167495707603
+              ],
+              [
+                40.84686408278698,
+                -8.666326633830431
+              ],
+              [
+                40.846927534900125,
+                -8.666479630927245
+              ],
+              [
+                40.846987638458636,
+                -8.66662648699804
+              ],
+              [
+                40.84704439346251,
+                -8.666767202042815
+              ],
+              [
+                40.84709779991176,
+                -8.666901776061572
+              ],
+              [
+                40.84714785780636,
+                -8.667030209054309
+              ],
+              [
+                40.84719456714634,
+                -8.667152501021029
+              ],
+              [
+                40.84723792793167,
+                -8.667268651961727
+              ],
+              [
+                40.84727794016237,
+                -8.667378661876409
+              ],
+              [
+                40.847274381458,
+                -8.667448301046331
+              ],
+              [
+                40.84722725181855,
+                -8.667477569471497
+              ],
+              [
+                40.84713655124402,
+                -8.667466467151904
+              ],
+              [
+                40.847002279734426,
+                -8.667414994087551
+              ],
+              [
+                40.84682443728974,
+                -8.66732315027844
+              ],
+              [
+                40.84660302390998,
+                -8.667190935724573
+              ],
+              [
+                40.84633803959514,
+                -8.667018350425947
+              ],
+              [
+                40.84602948434522,
+                -8.666805394382562
+              ],
+              [
+                40.84575418288762,
+                -8.666612345274393
+              ],
+              [
+                40.84551213522232,
+                -8.666439203101442
+              ],
+              [
+                40.845303341349336,
+                -8.666285967863704
+              ],
+              [
+                40.84512780126866,
+                -8.666152639561185
+              ],
+              [
+                40.844985514980294,
+                -8.66603921819388
+              ],
+              [
+                40.84487648248424,
+                -8.665945703761793
+              ],
+              [
+                40.844800703780486,
+                -8.66587209626492
+              ],
+              [
+                40.84475817886904,
+                -8.665818395703262
+              ],
+              [
+                40.84471071346567,
+                -8.665737605462033
+              ],
+              [
+                40.84465830757038,
+                -8.66562972554123
+              ],
+              [
+                40.84460096118315,
+                -8.665494755940855
+              ],
+              [
+                40.844538674303976,
+                -8.66533269666091
+              ],
+              [
+                40.84447144693288,
+                -8.66514354770139
+              ],
+              [
+                40.84439927906985,
+                -8.664927309062296
+              ],
+              [
+                40.8443221707149,
+                -8.664683980743632
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.8457651969049,
+    -8.665902569639263
+  ],
+  "centroDeMassa": [
+    40.845685466936864,
+    -8.665615398164677
+  ]
+}

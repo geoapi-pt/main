@@ -1,1 +1,609 @@
-{"CP4":"7490","CP3":"201","Distrito":"Évora","Concelho":"Mora","CP":"7490-201","Artéria":"Rua José Agostinho Pereira Sousa","Localidade":"Mora","Local":"Bairro da Misericórdia","Troço":"","Porta":"","Cliente":"","Designação Postal":"MORA","locais":[{"id":"pt.ine.add.PTCONT.1373370","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"22","coordenadas":[38.943182354965614,-8.16793893582087]},{"id":"pt.ine.add.PTCONT.1374469","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"","coordenadas":[38.94332653935257,-8.16821125934639]},{"id":"pt.ine.add.PTCONT.1376526","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"13","coordenadas":[38.943500460780776,-8.168196758383065]},{"id":"pt.ine.add.PTCONT.1376528","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"30","coordenadas":[38.943086272138835,-8.167619824773343]},{"id":"pt.ine.add.PTCONT.1377857","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"","coordenadas":[38.94313264790579,-8.167605260605395]},{"id":"pt.ine.add.PTCONT.1382466","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"26","coordenadas":[38.94296013848868,-8.167700505604701]},{"id":"pt.ine.add.PTCONT.1387493","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"11","coordenadas":[38.94351845563276,-8.168265975207522]},{"id":"pt.ine.add.PTCONT.1387499","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"18","coordenadas":[38.943059797932946,-8.168014186313567]},{"id":"pt.ine.add.PTCONT.1392224","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"10","coordenadas":[38.94314912033894,-8.168311931197893]},{"id":"pt.ine.add.PTCONT.1399629","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"4","coordenadas":[38.943319808815666,-8.168562545396936]},{"id":"pt.ine.add.PTCONT.1399666","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"12","coordenadas":[38.9432099436647,-8.168274125451594]},{"id":"pt.ine.add.PTCONT.1401429","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"1","coordenadas":[38.943653461447916,-8.168635151675861]},{"id":"pt.ine.add.PTCONT.1412229","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"3","coordenadas":[38.9436354703187,-8.168554399950647]},{"id":"pt.ine.add.PTCONT.1412691","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"14","coordenadas":[38.9432628058545,-8.168251262269793]},{"id":"pt.ine.add.PTCONT.1421488","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"5","coordenadas":[38.9436084677999,-8.168485178463044]},{"id":"pt.ine.add.PTCONT.1421493","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"9","coordenadas":[38.94354545828204,-8.168335196524522]},{"id":"pt.ine.add.PTCONT.1425877","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"17","coordenadas":[38.94341047216221,-8.16789681334504]},{"id":"pt.ine.add.PTCONT.1426595","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"19","coordenadas":[38.94338346925222,-8.16782759232543]},{"id":"pt.ine.add.PTCONT.1432705","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"6","coordenadas":[38.943367903704065,-8.168541026113175]},{"id":"pt.ine.add.PTCONT.1433517","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"7","coordenadas":[38.94359047656677,-8.1684044268267]},{"id":"pt.ine.add.PTCONT.1436593","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"","coordenadas":[38.94324832762603,-8.167908268721474]},{"id":"pt.ine.add.PTCONT.1438034","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"28","coordenadas":[38.94303221486734,-8.16765440230749]},{"id":"pt.ine.add.PTCONT.1439498","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"20","coordenadas":[38.94313067879581,-8.167981143307445]},{"id":"pt.ine.add.PTCONT.1452485","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"2","coordenadas":[38.9432751462649,-8.168588824392751]},{"id":"pt.ine.add.PTCONT.1460366","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"15","coordenadas":[38.94347345458803,-8.168139071812396]},{"id":"pt.ine.add.PTCONT.1465878","rua":"R JOSE AGOSTINHO PEREIRA SOUSA","casa":"","coordenadas":[38.94342725334002,-8.16850645172119]}],"ruas":["R JOSE AGOSTINHO PEREIRA SOUSA"],"centroide":[38.94332253390191,-8.16815616264548]}
+{
+  "CP": "7490-201",
+  "CP4": "7490",
+  "CP3": "201",
+  "Distrito": "Évora",
+  "Concelho": "Mora",
+  "Localidade": "Mora",
+  "Designação Postal": "MORA",
+  "partes": [
+    {
+      "Artéria": "Rua José Agostinho Pereira Sousa",
+      "Local": "Bairro da Misericórdia",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1373370",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "22",
+      "coordenadas": [
+        38.943182354965614,
+        -8.16793893582087
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1374469",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "",
+      "coordenadas": [
+        38.94332653935257,
+        -8.16821125934639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1376526",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "13",
+      "coordenadas": [
+        38.943500460780776,
+        -8.168196758383065
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1376528",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "30",
+      "coordenadas": [
+        38.943086272138835,
+        -8.167619824773343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377857",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "",
+      "coordenadas": [
+        38.94313264790579,
+        -8.167605260605395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1382466",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "26",
+      "coordenadas": [
+        38.94296013848868,
+        -8.167700505604701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1387493",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "11",
+      "coordenadas": [
+        38.94351845563276,
+        -8.168265975207522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1387499",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "18",
+      "coordenadas": [
+        38.943059797932946,
+        -8.168014186313567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1392224",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "10",
+      "coordenadas": [
+        38.94314912033894,
+        -8.168311931197893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399629",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "4",
+      "coordenadas": [
+        38.943319808815666,
+        -8.168562545396936
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399666",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "12",
+      "coordenadas": [
+        38.9432099436647,
+        -8.168274125451594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1401429",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "1",
+      "coordenadas": [
+        38.943653461447916,
+        -8.168635151675861
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412229",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "3",
+      "coordenadas": [
+        38.9436354703187,
+        -8.168554399950647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412691",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "14",
+      "coordenadas": [
+        38.9432628058545,
+        -8.168251262269793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421488",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "5",
+      "coordenadas": [
+        38.9436084677999,
+        -8.168485178463044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421493",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "9",
+      "coordenadas": [
+        38.94354545828204,
+        -8.168335196524522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425877",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "17",
+      "coordenadas": [
+        38.94341047216221,
+        -8.16789681334504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1426595",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "19",
+      "coordenadas": [
+        38.94338346925222,
+        -8.16782759232543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1432705",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "6",
+      "coordenadas": [
+        38.943367903704065,
+        -8.168541026113175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1433517",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "7",
+      "coordenadas": [
+        38.94359047656677,
+        -8.1684044268267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1436593",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "",
+      "coordenadas": [
+        38.94324832762603,
+        -8.167908268721474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1438034",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "28",
+      "coordenadas": [
+        38.94303221486734,
+        -8.16765440230749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1439498",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "20",
+      "coordenadas": [
+        38.94313067879581,
+        -8.167981143307445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1452485",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "2",
+      "coordenadas": [
+        38.9432751462649,
+        -8.168588824392751
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1460366",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "15",
+      "coordenadas": [
+        38.94347345458803,
+        -8.168139071812396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1465878",
+      "rua": "R JOSE AGOSTINHO PEREIRA SOUSA",
+      "casa": "",
+      "coordenadas": [
+        38.94342725334002,
+        -8.16850645172119
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE AGOSTINHO PEREIRA SOUSA"
+  ],
+  "centro": [
+    38.9433067999683,
+    -8.168120206140628
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.943066440779454,
+                -8.16804443250087
+              ],
+              [
+                38.94304281804816,
+                -8.167968004301724
+              ],
+              [
+                38.943024118996576,
+                -8.167899868989476
+              ],
+              [
+                38.943010343624685,
+                -8.167840026564136
+              ],
+              [
+                38.943001491932485,
+                -8.167788477025697
+              ],
+              [
+                38.94299756391998,
+                -8.167745220374163
+              ],
+              [
+                38.94299855958717,
+                -8.167710256609533
+              ],
+              [
+                38.94300447893405,
+                -8.167683585731806
+              ],
+              [
+                38.94301532196062,
+                -8.167665207740983
+              ],
+              [
+                38.94303108866689,
+                -8.167655122637063
+              ],
+              [
+                38.94304560915624,
+                -8.16764607060601
+              ],
+              [
+                38.94305888342866,
+                -8.16763805164782
+              ],
+              [
+                38.943070911484156,
+                -8.167631065762498
+              ],
+              [
+                38.943081693322725,
+                -8.167625112950041
+              ],
+              [
+                38.94309122894437,
+                -8.16762019321045
+              ],
+              [
+                38.94309951834909,
+                -8.167616306543726
+              ],
+              [
+                38.94310656153688,
+                -8.167613452949867
+              ],
+              [
+                38.94311235850775,
+                -8.167611632428871
+              ],
+              [
+                38.943121349940796,
+                -8.167613513406128
+              ],
+              [
+                38.943133535836026,
+                -8.167619095881635
+              ],
+              [
+                38.94314891619343,
+                -8.16762837985539
+              ],
+              [
+                38.943167491013014,
+                -8.167641365327396
+              ],
+              [
+                38.94318926029478,
+                -8.167658052297652
+              ],
+              [
+                38.94321422403873,
+                -8.167678440766156
+              ],
+              [
+                38.943242382244854,
+                -8.16770253073291
+              ],
+              [
+                38.943273734913156,
+                -8.167730322197915
+              ],
+              [
+                38.94330159041839,
+                -8.167755721308223
+              ],
+              [
+                38.94332594876056,
+                -8.16777872806384
+              ],
+              [
+                38.943346809939655,
+                -8.167799342464761
+              ],
+              [
+                38.94336417395568,
+                -8.16781756451099
+              ],
+              [
+                38.94337804080864,
+                -8.167833394202525
+              ],
+              [
+                38.94338841049852,
+                -8.167846831539364
+              ],
+              [
+                38.94339528302534,
+                -8.16785787652151
+              ],
+              [
+                38.943398658389086,
+                -8.16786652914896
+              ],
+              [
+                38.94340442440119,
+                -8.167882031658632
+              ],
+              [
+                38.943412581061644,
+                -8.167904384050521
+              ],
+              [
+                38.943423128370455,
+                -8.167933586324633
+              ],
+              [
+                38.94343606632762,
+                -8.167969638480962
+              ],
+              [
+                38.943451394933135,
+                -8.168012540519513
+              ],
+              [
+                38.943469114186996,
+                -8.168062292440279
+              ],
+              [
+                38.943489224089205,
+                -8.168118894243268
+              ],
+              [
+                38.94351172463978,
+                -8.168182345928475
+              ],
+              [
+                38.94353211564889,
+                -8.168240209483093
+              ],
+              [
+                38.94355039711657,
+                -8.168292484907122
+              ],
+              [
+                38.9435665690428,
+                -8.168339172200561
+              ],
+              [
+                38.94358063142758,
+                -8.16838027136341
+              ],
+              [
+                38.94359258427092,
+                -8.168415782395671
+              ],
+              [
+                38.9436024275728,
+                -8.168445705297344
+              ],
+              [
+                38.94361016133324,
+                -8.168470040068426
+              ],
+              [
+                38.94361578555224,
+                -8.168488786708922
+              ],
+              [
+                38.943620987855255,
+                -8.16850645176506
+              ],
+              [
+                38.943625768242285,
+                -8.168523035236841
+              ],
+              [
+                38.94363012671333,
+                -8.16853853712427
+              ],
+              [
+                38.943634063268405,
+                -8.168552957427341
+              ],
+              [
+                38.943637577907495,
+                -8.168566296146059
+              ],
+              [
+                38.9436406706306,
+                -8.168578553280422
+              ],
+              [
+                38.943643341437735,
+                -8.168589728830428
+              ],
+              [
+                38.943645590328885,
+                -8.16859982279608
+              ],
+              [
+                38.943641646933905,
+                -8.168607931152227
+              ],
+              [
+                38.9436315112528,
+                -8.168614053898867
+              ],
+              [
+                38.943615183285566,
+                -8.168618191036005
+              ],
+              [
+                38.943592663032206,
+                -8.168620342563637
+              ],
+              [
+                38.94356395049272,
+                -8.168620508481762
+              ],
+              [
+                38.94352904566709,
+                -8.168618688790385
+              ],
+              [
+                38.943487948555344,
+                -8.1686148834895
+              ],
+              [
+                38.943440659157474,
+                -8.168609092579112
+              ],
+              [
+                38.943397311779236,
+                -8.168599699076353
+              ],
+              [
+                38.943357906420644,
+                -8.16858670298122
+              ],
+              [
+                38.94332244308169,
+                -8.168570104293718
+              ],
+              [
+                38.943290921762376,
+                -8.168549903013847
+              ],
+              [
+                38.94326334246271,
+                -8.168526099141602
+              ],
+              [
+                38.94323970518268,
+                -8.168498692676987
+              ],
+              [
+                38.94322000992229,
+                -8.168467683620001
+              ],
+              [
+                38.94320425668155,
+                -8.168433071970643
+              ],
+              [
+                38.94318751975448,
+                -8.168393233252562
+              ],
+              [
+                38.9431697991411,
+                -8.168348167465759
+              ],
+              [
+                38.943151094841404,
+                -8.168297874610229
+              ],
+              [
+                38.94313140685539,
+                -8.168242354685974
+              ],
+              [
+                38.94311073518306,
+                -8.168181607692997
+              ],
+              [
+                38.94308907982442,
+                -8.168115633631297
+              ],
+              [
+                38.943066440779454,
+                -8.16804443250087
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.943327667488504,
+    -8.168114473069776
+  ],
+  "centroDeMassa": [
+    38.9433067999683,
+    -8.168120206140628
+  ]
+}

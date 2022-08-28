@@ -1,1 +1,382 @@
-{"CP4":"4780","CP3":"501","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4780-501","Artéria":"Rua da Misericórdia","Localidade":"Santo Tirso","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO TIRSO","locais":[{"id":"pt.ine.add.PTCONT.3550393","rua":"R MISERICÓRDIA","casa":"22","coordenadas":[41.34203989171551,-8.48276684156552]},{"id":"pt.ine.add.PTCONT.3608267","rua":"R MISERICÓRDIA","casa":"244","coordenadas":[41.34091392824743,-8.48291613481827]},{"id":"pt.ine.add.PTCONT.3612131","rua":"R MISERICÓRDIA","casa":"7","coordenadas":[41.34246517962264,-8.482076152178053]},{"id":"pt.ine.add.PTCONT.3621523","rua":"R MISERICÓRDIA","casa":"15","coordenadas":[41.342095148674794,-8.48236091899137]},{"id":"pt.ine.add.PTCONT.3696350","rua":"R MISERICÓRDIA","casa":"17","coordenadas":[41.342013932001876,-8.482420222953733]},{"id":"pt.ine.add.PTCONT.3757085","rua":"R MISERICÓRDIA","casa":"S","coordenadas":[41.34257348034473,-8.481993096587706]},{"id":"pt.ine.add.PTCONT.3757959","rua":"R MISERICÓRDIA","casa":"171","coordenadas":[41.34103576168752,-8.48133973009993]},{"id":"pt.ine.add.PTCONT.3808579","rua":"R MISERICÓRDIA","casa":"16","coordenadas":[41.34227453823967,-8.482588882325297]},{"id":"pt.ine.add.PTCONT.3813030","rua":"R MISERICÓRDIA","casa":"21","coordenadas":[41.341815337734104,-8.482586427305524]},{"id":"pt.ine.add.PTCONT.3823186","rua":"R MISERICÓRDIA","casa":"9","coordenadas":[41.34240197096173,-8.48213555297967]},{"id":"pt.ine.add.PTCONT.3860200","rua":"R MISERICÓRDIA","casa":"6","coordenadas":[41.3427076697491,-8.482280557707856]},{"id":"pt.ine.add.PTCONT.3919389","rua":"R MISERICÓRDIA","casa":"3","coordenadas":[41.34265469679374,-8.481933791590292]},{"id":"pt.ine.add.PTCONT.3932453","rua":"R MISERICÓRDIA","casa":"12","coordenadas":[41.34243693545426,-8.482482221666805]},{"id":"pt.ine.add.PTCONT.3970128","rua":"R MISERICÓRDIA","casa":"","coordenadas":[41.34259936882328,-8.482363612989461]},{"id":"pt.ine.add.PTCONT.4027631","rua":"R MISERICÓRDIA","casa":"10","coordenadas":[41.342527228605334,-8.482399070561824]},{"id":"pt.ine.add.PTCONT.4208815","rua":"R MISERICÓRDIA","casa":"14","coordenadas":[41.34237379912961,-8.482517727149709]},{"id":"pt.ine.add.PTCONT.4218183","rua":"R MISERICÓRDIA","casa":"11","coordenadas":[41.34228466620391,-8.482218560030113]},{"id":"pt.ine.add.PTCONT.4328836","rua":"R MISERICÓRDIA","casa":"398","coordenadas":[41.33961942939521,-8.482228221066052]},{"id":"pt.ine.add.PTCONT.4330211","rua":"R MISERICÓRDIA","casa":"18","coordenadas":[41.34221129302956,-8.48266022987703]},{"id":"pt.ine.add.PTCONT.4337080","rua":"R MISERICÓRDIA","casa":"19","coordenadas":[41.34189659076498,-8.482515176366356]},{"id":"pt.ine.add.PTCONT.4339878","rua":"R MISERICÓRDIA","casa":"20","coordenadas":[41.34210306441139,-8.482719389103057]},{"id":"pt.ine.add.PTCONT.4356360","rua":"R MISERICORDIA","casa":"111","coordenadas":[41.34469377884221,-8.486472991006531]}],"ruas":["R MISERICÓRDIA","R MISERICORDIA"],"centroide":[41.342049710075734,-8.482357262757791]}
+{
+  "CP": "4780-501",
+  "CP4": "4780",
+  "CP3": "501",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "Santo Tirso",
+  "Designação Postal": "SANTO TIRSO",
+  "partes": [
+    {
+      "Artéria": "Rua da Misericórdia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3550393",
+      "rua": "R MISERICÓRDIA",
+      "casa": "22",
+      "coordenadas": [
+        41.34203989171551,
+        -8.48276684156552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3608267",
+      "rua": "R MISERICÓRDIA",
+      "casa": "244",
+      "coordenadas": [
+        41.34091392824743,
+        -8.48291613481827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3612131",
+      "rua": "R MISERICÓRDIA",
+      "casa": "7",
+      "coordenadas": [
+        41.34246517962264,
+        -8.482076152178053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3621523",
+      "rua": "R MISERICÓRDIA",
+      "casa": "15",
+      "coordenadas": [
+        41.342095148674794,
+        -8.48236091899137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3696350",
+      "rua": "R MISERICÓRDIA",
+      "casa": "17",
+      "coordenadas": [
+        41.342013932001876,
+        -8.482420222953733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3757085",
+      "rua": "R MISERICÓRDIA",
+      "casa": "S",
+      "coordenadas": [
+        41.34257348034473,
+        -8.481993096587706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3757959",
+      "rua": "R MISERICÓRDIA",
+      "casa": "171",
+      "coordenadas": [
+        41.34103576168752,
+        -8.48133973009993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3808579",
+      "rua": "R MISERICÓRDIA",
+      "casa": "16",
+      "coordenadas": [
+        41.34227453823967,
+        -8.482588882325297
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3813030",
+      "rua": "R MISERICÓRDIA",
+      "casa": "21",
+      "coordenadas": [
+        41.341815337734104,
+        -8.482586427305524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3823186",
+      "rua": "R MISERICÓRDIA",
+      "casa": "9",
+      "coordenadas": [
+        41.34240197096173,
+        -8.48213555297967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3860200",
+      "rua": "R MISERICÓRDIA",
+      "casa": "6",
+      "coordenadas": [
+        41.3427076697491,
+        -8.482280557707856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3919389",
+      "rua": "R MISERICÓRDIA",
+      "casa": "3",
+      "coordenadas": [
+        41.34265469679374,
+        -8.481933791590292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3932453",
+      "rua": "R MISERICÓRDIA",
+      "casa": "12",
+      "coordenadas": [
+        41.34243693545426,
+        -8.482482221666805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3970128",
+      "rua": "R MISERICÓRDIA",
+      "casa": "",
+      "coordenadas": [
+        41.34259936882328,
+        -8.482363612989461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4027631",
+      "rua": "R MISERICÓRDIA",
+      "casa": "10",
+      "coordenadas": [
+        41.342527228605334,
+        -8.482399070561824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4208815",
+      "rua": "R MISERICÓRDIA",
+      "casa": "14",
+      "coordenadas": [
+        41.34237379912961,
+        -8.482517727149709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4218183",
+      "rua": "R MISERICÓRDIA",
+      "casa": "11",
+      "coordenadas": [
+        41.34228466620391,
+        -8.482218560030113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4328836",
+      "rua": "R MISERICÓRDIA",
+      "casa": "398",
+      "coordenadas": [
+        41.33961942939521,
+        -8.482228221066052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4330211",
+      "rua": "R MISERICÓRDIA",
+      "casa": "18",
+      "coordenadas": [
+        41.34221129302956,
+        -8.48266022987703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4337080",
+      "rua": "R MISERICÓRDIA",
+      "casa": "19",
+      "coordenadas": [
+        41.34189659076498,
+        -8.482515176366356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4339878",
+      "rua": "R MISERICÓRDIA",
+      "casa": "20",
+      "coordenadas": [
+        41.34210306441139,
+        -8.482719389103057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4356360",
+      "rua": "R MISERICORDIA",
+      "casa": "111",
+      "coordenadas": [
+        41.34469377884221,
+        -8.486472991006531
+      ]
+    }
+  ],
+  "ruas": [
+    "R MISERICÓRDIA",
+    "R MISERICORDIA"
+  ],
+  "centro": [
+    41.34215660411871,
+    -8.483906360553231
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.34247375095915,
+                -8.484615904157572
+              ],
+              [
+                41.341839457278276,
+                -8.484085307915011
+              ],
+              [
+                41.34130658049958,
+                -8.483607153531427
+              ],
+              [
+                41.34087512062305,
+                -8.483181441006813
+              ],
+              [
+                41.34054507764871,
+                -8.482808170341178
+              ],
+              [
+                41.34031645157654,
+                -8.482487341534515
+              ],
+              [
+                41.34018924240655,
+                -8.482218954586827
+              ],
+              [
+                41.34016345013874,
+                -8.482003009498113
+              ],
+              [
+                41.3402390747731,
+                -8.481839506268372
+              ],
+              [
+                41.34041611630963,
+                -8.481728444897609
+              ],
+              [
+                41.34059632351514,
+                -8.481640548408976
+              ],
+              [
+                41.34077969638962,
+                -8.481575816802474
+              ],
+              [
+                41.340966234933056,
+                -8.481534250078106
+              ],
+              [
+                41.341155939145466,
+                -8.481515848235873
+              ],
+              [
+                41.34134880902684,
+                -8.48152061127577
+              ],
+              [
+                41.341544844577186,
+                -8.4815485391978
+              ],
+              [
+                41.341744045796496,
+                -8.481599632001963
+              ],
+              [
+                41.34194641268477,
+                -8.481673889688256
+              ],
+              [
+                41.34215534436902,
+                -8.481809790154644
+              ],
+              [
+                41.34237084084924,
+                -8.482007333401123
+              ],
+              [
+                41.34259290212543,
+                -8.482266519427693
+              ],
+              [
+                41.342821528197604,
+                -8.482587348234357
+              ],
+              [
+                41.34305671906574,
+                -8.482969819821111
+              ],
+              [
+                41.34329847472986,
+                -8.483413934187958
+              ],
+              [
+                41.34354679518995,
+                -8.483919691334897
+              ],
+              [
+                41.343801680446006,
+                -8.484487091261926
+              ],
+              [
+                41.34394541833495,
+                -8.484917241667757
+              ],
+              [
+                41.34397800885677,
+                -8.485210142552392
+              ],
+              [
+                41.343899452011485,
+                -8.485365793915825
+              ],
+              [
+                41.34370974779908,
+                -8.485384195758058
+              ],
+              [
+                41.34340889621956,
+                -8.485265348079094
+              ],
+              [
+                41.34299689727291,
+                -8.485009250878933
+              ],
+              [
+                41.34247375095915,
+                -8.484615904157572
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.34200091667967,
+    -8.4829936834407
+  ],
+  "centroDeMassa": [
+    41.34215660411871,
+    -8.483906360553231
+  ]
+}

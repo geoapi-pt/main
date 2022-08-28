@@ -1,1 +1,416 @@
-{"CP4":"2380","CP3":"634","Distrito":"Santarém","Concelho":"Alcanena","CP":"2380-634","Artéria":"Bairro da Cantina e dos Pobres","Localidade":"Vila Moreira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA MOREIRA","locais":[{"id":"pt.ine.add.PTCONT.4391500","rua":"BR CANTINA E DOS POBRES","casa":"4","coordenadas":[39.470239201256966,-8.675337458477058]},{"id":"pt.ine.add.PTCONT.4401643","rua":"R 1 DE DEZEMBRO","casa":"70","coordenadas":[39.469784857545626,-8.676193883029226]},{"id":"pt.ine.add.PTCONT.4403680","rua":"BR CANTINA E DOS POBRES","casa":"1","coordenadas":[39.47036486041138,-8.675431402320747]},{"id":"pt.ine.add.PTCONT.4422201","rua":"BR CANTINA E DOS POBRES","casa":"6","coordenadas":[39.47017604655256,-8.675360210320468]},{"id":"pt.ine.add.PTCONT.4429583","rua":"BR CANTINA E DOS POBRES","casa":"3","coordenadas":[39.47028385503467,-8.675419152396373]},{"id":"pt.ine.add.PTCONT.4434951","rua":"BR CANTINA E DOS POBRES","casa":"5","coordenadas":[39.47022080870187,-8.675418662952783]},{"id":"pt.ine.add.PTCONT.4444831","rua":"BR CANTINA E POBRES","casa":"3","coordenadas":[39.47022210897988,-8.675139768218548]},{"id":"pt.ine.add.PTCONT.4482271","rua":"R 1 DE DEZEMBRO","casa":"60","coordenadas":[39.46995587475408,-8.676218454536881]},{"id":"pt.ine.add.PTCONT.4489931","rua":"R 1 DE DEZEMBRO","casa":"68","coordenadas":[39.469857181825425,-8.67613634042634]},{"id":"pt.ine.add.PTCONT.4500199","rua":"BR CANTINA E DOS POBRES","casa":"","coordenadas":[39.47014983935795,-8.67518569155298]},{"id":"pt.ine.add.PTCONT.4501172","rua":"BR CANTINA E DOS POBRES","casa":"7","coordenadas":[39.47016611859893,-8.675557690683409]},{"id":"pt.ine.add.PTCONT.4509408","rua":"BR CANTINA E DOS POBRES","casa":"9","coordenadas":[39.470093143979604,-8.67575468124175]},{"id":"pt.ine.add.PTCONT.4532234","rua":"BR CANTINA E DOS POBRES","casa":"2","coordenadas":[39.47032915907655,-8.675361398841847]},{"id":"pt.ine.add.PTCONT.4573104","rua":"BR CANTINA E DOS POBRES","casa":"10","coordenadas":[39.47001208441058,-8.675754051572355]},{"id":"pt.ine.add.PTCONT.4587928","rua":"BR CANTINA E DOS POBRES","casa":"","coordenadas":[39.470303006055616,-8.675175259063076]},{"id":"pt.ine.add.PTCONT.4606751","rua":"BR CANTINA E DOS POBRES","casa":"","coordenadas":[39.470248912171364,-8.675186460346973]},{"id":"pt.ine.add.PTCONT.4627359","rua":"BR CANTINA E DOS POBRES","casa":"8","coordenadas":[39.47009406564729,-8.675557131178879]}],"ruas":["BR CANTINA E DOS POBRES","R 1 DE DEZEMBRO","BR CANTINA E POBRES"],"centroide":[39.47015044116956,-8.675539410373801]}01]}
+{
+  "CP": "2380-634",
+  "CP4": "2380",
+  "CP3": "634",
+  "Distrito": "Santarém",
+  "Concelho": "Alcanena",
+  "Localidade": "Vila Moreira",
+  "Designação Postal": "VILA MOREIRA",
+  "partes": [
+    {
+      "Artéria": "Rua José Policarpo Lopes da Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 1º de Dezembro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Bairro da Cantina e dos Pobres",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4391500",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "4",
+      "coordenadas": [
+        39.470239201256966,
+        -8.675337458477058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401643",
+      "rua": "R 1 DE DEZEMBRO",
+      "casa": "70",
+      "coordenadas": [
+        39.469784857545626,
+        -8.676193883029226
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4403680",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "1",
+      "coordenadas": [
+        39.47036486041138,
+        -8.675431402320747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4422201",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "6",
+      "coordenadas": [
+        39.47017604655256,
+        -8.675360210320468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4429583",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "3",
+      "coordenadas": [
+        39.47028385503467,
+        -8.675419152396373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4434951",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "5",
+      "coordenadas": [
+        39.47022080870187,
+        -8.675418662952783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4444831",
+      "rua": "BR CANTINA E POBRES",
+      "casa": "3",
+      "coordenadas": [
+        39.47022210897988,
+        -8.675139768218548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4482271",
+      "rua": "R 1 DE DEZEMBRO",
+      "casa": "60",
+      "coordenadas": [
+        39.46995587475408,
+        -8.676218454536881
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4489931",
+      "rua": "R 1 DE DEZEMBRO",
+      "casa": "68",
+      "coordenadas": [
+        39.469857181825425,
+        -8.67613634042634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500199",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "",
+      "coordenadas": [
+        39.47014983935795,
+        -8.67518569155298
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4501172",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "7",
+      "coordenadas": [
+        39.47016611859893,
+        -8.675557690683409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4509408",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "9",
+      "coordenadas": [
+        39.470093143979604,
+        -8.67575468124175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532234",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "2",
+      "coordenadas": [
+        39.47032915907655,
+        -8.675361398841847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4573104",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "10",
+      "coordenadas": [
+        39.47001208441058,
+        -8.675754051572355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4587928",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "",
+      "coordenadas": [
+        39.470303006055616,
+        -8.675175259063076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4606751",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "",
+      "coordenadas": [
+        39.470248912171364,
+        -8.675186460346973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4627359",
+      "rua": "BR CANTINA E DOS POBRES",
+      "casa": "8",
+      "coordenadas": [
+        39.47009406564729,
+        -8.675557131178879
+      ]
+    }
+  ],
+  "ruas": [
+    "BR CANTINA E DOS POBRES",
+    "R 1 DE DEZEMBRO",
+    "BR CANTINA E POBRES"
+  ],
+  "centro": [
+    39.470074858978506,
+    -8.675679111377715
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.46988105472538,
+                -8.676207704502284
+              ],
+              [
+                39.46985967757433,
+                -8.676204633063824
+              ],
+              [
+                39.46984667540797,
+                -8.676186192563357
+              ],
+              [
+                39.46984204822631,
+                -8.676152383000883
+              ],
+              [
+                39.469845796029354,
+                -8.676103204376398
+              ],
+              [
+                39.4698579188171,
+                -8.676038656689904
+              ],
+              [
+                39.46987841658954,
+                -8.6759587399414
+              ],
+              [
+                39.46990728934668,
+                -8.675863454130889
+              ],
+              [
+                39.46994453708852,
+                -8.675752799258367
+              ],
+              [
+                39.469990159815055,
+                -8.675626775323837
+              ],
+              [
+                39.470031208913625,
+                -8.675515786829022
+              ],
+              [
+                39.47006768438421,
+                -8.675419833773923
+              ],
+              [
+                39.47009958622683,
+                -8.67533891615854
+              ],
+              [
+                39.47012691444147,
+                -8.675273033982872
+              ],
+              [
+                39.47014966902814,
+                -8.67522218724692
+              ],
+              [
+                39.47016784998683,
+                -8.675186375950686
+              ],
+              [
+                39.470181457317544,
+                -8.675165600094166
+              ],
+              [
+                39.47019049102029,
+                -8.675159859677361
+              ],
+              [
+                39.470199659527,
+                -8.675155391357103
+              ],
+              [
+                39.47020896283767,
+                -8.675152195133393
+              ],
+              [
+                39.470218400952305,
+                -8.675150271006228
+              ],
+              [
+                39.470227973870905,
+                -8.675149618975608
+              ],
+              [
+                39.470237681593474,
+                -8.675150239041535
+              ],
+              [
+                39.47024752412001,
+                -8.67515213120401
+              ],
+              [
+                39.47025750145052,
+                -8.67515529546303
+              ],
+              [
+                39.47026761358498,
+                -8.675159731818594
+              ],
+              [
+                39.47027742817695,
+                -8.675167615868116
+              ],
+              [
+                39.47028694522641,
+                -8.675178947611593
+              ],
+              [
+                39.470296164733384,
+                -8.675193727049026
+              ],
+              [
+                39.47030508669785,
+                -8.675211954180414
+              ],
+              [
+                39.47031371111982,
+                -8.675233629005756
+              ],
+              [
+                39.47032203799929,
+                -8.675258751525055
+              ],
+              [
+                39.47033006733626,
+                -8.675287321738308
+              ],
+              [
+                39.47033779913073,
+                -8.675319339645515
+              ],
+              [
+                39.47033817405,
+                -8.6753596530052
+              ],
+              [
+                39.470331192094065,
+                -8.675408261817362
+              ],
+              [
+                39.470316853262915,
+                -8.675465166081999
+              ],
+              [
+                39.47029515755658,
+                -8.67553036579911
+              ],
+              [
+                39.470266104975025,
+                -8.6756038609687
+              ],
+              [
+                39.47022969551827,
+                -8.675685651590763
+              ],
+              [
+                39.470185929186314,
+                -8.675775737665305
+              ],
+              [
+                39.47013480597914,
+                -8.675874119192322
+              ],
+              [
+                39.470087401029,
+                -8.675959819098654
+              ],
+              [
+                39.470043714335866,
+                -8.676032837384305
+              ],
+              [
+                39.470003745899746,
+                -8.676093174049269
+              ],
+              [
+                39.469967495720624,
+                -8.67614082909355
+              ],
+              [
+                39.46993496379853,
+                -8.676175802517145
+              ],
+              [
+                39.46990615013345,
+                -8.676198094320057
+              ],
+              [
+                39.46988105472538,
+                -8.676207704502284
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.47013009118408,
+    -8.67555740978691
+  ],
+  "centroDeMassa": [
+    39.470074858978506,
+    -8.675679111377715
+  ]
+}

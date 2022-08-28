@@ -1,1 +1,535 @@
-{"CP4":"4805","CP3":"003","Distrito":"Braga","Concelho":"Guimarães","CP":"4805-003","Artéria":"Rua da Igreja Velha","Localidade":"Balazar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BALAZAR GMR","locais":[{"id":"pt.ine.add.PTCONT.483351","rua":"R IGREJA NOVA","casa":"252","coordenadas":[41.509841361831675,-8.38069001594676]},{"id":"pt.ine.add.PTCONT.483352","rua":"R IGREJA NOVA","casa":"232","coordenadas":[41.509662188510084,-8.380270090561252]},{"id":"pt.ine.add.PTCONT.487089","rua":"R LAGARTEIRA","casa":"114","coordenadas":[41.51038135478009,-8.38079987979104]},{"id":"pt.ine.add.PTCONT.510611","rua":"R IGREJA NOVA","casa":"136","coordenadas":[41.50787401244011,-8.382778676852448]},{"id":"pt.ine.add.PTCONT.514418","rua":"R IGREJA NOVA","casa":"216","coordenadas":[41.50945435518665,-8.380616671530497]},{"id":"pt.ine.add.PTCONT.522068","rua":"R IGREJA VELHA","casa":"","coordenadas":[41.505971509437714,-8.384017047221388]},{"id":"pt.ine.add.PTCONT.549531","rua":"R IGREJA NOVA","casa":"98","coordenadas":[41.50609499529503,-8.385191339168264]},{"id":"pt.ine.add.PTCONT.551701","rua":"R IGREJA VELHA","casa":"39","coordenadas":[41.50596373240267,-8.383454066135432]},{"id":"pt.ine.add.PTCONT.551702","rua":"R IGREJA VELHA","casa":"39","coordenadas":[41.50596373240267,-8.383454066135432]},{"id":"pt.ine.add.PTCONT.551703","rua":"R IGREJA VELHA","casa":"39","coordenadas":[41.50596373240267,-8.383454066135432]},{"id":"pt.ine.add.PTCONT.561447","rua":"R IGREJA NOVA","casa":"31","coordenadas":[41.503187774810634,-8.388809146323721]},{"id":"pt.ine.add.PTCONT.568514","rua":"R IGREJA NOVA","casa":"162","coordenadas":[41.50799191861357,-8.38238385397708]},{"id":"pt.ine.add.PTCONT.571480","rua":"R IGREJA NOVA","casa":"","coordenadas":[41.50478626526832,-8.38663553641282]},{"id":"pt.ine.add.PTCONT.575133","rua":"R IGREJA NOVA","casa":"745","coordenadas":[41.50570530792714,-8.38633968059402]},{"id":"pt.ine.add.PTCONT.587327","rua":"R IGREJA NOVA","casa":"53","coordenadas":[41.50415396575875,-8.387555325827735]},{"id":"pt.ine.add.PTCONT.593139","rua":"R IGREJA NOVA","casa":"154","coordenadas":[41.51196920408595,-8.379320562555353]},{"id":"pt.ine.add.PTCONT.593140","rua":"R LAGARTEIRA","casa":"54","coordenadas":[41.51060727341247,-8.380417427703494]},{"id":"pt.ine.add.PTCONT.593147","rua":"R IGREJA NOVA","casa":"","coordenadas":[41.50503871353664,-8.386480813508275]},{"id":"pt.ine.add.PTCONT.594603","rua":"R IGREJA NOVA","casa":"","coordenadas":[41.50435350385729,-8.386897350809885]},{"id":"pt.ine.add.PTCONT.608146","rua":"R IGREJA NOVA","casa":"142","coordenadas":[41.50791929116184,-8.38265907037849]},{"id":"pt.ine.add.PTCONT.609724","rua":"R IGREJA NOVA","casa":"85","coordenadas":[41.510684287800004,-8.365061215261392]},{"id":"pt.ine.add.PTCONT.609728","rua":"R IGREJA NOVA","casa":"","coordenadas":[41.509687885331324,-8.380881085114114]},{"id":"pt.ine.add.PTCONT.614212","rua":"R IGREJA NOVA","casa":"244","coordenadas":[41.50982456485553,-8.380126967426001]},{"id":"pt.ine.add.PTCONT.636672","rua":"R IGREJA NOVA","casa":"85","coordenadas":[41.50558804811025,-8.386435044614414]},{"id":"pt.ine.add.PTCONT.654743","rua":"R IGREJA NOVA","casa":"260","coordenadas":[41.50991496242587,-8.37995961330142]},{"id":"pt.ine.add.PTCONT.655913","rua":"R LAGARTEIRA","casa":"195","coordenadas":[41.51029031024632,-8.381266693473833]},{"id":"pt.ine.add.PTCONT.663647","rua":"R LAGARTEIRA","casa":"","coordenadas":[41.510715781848106,-8.380202226620098]},{"id":"pt.ine.add.PTCONT.699235","rua":"R IGREJA NOVA","casa":"154","coordenadas":[41.50796464768436,-8.38250352988324]},{"id":"pt.ine.add.PTCONT.723419","rua":"R IGREJA NOVA","casa":"217","coordenadas":[41.51000379023111,-8.380522936812806]},{"id":"pt.ine.add.PTCONT.738030","rua":"R IGREJA NOVA","casa":"214","coordenadas":[41.50940025533523,-8.38065240042474]},{"id":"pt.ine.add.PTCONT.756125","rua":"R LAGARTEIRA","casa":"78","coordenadas":[41.510525750045595,-8.380644709382363]},{"id":"pt.ine.add.PTCONT.764451","rua":"R IGREJA NOVA","casa":"194","coordenadas":[41.50926514748445,-8.380675842340773]},{"id":"pt.ine.add.PTCONT.791925","rua":"R IGREJA NOVA","casa":"206","coordenadas":[41.5093281995346,-8.380664104244957]}],"ruas":["R IGREJA NOVA","R LAGARTEIRA","R IGREJA VELHA"],"centroide":[41.50802342576626,-8.382223654757002]}2]}
+{
+  "CP": "4805-003",
+  "CP4": "4805",
+  "CP3": "003",
+  "Distrito": "Braga",
+  "Concelho": "Guimarães",
+  "Localidade": "Balazar",
+  "Designação Postal": "BALAZAR GMR",
+  "partes": [
+    {
+      "Artéria": "Travessa da Lagarteira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Lagarteira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Igreja Nova",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Igreja Velha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.483351",
+      "rua": "R IGREJA NOVA",
+      "casa": "252",
+      "coordenadas": [
+        41.509841361831675,
+        -8.38069001594676
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.483352",
+      "rua": "R IGREJA NOVA",
+      "casa": "232",
+      "coordenadas": [
+        41.509662188510084,
+        -8.380270090561252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.487089",
+      "rua": "R LAGARTEIRA",
+      "casa": "114",
+      "coordenadas": [
+        41.51038135478009,
+        -8.38079987979104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.510611",
+      "rua": "R IGREJA NOVA",
+      "casa": "136",
+      "coordenadas": [
+        41.50787401244011,
+        -8.382778676852448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.514418",
+      "rua": "R IGREJA NOVA",
+      "casa": "216",
+      "coordenadas": [
+        41.50945435518665,
+        -8.380616671530497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.522068",
+      "rua": "R IGREJA VELHA",
+      "casa": "",
+      "coordenadas": [
+        41.505971509437714,
+        -8.384017047221388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.549531",
+      "rua": "R IGREJA NOVA",
+      "casa": "98",
+      "coordenadas": [
+        41.50609499529503,
+        -8.385191339168264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.551701",
+      "rua": "R IGREJA VELHA",
+      "casa": "39",
+      "coordenadas": [
+        41.50596373240267,
+        -8.383454066135432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.551702",
+      "rua": "R IGREJA VELHA",
+      "casa": "39",
+      "coordenadas": [
+        41.50596373240267,
+        -8.383454066135432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.551703",
+      "rua": "R IGREJA VELHA",
+      "casa": "39",
+      "coordenadas": [
+        41.50596373240267,
+        -8.383454066135432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.561447",
+      "rua": "R IGREJA NOVA",
+      "casa": "31",
+      "coordenadas": [
+        41.503187774810634,
+        -8.388809146323721
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.568514",
+      "rua": "R IGREJA NOVA",
+      "casa": "162",
+      "coordenadas": [
+        41.50799191861357,
+        -8.38238385397708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.571480",
+      "rua": "R IGREJA NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.50478626526832,
+        -8.38663553641282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.575133",
+      "rua": "R IGREJA NOVA",
+      "casa": "745",
+      "coordenadas": [
+        41.50570530792714,
+        -8.38633968059402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.587327",
+      "rua": "R IGREJA NOVA",
+      "casa": "53",
+      "coordenadas": [
+        41.50415396575875,
+        -8.387555325827735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.593139",
+      "rua": "R IGREJA NOVA",
+      "casa": "154",
+      "coordenadas": [
+        41.51196920408595,
+        -8.379320562555353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.593140",
+      "rua": "R LAGARTEIRA",
+      "casa": "54",
+      "coordenadas": [
+        41.51060727341247,
+        -8.380417427703494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.593147",
+      "rua": "R IGREJA NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.50503871353664,
+        -8.386480813508275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.594603",
+      "rua": "R IGREJA NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.50435350385729,
+        -8.386897350809885
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.608146",
+      "rua": "R IGREJA NOVA",
+      "casa": "142",
+      "coordenadas": [
+        41.50791929116184,
+        -8.38265907037849
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.609724",
+      "rua": "R IGREJA NOVA",
+      "casa": "85",
+      "coordenadas": [
+        41.510684287800004,
+        -8.365061215261392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.609728",
+      "rua": "R IGREJA NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.509687885331324,
+        -8.380881085114114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.614212",
+      "rua": "R IGREJA NOVA",
+      "casa": "244",
+      "coordenadas": [
+        41.50982456485553,
+        -8.380126967426001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.636672",
+      "rua": "R IGREJA NOVA",
+      "casa": "85",
+      "coordenadas": [
+        41.50558804811025,
+        -8.386435044614414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.654743",
+      "rua": "R IGREJA NOVA",
+      "casa": "260",
+      "coordenadas": [
+        41.50991496242587,
+        -8.37995961330142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.655913",
+      "rua": "R LAGARTEIRA",
+      "casa": "195",
+      "coordenadas": [
+        41.51029031024632,
+        -8.381266693473833
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.663647",
+      "rua": "R LAGARTEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.510715781848106,
+        -8.380202226620098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.699235",
+      "rua": "R IGREJA NOVA",
+      "casa": "154",
+      "coordenadas": [
+        41.50796464768436,
+        -8.38250352988324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.723419",
+      "rua": "R IGREJA NOVA",
+      "casa": "217",
+      "coordenadas": [
+        41.51000379023111,
+        -8.380522936812806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.738030",
+      "rua": "R IGREJA NOVA",
+      "casa": "214",
+      "coordenadas": [
+        41.50940025533523,
+        -8.38065240042474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.756125",
+      "rua": "R LAGARTEIRA",
+      "casa": "78",
+      "coordenadas": [
+        41.510525750045595,
+        -8.380644709382363
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.764451",
+      "rua": "R IGREJA NOVA",
+      "casa": "194",
+      "coordenadas": [
+        41.50926514748445,
+        -8.380675842340773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.791925",
+      "rua": "R IGREJA NOVA",
+      "casa": "206",
+      "coordenadas": [
+        41.5093281995346,
+        -8.380664104244957
+      ]
+    }
+  ],
+  "ruas": [
+    "R IGREJA NOVA",
+    "R LAGARTEIRA",
+    "R IGREJA VELHA"
+  ],
+  "centro": [
+    41.50757848944829,
+    -8.376935180792557
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.504603887188665,
+                -8.387420071850764
+              ],
+              [
+                41.504289195549106,
+                -8.387728755066977
+              ],
+              [
+                41.504130973379944,
+                -8.387627791458314
+              ],
+              [
+                41.50412922068119,
+                -8.387117181024776
+              ],
+              [
+                41.50428393745284,
+                -8.386196923766361
+              ],
+              [
+                41.5045951236949,
+                -8.384867019683073
+              ],
+              [
+                41.50506277940735,
+                -8.383127468774907
+              ],
+              [
+                41.50568690459021,
+                -8.380978271041867
+              ],
+              [
+                41.506467499243485,
+                -8.378419426483951
+              ],
+              [
+                41.50740456336715,
+                -8.375450935101162
+              ],
+              [
+                41.50824457129234,
+                -8.373076307442687
+              ],
+              [
+                41.508987523019016,
+                -8.37129554350853
+              ],
+              [
+                41.50963341854722,
+                -8.370108643298689
+              ],
+              [
+                41.51018225787693,
+                -8.369515606813167
+              ],
+              [
+                41.510634041008146,
+                -8.36951643405196
+              ],
+              [
+                41.51098876794087,
+                -8.370111125015072
+              ],
+              [
+                41.51124643867511,
+                -8.3712996797025
+              ],
+              [
+                41.51140705321085,
+                -8.373082098114246
+              ],
+              [
+                41.511521358213386,
+                -8.374672122520124
+              ],
+              [
+                41.5115893536827,
+                -8.376069752920134
+              ],
+              [
+                41.511611039618806,
+                -8.37727498931428
+              ],
+              [
+                41.51158641602171,
+                -8.378287831702558
+              ],
+              [
+                41.51151548289138,
+                -8.379108280084967
+              ],
+              [
+                41.511398240227855,
+                -8.379736334461512
+              ],
+              [
+                41.51123468803111,
+                -8.380171994832189
+              ],
+              [
+                41.51102482630115,
+                -8.380415261196998
+              ],
+              [
+                41.5107695566262,
+                -8.38070738468996
+              ],
+              [
+                41.51046887900627,
+                -8.381048365311074
+              ],
+              [
+                41.51012279344133,
+                -8.381438203060338
+              ],
+              [
+                41.50973129993141,
+                -8.381876897937754
+              ],
+              [
+                41.50929439847649,
+                -8.382364449943323
+              ],
+              [
+                41.508812089076585,
+                -8.382900859077044
+              ],
+              [
+                41.508284371731676,
+                -8.383486125338914
+              ],
+              [
+                41.50771124644178,
+                -8.384120248728939
+              ],
+              [
+                41.50717042535817,
+                -8.384713692097236
+              ],
+              [
+                41.506661908480865,
+                -8.385266455443805
+              ],
+              [
+                41.50618569580984,
+                -8.38577853876865
+              ],
+              [
+                41.50574178734511,
+                -8.38624994207177
+              ],
+              [
+                41.50533018308667,
+                -8.386680665353161
+              ],
+              [
+                41.504950883034525,
+                -8.387070708612825
+              ],
+              [
+                41.504603887188665,
+                -8.387420071850764
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.50836737697401,
+    -8.380159459641664
+  ],
+  "centroDeMassa": [
+    41.50757848944829,
+    -8.376935180792557
+  ]
+}

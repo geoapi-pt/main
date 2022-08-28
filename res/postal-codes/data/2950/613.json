@@ -1,1 +1,487 @@
-{"CP4":"2950","CP3":"613","Distrito":"Setúbal","Concelho":"Palmela","CP":"2950-613","Artéria":"Rua Camilo Castelo Branco","Localidade":"Quinta do Anjo","Local":"Cabanas","Troço":"","Porta":"","Cliente":"","Designação Postal":"QUINTA DO ANJO","locais":[{"id":"pt.ine.add.PTCONT.4674976","rua":"R CAMILO CASTELO BRANCO","casa":"4","coordenadas":[38.5503768608214,-8.976824454129432]},{"id":"pt.ine.add.PTCONT.4711149","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.54765792709898,-8.976609145936182]},{"id":"pt.ine.add.PTCONT.4718401","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.54780287303661,-8.976496130473679]},{"id":"pt.ine.add.PTCONT.4722398","rua":"R CAMILO CASTELO BRANCO","casa":"2","coordenadas":[38.550654438738135,-8.97705712504225]},{"id":"pt.ine.add.PTCONT.4731084","rua":"R DQ PALMELA","casa":"55","coordenadas":[38.56127517045983,-8.94261305044354]},{"id":"pt.ine.add.PTCONT.4782095","rua":"R DQ DE PALMELA","casa":"53","coordenadas":[38.56137544318506,-8.942442079257637]},{"id":"pt.ine.add.PTCONT.4790764","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.55052362512929,-8.976459087163263]},{"id":"pt.ine.add.PTCONT.4798385","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.55039784333739,-8.975161360857745]},{"id":"pt.ine.add.PTCONT.4822669","rua":"R DQ PALMELA","casa":"CASA 5","coordenadas":[38.561006848264434,-8.942334688344511]},{"id":"pt.ine.add.PTCONT.4873503","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.5494729605048,-8.974749082807467]},{"id":"pt.ine.add.PTCONT.4885136","rua":"R CAMILO CASTELO BRANCO","casa":"6","coordenadas":[38.55026149950185,-8.976582209056525]},{"id":"pt.ine.add.PTCONT.4908227","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.550012171867444,-8.974927437606564]},{"id":"pt.ine.add.PTCONT.4918514","rua":"R DQ DE PALMELA","casa":"","coordenadas":[38.55943715814871,-8.942661269933003]},{"id":"pt.ine.add.PTCONT.4928740","rua":"R CAMILO CASTELO BRANCO","casa":"11 A","coordenadas":[38.55119174362603,-8.977499320631665]},{"id":"pt.ine.add.PTCONT.4932048","rua":"R DQ DE PALMELA CASAL S JULIÃO","casa":"51","coordenadas":[38.56109644770425,-8.94240453121398]},{"id":"pt.ine.add.PTCONT.4941999","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.550684271997056,-8.976667448079736]},{"id":"pt.ine.add.PTCONT.4943556","rua":"R CAMILO CASTELO BRANCO","casa":"15","coordenadas":[38.55088962511231,-8.976922217966694]},{"id":"pt.ine.add.PTCONT.4956622","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.55143395227851,-8.977639811282277]},{"id":"pt.ine.add.PTCONT.5001772","rua":"SERRA DO LOURO","casa":"","coordenadas":[38.5549496144496,-8.944171134689732]},{"id":"pt.ine.add.PTCONT.5008682","rua":"R CAMILO CASTELO BRANCO","casa":"7A","coordenadas":[38.55101622282226,-8.975604486954019]},{"id":"pt.ine.add.PTCONT.5010735","rua":"R CAMILO CASTELO BRANCO JASL","casa":"JASL","coordenadas":[38.54976228592389,-8.977104051583872]},{"id":"pt.ine.add.PTCONT.5062435","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.548903097717194,-8.975075100275866]},{"id":"pt.ine.add.PTCONT.5076900","rua":"R CAMILO CASTELO BRANCO","casa":"31","coordenadas":[38.548219860452896,-8.976133931044844]},{"id":"pt.ine.add.PTCONT.5085547","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.55110299258918,-8.977314739951533]},{"id":"pt.ine.add.PTCONT.5103202","rua":"R DQ DE PALMELA QTA DO ANSO","casa":"","coordenadas":[38.55940577034975,-8.943291919279753]},{"id":"pt.ine.add.PTCONT.5115267","rua":"R CAMILO CASTELO BRANCO","casa":"8","coordenadas":[38.55019034876136,-8.97645519381944]}],"ruas":["R CAMILO CASTELO BRANCO","R DQ PALMELA","R DQ DE PALMELA","R DQ DE PALMELA CASAL S JULIÃO","SERRA DO LOURO","R CAMILO CASTELO BRANCO JASL","R DQ DE PALMELA QTA DO ANSO"],"centroide":[38.552756428204674,-8.966989832560229]}
+{
+  "CP": "2950-613",
+  "CP4": "2950",
+  "CP3": "613",
+  "Distrito": "Setúbal",
+  "Concelho": "Palmela",
+  "Localidade": "Quinta do Anjo",
+  "Designação Postal": "QUINTA DO ANJO",
+  "partes": [
+    {
+      "Artéria": "Rua Camilo Castelo Branco",
+      "Local": "Cabanas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4674976",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "4",
+      "coordenadas": [
+        38.5503768608214,
+        -8.976824454129432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4711149",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.54765792709898,
+        -8.976609145936182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4718401",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.54780287303661,
+        -8.976496130473679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4722398",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "2",
+      "coordenadas": [
+        38.550654438738135,
+        -8.97705712504225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4731084",
+      "rua": "R DQ PALMELA",
+      "casa": "55",
+      "coordenadas": [
+        38.56127517045983,
+        -8.94261305044354
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4782095",
+      "rua": "R DQ DE PALMELA",
+      "casa": "53",
+      "coordenadas": [
+        38.56137544318506,
+        -8.942442079257637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4790764",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.55052362512929,
+        -8.976459087163263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4798385",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.55039784333739,
+        -8.975161360857745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4822669",
+      "rua": "R DQ PALMELA",
+      "casa": "CASA 5",
+      "coordenadas": [
+        38.561006848264434,
+        -8.942334688344511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4873503",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.5494729605048,
+        -8.974749082807467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4885136",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "6",
+      "coordenadas": [
+        38.55026149950185,
+        -8.976582209056525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4908227",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.550012171867444,
+        -8.974927437606564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4918514",
+      "rua": "R DQ DE PALMELA",
+      "casa": "",
+      "coordenadas": [
+        38.55943715814871,
+        -8.942661269933003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4928740",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11 A",
+      "coordenadas": [
+        38.55119174362603,
+        -8.977499320631665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4932048",
+      "rua": "R DQ DE PALMELA CASAL S JULIÃO",
+      "casa": "51",
+      "coordenadas": [
+        38.56109644770425,
+        -8.94240453121398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4941999",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.550684271997056,
+        -8.976667448079736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4943556",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "15",
+      "coordenadas": [
+        38.55088962511231,
+        -8.976922217966694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4956622",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.55143395227851,
+        -8.977639811282277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5001772",
+      "rua": "SERRA DO LOURO",
+      "casa": "",
+      "coordenadas": [
+        38.5549496144496,
+        -8.944171134689732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5008682",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "7A",
+      "coordenadas": [
+        38.55101622282226,
+        -8.975604486954019
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5010735",
+      "rua": "R CAMILO CASTELO BRANCO JASL",
+      "casa": "JASL",
+      "coordenadas": [
+        38.54976228592389,
+        -8.977104051583872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5062435",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.548903097717194,
+        -8.975075100275866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5076900",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "31",
+      "coordenadas": [
+        38.548219860452896,
+        -8.976133931044844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5085547",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.55110299258918,
+        -8.977314739951533
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5103202",
+      "rua": "R DQ DE PALMELA QTA DO ANSO",
+      "casa": "",
+      "coordenadas": [
+        38.55940577034975,
+        -8.943291919279753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5115267",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "8",
+      "coordenadas": [
+        38.55019034876136,
+        -8.97645519381944
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAMILO CASTELO BRANCO",
+    "R DQ PALMELA",
+    "R DQ DE PALMELA",
+    "R DQ DE PALMELA CASAL S JULIÃO",
+    "SERRA DO LOURO",
+    "R CAMILO CASTELO BRANCO JASL",
+    "R DQ DE PALMELA QTA DO ANSO"
+  ],
+  "centro": [
+    38.55451668514202,
+    -8.959987249813395
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.54978194126247,
+                -8.977188895193361
+              ],
+              [
+                38.54930993811502,
+                -8.9770600620251
+              ],
+              [
+                38.549010867975866,
+                -8.976440489077145
+              ],
+              [
+                38.548884730844996,
+                -8.975330176349498
+              ],
+              [
+                38.548931526722406,
+                -8.973729123842157
+              ],
+              [
+                38.549151255608095,
+                -8.97163733155512
+              ],
+              [
+                38.54954391750208,
+                -8.969054799488394
+              ],
+              [
+                38.55010951240433,
+                -8.965981527641974
+              ],
+              [
+                38.550848040314875,
+                -8.96241751601586
+              ],
+              [
+                38.551759501233704,
+                -8.958362764610053
+              ],
+              [
+                38.552627147407975,
+                -8.95479126549315
+              ],
+              [
+                38.55345097883769,
+                -8.951703018665146
+              ],
+              [
+                38.55423099552286,
+                -8.949098024126046
+              ],
+              [
+                38.554967197463455,
+                -8.946976281875848
+              ],
+              [
+                38.55565958465951,
+                -8.94533779191455
+              ],
+              [
+                38.55630815711102,
+                -8.944182554242158
+              ],
+              [
+                38.55691291481796,
+                -8.943510568858663
+              ],
+              [
+                38.55747385778035,
+                -8.943321835764072
+              ],
+              [
+                38.55798920928049,
+                -8.943151591468984
+              ],
+              [
+                38.55845896931841,
+                -8.942999835973401
+              ],
+              [
+                38.55888313789407,
+                -8.94286656927732
+              ],
+              [
+                38.55926171500751,
+                -8.942751791380743
+              ],
+              [
+                38.55959470065869,
+                -8.942655502283671
+              ],
+              [
+                38.55988209484764,
+                -8.942577701986103
+              ],
+              [
+                38.56012389757434,
+                -8.942518390488038
+              ],
+              [
+                38.5603201088388,
+                -8.942477567789476
+              ],
+              [
+                38.56049755299084,
+                -8.942443525911253
+              ],
+              [
+                38.56065623003046,
+                -8.94241626485337
+              ],
+              [
+                38.56079613995766,
+                -8.94239578461582
+              ],
+              [
+                38.56091728277244,
+                -8.942382085198608
+              ],
+              [
+                38.561019658474784,
+                -8.942375166601735
+              ],
+              [
+                38.5611032670647,
+                -8.9423750288252
+              ],
+              [
+                38.561168108542205,
+                -8.942381671869002
+              ],
+              [
+                38.561214182907285,
+                -8.942395095733145
+              ],
+              [
+                38.56109916218131,
+                -8.942956806177154
+              ],
+              [
+                38.56082304636429,
+                -8.944066803201029
+              ],
+              [
+                38.560385835456216,
+                -8.94572508680477
+              ],
+              [
+                38.5597875294571,
+                -8.94793165698838
+              ],
+              [
+                38.559028128366926,
+                -8.950686513751858
+              ],
+              [
+                38.55810763218571,
+                -8.953989657095203
+              ],
+              [
+                38.55702604091344,
+                -8.957841087018416
+              ],
+              [
+                38.55578335455012,
+                -8.962240803521496
+              ],
+              [
+                38.554637003588795,
+                -8.96607445131566
+              ],
+              [
+                38.55358698802944,
+                -8.969342030400902
+              ],
+              [
+                38.55263330787208,
+                -8.97204354077723
+              ],
+              [
+                38.5517759631167,
+                -8.97417898244464
+              ],
+              [
+                38.5510149537633,
+                -8.97574835540313
+              ],
+              [
+                38.550350279811894,
+                -8.976751659652706
+              ],
+              [
+                38.54978194126247,
+                -8.977188895193361
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.55597682390421,
+    -8.954309688240558
+  ],
+  "centroDeMassa": [
+    38.55451668514202,
+    -8.959987249813395
+  ]
+}

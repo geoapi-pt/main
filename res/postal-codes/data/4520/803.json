@@ -1,1 +1,384 @@
-{"CP4":"4520","CP3":"803","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4520-803","Artéria":" ","Localidade":"Areias","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"TRAVANCA VFR","locais":[{"id":"pt.ine.add.PTCONT.339772","rua":"R CHÃO DA PEDRA","casa":"70","coordenadas":[40.91015110551659,-8.577253635068324]},{"id":"pt.ine.add.PTCONT.344615","rua":"R CHÃO DA PEDRA","casa":"330","coordenadas":[40.907928162748064,-8.57926837366767]},{"id":"pt.ine.add.PTCONT.345665","rua":"R CHÃO DA PEDRA","casa":"350","coordenadas":[40.90780164042423,-8.579386213838617]},{"id":"pt.ine.add.PTCONT.218011","rua":"R CHAO DA PEDRA","casa":"74","coordenadas":[40.90967286076454,-8.577511561529247]},{"id":"pt.ine.add.PTCONT.218012","rua":"R CHAO PEDRA","casa":"754","coordenadas":[40.90967286076454,-8.577511561529247]},{"id":"pt.ine.add.PTCONT.227102","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227104","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227105","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227106","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227107","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227108","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227109","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227110","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227111","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227112","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227113","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227114","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227115","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227116","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.227117","rua":"R CONCEIÇÃO MARTINS DE SÁ","casa":"40","coordenadas":[40.93287078643694,-8.560367214927613]},{"id":"pt.ine.add.PTCONT.237305","rua":"R CHAO PEDRA","casa":"380","coordenadas":[40.90792637104767,-8.579731255750737]},{"id":"pt.ine.add.PTCONT.246284","rua":"R CHÃO DA PEDRA","casa":"","coordenadas":[40.90929425981668,-8.577615850605696]}],"ruas":["R CHÃO DA PEDRA","R CHAO DA PEDRA","R CHAO PEDRA","R CONCEIÇÃO MARTINS DE SÁ"],"centroide":[40.92601022846762,-8.565531944061812]}
+{
+  "CP": "4520-803",
+  "CP4": "4520",
+  "CP3": "803",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Areias",
+  "Designação Postal": "TRAVANCA VFR",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.339772",
+      "rua": "R CHÃO DA PEDRA",
+      "casa": "70",
+      "coordenadas": [
+        40.91015110551659,
+        -8.577253635068324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.344615",
+      "rua": "R CHÃO DA PEDRA",
+      "casa": "330",
+      "coordenadas": [
+        40.907928162748064,
+        -8.57926837366767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.345665",
+      "rua": "R CHÃO DA PEDRA",
+      "casa": "350",
+      "coordenadas": [
+        40.90780164042423,
+        -8.579386213838617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.218011",
+      "rua": "R CHAO DA PEDRA",
+      "casa": "74",
+      "coordenadas": [
+        40.90967286076454,
+        -8.577511561529247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.218012",
+      "rua": "R CHAO PEDRA",
+      "casa": "754",
+      "coordenadas": [
+        40.90967286076454,
+        -8.577511561529247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227102",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227104",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227105",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227106",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227107",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227108",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227109",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227110",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227111",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227112",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227113",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227114",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227115",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227116",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227117",
+      "rua": "R CONCEIÇÃO MARTINS DE SÁ",
+      "casa": "40",
+      "coordenadas": [
+        40.93287078643694,
+        -8.560367214927613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.237305",
+      "rua": "R CHAO PEDRA",
+      "casa": "380",
+      "coordenadas": [
+        40.90792637104767,
+        -8.579731255750737
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.246284",
+      "rua": "R CHÃO DA PEDRA",
+      "casa": "",
+      "coordenadas": [
+        40.90929425981668,
+        -8.577615850605696
+      ]
+    }
+  ],
+  "ruas": [
+    "R CHÃO DA PEDRA",
+    "R CHAO DA PEDRA",
+    "R CHAO PEDRA",
+    "R CONCEIÇÃO MARTINS DE SÁ"
+  ],
+  "centro": [
+    40.92033621343059,
+    -8.570049235339175
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.90787180139992,
+                -8.579580299914184
+              ],
+              [
+                40.907856210071984,
+                -8.57953716967517
+              ],
+              [
+                40.90786588983806,
+                -8.579471768790519
+              ],
+              [
+                40.90790084069812,
+                -8.579384097260228
+              ],
+              [
+                40.907961062652184,
+                -8.5792741550843
+              ],
+              [
+                40.90804655570025,
+                -8.579141942262735
+              ],
+              [
+                40.90815731984232,
+                -8.578987458795533
+              ],
+              [
+                40.90829335507837,
+                -8.578810704682692
+              ],
+              [
+                40.90845466140843,
+                -8.578611679924213
+              ],
+              [
+                40.90864123883249,
+                -8.5783903845201
+              ],
+              [
+                40.90917287730697,
+                -8.577927241109029
+              ],
+              [
+                40.9100495768319,
+                -8.577222249691001
+              ],
+              [
+                40.911271337407264,
+                -8.57627541026602
+              ],
+              [
+                40.91283815903306,
+                -8.575086722834081
+              ],
+              [
+                40.91475004170929,
+                -8.573656187395187
+              ],
+              [
+                40.91700698543595,
+                -8.57198380394934
+              ],
+              [
+                40.91960899021304,
+                -8.570069572496536
+              ],
+              [
+                40.922556056040584,
+                -8.567913493036773
+              ],
+              [
+                40.924744982149214,
+                -8.566329486647344
+              ],
+              [
+                40.92617576853895,
+                -8.56531755332825
+              ],
+              [
+                40.92684841520978,
+                -8.564877693079481
+              ],
+              [
+                40.926762922161714,
+                -8.565009905901046
+              ],
+              [
+                40.925919289394756,
+                -8.565714191792942
+              ],
+              [
+                40.92431751690889,
+                -8.566990550755168
+              ],
+              [
+                40.92195760470413,
+                -8.568838982787728
+              ],
+              [
+                40.91883955278048,
+                -8.571259487890622
+              ],
+              [
+                40.91610930843129,
+                -8.573372038575773
+              ],
+              [
+                40.91376687165656,
+                -8.575176634843189
+              ],
+              [
+                40.91181224245631,
+                -8.576673276692864
+              ],
+              [
+                40.910245420830506,
+                -8.5778619641248
+              ],
+              [
+                40.909066406779175,
+                -8.578742697138999
+              ],
+              [
+                40.90827520030231,
+                -8.579315475735461
+              ],
+              [
+                40.90787180139992,
+                -8.579580299914184
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.914473264431386,
+    -8.574275133780667
+  ],
+  "centroDeMassa": [
+    40.92033621343059,
+    -8.570049235339175
+  ]
+}

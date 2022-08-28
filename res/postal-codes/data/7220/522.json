@@ -1,1 +1,411 @@
-{"CP4":"7220","CP3":"522","Distrito":"Évora","Concelho":"Portel","CP":"7220-522","Artéria":"Rua B","Localidade":"São Bartolomeu do Outeiro","Local":"Bairro das Amoreiras","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO BARTOLOMEU DO OUTEIRO","locais":[{"id":"pt.ine.add.PTCONT.1380234","rua":"R C BR DAS AMOREIRAS","casa":"2","coordenadas":[38.35747357961264,-7.91068528749396]},{"id":"pt.ine.add.PTCONT.1386733","rua":"R C BR DAS AMOREIRAS","casa":"8","coordenadas":[38.35715827590768,-7.91068625215645]},{"id":"pt.ine.add.PTCONT.1386734","rua":"R B BR DAS AMOREIRAS","casa":"9","coordenadas":[38.35708874113272,-7.910489250794209]},{"id":"pt.ine.add.PTCONT.1389119","rua":"R C BR DAS AMOREIRAS","casa":"3","coordenadas":[38.357393087075636,-7.9109944418387474]},{"id":"pt.ine.add.PTCONT.1391621","rua":"R C BR DAS AMOREIRAS","casa":"5","coordenadas":[38.3572669655913,-7.910994827168114]},{"id":"pt.ine.add.PTCONT.1401250","rua":"R C BR DAS AMOREIRAS","casa":"1","coordenadas":[38.357501191202864,-7.910994111554517]},{"id":"pt.ine.add.PTCONT.1405021","rua":"R C","casa":"4","coordenadas":[38.35741813284619,-7.911207445608641]},{"id":"pt.ine.add.PTCONT.1405778","rua":"R B BR DAS AMOREIRAS","casa":"1","coordenadas":[38.35750287954297,-7.910350689941735]},{"id":"pt.ine.add.PTCONT.1421599","rua":"R C","casa":"2","coordenadas":[38.35750821961992,-7.9112071706356035]},{"id":"pt.ine.add.PTCONT.1423861","rua":"R C","casa":"96","coordenadas":[38.35728302433372,-7.91121929902251]},{"id":"pt.ine.add.PTCONT.1426725","rua":"R C BR DAS AMOREIRAS","casa":"6","coordenadas":[38.35725739306135,-7.91069738993061]},{"id":"pt.ine.add.PTCONT.1434236","rua":"R C","casa":"8","coordenadas":[38.357201967883825,-7.911230987426644]},{"id":"pt.ine.add.PTCONT.1442549","rua":"R C BR DAS AMOREIRAS","casa":"7","coordenadas":[38.35716791347931,-7.911018011801888]},{"id":"pt.ine.add.PTCONT.1445505","rua":"R C BR DAS AMOREIRAS","casa":"4","coordenadas":[38.35738347113862,-7.910674122141336]},{"id":"pt.ine.add.PTCONT.1448065","rua":"R C BR DAS AMOREIRAS","casa":"9","coordenadas":[38.35706877468187,-7.910995432680822]},{"id":"pt.ine.add.PTCONT.1451112","rua":"R C BR DAS AMOREIRAS","casa":"11","coordenadas":[38.35696970089599,-7.91100717634209]},{"id":"pt.ine.add.PTCONT.1453795","rua":"R C","casa":"16","coordenadas":[38.356658814101216,-7.911301290634001]},{"id":"pt.ine.add.PTCONT.1458767","rua":"R C BR DAS AMOREIRAS","casa":"10","coordenadas":[38.357050193477924,-7.910698023813972]},{"id":"pt.ine.add.PTCONT.1460226","rua":"R C","casa":"12","coordenadas":[38.356992091915956,-7.911277391863771]},{"id":"pt.ine.add.PTCONT.1463251","rua":"R B BR DAS AMOREIRAS","casa":"5","coordenadas":[38.35731387117111,-7.910442797298946]}],"ruas":["R C BR DAS AMOREIRAS","R B BR DAS AMOREIRAS","R C"],"centroide":[38.35722865355272,-7.910933084360505]}
+{
+  "CP": "7220-522",
+  "CP4": "7220",
+  "CP3": "522",
+  "Distrito": "Évora",
+  "Concelho": "Portel",
+  "Localidade": "São Bartolomeu do Outeiro",
+  "Designação Postal": "SÃO BARTOLOMEU DO OUTEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua C",
+      "Local": "Bairro das Amoreiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua A",
+      "Local": "Bairro das Amoreiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua B",
+      "Local": "Bairro das Amoreiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1380234",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "2",
+      "coordenadas": [
+        38.35747357961264,
+        -7.91068528749396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1386733",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "8",
+      "coordenadas": [
+        38.35715827590768,
+        -7.91068625215645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1386734",
+      "rua": "R B BR DAS AMOREIRAS",
+      "casa": "9",
+      "coordenadas": [
+        38.35708874113272,
+        -7.910489250794209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1389119",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "3",
+      "coordenadas": [
+        38.357393087075636,
+        -7.9109944418387474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1391621",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "5",
+      "coordenadas": [
+        38.3572669655913,
+        -7.910994827168114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1401250",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "1",
+      "coordenadas": [
+        38.357501191202864,
+        -7.910994111554517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1405021",
+      "rua": "R C",
+      "casa": "4",
+      "coordenadas": [
+        38.35741813284619,
+        -7.911207445608641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1405778",
+      "rua": "R B BR DAS AMOREIRAS",
+      "casa": "1",
+      "coordenadas": [
+        38.35750287954297,
+        -7.910350689941735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421599",
+      "rua": "R C",
+      "casa": "2",
+      "coordenadas": [
+        38.35750821961992,
+        -7.9112071706356035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1423861",
+      "rua": "R C",
+      "casa": "96",
+      "coordenadas": [
+        38.35728302433372,
+        -7.91121929902251
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1426725",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "6",
+      "coordenadas": [
+        38.35725739306135,
+        -7.91069738993061
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1434236",
+      "rua": "R C",
+      "casa": "8",
+      "coordenadas": [
+        38.357201967883825,
+        -7.911230987426644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1442549",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "7",
+      "coordenadas": [
+        38.35716791347931,
+        -7.911018011801888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1445505",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "4",
+      "coordenadas": [
+        38.35738347113862,
+        -7.910674122141336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448065",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "9",
+      "coordenadas": [
+        38.35706877468187,
+        -7.910995432680822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1451112",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "11",
+      "coordenadas": [
+        38.35696970089599,
+        -7.91100717634209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1453795",
+      "rua": "R C",
+      "casa": "16",
+      "coordenadas": [
+        38.356658814101216,
+        -7.911301290634001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1458767",
+      "rua": "R C BR DAS AMOREIRAS",
+      "casa": "10",
+      "coordenadas": [
+        38.357050193477924,
+        -7.910698023813972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1460226",
+      "rua": "R C",
+      "casa": "12",
+      "coordenadas": [
+        38.356992091915956,
+        -7.911277391863771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1463251",
+      "rua": "R B BR DAS AMOREIRAS",
+      "casa": "5",
+      "coordenadas": [
+        38.35731387117111,
+        -7.910442797298946
+      ]
+    }
+  ],
+  "ruas": [
+    "R C BR DAS AMOREIRAS",
+    "R B BR DAS AMOREIRAS",
+    "R C"
+  ],
+  "centro": [
+    38.35708351686057,
+    -7.910825990287869
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.356846282872006,
+                -7.911287847575746
+              ],
+              [
+                38.356804623145166,
+                -7.911290834922025
+              ],
+              [
+                38.356774888494044,
+                -7.911280760727522
+              ],
+              [
+                38.35675707891865,
+                -7.911257624992238
+              ],
+              [
+                38.35675119441897,
+                -7.911221427716172
+              ],
+              [
+                38.35675723499502,
+                -7.911172168899325
+              ],
+              [
+                38.356775200646794,
+                -7.911109848541696
+              ],
+              [
+                38.356805091374284,
+                -7.911034466643285
+              ],
+              [
+                38.3568469071775,
+                -7.910946023204092
+              ],
+              [
+                38.35690064805644,
+                -7.910844518224119
+              ],
+              [
+                38.356954142238166,
+                -7.9107535363533215
+              ],
+              [
+                38.357007389722696,
+                -7.9106730775917
+              ],
+              [
+                38.357060390510014,
+                -7.910603141939257
+              ],
+              [
+                38.35711314460012,
+                -7.910543729395991
+              ],
+              [
+                38.35716565199303,
+                -7.910494839961901
+              ],
+              [
+                38.357217912688725,
+                -7.910456473636987
+              ],
+              [
+                38.35726992668721,
+                -7.910428630421251
+              ],
+              [
+                38.35732169398848,
+                -7.910411310314693
+              ],
+              [
+                38.35736707381581,
+                -7.910409537732295
+              ],
+              [
+                38.35740606616917,
+                -7.910423312674057
+              ],
+              [
+                38.35743867104858,
+                -7.910452635139983
+              ],
+              [
+                38.35746488845403,
+                -7.910497505130071
+              ],
+              [
+                38.35748471838552,
+                -7.910557922644321
+              ],
+              [
+                38.357498160843065,
+                -7.91063388768273
+              ],
+              [
+                38.35750521582664,
+                -7.910725400245302
+              ],
+              [
+                38.35750588333625,
+                -7.910832460332037
+              ],
+              [
+                38.357498402911794,
+                -7.9109272351146185
+              ],
+              [
+                38.35748277455327,
+                -7.911009724593048
+              ],
+              [
+                38.357458998260654,
+                -7.911079928767327
+              ],
+              [
+                38.35742707403397,
+                -7.911137847637455
+              ],
+              [
+                38.35738700187321,
+                -7.91118348120343
+              ],
+              [
+                38.35733878177837,
+                -7.911216829465255
+              ],
+              [
+                38.357282413749445,
+                -7.911237892422927
+              ],
+              [
+                38.35721789778644,
+                -7.911246670076448
+              ],
+              [
+                38.357156238852966,
+                -7.911254723941563
+              ],
+              [
+                38.35709743694901,
+                -7.911262054018273
+              ],
+              [
+                38.35704149207457,
+                -7.911268660306579
+              ],
+              [
+                38.35698840422965,
+                -7.9112745428064795
+              ],
+              [
+                38.35693817341425,
+                -7.911279701517974
+              ],
+              [
+                38.35689079962837,
+                -7.911284136441063
+              ],
+              [
+                38.356846282872006,
+                -7.911287847575746
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.35715014926255,
+    -7.910925158773864
+  ],
+  "centroDeMassa": [
+    38.35708351686057,
+    -7.910825990287869
+  ]
+}

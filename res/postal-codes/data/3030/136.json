@@ -1,1 +1,415 @@
-{"CP4":"3030","CP3":"136","Distrito":"Coimbra","Concelho":"Coimbra","CP":"3030-136","Artéria":"Rua Nossa Senhora da Guia","Localidade":"Coimbra","Local":"Casal da Misarela","Troço":"","Porta":"","Cliente":"","Designação Postal":"COIMBRA","locais":[{"id":"pt.ine.add.PTCONT.1102549","rua":"R NSA SRA DA GUIA","casa":"5","coordenadas":[40.20577338903407,-8.365345737161263]},{"id":"pt.ine.add.PTCONT.1166541","rua":"R NSA SRA DA GUIA","casa":"22","coordenadas":[40.20629336320967,-8.36652209673532]},{"id":"pt.ine.add.PTCONT.1169780","rua":"R NSA SRA DA GUIA","casa":"17","coordenadas":[40.20623044099695,-8.366463151715468]},{"id":"pt.ine.add.PTCONT.1169781","rua":"R NSA SRA DA GUIA","casa":"17","coordenadas":[40.20623044099695,-8.366463151715468]},{"id":"pt.ine.add.PTCONT.1171875","rua":"R NSA SRA DA GUIA","casa":"26","coordenadas":[40.20635588249096,-8.366780720127235]},{"id":"pt.ine.add.PTCONT.1171876","rua":"R NSA SRA DA GUIA","casa":"3","coordenadas":[40.205828059659524,-8.365028787925377]},{"id":"pt.ine.add.PTCONT.1191935","rua":"R NSA SRA DA GUIA","casa":"15","coordenadas":[40.20618571969533,-8.366310302544289]},{"id":"pt.ine.add.PTCONT.1206416","rua":"R NSA SRA DA GUIA","casa":"29","coordenadas":[40.206346544629994,-8.366945130100985]},{"id":"pt.ine.add.PTCONT.1218029","rua":"R NSA SRA DA GUIA","casa":"19","coordenadas":[40.20624894957473,-8.36621655247853]},{"id":"pt.ine.add.PTCONT.1236859","rua":"R NSA SRA DA GUIA","casa":"21","coordenadas":[40.20621190819065,-8.366721496571015]},{"id":"pt.ine.add.PTCONT.1240216","rua":"R NSA SRA DA GUIA","casa":"25","coordenadas":[40.2062566526672,-8.366862600305858]},{"id":"pt.ine.add.PTCONT.1259220","rua":"R NSA SRA DA GUIA","casa":"31","coordenadas":[40.20644560845134,-8.366945470503618]},{"id":"pt.ine.add.PTCONT.1275245","rua":"R NSA SRA DA GUIA","casa":"7","coordenadas":[40.206043539580804,-8.36535840489486]},{"id":"pt.ine.add.PTCONT.1277225","rua":"R NSA SRA DA GUIA","casa":"23","coordenadas":[40.20622975383756,-8.366803778710985]},{"id":"pt.ine.add.PTCONT.1289718","rua":"TV ELÍSIO DE MOURA","casa":"5","coordenadas":[40.2063291969096,-8.366616186498863]},{"id":"pt.ine.add.PTCONT.1293823","rua":"R NSA SRA GUIA","casa":"","coordenadas":[40.20658955889574,-8.367016440559114]},{"id":"pt.ine.add.PTCONT.1303707","rua":"R NSA SRA DA GUIA","casa":"28","coordenadas":[40.206427834057,-8.366827950688478]},{"id":"pt.ine.add.PTCONT.1305613","rua":"R NSA SRA DA GUIA","casa":"30","coordenadas":[40.20649096952103,-8.366781183986845]},{"id":"pt.ine.add.PTCONT.1334071","rua":"R NSA SRA DA GUIA","casa":"24","coordenadas":[40.206284238973,-8.366580794685202]},{"id":"pt.ine.add.PTCONT.1340221","rua":"R NSA SRA DA GUIA","casa":"13","coordenadas":[40.20615955335836,-8.365887363080155]},{"id":"pt.ine.add.PTCONT.1342278","rua":"R NSA SRA DA GUIA","casa":"1","coordenadas":[40.20590951177069,-8.36482938717213]},{"id":"pt.ine.add.PTCONT.1352512","rua":"R NSA SRA DA GUIA","casa":"27","coordenadas":[40.20621143387083,-8.366956411673288]}],"ruas":["R NSA SRA DA GUIA","TV ELÍSIO DE MOURA","R NSA SRA GUIA"],"centroide":[40.20623195792862,-8.36634793753148]}
+{
+  "CP": "3030-136",
+  "CP4": "3030",
+  "CP3": "136",
+  "Distrito": "Coimbra",
+  "Concelho": "Coimbra",
+  "Localidade": "Coimbra",
+  "Designação Postal": "COIMBRA",
+  "partes": [
+    {
+      "Artéria": "Rua Nossa Senhora da Guia",
+      "Local": "Casal da Misarela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1102549",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "5",
+      "coordenadas": [
+        40.20577338903407,
+        -8.365345737161263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1166541",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "22",
+      "coordenadas": [
+        40.20629336320967,
+        -8.36652209673532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1169780",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "17",
+      "coordenadas": [
+        40.20623044099695,
+        -8.366463151715468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1169781",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "17",
+      "coordenadas": [
+        40.20623044099695,
+        -8.366463151715468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1171875",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "26",
+      "coordenadas": [
+        40.20635588249096,
+        -8.366780720127235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1171876",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "3",
+      "coordenadas": [
+        40.205828059659524,
+        -8.365028787925377
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1191935",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "15",
+      "coordenadas": [
+        40.20618571969533,
+        -8.366310302544289
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1206416",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "29",
+      "coordenadas": [
+        40.206346544629994,
+        -8.366945130100985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1218029",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "19",
+      "coordenadas": [
+        40.20624894957473,
+        -8.36621655247853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1236859",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "21",
+      "coordenadas": [
+        40.20621190819065,
+        -8.366721496571015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1240216",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "25",
+      "coordenadas": [
+        40.2062566526672,
+        -8.366862600305858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1259220",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "31",
+      "coordenadas": [
+        40.20644560845134,
+        -8.366945470503618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1275245",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "7",
+      "coordenadas": [
+        40.206043539580804,
+        -8.36535840489486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1277225",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "23",
+      "coordenadas": [
+        40.20622975383756,
+        -8.366803778710985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1289718",
+      "rua": "TV ELÍSIO DE MOURA",
+      "casa": "5",
+      "coordenadas": [
+        40.2063291969096,
+        -8.366616186498863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1293823",
+      "rua": "R NSA SRA GUIA",
+      "casa": "",
+      "coordenadas": [
+        40.20658955889574,
+        -8.367016440559114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1303707",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "28",
+      "coordenadas": [
+        40.206427834057,
+        -8.366827950688478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1305613",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "30",
+      "coordenadas": [
+        40.20649096952103,
+        -8.366781183986845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1334071",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "24",
+      "coordenadas": [
+        40.206284238973,
+        -8.366580794685202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1340221",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "13",
+      "coordenadas": [
+        40.20615955335836,
+        -8.365887363080155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1342278",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "1",
+      "coordenadas": [
+        40.20590951177069,
+        -8.36482938717213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1352512",
+      "rua": "R NSA SRA DA GUIA",
+      "casa": "27",
+      "coordenadas": [
+        40.20621143387083,
+        -8.366956411673288
+      ]
+    }
+  ],
+  "ruas": [
+    "R NSA SRA DA GUIA",
+    "TV ELÍSIO DE MOURA",
+    "R NSA SRA GUIA"
+  ],
+  "centro": [
+    40.206181473964904,
+    -8.36592291386562
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.206019789254746,
+                -8.366251741574278
+              ],
+              [
+                40.20596503365015,
+                -8.366050407260273
+              ],
+              [
+                40.20591797672465,
+                -8.36586928740371
+              ],
+              [
+                40.20587861847825,
+                -8.365708382004586
+              ],
+              [
+                40.20584695891095,
+                -8.365567691062902
+              ],
+              [
+                40.20582299802274,
+                -8.365447214578658
+              ],
+              [
+                40.20580673581363,
+                -8.365346952551853
+              ],
+              [
+                40.20579817228362,
+                -8.365266904982489
+              ],
+              [
+                40.205797307432704,
+                -8.365207071870563
+              ],
+              [
+                40.20580414126089,
+                -8.365167453216078
+              ],
+              [
+                40.20581139354979,
+                -8.365129671256632
+              ],
+              [
+                40.2058190642994,
+                -8.36509372599223
+              ],
+              [
+                40.20582715350972,
+                -8.365059617422867
+              ],
+              [
+                40.20583566118076,
+                -8.365027345548548
+              ],
+              [
+                40.20584458731251,
+                -8.364996910369268
+              ],
+              [
+                40.205853931904976,
+                -8.364968311885029
+              ],
+              [
+                40.20586369495816,
+                -8.364941550095832
+              ],
+              [
+                40.205873876472054,
+                -8.364916625001674
+              ],
+              [
+                40.205893411033045,
+                -8.36492898825346
+              ],
+              [
+                40.20592229864112,
+                -8.364978639851188
+              ],
+              [
+                40.20596053929629,
+                -8.365065579794855
+              ],
+              [
+                40.206008132998555,
+                -8.365189808084462
+              ],
+              [
+                40.20606507974791,
+                -8.365351324720011
+              ],
+              [
+                40.20613137954436,
+                -8.365550129701502
+              ],
+              [
+                40.206207032387894,
+                -8.365786223028934
+              ],
+              [
+                40.206292038278534,
+                -8.366059604702308
+              ],
+              [
+                40.20636051022932,
+                -8.36629787571517
+              ],
+              [
+                40.206412448240265,
+                -8.366501036067518
+              ],
+              [
+                40.20644785231136,
+                -8.366669085759352
+              ],
+              [
+                40.20646672244263,
+                -8.366802024790674
+              ],
+              [
+                40.20646905863404,
+                -8.366899853161483
+              ],
+              [
+                40.206454860885614,
+                -8.366962570871781
+              ],
+              [
+                40.206424129197345,
+                -8.366990177921565
+              ],
+              [
+                40.206376863569226,
+                -8.366982674310837
+              ],
+              [
+                40.20632866169405,
+                -8.366950941862198
+              ],
+              [
+                40.20627952357182,
+                -8.366894980575653
+              ],
+              [
+                40.206229449202525,
+                -8.366814790451196
+              ],
+              [
+                40.20617843858617,
+                -8.36671037148883
+              ],
+              [
+                40.206126491722756,
+                -8.366581723688556
+              ],
+              [
+                40.20607360861228,
+                -8.36642884705037
+              ],
+              [
+                40.206019789254746,
+                -8.366251741574278
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.206062390646174,
+    -8.365835352898234
+  ],
+  "centroDeMassa": [
+    40.206181473964904,
+    -8.36592291386562
+  ]
+}

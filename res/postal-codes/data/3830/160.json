@@ -1,1 +1,437 @@
-{"CP4":"3830","CP3":"160","Distrito":"Aveiro","Concelho":"Ílhavo","CP":"3830-160","Artéria":"Rua do Curtido de Baixo","Localidade":"Ílhavo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÍLHAVO","locais":[{"id":"pt.ine.add.PTCONT.305791","rua":"R CURTIDO DE BAIXO","casa":"21","coordenadas":[40.60049202354993,-8.672424460217822]},{"id":"pt.ine.add.PTCONT.305792","rua":"BC SEM NOME RUA CURTIDO BAIXO","casa":"11B","coordenadas":[40.59982274055532,-8.672177608269573]},{"id":"pt.ine.add.PTCONT.324856","rua":"R CURTIDO DE BAIXO","casa":"23","coordenadas":[40.6005552165293,-8.67246247563711]},{"id":"pt.ine.add.PTCONT.333485","rua":"R CURTIDO DE BAIXO","casa":"6","coordenadas":[40.599843395452325,-8.671610683483326]},{"id":"pt.ine.add.PTCONT.6701","rua":"R CURTIDO DE BAIXO","casa":"11","coordenadas":[40.59991345073963,-8.67203656412785]},{"id":"pt.ine.add.PTCONT.7685","rua":"R CURTIDO DE BAIXO","casa":"13","coordenadas":[40.60019171936535,-8.672227830132567]},{"id":"pt.ine.add.PTCONT.19856","rua":"R CURTIDO DE BAIXO","casa":"11B","coordenadas":[40.60006598212192,-8.672155933399589]},{"id":"pt.ine.add.PTCONT.36043","rua":"R CURTIDO DE BAIXO","casa":"IC","coordenadas":[40.59977080569539,-8.671728244749346]},{"id":"pt.ine.add.PTCONT.58444","rua":"R CURTIDO DE BAIXO","casa":"11 A","coordenadas":[40.59986826105204,-8.672071644392567]},{"id":"pt.ine.add.PTCONT.88473","rua":"R CURTIDO DE BAIXO","casa":"3","coordenadas":[40.599663839952306,-8.671786211077436]},{"id":"pt.ine.add.PTCONT.88474","rua":"R CURTIDO DE BAIXO","casa":"3","coordenadas":[40.599663839952306,-8.671786211077436]},{"id":"pt.ine.add.PTCONT.92602","rua":"R CURTIDO DE BAIXO","casa":"16","coordenadas":[40.60001266959427,-8.672001917696969]},{"id":"pt.ine.add.PTCONT.113830","rua":"R CURTIDO DE BAIXO","casa":"12","coordenadas":[40.599932176954816,-8.671883127248144]},{"id":"pt.ine.add.PTCONT.113831","rua":"R CURTIDO DE BAIXO","casa":"12","coordenadas":[40.599932176954816,-8.671883127248144]},{"id":"pt.ine.add.PTCONT.160598","rua":"R CURTIDO DE BAIXO","casa":"","coordenadas":[40.599689927187605,-8.671692152502631]},{"id":"pt.ine.add.PTCONT.180182","rua":"R CURTIDO DE BAIXO","casa":"","coordenadas":[40.60056981328133,-8.672254496773029]},{"id":"pt.ine.add.PTCONT.209757","rua":"R CURTIDO DE BAIXO","casa":"5","coordenadas":[40.59977920448835,-8.671858270324439]},{"id":"pt.ine.add.PTCONT.215357","rua":"R CURTIDO DE BAIXO","casa":"13","coordenadas":[40.599832682567786,-8.671976843541518]},{"id":"pt.ine.add.PTCONT.253239","rua":"R CURTIDO DE BAIXO","casa":"8","coordenadas":[40.5996271134775,-8.671644390966494]},{"id":"pt.ine.add.PTCONT.255980","rua":"R CURTIDO DE BAIXO","casa":"5","coordenadas":[40.599716225546764,-8.671845950344299]},{"id":"pt.ine.add.PTCONT.285443","rua":"R CURTIDO DE BAIXO","casa":"15","coordenadas":[40.600353310552634,-8.672335458663412]}],"ruas":["R CURTIDO DE BAIXO","BC SEM NOME RUA CURTIDO BAIXO"],"centroide":[40.599947163250945,-8.671975407160515]}
+{
+  "CP": "3830-160",
+  "CP4": "3830",
+  "CP3": "160",
+  "Distrito": "Aveiro",
+  "Concelho": "Ílhavo",
+  "Localidade": "Ílhavo",
+  "Designação Postal": "ÍLHAVO",
+  "partes": [
+    {
+      "Artéria": "Rua do Curtido de Baixo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.305791",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "21",
+      "coordenadas": [
+        40.60049202354993,
+        -8.672424460217822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.305792",
+      "rua": "BC SEM NOME RUA CURTIDO BAIXO",
+      "casa": "11B",
+      "coordenadas": [
+        40.59982274055532,
+        -8.672177608269573
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.324856",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "23",
+      "coordenadas": [
+        40.6005552165293,
+        -8.67246247563711
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.333485",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "6",
+      "coordenadas": [
+        40.599843395452325,
+        -8.671610683483326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.6701",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "11",
+      "coordenadas": [
+        40.59991345073963,
+        -8.67203656412785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.7685",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "13",
+      "coordenadas": [
+        40.60019171936535,
+        -8.672227830132567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.19856",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "11B",
+      "coordenadas": [
+        40.60006598212192,
+        -8.672155933399589
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.36043",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "IC",
+      "coordenadas": [
+        40.59977080569539,
+        -8.671728244749346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.58444",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "11 A",
+      "coordenadas": [
+        40.59986826105204,
+        -8.672071644392567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.88473",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "3",
+      "coordenadas": [
+        40.599663839952306,
+        -8.671786211077436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.88474",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "3",
+      "coordenadas": [
+        40.599663839952306,
+        -8.671786211077436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92602",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "16",
+      "coordenadas": [
+        40.60001266959427,
+        -8.672001917696969
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.113830",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "12",
+      "coordenadas": [
+        40.599932176954816,
+        -8.671883127248144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.113831",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "12",
+      "coordenadas": [
+        40.599932176954816,
+        -8.671883127248144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.160598",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.599689927187605,
+        -8.671692152502631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.180182",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.60056981328133,
+        -8.672254496773029
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209757",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "5",
+      "coordenadas": [
+        40.59977920448835,
+        -8.671858270324439
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.215357",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "13",
+      "coordenadas": [
+        40.599832682567786,
+        -8.671976843541518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.253239",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "8",
+      "coordenadas": [
+        40.5996271134775,
+        -8.671644390966494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255980",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "5",
+      "coordenadas": [
+        40.599716225546764,
+        -8.671845950344299
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.285443",
+      "rua": "R CURTIDO DE BAIXO",
+      "casa": "15",
+      "coordenadas": [
+        40.600353310552634,
+        -8.672335458663412
+      ]
+    }
+  ],
+  "ruas": [
+    "R CURTIDO DE BAIXO",
+    "BC SEM NOME RUA CURTIDO BAIXO"
+  ],
+  "centro": [
+    40.60009846337942,
+    -8.672036579560217
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.59964777211958,
+                -8.6717241647789
+              ],
+              [
+                40.59964318131023,
+                -8.671706437265032
+              ],
+              [
+                40.59964254375791,
+                -8.671690399010973
+              ],
+              [
+                40.599645859462605,
+                -8.671676050016723
+              ],
+              [
+                40.59965312842433,
+                -8.671663390282282
+              ],
+              [
+                40.59966435064308,
+                -8.671652419807652
+              ],
+              [
+                40.599679526118855,
+                -8.671643138592827
+              ],
+              [
+                40.59969865485166,
+                -8.671635546637814
+              ],
+              [
+                40.59972173684149,
+                -8.671629643942609
+              ],
+              [
+                40.59974877208834,
+                -8.671625430507213
+              ],
+              [
+                40.599783778207915,
+                -8.671631803333891
+              ],
+              [
+                40.59982675520021,
+                -8.671648762422649
+              ],
+              [
+                40.59987770306523,
+                -8.671676307773481
+              ],
+              [
+                40.59993662180297,
+                -8.671714439386388
+              ],
+              [
+                40.60000351141343,
+                -8.671763157261374
+              ],
+              [
+                40.600078371896615,
+                -8.671822461398435
+              ],
+              [
+                40.60016120325252,
+                -8.67189235179757
+              ],
+              [
+                40.60025200548114,
+                -8.671972828458784
+              ],
+              [
+                40.60033122935694,
+                -8.672046495207097
+              ],
+              [
+                40.6003988748799,
+                -8.672113352042508
+              ],
+              [
+                40.60045494205004,
+                -8.67217339896502
+              ],
+              [
+                40.60049943086736,
+                -8.672226635974633
+              ],
+              [
+                40.60053234133184,
+                -8.672273063071344
+              ],
+              [
+                40.60055367344349,
+                -8.672312680255153
+              ],
+              [
+                40.60056342720232,
+                -8.672345487526064
+              ],
+              [
+                40.600561602608316,
+                -8.672371484884074
+              ],
+              [
+                40.60054856115147,
+                -8.672389781519716
+              ],
+              [
+                40.60052430283177,
+                -8.672400377432986
+              ],
+              [
+                40.600488827649244,
+                -8.672403272623889
+              ],
+              [
+                40.60044213560387,
+                -8.672398467092425
+              ],
+              [
+                40.60038422669565,
+                -8.67238596083859
+              ],
+              [
+                40.60031510092459,
+                -8.672365753862385
+              ],
+              [
+                40.60023475829068,
+                -8.672337846163812
+              ],
+              [
+                40.60014319879393,
+                -8.672302237742871
+              ],
+              [
+                40.60006060141236,
+                -8.672264964793419
+              ],
+              [
+                40.599986966145956,
+                -8.672226027315457
+              ],
+              [
+                40.59992229299472,
+                -8.672185425308987
+              ],
+              [
+                40.599866581958665,
+                -8.672143158774007
+              ],
+              [
+                40.59981983303777,
+                -8.672099227710518
+              ],
+              [
+                40.59978204623205,
+                -8.672053632118521
+              ],
+              [
+                40.599753221541505,
+                -8.672006371998012
+              ],
+              [
+                40.59973335896612,
+                -8.671957447348996
+              ],
+              [
+                40.59971540536149,
+                -8.671912422341872
+              ],
+              [
+                40.59969936072763,
+                -8.671871296976644
+              ],
+              [
+                40.59968522506451,
+                -8.671834071253308
+              ],
+              [
+                40.59967299837215,
+                -8.671800745171865
+              ],
+              [
+                40.59966268065054,
+                -8.671771318732315
+              ],
+              [
+                40.59965427189968,
+                -8.671745791934661
+              ],
+              [
+                40.59964777211958,
+                -8.6717241647789
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.600013686541345,
+    -8.671989311034494
+  ],
+  "centroDeMassa": [
+    40.60009846337942,
+    -8.672036579560217
+  ]
+}

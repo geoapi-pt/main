@@ -1,1 +1,275 @@
-{"CP4":"7350","CP3":"237","Distrito":"Portalegre","Concelho":"Elvas","CP":"7350-237","Artéria":"Praça dos Combatentes da Grande Guerra","Localidade":"Elvas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ELVAS","locais":[{"id":"pt.ine.add.PTCONT.3467001","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"6","coordenadas":[38.88190797780395,-7.159915764260416]},{"id":"pt.ine.add.PTCONT.3467004","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"6","coordenadas":[38.88190797780395,-7.159915764260416]},{"id":"pt.ine.add.PTCONT.3470053","rua":"PC COMBATENTES DA GRANDE GUERRA","casa":"3","coordenadas":[38.88215144499886,-7.15994701592157]},{"id":"pt.ine.add.PTCONT.3489111","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"10","coordenadas":[38.881725011470216,-7.1604238477658555]},{"id":"pt.ine.add.PTCONT.3500256","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"17","coordenadas":[38.88173008593102,-7.159821242867083]},{"id":"pt.ine.add.PTCONT.3508756","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"4","coordenadas":[38.88209740520312,-7.159947753128358]},{"id":"pt.ine.add.PTCONT.3508757","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"4","coordenadas":[38.88209740520312,-7.159947753128358]},{"id":"pt.ine.add.PTCONT.3508758","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"4","coordenadas":[38.88209740520312,-7.159947753128358]},{"id":"pt.ine.add.PTCONT.3508759","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"4","coordenadas":[38.88209740520312,-7.159947753128358]},{"id":"pt.ine.add.PTCONT.3524139","rua":"LG COMBATENTES GRANDE GUERRA","casa":"2C","coordenadas":[38.88220367088589,-7.160473016184906]}],"ruas":["LG COMBATENTES DA GRANDE GUERRA","PC COMBATENTES DA GRANDE GUERRA","LG COMBATENTES GRANDE GUERRA"],"centroide":[38.88197912431339,-7.1599794052876415]}
+{
+  "CP": "7350-237",
+  "CP4": "7350",
+  "CP3": "237",
+  "Distrito": "Portalegre",
+  "Concelho": "Elvas",
+  "Localidade": "Elvas",
+  "Designação Postal": "ELVAS",
+  "partes": [
+    {
+      "Artéria": "Praça dos Combatentes da Grande Guerra",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3467001",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "6",
+      "coordenadas": [
+        38.88190797780395,
+        -7.159915764260416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3467004",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "6",
+      "coordenadas": [
+        38.88190797780395,
+        -7.159915764260416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3470053",
+      "rua": "PC COMBATENTES DA GRANDE GUERRA",
+      "casa": "3",
+      "coordenadas": [
+        38.88215144499886,
+        -7.15994701592157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3489111",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "10",
+      "coordenadas": [
+        38.881725011470216,
+        -7.1604238477658555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3500256",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "17",
+      "coordenadas": [
+        38.88173008593102,
+        -7.159821242867083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3508756",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "4",
+      "coordenadas": [
+        38.88209740520312,
+        -7.159947753128358
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3508757",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "4",
+      "coordenadas": [
+        38.88209740520312,
+        -7.159947753128358
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3508758",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "4",
+      "coordenadas": [
+        38.88209740520312,
+        -7.159947753128358
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3508759",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "4",
+      "coordenadas": [
+        38.88209740520312,
+        -7.159947753128358
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3524139",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "2C",
+      "coordenadas": [
+        38.88220367088589,
+        -7.160473016184906
+      ]
+    }
+  ],
+  "ruas": [
+    "LG COMBATENTES DA GRANDE GUERRA",
+    "PC COMBATENTES DA GRANDE GUERRA",
+    "LG COMBATENTES GRANDE GUERRA"
+  ],
+  "centro": [
+    38.881964341178055,
+    -7.160147129525995
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.88199425739154,
+                -7.160451505001571
+              ],
+              [
+                38.88193442496457,
+                -7.16044535894919
+              ],
+              [
+                38.881882150879434,
+                -7.160430565451813
+              ],
+              [
+                38.88183743513611,
+                -7.16040712450944
+              ],
+              [
+                38.88180027773461,
+                -7.160375036122072
+              ],
+              [
+                38.88177067867494,
+                -7.160334300289708
+              ],
+              [
+                38.881748637957074,
+                -7.160284917012349
+              ],
+              [
+                38.881734155581036,
+                -7.160226886289993
+              ],
+              [
+                38.88172723154682,
+                -7.160160208122642
+              ],
+              [
+                38.881727865854415,
+                -7.160084882510296
+              ],
+              [
+                38.881735004609006,
+                -7.16002093780347
+              ],
+              [
+                38.881748647810575,
+                -7.159968374002162
+              ],
+              [
+                38.88176879545913,
+                -7.159927191106375
+              ],
+              [
+                38.88179544755467,
+                -7.159897389116107
+              ],
+              [
+                38.881828604097194,
+                -7.159878968031359
+              ],
+              [
+                38.88186826508671,
+                -7.15987192785213
+              ],
+              [
+                38.881914430523196,
+                -7.1598762685784205
+              ],
+              [
+                38.88196710040668,
+                -7.159891990210232
+              ],
+              [
+                38.882014002584214,
+                -7.159913965392181
+              ],
+              [
+                38.88205513705579,
+                -7.159942194124268
+              ],
+              [
+                38.882090503821416,
+                -7.159976676406494
+              ],
+              [
+                38.8821201028811,
+                -7.160017412238857
+              ],
+              [
+                38.88214393423483,
+                -7.1600644016213595
+              ],
+              [
+                38.882161997882605,
+                -7.160117644554
+              ],
+              [
+                38.882174293824434,
+                -7.160177141036779
+              ],
+              [
+                38.88218082206032,
+                -7.160242891069697
+              ],
+              [
+                38.88217905521334,
+                -7.160299654091952
+              ],
+              [
+                38.882168993283514,
+                -7.160347430103545
+              ],
+              [
+                38.88215063627083,
+                -7.160386219104475
+              ],
+              [
+                38.88212398417529,
+                -7.160416021094742
+              ],
+              [
+                38.88208903699689,
+                -7.1604368360743464
+              ],
+              [
+                38.882045794735646,
+                -7.160448664043291
+              ],
+              [
+                38.88199425739154,
+                -7.160451505001571
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.8819525533215,
+    -7.160166280684853
+  ],
+  "centroDeMassa": [
+    38.881964341178055,
+    -7.160147129525995
+  ]
+}

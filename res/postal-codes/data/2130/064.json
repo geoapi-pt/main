@@ -1,1 +1,461 @@
-{"CP4":"2130","CP3":"064","Distrito":"Santarém","Concelho":"Benavente","CP":"2130-064","Artéria":"Rua Professor António Salvado Pires","Localidade":"Benavente","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BENAVENTE","locais":[{"id":"pt.ine.add.PTCONT.4401520","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"","coordenadas":[38.980667754800784,-8.80769268310669]},{"id":"pt.ine.add.PTCONT.4401521","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"","coordenadas":[38.980667754800784,-8.80769268310669]},{"id":"pt.ine.add.PTCONT.4401522","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"","coordenadas":[38.980667754800784,-8.80769268310669]},{"id":"pt.ine.add.PTCONT.4401523","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"","coordenadas":[38.980667754800784,-8.80769268310669]},{"id":"pt.ine.add.PTCONT.4401524","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"","coordenadas":[38.980667754800784,-8.80769268310669]},{"id":"pt.ine.add.PTCONT.4417092","rua":"RETA ESCOLAS","casa":"49","coordenadas":[38.90326810500415,-8.673718938576162]},{"id":"pt.ine.add.PTCONT.4430794","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"12","coordenadas":[38.980359175823395,-8.808093671200606]},{"id":"pt.ine.add.PTCONT.4432649","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"20","coordenadas":[38.98021379282032,-8.80831155920057]},{"id":"pt.ine.add.PTCONT.4455549","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"9","coordenadas":[38.980695976926555,-8.80748522154895]},{"id":"pt.ine.add.PTCONT.4455550","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"9","coordenadas":[38.980695976926555,-8.80748522154895]},{"id":"pt.ine.add.PTCONT.4455551","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"9","coordenadas":[38.980695976926555,-8.80748522154895]},{"id":"pt.ine.add.PTCONT.4455646","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"9","coordenadas":[38.980695976926555,-8.80748522154895]},{"id":"pt.ine.add.PTCONT.4455647","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"9","coordenadas":[38.980695976926555,-8.80748522154895]},{"id":"pt.ine.add.PTCONT.4458828","rua":"R PROF ANTONIO SALVADO PIRES","casa":"","coordenadas":[38.98051109574569,-8.808302842497454]},{"id":"pt.ine.add.PTCONT.4458831","rua":"R PROF ANTONIO SALVADO PIRES","casa":"1 2","coordenadas":[38.98051109574569,-8.808302842497454]},{"id":"pt.ine.add.PTCONT.4493168","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"4","coordenadas":[38.98075082010216,-8.80734725546473]},{"id":"pt.ine.add.PTCONT.4546094","rua":"R PROF ANTONIO SALVADO PIRES SETE","casa":"SETE","coordenadas":[38.980739078137475,-8.807820305724233]},{"id":"pt.ine.add.PTCONT.4546095","rua":"R PROF ANTONIO SALVADO PIRES","casa":"","coordenadas":[38.980739078137475,-8.807820305724233]},{"id":"pt.ine.add.PTCONT.4546096","rua":"R PROF ANTONIO SALVADO PIRES","casa":"","coordenadas":[38.980739078137475,-8.807820305724233]},{"id":"pt.ine.add.PTCONT.4546097","rua":"R PROF ANTONIO SALVADO PIRES","casa":"07","coordenadas":[38.980739078137475,-8.807820305724233]},{"id":"pt.ine.add.PTCONT.4546098","rua":"R PROF ANTONIO SALVADO PIRES","casa":"","coordenadas":[38.980739078137475,-8.807820305724233]},{"id":"pt.ine.add.PTCONT.4547828","rua":"R PROF ANTONIO SALVADO PIRES","casa":"","coordenadas":[38.980739078137475,-8.807820305724233]},{"id":"pt.ine.add.PTCONT.4625710","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"14","coordenadas":[38.980314073287694,-8.808104783414043]},{"id":"pt.ine.add.PTCONT.4625711","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"14","coordenadas":[38.980314073287694,-8.808104783414043]},{"id":"pt.ine.add.PTCONT.4642692","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"18","coordenadas":[38.98025916245733,-8.808254287873183]},{"id":"pt.ine.add.PTCONT.4656353","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"","coordenadas":[38.980667754800784,-8.80769268310669]},{"id":"pt.ine.add.PTCONT.4662073","rua":"R PROF ANTÓNIO SALVADO PIRES","casa":"16","coordenadas":[38.980304732349275,-8.808162397004663]}],"ruas":["R PROF ANTÓNIO SALVADO PIRES","RETA ESCOLAS","R PROF ANTONIO SALVADO PIRES","R PROF ANTONIO SALVADO PIRES SETE"],"centroide":[38.97763162602063,-8.802655577110325]}
+{
+  "CP": "2130-064",
+  "CP4": "2130",
+  "CP3": "064",
+  "Distrito": "Santarém",
+  "Concelho": "Benavente",
+  "Localidade": "Benavente",
+  "Designação Postal": "BENAVENTE",
+  "partes": [
+    {
+      "Artéria": "Rua Professor António Salvado Pires",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4401520",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980667754800784,
+        -8.80769268310669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401521",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980667754800784,
+        -8.80769268310669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401522",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980667754800784,
+        -8.80769268310669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401523",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980667754800784,
+        -8.80769268310669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401524",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980667754800784,
+        -8.80769268310669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4417092",
+      "rua": "RETA ESCOLAS",
+      "casa": "49",
+      "coordenadas": [
+        38.90326810500415,
+        -8.673718938576162
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4430794",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "12",
+      "coordenadas": [
+        38.980359175823395,
+        -8.808093671200606
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4432649",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "20",
+      "coordenadas": [
+        38.98021379282032,
+        -8.80831155920057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455549",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "9",
+      "coordenadas": [
+        38.980695976926555,
+        -8.80748522154895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455550",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "9",
+      "coordenadas": [
+        38.980695976926555,
+        -8.80748522154895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455551",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "9",
+      "coordenadas": [
+        38.980695976926555,
+        -8.80748522154895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455646",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "9",
+      "coordenadas": [
+        38.980695976926555,
+        -8.80748522154895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455647",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "9",
+      "coordenadas": [
+        38.980695976926555,
+        -8.80748522154895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4458828",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.98051109574569,
+        -8.808302842497454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4458831",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "1 2",
+      "coordenadas": [
+        38.98051109574569,
+        -8.808302842497454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4493168",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "4",
+      "coordenadas": [
+        38.98075082010216,
+        -8.80734725546473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546094",
+      "rua": "R PROF ANTONIO SALVADO PIRES SETE",
+      "casa": "SETE",
+      "coordenadas": [
+        38.980739078137475,
+        -8.807820305724233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546095",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980739078137475,
+        -8.807820305724233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546096",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980739078137475,
+        -8.807820305724233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546097",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "07",
+      "coordenadas": [
+        38.980739078137475,
+        -8.807820305724233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546098",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980739078137475,
+        -8.807820305724233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4547828",
+      "rua": "R PROF ANTONIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980739078137475,
+        -8.807820305724233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4625710",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "14",
+      "coordenadas": [
+        38.980314073287694,
+        -8.808104783414043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4625711",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "14",
+      "coordenadas": [
+        38.980314073287694,
+        -8.808104783414043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4642692",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "18",
+      "coordenadas": [
+        38.98025916245733,
+        -8.808254287873183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4656353",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.980667754800784,
+        -8.80769268310669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4662073",
+      "rua": "R PROF ANTÓNIO SALVADO PIRES",
+      "casa": "16",
+      "coordenadas": [
+        38.980304732349275,
+        -8.808162397004663
+      ]
+    }
+  ],
+  "ruas": [
+    "R PROF ANTÓNIO SALVADO PIRES",
+    "RETA ESCOLAS",
+    "R PROF ANTONIO SALVADO PIRES",
+    "R PROF ANTONIO SALVADO PIRES SETE"
+  ],
+  "centro": [
+    38.94200946255316,
+    -8.741015248888367
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.946550054400745,
+                -8.749427287677392
+              ],
+              [
+                38.93693184342373,
+                -8.73260321009934
+              ],
+              [
+                38.92972657624224,
+                -8.719970084669928
+              ],
+              [
+                38.92493425285628,
+                -8.711527911389158
+              ],
+              [
+                38.92255487326587,
+                -8.707276690257029
+              ],
+              [
+                38.92258843747098,
+                -8.70721642127354
+              ],
+              [
+                38.92503494547163,
+                -8.71134710443869
+              ],
+              [
+                38.929894397267816,
+                -8.719668739752482
+              ],
+              [
+                38.93716679285953,
+                -8.732181327214912
+              ],
+              [
+                38.94685213224678,
+                -8.74888486682598
+              ],
+              [
+                38.955326620742426,
+                -8.763507855395972
+              ],
+              [
+                38.96259025834647,
+                -8.776050292924886
+              ],
+              [
+                38.96864304505891,
+                -8.78651217941272
+              ],
+              [
+                38.97348498087974,
+                -8.794893514859474
+              ],
+              [
+                38.97711606580897,
+                -8.801194299265148
+              ],
+              [
+                38.979536299846586,
+                -8.805414532629745
+              ],
+              [
+                38.980745682992605,
+                -8.807554214953262
+              ],
+              [
+                38.98074421524703,
+                -8.8076133462357
+              ],
+              [
+                38.980739368744764,
+                -8.807672625744914
+              ],
+              [
+                38.980731143485826,
+                -8.807732053480906
+              ],
+              [
+                38.98071953947022,
+                -8.807791629443674
+              ],
+              [
+                38.98070455669795,
+                -8.80785135363322
+              ],
+              [
+                38.980686195169,
+                -8.80791122604954
+              ],
+              [
+                38.98066445488337,
+                -8.807971246692642
+              ],
+              [
+                38.98063933584107,
+                -8.808031415562517
+              ],
+              [
+                38.9806108380421,
+                -8.80809173265917
+              ],
+              [
+                38.98058125710978,
+                -8.808144646317228
+              ],
+              [
+                38.980550593044136,
+                -8.80819015653669
+              ],
+              [
+                38.980518845845154,
+                -8.808228263317556
+              ],
+              [
+                38.98048601551283,
+                -8.808258966659826
+              ],
+              [
+                38.980452102047174,
+                -8.808282266563502
+              ],
+              [
+                38.980417105448176,
+                -8.808298163028581
+              ],
+              [
+                38.98038102571584,
+                -8.808306656055066
+              ],
+              [
+                38.98034386285017,
+                -8.808307745642956
+              ],
+              [
+                38.97910906897058,
+                -8.806205689335105
+              ],
+              [
+                38.976676644077074,
+                -8.802000487131508
+              ],
+              [
+                38.973046588169645,
+                -8.79569213903217
+              ],
+              [
+                38.9682189012483,
+                -8.78728064503709
+              ],
+              [
+                38.96219358331303,
+                -8.776766005146264
+              ],
+              [
+                38.95497063436385,
+                -8.7641482193597
+              ],
+              [
+                38.946550054400745,
+                -8.749427287677392
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.96509657836196,
+    -8.78110018029263
+  ],
+  "centroDeMassa": [
+    38.94200946255316,
+    -8.741015248888367
+  ]
+}

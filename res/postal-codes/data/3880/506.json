@@ -1,1 +1,601 @@
-{"CP4":"3880","CP3":"506","Distrito":"Aveiro","Concelho":"Ovar","CP":"3880-506","Artéria":"Rua Espinha","Localidade":"Válega","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VÁLEGA","locais":[{"id":"pt.ine.add.PTCONT.292625","rua":"LG PROF MARIA BRANCA","casa":"306","coordenadas":[40.83158727232837,-8.583439145356182]},{"id":"pt.ine.add.PTCONT.292626","rua":"R IGREJA MATRIZ","casa":"191","coordenadas":[40.83321351010123,-8.582063026751802]},{"id":"pt.ine.add.PTCONT.294319","rua":"R IGREJA MATRIZ","casa":"","coordenadas":[40.83390389467591,-8.580514565244554]},{"id":"pt.ine.add.PTCONT.299499","rua":"R IGREJA MATRIZ","casa":"262","coordenadas":[40.83315578762095,-8.583011096122425]},{"id":"pt.ine.add.PTCONT.303752","rua":"R IGREJA MATRIZ","casa":"326","coordenadas":[40.83292803488924,-8.583685331078335]},{"id":"pt.ine.add.PTCONT.317813","rua":"R ESPINHA","casa":"233","coordenadas":[40.831842407086505,-8.58267026408252]},{"id":"pt.ine.add.PTCONT.320537","rua":"R IGREJA MATRIZ","casa":"178","coordenadas":[40.83341211916413,-8.581933952928585]},{"id":"pt.ine.add.PTCONT.328703","rua":"R ESPINHA","casa":"159","coordenadas":[40.83225888188286,-8.582092154022412]},{"id":"pt.ine.add.PTCONT.347078","rua":"R IGREJA MATRIZ","casa":"230","coordenadas":[40.83329238194482,-8.582620779456105]},{"id":"pt.ine.add.PTCONT.7652","rua":"R IGREJA MATRIZ","casa":"190","coordenadas":[40.83338358259089,-8.582325001059852]},{"id":"pt.ine.add.PTCONT.15124","rua":"R IGREJA MATRIZ","casa":"260","coordenadas":[40.8332012729879,-8.582892846176053]},{"id":"pt.ine.add.PTCONT.30319","rua":"LG PROF MARIA BRANCA","casa":"316","coordenadas":[40.831550513277406,-8.583628583816395]},{"id":"pt.ine.add.PTCONT.59479","rua":"R IGREJA MATRIZ","casa":"271","coordenadas":[40.83295791714844,-8.582950480048927]},{"id":"pt.ine.add.PTCONT.71623","rua":"R IGREJA MATRIZ","casa":"","coordenadas":[40.832818543514655,-8.584052115718164]},{"id":"pt.ine.add.PTCONT.79794","rua":"LG PROF MARIA BRANCA","casa":"307","coordenadas":[40.83145150874254,-8.583616058245987]},{"id":"pt.ine.add.PTCONT.95879","rua":"R IGREJA MATRIZ","casa":"259","coordenadas":[40.83303960578026,-8.582785052189196]},{"id":"pt.ine.add.PTCONT.105275","rua":"R IGREJA MATRIZ","casa":"42","coordenadas":[40.83384931513505,-8.580656468630561]},{"id":"pt.ine.add.PTCONT.117117","rua":"R IGREJA MATRIZ","casa":"","coordenadas":[40.83276627583764,-8.583601246324521]},{"id":"pt.ine.add.PTCONT.117560","rua":"R IGREJA MATRIZ","casa":"66","coordenadas":[40.833758670930266,-8.580809985026148]},{"id":"pt.ine.add.PTCONT.129577","rua":"R ESPINHA","casa":"","coordenadas":[40.83205025237831,-8.582481979376045]},{"id":"pt.ine.add.PTCONT.178991","rua":"LG PROF MARIA BRANCA","casa":"303","coordenadas":[40.83147048988638,-8.583367222609745]},{"id":"pt.ine.add.PTCONT.205114","rua":"R IGREJA MATRIZ","casa":"297","coordenadas":[40.83287534942953,-8.583341159559103]},{"id":"pt.ine.add.PTCONT.210338","rua":"TV IGREJA MATRIZ","casa":"10","coordenadas":[40.83265503907842,-8.582106682123733]},{"id":"pt.ine.add.PTCONT.221377","rua":"R IGREJA MATRIZ","casa":"149","coordenadas":[40.833350055131596,-8.581684563231606]},{"id":"pt.ine.add.PTCONT.223985","rua":"R IGREJA MATRIZ","casa":"","coordenadas":[40.83345751120744,-8.581839412736924]},{"id":"pt.ine.add.PTCONT.232070","rua":"R ESPINHA","casa":"257","coordenadas":[40.83171532576025,-8.582930226227328]},{"id":"pt.ine.add.PTCONT.236739","rua":"R IGREJA MATRIZ","casa":"179","coordenadas":[40.83331320670623,-8.58189771859886]},{"id":"pt.ine.add.PTCONT.236740","rua":"R IGREJA MATRIZ","casa":"179","coordenadas":[40.83331320670623,-8.58189771859886]},{"id":"pt.ine.add.PTCONT.240273","rua":"R IGREJA MATRIZ","casa":"199","coordenadas":[40.833212910232234,-8.582217147385183]},{"id":"pt.ine.add.PTCONT.243032","rua":"R IGREJA MATRIZ","casa":"284","coordenadas":[40.833064724007585,-8.583271306337958]},{"id":"pt.ine.add.PTCONT.256969","rua":"R IRMÃOS OLIVEIRA LOPES","casa":"","coordenadas":[40.83699017817893,-8.581128135506244]},{"id":"pt.ine.add.PTCONT.283238","rua":"R IGREJA MATRIZ","casa":"158","coordenadas":[40.83358431354283,-8.58165057471403]},{"id":"pt.ine.add.PTCONT.283248","rua":"R IGREJA MATRIZ","casa":"359","coordenadas":[40.83253095170851,-8.583907899691981]}],"ruas":["LG PROF MARIA BRANCA","R IGREJA MATRIZ","R ESPINHA","TV IGREJA MATRIZ","R IRMÃOS OLIVEIRA LOPES"],"centroide":[40.83298200180891,-8.582473812477636]}.582473812477636]}
+{
+  "CP": "3880-506",
+  "CP4": "3880",
+  "CP3": "506",
+  "Distrito": "Aveiro",
+  "Concelho": "Ovar",
+  "Localidade": "Válega",
+  "Designação Postal": "VÁLEGA",
+  "partes": [
+    {
+      "Artéria": "Rua da Igreja Matriz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Igreja Matriz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo Professora Maria Branca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Espinha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.292625",
+      "rua": "LG PROF MARIA BRANCA",
+      "casa": "306",
+      "coordenadas": [
+        40.83158727232837,
+        -8.583439145356182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.292626",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "191",
+      "coordenadas": [
+        40.83321351010123,
+        -8.582063026751802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.294319",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "",
+      "coordenadas": [
+        40.83390389467591,
+        -8.580514565244554
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.299499",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "262",
+      "coordenadas": [
+        40.83315578762095,
+        -8.583011096122425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.303752",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "326",
+      "coordenadas": [
+        40.83292803488924,
+        -8.583685331078335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.317813",
+      "rua": "R ESPINHA",
+      "casa": "233",
+      "coordenadas": [
+        40.831842407086505,
+        -8.58267026408252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.320537",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "178",
+      "coordenadas": [
+        40.83341211916413,
+        -8.581933952928585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.328703",
+      "rua": "R ESPINHA",
+      "casa": "159",
+      "coordenadas": [
+        40.83225888188286,
+        -8.582092154022412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.347078",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "230",
+      "coordenadas": [
+        40.83329238194482,
+        -8.582620779456105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.7652",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "190",
+      "coordenadas": [
+        40.83338358259089,
+        -8.582325001059852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.15124",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "260",
+      "coordenadas": [
+        40.8332012729879,
+        -8.582892846176053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.30319",
+      "rua": "LG PROF MARIA BRANCA",
+      "casa": "316",
+      "coordenadas": [
+        40.831550513277406,
+        -8.583628583816395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.59479",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "271",
+      "coordenadas": [
+        40.83295791714844,
+        -8.582950480048927
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.71623",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "",
+      "coordenadas": [
+        40.832818543514655,
+        -8.584052115718164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.79794",
+      "rua": "LG PROF MARIA BRANCA",
+      "casa": "307",
+      "coordenadas": [
+        40.83145150874254,
+        -8.583616058245987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.95879",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "259",
+      "coordenadas": [
+        40.83303960578026,
+        -8.582785052189196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.105275",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "42",
+      "coordenadas": [
+        40.83384931513505,
+        -8.580656468630561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.117117",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "",
+      "coordenadas": [
+        40.83276627583764,
+        -8.583601246324521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.117560",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "66",
+      "coordenadas": [
+        40.833758670930266,
+        -8.580809985026148
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.129577",
+      "rua": "R ESPINHA",
+      "casa": "",
+      "coordenadas": [
+        40.83205025237831,
+        -8.582481979376045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.178991",
+      "rua": "LG PROF MARIA BRANCA",
+      "casa": "303",
+      "coordenadas": [
+        40.83147048988638,
+        -8.583367222609745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.205114",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "297",
+      "coordenadas": [
+        40.83287534942953,
+        -8.583341159559103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.210338",
+      "rua": "TV IGREJA MATRIZ",
+      "casa": "10",
+      "coordenadas": [
+        40.83265503907842,
+        -8.582106682123733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.221377",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "149",
+      "coordenadas": [
+        40.833350055131596,
+        -8.581684563231606
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.223985",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "",
+      "coordenadas": [
+        40.83345751120744,
+        -8.581839412736924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.232070",
+      "rua": "R ESPINHA",
+      "casa": "257",
+      "coordenadas": [
+        40.83171532576025,
+        -8.582930226227328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.236739",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "179",
+      "coordenadas": [
+        40.83331320670623,
+        -8.58189771859886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.236740",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "179",
+      "coordenadas": [
+        40.83331320670623,
+        -8.58189771859886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.240273",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "199",
+      "coordenadas": [
+        40.833212910232234,
+        -8.582217147385183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.243032",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "284",
+      "coordenadas": [
+        40.833064724007585,
+        -8.583271306337958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.256969",
+      "rua": "R IRMÃOS OLIVEIRA LOPES",
+      "casa": "",
+      "coordenadas": [
+        40.83699017817893,
+        -8.581128135506244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.283238",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "158",
+      "coordenadas": [
+        40.83358431354283,
+        -8.58165057471403
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.283248",
+      "rua": "R IGREJA MATRIZ",
+      "casa": "359",
+      "coordenadas": [
+        40.83253095170851,
+        -8.583907899691981
+      ]
+    }
+  ],
+  "ruas": [
+    "LG PROF MARIA BRANCA",
+    "R IGREJA MATRIZ",
+    "R ESPINHA",
+    "TV IGREJA MATRIZ",
+    "R IRMÃOS OLIVEIRA LOPES"
+  ],
+  "centro": [
+    40.834220843460734,
+    -8.582283340481359
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.83222046580185,
+                -8.583861340574087
+              ],
+              [
+                40.83204958645534,
+                -8.583806833390065
+              ],
+              [
+                40.83190036360752,
+                -8.583755251547231
+              ],
+              [
+                40.83177279725838,
+                -8.58370659504558
+              ],
+              [
+                40.83166688740792,
+                -8.583660863885118
+              ],
+              [
+                40.831582634056154,
+                -8.583618058065841
+              ],
+              [
+                40.83152003720307,
+                -8.583578177587752
+              ],
+              [
+                40.83147909684868,
+                -8.583541222450847
+              ],
+              [
+                40.83145981299297,
+                -8.583507192655132
+              ],
+              [
+                40.83146218563595,
+                -8.5834760882006
+              ],
+              [
+                40.83147007290481,
+                -8.583437981825899
+              ],
+              [
+                40.83148347479954,
+                -8.583392873531025
+              ],
+              [
+                40.83150239132016,
+                -8.583340763315979
+              ],
+              [
+                40.83152682246666,
+                -8.583281651180764
+              ],
+              [
+                40.83155676823904,
+                -8.583215537125376
+              ],
+              [
+                40.83159222863729,
+                -8.583142421149816
+              ],
+              [
+                40.83163320366143,
+                -8.583062303254085
+              ],
+              [
+                40.83167969331145,
+                -8.58297518343818
+              ],
+              [
+                40.83172687917391,
+                -8.582889920629576
+              ],
+              [
+                40.83177476124881,
+                -8.58280651482827
+              ],
+              [
+                40.83182333953615,
+                -8.582724966034263
+              ],
+              [
+                40.83187261403592,
+                -8.582645274247557
+              ],
+              [
+                40.83192258474814,
+                -8.582567439468146
+              ],
+              [
+                40.83197325167281,
+                -8.582491461696037
+              ],
+              [
+                40.83202461480991,
+                -8.582417340931222
+              ],
+              [
+                40.83207667415945,
+                -8.58234507717371
+              ],
+              [
+                40.83214792941519,
+                -8.58225719656123
+              ],
+              [
+                40.83223838057713,
+                -8.582153699093787
+              ],
+              [
+                40.83234802764527,
+                -8.58203458477138
+              ],
+              [
+                40.832476870619615,
+                -8.581899853594006
+              ],
+              [
+                40.83262490950015,
+                -8.58174950556167
+              ],
+              [
+                40.832792144286884,
+                -8.581583540674366
+              ],
+              [
+                40.83297857497982,
+                -8.5814019589321
+              ],
+              [
+                40.833184201578945,
+                -8.581204760334867
+              ],
+              [
+                40.83341234803292,
+                -8.581041798597628
+              ],
+              [
+                40.833663014341745,
+                -8.58091307372038
+              ],
+              [
+                40.833936200505406,
+                -8.580818585703128
+              ],
+              [
+                40.83423190652391,
+                -8.580758334545866
+              ],
+              [
+                40.83455013239726,
+                -8.5807323202486
+              ],
+              [
+                40.83489087812545,
+                -8.580740542811323
+              ],
+              [
+                40.83525414370848,
+                -8.580783002234043
+              ],
+              [
+                40.83563992914637,
+                -8.580859698516754
+              ],
+              [
+                40.83591230961288,
+                -8.580972494954938
+              ],
+              [
+                40.83607128510803,
+                -8.581121391548592
+              ],
+              [
+                40.836116855631815,
+                -8.581306388297723
+              ],
+              [
+                40.83604902118423,
+                -8.581527485202322
+              ],
+              [
+                40.83586778176529,
+                -8.581784682262397
+              ],
+              [
+                40.83557313737498,
+                -8.58207797947794
+              ],
+              [
+                40.835165088013305,
+                -8.582407376848959
+              ],
+              [
+                40.83464363368028,
+                -8.582772874375447
+              ],
+              [
+                40.83416600122056,
+                -8.583085871313124
+              ],
+              [
+                40.83373219063415,
+                -8.583346367661987
+              ],
+              [
+                40.83334220192106,
+                -8.583554363422035
+              ],
+              [
+                40.83299603508129,
+                -8.583709858593267
+              ],
+              [
+                40.83269369011482,
+                -8.583812853175687
+              ],
+              [
+                40.832435167021686,
+                -8.583863347169295
+              ],
+              [
+                40.83222046580185,
+                -8.583861340574087
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.832962271995406,
+    -8.582491502204233
+  ],
+  "centroDeMassa": [
+    40.834220843460734,
+    -8.582283340481359
+  ]
+}

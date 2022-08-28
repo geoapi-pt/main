@@ -1,1 +1,682 @@
-{"CP4":"2865","CP3":"672","Distrito":"Setúbal","Concelho":"Seixal","CP":"2865-672","Artéria":"Rua Antero de Quental","Localidade":"Fernão Ferro","Local":"","Troço":"LT 982","Porta":"","Cliente":"","Designação Postal":"FERNÃO FERRO","locais":[{"id":"pt.ine.add.PTCONT.4676077","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.558978653819274,-9.09163976888222]},{"id":"pt.ine.add.PTCONT.4724018","rua":"R ANTERO DE QUENTAL","casa":"1130","coordenadas":[38.55990479522177,-9.091847106504463]},{"id":"pt.ine.add.PTCONT.4730765","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.560148552493665,-9.091781508291302]},{"id":"pt.ine.add.PTCONT.4735146","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.56026865153605,-9.091415974557007]},{"id":"pt.ine.add.PTCONT.4741184","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.560178485927814,-9.091426249983769]},{"id":"pt.ine.add.PTCONT.4780472","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.559150353647375,-9.09157321374069]},{"id":"pt.ine.add.PTCONT.4797392","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.55921893489441,-9.09199861151892]},{"id":"pt.ine.add.PTCONT.4803017","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.55938407041837,-9.091633681003856]},{"id":"pt.ine.add.PTCONT.4815456","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.55929390478269,-9.091643956055423]},{"id":"pt.ine.add.PTCONT.4834140","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.558798040721534,-9.091694732769241]},{"id":"pt.ine.add.PTCONT.4886377","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.55951992941055,-9.091543704149247]},{"id":"pt.ine.add.PTCONT.4902060","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.55965484910467,-9.09156844138318]},{"id":"pt.ine.add.PTCONT.4927093","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.55905661790349,-9.092019400007535]},{"id":"pt.ine.add.PTCONT.4931476","rua":"R ANTERO QUENTAL","casa":"1125","coordenadas":[38.55897555337733,-9.092018322887046]},{"id":"pt.ine.add.PTCONT.4949068","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.559372714536046,-9.091920346288314]},{"id":"pt.ine.add.PTCONT.5057415","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.559787608071424,-9.091857022359736]},{"id":"pt.ine.add.PTCONT.5119737","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.559688435256206,-9.091867177514674]},{"id":"pt.ine.add.PTCONT.5124683","rua":"R ANTERO DE QUENTAL","casa":"","coordenadas":[38.56005238555561,-9.091424575434043]},{"id":"pt.ine.add.PTCONT.5127010","rua":"R ANTERO DE QUENTAL","casa":"50","coordenadas":[38.57577005670802,-9.08830555548604]}],"ruas":["R ANTERO DE QUENTAL","R ANTERO QUENTAL"],"centroide":[38.55952402981547,-9.091715210740592]}}]}
+{
+  "CP": "2865-672",
+  "CP4": "2865",
+  "CP3": "672",
+  "Distrito": "Setúbal",
+  "Concelho": "Seixal",
+  "Localidade": "Fernão Ferro",
+  "Designação Postal": "FERNÃO FERRO",
+  "partes": [
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT B 113",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1002",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1004",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1013",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1014",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1105 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1105",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1106",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1107",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1108",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1109",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1110 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1110 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1111",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1112",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1113",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1125 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1125 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1125",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1126",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1127",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1128",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1129 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1129 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1130",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1131",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 1132",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 2107",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 968",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 969",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 970",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 975",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 980",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Antero de Quental",
+      "Local": "",
+      "Troço": "LT 982",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4676077",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.558978653819274,
+        -9.09163976888222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4724018",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "1130",
+      "coordenadas": [
+        38.55990479522177,
+        -9.091847106504463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730765",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.560148552493665,
+        -9.091781508291302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4735146",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.56026865153605,
+        -9.091415974557007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4741184",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.560178485927814,
+        -9.091426249983769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4780472",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.559150353647375,
+        -9.09157321374069
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4797392",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.55921893489441,
+        -9.09199861151892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4803017",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.55938407041837,
+        -9.091633681003856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4815456",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.55929390478269,
+        -9.091643956055423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4834140",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.558798040721534,
+        -9.091694732769241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4886377",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.55951992941055,
+        -9.091543704149247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4902060",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.55965484910467,
+        -9.09156844138318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4927093",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.55905661790349,
+        -9.092019400007535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4931476",
+      "rua": "R ANTERO QUENTAL",
+      "casa": "1125",
+      "coordenadas": [
+        38.55897555337733,
+        -9.092018322887046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4949068",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.559372714536046,
+        -9.091920346288314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5057415",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.559787608071424,
+        -9.091857022359736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5119737",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.559688435256206,
+        -9.091867177514674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5124683",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "",
+      "coordenadas": [
+        38.56005238555561,
+        -9.091424575434043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5127010",
+      "rua": "R ANTERO DE QUENTAL",
+      "casa": "50",
+      "coordenadas": [
+        38.57577005670802,
+        -9.08830555548604
+      ]
+    }
+  ],
+  "ruas": [
+    "R ANTERO DE QUENTAL",
+    "R ANTERO QUENTAL"
+  ],
+  "centro": [
+    38.56728404871478,
+    -9.090162477746787
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.55889789159042,
+                -9.091876752210506
+              ],
+              [
+                38.558875702508445,
+                -9.091836303445781
+              ],
+              [
+                38.55886179195119,
+                -9.091799012041824
+              ],
+              [
+                38.55885615991863,
+                -9.091764877998637
+              ],
+              [
+                38.5588588064108,
+                -9.091733901316221
+              ],
+              [
+                38.55886973142768,
+                -9.091706081994573
+              ],
+              [
+                38.55888893496927,
+                -9.091681420033696
+              ],
+              [
+                38.558916417035576,
+                -9.091659915433588
+              ],
+              [
+                38.55895217762659,
+                -9.09164156819425
+              ],
+              [
+                38.55899621674232,
+                -9.09162637831568
+              ],
+              [
+                38.55929443382891,
+                -9.091562030011705
+              ],
+              [
+                38.55984682888635,
+                -9.09144852328232
+              ],
+              [
+                38.56065340191465,
+                -9.091285858127527
+              ],
+              [
+                38.56171415291381,
+                -9.091074034547328
+              ],
+              [
+                38.56302908188382,
+                -9.09081305254172
+              ],
+              [
+                38.56459818882469,
+                -9.090502912110702
+              ],
+              [
+                38.56642147373641,
+                -9.09014361325428
+              ],
+              [
+                38.56849893661899,
+                -9.089735155972448
+              ],
+              [
+                38.57006882193052,
+                -9.08943309258551
+              ],
+              [
+                38.571131129671016,
+                -9.089237423093461
+              ],
+              [
+                38.57168585984046,
+                -9.089148147496307
+              ],
+              [
+                38.57173301243886,
+                -9.08916526579404
+              ],
+              [
+                38.57127258746622,
+                -9.089288777986669
+              ],
+              [
+                38.570304584922525,
+                -9.08951868407419
+              ],
+              [
+                38.56882900480779,
+                -9.0898549840566
+              ],
+              [
+                38.566845847122,
+                -9.090297677933902
+              ],
+              [
+                38.56509986757933,
+                -9.090687402342393
+              ],
+              [
+                38.56359106617976,
+                -9.091024157282073
+              ],
+              [
+                38.562319442923304,
+                -9.09130794275294
+              ],
+              [
+                38.561284997809956,
+                -9.091538758754995
+              ],
+              [
+                38.56048773083971,
+                -9.091716605288237
+              ],
+              [
+                38.55992764201258,
+                -9.09184148235267
+              ],
+              [
+                38.55960473132855,
+                -9.091913389948289
+              ],
+              [
+                38.559518998787624,
+                -9.091932328075096
+              ],
+              [
+                38.55944144661134,
+                -9.091949223756187
+              ],
+              [
+                38.55937207479969,
+                -9.09196407699156
+              ],
+              [
+                38.559310883352666,
+                -9.091976887781218
+              ],
+              [
+                38.559257872270265,
+                -9.091987656125163
+              ],
+              [
+                38.55921304155251,
+                -9.091996382023387
+              ],
+              [
+                38.55917639119938,
+                -9.092003065475897
+              ],
+              [
+                38.55914792121088,
+                -9.09200770648269
+              ],
+              [
+                38.55912763158702,
+                -9.092010305043765
+              ],
+              [
+                38.559108611532906,
+                -9.0920125619547
+              ],
+              [
+                38.559090861048574,
+                -9.092014477215491
+              ],
+              [
+                38.55907438013399,
+                -9.092016050826143
+              ],
+              [
+                38.559059168789176,
+                -9.09201728278665
+              ],
+              [
+                38.559045227014124,
+                -9.092018173097017
+              ],
+              [
+                38.55903255480882,
+                -9.092018721757238
+              ],
+              [
+                38.559021152173294,
+                -9.09201892876732
+              ],
+              [
+                38.55901101910752,
+                -9.09201879412726
+              ],
+              [
+                38.558999379039726,
+                -9.092013620221616
+              ],
+              [
+                38.558986231969904,
+                -9.092003407050388
+              ],
+              [
+                38.558971577898056,
+                -9.09198815461358
+              ],
+              [
+                38.55895541682418,
+                -9.091967862911185
+              ],
+              [
+                38.558937748748285,
+                -9.091942531943209
+              ],
+              [
+                38.55891857367037,
+                -9.09191216170965
+              ],
+              [
+                38.55889789159042,
+                -9.091876752210506
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.56155347892485,
+    -9.091350991844847
+  ],
+  "centroDeMassa": [
+    38.56728404871478,
+    -9.090162477746787
+  ]
+}

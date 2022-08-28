@@ -1,1 +1,283 @@
-{"CP4":"4590","CP3":"250","Distrito":"Porto","Concelho":"Paços de Ferreira","CP":"4590-250","Artéria":"Rua Nova de Vista Alegre","Localidade":"Figueiró","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FIGUEIRÓ","locais":[{"id":"pt.ine.add.PTCONT.3651138","rua":"R NOVA DE VISTA ALEGRE","casa":"23","coordenadas":[41.311904804546714,-8.345677784602584]},{"id":"pt.ine.add.PTCONT.3948868","rua":"R NOVA VISTA ALEGRE","casa":"48","coordenadas":[41.31171714958595,-8.344900940959548]},{"id":"pt.ine.add.PTCONT.4058865","rua":"R NOVA DE VISTA ALEGRE","casa":"96","coordenadas":[41.31200690288381,-8.34401816219331]},{"id":"pt.ine.add.PTCONT.4065725","rua":"R NOVA DE VISTA ALEGRE","casa":"114","coordenadas":[41.31210682206809,-8.343540798879888]},{"id":"pt.ine.add.PTCONT.4164033","rua":"R NOVA VISTA ALEGRE","casa":"24","coordenadas":[41.31154477344755,-8.34560496290973]},{"id":"pt.ine.add.PTCONT.4164034","rua":"R NOVA VISTA ALEGRE","casa":"14","coordenadas":[41.31154477344755,-8.34560496290973]},{"id":"pt.ine.add.PTCONT.4164035","rua":"R NOVA VISTA ALEGRE","casa":"20","coordenadas":[41.31154477344755,-8.34560496290973]},{"id":"pt.ine.add.PTCONT.4164036","rua":"R NOVA DE VISTA ALEGRE","casa":"58","coordenadas":[41.31178959951931,-8.344674276000568]},{"id":"pt.ine.add.PTCONT.4168278","rua":"R NOVA VISTA ALEGRE","casa":"18","coordenadas":[41.31154477344755,-8.34560496290973]},{"id":"pt.ine.add.PTCONT.4196413","rua":"R NOVA DE VISTA ALEGRE","casa":"82","coordenadas":[41.31197047058286,-8.344244944841986]},{"id":"pt.ine.add.PTCONT.4374049","rua":"R NOVA DE VISTA ALEGRE","casa":"104","coordenadas":[41.31205236068049,-8.343779466225975]}],"ruas":["R NOVA DE VISTA ALEGRE","R NOVA VISTA ALEGRE"],"centroide":[41.311767484297704,-8.34494767591168]}
+{
+  "CP": "4590-250",
+  "CP4": "4590",
+  "CP3": "250",
+  "Distrito": "Porto",
+  "Concelho": "Paços de Ferreira",
+  "Localidade": "Figueiró",
+  "Designação Postal": "FIGUEIRÓ",
+  "partes": [
+    {
+      "Artéria": "Rua Nova de Vista Alegre",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3651138",
+      "rua": "R NOVA DE VISTA ALEGRE",
+      "casa": "23",
+      "coordenadas": [
+        41.311904804546714,
+        -8.345677784602584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3948868",
+      "rua": "R NOVA VISTA ALEGRE",
+      "casa": "48",
+      "coordenadas": [
+        41.31171714958595,
+        -8.344900940959548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4058865",
+      "rua": "R NOVA DE VISTA ALEGRE",
+      "casa": "96",
+      "coordenadas": [
+        41.31200690288381,
+        -8.34401816219331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4065725",
+      "rua": "R NOVA DE VISTA ALEGRE",
+      "casa": "114",
+      "coordenadas": [
+        41.31210682206809,
+        -8.343540798879888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4164033",
+      "rua": "R NOVA VISTA ALEGRE",
+      "casa": "24",
+      "coordenadas": [
+        41.31154477344755,
+        -8.34560496290973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4164034",
+      "rua": "R NOVA VISTA ALEGRE",
+      "casa": "14",
+      "coordenadas": [
+        41.31154477344755,
+        -8.34560496290973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4164035",
+      "rua": "R NOVA VISTA ALEGRE",
+      "casa": "20",
+      "coordenadas": [
+        41.31154477344755,
+        -8.34560496290973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4164036",
+      "rua": "R NOVA DE VISTA ALEGRE",
+      "casa": "58",
+      "coordenadas": [
+        41.31178959951931,
+        -8.344674276000568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4168278",
+      "rua": "R NOVA VISTA ALEGRE",
+      "casa": "18",
+      "coordenadas": [
+        41.31154477344755,
+        -8.34560496290973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4196413",
+      "rua": "R NOVA DE VISTA ALEGRE",
+      "casa": "82",
+      "coordenadas": [
+        41.31197047058286,
+        -8.344244944841986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4374049",
+      "rua": "R NOVA DE VISTA ALEGRE",
+      "casa": "104",
+      "coordenadas": [
+        41.31205236068049,
+        -8.343779466225975
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOVA DE VISTA ALEGRE",
+    "R NOVA VISTA ALEGRE"
+  ],
+  "centro": [
+    41.31182579775782,
+    -8.344609291741236
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.31174729094083,
+                -8.34564592511196
+              ],
+              [
+                41.311702287053436,
+                -8.345636822400355
+              ],
+              [
+                41.31166560202912,
+                -8.345617857184727
+              ],
+              [
+                41.3116372358679,
+                -8.345589029465078
+              ],
+              [
+                41.31161718856977,
+                -8.34555033924141
+              ],
+              [
+                41.31160546013472,
+                -8.345501786513719
+              ],
+              [
+                41.31160205056276,
+                -8.345443371282007
+              ],
+              [
+                41.31160695985389,
+                -8.345375093546277
+              ],
+              [
+                41.3116201880081,
+                -8.345296953306525
+              ],
+              [
+                41.311641735025404,
+                -8.345208950562753
+              ],
+              [
+                41.31166667729808,
+                -8.345110695941958
+              ],
+              [
+                41.311695014826114,
+                -8.345002189444138
+              ],
+              [
+                41.31172674760953,
+                -8.344883431069295
+              ],
+              [
+                41.311761875648315,
+                -8.34475442081743
+              ],
+              [
+                41.31180039894247,
+                -8.34461515868854
+              ],
+              [
+                41.311842317491994,
+                -8.34446564468263
+              ],
+              [
+                41.31188763129689,
+                -8.344305878799696
+              ],
+              [
+                41.31193634035716,
+                -8.344135861039739
+              ],
+              [
+                41.31197580426112,
+                -8.344020485901694
+              ],
+              [
+                41.31200602300878,
+                -8.343959753385558
+              ],
+              [
+                41.31202699660013,
+                -8.343953663491337
+              ],
+              [
+                41.31203872503517,
+                -8.344002216219028
+              ],
+              [
+                41.312041208313914,
+                -8.34410541156863
+              ],
+              [
+                41.31203444643636,
+                -8.344263249540145
+              ],
+              [
+                41.31201843940249,
+                -8.344475730133569
+              ],
+              [
+                41.31199318721231,
+                -8.344742853348903
+              ],
+              [
+                41.31196546605999,
+                -8.344975448323371
+              ],
+              [
+                41.31193527594551,
+                -8.345173515056974
+              ],
+              [
+                41.31190261686888,
+                -8.345337053549708
+              ],
+              [
+                41.3118674888301,
+                -8.345466063801572
+              ],
+              [
+                41.31182989182916,
+                -8.345560545812571
+              ],
+              [
+                41.31178982586608,
+                -8.345620499582699
+              ],
+              [
+                41.31174729094083,
+                -8.34564592511196
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.311818387412075,
+    -8.344931121837938
+  ],
+  "centroDeMassa": [
+    41.31182579775782,
+    -8.344609291741236
+  ]
+}

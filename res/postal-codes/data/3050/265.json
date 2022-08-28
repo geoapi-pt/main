@@ -1,1 +1,508 @@
-{"CP4":"3050","CP3":"265","Distrito":"Aveiro","Concelho":"Mealhada","CP":"3050-265","Artéria":" ","Localidade":"Salgueiral","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LUSO","locais":[{"id":"pt.ine.add.PTCONT.299028","rua":"R CABECO","casa":"","coordenadas":[40.393826877465266,-8.358228583656336]},{"id":"pt.ine.add.PTCONT.301511","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.3955307730065,-8.357280185841399]},{"id":"pt.ine.add.PTCONT.312090","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39396083517217,-8.358806171229743]},{"id":"pt.ine.add.PTCONT.314691","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39542304922901,-8.357103148807944]},{"id":"pt.ine.add.PTCONT.317367","rua":"R CADELA","casa":"","coordenadas":[40.39412176042772,-8.359407408209004]},{"id":"pt.ine.add.PTCONT.343648","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39105313238976,-8.358242902993862]},{"id":"pt.ine.add.PTCONT.344666","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39418631772327,-8.35863024751463]},{"id":"pt.ine.add.PTCONT.9361","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39405091330182,-8.358794693565502]},{"id":"pt.ine.add.PTCONT.25346","rua":"R PRINCIPAL","casa":"","coordenadas":[40.39578249328737,-8.357504816223532]},{"id":"pt.ine.add.PTCONT.33868","rua":"R CADELA","casa":"","coordenadas":[40.394515622448374,-8.360621911596605]},{"id":"pt.ine.add.PTCONT.41601","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.394629284488104,-8.35776011532142]},{"id":"pt.ine.add.PTCONT.41602","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.394629284488104,-8.35776011532142]},{"id":"pt.ine.add.PTCONT.54888","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39653730739177,-8.358355398970838]},{"id":"pt.ine.add.PTCONT.60037","rua":"R CADELA","casa":"","coordenadas":[40.394264925672424,-8.359879025484807]},{"id":"pt.ine.add.PTCONT.60038","rua":"R CADELA","casa":"","coordenadas":[40.394220129029215,-8.359761090784657]},{"id":"pt.ine.add.PTCONT.69019","rua":"R CAPELA","casa":"","coordenadas":[40.39379914951669,-8.358593620760617]},{"id":"pt.ine.add.PTCONT.79332","rua":"R CADELA","casa":"","coordenadas":[40.394158335340876,-8.359124848290705]},{"id":"pt.ine.add.PTCONT.83904","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.396203138794775,-8.35884899449901]},{"id":"pt.ine.add.PTCONT.105052","rua":"R CAPELA","casa":"","coordenadas":[40.39415151144533,-8.358005874575824]},{"id":"pt.ine.add.PTCONT.105149","rua":"R CABECO","casa":"","coordenadas":[40.39391629010137,-8.35855867632532]},{"id":"pt.ine.add.PTCONT.119359","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39412272747622,-8.358912717578491]},{"id":"pt.ine.add.PTCONT.119361","rua":"R CABECO","casa":"","coordenadas":[40.39381828449508,-8.35801654433487]},{"id":"pt.ine.add.PTCONT.130180","rua":"R CADELA","casa":"","coordenadas":[40.39476752179524,-8.360752323326196]},{"id":"pt.ine.add.PTCONT.132686","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39521395582359,-8.358115416889802]},{"id":"pt.ine.add.PTCONT.151778","rua":"R CABECO","casa":"","coordenadas":[40.393719796161975,-8.3577217577755]},{"id":"pt.ine.add.PTCONT.188353","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.397114256186164,-8.35805106899513]},{"id":"pt.ine.add.PTCONT.209799","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39439550708949,-8.357570882831247]},{"id":"pt.ine.add.PTCONT.212092","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.396401260026195,-8.35884965615702]},{"id":"pt.ine.add.PTCONT.215399","rua":"R CAPELA","casa":"","coordenadas":[40.393835355273715,-8.358499514524564]},{"id":"pt.ine.add.PTCONT.218200","rua":"ESTR PRINCIPAL","casa":"","coordenadas":[40.39385270002906,-8.358841145330153]},{"id":"pt.ine.add.PTCONT.237855","rua":"R PRINCIPAL","casa":"","coordenadas":[40.39366427345077,-8.358487165761186]},{"id":"pt.ine.add.PTCONT.250585","rua":"R MIRANTE","casa":"","coordenadas":[40.396466523416976,-8.357707327222842]}],"ruas":["R CABECO","ESTR PRINCIPAL","R CADELA","R PRINCIPAL","R CAPELA","R MIRANTE"],"centroide":[40.394511831242816,-8.358551162047657]}
+{
+  "CP": "3050-265",
+  "CP4": "3050",
+  "CP3": "265",
+  "Distrito": "Aveiro",
+  "Concelho": "Mealhada",
+  "Localidade": "Salgueiral",
+  "Designação Postal": "LUSO",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.299028",
+      "rua": "R CABECO",
+      "casa": "",
+      "coordenadas": [
+        40.393826877465266,
+        -8.358228583656336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.301511",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.3955307730065,
+        -8.357280185841399
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.312090",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39396083517217,
+        -8.358806171229743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.314691",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39542304922901,
+        -8.357103148807944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.317367",
+      "rua": "R CADELA",
+      "casa": "",
+      "coordenadas": [
+        40.39412176042772,
+        -8.359407408209004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.343648",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39105313238976,
+        -8.358242902993862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.344666",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39418631772327,
+        -8.35863024751463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.9361",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39405091330182,
+        -8.358794693565502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.25346",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39578249328737,
+        -8.357504816223532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.33868",
+      "rua": "R CADELA",
+      "casa": "",
+      "coordenadas": [
+        40.394515622448374,
+        -8.360621911596605
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41601",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.394629284488104,
+        -8.35776011532142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41602",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.394629284488104,
+        -8.35776011532142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54888",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39653730739177,
+        -8.358355398970838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.60037",
+      "rua": "R CADELA",
+      "casa": "",
+      "coordenadas": [
+        40.394264925672424,
+        -8.359879025484807
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.60038",
+      "rua": "R CADELA",
+      "casa": "",
+      "coordenadas": [
+        40.394220129029215,
+        -8.359761090784657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.69019",
+      "rua": "R CAPELA",
+      "casa": "",
+      "coordenadas": [
+        40.39379914951669,
+        -8.358593620760617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.79332",
+      "rua": "R CADELA",
+      "casa": "",
+      "coordenadas": [
+        40.394158335340876,
+        -8.359124848290705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83904",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.396203138794775,
+        -8.35884899449901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.105052",
+      "rua": "R CAPELA",
+      "casa": "",
+      "coordenadas": [
+        40.39415151144533,
+        -8.358005874575824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.105149",
+      "rua": "R CABECO",
+      "casa": "",
+      "coordenadas": [
+        40.39391629010137,
+        -8.35855867632532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.119359",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39412272747622,
+        -8.358912717578491
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.119361",
+      "rua": "R CABECO",
+      "casa": "",
+      "coordenadas": [
+        40.39381828449508,
+        -8.35801654433487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.130180",
+      "rua": "R CADELA",
+      "casa": "",
+      "coordenadas": [
+        40.39476752179524,
+        -8.360752323326196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.132686",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39521395582359,
+        -8.358115416889802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.151778",
+      "rua": "R CABECO",
+      "casa": "",
+      "coordenadas": [
+        40.393719796161975,
+        -8.3577217577755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.188353",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.397114256186164,
+        -8.35805106899513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209799",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39439550708949,
+        -8.357570882831247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.212092",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.396401260026195,
+        -8.35884965615702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.215399",
+      "rua": "R CAPELA",
+      "casa": "",
+      "coordenadas": [
+        40.393835355273715,
+        -8.358499514524564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.218200",
+      "rua": "ESTR PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39385270002906,
+        -8.358841145330153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.237855",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        40.39366427345077,
+        -8.358487165761186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250585",
+      "rua": "R MIRANTE",
+      "casa": "",
+      "coordenadas": [
+        40.396466523416976,
+        -8.357707327222842
+      ]
+    }
+  ],
+  "ruas": [
+    "R CABECO",
+    "ESTR PRINCIPAL",
+    "R CADELA",
+    "R PRINCIPAL",
+    "R CAPELA",
+    "R MIRANTE"
+  ],
+  "centro": [
+    40.39408369428796,
+    -8.35892773606707
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.393000783047725,
+                -8.359581095332906
+              ],
+              [
+                40.3925679717904,
+                -8.359283719257562
+              ],
+              [
+                40.39225754189086,
+                -8.359005706532482
+              ],
+              [
+                40.392069493349084,
+                -8.358747057157666
+              ],
+              [
+                40.392003826165094,
+                -8.358507771133112
+              ],
+              [
+                40.39206054033889,
+                -8.358287848458819
+              ],
+              [
+                40.39223963587045,
+                -8.35808728913479
+              ],
+              [
+                40.3925411127598,
+                -8.357906093161027
+              ],
+              [
+                40.39296497100693,
+                -8.357744260537523
+              ],
+              [
+                40.393511210611834,
+                -8.357601791264283
+              ],
+              [
+                40.39401559537484,
+                -8.357491941903122
+              ],
+              [
+                40.39447812529592,
+                -8.357414712454043
+              ],
+              [
+                40.3948988003751,
+                -8.357370102917042
+              ],
+              [
+                40.39527762061239,
+                -8.357358113292122
+              ],
+              [
+                40.39561458600775,
+                -8.35737874357928
+              ],
+              [
+                40.39590969656122,
+                -8.357431993778519
+              ],
+              [
+                40.39616295227277,
+                -8.357517863889838
+              ],
+              [
+                40.396374353142406,
+                -8.357636353913236
+              ],
+              [
+                40.39652266117849,
+                -8.357782239782631
+              ],
+              [
+                40.396607876381005,
+                -8.357955521498026
+              ],
+              [
+                40.39662999874996,
+                -8.358156199059419
+              ],
+              [
+                40.39658902828535,
+                -8.35838427246681
+              ],
+              [
+                40.396484964987174,
+                -8.358639741720198
+              ],
+              [
+                40.396317808855436,
+                -8.358922606819586
+              ],
+              [
+                40.396087559890134,
+                -8.359232867764971
+              ],
+              [
+                40.39579421809127,
+                -8.359570524556355
+              ],
+              [
+                40.39553360808996,
+                -8.35986393656554
+              ],
+              [
+                40.395305729886225,
+                -8.360113103792528
+              ],
+              [
+                40.39511058348005,
+                -8.360318026237318
+              ],
+              [
+                40.39494816887144,
+                -8.36047870389991
+              ],
+              [
+                40.39481848606039,
+                -8.360595136780304
+              ],
+              [
+                40.39472153504691,
+                -8.3606673248785
+              ],
+              [
+                40.39465731583098,
+                -8.3606952681945
+              ],
+              [
+                40.39462582841263,
+                -8.360678966728301
+              ],
+              [
+                40.3945441755144,
+                -8.36062753093596
+              ],
+              [
+                40.39441235713629,
+                -8.360540960817474
+              ],
+              [
+                40.39423037327832,
+                -8.360419256372847
+              ],
+              [
+                40.393998223940486,
+                -8.360262417602076
+              ],
+              [
+                40.39371590912277,
+                -8.360070444505162
+              ],
+              [
+                40.39338342882518,
+                -8.359843337082106
+              ],
+              [
+                40.393000783047725,
+                -8.359581095332906
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.39457471640971,
+    -8.358954271143947
+  ],
+  "centroDeMassa": [
+    40.39408369428796,
+    -8.35892773606707
+  ]
+}

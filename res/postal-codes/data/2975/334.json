@@ -1,1 +1,521 @@
-{"CP4":"2975","CP3":"334","Distrito":"Setúbal","Concelho":"Sesimbra","CP":"2975-334","Artéria":"Avenida Principal","Localidade":"Quinta do Conde","Local":"Quinta do Conde 1","Troço":"LT 9 B","Porta":"","Cliente":"","Designação Postal":"QUINTA DO CONDE","locais":[{"id":"pt.ine.add.PTCONT.4752335","rua":"AV PRINCIPAL","casa":"12A","coordenadas":[38.57037015817844,-9.041280749282546]},{"id":"pt.ine.add.PTCONT.4752336","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.569586891290676,-9.043542801278152]},{"id":"pt.ine.add.PTCONT.4764100","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.56931113784793,-9.044250725398573]},{"id":"pt.ine.add.PTCONT.4802128","rua":"AV PRINCIPAL","casa":"11 12 1","coordenadas":[38.56970630581861,-9.04324597589704]},{"id":"pt.ine.add.PTCONT.4830728","rua":"AV PRINCIPAL","casa":"8 B","coordenadas":[38.56948566911345,-9.043816906762661]},{"id":"pt.ine.add.PTCONT.4876526","rua":"AV PRINCIPAL","casa":"4 A","coordenadas":[38.56998223154625,-9.042515097477853]},{"id":"pt.ine.add.PTCONT.4908281","rua":"AV PRINCIPAL","casa":"7B","coordenadas":[38.56943037558267,-9.043976848654967]},{"id":"pt.ine.add.PTCONT.4909764","rua":"AV PRINCIPAL","casa":"7B","coordenadas":[38.56943037558267,-9.043976848654967]},{"id":"pt.ine.add.PTCONT.4916626","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.56863796040773,-9.046250200082907]},{"id":"pt.ine.add.PTCONT.4938661","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.56937526043271,-9.044113844012914]},{"id":"pt.ine.add.PTCONT.4952224","rua":"AV PRINCIPAL","casa":"9 A","coordenadas":[38.570249679888114,-9.041715260204464]},{"id":"pt.ine.add.PTCONT.4984845","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.570019865038525,-9.042309033152373]},{"id":"pt.ine.add.PTCONT.4985823","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.570019865038525,-9.042309033152373]},{"id":"pt.ine.add.PTCONT.5061900","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.56988127924702,-9.042754786260762]},{"id":"pt.ine.add.PTCONT.5065612","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.56913606885784,-9.044753380529336]},{"id":"pt.ine.add.PTCONT.5082050","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.570462367202744,-9.041006523424594]},{"id":"pt.ine.add.PTCONT.5123225","rua":"AV PRINCIPAL","casa":"6 A","coordenadas":[38.57002129084194,-9.042125461127641]},{"id":"pt.ine.add.PTCONT.5124474","rua":"AV PRINCIPAL","casa":"","coordenadas":[38.57012152918715,-9.041977557125565]}],"ruas":["AV PRINCIPAL"],"centroide":[38.56971216364211,-9.043173145609067]}}
+{
+  "CP": "2975-334",
+  "CP4": "2975",
+  "CP3": "334",
+  "Distrito": "Setúbal",
+  "Concelho": "Sesimbra",
+  "Localidade": "Quinta do Conde",
+  "Designação Postal": "QUINTA DO CONDE",
+  "partes": [
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 10 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 10 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 11 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 12 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 13 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 13 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 2 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 3 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 5 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 6 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 6 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 7 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 7 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 8 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 8 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 9 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Principal",
+      "Local": "Quinta do Conde 1",
+      "Troço": "LT 9 B",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4752335",
+      "rua": "AV PRINCIPAL",
+      "casa": "12A",
+      "coordenadas": [
+        38.57037015817844,
+        -9.041280749282546
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4752336",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.569586891290676,
+        -9.043542801278152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4764100",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.56931113784793,
+        -9.044250725398573
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4802128",
+      "rua": "AV PRINCIPAL",
+      "casa": "11 12 1",
+      "coordenadas": [
+        38.56970630581861,
+        -9.04324597589704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4830728",
+      "rua": "AV PRINCIPAL",
+      "casa": "8 B",
+      "coordenadas": [
+        38.56948566911345,
+        -9.043816906762661
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4876526",
+      "rua": "AV PRINCIPAL",
+      "casa": "4 A",
+      "coordenadas": [
+        38.56998223154625,
+        -9.042515097477853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4908281",
+      "rua": "AV PRINCIPAL",
+      "casa": "7B",
+      "coordenadas": [
+        38.56943037558267,
+        -9.043976848654967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4909764",
+      "rua": "AV PRINCIPAL",
+      "casa": "7B",
+      "coordenadas": [
+        38.56943037558267,
+        -9.043976848654967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4916626",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.56863796040773,
+        -9.046250200082907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4938661",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.56937526043271,
+        -9.044113844012914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4952224",
+      "rua": "AV PRINCIPAL",
+      "casa": "9 A",
+      "coordenadas": [
+        38.570249679888114,
+        -9.041715260204464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4984845",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.570019865038525,
+        -9.042309033152373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4985823",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.570019865038525,
+        -9.042309033152373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5061900",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.56988127924702,
+        -9.042754786260762
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5065612",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.56913606885784,
+        -9.044753380529336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5082050",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.570462367202744,
+        -9.041006523424594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5123225",
+      "rua": "AV PRINCIPAL",
+      "casa": "6 A",
+      "coordenadas": [
+        38.57002129084194,
+        -9.042125461127641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5124474",
+      "rua": "AV PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.57012152918715,
+        -9.041977557125565
+      ]
+    }
+  ],
+  "ruas": [
+    "AV PRINCIPAL"
+  ],
+  "centro": [
+    38.56955016380523,
+    -9.04362836175375
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.56939411292314,
+                -9.044149204867566
+              ],
+              [
+                38.569226079030834,
+                -9.044616092693197
+              ],
+              [
+                38.56908683231959,
+                -9.0450012317351
+              ],
+              [
+                38.568976372789415,
+                -9.045304621993274
+              ],
+              [
+                38.56889470044032,
+                -9.045526263467721
+              ],
+              [
+                38.56884181527229,
+                -9.045666156158436
+              ],
+              [
+                38.56881771728534,
+                -9.045724300065427
+              ],
+              [
+                38.568822406479455,
+                -9.045700695188687
+              ],
+              [
+                38.56885588285465,
+                -9.04559534152822
+              ],
+              [
+                38.56891814641091,
+                -9.045408239084024
+              ],
+              [
+                38.568986458616145,
+                -9.0452034632047
+              ],
+              [
+                38.56906081947035,
+                -9.044981013890249
+              ],
+              [
+                38.56914122897352,
+                -9.044740891140671
+              ],
+              [
+                38.569227687125654,
+                -9.04448309495597
+              ],
+              [
+                38.56932019392676,
+                -9.044207625336139
+              ],
+              [
+                38.56941874937684,
+                -9.04391448228118
+              ],
+              [
+                38.56952335347589,
+                -9.043603665791094
+              ],
+              [
+                38.56963400622389,
+                -9.043275175865883
+              ],
+              [
+                38.569737719196546,
+                -9.042970263779713
+              ],
+              [
+                38.56983449239383,
+                -9.042688929532583
+              ],
+              [
+                38.56992432581575,
+                -9.042431173124495
+              ],
+              [
+                38.57000721946231,
+                -9.04219699455545
+              ],
+              [
+                38.5700831733335,
+                -9.041986393825445
+              ],
+              [
+                38.57015218742933,
+                -9.04179937093448
+              ],
+              [
+                38.5702142617498,
+                -9.04163592588256
+              ],
+              [
+                38.57026939629489,
+                -9.041496058669676
+              ],
+              [
+                38.57031431578257,
+                -9.041384748870591
+              ],
+              [
+                38.5703490202128,
+                -9.041301996485302
+              ],
+              [
+                38.57037350958562,
+                -9.041247801513808
+              ],
+              [
+                38.57038778390101,
+                -9.04122216395611
+              ],
+              [
+                38.57039184315897,
+                -9.041225083812208
+              ],
+              [
+                38.570385687359504,
+                -9.0412565610821
+              ],
+              [
+                38.5703693165026,
+                -9.041316595765787
+              ],
+              [
+                38.57034273058826,
+                -9.04140518786327
+              ],
+              [
+                38.57031528903288,
+                -9.041495203405967
+              ],
+              [
+                38.570286991836454,
+                -9.041586642393872
+              ],
+              [
+                38.57025783899897,
+                -9.04167950482699
+              ],
+              [
+                38.570227830520444,
+                -9.041773790705319
+              ],
+              [
+                38.570196966400864,
+                -9.04186950002886
+              ],
+              [
+                38.57016524664023,
+                -9.04196663279761
+              ],
+              [
+                38.570132671238554,
+                -9.042065189011572
+              ],
+              [
+                38.570099240195816,
+                -9.042165168670746
+              ],
+              [
+                38.57004898379688,
+                -9.042311011850725
+              ],
+              [
+                38.56998190204176,
+                -9.042502718551514
+              ],
+              [
+                38.56989799493043,
+                -9.04274028877311
+              ],
+              [
+                38.569797262462906,
+                -9.043023722515514
+              ],
+              [
+                38.569679704639185,
+                -9.043353019778724
+              ],
+              [
+                38.56954532145926,
+                -9.043728180562741
+              ],
+              [
+                38.56939411292314,
+                -9.044149204867566
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.56974826645743,
+    -9.043060987141132
+  ],
+  "centroDeMassa": [
+    38.56955016380523,
+    -9.04362836175375
+  ]
+}

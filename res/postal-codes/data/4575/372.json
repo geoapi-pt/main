@@ -1,1 +1,498 @@
-{"CP4":"4575","CP3":"372","Distrito":"Porto","Concelho":"Penafiel","CP":"4575-372","Artéria":"Rua José Júlio","Localidade":"Pinheiro","Local":"Quintãs","Troço":"","Porta":"","Cliente":"","Designação Postal":"PINHEIRO PNF","locais":[{"id":"pt.ine.add.PTCONT.3548703","rua":"R DR ELÍSIO FERREIRA DE SOUSA","casa":"","coordenadas":[41.11442856655311,-8.304272534553267]},{"id":"pt.ine.add.PTCONT.3551800","rua":"R DAS QUINTÃS","casa":"","coordenadas":[41.11739103640588,-8.304268323229207]},{"id":"pt.ine.add.PTCONT.3600127","rua":"R QUINTAS","casa":"147","coordenadas":[41.11711214716248,-8.304100904601345]},{"id":"pt.ine.add.PTCONT.3632349","rua":"R GASPAR BALTAR","casa":"134","coordenadas":[41.117497438948774,-8.305375931676558]},{"id":"pt.ine.add.PTCONT.3645260","rua":"R JOSE JULIO","casa":"90","coordenadas":[41.11828126735283,-8.3050803075759]},{"id":"pt.ine.add.PTCONT.3645261","rua":"R QUINTAS","casa":"7","coordenadas":[41.11689504974324,-8.30476711571052]},{"id":"pt.ine.add.PTCONT.3677150","rua":"R JOSE JULIO","casa":"68","coordenadas":[41.11810128577049,-8.305008396382096]},{"id":"pt.ine.add.PTCONT.3680230","rua":"R JOSE JULIO","casa":"68","coordenadas":[41.11810128577049,-8.305008396382096]},{"id":"pt.ine.add.PTCONT.3770926","rua":"R QUINTAS","casa":"48","coordenadas":[41.118102508669494,-8.304186823087129]},{"id":"pt.ine.add.PTCONT.3808499","rua":"R JOSE JULIO","casa":"67","coordenadas":[41.11800166813051,-8.3053891568784]},{"id":"pt.ine.add.PTCONT.3844710","rua":"R QUINTAS","casa":"133","coordenadas":[41.11696816490927,-8.304040997451866]},{"id":"pt.ine.add.PTCONT.3865135","rua":"R JOSE JULIO","casa":"110","coordenadas":[41.11845220891076,-8.30517600949663]},{"id":"pt.ine.add.PTCONT.3865136","rua":"R JOSE JULIO","casa":"130","coordenadas":[41.118623185966676,-8.305247898008934]},{"id":"pt.ine.add.PTCONT.3865137","rua":"R QUINTAS","casa":"31","coordenadas":[41.11638326640834,-8.303777535057412]},{"id":"pt.ine.add.PTCONT.3949104","rua":"R GASPAR BALTAR","casa":"71","coordenadas":[41.117399562768625,-8.304589828399221]},{"id":"pt.ine.add.PTCONT.3973228","rua":"R QUINTAS","casa":"171","coordenadas":[41.1172381559098,-8.304136951855334]},{"id":"pt.ine.add.PTCONT.3980912","rua":"R QUINTAS","casa":"128","coordenadas":[41.11966055421938,-8.304000353700443]},{"id":"pt.ine.add.PTCONT.4000323","rua":"R QUINTAS","casa":"117","coordenadas":[41.11682416496111,-8.303992997194007]},{"id":"pt.ine.add.PTCONT.4000324","rua":"R QUINTAS","casa":"97","coordenadas":[41.116644094366436,-8.303980623553405]},{"id":"pt.ine.add.PTCONT.4039463","rua":"QTA DA PALMEIPA","casa":"","coordenadas":[41.11850163827823,-8.30219939413507]},{"id":"pt.ine.add.PTCONT.4098846","rua":"R GASPAR BALTAR","casa":"68","coordenadas":[41.11769656651885,-8.304685856027433]},{"id":"pt.ine.add.PTCONT.4098847","rua":"R GASPAR BALTAR","casa":"68","coordenadas":[41.11769656651885,-8.304685856027433]},{"id":"pt.ine.add.PTCONT.4098848","rua":"R GASPAR BALTAR","casa":"68","coordenadas":[41.11769656651885,-8.304685856027433]},{"id":"pt.ine.add.PTCONT.4098850","rua":"R GASPAR BALTAR","casa":"68","coordenadas":[41.11769656651885,-8.304685856027433]},{"id":"pt.ine.add.PTCONT.4098851","rua":"R GASPAR BALTAR","casa":"68","coordenadas":[41.11769656651885,-8.304685856027433]},{"id":"pt.ine.add.PTCONT.4249151","rua":"R JOSE JULIO","casa":"47","coordenadas":[41.11781268232284,-8.305317221615285]},{"id":"pt.ine.add.PTCONT.4265147","rua":"R QUINTAS","casa":"","coordenadas":[41.11868857209685,-8.303664436308905]},{"id":"pt.ine.add.PTCONT.4285059","rua":"R JOSE JULIO","casa":"89","coordenadas":[41.1181816494765,-8.305461069001819]},{"id":"pt.ine.add.PTCONT.4292585","rua":"QUINTAS","casa":"","coordenadas":[41.11838818026474,-8.305842631883335]},{"id":"pt.ine.add.PTCONT.4377533","rua":"R JOSE JULIO","casa":"","coordenadas":[41.11764177643463,-8.305197706711578]},{"id":"pt.ine.add.PTCONT.4383636","rua":"R GASPAR BALTAR","casa":"68","coordenadas":[41.11769656651885,-8.304685856027433]},{"id":"pt.ine.add.PTCONT.4386491","rua":"R JOSE JULIO","casa":"48","coordenadas":[41.11793030854725,-8.304936509064865]}],"ruas":["R DR ELÍSIO FERREIRA DE SOUSA","R DAS QUINTÃS","R QUINTAS","R GASPAR BALTAR","R JOSE JULIO","QTA DA PALMEIPA","QUINTAS"],"centroide":[41.11766127454562,-8.304587054213368]}-8.304587054213368]}
+{
+  "CP": "4575-372",
+  "CP4": "4575",
+  "CP3": "372",
+  "Distrito": "Porto",
+  "Concelho": "Penafiel",
+  "Localidade": "Pinheiro",
+  "Designação Postal": "PINHEIRO PNF",
+  "partes": [
+    {
+      "Artéria": "Rua das Quintãs",
+      "Local": "Quintãs",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Gaspar Baltar",
+      "Local": "Quintãs",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Doutor Elísio Ferreira de Sousa",
+      "Local": "Quintãs",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua José Júlio",
+      "Local": "Quintãs",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3548703",
+      "rua": "R DR ELÍSIO FERREIRA DE SOUSA",
+      "casa": "",
+      "coordenadas": [
+        41.11442856655311,
+        -8.304272534553267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3551800",
+      "rua": "R DAS QUINTÃS",
+      "casa": "",
+      "coordenadas": [
+        41.11739103640588,
+        -8.304268323229207
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3600127",
+      "rua": "R QUINTAS",
+      "casa": "147",
+      "coordenadas": [
+        41.11711214716248,
+        -8.304100904601345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3632349",
+      "rua": "R GASPAR BALTAR",
+      "casa": "134",
+      "coordenadas": [
+        41.117497438948774,
+        -8.305375931676558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3645260",
+      "rua": "R JOSE JULIO",
+      "casa": "90",
+      "coordenadas": [
+        41.11828126735283,
+        -8.3050803075759
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3645261",
+      "rua": "R QUINTAS",
+      "casa": "7",
+      "coordenadas": [
+        41.11689504974324,
+        -8.30476711571052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3677150",
+      "rua": "R JOSE JULIO",
+      "casa": "68",
+      "coordenadas": [
+        41.11810128577049,
+        -8.305008396382096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3680230",
+      "rua": "R JOSE JULIO",
+      "casa": "68",
+      "coordenadas": [
+        41.11810128577049,
+        -8.305008396382096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3770926",
+      "rua": "R QUINTAS",
+      "casa": "48",
+      "coordenadas": [
+        41.118102508669494,
+        -8.304186823087129
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3808499",
+      "rua": "R JOSE JULIO",
+      "casa": "67",
+      "coordenadas": [
+        41.11800166813051,
+        -8.3053891568784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3844710",
+      "rua": "R QUINTAS",
+      "casa": "133",
+      "coordenadas": [
+        41.11696816490927,
+        -8.304040997451866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3865135",
+      "rua": "R JOSE JULIO",
+      "casa": "110",
+      "coordenadas": [
+        41.11845220891076,
+        -8.30517600949663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3865136",
+      "rua": "R JOSE JULIO",
+      "casa": "130",
+      "coordenadas": [
+        41.118623185966676,
+        -8.305247898008934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3865137",
+      "rua": "R QUINTAS",
+      "casa": "31",
+      "coordenadas": [
+        41.11638326640834,
+        -8.303777535057412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3949104",
+      "rua": "R GASPAR BALTAR",
+      "casa": "71",
+      "coordenadas": [
+        41.117399562768625,
+        -8.304589828399221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3973228",
+      "rua": "R QUINTAS",
+      "casa": "171",
+      "coordenadas": [
+        41.1172381559098,
+        -8.304136951855334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3980912",
+      "rua": "R QUINTAS",
+      "casa": "128",
+      "coordenadas": [
+        41.11966055421938,
+        -8.304000353700443
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4000323",
+      "rua": "R QUINTAS",
+      "casa": "117",
+      "coordenadas": [
+        41.11682416496111,
+        -8.303992997194007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4000324",
+      "rua": "R QUINTAS",
+      "casa": "97",
+      "coordenadas": [
+        41.116644094366436,
+        -8.303980623553405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4039463",
+      "rua": "QTA DA PALMEIPA",
+      "casa": "",
+      "coordenadas": [
+        41.11850163827823,
+        -8.30219939413507
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4098846",
+      "rua": "R GASPAR BALTAR",
+      "casa": "68",
+      "coordenadas": [
+        41.11769656651885,
+        -8.304685856027433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4098847",
+      "rua": "R GASPAR BALTAR",
+      "casa": "68",
+      "coordenadas": [
+        41.11769656651885,
+        -8.304685856027433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4098848",
+      "rua": "R GASPAR BALTAR",
+      "casa": "68",
+      "coordenadas": [
+        41.11769656651885,
+        -8.304685856027433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4098850",
+      "rua": "R GASPAR BALTAR",
+      "casa": "68",
+      "coordenadas": [
+        41.11769656651885,
+        -8.304685856027433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4098851",
+      "rua": "R GASPAR BALTAR",
+      "casa": "68",
+      "coordenadas": [
+        41.11769656651885,
+        -8.304685856027433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4249151",
+      "rua": "R JOSE JULIO",
+      "casa": "47",
+      "coordenadas": [
+        41.11781268232284,
+        -8.305317221615285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4265147",
+      "rua": "R QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        41.11868857209685,
+        -8.303664436308905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4285059",
+      "rua": "R JOSE JULIO",
+      "casa": "89",
+      "coordenadas": [
+        41.1181816494765,
+        -8.305461069001819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4292585",
+      "rua": "QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        41.11838818026474,
+        -8.305842631883335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4377533",
+      "rua": "R JOSE JULIO",
+      "casa": "",
+      "coordenadas": [
+        41.11764177643463,
+        -8.305197706711578
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4383636",
+      "rua": "R GASPAR BALTAR",
+      "casa": "68",
+      "coordenadas": [
+        41.11769656651885,
+        -8.304685856027433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4386491",
+      "rua": "R JOSE JULIO",
+      "casa": "48",
+      "coordenadas": [
+        41.11793030854725,
+        -8.304936509064865
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR ELÍSIO FERREIRA DE SOUSA",
+    "R DAS QUINTÃS",
+    "R QUINTAS",
+    "R GASPAR BALTAR",
+    "R JOSE JULIO",
+    "QTA DA PALMEIPA",
+    "QUINTAS"
+  ],
+  "centro": [
+    41.11704456038625,
+    -8.304021013009201
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.1166558492659,
+                -8.30515571430143
+              ],
+              [
+                41.11616089755195,
+                -8.304959452135172
+              ],
+              [
+                41.11579145654794,
+                -8.30475532992066
+              ],
+              [
+                41.11554752625389,
+                -8.304543347657898
+              ],
+              [
+                41.11542910666978,
+                -8.304323505346883
+              ],
+              [
+                41.115436197795624,
+                -8.304095802987618
+              ],
+              [
+                41.11556879963142,
+                -8.303860240580098
+              ],
+              [
+                41.115826912177155,
+                -8.303616818124329
+              ],
+              [
+                41.11621053543285,
+                -8.303365535620307
+              ],
+              [
+                41.11671966939849,
+                -8.30310639306803
+              ],
+              [
+                41.117183269680005,
+                -8.302907783328
+              ],
+              [
+                41.1176013362774,
+                -8.30276970640021
+              ],
+              [
+                41.11797386919067,
+                -8.302692162284666
+              ],
+              [
+                41.1183008684198,
+                -8.302675150981365
+              ],
+              [
+                41.11858233396482,
+                -8.302718672490306
+              ],
+              [
+                41.118818265825716,
+                -8.302822726811492
+              ],
+              [
+                41.119008664002486,
+                -8.30298731394492
+              ],
+              [
+                41.119153528495126,
+                -8.303212433890591
+              ],
+              [
+                41.11926040408315,
+                -8.303438199439661
+              ],
+              [
+                41.11932929076655,
+                -8.303664610592131
+              ],
+              [
+                41.11936018854533,
+                -8.303891667348
+              ],
+              [
+                41.119353097419484,
+                -8.304119369707266
+              ],
+              [
+                41.11930801738902,
+                -8.304347717669932
+              ],
+              [
+                41.11922494845393,
+                -8.304576711235995
+              ],
+              [
+                41.11910389061423,
+                -8.304806350405459
+              ],
+              [
+                41.1189448438699,
+                -8.30503663517832
+              ],
+              [
+                41.118743809004364,
+                -8.305213601583791
+              ],
+              [
+                41.11850078601763,
+                -8.305337249621873
+              ],
+              [
+                41.118215774909686,
+                -8.305407579292565
+              ],
+              [
+                41.11788877568054,
+                -8.305424590595866
+              ],
+              [
+                41.1175197883302,
+                -8.305388283531776
+              ],
+              [
+                41.117108812858646,
+                -8.305298658100298
+              ],
+              [
+                41.1166558492659,
+                -8.30515571430143
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.11774473482886,
+    -8.304078728568028
+  ],
+  "centroDeMassa": [
+    41.11704456038625,
+    -8.304021013009201
+  ]
+}

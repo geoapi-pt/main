@@ -1,1 +1,413 @@
-{"CP4":"7320","CP3":"202","Distrito":"Portalegre","Concelho":"Castelo de Vide","CP":"7320-202","Artéria":"Estrada São Vicente","Localidade":"Castelo de Vide","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CASTELO DE VIDE","locais":[{"id":"pt.ine.add.PTCONT.3458796","rua":"QTA ATALAIA","casa":"","coordenadas":[39.40027910418892,-7.430433947921921]},{"id":"pt.ine.add.PTCONT.3458831","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.40864249779238,-7.446338000986345]},{"id":"pt.ine.add.PTCONT.3461345","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.40856198782546,-7.4464316766122405]},{"id":"pt.ine.add.PTCONT.3474801","rua":"QTA MATOSA","casa":"","coordenadas":[39.40442226438498,-7.443976117241529]},{"id":"pt.ine.add.PTCONT.3476106","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.407294292042025,-7.4452946688406545]},{"id":"pt.ine.add.PTCONT.3478470","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.4080153587469,-7.445380469915203]},{"id":"pt.ine.add.PTCONT.3478508","rua":"QTA STO ANTÓNIO DA MOUTOSA","casa":"","coordenadas":[39.40564288048726,-7.444765210445994]},{"id":"pt.ine.add.PTCONT.3479818","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.40831380745699,-7.445586530557698]},{"id":"pt.ine.add.PTCONT.3488919","rua":"MOUTOSA","casa":"","coordenadas":[39.3968610830851,-7.425255898617461]},{"id":"pt.ine.add.PTCONT.3506642","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.407735952278564,-7.4453483827936875]},{"id":"pt.ine.add.PTCONT.3507953","rua":"AGUA FORMOSA","casa":"","coordenadas":[39.40250815762303,-7.438654482049709]},{"id":"pt.ine.add.PTCONT.3510848","rua":"QTA MOUTOSA","casa":"","coordenadas":[39.404633028285225,-7.4415475368001305]},{"id":"pt.ine.add.PTCONT.3513445","rua":"QTA MOUTOSA","casa":"","coordenadas":[39.40388404198348,-7.44131112525392]},{"id":"pt.ine.add.PTCONT.3518927","rua":"ESTR S VICENTE","casa":"1","coordenadas":[39.408571679527306,-7.4465476888717195]},{"id":"pt.ine.add.PTCONT.3518998","rua":"ESTR S VICENTE","casa":"1","coordenadas":[39.408571679527306,-7.4465476888717195]},{"id":"pt.ine.add.PTCONT.3521668","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.40861338836499,-7.447510971191957]},{"id":"pt.ine.add.PTCONT.3522542","rua":"QTA CALDEIREIRA","casa":"","coordenadas":[39.408552473826816,-7.449404116672656]},{"id":"pt.ine.add.PTCONT.3523996","rua":"CAM FERRARIAS","casa":"","coordenadas":[39.41727023977456,-7.435581760036254]},{"id":"pt.ine.add.PTCONT.3527084","rua":"SIT DAS FERRARIAS","casa":"","coordenadas":[39.41698704369698,-7.436420655352049]},{"id":"pt.ine.add.PTCONT.3530933","rua":"ESTR S VICENTE","casa":"2","coordenadas":[39.40687489847611,-7.445960584665643]},{"id":"pt.ine.add.PTCONT.3534066","rua":"ESTR S VICENTE","casa":"","coordenadas":[39.40864311459055,-7.446442491629648]}],"ruas":["QTA ATALAIA","ESTR S VICENTE","QTA MATOSA","QTA STO ANTÓNIO DA MOUTOSA","MOUTOSA","AGUA FORMOSA","QTA MOUTOSA","QTA CALDEIREIRA","CAM FERRARIAS","SIT DAS FERRARIAS"],"centroide":[39.40711179296872,-7.442414875684923]}
+{
+  "CP": "7320-202",
+  "CP4": "7320",
+  "CP3": "202",
+  "Distrito": "Portalegre",
+  "Concelho": "Castelo de Vide",
+  "Localidade": "Castelo de Vide",
+  "Designação Postal": "CASTELO DE VIDE",
+  "partes": [
+    {
+      "Artéria": "Estrada São Vicente",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3458796",
+      "rua": "QTA ATALAIA",
+      "casa": "",
+      "coordenadas": [
+        39.40027910418892,
+        -7.430433947921921
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3458831",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.40864249779238,
+        -7.446338000986345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3461345",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.40856198782546,
+        -7.4464316766122405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3474801",
+      "rua": "QTA MATOSA",
+      "casa": "",
+      "coordenadas": [
+        39.40442226438498,
+        -7.443976117241529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3476106",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.407294292042025,
+        -7.4452946688406545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478470",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.4080153587469,
+        -7.445380469915203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478508",
+      "rua": "QTA STO ANTÓNIO DA MOUTOSA",
+      "casa": "",
+      "coordenadas": [
+        39.40564288048726,
+        -7.444765210445994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3479818",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.40831380745699,
+        -7.445586530557698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3488919",
+      "rua": "MOUTOSA",
+      "casa": "",
+      "coordenadas": [
+        39.3968610830851,
+        -7.425255898617461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3506642",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.407735952278564,
+        -7.4453483827936875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3507953",
+      "rua": "AGUA FORMOSA",
+      "casa": "",
+      "coordenadas": [
+        39.40250815762303,
+        -7.438654482049709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3510848",
+      "rua": "QTA MOUTOSA",
+      "casa": "",
+      "coordenadas": [
+        39.404633028285225,
+        -7.4415475368001305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513445",
+      "rua": "QTA MOUTOSA",
+      "casa": "",
+      "coordenadas": [
+        39.40388404198348,
+        -7.44131112525392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3518927",
+      "rua": "ESTR S VICENTE",
+      "casa": "1",
+      "coordenadas": [
+        39.408571679527306,
+        -7.4465476888717195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3518998",
+      "rua": "ESTR S VICENTE",
+      "casa": "1",
+      "coordenadas": [
+        39.408571679527306,
+        -7.4465476888717195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3521668",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.40861338836499,
+        -7.447510971191957
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3522542",
+      "rua": "QTA CALDEIREIRA",
+      "casa": "",
+      "coordenadas": [
+        39.408552473826816,
+        -7.449404116672656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3523996",
+      "rua": "CAM FERRARIAS",
+      "casa": "",
+      "coordenadas": [
+        39.41727023977456,
+        -7.435581760036254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3527084",
+      "rua": "SIT DAS FERRARIAS",
+      "casa": "",
+      "coordenadas": [
+        39.41698704369698,
+        -7.436420655352049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530933",
+      "rua": "ESTR S VICENTE",
+      "casa": "2",
+      "coordenadas": [
+        39.40687489847611,
+        -7.445960584665643
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3534066",
+      "rua": "ESTR S VICENTE",
+      "casa": "",
+      "coordenadas": [
+        39.40864311459055,
+        -7.446442491629648
+      ]
+    }
+  ],
+  "ruas": [
+    "QTA ATALAIA",
+    "ESTR S VICENTE",
+    "QTA MATOSA",
+    "QTA STO ANTÓNIO DA MOUTOSA",
+    "MOUTOSA",
+    "AGUA FORMOSA",
+    "QTA MOUTOSA",
+    "QTA CALDEIREIRA",
+    "CAM FERRARIAS",
+    "SIT DAS FERRARIAS"
+  ],
+  "centro": [
+    39.407065661429826,
+    -7.437330007645059
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.401114247566284,
+                -7.435786021593499
+              ],
+              [
+                39.4001690999038,
+                -7.43344599426549
+              ],
+              [
+                39.399660988772396,
+                -7.431559811938152
+              ],
+              [
+                39.399589914172076,
+                -7.430127474611483
+              ],
+              [
+                39.399955876102844,
+                -7.429148982285483
+              ],
+              [
+                39.400758874564694,
+                -7.428624334960155
+              ],
+              [
+                39.401998909557626,
+                -7.428553532635494
+              ],
+              [
+                39.40367598108164,
+                -7.4289365753115035
+              ],
+              [
+                39.40579008913674,
+                -7.429773462988184
+              ],
+              [
+                39.40834123372292,
+                -7.431064195665533
+              ],
+              [
+                39.41056906029712,
+                -7.4322066944975225
+              ],
+              [
+                39.41247356885933,
+                -7.433200959484153
+              ],
+              [
+                39.41405475940957,
+                -7.434046990625424
+              ],
+              [
+                39.4153126319478,
+                -7.4347447879213355
+              ],
+              [
+                39.41624718647406,
+                -7.435294351371888
+              ],
+              [
+                39.416858422988334,
+                -7.435695680977081
+              ],
+              [
+                39.41714634149062,
+                -7.435948776736915
+              ],
+              [
+                39.41711094198092,
+                -7.436053638651389
+              ],
+              [
+                39.41694817725572,
+                -7.436348259409688
+              ],
+              [
+                39.416658047314996,
+                -7.436832639011814
+              ],
+              [
+                39.416240552158776,
+                -7.437506777457764
+              ],
+              [
+                39.41569569178704,
+                -7.438370674747538
+              ],
+              [
+                39.4150234661998,
+                -7.439424330881138
+              ],
+              [
+                39.41422387539705,
+                -7.440667745858564
+              ],
+              [
+                39.41329691937879,
+                -7.442100919679814
+              ],
+              [
+                39.412242598145006,
+                -7.443723852344891
+              ],
+              [
+                39.41125553254293,
+                -7.445059105935721
+              ],
+              [
+                39.41033572257255,
+                -7.446106680452304
+              ],
+              [
+                39.409483168233855,
+                -7.446866575894642
+              ],
+              [
+                39.40869786952686,
+                -7.447338792262736
+              ],
+              [
+                39.40797982645155,
+                -7.4475233295565815
+              ],
+              [
+                39.40732903900794,
+                -7.447420187776183
+              ],
+              [
+                39.40674550719602,
+                -7.447029366921538
+              ],
+              [
+                39.406229231015786,
+                -7.446350866992647
+              ],
+              [
+                39.405659345900276,
+                -7.445464676138866
+              ],
+              [
+                39.40503585184949,
+                -7.444370794360196
+              ],
+              [
+                39.404358748863416,
+                -7.4430692216566365
+              ],
+              [
+                39.40362803694205,
+                -7.4415599580281855
+              ],
+              [
+                39.402843716085414,
+                -7.439843003474846
+              ],
+              [
+                39.402005786293486,
+                -7.437918357996618
+              ],
+              [
+                39.401114247566284,
+                -7.435786021593499
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.40881862095368,
+    -7.4381277095839895
+  ],
+  "centroDeMassa": [
+    39.407065661429826,
+    -7.437330007645059
+  ]
+}

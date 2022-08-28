@@ -1,1 +1,519 @@
-{"CP4":"4455","CP3":"440","Distrito":"Porto","Concelho":"Matosinhos","CP":"4455-440","Artéria":"Rua Monte do Corgo","Localidade":"Perafita","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PERAFITA","locais":[{"id":"pt.ine.add.PTCONT.3545214","rua":"TV CENTRAL DO CORGO","casa":"36","coordenadas":[41.23388791160957,-8.695066198847519]},{"id":"pt.ine.add.PTCONT.3595292","rua":"TV CENTRAL DO CORGO","casa":"27","coordenadas":[41.234359368882195,-8.69440227370764]},{"id":"pt.ine.add.PTCONT.3606038","rua":"TV CENTRAL DO CORGO","casa":"7","coordenadas":[41.2351014600267,-8.693633299036351]},{"id":"pt.ine.add.PTCONT.3606039","rua":"R CENTRAL DO CORGO","casa":"5","coordenadas":[41.23453740985926,-8.694821274606387]},{"id":"pt.ine.add.PTCONT.3609617","rua":"TV CENTRAL DO CORGO","casa":"7","coordenadas":[41.2351014600267,-8.693633299036351]},{"id":"pt.ine.add.PTCONT.3689392","rua":"R CENTRAL DO CORGO","casa":"","coordenadas":[41.23450052160492,-8.694999877817484]},{"id":"pt.ine.add.PTCONT.3713124","rua":"R CENTRAL DO CORGO","casa":"25","coordenadas":[41.23454513331889,-8.69508375543125]},{"id":"pt.ine.add.PTCONT.3726200","rua":"TV CENTRAL DO CORGO","casa":"167","coordenadas":[41.235099717585605,-8.693991125422402]},{"id":"pt.ine.add.PTCONT.3767501","rua":"TV CENTRAL DO CORGO","casa":"163","coordenadas":[41.23497331527668,-8.694061613037663]},{"id":"pt.ine.add.PTCONT.3829623","rua":"TV CENTRAL DO CORGO","casa":"191-195","coordenadas":[41.235280433307224,-8.693861461384968]},{"id":"pt.ine.add.PTCONT.3832483","rua":"R CENTRAL DO CORGO","casa":"280","coordenadas":[41.23497145521828,-8.694443293741609]},{"id":"pt.ine.add.PTCONT.3890534","rua":"TV CENTRAL DO CORGO","casa":"27","coordenadas":[41.234031914757885,-8.695079359965284]},{"id":"pt.ine.add.PTCONT.4007837","rua":"TV CENTRAL DO CORGO","casa":"22","coordenadas":[41.23466462700265,-8.6945838044068]},{"id":"pt.ine.add.PTCONT.4007838","rua":"R CENTRAL DO CORGO","casa":"272","coordenadas":[41.23487212229253,-8.694502083955689]},{"id":"pt.ine.add.PTCONT.4038754","rua":"R CENTRAL DO CORGO","casa":"3","coordenadas":[41.234256370218525,-8.695212489078079]},{"id":"pt.ine.add.PTCONT.4071967","rua":"R CENTRAL DO CORGO","casa":"1","coordenadas":[41.23439107835414,-8.695285210537719]},{"id":"pt.ine.add.PTCONT.4071968","rua":"R CENTRAL DO CORGO","casa":"336","coordenadas":[41.23529623278952,-8.694314863375734]},{"id":"pt.ine.add.PTCONT.4084791","rua":"TV CENTRAL DO CORGO","casa":"110","coordenadas":[41.234620828931924,-8.694332942567623]},{"id":"pt.ine.add.PTCONT.4130367","rua":"TV CENTRAL DO CORGO","casa":"37","coordenadas":[41.23390818852649,-8.694601187308658]},{"id":"pt.ine.add.PTCONT.4130368","rua":"TV CENTRAL DO CORGO","casa":"37","coordenadas":[41.23390818852649,-8.694601187308658]},{"id":"pt.ine.add.PTCONT.4156979","rua":"R CENTRAL DO CORGO","casa":"36","coordenadas":[41.234302088007084,-8.695069745955788]},{"id":"pt.ine.add.PTCONT.4235072","rua":"R CENTRAL DO CORGO","casa":"","coordenadas":[41.234993007532715,-8.693715868724656]},{"id":"pt.ine.add.PTCONT.4254872","rua":"R CENTRAL DO CORGO","casa":"","coordenadas":[41.23558697026067,-8.69378058421924]},{"id":"pt.ine.add.PTCONT.4318947","rua":"TV CENTRAL DO CORGO","casa":"187","coordenadas":[41.23517198065395,-8.693944030916235]},{"id":"pt.ine.add.PTCONT.4375969","rua":"TV CENTRAL DO CORGO","casa":"32","coordenadas":[41.23410435288646,-8.694996485327932]}],"ruas":["TV CENTRAL DO CORGO","R CENTRAL DO CORGO"],"centroide":[41.23468174102378,-8.694459201266241]}66241]}
+{
+  "CP": "4455-440",
+  "CP4": "4455",
+  "CP3": "440",
+  "Distrito": "Porto",
+  "Concelho": "Matosinhos",
+  "Localidade": "Perafita",
+  "Designação Postal": "PERAFITA",
+  "partes": [
+    {
+      "Artéria": "Rua Central do Corgo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Central do Corgo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Monte do Corgo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3545214",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "36",
+      "coordenadas": [
+        41.23388791160957,
+        -8.695066198847519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3595292",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "27",
+      "coordenadas": [
+        41.234359368882195,
+        -8.69440227370764
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3606038",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "7",
+      "coordenadas": [
+        41.2351014600267,
+        -8.693633299036351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3606039",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "5",
+      "coordenadas": [
+        41.23453740985926,
+        -8.694821274606387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3609617",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "7",
+      "coordenadas": [
+        41.2351014600267,
+        -8.693633299036351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3689392",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "",
+      "coordenadas": [
+        41.23450052160492,
+        -8.694999877817484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3713124",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "25",
+      "coordenadas": [
+        41.23454513331889,
+        -8.69508375543125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726200",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "167",
+      "coordenadas": [
+        41.235099717585605,
+        -8.693991125422402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3767501",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "163",
+      "coordenadas": [
+        41.23497331527668,
+        -8.694061613037663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3829623",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "191-195",
+      "coordenadas": [
+        41.235280433307224,
+        -8.693861461384968
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3832483",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "280",
+      "coordenadas": [
+        41.23497145521828,
+        -8.694443293741609
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3890534",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "27",
+      "coordenadas": [
+        41.234031914757885,
+        -8.695079359965284
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4007837",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "22",
+      "coordenadas": [
+        41.23466462700265,
+        -8.6945838044068
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4007838",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "272",
+      "coordenadas": [
+        41.23487212229253,
+        -8.694502083955689
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4038754",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "3",
+      "coordenadas": [
+        41.234256370218525,
+        -8.695212489078079
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4071967",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "1",
+      "coordenadas": [
+        41.23439107835414,
+        -8.695285210537719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4071968",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "336",
+      "coordenadas": [
+        41.23529623278952,
+        -8.694314863375734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4084791",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "110",
+      "coordenadas": [
+        41.234620828931924,
+        -8.694332942567623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130367",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "37",
+      "coordenadas": [
+        41.23390818852649,
+        -8.694601187308658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130368",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "37",
+      "coordenadas": [
+        41.23390818852649,
+        -8.694601187308658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4156979",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "36",
+      "coordenadas": [
+        41.234302088007084,
+        -8.695069745955788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4235072",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "",
+      "coordenadas": [
+        41.234993007532715,
+        -8.693715868724656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4254872",
+      "rua": "R CENTRAL DO CORGO",
+      "casa": "",
+      "coordenadas": [
+        41.23558697026067,
+        -8.69378058421924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4318947",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "187",
+      "coordenadas": [
+        41.23517198065395,
+        -8.693944030916235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4375969",
+      "rua": "TV CENTRAL DO CORGO",
+      "casa": "32",
+      "coordenadas": [
+        41.23410435288646,
+        -8.694996485327932
+      ]
+    }
+  ],
+  "ruas": [
+    "TV CENTRAL DO CORGO",
+    "R CENTRAL DO CORGO"
+  ],
+  "centro": [
+    41.23473744093512,
+    -8.694459254787034
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.23417094290339,
+                -8.695189392923258
+              ],
+              [
+                41.234108047060325,
+                -8.695162016461982
+              ],
+              [
+                41.234053330024466,
+                -8.695130796253071
+              ],
+              [
+                41.23400679179581,
+                -8.695095732296526
+              ],
+              [
+                41.23396843237437,
+                -8.695056824592344
+              ],
+              [
+                41.23393825176015,
+                -8.695014073140527
+              ],
+              [
+                41.23391624995313,
+                -8.694967477941075
+              ],
+              [
+                41.23390242695332,
+                -8.694917038993989
+              ],
+              [
+                41.23389678276072,
+                -8.694862756299267
+              ],
+              [
+                41.23389931737534,
+                -8.69480462985691
+              ],
+              [
+                41.233918485460094,
+                -8.694739936116973
+              ],
+              [
+                41.23395428701501,
+                -8.694668675079456
+              ],
+              [
+                41.23400672204006,
+                -8.694590846744356
+              ],
+              [
+                41.23407579053525,
+                -8.694506451111677
+              ],
+              [
+                41.23416149250059,
+                -8.694415488181416
+              ],
+              [
+                41.23426382793608,
+                -8.694317957953578
+              ],
+              [
+                41.234382796841714,
+                -8.694213860428157
+              ],
+              [
+                41.23451839921749,
+                -8.694103195605157
+              ],
+              [
+                41.23463874586652,
+                -8.694005073733653
+              ],
+              [
+                41.23474383678878,
+                -8.693919494813642
+              ],
+              [
+                41.2348336719843,
+                -8.693846458845128
+              ],
+              [
+                41.23490825145307,
+                -8.69378596582811
+              ],
+              [
+                41.23496757519508,
+                -8.693738015762586
+              ],
+              [
+                41.23501164321033,
+                -8.693702608648556
+              ],
+              [
+                41.23504045549883,
+                -8.693679744486023
+              ],
+              [
+                41.23505401206058,
+                -8.693669423274986
+              ],
+              [
+                41.235073460149515,
+                -8.69366269354631
+              ],
+              [
+                41.235098799765645,
+                -8.693659555299996
+              ],
+              [
+                41.23513003090895,
+                -8.693660008536046
+              ],
+              [
+                41.23516715357945,
+                -8.693664053254457
+              ],
+              [
+                41.235210167777126,
+                -8.69367168945523
+              ],
+              [
+                41.23525907350201,
+                -8.693682917138368
+              ],
+              [
+                41.23531387075406,
+                -8.693697736303866
+              ],
+              [
+                41.235374559533305,
+                -8.693716146951726
+              ],
+              [
+                41.23542311944216,
+                -8.693740604380425
+              ],
+              [
+                41.23545955048062,
+                -8.693771108589962
+              ],
+              [
+                41.23548385264869,
+                -8.693807659580337
+              ],
+              [
+                41.23549602594637,
+                -8.693850257351546
+              ],
+              [
+                41.23549607037365,
+                -8.693898901903594
+              ],
+              [
+                41.23548398593054,
+                -8.693953593236483
+              ],
+              [
+                41.23545977261704,
+                -8.694014331350207
+              ],
+              [
+                41.23542343043315,
+                -8.694081116244767
+              ],
+              [
+                41.235377487984195,
+                -8.694154714701916
+              ],
+              [
+                41.235321945270165,
+                -8.694235126721647
+              ],
+              [
+                41.235256802291076,
+                -8.694322352303967
+              ],
+              [
+                41.23518205904691,
+                -8.694416391448872
+              ],
+              [
+                41.23509771553769,
+                -8.694517244156362
+              ],
+              [
+                41.2350037717634,
+                -8.694624910426441
+              ],
+              [
+                41.23490022772405,
+                -8.694739390259102
+              ],
+              [
+                41.23478708341962,
+                -8.694860683654351
+              ],
+              [
+                41.23468022017287,
+                -8.694963393317533
+              ],
+              [
+                41.23457963798378,
+                -8.695047519248652
+              ],
+              [
+                41.234485336852366,
+                -8.695113061447703
+              ],
+              [
+                41.23439731677862,
+                -8.69516001991469
+              ],
+              [
+                41.23431557776254,
+                -8.69518839464961
+              ],
+              [
+                41.234240119804134,
+                -8.695198185652467
+              ],
+              [
+                41.23417094290339,
+                -8.695189392923258
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.23473783558569,
+    -8.694342458864268
+  ],
+  "centroDeMassa": [
+    41.23473744093512,
+    -8.694459254787034
+  ]
+}

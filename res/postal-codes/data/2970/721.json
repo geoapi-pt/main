@@ -1,1 +1,363 @@
-{"CP4":"2970","CP3":"721","Distrito":"Setúbal","Concelho":"Sesimbra","CP":"2970-721","Artéria":"Rua Bartolomeu Dias","Localidade":"Sesimbra","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SESIMBRA","locais":[{"id":"pt.ine.add.PTCONT.4719902","rua":"R BARTOLOMEU DIAS","casa":"10","coordenadas":[38.443985275804756,-9.09977329414814]},{"id":"pt.ine.add.PTCONT.4720996","rua":"R BARTOLOMEU DIAS","casa":"10","coordenadas":[38.443985275804756,-9.09977329414814]},{"id":"pt.ine.add.PTCONT.4885221","rua":"R BARTOLOMEU DIAS","casa":"3","coordenadas":[38.444083834344816,-9.0997741266356]},{"id":"pt.ine.add.PTCONT.4902112","rua":"R BARTOLOMEU DIAS","casa":"7","coordenadas":[38.4441187296316,-9.099912044487045]},{"id":"pt.ine.add.PTCONT.4902113","rua":"R BARTOLOMEU DIAS","casa":"7","coordenadas":[38.4441187296316,-9.099912044487045]},{"id":"pt.ine.add.PTCONT.4902114","rua":"R BARTOLOMEU DIAS","casa":"7","coordenadas":[38.4441187296316,-9.099912044487045]},{"id":"pt.ine.add.PTCONT.5071619","rua":"R BARTOLOMEU DIAS","casa":"9","coordenadas":[38.444135799144405,-9.10002681588288]},{"id":"pt.ine.add.PTCONT.5071620","rua":"R BARTOLOMEU DIAS","casa":"9","coordenadas":[38.444135799144405,-9.10002681588288]},{"id":"pt.ine.add.PTCONT.5071621","rua":"R BARTOLOMEU DIAS","casa":"9","coordenadas":[38.444135799144405,-9.10002681588288]},{"id":"pt.ine.add.PTCONT.5071622","rua":"R BARTOLOMEU DIAS","casa":"9","coordenadas":[38.444135799144405,-9.10002681588288]},{"id":"pt.ine.add.PTCONT.5071623","rua":"R BARTOLOMEU DIAS","casa":"9","coordenadas":[38.444135799144405,-9.10002681588288]},{"id":"pt.ine.add.PTCONT.5073421","rua":"R BARTOLOMEU DIAS","casa":"9","coordenadas":[38.444135799144405,-9.10002681588288]},{"id":"pt.ine.add.PTCONT.5111491","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111492","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111493","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111521","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111522","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111523","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111524","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]},{"id":"pt.ine.add.PTCONT.5111525","rua":"R BARTOLOMEU DIAS","casa":"15","coordenadas":[38.44417960692194,-9.10017630726272]}],"ruas":["R BARTOLOMEU DIAS"],"centroide":[38.44413066411416,-9.100023783922598]}
+{
+  "CP": "2970-721",
+  "CP4": "2970",
+  "CP3": "721",
+  "Distrito": "Setúbal",
+  "Concelho": "Sesimbra",
+  "Localidade": "Sesimbra",
+  "Designação Postal": "SESIMBRA",
+  "partes": [
+    {
+      "Artéria": "Rua Bartolomeu Dias",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4719902",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "10",
+      "coordenadas": [
+        38.443985275804756,
+        -9.09977329414814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4720996",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "10",
+      "coordenadas": [
+        38.443985275804756,
+        -9.09977329414814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4885221",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "3",
+      "coordenadas": [
+        38.444083834344816,
+        -9.0997741266356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4902112",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "7",
+      "coordenadas": [
+        38.4441187296316,
+        -9.099912044487045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4902113",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "7",
+      "coordenadas": [
+        38.4441187296316,
+        -9.099912044487045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4902114",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "7",
+      "coordenadas": [
+        38.4441187296316,
+        -9.099912044487045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5071619",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "9",
+      "coordenadas": [
+        38.444135799144405,
+        -9.10002681588288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5071620",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "9",
+      "coordenadas": [
+        38.444135799144405,
+        -9.10002681588288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5071621",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "9",
+      "coordenadas": [
+        38.444135799144405,
+        -9.10002681588288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5071622",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "9",
+      "coordenadas": [
+        38.444135799144405,
+        -9.10002681588288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5071623",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "9",
+      "coordenadas": [
+        38.444135799144405,
+        -9.10002681588288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5073421",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "9",
+      "coordenadas": [
+        38.444135799144405,
+        -9.10002681588288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111491",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111492",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111493",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111521",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111522",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111523",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111524",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5111525",
+      "rua": "R BARTOLOMEU DIAS",
+      "casa": "15",
+      "coordenadas": [
+        38.44417960692194,
+        -9.10017630726272
+      ]
+    }
+  ],
+  "ruas": [
+    "R BARTOLOMEU DIAS"
+  ],
+  "centro": [
+    38.44408244136335,
+    -9.099974800705429
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.44409458705817,
+                -9.09999998902509
+              ],
+              [
+                38.44407029566853,
+                -9.099949612385767
+              ],
+              [
+                38.44405058067978,
+                -9.099905545833977
+              ],
+              [
+                38.444035442091916,
+                -9.099867789369718
+              ],
+              [
+                38.44402487990495,
+                -9.09983634299299
+              ],
+              [
+                38.44401889411888,
+                -9.099811206703798
+              ],
+              [
+                38.4440174847337,
+                -9.099792380502134
+              ],
+              [
+                38.44402065174942,
+                -9.099779864388003
+              ],
+              [
+                38.44402839516603,
+                -9.099773658361404
+              ],
+              [
+                38.444040714983544,
+                -9.099773762422334
+              ],
+              [
+                38.444052040062715,
+                -9.09977600844208
+              ],
+              [
+                38.44406237040356,
+                -9.099780396420638
+              ],
+              [
+                38.44407170600607,
+                -9.099786926358007
+              ],
+              [
+                38.444080046870255,
+                -9.099795598254186
+              ],
+              [
+                38.444087392996096,
+                -9.099806412109182
+              ],
+              [
+                38.44409374438361,
+                -9.099819367922986
+              ],
+              [
+                38.44409910103279,
+                -9.099834465695606
+              ],
+              [
+                38.44410346294363,
+                -9.099851705427037
+              ],
+              [
+                38.44410823082328,
+                -9.09987091929791
+              ],
+              [
+                38.44411340467175,
+                -9.099892107308222
+              ],
+              [
+                38.44411898448901,
+                -9.099915269457977
+              ],
+              [
+                38.44412497027508,
+                -9.09994040574717
+              ],
+              [
+                38.44413136202996,
+                -9.099967516175806
+              ],
+              [
+                38.444138159753635,
+                -9.099996600743884
+              ],
+              [
+                38.444145363446125,
+                -9.100027659451403
+              ],
+              [
+                38.444152973107414,
+                -9.10006069229836
+              ],
+              [
+                38.44415659513734,
+                -9.100083298959534
+              ],
+              [
+                38.444156229535906,
+                -9.100095479434923
+              ],
+              [
+                38.444151876303096,
+                -9.100097233724526
+              ],
+              [
+                38.44414353543891,
+                -9.100088561828347
+              ],
+              [
+                38.44413120694336,
+                -9.10006946374638
+              ],
+              [
+                38.44411489081645,
+                -9.100039939478627
+              ],
+              [
+                38.44409458705817,
+                -9.09999998902509
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.44409186167577,
+    -9.099908943133375
+  ],
+  "centroDeMassa": [
+    38.44408244136335,
+    -9.099974800705429
+  ]
+}

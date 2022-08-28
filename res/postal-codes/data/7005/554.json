@@ -1,1 +1,532 @@
-{"CP4":"7005","CP3":"554","Distrito":"Évora","Concelho":"Évora","CP":"7005-554","Artéria":"Rua Maria de Lurdes Braancamp Freire","Localidade":"Évora","Local":"Coronheiras","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÉVORA","locais":[{"id":"pt.ine.add.PTCONT.1368552","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"2","coordenadas":[38.58893095833657,-7.901232706124244]},{"id":"pt.ine.add.PTCONT.1381450","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"14","coordenadas":[38.589238132517316,-7.901947900258229]},{"id":"pt.ine.add.PTCONT.1381451","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"14","coordenadas":[38.589238132517316,-7.901947900258229]},{"id":"pt.ine.add.PTCONT.1385157","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"20","coordenadas":[38.58940412411496,-7.902227990164322]},{"id":"pt.ine.add.PTCONT.1385158","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"20","coordenadas":[38.58940412411496,-7.902227990164322]},{"id":"pt.ine.add.PTCONT.1386531","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"21","coordenadas":[38.58943419746584,-7.9022964000621325]},{"id":"pt.ine.add.PTCONT.1387109","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"22","coordenadas":[38.58943419746584,-7.9022964000621325]},{"id":"pt.ine.add.PTCONT.1398767","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"7","coordenadas":[38.58878054805674,-7.901649484727777]},{"id":"pt.ine.add.PTCONT.1399112","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"1","coordenadas":[38.58863580176097,-7.901340053118365]},{"id":"pt.ine.add.PTCONT.1404077","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"5","coordenadas":[38.58874433317637,-7.901557779727455]},{"id":"pt.ine.add.PTCONT.1404078","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"3","coordenadas":[38.588681025126576,-7.901431728923575]},{"id":"pt.ine.add.PTCONT.1408427","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"10","coordenadas":[38.58913478143867,-7.901722321403876]},{"id":"pt.ine.add.PTCONT.1408428","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"10","coordenadas":[38.58913478143867,-7.901722321403876]},{"id":"pt.ine.add.PTCONT.1408463","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"19","coordenadas":[38.58908812273205,-7.902302726916894]},{"id":"pt.ine.add.PTCONT.1415222","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"11","coordenadas":[38.588898064533815,-7.901855705738962]},{"id":"pt.ine.add.PTCONT.1418627","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"16","coordenadas":[38.589305146389556,-7.902019823034038]},{"id":"pt.ine.add.PTCONT.1418628","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"16","coordenadas":[38.589305146389556,-7.902019823034038]},{"id":"pt.ine.add.PTCONT.1419359","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"18","coordenadas":[38.589354808132825,-7.902161959323451]},{"id":"pt.ine.add.PTCONT.1419463","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"18","coordenadas":[38.589354808132825,-7.902161959323451]},{"id":"pt.ine.add.PTCONT.1425737","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"17","coordenadas":[38.58905190836319,-7.902211021195409]},{"id":"pt.ine.add.PTCONT.1436452","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"6","coordenadas":[38.589031344636936,-7.901454103802886]},{"id":"pt.ine.add.PTCONT.1440054","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"12","coordenadas":[38.589213310180085,-7.901831739108376]},{"id":"pt.ine.add.PTCONT.1440059","rua":"R MARIA LURDES BRAANCAMP FREIRE","casa":"12","coordenadas":[38.589213310180085,-7.901831739108376]},{"id":"pt.ine.add.PTCONT.1445562","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"15","coordenadas":[38.58898857836067,-7.902073491653685]},{"id":"pt.ine.add.PTCONT.1448562","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"4","coordenadas":[38.58899617979512,-7.90136185001675]},{"id":"pt.ine.add.PTCONT.1451552","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"13","coordenadas":[38.5889495674876,-7.90196073931551]},{"id":"pt.ine.add.PTCONT.1464648","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"9","coordenadas":[38.588849103858465,-7.901742575837062]},{"id":"pt.ine.add.PTCONT.1466570","rua":"R MARIA DE LURDES BRAANCAMP FREIRE","casa":"8","coordenadas":[38.58909570285259,-7.901579606673499]}],"ruas":["R MARIA DE LURDES BRAANCAMP FREIRE","R MARIA LURDES BRAANCAMP FREIRE"],"centroide":[38.58910350135939,-7.901873712363238]}
+{
+  "CP": "7005-554",
+  "CP4": "7005",
+  "CP3": "554",
+  "Distrito": "Évora",
+  "Concelho": "Évora",
+  "Localidade": "Évora",
+  "Designação Postal": "ÉVORA",
+  "partes": [
+    {
+      "Artéria": "Rua Maria de Lurdes Braancamp Freire",
+      "Local": "Coronheiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1368552",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "2",
+      "coordenadas": [
+        38.58893095833657,
+        -7.901232706124244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1381450",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "14",
+      "coordenadas": [
+        38.589238132517316,
+        -7.901947900258229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1381451",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "14",
+      "coordenadas": [
+        38.589238132517316,
+        -7.901947900258229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1385157",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "20",
+      "coordenadas": [
+        38.58940412411496,
+        -7.902227990164322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1385158",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "20",
+      "coordenadas": [
+        38.58940412411496,
+        -7.902227990164322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1386531",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "21",
+      "coordenadas": [
+        38.58943419746584,
+        -7.9022964000621325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1387109",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "22",
+      "coordenadas": [
+        38.58943419746584,
+        -7.9022964000621325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1398767",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "7",
+      "coordenadas": [
+        38.58878054805674,
+        -7.901649484727777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399112",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "1",
+      "coordenadas": [
+        38.58863580176097,
+        -7.901340053118365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1404077",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "5",
+      "coordenadas": [
+        38.58874433317637,
+        -7.901557779727455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1404078",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "3",
+      "coordenadas": [
+        38.588681025126576,
+        -7.901431728923575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1408427",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "10",
+      "coordenadas": [
+        38.58913478143867,
+        -7.901722321403876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1408428",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "10",
+      "coordenadas": [
+        38.58913478143867,
+        -7.901722321403876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1408463",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "19",
+      "coordenadas": [
+        38.58908812273205,
+        -7.902302726916894
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1415222",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "11",
+      "coordenadas": [
+        38.588898064533815,
+        -7.901855705738962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418627",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "16",
+      "coordenadas": [
+        38.589305146389556,
+        -7.902019823034038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418628",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "16",
+      "coordenadas": [
+        38.589305146389556,
+        -7.902019823034038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1419359",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "18",
+      "coordenadas": [
+        38.589354808132825,
+        -7.902161959323451
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1419463",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "18",
+      "coordenadas": [
+        38.589354808132825,
+        -7.902161959323451
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425737",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "17",
+      "coordenadas": [
+        38.58905190836319,
+        -7.902211021195409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1436452",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "6",
+      "coordenadas": [
+        38.589031344636936,
+        -7.901454103802886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1440054",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "12",
+      "coordenadas": [
+        38.589213310180085,
+        -7.901831739108376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1440059",
+      "rua": "R MARIA LURDES BRAANCAMP FREIRE",
+      "casa": "12",
+      "coordenadas": [
+        38.589213310180085,
+        -7.901831739108376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1445562",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "15",
+      "coordenadas": [
+        38.58898857836067,
+        -7.902073491653685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448562",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "4",
+      "coordenadas": [
+        38.58899617979512,
+        -7.90136185001675
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1451552",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "13",
+      "coordenadas": [
+        38.5889495674876,
+        -7.90196073931551
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1464648",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "9",
+      "coordenadas": [
+        38.588849103858465,
+        -7.901742575837062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1466570",
+      "rua": "R MARIA DE LURDES BRAANCAMP FREIRE",
+      "casa": "8",
+      "coordenadas": [
+        38.58909570285259,
+        -7.901579606673499
+      ]
+    }
+  ],
+  "ruas": [
+    "R MARIA DE LURDES BRAANCAMP FREIRE",
+    "R MARIA LURDES BRAANCAMP FREIRE"
+  ],
+  "centro": [
+    38.5890349996134,
+    -7.901767716520569
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.58871722155234,
+                -7.901514108398659
+              ],
+              [
+                38.588699128265375,
+                -7.901475429447483
+              ],
+              [
+                38.58868790846077,
+                -7.901439908068421
+              ],
+              [
+                38.58868356213853,
+                -7.901407544261472
+              ],
+              [
+                38.58868608929865,
+                -7.901378338026637
+              ],
+              [
+                38.58869548994113,
+                -7.901352289363917
+              ],
+              [
+                38.58871176406599,
+                -7.90132939827331
+              ],
+              [
+                38.58873491167321,
+                -7.901309664754816
+              ],
+              [
+                38.58876493276279,
+                -7.901293088808437
+              ],
+              [
+                38.58880182733475,
+                -7.901279670434173
+              ],
+              [
+                38.58883512917049,
+                -7.901269947230011
+              ],
+              [
+                38.58886483827004,
+                -7.901263919195953
+              ],
+              [
+                38.58889095463338,
+                -7.901261586331998
+              ],
+              [
+                38.5889134782605,
+                -7.901262948638147
+              ],
+              [
+                38.58893240915143,
+                -7.9012680061144
+              ],
+              [
+                38.588947747306165,
+                -7.901276758760757
+              ],
+              [
+                38.58895949272468,
+                -7.901289206577216
+              ],
+              [
+                38.588967645407,
+                -7.901305349563779
+              ],
+              [
+                38.58898115313403,
+                -7.901333008116827
+              ],
+              [
+                38.58900001590576,
+                -7.901372182236361
+              ],
+              [
+                38.589024233722206,
+                -7.901422871922381
+              ],
+              [
+                38.58905380658336,
+                -7.901485077174886
+              ],
+              [
+                38.589088734489216,
+                -7.901558797993876
+              ],
+              [
+                38.58912901743978,
+                -7.901644034379352
+              ],
+              [
+                38.58917465543505,
+                -7.901740786331313
+              ],
+              [
+                38.58922564847503,
+                -7.901849053849759
+              ],
+              [
+                38.58927073728112,
+                -7.901944856833053
+              ],
+              [
+                38.589309921853314,
+                -7.902028195281195
+              ],
+              [
+                38.58934320219162,
+                -7.902099069194184
+              ],
+              [
+                38.58937057829605,
+                -7.90215747857202
+              ],
+              [
+                38.58939205016658,
+                -7.902203423414704
+              ],
+              [
+                38.58940761780322,
+                -7.902236903722236
+              ],
+              [
+                38.58941728120597,
+                -7.902257919494614
+              ],
+              [
+                38.58942104037483,
+                -7.90226647073184
+              ],
+              [
+                38.58941892222987,
+                -7.902274051921518
+              ],
+              [
+                38.58941092677108,
+                -7.9022806630636495
+              ],
+              [
+                38.589397053998475,
+                -7.902286304158233
+              ],
+              [
+                38.589377303912045,
+                -7.902290975205268
+              ],
+              [
+                38.58935167651179,
+                -7.902294676204756
+              ],
+              [
+                38.58932017179771,
+                -7.902297407156697
+              ],
+              [
+                38.58928278976981,
+                -7.90229916806109
+              ],
+              [
+                38.58923953042808,
+                -7.902299958917936
+              ],
+              [
+                38.58919687264977,
+                -7.902290444008471
+              ],
+              [
+                38.58915481643488,
+                -7.9022706233326945
+              ],
+              [
+                38.5891133617834,
+                -7.902240496890608
+              ],
+              [
+                38.589072508695324,
+                -7.902200064682211
+              ],
+              [
+                38.58903225717067,
+                -7.902149326707503
+              ],
+              [
+                38.58899260720943,
+                -7.902088282966485
+              ],
+              [
+                38.5889535588116,
+                -7.902016933459156
+              ],
+              [
+                38.58891511197719,
+                -7.901935278185515
+              ],
+              [
+                38.5888792093362,
+                -7.901858994952184
+              ],
+              [
+                38.588845850888646,
+                -7.90178808375916
+              ],
+              [
+                38.58881503663453,
+                -7.901722544606445
+              ],
+              [
+                38.58878676657383,
+                -7.901662377494036
+              ],
+              [
+                38.58876104070657,
+                -7.901607582421936
+              ],
+              [
+                38.58873785903275,
+                -7.901558159390143
+              ],
+              [
+                38.58871722155234,
+                -7.901514108398659
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.58903856175175,
+    -7.901773030161498
+  ],
+  "centroDeMassa": [
+    38.5890349996134,
+    -7.901767716520569
+  ]
+}

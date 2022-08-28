@@ -1,1 +1,476 @@
-{"CP4":"4300","CP3":"359","Distrito":"Porto","Concelho":"Porto","CP":"4300-359","Artéria":"Rua Nova da Corujeira","Localidade":"Porto","Local":"","Troço":"Pares de 8 a 70","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3565112","rua":"R NOVA DA CORUJEIRA","casa":"38","coordenadas":[41.158827881004434,-8.580024277927693]},{"id":"pt.ine.add.PTCONT.3565113","rua":"R NOVA DA CORUJEIRA","casa":"38","coordenadas":[41.158827881004434,-8.580024277927693]},{"id":"pt.ine.add.PTCONT.3565132","rua":"R NOVA DA CORUJEIRA","casa":"38","coordenadas":[41.158827881004434,-8.580024277927693]},{"id":"pt.ine.add.PTCONT.3574742","rua":"R NOVA DA CORUJEIRA","casa":"32","coordenadas":[41.15878313777007,-8.579952488659035]},{"id":"pt.ine.add.PTCONT.3574743","rua":"R NOVA DA CORUJEIRA","casa":"32","coordenadas":[41.15878313777007,-8.579952488659035]},{"id":"pt.ine.add.PTCONT.3574744","rua":"R NOVA DA CORUJEIRA","casa":"32","coordenadas":[41.15878313777007,-8.579952488659035]},{"id":"pt.ine.add.PTCONT.3606849","rua":"R NOVA DA CORUJEIRA","casa":"62","coordenadas":[41.15903418957507,-8.580228221909955]},{"id":"pt.ine.add.PTCONT.3654895","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654896","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654897","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654898","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654899","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654900","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654901","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3654902","rua":"R NOVA DA CORUJEIRA","casa":"10","coordenadas":[41.15858569421258,-8.579784349067586]},{"id":"pt.ine.add.PTCONT.3772292","rua":"R NOVA DA CORUJEIRA","casa":"26","coordenadas":[41.15873830206754,-8.579904527289603]},{"id":"pt.ine.add.PTCONT.3772293","rua":"R NOVA DA CORUJEIRA","casa":"26","coordenadas":[41.15873830206754,-8.579904527289603]},{"id":"pt.ine.add.PTCONT.3772294","rua":"R NOVA DA CORUJEIRA","casa":"26","coordenadas":[41.15873830206754,-8.579904527289603]},{"id":"pt.ine.add.PTCONT.3826722","rua":"R NOVA DA CORUJEIRA","casa":"44","coordenadas":[41.15887271665564,-8.580072239444128]},{"id":"pt.ine.add.PTCONT.3826723","rua":"R NOVA DA CORUJEIRA","casa":"44","coordenadas":[41.15887271665564,-8.580072239444128]},{"id":"pt.ine.add.PTCONT.3826724","rua":"R NOVA DA CORUJEIRA","casa":"44","coordenadas":[41.15887271665564,-8.580072239444128]},{"id":"pt.ine.add.PTCONT.3844222","rua":"R NOVA DA CORUJEIRA","casa":"56","coordenadas":[41.15898940023187,-8.58016834622325]},{"id":"pt.ine.add.PTCONT.4039688","rua":"R NOVA DA CORUJEIRA","casa":"50","coordenadas":[41.158926556398264,-8.580120262202625]},{"id":"pt.ine.add.PTCONT.4367900","rua":"R NOVA DA CORUJEIRA","casa":"20","coordenadas":[41.158684416023505,-8.579868418736778]},{"id":"pt.ine.add.PTCONT.4367901","rua":"R NOVA DA CORUJEIRA","casa":"20","coordenadas":[41.158684416023505,-8.579868418736778]},{"id":"pt.ine.add.PTCONT.4367902","rua":"R NOVA DA CORUJEIRA","casa":"20","coordenadas":[41.158684416023505,-8.579868418736778]},{"id":"pt.ine.add.PTCONT.4367903","rua":"R NOVA DA CORUJEIRA","casa":"20","coordenadas":[41.158684416023505,-8.579868418736778]},{"id":"pt.ine.add.PTCONT.4370384","rua":"R NOVA DA CORUJEIRA","casa":"20","coordenadas":[41.158684416023505,-8.579868418736778]},{"id":"pt.ine.add.PTCONT.4371492","rua":"R NOVA DA CORUJEIRA","casa":"20","coordenadas":[41.158684416023505,-8.579868418736778]}],"ruas":["R NOVA DA CORUJEIRA"],"centroide":[41.15874013901845,-8.579928368447204]}
+{
+  "CP": "4300-359",
+  "CP4": "4300",
+  "CP3": "359",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua Nova da Corujeira",
+      "Local": "",
+      "Troço": "Pares de 8 a 70",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3565112",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "38",
+      "coordenadas": [
+        41.158827881004434,
+        -8.580024277927693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3565113",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "38",
+      "coordenadas": [
+        41.158827881004434,
+        -8.580024277927693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3565132",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "38",
+      "coordenadas": [
+        41.158827881004434,
+        -8.580024277927693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3574742",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "32",
+      "coordenadas": [
+        41.15878313777007,
+        -8.579952488659035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3574743",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "32",
+      "coordenadas": [
+        41.15878313777007,
+        -8.579952488659035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3574744",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "32",
+      "coordenadas": [
+        41.15878313777007,
+        -8.579952488659035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3606849",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "62",
+      "coordenadas": [
+        41.15903418957507,
+        -8.580228221909955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654895",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654896",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654897",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654898",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654899",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654900",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654901",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654902",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "10",
+      "coordenadas": [
+        41.15858569421258,
+        -8.579784349067586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772292",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "26",
+      "coordenadas": [
+        41.15873830206754,
+        -8.579904527289603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772293",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "26",
+      "coordenadas": [
+        41.15873830206754,
+        -8.579904527289603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772294",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "26",
+      "coordenadas": [
+        41.15873830206754,
+        -8.579904527289603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3826722",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "44",
+      "coordenadas": [
+        41.15887271665564,
+        -8.580072239444128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3826723",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "44",
+      "coordenadas": [
+        41.15887271665564,
+        -8.580072239444128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3826724",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "44",
+      "coordenadas": [
+        41.15887271665564,
+        -8.580072239444128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3844222",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "56",
+      "coordenadas": [
+        41.15898940023187,
+        -8.58016834622325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4039688",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "50",
+      "coordenadas": [
+        41.158926556398264,
+        -8.580120262202625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367900",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "20",
+      "coordenadas": [
+        41.158684416023505,
+        -8.579868418736778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367901",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "20",
+      "coordenadas": [
+        41.158684416023505,
+        -8.579868418736778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367902",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "20",
+      "coordenadas": [
+        41.158684416023505,
+        -8.579868418736778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367903",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "20",
+      "coordenadas": [
+        41.158684416023505,
+        -8.579868418736778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4370384",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "20",
+      "coordenadas": [
+        41.158684416023505,
+        -8.579868418736778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4371492",
+      "rua": "R NOVA DA CORUJEIRA",
+      "casa": "20",
+      "coordenadas": [
+        41.158684416023505,
+        -8.579868418736778
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOVA DA CORUJEIRA"
+  ],
+  "centro": [
+    41.15880994189382,
+    -8.580006285488771
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.1587471443368,
+                -8.579946287404391
+              ],
+              [
+                41.15871126653143,
+                -8.579910301107322
+              ],
+              [
+                41.15868225794945,
+                -8.579880690882106
+              ],
+              [
+                41.15866011859088,
+                -8.579857456728744
+              ],
+              [
+                41.15864484845572,
+                -8.579840598647234
+              ],
+              [
+                41.158636447543955,
+                -8.579830116637577
+              ],
+              [
+                41.15863491585561,
+                -8.57982601069977
+              ],
+              [
+                41.158640253390665,
+                -8.579828280833818
+              ],
+              [
+                41.15865246014913,
+                -8.579836927039718
+              ],
+              [
+                41.158671536130996,
+                -8.579851949317469
+              ],
+              [
+                41.15869215102395,
+                -8.57986921598134
+              ],
+              [
+                41.15871430482798,
+                -8.579888727031332
+              ],
+              [
+                41.158737997543106,
+                -8.579910482467442
+              ],
+              [
+                41.15876322916931,
+                -8.579934482289671
+              ],
+              [
+                41.1587899997066,
+                -8.579960726498019
+              ],
+              [
+                41.158818309154974,
+                -8.579989215092485
+              ],
+              [
+                41.158848157514434,
+                -8.580019948073073
+              ],
+              [
+                41.15887954478497,
+                -8.58005292543978
+              ],
+              [
+                41.158907708480186,
+                -8.580082716193253
+              ],
+              [
+                41.15893264860007,
+                -8.580109320333491
+              ],
+              [
+                41.15895436514462,
+                -8.580132737860495
+              ],
+              [
+                41.15897285811384,
+                -8.580152968774268
+              ],
+              [
+                41.158988127507726,
+                -8.580170013074806
+              ],
+              [
+                41.15900017332629,
+                -8.58018387076211
+              ],
+              [
+                41.159008995569515,
+                -8.580194541836182
+              ],
+              [
+                41.15901459423741,
+                -8.580202026297023
+              ],
+              [
+                41.15901697005746,
+                -8.580206137974228
+              ],
+              [
+                41.15901612302965,
+                -8.580206876867798
+              ],
+              [
+                41.159012053153994,
+                -8.580204242977736
+              ],
+              [
+                41.15900476043048,
+                -8.580198236304042
+              ],
+              [
+                41.15899424485911,
+                -8.580188856846714
+              ],
+              [
+                41.15898050643989,
+                -8.580176104605751
+              ],
+              [
+                41.15896354517281,
+                -8.580159979581156
+              ],
+              [
+                41.158943361057894,
+                -8.580140481772927
+              ],
+              [
+                41.15892121523166,
+                -8.580118922903594
+              ],
+              [
+                41.158897107694116,
+                -8.580095302973156
+              ],
+              [
+                41.15887103844527,
+                -8.580069621981613
+              ],
+              [
+                41.1588430074851,
+                -8.580041879928965
+              ],
+              [
+                41.158813014813646,
+                -8.580012076815212
+              ],
+              [
+                41.158781060430876,
+                -8.579980212640354
+              ],
+              [
+                41.1587471443368,
+                -8.579946287404391
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.15884406054854,
+    -8.580031536786905
+  ],
+  "centroDeMassa": [
+    41.15880994189382,
+    -8.580006285488771
+  ]
+}

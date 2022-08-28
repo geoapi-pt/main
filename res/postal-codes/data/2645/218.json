@@ -1,1 +1,508 @@
-{"CP4":"2645","CP3":"218","Distrito":"Lisboa","Concelho":"Cascais","CP":"2645-218","Artéria":"Rua do Pinheiro Manso","Localidade":"Amoreira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALCABIDECHE","locais":[{"id":"pt.ine.add.PTCONT.3129834","rua":"R PINHEIRO MANSO","casa":"53","coordenadas":[38.7182699390984,-9.409875099708367]},{"id":"pt.ine.add.PTCONT.3129835","rua":"R PINHEIRO MANSO","casa":"53 A","coordenadas":[38.7182699390984,-9.409875099708367]},{"id":"pt.ine.add.PTCONT.3129836","rua":"R PINHEIRO MANSO","casa":"9","coordenadas":[38.7182699390984,-9.409875099708367]},{"id":"pt.ine.add.PTCONT.3168638","rua":"R PINHEIRO MANSO","casa":"","coordenadas":[38.71776284378394,-9.410119024844787]},{"id":"pt.ine.add.PTCONT.3213310","rua":"R PINHEIRO MANSO","casa":"47","coordenadas":[38.71816149109119,-9.409907663115947]},{"id":"pt.ine.add.PTCONT.3213311","rua":"R PINHEIRO MANSO","casa":"47","coordenadas":[38.71816149109119,-9.409907663115947]},{"id":"pt.ine.add.PTCONT.3213312","rua":"R PINHEIRO MANSO","casa":"47B","coordenadas":[38.71816149109119,-9.409907663115947]},{"id":"pt.ine.add.PTCONT.3213313","rua":"R PINHEIRO MANSO","casa":"47A","coordenadas":[38.71816149109119,-9.409907663115947]},{"id":"pt.ine.add.PTCONT.3213314","rua":"R PINHEIRO MANSO","casa":"47B","coordenadas":[38.71816149109119,-9.409907663115947]},{"id":"pt.ine.add.PTCONT.3232054","rua":"R PINHEIRO MANSO","casa":"77","coordenadas":[38.71840553048047,-9.409831521435102]},{"id":"pt.ine.add.PTCONT.3232055","rua":"R PINHEIRO MANSO","casa":"77","coordenadas":[38.71840553048047,-9.409831521435102]},{"id":"pt.ine.add.PTCONT.3232056","rua":"R PINHEIRO MANSO","casa":"77","coordenadas":[38.71840553048047,-9.409831521435102]},{"id":"pt.ine.add.PTCONT.3260716","rua":"R PINHEIRO MANSO","casa":"81","coordenadas":[38.71850484697726,-9.409810293106446]},{"id":"pt.ine.add.PTCONT.3260717","rua":"R PINHEIRO MANSO","casa":"81","coordenadas":[38.71850484697726,-9.409810293106446]},{"id":"pt.ine.add.PTCONT.3260718","rua":"R PINHEIRO MANSO","casa":"81","coordenadas":[38.71850484697726,-9.409810293106446]},{"id":"pt.ine.add.PTCONT.3394540","rua":"R PINHEIRO MANSO","casa":"27","coordenadas":[38.71801651706224,-9.409985567234372]},{"id":"pt.ine.add.PTCONT.3434742","rua":"R PINHEIRO MANSO","casa":"90","coordenadas":[38.71856114224862,-9.409604334679017]},{"id":"pt.ine.add.PTCONT.2287022","rua":"R PINHEIRO MANSO","casa":"","coordenadas":[38.71834499951941,-9.409600489362383]},{"id":"pt.ine.add.PTCONT.2296101","rua":"R PINHEIRO MANSO","casa":"90","coordenadas":[38.71856114224862,-9.409604334679017]},{"id":"pt.ine.add.PTCONT.2296102","rua":"R PINHEIRO MANSO","casa":"90","coordenadas":[38.71856114224862,-9.409604334679017]},{"id":"pt.ine.add.PTCONT.2296103","rua":"R PINHEIRO MANSO","casa":"90","coordenadas":[38.71856114224862,-9.409604334679017]},{"id":"pt.ine.add.PTCONT.2296104","rua":"R PINHEIRO MANSO","casa":"90","coordenadas":[38.71856114224862,-9.409604334679017]},{"id":"pt.ine.add.PTCONT.2296105","rua":"R PINHEIRO MANSO","casa":"90","coordenadas":[38.71856114224862,-9.409604334679017]},{"id":"pt.ine.add.PTCONT.2371334","rua":"R PINHEIRO MANSO","casa":"21","coordenadas":[38.71794446949074,-9.409984285099764]},{"id":"pt.ine.add.PTCONT.2514008","rua":"R PINHEIRO MANSO","casa":"9","coordenadas":[38.71786291373,-9.410028824455559]},{"id":"pt.ine.add.PTCONT.2701477","rua":"R PINHEIRO MANSO","casa":"97A","coordenadas":[38.71858590049283,-9.409811735340545]},{"id":"pt.ine.add.PTCONT.2701478","rua":"R PINHEIRO MANSO","casa":"97A","coordenadas":[38.71858590049283,-9.409811735340545]},{"id":"pt.ine.add.PTCONT.2707598","rua":"R PINHEIRO MANSO","casa":"97","coordenadas":[38.71858590049283,-9.409811735340545]},{"id":"pt.ine.add.PTCONT.2719266","rua":"R PINHEIRO MANSO","casa":"72","coordenadas":[38.71844406493802,-9.409602251794052]}],"ruas":["R PINHEIRO MANSO"],"centroide":[38.71833588227431,-9.409816730836505]}
+{
+  "CP": "2645-218",
+  "CP4": "2645",
+  "CP3": "218",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Amoreira",
+  "Designação Postal": "ALCABIDECHE",
+  "partes": [
+    {
+      "Artéria": "Rua do Pinheiro Manso",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3129834",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "53",
+      "coordenadas": [
+        38.7182699390984,
+        -9.409875099708367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3129835",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "53 A",
+      "coordenadas": [
+        38.7182699390984,
+        -9.409875099708367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3129836",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "9",
+      "coordenadas": [
+        38.7182699390984,
+        -9.409875099708367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3168638",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "",
+      "coordenadas": [
+        38.71776284378394,
+        -9.410119024844787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3213310",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "47",
+      "coordenadas": [
+        38.71816149109119,
+        -9.409907663115947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3213311",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "47",
+      "coordenadas": [
+        38.71816149109119,
+        -9.409907663115947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3213312",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "47B",
+      "coordenadas": [
+        38.71816149109119,
+        -9.409907663115947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3213313",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "47A",
+      "coordenadas": [
+        38.71816149109119,
+        -9.409907663115947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3213314",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "47B",
+      "coordenadas": [
+        38.71816149109119,
+        -9.409907663115947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3232054",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "77",
+      "coordenadas": [
+        38.71840553048047,
+        -9.409831521435102
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3232055",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "77",
+      "coordenadas": [
+        38.71840553048047,
+        -9.409831521435102
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3232056",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "77",
+      "coordenadas": [
+        38.71840553048047,
+        -9.409831521435102
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3260716",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "81",
+      "coordenadas": [
+        38.71850484697726,
+        -9.409810293106446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3260717",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "81",
+      "coordenadas": [
+        38.71850484697726,
+        -9.409810293106446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3260718",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "81",
+      "coordenadas": [
+        38.71850484697726,
+        -9.409810293106446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3394540",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "27",
+      "coordenadas": [
+        38.71801651706224,
+        -9.409985567234372
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3434742",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "90",
+      "coordenadas": [
+        38.71856114224862,
+        -9.409604334679017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2287022",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "",
+      "coordenadas": [
+        38.71834499951941,
+        -9.409600489362383
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2296101",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "90",
+      "coordenadas": [
+        38.71856114224862,
+        -9.409604334679017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2296102",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "90",
+      "coordenadas": [
+        38.71856114224862,
+        -9.409604334679017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2296103",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "90",
+      "coordenadas": [
+        38.71856114224862,
+        -9.409604334679017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2296104",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "90",
+      "coordenadas": [
+        38.71856114224862,
+        -9.409604334679017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2296105",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "90",
+      "coordenadas": [
+        38.71856114224862,
+        -9.409604334679017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2371334",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "21",
+      "coordenadas": [
+        38.71794446949074,
+        -9.409984285099764
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2514008",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "9",
+      "coordenadas": [
+        38.71786291373,
+        -9.410028824455559
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2701477",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "97A",
+      "coordenadas": [
+        38.71858590049283,
+        -9.409811735340545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2701478",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "97A",
+      "coordenadas": [
+        38.71858590049283,
+        -9.409811735340545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2707598",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "97",
+      "coordenadas": [
+        38.71858590049283,
+        -9.409811735340545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2719266",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "72",
+      "coordenadas": [
+        38.71844406493802,
+        -9.409602251794052
+      ]
+    }
+  ],
+  "ruas": [
+    "R PINHEIRO MANSO"
+  ],
+  "centro": [
+    38.718174372138385,
+    -9.409859757103586
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71822581318269,
+                -9.40994617449865
+              ],
+              [
+                38.71812293109408,
+                -9.409984585686683
+              ],
+              [
+                38.71803447285946,
+                -9.410016786095127
+              ],
+              [
+                38.71796043847881,
+                -9.410042775723987
+              ],
+              [
+                38.71790082795215,
+                -9.41006255457326
+              ],
+              [
+                38.71785564127947,
+                -9.410076122642947
+              ],
+              [
+                38.717824878460775,
+                -9.41008347993305
+              ],
+              [
+                38.71780853949606,
+                -9.410084626443568
+              ],
+              [
+                38.71780662438534,
+                -9.4100795621745
+              ],
+              [
+                38.7178191331286,
+                -9.410068287125847
+              ],
+              [
+                38.71783761086941,
+                -9.410051728722445
+              ],
+              [
+                38.717862057607775,
+                -9.410029886964292
+              ],
+              [
+                38.71789247334369,
+                -9.410002761851391
+              ],
+              [
+                38.71792885807715,
+                -9.40997035338374
+              ],
+              [
+                38.71797121180817,
+                -9.40993266156134
+              ],
+              [
+                38.718019534536744,
+                -9.409889686384192
+              ],
+              [
+                38.71807382626287,
+                -9.409841427852294
+              ],
+              [
+                38.718134086986545,
+                -9.409787885965647
+              ],
+              [
+                38.71818836301693,
+                -9.409741064352826
+              ],
+              [
+                38.718236654354016,
+                -9.40970096301383
+              ],
+              [
+                38.71827896099781,
+                -9.40966758194866
+              ],
+              [
+                38.71831528294831,
+                -9.409640921157315
+              ],
+              [
+                38.71834562020551,
+                -9.409620980639797
+              ],
+              [
+                38.71836997276942,
+                -9.409607760396106
+              ],
+              [
+                38.71838834064005,
+                -9.40960126042624
+              ],
+              [
+                38.71840072381738,
+                -9.409601480730196
+              ],
+              [
+                38.71841338843052,
+                -9.409601706041238
+              ],
+              [
+                38.71842633447947,
+                -9.409601936359362
+              ],
+              [
+                38.71843956196423,
+                -9.409602171684568
+              ],
+              [
+                38.718453070884806,
+                -9.40960241201686
+              ],
+              [
+                38.7184668612412,
+                -9.409602657356231
+              ],
+              [
+                38.71848093303339,
+                -9.409602907702686
+              ],
+              [
+                38.71849528626141,
+                -9.409603163056225
+              ],
+              [
+                38.71850992092523,
+                -9.409603423416844
+              ],
+              [
+                38.71852311310364,
+                -9.409606891867725
+              ],
+              [
+                38.718534862796645,
+                -9.409613568408862
+              ],
+              [
+                38.718545170004234,
+                -9.40962345304026
+              ],
+              [
+                38.71855403472641,
+                -9.409636545761915
+              ],
+              [
+                38.71856145696317,
+                -9.40965284657383
+              ],
+              [
+                38.71856743671452,
+                -9.409672355476003
+              ],
+              [
+                38.71857197398046,
+                -9.409695072468436
+              ],
+              [
+                38.71857506876099,
+                -9.409720997551126
+              ],
+              [
+                38.718564916432875,
+                -9.409748483396985
+              ],
+              [
+                38.71854151699611,
+                -9.40977753000601
+              ],
+              [
+                38.718504870450715,
+                -9.409808137378203
+              ],
+              [
+                38.71845497679667,
+                -9.409840305513566
+              ],
+              [
+                38.71839183603399,
+                -9.409874034412093
+              ],
+              [
+                38.71831544816266,
+                -9.409909324073787
+              ],
+              [
+                38.71822581318269,
+                -9.40994617449865
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71826031078547,
+    -9.409794443412723
+  ],
+  "centroDeMassa": [
+    38.718174372138385,
+    -9.409859757103586
+  ]
+}

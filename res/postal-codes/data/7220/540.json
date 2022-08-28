@@ -1,1 +1,419 @@
-{"CP4":"7220","CP3":"540","Distrito":"Évora","Concelho":"Portel","CP":"7220-540","Artéria":"Travessa do Rossio","Localidade":"São Bartolomeu do Outeiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO BARTOLOMEU DO OUTEIRO","locais":[{"id":"pt.ine.add.PTCONT.1377928","rua":"QTA POMBEIRA","casa":"","coordenadas":[38.34242482776981,-7.902366916866848]},{"id":"pt.ine.add.PTCONT.1391657","rua":"MTE ROSSIO","casa":"","coordenadas":[38.35243135228223,-7.90585876572571]},{"id":"pt.ine.add.PTCONT.1399533","rua":"MTE SESMARIAS","casa":"","coordenadas":[38.36110779421487,-7.901781308568808]},{"id":"pt.ine.add.PTCONT.1404993","rua":"TV ROSSIO","casa":"1","coordenadas":[38.35383045231985,-7.907950539168626]},{"id":"pt.ine.add.PTCONT.1405004","rua":"MTE POMBEIRA","casa":"","coordenadas":[38.34221178140797,-7.903980442376663]},{"id":"pt.ine.add.PTCONT.1405006","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.34577553505181,-7.888755067015821]},{"id":"pt.ine.add.PTCONT.1406469","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.345640237956296,-7.888675447270629]},{"id":"pt.ine.add.PTCONT.1409347","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.345456211042226,-7.886834361383356]},{"id":"pt.ine.add.PTCONT.1409654","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.34573904724098,-7.888537844763237]},{"id":"pt.ine.add.PTCONT.1412166","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.34587610624065,-7.889463961001343]},{"id":"pt.ine.add.PTCONT.1412167","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.3458296348075,-7.888777763687402]},{"id":"pt.ine.add.PTCONT.1420813","rua":"QTA POMBEIRA","casa":"","coordenadas":[38.3424605698687,-7.902218100525718]},{"id":"pt.ine.add.PTCONT.1428863","rua":"MTE CARRASCA","casa":"","coordenadas":[38.344963401278285,-7.896890982136338]},{"id":"pt.ine.add.PTCONT.1430434","rua":"QTA POMBEIRA","casa":"","coordenadas":[38.34240954788657,-7.903762484462177]},{"id":"pt.ine.add.PTCONT.1434281","rua":"TV ROSSIO","casa":"","coordenadas":[38.353939495748655,-7.90801618226461]},{"id":"pt.ine.add.PTCONT.1435264","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.34572989539643,-7.888469240333875]},{"id":"pt.ine.add.PTCONT.1440357","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.34572186419973,-7.888938274528521]},{"id":"pt.ine.add.PTCONT.1448835","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.34574819904548,-7.888606449210075]},{"id":"pt.ine.add.PTCONT.1451087","rua":"MTE POMBEIRA","casa":"","coordenadas":[38.34214896630571,-7.904106465289537]},{"id":"pt.ine.add.PTCONT.1453416","rua":"HORTA DA QUINTA","casa":"","coordenadas":[38.345766383334166,-7.8886864625240465]},{"id":"pt.ine.add.PTCONT.1457342","rua":"MTE POMBEIRA","casa":"","coordenadas":[38.3422926361268,-7.903865801053152]},{"id":"pt.ine.add.PTCONT.1464979","rua":"MTE POMBEIRA","casa":"","coordenadas":[38.342320042181036,-7.904060172027265]}],"ruas":["QTA POMBEIRA","MTE ROSSIO","MTE SESMARIAS","TV ROSSIO","MTE POMBEIRA","HORTA DA QUINTA","MTE CARRASCA"],"centroide":[38.34654780664404,-7.896502040959833]}
+{
+  "CP": "7220-540",
+  "CP4": "7220",
+  "CP3": "540",
+  "Distrito": "Évora",
+  "Concelho": "Portel",
+  "Localidade": "São Bartolomeu do Outeiro",
+  "Designação Postal": "SÃO BARTOLOMEU DO OUTEIRO",
+  "partes": [
+    {
+      "Artéria": "Travessa do Rossio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1377928",
+      "rua": "QTA POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.34242482776981,
+        -7.902366916866848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1391657",
+      "rua": "MTE ROSSIO",
+      "casa": "",
+      "coordenadas": [
+        38.35243135228223,
+        -7.90585876572571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399533",
+      "rua": "MTE SESMARIAS",
+      "casa": "",
+      "coordenadas": [
+        38.36110779421487,
+        -7.901781308568808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1404993",
+      "rua": "TV ROSSIO",
+      "casa": "1",
+      "coordenadas": [
+        38.35383045231985,
+        -7.907950539168626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1405004",
+      "rua": "MTE POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.34221178140797,
+        -7.903980442376663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1405006",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.34577553505181,
+        -7.888755067015821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1406469",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.345640237956296,
+        -7.888675447270629
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1409347",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.345456211042226,
+        -7.886834361383356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1409654",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.34573904724098,
+        -7.888537844763237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412166",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.34587610624065,
+        -7.889463961001343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412167",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.3458296348075,
+        -7.888777763687402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1420813",
+      "rua": "QTA POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.3424605698687,
+        -7.902218100525718
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428863",
+      "rua": "MTE CARRASCA",
+      "casa": "",
+      "coordenadas": [
+        38.344963401278285,
+        -7.896890982136338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1430434",
+      "rua": "QTA POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.34240954788657,
+        -7.903762484462177
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1434281",
+      "rua": "TV ROSSIO",
+      "casa": "",
+      "coordenadas": [
+        38.353939495748655,
+        -7.90801618226461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1435264",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.34572989539643,
+        -7.888469240333875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1440357",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.34572186419973,
+        -7.888938274528521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448835",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.34574819904548,
+        -7.888606449210075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1451087",
+      "rua": "MTE POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.34214896630571,
+        -7.904106465289537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1453416",
+      "rua": "HORTA DA QUINTA",
+      "casa": "",
+      "coordenadas": [
+        38.345766383334166,
+        -7.8886864625240465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1457342",
+      "rua": "MTE POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.3422926361268,
+        -7.903865801053152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1464979",
+      "rua": "MTE POMBEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.342320042181036,
+        -7.904060172027265
+      ]
+    }
+  ],
+  "ruas": [
+    "QTA POMBEIRA",
+    "MTE ROSSIO",
+    "MTE SESMARIAS",
+    "TV ROSSIO",
+    "MTE POMBEIRA",
+    "HORTA DA QUINTA",
+    "MTE CARRASCA"
+  ],
+  "centro": [
+    38.35162838026029,
+    -7.897425271823982
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.348781139117364,
+                -7.906305681088015
+              ],
+              [
+                38.347307322937,
+                -7.905816966466132
+              ],
+              [
+                38.34602204411455,
+                -7.905362160727878
+              ],
+              [
+                38.344925302650026,
+                -7.904941263873257
+              ],
+              [
+                38.344017098543425,
+                -7.904554275902266
+              ],
+              [
+                38.343297431794745,
+                -7.904201196814904
+              ],
+              [
+                38.34276630240399,
+                -7.903882026611175
+              ],
+              [
+                38.342423710371165,
+                -7.903596765291078
+              ],
+              [
+                38.342269655696256,
+                -7.903345412854611
+              ],
+              [
+                38.34230413837926,
+                -7.903127969301774
+              ],
+              [
+                38.34238167609053,
+                -7.902695010013613
+              ],
+              [
+                38.34250226883005,
+                -7.902046534990127
+              ],
+              [
+                38.34266591659783,
+                -7.901182544231316
+              ],
+              [
+                38.342872619393866,
+                -7.90010303773718
+              ],
+              [
+                38.34312237721815,
+                -7.8988080155077185
+              ],
+              [
+                38.3434151900707,
+                -7.897297477542931
+              ],
+              [
+                38.34375105795149,
+                -7.895571423842819
+              ],
+              [
+                38.344129980860544,
+                -7.893629854407385
+              ],
+              [
+                38.34470609439303,
+                -7.89216452720115
+              ],
+              [
+                38.345479398548974,
+                -7.891175442224117
+              ],
+              [
+                38.34644989332834,
+                -7.890662599476288
+              ],
+              [
+                38.34761757873116,
+                -7.890625998957658
+              ],
+              [
+                38.34898245475741,
+                -7.8910656406682325
+              ],
+              [
+                38.350544521407116,
+                -7.891981524608012
+              ],
+              [
+                38.35230377868025,
+                -7.893373650776991
+              ],
+              [
+                38.35426022657684,
+                -7.895242019175173
+              ],
+              [
+                38.355860113822814,
+                -7.896974261425079
+              ],
+              [
+                38.35710344041818,
+                -7.898570377526709
+              ],
+              [
+                38.35799020636294,
+                -7.900030367480063
+              ],
+              [
+                38.35852041165708,
+                -7.90135423128514
+              ],
+              [
+                38.35869405630063,
+                -7.902541968941943
+              ],
+              [
+                38.358511140293565,
+                -7.903593580450471
+              ],
+              [
+                38.357971663635894,
+                -7.904509065810721
+              ],
+              [
+                38.35707562632763,
+                -7.905288425022696
+              ],
+              [
+                38.35610736666034,
+                -7.905909275005438
+              ],
+              [
+                38.355066884634034,
+                -7.90637161575895
+              ],
+              [
+                38.35395418024872,
+                -7.906675447283227
+              ],
+              [
+                38.352769253504405,
+                -7.906820769578273
+              ],
+              [
+                38.35151210440107,
+                -7.9068075826440865
+              ],
+              [
+                38.35018273293873,
+                -7.906635886480666
+              ],
+              [
+                38.348781139117364,
+                -7.906305681088015
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.34901545901626,
+    -7.900621046874631
+  ],
+  "centroDeMassa": [
+    38.35162838026029,
+    -7.897425271823982
+  ]
+}

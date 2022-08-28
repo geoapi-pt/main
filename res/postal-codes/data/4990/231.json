@@ -1,1 +1,391 @@
-{"CP4":"4990","CP3":"231","Distrito":"Viana do Castelo","Concelho":"Ponte de Lima","CP":"4990-231","Artéria":"Travessa do Antepaço de Cima","Localidade":"Ponte de Lima","Local":"Antepaço","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTE DE LIMA","locais":[{"id":"pt.ine.add.PTCONT.5140757","rua":"TV ANTEPACO","casa":"","coordenadas":[41.771441328397366,-8.591695495242897]},{"id":"pt.ine.add.PTCONT.5154106","rua":"TV ANTEPACO","casa":"","coordenadas":[41.77078755243316,-8.590824910106331]},{"id":"pt.ine.add.PTCONT.5167006","rua":"ANTEPACO","casa":"","coordenadas":[41.77149626781695,-8.5937164089567]},{"id":"pt.ine.add.PTCONT.5177797","rua":"ANTEPACO ARCOZELO","casa":"","coordenadas":[41.774414617447164,-8.591151383411292]},{"id":"pt.ine.add.PTCONT.5186429","rua":"ANTEPACOVOS","casa":"","coordenadas":[41.77124743664638,-8.595145826639957]},{"id":"pt.ine.add.PTCONT.5189767","rua":"TV ANTEPACO","casa":"","coordenadas":[41.77102963069553,-8.591079194495654]},{"id":"pt.ine.add.PTCONT.5192034","rua":"TV ANTEPACO","casa":"","coordenadas":[41.77151349749036,-8.591659928504395]},{"id":"pt.ine.add.PTCONT.5211438","rua":"TV ANTEPACO","casa":"","coordenadas":[41.77159558142598,-8.591395920475984]},{"id":"pt.ine.add.PTCONT.5219440","rua":"ANTEPACO","casa":"","coordenadas":[41.774645723506495,-8.591898733181266]},{"id":"pt.ine.add.PTCONT.5224453","rua":"TV ANTEPACO","casa":"","coordenadas":[41.77138726157806,-8.591707137048665]},{"id":"pt.ine.add.PTCONT.5228255","rua":"TV ANTEPACO","casa":"","coordenadas":[41.77072539269119,-8.590607986263615]},{"id":"pt.ine.add.PTCONT.5234199","rua":"TV ANTEPACO","casa":"","coordenadas":[41.771386541352236,-8.591887535399975]},{"id":"pt.ine.add.PTCONT.5234200","rua":"TV ANTEPACO","casa":"","coordenadas":[41.771386541352236,-8.591887535399975]},{"id":"pt.ine.add.PTCONT.5234213","rua":"R RENDA","casa":"","coordenadas":[41.77130440823868,-8.592163568477464]},{"id":"pt.ine.add.PTCONT.5237289","rua":"ANTEPACO","casa":"","coordenadas":[41.770662227048454,-8.59064361773314]},{"id":"pt.ine.add.PTCONT.5256365","rua":"ANTEPACO ARCOZELO","casa":"6","coordenadas":[41.773953730715526,-8.59158108993542]},{"id":"pt.ine.add.PTCONT.5268108","rua":"R ANTEPACO DE CIMA","casa":"","coordenadas":[41.77172056960551,-8.591661403283169]},{"id":"pt.ine.add.PTCONT.5268109","rua":"R ANTEPACO DE CIMA","casa":"","coordenadas":[41.77172056960551,-8.591661403283169]},{"id":"pt.ine.add.PTCONT.5268110","rua":"R ANTEPACO DE CIMA","casa":"","coordenadas":[41.77172056960551,-8.591661403283169]}],"ruas":["TV ANTEPACO","ANTEPACO","ANTEPACO ARCOZELO","ANTEPACOVOS","R RENDA","R ANTEPACO DE CIMA"],"centroide":[41.77180104878037,-8.591798282102173]}
+{
+  "CP": "4990-231",
+  "CP4": "4990",
+  "CP3": "231",
+  "Distrito": "Viana do Castelo",
+  "Concelho": "Ponte de Lima",
+  "Localidade": "Ponte de Lima",
+  "Designação Postal": "PONTE DE LIMA",
+  "partes": [
+    {
+      "Artéria": "Travessa do Antepaço de Cima",
+      "Local": "Antepaço",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5140757",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.771441328397366,
+        -8.591695495242897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5154106",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77078755243316,
+        -8.590824910106331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5167006",
+      "rua": "ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77149626781695,
+        -8.5937164089567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5177797",
+      "rua": "ANTEPACO ARCOZELO",
+      "casa": "",
+      "coordenadas": [
+        41.774414617447164,
+        -8.591151383411292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5186429",
+      "rua": "ANTEPACOVOS",
+      "casa": "",
+      "coordenadas": [
+        41.77124743664638,
+        -8.595145826639957
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5189767",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77102963069553,
+        -8.591079194495654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5192034",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77151349749036,
+        -8.591659928504395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5211438",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77159558142598,
+        -8.591395920475984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5219440",
+      "rua": "ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.774645723506495,
+        -8.591898733181266
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5224453",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77138726157806,
+        -8.591707137048665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5228255",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.77072539269119,
+        -8.590607986263615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5234199",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.771386541352236,
+        -8.591887535399975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5234200",
+      "rua": "TV ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.771386541352236,
+        -8.591887535399975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5234213",
+      "rua": "R RENDA",
+      "casa": "",
+      "coordenadas": [
+        41.77130440823868,
+        -8.592163568477464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5237289",
+      "rua": "ANTEPACO",
+      "casa": "",
+      "coordenadas": [
+        41.770662227048454,
+        -8.59064361773314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5256365",
+      "rua": "ANTEPACO ARCOZELO",
+      "casa": "6",
+      "coordenadas": [
+        41.773953730715526,
+        -8.59158108993542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5268108",
+      "rua": "R ANTEPACO DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        41.77172056960551,
+        -8.591661403283169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5268109",
+      "rua": "R ANTEPACO DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        41.77172056960551,
+        -8.591661403283169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5268110",
+      "rua": "R ANTEPACO DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        41.77172056960551,
+        -8.591661403283169
+      ]
+    }
+  ],
+  "ruas": [
+    "TV ANTEPACO",
+    "ANTEPACO",
+    "ANTEPACO ARCOZELO",
+    "ANTEPACOVOS",
+    "R RENDA",
+    "R ANTEPACO DE CIMA"
+  ],
+  "centro": [
+    41.77265397527748,
+    -8.592876906451785
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.77099140744729,
+                -8.593176110243224
+              ],
+              [
+                41.77091825624755,
+                -8.592613334129872
+              ],
+              [
+                41.77085523591094,
+                -8.592120348288976
+              ],
+              [
+                41.77080234643746,
+                -8.59169715272054
+              ],
+              [
+                41.77075958782713,
+                -8.591343747424562
+              ],
+              [
+                41.77072696007994,
+                -8.59106013240104
+              ],
+              [
+                41.77070446319588,
+                -8.590846307649977
+              ],
+              [
+                41.770692097174944,
+                -8.59070227317137
+              ],
+              [
+                41.77068986201715,
+                -8.590628028965222
+              ],
+              [
+                41.770697757722495,
+                -8.590623575031533
+              ],
+              [
+                41.770762310601484,
+                -8.590628168419986
+              ],
+              [
+                41.77088352065411,
+                -8.590641809130581
+              ],
+              [
+                41.77106138788039,
+                -8.590664497163322
+              ],
+              [
+                41.77129591228031,
+                -8.590696232518209
+              ],
+              [
+                41.77158709385387,
+                -8.590737015195236
+              ],
+              [
+                41.77193493260108,
+                -8.59078684519441
+              ],
+              [
+                41.77233942852193,
+                -8.590845722515725
+              ],
+              [
+                41.77280058161642,
+                -8.590913647159182
+              ],
+              [
+                41.77320770160629,
+                -8.590984758562364
+              ],
+              [
+                41.773560788491515,
+                -8.591059056725271
+              ],
+              [
+                41.7738598422721,
+                -8.591136541647902
+              ],
+              [
+                41.774104862948064,
+                -8.591217213330257
+              ],
+              [
+                41.77429585051938,
+                -8.591301071772332
+              ],
+              [
+                41.77443280498608,
+                -8.591388116974132
+              ],
+              [
+                41.77451572634813,
+                -8.591478348935656
+              ],
+              [
+                41.77454461460553,
+                -8.591571767656902
+              ],
+              [
+                41.77451679359858,
+                -8.591704244873286
+              ],
+              [
+                41.77443226332727,
+                -8.591875780584804
+              ],
+              [
+                41.774291023791584,
+                -8.592086374791458
+              ],
+              [
+                41.77409307499154,
+                -8.592336027493252
+              ],
+              [
+                41.77383841692712,
+                -8.59262473869018
+              ],
+              [
+                41.77352704959834,
+                -8.592952508382243
+              ],
+              [
+                41.773158973005195,
+                -8.593319336569444
+              ],
+              [
+                41.77273418714768,
+                -8.59372522325178
+              ],
+              [
+                41.772353355622386,
+                -8.594010027084657
+              ],
+              [
+                41.77201647842931,
+                -8.59417374806807
+              ],
+              [
+                41.771723555568464,
+                -8.594216386202023
+              ],
+              [
+                41.77147458703984,
+                -8.594137941486515
+              ],
+              [
+                41.77126957284344,
+                -8.593938413921546
+              ],
+              [
+                41.771108512979254,
+                -8.593617803507117
+              ],
+              [
+                41.77099140744729,
+                -8.593176110243224
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.77233907946793,
+    -8.591889509445855
+  ],
+  "centroDeMassa": [
+    41.77265397527748,
+    -8.592876906451785
+  ]
+}

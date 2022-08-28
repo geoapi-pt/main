@@ -1,1 +1,586 @@
-{"CP4":"2425","CP3":"173","Distrito":"Leiria","Concelho":"Leiria","CP":"2425-173","Artéria":"Rua das Laranjeiras","Localidade":"Bajouca","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BAJOUCA","locais":[{"id":"pt.ine.add.PTCONT.2015923","rua":"R VOLUNTARIOS 25 NOVEMBRO","casa":"3","coordenadas":[39.899395282705434,-8.78711215222299]},{"id":"pt.ine.add.PTCONT.2021030","rua":"R VOLUNTARIOS","casa":"64","coordenadas":[39.89488520380482,-8.78193631847057]},{"id":"pt.ine.add.PTCONT.2026215","rua":"R VOLUNTARIOS","casa":"56","coordenadas":[39.89528660260388,-8.782629959262117]},{"id":"pt.ine.add.PTCONT.2044364","rua":"R VOLUNTARIOS 25 DE NOVEMBRO","casa":"58","coordenadas":[39.89517886061791,-8.782570479930534]},{"id":"pt.ine.add.PTCONT.2050757","rua":"R VOLUNTARIOS","casa":"72","coordenadas":[39.89422367828612,-8.781053158909323]},{"id":"pt.ine.add.PTCONT.2053328","rua":"R VOLUNTARIOS","casa":"40","coordenadas":[39.89636291849542,-8.785025420751515]},{"id":"pt.ine.add.PTCONT.2061846","rua":"R VOLUNTARIOS","casa":"78","coordenadas":[39.89353369305179,-8.78042697654174]},{"id":"pt.ine.add.PTCONT.2077019","rua":"R VOLUNTARIOS","casa":"12","coordenadas":[39.897563087241956,-8.787807999274897]},{"id":"pt.ine.add.PTCONT.2085931","rua":"R VOLUNTARIOS","casa":"10","coordenadas":[39.89789550850093,-8.78795147754648]},{"id":"pt.ine.add.PTCONT.2088211","rua":"AV VOLUNTARIOS 25 NOVEMBRO","casa":"11","coordenadas":[39.898533365549575,-8.786636237816397]},{"id":"pt.ine.add.PTCONT.2088212","rua":"R VOLUNTARIOS","casa":"11","coordenadas":[39.898533365549575,-8.786636237816397]},{"id":"pt.ine.add.PTCONT.2106912","rua":"R VOLUNTARIOS","casa":"","coordenadas":[39.89819009187758,-8.786820064345832]},{"id":"pt.ine.add.PTCONT.2120730","rua":"R VOLUNTARIOS 25 NOVEMBRO","casa":"25","coordenadas":[39.8978889671867,-8.78591684909973]},{"id":"pt.ine.add.PTCONT.2122307","rua":"R VOLUNTARIOS","casa":"74","coordenadas":[39.89399044222773,-8.780887271119553]},{"id":"pt.ine.add.PTCONT.2123449","rua":"R VOLUNTARIOS","casa":"24","coordenadas":[39.898064472431834,-8.786737020156762]},{"id":"pt.ine.add.PTCONT.2125523","rua":"R VOLUNTARIOS","casa":"72B","coordenadas":[39.89403344611074,-8.781250135912362]},{"id":"pt.ine.add.PTCONT.2125527","rua":"R VOLUNTARIOS 25 NOVEMBRO","casa":"19","coordenadas":[39.89821934944004,-8.786422781524086]},{"id":"pt.ine.add.PTCONT.2126497","rua":"TV FERNANDES","casa":"1","coordenadas":[39.89517610953509,-8.783061536851728]},{"id":"pt.ine.add.PTCONT.2130823","rua":"R VOLUNTARIOS","casa":"66","coordenadas":[39.89473328270934,-8.781724423147171]},{"id":"pt.ine.add.PTCONT.2136393","rua":"R DOS VOLUNTÁRIOS 25 DE NOVEMBRO","casa":"68","coordenadas":[39.89464446708087,-8.781501431078443]},{"id":"pt.ine.add.PTCONT.2142654","rua":"R VOLUNTARIOS","casa":"6","coordenadas":[39.898924872089516,-8.787481859026952]},{"id":"pt.ine.add.PTCONT.2142655","rua":"R VOLUNTARIOS","casa":"16","coordenadas":[39.89796316764154,-8.78713361703929]},{"id":"pt.ine.add.PTCONT.2145120","rua":"R VOLUNTARIOS 25 NOVEMBRO","casa":"13","coordenadas":[39.8983999917764,-8.786330952960956]},{"id":"pt.ine.add.PTCONT.2149419","rua":"R VOLUNTARIOS","casa":"48","coordenadas":[39.89618641611101,-8.784380654233019]},{"id":"pt.ine.add.PTCONT.2151611","rua":"R VOLUNTARIOS 25 NOVEMBRO","casa":"5","coordenadas":[39.8990980923631,-8.787109326996699]},{"id":"pt.ine.add.PTCONT.2162563","rua":"R VOLUNTARIOS","casa":"1","coordenadas":[39.89942866719629,-8.787580196420167]},{"id":"pt.ine.add.PTCONT.2170072","rua":"R VOLUNTARIOS","casa":"46","coordenadas":[39.89622092870283,-8.784649911332254]},{"id":"pt.ine.add.PTCONT.2179994","rua":"R VOLUNTARIOS","casa":"","coordenadas":[39.89747454742681,-8.787538221447837]},{"id":"pt.ine.add.PTCONT.2188825","rua":"R VOLUNTARIOS","casa":"8","coordenadas":[39.89869171164366,-8.787304245597843]},{"id":"pt.ine.add.PTCONT.2216725","rua":"R VOLUNTARIOS","casa":"70B","coordenadas":[39.89447414149533,-8.78135951807253]},{"id":"pt.ine.add.PTCONT.2219595","rua":"R VOLUNTARIOS","casa":"22","coordenadas":[39.89786555458444,-8.786875445185224]},{"id":"pt.ine.add.PTCONT.2255812","rua":"R VOLUNTARIOS","casa":"20","coordenadas":[39.89809904540005,-8.786994593408362]}],"ruas":["R VOLUNTARIOS 25 NOVEMBRO","R VOLUNTARIOS","R VOLUNTARIOS 25 DE NOVEMBRO","AV VOLUNTARIOS 25 NOVEMBRO","TV FERNANDES","R DOS VOLUNTÁRIOS 25 DE NOVEMBRO"],"centroide":[39.89680839632382,-8.784898447744885]}8447744885]}
+{
+  "CP": "2425-173",
+  "CP4": "2425",
+  "CP3": "173",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Bajouca",
+  "Designação Postal": "BAJOUCA",
+  "partes": [
+    {
+      "Artéria": "Rua Voluntários 25 de Novembro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Fernandes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Laranjeiras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2015923",
+      "rua": "R VOLUNTARIOS 25 NOVEMBRO",
+      "casa": "3",
+      "coordenadas": [
+        39.899395282705434,
+        -8.78711215222299
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2021030",
+      "rua": "R VOLUNTARIOS",
+      "casa": "64",
+      "coordenadas": [
+        39.89488520380482,
+        -8.78193631847057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2026215",
+      "rua": "R VOLUNTARIOS",
+      "casa": "56",
+      "coordenadas": [
+        39.89528660260388,
+        -8.782629959262117
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2044364",
+      "rua": "R VOLUNTARIOS 25 DE NOVEMBRO",
+      "casa": "58",
+      "coordenadas": [
+        39.89517886061791,
+        -8.782570479930534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2050757",
+      "rua": "R VOLUNTARIOS",
+      "casa": "72",
+      "coordenadas": [
+        39.89422367828612,
+        -8.781053158909323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2053328",
+      "rua": "R VOLUNTARIOS",
+      "casa": "40",
+      "coordenadas": [
+        39.89636291849542,
+        -8.785025420751515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2061846",
+      "rua": "R VOLUNTARIOS",
+      "casa": "78",
+      "coordenadas": [
+        39.89353369305179,
+        -8.78042697654174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2077019",
+      "rua": "R VOLUNTARIOS",
+      "casa": "12",
+      "coordenadas": [
+        39.897563087241956,
+        -8.787807999274897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2085931",
+      "rua": "R VOLUNTARIOS",
+      "casa": "10",
+      "coordenadas": [
+        39.89789550850093,
+        -8.78795147754648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088211",
+      "rua": "AV VOLUNTARIOS 25 NOVEMBRO",
+      "casa": "11",
+      "coordenadas": [
+        39.898533365549575,
+        -8.786636237816397
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088212",
+      "rua": "R VOLUNTARIOS",
+      "casa": "11",
+      "coordenadas": [
+        39.898533365549575,
+        -8.786636237816397
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2106912",
+      "rua": "R VOLUNTARIOS",
+      "casa": "",
+      "coordenadas": [
+        39.89819009187758,
+        -8.786820064345832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2120730",
+      "rua": "R VOLUNTARIOS 25 NOVEMBRO",
+      "casa": "25",
+      "coordenadas": [
+        39.8978889671867,
+        -8.78591684909973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2122307",
+      "rua": "R VOLUNTARIOS",
+      "casa": "74",
+      "coordenadas": [
+        39.89399044222773,
+        -8.780887271119553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2123449",
+      "rua": "R VOLUNTARIOS",
+      "casa": "24",
+      "coordenadas": [
+        39.898064472431834,
+        -8.786737020156762
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2125523",
+      "rua": "R VOLUNTARIOS",
+      "casa": "72B",
+      "coordenadas": [
+        39.89403344611074,
+        -8.781250135912362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2125527",
+      "rua": "R VOLUNTARIOS 25 NOVEMBRO",
+      "casa": "19",
+      "coordenadas": [
+        39.89821934944004,
+        -8.786422781524086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2126497",
+      "rua": "TV FERNANDES",
+      "casa": "1",
+      "coordenadas": [
+        39.89517610953509,
+        -8.783061536851728
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2130823",
+      "rua": "R VOLUNTARIOS",
+      "casa": "66",
+      "coordenadas": [
+        39.89473328270934,
+        -8.781724423147171
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2136393",
+      "rua": "R DOS VOLUNTÁRIOS 25 DE NOVEMBRO",
+      "casa": "68",
+      "coordenadas": [
+        39.89464446708087,
+        -8.781501431078443
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2142654",
+      "rua": "R VOLUNTARIOS",
+      "casa": "6",
+      "coordenadas": [
+        39.898924872089516,
+        -8.787481859026952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2142655",
+      "rua": "R VOLUNTARIOS",
+      "casa": "16",
+      "coordenadas": [
+        39.89796316764154,
+        -8.78713361703929
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2145120",
+      "rua": "R VOLUNTARIOS 25 NOVEMBRO",
+      "casa": "13",
+      "coordenadas": [
+        39.8983999917764,
+        -8.786330952960956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2149419",
+      "rua": "R VOLUNTARIOS",
+      "casa": "48",
+      "coordenadas": [
+        39.89618641611101,
+        -8.784380654233019
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2151611",
+      "rua": "R VOLUNTARIOS 25 NOVEMBRO",
+      "casa": "5",
+      "coordenadas": [
+        39.8990980923631,
+        -8.787109326996699
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2162563",
+      "rua": "R VOLUNTARIOS",
+      "casa": "1",
+      "coordenadas": [
+        39.89942866719629,
+        -8.787580196420167
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2170072",
+      "rua": "R VOLUNTARIOS",
+      "casa": "46",
+      "coordenadas": [
+        39.89622092870283,
+        -8.784649911332254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2179994",
+      "rua": "R VOLUNTARIOS",
+      "casa": "",
+      "coordenadas": [
+        39.89747454742681,
+        -8.787538221447837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2188825",
+      "rua": "R VOLUNTARIOS",
+      "casa": "8",
+      "coordenadas": [
+        39.89869171164366,
+        -8.787304245597843
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2216725",
+      "rua": "R VOLUNTARIOS",
+      "casa": "70B",
+      "coordenadas": [
+        39.89447414149533,
+        -8.78135951807253
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2219595",
+      "rua": "R VOLUNTARIOS",
+      "casa": "22",
+      "coordenadas": [
+        39.89786555458444,
+        -8.786875445185224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2255812",
+      "rua": "R VOLUNTARIOS",
+      "casa": "20",
+      "coordenadas": [
+        39.89809904540005,
+        -8.786994593408362
+      ]
+    }
+  ],
+  "ruas": [
+    "R VOLUNTARIOS 25 NOVEMBRO",
+    "R VOLUNTARIOS",
+    "R VOLUNTARIOS 25 DE NOVEMBRO",
+    "AV VOLUNTARIOS 25 NOVEMBRO",
+    "TV FERNANDES",
+    "R DOS VOLUNTÁRIOS 25 DE NOVEMBRO"
+  ],
+  "centro": [
+    39.89648118012404,
+    -8.78418922704411
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.89580022728376,
+                -8.78457880182914
+              ],
+              [
+                39.89529655300999,
+                -8.783656173987497
+              ],
+              [
+                39.89486661903973,
+                -8.782858658725551
+              ],
+              [
+                39.89451042537297,
+                -8.782186256043303
+              ],
+              [
+                39.89422797200972,
+                -8.781638965940756
+              ],
+              [
+                39.89401925894998,
+                -8.78121678841791
+              ],
+              [
+                39.89388428619375,
+                -8.78091972347476
+              ],
+              [
+                39.89382305374102,
+                -8.780747771111308
+              ],
+              [
+                39.89383556159181,
+                -8.780700931327557
+              ],
+              [
+                39.8939218097461,
+                -8.780779204123506
+              ],
+              [
+                39.89400385170602,
+                -8.780854697072602
+              ],
+              [
+                39.89408168747157,
+                -8.780927410174849
+              ],
+              [
+                39.89415531704276,
+                -8.780997343430244
+              ],
+              [
+                39.894224740419574,
+                -8.781064496838788
+              ],
+              [
+                39.89428995760203,
+                -8.78112887040048
+              ],
+              [
+                39.8943509685901,
+                -8.781190464115323
+              ],
+              [
+                39.89440777338382,
+                -8.781249277983314
+              ],
+              [
+                39.89446037198317,
+                -8.781305312004452
+              ],
+              [
+                39.89458062725173,
+                -8.781442009290835
+              ],
+              [
+                39.894768539189506,
+                -8.781659369842455
+              ],
+              [
+                39.895024107796495,
+                -8.781957393659319
+              ],
+              [
+                39.895347333072706,
+                -8.782336080741423
+              ],
+              [
+                39.89573821501813,
+                -8.782795431088768
+              ],
+              [
+                39.896196753632765,
+                -8.783335444701356
+              ],
+              [
+                39.89672294891662,
+                -8.783956121579184
+              ],
+              [
+                39.89731680086969,
+                -8.78465746172225
+              ],
+              [
+                39.89783694296129,
+                -8.785278447538017
+              ],
+              [
+                39.89828337519144,
+                -8.785819079026481
+              ],
+              [
+                39.89865609756012,
+                -8.786279356187642
+              ],
+              [
+                39.898955110067334,
+                -8.786659279021498
+              ],
+              [
+                39.89918041271308,
+                -8.786958847528052
+              ],
+              [
+                39.89933200549737,
+                -8.787178061707305
+              ],
+              [
+                39.89940988842019,
+                -8.787316921559256
+              ],
+              [
+                39.899414061481544,
+                -8.787375427083902
+              ],
+              [
+                39.89939375730562,
+                -8.787432420685567
+              ],
+              [
+                39.8993489758924,
+                -8.78748790236425
+              ],
+              [
+                39.8992797172419,
+                -8.78754187211995
+              ],
+              [
+                39.89918598135412,
+                -8.787594329952668
+              ],
+              [
+                39.89906776822905,
+                -8.787645275862404
+              ],
+              [
+                39.89892507786671,
+                -8.78769470984916
+              ],
+              [
+                39.89875791026707,
+                -8.78774263191293
+              ],
+              [
+                39.89856626543015,
+                -8.787789042053717
+              ],
+              [
+                39.89839338211567,
+                -8.787827409078915
+              ],
+              [
+                39.89823926032364,
+                -8.78785773298852
+              ],
+              [
+                39.89810390005405,
+                -8.787880013782534
+              ],
+              [
+                39.897987301306905,
+                -8.787894251460955
+              ],
+              [
+                39.897889464082205,
+                -8.787900446023784
+              ],
+              [
+                39.897810388379945,
+                -8.78789859747102
+              ],
+              [
+                39.89775007420013,
+                -8.787888705802663
+              ],
+              [
+                39.897708521542754,
+                -8.787870771018714
+              ],
+              [
+                39.89760920368334,
+                -8.787739749602554
+              ],
+              [
+                39.897452120621864,
+                -8.78749564155418
+              ],
+              [
+                39.897237272358346,
+                -8.787138446873598
+              ],
+              [
+                39.89696465889277,
+                -8.786668165560801
+              ],
+              [
+                39.89663428022515,
+                -8.786084797615795
+              ],
+              [
+                39.89624613635548,
+                -8.785388343038573
+              ],
+              [
+                39.89580022728376,
+                -8.78457880182914
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.89666919772334,
+    -8.78477619885629
+  ],
+  "centroDeMassa": [
+    39.89648118012404,
+    -8.78418922704411
+  ]
+}

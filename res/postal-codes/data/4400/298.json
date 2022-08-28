@@ -1,1 +1,564 @@
-{"CP4":"4400","CP3":"298","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4400-298","Artéria":"Rua Senhor de Matosinhos","Localidade":"Vila Nova de Gaia","Local":"","Troço":"Pares de 72 a 216","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3654278","rua":"R SENHOR DE MATOSINHOS","casa":"192","coordenadas":[41.12532767245646,-8.62517892291821]},{"id":"pt.ine.add.PTCONT.3683154","rua":"R SENHOR DE MATOSINHOS","casa":"129","coordenadas":[41.125725734192514,-8.62474129205975]},{"id":"pt.ine.add.PTCONT.3867140","rua":"R SENHOR DE MATOSINHOS","casa":"131","coordenadas":[41.12567160791734,-8.624764704515766]},{"id":"pt.ine.add.PTCONT.3867141","rua":"R SENHOR DE MATOSINHOS","casa":"150","coordenadas":[41.125517623165386,-8.62497790263533]},{"id":"pt.ine.add.PTCONT.3903212","rua":"R SENHOR DE MATOSINHOS","casa":"148","coordenadas":[41.12557174948408,-8.624954490408422]},{"id":"pt.ine.add.PTCONT.3917920","rua":"R SENHOR DE MATOSINHOS","casa":"178","coordenadas":[41.125391311453285,-8.625036500280155]},{"id":"pt.ine.add.PTCONT.3920609","rua":"R SENHOR DE MATOSINHOS","casa":"182","coordenadas":[41.1253369308554,-8.625119451279671]},{"id":"pt.ine.add.PTCONT.3920610","rua":"R SENHOR DE MATOSINHOS","casa":"182","coordenadas":[41.1253369308554,-8.625119451279671]},{"id":"pt.ine.add.PTCONT.3920611","rua":"R SENHOR DE MATOSINHOS","casa":"182","coordenadas":[41.1253369308554,-8.625119451279671]},{"id":"pt.ine.add.PTCONT.3920612","rua":"R SENHOR DE MATOSINHOS","casa":"182","coordenadas":[41.1253369308554,-8.625119451279671]},{"id":"pt.ine.add.PTCONT.3920613","rua":"R SENHOR DE MATOSINHOS","casa":"182","coordenadas":[41.1253369308554,-8.625119451279671]},{"id":"pt.ine.add.PTCONT.3988284","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3988285","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3989981","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3990230","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3990958","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3990959","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3990960","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3990961","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.3991383","rua":"R SR DE MATOSINHOS","casa":"122","coordenadas":[41.12579690298044,-8.624944263389516]},{"id":"pt.ine.add.PTCONT.4021908","rua":"R SENHOR DE MATOSINHOS","casa":"160","coordenadas":[41.12542737872618,-8.625024861460215]},{"id":"pt.ine.add.PTCONT.4159902","rua":"R SENHOR DE MATOSINHOS","casa":"138","coordenadas":[41.12568885370552,-8.624943456601054]},{"id":"pt.ine.add.PTCONT.4168501","rua":"R SENHOR DE MATOSINHOS","casa":"157","coordenadas":[41.12561743081503,-8.624800024765475]},{"id":"pt.ine.add.PTCONT.4231510","rua":"R SENHOR DE MATOSINHOS","casa":"156","coordenadas":[41.12545459441921,-8.624977431980632]},{"id":"pt.ine.add.PTCONT.4276739","rua":"R SENHOR DE MATOSINHOS","casa":"212","coordenadas":[41.12520054660407,-8.625428044099614]},{"id":"pt.ine.add.PTCONT.4276740","rua":"R SENHOR DE MATOSINHOS","casa":"212","coordenadas":[41.12520054660407,-8.625428044099614]},{"id":"pt.ine.add.PTCONT.4276741","rua":"R SENHOR DE MATOSINHOS","casa":"212","coordenadas":[41.12520054660407,-8.625428044099614]},{"id":"pt.ine.add.PTCONT.4291706","rua":"R SENHOR DE MATOSINHOS","casa":"198","coordenadas":[41.125282448467736,-8.625226217683034]}],"ruas":["R SENHOR DE MATOSINHOS","R SR DE MATOSINHOS"],"centroide":[41.12555008804623,-8.62502886469733]}
+{
+  "CP": "4400-298",
+  "CP4": "4400",
+  "CP3": "298",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Rua Senhor de Matosinhos",
+      "Local": "",
+      "Troço": "Pares de 72 a 216",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3654278",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "192",
+      "coordenadas": [
+        41.12532767245646,
+        -8.62517892291821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3683154",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "129",
+      "coordenadas": [
+        41.125725734192514,
+        -8.62474129205975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3867140",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "131",
+      "coordenadas": [
+        41.12567160791734,
+        -8.624764704515766
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3867141",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "150",
+      "coordenadas": [
+        41.125517623165386,
+        -8.62497790263533
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3903212",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "148",
+      "coordenadas": [
+        41.12557174948408,
+        -8.624954490408422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3917920",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "178",
+      "coordenadas": [
+        41.125391311453285,
+        -8.625036500280155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3920609",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "182",
+      "coordenadas": [
+        41.1253369308554,
+        -8.625119451279671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3920610",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "182",
+      "coordenadas": [
+        41.1253369308554,
+        -8.625119451279671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3920611",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "182",
+      "coordenadas": [
+        41.1253369308554,
+        -8.625119451279671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3920612",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "182",
+      "coordenadas": [
+        41.1253369308554,
+        -8.625119451279671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3920613",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "182",
+      "coordenadas": [
+        41.1253369308554,
+        -8.625119451279671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3988284",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3988285",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3989981",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990230",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990958",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990959",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990960",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990961",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3991383",
+      "rua": "R SR DE MATOSINHOS",
+      "casa": "122",
+      "coordenadas": [
+        41.12579690298044,
+        -8.624944263389516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4021908",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "160",
+      "coordenadas": [
+        41.12542737872618,
+        -8.625024861460215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4159902",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "138",
+      "coordenadas": [
+        41.12568885370552,
+        -8.624943456601054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4168501",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "157",
+      "coordenadas": [
+        41.12561743081503,
+        -8.624800024765475
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4231510",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "156",
+      "coordenadas": [
+        41.12545459441921,
+        -8.624977431980632
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4276739",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "212",
+      "coordenadas": [
+        41.12520054660407,
+        -8.625428044099614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4276740",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "212",
+      "coordenadas": [
+        41.12520054660407,
+        -8.625428044099614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4276741",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "212",
+      "coordenadas": [
+        41.12520054660407,
+        -8.625428044099614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4291706",
+      "rua": "R SENHOR DE MATOSINHOS",
+      "casa": "198",
+      "coordenadas": [
+        41.125282448467736,
+        -8.625226217683034
+      ]
+    }
+  ],
+  "ruas": [
+    "R SENHOR DE MATOSINHOS",
+    "R SR DE MATOSINHOS"
+  ],
+  "centro": [
+    41.12549872479225,
+    -8.625084668079683
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.125535997065775,
+                -8.625155917450185
+              ],
+              [
+                41.12546145251873,
+                -8.625216390038945
+              ],
+              [
+                41.12539750575668,
+                -8.625266150016353
+              ],
+              [
+                41.12534415677964,
+                -8.625305197382408
+              ],
+              [
+                41.12530140558759,
+                -8.625333532137107
+              ],
+              [
+                41.12526925218055,
+                -8.625351154280452
+              ],
+              [
+                41.1252476965585,
+                -8.625358063812442
+              ],
+              [
+                41.12523673872147,
+                -8.62535426073308
+              ],
+              [
+                41.12523637866943,
+                -8.62533974504236
+              ],
+              [
+                41.12524661640238,
+                -8.62531451674029
+              ],
+              [
+                41.12525642570603,
+                -8.625290773750923
+              ],
+              [
+                41.12526580658036,
+                -8.62526851607426
+              ],
+              [
+                41.12527475902538,
+                -8.625247743710307
+              ],
+              [
+                41.125283283041085,
+                -8.625228456659062
+              ],
+              [
+                41.12529137862748,
+                -8.625210654920522
+              ],
+              [
+                41.125299045784566,
+                -8.62519433849469
+              ],
+              [
+                41.125306284512334,
+                -8.625179507381564
+              ],
+              [
+                41.12531309481079,
+                -8.625166161581141
+              ],
+              [
+                41.125319903518786,
+                -8.625153187896407
+              ],
+              [
+                41.125326710636315,
+                -8.625140586327356
+              ],
+              [
+                41.12533351616338,
+                -8.625128356873992
+              ],
+              [
+                41.125340320099966,
+                -8.625116499536311
+              ],
+              [
+                41.1253471224461,
+                -8.625105014314318
+              ],
+              [
+                41.12535392320177,
+                -8.625093901208007
+              ],
+              [
+                41.12536072236698,
+                -8.625083160217383
+              ],
+              [
+                41.125367519941705,
+                -8.625072791342443
+              ],
+              [
+                41.125377000934634,
+                -8.625060023646956
+              ],
+              [
+                41.12538916534574,
+                -8.625044857130916
+              ],
+              [
+                41.12540401317503,
+                -8.625027291794328
+              ],
+              [
+                41.12542154442251,
+                -8.625007327637192
+              ],
+              [
+                41.12544175908816,
+                -8.624984964659504
+              ],
+              [
+                41.12546465717202,
+                -8.624960202861267
+              ],
+              [
+                41.12549023867405,
+                -8.624933042242482
+              ],
+              [
+                41.12551850359427,
+                -8.624903482803148
+              ],
+              [
+                41.125544081916686,
+                -8.624877066414829
+              ],
+              [
+                41.1255669736413,
+                -8.624853793077524
+              ],
+              [
+                41.12558717876811,
+                -8.624833662791232
+              ],
+              [
+                41.125604697297106,
+                -8.624816675555959
+              ],
+              [
+                41.12561952922831,
+                -8.6248028313717
+              ],
+              [
+                41.1256316745617,
+                -8.624792130238454
+              ],
+              [
+                41.12564113329729,
+                -8.624784572156226
+              ],
+              [
+                41.12564790543509,
+                -8.624780157125013
+              ],
+              [
+                41.1256546767787,
+                -8.624775928153076
+              ],
+              [
+                41.125661447328135,
+                -8.624771885240415
+              ],
+              [
+                41.1256682170834,
+                -8.624768028387031
+              ],
+              [
+                41.1256749860445,
+                -8.624764357592923
+              ],
+              [
+                41.12568175421141,
+                -8.624760872858092
+              ],
+              [
+                41.12568852158416,
+                -8.624757574182537
+              ],
+              [
+                41.12569528816273,
+                -8.624754461566258
+              ],
+              [
+                41.12570205394712,
+                -8.624751535009256
+              ],
+              [
+                41.125709086020784,
+                -8.624752145698906
+              ],
+              [
+                41.1257163843837,
+                -8.624756293635212
+              ],
+              [
+                41.12572394903589,
+                -8.624763978818168
+              ],
+              [
+                41.12573177997733,
+                -8.624775201247777
+              ],
+              [
+                41.12573987720804,
+                -8.62478996092404
+              ],
+              [
+                41.12574824072801,
+                -8.624808257846954
+              ],
+              [
+                41.12575687053723,
+                -8.624830092016524
+              ],
+              [
+                41.12576576663572,
+                -8.624855463432745
+              ],
+              [
+                41.125764232653516,
+                -8.624885222495532
+              ],
+              [
+                41.125752268590624,
+                -8.624919369204889
+              ],
+              [
+                41.12572987444704,
+                -8.624957903560812
+              ],
+              [
+                41.12569705022276,
+                -8.625000825563303
+              ],
+              [
+                41.12565379591779,
+                -8.625048135212362
+              ],
+              [
+                41.12560011153213,
+                -8.62509983250799
+              ],
+              [
+                41.125535997065775,
+                -8.625155917450185
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.12550286416072,
+    -8.625007562259123
+  ],
+  "centroDeMassa": [
+    41.12549872479225,
+    -8.625084668079683
+  ]
+}

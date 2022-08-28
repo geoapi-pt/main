@@ -1,1 +1,418 @@
-{"CP4":"3750","CP3":"166","Distrito":"Aveiro","Concelho":"Águeda","CP":"3750-166","Artéria":"Rua Tenente Coronel Albano Mello","Localidade":"Águeda","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÁGUEDA","locais":[{"id":"pt.ine.add.PTCONT.331901","rua":"R TEN COR ALBANO MELLO","casa":"124","coordenadas":[40.57433839913317,-8.447879577379947]},{"id":"pt.ine.add.PTCONT.337254","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.573915220666436,-8.447853974492533]},{"id":"pt.ine.add.PTCONT.5122","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.573229411070784,-8.44837039041073]},{"id":"pt.ine.add.PTCONT.72171","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.57287833843432,-8.448321503893398]},{"id":"pt.ine.add.PTCONT.83099","rua":"R TEN COR ALBANO MELLO","casa":"55","coordenadas":[40.572824532958414,-8.4482385835773]},{"id":"pt.ine.add.PTCONT.96406","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.573698130842494,-8.448207252539024]},{"id":"pt.ine.add.PTCONT.99224","rua":"R TEN COR ALBANO MELLO","casa":"181","coordenadas":[40.57497638104711,-8.448390400127135]},{"id":"pt.ine.add.PTCONT.99225","rua":"R TEN COR ALBANO MELLO","casa":"181","coordenadas":[40.57497638104711,-8.448390400127135]},{"id":"pt.ine.add.PTCONT.99227","rua":"R TEN COR ALBANO MELLO","casa":"181","coordenadas":[40.57497638104711,-8.448390400127135]},{"id":"pt.ine.add.PTCONT.115018","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.57390541072128,-8.448149175513574]},{"id":"pt.ine.add.PTCONT.157417","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.57474240790325,-8.44833025172507]},{"id":"pt.ine.add.PTCONT.168207","rua":"R TEN COR ALBANO MELLO","casa":"171","coordenadas":[40.574886490542355,-8.448330927920027]},{"id":"pt.ine.add.PTCONT.173456","rua":"R TEN COR ALBANO MELLO","casa":"","coordenadas":[40.572941632357136,-8.448227323229474]},{"id":"pt.ine.add.PTCONT.189290","rua":"R TEN COR ALBANO MELLO","casa":"63","coordenadas":[40.573004443007335,-8.448310285938515]},{"id":"pt.ine.add.PTCONT.227197","rua":"R TEN COR ALBANO MELLO","casa":"141","coordenadas":[40.57400453196243,-8.448126020624493]},{"id":"pt.ine.add.PTCONT.227198","rua":"R TEN COR ALBANO MELLO","casa":"141","coordenadas":[40.57400453196243,-8.448126020624493]},{"id":"pt.ine.add.PTCONT.243622","rua":"R TEN COR ALBANO MELLO","casa":"117","coordenadas":[40.573608014747585,-8.448230449452364]},{"id":"pt.ine.add.PTCONT.273356","rua":"R TEN COR ALBANO MELLO","casa":"129","coordenadas":[40.57382429980734,-8.448172414814202]},{"id":"pt.ine.add.PTCONT.278725","rua":"R TEN COR ALBANO MELLO","casa":"87","coordenadas":[40.573139617183955,-8.448275491011126]}],"ruas":["R TEN COR ALBANO MELLO"],"centroide":[40.57392971884767,-8.448224741806476]}
+{
+  "CP": "3750-166",
+  "CP4": "3750",
+  "CP3": "166",
+  "Distrito": "Aveiro",
+  "Concelho": "Águeda",
+  "Localidade": "Águeda",
+  "Designação Postal": "ÁGUEDA",
+  "partes": [
+    {
+      "Artéria": "Rua Tenente Coronel Albano Mello",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.331901",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "124",
+      "coordenadas": [
+        40.57433839913317,
+        -8.447879577379947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.337254",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.573915220666436,
+        -8.447853974492533
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5122",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.573229411070784,
+        -8.44837039041073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.72171",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.57287833843432,
+        -8.448321503893398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83099",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "55",
+      "coordenadas": [
+        40.572824532958414,
+        -8.4482385835773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.96406",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.573698130842494,
+        -8.448207252539024
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.99224",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "181",
+      "coordenadas": [
+        40.57497638104711,
+        -8.448390400127135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.99225",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "181",
+      "coordenadas": [
+        40.57497638104711,
+        -8.448390400127135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.99227",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "181",
+      "coordenadas": [
+        40.57497638104711,
+        -8.448390400127135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.115018",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.57390541072128,
+        -8.448149175513574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.157417",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.57474240790325,
+        -8.44833025172507
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.168207",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "171",
+      "coordenadas": [
+        40.574886490542355,
+        -8.448330927920027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.173456",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "",
+      "coordenadas": [
+        40.572941632357136,
+        -8.448227323229474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.189290",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "63",
+      "coordenadas": [
+        40.573004443007335,
+        -8.448310285938515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227197",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "141",
+      "coordenadas": [
+        40.57400453196243,
+        -8.448126020624493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.227198",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "141",
+      "coordenadas": [
+        40.57400453196243,
+        -8.448126020624493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.243622",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "117",
+      "coordenadas": [
+        40.573608014747585,
+        -8.448230449452364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.273356",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "129",
+      "coordenadas": [
+        40.57382429980734,
+        -8.448172414814202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.278725",
+      "rua": "R TEN COR ALBANO MELLO",
+      "casa": "87",
+      "coordenadas": [
+        40.573139617183955,
+        -8.448275491011126
+      ]
+    }
+  ],
+  "ruas": [
+    "R TEN COR ALBANO MELLO"
+  ],
+  "centro": [
+    40.573900457002765,
+    -8.448122187309835
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.57285479853861,
+                -8.448285226255106
+              ],
+              [
+                40.57284807285412,
+                -8.448274861215593
+              ],
+              [
+                40.57285922987563,
+                -8.448259782289071
+              ],
+              [
+                40.57288826960315,
+                -8.448239989475537
+              ],
+              [
+                40.57293519203665,
+                -8.448215482774993
+              ],
+              [
+                40.57299999717616,
+                -8.44818626218744
+              ],
+              [
+                40.57308268502167,
+                -8.448152327712874
+              ],
+              [
+                40.57318325557317,
+                -8.448113679351298
+              ],
+              [
+                40.57330170883068,
+                -8.448070317102713
+              ],
+              [
+                40.57343804479417,
+                -8.448022240967118
+              ],
+              [
+                40.57356395092578,
+                -8.447980574393588
+              ],
+              [
+                40.57367942722549,
+                -8.447945317382123
+              ],
+              [
+                40.57378447369331,
+                -8.447916469932723
+              ],
+              [
+                40.57387909032924,
+                -8.447894032045388
+              ],
+              [
+                40.57396327713327,
+                -8.447878003720119
+              ],
+              [
+                40.574037034105395,
+                -8.447868384956916
+              ],
+              [
+                40.57410036124563,
+                -8.447865175755776
+              ],
+              [
+                40.57415325855398,
+                -8.447868376116704
+              ],
+              [
+                40.57420951216618,
+                -8.447879158037939
+              ],
+              [
+                40.57426912208224,
+                -8.447897521519483
+              ],
+              [
+                40.57433208830217,
+                -8.447923466561338
+              ],
+              [
+                40.574398410825964,
+                -8.4479569931635
+              ],
+              [
+                40.57446808965362,
+                -8.447998101325972
+              ],
+              [
+                40.574541124785135,
+                -8.448046791048753
+              ],
+              [
+                40.57461751622051,
+                -8.448103062331842
+              ],
+              [
+                40.57469726395976,
+                -8.44816691517524
+              ],
+              [
+                40.57473974682572,
+                -8.448222473761394
+              ],
+              [
+                40.574744964818386,
+                -8.448269738090307
+              ],
+              [
+                40.574712917937774,
+                -8.448308708161974
+              ],
+              [
+                40.574643606183876,
+                -8.448339383976396
+              ],
+              [
+                40.57453702955669,
+                -8.448361765533576
+              ],
+              [
+                40.57439318805622,
+                -8.448375852833514
+              ],
+              [
+                40.57421208168247,
+                -8.448381645876207
+              ],
+              [
+                40.573993710435424,
+                -8.448379144661658
+              ],
+              [
+                40.57379715008432,
+                -8.448376192247093
+              ],
+              [
+                40.57362240062915,
+                -8.448372788632511
+              ],
+              [
+                40.573469462069916,
+                -8.448368933817918
+              ],
+              [
+                40.573338334406614,
+                -8.448364627803311
+              ],
+              [
+                40.57322901763925,
+                -8.448359870588687
+              ],
+              [
+                40.57314151176782,
+                -8.448354662174049
+              ],
+              [
+                40.573075816792326,
+                -8.448349002559397
+              ],
+              [
+                40.57303193271278,
+                -8.448342891744732
+              ],
+              [
+                40.5729926934326,
+                -8.44833624915196
+              ],
+              [
+                40.572958098951815,
+                -8.448329074781082
+              ],
+              [
+                40.57292814927041,
+                -8.448321368632097
+              ],
+              [
+                40.57290284438838,
+                -8.448313130705007
+              ],
+              [
+                40.57288218430574,
+                -8.448304360999812
+              ],
+              [
+                40.572866169022475,
+                -8.448295059516512
+              ],
+              [
+                40.57285479853861,
+                -8.448285226255106
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.573693713885035,
+    -8.448175738313507
+  ],
+  "centroDeMassa": [
+    40.573900457002765,
+    -8.448122187309835
+  ]
+}

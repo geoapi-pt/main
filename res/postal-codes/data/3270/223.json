@@ -1,1 +1,398 @@
-{"CP4":"3270","CP3":"223","Distrito":"Leiria","Concelho":"Pedrógão Grande","CP":"3270-223","Artéria":" ","Localidade":"Vale da Nogueira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA FACAIA","locais":[{"id":"pt.ine.add.PTCONT.1992241","rua":"R JOAQUINA ISABEL","casa":"160","coordenadas":[39.93847742497045,-8.216716176907573]},{"id":"pt.ine.add.PTCONT.2001113","rua":"R JOAQUINA ISABEL","casa":"133","coordenadas":[39.93868487249331,-8.216295229939334]},{"id":"pt.ine.add.PTCONT.2024916","rua":"R JOAQUINA ISABEL","casa":"157","coordenadas":[39.938288368859496,-8.216610647588258]},{"id":"pt.ine.add.PTCONT.2034771","rua":"R PADRE AMÉRICO DOS SANTOS CASELHO","casa":"290","coordenadas":[39.939711957126335,-8.215781666608233]},{"id":"pt.ine.add.PTCONT.2046875","rua":"R JOAQUINA ISABEL","casa":"274","coordenadas":[39.9375404582608,-8.217147928885794]},{"id":"pt.ine.add.PTCONT.2049554","rua":"R JOAQUINA ISABEL","casa":"121","coordenadas":[39.93872094797891,-8.216225073679984]},{"id":"pt.ine.add.PTCONT.2055925","rua":"R JOAQUINA ISABEL","casa":"145","coordenadas":[39.93859480124684,-8.216306820846855]},{"id":"pt.ine.add.PTCONT.2075631","rua":"R JOAQUINA ISABEL","casa":"","coordenadas":[39.93951384390674,-8.215746327823716]},{"id":"pt.ine.add.PTCONT.2088521","rua":"CAM QUINTA","casa":"97","coordenadas":[39.93910058799092,-8.214283323874131]},{"id":"pt.ine.add.PTCONT.2090719","rua":"BC TAPADA","casa":"12","coordenadas":[39.93955864136574,-8.216073985428745]},{"id":"pt.ine.add.PTCONT.2094655","rua":"R PADRE AMÉRICO DOS SANTOS CASELHO","casa":"284","coordenadas":[39.93953176467201,-8.215875050791]},{"id":"pt.ine.add.PTCONT.2121194","rua":"R JOAQUINA ISABEL","casa":"94","coordenadas":[39.9390452915398,-8.216061665443517]},{"id":"pt.ine.add.PTCONT.2121195","rua":"R JOAQUINA ISABEL","casa":"94","coordenadas":[39.9390452915398,-8.216061665443517]},{"id":"pt.ine.add.PTCONT.2141324","rua":"R JOAQUINA ISABEL","casa":"213","coordenadas":[39.93800914871482,-8.216645407830795]},{"id":"pt.ine.add.PTCONT.2147622","rua":"R JOAQUINA ISABEL","casa":"117","coordenadas":[39.93880199615571,-8.216236871737424]},{"id":"pt.ine.add.PTCONT.2191397","rua":"R JOAQUINA ISABEL","casa":"264","coordenadas":[39.93762143846966,-8.217253326166318]},{"id":"pt.ine.add.PTCONT.2191398","rua":"R JOAQUINA ISABEL","casa":"14","coordenadas":[39.93858561839406,-8.21655250903519]},{"id":"pt.ine.add.PTCONT.2200563","rua":"R JOAQUINA ISABEL","casa":"","coordenadas":[39.93974786534576,-8.21594551213104]},{"id":"pt.ine.add.PTCONT.2216066","rua":"R PADRE AMÉRICO DOS SANTOS CASELHO","casa":"33","coordenadas":[39.939685104894906,-8.215547631206764]},{"id":"pt.ine.add.PTCONT.2224700","rua":"BC TAPADA","casa":"41","coordenadas":[39.93982877961715,-8.216144512736792]}],"ruas":["R JOAQUINA ISABEL","R PADRE AMÉRICO DOS SANTOS CASELHO","CAM QUINTA","BC TAPADA"],"centroide":[39.93885607494349,-8.21617720112464]}
+{
+  "CP": "3270-223",
+  "CP4": "3270",
+  "CP3": "223",
+  "Distrito": "Leiria",
+  "Concelho": "Pedrógão Grande",
+  "Localidade": "Vale da Nogueira",
+  "Designação Postal": "VILA FACAIA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1992241",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "160",
+      "coordenadas": [
+        39.93847742497045,
+        -8.216716176907573
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2001113",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "133",
+      "coordenadas": [
+        39.93868487249331,
+        -8.216295229939334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2024916",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "157",
+      "coordenadas": [
+        39.938288368859496,
+        -8.216610647588258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2034771",
+      "rua": "R PADRE AMÉRICO DOS SANTOS CASELHO",
+      "casa": "290",
+      "coordenadas": [
+        39.939711957126335,
+        -8.215781666608233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2046875",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "274",
+      "coordenadas": [
+        39.9375404582608,
+        -8.217147928885794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2049554",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "121",
+      "coordenadas": [
+        39.93872094797891,
+        -8.216225073679984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2055925",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "145",
+      "coordenadas": [
+        39.93859480124684,
+        -8.216306820846855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2075631",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "",
+      "coordenadas": [
+        39.93951384390674,
+        -8.215746327823716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088521",
+      "rua": "CAM QUINTA",
+      "casa": "97",
+      "coordenadas": [
+        39.93910058799092,
+        -8.214283323874131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2090719",
+      "rua": "BC TAPADA",
+      "casa": "12",
+      "coordenadas": [
+        39.93955864136574,
+        -8.216073985428745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2094655",
+      "rua": "R PADRE AMÉRICO DOS SANTOS CASELHO",
+      "casa": "284",
+      "coordenadas": [
+        39.93953176467201,
+        -8.215875050791
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2121194",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "94",
+      "coordenadas": [
+        39.9390452915398,
+        -8.216061665443517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2121195",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "94",
+      "coordenadas": [
+        39.9390452915398,
+        -8.216061665443517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2141324",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "213",
+      "coordenadas": [
+        39.93800914871482,
+        -8.216645407830795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2147622",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "117",
+      "coordenadas": [
+        39.93880199615571,
+        -8.216236871737424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2191397",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "264",
+      "coordenadas": [
+        39.93762143846966,
+        -8.217253326166318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2191398",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "14",
+      "coordenadas": [
+        39.93858561839406,
+        -8.21655250903519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2200563",
+      "rua": "R JOAQUINA ISABEL",
+      "casa": "",
+      "coordenadas": [
+        39.93974786534576,
+        -8.21594551213104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2216066",
+      "rua": "R PADRE AMÉRICO DOS SANTOS CASELHO",
+      "casa": "33",
+      "coordenadas": [
+        39.939685104894906,
+        -8.215547631206764
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2224700",
+      "rua": "BC TAPADA",
+      "casa": "41",
+      "coordenadas": [
+        39.93982877961715,
+        -8.216144512736792
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOAQUINA ISABEL",
+    "R PADRE AMÉRICO DOS SANTOS CASELHO",
+    "CAM QUINTA",
+    "BC TAPADA"
+  ],
+  "centro": [
+    39.93868461893898,
+    -8.215768325020225
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.93758600962829,
+                -8.217207214856089
+              ],
+              [
+                39.93757588710217,
+                -8.217194040196024
+              ],
+              [
+                39.93759140691886,
+                -8.217137752915157
+              ],
+              [
+                39.937632569078346,
+                -8.217038353013493
+              ],
+              [
+                39.93769937358063,
+                -8.21689584049103
+              ],
+              [
+                39.937791820425716,
+                -8.21671021534777
+              ],
+              [
+                39.937909909613595,
+                -8.21648147758371
+              ],
+              [
+                39.938053641144265,
+                -8.216209627198849
+              ],
+              [
+                39.938223015017726,
+                -8.21589466419319
+              ],
+              [
+                39.938418031233994,
+                -8.215536588566735
+              ],
+              [
+                39.938597803499846,
+                -8.215243027195656
+              ],
+              [
+                39.9387623318153,
+                -8.215013980079958
+              ],
+              [
+                39.938911616180334,
+                -8.214849447219638
+              ],
+              [
+                39.93904565659497,
+                -8.214749428614699
+              ],
+              [
+                39.93916445305919,
+                -8.214713924265139
+              ],
+              [
+                39.93926800557301,
+                -8.214742934170959
+              ],
+              [
+                39.93935631413642,
+                -8.214836458332158
+              ],
+              [
+                39.93942937874941,
+                -8.214994496748737
+              ],
+              [
+                39.93949555520332,
+                -8.21514210663715
+              ],
+              [
+                39.93955484349814,
+                -8.215279287997399
+              ],
+              [
+                39.939607243633866,
+                -8.215406040829482
+              ],
+              [
+                39.93965275561051,
+                -8.215522365133396
+              ],
+              [
+                39.939691379428055,
+                -8.215628260909147
+              ],
+              [
+                39.93972311508652,
+                -8.215723728156732
+              ],
+              [
+                39.93974796258589,
+                -8.215808766876151
+              ],
+              [
+                39.93976592192617,
+                -8.215883377067406
+              ],
+              [
+                39.939747146643484,
+                -8.21596598619459
+              ],
+              [
+                39.939691636737834,
+                -8.2160565942577
+              ],
+              [
+                39.93959939220922,
+                -8.216155201256743
+              ],
+              [
+                39.93947041305765,
+                -8.216261807191717
+              ],
+              [
+                39.9393046992831,
+                -8.216376412062619
+              ],
+              [
+                39.9391022508856,
+                -8.216499015869449
+              ],
+              [
+                39.93886306786512,
+                -8.21662961861221
+              ],
+              [
+                39.938587150221686,
+                -8.216768220290902
+              ],
+              [
+                39.93834445696792,
+                -8.216887849927247
+              ],
+              [
+                39.93813498810381,
+                -8.216988507521249
+              ],
+              [
+                39.93795874362937,
+                -8.217070193072907
+              ],
+              [
+                39.93781572354461,
+                -8.217132906582219
+              ],
+              [
+                39.93770592784951,
+                -8.217176648049188
+              ],
+              [
+                39.937629356544065,
+                -8.217201417473811
+              ],
+              [
+                39.93758600962829,
+                -8.217207214856089
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.938755273846695,
+    -8.21607534457396
+  ],
+  "centroDeMassa": [
+    39.93868461893898,
+    -8.215768325020225
+  ]
+}

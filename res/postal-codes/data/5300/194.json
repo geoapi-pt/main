@@ -1,1 +1,444 @@
-{"CP4":"5300","CP3":"194","Distrito":"Bragança","Concelho":"Bragança","CP":"5300-194","Artéria":"Rua Doutor Pedro Campilho","Localidade":"Bragança","Local":"Bairro das Cantarias","Troço":"","Porta":"","Cliente":"","Designação Postal":"BRAGANÇA","locais":[{"id":"pt.ine.add.PTCONT.850313","rua":"R FRANCISCO GARCIA","casa":"16","coordenadas":[41.784130058259485,-6.774506933396691]},{"id":"pt.ine.add.PTCONT.854729","rua":"R FRANCISCO GARCIA","casa":"2","coordenadas":[41.78488627339739,-6.774502995369769]},{"id":"pt.ine.add.PTCONT.854991","rua":"R DR PEDRO CAMPILHO","casa":"8","coordenadas":[41.78469810861078,-6.774579142667199]},{"id":"pt.ine.add.PTCONT.861518","rua":"R FRANCISCO GARCIA","casa":"20","coordenadas":[41.7839647707856,-6.774233758402324]},{"id":"pt.ine.add.PTCONT.866828","rua":"R DR PEDRO CAMPILHO","casa":"7","coordenadas":[41.78509457348227,-6.774606859219558]},{"id":"pt.ine.add.PTCONT.875462","rua":"R FRANCISCO GARCIA","casa":"8","coordenadas":[41.78459696541624,-6.77440084274913]},{"id":"pt.ine.add.PTCONT.875463","rua":"R FRANCISCO GARCIA","casa":"12","coordenadas":[41.78430135923637,-6.774527374456716]},{"id":"pt.ine.add.PTCONT.882356","rua":"R DR PEDRO CAMPILHO","casa":"4","coordenadas":[41.78484027333271,-6.774419763147196]},{"id":"pt.ine.add.PTCONT.887162","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.78476756149347,-6.768286479932866]},{"id":"pt.ine.add.PTCONT.899526","rua":"R FRANCISCO GARCIA","casa":"6","coordenadas":[41.78475012241071,-6.7744096377134975]},{"id":"pt.ine.add.PTCONT.919067","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.78490800321022,-6.768740606040449]},{"id":"pt.ine.add.PTCONT.921467","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.784631834351664,-6.7682292137252125]},{"id":"pt.ine.add.PTCONT.922205","rua":"R DR PEDRO CAMPILHO","casa":"2","coordenadas":[41.78483354832512,-6.774612370275533]},{"id":"pt.ine.add.PTCONT.929194","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.78519671184133,-6.774869343781548]},{"id":"pt.ine.add.PTCONT.935283","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.78450880591473,-6.774559081452119]},{"id":"pt.ine.add.PTCONT.939139","rua":"R FRANCISCO GARCIA","casa":"18","coordenadas":[41.783994618507165,-6.774473706335166]},{"id":"pt.ine.add.PTCONT.939170","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.78512271390436,-6.77470249807794]},{"id":"pt.ine.add.PTCONT.940434","rua":"R DR PEDRO CAMPILHO","casa":"","coordenadas":[41.784973294509044,-6.768931687069851]},{"id":"pt.ine.add.PTCONT.943871","rua":"R FRANCISCO GARCIA","casa":"10","coordenadas":[41.78440951189247,-6.77453711991618]},{"id":"pt.ine.add.PTCONT.945733","rua":"R FRANCISCO GARCIA","casa":"38","coordenadas":[41.78420220744632,-6.774517438981035]},{"id":"pt.ine.add.PTCONT.945981","rua":"R FRANCISCO GARCIA","casa":"14","coordenadas":[41.78420220744632,-6.774517438981035]}],"ruas":["R FRANCISCO GARCIA","R DR PEDRO CAMPILHO"],"centroide":[41.78464056581638,-6.7733323426355]}
+{
+  "CP": "5300-194",
+  "CP4": "5300",
+  "CP3": "194",
+  "Distrito": "Bragança",
+  "Concelho": "Bragança",
+  "Localidade": "Bragança",
+  "Designação Postal": "BRAGANÇA",
+  "partes": [
+    {
+      "Artéria": "Travessa Doutor Pedro Campilho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Doutor Pedro Campilho",
+      "Local": "Bairro das Cantarias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.850313",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "16",
+      "coordenadas": [
+        41.784130058259485,
+        -6.774506933396691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.854729",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "2",
+      "coordenadas": [
+        41.78488627339739,
+        -6.774502995369769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.854991",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "8",
+      "coordenadas": [
+        41.78469810861078,
+        -6.774579142667199
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.861518",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "20",
+      "coordenadas": [
+        41.7839647707856,
+        -6.774233758402324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.866828",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "7",
+      "coordenadas": [
+        41.78509457348227,
+        -6.774606859219558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.875462",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "8",
+      "coordenadas": [
+        41.78459696541624,
+        -6.77440084274913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.875463",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "12",
+      "coordenadas": [
+        41.78430135923637,
+        -6.774527374456716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.882356",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "4",
+      "coordenadas": [
+        41.78484027333271,
+        -6.774419763147196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.887162",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.78476756149347,
+        -6.768286479932866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.899526",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "6",
+      "coordenadas": [
+        41.78475012241071,
+        -6.7744096377134975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.919067",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.78490800321022,
+        -6.768740606040449
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.921467",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.784631834351664,
+        -6.7682292137252125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.922205",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "2",
+      "coordenadas": [
+        41.78483354832512,
+        -6.774612370275533
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.929194",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.78519671184133,
+        -6.774869343781548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.935283",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.78450880591473,
+        -6.774559081452119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.939139",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "18",
+      "coordenadas": [
+        41.783994618507165,
+        -6.774473706335166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.939170",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.78512271390436,
+        -6.77470249807794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.940434",
+      "rua": "R DR PEDRO CAMPILHO",
+      "casa": "",
+      "coordenadas": [
+        41.784973294509044,
+        -6.768931687069851
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.943871",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "10",
+      "coordenadas": [
+        41.78440951189247,
+        -6.77453711991618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.945733",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "38",
+      "coordenadas": [
+        41.78420220744632,
+        -6.774517438981035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.945981",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "14",
+      "coordenadas": [
+        41.78420220744632,
+        -6.774517438981035
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO GARCIA",
+    "R DR PEDRO CAMPILHO"
+  ],
+  "centro": [
+    41.78458074131346,
+    -6.77154927875338
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.78398156012898,
+                -6.774368729114548
+              ],
+              [
+                41.78397782916379,
+                -6.774338735622941
+              ],
+              [
+                41.78398498743746,
+                -6.7742186703072065
+              ],
+              [
+                41.784003034950004,
+                -6.774008533167344
+              ],
+              [
+                41.78403197170141,
+                -6.773708324203351
+              ],
+              [
+                41.784071797691695,
+                -6.7733180434152285
+              ],
+              [
+                41.784122512920845,
+                -6.7728376908029775
+              ],
+              [
+                41.78418411738886,
+                -6.7722672663665975
+              ],
+              [
+                41.784256611095756,
+                -6.771606770106088
+              ],
+              [
+                41.78433999404151,
+                -6.770856202021449
+              ],
+              [
+                41.784415074855644,
+                -6.770200349731884
+              ],
+              [
+                41.78448185353814,
+                -6.769639213237394
+              ],
+              [
+                41.784540330089015,
+                -6.7691727925379785
+              ],
+              [
+                41.784590504508245,
+                -6.768801087633637
+              ],
+              [
+                41.784632376795855,
+                -6.76852409852437
+              ],
+              [
+                41.78466594695185,
+                -6.768341825210179
+              ],
+              [
+                41.7846912149762,
+                -6.768254267691061
+              ],
+              [
+                41.784708180868925,
+                -6.768261425967017
+              ],
+              [
+                41.78472624060343,
+                -6.768277770819995
+              ],
+              [
+                41.78474539417971,
+                -6.768303302249993
+              ],
+              [
+                41.78476564159777,
+                -6.768338020257012
+              ],
+              [
+                41.78478698285761,
+                -6.768381924841052
+              ],
+              [
+                41.784809417959224,
+                -6.768435016002114
+              ],
+              [
+                41.78483294690261,
+                -6.768497293740194
+              ],
+              [
+                41.78485756968778,
+                -6.768568758055297
+              ],
+              [
+                41.78488328631473,
+                -6.76864940894742
+              ],
+              [
+                41.784909279259125,
+                -6.768812754364147
+              ],
+              [
+                41.78493554852096,
+                -6.769058794305481
+              ],
+              [
+                41.78496209410026,
+                -6.769387528771419
+              ],
+              [
+                41.784988915997005,
+                -6.769798957761962
+              ],
+              [
+                41.785016014211195,
+                -6.770293081277109
+              ],
+              [
+                41.78504338874283,
+                -6.770869899316861
+              ],
+              [
+                41.78507103959191,
+                -6.771529411881218
+              ],
+              [
+                41.785098966758454,
+                -6.772271618970182
+              ],
+              [
+                41.78510462032082,
+                -6.772914868337924
+              ],
+              [
+                41.78508800027903,
+                -6.773459159984446
+              ],
+              [
+                41.78504910663308,
+                -6.773904493909748
+              ],
+              [
+                41.78498793938296,
+                -6.77425087011383
+              ],
+              [
+                41.78490449852868,
+                -6.774498288596692
+              ],
+              [
+                41.78479878407024,
+                -6.774646749358334
+              ],
+              [
+                41.78467079600763,
+                -6.774696252398757
+              ],
+              [
+                41.784520534340864,
+                -6.774646797717958
+              ],
+              [
+                41.78438858901178,
+                -6.774599775685809
+              ],
+              [
+                41.78427496002041,
+                -6.77455518630231
+              ],
+              [
+                41.78417964736673,
+                -6.774513029567459
+              ],
+              [
+                41.784102651050745,
+                -6.7744733054812585
+              ],
+              [
+                41.784043971072464,
+                -6.774436014043705
+              ],
+              [
+                41.78400360743187,
+                -6.774401155254803
+              ],
+              [
+                41.78398156012898,
+                -6.774368729114548
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.78458813191471,
+    -6.77150403154116
+  ],
+  "centroDeMassa": [
+    41.78458074131346,
+    -6.77154927875338
+  ]
+}

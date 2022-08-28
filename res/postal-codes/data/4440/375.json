@@ -1,1 +1,436 @@
-{"CP4":"4440","CP3":"375","Distrito":"Porto","Concelho":"Valongo","CP":"4440-375","Artéria":"Rua Filipa de Lencastre","Localidade":"Sobrado","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SOBRADO","locais":[{"id":"pt.ine.add.PTCONT.3556059","rua":"R FILIPA DE LENCASTRE","casa":"95","coordenadas":[41.22631608867002,-8.449280219008374]},{"id":"pt.ine.add.PTCONT.3556060","rua":"R FILIPA DE LENCASTRE","casa":"95","coordenadas":[41.22631608867002,-8.449280219008374]},{"id":"pt.ine.add.PTCONT.3690827","rua":"R FILIPA DE LENCASTRE","casa":"10","coordenadas":[41.22602045691001,-8.448730178524736]},{"id":"pt.ine.add.PTCONT.3756983","rua":"R FILIPA DE LENCASTRE","casa":"110","coordenadas":[41.22677533271937,-8.449270504639781]},{"id":"pt.ine.add.PTCONT.3768760","rua":"R FILIPA DE LENCASTRE","casa":"180","coordenadas":[41.22700092732801,-8.449092691989357]},{"id":"pt.ine.add.PTCONT.3768761","rua":"R FILIPA DE LENCASTRE","casa":"180","coordenadas":[41.22700092732801,-8.449092691989357]},{"id":"pt.ine.add.PTCONT.3768774","rua":"R FILIPA DE LENCASTRE","casa":"180","coordenadas":[41.22700092732801,-8.449092691989357]},{"id":"pt.ine.add.PTCONT.3768775","rua":"R FILIPA DE LENCASTRE","casa":"180","coordenadas":[41.22700092732801,-8.449092691989357]},{"id":"pt.ine.add.PTCONT.3827120","rua":"R FILIPA DE LENCASTRE","casa":"36","coordenadas":[41.22624513545798,-8.448886303222416]},{"id":"pt.ine.add.PTCONT.3829396","rua":"R FILIPA DE LENCASTRE","casa":"36","coordenadas":[41.22624513545798,-8.448886303222416]},{"id":"pt.ine.add.PTCONT.3899166","rua":"R FILIPA DE LENCASTRE","casa":"48","coordenadas":[41.22635282535434,-8.449018012870441]},{"id":"pt.ine.add.PTCONT.3900372","rua":"R FILIPA DE LENCASTRE","casa":"110","coordenadas":[41.22693714528658,-8.449366696971119]},{"id":"pt.ine.add.PTCONT.3912312","rua":"R FILIPA DE LENCASTRE","casa":"140","coordenadas":[41.227124895311725,-8.44923145898766]},{"id":"pt.ine.add.PTCONT.3912313","rua":"R FILIPA DE LENCASTRE","casa":"40","coordenadas":[41.22680168999793,-8.449509163322409]},{"id":"pt.ine.add.PTCONT.3969086","rua":"R FILIPA DE LENCASTRE","casa":"140","coordenadas":[41.22707694064406,-8.449463509989858]},{"id":"pt.ine.add.PTCONT.4019462","rua":"R FILIPA DE LENCASTRE","casa":"71","coordenadas":[41.22638785981136,-8.449375976818754]},{"id":"pt.ine.add.PTCONT.4105716","rua":"R FILIPA DE LENCASTRE","casa":"60","coordenadas":[41.226478588845744,-8.449125956922213]},{"id":"pt.ine.add.PTCONT.4158373","rua":"R FILIPA DE LENCASTRE","casa":"30","coordenadas":[41.22656722174519,-8.449639225031515]},{"id":"pt.ine.add.PTCONT.4173292","rua":"R FILIPA DE LENCASTRE","casa":"147A","coordenadas":[41.22723310198279,-8.449797482950592]},{"id":"pt.ine.add.PTCONT.4193177","rua":"R FILIPA DE LENCASTRE","casa":"147 B","coordenadas":[41.22719741335366,-8.449678044172122]},{"id":"pt.ine.add.PTCONT.4297812","rua":"R FILIPA DE LENCASTRE","casa":"45","coordenadas":[41.22619052170494,-8.44910071702664]}],"ruas":["R FILIPA DE LENCASTRE"],"centroide":[41.22670398147655,-8.44924550118101]}
+{
+  "CP": "4440-375",
+  "CP4": "4440",
+  "CP3": "375",
+  "Distrito": "Porto",
+  "Concelho": "Valongo",
+  "Localidade": "Sobrado",
+  "Designação Postal": "SOBRADO",
+  "partes": [
+    {
+      "Artéria": "Rua Filipa de Lencastre",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3556059",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "95",
+      "coordenadas": [
+        41.22631608867002,
+        -8.449280219008374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3556060",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "95",
+      "coordenadas": [
+        41.22631608867002,
+        -8.449280219008374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3690827",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "10",
+      "coordenadas": [
+        41.22602045691001,
+        -8.448730178524736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3756983",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "110",
+      "coordenadas": [
+        41.22677533271937,
+        -8.449270504639781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3768760",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "180",
+      "coordenadas": [
+        41.22700092732801,
+        -8.449092691989357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3768761",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "180",
+      "coordenadas": [
+        41.22700092732801,
+        -8.449092691989357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3768774",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "180",
+      "coordenadas": [
+        41.22700092732801,
+        -8.449092691989357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3768775",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "180",
+      "coordenadas": [
+        41.22700092732801,
+        -8.449092691989357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3827120",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "36",
+      "coordenadas": [
+        41.22624513545798,
+        -8.448886303222416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3829396",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "36",
+      "coordenadas": [
+        41.22624513545798,
+        -8.448886303222416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3899166",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "48",
+      "coordenadas": [
+        41.22635282535434,
+        -8.449018012870441
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3900372",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "110",
+      "coordenadas": [
+        41.22693714528658,
+        -8.449366696971119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3912312",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "140",
+      "coordenadas": [
+        41.227124895311725,
+        -8.44923145898766
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3912313",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "40",
+      "coordenadas": [
+        41.22680168999793,
+        -8.449509163322409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3969086",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "140",
+      "coordenadas": [
+        41.22707694064406,
+        -8.449463509989858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4019462",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "71",
+      "coordenadas": [
+        41.22638785981136,
+        -8.449375976818754
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4105716",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "60",
+      "coordenadas": [
+        41.226478588845744,
+        -8.449125956922213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4158373",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "30",
+      "coordenadas": [
+        41.22656722174519,
+        -8.449639225031515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4173292",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "147A",
+      "coordenadas": [
+        41.22723310198279,
+        -8.449797482950592
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4193177",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "147 B",
+      "coordenadas": [
+        41.22719741335366,
+        -8.449678044172122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4297812",
+      "rua": "R FILIPA DE LENCASTRE",
+      "casa": "45",
+      "coordenadas": [
+        41.22619052170494,
+        -8.44910071702664
+      ]
+    }
+  ],
+  "ruas": [
+    "R FILIPA DE LENCASTRE"
+  ],
+  "centro": [
+    41.2266267794464,
+    -8.449263830737664
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.226116118357155,
+                -8.448938606432058
+              ],
+              [
+                41.22609486025779,
+                -8.448892289119318
+              ],
+              [
+                41.22609157927113,
+                -8.448857425743558
+              ],
+              [
+                41.22610627539716,
+                -8.448834016304772
+              ],
+              [
+                41.2261389486359,
+                -8.448822060802966
+              ],
+              [
+                41.22618959898734,
+                -8.448821559238135
+              ],
+              [
+                41.226258226451485,
+                -8.448832511610282
+              ],
+              [
+                41.22634483102833,
+                -8.448854917919407
+              ],
+              [
+                41.226449412717876,
+                -8.448888778165507
+              ],
+              [
+                41.22657197152014,
+                -8.448934092348585
+              ],
+              [
+                41.22668114747185,
+                -8.448975910493125
+              ],
+              [
+                41.226776940573025,
+                -8.449014232599131
+              ],
+              [
+                41.226859350823666,
+                -8.4490490586666
+              ],
+              [
+                41.226928378223775,
+                -8.449080388695535
+              ],
+              [
+                41.226984022773344,
+                -8.44910822268593
+              ],
+              [
+                41.22702628447238,
+                -8.449132560637791
+              ],
+              [
+                41.227055163320884,
+                -8.449153402551115
+              ],
+              [
+                41.22707065931884,
+                -8.449170748425901
+              ],
+              [
+                41.227085909046295,
+                -8.449194770190761
+              ],
+              [
+                41.227100912503246,
+                -8.449225467845695
+              ],
+              [
+                41.22711566968968,
+                -8.449262841390698
+              ],
+              [
+                41.2271301806056,
+                -8.449306890825778
+              ],
+              [
+                41.227144445251014,
+                -8.449357616150927
+              ],
+              [
+                41.227158463625926,
+                -8.44941501736615
+              ],
+              [
+                41.22717223573032,
+                -8.449479094471442
+              ],
+              [
+                41.2271857615642,
+                -8.449549847466809
+              ],
+              [
+                41.22718719229013,
+                -8.44960928355777
+              ],
+              [
+                41.22717652790813,
+                -8.449657402744322
+              ],
+              [
+                41.22715376841816,
+                -8.44969420502647
+              ],
+              [
+                41.227118913820256,
+                -8.449719690404212
+              ],
+              [
+                41.2270719641144,
+                -8.449733858877547
+              ],
+              [
+                41.22701291930059,
+                -8.449736710446473
+              ],
+              [
+                41.22694177937884,
+                -8.449728245110995
+              ],
+              [
+                41.22685854434914,
+                -8.449708462871111
+              ],
+              [
+                41.226779827760026,
+                -8.449682739223636
+              ],
+              [
+                41.22670562961149,
+                -8.44965107416857
+              ],
+              [
+                41.22663594990354,
+                -8.449613467705912
+              ],
+              [
+                41.22657078863618,
+                -8.449569919835668
+              ],
+              [
+                41.2265101458094,
+                -8.449520430557829
+              ],
+              [
+                41.226454021423194,
+                -8.4494649998724
+              ],
+              [
+                41.22640241547758,
+                -8.449403627779382
+              ],
+              [
+                41.226355327972556,
+                -8.449336314278773
+              ],
+              [
+                41.226311469143226,
+                -8.449271625301648
+              ],
+              [
+                41.22627083898962,
+                -8.449209560848006
+              ],
+              [
+                41.22623343751171,
+                -8.44915012091785
+              ],
+              [
+                41.22619926470951,
+                -8.449093305511173
+              ],
+              [
+                41.226168320583014,
+                -8.449039114627984
+              ],
+              [
+                41.22614060513223,
+                -8.44898754826828
+              ],
+              [
+                41.226116118357155,
+                -8.448938606432058
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.22668952083044,
+    -8.449265292418417
+  ],
+  "centroDeMassa": [
+    41.2266267794464,
+    -8.449263830737664
+  ]
+}

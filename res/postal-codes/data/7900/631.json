@@ -1,1 +1,513 @@
-{"CP4":"7900","CP3":"631","Distrito":"Beja","Concelho":"Ferreira do Alentejo","CP":"7900-631","Artéria":"Rua Doutor Jacinto Nunes Oliveira","Localidade":"Ferreira do Alentejo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FERREIRA DO ALENTEJO","locais":[{"id":"pt.ine.add.PTCONT.352692","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"46","coordenadas":[38.06086766618572,-8.116745491226132]},{"id":"pt.ine.add.PTCONT.365477","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"26 A","coordenadas":[38.06037213939042,-8.116597470990849]},{"id":"pt.ine.add.PTCONT.368123","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"56","coordenadas":[38.06111093041741,-8.116859384800058]},{"id":"pt.ine.add.PTCONT.371151","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"40","coordenadas":[38.06067846342248,-8.116677165113499]},{"id":"pt.ine.add.PTCONT.376910","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"33","coordenadas":[38.06094877736764,-8.11695057865232]},{"id":"pt.ine.add.PTCONT.379375","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"50","coordenadas":[38.06092172930928,-8.116802452912967]},{"id":"pt.ine.add.PTCONT.379606","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"60","coordenadas":[38.06118577060865,-8.116884445895531]},{"id":"pt.ine.add.PTCONT.380853","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"26","coordenadas":[38.06032708697005,-8.116551902502039]},{"id":"pt.ine.add.PTCONT.382002","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"44","coordenadas":[38.06080460336328,-8.11675689999608]},{"id":"pt.ine.add.PTCONT.388452","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"28","coordenadas":[38.060438589858535,-8.116600285356503]},{"id":"pt.ine.add.PTCONT.390279","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"8","coordenadas":[38.05946124512323,-8.116400565297399]},{"id":"pt.ine.add.PTCONT.407313","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"16","coordenadas":[38.060029770424116,-8.11646081263604]},{"id":"pt.ine.add.PTCONT.409982","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"20","coordenadas":[38.060166919000054,-8.116503160465783]},{"id":"pt.ine.add.PTCONT.414751","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"18 A","coordenadas":[38.06011085808131,-8.116494978123832]},{"id":"pt.ine.add.PTCONT.414752","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"18 A","coordenadas":[38.06011085808131,-8.116494978123832]},{"id":"pt.ine.add.PTCONT.417187","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"42","coordenadas":[38.06075954623448,-8.116677146982473]},{"id":"pt.ine.add.PTCONT.421216","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"6","coordenadas":[38.059416199948,-8.116406494987915]},{"id":"pt.ine.add.PTCONT.428442","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"22","coordenadas":[38.060221406217394,-8.116531966328337]},{"id":"pt.ine.add.PTCONT.433308","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"14","coordenadas":[38.05994868113827,-8.116415252629727]},{"id":"pt.ine.add.PTCONT.437541","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"32","coordenadas":[38.060534311415005,-8.116643013292103]},{"id":"pt.ine.add.PTCONT.439291","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"4","coordenadas":[38.0593379636367,-8.116397435911388]},{"id":"pt.ine.add.PTCONT.440744","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"31","coordenadas":[38.06090373292826,-8.11696198329959]},{"id":"pt.ine.add.PTCONT.442390","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"29","coordenadas":[38.060840665387886,-8.116939207692635]},{"id":"pt.ine.add.PTCONT.446533","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"52","coordenadas":[38.06098479529627,-8.116813833673051]},{"id":"pt.ine.add.PTCONT.447236","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"54","coordenadas":[38.06104457240488,-8.116821474280373]},{"id":"pt.ine.add.PTCONT.452307","rua":"R DR JACINTO NUNES OLIVEIRA","casa":"24","coordenadas":[38.06027451146765,-8.116554743638249]}],"ruas":["R DR JACINTO NUNES OLIVEIRA"],"centroide":[38.060461091288424,-8.116655535246819]}
+{
+  "CP": "7900-631",
+  "CP4": "7900",
+  "CP3": "631",
+  "Distrito": "Beja",
+  "Concelho": "Ferreira do Alentejo",
+  "Localidade": "Ferreira do Alentejo",
+  "Designação Postal": "FERREIRA DO ALENTEJO",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Jacinto Nunes Oliveira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.352692",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "46",
+      "coordenadas": [
+        38.06086766618572,
+        -8.116745491226132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.365477",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "26 A",
+      "coordenadas": [
+        38.06037213939042,
+        -8.116597470990849
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.368123",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "56",
+      "coordenadas": [
+        38.06111093041741,
+        -8.116859384800058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.371151",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "40",
+      "coordenadas": [
+        38.06067846342248,
+        -8.116677165113499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.376910",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "33",
+      "coordenadas": [
+        38.06094877736764,
+        -8.11695057865232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.379375",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "50",
+      "coordenadas": [
+        38.06092172930928,
+        -8.116802452912967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.379606",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "60",
+      "coordenadas": [
+        38.06118577060865,
+        -8.116884445895531
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.380853",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "26",
+      "coordenadas": [
+        38.06032708697005,
+        -8.116551902502039
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.382002",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "44",
+      "coordenadas": [
+        38.06080460336328,
+        -8.11675689999608
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.388452",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "28",
+      "coordenadas": [
+        38.060438589858535,
+        -8.116600285356503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.390279",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "8",
+      "coordenadas": [
+        38.05946124512323,
+        -8.116400565297399
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.407313",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "16",
+      "coordenadas": [
+        38.060029770424116,
+        -8.11646081263604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.409982",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "20",
+      "coordenadas": [
+        38.060166919000054,
+        -8.116503160465783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.414751",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "18 A",
+      "coordenadas": [
+        38.06011085808131,
+        -8.116494978123832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.414752",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "18 A",
+      "coordenadas": [
+        38.06011085808131,
+        -8.116494978123832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.417187",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "42",
+      "coordenadas": [
+        38.06075954623448,
+        -8.116677146982473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.421216",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "6",
+      "coordenadas": [
+        38.059416199948,
+        -8.116406494987915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.428442",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "22",
+      "coordenadas": [
+        38.060221406217394,
+        -8.116531966328337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.433308",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "14",
+      "coordenadas": [
+        38.05994868113827,
+        -8.116415252629727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.437541",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "32",
+      "coordenadas": [
+        38.060534311415005,
+        -8.116643013292103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.439291",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "4",
+      "coordenadas": [
+        38.0593379636367,
+        -8.116397435911388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.440744",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "31",
+      "coordenadas": [
+        38.06090373292826,
+        -8.11696198329959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.442390",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "29",
+      "coordenadas": [
+        38.060840665387886,
+        -8.116939207692635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.446533",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "52",
+      "coordenadas": [
+        38.06098479529627,
+        -8.116813833673051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.447236",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "54",
+      "coordenadas": [
+        38.06104457240488,
+        -8.116821474280373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.452307",
+      "rua": "R DR JACINTO NUNES OLIVEIRA",
+      "casa": "24",
+      "coordenadas": [
+        38.06027451146765,
+        -8.116554743638249
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR JACINTO NUNES OLIVEIRA"
+  ],
+  "centro": [
+    38.06026186712268,
+    -8.116679709605489
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.0602187088632,
+                -8.11671499381725
+              ],
+              [
+                38.060022987701764,
+                -8.116644425393726
+              ],
+              [
+                38.059853657958726,
+                -8.116582726919798
+              ],
+              [
+                38.0597107196341,
+                -8.116529898395466
+              ],
+              [
+                38.05959417272788,
+                -8.116485939820732
+              ],
+              [
+                38.05950401724005,
+                -8.116450851195596
+              ],
+              [
+                38.05944025317065,
+                -8.116424632520054
+              ],
+              [
+                38.05940288051965,
+                -8.116407283794112
+              ],
+              [
+                38.05939189928706,
+                -8.116398805017766
+              ],
+              [
+                38.059407309472874,
+                -8.116399196191018
+              ],
+              [
+                38.059428409573194,
+                -8.116399767957182
+              ],
+              [
+                38.05945519958803,
+                -8.116400520316256
+              ],
+              [
+                38.05948767951737,
+                -8.116401453268242
+              ],
+              [
+                38.059525849361215,
+                -8.116402566813136
+              ],
+              [
+                38.05956970911957,
+                -8.116403860950944
+              ],
+              [
+                38.05961925879244,
+                -8.116405335681662
+              ],
+              [
+                38.05967449837981,
+                -8.116406991005292
+              ],
+              [
+                38.05973542788169,
+                -8.116408826921834
+              ],
+              [
+                38.05980141096296,
+                -8.116414525448068
+              ],
+              [
+                38.05987244762363,
+                -8.116424086583997
+              ],
+              [
+                38.05994853786369,
+                -8.116437510329622
+              ],
+              [
+                38.06002968168315,
+                -8.116454796684938
+              ],
+              [
+                38.06011587908199,
+                -8.116475945649949
+              ],
+              [
+                38.06020713006023,
+                -8.116500957224655
+              ],
+              [
+                38.060303434617865,
+                -8.116529831409053
+              ],
+              [
+                38.06040479275489,
+                -8.116562568203147
+              ],
+              [
+                38.060500140880634,
+                -8.116594451943495
+              ],
+              [
+                38.0605894789951,
+                -8.116625482630097
+              ],
+              [
+                38.06067280709827,
+                -8.116655660262955
+              ],
+              [
+                38.060750125190175,
+                -8.116684984842069
+              ],
+              [
+                38.06082143327079,
+                -8.116713456367437
+              ],
+              [
+                38.06088673134012,
+                -8.116741074839059
+              ],
+              [
+                38.06094601939817,
+                -8.116767840256935
+              ],
+              [
+                38.06099929744495,
+                -8.116793752621069
+              ],
+              [
+                38.06104221271649,
+                -8.11681745926401
+              ],
+              [
+                38.06107476521278,
+                -8.116838960185758
+              ],
+              [
+                38.06109695493384,
+                -8.116858255386315
+              ],
+              [
+                38.06110878187966,
+                -8.116875344865681
+              ],
+              [
+                38.06111024605025,
+                -8.116890228623856
+              ],
+              [
+                38.0611013474456,
+                -8.116902906660837
+              ],
+              [
+                38.06108208606571,
+                -8.116913378976626
+              ],
+              [
+                38.06105246191058,
+                -8.116921645571225
+              ],
+              [
+                38.06102583695548,
+                -8.116929057039112
+              ],
+              [
+                38.06100221120041,
+                -8.116935613380289
+              ],
+              [
+                38.06098158464536,
+                -8.116941314594753
+              ],
+              [
+                38.060963957290326,
+                -8.116946160682506
+              ],
+              [
+                38.060949329135326,
+                -8.116950151643548
+              ],
+              [
+                38.06093770018036,
+                -8.11695328747788
+              ],
+              [
+                38.06092907042541,
+                -8.1169555681855
+              ],
+              [
+                38.060923439870486,
+                -8.11695699376641
+              ],
+              [
+                38.06089404798975,
+                -8.116949420096764
+              ],
+              [
+                38.06084089478319,
+                -8.116932847176564
+              ],
+              [
+                38.060763980250826,
+                -8.116907275005811
+              ],
+              [
+                38.06066330439264,
+                -8.116872703584502
+              ],
+              [
+                38.06053886720864,
+                -8.116829132912638
+              ],
+              [
+                38.06039066869883,
+                -8.116776562990221
+              ],
+              [
+                38.0602187088632,
+                -8.11671499381725
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.06036367386247,
+    -8.116669629809776
+  ],
+  "centroDeMassa": [
+    38.06026186712268,
+    -8.116679709605489
+  ]
+}

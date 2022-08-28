@@ -1,1 +1,589 @@
-{"CP4":"3700","CP3":"891","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"3700-891","Artéria":"Calçada da Ribeira","Localidade":"Monte Calvo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ROMARIZ","locais":[{"id":"pt.ine.add.PTCONT.290646","rua":"R MONTE CALVO","casa":"924","coordenadas":[40.93586868269786,-8.438736408269477]},{"id":"pt.ine.add.PTCONT.292852","rua":"R MAR COALHADO","casa":"168","coordenadas":[40.93751344779983,-8.436499726932828]},{"id":"pt.ine.add.PTCONT.296140","rua":"TV RIBEIRA","casa":"935","coordenadas":[40.93599635069065,-8.438131416006438]},{"id":"pt.ine.add.PTCONT.296141","rua":"TV RIBEIRA","casa":"","coordenadas":[40.93594533272821,-8.436991265661973]},{"id":"pt.ine.add.PTCONT.31135","rua":"R MONTE CALVO","casa":"12","coordenadas":[40.93740034662734,-8.438410984992062]},{"id":"pt.ine.add.PTCONT.79095","rua":"CC RIBEIRA","casa":"25","coordenadas":[40.93580960618393,-8.437239999742069]},{"id":"pt.ine.add.PTCONT.89773","rua":"R MONTE CALVO","casa":"735","coordenadas":[40.93722119713151,-8.438053929664475]},{"id":"pt.ine.add.PTCONT.100656","rua":"R ESPINHEIRA","casa":"21","coordenadas":[40.93558276663486,-8.437892032528163]},{"id":"pt.ine.add.PTCONT.119128","rua":"R MONTE CALVO","casa":"781","coordenadas":[40.93701409118021,-8.438052977243602]},{"id":"pt.ine.add.PTCONT.120227","rua":"R MONTE CALVO","casa":"781","coordenadas":[40.93701409118021,-8.438052977243602]},{"id":"pt.ine.add.PTCONT.125288","rua":"CC RIBEIRA","casa":"47","coordenadas":[40.935755954252095,-8.43709726462866]},{"id":"pt.ine.add.PTCONT.127584","rua":"R MONTE CALVO","casa":"710","coordenadas":[40.937327051232074,-8.438885622285179]},{"id":"pt.ine.add.PTCONT.128490","rua":"R CHÃO DOS MOINHOS","casa":"64","coordenadas":[40.9377632864186,-8.440763796515272]},{"id":"pt.ine.add.PTCONT.128491","rua":"R CHÃO DOS MOINHOS","casa":"64","coordenadas":[40.9377632864186,-8.440763796515272]},{"id":"pt.ine.add.PTCONT.128492","rua":"R CHÃO DOS MOINHOS","casa":"64","coordenadas":[40.9377632864186,-8.440763796515272]},{"id":"pt.ine.add.PTCONT.128502","rua":"R CHÃO DOS MOINHOS","casa":"64","coordenadas":[40.9377632864186,-8.440763796515272]},{"id":"pt.ine.add.PTCONT.145607","rua":"R MAR COALHADO","casa":"158","coordenadas":[40.93737737830539,-8.436879084472722]},{"id":"pt.ine.add.PTCONT.153955","rua":"R MONTE CALVO","casa":"843","coordenadas":[40.93642050901718,-8.437777140831244]},{"id":"pt.ine.add.PTCONT.166067","rua":"R MONTE CALVO","casa":"795","coordenadas":[40.93690650679226,-8.437874368092455]},{"id":"pt.ine.add.PTCONT.186135","rua":"R MONTE CALVO","casa":"618","coordenadas":[40.937469044026976,-8.439669987076789]},{"id":"pt.ine.add.PTCONT.217930","rua":"R MONTE CALVO","casa":"16","coordenadas":[40.93743667938312,-8.438292408388033]},{"id":"pt.ine.add.PTCONT.228710","rua":"R ESPINHEIRA","casa":"79","coordenadas":[40.93549388093815,-8.437452284498907]},{"id":"pt.ine.add.PTCONT.233994","rua":"R MONTE CALVO","casa":"857","coordenadas":[40.93627612149497,-8.437895219263142]},{"id":"pt.ine.add.PTCONT.233995","rua":"R MONTE CALVO","casa":"857","coordenadas":[40.93627612149497,-8.437895219263142]},{"id":"pt.ine.add.PTCONT.235935","rua":"R MONTE CALVO","casa":"607","coordenadas":[40.93607695230819,-8.438298024782396]},{"id":"pt.ine.add.PTCONT.242206","rua":"R MONTE CALVO","casa":"337","coordenadas":[40.936515438991854,-8.442705379650144]},{"id":"pt.ine.add.PTCONT.246534","rua":"R MONTE CALVO","casa":"273","coordenadas":[40.9364690120289,-8.443227628333773]},{"id":"pt.ine.add.PTCONT.250333","rua":"R MONTE CALVO","casa":"923","coordenadas":[40.93764019464909,-8.439647029485455]},{"id":"pt.ine.add.PTCONT.274675","rua":"R MONTE CALVO","casa":"361","coordenadas":[40.93651604450991,-8.442479772239595]},{"id":"pt.ine.add.PTCONT.285222","rua":"R MONTE CALVO","casa":"445","coordenadas":[40.936930033231455,-8.442564823748945]}],"ruas":["R MONTE CALVO","R MAR COALHADO","TV RIBEIRA","CC RIBEIRA","R ESPINHEIRA","R CHÃO DOS MOINHOS"],"centroide":[40.93677158441223,-8.4388687357806]}
+{
+  "CP": "3700-891",
+  "CP4": "3700",
+  "CP3": "891",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Monte Calvo",
+  "Designação Postal": "ROMARIZ",
+  "partes": [
+    {
+      "Artéria": "Largo do Gardal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Espinheira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Mar Coalhado",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Monte Calvo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Ribeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Calçada da Ribeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.290646",
+      "rua": "R MONTE CALVO",
+      "casa": "924",
+      "coordenadas": [
+        40.93586868269786,
+        -8.438736408269477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.292852",
+      "rua": "R MAR COALHADO",
+      "casa": "168",
+      "coordenadas": [
+        40.93751344779983,
+        -8.436499726932828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.296140",
+      "rua": "TV RIBEIRA",
+      "casa": "935",
+      "coordenadas": [
+        40.93599635069065,
+        -8.438131416006438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.296141",
+      "rua": "TV RIBEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.93594533272821,
+        -8.436991265661973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.31135",
+      "rua": "R MONTE CALVO",
+      "casa": "12",
+      "coordenadas": [
+        40.93740034662734,
+        -8.438410984992062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.79095",
+      "rua": "CC RIBEIRA",
+      "casa": "25",
+      "coordenadas": [
+        40.93580960618393,
+        -8.437239999742069
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89773",
+      "rua": "R MONTE CALVO",
+      "casa": "735",
+      "coordenadas": [
+        40.93722119713151,
+        -8.438053929664475
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.100656",
+      "rua": "R ESPINHEIRA",
+      "casa": "21",
+      "coordenadas": [
+        40.93558276663486,
+        -8.437892032528163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.119128",
+      "rua": "R MONTE CALVO",
+      "casa": "781",
+      "coordenadas": [
+        40.93701409118021,
+        -8.438052977243602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.120227",
+      "rua": "R MONTE CALVO",
+      "casa": "781",
+      "coordenadas": [
+        40.93701409118021,
+        -8.438052977243602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.125288",
+      "rua": "CC RIBEIRA",
+      "casa": "47",
+      "coordenadas": [
+        40.935755954252095,
+        -8.43709726462866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.127584",
+      "rua": "R MONTE CALVO",
+      "casa": "710",
+      "coordenadas": [
+        40.937327051232074,
+        -8.438885622285179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.128490",
+      "rua": "R CHÃO DOS MOINHOS",
+      "casa": "64",
+      "coordenadas": [
+        40.9377632864186,
+        -8.440763796515272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.128491",
+      "rua": "R CHÃO DOS MOINHOS",
+      "casa": "64",
+      "coordenadas": [
+        40.9377632864186,
+        -8.440763796515272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.128492",
+      "rua": "R CHÃO DOS MOINHOS",
+      "casa": "64",
+      "coordenadas": [
+        40.9377632864186,
+        -8.440763796515272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.128502",
+      "rua": "R CHÃO DOS MOINHOS",
+      "casa": "64",
+      "coordenadas": [
+        40.9377632864186,
+        -8.440763796515272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.145607",
+      "rua": "R MAR COALHADO",
+      "casa": "158",
+      "coordenadas": [
+        40.93737737830539,
+        -8.436879084472722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153955",
+      "rua": "R MONTE CALVO",
+      "casa": "843",
+      "coordenadas": [
+        40.93642050901718,
+        -8.437777140831244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.166067",
+      "rua": "R MONTE CALVO",
+      "casa": "795",
+      "coordenadas": [
+        40.93690650679226,
+        -8.437874368092455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.186135",
+      "rua": "R MONTE CALVO",
+      "casa": "618",
+      "coordenadas": [
+        40.937469044026976,
+        -8.439669987076789
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217930",
+      "rua": "R MONTE CALVO",
+      "casa": "16",
+      "coordenadas": [
+        40.93743667938312,
+        -8.438292408388033
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.228710",
+      "rua": "R ESPINHEIRA",
+      "casa": "79",
+      "coordenadas": [
+        40.93549388093815,
+        -8.437452284498907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.233994",
+      "rua": "R MONTE CALVO",
+      "casa": "857",
+      "coordenadas": [
+        40.93627612149497,
+        -8.437895219263142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.233995",
+      "rua": "R MONTE CALVO",
+      "casa": "857",
+      "coordenadas": [
+        40.93627612149497,
+        -8.437895219263142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.235935",
+      "rua": "R MONTE CALVO",
+      "casa": "607",
+      "coordenadas": [
+        40.93607695230819,
+        -8.438298024782396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.242206",
+      "rua": "R MONTE CALVO",
+      "casa": "337",
+      "coordenadas": [
+        40.936515438991854,
+        -8.442705379650144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.246534",
+      "rua": "R MONTE CALVO",
+      "casa": "273",
+      "coordenadas": [
+        40.9364690120289,
+        -8.443227628333773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250333",
+      "rua": "R MONTE CALVO",
+      "casa": "923",
+      "coordenadas": [
+        40.93764019464909,
+        -8.439647029485455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.274675",
+      "rua": "R MONTE CALVO",
+      "casa": "361",
+      "coordenadas": [
+        40.93651604450991,
+        -8.442479772239595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.285222",
+      "rua": "R MONTE CALVO",
+      "casa": "445",
+      "coordenadas": [
+        40.936930033231455,
+        -8.442564823748945
+      ]
+    }
+  ],
+  "ruas": [
+    "R MONTE CALVO",
+    "R MAR COALHADO",
+    "TV RIBEIRA",
+    "CC RIBEIRA",
+    "R ESPINHEIRA",
+    "R CHÃO DOS MOINHOS"
+  ],
+  "centro": [
+    40.93662858367837,
+    -8.439863677633301
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.936042392176695,
+                -8.440700915406019
+              ],
+              [
+                40.93592050079035,
+                -8.43997899742666
+              ],
+              [
+                40.935817940722835,
+                -8.43934177200925
+              ],
+              [
+                40.935734711974135,
+                -8.438789239153786
+              ],
+              [
+                40.93567081454426,
+                -8.43832139886027
+              ],
+              [
+                40.935626248433216,
+                -8.437938251128699
+              ],
+              [
+                40.93560101364099,
+                -8.437639795959077
+              ],
+              [
+                40.93559511016758,
+                -8.437426033351402
+              ],
+              [
+                40.935608538013,
+                -8.437296963305673
+              ],
+              [
+                40.93564129717724,
+                -8.437252585821893
+              ],
+              [
+                40.93567292048464,
+                -8.43721209928973
+              ],
+              [
+                40.9357034079352,
+                -8.437175503709184
+              ],
+              [
+                40.93573275952892,
+                -8.43714279908026
+              ],
+              [
+                40.93576097526581,
+                -8.43711398540295
+              ],
+              [
+                40.93578805514584,
+                -8.437089062677261
+              ],
+              [
+                40.93581399916904,
+                -8.437068030903188
+              ],
+              [
+                40.9358388073354,
+                -8.437050890080734
+              ],
+              [
+                40.93586247964491,
+                -8.4370376402099
+              ],
+              [
+                40.93590769471373,
+                -8.437018366280276
+              ],
+              [
+                40.93597445254185,
+                -8.436993068291862
+              ],
+              [
+                40.93606275312928,
+                -8.436961746244663
+              ],
+              [
+                40.93617259647601,
+                -8.436924400138672
+              ],
+              [
+                40.936303982582054,
+                -8.436881029973893
+              ],
+              [
+                40.936456911447394,
+                -8.436831635750327
+              ],
+              [
+                40.93663138307205,
+                -8.436776217467973
+              ],
+              [
+                40.93682739745599,
+                -8.43671477512683
+              ],
+              [
+                40.93700281377037,
+                -8.436727639165555
+              ],
+              [
+                40.93715763201518,
+                -8.436814809584147
+              ],
+              [
+                40.9372918521904,
+                -8.43697628638261
+              ],
+              [
+                40.93740547429605,
+                -8.437212069560942
+              ],
+              [
+                40.93749849833212,
+                -8.437522159119142
+              ],
+              [
+                40.937570924298626,
+                -8.437906555057209
+              ],
+              [
+                40.937622752195544,
+                -8.438365257375146
+              ],
+              [
+                40.93765398202289,
+                -8.438898266072954
+              ],
+              [
+                40.93766828854076,
+                -8.43939278973406
+              ],
+              [
+                40.93766567174918,
+                -8.439848828358466
+              ],
+              [
+                40.93764613164812,
+                -8.440266381946174
+              ],
+              [
+                40.9376096682376,
+                -8.440645450497179
+              ],
+              [
+                40.93755628151761,
+                -8.440986034011488
+              ],
+              [
+                40.937485971488144,
+                -8.441288132489095
+              ],
+              [
+                40.93739873814922,
+                -8.441551745930003
+              ],
+              [
+                40.93729458150083,
+                -8.441776874334213
+              ],
+              [
+                40.9371962409772,
+                -8.441984218009534
+              ],
+              [
+                40.93710371657832,
+                -8.442173776955968
+              ],
+              [
+                40.93701700830421,
+                -8.442345551173512
+              ],
+              [
+                40.936936116154854,
+                -8.442499540662167
+              ],
+              [
+                40.93686104013025,
+                -8.442635745421935
+              ],
+              [
+                40.93679178023042,
+                -8.442754165452815
+              ],
+              [
+                40.93672833645534,
+                -8.442854800754807
+              ],
+              [
+                40.93667070880502,
+                -8.442937651327911
+              ],
+              [
+                40.936605048187694,
+                -8.442919905831957
+              ],
+              [
+                40.93653135460337,
+                -8.442801564266945
+              ],
+              [
+                40.93644962805204,
+                -8.442582626632875
+              ],
+              [
+                40.93635986853371,
+                -8.442263092929746
+              ],
+              [
+                40.93626207604837,
+                -8.441842963157562
+              ],
+              [
+                40.936156250596035,
+                -8.441322237316317
+              ],
+              [
+                40.936042392176695,
+                -8.440700915406019
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.93655299248532,
+    -8.439228112902908
+  ],
+  "centroDeMassa": [
+    40.93662858367837,
+    -8.439863677633301
+  ]
+}

@@ -1,1 +1,355 @@
-{"CP4":"1500","CP3":"523","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1500-523","Artéria":"Rua 4 do Bairro da Boavista","Localidade":"Lisboa","Local":"Bairro Boavista","Troço":"Impares de 67 a 111","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2415590","rua":"R 4 DO BR DA BOAVISTA","casa":"85","coordenadas":[38.73405125200379,-9.203029344698896]},{"id":"pt.ine.add.PTCONT.2561204","rua":"R 4 DO BR DA BOAVISTA","casa":"87","coordenadas":[38.73408981434246,-9.203002098102994]},{"id":"pt.ine.add.PTCONT.2561205","rua":"R 4 DO BR DA BOAVISTA","casa":"73","coordenadas":[38.733885498605524,-9.203189314201907]},{"id":"pt.ine.add.PTCONT.2576779","rua":"R 4 DO BAIRRO DA BOAVISTA","casa":"97","coordenadas":[38.73423019863127,-9.202912323166922]},{"id":"pt.ine.add.PTCONT.2596249","rua":"R 4 DO BR DA BOAVISTA","casa":"95","coordenadas":[38.73420591337945,-9.202935570223184]},{"id":"pt.ine.add.PTCONT.2621868","rua":"R 4 DO BR DA BOAVISTA","casa":"79","coordenadas":[38.733951119107914,-9.203154147470489]},{"id":"pt.ine.add.PTCONT.2765692","rua":"R 4 DO BR DA BOAVISTA","casa":"63","coordenadas":[38.732760016410715,-9.203877717289785]},{"id":"pt.ine.add.PTCONT.2836555","rua":"R 4 DO BR DA BOAVISTA","casa":"75","coordenadas":[38.7339066476617,-9.203177845282108]},{"id":"pt.ine.add.PTCONT.2849492","rua":"R 4 DO BR DA BOAVISTA","casa":"69","coordenadas":[38.73287762869478,-9.203821971956618]},{"id":"pt.ine.add.PTCONT.2853813","rua":"R 4 DO BR DA BOAVISTA","casa":"65","coordenadas":[38.732796253420595,-9.203855257815269]},{"id":"pt.ine.add.PTCONT.2863810","rua":"R 4 DO BR DA BOAVISTA","casa":"71","coordenadas":[38.73386470896119,-9.203198815005083]},{"id":"pt.ine.add.PTCONT.2863879","rua":"R 4 DO BR DA BOAVISTA","casa":"89","coordenadas":[38.7341208409709,-9.202981419677712]},{"id":"pt.ine.add.PTCONT.2955254","rua":"R 4 DO BR DA BOAVISTA","casa":"77","coordenadas":[38.733927462630035,-9.203165577840707]},{"id":"pt.ine.add.PTCONT.2991445","rua":"R 4 DO BR DA BOAVISTA","casa":"83","coordenadas":[38.734023187999,-9.203052881445101]},{"id":"pt.ine.add.PTCONT.3000570","rua":"R 4 DO BR DA BOAVISTA","casa":"81","coordenadas":[38.73399739238544,-9.203073637857868]},{"id":"pt.ine.add.PTCONT.3008214","rua":"R 4 DO BAIRRO DA BOAVISTA","casa":"91","coordenadas":[38.73416306597452,-9.20295376880193]},{"id":"pt.ine.add.PTCONT.3075118","rua":"R 4 DO BR DA BOAVISTA","casa":"67","coordenadas":[38.73284149701536,-9.203832932784662]},{"id":"pt.ine.add.PTCONT.3361129","rua":"R 4 DO BR DA BOAVISTA","casa":"61","coordenadas":[38.73275948975765,-9.20393521066288]},{"id":"pt.ine.add.PTCONT.3416434","rua":"R 4 DO BR DA BOAVISTA","casa":"99","coordenadas":[38.734264895117384,-9.202886418383526]}],"ruas":["R 4 DO BR DA BOAVISTA","R 4 DO BAIRRO DA BOAVISTA"],"centroide":[38.733691777108454,-9.203286101904672]}
+{
+  "CP": "1500-523",
+  "CP4": "1500",
+  "CP3": "523",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua 4 do Bairro da Boavista",
+      "Local": "Bairro Boavista",
+      "Troço": "Impares de 67 a 111",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2415590",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "85",
+      "coordenadas": [
+        38.73405125200379,
+        -9.203029344698896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2561204",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "87",
+      "coordenadas": [
+        38.73408981434246,
+        -9.203002098102994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2561205",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "73",
+      "coordenadas": [
+        38.733885498605524,
+        -9.203189314201907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2576779",
+      "rua": "R 4 DO BAIRRO DA BOAVISTA",
+      "casa": "97",
+      "coordenadas": [
+        38.73423019863127,
+        -9.202912323166922
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2596249",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "95",
+      "coordenadas": [
+        38.73420591337945,
+        -9.202935570223184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2621868",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "79",
+      "coordenadas": [
+        38.733951119107914,
+        -9.203154147470489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2765692",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "63",
+      "coordenadas": [
+        38.732760016410715,
+        -9.203877717289785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2836555",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "75",
+      "coordenadas": [
+        38.7339066476617,
+        -9.203177845282108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2849492",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "69",
+      "coordenadas": [
+        38.73287762869478,
+        -9.203821971956618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2853813",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "65",
+      "coordenadas": [
+        38.732796253420595,
+        -9.203855257815269
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2863810",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "71",
+      "coordenadas": [
+        38.73386470896119,
+        -9.203198815005083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2863879",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "89",
+      "coordenadas": [
+        38.7341208409709,
+        -9.202981419677712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2955254",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "77",
+      "coordenadas": [
+        38.733927462630035,
+        -9.203165577840707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2991445",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "83",
+      "coordenadas": [
+        38.734023187999,
+        -9.203052881445101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3000570",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "81",
+      "coordenadas": [
+        38.73399739238544,
+        -9.203073637857868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3008214",
+      "rua": "R 4 DO BAIRRO DA BOAVISTA",
+      "casa": "91",
+      "coordenadas": [
+        38.73416306597452,
+        -9.20295376880193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3075118",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "67",
+      "coordenadas": [
+        38.73284149701536,
+        -9.203832932784662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3361129",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "61",
+      "coordenadas": [
+        38.73275948975765,
+        -9.20393521066288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3416434",
+      "rua": "R 4 DO BR DA BOAVISTA",
+      "casa": "99",
+      "coordenadas": [
+        38.734264895117384,
+        -9.202886418383526
+      ]
+    }
+  ],
+  "ruas": [
+    "R 4 DO BR DA BOAVISTA",
+    "R 4 DO BAIRRO DA BOAVISTA"
+  ],
+  "centro": [
+    38.733512192437516,
+    -9.203410814523203
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.73342978126717,
+                -9.20349586261716
+              ],
+              [
+                38.733280827598385,
+                -9.203593495516209
+              ],
+              [
+                38.73315050136715,
+                -9.203678025968923
+              ],
+              [
+                38.733038802573475,
+                -9.203749453975298
+              ],
+              [
+                38.73294573121734,
+                -9.203807779535342
+              ],
+              [
+                38.73287128729878,
+                -9.203853002649048
+              ],
+              [
+                38.732815470817755,
+                -9.203885123316418
+              ],
+              [
+                38.73277828177428,
+                -9.203904141537453
+              ],
+              [
+                38.73275972016836,
+                -9.20391005731215
+              ],
+              [
+                38.732759786,
+                -9.203902870640515
+              ],
+              [
+                38.73278335733247,
+                -9.203881093257422
+              ],
+              [
+                38.73283043416578,
+                -9.203844725162874
+              ],
+              [
+                38.73290101649992,
+                -9.20379376635687
+              ],
+              [
+                38.73299510433491,
+                -9.203728216839409
+              ],
+              [
+                38.733112697670734,
+                -9.203648076610495
+              ],
+              [
+                38.733253796507384,
+                -9.203553345670123
+              ],
+              [
+                38.73341840084488,
+                -9.203444024018298
+              ],
+              [
+                38.73360651068322,
+                -9.203320111655014
+              ],
+              [
+                38.73376620404161,
+                -9.203215871604126
+              ],
+              [
+                38.73389748092007,
+                -9.20313130386563
+              ],
+              [
+                38.734000341318584,
+                -9.20306640843953
+              ],
+              [
+                38.734074785237155,
+                -9.203021185325825
+              ],
+              [
+                38.73412081267579,
+                -9.202995634524514
+              ],
+              [
+                38.73413842363449,
+                -9.202989756035596
+              ],
+              [
+                38.73412761811325,
+                -9.203003549859073
+              ],
+              [
+                38.73408839611206,
+                -9.203037015994942
+              ],
+              [
+                38.734035457652425,
+                -9.203078502976211
+              ],
+              [
+                38.733968802734346,
+                -9.203128010802875
+              ],
+              [
+                38.73388843135781,
+                -9.203185539474937
+              ],
+              [
+                38.73379434352282,
+                -9.203251088992397
+              ],
+              [
+                38.73368653922938,
+                -9.203324659355253
+              ],
+              [
+                38.733565018477506,
+                -9.203406250563509
+              ],
+              [
+                38.73342978126717,
+                -9.20349586261716
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.73343388009841,
+    -9.20346337345167
+  ],
+  "centroDeMassa": [
+    38.733512192437516,
+    -9.203410814523203
+  ]
+}

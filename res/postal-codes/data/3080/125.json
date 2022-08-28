@@ -1,1 +1,535 @@
-{"CP4":"3080","CP3":"125","Distrito":"Coimbra","Concelho":"Figueira da Foz","CP":"3080-125","Artéria":"Rua Augusto Veiga","Localidade":"Figueira da Foz","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FIGUEIRA DA FOZ","locais":[{"id":"pt.ine.add.PTCONT.1105991","rua":"R AUGUSTO VEIGA","casa":"19","coordenadas":[40.15036835045515,-8.855106077302805]},{"id":"pt.ine.add.PTCONT.1105992","rua":"R AUGUSTO VEIGA","casa":"19","coordenadas":[40.15036835045515,-8.855106077302805]},{"id":"pt.ine.add.PTCONT.1105993","rua":"R AUGUSTO VEIGA","casa":"19","coordenadas":[40.15036835045515,-8.855106077302805]},{"id":"pt.ine.add.PTCONT.1129803","rua":"R AUGUSTO VEIGA","casa":"10","coordenadas":[40.150523195499595,-8.854826050677122]},{"id":"pt.ine.add.PTCONT.1151141","rua":"R AUGUSTO VEIGA","casa":"21","coordenadas":[40.150367838211054,-8.855188224359798]},{"id":"pt.ine.add.PTCONT.1167784","rua":"R AUGUSTO VEIGA","casa":"5","coordenadas":[40.15038921381752,-8.854648591397114]},{"id":"pt.ine.add.PTCONT.1173918","rua":"R AUGUSTO VEIGA","casa":"17","coordenadas":[40.15036893580566,-8.855012194949381]},{"id":"pt.ine.add.PTCONT.1188461","rua":"R AUGUSTO VEIGA","casa":"1","coordenadas":[40.15053876184496,-8.854553679770712]},{"id":"pt.ine.add.PTCONT.1188462","rua":"R AUGUSTO VEIGA","casa":"4","coordenadas":[40.15053876184496,-8.854553679770712]},{"id":"pt.ine.add.PTCONT.1188463","rua":"R AUGUSTO VEIGA","casa":"7","coordenadas":[40.15053285900861,-8.85472052808957]},{"id":"pt.ine.add.PTCONT.1189241","rua":"R AUGUSTO VEIGA","casa":"4","coordenadas":[40.15053876184496,-8.854553679770712]},{"id":"pt.ine.add.PTCONT.1204995","rua":"R AUGUSTO VEIGA","casa":"13","coordenadas":[40.150342724793326,-8.854882820726486]},{"id":"pt.ine.add.PTCONT.1204996","rua":"R AUGUSTO VEIGA","casa":"13","coordenadas":[40.150342724793326,-8.854882820726486]},{"id":"pt.ine.add.PTCONT.1205885","rua":"R AUGUSTO VEIGA","casa":"6","coordenadas":[40.15063850788496,-8.85510893803189]},{"id":"pt.ine.add.PTCONT.1220450","rua":"R AUGUSTO VEIGA","casa":"9","coordenadas":[40.150343529381345,-8.854753732531982]},{"id":"pt.ine.add.PTCONT.1221074","rua":"R AUGUSTO VEIGA","casa":"9","coordenadas":[40.150343529381345,-8.854753732531982]},{"id":"pt.ine.add.PTCONT.1267660","rua":"R AUGUSTO VEIGA","casa":"1-3","coordenadas":[40.150390018145174,-8.854519503107937]},{"id":"pt.ine.add.PTCONT.1304126","rua":"R AUGUSTO VEIGA","casa":"11","coordenadas":[40.1503974877342,-8.854766039694926]},{"id":"pt.ine.add.PTCONT.1304127","rua":"R AUGUSTO VEIGA","casa":"11","coordenadas":[40.1503974877342,-8.854766039694926]},{"id":"pt.ine.add.PTCONT.1304128","rua":"R AUGUSTO VEIGA","casa":"11","coordenadas":[40.1503974877342,-8.854766039694926]},{"id":"pt.ine.add.PTCONT.1304129","rua":"R AUGUSTO VEIGA","casa":"11","coordenadas":[40.1503974877342,-8.854766039694926]},{"id":"pt.ine.add.PTCONT.1312114","rua":"R AUGUSTO VEIGA","casa":"6","coordenadas":[40.15052443879995,-8.854626550207458]},{"id":"pt.ine.add.PTCONT.1312115","rua":"R AUGUSTO VEIGA","casa":"6","coordenadas":[40.15052443879995,-8.854626550207458]},{"id":"pt.ine.add.PTCONT.1321092","rua":"R AUGUSTO VEIGA","casa":"14","coordenadas":[40.15050401452494,-8.85501362512314]},{"id":"pt.ine.add.PTCONT.1321093","rua":"R AUGUSTO VEIGA","casa":"14","coordenadas":[40.15050401452494,-8.85501362512314]},{"id":"pt.ine.add.PTCONT.1321094","rua":"R AUGUSTO VEIGA","casa":"14","coordenadas":[40.15050401452494,-8.85501362512314]},{"id":"pt.ine.add.PTCONT.1321095","rua":"R AUGUSTO VEIGA","casa":"14","coordenadas":[40.15050401452494,-8.85501362512314]},{"id":"pt.ine.add.PTCONT.1324199","rua":"R AUGUSTO VEIGA","casa":"12","coordenadas":[40.15051345873795,-8.85494330855277]},{"id":"pt.ine.add.PTCONT.1336382","rua":"R AUGUSTO VEIGA","casa":"15","coordenadas":[40.15039660997874,-8.854906863290639]},{"id":"pt.ine.add.PTCONT.1338506","rua":"R AUGUSTO VEIGA","casa":"16","coordenadas":[40.150485272326186,-8.855130787575545]},{"id":"pt.ine.add.PTCONT.1346964","rua":"R AUGUSTO VEIGA","casa":"23","coordenadas":[40.15037185439476,-8.855322586206276]},{"id":"pt.ine.add.PTCONT.1366057","rua":"R AUGUSTO VEIGA","casa":"7","coordenadas":[40.15038921381752,-8.854648591397114]}],"ruas":["R AUGUSTO VEIGA"],"centroide":[40.15044279018375,-8.854869410118155]}
+{
+  "CP": "3080-125",
+  "CP4": "3080",
+  "CP3": "125",
+  "Distrito": "Coimbra",
+  "Concelho": "Figueira da Foz",
+  "Localidade": "Figueira da Foz",
+  "Designação Postal": "FIGUEIRA DA FOZ",
+  "partes": [
+    {
+      "Artéria": "Rua Augusto Veiga",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1105991",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "19",
+      "coordenadas": [
+        40.15036835045515,
+        -8.855106077302805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1105992",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "19",
+      "coordenadas": [
+        40.15036835045515,
+        -8.855106077302805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1105993",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "19",
+      "coordenadas": [
+        40.15036835045515,
+        -8.855106077302805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1129803",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "10",
+      "coordenadas": [
+        40.150523195499595,
+        -8.854826050677122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1151141",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "21",
+      "coordenadas": [
+        40.150367838211054,
+        -8.855188224359798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1167784",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "5",
+      "coordenadas": [
+        40.15038921381752,
+        -8.854648591397114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1173918",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "17",
+      "coordenadas": [
+        40.15036893580566,
+        -8.855012194949381
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1188461",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "1",
+      "coordenadas": [
+        40.15053876184496,
+        -8.854553679770712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1188462",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "4",
+      "coordenadas": [
+        40.15053876184496,
+        -8.854553679770712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1188463",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "7",
+      "coordenadas": [
+        40.15053285900861,
+        -8.85472052808957
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1189241",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "4",
+      "coordenadas": [
+        40.15053876184496,
+        -8.854553679770712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1204995",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "13",
+      "coordenadas": [
+        40.150342724793326,
+        -8.854882820726486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1204996",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "13",
+      "coordenadas": [
+        40.150342724793326,
+        -8.854882820726486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1205885",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "6",
+      "coordenadas": [
+        40.15063850788496,
+        -8.85510893803189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1220450",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "9",
+      "coordenadas": [
+        40.150343529381345,
+        -8.854753732531982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1221074",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "9",
+      "coordenadas": [
+        40.150343529381345,
+        -8.854753732531982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1267660",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "1-3",
+      "coordenadas": [
+        40.150390018145174,
+        -8.854519503107937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1304126",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "11",
+      "coordenadas": [
+        40.1503974877342,
+        -8.854766039694926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1304127",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "11",
+      "coordenadas": [
+        40.1503974877342,
+        -8.854766039694926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1304128",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "11",
+      "coordenadas": [
+        40.1503974877342,
+        -8.854766039694926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1304129",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "11",
+      "coordenadas": [
+        40.1503974877342,
+        -8.854766039694926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1312114",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "6",
+      "coordenadas": [
+        40.15052443879995,
+        -8.854626550207458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1312115",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "6",
+      "coordenadas": [
+        40.15052443879995,
+        -8.854626550207458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321092",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "14",
+      "coordenadas": [
+        40.15050401452494,
+        -8.85501362512314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321093",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "14",
+      "coordenadas": [
+        40.15050401452494,
+        -8.85501362512314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321094",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "14",
+      "coordenadas": [
+        40.15050401452494,
+        -8.85501362512314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321095",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "14",
+      "coordenadas": [
+        40.15050401452494,
+        -8.85501362512314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1324199",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "12",
+      "coordenadas": [
+        40.15051345873795,
+        -8.85494330855277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1336382",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "15",
+      "coordenadas": [
+        40.15039660997874,
+        -8.854906863290639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1338506",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "16",
+      "coordenadas": [
+        40.150485272326186,
+        -8.855130787575545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1346964",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "23",
+      "coordenadas": [
+        40.15037185439476,
+        -8.855322586206276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1366057",
+      "rua": "R AUGUSTO VEIGA",
+      "casa": "7",
+      "coordenadas": [
+        40.15038921381752,
+        -8.854648591397114
+      ]
+    }
+  ],
+  "ruas": [
+    "R AUGUSTO VEIGA"
+  ],
+  "centro": [
+    40.15049061633914,
+    -8.854921044657107
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.15035911019413,
+                -8.855130188808868
+              ],
+              [
+                40.15035546899396,
+                -8.855075218123893
+              ],
+              [
+                40.15035229551549,
+                -8.855025101771503
+              ],
+              [
+                40.150349589758726,
+                -8.854979839751696
+              ],
+              [
+                40.15034735172368,
+                -8.85493943206447
+              ],
+              [
+                40.15034558141034,
+                -8.854903878709823
+              ],
+              [
+                40.150344278818714,
+                -8.854873179687763
+              ],
+              [
+                40.1503434439488,
+                -8.854847334998286
+              ],
+              [
+                40.15034307680059,
+                -8.854826344641392
+              ],
+              [
+                40.15034317737409,
+                -8.854810208617078
+              ],
+              [
+                40.15034399176284,
+                -8.854792429761053
+              ],
+              [
+                40.150345519966834,
+                -8.854773008073316
+              ],
+              [
+                40.150347761986076,
+                -8.85475194355387
+              ],
+              [
+                40.150350717820565,
+                -8.85472923620271
+              ],
+              [
+                40.1503543874703,
+                -8.854704886019839
+              ],
+              [
+                40.150358770935284,
+                -8.854678893005257
+              ],
+              [
+                40.15036386821552,
+                -8.854651257158963
+              ],
+              [
+                40.150369679311,
+                -8.854621978480957
+              ],
+              [
+                40.150377088139855,
+                -8.854596893648058
+              ],
+              [
+                40.150386094702085,
+                -8.854576002660266
+              ],
+              [
+                40.15039669899768,
+                -8.85455930551758
+              ],
+              [
+                40.15040890102666,
+                -8.85454680222
+              ],
+              [
+                40.15042270078901,
+                -8.854538492767528
+              ],
+              [
+                40.150438098284724,
+                -8.85453437716016
+              ],
+              [
+                40.15045509351383,
+                -8.8545344553979
+              ],
+              [
+                40.1504736864763,
+                -8.854538727480747
+              ],
+              [
+                40.15049151385034,
+                -8.85455114146357
+              ],
+              [
+                40.15050857563595,
+                -8.854571697346366
+              ],
+              [
+                40.15052487183312,
+                -8.85460039512914
+              ],
+              [
+                40.150540402441855,
+                -8.854637234811886
+              ],
+              [
+                40.15055516746216,
+                -8.85468221639461
+              ],
+              [
+                40.15056916689403,
+                -8.854735339877305
+              ],
+              [
+                40.15058240073746,
+                -8.854796605259978
+              ],
+              [
+                40.150594868992464,
+                -8.854866012542624
+              ],
+              [
+                40.1506016122548,
+                -8.854930082167666
+              ],
+              [
+                40.15060263052448,
+                -8.854988814135101
+              ],
+              [
+                40.150597923801506,
+                -8.85504220844493
+              ],
+              [
+                40.15058749208587,
+                -8.855090265097152
+              ],
+              [
+                40.15057133537757,
+                -8.855132984091767
+              ],
+              [
+                40.15054945367662,
+                -8.85517036542878
+              ],
+              [
+                40.150521846983004,
+                -8.855202409108184
+              ],
+              [
+                40.15048851529672,
+                -8.855229115129983
+              ],
+              [
+                40.150458894921215,
+                -8.855245611563435
+              ],
+              [
+                40.15043298585646,
+                -8.855251898408538
+              ],
+              [
+                40.15041078810248,
+                -8.855247975665296
+              ],
+              [
+                40.15039230165924,
+                -8.85523384333371
+              ],
+              [
+                40.150377526526775,
+                -8.855209501413775
+              ],
+              [
+                40.15036646270507,
+                -8.855174949905495
+              ],
+              [
+                40.15035911019413,
+                -8.855130188808868
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.15043756607409,
+    -8.854856876729214
+  ],
+  "centroDeMassa": [
+    40.15049061633914,
+    -8.854921044657107
+  ]
+}

@@ -1,1 +1,414 @@
-{"CP4":"1685","CP3":"778","Distrito":"Lisboa","Concelho":"Odivelas","CP":"1685-778","Artéria":"Avenida da Liberdade","Localidade":"Famões","Local":"Bairro Trigache Norte","Troço":"Impares de 55 a 89","Porta":"","Cliente":"","Designação Postal":"FAMÕES","locais":[{"id":"pt.ine.add.PTCONT.2624520","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80371878393908,-9.212191368600031]},{"id":"pt.ine.add.PTCONT.2688191","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80166108858209,-9.205771551202988]},{"id":"pt.ine.add.PTCONT.2731643","rua":"AV LIBERDADE","casa":"199","coordenadas":[38.80416256858556,-9.2109547978145]},{"id":"pt.ine.add.PTCONT.2731644","rua":"AV LIBERDADE","casa":"199","coordenadas":[38.80416256858556,-9.2109547978145]},{"id":"pt.ine.add.PTCONT.2731645","rua":"AV LIBERDADE","casa":"112","coordenadas":[38.80270364979074,-9.208964352932467]},{"id":"pt.ine.add.PTCONT.2735323","rua":"AV LIBERDADE","casa":"199","coordenadas":[38.80416256858556,-9.2109547978145]},{"id":"pt.ine.add.PTCONT.2759281","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803757754806306,-9.212848120443649]},{"id":"pt.ine.add.PTCONT.2884967","rua":"R ADRIANO CORREIA DE OLIVEIRA","casa":"81","coordenadas":[38.80228234407466,-9.206782359537273]},{"id":"pt.ine.add.PTCONT.2969260","rua":"AV LIBERDADE","casa":"200","coordenadas":[38.80402587878815,-9.211125413633235]},{"id":"pt.ine.add.PTCONT.2990187","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80378147606084,-9.213205339707018]},{"id":"pt.ine.add.PTCONT.2990188","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80378147606084,-9.213205339707018]},{"id":"pt.ine.add.PTCONT.2990189","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80378147606084,-9.213205339707018]},{"id":"pt.ine.add.PTCONT.3163965","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80379650909347,-9.213527893010202]},{"id":"pt.ine.add.PTCONT.3339405","rua":"AV LIBERDADE","casa":"","coordenadas":[38.80085578756658,-9.205183917573757]},{"id":"pt.ine.add.PTCONT.3375881","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803756371864395,-9.212997750996918]},{"id":"pt.ine.add.PTCONT.3375882","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803756371864395,-9.212997750996918]},{"id":"pt.ine.add.PTCONT.3375883","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803756371864395,-9.212997750996918]},{"id":"pt.ine.add.PTCONT.3375884","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803756371864395,-9.212997750996918]},{"id":"pt.ine.add.PTCONT.3375885","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803756371864395,-9.212997750996918]},{"id":"pt.ine.add.PTCONT.3376628","rua":"AV LIBERDADE","casa":"","coordenadas":[38.803756371864395,-9.212997750996918]},{"id":"pt.ine.add.PTCONT.3385742","rua":"AV LIBERDADE","casa":"199","coordenadas":[38.80409909862327,-9.210999888296657]},{"id":"pt.ine.add.PTCONT.3436716","rua":"AV LIBERDADE","casa":"199","coordenadas":[38.80416256858556,-9.2109547978145]}],"ruas":["AV LIBERDADE","R ADRIANO CORREIA DE OLIVEIRA"],"centroide":[38.80348910763763,-9.211326751608397]}
+{
+  "CP": "1685-778",
+  "CP4": "1685",
+  "CP3": "778",
+  "Distrito": "Lisboa",
+  "Concelho": "Odivelas",
+  "Localidade": "Famões",
+  "Designação Postal": "FAMÕES",
+  "partes": [
+    {
+      "Artéria": "Avenida da Liberdade",
+      "Local": "Bairro Trigache Norte",
+      "Troço": "Impares de 55 a 89",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2624520",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80371878393908,
+        -9.212191368600031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2688191",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80166108858209,
+        -9.205771551202988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2731643",
+      "rua": "AV LIBERDADE",
+      "casa": "199",
+      "coordenadas": [
+        38.80416256858556,
+        -9.2109547978145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2731644",
+      "rua": "AV LIBERDADE",
+      "casa": "199",
+      "coordenadas": [
+        38.80416256858556,
+        -9.2109547978145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2731645",
+      "rua": "AV LIBERDADE",
+      "casa": "112",
+      "coordenadas": [
+        38.80270364979074,
+        -9.208964352932467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2735323",
+      "rua": "AV LIBERDADE",
+      "casa": "199",
+      "coordenadas": [
+        38.80416256858556,
+        -9.2109547978145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2759281",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803757754806306,
+        -9.212848120443649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2884967",
+      "rua": "R ADRIANO CORREIA DE OLIVEIRA",
+      "casa": "81",
+      "coordenadas": [
+        38.80228234407466,
+        -9.206782359537273
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2969260",
+      "rua": "AV LIBERDADE",
+      "casa": "200",
+      "coordenadas": [
+        38.80402587878815,
+        -9.211125413633235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2990187",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80378147606084,
+        -9.213205339707018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2990188",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80378147606084,
+        -9.213205339707018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2990189",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80378147606084,
+        -9.213205339707018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3163965",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80379650909347,
+        -9.213527893010202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3339405",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80085578756658,
+        -9.205183917573757
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3375881",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803756371864395,
+        -9.212997750996918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3375882",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803756371864395,
+        -9.212997750996918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3375883",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803756371864395,
+        -9.212997750996918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3375884",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803756371864395,
+        -9.212997750996918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3375885",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803756371864395,
+        -9.212997750996918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3376628",
+      "rua": "AV LIBERDADE",
+      "casa": "",
+      "coordenadas": [
+        38.803756371864395,
+        -9.212997750996918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3385742",
+      "rua": "AV LIBERDADE",
+      "casa": "199",
+      "coordenadas": [
+        38.80409909862327,
+        -9.210999888296657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3436716",
+      "rua": "AV LIBERDADE",
+      "casa": "199",
+      "coordenadas": [
+        38.80416256858556,
+        -9.2109547978145
+      ]
+    }
+  ],
+  "ruas": [
+    "AV LIBERDADE",
+    "R ADRIANO CORREIA DE OLIVEIRA"
+  ],
+  "centro": [
+    38.80250917807607,
+    -9.209355905291979
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.802509943425456,
+                -9.209877403756757
+              ],
+              [
+                38.8021423532346,
+                -9.208834406827203
+              ],
+              [
+                38.80183329464596,
+                -9.207930966289299
+              ],
+              [
+                38.80158276765955,
+                -9.207167082143044
+              ],
+              [
+                38.80139077227537,
+                -9.206542754388442
+              ],
+              [
+                38.801257308493405,
+                -9.206057983025492
+              ],
+              [
+                38.80118237631366,
+                -9.205712768054191
+              ],
+              [
+                38.801165975736154,
+                -9.205507109474544
+              ],
+              [
+                38.80120810676087,
+                -9.205441007286545
+              ],
+              [
+                38.8013087693878,
+                -9.2055144614902
+              ],
+              [
+                38.80140655630345,
+                -9.205594527798619
+              ],
+              [
+                38.80150146750779,
+                -9.205681206211807
+              ],
+              [
+                38.801593503000845,
+                -9.20577449672976
+              ],
+              [
+                38.801682662782596,
+                -9.20587439935248
+              ],
+              [
+                38.80176894685306,
+                -9.205980914079966
+              ],
+              [
+                38.80185235521222,
+                -9.20609404091222
+              ],
+              [
+                38.80193288786009,
+                -9.206213779849238
+              ],
+              [
+                38.80201054479666,
+                -9.206340130891023
+              ],
+              [
+                38.80210787312414,
+                -9.206515882400668
+              ],
+              [
+                38.802224872842544,
+                -9.20674103437817
+              ],
+              [
+                38.80236154395185,
+                -9.207015586823532
+              ],
+              [
+                38.80251788645206,
+                -9.20733953973675
+              ],
+              [
+                38.802693900343186,
+                -9.20771289311783
+              ],
+              [
+                38.80288958562523,
+                -9.208135646966765
+              ],
+              [
+                38.80310494229818,
+                -9.20860780128356
+              ],
+              [
+                38.803339970362046,
+                -9.209129356068214
+              ],
+              [
+                38.803539900238356,
+                -9.209625921117217
+              ],
+              [
+                38.80370473192713,
+                -9.210097496430572
+              ],
+              [
+                38.803834465428345,
+                -9.21054408200828
+              ],
+              [
+                38.80392910074203,
+                -9.210965677850337
+              ],
+              [
+                38.80398863786816,
+                -9.211362283956747
+              ],
+              [
+                38.80401307680674,
+                -9.211733900327507
+              ],
+              [
+                38.804002417557776,
+                -9.21208052696262
+              ],
+              [
+                38.80395666012126,
+                -9.212402163862082
+              ],
+              [
+                38.80387067359045,
+                -9.212553221532918
+              ],
+              [
+                38.80374445796536,
+                -9.212533699975127
+              ],
+              [
+                38.80357801324597,
+                -9.212343599188706
+              ],
+              [
+                38.803371339432275,
+                -9.21198291917366
+              ],
+              [
+                38.8031244365243,
+                -9.211451659929985
+              ],
+              [
+                38.80283730452202,
+                -9.210749821457686
+              ],
+              [
+                38.802509943425456,
+                -9.209877403756757
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.802551659580466,
+    -9.208444103827743
+  ],
+  "centroDeMassa": [
+    38.80250917807607,
+    -9.209355905291979
+  ]
+}

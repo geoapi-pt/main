@@ -1,1 +1,428 @@
-{"CP4":"4505","CP3":"153","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4505-153","Artéria":"Rua Pavilhão Gimnodesportivo","Localidade":"Argoncilhe","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARGONCILHE","locais":[{"id":"pt.ine.add.PTCONT.298489","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"465","coordenadas":[41.02136423180561,-8.539085824512044]},{"id":"pt.ine.add.PTCONT.303817","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"156 B","coordenadas":[41.02398387623086,-8.539280260420583]},{"id":"pt.ine.add.PTCONT.303932","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"147","coordenadas":[41.023743897117164,-8.538387046478114]},{"id":"pt.ine.add.PTCONT.303933","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"147","coordenadas":[41.023743897117164,-8.538387046478114]},{"id":"pt.ine.add.PTCONT.3592","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"157","coordenadas":[41.02357335740494,-8.538231433193992]},{"id":"pt.ine.add.PTCONT.6214","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"156 A","coordenadas":[41.02395799393154,-8.538959074143891]},{"id":"pt.ine.add.PTCONT.24775","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24776","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24777","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24778","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24779","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24780","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24781","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.24782","rua":"R PAVILHÃO GIMNODESPORTIVO","casa":"574","coordenadas":[41.02041608975256,-8.539840915162413]},{"id":"pt.ine.add.PTCONT.70578","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"503","coordenadas":[41.0210033446939,-8.539285727688984]},{"id":"pt.ine.add.PTCONT.81516","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"35","coordenadas":[41.02483317526254,-8.538465064913384]},{"id":"pt.ine.add.PTCONT.94869","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"467","coordenadas":[41.021274146169716,-8.539097160745083]},{"id":"pt.ine.add.PTCONT.153598","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"487","coordenadas":[41.0211386198042,-8.539227111810836]},{"id":"pt.ine.add.PTCONT.169221","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"181","coordenadas":[41.02340135463552,-8.538491954693189]},{"id":"pt.ine.add.PTCONT.231191","rua":"R PAVILHAO GIMNODESPORTIVO","casa":"156","coordenadas":[41.02393939895101,-8.53912541851248]}],"ruas":["R PAVILHAO GIMNODESPORTIVO","R PAVILHÃO GIMNODESPORTIVO"],"centroide":[41.021860348010186,-8.539243422440924]}
+{
+  "CP": "4505-153",
+  "CP4": "4505",
+  "CP3": "153",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Argoncilhe",
+  "Designação Postal": "ARGONCILHE",
+  "partes": [
+    {
+      "Artéria": "Rua Pavilhão Gimnodesportivo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.298489",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "465",
+      "coordenadas": [
+        41.02136423180561,
+        -8.539085824512044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.303817",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "156 B",
+      "coordenadas": [
+        41.02398387623086,
+        -8.539280260420583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.303932",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "147",
+      "coordenadas": [
+        41.023743897117164,
+        -8.538387046478114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.303933",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "147",
+      "coordenadas": [
+        41.023743897117164,
+        -8.538387046478114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3592",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "157",
+      "coordenadas": [
+        41.02357335740494,
+        -8.538231433193992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.6214",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "156 A",
+      "coordenadas": [
+        41.02395799393154,
+        -8.538959074143891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24775",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24776",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24777",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24778",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24779",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24780",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24781",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24782",
+      "rua": "R PAVILHÃO GIMNODESPORTIVO",
+      "casa": "574",
+      "coordenadas": [
+        41.02041608975256,
+        -8.539840915162413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.70578",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "503",
+      "coordenadas": [
+        41.0210033446939,
+        -8.539285727688984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.81516",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "35",
+      "coordenadas": [
+        41.02483317526254,
+        -8.538465064913384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.94869",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "467",
+      "coordenadas": [
+        41.021274146169716,
+        -8.539097160745083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153598",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "487",
+      "coordenadas": [
+        41.0211386198042,
+        -8.539227111810836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.169221",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "181",
+      "coordenadas": [
+        41.02340135463552,
+        -8.538491954693189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.231191",
+      "rua": "R PAVILHAO GIMNODESPORTIVO",
+      "casa": "156",
+      "coordenadas": [
+        41.02393939895101,
+        -8.53912541851248
+      ]
+    }
+  ],
+  "ruas": [
+    "R PAVILHAO GIMNODESPORTIVO",
+    "R PAVILHÃO GIMNODESPORTIVO"
+  ],
+  "centro": [
+    41.02262463250755,
+    -8.539036174178204
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.022422969646605,
+                -8.539525546870134
+              ],
+              [
+                41.02197699633681,
+                -8.539595628712862
+              ],
+              [
+                41.02159594554921,
+                -8.539648275520976
+              ],
+              [
+                41.021279817283784,
+                -8.539683487294479
+              ],
+              [
+                41.021028611540544,
+                -8.539701264033367
+              ],
+              [
+                41.02084232831948,
+                -8.539701605737642
+              ],
+              [
+                41.020720967620605,
+                -8.539684512407305
+              ],
+              [
+                41.020664529443906,
+                -8.539649984042352
+              ],
+              [
+                41.02067301378939,
+                -8.539598020642789
+              ],
+              [
+                41.02074642065706,
+                -8.53952862220861
+              ],
+              [
+                41.020814882939334,
+                -8.539464952220206
+              ],
+              [
+                41.02087840063621,
+                -8.539407010677575
+              ],
+              [
+                41.02093697374768,
+                -8.539354797580717
+              ],
+              [
+                41.02099060227374,
+                -8.539308312929633
+              ],
+              [
+                41.02103928621442,
+                -8.539267556724322
+              ],
+              [
+                41.021083025569695,
+                -8.539232528964789
+              ],
+              [
+                41.02112182033957,
+                -8.539203229651026
+              ],
+              [
+                41.021155670524045,
+                -8.539179658783041
+              ],
+              [
+                41.02122121461101,
+                -8.539145507280566
+              ],
+              [
+                41.021318452600475,
+                -8.539100775143602
+              ],
+              [
+                41.021447384492426,
+                -8.539045462372153
+              ],
+              [
+                41.02160801028686,
+                -8.538979568966218
+              ],
+              [
+                41.0218003299838,
+                -8.538903094925793
+              ],
+              [
+                41.02202434358322,
+                -8.53881604025088
+              ],
+              [
+                41.022280051085126,
+                -8.53871840494148
+              ],
+              [
+                41.02256745248953,
+                -8.538610188997595
+              ],
+              [
+                41.02283861337241,
+                -8.538519150542308
+              ],
+              [
+                41.02309353373376,
+                -8.538445289575625
+              ],
+              [
+                41.02333221357359,
+                -8.538388606097543
+              ],
+              [
+                41.02355465289189,
+                -8.53834910010806
+              ],
+              [
+                41.023760851688664,
+                -8.538326771607181
+              ],
+              [
+                41.02395080996392,
+                -8.538321620594902
+              ],
+              [
+                41.024124527717646,
+                -8.538333647071225
+              ],
+              [
+                41.02428200494984,
+                -8.53836285103615
+              ],
+              [
+                41.024406527230646,
+                -8.538401141935259
+              ],
+              [
+                41.02449809456006,
+                -8.53844851976855
+              ],
+              [
+                41.02455670693807,
+                -8.53850498453603
+              ],
+              [
+                41.02458236436469,
+                -8.53857053623769
+              ],
+              [
+                41.024575066839915,
+                -8.538645174873537
+              ],
+              [
+                41.02453481436375,
+                -8.53872890044357
+              ],
+              [
+                41.024461606936185,
+                -8.538821712947783
+              ],
+              [
+                41.024355444557216,
+                -8.538923612386183
+              ],
+              [
+                41.02420680581191,
+                -8.539021534625125
+              ],
+              [
+                41.02401569070024,
+                -8.539115479664606
+              ],
+              [
+                41.023782099222224,
+                -8.539205447504628
+              ],
+              [
+                41.02350603137784,
+                -8.539291438145195
+              ],
+              [
+                41.023187487167114,
+                -8.5393734515863
+              ],
+              [
+                41.02282646659004,
+                -8.539451487827947
+              ],
+              [
+                41.022422969646605,
+                -8.539525546870134
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.022513998252414,
+    -8.539033427020739
+  ],
+  "centroDeMassa": [
+    41.02262463250755,
+    -8.539036174178204
+  ]
+}

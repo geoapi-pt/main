@@ -1,1 +1,435 @@
-{"CP4":"3505","CP3":"640","Distrito":"Viseu","Concelho":"Viseu","CP":"3505-640","Artéria":"Rua Arminda Reboredo","Localidade":"Viseu","Local":"Fragosela de Cima","Troço":"","Porta":"","Cliente":"","Designação Postal":"VISEU","locais":[{"id":"pt.ine.add.PTCONT.5427046","rua":"R ESTUFAS","casa":"15","coordenadas":[40.63688943930091,-7.868909151705263]},{"id":"pt.ine.add.PTCONT.5428677","rua":"R ESTUFAS","casa":"18","coordenadas":[40.63642122772336,-7.86893463921969]},{"id":"pt.ine.add.PTCONT.5428718","rua":"SIT LAVADOIRO","casa":"","coordenadas":[40.628911967599926,-7.850372046856015]},{"id":"pt.ine.add.PTCONT.5448484","rua":"QTA CACADOR","casa":"20","coordenadas":[40.63915457285131,-7.859384012160442]},{"id":"pt.ine.add.PTCONT.5457069","rua":"R ARMINDA REBOREDO","casa":"77","coordenadas":[40.63808003059235,-7.869743762585264]},{"id":"pt.ine.add.PTCONT.5463953","rua":"R ESTUFAS","casa":"11","coordenadas":[40.63671880179298,-7.86911078051571]},{"id":"pt.ine.add.PTCONT.5478563","rua":"R ARMINDA REBOREDO","casa":"92","coordenadas":[40.63742863597782,-7.868422362042787]},{"id":"pt.ine.add.PTCONT.5479727","rua":"R ESTUFAS","casa":"19","coordenadas":[40.637275007047336,-7.868186547840498]},{"id":"pt.ine.add.PTCONT.5485065","rua":"R STO ANTÓNIO","casa":"","coordenadas":[40.634901104222145,-7.8581129354903005]},{"id":"pt.ine.add.PTCONT.5509014","rua":"R ARMINDA REBOREDO","casa":"86","coordenadas":[40.63771801738829,-7.86895316979287]},{"id":"pt.ine.add.PTCONT.5529319","rua":"R ARMINDA REBOREDO","casa":"","coordenadas":[40.63813379159083,-7.869625339321998]},{"id":"pt.ine.add.PTCONT.5530533","rua":"R ESTUFAS","casa":"13","coordenadas":[40.63680858259578,-7.868992217207946]},{"id":"pt.ine.add.PTCONT.5541896","rua":"R ARMINDA REBOREDO","casa":"82","coordenadas":[40.63783619137144,-7.8694373710112835]},{"id":"pt.ine.add.PTCONT.5546599","rua":"R ESTUFAS","casa":"","coordenadas":[40.636832942718144,-7.867833666193988]},{"id":"pt.ine.add.PTCONT.5550954","rua":"R ESTUFAS","casa":"9","coordenadas":[40.63664689601792,-7.8691701684418405]},{"id":"pt.ine.add.PTCONT.5555162","rua":"R ARMINDA REBOREDO","casa":"22","coordenadas":[40.63838160377401,-7.867732966179768]},{"id":"pt.ine.add.PTCONT.5566130","rua":"R DAS ESTUFAS","casa":"","coordenadas":[40.636097503286315,-7.869136869501205]},{"id":"pt.ine.add.PTCONT.5566142","rua":"R DAS ESTUFAS","casa":"","coordenadas":[40.636097503286315,-7.869136869501205]},{"id":"pt.ine.add.PTCONT.5597501","rua":"R ESTUFAS","casa":"19 A","coordenadas":[40.63721232371765,-7.868340469097564]},{"id":"pt.ine.add.PTCONT.5609133","rua":"R ARMINDA REBOREDO","casa":"90","coordenadas":[40.637509898650926,-7.8685166098108]},{"id":"pt.ine.add.PTCONT.5628269","rua":"R ARMINDA REBOREDO","casa":"78","coordenadas":[40.637836623050084,-7.869626507660613]},{"id":"pt.ine.add.PTCONT.5648477","rua":"R ESTUFAS","casa":"17","coordenadas":[40.63701524032521,-7.868790445764541]},{"id":"pt.ine.add.PTCONT.5661196","rua":"TV ARMINDA REBOREDO","casa":"2","coordenadas":[40.63836814009687,-7.869718987876428]}],"ruas":["R ESTUFAS","SIT LAVADOIRO","QTA CACADOR","R ARMINDA REBOREDO","R STO ANTÓNIO","R DAS ESTUFAS","TV ARMINDA REBOREDO"],"centroide":[40.63681399567642,-7.867112223086438]}
+{
+  "CP": "3505-640",
+  "CP4": "3505",
+  "CP3": "640",
+  "Distrito": "Viseu",
+  "Concelho": "Viseu",
+  "Localidade": "Viseu",
+  "Designação Postal": "VISEU",
+  "partes": [
+    {
+      "Artéria": "Rua das Estufas",
+      "Local": "Fragosela de Cima",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Arminda Reboredo",
+      "Local": "Fragosela de Cima",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5427046",
+      "rua": "R ESTUFAS",
+      "casa": "15",
+      "coordenadas": [
+        40.63688943930091,
+        -7.868909151705263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5428677",
+      "rua": "R ESTUFAS",
+      "casa": "18",
+      "coordenadas": [
+        40.63642122772336,
+        -7.86893463921969
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5428718",
+      "rua": "SIT LAVADOIRO",
+      "casa": "",
+      "coordenadas": [
+        40.628911967599926,
+        -7.850372046856015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5448484",
+      "rua": "QTA CACADOR",
+      "casa": "20",
+      "coordenadas": [
+        40.63915457285131,
+        -7.859384012160442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5457069",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "77",
+      "coordenadas": [
+        40.63808003059235,
+        -7.869743762585264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5463953",
+      "rua": "R ESTUFAS",
+      "casa": "11",
+      "coordenadas": [
+        40.63671880179298,
+        -7.86911078051571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5478563",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "92",
+      "coordenadas": [
+        40.63742863597782,
+        -7.868422362042787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5479727",
+      "rua": "R ESTUFAS",
+      "casa": "19",
+      "coordenadas": [
+        40.637275007047336,
+        -7.868186547840498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5485065",
+      "rua": "R STO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.634901104222145,
+        -7.8581129354903005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5509014",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "86",
+      "coordenadas": [
+        40.63771801738829,
+        -7.86895316979287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5529319",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "",
+      "coordenadas": [
+        40.63813379159083,
+        -7.869625339321998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5530533",
+      "rua": "R ESTUFAS",
+      "casa": "13",
+      "coordenadas": [
+        40.63680858259578,
+        -7.868992217207946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5541896",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "82",
+      "coordenadas": [
+        40.63783619137144,
+        -7.8694373710112835
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5546599",
+      "rua": "R ESTUFAS",
+      "casa": "",
+      "coordenadas": [
+        40.636832942718144,
+        -7.867833666193988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5550954",
+      "rua": "R ESTUFAS",
+      "casa": "9",
+      "coordenadas": [
+        40.63664689601792,
+        -7.8691701684418405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5555162",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "22",
+      "coordenadas": [
+        40.63838160377401,
+        -7.867732966179768
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5566130",
+      "rua": "R DAS ESTUFAS",
+      "casa": "",
+      "coordenadas": [
+        40.636097503286315,
+        -7.869136869501205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5566142",
+      "rua": "R DAS ESTUFAS",
+      "casa": "",
+      "coordenadas": [
+        40.636097503286315,
+        -7.869136869501205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597501",
+      "rua": "R ESTUFAS",
+      "casa": "19 A",
+      "coordenadas": [
+        40.63721232371765,
+        -7.868340469097564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5609133",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "90",
+      "coordenadas": [
+        40.637509898650926,
+        -7.8685166098108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5628269",
+      "rua": "R ARMINDA REBOREDO",
+      "casa": "78",
+      "coordenadas": [
+        40.637836623050084,
+        -7.869626507660613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5648477",
+      "rua": "R ESTUFAS",
+      "casa": "17",
+      "coordenadas": [
+        40.63701524032521,
+        -7.868790445764541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5661196",
+      "rua": "TV ARMINDA REBOREDO",
+      "casa": "2",
+      "coordenadas": [
+        40.63836814009687,
+        -7.869718987876428
+      ]
+    }
+  ],
+  "ruas": [
+    "R ESTUFAS",
+    "SIT LAVADOIRO",
+    "QTA CACADOR",
+    "R ARMINDA REBOREDO",
+    "R STO ANTÓNIO",
+    "R DAS ESTUFAS",
+    "TV ARMINDA REBOREDO"
+  ],
+  "centro": [
+    40.634033270225615,
+    -7.860057904720639
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.632953831423514,
+                -7.860927259593935
+              ],
+              [
+                40.63205563946273,
+                -7.858581656763286
+              ],
+              [
+                40.63142976220408,
+                -7.85667006624435
+              ],
+              [
+                40.63107619964759,
+                -7.855192488037127
+              ],
+              [
+                40.63099495179324,
+                -7.854148922141616
+              ],
+              [
+                40.63118601864106,
+                -7.8535393685578185
+              ],
+              [
+                40.63164940019102,
+                -7.853363827285733
+              ],
+              [
+                40.63238509644314,
+                -7.8536222983253605
+              ],
+              [
+                40.63339310739741,
+                -7.854314781676702
+              ],
+              [
+                40.63467343305383,
+                -7.8554412773397555
+              ],
+              [
+                40.63578142999141,
+                -7.856588445040489
+              ],
+              [
+                40.636717098210156,
+                -7.857756284778904
+              ],
+              [
+                40.63748043771005,
+                -7.858944796554999
+              ],
+              [
+                40.63807144849111,
+                -7.860153980368776
+              ],
+              [
+                40.638490130553336,
+                -7.861383836220233
+              ],
+              [
+                40.63873648389671,
+                -7.862634364109368
+              ],
+              [
+                40.638810508521246,
+                -7.863905564036186
+              ],
+              [
+                40.63871220442694,
+                -7.865197436000685
+              ],
+              [
+                40.638621686633414,
+                -7.866328211074447
+              ],
+              [
+                40.63853895514066,
+                -7.867297889257471
+              ],
+              [
+                40.6384640099487,
+                -7.868106470549759
+              ],
+              [
+                40.638396851057514,
+                -7.868753954951311
+              ],
+              [
+                40.63833747846711,
+                -7.869240342462125
+              ],
+              [
+                40.63828589217749,
+                -7.869565633082202
+              ],
+              [
+                40.63824209218865,
+                -7.869729826811543
+              ],
+              [
+                40.63820607850057,
+                -7.869732923650148
+              ],
+              [
+                40.638143589534366,
+                -7.869726150679488
+              ],
+              [
+                40.638054625289996,
+                -7.869709507899565
+              ],
+              [
+                40.63793918576749,
+                -7.869682995310378
+              ],
+              [
+                40.63779727096683,
+                -7.869646612911925
+              ],
+              [
+                40.63762888088802,
+                -7.86960036070421
+              ],
+              [
+                40.63743401553106,
+                -7.869544238687232
+              ],
+              [
+                40.637212674895956,
+                -7.8694782468609885
+              ],
+              [
+                40.6369648589827,
+                -7.869402385225481
+              ],
+              [
+                40.636635746063504,
+                -7.86904280594058
+              ],
+              [
+                40.63622533613836,
+                -7.868399509006288
+              ],
+              [
+                40.63573362920728,
+                -7.867472494422603
+              ],
+              [
+                40.63516062527025,
+                -7.8662617621895246
+              ],
+              [
+                40.63450632432728,
+                -7.864767312307054
+              ],
+              [
+                40.63377072637837,
+                -7.862989144775191
+              ],
+              [
+                40.632953831423514,
+                -7.860927259593935
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.63612244288536,
+    -7.863671135795871
+  ],
+  "centroDeMassa": [
+    40.634033270225615,
+    -7.860057904720639
+  ]
+}

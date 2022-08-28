@@ -1,1 +1,393 @@
-{"CP4":"3100","CP3":"335","Distrito":"Leiria","Concelho":"Pombal","CP":"3100-335","Artéria":" ","Localidade":"Cumieira de Cima","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"POMBAL","locais":[{"id":"pt.ine.add.PTCONT.1994252","rua":"R PRINCIPAL","casa":"31","coordenadas":[39.89501435623859,-8.595127140542317]},{"id":"pt.ine.add.PTCONT.2014286","rua":"R PRINCIPAL","casa":"1","coordenadas":[39.8948311348939,-8.59364096810717]},{"id":"pt.ine.add.PTCONT.2022975","rua":"R PRINCIPAL","casa":"29","coordenadas":[39.89496115807033,-8.594916318696065]},{"id":"pt.ine.add.PTCONT.2038430","rua":"R VALINHOS","casa":"6","coordenadas":[39.896360866240315,-8.593978603123713]},{"id":"pt.ine.add.PTCONT.2048822","rua":"R PRINCIPAL","casa":"15","coordenadas":[39.89450960724203,-8.59296065671892]},{"id":"pt.ine.add.PTCONT.2064557","rua":"R PRINCIPAL","casa":"25","coordenadas":[39.89500057799376,-8.594063031729162]},{"id":"pt.ine.add.PTCONT.2067098","rua":"R VALINHOS","casa":"N 8","coordenadas":[39.89668438757426,-8.594156161776345]},{"id":"pt.ine.add.PTCONT.2069018","rua":"R PRINCIPAL","casa":"41","coordenadas":[39.89371179087016,-8.596544851169508]},{"id":"pt.ine.add.PTCONT.2101003","rua":"R PRINCIPAL","casa":"17","coordenadas":[39.89456318000732,-8.593077938878062]},{"id":"pt.ine.add.PTCONT.2115139","rua":"R VALINHOS","casa":"N 12","coordenadas":[39.89703497331116,-8.594322210709374]},{"id":"pt.ine.add.PTCONT.2119537","rua":"R PRINCIPAL","casa":"27","coordenadas":[39.89528830745227,-8.59418188465542]},{"id":"pt.ine.add.PTCONT.2121267","rua":"R CARDEAIS","casa":"1","coordenadas":[39.89179543592174,-8.598297428369383]},{"id":"pt.ine.add.PTCONT.2135008","rua":"R PRINCIPAL","casa":"","coordenadas":[39.8953198637413,-8.595304580049438]},{"id":"pt.ine.add.PTCONT.2160978","rua":"R PRINCIPAL","casa":"19","coordenadas":[39.8946878268862,-8.593441237570946]},{"id":"pt.ine.add.PTCONT.2167671","rua":"R PRINCIPAL","casa":"5","coordenadas":[39.89388265580844,-8.592079544529998]},{"id":"pt.ine.add.PTCONT.2187104","rua":"R VALINHOS","casa":"","coordenadas":[39.8961815810498,-8.593766933846918]},{"id":"pt.ine.add.PTCONT.2189438","rua":"R NSA SRA DA AJUDA","casa":"","coordenadas":[39.892684397940236,-8.596713313295126]},{"id":"pt.ine.add.PTCONT.2211952","rua":"R VALINHOS","casa":"2","coordenadas":[39.895939160126666,-8.593578228463159]},{"id":"pt.ine.add.PTCONT.2214183","rua":"R NSA SRA DA AJUDA","casa":"1","coordenadas":[39.89282746655223,-8.59697150374417]},{"id":"pt.ine.add.PTCONT.2227022","rua":"R PRINCIPAL","casa":"7","coordenadas":[39.89401672866217,-8.592337669858283]},{"id":"pt.ine.add.PTCONT.2233473","rua":"R VALINHOS","casa":"N 10","coordenadas":[39.89687323606899,-8.594227584076556]},{"id":"pt.ine.add.PTCONT.2253370","rua":"R VALINHOS","casa":"","coordenadas":[39.8972308733719,-8.59488478147955]},{"id":"pt.ine.add.PTCONT.2267980","rua":"R PRINCIPAL","casa":"22","coordenadas":[39.895684992836856,-8.594079309435852]}],"ruas":["R PRINCIPAL","R VALINHOS","R CARDEAIS","R NSA SRA DA AJUDA"],"centroide":[39.89497270754654,-8.594480571426802]}
+{
+  "CP": "3100-335",
+  "CP4": "3100",
+  "CP3": "335",
+  "Distrito": "Leiria",
+  "Concelho": "Pombal",
+  "Localidade": "Cumieira de Cima",
+  "Designação Postal": "POMBAL",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1994252",
+      "rua": "R PRINCIPAL",
+      "casa": "31",
+      "coordenadas": [
+        39.89501435623859,
+        -8.595127140542317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2014286",
+      "rua": "R PRINCIPAL",
+      "casa": "1",
+      "coordenadas": [
+        39.8948311348939,
+        -8.59364096810717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2022975",
+      "rua": "R PRINCIPAL",
+      "casa": "29",
+      "coordenadas": [
+        39.89496115807033,
+        -8.594916318696065
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2038430",
+      "rua": "R VALINHOS",
+      "casa": "6",
+      "coordenadas": [
+        39.896360866240315,
+        -8.593978603123713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2048822",
+      "rua": "R PRINCIPAL",
+      "casa": "15",
+      "coordenadas": [
+        39.89450960724203,
+        -8.59296065671892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2064557",
+      "rua": "R PRINCIPAL",
+      "casa": "25",
+      "coordenadas": [
+        39.89500057799376,
+        -8.594063031729162
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2067098",
+      "rua": "R VALINHOS",
+      "casa": "N 8",
+      "coordenadas": [
+        39.89668438757426,
+        -8.594156161776345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2069018",
+      "rua": "R PRINCIPAL",
+      "casa": "41",
+      "coordenadas": [
+        39.89371179087016,
+        -8.596544851169508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2101003",
+      "rua": "R PRINCIPAL",
+      "casa": "17",
+      "coordenadas": [
+        39.89456318000732,
+        -8.593077938878062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2115139",
+      "rua": "R VALINHOS",
+      "casa": "N 12",
+      "coordenadas": [
+        39.89703497331116,
+        -8.594322210709374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2119537",
+      "rua": "R PRINCIPAL",
+      "casa": "27",
+      "coordenadas": [
+        39.89528830745227,
+        -8.59418188465542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2121267",
+      "rua": "R CARDEAIS",
+      "casa": "1",
+      "coordenadas": [
+        39.89179543592174,
+        -8.598297428369383
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2135008",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.8953198637413,
+        -8.595304580049438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2160978",
+      "rua": "R PRINCIPAL",
+      "casa": "19",
+      "coordenadas": [
+        39.8946878268862,
+        -8.593441237570946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2167671",
+      "rua": "R PRINCIPAL",
+      "casa": "5",
+      "coordenadas": [
+        39.89388265580844,
+        -8.592079544529998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2187104",
+      "rua": "R VALINHOS",
+      "casa": "",
+      "coordenadas": [
+        39.8961815810498,
+        -8.593766933846918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2189438",
+      "rua": "R NSA SRA DA AJUDA",
+      "casa": "",
+      "coordenadas": [
+        39.892684397940236,
+        -8.596713313295126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211952",
+      "rua": "R VALINHOS",
+      "casa": "2",
+      "coordenadas": [
+        39.895939160126666,
+        -8.593578228463159
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2214183",
+      "rua": "R NSA SRA DA AJUDA",
+      "casa": "1",
+      "coordenadas": [
+        39.89282746655223,
+        -8.59697150374417
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2227022",
+      "rua": "R PRINCIPAL",
+      "casa": "7",
+      "coordenadas": [
+        39.89401672866217,
+        -8.592337669858283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2233473",
+      "rua": "R VALINHOS",
+      "casa": "N 10",
+      "coordenadas": [
+        39.89687323606899,
+        -8.594227584076556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2253370",
+      "rua": "R VALINHOS",
+      "casa": "",
+      "coordenadas": [
+        39.8972308733719,
+        -8.59488478147955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2267980",
+      "rua": "R PRINCIPAL",
+      "casa": "22",
+      "coordenadas": [
+        39.895684992836856,
+        -8.594079309435852
+      ]
+    }
+  ],
+  "ruas": [
+    "R PRINCIPAL",
+    "R VALINHOS",
+    "R CARDEAIS",
+    "R NSA SRA DA AJUDA"
+  ],
+  "centro": [
+    39.89451315464682,
+    -8.59518848644969
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.89485286948746,
+                -8.596377814493852
+              ],
+              [
+                39.89417343980619,
+                -8.596804395355083
+              ],
+              [
+                39.893611551645805,
+                -8.597080499173668
+              ],
+              [
+                39.893167205006314,
+                -8.597206125949608
+              ],
+              [
+                39.89284039988771,
+                -8.597181275682903
+              ],
+              [
+                39.89263113628999,
+                -8.597005948373557
+              ],
+              [
+                39.89253941421316,
+                -8.596680144021565
+              ],
+              [
+                39.89256523365722,
+                -8.596203862626929
+              ],
+              [
+                39.89270859462217,
+                -8.595577104189651
+              ],
+              [
+                39.89296949710801,
+                -8.594799868709728
+              ],
+              [
+                39.8932470417441,
+                -8.594154829323848
+              ],
+              [
+                39.89354122853044,
+                -8.593641986032011
+              ],
+              [
+                39.89385205746702,
+                -8.593261338834218
+              ],
+              [
+                39.89417952855386,
+                -8.593012887730467
+              ],
+              [
+                39.894523641790954,
+                -8.592896632720759
+              ],
+              [
+                39.89488439717829,
+                -8.592912573805094
+              ],
+              [
+                39.89526179471588,
+                -8.593060710983474
+              ],
+              [
+                39.895655834403726,
+                -8.593341044255897
+              ],
+              [
+                39.896003680069036,
+                -8.593595126037549
+              ],
+              [
+                39.89630533171181,
+                -8.593822956328435
+              ],
+              [
+                39.89656078933206,
+                -8.59402453512855
+              ],
+              [
+                39.896770052929774,
+                -8.594199862437897
+              ],
+              [
+                39.896933122504954,
+                -8.594348938256477
+              ],
+              [
+                39.89704999805761,
+                -8.594471762584284
+              ],
+              [
+                39.897120679587736,
+                -8.594568335421325
+              ],
+              [
+                39.897145167095324,
+                -8.594638656767597
+              ],
+              [
+                39.897081664954314,
+                -8.594753510553238
+              ],
+              [
+                39.89693017316469,
+                -8.59491289677825
+              ],
+              [
+                39.896690691726455,
+                -8.595116815442632
+              ],
+              [
+                39.89636322063962,
+                -8.595365266546382
+              ],
+              [
+                39.895947759904175,
+                -8.595658250089503
+              ],
+              [
+                39.895444309520116,
+                -8.595995766071992
+              ],
+              [
+                39.89485286948746,
+                -8.596377814493852
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.89498598460331,
+    -8.594895991272077
+  ],
+  "centroDeMassa": [
+    39.89451315464682,
+    -8.59518848644969
+  ]
+}

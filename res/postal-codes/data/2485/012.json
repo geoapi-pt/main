@@ -1,1 +1,424 @@
-{"CP4":"2485","CP3":"012","Distrito":"Leiria","Concelho":"Porto de Mós","CP":"2485-012","Artéria":"Rua Têxteis Moinhos Velhos","Localidade":"Mira de Aire","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MIRA DE AIRE","locais":[{"id":"pt.ine.add.PTCONT.2018673","rua":"R TEXTEIS MOINHOS VELHOS","casa":"21","coordenadas":[39.547042858211185,-8.72832189408209]},{"id":"pt.ine.add.PTCONT.2025297","rua":"R TEXTEIS MOINHOS VELHOS","casa":"440","coordenadas":[39.54712254543654,-8.728590153076096]},{"id":"pt.ine.add.PTCONT.2042932","rua":"R TEXTEIS MOINHOS VELHOS","casa":"8","coordenadas":[39.54429208561164,-8.72904292819073]},{"id":"pt.ine.add.PTCONT.2045109","rua":"R TEXTEIS MOINHOS VELHOS","casa":"363","coordenadas":[39.54652227268589,-8.727968434300193]},{"id":"pt.ine.add.PTCONT.2048467","rua":"R TEXTEIS MOINHOS VELHOS","casa":"22","coordenadas":[39.54424406989774,-8.72962418506037]},{"id":"pt.ine.add.PTCONT.2062981","rua":"R TEXTEIS MOINHOS VELHOS","casa":"11","coordenadas":[39.54458398672715,-8.728324153657468]},{"id":"pt.ine.add.PTCONT.2066611","rua":"R TEXTEIS MOINHOS VELHOS","casa":"1","coordenadas":[39.54421770728439,-8.729495992532566]},{"id":"pt.ine.add.PTCONT.2069179","rua":"R TEXTEIS MOINHOS VELHOS","casa":"3","coordenadas":[39.54414684946333,-8.729262719289812]},{"id":"pt.ine.add.PTCONT.2069182","rua":"R TEXTEIS MOINHOS VELHOS","casa":"118","coordenadas":[39.54445712230859,-8.728474303861415]},{"id":"pt.ine.add.PTCONT.2088924","rua":"R TEXTEIS MOINHOS VELHOS","casa":"10","coordenadas":[39.54423005443628,-8.728844630671807]},{"id":"pt.ine.add.PTCONT.2093804","rua":"R TEXTEIS MOINHOS VELHOS","casa":"12","coordenadas":[39.54463838266114,-8.72825481787043]},{"id":"pt.ine.add.PTCONT.2100655","rua":"R TEXTEIS MOINHOS VELHOS","casa":"357","coordenadas":[39.54645946590168,-8.72792136312237]},{"id":"pt.ine.add.PTCONT.2111758","rua":"R TEXTEIS MOINHOS VELHOS","casa":"122","coordenadas":[39.546620330959826,-8.728167045325444]},{"id":"pt.ine.add.PTCONT.2150178","rua":"R TEXTEIS MOINHOS VELHOS","casa":"430","coordenadas":[39.546979574985514,-8.728367888627316]},{"id":"pt.ine.add.PTCONT.2176307","rua":"R TEXTEIS MOINHOS VELHOS","casa":"2","coordenadas":[39.54419116549662,-8.729402698595623]},{"id":"pt.ine.add.PTCONT.2189606","rua":"R TEXTEIS MOINHOS VELHOS","casa":"5","coordenadas":[39.54403155542496,-8.728912733287258]},{"id":"pt.ine.add.PTCONT.2200940","rua":"BR PATIMONIO POBRES","casa":"4","coordenadas":[39.54411130106654,-8.72916934848246]},{"id":"pt.ine.add.PTCONT.2220391","rua":"R TEXTEIS MOINHOS VELHOS","casa":"7","coordenadas":[39.544309740570846,-8.729112879377151]}],"ruas":["R TEXTEIS MOINHOS VELHOS","BR PATIMONIO POBRES"],"centroide":[39.545170078150534,-8.728714428825496]}}
+{
+  "CP": "2485-012",
+  "CP4": "2485",
+  "CP3": "012",
+  "Distrito": "Leiria",
+  "Concelho": "Porto de Mós",
+  "Localidade": "Mira de Aire",
+  "Designação Postal": "MIRA DE AIRE",
+  "partes": [
+    {
+      "Artéria": "Rua Sitio da Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Bairro Patimónio dos Pobres",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Têxteis Moinhos Velhos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2018673",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "21",
+      "coordenadas": [
+        39.547042858211185,
+        -8.72832189408209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2025297",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "440",
+      "coordenadas": [
+        39.54712254543654,
+        -8.728590153076096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2042932",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "8",
+      "coordenadas": [
+        39.54429208561164,
+        -8.72904292819073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2045109",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "363",
+      "coordenadas": [
+        39.54652227268589,
+        -8.727968434300193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2048467",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "22",
+      "coordenadas": [
+        39.54424406989774,
+        -8.72962418506037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2062981",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "11",
+      "coordenadas": [
+        39.54458398672715,
+        -8.728324153657468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2066611",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "1",
+      "coordenadas": [
+        39.54421770728439,
+        -8.729495992532566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2069179",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "3",
+      "coordenadas": [
+        39.54414684946333,
+        -8.729262719289812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2069182",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "118",
+      "coordenadas": [
+        39.54445712230859,
+        -8.728474303861415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088924",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "10",
+      "coordenadas": [
+        39.54423005443628,
+        -8.728844630671807
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2093804",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "12",
+      "coordenadas": [
+        39.54463838266114,
+        -8.72825481787043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2100655",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "357",
+      "coordenadas": [
+        39.54645946590168,
+        -8.72792136312237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2111758",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "122",
+      "coordenadas": [
+        39.546620330959826,
+        -8.728167045325444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2150178",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "430",
+      "coordenadas": [
+        39.546979574985514,
+        -8.728367888627316
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2176307",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "2",
+      "coordenadas": [
+        39.54419116549662,
+        -8.729402698595623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2189606",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "5",
+      "coordenadas": [
+        39.54403155542496,
+        -8.728912733287258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2200940",
+      "rua": "BR PATIMONIO POBRES",
+      "casa": "4",
+      "coordenadas": [
+        39.54411130106654,
+        -8.72916934848246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2220391",
+      "rua": "R TEXTEIS MOINHOS VELHOS",
+      "casa": "7",
+      "coordenadas": [
+        39.544309740570846,
+        -8.729112879377151
+      ]
+    }
+  ],
+  "ruas": [
+    "R TEXTEIS MOINHOS VELHOS",
+    "BR PATIMONIO POBRES"
+  ],
+  "centro": [
+    39.54557705043075,
+    -8.72877277409137
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.5441510948159,
+                -8.729312924909632
+              ],
+              [
+                39.5441245305068,
+                -8.729223993437994
+              ],
+              [
+                39.544110768411905,
+                -8.729135898471922
+              ],
+              [
+                39.54410980853121,
+                -8.729048640011415
+              ],
+              [
+                39.544121650864724,
+                -8.728962218056477
+              ],
+              [
+                39.54414629541243,
+                -8.728876632607108
+              ],
+              [
+                39.544183742174354,
+                -8.728791883663304
+              ],
+              [
+                39.54423399115046,
+                -8.728707971225065
+              ],
+              [
+                39.54429704234079,
+                -8.728624895292395
+              ],
+              [
+                39.54437289574531,
+                -8.728542655865294
+              ],
+              [
+                39.544467721899906,
+                -8.72846548613614
+              ],
+              [
+                39.54458152080457,
+                -8.728393386104935
+              ],
+              [
+                39.54471429245929,
+                -8.728326355771681
+              ],
+              [
+                39.544866036864086,
+                -8.728264395136375
+              ],
+              [
+                39.545036754018945,
+                -8.728207504199018
+              ],
+              [
+                39.54522644392388,
+                -8.728155682959612
+              ],
+              [
+                39.54543510657888,
+                -8.728108931418154
+              ],
+              [
+                39.54566274198394,
+                -8.728067249574647
+              ],
+              [
+                39.545871038468206,
+                -8.728037036257822
+              ],
+              [
+                39.54605999603169,
+                -8.728018291467684
+              ],
+              [
+                39.54622961467436,
+                -8.728011015204228
+              ],
+              [
+                39.54637989439624,
+                -8.728015207467458
+              ],
+              [
+                39.546510835197324,
+                -8.72803086825737
+              ],
+              [
+                39.5466224370776,
+                -8.728057997573966
+              ],
+              [
+                39.546714700037086,
+                -8.728096595417249
+              ],
+              [
+                39.546787624075776,
+                -8.72814666178721
+              ],
+              [
+                39.54685267772252,
+                -8.728194661407711
+              ],
+              [
+                39.54690986097733,
+                -8.728240594278748
+              ],
+              [
+                39.5469591738402,
+                -8.728284460400321
+              ],
+              [
+                39.54700061631113,
+                -8.728326259772428
+              ],
+              [
+                39.54703418839012,
+                -8.728365992395073
+              ],
+              [
+                39.54705989007717,
+                -8.728403658268252
+              ],
+              [
+                39.547077721372276,
+                -8.728439257391967
+              ],
+              [
+                39.547087682275446,
+                -8.728472789766219
+              ],
+              [
+                39.54705142188542,
+                -8.72851828734344
+              ],
+              [
+                39.54696894020221,
+                -8.728575750123639
+              ],
+              [
+                39.54684023722581,
+                -8.72864517810681
+              ],
+              [
+                39.54666531295622,
+                -8.728726571292949
+              ],
+              [
+                39.54644416739344,
+                -8.728819929682064
+              ],
+              [
+                39.546176800537474,
+                -8.728925253274154
+              ],
+              [
+                39.54586321238831,
+                -8.729042542069216
+              ],
+              [
+                39.54550340294597,
+                -8.729171796067249
+              ],
+              [
+                39.54518524914527,
+                -8.729273776881573
+              ],
+              [
+                39.54490875098624,
+                -8.72934848451219
+              ],
+              [
+                39.54467390846885,
+                -8.729395918959098
+              ],
+              [
+                39.54448072159313,
+                -8.729416080222295
+              ],
+              [
+                39.544329190359065,
+                -8.729408968301783
+              ],
+              [
+                39.54421931476665,
+                -8.729374583197561
+              ],
+              [
+                39.5441510948159,
+                -8.729312924909632
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.5455898129222,
+    -8.728604191083102
+  ],
+  "centroDeMassa": [
+    39.54557705043075,
+    -8.72877277409137
+  ]
+}

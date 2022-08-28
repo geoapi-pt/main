@@ -1,1 +1,417 @@
-{"CP4":"4750","CP3":"582","Distrito":"Braga","Concelho":"Barcelos","CP":"4750-582","Artéria":"Rua da Pena","Localidade":"Oliveira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLIVEIRA BCL","locais":[{"id":"pt.ine.add.PTCONT.470158","rua":"MOTA","casa":"","coordenadas":[41.580789455126734,-8.554549578937078]},{"id":"pt.ine.add.PTCONT.548248","rua":"R FONTELO","casa":"118","coordenadas":[41.58755159228205,-8.554449639460838]},{"id":"pt.ine.add.PTCONT.548249","rua":"R FONTELO","casa":"118","coordenadas":[41.58755159228205,-8.554449639460838]},{"id":"pt.ine.add.PTCONT.563018","rua":"AV SENHORA DO FACHO","casa":"107","coordenadas":[41.58436648091018,-8.551382929960893]},{"id":"pt.ine.add.PTCONT.574790","rua":"AV SENHORA DO FACHO","casa":"75","coordenadas":[41.584448689658124,-8.55105967244035]},{"id":"pt.ine.add.PTCONT.577354","rua":"R PENA","casa":"34","coordenadas":[41.584463049724135,-8.554525497318682]},{"id":"pt.ine.add.PTCONT.588876","rua":"AV SENHORA DO FACHO","casa":"50","coordenadas":[41.58475598446542,-8.550737864508733]},{"id":"pt.ine.add.PTCONT.597004","rua":"R FRANCISCO GOMES MACEDO","casa":"136","coordenadas":[41.58389662174696,-8.55430595747002]},{"id":"pt.ine.add.PTCONT.597685","rua":"AV SENHORA DO FACHO","casa":"444","coordenadas":[41.58612276266656,-8.553696817376316]},{"id":"pt.ine.add.PTCONT.597686","rua":"AV SENHORA DO FACHO","casa":"400","coordenadas":[41.585962059470745,-8.553324009103763]},{"id":"pt.ine.add.PTCONT.603733","rua":"R SENHORA DO FACHO","casa":"347","coordenadas":[41.5854313803605,-8.553176660229568]},{"id":"pt.ine.add.PTCONT.618086","rua":"R FONTELO","casa":"68","coordenadas":[41.58705525836248,-8.554758220907841]},{"id":"pt.ine.add.PTCONT.683051","rua":"AV SENHORA DO FACHO","casa":"156","coordenadas":[41.58467072207969,-8.551900557707086]},{"id":"pt.ine.add.PTCONT.698029","rua":"R PENA","casa":"34","coordenadas":[41.584210952431434,-8.554523858138579]},{"id":"pt.ine.add.PTCONT.703913","rua":"AV SENHORA DO FACHO","casa":"104","coordenadas":[41.58472644551618,-8.551433221895337]},{"id":"pt.ine.add.PTCONT.732643","rua":"AV SENHORA DO FACHO","casa":"194","coordenadas":[41.584488598202064,-8.552463012299768]},{"id":"pt.ine.add.PTCONT.781387","rua":"AV SENHORA DO FACHO","casa":"57","coordenadas":[41.58447696374107,-8.550712082244871]},{"id":"pt.ine.add.PTCONT.803294","rua":"AV SENHORA DO FACHO","casa":"149","coordenadas":[41.58422063555593,-8.551873665172709]}],"ruas":["MOTA","R FONTELO","AV SENHORA DO FACHO","R PENA","R FRANCISCO GOMES MACEDO","R SENHORA DO FACHO"],"centroide":[41.584998153472135,-8.55302642467415]}5302642467415]}}7415]}
+{
+  "CP": "4750-582",
+  "CP4": "4750",
+  "CP3": "582",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Oliveira",
+  "Designação Postal": "OLIVEIRA BCL",
+  "partes": [
+    {
+      "Artéria": "Avenida Dom Nuno Álvares Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Fontelo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida da Senhora do Facho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Mota",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Francisco Gomes Macedo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Pena",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.470158",
+      "rua": "MOTA",
+      "casa": "",
+      "coordenadas": [
+        41.580789455126734,
+        -8.554549578937078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.548248",
+      "rua": "R FONTELO",
+      "casa": "118",
+      "coordenadas": [
+        41.58755159228205,
+        -8.554449639460838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.548249",
+      "rua": "R FONTELO",
+      "casa": "118",
+      "coordenadas": [
+        41.58755159228205,
+        -8.554449639460838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.563018",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "107",
+      "coordenadas": [
+        41.58436648091018,
+        -8.551382929960893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.574790",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "75",
+      "coordenadas": [
+        41.584448689658124,
+        -8.55105967244035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.577354",
+      "rua": "R PENA",
+      "casa": "34",
+      "coordenadas": [
+        41.584463049724135,
+        -8.554525497318682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.588876",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "50",
+      "coordenadas": [
+        41.58475598446542,
+        -8.550737864508733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.597004",
+      "rua": "R FRANCISCO GOMES MACEDO",
+      "casa": "136",
+      "coordenadas": [
+        41.58389662174696,
+        -8.55430595747002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.597685",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "444",
+      "coordenadas": [
+        41.58612276266656,
+        -8.553696817376316
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.597686",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "400",
+      "coordenadas": [
+        41.585962059470745,
+        -8.553324009103763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.603733",
+      "rua": "R SENHORA DO FACHO",
+      "casa": "347",
+      "coordenadas": [
+        41.5854313803605,
+        -8.553176660229568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.618086",
+      "rua": "R FONTELO",
+      "casa": "68",
+      "coordenadas": [
+        41.58705525836248,
+        -8.554758220907841
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.683051",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "156",
+      "coordenadas": [
+        41.58467072207969,
+        -8.551900557707086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.698029",
+      "rua": "R PENA",
+      "casa": "34",
+      "coordenadas": [
+        41.584210952431434,
+        -8.554523858138579
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.703913",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "104",
+      "coordenadas": [
+        41.58472644551618,
+        -8.551433221895337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.732643",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "194",
+      "coordenadas": [
+        41.584488598202064,
+        -8.552463012299768
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.781387",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "57",
+      "coordenadas": [
+        41.58447696374107,
+        -8.550712082244871
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.803294",
+      "rua": "AV SENHORA DO FACHO",
+      "casa": "149",
+      "coordenadas": [
+        41.58422063555593,
+        -8.551873665172709
+      ]
+    }
+  ],
+  "ruas": [
+    "MOTA",
+    "R FONTELO",
+    "AV SENHORA DO FACHO",
+    "R PENA",
+    "R FRANCISCO GOMES MACEDO",
+    "R SENHORA DO FACHO"
+  ],
+  "centro": [
+    41.58417052370439,
+    -8.552735151576357
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.584313969446846,
+                -8.554666940045632
+              ],
+              [
+                41.58353074404237,
+                -8.554640859799287
+              ],
+              [
+                41.58290303913556,
+                -8.55455807869792
+              ],
+              [
+                41.58243085472641,
+                -8.554418596741527
+              ],
+              [
+                41.58211419081492,
+                -8.554222413930116
+              ],
+              [
+                41.58195304740107,
+                -8.553969530263679
+              ],
+              [
+                41.581947424484895,
+                -8.553659945742222
+              ],
+              [
+                41.582097322066375,
+                -8.553293660365739
+              ],
+              [
+                41.58240274014551,
+                -8.552870674134237
+              ],
+              [
+                41.58286367872229,
+                -8.552390987047712
+              ],
+              [
+                41.583271359675805,
+                -8.551971663694875
+              ],
+              [
+                41.58362578300603,
+                -8.551612704075726
+              ],
+              [
+                41.583926948712985,
+                -8.551314108190265
+              ],
+              [
+                41.58417485679665,
+                -8.551075876038492
+              ],
+              [
+                41.584369507257044,
+                -8.550898007620411
+              ],
+              [
+                41.584510900094145,
+                -8.550780502936016
+              ],
+              [
+                41.584599035307974,
+                -8.55072336198531
+              ],
+              [
+                41.58463391289851,
+                -8.550726584768293
+              ],
+              [
+                41.584708112162375,
+                -8.55078740118703
+              ],
+              [
+                41.58482163309955,
+                -8.55090581124152
+              ],
+              [
+                41.58497447571004,
+                -8.551081814931765
+              ],
+              [
+                41.58516663999386,
+                -8.551315412257763
+              ],
+              [
+                41.58539812595099,
+                -8.551606603219515
+              ],
+              [
+                41.58566893358143,
+                -8.55195538781702
+              ],
+              [
+                41.585979062885194,
+                -8.552361766050279
+              ],
+              [
+                41.58632851386227,
+                -8.552825737919292
+              ],
+              [
+                41.586626528249724,
+                -8.553236534889788
+              ],
+              [
+                41.58687310604754,
+                -8.553594156961765
+              ],
+              [
+                41.587068247255736,
+                -8.553898604135227
+              ],
+              [
+                41.5872119518743,
+                -8.554149876410172
+              ],
+              [
+                41.587304219903245,
+                -8.554347973786598
+              ],
+              [
+                41.58734505134255,
+                -8.55449289626451
+              ],
+              [
+                41.58733444619224,
+                -8.554584643843901
+              ],
+              [
+                41.58727240445229,
+                -8.554623216524776
+              ],
+              [
+                41.58712021475428,
+                -8.554653707589749
+              ],
+              [
+                41.5868778770982,
+                -8.554676117038818
+              ],
+              [
+                41.58654539148406,
+                -8.554690444871987
+              ],
+              [
+                41.58612275791186,
+                -8.554696691089251
+              ],
+              [
+                41.58560997638158,
+                -8.554694855690615
+              ],
+              [
+                41.585007046893246,
+                -8.554684938676075
+              ],
+              [
+                41.584313969446846,
+                -8.554666940045632
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.58492585079555,
+    -8.553041477211872
+  ],
+  "centroDeMassa": [
+    41.58417052370439,
+    -8.552735151576357
+  ]
+}

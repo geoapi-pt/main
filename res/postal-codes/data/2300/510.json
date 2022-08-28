@@ -1,1 +1,415 @@
-{"CP4":"2300","CP3":"510","Distrito":"Santarém","Concelho":"Tomar","CP":"2300-510","Artéria":"Rua Marquês de Pombal","Localidade":"Tomar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"TOMAR","locais":[{"id":"pt.ine.add.PTCONT.4481300","rua":"R MARQUES DE POMBAL","casa":"33","coordenadas":[39.60458471323169,-8.409642736932923]},{"id":"pt.ine.add.PTCONT.4488420","rua":"R MARQUES DE POMBAL","casa":"62","coordenadas":[39.60466383091833,-8.410458100118475]},{"id":"pt.ine.add.PTCONT.4494358","rua":"R MARQUES POMBAL","casa":"29","coordenadas":[39.6045849071865,-8.409561232947242]},{"id":"pt.ine.add.PTCONT.4494359","rua":"R MARQUES POMBAL","casa":"29","coordenadas":[39.6045849071865,-8.409561232947242]},{"id":"pt.ine.add.PTCONT.4527009","rua":"R MARQUES DE POMBAL","casa":"52","coordenadas":[39.604682122214264,-8.41034173755899]},{"id":"pt.ine.add.PTCONT.4531985","rua":"R MARQUES DE POMBAL","casa":"44","coordenadas":[39.60470055223104,-8.41016715771106]},{"id":"pt.ine.add.PTCONT.4539283","rua":"R MARQUES DE POMBAL","casa":"66","coordenadas":[39.60465451840877,-8.410586141998683]},{"id":"pt.ine.add.PTCONT.4553603","rua":"R MARQUES POMBAL","casa":"4","coordenadas":[39.604747360318626,-8.409422156156348]},{"id":"pt.ine.add.PTCONT.4562085","rua":"R MARQUES POMBAL","casa":"19","coordenadas":[39.60462129407506,-8.409410011578114]},{"id":"pt.ine.add.PTCONT.4562086","rua":"R MARQUES POMBAL","casa":"19","coordenadas":[39.60462129407506,-8.409410011578114]},{"id":"pt.ine.add.PTCONT.4570448","rua":"R MARQUES DE POMBAL","casa":"2","coordenadas":[39.60484662792242,-8.409341045621666]},{"id":"pt.ine.add.PTCONT.4570449","rua":"R MARQUES DE POMBAL","casa":"2","coordenadas":[39.60484662792242,-8.409341045621666]},{"id":"pt.ine.add.PTCONT.4570450","rua":"R MARQUES DE POMBAL","casa":"2","coordenadas":[39.60484662792242,-8.409341045621666]},{"id":"pt.ine.add.PTCONT.4570451","rua":"R MARQUES DE POMBAL","casa":"2","coordenadas":[39.60484662792242,-8.409341045621666]},{"id":"pt.ine.add.PTCONT.4595409","rua":"R MARQUES DE POMBAL","casa":"21","coordenadas":[39.60458504569063,-8.409503015814131]},{"id":"pt.ine.add.PTCONT.4595410","rua":"R MARQUES DE POMBAL","casa":"21","coordenadas":[39.60458504569063,-8.409503015814131]},{"id":"pt.ine.add.PTCONT.4595411","rua":"R MARQUES DE POMBAL","casa":"21","coordenadas":[39.60458504569063,-8.409503015814131]},{"id":"pt.ine.add.PTCONT.4595412","rua":"R MARQUES DE POMBAL","casa":"21","coordenadas":[39.60458504569063,-8.409503015814131]},{"id":"pt.ine.add.PTCONT.4597753","rua":"R MARQUES DE POMBAL","casa":"10","coordenadas":[39.60476517987935,-8.40950373194701]},{"id":"pt.ine.add.PTCONT.4597754","rua":"R MQ POMBAL","casa":"12","coordenadas":[39.60476517987935,-8.40950373194701]},{"id":"pt.ine.add.PTCONT.4605521","rua":"R MARQUES DE POMBAL","casa":"12","coordenadas":[39.604773549223836,-8.409771567291333]},{"id":"pt.ine.add.PTCONT.4661057","rua":"R MARQUES DE POMBAL","casa":"13","coordenadas":[39.60459449541756,-8.409316756767835]}],"ruas":["R MARQUES DE POMBAL","R MARQUES POMBAL","R MQ POMBAL"],"centroide":[39.60468933825146,-8.409653133164557]}
+{
+  "CP": "2300-510",
+  "CP4": "2300",
+  "CP3": "510",
+  "Distrito": "Santarém",
+  "Concelho": "Tomar",
+  "Localidade": "Tomar",
+  "Designação Postal": "TOMAR",
+  "partes": [
+    {
+      "Artéria": "Rua Marquês de Pombal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4481300",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "33",
+      "coordenadas": [
+        39.60458471323169,
+        -8.409642736932923
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4488420",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "62",
+      "coordenadas": [
+        39.60466383091833,
+        -8.410458100118475
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4494358",
+      "rua": "R MARQUES POMBAL",
+      "casa": "29",
+      "coordenadas": [
+        39.6045849071865,
+        -8.409561232947242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4494359",
+      "rua": "R MARQUES POMBAL",
+      "casa": "29",
+      "coordenadas": [
+        39.6045849071865,
+        -8.409561232947242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4527009",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "52",
+      "coordenadas": [
+        39.604682122214264,
+        -8.41034173755899
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4531985",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "44",
+      "coordenadas": [
+        39.60470055223104,
+        -8.41016715771106
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4539283",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "66",
+      "coordenadas": [
+        39.60465451840877,
+        -8.410586141998683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4553603",
+      "rua": "R MARQUES POMBAL",
+      "casa": "4",
+      "coordenadas": [
+        39.604747360318626,
+        -8.409422156156348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4562085",
+      "rua": "R MARQUES POMBAL",
+      "casa": "19",
+      "coordenadas": [
+        39.60462129407506,
+        -8.409410011578114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4562086",
+      "rua": "R MARQUES POMBAL",
+      "casa": "19",
+      "coordenadas": [
+        39.60462129407506,
+        -8.409410011578114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4570448",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "2",
+      "coordenadas": [
+        39.60484662792242,
+        -8.409341045621666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4570449",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "2",
+      "coordenadas": [
+        39.60484662792242,
+        -8.409341045621666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4570450",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "2",
+      "coordenadas": [
+        39.60484662792242,
+        -8.409341045621666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4570451",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "2",
+      "coordenadas": [
+        39.60484662792242,
+        -8.409341045621666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4595409",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "21",
+      "coordenadas": [
+        39.60458504569063,
+        -8.409503015814131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4595410",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "21",
+      "coordenadas": [
+        39.60458504569063,
+        -8.409503015814131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4595411",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "21",
+      "coordenadas": [
+        39.60458504569063,
+        -8.409503015814131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4595412",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "21",
+      "coordenadas": [
+        39.60458504569063,
+        -8.409503015814131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4597753",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "10",
+      "coordenadas": [
+        39.60476517987935,
+        -8.40950373194701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4597754",
+      "rua": "R MQ POMBAL",
+      "casa": "12",
+      "coordenadas": [
+        39.60476517987935,
+        -8.40950373194701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4605521",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "12",
+      "coordenadas": [
+        39.604773549223836,
+        -8.409771567291333
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4661057",
+      "rua": "R MARQUES DE POMBAL",
+      "casa": "13",
+      "coordenadas": [
+        39.60459449541756,
+        -8.409316756767835
+      ]
+    }
+  ],
+  "ruas": [
+    "R MARQUES DE POMBAL",
+    "R MARQUES POMBAL",
+    "R MQ POMBAL"
+  ],
+  "centro": [
+    39.60471567057705,
+    -8.409951449383259
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.604623978643794,
+                -8.410173402282414
+              ],
+              [
+                39.60461525299666,
+                -8.410055476649195
+              ],
+              [
+                39.60460762325009,
+                -8.409950108577647
+              ],
+              [
+                39.60460108940408,
+                -8.40985729806777
+              ],
+              [
+                39.60459565145863,
+                -8.409777045119563
+              ],
+              [
+                39.60459130941375,
+                -8.409709349733026
+              ],
+              [
+                39.604588063269425,
+                -8.409654211908162
+              ],
+              [
+                39.60458591302567,
+                -8.409611631644971
+              ],
+              [
+                39.60458485868248,
+                -8.409581608943451
+              ],
+              [
+                39.604584900239836,
+                -8.409564143803603
+              ],
+              [
+                39.604585084254516,
+                -8.409545951508637
+              ],
+              [
+                39.604585410726514,
+                -8.409527032058552
+              ],
+              [
+                39.604585879655815,
+                -8.409507385453352
+              ],
+              [
+                39.60458649104243,
+                -8.409487011693034
+              ],
+              [
+                39.60458724488636,
+                -8.409465910777598
+              ],
+              [
+                39.6045881411876,
+                -8.409444082707047
+              ],
+              [
+                39.60458917994616,
+                -8.409421527481378
+              ],
+              [
+                39.604590361162025,
+                -8.40939824510059
+              ],
+              [
+                39.604595334296306,
+                -8.409378252530741
+              ],
+              [
+                39.604604099348975,
+                -8.409361549771834
+              ],
+              [
+                39.60461665632006,
+                -8.409348136823864
+              ],
+              [
+                39.60463300520954,
+                -8.409338013686837
+              ],
+              [
+                39.604653146017434,
+                -8.409331180360747
+              ],
+              [
+                39.604677078743734,
+                -8.409327636845596
+              ],
+              [
+                39.60470480338844,
+                -8.409327383141386
+              ],
+              [
+                39.60473631995154,
+                -8.409330419248116
+              ],
+              [
+                39.60476089523311,
+                -8.409352530472395
+              ],
+              [
+                39.60477852923314,
+                -8.409393716814224
+              ],
+              [
+                39.60478922195163,
+                -8.409453978273602
+              ],
+              [
+                39.604792973388584,
+                -8.40953331485053
+              ],
+              [
+                39.60478978354399,
+                -8.409631726545006
+              ],
+              [
+                39.60477965241787,
+                -8.409749213357035
+              ],
+              [
+                39.6047625800102,
+                -8.409885775286611
+              ],
+              [
+                39.60473856632099,
+                -8.410041412333738
+              ],
+              [
+                39.60471646363705,
+                -8.410162854045822
+              ],
+              [
+                39.60469627195836,
+                -8.41025010042286
+              ],
+              [
+                39.60467799128493,
+                -8.41030315146486
+              ],
+              [
+                39.604661621616756,
+                -8.410322007171812
+              ],
+              [
+                39.60464716295384,
+                -8.410306667543722
+              ],
+              [
+                39.60463461529619,
+                -8.41025713258059
+              ],
+              [
+                39.604623978643794,
+                -8.410173402282414
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.60465308013421,
+    -8.409677939427048
+  ],
+  "centroDeMassa": [
+    39.60471567057705,
+    -8.409951449383259
+  ]
+}

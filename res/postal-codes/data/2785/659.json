@@ -1,1 +1,587 @@
-{"CP4":"2785","CP3":"659","Distrito":"Lisboa","Concelho":"Cascais","CP":"2785-659","Artéria":"Praceta José Justino dos Anjos","Localidade":"Manique de Baixo","Local":"Alto da Barrada","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO DOMINGOS DE RANA","locais":[{"id":"pt.ine.add.PTCONT.2941258","rua":"ESTR JOSE JUSTINO ANJOS","casa":"2043","coordenadas":[38.736855024182596,-9.358326108552685]},{"id":"pt.ine.add.PTCONT.3173697","rua":"ESTR JOSE JUSTINO ANJOS","casa":"1837","coordenadas":[38.736426516260444,-9.356237159936189]},{"id":"pt.ine.add.PTCONT.3186322","rua":"ESTR JOSE JUSTINO ANJOS","casa":"","coordenadas":[38.73687154478299,-9.355888227197926]},{"id":"pt.ine.add.PTCONT.3232494","rua":"ESTR JOSE JUSTINO ANJOS","casa":"","coordenadas":[38.73679397775133,-9.355553382384338]},{"id":"pt.ine.add.PTCONT.3299466","rua":"ESTR JOSE JUSTINO ANJOS","casa":"1777","coordenadas":[38.73625385196132,-9.355521172918568]},{"id":"pt.ine.add.PTCONT.3333882","rua":"ESTR JOSE JUSTINO ANJOS","casa":"18 11","coordenadas":[38.73633117856272,-9.355879012432107]},{"id":"pt.ine.add.PTCONT.3333887","rua":"ESTR JOSE JUSTINO ANJOS QTA DA BARRADA","casa":"2030","coordenadas":[38.73751596402556,-9.358003876892653]},{"id":"pt.ine.add.PTCONT.3333889","rua":"ESTR JOSE JUSTINO ANJOS NUNES","casa":"","coordenadas":[38.737241859457114,-9.356653597168144]},{"id":"pt.ine.add.PTCONT.3357957","rua":"ESTR JOSE JUSTINO ANJOS","casa":"","coordenadas":[38.73602633153627,-9.341014981486502]},{"id":"pt.ine.add.PTCONT.3425081","rua":"ESTR JOSE JUSTINO ANJOS","casa":"1789","coordenadas":[38.736278946108854,-9.355705611564032]},{"id":"pt.ine.add.PTCONT.3425083","rua":"ESTR JOSE JUSTINO ANJOS SOLAR DA BARRADA","casa":"1954","coordenadas":[38.73753231844957,-9.357302602752304]},{"id":"pt.ine.add.PTCONT.3425084","rua":"ESTR JOSE JUSTINO ANJOS SOLAR DA BARRADA","casa":"1954","coordenadas":[38.73753231844957,-9.357302602752304]},{"id":"pt.ine.add.PTCONT.2350789","rua":"ESTR JOSE JUSTINO ANJOS","casa":"5","coordenadas":[38.735833874800534,-9.341333756927053]},{"id":"pt.ine.add.PTCONT.2350790","rua":"ESTR JOSE JUSTINO ANJOS","casa":"203","coordenadas":[38.735833874800534,-9.341333756927053]},{"id":"pt.ine.add.PTCONT.2350791","rua":"ESTR JOSE JUSTINO ANJOS","casa":"203","coordenadas":[38.735833874800534,-9.341333756927053]},{"id":"pt.ine.add.PTCONT.2350792","rua":"ESTR JOSE JUSTINO ANJOS","casa":"203","coordenadas":[38.735833874800534,-9.341333756927053]},{"id":"pt.ine.add.PTCONT.2350793","rua":"ESTR JOSE JUSTINO ANJOS","casa":"203","coordenadas":[38.735833874800534,-9.341333756927053]},{"id":"pt.ine.add.PTCONT.2396579","rua":"ESTR JOSE JUSTINO ANJOS","casa":"","coordenadas":[38.73737119432332,-9.356345281117484]},{"id":"pt.ine.add.PTCONT.2421396","rua":"ESTR JOSE JUSTINO ANJOS","casa":"","coordenadas":[38.73740362657677,-9.355828295782656]},{"id":"pt.ine.add.PTCONT.2666806","rua":"ESTR JOSE JUSTINO ANJOS","casa":"161","coordenadas":[38.73607159995355,-9.340992742718877]},{"id":"pt.ine.add.PTCONT.2725688","rua":"ESTR JOSE JUSTINO ANJOS","casa":"2003","coordenadas":[38.736722945608115,-9.358036333051329]}],"ruas":["ESTR JOSE JUSTINO ANJOS","ESTR JOSE JUSTINO ANJOS QTA DA BARRADA","ESTR JOSE JUSTINO ANJOS NUNES","ESTR JOSE JUSTINO ANJOS SOLAR DA BARRADA"],"centroide":[38.736583781319226,-9.3511611720146]}
+{
+  "CP": "2785-659",
+  "CP4": "2785",
+  "CP3": "659",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": [
+    "Trajouce",
+    "Manique de Baixo"
+  ],
+  "Designação Postal": "SÃO DOMINGOS DE RANA",
+  "partes": [
+    {
+      "Artéria": "Estrada José Justino Anjos",
+      "Localidade": "Trajouce",
+      "Local": "",
+      "Troço": "Impares de 1777 a 2043A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada José Justino Anjos",
+      "Localidade": "Trajouce",
+      "Local": "",
+      "Troço": "Pares de 1954 a 2030",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Praceta José Justino dos Anjos",
+      "Localidade": "Manique de Baixo",
+      "Local": "Alto da Barrada",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2941258",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "2043",
+      "coordenadas": [
+        38.736855024182596,
+        -9.358326108552685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3173697",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "1837",
+      "coordenadas": [
+        38.736426516260444,
+        -9.356237159936189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186322",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "",
+      "coordenadas": [
+        38.73687154478299,
+        -9.355888227197926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3232494",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "",
+      "coordenadas": [
+        38.73679397775133,
+        -9.355553382384338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299466",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "1777",
+      "coordenadas": [
+        38.73625385196132,
+        -9.355521172918568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3333882",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "18 11",
+      "coordenadas": [
+        38.73633117856272,
+        -9.355879012432107
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3333887",
+      "rua": "ESTR JOSE JUSTINO ANJOS QTA DA BARRADA",
+      "casa": "2030",
+      "coordenadas": [
+        38.73751596402556,
+        -9.358003876892653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3333889",
+      "rua": "ESTR JOSE JUSTINO ANJOS NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.737241859457114,
+        -9.356653597168144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3357957",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "",
+      "coordenadas": [
+        38.73602633153627,
+        -9.341014981486502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3425081",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "1789",
+      "coordenadas": [
+        38.736278946108854,
+        -9.355705611564032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3425083",
+      "rua": "ESTR JOSE JUSTINO ANJOS SOLAR DA BARRADA",
+      "casa": "1954",
+      "coordenadas": [
+        38.73753231844957,
+        -9.357302602752304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3425084",
+      "rua": "ESTR JOSE JUSTINO ANJOS SOLAR DA BARRADA",
+      "casa": "1954",
+      "coordenadas": [
+        38.73753231844957,
+        -9.357302602752304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350789",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "5",
+      "coordenadas": [
+        38.735833874800534,
+        -9.341333756927053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350790",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "203",
+      "coordenadas": [
+        38.735833874800534,
+        -9.341333756927053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350791",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "203",
+      "coordenadas": [
+        38.735833874800534,
+        -9.341333756927053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350792",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "203",
+      "coordenadas": [
+        38.735833874800534,
+        -9.341333756927053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350793",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "203",
+      "coordenadas": [
+        38.735833874800534,
+        -9.341333756927053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2396579",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "",
+      "coordenadas": [
+        38.73737119432332,
+        -9.356345281117484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2421396",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "",
+      "coordenadas": [
+        38.73740362657677,
+        -9.355828295782656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2666806",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "161",
+      "coordenadas": [
+        38.73607159995355,
+        -9.340992742718877
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2725688",
+      "rua": "ESTR JOSE JUSTINO ANJOS",
+      "casa": "2003",
+      "coordenadas": [
+        38.736722945608115,
+        -9.358036333051329
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR JOSE JUSTINO ANJOS",
+    "ESTR JOSE JUSTINO ANJOS QTA DA BARRADA",
+    "ESTR JOSE JUSTINO ANJOS NUNES",
+    "ESTR JOSE JUSTINO ANJOS SOLAR DA BARRADA"
+  ],
+  "centro": [
+    38.73668309662505,
+    -9.349659425635782
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.736070111953474,
+                -9.34931417842228
+              ],
+              [
+                38.73601761480838,
+                -9.347540751423342
+              ],
+              [
+                38.73597468694292,
+                -9.34598402193301
+              ],
+              [
+                38.73594132835708,
+                -9.344643989951289
+              ],
+              [
+                38.73591753905088,
+                -9.343520655478176
+              ],
+              [
+                38.73590331902432,
+                -9.342614018513672
+              ],
+              [
+                38.735898668277386,
+                -9.341924079057778
+              ],
+              [
+                38.73590358681008,
+                -9.341450837110491
+              ],
+              [
+                38.73591807462242,
+                -9.341194292671812
+              ],
+              [
+                38.73594213171438,
+                -9.341154445741743
+              ],
+              [
+                38.73596388898888,
+                -9.341119232197187
+              ],
+              [
+                38.7359833464459,
+                -9.341088652038149
+              ],
+              [
+                38.73600050408544,
+                -9.341062705264623
+              ],
+              [
+                38.73601536190749,
+                -9.341041391876612
+              ],
+              [
+                38.73602791991208,
+                -9.341024711874116
+              ],
+              [
+                38.73603817809919,
+                -9.341012665257132
+              ],
+              [
+                38.73604613646883,
+                -9.341005252025665
+              ],
+              [
+                38.73605179502099,
+                -9.341002472179714
+              ],
+              [
+                38.73607755917011,
+                -9.341231845331126
+              ],
+              [
+                38.736123428916216,
+                -9.341693371479904
+              ],
+              [
+                38.73618940425928,
+                -9.342387050626048
+              ],
+              [
+                38.73627548519931,
+                -9.343312882769556
+              ],
+              [
+                38.73638167173631,
+                -9.344470867910433
+              ],
+              [
+                38.736507963870274,
+                -9.345861006048674
+              ],
+              [
+                38.73665436160121,
+                -9.34748329718428
+              ],
+              [
+                38.736820864929115,
+                -9.349337741317253
+              ],
+              [
+                38.736968566151546,
+                -9.350983415980004
+              ],
+              [
+                38.73709746526849,
+                -9.352420321172534
+              ],
+              [
+                38.73720756227997,
+                -9.353648456894845
+              ],
+              [
+                38.73729885718597,
+                -9.354667823146933
+              ],
+              [
+                38.737371349986496,
+                -9.3554784199288
+              ],
+              [
+                38.73742504068154,
+                -9.356080247240449
+              ],
+              [
+                38.73745992927112,
+                -9.356473305081877
+              ],
+              [
+                38.73747601575522,
+                -9.356657593453082
+              ],
+              [
+                38.737489835890926,
+                -9.356829803186333
+              ],
+              [
+                38.73750138967826,
+                -9.356989934281621
+              ],
+              [
+                38.73751067711719,
+                -9.357137986738955
+              ],
+              [
+                38.73751769820774,
+                -9.357273960558327
+              ],
+              [
+                38.737522452949904,
+                -9.357397855739745
+              ],
+              [
+                38.73752494134367,
+                -9.357509672283205
+              ],
+              [
+                38.737525163389066,
+                -9.357609410188708
+              ],
+              [
+                38.73752311908606,
+                -9.35769706945625
+              ],
+              [
+                38.73751100313589,
+                -9.357778806185038
+              ],
+              [
+                38.737488815538555,
+                -9.357854620375072
+              ],
+              [
+                38.737456556294035,
+                -9.35792451202635
+              ],
+              [
+                38.737414225402354,
+                -9.357988481138875
+              ],
+              [
+                38.7373618228635,
+                -9.358046527712645
+              ],
+              [
+                38.73729934867747,
+                -9.358098651747657
+              ],
+              [
+                38.73722680284427,
+                -9.358144853243918
+              ],
+              [
+                38.737144185363896,
+                -9.35818513220142
+              ],
+              [
+                38.73706983134085,
+                -9.35821584854703
+              ],
+              [
+                38.73700374077511,
+                -9.358237002280738
+              ],
+              [
+                38.7369459136667,
+                -9.358248593402553
+              ],
+              [
+                38.73689635001561,
+                -9.358250621912468
+              ],
+              [
+                38.73685504982184,
+                -9.35824308781049
+              ],
+              [
+                38.73682201308539,
+                -9.358225991096614
+              ],
+              [
+                38.73679723980626,
+                -9.358199331770841
+              ],
+              [
+                38.73678072998445,
+                -9.358163109833171
+              ],
+              [
+                38.73675934639819,
+                -9.35809499811447
+              ],
+              [
+                38.73673308904748,
+                -9.357994996614742
+              ],
+              [
+                38.736701957932326,
+                -9.357863105333982
+              ],
+              [
+                38.73666595305272,
+                -9.357699324272192
+              ],
+              [
+                38.73662507440866,
+                -9.35750365342937
+              ],
+              [
+                38.736579322000146,
+                -9.357276092805519
+              ],
+              [
+                38.73652869582719,
+                -9.357016642400637
+              ],
+              [
+                38.73647319588978,
+                -9.356725302214723
+              ],
+              [
+                38.736424241348494,
+                -9.356467497698215
+              ],
+              [
+                38.73638183220333,
+                -9.35624322885111
+              ],
+              [
+                38.73634596845428,
+                -9.35605249567341
+              ],
+              [
+                38.73631665010136,
+                -9.35589529816511
+              ],
+              [
+                38.736293877144554,
+                -9.355771636326217
+              ],
+              [
+                38.73627764958387,
+                -9.355681510156728
+              ],
+              [
+                38.73626796741931,
+                -9.355624919656641
+              ],
+              [
+                38.73626483065087,
+                -9.355601864825957
+              ],
+              [
+                38.73625552383534,
+                -9.355360013474243
+              ],
+              [
+                38.73624004697274,
+                -9.354899365601495
+              ],
+              [
+                38.73621840006305,
+                -9.354219921207717
+              ],
+              [
+                38.73619058310628,
+                -9.353321680292906
+              ],
+              [
+                38.73615659610243,
+                -9.352204642857062
+              ],
+              [
+                38.73611643905149,
+                -9.350868808900188
+              ],
+              [
+                38.736070111953474,
+                -9.34931417842228
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.736649448320314,
+    -9.352206548264666
+  ],
+  "centroDeMassa": [
+    38.73668309662505,
+    -9.349659425635782
+  ]
+}

@@ -1,1 +1,461 @@
-{"CP4":"7005","CP3":"874","Distrito":"Évora","Concelho":"Évora","CP":"7005-874","Artéria":" ","Localidade":"Quinta do Zambujo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÉVORA","locais":[{"id":"pt.ine.add.PTCONT.1375479","rua":"EM 527- QTA DOS LOIOS","casa":"4 CX 15","coordenadas":[38.60808316094026,-7.924376755563181]},{"id":"pt.ine.add.PTCONT.1383982","rua":"ESTR SR AFLITOS TALHAO","casa":"TALHAO 3","coordenadas":[38.59647891607219,-7.92427621232971]},{"id":"pt.ine.add.PTCONT.1384291","rua":"ESTR SR AFLITOS","casa":"3","coordenadas":[38.596540477148785,-7.924427565820187]},{"id":"pt.ine.add.PTCONT.1393759","rua":"ESTR SENHOR DOS AFLITOS","casa":"","coordenadas":[38.59511841186202,-7.928500713220002]},{"id":"pt.ine.add.PTCONT.1395560","rua":"ESTR SENHOR DOS AFLITOS","casa":"","coordenadas":[38.59965849116119,-7.929929258278233]},{"id":"pt.ine.add.PTCONT.1399357","rua":"ESTR SR AFLITOS","casa":"7","coordenadas":[38.59703569879111,-7.924293963018478]},{"id":"pt.ine.add.PTCONT.1403900","rua":"ESTR SR AFLITOS","casa":"","coordenadas":[38.596718786178705,-7.92423427124546]},{"id":"pt.ine.add.PTCONT.1408155","rua":"R A","casa":"","coordenadas":[38.58433168906928,-7.897773077825158]},{"id":"pt.ine.add.PTCONT.1410930","rua":"ESTR SENHOR DOS AFLITOS","casa":"","coordenadas":[38.59564849074405,-7.929083592295926]},{"id":"pt.ine.add.PTCONT.1416584","rua":"ESTR MUNICIPAL 1081 -ESTR DO SENHOR DOS AFLITOS","casa":"CXP 170","coordenadas":[38.598597885238775,-7.924668251586187]},{"id":"pt.ine.add.PTCONT.1418098","rua":"QTA DA TORMENTA","casa":"","coordenadas":[38.60318452199582,-7.920430359272202]},{"id":"pt.ine.add.PTCONT.1420205","rua":"QTA BACELO PRETOS EST CHAINHA","casa":"75","coordenadas":[38.595223775236,-7.912131798124752]},{"id":"pt.ine.add.PTCONT.1428394","rua":"QTA DO MESTRE ESCOLA","casa":"","coordenadas":[38.61446076572875,-7.939939023745319]},{"id":"pt.ine.add.PTCONT.1444439","rua":"QTA NOVA VALE BOM","casa":"","coordenadas":[38.59840600325565,-7.931175931614399]},{"id":"pt.ine.add.PTCONT.1450435","rua":"ESTR SENHOR DOS AFLITOS","casa":"","coordenadas":[38.59747528496566,-7.926611458021934]},{"id":"pt.ine.add.PTCONT.1450436","rua":"ESTR SENHOR DOS AFLITOS","casa":"","coordenadas":[38.59672232180422,-7.925062083711515]},{"id":"pt.ine.add.PTCONT.1456900","rua":"ESTR SR AFLITOS","casa":"","coordenadas":[38.59584745813276,-7.924802150899976]}],"ruas":["EM 527- QTA DOS LOIOS","ESTR SR AFLITOS TALHAO","ESTR SR AFLITOS","ESTR SENHOR DOS AFLITOS","R A","ESTR MUNICIPAL 1081 -ESTR DO SENHOR DOS AFLITOS","QTA DA TORMENTA","QTA BACELO PRETOS EST CHAINHA","QTA DO MESTRE ESCOLA","QTA NOVA VALE BOM"],"centroide":[38.598355292512025,-7.92418214472954]}4472954]}}]}18214472954]}
+{
+  "CP": "7005-874",
+  "CP4": "7005",
+  "CP3": "874",
+  "Distrito": "Évora",
+  "Concelho": "Évora",
+  "Localidade": [
+    "Évora",
+    "Quinta do Zambujo"
+  ],
+  "Designação Postal": "ÉVORA",
+  "partes": [
+    {
+      "Artéria": "Transversal à Estrada da Igrejinha 1",
+      "Localidade": "Évora",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Transversal à Estrada da Igrejinha 2",
+      "Localidade": "Évora",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho Municipal 1081-2",
+      "Localidade": "Évora",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho Municipal 1081-1",
+      "Localidade": "Évora",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho Municipal 1081",
+      "Localidade": "Évora",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada Municipal 527",
+      "Localidade": "Évora",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Quinta do Zambujo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1375479",
+      "rua": "EM 527- QTA DOS LOIOS",
+      "casa": "4 CX 15",
+      "coordenadas": [
+        38.60808316094026,
+        -7.924376755563181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1383982",
+      "rua": "ESTR SR AFLITOS TALHAO",
+      "casa": "TALHAO 3",
+      "coordenadas": [
+        38.59647891607219,
+        -7.92427621232971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1384291",
+      "rua": "ESTR SR AFLITOS",
+      "casa": "3",
+      "coordenadas": [
+        38.596540477148785,
+        -7.924427565820187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1393759",
+      "rua": "ESTR SENHOR DOS AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.59511841186202,
+        -7.928500713220002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395560",
+      "rua": "ESTR SENHOR DOS AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.59965849116119,
+        -7.929929258278233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399357",
+      "rua": "ESTR SR AFLITOS",
+      "casa": "7",
+      "coordenadas": [
+        38.59703569879111,
+        -7.924293963018478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1403900",
+      "rua": "ESTR SR AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.596718786178705,
+        -7.92423427124546
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1408155",
+      "rua": "R A",
+      "casa": "",
+      "coordenadas": [
+        38.58433168906928,
+        -7.897773077825158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1410930",
+      "rua": "ESTR SENHOR DOS AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.59564849074405,
+        -7.929083592295926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1416584",
+      "rua": "ESTR MUNICIPAL 1081 -ESTR DO SENHOR DOS AFLITOS",
+      "casa": "CXP 170",
+      "coordenadas": [
+        38.598597885238775,
+        -7.924668251586187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418098",
+      "rua": "QTA DA TORMENTA",
+      "casa": "",
+      "coordenadas": [
+        38.60318452199582,
+        -7.920430359272202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1420205",
+      "rua": "QTA BACELO PRETOS EST CHAINHA",
+      "casa": "75",
+      "coordenadas": [
+        38.595223775236,
+        -7.912131798124752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428394",
+      "rua": "QTA DO MESTRE ESCOLA",
+      "casa": "",
+      "coordenadas": [
+        38.61446076572875,
+        -7.939939023745319
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444439",
+      "rua": "QTA NOVA VALE BOM",
+      "casa": "",
+      "coordenadas": [
+        38.59840600325565,
+        -7.931175931614399
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1450435",
+      "rua": "ESTR SENHOR DOS AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.59747528496566,
+        -7.926611458021934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1450436",
+      "rua": "ESTR SENHOR DOS AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.59672232180422,
+        -7.925062083711515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1456900",
+      "rua": "ESTR SR AFLITOS",
+      "casa": "",
+      "coordenadas": [
+        38.59584745813276,
+        -7.924802150899976
+      ]
+    }
+  ],
+  "ruas": [
+    "EM 527- QTA DOS LOIOS",
+    "ESTR SR AFLITOS TALHAO",
+    "ESTR SR AFLITOS",
+    "ESTR SENHOR DOS AFLITOS",
+    "R A",
+    "ESTR MUNICIPAL 1081 -ESTR DO SENHOR DOS AFLITOS",
+    "QTA DA TORMENTA",
+    "QTA BACELO PRETOS EST CHAINHA",
+    "QTA DO MESTRE ESCOLA",
+    "QTA NOVA VALE BOM"
+  ],
+  "centro": [
+    38.59939622739901,
+    -7.918856050785239
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.590399220640194,
+                -7.915057372734758
+              ],
+              [
+                38.5890508802911,
+                -7.911216418310402
+              ],
+              [
+                38.58824219923363,
+                -7.908271265653747
+              ],
+              [
+                38.58797317746778,
+                -7.906221914764795
+              ],
+              [
+                38.588243814993554,
+                -7.905068365643542
+              ],
+              [
+                38.58905411181094,
+                -7.904810618289991
+              ],
+              [
+                38.59040406791995,
+                -7.905448672704141
+              ],
+              [
+                38.592293683320584,
+                -7.906982528885992
+              ],
+              [
+                38.59472295801284,
+                -7.909412186835543
+              ],
+              [
+                38.5976918919967,
+                -7.912737646552796
+              ],
+              [
+                38.600389359307414,
+                -7.915890584245739
+              ],
+              [
+                38.60281535994496,
+                -7.91887099991437
+              ],
+              [
+                38.60496989390934,
+                -7.921678893558691
+              ],
+              [
+                38.60685296120056,
+                -7.924314265178701
+              ],
+              [
+                38.608464561818614,
+                -7.9267771147744
+              ],
+              [
+                38.6098046957635,
+                -7.929067442345789
+              ],
+              [
+                38.610873363035225,
+                -7.931185247892867
+              ],
+              [
+                38.61167056363379,
+                -7.933130531415634
+              ],
+              [
+                38.61211725849388,
+                -7.93469573118351
+              ],
+              [
+                38.612213447615524,
+                -7.9358808471964934
+              ],
+              [
+                38.6119591309987,
+                -7.936685879454586
+              ],
+              [
+                38.6113543086434,
+                -7.937110827957788
+              ],
+              [
+                38.61039898054965,
+                -7.9371556927060976
+              ],
+              [
+                38.60909314671744,
+                -7.936820473699515
+              ],
+              [
+                38.60743680714677,
+                -7.936105170938042
+              ],
+              [
+                38.60542996183763,
+                -7.935009784421677
+              ],
+              [
+                38.60363088605914,
+                -7.934018628418006
+              ],
+              [
+                38.602039579811304,
+                -7.933131702927032
+              ],
+              [
+                38.60065604309411,
+                -7.9323490079487495
+              ],
+              [
+                38.59948027590756,
+                -7.931670543483161
+              ],
+              [
+                38.59851227825166,
+                -7.931096309530269
+              ],
+              [
+                38.59775205012642,
+                -7.930626306090071
+              ],
+              [
+                38.59719959153182,
+                -7.930260533162567
+              ],
+              [
+                38.59685490246787,
+                -7.929998990747759
+              ],
+              [
+                38.59654501705438,
+                -7.929761033649239
+              ],
+              [
+                38.59626993529136,
+                -7.929546661867009
+              ],
+              [
+                38.59602965717879,
+                -7.92935587540107
+              ],
+              [
+                38.59582418271669,
+                -7.929188674251421
+              ],
+              [
+                38.59565351190505,
+                -7.929045058418062
+              ],
+              [
+                38.59551764474387,
+                -7.928925027900991
+              ],
+              [
+                38.59541658123316,
+                -7.928828582700211
+              ],
+              [
+                38.595350321372905,
+                -7.928755722815717
+              ],
+              [
+                38.59512380145155,
+                -7.928211851113743
+              ],
+              [
+                38.594737021469086,
+                -7.927196967594288
+              ],
+              [
+                38.594189981425515,
+                -7.925711072257347
+              ],
+              [
+                38.59348268132084,
+                -7.923754165102924
+              ],
+              [
+                38.59261512115506,
+                -7.921326246131018
+              ],
+              [
+                38.59158730092818,
+                -7.91842731534163
+              ],
+              [
+                38.590399220640194,
+                -7.915057372734758
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.59934142026666,
+    -7.9251415157106635
+  ],
+  "centroDeMassa": [
+    38.59939622739901,
+    -7.918856050785239
+  ]
+}

@@ -1,1 +1,424 @@
-{"CP4":"2500","CP3":"292","Distrito":"Leiria","Concelho":"Caldas da Rainha","CP":"2500-292","Artéria":"Rua do Forno","Localidade":"Imaginário","Local":"","Troço":"Pares de 2 a 12","Porta":"","Cliente":"","Designação Postal":"CALDAS DA RAINHA","locais":[{"id":"pt.ine.add.PTCONT.1984454","rua":"URB FORMIGAL","casa":"19 A","coordenadas":[39.40638941747116,-9.105516199131726]},{"id":"pt.ine.add.PTCONT.2000099","rua":"R FORNO","casa":"59","coordenadas":[39.40997571846425,-9.109629794657884]},{"id":"pt.ine.add.PTCONT.2021222","rua":"R FORNO","casa":"33","coordenadas":[39.40871704916638,-9.109356803925749]},{"id":"pt.ine.add.PTCONT.2021223","rua":"R FORNO","casa":"71","coordenadas":[39.41139070177513,-9.109521812896759]},{"id":"pt.ine.add.PTCONT.2063229","rua":"R PALMEIRA","casa":"37","coordenadas":[39.40665383473293,-9.107284629542525]},{"id":"pt.ine.add.PTCONT.2082868","rua":"R FORNO","casa":"77","coordenadas":[39.412562722919,-9.10938721603855]},{"id":"pt.ine.add.PTCONT.2086768","rua":"R PALMEIRA","casa":"28","coordenadas":[39.405817032321615,-9.108259845145149]},{"id":"pt.ine.add.PTCONT.2087491","rua":"R PALMEIRA","casa":"12","coordenadas":[39.40513394534749,-9.110235640171283]},{"id":"pt.ine.add.PTCONT.2087492","rua":"R PALMEIRA","casa":"10","coordenadas":[39.40513394534749,-9.110235640171283]},{"id":"pt.ine.add.PTCONT.2106516","rua":"R FORNO","casa":"35","coordenadas":[39.40886084981565,-9.109393641127136]},{"id":"pt.ine.add.PTCONT.2113385","rua":"R FORNO","casa":"73","coordenadas":[39.4117968399241,-9.10942297830801]},{"id":"pt.ine.add.PTCONT.2135673","rua":"R FORNO","casa":"37","coordenadas":[39.40899554720612,-9.109441962161752]},{"id":"pt.ine.add.PTCONT.2137668","rua":"R FORNO","casa":"12","coordenadas":[39.40707609455125,-9.108486367972537]},{"id":"pt.ine.add.PTCONT.2140298","rua":"R FORNO","casa":"31","coordenadas":[39.40858205946336,-9.109343310881789]},{"id":"pt.ine.add.PTCONT.2146702","rua":"R FORNO","casa":"4","coordenadas":[39.40626615527261,-9.108405422919287]},{"id":"pt.ine.add.PTCONT.2157482","rua":"R FORNO","casa":"45","coordenadas":[39.40940932715214,-9.109505786622611]},{"id":"pt.ine.add.PTCONT.2166335","rua":"R PALMEIRA","casa":"3","coordenadas":[39.40544885621852,-9.11027486529064]},{"id":"pt.ine.add.PTCONT.2170671","rua":"R FORNO","casa":"2","coordenadas":[39.4060585348911,-9.108460581405579]},{"id":"pt.ine.add.PTCONT.2188100","rua":"R FORNO","casa":"67","coordenadas":[39.409544316811456,-9.109519280172055]},{"id":"pt.ine.add.PTCONT.2192697","rua":"R FORNO","casa":"10","coordenadas":[39.40655443866317,-9.108397828671114]},{"id":"pt.ine.add.PTCONT.2207403","rua":"R PALMEIRA","casa":"14","coordenadas":[39.405297999849765,-9.110005729326017]},{"id":"pt.ine.add.PTCONT.2210621","rua":"URB FORMIGAL","casa":"21","coordenadas":[39.40660148057507,-9.10600677466644]},{"id":"pt.ine.add.PTCONT.2238755","rua":"R FORNO","casa":"7S","coordenadas":[39.41210303723248,-9.109427249139905]},{"id":"pt.ine.add.PTCONT.2258952","rua":"R PALMEIRA","casa":"16","coordenadas":[39.40546283355432,-9.109682947886665]},{"id":"pt.ine.add.PTCONT.2265741","rua":"R FORNO","casa":"39","coordenadas":[39.40919211586066,-9.109630474349874]}],"ruas":["URB FORMIGAL","R FORNO","R PALMEIRA"],"centroide":[39.40790969744694,-9.10896676284302]}2]}
+{
+  "CP": "2500-292",
+  "CP4": "2500",
+  "CP3": "292",
+  "Distrito": "Leiria",
+  "Concelho": "Caldas da Rainha",
+  "Localidade": "Imaginário",
+  "Designação Postal": "CALDAS DA RAINHA",
+  "partes": [
+    {
+      "Artéria": "Rua da Palmeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Forno",
+      "Local": "",
+      "Troço": "Impares de 31 a 77",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Forno",
+      "Local": "",
+      "Troço": "Pares de 2 a 12",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1984454",
+      "rua": "URB FORMIGAL",
+      "casa": "19 A",
+      "coordenadas": [
+        39.40638941747116,
+        -9.105516199131726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2000099",
+      "rua": "R FORNO",
+      "casa": "59",
+      "coordenadas": [
+        39.40997571846425,
+        -9.109629794657884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2021222",
+      "rua": "R FORNO",
+      "casa": "33",
+      "coordenadas": [
+        39.40871704916638,
+        -9.109356803925749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2021223",
+      "rua": "R FORNO",
+      "casa": "71",
+      "coordenadas": [
+        39.41139070177513,
+        -9.109521812896759
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2063229",
+      "rua": "R PALMEIRA",
+      "casa": "37",
+      "coordenadas": [
+        39.40665383473293,
+        -9.107284629542525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2082868",
+      "rua": "R FORNO",
+      "casa": "77",
+      "coordenadas": [
+        39.412562722919,
+        -9.10938721603855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2086768",
+      "rua": "R PALMEIRA",
+      "casa": "28",
+      "coordenadas": [
+        39.405817032321615,
+        -9.108259845145149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2087491",
+      "rua": "R PALMEIRA",
+      "casa": "12",
+      "coordenadas": [
+        39.40513394534749,
+        -9.110235640171283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2087492",
+      "rua": "R PALMEIRA",
+      "casa": "10",
+      "coordenadas": [
+        39.40513394534749,
+        -9.110235640171283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2106516",
+      "rua": "R FORNO",
+      "casa": "35",
+      "coordenadas": [
+        39.40886084981565,
+        -9.109393641127136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2113385",
+      "rua": "R FORNO",
+      "casa": "73",
+      "coordenadas": [
+        39.4117968399241,
+        -9.10942297830801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2135673",
+      "rua": "R FORNO",
+      "casa": "37",
+      "coordenadas": [
+        39.40899554720612,
+        -9.109441962161752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2137668",
+      "rua": "R FORNO",
+      "casa": "12",
+      "coordenadas": [
+        39.40707609455125,
+        -9.108486367972537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2140298",
+      "rua": "R FORNO",
+      "casa": "31",
+      "coordenadas": [
+        39.40858205946336,
+        -9.109343310881789
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2146702",
+      "rua": "R FORNO",
+      "casa": "4",
+      "coordenadas": [
+        39.40626615527261,
+        -9.108405422919287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2157482",
+      "rua": "R FORNO",
+      "casa": "45",
+      "coordenadas": [
+        39.40940932715214,
+        -9.109505786622611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2166335",
+      "rua": "R PALMEIRA",
+      "casa": "3",
+      "coordenadas": [
+        39.40544885621852,
+        -9.11027486529064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2170671",
+      "rua": "R FORNO",
+      "casa": "2",
+      "coordenadas": [
+        39.4060585348911,
+        -9.108460581405579
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2188100",
+      "rua": "R FORNO",
+      "casa": "67",
+      "coordenadas": [
+        39.409544316811456,
+        -9.109519280172055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2192697",
+      "rua": "R FORNO",
+      "casa": "10",
+      "coordenadas": [
+        39.40655443866317,
+        -9.108397828671114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2207403",
+      "rua": "R PALMEIRA",
+      "casa": "14",
+      "coordenadas": [
+        39.405297999849765,
+        -9.110005729326017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2210621",
+      "rua": "URB FORMIGAL",
+      "casa": "21",
+      "coordenadas": [
+        39.40660148057507,
+        -9.10600677466644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2238755",
+      "rua": "R FORNO",
+      "casa": "7S",
+      "coordenadas": [
+        39.41210303723248,
+        -9.109427249139905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2258952",
+      "rua": "R PALMEIRA",
+      "casa": "16",
+      "coordenadas": [
+        39.40546283355432,
+        -9.109682947886665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2265741",
+      "rua": "R FORNO",
+      "casa": "39",
+      "coordenadas": [
+        39.40919211586066,
+        -9.109630474349874
+      ]
+    }
+  ],
+  "ruas": [
+    "URB FORMIGAL",
+    "R FORNO",
+    "R PALMEIRA"
+  ],
+  "centro": [
+    39.40884833413324,
+    -9.107895532211183
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.405311082712444,
+                -9.11025770430092
+              ],
+              [
+                39.40527171885356,
+                -9.110252801161002
+              ],
+              [
+                39.40525689222898,
+                -9.110174769647328
+              ],
+              [
+                39.40526660283868,
+                -9.110023609759903
+              ],
+              [
+                39.40530085068268,
+                -9.109799321498723
+              ],
+              [
+                39.40535963576097,
+                -9.109501904863793
+              ],
+              [
+                39.40544295807355,
+                -9.109131359855107
+              ],
+              [
+                39.40555081762043,
+                -9.108687686472669
+              ],
+              [
+                39.40568321440159,
+                -9.108170884716477
+              ],
+              [
+                39.405840148417056,
+                -9.107580954586531
+              ],
+              [
+                39.406073923578205,
+                -9.107125250362
+              ],
+              [
+                39.40638453988504,
+                -9.106803772042879
+              ],
+              [
+                39.40677199733757,
+                -9.10661651962917
+              ],
+              [
+                39.40723629593579,
+                -9.106563493120875
+              ],
+              [
+                39.4077774356797,
+                -9.106644692517992
+              ],
+              [
+                39.4083954165693,
+                -9.10686011782052
+              ],
+              [
+                39.40909023860459,
+                -9.107209769028461
+              ],
+              [
+                39.409861901785575,
+                -9.107693646141815
+              ],
+              [
+                39.41042595290173,
+                -9.108130908135564
+              ],
+              [
+                39.41078239195308,
+                -9.108521555009705
+              ],
+              [
+                39.41093121893961,
+                -9.108865586764244
+              ],
+              [
+                39.410872433861314,
+                -9.109163003399177
+              ],
+              [
+                39.41060603671821,
+                -9.109413804914503
+              ],
+              [
+                39.410132027510286,
+                -9.109617991310225
+              ],
+              [
+                39.40945040623754,
+                -9.109775562586341
+              ],
+              [
+                39.40856117289998,
+                -9.109886518742849
+              ],
+              [
+                39.40777817324725,
+                -9.109982992487307
+              ],
+              [
+                39.40710140727936,
+                -9.11006498381971
+              ],
+              [
+                39.40653087499631,
+                -9.11013249274006
+              ],
+              [
+                39.40606657639809,
+                -9.110185519248358
+              ],
+              [
+                39.405708511484704,
+                -9.1102240633446
+              ],
+              [
+                39.40545668025615,
+                -9.110248125028786
+              ],
+              [
+                39.405311082712444,
+                -9.11025770430092
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.40738373548904,
+    -9.10885348015805
+  ],
+  "centroDeMassa": [
+    39.40884833413324,
+    -9.107895532211183
+  ]
+}

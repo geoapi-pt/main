@@ -1,1 +1,435 @@
-{"CP4":"1100","CP3":"196","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1100-196","Artéria":"Rua Diogo do Couto","Localidade":"Lisboa","Local":"","Troço":"Pares de 2 a 10B","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2871501","rua":"R DIOGO DO COUTO","casa":"6","coordenadas":[38.717257098837386,-9.121057681584649]},{"id":"pt.ine.add.PTCONT.2871502","rua":"R DIOGO DO COUTO","casa":"6","coordenadas":[38.717257098837386,-9.121057681584649]},{"id":"pt.ine.add.PTCONT.2871503","rua":"R DIOGO DO COUTO","casa":"6","coordenadas":[38.717257098837386,-9.121057681584649]},{"id":"pt.ine.add.PTCONT.2871504","rua":"R DIOGO DO COUTO","casa":"6","coordenadas":[38.717257098837386,-9.121057681584649]},{"id":"pt.ine.add.PTCONT.2871505","rua":"R DIOGO DO COUTO","casa":"6","coordenadas":[38.717257098837386,-9.121057681584649]},{"id":"pt.ine.add.PTCONT.2878783","rua":"R DIOGO DO COUTO","casa":"6","coordenadas":[38.717257098837386,-9.121057681584649]},{"id":"pt.ine.add.PTCONT.2962417","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2962418","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2962419","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2962420","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2962421","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2962422","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2962423","rua":"R DIOGO DO COUTO","casa":"4D","coordenadas":[38.71714156405704,-9.12087212600663]},{"id":"pt.ine.add.PTCONT.2985440","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.2985441","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.2985442","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.2985443","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.2985444","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.2985445","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.2985446","rua":"R DIOGO DO COUTO","casa":"4","coordenadas":[38.71702612608389,-9.12067507456981]},{"id":"pt.ine.add.PTCONT.3221294","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221295","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221296","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221297","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221298","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221299","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221569","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]},{"id":"pt.ine.add.PTCONT.3221587","rua":"R DIOGO DO COUTO","casa":"2","coordenadas":[38.716928701467246,-9.120478271621597]}],"ruas":["R DIOGO DO COUTO"],"centroide":[38.717082123491906,-9.120760162773863]}
+{
+  "CP": "1100-196",
+  "CP4": "1100",
+  "CP3": "196",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua Diogo do Couto",
+      "Local": "",
+      "Troço": "Pares de 2 a 10B",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2871501",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "6",
+      "coordenadas": [
+        38.717257098837386,
+        -9.121057681584649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2871502",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "6",
+      "coordenadas": [
+        38.717257098837386,
+        -9.121057681584649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2871503",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "6",
+      "coordenadas": [
+        38.717257098837386,
+        -9.121057681584649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2871504",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "6",
+      "coordenadas": [
+        38.717257098837386,
+        -9.121057681584649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2871505",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "6",
+      "coordenadas": [
+        38.717257098837386,
+        -9.121057681584649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2878783",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "6",
+      "coordenadas": [
+        38.717257098837386,
+        -9.121057681584649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962417",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962418",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962419",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962420",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962421",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962422",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2962423",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4D",
+      "coordenadas": [
+        38.71714156405704,
+        -9.12087212600663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985440",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985441",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985442",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985443",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985444",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985445",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2985446",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "4",
+      "coordenadas": [
+        38.71702612608389,
+        -9.12067507456981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221294",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221295",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221296",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221297",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221298",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221299",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221569",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3221587",
+      "rua": "R DIOGO DO COUTO",
+      "casa": "2",
+      "coordenadas": [
+        38.716928701467246,
+        -9.120478271621597
+      ]
+    }
+  ],
+  "ruas": [
+    "R DIOGO DO COUTO"
+  ],
+  "centro": [
+    38.717092900152316,
+    -9.120767976603123
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71698350281411,
+                -9.120588973279968
+              ],
+              [
+                38.716971324737024,
+                -9.120564372911439
+              ],
+              [
+                38.71696580012849,
+                -9.12055190086965
+              ],
+              [
+                38.7169669289885,
+                -9.120551557154602
+              ],
+              [
+                38.71697471131704,
+                -9.12056334176629
+              ],
+              [
+                38.71698914711414,
+                -9.120587254704718
+              ],
+              [
+                38.71701023637978,
+                -9.120623295969885
+              ],
+              [
+                38.717037979113954,
+                -9.120671465561788
+              ],
+              [
+                38.71707237531668,
+                -9.120731763480432
+              ],
+              [
+                38.71711342498795,
+                -9.120804189725813
+              ],
+              [
+                38.717147538219365,
+                -9.120864663384616
+              ],
+              [
+                38.717174715010934,
+                -9.120913184456839
+              ],
+              [
+                38.71719495536264,
+                -9.120949752942483
+              ],
+              [
+                38.71720825927451,
+                -9.120974368841548
+              ],
+              [
+                38.71721462674652,
+                -9.120987032154034
+              ],
+              [
+                38.717214057778676,
+                -9.12098774287994
+              ],
+              [
+                38.71720655237098,
+                -9.120976501019266
+              ],
+              [
+                38.71719211052344,
+                -9.120953306572012
+              ],
+              [
+                38.717177670188505,
+                -9.120929932501966
+              ],
+              [
+                38.717163231366186,
+                -9.120906378809128
+              ],
+              [
+                38.717148794056484,
+                -9.120882645493493
+              ],
+              [
+                38.717134358259386,
+                -9.120858732555066
+              ],
+              [
+                38.717119923974906,
+                -9.120834639993845
+              ],
+              [
+                38.71710549120304,
+                -9.120810367809831
+              ],
+              [
+                38.71709105994378,
+                -9.120785916003022
+              ],
+              [
+                38.71707663019714,
+                -9.120761284573419
+              ],
+              [
+                38.717062481909196,
+                -9.12073665702645
+              ],
+              [
+                38.717048615079946,
+                -9.120712033362118
+              ],
+              [
+                38.717035029709386,
+                -9.120687413580418
+              ],
+              [
+                38.71702172579752,
+                -9.120662797681355
+              ],
+              [
+                38.717008703344355,
+                -9.120638185664925
+              ],
+              [
+                38.716995962349884,
+                -9.12061357753113
+              ],
+              [
+                38.71698350281411,
+                -9.120588973279968
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71708837261139,
+    -9.120770788445672
+  ],
+  "centroDeMassa": [
+    38.717092900152316,
+    -9.120767976603123
+  ]
+}

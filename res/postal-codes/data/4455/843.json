@@ -1,1 +1,455 @@
-{"CP4":"4455","CP3":"843","Distrito":"Porto","Concelho":"Matosinhos","CP":"4455-843","Artéria":"Travessa Monte dos Outeiros","Localidade":"Santa Cruz do Bispo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTA CRUZ DO BISPO","locais":[{"id":"pt.ine.add.PTCONT.3599620","rua":"TV MONTE DOS OUTEIROS","casa":"59","coordenadas":[41.21181193133782,-8.671959671951425]},{"id":"pt.ine.add.PTCONT.3726802","rua":"TV MONTE DOS OUTEIROS","casa":"61","coordenadas":[41.21200118070426,-8.671925453308113]},{"id":"pt.ine.add.PTCONT.3726803","rua":"TV MONTE DOS OUTEIROS","casa":"61","coordenadas":[41.21200118070426,-8.671925453308113]},{"id":"pt.ine.add.PTCONT.3726804","rua":"TV MONTE DOS OUTEIROS","casa":"61","coordenadas":[41.21200118070426,-8.671925453308113]},{"id":"pt.ine.add.PTCONT.3726805","rua":"TV MONTE DOS OUTEIROS","casa":"61","coordenadas":[41.21200118070426,-8.671925453308113]},{"id":"pt.ine.add.PTCONT.3726806","rua":"TV MONTE DOS OUTEIROS","casa":"61","coordenadas":[41.21200118070426,-8.671925453308113]},{"id":"pt.ine.add.PTCONT.3726807","rua":"TV MONTE DOS OUTEIROS","casa":"61","coordenadas":[41.21200118070426,-8.671925453308113]},{"id":"pt.ine.add.PTCONT.3745935","rua":"TV MONTE DOS OUTEIROS","casa":"128","coordenadas":[41.21203170466617,-8.671174500774821]},{"id":"pt.ine.add.PTCONT.3745936","rua":"TV MONTE DOS OUTEIROS","casa":"128","coordenadas":[41.21203170466617,-8.671174500774821]},{"id":"pt.ine.add.PTCONT.3815549","rua":"TV MONTE DOS OUTEIROS","casa":"93","coordenadas":[41.21198439994982,-8.671662990957953]},{"id":"pt.ine.add.PTCONT.3832519","rua":"TV MONTE OUTEIROS","casa":"124","coordenadas":[41.21192293345375,-8.671328619423063]},{"id":"pt.ine.add.PTCONT.3832522","rua":"TV MONTE DOS OUTEIROS","casa":"118","coordenadas":[41.21192293345375,-8.671328619423063]},{"id":"pt.ine.add.PTCONT.3832523","rua":"TV MONTE OUTEIROS","casa":"124","coordenadas":[41.21192293345375,-8.671328619423063]},{"id":"pt.ine.add.PTCONT.3832524","rua":"TV MONTE OUTEIROS","casa":"124","coordenadas":[41.21192293345375,-8.671328619423063]},{"id":"pt.ine.add.PTCONT.3857942","rua":"TV MONTE DOS OUTEIROS","casa":"155","coordenadas":[41.212311939714645,-8.670938318793683]},{"id":"pt.ine.add.PTCONT.4052130","rua":"TV MONTE DOS OUTEIROS","casa":"138","coordenadas":[41.212050715077446,-8.670960027051368]},{"id":"pt.ine.add.PTCONT.4091635","rua":"TV MONTE DOS OUTEIROS","casa":"153","coordenadas":[41.21222095380664,-8.671140279758445]},{"id":"pt.ine.add.PTCONT.4150455","rua":"TV MONTE DOS OUTEIROS","casa":"33","coordenadas":[41.21177535773662,-8.672078609946198]},{"id":"pt.ine.add.PTCONT.4153896","rua":"TV MONTE DOS OUTEIROS","casa":"33","coordenadas":[41.21177535773662,-8.672078609946198]},{"id":"pt.ine.add.PTCONT.4154000","rua":"TV MONTE DOS OUTEIROS","casa":"33","coordenadas":[41.21177535773662,-8.672078609946198]},{"id":"pt.ine.add.PTCONT.4185793","rua":"TV MONTE OUTEIROS","casa":"24","coordenadas":[41.211774743813315,-8.672209766818705]},{"id":"pt.ine.add.PTCONT.4186436","rua":"TV MONTE DOS OUTEIROS","casa":"26","coordenadas":[41.211774743813315,-8.672209766818705]},{"id":"pt.ine.add.PTCONT.4377495","rua":"TV MONTE DOS OUTEIROS","casa":"118","coordenadas":[41.21192293345375,-8.671328619423063]}],"ruas":["TV MONTE DOS OUTEIROS","TV MONTE OUTEIROS"],"centroide":[41.211955351277076,-8.671660584139975]}
+{
+  "CP": "4455-843",
+  "CP4": "4455",
+  "CP3": "843",
+  "Distrito": "Porto",
+  "Concelho": "Matosinhos",
+  "Localidade": "Santa Cruz do Bispo",
+  "Designação Postal": "SANTA CRUZ DO BISPO",
+  "partes": [
+    {
+      "Artéria": "Travessa Monte dos Outeiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3599620",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "59",
+      "coordenadas": [
+        41.21181193133782,
+        -8.671959671951425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726802",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "61",
+      "coordenadas": [
+        41.21200118070426,
+        -8.671925453308113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726803",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "61",
+      "coordenadas": [
+        41.21200118070426,
+        -8.671925453308113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726804",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "61",
+      "coordenadas": [
+        41.21200118070426,
+        -8.671925453308113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726805",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "61",
+      "coordenadas": [
+        41.21200118070426,
+        -8.671925453308113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726806",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "61",
+      "coordenadas": [
+        41.21200118070426,
+        -8.671925453308113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726807",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "61",
+      "coordenadas": [
+        41.21200118070426,
+        -8.671925453308113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3745935",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "128",
+      "coordenadas": [
+        41.21203170466617,
+        -8.671174500774821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3745936",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "128",
+      "coordenadas": [
+        41.21203170466617,
+        -8.671174500774821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3815549",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "93",
+      "coordenadas": [
+        41.21198439994982,
+        -8.671662990957953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3832519",
+      "rua": "TV MONTE OUTEIROS",
+      "casa": "124",
+      "coordenadas": [
+        41.21192293345375,
+        -8.671328619423063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3832522",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "118",
+      "coordenadas": [
+        41.21192293345375,
+        -8.671328619423063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3832523",
+      "rua": "TV MONTE OUTEIROS",
+      "casa": "124",
+      "coordenadas": [
+        41.21192293345375,
+        -8.671328619423063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3832524",
+      "rua": "TV MONTE OUTEIROS",
+      "casa": "124",
+      "coordenadas": [
+        41.21192293345375,
+        -8.671328619423063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3857942",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "155",
+      "coordenadas": [
+        41.212311939714645,
+        -8.670938318793683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4052130",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "138",
+      "coordenadas": [
+        41.212050715077446,
+        -8.670960027051368
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4091635",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "153",
+      "coordenadas": [
+        41.21222095380664,
+        -8.671140279758445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4150455",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "33",
+      "coordenadas": [
+        41.21177535773662,
+        -8.672078609946198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4153896",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "33",
+      "coordenadas": [
+        41.21177535773662,
+        -8.672078609946198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4154000",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "33",
+      "coordenadas": [
+        41.21177535773662,
+        -8.672078609946198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4185793",
+      "rua": "TV MONTE OUTEIROS",
+      "casa": "24",
+      "coordenadas": [
+        41.211774743813315,
+        -8.672209766818705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4186436",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "26",
+      "coordenadas": [
+        41.211774743813315,
+        -8.672209766818705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4377495",
+      "rua": "TV MONTE DOS OUTEIROS",
+      "casa": "118",
+      "coordenadas": [
+        41.21192293345375,
+        -8.671328619423063
+      ]
+    }
+  ],
+  "ruas": [
+    "TV MONTE DOS OUTEIROS",
+    "TV MONTE OUTEIROS"
+  ],
+  "centro": [
+    41.21204334176398,
+    -8.671574042806194
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.21190211456447,
+                -8.672049840468997
+              ],
+              [
+                41.211873809953104,
+                -8.67208537965782
+              ],
+              [
+                41.21184905301071,
+                -8.67211442712191
+              ],
+              [
+                41.21182784373728,
+                -8.672136982861261
+              ],
+              [
+                41.21181018213283,
+                -8.672153046875877
+              ],
+              [
+                41.21179606819736,
+                -8.672162619165759
+              ],
+              [
+                41.21178550193085,
+                -8.672165699730902
+              ],
+              [
+                41.21177848333332,
+                -8.672162288571311
+              ],
+              [
+                41.21177501240476,
+                -8.672152385686982
+              ],
+              [
+                41.21177508914518,
+                -8.67213599107792
+              ],
+              [
+                41.21177746216362,
+                -8.672109927193066
+              ],
+              [
+                41.21178213146009,
+                -8.672074194032419
+              ],
+              [
+                41.21178909703459,
+                -8.672028791595983
+              ],
+              [
+                41.211798358887116,
+                -8.671973719883756
+              ],
+              [
+                41.21180991701767,
+                -8.671908978895736
+              ],
+              [
+                41.21182377142625,
+                -8.671834568631928
+              ],
+              [
+                41.211839922112866,
+                -8.671750489092327
+              ],
+              [
+                41.211858369077504,
+                -8.671656740276934
+              ],
+              [
+                41.21187650675944,
+                -8.671568950807659
+              ],
+              [
+                41.211894335158654,
+                -8.671487120684498
+              ],
+              [
+                41.211911854275165,
+                -8.671411249907456
+              ],
+              [
+                41.21192906410897,
+                -8.67134133847653
+              ],
+              [
+                41.21194596466006,
+                -8.671277386391719
+              ],
+              [
+                41.211962555928444,
+                -8.671219393653026
+              ],
+              [
+                41.21197883791412,
+                -8.671167360260446
+              ],
+              [
+                41.21199481061707,
+                -8.671121286213985
+              ],
+              [
+                41.21201286836712,
+                -8.671080632231805
+              ],
+              [
+                41.21203301116426,
+                -8.671045398313906
+              ],
+              [
+                41.21205523900848,
+                -8.671015584460287
+              ],
+              [
+                41.212079551899784,
+                -8.670991190670952
+              ],
+              [
+                41.212105949838175,
+                -8.670972216945897
+              ],
+              [
+                41.21213443282366,
+                -8.670958663285122
+              ],
+              [
+                41.21216500085622,
+                -8.67095052968863
+              ],
+              [
+                41.212197653935874,
+                -8.67094781615642
+              ],
+              [
+                41.21222136977103,
+                -8.670960865792523
+              ],
+              [
+                41.21223614836169,
+                -8.670989678596943
+              ],
+              [
+                41.21224198970786,
+                -8.671034254569674
+              ],
+              [
+                41.212238893809534,
+                -8.67109459371072
+              ],
+              [
+                41.21222686066672,
+                -8.67117069602008
+              ],
+              [
+                41.21220589027941,
+                -8.671262561497757
+              ],
+              [
+                41.2121759826476,
+                -8.671370190143746
+              ],
+              [
+                41.21213713777131,
+                -8.67149358195805
+              ],
+              [
+                41.212099610428126,
+                -8.671605992194166
+              ],
+              [
+                41.21206340061806,
+                -8.671707420852101
+              ],
+              [
+                41.212028508341106,
+                -8.67179786793185
+              ],
+              [
+                41.21199493359727,
+                -8.671877333433414
+              ],
+              [
+                41.211962676386555,
+                -8.671945817356793
+              ],
+              [
+                41.211931736708955,
+                -8.672003319701986
+              ],
+              [
+                41.21190211456447,
+                -8.672049840468997
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.21197281175001,
+    -8.671573465890187
+  ],
+  "centroDeMassa": [
+    41.21204334176398,
+    -8.671574042806194
+  ]
+}

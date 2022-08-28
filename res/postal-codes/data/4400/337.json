@@ -1,1 +1,436 @@
-{"CP4":"4400","CP3":"337","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4400-337","Artéria":"Rua Visconde das Devesas","Localidade":"Vila Nova de Gaia","Local":"Santa Marinha","Troço":"Pares de 160 a 456","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3628107","rua":"R VISC DAS DEVESAS","casa":"286","coordenadas":[41.12737967863267,-8.619049451153183]},{"id":"pt.ine.add.PTCONT.3628108","rua":"R VISC DAS DEVESAS","casa":"304","coordenadas":[41.12649038002507,-8.618542738681846]},{"id":"pt.ine.add.PTCONT.3641308","rua":"R VISC DAS DEVESAS","casa":"430","coordenadas":[41.125672861267475,-8.618096109560122]},{"id":"pt.ine.add.PTCONT.3682338","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3682488","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3682489","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3682490","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3682491","rua":"R VISC DEVESAS","casa":"","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3682492","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3682493","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3686143","rua":"R VISC DAS DEVESAS","casa":"165","coordenadas":[41.12791987507135,-8.619065345293695]},{"id":"pt.ine.add.PTCONT.3774655","rua":"R VISC DAS DEVESAS","casa":"418","coordenadas":[41.12573568954646,-8.618144205094108]},{"id":"pt.ine.add.PTCONT.3774656","rua":"R VISC DAS DEVESAS","casa":"418","coordenadas":[41.12573568954646,-8.618144205094108]},{"id":"pt.ine.add.PTCONT.3774657","rua":"R VISC DAS DEVESAS","casa":"418","coordenadas":[41.12573568954646,-8.618144205094108]},{"id":"pt.ine.add.PTCONT.3828745","rua":"R VISC DAS DEVESAS","casa":"292","coordenadas":[41.12731685076101,-8.619001353543688]},{"id":"pt.ine.add.PTCONT.3828746","rua":"R VISC DAS DEVESAS","casa":"436","coordenadas":[41.125574016504274,-8.618047748960736]},{"id":"pt.ine.add.PTCONT.3828747","rua":"R VISC DAS DEVESAS","casa":"436","coordenadas":[41.125574016504274,-8.618047748960736]},{"id":"pt.ine.add.PTCONT.4008041","rua":"R VISC DAS DEVESAS","casa":"414","coordenadas":[41.1257896139662,-8.618168418661366]},{"id":"pt.ine.add.PTCONT.4009359","rua":"R VISC DAS DEVESAS","casa":"414","coordenadas":[41.1257896139662,-8.618168418661366]},{"id":"pt.ine.add.PTCONT.4009567","rua":"R VISC DAS DEVESAS","casa":"414","coordenadas":[41.1257896139662,-8.618168418661366]},{"id":"pt.ine.add.PTCONT.4110863","rua":"R VISC DAS DEVESAS","casa":"296","coordenadas":[41.12659812830412,-8.618614983114314]},{"id":"pt.ine.add.PTCONT.4244911","rua":"R VISC DAS DEVESAS","casa":"5-9","coordenadas":[41.12846293281688,-8.61840246340572]},{"id":"pt.ine.add.PTCONT.4304839","rua":"R VISC DAS DEVESAS","casa":"406","coordenadas":[41.12587045044304,-8.61821664697651]},{"id":"pt.ine.add.PTCONT.4304840","rua":"R VISC DAS DEVESAS","casa":"406","coordenadas":[41.12587045044304,-8.61821664697651]},{"id":"pt.ine.add.PTCONT.4304841","rua":"R VISC DAS DEVESAS","casa":"406","coordenadas":[41.12587045044304,-8.61821664697651]},{"id":"pt.ine.add.PTCONT.4304842","rua":"R VISC DAS DEVESAS","casa":"434","coordenadas":[41.12563694506218,-8.618072028681281]},{"id":"pt.ine.add.PTCONT.4311702","rua":"R VISC DEVESAS","casa":"456","coordenadas":[41.12540313878991,-8.617998858248832]},{"id":"pt.ine.add.PTCONT.4312425","rua":"R VISC DEVESAS","casa":"456","coordenadas":[41.12540313878991,-8.617998858248832]}],"ruas":["R VISC DAS DEVESAS","R VISC DEVESAS"],"centroide":[41.126653896707616,-8.618517928105776]}
+{
+  "CP": "4400-337",
+  "CP4": "4400",
+  "CP3": "337",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Rua Visconde das Devesas",
+      "Local": "Santa Marinha",
+      "Troço": "Pares de 160 a 456",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3628107",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "286",
+      "coordenadas": [
+        41.12737967863267,
+        -8.619049451153183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3628108",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "304",
+      "coordenadas": [
+        41.12649038002507,
+        -8.618542738681846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3641308",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "430",
+      "coordenadas": [
+        41.125672861267475,
+        -8.618096109560122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682338",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682488",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682489",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682490",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682491",
+      "rua": "R VISC DEVESAS",
+      "casa": "",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682492",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682493",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3686143",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "165",
+      "coordenadas": [
+        41.12791987507135,
+        -8.619065345293695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3774655",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "418",
+      "coordenadas": [
+        41.12573568954646,
+        -8.618144205094108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3774656",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "418",
+      "coordenadas": [
+        41.12573568954646,
+        -8.618144205094108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3774657",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "418",
+      "coordenadas": [
+        41.12573568954646,
+        -8.618144205094108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3828745",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "292",
+      "coordenadas": [
+        41.12731685076101,
+        -8.619001353543688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3828746",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "436",
+      "coordenadas": [
+        41.125574016504274,
+        -8.618047748960736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3828747",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "436",
+      "coordenadas": [
+        41.125574016504274,
+        -8.618047748960736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4008041",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "414",
+      "coordenadas": [
+        41.1257896139662,
+        -8.618168418661366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4009359",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "414",
+      "coordenadas": [
+        41.1257896139662,
+        -8.618168418661366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4009567",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "414",
+      "coordenadas": [
+        41.1257896139662,
+        -8.618168418661366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4110863",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "296",
+      "coordenadas": [
+        41.12659812830412,
+        -8.618614983114314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4244911",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "5-9",
+      "coordenadas": [
+        41.12846293281688,
+        -8.61840246340572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304839",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "406",
+      "coordenadas": [
+        41.12587045044304,
+        -8.61821664697651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304840",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "406",
+      "coordenadas": [
+        41.12587045044304,
+        -8.61821664697651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304841",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "406",
+      "coordenadas": [
+        41.12587045044304,
+        -8.61821664697651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304842",
+      "rua": "R VISC DAS DEVESAS",
+      "casa": "434",
+      "coordenadas": [
+        41.12563694506218,
+        -8.618072028681281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4311702",
+      "rua": "R VISC DEVESAS",
+      "casa": "456",
+      "coordenadas": [
+        41.12540313878991,
+        -8.617998858248832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4312425",
+      "rua": "R VISC DEVESAS",
+      "casa": "456",
+      "coordenadas": [
+        41.12540313878991,
+        -8.617998858248832
+      ]
+    }
+  ],
+  "ruas": [
+    "R VISC DAS DEVESAS",
+    "R VISC DEVESAS"
+  ],
+  "centro": [
+    41.1269330358034,
+    -8.618532101771263
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.126514942451465,
+                -8.61858981675753
+              ],
+              [
+                41.12626787497112,
+                -8.618458492644486
+              ],
+              [
+                41.12609950020749,
+                -8.618349890376148
+              ],
+              [
+                41.126009818160576,
+                -8.618264009952517
+              ],
+              [
+                41.125998828830376,
+                -8.618200851373594
+              ],
+              [
+                41.12606653221688,
+                -8.61816041463938
+              ],
+              [
+                41.126212928320115,
+                -8.618142699749871
+              ],
+              [
+                41.12643801714005,
+                -8.618147706705066
+              ],
+              [
+                41.12674179867671,
+                -8.618175435504972
+              ],
+              [
+                41.12712427293008,
+                -8.618225886149581
+              ],
+              [
+                41.1274504526245,
+                -8.618280387993115
+              ],
+              [
+                41.12772033775998,
+                -8.618338941035573
+              ],
+              [
+                41.12793392833652,
+                -8.618401545276953
+              ],
+              [
+                41.12809122435411,
+                -8.618468200717258
+              ],
+              [
+                41.128192225812754,
+                -8.618538907356484
+              ],
+              [
+                41.128236932712454,
+                -8.618613665194633
+              ],
+              [
+                41.12822534505321,
+                -8.618692474231707
+              ],
+              [
+                41.12815746283502,
+                -8.618775334467706
+              ],
+              [
+                41.12808962532475,
+                -8.618847588828258
+              ],
+              [
+                41.12802183252239,
+                -8.618909237313364
+              ],
+              [
+                41.12795408442796,
+                -8.618960279923026
+              ],
+              [
+                41.127886381041456,
+                -8.619000716657242
+              ],
+              [
+                41.12781872236286,
+                -8.619030547516013
+              ],
+              [
+                41.12775110839218,
+                -8.61904977249934
+              ],
+              [
+                41.12768353912943,
+                -8.61905839160722
+              ],
+              [
+                41.12761601457459,
+                -8.619056404839657
+              ],
+              [
+                41.12752604715406,
+                -8.619038250903909
+              ],
+              [
+                41.12741363686786,
+                -8.619003929799973
+              ],
+              [
+                41.12727878371595,
+                -8.618953441527855
+              ],
+              [
+                41.12712148769836,
+                -8.61888678608755
+              ],
+              [
+                41.126941748815085,
+                -8.618803963479063
+              ],
+              [
+                41.126739567066124,
+                -8.618704973702389
+              ],
+              [
+                41.126514942451465,
+                -8.61858981675753
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.1272914063277,
+    -8.618629029525358
+  ],
+  "centroDeMassa": [
+    41.1269330358034,
+    -8.618532101771263
+  ]
+}

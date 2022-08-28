@@ -1,1 +1,364 @@
-{"CP4":"4410","CP3":"521","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4410-521","Artéria":"Rua João Villaret","Localidade":"São Félix da Marinha","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO FELIX DA MARINHA","locais":[{"id":"pt.ine.add.PTCONT.3840730","rua":"R JOÃO VILLARET","casa":"104","coordenadas":[41.04434899467208,-8.627655651166553]},{"id":"pt.ine.add.PTCONT.3840731","rua":"R JOÃO VILLARET","casa":"190","coordenadas":[41.043871208997786,-8.627782902364963]},{"id":"pt.ine.add.PTCONT.3983408","rua":"R JOÃO VILLARET","casa":"30","coordenadas":[41.044943529000165,-8.627600633915327]},{"id":"pt.ine.add.PTCONT.3983409","rua":"R JOÃO VILLARET","casa":"30","coordenadas":[41.044943529000165,-8.627600633915327]},{"id":"pt.ine.add.PTCONT.3983410","rua":"R JOÃO VILLARET","casa":"30","coordenadas":[41.044943529000165,-8.627600633915327]},{"id":"pt.ine.add.PTCONT.3983411","rua":"R JOÃO VILLARET","casa":"30","coordenadas":[41.044943529000165,-8.627600633915327]},{"id":"pt.ine.add.PTCONT.3983412","rua":"R JOÃO VILLARET","casa":"30","coordenadas":[41.044943529000165,-8.627600633915327]},{"id":"pt.ine.add.PTCONT.3983413","rua":"R JOÃO VILLARET","casa":"30","coordenadas":[41.044943529000165,-8.627600633915327]},{"id":"pt.ine.add.PTCONT.4068355","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068356","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068357","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068368","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068369","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068370","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068371","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4068508","rua":"ACSS SEM NOME","casa":"","coordenadas":[41.02242249648762,-8.615007506720934]},{"id":"pt.ine.add.PTCONT.4069129","rua":"R JOÃO VILLARET","casa":"68","coordenadas":[41.04458259423181,-8.627776335905667]},{"id":"pt.ine.add.PTCONT.4081155","rua":"R JOÃO VILLARET","casa":"106","coordenadas":[41.04426790556397,-8.627666937630716]},{"id":"pt.ine.add.PTCONT.4110971","rua":"R JOÃO VILLARET","casa":"122","coordenadas":[41.04411457845033,-8.627725257262268]},{"id":"pt.ine.add.PTCONT.4356072","rua":"R JOÃO VILLARET","casa":"140","coordenadas":[41.04404244251926,-8.627748504133928]}],"ruas":["R JOÃO VILLARET","ACSS SEM NOME"],"centroide":[41.04343932168564,-8.62703435504646]}
+{
+  "CP": "4410-521",
+  "CP4": "4410",
+  "CP3": "521",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "São Félix da Marinha",
+  "Designação Postal": "SÃO FELIX DA MARINHA",
+  "partes": [
+    {
+      "Artéria": "Rua João Villaret",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3840730",
+      "rua": "R JOÃO VILLARET",
+      "casa": "104",
+      "coordenadas": [
+        41.04434899467208,
+        -8.627655651166553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3840731",
+      "rua": "R JOÃO VILLARET",
+      "casa": "190",
+      "coordenadas": [
+        41.043871208997786,
+        -8.627782902364963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983408",
+      "rua": "R JOÃO VILLARET",
+      "casa": "30",
+      "coordenadas": [
+        41.044943529000165,
+        -8.627600633915327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983409",
+      "rua": "R JOÃO VILLARET",
+      "casa": "30",
+      "coordenadas": [
+        41.044943529000165,
+        -8.627600633915327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983410",
+      "rua": "R JOÃO VILLARET",
+      "casa": "30",
+      "coordenadas": [
+        41.044943529000165,
+        -8.627600633915327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983411",
+      "rua": "R JOÃO VILLARET",
+      "casa": "30",
+      "coordenadas": [
+        41.044943529000165,
+        -8.627600633915327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983412",
+      "rua": "R JOÃO VILLARET",
+      "casa": "30",
+      "coordenadas": [
+        41.044943529000165,
+        -8.627600633915327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983413",
+      "rua": "R JOÃO VILLARET",
+      "casa": "30",
+      "coordenadas": [
+        41.044943529000165,
+        -8.627600633915327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068355",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068356",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068357",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068368",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068369",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068370",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068371",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068508",
+      "rua": "ACSS SEM NOME",
+      "casa": "",
+      "coordenadas": [
+        41.02242249648762,
+        -8.615007506720934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4069129",
+      "rua": "R JOÃO VILLARET",
+      "casa": "68",
+      "coordenadas": [
+        41.04458259423181,
+        -8.627776335905667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4081155",
+      "rua": "R JOÃO VILLARET",
+      "casa": "106",
+      "coordenadas": [
+        41.04426790556397,
+        -8.627666937630716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4110971",
+      "rua": "R JOÃO VILLARET",
+      "casa": "122",
+      "coordenadas": [
+        41.04411457845033,
+        -8.627725257262268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4356072",
+      "rua": "R JOÃO VILLARET",
+      "casa": "140",
+      "coordenadas": [
+        41.04404244251926,
+        -8.627748504133928
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOÃO VILLARET",
+    "ACSS SEM NOME"
+  ],
+  "centro": [
+    41.03368301274389,
+    -8.62139520454295
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.03448739727459,
+                -8.6221936667707
+              ],
+              [
+                41.03180630821082,
+                -8.620596742315197
+              ],
+              [
+                41.02981224641303,
+                -8.619396201029042
+              ],
+              [
+                41.02850521188121,
+                -8.61859204291224
+              ],
+              [
+                41.02788520461539,
+                -8.618184267964788
+              ],
+              [
+                41.02795222461553,
+                -8.618172876186685
+              ],
+              [
+                41.02870627188167,
+                -8.618557867577934
+              ],
+              [
+                41.03014734641377,
+                -8.619339242138532
+              ],
+              [
+                41.032275448211855,
+                -8.620516999868482
+              ],
+              [
+                41.03509057727593,
+                -8.622091140767779
+              ],
+              [
+                41.03754817560123,
+                -8.623471259398265
+              ],
+              [
+                41.03964824318777,
+                -8.62465735575994
+              ],
+              [
+                41.04139078003555,
+                -8.625649429852798
+              ],
+              [
+                41.04277578614455,
+                -8.626447481676843
+              ],
+              [
+                41.0438032615148,
+                -8.627051511232075
+              ],
+              [
+                41.04447320614629,
+                -8.627461518518494
+              ],
+              [
+                41.04478562003901,
+                -8.6276775035361
+              ],
+              [
+                41.04474050319297,
+                -8.627699466284893
+              ],
+              [
+                41.0446899105584,
+                -8.627718786291013
+              ],
+              [
+                41.044633842135305,
+                -8.627735463554462
+              ],
+              [
+                41.04457229792368,
+                -8.627749498075236
+              ],
+              [
+                41.044505277923534,
+                -8.627760889853338
+              ],
+              [
+                41.044432782134855,
+                -8.627769638888768
+              ],
+              [
+                41.04435481055766,
+                -8.627775745181523
+              ],
+              [
+                41.044271363191925,
+                -8.627779208731608
+              ],
+              [
+                41.04418244003767,
+                -8.62778002953902
+              ],
+              [
+                41.043769496144726,
+                -8.627581132188567
+              ],
+              [
+                41.04303253151309,
+                -8.62718251668025
+              ],
+              [
+                41.041971546142776,
+                -8.626584183014069
+              ],
+              [
+                41.04058654003376,
+                -8.625786131190024
+              ],
+              [
+                41.03887751318606,
+                -8.624788361208115
+              ],
+              [
+                41.03684446559967,
+                -8.62359087306834
+              ],
+              [
+                41.03448739727459,
+                -8.6221936667707
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.03895495717934,
+    -8.624541844726723
+  ],
+  "centroDeMassa": [
+    41.03368301274389,
+    -8.62139520454295
+  ]
+}

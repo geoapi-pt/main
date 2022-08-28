@@ -1,1 +1,413 @@
-{"CP4":"4050","CP3":"443","Distrito":"Porto","Concelho":"Porto","CP":"4050-443","Artéria":"Rua Oliveira Monteiro","Localidade":"Porto","Local":"","Troço":"Impares de 231 a 409","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3555598","rua":"R OLIVEIRA MONTEIRO","casa":"371","coordenadas":[41.15821198357441,-8.622982390959022]},{"id":"pt.ine.add.PTCONT.3587422","rua":"R OLIVEIRA MONTEIRO","casa":"255","coordenadas":[41.158051075548364,-8.62270716905783]},{"id":"pt.ine.add.PTCONT.3626316","rua":"R OLIVEIRA MONTEIRO","casa":"271","coordenadas":[41.158131605623474,-8.6228269092637]},{"id":"pt.ine.add.PTCONT.3772720","rua":"R OLIVEIRA MONTEIRO","casa":"243","coordenadas":[41.15797954940491,-8.622587496130977]},{"id":"pt.ine.add.PTCONT.3921407","rua":"R OLIVEIRA MONTEIRO","casa":"231","coordenadas":[41.15796174378282,-8.622539707408453]},{"id":"pt.ine.add.PTCONT.3921408","rua":"R OLIVEIRA MONTEIRO","casa":"231","coordenadas":[41.15796174378282,-8.622539707408453]},{"id":"pt.ine.add.PTCONT.3979063","rua":"R OLIVEIRA MONTEIRO","casa":"281","coordenadas":[41.158167317926065,-8.6228986596869]},{"id":"pt.ine.add.PTCONT.3979064","rua":"R OLIVEIRA MONTEIRO","casa":"281","coordenadas":[41.158167317926065,-8.6228986596869]},{"id":"pt.ine.add.PTCONT.3979065","rua":"R OLIVEIRA MONTEIRO","casa":"281","coordenadas":[41.158167317926065,-8.6228986596869]},{"id":"pt.ine.add.PTCONT.3994155","rua":"R OLIVEIRA MONTEIRO","casa":"245","coordenadas":[41.15801531249249,-8.622647332561934]},{"id":"pt.ine.add.PTCONT.4066313","rua":"R OLIVEIRA MONTEIRO","casa":"409","coordenadas":[41.15886380036772,-8.624273980762956]},{"id":"pt.ine.add.PTCONT.4133949","rua":"R OLIVEIRA MONTEIRO","casa":"395","coordenadas":[41.15879242824231,-8.624118563156179]},{"id":"pt.ine.add.PTCONT.4135964","rua":"R OLIVEIRA MONTEIRO","casa":"257","coordenadas":[41.15808683857259,-8.622767005618659]},{"id":"pt.ine.add.PTCONT.4140934","rua":"R OLIVEIRA MONTEIRO","casa":"257","coordenadas":[41.15808683857259,-8.622767005618659]},{"id":"pt.ine.add.PTCONT.4367987","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4367988","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4367989","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4367990","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4367991","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4367992","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4371660","rua":"R OLIVEIRA MONTEIRO","casa":"379","coordenadas":[41.15873005996027,-8.623963213061499]},{"id":"pt.ine.add.PTCONT.4372543","rua":"R OLIVEIRA MONTEIRO","casa":"255","coordenadas":[41.158051075548364,-8.62270716905783]}],"ruas":["R OLIVEIRA MONTEIRO"],"centroide":[41.158369299688786,-8.623295035163713]}
+{
+  "CP": "4050-443",
+  "CP4": "4050",
+  "CP3": "443",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua Oliveira Monteiro",
+      "Local": "",
+      "Troço": "Impares de 231 a 409",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3555598",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "371",
+      "coordenadas": [
+        41.15821198357441,
+        -8.622982390959022
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3587422",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "255",
+      "coordenadas": [
+        41.158051075548364,
+        -8.62270716905783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3626316",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "271",
+      "coordenadas": [
+        41.158131605623474,
+        -8.6228269092637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772720",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "243",
+      "coordenadas": [
+        41.15797954940491,
+        -8.622587496130977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3921407",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "231",
+      "coordenadas": [
+        41.15796174378282,
+        -8.622539707408453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3921408",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "231",
+      "coordenadas": [
+        41.15796174378282,
+        -8.622539707408453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3979063",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "281",
+      "coordenadas": [
+        41.158167317926065,
+        -8.6228986596869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3979064",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "281",
+      "coordenadas": [
+        41.158167317926065,
+        -8.6228986596869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3979065",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "281",
+      "coordenadas": [
+        41.158167317926065,
+        -8.6228986596869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3994155",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "245",
+      "coordenadas": [
+        41.15801531249249,
+        -8.622647332561934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4066313",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "409",
+      "coordenadas": [
+        41.15886380036772,
+        -8.624273980762956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4133949",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "395",
+      "coordenadas": [
+        41.15879242824231,
+        -8.624118563156179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4135964",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "257",
+      "coordenadas": [
+        41.15808683857259,
+        -8.622767005618659
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4140934",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "257",
+      "coordenadas": [
+        41.15808683857259,
+        -8.622767005618659
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367987",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367988",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367989",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367990",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367991",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4367992",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4371660",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "379",
+      "coordenadas": [
+        41.15873005996027,
+        -8.623963213061499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4372543",
+      "rua": "R OLIVEIRA MONTEIRO",
+      "casa": "255",
+      "coordenadas": [
+        41.158051075548364,
+        -8.62270716905783
+      ]
+    }
+  ],
+  "ruas": [
+    "R OLIVEIRA MONTEIRO"
+  ],
+  "centro": [
+    41.158412772075266,
+    -8.623406844085704
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.157971759445246,
+                -8.622566588564874
+              ],
+              [
+                41.15796953374248,
+                -8.622560614974558
+              ],
+              [
+                41.15797024034383,
+                -8.62255987561202
+              ],
+              [
+                41.157973879249276,
+                -8.62256437047726
+              ],
+              [
+                41.15798045045884,
+                -8.622574099570276
+              ],
+              [
+                41.15798995397249,
+                -8.622589062891073
+              ],
+              [
+                41.158002389790255,
+                -8.622609260439646
+              ],
+              [
+                41.158017757912134,
+                -8.622634692215996
+              ],
+              [
+                41.158036058338105,
+                -8.622665358220125
+              ],
+              [
+                41.15805729106819,
+                -8.622701258452029
+              ],
+              [
+                41.15808522055602,
+                -8.622750425901788
+              ],
+              [
+                41.15811984680161,
+                -8.6228128605694
+              ],
+              [
+                41.15816116980495,
+                -8.622888562454863
+              ],
+              [
+                41.15820918956604,
+                -8.622977531558178
+              ],
+              [
+                41.15826390608488,
+                -8.623079767879346
+              ],
+              [
+                41.158325319361474,
+                -8.623195271418364
+              ],
+              [
+                41.15839342939582,
+                -8.623324042175238
+              ],
+              [
+                41.15846823618792,
+                -8.623466080149964
+              ],
+              [
+                41.158535781824874,
+                -8.623595219123182
+              ],
+              [
+                41.158596066306686,
+                -8.623711459094896
+              ],
+              [
+                41.15864908963334,
+                -8.623814800065105
+              ],
+              [
+                41.15869485180486,
+                -8.623905242033807
+              ],
+              [
+                41.15873335282123,
+                -8.623982785001004
+              ],
+              [
+                41.15876459268245,
+                -8.624047428966698
+              ],
+              [
+                41.15878857138853,
+                -8.624099173930887
+              ],
+              [
+                41.15880528893946,
+                -8.624138019893568
+              ],
+              [
+                41.15880610037523,
+                -8.624145658788542
+              ],
+              [
+                41.158791005695846,
+                -8.624122090615803
+              ],
+              [
+                41.158760004901296,
+                -8.624067315375356
+              ],
+              [
+                41.15871309799158,
+                -8.623981333067196
+              ],
+              [
+                41.158650284966704,
+                -8.623864143691328
+              ],
+              [
+                41.158571565826676,
+                -8.623715747247752
+              ],
+              [
+                41.15847694057148,
+                -8.623536143736466
+              ],
+              [
+                41.15836640920114,
+                -8.623325333157467
+              ],
+              [
+                41.15826941603924,
+                -8.623140127202056
+              ],
+              [
+                41.158185961085785,
+                -8.622980525870231
+              ],
+              [
+                41.15811604434078,
+                -8.62284652916199
+              ],
+              [
+                41.15805966580422,
+                -8.62273813707733
+              ],
+              [
+                41.15801682547611,
+                -8.62265534961626
+              ],
+              [
+                41.157987523356454,
+                -8.622598166778776
+              ],
+              [
+                41.157971759445246,
+                -8.622566588564874
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.15833335182784,
+    -8.623238261325518
+  ],
+  "centroDeMassa": [
+    41.158412772075266,
+    -8.623406844085704
+  ]
+}

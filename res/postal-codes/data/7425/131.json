@@ -1,1 +1,386 @@
-{"CP4":"7425","CP3":"131","Distrito":"Portalegre","Concelho":"Ponte de Sor","CP":"7425-131","Artéria":"Rua Manuel Maria Barbosa Du Bocage","Localidade":"Montargil","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MONTARGIL","locais":[{"id":"pt.ine.add.PTCONT.3534776","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"18","coordenadas":[39.0760990928368,-8.180292351731941]},{"id":"pt.ine.add.PTCONT.3461557","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"13","coordenadas":[39.075955064014984,-8.180061132029264]},{"id":"pt.ine.add.PTCONT.3461558","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"13","coordenadas":[39.075955064014984,-8.180061132029264]},{"id":"pt.ine.add.PTCONT.3461819","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"8","coordenadas":[39.0764687669706,-8.179391208639426]},{"id":"pt.ine.add.PTCONT.3464353","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"24","coordenadas":[39.075873638393034,-8.180939347432453]},{"id":"pt.ine.add.PTCONT.3466228","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"7","coordenadas":[39.07611735431531,-8.179679884465703]},{"id":"pt.ine.add.PTCONT.3475726","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"9","coordenadas":[39.076063257687395,-8.179806967181054]},{"id":"pt.ine.add.PTCONT.3478950","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"20","coordenadas":[39.07605400317344,-8.180419439961266]},{"id":"pt.ine.add.PTCONT.3484074","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"12","coordenadas":[39.07626139779844,-8.179876435215903]},{"id":"pt.ine.add.PTCONT.3485125","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"26","coordenadas":[39.07581052325159,-8.181089534975179]},{"id":"pt.ine.add.PTCONT.3486345","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"11","coordenadas":[39.07602718082439,-8.179922505411032]},{"id":"pt.ine.add.PTCONT.3489679","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"22","coordenadas":[39.07590072753703,-8.180777579196869]},{"id":"pt.ine.add.PTCONT.3492086","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"16","coordenadas":[39.07614418236139,-8.180165263340745]},{"id":"pt.ine.add.PTCONT.3495577","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"17","coordenadas":[39.075846846381964,-8.180373076942656]},{"id":"pt.ine.add.PTCONT.3496078","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"14","coordenadas":[39.07620729630976,-8.180015074266445]},{"id":"pt.ine.add.PTCONT.3496550","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"3","coordenadas":[39.076216548700515,-8.179402600106126]},{"id":"pt.ine.add.PTCONT.3502089","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"4","coordenadas":[39.07629772260107,-8.179136859510589]},{"id":"pt.ine.add.PTCONT.3502677","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"5","coordenadas":[39.07615343554073,-8.179552789746428]},{"id":"pt.ine.add.PTCONT.3519341","rua":"R MANUEL MARIA BARBOSA DU BOCAGE","casa":"28","coordenadas":[39.07575641077808,-8.181251284522903]}],"ruas":["R MANUEL MARIA BARBOSA DU BOCAGE"],"centroide":[39.07608067237297,-8.18005351012124]}
+{
+  "CP": "7425-131",
+  "CP4": "7425",
+  "CP3": "131",
+  "Distrito": "Portalegre",
+  "Concelho": "Ponte de Sor",
+  "Localidade": "Montargil",
+  "Designação Postal": "MONTARGIL",
+  "partes": [
+    {
+      "Artéria": "Rua Manuel Maria Barbosa Du Bocage",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3534776",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "18",
+      "coordenadas": [
+        39.0760990928368,
+        -8.180292351731941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3461557",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "13",
+      "coordenadas": [
+        39.075955064014984,
+        -8.180061132029264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3461558",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "13",
+      "coordenadas": [
+        39.075955064014984,
+        -8.180061132029264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3461819",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "8",
+      "coordenadas": [
+        39.0764687669706,
+        -8.179391208639426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3464353",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "24",
+      "coordenadas": [
+        39.075873638393034,
+        -8.180939347432453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3466228",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "7",
+      "coordenadas": [
+        39.07611735431531,
+        -8.179679884465703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3475726",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "9",
+      "coordenadas": [
+        39.076063257687395,
+        -8.179806967181054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478950",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "20",
+      "coordenadas": [
+        39.07605400317344,
+        -8.180419439961266
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3484074",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "12",
+      "coordenadas": [
+        39.07626139779844,
+        -8.179876435215903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3485125",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "26",
+      "coordenadas": [
+        39.07581052325159,
+        -8.181089534975179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3486345",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "11",
+      "coordenadas": [
+        39.07602718082439,
+        -8.179922505411032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3489679",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "22",
+      "coordenadas": [
+        39.07590072753703,
+        -8.180777579196869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3492086",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "16",
+      "coordenadas": [
+        39.07614418236139,
+        -8.180165263340745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3495577",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "17",
+      "coordenadas": [
+        39.075846846381964,
+        -8.180373076942656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3496078",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "14",
+      "coordenadas": [
+        39.07620729630976,
+        -8.180015074266445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3496550",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "3",
+      "coordenadas": [
+        39.076216548700515,
+        -8.179402600106126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3502089",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "4",
+      "coordenadas": [
+        39.07629772260107,
+        -8.179136859510589
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3502677",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "5",
+      "coordenadas": [
+        39.07615343554073,
+        -8.179552789746428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519341",
+      "rua": "R MANUEL MARIA BARBOSA DU BOCAGE",
+      "casa": "28",
+      "coordenadas": [
+        39.07575641077808,
+        -8.181251284522903
+      ]
+    }
+  ],
+  "ruas": [
+    "R MANUEL MARIA BARBOSA DU BOCAGE"
+  ],
+  "centro": [
+    39.07611258887434,
+    -8.180194072016747
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.076157111136375,
+                -8.180204991838448
+              ],
+              [
+                39.0760680666123,
+                -8.180437501323881
+              ],
+              [
+                39.075991565710055,
+                -8.180627225130195
+              ],
+              [
+                39.07592760842963,
+                -8.18077416325739
+              ],
+              [
+                39.07587619477102,
+                -8.180878315705462
+              ],
+              [
+                39.07583732473423,
+                -8.180939682474413
+              ],
+              [
+                39.07581099831926,
+                -8.180958263564245
+              ],
+              [
+                39.07579721552611,
+                -8.180934058974955
+              ],
+              [
+                39.075795976354776,
+                -8.180867068706545
+              ],
+              [
+                39.075807280805265,
+                -8.180757292759013
+              ],
+              [
+                39.075818863099954,
+                -8.180656364665653
+              ],
+              [
+                39.07583072323885,
+                -8.180564284426461
+              ],
+              [
+                39.07584286122196,
+                -8.180481052041438
+              ],
+              [
+                39.07585527704926,
+                -8.180406667510587
+              ],
+              [
+                39.07586797072077,
+                -8.180341130833904
+              ],
+              [
+                39.07588094223649,
+                -8.18028444201139
+              ],
+              [
+                39.07589419159641,
+                -8.180236601043047
+              ],
+              [
+                39.075907718800536,
+                -8.180197607928873
+              ],
+              [
+                39.07592490914456,
+                -8.180149047195865
+              ],
+              [
+                39.075945762628464,
+                -8.180090918844027
+              ],
+              [
+                39.07597027925227,
+                -8.180023222873356
+              ],
+              [
+                39.07599845901597,
+                -8.179945959283852
+              ],
+              [
+                39.07603030191956,
+                -8.179859128075515
+              ],
+              [
+                39.07606580796303,
+                -8.179762729248344
+              ],
+              [
+                39.0761049771464,
+                -8.179656762802342
+              ],
+              [
+                39.07614780946966,
+                -8.17954122873751
+              ],
+              [
+                39.07618796032079,
+                -8.179444110635917
+              ],
+              [
+                39.076225429699775,
+                -8.179365408497567
+              ],
+              [
+                39.07626021760664,
+                -8.17930512232246
+              ],
+              [
+                39.07629232404136,
+                -8.179263252110594
+              ],
+              [
+                39.07632174900395,
+                -8.179239797861973
+              ],
+              [
+                39.07634849249442,
+                -8.179234759576593
+              ],
+              [
+                39.07637255451274,
+                -8.179248137254454
+              ],
+              [
+                39.07639393505893,
+                -8.17927993089556
+              ],
+              [
+                39.076401512471335,
+                -8.179336814017207
+              ],
+              [
+                39.07639528674997,
+                -8.179418786619392
+              ],
+              [
+                39.07637525789481,
+                -8.17952584870212
+              ],
+              [
+                39.07634142590587,
+                -8.179658000265391
+              ],
+              [
+                39.076293790783154,
+                -8.179815241309203
+              ],
+              [
+                39.07623235252666,
+                -8.179997571833553
+              ],
+              [
+                39.076157111136375,
+                -8.180204991838448
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.07606496214934,
+    -8.18004271232897
+  ],
+  "centroDeMassa": [
+    39.07611258887434,
+    -8.180194072016747
+  ]
+}

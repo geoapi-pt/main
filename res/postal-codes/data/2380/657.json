@@ -1,1 +1,386 @@
-{"CP4":"2380","CP3":"657","Distrito":"Santarém","Concelho":"Alcanena","CP":"2380-657","Artéria":"Travessa Gago Coutinho","Localidade":"Vila Moreira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA MOREIRA","locais":[{"id":"pt.ine.add.PTCONT.4391390","rua":"R GAGO COUTINHO","casa":"153","coordenadas":[39.47397105832688,-8.680468335661054]},{"id":"pt.ine.add.PTCONT.4399571","rua":"R GAGO COUTINHO","casa":"143","coordenadas":[39.47387236854193,-8.680386210794559]},{"id":"pt.ine.add.PTCONT.4401249","rua":"TV GAGO COUTINHO","casa":"67","coordenadas":[39.473741695735086,-8.67944383583959]},{"id":"pt.ine.add.PTCONT.4412049","rua":"R GAGO COUTINHO","casa":"123","coordenadas":[39.47373787099903,-8.680257319167758]},{"id":"pt.ine.add.PTCONT.4414144","rua":"R GAGO COUTINHO","casa":"75","coordenadas":[39.47339687726057,-8.679987352122252]},{"id":"pt.ine.add.PTCONT.4417218","rua":"R GAGO COUTINHO","casa":"162","coordenadas":[39.474133833559115,-8.680330151063185]},{"id":"pt.ine.add.PTCONT.4432437","rua":"R GAGO COUTINHO","casa":"55","coordenadas":[39.473235687244895,-8.679788524005943]},{"id":"pt.ine.add.PTCONT.4442571","rua":"R GAGO COUTINHO","casa":"93","coordenadas":[39.473495622003206,-8.680057854712203]},{"id":"pt.ine.add.PTCONT.4486580","rua":"R GAGO COUTINHO","casa":"113","coordenadas":[39.47364807831851,-8.680198507766928]},{"id":"pt.ine.add.PTCONT.4492966","rua":"R GAGO COUTINHO ANSOS","casa":"227","coordenadas":[39.47479418990969,-8.681636965627083]},{"id":"pt.ine.add.PTCONT.4515990","rua":"R GAGO COUTINHO","casa":"101","coordenadas":[39.4735762988193,-8.68013983759323]},{"id":"pt.ine.add.PTCONT.4544121","rua":"R GAGO COUTINHO","casa":"133","coordenadas":[39.47380053445544,-8.68033916143756]},{"id":"pt.ine.add.PTCONT.4556735","rua":"R GAGO COUTINHO","casa":"144","coordenadas":[39.47402635578063,-8.680201470694827]},{"id":"pt.ine.add.PTCONT.4592576","rua":"TV GAGO COUTINHO","casa":"","coordenadas":[39.47382177223936,-8.67965365155911]},{"id":"pt.ine.add.PTCONT.4598280","rua":"R GAGO COUTINHO","casa":"45","coordenadas":[39.473155119416475,-8.679683299745339]},{"id":"pt.ine.add.PTCONT.4610631","rua":"R GAGO COUTINHO","casa":"65","coordenadas":[39.47331620033177,-8.679905369629111]},{"id":"pt.ine.add.PTCONT.4625503","rua":"R GAGO COUTINHO","casa":"190","coordenadas":[39.47441238198578,-8.680471794160203]},{"id":"pt.ine.add.PTCONT.4646029","rua":"R GAGO COUTINHO","casa":"165","coordenadas":[39.474042728234416,-8.680550248985682]}],"ruas":["R GAGO COUTINHO","TV GAGO COUTINHO","R GAGO COUTINHO ANSOS"],"centroide":[39.4737727026428,-8.680173508328233]}
+{
+  "CP": "2380-657",
+  "CP4": "2380",
+  "CP3": "657",
+  "Distrito": "Santarém",
+  "Concelho": "Alcanena",
+  "Localidade": "Vila Moreira",
+  "Designação Postal": "VILA MOREIRA",
+  "partes": [
+    {
+      "Artéria": "Rua Gago Coutinho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Gago Coutinho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4391390",
+      "rua": "R GAGO COUTINHO",
+      "casa": "153",
+      "coordenadas": [
+        39.47397105832688,
+        -8.680468335661054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4399571",
+      "rua": "R GAGO COUTINHO",
+      "casa": "143",
+      "coordenadas": [
+        39.47387236854193,
+        -8.680386210794559
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401249",
+      "rua": "TV GAGO COUTINHO",
+      "casa": "67",
+      "coordenadas": [
+        39.473741695735086,
+        -8.67944383583959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4412049",
+      "rua": "R GAGO COUTINHO",
+      "casa": "123",
+      "coordenadas": [
+        39.47373787099903,
+        -8.680257319167758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4414144",
+      "rua": "R GAGO COUTINHO",
+      "casa": "75",
+      "coordenadas": [
+        39.47339687726057,
+        -8.679987352122252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4417218",
+      "rua": "R GAGO COUTINHO",
+      "casa": "162",
+      "coordenadas": [
+        39.474133833559115,
+        -8.680330151063185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4432437",
+      "rua": "R GAGO COUTINHO",
+      "casa": "55",
+      "coordenadas": [
+        39.473235687244895,
+        -8.679788524005943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4442571",
+      "rua": "R GAGO COUTINHO",
+      "casa": "93",
+      "coordenadas": [
+        39.473495622003206,
+        -8.680057854712203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4486580",
+      "rua": "R GAGO COUTINHO",
+      "casa": "113",
+      "coordenadas": [
+        39.47364807831851,
+        -8.680198507766928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4492966",
+      "rua": "R GAGO COUTINHO ANSOS",
+      "casa": "227",
+      "coordenadas": [
+        39.47479418990969,
+        -8.681636965627083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4515990",
+      "rua": "R GAGO COUTINHO",
+      "casa": "101",
+      "coordenadas": [
+        39.4735762988193,
+        -8.68013983759323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4544121",
+      "rua": "R GAGO COUTINHO",
+      "casa": "133",
+      "coordenadas": [
+        39.47380053445544,
+        -8.68033916143756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4556735",
+      "rua": "R GAGO COUTINHO",
+      "casa": "144",
+      "coordenadas": [
+        39.47402635578063,
+        -8.680201470694827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4592576",
+      "rua": "TV GAGO COUTINHO",
+      "casa": "",
+      "coordenadas": [
+        39.47382177223936,
+        -8.67965365155911
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4598280",
+      "rua": "R GAGO COUTINHO",
+      "casa": "45",
+      "coordenadas": [
+        39.473155119416475,
+        -8.679683299745339
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4610631",
+      "rua": "R GAGO COUTINHO",
+      "casa": "65",
+      "coordenadas": [
+        39.47331620033177,
+        -8.679905369629111
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4625503",
+      "rua": "R GAGO COUTINHO",
+      "casa": "190",
+      "coordenadas": [
+        39.47441238198578,
+        -8.680471794160203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4646029",
+      "rua": "R GAGO COUTINHO",
+      "casa": "165",
+      "coordenadas": [
+        39.474042728234416,
+        -8.680550248985682
+      ]
+    }
+  ],
+  "ruas": [
+    "R GAGO COUTINHO",
+    "TV GAGO COUTINHO",
+    "R GAGO COUTINHO ANSOS"
+  ],
+  "centro": [
+    39.47397465466308,
+    -8.680540400733337
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.47324572743133,
+                -8.679808214054962
+              ],
+              [
+                39.473225592316915,
+                -8.679780455319488
+              ],
+              [
+                39.47321713934679,
+                -8.679752424802423
+              ],
+              [
+                39.47322036852093,
+                -8.679724122503767
+              ],
+              [
+                39.47323527983936,
+                -8.679695548423515
+              ],
+              [
+                39.473261873302064,
+                -8.679666702561669
+              ],
+              [
+                39.47330014890905,
+                -8.67963758491823
+              ],
+              [
+                39.47335010666032,
+                -8.679608195493199
+              ],
+              [
+                39.47341174655587,
+                -8.679578534286573
+              ],
+              [
+                39.47348506859569,
+                -8.679548601298356
+              ],
+              [
+                39.473559704853216,
+                -8.679538471782424
+              ],
+              [
+                39.473635655328415,
+                -8.679548145738778
+              ],
+              [
+                39.473712920021306,
+                -8.679577623167422
+              ],
+              [
+                39.47379149893189,
+                -8.67962690406835
+              ],
+              [
+                39.473871392060154,
+                -8.679695988441566
+              ],
+              [
+                39.47395259940612,
+                -8.67978487628707
+              ],
+              [
+                39.474035120969766,
+                -8.679893567604857
+              ],
+              [
+                39.4741189567511,
+                -8.680022062394936
+              ],
+              [
+                39.47419827880858,
+                -8.680152701140422
+              ],
+              [
+                39.47427308714221,
+                -8.68028548384132
+              ],
+              [
+                39.47434338175198,
+                -8.680420410497627
+              ],
+              [
+                39.47440916263788,
+                -8.680557481109345
+              ],
+              [
+                39.47447042979994,
+                -8.680696695676474
+              ],
+              [
+                39.474527183238145,
+                -8.680838054199013
+              ],
+              [
+                39.47457942295249,
+                -8.680981556676963
+              ],
+              [
+                39.47462714894298,
+                -8.681127203110323
+              ],
+              [
+                39.4746458155975,
+                -8.681227587552044
+              ],
+              [
+                39.47463542291606,
+                -8.681282710002128
+              ],
+              [
+                39.47459597089865,
+                -8.681292570460572
+              ],
+              [
+                39.47452745954527,
+                -8.68125716892738
+              ],
+              [
+                39.47442988885593,
+                -8.681176505402547
+              ],
+              [
+                39.474303258830616,
+                -8.68105057988608
+              ],
+              [
+                39.474147569469345,
+                -8.680879392377971
+              ],
+              [
+                39.47396282077211,
+                -8.680662942878225
+              ],
+              [
+                39.47379864877273,
+                -8.680470079724014
+              ],
+              [
+                39.47365505347119,
+                -8.680300802915333
+              ],
+              [
+                39.47353203486752,
+                -8.68015511245219
+              ],
+              [
+                39.47342959296169,
+                -8.680033008334581
+              ],
+              [
+                39.47334772775372,
+                -8.679934490562506
+              ],
+              [
+                39.473286439243594,
+                -8.679859559135966
+              ],
+              [
+                39.47324572743133,
+                -8.679808214054962
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.47388391747576,
+    -8.680228253000266
+  ],
+  "centroDeMassa": [
+    39.47397465466308,
+    -8.680540400733337
+  ]
+}

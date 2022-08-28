@@ -1,1 +1,388 @@
-{"CP4":"7830","CP3":"417","Distrito":"Beja","Concelho":"Serpa","CP":"7830-417","Artéria":"Terreiro Humberto Delgado","Localidade":"Serpa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SERPA","locais":[{"id":"pt.ine.add.PTCONT.353619","rua":"R FONTE SANTA","casa":"8","coordenadas":[37.944228111526414,-7.599971025704713]},{"id":"pt.ine.add.PTCONT.356873","rua":"R FONTE SANTA","casa":"10","coordenadas":[37.94428208700747,-7.599984536773388]},{"id":"pt.ine.add.PTCONT.357401","rua":"R FONTE SANTA","casa":"6","coordenadas":[37.9441887891114,-7.599950239264128]},{"id":"pt.ine.add.PTCONT.359123","rua":"R FONTE SANTA","casa":"9A","coordenadas":[37.94416099436832,-7.600057968021586]},{"id":"pt.ine.add.PTCONT.363379","rua":"R FONTE SANTA","casa":"4","coordenadas":[37.94414045689877,-7.599929340473645]},{"id":"pt.ine.add.PTCONT.372936","rua":"R FONTE SANTA","casa":"2","coordenadas":[37.94408195371072,-7.599900204630427]},{"id":"pt.ine.add.PTCONT.376410","rua":"R FONTE SANTA","casa":"15","coordenadas":[37.9443298887727,-7.600138922211262]},{"id":"pt.ine.add.PTCONT.376491","rua":"R FONTE SANTA","casa":"25","coordenadas":[37.94454741940191,-7.600274309680568]},{"id":"pt.ine.add.PTCONT.378312","rua":"R FONTE SANTA","casa":"5","coordenadas":[37.9440389801139,-7.600012494556724]},{"id":"pt.ine.add.PTCONT.379068","rua":"R FONTE SANTA","casa":"17","coordenadas":[37.94437251658638,-7.600174808973179]},{"id":"pt.ine.add.PTCONT.383334","rua":"R FONTE SANTA","casa":"3","coordenadas":[37.943990535553525,-7.600000202933696]},{"id":"pt.ine.add.PTCONT.387610","rua":"R FONTE SANTA","casa":"9","coordenadas":[37.9441258975327,-7.600045579922988]},{"id":"pt.ine.add.PTCONT.388393","rua":"R FONTE SANTA","casa":"23","coordenadas":[37.944503913469894,-7.600247232349535]},{"id":"pt.ine.add.PTCONT.392484","rua":"R FONTE SANTA","casa":"19","coordenadas":[37.94441186665825,-7.600186792164588]},{"id":"pt.ine.add.PTCONT.410795","rua":"R FONTE SANTA","casa":"31","coordenadas":[37.94479791079486,-7.6004384545609245]},{"id":"pt.ine.add.PTCONT.411160","rua":"R FONTE SANTA","casa":"29","coordenadas":[37.944695262049365,-7.600381416977819]},{"id":"pt.ine.add.PTCONT.412199","rua":"R FONTE SANTA","casa":"11","coordenadas":[37.94421281403545,-7.600078664234974]},{"id":"pt.ine.add.PTCONT.427889","rua":"R FONTE SANTA","casa":"13","coordenadas":[37.94426633169715,-7.600105669042943]},{"id":"pt.ine.add.PTCONT.427897","rua":"R FONTE SANTA","casa":"13","coordenadas":[37.94426633169715,-7.600105669042943]},{"id":"pt.ine.add.PTCONT.433618","rua":"R FONTE SANTA","casa":"27","coordenadas":[37.94461093826604,-7.60029913557949]},{"id":"pt.ine.add.PTCONT.443532","rua":"R FONTE SANTA","casa":"21","coordenadas":[37.94445537260432,-7.600213869426694]},{"id":"pt.ine.add.PTCONT.448392","rua":"R FONTE SANTA","casa":"7","coordenadas":[37.94408745421526,-7.600031107935777]}],"ruas":["R FONTE SANTA"],"centroide":[37.94431944627888,-7.600118882691724]}
+{
+  "CP": "7830-417",
+  "CP4": "7830",
+  "CP3": "417",
+  "Distrito": "Beja",
+  "Concelho": "Serpa",
+  "Localidade": "Serpa",
+  "Designação Postal": "SERPA",
+  "partes": [
+    {
+      "Artéria": "Rua da Fonte Santa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Terreiro Humberto Delgado",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.353619",
+      "rua": "R FONTE SANTA",
+      "casa": "8",
+      "coordenadas": [
+        37.944228111526414,
+        -7.599971025704713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.356873",
+      "rua": "R FONTE SANTA",
+      "casa": "10",
+      "coordenadas": [
+        37.94428208700747,
+        -7.599984536773388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.357401",
+      "rua": "R FONTE SANTA",
+      "casa": "6",
+      "coordenadas": [
+        37.9441887891114,
+        -7.599950239264128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.359123",
+      "rua": "R FONTE SANTA",
+      "casa": "9A",
+      "coordenadas": [
+        37.94416099436832,
+        -7.600057968021586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.363379",
+      "rua": "R FONTE SANTA",
+      "casa": "4",
+      "coordenadas": [
+        37.94414045689877,
+        -7.599929340473645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.372936",
+      "rua": "R FONTE SANTA",
+      "casa": "2",
+      "coordenadas": [
+        37.94408195371072,
+        -7.599900204630427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.376410",
+      "rua": "R FONTE SANTA",
+      "casa": "15",
+      "coordenadas": [
+        37.9443298887727,
+        -7.600138922211262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.376491",
+      "rua": "R FONTE SANTA",
+      "casa": "25",
+      "coordenadas": [
+        37.94454741940191,
+        -7.600274309680568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.378312",
+      "rua": "R FONTE SANTA",
+      "casa": "5",
+      "coordenadas": [
+        37.9440389801139,
+        -7.600012494556724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.379068",
+      "rua": "R FONTE SANTA",
+      "casa": "17",
+      "coordenadas": [
+        37.94437251658638,
+        -7.600174808973179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.383334",
+      "rua": "R FONTE SANTA",
+      "casa": "3",
+      "coordenadas": [
+        37.943990535553525,
+        -7.600000202933696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.387610",
+      "rua": "R FONTE SANTA",
+      "casa": "9",
+      "coordenadas": [
+        37.9441258975327,
+        -7.600045579922988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.388393",
+      "rua": "R FONTE SANTA",
+      "casa": "23",
+      "coordenadas": [
+        37.944503913469894,
+        -7.600247232349535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.392484",
+      "rua": "R FONTE SANTA",
+      "casa": "19",
+      "coordenadas": [
+        37.94441186665825,
+        -7.600186792164588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.410795",
+      "rua": "R FONTE SANTA",
+      "casa": "31",
+      "coordenadas": [
+        37.94479791079486,
+        -7.6004384545609245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.411160",
+      "rua": "R FONTE SANTA",
+      "casa": "29",
+      "coordenadas": [
+        37.944695262049365,
+        -7.600381416977819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.412199",
+      "rua": "R FONTE SANTA",
+      "casa": "11",
+      "coordenadas": [
+        37.94421281403545,
+        -7.600078664234974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.427889",
+      "rua": "R FONTE SANTA",
+      "casa": "13",
+      "coordenadas": [
+        37.94426633169715,
+        -7.600105669042943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.427897",
+      "rua": "R FONTE SANTA",
+      "casa": "13",
+      "coordenadas": [
+        37.94426633169715,
+        -7.600105669042943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.433618",
+      "rua": "R FONTE SANTA",
+      "casa": "27",
+      "coordenadas": [
+        37.94461093826604,
+        -7.60029913557949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.443532",
+      "rua": "R FONTE SANTA",
+      "casa": "21",
+      "coordenadas": [
+        37.94445537260432,
+        -7.600213869426694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.448392",
+      "rua": "R FONTE SANTA",
+      "casa": "7",
+      "coordenadas": [
+        37.94408745421526,
+        -7.600031107935777
+      ]
+    }
+  ],
+  "ruas": [
+    "R FONTE SANTA"
+  ],
+  "centro": [
+    37.94439422317419,
+    -7.600169329595676
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.94444468412678,
+                -7.600246719474012
+              ],
+              [
+                37.94434376222161,
+                -7.600191938020609
+              ],
+              [
+                37.94425688396329,
+                -7.600142441775392
+              ],
+              [
+                37.94418404935183,
+                -7.600098230738363
+              ],
+              [
+                37.94412525838722,
+                -7.60005930490952
+              ],
+              [
+                37.94408051106946,
+                -7.600025664288863
+              ],
+              [
+                37.94404980739856,
+                -7.599997308876393
+              ],
+              [
+                37.9440331473745,
+                -7.599974238672111
+              ],
+              [
+                37.944030530997296,
+                -7.599956453676016
+              ],
+              [
+                37.94404195826695,
+                -7.599943953888108
+              ],
+              [
+                37.94405508421065,
+                -7.599934334263422
+              ],
+              [
+                37.94406990882842,
+                -7.599927594801957
+              ],
+              [
+                37.94408643212023,
+                -7.599923735503715
+              ],
+              [
+                37.944104654086104,
+                -7.599922756368697
+              ],
+              [
+                37.944124574726025,
+                -7.599924657396899
+              ],
+              [
+                37.94414619404001,
+                -7.599929438588325
+              ],
+              [
+                37.94416951202805,
+                -7.599937099942973
+              ],
+              [
+                37.94419452869014,
+                -7.599947641460842
+              ],
+              [
+                37.94422447801615,
+                -7.599963957754409
+              ],
+              [
+                37.94425936000607,
+                -7.599986048823672
+              ],
+              [
+                37.94429917465992,
+                -7.600013914668631
+              ],
+              [
+                37.944343921977676,
+                -7.600047555289288
+              ],
+              [
+                37.94439360195935,
+                -7.600086970685641
+              ],
+              [
+                37.94444821460495,
+                -7.60013216085769
+              ],
+              [
+                37.94450775991445,
+                -7.600183125805436
+              ],
+              [
+                37.944572237887876,
+                -7.600239865528877
+              ],
+              [
+                37.944616040876475,
+                -7.6002826651052136
+              ],
+              [
+                37.94463916888025,
+                -7.600311524534445
+              ],
+              [
+                37.94464162189921,
+                -7.60032644381657
+              ],
+              [
+                37.944623399933334,
+                -7.6003274229515885
+              ],
+              [
+                37.94458450298264,
+                -7.600314461939503
+              ],
+              [
+                37.94452493104712,
+                -7.60028756078031
+              ],
+              [
+                37.94444468412678,
+                -7.600246719474012
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.94428812176665,
+    -7.600080849724609
+  ],
+  "centroDeMassa": [
+    37.94439422317419,
+    -7.600169329595676
+  ]
+}

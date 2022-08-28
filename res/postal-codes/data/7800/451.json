@@ -1,1 +1,415 @@
-{"CP4":"7800","CP3":"451","Distrito":"Beja","Concelho":"Beja","CP":"7800-451","Artéria":"Rua Capitão João Francisco de Sousa","Localidade":"Beja","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BEJA","locais":[{"id":"pt.ine.add.PTCONT.456088","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"64A","coordenadas":[38.01258834587294,-7.862914626902854]},{"id":"pt.ine.add.PTCONT.363849","rua":"R CAP JOÃO FRANCISCO DE SOUSA PENSAO RESIDENCIAL BESENSE","casa":"57","coordenadas":[38.01268732751096,-7.862862351404035]},{"id":"pt.ine.add.PTCONT.364248","rua":"R CAP JOÃO FRANCISCO DE SOUSA PENSAO RESIDENCIAL BESENSE","casa":"57","coordenadas":[38.01268732751096,-7.862862351404035]},{"id":"pt.ine.add.PTCONT.364667","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"52","coordenadas":[38.012572822588396,-7.8631706402529025]},{"id":"pt.ine.add.PTCONT.367951","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"12","coordenadas":[38.01267478594236,-7.864334980747346]},{"id":"pt.ine.add.PTCONT.368296","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"12","coordenadas":[38.01267478594236,-7.864334980747346]},{"id":"pt.ine.add.PTCONT.368506","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"12","coordenadas":[38.01267478594236,-7.864334980747346]},{"id":"pt.ine.add.PTCONT.370492","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"2","coordenadas":[38.012777507817766,-7.864710185897528]},{"id":"pt.ine.add.PTCONT.371131","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"44","coordenadas":[38.012575565433416,-7.8633058717262]},{"id":"pt.ine.add.PTCONT.385559","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"38","coordenadas":[38.012569776519506,-7.863462780443325]},{"id":"pt.ine.add.PTCONT.407419","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"24","coordenadas":[38.012588523634186,-7.863780719479107]},{"id":"pt.ine.add.PTCONT.411566","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"16","coordenadas":[38.01262198492936,-7.864049535036739]},{"id":"pt.ine.add.PTCONT.422808","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"10","coordenadas":[38.01270292739001,-7.86440482415127]},{"id":"pt.ine.add.PTCONT.424407","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"27","coordenadas":[38.012733229835064,-7.8636083108428245]},{"id":"pt.ine.add.PTCONT.427936","rua":"R CAP JOAO FRANCISCO SOUSA","casa":"3","coordenadas":[37.98537748339079,-7.92062101279514]},{"id":"pt.ine.add.PTCONT.427962","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"6","coordenadas":[38.012740977098744,-7.864493961308724]},{"id":"pt.ine.add.PTCONT.451859","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"","coordenadas":[38.012573787906206,-7.863224207917679]},{"id":"pt.ine.add.PTCONT.451860","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"","coordenadas":[38.012573787906206,-7.863224207917679]},{"id":"pt.ine.add.PTCONT.455139","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"3","coordenadas":[38.01289382087583,-7.864356756229157]},{"id":"pt.ine.add.PTCONT.455140","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"3","coordenadas":[38.01289382087583,-7.864356756229157]},{"id":"pt.ine.add.PTCONT.455141","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"3","coordenadas":[38.01289382087583,-7.864356756229157]},{"id":"pt.ine.add.PTCONT.455142","rua":"R CAP JOÃO FRANCISCO DE SOUSA","casa":"3","coordenadas":[38.01289382087583,-7.864356756229157]}],"ruas":["R CAP JOÃO FRANCISCO DE SOUSA","R CAP JOÃO FRANCISCO DE SOUSA PENSAO RESIDENCIAL BESENSE","R CAP JOAO FRANCISCO SOUSA"],"centroide":[38.01138462837139,-7.866512895162362]}
+{
+  "CP": "7800-451",
+  "CP4": "7800",
+  "CP3": "451",
+  "Distrito": "Beja",
+  "Concelho": "Beja",
+  "Localidade": "Beja",
+  "Designação Postal": "BEJA",
+  "partes": [
+    {
+      "Artéria": "Rua Capitão João Francisco de Sousa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.456088",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "64A",
+      "coordenadas": [
+        38.01258834587294,
+        -7.862914626902854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.363849",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA PENSAO RESIDENCIAL BESENSE",
+      "casa": "57",
+      "coordenadas": [
+        38.01268732751096,
+        -7.862862351404035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.364248",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA PENSAO RESIDENCIAL BESENSE",
+      "casa": "57",
+      "coordenadas": [
+        38.01268732751096,
+        -7.862862351404035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.364667",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "52",
+      "coordenadas": [
+        38.012572822588396,
+        -7.8631706402529025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.367951",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "12",
+      "coordenadas": [
+        38.01267478594236,
+        -7.864334980747346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.368296",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "12",
+      "coordenadas": [
+        38.01267478594236,
+        -7.864334980747346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.368506",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "12",
+      "coordenadas": [
+        38.01267478594236,
+        -7.864334980747346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.370492",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "2",
+      "coordenadas": [
+        38.012777507817766,
+        -7.864710185897528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.371131",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "44",
+      "coordenadas": [
+        38.012575565433416,
+        -7.8633058717262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.385559",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "38",
+      "coordenadas": [
+        38.012569776519506,
+        -7.863462780443325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.407419",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "24",
+      "coordenadas": [
+        38.012588523634186,
+        -7.863780719479107
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.411566",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "16",
+      "coordenadas": [
+        38.01262198492936,
+        -7.864049535036739
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.422808",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "10",
+      "coordenadas": [
+        38.01270292739001,
+        -7.86440482415127
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.424407",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "27",
+      "coordenadas": [
+        38.012733229835064,
+        -7.8636083108428245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.427936",
+      "rua": "R CAP JOAO FRANCISCO SOUSA",
+      "casa": "3",
+      "coordenadas": [
+        37.98537748339079,
+        -7.92062101279514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.427962",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "6",
+      "coordenadas": [
+        38.012740977098744,
+        -7.864493961308724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451859",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "",
+      "coordenadas": [
+        38.012573787906206,
+        -7.863224207917679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451860",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "",
+      "coordenadas": [
+        38.012573787906206,
+        -7.863224207917679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.455139",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "3",
+      "coordenadas": [
+        38.01289382087583,
+        -7.864356756229157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.455140",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "3",
+      "coordenadas": [
+        38.01289382087583,
+        -7.864356756229157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.455141",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "3",
+      "coordenadas": [
+        38.01289382087583,
+        -7.864356756229157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.455142",
+      "rua": "R CAP JOÃO FRANCISCO DE SOUSA",
+      "casa": "3",
+      "coordenadas": [
+        38.01289382087583,
+        -7.864356756229157
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAP JOÃO FRANCISCO DE SOUSA",
+    "R CAP JOÃO FRANCISCO DE SOUSA PENSAO RESIDENCIAL BESENSE",
+    "R CAP JOAO FRANCISCO SOUSA"
+  ],
+  "centro": [
+    37.99913565213331,
+    -7.891741682099587
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.000789997130966,
+                -7.889171172665233
+              ],
+              [
+                37.9973649940776,
+                -7.8961600260274345
+              ],
+              [
+                37.99479328613218,
+                -7.901373610439794
+              ],
+              [
+                37.99307487329472,
+                -7.904811925902312
+              ],
+              [
+                37.99220975556521,
+                -7.906474972414987
+              ],
+              [
+                37.992197932943654,
+                -7.906362749977819
+              ],
+              [
+                37.99303940543006,
+                -7.90447525859081
+              ],
+              [
+                37.99473417302442,
+                -7.900812498253958
+              ],
+              [
+                37.99728223572673,
+                -7.8953744689672645
+              ],
+              [
+                38.000683593537005,
+                -7.888161170730729
+              ],
+              [
+                38.003661328209084,
+                -7.881848717969091
+              ],
+              [
+                38.00621543974297,
+                -7.876437110682351
+              ],
+              [
+                38.00834592813867,
+                -7.87192634887051
+              ],
+              [
+                38.010052793396184,
+                -7.8683164325335655
+              ],
+              [
+                38.011336035515505,
+                -7.86560736167152
+              ],
+              [
+                38.01219565449663,
+                -7.8637991362843715
+              ],
+              [
+                38.01263165033957,
+                -7.862891756372121
+              ],
+              [
+                38.01264402304433,
+                -7.862885221934769
+              ],
+              [
+                38.01265807561981,
+                -7.862902854377477
+              ],
+              [
+                38.01267380806603,
+                -7.862944653700247
+              ],
+              [
+                38.012691220382976,
+                -7.86301061990308
+              ],
+              [
+                38.01271031257066,
+                -7.863100752985974
+              ],
+              [
+                38.01273108462907,
+                -7.86321505294893
+              ],
+              [
+                38.01275353655822,
+                -7.863353519791947
+              ],
+              [
+                38.0127776683581,
+                -7.863516153515026
+              ],
+              [
+                38.012803480028694,
+                -7.863702954118167
+              ],
+              [
+                38.01282424784895,
+                -7.863871926984483
+              ],
+              [
+                38.01283997181884,
+                -7.864023072113975
+              ],
+              [
+                38.01285065193838,
+                -7.864156389506642
+              ],
+              [
+                38.012856288207544,
+                -7.8642718791624855
+              ],
+              [
+                38.012856880626366,
+                -7.864369541081505
+              ],
+              [
+                38.01285242919482,
+                -7.864449375263699
+              ],
+              [
+                38.01284293391293,
+                -7.864511381709069
+              ],
+              [
+                38.01282839478067,
+                -7.8645555604176165
+              ],
+              [
+                38.01238754765828,
+                -7.86546782345787
+              ],
+              [
+                38.011520392545734,
+                -7.867248170829829
+              ],
+              [
+                38.010226929443064,
+                -7.869896602533497
+              ],
+              [
+                38.008507158350255,
+                -7.87341311856887
+              ],
+              [
+                38.0063610792673,
+                -7.87779771893595
+              ],
+              [
+                38.0037886921942,
+                -7.883050403634739
+              ],
+              [
+                38.000789997130966,
+                -7.889171172665233
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.00726489709366,
+    -7.875092986645742
+  ],
+  "centroDeMassa": [
+    37.99913565213331,
+    -7.891741682099587
+  ]
+}

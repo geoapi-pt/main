@@ -1,1 +1,544 @@
-{"CP4":"4730","CP3":"006","Distrito":"Braga","Concelho":"Vila Verde","CP":"4730-006","Artéria":"Travessa Caleiro de São Pedro","Localidade":"Cervães","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CERVÃES","locais":[{"id":"pt.ine.add.PTCONT.460336","rua":"TV CALEIRO DE S PEDRO","casa":"2","coordenadas":[41.59968122662385,-8.528631382436206]},{"id":"pt.ine.add.PTCONT.464139","rua":"LOTEAM S PEDRO","casa":"8","coordenadas":[41.59966947750987,-8.526808074866414]},{"id":"pt.ine.add.PTCONT.464140","rua":"R FONTE DO SARDAO","casa":"3","coordenadas":[41.59894793621583,-8.529790404440648]},{"id":"pt.ine.add.PTCONT.487991","rua":"LOTEAM S PEDRO","casa":"2","coordenadas":[41.59957857984544,-8.52705941648355]},{"id":"pt.ine.add.PTCONT.493248","rua":"R CALEIRO","casa":"7","coordenadas":[41.59928762950324,-8.527885295267694]},{"id":"pt.ine.add.PTCONT.502666","rua":"TV LEIROINHA 3","casa":"","coordenadas":[41.5996492553597,-8.530070583446244]},{"id":"pt.ine.add.PTCONT.517033","rua":"LOTEAM S PEDRO","casa":"1","coordenadas":[41.59940854082306,-8.526758509259343]},{"id":"pt.ine.add.PTCONT.547354","rua":"R CALEIRO","casa":"11","coordenadas":[41.59916976026028,-8.528124474533755]},{"id":"pt.ine.add.PTCONT.568585","rua":"LOTEAM S PEDRO","casa":"7","coordenadas":[41.59949943783126,-8.526507167872799]},{"id":"pt.ine.add.PTCONT.598790","rua":"TV CALEIRO DE S PEDRO","casa":"","coordenadas":[41.59956529508538,-8.528306810831548]},{"id":"pt.ine.add.PTCONT.630324","rua":"TV CALEIRO","casa":"2","coordenadas":[41.599411287275665,-8.52858175451376]},{"id":"pt.ine.add.PTCONT.662396","rua":"R CALEIRO","casa":"9","coordenadas":[41.59917925819381,-8.527980593871487]},{"id":"pt.ine.add.PTCONT.673273","rua":"LOTEAM S PEDRO","casa":"70","coordenadas":[41.599696734382185,-8.526736270661553]},{"id":"pt.ine.add.PTCONT.678474","rua":"LOTEAM S PEDRO","casa":"12","coordenadas":[41.59973303575093,-8.526652526362426]},{"id":"pt.ine.add.PTCONT.700103","rua":"LOTEAM S PEDRO","casa":"5","coordenadas":[41.59946317761937,-8.526578917268017]},{"id":"pt.ine.add.PTCONT.718107","rua":"LOTEAM S PEDRO","casa":"3","coordenadas":[41.599444883268355,-8.526662770662448]},{"id":"pt.ine.add.PTCONT.729920","rua":"LOTEAM S PEDRO","casa":"6","coordenadas":[41.59964217950983,-8.526891873728502]},{"id":"pt.ine.add.PTCONT.753234","rua":"R FONTE DO SARDAO","casa":"1","coordenadas":[41.59912028468212,-8.529419618865628]},{"id":"pt.ine.add.PTCONT.777898","rua":"TV CALEIRO DE S PEDRO","casa":"5","coordenadas":[41.59978269737481,-8.527924297400013]},{"id":"pt.ine.add.PTCONT.777899","rua":"TV CALEIRO DE S PEDRO","casa":"5","coordenadas":[41.59978269737481,-8.527924297400013]},{"id":"pt.ine.add.PTCONT.781117","rua":"R CALEIRO","casa":"3","coordenadas":[41.5984267504396,-8.526872490518537]},{"id":"pt.ine.add.PTCONT.839069","rua":"R CALEIRO","casa":"14","coordenadas":[41.59951478287411,-8.529901830170967]},{"id":"pt.ine.add.PTCONT.842298","rua":"LOTEAM S PEDRO","casa":"4","coordenadas":[41.59961484035586,-8.5269876672323]},{"id":"pt.ine.add.PTCONT.848359","rua":"TV CALEIRO DE S PEDRO","casa":"8","coordenadas":[41.600026903061064,-8.527601919809493]},{"id":"pt.ine.add.PTCONT.848503","rua":"R CALEIRO","casa":"16","coordenadas":[41.59958502944513,-8.530418043598509]}],"ruas":["TV CALEIRO DE S PEDRO","LOTEAM S PEDRO","R FONTE DO SARDAO","R CALEIRO","TV LEIROINHA 3","TV CALEIRO"],"centroide":[41.59947069380086,-8.527777456162639]}
+{
+  "CP": "4730-006",
+  "CP4": "4730",
+  "CP3": "006",
+  "Distrito": "Braga",
+  "Concelho": "Vila Verde",
+  "Localidade": "Cervães",
+  "Designação Postal": "CERVÃES",
+  "partes": [
+    {
+      "Artéria": "Rua da Fonte Sardão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Caleiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Caleiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Loteamento de São Pedro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Leiroinha 3",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Caleiro de São Pedro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.460336",
+      "rua": "TV CALEIRO DE S PEDRO",
+      "casa": "2",
+      "coordenadas": [
+        41.59968122662385,
+        -8.528631382436206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.464139",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "8",
+      "coordenadas": [
+        41.59966947750987,
+        -8.526808074866414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.464140",
+      "rua": "R FONTE DO SARDAO",
+      "casa": "3",
+      "coordenadas": [
+        41.59894793621583,
+        -8.529790404440648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.487991",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "2",
+      "coordenadas": [
+        41.59957857984544,
+        -8.52705941648355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.493248",
+      "rua": "R CALEIRO",
+      "casa": "7",
+      "coordenadas": [
+        41.59928762950324,
+        -8.527885295267694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.502666",
+      "rua": "TV LEIROINHA 3",
+      "casa": "",
+      "coordenadas": [
+        41.5996492553597,
+        -8.530070583446244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.517033",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "1",
+      "coordenadas": [
+        41.59940854082306,
+        -8.526758509259343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.547354",
+      "rua": "R CALEIRO",
+      "casa": "11",
+      "coordenadas": [
+        41.59916976026028,
+        -8.528124474533755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.568585",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "7",
+      "coordenadas": [
+        41.59949943783126,
+        -8.526507167872799
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.598790",
+      "rua": "TV CALEIRO DE S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        41.59956529508538,
+        -8.528306810831548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.630324",
+      "rua": "TV CALEIRO",
+      "casa": "2",
+      "coordenadas": [
+        41.599411287275665,
+        -8.52858175451376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.662396",
+      "rua": "R CALEIRO",
+      "casa": "9",
+      "coordenadas": [
+        41.59917925819381,
+        -8.527980593871487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.673273",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "70",
+      "coordenadas": [
+        41.599696734382185,
+        -8.526736270661553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.678474",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "12",
+      "coordenadas": [
+        41.59973303575093,
+        -8.526652526362426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.700103",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "5",
+      "coordenadas": [
+        41.59946317761937,
+        -8.526578917268017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.718107",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "3",
+      "coordenadas": [
+        41.599444883268355,
+        -8.526662770662448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.729920",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "6",
+      "coordenadas": [
+        41.59964217950983,
+        -8.526891873728502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.753234",
+      "rua": "R FONTE DO SARDAO",
+      "casa": "1",
+      "coordenadas": [
+        41.59912028468212,
+        -8.529419618865628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.777898",
+      "rua": "TV CALEIRO DE S PEDRO",
+      "casa": "5",
+      "coordenadas": [
+        41.59978269737481,
+        -8.527924297400013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.777899",
+      "rua": "TV CALEIRO DE S PEDRO",
+      "casa": "5",
+      "coordenadas": [
+        41.59978269737481,
+        -8.527924297400013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.781117",
+      "rua": "R CALEIRO",
+      "casa": "3",
+      "coordenadas": [
+        41.5984267504396,
+        -8.526872490518537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.839069",
+      "rua": "R CALEIRO",
+      "casa": "14",
+      "coordenadas": [
+        41.59951478287411,
+        -8.529901830170967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.842298",
+      "rua": "LOTEAM S PEDRO",
+      "casa": "4",
+      "coordenadas": [
+        41.59961484035586,
+        -8.5269876672323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.848359",
+      "rua": "TV CALEIRO DE S PEDRO",
+      "casa": "8",
+      "coordenadas": [
+        41.600026903061064,
+        -8.527601919809493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.848503",
+      "rua": "R CALEIRO",
+      "casa": "16",
+      "coordenadas": [
+        41.59958502944513,
+        -8.530418043598509
+      ]
+    }
+  ],
+  "ruas": [
+    "TV CALEIRO DE S PEDRO",
+    "LOTEAM S PEDRO",
+    "R FONTE DO SARDAO",
+    "R CALEIRO",
+    "TV LEIROINHA 3",
+    "TV CALEIRO"
+  ],
+  "centro": [
+    41.59922682675033,
+    -8.528462605735655
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.59871991743873,
+                -8.528513817099725
+              ],
+              [
+                41.598654769216694,
+                -8.52814907785946
+              ],
+              [
+                41.59861452526292,
+                -8.527824222857891
+              ],
+              [
+                41.598599185577385,
+                -8.527539252095014
+              ],
+              [
+                41.598608750160096,
+                -8.52729416557083
+              ],
+              [
+                41.598643219011066,
+                -8.527088963285339
+              ],
+              [
+                41.59870259213028,
+                -8.526923645238542
+              ],
+              [
+                41.59878686951774,
+                -8.526798211430439
+              ],
+              [
+                41.598896051173455,
+                -8.526712661861028
+              ],
+              [
+                41.59903013709741,
+                -8.526666996530308
+              ],
+              [
+                41.599151112248364,
+                -8.52662931059233
+              ],
+              [
+                41.59925897662633,
+                -8.526599604047094
+              ],
+              [
+                41.599353730231286,
+                -8.526577876894597
+              ],
+              [
+                41.599435373063244,
+                -8.52656412913484
+              ],
+              [
+                41.599503905122205,
+                -8.526558360767824
+              ],
+              [
+                41.599559326408155,
+                -8.526560571793548
+              ],
+              [
+                41.599601636921115,
+                -8.52657076221201
+              ],
+              [
+                41.59963083666108,
+                -8.526588932023214
+              ],
+              [
+                41.59966097811026,
+                -8.526619664880627
+              ],
+              [
+                41.59969206126867,
+                -8.52666296078425
+              ],
+              [
+                41.599724086136305,
+                -8.526718819734084
+              ],
+              [
+                41.599757052713166,
+                -8.526787241730128
+              ],
+              [
+                41.59979096099926,
+                -8.526868226772383
+              ],
+              [
+                41.59982581099457,
+                -8.526961774860844
+              ],
+              [
+                41.59986160269911,
+                -8.527067885995518
+              ],
+              [
+                41.59989833611289,
+                -8.5271865601764
+              ],
+              [
+                41.599924577104595,
+                -8.527328972953999
+              ],
+              [
+                41.599940325674254,
+                -8.52749512432831
+              ],
+              [
+                41.599945581821856,
+                -8.527685014299335
+              ],
+              [
+                41.5999403455474,
+                -8.527898642867074
+              ],
+              [
+                41.5999246168509,
+                -8.528136010031526
+              ],
+              [
+                41.59989839573234,
+                -8.528397115792693
+              ],
+              [
+                41.59986168219172,
+                -8.528681960150571
+              ],
+              [
+                41.59981447622905,
+                -8.528990543105166
+              ],
+              [
+                41.599772167481795,
+                -8.529265982255314
+              ],
+              [
+                41.59973475594996,
+                -8.529508277601018
+              ],
+              [
+                41.599702241633544,
+                -8.529717429142277
+              ],
+              [
+                41.59967462453255,
+                -8.529893436879089
+              ],
+              [
+                41.59965190464697,
+                -8.530036300811458
+              ],
+              [
+                41.599634081976816,
+                -8.530146020939382
+              ],
+              [
+                41.599621156522076,
+                -8.53022259726286
+              ],
+              [
+                41.599613128282755,
+                -8.530266029781894
+              ],
+              [
+                41.599596148991644,
+                -8.530294226374206
+              ],
+              [
+                41.59957021864873,
+                -8.530307187039796
+              ],
+              [
+                41.59953533725403,
+                -8.530304911778668
+              ],
+              [
+                41.599491504807546,
+                -8.530287400590819
+              ],
+              [
+                41.599438721309255,
+                -8.530254653476248
+              ],
+              [
+                41.59937698675918,
+                -8.530206670434957
+              ],
+              [
+                41.59930630115731,
+                -8.530143451466945
+              ],
+              [
+                41.59922666450365,
+                -8.53006499657221
+              ],
+              [
+                41.59914883890394,
+                -8.529950756134287
+              ],
+              [
+                41.59907282435819,
+                -8.529800730153173
+              ],
+              [
+                41.59899862086638,
+                -8.529614918628866
+              ],
+              [
+                41.59892622842854,
+                -8.529393321561368
+              ],
+              [
+                41.598855647044644,
+                -8.529135938950677
+              ],
+              [
+                41.59878687671471,
+                -8.528842770796796
+              ],
+              [
+                41.59871991743873,
+                -8.528513817099725
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.599409764014794,
+    -8.528273305149808
+  ],
+  "centroDeMassa": [
+    41.59922682675033,
+    -8.528462605735655
+  ]
+}

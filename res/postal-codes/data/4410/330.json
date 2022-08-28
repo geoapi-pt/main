@@ -1,1 +1,414 @@
-{"CP4":"4410","CP3":"330","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4410-330","Artéria":"Rua Nova da Rainha","Localidade":"Arcozelo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARCOZELO VNG","locais":[{"id":"pt.ine.add.PTCONT.3557285","rua":"R NOVA DA RAINHA","casa":"88","coordenadas":[41.06281837650589,-8.6273894921427]},{"id":"pt.ine.add.PTCONT.3569913","rua":"R NOVA DA RAINHA","casa":"123","coordenadas":[41.06291081542746,-8.626831030367194]},{"id":"pt.ine.add.PTCONT.3608507","rua":"R NOVA DA RAINHA","casa":"101","coordenadas":[41.06308998181922,-8.627046514964396]},{"id":"pt.ine.add.PTCONT.3719260","rua":"R NOVA DA RAINHA","casa":"210","coordenadas":[41.0627708217721,-8.625878234065672]},{"id":"pt.ine.add.PTCONT.3809786","rua":"R NOVA DA RAINHA","casa":"156","coordenadas":[41.062695784643786,-8.626579588278798]},{"id":"pt.ine.add.PTCONT.3847030","rua":"R NOVA DA RAINHA","casa":"487","coordenadas":[41.063342166386484,-8.622813080658142]},{"id":"pt.ine.add.PTCONT.3912464","rua":"R NOVA DA RAINHA","casa":"87","coordenadas":[41.063008025959306,-8.627260046116897]},{"id":"pt.ine.add.PTCONT.4034657","rua":"R NOVA DA RAINHA","casa":"196","coordenadas":[41.06276100348104,-8.626068510613088]},{"id":"pt.ine.add.PTCONT.4041288","rua":"R NOVA DA RAINHA","casa":"52","coordenadas":[41.0628800277449,-8.627711169660984]},{"id":"pt.ine.add.PTCONT.4047786","rua":"R NOVA DA RAINHA","casa":"60","coordenadas":[41.06267354374376,-8.627566860466647]},{"id":"pt.ine.add.PTCONT.4074275","rua":"R NOVA DA RAINHA","casa":"263","coordenadas":[41.06317360962074,-8.624334638563775]},{"id":"pt.ine.add.PTCONT.4154020","rua":"R NOVA DA RAINHA","casa":"421","coordenadas":[41.06329502097004,-8.623312403317685]},{"id":"pt.ine.add.PTCONT.4171060","rua":"R NOVA DA RAINHA","casa":"73","coordenadas":[41.062323706606804,-8.62725492379891]},{"id":"pt.ine.add.PTCONT.4178896","rua":"R NOVA DA RAINHA","casa":"227","coordenadas":[41.06288792728941,-8.62586721130405]},{"id":"pt.ine.add.PTCONT.4218369","rua":"R NOVA DA RAINHA","casa":"24","coordenadas":[41.062905456897155,-8.628080163779268]},{"id":"pt.ine.add.PTCONT.4237745","rua":"R NOVA DA RAINHA","casa":"87","coordenadas":[41.062953592603414,-8.627354813854407]},{"id":"pt.ine.add.PTCONT.4274402","rua":"R NOVA DA RAINHA","casa":"37","coordenadas":[41.06315762560384,-8.628070157566206]},{"id":"pt.ine.add.PTCONT.4280278","rua":"R NOVA DA RAINHA","casa":"87","coordenadas":[41.06307970244482,-8.627343861097904]},{"id":"pt.ine.add.PTCONT.4342563","rua":"R NOVA DA RAINHA","casa":"46","coordenadas":[41.06288862342672,-8.627806409159604]},{"id":"pt.ine.add.PTCONT.4356399","rua":"R NOVA DA RAINHA","casa":"408","coordenadas":[41.0630592915828,-8.623691354287951]},{"id":"pt.ine.add.PTCONT.4369270","rua":"R NOVA RAINHA","casa":"249","coordenadas":[41.06294373219863,-8.625451236427962]},{"id":"pt.ine.add.PTCONT.4385345","rua":"R NOVA RAINHA","casa":"205","coordenadas":[41.06288792728941,-8.62586721130405]}],"ruas":["R NOVA DA RAINHA","R NOVA RAINHA"],"centroide":[41.062934230320394,-8.626367223832963]}
+{
+  "CP": "4410-330",
+  "CP4": "4410",
+  "CP3": "330",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Arcozelo",
+  "Designação Postal": "ARCOZELO VNG",
+  "partes": [
+    {
+      "Artéria": "Rua Nova da Rainha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3557285",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "88",
+      "coordenadas": [
+        41.06281837650589,
+        -8.6273894921427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3569913",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "123",
+      "coordenadas": [
+        41.06291081542746,
+        -8.626831030367194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3608507",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "101",
+      "coordenadas": [
+        41.06308998181922,
+        -8.627046514964396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3719260",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "210",
+      "coordenadas": [
+        41.0627708217721,
+        -8.625878234065672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3809786",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "156",
+      "coordenadas": [
+        41.062695784643786,
+        -8.626579588278798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3847030",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "487",
+      "coordenadas": [
+        41.063342166386484,
+        -8.622813080658142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3912464",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "87",
+      "coordenadas": [
+        41.063008025959306,
+        -8.627260046116897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4034657",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "196",
+      "coordenadas": [
+        41.06276100348104,
+        -8.626068510613088
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4041288",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "52",
+      "coordenadas": [
+        41.0628800277449,
+        -8.627711169660984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4047786",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "60",
+      "coordenadas": [
+        41.06267354374376,
+        -8.627566860466647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4074275",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "263",
+      "coordenadas": [
+        41.06317360962074,
+        -8.624334638563775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4154020",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "421",
+      "coordenadas": [
+        41.06329502097004,
+        -8.623312403317685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4171060",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "73",
+      "coordenadas": [
+        41.062323706606804,
+        -8.62725492379891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4178896",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "227",
+      "coordenadas": [
+        41.06288792728941,
+        -8.62586721130405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4218369",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "24",
+      "coordenadas": [
+        41.062905456897155,
+        -8.628080163779268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4237745",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "87",
+      "coordenadas": [
+        41.062953592603414,
+        -8.627354813854407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4274402",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "37",
+      "coordenadas": [
+        41.06315762560384,
+        -8.628070157566206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280278",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "87",
+      "coordenadas": [
+        41.06307970244482,
+        -8.627343861097904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4342563",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "46",
+      "coordenadas": [
+        41.06288862342672,
+        -8.627806409159604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4356399",
+      "rua": "R NOVA DA RAINHA",
+      "casa": "408",
+      "coordenadas": [
+        41.0630592915828,
+        -8.623691354287951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4369270",
+      "rua": "R NOVA RAINHA",
+      "casa": "249",
+      "coordenadas": [
+        41.06294373219863,
+        -8.625451236427962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4385345",
+      "rua": "R NOVA RAINHA",
+      "casa": "205",
+      "coordenadas": [
+        41.06288792728941,
+        -8.62586721130405
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOVA DA RAINHA",
+    "R NOVA RAINHA"
+  ],
+  "centro": [
+    41.06283293649665,
+    -8.625446622218705
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.06265094114512,
+                -8.62771912128786
+              ],
+              [
+                41.06257822235884,
+                -8.627615966290318
+              ],
+              [
+                41.062526086936074,
+                -8.627470024893857
+              ],
+              [
+                41.06249453487685,
+                -8.627281297098481
+              ],
+              [
+                41.062483566181164,
+                -8.627049782904189
+              ],
+              [
+                41.062493180849025,
+                -8.62677548231098
+              ],
+              [
+                41.062523378880414,
+                -8.626458395318858
+              ],
+              [
+                41.06257416027534,
+                -8.62609852192782
+              ],
+              [
+                41.0626455250338,
+                -8.625695862137865
+              ],
+              [
+                41.062737473155806,
+                -8.625250415948996
+              ],
+              [
+                41.06282234768136,
+                -8.624846927508269
+              ],
+              [
+                41.06290014861048,
+                -8.624485396815684
+              ],
+              [
+                41.06297087594315,
+                -8.624165823871245
+              ],
+              [
+                41.06303452967938,
+                -8.623888208674945
+              ],
+              [
+                41.06309110981917,
+                -8.62365255122679
+              ],
+              [
+                41.06314061636251,
+                -8.623458851526777
+              ],
+              [
+                41.063183049309416,
+                -8.62330710957491
+              ],
+              [
+                41.06321840865987,
+                -8.623197325371184
+              ],
+              [
+                41.06324646464179,
+                -8.623183406019612
+              ],
+              [
+                41.06326721725519,
+                -8.623265351520194
+              ],
+              [
+                41.063280666500034,
+                -8.623443161872931
+              ],
+              [
+                41.063286812376354,
+                -8.623716837077822
+              ],
+              [
+                41.06328565488413,
+                -8.624086377134867
+              ],
+              [
+                41.06327719402337,
+                -8.624551782044067
+              ],
+              [
+                41.06326142979408,
+                -8.625113051805421
+              ],
+              [
+                41.063238362196245,
+                -8.625770186418928
+              ],
+              [
+                41.063214237912106,
+                -8.626345335552827
+              ],
+              [
+                41.06318905694165,
+                -8.626838499207114
+              ],
+              [
+                41.063162819284884,
+                -8.627249677381794
+              ],
+              [
+                41.0631355249418,
+                -8.627578870076867
+              ],
+              [
+                41.0631071739124,
+                -8.627826077292328
+              ],
+              [
+                41.063077766196685,
+                -8.627991299028178
+              ],
+              [
+                41.06304730179467,
+                -8.628074535284421
+              ],
+              [
+                41.06301578070633,
+                -8.628075786061054
+              ],
+              [
+                41.062979109905754,
+                -8.628063986115915
+              ],
+              [
+                41.06293728939292,
+                -8.628039135449002
+              ],
+              [
+                41.062890319167856,
+                -8.628001234060319
+              ],
+              [
+                41.06283819923054,
+                -8.627950281949863
+              ],
+              [
+                41.06278092958098,
+                -8.627886279117634
+              ],
+              [
+                41.06271851021918,
+                -8.627809225563634
+              ],
+              [
+                41.06265094114512,
+                -8.62771912128786
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.062957649415424,
+    -8.625981936018096
+  ],
+  "centroDeMassa": [
+    41.06283293649665,
+    -8.625446622218705
+  ]
+}

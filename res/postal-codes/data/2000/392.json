@@ -1,1 +1,393 @@
-{"CP4":"2000","CP3":"392","Distrito":"Santarém","Concelho":"Santarém","CP":"2000-392","Artéria":"Rua Maria do Rosário Figueiredo","Localidade":"Alcanhões","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALCANHÕES","locais":[{"id":"pt.ine.add.PTCONT.4428627","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"7","coordenadas":[39.29870376110043,-8.66066857016179]},{"id":"pt.ine.add.PTCONT.4464505","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"22","coordenadas":[39.298332743874205,-8.661048340005502]},{"id":"pt.ine.add.PTCONT.4489030","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"","coordenadas":[39.298089294540894,-8.661104474030639]},{"id":"pt.ine.add.PTCONT.4492159","rua":"R MARIA ROSARIO FIGUEIREDO","casa":"26","coordenadas":[39.29825162914479,-8.661059323284686]},{"id":"pt.ine.add.PTCONT.4492160","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"21","coordenadas":[39.298387783851155,-8.66082849451159]},{"id":"pt.ine.add.PTCONT.4497447","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"12","coordenadas":[39.29856755415801,-8.660910992488585]},{"id":"pt.ine.add.PTCONT.4500337","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"20","coordenadas":[39.29839594991415,-8.661014037036145]},{"id":"pt.ine.add.PTCONT.4524240","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"23","coordenadas":[39.298126058047124,-8.660942454760988]},{"id":"pt.ine.add.PTCONT.4546869","rua":"R MARIA ROSARIO FIGUEIREDO","casa":"30","coordenadas":[39.298170409276345,-8.661093490826866]},{"id":"pt.ine.add.PTCONT.4546937","rua":"R MARIA ROSARIO FIGUEIREDO","casa":"32","coordenadas":[39.298170409276345,-8.661093490826866]},{"id":"pt.ine.add.PTCONT.4555586","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"40","coordenadas":[39.298051636668596,-8.661463559229663]},{"id":"pt.ine.add.PTCONT.4588941","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"4","coordenadas":[39.298784245383885,-8.660796693313566]},{"id":"pt.ine.add.PTCONT.4606182","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"10","coordenadas":[39.29865788597183,-8.660853707730176]},{"id":"pt.ine.add.PTCONT.4609683","rua":"R MARIA ROSARIO FIGUEIREDO","casa":"3","coordenadas":[39.298893168771116,-8.660612028565005]},{"id":"pt.ine.add.PTCONT.4636642","rua":"BC TANOEIROS CASAL KROPOTHINE","casa":"18","coordenadas":[39.29848628177948,-8.660956752548122]},{"id":"pt.ine.add.PTCONT.4661405","rua":"R MARIA DO ROSÁRIO FIGUEIREDO","casa":"15","coordenadas":[39.298478063088396,-8.660782801985565]}],"ruas":["R MARIA DO ROSÁRIO FIGUEIREDO","R MARIA ROSARIO FIGUEIREDO","BC TANOEIROS CASAL KROPOTHINE"],"centroide":[39.298404587450555,-8.66096309395468]}
+{
+  "CP": "2000-392",
+  "CP4": "2000",
+  "CP3": "392",
+  "Distrito": "Santarém",
+  "Concelho": "Santarém",
+  "Localidade": "Alcanhões",
+  "Designação Postal": "ALCANHÕES",
+  "partes": [
+    {
+      "Artéria": "Rua Maria do Rosário Figueiredo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4428627",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "7",
+      "coordenadas": [
+        39.29870376110043,
+        -8.66066857016179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4464505",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "22",
+      "coordenadas": [
+        39.298332743874205,
+        -8.661048340005502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4489030",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "",
+      "coordenadas": [
+        39.298089294540894,
+        -8.661104474030639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4492159",
+      "rua": "R MARIA ROSARIO FIGUEIREDO",
+      "casa": "26",
+      "coordenadas": [
+        39.29825162914479,
+        -8.661059323284686
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4492160",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "21",
+      "coordenadas": [
+        39.298387783851155,
+        -8.66082849451159
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4497447",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "12",
+      "coordenadas": [
+        39.29856755415801,
+        -8.660910992488585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500337",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "20",
+      "coordenadas": [
+        39.29839594991415,
+        -8.661014037036145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4524240",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "23",
+      "coordenadas": [
+        39.298126058047124,
+        -8.660942454760988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546869",
+      "rua": "R MARIA ROSARIO FIGUEIREDO",
+      "casa": "30",
+      "coordenadas": [
+        39.298170409276345,
+        -8.661093490826866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546937",
+      "rua": "R MARIA ROSARIO FIGUEIREDO",
+      "casa": "32",
+      "coordenadas": [
+        39.298170409276345,
+        -8.661093490826866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4555586",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "40",
+      "coordenadas": [
+        39.298051636668596,
+        -8.661463559229663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4588941",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "4",
+      "coordenadas": [
+        39.298784245383885,
+        -8.660796693313566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4606182",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "10",
+      "coordenadas": [
+        39.29865788597183,
+        -8.660853707730176
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4609683",
+      "rua": "R MARIA ROSARIO FIGUEIREDO",
+      "casa": "3",
+      "coordenadas": [
+        39.298893168771116,
+        -8.660612028565005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4636642",
+      "rua": "BC TANOEIROS CASAL KROPOTHINE",
+      "casa": "18",
+      "coordenadas": [
+        39.29848628177948,
+        -8.660956752548122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4661405",
+      "rua": "R MARIA DO ROSÁRIO FIGUEIREDO",
+      "casa": "15",
+      "coordenadas": [
+        39.298478063088396,
+        -8.660782801985565
+      ]
+    }
+  ],
+  "ruas": [
+    "R MARIA DO ROSÁRIO FIGUEIREDO",
+    "R MARIA ROSARIO FIGUEIREDO",
+    "BC TANOEIROS CASAL KROPOTHINE"
+  ],
+  "centro": [
+    39.29847240271985,
+    -8.661037793897334
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.298463729070946,
+                -8.661088447151858
+              ],
+              [
+                39.29837215298154,
+                -8.66117180539137
+              ],
+              [
+                39.29829261230756,
+                -8.661239133144708
+              ],
+              [
+                39.29822510704901,
+                -8.661290430411874
+              ],
+              [
+                39.29816963720589,
+                -8.661325697192865
+              ],
+              [
+                39.29812620277821,
+                -8.661344933487682
+              ],
+              [
+                39.29809480376595,
+                -8.661348139296326
+              ],
+              [
+                39.29807544016912,
+                -8.661335314618794
+              ],
+              [
+                39.29806811198773,
+                -8.66130645945509
+              ],
+              [
+                39.29807281922176,
+                -8.661261573805213
+              ],
+              [
+                39.29807751248133,
+                -8.661219767310481
+              ],
+              [
+                39.298082191766426,
+                -8.661181039970895
+              ],
+              [
+                39.29808685707705,
+                -8.661145391786457
+              ],
+              [
+                39.29809150841322,
+                -8.661112822757167
+              ],
+              [
+                39.298096145774906,
+                -8.66108333288302
+              ],
+              [
+                39.298100769162126,
+                -8.66105692216402
+              ],
+              [
+                39.298105378574874,
+                -8.661033590600168
+              ],
+              [
+                39.298109974013144,
+                -8.661013338191461
+              ],
+              [
+                39.298123021631845,
+                -8.66099133788698
+              ],
+              [
+                39.29814452143098,
+                -8.660967589686727
+              ],
+              [
+                39.298174473410526,
+                -8.660942093590698
+              ],
+              [
+                39.29821287757049,
+                -8.660914849598893
+              ],
+              [
+                39.29825973391088,
+                -8.660885857711316
+              ],
+              [
+                39.298315042431696,
+                -8.660855117927964
+              ],
+              [
+                39.29837880313294,
+                -8.660822630248838
+              ],
+              [
+                39.29845101601461,
+                -8.66078839467394
+              ],
+              [
+                39.29851716178092,
+                -8.660757555083451
+              ],
+              [
+                39.29857724043187,
+                -8.660730111477378
+              ],
+              [
+                39.29863125196748,
+                -8.660706063855715
+              ],
+              [
+                39.298679196387724,
+                -8.660685412218466
+              ],
+              [
+                39.298721073692626,
+                -8.660668156565631
+              ],
+              [
+                39.29875688388216,
+                -8.660654296897206
+              ],
+              [
+                39.29878662695635,
+                -8.660643833213197
+              ],
+              [
+                39.29881030291519,
+                -8.660636765513598
+              ],
+              [
+                39.29882931745125,
+                -8.660633466663146
+              ],
+              [
+                39.29884367056452,
+                -8.660633936661839
+              ],
+              [
+                39.29885336225502,
+                -8.66063817550968
+              ],
+              [
+                39.29885839252273,
+                -8.660646183206666
+              ],
+              [
+                39.29885876136767,
+                -8.660657959752797
+              ],
+              [
+                39.29885446878983,
+                -8.660673505148075
+              ],
+              [
+                39.29884551478921,
+                -8.6606928193925
+              ],
+              [
+                39.298831899365794,
+                -8.660715902486071
+              ],
+              [
+                39.29880853885914,
+                -8.660746519972884
+              ],
+              [
+                39.29877543326924,
+                -8.66078467185294
+              ],
+              [
+                39.29873258259609,
+                -8.660830358126239
+              ],
+              [
+                39.29867998683967,
+                -8.66088357879278
+              ],
+              [
+                39.29861764600002,
+                -8.660944333852562
+              ],
+              [
+                39.29854556007711,
+                -8.66101262330559
+              ],
+              [
+                39.298463729070946,
+                -8.661088447151858
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.29844136075201,
+    -8.66093129667694
+  ],
+  "centroDeMassa": [
+    39.29847240271985,
+    -8.661037793897334
+  ]
+}

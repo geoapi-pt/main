@@ -1,1 +1,424 @@
-{"CP4":"2665","CP3":"101","Distrito":"Lisboa","Concelho":"Mafra","CP":"2665-101","Artéria":"Azinhaga do Carvalheiro","Localidade":"Carapiteira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GRADIL","locais":[{"id":"pt.ine.add.PTCONT.2298875","rua":"R PRINCIPAL","casa":"26","coordenadas":[38.975611103827625,-9.271834729171916]},{"id":"pt.ine.add.PTCONT.2361824","rua":"R POUSO DO CUCO","casa":"6","coordenadas":[38.977639594373514,-9.271647966544453]},{"id":"pt.ine.add.PTCONT.2413885","rua":"CAM MUNICIPAL 1171","casa":"19","coordenadas":[38.97676139509202,-9.272107024399416]},{"id":"pt.ine.add.PTCONT.2437083","rua":"ESTR PRINCIPAL DA CARAPITEIRA DE BAIXO","casa":"","coordenadas":[38.97759172877399,-9.2737820451109]},{"id":"pt.ine.add.PTCONT.2468912","rua":"R POUSO DO CUCO","casa":"2","coordenadas":[38.976925305075504,-9.271925016951673]},{"id":"pt.ine.add.PTCONT.2626928","rua":"CAM MUNICIPAL 1171","casa":"35","coordenadas":[38.97536951787444,-9.271669308912237]},{"id":"pt.ine.add.PTCONT.2668704","rua":"CAM MUNICIPAL 1171","casa":"33","coordenadas":[38.97564971730805,-9.27156994169452]},{"id":"pt.ine.add.PTCONT.2730270","rua":"CAM MUNICIPAL","casa":"54","coordenadas":[38.97121130535713,-9.274106614986435]},{"id":"pt.ine.add.PTCONT.2767284","rua":"CAM MUNICIPAL 1171","casa":"21","coordenadas":[38.97659973750726,-9.272058276248165]},{"id":"pt.ine.add.PTCONT.2929399","rua":"R POUSO CUCO","casa":"3","coordenadas":[38.97760874783923,-9.272039822561917]},{"id":"pt.ine.add.PTCONT.2997025","rua":"AZ CARVALHEIRO","casa":"","coordenadas":[38.97797562572533,-9.27044167273314]},{"id":"pt.ine.add.PTCONT.3030408","rua":"CAM MUNICIPAL 1171","casa":"25","coordenadas":[38.97613491591939,-9.271693106079367]},{"id":"pt.ine.add.PTCONT.3141289","rua":"R POUSO DO CUCO","casa":"3","coordenadas":[38.97740183499934,-9.272013428282817]},{"id":"pt.ine.add.PTCONT.3188992","rua":"AZ CARVALHEIRO QTA DO CARVALHEIRO","casa":"","coordenadas":[38.9784707311962,-9.270472673580487]},{"id":"pt.ine.add.PTCONT.3244128","rua":"AZ CARVALHEIRO","casa":"","coordenadas":[38.978173645426864,-9.270456380610247]},{"id":"pt.ine.add.PTCONT.3244130","rua":"CAM MUNICIPAL 1171","casa":"37","coordenadas":[38.97514504312901,-9.271596478238887]},{"id":"pt.ine.add.PTCONT.3252646","rua":"R POUSO DO CUCO","casa":"4","coordenadas":[38.97703382756452,-9.271880596922223]},{"id":"pt.ine.add.PTCONT.3271386","rua":"R CASTELO","casa":"51","coordenadas":[38.974157149485094,-9.277742562169726]}],"ruas":["R PRINCIPAL","R POUSO DO CUCO","CAM MUNICIPAL 1171","ESTR PRINCIPAL DA CARAPITEIRA DE BAIXO","CAM MUNICIPAL","R POUSO CUCO","AZ CARVALHEIRO","AZ CARVALHEIRO QTA DO CARVALHEIRO","R CASTELO"],"centroide":[38.97654728099938,-9.271840887236989]}
+{
+  "CP": "2665-101",
+  "CP4": "2665",
+  "CP3": "101",
+  "Distrito": "Lisboa",
+  "Concelho": "Mafra",
+  "Localidade": "Carapiteira",
+  "Designação Postal": "GRADIL",
+  "partes": [
+    {
+      "Artéria": "Rua Pouso do Cuco",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Azinhaga do Carvalheiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2298875",
+      "rua": "R PRINCIPAL",
+      "casa": "26",
+      "coordenadas": [
+        38.975611103827625,
+        -9.271834729171916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2361824",
+      "rua": "R POUSO DO CUCO",
+      "casa": "6",
+      "coordenadas": [
+        38.977639594373514,
+        -9.271647966544453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2413885",
+      "rua": "CAM MUNICIPAL 1171",
+      "casa": "19",
+      "coordenadas": [
+        38.97676139509202,
+        -9.272107024399416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2437083",
+      "rua": "ESTR PRINCIPAL DA CARAPITEIRA DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        38.97759172877399,
+        -9.2737820451109
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2468912",
+      "rua": "R POUSO DO CUCO",
+      "casa": "2",
+      "coordenadas": [
+        38.976925305075504,
+        -9.271925016951673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2626928",
+      "rua": "CAM MUNICIPAL 1171",
+      "casa": "35",
+      "coordenadas": [
+        38.97536951787444,
+        -9.271669308912237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2668704",
+      "rua": "CAM MUNICIPAL 1171",
+      "casa": "33",
+      "coordenadas": [
+        38.97564971730805,
+        -9.27156994169452
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2730270",
+      "rua": "CAM MUNICIPAL",
+      "casa": "54",
+      "coordenadas": [
+        38.97121130535713,
+        -9.274106614986435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2767284",
+      "rua": "CAM MUNICIPAL 1171",
+      "casa": "21",
+      "coordenadas": [
+        38.97659973750726,
+        -9.272058276248165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2929399",
+      "rua": "R POUSO CUCO",
+      "casa": "3",
+      "coordenadas": [
+        38.97760874783923,
+        -9.272039822561917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2997025",
+      "rua": "AZ CARVALHEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.97797562572533,
+        -9.27044167273314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3030408",
+      "rua": "CAM MUNICIPAL 1171",
+      "casa": "25",
+      "coordenadas": [
+        38.97613491591939,
+        -9.271693106079367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3141289",
+      "rua": "R POUSO DO CUCO",
+      "casa": "3",
+      "coordenadas": [
+        38.97740183499934,
+        -9.272013428282817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3188992",
+      "rua": "AZ CARVALHEIRO QTA DO CARVALHEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.9784707311962,
+        -9.270472673580487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3244128",
+      "rua": "AZ CARVALHEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.978173645426864,
+        -9.270456380610247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3244130",
+      "rua": "CAM MUNICIPAL 1171",
+      "casa": "37",
+      "coordenadas": [
+        38.97514504312901,
+        -9.271596478238887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3252646",
+      "rua": "R POUSO DO CUCO",
+      "casa": "4",
+      "coordenadas": [
+        38.97703382756452,
+        -9.271880596922223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3271386",
+      "rua": "R CASTELO",
+      "casa": "51",
+      "coordenadas": [
+        38.974157149485094,
+        -9.277742562169726
+      ]
+    }
+  ],
+  "ruas": [
+    "R PRINCIPAL",
+    "R POUSO DO CUCO",
+    "CAM MUNICIPAL 1171",
+    "ESTR PRINCIPAL DA CARAPITEIRA DE BAIXO",
+    "CAM MUNICIPAL",
+    "R POUSO CUCO",
+    "AZ CARVALHEIRO",
+    "AZ CARVALHEIRO QTA DO CARVALHEIRO",
+    "R CASTELO"
+  ],
+  "centro": [
+    38.97484101827666,
+    -9.274092117451433
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.97286834267911,
+                -9.276151835277037
+              ],
+              [
+                38.97250011216312,
+                -9.275697341879123
+              ],
+              [
+                38.972239375114306,
+                -9.275260439269271
+              ],
+              [
+                38.97208613153268,
+                -9.274841127447477
+              ],
+              [
+                38.97204038141824,
+                -9.274439406413741
+              ],
+              [
+                38.972102124770984,
+                -9.274055276168063
+              ],
+              [
+                38.97227136159091,
+                -9.273688736710444
+              ],
+              [
+                38.97254809187803,
+                -9.273339788040884
+              ],
+              [
+                38.972932315632335,
+                -9.273008430159383
+              ],
+              [
+                38.97342403285381,
+                -9.272694663065938
+              ],
+              [
+                38.973898513275685,
+                -9.272402073023148
+              ],
+              [
+                38.97435575689793,
+                -9.272130660031012
+              ],
+              [
+                38.974795763720564,
+                -9.271880424089527
+              ],
+              [
+                38.97521853374357,
+                -9.271651365198696
+              ],
+              [
+                38.97562406696697,
+                -9.271443483358519
+              ],
+              [
+                38.97601236339074,
+                -9.271256778568993
+              ],
+              [
+                38.976383423014894,
+                -9.271091250830121
+              ],
+              [
+                38.976737245839445,
+                -9.270946900141904
+              ],
+              [
+                38.97705457683389,
+                -9.270821077677953
+              ],
+              [
+                38.97733541599827,
+                -9.270713783438268
+              ],
+              [
+                38.97757976333255,
+                -9.270625017422851
+              ],
+              [
+                38.97778761883675,
+                -9.2705547796317
+              ],
+              [
+                38.97795898251086,
+                -9.270503070064818
+              ],
+              [
+                38.978093854354896,
+                -9.270469888722202
+              ],
+              [
+                38.978192234368834,
+                -9.270455235603853
+              ],
+              [
+                38.9782541225527,
+                -9.270459110709774
+              ],
+              [
+                38.97829454030072,
+                -9.270514210357616
+              ],
+              [
+                38.97831348761292,
+                -9.27062053454738
+              ],
+              [
+                38.978310964489296,
+                -9.270778083279067
+              ],
+              [
+                38.97828697092983,
+                -9.270986856552677
+              ],
+              [
+                38.978241506934545,
+                -9.271246854368208
+              ],
+              [
+                38.97817457250343,
+                -9.271558076725665
+              ],
+              [
+                38.97808616763648,
+                -9.271920523625042
+              ],
+              [
+                38.97797629233371,
+                -9.272334195066346
+              ],
+              [
+                38.97782648614239,
+                -9.272758040656528
+              ],
+              [
+                38.977636749062526,
+                -9.273192060395592
+              ],
+              [
+                38.97740708109412,
+                -9.273636254283538
+              ],
+              [
+                38.97713748223718,
+                -9.274090622320367
+              ],
+              [
+                38.976827952491696,
+                -9.274555164506076
+              ],
+              [
+                38.97647849185767,
+                -9.275029880840666
+              ],
+              [
+                38.976089100335095,
+                -9.275514771324138
+              ],
+              [
+                38.97565977792399,
+                -9.276009835956488
+              ],
+              [
+                38.97523809199976,
+                -9.276386205835058
+              ],
+              [
+                38.974824042562425,
+                -9.276643880959845
+              ],
+              [
+                38.974417629611985,
+                -9.27678286133085
+              ],
+              [
+                38.974018853148436,
+                -9.27680314694807
+              ],
+              [
+                38.97362771317177,
+                -9.27670473781151
+              ],
+              [
+                38.973244209681994,
+                -9.276487633921164
+              ],
+              [
+                38.97286834267911,
+                -9.276151835277037
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.97575859727778,
+    -9.273023674469929
+  ],
+  "centroDeMassa": [
+    38.97484101827666,
+    -9.274092117451433
+  ]
+}

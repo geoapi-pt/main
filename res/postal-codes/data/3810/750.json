@@ -1,1 +1,471 @@
-{"CP4":"3810","CP3":"750","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3810-750","Artéria":"Rua do Pubral","Localidade":"Mamodeiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"NOSSA SENHORA DE FÁTIMA","locais":[{"id":"pt.ine.add.PTCONT.293244","rua":"R RIBEIRINHO","casa":"4A","coordenadas":[40.570488428847625,-8.573334991071723]},{"id":"pt.ine.add.PTCONT.298258","rua":"R RIBEIRINHO","casa":"21","coordenadas":[40.569291028120574,-8.57325629018057]},{"id":"pt.ine.add.PTCONT.302773","rua":"R RIBEIRINHO","casa":"31","coordenadas":[40.56851447842673,-8.573806221017193]},{"id":"pt.ine.add.PTCONT.302774","rua":"R RIBEIRINHO","casa":"22","coordenadas":[40.5691176812215,-8.573845605009488]},{"id":"pt.ine.add.PTCONT.311938","rua":"R RIBEIRINHO","casa":"6A","coordenadas":[40.570362493255175,-8.573298738095515]},{"id":"pt.ine.add.PTCONT.316577","rua":"VLA COCAIA","casa":"3","coordenadas":[40.580957181447424,-8.57447842305911]},{"id":"pt.ine.add.PTCONT.337006","rua":"R RIBEIRINHO","casa":"18","coordenadas":[40.569352487986926,-8.57367000969184]},{"id":"pt.ine.add.PTCONT.11405","rua":"R RIBEIRINHO","casa":"12","coordenadas":[40.56974947528602,-8.573471858075209]},{"id":"pt.ine.add.PTCONT.13935","rua":"R RIBEIRINHO","casa":"33","coordenadas":[40.56826332790787,-8.573544778585024]},{"id":"pt.ine.add.PTCONT.19107","rua":"R RIBEIRINHO","casa":"4B","coordenadas":[40.5704254835524,-8.573310960093233]},{"id":"pt.ine.add.PTCONT.24543","rua":"R RIBEIRINHO","casa":"1","coordenadas":[40.57087596061409,-8.573254865450037]},{"id":"pt.ine.add.PTCONT.28907","rua":"R RIBEIRINHO","casa":"LO","coordenadas":[40.569208092028994,-8.573751725938484]},{"id":"pt.ine.add.PTCONT.33016","rua":"R RIBEIRINHO","casa":"16","coordenadas":[40.56949688388528,-8.573588293096174]},{"id":"pt.ine.add.PTCONT.40780","rua":"R RIBEIRINHO","casa":"7","coordenadas":[40.57046213357458,-8.57314587079014]},{"id":"pt.ine.add.PTCONT.40781","rua":"R RIBEIRINHO","casa":"26","coordenadas":[40.56885567876908,-8.574068256478538]},{"id":"pt.ine.add.PTCONT.54179","rua":"R RIBEIRINHO","casa":"28","coordenadas":[40.568756397905005,-8.574126649558671]},{"id":"pt.ine.add.PTCONT.62285","rua":"R RIBEIRINHO","casa":"14","coordenadas":[40.56965924479215,-8.573518503030046]},{"id":"pt.ine.add.PTCONT.78564","rua":"R RIBEIRINHO","casa":"3","coordenadas":[40.570696309646934,-8.573135595466116]},{"id":"pt.ine.add.PTCONT.145341","rua":"R RIBEIRINHO","casa":"6B","coordenadas":[40.57030850799811,-8.573286575126732]},{"id":"pt.ine.add.PTCONT.150941","rua":"R RIBEIRINHO","casa":"29","coordenadas":[40.56870480018965,-8.57348862815677]},{"id":"pt.ine.add.PTCONT.162660","rua":"R RIBEIRINHO","casa":"9","coordenadas":[40.57030913781512,-8.57312125016332]},{"id":"pt.ine.add.PTCONT.168991","rua":"R RIBEIRINHO","casa":"10","coordenadas":[40.56991170109239,-8.57343749403756]},{"id":"pt.ine.add.PTCONT.177061","rua":"R RIBEIRINHO","casa":"2","coordenadas":[40.570542414097545,-8.573347154113247]},{"id":"pt.ine.add.PTCONT.187557","rua":"R PUBRAL","casa":"3","coordenadas":[40.57040918251893,-8.572862102217089]},{"id":"pt.ine.add.PTCONT.187560","rua":"R RIBEIRINHO","casa":"24","coordenadas":[40.569036320441434,-8.573927734217461]},{"id":"pt.ine.add.PTCONT.198787","rua":"R RIBEIRINHO","casa":"39","coordenadas":[40.56779574069438,-8.573364581499758]},{"id":"pt.ine.add.PTCONT.214534","rua":"R RIBEIRINHO","casa":"13","coordenadas":[40.57001165653153,-8.573201965844056]},{"id":"pt.ine.add.PTCONT.214535","rua":"R RIBEIRINHO","casa":"13","coordenadas":[40.57001165653153,-8.573201965844056]},{"id":"pt.ine.add.PTCONT.214547","rua":"R RIBEIRINHO","casa":"32","coordenadas":[40.5685035803501,-8.574302123458887]},{"id":"pt.ine.add.PTCONT.263354","rua":"R RIBEIRINHO","casa":"15","coordenadas":[40.569930521170676,-8.573225052622101]},{"id":"pt.ine.add.PTCONT.279631","rua":"R RIBEIRINHO","casa":"5","coordenadas":[40.5705790641721,-8.573182064543577]}],"ruas":["R RIBEIRINHO","VLA COCAIA","R PUBRAL"],"centroide":[40.57000026622332,-8.573512475399605]}}
+{
+  "CP": "3810-750",
+  "CP4": "3810",
+  "CP3": "750",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "Mamodeiro",
+  "Designação Postal": "NOSSA SENHORA DE FÁTIMA",
+  "partes": [
+    {
+      "Artéria": "Rua Ribeirinho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Pubral",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.293244",
+      "rua": "R RIBEIRINHO",
+      "casa": "4A",
+      "coordenadas": [
+        40.570488428847625,
+        -8.573334991071723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.298258",
+      "rua": "R RIBEIRINHO",
+      "casa": "21",
+      "coordenadas": [
+        40.569291028120574,
+        -8.57325629018057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.302773",
+      "rua": "R RIBEIRINHO",
+      "casa": "31",
+      "coordenadas": [
+        40.56851447842673,
+        -8.573806221017193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.302774",
+      "rua": "R RIBEIRINHO",
+      "casa": "22",
+      "coordenadas": [
+        40.5691176812215,
+        -8.573845605009488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.311938",
+      "rua": "R RIBEIRINHO",
+      "casa": "6A",
+      "coordenadas": [
+        40.570362493255175,
+        -8.573298738095515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.316577",
+      "rua": "VLA COCAIA",
+      "casa": "3",
+      "coordenadas": [
+        40.580957181447424,
+        -8.57447842305911
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.337006",
+      "rua": "R RIBEIRINHO",
+      "casa": "18",
+      "coordenadas": [
+        40.569352487986926,
+        -8.57367000969184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11405",
+      "rua": "R RIBEIRINHO",
+      "casa": "12",
+      "coordenadas": [
+        40.56974947528602,
+        -8.573471858075209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.13935",
+      "rua": "R RIBEIRINHO",
+      "casa": "33",
+      "coordenadas": [
+        40.56826332790787,
+        -8.573544778585024
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.19107",
+      "rua": "R RIBEIRINHO",
+      "casa": "4B",
+      "coordenadas": [
+        40.5704254835524,
+        -8.573310960093233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24543",
+      "rua": "R RIBEIRINHO",
+      "casa": "1",
+      "coordenadas": [
+        40.57087596061409,
+        -8.573254865450037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.28907",
+      "rua": "R RIBEIRINHO",
+      "casa": "LO",
+      "coordenadas": [
+        40.569208092028994,
+        -8.573751725938484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.33016",
+      "rua": "R RIBEIRINHO",
+      "casa": "16",
+      "coordenadas": [
+        40.56949688388528,
+        -8.573588293096174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.40780",
+      "rua": "R RIBEIRINHO",
+      "casa": "7",
+      "coordenadas": [
+        40.57046213357458,
+        -8.57314587079014
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.40781",
+      "rua": "R RIBEIRINHO",
+      "casa": "26",
+      "coordenadas": [
+        40.56885567876908,
+        -8.574068256478538
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54179",
+      "rua": "R RIBEIRINHO",
+      "casa": "28",
+      "coordenadas": [
+        40.568756397905005,
+        -8.574126649558671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.62285",
+      "rua": "R RIBEIRINHO",
+      "casa": "14",
+      "coordenadas": [
+        40.56965924479215,
+        -8.573518503030046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.78564",
+      "rua": "R RIBEIRINHO",
+      "casa": "3",
+      "coordenadas": [
+        40.570696309646934,
+        -8.573135595466116
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.145341",
+      "rua": "R RIBEIRINHO",
+      "casa": "6B",
+      "coordenadas": [
+        40.57030850799811,
+        -8.573286575126732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.150941",
+      "rua": "R RIBEIRINHO",
+      "casa": "29",
+      "coordenadas": [
+        40.56870480018965,
+        -8.57348862815677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.162660",
+      "rua": "R RIBEIRINHO",
+      "casa": "9",
+      "coordenadas": [
+        40.57030913781512,
+        -8.57312125016332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.168991",
+      "rua": "R RIBEIRINHO",
+      "casa": "10",
+      "coordenadas": [
+        40.56991170109239,
+        -8.57343749403756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.177061",
+      "rua": "R RIBEIRINHO",
+      "casa": "2",
+      "coordenadas": [
+        40.570542414097545,
+        -8.573347154113247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.187557",
+      "rua": "R PUBRAL",
+      "casa": "3",
+      "coordenadas": [
+        40.57040918251893,
+        -8.572862102217089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.187560",
+      "rua": "R RIBEIRINHO",
+      "casa": "24",
+      "coordenadas": [
+        40.569036320441434,
+        -8.573927734217461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198787",
+      "rua": "R RIBEIRINHO",
+      "casa": "39",
+      "coordenadas": [
+        40.56779574069438,
+        -8.573364581499758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214534",
+      "rua": "R RIBEIRINHO",
+      "casa": "13",
+      "coordenadas": [
+        40.57001165653153,
+        -8.573201965844056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214535",
+      "rua": "R RIBEIRINHO",
+      "casa": "13",
+      "coordenadas": [
+        40.57001165653153,
+        -8.573201965844056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214547",
+      "rua": "R RIBEIRINHO",
+      "casa": "32",
+      "coordenadas": [
+        40.5685035803501,
+        -8.574302123458887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.263354",
+      "rua": "R RIBEIRINHO",
+      "casa": "15",
+      "coordenadas": [
+        40.569930521170676,
+        -8.573225052622101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.279631",
+      "rua": "R RIBEIRINHO",
+      "casa": "5",
+      "coordenadas": [
+        40.5705790641721,
+        -8.573182064543577
+      ]
+    }
+  ],
+  "ruas": [
+    "R RIBEIRINHO",
+    "VLA COCAIA",
+    "R PUBRAL"
+  ],
+  "centro": [
+    40.5743764610709,
+    -8.5736702626381
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.568193900500724,
+                -8.573891948851768
+              ],
+              [
+                40.56810542054375,
+                -8.573774756106877
+              ],
+              [
+                40.56806883560992,
+                -8.573664361216306
+              ],
+              [
+                40.56808414569921,
+                -8.573560764180053
+              ],
+              [
+                40.56815135081163,
+                -8.57346396499812
+              ],
+              [
+                40.568270450947196,
+                -8.573373963670509
+              ],
+              [
+                40.56844144610588,
+                -8.573290760197215
+              ],
+              [
+                40.56866433628768,
+                -8.573214354578244
+              ],
+              [
+                40.56893912149262,
+                -8.573144746813592
+              ],
+              [
+                40.56926580172069,
+                -8.573081936903256
+              ],
+              [
+                40.5697164594035,
+                -8.573052233244871
+              ],
+              [
+                40.57029109454107,
+                -8.573055635838434
+              ],
+              [
+                40.570989707133386,
+                -8.573092144683946
+              ],
+              [
+                40.57181229718045,
+                -8.573161759781406
+              ],
+              [
+                40.572758864682264,
+                -8.573264481130813
+              ],
+              [
+                40.57382940963883,
+                -8.57340030873217
+              ],
+              [
+                40.575023932050144,
+                -8.573569242585474
+              ],
+              [
+                40.57634243191621,
+                -8.573771282690725
+              ],
+              [
+                40.57730153178187,
+                -8.573945313101568
+              ],
+              [
+                40.57790123164712,
+                -8.574091333818
+              ],
+              [
+                40.578141531511974,
+                -8.574209344840021
+              ],
+              [
+                40.57802243137642,
+                -8.574299346167635
+              ],
+              [
+                40.57754393124046,
+                -8.574361337800838
+              ],
+              [
+                40.57670603110411,
+                -8.57439531973963
+              ],
+              [
+                40.57550873096734,
+                -8.574401291984012
+              ],
+              [
+                40.57395203083018,
+                -8.574379254533985
+              ],
+              [
+                40.572578858215536,
+                -8.574345322672098
+              ],
+              [
+                40.57138921312342,
+                -8.574299496398355
+              ],
+              [
+                40.57038309555383,
+                -8.574241775712753
+              ],
+              [
+                40.569560505506765,
+                -8.574172160615294
+              ],
+              [
+                40.56892144298222,
+                -8.574090651105976
+              ],
+              [
+                40.56846590798021,
+                -8.573997247184803
+              ],
+              [
+                40.568193900500724,
+                -8.573891948851768
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.57191642125271,
+    -8.573751807558711
+  ],
+  "centroDeMassa": [
+    40.5743764610709,
+    -8.5736702626381
+  ]
+}

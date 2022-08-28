@@ -1,1 +1,512 @@
-{"CP4":"3220","CP3":"433","Distrito":"Coimbra","Concelho":"Miranda do Corvo","CP":"3220-433","Artéria":"Rua José Pereira Cardoso","Localidade":"Senhor da Serra","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SEMIDE","locais":[{"id":"pt.ine.add.PTCONT.1103121","rua":"TV CATRAIA","casa":"45","coordenadas":[40.15158273786348,-8.347767679710332]},{"id":"pt.ine.add.PTCONT.1105202","rua":"R JOSE PEREIRA CARDOSO","casa":"514","coordenadas":[40.153659032639304,-8.349957257846954]},{"id":"pt.ine.add.PTCONT.1134244","rua":"R JOSE PEREIRA CARDOSO","casa":"591","coordenadas":[40.15426299863042,-8.349654019861124]},{"id":"pt.ine.add.PTCONT.1135030","rua":"R JOSE PEREIRA CARDOSO","casa":"591","coordenadas":[40.15426299863042,-8.349654019861124]},{"id":"pt.ine.add.PTCONT.1156316","rua":"TV CATRAIA","casa":"14","coordenadas":[40.151617890247046,-8.348237247535673]},{"id":"pt.ine.add.PTCONT.1182473","rua":"TV PINHEIRITOS","casa":"","coordenadas":[40.15237464728133,-8.34809879654194]},{"id":"pt.ine.add.PTCONT.1185006","rua":"R JOSE PEREIRA CARDOSO","casa":"","coordenadas":[40.15327891252753,-8.350953669586078]},{"id":"pt.ine.add.PTCONT.1186967","rua":"R JOSE PEREIRA CARDOSO","casa":"","coordenadas":[40.15313506101859,-8.350824106371801]},{"id":"pt.ine.add.PTCONT.1213288","rua":"R JOSE PEREIRA CARDOSO","casa":"","coordenadas":[40.15349730000676,-8.349757218656055]},{"id":"pt.ine.add.PTCONT.1221317","rua":"R JOSE PEREIRA CARDOSO","casa":"533","coordenadas":[40.15376784998947,-8.349558552792743]},{"id":"pt.ine.add.PTCONT.1228613","rua":"R JOSE PEREIRA CARDOSO","casa":"394","coordenadas":[40.15293666643609,-8.350964312718595]},{"id":"pt.ine.add.PTCONT.1249095","rua":"TV CRUZEIRO","casa":"","coordenadas":[40.152918407630274,-8.34625785663977]},{"id":"pt.ine.add.PTCONT.1260353","rua":"R JOSE PEREIRA CARDOSO","casa":"523","coordenadas":[40.15361464006603,-8.34961675025256]},{"id":"pt.ine.add.PTCONT.1265892","rua":"R JOSE PEREIRA CARDOSO","casa":"","coordenadas":[40.15322545084073,-8.350648344430242]},{"id":"pt.ine.add.PTCONT.1273871","rua":"TV CRUZEIRO","casa":"83","coordenadas":[40.15290052543707,-8.346187380835932]},{"id":"pt.ine.add.PTCONT.1273880","rua":"R JOSE PEREIRA CARDOSO","casa":"","coordenadas":[40.15246864681164,-8.350810241806949]},{"id":"pt.ine.add.PTCONT.1296436","rua":"TV CATRAIA","casa":"","coordenadas":[40.15174590869607,-8.347193107313764]},{"id":"pt.ine.add.PTCONT.1300332","rua":"R JOSE PEREIRA CARDOSO","casa":"437","coordenadas":[40.15263960434799,-8.350892943902261]},{"id":"pt.ine.add.PTCONT.1320227","rua":"TV CATRAIA","casa":"","coordenadas":[40.15145600204396,-8.348119372748199]},{"id":"pt.ine.add.PTCONT.1324270","rua":"R JOSE PEREIRA CARDOSO","casa":"","coordenadas":[40.15395616121453,-8.34999341339242]},{"id":"pt.ine.add.PTCONT.1324271","rua":"R JOSE PEREIRA CARDOSO","casa":"243","coordenadas":[40.15395616121453,-8.34999341339242]},{"id":"pt.ine.add.PTCONT.1324272","rua":"R JOSE PEREIRA CARDOSO","casa":"243","coordenadas":[40.15395616121453,-8.34999341339242]},{"id":"pt.ine.add.PTCONT.1341575","rua":"TV CATRAIA","casa":"","coordenadas":[40.15069202304603,-8.347295424800166]},{"id":"pt.ine.add.PTCONT.1351476","rua":"R JOSE PEREIRA CARDOSO","casa":"472","coordenadas":[40.153424131390594,-8.350355559871433]},{"id":"pt.ine.add.PTCONT.1354267","rua":"R JOSE PEREIRA CARDOSO","casa":"547","coordenadas":[40.153866936770186,-8.34954713055407]},{"id":"pt.ine.add.PTCONT.1362027","rua":"TV CATRAIA","casa":"","coordenadas":[40.151728373972986,-8.346934850400224]},{"id":"pt.ine.add.PTCONT.1363649","rua":"R JOSE PEREIRA CARDOSO","casa":"127","coordenadas":[40.15277405214116,-8.351233735555533]},{"id":"pt.ine.add.PTCONT.1364151","rua":"BC PINHEIRITOS","casa":"","coordenadas":[40.15223029134414,-8.348239179773755]},{"id":"pt.ine.add.PTCONT.1365687","rua":"TV PINHEIRITOS","casa":"","coordenadas":[40.15238417580714,-8.34781714912719]}],"ruas":["TV CATRAIA","R JOSE PEREIRA CARDOSO","TV PINHEIRITOS","TV CRUZEIRO","BC PINHEIRITOS"],"centroide":[40.15292605619475,-8.349240678590874]}
+{
+  "CP": "3220-433",
+  "CP4": "3220",
+  "CP3": "433",
+  "Distrito": "Coimbra",
+  "Concelho": "Miranda do Corvo",
+  "Localidade": "Senhor da Serra",
+  "Designação Postal": "SEMIDE",
+  "partes": [
+    {
+      "Artéria": "Rua José Pereira Cardoso",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1103121",
+      "rua": "TV CATRAIA",
+      "casa": "45",
+      "coordenadas": [
+        40.15158273786348,
+        -8.347767679710332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1105202",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "514",
+      "coordenadas": [
+        40.153659032639304,
+        -8.349957257846954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1134244",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "591",
+      "coordenadas": [
+        40.15426299863042,
+        -8.349654019861124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1135030",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "591",
+      "coordenadas": [
+        40.15426299863042,
+        -8.349654019861124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156316",
+      "rua": "TV CATRAIA",
+      "casa": "14",
+      "coordenadas": [
+        40.151617890247046,
+        -8.348237247535673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1182473",
+      "rua": "TV PINHEIRITOS",
+      "casa": "",
+      "coordenadas": [
+        40.15237464728133,
+        -8.34809879654194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185006",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "",
+      "coordenadas": [
+        40.15327891252753,
+        -8.350953669586078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1186967",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "",
+      "coordenadas": [
+        40.15313506101859,
+        -8.350824106371801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1213288",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "",
+      "coordenadas": [
+        40.15349730000676,
+        -8.349757218656055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1221317",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "533",
+      "coordenadas": [
+        40.15376784998947,
+        -8.349558552792743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1228613",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "394",
+      "coordenadas": [
+        40.15293666643609,
+        -8.350964312718595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1249095",
+      "rua": "TV CRUZEIRO",
+      "casa": "",
+      "coordenadas": [
+        40.152918407630274,
+        -8.34625785663977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1260353",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "523",
+      "coordenadas": [
+        40.15361464006603,
+        -8.34961675025256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1265892",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "",
+      "coordenadas": [
+        40.15322545084073,
+        -8.350648344430242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1273871",
+      "rua": "TV CRUZEIRO",
+      "casa": "83",
+      "coordenadas": [
+        40.15290052543707,
+        -8.346187380835932
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1273880",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "",
+      "coordenadas": [
+        40.15246864681164,
+        -8.350810241806949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1296436",
+      "rua": "TV CATRAIA",
+      "casa": "",
+      "coordenadas": [
+        40.15174590869607,
+        -8.347193107313764
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1300332",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "437",
+      "coordenadas": [
+        40.15263960434799,
+        -8.350892943902261
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1320227",
+      "rua": "TV CATRAIA",
+      "casa": "",
+      "coordenadas": [
+        40.15145600204396,
+        -8.348119372748199
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1324270",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "",
+      "coordenadas": [
+        40.15395616121453,
+        -8.34999341339242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1324271",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "243",
+      "coordenadas": [
+        40.15395616121453,
+        -8.34999341339242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1324272",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "243",
+      "coordenadas": [
+        40.15395616121453,
+        -8.34999341339242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1341575",
+      "rua": "TV CATRAIA",
+      "casa": "",
+      "coordenadas": [
+        40.15069202304603,
+        -8.347295424800166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1351476",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "472",
+      "coordenadas": [
+        40.153424131390594,
+        -8.350355559871433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1354267",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "547",
+      "coordenadas": [
+        40.153866936770186,
+        -8.34954713055407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1362027",
+      "rua": "TV CATRAIA",
+      "casa": "",
+      "coordenadas": [
+        40.151728373972986,
+        -8.346934850400224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1363649",
+      "rua": "R JOSE PEREIRA CARDOSO",
+      "casa": "127",
+      "coordenadas": [
+        40.15277405214116,
+        -8.351233735555533
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1364151",
+      "rua": "BC PINHEIRITOS",
+      "casa": "",
+      "coordenadas": [
+        40.15223029134414,
+        -8.348239179773755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1365687",
+      "rua": "TV PINHEIRITOS",
+      "casa": "",
+      "coordenadas": [
+        40.15238417580714,
+        -8.34781714912719
+      ]
+    }
+  ],
+  "ruas": [
+    "TV CATRAIA",
+    "R JOSE PEREIRA CARDOSO",
+    "TV PINHEIRITOS",
+    "TV CRUZEIRO",
+    "BC PINHEIRITOS"
+  ],
+  "centro": [
+    40.152477510838224,
+    -8.348710558195734
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.15169137391418,
+                -8.34927250936648
+              ],
+              [
+                40.151469295943485,
+                -8.348833157240632
+              ],
+              [
+                40.15130948556898,
+                -8.348431410943574
+              ],
+              [
+                40.151211942790674,
+                -8.348067270475307
+              ],
+              [
+                40.15117666760857,
+                -8.347740735835828
+              ],
+              [
+                40.15120366002265,
+                -8.34745180702514
+              ],
+              [
+                40.15129292003294,
+                -8.347200484043242
+              ],
+              [
+                40.15144444763943,
+                -8.346986766890133
+              ],
+              [
+                40.15165824284211,
+                -8.346810655565815
+              ],
+              [
+                40.151934305640985,
+                -8.346672150070283
+              ],
+              [
+                40.15219714923366,
+                -8.346605123996465
+              ],
+              [
+                40.152446773620106,
+                -8.346609577344356
+              ],
+              [
+                40.152683178800345,
+                -8.346685510113957
+              ],
+              [
+                40.15290636477437,
+                -8.346832922305264
+              ],
+              [
+                40.15311633154218,
+                -8.347051813918284
+              ],
+              [
+                40.15331307910378,
+                -8.347342184953014
+              ],
+              [
+                40.15349660745916,
+                -8.347704035409453
+              ],
+              [
+                40.15366691660833,
+                -8.348137365287602
+              ],
+              [
+                40.153800560768495,
+                -8.348536835957935
+              ],
+              [
+                40.153897539939656,
+                -8.348902447420452
+              ],
+              [
+                40.15395785412181,
+                -8.349234199675152
+              ],
+              [
+                40.15398150331497,
+                -8.349532092722036
+              ],
+              [
+                40.153968487519116,
+                -8.349796126561104
+              ],
+              [
+                40.15391880673426,
+                -8.350026301192356
+              ],
+              [
+                40.15383246096041,
+                -8.350222616615792
+              ],
+              [
+                40.153709450197546,
+                -8.350385072831411
+              ],
+              [
+                40.15359392733651,
+                -8.35053159805085
+              ],
+              [
+                40.15348589237729,
+                -8.350662192274111
+              ],
+              [
+                40.15338534531989,
+                -8.350776855501191
+              ],
+              [
+                40.15329228616431,
+                -8.35087558773209
+              ],
+              [
+                40.15320671491055,
+                -8.350958388966813
+              ],
+              [
+                40.15312863155861,
+                -8.351025259205354
+              ],
+              [
+                40.15305803610849,
+                -8.351076198447714
+              ],
+              [
+                40.152994928560204,
+                -8.351111206693897
+              ],
+              [
+                40.152934937497164,
+                -8.351135221819483
+              ],
+              [
+                40.1528780629194,
+                -8.351148243824477
+              ],
+              [
+                40.15282430482689,
+                -8.351150272708876
+              ],
+              [
+                40.15277366321965,
+                -8.35114130847268
+              ],
+              [
+                40.15272613809768,
+                -8.351121351115891
+              ],
+              [
+                40.15268172946095,
+                -8.351090400638506
+              ],
+              [
+                40.1526404373095,
+                -8.351048457040527
+              ],
+              [
+                40.15260226164331,
+                -8.350995520321955
+              ],
+              [
+                40.152541098189054,
+                -8.350894281677473
+              ],
+              [
+                40.152456946946735,
+                -8.350744741107079
+              ],
+              [
+                40.15234980791635,
+                -8.350546898610778
+              ],
+              [
+                40.152219681097904,
+                -8.350300754188568
+              ],
+              [
+                40.15206656649139,
+                -8.350006307840449
+              ],
+              [
+                40.15189046409682,
+                -8.34966355956642
+              ],
+              [
+                40.15169137391418,
+                -8.34927250936648
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.15272952643231,
+    -8.34935574540763
+  ],
+  "centroDeMassa": [
+    40.152477510838224,
+    -8.348710558195734
+  ]
+}

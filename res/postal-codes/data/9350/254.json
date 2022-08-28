@@ -1,1 +1,404 @@
-{"CP4":"9350","CP3":"254","Distrito":"Ilha da Madeira","Concelho":"Ribeira Brava","CP":"9350-254","Artéria":"Estrada Manuel Mendes Sousa","Localidade":"Ribeira Brava","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"RIBEIRA BRAVA","locais":[{"id":"pt.ine.add.MAD.35971","rua":"ESTR MANUEL MENDES SOUSA","casa":"","coordenadas":[32.67611950150395,-17.070075363202736]},{"id":"pt.ine.add.MAD.35972","rua":"ESTR MANUEL MENDES SOUSA","casa":"5","coordenadas":[32.67595828811599,-17.070007664968568]},{"id":"pt.ine.add.MAD.35973","rua":"ESTR MANUEL MENDES SOUSA","casa":"21","coordenadas":[32.67586549988316,-17.070165470137674]},{"id":"pt.ine.add.MAD.35974","rua":"ESTR MANUEL MENDES SOUSA","casa":"29","coordenadas":[32.676238321054974,-17.0705259555406]},{"id":"pt.ine.add.MAD.35975","rua":"ESTR MANUEL MENDES SOUSA","casa":"18","coordenadas":[32.67623823455382,-17.069438315943795]},{"id":"pt.ine.add.MAD.35976","rua":"ESTR MANUEL MENDES SOUSA","casa":"20","coordenadas":[32.67633810239119,-17.069397967048484]},{"id":"pt.ine.add.MAD.36750","rua":"ESTR MANUEL MENDES SOUSA","casa":"46","coordenadas":[32.677069004007976,-17.071558131927844]},{"id":"pt.ine.add.MAD.36751","rua":"ESTR MANUEL MENDES SOUSA","casa":"50","coordenadas":[32.677127706885216,-17.071826067804288]},{"id":"pt.ine.add.MAD.55480","rua":"ESTR MANUEL MENDES SOUSA","casa":"","coordenadas":[32.67744696918443,-17.067781402827684]},{"id":"pt.ine.add.MAD.61587","rua":"ESTR MANUEL MENDES SOUSA","casa":"17","coordenadas":[32.67616259745807,-17.069649833378538]},{"id":"pt.ine.add.MAD.64105","rua":"ESTR MANUEL MENDES SOUSA","casa":"","coordenadas":[32.676401645663304,-17.070465746084754]},{"id":"pt.ine.add.MAD.72063","rua":"ESTR MANUEL MENDES SOUSA","casa":"19","coordenadas":[32.6761417532717,-17.06981996217439]},{"id":"pt.ine.add.MAD.78180","rua":"ESTR MANUEL MENDES SOUSA","casa":"","coordenadas":[32.6757956673706,-17.07002523901144]},{"id":"pt.ine.add.MAD.78181","rua":"ESTR MANUEL MENDES SOUSA","casa":"12","coordenadas":[32.675671435781304,-17.07044889448196]},{"id":"pt.ine.add.MAD.80696","rua":"ESTR MANUEL MENDES SOUSA","casa":"","coordenadas":[32.675608507170786,-17.0704367792222]},{"id":"pt.ine.add.MAD.80697","rua":"ESTR MANUEL MENDES SOUSA","casa":"16","coordenadas":[32.676357715037305,-17.06930245127035]},{"id":"pt.ine.add.MAD.87710","rua":"ESTR MANUEL MENDES SOUSA","casa":"27","coordenadas":[32.6761684889843,-17.07038572355696]},{"id":"pt.ine.add.MAD.96327","rua":"ESTR MANUEL MENDES SOUSA","casa":"","coordenadas":[32.67576668741172,-17.070141863996017]},{"id":"pt.ine.add.MAD.96351","rua":"ESTR MANUEL MENDES SOUSA","casa":"1","coordenadas":[32.67604082987669,-17.06992426470876]},{"id":"pt.ine.add.MAD.105170","rua":"ESTR MANUEL MENDES SOUSA","casa":"11","coordenadas":[32.67570059195944,-17.070321610746117]},{"id":"pt.ine.add.MAD.122731","rua":"ESTR MANUEL MENDES SOUSA","casa":"13","coordenadas":[32.676310131503655,-17.06890681813374]}],"ruas":["ESTR MANUEL MENDES SOUSA"],"centroide":[32.676210877378296,-17.07008493540166]}
+{
+  "CP": "9350-254",
+  "CP4": "9350",
+  "CP3": "254",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Ribeira Brava",
+  "Localidade": "Ribeira Brava",
+  "Designação Postal": "RIBEIRA BRAVA",
+  "partes": [
+    {
+      "Artéria": "Estrada Manuel Mendes Sousa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.35971",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "",
+      "coordenadas": [
+        32.67611950150395,
+        -17.070075363202736
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.35972",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "5",
+      "coordenadas": [
+        32.67595828811599,
+        -17.070007664968568
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.35973",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "21",
+      "coordenadas": [
+        32.67586549988316,
+        -17.070165470137674
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.35974",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "29",
+      "coordenadas": [
+        32.676238321054974,
+        -17.0705259555406
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.35975",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "18",
+      "coordenadas": [
+        32.67623823455382,
+        -17.069438315943795
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.35976",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "20",
+      "coordenadas": [
+        32.67633810239119,
+        -17.069397967048484
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.36750",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "46",
+      "coordenadas": [
+        32.677069004007976,
+        -17.071558131927844
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.36751",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "50",
+      "coordenadas": [
+        32.677127706885216,
+        -17.071826067804288
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.55480",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "",
+      "coordenadas": [
+        32.67744696918443,
+        -17.067781402827684
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.61587",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "17",
+      "coordenadas": [
+        32.67616259745807,
+        -17.069649833378538
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.64105",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "",
+      "coordenadas": [
+        32.676401645663304,
+        -17.070465746084754
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.72063",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "19",
+      "coordenadas": [
+        32.6761417532717,
+        -17.06981996217439
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.78180",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "",
+      "coordenadas": [
+        32.6757956673706,
+        -17.07002523901144
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.78181",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "12",
+      "coordenadas": [
+        32.675671435781304,
+        -17.07044889448196
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.80696",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "",
+      "coordenadas": [
+        32.675608507170786,
+        -17.0704367792222
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.80697",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "16",
+      "coordenadas": [
+        32.676357715037305,
+        -17.06930245127035
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.87710",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "27",
+      "coordenadas": [
+        32.6761684889843,
+        -17.07038572355696
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.96327",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "",
+      "coordenadas": [
+        32.67576668741172,
+        -17.070141863996017
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.96351",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "1",
+      "coordenadas": [
+        32.67604082987669,
+        -17.06992426470876
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.105170",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "11",
+      "coordenadas": [
+        32.67570059195944,
+        -17.070321610746117
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.122731",
+      "rua": "ESTR MANUEL MENDES SOUSA",
+      "casa": "13",
+      "coordenadas": [
+        32.676310131503655,
+        -17.06890681813374
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR MANUEL MENDES SOUSA"
+  ],
+  "centro": [
+    32.67652773817761,
+    -17.069803735315986
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.67646305701015,
+                -17.071218254049626
+              ],
+              [
+                32.67627315704585,
+                -17.07104459297686
+              ],
+              [
+                32.676109918955206,
+                -17.0708862092224
+              ],
+              [
+                32.67597334273822,
+                -17.070743102786246
+              ],
+              [
+                32.6758634283949,
+                -17.07061527366839
+              ],
+              [
+                32.67578017592524,
+                -17.070502721868838
+              ],
+              [
+                32.67572358532924,
+                -17.070405447387586
+              ],
+              [
+                32.67569365660689,
+                -17.070323450224635
+              ],
+              [
+                32.6756903897582,
+                -17.070256730379988
+              ],
+              [
+                32.675713784783184,
+                -17.070205287853646
+              ],
+              [
+                32.67574229393212,
+                -17.07014280031688
+              ],
+              [
+                32.675775917205,
+                -17.07006926776969
+              ],
+              [
+                32.67581465460185,
+                -17.06998469021208
+              ],
+              [
+                32.67585850612265,
+                -17.069889067644056
+              ],
+              [
+                32.67590747176742,
+                -17.069782400065606
+              ],
+              [
+                32.67596155153613,
+                -17.069664687476738
+              ],
+              [
+                32.67602074542881,
+                -17.069535929877446
+              ],
+              [
+                32.67608505344544,
+                -17.069396127267733
+              ],
+              [
+                32.676159086048756,
+                -17.06925621537008
+              ],
+              [
+                32.676242843238754,
+                -17.06911619418448
+              ],
+              [
+                32.676336325015434,
+                -17.068976063710938
+              ],
+              [
+                32.6764395313788,
+                -17.068835823949453
+              ],
+              [
+                32.67655246232884,
+                -17.068695474900025
+              ],
+              [
+                32.67667511786558,
+                -17.068555016562655
+              ],
+              [
+                32.676807497988996,
+                -17.06841444893734
+              ],
+              [
+                32.67694960269909,
+                -17.068273772024085
+              ],
+              [
+                32.677068955847005,
+                -17.068213877615243
+              ],
+              [
+                32.67716555743272,
+                -17.06823476571082
+              ],
+              [
+                32.677239407456256,
+                -17.068336436310812
+              ],
+              [
+                32.6772905059176,
+                -17.068518889415223
+              ],
+              [
+                32.67731885281676,
+                -17.068782125024047
+              ],
+              [
+                32.67732444815374,
+                -17.069126143137293
+              ],
+              [
+                32.67730729192853,
+                -17.06955094375495
+              ],
+              [
+                32.67726738414112,
+                -17.07005652687702
+              ],
+              [
+                32.6772087273316,
+                -17.07047720447474
+              ],
+              [
+                32.677131321499985,
+                -17.070812976548112
+              ],
+              [
+                32.67703516664624,
+                -17.07106384309712
+              ],
+              [
+                32.67692026277039,
+                -17.07122980412178
+              ],
+              [
+                32.67678660987242,
+                -17.071310859622084
+              ],
+              [
+                32.67663420795234,
+                -17.07130700959803
+              ],
+              [
+                32.67646305701015,
+                -17.071218254049626
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.67645779642294,
+    -17.06979526139987
+  ],
+  "centroDeMassa": [
+    32.67652773817761,
+    -17.069803735315986
+  ]
+}

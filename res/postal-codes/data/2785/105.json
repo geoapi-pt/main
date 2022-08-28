@@ -1,1 +1,523 @@
-{"CP4":"2785","CP3":"105","Distrito":"Lisboa","Concelho":"Cascais","CP":"2785-105","Artéria":"Rua Mouzinho da Silveira","Localidade":"Cabeço de Mouro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO DOMINGOS DE RANA","locais":[{"id":"pt.ine.add.PTCONT.2926820","rua":"R MOUZINHO DA SILVEIRA","casa":"339","coordenadas":[38.71386159965498,-9.333697572831005]},{"id":"pt.ine.add.PTCONT.2926821","rua":"R MOUZINHO SILVEIRA","casa":"7","coordenadas":[38.7134496348496,-9.332586965194293]},{"id":"pt.ine.add.PTCONT.2999410","rua":"R MOUZINHO DA SILVEIRA","casa":"163","coordenadas":[38.71500656902559,-9.333601755456918]},{"id":"pt.ine.add.PTCONT.3027788","rua":"R MOUZINHO DA SILVEIRA","casa":"285","coordenadas":[38.71589880603609,-9.334432999565724]},{"id":"pt.ine.add.PTCONT.3027792","rua":"R MOUZINHO DA SILVEIRA","casa":"68","coordenadas":[38.71443890325524,-9.332741466538279]},{"id":"pt.ine.add.PTCONT.3130157","rua":"R MOUZINHO DA SILVEIRA","casa":"","coordenadas":[38.71668768968124,-9.334802630868392]},{"id":"pt.ine.add.PTCONT.3158456","rua":"R MOUZINHO DA SILVEIRA","casa":"126","coordenadas":[38.71493971204363,-9.333094756823575]},{"id":"pt.ine.add.PTCONT.3241785","rua":"R MOUZINHO DA SILVEIRA","casa":"71","coordenadas":[38.7140767672393,-9.33291936710494]},{"id":"pt.ine.add.PTCONT.3247355","rua":"R MOUZINHO DA SILVEIRA","casa":"71","coordenadas":[38.7140767672393,-9.33291936710494]},{"id":"pt.ine.add.PTCONT.3260665","rua":"R MOUZINHO DA SILVEIRA","casa":"","coordenadas":[38.71567565880272,-9.334233808150584]},{"id":"pt.ine.add.PTCONT.3260999","rua":"R MOUZINHO DA SILVEIRA","casa":"204","coordenadas":[38.715011289772406,-9.33314194289628]},{"id":"pt.ine.add.PTCONT.3348584","rua":"R MOUZINHO DA SILVEIRA","casa":"278","coordenadas":[38.71596527465114,-9.334100686555345]},{"id":"pt.ine.add.PTCONT.3371381","rua":"R MOUZINHO DA SILVEIRA","casa":"213","coordenadas":[38.715372518034435,-9.33392980316416]},{"id":"pt.ine.add.PTCONT.3398401","rua":"R MOUZINHO DA SILVEIRA","casa":"140","coordenadas":[38.71498332713013,-9.333233453560599]},{"id":"pt.ine.add.PTCONT.3451555","rua":"R MOUZINHO SILVEIRA","casa":"7","coordenadas":[38.7134496348496,-9.332586965194293]},{"id":"pt.ine.add.PTCONT.2296530","rua":"R MOUZINHO DA SILVEIRA","casa":"143","coordenadas":[38.71490844499125,-9.33350813576882]},{"id":"pt.ine.add.PTCONT.2305258","rua":"R MOUZINHO DA SILVEIRA","casa":"181","coordenadas":[38.71513159356026,-9.333707322767186]},{"id":"pt.ine.add.PTCONT.2396466","rua":"R MOUZINHO DA SILVEIRA","casa":"288","coordenadas":[38.71607240436609,-9.334194459203239]},{"id":"pt.ine.add.PTCONT.2424204","rua":"R MOUZINHO DA SILVEIRA","casa":"127","coordenadas":[38.71469442027846,-9.33329760538134]},{"id":"pt.ine.add.PTCONT.2445052","rua":"R MOUZINHO DA SILVEIRA","casa":"262","coordenadas":[38.715858144854536,-9.334006914189684]},{"id":"pt.ine.add.PTCONT.2674636","rua":"R MOUZINHO DA SILVEIRA","casa":"108","coordenadas":[38.71485960001663,-9.333001439085553]},{"id":"pt.ine.add.PTCONT.2818250","rua":"R MOUZINHO DA SILVEIRA","casa":"164","coordenadas":[38.715011289772406,-9.33314194289628]},{"id":"pt.ine.add.PTCONT.2836095","rua":"R MOUZINHO DA SILVEIRA","casa":"10","coordenadas":[38.714743581026674,-9.332896023976192]},{"id":"pt.ine.add.PTCONT.2850409","rua":"R MOUZINHO DA SILVEIRA","casa":"","coordenadas":[38.71616140347272,-9.334299426113233]},{"id":"pt.ine.add.PTCONT.2850488","rua":"R MOUZINHO DA SILVEIRA","casa":"87","coordenadas":[38.714462146750314,-9.333109765516653]},{"id":"pt.ine.add.PTCONT.2850489","rua":"R MOUZINHO DA SILVEIRA","casa":"87","coordenadas":[38.714462146750314,-9.333109765516653]},{"id":"pt.ine.add.PTCONT.2850490","rua":"R MOUZINHO DA SILVEIRA","casa":"87","coordenadas":[38.714462146750314,-9.333109765516653]}],"ruas":["R MOUZINHO DA SILVEIRA","R MOUZINHO SILVEIRA"],"centroide":[38.71497151261942,-9.333472936208624]}
+{
+  "CP": "2785-105",
+  "CP4": "2785",
+  "CP3": "105",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Cabeço de Mouro",
+  "Designação Postal": "SÃO DOMINGOS DE RANA",
+  "partes": [
+    {
+      "Artéria": "Rua Mouzinho da Silveira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2926820",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "339",
+      "coordenadas": [
+        38.71386159965498,
+        -9.333697572831005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2926821",
+      "rua": "R MOUZINHO SILVEIRA",
+      "casa": "7",
+      "coordenadas": [
+        38.7134496348496,
+        -9.332586965194293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2999410",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "163",
+      "coordenadas": [
+        38.71500656902559,
+        -9.333601755456918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3027788",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "285",
+      "coordenadas": [
+        38.71589880603609,
+        -9.334432999565724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3027792",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "68",
+      "coordenadas": [
+        38.71443890325524,
+        -9.332741466538279
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3130157",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.71668768968124,
+        -9.334802630868392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3158456",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "126",
+      "coordenadas": [
+        38.71493971204363,
+        -9.333094756823575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3241785",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "71",
+      "coordenadas": [
+        38.7140767672393,
+        -9.33291936710494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3247355",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "71",
+      "coordenadas": [
+        38.7140767672393,
+        -9.33291936710494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3260665",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.71567565880272,
+        -9.334233808150584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3260999",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "204",
+      "coordenadas": [
+        38.715011289772406,
+        -9.33314194289628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3348584",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "278",
+      "coordenadas": [
+        38.71596527465114,
+        -9.334100686555345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3371381",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "213",
+      "coordenadas": [
+        38.715372518034435,
+        -9.33392980316416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3398401",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "140",
+      "coordenadas": [
+        38.71498332713013,
+        -9.333233453560599
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3451555",
+      "rua": "R MOUZINHO SILVEIRA",
+      "casa": "7",
+      "coordenadas": [
+        38.7134496348496,
+        -9.332586965194293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2296530",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "143",
+      "coordenadas": [
+        38.71490844499125,
+        -9.33350813576882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2305258",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "181",
+      "coordenadas": [
+        38.71513159356026,
+        -9.333707322767186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2396466",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "288",
+      "coordenadas": [
+        38.71607240436609,
+        -9.334194459203239
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2424204",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "127",
+      "coordenadas": [
+        38.71469442027846,
+        -9.33329760538134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2445052",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "262",
+      "coordenadas": [
+        38.715858144854536,
+        -9.334006914189684
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2674636",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "108",
+      "coordenadas": [
+        38.71485960001663,
+        -9.333001439085553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2818250",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "164",
+      "coordenadas": [
+        38.715011289772406,
+        -9.33314194289628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2836095",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "10",
+      "coordenadas": [
+        38.714743581026674,
+        -9.332896023976192
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2850409",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.71616140347272,
+        -9.334299426113233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2850488",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "87",
+      "coordenadas": [
+        38.714462146750314,
+        -9.333109765516653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2850489",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "87",
+      "coordenadas": [
+        38.714462146750314,
+        -9.333109765516653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2850490",
+      "rua": "R MOUZINHO DA SILVEIRA",
+      "casa": "87",
+      "coordenadas": [
+        38.714462146750314,
+        -9.333109765516653
+      ]
+    }
+  ],
+  "ruas": [
+    "R MOUZINHO DA SILVEIRA",
+    "R MOUZINHO SILVEIRA"
+  ],
+  "centro": [
+    38.71506866226542,
+    -9.333694798031342
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71368136505263,
+                -9.333211681989944
+              ],
+              [
+                38.71362986945196,
+                -9.333072856035354
+              ],
+              [
+                38.7136002681202,
+                -9.332953797408589
+              ],
+              [
+                38.713592561057375,
+                -9.332854506109648
+              ],
+              [
+                38.713606748263466,
+                -9.332774982138528
+              ],
+              [
+                38.71364282973848,
+                -9.332715225495232
+              ],
+              [
+                38.71370080548242,
+                -9.33267523617976
+              ],
+              [
+                38.713780675495286,
+                -9.332655014192113
+              ],
+              [
+                38.713882439777066,
+                -9.332654559532287
+              ],
+              [
+                38.71400609832777,
+                -9.332673872200285
+              ],
+              [
+                38.71411906014982,
+                -9.332693185744752
+              ],
+              [
+                38.7142213252432,
+                -9.332712500165684
+              ],
+              [
+                38.71431289360793,
+                -9.332731815463085
+              ],
+              [
+                38.714393765244,
+                -9.332751131636954
+              ],
+              [
+                38.714463940151404,
+                -9.33277044868729
+              ],
+              [
+                38.71452341833016,
+                -9.332789766614095
+              ],
+              [
+                38.71457219978024,
+                -9.332809085417365
+              ],
+              [
+                38.714610284501674,
+                -9.332828405097105
+              ],
+              [
+                38.71464542142964,
+                -9.33284695692796
+              ],
+              [
+                38.71467761056415,
+                -9.332864740909931
+              ],
+              [
+                38.7147068519052,
+                -9.33288175704302
+              ],
+              [
+                38.71473314545278,
+                -9.332898005327227
+              ],
+              [
+                38.71475649120691,
+                -9.332913485762548
+              ],
+              [
+                38.714776889167574,
+                -9.332928198348984
+              ],
+              [
+                38.71479433933478,
+                -9.332942143086537
+              ],
+              [
+                38.714808841708525,
+                -9.332955319975209
+              ],
+              [
+                38.71482390143798,
+                -9.332969045124837
+              ],
+              [
+                38.71483951852316,
+                -9.332983318535424
+              ],
+              [
+                38.71485569296405,
+                -9.332998140206971
+              ],
+              [
+                38.714872424760664,
+                -9.333013510139477
+              ],
+              [
+                38.71488971391299,
+                -9.33302942833294
+              ],
+              [
+                38.714907560421025,
+                -9.333045894787364
+              ],
+              [
+                38.71492596428479,
+                -9.333062909502747
+              ],
+              [
+                38.714944925504255,
+                -9.333080472479086
+              ],
+              [
+                38.71498771031987,
+                -9.33312178833295
+              ],
+              [
+                38.715054318731625,
+                -9.333186857064334
+              ],
+              [
+                38.71514475073952,
+                -9.333275678673239
+              ],
+              [
+                38.71525900634356,
+                -9.333388253159667
+              ],
+              [
+                38.715397085543735,
+                -9.333524580523616
+              ],
+              [
+                38.71555898834006,
+                -9.333684660765085
+              ],
+              [
+                38.715744714732516,
+                -9.333868493884077
+              ],
+              [
+                38.71595426472113,
+                -9.334076079880594
+              ],
+              [
+                38.71609346330449,
+                -9.33424045109571
+              ],
+              [
+                38.71616231048262,
+                -9.334361607529425
+              ],
+              [
+                38.716160806255516,
+                -9.334439549181745
+              ],
+              [
+                38.71608895062319,
+                -9.334474276052664
+              ],
+              [
+                38.71594674358561,
+                -9.334465788142186
+              ],
+              [
+                38.7157341851428,
+                -9.334414085450309
+              ],
+              [
+                38.715451275294754,
+                -9.334319167977036
+              ],
+              [
+                38.715098014041466,
+                -9.334181035722361
+              ],
+              [
+                38.71478247349476,
+                -9.334042816755199
+              ],
+              [
+                38.714504653654636,
+                -9.333904511075547
+              ],
+              [
+                38.71426455452108,
+                -9.333766118683405
+              ],
+              [
+                38.7140621760941,
+                -9.333627639578774
+              ],
+              [
+                38.713897518373706,
+                -9.333489073761653
+              ],
+              [
+                38.713770581359874,
+                -9.333350421232042
+              ],
+              [
+                38.71368136505263,
+                -9.333211681989944
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71472175689382,
+    -9.333266863055712
+  ],
+  "centroDeMassa": [
+    38.71506866226542,
+    -9.333694798031342
+  ]
+}

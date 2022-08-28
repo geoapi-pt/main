@@ -1,1 +1,382 @@
-{"CP4":"2705","CP3":"292","Distrito":"Lisboa","Concelho":"Sintra","CP":"2705-292","Artéria":"Estrada Ribeira de Janas","Localidade":"Pinhal da Nazaré","Local":"","Troço":"Quinta dos Galos","Porta":"","Cliente":"","Designação Postal":"COLARES","locais":[{"id":"pt.ine.add.PTCONT.2436372","rua":"ESTR RIBEIRA DE JANAS O CANTINHO","casa":"68","coordenadas":[38.8195567800645,-9.459534133833925]},{"id":"pt.ine.add.PTCONT.2793682","rua":"ESTR RIBEIRA DE JANAS CASA BRANCA","casa":"64","coordenadas":[38.819894431447196,-9.459148921897174]},{"id":"pt.ine.add.PTCONT.2884540","rua":"ESTR RIBEIRA DE JANAS","casa":"","coordenadas":[38.818400097402936,-9.461446988508312]},{"id":"pt.ine.add.PTCONT.3067944","rua":"ESTR RIBEIRA DE JANAS CASA PEQUENA","casa":"","coordenadas":[38.81806270056417,-9.461809158939916]},{"id":"pt.ine.add.PTCONT.3115141","rua":"ESTR RIBEIRA DE JANAS","casa":"70","coordenadas":[38.819326017961636,-9.460024951307235]},{"id":"pt.ine.add.PTCONT.3133648","rua":"ESTR RIBEIRA DE JANAS CASA DA PALMEIRA","casa":"66","coordenadas":[38.819802153615214,-9.459342948385741]},{"id":"pt.ine.add.PTCONT.3142288","rua":"ESTR RIBEIRA DE JANAS CASA TIROLIRO","casa":"","coordenadas":[38.817658495711456,-9.461709537682845]},{"id":"pt.ine.add.PTCONT.3162226","rua":"ESTR RIBEIRA DE JANAS CASA DO PATIO","casa":"","coordenadas":[38.81821320479811,-9.461247782335306]},{"id":"pt.ine.add.PTCONT.3190148","rua":"ESTR RIBEIRA DE JANAS","casa":"","coordenadas":[38.81780156417587,-9.461009861694082]},{"id":"pt.ine.add.PTCONT.3236032","rua":"ESTR RIBEIRA DE JANAS","casa":"62","coordenadas":[38.820005765437614,-9.458863136001508]}],"ruas":["ESTR RIBEIRA DE JANAS O CANTINHO","ESTR RIBEIRA DE JANAS CASA BRANCA","ESTR RIBEIRA DE JANAS","ESTR RIBEIRA DE JANAS CASA PEQUENA","ESTR RIBEIRA DE JANAS CASA DA PALMEIRA","ESTR RIBEIRA DE JANAS CASA TIROLIRO","ESTR RIBEIRA DE JANAS CASA DO PATIO"],"centroide":[38.81874616063789,-9.460586031620503]}
+{
+  "CP": "2705-292",
+  "CP4": "2705",
+  "CP3": "292",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Pinhal da Nazaré",
+  "Designação Postal": "COLARES",
+  "partes": [
+    {
+      "Artéria": "Estrada Ribeira de Janas",
+      "Local": "",
+      "Troço": "Pares de 8 a 44A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada Ribeira de Janas",
+      "Local": "",
+      "Troço": "Quinta dos Galos",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2436372",
+      "rua": "ESTR RIBEIRA DE JANAS O CANTINHO",
+      "casa": "68",
+      "coordenadas": [
+        38.8195567800645,
+        -9.459534133833925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2793682",
+      "rua": "ESTR RIBEIRA DE JANAS CASA BRANCA",
+      "casa": "64",
+      "coordenadas": [
+        38.819894431447196,
+        -9.459148921897174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2884540",
+      "rua": "ESTR RIBEIRA DE JANAS",
+      "casa": "",
+      "coordenadas": [
+        38.818400097402936,
+        -9.461446988508312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3067944",
+      "rua": "ESTR RIBEIRA DE JANAS CASA PEQUENA",
+      "casa": "",
+      "coordenadas": [
+        38.81806270056417,
+        -9.461809158939916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3115141",
+      "rua": "ESTR RIBEIRA DE JANAS",
+      "casa": "70",
+      "coordenadas": [
+        38.819326017961636,
+        -9.460024951307235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3133648",
+      "rua": "ESTR RIBEIRA DE JANAS CASA DA PALMEIRA",
+      "casa": "66",
+      "coordenadas": [
+        38.819802153615214,
+        -9.459342948385741
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3142288",
+      "rua": "ESTR RIBEIRA DE JANAS CASA TIROLIRO",
+      "casa": "",
+      "coordenadas": [
+        38.817658495711456,
+        -9.461709537682845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3162226",
+      "rua": "ESTR RIBEIRA DE JANAS CASA DO PATIO",
+      "casa": "",
+      "coordenadas": [
+        38.81821320479811,
+        -9.461247782335306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190148",
+      "rua": "ESTR RIBEIRA DE JANAS",
+      "casa": "",
+      "coordenadas": [
+        38.81780156417587,
+        -9.461009861694082
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3236032",
+      "rua": "ESTR RIBEIRA DE JANAS",
+      "casa": "62",
+      "coordenadas": [
+        38.820005765437614,
+        -9.458863136001508
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR RIBEIRA DE JANAS O CANTINHO",
+    "ESTR RIBEIRA DE JANAS CASA BRANCA",
+    "ESTR RIBEIRA DE JANAS",
+    "ESTR RIBEIRA DE JANAS CASA PEQUENA",
+    "ESTR RIBEIRA DE JANAS CASA DA PALMEIRA",
+    "ESTR RIBEIRA DE JANAS CASA TIROLIRO",
+    "ESTR RIBEIRA DE JANAS CASA DO PATIO"
+  ],
+  "centro": [
+    38.818832130574535,
+    -9.460336147470713
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.817885860941104,
+                -9.461765574639948
+              ],
+              [
+                38.81783533533452,
+                -9.461753121982813
+              ],
+              [
+                38.81779336087351,
+                -9.461731293470498
+              ],
+              [
+                38.81775993755808,
+                -9.461700089102997
+              ],
+              [
+                38.817735065388234,
+                -9.461659508880317
+              ],
+              [
+                38.81771874436396,
+                -9.46160955280245
+              ],
+              [
+                38.81771097448527,
+                -9.461550220869404
+              ],
+              [
+                38.817711755752164,
+                -9.461481513081175
+              ],
+              [
+                38.81772108816463,
+                -9.461403429437762
+              ],
+              [
+                38.81773897172269,
+                -9.461315969939164
+              ],
+              [
+                38.8177890604807,
+                -9.461205900288949
+              ],
+              [
+                38.817871354438665,
+                -9.461073220487108
+              ],
+              [
+                38.817985853596596,
+                -9.460917930533647
+              ],
+              [
+                38.81813255795447,
+                -9.460740030428564
+              ],
+              [
+                38.818311467512316,
+                -9.460539520171857
+              ],
+              [
+                38.81852258227012,
+                -9.460316399763531
+              ],
+              [
+                38.81876590222788,
+                -9.460070669203581
+              ],
+              [
+                38.8190414273856,
+                -9.459802328492009
+              ],
+              [
+                38.81928077230501,
+                -9.459571995774002
+              ],
+              [
+                38.81948393698609,
+                -9.459379671049565
+              ],
+              [
+                38.81965092142887,
+                -9.459225354318692
+              ],
+              [
+                38.81978172563333,
+                -9.459109045581386
+              ],
+              [
+                38.81987634959947,
+                -9.459030744837644
+              ],
+              [
+                38.8199347933273,
+                -9.458990452087471
+              ],
+              [
+                38.81995705681681,
+                -9.458988167330862
+              ],
+              [
+                38.819943140068,
+                -9.45902389056782
+              ],
+              [
+                38.81992952107167,
+                -9.45905818006404
+              ],
+              [
+                38.81991619982782,
+                -9.45909103581953
+              ],
+              [
+                38.819903176336446,
+                -9.45912245783428
+              ],
+              [
+                38.81989045059755,
+                -9.459152446108293
+              ],
+              [
+                38.81987802261112,
+                -9.459181000641571
+              ],
+              [
+                38.81986589237718,
+                -9.459208121434115
+              ],
+              [
+                38.819854059895704,
+                -9.459233808485921
+              ],
+              [
+                38.819842525166706,
+                -9.459258061796993
+              ],
+              [
+                38.819810525150515,
+                -9.459312159071095
+              ],
+              [
+                38.81975805984713,
+                -9.45939610030823
+              ],
+              [
+                38.819685129256555,
+                -9.459509885508394
+              ],
+              [
+                38.8195917333788,
+                -9.45965351467159
+              ],
+              [
+                38.81947787221384,
+                -9.459826987797818
+              ],
+              [
+                38.81934354576169,
+                -9.460030304887075
+              ],
+              [
+                38.81918875402235,
+                -9.460263465939365
+              ],
+              [
+                38.81901349699581,
+                -9.460526470954688
+              ],
+              [
+                38.81885487527199,
+                -9.460762259256088
+              ],
+              [
+                38.818712888850875,
+                -9.460970830843566
+              ],
+              [
+                38.81858753773247,
+                -9.461152185717124
+              ],
+              [
+                38.818478821916784,
+                -9.461306323876757
+              ],
+              [
+                38.8183867414038,
+                -9.461433245322471
+              ],
+              [
+                38.818311296193535,
+                -9.461532950054266
+              ],
+              [
+                38.81825248628598,
+                -9.461605438072139
+              ],
+              [
+                38.81821031168113,
+                -9.461650709376089
+              ],
+              [
+                38.81816709320107,
+                -9.461688765184906
+              ],
+              [
+                38.81812283084578,
+                -9.461719605498585
+              ],
+              [
+                38.81807752461528,
+                -9.46174323031713
+              ],
+              [
+                38.81803117450957,
+                -9.461759639640537
+              ],
+              [
+                38.817983780528635,
+                -9.46176883346881
+              ],
+              [
+                38.81793534267248,
+                -9.461770811801944
+              ],
+              [
+                38.817885860941104,
+                -9.461765574639948
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.8188036011935,
+    -9.460475793301368
+  ],
+  "centroDeMassa": [
+    38.818832130574535,
+    -9.460336147470713
+  ]
+}

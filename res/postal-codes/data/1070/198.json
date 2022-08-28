@@ -1,1 +1,455 @@
-{"CP4":"1070","CP3":"198","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1070-198","Artéria":"Rua Padre Domingos Maurício dos Santos","Localidade":"Lisboa","Local":"Bairro da Serafina","Troço":"Impares de 1 a 33","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2273664","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"11","coordenadas":[38.73214861866589,-9.172818151802328]},{"id":"pt.ine.add.PTCONT.2341331","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"31","coordenadas":[38.73156973650964,-9.174097769036878]},{"id":"pt.ine.add.PTCONT.2379261","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"25","coordenadas":[38.73172571668803,-9.17377803004361]},{"id":"pt.ine.add.PTCONT.2424751","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"45","coordenadas":[38.73202907698924,-9.173092422553543]},{"id":"pt.ine.add.PTCONT.2514902","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"19","coordenadas":[38.731863580315014,-9.173469526995907]},{"id":"pt.ine.add.PTCONT.2548922","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"9","coordenadas":[38.73219436794106,-9.172738313750848]},{"id":"pt.ine.add.PTCONT.2548923","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"9","coordenadas":[38.73219436794106,-9.172738313750848]},{"id":"pt.ine.add.PTCONT.2630382","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"21","coordenadas":[38.73181742116941,-9.173595358750278]},{"id":"pt.ine.add.PTCONT.2739814","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"7","coordenadas":[38.73224973735944,-9.172589613893532]},{"id":"pt.ine.add.PTCONT.2810839","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"29","coordenadas":[38.7316156914175,-9.17399493525348]},{"id":"pt.ine.add.PTCONT.3046342","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"27","coordenadas":[38.73167976196773,-9.173880864126499]},{"id":"pt.ine.add.PTCONT.3121334","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"13","coordenadas":[38.73208393541814,-9.173001216724494]},{"id":"pt.ine.add.PTCONT.3242315","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"","coordenadas":[38.73233294447735,-9.172349315586192]},{"id":"pt.ine.add.PTCONT.3362393","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"17","coordenadas":[38.731927548037305,-9.173366953653062]},{"id":"pt.ine.add.PTCONT.3393605","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"5","coordenadas":[38.73227757536048,-9.17249801580704]},{"id":"pt.ine.add.PTCONT.3408035","rua":"R PADRE DOMINGOS MAURÍCIO DOS SANTOS","casa":"1","coordenadas":[38.73238780233684,-9.172258108794367]}],"ruas":["R PADRE DOMINGOS MAURÍCIO DOS SANTOS"],"centroide":[38.73198067201716,-9.173200586781904]}
+{
+  "CP": "1070-198",
+  "CP4": "1070",
+  "CP3": "198",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Domingos Maurício dos Santos",
+      "Local": "Bairro da Serafina",
+      "Troço": "Impares de 1 a 33",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2273664",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "11",
+      "coordenadas": [
+        38.73214861866589,
+        -9.172818151802328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2341331",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "31",
+      "coordenadas": [
+        38.73156973650964,
+        -9.174097769036878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2379261",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "25",
+      "coordenadas": [
+        38.73172571668803,
+        -9.17377803004361
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2424751",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "45",
+      "coordenadas": [
+        38.73202907698924,
+        -9.173092422553543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2514902",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "19",
+      "coordenadas": [
+        38.731863580315014,
+        -9.173469526995907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2548922",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "9",
+      "coordenadas": [
+        38.73219436794106,
+        -9.172738313750848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2548923",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "9",
+      "coordenadas": [
+        38.73219436794106,
+        -9.172738313750848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2630382",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "21",
+      "coordenadas": [
+        38.73181742116941,
+        -9.173595358750278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2739814",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "7",
+      "coordenadas": [
+        38.73224973735944,
+        -9.172589613893532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2810839",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "29",
+      "coordenadas": [
+        38.7316156914175,
+        -9.17399493525348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3046342",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "27",
+      "coordenadas": [
+        38.73167976196773,
+        -9.173880864126499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3121334",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "13",
+      "coordenadas": [
+        38.73208393541814,
+        -9.173001216724494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3242315",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "",
+      "coordenadas": [
+        38.73233294447735,
+        -9.172349315586192
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3362393",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "17",
+      "coordenadas": [
+        38.731927548037305,
+        -9.173366953653062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3393605",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "5",
+      "coordenadas": [
+        38.73227757536048,
+        -9.17249801580704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3408035",
+      "rua": "R PADRE DOMINGOS MAURÍCIO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.73238780233684,
+        -9.172258108794367
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE DOMINGOS MAURÍCIO DOS SANTOS"
+  ],
+  "centro": [
+    38.731978769423236,
+    -9.173177938915622
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.73163162582982,
+                -9.17397576002479
+              ],
+              [
+                38.73161787264756,
+                -9.174002873138587
+              ],
+              [
+                38.731617763737574,
+                -9.173999277527994
+              ],
+              [
+                38.731631299099874,
+                -9.173964973193007
+              ],
+              [
+                38.731658478734445,
+                -9.17389996013363
+              ],
+              [
+                38.73169930264129,
+                -9.173804238349861
+              ],
+              [
+                38.73175377082042,
+                -9.1736778078417
+              ],
+              [
+                38.731821883271834,
+                -9.173520668609148
+              ],
+              [
+                38.731903639995515,
+                -9.173332820652204
+              ],
+              [
+                38.731999040991475,
+                -9.173114263970868
+              ],
+              [
+                38.732083374016995,
+                -9.172921601768577
+              ],
+              [
+                38.73215663907208,
+                -9.17275483404533
+              ],
+              [
+                38.73221883615672,
+                -9.17261396080113
+              ],
+              [
+                38.73226996527092,
+                -9.172498982035972
+              ],
+              [
+                38.73231002641468,
+                -9.17240989774986
+              ],
+              [
+                38.732339019588,
+                -9.172346707942792
+              ],
+              [
+                38.73235694479087,
+                -9.17230941261477
+              ],
+              [
+                38.732363802023315,
+                -9.17229801176579
+              ],
+              [
+                38.73236677968926,
+                -9.172295539225379
+              ],
+              [
+                38.73236587778872,
+                -9.172301994993536
+              ],
+              [
+                38.732361096321696,
+                -9.17231737907026
+              ],
+              [
+                38.73235243528818,
+                -9.17234169145555
+              ],
+              [
+                38.73233989468817,
+                -9.17237493214941
+              ],
+              [
+                38.73232347452168,
+                -9.172417101151833
+              ],
+              [
+                38.73230317478869,
+                -9.172468198462827
+              ],
+              [
+                38.73227899548922,
+                -9.172528224082388
+              ],
+              [
+                38.73225611309401,
+                -9.172584854358467
+              ],
+              [
+                38.73223452760306,
+                -9.172638089291063
+              ],
+              [
+                38.73221423901638,
+                -9.172687928880178
+              ],
+              [
+                38.73219524733396,
+                -9.17273437312581
+              ],
+              [
+                38.732177552555804,
+                -9.172777422027961
+              ],
+              [
+                38.73216115468191,
+                -9.17281707558663
+              ],
+              [
+                38.732146053712285,
+                -9.172853333801818
+              ],
+              [
+                38.73213224964692,
+                -9.172886196673524
+              ],
+              [
+                38.732117727536895,
+                -9.172920666325776
+              ],
+              [
+                38.73210248738222,
+                -9.172956742758572
+              ],
+              [
+                38.732086529182894,
+                -9.172994425971915
+              ],
+              [
+                38.732069852938906,
+                -9.173033715965804
+              ],
+              [
+                38.73205245865027,
+                -9.173074612740237
+              ],
+              [
+                38.73203434631698,
+                -9.173117116295217
+              ],
+              [
+                38.732015515939025,
+                -9.173161226630743
+              ],
+              [
+                38.73199596751642,
+                -9.173206943746813
+              ],
+              [
+                38.73197714191433,
+                -9.17325051505302
+              ],
+              [
+                38.73195903913276,
+                -9.173291940549362
+              ],
+              [
+                38.731941659171696,
+                -9.173331220235838
+              ],
+              [
+                38.73192500203115,
+                -9.173368354112448
+              ],
+              [
+                38.731909067711115,
+                -9.173403342179196
+              ],
+              [
+                38.7318938562116,
+                -9.173436184436078
+              ],
+              [
+                38.7318793675326,
+                -9.173466880883094
+              ],
+              [
+                38.731865601674116,
+                -9.173495431520248
+              ],
+              [
+                38.73185140562292,
+                -9.173524874349258
+              ],
+              [
+                38.731836779378995,
+                -9.17355520937013
+              ],
+              [
+                38.731821722942364,
+                -9.173586436582859
+              ],
+              [
+                38.73180623631301,
+                -9.17361855598745
+              ],
+              [
+                38.73179031949095,
+                -9.173651567583898
+              ],
+              [
+                38.73177397247617,
+                -9.173685471372206
+              ],
+              [
+                38.73175719526868,
+                -9.173720267352374
+              ],
+              [
+                38.731739987868465,
+                -9.173755955524403
+              ],
+              [
+                38.7317232122455,
+                -9.173790571814152
+              ],
+              [
+                38.731706868399776,
+                -9.17382411622162
+              ],
+              [
+                38.73169095633129,
+                -9.173856588746812
+              ],
+              [
+                38.73167547604007,
+                -9.173887989389726
+              ],
+              [
+                38.73166042752607,
+                -9.17391831815036
+              ],
+              [
+                38.731645810789324,
+                -9.173947575028713
+              ],
+              [
+                38.73163162582982,
+                -9.17397576002479
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.731999189732186,
+    -9.173160987552826
+  ],
+  "centroDeMassa": [
+    38.731978769423236,
+    -9.173177938915622
+  ]
+}

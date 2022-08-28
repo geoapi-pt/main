@@ -1,1 +1,576 @@
-{"CP4":"2725","CP3":"059","Distrito":"Lisboa","Concelho":"Sintra","CP":"2725-059","Artéria":"Rua Helena Tavares","Localidade":"Algueirão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MEM MARTINS","locais":[{"id":"pt.ine.add.PTCONT.2379843","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.805329474755865,-9.336435102050949]},{"id":"pt.ine.add.PTCONT.2379844","rua":"R HELENA TAVARES","casa":"3","coordenadas":[38.80662021886799,-9.33517289238951]},{"id":"pt.ine.add.PTCONT.2390423","rua":"R HELENA TAVARES","casa":"11","coordenadas":[38.80627951018742,-9.335056616080388]},{"id":"pt.ine.add.PTCONT.2390424","rua":"R HELENA TAVARES","casa":"6","coordenadas":[38.80646674801005,-9.33573390853426]},{"id":"pt.ine.add.PTCONT.2462656","rua":"R HELENA TAVARES","casa":"12","coordenadas":[38.8060972624494,-9.335750719972305]},{"id":"pt.ine.add.PTCONT.2474580","rua":"R HELENA TAVARES","casa":"15","coordenadas":[38.80602625302157,-9.335147993189901]},{"id":"pt.ine.add.PTCONT.2481177","rua":"R HELENA TAVARES","casa":"7 E 7A","coordenadas":[38.806454823765556,-9.335114747062864]},{"id":"pt.ine.add.PTCONT.2535659","rua":"R HELENA TAVARES","casa":"20","coordenadas":[38.80632679723829,-9.335328636990338]},{"id":"pt.ine.add.PTCONT.2551852","rua":"R HELENA TAVARES","casa":"5","coordenadas":[38.80654104172255,-9.335142266023961]},{"id":"pt.ine.add.PTCONT.2625080","rua":"R HELENA TAVARES","casa":"4","coordenadas":[38.80652173222787,-9.335642737133979]},{"id":"pt.ine.add.PTCONT.2669271","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.80563553127643,-9.335811487759798]},{"id":"pt.ine.add.PTCONT.2695354","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.80545697907752,-9.336156394455648]},{"id":"pt.ine.add.PTCONT.2730716","rua":"R HELENA TAVARES","casa":"8","coordenadas":[38.806420769785504,-9.335825231230949]},{"id":"pt.ine.add.PTCONT.2857056","rua":"R HELENA TAVARES","casa":"19","coordenadas":[38.80595136927253,-9.335292851781281]},{"id":"pt.ine.add.PTCONT.2912017","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.8055012708387,-9.33607570477373]},{"id":"pt.ine.add.PTCONT.2918527","rua":"R HELENA TAVARES","casa":"9","coordenadas":[38.80636928700316,-9.335085717736572]},{"id":"pt.ine.add.PTCONT.2930024","rua":"R HELENA TAVARES","casa":"25","coordenadas":[38.805817130496976,-9.335463094115438]},{"id":"pt.ine.add.PTCONT.2932767","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.805362200148906,-9.336330523380866]},{"id":"pt.ine.add.PTCONT.2957775","rua":"R HELENA TAVARES","casa":"13","coordenadas":[38.80605849132146,-9.334923764866446]},{"id":"pt.ine.add.PTCONT.3031113","rua":"R HELENA TAVARES","casa":"21","coordenadas":[38.805912893901834,-9.33534994414549]},{"id":"pt.ine.add.PTCONT.3031117","rua":"R HELENA TAVARES","casa":"16","coordenadas":[38.80617144350978,-9.335544752491419]},{"id":"pt.ine.add.PTCONT.3039842","rua":"R HELENA TAVARES","casa":"1","coordenadas":[38.80671547420828,-9.335197517296056]},{"id":"pt.ine.add.PTCONT.3042492","rua":"R HELENA TAVARES","casa":"14","coordenadas":[38.806125228484945,-9.33565909480398]},{"id":"pt.ine.add.PTCONT.3070076","rua":"R HELENA TAVARES","casa":"17","coordenadas":[38.80599056549934,-9.335216824031841]},{"id":"pt.ine.add.PTCONT.3151838","rua":"R HELENA TAVARES","casa":"29","coordenadas":[38.805738338583915,-9.335589250852424]},{"id":"pt.ine.add.PTCONT.3161816","rua":"R HELENA TAVARES","casa":"27","coordenadas":[38.80578021225975,-9.335525632245307]},{"id":"pt.ine.add.PTCONT.3196195","rua":"R HELENA TAVARES","casa":"18","coordenadas":[38.80628034550729,-9.335465999607903]},{"id":"pt.ine.add.PTCONT.3206446","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.805593894029805,-9.335893073118145]},{"id":"pt.ine.add.PTCONT.3206447","rua":"R HELENA TAVARES","casa":"23","coordenadas":[38.80587554642154,-9.335413147495649]},{"id":"pt.ine.add.PTCONT.3262736","rua":"R HELENA TAVARES","casa":"31","coordenadas":[38.80570360610053,-9.335657246528593]},{"id":"pt.ine.add.PTCONT.3363958","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.80554899113719,-9.335982038955477]},{"id":"pt.ine.add.PTCONT.3383458","rua":"R HELENA TAVARES","casa":"2","coordenadas":[38.80656782877897,-9.335539904186135]},{"id":"pt.ine.add.PTCONT.3395151","rua":"R HELENA TAVARES","casa":"","coordenadas":[38.80541293535712,-9.336253840192695]}],"ruas":["R HELENA TAVARES"],"centroide":[38.80603878937158,-9.335547650477736]}
+{
+  "CP": "2725-059",
+  "CP4": "2725",
+  "CP3": "059",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Algueirão",
+  "Designação Postal": "MEM MARTINS",
+  "partes": [
+    {
+      "Artéria": "Rua Helena Tavares",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2379843",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.805329474755865,
+        -9.336435102050949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2379844",
+      "rua": "R HELENA TAVARES",
+      "casa": "3",
+      "coordenadas": [
+        38.80662021886799,
+        -9.33517289238951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2390423",
+      "rua": "R HELENA TAVARES",
+      "casa": "11",
+      "coordenadas": [
+        38.80627951018742,
+        -9.335056616080388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2390424",
+      "rua": "R HELENA TAVARES",
+      "casa": "6",
+      "coordenadas": [
+        38.80646674801005,
+        -9.33573390853426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2462656",
+      "rua": "R HELENA TAVARES",
+      "casa": "12",
+      "coordenadas": [
+        38.8060972624494,
+        -9.335750719972305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2474580",
+      "rua": "R HELENA TAVARES",
+      "casa": "15",
+      "coordenadas": [
+        38.80602625302157,
+        -9.335147993189901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2481177",
+      "rua": "R HELENA TAVARES",
+      "casa": "7 E 7A",
+      "coordenadas": [
+        38.806454823765556,
+        -9.335114747062864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2535659",
+      "rua": "R HELENA TAVARES",
+      "casa": "20",
+      "coordenadas": [
+        38.80632679723829,
+        -9.335328636990338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2551852",
+      "rua": "R HELENA TAVARES",
+      "casa": "5",
+      "coordenadas": [
+        38.80654104172255,
+        -9.335142266023961
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2625080",
+      "rua": "R HELENA TAVARES",
+      "casa": "4",
+      "coordenadas": [
+        38.80652173222787,
+        -9.335642737133979
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2669271",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.80563553127643,
+        -9.335811487759798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2695354",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.80545697907752,
+        -9.336156394455648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2730716",
+      "rua": "R HELENA TAVARES",
+      "casa": "8",
+      "coordenadas": [
+        38.806420769785504,
+        -9.335825231230949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2857056",
+      "rua": "R HELENA TAVARES",
+      "casa": "19",
+      "coordenadas": [
+        38.80595136927253,
+        -9.335292851781281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2912017",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.8055012708387,
+        -9.33607570477373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2918527",
+      "rua": "R HELENA TAVARES",
+      "casa": "9",
+      "coordenadas": [
+        38.80636928700316,
+        -9.335085717736572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2930024",
+      "rua": "R HELENA TAVARES",
+      "casa": "25",
+      "coordenadas": [
+        38.805817130496976,
+        -9.335463094115438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2932767",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.805362200148906,
+        -9.336330523380866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2957775",
+      "rua": "R HELENA TAVARES",
+      "casa": "13",
+      "coordenadas": [
+        38.80605849132146,
+        -9.334923764866446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3031113",
+      "rua": "R HELENA TAVARES",
+      "casa": "21",
+      "coordenadas": [
+        38.805912893901834,
+        -9.33534994414549
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3031117",
+      "rua": "R HELENA TAVARES",
+      "casa": "16",
+      "coordenadas": [
+        38.80617144350978,
+        -9.335544752491419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3039842",
+      "rua": "R HELENA TAVARES",
+      "casa": "1",
+      "coordenadas": [
+        38.80671547420828,
+        -9.335197517296056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3042492",
+      "rua": "R HELENA TAVARES",
+      "casa": "14",
+      "coordenadas": [
+        38.806125228484945,
+        -9.33565909480398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3070076",
+      "rua": "R HELENA TAVARES",
+      "casa": "17",
+      "coordenadas": [
+        38.80599056549934,
+        -9.335216824031841
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3151838",
+      "rua": "R HELENA TAVARES",
+      "casa": "29",
+      "coordenadas": [
+        38.805738338583915,
+        -9.335589250852424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3161816",
+      "rua": "R HELENA TAVARES",
+      "casa": "27",
+      "coordenadas": [
+        38.80578021225975,
+        -9.335525632245307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3196195",
+      "rua": "R HELENA TAVARES",
+      "casa": "18",
+      "coordenadas": [
+        38.80628034550729,
+        -9.335465999607903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3206446",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.805593894029805,
+        -9.335893073118145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3206447",
+      "rua": "R HELENA TAVARES",
+      "casa": "23",
+      "coordenadas": [
+        38.80587554642154,
+        -9.335413147495649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3262736",
+      "rua": "R HELENA TAVARES",
+      "casa": "31",
+      "coordenadas": [
+        38.80570360610053,
+        -9.335657246528593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3363958",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.80554899113719,
+        -9.335982038955477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3383458",
+      "rua": "R HELENA TAVARES",
+      "casa": "2",
+      "coordenadas": [
+        38.80656782877897,
+        -9.335539904186135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3395151",
+      "rua": "R HELENA TAVARES",
+      "casa": "",
+      "coordenadas": [
+        38.80541293535712,
+        -9.336253840192695
+      ]
+    }
+  ],
+  "ruas": [
+    "R HELENA TAVARES"
+  ],
+  "centro": [
+    38.80602247448208,
+    -9.335679433458697
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.805943328210034,
+                -9.336092049714699
+              ],
+              [
+                38.805806916331335,
+                -9.336168283567199
+              ],
+              [
+                38.80568806727173,
+                -9.336233354146415
+              ],
+              [
+                38.80558678103124,
+                -9.336287261452352
+              ],
+              [
+                38.80550305760985,
+                -9.336330005485003
+              ],
+              [
+                38.80543689700756,
+                -9.336361586244374
+              ],
+              [
+                38.805388299224376,
+                -9.336382003730462
+              ],
+              [
+                38.805357264260294,
+                -9.336391257943266
+              ],
+              [
+                38.80534379211532,
+                -9.336389348882788
+              ],
+              [
+                38.80534788278945,
+                -9.336376276549027
+              ],
+              [
+                38.80536234167889,
+                -9.336342857655199
+              ],
+              [
+                38.805387168783625,
+                -9.336289092201303
+              ],
+              [
+                38.80542236410367,
+                -9.33621498018734
+              ],
+              [
+                38.805467927639015,
+                -9.336120521613308
+              ],
+              [
+                38.80552385938967,
+                -9.336005716479209
+              ],
+              [
+                38.80559015935563,
+                -9.335870564785042
+              ],
+              [
+                38.805666827536896,
+                -9.335715066530808
+              ],
+              [
+                38.80575386393347,
+                -9.335539221716504
+              ],
+              [
+                38.80584028613807,
+                -9.335389634885702
+              ],
+              [
+                38.80592609415071,
+                -9.3352663060384
+              ],
+              [
+                38.80601128797139,
+                -9.335169235174599
+              ],
+              [
+                38.8060958676001,
+                -9.3350984222943
+              ],
+              [
+                38.80617983303684,
+                -9.335053867397498
+              ],
+              [
+                38.806263184281626,
+                -9.3350355704842
+              ],
+              [
+                38.80634592133444,
+                -9.335043531554401
+              ],
+              [
+                38.8064280441953,
+                -9.3350777506081
+              ],
+              [
+                38.80649759473871,
+                -9.335113042075246
+              ],
+              [
+                38.806554572964686,
+                -9.335149405955839
+              ],
+              [
+                38.80659897887322,
+                -9.335186842249875
+              ],
+              [
+                38.806630812464306,
+                -9.335225350957355
+              ],
+              [
+                38.80665007373796,
+                -9.335264932078282
+              ],
+              [
+                38.806656762694175,
+                -9.335305585612652
+              ],
+              [
+                38.80665087933295,
+                -9.335347311560465
+              ],
+              [
+                38.80663242365429,
+                -9.335390109921725
+              ],
+              [
+                38.80661555467685,
+                -9.335429165252636
+              ],
+              [
+                38.80660027240063,
+                -9.335464477553202
+              ],
+              [
+                38.80658657682563,
+                -9.335496046823419
+              ],
+              [
+                38.806574467951855,
+                -9.335523873063291
+              ],
+              [
+                38.8065639457793,
+                -9.335547956272814
+              ],
+              [
+                38.806555010307974,
+                -9.335568296451989
+              ],
+              [
+                38.80654766153786,
+                -9.335584893600817
+              ],
+              [
+                38.80654189946897,
+                -9.335597747719296
+              ],
+              [
+                38.80653528012053,
+                -9.33561184654323
+              ],
+              [
+                38.80652780349254,
+                -9.335627190072621
+              ],
+              [
+                38.806519469585005,
+                -9.335643778307467
+              ],
+              [
+                38.806510278397916,
+                -9.335661611247769
+              ],
+              [
+                38.806500229931274,
+                -9.335680688893525
+              ],
+              [
+                38.80648932418508,
+                -9.335701011244737
+              ],
+              [
+                38.80647756115933,
+                -9.335722578301404
+              ],
+              [
+                38.80646494085404,
+                -9.335745390063526
+              ],
+              [
+                38.80643684660207,
+                -9.335774879586944
+              ],
+              [
+                38.80639327840342,
+                -9.33581104687166
+              ],
+              [
+                38.806334236258095,
+                -9.335853891917672
+              ],
+              [
+                38.80625972016609,
+                -9.335903414724982
+              ],
+              [
+                38.806169730127415,
+                -9.33595961529359
+              ],
+              [
+                38.806064266142066,
+                -9.336022493623496
+              ],
+              [
+                38.805943328210034,
+                -9.336092049714699
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.80613942446098,
+    -9.335699254306482
+  ],
+  "centroDeMassa": [
+    38.80602247448208,
+    -9.335679433458697
+  ]
+}

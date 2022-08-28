@@ -1,1 +1,406 @@
-{"CP4":"7100","CP3":"501","Distrito":"Évora","Concelho":"Estremoz","CP":"7100-501","Artéria":"Avenida Condessa da Cuba","Localidade":"Estremoz","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ESTREMOZ","locais":[{"id":"pt.ine.add.PTCONT.1370048","rua":"AV CONDESSA CUBA","casa":"31","coordenadas":[38.84381196817245,-7.583044608795479]},{"id":"pt.ine.add.PTCONT.1370049","rua":"AV CONDESSA CUBA","casa":"29","coordenadas":[38.84381196817245,-7.583044608795479]},{"id":"pt.ine.add.PTCONT.1370050","rua":"AV CONDESSA CUBA","casa":"20","coordenadas":[38.84381196817245,-7.583044608795479]},{"id":"pt.ine.add.PTCONT.1377245","rua":"AV CONDESSA CUBA","casa":"12","coordenadas":[38.8435314121008,-7.583266085946666]},{"id":"pt.ine.add.PTCONT.1377246","rua":"AV CONDESSA CUBA","casa":"10","coordenadas":[38.8435314121008,-7.583266085946666]},{"id":"pt.ine.add.PTCONT.1398394","rua":"AV CONDESSA DA CUBA","casa":"","coordenadas":[38.84314103328882,-7.584855643690164]},{"id":"pt.ine.add.PTCONT.1411279","rua":"AV CONDESSA DA CUBA","casa":"5","coordenadas":[38.84338231015394,-7.584286344632886]},{"id":"pt.ine.add.PTCONT.1411280","rua":"AV CONDESSA DA CUBA","casa":"5","coordenadas":[38.84338231015394,-7.584286344632886]},{"id":"pt.ine.add.PTCONT.1419738","rua":"AV CONDESSA DA CUBA","casa":"13","coordenadas":[38.84352351089099,-7.583851891085407]},{"id":"pt.ine.add.PTCONT.1421957","rua":"AV CONDESSA DA CUBA","casa":"7 11","coordenadas":[38.8434494443449,-7.584080299678774]},{"id":"pt.ine.add.PTCONT.1421958","rua":"AV CONDESSA DA CUBA","casa":"7 11","coordenadas":[38.8434494443449,-7.584080299678774]},{"id":"pt.ine.add.PTCONT.1421959","rua":"AV CONDESSA DA CUBA","casa":"7 11","coordenadas":[38.8434494443449,-7.584080299678774]},{"id":"pt.ine.add.PTCONT.1424285","rua":"AV CONDESSA DA CUBA","casa":"8","coordenadas":[38.84349294811384,-7.583377039045203]},{"id":"pt.ine.add.PTCONT.1432560","rua":"AV CONDESSA DA CUBA","casa":"6","coordenadas":[38.84345266414267,-7.583509948524111]},{"id":"pt.ine.add.PTCONT.1432561","rua":"AV CONDESSA CUBA","casa":"4","coordenadas":[38.84345266414267,-7.583509948524111]},{"id":"pt.ine.add.PTCONT.1439112","rua":"AV CONDESSA DA CUBA","casa":"19 17 2","coordenadas":[38.84359936553871,-7.583620329503245]},{"id":"pt.ine.add.PTCONT.1439113","rua":"AV CONDESSA DA CUBA","casa":"19 17 2","coordenadas":[38.84359936553871,-7.583620329503245]},{"id":"pt.ine.add.PTCONT.1444570","rua":"AV CONDESSA DA CUBA","casa":"27","coordenadas":[38.84371800316025,-7.583283396039525]},{"id":"pt.ine.add.PTCONT.1459980","rua":"TRASEIRAS TOMAS ALCAIDE","casa":"2A","coordenadas":[38.84329544435497,-7.583514861187674]},{"id":"pt.ine.add.PTCONT.1462752","rua":"AV CONDESSA DA CUBA","casa":"23","coordenadas":[38.84365779295594,-7.583462065285257]},{"id":"pt.ine.add.PTCONT.1465515","rua":"AV CONDESSA DA CUBA","casa":"23","coordenadas":[38.84365779295594,-7.583462065285257]}],"ruas":["AV CONDESSA CUBA","AV CONDESSA DA CUBA","TRASEIRAS TOMAS ALCAIDE"],"centroide":[38.84352722370946,-7.58365425194849]}
+{
+  "CP": "7100-501",
+  "CP4": "7100",
+  "CP3": "501",
+  "Distrito": "Évora",
+  "Concelho": "Estremoz",
+  "Localidade": "Estremoz",
+  "Designação Postal": "ESTREMOZ",
+  "partes": [
+    {
+      "Artéria": "Avenida Condessa da Cuba",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1370048",
+      "rua": "AV CONDESSA CUBA",
+      "casa": "31",
+      "coordenadas": [
+        38.84381196817245,
+        -7.583044608795479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1370049",
+      "rua": "AV CONDESSA CUBA",
+      "casa": "29",
+      "coordenadas": [
+        38.84381196817245,
+        -7.583044608795479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1370050",
+      "rua": "AV CONDESSA CUBA",
+      "casa": "20",
+      "coordenadas": [
+        38.84381196817245,
+        -7.583044608795479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377245",
+      "rua": "AV CONDESSA CUBA",
+      "casa": "12",
+      "coordenadas": [
+        38.8435314121008,
+        -7.583266085946666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377246",
+      "rua": "AV CONDESSA CUBA",
+      "casa": "10",
+      "coordenadas": [
+        38.8435314121008,
+        -7.583266085946666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1398394",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.84314103328882,
+        -7.584855643690164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411279",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "5",
+      "coordenadas": [
+        38.84338231015394,
+        -7.584286344632886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411280",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "5",
+      "coordenadas": [
+        38.84338231015394,
+        -7.584286344632886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1419738",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "13",
+      "coordenadas": [
+        38.84352351089099,
+        -7.583851891085407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421957",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "7 11",
+      "coordenadas": [
+        38.8434494443449,
+        -7.584080299678774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421958",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "7 11",
+      "coordenadas": [
+        38.8434494443449,
+        -7.584080299678774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421959",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "7 11",
+      "coordenadas": [
+        38.8434494443449,
+        -7.584080299678774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1424285",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "8",
+      "coordenadas": [
+        38.84349294811384,
+        -7.583377039045203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1432560",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "6",
+      "coordenadas": [
+        38.84345266414267,
+        -7.583509948524111
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1432561",
+      "rua": "AV CONDESSA CUBA",
+      "casa": "4",
+      "coordenadas": [
+        38.84345266414267,
+        -7.583509948524111
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1439112",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "19 17 2",
+      "coordenadas": [
+        38.84359936553871,
+        -7.583620329503245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1439113",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "19 17 2",
+      "coordenadas": [
+        38.84359936553871,
+        -7.583620329503245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444570",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "27",
+      "coordenadas": [
+        38.84371800316025,
+        -7.583283396039525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1459980",
+      "rua": "TRASEIRAS TOMAS ALCAIDE",
+      "casa": "2A",
+      "coordenadas": [
+        38.84329544435497,
+        -7.583514861187674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1462752",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "23",
+      "coordenadas": [
+        38.84365779295594,
+        -7.583462065285257
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1465515",
+      "rua": "AV CONDESSA DA CUBA",
+      "casa": "23",
+      "coordenadas": [
+        38.84365779295594,
+        -7.583462065285257
+      ]
+    }
+  ],
+  "ruas": [
+    "AV CONDESSA CUBA",
+    "AV CONDESSA DA CUBA",
+    "TRASEIRAS TOMAS ALCAIDE"
+  ],
+  "centro": [
+    38.84347650073064,
+    -7.583950126242822
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.84327675152545,
+                -7.584535412970446
+              ],
+              [
+                38.84324659191731,
+                -7.5846065753526055
+              ],
+              [
+                38.8432226149331,
+                -7.584647892710393
+              ],
+              [
+                38.843204820572815,
+                -7.5846593650438106
+              ],
+              [
+                38.84319320883645,
+                -7.584640992352856
+              ],
+              [
+                38.84318777972401,
+                -7.58459277463753
+              ],
+              [
+                38.843188533235505,
+                -7.584514711897833
+              ],
+              [
+                38.84319546937092,
+                -7.584406804133765
+              ],
+              [
+                38.84320858813027,
+                -7.584269051345325
+              ],
+              [
+                38.84322788951353,
+                -7.584101453532513
+              ],
+              [
+                38.84324846521992,
+                -7.583950918333163
+              ],
+              [
+                38.84327031524943,
+                -7.583817445747274
+              ],
+              [
+                38.84329343960206,
+                -7.583701035774844
+              ],
+              [
+                38.84331783827781,
+                -7.583601688415875
+              ],
+              [
+                38.84334351127668,
+                -7.583519403670367
+              ],
+              [
+                38.84337045859867,
+                -7.58345418153832
+              ],
+              [
+                38.84339868024378,
+                -7.583406022019734
+              ],
+              [
+                38.843428176212,
+                -7.583374925114606
+              ],
+              [
+                38.843458368872824,
+                -7.5833442547421335
+              ],
+              [
+                38.843489258226235,
+                -7.583314010902315
+              ],
+              [
+                38.843520844272234,
+                -7.58328419359515
+              ],
+              [
+                38.84355312701083,
+                -7.583254802820637
+              ],
+              [
+                38.84358610644201,
+                -7.5832258385787785
+              ],
+              [
+                38.84361978256578,
+                -7.583197300869573
+              ],
+              [
+                38.84365415538215,
+                -7.583169189693022
+              ],
+              [
+                38.84368922489111,
+                -7.583141505049124
+              ],
+              [
+                38.84371319730491,
+                -7.583136683108172
+              ],
+              [
+                38.84372607262354,
+                -7.583154723870166
+              ],
+              [
+                38.843727850847024,
+                -7.583195627335108
+              ],
+              [
+                38.84371853197534,
+                -7.583259393502997
+              ],
+              [
+                38.84369811600851,
+                -7.583346022373833
+              ],
+              [
+                38.84366660294651,
+                -7.583455513947615
+              ],
+              [
+                38.843623992789354,
+                -7.5835878682243445
+              ],
+              [
+                38.84357028553704,
+                -7.583743085204021
+              ],
+              [
+                38.84351952174025,
+                -7.583887795359008
+              ],
+              [
+                38.843471701398975,
+                -7.584021998689304
+              ],
+              [
+                38.84342682451323,
+                -7.584145695194911
+              ],
+              [
+                38.843384891083005,
+                -7.58425888487583
+              ],
+              [
+                38.8433459011083,
+                -7.584361567732058
+              ],
+              [
+                38.843309854589116,
+                -7.584453743763596
+              ],
+              [
+                38.84327675152545,
+                -7.584535412970446
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.8434324336142,
+    -7.583793508850573
+  ],
+  "centroDeMassa": [
+    38.84347650073064,
+    -7.583950126242822
+  ]
+}

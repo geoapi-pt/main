@@ -1,1 +1,381 @@
-{"CP4":"2785","CP3":"281","Distrito":"Lisboa","Concelho":"Cascais","CP":"2785-281","Artéria":"Rua Dom Carlos","Localidade":"Matos Cheirinhos","Local":"Bairro de Massapés","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO DOMINGOS DE RANA","locais":[{"id":"pt.ine.add.PTCONT.2963912","rua":"R PROJECTADA","casa":"57","coordenadas":[38.72040312586036,-9.340510449160757]},{"id":"pt.ine.add.PTCONT.2972982","rua":"R PROJECTADA","casa":"67","coordenadas":[38.72034813887077,-9.34060150890685]},{"id":"pt.ine.add.PTCONT.3000182","rua":"R PROJECTADA","casa":"","coordenadas":[38.71972666316508,-9.342338751329722]},{"id":"pt.ine.add.PTCONT.3000183","rua":"R PROJECTADA","casa":"","coordenadas":[38.71972666316508,-9.342338751329722]},{"id":"pt.ine.add.PTCONT.3000195","rua":"R PROJECTADA","casa":"234","coordenadas":[38.71972666316508,-9.342338751329722]},{"id":"pt.ine.add.PTCONT.3009105","rua":"R PROJECTADA","casa":"","coordenadas":[38.720531468138184,-9.340294143817603]},{"id":"pt.ine.add.PTCONT.3027797","rua":"R PROJECTADA","casa":"190","coordenadas":[38.71990324929398,-9.341812816500015]},{"id":"pt.ine.add.PTCONT.3027798","rua":"R PROJECTADA","casa":"190","coordenadas":[38.71990324929398,-9.341812816500015]},{"id":"pt.ine.add.PTCONT.3074644","rua":"R PROJECTADA","casa":"38","coordenadas":[38.720664186340386,-9.340526340653275]},{"id":"pt.ine.add.PTCONT.3084402","rua":"R PROJECTADA","casa":"121","coordenadas":[38.72084751542534,-9.340218974033826]},{"id":"pt.ine.add.PTCONT.3186226","rua":"R PROJECTADA","casa":"123","coordenadas":[38.720019522167895,-9.341021407512889]},{"id":"pt.ine.add.PTCONT.3199624","rua":"R PROJECTADA CASA DO MOINHO","casa":"88","coordenadas":[38.72035334469059,-9.34096953692987]},{"id":"pt.ine.add.PTCONT.3394241","rua":"R PROJECTADA","casa":"222","coordenadas":[38.71979148995211,-9.34216737320434]},{"id":"pt.ine.add.PTCONT.2514331","rua":"R PROJECTADA","casa":"657","coordenadas":[38.71982437133699,-9.339856818686785]},{"id":"pt.ine.add.PTCONT.2514332","rua":"R PROJECTADA","casa":"657","coordenadas":[38.71982437133699,-9.339856818686785]},{"id":"pt.ine.add.PTCONT.2586749","rua":"R PROJECTADA","casa":"","coordenadas":[38.71955792384323,-9.342105947287898]},{"id":"pt.ine.add.PTCONT.2609522","rua":"R D CARLOS","casa":"12","coordenadas":[38.72012298436992,-9.340597719620169]},{"id":"pt.ine.add.PTCONT.2609523","rua":"R D CARLOS","casa":"","coordenadas":[38.72020712691494,-9.340300184728685]},{"id":"pt.ine.add.PTCONT.2672672","rua":"R D CARLOS","casa":"","coordenadas":[38.720057803570505,-9.34080358828286]},{"id":"pt.ine.add.PTCONT.2737276","rua":"R PROJECTADA","casa":"199","coordenadas":[38.71968674446783,-9.341843663275958]},{"id":"pt.ine.add.PTCONT.2761522","rua":"R PROJECTADA","casa":"","coordenadas":[38.72026553949974,-9.340749594387734]}],"ruas":["R PROJECTADA","R PROJECTADA CASA DO MOINHO","R D CARLOS"],"centroide":[38.72006133026847,-9.34111581808889]}
+{
+  "CP": "2785-281",
+  "CP4": "2785",
+  "CP3": "281",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Matos Cheirinhos",
+  "Designação Postal": "SÃO DOMINGOS DE RANA",
+  "partes": [
+    {
+      "Artéria": "Rua Projectada",
+      "Local": "Bairro de Massapés",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Dom Carlos",
+      "Local": "Bairro de Massapés",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2963912",
+      "rua": "R PROJECTADA",
+      "casa": "57",
+      "coordenadas": [
+        38.72040312586036,
+        -9.340510449160757
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2972982",
+      "rua": "R PROJECTADA",
+      "casa": "67",
+      "coordenadas": [
+        38.72034813887077,
+        -9.34060150890685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3000182",
+      "rua": "R PROJECTADA",
+      "casa": "",
+      "coordenadas": [
+        38.71972666316508,
+        -9.342338751329722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3000183",
+      "rua": "R PROJECTADA",
+      "casa": "",
+      "coordenadas": [
+        38.71972666316508,
+        -9.342338751329722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3000195",
+      "rua": "R PROJECTADA",
+      "casa": "234",
+      "coordenadas": [
+        38.71972666316508,
+        -9.342338751329722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3009105",
+      "rua": "R PROJECTADA",
+      "casa": "",
+      "coordenadas": [
+        38.720531468138184,
+        -9.340294143817603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3027797",
+      "rua": "R PROJECTADA",
+      "casa": "190",
+      "coordenadas": [
+        38.71990324929398,
+        -9.341812816500015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3027798",
+      "rua": "R PROJECTADA",
+      "casa": "190",
+      "coordenadas": [
+        38.71990324929398,
+        -9.341812816500015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3074644",
+      "rua": "R PROJECTADA",
+      "casa": "38",
+      "coordenadas": [
+        38.720664186340386,
+        -9.340526340653275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3084402",
+      "rua": "R PROJECTADA",
+      "casa": "121",
+      "coordenadas": [
+        38.72084751542534,
+        -9.340218974033826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186226",
+      "rua": "R PROJECTADA",
+      "casa": "123",
+      "coordenadas": [
+        38.720019522167895,
+        -9.341021407512889
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3199624",
+      "rua": "R PROJECTADA CASA DO MOINHO",
+      "casa": "88",
+      "coordenadas": [
+        38.72035334469059,
+        -9.34096953692987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3394241",
+      "rua": "R PROJECTADA",
+      "casa": "222",
+      "coordenadas": [
+        38.71979148995211,
+        -9.34216737320434
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2514331",
+      "rua": "R PROJECTADA",
+      "casa": "657",
+      "coordenadas": [
+        38.71982437133699,
+        -9.339856818686785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2514332",
+      "rua": "R PROJECTADA",
+      "casa": "657",
+      "coordenadas": [
+        38.71982437133699,
+        -9.339856818686785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2586749",
+      "rua": "R PROJECTADA",
+      "casa": "",
+      "coordenadas": [
+        38.71955792384323,
+        -9.342105947287898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2609522",
+      "rua": "R D CARLOS",
+      "casa": "12",
+      "coordenadas": [
+        38.72012298436992,
+        -9.340597719620169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2609523",
+      "rua": "R D CARLOS",
+      "casa": "",
+      "coordenadas": [
+        38.72020712691494,
+        -9.340300184728685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2672672",
+      "rua": "R D CARLOS",
+      "casa": "",
+      "coordenadas": [
+        38.720057803570505,
+        -9.34080358828286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2737276",
+      "rua": "R PROJECTADA",
+      "casa": "199",
+      "coordenadas": [
+        38.71968674446783,
+        -9.341843663275958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2761522",
+      "rua": "R PROJECTADA",
+      "casa": "",
+      "coordenadas": [
+        38.72026553949974,
+        -9.340749594387734
+      ]
+    }
+  ],
+  "ruas": [
+    "R PROJECTADA",
+    "R PROJECTADA CASA DO MOINHO",
+    "R D CARLOS"
+  ],
+  "centro": [
+    38.72020271963429,
+    -9.341097785008253
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71965283971177,
+                -9.342236899561424
+              ],
+              [
+                38.719631747296546,
+                -9.342207799056196
+              ],
+              [
+                38.7196174546753,
+                -9.342147193479729
+              ],
+              [
+                38.719609961848064,
+                -9.342055082832024
+              ],
+              [
+                38.71960926881481,
+                -9.34193146711308
+              ],
+              [
+                38.71961537557556,
+                -9.341776346322893
+              ],
+              [
+                38.719628282130294,
+                -9.34158972046147
+              ],
+              [
+                38.719647988479025,
+                -9.34137158952881
+              ],
+              [
+                38.71967449462175,
+                -9.34112195352491
+              ],
+              [
+                38.719707800558474,
+                -9.340840812449771
+              ],
+              [
+                38.71975292987948,
+                -9.340600472686322
+              ],
+              [
+                38.719809882584784,
+                -9.340400934234564
+              ],
+              [
+                38.719878658674375,
+                -9.340242197094495
+              ],
+              [
+                38.71995925814826,
+                -9.340124261266114
+              ],
+              [
+                38.720051681006424,
+                -9.340047126749425
+              ],
+              [
+                38.72015592724889,
+                -9.340010793544424
+              ],
+              [
+                38.72027199687564,
+                -9.340015261651114
+              ],
+              [
+                38.72039988988669,
+                -9.340060531069497
+              ],
+              [
+                38.72049428295479,
+                -9.340133263330827
+              ],
+              [
+                38.720555176079934,
+                -9.340233458435108
+              ],
+              [
+                38.720582569262135,
+                -9.34036111638234
+              ],
+              [
+                38.7205764625014,
+                -9.340516237172526
+              ],
+              [
+                38.720536855797704,
+                -9.34069882080566
+              ],
+              [
+                38.720463749151065,
+                -9.340908867281744
+              ],
+              [
+                38.72035714256148,
+                -9.34114637660078
+              ],
+              [
+                38.72021703602894,
+                -9.341411348762769
+              ],
+              [
+                38.720091806261074,
+                -9.341639561841353
+              ],
+              [
+                38.719981453257866,
+                -9.341831015836537
+              ],
+              [
+                38.71988597701932,
+                -9.341985710748318
+              ],
+              [
+                38.71980537754544,
+                -9.342103646576696
+              ],
+              [
+                38.719739654836225,
+                -9.342184823321674
+              ],
+              [
+                38.71968880889167,
+                -9.34222924098325
+              ],
+              [
+                38.71965283971177,
+                -9.342236899561424
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71998911844266,
+    -9.341130122834556
+  ],
+  "centroDeMassa": [
+    38.72020271963429,
+    -9.341097785008253
+  ]
+}

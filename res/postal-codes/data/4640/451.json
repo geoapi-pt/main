@@ -1,1 +1,575 @@
-{"CP4":"4640","CP3":"451","Distrito":"Porto","Concelho":"Baião","CP":"4640-451","Artéria":"Caminho de Pinhocas","Localidade":"Santa Leocádia","Local":"Pinhocas","Troço":"","Porta":"","Cliente":"","Designação Postal":"BAIÃO (SANTA LEOCÁDIA)","locais":[{"id":"pt.ine.add.PTCONT.3598052","rua":"R MARCO DAS LACEIRAS","casa":"55","coordenadas":[41.11508151820631,-8.075386267377644]},{"id":"pt.ine.add.PTCONT.3598053","rua":"R MARCO DAS LACEIRAS","casa":"55","coordenadas":[41.11508151820631,-8.075386267377644]},{"id":"pt.ine.add.PTCONT.3617833","rua":"R MARCO DAS LACEIRAS","casa":"103 CAS","coordenadas":[41.115495806323516,-8.075552594647602]},{"id":"pt.ine.add.PTCONT.3654235","rua":"CAM MARCO DAS LACEIRAS","casa":"","coordenadas":[41.1157661885575,-8.076052431056539]},{"id":"pt.ine.add.PTCONT.3685446","rua":"R LACEIRAS","casa":"","coordenadas":[41.11489243069966,-8.07539833934245]},{"id":"pt.ine.add.PTCONT.3707949","rua":"CAM MARCO DAS LACEIRAS","casa":"","coordenadas":[41.11570315740793,-8.076052485633495]},{"id":"pt.ine.add.PTCONT.3750459","rua":"CAM PINHOCAS","casa":"12","coordenadas":[41.11755861688233,-8.077158212654677]},{"id":"pt.ine.add.PTCONT.3830922","rua":"CAM LACEIRAS CASA DAS CERDEIRINHAS","casa":"169","coordenadas":[41.113011599491415,-8.077638312986384]},{"id":"pt.ine.add.PTCONT.3850894","rua":"CAM PINHOCAS","casa":"32","coordenadas":[41.117675645768365,-8.077098579104751]},{"id":"pt.ine.add.PTCONT.3964662","rua":"CAM LACEIRAS","casa":"61","coordenadas":[41.11140863386547,-8.077282491107875]},{"id":"pt.ine.add.PTCONT.3979263","rua":"R MARCO DAS LACEIRAS","casa":"103 CAS","coordenadas":[41.115450991498335,-8.075969358944603]},{"id":"pt.ine.add.PTCONT.4043888","rua":"R LACEIRAS","casa":"354","coordenadas":[41.114541677422444,-8.076243991594957]},{"id":"pt.ine.add.PTCONT.4056846","rua":"CAM LACEIRAS","casa":"18","coordenadas":[41.11130046476059,-8.077044469072701]},{"id":"pt.ine.add.PTCONT.4070318","rua":"R LACEIRAS","casa":"310","coordenadas":[41.11470358661811,-8.075898569238449]},{"id":"pt.ine.add.PTCONT.4070319","rua":"R LACEIRAS","casa":"310","coordenadas":[41.11470358661811,-8.075898569238449]},{"id":"pt.ine.add.PTCONT.4139639","rua":"CAM LACEIRAS","casa":"","coordenadas":[41.11436250149699,-8.07812533154968]},{"id":"pt.ine.add.PTCONT.4155465","rua":"R LACEIRAS","casa":"983","coordenadas":[41.11740642833965,-8.079015800557467]},{"id":"pt.ine.add.PTCONT.4205867","rua":"CAM REGADINHAS","casa":"276","coordenadas":[41.11811592173374,-8.075193098518003]},{"id":"pt.ine.add.PTCONT.4211755","rua":"R MARCO LACEIRAS","casa":"103 CASA","coordenadas":[41.115486920587244,-8.075790731197777]},{"id":"pt.ine.add.PTCONT.4227058","rua":"CAM REGADINHAS","casa":"166","coordenadas":[41.11754002360439,-8.075967547396692]},{"id":"pt.ine.add.PTCONT.4227059","rua":"CAM REGADINHAS","casa":"166","coordenadas":[41.11754002360439,-8.075967547396692]},{"id":"pt.ine.add.PTCONT.4253472","rua":"R LACEIRAS","casa":"","coordenadas":[41.11744208582971,-8.078253736543738]},{"id":"pt.ine.add.PTCONT.4253474","rua":"R LACEIRAS","casa":"525","coordenadas":[41.11553242442074,-8.076767020327008]},{"id":"pt.ine.add.PTCONT.4266508","rua":"R MARCO DAS LACEIRAS","casa":"13","coordenadas":[41.114964334805116,-8.075136336780405]},{"id":"pt.ine.add.PTCONT.4284996","rua":"CAM PINHOCAS","casa":"","coordenadas":[41.1177029641713,-8.077729618399013]},{"id":"pt.ine.add.PTCONT.4286832","rua":"CAM REGADINHAS","casa":"242","coordenadas":[41.11811602927279,-8.075407422884808]},{"id":"pt.ine.add.PTCONT.4313672","rua":"R MARCO DAS LACEIRAS","casa":"83","coordenadas":[41.11532479305353,-8.075695620940515]},{"id":"pt.ine.add.PTCONT.4313673","rua":"R MARCO DAS LACEIRAS","casa":"83","coordenadas":[41.11532479305353,-8.075695620940515]},{"id":"pt.ine.add.PTCONT.4333574","rua":"R MARCO DAS LACEIRAS","casa":"89","coordenadas":[41.11548665876683,-8.075266848092157]}],"ruas":["R MARCO DAS LACEIRAS","CAM MARCO DAS LACEIRAS","R LACEIRAS","CAM PINHOCAS","CAM LACEIRAS CASA DAS CERDEIRINHAS","CAM LACEIRAS","CAM REGADINHAS","R MARCO LACEIRAS"],"centroide":[41.11561552379642,-8.076385941886091]}}091]}
+{
+  "CP": "4640-451",
+  "CP4": "4640",
+  "CP3": "451",
+  "Distrito": "Porto",
+  "Concelho": "Baião",
+  "Localidade": "Santa Leocádia",
+  "Designação Postal": "BAIÃO (SANTA LEOCÁDIA)",
+  "partes": [
+    {
+      "Artéria": "Rua das Laceiras",
+      "Local": "Laceira",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho das Laceiras",
+      "Local": "Laceira",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho Marco das Laceiras",
+      "Local": "Laceira",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Regadinhas",
+      "Local": "Regadinhas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho de Pinhocas",
+      "Local": "Pinhocas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3598052",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "55",
+      "coordenadas": [
+        41.11508151820631,
+        -8.075386267377644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3598053",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "55",
+      "coordenadas": [
+        41.11508151820631,
+        -8.075386267377644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3617833",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "103 CAS",
+      "coordenadas": [
+        41.115495806323516,
+        -8.075552594647602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3654235",
+      "rua": "CAM MARCO DAS LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        41.1157661885575,
+        -8.076052431056539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3685446",
+      "rua": "R LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        41.11489243069966,
+        -8.07539833934245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3707949",
+      "rua": "CAM MARCO DAS LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        41.11570315740793,
+        -8.076052485633495
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3750459",
+      "rua": "CAM PINHOCAS",
+      "casa": "12",
+      "coordenadas": [
+        41.11755861688233,
+        -8.077158212654677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3830922",
+      "rua": "CAM LACEIRAS CASA DAS CERDEIRINHAS",
+      "casa": "169",
+      "coordenadas": [
+        41.113011599491415,
+        -8.077638312986384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3850894",
+      "rua": "CAM PINHOCAS",
+      "casa": "32",
+      "coordenadas": [
+        41.117675645768365,
+        -8.077098579104751
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3964662",
+      "rua": "CAM LACEIRAS",
+      "casa": "61",
+      "coordenadas": [
+        41.11140863386547,
+        -8.077282491107875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3979263",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "103 CAS",
+      "coordenadas": [
+        41.115450991498335,
+        -8.075969358944603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4043888",
+      "rua": "R LACEIRAS",
+      "casa": "354",
+      "coordenadas": [
+        41.114541677422444,
+        -8.076243991594957
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4056846",
+      "rua": "CAM LACEIRAS",
+      "casa": "18",
+      "coordenadas": [
+        41.11130046476059,
+        -8.077044469072701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4070318",
+      "rua": "R LACEIRAS",
+      "casa": "310",
+      "coordenadas": [
+        41.11470358661811,
+        -8.075898569238449
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4070319",
+      "rua": "R LACEIRAS",
+      "casa": "310",
+      "coordenadas": [
+        41.11470358661811,
+        -8.075898569238449
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4139639",
+      "rua": "CAM LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        41.11436250149699,
+        -8.07812533154968
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4155465",
+      "rua": "R LACEIRAS",
+      "casa": "983",
+      "coordenadas": [
+        41.11740642833965,
+        -8.079015800557467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4205867",
+      "rua": "CAM REGADINHAS",
+      "casa": "276",
+      "coordenadas": [
+        41.11811592173374,
+        -8.075193098518003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4211755",
+      "rua": "R MARCO LACEIRAS",
+      "casa": "103 CASA",
+      "coordenadas": [
+        41.115486920587244,
+        -8.075790731197777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4227058",
+      "rua": "CAM REGADINHAS",
+      "casa": "166",
+      "coordenadas": [
+        41.11754002360439,
+        -8.075967547396692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4227059",
+      "rua": "CAM REGADINHAS",
+      "casa": "166",
+      "coordenadas": [
+        41.11754002360439,
+        -8.075967547396692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4253472",
+      "rua": "R LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        41.11744208582971,
+        -8.078253736543738
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4253474",
+      "rua": "R LACEIRAS",
+      "casa": "525",
+      "coordenadas": [
+        41.11553242442074,
+        -8.076767020327008
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4266508",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "13",
+      "coordenadas": [
+        41.114964334805116,
+        -8.075136336780405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4284996",
+      "rua": "CAM PINHOCAS",
+      "casa": "",
+      "coordenadas": [
+        41.1177029641713,
+        -8.077729618399013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4286832",
+      "rua": "CAM REGADINHAS",
+      "casa": "242",
+      "coordenadas": [
+        41.11811602927279,
+        -8.075407422884808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4313672",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "83",
+      "coordenadas": [
+        41.11532479305353,
+        -8.075695620940515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4313673",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "83",
+      "coordenadas": [
+        41.11532479305353,
+        -8.075695620940515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4333574",
+      "rua": "R MARCO DAS LACEIRAS",
+      "casa": "89",
+      "coordenadas": [
+        41.11548665876683,
+        -8.075266848092157
+      ]
+    }
+  ],
+  "ruas": [
+    "R MARCO DAS LACEIRAS",
+    "CAM MARCO DAS LACEIRAS",
+    "R LACEIRAS",
+    "CAM PINHOCAS",
+    "CAM LACEIRAS CASA DAS CERDEIRINHAS",
+    "CAM LACEIRAS",
+    "CAM REGADINHAS",
+    "R MARCO LACEIRAS"
+  ],
+  "centro": [
+    41.114708247016694,
+    -8.077076068668937
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.111361309882085,
+                -8.077178356467487
+              ],
+              [
+                41.11134778874398,
+                -8.07714860371309
+              ],
+              [
+                41.111393205717576,
+                -8.077092755485925
+              ],
+              [
+                41.11149756080289,
+                -8.077010811785993
+              ],
+              [
+                41.11166085399991,
+                -8.076902772613293
+              ],
+              [
+                41.111883085308634,
+                -8.076768637967826
+              ],
+              [
+                41.112164254729066,
+                -8.07660840784959
+              ],
+              [
+                41.11250436226122,
+                -8.07642208225859
+              ],
+              [
+                41.11290340790507,
+                -8.076209661194822
+              ],
+              [
+                41.11336139166064,
+                -8.075971144658284
+              ],
+              [
+                41.11381137099252,
+                -8.075763329590966
+              ],
+              [
+                41.11425334590071,
+                -8.075586215992862
+              ],
+              [
+                41.114687316385215,
+                -8.075439803863977
+              ],
+              [
+                41.115113282446046,
+                -8.075324093204308
+              ],
+              [
+                41.11553124408318,
+                -8.075239084013859
+              ],
+              [
+                41.11594120129663,
+                -8.075184776292623
+              ],
+              [
+                41.116343154086394,
+                -8.075161170040605
+              ],
+              [
+                41.11673710245246,
+                -8.075168265257805
+              ],
+              [
+                41.11708180895308,
+                -8.075177822391087
+              ],
+              [
+                41.11737727358823,
+                -8.075189841440448
+              ],
+              [
+                41.11762349635793,
+                -8.075204322405892
+              ],
+              [
+                41.11782047726216,
+                -8.075221265287418
+              ],
+              [
+                41.11796821630092,
+                -8.075240670085023
+              ],
+              [
+                41.118066713474235,
+                -8.07526253679871
+              ],
+              [
+                41.11811596878208,
+                -8.075286865428481
+              ],
+              [
+                41.11811598222445,
+                -8.07531365597433
+              ],
+              [
+                41.118109539844326,
+                -8.075373382006859
+              ],
+              [
+                41.1180966416417,
+                -8.075466043526067
+              ],
+              [
+                41.11807728761655,
+                -8.07559164053195
+              ],
+              [
+                41.1180514777689,
+                -8.075750173024513
+              ],
+              [
+                41.11801921209874,
+                -8.075941641003755
+              ],
+              [
+                41.11798049060607,
+                -8.076166044469673
+              ],
+              [
+                41.11793531329089,
+                -8.076423383422272
+              ],
+              [
+                41.117883680153206,
+                -8.076713657861548
+              ],
+              [
+                41.117833867785365,
+                -8.076987744592142
+              ],
+              [
+                41.117785876187355,
+                -8.077245643614049
+              ],
+              [
+                41.1177397053592,
+                -8.077487354927275
+              ],
+              [
+                41.11769535530087,
+                -8.077712878531816
+              ],
+              [
+                41.11765282601239,
+                -8.077922214427673
+              ],
+              [
+                41.11761211749375,
+                -8.078115362614849
+              ],
+              [
+                41.11757322974495,
+                -8.078292323093338
+              ],
+              [
+                41.117536162766,
+                -8.078453095863145
+              ],
+              [
+                41.117410013620756,
+                -8.078566689076576
+              ],
+              [
+                41.11719478230921,
+                -8.078633102733631
+              ],
+              [
+                41.116890468831386,
+                -8.07865233683431
+              ],
+              [
+                41.116497073187276,
+                -8.078624391378614
+              ],
+              [
+                41.11601459537687,
+                -8.078549266366542
+              ],
+              [
+                41.115443035400176,
+                -8.078426961798094
+              ],
+              [
+                41.114782393257194,
+                -8.078257477673272
+              ],
+              [
+                41.11403266894793,
+                -8.078040813992072
+              ],
+              [
+                41.11337497003505,
+                -8.077847514176725
+              ],
+              [
+                41.11280929651857,
+                -8.077677578227226
+              ],
+              [
+                41.112335648398485,
+                -8.077531006143577
+              ],
+              [
+                41.11195402567479,
+                -8.07740779792578
+              ],
+              [
+                41.111664428347495,
+                -8.07730795357383
+              ],
+              [
+                41.1114668564166,
+                -8.077231473087734
+              ],
+              [
+                41.111361309882085,
+                -8.077178356467487
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.11557353956409,
+    -8.076687033902896
+  ],
+  "centroDeMassa": [
+    41.114708247016694,
+    -8.077076068668937
+  ]
+}

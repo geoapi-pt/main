@@ -1,1 +1,532 @@
-{"CP4":"7000","CP3":"533","Distrito":"Évora","Concelho":"Évora","CP":"7000-533","Artéria":"Rua de Gabriel Victor do Monte Pereira","Localidade":"Évora","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÉVORA","locais":[{"id":"pt.ine.add.PTCONT.1369837","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"30","coordenadas":[38.57230586035411,-7.911933061659498]},{"id":"pt.ine.add.PTCONT.1375425","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"32A","coordenadas":[38.57231112067835,-7.911985204199857]},{"id":"pt.ine.add.PTCONT.1377371","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"25","coordenadas":[38.57227875916873,-7.911777523706058]},{"id":"pt.ine.add.PTCONT.1400921","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"11","coordenadas":[38.572206518783034,-7.911685945120287]},{"id":"pt.ine.add.PTCONT.1402271","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"40","coordenadas":[38.572382417950266,-7.912610952263608]},{"id":"pt.ine.add.PTCONT.1402289","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"5","coordenadas":[38.57210756284217,-7.9111344281337725]},{"id":"pt.ine.add.PTCONT.1406199","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"3","coordenadas":[38.572069899609644,-7.9109933750539625]},{"id":"pt.ine.add.PTCONT.1406978","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"26","coordenadas":[38.572292395975644,-7.911825114765339]},{"id":"pt.ine.add.PTCONT.1411081","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"36","coordenadas":[38.5723461231309,-7.912442690933457]},{"id":"pt.ine.add.PTCONT.1418022","rua":"R GABRIEL VICTOR","casa":"9","coordenadas":[38.572145331157174,-7.91123928079806]},{"id":"pt.ine.add.PTCONT.1418023","rua":"R GABRIEL VICTOR","casa":"9","coordenadas":[38.572145331157174,-7.91123928079806]},{"id":"pt.ine.add.PTCONT.1418024","rua":"R GABRIEL VICTOR","casa":"9","coordenadas":[38.572145331157174,-7.91123928079806]},{"id":"pt.ine.add.PTCONT.1418025","rua":"R GABRIEL VICTOR","casa":"9","coordenadas":[38.572145331157174,-7.91123928079806]},{"id":"pt.ine.add.PTCONT.1422682","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"28","coordenadas":[38.572298382100904,-7.9119085463560035]},{"id":"pt.ine.add.PTCONT.1424921","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"26A","coordenadas":[38.57229777764843,-7.911863746200802]},{"id":"pt.ine.add.PTCONT.1426372","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"34","coordenadas":[38.57233212551252,-7.912362229402715]},{"id":"pt.ine.add.PTCONT.1429304","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"17","coordenadas":[38.57222590443707,-7.911928732849889]},{"id":"pt.ine.add.PTCONT.1433965","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"12","coordenadas":[38.572197285297165,-7.911140922325719]},{"id":"pt.ine.add.PTCONT.1436965","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"1A","coordenadas":[38.57207508230477,-7.910778505656786]},{"id":"pt.ine.add.PTCONT.1443023","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"10","coordenadas":[38.57216464774434,-7.910989839343041]},{"id":"pt.ine.add.PTCONT.1446176","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"14","coordenadas":[38.572226924129154,-7.911208073665359]},{"id":"pt.ine.add.PTCONT.1450761","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"8","coordenadas":[38.57215522044206,-7.910934769914855]},{"id":"pt.ine.add.PTCONT.1454540","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"23","coordenadas":[38.5722519848211,-7.912384111957135]},{"id":"pt.ine.add.PTCONT.1456028","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"24","coordenadas":[38.57228273943806,-7.911794388983342]},{"id":"pt.ine.add.PTCONT.1456850","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"10A","coordenadas":[38.57218492191798,-7.911071441225755]},{"id":"pt.ine.add.PTCONT.1456865","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"38","coordenadas":[38.572352169008845,-7.912488751655961]},{"id":"pt.ine.add.PTCONT.1460733","rua":"R GABRIEL VICTOR DO MONTE PEREIRA","casa":"32","coordenadas":[38.57230899764918,-7.911956726204788]},{"id":"pt.ine.add.PTCONT.1462736","rua":"R GABRIEL VICTOR","casa":"25A","coordenadas":[38.57227547765903,-7.912487717055222]}],"ruas":["R GABRIEL VICTOR DO MONTE PEREIRA","R GABRIEL VICTOR"],"centroide":[38.57223096835456,-7.91163541499149]}
+{
+  "CP": "7000-533",
+  "CP4": "7000",
+  "CP3": "533",
+  "Distrito": "Évora",
+  "Concelho": "Évora",
+  "Localidade": "Évora",
+  "Designação Postal": "ÉVORA",
+  "partes": [
+    {
+      "Artéria": "Rua de Gabriel Victor do Monte Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1369837",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "30",
+      "coordenadas": [
+        38.57230586035411,
+        -7.911933061659498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1375425",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "32A",
+      "coordenadas": [
+        38.57231112067835,
+        -7.911985204199857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377371",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "25",
+      "coordenadas": [
+        38.57227875916873,
+        -7.911777523706058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1400921",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "11",
+      "coordenadas": [
+        38.572206518783034,
+        -7.911685945120287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1402271",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "40",
+      "coordenadas": [
+        38.572382417950266,
+        -7.912610952263608
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1402289",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "5",
+      "coordenadas": [
+        38.57210756284217,
+        -7.9111344281337725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1406199",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "3",
+      "coordenadas": [
+        38.572069899609644,
+        -7.9109933750539625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1406978",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "26",
+      "coordenadas": [
+        38.572292395975644,
+        -7.911825114765339
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411081",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "36",
+      "coordenadas": [
+        38.5723461231309,
+        -7.912442690933457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418022",
+      "rua": "R GABRIEL VICTOR",
+      "casa": "9",
+      "coordenadas": [
+        38.572145331157174,
+        -7.91123928079806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418023",
+      "rua": "R GABRIEL VICTOR",
+      "casa": "9",
+      "coordenadas": [
+        38.572145331157174,
+        -7.91123928079806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418024",
+      "rua": "R GABRIEL VICTOR",
+      "casa": "9",
+      "coordenadas": [
+        38.572145331157174,
+        -7.91123928079806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418025",
+      "rua": "R GABRIEL VICTOR",
+      "casa": "9",
+      "coordenadas": [
+        38.572145331157174,
+        -7.91123928079806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1422682",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "28",
+      "coordenadas": [
+        38.572298382100904,
+        -7.9119085463560035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1424921",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "26A",
+      "coordenadas": [
+        38.57229777764843,
+        -7.911863746200802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1426372",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "34",
+      "coordenadas": [
+        38.57233212551252,
+        -7.912362229402715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1429304",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "17",
+      "coordenadas": [
+        38.57222590443707,
+        -7.911928732849889
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1433965",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "12",
+      "coordenadas": [
+        38.572197285297165,
+        -7.911140922325719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1436965",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "1A",
+      "coordenadas": [
+        38.57207508230477,
+        -7.910778505656786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1443023",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "10",
+      "coordenadas": [
+        38.57216464774434,
+        -7.910989839343041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1446176",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "14",
+      "coordenadas": [
+        38.572226924129154,
+        -7.911208073665359
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1450761",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "8",
+      "coordenadas": [
+        38.57215522044206,
+        -7.910934769914855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1454540",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "23",
+      "coordenadas": [
+        38.5722519848211,
+        -7.912384111957135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1456028",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "24",
+      "coordenadas": [
+        38.57228273943806,
+        -7.911794388983342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1456850",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "10A",
+      "coordenadas": [
+        38.57218492191798,
+        -7.911071441225755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1456865",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "38",
+      "coordenadas": [
+        38.572352169008845,
+        -7.912488751655961
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1460733",
+      "rua": "R GABRIEL VICTOR DO MONTE PEREIRA",
+      "casa": "32",
+      "coordenadas": [
+        38.57230899764918,
+        -7.911956726204788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1462736",
+      "rua": "R GABRIEL VICTOR",
+      "casa": "25A",
+      "coordenadas": [
+        38.57227547765903,
+        -7.912487717055222
+      ]
+    }
+  ],
+  "ruas": [
+    "R GABRIEL VICTOR DO MONTE PEREIRA",
+    "R GABRIEL VICTOR"
+  ],
+  "centro": [
+    38.572226158779955,
+    -7.911694728960198
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.57217232254109,
+                -7.911775664561997
+              ],
+              [
+                38.57214956188966,
+                -7.9116018224491
+              ],
+              [
+                38.57212972729927,
+                -7.911446353265985
+              ],
+              [
+                38.57211281876991,
+                -7.91130925701265
+              ],
+              [
+                38.572098836301606,
+                -7.911190533689098
+              ],
+              [
+                38.57208777989433,
+                -7.911090183295327
+              ],
+              [
+                38.57207964954811,
+                -7.911008205831337
+              ],
+              [
+                38.57207444526291,
+                -7.9109446012971265
+              ],
+              [
+                38.57207216703877,
+                -7.910899369692698
+              ],
+              [
+                38.57207281487565,
+                -7.9108725110180504
+              ],
+              [
+                38.57207463389133,
+                -7.910851451306766
+              ],
+              [
+                38.572077624085786,
+                -7.910836190558846
+              ],
+              [
+                38.572081785459034,
+                -7.910826728774289
+              ],
+              [
+                38.572087118011055,
+                -7.910823065953095
+              ],
+              [
+                38.57209362174187,
+                -7.910825202095264
+              ],
+              [
+                38.572101296651454,
+                -7.910833137200795
+              ],
+              [
+                38.57211014273983,
+                -7.91084687126969
+              ],
+              [
+                38.572120160007,
+                -7.9108664043019505
+              ],
+              [
+                38.57213004548588,
+                -7.910887766076279
+              ],
+              [
+                38.57213979917647,
+                -7.9109109565926765
+              ],
+              [
+                38.57214942107878,
+                -7.910935975851142
+              ],
+              [
+                38.5721589111928,
+                -7.910962823851677
+              ],
+              [
+                38.57216826951854,
+                -7.910991500594282
+              ],
+              [
+                38.57217749605599,
+                -7.911022006078956
+              ],
+              [
+                38.57218659080516,
+                -7.9110543403057
+              ],
+              [
+                38.57219555376605,
+                -7.911088503274513
+              ],
+              [
+                38.57220582594778,
+                -7.911140315850322
+              ],
+              [
+                38.57221740735036,
+                -7.911209778033128
+              ],
+              [
+                38.572230297973775,
+                -7.911296889822928
+              ],
+              [
+                38.57224449781803,
+                -7.911401651219725
+              ],
+              [
+                38.57226000688314,
+                -7.911524062223519
+              ],
+              [
+                38.5722768251691,
+                -7.911664122834308
+              ],
+              [
+                38.57229495267589,
+                -7.911821833052093
+              ],
+              [
+                38.57231438940353,
+                -7.911997192876875
+              ],
+              [
+                38.57232972559816,
+                -7.912148707173427
+              ],
+              [
+                38.57234096125979,
+                -7.912276375941751
+              ],
+              [
+                38.57234809638841,
+                -7.912380199181846
+              ],
+              [
+                38.57235113098403,
+                -7.9124601768937115
+              ],
+              [
+                38.57235006504664,
+                -7.91251630907735
+              ],
+              [
+                38.57234489857625,
+                -7.912548595732758
+              ],
+              [
+                38.572335631572855,
+                -7.912557036859939
+              ],
+              [
+                38.572322264036444,
+                -7.9125416324588915
+              ],
+              [
+                38.5723102003665,
+                -7.9125265347783165
+              ],
+              [
+                38.572299440563015,
+                -7.912511743818214
+              ],
+              [
+                38.57228998462598,
+                -7.912497259578586
+              ],
+              [
+                38.57228183255541,
+                -7.912483082059432
+              ],
+              [
+                38.572274984351296,
+                -7.912469211260751
+              ],
+              [
+                38.572269440013635,
+                -7.912455647182543
+              ],
+              [
+                38.572265199542436,
+                -7.912442389824809
+              ],
+              [
+                38.5722622629377,
+                -7.912429439187548
+              ],
+              [
+                38.572256848327115,
+                -7.912396377115833
+              ],
+              [
+                38.572248955710705,
+                -7.912343203609664
+              ],
+              [
+                38.572238585088456,
+                -7.91226991866904
+              ],
+              [
+                38.57222573646037,
+                -7.91217652229396
+              ],
+              [
+                38.572210409826454,
+                -7.912063014484426
+              ],
+              [
+                38.572192605186686,
+                -7.91192939524044
+              ],
+              [
+                38.57217232254109,
+                -7.911775664561997
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.57220528670229,
+    -7.911628215080989
+  ],
+  "centroDeMassa": [
+    38.572226158779955,
+    -7.911694728960198
+  ]
+}

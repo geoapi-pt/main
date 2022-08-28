@@ -1,1 +1,344 @@
-{"CP4":"3700","CP3":"507","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"3700-507","Artéria":"Rua das Laceiras","Localidade":"Arrifana","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARRIFANA VFR","locais":[{"id":"pt.ine.add.PTCONT.327632","rua":"R LACEIRAS","casa":"","coordenadas":[40.91611429065615,-8.508230668762597]},{"id":"pt.ine.add.PTCONT.6231","rua":"R LACEIRAS","casa":"272","coordenadas":[40.91661570469688,-8.506334199254265]},{"id":"pt.ine.add.PTCONT.11638","rua":"R ANA FORJAZ PEREIRA","casa":"65","coordenadas":[40.916951675245606,-8.505469527052345]},{"id":"pt.ine.add.PTCONT.21307","rua":"R LACEIRAS","casa":"418","coordenadas":[40.916229920603634,-8.508670533881181]},{"id":"pt.ine.add.PTCONT.46600","rua":"R LACEIRAS","casa":"432","coordenadas":[40.91633886429715,-8.508398126649737]},{"id":"pt.ine.add.PTCONT.73341","rua":"R LACEIRAS","casa":"","coordenadas":[40.91638974483409,-8.506594081789627]},{"id":"pt.ine.add.PTCONT.108313","rua":"R LACEIRAS","casa":"","coordenadas":[40.91526839416197,-8.505282025753235]},{"id":"pt.ine.add.PTCONT.139483","rua":"R LACEIRAS","casa":"87","coordenadas":[40.91471385858016,-8.504115625443966]},{"id":"pt.ine.add.PTCONT.183397","rua":"R LACEIRAS","casa":"250","coordenadas":[40.91662551577802,-8.506084970749454]},{"id":"pt.ine.add.PTCONT.190331","rua":"R ANA FORJAZ PEREIRA","casa":"40","coordenadas":[40.91684327532937,-8.505575754995904]},{"id":"pt.ine.add.PTCONT.190332","rua":"R ANA FORJAZ PEREIRA","casa":"","coordenadas":[40.91672598578617,-8.50564632067286]},{"id":"pt.ine.add.PTCONT.195762","rua":"R LACEIRAS","casa":"260","coordenadas":[40.91659819487552,-8.506179782364125]},{"id":"pt.ine.add.PTCONT.195763","rua":"R LACEIRAS","casa":"257","coordenadas":[40.916397518560956,-8.50697398508798]},{"id":"pt.ine.add.PTCONT.220440","rua":"R LACEIRAS","casa":"","coordenadas":[40.91638812908969,-8.507092638278898]},{"id":"pt.ine.add.PTCONT.276448","rua":"R LACEIRAS","casa":"343","coordenadas":[40.9163237875077,-8.50749587598229]},{"id":"pt.ine.add.PTCONT.282299","rua":"R LACEIRAS","casa":"286","coordenadas":[40.91660639273988,-8.50642911206649]},{"id":"pt.ine.add.PTCONT.287736","rua":"R LACEIRAS","casa":"357","coordenadas":[40.916296388351775,-8.507614427327207]}],"ruas":["R LACEIRAS","R ANA FORJAZ PEREIRA"],"centroide":[40.916320703296435,-8.506535826799059]}9059]}
+{
+  "CP": "3700-507",
+  "CP4": "3700",
+  "CP3": "507",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Arrifana",
+  "Designação Postal": "ARRIFANA VFR",
+  "partes": [
+    {
+      "Artéria": "Rua Ana Forjaz Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Laceiras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.327632",
+      "rua": "R LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        40.91611429065615,
+        -8.508230668762597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.6231",
+      "rua": "R LACEIRAS",
+      "casa": "272",
+      "coordenadas": [
+        40.91661570469688,
+        -8.506334199254265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11638",
+      "rua": "R ANA FORJAZ PEREIRA",
+      "casa": "65",
+      "coordenadas": [
+        40.916951675245606,
+        -8.505469527052345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.21307",
+      "rua": "R LACEIRAS",
+      "casa": "418",
+      "coordenadas": [
+        40.916229920603634,
+        -8.508670533881181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.46600",
+      "rua": "R LACEIRAS",
+      "casa": "432",
+      "coordenadas": [
+        40.91633886429715,
+        -8.508398126649737
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73341",
+      "rua": "R LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        40.91638974483409,
+        -8.506594081789627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108313",
+      "rua": "R LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        40.91526839416197,
+        -8.505282025753235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.139483",
+      "rua": "R LACEIRAS",
+      "casa": "87",
+      "coordenadas": [
+        40.91471385858016,
+        -8.504115625443966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.183397",
+      "rua": "R LACEIRAS",
+      "casa": "250",
+      "coordenadas": [
+        40.91662551577802,
+        -8.506084970749454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190331",
+      "rua": "R ANA FORJAZ PEREIRA",
+      "casa": "40",
+      "coordenadas": [
+        40.91684327532937,
+        -8.505575754995904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190332",
+      "rua": "R ANA FORJAZ PEREIRA",
+      "casa": "",
+      "coordenadas": [
+        40.91672598578617,
+        -8.50564632067286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.195762",
+      "rua": "R LACEIRAS",
+      "casa": "260",
+      "coordenadas": [
+        40.91659819487552,
+        -8.506179782364125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.195763",
+      "rua": "R LACEIRAS",
+      "casa": "257",
+      "coordenadas": [
+        40.916397518560956,
+        -8.50697398508798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220440",
+      "rua": "R LACEIRAS",
+      "casa": "",
+      "coordenadas": [
+        40.91638812908969,
+        -8.507092638278898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.276448",
+      "rua": "R LACEIRAS",
+      "casa": "343",
+      "coordenadas": [
+        40.9163237875077,
+        -8.50749587598229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282299",
+      "rua": "R LACEIRAS",
+      "casa": "286",
+      "coordenadas": [
+        40.91660639273988,
+        -8.50642911206649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.287736",
+      "rua": "R LACEIRAS",
+      "casa": "357",
+      "coordenadas": [
+        40.916296388351775,
+        -8.507614427327207
+      ]
+    }
+  ],
+  "ruas": [
+    "R LACEIRAS",
+    "R ANA FORJAZ PEREIRA"
+  ],
+  "centro": [
+    40.915832766912885,
+    -8.506393079662573
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.91556664346837,
+                -8.5066777614399
+              ],
+              [
+                40.91537713571543,
+                -8.506108397885248
+              ],
+              [
+                40.915246282317014,
+                -8.505631359487559
+              ],
+              [
+                40.9151740832731,
+                -8.505246646246832
+              ],
+              [
+                40.91516053858371,
+                -8.504954258163067
+              ],
+              [
+                40.915205648248836,
+                -8.504754195236263
+              ],
+              [
+                40.91530941226847,
+                -8.504646457466425
+              ],
+              [
+                40.91547183064263,
+                -8.504631044853546
+              ],
+              [
+                40.915692903371294,
+                -8.504707957397631
+              ],
+              [
+                40.915972630454476,
+                -8.504877195098679
+              ],
+              [
+                40.91620781648119,
+                -8.505071037455803
+              ],
+              [
+                40.916398461451436,
+                -8.505289484469008
+              ],
+              [
+                40.916544565365214,
+                -8.505532536138292
+              ],
+              [
+                40.916646128222524,
+                -8.505800192463651
+              ],
+              [
+                40.916703150023366,
+                -8.506092453445092
+              ],
+              [
+                40.91671563076774,
+                -8.506409319082609
+              ],
+              [
+                40.91668357045565,
+                -8.506750789376206
+              ],
+              [
+                40.916606969087105,
+                -8.507116864325877
+              ],
+              [
+                40.91653824064441,
+                -8.507441436269833
+              ],
+              [
+                40.91647738512756,
+                -8.507724505208072
+              ],
+              [
+                40.91642440253658,
+                -8.507966071140594
+              ],
+              [
+                40.916379292871454,
+                -8.508166134067395
+              ],
+              [
+                40.91634205613219,
+                -8.508324693988477
+              ],
+              [
+                40.91631269231879,
+                -8.508441750903845
+              ],
+              [
+                40.91629120143124,
+                -8.508517304813493
+              ],
+              [
+                40.916277583469544,
+                -8.508551355717424
+              ],
+              [
+                40.91624197928395,
+                -8.508509979814033
+              ],
+              [
+                40.91618438887445,
+                -8.508393177103317
+              ],
+              [
+                40.916104812241045,
+                -8.50820094758528
+              ],
+              [
+                40.916003249383735,
+                -8.507933291259919
+              ],
+              [
+                40.91587970030252,
+                -8.507590208127237
+              ],
+              [
+                40.915734164997396,
+                -8.507171698187229
+              ],
+              [
+                40.91556664346837,
+                -8.5066777614399
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.91605857968164,
+    -8.506663453256806
+  ],
+  "centroDeMassa": [
+    40.915832766912885,
+    -8.506393079662573
+  ]
+}

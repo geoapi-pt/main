@@ -1,1 +1,541 @@
-{"CP4":"4825","CP3":"259","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4825-259","Artéria":"Travessa de Vilar","Localidade":"Lamelas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LAMELAS","locais":[{"id":"pt.ine.add.PTCONT.3600767","rua":"R VILAR","casa":"366","coordenadas":[41.2826795818384,-8.478498733744939]},{"id":"pt.ine.add.PTCONT.3600768","rua":"R VILAR","casa":"366","coordenadas":[41.2826795818384,-8.478498733744939]},{"id":"pt.ine.add.PTCONT.3619967","rua":"R VILAR","casa":"645","coordenadas":[41.28077244488761,-8.477915731217944]},{"id":"pt.ine.add.PTCONT.3626506","rua":"R VILAR","casa":"417","coordenadas":[41.2821037178277,-8.478364394355086]},{"id":"pt.ine.add.PTCONT.3626507","rua":"R VILAR","casa":"417","coordenadas":[41.2821037178277,-8.478364394355086]},{"id":"pt.ine.add.PTCONT.3723888","rua":"R CAMPO FUTEBOL","casa":"219","coordenadas":[41.28057366268265,-8.481137503689428]},{"id":"pt.ine.add.PTCONT.3736922","rua":"R VILAR","casa":"20","coordenadas":[41.28443517139626,-8.475559534566932]},{"id":"pt.ine.add.PTCONT.3755688","rua":"R VILAR","casa":"221","coordenadas":[41.283168946054076,-8.477450872212922]},{"id":"pt.ine.add.PTCONT.3811784","rua":"R VILAR","casa":"563","coordenadas":[41.28100490389755,-8.478466031201195]},{"id":"pt.ine.add.PTCONT.3837901","rua":"R ALTO DE VILAR","casa":"","coordenadas":[41.28095748188767,-8.479265522394469]},{"id":"pt.ine.add.PTCONT.3837902","rua":"R VILAR","casa":"580","coordenadas":[41.28077887171547,-8.47877518608198]},{"id":"pt.ine.add.PTCONT.3853597","rua":"R BALOCAS","casa":"4","coordenadas":[41.27917676297371,-8.478563818942781]},{"id":"pt.ine.add.PTCONT.3865590","rua":"R VILAR","casa":"199","coordenadas":[41.283126172766515,-8.476698626996312]},{"id":"pt.ine.add.PTCONT.3918089","rua":"R VILAR","casa":"456","coordenadas":[41.28202175041275,-8.478674314718678]},{"id":"pt.ine.add.PTCONT.3996611","rua":"R VILAR","casa":"460","coordenadas":[41.28190376604824,-8.478984044138638]},{"id":"pt.ine.add.PTCONT.4013712","rua":"R VILAR","casa":"702","coordenadas":[41.28037730367475,-8.477567497868943]},{"id":"pt.ine.add.PTCONT.4040005","rua":"TV VILAR QTA UILAR","casa":"40","coordenadas":[41.28083042005758,-8.479599070544733]},{"id":"pt.ine.add.PTCONT.4079280","rua":"R RIBEIRA","casa":"119","coordenadas":[41.27904502798392,-8.477453068173388]},{"id":"pt.ine.add.PTCONT.4086023","rua":"R ALTO VILAR","casa":"62","coordenadas":[41.28129920426327,-8.479410566065972]},{"id":"pt.ine.add.PTCONT.4092869","rua":"R VILAR","casa":"309","coordenadas":[41.282960460023276,-8.477915311492696]},{"id":"pt.ine.add.PTCONT.4092870","rua":"R VILAR","casa":"309","coordenadas":[41.282960460023276,-8.477915311492696]},{"id":"pt.ine.add.PTCONT.4131655","rua":"R VILAR","casa":"697","coordenadas":[41.28054012598358,-8.477317690438165]},{"id":"pt.ine.add.PTCONT.4131671","rua":"R CAMPO FUTEBOL","casa":"239","coordenadas":[41.28057297686647,-8.481364290986548]},{"id":"pt.ine.add.PTCONT.4135375","rua":"R VILAR","casa":"562","coordenadas":[41.280985641827264,-8.478883705086217]},{"id":"pt.ine.add.PTCONT.4138553","rua":"R VILAR","casa":"380","coordenadas":[41.28173268948863,-8.478983140869092]},{"id":"pt.ine.add.PTCONT.4177850","rua":"R RIBEIRA","casa":"237","coordenadas":[41.279121842984225,-8.47886193188211]},{"id":"pt.ine.add.PTCONT.4190562","rua":"R VILAR","casa":"348","coordenadas":[41.28277869777294,-8.47847538281679]},{"id":"pt.ine.add.PTCONT.4190563","rua":"R VILAR","casa":"350","coordenadas":[41.28277869777294,-8.47847538281679]},{"id":"pt.ine.add.PTCONT.4229924","rua":"R VILAR","casa":"632","coordenadas":[41.28052904997885,-8.478009940999351]},{"id":"pt.ine.add.PTCONT.4355382","rua":"TV VILAR","casa":"177","coordenadas":[41.27959080524655,-8.47861374696346]}],"ruas":["R VILAR","R CAMPO FUTEBOL","R ALTO DE VILAR","R BALOCAS","TV VILAR QTA UILAR","R RIBEIRA","R ALTO VILAR","TV VILAR"],"centroide":[41.28151721147434,-8.478463783927408]}]}08]}
+{
+  "CP": "4825-259",
+  "CP4": "4825",
+  "CP3": "259",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "Lamelas",
+  "Designação Postal": "LAMELAS",
+  "partes": [
+    {
+      "Artéria": "Rua do Alto do Vilar",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Balocas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Campo de Futebol",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quelha da Carrapata",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Fontes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Ribeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Vilar",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Vilar",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3600767",
+      "rua": "R VILAR",
+      "casa": "366",
+      "coordenadas": [
+        41.2826795818384,
+        -8.478498733744939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3600768",
+      "rua": "R VILAR",
+      "casa": "366",
+      "coordenadas": [
+        41.2826795818384,
+        -8.478498733744939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3619967",
+      "rua": "R VILAR",
+      "casa": "645",
+      "coordenadas": [
+        41.28077244488761,
+        -8.477915731217944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3626506",
+      "rua": "R VILAR",
+      "casa": "417",
+      "coordenadas": [
+        41.2821037178277,
+        -8.478364394355086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3626507",
+      "rua": "R VILAR",
+      "casa": "417",
+      "coordenadas": [
+        41.2821037178277,
+        -8.478364394355086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3723888",
+      "rua": "R CAMPO FUTEBOL",
+      "casa": "219",
+      "coordenadas": [
+        41.28057366268265,
+        -8.481137503689428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3736922",
+      "rua": "R VILAR",
+      "casa": "20",
+      "coordenadas": [
+        41.28443517139626,
+        -8.475559534566932
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3755688",
+      "rua": "R VILAR",
+      "casa": "221",
+      "coordenadas": [
+        41.283168946054076,
+        -8.477450872212922
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3811784",
+      "rua": "R VILAR",
+      "casa": "563",
+      "coordenadas": [
+        41.28100490389755,
+        -8.478466031201195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837901",
+      "rua": "R ALTO DE VILAR",
+      "casa": "",
+      "coordenadas": [
+        41.28095748188767,
+        -8.479265522394469
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837902",
+      "rua": "R VILAR",
+      "casa": "580",
+      "coordenadas": [
+        41.28077887171547,
+        -8.47877518608198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3853597",
+      "rua": "R BALOCAS",
+      "casa": "4",
+      "coordenadas": [
+        41.27917676297371,
+        -8.478563818942781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3865590",
+      "rua": "R VILAR",
+      "casa": "199",
+      "coordenadas": [
+        41.283126172766515,
+        -8.476698626996312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3918089",
+      "rua": "R VILAR",
+      "casa": "456",
+      "coordenadas": [
+        41.28202175041275,
+        -8.478674314718678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3996611",
+      "rua": "R VILAR",
+      "casa": "460",
+      "coordenadas": [
+        41.28190376604824,
+        -8.478984044138638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4013712",
+      "rua": "R VILAR",
+      "casa": "702",
+      "coordenadas": [
+        41.28037730367475,
+        -8.477567497868943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4040005",
+      "rua": "TV VILAR QTA UILAR",
+      "casa": "40",
+      "coordenadas": [
+        41.28083042005758,
+        -8.479599070544733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4079280",
+      "rua": "R RIBEIRA",
+      "casa": "119",
+      "coordenadas": [
+        41.27904502798392,
+        -8.477453068173388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4086023",
+      "rua": "R ALTO VILAR",
+      "casa": "62",
+      "coordenadas": [
+        41.28129920426327,
+        -8.479410566065972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4092869",
+      "rua": "R VILAR",
+      "casa": "309",
+      "coordenadas": [
+        41.282960460023276,
+        -8.477915311492696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4092870",
+      "rua": "R VILAR",
+      "casa": "309",
+      "coordenadas": [
+        41.282960460023276,
+        -8.477915311492696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4131655",
+      "rua": "R VILAR",
+      "casa": "697",
+      "coordenadas": [
+        41.28054012598358,
+        -8.477317690438165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4131671",
+      "rua": "R CAMPO FUTEBOL",
+      "casa": "239",
+      "coordenadas": [
+        41.28057297686647,
+        -8.481364290986548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4135375",
+      "rua": "R VILAR",
+      "casa": "562",
+      "coordenadas": [
+        41.280985641827264,
+        -8.478883705086217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4138553",
+      "rua": "R VILAR",
+      "casa": "380",
+      "coordenadas": [
+        41.28173268948863,
+        -8.478983140869092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4177850",
+      "rua": "R RIBEIRA",
+      "casa": "237",
+      "coordenadas": [
+        41.279121842984225,
+        -8.47886193188211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4190562",
+      "rua": "R VILAR",
+      "casa": "348",
+      "coordenadas": [
+        41.28277869777294,
+        -8.47847538281679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4190563",
+      "rua": "R VILAR",
+      "casa": "350",
+      "coordenadas": [
+        41.28277869777294,
+        -8.47847538281679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4229924",
+      "rua": "R VILAR",
+      "casa": "632",
+      "coordenadas": [
+        41.28052904997885,
+        -8.478009940999351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4355382",
+      "rua": "TV VILAR",
+      "casa": "177",
+      "coordenadas": [
+        41.27959080524655,
+        -8.47861374696346
+      ]
+    }
+  ],
+  "ruas": [
+    "R VILAR",
+    "R CAMPO FUTEBOL",
+    "R ALTO DE VILAR",
+    "R BALOCAS",
+    "TV VILAR QTA UILAR",
+    "R RIBEIRA",
+    "R ALTO VILAR",
+    "TV VILAR"
+  ],
+  "centro": [
+    41.28174009969009,
+    -8.47846191277674
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.27908823642159,
+                -8.478245554009545
+              ],
+              [
+                41.27907863454655,
+                -8.478069446045952
+              ],
+              [
+                41.27915445389671,
+                -8.477885765115209
+              ],
+              [
+                41.279315694472075,
+                -8.477694511217315
+              ],
+              [
+                41.27956235627263,
+                -8.477495684352268
+              ],
+              [
+                41.279894439298374,
+                -8.47728928452007
+              ],
+              [
+                41.28031194354933,
+                -8.477075311720721
+              ],
+              [
+                41.28081486902547,
+                -8.476853765954218
+              ],
+              [
+                41.28140321572682,
+                -8.476624647220564
+              ],
+              [
+                41.28207698365336,
+                -8.476387955519755
+              ],
+              [
+                41.28264064818872,
+                -8.476226410410453
+              ],
+              [
+                41.2830942093329,
+                -8.476140011892657
+              ],
+              [
+                41.28343766708589,
+                -8.476128759966365
+              ],
+              [
+                41.28367102144771,
+                -8.476192654631577
+              ],
+              [
+                41.28379427241834,
+                -8.476331695888295
+              ],
+              [
+                41.283807419997785,
+                -8.476545883736517
+              ],
+              [
+                41.28371046418606,
+                -8.476835218176245
+              ],
+              [
+                41.283503404983136,
+                -8.477199699207477
+              ],
+              [
+                41.28328776379142,
+                -8.477563759299958
+              ],
+              [
+                41.28306354061091,
+                -8.477927398453687
+              ],
+              [
+                41.2828307354416,
+                -8.478290616668664
+              ],
+              [
+                41.282589348283494,
+                -8.47865341394489
+              ],
+              [
+                41.28233937913658,
+                -8.479015790282364
+              ],
+              [
+                41.28208082800087,
+                -8.479377745681088
+              ],
+              [
+                41.28181369487636,
+                -8.47973928014106
+              ],
+              [
+                41.28153797976305,
+                -8.480100393662278
+              ],
+              [
+                41.281274055072,
+                -8.480377268632338
+              ],
+              [
+                41.2810219208032,
+                -8.48056990505124
+              ],
+              [
+                41.28078157695665,
+                -8.480678302918982
+              ],
+              [
+                41.280553023532356,
+                -8.480702462235564
+              ],
+              [
+                41.28033626053032,
+                -8.480642383000987
+              ],
+              [
+                41.280131287950525,
+                -8.48049806521525
+              ],
+              [
+                41.27993810579299,
+                -8.480269508878356
+              ],
+              [
+                41.27975671405771,
+                -8.479956713990301
+              ],
+              [
+                41.27959679605496,
+                -8.479661004967806
+              ],
+              [
+                41.27945835178474,
+                -8.479382381810865
+              ],
+              [
+                41.27934138124705,
+                -8.479120844519485
+              ],
+              [
+                41.27924588444189,
+                -8.478876393093664
+              ],
+              [
+                41.279171861369264,
+                -8.4786490275334
+              ],
+              [
+                41.27911931202917,
+                -8.478438747838695
+              ],
+              [
+                41.27908823642159,
+                -8.478245554009545
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.281190743400764,
+    -8.478342841685153
+  ],
+  "centroDeMassa": [
+    41.28174009969009,
+    -8.47846191277674
+  ]
+}

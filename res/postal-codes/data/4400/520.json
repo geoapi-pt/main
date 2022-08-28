@@ -1,1 +1,567 @@
-{"CP4":"4400","CP3":"520","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4400-520","Artéria":"Praceta Nova do Fontão","Localidade":"Vila Nova de Gaia","Local":"Canidelo","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3613465","rua":"PCT NOVA DO FONTAO","casa":"58","coordenadas":[41.1337745228791,-8.649692616378166]},{"id":"pt.ine.add.PTCONT.3640860","rua":"PCT NOVA DO FONTAO","casa":"46","coordenadas":[41.13398177644852,-8.64965851310313]},{"id":"pt.ine.add.PTCONT.3665097","rua":"PCT NOVA DO FONTAO","casa":"40","coordenadas":[41.13403617457947,-8.649575571731372]},{"id":"pt.ine.add.PTCONT.3854595","rua":"PCT NOVA DO FONTAO","casa":"60","coordenadas":[41.13372081892517,-8.649620737058658]},{"id":"pt.ine.add.PTCONT.3881603","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881694","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881695","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881696","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881697","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881698","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881699","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881700","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881701","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881702","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881703","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881704","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881705","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881713","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.3881719","rua":"PCT NOVA DO FONTAO","casa":"82","coordenadas":[41.13385870812649,-8.648990604775282]},{"id":"pt.ine.add.PTCONT.4027128","rua":"PCT NOVA DO FONTAO","casa":"48","coordenadas":[41.13392753848086,-8.649705726471769]},{"id":"pt.ine.add.PTCONT.4306504","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306505","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306506","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306507","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306508","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306509","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306510","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306511","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306512","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306513","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4306514","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]},{"id":"pt.ine.add.PTCONT.4378722","rua":"PCT NOVA DO FONTAO","casa":"84","coordenadas":[41.13374021494342,-8.64931123767577]}],"ruas":["PCT NOVA DO FONTAO"],"centroide":[41.13382141347056,-8.649210833896959]}
+{
+  "CP": "4400-520",
+  "CP4": "4400",
+  "CP3": "520",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Praceta Nova do Fontão",
+      "Local": "Canidelo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3613465",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "58",
+      "coordenadas": [
+        41.1337745228791,
+        -8.649692616378166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3640860",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "46",
+      "coordenadas": [
+        41.13398177644852,
+        -8.64965851310313
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3665097",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "40",
+      "coordenadas": [
+        41.13403617457947,
+        -8.649575571731372
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854595",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "60",
+      "coordenadas": [
+        41.13372081892517,
+        -8.649620737058658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881603",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881694",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881695",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881696",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881697",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881698",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881699",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881700",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881701",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881702",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881703",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881704",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881705",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881713",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3881719",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "82",
+      "coordenadas": [
+        41.13385870812649,
+        -8.648990604775282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4027128",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "48",
+      "coordenadas": [
+        41.13392753848086,
+        -8.649705726471769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306504",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306505",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306506",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306507",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306508",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306509",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306510",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306511",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306512",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306513",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4306514",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4378722",
+      "rua": "PCT NOVA DO FONTAO",
+      "casa": "84",
+      "coordenadas": [
+        41.13374021494342,
+        -8.64931123767577
+      ]
+    }
+  ],
+  "ruas": [
+    "PCT NOVA DO FONTAO"
+  ],
+  "centro": [
+    41.13387849675232,
+    -8.649348165623525
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.133751027399256,
+                -8.64966116917588
+              ],
+              [
+                41.13374431440502,
+                -8.649652184260942
+              ],
+              [
+                41.133738743597846,
+                -8.649639486532514
+              ],
+              [
+                41.13373431497773,
+                -8.649623075990593
+              ],
+              [
+                41.13373102854468,
+                -8.649602952635185
+              ],
+              [
+                41.133728884298705,
+                -8.649579116466285
+              ],
+              [
+                41.13372788223979,
+                -8.649551567483895
+              ],
+              [
+                41.13372802236794,
+                -8.649520305688014
+              ],
+              [
+                41.13372930468316,
+                -8.649485331078644
+              ],
+              [
+                41.133731729185435,
+                -8.649446643655784
+              ],
+              [
+                41.13373570208092,
+                -8.649407782271709
+              ],
+              [
+                41.133741223369604,
+                -8.649368746926424
+              ],
+              [
+                41.13374829305148,
+                -8.649329537619924
+              ],
+              [
+                41.13375691112657,
+                -8.649290154352215
+              ],
+              [
+                41.13376707759485,
+                -8.649250597123292
+              ],
+              [
+                41.13377879245633,
+                -8.649210865933156
+              ],
+              [
+                41.13379205571101,
+                -8.649170960781806
+              ],
+              [
+                41.1338068673589,
+                -8.649130881669246
+              ],
+              [
+                41.13382260046412,
+                -8.649104952554444
+              ],
+              [
+                41.13383925502669,
+                -8.6490931734374
+              ],
+              [
+                41.1338568310466,
+                -8.649095544318117
+              ],
+              [
+                41.13387532852386,
+                -8.649112065196592
+              ],
+              [
+                41.13389474745845,
+                -8.649142736072827
+              ],
+              [
+                41.13391508785039,
+                -8.649187556946819
+              ],
+              [
+                41.13393634969967,
+                -8.64924652781857
+              ],
+              [
+                41.13395853300629,
+                -8.649319648688083
+              ],
+              [
+                41.13397709342878,
+                -8.649384925407839
+              ],
+              [
+                41.133992030967164,
+                -8.649442357977838
+              ],
+              [
+                41.13400334562141,
+                -8.649491946398085
+              ],
+              [
+                41.134011037391545,
+                -8.649533690668576
+              ],
+              [
+                41.134015106277545,
+                -8.649567590789312
+              ],
+              [
+                41.13401555227942,
+                -8.649593646760291
+              ],
+              [
+                41.13401237539718,
+                -8.649611858581515
+              ],
+              [
+                41.13400557563081,
+                -8.649622226252987
+              ],
+              [
+                41.133998778366994,
+                -8.649632035674408
+              ],
+              [
+                41.133991983605725,
+                -8.649641286845778
+              ],
+              [
+                41.133985191347016,
+                -8.649649979767101
+              ],
+              [
+                41.133978401590845,
+                -8.649658114438378
+              ],
+              [
+                41.133971614337234,
+                -8.649665690859605
+              ],
+              [
+                41.133964829586176,
+                -8.649672709030781
+              ],
+              [
+                41.13395804733767,
+                -8.649679168951911
+              ],
+              [
+                41.13395126759171,
+                -8.649685070622988
+              ],
+              [
+                41.133942944445224,
+                -8.64969002973997
+              ],
+              [
+                41.133933077898206,
+                -8.649694046302857
+              ],
+              [
+                41.133921667950645,
+                -8.649697120311643
+              ],
+              [
+                41.133908714602555,
+                -8.649699251766334
+              ],
+              [
+                41.133894217853936,
+                -8.649700440666926
+              ],
+              [
+                41.13387817770477,
+                -8.649700687013421
+              ],
+              [
+                41.13386059415509,
+                -8.649699990805818
+              ],
+              [
+                41.133841467204874,
+                -8.649698352044116
+              ],
+              [
+                41.13382389199915,
+                -8.649695795013262
+              ],
+              [
+                41.13380786853793,
+                -8.649692319713251
+              ],
+              [
+                41.1337933968212,
+                -8.649687926144086
+              ],
+              [
+                41.13378047684897,
+                -8.649682614305767
+              ],
+              [
+                41.13376910862124,
+                -8.649676384198292
+              ],
+              [
+                41.133759292137995,
+                -8.649669235821664
+              ],
+              [
+                41.133751027399256,
+                -8.64966116917588
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.13386282205472,
+    -8.649507858170592
+  ],
+  "centroDeMassa": [
+    41.13387849675232,
+    -8.649348165623525
+  ]
+}

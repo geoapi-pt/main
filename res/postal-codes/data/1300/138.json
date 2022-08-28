@@ -1,1 +1,403 @@
-{"CP4":"1300","CP3":"138","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1300-138","Artéria":"Rua Comandante Freitas da Silva","Localidade":"Lisboa","Local":"","Troço":"Pares de 2 a 10","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2586963","rua":"R CMDT FREITAS DA SILVA","casa":"6","coordenadas":[38.70391842661963,-9.196802938732054]},{"id":"pt.ine.add.PTCONT.2586964","rua":"R CMDT FREITAS DA SILVA","casa":"6","coordenadas":[38.70391842661963,-9.196802938732054]},{"id":"pt.ine.add.PTCONT.2586965","rua":"R CMDT FREITAS DA SILVA","casa":"6","coordenadas":[38.70391842661963,-9.196802938732054]},{"id":"pt.ine.add.PTCONT.2586966","rua":"R CMDT FREITAS DA SILVA","casa":"6","coordenadas":[38.70391842661963,-9.196802938732054]},{"id":"pt.ine.add.PTCONT.2586967","rua":"R CMDT FREITAS DA SILVA","casa":"6","coordenadas":[38.70391842661963,-9.196802938732054]},{"id":"pt.ine.add.PTCONT.2586968","rua":"R CMDT FREITAS DA SILVA","casa":"6","coordenadas":[38.70391842661963,-9.196802938732054]},{"id":"pt.ine.add.PTCONT.2621816","rua":"R CMDT FREITAS DA SILVA","casa":"1","coordenadas":[38.70412422019367,-9.19695543147582]},{"id":"pt.ine.add.PTCONT.2621817","rua":"R CMDT FREITAS DA SILVA","casa":"1","coordenadas":[38.70412422019367,-9.19695543147582]},{"id":"pt.ine.add.PTCONT.2621818","rua":"R CMDT FREITAS DA SILVA","casa":"1","coordenadas":[38.70412422019367,-9.19695543147582]},{"id":"pt.ine.add.PTCONT.2747321","rua":"R CMDT FREITAS DA SILVA","casa":"10","coordenadas":[38.704143070123244,-9.1968637454765]},{"id":"pt.ine.add.PTCONT.2747322","rua":"R CMDT FREITAS DA SILVA","casa":"10","coordenadas":[38.704143070123244,-9.1968637454765]},{"id":"pt.ine.add.PTCONT.2747323","rua":"R CMDT FREITAS DA SILVA","casa":"10","coordenadas":[38.704143070123244,-9.1968637454765]},{"id":"pt.ine.add.PTCONT.2747324","rua":"R CMDT FREITAS DA SILVA","casa":"10","coordenadas":[38.704143070123244,-9.1968637454765]},{"id":"pt.ine.add.PTCONT.2747325","rua":"R CMDT FREITAS DA SILVA","casa":"10","coordenadas":[38.704143070123244,-9.1968637454765]},{"id":"pt.ine.add.PTCONT.2836378","rua":"R CMDT FREITAS DA SILVA","casa":"8","coordenadas":[38.70404420607316,-9.19683928928032]},{"id":"pt.ine.add.PTCONT.2836379","rua":"R CMDT FREITAS DA SILVA","casa":"8","coordenadas":[38.70404420607316,-9.19683928928032]},{"id":"pt.ine.add.PTCONT.2836380","rua":"R CMDT FREITAS DA SILVA","casa":"8","coordenadas":[38.70404420607316,-9.19683928928032]},{"id":"pt.ine.add.PTCONT.3139174","rua":"R CMDT FREITAS DA SILVA","casa":"4","coordenadas":[38.70381956255082,-9.196778482703023]},{"id":"pt.ine.add.PTCONT.3139175","rua":"R CMDT FREITAS DA SILVA","casa":"4","coordenadas":[38.70381956255082,-9.196778482703023]},{"id":"pt.ine.add.PTCONT.3139176","rua":"R CMDT FREITAS DA SILVA","casa":"4","coordenadas":[38.70381956255082,-9.196778482703023]},{"id":"pt.ine.add.PTCONT.3147889","rua":"R CMDT FREITAS DA SILVA","casa":"4","coordenadas":[38.70381956255082,-9.196778482703023]},{"id":"pt.ine.add.PTCONT.3186576","rua":"R CMDT FREITAS DA SILVA","casa":"2","coordenadas":[38.70371179638035,-9.196742399257815]},{"id":"pt.ine.add.PTCONT.3186577","rua":"R CMDT FREITAS DA SILVA","casa":"2","coordenadas":[38.70371179638035,-9.196742399257815]},{"id":"pt.ine.add.PTCONT.3186580","rua":"R CMDT FREITAS DA SILVA","casa":"2","coordenadas":[38.70371179638035,-9.196742399257815]},{"id":"pt.ine.add.PTCONT.3186581","rua":"R CMDT FREITAS DA SILVA","casa":"2","coordenadas":[38.70371179638035,-9.196742399257815]},{"id":"pt.ine.add.PTCONT.3186582","rua":"R CMDT FREITAS DA SILVA","casa":"2","coordenadas":[38.70371179638035,-9.196742399257815]},{"id":"pt.ine.add.PTCONT.3192693","rua":"R CMDT FREITAS DA SILVA","casa":"2","coordenadas":[38.70371179638035,-9.196742399257815]},{"id":"pt.ine.add.PTCONT.3437863","rua":"R CMDT FREITAS DA SILVA","casa":"10","coordenadas":[38.704143070123244,-9.1968637454765]}],"ruas":["R CMDT FREITAS DA SILVA"],"centroide":[38.7039363043563,-9.196818105496376]}
+{
+  "CP": "1300-138",
+  "CP4": "1300",
+  "CP3": "138",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua Comandante Freitas da Silva",
+      "Local": "",
+      "Troço": "Pares de 2 a 10",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2586963",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        38.70391842661963,
+        -9.196802938732054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2586964",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        38.70391842661963,
+        -9.196802938732054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2586965",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        38.70391842661963,
+        -9.196802938732054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2586966",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        38.70391842661963,
+        -9.196802938732054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2586967",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        38.70391842661963,
+        -9.196802938732054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2586968",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        38.70391842661963,
+        -9.196802938732054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2621816",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "1",
+      "coordenadas": [
+        38.70412422019367,
+        -9.19695543147582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2621817",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "1",
+      "coordenadas": [
+        38.70412422019367,
+        -9.19695543147582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2621818",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "1",
+      "coordenadas": [
+        38.70412422019367,
+        -9.19695543147582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2747321",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        38.704143070123244,
+        -9.1968637454765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2747322",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        38.704143070123244,
+        -9.1968637454765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2747323",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        38.704143070123244,
+        -9.1968637454765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2747324",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        38.704143070123244,
+        -9.1968637454765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2747325",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        38.704143070123244,
+        -9.1968637454765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2836378",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "8",
+      "coordenadas": [
+        38.70404420607316,
+        -9.19683928928032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2836379",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "8",
+      "coordenadas": [
+        38.70404420607316,
+        -9.19683928928032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2836380",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "8",
+      "coordenadas": [
+        38.70404420607316,
+        -9.19683928928032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3139174",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "4",
+      "coordenadas": [
+        38.70381956255082,
+        -9.196778482703023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3139175",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "4",
+      "coordenadas": [
+        38.70381956255082,
+        -9.196778482703023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3139176",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "4",
+      "coordenadas": [
+        38.70381956255082,
+        -9.196778482703023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3147889",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "4",
+      "coordenadas": [
+        38.70381956255082,
+        -9.196778482703023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186576",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        38.70371179638035,
+        -9.196742399257815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186577",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        38.70371179638035,
+        -9.196742399257815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186580",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        38.70371179638035,
+        -9.196742399257815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186581",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        38.70371179638035,
+        -9.196742399257815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3186582",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        38.70371179638035,
+        -9.196742399257815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3192693",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        38.70371179638035,
+        -9.196742399257815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3437863",
+      "rua": "R CMDT FREITAS DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        38.704143070123244,
+        -9.1968637454765
+      ]
+    }
+  ],
+  "ruas": [
+    "R CMDT FREITAS DA SILVA"
+  ],
+  "centro": [
+    38.70392743325179,
+    -9.196848915366818
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.70394378477533,
+                -9.196862229880443
+              ],
+              [
+                38.703892231798676,
+                -9.196835600853193
+              ],
+              [
+                38.70385386159633,
+                -9.196814196489015
+              ],
+              [
+                38.70382867416829,
+                -9.196798016787913
+              ],
+              [
+                38.70381666951457,
+                -9.19678706174988
+              ],
+              [
+                38.70381784763517,
+                -9.196781331374922
+              ],
+              [
+                38.70383220853009,
+                -9.196780825663037
+              ],
+              [
+                38.70385975219932,
+                -9.196785544614226
+              ],
+              [
+                38.703900478642865,
+                -9.196795488228489
+              ],
+              [
+                38.70395438786072,
+                -9.196810656505825
+              ],
+              [
+                38.7040012638962,
+                -9.196825361342233
+              ],
+              [
+                38.7040411067493,
+                -9.196839602737715
+              ],
+              [
+                38.704073916420015,
+                -9.196853380692268
+              ],
+              [
+                38.70409969290835,
+                -9.196866695205893
+              ],
+              [
+                38.7041184362143,
+                -9.196879546278591
+              ],
+              [
+                38.70413014633787,
+                -9.196891933910361
+              ],
+              [
+                38.704134823279055,
+                -9.196903858101203
+              ],
+              [
+                38.70413246703786,
+                -9.196915318851117
+              ],
+              [
+                38.70412396120473,
+                -9.196922018378887
+              ],
+              [
+                38.70410930577966,
+                -9.196923956684511
+              ],
+              [
+                38.704088500762666,
+                -9.196921133767988
+              ],
+              [
+                38.70406154615374,
+                -9.19691354962932
+              ],
+              [
+                38.70402844195287,
+                -9.196901204268507
+              ],
+              [
+                38.703989188160065,
+                -9.196884097685547
+              ],
+              [
+                38.70394378477533,
+                -9.196862229880443
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.703993028899085,
+    -9.196853858736711
+  ],
+  "centroDeMassa": [
+    38.70392743325179,
+    -9.196848915366818
+  ]
+}

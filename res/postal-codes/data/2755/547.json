@@ -1,1 +1,249 @@
-{"CP4":"2755","CP3":"547","Distrito":"Lisboa","Concelho":"Cascais","CP":"2755-547","Artéria":"Praceta de Santo António","Localidade":"Alcabideche","Local":"Alvide","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALCABIDECHE","locais":[{"id":"pt.ine.add.PTCONT.2963596","rua":"R CAP REI VILAR","casa":"328","coordenadas":[38.71413011672611,-9.424299243520336]},{"id":"pt.ine.add.PTCONT.2970134","rua":"R CAP REI VILAR","casa":"328","coordenadas":[38.71413011672611,-9.424299243520336]},{"id":"pt.ine.add.PTCONT.3333520","rua":"R CAP REI VILAR","casa":"115A","coordenadas":[38.71369035087954,-9.424153367138398]},{"id":"pt.ine.add.PTCONT.3412460","rua":"R CAP REI VILAR","casa":"356","coordenadas":[38.71429133423563,-9.424382623877305]},{"id":"pt.ine.add.PTCONT.3412461","rua":"R CAP REI VILAR","casa":"356","coordenadas":[38.71429133423563,-9.424382623877305]},{"id":"pt.ine.add.PTCONT.3433952","rua":"R CAP REI VILAR","casa":"348","coordenadas":[38.7142016561081,-9.424346518997778]},{"id":"pt.ine.add.PTCONT.3440416","rua":"PCT SANTO ANTÓNIO","casa":"46","coordenadas":[38.71402712319817,-9.423837508645326]},{"id":"pt.ine.add.PTCONT.2358936","rua":"R CAP REI VILAR","casa":"348","coordenadas":[38.7142016561081,-9.424346518997778]},{"id":"pt.ine.add.PTCONT.2617832","rua":"R CAP REI VILAR","casa":"360","coordenadas":[38.714380504468544,-9.424464708110246]},{"id":"pt.ine.add.PTCONT.2899599","rua":"R CAP REI VILAR","casa":"378","coordenadas":[38.714443037874325,-9.42451182185335]}],"ruas":["R CAP REI VILAR","PCT SANTO ANTÓNIO"],"centroide":[38.71414935474289,-9.424279150742757]}4279150742757]}
+{
+  "CP": "2755-547",
+  "CP4": "2755",
+  "CP3": "547",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Alcabideche",
+  "Designação Postal": "ALCABIDECHE",
+  "partes": [
+    {
+      "Artéria": "Rua Capitão Rei Vilar",
+      "Local": "Alvide",
+      "Troço": "Pares de 268 a 384",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Praceta de Santo António",
+      "Local": "Alvide",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2963596",
+      "rua": "R CAP REI VILAR",
+      "casa": "328",
+      "coordenadas": [
+        38.71413011672611,
+        -9.424299243520336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2970134",
+      "rua": "R CAP REI VILAR",
+      "casa": "328",
+      "coordenadas": [
+        38.71413011672611,
+        -9.424299243520336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3333520",
+      "rua": "R CAP REI VILAR",
+      "casa": "115A",
+      "coordenadas": [
+        38.71369035087954,
+        -9.424153367138398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3412460",
+      "rua": "R CAP REI VILAR",
+      "casa": "356",
+      "coordenadas": [
+        38.71429133423563,
+        -9.424382623877305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3412461",
+      "rua": "R CAP REI VILAR",
+      "casa": "356",
+      "coordenadas": [
+        38.71429133423563,
+        -9.424382623877305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3433952",
+      "rua": "R CAP REI VILAR",
+      "casa": "348",
+      "coordenadas": [
+        38.7142016561081,
+        -9.424346518997778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3440416",
+      "rua": "PCT SANTO ANTÓNIO",
+      "casa": "46",
+      "coordenadas": [
+        38.71402712319817,
+        -9.423837508645326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2358936",
+      "rua": "R CAP REI VILAR",
+      "casa": "348",
+      "coordenadas": [
+        38.7142016561081,
+        -9.424346518997778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2617832",
+      "rua": "R CAP REI VILAR",
+      "casa": "360",
+      "coordenadas": [
+        38.714380504468544,
+        -9.424464708110246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2899599",
+      "rua": "R CAP REI VILAR",
+      "casa": "378",
+      "coordenadas": [
+        38.714443037874325,
+        -9.42451182185335
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAP REI VILAR",
+    "PCT SANTO ANTÓNIO"
+  ],
+  "centro": [
+    38.71406669437693,
+    -9.424174665249339
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71411373731411,
+                -9.424354997915557
+              ],
+              [
+                38.714019651439756,
+                -9.424310191076192
+              ],
+              [
+                38.71394258836718,
+                -9.424266049802789
+              ],
+              [
+                38.71388254809638,
+                -9.424222574095353
+              ],
+              [
+                38.71383953062735,
+                -9.424179763953884
+              ],
+              [
+                38.713813535960085,
+                -9.424137619378381
+              ],
+              [
+                38.7138045640946,
+                -9.424096140368846
+              ],
+              [
+                38.71381261503088,
+                -9.42405532692528
+              ],
+              [
+                38.71383768876894,
+                -9.424015179047679
+              ],
+              [
+                38.71387978530877,
+                -9.423975696736045
+              ],
+              [
+                38.71392311844794,
+                -9.42395168585724
+              ],
+              [
+                38.713967688186436,
+                -9.423943146411267
+              ],
+              [
+                38.71401349452427,
+                -9.423950078398121
+              ],
+              [
+                38.71406053746145,
+                -9.423972481817806
+              ],
+              [
+                38.71410881699796,
+                -9.424010356670319
+              ],
+              [
+                38.71415833313381,
+                -9.424063702955664
+              ],
+              [
+                38.71420908586899,
+                -9.424132520673837
+              ],
+              [
+                38.71426107520351,
+                -9.42421680982484
+              ],
+              [
+                38.714294805136916,
+                -9.424284961977047
+              ],
+              [
+                38.71431027566922,
+                -9.424336977130457
+              ],
+              [
+                38.714307486800415,
+                -9.424372855285071
+              ],
+              [
+                38.7142864385305,
+                -9.424392596440885
+              ],
+              [
+                38.714247130859476,
+                -9.424396200597906
+              ],
+              [
+                38.71418956378734,
+                -9.42438366775613
+              ],
+              [
+                38.71411373731411,
+                -9.424354997915557
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71405350398401,
+    -9.424167565879024
+  ],
+  "centroDeMassa": [
+    38.71406669437693,
+    -9.424174665249339
+  ]
+}

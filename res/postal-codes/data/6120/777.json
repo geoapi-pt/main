@@ -1,1 +1,547 @@
-{"CP4":"6120","CP3":"777","Distrito":"Santarém","Concelho":"Mação","CP":"6120-777","Artéria":"Beco do Vale de Mação","Localidade":"Mação","Local":"São Miguel","Troço":"","Porta":"","Cliente":"","Designação Postal":"MAÇÃO","locais":[{"id":"pt.ine.add.PTCONT.4396932","rua":"R QUINTA DO VALE DAS ÁRVORES","casa":"","coordenadas":[39.565694875321,-8.017843311587846]},{"id":"pt.ine.add.PTCONT.4411539","rua":"R S MIGUEL","casa":"336","coordenadas":[39.56771881379383,-7.998649906564859]},{"id":"pt.ine.add.PTCONT.4423611","rua":"R S MIGUEL","casa":"60","coordenadas":[39.56604599748447,-8.00079436530572]},{"id":"pt.ine.add.PTCONT.4430823","rua":"R S MIGUEL","casa":"188","coordenadas":[39.565821104182454,-8.001039171205582]},{"id":"pt.ine.add.PTCONT.4440058","rua":"R S MIGUEL","casa":"366","coordenadas":[39.5681780552262,-7.998555919841829]},{"id":"pt.ine.add.PTCONT.4457718","rua":"R S MIGUEL","casa":"15","coordenadas":[39.56635171280037,-8.000339935061742]},{"id":"pt.ine.add.PTCONT.4473023","rua":"R S MIGUEL","casa":"","coordenadas":[39.56846573442545,-7.9980898632974355]},{"id":"pt.ine.add.PTCONT.4473024","rua":"R S MIGUEL","casa":"329","coordenadas":[39.56786321927099,-7.998905650718726]},{"id":"pt.ine.add.PTCONT.4481525","rua":"AV S MIGUEL","casa":"170","coordenadas":[39.56568585588196,-8.000911420238006]},{"id":"pt.ine.add.PTCONT.4489733","rua":"R S MIGUEL","casa":"3","coordenadas":[39.566459914599236,-8.000444463311581]},{"id":"pt.ine.add.PTCONT.4494585","rua":"R S MIGUEL","casa":"467","coordenadas":[39.56900505977632,-7.9971578090186055]},{"id":"pt.ine.add.PTCONT.4498039","rua":"AV S MIGUEL","casa":"456","coordenadas":[39.567129758031484,-8.003399058441827]},{"id":"pt.ine.add.PTCONT.4498040","rua":"AV S MIGUEL","casa":"456","coordenadas":[39.567129758031484,-8.003399058441827]},{"id":"pt.ine.add.PTCONT.4498041","rua":"AV S MIGUEL","casa":"159","coordenadas":[39.566858953849085,-8.00286424974528]},{"id":"pt.ine.add.PTCONT.4504037","rua":"R S MIGUEL","casa":"44","coordenadas":[39.56592011340603,-8.000980797948737]},{"id":"pt.ine.add.PTCONT.4505684","rua":"R S MIGUEL","casa":"356","coordenadas":[39.56789864075229,-7.998381898626419]},{"id":"pt.ine.add.PTCONT.4512107","rua":"R TRAS DE S MIGUEL","casa":"","coordenadas":[39.56523792913737,-8.003053473880037]},{"id":"pt.ine.add.PTCONT.4527380","rua":"AV S MIGUEL","casa":"171","coordenadas":[39.56547019360935,-8.00135403620317]},{"id":"pt.ine.add.PTCONT.4532793","rua":"R S MIGUEL","casa":"193","coordenadas":[39.56717101666809,-8.000059077447588]},{"id":"pt.ine.add.PTCONT.4543452","rua":"R TRAS DE S MIGUEL","casa":"7","coordenadas":[39.56554326079379,-8.002249948814942]},{"id":"pt.ine.add.PTCONT.4549626","rua":"R S MIGUEL","casa":"88","coordenadas":[39.56624394932804,-8.000619431969668]},{"id":"pt.ine.add.PTCONT.4558085","rua":"AV S MIGUEL","casa":"","coordenadas":[39.56588442958916,-8.001283429788995]},{"id":"pt.ine.add.PTCONT.4578903","rua":"AV S MIGUEL","casa":"272","coordenadas":[39.56612852257177,-8.002085929040877]},{"id":"pt.ine.add.PTCONT.4579179","rua":"R TRÁS DE S MIGUEL","casa":"17","coordenadas":[39.56561548584632,-8.002401094538314]},{"id":"pt.ine.add.PTCONT.4587294","rua":"R S MIGUEL","casa":"47","coordenadas":[39.56617140287772,-8.00018899624147]},{"id":"pt.ine.add.PTCONT.4589408","rua":"R S MIGUEL","casa":"97","coordenadas":[39.566487359635936,-8.000816800843909]},{"id":"pt.ine.add.PTCONT.4620612","rua":"R S MIGUEL","casa":"307","coordenadas":[39.56772818374207,-7.9989640979830465]},{"id":"pt.ine.add.PTCONT.4628984","rua":"R S MIGUEL","casa":"37","coordenadas":[39.566261551213024,-8.000258646994444]},{"id":"pt.ine.add.PTCONT.4649429","rua":"R TRAS DE S MIGUEL","casa":"37","coordenadas":[39.565597589885066,-8.002505861439223]}],"ruas":["R QUINTA DO VALE DAS ÁRVORES","R S MIGUEL","AV S MIGUEL","R TRAS DE S MIGUEL","R TRÁS DE S MIGUEL"],"centroide":[39.56664895899447,-8.001253280110804]}
+{
+  "CP": "6120-777",
+  "CP4": "6120",
+  "CP3": "777",
+  "Distrito": "Santarém",
+  "Concelho": "Mação",
+  "Localidade": "Mação",
+  "Designação Postal": "MAÇÃO",
+  "partes": [
+    {
+      "Artéria": "Avenida de São Miguel",
+      "Local": "São Miguel",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco de São Miguel",
+      "Local": "São Miguel",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de São Miguel",
+      "Local": "São Miguel",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Traz de São Miguel",
+      "Local": "São Miguel",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Procissão",
+      "Local": "São Miguel",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco do Vale de Mação",
+      "Local": "São Miguel",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4396932",
+      "rua": "R QUINTA DO VALE DAS ÁRVORES",
+      "casa": "",
+      "coordenadas": [
+        39.565694875321,
+        -8.017843311587846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4411539",
+      "rua": "R S MIGUEL",
+      "casa": "336",
+      "coordenadas": [
+        39.56771881379383,
+        -7.998649906564859
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4423611",
+      "rua": "R S MIGUEL",
+      "casa": "60",
+      "coordenadas": [
+        39.56604599748447,
+        -8.00079436530572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4430823",
+      "rua": "R S MIGUEL",
+      "casa": "188",
+      "coordenadas": [
+        39.565821104182454,
+        -8.001039171205582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4440058",
+      "rua": "R S MIGUEL",
+      "casa": "366",
+      "coordenadas": [
+        39.5681780552262,
+        -7.998555919841829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4457718",
+      "rua": "R S MIGUEL",
+      "casa": "15",
+      "coordenadas": [
+        39.56635171280037,
+        -8.000339935061742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4473023",
+      "rua": "R S MIGUEL",
+      "casa": "",
+      "coordenadas": [
+        39.56846573442545,
+        -7.9980898632974355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4473024",
+      "rua": "R S MIGUEL",
+      "casa": "329",
+      "coordenadas": [
+        39.56786321927099,
+        -7.998905650718726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4481525",
+      "rua": "AV S MIGUEL",
+      "casa": "170",
+      "coordenadas": [
+        39.56568585588196,
+        -8.000911420238006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4489733",
+      "rua": "R S MIGUEL",
+      "casa": "3",
+      "coordenadas": [
+        39.566459914599236,
+        -8.000444463311581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4494585",
+      "rua": "R S MIGUEL",
+      "casa": "467",
+      "coordenadas": [
+        39.56900505977632,
+        -7.9971578090186055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498039",
+      "rua": "AV S MIGUEL",
+      "casa": "456",
+      "coordenadas": [
+        39.567129758031484,
+        -8.003399058441827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498040",
+      "rua": "AV S MIGUEL",
+      "casa": "456",
+      "coordenadas": [
+        39.567129758031484,
+        -8.003399058441827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498041",
+      "rua": "AV S MIGUEL",
+      "casa": "159",
+      "coordenadas": [
+        39.566858953849085,
+        -8.00286424974528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4504037",
+      "rua": "R S MIGUEL",
+      "casa": "44",
+      "coordenadas": [
+        39.56592011340603,
+        -8.000980797948737
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4505684",
+      "rua": "R S MIGUEL",
+      "casa": "356",
+      "coordenadas": [
+        39.56789864075229,
+        -7.998381898626419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4512107",
+      "rua": "R TRAS DE S MIGUEL",
+      "casa": "",
+      "coordenadas": [
+        39.56523792913737,
+        -8.003053473880037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4527380",
+      "rua": "AV S MIGUEL",
+      "casa": "171",
+      "coordenadas": [
+        39.56547019360935,
+        -8.00135403620317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532793",
+      "rua": "R S MIGUEL",
+      "casa": "193",
+      "coordenadas": [
+        39.56717101666809,
+        -8.000059077447588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4543452",
+      "rua": "R TRAS DE S MIGUEL",
+      "casa": "7",
+      "coordenadas": [
+        39.56554326079379,
+        -8.002249948814942
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4549626",
+      "rua": "R S MIGUEL",
+      "casa": "88",
+      "coordenadas": [
+        39.56624394932804,
+        -8.000619431969668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4558085",
+      "rua": "AV S MIGUEL",
+      "casa": "",
+      "coordenadas": [
+        39.56588442958916,
+        -8.001283429788995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4578903",
+      "rua": "AV S MIGUEL",
+      "casa": "272",
+      "coordenadas": [
+        39.56612852257177,
+        -8.002085929040877
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4579179",
+      "rua": "R TRÁS DE S MIGUEL",
+      "casa": "17",
+      "coordenadas": [
+        39.56561548584632,
+        -8.002401094538314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4587294",
+      "rua": "R S MIGUEL",
+      "casa": "47",
+      "coordenadas": [
+        39.56617140287772,
+        -8.00018899624147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4589408",
+      "rua": "R S MIGUEL",
+      "casa": "97",
+      "coordenadas": [
+        39.566487359635936,
+        -8.000816800843909
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4620612",
+      "rua": "R S MIGUEL",
+      "casa": "307",
+      "coordenadas": [
+        39.56772818374207,
+        -7.9989640979830465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4628984",
+      "rua": "R S MIGUEL",
+      "casa": "37",
+      "coordenadas": [
+        39.566261551213024,
+        -8.000258646994444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4649429",
+      "rua": "R TRAS DE S MIGUEL",
+      "casa": "37",
+      "coordenadas": [
+        39.565597589885066,
+        -8.002505861439223
+      ]
+    }
+  ],
+  "ruas": [
+    "R QUINTA DO VALE DAS ÁRVORES",
+    "R S MIGUEL",
+    "AV S MIGUEL",
+    "R TRAS DE S MIGUEL",
+    "R TRÁS DE S MIGUEL"
+  ],
+  "centro": [
+    39.56712149445684,
+    -8.007500560303226
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.56549496136566,
+                -8.01137275759068
+              ],
+              [
+                39.56543784309271,
+                -8.009524027877204
+              ],
+              [
+                39.56539149373624,
+                -8.00787983566421
+              ],
+              [
+                39.56535591329629,
+                -8.006440180951701
+              ],
+              [
+                39.56533110177281,
+                -8.005205063739675
+              ],
+              [
+                39.565317059165835,
+                -8.004174484028134
+              ],
+              [
+                39.565313785475354,
+                -8.003348441817074
+              ],
+              [
+                39.565321280701355,
+                -8.0027269371065
+              ],
+              [
+                39.56533954484386,
+                -8.002309969896407
+              ],
+              [
+                39.56536857790286,
+                -8.0020975401868
+              ],
+              [
+                39.56539735155249,
+                -8.001904748316436
+              ],
+              [
+                39.565425865792754,
+                -8.001731594285317
+              ],
+              [
+                39.565454120623656,
+                -8.001578078093445
+              ],
+              [
+                39.5654821160452,
+                -8.00144419974082
+              ],
+              [
+                39.565509852057374,
+                -8.001329959227437
+              ],
+              [
+                39.56553732866017,
+                -8.001235356553302
+              ],
+              [
+                39.56556454585362,
+                -8.001160391718411
+              ],
+              [
+                39.56559150363769,
+                -8.001105064722765
+              ],
+              [
+                39.56562267837057,
+                -8.00104536572663
+              ],
+              [
+                39.56565807005225,
+                -8.000981294730003
+              ],
+              [
+                39.565697678682724,
+                -8.000912851732888
+              ],
+              [
+                39.56574150426199,
+                -8.000840036735282
+              ],
+              [
+                39.565789546790064,
+                -8.000762849737185
+              ],
+              [
+                39.56584180626693,
+                -8.0006812907386
+              ],
+              [
+                39.56589828269261,
+                -8.000595359739522
+              ],
+              [
+                39.56595897606707,
+                -8.000505056739954
+              ],
+              [
+                39.56605635865878,
+                -8.000378679314975
+              ],
+              [
+                39.566190430467714,
+                -8.000216227464586
+              ],
+              [
+                39.566361191493876,
+                -8.000017701188785
+              ],
+              [
+                39.56656864173727,
+                -7.999783100487572
+              ],
+              [
+                39.566812781197896,
+                -7.9995124253609475
+              ],
+              [
+                39.56709360987576,
+                -7.999205675808913
+              ],
+              [
+                39.56741112777086,
+                -7.998862851831466
+              ],
+              [
+                39.567765334883184,
+                -7.998483953428609
+              ],
+              [
+                39.56802354447436,
+                -7.998475628303752
+              ],
+              [
+                39.56818575654437,
+                -7.998837876456897
+              ],
+              [
+                39.56825197109323,
+                -7.9995706978880445
+              ],
+              [
+                39.568222188120934,
+                -8.000674092597194
+              ],
+              [
+                39.568096407627486,
+                -8.002148060584343
+              ],
+              [
+                39.56787462961288,
+                -8.003992601849495
+              ],
+              [
+                39.56755685407712,
+                -8.006207716392648
+              ],
+              [
+                39.567143081020205,
+                -8.008793404213803
+              ],
+              [
+                39.56677388981129,
+                -8.010824789843129
+              ],
+              [
+                39.56644928045036,
+                -8.012301873280627
+              ],
+              [
+                39.56616925293743,
+                -8.013224654526296
+              ],
+              [
+                39.565933807272486,
+                -8.013593133580134
+              ],
+              [
+                39.56574294345555,
+                -8.013407310442144
+              ],
+              [
+                39.56559666148661,
+                -8.012667185112328
+              ],
+              [
+                39.56549496136566,
+                -8.01137275759068
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.56621088610062,
+    -8.003418174528187
+  ],
+  "centroDeMassa": [
+    39.56712149445684,
+    -8.007500560303226
+  ]
+}

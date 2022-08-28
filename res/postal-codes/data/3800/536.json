@@ -1,1 +1,541 @@
-{"CP4":"3800","CP3":"536","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3800-536","Artéria":"Rua Bombeiros Celulose","Localidade":"Cacia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CACIA","locais":[{"id":"pt.ine.add.PTCONT.306682","rua":"R BOMBEIROS DA CELULOSE","casa":"32","coordenadas":[40.68442740793718,-8.59498624813448]},{"id":"pt.ine.add.PTCONT.306683","rua":"R BOMBEIROS DA CELULOSE","casa":"32","coordenadas":[40.68442740793718,-8.59498624813448]},{"id":"pt.ine.add.PTCONT.306684","rua":"R BOMBEIROS DA CELULOSE","casa":"32","coordenadas":[40.68442740793718,-8.59498624813448]},{"id":"pt.ine.add.PTCONT.306685","rua":"R BOMBEIROS DA CELULOSE","casa":"32","coordenadas":[40.68442740793718,-8.59498624813448]},{"id":"pt.ine.add.PTCONT.307603","rua":"R BOMBEIROS DA CELULOSE","casa":"32","coordenadas":[40.68442740793718,-8.59498624813448]},{"id":"pt.ine.add.PTCONT.344937","rua":"R BOMBEIROS DA CELULOSE","casa":"52","coordenadas":[40.68470166552706,-8.593958985065743]},{"id":"pt.ine.add.PTCONT.347809","rua":"R BOMBEIROS DA CELULOSE","casa":"66","coordenadas":[40.68484805513291,-8.593380352332519]},{"id":"pt.ine.add.PTCONT.35035","rua":"R BOMBEIROS DA CELULOSE","casa":"44","coordenadas":[40.68454650456099,-8.594478407987348]},{"id":"pt.ine.add.PTCONT.53952","rua":"R BOMBEIROS DA CELULOSE","casa":"50","coordenadas":[40.68464702257448,-8.594112390544995]},{"id":"pt.ine.add.PTCONT.72849","rua":"R BOMBEIROS DA CELULOSE","casa":"26","coordenadas":[40.68434494419526,-8.595340558472252]},{"id":"pt.ine.add.PTCONT.72850","rua":"R BOMBEIROS DA CELULOSE","casa":"26","coordenadas":[40.68434494419526,-8.595340558472252]},{"id":"pt.ine.add.PTCONT.72851","rua":"R BOMBEIROS CELULOSE","casa":"24","coordenadas":[40.68434494419526,-8.595340558472252]},{"id":"pt.ine.add.PTCONT.72852","rua":"R BOMBEIROS DA CELULOSE","casa":"26","coordenadas":[40.68434494419526,-8.595340558472252]},{"id":"pt.ine.add.PTCONT.74866","rua":"R BOMBEIROS DA CELULOSE","casa":"26","coordenadas":[40.68434494419526,-8.595340558472252]},{"id":"pt.ine.add.PTCONT.103350","rua":"R BOMBEIROS DA CELULOSE","casa":"30","coordenadas":[40.68439063127901,-8.595175263509198]},{"id":"pt.ine.add.PTCONT.103351","rua":"R BOMBEIROS DA CELULOSE","casa":"30","coordenadas":[40.68439063127901,-8.595175263509198]},{"id":"pt.ine.add.PTCONT.103472","rua":"R BOMBEIROS DA CELULOSE","casa":"30","coordenadas":[40.68439063127901,-8.595175263509198]},{"id":"pt.ine.add.PTCONT.103473","rua":"R BOMBEIROS DA CELULOSE","casa":"30","coordenadas":[40.68439063127901,-8.595175263509198]},{"id":"pt.ine.add.PTCONT.104307","rua":"R BOMBEIROS DA CELULOSE","casa":"30","coordenadas":[40.68439063127901,-8.595175263509198]},{"id":"pt.ine.add.PTCONT.120985","rua":"R BOMBEIROS DA CELULOSE","casa":"85","coordenadas":[40.68490312134997,-8.593120483926848]},{"id":"pt.ine.add.PTCONT.130346","rua":"R BOMBEIROS DA CELULOSE","casa":"42","coordenadas":[40.68454607907857,-8.59458486925959]},{"id":"pt.ine.add.PTCONT.172523","rua":"R BOMBEIROS DA CELULOSE","casa":"24","coordenadas":[40.68431721917237,-8.595517806662905]},{"id":"pt.ine.add.PTCONT.172524","rua":"R BOMBEIROS DA CELULOSE","casa":"24","coordenadas":[40.68431721917237,-8.595517806662905]},{"id":"pt.ine.add.PTCONT.172525","rua":"R BOMBEIROS DA CELULOSE","casa":"24","coordenadas":[40.68431721917237,-8.595517806662905]},{"id":"pt.ine.add.PTCONT.172526","rua":"R BOMBEIROS DA CELULOSE","casa":"24","coordenadas":[40.68431721917237,-8.595517806662905]},{"id":"pt.ine.add.PTCONT.172527","rua":"R BOMBEIROS DA CELULOSE","casa":"24","coordenadas":[40.68431721917237,-8.595517806662905]},{"id":"pt.ine.add.PTCONT.172528","rua":"R BOMBEIROS DA CELULOSE","casa":"54","coordenadas":[40.684738345802,-8.593793626257622]},{"id":"pt.ine.add.PTCONT.176854","rua":"R BOMBEIROS DA CELULOSE","casa":"48","coordenadas":[40.684628446016774,-8.594254214996363]},{"id":"pt.ine.add.PTCONT.182769","rua":"R BOMBEIROS DA CELULOSE","casa":"40","coordenadas":[40.684509255774046,-8.594785714219045]}],"ruas":["R BOMBEIROS DA CELULOSE","R BOMBEIROS CELULOSE"],"centroide":[40.68446286617722,-8.594885096938045]}
+{
+  "CP": "3800-536",
+  "CP4": "3800",
+  "CP3": "536",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "Cacia",
+  "Designação Postal": "CACIA",
+  "partes": [
+    {
+      "Artéria": "Rua Bombeiros Celulose",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.306682",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "32",
+      "coordenadas": [
+        40.68442740793718,
+        -8.59498624813448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306683",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "32",
+      "coordenadas": [
+        40.68442740793718,
+        -8.59498624813448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306684",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "32",
+      "coordenadas": [
+        40.68442740793718,
+        -8.59498624813448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306685",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "32",
+      "coordenadas": [
+        40.68442740793718,
+        -8.59498624813448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.307603",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "32",
+      "coordenadas": [
+        40.68442740793718,
+        -8.59498624813448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.344937",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "52",
+      "coordenadas": [
+        40.68470166552706,
+        -8.593958985065743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.347809",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "66",
+      "coordenadas": [
+        40.68484805513291,
+        -8.593380352332519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35035",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "44",
+      "coordenadas": [
+        40.68454650456099,
+        -8.594478407987348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.53952",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "50",
+      "coordenadas": [
+        40.68464702257448,
+        -8.594112390544995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.72849",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "26",
+      "coordenadas": [
+        40.68434494419526,
+        -8.595340558472252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.72850",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "26",
+      "coordenadas": [
+        40.68434494419526,
+        -8.595340558472252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.72851",
+      "rua": "R BOMBEIROS CELULOSE",
+      "casa": "24",
+      "coordenadas": [
+        40.68434494419526,
+        -8.595340558472252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.72852",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "26",
+      "coordenadas": [
+        40.68434494419526,
+        -8.595340558472252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.74866",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "26",
+      "coordenadas": [
+        40.68434494419526,
+        -8.595340558472252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.103350",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "30",
+      "coordenadas": [
+        40.68439063127901,
+        -8.595175263509198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.103351",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "30",
+      "coordenadas": [
+        40.68439063127901,
+        -8.595175263509198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.103472",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "30",
+      "coordenadas": [
+        40.68439063127901,
+        -8.595175263509198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.103473",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "30",
+      "coordenadas": [
+        40.68439063127901,
+        -8.595175263509198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.104307",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "30",
+      "coordenadas": [
+        40.68439063127901,
+        -8.595175263509198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.120985",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "85",
+      "coordenadas": [
+        40.68490312134997,
+        -8.593120483926848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.130346",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "42",
+      "coordenadas": [
+        40.68454607907857,
+        -8.59458486925959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172523",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "24",
+      "coordenadas": [
+        40.68431721917237,
+        -8.595517806662905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172524",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "24",
+      "coordenadas": [
+        40.68431721917237,
+        -8.595517806662905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172525",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "24",
+      "coordenadas": [
+        40.68431721917237,
+        -8.595517806662905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172526",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "24",
+      "coordenadas": [
+        40.68431721917237,
+        -8.595517806662905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172527",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "24",
+      "coordenadas": [
+        40.68431721917237,
+        -8.595517806662905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172528",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "54",
+      "coordenadas": [
+        40.684738345802,
+        -8.593793626257622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.176854",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "48",
+      "coordenadas": [
+        40.684628446016774,
+        -8.594254214996363
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.182769",
+      "rua": "R BOMBEIROS DA CELULOSE",
+      "casa": "40",
+      "coordenadas": [
+        40.684509255774046,
+        -8.594785714219045
+      ]
+    }
+  ],
+  "ruas": [
+    "R BOMBEIROS DA CELULOSE",
+    "R BOMBEIROS CELULOSE"
+  ],
+  "centro": [
+    40.684610170261166,
+    -8.594319145294875
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.68442523976081,
+                -8.595106004663233
+              ],
+              [
+                40.684401235185604,
+                -8.595197516218715
+              ],
+              [
+                40.68438066438578,
+                -8.595274819326782
+              ],
+              [
+                40.684363527361334,
+                -8.595337913987436
+              ],
+              [
+                40.684349824112275,
+                -8.595386800200677
+              ],
+              [
+                40.68433955463861,
+                -8.595421477966504
+              ],
+              [
+                40.68433271894032,
+                -8.595441947284915
+              ],
+              [
+                40.68432931701741,
+                -8.595448208155911
+              ],
+              [
+                40.68432934886988,
+                -8.595440260579494
+              ],
+              [
+                40.68433281449775,
+                -8.595418104555662
+              ],
+              [
+                40.68433713541809,
+                -8.595393181935782
+              ],
+              [
+                40.68434231163093,
+                -8.595365492719854
+              ],
+              [
+                40.684348343136236,
+                -8.595335036907876
+              ],
+              [
+                40.68435522993404,
+                -8.595301814499848
+              ],
+              [
+                40.684362972024324,
+                -8.595265825495773
+              ],
+              [
+                40.6843715694071,
+                -8.59522706989565
+              ],
+              [
+                40.68438102208235,
+                -8.595185547699478
+              ],
+              [
+                40.68439133005009,
+                -8.595141258907255
+              ],
+              [
+                40.6844022104066,
+                -8.595094571211762
+              ],
+              [
+                40.68441366315191,
+                -8.595045484612998
+              ],
+              [
+                40.684425688285984,
+                -8.594993999110963
+              ],
+              [
+                40.684438285808845,
+                -8.594940114705656
+              ],
+              [
+                40.68445145572048,
+                -8.594883831397079
+              ],
+              [
+                40.6844651980209,
+                -8.594825149185231
+              ],
+              [
+                40.6844795127101,
+                -8.594764068070111
+              ],
+              [
+                40.68449439978807,
+                -8.594700588051717
+              ],
+              [
+                40.68451299811863,
+                -8.59462382547218
+              ],
+              [
+                40.68453530770177,
+                -8.594533780331496
+              ],
+              [
+                40.68456132853749,
+                -8.594430452629664
+              ],
+              [
+                40.684591060625785,
+                -8.59431384236669
+              ],
+              [
+                40.68462450396667,
+                -8.594183949542566
+              ],
+              [
+                40.68466165856013,
+                -8.594040774157294
+              ],
+              [
+                40.68470252440617,
+                -8.593884316210879
+              ],
+              [
+                40.68474710150479,
+                -8.593714575703316
+              ],
+              [
+                40.68478524605644,
+                -8.593570113203038
+              ],
+              [
+                40.68481695806113,
+                -8.593450928710045
+              ],
+              [
+                40.684842237518836,
+                -8.593357022224334
+              ],
+              [
+                40.684861084429585,
+                -8.593288393745906
+              ],
+              [
+                40.68487349879336,
+                -8.593245043274763
+              ],
+              [
+                40.684879480610164,
+                -8.593226970810903
+              ],
+              [
+                40.68487902988001,
+                -8.59323417635433
+              ],
+              [
+                40.68487214660287,
+                -8.593266659905037
+              ],
+              [
+                40.6848608299954,
+                -8.593317041791385
+              ],
+              [
+                40.68484508005759,
+                -8.59338532201337
+              ],
+              [
+                40.684824896789436,
+                -8.593471500570994
+              ],
+              [
+                40.68480028019094,
+                -8.593575577464257
+              ],
+              [
+                40.68477123026211,
+                -8.593697552693158
+              ],
+              [
+                40.68473774700293,
+                -8.593837426257696
+              ],
+              [
+                40.68469983041341,
+                -8.593995198157874
+              ],
+              [
+                40.684657480493556,
+                -8.59417086839369
+              ],
+              [
+                40.68461742374178,
+                -8.594336018794463
+              ],
+              [
+                40.68457966015808,
+                -8.594490649360196
+              ],
+              [
+                40.68454418974247,
+                -8.594634760090887
+              ],
+              [
+                40.68451101249492,
+                -8.594768350986536
+              ],
+              [
+                40.68448012841547,
+                -8.594891422047144
+              ],
+              [
+                40.6844515375041,
+                -8.595003973272709
+              ],
+              [
+                40.68442523976081,
+                -8.595106004663233
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.684556644017526,
+    -8.594515653105056
+  ],
+  "centroDeMassa": [
+    40.684610170261166,
+    -8.594319145294875
+  ]
+}

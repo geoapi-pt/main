@@ -1,1 +1,387 @@
-{"CP4":"2765","CP3":"273","Distrito":"Lisboa","Concelho":"Cascais","CP":"2765-273","Artéria":"Avenida da República","Localidade":"Estoril","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ESTORIL","locais":[{"id":"pt.ine.add.PTCONT.3176480","rua":"AV REPUBLICA","casa":"240","coordenadas":[38.71557193240983,-9.393707860669194]},{"id":"pt.ine.add.PTCONT.3176487","rua":"AV REPÚBLICA","casa":"498","coordenadas":[38.71811385695124,-9.393545558939108]},{"id":"pt.ine.add.PTCONT.3182618","rua":"AV REPÚBLICA","casa":"498","coordenadas":[38.71811385695124,-9.393545558939108]},{"id":"pt.ine.add.PTCONT.3299045","rua":"AV REPUBLICA","casa":"456","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299046","rua":"AV REPUBLICA CASA","casa":"CASA","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299047","rua":"AV REPUBLICA CASA","casa":"CASA","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299048","rua":"AV REPUBLICA ASA","casa":"ASA","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299049","rua":"AV REPUBLICA","casa":"456","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299050","rua":"AV REPUBLICA CASA","casa":"CASA","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299051","rua":"AV REPUBLICA CASA","casa":"CASA","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3299052","rua":"AV REPUBLICA","casa":"456 I","coordenadas":[38.71761654353728,-9.393720785341667]},{"id":"pt.ine.add.PTCONT.3407547","rua":"AV REPUBLICA","casa":"329 1","coordenadas":[38.71657080902002,-9.394633709568872]},{"id":"pt.ine.add.PTCONT.3424900","rua":"AV REPUBLICA VAL MAR","casa":"270","coordenadas":[38.71598645662002,-9.393692148008869]},{"id":"pt.ine.add.PTCONT.2273341","rua":"AV REPUBLICA","casa":"366","coordenadas":[38.71675122336025,-9.393774568185554]},{"id":"pt.ine.add.PTCONT.2287295","rua":"AV REPUBLICA","casa":"328","coordenadas":[38.716364213053396,-9.393744774011015]},{"id":"pt.ine.add.PTCONT.2332285","rua":"AV REPUBLICA","casa":"200","coordenadas":[38.715239701709876,-9.393610046203902]},{"id":"pt.ine.add.PTCONT.2349073","rua":"AV REPUBLICA","casa":"456","coordenadas":[38.72034345664554,-9.392273945632674]},{"id":"pt.ine.add.PTCONT.2349074","rua":"AV REPUBLICA","casa":"456","coordenadas":[38.72034345664554,-9.392273945632674]},{"id":"pt.ine.add.PTCONT.2370864","rua":"AV REPUBLICA B","casa":"B","coordenadas":[38.724188275059255,-9.396584450511185]},{"id":"pt.ine.add.PTCONT.2370865","rua":"AV REPUBLICA B","casa":"B","coordenadas":[38.724188275059255,-9.396584450511185]},{"id":"pt.ine.add.PTCONT.2374596","rua":"AV REPUBLICA D","casa":"D","coordenadas":[38.724188275059255,-9.396584450511185]},{"id":"pt.ine.add.PTCONT.2651954","rua":"AV REPUBLICA","casa":"918","coordenadas":[38.71717574515359,-9.393667050862947]}],"ruas":["AV REPUBLICA","AV REPÚBLICA","AV REPUBLICA CASA","AV REPUBLICA ASA","AV REPUBLICA VAL MAR","AV REPUBLICA B","AV REPUBLICA D"],"centroide":[38.718423625563965,-9.394015321431326]}
+{
+  "CP": "2765-273",
+  "CP4": "2765",
+  "CP3": "273",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Estoril",
+  "Designação Postal": "ESTORIL",
+  "partes": [
+    {
+      "Artéria": "Avenida da República",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3176480",
+      "rua": "AV REPUBLICA",
+      "casa": "240",
+      "coordenadas": [
+        38.71557193240983,
+        -9.393707860669194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3176487",
+      "rua": "AV REPÚBLICA",
+      "casa": "498",
+      "coordenadas": [
+        38.71811385695124,
+        -9.393545558939108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3182618",
+      "rua": "AV REPÚBLICA",
+      "casa": "498",
+      "coordenadas": [
+        38.71811385695124,
+        -9.393545558939108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299045",
+      "rua": "AV REPUBLICA",
+      "casa": "456",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299046",
+      "rua": "AV REPUBLICA CASA",
+      "casa": "CASA",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299047",
+      "rua": "AV REPUBLICA CASA",
+      "casa": "CASA",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299048",
+      "rua": "AV REPUBLICA ASA",
+      "casa": "ASA",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299049",
+      "rua": "AV REPUBLICA",
+      "casa": "456",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299050",
+      "rua": "AV REPUBLICA CASA",
+      "casa": "CASA",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299051",
+      "rua": "AV REPUBLICA CASA",
+      "casa": "CASA",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3299052",
+      "rua": "AV REPUBLICA",
+      "casa": "456 I",
+      "coordenadas": [
+        38.71761654353728,
+        -9.393720785341667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3407547",
+      "rua": "AV REPUBLICA",
+      "casa": "329 1",
+      "coordenadas": [
+        38.71657080902002,
+        -9.394633709568872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3424900",
+      "rua": "AV REPUBLICA VAL MAR",
+      "casa": "270",
+      "coordenadas": [
+        38.71598645662002,
+        -9.393692148008869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2273341",
+      "rua": "AV REPUBLICA",
+      "casa": "366",
+      "coordenadas": [
+        38.71675122336025,
+        -9.393774568185554
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2287295",
+      "rua": "AV REPUBLICA",
+      "casa": "328",
+      "coordenadas": [
+        38.716364213053396,
+        -9.393744774011015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2332285",
+      "rua": "AV REPUBLICA",
+      "casa": "200",
+      "coordenadas": [
+        38.715239701709876,
+        -9.393610046203902
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2349073",
+      "rua": "AV REPUBLICA",
+      "casa": "456",
+      "coordenadas": [
+        38.72034345664554,
+        -9.392273945632674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2349074",
+      "rua": "AV REPUBLICA",
+      "casa": "456",
+      "coordenadas": [
+        38.72034345664554,
+        -9.392273945632674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2370864",
+      "rua": "AV REPUBLICA B",
+      "casa": "B",
+      "coordenadas": [
+        38.724188275059255,
+        -9.396584450511185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2370865",
+      "rua": "AV REPUBLICA B",
+      "casa": "B",
+      "coordenadas": [
+        38.724188275059255,
+        -9.396584450511185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2374596",
+      "rua": "AV REPUBLICA D",
+      "casa": "D",
+      "coordenadas": [
+        38.724188275059255,
+        -9.396584450511185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2651954",
+      "rua": "AV REPUBLICA",
+      "casa": "918",
+      "coordenadas": [
+        38.71717574515359,
+        -9.393667050862947
+      ]
+    }
+  ],
+  "ruas": [
+    "AV REPUBLICA",
+    "AV REPÚBLICA",
+    "AV REPUBLICA CASA",
+    "AV REPUBLICA ASA",
+    "AV REPUBLICA VAL MAR",
+    "AV REPUBLICA B",
+    "AV REPUBLICA D"
+  ],
+  "centro": [
+    38.71971398838457,
+    -9.39442919807193
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.715988449571825,
+                -9.394185856846699
+              ],
+              [
+                38.715822061158065,
+                -9.394057898926077
+              ],
+              [
+                38.71575621746689,
+                -9.393925059174107
+              ],
+              [
+                38.7157909184983,
+                -9.39378733759079
+              ],
+              [
+                38.7159261642523,
+                -9.393644734176126
+              ],
+              [
+                38.716161954728896,
+                -9.393497248930112
+              ],
+              [
+                38.71649828992808,
+                -9.393344881852752
+              ],
+              [
+                38.71693516984986,
+                -9.393187632944045
+              ],
+              [
+                38.717472594494225,
+                -9.39302550220399
+              ],
+              [
+                38.71811056386119,
+                -9.392858489632587
+              ],
+              [
+                38.71872886234499,
+                -9.392779705271336
+              ],
+              [
+                38.719327489945634,
+                -9.392789149120237
+              ],
+              [
+                38.719906446663124,
+                -9.392886821179289
+              ],
+              [
+                38.720465732497466,
+                -9.393072721448494
+              ],
+              [
+                38.721005347448646,
+                -9.393346849927852
+              ],
+              [
+                38.72152529151666,
+                -9.39370920661736
+              ],
+              [
+                38.72202556470154,
+                -9.394159791517023
+              ],
+              [
+                38.72250616700325,
+                -9.394698604626836
+              ],
+              [
+                38.722807671110395,
+                -9.3951395857707
+              ],
+              [
+                38.72293007702295,
+                -9.395482734948612
+              ],
+              [
+                38.722873384740936,
+                -9.395728052160575
+              ],
+              [
+                38.72263759426434,
+                -9.395875537406589
+              ],
+              [
+                38.72222270559317,
+                -9.39592519068665
+              ],
+              [
+                38.721628718727416,
+                -9.39587701200076
+              ],
+              [
+                38.72085563366709,
+                -9.395731001348922
+              ],
+              [
+                38.71990345041218,
+                -9.395487158731134
+              ],
+              [
+                38.71904949151242,
+                -9.395257801700492
+              ],
+              [
+                38.7182937569678,
+                -9.395042930256993
+              ],
+              [
+                38.71763624677832,
+                -9.394842544400642
+              ],
+              [
+                38.717076960943984,
+                -9.394656644131437
+              ],
+              [
+                38.71661589946479,
+                -9.394485229449378
+              ],
+              [
+                38.71625306234073,
+                -9.394328300354466
+              ],
+              [
+                38.715988449571825,
+                -9.394185856846699
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71908556060867,
+    -9.394275537979158
+  ],
+  "centroDeMassa": [
+    38.71971398838457,
+    -9.39442919807193
+  ]
+}

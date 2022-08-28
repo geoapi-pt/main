@@ -1,1 +1,486 @@
-{"CP4":"3830","CP3":"514","Distrito":"Aveiro","Concelho":"Ílhavo","CP":"3830-514","Artéria":"Rua Nossa Senhora da Encarnação","Localidade":"Gafanha da Encarnação","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GAFANHA DA ENCARNAÇÃO","locais":[{"id":"pt.ine.add.PTCONT.330445","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"4","coordenadas":[40.61723928762142,-8.732373830800418]},{"id":"pt.ine.add.PTCONT.343187","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.26143","rua":"R NSA SRA ENCARNACAO","casa":"5","coordenadas":[40.61686536042878,-8.729806120394331]},{"id":"pt.ine.add.PTCONT.27842","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27843","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27844","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27845","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27846","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27847","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27848","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27849","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.27850","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.28842","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"31","coordenadas":[40.61740350984166,-8.752453163400773]},{"id":"pt.ine.add.PTCONT.46935","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"1","coordenadas":[40.61711156530093,-8.732691759650175]},{"id":"pt.ine.add.PTCONT.50835","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"14","coordenadas":[40.61658419793755,-8.73019359040063]},{"id":"pt.ine.add.PTCONT.89481","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"3","coordenadas":[40.617067277674735,-8.732549554849822]},{"id":"pt.ine.add.PTCONT.108702","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108703","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108704","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108705","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108706","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108707","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108708","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108709","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108710","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108713","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.108714","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.109576","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"33","coordenadas":[40.617232293653295,-8.7524752170537]},{"id":"pt.ine.add.PTCONT.121915","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"2","coordenadas":[40.61731793808415,-8.732835414091555]},{"id":"pt.ine.add.PTCONT.174714","rua":"R NSA SRA DA ENCARNAÇÃO","casa":"7","coordenadas":[40.61688908356401,-8.732181623549788]}],"ruas":["R NSA SRA DA ENCARNAÇÃO","R NSA SRA ENCARNACAO"],"centroide":[40.61725557790156,-8.748177161111718]}
+{
+  "CP": "3830-514",
+  "CP4": "3830",
+  "CP3": "514",
+  "Distrito": "Aveiro",
+  "Concelho": "Ílhavo",
+  "Localidade": "Gafanha da Encarnação",
+  "Designação Postal": "GAFANHA DA ENCARNAÇÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Nossa Senhora da Encarnação",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.330445",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "4",
+      "coordenadas": [
+        40.61723928762142,
+        -8.732373830800418
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.343187",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.26143",
+      "rua": "R NSA SRA ENCARNACAO",
+      "casa": "5",
+      "coordenadas": [
+        40.61686536042878,
+        -8.729806120394331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27842",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27843",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27844",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27845",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27846",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27847",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27848",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27849",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27850",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.28842",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "31",
+      "coordenadas": [
+        40.61740350984166,
+        -8.752453163400773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.46935",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "1",
+      "coordenadas": [
+        40.61711156530093,
+        -8.732691759650175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.50835",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "14",
+      "coordenadas": [
+        40.61658419793755,
+        -8.73019359040063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89481",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "3",
+      "coordenadas": [
+        40.617067277674735,
+        -8.732549554849822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108702",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108703",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108704",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108705",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108706",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108707",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108708",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108709",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108710",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108713",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108714",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.109576",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "33",
+      "coordenadas": [
+        40.617232293653295,
+        -8.7524752170537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.121915",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "2",
+      "coordenadas": [
+        40.61731793808415,
+        -8.732835414091555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.174714",
+      "rua": "R NSA SRA DA ENCARNAÇÃO",
+      "casa": "7",
+      "coordenadas": [
+        40.61688908356401,
+        -8.732181623549788
+      ]
+    }
+  ],
+  "ruas": [
+    "R NSA SRA DA ENCARNAÇÃO",
+    "R NSA SRA ENCARNACAO"
+  ],
+  "centro": [
+    40.6169938538896,
+    -8.741140668724015
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.616948751777656,
+                -8.742727005392982
+              ],
+              [
+                40.61686773981319,
+                -8.739941802061347
+              ],
+              [
+                40.61680124750821,
+                -8.737498694927318
+              ],
+              [
+                40.6167492748627,
+                -8.735397683990897
+              ],
+              [
+                40.616711821876684,
+                -8.733638769252082
+              ],
+              [
+                40.61668888855016,
+                -8.73222195071087
+              ],
+              [
+                40.61668047488311,
+                -8.731147228367265
+              ],
+              [
+                40.61668658087554,
+                -8.730414602221266
+              ],
+              [
+                40.616707206527465,
+                -8.730024072272874
+              ],
+              [
+                40.616742351838866,
+                -8.729975638522086
+              ],
+              [
+                40.61678017551222,
+                -8.729980591704168
+              ],
+              [
+                40.616820677547494,
+                -8.730038931819116
+              ],
+              [
+                40.61686385794472,
+                -8.73015065886693
+              ],
+              [
+                40.61690971670387,
+                -8.730315772847613
+              ],
+              [
+                40.616958253824976,
+                -8.730534273761162
+              ],
+              [
+                40.61700946930802,
+                -8.730806161607582
+              ],
+              [
+                40.61706336315301,
+                -8.731131436386868
+              ],
+              [
+                40.61711993535992,
+                -8.731510098099019
+              ],
+              [
+                40.617170773099694,
+                -8.73214795443011
+              ],
+              [
+                40.61721587637231,
+                -8.733045005380138
+              ],
+              [
+                40.61725524517777,
+                -8.734201250949104
+              ],
+              [
+                40.61728887951607,
+                -8.735616691137006
+              ],
+              [
+                40.617316779387224,
+                -8.737291325943847
+              ],
+              [
+                40.617338944791214,
+                -8.739225155369624
+              ],
+              [
+                40.61735537572806,
+                -8.741418179414339
+              ],
+              [
+                40.61736607219775,
+                -8.74387039807799
+              ],
+              [
+                40.61737275635578,
+                -8.746016433997013
+              ],
+              [
+                40.617375428202166,
+                -8.747856287171405
+              ],
+              [
+                40.61737408773689,
+                -8.74938995760117
+              ],
+              [
+                40.61736873495995,
+                -8.750617445286302
+              ],
+              [
+                40.61735936987137,
+                -8.751538750226807
+              ],
+              [
+                40.61734599247114,
+                -8.752153872422682
+              ],
+              [
+                40.617328602759244,
+                -8.752462811873928
+              ],
+              [
+                40.61730720073571,
+                -8.752465568580545
+              ],
+              [
+                40.617278347469544,
+                -8.752119830282378
+              ],
+              [
+                40.61724204296077,
+                -8.751425596979432
+              ],
+              [
+                40.617198287209376,
+                -8.750382868671704
+              ],
+              [
+                40.61714708021537,
+                -8.748991645359197
+              ],
+              [
+                40.61708842197875,
+                -8.747251927041907
+              ],
+              [
+                40.617022312499515,
+                -8.745163713719835
+              ],
+              [
+                40.616948751777656,
+                -8.742727005392982
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.617080659989085,
+    -8.739552701068197
+  ],
+  "centroDeMassa": [
+    40.6169938538896,
+    -8.741140668724015
+  ]
+}

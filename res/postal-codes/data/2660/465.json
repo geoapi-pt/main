@@ -1,1 +1,363 @@
-{"CP4":"2660","CP3":"465","Distrito":"Lisboa","Concelho":"Loures","CP":"2660-465","Artéria":"Rua José Augusto Gouveia","Localidade":"Santo Antão do Tojal","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO ANTÃO DO TOJAL","locais":[{"id":"pt.ine.add.PTCONT.2974921","rua":"CSL FARZEA","casa":"","coordenadas":[38.86006238730257,-9.166302829987032]},{"id":"pt.ine.add.PTCONT.3057653","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.858862382238335,-9.166527395705227]},{"id":"pt.ine.add.PTCONT.3095420","rua":"R JOSE AUGUSTO GOUVEIA","casa":"17","coordenadas":[38.85928884718285,-9.166176428991903]},{"id":"pt.ine.add.PTCONT.3126829","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.85906185029743,-9.166380515163734]},{"id":"pt.ine.add.PTCONT.3270873","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.85910729046731,-9.166335090379414]},{"id":"pt.ine.add.PTCONT.3297143","rua":"R JOSE AUGUSTO GOUVEIA","casa":"29","coordenadas":[38.86002326372288,-9.165634059941556]},{"id":"pt.ine.add.PTCONT.3327047","rua":"R JOSE AUGUSTO GOUVEIA","casa":"40","coordenadas":[38.86036438865292,-9.16372653883071]},{"id":"pt.ine.add.PTCONT.3335990","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.8587175646609,-9.166605943328646]},{"id":"pt.ine.add.PTCONT.2389387","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.85915303633837,-9.166255108116212]},{"id":"pt.ine.add.PTCONT.2398871","rua":"R JOSE AUGUSTO GOUVEIA","casa":"23","coordenadas":[38.85961542462568,-9.165916178750637]},{"id":"pt.ine.add.PTCONT.2430363","rua":"R JOSÉ AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.85889323285936,-9.166496313908]},{"id":"pt.ine.add.PTCONT.2453566","rua":"CSL FARZEA","casa":"","coordenadas":[38.86011795485101,-9.166130822609118]},{"id":"pt.ine.add.PTCONT.2453567","rua":"CSL FARZEA","casa":"","coordenadas":[38.86011795485101,-9.166130822609118]},{"id":"pt.ine.add.PTCONT.2534700","rua":"R JOSE AUGUSTO GOUVEIA","casa":"27","coordenadas":[38.859515639963675,-9.165995379930376]},{"id":"pt.ine.add.PTCONT.2633494","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.8589170328166,-9.166459063297747]},{"id":"pt.ine.add.PTCONT.2677311","rua":"R JOSE AUGUSTO GOUVEIA","casa":"29","coordenadas":[38.85975123524695,-9.165837498486468]},{"id":"pt.ine.add.PTCONT.2704195","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.85898048602108,-9.166413899360093]},{"id":"pt.ine.add.PTCONT.2749159","rua":"R JOSE AUGUSTO GOUVEIA","casa":"19","coordenadas":[38.85939784224382,-9.166074320266272]},{"id":"pt.ine.add.PTCONT.2812285","rua":"R JOSE AUGUSTO GOUVEIA","casa":"15","coordenadas":[38.85879892899108,-9.166572559468648]}],"ruas":["CSL FARZEA","R JOSE AUGUSTO GOUVEIA","R JOSÉ AUGUSTO GOUVEIA"],"centroide":[38.85944154524126,-9.16607767831457]}
+{
+  "CP": "2660-465",
+  "CP4": "2660",
+  "CP3": "465",
+  "Distrito": "Lisboa",
+  "Concelho": "Loures",
+  "Localidade": "Santo Antão do Tojal",
+  "Designação Postal": "SANTO ANTÃO DO TOJAL",
+  "partes": [
+    {
+      "Artéria": "Casal da Fárzea",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua José Augusto Gouveia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2974921",
+      "rua": "CSL FARZEA",
+      "casa": "",
+      "coordenadas": [
+        38.86006238730257,
+        -9.166302829987032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3057653",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.858862382238335,
+        -9.166527395705227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3095420",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "17",
+      "coordenadas": [
+        38.85928884718285,
+        -9.166176428991903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3126829",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.85906185029743,
+        -9.166380515163734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3270873",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.85910729046731,
+        -9.166335090379414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3297143",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "29",
+      "coordenadas": [
+        38.86002326372288,
+        -9.165634059941556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3327047",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "40",
+      "coordenadas": [
+        38.86036438865292,
+        -9.16372653883071
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3335990",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.8587175646609,
+        -9.166605943328646
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2389387",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.85915303633837,
+        -9.166255108116212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2398871",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "23",
+      "coordenadas": [
+        38.85961542462568,
+        -9.165916178750637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2430363",
+      "rua": "R JOSÉ AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.85889323285936,
+        -9.166496313908
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2453566",
+      "rua": "CSL FARZEA",
+      "casa": "",
+      "coordenadas": [
+        38.86011795485101,
+        -9.166130822609118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2453567",
+      "rua": "CSL FARZEA",
+      "casa": "",
+      "coordenadas": [
+        38.86011795485101,
+        -9.166130822609118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2534700",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "27",
+      "coordenadas": [
+        38.859515639963675,
+        -9.165995379930376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2633494",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.8589170328166,
+        -9.166459063297747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2677311",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "29",
+      "coordenadas": [
+        38.85975123524695,
+        -9.165837498486468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2704195",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.85898048602108,
+        -9.166413899360093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2749159",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "19",
+      "coordenadas": [
+        38.85939784224382,
+        -9.166074320266272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2812285",
+      "rua": "R JOSE AUGUSTO GOUVEIA",
+      "casa": "15",
+      "coordenadas": [
+        38.85879892899108,
+        -9.166572559468648
+      ]
+    }
+  ],
+  "ruas": [
+    "CSL FARZEA",
+    "R JOSE AUGUSTO GOUVEIA",
+    "R JOSÉ AUGUSTO GOUVEIA"
+  ],
+  "centro": [
+    38.85954097665691,
+    -9.165166241079678
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.85947402739684,
+                -9.166435442073988
+              ],
+              [
+                38.85930592456663,
+                -9.16647333124169
+              ],
+              [
+                38.85918456621508,
+                -9.166461493568148
+              ],
+              [
+                38.859109952342166,
+                -9.166399929053364
+              ],
+              [
+                38.859082082947914,
+                -9.166288637697336
+              ],
+              [
+                38.85910095803231,
+                -9.166127619500067
+              ],
+              [
+                38.85916657759535,
+                -9.165916874461553
+              ],
+              [
+                38.85927894163706,
+                -9.165656402581797
+              ],
+              [
+                38.85943805015741,
+                -9.1653462038608
+              ],
+              [
+                38.85964390315641,
+                -9.164986278298556
+              ],
+              [
+                38.85982017400238,
+                -9.164708910365633
+              ],
+              [
+                38.85996686269532,
+                -9.164514100062028
+              ],
+              [
+                38.860083969235234,
+                -9.16440184738774
+              ],
+              [
+                38.86017149362212,
+                -9.164372152342768
+              ],
+              [
+                38.86022943585597,
+                -9.164425014927115
+              ],
+              [
+                38.86025779593679,
+                -9.164560435140782
+              ],
+              [
+                38.86025657386458,
+                -9.164778412983765
+              ],
+              [
+                38.86022576963935,
+                -9.165078948456063
+              ],
+              [
+                38.86019794769932,
+                -9.165344604609606
+              ],
+              [
+                38.8601731080445,
+                -9.165575381444393
+              ],
+              [
+                38.860151250674896,
+                -9.16577127896042
+              ],
+              [
+                38.8601323755905,
+                -9.16593229715769
+              ],
+              [
+                38.86011648279132,
+                -9.166058436036202
+              ],
+              [
+                38.86010357227734,
+                -9.166149695595958
+              ],
+              [
+                38.86009364404857,
+                -9.166206075836955
+              ],
+              [
+                38.860086698105015,
+                -9.166227576759194
+              ],
+              [
+                38.860059607550625,
+                -9.166251126212117
+              ],
+              [
+                38.8600123723854,
+                -9.166276724195722
+              ],
+              [
+                38.85994499260935,
+                -9.16630437071001
+              ],
+              [
+                38.85985746822248,
+                -9.16633406575498
+              ],
+              [
+                38.859749799224765,
+                -9.166365809330633
+              ],
+              [
+                38.859621985616215,
+                -9.16639960143697
+              ],
+              [
+                38.85947402739684,
+                -9.166435442073988
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.85981557386685,
+    -9.165691533688877
+  ],
+  "centroDeMassa": [
+    38.85954097665691,
+    -9.165166241079678
+  ]
+}

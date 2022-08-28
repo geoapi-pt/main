@@ -1,1 +1,574 @@
-{"CP4":"9360","CP3":"531","Distrito":"Ilha da Madeira","Concelho":"Ponta do Sol","CP":"9360-531","Artéria":"Rua do Livramento","Localidade":"Ponta do Sol","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTA DO SOL","locais":[{"id":"pt.ine.add.MAD.27353","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"87","coordenadas":[32.684437653931475,-17.105096085656946]},{"id":"pt.ine.add.MAD.27358","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"CCI 305","coordenadas":[32.684644208137186,-17.104610389179044]},{"id":"pt.ine.add.MAD.27362","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"71","coordenadas":[32.6836852664856,-17.106400749520116]},{"id":"pt.ine.add.MAD.27363","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"53","coordenadas":[32.682761646951455,-17.10662432528452]},{"id":"pt.ine.add.MAD.27364","rua":"ESTR COMBATENTES LIVRAMENTO CCI","casa":"CCI 207","coordenadas":[32.681667580343245,-17.106257392286725]},{"id":"pt.ine.add.MAD.27365","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"","coordenadas":[32.68148818098647,-17.106199861429566]},{"id":"pt.ine.add.MAD.27366","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"4","coordenadas":[32.68160166149619,-17.10534943410132]},{"id":"pt.ine.add.MAD.27367","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"4","coordenadas":[32.68160166149619,-17.10534943410132]},{"id":"pt.ine.add.MAD.27368","rua":"ESTR COMBATENTES LIVRAMENTO CCI","casa":"CCI 202","coordenadas":[32.6813599410931,-17.105780968968432]},{"id":"pt.ine.add.MAD.40276","rua":"ESTR COMBATENTES","casa":"89D","coordenadas":[32.68455735041408,-17.104949599094276]},{"id":"pt.ine.add.MAD.56069","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"","coordenadas":[32.68198745538168,-17.106542159782858]},{"id":"pt.ine.add.MAD.58404","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"72","coordenadas":[32.68340992794847,-17.106149014180684]},{"id":"pt.ine.add.MAD.64593","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"79","coordenadas":[32.68402161151262,-17.10570482899085]},{"id":"pt.ine.add.MAD.66920","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"35","coordenadas":[32.68178124025801,-17.1053963038926]},{"id":"pt.ine.add.MAD.70451","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"46","coordenadas":[32.68203490526546,-17.105327612219988]},{"id":"pt.ine.add.MAD.77294","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"","coordenadas":[32.68138322646106,-17.10600545173334]},{"id":"pt.ine.add.MAD.84439","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"","coordenadas":[32.68215569108605,-17.10672739406755]},{"id":"pt.ine.add.MAD.84633","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"46","coordenadas":[32.682149412418006,-17.105490255709913]},{"id":"pt.ine.add.MAD.89045","rua":"ESTR DOS COMBATENTES","casa":"70","coordenadas":[32.683225336761176,-17.106400611730418]},{"id":"pt.ine.add.MAD.97209","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"","coordenadas":[32.68212887743314,-17.105639065660565]},{"id":"pt.ine.add.MAD.101688","rua":"ESTR COMBATENTES","casa":"31","coordenadas":[32.68189460619494,-17.10508971799512]},{"id":"pt.ine.add.MAD.107290","rua":"ESTR COMBATENTES CCI201","casa":"","coordenadas":[32.68126400061168,-17.105586771627287]},{"id":"pt.ine.add.MAD.112713","rua":"ESTR COMBATENTES LIVRAMENTO","casa":"39","coordenadas":[32.681593071057904,-17.105861087653235]},{"id":"pt.ine.add.MAD.114366","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"40","coordenadas":[32.682441394071745,-17.10475064712216]},{"id":"pt.ine.add.MAD.119414","rua":"ESTR COMBATENTES - LIVRAMENTO","casa":"44","coordenadas":[32.682270719727335,-17.105247837485138]},{"id":"pt.ine.add.MAD.124739","rua":"ESTR COMBATENTES CX POSTAL 105","casa":"","coordenadas":[32.68112030186209,-17.105551407618016]},{"id":"pt.ine.add.MAD.127297","rua":"ESTR COMBATENTES","casa":"89D","coordenadas":[32.68455735041408,-17.104949599094276]}],"ruas":["ESTR COMBATENTES - LIVRAMENTO","ESTR COMBATENTES LIVRAMENTO CCI","ESTR COMBATENTES","ESTR DOS COMBATENTES","ESTR COMBATENTES CCI201","ESTR COMBATENTES LIVRAMENTO","ESTR COMBATENTES CX POSTAL 105"],"centroide":[32.68241026651486,-17.105695707965076]}8241026651486,-17.105695707965076]}]}
+{
+  "CP": "9360-531",
+  "CP4": "9360",
+  "CP3": "531",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Ponta do Sol",
+  "Localidade": "Ponta do Sol",
+  "Designação Postal": "PONTA DO SOL",
+  "partes": [
+    {
+      "Artéria": "Estrada dos Combatentes - Livramento",
+      "Local": "",
+      "Troço": "Impares de 7 a 89D",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada dos Combatentes - Livramento",
+      "Local": "",
+      "Troço": "Pares de 12 a 90",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Livramento",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.27353",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "87",
+      "coordenadas": [
+        32.684437653931475,
+        -17.105096085656946
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27358",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "CCI 305",
+      "coordenadas": [
+        32.684644208137186,
+        -17.104610389179044
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27362",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "71",
+      "coordenadas": [
+        32.6836852664856,
+        -17.106400749520116
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27363",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "53",
+      "coordenadas": [
+        32.682761646951455,
+        -17.10662432528452
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27364",
+      "rua": "ESTR COMBATENTES LIVRAMENTO CCI",
+      "casa": "CCI 207",
+      "coordenadas": [
+        32.681667580343245,
+        -17.106257392286725
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27365",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "",
+      "coordenadas": [
+        32.68148818098647,
+        -17.106199861429566
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27366",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "4",
+      "coordenadas": [
+        32.68160166149619,
+        -17.10534943410132
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27367",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "4",
+      "coordenadas": [
+        32.68160166149619,
+        -17.10534943410132
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.27368",
+      "rua": "ESTR COMBATENTES LIVRAMENTO CCI",
+      "casa": "CCI 202",
+      "coordenadas": [
+        32.6813599410931,
+        -17.105780968968432
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.40276",
+      "rua": "ESTR COMBATENTES",
+      "casa": "89D",
+      "coordenadas": [
+        32.68455735041408,
+        -17.104949599094276
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.56069",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "",
+      "coordenadas": [
+        32.68198745538168,
+        -17.106542159782858
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.58404",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "72",
+      "coordenadas": [
+        32.68340992794847,
+        -17.106149014180684
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.64593",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "79",
+      "coordenadas": [
+        32.68402161151262,
+        -17.10570482899085
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.66920",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "35",
+      "coordenadas": [
+        32.68178124025801,
+        -17.1053963038926
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.70451",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "46",
+      "coordenadas": [
+        32.68203490526546,
+        -17.105327612219988
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.77294",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "",
+      "coordenadas": [
+        32.68138322646106,
+        -17.10600545173334
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.84439",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "",
+      "coordenadas": [
+        32.68215569108605,
+        -17.10672739406755
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.84633",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "46",
+      "coordenadas": [
+        32.682149412418006,
+        -17.105490255709913
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.89045",
+      "rua": "ESTR DOS COMBATENTES",
+      "casa": "70",
+      "coordenadas": [
+        32.683225336761176,
+        -17.106400611730418
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.97209",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "",
+      "coordenadas": [
+        32.68212887743314,
+        -17.105639065660565
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.101688",
+      "rua": "ESTR COMBATENTES",
+      "casa": "31",
+      "coordenadas": [
+        32.68189460619494,
+        -17.10508971799512
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.107290",
+      "rua": "ESTR COMBATENTES CCI201",
+      "casa": "",
+      "coordenadas": [
+        32.68126400061168,
+        -17.105586771627287
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.112713",
+      "rua": "ESTR COMBATENTES LIVRAMENTO",
+      "casa": "39",
+      "coordenadas": [
+        32.681593071057904,
+        -17.105861087653235
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.114366",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "40",
+      "coordenadas": [
+        32.682441394071745,
+        -17.10475064712216
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.119414",
+      "rua": "ESTR COMBATENTES - LIVRAMENTO",
+      "casa": "44",
+      "coordenadas": [
+        32.682270719727335,
+        -17.105247837485138
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.124739",
+      "rua": "ESTR COMBATENTES CX POSTAL 105",
+      "casa": "",
+      "coordenadas": [
+        32.68112030186209,
+        -17.105551407618016
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.127297",
+      "rua": "ESTR COMBATENTES",
+      "casa": "89D",
+      "coordenadas": [
+        32.68455735041408,
+        -17.104949599094276
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR COMBATENTES - LIVRAMENTO",
+    "ESTR COMBATENTES LIVRAMENTO CCI",
+    "ESTR COMBATENTES",
+    "ESTR DOS COMBATENTES",
+    "ESTR COMBATENTES CCI201",
+    "ESTR COMBATENTES LIVRAMENTO",
+    "ESTR COMBATENTES CX POSTAL 105"
+  ],
+  "centro": [
+    32.68288225499964,
+    -17.105668891623296
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.68132723386955,
+                -17.105916162887013
+              ],
+              [
+                32.681281248979005,
+                -17.10583510616057
+              ],
+              [
+                32.681261654265555,
+                -17.10575166964218
+              ],
+              [
+                32.681268449729195,
+                -17.105665853331857
+              ],
+              [
+                32.681301635369934,
+                -17.105577657229585
+              ],
+              [
+                32.68136121118776,
+                -17.105487081335372
+              ],
+              [
+                32.68144717718269,
+                -17.10539412564922
+              ],
+              [
+                32.6815595333547,
+                -17.10529879017112
+              ],
+              [
+                32.68169827970382,
+                -17.105201074901082
+              ],
+              [
+                32.68186341623002,
+                -17.105100979839094
+              ],
+              [
+                32.68204232966023,
+                -17.1050112051295
+              ],
+              [
+                32.68223501999442,
+                -17.104931750772288
+              ],
+              [
+                32.68244148723262,
+                -17.10486261676747
+              ],
+              [
+                32.682661731374814,
+                -17.104803803115033
+              ],
+              [
+                32.682895752421004,
+                -17.104755309814987
+              ],
+              [
+                32.683143550371184,
+                -17.104717136867322
+              ],
+              [
+                32.68340512522537,
+                -17.104689284272045
+              ],
+              [
+                32.68368047698356,
+                -17.10467175202916
+              ],
+              [
+                32.683920052620046,
+                -17.104661711471557
+              ],
+              [
+                32.68412385213483,
+                -17.10465916259924
+              ],
+              [
+                32.684291875527926,
+                -17.104664105412212
+              ],
+              [
+                32.68442412279932,
+                -17.104676539910464
+              ],
+              [
+                32.68452059394902,
+                -17.104696466094012
+              ],
+              [
+                32.68458128897703,
+                -17.10472388396284
+              ],
+              [
+                32.684606207883334,
+                -17.104758793516957
+              ],
+              [
+                32.684595350667934,
+                -17.104801194756362
+              ],
+              [
+                32.68457222429309,
+                -17.10486097006624
+              ],
+              [
+                32.68453682875878,
+                -17.104938119446604
+              ],
+              [
+                32.68448916406502,
+                -17.10503264289744
+              ],
+              [
+                32.6844292302118,
+                -17.10514454041876
+              ],
+              [
+                32.68435702719911,
+                -17.105273812010555
+              ],
+              [
+                32.68427255502698,
+                -17.105420457672828
+              ],
+              [
+                32.684175813695376,
+                -17.105584477405582
+              ],
+              [
+                32.6840668032043,
+                -17.10576587120881
+              ],
+              [
+                32.6839569874694,
+                -17.105928084157956
+              ],
+              [
+                32.68384636649067,
+                -17.106071116253016
+              ],
+              [
+                32.683734940268096,
+                -17.10619496749399
+              ],
+              [
+                32.68362270880168,
+                -17.10629963788088
+              ],
+              [
+                32.68350967209143,
+                -17.106385127413684
+              ],
+              [
+                32.68339583013734,
+                -17.106451436092406
+              ],
+              [
+                32.68328118293941,
+                -17.106498563917043
+              ],
+              [
+                32.683165730497635,
+                -17.10652651088759
+              ],
+              [
+                32.68305524155069,
+                -17.106552574936558
+              ],
+              [
+                32.68294971609858,
+                -17.106576756063944
+              ],
+              [
+                32.68284915414128,
+                -17.106599054269743
+              ],
+              [
+                32.68275355567881,
+                -17.106619469553955
+              ],
+              [
+                32.68266292071117,
+                -17.106638001916586
+              ],
+              [
+                32.682577249238335,
+                -17.106654651357637
+              ],
+              [
+                32.68249654126034,
+                -17.1066694178771
+              ],
+              [
+                32.682420796777166,
+                -17.106682301474976
+              ],
+              [
+                32.68234409050908,
+                -17.106685331925654
+              ],
+              [
+                32.68226642245609,
+                -17.106678509229123
+              ],
+              [
+                32.68218779261819,
+                -17.106661833385395
+              ],
+              [
+                32.68210820099537,
+                -17.10663530439446
+              ],
+              [
+                32.68202764758765,
+                -17.106598922256325
+              ],
+              [
+                32.68194613239502,
+                -17.10655268697098
+              ],
+              [
+                32.68186365541748,
+                -17.106496598538435
+              ],
+              [
+                32.681780216655035,
+                -17.106430656958686
+              ],
+              [
+                32.68170145962658,
+                -17.1063628259856
+              ],
+              [
+                32.6816273843321,
+                -17.10629310561918
+              ],
+              [
+                32.68155799077162,
+                -17.10622149585942
+              ],
+              [
+                32.681493278945126,
+                -17.106147996706323
+              ],
+              [
+                32.68143324885261,
+                -17.10607260815989
+              ],
+              [
+                32.681377900494084,
+                -17.105995330220118
+              ],
+              [
+                32.68132723386955,
+                -17.105916162887013
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.682856754999335,
+    -17.105726796664406
+  ],
+  "centroDeMassa": [
+    32.68288225499964,
+    -17.105668891623296
+  ]
+}

@@ -1,1 +1,337 @@
-{"CP4":"2460","CP3":"619","Distrito":"Leiria","Concelho":"Alcobaça","CP":"2460-619","Artéria":" ","Localidade":"Tojeira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALJUBARROTA (PRAZERES)","locais":[{"id":"pt.ine.add.PTCONT.1979947","rua":"TV DEPOSITO","casa":"4","coordenadas":[39.55691533140115,-8.933643478631767]},{"id":"pt.ine.add.PTCONT.2037076","rua":"R DEPOSITO DA AGUA","casa":"4A","coordenadas":[39.5518650028109,-8.935900700064467]},{"id":"pt.ine.add.PTCONT.2056932","rua":"R DEPOSITO DA AGUA","casa":"","coordenadas":[39.55659520072439,-8.93304639733445]},{"id":"pt.ine.add.PTCONT.2073983","rua":"R DEPOSITO DA AGUA","casa":"22","coordenadas":[39.55897658458485,-8.933830075297758]},{"id":"pt.ine.add.PTCONT.2080624","rua":"R DEPOSITO DA AGUA","casa":"16","coordenadas":[39.55425150235961,-8.934636731740635]},{"id":"pt.ine.add.PTCONT.2085376","rua":"R DEPOSITO DA AGUA","casa":"","coordenadas":[39.556377935268806,-8.933206795580174]},{"id":"pt.ine.add.PTCONT.2095953","rua":"R DEPOSITO DA AGUA","casa":"10","coordenadas":[39.553437430066396,-8.93513929366761]},{"id":"pt.ine.add.PTCONT.2108466","rua":"TV DEPOSITO","casa":"2","coordenadas":[39.55651134312903,-8.933452669712562]},{"id":"pt.ine.add.PTCONT.2108965","rua":"R DEPOSITO DA AGUA","casa":"","coordenadas":[39.556825511740776,-8.933607540030545]},{"id":"pt.ine.add.PTCONT.2118106","rua":"R DEPOSITO DA AGUA","casa":"4","coordenadas":[39.55169195969751,-8.936177933516637]},{"id":"pt.ine.add.PTCONT.2123680","rua":"R DEPOSITO DA AGUA","casa":"6","coordenadas":[39.55202662882421,-8.935972370289987]},{"id":"pt.ine.add.PTCONT.2146555","rua":"R DEPOSITO DA AGUA","casa":"8","coordenadas":[39.55285919861143,-8.935400232960493]},{"id":"pt.ine.add.PTCONT.2176928","rua":"R DEPOSITO DA AGUA","casa":"12","coordenadas":[39.55370857368602,-8.935002798078596]},{"id":"pt.ine.add.PTCONT.2194755","rua":"R DEPOSITO DA AGUA","casa":"14","coordenadas":[39.55405232699658,-8.934785693081492]},{"id":"pt.ine.add.PTCONT.2212812","rua":"R DEPOSITO DA AGUA","casa":"18","coordenadas":[39.55765446507212,-8.93355889164366]},{"id":"pt.ine.add.PTCONT.2227391","rua":"R DEPOSITO DA AGUA","casa":"","coordenadas":[39.55648640784568,-8.933149865341264]},{"id":"pt.ine.add.PTCONT.2261991","rua":"R DEPOSITO DA AGUA","casa":"20","coordenadas":[39.55779856117498,-8.93356054799507]}],"ruas":["TV DEPOSITO","R DEPOSITO DA AGUA"],"centroide":[39.55501471267622,-8.934406966685756]}
+{
+  "CP": "2460-619",
+  "CP4": "2460",
+  "CP3": "619",
+  "Distrito": "Leiria",
+  "Concelho": "Alcobaça",
+  "Localidade": "Tojeira",
+  "Designação Postal": "ALJUBARROTA (PRAZERES)",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1979947",
+      "rua": "TV DEPOSITO",
+      "casa": "4",
+      "coordenadas": [
+        39.55691533140115,
+        -8.933643478631767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2037076",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "4A",
+      "coordenadas": [
+        39.5518650028109,
+        -8.935900700064467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2056932",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "",
+      "coordenadas": [
+        39.55659520072439,
+        -8.93304639733445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2073983",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "22",
+      "coordenadas": [
+        39.55897658458485,
+        -8.933830075297758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2080624",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "16",
+      "coordenadas": [
+        39.55425150235961,
+        -8.934636731740635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2085376",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "",
+      "coordenadas": [
+        39.556377935268806,
+        -8.933206795580174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2095953",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "10",
+      "coordenadas": [
+        39.553437430066396,
+        -8.93513929366761
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2108466",
+      "rua": "TV DEPOSITO",
+      "casa": "2",
+      "coordenadas": [
+        39.55651134312903,
+        -8.933452669712562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2108965",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "",
+      "coordenadas": [
+        39.556825511740776,
+        -8.933607540030545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2118106",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "4",
+      "coordenadas": [
+        39.55169195969751,
+        -8.936177933516637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2123680",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "6",
+      "coordenadas": [
+        39.55202662882421,
+        -8.935972370289987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2146555",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "8",
+      "coordenadas": [
+        39.55285919861143,
+        -8.935400232960493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2176928",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "12",
+      "coordenadas": [
+        39.55370857368602,
+        -8.935002798078596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2194755",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "14",
+      "coordenadas": [
+        39.55405232699658,
+        -8.934785693081492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2212812",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "18",
+      "coordenadas": [
+        39.55765446507212,
+        -8.93355889164366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2227391",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "",
+      "coordenadas": [
+        39.55648640784568,
+        -8.933149865341264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2261991",
+      "rua": "R DEPOSITO DA AGUA",
+      "casa": "20",
+      "coordenadas": [
+        39.55779856117498,
+        -8.93356054799507
+      ]
+    }
+  ],
+  "ruas": [
+    "TV DEPOSITO",
+    "R DEPOSITO DA AGUA"
+  ],
+  "centro": [
+    39.55533427214118,
+    -8.934612165425545
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.55578956119663,
+                -8.934857263268517
+              ],
+              [
+                39.55487898308572,
+                -8.935150745545878
+              ],
+              [
+                39.554084931037316,
+                -8.935403210765877
+              ],
+              [
+                39.553407405051416,
+                -8.935614658928515
+              ],
+              [
+                39.55284640512804,
+                -8.935785090033795
+              ],
+              [
+                39.55240193126716,
+                -8.935914504081715
+              ],
+              [
+                39.5520739834688,
+                -8.936002901072275
+              ],
+              [
+                39.55186256173296,
+                -8.936050281005473
+              ],
+              [
+                39.55176766605962,
+                -8.936056643881312
+              ],
+              [
+                39.55178929644879,
+                -8.936021989699793
+              ],
+              [
+                39.551882132381714,
+                -8.935947068810805
+              ],
+              [
+                39.55204617385839,
+                -8.93583188121435
+              ],
+              [
+                39.55228142087882,
+                -8.93567642691043
+              ],
+              [
+                39.552587873443,
+                -8.935480705899044
+              ],
+              [
+                39.55296553155093,
+                -8.935244718180192
+              ],
+              [
+                39.553414395202616,
+                -8.93496846375387
+              ],
+              [
+                39.55393446439805,
+                -8.934651942620086
+              ],
+              [
+                39.55452573913724,
+                -8.934295154778832
+              ],
+              [
+                39.555080313656845,
+                -8.933995210385913
+              ],
+              [
+                39.555598187956875,
+                -8.933752109441329
+              ],
+              [
+                39.55607936203732,
+                -8.933565851945076
+              ],
+              [
+                39.5565238358982,
+                -8.933436437897155
+              ],
+              [
+                39.55693160953949,
+                -8.933363867297569
+              ],
+              [
+                39.55730268296121,
+                -8.933348140146316
+              ],
+              [
+                39.557637056163344,
+                -8.933389256443396
+              ],
+              [
+                39.5579347291459,
+                -8.93348721618881
+              ],
+              [
+                39.55808137074177,
+                -8.933609616250717
+              ],
+              [
+                39.55807698095096,
+                -8.93375645662912
+              ],
+              [
+                39.55792155977346,
+                -8.933927737324012
+              ],
+              [
+                39.55761510720928,
+                -8.9341234583354
+              ],
+              [
+                39.55715762325842,
+                -8.934343619663279
+              ],
+              [
+                39.55654910792087,
+                -8.934588221307653
+              ],
+              [
+                39.55578956119663,
+                -8.934857263268517
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.55478218695441,
+    -8.934738776553328
+  ],
+  "centroDeMassa": [
+    39.55533427214118,
+    -8.934612165425545
+  ]
+}

@@ -1,1 +1,377 @@
-{"CP4":"2820","CP3":"642","Distrito":"Setúbal","Concelho":"Almada","CP":"2820-642","Artéria":"Rua Gonçalo Velho Cabral","Localidade":"Charneca de Caparica","Local":"Vale de Cavala","Troço":"","Porta":"","Cliente":"","Designação Postal":"CHARNECA DA CAPARICA","locais":[{"id":"pt.ine.add.PTCONT.4689988","rua":"R DIOGO DE SILVES","casa":"4","coordenadas":[38.607832700753356,-9.194602041892686]},{"id":"pt.ine.add.PTCONT.4750082","rua":"R GONÇALO VELHO CABRAL","casa":"3","coordenadas":[38.6073449248477,-9.19375680004105]},{"id":"pt.ine.add.PTCONT.4768381","rua":"R DIOGO DE SILVES CASA DOS FONSECAS","casa":"7","coordenadas":[38.60737501943316,-9.19441161485149]},{"id":"pt.ine.add.PTCONT.4795774","rua":"R GONÇALO VELHO CABRAL","casa":"19","coordenadas":[38.606338611457026,-9.194465227243843]},{"id":"pt.ine.add.PTCONT.4806936","rua":"R DIOGO DE SILVES","casa":"9","coordenadas":[38.60723918845349,-9.194489975099147]},{"id":"pt.ine.add.PTCONT.4849365","rua":"R DIOGO DE SILVES","casa":"3","coordenadas":[38.60762877171598,-9.194243149433085]},{"id":"pt.ine.add.PTCONT.4862540","rua":"R GONÇALO VELHO CABRAL","casa":"11","coordenadas":[38.60688245545285,-9.194094395109552]},{"id":"pt.ine.add.PTCONT.4909150","rua":"R GONÇALO VELHO CABRAL","casa":"8","coordenadas":[38.607260012940536,-9.194180316846724]},{"id":"pt.ine.add.PTCONT.4947632","rua":"R GONÇALO VELHO CABRAL","casa":"18","coordenadas":[38.606544206236094,-9.194640457194042]},{"id":"pt.ine.add.PTCONT.4954988","rua":"R GONÇALO VELHO CABRAL","casa":"10","coordenadas":[38.607160209353694,-9.194259208082489]},{"id":"pt.ine.add.PTCONT.4954994","rua":"R GONÇALO VELHO CABRAL","casa":"4","coordenadas":[38.60751376490299,-9.194011850865383]},{"id":"pt.ine.add.PTCONT.4958831","rua":"R GONÇALO VELHO CABRAL","casa":"13","coordenadas":[38.60671028515307,-9.194206660528879]},{"id":"pt.ine.add.PTCONT.4991208","rua":"R GONÇALO VELHO CABRAL","casa":"5","coordenadas":[38.607235906609404,-9.193858516649328]},{"id":"pt.ine.add.PTCONT.5028233","rua":"R GONÇALO VELHO CABRAL","casa":"6","coordenadas":[38.607386940992676,-9.194090344665089]},{"id":"pt.ine.add.PTCONT.5085949","rua":"R DIOGO DE SILVES","casa":"8","coordenadas":[38.607635175724965,-9.19453024993918]},{"id":"pt.ine.add.PTCONT.5107478","rua":"R GONÇALO VELHO CABRAL","casa":"75","coordenadas":[38.60658325291062,-9.194308110232068]},{"id":"pt.ine.add.PTCONT.5110723","rua":"R DIOGO DE SILVES","casa":"1","coordenadas":[38.60778292842207,-9.194130617412885]}],"ruas":["R DIOGO DE SILVES","R GONÇALO VELHO CABRAL","R DIOGO DE SILVES CASA DOS FONSECAS"],"centroide":[38.6071669641836,-9.194259307417127]}
+{
+  "CP": "2820-642",
+  "CP4": "2820",
+  "CP3": "642",
+  "Distrito": "Setúbal",
+  "Concelho": "Almada",
+  "Localidade": "Charneca de Caparica",
+  "Designação Postal": "CHARNECA DA CAPARICA",
+  "partes": [
+    {
+      "Artéria": "Rua Diogo de Silves",
+      "Local": "Vale de Cavala",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Gonçalo Velho Cabral",
+      "Local": "Vale de Cavala",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4689988",
+      "rua": "R DIOGO DE SILVES",
+      "casa": "4",
+      "coordenadas": [
+        38.607832700753356,
+        -9.194602041892686
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4750082",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "3",
+      "coordenadas": [
+        38.6073449248477,
+        -9.19375680004105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4768381",
+      "rua": "R DIOGO DE SILVES CASA DOS FONSECAS",
+      "casa": "7",
+      "coordenadas": [
+        38.60737501943316,
+        -9.19441161485149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4795774",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "19",
+      "coordenadas": [
+        38.606338611457026,
+        -9.194465227243843
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4806936",
+      "rua": "R DIOGO DE SILVES",
+      "casa": "9",
+      "coordenadas": [
+        38.60723918845349,
+        -9.194489975099147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4849365",
+      "rua": "R DIOGO DE SILVES",
+      "casa": "3",
+      "coordenadas": [
+        38.60762877171598,
+        -9.194243149433085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4862540",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "11",
+      "coordenadas": [
+        38.60688245545285,
+        -9.194094395109552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4909150",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "8",
+      "coordenadas": [
+        38.607260012940536,
+        -9.194180316846724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4947632",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "18",
+      "coordenadas": [
+        38.606544206236094,
+        -9.194640457194042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4954988",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "10",
+      "coordenadas": [
+        38.607160209353694,
+        -9.194259208082489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4954994",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "4",
+      "coordenadas": [
+        38.60751376490299,
+        -9.194011850865383
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4958831",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "13",
+      "coordenadas": [
+        38.60671028515307,
+        -9.194206660528879
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4991208",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "5",
+      "coordenadas": [
+        38.607235906609404,
+        -9.193858516649328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5028233",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "6",
+      "coordenadas": [
+        38.607386940992676,
+        -9.194090344665089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5085949",
+      "rua": "R DIOGO DE SILVES",
+      "casa": "8",
+      "coordenadas": [
+        38.607635175724965,
+        -9.19453024993918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5107478",
+      "rua": "R GONÇALO VELHO CABRAL",
+      "casa": "75",
+      "coordenadas": [
+        38.60658325291062,
+        -9.194308110232068
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5110723",
+      "rua": "R DIOGO DE SILVES",
+      "casa": "1",
+      "coordenadas": [
+        38.60778292842207,
+        -9.194130617412885
+      ]
+    }
+  ],
+  "ruas": [
+    "R DIOGO DE SILVES",
+    "R GONÇALO VELHO CABRAL",
+    "R DIOGO DE SILVES CASA DOS FONSECAS"
+  ],
+  "centro": [
+    38.60708565610519,
+    -9.194198628617546
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.60645425852025,
+                -9.194563794090831
+              ],
+              [
+                38.60642855917287,
+                -9.194541890347056
+              ],
+              [
+                38.60642179589064,
+                -9.194511655396209
+              ],
+              [
+                38.60643396867356,
+                -9.19447308923829
+              ],
+              [
+                38.606465077521634,
+                -9.1944261918733
+              ],
+              [
+                38.60651512243486,
+                -9.194370963301237
+              ],
+              [
+                38.60658410341323,
+                -9.194307403522103
+              ],
+              [
+                38.60667202045676,
+                -9.194235512535897
+              ],
+              [
+                38.606778873565446,
+                -9.194155290342621
+              ],
+              [
+                38.60690466273928,
+                -9.194066736942272
+              ],
+              [
+                38.60702157207224,
+                -9.193995093613403
+              ],
+              [
+                38.60712960156431,
+                -9.19394036035601
+              ],
+              [
+                38.60722875121551,
+                -9.193902537170096
+              ],
+              [
+                38.60731902102582,
+                -9.193881624055663
+              ],
+              [
+                38.607400410995254,
+                -9.193877621012707
+              ],
+              [
+                38.607472921123815,
+                -9.193890528041228
+              ],
+              [
+                38.607536551411485,
+                -9.19392034514123
+              ],
+              [
+                38.60759130185828,
+                -9.193967072312706
+              ],
+              [
+                38.6076399861919,
+                -9.194015324595247
+              ],
+              [
+                38.60768260441235,
+                -9.194065101988851
+              ],
+              [
+                38.60771915651963,
+                -9.194116404493515
+              ],
+              [
+                38.60774964251374,
+                -9.194169232109244
+              ],
+              [
+                38.60777406239467,
+                -9.194223584836033
+              ],
+              [
+                38.607792416162425,
+                -9.194279462673883
+              ],
+              [
+                38.60780470381701,
+                -9.194336865622798
+              ],
+              [
+                38.607810925358415,
+                -9.194395793682773
+              ],
+              [
+                38.60779623648031,
+                -9.194447955974336
+              ],
+              [
+                38.60776063718271,
+                -9.194493352497485
+              ],
+              [
+                38.607704127465595,
+                -9.19453198325222
+              ],
+              [
+                38.607626707328976,
+                -9.194563848238541
+              ],
+              [
+                38.60752837677285,
+                -9.19458894745645
+              ],
+              [
+                38.6074091357972,
+                -9.194607280905945
+              ],
+              [
+                38.607268984402054,
+                -9.194618848587028
+              ],
+              [
+                38.607107922587396,
+                -9.194623650499699
+              ],
+              [
+                38.60696378108115,
+                -9.194625114205312
+              ],
+              [
+                38.60683655988331,
+                -9.194623239703873
+              ],
+              [
+                38.60672625899388,
+                -9.194618026995375
+              ],
+              [
+                38.60663287841286,
+                -9.194609476079822
+              ],
+              [
+                38.60655641814025,
+                -9.194597586957215
+              ],
+              [
+                38.606496878176046,
+                -9.19458235962755
+              ],
+              [
+                38.60645425852025,
+                -9.194563794090831
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.60716867434325,
+    -9.194319028756901
+  ],
+  "centroDeMassa": [
+    38.60708565610519,
+    -9.194198628617546
+  ]
+}

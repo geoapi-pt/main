@@ -1,1 +1,402 @@
-{"CP4":"4550","CP3":"150","Distrito":"Aveiro","Concelho":"Castelo de Paiva","CP":"4550-150","Artéria":"Rotunda do Milénium","Localidade":"Castelo de Paiva","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CASTELO DE PAIVA","locais":[{"id":"pt.ine.add.PTCONT.343320","rua":"R STRECHT VASCONCELOS","casa":"","coordenadas":[41.03858507988759,-8.261548094843386]},{"id":"pt.ine.add.PTCONT.344418","rua":"R STRECHT VASCONCELOS","casa":"291","coordenadas":[41.038630961514215,-8.260775166591557]},{"id":"pt.ine.add.PTCONT.345799","rua":"R STRECHT VASCONCELOS","casa":"","coordenadas":[41.04002540997232,-8.261907679581793]},{"id":"pt.ine.add.PTCONT.348624","rua":"R STRECHT VASCONCELOS","casa":"","coordenadas":[41.04070063153809,-8.262016032431523]},{"id":"pt.ine.add.PTCONT.84361","rua":"R STRECHT VASCONCELOS","casa":"150","coordenadas":[41.03862171964141,-8.260989215073018]},{"id":"pt.ine.add.PTCONT.84362","rua":"R STRECHT VASCONCELOS","casa":"311","coordenadas":[41.03862171964141,-8.260989215073018]},{"id":"pt.ine.add.PTCONT.84363","rua":"R STRECHT VASCONCELOS","casa":"311","coordenadas":[41.03862171964141,-8.260989215073018]},{"id":"pt.ine.add.PTCONT.84364","rua":"R STRECHT VASCONCELOS","casa":"311","coordenadas":[41.03862171964141,-8.260989215073018]},{"id":"pt.ine.add.PTCONT.84365","rua":"R STRECHT VASCONCELOS","casa":"311","coordenadas":[41.03862171964141,-8.260989215073018]},{"id":"pt.ine.add.PTCONT.85592","rua":"R STRECHT VASCONCELOS","casa":"311","coordenadas":[41.03862171964141,-8.260989215073018]},{"id":"pt.ine.add.PTCONT.120109","rua":"R STRECHT VASCONCELOS","casa":"98","coordenadas":[41.04020539461083,-8.262003173323924]},{"id":"pt.ine.add.PTCONT.136672","rua":"R STRECHT VASCONCELOS","casa":"291","coordenadas":[41.038630961514215,-8.260775166591557]},{"id":"pt.ine.add.PTCONT.136673","rua":"R STRECHT VASCONCELOS","casa":"291","coordenadas":[41.038630961514215,-8.260775166591557]},{"id":"pt.ine.add.PTCONT.136674","rua":"R STRECHT VASCONCELOS","casa":"291","coordenadas":[41.038630961514215,-8.260775166591557]},{"id":"pt.ine.add.PTCONT.136675","rua":"R STRECHT VASCONCELOS","casa":"291","coordenadas":[41.038630961514215,-8.260775166591557]},{"id":"pt.ine.add.PTCONT.136676","rua":"R STRECHT VASCONCELOS","casa":"291","coordenadas":[41.038630961514215,-8.260775166591557]},{"id":"pt.ine.add.PTCONT.182614","rua":"R STRECHT VASCONCELOS","casa":"","coordenadas":[41.04002540997232,-8.261907679581793]},{"id":"pt.ine.add.PTCONT.263393","rua":"R STRECHT VASCONCELOS","casa":"88","coordenadas":[41.04034039634095,-8.262062901114989]},{"id":"pt.ine.add.PTCONT.263394","rua":"R STRECHT VASCONCELOS","casa":"88","coordenadas":[41.04034039634095,-8.262062901114989]},{"id":"pt.ine.add.PTCONT.277598","rua":"R STRECHT VASCONCELOS","casa":"67","coordenadas":[41.040844903716504,-8.261837919306073]}],"ruas":["R STRECHT VASCONCELOS"],"centroide":[41.03914414766299,-8.261268144841045]}5]}
+{
+  "CP": "4550-150",
+  "CP4": "4550",
+  "CP3": "150",
+  "Distrito": "Aveiro",
+  "Concelho": "Castelo de Paiva",
+  "Localidade": "Castelo de Paiva",
+  "Designação Postal": "CASTELO DE PAIVA",
+  "partes": [
+    {
+      "Artéria": "Rua Strecht Vasconcelos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rotunda do Milénium",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.343320",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "",
+      "coordenadas": [
+        41.03858507988759,
+        -8.261548094843386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.344418",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "291",
+      "coordenadas": [
+        41.038630961514215,
+        -8.260775166591557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.345799",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "",
+      "coordenadas": [
+        41.04002540997232,
+        -8.261907679581793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.348624",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "",
+      "coordenadas": [
+        41.04070063153809,
+        -8.262016032431523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.84361",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "150",
+      "coordenadas": [
+        41.03862171964141,
+        -8.260989215073018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.84362",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "311",
+      "coordenadas": [
+        41.03862171964141,
+        -8.260989215073018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.84363",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "311",
+      "coordenadas": [
+        41.03862171964141,
+        -8.260989215073018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.84364",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "311",
+      "coordenadas": [
+        41.03862171964141,
+        -8.260989215073018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.84365",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "311",
+      "coordenadas": [
+        41.03862171964141,
+        -8.260989215073018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.85592",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "311",
+      "coordenadas": [
+        41.03862171964141,
+        -8.260989215073018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.120109",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "98",
+      "coordenadas": [
+        41.04020539461083,
+        -8.262003173323924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136672",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "291",
+      "coordenadas": [
+        41.038630961514215,
+        -8.260775166591557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136673",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "291",
+      "coordenadas": [
+        41.038630961514215,
+        -8.260775166591557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136674",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "291",
+      "coordenadas": [
+        41.038630961514215,
+        -8.260775166591557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136675",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "291",
+      "coordenadas": [
+        41.038630961514215,
+        -8.260775166591557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136676",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "291",
+      "coordenadas": [
+        41.038630961514215,
+        -8.260775166591557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.182614",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "",
+      "coordenadas": [
+        41.04002540997232,
+        -8.261907679581793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.263393",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "88",
+      "coordenadas": [
+        41.04034039634095,
+        -8.262062901114989
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.263394",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "88",
+      "coordenadas": [
+        41.04034039634095,
+        -8.262062901114989
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.277598",
+      "rua": "R STRECHT VASCONCELOS",
+      "casa": "67",
+      "coordenadas": [
+        41.040844903716504,
+        -8.261837919306073
+      ]
+    }
+  ],
+  "ruas": [
+    "R STRECHT VASCONCELOS"
+  ],
+  "centro": [
+    41.03971499180204,
+    -8.261419033853272
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.0395724453926,
+                -8.261837673371161
+              ],
+              [
+                41.03935303083593,
+                -8.261773322587214
+              ],
+              [
+                41.03916175999926,
+                -8.261704938647322
+              ],
+              [
+                41.038998632882596,
+                -8.261632521551489
+              ],
+              [
+                41.03886364948592,
+                -8.261556071299715
+              ],
+              [
+                41.03875680980926,
+                -8.261475587892
+              ],
+              [
+                41.03867811385258,
+                -8.261391071328346
+              ],
+              [
+                41.03862756161591,
+                -8.261302521608748
+              ],
+              [
+                41.03860515309924,
+                -8.26120993873321
+              ],
+              [
+                41.038610888302564,
+                -8.261113322701732
+              ],
+              [
+                41.03865049945239,
+                -8.261045389185353
+              ],
+              [
+                41.03872398654871,
+                -8.261006138184072
+              ],
+              [
+                41.03883134959152,
+                -8.260995569697892
+              ],
+              [
+                41.038972588580826,
+                -8.261013683726809
+              ],
+              [
+                41.039147703516626,
+                -8.261060480270826
+              ],
+              [
+                41.03935669439892,
+                -8.261135959329943
+              ],
+              [
+                41.03959956122772,
+                -8.261240120904159
+              ],
+              [
+                41.039876304003,
+                -8.261372964993472
+              ],
+              [
+                41.04011619967859,
+                -8.261491986589206
+              ],
+              [
+                41.04031924825448,
+                -8.261597185691363
+              ],
+              [
+                41.04048544973067,
+                -8.26168856229994
+              ],
+              [
+                41.040614804107165,
+                -8.261766116414938
+              ],
+              [
+                41.040707311383954,
+                -8.261829848036356
+              ],
+              [
+                41.040762971561044,
+                -8.261879757164198
+              ],
+              [
+                41.04078178463844,
+                -8.261915843798459
+              ],
+              [
+                41.04076375061615,
+                -8.261938107939137
+              ],
+              [
+                41.04074234217168,
+                -8.261958321385414
+              ],
+              [
+                41.04071755930504,
+                -8.261976484137282
+              ],
+              [
+                41.040689402016234,
+                -8.261992596194746
+              ],
+              [
+                41.04065787030526,
+                -8.262006657557803
+              ],
+              [
+                41.040622964172115,
+                -8.262018668226455
+              ],
+              [
+                41.040584683616814,
+                -8.2620286282007
+              ],
+              [
+                41.040543028639334,
+                -8.26203653748054
+              ],
+              [
+                41.040497999239705,
+                -8.262042396065972
+              ],
+              [
+                41.04043117169543,
+                -8.262039478480233
+              ],
+              [
+                41.040342546006535,
+                -8.26202778472332
+              ],
+              [
+                41.04023212217301,
+                -8.262007314795234
+              ],
+              [
+                41.040099900194846,
+                -8.261978068695978
+              ],
+              [
+                41.039945880072054,
+                -8.261940046425545
+              ],
+              [
+                41.039770061804646,
+                -8.26189324798394
+              ],
+              [
+                41.0395724453926,
+                -8.261837673371161
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.03982039459946,
+    -8.261648022857505
+  ],
+  "centroDeMassa": [
+    41.03971499180204,
+    -8.261419033853272
+  ]
+}

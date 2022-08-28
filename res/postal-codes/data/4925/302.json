@@ -1,1 +1,486 @@
-{"CP4":"4925","CP3":"302","Distrito":"Viana do Castelo","Concelho":"Viana do Castelo","CP":"4925-302","Artéria":"Beco de Cabanelas","Localidade":"Amonde","Local":"Casal","Troço":"","Porta":"","Cliente":"","Designação Postal":"AMONDE","locais":[{"id":"pt.ine.add.PTCONT.5150690","rua":"ESTR TOURIM","casa":"","coordenadas":[41.79035630969691,-8.767883523745809]},{"id":"pt.ine.add.PTCONT.5164421","rua":"TV ALTINHO","casa":"","coordenadas":[41.79006063344995,-8.765991841911685]},{"id":"pt.ine.add.PTCONT.5173358","rua":"ESTR TOURIM","casa":"","coordenadas":[41.790180519013745,-8.765475715162857]},{"id":"pt.ine.add.PTCONT.5174186","rua":"CAM BIQUEIRA","casa":"","coordenadas":[41.78877858256849,-8.766640887724497]},{"id":"pt.ine.add.PTCONT.5178000","rua":"TV PORTO CARRO","casa":"","coordenadas":[41.79148215478879,-8.766174253507582]},{"id":"pt.ine.add.PTCONT.5178001","rua":"TV TOURIM","casa":"","coordenadas":[41.79148215478879,-8.766174253507582]},{"id":"pt.ine.add.PTCONT.5178002","rua":"ESTR TOURIM","casa":"","coordenadas":[41.79028034485516,-8.76533233159889]},{"id":"pt.ine.add.PTCONT.5189090","rua":"CAM SAPO","casa":"","coordenadas":[41.79054917210537,-8.765563551514063]},{"id":"pt.ine.add.PTCONT.5191241","rua":"CAM FONTE CLARA","casa":"","coordenadas":[41.78903153004189,-8.764850884880996]},{"id":"pt.ine.add.PTCONT.5193799","rua":"CAM SAPO","casa":"","coordenadas":[41.789787498238546,-8.76654254900412]},{"id":"pt.ine.add.PTCONT.5226353","rua":"TV ALMINHAS","casa":"","coordenadas":[41.79034587962665,-8.76487582024797]},{"id":"pt.ine.add.PTCONT.5243142","rua":"CAM SAPO","casa":"","coordenadas":[41.78996398715289,-8.765557799353077]},{"id":"pt.ine.add.PTCONT.5246394","rua":"CAM SAPO","casa":"","coordenadas":[41.790164830213385,-8.76505449805975]},{"id":"pt.ine.add.PTCONT.5267242","rua":"CAM BIQUEIRA","casa":"","coordenadas":[41.78946492343836,-8.764626565542693]},{"id":"pt.ine.add.PTCONT.5270720","rua":"CAM BIQUEIRA","casa":"","coordenadas":[41.78899379826999,-8.765163298321708]},{"id":"pt.ine.add.PTCONT.5273934","rua":"CAM SAPO","casa":"","coordenadas":[41.7894365199502,-8.76651503327856]},{"id":"pt.ine.add.PTCONT.5273935","rua":"ESTR TOURIM","casa":"","coordenadas":[41.78987197131405,-8.765917804303697]},{"id":"pt.ine.add.PTCONT.5284316","rua":"TV ALTINHO","casa":"","coordenadas":[41.79040426550976,-8.765718522493104]}],"ruas":["ESTR TOURIM","TV ALTINHO","CAM BIQUEIRA","TV PORTO CARRO","TV TOURIM","CAM SAPO","CAM FONTE CLARA","TV ALMINHAS"],"centroide":[41.79001357703018,-8.76578474186268]}
+{
+  "CP": "4925-302",
+  "CP4": "4925",
+  "CP3": "302",
+  "Distrito": "Viana do Castelo",
+  "Concelho": "Viana do Castelo",
+  "Localidade": "Amonde",
+  "Designação Postal": "AMONDE",
+  "partes": [
+    {
+      "Artéria": "Travessa D'Orgal",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Rio",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco do Casal",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho do Acordo",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho do Casal",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo D'Orgal",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quelha do Casal",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Real",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quelha Nova",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho da Fonte",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco de Cabanelas",
+      "Local": "Casal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5150690",
+      "rua": "ESTR TOURIM",
+      "casa": "",
+      "coordenadas": [
+        41.79035630969691,
+        -8.767883523745809
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5164421",
+      "rua": "TV ALTINHO",
+      "casa": "",
+      "coordenadas": [
+        41.79006063344995,
+        -8.765991841911685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5173358",
+      "rua": "ESTR TOURIM",
+      "casa": "",
+      "coordenadas": [
+        41.790180519013745,
+        -8.765475715162857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5174186",
+      "rua": "CAM BIQUEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.78877858256849,
+        -8.766640887724497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5178000",
+      "rua": "TV PORTO CARRO",
+      "casa": "",
+      "coordenadas": [
+        41.79148215478879,
+        -8.766174253507582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5178001",
+      "rua": "TV TOURIM",
+      "casa": "",
+      "coordenadas": [
+        41.79148215478879,
+        -8.766174253507582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5178002",
+      "rua": "ESTR TOURIM",
+      "casa": "",
+      "coordenadas": [
+        41.79028034485516,
+        -8.76533233159889
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5189090",
+      "rua": "CAM SAPO",
+      "casa": "",
+      "coordenadas": [
+        41.79054917210537,
+        -8.765563551514063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5191241",
+      "rua": "CAM FONTE CLARA",
+      "casa": "",
+      "coordenadas": [
+        41.78903153004189,
+        -8.764850884880996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5193799",
+      "rua": "CAM SAPO",
+      "casa": "",
+      "coordenadas": [
+        41.789787498238546,
+        -8.76654254900412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5226353",
+      "rua": "TV ALMINHAS",
+      "casa": "",
+      "coordenadas": [
+        41.79034587962665,
+        -8.76487582024797
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5243142",
+      "rua": "CAM SAPO",
+      "casa": "",
+      "coordenadas": [
+        41.78996398715289,
+        -8.765557799353077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5246394",
+      "rua": "CAM SAPO",
+      "casa": "",
+      "coordenadas": [
+        41.790164830213385,
+        -8.76505449805975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5267242",
+      "rua": "CAM BIQUEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.78946492343836,
+        -8.764626565542693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5270720",
+      "rua": "CAM BIQUEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.78899379826999,
+        -8.765163298321708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5273934",
+      "rua": "CAM SAPO",
+      "casa": "",
+      "coordenadas": [
+        41.7894365199502,
+        -8.76651503327856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5273935",
+      "rua": "ESTR TOURIM",
+      "casa": "",
+      "coordenadas": [
+        41.78987197131405,
+        -8.765917804303697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5284316",
+      "rua": "TV ALTINHO",
+      "casa": "",
+      "coordenadas": [
+        41.79040426550976,
+        -8.765718522493104
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR TOURIM",
+    "TV ALTINHO",
+    "CAM BIQUEIRA",
+    "TV PORTO CARRO",
+    "TV TOURIM",
+    "CAM SAPO",
+    "CAM FONTE CLARA",
+    "TV ALMINHAS"
+  ],
+  "centro": [
+    41.79013036867864,
+    -8.76625504464425
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.789666054078225,
+                -8.767339870486486
+              ],
+              [
+                41.789468838187176,
+                -8.767184540983822
+              ],
+              [
+                41.789300226586775,
+                -8.76702065887456
+              ],
+              [
+                41.78916021927702,
+                -8.766848224158704
+              ],
+              [
+                41.78904881625793,
+                -8.766667236836248
+              ],
+              [
+                41.7889660175295,
+                -8.766477696907199
+              ],
+              [
+                41.788911823091716,
+                -8.766279604371551
+              ],
+              [
+                41.788886232944584,
+                -8.766072959229305
+              ],
+              [
+                41.78888924708811,
+                -8.765857761480465
+              ],
+              [
+                41.78892086552227,
+                -8.765634011125028
+              ],
+              [
+                41.788955303424,
+                -8.765434724574359
+              ],
+              [
+                41.78899256079327,
+                -8.76525990182846
+              ],
+              [
+                41.789032637630086,
+                -8.765109542887327
+              ],
+              [
+                41.789075533934465,
+                -8.764983647750963
+              ],
+              [
+                41.789121249706376,
+                -8.76488221641937
+              ],
+              [
+                41.78916978494584,
+                -8.764805248892547
+              ],
+              [
+                41.78922113965285,
+                -8.76475274517049
+              ],
+              [
+                41.7892753138274,
+                -8.764724705253201
+              ],
+              [
+                41.78933648117059,
+                -8.764704064930346
+              ],
+              [
+                41.78940464168239,
+                -8.764690824201919
+              ],
+              [
+                41.78947979536281,
+                -8.764684983067925
+              ],
+              [
+                41.78956194221186,
+                -8.76468654152836
+              ],
+              [
+                41.78965108222953,
+                -8.764695499583226
+              ],
+              [
+                41.78974721541582,
+                -8.764711857232523
+              ],
+              [
+                41.78985034177074,
+                -8.764735614476253
+              ],
+              [
+                41.78996046129427,
+                -8.764766771314411
+              ],
+              [
+                41.79007457017678,
+                -8.764814321567483
+              ],
+              [
+                41.79019266841824,
+                -8.764878265235467
+              ],
+              [
+                41.79031475601868,
+                -8.76495860231836
+              ],
+              [
+                41.790440832978085,
+                -8.765055332816166
+              ],
+              [
+                41.790570899296455,
+                -8.765168456728883
+              ],
+              [
+                41.79070495497378,
+                -8.76529797405651
+              ],
+              [
+                41.790843000010085,
+                -8.765443884799051
+              ],
+              [
+                41.79098503440535,
+                -8.765606188956502
+              ],
+              [
+                41.79109172317165,
+                -8.765774912441746
+              ],
+              [
+                41.79116306630898,
+                -8.765950055254777
+              ],
+              [
+                41.791199063817345,
+                -8.766131617395601
+              ],
+              [
+                41.791199715696735,
+                -8.766319598864216
+              ],
+              [
+                41.79116502194715,
+                -8.76651399966062
+              ],
+              [
+                41.79109498256861,
+                -8.766714819784818
+              ],
+              [
+                41.790989597561094,
+                -8.766922059236805
+              ],
+              [
+                41.790848866924605,
+                -8.767135718016586
+              ],
+              [
+                41.790701075631304,
+                -8.767303253261058
+              ],
+              [
+                41.790546223681176,
+                -8.767424664970227
+              ],
+              [
+                41.79038431107423,
+                -8.767499953144089
+              ],
+              [
+                41.79021533781046,
+                -8.767529117782646
+              ],
+              [
+                41.79003930388987,
+                -8.767512158885898
+              ],
+              [
+                41.78985620931246,
+                -8.767449076453845
+              ],
+              [
+                41.789666054078225,
+                -8.767339870486486
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.78990989669351,
+    -8.765841989274925
+  ],
+  "centroDeMassa": [
+    41.79013036867864,
+    -8.76625504464425
+  ]
+}

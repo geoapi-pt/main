@@ -1,1 +1,489 @@
-{"CP4":"8200","CP3":"153","Distrito":"Faro","Concelho":"Albufeira","CP":"8200-153","Artéria":"Rua João Bita","Localidade":"Albufeira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALBUFEIRA","locais":[{"id":"pt.ine.add.PTCONT.1524859","rua":"R MALPIQUE","casa":"12","coordenadas":[37.092907964144636,-8.25110174128897]},{"id":"pt.ine.add.PTCONT.1556112","rua":"R MALPIQUE","casa":"2A","coordenadas":[37.093448525554855,-8.251181317199402]},{"id":"pt.ine.add.PTCONT.1580084","rua":"R MALPIQUE","casa":"","coordenadas":[37.09305112319551,-8.252114300953249]},{"id":"pt.ine.add.PTCONT.1580085","rua":"R MALPIQUE","casa":"","coordenadas":[37.09305112319551,-8.252114300953249]},{"id":"pt.ine.add.PTCONT.1585823","rua":"R MALPIQUE","casa":"14","coordenadas":[37.09276374875439,-8.251146510308857]},{"id":"pt.ine.add.PTCONT.1594408","rua":"R MALPIQUE","casa":"18","coordenadas":[37.092394233140546,-8.251224673883705]},{"id":"pt.ine.add.PTCONT.1597621","rua":"R MALPIQUE","casa":"","coordenadas":[37.09324155995718,-8.250899790466693]},{"id":"pt.ine.add.PTCONT.1648753","rua":"R MALPIQUE","casa":"6","coordenadas":[37.09317819447296,-8.251192145993334]},{"id":"pt.ine.add.PTCONT.1649836","rua":"R MALPIQUE","casa":"9","coordenadas":[37.092493596654556,-8.250977369583545]},{"id":"pt.ine.add.PTCONT.1689533","rua":"R MALPIQUE","casa":"4","coordenadas":[37.09318726112333,-8.251135918977216]},{"id":"pt.ine.add.PTCONT.1708778","rua":"R MALPIQUE","casa":"","coordenadas":[37.0916905468069,-8.252078429425556]},{"id":"pt.ine.add.PTCONT.1712622","rua":"R MALPIQUE","casa":"3A","coordenadas":[37.09301653891273,-8.250651981961727]},{"id":"pt.ine.add.PTCONT.1715637","rua":"R MALPIQUE","casa":"8 10","coordenadas":[37.09319614857869,-8.251259663160887]},{"id":"pt.ine.add.PTCONT.1756843","rua":"R MALPIQUE","casa":"3","coordenadas":[37.09297124006273,-8.25089937206561]},{"id":"pt.ine.add.PTCONT.1756861","rua":"R MALPIQUE","casa":"","coordenadas":[37.09333145411638,-8.251113646131977]},{"id":"pt.ine.add.PTCONT.1759015","rua":"R MALPIQUE","casa":"","coordenadas":[37.09333145411638,-8.251113646131977]},{"id":"pt.ine.add.PTCONT.1759403","rua":"R MALPIQUE","casa":"3","coordenadas":[37.09297124006273,-8.25089937206561]},{"id":"pt.ine.add.PTCONT.1778143","rua":"R MALPIQUE","casa":"1","coordenadas":[37.093070323836905,-8.250933270025664]},{"id":"pt.ine.add.PTCONT.1778144","rua":"R MALPIQUE","casa":"1","coordenadas":[37.093070323836905,-8.250933270025664]},{"id":"pt.ine.add.PTCONT.1781236","rua":"R MALPIQUE","casa":"13","coordenadas":[37.09232237167381,-8.250999600571692]},{"id":"pt.ine.add.PTCONT.1781237","rua":"R MALPIQUE","casa":"13","coordenadas":[37.09232237167381,-8.250999600571692]},{"id":"pt.ine.add.PTCONT.1792871","rua":"","casa":"","coordenadas":[37.0918520144192,-8.252798555074746]},{"id":"pt.ine.add.PTCONT.1806268","rua":"R MALPIQUE","casa":"7","coordenadas":[37.09280894752654,-8.251000354320782]},{"id":"pt.ine.add.PTCONT.1813138","rua":"R MALPIQUE","casa":"11","coordenadas":[37.092232197921014,-8.251066949340933]},{"id":"pt.ine.add.PTCONT.1818835","rua":"R MALPIQUE","casa":"20","coordenadas":[37.0923401467474,-8.25124708612336]},{"id":"pt.ine.add.PTCONT.1818836","rua":"R MALPIQUE","casa":"20","coordenadas":[37.0923401467474,-8.25124708612336]},{"id":"pt.ine.add.PTCONT.1821577","rua":"R MALPIQUE","casa":"17","coordenadas":[37.092096993192634,-8.251111732004063]},{"id":"pt.ine.add.PTCONT.1821578","rua":"R MALPIQUE","casa":"17","coordenadas":[37.092096993192634,-8.251111732004063]},{"id":"pt.ine.add.PTCONT.1821579","rua":"R MALPIQUE","casa":"17","coordenadas":[37.092096993192634,-8.251111732004063]},{"id":"pt.ine.add.PTCONT.1825650","rua":"R MALPIQUE","casa":"24","coordenadas":[37.092348876949465,-8.25152830199882]},{"id":"pt.ine.add.PTCONT.1826830","rua":"R MALPIQUE A","casa":"","coordenadas":[37.093313645260274,-8.250899902041258]},{"id":"pt.ine.add.PTCONT.1846847","rua":"R MALPIQUE","casa":"16","coordenadas":[37.09263758826658,-8.251157562767006]},{"id":"pt.ine.add.PTCONT.1550188","rua":"TV DE MALPIQUE","casa":"21","coordenadas":[37.019254863399134,-7.929207355487652]}],"ruas":["R MALPIQUE","","R MALPIQUE A","TV DE MALPIQUE"],"centroide":[37.09272424647772,-8.251226591110898]}}
+{
+  "CP": "8200-153",
+  "CP4": "8200",
+  "CP3": "153",
+  "Distrito": "Faro",
+  "Concelho": "Albufeira",
+  "Localidade": "Albufeira",
+  "Designação Postal": "ALBUFEIRA",
+  "partes": [
+    {
+      "Artéria": "Rua do Malpique",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua João Bita",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1524859",
+      "rua": "R MALPIQUE",
+      "casa": "12",
+      "coordenadas": [
+        37.092907964144636,
+        -8.25110174128897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1556112",
+      "rua": "R MALPIQUE",
+      "casa": "2A",
+      "coordenadas": [
+        37.093448525554855,
+        -8.251181317199402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1580084",
+      "rua": "R MALPIQUE",
+      "casa": "",
+      "coordenadas": [
+        37.09305112319551,
+        -8.252114300953249
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1580085",
+      "rua": "R MALPIQUE",
+      "casa": "",
+      "coordenadas": [
+        37.09305112319551,
+        -8.252114300953249
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1585823",
+      "rua": "R MALPIQUE",
+      "casa": "14",
+      "coordenadas": [
+        37.09276374875439,
+        -8.251146510308857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1594408",
+      "rua": "R MALPIQUE",
+      "casa": "18",
+      "coordenadas": [
+        37.092394233140546,
+        -8.251224673883705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1597621",
+      "rua": "R MALPIQUE",
+      "casa": "",
+      "coordenadas": [
+        37.09324155995718,
+        -8.250899790466693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1648753",
+      "rua": "R MALPIQUE",
+      "casa": "6",
+      "coordenadas": [
+        37.09317819447296,
+        -8.251192145993334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1649836",
+      "rua": "R MALPIQUE",
+      "casa": "9",
+      "coordenadas": [
+        37.092493596654556,
+        -8.250977369583545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1689533",
+      "rua": "R MALPIQUE",
+      "casa": "4",
+      "coordenadas": [
+        37.09318726112333,
+        -8.251135918977216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1708778",
+      "rua": "R MALPIQUE",
+      "casa": "",
+      "coordenadas": [
+        37.0916905468069,
+        -8.252078429425556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1712622",
+      "rua": "R MALPIQUE",
+      "casa": "3A",
+      "coordenadas": [
+        37.09301653891273,
+        -8.250651981961727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1715637",
+      "rua": "R MALPIQUE",
+      "casa": "8 10",
+      "coordenadas": [
+        37.09319614857869,
+        -8.251259663160887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1756843",
+      "rua": "R MALPIQUE",
+      "casa": "3",
+      "coordenadas": [
+        37.09297124006273,
+        -8.25089937206561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1756861",
+      "rua": "R MALPIQUE",
+      "casa": "",
+      "coordenadas": [
+        37.09333145411638,
+        -8.251113646131977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1759015",
+      "rua": "R MALPIQUE",
+      "casa": "",
+      "coordenadas": [
+        37.09333145411638,
+        -8.251113646131977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1759403",
+      "rua": "R MALPIQUE",
+      "casa": "3",
+      "coordenadas": [
+        37.09297124006273,
+        -8.25089937206561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1778143",
+      "rua": "R MALPIQUE",
+      "casa": "1",
+      "coordenadas": [
+        37.093070323836905,
+        -8.250933270025664
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1778144",
+      "rua": "R MALPIQUE",
+      "casa": "1",
+      "coordenadas": [
+        37.093070323836905,
+        -8.250933270025664
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1781236",
+      "rua": "R MALPIQUE",
+      "casa": "13",
+      "coordenadas": [
+        37.09232237167381,
+        -8.250999600571692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1781237",
+      "rua": "R MALPIQUE",
+      "casa": "13",
+      "coordenadas": [
+        37.09232237167381,
+        -8.250999600571692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1792871",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.0918520144192,
+        -8.252798555074746
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1806268",
+      "rua": "R MALPIQUE",
+      "casa": "7",
+      "coordenadas": [
+        37.09280894752654,
+        -8.251000354320782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1813138",
+      "rua": "R MALPIQUE",
+      "casa": "11",
+      "coordenadas": [
+        37.092232197921014,
+        -8.251066949340933
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1818835",
+      "rua": "R MALPIQUE",
+      "casa": "20",
+      "coordenadas": [
+        37.0923401467474,
+        -8.25124708612336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1818836",
+      "rua": "R MALPIQUE",
+      "casa": "20",
+      "coordenadas": [
+        37.0923401467474,
+        -8.25124708612336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1821577",
+      "rua": "R MALPIQUE",
+      "casa": "17",
+      "coordenadas": [
+        37.092096993192634,
+        -8.251111732004063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1821578",
+      "rua": "R MALPIQUE",
+      "casa": "17",
+      "coordenadas": [
+        37.092096993192634,
+        -8.251111732004063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1821579",
+      "rua": "R MALPIQUE",
+      "casa": "17",
+      "coordenadas": [
+        37.092096993192634,
+        -8.251111732004063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825650",
+      "rua": "R MALPIQUE",
+      "casa": "24",
+      "coordenadas": [
+        37.092348876949465,
+        -8.25152830199882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1826830",
+      "rua": "R MALPIQUE A",
+      "casa": "",
+      "coordenadas": [
+        37.093313645260274,
+        -8.250899902041258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1846847",
+      "rua": "R MALPIQUE",
+      "casa": "16",
+      "coordenadas": [
+        37.09263758826658,
+        -8.251157562767006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1550188",
+      "rua": "TV DE MALPIQUE",
+      "casa": "21",
+      "coordenadas": [
+        37.019254863399134,
+        -7.929207355487652
+      ]
+    }
+  ],
+  "ruas": [
+    "R MALPIQUE",
+    "R MALPIQUE A",
+    "TV DE MALPIQUE"
+  ],
+  "centro": [
+    37.056351694476994,
+    -8.091002955281198
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.06009076084793,
+                -8.111227405255391
+              ],
+              [
+                37.051016116970416,
+                -8.070778505307006
+              ],
+              [
+                37.04423507954878,
+                -8.040416561003914
+              ],
+              [
+                37.03974764858301,
+                -8.020141572346114
+              ],
+              [
+                37.037553824073115,
+                -8.009953539333612
+              ],
+              [
+                37.03765360601909,
+                -8.009852461966402
+              ],
+              [
+                37.04004699442094,
+                -8.019838340244487
+              ],
+              [
+                37.04473398927867,
+                -8.039911174167866
+              ],
+              [
+                37.05171459059226,
+                -8.07007096373654
+              ],
+              [
+                37.06098879836173,
+                -8.110317708950511
+              ],
+              [
+                37.069097520748144,
+                -8.145548188883886
+              ],
+              [
+                37.07604075775151,
+                -8.175762403536671
+              ],
+              [
+                37.08181850937183,
+                -8.200960352908863
+              ],
+              [
+                37.0864307756091,
+                -8.221142037000464
+              ],
+              [
+                37.08987755646333,
+                -8.23630745581147
+              ],
+              [
+                37.09215885193451,
+                -8.246456609341887
+              ],
+              [
+                37.09327466202264,
+                -8.25158949759171
+              ],
+              [
+                37.09322498672772,
+                -8.251706120560941
+              ],
+              [
+                37.09316278477004,
+                -8.251818857129667
+              ],
+              [
+                37.09308805614959,
+                -8.251927707297886
+              ],
+              [
+                37.09300080086638,
+                -8.252032671065601
+              ],
+              [
+                37.0929010189204,
+                -8.25213374843281
+              ],
+              [
+                37.09278871031166,
+                -8.252230939399514
+              ],
+              [
+                37.09266387504015,
+                -8.25232424396571
+              ],
+              [
+                37.09252651310588,
+                -8.252413662131403
+              ],
+              [
+                37.09237662450883,
+                -8.25249919389659
+              ],
+              [
+                37.091111141501734,
+                -8.247517921697579
+              ],
+              [
+                37.08873006408458,
+                -8.237469845534374
+              ],
+              [
+                37.085233392257365,
+                -8.222354965406971
+              ],
+              [
+                37.0806211260201,
+                -8.202173281315371
+              ],
+              [
+                37.074893265372765,
+                -8.176924793259577
+              ],
+              [
+                37.06804981031538,
+                -8.146609501239581
+              ],
+              [
+                37.06009076084793,
+                -8.111227405255391
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.074401631642175,
+    -8.171325382178761
+  ],
+  "centroDeMassa": [
+    37.056351694476994,
+    -8.091002955281198
+  ]
+}

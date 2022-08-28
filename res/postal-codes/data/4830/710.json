@@ -1,1 +1,411 @@
-{"CP4":"4830","CP3":"710","Distrito":"Braga","Concelho":"Póvoa de Lanhoso","CP":"4830-710","Artéria":"Travessa do Bairro","Localidade":"Serzedelo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SERZEDELO PVL","locais":[{"id":"pt.ine.add.PTCONT.463559","rua":"R VERTELO","casa":"100","coordenadas":[41.605376132144976,-8.212642232698274]},{"id":"pt.ine.add.PTCONT.526392","rua":"TV BAIRRO","casa":"","coordenadas":[41.60802154472852,-8.2150207989586]},{"id":"pt.ine.add.PTCONT.529143","rua":"R BAIRRO","casa":"147","coordenadas":[41.60809405927809,-8.214337086435682]},{"id":"pt.ine.add.PTCONT.540899","rua":"R PONTE","casa":"7","coordenadas":[41.60795808147568,-8.215632542250516]},{"id":"pt.ine.add.PTCONT.546865","rua":"R VERTELO","casa":"","coordenadas":[41.60459302752926,-8.212329377180776]},{"id":"pt.ine.add.PTCONT.550605","rua":"R MOINHOS","casa":"22","coordenadas":[41.60738472638398,-8.211517034632527]},{"id":"pt.ine.add.PTCONT.568546","rua":"R BAIRRO","casa":"140","coordenadas":[41.60834632292082,-8.214109467223722]},{"id":"pt.ine.add.PTCONT.625588","rua":"R BAIRRO","casa":"","coordenadas":[41.607319802700665,-8.21425214032221]},{"id":"pt.ine.add.PTCONT.640671","rua":"R PONTE","casa":"309","coordenadas":[41.60658230012174,-8.213111569115158]},{"id":"pt.ine.add.PTCONT.673002","rua":"R PONTE","casa":"211","coordenadas":[41.60668999250094,-8.213615546990724]},{"id":"pt.ine.add.PTCONT.677094","rua":"R BAIRRO","casa":"244","coordenadas":[41.60807527542558,-8.215428750037482]},{"id":"pt.ine.add.PTCONT.720364","rua":"R VERTELO","casa":"","coordenadas":[41.60547500636449,-8.212882275733216]},{"id":"pt.ine.add.PTCONT.729451","rua":"TV BAIRRO","casa":"","coordenadas":[41.608282924100074,-8.21463723835421]},{"id":"pt.ine.add.PTCONT.735404","rua":"R PONTE","casa":"","coordenadas":[41.60823332922664,-8.208135023250442]},{"id":"pt.ine.add.PTCONT.744572","rua":"TV BAIRRO","casa":"22","coordenadas":[41.60761650752724,-8.214840339478219]},{"id":"pt.ine.add.PTCONT.760633","rua":"R BAIRRO","casa":"256","coordenadas":[41.60839928723049,-8.215597114632919]},{"id":"pt.ine.add.PTCONT.796768","rua":"R PONTE","casa":"394","coordenadas":[41.6066550840061,-8.21201999579846]},{"id":"pt.ine.add.PTCONT.818035","rua":"R PONTE","casa":"213","coordenadas":[41.60653695522399,-8.213579367914223]},{"id":"pt.ine.add.PTCONT.824047","rua":"R PONTE","casa":"157","coordenadas":[41.60709478700827,-8.214143890956217]},{"id":"pt.ine.add.PTCONT.837475","rua":"R PONTE","casa":"321","coordenadas":[41.60681632884353,-8.213207828855424]},{"id":"pt.ine.add.PTCONT.840345","rua":"TV BAIRRO","casa":"193","coordenadas":[41.60792261534224,-8.214864718882918]}],"ruas":["R VERTELO","TV BAIRRO","R BAIRRO","R PONTE","R MOINHOS"],"centroide":[41.60717757373705,-8.213551981040952]}
+{
+  "CP": "4830-710",
+  "CP4": "4830",
+  "CP3": "710",
+  "Distrito": "Braga",
+  "Concelho": "Póvoa de Lanhoso",
+  "Localidade": "Serzedelo",
+  "Designação Postal": "SERZEDELO PVL",
+  "partes": [
+    {
+      "Artéria": "Rua das Panjans",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Ponte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Moinhos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Vertelo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Bairro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Bairro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.463559",
+      "rua": "R VERTELO",
+      "casa": "100",
+      "coordenadas": [
+        41.605376132144976,
+        -8.212642232698274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.526392",
+      "rua": "TV BAIRRO",
+      "casa": "",
+      "coordenadas": [
+        41.60802154472852,
+        -8.2150207989586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.529143",
+      "rua": "R BAIRRO",
+      "casa": "147",
+      "coordenadas": [
+        41.60809405927809,
+        -8.214337086435682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.540899",
+      "rua": "R PONTE",
+      "casa": "7",
+      "coordenadas": [
+        41.60795808147568,
+        -8.215632542250516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.546865",
+      "rua": "R VERTELO",
+      "casa": "",
+      "coordenadas": [
+        41.60459302752926,
+        -8.212329377180776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.550605",
+      "rua": "R MOINHOS",
+      "casa": "22",
+      "coordenadas": [
+        41.60738472638398,
+        -8.211517034632527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.568546",
+      "rua": "R BAIRRO",
+      "casa": "140",
+      "coordenadas": [
+        41.60834632292082,
+        -8.214109467223722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.625588",
+      "rua": "R BAIRRO",
+      "casa": "",
+      "coordenadas": [
+        41.607319802700665,
+        -8.21425214032221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.640671",
+      "rua": "R PONTE",
+      "casa": "309",
+      "coordenadas": [
+        41.60658230012174,
+        -8.213111569115158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.673002",
+      "rua": "R PONTE",
+      "casa": "211",
+      "coordenadas": [
+        41.60668999250094,
+        -8.213615546990724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.677094",
+      "rua": "R BAIRRO",
+      "casa": "244",
+      "coordenadas": [
+        41.60807527542558,
+        -8.215428750037482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.720364",
+      "rua": "R VERTELO",
+      "casa": "",
+      "coordenadas": [
+        41.60547500636449,
+        -8.212882275733216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.729451",
+      "rua": "TV BAIRRO",
+      "casa": "",
+      "coordenadas": [
+        41.608282924100074,
+        -8.21463723835421
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.735404",
+      "rua": "R PONTE",
+      "casa": "",
+      "coordenadas": [
+        41.60823332922664,
+        -8.208135023250442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.744572",
+      "rua": "TV BAIRRO",
+      "casa": "22",
+      "coordenadas": [
+        41.60761650752724,
+        -8.214840339478219
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.760633",
+      "rua": "R BAIRRO",
+      "casa": "256",
+      "coordenadas": [
+        41.60839928723049,
+        -8.215597114632919
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.796768",
+      "rua": "R PONTE",
+      "casa": "394",
+      "coordenadas": [
+        41.6066550840061,
+        -8.21201999579846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.818035",
+      "rua": "R PONTE",
+      "casa": "213",
+      "coordenadas": [
+        41.60653695522399,
+        -8.213579367914223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.824047",
+      "rua": "R PONTE",
+      "casa": "157",
+      "coordenadas": [
+        41.60709478700827,
+        -8.214143890956217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.837475",
+      "rua": "R PONTE",
+      "casa": "321",
+      "coordenadas": [
+        41.60681632884353,
+        -8.213207828855424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.840345",
+      "rua": "TV BAIRRO",
+      "casa": "193",
+      "coordenadas": [
+        41.60792261534224,
+        -8.214864718882918
+      ]
+    }
+  ],
+  "ruas": [
+    "R VERTELO",
+    "TV BAIRRO",
+    "R BAIRRO",
+    "R PONTE",
+    "R MOINHOS"
+  ],
+  "centro": [
+    41.60649615737988,
+    -8.21188378275048
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.60648587037412,
+                -8.214187407532503
+              ],
+              [
+                41.60606523863082,
+                -8.213774511898787
+              ],
+              [
+                41.60575406556946,
+                -8.213347691439122
+              ],
+              [
+                41.60555235119002,
+                -8.212906946153511
+              ],
+              [
+                41.60546009549252,
+                -8.212452276041954
+              ],
+              [
+                41.605477298476956,
+                -8.21198368110445
+              ],
+              [
+                41.60560396014332,
+                -8.211501161341
+              ],
+              [
+                41.605840080491625,
+                -8.211004716751601
+              ],
+              [
+                41.60618565952186,
+                -8.210494347336255
+              ],
+              [
+                41.60664069723404,
+                -8.209970053094963
+              ],
+              [
+                41.607041448326,
+                -8.209627890811683
+              ],
+              [
+                41.607387912797755,
+                -8.209467860486416
+              ],
+              [
+                41.60768009064929,
+                -8.209489962119164
+              ],
+              [
+                41.60791798188062,
+                -8.209694195709922
+              ],
+              [
+                41.608101586491735,
+                -8.210080561258694
+              ],
+              [
+                41.60823090448263,
+                -8.21064905876548
+              ],
+              [
+                41.60830593585332,
+                -8.211399688230276
+              ],
+              [
+                41.60832668060381,
+                -8.212332449653085
+              ],
+              [
+                41.60833793842056,
+                -8.213149169454567
+              ],
+              [
+                41.60833970930358,
+                -8.213849847634725
+              ],
+              [
+                41.608331993252875,
+                -8.214434484193555
+              ],
+              [
+                41.60831479026844,
+                -8.21490307913106
+              ],
+              [
+                41.60828810035028,
+                -8.215255632447239
+              ],
+              [
+                41.608251923498386,
+                -8.215492144142093
+              ],
+              [
+                41.60820625971276,
+                -8.215612614215619
+              ],
+              [
+                41.60815110899341,
+                -8.215617042667816
+              ],
+              [
+                41.60805027314606,
+                -8.215569305609277
+              ],
+              [
+                41.60790375217073,
+                -8.215469403039997
+              ],
+              [
+                41.60771154606739,
+                -8.215317334959977
+              ],
+              [
+                41.60747365483606,
+                -8.21511310136922
+              ],
+              [
+                41.60719007847675,
+                -8.21485670226772
+              ],
+              [
+                41.606860816989425,
+                -8.21454813765548
+              ],
+              [
+                41.60648587037412,
+                -8.214187407532503
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.60729593136552,
+    -8.212923514328663
+  ],
+  "centroDeMassa": [
+    41.60649615737988,
+    -8.21188378275048
+  ]
+}

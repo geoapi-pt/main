@@ -1,1 +1,503 @@
-{"CP4":"2615","CP3":"272","Distrito":"Lisboa","Concelho":"Vila Franca de Xira","CP":"2615-272","Artéria":"Rua Encosta da Fonte","Localidade":"Alverca do Ribatejo","Local":"Bairro Vale Doutor","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALVERCA DO RIBATEJO","locais":[{"id":"pt.ine.add.PTCONT.2363688","rua":"R AFONSO COSTA","casa":"5","coordenadas":[38.90697318929226,-9.055641392749674]},{"id":"pt.ine.add.PTCONT.2591017","rua":"R TEÓFILO BRAGA","casa":"","coordenadas":[38.907089554381564,-9.054593810582208]},{"id":"pt.ine.add.PTCONT.2623281","rua":"R TEÓFILO BRAGA","casa":"","coordenadas":[38.90687057181934,-9.054948360037784]},{"id":"pt.ine.add.PTCONT.2636102","rua":"R AFONSO COSTA","casa":"","coordenadas":[38.906912054812445,-9.055398504746295]},{"id":"pt.ine.add.PTCONT.2679744","rua":"R ENCOSTA DA FONTE","casa":"","coordenadas":[38.90723211231674,-9.053650319402369]},{"id":"pt.ine.add.PTCONT.2679752","rua":"R ENCOSTA DA FONTE","casa":"","coordenadas":[38.906650407945875,-9.054311451988816]},{"id":"pt.ine.add.PTCONT.2770400","rua":"R ENCOSTA DA FONTE","casa":"","coordenadas":[38.90694708426428,-9.054384457023032]},{"id":"pt.ine.add.PTCONT.2785286","rua":"R ENCOSTA DA FONTE","casa":"4","coordenadas":[38.90694553770543,-9.054580420182626]},{"id":"pt.ine.add.PTCONT.2860128","rua":"R ENCOSTA DA FONTE","casa":"","coordenadas":[38.90670281091984,-9.054519640152247]},{"id":"pt.ine.add.PTCONT.2867980","rua":"R ENCOSTA DA FONTE","casa":"","coordenadas":[38.906746752756284,-9.054658548881962]},{"id":"pt.ine.add.PTCONT.2884886","rua":"R TEÓFILO BRAGA","casa":"","coordenadas":[38.907087097363025,-9.054905046785338]},{"id":"pt.ine.add.PTCONT.2893815","rua":"R ENCOSTA DA FONTE","casa":"24","coordenadas":[38.906606456717654,-9.05303123526843]},{"id":"pt.ine.add.PTCONT.2959213","rua":"R AFONSO COSTA","casa":"","coordenadas":[38.906642763577736,-9.055279736385213]},{"id":"pt.ine.add.PTCONT.3134548","rua":"R AFONSO COSTA","casa":"49","coordenadas":[38.906608830563535,-9.055014144936898]},{"id":"pt.ine.add.PTCONT.3155971","rua":"R TEÓFILO BRAGA","casa":"","coordenadas":[38.90734228867493,-9.054527907285706]},{"id":"pt.ine.add.PTCONT.3155972","rua":"R TEÓFILO BRAGA","casa":"","coordenadas":[38.90734228867493,-9.054527907285706]},{"id":"pt.ine.add.PTCONT.3218087","rua":"R TEÓFILO BRAGA","casa":"1","coordenadas":[38.90722483727917,-9.054572502723715]},{"id":"pt.ine.add.PTCONT.3374706","rua":"R TEÓFILO BRAGA QUINTINHA S SILVESTRE","casa":"","coordenadas":[38.907603028878704,-9.054588920831101]},{"id":"pt.ine.add.PTCONT.3374707","rua":"R TEÓFILO BRAGA QUINTINHA S SILVESTRE","casa":"","coordenadas":[38.907603028878704,-9.054588920831101]},{"id":"pt.ine.add.PTCONT.3374708","rua":"R TEÓFILO BRAGA QUINTINHA S SILVESTRE","casa":"","coordenadas":[38.907603028878704,-9.054588920831101]},{"id":"pt.ine.add.PTCONT.3422743","rua":"R ENCOSTA DA FONTE","casa":"16","coordenadas":[38.90722664952508,-9.053200638640213]},{"id":"pt.ine.add.PTCONT.3422744","rua":"R ENCOSTA DA FONTE","casa":"16","coordenadas":[38.90722664952508,-9.053200638640213]},{"id":"pt.ine.add.PTCONT.3429481","rua":"R AFONSO COSTA","casa":"","coordenadas":[38.90669461835912,-9.055557088407626]}],"ruas":["R AFONSO COSTA","R TEÓFILO BRAGA","R ENCOSTA DA FONTE","R TEÓFILO BRAGA QUINTINHA S SILVESTRE"],"centroide":[38.90705395567053,-9.054486973917808]}
+{
+  "CP": "2615-272",
+  "CP4": "2615",
+  "CP3": "272",
+  "Distrito": "Lisboa",
+  "Concelho": "Vila Franca de Xira",
+  "Localidade": "Alverca do Ribatejo",
+  "Designação Postal": "ALVERCA DO RIBATEJO",
+  "partes": [
+    {
+      "Artéria": "Rua Teófilo Braga",
+      "Local": "Bairro Vale Doutor",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Afonso Costa",
+      "Local": "Bairro Vale Doutor",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Encosta da Fonte",
+      "Local": "Bairro Vale Doutor",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2363688",
+      "rua": "R AFONSO COSTA",
+      "casa": "5",
+      "coordenadas": [
+        38.90697318929226,
+        -9.055641392749674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2591017",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "",
+      "coordenadas": [
+        38.907089554381564,
+        -9.054593810582208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2623281",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "",
+      "coordenadas": [
+        38.90687057181934,
+        -9.054948360037784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2636102",
+      "rua": "R AFONSO COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.906912054812445,
+        -9.055398504746295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2679744",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "",
+      "coordenadas": [
+        38.90723211231674,
+        -9.053650319402369
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2679752",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "",
+      "coordenadas": [
+        38.906650407945875,
+        -9.054311451988816
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770400",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "",
+      "coordenadas": [
+        38.90694708426428,
+        -9.054384457023032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2785286",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "4",
+      "coordenadas": [
+        38.90694553770543,
+        -9.054580420182626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2860128",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "",
+      "coordenadas": [
+        38.90670281091984,
+        -9.054519640152247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2867980",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "",
+      "coordenadas": [
+        38.906746752756284,
+        -9.054658548881962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2884886",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "",
+      "coordenadas": [
+        38.907087097363025,
+        -9.054905046785338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2893815",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "24",
+      "coordenadas": [
+        38.906606456717654,
+        -9.05303123526843
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2959213",
+      "rua": "R AFONSO COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.906642763577736,
+        -9.055279736385213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3134548",
+      "rua": "R AFONSO COSTA",
+      "casa": "49",
+      "coordenadas": [
+        38.906608830563535,
+        -9.055014144936898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3155971",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "",
+      "coordenadas": [
+        38.90734228867493,
+        -9.054527907285706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3155972",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "",
+      "coordenadas": [
+        38.90734228867493,
+        -9.054527907285706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3218087",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "1",
+      "coordenadas": [
+        38.90722483727917,
+        -9.054572502723715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3374706",
+      "rua": "R TEÓFILO BRAGA QUINTINHA S SILVESTRE",
+      "casa": "",
+      "coordenadas": [
+        38.907603028878704,
+        -9.054588920831101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3374707",
+      "rua": "R TEÓFILO BRAGA QUINTINHA S SILVESTRE",
+      "casa": "",
+      "coordenadas": [
+        38.907603028878704,
+        -9.054588920831101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3374708",
+      "rua": "R TEÓFILO BRAGA QUINTINHA S SILVESTRE",
+      "casa": "",
+      "coordenadas": [
+        38.907603028878704,
+        -9.054588920831101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3422743",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "16",
+      "coordenadas": [
+        38.90722664952508,
+        -9.053200638640213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3422744",
+      "rua": "R ENCOSTA DA FONTE",
+      "casa": "16",
+      "coordenadas": [
+        38.90722664952508,
+        -9.053200638640213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3429481",
+      "rua": "R AFONSO COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.90669461835912,
+        -9.055557088407626
+      ]
+    }
+  ],
+  "ruas": [
+    "R AFONSO COSTA",
+    "R TEÓFILO BRAGA",
+    "R ENCOSTA DA FONTE",
+    "R TEÓFILO BRAGA QUINTINHA S SILVESTRE"
+  ],
+  "centro": [
+    38.90710474279818,
+    -9.054336314009053
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.906607792005964,
+                -9.054146621956942
+              ],
+              [
+                38.906607495275225,
+                -9.053898758248385
+              ],
+              [
+                38.90661692614845,
+                -9.05368452443108
+              ],
+              [
+                38.906636084625625,
+                -9.05350392050503
+              ],
+              [
+                38.906664970706764,
+                -9.053356946470233
+              ],
+              [
+                38.90670358439187,
+                -9.05324360232669
+              ],
+              [
+                38.90675192568092,
+                -9.053163888074401
+              ],
+              [
+                38.90680999457393,
+                -9.053117803713366
+              ],
+              [
+                38.906877791070904,
+                -9.053105349243586
+              ],
+              [
+                38.90695531517183,
+                -9.053126524665057
+              ],
+              [
+                38.90702902968754,
+                -9.05316674506808
+              ],
+              [
+                38.90709893461804,
+                -9.053226010452647
+              ],
+              [
+                38.90716502996332,
+                -9.053304320818768
+              ],
+              [
+                38.90722731572338,
+                -9.053401676166434
+              ],
+              [
+                38.90728579189823,
+                -9.053518076495651
+              ],
+              [
+                38.907340458487866,
+                -9.053653521806414
+              ],
+              [
+                38.90739131549228,
+                -9.053808012098726
+              ],
+              [
+                38.9074383629115,
+                -9.053981547372588
+              ],
+              [
+                38.907469688159765,
+                -9.054149835610943
+              ],
+              [
+                38.90748529123709,
+                -9.054312876813794
+              ],
+              [
+                38.907485172143474,
+                -9.05447067098114
+              ],
+              [
+                38.907469330878925,
+                -9.054623218112983
+              ],
+              [
+                38.90743776744343,
+                -9.054770518209319
+              ],
+              [
+                38.907390481837005,
+                -9.05491257127015
+              ],
+              [
+                38.90732747405964,
+                -9.055049377295475
+              ],
+              [
+                38.90724874411133,
+                -9.0551809362853
+              ],
+              [
+                38.90717550273573,
+                -9.055294733146049
+              ],
+              [
+                38.90710774993284,
+                -9.055390767877725
+              ],
+              [
+                38.90704548570265,
+                -9.05546904048033
+              ],
+              [
+                38.906988710045184,
+                -9.055529550953864
+              ],
+              [
+                38.90693742296042,
+                -9.055572299298323
+              ],
+              [
+                38.90689162444836,
+                -9.055597285513713
+              ],
+              [
+                38.90685131450901,
+                -9.055604509600029
+              ],
+              [
+                38.906816493142365,
+                -9.055593971557272
+              ],
+              [
+                38.906785214215596,
+                -9.055580417144512
+              ],
+              [
+                38.906757477728696,
+                -9.055563846361743
+              ],
+              [
+                38.90673328368167,
+                -9.055544259208968
+              ],
+              [
+                38.90671263207451,
+                -9.055521655686192
+              ],
+              [
+                38.90669552290722,
+                -9.055496035793407
+              ],
+              [
+                38.90668195617981,
+                -9.055467399530617
+              ],
+              [
+                38.90667193189226,
+                -9.055435746897821
+              ],
+              [
+                38.90666545004459,
+                -9.055401077895018
+              ],
+              [
+                38.90665924822453,
+                -9.055366592651186
+              ],
+              [
+                38.90665332643208,
+                -9.055332291166327
+              ],
+              [
+                38.90664768466724,
+                -9.055298173440436
+              ],
+              [
+                38.90664232293002,
+                -9.055264239473516
+              ],
+              [
+                38.90663724122041,
+                -9.055230489265565
+              ],
+              [
+                38.906632439538406,
+                -9.055196922816586
+              ],
+              [
+                38.90662791788402,
+                -9.055163540126575
+              ],
+              [
+                38.90662367625725,
+                -9.055130341195536
+              ],
+              [
+                38.90661992774248,
+                -9.055070309167306
+              ],
+              [
+                38.90661667233971,
+                -9.054983444041888
+              ],
+              [
+                38.906613910048954,
+                -9.054869745819278
+              ],
+              [
+                38.906611640870196,
+                -9.054729214499478
+              ],
+              [
+                38.90660986480344,
+                -9.05456185008249
+              ],
+              [
+                38.9066085818487,
+                -9.054367652568311
+              ],
+              [
+                38.906607792005964,
+                -9.054146621956942
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.90690793384488,
+    -9.054616165317023
+  ],
+  "centroDeMassa": [
+    38.90710474279818,
+    -9.054336314009053
+  ]
+}

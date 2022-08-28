@@ -1,1 +1,519 @@
-{"CP4":"4520","CP3":"317","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4520-317","Artéria":" ","Localidade":"Monte","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FORNOS VFR","locais":[{"id":"pt.ine.add.PTCONT.295982","rua":"R MOINHOS","casa":"456","coordenadas":[40.90794188711907,-8.525988125653647]},{"id":"pt.ine.add.PTCONT.298597","rua":"TV MONTE","casa":"127","coordenadas":[40.910349660008144,-8.524957859255219]},{"id":"pt.ine.add.PTCONT.302470","rua":"R CHÃO DE ALÉM","casa":"","coordenadas":[40.90713057368612,-8.523597664887841]},{"id":"pt.ine.add.PTCONT.319661","rua":"R MONTE","casa":"126","coordenadas":[40.90936004467105,-8.524690891327548]},{"id":"pt.ine.add.PTCONT.337100","rua":"R MONTE","casa":"111","coordenadas":[40.90952063487527,-8.525131005687195]},{"id":"pt.ine.add.PTCONT.348766","rua":"TV MONTE","casa":"118","coordenadas":[40.91012438454395,-8.525004007241304]},{"id":"pt.ine.add.PTCONT.8913","rua":"R NSA SRA DE FÁTIMA","casa":"87","coordenadas":[40.90947244493452,-8.523409662607959]},{"id":"pt.ine.add.PTCONT.19445","rua":"R MOINHOS","casa":"502","coordenadas":[40.90836562734201,-8.525836334470002]},{"id":"pt.ine.add.PTCONT.35646","rua":"R NSA SRA DE FATIMA","casa":"40","coordenadas":[40.9094257338877,-8.523907901077823]},{"id":"pt.ine.add.PTCONT.41165","rua":"R MONTE","casa":"89","coordenadas":[40.909223363131446,-8.525164857940739]},{"id":"pt.ine.add.PTCONT.86824","rua":"R MONTE","casa":"59","coordenadas":[40.90913214679646,-8.52550852908515]},{"id":"pt.ine.add.PTCONT.111866","rua":"TV MONTE","casa":"102","coordenadas":[40.91017699948295,-8.525419750207305]},{"id":"pt.ine.add.PTCONT.121626","rua":"TV MONTE","casa":"52","coordenadas":[40.910202154532094,-8.52596589583971]},{"id":"pt.ine.add.PTCONT.121627","rua":"R MONTE","casa":"64","coordenadas":[40.90888139131534,-8.525103491753896]},{"id":"pt.ine.add.PTCONT.126217","rua":"R MONTALEGRE","casa":"253","coordenadas":[40.912187236192985,-8.524778790618058]},{"id":"pt.ine.add.PTCONT.132233","rua":"TV MONTE","casa":"114","coordenadas":[40.91015927296319,-8.525336558993166]},{"id":"pt.ine.add.PTCONT.134990","rua":"TV MONTE","casa":"116","coordenadas":[40.91015071237897,-8.525205944017644]},{"id":"pt.ine.add.PTCONT.136452","rua":"R CHÃO DE ALÉM","casa":"191","coordenadas":[40.90719300274094,-8.523776066548828]},{"id":"pt.ine.add.PTCONT.137138","rua":"TV MONTE","casa":"165","coordenadas":[40.910225168019636,-8.524494213666562]},{"id":"pt.ine.add.PTCONT.138911","rua":"TV MONTE","casa":"73","coordenadas":[40.910392462843504,-8.52561093626782]},{"id":"pt.ine.add.PTCONT.156585","rua":"R MONTE","casa":"30","coordenadas":[40.90876308070361,-8.52547073955164]},{"id":"pt.ine.add.PTCONT.212871","rua":"R MONTE","casa":"88","coordenadas":[40.90907953213852,-8.525092792602337]},{"id":"pt.ine.add.PTCONT.212872","rua":"R MOINHOS","casa":"472","coordenadas":[40.90816744601574,-8.525858900199124]},{"id":"pt.ine.add.PTCONT.217812","rua":"R MONTE","casa":"41","coordenadas":[40.90896089847776,-8.525554993818986]},{"id":"pt.ine.add.PTCONT.220509","rua":"TV MONTE","casa":"92","coordenadas":[40.91002319489115,-8.525632491532546]},{"id":"pt.ine.add.PTCONT.220513","rua":"R MONTE","casa":"114","coordenadas":[40.90932354269663,-8.524833108088618]},{"id":"pt.ine.add.PTCONT.252809","rua":"R MONTE","casa":"81","coordenadas":[40.90918677984211,-8.525330812302064]},{"id":"pt.ine.add.PTCONT.260519","rua":"R MONTE","casa":"95","coordenadas":[40.909465073412896,-8.525581713485655]},{"id":"pt.ine.add.PTCONT.263723","rua":"TV MONTE","casa":"95","coordenadas":[40.91032107252199,-8.525420601773952]},{"id":"pt.ine.add.PTCONT.271908","rua":"TV MONTE","casa":"14","coordenadas":[40.910462032859314,-8.526335389940344]},{"id":"pt.ine.add.PTCONT.275401","rua":"TV ARMANDO PINTO DE ASSUNÇAO","casa":"162","coordenadas":[40.91503939041354,-8.528107455069277]},{"id":"pt.ine.add.PTCONT.282406","rua":"TV ARMANDO PINTO DE ASSUNÇAO","casa":"154","coordenadas":[40.91493174227333,-8.527988110888991]},{"id":"pt.ine.add.PTCONT.285073","rua":"R NSA SRA DE FÁTIMA","casa":"21","coordenadas":[40.909866756572285,-8.523969844913651]}],"ruas":["R MOINHOS","TV MONTE","R CHÃO DE ALÉM","R MONTE","R NSA SRA DE FÁTIMA","R NSA SRA DE FATIMA","R MONTALEGRE","TV ARMANDO PINTO DE ASSUNÇAO"],"centroide":[40.909791833991,-8.52531548738753]}
+{
+  "CP": "4520-317",
+  "CP4": "4520",
+  "CP3": "317",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Monte",
+  "Designação Postal": "FORNOS VFR",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.295982",
+      "rua": "R MOINHOS",
+      "casa": "456",
+      "coordenadas": [
+        40.90794188711907,
+        -8.525988125653647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.298597",
+      "rua": "TV MONTE",
+      "casa": "127",
+      "coordenadas": [
+        40.910349660008144,
+        -8.524957859255219
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.302470",
+      "rua": "R CHÃO DE ALÉM",
+      "casa": "",
+      "coordenadas": [
+        40.90713057368612,
+        -8.523597664887841
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.319661",
+      "rua": "R MONTE",
+      "casa": "126",
+      "coordenadas": [
+        40.90936004467105,
+        -8.524690891327548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.337100",
+      "rua": "R MONTE",
+      "casa": "111",
+      "coordenadas": [
+        40.90952063487527,
+        -8.525131005687195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.348766",
+      "rua": "TV MONTE",
+      "casa": "118",
+      "coordenadas": [
+        40.91012438454395,
+        -8.525004007241304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.8913",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "87",
+      "coordenadas": [
+        40.90947244493452,
+        -8.523409662607959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.19445",
+      "rua": "R MOINHOS",
+      "casa": "502",
+      "coordenadas": [
+        40.90836562734201,
+        -8.525836334470002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35646",
+      "rua": "R NSA SRA DE FATIMA",
+      "casa": "40",
+      "coordenadas": [
+        40.9094257338877,
+        -8.523907901077823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41165",
+      "rua": "R MONTE",
+      "casa": "89",
+      "coordenadas": [
+        40.909223363131446,
+        -8.525164857940739
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.86824",
+      "rua": "R MONTE",
+      "casa": "59",
+      "coordenadas": [
+        40.90913214679646,
+        -8.52550852908515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.111866",
+      "rua": "TV MONTE",
+      "casa": "102",
+      "coordenadas": [
+        40.91017699948295,
+        -8.525419750207305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.121626",
+      "rua": "TV MONTE",
+      "casa": "52",
+      "coordenadas": [
+        40.910202154532094,
+        -8.52596589583971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.121627",
+      "rua": "R MONTE",
+      "casa": "64",
+      "coordenadas": [
+        40.90888139131534,
+        -8.525103491753896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.126217",
+      "rua": "R MONTALEGRE",
+      "casa": "253",
+      "coordenadas": [
+        40.912187236192985,
+        -8.524778790618058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.132233",
+      "rua": "TV MONTE",
+      "casa": "114",
+      "coordenadas": [
+        40.91015927296319,
+        -8.525336558993166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.134990",
+      "rua": "TV MONTE",
+      "casa": "116",
+      "coordenadas": [
+        40.91015071237897,
+        -8.525205944017644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136452",
+      "rua": "R CHÃO DE ALÉM",
+      "casa": "191",
+      "coordenadas": [
+        40.90719300274094,
+        -8.523776066548828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137138",
+      "rua": "TV MONTE",
+      "casa": "165",
+      "coordenadas": [
+        40.910225168019636,
+        -8.524494213666562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.138911",
+      "rua": "TV MONTE",
+      "casa": "73",
+      "coordenadas": [
+        40.910392462843504,
+        -8.52561093626782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.156585",
+      "rua": "R MONTE",
+      "casa": "30",
+      "coordenadas": [
+        40.90876308070361,
+        -8.52547073955164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.212871",
+      "rua": "R MONTE",
+      "casa": "88",
+      "coordenadas": [
+        40.90907953213852,
+        -8.525092792602337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.212872",
+      "rua": "R MOINHOS",
+      "casa": "472",
+      "coordenadas": [
+        40.90816744601574,
+        -8.525858900199124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217812",
+      "rua": "R MONTE",
+      "casa": "41",
+      "coordenadas": [
+        40.90896089847776,
+        -8.525554993818986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220509",
+      "rua": "TV MONTE",
+      "casa": "92",
+      "coordenadas": [
+        40.91002319489115,
+        -8.525632491532546
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220513",
+      "rua": "R MONTE",
+      "casa": "114",
+      "coordenadas": [
+        40.90932354269663,
+        -8.524833108088618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252809",
+      "rua": "R MONTE",
+      "casa": "81",
+      "coordenadas": [
+        40.90918677984211,
+        -8.525330812302064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.260519",
+      "rua": "R MONTE",
+      "casa": "95",
+      "coordenadas": [
+        40.909465073412896,
+        -8.525581713485655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.263723",
+      "rua": "TV MONTE",
+      "casa": "95",
+      "coordenadas": [
+        40.91032107252199,
+        -8.525420601773952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.271908",
+      "rua": "TV MONTE",
+      "casa": "14",
+      "coordenadas": [
+        40.910462032859314,
+        -8.526335389940344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.275401",
+      "rua": "TV ARMANDO PINTO DE ASSUNÇAO",
+      "casa": "162",
+      "coordenadas": [
+        40.91503939041354,
+        -8.528107455069277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282406",
+      "rua": "TV ARMANDO PINTO DE ASSUNÇAO",
+      "casa": "154",
+      "coordenadas": [
+        40.91493174227333,
+        -8.527988110888991
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.285073",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "21",
+      "coordenadas": [
+        40.909866756572285,
+        -8.523969844913651
+      ]
+    }
+  ],
+  "ruas": [
+    "R MOINHOS",
+    "TV MONTE",
+    "R CHÃO DE ALÉM",
+    "R MONTE",
+    "R NSA SRA DE FÁTIMA",
+    "R NSA SRA DE FATIMA",
+    "R MONTALEGRE",
+    "TV ARMANDO PINTO DE ASSUNÇAO"
+  ],
+  "centro": [
+    40.91108498204983,
+    -8.525758558838618
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.907586937492155,
+                -8.524942299068606
+              ],
+              [
+                40.907485523313035,
+                -8.524643491472883
+              ],
+              [
+                40.907433377644566,
+                -8.524379097291
+              ],
+              [
+                40.90743050048673,
+                -8.52414911652296
+              ],
+              [
+                40.90747689183955,
+                -8.52395354916876
+              ],
+              [
+                40.907572551703026,
+                -8.523792395228403
+              ],
+              [
+                40.90771748007714,
+                -8.52366565470189
+              ],
+              [
+                40.90791167696189,
+                -8.52357332758922
+              ],
+              [
+                40.908155142357295,
+                -8.523515413890392
+              ],
+              [
+                40.908447876263345,
+                -8.523491913605406
+              ],
+              [
+                40.908746437044556,
+                -8.523492743481203
+              ],
+              [
+                40.90905082470091,
+                -8.523517903517778
+              ],
+              [
+                40.90936103923244,
+                -8.523567393715137
+              ],
+              [
+                40.90967708063912,
+                -8.523641214073276
+              ],
+              [
+                40.90999894892096,
+                -8.523739364592195
+              ],
+              [
+                40.91032664407795,
+                -8.523861845271895
+              ],
+              [
+                40.9106601661101,
+                -8.524008656112377
+              ],
+              [
+                40.91099951501741,
+                -8.52417979711364
+              ],
+              [
+                40.911341010221,
+                -8.524381555871795
+              ],
+              [
+                40.91168465172087,
+                -8.524613932386842
+              ],
+              [
+                40.912030439517025,
+                -8.524876926658782
+              ],
+              [
+                40.91237837360947,
+                -8.525170538687613
+              ],
+              [
+                40.91272845399819,
+                -8.525494768473338
+              ],
+              [
+                40.91308068068319,
+                -8.525849616015956
+              ],
+              [
+                40.91343505366447,
+                -8.526235081315466
+              ],
+              [
+                40.913791572942046,
+                -8.526651164371868
+              ],
+              [
+                40.91399262882095,
+                -8.526982122524101
+              ],
+              [
+                40.91403822130117,
+                -8.527227955772165
+              ],
+              [
+                40.913928350382726,
+                -8.527388664116058
+              ],
+              [
+                40.913663016065605,
+                -8.527464247555784
+              ],
+              [
+                40.913242218349815,
+                -8.527454706091339
+              ],
+              [
+                40.91266595723535,
+                -8.527360039722723
+              ],
+              [
+                40.91193423272221,
+                -8.527180248449937
+              ],
+              [
+                40.9110470448104,
+                -8.526915332272985
+              ],
+              [
+                40.91025807861518,
+                -8.526646179668685
+              ],
+              [
+                40.90956733413654,
+                -8.526372790637037
+              ],
+              [
+                40.90897481137449,
+                -8.526095165178045
+              ],
+              [
+                40.90848051032903,
+                -8.525813303291704
+              ],
+              [
+                40.90808443100015,
+                -8.525527204978019
+              ],
+              [
+                40.90778657338786,
+                -8.525236870236984
+              ],
+              [
+                40.907586937492155,
+                -8.524942299068606
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.910354306469245,
+    -8.525176339767356
+  ],
+  "centroDeMassa": [
+    40.91108498204983,
+    -8.525758558838618
+  ]
+}

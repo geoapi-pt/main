@@ -1,1 +1,646 @@
-{"CP4":"7470","CP3":"117","Distrito":"Portalegre","Concelho":"Sousel","CP":"7470-117","Artéria":"Rua Adriano Rovisco dos Santos","Localidade":"Casa Branca","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CASA BRANCA","locais":[{"id":"pt.ine.add.PTCONT.3534637","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"23-21","coordenadas":[38.94871654992136,-7.810403028380113]},{"id":"pt.ine.add.PTCONT.3537644","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"42","coordenadas":[38.94900607077159,-7.810863136044964]},{"id":"pt.ine.add.PTCONT.3538184","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"6","coordenadas":[38.94852364921539,-7.809054257506753]},{"id":"pt.ine.add.PTCONT.3538293","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"4","coordenadas":[38.948505441663144,-7.808985127835434]},{"id":"pt.ine.add.PTCONT.3459266","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"17","coordenadas":[38.9486890483347,-7.810230121196468]},{"id":"pt.ine.add.PTCONT.3463232","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"16","coordenadas":[38.94873300118173,-7.809837715966827]},{"id":"pt.ine.add.PTCONT.3464231","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"9","coordenadas":[38.94856185510067,-7.80983849332497]},{"id":"pt.ine.add.PTCONT.3469432","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"36","coordenadas":[38.94895129184486,-7.8105980675398365]},{"id":"pt.ine.add.PTCONT.3474774","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"13","coordenadas":[38.94864362689069,-7.810091901838852]},{"id":"pt.ine.add.PTCONT.3475868","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"7","coordenadas":[38.94851624140071,-7.809631062755553]},{"id":"pt.ine.add.PTCONT.3478865","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"34","coordenadas":[38.94892391809946,-7.810471301117855]},{"id":"pt.ine.add.PTCONT.3483148","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"15","coordenadas":[38.94867084147746,-7.810160991059112]},{"id":"pt.ine.add.PTCONT.3489382","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"29 29A","coordenadas":[38.94884393237036,-7.810863870160838]},{"id":"pt.ine.add.PTCONT.3491297","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"1","coordenadas":[38.94837048649149,-7.809043419457558]},{"id":"pt.ine.add.PTCONT.3494433","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"48","coordenadas":[38.949060562658985,-7.811024386586394]},{"id":"pt.ine.add.PTCONT.3503275","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"25","coordenadas":[38.94878908969703,-7.810575731597132]},{"id":"pt.ine.add.PTCONT.3506405","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"44","coordenadas":[38.94902434089322,-7.810955337427895]},{"id":"pt.ine.add.PTCONT.3507753","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"2","coordenadas":[38.948478162300695,-7.808892968673408]},{"id":"pt.ine.add.PTCONT.3509696","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"5","coordenadas":[38.94843424462697,-7.809296908329634]},{"id":"pt.ine.add.PTCONT.3513060","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"40","coordenadas":[38.94896949844399,-7.810667198062711]},{"id":"pt.ine.add.PTCONT.3513062","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"33","coordenadas":[38.9489438764155,-7.811174876147168]},{"id":"pt.ine.add.PTCONT.3514439","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"28","coordenadas":[38.94887852883955,-7.810344616493941]},{"id":"pt.ine.add.PTCONT.3515440","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"24","coordenadas":[38.948814932577896,-7.810148801758487]},{"id":"pt.ine.add.PTCONT.3518261","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"20","coordenadas":[38.94876928748836,-7.8099298349233335]},{"id":"pt.ine.add.PTCONT.3520712","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"8","coordenadas":[38.948660204554976,-7.809572731177166]},{"id":"pt.ine.add.PTCONT.3525015","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"10","coordenadas":[38.94871469822079,-7.809733979936393]},{"id":"pt.ine.add.PTCONT.3525886","rua":"R POSTO","casa":"22","coordenadas":[38.94878762220442,-7.81004510641445]},{"id":"pt.ine.add.PTCONT.3525939","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"3A","coordenadas":[38.948397893797626,-7.809181719600755]},{"id":"pt.ine.add.PTCONT.3529270","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"26","coordenadas":[38.94884221095107,-7.8102409618439586]},{"id":"pt.ine.add.PTCONT.3530787","rua":"R ADRIANO ROVISCO DOS SANTOS","casa":"19","coordenadas":[38.94869831126611,-7.810322362855665]}],"ruas":["R ADRIANO ROVISCO DOS SANTOS","R POSTO"],"centroide":[38.94873176235981,-7.810064057005446]}
+{
+  "CP": "7470-117",
+  "CP4": "7470",
+  "CP3": "117",
+  "Distrito": "Portalegre",
+  "Concelho": "Sousel",
+  "Localidade": "Casa Branca",
+  "Designação Postal": "CASA BRANCA",
+  "partes": [
+    {
+      "Artéria": "Rua Adriano Rovisco dos Santos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3534637",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "23-21",
+      "coordenadas": [
+        38.94871654992136,
+        -7.810403028380113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3537644",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "42",
+      "coordenadas": [
+        38.94900607077159,
+        -7.810863136044964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3538184",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "6",
+      "coordenadas": [
+        38.94852364921539,
+        -7.809054257506753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3538293",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "4",
+      "coordenadas": [
+        38.948505441663144,
+        -7.808985127835434
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3459266",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "17",
+      "coordenadas": [
+        38.9486890483347,
+        -7.810230121196468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3463232",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "16",
+      "coordenadas": [
+        38.94873300118173,
+        -7.809837715966827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3464231",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "9",
+      "coordenadas": [
+        38.94856185510067,
+        -7.80983849332497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3469432",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "36",
+      "coordenadas": [
+        38.94895129184486,
+        -7.8105980675398365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3474774",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "13",
+      "coordenadas": [
+        38.94864362689069,
+        -7.810091901838852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3475868",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "7",
+      "coordenadas": [
+        38.94851624140071,
+        -7.809631062755553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478865",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "34",
+      "coordenadas": [
+        38.94892391809946,
+        -7.810471301117855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3483148",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "15",
+      "coordenadas": [
+        38.94867084147746,
+        -7.810160991059112
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3489382",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "29 29A",
+      "coordenadas": [
+        38.94884393237036,
+        -7.810863870160838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491297",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.94837048649149,
+        -7.809043419457558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3494433",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "48",
+      "coordenadas": [
+        38.949060562658985,
+        -7.811024386586394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3503275",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "25",
+      "coordenadas": [
+        38.94878908969703,
+        -7.810575731597132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3506405",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "44",
+      "coordenadas": [
+        38.94902434089322,
+        -7.810955337427895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3507753",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "2",
+      "coordenadas": [
+        38.948478162300695,
+        -7.808892968673408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509696",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "5",
+      "coordenadas": [
+        38.94843424462697,
+        -7.809296908329634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513060",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "40",
+      "coordenadas": [
+        38.94896949844399,
+        -7.810667198062711
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513062",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "33",
+      "coordenadas": [
+        38.9489438764155,
+        -7.811174876147168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3514439",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "28",
+      "coordenadas": [
+        38.94887852883955,
+        -7.810344616493941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515440",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "24",
+      "coordenadas": [
+        38.948814932577896,
+        -7.810148801758487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3518261",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "20",
+      "coordenadas": [
+        38.94876928748836,
+        -7.8099298349233335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3520712",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "8",
+      "coordenadas": [
+        38.948660204554976,
+        -7.809572731177166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3525015",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "10",
+      "coordenadas": [
+        38.94871469822079,
+        -7.809733979936393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3525886",
+      "rua": "R POSTO",
+      "casa": "22",
+      "coordenadas": [
+        38.94878762220442,
+        -7.81004510641445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3525939",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "3A",
+      "coordenadas": [
+        38.948397893797626,
+        -7.809181719600755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3529270",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "26",
+      "coordenadas": [
+        38.94884221095107,
+        -7.8102409618439586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530787",
+      "rua": "R ADRIANO ROVISCO DOS SANTOS",
+      "casa": "19",
+      "coordenadas": [
+        38.94869831126611,
+        -7.810322362855665
+      ]
+    }
+  ],
+  "ruas": [
+    "R ADRIANO ROVISCO DOS SANTOS",
+    "R POSTO"
+  ],
+  "centro": [
+    38.948715524575235,
+    -7.810033922410288
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.9483859031012,
+                -7.8091212132881065
+              ],
+              [
+                38.94838247718792,
+                -7.8091039257702075
+              ],
+              [
+                38.94838116194833,
+                -7.809086448398542
+              ],
+              [
+                38.94838195738242,
+                -7.809068781173112
+              ],
+              [
+                38.94838486349019,
+                -7.809050924093918
+              ],
+              [
+                38.948389880271634,
+                -7.809032877160959
+              ],
+              [
+                38.948397007726754,
+                -7.809014640374236
+              ],
+              [
+                38.94840624585555,
+                -7.808996213733747
+              ],
+              [
+                38.94841759465802,
+                -7.808977597239493
+              ],
+              [
+                38.94843105413417,
+                -7.808958790891475
+              ],
+              [
+                38.94844325741584,
+                -7.808943775323865
+              ],
+              [
+                38.94845420450303,
+                -7.808932550536664
+              ],
+              [
+                38.94846389539574,
+                -7.808925116529872
+              ],
+              [
+                38.94847233009396,
+                -7.8089214733034895
+              ],
+              [
+                38.948479508597714,
+                -7.808921620857516
+              ],
+              [
+                38.94848543090698,
+                -7.80892555919195
+              ],
+              [
+                38.94849009702176,
+                -7.808933288306794
+              ],
+              [
+                38.94849350694207,
+                -7.808944808202048
+              ],
+              [
+                38.948503029316655,
+                -7.808978109567931
+              ],
+              [
+                38.948518664145524,
+                -7.8090331924044465
+              ],
+              [
+                38.94854041142867,
+                -7.809110056711594
+              ],
+              [
+                38.94856827116609,
+                -7.8092087024893715
+              ],
+              [
+                38.94860224335779,
+                -7.8093291297377805
+              ],
+              [
+                38.94864232800378,
+                -7.809471338456822
+              ],
+              [
+                38.94868852510403,
+                -7.809635328646493
+              ],
+              [
+                38.94874083465857,
+                -7.809821100306795
+              ],
+              [
+                38.94878874059003,
+                -7.809992292470007
+              ],
+              [
+                38.94883224289842,
+                -7.810148905136126
+              ],
+              [
+                38.94887134158374,
+                -7.810290938305153
+              ],
+              [
+                38.94890603664598,
+                -7.8104183919770875
+              ],
+              [
+                38.94893632808514,
+                -7.81053126615193
+              ],
+              [
+                38.94896221590123,
+                -7.810629560829682
+              ],
+              [
+                38.94898370009425,
+                -7.810713276010341
+              ],
+              [
+                38.94900078066419,
+                -7.810782411693908
+              ],
+              [
+                38.94901390294034,
+                -7.810845256816417
+              ],
+              [
+                38.949023066922685,
+                -7.8109018113778665
+              ],
+              [
+                38.94902827261123,
+                -7.810952075378258
+              ],
+              [
+                38.94902952000599,
+                -7.810996048817589
+              ],
+              [
+                38.94902680910695,
+                -7.811033731695863
+              ],
+              [
+                38.949020139914104,
+                -7.811065124013077
+              ],
+              [
+                38.949009512427466,
+                -7.811090225769233
+              ],
+              [
+                38.94899492664702,
+                -7.8111090369643295
+              ],
+              [
+                38.948980602463436,
+                -7.811120637291502
+              ],
+              [
+                38.94896653987669,
+                -7.8111250267507515
+              ],
+              [
+                38.94895273888681,
+                -7.811122205342078
+              ],
+              [
+                38.94893919949377,
+                -7.811112173065481
+              ],
+              [
+                38.94892592169758,
+                -7.81109492992096
+              ],
+              [
+                38.94891290549825,
+                -7.811070475908516
+              ],
+              [
+                38.94890015089575,
+                -7.811038811028149
+              ],
+              [
+                38.94888765789011,
+                -7.810999935279858
+              ],
+              [
+                38.94887473615941,
+                -7.810958718347279
+              ],
+              [
+                38.94886138570365,
+                -7.8109151602304125
+              ],
+              [
+                38.948847606522826,
+                -7.810869260929259
+              ],
+              [
+                38.948833398616934,
+                -7.810821020443818
+              ],
+              [
+                38.94881876198599,
+                -7.81077043877409
+              ],
+              [
+                38.94880369662999,
+                -7.810717515920074
+              ],
+              [
+                38.94878820254892,
+                -7.810662251881771
+              ],
+              [
+                38.94877227974279,
+                -7.81060464665918
+              ],
+              [
+                38.94875593018086,
+                -7.810545421229176
+              ],
+              [
+                38.948739153863116,
+                -7.81048457559176
+              ],
+              [
+                38.94872195078957,
+                -7.8104221097469315
+              ],
+              [
+                38.948704320960225,
+                -7.81035802369469
+              ],
+              [
+                38.94868626437506,
+                -7.810292317435035
+              ],
+              [
+                38.94866778103409,
+                -7.810224990967968
+              ],
+              [
+                38.94864887093731,
+                -7.810156044293488
+              ],
+              [
+                38.94862953408472,
+                -7.8100854774115955
+              ],
+              [
+                38.94861005244335,
+                -7.810013469300498
+              ],
+              [
+                38.94859042601319,
+                -7.809940019960197
+              ],
+              [
+                38.94857065479424,
+                -7.809865129390691
+              ],
+              [
+                38.94855073878651,
+                -7.809788797591981
+              ],
+              [
+                38.948530677989986,
+                -7.809711024564067
+              ],
+              [
+                38.94851047240468,
+                -7.809631810306948
+              ],
+              [
+                38.94849012203059,
+                -7.809551154820626
+              ],
+              [
+                38.948469626867706,
+                -7.809469058105099
+              ],
+              [
+                38.94845126536103,
+                -7.809395062539275
+              ],
+              [
+                38.948435037510556,
+                -7.809329168123156
+              ],
+              [
+                38.94842094331628,
+                -7.809271374856739
+              ],
+              [
+                38.948408982778204,
+                -7.809221682740025
+              ],
+              [
+                38.94839915589633,
+                -7.809180091773015
+              ],
+              [
+                38.94839146267066,
+                -7.809146601955709
+              ],
+              [
+                38.9483859031012,
+                -7.8091212132881065
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.948680267881926,
+    -7.80998791912845
+  ],
+  "centroDeMassa": [
+    38.948715524575235,
+    -7.810033922410288
+  ]
+}

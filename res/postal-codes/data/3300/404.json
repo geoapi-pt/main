@@ -1,1 +1,436 @@
-{"CP4":"3300","CP3":"404","Distrito":"Coimbra","Concelho":"Arganil","CP":"3300-404","Artéria":"Rua Alberto César das Neves","Localidade":"Sarzedo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SARZEDO AGN","locais":[{"id":"pt.ine.add.PTCONT.1108058","rua":"R ALBERTO CESAR DAS NEVES","casa":"2","coordenadas":[40.23993231694207,-8.070225105260064]},{"id":"pt.ine.add.PTCONT.1125743","rua":"R ALBERTO CESAR DAS NEVES OS MEUS PENDRICALHOS","casa":"","coordenadas":[40.240976761248525,-8.069801072087792]},{"id":"pt.ine.add.PTCONT.1135212","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.240589511077346,-8.06980143277993]},{"id":"pt.ine.add.PTCONT.1174064","rua":"R ALBERTO CESAR DAS NEVES VILA PAIVA","casa":"1982","coordenadas":[40.240931854080394,-8.070024399062618]},{"id":"pt.ine.add.PTCONT.1177209","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24060740681442,-8.069589883824323]},{"id":"pt.ine.add.PTCONT.1183922","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24042736132107,-8.069719321468902]},{"id":"pt.ine.add.PTCONT.1185604","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.239851155850246,-8.070025402075434]},{"id":"pt.ine.add.PTCONT.1191465","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.240490421354,-8.069754517978776]},{"id":"pt.ine.add.PTCONT.1198180","rua":"R ALBERTO CESAR DAS NEVES FAMILIA FONSECA","casa":"","coordenadas":[40.24049038917479,-8.06969575914122]},{"id":"pt.ine.add.PTCONT.1222098","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.23990526115251,-8.07015462025668]},{"id":"pt.ine.add.PTCONT.1258667","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24044516638125,-8.069343248361806]},{"id":"pt.ine.add.PTCONT.1276603","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24055332672883,-8.06950767187264]},{"id":"pt.ine.add.PTCONT.1276604","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.23986926343398,-8.07020166026196]},{"id":"pt.ine.add.PTCONT.1293283","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24013023360765,-8.069837115684287]},{"id":"pt.ine.add.PTCONT.1301718","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24061647706888,-8.06970739330103]},{"id":"pt.ine.add.PTCONT.1305088","rua":"R ALBERTO CESAR DAS NEVES","casa":"","coordenadas":[40.24047233243701,-8.06961351359476]},{"id":"pt.ine.add.PTCONT.1311074","rua":"LAD FONTE DE CIMA","casa":"","coordenadas":[40.241940684472226,-8.07035251938246]},{"id":"pt.ine.add.PTCONT.1329374","rua":"R ALBERTO CESAR DAS NEVES FAMILIA BENTO E FAMILIA GAMA","casa":"","coordenadas":[40.241048859176665,-8.069895019894238]},{"id":"pt.ine.add.PTCONT.1329375","rua":"R ALBERTO CESAR DAS NEVES FAMILIA BENTO E FAMILIA GAMA","casa":"","coordenadas":[40.241048859176665,-8.069895019894238]},{"id":"pt.ine.add.PTCONT.1329828","rua":"R ALBERTO CESAR DAS NEVES AMB","casa":"","coordenadas":[40.24112993078462,-8.069930200145873]}],"ruas":["R ALBERTO CESAR DAS NEVES","R ALBERTO CESAR DAS NEVES OS MEUS PENDRICALHOS","R ALBERTO CESAR DAS NEVES VILA PAIVA","R ALBERTO CESAR DAS NEVES FAMILIA FONSECA","LAD FONTE DE CIMA","R ALBERTO CESAR DAS NEVES FAMILIA BENTO E FAMILIA GAMA","R ALBERTO CESAR DAS NEVES AMB"],"centroide":[40.24054356007886,-8.069849719799114]}}
+{
+  "CP": "3300-404",
+  "CP4": "3300",
+  "CP3": "404",
+  "Distrito": "Coimbra",
+  "Concelho": "Arganil",
+  "Localidade": "Sarzedo",
+  "Designação Postal": "SARZEDO AGN",
+  "partes": [
+    {
+      "Artéria": "Rua Padre João Duarte da Paz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco de São João Baptista",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Ladeira da Fonte de Cima",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Acúrsio das Neves",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quelha Padre Américo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Alberto César das Neves",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1108058",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "2",
+      "coordenadas": [
+        40.23993231694207,
+        -8.070225105260064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1125743",
+      "rua": "R ALBERTO CESAR DAS NEVES OS MEUS PENDRICALHOS",
+      "casa": "",
+      "coordenadas": [
+        40.240976761248525,
+        -8.069801072087792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1135212",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.240589511077346,
+        -8.06980143277993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1174064",
+      "rua": "R ALBERTO CESAR DAS NEVES VILA PAIVA",
+      "casa": "1982",
+      "coordenadas": [
+        40.240931854080394,
+        -8.070024399062618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1177209",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24060740681442,
+        -8.069589883824323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1183922",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24042736132107,
+        -8.069719321468902
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185604",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.239851155850246,
+        -8.070025402075434
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1191465",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.240490421354,
+        -8.069754517978776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1198180",
+      "rua": "R ALBERTO CESAR DAS NEVES FAMILIA FONSECA",
+      "casa": "",
+      "coordenadas": [
+        40.24049038917479,
+        -8.06969575914122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1222098",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.23990526115251,
+        -8.07015462025668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1258667",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24044516638125,
+        -8.069343248361806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1276603",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24055332672883,
+        -8.06950767187264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1276604",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.23986926343398,
+        -8.07020166026196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1293283",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24013023360765,
+        -8.069837115684287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1301718",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24061647706888,
+        -8.06970739330103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1305088",
+      "rua": "R ALBERTO CESAR DAS NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.24047233243701,
+        -8.06961351359476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1311074",
+      "rua": "LAD FONTE DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        40.241940684472226,
+        -8.07035251938246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1329374",
+      "rua": "R ALBERTO CESAR DAS NEVES FAMILIA BENTO E FAMILIA GAMA",
+      "casa": "",
+      "coordenadas": [
+        40.241048859176665,
+        -8.069895019894238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1329375",
+      "rua": "R ALBERTO CESAR DAS NEVES FAMILIA BENTO E FAMILIA GAMA",
+      "casa": "",
+      "coordenadas": [
+        40.241048859176665,
+        -8.069895019894238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1329828",
+      "rua": "R ALBERTO CESAR DAS NEVES AMB",
+      "casa": "",
+      "coordenadas": [
+        40.24112993078462,
+        -8.069930200145873
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALBERTO CESAR DAS NEVES",
+    "R ALBERTO CESAR DAS NEVES OS MEUS PENDRICALHOS",
+    "R ALBERTO CESAR DAS NEVES VILA PAIVA",
+    "R ALBERTO CESAR DAS NEVES FAMILIA FONSECA",
+    "LAD FONTE DE CIMA",
+    "R ALBERTO CESAR DAS NEVES FAMILIA BENTO E FAMILIA GAMA",
+    "R ALBERTO CESAR DAS NEVES AMB"
+  ],
+  "centro": [
+    40.240895920161236,
+    -8.069847883872132
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.2398613413661,
+                -8.070124547305355
+              ],
+              [
+                40.23985907791813,
+                -8.07010251503204
+              ],
+              [
+                40.239866378815705,
+                -8.070072578141113
+              ],
+              [
+                40.23988324405883,
+                -8.070034736632575
+              ],
+              [
+                40.23990967364749,
+                -8.069988990506427
+              ],
+              [
+                40.239945667581694,
+                -8.069935339762665
+              ],
+              [
+                40.239991225861445,
+                -8.069873784401295
+              ],
+              [
+                40.24004634848673,
+                -8.069804324422314
+              ],
+              [
+                40.24011103545756,
+                -8.069726959825722
+              ],
+              [
+                40.24018528677394,
+                -8.069641690611519
+              ],
+              [
+                40.24027362414593,
+                -8.06958284990879
+              ],
+              [
+                40.24037604757356,
+                -8.069550437717531
+              ],
+              [
+                40.24049255705681,
+                -8.069544454037748
+              ],
+              [
+                40.240623152595674,
+                -8.069564898869436
+              ],
+              [
+                40.24076783419018,
+                -8.069611772212598
+              ],
+              [
+                40.2409266018403,
+                -8.069685074067234
+              ],
+              [
+                40.24109945554605,
+                -8.069784804433342
+              ],
+              [
+                40.24128639530743,
+                -8.069910963310923
+              ],
+              [
+                40.241418586855964,
+                -8.070019361483144
+              ],
+              [
+                40.241496030191676,
+                -8.070109998950006
+              ],
+              [
+                40.24151872531456,
+                -8.070182875711508
+              ],
+              [
+                40.24148667222461,
+                -8.07023799176765
+              ],
+              [
+                40.24139987092184,
+                -8.070275347118432
+              ],
+              [
+                40.24125832140622,
+                -8.070294941763851
+              ],
+              [
+                40.241062023677785,
+                -8.070296775703913
+              ],
+              [
+                40.240810977736515,
+                -8.070280848938612
+              ],
+              [
+                40.24059032732684,
+                -8.07026654669088
+              ],
+              [
+                40.240400072448764,
+                -8.070253868960714
+              ],
+              [
+                40.240240213102275,
+                -8.070242815748117
+              ],
+              [
+                40.24011074928738,
+                -8.070233387053086
+              ],
+              [
+                40.24001168100409,
+                -8.070225582875622
+              ],
+              [
+                40.23994300825238,
+                -8.070219403215724
+              ],
+              [
+                40.23990473103228,
+                -8.070214848073393
+              ],
+              [
+                40.239896849343765,
+                -8.070211917448631
+              ],
+              [
+                40.23988966993532,
+                -8.0702065991178
+              ],
+              [
+                40.23988319280696,
+                -8.070198893080898
+              ],
+              [
+                40.239877417958645,
+                -8.070188799337927
+              ],
+              [
+                40.23987234539041,
+                -8.070176317888887
+              ],
+              [
+                40.239867975102236,
+                -8.07016144873378
+              ],
+              [
+                40.23986430709414,
+                -8.070144191872602
+              ],
+              [
+                40.2398613413661,
+                -8.070124547305355
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.240407717415955,
+    -8.070029587068344
+  ],
+  "centroDeMassa": [
+    40.240895920161236,
+    -8.069847883872132
+  ]
+}

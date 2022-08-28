@@ -1,1 +1,414 @@
-{"CP4":"2005","CP3":"242","Distrito":"Santarém","Concelho":"Santarém","CP":"2005-242","Artéria":"Urbanização Olival do Arame","Localidade":"Santarém","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTARÉM","locais":[{"id":"pt.ine.add.PTCONT.4398560","rua":"URB OLIVAL ARAME","casa":"2","coordenadas":[39.23769426722068,-8.696013062041402]},{"id":"pt.ine.add.PTCONT.4398563","rua":"URB OLIVAL ARAME","casa":"LOTE","coordenadas":[39.23769426722068,-8.696013062041402]},{"id":"pt.ine.add.PTCONT.4470558","rua":"URB OLIVAL ARAME","casa":"6","coordenadas":[39.23726573722569,-8.695222027889622]},{"id":"pt.ine.add.PTCONT.4470560","rua":"URB OLIVAL ARAME","casa":"6","coordenadas":[39.23726573722569,-8.695222027889622]},{"id":"pt.ine.add.PTCONT.4483278","rua":"URB OLIVAL ARAME","casa":"3","coordenadas":[39.23758707927969,-8.69582688470447]},{"id":"pt.ine.add.PTCONT.4483292","rua":"URB OLIVAL ARAME","casa":"3","coordenadas":[39.23758707927969,-8.69582688470447]},{"id":"pt.ine.add.PTCONT.4500516","rua":"URB OLIVAL ARAME","casa":"7","coordenadas":[39.2372127014525,-8.695013119913712]},{"id":"pt.ine.add.PTCONT.4500578","rua":"URB OLIVAL ARAME","casa":"7","coordenadas":[39.2372127014525,-8.695013119913712]},{"id":"pt.ine.add.PTCONT.4500581","rua":"URB OLIVAL ARAME","casa":"7","coordenadas":[39.2372127014525,-8.695013119913712]},{"id":"pt.ine.add.PTCONT.4508628","rua":"URB OLIVAL ARAME","casa":"2071 4","coordenadas":[39.23750668812465,-8.695687252072563]},{"id":"pt.ine.add.PTCONT.4508630","rua":"URB OLIVAL ARAME","casa":"4","coordenadas":[39.23750668812465,-8.695687252072563]},{"id":"pt.ine.add.PTCONT.4508631","rua":"URB OLIVAL ARAME","casa":"4","coordenadas":[39.23750668812465,-8.695687252072563]},{"id":"pt.ine.add.PTCONT.4603228","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603229","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603230","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603231","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603232","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603233","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603234","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4603235","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4604262","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]},{"id":"pt.ine.add.PTCONT.4604295","rua":"R ATRIZ ALDA RODRIGUES","casa":"5","coordenadas":[39.23735496816565,-8.695396477599367]}],"ruas":["URB OLIVAL ARAME","R ATRIZ ALDA RODRIGUES"],"centroide":[39.237402240460675,-8.695466350648765]}
+{
+  "CP": "2005-242",
+  "CP4": "2005",
+  "CP3": "242",
+  "Distrito": "Santarém",
+  "Concelho": "Santarém",
+  "Localidade": "Santarém",
+  "Designação Postal": "SANTARÉM",
+  "partes": [
+    {
+      "Artéria": "Urbanização Olival do Arame",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4398560",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "2",
+      "coordenadas": [
+        39.23769426722068,
+        -8.696013062041402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4398563",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "LOTE",
+      "coordenadas": [
+        39.23769426722068,
+        -8.696013062041402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470558",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "6",
+      "coordenadas": [
+        39.23726573722569,
+        -8.695222027889622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470560",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "6",
+      "coordenadas": [
+        39.23726573722569,
+        -8.695222027889622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4483278",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "3",
+      "coordenadas": [
+        39.23758707927969,
+        -8.69582688470447
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4483292",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "3",
+      "coordenadas": [
+        39.23758707927969,
+        -8.69582688470447
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500516",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "7",
+      "coordenadas": [
+        39.2372127014525,
+        -8.695013119913712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500578",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "7",
+      "coordenadas": [
+        39.2372127014525,
+        -8.695013119913712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500581",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "7",
+      "coordenadas": [
+        39.2372127014525,
+        -8.695013119913712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4508628",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "2071 4",
+      "coordenadas": [
+        39.23750668812465,
+        -8.695687252072563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4508630",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "4",
+      "coordenadas": [
+        39.23750668812465,
+        -8.695687252072563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4508631",
+      "rua": "URB OLIVAL ARAME",
+      "casa": "4",
+      "coordenadas": [
+        39.23750668812465,
+        -8.695687252072563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603228",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603229",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603230",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603231",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603232",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603233",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603234",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603235",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4604262",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4604295",
+      "rua": "R ATRIZ ALDA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.23735496816565,
+        -8.695396477599367
+      ]
+    }
+  ],
+  "ruas": [
+    "URB OLIVAL ARAME",
+    "R ATRIZ ALDA RODRIGUES"
+  ],
+  "centro": [
+    39.23745348433659,
+    -8.695513090977556
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.23724253407492,
+                -8.695130630650162
+              ],
+              [
+                39.23723590460327,
+                -8.695104517153172
+              ],
+              [
+                39.23723762828071,
+                -8.695097291939053
+              ],
+              [
+                39.23724770510722,
+                -8.6951089550078
+              ],
+              [
+                39.23726613508283,
+                -8.695139506359418
+              ],
+              [
+                39.237292918207515,
+                -8.695188945993905
+              ],
+              [
+                39.23732805448128,
+                -8.695257273911261
+              ],
+              [
+                39.23737154390414,
+                -8.695344490111484
+              ],
+              [
+                39.23742338647608,
+                -8.695450594594577
+              ],
+              [
+                39.2374835821971,
+                -8.695575587360537
+              ],
+              [
+                39.23753332252963,
+                -8.69567986524999
+              ],
+              [
+                39.23757260747364,
+                -8.695763428262936
+              ],
+              [
+                39.237601437029156,
+                -8.695826276399371
+              ],
+              [
+                39.237619811196154,
+                -8.6958684096593
+              ],
+              [
+                39.23762772997466,
+                -8.69588982804272
+              ],
+              [
+                39.237625193364664,
+                -8.69589053154963
+              ],
+              [
+                39.23761220136616,
+                -8.695870520180033
+              ],
+              [
+                39.23758875397917,
+                -8.695829793933932
+              ],
+              [
+                39.237565866891174,
+                -8.695789615117446
+              ],
+              [
+                39.23754354010221,
+                -8.695749983730579
+              ],
+              [
+                39.237521773612244,
+                -8.695710899773333
+              ],
+              [
+                39.23750056742131,
+                -8.695672363245704
+              ],
+              [
+                39.23747992152938,
+                -8.695634374147696
+              ],
+              [
+                39.23745983593648,
+                -8.695596932479308
+              ],
+              [
+                39.23744031064258,
+                -8.69556003824054
+              ],
+              [
+                39.23742134564771,
+                -8.69552369143139
+              ],
+              [
+                39.23740335704376,
+                -8.69548916219667
+              ],
+              [
+                39.237386344830725,
+                -8.695456450536378
+              ],
+              [
+                39.237370309008625,
+                -8.695425556450516
+              ],
+              [
+                39.23735524957743,
+                -8.695396479939081
+              ],
+              [
+                39.23734116653718,
+                -8.695369221002077
+              ],
+              [
+                39.23732805988783,
+                -8.6953437796395
+              ],
+              [
+                39.23731592962942,
+                -8.695320155851354
+              ],
+              [
+                39.23730477576193,
+                -8.695298349637635
+              ],
+              [
+                39.23729418744391,
+                -8.69527600501351
+              ],
+              [
+                39.23728416467537,
+                -8.695253121978974
+              ],
+              [
+                39.23727470745632,
+                -8.695229700534028
+              ],
+              [
+                39.23726581578675,
+                -8.695205740678675
+              ],
+              [
+                39.23725748966666,
+                -8.695181242412913
+              ],
+              [
+                39.23724972909605,
+                -8.69515620573674
+              ],
+              [
+                39.23724253407492,
+                -8.695130630650162
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.23740687243783,
+    -8.695466387903334
+  ],
+  "centroDeMassa": [
+    39.23745348433659,
+    -8.695513090977556
+  ]
+}

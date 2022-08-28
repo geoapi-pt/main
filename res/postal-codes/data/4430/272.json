@@ -1,1 +1,460 @@
-{"CP4":"4430","CP3":"272","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4430-272","Artéria":"Rua Arcos do Sardão","Localidade":"Vila Nova de Gaia","Local":"Oliveira do Douro","Troço":"Pares de 22 a 318","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3589121","rua":"R ARCOS DO SARDAO","casa":"36","coordenadas":[41.11590177383825,-8.587496019876369]},{"id":"pt.ine.add.PTCONT.3590125","rua":"R ARCOS DO SARDAO","casa":"162","coordenadas":[41.11516709069522,-8.586562259828135]},{"id":"pt.ine.add.PTCONT.3608658","rua":"R ARCOS DO SARDAO","casa":"274","coordenadas":[41.11441527971657,-8.585402185323101]},{"id":"pt.ine.add.PTCONT.3699032","rua":"R ARCOS DO SARDAO","casa":"92","coordenadas":[41.11560576283062,-8.587208224776658]},{"id":"pt.ine.add.PTCONT.3702934","rua":"R ARCOS DO SARDAO","casa":"302","coordenadas":[41.1141459488471,-8.585197932209454]},{"id":"pt.ine.add.PTCONT.3731911","rua":"R ARCOS DO SARDAO","casa":"58","coordenadas":[41.115856893853994,-8.587459991021085]},{"id":"pt.ine.add.PTCONT.3792058","rua":"R ARCOS DO SARDAO","casa":"226","coordenadas":[41.1148096395919,-8.585869236556142]},{"id":"pt.ine.add.PTCONT.3792059","rua":"R ARCOS DO SARDAO","casa":"226","coordenadas":[41.1148096395919,-8.585869236556142]},{"id":"pt.ine.add.PTCONT.3792060","rua":"R ARCOS DO SARDAO","casa":"226","coordenadas":[41.1148096395919,-8.585869236556142]},{"id":"pt.ine.add.PTCONT.3792061","rua":"R ARCOS DO SARDAO","casa":"226","coordenadas":[41.1148096395919,-8.585869236556142]},{"id":"pt.ine.add.PTCONT.3873635","rua":"R ARCOS DO SARDAO","casa":"82","coordenadas":[41.11574898466329,-8.587423527642146]},{"id":"pt.ine.add.PTCONT.3911679","rua":"R ARCOS DO SARDAO","casa":"268","coordenadas":[41.11454054340662,-8.585605450818575]},{"id":"pt.ine.add.PTCONT.3951249","rua":"R ARCOS SARDAO","casa":"318","coordenadas":[41.11401130662251,-8.585089853380065]},{"id":"pt.ine.add.PTCONT.4074622","rua":"R ARCOS DO SARDAO","casa":"252","coordenadas":[41.114656849338594,-8.5857967493092]},{"id":"pt.ine.add.PTCONT.4087605","rua":"R ARCOS DO SARDAO","casa":"216","coordenadas":[41.114944187449154,-8.586001130234541]},{"id":"pt.ine.add.PTCONT.4108145","rua":"R DOS ARCOS DO SARDAO","casa":"302","coordenadas":[41.11390204170047,-8.585398662618243]},{"id":"pt.ine.add.PTCONT.4137129","rua":"R ARCOS DO SARDAO","casa":"176","coordenadas":[41.11513149570011,-8.586454857955532]},{"id":"pt.ine.add.PTCONT.4166242","rua":"R ARCOS DO SARDAO","casa":"154","coordenadas":[41.11514805111781,-8.586824068017602]},{"id":"pt.ine.add.PTCONT.4203005","rua":"R ARCOS DO SARDAO","casa":"272","coordenadas":[41.114522722091785,-8.585557703581408]},{"id":"pt.ine.add.PTCONT.4219485","rua":"R ARCOS DO SARDAO","casa":"204","coordenadas":[41.11510518578551,-8.586276082143572]},{"id":"pt.ine.add.PTCONT.4225911","rua":"R ARCOS DO SARDAO","casa":"264","coordenadas":[41.11461229621489,-8.585677380925498]},{"id":"pt.ine.add.PTCONT.4257642","rua":"R ARCOS SARDAO","casa":"276","coordenadas":[41.114316093561875,-8.585437223066561]},{"id":"pt.ine.add.PTCONT.4257643","rua":"R ARCOS SARDAO","casa":"276","coordenadas":[41.114316093561875,-8.585437223066561]},{"id":"pt.ine.add.PTCONT.4257644","rua":"R ARCOS SARDAO","casa":"CASA 3","coordenadas":[41.114316093561875,-8.585437223066561]},{"id":"pt.ine.add.PTCONT.4304773","rua":"R ARCOS SARDAO","casa":"718","coordenadas":[41.13567448113843,-8.599006524521583]},{"id":"pt.ine.add.PTCONT.4338580","rua":"R ARCOS DO SARDAO","casa":"220","coordenadas":[41.11489034960619,-8.58595313508233]},{"id":"pt.ine.add.PTCONT.4350355","rua":"R ARCOS SARDAO","casa":"208","coordenadas":[41.11497054461433,-8.586167999529279]}],"ruas":["R ARCOS DO SARDAO","R ARCOS SARDAO","R DOS ARCOS DO SARDAO"],"centroide":[41.11562184937194,-8.586545398257279]}
+{
+  "CP": "4430-272",
+  "CP4": "4430",
+  "CP3": "272",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Rua Arcos do Sardão",
+      "Local": "Oliveira do Douro",
+      "Troço": "Pares de 22 a 318",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3589121",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "36",
+      "coordenadas": [
+        41.11590177383825,
+        -8.587496019876369
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3590125",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "162",
+      "coordenadas": [
+        41.11516709069522,
+        -8.586562259828135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3608658",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "274",
+      "coordenadas": [
+        41.11441527971657,
+        -8.585402185323101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3699032",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "92",
+      "coordenadas": [
+        41.11560576283062,
+        -8.587208224776658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3702934",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "302",
+      "coordenadas": [
+        41.1141459488471,
+        -8.585197932209454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3731911",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "58",
+      "coordenadas": [
+        41.115856893853994,
+        -8.587459991021085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3792058",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "226",
+      "coordenadas": [
+        41.1148096395919,
+        -8.585869236556142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3792059",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "226",
+      "coordenadas": [
+        41.1148096395919,
+        -8.585869236556142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3792060",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "226",
+      "coordenadas": [
+        41.1148096395919,
+        -8.585869236556142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3792061",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "226",
+      "coordenadas": [
+        41.1148096395919,
+        -8.585869236556142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3873635",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "82",
+      "coordenadas": [
+        41.11574898466329,
+        -8.587423527642146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3911679",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "268",
+      "coordenadas": [
+        41.11454054340662,
+        -8.585605450818575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3951249",
+      "rua": "R ARCOS SARDAO",
+      "casa": "318",
+      "coordenadas": [
+        41.11401130662251,
+        -8.585089853380065
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4074622",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "252",
+      "coordenadas": [
+        41.114656849338594,
+        -8.5857967493092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4087605",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "216",
+      "coordenadas": [
+        41.114944187449154,
+        -8.586001130234541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4108145",
+      "rua": "R DOS ARCOS DO SARDAO",
+      "casa": "302",
+      "coordenadas": [
+        41.11390204170047,
+        -8.585398662618243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4137129",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "176",
+      "coordenadas": [
+        41.11513149570011,
+        -8.586454857955532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4166242",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "154",
+      "coordenadas": [
+        41.11514805111781,
+        -8.586824068017602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4203005",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "272",
+      "coordenadas": [
+        41.114522722091785,
+        -8.585557703581408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4219485",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "204",
+      "coordenadas": [
+        41.11510518578551,
+        -8.586276082143572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4225911",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "264",
+      "coordenadas": [
+        41.11461229621489,
+        -8.585677380925498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4257642",
+      "rua": "R ARCOS SARDAO",
+      "casa": "276",
+      "coordenadas": [
+        41.114316093561875,
+        -8.585437223066561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4257643",
+      "rua": "R ARCOS SARDAO",
+      "casa": "276",
+      "coordenadas": [
+        41.114316093561875,
+        -8.585437223066561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4257644",
+      "rua": "R ARCOS SARDAO",
+      "casa": "CASA 3",
+      "coordenadas": [
+        41.114316093561875,
+        -8.585437223066561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304773",
+      "rua": "R ARCOS SARDAO",
+      "casa": "718",
+      "coordenadas": [
+        41.13567448113843,
+        -8.599006524521583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4338580",
+      "rua": "R ARCOS DO SARDAO",
+      "casa": "220",
+      "coordenadas": [
+        41.11489034960619,
+        -8.58595313508233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4350355",
+      "rua": "R ARCOS SARDAO",
+      "casa": "208",
+      "coordenadas": [
+        41.11497054461433,
+        -8.586167999529279
+      ]
+    }
+  ],
+  "ruas": [
+    "R ARCOS DO SARDAO",
+    "R ARCOS SARDAO",
+    "R DOS ARCOS DO SARDAO"
+  ],
+  "centro": [
+    41.124788261419454,
+    -8.592048188950823
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.11460292199772,
+                -8.586200453155381
+              ],
+              [
+                41.114447170820554,
+                -8.586022277480463
+              ],
+              [
+                41.11431259580495,
+                -8.585861548620562
+              ],
+              [
+                41.11419919695088,
+                -8.585718266575677
+              ],
+              [
+                41.11410697425837,
+                -8.585592431345813
+              ],
+              [
+                41.114035927727414,
+                -8.585484042930968
+              ],
+              [
+                41.113986057358005,
+                -8.58539310133114
+              ],
+              [
+                41.11395736315016,
+                -8.58531960654633
+              ],
+              [
+                41.11394984510386,
+                -8.585263558576539
+              ],
+              [
+                41.11396350321911,
+                -8.585224957421769
+              ],
+              [
+                41.11431394117177,
+                -8.585408629397929
+              ],
+              [
+                41.115001158961846,
+                -8.58581457450502
+              ],
+              [
+                41.116025156589316,
+                -8.586442792743046
+              ],
+              [
+                41.117385934054184,
+                -8.587293284112008
+              ],
+              [
+                41.119083491356456,
+                -8.5883660486119
+              ],
+              [
+                41.12111782849614,
+                -8.589661086242721
+              ],
+              [
+                41.12348894547322,
+                -8.591178397004478
+              ],
+              [
+                41.12619684228772,
+                -8.592917980897168
+              ],
+              [
+                41.128254916117974,
+                -8.59425913247703
+              ],
+              [
+                41.12966316696399,
+                -8.595201851744065
+              ],
+              [
+                41.13042159482577,
+                -8.595746138698273
+              ],
+              [
+                41.13053019970332,
+                -8.595891993339652
+              ],
+              [
+                41.12998898159663,
+                -8.595639415668206
+              ],
+              [
+                41.12879794050571,
+                -8.59498840568393
+              ],
+              [
+                41.12695707643056,
+                -8.593938963386828
+              ],
+              [
+                41.124466389371165,
+                -8.592491088776901
+              ],
+              [
+                41.12227764860755,
+                -8.591214831936579
+              ],
+              [
+                41.12039085413971,
+                -8.590110192865865
+              ],
+              [
+                41.11880600596764,
+                -8.589177171564758
+              ],
+              [
+                41.117523104091354,
+                -8.588415768033258
+              ],
+              [
+                41.116542148510845,
+                -8.587825982271367
+              ],
+              [
+                41.11586313922611,
+                -8.587407814279084
+              ],
+              [
+                41.11548607623715,
+                -8.587161264056409
+              ],
+              [
+                41.11541095954395,
+                -8.58708633160334
+              ],
+              [
+                41.11532576354027,
+                -8.58699849374754
+              ],
+              [
+                41.11523048822609,
+                -8.58689775048901
+              ],
+              [
+                41.11512513360141,
+                -8.586784101827748
+              ],
+              [
+                41.11500969966624,
+                -8.586657547763753
+              ],
+              [
+                41.11488418642057,
+                -8.586518088297028
+              ],
+              [
+                41.11474859386439,
+                -8.586365723427571
+              ],
+              [
+                41.11460292199772,
+                -8.586200453155381
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.11889697304851,
+    -8.588748527235927
+  ],
+  "centroDeMassa": [
+    41.124788261419454,
+    -8.592048188950823
+  ]
+}

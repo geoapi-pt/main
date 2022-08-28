@@ -1,1 +1,429 @@
-{"CP4":"7900","CP3":"470","Distrito":"Beja","Concelho":"Ferreira do Alentejo","CP":"7900-470","Artéria":"Rua Francisco José Sevinate Pontes","Localidade":"Peroguarda","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PEROGUARDA","locais":[{"id":"pt.ine.add.PTCONT.456938","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"20","coordenadas":[38.09167884312783,-8.046257760719376]},{"id":"pt.ine.add.PTCONT.457294","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"8","coordenadas":[38.09203245633993,-8.046314418804963]},{"id":"pt.ine.add.PTCONT.457621","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"18","coordenadas":[38.091765224980186,-8.046266707452245]},{"id":"pt.ine.add.PTCONT.359319","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"7","coordenadas":[38.09104467850306,-8.046518347121076]},{"id":"pt.ine.add.PTCONT.374832","rua":"R HORTA DO SEVINATE","casa":"","coordenadas":[38.089882582647135,-8.046633710358025]},{"id":"pt.ine.add.PTCONT.380112","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"2A","coordenadas":[38.09216707693058,-8.04637360018588]},{"id":"pt.ine.add.PTCONT.388178","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"4","coordenadas":[38.09208244544688,-8.04638157502401]},{"id":"pt.ine.add.PTCONT.396754","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"14","coordenadas":[38.09181828046733,-8.046271169155837]},{"id":"pt.ine.add.PTCONT.403516","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"5","coordenadas":[38.09111675166087,-8.046518262096944]},{"id":"pt.ine.add.PTCONT.407861","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"26","coordenadas":[38.091536132464284,-8.046265895549448]},{"id":"pt.ine.add.PTCONT.412291","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"11","coordenadas":[38.090930971699194,-8.046495682461124]},{"id":"pt.ine.add.PTCONT.415641","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"22","coordenadas":[38.09162913429404,-8.046333455271004]},{"id":"pt.ine.add.PTCONT.417251","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"36","coordenadas":[38.091251670067344,-8.046221717260636]},{"id":"pt.ine.add.PTCONT.441668","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"2","coordenadas":[38.09212482180351,-8.046368165778981]},{"id":"pt.ine.add.PTCONT.445620","rua":"R FRANCISCO JOSÉ SEVINATE PONTES","casa":"24","coordenadas":[38.09158547498836,-8.046273617329055]},{"id":"pt.ine.add.PTCONT.446175","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"10","coordenadas":[38.091883213217805,-8.046284842468044]},{"id":"pt.ine.add.PTCONT.448128","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"","coordenadas":[38.09088217703262,-8.046062563158314]},{"id":"pt.ine.add.PTCONT.451335","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"28","coordenadas":[38.09149493381542,-8.046244228271336]},{"id":"pt.ine.add.PTCONT.451970","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"50","coordenadas":[38.090440821726794,-8.046188479105872]},{"id":"pt.ine.add.PTCONT.452955","rua":"R FRANCISCO JOSE SEVINATE PONTES","casa":"34","coordenadas":[38.09133834253279,-8.046235009031093]}],"ruas":["R FRANCISCO JOSE SEVINATE PONTES","R HORTA DO SEVINATE","R FRANCISCO JOSÉ SEVINATE PONTES"],"centroide":[38.09143935216912,-8.046330220924851]}
+{
+  "CP": "7900-470",
+  "CP4": "7900",
+  "CP3": "470",
+  "Distrito": "Beja",
+  "Concelho": "Ferreira do Alentejo",
+  "Localidade": "Peroguarda",
+  "Designação Postal": "PEROGUARDA",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco José Sevinate Pontes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.456938",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "20",
+      "coordenadas": [
+        38.09167884312783,
+        -8.046257760719376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.457294",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "8",
+      "coordenadas": [
+        38.09203245633993,
+        -8.046314418804963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.457621",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "18",
+      "coordenadas": [
+        38.091765224980186,
+        -8.046266707452245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.359319",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "7",
+      "coordenadas": [
+        38.09104467850306,
+        -8.046518347121076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.374832",
+      "rua": "R HORTA DO SEVINATE",
+      "casa": "",
+      "coordenadas": [
+        38.089882582647135,
+        -8.046633710358025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.380112",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "2A",
+      "coordenadas": [
+        38.09216707693058,
+        -8.04637360018588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.388178",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "4",
+      "coordenadas": [
+        38.09208244544688,
+        -8.04638157502401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.396754",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "14",
+      "coordenadas": [
+        38.09181828046733,
+        -8.046271169155837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.403516",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "5",
+      "coordenadas": [
+        38.09111675166087,
+        -8.046518262096944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.407861",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "26",
+      "coordenadas": [
+        38.091536132464284,
+        -8.046265895549448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.412291",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "11",
+      "coordenadas": [
+        38.090930971699194,
+        -8.046495682461124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.415641",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "22",
+      "coordenadas": [
+        38.09162913429404,
+        -8.046333455271004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.417251",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "36",
+      "coordenadas": [
+        38.091251670067344,
+        -8.046221717260636
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.441668",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "2",
+      "coordenadas": [
+        38.09212482180351,
+        -8.046368165778981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.445620",
+      "rua": "R FRANCISCO JOSÉ SEVINATE PONTES",
+      "casa": "24",
+      "coordenadas": [
+        38.09158547498836,
+        -8.046273617329055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.446175",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "10",
+      "coordenadas": [
+        38.091883213217805,
+        -8.046284842468044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.448128",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "",
+      "coordenadas": [
+        38.09088217703262,
+        -8.046062563158314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451335",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "28",
+      "coordenadas": [
+        38.09149493381542,
+        -8.046244228271336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451970",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "50",
+      "coordenadas": [
+        38.090440821726794,
+        -8.046188479105872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.452955",
+      "rua": "R FRANCISCO JOSE SEVINATE PONTES",
+      "casa": "34",
+      "coordenadas": [
+        38.09133834253279,
+        -8.046235009031093
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO JOSE SEVINATE PONTES",
+    "R HORTA DO SEVINATE",
+    "R FRANCISCO JOSÉ SEVINATE PONTES"
+  ],
+  "centro": [
+    38.09102482978886,
+    -8.04634813675817
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.09057680271736,
+                -8.046568770711167
+              ],
+              [
+                38.09042253159065,
+                -8.046583201743802
+              ],
+              [
+                38.09029626684039,
+                -8.046588872159044
+              ],
+              [
+                38.09019800846659,
+                -8.04658578195689
+              ],
+              [
+                38.09012775646924,
+                -8.046573931137342
+              ],
+              [
+                38.09008551084837,
+                -8.0465533197004
+              ],
+              [
+                38.09007127160395,
+                -8.046523947646063
+              ],
+              [
+                38.09008503873599,
+                -8.046485814974332
+              ],
+              [
+                38.090126812244485,
+                -8.046438921685208
+              ],
+              [
+                38.090196592129445,
+                -8.046383267778689
+              ],
+              [
+                38.09026454570544,
+                -8.046332603173804
+              ],
+              [
+                38.090330672972456,
+                -8.046286927870554
+              ],
+              [
+                38.090394973930515,
+                -8.046246241868937
+              ],
+              [
+                38.09045744857961,
+                -8.046210545168956
+              ],
+              [
+                38.090518096919745,
+                -8.046179837770609
+              ],
+              [
+                38.0905769189509,
+                -8.046154119673895
+              ],
+              [
+                38.0906339146731,
+                -8.046133390878817
+              ],
+              [
+                38.090689084086314,
+                -8.046117651385371
+              ],
+              [
+                38.09075533043706,
+                -8.046107814573086
+              ],
+              [
+                38.09083265372534,
+                -8.04610388044196
+              ],
+              [
+                38.09092105395114,
+                -8.046105848991992
+              ],
+              [
+                38.09102053111446,
+                -8.046113720223186
+              ],
+              [
+                38.09113108521531,
+                -8.046127494135538
+              ],
+              [
+                38.09125271625368,
+                -8.04614717072905
+              ],
+              [
+                38.091385424229564,
+                -8.046172750003723
+              ],
+              [
+                38.09152920914298,
+                -8.046204231959553
+              ],
+              [
+                38.091657124388945,
+                -8.046232703379983
+              ],
+              [
+                38.09176916996747,
+                -8.04625816426501
+              ],
+              [
+                38.09186534587854,
+                -8.046280614614634
+              ],
+              [
+                38.09194565212216,
+                -8.046300054428858
+              ],
+              [
+                38.09201008869833,
+                -8.04631648370768
+              ],
+              [
+                38.09205865560706,
+                -8.046329902451099
+              ],
+              [
+                38.09209135284834,
+                -8.046340310659115
+              ],
+              [
+                38.09210818042217,
+                -8.046347708331728
+              ],
+              [
+                38.09210649321693,
+                -8.046356441637627
+              ],
+              [
+                38.09208629123263,
+                -8.04636651057681
+              ],
+              [
+                38.092047574469255,
+                -8.046377915149275
+              ],
+              [
+                38.09199034292681,
+                -8.046390655355022
+              ],
+              [
+                38.09191459660531,
+                -8.046404731194055
+              ],
+              [
+                38.09182033550472,
+                -8.046420142666372
+              ],
+              [
+                38.09170755962508,
+                -8.046436889771972
+              ],
+              [
+                38.091576268966364,
+                -8.046454972510853
+              ],
+              [
+                38.09144210574915,
+                -8.046472598786455
+              ],
+              [
+                38.09130506997343,
+                -8.046489768598777
+              ],
+              [
+                38.09116516163922,
+                -8.046506481947816
+              ],
+              [
+                38.0910223807465,
+                -8.046522738833575
+              ],
+              [
+                38.09087672729529,
+                -8.046538539256053
+              ],
+              [
+                38.09072820128557,
+                -8.04655388321525
+              ],
+              [
+                38.09057680271736,
+                -8.046568770711167
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.09108697772299,
+    -8.046348505618333
+  ],
+  "centroDeMassa": [
+    38.09102482978886,
+    -8.04634813675817
+  ]
+}

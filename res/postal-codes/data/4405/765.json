@@ -1,1 +1,455 @@
-{"CP4":"4405","CP3":"765","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4405-765","Artéria":"Travessa Monte do Curral","Localidade":"Vila Nova de Gaia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3570947","rua":"TV MONTE DO CURRAL","casa":"121","coordenadas":[41.1073400510405,-8.638997161051405]},{"id":"pt.ine.add.PTCONT.3609497","rua":"TV MONTE DO CURRAL","casa":"1133","coordenadas":[41.10471637245447,-8.653905178874988]},{"id":"pt.ine.add.PTCONT.3659866","rua":"TV MONTE CURRAL","casa":"184","coordenadas":[41.105382998572026,-8.65383901848314]},{"id":"pt.ine.add.PTCONT.3744607","rua":"TV MONTE DO CURRAL","casa":"1028","coordenadas":[41.10556587661601,-8.653221425017184]},{"id":"pt.ine.add.PTCONT.3803466","rua":"TV MONTE DO CURRAL","casa":"1133","coordenadas":[41.10490513565201,-8.653978097007087]},{"id":"pt.ine.add.PTCONT.3854006","rua":"TV MONTE DO CURRAL","casa":"84","coordenadas":[41.10535931966958,-8.653100749745139]},{"id":"pt.ine.add.PTCONT.3893224","rua":"TV MONTE DO CURRAL","casa":"144","coordenadas":[41.105539831421055,-8.653006937140448]},{"id":"pt.ine.add.PTCONT.3893225","rua":"TV MONTE DO CURRAL","casa":"144","coordenadas":[41.105539831421055,-8.653006937140448]},{"id":"pt.ine.add.PTCONT.3964069","rua":"TV MONTE DO CURRAL","casa":"1065","coordenadas":[41.10540245898954,-8.653517749342866]},{"id":"pt.ine.add.PTCONT.4002699","rua":"TV MONTE DO CURRAL","casa":"2","coordenadas":[41.1053995648474,-8.650160643144492]},{"id":"pt.ine.add.PTCONT.4009433","rua":"TV MONTE DO CURRAL","casa":"901","coordenadas":[41.10560232288282,-8.653126475901256]},{"id":"pt.ine.add.PTCONT.4021400","rua":"TV MONTE DO CURRAL","casa":"90","coordenadas":[41.105350584186304,-8.653041158125298]},{"id":"pt.ine.add.PTCONT.4028156","rua":"TV MONTE DO CURRAL","casa":"166","coordenadas":[41.10559482271834,-8.652793088327511]},{"id":"pt.ine.add.PTCONT.4035342","rua":"TV MONTE DO CURRAL","casa":"899","coordenadas":[41.10566588880427,-8.653007931394523]},{"id":"pt.ine.add.PTCONT.4061874","rua":"TV MONTE DO CURRAL","casa":"908","coordenadas":[41.10546785234544,-8.652994464858853]},{"id":"pt.ine.add.PTCONT.4068573","rua":"TV MONTE DO CURRAL","casa":"1044","coordenadas":[41.10553848811793,-8.653304540936274]},{"id":"pt.ine.add.PTCONT.4081406","rua":"TV MONTE DO CURRAL","casa":"74","coordenadas":[41.105340612926675,-8.653255361192612]},{"id":"pt.ine.add.PTCONT.4147128","rua":"TV MONTE DO CURRAL","casa":"80","coordenadas":[41.10534993945673,-8.653184007538917]},{"id":"pt.ine.add.PTCONT.4153650","rua":"TV MONTE DO CURRAL","casa":"939","coordenadas":[41.10555826931378,-8.65291184593143]},{"id":"pt.ine.add.PTCONT.4160000","rua":"TV MONTE DO CURRAL","casa":"1113","coordenadas":[41.105186145538454,-8.65356365960515]},{"id":"pt.ine.add.PTCONT.4218998","rua":"TV MONTE DO CURRAL","casa":"94","coordenadas":[41.10537791878239,-8.652969946454002]},{"id":"pt.ine.add.PTCONT.4291911","rua":"TV MONTE DO CURRAL","casa":"1137","coordenadas":[41.10501253894509,-8.654121799458466]},{"id":"pt.ine.add.PTCONT.4291919","rua":"TV MONTE DO CURRAL","casa":"1048","coordenadas":[41.105563779861995,-8.653685687097495]}],"ruas":["TV MONTE DO CURRAL","TV MONTE CURRAL"],"centroide":[41.1054634920319,-8.652500371666886]}
+{
+  "CP": "4405-765",
+  "CP4": "4405",
+  "CP3": "765",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Travessa Monte do Curral",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3570947",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "121",
+      "coordenadas": [
+        41.1073400510405,
+        -8.638997161051405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3609497",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1133",
+      "coordenadas": [
+        41.10471637245447,
+        -8.653905178874988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3659866",
+      "rua": "TV MONTE CURRAL",
+      "casa": "184",
+      "coordenadas": [
+        41.105382998572026,
+        -8.65383901848314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3744607",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1028",
+      "coordenadas": [
+        41.10556587661601,
+        -8.653221425017184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3803466",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1133",
+      "coordenadas": [
+        41.10490513565201,
+        -8.653978097007087
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854006",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "84",
+      "coordenadas": [
+        41.10535931966958,
+        -8.653100749745139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3893224",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "144",
+      "coordenadas": [
+        41.105539831421055,
+        -8.653006937140448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3893225",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "144",
+      "coordenadas": [
+        41.105539831421055,
+        -8.653006937140448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3964069",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1065",
+      "coordenadas": [
+        41.10540245898954,
+        -8.653517749342866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4002699",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "2",
+      "coordenadas": [
+        41.1053995648474,
+        -8.650160643144492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4009433",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "901",
+      "coordenadas": [
+        41.10560232288282,
+        -8.653126475901256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4021400",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "90",
+      "coordenadas": [
+        41.105350584186304,
+        -8.653041158125298
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4028156",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "166",
+      "coordenadas": [
+        41.10559482271834,
+        -8.652793088327511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4035342",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "899",
+      "coordenadas": [
+        41.10566588880427,
+        -8.653007931394523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4061874",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "908",
+      "coordenadas": [
+        41.10546785234544,
+        -8.652994464858853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068573",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1044",
+      "coordenadas": [
+        41.10553848811793,
+        -8.653304540936274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4081406",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "74",
+      "coordenadas": [
+        41.105340612926675,
+        -8.653255361192612
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4147128",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "80",
+      "coordenadas": [
+        41.10534993945673,
+        -8.653184007538917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4153650",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "939",
+      "coordenadas": [
+        41.10555826931378,
+        -8.65291184593143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4160000",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1113",
+      "coordenadas": [
+        41.105186145538454,
+        -8.65356365960515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4218998",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "94",
+      "coordenadas": [
+        41.10537791878239,
+        -8.652969946454002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4291911",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1137",
+      "coordenadas": [
+        41.10501253894509,
+        -8.654121799458466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4291919",
+      "rua": "TV MONTE DO CURRAL",
+      "casa": "1048",
+      "coordenadas": [
+        41.105563779861995,
+        -8.653685687097495
+      ]
+    }
+  ],
+  "ruas": [
+    "TV MONTE DO CURRAL",
+    "TV MONTE CURRAL"
+  ],
+  "centro": [
+    41.106028211747486,
+    -8.646559480254936
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.10488296610544,
+                -8.654027027953193
+              ],
+              [
+                41.104845945294116,
+                -8.653999950380259
+              ],
+              [
+                41.10485454706211,
+                -8.653743319725448
+              ],
+              [
+                41.10490877140943,
+                -8.65325713598876
+              ],
+              [
+                41.105008618336065,
+                -8.652541399170195
+              ],
+              [
+                41.10515408784203,
+                -8.651596109269756
+              ],
+              [
+                41.10534517992731,
+                -8.650421266287438
+              ],
+              [
+                41.10558189459192,
+                -8.649016870223242
+              ],
+              [
+                41.10586423183586,
+                -8.64738292107717
+              ],
+              [
+                41.10619219165911,
+                -8.645519418849222
+              ],
+              [
+                41.10645299771952,
+                -8.644107772686379
+              ],
+              [
+                41.10664665001708,
+                -8.64314798258864
+              ],
+              [
+                41.10677314855179,
+                -8.642640048556007
+              ],
+              [
+                41.10683249332365,
+                -8.642583970588475
+              ],
+              [
+                41.106824684332665,
+                -8.642979748686052
+              ],
+              [
+                41.10674972157883,
+                -8.643827382848732
+              ],
+              [
+                41.10660760506215,
+                -8.645126873076517
+              ],
+              [
+                41.10639833478262,
+                -8.646878219369409
+              ],
+              [
+                41.10621362783581,
+                -8.648421237308547
+              ],
+              [
+                41.10605348422172,
+                -8.649755926893931
+              ],
+              [
+                41.105917903940345,
+                -8.650882288125564
+              ],
+              [
+                41.10580688699169,
+                -8.651800321003446
+              ],
+              [
+                41.10572043337575,
+                -8.652510025527572
+              ],
+              [
+                41.105658543092524,
+                -8.653011401697949
+              ],
+              [
+                41.105621216142026,
+                -8.653304449514573
+              ],
+              [
+                41.10560845252424,
+                -8.653389168977444
+              ],
+              [
+                41.10559445965102,
+                -8.65346569431036
+              ],
+              [
+                41.10557923752237,
+                -8.653534025513313
+              ],
+              [
+                41.105562786138286,
+                -8.653594162586309
+              ],
+              [
+                41.10554510549877,
+                -8.653646105529347
+              ],
+              [
+                41.10552619560382,
+                -8.653689854342428
+              ],
+              [
+                41.10550605645344,
+                -8.65372540902555
+              ],
+              [
+                41.10548468804763,
+                -8.653752769578714
+              ],
+              [
+                41.10546209038639,
+                -8.65377193600192
+              ],
+              [
+                41.105436529001125,
+                -8.653793125074964
+              ],
+              [
+                41.10540800389185,
+                -8.653816336797847
+              ],
+              [
+                41.10537651505856,
+                -8.653841571170569
+              ],
+              [
+                41.10534206250125,
+                -8.653868828193131
+              ],
+              [
+                41.105304646219935,
+                -8.65389810786553
+              ],
+              [
+                41.10526426621459,
+                -8.653929410187768
+              ],
+              [
+                41.10522092248524,
+                -8.653962735159846
+              ],
+              [
+                41.10517461503188,
+                -8.65399808278176
+              ],
+              [
+                41.10512946840876,
+                -8.65402562725432
+              ],
+              [
+                41.105085482615905,
+                -8.654045368577522
+              ],
+              [
+                41.10504265765331,
+                -8.654057306751369
+              ],
+              [
+                41.10500099352095,
+                -8.654061441775859
+              ],
+              [
+                41.104960490218865,
+                -8.654057773650994
+              ],
+              [
+                41.10492114774703,
+                -8.65404630237677
+              ],
+              [
+                41.10488296610544,
+                -8.654027027953193
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.10561360494639,
+    -8.651259462726669
+  ],
+  "centroDeMassa": [
+    41.106028211747486,
+    -8.646559480254936
+  ]
+}

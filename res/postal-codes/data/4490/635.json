@@ -1,1 +1,531 @@
-{"CP4":"4490","CP3":"635","Distrito":"Porto","Concelho":"Póvoa de Varzim","CP":"4490-635","Artéria":"Rua Fernando Barbosa","Localidade":"Póvoa de Varzim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PÓVOA DE VARZIM","locais":[{"id":"pt.ine.add.PTCONT.3568847","rua":"R FERNANDO BARBOSA","casa":"23","coordenadas":[41.38172323113277,-8.75846606792727]},{"id":"pt.ine.add.PTCONT.3568848","rua":"R FERNANDO BARBOSA","casa":"23","coordenadas":[41.38172323113277,-8.75846606792727]},{"id":"pt.ine.add.PTCONT.3568849","rua":"R FERNANDO BARBOSA","casa":"23","coordenadas":[41.38172323113277,-8.75846606792727]},{"id":"pt.ine.add.PTCONT.3610901","rua":"R FERNANDO BARBOSA","casa":"31","coordenadas":[41.38105866077158,-8.75814888011499]},{"id":"pt.ine.add.PTCONT.3610902","rua":"R FERNANDO BARBOSA","casa":"31","coordenadas":[41.38105866077158,-8.75814888011499]},{"id":"pt.ine.add.PTCONT.3645718","rua":"R FERNANDO BARBOSA","casa":"30","coordenadas":[41.38102362060351,-8.757969224814142]},{"id":"pt.ine.add.PTCONT.3716976","rua":"R FERNANDO BARBOSA","casa":"24","coordenadas":[41.38088856807874,-8.757967932032125]},{"id":"pt.ine.add.PTCONT.3790776","rua":"R FERNANDO BARBOSA","casa":"35","coordenadas":[41.38111274670975,-8.758137443332785]},{"id":"pt.ine.add.PTCONT.3820509","rua":"R FERNANDO BARBOSA","casa":"32","coordenadas":[41.38115867312502,-8.757970517604962]},{"id":"pt.ine.add.PTCONT.3847845","rua":"R FERNANDO BARBOSA","casa":"27 A","coordenadas":[41.38088772410703,-8.75812333410861]},{"id":"pt.ine.add.PTCONT.3854559","rua":"R FERNANDO BARBOSA","casa":"17","coordenadas":[41.38166946998711,-8.758417733797398]},{"id":"pt.ine.add.PTCONT.3854560","rua":"R FERNANDO BARBOSA","casa":"17","coordenadas":[41.38166946998711,-8.758417733797398]},{"id":"pt.ine.add.PTCONT.3854561","rua":"R FERNANDO BARBOSA","casa":"17","coordenadas":[41.38166946998711,-8.758417733797398]},{"id":"pt.ine.add.PTCONT.3854562","rua":"R FERNANDO BARBOSA","casa":"17","coordenadas":[41.38166946998711,-8.758417733797398]},{"id":"pt.ine.add.PTCONT.3865518","rua":"R FERNANDO BARBOSA","casa":"26","coordenadas":[41.380924646997954,-8.757956322760386]},{"id":"pt.ine.add.PTCONT.3912643","rua":"R FERNANDO BARBOSA","casa":"28","coordenadas":[41.380978603095585,-8.757968793885826]},{"id":"pt.ine.add.PTCONT.4040126","rua":"R FERNANDO BARBOSA","casa":"27","coordenadas":[41.38093274161432,-8.758123765142123]},{"id":"pt.ine.add.PTCONT.4049280","rua":"R FERNANDO BARBOSA","casa":"21","coordenadas":[41.38077968208812,-8.758122299632173]},{"id":"pt.ine.add.PTCONT.4177937","rua":"R FERNANDO BARBOSA","casa":"25","coordenadas":[41.3808426416699,-8.758134857073442]},{"id":"pt.ine.add.PTCONT.4197335","rua":"R FERNANDO BARBOSA","casa":"21 A","coordenadas":[41.38070765407436,-8.758121609984347]},{"id":"pt.ine.add.PTCONT.4309892","rua":"R FERNANDO BARBOSA","casa":"33","coordenadas":[41.381121360604034,-8.758209253832042]},{"id":"pt.ine.add.PTCONT.4312653","rua":"R FERNANDO BARBOSA","casa":"32 A","coordenadas":[41.38108664511393,-8.757969828115424]},{"id":"pt.ine.add.PTCONT.4328980","rua":"R FERNANDO BARBOSA","casa":"29","coordenadas":[41.38098676262257,-8.758124282383635]},{"id":"pt.ine.add.PTCONT.4328981","rua":"R FERNANDO BARBOSA","casa":"29","coordenadas":[41.38098676262257,-8.758124282383635]},{"id":"pt.ine.add.PTCONT.4356647","rua":"R FERNANDO BARBOSA","casa":"23","coordenadas":[41.380842381939516,-8.758182673062517]},{"id":"pt.ine.add.PTCONT.4356648","rua":"R FERNANDO BARBOSA","casa":"23","coordenadas":[41.380842381939516,-8.758182673062517]},{"id":"pt.ine.add.PTCONT.4361949","rua":"R FERNANDO BARBOSA","casa":"9","coordenadas":[41.38160670532017,-8.758369313504708]},{"id":"pt.ine.add.PTCONT.4361950","rua":"R FERNANDO BARBOSA","casa":"35","coordenadas":[41.381193713287665,-8.75815017327908]}],"ruas":["R FERNANDO BARBOSA"],"centroide":[41.381173155452466,-8.758189826145067]}
+{
+  "CP": "4490-635",
+  "CP4": "4490",
+  "CP3": "635",
+  "Distrito": "Porto",
+  "Concelho": "Póvoa de Varzim",
+  "Localidade": "Póvoa de Varzim",
+  "Designação Postal": "PÓVOA DE VARZIM",
+  "partes": [
+    {
+      "Artéria": "Rua Fernando Barbosa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3568847",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "23",
+      "coordenadas": [
+        41.38172323113277,
+        -8.75846606792727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3568848",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "23",
+      "coordenadas": [
+        41.38172323113277,
+        -8.75846606792727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3568849",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "23",
+      "coordenadas": [
+        41.38172323113277,
+        -8.75846606792727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3610901",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "31",
+      "coordenadas": [
+        41.38105866077158,
+        -8.75814888011499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3610902",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "31",
+      "coordenadas": [
+        41.38105866077158,
+        -8.75814888011499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3645718",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "30",
+      "coordenadas": [
+        41.38102362060351,
+        -8.757969224814142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3716976",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "24",
+      "coordenadas": [
+        41.38088856807874,
+        -8.757967932032125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3790776",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "35",
+      "coordenadas": [
+        41.38111274670975,
+        -8.758137443332785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3820509",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "32",
+      "coordenadas": [
+        41.38115867312502,
+        -8.757970517604962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3847845",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "27 A",
+      "coordenadas": [
+        41.38088772410703,
+        -8.75812333410861
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854559",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "17",
+      "coordenadas": [
+        41.38166946998711,
+        -8.758417733797398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854560",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "17",
+      "coordenadas": [
+        41.38166946998711,
+        -8.758417733797398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854561",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "17",
+      "coordenadas": [
+        41.38166946998711,
+        -8.758417733797398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854562",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "17",
+      "coordenadas": [
+        41.38166946998711,
+        -8.758417733797398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3865518",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "26",
+      "coordenadas": [
+        41.380924646997954,
+        -8.757956322760386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3912643",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "28",
+      "coordenadas": [
+        41.380978603095585,
+        -8.757968793885826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4040126",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "27",
+      "coordenadas": [
+        41.38093274161432,
+        -8.758123765142123
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4049280",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "21",
+      "coordenadas": [
+        41.38077968208812,
+        -8.758122299632173
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4177937",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "25",
+      "coordenadas": [
+        41.3808426416699,
+        -8.758134857073442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4197335",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "21 A",
+      "coordenadas": [
+        41.38070765407436,
+        -8.758121609984347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4309892",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "33",
+      "coordenadas": [
+        41.381121360604034,
+        -8.758209253832042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4312653",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "32 A",
+      "coordenadas": [
+        41.38108664511393,
+        -8.757969828115424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4328980",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "29",
+      "coordenadas": [
+        41.38098676262257,
+        -8.758124282383635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4328981",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "29",
+      "coordenadas": [
+        41.38098676262257,
+        -8.758124282383635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4356647",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "23",
+      "coordenadas": [
+        41.380842381939516,
+        -8.758182673062517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4356648",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "23",
+      "coordenadas": [
+        41.380842381939516,
+        -8.758182673062517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4361949",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "9",
+      "coordenadas": [
+        41.38160670532017,
+        -8.758369313504708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4361950",
+      "rua": "R FERNANDO BARBOSA",
+      "casa": "35",
+      "coordenadas": [
+        41.381193713287665,
+        -8.75815017327908
+      ]
+    }
+  ],
+  "ruas": [
+    "R FERNANDO BARBOSA"
+  ],
+  "centro": [
+    41.38121544260356,
+    -8.758211195343828
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.38078343849851,
+                -8.758155957965817
+              ],
+              [
+                41.38076659751536,
+                -8.758148325081047
+              ],
+              [
+                41.38075468843643,
+                -8.758139245088868
+              ],
+              [
+                41.380747711261705,
+                -8.758128717989281
+              ],
+              [
+                41.3807456659912,
+                -8.75811674378229
+              ],
+              [
+                41.380748552624894,
+                -8.75810332246789
+              ],
+              [
+                41.38075637116281,
+                -8.758088454046083
+              ],
+              [
+                41.380769121604935,
+                -8.758072138516871
+              ],
+              [
+                41.38078680395127,
+                -8.75805437588025
+              ],
+              [
+                41.38080941820182,
+                -8.758035166136223
+              ],
+              [
+                41.38082976940416,
+                -8.758018176215327
+              ],
+              [
+                41.380847857558294,
+                -8.758003406117563
+              ],
+              [
+                41.38086368266423,
+                -8.757990855842934
+              ],
+              [
+                41.38087724472195,
+                -8.757980525391437
+              ],
+              [
+                41.38088854373147,
+                -8.75797241476307
+              ],
+              [
+                41.380897579692785,
+                -8.75796652395784
+              ],
+              [
+                41.380904352605896,
+                -8.757962852975739
+              ],
+              [
+                41.3809088624708,
+                -8.757961401816772
+              ],
+              [
+                41.380916465260825,
+                -8.757960353847121
+              ],
+              [
+                41.38092716097597,
+                -8.757959709066789
+              ],
+              [
+                41.38094094961624,
+                -8.757959467475773
+              ],
+              [
+                41.38095783118163,
+                -8.757959629074076
+              ],
+              [
+                41.380977805672146,
+                -8.757960193861695
+              ],
+              [
+                41.381000873087785,
+                -8.757961161838633
+              ],
+              [
+                41.381027033428545,
+                -8.757962533004887
+              ],
+              [
+                41.38105628669443,
+                -8.75796430736046
+              ],
+              [
+                41.38108986450305,
+                -8.757972847674592
+              ],
+              [
+                41.381127766854405,
+                -8.757988153947284
+              ],
+              [
+                41.38116999374849,
+                -8.758010226178538
+              ],
+              [
+                41.38121654518531,
+                -8.75803906436835
+              ],
+              [
+                41.38126742116487,
+                -8.758074668516723
+              ],
+              [
+                41.381322621687154,
+                -8.75811703862366
+              ],
+              [
+                41.38138214675218,
+                -8.758166174689153
+              ],
+              [
+                41.38144599635995,
+                -8.758222076713206
+              ],
+              [
+                41.38150270478464,
+                -8.758271746205034
+              ],
+              [
+                41.38155227202626,
+                -8.758315183164633
+              ],
+              [
+                41.38159469808481,
+                -8.758352387592005
+              ],
+              [
+                41.38162998296029,
+                -8.75838335948715
+              ],
+              [
+                41.38165812665271,
+                -8.758408098850065
+              ],
+              [
+                41.38167912916206,
+                -8.758426605680755
+              ],
+              [
+                41.38169299048833,
+                -8.758438879979217
+              ],
+              [
+                41.381699710631544,
+                -8.75844492174545
+              ],
+              [
+                41.381691827488204,
+                -8.758445780246143
+              ],
+              [
+                41.38166934105832,
+                -8.758441455481295
+              ],
+              [
+                41.38163225134189,
+                -8.758431947450905
+              ],
+              [
+                41.38158055833891,
+                -8.758417256154978
+              ],
+              [
+                41.38151426204939,
+                -8.758397381593506
+              ],
+              [
+                41.38143336247333,
+                -8.758372323766494
+              ],
+              [
+                41.381337859610724,
+                -8.758342082673941
+              ],
+              [
+                41.38122775346156,
+                -8.758306658315846
+              ],
+              [
+                41.38112930545816,
+                -8.758274707891918
+              ],
+              [
+                41.38104251560051,
+                -8.758246231402154
+              ],
+              [
+                41.38096738388861,
+                -8.758221228846555
+              ],
+              [
+                41.38090391032245,
+                -8.758199700225124
+              ],
+              [
+                41.38085209490205,
+                -8.758181645537856
+              ],
+              [
+                41.380811937627406,
+                -8.758167064784754
+              ],
+              [
+                41.38078343849851,
+                -8.758155957965817
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.38113066076221,
+    -8.758154693881286
+  ],
+  "centroDeMassa": [
+    41.38121544260356,
+    -8.758211195343828
+  ]
+}

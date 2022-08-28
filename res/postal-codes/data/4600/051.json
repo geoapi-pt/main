@@ -1,1 +1,622 @@
-{"CP4":"4600","CP3":"051","Distrito":"Porto","Concelho":"Amarante","CP":"4600-051","Artéria":"Praceta Arqueólogo José Pinho","Localidade":"Amarante","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AMARANTE","locais":[{"id":"pt.ine.add.PTCONT.3543052","rua":"R ARQUEOLOGO JOSE PINHO","casa":"74","coordenadas":[41.26685530271576,-8.069142653843333]},{"id":"pt.ine.add.PTCONT.3543053","rua":"R ARQUEOLOGO JOSE PINHO","casa":"5 B","coordenadas":[41.26685530271576,-8.069142653843333]},{"id":"pt.ine.add.PTCONT.3546239","rua":"R ARQUEOLOGO JOSE PINHO","casa":"226","coordenadas":[41.266486156533865,-8.069190749411929]},{"id":"pt.ine.add.PTCONT.3552949","rua":"R ARQUEOLOGO JOSE PINHO","casa":"94","coordenadas":[41.26669312066084,-8.068951870277568]},{"id":"pt.ine.add.PTCONT.3552950","rua":"R ARQUEOLOGO JOSE PINHO","casa":"94","coordenadas":[41.26669312066084,-8.068951870277568]},{"id":"pt.ine.add.PTCONT.3559610","rua":"R ARQUEOLOGO JOSE PINHO","casa":"42","coordenadas":[41.26706253194004,-8.069381130250722]},{"id":"pt.ine.add.PTCONT.3559611","rua":"R ARQUEOLOGO JOSE PINHO","casa":"3B","coordenadas":[41.26706253194004,-8.069381130250722]},{"id":"pt.ine.add.PTCONT.3591704","rua":"R ARQUEOLOGO JOSE PINHO","casa":"104","coordenadas":[41.26664805302079,-8.06886837739221]},{"id":"pt.ine.add.PTCONT.3591705","rua":"R ARQUEOLOGO JOSE PINHO","casa":"106","coordenadas":[41.26664805302079,-8.06886837739221]},{"id":"pt.ine.add.PTCONT.3630154","rua":"R ARQUEOLOGO JOSE PINHO","casa":"103","coordenadas":[41.26682797040435,-8.068569853808032]},{"id":"pt.ine.add.PTCONT.3630155","rua":"R ARQUEOLOGO JOSE PINHO","casa":"103","coordenadas":[41.26682797040435,-8.068569853808032]},{"id":"pt.ine.add.PTCONT.3676169","rua":"R ARQUEOLOGO JOSE PINHO","casa":"54","coordenadas":[41.26696341949621,-8.069261887472976]},{"id":"pt.ine.add.PTCONT.3680221","rua":"PCT ARQUEÓLOGO JOSÉ PINHO","casa":"50","coordenadas":[41.267371342625,-8.069005358064283]},{"id":"pt.ine.add.PTCONT.3680222","rua":"PCT ARQUEÓLOGO JOSÉ PINHO","casa":"50","coordenadas":[41.267371342625,-8.069005358064283]},{"id":"pt.ine.add.PTCONT.3720877","rua":"R ARQUEOLOGO JOSE PINHO","casa":"65","coordenadas":[41.267107307744716,-8.068939530910782]},{"id":"pt.ine.add.PTCONT.3745328","rua":"R ARQUEOLOGO JOSE PINHO","casa":"19","coordenadas":[41.267350620429326,-8.069297312245185]},{"id":"pt.ine.add.PTCONT.3793085","rua":"R ARQUEOLOGO JOSE PINHO","casa":"59","coordenadas":[41.26715234210122,-8.068963354717992]},{"id":"pt.ine.add.PTCONT.3888722","rua":"R ARQUEOLOGO JOSE PINHO","casa":"49","coordenadas":[41.2671794012466,-8.069046865912233]},{"id":"pt.ine.add.PTCONT.3913562","rua":"R ARQUEOLOGO JOSE PINHO","casa":"11","coordenadas":[41.267089052376484,-8.068497993102676]},{"id":"pt.ine.add.PTCONT.3934109","rua":"PCT ARQUEOLOGO JOSE PINHO","casa":"","coordenadas":[41.267332206235544,-8.06856935729544]},{"id":"pt.ine.add.PTCONT.4024086","rua":"R ARQUEOLOGO JOSE PINHO","casa":"244","coordenadas":[41.26662127267927,-8.069286088465432]},{"id":"pt.ine.add.PTCONT.4037108","rua":"R ARQUEOLOGO JOSE PINHO","casa":"14","coordenadas":[41.26749436221711,-8.068712405753866]},{"id":"pt.ine.add.PTCONT.4056711","rua":"R ARQUEOLOGO JOSE PINHO","casa":"","coordenadas":[41.26681924606508,-8.06907108570292]},{"id":"pt.ine.add.PTCONT.4056712","rua":"R ARQUEOLOGO JOSE PINHO","casa":"","coordenadas":[41.26681924606508,-8.06907108570292]},{"id":"pt.ine.add.PTCONT.4096717","rua":"R ARQUEOLOGO JOSE PINHO","casa":"45","coordenadas":[41.2672334596992,-8.069106482893279]},{"id":"pt.ine.add.PTCONT.4155327","rua":"R ARQUEOLOGO JOSE PINHO","casa":"37","coordenadas":[41.267260498858796,-8.069154192363793]},{"id":"pt.ine.add.PTCONT.4253335","rua":"R ARQUEOLOGO JOSE PINHO","casa":"79","coordenadas":[41.26706225341601,-8.068879905358498]},{"id":"pt.ine.add.PTCONT.4320604","rua":"R ARQUEOLOGO JOSE PINHO","casa":"10","coordenadas":[41.26697205785258,-8.068605513676864]},{"id":"pt.ine.add.PTCONT.4354252","rua":"R ARQUEOLOGO JOSE PINHO","casa":"20","coordenadas":[41.26707161532899,-8.069524328628944]},{"id":"pt.ine.add.PTCONT.4354253","rua":"R ARQUEOLOGO JOSE PINHO","casa":"26","coordenadas":[41.26707161532899,-8.069524328628944]}],"ruas":["R ARQUEOLOGO JOSE PINHO","PCT ARQUEÓLOGO JOSÉ PINHO","PCT ARQUEOLOGO JOSE PINHO"],"centroide":[41.266997626244134,-8.069000573340968]}
+{
+  "CP": "4600-051",
+  "CP4": "4600",
+  "CP3": "051",
+  "Distrito": "Porto",
+  "Concelho": "Amarante",
+  "Localidade": "Amarante",
+  "Designação Postal": "AMARANTE",
+  "partes": [
+    {
+      "Artéria": "Rua Arqueólogo José Pinho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Praceta Arqueólogo José Pinho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3543052",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "74",
+      "coordenadas": [
+        41.26685530271576,
+        -8.069142653843333
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3543053",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "5 B",
+      "coordenadas": [
+        41.26685530271576,
+        -8.069142653843333
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3546239",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "226",
+      "coordenadas": [
+        41.266486156533865,
+        -8.069190749411929
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3552949",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "94",
+      "coordenadas": [
+        41.26669312066084,
+        -8.068951870277568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3552950",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "94",
+      "coordenadas": [
+        41.26669312066084,
+        -8.068951870277568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3559610",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "42",
+      "coordenadas": [
+        41.26706253194004,
+        -8.069381130250722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3559611",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "3B",
+      "coordenadas": [
+        41.26706253194004,
+        -8.069381130250722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3591704",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "104",
+      "coordenadas": [
+        41.26664805302079,
+        -8.06886837739221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3591705",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "106",
+      "coordenadas": [
+        41.26664805302079,
+        -8.06886837739221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3630154",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "103",
+      "coordenadas": [
+        41.26682797040435,
+        -8.068569853808032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3630155",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "103",
+      "coordenadas": [
+        41.26682797040435,
+        -8.068569853808032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3676169",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "54",
+      "coordenadas": [
+        41.26696341949621,
+        -8.069261887472976
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3680221",
+      "rua": "PCT ARQUEÓLOGO JOSÉ PINHO",
+      "casa": "50",
+      "coordenadas": [
+        41.267371342625,
+        -8.069005358064283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3680222",
+      "rua": "PCT ARQUEÓLOGO JOSÉ PINHO",
+      "casa": "50",
+      "coordenadas": [
+        41.267371342625,
+        -8.069005358064283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3720877",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "65",
+      "coordenadas": [
+        41.267107307744716,
+        -8.068939530910782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3745328",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "19",
+      "coordenadas": [
+        41.267350620429326,
+        -8.069297312245185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3793085",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "59",
+      "coordenadas": [
+        41.26715234210122,
+        -8.068963354717992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3888722",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "49",
+      "coordenadas": [
+        41.2671794012466,
+        -8.069046865912233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3913562",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "11",
+      "coordenadas": [
+        41.267089052376484,
+        -8.068497993102676
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3934109",
+      "rua": "PCT ARQUEOLOGO JOSE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.267332206235544,
+        -8.06856935729544
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4024086",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "244",
+      "coordenadas": [
+        41.26662127267927,
+        -8.069286088465432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4037108",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "14",
+      "coordenadas": [
+        41.26749436221711,
+        -8.068712405753866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4056711",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.26681924606508,
+        -8.06907108570292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4056712",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.26681924606508,
+        -8.06907108570292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4096717",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "45",
+      "coordenadas": [
+        41.2672334596992,
+        -8.069106482893279
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4155327",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "37",
+      "coordenadas": [
+        41.267260498858796,
+        -8.069154192363793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4253335",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "79",
+      "coordenadas": [
+        41.26706225341601,
+        -8.068879905358498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4320604",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "10",
+      "coordenadas": [
+        41.26697205785258,
+        -8.068605513676864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354252",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "20",
+      "coordenadas": [
+        41.26707161532899,
+        -8.069524328628944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354253",
+      "rua": "R ARQUEOLOGO JOSE PINHO",
+      "casa": "26",
+      "coordenadas": [
+        41.26707161532899,
+        -8.069524328628944
+      ]
+    }
+  ],
+  "ruas": [
+    "R ARQUEOLOGO JOSE PINHO",
+    "PCT ARQUEÓLOGO JOSÉ PINHO",
+    "PCT ARQUEOLOGO JOSE PINHO"
+  ],
+  "centro": [
+    41.26699025937549,
+    -8.06901116086581
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.26656215936565,
+                -8.069244377629525
+              ],
+              [
+                41.266545269847484,
+                -8.069232460247836
+              ],
+              [
+                41.26653302115169,
+                -8.06921699547605
+              ],
+              [
+                41.266525413278266,
+                -8.069197983314169
+              ],
+              [
+                41.26652244622723,
+                -8.06917542376219
+              ],
+              [
+                41.26652411999858,
+                -8.069149316820114
+              ],
+              [
+                41.266530434592305,
+                -8.06911966248794
+              ],
+              [
+                41.26654139000841,
+                -8.06908646076567
+              ],
+              [
+                41.2665569862469,
+                -8.069049711653301
+              ],
+              [
+                41.266577223307756,
+                -8.069009415150838
+              ],
+              [
+                41.266597741945134,
+                -8.068969491280178
+              ],
+              [
+                41.26661854215902,
+                -8.068929940041324
+              ],
+              [
+                41.266639623949416,
+                -8.068890761434275
+              ],
+              [
+                41.266660987316314,
+                -8.068851955459031
+              ],
+              [
+                41.26668263225973,
+                -8.068813522115594
+              ],
+              [
+                41.26670455877966,
+                -8.068775461403959
+              ],
+              [
+                41.26672676687609,
+                -8.068737773324132
+              ],
+              [
+                41.26674925654905,
+                -8.06870045787611
+              ],
+              [
+                41.26677301441869,
+                -8.06866668403557
+              ],
+              [
+                41.26679804048503,
+                -8.06863645180251
+              ],
+              [
+                41.26682433474806,
+                -8.068609761176933
+              ],
+              [
+                41.266851897207786,
+                -8.068586612158837
+              ],
+              [
+                41.26688072786422,
+                -8.068567004748223
+              ],
+              [
+                41.266910826717336,
+                -8.06855093894509
+              ],
+              [
+                41.26694219376716,
+                -8.068538414749439
+              ],
+              [
+                41.26697482901368,
+                -8.06852943216127
+              ],
+              [
+                41.26700718413342,
+                -8.068522687462133
+              ],
+              [
+                41.267039259126406,
+                -8.06851818065203
+              ],
+              [
+                41.26707105399262,
+                -8.068515911730959
+              ],
+              [
+                41.26710256873207,
+                -8.068515880698923
+              ],
+              [
+                41.267133803344755,
+                -8.068518087555919
+              ],
+              [
+                41.26716475783067,
+                -8.068522532301948
+              ],
+              [
+                41.26719543218982,
+                -8.06852921493701
+              ],
+              [
+                41.267225826422205,
+                -8.068538135461106
+              ],
+              [
+                41.267254955062754,
+                -8.068548176051852
+              ],
+              [
+                41.26728281811146,
+                -8.06855933670925
+              ],
+              [
+                41.267309415568334,
+                -8.068571617433298
+              ],
+              [
+                41.267334747433374,
+                -8.068585018223997
+              ],
+              [
+                41.26735881370658,
+                -8.068599539081347
+              ],
+              [
+                41.26738161438794,
+                -8.068615180005349
+              ],
+              [
+                41.267403149477474,
+                -8.068631940996001
+              ],
+              [
+                41.26742341897517,
+                -8.068649822053304
+              ],
+              [
+                41.267438908820225,
+                -8.068674607142372
+              ],
+              [
+                41.26744961901262,
+                -8.068706296263203
+              ],
+              [
+                41.26745554955238,
+                -8.068744889415798
+              ],
+              [
+                41.267456700439496,
+                -8.068790386600156
+              ],
+              [
+                41.267453071673955,
+                -8.06884278781628
+              ],
+              [
+                41.26744466325577,
+                -8.068902093064168
+              ],
+              [
+                41.26743147518495,
+                -8.06896830234382
+              ],
+              [
+                41.267413507461484,
+                -8.069041415655231
+              ],
+              [
+                41.26739342624875,
+                -8.069108936933716
+              ],
+              [
+                41.267371231546754,
+                -8.06917086617927
+              ],
+              [
+                41.267346923355504,
+                -8.069227203391893
+              ],
+              [
+                41.267320501675,
+                -8.069277948571585
+              ],
+              [
+                41.26729196650524,
+                -8.069323101718346
+              ],
+              [
+                41.26726131784622,
+                -8.06936266283218
+              ],
+              [
+                41.26722855569793,
+                -8.06939663191308
+              ],
+              [
+                41.26719368006038,
+                -8.06942500896105
+              ],
+              [
+                41.26715612727363,
+                -8.069446116375468
+              ],
+              [
+                41.267115897337675,
+                -8.069459954156335
+              ],
+              [
+                41.2670729902525,
+                -8.069466522303651
+              ],
+              [
+                41.26702740601813,
+                -8.069465820817419
+              ],
+              [
+                41.26697914463454,
+                -8.069457849697633
+              ],
+              [
+                41.26692820610174,
+                -8.069442608944295
+              ],
+              [
+                41.26687459041973,
+                -8.069420098557407
+              ],
+              [
+                41.26681829758852,
+                -8.06939031853697
+              ],
+              [
+                41.266766930171435,
+                -8.069362771346373
+              ],
+              [
+                41.26672048816848,
+                -8.069337456985624
+              ],
+              [
+                41.26667897157965,
+                -8.069314375454717
+              ],
+              [
+                41.26664238040496,
+                -8.06929352675365
+              ],
+              [
+                41.266610714644386,
+                -8.06927491088243
+              ],
+              [
+                41.26658397429796,
+                -8.069258527841058
+              ],
+              [
+                41.26656215936565,
+                -8.069244377629525
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.26699125658064,
+    -8.068946274011523
+  ],
+  "centroDeMassa": [
+    41.26699025937549,
+    -8.06901116086581
+  ]
+}

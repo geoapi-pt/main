@@ -1,1 +1,531 @@
-{"CP4":"4465","CP3":"169","Distrito":"Porto","Concelho":"Matosinhos","CP":"4465-169","Artéria":"Travessa Henrique Bravo","Localidade":"São Mamede de Infesta","Local":"","Troço":"Impares de 41 a 361","Porta":"","Cliente":"","Designação Postal":"SÃO MAMEDE DE INFESTA","locais":[{"id":"pt.ine.add.PTCONT.3631915","rua":"TV HENRIQUE BRAVO","casa":"331","coordenadas":[41.194758035312795,-8.599723216485032]},{"id":"pt.ine.add.PTCONT.3670712","rua":"TV HENRIQUE BRAVO","casa":"335","coordenadas":[41.1948756189093,-8.599592923111603]},{"id":"pt.ine.add.PTCONT.3684050","rua":"TV HENRIQUE BRAVO","casa":"231","coordenadas":[41.19509564308916,-8.600846169172994]},{"id":"pt.ine.add.PTCONT.3684051","rua":"TV HENRIQUE BRAVO","casa":"239","coordenadas":[41.19509564308916,-8.600846169172994]},{"id":"pt.ine.add.PTCONT.3709515","rua":"TV HENRIQUE BRAVO","casa":"353 361","coordenadas":[41.194660728846124,-8.599293379511723]},{"id":"pt.ine.add.PTCONT.3709516","rua":"TV HENRIQUE BRAVO","casa":"353 361","coordenadas":[41.194660728846124,-8.599293379511723]},{"id":"pt.ine.add.PTCONT.3741097","rua":"TV HENRIQUE BRAVO","casa":"94","coordenadas":[41.19549274000532,-8.600622499331903]},{"id":"pt.ine.add.PTCONT.3741098","rua":"TV HENRIQUE BRAVO","casa":"47","coordenadas":[41.19520151158307,-8.601383359662467]},{"id":"pt.ine.add.PTCONT.3767631","rua":"TV HENRIQUE BRAVO","casa":"327","coordenadas":[41.19492005957488,-8.59973628783271]},{"id":"pt.ine.add.PTCONT.3976407","rua":"TV HENRIQUE BRAVO","casa":"247","coordenadas":[41.19502424012182,-8.600690690662928]},{"id":"pt.ine.add.PTCONT.3976408","rua":"TV HENRIQUE BRAVO","casa":"245","coordenadas":[41.19502424012182,-8.600690690662928]},{"id":"pt.ine.add.PTCONT.4032391","rua":"TV HENRIQUE BRAVO","casa":"321","coordenadas":[41.194793520098,-8.59985459667344]},{"id":"pt.ine.add.PTCONT.4052492","rua":"TV HENRIQUE BRAVO","casa":"41","coordenadas":[41.19541983654625,-8.600836556078995]},{"id":"pt.ine.add.PTCONT.4104572","rua":"TV HENRIQUE BRAVO","casa":"247","coordenadas":[41.19497094176116,-8.60051149972572]},{"id":"pt.ine.add.PTCONT.4130533","rua":"TV HENRIQUE BRAVO","casa":"43","coordenadas":[41.19535709879746,-8.60076458440404]},{"id":"pt.ine.add.PTCONT.4130534","rua":"TV HENRIQUE BRAVO","casa":"43","coordenadas":[41.19535709879746,-8.60076458440404]},{"id":"pt.ine.add.PTCONT.4130535","rua":"TV HENRIQUE BRAVO","casa":"43","coordenadas":[41.19535709879746,-8.60076458440404]},{"id":"pt.ine.add.PTCONT.4130539","rua":"TV HENRIQUE BRAVO","casa":"43","coordenadas":[41.19535709879746,-8.60076458440404]},{"id":"pt.ine.add.PTCONT.4130540","rua":"TV HENRIQUE BRAVO","casa":"45","coordenadas":[41.1951837458557,-8.601323628972482]},{"id":"pt.ine.add.PTCONT.4139501","rua":"TV HENRIQUE BRAVO","casa":"291","coordenadas":[41.19498163828499,-8.600094348525763]},{"id":"pt.ine.add.PTCONT.4139502","rua":"TV HENRIQUE BRAVO","casa":"291","coordenadas":[41.19498163828499,-8.600094348525763]},{"id":"pt.ine.add.PTCONT.4251510","rua":"TV HENRIQUE BRAVO","casa":"269","coordenadas":[41.19491744967001,-8.600379990773426]},{"id":"pt.ine.add.PTCONT.4251511","rua":"TV HENRIQUE BRAVO","casa":"269","coordenadas":[41.19491744967001,-8.600379990773426]},{"id":"pt.ine.add.PTCONT.4283866","rua":"TV HENRIQUE BRAVO","casa":"273","coordenadas":[41.1948729614574,-8.60024854604634]},{"id":"pt.ine.add.PTCONT.4283867","rua":"TV HENRIQUE BRAVO","casa":"273","coordenadas":[41.1948729614574,-8.60024854604634]},{"id":"pt.ine.add.PTCONT.4288562","rua":"TV HENRIQUE BRAVO","casa":"43","coordenadas":[41.19513988846325,-8.601037217061975]},{"id":"pt.ine.add.PTCONT.4315395","rua":"TV HENRIQUE BRAVO","casa":"345","coordenadas":[41.19471393257067,-8.599496409407479]},{"id":"pt.ine.add.PTCONT.4342240","rua":"TV HENRIQUE BRAVO","casa":"315","coordenadas":[41.19484691614329,-8.600009945778433]}],"ruas":["TV HENRIQUE BRAVO"],"centroide":[41.19503716847442,-8.600380843753568]}
+{
+  "CP": "4465-169",
+  "CP4": "4465",
+  "CP3": "169",
+  "Distrito": "Porto",
+  "Concelho": "Matosinhos",
+  "Localidade": "São Mamede de Infesta",
+  "Designação Postal": "SÃO MAMEDE DE INFESTA",
+  "partes": [
+    {
+      "Artéria": "Travessa Henrique Bravo",
+      "Local": "",
+      "Troço": "Impares de 41 a 361",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3631915",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "331",
+      "coordenadas": [
+        41.194758035312795,
+        -8.599723216485032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3670712",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "335",
+      "coordenadas": [
+        41.1948756189093,
+        -8.599592923111603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3684050",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "231",
+      "coordenadas": [
+        41.19509564308916,
+        -8.600846169172994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3684051",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "239",
+      "coordenadas": [
+        41.19509564308916,
+        -8.600846169172994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3709515",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "353 361",
+      "coordenadas": [
+        41.194660728846124,
+        -8.599293379511723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3709516",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "353 361",
+      "coordenadas": [
+        41.194660728846124,
+        -8.599293379511723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3741097",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "94",
+      "coordenadas": [
+        41.19549274000532,
+        -8.600622499331903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3741098",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "47",
+      "coordenadas": [
+        41.19520151158307,
+        -8.601383359662467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3767631",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "327",
+      "coordenadas": [
+        41.19492005957488,
+        -8.59973628783271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3976407",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "247",
+      "coordenadas": [
+        41.19502424012182,
+        -8.600690690662928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3976408",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "245",
+      "coordenadas": [
+        41.19502424012182,
+        -8.600690690662928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4032391",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "321",
+      "coordenadas": [
+        41.194793520098,
+        -8.59985459667344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4052492",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "41",
+      "coordenadas": [
+        41.19541983654625,
+        -8.600836556078995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4104572",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "247",
+      "coordenadas": [
+        41.19497094176116,
+        -8.60051149972572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130533",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "43",
+      "coordenadas": [
+        41.19535709879746,
+        -8.60076458440404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130534",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "43",
+      "coordenadas": [
+        41.19535709879746,
+        -8.60076458440404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130535",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "43",
+      "coordenadas": [
+        41.19535709879746,
+        -8.60076458440404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130539",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "43",
+      "coordenadas": [
+        41.19535709879746,
+        -8.60076458440404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4130540",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "45",
+      "coordenadas": [
+        41.1951837458557,
+        -8.601323628972482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4139501",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "291",
+      "coordenadas": [
+        41.19498163828499,
+        -8.600094348525763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4139502",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "291",
+      "coordenadas": [
+        41.19498163828499,
+        -8.600094348525763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4251510",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "269",
+      "coordenadas": [
+        41.19491744967001,
+        -8.600379990773426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4251511",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "269",
+      "coordenadas": [
+        41.19491744967001,
+        -8.600379990773426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4283866",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "273",
+      "coordenadas": [
+        41.1948729614574,
+        -8.60024854604634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4283867",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "273",
+      "coordenadas": [
+        41.1948729614574,
+        -8.60024854604634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4288562",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "43",
+      "coordenadas": [
+        41.19513988846325,
+        -8.601037217061975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4315395",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "345",
+      "coordenadas": [
+        41.19471393257067,
+        -8.599496409407479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4342240",
+      "rua": "TV HENRIQUE BRAVO",
+      "casa": "315",
+      "coordenadas": [
+        41.19484691614329,
+        -8.600009945778433
+      ]
+    }
+  ],
+  "ruas": [
+    "TV HENRIQUE BRAVO"
+  ],
+  "centro": [
+    41.195076734425726,
+    -8.600338369587096
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.194780109689965,
+                -8.599830660687445
+              ],
+              [
+                41.19475358061356,
+                -8.599711264870617
+              ],
+              [
+                41.19473372532894,
+                -8.599611473899643
+              ],
+              [
+                41.194720543836105,
+                -8.599531287774518
+              ],
+              [
+                41.19471403613506,
+                -8.599470706495245
+              ],
+              [
+                41.1947142022258,
+                -8.599429730061825
+              ],
+              [
+                41.194721042108334,
+                -8.599408358474255
+              ],
+              [
+                41.19473455578265,
+                -8.599406591732537
+              ],
+              [
+                41.194754743248765,
+                -8.59942442983667
+              ],
+              [
+                41.19478160450666,
+                -8.599461872786655
+              ],
+              [
+                41.194814750624445,
+                -8.599510722496333
+              ],
+              [
+                41.194854181602125,
+                -8.599570978965708
+              ],
+              [
+                41.19489989743968,
+                -8.599642642194775
+              ],
+              [
+                41.194951898137134,
+                -8.599725712183536
+              ],
+              [
+                41.19501018369447,
+                -8.599820188931993
+              ],
+              [
+                41.1950747541117,
+                -8.599926072440141
+              ],
+              [
+                41.19514560938882,
+                -8.600043362707984
+              ],
+              [
+                41.19522274952581,
+                -8.600172059735522
+              ],
+              [
+                41.195289108029144,
+                -8.600288014271289
+              ],
+              [
+                41.1953446848988,
+                -8.60039122631529
+              ],
+              [
+                41.19538948013478,
+                -8.60048169586752
+              ],
+              [
+                41.195423493737096,
+                -8.600559422927983
+              ],
+              [
+                41.19544672570573,
+                -8.600624407496674
+              ],
+              [
+                41.195459176040686,
+                -8.6006766495736
+              ],
+              [
+                41.19546084474197,
+                -8.600716149158757
+              ],
+              [
+                41.1954517318096,
+                -8.600742906252144
+              ],
+              [
+                41.19544034666621,
+                -8.60077486251485
+              ],
+              [
+                41.195426689311816,
+                -8.600812017946872
+              ],
+              [
+                41.19541075974643,
+                -8.600854372548214
+              ],
+              [
+                41.19539255797004,
+                -8.600901926318874
+              ],
+              [
+                41.19537208398265,
+                -8.600954679258852
+              ],
+              [
+                41.19534933778425,
+                -8.60101263136815
+              ],
+              [
+                41.195324319374855,
+                -8.601075782646763
+              ],
+              [
+                41.19529702875446,
+                -8.6011441330947
+              ],
+              [
+                41.19527287187212,
+                -8.60120300644461
+              ],
+              [
+                41.19525184872785,
+                -8.601252402696497
+              ],
+              [
+                41.19523395932163,
+                -8.601292321850362
+              ],
+              [
+                41.195219203653465,
+                -8.601322763906207
+              ],
+              [
+                41.195207581723366,
+                -8.601343728864027
+              ],
+              [
+                41.19519909353133,
+                -8.601355216723825
+              ],
+              [
+                41.19519373907735,
+                -8.6013572274856
+              ],
+              [
+                41.195191518361426,
+                -8.60134976114935
+              ],
+              [
+                41.19518471922876,
+                -8.601326429934414
+              ],
+              [
+                41.19517334167938,
+                -8.601287233840784
+              ],
+              [
+                41.19515738571326,
+                -8.601232172868468
+              ],
+              [
+                41.1951368513304,
+                -8.601161247017458
+              ],
+              [
+                41.19511173853081,
+                -8.601074456287762
+              ],
+              [
+                41.1950820473145,
+                -8.600971800679371
+              ],
+              [
+                41.195047777681445,
+                -8.600853280192293
+              ],
+              [
+                41.195008929631655,
+                -8.600718894826528
+              ],
+              [
+                41.19497162145354,
+                -8.600586383154377
+              ],
+              [
+                41.1949358531471,
+                -8.600455745175845
+              ],
+              [
+                41.19490162471233,
+                -8.60032698089093
+              ],
+              [
+                41.19486893614922,
+                -8.60020009029963
+              ],
+              [
+                41.1948377874578,
+                -8.60007507340195
+              ],
+              [
+                41.19480817863804,
+                -8.59995193019789
+              ],
+              [
+                41.194780109689965,
+                -8.599830660687445
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.19510102045759,
+    -8.600471556102217
+  ],
+  "centroDeMassa": [
+    41.195076734425726,
+    -8.600338369587096
+  ]
+}

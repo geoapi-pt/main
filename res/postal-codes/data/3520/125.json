@@ -1,1 +1,493 @@
-{"CP4":"3520","CP3":"125","Distrito":"Viseu","Concelho":"Nelas","CP":"3520-125","Artéria":"Rua de Miragaia","Localidade":"Santar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTAR NLS","locais":[{"id":"pt.ine.add.PTCONT.5427653","rua":"R MIRAGAIA","casa":"5","coordenadas":[40.57059849224642,-7.892080100133297]},{"id":"pt.ine.add.PTCONT.5431739","rua":"R DIREITA","casa":"12","coordenadas":[40.57050868628602,-7.8921985152897784]},{"id":"pt.ine.add.PTCONT.5433649","rua":"R MIRAGAIA","casa":"2","coordenadas":[40.570525809414605,-7.891773319194553]},{"id":"pt.ine.add.PTCONT.5449519","rua":"R DIREITA","casa":"30","coordenadas":[40.57078816840494,-7.892351034474821]},{"id":"pt.ine.add.PTCONT.5470151","rua":"R DIREITA","casa":"","coordenadas":[40.57077067450921,-7.892599093312178]},{"id":"pt.ine.add.PTCONT.5470137","rua":"R RIBEIRO","casa":"","coordenadas":[40.57079645941162,-7.892008533769396]},{"id":"pt.ine.add.PTCONT.5472910","rua":"R MIRAGAIA","casa":"10","coordenadas":[40.57051712479091,-7.891926871233787]},{"id":"pt.ine.add.PTCONT.5480341","rua":"R RIBEIRO","casa":"12","coordenadas":[40.570850219601176,-7.891878437929114]},{"id":"pt.ine.add.PTCONT.5484526","rua":"R DIREITA","casa":"7","coordenadas":[40.57041892942778,-7.89234054850956]},{"id":"pt.ine.add.PTCONT.5487608","rua":"R OUTEIRO DE VEZ","casa":"","coordenadas":[40.566174627229955,-7.890997777429164]},{"id":"pt.ine.add.PTCONT.5489956","rua":"R MIRAGAIA","casa":"18","coordenadas":[40.57066157811843,-7.892103492426508]},{"id":"pt.ine.add.PTCONT.5502659","rua":"R DIREITA","casa":"35","coordenadas":[40.57072559919409,-7.892575636027812]},{"id":"pt.ine.add.PTCONT.5527017","rua":"R DIREITA","casa":"19","coordenadas":[40.57046407861484,-7.892399433123666]},{"id":"pt.ine.add.PTCONT.5533117","rua":"R DIREITA","casa":"ZS","coordenadas":[40.57055408168706,-7.892375492023246]},{"id":"pt.ine.add.PTCONT.5536896","rua":"R DIREITA","casa":"","coordenadas":[40.57082480421135,-7.892646136913316]},{"id":"pt.ine.add.PTCONT.5549360","rua":"R DIREITA","casa":"20","coordenadas":[40.57060774379853,-7.892198160052703]},{"id":"pt.ine.add.PTCONT.5557418","rua":"R MIRAGAIA","casa":"10","coordenadas":[40.57061628090812,-7.891973752493286]},{"id":"pt.ine.add.PTCONT.5564033","rua":"R DIREITA","casa":"","coordenadas":[40.5706537048713,-7.892646749367232]},{"id":"pt.ine.add.PTCONT.5570276","rua":"R RIBEIRO","casa":"","coordenadas":[40.570814691631135,-7.892114752462836]},{"id":"pt.ine.add.PTCONT.5602805","rua":"R RIBEIRO","casa":"10","coordenadas":[40.57080489746598,-7.891736888527887]},{"id":"pt.ine.add.PTCONT.5612924","rua":"R MIRAGAIA","casa":"9","coordenadas":[40.57057103287491,-7.8918676311681475]},{"id":"pt.ine.add.PTCONT.5626062","rua":"R DIREITA","casa":"16","coordenadas":[40.570562742282405,-7.892210130739444]},{"id":"pt.ine.add.PTCONT.5629849","rua":"R DIREITA","casa":"29","coordenadas":[40.57068947991953,-7.8925285280524005]},{"id":"pt.ine.add.PTCONT.5631698","rua":"R MIRAGAIA","casa":"14","coordenadas":[40.57066143028039,-7.892032637032293]},{"id":"pt.ine.add.PTCONT.5641735","rua":"R DIREITA","casa":"6","coordenadas":[40.57046361088854,-7.892175058365214]},{"id":"pt.ine.add.PTCONT.5646958","rua":"R MIRAGAIA","casa":"","coordenadas":[40.5705533182529,-7.892009406403925]},{"id":"pt.ine.add.PTCONT.5661633","rua":"R DIREITA","casa":"2","coordenadas":[40.57074336371211,-7.89245747906829]},{"id":"pt.ine.add.PTCONT.5661649","rua":"R DIREITA","casa":"","coordenadas":[40.570671592410605,-7.8925876387254945]},{"id":"pt.ine.add.PTCONT.5666858","rua":"R DIREITA","casa":"13","coordenadas":[40.57050903093546,-7.892363844169871]}],"ruas":["R MIRAGAIA","R DIREITA","R RIBEIRO","R OUTEIRO DE VEZ"],"centroide":[40.57048547223018,-7.892171186937477]}
+{
+  "CP": "3520-125",
+  "CP4": "3520",
+  "CP3": "125",
+  "Distrito": "Viseu",
+  "Concelho": "Nelas",
+  "Localidade": "Santar",
+  "Designação Postal": "SANTAR NLS",
+  "partes": [
+    {
+      "Artéria": "Rua do Ribeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Direita",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Miragaia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5427653",
+      "rua": "R MIRAGAIA",
+      "casa": "5",
+      "coordenadas": [
+        40.57059849224642,
+        -7.892080100133297
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5431739",
+      "rua": "R DIREITA",
+      "casa": "12",
+      "coordenadas": [
+        40.57050868628602,
+        -7.8921985152897784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5433649",
+      "rua": "R MIRAGAIA",
+      "casa": "2",
+      "coordenadas": [
+        40.570525809414605,
+        -7.891773319194553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5449519",
+      "rua": "R DIREITA",
+      "casa": "30",
+      "coordenadas": [
+        40.57078816840494,
+        -7.892351034474821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5470151",
+      "rua": "R DIREITA",
+      "casa": "",
+      "coordenadas": [
+        40.57077067450921,
+        -7.892599093312178
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5470137",
+      "rua": "R RIBEIRO",
+      "casa": "",
+      "coordenadas": [
+        40.57079645941162,
+        -7.892008533769396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5472910",
+      "rua": "R MIRAGAIA",
+      "casa": "10",
+      "coordenadas": [
+        40.57051712479091,
+        -7.891926871233787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5480341",
+      "rua": "R RIBEIRO",
+      "casa": "12",
+      "coordenadas": [
+        40.570850219601176,
+        -7.891878437929114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5484526",
+      "rua": "R DIREITA",
+      "casa": "7",
+      "coordenadas": [
+        40.57041892942778,
+        -7.89234054850956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5487608",
+      "rua": "R OUTEIRO DE VEZ",
+      "casa": "",
+      "coordenadas": [
+        40.566174627229955,
+        -7.890997777429164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5489956",
+      "rua": "R MIRAGAIA",
+      "casa": "18",
+      "coordenadas": [
+        40.57066157811843,
+        -7.892103492426508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5502659",
+      "rua": "R DIREITA",
+      "casa": "35",
+      "coordenadas": [
+        40.57072559919409,
+        -7.892575636027812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5527017",
+      "rua": "R DIREITA",
+      "casa": "19",
+      "coordenadas": [
+        40.57046407861484,
+        -7.892399433123666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5533117",
+      "rua": "R DIREITA",
+      "casa": "ZS",
+      "coordenadas": [
+        40.57055408168706,
+        -7.892375492023246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5536896",
+      "rua": "R DIREITA",
+      "casa": "",
+      "coordenadas": [
+        40.57082480421135,
+        -7.892646136913316
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5549360",
+      "rua": "R DIREITA",
+      "casa": "20",
+      "coordenadas": [
+        40.57060774379853,
+        -7.892198160052703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5557418",
+      "rua": "R MIRAGAIA",
+      "casa": "10",
+      "coordenadas": [
+        40.57061628090812,
+        -7.891973752493286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5564033",
+      "rua": "R DIREITA",
+      "casa": "",
+      "coordenadas": [
+        40.5706537048713,
+        -7.892646749367232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5570276",
+      "rua": "R RIBEIRO",
+      "casa": "",
+      "coordenadas": [
+        40.570814691631135,
+        -7.892114752462836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5602805",
+      "rua": "R RIBEIRO",
+      "casa": "10",
+      "coordenadas": [
+        40.57080489746598,
+        -7.891736888527887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5612924",
+      "rua": "R MIRAGAIA",
+      "casa": "9",
+      "coordenadas": [
+        40.57057103287491,
+        -7.8918676311681475
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5626062",
+      "rua": "R DIREITA",
+      "casa": "16",
+      "coordenadas": [
+        40.570562742282405,
+        -7.892210130739444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5629849",
+      "rua": "R DIREITA",
+      "casa": "29",
+      "coordenadas": [
+        40.57068947991953,
+        -7.8925285280524005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5631698",
+      "rua": "R MIRAGAIA",
+      "casa": "14",
+      "coordenadas": [
+        40.57066143028039,
+        -7.892032637032293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5641735",
+      "rua": "R DIREITA",
+      "casa": "6",
+      "coordenadas": [
+        40.57046361088854,
+        -7.892175058365214
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5646958",
+      "rua": "R MIRAGAIA",
+      "casa": "",
+      "coordenadas": [
+        40.5705533182529,
+        -7.892009406403925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5661633",
+      "rua": "R DIREITA",
+      "casa": "2",
+      "coordenadas": [
+        40.57074336371211,
+        -7.89245747906829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5661649",
+      "rua": "R DIREITA",
+      "casa": "",
+      "coordenadas": [
+        40.570671592410605,
+        -7.8925876387254945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5666858",
+      "rua": "R DIREITA",
+      "casa": "13",
+      "coordenadas": [
+        40.57050903093546,
+        -7.892363844169871
+      ]
+    }
+  ],
+  "ruas": [
+    "R MIRAGAIA",
+    "R DIREITA",
+    "R RIBEIRO",
+    "R OUTEIRO DE VEZ"
+  ],
+  "centro": [
+    40.56851242341557,
+    -7.891822263398199
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.568694108403214,
+                -7.891925324144328
+              ],
+              [
+                40.568134223698046,
+                -7.8917192026520695
+              ],
+              [
+                40.56771667255346,
+                -7.89155039495726
+              ],
+              [
+                40.56744145496946,
+                -7.891418901059902
+              ],
+              [
+                40.56730857094605,
+                -7.891324720959993
+              ],
+              [
+                40.56731802048321,
+                -7.891267854657533
+              ],
+              [
+                40.56746980358096,
+                -7.891248302152524
+              ],
+              [
+                40.567763920239294,
+                -7.891266063444965
+              ],
+              [
+                40.568200370458214,
+                -7.891321138534855
+              ],
+              [
+                40.56877915423772,
+                -7.891413527422196
+              ],
+              [
+                40.569286298203146,
+                -7.891496579408012
+              ],
+              [
+                40.56972180235449,
+                -7.891570294492305
+              ],
+              [
+                40.570085666691774,
+                -7.8916346726750755
+              ],
+              [
+                40.570377891214974,
+                -7.891689713956323
+              ],
+              [
+                40.5705984759241,
+                -7.891735418336046
+              ],
+              [
+                40.57074742081915,
+                -7.891771785814246
+              ],
+              [
+                40.57082472590013,
+                -7.8917988163909225
+              ],
+              [
+                40.57083039116703,
+                -7.891816510066077
+              ],
+              [
+                40.5708349511601,
+                -7.891843987328464
+              ],
+              [
+                40.57083840587935,
+                -7.891881248178085
+              ],
+              [
+                40.57084075532476,
+                -7.89192829261494
+              ],
+              [
+                40.570841999496345,
+                -7.89198512063903
+              ],
+              [
+                40.570842138394106,
+                -7.892051732250354
+              ],
+              [
+                40.57084117201803,
+                -7.892128127448911
+              ],
+              [
+                40.570839100368126,
+                -7.8922143062347025
+              ],
+              [
+                40.5708359234444,
+                -7.892310268607727
+              ],
+              [
+                40.570830470208946,
+                -7.892394245253717
+              ],
+              [
+                40.57082274066177,
+                -7.892466236172671
+              ],
+              [
+                40.57081273480287,
+                -7.892526241364589
+              ],
+              [
+                40.570800452632255,
+                -7.8925742608294716
+              ],
+              [
+                40.57078589414992,
+                -7.8926102945673176
+              ],
+              [
+                40.570769059355854,
+                -7.892634342578129
+              ],
+              [
+                40.570749948250075,
+                -7.892646404861904
+              ],
+              [
+                40.57072856083257,
+                -7.892646481418644
+              ],
+              [
+                40.57063986125411,
+                -7.892620783219259
+              ],
+              [
+                40.57048384951469,
+                -7.89256931026375
+              ],
+              [
+                40.57026052561431,
+                -7.892492062552115
+              ],
+              [
+                40.56996988955297,
+                -7.892389040084355
+              ],
+              [
+                40.56961194133068,
+                -7.892260242860472
+              ],
+              [
+                40.569186680947425,
+                -7.892105670880461
+              ],
+              [
+                40.568694108403214,
+                -7.891925324144328
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.56986165067595,
+    -7.891981198033342
+  ],
+  "centroDeMassa": [
+    40.56851242341557,
+    -7.891822263398199
+  ]
+}

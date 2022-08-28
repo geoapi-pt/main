@@ -1,1 +1,421 @@
-{"CP4":"4500","CP3":"771","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4500-771","Artéria":"Travessa da Teixugueira","Localidade":"Nogueira da Regedoura","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"NOGUEIRA DA REGEDOURA","locais":[{"id":"pt.ine.add.PTCONT.304573","rua":"R TEIXUGUEIRA","casa":"124","coordenadas":[41.00412404423523,-8.597746001482246]},{"id":"pt.ine.add.PTCONT.327852","rua":"R TEIXUGUEIRA","casa":"179","coordenadas":[41.00362765572974,-8.59802778458616]},{"id":"pt.ine.add.PTCONT.338613","rua":"R TEIXUGUEIRA","casa":"756","coordenadas":[41.003889260718076,-8.59791076033352]},{"id":"pt.ine.add.PTCONT.11833","rua":"TV TEIXUGUEIRA","casa":"12","coordenadas":[41.0041315627494,-8.598114530235389]},{"id":"pt.ine.add.PTCONT.59202","rua":"R TEIXUGUEIRA","casa":"212","coordenadas":[41.0036527501787,-8.598503410333493]},{"id":"pt.ine.add.PTCONT.59203","rua":"R TEIXUGUEIRA","casa":"231","coordenadas":[41.00127877021585,-8.597702247048128]},{"id":"pt.ine.add.PTCONT.85441","rua":"TV TEIXUGUEIRA","casa":"4","coordenadas":[41.003996689548956,-8.598066036996531]},{"id":"pt.ine.add.PTCONT.119081","rua":"R TEIXUGUEIRA","casa":"223","coordenadas":[41.00349996443135,-8.598431018246963]},{"id":"pt.ine.add.PTCONT.125284","rua":"R TEIXUGUEIRA","casa":"212","coordenadas":[41.00383336462453,-8.598373932023197]},{"id":"pt.ine.add.PTCONT.127957","rua":"R TEIXUGUEIRA","casa":"201","coordenadas":[41.003536509476,-8.59830052694833]},{"id":"pt.ine.add.PTCONT.133523","rua":"R TEIXUGUEIRA","casa":"114","coordenadas":[41.00422357094019,-8.597627837152107]},{"id":"pt.ine.add.PTCONT.137352","rua":"R TEIXUGUEIRA","casa":"3","coordenadas":[41.00465917664916,-8.596786960444994]},{"id":"pt.ine.add.PTCONT.156951","rua":"TV TEIXUGUEIRA","casa":"123","coordenadas":[41.00408893698388,-8.59751991494937]},{"id":"pt.ine.add.PTCONT.159806","rua":"TV TEIXUGUEIRA","casa":"29","coordenadas":[41.00420383713476,-8.598055606601317]},{"id":"pt.ine.add.PTCONT.159807","rua":"TV TEIXUGUEIRA","casa":"29","coordenadas":[41.00420383713476,-8.598055606601317]},{"id":"pt.ine.add.PTCONT.179368","rua":"R TEIXUGUEIRA","casa":"231","coordenadas":[41.001316128380786,-8.597369706566985]},{"id":"pt.ine.add.PTCONT.186599","rua":"R TEIXUGUEIRA","casa":"149","coordenadas":[41.003763918826955,-8.597731585850058]},{"id":"pt.ine.add.PTCONT.194392","rua":"TV TEIXUGUEIRA","casa":"4","coordenadas":[41.004033138321,-8.597959316447845]},{"id":"pt.ine.add.PTCONT.198216","rua":"TV TEIXUGUEIRA","casa":"137","coordenadas":[41.003944484518556,-8.597613991160623]},{"id":"pt.ine.add.PTCONT.209437","rua":"TV TEIXUGUEIRA","casa":"121","coordenadas":[41.00402719915931,-8.597198551376126]},{"id":"pt.ine.add.PTCONT.233935","rua":"R TEIXUGUEIRA","casa":"228","coordenadas":[41.003543786193745,-8.598728481860103]},{"id":"pt.ine.add.PTCONT.255682","rua":"R TEIXUGUEIRA","casa":"149","coordenadas":[41.003709365757445,-8.59786195139979]}],"ruas":["R TEIXUGUEIRA","TV TEIXUGUEIRA"],"centroide":[41.00369421838815,-8.597896371773562]}
+{
+  "CP": "4500-771",
+  "CP4": "4500",
+  "CP3": "771",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Nogueira da Regedoura",
+  "Designação Postal": "NOGUEIRA DA REGEDOURA",
+  "partes": [
+    {
+      "Artéria": "Rua Teixugueira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Teixugueira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.304573",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "124",
+      "coordenadas": [
+        41.00412404423523,
+        -8.597746001482246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.327852",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "179",
+      "coordenadas": [
+        41.00362765572974,
+        -8.59802778458616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.338613",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "756",
+      "coordenadas": [
+        41.003889260718076,
+        -8.59791076033352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11833",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "12",
+      "coordenadas": [
+        41.0041315627494,
+        -8.598114530235389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.59202",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "212",
+      "coordenadas": [
+        41.0036527501787,
+        -8.598503410333493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.59203",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "231",
+      "coordenadas": [
+        41.00127877021585,
+        -8.597702247048128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.85441",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "4",
+      "coordenadas": [
+        41.003996689548956,
+        -8.598066036996531
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.119081",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "223",
+      "coordenadas": [
+        41.00349996443135,
+        -8.598431018246963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.125284",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "212",
+      "coordenadas": [
+        41.00383336462453,
+        -8.598373932023197
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.127957",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "201",
+      "coordenadas": [
+        41.003536509476,
+        -8.59830052694833
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.133523",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "114",
+      "coordenadas": [
+        41.00422357094019,
+        -8.597627837152107
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137352",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "3",
+      "coordenadas": [
+        41.00465917664916,
+        -8.596786960444994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.156951",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "123",
+      "coordenadas": [
+        41.00408893698388,
+        -8.59751991494937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.159806",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "29",
+      "coordenadas": [
+        41.00420383713476,
+        -8.598055606601317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.159807",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "29",
+      "coordenadas": [
+        41.00420383713476,
+        -8.598055606601317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.179368",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "231",
+      "coordenadas": [
+        41.001316128380786,
+        -8.597369706566985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.186599",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "149",
+      "coordenadas": [
+        41.003763918826955,
+        -8.597731585850058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.194392",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "4",
+      "coordenadas": [
+        41.004033138321,
+        -8.597959316447845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198216",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "137",
+      "coordenadas": [
+        41.003944484518556,
+        -8.597613991160623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209437",
+      "rua": "TV TEIXUGUEIRA",
+      "casa": "121",
+      "coordenadas": [
+        41.00402719915931,
+        -8.597198551376126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.233935",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "228",
+      "coordenadas": [
+        41.003543786193745,
+        -8.598728481860103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255682",
+      "rua": "R TEIXUGUEIRA",
+      "casa": "149",
+      "coordenadas": [
+        41.003709365757445,
+        -8.59786195139979
+      ]
+    }
+  ],
+  "ruas": [
+    "R TEIXUGUEIRA",
+    "TV TEIXUGUEIRA"
+  ],
+  "centro": [
+    41.0029689734325,
+    -8.597757721152549
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.00255284170342,
+                -8.598279504129865
+              ],
+              [
+                41.00226971470617,
+                -8.598151224778368
+              ],
+              [
+                41.00202256230492,
+                -8.59803378440079
+              ],
+              [
+                41.00181138449965,
+                -8.597927182997132
+              ],
+              [
+                41.001636181290365,
+                -8.597831420567394
+              ],
+              [
+                41.001496952677044,
+                -8.597746497111574
+              ],
+              [
+                41.00139369865972,
+                -8.597672412629674
+              ],
+              [
+                41.001326419238374,
+                -8.597609167121691
+              ],
+              [
+                41.00129511441301,
+                -8.597556760587628
+              ],
+              [
+                41.00129978418363,
+                -8.597515193027485
+              ],
+              [
+                41.00135610536211,
+                -8.597469716004202
+              ],
+              [
+                41.00146407794846,
+                -8.597420329517783
+              ],
+              [
+                41.00162370194268,
+                -8.597367033568226
+              ],
+              [
+                41.00183497734476,
+                -8.597309828155531
+              ],
+              [
+                41.0020979041547,
+                -8.597248713279697
+              ],
+              [
+                41.00241248237252,
+                -8.597183688940724
+              ],
+              [
+                41.0027787119982,
+                -8.597114755138614
+              ],
+              [
+                41.00319659303175,
+                -8.597041911873365
+              ],
+              [
+                41.003555124256195,
+                -8.596997996612465
+              ],
+              [
+                41.003854305671524,
+                -8.596983009355915
+              ],
+              [
+                41.00409413727775,
+                -8.596996950103712
+              ],
+              [
+                41.00427461907488,
+                -8.597039818855855
+              ],
+              [
+                41.004395751062894,
+                -8.597111615612349
+              ],
+              [
+                41.004457533241805,
+                -8.597212340373193
+              ],
+              [
+                41.00445996561161,
+                -8.597341993138386
+              ],
+              [
+                41.004403048172314,
+                -8.597500573907926
+              ],
+              [
+                41.00434293211697,
+                -8.597649845757193
+              ],
+              [
+                41.00427961744559,
+                -8.597789808686187
+              ],
+              [
+                41.00421310415817,
+                -8.597920462694905
+              ],
+              [
+                41.004143392254704,
+                -8.598041807783346
+              ],
+              [
+                41.0040704817352,
+                -8.598153843951517
+              ],
+              [
+                41.00399437259966,
+                -8.598256571199414
+              ],
+              [
+                41.003915064848066,
+                -8.598349989527037
+              ],
+              [
+                41.00383255848044,
+                -8.598434098934383
+              ],
+              [
+                41.00372497453411,
+                -8.598491659746877
+              ],
+              [
+                41.00359231300908,
+                -8.598522671964515
+              ],
+              [
+                41.003434573905345,
+                -8.598527135587297
+              ],
+              [
+                41.00325175722292,
+                -8.59850505061522
+              ],
+              [
+                41.00304386296179,
+                -8.59845641704829
+              ],
+              [
+                41.00281089112195,
+                -8.598381234886507
+              ],
+              [
+                41.00255284170342,
+                -8.598279504129865
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.00300033971486,
+    -8.597728600504306
+  ],
+  "centroDeMassa": [
+    41.0029689734325,
+    -8.597757721152549
+  ]
+}

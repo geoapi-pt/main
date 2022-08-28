@@ -1,1 +1,280 @@
-{"CP4":"7750","CP3":"346","Distrito":"Beja","Concelho":"Mértola","CP":"7750-346","Artéria":"Rua de Nossa Senhora da Conceição","Localidade":"Mértola","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MÉRTOLA","locais":[{"id":"pt.ine.add.PTCONT.354143","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"9","coordenadas":[37.636885392430244,-7.664220941649071]},{"id":"pt.ine.add.PTCONT.363129","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"6","coordenadas":[37.63712785351384,-7.663923586959733]},{"id":"pt.ine.add.PTCONT.372942","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"13","coordenadas":[37.63710822939254,-7.664094915541309]},{"id":"pt.ine.add.PTCONT.414819","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"3-5-7","coordenadas":[37.63678711187384,-7.6643335939268]},{"id":"pt.ine.add.PTCONT.414820","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"3-5-7","coordenadas":[37.63678711187384,-7.6643335939268]},{"id":"pt.ine.add.PTCONT.414821","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"3-5-7","coordenadas":[37.63678711187384,-7.6643335939268]},{"id":"pt.ine.add.PTCONT.418031","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"11","coordenadas":[37.63698660308159,-7.6641625190202625]},{"id":"pt.ine.add.PTCONT.425989","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"15","coordenadas":[37.637226913492675,-7.66391163441208]},{"id":"pt.ine.add.PTCONT.437989","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"13 A","coordenadas":[37.63715588743652,-7.664031671993353]},{"id":"pt.ine.add.PTCONT.438003","rua":"R NOSSA SENHORA DA CONCEIÇÃO","casa":"17","coordenadas":[37.637480493001284,-7.663735944682298]}],"ruas":["R NOSSA SENHORA DA CONCEIÇÃO"],"centroide":[37.63698357944099,-7.664149561261801]}
+{
+  "CP": "7750-346",
+  "CP4": "7750",
+  "CP3": "346",
+  "Distrito": "Beja",
+  "Concelho": "Mértola",
+  "Localidade": "Mértola",
+  "Designação Postal": "MÉRTOLA",
+  "partes": [
+    {
+      "Artéria": "Rua da Eirinha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Nossa Senhora da Conceição",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.354143",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "9",
+      "coordenadas": [
+        37.636885392430244,
+        -7.664220941649071
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.363129",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "6",
+      "coordenadas": [
+        37.63712785351384,
+        -7.663923586959733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.372942",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "13",
+      "coordenadas": [
+        37.63710822939254,
+        -7.664094915541309
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.414819",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "3-5-7",
+      "coordenadas": [
+        37.63678711187384,
+        -7.6643335939268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.414820",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "3-5-7",
+      "coordenadas": [
+        37.63678711187384,
+        -7.6643335939268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.414821",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "3-5-7",
+      "coordenadas": [
+        37.63678711187384,
+        -7.6643335939268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.418031",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "11",
+      "coordenadas": [
+        37.63698660308159,
+        -7.6641625190202625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.425989",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "15",
+      "coordenadas": [
+        37.637226913492675,
+        -7.66391163441208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.437989",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "13 A",
+      "coordenadas": [
+        37.63715588743652,
+        -7.664031671993353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.438003",
+      "rua": "R NOSSA SENHORA DA CONCEIÇÃO",
+      "casa": "17",
+      "coordenadas": [
+        37.637480493001284,
+        -7.663735944682298
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOSSA SENHORA DA CONCEIÇÃO"
+  ],
+  "centro": [
+    37.63713380243756,
+    -7.664034769304549
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.636967740478106,
+                -7.664199337334962
+              ],
+              [
+                37.636927600788276,
+                -7.664229172133148
+              ],
+              [
+                37.636897802647795,
+                -7.664248871222702
+              ],
+              [
+                37.63687834605666,
+                -7.664258434603619
+              ],
+              [
+                37.636869231014884,
+                -7.664257862275905
+              ],
+              [
+                37.63687045752248,
+                -7.664247154239556
+              ],
+              [
+                37.63688202557941,
+                -7.664226310494573
+              ],
+              [
+                37.6369039351857,
+                -7.664195331040958
+              ],
+              [
+                37.636936186341345,
+                -7.664154215878708
+              ],
+              [
+                37.63697877904634,
+                -7.6641029650078245
+              ],
+              [
+                37.6370215576552,
+                -7.664055188585217
+              ],
+              [
+                37.63706452216794,
+                -7.6640108866108845
+              ],
+              [
+                37.637107672584534,
+                -7.663970059084828
+              ],
+              [
+                37.637151008905,
+                -7.663932706007047
+              ],
+              [
+                37.63719453112933,
+                -7.66389882737754
+              ],
+              [
+                37.63723823925753,
+                -7.66386842319631
+              ],
+              [
+                37.637282133289595,
+                -7.663841493463355
+              ],
+              [
+                37.63732621322553,
+                -7.663818038178675
+              ],
+              [
+                37.63735896655058,
+                -7.663803123724252
+              ],
+              [
+                37.63738039326476,
+                -7.663796750100088
+              ],
+              [
+                37.63739049336806,
+                -7.663798917306179
+              ],
+              [
+                37.63738926686047,
+                -7.6638096253425285
+              ],
+              [
+                37.63737671374201,
+                -7.663828874209134
+              ],
+              [
+                37.637352834012674,
+                -7.663856663905996
+              ],
+              [
+                37.63731762767246,
+                -7.663892994433116
+              ],
+              [
+                37.63727109472136,
+                -7.663937865790491
+              ],
+              [
+                37.63722536092793,
+                -7.663980857577968
+              ],
+              [
+                37.63718042629215,
+                -7.664021969795549
+              ],
+              [
+                37.63713629081403,
+                -7.664061202443229
+              ],
+              [
+                37.63709295449356,
+                -7.66409855552101
+              ],
+              [
+                37.637050417330755,
+                -7.664134029028893
+              ],
+              [
+                37.637008679325604,
+                -7.664167622966877
+              ],
+              [
+                37.636967740478106,
+                -7.664199337334962
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.637125921945376,
+    -7.664022010277535
+  ],
+  "centroDeMassa": [
+    37.63713380243756,
+    -7.664034769304549
+  ]
+}

@@ -1,1 +1,513 @@
-{"CP4":"4980","CP3":"626","Distrito":"Viana do Castelo","Concelho":"Ponte da Barca","CP":"4980-626","Artéria":"Rua Conselheiro Rocha Peixoto","Localidade":"Ponte da Barca","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTE DA BARCA","locais":[{"id":"pt.ine.add.PTCONT.5149478","rua":"R CONS ROCHA PEIXOTO","casa":"5","coordenadas":[41.80841627051791,-8.420308449398647]},{"id":"pt.ine.add.PTCONT.5165906","rua":"R CONS ROCHA PEIXOTO","casa":"62","coordenadas":[41.80846200847451,-8.420019841098043]},{"id":"pt.ine.add.PTCONT.5191977","rua":"R CONS ROCHA PEIXOTO","casa":"2","coordenadas":[41.80828401420918,-8.419188713015158]},{"id":"pt.ine.add.PTCONT.5192888","rua":"R CONS ROCHA PEIXOTO","casa":"35","coordenadas":[41.808435539505695,-8.419803113645136]},{"id":"pt.ine.add.PTCONT.5212679","rua":"R CONS ROCHA PEIXOTO","casa":"38","coordenadas":[41.808303068831925,-8.418767613804677]},{"id":"pt.ine.add.PTCONT.5219932","rua":"R CONS ROCHA PEIXOTO","casa":"64","coordenadas":[41.808214710051296,-8.418093327825837]},{"id":"pt.ine.add.PTCONT.5219933","rua":"R CONS ROCHA PEIXOTO","casa":"64","coordenadas":[41.808214710051296,-8.418093327825837]},{"id":"pt.ine.add.PTCONT.5219934","rua":"R CONS ROCHA PEIXOTO","casa":"64","coordenadas":[41.808214710051296,-8.418093327825837]},{"id":"pt.ine.add.PTCONT.5219935","rua":"R CONS ROCHA PEIXOTO","casa":"64","coordenadas":[41.808214710051296,-8.418093327825837]},{"id":"pt.ine.add.PTCONT.5243502","rua":"R CONS ROCHA PEIXOTO","casa":"75","coordenadas":[41.808350176703804,-8.417925454487813]},{"id":"pt.ine.add.PTCONT.5248973","rua":"R CONS ROCHA PEIXOTO","casa":"17","coordenadas":[41.808319457602764,-8.41941751349381]},{"id":"pt.ine.add.PTCONT.5251557","rua":"R CONS ROCHA PEIXOTO","casa":"13","coordenadas":[41.8084617379255,-8.420128144609993]},{"id":"pt.ine.add.PTCONT.5259589","rua":"R CONS ROCHA PEIXOTO","casa":"30","coordenadas":[41.8083115631951,-8.418972226645502]},{"id":"pt.ine.add.PTCONT.5263364","rua":"R CONS ROCHA PEIXOTO","casa":"71","coordenadas":[41.8084218147707,-8.418082211853603]},{"id":"pt.ine.add.PTCONT.5263365","rua":"R CONS ROCHA PEIXOTO","casa":"71","coordenadas":[41.8084218147707,-8.418082211853603]},{"id":"pt.ine.add.PTCONT.5263366","rua":"R CONS ROCHA PEIXOTO","casa":"71","coordenadas":[41.8084218147707,-8.418082211853603]},{"id":"pt.ine.add.PTCONT.5263367","rua":"R CONS ROCHA PEIXOTO","casa":"71","coordenadas":[41.8084218147707,-8.418082211853603]},{"id":"pt.ine.add.PTCONT.5267642","rua":"R CONS ROCHA PEIXOTO","casa":"37","coordenadas":[41.808444692906555,-8.419742985183445]},{"id":"pt.ine.add.PTCONT.5269213","rua":"R CONS ROCHA PEIXOTO","casa":"33","coordenadas":[41.80844439258036,-8.41986332238937]},{"id":"pt.ine.add.PTCONT.5271433","rua":"R CONS ROCHA PEIXOTO","casa":"60","coordenadas":[41.808268311510794,-8.418262038887901]},{"id":"pt.ine.add.PTCONT.5271434","rua":"R CONS ROCHA PEIXOTO","casa":"60","coordenadas":[41.808268311510794,-8.418262038887901]},{"id":"pt.ine.add.PTCONT.5271435","rua":"R CONS ROCHA PEIXOTO","casa":"60","coordenadas":[41.808268311510794,-8.418262038887901]},{"id":"pt.ine.add.PTCONT.5271436","rua":"R CONS ROCHA PEIXOTO","casa":"60","coordenadas":[41.808268311510794,-8.418262038887901]},{"id":"pt.ine.add.PTCONT.5271437","rua":"R CONS ROCHA PEIXOTO","casa":"60","coordenadas":[41.808268311510794,-8.418262038887901]},{"id":"pt.ine.add.PTCONT.5271438","rua":"R CONS ROCHA PEIXOTO","casa":"60","coordenadas":[41.808268311510794,-8.418262038887901]},{"id":"pt.ine.add.PTCONT.5274431","rua":"R CONS ROCHA PEIXOTO","casa":"48","coordenadas":[41.80831246099289,-8.418611215739892]}],"ruas":["R CONS ROCHA PEIXOTO"],"centroide":[41.808335555632226,-8.418736470792666]}
+{
+  "CP": "4980-626",
+  "CP4": "4980",
+  "CP3": "626",
+  "Distrito": "Viana do Castelo",
+  "Concelho": "Ponte da Barca",
+  "Localidade": "Ponte da Barca",
+  "Designação Postal": "PONTE DA BARCA",
+  "partes": [
+    {
+      "Artéria": "Rua Conselheiro Rocha Peixoto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5149478",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "5",
+      "coordenadas": [
+        41.80841627051791,
+        -8.420308449398647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5165906",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "62",
+      "coordenadas": [
+        41.80846200847451,
+        -8.420019841098043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5191977",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "2",
+      "coordenadas": [
+        41.80828401420918,
+        -8.419188713015158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5192888",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "35",
+      "coordenadas": [
+        41.808435539505695,
+        -8.419803113645136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5212679",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "38",
+      "coordenadas": [
+        41.808303068831925,
+        -8.418767613804677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5219932",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "64",
+      "coordenadas": [
+        41.808214710051296,
+        -8.418093327825837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5219933",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "64",
+      "coordenadas": [
+        41.808214710051296,
+        -8.418093327825837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5219934",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "64",
+      "coordenadas": [
+        41.808214710051296,
+        -8.418093327825837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5219935",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "64",
+      "coordenadas": [
+        41.808214710051296,
+        -8.418093327825837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5243502",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "75",
+      "coordenadas": [
+        41.808350176703804,
+        -8.417925454487813
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5248973",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "17",
+      "coordenadas": [
+        41.808319457602764,
+        -8.41941751349381
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5251557",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "13",
+      "coordenadas": [
+        41.8084617379255,
+        -8.420128144609993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5259589",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "30",
+      "coordenadas": [
+        41.8083115631951,
+        -8.418972226645502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5263364",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "71",
+      "coordenadas": [
+        41.8084218147707,
+        -8.418082211853603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5263365",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "71",
+      "coordenadas": [
+        41.8084218147707,
+        -8.418082211853603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5263366",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "71",
+      "coordenadas": [
+        41.8084218147707,
+        -8.418082211853603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5263367",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "71",
+      "coordenadas": [
+        41.8084218147707,
+        -8.418082211853603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5267642",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "37",
+      "coordenadas": [
+        41.808444692906555,
+        -8.419742985183445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5269213",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "33",
+      "coordenadas": [
+        41.80844439258036,
+        -8.41986332238937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5271433",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "60",
+      "coordenadas": [
+        41.808268311510794,
+        -8.418262038887901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5271434",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "60",
+      "coordenadas": [
+        41.808268311510794,
+        -8.418262038887901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5271435",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "60",
+      "coordenadas": [
+        41.808268311510794,
+        -8.418262038887901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5271436",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "60",
+      "coordenadas": [
+        41.808268311510794,
+        -8.418262038887901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5271437",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "60",
+      "coordenadas": [
+        41.808268311510794,
+        -8.418262038887901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5271438",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "60",
+      "coordenadas": [
+        41.808268311510794,
+        -8.418262038887901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5274431",
+      "rua": "R CONS ROCHA PEIXOTO",
+      "casa": "48",
+      "coordenadas": [
+        41.80831246099289,
+        -8.418611215739892
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONS ROCHA PEIXOTO"
+  ],
+  "centro": [
+    41.808338359262905,
+    -8.41911695194323
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.80825369364011,
+                -8.418709481994831
+              ],
+              [
+                41.80824503062037,
+                -8.418572558846165
+              ],
+              [
+                41.80823956714455,
+                -8.418450128070177
+              ],
+              [
+                41.80823730321264,
+                -8.418342189666863
+              ],
+              [
+                41.80823823882464,
+                -8.418248743636228
+              ],
+              [
+                41.808242373980555,
+                -8.41816978997827
+              ],
+              [
+                41.808249708680385,
+                -8.418105328692988
+              ],
+              [
+                41.80826024292412,
+                -8.418055359780382
+              ],
+              [
+                41.80827397671177,
+                -8.418019883240452
+              ],
+              [
+                41.80829091004333,
+                -8.417998899073199
+              ],
+              [
+                41.80830684605324,
+                -8.417982987260693
+              ],
+              [
+                41.8083217847415,
+                -8.417972147802933
+              ],
+              [
+                41.80833572610812,
+                -8.417966380699921
+              ],
+              [
+                41.80834867015308,
+                -8.417965685951657
+              ],
+              [
+                41.80836061687639,
+                -8.417970063558139
+              ],
+              [
+                41.80837156627806,
+                -8.41797951351937
+              ],
+              [
+                41.808381518358075,
+                -8.417994035835347
+              ],
+              [
+                41.80839047311643,
+                -8.418013630506069
+              ],
+              [
+                41.80839893655663,
+                -8.418061051299897
+              ],
+              [
+                41.80840690867864,
+                -8.41813629821683
+              ],
+              [
+                41.808414389482486,
+                -8.418239371256865
+              ],
+              [
+                41.808421378968156,
+                -8.418370270420006
+              ],
+              [
+                41.80842787713565,
+                -8.418528995706248
+              ],
+              [
+                41.808433883984975,
+                -8.418715547115596
+              ],
+              [
+                41.80843939951612,
+                -8.418929924648047
+              ],
+              [
+                41.8084444237291,
+                -8.4191721283036
+              ],
+              [
+                41.80844881568812,
+                -8.419385748744585
+              ],
+              [
+                41.80845257539319,
+                -8.419570785971
+              ],
+              [
+                41.80845570284431,
+                -8.419727239982844
+              ],
+              [
+                41.80845819804149,
+                -8.41985511078012
+              ],
+              [
+                41.80846006098472,
+                -8.419954398362822
+              ],
+              [
+                41.80846129167399,
+                -8.420025102730957
+              ],
+              [
+                41.80846189010932,
+                -8.420067223884521
+              ],
+              [
+                41.808461856290684,
+                -8.420080761823515
+              ],
+              [
+                41.80846111627115,
+                -8.420095424782456
+              ],
+              [
+                41.80845967005069,
+                -8.420111212761348
+              ],
+              [
+                41.80845751762932,
+                -8.420128125760186
+              ],
+              [
+                41.80845465900704,
+                -8.420146163778977
+              ],
+              [
+                41.80845109418384,
+                -8.420165326817713
+              ],
+              [
+                41.80844682315971,
+                -8.420185614876395
+              ],
+              [
+                41.80844184593468,
+                -8.42020702795503
+              ],
+              [
+                41.80843616250873,
+                -8.42022956605361
+              ],
+              [
+                41.8084291230062,
+                -8.420231791008877
+              ],
+              [
+                41.80842072742709,
+                -8.420213702820831
+              ],
+              [
+                41.8084109757714,
+                -8.420175301489468
+              ],
+              [
+                41.808399868039125,
+                -8.420116587014789
+              ],
+              [
+                41.808387404230274,
+                -8.420037559396798
+              ],
+              [
+                41.80837358434485,
+                -8.419938218635492
+              ],
+              [
+                41.808358408382844,
+                -8.419818564730871
+              ],
+              [
+                41.808341876344244,
+                -8.419678597682934
+              ],
+              [
+                41.80832632793302,
+                -8.419539011122406
+              ],
+              [
+                41.808311763149135,
+                -8.419399805049288
+              ],
+              [
+                41.80829818199262,
+                -8.419260979463578
+              ],
+              [
+                41.808285584463455,
+                -8.419122534365279
+              ],
+              [
+                41.80827397056165,
+                -8.418984469754387
+              ],
+              [
+                41.8082633402872,
+                -8.418846785630905
+              ],
+              [
+                41.80825369364011,
+                -8.418709481994831
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.80837296180756,
+    -8.419106591755584
+  ],
+  "centroDeMassa": [
+    41.808338359262905,
+    -8.41911695194323
+  ]
+}

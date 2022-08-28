@@ -1,1 +1,532 @@
-{"CP4":"4795","CP3":"339","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4795-339","Artéria":"Rua Sampaio de Virães","Localidade":"Roriz","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"RORIZ STS","locais":[{"id":"pt.ine.add.PTCONT.3549329","rua":"R SAMPAIO DE VIRAES","casa":"42","coordenadas":[41.35739067303608,-8.391117744643394]},{"id":"pt.ine.add.PTCONT.3593801","rua":"R SAMPAIO DE VIRAES","casa":"440","coordenadas":[41.35504500948359,-8.38914868626222]},{"id":"pt.ine.add.PTCONT.3593802","rua":"R SAMPAIO VIRAES","casa":"460","coordenadas":[41.35504500948359,-8.38914868626222]},{"id":"pt.ine.add.PTCONT.3593983","rua":"R SAMPAIO DE VIRAES","casa":"440","coordenadas":[41.35504500948359,-8.38914868626222]},{"id":"pt.ine.add.PTCONT.3593984","rua":"R SAMPAIO DE VIRAES","casa":"440","coordenadas":[41.35504500948359,-8.38914868626222]},{"id":"pt.ine.add.PTCONT.3621234","rua":"R SAMPAIO DE VIRAES","casa":"141","coordenadas":[41.35771722264145,-8.390043492643336]},{"id":"pt.ine.add.PTCONT.3700619","rua":"R SAMPAIO DE VIRAES","casa":"406","coordenadas":[41.35546734556251,-8.3895327428912]},{"id":"pt.ine.add.PTCONT.3700620","rua":"R SAMPAIO DE VIRAES","casa":"406","coordenadas":[41.35546734556251,-8.3895327428912]},{"id":"pt.ine.add.PTCONT.3723891","rua":"R SAMPAIO DE VIRAES","casa":"85","coordenadas":[41.35780555243282,-8.390808670631818]},{"id":"pt.ine.add.PTCONT.3745206","rua":"R SAMPAIO DE VIRAES","casa":"59","coordenadas":[41.35776881354939,-8.39113118844876]},{"id":"pt.ine.add.PTCONT.3757082","rua":"R SAMPAIO DE VIRAES","casa":"134","coordenadas":[41.35754499857502,-8.390556683856596]},{"id":"pt.ine.add.PTCONT.3786217","rua":"R SAMPAIO DE VIRAES","casa":"79","coordenadas":[41.35772419538337,-8.390951755284958]},{"id":"pt.ine.add.PTCONT.3847999","rua":"R SAMPAIO DE VIRAES","casa":"819","coordenadas":[41.35364538928704,-8.38688470519045]},{"id":"pt.ine.add.PTCONT.3904044","rua":"R SAMPAIO DE VIRAES","casa":"305","coordenadas":[41.35638673658013,-8.389094193104054]},{"id":"pt.ine.add.PTCONT.3963655","rua":"R SAMPAIO DE VIRAES","casa":"62","coordenadas":[41.357508046228695,-8.390974803078986]},{"id":"pt.ine.add.PTCONT.4063080","rua":"R SAMPAIO DE VIRAES","casa":"102","coordenadas":[41.357662050364695,-8.390557145105992]},{"id":"pt.ine.add.PTCONT.4063081","rua":"R SAMPAIO DE VIRAES","casa":"102","coordenadas":[41.357662050364695,-8.390557145105992]},{"id":"pt.ine.add.PTCONT.4111636","rua":"R SAMPAIO DE VIRAES","casa":"37","coordenadas":[41.3575879563789,-8.391477036893503]},{"id":"pt.ine.add.PTCONT.4111637","rua":"R SAMPAIO VIRAES","casa":"31","coordenadas":[41.3575879563789,-8.391477036893503]},{"id":"pt.ine.add.PTCONT.4164883","rua":"R SAMPAIO DE VIRAES","casa":"","coordenadas":[41.35486750263418,-8.387988846387396]},{"id":"pt.ine.add.PTCONT.4173510","rua":"R SAMPAIO DE VIRAES","casa":"32","coordenadas":[41.35736323226895,-8.391308842633666]},{"id":"pt.ine.add.PTCONT.4177851","rua":"R SAMPAIO DE VIRAES","casa":"415","coordenadas":[41.35545040161318,-8.38905467448662]},{"id":"pt.ine.add.PTCONT.4184016","rua":"R SAMPAIO DE VIRAES","casa":"12","coordenadas":[41.357273058361955,-8.391368238168106]},{"id":"pt.ine.add.PTCONT.4269408","rua":"R SAMPAIO DE VIRAES","casa":"451","coordenadas":[41.355243708374644,-8.38887461466982]},{"id":"pt.ine.add.PTCONT.4274154","rua":"R SAMPAIO DE VIRAES","casa":"","coordenadas":[41.357634396464306,-8.390843846861177]},{"id":"pt.ine.add.PTCONT.4289550","rua":"R SAMPAIO DE VIRAES","casa":"384","coordenadas":[41.35564726554132,-8.389605149507656]},{"id":"pt.ine.add.PTCONT.4292165","rua":"R SAMPAIO DE VIRAES","casa":"364","coordenadas":[41.35580960358577,-8.389486285670488]},{"id":"pt.ine.add.PTCONT.4351170","rua":"R SAMPAIO DE VIRAES","casa":"166","coordenadas":[41.35726635605346,-8.390340479026301]}],"ruas":["R SAMPAIO DE VIRAES","R SAMPAIO VIRAES"],"centroide":[41.356459094040936,-8.389993419633242]}
+{
+  "CP": "4795-339",
+  "CP4": "4795",
+  "CP3": "339",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "Roriz",
+  "Designação Postal": "RORIZ STS",
+  "partes": [
+    {
+      "Artéria": "Rua Sampaio de Virães",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3549329",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "42",
+      "coordenadas": [
+        41.35739067303608,
+        -8.391117744643394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3593801",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "440",
+      "coordenadas": [
+        41.35504500948359,
+        -8.38914868626222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3593802",
+      "rua": "R SAMPAIO VIRAES",
+      "casa": "460",
+      "coordenadas": [
+        41.35504500948359,
+        -8.38914868626222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3593983",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "440",
+      "coordenadas": [
+        41.35504500948359,
+        -8.38914868626222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3593984",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "440",
+      "coordenadas": [
+        41.35504500948359,
+        -8.38914868626222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3621234",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "141",
+      "coordenadas": [
+        41.35771722264145,
+        -8.390043492643336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3700619",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "406",
+      "coordenadas": [
+        41.35546734556251,
+        -8.3895327428912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3700620",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "406",
+      "coordenadas": [
+        41.35546734556251,
+        -8.3895327428912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3723891",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "85",
+      "coordenadas": [
+        41.35780555243282,
+        -8.390808670631818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3745206",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "59",
+      "coordenadas": [
+        41.35776881354939,
+        -8.39113118844876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3757082",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "134",
+      "coordenadas": [
+        41.35754499857502,
+        -8.390556683856596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3786217",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "79",
+      "coordenadas": [
+        41.35772419538337,
+        -8.390951755284958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3847999",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "819",
+      "coordenadas": [
+        41.35364538928704,
+        -8.38688470519045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3904044",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "305",
+      "coordenadas": [
+        41.35638673658013,
+        -8.389094193104054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963655",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "62",
+      "coordenadas": [
+        41.357508046228695,
+        -8.390974803078986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4063080",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "102",
+      "coordenadas": [
+        41.357662050364695,
+        -8.390557145105992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4063081",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "102",
+      "coordenadas": [
+        41.357662050364695,
+        -8.390557145105992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4111636",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "37",
+      "coordenadas": [
+        41.3575879563789,
+        -8.391477036893503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4111637",
+      "rua": "R SAMPAIO VIRAES",
+      "casa": "31",
+      "coordenadas": [
+        41.3575879563789,
+        -8.391477036893503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4164883",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "",
+      "coordenadas": [
+        41.35486750263418,
+        -8.387988846387396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4173510",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "32",
+      "coordenadas": [
+        41.35736323226895,
+        -8.391308842633666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4177851",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "415",
+      "coordenadas": [
+        41.35545040161318,
+        -8.38905467448662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4184016",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "12",
+      "coordenadas": [
+        41.357273058361955,
+        -8.391368238168106
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4269408",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "451",
+      "coordenadas": [
+        41.355243708374644,
+        -8.38887461466982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4274154",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "",
+      "coordenadas": [
+        41.357634396464306,
+        -8.390843846861177
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4289550",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "384",
+      "coordenadas": [
+        41.35564726554132,
+        -8.389605149507656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4292165",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "364",
+      "coordenadas": [
+        41.35580960358577,
+        -8.389486285670488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4351170",
+      "rua": "R SAMPAIO DE VIRAES",
+      "casa": "166",
+      "coordenadas": [
+        41.35726635605346,
+        -8.390340479026301
+      ]
+    }
+  ],
+  "ruas": [
+    "R SAMPAIO DE VIRAES",
+    "R SAMPAIO VIRAES"
+  ],
+  "centro": [
+    41.35572547085993,
+    -8.389180871041976
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.3544326756476,
+                -8.38815819454332
+              ],
+              [
+                41.35425772312303,
+                -8.38787519690935
+              ],
+              [
+                41.3541682620602,
+                -8.387676930033576
+              ],
+              [
+                41.35416429245909,
+                -8.387563393916
+              ],
+              [
+                41.354245814319725,
+                -8.387534588556623
+              ],
+              [
+                41.35441282764209,
+                -8.387590513955443
+              ],
+              [
+                41.354665332426194,
+                -8.38773117011246
+              ],
+              [
+                41.355003328672026,
+                -8.387956557027676
+              ],
+              [
+                41.35542681637959,
+                -8.38826667470109
+              ],
+              [
+                41.35593579554889,
+                -8.388661523132697
+              ],
+              [
+                41.356382532475024,
+                -8.389018971416426
+              ],
+              [
+                41.35676702715798,
+                -8.389339019552276
+              ],
+              [
+                41.357089279597766,
+                -8.389621667540244
+              ],
+              [
+                41.35734928979438,
+                -8.389866915380328
+              ],
+              [
+                41.357547057747816,
+                -8.390074763072533
+              ],
+              [
+                41.357682583458086,
+                -8.390245210616856
+              ],
+              [
+                41.357755866925174,
+                -8.390378258013298
+              ],
+              [
+                41.3577669081491,
+                -8.390473905261857
+              ],
+              [
+                41.357775995174975,
+                -8.390562635945237
+              ],
+              [
+                41.35778312800281,
+                -8.390644450063435
+              ],
+              [
+                41.3577883066326,
+                -8.390719347616455
+              ],
+              [
+                41.35779153106434,
+                -8.390787328604295
+              ],
+              [
+                41.35779280129805,
+                -8.390848393026953
+              ],
+              [
+                41.35779211733371,
+                -8.390902540884433
+              ],
+              [
+                41.35778947917132,
+                -8.39094977217673
+              ],
+              [
+                41.35778488681089,
+                -8.390990086903848
+              ],
+              [
+                41.35777804260223,
+                -8.391030766172026
+              ],
+              [
+                41.35776894654533,
+                -8.391071809981263
+              ],
+              [
+                41.35775759864019,
+                -8.391113218331558
+              ],
+              [
+                41.357743998886825,
+                -8.391154991222914
+              ],
+              [
+                41.35772814728522,
+                -8.391197128655328
+              ],
+              [
+                41.357710043835375,
+                -8.391239630628803
+              ],
+              [
+                41.3576896885373,
+                -8.391282497143337
+              ],
+              [
+                41.35766708139099,
+                -8.391325728198929
+              ],
+              [
+                41.35764237985646,
+                -8.391361855392487
+              ],
+              [
+                41.35761558393369,
+                -8.391390878724014
+              ],
+              [
+                41.35758669362271,
+                -8.391412798193505
+              ],
+              [
+                41.357555708923485,
+                -8.391427613800966
+              ],
+              [
+                41.35752262983605,
+                -8.391435325546391
+              ],
+              [
+                41.35748745636038,
+                -8.391435933429783
+              ],
+              [
+                41.357450188496486,
+                -8.391429437451142
+              ],
+              [
+                41.35741082624437,
+                -8.391415837610468
+              ],
+              [
+                41.35734157101004,
+                -8.391369257251348
+              ],
+              [
+                41.3572424227935,
+                -8.391289696373784
+              ],
+              [
+                41.35711338159476,
+                -8.391177154977774
+              ],
+              [
+                41.3569544474138,
+                -8.391031633063317
+              ],
+              [
+                41.35676562025064,
+                -8.390853130630418
+              ],
+              [
+                41.35654690010526,
+                -8.390641647679072
+              ],
+              [
+                41.356298286977676,
+                -8.39039718420928
+              ],
+              [
+                41.35601978086787,
+                -8.390119740221046
+              ],
+              [
+                41.35575421895623,
+                -8.389841602027092
+              ],
+              [
+                41.35550160124274,
+                -8.389562769627423
+              ],
+              [
+                41.35526192772741,
+                -8.389283243022037
+              ],
+              [
+                41.35503519841022,
+                -8.389003022210934
+              ],
+              [
+                41.35482141329119,
+                -8.388722107194114
+              ],
+              [
+                41.35462057237032,
+                -8.388440497971576
+              ],
+              [
+                41.3544326756476,
+                -8.38815819454332
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.35669185744788,
+    -8.3901231454626
+  ],
+  "centroDeMassa": [
+    41.35572547085993,
+    -8.389180871041976
+  ]
+}

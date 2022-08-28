@@ -1,1 +1,479 @@
-{"CP4":"4550","CP3":"142","Distrito":"Aveiro","Concelho":"Castelo de Paiva","CP":"4550-142","Artéria":"Rua Manuel Soares de Pinho","Localidade":"Castelo de Paiva","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CASTELO DE PAIVA","locais":[{"id":"pt.ine.add.PTCONT.300853","rua":"R MANUEL SOARES DE PINHO","casa":"81","coordenadas":[41.04178387741974,-8.267536564511163]},{"id":"pt.ine.add.PTCONT.337032","rua":"R MANUEL SOARES DE PINHO","casa":"5","coordenadas":[41.04123383531794,-8.26818956275704]},{"id":"pt.ine.add.PTCONT.3356","rua":"R MANUEL SOARES DE PINHO","casa":"9","coordenadas":[41.04126093256937,-8.268118259866133]},{"id":"pt.ine.add.PTCONT.13974","rua":"R MANUEL SOARES DE PINHO","casa":"11","coordenadas":[41.04120701670752,-8.268023005374806]},{"id":"pt.ine.add.PTCONT.24578","rua":"R MANUEL SOARES DE PINHO","casa":"82","coordenadas":[41.04184700631183,-8.267453440881008]},{"id":"pt.ine.add.PTCONT.52374","rua":"R MANUEL SOARES DE PINHO","casa":"","coordenadas":[41.04112596186817,-8.268034732880643]},{"id":"pt.ine.add.PTCONT.60232","rua":"R MANUEL SOARES DE PINHO","casa":"86","coordenadas":[41.04186512627061,-8.26735833246573]},{"id":"pt.ine.add.PTCONT.66637","rua":"R MANUEL SOARES DE PINHO","casa":"70","coordenadas":[41.04219000863298,-8.266740545402834]},{"id":"pt.ine.add.PTCONT.94650","rua":"EM 502-1","casa":"74","coordenadas":[41.042126008517535,-8.267572940279987]},{"id":"pt.ine.add.PTCONT.110096","rua":"R MANUEL SOARES PINHO","casa":"8","coordenadas":[41.04116164554352,-8.268320238500689]},{"id":"pt.ine.add.PTCONT.152915","rua":"R MANUEL SOARES PINHO","casa":"","coordenadas":[41.04133341412923,-8.26773782999913]},{"id":"pt.ine.add.PTCONT.152916","rua":"R MANUEL SOARES DE PINHO","casa":"35","coordenadas":[41.04133341412923,-8.26773782999913]},{"id":"pt.ine.add.PTCONT.167173","rua":"R MANUEL SOARES DE PINHO","casa":"","coordenadas":[41.041170831370444,-8.268165647874776]},{"id":"pt.ine.add.PTCONT.171846","rua":"R MANUEL SOARES DE PINHO","casa":"33","coordenadas":[41.0412613221795,-8.267785255289697]},{"id":"pt.ine.add.PTCONT.198189","rua":"R MANUEL SOARES PINHO","casa":"56","coordenadas":[41.041478193795626,-8.267131577532965]},{"id":"pt.ine.add.PTCONT.206320","rua":"R MANUEL SOARES DE PINHO","casa":"68","coordenadas":[41.041973651129176,-8.266954184965888]},{"id":"pt.ine.add.PTCONT.236046","rua":"R MANUEL SOARES PINHO","casa":"66","coordenadas":[41.04171233964868,-8.267108266261305]},{"id":"pt.ine.add.PTCONT.236047","rua":"R MANUEL SOARES PINHO","casa":"66","coordenadas":[41.04171233964868,-8.267108266261305]},{"id":"pt.ine.add.PTCONT.239107","rua":"R MANUEL SOARES DE PINHO","casa":"","coordenadas":[41.041089846190424,-8.268117910251009]},{"id":"pt.ine.add.PTCONT.260608","rua":"R MANUEL SOARES DE PINHO","casa":"","coordenadas":[41.04134188987065,-8.268189783684548]},{"id":"pt.ine.add.PTCONT.267468","rua":"R MANUEL SOARES DE PINHO","casa":"69","coordenadas":[41.04165788312515,-8.267476842543834]},{"id":"pt.ine.add.PTCONT.274268","rua":"R MANUEL SOARES DE PINHO","casa":"54","coordenadas":[41.04136095480056,-8.267285949574848]}],"ruas":["R MANUEL SOARES DE PINHO","EM 502-1","R MANUEL SOARES PINHO"],"centroide":[41.04151745449409,-8.267660048456367]}
+{
+  "CP": "4550-142",
+  "CP4": "4550",
+  "CP3": "142",
+  "Distrito": "Aveiro",
+  "Concelho": "Castelo de Paiva",
+  "Localidade": "Castelo de Paiva",
+  "Designação Postal": "CASTELO DE PAIVA",
+  "partes": [
+    {
+      "Artéria": "Rua Manuel Soares de Pinho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.300853",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "81",
+      "coordenadas": [
+        41.04178387741974,
+        -8.267536564511163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.337032",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "5",
+      "coordenadas": [
+        41.04123383531794,
+        -8.26818956275704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3356",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "9",
+      "coordenadas": [
+        41.04126093256937,
+        -8.268118259866133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.13974",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "11",
+      "coordenadas": [
+        41.04120701670752,
+        -8.268023005374806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.24578",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "82",
+      "coordenadas": [
+        41.04184700631183,
+        -8.267453440881008
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.52374",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.04112596186817,
+        -8.268034732880643
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.60232",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "86",
+      "coordenadas": [
+        41.04186512627061,
+        -8.26735833246573
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.66637",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "70",
+      "coordenadas": [
+        41.04219000863298,
+        -8.266740545402834
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.94650",
+      "rua": "EM 502-1",
+      "casa": "74",
+      "coordenadas": [
+        41.042126008517535,
+        -8.267572940279987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.110096",
+      "rua": "R MANUEL SOARES PINHO",
+      "casa": "8",
+      "coordenadas": [
+        41.04116164554352,
+        -8.268320238500689
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.152915",
+      "rua": "R MANUEL SOARES PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.04133341412923,
+        -8.26773782999913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.152916",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "35",
+      "coordenadas": [
+        41.04133341412923,
+        -8.26773782999913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.167173",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.041170831370444,
+        -8.268165647874776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.171846",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "33",
+      "coordenadas": [
+        41.0412613221795,
+        -8.267785255289697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198189",
+      "rua": "R MANUEL SOARES PINHO",
+      "casa": "56",
+      "coordenadas": [
+        41.041478193795626,
+        -8.267131577532965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.206320",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "68",
+      "coordenadas": [
+        41.041973651129176,
+        -8.266954184965888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.236046",
+      "rua": "R MANUEL SOARES PINHO",
+      "casa": "66",
+      "coordenadas": [
+        41.04171233964868,
+        -8.267108266261305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.236047",
+      "rua": "R MANUEL SOARES PINHO",
+      "casa": "66",
+      "coordenadas": [
+        41.04171233964868,
+        -8.267108266261305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.239107",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.041089846190424,
+        -8.268117910251009
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.260608",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "",
+      "coordenadas": [
+        41.04134188987065,
+        -8.268189783684548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.267468",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "69",
+      "coordenadas": [
+        41.04165788312515,
+        -8.267476842543834
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.274268",
+      "rua": "R MANUEL SOARES DE PINHO",
+      "casa": "54",
+      "coordenadas": [
+        41.04136095480056,
+        -8.267285949574848
+      ]
+    }
+  ],
+  "ruas": [
+    "R MANUEL SOARES DE PINHO",
+    "EM 502-1",
+    "R MANUEL SOARES PINHO"
+  ],
+  "centro": [
+    41.0416399274117,
+    -8.267530391951762
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.04113023332654,
+                -8.268231719891453
+              ],
+              [
+                41.0411212584074,
+                -8.268206428860244
+              ],
+              [
+                41.041117641425195,
+                -8.26817129982237
+              ],
+              [
+                41.041119382379904,
+                -8.268126332777832
+              ],
+              [
+                41.04112648127154,
+                -8.268071527726631
+              ],
+              [
+                41.04113893810011,
+                -8.268006884668766
+              ],
+              [
+                41.041156752865604,
+                -8.267932403604238
+              ],
+              [
+                41.04117992556802,
+                -8.267848084533046
+              ],
+              [
+                41.04120845620736,
+                -8.267753927455189
+              ],
+              [
+                41.041242344783626,
+                -8.267649932370668
+              ],
+              [
+                41.04127382914716,
+                -8.267556524608558
+              ],
+              [
+                41.041302909297954,
+                -8.26747370416886
+              ],
+              [
+                41.041329585236014,
+                -8.26740147105157
+              ],
+              [
+                41.04135385696134,
+                -8.267339825256695
+              ],
+              [
+                41.04137572447392,
+                -8.267288766784226
+              ],
+              [
+                41.04139518777379,
+                -8.267248295634172
+              ],
+              [
+                41.0414122468609,
+                -8.267218411806525
+              ],
+              [
+                41.041426901735285,
+                -8.267199115301288
+              ],
+              [
+                41.0414508468572,
+                -8.267176120982175
+              ],
+              [
+                41.04148408222665,
+                -8.26714942884918
+              ],
+              [
+                41.04152660784365,
+                -8.267119038902308
+              ],
+              [
+                41.041578423708174,
+                -8.267084951141559
+              ],
+              [
+                41.041639529820245,
+                -8.267047165566929
+              ],
+              [
+                41.041709926179834,
+                -8.267005682178418
+              ],
+              [
+                41.04178961278697,
+                -8.266960500976031
+              ],
+              [
+                41.041878589641634,
+                -8.266911621959766
+              ],
+              [
+                41.04195544438767,
+                -8.266881858990489
+              ],
+              [
+                41.04202017702506,
+                -8.266871212068201
+              ],
+              [
+                41.04207278755382,
+                -8.2668796811929
+              ],
+              [
+                41.04211327597393,
+                -8.26690726636459
+              ],
+              [
+                41.042141642285415,
+                -8.266953967583268
+              ],
+              [
+                41.04215788648826,
+                -8.267019784848934
+              ],
+              [
+                41.04216200858247,
+                -8.26710471816159
+              ],
+              [
+                41.04215400856804,
+                -8.267208767521232
+              ],
+              [
+                41.04213475670156,
+                -8.267309448889117
+              ],
+              [
+                41.04210425298302,
+                -8.267406762265244
+              ],
+              [
+                41.04206249741243,
+                -8.26750070764961
+              ],
+              [
+                41.04200948998978,
+                -8.267591285042215
+              ],
+              [
+                41.041945230715086,
+                -8.267678494443064
+              ],
+              [
+                41.041869719588334,
+                -8.267762335852153
+              ],
+              [
+                41.041782956609524,
+                -8.267842809269482
+              ],
+              [
+                41.04168494177867,
+                -8.267919914695053
+              ],
+              [
+                41.04159636248405,
+                -8.267989420298928
+              ],
+              [
+                41.04151721872568,
+                -8.26805132608111
+              ],
+              [
+                41.04144751050356,
+                -8.2681056320416
+              ],
+              [
+                41.04138723781768,
+                -8.268152338180393
+              ],
+              [
+                41.04133640066805,
+                -8.268191444497493
+              ],
+              [
+                41.04129499905467,
+                -8.2682229509929
+              ],
+              [
+                41.04126303297753,
+                -8.268246857666611
+              ],
+              [
+                41.04124050243664,
+                -8.268263164518626
+              ],
+              [
+                41.04121966634847,
+                -8.26827427163524
+              ],
+              [
+                41.04120052471301,
+                -8.26828017901645
+              ],
+              [
+                41.04118307753028,
+                -8.268280886662259
+              ],
+              [
+                41.04116732480027,
+                -8.268276394572663
+              ],
+              [
+                41.04115326652297,
+                -8.268266702747663
+              ],
+              [
+                41.041140902698395,
+                -8.26825181118726
+              ],
+              [
+                41.04113023332654,
+                -8.268231719891453
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.041535506764475,
+    -8.267622706460983
+  ],
+  "centroDeMassa": [
+    41.0416399274117,
+    -8.267530391951762
+  ]
+}

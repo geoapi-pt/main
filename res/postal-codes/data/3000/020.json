@@ -1,1 +1,582 @@
-{"CP4":"3000","CP3":"020","Distrito":"Coimbra","Concelho":"Coimbra","CP":"3000-020","Artéria":"Rua Alfredo Lopes Xisto","Localidade":"Coimbra","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"COIMBRA","locais":[{"id":"pt.ine.add.PTCONT.1111779","rua":"R ALFREDO LOPES XISTO","casa":"8","coordenadas":[40.222208716905094,-8.406721659799398]},{"id":"pt.ine.add.PTCONT.1114819","rua":"R ALFREDO LOPES XISTO","casa":"2","coordenadas":[40.222487784035195,-8.406769777049494]},{"id":"pt.ine.add.PTCONT.1135619","rua":"R ANTÓNIO DE SOUSA","casa":"9","coordenadas":[40.22207368620184,-8.406697619438049]},{"id":"pt.ine.add.PTCONT.1135620","rua":"R ANTÓNIO DE SOUSA","casa":"9","coordenadas":[40.22207368620184,-8.406697619438049]},{"id":"pt.ine.add.PTCONT.1171654","rua":"R ALFREDO LOPES XISTO","casa":"32","coordenadas":[40.21985852119544,-8.40658297553781]},{"id":"pt.ine.add.PTCONT.1171655","rua":"R ALFREDO LOPES XISTO","casa":"32","coordenadas":[40.21985852119544,-8.40658297553781]},{"id":"pt.ine.add.PTCONT.1174182","rua":"R ALFREDO LOPES XISTO","casa":"9","coordenadas":[40.21979498111426,-8.406794187234029]},{"id":"pt.ine.add.PTCONT.1175879","rua":"R ALFREDO LOPES XISTO","casa":"16","coordenadas":[40.221424633188605,-8.406965223119858]},{"id":"pt.ine.add.PTCONT.1180599","rua":"R ALFREDO LOPES XISTO","casa":"18","coordenadas":[40.21959724330999,-8.406628917619011]},{"id":"pt.ine.add.PTCONT.1180600","rua":"R ALFREDO LOPES XISTO","casa":"18","coordenadas":[40.21959724330999,-8.406628917619011]},{"id":"pt.ine.add.PTCONT.1180601","rua":"R ALFREDO LOPES XISTO","casa":"16","coordenadas":[40.21959724330999,-8.406628917619011]},{"id":"pt.ine.add.PTCONT.1187989","rua":"R ALFREDO LOPES XISTO","casa":"28","coordenadas":[40.219723351620296,-8.406617676568]},{"id":"pt.ine.add.PTCONT.1187990","rua":"R ALFREDO LOPES XISTO","casa":"28","coordenadas":[40.219723351620296,-8.406617676568]},{"id":"pt.ine.add.PTCONT.1187991","rua":"R ALFREDO LOPES XISTO","casa":"","coordenadas":[40.219723351620296,-8.406617676568]},{"id":"pt.ine.add.PTCONT.1251393","rua":"R ALFREDO LOPES XISTO","casa":"15","coordenadas":[40.22152377982711,-8.40693037690549]},{"id":"pt.ine.add.PTCONT.1254862","rua":"R ALFREDO LOPES XISTO","casa":"7","coordenadas":[40.21954265333144,-8.40686366074481]},{"id":"pt.ine.add.PTCONT.1279317","rua":"R ALFREDO LOPES XISTO","casa":"13","coordenadas":[40.220119382639105,-8.406713254913146]},{"id":"pt.ine.add.PTCONT.1289586","rua":"R ALFREDO LOPES XISTO","casa":"14","coordenadas":[40.21948906321219,-8.406675475094806]},{"id":"pt.ine.add.PTCONT.1289587","rua":"R ALFREDO LOPES XISTO","casa":"14","coordenadas":[40.21948906321219,-8.406675475094806]},{"id":"pt.ine.add.PTCONT.1289588","rua":"R ALFREDO LOPES XISTO","casa":"14","coordenadas":[40.21948906321219,-8.406675475094806]},{"id":"pt.ine.add.PTCONT.1311524","rua":"R ALFREDO LOPES XISTO","casa":"42","coordenadas":[40.22002065250828,-8.406571879189897]},{"id":"pt.ine.add.PTCONT.1311525","rua":"R ALFREDO LOPES XISTO","casa":"42","coordenadas":[40.22002065250828,-8.406571879189897]},{"id":"pt.ine.add.PTCONT.1312873","rua":"R ALFREDO LOPES XISTO","casa":"42","coordenadas":[40.22002065250828,-8.406571879189897]},{"id":"pt.ine.add.PTCONT.1322358","rua":"R ALFREDO LOPES XISTO","casa":"7","coordenadas":[40.222353364096655,-8.406487269357658]},{"id":"pt.ine.add.PTCONT.1322977","rua":"R ALFREDO LOPES XISTO","casa":"7","coordenadas":[40.222353364096655,-8.406487269357658]},{"id":"pt.ine.add.PTCONT.1331653","rua":"R ALFREDO LOPES XISTO","casa":"","coordenadas":[40.22236195348984,-8.406663533171708]},{"id":"pt.ine.add.PTCONT.1331654","rua":"R ALFREDO LOPES XISTO","casa":"","coordenadas":[40.22236195348984,-8.406663533171708]},{"id":"pt.ine.add.PTCONT.1331655","rua":"R ALFREDO LOPES XISTO","casa":"","coordenadas":[40.22236195348984,-8.406663533171708]},{"id":"pt.ine.add.PTCONT.1331656","rua":"R ALFREDO LOPES XISTO","casa":"4","coordenadas":[40.22236195348984,-8.406663533171708]},{"id":"pt.ine.add.PTCONT.1333170","rua":"R ALFREDO LOPES XISTO","casa":"4","coordenadas":[40.22236195348984,-8.406663533171708]}],"ruas":["R ALFREDO LOPES XISTO","R ANTÓNIO DE SOUSA"],"centroide":[40.22074523517035,-8.40666999470811]}
+{
+  "CP": "3000-020",
+  "CP4": "3000",
+  "CP3": "020",
+  "Distrito": "Coimbra",
+  "Concelho": "Coimbra",
+  "Localidade": "Coimbra",
+  "Designação Postal": "COIMBRA",
+  "partes": [
+    {
+      "Artéria": "Rua Alfredo Lopes Xisto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1111779",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "8",
+      "coordenadas": [
+        40.222208716905094,
+        -8.406721659799398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1114819",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "2",
+      "coordenadas": [
+        40.222487784035195,
+        -8.406769777049494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1135619",
+      "rua": "R ANTÓNIO DE SOUSA",
+      "casa": "9",
+      "coordenadas": [
+        40.22207368620184,
+        -8.406697619438049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1135620",
+      "rua": "R ANTÓNIO DE SOUSA",
+      "casa": "9",
+      "coordenadas": [
+        40.22207368620184,
+        -8.406697619438049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1171654",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "32",
+      "coordenadas": [
+        40.21985852119544,
+        -8.40658297553781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1171655",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "32",
+      "coordenadas": [
+        40.21985852119544,
+        -8.40658297553781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1174182",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "9",
+      "coordenadas": [
+        40.21979498111426,
+        -8.406794187234029
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1175879",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "16",
+      "coordenadas": [
+        40.221424633188605,
+        -8.406965223119858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1180599",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "18",
+      "coordenadas": [
+        40.21959724330999,
+        -8.406628917619011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1180600",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "18",
+      "coordenadas": [
+        40.21959724330999,
+        -8.406628917619011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1180601",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "16",
+      "coordenadas": [
+        40.21959724330999,
+        -8.406628917619011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1187989",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "28",
+      "coordenadas": [
+        40.219723351620296,
+        -8.406617676568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1187990",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "28",
+      "coordenadas": [
+        40.219723351620296,
+        -8.406617676568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1187991",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "",
+      "coordenadas": [
+        40.219723351620296,
+        -8.406617676568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1251393",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "15",
+      "coordenadas": [
+        40.22152377982711,
+        -8.40693037690549
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1254862",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "7",
+      "coordenadas": [
+        40.21954265333144,
+        -8.40686366074481
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1279317",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "13",
+      "coordenadas": [
+        40.220119382639105,
+        -8.406713254913146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1289586",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "14",
+      "coordenadas": [
+        40.21948906321219,
+        -8.406675475094806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1289587",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "14",
+      "coordenadas": [
+        40.21948906321219,
+        -8.406675475094806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1289588",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "14",
+      "coordenadas": [
+        40.21948906321219,
+        -8.406675475094806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1311524",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "42",
+      "coordenadas": [
+        40.22002065250828,
+        -8.406571879189897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1311525",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "42",
+      "coordenadas": [
+        40.22002065250828,
+        -8.406571879189897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1312873",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "42",
+      "coordenadas": [
+        40.22002065250828,
+        -8.406571879189897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1322358",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "7",
+      "coordenadas": [
+        40.222353364096655,
+        -8.406487269357658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1322977",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "7",
+      "coordenadas": [
+        40.222353364096655,
+        -8.406487269357658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1331653",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "",
+      "coordenadas": [
+        40.22236195348984,
+        -8.406663533171708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1331654",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "",
+      "coordenadas": [
+        40.22236195348984,
+        -8.406663533171708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1331655",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "",
+      "coordenadas": [
+        40.22236195348984,
+        -8.406663533171708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1331656",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "4",
+      "coordenadas": [
+        40.22236195348984,
+        -8.406663533171708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1333170",
+      "rua": "R ALFREDO LOPES XISTO",
+      "casa": "4",
+      "coordenadas": [
+        40.22236195348984,
+        -8.406663533171708
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALFREDO LOPES XISTO",
+    "R ANTÓNIO DE SOUSA"
+  ],
+  "centro": [
+    40.220988423623695,
+    -8.406726246238758
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.219519207654265,
+                -8.406781329522932
+              ],
+              [
+                40.21951250888936,
+                -8.406757806316683
+              ],
+              [
+                40.21950833778409,
+                -8.406736496050655
+              ],
+              [
+                40.21950669433847,
+                -8.406717398724847
+              ],
+              [
+                40.21950757855249,
+                -8.406700514339263
+              ],
+              [
+                40.219510990426144,
+                -8.4066858428939
+              ],
+              [
+                40.21951692995945,
+                -8.406673384388759
+              ],
+              [
+                40.21952539715239,
+                -8.406663138823841
+              ],
+              [
+                40.21953639200497,
+                -8.406655106199144
+              ],
+              [
+                40.2195499145172,
+                -8.406649286514673
+              ],
+              [
+                40.21956582918236,
+                -8.40664347644574
+              ],
+              [
+                40.21958413600044,
+                -8.406637675992346
+              ],
+              [
+                40.21960483497146,
+                -8.406631885154493
+              ],
+              [
+                40.21962792609543,
+                -8.40662610393218
+              ],
+              [
+                40.21965340937231,
+                -8.406620332325407
+              ],
+              [
+                40.21968128480212,
+                -8.406614570334177
+              ],
+              [
+                40.21971155238487,
+                -8.406608817958485
+              ],
+              [
+                40.21974421212055,
+                -8.406603075198337
+              ],
+              [
+                40.219775322691035,
+                -8.406597876902769
+              ],
+              [
+                40.21980488409633,
+                -8.406593223071784
+              ],
+              [
+                40.21983289633641,
+                -8.406589113705381
+              ],
+              [
+                40.21985935941131,
+                -8.406585548803562
+              ],
+              [
+                40.219884273321,
+                -8.406582528366325
+              ],
+              [
+                40.21990763806551,
+                -8.40658005239367
+              ],
+              [
+                40.21992945364481,
+                -8.406578120885598
+              ],
+              [
+                40.219949720058914,
+                -8.406576733842108
+              ],
+              [
+                40.22000390178982,
+                -8.406574198150427
+              ],
+              [
+                40.220091998837546,
+                -8.406570513810554
+              ],
+              [
+                40.22021401120206,
+                -8.406565680822485
+              ],
+              [
+                40.22036993888339,
+                -8.406559699186227
+              ],
+              [
+                40.22055978188152,
+                -8.406552568901773
+              ],
+              [
+                40.22078354019645,
+                -8.40654428996913
+              ],
+              [
+                40.221041213828194,
+                -8.406534862388291
+              ],
+              [
+                40.22133280277674,
+                -8.406524286159264
+              ],
+              [
+                40.22159004341826,
+                -8.406519446141548
+              ],
+              [
+                40.22181293575275,
+                -8.406520342335146
+              ],
+              [
+                40.22200147978022,
+                -8.406526974740057
+              ],
+              [
+                40.222155675500645,
+                -8.406539343356279
+              ],
+              [
+                40.222275522914046,
+                -8.406557448183818
+              ],
+              [
+                40.22236102202042,
+                -8.40658128922267
+              ],
+              [
+                40.222412172819766,
+                -8.406610866472835
+              ],
+              [
+                40.222428975312084,
+                -8.406646179934317
+              ],
+              [
+                40.22242706576088,
+                -8.40668013305796
+              ],
+              [
+                40.22240644416616,
+                -8.406712725843768
+              ],
+              [
+                40.22236711052793,
+                -8.406743958291742
+              ],
+              [
+                40.22230906484617,
+                -8.406773830401878
+              ],
+              [
+                40.222232307120905,
+                -8.406802342174181
+              ],
+              [
+                40.22213683735211,
+                -8.406829493608647
+              ],
+              [
+                40.22202265553981,
+                -8.406855284705278
+              ],
+              [
+                40.22188976168399,
+                -8.406879715464074
+              ],
+              [
+                40.221744073624876,
+                -8.40689950546591
+              ],
+              [
+                40.22158559136247,
+                -8.406914654710786
+              ],
+              [
+                40.221414314896776,
+                -8.406925163198702
+              ],
+              [
+                40.22123024422779,
+                -8.40693103092966
+              ],
+              [
+                40.22103337935552,
+                -8.406932257903659
+              ],
+              [
+                40.22082372027995,
+                -8.406928844120696
+              ],
+              [
+                40.22060126700109,
+                -8.406920789580774
+              ],
+              [
+                40.22036601951895,
+                -8.406908094283892
+              ],
+              [
+                40.22015934062645,
+                -8.40689404549834
+              ],
+              [
+                40.219981230323626,
+                -8.406878643224118
+              ],
+              [
+                40.21983168861044,
+                -8.406861887461222
+              ],
+              [
+                40.21971071548691,
+                -8.406843778209657
+              ],
+              [
+                40.21961831095304,
+                -8.40682431546942
+              ],
+              [
+                40.21955447500882,
+                -8.406803499240512
+              ],
+              [
+                40.219519207654265,
+                -8.406781329522932
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.22059673935972,
+    -8.406693147214167
+  ],
+  "centroDeMassa": [
+    40.220988423623695,
+    -8.406726246238758
+  ]
+}

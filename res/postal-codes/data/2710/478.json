@@ -1,1 +1,428 @@
-{"CP4":"2710","CP3":"478","Distrito":"Lisboa","Concelho":"Sintra","CP":"2710-478","Artéria":"Rua do Arco Velho","Localidade":"São Pedro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SINTRA","locais":[{"id":"pt.ine.add.PTCONT.2300061","rua":"R AVIADOR CARLOS BLECK","casa":"12","coordenadas":[38.788043157825776,-9.37646535355312]},{"id":"pt.ine.add.PTCONT.2309211","rua":"R ARCO VELHO QTA DA RAMALHOA","casa":"","coordenadas":[38.78292507975782,-9.376629633181127]},{"id":"pt.ine.add.PTCONT.2650275","rua":"R ARCO VELHO CASA DAS ACÁCIAS","casa":"","coordenadas":[38.78321958226855,-9.376887929416153]},{"id":"pt.ine.add.PTCONT.2650276","rua":"QTA DE PANAFERRIM","casa":"","coordenadas":[38.78059259996474,-9.377429185529314]},{"id":"pt.ine.add.PTCONT.2669896","rua":"CASA BRANCA DE PENAFERRIM","casa":"","coordenadas":[38.78113687793619,-9.377070394007166]},{"id":"pt.ine.add.PTCONT.2812062","rua":"R AVIADOR CARLOS BLECK","casa":"5","coordenadas":[38.7888481159089,-9.376157082603756]},{"id":"pt.ine.add.PTCONT.2839877","rua":"R AVIADOR CARLOS BLECK","casa":"7","coordenadas":[38.78850466539865,-9.376266208048603]},{"id":"pt.ine.add.PTCONT.2930668","rua":"R ARCO VELHO","casa":"","coordenadas":[38.78714434209145,-9.377128760687354]},{"id":"pt.ine.add.PTCONT.2930669","rua":"R ARCO VELHO","casa":"","coordenadas":[38.78714434209145,-9.377128760687354]},{"id":"pt.ine.add.PTCONT.2976548","rua":"R AVIADOR CARLOS BLECK","casa":"10","coordenadas":[38.788151719062526,-9.376421203509791]},{"id":"pt.ine.add.PTCONT.3059383","rua":"R AVIADOR CARLOS BLECK","casa":"6","coordenadas":[38.78868564146843,-9.376188787970143]},{"id":"pt.ine.add.PTCONT.3096996","rua":"R ARCO VELHO CANCELOS DE PENEFERIM","casa":"","coordenadas":[38.782832325958005,-9.376881200956715]},{"id":"pt.ine.add.PTCONT.3154739","rua":"R AVIADOR CARLOS BLECK","casa":"9","coordenadas":[38.788305310054454,-9.376377835543295]},{"id":"pt.ine.add.PTCONT.3281903","rua":"R ARCO VELHO CASA DA SERRA","casa":"","coordenadas":[38.786610662939246,-9.377338151241297]},{"id":"pt.ine.add.PTCONT.3428821","rua":"R ARCO VELHO","casa":"","coordenadas":[38.787406984801514,-9.376995219158971]}],"ruas":["R AVIADOR CARLOS BLECK","R ARCO VELHO QTA DA RAMALHOA","R ARCO VELHO CASA DAS ACÁCIAS","QTA DE PANAFERRIM","CASA BRANCA DE PENAFERRIM","R ARCO VELHO","R ARCO VELHO CANCELOS DE PENEFERIM","R ARCO VELHO CASA DA SERRA"],"centroide":[38.785867458766155,-9.3767407490668]}90668]}
+{
+  "CP": "2710-478",
+  "CP4": "2710",
+  "CP3": "478",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "São Pedro",
+  "Designação Postal": "SINTRA",
+  "partes": [
+    {
+      "Artéria": "Rua Aviador Carlos Bleck",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Arco Velho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2300061",
+      "rua": "R AVIADOR CARLOS BLECK",
+      "casa": "12",
+      "coordenadas": [
+        38.788043157825776,
+        -9.37646535355312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2309211",
+      "rua": "R ARCO VELHO QTA DA RAMALHOA",
+      "casa": "",
+      "coordenadas": [
+        38.78292507975782,
+        -9.376629633181127
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2650275",
+      "rua": "R ARCO VELHO CASA DAS ACÁCIAS",
+      "casa": "",
+      "coordenadas": [
+        38.78321958226855,
+        -9.376887929416153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2650276",
+      "rua": "QTA DE PANAFERRIM",
+      "casa": "",
+      "coordenadas": [
+        38.78059259996474,
+        -9.377429185529314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2669896",
+      "rua": "CASA BRANCA DE PENAFERRIM",
+      "casa": "",
+      "coordenadas": [
+        38.78113687793619,
+        -9.377070394007166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2812062",
+      "rua": "R AVIADOR CARLOS BLECK",
+      "casa": "5",
+      "coordenadas": [
+        38.7888481159089,
+        -9.376157082603756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2839877",
+      "rua": "R AVIADOR CARLOS BLECK",
+      "casa": "7",
+      "coordenadas": [
+        38.78850466539865,
+        -9.376266208048603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2930668",
+      "rua": "R ARCO VELHO",
+      "casa": "",
+      "coordenadas": [
+        38.78714434209145,
+        -9.377128760687354
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2930669",
+      "rua": "R ARCO VELHO",
+      "casa": "",
+      "coordenadas": [
+        38.78714434209145,
+        -9.377128760687354
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2976548",
+      "rua": "R AVIADOR CARLOS BLECK",
+      "casa": "10",
+      "coordenadas": [
+        38.788151719062526,
+        -9.376421203509791
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3059383",
+      "rua": "R AVIADOR CARLOS BLECK",
+      "casa": "6",
+      "coordenadas": [
+        38.78868564146843,
+        -9.376188787970143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3096996",
+      "rua": "R ARCO VELHO CANCELOS DE PENEFERIM",
+      "casa": "",
+      "coordenadas": [
+        38.782832325958005,
+        -9.376881200956715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3154739",
+      "rua": "R AVIADOR CARLOS BLECK",
+      "casa": "9",
+      "coordenadas": [
+        38.788305310054454,
+        -9.376377835543295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3281903",
+      "rua": "R ARCO VELHO CASA DA SERRA",
+      "casa": "",
+      "coordenadas": [
+        38.786610662939246,
+        -9.377338151241297
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3428821",
+      "rua": "R ARCO VELHO",
+      "casa": "",
+      "coordenadas": [
+        38.787406984801514,
+        -9.376995219158971
+      ]
+    }
+  ],
+  "ruas": [
+    "R AVIADOR CARLOS BLECK",
+    "R ARCO VELHO QTA DA RAMALHOA",
+    "R ARCO VELHO CASA DAS ACÁCIAS",
+    "QTA DE PANAFERRIM",
+    "CASA BRANCA DE PENAFERRIM",
+    "R ARCO VELHO",
+    "R ARCO VELHO CANCELOS DE PENEFERIM",
+    "R ARCO VELHO CASA DA SERRA"
+  ],
+  "centro": [
+    38.78472035793682,
+    -9.376793134066535
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.7839777603879,
+                -9.377377978742304
+              ],
+              [
+                38.78322550251609,
+                -9.377389358028307
+              ],
+              [
+                38.78257578122155,
+                -9.377393708786023
+              ],
+              [
+                38.782028596504304,
+                -9.37739103101546
+              ],
+              [
+                38.78158394836433,
+                -9.377381324716609
+              ],
+              [
+                38.78124183680164,
+                -9.377364589889474
+              ],
+              [
+                38.78100226181623,
+                -9.377340826534057
+              ],
+              [
+                38.7808652234081,
+                -9.377310034650359
+              ],
+              [
+                38.78083072157725,
+                -9.377272214238374
+              ],
+              [
+                38.78089875632368,
+                -9.377227365298104
+              ],
+              [
+                38.780986227380275,
+                -9.377181235587463
+              ],
+              [
+                38.78109313474702,
+                -9.37713382510645
+              ],
+              [
+                38.78121947842393,
+                -9.377085133855061
+              ],
+              [
+                38.781365258411,
+                -9.377035161833298
+              ],
+              [
+                38.78153047470823,
+                -9.376983909041163
+              ],
+              [
+                38.78171512731561,
+                -9.376931375478657
+              ],
+              [
+                38.78191921623315,
+                -9.376877561145776
+              ],
+              [
+                38.78214274146086,
+                -9.376822466042519
+              ],
+              [
+                38.78243087347496,
+                -9.3767668742244
+              ],
+              [
+                38.78278361227545,
+                -9.376710785691417
+              ],
+              [
+                38.78320095786235,
+                -9.376654200443568
+              ],
+              [
+                38.78368291023565,
+                -9.376597118480854
+              ],
+              [
+                38.78422946939534,
+                -9.376539539803277
+              ],
+              [
+                38.784840635341425,
+                -9.376481464410833
+              ],
+              [
+                38.78551640807392,
+                -9.376422892303527
+              ],
+              [
+                38.7862567875928,
+                -9.376363823481356
+              ],
+              [
+                38.78688210199827,
+                -9.37632523414563
+              ],
+              [
+                38.787392351290336,
+                -9.376307124296353
+              ],
+              [
+                38.78778753546898,
+                -9.376309493933523
+              ],
+              [
+                38.7880676545342,
+                -9.376332343057136
+              ],
+              [
+                38.78823270848602,
+                -9.3763756716672
+              ],
+              [
+                38.788282697324426,
+                -9.376439479763707
+              ],
+              [
+                38.78821762104941,
+                -9.376523767346663
+              ],
+              [
+                38.788037479661,
+                -9.376628534416064
+              ],
+              [
+                38.78787575215378,
+                -9.376722292188171
+              ],
+              [
+                38.78773243852777,
+                -9.376805040662985
+              ],
+              [
+                38.78760753878297,
+                -9.376876779840504
+              ],
+              [
+                38.78750105291939,
+                -9.37693750972073
+              ],
+              [
+                38.787412980937006,
+                -9.37698723030366
+              ],
+              [
+                38.787343322835824,
+                -9.377025941589297
+              ],
+              [
+                38.78729207861586,
+                -9.37705364357764
+              ],
+              [
+                38.7872592482771,
+                -9.377070336268686
+              ],
+              [
+                38.787222182993936,
+                -9.377088214100757
+              ],
+              [
+                38.787180882766364,
+                -9.377107277073854
+              ],
+              [
+                38.78713534759438,
+                -9.377127525187975
+              ],
+              [
+                38.78708557747799,
+                -9.37714895844312
+              ],
+              [
+                38.787031572417185,
+                -9.377171576839292
+              ],
+              [
+                38.78697333241198,
+                -9.377195380376484
+              ],
+              [
+                38.78691085746236,
+                -9.377220369054704
+              ],
+              [
+                38.78684414756834,
+                -9.377246542873948
+              ],
+              [
+                38.78669174417709,
+                -9.377270867376536
+              ],
+              [
+                38.78645364728861,
+                -9.377293342562469
+              ],
+              [
+                38.78612985690292,
+                -9.377313968431746
+              ],
+              [
+                38.78572037302,
+                -9.377332744984368
+              ],
+              [
+                38.78522519563985,
+                -9.377349672220335
+              ],
+              [
+                38.784644324762496,
+                -9.377364750139648
+              ],
+              [
+                38.7839777603879,
+                -9.377377978742304
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.78495209477141,
+    -9.376964060915569
+  ],
+  "centroDeMassa": [
+    38.78472035793682,
+    -9.376793134066535
+  ]
+}

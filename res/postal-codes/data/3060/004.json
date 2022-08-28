@@ -1,1 +1,413 @@
-{"CP4":"3060","CP3":"004","Distrito":"Coimbra","Concelho":"Cantanhede","CP":"3060-004","Artéria":"Travessa do Espírito Santo","Localidade":"Ançã","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ANÇÃ","locais":[{"id":"pt.ine.add.PTCONT.1110050","rua":"R ESPÍRITO SANTO","casa":"15","coordenadas":[40.27328494421881,-8.52165627172194]},{"id":"pt.ine.add.PTCONT.1118380","rua":"R ESPÍRITO SANTO","casa":"20","coordenadas":[40.27310487239085,-8.521643483751586]},{"id":"pt.ine.add.PTCONT.1120336","rua":"R ESPÍRITO SANTO","casa":"11","coordenadas":[40.273491558884565,-8.521810300965384]},{"id":"pt.ine.add.PTCONT.1140860","rua":"R ESPÍRITO SANTO","casa":"17","coordenadas":[40.27321309707567,-8.521597073560955]},{"id":"pt.ine.add.PTCONT.1185185","rua":"R ESPÍRITO SANTO","casa":"4","coordenadas":[40.27366136063017,-8.522199269682332]},{"id":"pt.ine.add.PTCONT.1187425","rua":"R ESPÍRITO SANTO","casa":"13","coordenadas":[40.27336579689513,-8.52171552155797]},{"id":"pt.ine.add.PTCONT.1189565","rua":"BC RUA ESPÍRITO SANTO","casa":"3","coordenadas":[40.27368987876334,-8.52175264909674]},{"id":"pt.ine.add.PTCONT.1204944","rua":"R ESPÍRITO SANTO","casa":"16","coordenadas":[40.27322158939448,-8.521749968273195]},{"id":"pt.ine.add.PTCONT.1223135","rua":"R ESPÍRITO SANTO","casa":"12","coordenadas":[40.27334739085687,-8.521832990351621]},{"id":"pt.ine.add.PTCONT.1274544","rua":"R ESPÍRITO SANTO","casa":"10","coordenadas":[40.27344613605583,-8.5219276152168]},{"id":"pt.ine.add.PTCONT.1274554","rua":"R ESPÍRITO SANTO","casa":"2","coordenadas":[40.27370619076331,-8.52225831400672]},{"id":"pt.ine.add.PTCONT.1295125","rua":"TV ESPÍRITO SANTO","casa":"1","coordenadas":[40.273777958461565,-8.522341027824972]},{"id":"pt.ine.add.PTCONT.1298722","rua":"BC RUA ESPÍRITO SANTO","casa":"5","coordenadas":[40.273735656660236,-8.52152951899681]},{"id":"pt.ine.add.PTCONT.1299152","rua":"R ESPÍRITO SANTO","casa":"18","coordenadas":[40.2731676744625,-8.521714387477058]},{"id":"pt.ine.add.PTCONT.1302985","rua":"R ESPÍRITO SANTO","casa":"14","coordenadas":[40.273275464822206,-8.52179730630283]},{"id":"pt.ine.add.PTCONT.1309230","rua":"BC RUA ESPÍRITO SANTO","casa":"9","coordenadas":[40.27359097549945,-8.521705053068459]},{"id":"pt.ine.add.PTCONT.1318890","rua":"R ESPÍRITO SANTO","casa":"1","coordenadas":[40.2735812985344,-8.521904874425433]},{"id":"pt.ine.add.PTCONT.1318891","rua":"R ESPÍRITO SANTO","casa":"6","coordenadas":[40.273625654609646,-8.522105005331419]},{"id":"pt.ine.add.PTCONT.1330177","rua":"BC RUA ESPÍRITO SANTO","casa":"7","coordenadas":[40.27364520629237,-8.521646576154831]},{"id":"pt.ine.add.PTCONT.1339670","rua":"BC RUA ESPÍRITO SANTO","casa":"1","coordenadas":[40.273635608422026,-8.521822883202459]},{"id":"pt.ine.add.PTCONT.1365277","rua":"R ESPÍRITO SANTO","casa":"19","coordenadas":[40.27315926103176,-8.521537978576513]}],"ruas":["R ESPÍRITO SANTO","BC RUA ESPÍRITO SANTO","TV ESPÍRITO SANTO"],"centroide":[40.27347841568467,-8.521835504548475]}
+{
+  "CP": "3060-004",
+  "CP4": "3060",
+  "CP3": "004",
+  "Distrito": "Coimbra",
+  "Concelho": "Cantanhede",
+  "Localidade": "Ançã",
+  "Designação Postal": "ANÇÃ",
+  "partes": [
+    {
+      "Artéria": "Rua do Espírito Santo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Espírito Santo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1110050",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "15",
+      "coordenadas": [
+        40.27328494421881,
+        -8.52165627172194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1118380",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "20",
+      "coordenadas": [
+        40.27310487239085,
+        -8.521643483751586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1120336",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "11",
+      "coordenadas": [
+        40.273491558884565,
+        -8.521810300965384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1140860",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "17",
+      "coordenadas": [
+        40.27321309707567,
+        -8.521597073560955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185185",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "4",
+      "coordenadas": [
+        40.27366136063017,
+        -8.522199269682332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1187425",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "13",
+      "coordenadas": [
+        40.27336579689513,
+        -8.52171552155797
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1189565",
+      "rua": "BC RUA ESPÍRITO SANTO",
+      "casa": "3",
+      "coordenadas": [
+        40.27368987876334,
+        -8.52175264909674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1204944",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "16",
+      "coordenadas": [
+        40.27322158939448,
+        -8.521749968273195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1223135",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "12",
+      "coordenadas": [
+        40.27334739085687,
+        -8.521832990351621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1274544",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "10",
+      "coordenadas": [
+        40.27344613605583,
+        -8.5219276152168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1274554",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "2",
+      "coordenadas": [
+        40.27370619076331,
+        -8.52225831400672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1295125",
+      "rua": "TV ESPÍRITO SANTO",
+      "casa": "1",
+      "coordenadas": [
+        40.273777958461565,
+        -8.522341027824972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1298722",
+      "rua": "BC RUA ESPÍRITO SANTO",
+      "casa": "5",
+      "coordenadas": [
+        40.273735656660236,
+        -8.52152951899681
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1299152",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "18",
+      "coordenadas": [
+        40.2731676744625,
+        -8.521714387477058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1302985",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "14",
+      "coordenadas": [
+        40.273275464822206,
+        -8.52179730630283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1309230",
+      "rua": "BC RUA ESPÍRITO SANTO",
+      "casa": "9",
+      "coordenadas": [
+        40.27359097549945,
+        -8.521705053068459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1318890",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "1",
+      "coordenadas": [
+        40.2735812985344,
+        -8.521904874425433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1318891",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "6",
+      "coordenadas": [
+        40.273625654609646,
+        -8.522105005331419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1330177",
+      "rua": "BC RUA ESPÍRITO SANTO",
+      "casa": "7",
+      "coordenadas": [
+        40.27364520629237,
+        -8.521646576154831
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1339670",
+      "rua": "BC RUA ESPÍRITO SANTO",
+      "casa": "1",
+      "coordenadas": [
+        40.273635608422026,
+        -8.521822883202459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1365277",
+      "rua": "R ESPÍRITO SANTO",
+      "casa": "19",
+      "coordenadas": [
+        40.27315926103176,
+        -8.521537978576513
+      ]
+    }
+  ],
+  "ruas": [
+    "R ESPÍRITO SANTO",
+    "BC RUA ESPÍRITO SANTO",
+    "TV ESPÍRITO SANTO"
+  ],
+  "centro": [
+    40.273441415426205,
+    -8.52193527341089
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.273140198556156,
+                -8.521683367097165
+              ],
+              [
+                40.273132348297196,
+                -8.521674504131479
+              ],
+              [
+                40.273126329143125,
+                -8.521665100518145
+              ],
+              [
+                40.273122141093936,
+                -8.521655156257163
+              ],
+              [
+                40.27311978414963,
+                -8.521644671348529
+              ],
+              [
+                40.27311925831022,
+                -8.521633645792242
+              ],
+              [
+                40.273120563575674,
+                -8.521622079588308
+              ],
+              [
+                40.27312369994603,
+                -8.521609972736726
+              ],
+              [
+                40.27312866742125,
+                -8.521597325237492
+              ],
+              [
+                40.273135466001364,
+                -8.521584137090608
+              ],
+              [
+                40.27315042094065,
+                -8.521572465281151
+              ],
+              [
+                40.27317353223913,
+                -8.521562309809124
+              ],
+              [
+                40.27320479989679,
+                -8.521553670674521
+              ],
+              [
+                40.27324422391362,
+                -8.521546547877348
+              ],
+              [
+                40.27329180428964,
+                -8.521540941417602
+              ],
+              [
+                40.27334754102484,
+                -8.521536851295284
+              ],
+              [
+                40.27341143411922,
+                -8.521534277510392
+              ],
+              [
+                40.273483483572775,
+                -8.52153322006293
+              ],
+              [
+                40.27354718781029,
+                -8.52154497462184
+              ],
+              [
+                40.27360254683175,
+                -8.521569541187123
+              ],
+              [
+                40.27364956063716,
+                -8.52160691975878
+              ],
+              [
+                40.27368822922652,
+                -8.521657110336806
+              ],
+              [
+                40.27371855259984,
+                -8.521720112921209
+              ],
+              [
+                40.2737405307571,
+                -8.521795927511983
+              ],
+              [
+                40.273754163698314,
+                -8.52188455410913
+              ],
+              [
+                40.27375945142349,
+                -8.52198599271265
+              ],
+              [
+                40.273754542495524,
+                -8.522064960235294
+              ],
+              [
+                40.273739436914425,
+                -8.522121456677061
+              ],
+              [
+                40.2737141346802,
+                -8.522155482037952
+              ],
+              [
+                40.273678635792834,
+                -8.52216703631797
+              ],
+              [
+                40.27363294025235,
+                -8.52215611951711
+              ],
+              [
+                40.27357704805872,
+                -8.52212273163537
+              ],
+              [
+                40.27351095921197,
+                -8.52206687267276
+              ],
+              [
+                40.273434673712096,
+                -8.52198854262927
+              ],
+              [
+                40.27336694261733,
+                -8.521918895970508
+              ],
+              [
+                40.27330776592767,
+                -8.52185793269647
+              ],
+              [
+                40.273257143643136,
+                -8.521805652807156
+              ],
+              [
+                40.273215075763716,
+                -8.52176205630257
+              ],
+              [
+                40.27318156228941,
+                -8.521727143182709
+              ],
+              [
+                40.27315660322023,
+                -8.521700913447575
+              ],
+              [
+                40.273140198556156,
+                -8.521683367097165
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.27338908460138,
+    -8.521753279325386
+  ],
+  "centroDeMassa": [
+    40.273441415426205,
+    -8.52193527341089
+  ]
+}

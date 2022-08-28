@@ -1,1 +1,467 @@
-{"CP4":"2765","CP3":"312","Distrito":"Lisboa","Concelho":"Cascais","CP":"2765-312","Artéria":"Rua Dom Constantino de Bragança","Localidade":"Galiza","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ESTORIL","locais":[{"id":"pt.ine.add.PTCONT.2981924","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"75","coordenadas":[38.7071765288525,-9.381133251287851]},{"id":"pt.ine.add.PTCONT.3053523","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"58","coordenadas":[38.70731853990139,-9.381331152576477]},{"id":"pt.ine.add.PTCONT.3053524","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"58","coordenadas":[38.70731853990139,-9.381331152576477]},{"id":"pt.ine.add.PTCONT.3054103","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"58","coordenadas":[38.70731853990139,-9.381331152576477]},{"id":"pt.ine.add.PTCONT.3084164","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"72","coordenadas":[38.707472870043134,-9.381218875966047]},{"id":"pt.ine.add.PTCONT.3211111","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"","coordenadas":[38.7074960839027,-9.381575656810593]},{"id":"pt.ine.add.PTCONT.3283950","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"8G","coordenadas":[38.707661874649695,-9.381233658472784]},{"id":"pt.ine.add.PTCONT.3377994","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"42","coordenadas":[38.70720862633245,-9.381501681124732]},{"id":"pt.ine.add.PTCONT.3377995","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"42","coordenadas":[38.70720862633245,-9.381501681124732]},{"id":"pt.ine.add.PTCONT.3377996","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"42","coordenadas":[38.70720862633245,-9.381501681124732]},{"id":"pt.ine.add.PTCONT.3415755","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"85","coordenadas":[38.70764104002272,-9.381497705617464]},{"id":"pt.ine.add.PTCONT.3434125","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"29","coordenadas":[38.707386906484665,-9.381677222075446]},{"id":"pt.ine.add.PTCONT.3456410","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"64","coordenadas":[38.70739996259827,-9.381298080412513]},{"id":"pt.ine.add.PTCONT.2295629","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"78","coordenadas":[38.70755380190203,-9.381231779266049]},{"id":"pt.ine.add.PTCONT.2350578","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"2","coordenadas":[38.707134491272704,-9.38169582345125]},{"id":"pt.ine.add.PTCONT.2350579","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"2","coordenadas":[38.707134491272704,-9.38169582345125]},{"id":"pt.ine.add.PTCONT.2350580","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"2","coordenadas":[38.707134491272704,-9.38169582345125]},{"id":"pt.ine.add.PTCONT.2386952","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"67","coordenadas":[38.707568623335916,-9.381530934294792]},{"id":"pt.ine.add.PTCONT.2386953","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"67","coordenadas":[38.707568623335916,-9.381530934294792]},{"id":"pt.ine.add.PTCONT.2505570","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"64","coordenadas":[38.70739996259827,-9.381298080412513]},{"id":"pt.ine.add.PTCONT.2505571","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"64","coordenadas":[38.70739996259827,-9.381298080412513]},{"id":"pt.ine.add.PTCONT.2541484","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"","coordenadas":[38.70707885907934,-9.381844303387492]},{"id":"pt.ine.add.PTCONT.2541485","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"","coordenadas":[38.70707885907934,-9.381844303387492]},{"id":"pt.ine.add.PTCONT.2541486","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"","coordenadas":[38.70707885907934,-9.381844303387492]},{"id":"pt.ine.add.PTCONT.2835958","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"48","coordenadas":[38.70723638087715,-9.381433187845717]},{"id":"pt.ine.add.PTCONT.2835959","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"48","coordenadas":[38.70723638087715,-9.381433187845717]},{"id":"pt.ine.add.PTCONT.2835960","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"48","coordenadas":[38.70723638087715,-9.381433187845717]},{"id":"pt.ine.add.PTCONT.2860383","rua":"R D CONSTANTINO DE BRAGANÇA","casa":"36","coordenadas":[38.70716261414986,-9.38159284876982]}],"ruas":["R D CONSTANTINO DE BRAGANÇA"],"centroide":[38.70732062713752,-9.381479359425198]}
+{
+  "CP": "2765-312",
+  "CP4": "2765",
+  "CP3": "312",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Galiza",
+  "Designação Postal": "ESTORIL",
+  "partes": [
+    {
+      "Artéria": "Rua Dom Constantino de Bragança",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2981924",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "75",
+      "coordenadas": [
+        38.7071765288525,
+        -9.381133251287851
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3053523",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "58",
+      "coordenadas": [
+        38.70731853990139,
+        -9.381331152576477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3053524",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "58",
+      "coordenadas": [
+        38.70731853990139,
+        -9.381331152576477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3054103",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "58",
+      "coordenadas": [
+        38.70731853990139,
+        -9.381331152576477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3084164",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "72",
+      "coordenadas": [
+        38.707472870043134,
+        -9.381218875966047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3211111",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "",
+      "coordenadas": [
+        38.7074960839027,
+        -9.381575656810593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3283950",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "8G",
+      "coordenadas": [
+        38.707661874649695,
+        -9.381233658472784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3377994",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "42",
+      "coordenadas": [
+        38.70720862633245,
+        -9.381501681124732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3377995",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "42",
+      "coordenadas": [
+        38.70720862633245,
+        -9.381501681124732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3377996",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "42",
+      "coordenadas": [
+        38.70720862633245,
+        -9.381501681124732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3415755",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "85",
+      "coordenadas": [
+        38.70764104002272,
+        -9.381497705617464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3434125",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "29",
+      "coordenadas": [
+        38.707386906484665,
+        -9.381677222075446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3456410",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "64",
+      "coordenadas": [
+        38.70739996259827,
+        -9.381298080412513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295629",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "78",
+      "coordenadas": [
+        38.70755380190203,
+        -9.381231779266049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350578",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "2",
+      "coordenadas": [
+        38.707134491272704,
+        -9.38169582345125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350579",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "2",
+      "coordenadas": [
+        38.707134491272704,
+        -9.38169582345125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350580",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "2",
+      "coordenadas": [
+        38.707134491272704,
+        -9.38169582345125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2386952",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "67",
+      "coordenadas": [
+        38.707568623335916,
+        -9.381530934294792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2386953",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "67",
+      "coordenadas": [
+        38.707568623335916,
+        -9.381530934294792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2505570",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "64",
+      "coordenadas": [
+        38.70739996259827,
+        -9.381298080412513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2505571",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "64",
+      "coordenadas": [
+        38.70739996259827,
+        -9.381298080412513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2541484",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "",
+      "coordenadas": [
+        38.70707885907934,
+        -9.381844303387492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2541485",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "",
+      "coordenadas": [
+        38.70707885907934,
+        -9.381844303387492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2541486",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "",
+      "coordenadas": [
+        38.70707885907934,
+        -9.381844303387492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2835958",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "48",
+      "coordenadas": [
+        38.70723638087715,
+        -9.381433187845717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2835959",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "48",
+      "coordenadas": [
+        38.70723638087715,
+        -9.381433187845717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2835960",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "48",
+      "coordenadas": [
+        38.70723638087715,
+        -9.381433187845717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2860383",
+      "rua": "R D CONSTANTINO DE BRAGANÇA",
+      "casa": "36",
+      "coordenadas": [
+        38.70716261414986,
+        -9.38159284876982
+      ]
+    }
+  ],
+  "ruas": [
+    "R D CONSTANTINO DE BRAGANÇA"
+  ],
+  "centro": [
+    38.70737036686452,
+    -9.381488777337673
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.70725213574484,
+                -9.381750320149465
+              ],
+              [
+                38.707213629819165,
+                -9.381771205313473
+              ],
+              [
+                38.707181463224416,
+                -9.381778369642921
+              ],
+              [
+                38.707155635960575,
+                -9.381771813137812
+              ],
+              [
+                38.70713614802765,
+                -9.381751535798145
+              ],
+              [
+                38.70712299942564,
+                -9.38171753762392
+              ],
+              [
+                38.70711619015455,
+                -9.381669818615137
+              ],
+              [
+                38.70711572021436,
+                -9.381608378771798
+              ],
+              [
+                38.707121589605094,
+                -9.3815332180939
+              ],
+              [
+                38.70713379832674,
+                -9.381444336581444
+              ],
+              [
+                38.70715206448626,
+                -9.38136813412031
+              ],
+              [
+                38.70717638808365,
+                -9.3813046107105
+              ],
+              [
+                38.707206769118926,
+                -9.381253766352009
+              ],
+              [
+                38.70724320759208,
+                -9.381215601044838
+              ],
+              [
+                38.7072857035031,
+                -9.381190114788991
+              ],
+              [
+                38.70733425685199,
+                -9.381177307584466
+              ],
+              [
+                38.70738886763877,
+                -9.38117717943126
+              ],
+              [
+                38.707449535863425,
+                -9.381189730329377
+              ],
+              [
+                38.70750229501895,
+                -9.381204838101864
+              ],
+              [
+                38.70754714510534,
+                -9.381222502748722
+              ],
+              [
+                38.70758408612261,
+                -9.381242724269953
+              ],
+              [
+                38.707613118070746,
+                -9.381265502665553
+              ],
+              [
+                38.70763424094976,
+                -9.381290837935525
+              ],
+              [
+                38.707647454759645,
+                -9.381318730079869
+              ],
+              [
+                38.7076527595004,
+                -9.381349179098581
+              ],
+              [
+                38.707650155172026,
+                -9.381382184991669
+              ],
+              [
+                38.70764390554817,
+                -9.381413870092773
+              ],
+              [
+                38.70763401062882,
+                -9.381444234401899
+              ],
+              [
+                38.70762047041399,
+                -9.381473277919046
+              ],
+              [
+                38.707603284903676,
+                -9.38150100064421
+              ],
+              [
+                38.707582454097874,
+                -9.381527402577397
+              ],
+              [
+                38.70755797799659,
+                -9.381552483718604
+              ],
+              [
+                38.70752985659982,
+                -9.38157624406783
+              ],
+              [
+                38.70749808990757,
+                -9.381598683625079
+              ],
+              [
+                38.70746548081113,
+                -9.381620928883171
+              ],
+              [
+                38.707432029310525,
+                -9.381642979842109
+              ],
+              [
+                38.707397735405735,
+                -9.38166483650189
+              ],
+              [
+                38.707362599096776,
+                -9.381686498862516
+              ],
+              [
+                38.70732662038364,
+                -9.381707966923987
+              ],
+              [
+                38.70728979926632,
+                -9.381729240686305
+              ],
+              [
+                38.70725213574484,
+                -9.381750320149465
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.707389041817784,
+    -9.381477228168208
+  ],
+  "centroDeMassa": [
+    38.70737036686452,
+    -9.381488777337673
+  ]
+}

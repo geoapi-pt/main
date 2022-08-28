@@ -1,1 +1,427 @@
-{"CP4":"2540","CP3":"009","Distrito":"Leiria","Concelho":"Bombarral","CP":"2540-009","Artéria":"Avenida Vasco Pereira Conceição","Localidade":"Bombarral","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BOMBARRAL","locais":[{"id":"pt.ine.add.PTCONT.1979563","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26218821007647,-9.158995997488654]},{"id":"pt.ine.add.PTCONT.1982191","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26230683900763,-9.15984353066503]},{"id":"pt.ine.add.PTCONT.2002164","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"21","coordenadas":[39.26216767227011,-9.161324550364888]},{"id":"pt.ine.add.PTCONT.2021641","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26253936860654,-9.161051907983696]},{"id":"pt.ine.add.PTCONT.2035898","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"71","coordenadas":[39.262376229963245,-9.160145788566531]},{"id":"pt.ine.add.PTCONT.2057011","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26222596856824,-9.158799580152644]},{"id":"pt.ine.add.PTCONT.2078508","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"13","coordenadas":[39.26328604028098,-9.162175120451046]},{"id":"pt.ine.add.PTCONT.2078513","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"22","coordenadas":[39.26311042612907,-9.161662747017198]},{"id":"pt.ine.add.PTCONT.2084750","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.262565874931646,-9.161110227149148]},{"id":"pt.ine.add.PTCONT.2093820","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26217685643941,-9.159262317610184]},{"id":"pt.ine.add.PTCONT.2098482","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26349184465039,-9.162328755227744]},{"id":"pt.ine.add.PTCONT.2113876","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.262410107568776,-9.160389596757339]},{"id":"pt.ine.add.PTCONT.2176994","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"6","coordenadas":[39.262202240564335,-9.159448069135696]},{"id":"pt.ine.add.PTCONT.2176995","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"6","coordenadas":[39.262202240564335,-9.159448069135696]},{"id":"pt.ine.add.PTCONT.2178617","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"6","coordenadas":[39.262202240564335,-9.159448069135696]},{"id":"pt.ine.add.PTCONT.2217274","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26261888749217,-9.16122686561059]},{"id":"pt.ine.add.PTCONT.2221619","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26259238122686,-9.16116854635811]},{"id":"pt.ine.add.PTCONT.2247701","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26285928442978,-9.161543211799147]},{"id":"pt.ine.add.PTCONT.2249697","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"","coordenadas":[39.26247069565978,-9.160668554331698]},{"id":"pt.ine.add.PTCONT.2263359","rua":"AV VASCO PEREIRA CONCEIÇÃO","casa":"11","coordenadas":[39.26229201559295,-9.161523335115099]}],"ruas":["AV VASCO PEREIRA CONCEIÇÃO"],"centroide":[39.26252596889442,-9.160528500260039]}
+{
+  "CP": "2540-009",
+  "CP4": "2540",
+  "CP3": "009",
+  "Distrito": "Leiria",
+  "Concelho": "Bombarral",
+  "Localidade": "Bombarral",
+  "Designação Postal": "BOMBARRAL",
+  "partes": [
+    {
+      "Artéria": "Avenida Vasco Pereira Conceição",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1979563",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26218821007647,
+        -9.158995997488654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1982191",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26230683900763,
+        -9.15984353066503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2002164",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "21",
+      "coordenadas": [
+        39.26216767227011,
+        -9.161324550364888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2021641",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26253936860654,
+        -9.161051907983696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2035898",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "71",
+      "coordenadas": [
+        39.262376229963245,
+        -9.160145788566531
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2057011",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26222596856824,
+        -9.158799580152644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2078508",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "13",
+      "coordenadas": [
+        39.26328604028098,
+        -9.162175120451046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2078513",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "22",
+      "coordenadas": [
+        39.26311042612907,
+        -9.161662747017198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2084750",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.262565874931646,
+        -9.161110227149148
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2093820",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26217685643941,
+        -9.159262317610184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2098482",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26349184465039,
+        -9.162328755227744
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2113876",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.262410107568776,
+        -9.160389596757339
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2176994",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "6",
+      "coordenadas": [
+        39.262202240564335,
+        -9.159448069135696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2176995",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "6",
+      "coordenadas": [
+        39.262202240564335,
+        -9.159448069135696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2178617",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "6",
+      "coordenadas": [
+        39.262202240564335,
+        -9.159448069135696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2217274",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26261888749217,
+        -9.16122686561059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2221619",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26259238122686,
+        -9.16116854635811
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2247701",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26285928442978,
+        -9.161543211799147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2249697",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        39.26247069565978,
+        -9.160668554331698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2263359",
+      "rua": "AV VASCO PEREIRA CONCEIÇÃO",
+      "casa": "11",
+      "coordenadas": [
+        39.26229201559295,
+        -9.161523335115099
+      ]
+    }
+  ],
+  "ruas": [
+    "AV VASCO PEREIRA CONCEIÇÃO"
+  ],
+  "centro": [
+    39.26282975846025,
+    -9.160564167690193
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.26223761538921,
+                -9.161436366786882
+              ],
+              [
+                39.26222207247385,
+                -9.161411518693106
+              ],
+              [
+                39.26220861592556,
+                -9.16135755422426
+              ],
+              [
+                39.26219724574434,
+                -9.161274473380342
+              ],
+              [
+                39.26218796193018,
+                -9.161162276161356
+              ],
+              [
+                39.26218076448308,
+                -9.161020962567298
+              ],
+              [
+                39.26217565340305,
+                -9.16085053259817
+              ],
+              [
+                39.26217262869008,
+                -9.160650986253973
+              ],
+              [
+                39.262171690344175,
+                -9.160422323534705
+              ],
+              [
+                39.262172838365345,
+                -9.160164544440367
+              ],
+              [
+                39.26217402028444,
+                -9.15993482648092
+              ],
+              [
+                39.26217523610146,
+                -9.15973316965637
+              ],
+              [
+                39.262176485816425,
+                -9.159559573966712
+              ],
+              [
+                39.26217776942933,
+                -9.159414039411947
+              ],
+              [
+                39.262179086940165,
+                -9.159296565992076
+              ],
+              [
+                39.26218043834892,
+                -9.159207153707097
+              ],
+              [
+                39.262181823655624,
+                -9.159145802557013
+              ],
+              [
+                39.26218324286025,
+                -9.159112512541824
+              ],
+              [
+                39.26218507464074,
+                -9.159080314757656
+              ],
+              [
+                39.262187318997086,
+                -9.159049209204513
+              ],
+              [
+                39.26218997592928,
+                -9.159019195882394
+              ],
+              [
+                39.262193045437336,
+                -9.158990274791297
+              ],
+              [
+                39.26219652752124,
+                -9.158962445931225
+              ],
+              [
+                39.262200422181,
+                -9.158935709302176
+              ],
+              [
+                39.26220472941662,
+                -9.15891006490415
+              ],
+              [
+                39.26220944922809,
+                -9.158885512737148
+              ],
+              [
+                39.26223335837691,
+                -9.15891917295157
+              ],
+              [
+                39.26227645686308,
+                -9.159011045547416
+              ],
+              [
+                39.2623387446866,
+                -9.159161130524685
+              ],
+              [
+                39.26242022184747,
+                -9.159369427883378
+              ],
+              [
+                39.26252088834569,
+                -9.159635937623495
+              ],
+              [
+                39.26264074418126,
+                -9.159960659745035
+              ],
+              [
+                39.26277978935418,
+                -9.160343594248
+              ],
+              [
+                39.26293802386444,
+                -9.160784741132387
+              ],
+              [
+                39.263057731731905,
+                -9.161158159966966
+              ],
+              [
+                39.26313891295656,
+                -9.161463850751737
+              ],
+              [
+                39.26318156753842,
+                -9.1617018134867
+              ],
+              [
+                39.26318569547746,
+                -9.161872048171853
+              ],
+              [
+                39.2631512967737,
+                -9.161974554807198
+              ],
+              [
+                39.263078371427135,
+                -9.162009333392735
+              ],
+              [
+                39.26296691943776,
+                -9.161976383928462
+              ],
+              [
+                39.26281694080558,
+                -9.161875706414381
+              ],
+              [
+                39.262683766638006,
+                -9.161784507577838
+              ],
+              [
+                39.262567396935026,
+                -9.161702787418832
+              ],
+              [
+                39.262467831696654,
+                -9.161630545937367
+              ],
+              [
+                39.26238507092289,
+                -9.161567783133439
+              ],
+              [
+                39.26231911461372,
+                -9.161514499007048
+              ],
+              [
+                39.26226996276917,
+                -9.161470693558197
+              ],
+              [
+                39.26223761538921,
+                -9.161436366786882
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.262423761266255,
+    -9.160372422659869
+  ],
+  "centroDeMassa": [
+    39.26282975846025,
+    -9.160564167690193
+  ]
+}

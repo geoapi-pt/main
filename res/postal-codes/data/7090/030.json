@@ -1,1 +1,544 @@
-{"CP4":"7090","CP3":"030","Distrito":"Évora","Concelho":"Viana do Alentejo","CP":"7090-030","Artéria":"Rua 1º Dezembro","Localidade":"Alcáçovas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALCÁÇOVAS","locais":[{"id":"pt.ine.add.PTCONT.1375087","rua":"R LIBERDADE","casa":"49","coordenadas":[38.390262094280516,-8.147484806859827]},{"id":"pt.ine.add.PTCONT.1375218","rua":"R LIBERDADE","casa":"3","coordenadas":[38.388496533728436,-8.146259739756804]},{"id":"pt.ine.add.PTCONT.1382155","rua":"R LIBERDADE","casa":"55","coordenadas":[38.39046927731978,-8.14762220311302]},{"id":"pt.ine.add.PTCONT.1390935","rua":"R LIBERDADE","casa":"65","coordenadas":[38.39090165594219,-8.147931340653551]},{"id":"pt.ine.add.PTCONT.1390936","rua":"R LIBERDADE","casa":"67","coordenadas":[38.39097371968957,-8.147977140760611]},{"id":"pt.ine.add.PTCONT.1391480","rua":"R LIBERDADE - BAIRRO 25 DE ABRIL","casa":"51","coordenadas":[38.39032514810741,-8.1475420505774]},{"id":"pt.ine.add.PTCONT.1396016","rua":"R LIBERDADE","casa":"61","coordenadas":[38.39074852113543,-8.147828292571347]},{"id":"pt.ine.add.PTCONT.1399151","rua":"R LIBERDADE","casa":"13","coordenadas":[38.38873074305946,-8.146408580113961]},{"id":"pt.ine.add.PTCONT.1402454","rua":"R LIBERDADE","casa":"73","coordenadas":[38.39118090212601,-8.14811453976557]},{"id":"pt.ine.add.PTCONT.1409522","rua":"R LIBERDADE","casa":"25","coordenadas":[38.38907304335918,-8.146671901944579]},{"id":"pt.ine.add.PTCONT.1409523","rua":"R LIBERDADE","casa":"29","coordenadas":[38.389271216020624,-8.146832184088945]},{"id":"pt.ine.add.PTCONT.1412101","rua":"R LIBERDADE","casa":"57","coordenadas":[38.390613402193644,-8.147736694842655]},{"id":"pt.ine.add.PTCONT.1414131","rua":"R LIBERDADE","casa":"23","coordenadas":[38.38899197301923,-8.146603210582315]},{"id":"pt.ine.add.PTCONT.1414671","rua":"R LIBERDADE","casa":"27","coordenadas":[38.389190149772254,-8.146729154157384]},{"id":"pt.ine.add.PTCONT.1417968","rua":"R LIBERDADE","casa":"47","coordenadas":[38.390190030331844,-8.147439007690389]},{"id":"pt.ine.add.PTCONT.1423075","rua":"R LIBERDADE","casa":"71","coordenadas":[38.39110883551109,-8.14809163213141]},{"id":"pt.ine.add.PTCONT.1424246","rua":"R LIBERDADE","casa":"43","coordenadas":[38.390054912462496,-8.14733596518691]},{"id":"pt.ine.add.PTCONT.1425294","rua":"R LIBERDADE","casa":"75","coordenadas":[38.39124395416379,-8.148183231145772]},{"id":"pt.ine.add.PTCONT.1425310","rua":"R LIBERDADE","casa":"7","coordenadas":[38.38856859815914,-8.1463055366875]},{"id":"pt.ine.add.PTCONT.1425311","rua":"R LIBERDADE","casa":"31","coordenadas":[38.389397328353596,-8.146912330626753]},{"id":"pt.ine.add.PTCONT.1426753","rua":"R LIBERDADE","casa":"11","coordenadas":[38.388667688661464,-8.146351338637722]},{"id":"pt.ine.add.PTCONT.1432888","rua":"R LIBERDADE","casa":"15","coordenadas":[38.38882983091028,-8.146477274328793]},{"id":"pt.ine.add.PTCONT.1437142","rua":"R LIBERDADE","casa":"17","coordenadas":[38.38889288524498,-8.146534516042221]},{"id":"pt.ine.add.PTCONT.1438921","rua":"R LIBERDADE","casa":"35","coordenadas":[38.38949641589765,-8.146981026159729]},{"id":"pt.ine.add.PTCONT.1441900","rua":"R LIBERDADE","casa":"69","coordenadas":[38.39103677472505,-8.148022939108193]},{"id":"pt.ine.add.PTCONT.1448101","rua":"R LIBERDADE","casa":"39","coordenadas":[38.38988375971995,-8.147232916057693]},{"id":"pt.ine.add.PTCONT.1448874","rua":"R LIBERDADE","casa":"77","coordenadas":[38.391316017808414,-8.148229031718806]},{"id":"pt.ine.add.PTCONT.1450557","rua":"R LIBERDADE","casa":"63","coordenadas":[38.390820584924974,-8.147874092479514]},{"id":"pt.ine.add.PTCONT.1457249","rua":"R BENTO DE JESUS CARAÇAS","casa":"","coordenadas":[38.3887766031237,-8.14553476289597]},{"id":"pt.ine.add.PTCONT.1461746","rua":"R LIBERDADE","casa":"41","coordenadas":[38.38997384114251,-8.147278718345362]},{"id":"pt.ine.add.PTCONT.1462359","rua":"R LIBERDADE","casa":"79","coordenadas":[38.39138808143425,-8.148274832382766]},{"id":"pt.ine.add.PTCONT.1466663","rua":"R LIBERDADE","casa":"53","coordenadas":[38.39040622212147,-8.147576405471463]}],"ruas":["R LIBERDADE","R LIBERDADE - BAIRRO 25 DE ABRIL","R BENTO DE JESUS CARAÇAS"],"centroide":[38.38996369426868,-8.147251644884305]}
+{
+  "CP": "7090-030",
+  "CP4": "7090",
+  "CP3": "030",
+  "Distrito": "Évora",
+  "Concelho": "Viana do Alentejo",
+  "Localidade": "Alcáçovas",
+  "Designação Postal": "ALCÁÇOVAS",
+  "partes": [
+    {
+      "Artéria": "Rua da Liberdade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 1º Dezembro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1375087",
+      "rua": "R LIBERDADE",
+      "casa": "49",
+      "coordenadas": [
+        38.390262094280516,
+        -8.147484806859827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1375218",
+      "rua": "R LIBERDADE",
+      "casa": "3",
+      "coordenadas": [
+        38.388496533728436,
+        -8.146259739756804
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1382155",
+      "rua": "R LIBERDADE",
+      "casa": "55",
+      "coordenadas": [
+        38.39046927731978,
+        -8.14762220311302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1390935",
+      "rua": "R LIBERDADE",
+      "casa": "65",
+      "coordenadas": [
+        38.39090165594219,
+        -8.147931340653551
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1390936",
+      "rua": "R LIBERDADE",
+      "casa": "67",
+      "coordenadas": [
+        38.39097371968957,
+        -8.147977140760611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1391480",
+      "rua": "R LIBERDADE - BAIRRO 25 DE ABRIL",
+      "casa": "51",
+      "coordenadas": [
+        38.39032514810741,
+        -8.1475420505774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1396016",
+      "rua": "R LIBERDADE",
+      "casa": "61",
+      "coordenadas": [
+        38.39074852113543,
+        -8.147828292571347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399151",
+      "rua": "R LIBERDADE",
+      "casa": "13",
+      "coordenadas": [
+        38.38873074305946,
+        -8.146408580113961
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1402454",
+      "rua": "R LIBERDADE",
+      "casa": "73",
+      "coordenadas": [
+        38.39118090212601,
+        -8.14811453976557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1409522",
+      "rua": "R LIBERDADE",
+      "casa": "25",
+      "coordenadas": [
+        38.38907304335918,
+        -8.146671901944579
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1409523",
+      "rua": "R LIBERDADE",
+      "casa": "29",
+      "coordenadas": [
+        38.389271216020624,
+        -8.146832184088945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412101",
+      "rua": "R LIBERDADE",
+      "casa": "57",
+      "coordenadas": [
+        38.390613402193644,
+        -8.147736694842655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1414131",
+      "rua": "R LIBERDADE",
+      "casa": "23",
+      "coordenadas": [
+        38.38899197301923,
+        -8.146603210582315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1414671",
+      "rua": "R LIBERDADE",
+      "casa": "27",
+      "coordenadas": [
+        38.389190149772254,
+        -8.146729154157384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1417968",
+      "rua": "R LIBERDADE",
+      "casa": "47",
+      "coordenadas": [
+        38.390190030331844,
+        -8.147439007690389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1423075",
+      "rua": "R LIBERDADE",
+      "casa": "71",
+      "coordenadas": [
+        38.39110883551109,
+        -8.14809163213141
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1424246",
+      "rua": "R LIBERDADE",
+      "casa": "43",
+      "coordenadas": [
+        38.390054912462496,
+        -8.14733596518691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425294",
+      "rua": "R LIBERDADE",
+      "casa": "75",
+      "coordenadas": [
+        38.39124395416379,
+        -8.148183231145772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425310",
+      "rua": "R LIBERDADE",
+      "casa": "7",
+      "coordenadas": [
+        38.38856859815914,
+        -8.1463055366875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425311",
+      "rua": "R LIBERDADE",
+      "casa": "31",
+      "coordenadas": [
+        38.389397328353596,
+        -8.146912330626753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1426753",
+      "rua": "R LIBERDADE",
+      "casa": "11",
+      "coordenadas": [
+        38.388667688661464,
+        -8.146351338637722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1432888",
+      "rua": "R LIBERDADE",
+      "casa": "15",
+      "coordenadas": [
+        38.38882983091028,
+        -8.146477274328793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1437142",
+      "rua": "R LIBERDADE",
+      "casa": "17",
+      "coordenadas": [
+        38.38889288524498,
+        -8.146534516042221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1438921",
+      "rua": "R LIBERDADE",
+      "casa": "35",
+      "coordenadas": [
+        38.38949641589765,
+        -8.146981026159729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1441900",
+      "rua": "R LIBERDADE",
+      "casa": "69",
+      "coordenadas": [
+        38.39103677472505,
+        -8.148022939108193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448101",
+      "rua": "R LIBERDADE",
+      "casa": "39",
+      "coordenadas": [
+        38.38988375971995,
+        -8.147232916057693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448874",
+      "rua": "R LIBERDADE",
+      "casa": "77",
+      "coordenadas": [
+        38.391316017808414,
+        -8.148229031718806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1450557",
+      "rua": "R LIBERDADE",
+      "casa": "63",
+      "coordenadas": [
+        38.390820584924974,
+        -8.147874092479514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1457249",
+      "rua": "R BENTO DE JESUS CARAÇAS",
+      "casa": "",
+      "coordenadas": [
+        38.3887766031237,
+        -8.14553476289597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1461746",
+      "rua": "R LIBERDADE",
+      "casa": "41",
+      "coordenadas": [
+        38.38997384114251,
+        -8.147278718345362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1462359",
+      "rua": "R LIBERDADE",
+      "casa": "79",
+      "coordenadas": [
+        38.39138808143425,
+        -8.148274832382766
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1466663",
+      "rua": "R LIBERDADE",
+      "casa": "53",
+      "coordenadas": [
+        38.39040622212147,
+        -8.147576405471463
+      ]
+    }
+  ],
+  "ruas": [
+    "R LIBERDADE",
+    "R LIBERDADE - BAIRRO 25 DE ABRIL",
+    "R BENTO DE JESUS CARAÇAS"
+  ],
+  "centro": [
+    38.38994230758134,
+    -8.146904797639369
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.388932292517794,
+                -8.146581739693634
+              ],
+              [
+                38.388835457231266,
+                -8.146510184152115
+              ],
+              [
+                38.38875510243986,
+                -8.146436245289836
+              ],
+              [
+                38.38869122814357,
+                -8.146359923106798
+              ],
+              [
+                38.38864383434239,
+                -8.146281217602997
+              ],
+              [
+                38.38861292103634,
+                -8.146200128778437
+              ],
+              [
+                38.3885984882254,
+                -8.146116656633115
+              ],
+              [
+                38.38860053590957,
+                -8.146030801167033
+              ],
+              [
+                38.38861906408886,
+                -8.145942562380188
+              ],
+              [
+                38.38865407276327,
+                -8.145851940272586
+              ],
+              [
+                38.388725509701985,
+                -8.145815459514163
+              ],
+              [
+                38.38883337490499,
+                -8.145833120104921
+              ],
+              [
+                38.388977668372306,
+                -8.145904922044863
+              ],
+              [
+                38.389158390103916,
+                -8.146030865333985
+              ],
+              [
+                38.389375540099834,
+                -8.14621094997229
+              ],
+              [
+                38.38962911836005,
+                -8.146445175959776
+              ],
+              [
+                38.389919124884564,
+                -8.146733543296444
+              ],
+              [
+                38.39024555967338,
+                -8.147076051982292
+              ],
+              [
+                38.390528938124994,
+                -8.147374315813082
+              ],
+              [
+                38.39076926023941,
+                -8.147628334788813
+              ],
+              [
+                38.39096652601662,
+                -8.147838108909486
+              ],
+              [
+                38.391120735456624,
+                -8.148003638175098
+              ],
+              [
+                38.39123188855943,
+                -8.148124922585652
+              ],
+              [
+                38.39129998532503,
+                -8.148201962141147
+              ],
+              [
+                38.391325025753424,
+                -8.148234756841582
+              ],
+              [
+                38.39130700984462,
+                -8.148223306686958
+              ],
+              [
+                38.391289134695455,
+                -8.148211856567062
+              ],
+              [
+                38.39127140030595,
+                -8.148200406481894
+              ],
+              [
+                38.391253806676104,
+                -8.148188956431456
+              ],
+              [
+                38.39123635380591,
+                -8.148177506415747
+              ],
+              [
+                38.391219041695365,
+                -8.148166056434764
+              ],
+              [
+                38.391201870344474,
+                -8.148154606488513
+              ],
+              [
+                38.39118483975324,
+                -8.148143156576989
+              ],
+              [
+                38.39116794992165,
+                -8.148131706700195
+              ],
+              [
+                38.391124458514476,
+                -8.148102009182335
+              ],
+              [
+                38.39105436553171,
+                -8.148054064023409
+              ],
+              [
+                38.39095767097335,
+                -8.147987871223421
+              ],
+              [
+                38.3908343748394,
+                -8.147903430782371
+              ],
+              [
+                38.39068447712986,
+                -8.147800742700255
+              ],
+              [
+                38.390507977844734,
+                -8.147679806977074
+              ],
+              [
+                38.39030487698401,
+                -8.14754062361283
+              ],
+              [
+                38.390075174547704,
+                -8.147383192607524
+              ],
+              [
+                38.38986208050512,
+                -8.14723649603519
+              ],
+              [
+                38.389665594856254,
+                -8.147100533895829
+              ],
+              [
+                38.38948571760112,
+                -8.146975306189443
+              ],
+              [
+                38.3893224487397,
+                -8.146860812916028
+              ],
+              [
+                38.389175788272006,
+                -8.14675705407559
+              ],
+              [
+                38.389045736198035,
+                -8.146664029668125
+              ],
+              [
+                38.388932292517794,
+                -8.146581739693634
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.39004753733032,
+    -8.147196063733611
+  ],
+  "centroDeMassa": [
+    38.38994230758134,
+    -8.146904797639369
+  ]
+}

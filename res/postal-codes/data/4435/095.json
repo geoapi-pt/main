@@ -1,1 +1,431 @@
-{"CP4":"4435","CP3":"095","Distrito":"Porto","Concelho":"Gondomar","CP":"4435-095","Artéria":"Travessa das Alvarinhas","Localidade":"Rio Tinto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"RIO TINTO","locais":[{"id":"pt.ine.add.PTCONT.3560118","rua":"TV ALVARINHAS","casa":"15","coordenadas":[41.18276641549346,-8.574048923154704]},{"id":"pt.ine.add.PTCONT.3571473","rua":"TV ALVARINHAS","casa":"245","coordenadas":[41.18296414022466,-8.574145598278221]},{"id":"pt.ine.add.PTCONT.3571474","rua":"TV ALVARINHAS","casa":"245","coordenadas":[41.18296414022466,-8.574145598278221]},{"id":"pt.ine.add.PTCONT.3721417","rua":"TV ALVARINHAS","casa":"136","coordenadas":[41.18223088017202,-8.575165667452698]},{"id":"pt.ine.add.PTCONT.3721418","rua":"TV ALVARINHAS","casa":"136","coordenadas":[41.18223088017202,-8.575165667452698]},{"id":"pt.ine.add.PTCONT.3788595","rua":"TV ALVARINHAS","casa":"55","coordenadas":[41.182639034601664,-8.57439370658795]},{"id":"pt.ine.add.PTCONT.3831393","rua":"TV ALVARINHAS","casa":"133","coordenadas":[41.18227626648992,-8.575070624807397]},{"id":"pt.ine.add.PTCONT.3895254","rua":"TV ALVARINHAS","casa":"73","coordenadas":[41.18245808512615,-8.574618943667577]},{"id":"pt.ine.add.PTCONT.3895255","rua":"TV ALVARINHAS","casa":"73","coordenadas":[41.18245808512615,-8.574618943667577]},{"id":"pt.ine.add.PTCONT.3966577","rua":"TV ALVARINHAS","casa":"99","coordenadas":[41.182376225820285,-8.574832926863808]},{"id":"pt.ine.add.PTCONT.3977041","rua":"TV ALVARINHAS","casa":"57","coordenadas":[41.18261170267715,-8.574476952905123]},{"id":"pt.ine.add.PTCONT.4057305","rua":"TV ALVARINHAS","casa":"61","coordenadas":[41.182566408209915,-8.574548159993917]},{"id":"pt.ine.add.PTCONT.4097262","rua":"TV ALVARINHAS","casa":"95","coordenadas":[41.182412744876,-8.574702068691053]},{"id":"pt.ine.add.PTCONT.4097263","rua":"TV ALVARINHAS","casa":"97","coordenadas":[41.182412744876,-8.574702068691053]},{"id":"pt.ine.add.PTCONT.4142958","rua":"TV ALVARINHAS","casa":"25","coordenadas":[41.18261343735065,-8.574024059948728]},{"id":"pt.ine.add.PTCONT.4149386","rua":"TV ALVARINHAS","casa":"37","coordenadas":[41.18271166078709,-8.574239252839583]},{"id":"pt.ine.add.PTCONT.4292478","rua":"TV ALVARINHAS","casa":"123","coordenadas":[41.18233984377946,-8.574928030334677]},{"id":"pt.ine.add.PTCONT.4293748","rua":"TV ALVARINHAS","casa":"35","coordenadas":[41.182738946900194,-8.574167924554605]},{"id":"pt.ine.add.PTCONT.4307620","rua":"TV ALVARINHAS","casa":"245 CS6","coordenadas":[41.182565128684764,-8.574881870334897]},{"id":"pt.ine.add.PTCONT.4307621","rua":"TV ALVARINHAS","casa":"245","coordenadas":[41.182565128684764,-8.574881870334897]},{"id":"pt.ine.add.PTCONT.4307622","rua":"TV ALVARINHAS","casa":"245","coordenadas":[41.182565128684764,-8.574881870334897]},{"id":"pt.ine.add.PTCONT.4307623","rua":"TV ALVARINHAS","casa":"245","coordenadas":[41.182565128684764,-8.574881870334897]},{"id":"pt.ine.add.PTCONT.4322065","rua":"TV ALVARINHAS","casa":"45 49","coordenadas":[41.182675324891925,-8.57432243888005]},{"id":"pt.ine.add.PTCONT.4381566","rua":"TV ALVARINHAS","casa":"27","coordenadas":[41.182738946900194,-8.574167924554605]}],"ruas":["TV ALVARINHAS"],"centroide":[41.18255249924081,-8.574601958190838]}
+{
+  "CP": "4435-095",
+  "CP4": "4435",
+  "CP3": "095",
+  "Distrito": "Porto",
+  "Concelho": "Gondomar",
+  "Localidade": "Rio Tinto",
+  "Designação Postal": "RIO TINTO",
+  "partes": [
+    {
+      "Artéria": "Travessa das Alvarinhas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3560118",
+      "rua": "TV ALVARINHAS",
+      "casa": "15",
+      "coordenadas": [
+        41.18276641549346,
+        -8.574048923154704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3571473",
+      "rua": "TV ALVARINHAS",
+      "casa": "245",
+      "coordenadas": [
+        41.18296414022466,
+        -8.574145598278221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3571474",
+      "rua": "TV ALVARINHAS",
+      "casa": "245",
+      "coordenadas": [
+        41.18296414022466,
+        -8.574145598278221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3721417",
+      "rua": "TV ALVARINHAS",
+      "casa": "136",
+      "coordenadas": [
+        41.18223088017202,
+        -8.575165667452698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3721418",
+      "rua": "TV ALVARINHAS",
+      "casa": "136",
+      "coordenadas": [
+        41.18223088017202,
+        -8.575165667452698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3788595",
+      "rua": "TV ALVARINHAS",
+      "casa": "55",
+      "coordenadas": [
+        41.182639034601664,
+        -8.57439370658795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3831393",
+      "rua": "TV ALVARINHAS",
+      "casa": "133",
+      "coordenadas": [
+        41.18227626648992,
+        -8.575070624807397
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3895254",
+      "rua": "TV ALVARINHAS",
+      "casa": "73",
+      "coordenadas": [
+        41.18245808512615,
+        -8.574618943667577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3895255",
+      "rua": "TV ALVARINHAS",
+      "casa": "73",
+      "coordenadas": [
+        41.18245808512615,
+        -8.574618943667577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3966577",
+      "rua": "TV ALVARINHAS",
+      "casa": "99",
+      "coordenadas": [
+        41.182376225820285,
+        -8.574832926863808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3977041",
+      "rua": "TV ALVARINHAS",
+      "casa": "57",
+      "coordenadas": [
+        41.18261170267715,
+        -8.574476952905123
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057305",
+      "rua": "TV ALVARINHAS",
+      "casa": "61",
+      "coordenadas": [
+        41.182566408209915,
+        -8.574548159993917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4097262",
+      "rua": "TV ALVARINHAS",
+      "casa": "95",
+      "coordenadas": [
+        41.182412744876,
+        -8.574702068691053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4097263",
+      "rua": "TV ALVARINHAS",
+      "casa": "97",
+      "coordenadas": [
+        41.182412744876,
+        -8.574702068691053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4142958",
+      "rua": "TV ALVARINHAS",
+      "casa": "25",
+      "coordenadas": [
+        41.18261343735065,
+        -8.574024059948728
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4149386",
+      "rua": "TV ALVARINHAS",
+      "casa": "37",
+      "coordenadas": [
+        41.18271166078709,
+        -8.574239252839583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4292478",
+      "rua": "TV ALVARINHAS",
+      "casa": "123",
+      "coordenadas": [
+        41.18233984377946,
+        -8.574928030334677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4293748",
+      "rua": "TV ALVARINHAS",
+      "casa": "35",
+      "coordenadas": [
+        41.182738946900194,
+        -8.574167924554605
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307620",
+      "rua": "TV ALVARINHAS",
+      "casa": "245 CS6",
+      "coordenadas": [
+        41.182565128684764,
+        -8.574881870334897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307621",
+      "rua": "TV ALVARINHAS",
+      "casa": "245",
+      "coordenadas": [
+        41.182565128684764,
+        -8.574881870334897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307622",
+      "rua": "TV ALVARINHAS",
+      "casa": "245",
+      "coordenadas": [
+        41.182565128684764,
+        -8.574881870334897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307623",
+      "rua": "TV ALVARINHAS",
+      "casa": "245",
+      "coordenadas": [
+        41.182565128684764,
+        -8.574881870334897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4322065",
+      "rua": "TV ALVARINHAS",
+      "casa": "45 49",
+      "coordenadas": [
+        41.182675324891925,
+        -8.57432243888005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4381566",
+      "rua": "TV ALVARINHAS",
+      "casa": "27",
+      "coordenadas": [
+        41.182738946900194,
+        -8.574167924554605
+      ]
+    }
+  ],
+  "ruas": [
+    "TV ALVARINHAS"
+  ],
+  "centro": [
+    41.18259751019834,
+    -8.574594863700714
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.18241889496044,
+                -8.575006031573935
+              ],
+              [
+                41.182377113896344,
+                -8.575041506213658
+              ],
+              [
+                41.18234653292118,
+                -8.575054708906169
+              ],
+              [
+                41.182327152034944,
+                -8.575045639651465
+              ],
+              [
+                41.182318971237635,
+                -8.575014298449545
+              ],
+              [
+                41.182321990529246,
+                -8.574960685300407
+              ],
+              [
+                41.18233620990979,
+                -8.574884800204057
+              ],
+              [
+                41.18236162937927,
+                -8.574786643160493
+              ],
+              [
+                41.18239824893767,
+                -8.574666214169712
+              ],
+              [
+                41.182446068585,
+                -8.574523513231716
+              ],
+              [
+                41.1824903010599,
+                -8.574399038398562
+              ],
+              [
+                41.182530946362355,
+                -8.574292789670253
+              ],
+              [
+                41.18256800449238,
+                -8.574204767046785
+              ],
+              [
+                41.18260147544997,
+                -8.57413497052816
+              ],
+              [
+                41.182631359235124,
+                -8.574083400114379
+              ],
+              [
+                41.18265765584785,
+                -8.574050055805438
+              ],
+              [
+                41.18268036528813,
+                -8.574034937601342
+              ],
+              [
+                41.182699487555986,
+                -8.57403804550209
+              ],
+              [
+                41.18271930898928,
+                -8.574042275464048
+              ],
+              [
+                41.182739829588016,
+                -8.574047627487218
+              ],
+              [
+                41.1827610493522,
+                -8.5740541015716
+              ],
+              [
+                41.18278296828182,
+                -8.574061697717193
+              ],
+              [
+                41.182805586376894,
+                -8.574070415923998
+              ],
+              [
+                41.18282890363741,
+                -8.574080256192014
+              ],
+              [
+                41.18285292006336,
+                -8.574091218521243
+              ],
+              [
+                41.18287763565476,
+                -8.574103302911682
+              ],
+              [
+                41.182893027241924,
+                -8.574125381004203
+              ],
+              [
+                41.182899094824855,
+                -8.574157452798804
+              ],
+              [
+                41.182895838403546,
+                -8.574199518295485
+              ],
+              [
+                41.182883257978,
+                -8.574251577494246
+              ],
+              [
+                41.18286135354822,
+                -8.574313630395089
+              ],
+              [
+                41.1828301251142,
+                -8.574385676998013
+              ],
+              [
+                41.18278957267595,
+                -8.574467717303017
+              ],
+              [
+                41.182739696233476,
+                -8.574559751310101
+              ],
+              [
+                41.18269083171329,
+                -8.574644715396266
+              ],
+              [
+                41.1826429791154,
+                -8.57472260956151
+              ],
+              [
+                41.18259613843981,
+                -8.574793433805834
+              ],
+              [
+                41.18255030968651,
+                -8.57485718812924
+              ],
+              [
+                41.18250549285552,
+                -8.574913872531724
+              ],
+              [
+                41.182461687946834,
+                -8.574963487013289
+              ],
+              [
+                41.18241889496044,
+                -8.575006031573935
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.182628000385115,
+    -8.57445322383385
+  ],
+  "centroDeMassa": [
+    41.18259751019834,
+    -8.574594863700714
+  ]
+}

@@ -1,1 +1,368 @@
-{"CP4":"5400","CP3":"355","Distrito":"Vila Real","Concelho":"Chaves","CP":"5400-355","Artéria":"Rua Longras","Localidade":"Chaves","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CHAVES","locais":[{"id":"pt.ine.add.PTCONT.5294121","rua":"R DAS LONGRAS","casa":"22 A","coordenadas":[41.739356672348144,-7.467304887415636]},{"id":"pt.ine.add.PTCONT.5295407","rua":"R DAS LONGRAS","casa":"26","coordenadas":[41.73960051582079,-7.467434598702519]},{"id":"pt.ine.add.PTCONT.5301310","rua":"R DAS LONGRAS","casa":"30","coordenadas":[41.74034865884877,-7.467583145787765]},{"id":"pt.ine.add.PTCONT.5305991","rua":"R LONGRAS","casa":"22","coordenadas":[41.73932994234592,-7.46735324698674]},{"id":"pt.ine.add.PTCONT.5307671","rua":"R LONGRAS","casa":"86","coordenadas":[41.74042982387771,-7.467606349856231]},{"id":"pt.ine.add.PTCONT.5321014","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.74028536028968,-7.467535715201058]},{"id":"pt.ine.add.PTCONT.5321015","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.73969068375267,-7.4674577093517165]},{"id":"pt.ine.add.PTCONT.5322139","rua":"R DAS LONGRAS","casa":"20","coordenadas":[41.739276343004164,-7.467425925735227]},{"id":"pt.ine.add.PTCONT.5323242","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.739685457518625,-7.4665561934080245]},{"id":"pt.ine.add.PTCONT.5323468","rua":"R LONGRAS","casa":"102","coordenadas":[41.74059201468332,-7.467628717399248]},{"id":"pt.ine.add.PTCONT.5331897","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.74023148235435,-7.467560313625582]},{"id":"pt.ine.add.PTCONT.5345457","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.73977163990672,-7.4674448523478985]},{"id":"pt.ine.add.PTCONT.5352466","rua":"R DAS LONGRAS","casa":"66","coordenadas":[41.74010530298836,-7.467537574508688]},{"id":"pt.ine.add.PTCONT.5357124","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.74018653765413,-7.467572798742921]},{"id":"pt.ine.add.PTCONT.5357913","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.7391512080678,-7.467583488897801]},{"id":"pt.ine.add.PTCONT.5363196","rua":"R DAS LONGRAS","casa":"62","coordenadas":[41.74004221330292,-7.46752620498244]},{"id":"pt.ine.add.PTCONT.5367291","rua":"R DAS LONGRAS","casa":"102 A","coordenadas":[41.74067311008308,-7.467639901211005]},{"id":"pt.ine.add.PTCONT.5368660","rua":"R DAS LONGRAS","casa":"100","coordenadas":[41.74051992214625,-7.467617440659194]},{"id":"pt.ine.add.PTCONT.5377778","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.73997012075044,-7.467514928445365]},{"id":"pt.ine.add.PTCONT.5385331","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.739579584174834,-7.466929936549572]},{"id":"pt.ine.add.PTCONT.5395152","rua":"R DAS LONGRAS","casa":"68","coordenadas":[41.740150108423734,-7.467501048783323]},{"id":"pt.ine.add.PTCONT.5401437","rua":"R DAS LONGRAS","casa":"28","coordenadas":[41.73964546051071,-7.4674221136078485]},{"id":"pt.ine.add.PTCONT.5409574","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.739843802103444,-7.467468149017399]},{"id":"pt.ine.add.PTCONT.5416539","rua":"R DAS LONGRAS","casa":"","coordenadas":[41.73921374074854,-7.467498697330361]}],"ruas":["R DAS LONGRAS","R LONGRAS"],"centroide":[41.739933302824205,-7.4674437061401395]}
+{
+  "CP": "5400-355",
+  "CP4": "5400",
+  "CP3": "355",
+  "Distrito": "Vila Real",
+  "Concelho": "Chaves",
+  "Localidade": "Chaves",
+  "Designação Postal": "CHAVES",
+  "partes": [
+    {
+      "Artéria": "Rua Longras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5294121",
+      "rua": "R DAS LONGRAS",
+      "casa": "22 A",
+      "coordenadas": [
+        41.739356672348144,
+        -7.467304887415636
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5295407",
+      "rua": "R DAS LONGRAS",
+      "casa": "26",
+      "coordenadas": [
+        41.73960051582079,
+        -7.467434598702519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5301310",
+      "rua": "R DAS LONGRAS",
+      "casa": "30",
+      "coordenadas": [
+        41.74034865884877,
+        -7.467583145787765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5305991",
+      "rua": "R LONGRAS",
+      "casa": "22",
+      "coordenadas": [
+        41.73932994234592,
+        -7.46735324698674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5307671",
+      "rua": "R LONGRAS",
+      "casa": "86",
+      "coordenadas": [
+        41.74042982387771,
+        -7.467606349856231
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5321014",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.74028536028968,
+        -7.467535715201058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5321015",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.73969068375267,
+        -7.4674577093517165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5322139",
+      "rua": "R DAS LONGRAS",
+      "casa": "20",
+      "coordenadas": [
+        41.739276343004164,
+        -7.467425925735227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5323242",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.739685457518625,
+        -7.4665561934080245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5323468",
+      "rua": "R LONGRAS",
+      "casa": "102",
+      "coordenadas": [
+        41.74059201468332,
+        -7.467628717399248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5331897",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.74023148235435,
+        -7.467560313625582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5345457",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.73977163990672,
+        -7.4674448523478985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5352466",
+      "rua": "R DAS LONGRAS",
+      "casa": "66",
+      "coordenadas": [
+        41.74010530298836,
+        -7.467537574508688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5357124",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.74018653765413,
+        -7.467572798742921
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5357913",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.7391512080678,
+        -7.467583488897801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5363196",
+      "rua": "R DAS LONGRAS",
+      "casa": "62",
+      "coordenadas": [
+        41.74004221330292,
+        -7.46752620498244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5367291",
+      "rua": "R DAS LONGRAS",
+      "casa": "102 A",
+      "coordenadas": [
+        41.74067311008308,
+        -7.467639901211005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5368660",
+      "rua": "R DAS LONGRAS",
+      "casa": "100",
+      "coordenadas": [
+        41.74051992214625,
+        -7.467617440659194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5377778",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.73997012075044,
+        -7.467514928445365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5385331",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.739579584174834,
+        -7.466929936549572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5395152",
+      "rua": "R DAS LONGRAS",
+      "casa": "68",
+      "coordenadas": [
+        41.740150108423734,
+        -7.467501048783323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5401437",
+      "rua": "R DAS LONGRAS",
+      "casa": "28",
+      "coordenadas": [
+        41.73964546051071,
+        -7.4674221136078485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5409574",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.739843802103444,
+        -7.467468149017399
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5416539",
+      "rua": "R DAS LONGRAS",
+      "casa": "",
+      "coordenadas": [
+        41.73921374074854,
+        -7.467498697330361
+      ]
+    }
+  ],
+  "ruas": [
+    "R DAS LONGRAS",
+    "R LONGRAS"
+  ],
+  "centro": [
+    41.739912159075445,
+    -7.4670980473095145
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.7400072779514,
+                -7.467615220823978
+              ],
+              [
+                41.73981704019949,
+                -7.467608169284828
+              ],
+              [
+                41.73965892981424,
+                -7.467585947696043
+              ],
+              [
+                41.73953294679564,
+                -7.467548556057625
+              ],
+              [
+                41.73943909114371,
+                -7.467495994369573
+              ],
+              [
+                41.73937736285843,
+                -7.467428262631886
+              ],
+              [
+                41.73934776193981,
+                -7.467345360844566
+              ],
+              [
+                41.73935028838784,
+                -7.467247289007611
+              ],
+              [
+                41.739384942202534,
+                -7.467134047121023
+              ],
+              [
+                41.739451723383894,
+                -7.467005635184802
+              ],
+              [
+                41.7395255889889,
+                -7.4669102076750296
+              ],
+              [
+                41.739606539017544,
+                -7.466847764591705
+              ],
+              [
+                41.739694573469855,
+                -7.466818305934831
+              ],
+              [
+                41.73978969234581,
+                -7.466821831704407
+              ],
+              [
+                41.739891895645414,
+                -7.466858341900432
+              ],
+              [
+                41.740001183368676,
+                -7.466927836522905
+              ],
+              [
+                41.74011755551558,
+                -7.4670303155718285
+              ],
+              [
+                41.74024101208613,
+                -7.467165779047201
+              ],
+              [
+                41.740325256866385,
+                -7.467283428145757
+              ],
+              [
+                41.74037028985632,
+                -7.4673832628675
+              ],
+              [
+                41.74037611105595,
+                -7.467465283212427
+              ],
+              [
+                41.74034272046528,
+                -7.467529489180537
+              ],
+              [
+                41.74027011808429,
+                -7.467575880771832
+              ],
+              [
+                41.740158303913,
+                -7.4676044579863134
+              ],
+              [
+                41.7400072779514,
+                -7.467615220823978
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.73983659188983,
+    -7.467259861172277
+  ],
+  "centroDeMassa": [
+    41.739912159075445,
+    -7.4670980473095145
+  ]
+}

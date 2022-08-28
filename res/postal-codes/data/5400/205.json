@@ -1,1 +1,395 @@
-{"CP4":"5400","CP3":"205","Distrito":"Vila Real","Concelho":"Chaves","CP":"5400-205","Artéria":"Rua Contador de Argote","Localidade":"Chaves","Local":"Bairro Casas dos Montes","Troço":"","Porta":"","Cliente":"","Designação Postal":"CHAVES","locais":[{"id":"pt.ine.add.PTCONT.5295413","rua":"R CONTADOR DE ARGOTE","casa":"19","coordenadas":[41.737344058729555,-7.482170990280518]},{"id":"pt.ine.add.PTCONT.5296189","rua":"R CONTADOR DE ARGOTE","casa":"27","coordenadas":[41.73772258889499,-7.4822392912244355]},{"id":"pt.ine.add.PTCONT.5304412","rua":"R CONTADOR DE ARGOTE","casa":"35","coordenadas":[41.738105745564035,-7.483124949885141]},{"id":"pt.ine.add.PTCONT.5304421","rua":"R CONTADOR DE ARGOTE","casa":"5","coordenadas":[41.73679099873486,-7.481491412464281]},{"id":"pt.ine.add.PTCONT.5313974","rua":"R CONTADOR DE ARGOTE","casa":"13","coordenadas":[41.737035644367666,-7.481765409625852]},{"id":"pt.ine.add.PTCONT.5338139","rua":"R CONTADOR DE ARGOTE","casa":"15","coordenadas":[41.73709013866246,-7.481849002164588]},{"id":"pt.ine.add.PTCONT.5351821","rua":"R CONTADOR DE ARGOTE","casa":"23","coordenadas":[41.73756940349265,-7.4822167968771]},{"id":"pt.ine.add.PTCONT.5357293","rua":"R CONTADOR DE ARGOTE","casa":"29","coordenadas":[41.73779597355267,-7.482478961925953]},{"id":"pt.ine.add.PTCONT.5366213","rua":"R CONTADOR DE ARGOTE","casa":"9","coordenadas":[41.73692686005078,-7.481634284171979]},{"id":"pt.ine.add.PTCONT.5371519","rua":"R CONTADOR DE ARGOTE","casa":"","coordenadas":[41.736760512047525,-7.480878680713978]},{"id":"pt.ine.add.PTCONT.5371520","rua":"R CONTADOR DE ARGOTE","casa":"31","coordenadas":[41.73816482000895,-7.482427156328222]},{"id":"pt.ine.add.PTCONT.5381430","rua":"R CONTADOR DE ARGOTE","casa":"33","coordenadas":[41.73798734776307,-7.482885731356819]},{"id":"pt.ine.add.PTCONT.5396436","rua":"R CONTADOR DE ARGOTE","casa":"7","coordenadas":[41.736863430862726,-7.48156280274518]},{"id":"pt.ine.add.PTCONT.5399143","rua":"R CONTADOR DE ARGOTE","casa":"37","coordenadas":[41.73820593316145,-7.483328290865652]},{"id":"pt.ine.add.PTCONT.5399155","rua":"R CONTADOR DE ARGOTE","casa":"3","coordenadas":[41.73650924963239,-7.48102546708504]},{"id":"pt.ine.add.PTCONT.5404624","rua":"R CONTADOR DE ARGOTE","casa":"17","coordenadas":[41.73713556188198,-7.4819206660170865]},{"id":"pt.ine.add.PTCONT.5407986","rua":"R CONTADOR DE ARGOTE","casa":"11","coordenadas":[41.736981354440196,-7.481717876458742]},{"id":"pt.ine.add.PTCONT.5414662","rua":"R CONTADOR DE ARGOTE","casa":"16","coordenadas":[41.73713276791994,-7.481427855372615]},{"id":"pt.ine.add.PTCONT.5418833","rua":"R CONTADOR DE ARGOTE","casa":"18","coordenadas":[41.73724148431078,-7.481546961098002]},{"id":"pt.ine.add.PTCONT.5425683","rua":"R CONTADOR DE ARGOTE","casa":"31","coordenadas":[41.73788749957753,-7.482742491333034]}],"ruas":["R CONTADOR DE ARGOTE"],"centroide":[41.73733494074097,-7.481983820350588]}
+{
+  "CP": "5400-205",
+  "CP4": "5400",
+  "CP3": "205",
+  "Distrito": "Vila Real",
+  "Concelho": "Chaves",
+  "Localidade": "Chaves",
+  "Designação Postal": "CHAVES",
+  "partes": [
+    {
+      "Artéria": "Rua Contador de Argote",
+      "Local": "Bairro Casas dos Montes",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5295413",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "19",
+      "coordenadas": [
+        41.737344058729555,
+        -7.482170990280518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5296189",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "27",
+      "coordenadas": [
+        41.73772258889499,
+        -7.4822392912244355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5304412",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "35",
+      "coordenadas": [
+        41.738105745564035,
+        -7.483124949885141
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5304421",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "5",
+      "coordenadas": [
+        41.73679099873486,
+        -7.481491412464281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5313974",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "13",
+      "coordenadas": [
+        41.737035644367666,
+        -7.481765409625852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5338139",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "15",
+      "coordenadas": [
+        41.73709013866246,
+        -7.481849002164588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5351821",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "23",
+      "coordenadas": [
+        41.73756940349265,
+        -7.4822167968771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5357293",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "29",
+      "coordenadas": [
+        41.73779597355267,
+        -7.482478961925953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5366213",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "9",
+      "coordenadas": [
+        41.73692686005078,
+        -7.481634284171979
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5371519",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "",
+      "coordenadas": [
+        41.736760512047525,
+        -7.480878680713978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5371520",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "31",
+      "coordenadas": [
+        41.73816482000895,
+        -7.482427156328222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5381430",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "33",
+      "coordenadas": [
+        41.73798734776307,
+        -7.482885731356819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5396436",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "7",
+      "coordenadas": [
+        41.736863430862726,
+        -7.48156280274518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5399143",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "37",
+      "coordenadas": [
+        41.73820593316145,
+        -7.483328290865652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5399155",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "3",
+      "coordenadas": [
+        41.73650924963239,
+        -7.48102546708504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5404624",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "17",
+      "coordenadas": [
+        41.73713556188198,
+        -7.4819206660170865
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5407986",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "11",
+      "coordenadas": [
+        41.736981354440196,
+        -7.481717876458742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5414662",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "16",
+      "coordenadas": [
+        41.73713276791994,
+        -7.481427855372615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5418833",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "18",
+      "coordenadas": [
+        41.73724148431078,
+        -7.481546961098002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5425683",
+      "rua": "R CONTADOR DE ARGOTE",
+      "casa": "31",
+      "coordenadas": [
+        41.73788749957753,
+        -7.482742491333034
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONTADOR DE ARGOTE"
+  ],
+  "centro": [
+    41.73735759139692,
+    -7.482103485789815
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.736667733502536,
+                -7.481287561360863
+              ],
+              [
+                41.736632514864716,
+                -7.481229318188458
+              ],
+              [
+                41.73660562453187,
+                -7.481176061875556
+              ],
+              [
+                41.73658706250399,
+                -7.481127792422156
+              ],
+              [
+                41.73657682878107,
+                -7.481084509828259
+              ],
+              [
+                41.736574923363115,
+                -7.481046214093865
+              ],
+              [
+                41.73658134625012,
+                -7.481012905218974
+              ],
+              [
+                41.73659609744209,
+                -7.480984583203586
+              ],
+              [
+                41.736619176939016,
+                -7.4809612480477
+              ],
+              [
+                41.7366505847409,
+                -7.480942899751318
+              ],
+              [
+                41.73670000887945,
+                -7.480951039923456
+              ],
+              [
+                41.73676744935467,
+                -7.480985668564114
+              ],
+              [
+                41.73685290616655,
+                -7.481046785673293
+              ],
+              [
+                41.736956379315075,
+                -7.48113439125099
+              ],
+              [
+                41.73707786880027,
+                -7.481248485297209
+              ],
+              [
+                41.73721737462213,
+                -7.48138906781195
+              ],
+              [
+                41.73737489678065,
+                -7.481556138795209
+              ],
+              [
+                41.73755043527582,
+                -7.481749698246991
+              ],
+              [
+                41.73770467385211,
+                -7.481933142994446
+              ],
+              [
+                41.73783761250951,
+                -7.482106473037576
+              ],
+              [
+                41.737949251248025,
+                -7.482269688376381
+              ],
+              [
+                41.73803959006764,
+                -7.482422789010861
+              ],
+              [
+                41.73810862896838,
+                -7.4825657749410155
+              ],
+              [
+                41.738156367950225,
+                -7.482698646166844
+              ],
+              [
+                41.738182807013175,
+                -7.482821402688348
+              ],
+              [
+                41.738187946157225,
+                -7.482934044505527
+              ],
+              [
+                41.738170334557864,
+                -7.483003904870536
+              ],
+              [
+                41.73812997221509,
+                -7.483030983783378
+              ],
+              [
+                41.73806685912888,
+                -7.48301528124405
+              ],
+              [
+                41.73798099529925,
+                -7.4829567972525535
+              ],
+              [
+                41.737872380726195,
+                -7.482855531808888
+              ],
+              [
+                41.73774101540972,
+                -7.482711484913056
+              ],
+              [
+                41.73758689934982,
+                -7.482524656565053
+              ],
+              [
+                41.73741003254649,
+                -7.4822950467648806
+              ],
+              [
+                41.73725087176386,
+                -7.48208685779318
+              ],
+              [
+                41.73710941700192,
+                -7.481900089649951
+              ],
+              [
+                41.73698566826066,
+                -7.481734742335192
+              ],
+              [
+                41.73687962554009,
+                -7.481590815848903
+              ],
+              [
+                41.736791288840216,
+                -7.481468310191085
+              ],
+              [
+                41.73672065816103,
+                -7.481367225361739
+              ],
+              [
+                41.736667733502536,
+                -7.481287561360863
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.73728630271704,
+    -7.481830201491434
+  ],
+  "centroDeMassa": [
+    41.73735759139692,
+    -7.482103485789815
+  ]
+}

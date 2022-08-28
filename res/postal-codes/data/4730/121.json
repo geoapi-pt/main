@@ -1,1 +1,631 @@
-{"CP4":"4730","CP3":"121","Distrito":"Braga","Concelho":"Vila Verde","CP":"4730-121","Artéria":"Avenida do Carvalhal","Localidade":"Coucieiro","Local":"Quintela","Troço":"","Porta":"","Cliente":"","Designação Postal":"COUCIEIRO","locais":[{"id":"pt.ine.add.PTCONT.493119","rua":"TV TOJAL","casa":"10","coordenadas":[41.69013223792466,-8.404142390535045]},{"id":"pt.ine.add.PTCONT.508337","rua":"R QUINTELA","casa":"36","coordenadas":[41.689622459486685,-8.40268683678627]},{"id":"pt.ine.add.PTCONT.511475","rua":"R QUINTELA","casa":"46","coordenadas":[41.689250748824605,-8.403778342099246]},{"id":"pt.ine.add.PTCONT.511476","rua":"R QUINTELA","casa":"51","coordenadas":[41.68905156865048,-8.40424595880955]},{"id":"pt.ine.add.PTCONT.520458","rua":"AV CARVALHAL","casa":"117","coordenadas":[41.69099754306165,-8.399881783314052]},{"id":"pt.ine.add.PTCONT.522747","rua":"R QUINTELA","casa":"37","coordenadas":[41.68944303809612,-8.402409819721667]},{"id":"pt.ine.add.PTCONT.529675","rua":"R VEIGUINHA","casa":"2","coordenadas":[41.68907183852498,-8.403285117241298]},{"id":"pt.ine.add.PTCONT.532836","rua":"AV CARVALHAL","casa":"11 1","coordenadas":[41.6908719406666,-8.399689073675408]},{"id":"pt.ine.add.PTCONT.554576","rua":"R QUINTELA","casa":"25","coordenadas":[41.68974195083504,-8.401642317020315]},{"id":"pt.ine.add.PTCONT.556540","rua":"TV QUINTELA","casa":"5","coordenadas":[41.689872640797496,-8.399648912872092]},{"id":"pt.ine.add.PTCONT.572254","rua":"TV TOJAL","casa":"8","coordenadas":[41.6898529326012,-8.404225300271422]},{"id":"pt.ine.add.PTCONT.590936","rua":"R QUINTELA","casa":"35","coordenadas":[41.689263447305706,-8.402204873208623]},{"id":"pt.ine.add.PTCONT.596103","rua":"AV CARVALHAL","casa":"63","coordenadas":[41.68492859870043,-8.400120950601105]},{"id":"pt.ine.add.PTCONT.602464","rua":"R QUINTELA","casa":"39","coordenadas":[41.68922594114986,-8.402841332360518]},{"id":"pt.ine.add.PTCONT.618716","rua":"R ENGENHO","casa":"4","coordenadas":[41.69079751226531,-8.400721790214524]},{"id":"pt.ine.add.PTCONT.618717","rua":"R QUINTELA","casa":"23","coordenadas":[41.689779086270654,-8.401162002841785]},{"id":"pt.ine.add.PTCONT.632525","rua":"TV ENGENHO","casa":"12","coordenadas":[41.69185677900369,-8.402071535958974]},{"id":"pt.ine.add.PTCONT.643085","rua":"AV CARVALHAL","casa":"91","coordenadas":[41.68860334842262,-8.399559593137019]},{"id":"pt.ine.add.PTCONT.655622","rua":"R VEIGUINHA","casa":"4","coordenadas":[41.68877455509757,-8.403355942578052]},{"id":"pt.ine.add.PTCONT.673321","rua":"R TOJAL","casa":"22","coordenadas":[41.68959485784169,-8.40674666962221]},{"id":"pt.ine.add.PTCONT.692170","rua":"R QUINTELA","casa":"38","coordenadas":[41.689495875594275,-8.40291452990726]},{"id":"pt.ine.add.PTCONT.697125","rua":"AV CARVALHAL","casa":"39","coordenadas":[41.68178552381909,-8.400480273931297]},{"id":"pt.ine.add.PTCONT.711896","rua":"R QUINTELA","casa":"33","coordenadas":[41.689282044543994,-8.401952706630787]},{"id":"pt.ine.add.PTCONT.715031","rua":"R QUINTELA","casa":"14","coordenadas":[41.69019495178198,-8.40043100986387]},{"id":"pt.ine.add.PTCONT.715035","rua":"R QUINTELA","casa":"7","coordenadas":[41.68965519136224,-8.400236588212378]},{"id":"pt.ine.add.PTCONT.718076","rua":"TV TOJAL","casa":"12","coordenadas":[41.69038405122686,-8.404263565793734]},{"id":"pt.ine.add.PTCONT.750983","rua":"AV CARVALHAL","casa":"109","coordenadas":[41.690602672337796,-8.399327605919096]},{"id":"pt.ine.add.PTCONT.759603","rua":"R FUNDEGO","casa":"13","coordenadas":[41.688735199737934,-8.40477313733193]},{"id":"pt.ine.add.PTCONT.789675","rua":"R QUINTELA","casa":"27","coordenadas":[41.689641873558394,-8.402086333352388]},{"id":"pt.ine.add.PTCONT.792680","rua":"R ENGENHO","casa":"3","coordenadas":[41.690706778095816,-8.401021711359336]},{"id":"pt.ine.add.PTCONT.795841","rua":"R QUINTELA","casa":"42","coordenadas":[41.689332825722495,-8.403334255754585]},{"id":"pt.ine.add.PTCONT.848315","rua":"R FUNDEGO","casa":"17","coordenadas":[41.68897803738852,-8.40488226305487]}],"ruas":["TV TOJAL","R QUINTELA","AV CARVALHAL","R VEIGUINHA","TV QUINTELA","R ENGENHO","TV ENGENHO","R TOJAL","R FUNDEGO"],"centroide":[41.689372581074444,-8.402104589062125]}
+{
+  "CP": "4730-121",
+  "CP4": "4730",
+  "CP3": "121",
+  "Distrito": "Braga",
+  "Concelho": "Vila Verde",
+  "Localidade": "Coucieiro",
+  "Designação Postal": "COUCIEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua de Quintela",
+      "Local": "Quintela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Veiguinha",
+      "Local": "Quintela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Quintela",
+      "Local": "Quintela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Engenho",
+      "Local": "Quintela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Engenho",
+      "Local": "Quintela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Tojal",
+      "Local": "Tojal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Tojal",
+      "Local": "Tojal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Fundego",
+      "Local": "Fundego",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida do Carvalhal",
+      "Local": "Quintela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.493119",
+      "rua": "TV TOJAL",
+      "casa": "10",
+      "coordenadas": [
+        41.69013223792466,
+        -8.404142390535045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.508337",
+      "rua": "R QUINTELA",
+      "casa": "36",
+      "coordenadas": [
+        41.689622459486685,
+        -8.40268683678627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.511475",
+      "rua": "R QUINTELA",
+      "casa": "46",
+      "coordenadas": [
+        41.689250748824605,
+        -8.403778342099246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.511476",
+      "rua": "R QUINTELA",
+      "casa": "51",
+      "coordenadas": [
+        41.68905156865048,
+        -8.40424595880955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.520458",
+      "rua": "AV CARVALHAL",
+      "casa": "117",
+      "coordenadas": [
+        41.69099754306165,
+        -8.399881783314052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.522747",
+      "rua": "R QUINTELA",
+      "casa": "37",
+      "coordenadas": [
+        41.68944303809612,
+        -8.402409819721667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.529675",
+      "rua": "R VEIGUINHA",
+      "casa": "2",
+      "coordenadas": [
+        41.68907183852498,
+        -8.403285117241298
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.532836",
+      "rua": "AV CARVALHAL",
+      "casa": "11 1",
+      "coordenadas": [
+        41.6908719406666,
+        -8.399689073675408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.554576",
+      "rua": "R QUINTELA",
+      "casa": "25",
+      "coordenadas": [
+        41.68974195083504,
+        -8.401642317020315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.556540",
+      "rua": "TV QUINTELA",
+      "casa": "5",
+      "coordenadas": [
+        41.689872640797496,
+        -8.399648912872092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.572254",
+      "rua": "TV TOJAL",
+      "casa": "8",
+      "coordenadas": [
+        41.6898529326012,
+        -8.404225300271422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.590936",
+      "rua": "R QUINTELA",
+      "casa": "35",
+      "coordenadas": [
+        41.689263447305706,
+        -8.402204873208623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.596103",
+      "rua": "AV CARVALHAL",
+      "casa": "63",
+      "coordenadas": [
+        41.68492859870043,
+        -8.400120950601105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.602464",
+      "rua": "R QUINTELA",
+      "casa": "39",
+      "coordenadas": [
+        41.68922594114986,
+        -8.402841332360518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.618716",
+      "rua": "R ENGENHO",
+      "casa": "4",
+      "coordenadas": [
+        41.69079751226531,
+        -8.400721790214524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.618717",
+      "rua": "R QUINTELA",
+      "casa": "23",
+      "coordenadas": [
+        41.689779086270654,
+        -8.401162002841785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.632525",
+      "rua": "TV ENGENHO",
+      "casa": "12",
+      "coordenadas": [
+        41.69185677900369,
+        -8.402071535958974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.643085",
+      "rua": "AV CARVALHAL",
+      "casa": "91",
+      "coordenadas": [
+        41.68860334842262,
+        -8.399559593137019
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.655622",
+      "rua": "R VEIGUINHA",
+      "casa": "4",
+      "coordenadas": [
+        41.68877455509757,
+        -8.403355942578052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.673321",
+      "rua": "R TOJAL",
+      "casa": "22",
+      "coordenadas": [
+        41.68959485784169,
+        -8.40674666962221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.692170",
+      "rua": "R QUINTELA",
+      "casa": "38",
+      "coordenadas": [
+        41.689495875594275,
+        -8.40291452990726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.697125",
+      "rua": "AV CARVALHAL",
+      "casa": "39",
+      "coordenadas": [
+        41.68178552381909,
+        -8.400480273931297
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.711896",
+      "rua": "R QUINTELA",
+      "casa": "33",
+      "coordenadas": [
+        41.689282044543994,
+        -8.401952706630787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.715031",
+      "rua": "R QUINTELA",
+      "casa": "14",
+      "coordenadas": [
+        41.69019495178198,
+        -8.40043100986387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.715035",
+      "rua": "R QUINTELA",
+      "casa": "7",
+      "coordenadas": [
+        41.68965519136224,
+        -8.400236588212378
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.718076",
+      "rua": "TV TOJAL",
+      "casa": "12",
+      "coordenadas": [
+        41.69038405122686,
+        -8.404263565793734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.750983",
+      "rua": "AV CARVALHAL",
+      "casa": "109",
+      "coordenadas": [
+        41.690602672337796,
+        -8.399327605919096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.759603",
+      "rua": "R FUNDEGO",
+      "casa": "13",
+      "coordenadas": [
+        41.688735199737934,
+        -8.40477313733193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.789675",
+      "rua": "R QUINTELA",
+      "casa": "27",
+      "coordenadas": [
+        41.689641873558394,
+        -8.402086333352388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.792680",
+      "rua": "R ENGENHO",
+      "casa": "3",
+      "coordenadas": [
+        41.690706778095816,
+        -8.401021711359336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.795841",
+      "rua": "R QUINTELA",
+      "casa": "42",
+      "coordenadas": [
+        41.689332825722495,
+        -8.403334255754585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.848315",
+      "rua": "R FUNDEGO",
+      "casa": "17",
+      "coordenadas": [
+        41.68897803738852,
+        -8.40488226305487
+      ]
+    }
+  ],
+  "ruas": [
+    "TV TOJAL",
+    "R QUINTELA",
+    "AV CARVALHAL",
+    "R VEIGUINHA",
+    "TV QUINTELA",
+    "R ENGENHO",
+    "TV ENGENHO",
+    "R TOJAL",
+    "R FUNDEGO"
+  ],
+  "centro": [
+    41.686821151411394,
+    -8.403037137770653
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.686178274206796,
+                -8.404005121507437
+              ],
+              [
+                41.685202107453975,
+                -8.403221822046072
+              ],
+              [
+                41.684454490054684,
+                -8.402522049379968
+              ],
+              [
+                41.68393542200893,
+                -8.401905803509123
+              ],
+              [
+                41.6836449033167,
+                -8.401373084433539
+              ],
+              [
+                41.68358293397801,
+                -8.400923892153214
+              ],
+              [
+                41.68374951399285,
+                -8.40055822666815
+              ],
+              [
+                41.68414464336122,
+                -8.400276087978344
+              ],
+              [
+                41.68476832208313,
+                -8.4000774760838
+              ],
+              [
+                41.685620550158575,
+                -8.399962390984514
+              ],
+              [
+                41.68639748916076,
+                -8.39985806672236
+              ],
+              [
+                41.68709913908969,
+                -8.399764503297337
+              ],
+              [
+                41.687725499945365,
+                -8.399681700709444
+              ],
+              [
+                41.68827657172778,
+                -8.399609658958681
+              ],
+              [
+                41.68875235443695,
+                -8.39954837804505
+              ],
+              [
+                41.68915284807286,
+                -8.399497857968548
+              ],
+              [
+                41.68947805263551,
+                -8.399458098729177
+              ],
+              [
+                41.689727968124906,
+                -8.399429100326937
+              ],
+              [
+                41.689950851495766,
+                -8.399409374658669
+              ],
+              [
+                41.690146702748095,
+                -8.399398921724373
+              ],
+              [
+                41.69031552188188,
+                -8.399397741524051
+              ],
+              [
+                41.690457308897116,
+                -8.3994058340577
+              ],
+              [
+                41.69057206379383,
+                -8.399423199325321
+              ],
+              [
+                41.690659786572006,
+                -8.399449837326916
+              ],
+              [
+                41.69072047723164,
+                -8.399485748062482
+              ],
+              [
+                41.69075413577275,
+                -8.399530931532022
+              ],
+              [
+                41.690785549533636,
+                -8.399573478155972
+              ],
+              [
+                41.690814718514304,
+                -8.399613387934334
+              ],
+              [
+                41.69084164271476,
+                -8.399650660867108
+              ],
+              [
+                41.690866322135,
+                -8.39968529695429
+              ],
+              [
+                41.690888756775024,
+                -8.399717296195886
+              ],
+              [
+                41.690908946634835,
+                -8.399746658591896
+              ],
+              [
+                41.69092689171443,
+                -8.399773384142314
+              ],
+              [
+                41.69094259201381,
+                -8.399797472847146
+              ],
+              [
+                41.69096975533736,
+                -8.39985276534895
+              ],
+              [
+                41.691008381685094,
+                -8.399939261647727
+              ],
+              [
+                41.69105847105699,
+                -8.400056961743477
+              ],
+              [
+                41.69112002345305,
+                -8.400205865636199
+              ],
+              [
+                41.691193038873294,
+                -8.400385973325895
+              ],
+              [
+                41.69127751731771,
+                -8.400597284812564
+              ],
+              [
+                41.69137345878629,
+                -8.400839800096206
+              ],
+              [
+                41.691480863279054,
+                -8.401113519176821
+              ],
+              [
+                41.691539499692055,
+                -8.401426072335846
+              ],
+              [
+                41.691549368025306,
+                -8.401777459573285
+              ],
+              [
+                41.69151046827881,
+                -8.402167680889134
+              ],
+              [
+                41.69142280045256,
+                -8.402596736283394
+              ],
+              [
+                41.691286364546556,
+                -8.403064625756066
+              ],
+              [
+                41.691101160560805,
+                -8.403571349307146
+              ],
+              [
+                41.69086718849531,
+                -8.40411690693664
+              ],
+              [
+                41.69058444835007,
+                -8.404701298644543
+              ],
+              [
+                41.69021502987888,
+                -8.40511472895629
+              ],
+              [
+                41.68975893308173,
+                -8.40535719787188
+              ],
+              [
+                41.68921615795864,
+                -8.405428705391309
+              ],
+              [
+                41.688586704509596,
+                -8.405329251514576
+              ],
+              [
+                41.68787057273461,
+                -8.40505883624169
+              ],
+              [
+                41.687067762633674,
+                -8.404617459572641
+              ],
+              [
+                41.686178274206796,
+                -8.404005121507437
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.689187523593304,
+    -8.401108076508294
+  ],
+  "centroDeMassa": [
+    41.686821151411394,
+    -8.403037137770653
+  ]
+}

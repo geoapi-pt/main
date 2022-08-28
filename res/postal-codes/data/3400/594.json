@@ -1,1 +1,530 @@
-{"CP4":"3400","CP3":"594","Distrito":"Coimbra","Concelho":"Oliveira do Hospital","CP":"3400-594","Artéria":"Quinta da Vila Franca","Localidade":"Santa Ovaia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTA OVAIA","locais":[{"id":"pt.ine.add.PTCONT.1105479","rua":"EN 230","casa":"","coordenadas":[40.30659721834636,-7.877176020570163]},{"id":"pt.ine.add.PTCONT.1105480","rua":"EN 230","casa":"","coordenadas":[40.306464082166485,-7.878058761642316]},{"id":"pt.ine.add.PTCONT.1137842","rua":"EN 230","casa":"","coordenadas":[40.30679866326592,-7.878680954865092]},{"id":"pt.ine.add.PTCONT.1152329","rua":"EN 230","casa":"","coordenadas":[40.30641544208311,-7.880517447719564]},{"id":"pt.ine.add.PTCONT.1156656","rua":"ESTR DA PONTE","casa":"","coordenadas":[40.310167696180365,-7.8750215274852]},{"id":"pt.ine.add.PTCONT.1158671","rua":"QTA DA FONTANHEIRA","casa":"","coordenadas":[40.309119652526306,-7.877554699743237]},{"id":"pt.ine.add.PTCONT.1164674","rua":"EN 230","casa":"","coordenadas":[40.307217669237474,-7.876750199550697]},{"id":"pt.ine.add.PTCONT.1164675","rua":"ESTR DA PONTE","casa":"","coordenadas":[40.3101772526439,-7.875268531430688]},{"id":"pt.ine.add.PTCONT.1200719","rua":"R DO DOMENDO","casa":"","coordenadas":[40.31055556633543,-7.887725053805944]},{"id":"pt.ine.add.PTCONT.1200946","rua":"EN 230","casa":"","coordenadas":[40.307235862926774,-7.876832473970349]},{"id":"pt.ine.add.PTCONT.1209614","rua":"QTA DO LOMBO","casa":"","coordenadas":[40.31270057376796,-7.880129339803942]},{"id":"pt.ine.add.PTCONT.1213004","rua":"ESTR DA PONTE","casa":"","coordenadas":[40.31021353725827,-7.875386031755735]},{"id":"pt.ine.add.PTCONT.1218633","rua":"QTA DAS MALHADAS","casa":"","coordenadas":[40.30960497087499,-7.893939742485271]},{"id":"pt.ine.add.PTCONT.1228931","rua":"QTA DOS BARREIROS","casa":"","coordenadas":[40.308984670208176,-7.890142281117821]},{"id":"pt.ine.add.PTCONT.1238917","rua":"EN 230","casa":"","coordenadas":[40.30478134974592,-7.878664997913173]},{"id":"pt.ine.add.PTCONT.1249411","rua":"EN 230","casa":"","coordenadas":[40.30685851294925,-7.881339224765339]},{"id":"pt.ine.add.PTCONT.1249412","rua":"EN 230","casa":"","coordenadas":[40.30497872297234,-7.878323132565125]},{"id":"pt.ine.add.PTCONT.1290516","rua":"ESTR DA PONTE","casa":"","coordenadas":[40.31057399800462,-7.8754905366123085]},{"id":"pt.ine.add.PTCONT.1290519","rua":"QTA DA CORUJA","casa":"","coordenadas":[40.311549946924785,-7.868981301594449]},{"id":"pt.ine.add.PTCONT.1321314","rua":"R DO DOMENDO","casa":"","coordenadas":[40.31067517838775,-7.888924540052166]},{"id":"pt.ine.add.PTCONT.1328773","rua":"EN 230","casa":"","coordenadas":[40.305836378354,-7.879284482080994]},{"id":"pt.ine.add.PTCONT.1341128","rua":"QTA DA FONTANHEIRA","casa":"","coordenadas":[40.30925465896883,-7.877518899900777]},{"id":"pt.ine.add.PTCONT.1350993","rua":"QTA DOS CORTINHAIS","casa":"","coordenadas":[40.307768142851636,-7.889781974577023]},{"id":"pt.ine.add.PTCONT.1353434","rua":"ESTR DA PONTE","casa":"","coordenadas":[40.31051061799906,-7.875337846959896]},{"id":"pt.ine.add.PTCONT.1359687","rua":"LG DO CRUZEIRO","casa":"","coordenadas":[40.31469297871886,-7.889521828024719]}],"ruas":["EN 230","ESTR DA PONTE","QTA DA FONTANHEIRA","R DO DOMENDO","QTA DO LOMBO","QTA DAS MALHADAS","QTA DOS BARREIROS","QTA DA CORUJA","QTA DOS CORTINHAIS","LG DO CRUZEIRO"],"centroide":[40.308543348540816,-7.879867916790304]}
+{
+  "CP": "3400-594",
+  "CP4": "3400",
+  "CP3": "594",
+  "Distrito": "Coimbra",
+  "Concelho": "Oliveira do Hospital",
+  "Localidade": "Santa Ovaia",
+  "Designação Postal": "SANTA OVAIA",
+  "partes": [
+    {
+      "Artéria": "Quinta dos Cortinhais",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta das Levadas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta dos Barreiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta do Domendo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta da Coruja",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta do Rio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta de São Paio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Quinta da Vila Franca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1105479",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.30659721834636,
+        -7.877176020570163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1105480",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.306464082166485,
+        -7.878058761642316
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1137842",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.30679866326592,
+        -7.878680954865092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1152329",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.30641544208311,
+        -7.880517447719564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156656",
+      "rua": "ESTR DA PONTE",
+      "casa": "",
+      "coordenadas": [
+        40.310167696180365,
+        -7.8750215274852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1158671",
+      "rua": "QTA DA FONTANHEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.309119652526306,
+        -7.877554699743237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1164674",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.307217669237474,
+        -7.876750199550697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1164675",
+      "rua": "ESTR DA PONTE",
+      "casa": "",
+      "coordenadas": [
+        40.3101772526439,
+        -7.875268531430688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1200719",
+      "rua": "R DO DOMENDO",
+      "casa": "",
+      "coordenadas": [
+        40.31055556633543,
+        -7.887725053805944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1200946",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.307235862926774,
+        -7.876832473970349
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1209614",
+      "rua": "QTA DO LOMBO",
+      "casa": "",
+      "coordenadas": [
+        40.31270057376796,
+        -7.880129339803942
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1213004",
+      "rua": "ESTR DA PONTE",
+      "casa": "",
+      "coordenadas": [
+        40.31021353725827,
+        -7.875386031755735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1218633",
+      "rua": "QTA DAS MALHADAS",
+      "casa": "",
+      "coordenadas": [
+        40.30960497087499,
+        -7.893939742485271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1228931",
+      "rua": "QTA DOS BARREIROS",
+      "casa": "",
+      "coordenadas": [
+        40.308984670208176,
+        -7.890142281117821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1238917",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.30478134974592,
+        -7.878664997913173
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1249411",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.30685851294925,
+        -7.881339224765339
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1249412",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.30497872297234,
+        -7.878323132565125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1290516",
+      "rua": "ESTR DA PONTE",
+      "casa": "",
+      "coordenadas": [
+        40.31057399800462,
+        -7.8754905366123085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1290519",
+      "rua": "QTA DA CORUJA",
+      "casa": "",
+      "coordenadas": [
+        40.311549946924785,
+        -7.868981301594449
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321314",
+      "rua": "R DO DOMENDO",
+      "casa": "",
+      "coordenadas": [
+        40.31067517838775,
+        -7.888924540052166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1328773",
+      "rua": "EN 230",
+      "casa": "",
+      "coordenadas": [
+        40.305836378354,
+        -7.879284482080994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1341128",
+      "rua": "QTA DA FONTANHEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.30925465896883,
+        -7.877518899900777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1350993",
+      "rua": "QTA DOS CORTINHAIS",
+      "casa": "",
+      "coordenadas": [
+        40.307768142851636,
+        -7.889781974577023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1353434",
+      "rua": "ESTR DA PONTE",
+      "casa": "",
+      "coordenadas": [
+        40.31051061799906,
+        -7.875337846959896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1359687",
+      "rua": "LG DO CRUZEIRO",
+      "casa": "",
+      "coordenadas": [
+        40.31469297871886,
+        -7.889521828024719
+      ]
+    }
+  ],
+  "ruas": [
+    "EN 230",
+    "ESTR DA PONTE",
+    "QTA DA FONTANHEIRA",
+    "R DO DOMENDO",
+    "QTA DO LOMBO",
+    "QTA DAS MALHADAS",
+    "QTA DOS BARREIROS",
+    "QTA DA CORUJA",
+    "QTA DOS CORTINHAIS",
+    "LG DO CRUZEIRO"
+  ],
+  "centro": [
+    40.30973716423239,
+    -7.88146052203986
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.30646142086788,
+                -7.884918297286587
+              ],
+              [
+                40.306088071729675,
+                -7.883528675203609
+              ],
+              [
+                40.3057644751904,
+                -7.882307414234937
+              ],
+              [
+                40.305490631250066,
+                -7.881254514380574
+              ],
+              [
+                40.30526653990867,
+                -7.88036997564052
+              ],
+              [
+                40.30509220116621,
+                -7.879653798014777
+              ],
+              [
+                40.30496761502269,
+                -7.879105981503343
+              ],
+              [
+                40.30489278147812,
+                -7.878726526106218
+              ],
+              [
+                40.30486770053248,
+                -7.878515431823402
+              ],
+              [
+                40.30489237218579,
+                -7.878472698654896
+              ],
+              [
+                40.305016635256685,
+                -7.878289341023537
+              ],
+              [
+                40.30524048974517,
+                -7.877965358929324
+              ],
+              [
+                40.30556393565125,
+                -7.877500752372257
+              ],
+              [
+                40.305986972974935,
+                -7.876895521352337
+              ],
+              [
+                40.30650960171621,
+                -7.876149665869564
+              ],
+              [
+                40.30713182187507,
+                -7.875263185923935
+              ],
+              [
+                40.30785363345153,
+                -7.874236081515454
+              ],
+              [
+                40.30867503644559,
+                -7.87306835264412
+              ],
+              [
+                40.30944287393717,
+                -7.872367535607174
+              ],
+              [
+                40.310157145926276,
+                -7.872133630404619
+              ],
+              [
+                40.31081785241291,
+                -7.872366637036455
+              ],
+              [
+                40.31142499339707,
+                -7.873066555502679
+              ],
+              [
+                40.31197856887875,
+                -7.874233385803294
+              ],
+              [
+                40.31247857885796,
+                -7.8758671279382995
+              ],
+              [
+                40.3129250233347,
+                -7.877967781907692
+              ],
+              [
+                40.31331790230895,
+                -7.880535347711476
+              ],
+              [
+                40.31358217128887,
+                -7.882850997703233
+              ],
+              [
+                40.31371783027445,
+                -7.8849147318829615
+              ],
+              [
+                40.31372487926568,
+                -7.886726550250666
+              ],
+              [
+                40.313603318262565,
+                -7.8882864528063426
+              ],
+              [
+                40.31335314726511,
+                -7.889594439549992
+              ],
+              [
+                40.31297436627331,
+                -7.890650510481615
+              ],
+              [
+                40.312466975287165,
+                -7.891454665601211
+              ],
+              [
+                40.31183097430669,
+                -7.892006904908779
+              ],
+              [
+                40.311245773010896,
+                -7.892425149179336
+              ],
+              [
+                40.3107113713998,
+                -7.8927093984128796
+              ],
+              [
+                40.3102277694734,
+                -7.8928596526094115
+              ],
+              [
+                40.30979496723171,
+                -7.89287591176893
+              ],
+              [
+                40.309412964674706,
+                -7.892758175891436
+              ],
+              [
+                40.30908176180239,
+                -7.892506444976931
+              ],
+              [
+                40.30880135861477,
+                -7.892120719025412
+              ],
+              [
+                40.308571755111856,
+                -7.891600998036881
+              ],
+              [
+                40.30832418340452,
+                -7.890972539411544
+              ],
+              [
+                40.308058643492785,
+                -7.890235343149401
+              ],
+              [
+                40.30777513537663,
+                -7.88938940925045
+              ],
+              [
+                40.30747365905606,
+                -7.888434737714695
+              ],
+              [
+                40.307154214531074,
+                -7.887371328542132
+              ],
+              [
+                40.30681680180169,
+                -7.886199181732762
+              ],
+              [
+                40.30646142086788,
+                -7.884918297286587
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.30889601868143,
+    -7.88320216285996
+  ],
+  "centroDeMassa": [
+    40.30973716423239,
+    -7.88146052203986
+  ]
+}

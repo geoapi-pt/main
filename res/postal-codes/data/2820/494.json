@@ -1,1 +1,585 @@
-{"CP4":"2820","CP3":"494","Distrito":"Setúbal","Concelho":"Almada","CP":"2820-494","Artéria":"Rua Edmundo Bettencourt","Localidade":"Charneca de Caparica","Local":"Quintinhas","Troço":"","Porta":"","Cliente":"","Designação Postal":"CHARNECA DA CAPARICA","locais":[{"id":"pt.ine.add.PTCONT.4674670","rua":"R CASTELO BRANCO CHAVES","casa":"8","coordenadas":[38.61525260432718,-9.182919926902542]},{"id":"pt.ine.add.PTCONT.4692940","rua":"R EDMUNDO BETTENCOURT","casa":"15","coordenadas":[38.61546691400885,-9.183129717887331]},{"id":"pt.ine.add.PTCONT.4721921","rua":"R EDMUNDO BETTENCOURT","casa":"28","coordenadas":[38.6155326819966,-9.18383104918206]},{"id":"pt.ine.add.PTCONT.4762103","rua":"R EDMUNDO BETTENCOURT","casa":"12","coordenadas":[38.61585935764746,-9.182561361175418]},{"id":"pt.ine.add.PTCONT.4781459","rua":"R EDMUNDO BETTENCOURT","casa":"9","coordenadas":[38.61560644553839,-9.18263804650951]},{"id":"pt.ine.add.PTCONT.4786869","rua":"R CASTELO BRANCO CHAVES","casa":"12","coordenadas":[38.615231912173385,-9.183218143442538]},{"id":"pt.ine.add.PTCONT.4808218","rua":"R EDMUNDO BETTENCOURT","casa":"17","coordenadas":[38.61544756092352,-9.183278695254176]},{"id":"pt.ine.add.PTCONT.4941994","rua":"R EDMUNDO BETTENCOURT","casa":"20","coordenadas":[38.61576403638774,-9.183145531362287]},{"id":"pt.ine.add.PTCONT.4968551","rua":"R EDMUNDO BETTENCOURT","casa":"24","coordenadas":[38.61573433680228,-9.18344361858333]},{"id":"pt.ine.add.PTCONT.4972298","rua":"R EDMUNDO BETTENCOURT","casa":"11","coordenadas":[38.61553264010807,-9.182832156734554]},{"id":"pt.ine.add.PTCONT.4976045","rua":"R CASTELO BRANCO CHAVES","casa":"15","coordenadas":[38.61495558487898,-9.18289263459607]},{"id":"pt.ine.add.PTCONT.4983154","rua":"R EDMUNDO BETTENCOURT","casa":"29","coordenadas":[38.61512813049351,-9.184743663141479]},{"id":"pt.ine.add.PTCONT.4989205","rua":"R EDMUNDO BETTENCOURT","casa":"71","coordenadas":[38.61531902780738,-9.184551265420078]},{"id":"pt.ine.add.PTCONT.4997757","rua":"R EDMUNDO BETTENCOURT","casa":"3","coordenadas":[38.61541208738115,-9.184219660650813]},{"id":"pt.ine.add.PTCONT.4997875","rua":"R CASTELO BRANCO CHAVES","casa":"5","coordenadas":[38.61538426058384,-9.182301845406919]},{"id":"pt.ine.add.PTCONT.5000157","rua":"R EDMUNDO BETTENCOURT","casa":"3 VV ASS","coordenadas":[38.61541208738115,-9.184219660650813]},{"id":"pt.ine.add.PTCONT.5022089","rua":"R CASTELO BRANCO CHAVES","casa":"21","coordenadas":[38.61496016162788,-9.18338640254819]},{"id":"pt.ine.add.PTCONT.5035015","rua":"R EDMUNDO BETTENCOURT","casa":"22","coordenadas":[38.61565471801706,-9.18328171593946]},{"id":"pt.ine.add.PTCONT.5055527","rua":"R CASTELO BRANCO CHAVES","casa":"27","coordenadas":[38.615243741794096,-9.183907204071478]},{"id":"pt.ine.add.PTCONT.5071075","rua":"R CASTELO BRANCO CHAVES","casa":"7","coordenadas":[38.615275046136794,-9.182426550607408]},{"id":"pt.ine.add.PTCONT.5078202","rua":"R CASTELO BRANCO CHAVES","casa":"13","coordenadas":[38.614957232750044,-9.182708955830702]},{"id":"pt.ine.add.PTCONT.5085281","rua":"R CASTELO BRANCO CHAVES","casa":"4","coordenadas":[38.61544432256146,-9.182635683945156]},{"id":"pt.ine.add.PTCONT.5092460","rua":"R CASTELO BRANCO CHAVES","casa":"9","coordenadas":[38.61516614045886,-9.182516815558738]},{"id":"pt.ine.add.PTCONT.5099419","rua":"R CASTELO BRANCO CHAVES","casa":"16","coordenadas":[38.61521929848146,-9.183619810813807]},{"id":"pt.ine.add.PTCONT.5099455","rua":"R EDMUNDO BETTENCOURT","casa":"18","coordenadas":[38.615711746708776,-9.182949582736557]},{"id":"pt.ine.add.PTCONT.5117302","rua":"R CASTELO BRANCO CHAVES","casa":"3","coordenadas":[38.61553747969074,-9.182292595985459]}],"ruas":["R CASTELO BRANCO CHAVES","R EDMUNDO BETTENCOURT"],"centroide":[38.61538688307904,-9.183254387958058]}]}
+{
+  "CP": "2820-494",
+  "CP4": "2820",
+  "CP3": "494",
+  "Distrito": "Setúbal",
+  "Concelho": "Almada",
+  "Localidade": "Charneca de Caparica",
+  "Designação Postal": "CHARNECA DA CAPARICA",
+  "partes": [
+    {
+      "Artéria": "Rua Castelo Branco Chaves",
+      "Local": "Quintinhas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Edmundo Bettencourt",
+      "Local": "Quintinhas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4674670",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "8",
+      "coordenadas": [
+        38.61525260432718,
+        -9.182919926902542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4692940",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "15",
+      "coordenadas": [
+        38.61546691400885,
+        -9.183129717887331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4721921",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "28",
+      "coordenadas": [
+        38.6155326819966,
+        -9.18383104918206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4762103",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "12",
+      "coordenadas": [
+        38.61585935764746,
+        -9.182561361175418
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4781459",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "9",
+      "coordenadas": [
+        38.61560644553839,
+        -9.18263804650951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4786869",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "12",
+      "coordenadas": [
+        38.615231912173385,
+        -9.183218143442538
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4808218",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "17",
+      "coordenadas": [
+        38.61544756092352,
+        -9.183278695254176
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4941994",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "20",
+      "coordenadas": [
+        38.61576403638774,
+        -9.183145531362287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968551",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "24",
+      "coordenadas": [
+        38.61573433680228,
+        -9.18344361858333
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4972298",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "11",
+      "coordenadas": [
+        38.61553264010807,
+        -9.182832156734554
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4976045",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "15",
+      "coordenadas": [
+        38.61495558487898,
+        -9.18289263459607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4983154",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "29",
+      "coordenadas": [
+        38.61512813049351,
+        -9.184743663141479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4989205",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "71",
+      "coordenadas": [
+        38.61531902780738,
+        -9.184551265420078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4997757",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "3",
+      "coordenadas": [
+        38.61541208738115,
+        -9.184219660650813
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4997875",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "5",
+      "coordenadas": [
+        38.61538426058384,
+        -9.182301845406919
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5000157",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "3 VV ASS",
+      "coordenadas": [
+        38.61541208738115,
+        -9.184219660650813
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5022089",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "21",
+      "coordenadas": [
+        38.61496016162788,
+        -9.18338640254819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5035015",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "22",
+      "coordenadas": [
+        38.61565471801706,
+        -9.18328171593946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5055527",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "27",
+      "coordenadas": [
+        38.615243741794096,
+        -9.183907204071478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5071075",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "7",
+      "coordenadas": [
+        38.615275046136794,
+        -9.182426550607408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5078202",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "13",
+      "coordenadas": [
+        38.614957232750044,
+        -9.182708955830702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5085281",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "4",
+      "coordenadas": [
+        38.61544432256146,
+        -9.182635683945156
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5092460",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "9",
+      "coordenadas": [
+        38.61516614045886,
+        -9.182516815558738
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5099419",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "16",
+      "coordenadas": [
+        38.61521929848146,
+        -9.183619810813807
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5099455",
+      "rua": "R EDMUNDO BETTENCOURT",
+      "casa": "18",
+      "coordenadas": [
+        38.615711746708776,
+        -9.182949582736557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5117302",
+      "rua": "R CASTELO BRANCO CHAVES",
+      "casa": "3",
+      "coordenadas": [
+        38.61553747969074,
+        -9.182292595985459
+      ]
+    }
+  ],
+  "ruas": [
+    "R CASTELO BRANCO CHAVES",
+    "R EDMUNDO BETTENCOURT"
+  ],
+  "centro": [
+    38.61540747126322,
+    -9.183518129563469
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.61495815930024,
+                -9.183170379069137
+              ],
+              [
+                38.614957587206625,
+                -9.183108658075122
+              ],
+              [
+                38.6149571123727,
+                -9.18305178222465
+              ],
+              [
+                38.61495673479846,
+                -9.182999751517722
+              ],
+              [
+                38.61495645448391,
+                -9.182952565954334
+              ],
+              [
+                38.614956271429044,
+                -9.182910225534492
+              ],
+              [
+                38.614956185633865,
+                -9.182872730258191
+              ],
+              [
+                38.61495619709837,
+                -9.182840080125434
+              ],
+              [
+                38.61495630582257,
+                -9.182812275136222
+              ],
+              [
+                38.61495651180645,
+                -9.182789315290549
+              ],
+              [
+                38.61496336435225,
+                -9.182762864325216
+              ],
+              [
+                38.614976863459965,
+                -9.18273292224022
+              ],
+              [
+                38.6149970091296,
+                -9.18269948903556
+              ],
+              [
+                38.61502380136116,
+                -9.18266256471124
+              ],
+              [
+                38.61505724015463,
+                -9.182622149267255
+              ],
+              [
+                38.61509732551002,
+                -9.182578242703606
+              ],
+              [
+                38.61514405742733,
+                -9.182530845020295
+              ],
+              [
+                38.61519743590655,
+                -9.182479956217325
+              ],
+              [
+                38.615246536124424,
+                -9.182435283992511
+              ],
+              [
+                38.61529135808093,
+                -9.182396828345862
+              ],
+              [
+                38.61533190177608,
+                -9.182364589277372
+              ],
+              [
+                38.61536816720987,
+                -9.182338566787044
+              ],
+              [
+                38.61540015438231,
+                -9.182318760874878
+              ],
+              [
+                38.615427863293384,
+                -9.182305171540872
+              ],
+              [
+                38.6154512939431,
+                -9.18229779878503
+              ],
+              [
+                38.615470446331464,
+                -9.182296642607348
+              ],
+              [
+                38.615492234014354,
+                -9.182299830407969
+              ],
+              [
+                38.61551665699177,
+                -9.182307362186894
+              ],
+              [
+                38.61554371526372,
+                -9.182319237944121
+              ],
+              [
+                38.615573408830194,
+                -9.18233545767965
+              ],
+              [
+                38.6156057376912,
+                -9.182356021393485
+              ],
+              [
+                38.615640701846736,
+                -9.182380929085625
+              ],
+              [
+                38.6156783012968,
+                -9.182410180756065
+              ],
+              [
+                38.61571853604139,
+                -9.182443776404812
+              ],
+              [
+                38.61575178799221,
+                -9.182486957869463
+              ],
+              [
+                38.615778057149235,
+                -9.182539725150018
+              ],
+              [
+                38.61579734351249,
+                -9.18260207824648
+              ],
+              [
+                38.61580964708196,
+                -9.182674017158847
+              ],
+              [
+                38.61581496785766,
+                -9.182755541887119
+              ],
+              [
+                38.615813305839566,
+                -9.182846652431298
+              ],
+              [
+                38.615804661027695,
+                -9.18294734879138
+              ],
+              [
+                38.61578903342205,
+                -9.183057630967369
+              ],
+              [
+                38.61576887006406,
+                -9.183171434853183
+              ],
+              [
+                38.61574417095373,
+                -9.183288760448821
+              ],
+              [
+                38.61571493609107,
+                -9.183409607754289
+              ],
+              [
+                38.61568116547606,
+                -9.18353397676958
+              ],
+              [
+                38.61564285910872,
+                -9.183661867494697
+              ],
+              [
+                38.615600016989035,
+                -9.183793279929638
+              ],
+              [
+                38.61555263911701,
+                -9.183928214074408
+              ],
+              [
+                38.61550072549265,
+                -9.184066669929
+              ],
+              [
+                38.615452318300804,
+                -9.184190825016168
+              ],
+              [
+                38.615407417541476,
+                -9.184300679335907
+              ],
+              [
+                38.61536602321466,
+                -9.184396232888218
+              ],
+              [
+                38.61532813532036,
+                -9.184477485673101
+              ],
+              [
+                38.61529375385858,
+                -9.184544437690558
+              ],
+              [
+                38.61526287882931,
+                -9.184597088940588
+              ],
+              [
+                38.615235510232566,
+                -9.184635439423191
+              ],
+              [
+                38.615211648068325,
+                -9.184659489138365
+              ],
+              [
+                38.615188144161095,
+                -9.184659325442375
+              ],
+              [
+                38.61516499851088,
+                -9.184634948335216
+              ],
+              [
+                38.61514221111765,
+                -9.18458635781689
+              ],
+              [
+                38.615119781981434,
+                -9.184513553887395
+              ],
+              [
+                38.615097711102216,
+                -9.184416536546737
+              ],
+              [
+                38.61507599848001,
+                -9.184295305794908
+              ],
+              [
+                38.6150546441148,
+                -9.184149861631914
+              ],
+              [
+                38.615033648006595,
+                -9.183980204057756
+              ],
+              [
+                38.61501520490022,
+                -9.183824038556113
+              ],
+              [
+                38.614999314795654,
+                -9.183681365126986
+              ],
+              [
+                38.614985977692925,
+                -9.18355218377038
+              ],
+              [
+                38.61497519359202,
+                -9.183436494486292
+              ],
+              [
+                38.61496696249293,
+                -9.183334297274723
+              ],
+              [
+                38.614961284395676,
+                -9.183245592135671
+              ],
+              [
+                38.61495815930024,
+                -9.183170379069137
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.615315063586905,
+    -9.183209149187515
+  ],
+  "centroDeMassa": [
+    38.61540747126322,
+    -9.183518129563469
+  ]
+}

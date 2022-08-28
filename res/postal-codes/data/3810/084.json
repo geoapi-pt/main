@@ -1,1 +1,405 @@
-{"CP4":"3810","CP3":"084","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3810-084","Artéria":"Rua Clemente de Melo Soares de Freitas","Localidade":"Aveiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AVEIRO","locais":[{"id":"pt.ine.add.PTCONT.325088","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"8","coordenadas":[40.640189507234474,-8.656750720027965]},{"id":"pt.ine.add.PTCONT.49759","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"6","coordenadas":[40.64031379276387,-8.65673499333296]},{"id":"pt.ine.add.PTCONT.75651","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"5","coordenadas":[40.640066276718564,-8.656580025390182]},{"id":"pt.ine.add.PTCONT.91686","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"2","coordenadas":[40.640281041143496,-8.656786807662149]},{"id":"pt.ine.add.PTCONT.100926","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"4","coordenadas":[40.64023301879373,-8.656706119379326]},{"id":"pt.ine.add.PTCONT.112242","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"3","coordenadas":[40.64010417397337,-8.656544858146393]},{"id":"pt.ine.add.PTCONT.124680","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"12","coordenadas":[40.64014603398852,-8.656802357073603]},{"id":"pt.ine.add.PTCONT.124681","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"1","coordenadas":[40.64009204794309,-8.656507044605448]},{"id":"pt.ine.add.PTCONT.142466","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"9","coordenadas":[40.63999579904623,-8.656675930946967]},{"id":"pt.ine.add.PTCONT.203294","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"10","coordenadas":[40.640241023116964,-8.65683368759228]},{"id":"pt.ine.add.PTCONT.206079","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"11","coordenadas":[40.639958787792274,-8.65666324578458]},{"id":"pt.ine.add.PTCONT.230752","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"7","coordenadas":[40.64003732730707,-8.656612732701007]},{"id":"pt.ine.add.PTCONT.255038","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"16","coordenadas":[40.6401151816846,-8.656844803367575]},{"id":"pt.ine.add.PTCONT.268698","rua":"R CLEMENTE DE MELO SOARES DE FREITAS","casa":"14","coordenadas":[40.6401868665892,-8.656892371850686]}],"ruas":["R CLEMENTE DE MELO SOARES DE FREITAS"],"centroide":[40.640136462423555,-8.656695640462342]}
+{
+  "CP": "3810-084",
+  "CP4": "3810",
+  "CP3": "084",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "Aveiro",
+  "Designação Postal": "AVEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua Clemente de Melo Soares de Freitas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.325088",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "8",
+      "coordenadas": [
+        40.640189507234474,
+        -8.656750720027965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.49759",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "6",
+      "coordenadas": [
+        40.64031379276387,
+        -8.65673499333296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.75651",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "5",
+      "coordenadas": [
+        40.640066276718564,
+        -8.656580025390182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.91686",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "2",
+      "coordenadas": [
+        40.640281041143496,
+        -8.656786807662149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.100926",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "4",
+      "coordenadas": [
+        40.64023301879373,
+        -8.656706119379326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.112242",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "3",
+      "coordenadas": [
+        40.64010417397337,
+        -8.656544858146393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.124680",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "12",
+      "coordenadas": [
+        40.64014603398852,
+        -8.656802357073603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.124681",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "1",
+      "coordenadas": [
+        40.64009204794309,
+        -8.656507044605448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.142466",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "9",
+      "coordenadas": [
+        40.63999579904623,
+        -8.656675930946967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.203294",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "10",
+      "coordenadas": [
+        40.640241023116964,
+        -8.65683368759228
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.206079",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "11",
+      "coordenadas": [
+        40.639958787792274,
+        -8.65666324578458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.230752",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "7",
+      "coordenadas": [
+        40.64003732730707,
+        -8.656612732701007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255038",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "16",
+      "coordenadas": [
+        40.6401151816846,
+        -8.656844803367575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.268698",
+      "rua": "R CLEMENTE DE MELO SOARES DE FREITAS",
+      "casa": "14",
+      "coordenadas": [
+        40.6401868665892,
+        -8.656892371850686
+      ]
+    }
+  ],
+  "ruas": [
+    "R CLEMENTE DE MELO SOARES DE FREITAS"
+  ],
+  "centro": [
+    40.64013629027807,
+    -8.656699708228068
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.64004675935671,
+                -8.656765371925015
+              ],
+              [
+                40.64002721012017,
+                -8.65674267722714
+              ],
+              [
+                40.64001218672805,
+                -8.656720378723076
+              ],
+              [
+                40.64000168918036,
+                -8.656698476412824
+              ],
+              [
+                40.63999571747709,
+                -8.656676970296381
+              ],
+              [
+                40.63999427161824,
+                -8.656655860373746
+              ],
+              [
+                40.639997351603824,
+                -8.656635146644923
+              ],
+              [
+                40.64000495743383,
+                -8.656614829109913
+              ],
+              [
+                40.640017089108255,
+                -8.65659490776871
+              ],
+              [
+                40.64003374662711,
+                -8.656575382621318
+              ],
+              [
+                40.64005178671893,
+                -8.656561859816218
+              ],
+              [
+                40.64007120938372,
+                -8.65655433935341
+              ],
+              [
+                40.64009201462147,
+                -8.656552821232891
+              ],
+              [
+                40.6401142024322,
+                -8.656557305454665
+              ],
+              [
+                40.64013777281589,
+                -8.65656779201873
+              ],
+              [
+                40.640162725772555,
+                -8.656584280925086
+              ],
+              [
+                40.64018906130218,
+                -8.656606772173735
+              ],
+              [
+                40.64021677940478,
+                -8.656635265764672
+              ],
+              [
+                40.64024052100048,
+                -8.656661007255636
+              ],
+              [
+                40.6402602860893,
+                -8.656683996646628
+              ],
+              [
+                40.64027607467122,
+                -8.656704233937646
+              ],
+              [
+                40.640287886746236,
+                -8.65672171912869
+              ],
+              [
+                40.64029572231437,
+                -8.65673645221976
+              ],
+              [
+                40.640299581375615,
+                -8.656748433210858
+              ],
+              [
+                40.64029946392996,
+                -8.656757662101981
+              ],
+              [
+                40.64029536997741,
+                -8.656764138893127
+              ],
+              [
+                40.640291162487266,
+                -8.656770538584292
+              ],
+              [
+                40.64028684145953,
+                -8.65677686117547
+              ],
+              [
+                40.64028240689419,
+                -8.656783106666662
+              ],
+              [
+                40.640277858791265,
+                -8.656789275057871
+              ],
+              [
+                40.640273197150734,
+                -8.656795366349094
+              ],
+              [
+                40.64026842197261,
+                -8.65680138054033
+              ],
+              [
+                40.640263533256885,
+                -8.656807317631582
+              ],
+              [
+                40.64025853100357,
+                -8.656813177622848
+              ],
+              [
+                40.64025330783617,
+                -8.656819222056745
+              ],
+              [
+                40.64024786375469,
+                -8.656825450933269
+              ],
+              [
+                40.640242198759125,
+                -8.656831864252423
+              ],
+              [
+                40.64023631284948,
+                -8.656838462014207
+              ],
+              [
+                40.640230206025755,
+                -8.65684524421862
+              ],
+              [
+                40.640223878287955,
+                -8.656852210865662
+              ],
+              [
+                40.640217329636066,
+                -8.656859361955334
+              ],
+              [
+                40.640210560070095,
+                -8.656866697487633
+              ],
+              [
+                40.64020351662323,
+                -8.656872372820848
+              ],
+              [
+                40.64019619929549,
+                -8.656876387954977
+              ],
+              [
+                40.64018860808685,
+                -8.656878742890019
+              ],
+              [
+                40.64018074299733,
+                -8.656879437625975
+              ],
+              [
+                40.640172604026915,
+                -8.656878472162845
+              ],
+              [
+                40.64016419117562,
+                -8.656875846500627
+              ],
+              [
+                40.640155504443435,
+                -8.656871560639324
+              ],
+              [
+                40.64014654383036,
+                -8.656865614578937
+              ],
+              [
+                40.640136259639355,
+                -8.656857574938861
+              ],
+              [
+                40.640124651870416,
+                -8.656847441719101
+              ],
+              [
+                40.64011172052354,
+                -8.656835214919655
+              ],
+              [
+                40.640097465598735,
+                -8.656820894540523
+              ],
+              [
+                40.640081887095995,
+                -8.656804480581705
+              ],
+              [
+                40.640064985015314,
+                -8.656785973043203
+              ],
+              [
+                40.64004675935671,
+                -8.656765371925015
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.64016982014765,
+    -8.656751850599383
+  ],
+  "centroDeMassa": [
+    40.64013629027807,
+    -8.656699708228068
+  ]
+}

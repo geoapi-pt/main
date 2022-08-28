@@ -1,1 +1,336 @@
-{"CP4":"9300","CP3":"282","Distrito":"Ilha da Madeira","Concelho":"Câmara de Lobos","CP":"9300-282","Artéria":"Estrada Cabo Girão","Localidade":"Quinta Grande","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"QUINTA GRANDE","locais":[{"id":"pt.ine.add.MAD.7819","rua":"VR FONTE DA MOUCA","casa":"4","coordenadas":[32.66189859616867,-17.00391258771941]},{"id":"pt.ine.add.MAD.9447","rua":"TV FONTE MOUCA","casa":"2","coordenadas":[32.66136990855123,-17.004828338720575]},{"id":"pt.ine.add.MAD.9448","rua":"TV FONTE MOUCA","casa":"6","coordenadas":[32.66110335435465,-17.00514223062003]},{"id":"pt.ine.add.MAD.9449","rua":"VR FONTE DA MOUCA","casa":"24","coordenadas":[32.660971190389596,-17.00494737197524]},{"id":"pt.ine.add.MAD.9450","rua":"TV FONTE DA MOUCA","casa":"5","coordenadas":[32.66103753360738,-17.004746285444483]},{"id":"pt.ine.add.MAD.9451","rua":"VR FONTE DA MOUCA","casa":"10","coordenadas":[32.661567234136584,-17.00433165275904]},{"id":"pt.ine.add.MAD.9452","rua":"VR FONTE DA MOUCA","casa":"8","coordenadas":[32.661648712638076,-17.004312148864067]},{"id":"pt.ine.add.MAD.9453","rua":"VR FONTE DA MOUCA","casa":"44","coordenadas":[32.660159783107815,-17.006059356686954]},{"id":"pt.ine.add.MAD.9454","rua":"VR FONTE DA MOUCA","casa":"46","coordenadas":[32.65993881399653,-17.00634227551285]},{"id":"pt.ine.add.MAD.66431","rua":"VR FONTES","casa":"19","coordenadas":[32.663011601129114,-17.020548364275236]},{"id":"pt.ine.add.MAD.69529","rua":"TV FONTE MOUCA","casa":"4","coordenadas":[32.661290643985126,-17.004709291824046]},{"id":"pt.ine.add.MAD.92674","rua":"VR FONTE DA MOUCA","casa":"16","coordenadas":[32.6616075519483,-17.004066014061934]},{"id":"pt.ine.add.MAD.96264","rua":"VR FONTE DA MOUCA","casa":"6","coordenadas":[32.661789731245754,-17.003952803820606]},{"id":"pt.ine.add.MAD.102814","rua":"VR FONTE DA MOUCA","casa":"2","coordenadas":[32.66204386287074,-17.003851860903623]},{"id":"pt.ine.add.MAD.121815","rua":"ESTR CABO GIRÃO","casa":"37","coordenadas":[32.661146067578365,-17.00416232668863]}],"ruas":["VR FONTE DA MOUCA","TV FONTE MOUCA","TV FONTE DA MOUCA","VR FONTES","ESTR CABO GIRÃO"],"centroide":[32.66138846558068,-17.00583932737058]}]}058]}
+{
+  "CP": "9300-282",
+  "CP4": "9300",
+  "CP3": "282",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Câmara de Lobos",
+  "Localidade": "Quinta Grande",
+  "Designação Postal": "QUINTA GRANDE",
+  "partes": [
+    {
+      "Artéria": "Travessa da Fonte da Mouca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda Fonte da Mouca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada Cabo Girão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.7819",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "4",
+      "coordenadas": [
+        32.66189859616867,
+        -17.00391258771941
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9447",
+      "rua": "TV FONTE MOUCA",
+      "casa": "2",
+      "coordenadas": [
+        32.66136990855123,
+        -17.004828338720575
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9448",
+      "rua": "TV FONTE MOUCA",
+      "casa": "6",
+      "coordenadas": [
+        32.66110335435465,
+        -17.00514223062003
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9449",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "24",
+      "coordenadas": [
+        32.660971190389596,
+        -17.00494737197524
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9450",
+      "rua": "TV FONTE DA MOUCA",
+      "casa": "5",
+      "coordenadas": [
+        32.66103753360738,
+        -17.004746285444483
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9451",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "10",
+      "coordenadas": [
+        32.661567234136584,
+        -17.00433165275904
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9452",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "8",
+      "coordenadas": [
+        32.661648712638076,
+        -17.004312148864067
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9453",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "44",
+      "coordenadas": [
+        32.660159783107815,
+        -17.006059356686954
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.9454",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "46",
+      "coordenadas": [
+        32.65993881399653,
+        -17.00634227551285
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.66431",
+      "rua": "VR FONTES",
+      "casa": "19",
+      "coordenadas": [
+        32.663011601129114,
+        -17.020548364275236
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.69529",
+      "rua": "TV FONTE MOUCA",
+      "casa": "4",
+      "coordenadas": [
+        32.661290643985126,
+        -17.004709291824046
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.92674",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "16",
+      "coordenadas": [
+        32.6616075519483,
+        -17.004066014061934
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.96264",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "6",
+      "coordenadas": [
+        32.661789731245754,
+        -17.003952803820606
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.102814",
+      "rua": "VR FONTE DA MOUCA",
+      "casa": "2",
+      "coordenadas": [
+        32.66204386287074,
+        -17.003851860903623
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.121815",
+      "rua": "ESTR CABO GIRÃO",
+      "casa": "37",
+      "coordenadas": [
+        32.661146067578365,
+        -17.00416232668863
+      ]
+    }
+  ],
+  "ruas": [
+    "VR FONTE DA MOUCA",
+    "TV FONTE MOUCA",
+    "TV FONTE DA MOUCA",
+    "VR FONTES",
+    "ESTR CABO GIRÃO"
+  ],
+  "centro": [
+    32.66147520756282,
+    -17.01220011258943
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.661667256758605,
+                -17.01433320044169
+              ],
+              [
+                32.66128315836704,
+                -17.012557439346395
+              ],
+              [
+                32.66096593561163,
+                -17.01096958668763
+              ],
+              [
+                32.66071558849238,
+                -17.0095696424654
+              ],
+              [
+                32.660532117009296,
+                -17.008357606679702
+              ],
+              [
+                32.66041552116237,
+                -17.00733347933054
+              ],
+              [
+                32.66036580095161,
+                -17.00649726041791
+              ],
+              [
+                32.66038295637702,
+                -17.005848949941814
+              ],
+              [
+                32.66046698743858,
+                -17.005388547902253
+              ],
+              [
+                32.660617894136315,
+                -17.005116054299226
+              ],
+              [
+                32.66076396554827,
+                -17.004872771368685
+              ],
+              [
+                32.66090520167445,
+                -17.004658699110635
+              ],
+              [
+                32.661041602514864,
+                -17.00447383752507
+              ],
+              [
+                32.6611731680695,
+                -17.004318186611993
+              ],
+              [
+                32.66129989833837,
+                -17.004191746371404
+              ],
+              [
+                32.661421793321466,
+                -17.0040945168033
+              ],
+              [
+                32.66153885301878,
+                -17.004026497907688
+              ],
+              [
+                32.66165107743032,
+                -17.003987689684564
+              ],
+              [
+                32.66176439470071,
+                -17.004214615354513
+              ],
+              [
+                32.661878804829946,
+                -17.00470727491753
+              ],
+              [
+                32.66199430781802,
+                -17.00546566837362
+              ],
+              [
+                32.66211090366495,
+                -17.006489795722782
+              ],
+              [
+                32.66222859237072,
+                -17.007779656965017
+              ],
+              [
+                32.662347373935326,
+                -17.009335252100325
+              ],
+              [
+                32.66246724835878,
+                -17.011156581128702
+              ],
+              [
+                32.66258821564108,
+                -17.013243644050156
+              ],
+              [
+                32.66264604971414,
+                -17.014847853969513
+              ],
+              [
+                32.66264075057798,
+                -17.01596921088678
+              ],
+              [
+                32.66257231823257,
+                -17.01660771480195
+              ],
+              [
+                32.66244075267793,
+                -17.016763365715022
+              ],
+              [
+                32.66224605391406,
+                -17.016436163626004
+              ],
+              [
+                32.661988221940945,
+                -17.015626108534896
+              ],
+              [
+                32.661667256758605,
+                -17.01433320044169
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.66153508639369,
+    -17.008726206845083
+  ],
+  "centroDeMassa": [
+    32.66147520756282,
+    -17.01220011258943
+  ]
+}

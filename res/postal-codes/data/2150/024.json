@@ -1,1 +1,519 @@
-{"CP4":"2150","CP3":"024","Distrito":"Santarém","Concelho":"Golegã","CP":"2150-024","Artéria":"Rua de Santa Catarina","Localidade":"Azinhaga","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AZINHAGA","locais":[{"id":"pt.ine.add.PTCONT.4402863","rua":"R STA CATARINA","casa":"4","coordenadas":[39.34885796310409,-8.528319231770547]},{"id":"pt.ine.add.PTCONT.4413346","rua":"R S CATARINA","casa":"11","coordenadas":[39.34880989149599,-8.529212233720997]},{"id":"pt.ine.add.PTCONT.4417005","rua":"R STA CATARINA","casa":"63","coordenadas":[39.34952415886618,-8.531060835218321]},{"id":"pt.ine.add.PTCONT.4434385","rua":"R STA CATARINA","casa":"","coordenadas":[39.34906801130321,-8.53011856797732]},{"id":"pt.ine.add.PTCONT.4439938","rua":"R STA CATARINA","casa":"18","coordenadas":[39.34893681829486,-8.528969330033725]},{"id":"pt.ine.add.PTCONT.4458021","rua":"R STA CATARINA","casa":"19","coordenadas":[39.34891702756482,-8.529491261668769]},{"id":"pt.ine.add.PTCONT.4459392","rua":"R STA CATARINA","casa":"53","coordenadas":[39.34948896362416,-8.530817013403347]},{"id":"pt.ine.add.PTCONT.4459393","rua":"R STA CATARINA","casa":"59","coordenadas":[39.34949761379542,-8.530921471958072]},{"id":"pt.ine.add.PTCONT.4462743","rua":"R STA CATARINA","casa":"16","coordenadas":[39.34922559445973,-8.528808545199947]},{"id":"pt.ine.add.PTCONT.4462744","rua":"R STA CATARINA","casa":"16","coordenadas":[39.34922559445973,-8.528808545199947]},{"id":"pt.ine.add.PTCONT.4462772","rua":"R STA CATARINA","casa":"45","coordenadas":[39.349147450838984,-8.530594658496884]},{"id":"pt.ine.add.PTCONT.4473443","rua":"R STA CATARINA","casa":"22","coordenadas":[39.34932052369228,-8.530027188632276]},{"id":"pt.ine.add.PTCONT.4476281","rua":"R STA CATARINA","casa":"41","coordenadas":[39.34912169707888,-8.530223280727924]},{"id":"pt.ine.add.PTCONT.4477723","rua":"R STA CATARINA","casa":"21","coordenadas":[39.34892587651496,-8.529537715516684]},{"id":"pt.ine.add.PTCONT.4504452","rua":"R STA CATARINA","casa":"69","coordenadas":[39.34955951234811,-8.53125825390331]},{"id":"pt.ine.add.PTCONT.4518939","rua":"R STA CATARINA","casa":"27","coordenadas":[39.348970120986515,-8.529769984929832]},{"id":"pt.ine.add.PTCONT.4525244","rua":"R STA CATARINA","casa":"","coordenadas":[39.34955931390499,-8.5313162581163]},{"id":"pt.ine.add.PTCONT.4537361","rua":"R DE SANTA CATARINA","casa":"13","coordenadas":[39.34884556410292,-8.529316843670058]},{"id":"pt.ine.add.PTCONT.4539422","rua":"R STA CATARINA","casa":"23","coordenadas":[39.348934567363884,-8.52963057234281]},{"id":"pt.ine.add.PTCONT.4546173","rua":"R STA CATARINA","casa":"25","coordenadas":[39.348952344196185,-8.529700278618815]},{"id":"pt.ine.add.PTCONT.4564400","rua":"R STA CATARINA","casa":"39","coordenadas":[39.34910392056186,-8.530153574153426]},{"id":"pt.ine.add.PTCONT.4570967","rua":"R STA CATARINA","casa":"10","coordenadas":[39.34910870070163,-8.528749880951697]},{"id":"pt.ine.add.PTCONT.4592014","rua":"R STA CATARINA","casa":"73","coordenadas":[39.34957712941833,-8.531374364587544]},{"id":"pt.ine.add.PTCONT.4592015","rua":"R STA CATARINA","casa":"","coordenadas":[39.34905920215249,-8.530060513202232]},{"id":"pt.ine.add.PTCONT.4603276","rua":"R S CATARINA","casa":"29","coordenadas":[39.34900559533726,-8.529932599162798]},{"id":"pt.ine.add.PTCONT.4611955","rua":"R S CATARINA","casa":"31","coordenadas":[39.348987818644815,-8.529862892776082]},{"id":"pt.ine.add.PTCONT.4634945","rua":"R STA CATARINA","casa":"33","coordenadas":[39.34902333242702,-8.530013906340285]},{"id":"pt.ine.add.PTCONT.4645707","rua":"R STA CATARINA","casa":"","coordenadas":[39.349585898206165,-8.531444020797935]},{"id":"pt.ine.add.PTCONT.4660639","rua":"R STA CATARINA","casa":"61","coordenadas":[39.34950638285515,-8.530991128035124]},{"id":"pt.ine.add.PTCONT.4661275","rua":"R STA CATARINA","casa":"65","coordenadas":[39.34952372246999,-8.531188444424908]}],"ruas":["R STA CATARINA","R S CATARINA","R DE SANTA CATARINA"],"centroide":[39.34916712373451,-8.530016722452173]}
+{
+  "CP": "2150-024",
+  "CP4": "2150",
+  "CP3": "024",
+  "Distrito": "Santarém",
+  "Concelho": "Golegã",
+  "Localidade": "Azinhaga",
+  "Designação Postal": "AZINHAGA",
+  "partes": [
+    {
+      "Artéria": "Rua de Santa Catarina",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4402863",
+      "rua": "R STA CATARINA",
+      "casa": "4",
+      "coordenadas": [
+        39.34885796310409,
+        -8.528319231770547
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4413346",
+      "rua": "R S CATARINA",
+      "casa": "11",
+      "coordenadas": [
+        39.34880989149599,
+        -8.529212233720997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4417005",
+      "rua": "R STA CATARINA",
+      "casa": "63",
+      "coordenadas": [
+        39.34952415886618,
+        -8.531060835218321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4434385",
+      "rua": "R STA CATARINA",
+      "casa": "",
+      "coordenadas": [
+        39.34906801130321,
+        -8.53011856797732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4439938",
+      "rua": "R STA CATARINA",
+      "casa": "18",
+      "coordenadas": [
+        39.34893681829486,
+        -8.528969330033725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4458021",
+      "rua": "R STA CATARINA",
+      "casa": "19",
+      "coordenadas": [
+        39.34891702756482,
+        -8.529491261668769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4459392",
+      "rua": "R STA CATARINA",
+      "casa": "53",
+      "coordenadas": [
+        39.34948896362416,
+        -8.530817013403347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4459393",
+      "rua": "R STA CATARINA",
+      "casa": "59",
+      "coordenadas": [
+        39.34949761379542,
+        -8.530921471958072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4462743",
+      "rua": "R STA CATARINA",
+      "casa": "16",
+      "coordenadas": [
+        39.34922559445973,
+        -8.528808545199947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4462744",
+      "rua": "R STA CATARINA",
+      "casa": "16",
+      "coordenadas": [
+        39.34922559445973,
+        -8.528808545199947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4462772",
+      "rua": "R STA CATARINA",
+      "casa": "45",
+      "coordenadas": [
+        39.349147450838984,
+        -8.530594658496884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4473443",
+      "rua": "R STA CATARINA",
+      "casa": "22",
+      "coordenadas": [
+        39.34932052369228,
+        -8.530027188632276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4476281",
+      "rua": "R STA CATARINA",
+      "casa": "41",
+      "coordenadas": [
+        39.34912169707888,
+        -8.530223280727924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4477723",
+      "rua": "R STA CATARINA",
+      "casa": "21",
+      "coordenadas": [
+        39.34892587651496,
+        -8.529537715516684
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4504452",
+      "rua": "R STA CATARINA",
+      "casa": "69",
+      "coordenadas": [
+        39.34955951234811,
+        -8.53125825390331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4518939",
+      "rua": "R STA CATARINA",
+      "casa": "27",
+      "coordenadas": [
+        39.348970120986515,
+        -8.529769984929832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4525244",
+      "rua": "R STA CATARINA",
+      "casa": "",
+      "coordenadas": [
+        39.34955931390499,
+        -8.5313162581163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4537361",
+      "rua": "R DE SANTA CATARINA",
+      "casa": "13",
+      "coordenadas": [
+        39.34884556410292,
+        -8.529316843670058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4539422",
+      "rua": "R STA CATARINA",
+      "casa": "23",
+      "coordenadas": [
+        39.348934567363884,
+        -8.52963057234281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4546173",
+      "rua": "R STA CATARINA",
+      "casa": "25",
+      "coordenadas": [
+        39.348952344196185,
+        -8.529700278618815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4564400",
+      "rua": "R STA CATARINA",
+      "casa": "39",
+      "coordenadas": [
+        39.34910392056186,
+        -8.530153574153426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4570967",
+      "rua": "R STA CATARINA",
+      "casa": "10",
+      "coordenadas": [
+        39.34910870070163,
+        -8.528749880951697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4592014",
+      "rua": "R STA CATARINA",
+      "casa": "73",
+      "coordenadas": [
+        39.34957712941833,
+        -8.531374364587544
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4592015",
+      "rua": "R STA CATARINA",
+      "casa": "",
+      "coordenadas": [
+        39.34905920215249,
+        -8.530060513202232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4603276",
+      "rua": "R S CATARINA",
+      "casa": "29",
+      "coordenadas": [
+        39.34900559533726,
+        -8.529932599162798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4611955",
+      "rua": "R S CATARINA",
+      "casa": "31",
+      "coordenadas": [
+        39.348987818644815,
+        -8.529862892776082
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4634945",
+      "rua": "R STA CATARINA",
+      "casa": "33",
+      "coordenadas": [
+        39.34902333242702,
+        -8.530013906340285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4645707",
+      "rua": "R STA CATARINA",
+      "casa": "",
+      "coordenadas": [
+        39.349585898206165,
+        -8.531444020797935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4660639",
+      "rua": "R STA CATARINA",
+      "casa": "61",
+      "coordenadas": [
+        39.34950638285515,
+        -8.530991128035124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4661275",
+      "rua": "R STA CATARINA",
+      "casa": "65",
+      "coordenadas": [
+        39.34952372246999,
+        -8.531188444424908
+      ]
+    }
+  ],
+  "ruas": [
+    "R STA CATARINA",
+    "R S CATARINA",
+    "R DE SANTA CATARINA"
+  ],
+  "centro": [
+    39.34919789485107,
+    -8.52988162628424
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.34899976862642,
+                -8.529989847657433
+              ],
+              [
+                39.34895757370855,
+                -8.529817044560449
+              ],
+              [
+                39.348921404274286,
+                -8.52965188869511
+              ],
+              [
+                39.34889126032363,
+                -8.529494380061418
+              ],
+              [
+                39.348867141856594,
+                -8.529344518659375
+              ],
+              [
+                39.348849048873156,
+                -8.52920230448898
+              ],
+              [
+                39.34883698137334,
+                -8.529067737550232
+              ],
+              [
+                39.34883093935713,
+                -8.528940817843129
+              ],
+              [
+                39.34883092282453,
+                -8.528821545367675
+              ],
+              [
+                39.348836931775544,
+                -8.52870992012387
+              ],
+              [
+                39.348847933847615,
+                -8.528619893557874
+              ],
+              [
+                39.34886392904074,
+                -8.528551465669688
+              ],
+              [
+                39.348884917354916,
+                -8.528504636459314
+              ],
+              [
+                39.34891089879015,
+                -8.528479405926745
+              ],
+              [
+                39.34894187334643,
+                -8.52847577407199
+              ],
+              [
+                39.34897784102378,
+                -8.528493740895046
+              ],
+              [
+                39.34901880182218,
+                -8.52853330639591
+              ],
+              [
+                39.34906475574164,
+                -8.528594470574586
+              ],
+              [
+                39.34911045815488,
+                -8.528688080158858
+              ],
+              [
+                39.349155909061935,
+                -8.528814135148725
+              ],
+              [
+                39.34920110846278,
+                -8.528972635544191
+              ],
+              [
+                39.349246056357416,
+                -8.529163581345253
+              ],
+              [
+                39.34929075274586,
+                -8.529386972551912
+              ],
+              [
+                39.34933519762809,
+                -8.52964280916417
+              ],
+              [
+                39.34937939100412,
+                -8.529931091182021
+              ],
+              [
+                39.34942333287394,
+                -8.530251818605471
+              ],
+              [
+                39.349461919022346,
+                -8.530533543479276
+              ],
+              [
+                39.34949514944934,
+                -8.53077626580344
+              ],
+              [
+                39.34952302415491,
+                -8.530979985577957
+              ],
+              [
+                39.34954554313906,
+                -8.53114470280283
+              ],
+              [
+                39.3495627064018,
+                -8.531270417478062
+              ],
+              [
+                39.34957451394311,
+                -8.531357129603649
+              ],
+              [
+                39.34958096576301,
+                -8.53140483917959
+              ],
+              [
+                39.34958206186148,
+                -8.531413546205888
+              ],
+              [
+                39.34957617020754,
+                -8.531407893567946
+              ],
+              [
+                39.34956329080118,
+                -8.531387881265763
+              ],
+              [
+                39.349543423642395,
+                -8.531353509299338
+              ],
+              [
+                39.34951656873118,
+                -8.531304777668671
+              ],
+              [
+                39.349482726067556,
+                -8.531241686373765
+              ],
+              [
+                39.3494418956515,
+                -8.531164235414614
+              ],
+              [
+                39.349394077483026,
+                -8.531072424791226
+              ],
+              [
+                39.34933927156212,
+                -8.530966254503593
+              ],
+              [
+                39.3492860420166,
+                -8.530851755114792
+              ],
+              [
+                39.34923438884647,
+                -8.530728926624825
+              ],
+              [
+                39.349184312051705,
+                -8.530597769033685
+              ],
+              [
+                39.34913581163231,
+                -8.530458282341376
+              ],
+              [
+                39.3490888875883,
+                -8.530310466547899
+              ],
+              [
+                39.34904353991968,
+                -8.53015432165325
+              ],
+              [
+                39.34899976862642,
+                -8.529989847657433
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.349200654587214,
+    -8.529958842428977
+  ],
+  "centroDeMassa": [
+    39.34919789485107,
+    -8.52988162628424
+  ]
+}

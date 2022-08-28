@@ -1,1 +1,343 @@
-{"CP4":"4615","CP3":"422","Distrito":"Porto","Concelho":"Felgueiras","CP":"4615-422","Artéria":"Rua Padre António José Pereira da Silva","Localidade":"Macieira da Lixa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MACIEIRA DA LIXA","locais":[{"id":"pt.ine.add.PTCONT.3614629","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"16","coordenadas":[41.351401787690776,-8.155883742287283]},{"id":"pt.ine.add.PTCONT.3694492","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"189","coordenadas":[41.35222972018778,-8.158022986685603]},{"id":"pt.ine.add.PTCONT.3778986","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"","coordenadas":[41.35203167416593,-8.157819770735042]},{"id":"pt.ine.add.PTCONT.4020746","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"32","coordenadas":[41.35156381126733,-8.156134735152877]},{"id":"pt.ine.add.PTCONT.4063933","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"32","coordenadas":[41.35159978677995,-8.1563378869285]},{"id":"pt.ine.add.PTCONT.4148966","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"242","coordenadas":[41.3526709331319,-8.157963407137267]},{"id":"pt.ine.add.PTCONT.4174992","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"227","coordenadas":[41.35249081004381,-8.15815453097138]},{"id":"pt.ine.add.PTCONT.4277555","rua":"R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","casa":"251","coordenadas":[41.352661866756925,-8.15825019295968]},{"id":"pt.ine.add.PTCONT.4332163","rua":"R PADRE ANTONIO JOSE PEREIRA SILVA","casa":"98","coordenadas":[41.351914807553236,-8.156935469730566]}],"ruas":["R PADRE ANTÓNIO JOSE PEREIRA DA SILVA","R PADRE ANTONIO JOSE PEREIRA SILVA"],"centroide":[41.35208129875305,-8.157320906607204]}
+{
+  "CP": "4615-422",
+  "CP4": "4615",
+  "CP3": "422",
+  "Distrito": "Porto",
+  "Concelho": "Felgueiras",
+  "Localidade": "Macieira da Lixa",
+  "Designação Postal": "MACIEIRA DA LIXA",
+  "partes": [
+    {
+      "Artéria": "Largo do Cruzeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Hortas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Padre António José Pereira da Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3614629",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "16",
+      "coordenadas": [
+        41.351401787690776,
+        -8.155883742287283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3694492",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "189",
+      "coordenadas": [
+        41.35222972018778,
+        -8.158022986685603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3778986",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "",
+      "coordenadas": [
+        41.35203167416593,
+        -8.157819770735042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4020746",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "32",
+      "coordenadas": [
+        41.35156381126733,
+        -8.156134735152877
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4063933",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "32",
+      "coordenadas": [
+        41.35159978677995,
+        -8.1563378869285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4148966",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "242",
+      "coordenadas": [
+        41.3526709331319,
+        -8.157963407137267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4174992",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "227",
+      "coordenadas": [
+        41.35249081004381,
+        -8.15815453097138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4277555",
+      "rua": "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+      "casa": "251",
+      "coordenadas": [
+        41.352661866756925,
+        -8.15825019295968
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4332163",
+      "rua": "R PADRE ANTONIO JOSE PEREIRA SILVA",
+      "casa": "98",
+      "coordenadas": [
+        41.351914807553236,
+        -8.156935469730566
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE ANTÓNIO JOSE PEREIRA DA SILVA",
+    "R PADRE ANTONIO JOSE PEREIRA SILVA"
+  ],
+  "centro": [
+    41.35203636041133,
+    -8.157066967623482
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.35175609883305,
+                -8.156972758289147
+              ],
+              [
+                41.351677363023654,
+                -8.156730754733179
+              ],
+              [
+                41.35161100080882,
+                -8.156522923385229
+              ],
+              [
+                41.35155701218854,
+                -8.156349264245302
+              ],
+              [
+                41.35151539716282,
+                -8.156209777313395
+              ],
+              [
+                41.35148615573166,
+                -8.15610446258951
+              ],
+              [
+                41.35146928789506,
+                -8.156033320073647
+              ],
+              [
+                41.351464793653015,
+                -8.155996349765802
+              ],
+              [
+                41.351472673005524,
+                -8.155993551665981
+              ],
+              [
+                41.35149292595259,
+                -8.15602492577418
+              ],
+              [
+                41.35152794606041,
+                -8.15608095111861
+              ],
+              [
+                41.35157773332898,
+                -8.156161627699271
+              ],
+              [
+                41.351642287758295,
+                -8.156266955516164
+              ],
+              [
+                41.35172160934837,
+                -8.156396934569289
+              ],
+              [
+                41.35181569809919,
+                -8.156551564858644
+              ],
+              [
+                41.351924554010765,
+                -8.15673084638423
+              ],
+              [
+                41.352048177083084,
+                -8.156934779146047
+              ],
+              [
+                41.352186567316146,
+                -8.157163363144095
+              ],
+              [
+                41.352307517107974,
+                -8.157367855170863
+              ],
+              [
+                41.35241102645857,
+                -8.15754825522635
+              ],
+              [
+                41.35249709536791,
+                -8.157704563310556
+              ],
+              [
+                41.35256572383601,
+                -8.157836779423482
+              ],
+              [
+                41.35261691186287,
+                -8.157944903565125
+              ],
+              [
+                41.35265065944847,
+                -8.158028935735489
+              ],
+              [
+                41.35266696659284,
+                -8.158088875934572
+              ],
+              [
+                41.35266583329598,
+                -8.158124724162374
+              ],
+              [
+                41.352658089371076,
+                -8.158152541263668
+              ],
+              [
+                41.35264373481813,
+                -8.158172327238454
+              ],
+              [
+                41.35262276963715,
+                -8.158184082086732
+              ],
+              [
+                41.35259519382815,
+                -8.158187805808504
+              ],
+              [
+                41.3525610073911,
+                -8.158183498403767
+              ],
+              [
+                41.352520210326034,
+                -8.158171159872524
+              ],
+              [
+                41.352472802632924,
+                -8.158150790214771
+              ],
+              [
+                41.35241878431178,
+                -8.158122389430511
+              ],
+              [
+                41.3523684238117,
+                -8.158094363495056
+              ],
+              [
+                41.352321721132654,
+                -8.158066712408408
+              ],
+              [
+                41.352278676274665,
+                -8.158039436170563
+              ],
+              [
+                41.352239289237716,
+                -8.158012534781523
+              ],
+              [
+                41.352203560021835,
+                -8.15798600824129
+              ],
+              [
+                41.35217148862699,
+                -8.157959856549859
+              ],
+              [
+                41.35214307505322,
+                -8.157934079707234
+              ],
+              [
+                41.35211831930049,
+                -8.157908677713413
+              ],
+              [
+                41.35208681604068,
+                -8.157856200524325
+              ],
+              [
+                41.352048565273776,
+                -8.157776648139965
+              ],
+              [
+                41.3520035669998,
+                -8.157670020560339
+              ],
+              [
+                41.351951821218734,
+                -8.157536317785446
+              ],
+              [
+                41.35189332793058,
+                -8.157375539815282
+              ],
+              [
+                41.35182808713536,
+                -8.157187686649849
+              ],
+              [
+                41.35175609883305,
+                -8.156972758289147
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.35209329886677,
+    -8.15734580582629
+  ],
+  "centroDeMassa": [
+    41.35203636041133,
+    -8.157066967623482
+  ]
+}

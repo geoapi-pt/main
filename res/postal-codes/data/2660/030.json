@@ -1,1 +1,419 @@
-{"CP4":"2660","CP3":"030","Distrito":"Lisboa","Concelho":"Loures","CP":"2660-030","Artéria":"Rua David José Chitas","Localidade":"Frielas","Local":"Ponte de Frielas","Troço":"","Porta":"","Cliente":"","Designação Postal":"FRIELAS","locais":[{"id":"pt.ine.add.PTCONT.2928653","rua":"R DAVID JOSE CHITAS","casa":"16","coordenadas":[38.81694040679076,-9.15425772651974]},{"id":"pt.ine.add.PTCONT.2928654","rua":"R DAVID JOSE CHITAS","casa":"16","coordenadas":[38.81694040679076,-9.15425772651974]},{"id":"pt.ine.add.PTCONT.2928655","rua":"R DAVID JOSE CHITAS","casa":"16","coordenadas":[38.81694040679076,-9.15425772651974]},{"id":"pt.ine.add.PTCONT.2928659","rua":"R DAVID JOSE CHITAS PATIO ARNALDO SIMÕES","casa":"","coordenadas":[38.81638089047819,-9.154376386978342]},{"id":"pt.ine.add.PTCONT.3068232","rua":"R DAVID JOSE CHITAS","casa":"6 E","coordenadas":[38.81640710512573,-9.154468871251623]},{"id":"pt.ine.add.PTCONT.3086327","rua":"R DAVID JOSE CHITAS PATIO ARNALDO SIMÕES","casa":"","coordenadas":[38.81635286421259,-9.15449112391918]},{"id":"pt.ine.add.PTCONT.3210242","rua":"R DAVID JOSE CHITAS","casa":"3","coordenadas":[38.816694209158946,-9.154599623849016]},{"id":"pt.ine.add.PTCONT.3325067","rua":"R DAVID JOSE CHITAS","casa":"5","coordenadas":[38.816776275144996,-9.154485658334595]},{"id":"pt.ine.add.PTCONT.3344895","rua":"R DAVID JOSE CHITAS","casa":"14","coordenadas":[38.816914292606796,-9.154153729248959]},{"id":"pt.ine.add.PTCONT.3382066","rua":"R DAVID JOSE CHITAS","casa":"10","coordenadas":[38.8167683756456,-9.154358893802382]},{"id":"pt.ine.add.PTCONT.3382067","rua":"R DAVID JOSE CHITAS","casa":"10","coordenadas":[38.8167683756456,-9.154358893802382]},{"id":"pt.ine.add.PTCONT.3382068","rua":"R DAVID JOSE CHITAS","casa":"","coordenadas":[38.81665969256889,-9.154426424155387]},{"id":"pt.ine.add.PTCONT.3453717","rua":"R DAVID JOSE CHITAS","casa":"9","coordenadas":[38.816893763562184,-9.154441281358348]},{"id":"pt.ine.add.PTCONT.2289194","rua":"R DAVID JOSE CHITAS","casa":"12","coordenadas":[38.816858944847,-9.154302618353514]},{"id":"pt.ine.add.PTCONT.2315984","rua":"R DAVID JOSE CHITAS","casa":"8","coordenadas":[38.81671403411203,-9.154392659004202]},{"id":"pt.ine.add.PTCONT.2315985","rua":"R DAVID JOSE CHITAS","casa":"8","coordenadas":[38.81671403411203,-9.154392659004202]},{"id":"pt.ine.add.PTCONT.2334156","rua":"R DAVID JOSE CHITAS","casa":"6","coordenadas":[38.81662326356996,-9.154471958886301]},{"id":"pt.ine.add.PTCONT.2432944","rua":"R DAVID JOSE CHITAS","casa":"6 A","coordenadas":[38.81655090880112,-9.154505466623208]},{"id":"pt.ine.add.PTCONT.2865177","rua":"R DAVID JOSE CHITAS","casa":"6 B","coordenadas":[38.81651639206532,-9.154332267320619]}],"ruas":["R DAVID JOSE CHITAS","R DAVID JOSE CHITAS PATIO ARNALDO SIMÕES"],"centroide":[38.816716569442434,-9.154388857118382]}
+{
+  "CP": "2660-030",
+  "CP4": "2660",
+  "CP3": "030",
+  "Distrito": "Lisboa",
+  "Concelho": "Loures",
+  "Localidade": "Frielas",
+  "Designação Postal": "FRIELAS",
+  "partes": [
+    {
+      "Artéria": "Rua David José Chitas",
+      "Local": "Ponte de Frielas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2928653",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "16",
+      "coordenadas": [
+        38.81694040679076,
+        -9.15425772651974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2928654",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "16",
+      "coordenadas": [
+        38.81694040679076,
+        -9.15425772651974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2928655",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "16",
+      "coordenadas": [
+        38.81694040679076,
+        -9.15425772651974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2928659",
+      "rua": "R DAVID JOSE CHITAS PATIO ARNALDO SIMÕES",
+      "casa": "",
+      "coordenadas": [
+        38.81638089047819,
+        -9.154376386978342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3068232",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "6 E",
+      "coordenadas": [
+        38.81640710512573,
+        -9.154468871251623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3086327",
+      "rua": "R DAVID JOSE CHITAS PATIO ARNALDO SIMÕES",
+      "casa": "",
+      "coordenadas": [
+        38.81635286421259,
+        -9.15449112391918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3210242",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "3",
+      "coordenadas": [
+        38.816694209158946,
+        -9.154599623849016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3325067",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "5",
+      "coordenadas": [
+        38.816776275144996,
+        -9.154485658334595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3344895",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "14",
+      "coordenadas": [
+        38.816914292606796,
+        -9.154153729248959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3382066",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "10",
+      "coordenadas": [
+        38.8167683756456,
+        -9.154358893802382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3382067",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "10",
+      "coordenadas": [
+        38.8167683756456,
+        -9.154358893802382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3382068",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "",
+      "coordenadas": [
+        38.81665969256889,
+        -9.154426424155387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3453717",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "9",
+      "coordenadas": [
+        38.816893763562184,
+        -9.154441281358348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2289194",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "12",
+      "coordenadas": [
+        38.816858944847,
+        -9.154302618353514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2315984",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "8",
+      "coordenadas": [
+        38.81671403411203,
+        -9.154392659004202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2315985",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "8",
+      "coordenadas": [
+        38.81671403411203,
+        -9.154392659004202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334156",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "6",
+      "coordenadas": [
+        38.81662326356996,
+        -9.154471958886301
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2432944",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "6 A",
+      "coordenadas": [
+        38.81655090880112,
+        -9.154505466623208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2865177",
+      "rua": "R DAVID JOSE CHITAS",
+      "casa": "6 B",
+      "coordenadas": [
+        38.81651639206532,
+        -9.154332267320619
+      ]
+    }
+  ],
+  "ruas": [
+    "R DAVID JOSE CHITAS",
+    "R DAVID JOSE CHITAS PATIO ARNALDO SIMÕES"
+  ],
+  "centro": [
+    38.81664663550168,
+    -9.154376676548988
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.81654487074491,
+                -9.154552155129712
+              ],
+              [
+                38.81650220262662,
+                -9.154538592638485
+              ],
+              [
+                38.81646530593351,
+                -9.154524932693958
+              ],
+              [
+                38.816434180665595,
+                -9.154511175296136
+              ],
+              [
+                38.81640882682286,
+                -9.154497320445016
+              ],
+              [
+                38.81638924440531,
+                -9.154483368140598
+              ],
+              [
+                38.816375433412944,
+                -9.154469318382883
+              ],
+              [
+                38.81636739384578,
+                -9.154455171171872
+              ],
+              [
+                38.81636512570379,
+                -9.154440926507563
+              ],
+              [
+                38.81636862898699,
+                -9.154426584389958
+              ],
+              [
+                38.81638002876805,
+                -9.154410556010031
+              ],
+              [
+                38.816399325046966,
+                -9.154392841367786
+              ],
+              [
+                38.81642651782374,
+                -9.154373440463218
+              ],
+              [
+                38.81646160709839,
+                -9.15435235329633
+              ],
+              [
+                38.816504592870885,
+                -9.15432957986712
+              ],
+              [
+                38.816555475141236,
+                -9.15430512017559
+              ],
+              [
+                38.81661425390945,
+                -9.154278974221738
+              ],
+              [
+                38.81668092917553,
+                -9.154251142005563
+              ],
+              [
+                38.81673967806747,
+                -9.154228413773769
+              ],
+              [
+                38.81679050058528,
+                -9.15421078952635
+              ],
+              [
+                38.81683339672895,
+                -9.15419826926331
+              ],
+              [
+                38.81686836649848,
+                -9.154190852984648
+              ],
+              [
+                38.81689540989389,
+                -9.154188540690363
+              ],
+              [
+                38.81691452691515,
+                -9.154191332380455
+              ],
+              [
+                38.816925717562285,
+                -9.154199228054924
+              ],
+              [
+                38.816928981835275,
+                -9.154212227713774
+              ],
+              [
+                38.8169311092737,
+                -9.15422647045962
+              ],
+              [
+                38.816932099877555,
+                -9.154241956292461
+              ],
+              [
+                38.81693195364684,
+                -9.154258685212302
+              ],
+              [
+                38.81693067058155,
+                -9.154276657219135
+              ],
+              [
+                38.81692825068169,
+                -9.15429587231297
+              ],
+              [
+                38.81692469394726,
+                -9.154316330493803
+              ],
+              [
+                38.81692000037826,
+                -9.15433803176163
+              ],
+              [
+                38.81691416997469,
+                -9.154360976116457
+              ],
+              [
+                38.81690595033402,
+                -9.154383526528346
+              ],
+              [
+                38.81689534145623,
+                -9.1544056829973
+              ],
+              [
+                38.81688234334135,
+                -9.154427445523316
+              ],
+              [
+                38.81686695598936,
+                -9.154448814106395
+              ],
+              [
+                38.816849179400265,
+                -9.154469788746539
+              ],
+              [
+                38.81682901357407,
+                -9.154490369443744
+              ],
+              [
+                38.81680645851077,
+                -9.154510556198016
+              ],
+              [
+                38.81678151421036,
+                -9.154530349009349
+              ],
+              [
+                38.81675435443272,
+                -9.154545972407863
+              ],
+              [
+                38.81672497917785,
+                -9.154557426393556
+              ],
+              [
+                38.81669338844573,
+                -9.154564710966428
+              ],
+              [
+                38.81665958223638,
+                -9.15456782612648
+              ],
+              [
+                38.81662356054979,
+                -9.15456677187371
+              ],
+              [
+                38.81658532338597,
+                -9.154561548208122
+              ],
+              [
+                38.81654487074491,
+                -9.154552155129712
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.81669607113491,
+    -9.154386645312265
+  ],
+  "centroDeMassa": [
+    38.81664663550168,
+    -9.154376676548988
+  ]
+}

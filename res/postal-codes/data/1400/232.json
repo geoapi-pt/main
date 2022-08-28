@@ -1,1 +1,445 @@
-{"CP4":"1400","CP3":"232","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1400-232","Artéria":"Rua José Pinto Bastos","Localidade":"Lisboa","Local":"Bairro Caramão","Troço":"Impares de 11 a 49","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2350943","rua":"R JOSE PINTO BASTOS","casa":"13","coordenadas":[38.71200823376925,-9.207557476850075]},{"id":"pt.ine.add.PTCONT.2371002","rua":"R JOSE PINTO BASTOS","casa":"39","coordenadas":[38.71295994775234,-9.20691639184849]},{"id":"pt.ine.add.PTCONT.2424481","rua":"R JOSE PINTO BASTOS","casa":"37","coordenadas":[38.71288757811733,-9.206949800225008]},{"id":"pt.ine.add.PTCONT.2506012","rua":"R JOSE PINTO BASTOS","casa":"15","coordenadas":[38.71208070921262,-9.207512574131483]},{"id":"pt.ine.add.PTCONT.2532826","rua":"R JOSE PINTO BASTOS","casa":"45","coordenadas":[38.713893961645375,-9.206240533763296]},{"id":"pt.ine.add.PTCONT.2541946","rua":"R JOSE PINTO BASTOS","casa":"41","coordenadas":[38.71354017108866,-9.2065111754468]},{"id":"pt.ine.add.PTCONT.2639718","rua":"R JOSE PINTO BASTOS","casa":"33","coordenadas":[38.712778865261924,-9.20701715585822]},{"id":"pt.ine.add.PTCONT.2681523","rua":"R JOSE PINTO BASTOS","casa":"17","coordenadas":[38.71233479561574,-9.207309432356729]},{"id":"pt.ine.add.PTCONT.2708064","rua":"R JOSE PINTO BASTOS","casa":"35","coordenadas":[38.71283311610597,-9.206994973536842]},{"id":"pt.ine.add.PTCONT.2760656","rua":"R JOSE PINTO BASTOS","casa":"25","coordenadas":[38.71258782562587,-9.207221243458443]},{"id":"pt.ine.add.PTCONT.2814899","rua":"R JOSE PINTO BASTOS","casa":"9","coordenadas":[38.71189930927294,-9.207647821396561]},{"id":"pt.ine.add.PTCONT.2818463","rua":"R JOSE PINTO BASTOS","casa":"11","coordenadas":[38.71196277813982,-9.207602783996432]},{"id":"pt.ine.add.PTCONT.2836376","rua":"R JOSE PINTO BASTOS","casa":"7","coordenadas":[38.71185395926422,-9.207681633107097]},{"id":"pt.ine.add.PTCONT.2853794","rua":"R JOSE PINTO BASTOS","casa":"49","coordenadas":[38.71400267406479,-9.206173175935902]},{"id":"pt.ine.add.PTCONT.2878215","rua":"R JOSE PINTO BASTOS","casa":"19","coordenadas":[38.71238904651418,-9.207287250387015]},{"id":"pt.ine.add.PTCONT.2961073","rua":"R JOSE PINTO BASTOS","casa":"21","coordenadas":[38.7124525152459,-9.207242212367522]},{"id":"pt.ine.add.PTCONT.2986316","rua":"R JOSE PINTO BASTOS","casa":"23","coordenadas":[38.71252456812975,-9.207243290739509]},{"id":"pt.ine.add.PTCONT.3018873","rua":"R JOSE PINTO BASTOS","casa":"43","coordenadas":[38.71361285721555,-9.206443279545788]},{"id":"pt.ine.add.PTCONT.3074869","rua":"R JOSE PINTO BASTOS","casa":"29","coordenadas":[38.71269674980163,-9.207130897414412]},{"id":"pt.ine.add.PTCONT.3278559","rua":"R JOSE PINTO BASTOS","casa":"31","coordenadas":[38.71274209965529,-9.207097084967481]},{"id":"pt.ine.add.PTCONT.3445949","rua":"R JOSE PINTO BASTOS","casa":"47","coordenadas":[38.713948317859824,-9.206206854874742]},{"id":"pt.ine.add.PTCONT.3456391","rua":"R JOSE PINTO BASTOS","casa":"27","coordenadas":[38.712633386717485,-9.207164440244192]}],"ruas":["R JOSE PINTO BASTOS"],"centroide":[38.712761432350426,-9.2070470020099]}
+{
+  "CP": "1400-232",
+  "CP4": "1400",
+  "CP3": "232",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua José Pinto Bastos",
+      "Local": "Bairro Caramão",
+      "Troço": "Impares de 11 a 49",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2350943",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "13",
+      "coordenadas": [
+        38.71200823376925,
+        -9.207557476850075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2371002",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "39",
+      "coordenadas": [
+        38.71295994775234,
+        -9.20691639184849
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2424481",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "37",
+      "coordenadas": [
+        38.71288757811733,
+        -9.206949800225008
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2506012",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "15",
+      "coordenadas": [
+        38.71208070921262,
+        -9.207512574131483
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2532826",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "45",
+      "coordenadas": [
+        38.713893961645375,
+        -9.206240533763296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2541946",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "41",
+      "coordenadas": [
+        38.71354017108866,
+        -9.2065111754468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2639718",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "33",
+      "coordenadas": [
+        38.712778865261924,
+        -9.20701715585822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2681523",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "17",
+      "coordenadas": [
+        38.71233479561574,
+        -9.207309432356729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2708064",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "35",
+      "coordenadas": [
+        38.71283311610597,
+        -9.206994973536842
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2760656",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "25",
+      "coordenadas": [
+        38.71258782562587,
+        -9.207221243458443
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2814899",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "9",
+      "coordenadas": [
+        38.71189930927294,
+        -9.207647821396561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2818463",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "11",
+      "coordenadas": [
+        38.71196277813982,
+        -9.207602783996432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2836376",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "7",
+      "coordenadas": [
+        38.71185395926422,
+        -9.207681633107097
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2853794",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "49",
+      "coordenadas": [
+        38.71400267406479,
+        -9.206173175935902
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2878215",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "19",
+      "coordenadas": [
+        38.71238904651418,
+        -9.207287250387015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2961073",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "21",
+      "coordenadas": [
+        38.7124525152459,
+        -9.207242212367522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2986316",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "23",
+      "coordenadas": [
+        38.71252456812975,
+        -9.207243290739509
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3018873",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "43",
+      "coordenadas": [
+        38.71361285721555,
+        -9.206443279545788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3074869",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "29",
+      "coordenadas": [
+        38.71269674980163,
+        -9.207130897414412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3278559",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "31",
+      "coordenadas": [
+        38.71274209965529,
+        -9.207097084967481
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3445949",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "47",
+      "coordenadas": [
+        38.713948317859824,
+        -9.206206854874742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3456391",
+      "rua": "R JOSE PINTO BASTOS",
+      "casa": "27",
+      "coordenadas": [
+        38.712633386717485,
+        -9.207164440244192
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE PINTO BASTOS"
+  ],
+  "centro": [
+    38.7129283166645,
+    -9.2069274045215
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71226675909265,
+                -9.20742266392973
+              ],
+              [
+                38.71217502579744,
+                -9.207480212635812
+              ],
+              [
+                38.71209716970328,
+                -9.207528627812117
+              ],
+              [
+                38.71203319081015,
+                -9.207567909458646
+              ],
+              [
+                38.71198308911807,
+                -9.2075980575754
+              ],
+              [
+                38.71194686462703,
+                -9.207619072162377
+              ],
+              [
+                38.71192451733703,
+                -9.207630953219578
+              ],
+              [
+                38.71191604724808,
+                -9.207633700747003
+              ],
+              [
+                38.711921454360166,
+                -9.20762731474465
+              ],
+              [
+                38.7119407386733,
+                -9.207611795212522
+              ],
+              [
+                38.71196271497614,
+                -9.207594339926702
+              ],
+              [
+                38.71198738326868,
+                -9.207574948887189
+              ],
+              [
+                38.71201474355094,
+                -9.207553622093982
+              ],
+              [
+                38.71204479582292,
+                -9.207530359547086
+              ],
+              [
+                38.71207754008459,
+                -9.207505161246495
+              ],
+              [
+                38.71211297633599,
+                -9.207478027192213
+              ],
+              [
+                38.71215110457709,
+                -9.207448957384237
+              ],
+              [
+                38.7121919248079,
+                -9.207417951822567
+              ],
+              [
+                38.712252004479076,
+                -9.207374120415587
+              ],
+              [
+                38.712331343590606,
+                -9.207317463163289
+              ],
+              [
+                38.712429942142506,
+                -9.207247980065679
+              ],
+              [
+                38.71254780013476,
+                -9.207165671122755
+              ],
+              [
+                38.71268491756738,
+                -9.207070536334518
+              ],
+              [
+                38.712841294440366,
+                -9.206962575700965
+              ],
+              [
+                38.71301693075371,
+                -9.2068417892221
+              ],
+              [
+                38.713211826507404,
+                -9.206708176897923
+              ],
+              [
+                38.71338405892345,
+                -9.206590213648212
+              ],
+              [
+                38.71353362800184,
+                -9.206487899472974
+              ],
+              [
+                38.71366053374257,
+                -9.206401234372201
+              ],
+              [
+                38.713764776145624,
+                -9.2063302183459
+              ],
+              [
+                38.71384635521103,
+                -9.206274851394067
+              ],
+              [
+                38.71390527093878,
+                -9.206235133516707
+              ],
+              [
+                38.71394152332887,
+                -9.206211064713813
+              ],
+              [
+                38.71395511238129,
+                -9.206202644985385
+              ],
+              [
+                38.71394489579531,
+                -9.206211653778054
+              ],
+              [
+                38.71391087357092,
+                -9.206238091091816
+              ],
+              [
+                38.713853045708106,
+                -9.20628195692667
+              ],
+              [
+                38.71377141220689,
+                -9.206343251282616
+              ],
+              [
+                38.71366597306726,
+                -9.206421974159657
+              ],
+              [
+                38.71353672828921,
+                -9.206518125557789
+              ],
+              [
+                38.71338367787276,
+                -9.206631705477013
+              ],
+              [
+                38.7132068218179,
+                -9.206762713917332
+              ],
+              [
+                38.713040606107995,
+                -9.20688453989087
+              ],
+              [
+                38.71288503074304,
+                -9.206997183397629
+              ],
+              [
+                38.71274009572305,
+                -9.20710064443761
+              ],
+              [
+                38.712605801048014,
+                -9.207194923010807
+              ],
+              [
+                38.71248214671793,
+                -9.207280019117228
+              ],
+              [
+                38.71236913273282,
+                -9.207355932756869
+              ],
+              [
+                38.71226675909265,
+                -9.20742266392973
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.712780241664206,
+    -9.207030582578591
+  ],
+  "centroDeMassa": [
+    38.7129283166645,
+    -9.2069274045215
+  ]
+}

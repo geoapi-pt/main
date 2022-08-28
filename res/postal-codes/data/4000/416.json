@@ -1,1 +1,532 @@
-{"CP4":"4000","CP3":"416","Distrito":"Porto","Concelho":"Porto","CP":"4000-416","Artéria":"Avenida Rodrigues de Freitas","Localidade":"Porto","Local":"","Troço":"Pares de 108 a 204","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3781549","rua":"AV RODRIGUES DE FREITAS","casa":"142","coordenadas":[41.14604890917171,-8.598663031605879]},{"id":"pt.ine.add.PTCONT.3858737","rua":"AV RODRIGUES DE FREITAS","casa":"194","coordenadas":[41.145953951347536,-8.599877373352896]},{"id":"pt.ine.add.PTCONT.3908944","rua":"AV RODRIGUES DE FREITAS","casa":"126","coordenadas":[41.14606007836175,-8.5981270744188]},{"id":"pt.ine.add.PTCONT.4039646","rua":"AV RODRIGUES DE FREITAS","casa":"184","coordenadas":[41.14597364812231,-8.599460596553973]},{"id":"pt.ine.add.PTCONT.4039647","rua":"AV RODRIGUES DE FREITAS","casa":"184","coordenadas":[41.14597364812231,-8.599460596553973]},{"id":"pt.ine.add.PTCONT.4039648","rua":"AV RODRIGUES DE FREITAS","casa":"184","coordenadas":[41.14597364812231,-8.599460596553973]},{"id":"pt.ine.add.PTCONT.4066226","rua":"AV RODRIGUES DE FREITAS","casa":"116","coordenadas":[41.146015202063175,-8.59809102165609]},{"id":"pt.ine.add.PTCONT.4082560","rua":"AV RODRIGUES DE FREITAS","casa":"170","coordenadas":[41.14603865299098,-8.598972668757666]},{"id":"pt.ine.add.PTCONT.4082561","rua":"AV RODRIGUES DE FREITAS","casa":"170","coordenadas":[41.14603865299098,-8.598972668757666]},{"id":"pt.ine.add.PTCONT.4099081","rua":"AV RODRIGUES DE FREITAS","casa":"190","coordenadas":[41.14597306935754,-8.59960353524423]},{"id":"pt.ine.add.PTCONT.4099082","rua":"AV RODRIGUES DE FREITAS","casa":"190","coordenadas":[41.14597306935754,-8.59960353524423]},{"id":"pt.ine.add.PTCONT.4151224","rua":"AV RODRIGUES DE FREITAS SOLAR DA AVENIDA","casa":"192","coordenadas":[41.14595453045186,-8.599734434709733]},{"id":"pt.ine.add.PTCONT.4255755","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255756","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255757","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255758","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255759","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255760","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255761","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4255762","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4258459","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4258635","rua":"AV RODRIGUES DE FREITAS","casa":"114A","coordenadas":[41.146069563261975,-8.598008022257265]},{"id":"pt.ine.add.PTCONT.4354893","rua":"AV RODRIGUES DE FREITAS","casa":"112","coordenadas":[41.1460519395859,-8.597912602470668]},{"id":"pt.ine.add.PTCONT.4354894","rua":"AV RODRIGUES DE FREITAS","casa":"112","coordenadas":[41.1460519395859,-8.597912602470668]},{"id":"pt.ine.add.PTCONT.4354895","rua":"AV RODRIGUES DE FREITAS","casa":"112","coordenadas":[41.1460519395859,-8.597912602470668]},{"id":"pt.ine.add.PTCONT.4354896","rua":"AV RODRIGUES DE FREITAS","casa":"112","coordenadas":[41.1460519395859,-8.597912602470668]},{"id":"pt.ine.add.PTCONT.4354897","rua":"AV RODRIGUES DE FREITAS","casa":"112","coordenadas":[41.1460519395859,-8.597912602470668]},{"id":"pt.ine.add.PTCONT.4354898","rua":"AV RODRIGUES DE FREITAS","casa":"112","coordenadas":[41.1460519395859,-8.597912602470668]}],"ruas":["AV RODRIGUES DE FREITAS","AV RODRIGUES DE FREITAS SOLAR DA AVENIDA"],"centroide":[41.14603453300037,-8.598506309938337]}
+{
+  "CP": "4000-416",
+  "CP4": "4000",
+  "CP3": "416",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Avenida Rodrigues de Freitas",
+      "Local": "",
+      "Troço": "Pares de 108 a 204",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3781549",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "142",
+      "coordenadas": [
+        41.14604890917171,
+        -8.598663031605879
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3858737",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "194",
+      "coordenadas": [
+        41.145953951347536,
+        -8.599877373352896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3908944",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "126",
+      "coordenadas": [
+        41.14606007836175,
+        -8.5981270744188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4039646",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "184",
+      "coordenadas": [
+        41.14597364812231,
+        -8.599460596553973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4039647",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "184",
+      "coordenadas": [
+        41.14597364812231,
+        -8.599460596553973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4039648",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "184",
+      "coordenadas": [
+        41.14597364812231,
+        -8.599460596553973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4066226",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "116",
+      "coordenadas": [
+        41.146015202063175,
+        -8.59809102165609
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4082560",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "170",
+      "coordenadas": [
+        41.14603865299098,
+        -8.598972668757666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4082561",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "170",
+      "coordenadas": [
+        41.14603865299098,
+        -8.598972668757666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4099081",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "190",
+      "coordenadas": [
+        41.14597306935754,
+        -8.59960353524423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4099082",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "190",
+      "coordenadas": [
+        41.14597306935754,
+        -8.59960353524423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4151224",
+      "rua": "AV RODRIGUES DE FREITAS SOLAR DA AVENIDA",
+      "casa": "192",
+      "coordenadas": [
+        41.14595453045186,
+        -8.599734434709733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255755",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255756",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255757",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255758",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255759",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255760",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255761",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4255762",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4258459",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4258635",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "114A",
+      "coordenadas": [
+        41.146069563261975,
+        -8.598008022257265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354893",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "112",
+      "coordenadas": [
+        41.1460519395859,
+        -8.597912602470668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354894",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "112",
+      "coordenadas": [
+        41.1460519395859,
+        -8.597912602470668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354895",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "112",
+      "coordenadas": [
+        41.1460519395859,
+        -8.597912602470668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354896",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "112",
+      "coordenadas": [
+        41.1460519395859,
+        -8.597912602470668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354897",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "112",
+      "coordenadas": [
+        41.1460519395859,
+        -8.597912602470668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4354898",
+      "rua": "AV RODRIGUES DE FREITAS",
+      "casa": "112",
+      "coordenadas": [
+        41.1460519395859,
+        -8.597912602470668
+      ]
+    }
+  ],
+  "ruas": [
+    "AV RODRIGUES DE FREITAS",
+    "AV RODRIGUES DE FREITAS SOLAR DA AVENIDA"
+  ],
+  "centro": [
+    41.146011757304755,
+    -8.598894987911782
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.146001596021975,
+                -8.599368477018078
+              ],
+              [
+                41.14599100831654,
+                -8.599481565092484
+              ],
+              [
+                41.1459817531228,
+                -8.599578283741288
+              ],
+              [
+                41.14597383044074,
+                -8.599658632964491
+              ],
+              [
+                41.14596724027035,
+                -8.599722612762095
+              ],
+              [
+                41.14596198261167,
+                -8.5997702231341
+              ],
+              [
+                41.145958057464654,
+                -8.599801464080503
+              ],
+              [
+                41.14595546482933,
+                -8.599816335601307
+              ],
+              [
+                41.14595420470568,
+                -8.599814837696512
+              ],
+              [
+                41.145954277093715,
+                -8.599796970366118
+              ],
+              [
+                41.145955288427174,
+                -8.599755658123058
+              ],
+              [
+                41.14595723870606,
+                -8.599690900967335
+              ],
+              [
+                41.145960127930366,
+                -8.599602698898948
+              ],
+              [
+                41.145963956100104,
+                -8.599491051917898
+              ],
+              [
+                41.14596872321525,
+                -8.599355960024184
+              ],
+              [
+                41.145974429275824,
+                -8.599197423217806
+              ],
+              [
+                41.14598107428181,
+                -8.599015441498764
+              ],
+              [
+                41.14598865823322,
+                -8.598810014867059
+              ],
+              [
+                41.145995868214506,
+                -8.598627478764545
+              ],
+              [
+                41.146002704225644,
+                -8.59846783319122
+              ],
+              [
+                41.14600916626666,
+                -8.598331078147089
+              ],
+              [
+                41.14601525433754,
+                -8.598217213632147
+              ],
+              [
+                41.146020968438286,
+                -8.598126239646398
+              ],
+              [
+                41.14602630856889,
+                -8.598058156189836
+              ],
+              [
+                41.14603127472937,
+                -8.598012963262468
+              ],
+              [
+                41.14603586691971,
+                -8.59799066086429
+              ],
+              [
+                41.146040160456195,
+                -8.597972637200051
+              ],
+              [
+                41.14604415533883,
+                -8.597958892269748
+              ],
+              [
+                41.14604785156761,
+                -8.597949426073384
+              ],
+              [
+                41.14605124914253,
+                -8.597944238610957
+              ],
+              [
+                41.1460543480636,
+                -8.597943329882467
+              ],
+              [
+                41.14605714833082,
+                -8.597946699887917
+              ],
+              [
+                41.14605964994418,
+                -8.597954348627303
+              ],
+              [
+                41.1460618529037,
+                -8.59796627610063
+              ],
+              [
+                41.14606345777311,
+                -8.59798694716086
+              ],
+              [
+                41.146064464552424,
+                -8.598016361807998
+              ],
+              [
+                41.14606487324163,
+                -8.598054520042043
+              ],
+              [
+                41.14606468384074,
+                -8.59810142186299
+              ],
+              [
+                41.14606389634975,
+                -8.598157067270847
+              ],
+              [
+                41.14606251076867,
+                -8.598221456265613
+              ],
+              [
+                41.14606052709748,
+                -8.598294588847283
+              ],
+              [
+                41.1460579453362,
+                -8.59837646501586
+              ],
+              [
+                41.146055526042254,
+                -8.598452944743862
+              ],
+              [
+                41.14605326921564,
+                -8.598524028031287
+              ],
+              [
+                41.14605117485637,
+                -8.598589714878138
+              ],
+              [
+                41.14604924296444,
+                -8.598650005284412
+              ],
+              [
+                41.14604747353983,
+                -8.598704899250112
+              ],
+              [
+                41.14604586658257,
+                -8.598754396775238
+              ],
+              [
+                41.146044422092636,
+                -8.598798497859786
+              ],
+              [
+                41.146043140070056,
+                -8.59883720250376
+              ],
+              [
+                41.14604069483711,
+                -8.598885205076536
+              ],
+              [
+                41.146037086393804,
+                -8.598942505578117
+              ],
+              [
+                41.14603231474015,
+                -8.599009104008502
+              ],
+              [
+                41.14602637987613,
+                -8.59908500036769
+              ],
+              [
+                41.14601928180177,
+                -8.599170194655683
+              ],
+              [
+                41.146011020517044,
+                -8.599264686872479
+              ],
+              [
+                41.146001596021975,
+                -8.599368477018078
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.146018964124735,
+    -8.598751307830028
+  ],
+  "centroDeMassa": [
+    41.146011757304755,
+    -8.598894987911782
+  ]
+}

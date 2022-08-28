@@ -1,1 +1,535 @@
-{"CP4":"3870","CP3":"063","Distrito":"Aveiro","Concelho":"Murtosa","CP":"3870-063","Artéria":"Rua da Escola","Localidade":"Bunheiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BUNHEIRO","locais":[{"id":"pt.ine.add.PTCONT.299067","rua":"R PROF ABILIO RAMOS","casa":"80","coordenadas":[40.77774372283375,-8.636523901115888]},{"id":"pt.ine.add.PTCONT.306744","rua":"R ESCOLA","casa":"33","coordenadas":[40.777100331830525,-8.641553487010414]},{"id":"pt.ine.add.PTCONT.306745","rua":"R PROF ABILIO RAMOS","casa":"","coordenadas":[40.77615066665508,-8.642493892815743]},{"id":"pt.ine.add.PTCONT.315606","rua":"R PROF ABILIO RAMOS","casa":"70","coordenadas":[40.777560734441536,-8.637185886211695]},{"id":"pt.ine.add.PTCONT.336027","rua":"R PROF ABILIO RAMOS","casa":"23","coordenadas":[40.77697458013286,-8.641481453880486]},{"id":"pt.ine.add.PTCONT.350176","rua":"R PROF ABILIO RAMOS","casa":"43","coordenadas":[40.77712792354479,-8.639374078927753]},{"id":"pt.ine.add.PTCONT.6782","rua":"R PROF ABILIO RAMOS","casa":"85","coordenadas":[40.778446310270205,-8.634408773299102]},{"id":"pt.ine.add.PTCONT.17176","rua":"R PROF ABILIO RAMOS","casa":"41","coordenadas":[40.777280482567356,-8.639493694919263]},{"id":"pt.ine.add.PTCONT.36124","rua":"R PROF ABILIO RAMOS","casa":"39","coordenadas":[40.77727991072322,-8.639623994153752]},{"id":"pt.ine.add.PTCONT.41635","rua":"R PROF ABILIO RAMOS","casa":"3","coordenadas":[40.77637468411562,-8.642744361909026]},{"id":"pt.ine.add.PTCONT.49373","rua":"R PROF ABILIO RAMOS","casa":"21","coordenadas":[40.77690212559202,-8.641575667235106]},{"id":"pt.ine.add.PTCONT.55761","rua":"R PROF ABILIO RAMOS","casa":"86","coordenadas":[40.77817673710316,-8.634276441416493]},{"id":"pt.ine.add.PTCONT.75136","rua":"R PROF ABILIO RAMOS","casa":"59","coordenadas":[40.777885677303395,-8.637010654168629]},{"id":"pt.ine.add.PTCONT.92717","rua":"R PROF ABILIO RAMOS","casa":"34","coordenadas":[40.7770164875604,-8.640143205572986]},{"id":"pt.ine.add.PTCONT.116693","rua":"R PROF ABILIO RAMOS","casa":"","coordenadas":[40.776259767691116,-8.642257814205962]},{"id":"pt.ine.add.PTCONT.129544","rua":"R PROF ABILIO RAMOS","casa":"55","coordenadas":[40.77742162531638,-8.638108807505386]},{"id":"pt.ine.add.PTCONT.129630","rua":"R PROF ABILIO RAMOS","casa":"","coordenadas":[40.77818846109261,-8.635721734496]},{"id":"pt.ine.add.PTCONT.137922","rua":"R PROF ABILIO RAMOS","casa":"36","coordenadas":[40.7769903062372,-8.63995347486]},{"id":"pt.ine.add.PTCONT.162113","rua":"R PROF ABILIO RAMOS","casa":"14","coordenadas":[40.77640509570849,-8.641974628786771]},{"id":"pt.ine.add.PTCONT.165677","rua":"R PROF ABILIO RAMOS","casa":"32","coordenadas":[40.7769150412375,-8.640687337128108]},{"id":"pt.ine.add.PTCONT.175542","rua":"R PROF ABILIO RAMOS CASA PANTALEÃO","casa":"16","coordenadas":[40.776253374630315,-8.641665485561555]},{"id":"pt.ine.add.PTCONT.190893","rua":"R PROF ABILIO RAMOS","casa":"2","coordenadas":[40.77616663583829,-8.642955992454823]},{"id":"pt.ine.add.PTCONT.196420","rua":"R PROF ABILIO RAMOS","casa":"60","coordenadas":[40.77742494040321,-8.637350701027755]},{"id":"pt.ine.add.PTCONT.204278","rua":"R ESCOLA","casa":"34","coordenadas":[40.77767709777363,-8.641451271930581]},{"id":"pt.ine.add.PTCONT.205486","rua":"R ESCOLA","casa":"34","coordenadas":[40.77767709777363,-8.641451271930581]},{"id":"pt.ine.add.PTCONT.228960","rua":"R PROF ABILIO RAMOS","casa":"92","coordenadas":[40.77831437739226,-8.633685177616067]},{"id":"pt.ine.add.PTCONT.237495","rua":"R PROF ABILIO RAMOS","casa":"49","coordenadas":[40.77713885011394,-8.638935868953238]},{"id":"pt.ine.add.PTCONT.260271","rua":"R PROF ABILIO RAMOS","casa":"45","coordenadas":[40.77754062906457,-8.639720741068638]},{"id":"pt.ine.add.PTCONT.265304","rua":"R PROF ABILIO RAMOS","casa":"","coordenadas":[40.7771513488424,-8.640191613986682]},{"id":"pt.ine.add.PTCONT.272349","rua":"R PROF ABILIO RAMOS","casa":"61","coordenadas":[40.77799554255307,-8.63659687760209]},{"id":"pt.ine.add.PTCONT.280418","rua":"R PROF ABILIO RAMOS","casa":"63","coordenadas":[40.77797815338529,-8.636454595453344]}],"ruas":["R PROF ABILIO RAMOS","R ESCOLA","R PROF ABILIO RAMOS CASA PANTALEÃO"],"centroide":[40.77725135221142,-8.639353276391684]}353276391684]}
+{
+  "CP": "3870-063",
+  "CP4": "3870",
+  "CP3": "063",
+  "Distrito": "Aveiro",
+  "Concelho": "Murtosa",
+  "Localidade": "Bunheiro",
+  "Designação Postal": "BUNHEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua Professor Abílio Ramos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Escola",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.299067",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "80",
+      "coordenadas": [
+        40.77774372283375,
+        -8.636523901115888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306744",
+      "rua": "R ESCOLA",
+      "casa": "33",
+      "coordenadas": [
+        40.777100331830525,
+        -8.641553487010414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306745",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "",
+      "coordenadas": [
+        40.77615066665508,
+        -8.642493892815743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.315606",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "70",
+      "coordenadas": [
+        40.777560734441536,
+        -8.637185886211695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.336027",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "23",
+      "coordenadas": [
+        40.77697458013286,
+        -8.641481453880486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.350176",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "43",
+      "coordenadas": [
+        40.77712792354479,
+        -8.639374078927753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.6782",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "85",
+      "coordenadas": [
+        40.778446310270205,
+        -8.634408773299102
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.17176",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "41",
+      "coordenadas": [
+        40.777280482567356,
+        -8.639493694919263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.36124",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "39",
+      "coordenadas": [
+        40.77727991072322,
+        -8.639623994153752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41635",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "3",
+      "coordenadas": [
+        40.77637468411562,
+        -8.642744361909026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.49373",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "21",
+      "coordenadas": [
+        40.77690212559202,
+        -8.641575667235106
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.55761",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "86",
+      "coordenadas": [
+        40.77817673710316,
+        -8.634276441416493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.75136",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "59",
+      "coordenadas": [
+        40.777885677303395,
+        -8.637010654168629
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92717",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "34",
+      "coordenadas": [
+        40.7770164875604,
+        -8.640143205572986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.116693",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "",
+      "coordenadas": [
+        40.776259767691116,
+        -8.642257814205962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.129544",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "55",
+      "coordenadas": [
+        40.77742162531638,
+        -8.638108807505386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.129630",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "",
+      "coordenadas": [
+        40.77818846109261,
+        -8.635721734496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137922",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "36",
+      "coordenadas": [
+        40.7769903062372,
+        -8.63995347486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.162113",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "14",
+      "coordenadas": [
+        40.77640509570849,
+        -8.641974628786771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.165677",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "32",
+      "coordenadas": [
+        40.7769150412375,
+        -8.640687337128108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.175542",
+      "rua": "R PROF ABILIO RAMOS CASA PANTALEÃO",
+      "casa": "16",
+      "coordenadas": [
+        40.776253374630315,
+        -8.641665485561555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190893",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "2",
+      "coordenadas": [
+        40.77616663583829,
+        -8.642955992454823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.196420",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "60",
+      "coordenadas": [
+        40.77742494040321,
+        -8.637350701027755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.204278",
+      "rua": "R ESCOLA",
+      "casa": "34",
+      "coordenadas": [
+        40.77767709777363,
+        -8.641451271930581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.205486",
+      "rua": "R ESCOLA",
+      "casa": "34",
+      "coordenadas": [
+        40.77767709777363,
+        -8.641451271930581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.228960",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "92",
+      "coordenadas": [
+        40.77831437739226,
+        -8.633685177616067
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.237495",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "49",
+      "coordenadas": [
+        40.77713885011394,
+        -8.638935868953238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.260271",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "45",
+      "coordenadas": [
+        40.77754062906457,
+        -8.639720741068638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.265304",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "",
+      "coordenadas": [
+        40.7771513488424,
+        -8.640191613986682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.272349",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "61",
+      "coordenadas": [
+        40.77799554255307,
+        -8.63659687760209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.280418",
+      "rua": "R PROF ABILIO RAMOS",
+      "casa": "63",
+      "coordenadas": [
+        40.77797815338529,
+        -8.636454595453344
+      ]
+    }
+  ],
+  "ruas": [
+    "R PROF ABILIO RAMOS",
+    "R ESCOLA",
+    "R PROF ABILIO RAMOS CASA PANTALEÃO"
+  ],
+  "centro": [
+    40.77729848846264,
+    -8.638320585035444
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.77615964932063,
+                -8.642753823862725
+              ],
+              [
+                40.77615765317273,
+                -8.642696061407841
+              ],
+              [
+                40.77615751135543,
+                -8.642632575396469
+              ],
+              [
+                40.77615922386873,
+                -8.642563365828613
+              ],
+              [
+                40.77616279071263,
+                -8.642488432704269
+              ],
+              [
+                40.77616821188713,
+                -8.64240777602344
+              ],
+              [
+                40.77617548739224,
+                -8.642321395786125
+              ],
+              [
+                40.77618461722794,
+                -8.642229291992322
+              ],
+              [
+                40.77619560139424,
+                -8.642131464642036
+              ],
+              [
+                40.77620843989115,
+                -8.642027913735262
+              ],
+              [
+                40.7762518767441,
+                -8.641812614380187
+              ],
+              [
+                40.77632591195308,
+                -8.641485566576812
+              ],
+              [
+                40.77643054551812,
+                -8.641046770325133
+              ],
+              [
+                40.77656577743919,
+                -8.640496225625153
+              ],
+              [
+                40.77673160771631,
+                -8.639833932476872
+              ],
+              [
+                40.77692803634946,
+                -8.639059890880288
+              ],
+              [
+                40.77715506333867,
+                -8.638174100835403
+              ],
+              [
+                40.77741268868391,
+                -8.63717656234222
+              ],
+              [
+                40.77764017231222,
+                -8.636315022343227
+              ],
+              [
+                40.77783751422359,
+                -8.635589480838433
+              ],
+              [
+                40.77800471441802,
+                -8.634999937827834
+              ],
+              [
+                40.77814177289551,
+                -8.634546393311432
+              ],
+              [
+                40.77824868965607,
+                -8.634228847289224
+              ],
+              [
+                40.77832546469968,
+                -8.634047299761212
+              ],
+              [
+                40.77837209802636,
+                -8.634001750727396
+              ],
+              [
+                40.77838858963611,
+                -8.634092200187773
+              ],
+              [
+                40.77839100084937,
+                -8.634281382506723
+              ],
+              [
+                40.77837933166616,
+                -8.63456929768424
+              ],
+              [
+                40.778353582086474,
+                -8.63495594572033
+              ],
+              [
+                40.77831375211031,
+                -8.635441326614986
+              ],
+              [
+                40.77825984173767,
+                -8.636025440368213
+              ],
+              [
+                40.77819185096855,
+                -8.63670828698001
+              ],
+              [
+                40.77810977980295,
+                -8.637489866450375
+              ],
+              [
+                40.778013628240885,
+                -8.63837017877931
+              ],
+              [
+                40.77790589465633,
+                -8.63916396332532
+              ],
+              [
+                40.777786579049305,
+                -8.639871220088402
+              ],
+              [
+                40.77765568141979,
+                -8.640491949068561
+              ],
+              [
+                40.77751320176779,
+                -8.641026150265791
+              ],
+              [
+                40.77735914009331,
+                -8.641473823680098
+              ],
+              [
+                40.77719349639635,
+                -8.641834969311482
+              ],
+              [
+                40.77701627067692,
+                -8.642109587159936
+              ],
+              [
+                40.776827462935,
+                -8.642297677225468
+              ],
+              [
+                40.77666200664233,
+                -8.642455035725945
+              ],
+              [
+                40.77651990179892,
+                -8.642581662661373
+              ],
+              [
+                40.77640114840476,
+                -8.642677558031748
+              ],
+              [
+                40.77630574645985,
+                -8.642742721837068
+              ],
+              [
+                40.776233695964194,
+                -8.64277715407734
+              ],
+              [
+                40.776184996917785,
+                -8.642780854752559
+              ],
+              [
+                40.77615964932063,
+                -8.642753823862725
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.7771680770933,
+    -8.639443432279643
+  ],
+  "centroDeMassa": [
+    40.77729848846264,
+    -8.638320585035444
+  ]
+}

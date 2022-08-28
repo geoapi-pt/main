@@ -1,1 +1,585 @@
-{"CP4":"4795","CP3":"434","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4795-434","Artéria":"Travessa da Rua A da Sobreira","Localidade":"São Mamede de Negrelos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO MAMEDE NEGRELOS","locais":[{"id":"pt.ine.add.PTCONT.3544710","rua":"R B DA SOBREIRA","casa":"60","coordenadas":[41.350353630779125,-8.349817706824911]},{"id":"pt.ine.add.PTCONT.3596393","rua":"R A DA SOBREIRA","casa":"343","coordenadas":[41.35178405321618,-8.350467717079992]},{"id":"pt.ine.add.PTCONT.3683224","rua":"R B DA SOBREIRA","casa":"","coordenadas":[41.35003806229955,-8.350043692546967]},{"id":"pt.ine.add.PTCONT.3744349","rua":"R B DA SOBREIRA","casa":"42","coordenadas":[41.350164816222055,-8.349673691666734]},{"id":"pt.ine.add.PTCONT.3744445","rua":"R A DA SOBREIRA","casa":"","coordenadas":[41.35054077567567,-8.350845954683429]},{"id":"pt.ine.add.PTCONT.3764469","rua":"R B SOBREIRA","casa":"30","coordenadas":[41.350011860249964,-8.349613439498128]},{"id":"pt.ine.add.PTCONT.3795950","rua":"TV RUA A DA SOBREIRA","casa":"57","coordenadas":[41.35176475680919,-8.351148767436396]},{"id":"pt.ine.add.PTCONT.3802586","rua":"R A DA SOBREIRA","casa":"199","coordenadas":[41.35082989782324,-8.350321152908172]},{"id":"pt.ine.add.PTCONT.3808133","rua":"R A DA SOBREIRA","casa":"","coordenadas":[41.35075734663488,-8.350595743211638]},{"id":"pt.ine.add.PTCONT.3808134","rua":"R A DA SOBREIRA","casa":"95","coordenadas":[41.350503423660925,-8.351550829917066]},{"id":"pt.ine.add.PTCONT.3852989","rua":"R A DA SOBREIRA","casa":"309","coordenadas":[41.35153128569856,-8.350813407038029]},{"id":"pt.ine.add.PTCONT.3860228","rua":"R A DA SOBREIRA","casa":"110","coordenadas":[41.350360333398115,-8.351036539408542]},{"id":"pt.ine.add.PTCONT.3866499","rua":"R A DA SOBREIRA","casa":"71","coordenadas":[41.35038587214631,-8.351813317746343]},{"id":"pt.ine.add.PTCONT.3866500","rua":"R A DA SOBREIRA","casa":"71","coordenadas":[41.35038587214631,-8.351813317746343]},{"id":"pt.ine.add.PTCONT.3871012","rua":"R A DA SOBREIRA","casa":"296","coordenadas":[41.35167769406129,-8.34957116114763]},{"id":"pt.ine.add.PTCONT.3874003","rua":"R A DA SOBREIRA","casa":"292","coordenadas":[41.35167769406129,-8.34957116114763]},{"id":"pt.ine.add.PTCONT.3875302","rua":"R A DA SOBREIRA","casa":"294","coordenadas":[41.35167769406129,-8.34957116114763]},{"id":"pt.ine.add.PTCONT.3917973","rua":"TV RUA A DA SOBREIRA","casa":"41","coordenadas":[41.35165695752879,-8.351016964806279]},{"id":"pt.ine.add.PTCONT.3950712","rua":"R B SOBREIRA","casa":"8","coordenadas":[41.34986763851304,-8.349696604914849]},{"id":"pt.ine.add.PTCONT.3950794","rua":"R A DA SOBREIRA","casa":"47","coordenadas":[41.35024137616737,-8.35203986705159]},{"id":"pt.ine.add.PTCONT.3950795","rua":"R A DA SOBREIRA","casa":"23","coordenadas":[41.350150903865135,-8.352266596528972]},{"id":"pt.ine.add.PTCONT.3963867","rua":"R A SOBREIRA","casa":"320","coordenadas":[41.35161354064972,-8.350168416156293]},{"id":"pt.ine.add.PTCONT.3963868","rua":"R A DA SOBREIRA","casa":"","coordenadas":[41.35161354064972,-8.350168416156293]},{"id":"pt.ine.add.PTCONT.3963869","rua":"R A SOBREIRA","casa":"306","coordenadas":[41.35161354064972,-8.350168416156293]},{"id":"pt.ine.add.PTCONT.4017258","rua":"R A DA SOBREIRA","casa":"237","coordenadas":[41.351001244750066,-8.35017833159047]},{"id":"pt.ine.add.PTCONT.4075228","rua":"R B DA SOBREIRA","casa":"","coordenadas":[41.35034408641234,-8.350104454011785]},{"id":"pt.ine.add.PTCONT.4087160","rua":"R A DA SOBREIRA","casa":"77","coordenadas":[41.35067327353834,-8.352196653296941]},{"id":"pt.ine.add.PTCONT.4187026","rua":"R B DA SOBREIRA","casa":"87","coordenadas":[41.35051511775881,-8.350128920227455]},{"id":"pt.ine.add.PTCONT.4209243","rua":"R A DA SOBREIRA","casa":"258","coordenadas":[41.35102870730833,-8.349939437945924]},{"id":"pt.ine.add.PTCONT.4212850","rua":"R A SOBREIRA","casa":"246","coordenadas":[41.35102870730833,-8.349939437945924]},{"id":"pt.ine.add.PTCONT.4312224","rua":"R A SOBREIRA","casa":"223","coordenadas":[41.35086622951243,-8.350153984679825]},{"id":"pt.ine.add.PTCONT.4385418","rua":"R B DA SOBREIRA","casa":"87","coordenadas":[41.35051511775881,-8.350128920227455]}],"ruas":["R B DA SOBREIRA","R A DA SOBREIRA","R B SOBREIRA","TV RUA A DA SOBREIRA","R A SOBREIRA"],"centroide":[41.35085999785665,-8.35053016976208]}
+{
+  "CP": "4795-434",
+  "CP4": "4795",
+  "CP3": "434",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "São Mamede de Negrelos",
+  "Designação Postal": "SÃO MAMEDE NEGRELOS",
+  "partes": [
+    {
+      "Artéria": "Rua A da Sobreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua B da Sobreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Rua A da Sobreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3544710",
+      "rua": "R B DA SOBREIRA",
+      "casa": "60",
+      "coordenadas": [
+        41.350353630779125,
+        -8.349817706824911
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3596393",
+      "rua": "R A DA SOBREIRA",
+      "casa": "343",
+      "coordenadas": [
+        41.35178405321618,
+        -8.350467717079992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3683224",
+      "rua": "R B DA SOBREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.35003806229955,
+        -8.350043692546967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3744349",
+      "rua": "R B DA SOBREIRA",
+      "casa": "42",
+      "coordenadas": [
+        41.350164816222055,
+        -8.349673691666734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3744445",
+      "rua": "R A DA SOBREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.35054077567567,
+        -8.350845954683429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3764469",
+      "rua": "R B SOBREIRA",
+      "casa": "30",
+      "coordenadas": [
+        41.350011860249964,
+        -8.349613439498128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3795950",
+      "rua": "TV RUA A DA SOBREIRA",
+      "casa": "57",
+      "coordenadas": [
+        41.35176475680919,
+        -8.351148767436396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3802586",
+      "rua": "R A DA SOBREIRA",
+      "casa": "199",
+      "coordenadas": [
+        41.35082989782324,
+        -8.350321152908172
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3808133",
+      "rua": "R A DA SOBREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.35075734663488,
+        -8.350595743211638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3808134",
+      "rua": "R A DA SOBREIRA",
+      "casa": "95",
+      "coordenadas": [
+        41.350503423660925,
+        -8.351550829917066
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3852989",
+      "rua": "R A DA SOBREIRA",
+      "casa": "309",
+      "coordenadas": [
+        41.35153128569856,
+        -8.350813407038029
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3860228",
+      "rua": "R A DA SOBREIRA",
+      "casa": "110",
+      "coordenadas": [
+        41.350360333398115,
+        -8.351036539408542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3866499",
+      "rua": "R A DA SOBREIRA",
+      "casa": "71",
+      "coordenadas": [
+        41.35038587214631,
+        -8.351813317746343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3866500",
+      "rua": "R A DA SOBREIRA",
+      "casa": "71",
+      "coordenadas": [
+        41.35038587214631,
+        -8.351813317746343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3871012",
+      "rua": "R A DA SOBREIRA",
+      "casa": "296",
+      "coordenadas": [
+        41.35167769406129,
+        -8.34957116114763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3874003",
+      "rua": "R A DA SOBREIRA",
+      "casa": "292",
+      "coordenadas": [
+        41.35167769406129,
+        -8.34957116114763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3875302",
+      "rua": "R A DA SOBREIRA",
+      "casa": "294",
+      "coordenadas": [
+        41.35167769406129,
+        -8.34957116114763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3917973",
+      "rua": "TV RUA A DA SOBREIRA",
+      "casa": "41",
+      "coordenadas": [
+        41.35165695752879,
+        -8.351016964806279
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3950712",
+      "rua": "R B SOBREIRA",
+      "casa": "8",
+      "coordenadas": [
+        41.34986763851304,
+        -8.349696604914849
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3950794",
+      "rua": "R A DA SOBREIRA",
+      "casa": "47",
+      "coordenadas": [
+        41.35024137616737,
+        -8.35203986705159
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3950795",
+      "rua": "R A DA SOBREIRA",
+      "casa": "23",
+      "coordenadas": [
+        41.350150903865135,
+        -8.352266596528972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963867",
+      "rua": "R A SOBREIRA",
+      "casa": "320",
+      "coordenadas": [
+        41.35161354064972,
+        -8.350168416156293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963868",
+      "rua": "R A DA SOBREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.35161354064972,
+        -8.350168416156293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963869",
+      "rua": "R A SOBREIRA",
+      "casa": "306",
+      "coordenadas": [
+        41.35161354064972,
+        -8.350168416156293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4017258",
+      "rua": "R A DA SOBREIRA",
+      "casa": "237",
+      "coordenadas": [
+        41.351001244750066,
+        -8.35017833159047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4075228",
+      "rua": "R B DA SOBREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.35034408641234,
+        -8.350104454011785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4087160",
+      "rua": "R A DA SOBREIRA",
+      "casa": "77",
+      "coordenadas": [
+        41.35067327353834,
+        -8.352196653296941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4187026",
+      "rua": "R B DA SOBREIRA",
+      "casa": "87",
+      "coordenadas": [
+        41.35051511775881,
+        -8.350128920227455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4209243",
+      "rua": "R A DA SOBREIRA",
+      "casa": "258",
+      "coordenadas": [
+        41.35102870730833,
+        -8.349939437945924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4212850",
+      "rua": "R A SOBREIRA",
+      "casa": "246",
+      "coordenadas": [
+        41.35102870730833,
+        -8.349939437945924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4312224",
+      "rua": "R A SOBREIRA",
+      "casa": "223",
+      "coordenadas": [
+        41.35086622951243,
+        -8.350153984679825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4385418",
+      "rua": "R B DA SOBREIRA",
+      "casa": "87",
+      "coordenadas": [
+        41.35051511775881,
+        -8.350128920227455
+      ]
+    }
+  ],
+  "ruas": [
+    "R B DA SOBREIRA",
+    "R A DA SOBREIRA",
+    "R B SOBREIRA",
+    "TV RUA A DA SOBREIRA",
+    "R A SOBREIRA"
+  ],
+  "centro": [
+    41.350825845864605,
+    -8.3509188788383
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.35002697527359,
+                -8.351142225197794
+              ],
+              [
+                41.34999156710458,
+                -8.350820976246027
+              ],
+              [
+                41.349962838421334,
+                -8.350538583953597
+              ],
+              [
+                41.34994078922386,
+                -8.3502950483205
+              ],
+              [
+                41.34992541951214,
+                -8.350090369346738
+              ],
+              [
+                41.34991672928619,
+                -8.34992454703231
+              ],
+              [
+                41.349914718546,
+                -8.349797581377217
+              ],
+              [
+                41.34991938729159,
+                -8.349709472381457
+              ],
+              [
+                41.349930735522946,
+                -8.349660220045033
+              ],
+              [
+                41.349948763240064,
+                -8.349649824367942
+              ],
+              [
+                41.34999056614584,
+                -8.349640067551261
+              ],
+              [
+                41.350056144240284,
+                -8.349630949594992
+              ],
+              [
+                41.350145497523386,
+                -8.349622470499131
+              ],
+              [
+                41.350258625995146,
+                -8.34961463026368
+              ],
+              [
+                41.35039552965557,
+                -8.349607428888639
+              ],
+              [
+                41.35055620850467,
+                -8.349600866374006
+              ],
+              [
+                41.35074066254242,
+                -8.349594942719785
+              ],
+              [
+                41.35094889176883,
+                -8.349589657925973
+              ],
+              [
+                41.35113275420374,
+                -8.34959904241783
+              ],
+              [
+                41.35129224984714,
+                -8.349623096195359
+              ],
+              [
+                41.351427378699036,
+                -8.349661819258555
+              ],
+              [
+                41.35153814075943,
+                -8.34971521160742
+              ],
+              [
+                41.35162453602831,
+                -8.349783273241956
+              ],
+              [
+                41.351686564505684,
+                -8.349866004162163
+              ],
+              [
+                41.35172422619155,
+                -8.349963404368038
+              ],
+              [
+                41.351737521085916,
+                -8.350075473859583
+              ],
+              [
+                41.35174885261212,
+                -8.350184176076503
+              ],
+              [
+                41.35175822077017,
+                -8.3502895110188
+              ],
+              [
+                41.35176562556007,
+                -8.350391478686472
+              ],
+              [
+                41.35177106698181,
+                -8.35049007907952
+              ],
+              [
+                41.351774545035404,
+                -8.350585312197943
+              ],
+              [
+                41.351776059720834,
+                -8.350677178041742
+              ],
+              [
+                41.35177561103812,
+                -8.350765676610918
+              ],
+              [
+                41.351773198987246,
+                -8.350850807905468
+              ],
+              [
+                41.35175403401663,
+                -8.35094167100477
+              ],
+              [
+                41.35171811612626,
+                -8.351038265908826
+              ],
+              [
+                41.351665445316144,
+                -8.351140592617634
+              ],
+              [
+                41.351596021586275,
+                -8.351248651131192
+              ],
+              [
+                41.351509844936665,
+                -8.351362441449503
+              ],
+              [
+                41.351406915367306,
+                -8.351481963572567
+              ],
+              [
+                41.35128723287819,
+                -8.351607217500383
+              ],
+              [
+                41.35115079746934,
+                -8.351738203232951
+              ],
+              [
+                41.35102325446044,
+                -8.351853908611949
+              ],
+              [
+                41.35090460385152,
+                -8.351954333637376
+              ],
+              [
+                41.35079484564255,
+                -8.352039478309232
+              ],
+              [
+                41.350693979833544,
+                -8.35210934262752
+              ],
+              [
+                41.35060200642451,
+                -8.352163926592235
+              ],
+              [
+                41.35051892541543,
+                -8.35220323020338
+              ],
+              [
+                41.35044473680631,
+                -8.352227253460955
+              ],
+              [
+                41.350379440597166,
+                -8.352235996364959
+              ],
+              [
+                41.35031788039303,
+                -8.352203490286993
+              ],
+              [
+                41.35026005619392,
+                -8.352129735227052
+              ],
+              [
+                41.35020596799982,
+                -8.352014731185143
+              ],
+              [
+                41.35015561581073,
+                -8.351858478161262
+              ],
+              [
+                41.35010899962666,
+                -8.35166097615541
+              ],
+              [
+                41.350066119447625,
+                -8.351422225167587
+              ],
+              [
+                41.35002697527359,
+                -8.351142225197794
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.35084716860759,
+    -8.350708705700416
+  ],
+  "centroDeMassa": [
+    41.350825845864605,
+    -8.3509188788383
+  ]
+}

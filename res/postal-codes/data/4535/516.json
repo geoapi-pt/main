@@ -1,1 +1,464 @@
-{"CP4":"4535","CP3":"516","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4535-516","Artéria":"Rua 7 das Brévias","Localidade":"Paços de Brandão","Local":"Urbanização das Brévias","Troço":"","Porta":"","Cliente":"","Designação Postal":"PAÇOS DE BRANDÃO","locais":[{"id":"pt.ine.add.PTCONT.298735","rua":"R 3 DAS BREVIAS","casa":"24","coordenadas":[40.97010116580417,-8.585021137612204]},{"id":"pt.ine.add.PTCONT.301265","rua":"R 6 DAS BREVIAS","casa":"20","coordenadas":[40.96677513309567,-8.588620691880053]},{"id":"pt.ine.add.PTCONT.341277","rua":"R 6 DAS BREVIAS","casa":"144","coordenadas":[40.96763212797995,-8.587760399089007]},{"id":"pt.ine.add.PTCONT.9066","rua":"R 2 DAS BREVIAS","casa":"317","coordenadas":[40.96963021460199,-8.587999836795788]},{"id":"pt.ine.add.PTCONT.14356","rua":"R 6 DAS BREVIAS","casa":"408","coordenadas":[40.96952194795736,-8.585765632562955]},{"id":"pt.ine.add.PTCONT.41258","rua":"R 6 DAS BREVIAS","casa":"446","coordenadas":[40.96985660279273,-8.585387754228307]},{"id":"pt.ine.add.PTCONT.82909","rua":"R 6 DAS BREVIAS","casa":"28","coordenadas":[40.96684280560882,-8.588577871435396]},{"id":"pt.ine.add.PTCONT.87290","rua":"R 2 BREVIAS","casa":"254","coordenadas":[40.96933616037682,-8.587213732217492]},{"id":"pt.ine.add.PTCONT.153339","rua":"R 6 DAS BREVIAS","casa":"36","coordenadas":[40.96690099736642,-8.588524500750411]},{"id":"pt.ine.add.PTCONT.177531","rua":"R 7 DAS BREVIAS","casa":"96","coordenadas":[40.968992776152426,-8.58752025838018]},{"id":"pt.ine.add.PTCONT.198135","rua":"R 6 DAS BREVIAS","casa":"57","coordenadas":[40.96719672827265,-8.588565229698757]},{"id":"pt.ine.add.PTCONT.198136","rua":"R 6 DAS BREVIAS","casa":"57","coordenadas":[40.96719672827265,-8.588565229698757]},{"id":"pt.ine.add.PTCONT.203938","rua":"R 3 DAS BREVIAS","casa":"56","coordenadas":[40.97023502067185,-8.585330937112687]},{"id":"pt.ine.add.PTCONT.220631","rua":"R 6 DAS BREVIAS","casa":"12","coordenadas":[40.96671472475718,-8.588700620626318]},{"id":"pt.ine.add.PTCONT.225977","rua":"R 1 DAS BREVIAS","casa":"232","coordenadas":[40.96948196765033,-8.589056147757683]},{"id":"pt.ine.add.PTCONT.258465","rua":"R 6 DAS BREVIAS","casa":"428","coordenadas":[40.9696397513188,-8.585576355554354]},{"id":"pt.ine.add.PTCONT.273912","rua":"R 1","casa":"87","coordenadas":[40.9683751781251,-8.588858450525661]},{"id":"pt.ine.add.PTCONT.281166","rua":"R 1 DAS BREVIAS","casa":"79","coordenadas":[40.96774454134761,-8.588937269965747]}],"ruas":["R 3 DAS BREVIAS","R 6 DAS BREVIAS","R 2 DAS BREVIAS","R 2 BREVIAS","R 7 DAS BREVIAS","R 1 DAS BREVIAS","R 1"],"centroide":[40.968495884165,-8.587473222701531]}
+{
+  "CP": "4535-516",
+  "CP4": "4535",
+  "CP3": "516",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Paços de Brandão",
+  "Designação Postal": "PAÇOS DE BRANDÃO",
+  "partes": [
+    {
+      "Artéria": "Rua 1 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 2 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 2 das Brévias",
+      "Local": "Zona Industrial do Pousado",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 3 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 4 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 5 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 6 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 7 das Brévias",
+      "Local": "Urbanização das Brévias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.298735",
+      "rua": "R 3 DAS BREVIAS",
+      "casa": "24",
+      "coordenadas": [
+        40.97010116580417,
+        -8.585021137612204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.301265",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "20",
+      "coordenadas": [
+        40.96677513309567,
+        -8.588620691880053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.341277",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "144",
+      "coordenadas": [
+        40.96763212797995,
+        -8.587760399089007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.9066",
+      "rua": "R 2 DAS BREVIAS",
+      "casa": "317",
+      "coordenadas": [
+        40.96963021460199,
+        -8.587999836795788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.14356",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "408",
+      "coordenadas": [
+        40.96952194795736,
+        -8.585765632562955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41258",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "446",
+      "coordenadas": [
+        40.96985660279273,
+        -8.585387754228307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.82909",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "28",
+      "coordenadas": [
+        40.96684280560882,
+        -8.588577871435396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.87290",
+      "rua": "R 2 BREVIAS",
+      "casa": "254",
+      "coordenadas": [
+        40.96933616037682,
+        -8.587213732217492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153339",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "36",
+      "coordenadas": [
+        40.96690099736642,
+        -8.588524500750411
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.177531",
+      "rua": "R 7 DAS BREVIAS",
+      "casa": "96",
+      "coordenadas": [
+        40.968992776152426,
+        -8.58752025838018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198135",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "57",
+      "coordenadas": [
+        40.96719672827265,
+        -8.588565229698757
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198136",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "57",
+      "coordenadas": [
+        40.96719672827265,
+        -8.588565229698757
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.203938",
+      "rua": "R 3 DAS BREVIAS",
+      "casa": "56",
+      "coordenadas": [
+        40.97023502067185,
+        -8.585330937112687
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220631",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "12",
+      "coordenadas": [
+        40.96671472475718,
+        -8.588700620626318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.225977",
+      "rua": "R 1 DAS BREVIAS",
+      "casa": "232",
+      "coordenadas": [
+        40.96948196765033,
+        -8.589056147757683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.258465",
+      "rua": "R 6 DAS BREVIAS",
+      "casa": "428",
+      "coordenadas": [
+        40.9696397513188,
+        -8.585576355554354
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.273912",
+      "rua": "R 1",
+      "casa": "87",
+      "coordenadas": [
+        40.9683751781251,
+        -8.588858450525661
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.281166",
+      "rua": "R 1 DAS BREVIAS",
+      "casa": "79",
+      "coordenadas": [
+        40.96774454134761,
+        -8.588937269965747
+      ]
+    }
+  ],
+  "ruas": [
+    "R 3 DAS BREVIAS",
+    "R 6 DAS BREVIAS",
+    "R 2 DAS BREVIAS",
+    "R 2 BREVIAS",
+    "R 7 DAS BREVIAS",
+    "R 1 DAS BREVIAS",
+    "R 1"
+  ],
+  "centro": [
+    40.968474872714516,
+    -8.587038642684943
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.9672939965893,
+                -8.588833735879748
+              ],
+              [
+                40.96716526951549,
+                -8.588804154712317
+              ],
+              [
+                40.9670535772062,
+                -8.588777022304157
+              ],
+              [
+                40.96695891966143,
+                -8.588752338655263
+              ],
+              [
+                40.96688129688117,
+                -8.58873010376564
+              ],
+              [
+                40.96682070886543,
+                -8.588710317635284
+              ],
+              [
+                40.966777155614196,
+                -8.588692980264197
+              ],
+              [
+                40.966750637127475,
+                -8.588678091652378
+              ],
+              [
+                40.96674115340527,
+                -8.588665651799827
+              ],
+              [
+                40.96674870444758,
+                -8.588655660706545
+              ],
+              [
+                40.96680728087068,
+                -8.588590675464488
+              ],
+              [
+                40.96691688267455,
+                -8.588470696073653
+              ],
+              [
+                40.96707750985921,
+                -8.588295722534045
+              ],
+              [
+                40.967289162424635,
+                -8.588065754845662
+              ],
+              [
+                40.96755184037086,
+                -8.587780793008505
+              ],
+              [
+                40.967865543697854,
+                -8.587440837022575
+              ],
+              [
+                40.96823027240564,
+                -8.587045886887868
+              ],
+              [
+                40.9686460264942,
+                -8.586595942604388
+              ],
+              [
+                40.969011902804,
+                -8.586207081973537
+              ],
+              [
+                40.969327901335035,
+                -8.585879304995316
+              ],
+              [
+                40.96959402208731,
+                -8.585612611669726
+              ],
+              [
+                40.96981026506082,
+                -8.585407001996765
+              ],
+              [
+                40.96997663025557,
+                -8.585262475976435
+              ],
+              [
+                40.97009311767155,
+                -8.585179033608735
+              ],
+              [
+                40.97015972730878,
+                -8.585156674893666
+              ],
+              [
+                40.970176459167234,
+                -8.585195399831225
+              ],
+              [
+                40.97017933308993,
+                -8.585287490567918
+              ],
+              [
+                40.97016834907686,
+                -8.585432947103746
+              ],
+              [
+                40.970143507128014,
+                -8.585631769438706
+              ],
+              [
+                40.97010480724339,
+                -8.585883957572797
+              ],
+              [
+                40.970052249423006,
+                -8.58618951150602
+              ],
+              [
+                40.969985833666854,
+                -8.58654843123838
+              ],
+              [
+                40.96990555997493,
+                -8.586960716769871
+              ],
+              [
+                40.96981142834725,
+                -8.587426368100497
+              ],
+              [
+                40.96970191588704,
+                -8.587831955549294
+              ],
+              [
+                40.96957702259431,
+                -8.588177479116265
+              ],
+              [
+                40.969436748469064,
+                -8.588462938801408
+              ],
+              [
+                40.9692810935113,
+                -8.588688334604724
+              ],
+              [
+                40.96911005772101,
+                -8.588853666526212
+              ],
+              [
+                40.968923641098215,
+                -8.588958934565877
+              ],
+              [
+                40.96872184364289,
+                -8.58900413872371
+              ],
+              [
+                40.96850466535505,
+                -8.588989278999719
+              ],
+              [
+                40.96829854346896,
+                -8.588972579095296
+              ],
+              [
+                40.968103477984634,
+                -8.588954039010446
+              ],
+              [
+                40.96791946890205,
+                -8.588933658745166
+              ],
+              [
+                40.967746516221226,
+                -8.588911438299455
+              ],
+              [
+                40.96758461994216,
+                -8.588887377673316
+              ],
+              [
+                40.96743378006485,
+                -8.588861476866747
+              ],
+              [
+                40.9672939965893,
+                -8.588833735879748
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.9685087588878,
+    -8.587611134159115
+  ],
+  "centroDeMassa": [
+    40.968474872714516,
+    -8.587038642684943
+  ]
+}

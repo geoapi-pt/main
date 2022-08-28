@@ -1,1 +1,436 @@
-{"CP4":"3060","CP3":"189","Distrito":"Coimbra","Concelho":"Cantanhede","CP":"3060-189","Artéria":"Rua Professor Pedro Jorge Silva","Localidade":"Cantanhede","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CANTANHEDE","locais":[{"id":"pt.ine.add.PTCONT.1104085","rua":"R PROF PEDRO JORGE SILVA","casa":"32","coordenadas":[40.3563290830377,-8.594423224248935]},{"id":"pt.ine.add.PTCONT.1106117","rua":"R PROF PEDRO JORGE SILVA","casa":"34","coordenadas":[40.3567176742074,-8.594084488482192]},{"id":"pt.ine.add.PTCONT.1108105","rua":"R PROF PEDRO JORGE SILVA","casa":"25","coordenadas":[40.35680650744407,-8.594391162401182]},{"id":"pt.ine.add.PTCONT.1108106","rua":"R PROF PEDRO JORGE SILVA","casa":"25","coordenadas":[40.35680650744407,-8.594391162401182]},{"id":"pt.ine.add.PTCONT.1123918","rua":"R PROF PEDRO JORGE SILVA","casa":"26","coordenadas":[40.35655388810111,-8.594507159223538]},{"id":"pt.ine.add.PTCONT.1135277","rua":"R PROF PEDRO JORGE SILVA","casa":"19","coordenadas":[40.356696564340304,-8.594861287669385]},{"id":"pt.ine.add.PTCONT.1141073","rua":"R PROF PEDRO JORGE SILVA","casa":"14","coordenadas":[40.3563355982664,-8.59504717405496]},{"id":"pt.ine.add.PTCONT.1150911","rua":"R PROF PEDRO JORGE SILVA","casa":"17","coordenadas":[40.35667827164064,-8.594931794038073]},{"id":"pt.ine.add.PTCONT.1181569","rua":"R PROF PEDRO JORGE SILVA","casa":"35","coordenadas":[40.356870624401296,-8.594120845806433]},{"id":"pt.ine.add.PTCONT.1185571","rua":"R PROF PEDRO JORGE SILVA","casa":"23","coordenadas":[40.356806084855805,-8.594497106459002]},{"id":"pt.ine.add.PTCONT.1185572","rua":"R PROF PEDRO JORGE SILVA","casa":"12","coordenadas":[40.356354032054035,-8.5949413536268]},{"id":"pt.ine.add.PTCONT.1194791","rua":"R PROF PEDRO JORGE SILVA","casa":"13","coordenadas":[40.35663249268176,-8.595119831322135]},{"id":"pt.ine.add.PTCONT.1194792","rua":"R PROF PEDRO JORGE SILVA","casa":"13","coordenadas":[40.35663249268176,-8.595119831322135]},{"id":"pt.ine.add.PTCONT.1212127","rua":"R PROF PEDRO JORGE SILVA","casa":"30","coordenadas":[40.35639197962987,-8.594458968334484]},{"id":"pt.ine.add.PTCONT.1227532","rua":"R PROF PEDRO JORGE SILVA","casa":"21","coordenadas":[40.35671509192942,-8.594731923534365]},{"id":"pt.ine.add.PTCONT.1243752","rua":"R PROF PEDRO JORGE SILVA","casa":"15","coordenadas":[40.35665988487388,-8.595025843439455]},{"id":"pt.ine.add.PTCONT.1264814","rua":"R PROF PEDRO JORGE SILVA","casa":"27","coordenadas":[40.356824940635036,-8.594285341053677]},{"id":"pt.ine.add.PTCONT.1272834","rua":"R PROF PEDRO JORGE SILVA","casa":"33","coordenadas":[40.35685228522227,-8.594203124130761]},{"id":"pt.ine.add.PTCONT.1320840","rua":"R PROF PEDRO JORGE SILVA","casa":"28","coordenadas":[40.35649089761049,-8.594494958020574]},{"id":"pt.ine.add.PTCONT.1367098","rua":"R PROF PEDRO JORGE SILVA","casa":"11","coordenadas":[40.35663206942754,-8.595225775096713]},{"id":"pt.ine.add.PTCONT.1367631","rua":"R PROF PEDRO JORGE SILVA","casa":"39","coordenadas":[40.3568980626958,-8.594015085603395]}],"ruas":["R PROF PEDRO JORGE SILVA"],"centroide":[40.35663934852425,-8.594643117733296]}
+{
+  "CP": "3060-189",
+  "CP4": "3060",
+  "CP3": "189",
+  "Distrito": "Coimbra",
+  "Concelho": "Cantanhede",
+  "Localidade": "Cantanhede",
+  "Designação Postal": "CANTANHEDE",
+  "partes": [
+    {
+      "Artéria": "Rua Professor Pedro Jorge Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1104085",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "32",
+      "coordenadas": [
+        40.3563290830377,
+        -8.594423224248935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1106117",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "34",
+      "coordenadas": [
+        40.3567176742074,
+        -8.594084488482192
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1108105",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "25",
+      "coordenadas": [
+        40.35680650744407,
+        -8.594391162401182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1108106",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "25",
+      "coordenadas": [
+        40.35680650744407,
+        -8.594391162401182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1123918",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "26",
+      "coordenadas": [
+        40.35655388810111,
+        -8.594507159223538
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1135277",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "19",
+      "coordenadas": [
+        40.356696564340304,
+        -8.594861287669385
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1141073",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "14",
+      "coordenadas": [
+        40.3563355982664,
+        -8.59504717405496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1150911",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "17",
+      "coordenadas": [
+        40.35667827164064,
+        -8.594931794038073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1181569",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "35",
+      "coordenadas": [
+        40.356870624401296,
+        -8.594120845806433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185571",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "23",
+      "coordenadas": [
+        40.356806084855805,
+        -8.594497106459002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185572",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "12",
+      "coordenadas": [
+        40.356354032054035,
+        -8.5949413536268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1194791",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "13",
+      "coordenadas": [
+        40.35663249268176,
+        -8.595119831322135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1194792",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "13",
+      "coordenadas": [
+        40.35663249268176,
+        -8.595119831322135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1212127",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "30",
+      "coordenadas": [
+        40.35639197962987,
+        -8.594458968334484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1227532",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "21",
+      "coordenadas": [
+        40.35671509192942,
+        -8.594731923534365
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1243752",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "15",
+      "coordenadas": [
+        40.35665988487388,
+        -8.595025843439455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1264814",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "27",
+      "coordenadas": [
+        40.356824940635036,
+        -8.594285341053677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1272834",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "33",
+      "coordenadas": [
+        40.35685228522227,
+        -8.594203124130761
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1320840",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "28",
+      "coordenadas": [
+        40.35649089761049,
+        -8.594494958020574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1367098",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "11",
+      "coordenadas": [
+        40.35663206942754,
+        -8.595225775096713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1367631",
+      "rua": "R PROF PEDRO JORGE SILVA",
+      "casa": "39",
+      "coordenadas": [
+        40.3568980626958,
+        -8.594015085603395
+      ]
+    }
+  ],
+  "ruas": [
+    "R PROF PEDRO JORGE SILVA"
+  ],
+  "centro": [
+    40.35661357286675,
+    -8.594620430350055
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.35633274785384,
+                -8.594774196014823
+              ],
+              [
+                40.35633193345026,
+                -8.594696202289072
+              ],
+              [
+                40.35633729258414,
+                -8.594622665032682
+              ],
+              [
+                40.3563488252555,
+                -8.594553584245656
+              ],
+              [
+                40.356366531464346,
+                -8.594488959927993
+              ],
+              [
+                40.356390411210654,
+                -8.594428792079697
+              ],
+              [
+                40.35642046449445,
+                -8.594373080700763
+              ],
+              [
+                40.356456691315714,
+                -8.59432182579119
+              ],
+              [
+                40.35649909167445,
+                -8.594275027350985
+              ],
+              [
+                40.35654766557066,
+                -8.594232685380142
+              ],
+              [
+                40.35659298629997,
+                -8.594194551735676
+              ],
+              [
+                40.35663505386239,
+                -8.59416062641758
+              ],
+              [
+                40.35667386825792,
+                -8.59413090942586
+              ],
+              [
+                40.35670942948656,
+                -8.594105400760512
+              ],
+              [
+                40.35674173754829,
+                -8.59408410042154
+              ],
+              [
+                40.35677079244313,
+                -8.594067008408942
+              ],
+              [
+                40.35679659417107,
+                -8.594054124722717
+              ],
+              [
+                40.35681914273213,
+                -8.59404544936287
+              ],
+              [
+                40.3568374355693,
+                -8.59404538999887
+              ],
+              [
+                40.356851472682585,
+                -8.59405394663072
+              ],
+              [
+                40.356861254071994,
+                -8.59407111925842
+              ],
+              [
+                40.35686677973751,
+                -8.594096907881971
+              ],
+              [
+                40.35686804967915,
+                -8.594131312501371
+              ],
+              [
+                40.35686506389692,
+                -8.594174333116623
+              ],
+              [
+                40.3568578223908,
+                -8.594225969727724
+              ],
+              [
+                40.3568463251608,
+                -8.594286222334674
+              ],
+              [
+                40.35683354609348,
+                -8.59435032881322
+              ],
+              [
+                40.35681948518885,
+                -8.594418289163361
+              ],
+              [
+                40.356804142446904,
+                -8.594490103385098
+              ],
+              [
+                40.35678751786764,
+                -8.594565771478432
+              ],
+              [
+                40.35676961145106,
+                -8.59464529344336
+              ],
+              [
+                40.356750423197155,
+                -8.594728669279881
+              ],
+              [
+                40.35672995310594,
+                -8.594815898988001
+              ],
+              [
+                40.35670820117741,
+                -8.594906982567714
+              ],
+              [
+                40.356684535878045,
+                -8.594983890058685
+              ],
+              [
+                40.35665895720786,
+                -8.595046621460916
+              ],
+              [
+                40.35663146516685,
+                -8.595095176774405
+              ],
+              [
+                40.35660205975501,
+                -8.595129555999154
+              ],
+              [
+                40.356570740972344,
+                -8.59514975913516
+              ],
+              [
+                40.35653750881886,
+                -8.595155786182424
+              ],
+              [
+                40.35650236329454,
+                -8.595147637140947
+              ],
+              [
+                40.3564653043994,
+                -8.595125312010726
+              ],
+              [
+                40.3564327760657,
+                -8.595096028306067
+              ],
+              [
+                40.356404778293445,
+                -8.595059786026965
+              ],
+              [
+                40.356381311082636,
+                -8.59501658517342
+              ],
+              [
+                40.35636237443327,
+                -8.594966425745431
+              ],
+              [
+                40.35634796834535,
+                -8.594909307743004
+              ],
+              [
+                40.35633809281887,
+                -8.594845231166135
+              ],
+              [
+                40.35633274785384,
+                -8.594774196014823
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.35661976208177,
+    -8.594548808990867
+  ],
+  "centroDeMassa": [
+    40.35661357286675,
+    -8.594620430350055
+  ]
+}

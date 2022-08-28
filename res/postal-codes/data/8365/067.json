@@ -1,1 +1,491 @@
-{"CP4":"8365","CP3":"067","Distrito":"Faro","Concelho":"Silves","CP":"8365-067","Artéria":"Rua Francisco Sá Carneiro","Localidade":"Algoz","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALGOZ","locais":[{"id":"pt.ine.add.PTCONT.1467156","rua":"URB OLIVAL DA COLINA","casa":"","coordenadas":[37.15961898656545,-8.3055592023254]},{"id":"pt.ine.add.PTCONT.1483088","rua":"","casa":"","coordenadas":[37.160883506844584,-8.30345678537827]},{"id":"pt.ine.add.PTCONT.1575834","rua":"R FRANCISCO SA CARNEIRO","casa":"","coordenadas":[37.16239986886414,-8.301647576480649]},{"id":"pt.ine.add.PTCONT.1587006","rua":"R FRANCISCO SA CARNEIRO","casa":"3","coordenadas":[37.16220099573772,-8.30209747206178]},{"id":"pt.ine.add.PTCONT.1588831","rua":"R FRANCISCO SA CARNEIRO","casa":"9","coordenadas":[37.162210791627984,-8.301545830821155]},{"id":"pt.ine.add.PTCONT.1599143","rua":"","casa":"","coordenadas":[37.16087485206047,-8.303209084871584]},{"id":"pt.ine.add.PTCONT.1641228","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16220083514621,-8.302210055984432]},{"id":"pt.ine.add.PTCONT.1662237","rua":"R FRANCISCO SA CARNEIRO","casa":"5","coordenadas":[37.16220114017863,-8.301996146530628]},{"id":"pt.ine.add.PTCONT.1697969","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1697970","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1697971","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1697972","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1697973","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1697974","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1697975","rua":"R FRANCISCO SA CARNEIRO","casa":"1","coordenadas":[37.16238979926251,-8.302390612223915]},{"id":"pt.ine.add.PTCONT.1759565","rua":"R FRANCISCO SÁ CARNEIRO","casa":"7","coordenadas":[37.16220141277509,-8.301804753858711]},{"id":"pt.ine.add.PTCONT.1770814","rua":"BR COELHOS","casa":"3","coordenadas":[37.16109406015585,-8.301138055497102]},{"id":"pt.ine.add.PTCONT.1771890","rua":"R FRANCISCO SA CARNEIRO","casa":"2","coordenadas":[37.16235420698172,-8.302075296231529]},{"id":"pt.ine.add.PTCONT.1801283","rua":"R VALE VERDINHO","casa":"5","coordenadas":[37.16091356186509,-8.30134030425186]},{"id":"pt.ine.add.PTCONT.1823409","rua":"SIT CASA VELHA","casa":"9","coordenadas":[37.160868349297786,-8.301452786363216]},{"id":"pt.ine.add.PTCONT.1823410","rua":"SIT CASA VELHA","casa":"9","coordenadas":[37.160868349297786,-8.301452786363216]},{"id":"pt.ine.add.PTCONT.1823411","rua":"SIT CASA VELHA","casa":"9","coordenadas":[37.160868349297786,-8.301452786363216]},{"id":"pt.ine.add.PTCONT.1824171","rua":"SIT CASA VELHA","casa":"9","coordenadas":[37.160868349297786,-8.301452786363216]}],"ruas":["URB OLIVAL DA COLINA","","R FRANCISCO SA CARNEIRO","R FRANCISCO SÁ CARNEIRO","BR COELHOS","R VALE VERDINHO","SIT CASA VELHA"],"centroide":[37.16174944825154,-8.302235145861372]}
+{
+  "CP": "8365-067",
+  "CP4": "8365",
+  "CP3": "067",
+  "Distrito": "Faro",
+  "Concelho": "Silves",
+  "Localidade": "Algoz",
+  "Designação Postal": "ALGOZ",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco Sá Carneiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1467156",
+      "rua": "URB OLIVAL DA COLINA",
+      "casa": "",
+      "coordenadas": [
+        37.15961898656545,
+        -8.3055592023254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1483088",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.160883506844584,
+        -8.30345678537827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1575834",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "",
+      "coordenadas": [
+        37.16239986886414,
+        -8.301647576480649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1587006",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "3",
+      "coordenadas": [
+        37.16220099573772,
+        -8.30209747206178
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1588831",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "9",
+      "coordenadas": [
+        37.162210791627984,
+        -8.301545830821155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1599143",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.16087485206047,
+        -8.303209084871584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1641228",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16220083514621,
+        -8.302210055984432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1662237",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "5",
+      "coordenadas": [
+        37.16220114017863,
+        -8.301996146530628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697969",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697970",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697971",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697972",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697973",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697974",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697975",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "1",
+      "coordenadas": [
+        37.16238979926251,
+        -8.302390612223915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1759565",
+      "rua": "R FRANCISCO SÁ CARNEIRO",
+      "casa": "7",
+      "coordenadas": [
+        37.16220141277509,
+        -8.301804753858711
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1770814",
+      "rua": "BR COELHOS",
+      "casa": "3",
+      "coordenadas": [
+        37.16109406015585,
+        -8.301138055497102
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1771890",
+      "rua": "R FRANCISCO SA CARNEIRO",
+      "casa": "2",
+      "coordenadas": [
+        37.16235420698172,
+        -8.302075296231529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1801283",
+      "rua": "R VALE VERDINHO",
+      "casa": "5",
+      "coordenadas": [
+        37.16091356186509,
+        -8.30134030425186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1823409",
+      "rua": "SIT CASA VELHA",
+      "casa": "9",
+      "coordenadas": [
+        37.160868349297786,
+        -8.301452786363216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1823410",
+      "rua": "SIT CASA VELHA",
+      "casa": "9",
+      "coordenadas": [
+        37.160868349297786,
+        -8.301452786363216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1823411",
+      "rua": "SIT CASA VELHA",
+      "casa": "9",
+      "coordenadas": [
+        37.160868349297786,
+        -8.301452786363216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1824171",
+      "rua": "SIT CASA VELHA",
+      "casa": "9",
+      "coordenadas": [
+        37.160868349297786,
+        -8.301452786363216
+      ]
+    }
+  ],
+  "ruas": [
+    "URB OLIVAL DA COLINA",
+    "R FRANCISCO SA CARNEIRO",
+    "R FRANCISCO SÁ CARNEIRO",
+    "BR COELHOS",
+    "R VALE VERDINHO",
+    "SIT CASA VELHA"
+  ],
+  "centro": [
+    37.161009427714795,
+    -8.303348628911252
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.16117756870755,
+                -8.303776870393316
+              ],
+              [
+                37.16083121712041,
+                -8.304172944155999
+              ],
+              [
+                37.160547680774364,
+                -8.30445534594894
+              ],
+              [
+                37.160326959669405,
+                -8.304624075772137
+              ],
+              [
+                37.16016905380552,
+                -8.304679133625589
+              ],
+              [
+                37.160073963182725,
+                -8.304620519509294
+              ],
+              [
+                37.16004168780101,
+                -8.304448233423257
+              ],
+              [
+                37.16007222766038,
+                -8.304162275367473
+              ],
+              [
+                37.16016558276084,
+                -8.303762645341944
+              ],
+              [
+                37.160321753102394,
+                -8.303249343346671
+              ],
+              [
+                37.16045910859761,
+                -8.302798446567817
+              ],
+              [
+                37.16057764924649,
+                -8.302409955005384
+              ],
+              [
+                37.16067737504905,
+                -8.302083868659368
+              ],
+              [
+                37.160758286005276,
+                -8.30182018752977
+              ],
+              [
+                37.160820382115176,
+                -8.301618911616593
+              ],
+              [
+                37.16086366337875,
+                -8.301480040919838
+              ],
+              [
+                37.160888129795985,
+                -8.301403575439497
+              ],
+              [
+                37.16089378136689,
+                -8.301389515175579
+              ],
+              [
+                37.160901546777225,
+                -8.301374052307855
+              ],
+              [
+                37.160911426027,
+                -8.30135718683633
+              ],
+              [
+                37.1609234191162,
+                -8.301338918761003
+              ],
+              [
+                37.16093752604483,
+                -8.30131924808187
+              ],
+              [
+                37.16095374681289,
+                -8.301298174798934
+              ],
+              [
+                37.16097208142038,
+                -8.301275698912196
+              ],
+              [
+                37.1609925298673,
+                -8.301251820421655
+              ],
+              [
+                37.16101509215363,
+                -8.30122653932731
+              ],
+              [
+                37.161052283083436,
+                -8.301210789859196
+              ],
+              [
+                37.16110410265671,
+                -8.301204572017314
+              ],
+              [
+                37.16117055087343,
+                -8.301207885801663
+              ],
+              [
+                37.161251627733606,
+                -8.301220731212243
+              ],
+              [
+                37.161347333237245,
+                -8.301243108249055
+              ],
+              [
+                37.16145766738435,
+                -8.301275016912099
+              ],
+              [
+                37.161582630174905,
+                -8.301316457201374
+              ],
+              [
+                37.161722221608926,
+                -8.301367429116883
+              ],
+              [
+                37.16184731844551,
+                -8.30141361931888
+              ],
+              [
+                37.16195792068464,
+                -8.30145502780737
+              ],
+              [
+                37.16205402832635,
+                -8.30149165458235
+              ],
+              [
+                37.16213564137062,
+                -8.301523499643821
+              ],
+              [
+                37.16220275981745,
+                -8.301550562991784
+              ],
+              [
+                37.162255383666846,
+                -8.301572844626238
+              ],
+              [
+                37.16229351291881,
+                -8.301590344547183
+              ],
+              [
+                37.16231714757332,
+                -8.301603062754621
+              ],
+              [
+                37.1623376705585,
+                -8.301625801119616
+              ],
+              [
+                37.162355081874345,
+                -8.301658559642172
+              ],
+              [
+                37.16236938152085,
+                -8.301701338322285
+              ],
+              [
+                37.162380569498,
+                -8.301754137159957
+              ],
+              [
+                37.16238864580582,
+                -8.301816956155188
+              ],
+              [
+                37.16239361044429,
+                -8.301889795307979
+              ],
+              [
+                37.16239546341343,
+                -8.301972654618327
+              ],
+              [
+                37.16239420471322,
+                -8.302065534086237
+              ],
+              [
+                37.16234980940216,
+                -8.302196312840993
+              ],
+              [
+                37.16226227748022,
+                -8.302364990882593
+              ],
+              [
+                37.16213160894741,
+                -8.302571568211043
+              ],
+              [
+                37.16195780380375,
+                -8.30281604482634
+              ],
+              [
+                37.161740862049214,
+                -8.303098420728483
+              ],
+              [
+                37.161480783683814,
+                -8.303418695917477
+              ],
+              [
+                37.16117756870755,
+                -8.303776870393316
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.16135648823411,
+    -8.302153481137612
+  ],
+  "centroDeMassa": [
+    37.161009427714795,
+    -8.303348628911252
+  ]
+}

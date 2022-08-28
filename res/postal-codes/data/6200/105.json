@@ -1,1 +1,482 @@
-{"CP4":"6200","CP3":"105","Distrito":"Castelo Branco","Concelho":"Covilhã","CP":"6200-105","Artéria":"Rua Francisco Rodrigues Taborda","Localidade":"Covilhã","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"COVILHÃ","locais":[{"id":"pt.ine.add.PTCONT.956520","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"12","coordenadas":[40.280835698817896,-7.4972556948953235]},{"id":"pt.ine.add.PTCONT.956521","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"5","coordenadas":[40.28055433985497,-7.496858538876511]},{"id":"pt.ine.add.PTCONT.957585","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"17","coordenadas":[40.28118690180533,-7.4972524045108235]},{"id":"pt.ine.add.PTCONT.963586","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"11","coordenadas":[40.280808295487994,-7.497185399838052]},{"id":"pt.ine.add.PTCONT.974595","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"7","coordenadas":[40.28072563270661,-7.496892208925852]},{"id":"pt.ine.add.PTCONT.986892","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"2","coordenadas":[40.280419714338464,-7.496942110882871]},{"id":"pt.ine.add.PTCONT.998056","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"8","coordenadas":[40.28075303621347,-7.496962503777222]},{"id":"pt.ine.add.PTCONT.1013702","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"1","coordenadas":[40.28036581239824,-7.496966133232105]},{"id":"pt.ine.add.PTCONT.1016080","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"14","coordenadas":[40.28102513118659,-7.497312713479719]},{"id":"pt.ine.add.PTCONT.1020724","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"13","coordenadas":[40.28097122917442,-7.497336735756214]},{"id":"pt.ine.add.PTCONT.1027475","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"4","coordenadas":[40.280509443139195,-7.4968824769243305]},{"id":"pt.ine.add.PTCONT.1037871","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"6","coordenadas":[40.280608241769926,-7.496834516373421]},{"id":"pt.ine.add.PTCONT.1066327","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"9","coordenadas":[40.28077143447313,-7.497032883083258]},{"id":"pt.ine.add.PTCONT.1075307","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"15","coordenadas":[40.281079097804906,-7.497300449238512]},{"id":"pt.ine.add.PTCONT.1077145","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"18","coordenadas":[40.28124093303226,-7.4972518982926895]},{"id":"pt.ine.add.PTCONT.1088196","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"10","coordenadas":[40.2807808921157,-7.497115104837962]},{"id":"pt.ine.add.PTCONT.1092596","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"","coordenadas":[40.281698324029435,-7.49690660813752]},{"id":"pt.ine.add.PTCONT.1096844","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"16","coordenadas":[40.28112399460336,-7.497276511260203]},{"id":"pt.ine.add.PTCONT.1098890","rua":"R FRANCISCO RODRIGUES TABORDA","casa":"3","coordenadas":[40.280464546417825,-7.4969064149401525]}],"ruas":["R FRANCISCO RODRIGUES TABORDA"],"centroide":[40.280858786275104,-7.497086938462366]}
+{
+  "CP": "6200-105",
+  "CP4": "6200",
+  "CP3": "105",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Covilhã",
+  "Localidade": "Covilhã",
+  "Designação Postal": "COVILHÃ",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco Rodrigues Taborda",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.956520",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "12",
+      "coordenadas": [
+        40.280835698817896,
+        -7.4972556948953235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.956521",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "5",
+      "coordenadas": [
+        40.28055433985497,
+        -7.496858538876511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.957585",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "17",
+      "coordenadas": [
+        40.28118690180533,
+        -7.4972524045108235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.963586",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "11",
+      "coordenadas": [
+        40.280808295487994,
+        -7.497185399838052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.974595",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "7",
+      "coordenadas": [
+        40.28072563270661,
+        -7.496892208925852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.986892",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "2",
+      "coordenadas": [
+        40.280419714338464,
+        -7.496942110882871
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.998056",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "8",
+      "coordenadas": [
+        40.28075303621347,
+        -7.496962503777222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1013702",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "1",
+      "coordenadas": [
+        40.28036581239824,
+        -7.496966133232105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1016080",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "14",
+      "coordenadas": [
+        40.28102513118659,
+        -7.497312713479719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1020724",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "13",
+      "coordenadas": [
+        40.28097122917442,
+        -7.497336735756214
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1027475",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "4",
+      "coordenadas": [
+        40.280509443139195,
+        -7.4968824769243305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1037871",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "6",
+      "coordenadas": [
+        40.280608241769926,
+        -7.496834516373421
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1066327",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "9",
+      "coordenadas": [
+        40.28077143447313,
+        -7.497032883083258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1075307",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "15",
+      "coordenadas": [
+        40.281079097804906,
+        -7.497300449238512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1077145",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "18",
+      "coordenadas": [
+        40.28124093303226,
+        -7.4972518982926895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1088196",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "10",
+      "coordenadas": [
+        40.2807808921157,
+        -7.497115104837962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1092596",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "",
+      "coordenadas": [
+        40.281698324029435,
+        -7.49690660813752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1096844",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "16",
+      "coordenadas": [
+        40.28112399460336,
+        -7.497276511260203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1098890",
+      "rua": "R FRANCISCO RODRIGUES TABORDA",
+      "casa": "3",
+      "coordenadas": [
+        40.280464546417825,
+        -7.4969064149401525
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO RODRIGUES TABORDA"
+  ],
+  "centro": [
+    40.28103206821383,
+    -7.497085626064818
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.28063012350929,
+                -7.497129011667665
+              ],
+              [
+                40.280571387706836,
+                -7.497092816459762
+              ],
+              [
+                40.28052153659874,
+                -7.497060212554536
+              ],
+              [
+                40.28048057018502,
+                -7.497031199951985
+              ],
+              [
+                40.28044848846565,
+                -7.497005778652111
+              ],
+              [
+                40.280425291440636,
+                -7.496983948654914
+              ],
+              [
+                40.28041097911,
+                -7.496965709960392
+              ],
+              [
+                40.28040555147372,
+                -7.496951062568545
+              ],
+              [
+                40.280409008531805,
+                -7.496940006479376
+              ],
+              [
+                40.28042135028426,
+                -7.496932541692882
+              ],
+              [
+                40.2804335523401,
+                -7.496925261941205
+              ],
+              [
+                40.28044561469935,
+                -7.4969181672243455
+              ],
+              [
+                40.280457537362,
+                -7.496911257542303
+              ],
+              [
+                40.280469320328045,
+                -7.496904532895079
+              ],
+              [
+                40.28048096359749,
+                -7.496897993282672
+              ],
+              [
+                40.28049246717033,
+                -7.496891638705083
+              ],
+              [
+                40.28050383104658,
+                -7.49688546916231
+              ],
+              [
+                40.28051505522622,
+                -7.496879484654355
+              ],
+              [
+                40.28052571860083,
+                -7.496873872858283
+              ],
+              [
+                40.2805358211704,
+                -7.4968686337740955
+              ],
+              [
+                40.280545362934944,
+                -7.496863767401791
+              ],
+              [
+                40.28055434389445,
+                -7.496859273741371
+              ],
+              [
+                40.28056276404892,
+                -7.4968551527928335
+              ],
+              [
+                40.28057062339836,
+                -7.49685140455618
+              ],
+              [
+                40.280577921942765,
+                -7.496848029031409
+              ],
+              [
+                40.280584659682134,
+                -7.496845026218523
+              ],
+              [
+                40.28060758773938,
+                -7.4968435251910615
+              ],
+              [
+                40.280646706114524,
+                -7.496843525949024
+              ],
+              [
+                40.280702014807545,
+                -7.496845028492412
+              ],
+              [
+                40.280773513818446,
+                -7.496848032821227
+              ],
+              [
+                40.28086120314724,
+                -7.496852538935464
+              ],
+              [
+                40.280965082793905,
+                -7.496858546835127
+              ],
+              [
+                40.28108515275846,
+                -7.496866056520215
+              ],
+              [
+                40.2812214130409,
+                -7.496875067990727
+              ],
+              [
+                40.281333494053705,
+                -7.496888348186099
+              ],
+              [
+                40.28142139579687,
+                -7.496905897106332
+              ],
+              [
+                40.2814851182704,
+                -7.4969277147514255
+              ],
+              [
+                40.2815246614743,
+                -7.49695380112138
+              ],
+              [
+                40.28154002540856,
+                -7.496984156216195
+              ],
+              [
+                40.28153121007318,
+                -7.497018780035869
+              ],
+              [
+                40.28149821546817,
+                -7.4970576725804055
+              ],
+              [
+                40.281441041593524,
+                -7.497100833849803
+              ],
+              [
+                40.28138680033043,
+                -7.497139925545892
+              ],
+              [
+                40.28133549167888,
+                -7.497174947668674
+              ],
+              [
+                40.28128711563889,
+                -7.49720590021815
+              ],
+              [
+                40.281241672210456,
+                -7.497232783194318
+              ],
+              [
+                40.28119916139357,
+                -7.49725559659718
+              ],
+              [
+                40.28115958318824,
+                -7.497274340426734
+              ],
+              [
+                40.28112293759445,
+                -7.497289014682981
+              ],
+              [
+                40.281089224612224,
+                -7.497299619365922
+              ],
+              [
+                40.281057608090954,
+                -7.4973076322000445
+              ],
+              [
+                40.28102808803064,
+                -7.497313053185347
+              ],
+              [
+                40.28100066443128,
+                -7.49731588232183
+              ],
+              [
+                40.28097533729289,
+                -7.4973161196094935
+              ],
+              [
+                40.280952106615445,
+                -7.4973137650483395
+              ],
+              [
+                40.28093097239896,
+                -7.497308818638366
+              ],
+              [
+                40.28091193464344,
+                -7.497301280379574
+              ],
+              [
+                40.28089499334887,
+                -7.4972911502719635
+              ],
+              [
+                40.28087282774082,
+                -7.497277762026815
+              ],
+              [
+                40.28084543781929,
+                -7.497261115644131
+              ],
+              [
+                40.28081282358426,
+                -7.49724121112391
+              ],
+              [
+                40.28077498503574,
+                -7.497218048466154
+              ],
+              [
+                40.28073192217374,
+                -7.49719162767086
+              ],
+              [
+                40.28068363499826,
+                -7.4971619487380305
+              ],
+              [
+                40.28063012350929,
+                -7.497129011667665
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.28084239068687,
+    -7.497039567562992
+  ],
+  "centroDeMassa": [
+    40.28103206821383,
+    -7.497085626064818
+  ]
+}

@@ -1,1 +1,241 @@
-{"CP4":"1800","CP3":"149","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1800-149","Artéria":"Rua Conselheiro Teles de Vasconcelos","Localidade":"Lisboa","Local":"Olivais Velho","Troço":"","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.3010505","rua":"R CONS TELES DE VASCONCELOS","casa":"18","coordenadas":[38.769676082951996,-9.10791528654934]},{"id":"pt.ine.add.PTCONT.3010506","rua":"R CONS TELES DE VASCONCELOS","casa":"18","coordenadas":[38.769676082951996,-9.10791528654934]},{"id":"pt.ine.add.PTCONT.3010507","rua":"R CONS TELES DE VASCONCELOS","casa":"18","coordenadas":[38.769676082951996,-9.10791528654934]},{"id":"pt.ine.add.PTCONT.3010508","rua":"R CONS TELES DE VASCONCELOS","casa":"18","coordenadas":[38.769676082951996,-9.10791528654934]},{"id":"pt.ine.add.PTCONT.3325904","rua":"R CONS TELES DE VASCONCELOS","casa":"17","coordenadas":[38.76888730746821,-9.108525882110602]},{"id":"pt.ine.add.PTCONT.3325905","rua":"R CONS TELES DE VASCONCELOS","casa":"17","coordenadas":[38.76888730746821,-9.108525882110602]},{"id":"pt.ine.add.PTCONT.3325906","rua":"R CONS TELES DE VASCONCELOS","casa":"17","coordenadas":[38.76888730746821,-9.108525882110602]},{"id":"pt.ine.add.PTCONT.3325907","rua":"R CONS TELES DE VASCONCELOS","casa":"17","coordenadas":[38.76888730746821,-9.108525882110602]},{"id":"pt.ine.add.PTCONT.3361663","rua":"R CONS TELES DE VASCONCELOS","casa":"19","coordenadas":[38.76980275395537,-9.107847972932571]},{"id":"pt.ine.add.PTCONT.3361664","rua":"R CONS TELES DE VASCONCELOS","casa":"19","coordenadas":[38.76980275395537,-9.107847972932571]}],"ruas":["R CONS TELES DE VASCONCELOS"],"centroide":[38.769339590626245,-9.10817918306359]}
+{
+  "CP": "1800-149",
+  "CP4": "1800",
+  "CP3": "149",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua Conselheiro Teles de Vasconcelos",
+      "Local": "Olivais Velho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3010505",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "18",
+      "coordenadas": [
+        38.769676082951996,
+        -9.10791528654934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3010506",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "18",
+      "coordenadas": [
+        38.769676082951996,
+        -9.10791528654934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3010507",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "18",
+      "coordenadas": [
+        38.769676082951996,
+        -9.10791528654934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3010508",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "18",
+      "coordenadas": [
+        38.769676082951996,
+        -9.10791528654934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3325904",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "17",
+      "coordenadas": [
+        38.76888730746821,
+        -9.108525882110602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3325905",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "17",
+      "coordenadas": [
+        38.76888730746821,
+        -9.108525882110602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3325906",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "17",
+      "coordenadas": [
+        38.76888730746821,
+        -9.108525882110602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3325907",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "17",
+      "coordenadas": [
+        38.76888730746821,
+        -9.108525882110602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3361663",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "19",
+      "coordenadas": [
+        38.76980275395537,
+        -9.107847972932571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3361664",
+      "rua": "R CONS TELES DE VASCONCELOS",
+      "casa": "19",
+      "coordenadas": [
+        38.76980275395537,
+        -9.107847972932571
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONS TELES DE VASCONCELOS"
+  ],
+  "centro": [
+    38.76934503071179,
+    -9.108186927521587
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.76940224611724,
+                -9.108144558197958
+              ],
+              [
+                38.76928781530634,
+                -9.108229296845215
+              ],
+              [
+                38.76920001296374,
+                -9.108293902605917
+              ],
+              [
+                38.769138839089436,
+                -9.108338375480066
+              ],
+              [
+                38.769104293683434,
+                -9.108362715467667
+              ],
+              [
+                38.76909637674572,
+                -9.108366922568713
+              ],
+              [
+                38.76911508827631,
+                -9.10835099678321
+              ],
+              [
+                38.76916042827519,
+                -9.108314938111157
+              ],
+              [
+                38.76923239674237,
+                -9.108258746552549
+              ],
+              [
+                38.76933099367784,
+                -9.108182422107392
+              ],
+              [
+                38.76941924523081,
+                -9.108114586442616
+              ],
+              [
+                38.76949715140126,
+                -9.108055239558222
+              ],
+              [
+                38.769564712189215,
+                -9.108004381454213
+              ],
+              [
+                38.76962192759466,
+                -9.107962012130587
+              ],
+              [
+                38.769668797617605,
+                -9.107928131587343
+              ],
+              [
+                38.76970532225804,
+                -9.107902739824482
+              ],
+              [
+                38.76973150151597,
+                -9.107885836842003
+              ],
+              [
+                38.76974733539139,
+                -9.107877422639907
+              ],
+              [
+                38.769746886181025,
+                -9.10788065254398
+              ],
+              [
+                38.76973015388487,
+                -9.107895526554222
+              ],
+              [
+                38.76969713850293,
+                -9.107922044670632
+              ],
+              [
+                38.769647840035184,
+                -9.10796020689321
+              ],
+              [
+                38.76958225848166,
+                -9.108010013221959
+              ],
+              [
+                38.76950039384234,
+                -9.108071463656874
+              ],
+              [
+                38.76940224611724,
+                -9.108144558197958
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.76945538145853,
+    -9.108096380530837
+  ],
+  "centroDeMassa": [
+    38.76934503071179,
+    -9.108186927521587
+  ]
+}

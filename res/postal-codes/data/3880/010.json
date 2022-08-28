@@ -1,1 +1,294 @@
-{"CP4":"3880","CP3":"010","Distrito":"Aveiro","Concelho":"Ovar","CP":"3880-010","Artéria":"Rua Conde de Ferreira","Localidade":"Ovar","Local":"Carregal","Troço":"","Porta":"","Cliente":"","Designação Postal":"OVAR","locais":[{"id":"pt.ine.add.PTCONT.293100","rua":"R AUGUSTO SERENO","casa":"30","coordenadas":[40.86450903031264,-8.647985993650725]},{"id":"pt.ine.add.PTCONT.306520","rua":"R PADRE AMÉRICO","casa":"73","coordenadas":[40.86600929811858,-8.65278968949458]},{"id":"pt.ine.add.PTCONT.325440","rua":"R AUGUSTO SERENO","casa":"47","coordenadas":[40.864986744379436,-8.647882940963479]},{"id":"pt.ine.add.PTCONT.331587","rua":"R MARIA ALBERTINA","casa":"34","coordenadas":[40.86433778628449,-8.648020251235428]},{"id":"pt.ine.add.PTCONT.63500","rua":"R AUGUSTO SERENO","casa":"92","coordenadas":[40.86442565928107,-8.648507244832283]},{"id":"pt.ine.add.PTCONT.89811","rua":"R AUGUSTO SERENO","casa":"22 23","coordenadas":[40.864795372991594,-8.648391497525935]},{"id":"pt.ine.add.PTCONT.113736","rua":"R AUGUSTO SERENO","casa":"25","coordenadas":[40.8645971683959,-8.648413683899005]},{"id":"pt.ine.add.PTCONT.166908","rua":"R AUGUSTO SERENO","casa":"62","coordenadas":[40.86437306284743,-8.648186582427368]},{"id":"pt.ine.add.PTCONT.240330","rua":"R AUGUSTO SERENO","casa":"44","coordenadas":[40.86467126984306,-8.647951666160258]}],"ruas":["R AUGUSTO SERENO","R PADRE AMÉRICO","R MARIA ALBERTINA"],"centroide":[40.8647542653264,-8.6487722355036]}722355036]}
+{
+  "CP": "3880-010",
+  "CP4": "3880",
+  "CP3": "010",
+  "Distrito": "Aveiro",
+  "Concelho": "Ovar",
+  "Localidade": "Ovar",
+  "Designação Postal": "OVAR",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Américo",
+      "Local": "Carregal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Doutor João Araújo Correia",
+      "Local": "Carregal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Maria Albertina",
+      "Local": "Carregal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Augusto Sereno",
+      "Local": "Carregal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Conde de Ferreira",
+      "Local": "Carregal",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.293100",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "30",
+      "coordenadas": [
+        40.86450903031264,
+        -8.647985993650725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306520",
+      "rua": "R PADRE AMÉRICO",
+      "casa": "73",
+      "coordenadas": [
+        40.86600929811858,
+        -8.65278968949458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.325440",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "47",
+      "coordenadas": [
+        40.864986744379436,
+        -8.647882940963479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.331587",
+      "rua": "R MARIA ALBERTINA",
+      "casa": "34",
+      "coordenadas": [
+        40.86433778628449,
+        -8.648020251235428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.63500",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "92",
+      "coordenadas": [
+        40.86442565928107,
+        -8.648507244832283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89811",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "22 23",
+      "coordenadas": [
+        40.864795372991594,
+        -8.648391497525935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.113736",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "25",
+      "coordenadas": [
+        40.8645971683959,
+        -8.648413683899005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.166908",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "62",
+      "coordenadas": [
+        40.86437306284743,
+        -8.648186582427368
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.240330",
+      "rua": "R AUGUSTO SERENO",
+      "casa": "44",
+      "coordenadas": [
+        40.86467126984306,
+        -8.647951666160258
+      ]
+    }
+  ],
+  "ruas": [
+    "R AUGUSTO SERENO",
+    "R PADRE AMÉRICO",
+    "R MARIA ALBERTINA"
+  ],
+  "centro": [
+    40.86517354220153,
+    -8.65033631522903
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.86438721484507,
+                -8.64829418513366
+              ],
+              [
+                40.86437623072049,
+                -8.648233310934051
+              ],
+              [
+                40.86437675958172,
+                -8.648177900536396
+              ],
+              [
+                40.86438880142876,
+                -8.648127953940694
+              ],
+              [
+                40.8644123562616,
+                -8.648083471146942
+              ],
+              [
+                40.864447424080254,
+                -8.648044452155139
+              ],
+              [
+                40.864494004884705,
+                -8.64801089696529
+              ],
+              [
+                40.86455209867496,
+                -8.647982805577394
+              ],
+              [
+                40.86462170545103,
+                -8.647960177991449
+              ],
+              [
+                40.864702825212895,
+                -8.647943014207458
+              ],
+              [
+                40.8647897824067,
+                -8.648004663842261
+              ],
+              [
+                40.864882577032446,
+                -8.648145126895864
+              ],
+              [
+                40.86498120909014,
+                -8.648364403368262
+              ],
+              [
+                40.86508567857978,
+                -8.648662493259458
+              ],
+              [
+                40.86519598550135,
+                -8.649039396569453
+              ],
+              [
+                40.86531212985486,
+                -8.649495113298247
+              ],
+              [
+                40.86543411164031,
+                -8.650029643445837
+              ],
+              [
+                40.8655619308577,
+                -8.650642987012223
+              ],
+              [
+                40.865649028316085,
+                -8.651112749434963
+              ],
+              [
+                40.86569540401546,
+                -8.651438930714058
+              ],
+              [
+                40.86570105795582,
+                -8.651621530849503
+              ],
+              [
+                40.865665990137174,
+                -8.651660549841306
+              ],
+              [
+                40.86559020055951,
+                -8.65155598768946
+              ],
+              [
+                40.86547368922284,
+                -8.651307844393965
+              ],
+              [
+                40.86531645612716,
+                -8.650916119954825
+              ],
+              [
+                40.86511850127248,
+                -8.650380814372038
+              ],
+              [
+                40.86494391775906,
+                -8.64990481271215
+              ],
+              [
+                40.86479270558689,
+                -8.649488114975156
+              ],
+              [
+                40.864664864756,
+                -8.649130721161063
+              ],
+              [
+                40.864560395266366,
+                -8.648832631269865
+              ],
+              [
+                40.864479297118,
+                -8.648593845301566
+              ],
+              [
+                40.8644215703109,
+                -8.648414363256164
+              ],
+              [
+                40.86438721484507,
+                -8.64829418513366
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.864939872015896,
+    -8.649300031631443
+  ],
+  "centroDeMassa": [
+    40.86517354220153,
+    -8.65033631522903
+  ]
+}

@@ -1,1 +1,576 @@
-{"CP4":"3860","CP3":"290","Distrito":"Aveiro","Concelho":"Estarreja","CP":"3860-290","Artéria":"Rua Francisco Barbado","Localidade":"Estarreja","Local":"Póvoa de Cima","Troço":"","Porta":"","Cliente":"","Designação Postal":"ESTARREJA","locais":[{"id":"pt.ine.add.PTCONT.300965","rua":"R FRANCISCO BARBADO","casa":"2","coordenadas":[40.76408954156973,-8.580330301266464]},{"id":"pt.ine.add.PTCONT.303814","rua":"R FRANCISCO BARBADO","casa":"8","coordenadas":[40.763838739519144,-8.57998516126511]},{"id":"pt.ine.add.PTCONT.316762","rua":"R FRANCISCO BARBADO","casa":"3","coordenadas":[40.76390227039457,-8.57959919760553]},{"id":"pt.ine.add.PTCONT.323266","rua":"R FRANCISCO BARBADO","casa":"15","coordenadas":[40.76282615024965,-8.578699310461905]},{"id":"pt.ine.add.PTCONT.323267","rua":"R FRANCISCO BARBADO","casa":"7","coordenadas":[40.76332904301591,-8.579057968592283]},{"id":"pt.ine.add.PTCONT.327556","rua":"R FRANCISCO BARBADO","casa":"4","coordenadas":[40.764008774337356,-8.580258699238623]},{"id":"pt.ine.add.PTCONT.330822","rua":"R FRANCISCO BARBADO","casa":"36","coordenadas":[40.76234775580345,-8.578992194150706]},{"id":"pt.ine.add.PTCONT.336105","rua":"R FRANCISCO BARBADO","casa":"20A","coordenadas":[40.76319282756957,-8.57935314047631]},{"id":"pt.ine.add.PTCONT.344946","rua":"R FRANCISCO BARBADO","casa":"17","coordenadas":[40.762700312578104,-8.57863925403047]},{"id":"pt.ine.add.PTCONT.348627","rua":"R FRANCISCO BARBADO","casa":"","coordenadas":[40.763139897852234,-8.5790685476436]},{"id":"pt.ine.add.PTCONT.350397","rua":"R FRANCISCO BARBADO","casa":"24","coordenadas":[40.7628159562386,-8.579007166277599]},{"id":"pt.ine.add.PTCONT.1385","rua":"R FRANCISCO BARBADO","casa":"20","coordenadas":[40.763274511152034,-8.579187880493096]},{"id":"pt.ine.add.PTCONT.8696","rua":"R FRANCISCO BARBADO","casa":"20","coordenadas":[40.7631741310713,-8.579530664780743]},{"id":"pt.ine.add.PTCONT.11582","rua":"R FRANCISCO BARBADO","casa":"34","coordenadas":[40.76244772275063,-8.578755998977828]},{"id":"pt.ine.add.PTCONT.49454","rua":"R FRANCISCO BARBADO","casa":"19","coordenadas":[40.76245796178259,-8.578436301957991]},{"id":"pt.ine.add.PTCONT.57457","rua":"R FRANCISCO BARBADO","casa":"12","coordenadas":[40.76371400265971,-8.57964086759]},{"id":"pt.ine.add.PTCONT.94810","rua":"R FRANCISCO BARBADO","casa":"17","coordenadas":[40.763480337791854,-8.579520870284119]},{"id":"pt.ine.add.PTCONT.100257","rua":"R FRANCISCO BARBADO","casa":"5","coordenadas":[40.76361637053407,-8.579273069730261]},{"id":"pt.ine.add.PTCONT.124472","rua":"R FRANCISCO BARBADO","casa":"9","coordenadas":[40.76324014590454,-8.57897082592619]},{"id":"pt.ine.add.PTCONT.132067","rua":"R FRANCISCO BARBADO","casa":"16","coordenadas":[40.76343586376769,-8.579378452671584]},{"id":"pt.ine.add.PTCONT.161679","rua":"R FRANCISCO BARBADO","casa":"6","coordenadas":[40.763928190565984,-8.58013972491873]},{"id":"pt.ine.add.PTCONT.161826","rua":"R FRANCISCO BARBADO","casa":"24","coordenadas":[40.76320265638101,-8.579140026899111]},{"id":"pt.ine.add.PTCONT.183265","rua":"R FRANCISCO BARBADO","casa":"5A","coordenadas":[40.763678053985764,-8.579375225145707]},{"id":"pt.ine.add.PTCONT.185620","rua":"R FRANCISCO BARBADO","casa":"32","coordenadas":[40.762573468889805,-8.578839741153622]},{"id":"pt.ine.add.PTCONT.194103","rua":"R FRANCISCO BARBADO","casa":"17 A","coordenadas":[40.762880727277064,-8.578557556093385]},{"id":"pt.ine.add.PTCONT.198924","rua":"R FRANCISCO BARBADO","casa":"28","coordenadas":[40.7630680887871,-8.579008851309876]},{"id":"pt.ine.add.PTCONT.207848","rua":"R FRANCISCO BARBADO","casa":"26","coordenadas":[40.762968167104844,-8.57923320533943]},{"id":"pt.ine.add.PTCONT.214734","rua":"R FRANCISCO BARBADO","casa":"2 A","coordenadas":[40.764224107613366,-8.58046148153441]},{"id":"pt.ine.add.PTCONT.225618","rua":"R FRANCISCO BARBADO","casa":"17B","coordenadas":[40.76281792267501,-8.57849792065226]},{"id":"pt.ine.add.PTCONT.225619","rua":"R FRANCISCO BARBADO","casa":"13","coordenadas":[40.76306863779093,-8.578866735719696]},{"id":"pt.ine.add.PTCONT.251418","rua":"R FRANCISCO BARBADO","casa":"18","coordenadas":[40.76332835643583,-8.579235613768097]},{"id":"pt.ine.add.PTCONT.255384","rua":"R FRANCISCO BARBADO","casa":"10","coordenadas":[40.763812642251445,-8.579748118397132]},{"id":"pt.ine.add.PTCONT.269025","rua":"R FRANCISCO BARBADO","casa":"14","coordenadas":[40.76358834876837,-8.579533436344269]}],"ruas":["R FRANCISCO BARBADO"],"centroide":[40.7632682292594,-8.579274689823492]}
+{
+  "CP": "3860-290",
+  "CP4": "3860",
+  "CP3": "290",
+  "Distrito": "Aveiro",
+  "Concelho": "Estarreja",
+  "Localidade": "Estarreja",
+  "Designação Postal": "ESTARREJA",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco Barbado",
+      "Local": "Póvoa de Cima",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.300965",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "2",
+      "coordenadas": [
+        40.76408954156973,
+        -8.580330301266464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.303814",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "8",
+      "coordenadas": [
+        40.763838739519144,
+        -8.57998516126511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.316762",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "3",
+      "coordenadas": [
+        40.76390227039457,
+        -8.57959919760553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.323266",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "15",
+      "coordenadas": [
+        40.76282615024965,
+        -8.578699310461905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.323267",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "7",
+      "coordenadas": [
+        40.76332904301591,
+        -8.579057968592283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.327556",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "4",
+      "coordenadas": [
+        40.764008774337356,
+        -8.580258699238623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.330822",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "36",
+      "coordenadas": [
+        40.76234775580345,
+        -8.578992194150706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.336105",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "20A",
+      "coordenadas": [
+        40.76319282756957,
+        -8.57935314047631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.344946",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "17",
+      "coordenadas": [
+        40.762700312578104,
+        -8.57863925403047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.348627",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "",
+      "coordenadas": [
+        40.763139897852234,
+        -8.5790685476436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.350397",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "24",
+      "coordenadas": [
+        40.7628159562386,
+        -8.579007166277599
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1385",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "20",
+      "coordenadas": [
+        40.763274511152034,
+        -8.579187880493096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.8696",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "20",
+      "coordenadas": [
+        40.7631741310713,
+        -8.579530664780743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11582",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "34",
+      "coordenadas": [
+        40.76244772275063,
+        -8.578755998977828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.49454",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "19",
+      "coordenadas": [
+        40.76245796178259,
+        -8.578436301957991
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.57457",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "12",
+      "coordenadas": [
+        40.76371400265971,
+        -8.57964086759
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.94810",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "17",
+      "coordenadas": [
+        40.763480337791854,
+        -8.579520870284119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.100257",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "5",
+      "coordenadas": [
+        40.76361637053407,
+        -8.579273069730261
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.124472",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "9",
+      "coordenadas": [
+        40.76324014590454,
+        -8.57897082592619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.132067",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "16",
+      "coordenadas": [
+        40.76343586376769,
+        -8.579378452671584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.161679",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "6",
+      "coordenadas": [
+        40.763928190565984,
+        -8.58013972491873
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.161826",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "24",
+      "coordenadas": [
+        40.76320265638101,
+        -8.579140026899111
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.183265",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "5A",
+      "coordenadas": [
+        40.763678053985764,
+        -8.579375225145707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.185620",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "32",
+      "coordenadas": [
+        40.762573468889805,
+        -8.578839741153622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.194103",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "17 A",
+      "coordenadas": [
+        40.762880727277064,
+        -8.578557556093385
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198924",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "28",
+      "coordenadas": [
+        40.7630680887871,
+        -8.579008851309876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.207848",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "26",
+      "coordenadas": [
+        40.762968167104844,
+        -8.57923320533943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214734",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "2 A",
+      "coordenadas": [
+        40.764224107613366,
+        -8.58046148153441
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.225618",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "17B",
+      "coordenadas": [
+        40.76281792267501,
+        -8.57849792065226
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.225619",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "13",
+      "coordenadas": [
+        40.76306863779093,
+        -8.578866735719696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.251418",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "18",
+      "coordenadas": [
+        40.76332835643583,
+        -8.579235613768097
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255384",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "10",
+      "coordenadas": [
+        40.763812642251445,
+        -8.579748118397132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.269025",
+      "rua": "R FRANCISCO BARBADO",
+      "casa": "14",
+      "coordenadas": [
+        40.76358834876837,
+        -8.579533436344269
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO BARBADO"
+  ],
+  "centro": [
+    40.76328593170841,
+    -8.5794488917462
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.76340320369653,
+                -8.57981866830404
+              ],
+              [
+                40.76316865972029,
+                -8.579635007381077
+              ],
+              [
+                40.76296515570951,
+                -8.579465618257974
+              ],
+              [
+                40.762792691664174,
+                -8.579310500934728
+              ],
+              [
+                40.76265126758429,
+                -8.579169655411341
+              ],
+              [
+                40.76254088346987,
+                -8.579043081687818
+              ],
+              [
+                40.762461539320896,
+                -8.57893077976415
+              ],
+              [
+                40.76241323513737,
+                -8.578832749640341
+              ],
+              [
+                40.762395970919314,
+                -8.578748991316392
+              ],
+              [
+                40.76240974666672,
+                -8.578679504792305
+              ],
+              [
+                40.76242742483463,
+                -8.578619666875824
+              ],
+              [
+                40.762449005423065,
+                -8.578569477566951
+              ],
+              [
+                40.76247448843201,
+                -8.57852893686569
+              ],
+              [
+                40.76250387386148,
+                -8.578498044772038
+              ],
+              [
+                40.76253716171148,
+                -8.578476801285994
+              ],
+              [
+                40.76257435198198,
+                -8.578465206407559
+              ],
+              [
+                40.76261544467302,
+                -8.578463260136735
+              ],
+              [
+                40.76266043978458,
+                -8.578470962473519
+              ],
+              [
+                40.7627007918291,
+                -8.578478633821973
+              ],
+              [
+                40.762736500806575,
+                -8.578486274182094
+              ],
+              [
+                40.76276756671702,
+                -8.578493883553886
+              ],
+              [
+                40.76279398956042,
+                -8.57850146193735
+              ],
+              [
+                40.76281576933679,
+                -8.578509009332482
+              ],
+              [
+                40.76283290604612,
+                -8.578516525739282
+              ],
+              [
+                40.762845399688416,
+                -8.578524011157754
+              ],
+              [
+                40.76285325026366,
+                -8.578531465587893
+              ],
+              [
+                40.762871613942906,
+                -8.578549168114842
+              ],
+              [
+                40.762900490726125,
+                -8.5785771187386
+              ],
+              [
+                40.76293988061334,
+                -8.578615317459166
+              ],
+              [
+                40.762989783604525,
+                -8.578663764276541
+              ],
+              [
+                40.763050199699705,
+                -8.578722459190725
+              ],
+              [
+                40.76312112889886,
+                -8.578791402201716
+              ],
+              [
+                40.763202571202,
+                -8.578870593309517
+              ],
+              [
+                40.76329452660913,
+                -8.578960032514129
+              ],
+              [
+                40.76337945477569,
+                -8.579043387566212
+              ],
+              [
+                40.763457355701675,
+                -8.579120658465772
+              ],
+              [
+                40.76352822938709,
+                -8.579191845212806
+              ],
+              [
+                40.76359207583194,
+                -8.579256947807314
+              ],
+              [
+                40.76364889503621,
+                -8.579315966249299
+              ],
+              [
+                40.763698686999916,
+                -8.579368900538757
+              ],
+              [
+                40.76374145172304,
+                -8.579415750675691
+              ],
+              [
+                40.7637771892056,
+                -8.5794565166601
+              ],
+              [
+                40.76381348820938,
+                -8.579505660082845
+              ],
+              [
+                40.763850348734394,
+                -8.579563180943929
+              ],
+              [
+                40.76388777078063,
+                -8.57962907924335
+              ],
+              [
+                40.76392575434808,
+                -8.57970335498111
+              ],
+              [
+                40.763964299436765,
+                -8.579786008157207
+              ],
+              [
+                40.76400340604666,
+                -8.579877038771642
+              ],
+              [
+                40.76404307417779,
+                -8.579976446824414
+              ],
+              [
+                40.76408330383014,
+                -8.580084232315524
+              ],
+              [
+                40.76408918677892,
+                -8.580155587004874
+              ],
+              [
+                40.764060723024116,
+                -8.580190510892468
+              ],
+              [
+                40.76399791256575,
+                -8.5801890039783
+              ],
+              [
+                40.76390075540381,
+                -8.580151066262372
+              ],
+              [
+                40.76376925153829,
+                -8.580076697744687
+              ],
+              [
+                40.763603400969195,
+                -8.579965898425243
+              ],
+              [
+                40.76340320369653,
+                -8.57981866830404
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.76317815944002,
+    -8.579116817389222
+  ],
+  "centroDeMassa": [
+    40.76328593170841,
+    -8.5794488917462
+  ]
+}

@@ -1,1 +1,460 @@
-{"CP4":"2135","CP3":"346","Distrito":"Santarém","Concelho":"Benavente","CP":"2135-346","Artéria":"Rua Joaquim Salvador Roque","Localidade":"Samora Correia","Local":"Urbanização da Herdade do Pinheiro","Troço":"","Porta":"","Cliente":"","Designação Postal":"SAMORA CORREIA","locais":[{"id":"pt.ine.add.PTCONT.4395733","rua":"R JOAQUIM SALVADOR ROQUE H","casa":"H8 47","coordenadas":[38.94259566350719,-8.85530301568941]},{"id":"pt.ine.add.PTCONT.4415041","rua":"R JOAQUIM SALVADOR ROQUE","casa":"100","coordenadas":[38.93935967826156,-8.855662337021041]},{"id":"pt.ine.add.PTCONT.4417094","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.93879245398845,-8.85270395305711]},{"id":"pt.ine.add.PTCONT.4445138","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.93962381120054,-8.85519213059463]},{"id":"pt.ine.add.PTCONT.4456264","rua":"R JOAQUIM SALVADOR ROQUE","casa":"62","coordenadas":[38.942825636279935,-8.855985875660771]},{"id":"pt.ine.add.PTCONT.4457679","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94077372586986,-8.855688223034337]},{"id":"pt.ine.add.PTCONT.4457680","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94136855316087,-8.855636590099635]},{"id":"pt.ine.add.PTCONT.4459711","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94241195145307,-8.855877866153465]},{"id":"pt.ine.add.PTCONT.4489768","rua":"R JOAQUIM SALVADOR ROQUE","casa":"60","coordenadas":[38.94290870001259,-8.855663756930442]},{"id":"pt.ine.add.PTCONT.4490492","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94052373911641,-8.85532813228984]},{"id":"pt.ine.add.PTCONT.4511356","rua":"R JOAQUIM SALVADOR ROQUE","casa":"64","coordenadas":[38.942591736802356,-8.855937363160217]},{"id":"pt.ine.add.PTCONT.4528074","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.93842604977125,-8.85369214280082]},{"id":"pt.ine.add.PTCONT.4552663","rua":"R JOAQUIM SALVADOR ROQUE","casa":"15","coordenadas":[38.94027005059088,-8.852649684716653]},{"id":"pt.ine.add.PTCONT.4582153","rua":"R JOAQUIM SALVADOR ROQUE","casa":"90","coordenadas":[38.94025946279865,-8.855821410518628]},{"id":"pt.ine.add.PTCONT.4585417","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94063806307844,-8.85286101633261]},{"id":"pt.ine.add.PTCONT.4607051","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.93873314661585,-8.85355684672981]},{"id":"pt.ine.add.PTCONT.4608967","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94049501561448,-8.852686560432952]},{"id":"pt.ine.add.PTCONT.4614542","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94055684079745,-8.855801361489343]},{"id":"pt.ine.add.PTCONT.4643455","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94012048276151,-8.85207147720543]},{"id":"pt.ine.add.PTCONT.4651845","rua":"R JOAQUIM SALVADOR ROQUE","casa":"","coordenadas":[38.94048291188336,-8.854647213674449]}],"ruas":["R JOAQUIM SALVADOR ROQUE H","R JOAQUIM SALVADOR ROQUE"],"centroide":[38.94069867166743,-8.854637881258798]}
+{
+  "CP": "2135-346",
+  "CP4": "2135",
+  "CP3": "346",
+  "Distrito": "Santarém",
+  "Concelho": "Benavente",
+  "Localidade": "Samora Correia",
+  "Designação Postal": "SAMORA CORREIA",
+  "partes": [
+    {
+      "Artéria": "Rua Joaquim Salvador Roque",
+      "Local": "Urbanização da Herdade do Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4395733",
+      "rua": "R JOAQUIM SALVADOR ROQUE H",
+      "casa": "H8 47",
+      "coordenadas": [
+        38.94259566350719,
+        -8.85530301568941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4415041",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "100",
+      "coordenadas": [
+        38.93935967826156,
+        -8.855662337021041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4417094",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.93879245398845,
+        -8.85270395305711
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4445138",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.93962381120054,
+        -8.85519213059463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4456264",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "62",
+      "coordenadas": [
+        38.942825636279935,
+        -8.855985875660771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4457679",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94077372586986,
+        -8.855688223034337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4457680",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94136855316087,
+        -8.855636590099635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4459711",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94241195145307,
+        -8.855877866153465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4489768",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "60",
+      "coordenadas": [
+        38.94290870001259,
+        -8.855663756930442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4490492",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94052373911641,
+        -8.85532813228984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4511356",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "64",
+      "coordenadas": [
+        38.942591736802356,
+        -8.855937363160217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4528074",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.93842604977125,
+        -8.85369214280082
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4552663",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "15",
+      "coordenadas": [
+        38.94027005059088,
+        -8.852649684716653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4582153",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "90",
+      "coordenadas": [
+        38.94025946279865,
+        -8.855821410518628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4585417",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94063806307844,
+        -8.85286101633261
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4607051",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.93873314661585,
+        -8.85355684672981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4608967",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94049501561448,
+        -8.852686560432952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4614542",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94055684079745,
+        -8.855801361489343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4643455",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94012048276151,
+        -8.85207147720543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4651845",
+      "rua": "R JOAQUIM SALVADOR ROQUE",
+      "casa": "",
+      "coordenadas": [
+        38.94048291188336,
+        -8.854647213674449
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOAQUIM SALVADOR ROQUE H",
+    "R JOAQUIM SALVADOR ROQUE"
+  ],
+  "centro": [
+    38.940667374891916,
+    -8.8540286764331
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.938951215797054,
+                -8.854800377049695
+              ],
+              [
+                38.938834512235765,
+                -8.854554102772166
+              ],
+              [
+                38.93873812168553,
+                -8.854323172314585
+              ],
+              [
+                38.93866204414635,
+                -8.85410758567695
+              ],
+              [
+                38.93860627961823,
+                -8.853907342859259
+              ],
+              [
+                38.938570828101156,
+                -8.85372244386151
+              ],
+              [
+                38.93855568959514,
+                -8.853552888683712
+              ],
+              [
+                38.93856086410018,
+                -8.853398677325856
+              ],
+              [
+                38.93858635161627,
+                -8.853259809787948
+              ],
+              [
+                38.93863215214343,
+                -8.853136286069985
+              ],
+              [
+                38.93869297805426,
+                -8.853018320381583
+              ],
+              [
+                38.938768829348774,
+                -8.852905912722747
+              ],
+              [
+                38.93885970602698,
+                -8.852799063093471
+              ],
+              [
+                38.93896560808888,
+                -8.852697771493759
+              ],
+              [
+                38.93908653553445,
+                -8.85260203792361
+              ],
+              [
+                38.93922248836372,
+                -8.852511862383022
+              ],
+              [
+                38.93937346657666,
+                -8.852427244872
+              ],
+              [
+                38.939539470173294,
+                -8.85234818539054
+              ],
+              [
+                38.9397282892149,
+                -8.852335137714967
+              ],
+              [
+                38.939939923701466,
+                -8.852388101845278
+              ],
+              [
+                38.940174373633006,
+                -8.852507077781475
+              ],
+              [
+                38.94043163900952,
+                -8.852692065523557
+              ],
+              [
+                38.94071171983099,
+                -8.852943065071527
+              ],
+              [
+                38.94101461609744,
+                -8.853260076425382
+              ],
+              [
+                38.94134032780886,
+                -8.853643099585122
+              ],
+              [
+                38.941688854965236,
+                -8.854092134550749
+              ],
+              [
+                38.94199251835625,
+                -8.854490073250833
+              ],
+              [
+                38.9422513179819,
+                -8.854836915685377
+              ],
+              [
+                38.94246525384217,
+                -8.855132661854377
+              ],
+              [
+                38.942634325937064,
+                -8.855377311757834
+              ],
+              [
+                38.9427585342666,
+                -8.855570865395752
+              ],
+              [
+                38.94283787883076,
+                -8.855713322768128
+              ],
+              [
+                38.942872359629554,
+                -8.855804683874961
+              ],
+              [
+                38.942861976662975,
+                -8.855844948716252
+              ],
+              [
+                38.942812795106576,
+                -8.855877610684535
+              ],
+              [
+                38.94272481496034,
+                -8.855902669779812
+              ],
+              [
+                38.9425980362243,
+                -8.855920126002081
+              ],
+              [
+                38.94243245889842,
+                -8.855929979351343
+              ],
+              [
+                38.94222808298273,
+                -8.855932229827598
+              ],
+              [
+                38.94198490847721,
+                -8.855926877430845
+              ],
+              [
+                38.941702935381876,
+                -8.855913922161085
+              ],
+              [
+                38.94138216369671,
+                -8.855893364018316
+              ],
+              [
+                38.9410874293388,
+                -8.855872890119993
+              ],
+              [
+                38.94081873230815,
+                -8.855852500466117
+              ],
+              [
+                38.94057607260475,
+                -8.855832195056689
+              ],
+              [
+                38.9403594502286,
+                -8.855811973891704
+              ],
+              [
+                38.9401688651797,
+                -8.855791836971168
+              ],
+              [
+                38.94000431745806,
+                -8.855771784295076
+              ],
+              [
+                38.93986580706367,
+                -8.855751815863432
+              ],
+              [
+                38.939753333996535,
+                -8.855731931676235
+              ],
+              [
+                38.939640332117634,
+                -8.855683748727746
+              ],
+              [
+                38.939526801426965,
+                -8.855607267017964
+              ],
+              [
+                38.93941274192452,
+                -8.855502486546893
+              ],
+              [
+                38.9392981536103,
+                -8.85536940731453
+              ],
+              [
+                38.93918303648432,
+                -8.855208029320876
+              ],
+              [
+                38.939067390546576,
+                -8.855018352565931
+              ],
+              [
+                38.938951215797054,
+                -8.854800377049695
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.94038463769628,
+    -8.854514421884891
+  ],
+  "centroDeMassa": [
+    38.940667374891916,
+    -8.8540286764331
+  ]
+}

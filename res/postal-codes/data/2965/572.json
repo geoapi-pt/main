@@ -1,1 +1,403 @@
-{"CP4":"2965","CP3":"572","Distrito":"Setúbal","Concelho":"Palmela","CP":"2965-572","Artéria":"Rua do Centro de Saúde","Localidade":"Águas de Moura","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÁGUAS DE MOURA","locais":[{"id":"pt.ine.add.PTCONT.4675806","rua":"R HEROIS DO ULTRAMAR","casa":"29","coordenadas":[38.585556315015026,-8.690472237395332]},{"id":"pt.ine.add.PTCONT.4732583","rua":"R HEROIS DO ULTRAMAR","casa":"34","coordenadas":[38.58508992214624,-8.690043984117407]},{"id":"pt.ine.add.PTCONT.4749149","rua":"R HEROIS DO ULTRAMAR","casa":"11","coordenadas":[38.584071967123705,-8.690047598486077]},{"id":"pt.ine.add.PTCONT.4770874","rua":"R HEROIS DO ULTRAMAR","casa":"40","coordenadas":[38.58529655922133,-8.690160350265598]},{"id":"pt.ine.add.PTCONT.4777989","rua":"R HEROIS DO ULTRAMAR","casa":"","coordenadas":[38.58464869554987,-8.690006145422448]},{"id":"pt.ine.add.PTCONT.4783161","rua":"R HEROIS DO ULTRAMAR","casa":"22","coordenadas":[38.58445041103054,-8.690027567763998]},{"id":"pt.ine.add.PTCONT.4836788","rua":"R HEROIS DO ULTRAMAR","casa":"18","coordenadas":[38.58427915040764,-8.690049198721635]},{"id":"pt.ine.add.PTCONT.4844814","rua":"R HEROIS DO ULTRAMAR","casa":"44","coordenadas":[38.58570268234207,-8.690002808832801]},{"id":"pt.ine.add.PTCONT.4851168","rua":"R HEROIS DO ULTRAMAR","casa":"2","coordenadas":[38.583846767893625,-8.690045859118257]},{"id":"pt.ine.add.PTCONT.4871912","rua":"R HEROIS DO ULTRAMAR","casa":"22 A","coordenadas":[38.58474024921533,-8.68969697568437]},{"id":"pt.ine.add.PTCONT.4910398","rua":"R HEROIS DO ULTRAMAR","casa":"34","coordenadas":[38.58524365825006,-8.689918924573735]},{"id":"pt.ine.add.PTCONT.4932333","rua":"R HEROIS DO ULTRAMAR","casa":"16","coordenadas":[38.584180171970004,-8.690025480571782]},{"id":"pt.ine.add.PTCONT.4981456","rua":"R HEROIS DO ULTRAMAR","casa":"28","coordenadas":[38.584783815071326,-8.690007188996306]},{"id":"pt.ine.add.PTCONT.4984363","rua":"R HEROIS DO ULTRAMAR","casa":"30","coordenadas":[38.58487340323784,-8.690111173388992]},{"id":"pt.ine.add.PTCONT.5013753","rua":"R HEROIS DO ULTRAMAR","casa":"42","coordenadas":[38.585413717413275,-8.690149778362274]},{"id":"pt.ine.add.PTCONT.5057994","rua":"R HEROIS DO ULTRAMAR","casa":"33","coordenadas":[38.585970298830375,-8.690555777343238]},{"id":"pt.ine.add.PTCONT.5059067","rua":"R HEROIS DO ULTRAMAR","casa":"33","coordenadas":[38.585970298830375,-8.690555777343238]},{"id":"pt.ine.add.PTCONT.5065005","rua":"R HEROIS DO ULTRAMAR","casa":"10","coordenadas":[38.58397293407321,-8.690035356785952]},{"id":"pt.ine.add.PTCONT.5068695","rua":"R HEROIS DO ULTRAMAR","casa":"32","coordenadas":[38.58496353753129,-8.690100392707487]},{"id":"pt.ine.add.PTCONT.5090072","rua":"R HEROIS ULTRAMAR","casa":"38","coordenadas":[38.58521559676134,-8.690136770789861]}],"ruas":["R HEROIS DO ULTRAMAR","R HEROIS ULTRAMAR"],"centroide":[38.58489760816595,-8.690105925046362]}
+{
+  "CP": "2965-572",
+  "CP4": "2965",
+  "CP3": "572",
+  "Distrito": "Setúbal",
+  "Concelho": "Palmela",
+  "Localidade": "Águas de Moura",
+  "Designação Postal": "ÁGUAS DE MOURA",
+  "partes": [
+    {
+      "Artéria": "Rua Heróis do Ultramar",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Centro de Saúde",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4675806",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "29",
+      "coordenadas": [
+        38.585556315015026,
+        -8.690472237395332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4732583",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "34",
+      "coordenadas": [
+        38.58508992214624,
+        -8.690043984117407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4749149",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "11",
+      "coordenadas": [
+        38.584071967123705,
+        -8.690047598486077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4770874",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "40",
+      "coordenadas": [
+        38.58529655922133,
+        -8.690160350265598
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4777989",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "",
+      "coordenadas": [
+        38.58464869554987,
+        -8.690006145422448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4783161",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "22",
+      "coordenadas": [
+        38.58445041103054,
+        -8.690027567763998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4836788",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "18",
+      "coordenadas": [
+        38.58427915040764,
+        -8.690049198721635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4844814",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "44",
+      "coordenadas": [
+        38.58570268234207,
+        -8.690002808832801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4851168",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "2",
+      "coordenadas": [
+        38.583846767893625,
+        -8.690045859118257
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4871912",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "22 A",
+      "coordenadas": [
+        38.58474024921533,
+        -8.68969697568437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4910398",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "34",
+      "coordenadas": [
+        38.58524365825006,
+        -8.689918924573735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4932333",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "16",
+      "coordenadas": [
+        38.584180171970004,
+        -8.690025480571782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4981456",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "28",
+      "coordenadas": [
+        38.584783815071326,
+        -8.690007188996306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4984363",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "30",
+      "coordenadas": [
+        38.58487340323784,
+        -8.690111173388992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5013753",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "42",
+      "coordenadas": [
+        38.585413717413275,
+        -8.690149778362274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5057994",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "33",
+      "coordenadas": [
+        38.585970298830375,
+        -8.690555777343238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5059067",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "33",
+      "coordenadas": [
+        38.585970298830375,
+        -8.690555777343238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5065005",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "10",
+      "coordenadas": [
+        38.58397293407321,
+        -8.690035356785952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5068695",
+      "rua": "R HEROIS DO ULTRAMAR",
+      "casa": "32",
+      "coordenadas": [
+        38.58496353753129,
+        -8.690100392707487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5090072",
+      "rua": "R HEROIS ULTRAMAR",
+      "casa": "38",
+      "coordenadas": [
+        38.58521559676134,
+        -8.690136770789861
+      ]
+    }
+  ],
+  "ruas": [
+    "R HEROIS DO ULTRAMAR",
+    "R HEROIS ULTRAMAR"
+  ],
+  "centro": [
+    38.584908533362,
+    -8.690126376513804
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.58480838814941,
+                -8.690285696899112
+              ],
+              [
+                38.58459469475923,
+                -8.690232399614478
+              ],
+              [
+                38.58442167368848,
+                -8.690180313186769
+              ],
+              [
+                38.58428932493716,
+                -8.690129437615983
+              ],
+              [
+                38.58419764850525,
+                -8.690079772902124
+              ],
+              [
+                38.584146644392774,
+                -8.690031319045188
+              ],
+              [
+                38.58413631259971,
+                -8.689984076045178
+              ],
+              [
+                38.58416665312608,
+                -8.689938043902092
+              ],
+              [
+                38.58423766597187,
+                -8.68989322261593
+              ],
+              [
+                38.584349351137085,
+                -8.689849612186697
+              ],
+              [
+                38.58446211367425,
+                -8.689816231704059
+              ],
+              [
+                38.58457595358337,
+                -8.68979308116802
+              ],
+              [
+                38.58469087086445,
+                -8.68978016057858
+              ],
+              [
+                38.58480686551747,
+                -8.68977746993574
+              ],
+              [
+                38.584923937542456,
+                -8.689785009239497
+              ],
+              [
+                38.585042086939396,
+                -8.689802778489854
+              ],
+              [
+                38.585161313708284,
+                -8.68983077768681
+              ],
+              [
+                38.58528161784912,
+                -8.689869006830362
+              ],
+              [
+                38.58539106547999,
+                -8.689911097463948
+              ],
+              [
+                38.585489656600885,
+                -8.689957049587564
+              ],
+              [
+                38.5855773912118,
+                -8.690006863201212
+              ],
+              [
+                38.585654269312734,
+                -8.690060538304891
+              ],
+              [
+                38.585720290903694,
+                -8.690118074898603
+              ],
+              [
+                38.58577545598469,
+                -8.690179472982344
+              ],
+              [
+                38.5858197645557,
+                -8.690244732556117
+              ],
+              [
+                38.58585321661674,
+                -8.690313853619923
+              ],
+              [
+                38.585876018673034,
+                -8.690373029239066
+              ],
+              [
+                38.58588817072458,
+                -8.690422259413548
+              ],
+              [
+                38.58588967277139,
+                -8.690461544143368
+              ],
+              [
+                38.58588052481345,
+                -8.690490883428524
+              ],
+              [
+                38.58586072685076,
+                -8.69051027726902
+              ],
+              [
+                38.585830278883336,
+                -8.690519725664856
+              ],
+              [
+                38.585789180911156,
+                -8.69051922861603
+              ],
+              [
+                38.585737432934245,
+                -8.690508786122539
+              ],
+              [
+                38.58566544178067,
+                -8.690492986780157
+              ],
+              [
+                38.58557320745043,
+                -8.690471830588884
+              ],
+              [
+                38.58546072994354,
+                -8.690445317548715
+              ],
+              [
+                38.585328009259996,
+                -8.690413447659655
+              ],
+              [
+                38.585175045399794,
+                -8.6903762209217
+              ],
+              [
+                38.58500183836293,
+                -8.690333637334852
+              ],
+              [
+                38.58480838814941,
+                -8.690285696899112
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.585163262659286,
+    -8.6901547316748
+  ],
+  "centroDeMassa": [
+    38.584908533362,
+    -8.690126376513804
+  ]
+}

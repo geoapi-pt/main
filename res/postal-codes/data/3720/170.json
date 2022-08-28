@@ -1,1 +1,407 @@
-{"CP4":"3720","CP3":"170","Distrito":"Aveiro","Concelho":"Oliveira de Azeméis","CP":"3720-170","Artéria":"Calçada Joaquim Francisco Soares","Localidade":"Oliveira de Azeméis","Local":"Porto de Carro","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLIVEIRA DE AZEMÉIS","locais":[{"id":"pt.ine.add.PTCONT.314845","rua":"R PORTO DE CARRO","casa":"","coordenadas":[40.830529600952296,-8.465140013192679]},{"id":"pt.ine.add.PTCONT.335123","rua":"R PORTO DE CARRO","casa":"94","coordenadas":[40.83050166505105,-8.465459966558313]},{"id":"pt.ine.add.PTCONT.346730","rua":"R PORTO DE CARRO","casa":"","coordenadas":[40.83069055985542,-8.465532041660342]},{"id":"pt.ine.add.PTCONT.23409","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"51","coordenadas":[40.831657988328246,-8.464173491800542]},{"id":"pt.ine.add.PTCONT.34174","rua":"R PORTO DE CARRO","casa":"105","coordenadas":[40.83037692953949,-8.464996988452416]},{"id":"pt.ine.add.PTCONT.60045","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"201","coordenadas":[40.83082535777783,-8.465627557627696]},{"id":"pt.ine.add.PTCONT.82276","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"77","coordenadas":[40.83144982389245,-8.464539975494233]},{"id":"pt.ine.add.PTCONT.105935","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"245","coordenadas":[40.831003708531924,-8.46623307275964]},{"id":"pt.ine.add.PTCONT.122224","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"232A","coordenadas":[40.831201504851364,-8.466340761400144]},{"id":"pt.ine.add.PTCONT.126384","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"123","coordenadas":[40.83103393515631,-8.465118818258514]},{"id":"pt.ine.add.PTCONT.132863","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"144","coordenadas":[40.83138409628751,-8.46547622821241]},{"id":"pt.ine.add.PTCONT.164672","rua":"R PORTO DE CARRO","casa":"103","coordenadas":[40.83047570891846,-8.465092323235462]},{"id":"pt.ine.add.PTCONT.223684","rua":"R PORTO DE CARRO","casa":"2","coordenadas":[40.83088739960044,-8.465971672853483]},{"id":"pt.ine.add.PTCONT.246114","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"58","coordenadas":[40.83178293147407,-8.464565345244832]},{"id":"pt.ine.add.PTCONT.248047","rua":"R JOAQUIM FRANCISCO SOARES","casa":"232B","coordenadas":[40.8313181898251,-8.466471755328893]},{"id":"pt.ine.add.PTCONT.278599","rua":"CC JOAQUIM FRANCISCO SOARES","casa":"33","coordenadas":[40.83182044795829,-8.464043889151219]}],"ruas":["R PORTO DE CARRO","CC JOAQUIM FRANCISCO SOARES","R JOAQUIM FRANCISCO SOARES"],"centroide":[40.8310079600028,-8.465382667471975]}
+{
+  "CP": "3720-170",
+  "CP4": "3720",
+  "CP3": "170",
+  "Distrito": "Aveiro",
+  "Concelho": "Oliveira de Azeméis",
+  "Localidade": "Oliveira de Azeméis",
+  "Designação Postal": "OLIVEIRA DE AZEMÉIS",
+  "partes": [
+    {
+      "Artéria": "Caminho Velho",
+      "Local": "Porto de Carro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Porto de Carro",
+      "Local": "Porto de Carro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Calçada Joaquim Francisco Soares",
+      "Local": "Porto de Carro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.314845",
+      "rua": "R PORTO DE CARRO",
+      "casa": "",
+      "coordenadas": [
+        40.830529600952296,
+        -8.465140013192679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.335123",
+      "rua": "R PORTO DE CARRO",
+      "casa": "94",
+      "coordenadas": [
+        40.83050166505105,
+        -8.465459966558313
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.346730",
+      "rua": "R PORTO DE CARRO",
+      "casa": "",
+      "coordenadas": [
+        40.83069055985542,
+        -8.465532041660342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.23409",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "51",
+      "coordenadas": [
+        40.831657988328246,
+        -8.464173491800542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.34174",
+      "rua": "R PORTO DE CARRO",
+      "casa": "105",
+      "coordenadas": [
+        40.83037692953949,
+        -8.464996988452416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.60045",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "201",
+      "coordenadas": [
+        40.83082535777783,
+        -8.465627557627696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.82276",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "77",
+      "coordenadas": [
+        40.83144982389245,
+        -8.464539975494233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.105935",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "245",
+      "coordenadas": [
+        40.831003708531924,
+        -8.46623307275964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.122224",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "232A",
+      "coordenadas": [
+        40.831201504851364,
+        -8.466340761400144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.126384",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "123",
+      "coordenadas": [
+        40.83103393515631,
+        -8.465118818258514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.132863",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "144",
+      "coordenadas": [
+        40.83138409628751,
+        -8.46547622821241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.164672",
+      "rua": "R PORTO DE CARRO",
+      "casa": "103",
+      "coordenadas": [
+        40.83047570891846,
+        -8.465092323235462
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.223684",
+      "rua": "R PORTO DE CARRO",
+      "casa": "2",
+      "coordenadas": [
+        40.83088739960044,
+        -8.465971672853483
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.246114",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "58",
+      "coordenadas": [
+        40.83178293147407,
+        -8.464565345244832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.248047",
+      "rua": "R JOAQUIM FRANCISCO SOARES",
+      "casa": "232B",
+      "coordenadas": [
+        40.8313181898251,
+        -8.466471755328893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.278599",
+      "rua": "CC JOAQUIM FRANCISCO SOARES",
+      "casa": "33",
+      "coordenadas": [
+        40.83182044795829,
+        -8.464043889151219
+      ]
+    }
+  ],
+  "ruas": [
+    "R PORTO DE CARRO",
+    "CC JOAQUIM FRANCISCO SOARES",
+    "R JOAQUIM FRANCISCO SOARES"
+  ],
+  "centro": [
+    40.831098688748895,
+    -8.465257822240055
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.830447093264745,
+                -8.465257413636984
+              ],
+              [
+                40.8304315013258,
+                -8.465199541373746
+              ],
+              [
+                40.83044041335452,
+                -8.465134010966834
+              ],
+              [
+                40.8304738293509,
+                -8.465060822416243
+              ],
+              [
+                40.83053174931494,
+                -8.464979975721976
+              ],
+              [
+                40.830614173246644,
+                -8.464891470884032
+              ],
+              [
+                40.83072110114601,
+                -8.464795307902412
+              ],
+              [
+                40.83085253301303,
+                -8.464691486777115
+              ],
+              [
+                40.83100846884772,
+                -8.464580007508141
+              ],
+              [
+                40.83118890865007,
+                -8.464460870095492
+              ],
+              [
+                40.83134620728206,
+                -8.464364772610885
+              ],
+              [
+                40.83148036474369,
+                -8.464291715054324
+              ],
+              [
+                40.83159138103496,
+                -8.464241697425807
+              ],
+              [
+                40.83167925615587,
+                -8.464214719725332
+              ],
+              [
+                40.831743990106425,
+                -8.464210781952902
+              ],
+              [
+                40.83178558288662,
+                -8.464229884108518
+              ],
+              [
+                40.83180403449645,
+                -8.464272026192175
+              ],
+              [
+                40.831799344935924,
+                -8.464337208203876
+              ],
+              [
+                40.831787979982195,
+                -8.464424030121679
+              ],
+              [
+                40.83176993963527,
+                -8.464532491945581
+              ],
+              [
+                40.83174522389515,
+                -8.464662593675586
+              ],
+              [
+                40.831713832761814,
+                -8.46481433531169
+              ],
+              [
+                40.83167576623529,
+                -8.464987716853896
+              ],
+              [
+                40.83163102431557,
+                -8.465182738302202
+              ],
+              [
+                40.831579607002645,
+                -8.465399399656608
+              ],
+              [
+                40.831521514296526,
+                -8.465637700917117
+              ],
+              [
+                40.83146576940846,
+                -8.465842485104917
+              ],
+              [
+                40.83141237233846,
+                -8.466013752220007
+              ],
+              [
+                40.83136132308652,
+                -8.466151502262392
+              ],
+              [
+                40.83131262165263,
+                -8.466255735232066
+              ],
+              [
+                40.831266268036806,
+                -8.466326451129033
+              ],
+              [
+                40.83122226223904,
+                -8.466363649953294
+              ],
+              [
+                40.83118060425933,
+                -8.466367331704845
+              ],
+              [
+                40.83114129409769,
+                -8.466337496383689
+              ],
+              [
+                40.83109905327686,
+                -8.46629931069328
+              ],
+              [
+                40.83105388179684,
+                -8.466252774633622
+              ],
+              [
+                40.831005779657644,
+                -8.46619788820471
+              ],
+              [
+                40.83095474685928,
+                -8.466134651406552
+              ],
+              [
+                40.83090078340172,
+                -8.466063064239139
+              ],
+              [
+                40.830843889284964,
+                -8.465983126702476
+              ],
+              [
+                40.83078406450904,
+                -8.465894838796562
+              ],
+              [
+                40.83072130907393,
+                -8.465798200521395
+              ],
+              [
+                40.83066444907584,
+                -8.465706407997718
+              ],
+              [
+                40.83061348451477,
+                -8.465619461225536
+              ],
+              [
+                40.83056841539072,
+                -8.465537360204843
+              ],
+              [
+                40.830529241703694,
+                -8.46546010493564
+              ],
+              [
+                40.830495963453686,
+                -8.465387695417931
+              ],
+              [
+                40.830468580640705,
+                -8.46532013165171
+              ],
+              [
+                40.830447093264745,
+                -8.465257413636984
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.83113397872999,
+    -8.465295169582552
+  ],
+  "centroDeMassa": [
+    40.831098688748895,
+    -8.465257822240055
+  ]
+}

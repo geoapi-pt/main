@@ -1,1 +1,406 @@
-{"CP4":"2300","CP3":"380","Distrito":"Santarém","Concelho":"Tomar","CP":"2300-380","Artéria":"Rua Casal dos Aromas","Localidade":"Tomar","Local":"Encosta das Maias","Troço":"","Porta":"","Cliente":"","Designação Postal":"TOMAR","locais":[{"id":"pt.ine.add.PTCONT.4404649","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404717","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404718","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404719","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404720","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404721","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404722","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4404723","rua":"R CASAL DOS AROMAS","casa":"14","coordenadas":[39.59332650365988,-8.416990417922241]},{"id":"pt.ine.add.PTCONT.4422843","rua":"R CASAL DOS AROMAS","casa":"","coordenadas":[39.59281970554443,-8.417977882464362]},{"id":"pt.ine.add.PTCONT.4458446","rua":"R CASAL DOS AROMAS","casa":"","coordenadas":[39.59303643742646,-8.417745938109348]},{"id":"pt.ine.add.PTCONT.4470690","rua":"R CASAL DOS AROMAS","casa":"5","coordenadas":[39.593016996674756,-8.418327938465891]},{"id":"pt.ine.add.PTCONT.4538727","rua":"R AROMAS","casa":"5","coordenadas":[39.593695238615304,-8.417213115490611]},{"id":"pt.ine.add.PTCONT.4553042","rua":"R CASAL DOS AROMAS","casa":"","coordenadas":[39.5928303086862,-8.417325998131563]},{"id":"pt.ine.add.PTCONT.4557298","rua":"R AROMAS","casa":"3","coordenadas":[39.593731891425286,-8.41695714741225]},{"id":"pt.ine.add.PTCONT.4559352","rua":"R CASAL DOS AROMAS VILLA LOVELA","casa":"9","coordenadas":[39.59264911988583,-8.417755994598018]},{"id":"pt.ine.add.PTCONT.4586456","rua":"R AROMAS","casa":"1","coordenadas":[39.59379539333657,-8.416771138913559]},{"id":"pt.ine.add.PTCONT.4586457","rua":"R CASAL DOS AROMAS","casa":"13","coordenadas":[39.59238116747372,-8.416835220138614]},{"id":"pt.ine.add.PTCONT.4590708","rua":"R CASAL DOS AROMAS","casa":"","coordenadas":[39.592523481913574,-8.41756921617342]},{"id":"pt.ine.add.PTCONT.4605247","rua":"R CASAL DOS AROMAS","casa":"1","coordenadas":[39.59198444514593,-8.417008223221119]},{"id":"pt.ine.add.PTCONT.4636343","rua":"R CASAL DOS AROMAS","casa":"","coordenadas":[39.59236207302072,-8.417277518825891]},{"id":"pt.ine.add.PTCONT.4658174","rua":"R CASAL DOS AROMAS","casa":"","coordenadas":[39.59218230857158,-8.417125445423052]}],"ruas":["R CASAL DOS AROMAS","R AROMAS","R CASAL DOS AROMAS VILLA LOVELA"],"centroide":[39.59307191442139,-8.41723443376613]}
+{
+  "CP": "2300-380",
+  "CP4": "2300",
+  "CP3": "380",
+  "Distrito": "Santarém",
+  "Concelho": "Tomar",
+  "Localidade": "Tomar",
+  "Designação Postal": "TOMAR",
+  "partes": [
+    {
+      "Artéria": "Rua Casal dos Aromas",
+      "Local": "Encosta das Maias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4404649",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404717",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404718",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404719",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404720",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404721",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404722",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4404723",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "14",
+      "coordenadas": [
+        39.59332650365988,
+        -8.416990417922241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4422843",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "",
+      "coordenadas": [
+        39.59281970554443,
+        -8.417977882464362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4458446",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "",
+      "coordenadas": [
+        39.59303643742646,
+        -8.417745938109348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470690",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "5",
+      "coordenadas": [
+        39.593016996674756,
+        -8.418327938465891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4538727",
+      "rua": "R AROMAS",
+      "casa": "5",
+      "coordenadas": [
+        39.593695238615304,
+        -8.417213115490611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4553042",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "",
+      "coordenadas": [
+        39.5928303086862,
+        -8.417325998131563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4557298",
+      "rua": "R AROMAS",
+      "casa": "3",
+      "coordenadas": [
+        39.593731891425286,
+        -8.41695714741225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4559352",
+      "rua": "R CASAL DOS AROMAS VILLA LOVELA",
+      "casa": "9",
+      "coordenadas": [
+        39.59264911988583,
+        -8.417755994598018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4586456",
+      "rua": "R AROMAS",
+      "casa": "1",
+      "coordenadas": [
+        39.59379539333657,
+        -8.416771138913559
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4586457",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "13",
+      "coordenadas": [
+        39.59238116747372,
+        -8.416835220138614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4590708",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "",
+      "coordenadas": [
+        39.592523481913574,
+        -8.41756921617342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4605247",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "1",
+      "coordenadas": [
+        39.59198444514593,
+        -8.417008223221119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4636343",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "",
+      "coordenadas": [
+        39.59236207302072,
+        -8.417277518825891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4658174",
+      "rua": "R CASAL DOS AROMAS",
+      "casa": "",
+      "coordenadas": [
+        39.59218230857158,
+        -8.417125445423052
+      ]
+    }
+  ],
+  "ruas": [
+    "R CASAL DOS AROMAS",
+    "R AROMAS",
+    "R CASAL DOS AROMAS VILLA LOVELA"
+  ],
+  "centro": [
+    39.59288991924125,
+    -8.417549538689725
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.59256525538089,
+                -8.417750563046303
+              ],
+              [
+                39.5924361864398,
+                -8.417585598640708
+              ],
+              [
+                39.59232944990271,
+                -8.417438551612646
+              ],
+              [
+                39.592245045769616,
+                -8.41730942196212
+              ],
+              [
+                39.59218297404054,
+                -8.417198209689131
+              ],
+              [
+                39.59214323471548,
+                -8.417104914793676
+              ],
+              [
+                39.59212582779442,
+                -8.417029537275756
+              ],
+              [
+                39.592130753277374,
+                -8.416972077135373
+              ],
+              [
+                39.59215801116434,
+                -8.416932534372524
+              ],
+              [
+                39.59220760145531,
+                -8.416910908987209
+              ],
+              [
+                39.59227309023902,
+                -8.416890985505919
+              ],
+              [
+                39.59235447751546,
+                -8.41687276392865
+              ],
+              [
+                39.59245176328464,
+                -8.416856244255406
+              ],
+              [
+                39.59256494754656,
+                -8.416841426486183
+              ],
+              [
+                39.59269403030121,
+                -8.416828310620986
+              ],
+              [
+                39.59283901154859,
+                -8.416816896659807
+              ],
+              [
+                39.59299989128871,
+                -8.416807184602654
+              ],
+              [
+                39.593176669521576,
+                -8.416799174449519
+              ],
+              [
+                39.593329785557806,
+                -8.416799071449546
+              ],
+              [
+                39.593459239397404,
+                -8.41680687560273
+              ],
+              [
+                39.593565031040384,
+                -8.41682258690907
+              ],
+              [
+                39.59364716048673,
+                -8.416846205368572
+              ],
+              [
+                39.593705627736455,
+                -8.41687773098123
+              ],
+              [
+                39.59374043278955,
+                -8.416917163747044
+              ],
+              [
+                39.59375157564602,
+                -8.41696450366602
+              ],
+              [
+                39.59373905630586,
+                -8.41701975073815
+              ],
+              [
+                39.593717504352895,
+                -8.417085511035255
+              ],
+              [
+                39.59368691978713,
+                -8.417161784557331
+              ],
+              [
+                39.593647302608574,
+                -8.417248571304379
+              ],
+              [
+                39.59359865281721,
+                -8.417345871276401
+              ],
+              [
+                39.593540970413045,
+                -8.417453684473394
+              ],
+              [
+                39.593474255396075,
+                -8.41757201089536
+              ],
+              [
+                39.59339850776631,
+                -8.417700850542296
+              ],
+              [
+                39.59331372752375,
+                -8.417840203414206
+              ],
+              [
+                39.59322341119386,
+                -8.417941516626428
+              ],
+              [
+                39.593127558776665,
+                -8.418004790178962
+              ],
+              [
+                39.59302617027214,
+                -8.418030024071806
+              ],
+              [
+                39.59291924568031,
+                -8.418017218304962
+              ],
+              [
+                39.592806785001144,
+                -8.417966372878432
+              ],
+              [
+                39.59268878823468,
+                -8.417877487792211
+              ],
+              [
+                39.59256525538089,
+                -8.417750563046303
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.59297464824926,
+    -8.417231127245959
+  ],
+  "centroDeMassa": [
+    39.59288991924125,
+    -8.417549538689725
+  ]
+}

@@ -1,1 +1,385 @@
-{"CP4":"3865","CP3":"031","Distrito":"Aveiro","Concelho":"Estarreja","CP":"3865-031","Artéria":"Caminho dos Escuteiros","Localidade":"Canelas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CANELAS ETR","locais":[{"id":"pt.ine.add.PTCONT.340930","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"6","coordenadas":[40.716274194544354,-8.538552238310395]},{"id":"pt.ine.add.PTCONT.350824","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"16","coordenadas":[40.71663164260456,-8.539335519982103]},{"id":"pt.ine.add.PTCONT.11584","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"15","coordenadas":[40.71607550569437,-8.538716722210664]},{"id":"pt.ine.add.PTCONT.15547","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"13","coordenadas":[40.71564090046193,-8.539388672250778]},{"id":"pt.ine.add.PTCONT.27386","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"38","coordenadas":[40.717473133905706,-8.540749023431454]},{"id":"pt.ine.add.PTCONT.34162","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"38A","coordenadas":[40.71762684311762,-8.540572432691464]},{"id":"pt.ine.add.PTCONT.35485","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"42","coordenadas":[40.71725534481658,-8.541221101247464]},{"id":"pt.ine.add.PTCONT.54330","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"","coordenadas":[40.71722208430612,-8.54043977814006]},{"id":"pt.ine.add.PTCONT.73242","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"3","coordenadas":[40.71602218331391,-8.538515204621344]},{"id":"pt.ine.add.PTCONT.78711","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"39","coordenadas":[40.71704676808607,-8.541634056710784]},{"id":"pt.ine.add.PTCONT.163921","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA QTA DO ESPINHAL","casa":"","coordenadas":[40.71678976793393,-8.540460813278747]},{"id":"pt.ine.add.PTCONT.170686","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"37","coordenadas":[40.71703847508207,-8.541432808997913]},{"id":"pt.ine.add.PTCONT.179751","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"27","coordenadas":[40.716520832996046,-8.540115958235853]},{"id":"pt.ine.add.PTCONT.194146","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"29","coordenadas":[40.716465593277164,-8.540458837324948]},{"id":"pt.ine.add.PTCONT.213050","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"1","coordenadas":[40.71594188755619,-8.538301688886332]},{"id":"pt.ine.add.PTCONT.220384","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"32","coordenadas":[40.71786230540745,-8.540195139894278]},{"id":"pt.ine.add.PTCONT.239213","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"4","coordenadas":[40.71618493555246,-8.538326832406513]},{"id":"pt.ine.add.PTCONT.287659","rua":"R PADRE JOAQUIM DOMINGUES DA SILVA","casa":"15","coordenadas":[40.71760991916339,-8.540264613778357]}],"ruas":["R PADRE JOAQUIM DOMINGUES DA SILVA","R PADRE JOAQUIM DOMINGUES DA SILVA QTA DO ESPINHAL"],"centroide":[40.71671014109743,-8.539906872271828]}906872271828]}
+{
+  "CP": "3865-031",
+  "CP4": "3865",
+  "CP3": "031",
+  "Distrito": "Aveiro",
+  "Concelho": "Estarreja",
+  "Localidade": "Canelas",
+  "Designação Postal": "CANELAS ETR",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Joaquim Domingues da Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho dos Escuteiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.340930",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        40.716274194544354,
+        -8.538552238310395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.350824",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "16",
+      "coordenadas": [
+        40.71663164260456,
+        -8.539335519982103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11584",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "15",
+      "coordenadas": [
+        40.71607550569437,
+        -8.538716722210664
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.15547",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "13",
+      "coordenadas": [
+        40.71564090046193,
+        -8.539388672250778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27386",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "38",
+      "coordenadas": [
+        40.717473133905706,
+        -8.540749023431454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.34162",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "38A",
+      "coordenadas": [
+        40.71762684311762,
+        -8.540572432691464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35485",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "42",
+      "coordenadas": [
+        40.71725534481658,
+        -8.541221101247464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54330",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "",
+      "coordenadas": [
+        40.71722208430612,
+        -8.54043977814006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73242",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "3",
+      "coordenadas": [
+        40.71602218331391,
+        -8.538515204621344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.78711",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "39",
+      "coordenadas": [
+        40.71704676808607,
+        -8.541634056710784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.163921",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA QTA DO ESPINHAL",
+      "casa": "",
+      "coordenadas": [
+        40.71678976793393,
+        -8.540460813278747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.170686",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "37",
+      "coordenadas": [
+        40.71703847508207,
+        -8.541432808997913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.179751",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "27",
+      "coordenadas": [
+        40.716520832996046,
+        -8.540115958235853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.194146",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "29",
+      "coordenadas": [
+        40.716465593277164,
+        -8.540458837324948
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.213050",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "1",
+      "coordenadas": [
+        40.71594188755619,
+        -8.538301688886332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220384",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "32",
+      "coordenadas": [
+        40.71786230540745,
+        -8.540195139894278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.239213",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "4",
+      "coordenadas": [
+        40.71618493555246,
+        -8.538326832406513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.287659",
+      "rua": "R PADRE JOAQUIM DOMINGUES DA SILVA",
+      "casa": "15",
+      "coordenadas": [
+        40.71760991916339,
+        -8.540264613778357
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE JOAQUIM DOMINGUES DA SILVA",
+    "R PADRE JOAQUIM DOMINGUES DA SILVA QTA DO ESPINHAL"
+  ],
+  "centro": [
+    40.71675160293469,
+    -8.539967872798558
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.71643170100051,
+                -8.540651701009532
+              ],
+              [
+                40.71625596754749,
+                -8.54037102795203
+              ],
+              [
+                40.716106903699455,
+                -8.540108454911648
+              ],
+              [
+                40.71598450945638,
+                -8.539863981888384
+              ],
+              [
+                40.71588878481829,
+                -8.539637608882238
+              ],
+              [
+                40.71581972978517,
+                -8.539429335893207
+              ],
+              [
+                40.71577734435703,
+                -8.539239162921298
+              ],
+              [
+                40.71576162853386,
+                -8.539067089966505
+              ],
+              [
+                40.715772582315665,
+                -8.538913117028832
+              ],
+              [
+                40.715810205702454,
+                -8.538777244108276
+              ],
+              [
+                40.71584692379083,
+                -8.538658748170294
+              ],
+              [
+                40.715882736580795,
+                -8.538557629214882
+              ],
+              [
+                40.71591764407236,
+                -8.538473887242043
+              ],
+              [
+                40.715951646265516,
+                -8.538407522251777
+              ],
+              [
+                40.71598474316027,
+                -8.538358534244082
+              ],
+              [
+                40.71601693475662,
+                -8.53832692321896
+              ],
+              [
+                40.71604822105456,
+                -8.538312689176411
+              ],
+              [
+                40.7160786020541,
+                -8.538315832116433
+              ],
+              [
+                40.71613139433267,
+                -8.538347774493449
+              ],
+              [
+                40.71620659789029,
+                -8.53840851630746
+              ],
+              [
+                40.71630421272695,
+                -8.538498057558463
+              ],
+              [
+                40.71642423884265,
+                -8.538616398246461
+              ],
+              [
+                40.71656667623739,
+                -8.538763538371452
+              ],
+              [
+                40.71673152491118,
+                -8.538939477933436
+              ],
+              [
+                40.71691878486402,
+                -8.539144216932412
+              ],
+              [
+                40.71712845609589,
+                -8.53937775536838
+              ],
+              [
+                40.71729917565314,
+                -8.539604584575113
+              ],
+              [
+                40.71743094353575,
+                -8.539824704552606
+              ],
+              [
+                40.717523759743735,
+                -8.540038115300861
+              ],
+              [
+                40.71757762427708,
+                -8.540244816819879
+              ],
+              [
+                40.7175925371358,
+                -8.540444809109657
+              ],
+              [
+                40.717568498319885,
+                -8.540638092170198
+              ],
+              [
+                40.717505507829344,
+                -8.5408246660015
+              ],
+              [
+                40.71740356566417,
+                -8.541004530603564
+              ],
+              [
+                40.71729239958802,
+                -8.541126827998182
+              ],
+              [
+                40.71717200960089,
+                -8.541191558185353
+              ],
+              [
+                40.71704239570277,
+                -8.54119872116508
+              ],
+              [
+                40.71690355789367,
+                -8.541148316937361
+              ],
+              [
+                40.7167554961736,
+                -8.541040345502196
+              ],
+              [
+                40.71659821054254,
+                -8.540874806859586
+              ],
+              [
+                40.71643170100051,
+                -8.540651701009532
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.716535359412816,
+    -8.539569278029738
+  ],
+  "centroDeMassa": [
+    40.71675160293469,
+    -8.539967872798558
+  ]
+}

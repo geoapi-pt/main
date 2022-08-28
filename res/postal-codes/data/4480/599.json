@@ -1,1 +1,371 @@
-{"CP4":"4480","CP3":"599","Distrito":"Porto","Concelho":"Vila do Conde","CP":"4480-599","Artéria":"Rua 5 de Outubro","Localidade":"Vila do Conde","Local":"","Troço":"Pares de 2 a 130","Porta":"","Cliente":"","Designação Postal":"VILA DO CONDE","locais":[{"id":"pt.ine.add.PTCONT.3579456","rua":"R 5 DE OUTUBRO","casa":"58","coordenadas":[41.35252902212235,-8.740585060137624]},{"id":"pt.ine.add.PTCONT.3621715","rua":"R 5 DE OUTUBRO","casa":"45","coordenadas":[41.35248318420473,-8.740739976631255]},{"id":"pt.ine.add.PTCONT.3952842","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3952843","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3952844","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3952845","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3952846","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3952851","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3953122","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.3953159","rua":"R 5 DE OUTUBRO","casa":"121","coordenadas":[41.35320214504698,-8.740997603334868]},{"id":"pt.ine.add.PTCONT.4093721","rua":"R 5 DE OUTUBRO","casa":"93","coordenadas":[41.35287814260215,-8.74097069005128]},{"id":"pt.ine.add.PTCONT.4093722","rua":"R 5 DE OUTUBRO","casa":"93","coordenadas":[41.35287814260215,-8.74097069005128]},{"id":"pt.ine.add.PTCONT.4093723","rua":"R 5 DE OUTUBRO","casa":"93","coordenadas":[41.35287814260215,-8.74097069005128]},{"id":"pt.ine.add.PTCONT.4093760","rua":"R 5 DE OUTUBRO","casa":"93","coordenadas":[41.35287814260215,-8.74097069005128]},{"id":"pt.ine.add.PTCONT.4198191","rua":"R 5 DE OUTUBRO","casa":"29","coordenadas":[41.35227641738588,-8.740678306909327]},{"id":"pt.ine.add.PTCONT.4256906","rua":"R 5 OUTUBRO","casa":"4","coordenadas":[41.372894084036545,-8.754448909804982]},{"id":"pt.ine.add.PTCONT.4256907","rua":"R 5 OUTUBRO","casa":"4","coordenadas":[41.372894084036545,-8.754448909804982]},{"id":"pt.ine.add.PTCONT.4256908","rua":"R 5 DE OUTUBRO","casa":"","coordenadas":[41.372894084036545,-8.754448909804982]},{"id":"pt.ine.add.PTCONT.4256918","rua":"R 5 OUTUBRO","casa":"4","coordenadas":[41.372894084036545,-8.754448909804982]},{"id":"pt.ine.add.PTCONT.4357096","rua":"R 5 DE OUTUBRO","casa":"47","coordenadas":[41.35257309378048,-8.740764711614704]}],"ruas":["R 5 DE OUTUBRO","R 5 OUTUBRO"],"centroide":[41.35715761529701,-8.743771714199063]}]}
+{
+  "CP": "4480-599",
+  "CP4": "4480",
+  "CP3": "599",
+  "Distrito": "Porto",
+  "Concelho": "Vila do Conde",
+  "Localidade": "Vila do Conde",
+  "Designação Postal": "VILA DO CONDE",
+  "partes": [
+    {
+      "Artéria": "Rua 5 de Outubro",
+      "Local": "",
+      "Troço": "Impares de 1 a 129",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua 5 de Outubro",
+      "Local": "",
+      "Troço": "Pares de 2 a 130",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3579456",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "58",
+      "coordenadas": [
+        41.35252902212235,
+        -8.740585060137624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3621715",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "45",
+      "coordenadas": [
+        41.35248318420473,
+        -8.740739976631255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3952842",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3952843",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3952844",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3952845",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3952846",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3952851",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3953122",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3953159",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "121",
+      "coordenadas": [
+        41.35320214504698,
+        -8.740997603334868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4093721",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "93",
+      "coordenadas": [
+        41.35287814260215,
+        -8.74097069005128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4093722",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "93",
+      "coordenadas": [
+        41.35287814260215,
+        -8.74097069005128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4093723",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "93",
+      "coordenadas": [
+        41.35287814260215,
+        -8.74097069005128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4093760",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "93",
+      "coordenadas": [
+        41.35287814260215,
+        -8.74097069005128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4198191",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "29",
+      "coordenadas": [
+        41.35227641738588,
+        -8.740678306909327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4256906",
+      "rua": "R 5 OUTUBRO",
+      "casa": "4",
+      "coordenadas": [
+        41.372894084036545,
+        -8.754448909804982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4256907",
+      "rua": "R 5 OUTUBRO",
+      "casa": "4",
+      "coordenadas": [
+        41.372894084036545,
+        -8.754448909804982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4256908",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "",
+      "coordenadas": [
+        41.372894084036545,
+        -8.754448909804982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4256918",
+      "rua": "R 5 OUTUBRO",
+      "casa": "4",
+      "coordenadas": [
+        41.372894084036545,
+        -8.754448909804982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4357096",
+      "rua": "R 5 DE OUTUBRO",
+      "casa": "47",
+      "coordenadas": [
+        41.35257309378048,
+        -8.740764711614704
+      ]
+    }
+  ],
+  "ruas": [
+    "R 5 DE OUTUBRO",
+    "R 5 OUTUBRO"
+  ],
+  "centro": [
+    41.36258525071121,
+    -8.747516984971302
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.363873854876886,
+                -8.748424271038134
+              ],
+              [
+                41.36129664654554,
+                -8.746702945676175
+              ],
+              [
+                41.35904553620463,
+                -8.745195329003655
+              ],
+              [
+                41.35712052385415,
+                -8.743901421020572
+              ],
+              [
+                41.35552160949409,
+                -8.742821221726926
+              ],
+              [
+                41.354248793124455,
+                -8.741954731122716
+              ],
+              [
+                41.353302074745244,
+                -8.741301949207942
+              ],
+              [
+                41.35268145435646,
+                -8.740862875982607
+              ],
+              [
+                41.35238693195809,
+                -8.740637511446707
+              ],
+              [
+                41.35241850755014,
+                -8.740625855600245
+              ],
+              [
+                41.35245665373889,
+                -8.740622102722046
+              ],
+              [
+                41.35250137052433,
+                -8.740626252812113
+              ],
+              [
+                41.35255265790646,
+                -8.740638305870444
+              ],
+              [
+                41.352610515885274,
+                -8.74065826189704
+              ],
+              [
+                41.35267494446078,
+                -8.740686120891901
+              ],
+              [
+                41.35274594363298,
+                -8.740721882855027
+              ],
+              [
+                41.35282351340187,
+                -8.740765547786419
+              ],
+              [
+                41.352907653767446,
+                -8.740817115686074
+              ],
+              [
+                41.35328896313404,
+                -8.741072414261868
+              ],
+              [
+                41.35396744150165,
+                -8.741531443513802
+              ],
+              [
+                41.35494308887027,
+                -8.742194203441873
+              ],
+              [
+                41.35621590523992,
+                -8.743060694046083
+              ],
+              [
+                41.35778589061057,
+                -8.74413091532643
+              ],
+              [
+                41.35965304498224,
+                -8.745404867282918
+              ],
+              [
+                41.36181736835492,
+                -8.746882549915544
+              ],
+              [
+                41.364278860728604,
+                -8.748563963224306
+              ],
+              [
+                41.36611051551417,
+                -8.749820034199232
+              ],
+              [
+                41.36731233271161,
+                -8.750650762840316
+              ],
+              [
+                41.367884312320925,
+                -8.751056149147558
+              ],
+              [
+                41.36782645434211,
+                -8.751036193120962
+              ],
+              [
+                41.36713875877516,
+                -8.750590894760526
+              ],
+              [
+                41.36582122562009,
+                -8.74972025406625
+              ],
+              [
+                41.363873854876886,
+                -8.748424271038134
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.35772541714793,
+    -8.7441774700467
+  ],
+  "centroDeMassa": [
+    41.36258525071121,
+    -8.747516984971302
+  ]
+}

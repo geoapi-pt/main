@@ -1,1 +1,321 @@
-{"CP4":"2140","CP3":"422","Distrito":"Santarém","Concelho":"Chamusca","CP":"2140-422","Artéria":"Travessa do Varanda","Localidade":"Vale de Cavalos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VALE DE CAVALOS","locais":[{"id":"pt.ine.add.PTCONT.4420684","rua":"R COUTO","casa":"3","coordenadas":[39.28255658473736,-8.511824673859666]},{"id":"pt.ine.add.PTCONT.4441817","rua":"R COUTO CASAL DAS PARCEIRAS","casa":"4","coordenadas":[39.28238477080371,-8.512032368339815]},{"id":"pt.ine.add.PTCONT.4451555","rua":"TV VARANDA","casa":"45","coordenadas":[39.28046263703573,-8.507571580068403]},{"id":"pt.ine.add.PTCONT.4464056","rua":"R COUTO","casa":"","coordenadas":[39.27474889356148,-8.51408879339228]},{"id":"pt.ine.add.PTCONT.4469832","rua":"R CASAL DO COUTO","casa":"","coordenadas":[39.27473125839262,-8.513972810664198]},{"id":"pt.ine.add.PTCONT.4498437","rua":"HRD PERNA MOLHADA","casa":"","coordenadas":[39.23873038195872,-8.404030948650286]},{"id":"pt.ine.add.PTCONT.4504854","rua":"R COUTO","casa":"14","coordenadas":[39.28173878261319,-8.511252366035329]},{"id":"pt.ine.add.PTCONT.4514840","rua":"TV VARANDA","casa":"17","coordenadas":[39.28149949842939,-8.510045736297004]},{"id":"pt.ine.add.PTCONT.4522189","rua":"TV VARANDA","casa":"51","coordenadas":[39.28028364934684,-8.507211348308562]},{"id":"pt.ine.add.PTCONT.4538608","rua":"R COUTO","casa":"6","coordenadas":[39.28260991102248,-8.51204517142138]},{"id":"pt.ine.add.PTCONT.4545601","rua":"TV VARANDA","casa":"","coordenadas":[39.28093545901338,-8.508988046487255]},{"id":"pt.ine.add.PTCONT.4554469","rua":"CSL CARVALHOS","casa":"","coordenadas":[39.27860813752207,-8.5072603833786]},{"id":"pt.ine.add.PTCONT.4567635","rua":"TV VARANDA","casa":"39","coordenadas":[39.28057023792382,-8.50772281887388]},{"id":"pt.ine.add.PTCONT.4644441","rua":"R CASAL DO COUTO","casa":"","coordenadas":[39.27470454019556,-8.513879956267894]}],"ruas":["R COUTO","R COUTO CASAL DAS PARCEIRAS","TV VARANDA","R CASAL DO COUTO","HRD PERNA MOLHADA","CSL CARVALHOS"],"centroide":[39.27691232325852,-8.502157465059742]}
+{
+  "CP": "2140-422",
+  "CP4": "2140",
+  "CP3": "422",
+  "Distrito": "Santarém",
+  "Concelho": "Chamusca",
+  "Localidade": "Vale de Cavalos",
+  "Designação Postal": "VALE DE CAVALOS",
+  "partes": [
+    {
+      "Artéria": "Rua do Couto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Varanda",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4420684",
+      "rua": "R COUTO",
+      "casa": "3",
+      "coordenadas": [
+        39.28255658473736,
+        -8.511824673859666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4441817",
+      "rua": "R COUTO CASAL DAS PARCEIRAS",
+      "casa": "4",
+      "coordenadas": [
+        39.28238477080371,
+        -8.512032368339815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4451555",
+      "rua": "TV VARANDA",
+      "casa": "45",
+      "coordenadas": [
+        39.28046263703573,
+        -8.507571580068403
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4464056",
+      "rua": "R COUTO",
+      "casa": "",
+      "coordenadas": [
+        39.27474889356148,
+        -8.51408879339228
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4469832",
+      "rua": "R CASAL DO COUTO",
+      "casa": "",
+      "coordenadas": [
+        39.27473125839262,
+        -8.513972810664198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498437",
+      "rua": "HRD PERNA MOLHADA",
+      "casa": "",
+      "coordenadas": [
+        39.23873038195872,
+        -8.404030948650286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4504854",
+      "rua": "R COUTO",
+      "casa": "14",
+      "coordenadas": [
+        39.28173878261319,
+        -8.511252366035329
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4514840",
+      "rua": "TV VARANDA",
+      "casa": "17",
+      "coordenadas": [
+        39.28149949842939,
+        -8.510045736297004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4522189",
+      "rua": "TV VARANDA",
+      "casa": "51",
+      "coordenadas": [
+        39.28028364934684,
+        -8.507211348308562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4538608",
+      "rua": "R COUTO",
+      "casa": "6",
+      "coordenadas": [
+        39.28260991102248,
+        -8.51204517142138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4545601",
+      "rua": "TV VARANDA",
+      "casa": "",
+      "coordenadas": [
+        39.28093545901338,
+        -8.508988046487255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4554469",
+      "rua": "CSL CARVALHOS",
+      "casa": "",
+      "coordenadas": [
+        39.27860813752207,
+        -8.5072603833786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4567635",
+      "rua": "TV VARANDA",
+      "casa": "39",
+      "coordenadas": [
+        39.28057023792382,
+        -8.50772281887388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4644441",
+      "rua": "R CASAL DO COUTO",
+      "casa": "",
+      "coordenadas": [
+        39.27470454019556,
+        -8.513879956267894
+      ]
+    }
+  ],
+  "ruas": [
+    "R COUTO",
+    "R COUTO CASAL DAS PARCEIRAS",
+    "TV VARANDA",
+    "R CASAL DO COUTO",
+    "HRD PERNA MOLHADA",
+    "CSL CARVALHOS"
+  ],
+  "centro": [
+    39.2606701464906,
+    -8.459059871021283
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.25899079473527,
+                -8.465938486317658
+              ],
+              [
+                39.25448848078493,
+                -8.45218125572491
+              ],
+              [
+                39.25123374049679,
+                -8.441827955912649
+              ],
+              [
+                39.24922657387087,
+                -8.434878586880881
+              ],
+              [
+                39.24846698090715,
+                -8.431333148629601
+              ],
+              [
+                39.248954961605634,
+                -8.431191641158813
+              ],
+              [
+                39.25069051596634,
+                -8.434454064468515
+              ],
+              [
+                39.253673643989245,
+                -8.441120418558706
+              ],
+              [
+                39.25790434567437,
+                -8.451190703429388
+              ],
+              [
+                39.2633826210217,
+                -8.464664919080564
+              ],
+              [
+                39.26817694517382,
+                -8.476458303049743
+              ],
+              [
+                39.27228731813072,
+                -8.486570855336925
+              ],
+              [
+                39.275713739892424,
+                -8.495002575942113
+              ],
+              [
+                39.27845621045891,
+                -8.501753464865306
+              ],
+              [
+                39.28051472983019,
+                -8.506823522106504
+              ],
+              [
+                39.28188929800625,
+                -8.510212747665708
+              ],
+              [
+                39.282579914987096,
+                -8.511921141542917
+              ],
+              [
+                39.282586580772744,
+                -8.511948703738131
+              ],
+              [
+                39.282469584937346,
+                -8.512004752252238
+              ],
+              [
+                39.28222892748093,
+                -8.512089287085239
+              ],
+              [
+                39.28186460840347,
+                -8.512202308237134
+              ],
+              [
+                39.28137662770497,
+                -8.512343815707924
+              ],
+              [
+                39.280764985385446,
+                -8.512513809497605
+              ],
+              [
+                39.28002968144489,
+                -8.51271228960618
+              ],
+              [
+                39.279170715883296,
+                -8.512939256033649
+              ],
+              [
+                39.278188088700674,
+                -8.513194708780011
+              ],
+              [
+                39.276765500672084,
+                -8.511698576108984
+              ],
+              [
+                39.27490295179753,
+                -8.50845085802057
+              ],
+              [
+                39.27260044207701,
+                -8.503451554514765
+              ],
+              [
+                39.26985797151052,
+                -8.496700665591572
+              ],
+              [
+                39.26667554009806,
+                -8.48819819125099
+              ],
+              [
+                39.263053147839656,
+                -8.477944131493018
+              ],
+              [
+                39.25899079473527,
+                -8.465938486317658
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.26966144282001,
+    -8.485497396830905
+  ],
+  "centroDeMassa": [
+    39.2606701464906,
+    -8.459059871021283
+  ]
+}

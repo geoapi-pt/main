@@ -1,1 +1,413 @@
-{"CP4":"9020","CP3":"303","Distrito":"Ilha da Madeira","Concelho":"Funchal","CP":"9020-303","Artéria":"Vereda Ribeiro Lavadouro","Localidade":"Funchal","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FUNCHAL","locais":[{"id":"pt.ine.add.MAD.2737","rua":"VR RIBEIRO LAVADOURO","casa":"8","coordenadas":[32.67922318477047,-16.939080062832925]},{"id":"pt.ine.add.MAD.5177","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68141322499005,-16.940343108656798]},{"id":"pt.ine.add.MAD.5178","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.6810716198661,-16.94027173526743]},{"id":"pt.ine.add.MAD.5179","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68113439957183,-16.940294421279052]},{"id":"pt.ine.add.MAD.5180","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68108816686471,-16.940368069585716]},{"id":"pt.ine.add.MAD.5181","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.680817862321284,-16.940351558708084]},{"id":"pt.ine.add.MAD.12150","rua":"VR RIBEIRO LAVADOURO","casa":"7","coordenadas":[32.678864371242206,-16.9389550055622]},{"id":"pt.ine.add.MAD.12151","rua":"VR RIBEIRO LAVADOURO","casa":"5","coordenadas":[32.678757666451624,-16.93885672538942]},{"id":"pt.ine.add.MAD.12152","rua":"VR RIBEIRO LAVADOURO","casa":"1","coordenadas":[32.67840951598646,-16.938625262874407]},{"id":"pt.ine.add.MAD.57462","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68130074885458,-16.940617941550965]},{"id":"pt.ine.add.MAD.57601","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68147320077088,-16.940547023715233]},{"id":"pt.ine.add.MAD.63866","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68108162500751,-16.94020796740497]},{"id":"pt.ine.add.MAD.64191","rua":"VR RIBEIRO LAVADOURO","casa":"108","coordenadas":[32.67980470053734,-16.939967071799177]},{"id":"pt.ine.add.MAD.66455","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.680875254515335,-16.94013951971426]},{"id":"pt.ine.add.MAD.72493","rua":"VR RIBEIRO LAVADOURO","casa":"17","coordenadas":[32.67936216093583,-16.939424309775]},{"id":"pt.ine.add.MAD.79032","rua":"VR RIBEIRO LAVADOURO","casa":"103","coordenadas":[32.67998061443304,-16.93967228637353]},{"id":"pt.ine.add.MAD.82942","rua":"VR RIBEIRO LAVADOURO","casa":"23","coordenadas":[32.67970536347047,-16.939975587496896]},{"id":"pt.ine.add.MAD.91899","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.68139865692907,-16.940118847797343]},{"id":"pt.ine.add.MAD.121891","rua":"VR RIBEIRO LAVADOURO","casa":"21","coordenadas":[32.67958507963838,-16.939589087078247]},{"id":"pt.ine.add.MAD.124419","rua":"VR RIBEIRO LAVADOURO","casa":"41","coordenadas":[32.680758215965774,-16.94012632439645]},{"id":"pt.ine.add.MAD.125145","rua":"VR RIBEIRO LAVADOURO","casa":"11 CCI 122","coordenadas":[32.67905941961497,-16.939172497350103]},{"id":"pt.ine.add.MAD.127155","rua":"VR RIBEIRO LAVADOURO","casa":"","coordenadas":[32.6813525892274,-16.940181835899207]}],"ruas":["VR RIBEIRO LAVADOURO"],"centroide":[32.680245954892285,-16.939843067362297]}
+{
+  "CP": "9020-303",
+  "CP4": "9020",
+  "CP3": "303",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Funchal",
+  "Localidade": "Funchal",
+  "Designação Postal": "FUNCHAL",
+  "partes": [
+    {
+      "Artéria": "Vereda Ribeiro Lavadouro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.2737",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "8",
+      "coordenadas": [
+        32.67922318477047,
+        -16.939080062832925
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.5177",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68141322499005,
+        -16.940343108656798
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.5178",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.6810716198661,
+        -16.94027173526743
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.5179",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68113439957183,
+        -16.940294421279052
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.5180",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68108816686471,
+        -16.940368069585716
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.5181",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.680817862321284,
+        -16.940351558708084
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12150",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "7",
+      "coordenadas": [
+        32.678864371242206,
+        -16.9389550055622
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12151",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "5",
+      "coordenadas": [
+        32.678757666451624,
+        -16.93885672538942
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12152",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "1",
+      "coordenadas": [
+        32.67840951598646,
+        -16.938625262874407
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.57462",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68130074885458,
+        -16.940617941550965
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.57601",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68147320077088,
+        -16.940547023715233
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.63866",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68108162500751,
+        -16.94020796740497
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.64191",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "108",
+      "coordenadas": [
+        32.67980470053734,
+        -16.939967071799177
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.66455",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.680875254515335,
+        -16.94013951971426
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.72493",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "17",
+      "coordenadas": [
+        32.67936216093583,
+        -16.939424309775
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.79032",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "103",
+      "coordenadas": [
+        32.67998061443304,
+        -16.93967228637353
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.82942",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "23",
+      "coordenadas": [
+        32.67970536347047,
+        -16.939975587496896
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.91899",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.68139865692907,
+        -16.940118847797343
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.121891",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "21",
+      "coordenadas": [
+        32.67958507963838,
+        -16.939589087078247
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.124419",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "41",
+      "coordenadas": [
+        32.680758215965774,
+        -16.94012632439645
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.125145",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "11 CCI 122",
+      "coordenadas": [
+        32.67905941961497,
+        -16.939172497350103
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.127155",
+      "rua": "VR RIBEIRO LAVADOURO",
+      "casa": "",
+      "coordenadas": [
+        32.6813525892274,
+        -16.940181835899207
+      ]
+    }
+  ],
+  "ruas": [
+    "VR RIBEIRO LAVADOURO"
+  ],
+  "centro": [
+    32.67994135837867,
+    -16.939621602212686
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.67913843019621,
+                -16.939384820474558
+              ],
+              [
+                32.678976449260716,
+                -16.939216029896745
+              ],
+              [
+                32.67888142126938,
+                -16.93909167540558
+              ],
+              [
+                32.67885334622221,
+                -16.939011757001065
+              ],
+              [
+                32.67889222411921,
+                -16.938976274683196
+              ],
+              [
+                32.67899805496037,
+                -16.938985228451973
+              ],
+              [
+                32.67917083874569,
+                -16.939038618307396
+              ],
+              [
+                32.67941057547519,
+                -16.93913644424947
+              ],
+              [
+                32.67971726514885,
+                -16.939278706278188
+              ],
+              [
+                32.68009090776668,
+                -16.93946540439356
+              ],
+              [
+                32.68041900980481,
+                -16.93963545549322
+              ],
+              [
+                32.68070157126323,
+                -16.93978885957718
+              ],
+              [
+                32.680938592141956,
+                -16.93992561664544
+              ],
+              [
+                32.68113007244098,
+                -16.94004572669799
+              ],
+              [
+                32.68127601216031,
+                -16.940149189734836
+              ],
+              [
+                32.68137641129994,
+                -16.940236005755978
+              ],
+              [
+                32.681431269859864,
+                -16.94030617476142
+              ],
+              [
+                32.68144058784009,
+                -16.940359696751155
+              ],
+              [
+                32.681446046511596,
+                -16.94040763658336
+              ],
+              [
+                32.681447645874385,
+                -16.940449994258028
+              ],
+              [
+                32.68144538592845,
+                -16.940486769775163
+              ],
+              [
+                32.68143926667379,
+                -16.940517963134763
+              ],
+              [
+                32.68142928811042,
+                -16.94054357433683
+              ],
+              [
+                32.68141545023832,
+                -16.940563603381364
+              ],
+              [
+                32.681397753057496,
+                -16.940578050268364
+              ],
+              [
+                32.68137619656797,
+                -16.94058691499783
+              ],
+              [
+                32.681332406742996,
+                -16.94058463485402
+              ],
+              [
+                32.68126638358258,
+                -16.940571209836925
+              ],
+              [
+                32.68117812708674,
+                -16.94054663994656
+              ],
+              [
+                32.68106763725547,
+                -16.940510925182913
+              ],
+              [
+                32.68093491408875,
+                -16.940464065545992
+              ],
+              [
+                32.68077995758661,
+                -16.940406061035787
+              ],
+              [
+                32.68060276774903,
+                -16.94033691165231
+              ],
+              [
+                32.680403344576014,
+                -16.940256617395548
+              ],
+              [
+                32.680208601682686,
+                -16.94016526109866
+              ],
+              [
+                32.68001853906905,
+                -16.940062842761638
+              ],
+              [
+                32.67983315673511,
+                -16.939949362384482
+              ],
+              [
+                32.67965245468085,
+                -16.9398248199672
+              ],
+              [
+                32.679476432906284,
+                -16.939689215509784
+              ],
+              [
+                32.6793050914114,
+                -16.939542549012238
+              ],
+              [
+                32.67913843019621,
+                -16.939384820474558
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.68045749720229,
+    -16.939976932686967
+  ],
+  "centroDeMassa": [
+    32.67994135837867,
+    -16.939621602212686
+  ]
+}

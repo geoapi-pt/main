@@ -1,1 +1,525 @@
-{"CP4":"2865","CP3":"614","Distrito":"Setúbal","Concelho":"Seixal","CP":"2865-614","Artéria":"Rua António Aleixo","Localidade":"Fernão Ferro","Local":"Morgados","Troço":"LT 99 B","Porta":"","Cliente":"","Designação Postal":"FERNÃO FERRO","locais":[{"id":"pt.ine.add.PTCONT.4698223","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.56042179486742,-9.094710704806085]},{"id":"pt.ine.add.PTCONT.4712618","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.559534568508035,-9.09524957067506]},{"id":"pt.ine.add.PTCONT.4752595","rua":"R ANTÓNIO ALEIXO","casa":"96","coordenadas":[38.559853401322286,-9.094817858155038]},{"id":"pt.ine.add.PTCONT.4806926","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.56032262186495,-9.094720856104761]},{"id":"pt.ine.add.PTCONT.4809780","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.55835265015906,-9.095474735612955]},{"id":"pt.ine.add.PTCONT.4830610","rua":"R ANTÓNIO ALEIXO","casa":"100 B","coordenadas":[38.56071096632419,-9.094599829543352]},{"id":"pt.ine.add.PTCONT.4888045","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.56062943073043,-9.094656107394389]},{"id":"pt.ine.add.PTCONT.4898377","rua":"R ANTÓNIO ALEIXO","casa":"100 C","coordenadas":[38.56070299560195,-9.094473521949231]},{"id":"pt.ine.add.PTCONT.4903897","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.560837160792495,-9.094590038060705]},{"id":"pt.ine.add.PTCONT.4927052","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.560049296579926,-9.095095814738155]},{"id":"pt.ine.add.PTCONT.4937976","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.56021151973,-9.095086504460845]},{"id":"pt.ine.add.PTCONT.4937977","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.55940837397408,-9.095259360874362]},{"id":"pt.ine.add.PTCONT.4977747","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.559763046966175,-9.094851072173126]},{"id":"pt.ine.add.PTCONT.4984758","rua":"R ANTÓNIO ALEIXO","casa":"100 A","coordenadas":[38.56072813254782,-9.094703313983631]},{"id":"pt.ine.add.PTCONT.4988501","rua":"R ANTÓNIO ALEIXO","casa":"","coordenadas":[38.55949703109942,-9.095432632804355]},{"id":"pt.ine.add.PTCONT.5026322","rua":"R ANTÓNIO ALEIXO","casa":"96","coordenadas":[38.55961930938048,-9.094803265890866]},{"id":"pt.ine.add.PTCONT.5026323","rua":"R ANTÓNIO ALEIXO","casa":"96","coordenadas":[38.55961930938048,-9.094803265890866]},{"id":"pt.ine.add.PTCONT.5056975","rua":"R ANTÓNIO ALEIXO","casa":"97","coordenadas":[38.55954668659768,-9.094871134135179]}],"ruas":["R ANTÓNIO ALEIXO"],"centroide":[38.56001538881349,-9.094901673712812]}
+{
+  "CP": "2865-614",
+  "CP4": "2865",
+  "CP3": "614",
+  "Distrito": "Setúbal",
+  "Concelho": "Seixal",
+  "Localidade": "Fernão Ferro",
+  "Designação Postal": "FERNÃO FERRO",
+  "partes": [
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 101",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 103",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 104",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 105",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 106",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 107",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 108",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 112",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 96 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 96",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 97",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 99 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Aleixo",
+      "Local": "Morgados",
+      "Troço": "LT 99 B",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4698223",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.56042179486742,
+        -9.094710704806085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4712618",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.559534568508035,
+        -9.09524957067506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4752595",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "96",
+      "coordenadas": [
+        38.559853401322286,
+        -9.094817858155038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4806926",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.56032262186495,
+        -9.094720856104761
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4809780",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.55835265015906,
+        -9.095474735612955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4830610",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "100 B",
+      "coordenadas": [
+        38.56071096632419,
+        -9.094599829543352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4888045",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.56062943073043,
+        -9.094656107394389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4898377",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "100 C",
+      "coordenadas": [
+        38.56070299560195,
+        -9.094473521949231
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4903897",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.560837160792495,
+        -9.094590038060705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4927052",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.560049296579926,
+        -9.095095814738155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4937976",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.56021151973,
+        -9.095086504460845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4937977",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.55940837397408,
+        -9.095259360874362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4977747",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.559763046966175,
+        -9.094851072173126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4984758",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "100 A",
+      "coordenadas": [
+        38.56072813254782,
+        -9.094703313983631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4988501",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.55949703109942,
+        -9.095432632804355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5026322",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "96",
+      "coordenadas": [
+        38.55961930938048,
+        -9.094803265890866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5026323",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "96",
+      "coordenadas": [
+        38.55961930938048,
+        -9.094803265890866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5056975",
+      "rua": "R ANTÓNIO ALEIXO",
+      "casa": "97",
+      "coordenadas": [
+        38.55954668659768,
+        -9.094871134135179
+      ]
+    }
+  ],
+  "ruas": [
+    "R ANTÓNIO ALEIXO"
+  ],
+  "centro": [
+    38.55959490547578,
+    -9.094974128781093
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.558996364438016,
+                -9.095451052783119
+              ],
+              [
+                38.55885331682046,
+                -9.095456315634191
+              ],
+              [
+                38.55874794170545,
+                -9.095450428914475
+              ],
+              [
+                38.55868023909296,
+                -9.095433392623967
+              ],
+              [
+                38.558650208982996,
+                -9.095405206762667
+              ],
+              [
+                38.558657851375564,
+                -9.095365871330571
+              ],
+              [
+                38.558703166270654,
+                -9.095315386327687
+              ],
+              [
+                38.55878615366828,
+                -9.09525375175401
+              ],
+              [
+                38.55890681356843,
+                -9.09518096760954
+              ],
+              [
+                38.55906514597111,
+                -9.09509703389428
+              ],
+              [
+                38.559220619420664,
+                -9.095018439644338
+              ],
+              [
+                38.55937323391709,
+                -9.094945184859714
+              ],
+              [
+                38.5595229894604,
+                -9.094877269540412
+              ],
+              [
+                38.55966988605058,
+                -9.09481469368643
+              ],
+              [
+                38.559813923687635,
+                -9.094757457297767
+              ],
+              [
+                38.55995510237157,
+                -9.094705560374425
+              ],
+              [
+                38.560093422102376,
+                -9.094659002916401
+              ],
+              [
+                38.560228882880054,
+                -9.094617784923695
+              ],
+              [
+                38.560349507391635,
+                -9.094583539744322
+              ],
+              [
+                38.5604552956371,
+                -9.094556267378277
+              ],
+              [
+                38.56054624761646,
+                -9.094535967825562
+              ],
+              [
+                38.56062236332971,
+                -9.094522641086176
+              ],
+              [
+                38.56068364277685,
+                -9.09451628716012
+              ],
+              [
+                38.560730085957886,
+                -9.094516906047396
+              ],
+              [
+                38.560761692872816,
+                -9.094524497748
+              ],
+              [
+                38.56077846352163,
+                -9.094539062261934
+              ],
+              [
+                38.56079143427303,
+                -9.094553576147923
+              ],
+              [
+                38.56080060512699,
+                -9.094568039405965
+              ],
+              [
+                38.560805976083536,
+                -9.094582452036061
+              ],
+              [
+                38.56080754714265,
+                -9.094596814038212
+              ],
+              [
+                38.56080531830435,
+                -9.094611125412415
+              ],
+              [
+                38.56079928956861,
+                -9.094625386158674
+              ],
+              [
+                38.56078946093545,
+                -9.094639596276986
+              ],
+              [
+                38.560775832404865,
+                -9.094653755767352
+              ],
+              [
+                38.56075583536533,
+                -9.094672132672628
+              ],
+              [
+                38.56072946981683,
+                -9.094694726992817
+              ],
+              [
+                38.56069673575938,
+                -9.094721538727914
+              ],
+              [
+                38.560657633192974,
+                -9.094752567877922
+              ],
+              [
+                38.560612162117614,
+                -9.094787814442842
+              ],
+              [
+                38.5605603225333,
+                -9.09482727842267
+              ],
+              [
+                38.56050211444003,
+                -9.094870959817412
+              ],
+              [
+                38.5604375378378,
+                -9.094918858627063
+              ],
+              [
+                38.560369869426,
+                -9.094966178340876
+              ],
+              [
+                38.56029910920462,
+                -9.095012918958847
+              ],
+              [
+                38.56022525717367,
+                -9.095059080480983
+              ],
+              [
+                38.560148313333144,
+                -9.095104662907278
+              ],
+              [
+                38.560068277683044,
+                -9.095149666237734
+              ],
+              [
+                38.55998515022337,
+                -9.09519409047235
+              ],
+              [
+                38.55989893095412,
+                -9.09523793561113
+              ],
+              [
+                38.559809619875296,
+                -9.09528120165407
+              ],
+              [
+                38.559713591729135,
+                -9.095319717298025
+              ],
+              [
+                38.559610846515625,
+                -9.095353482542997
+              ],
+              [
+                38.559501384234785,
+                -9.095382497388988
+              ],
+              [
+                38.5593852048866,
+                -9.095406761835996
+              ],
+              [
+                38.55926230847108,
+                -9.09542627588402
+              ],
+              [
+                38.55913269498822,
+                -9.09544103953306
+              ],
+              [
+                38.558996364438016,
+                -9.095451052783119
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.55999268561589,
+    -9.09493771610894
+  ],
+  "centroDeMassa": [
+    38.55959490547578,
+    -9.094974128781093
+  ]
+}

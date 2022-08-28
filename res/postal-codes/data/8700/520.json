@@ -1,1 +1,531 @@
-{"CP4":"8700","CP3":"520","Distrito":"Faro","Concelho":"Olhão","CP":"8700-520","Artéria":"Rua Teófilo Braga","Localidade":"Olhão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLHÃO","locais":[{"id":"pt.ine.add.PTCONT.1497001","rua":"R TEÓFILO BRAGA","casa":"53","coordenadas":[37.024732424412264,-7.8422773032094275]},{"id":"pt.ine.add.PTCONT.1511401","rua":"R TEÓFILO BRAGA","casa":"21","coordenadas":[37.02502109627078,-7.842411060255122]},{"id":"pt.ine.add.PTCONT.1514117","rua":"R TEÓFILO BRAGA","casa":"7","coordenadas":[37.02451365764863,-7.841255474604733]},{"id":"pt.ine.add.PTCONT.1517070","rua":"R TEÓFILO BRAGA","casa":"53","coordenadas":[37.024736037006335,-7.842342094967479]},{"id":"pt.ine.add.PTCONT.1535817","rua":"R TEÓFILO BRAGA","casa":"65","coordenadas":[37.02478689484817,-7.842512881940085]},{"id":"pt.ine.add.PTCONT.1543448","rua":"R SETE COTOVELOS","casa":"9","coordenadas":[37.02445668574714,-7.840075698198361]},{"id":"pt.ine.add.PTCONT.1571815","rua":"R TEÓFILO BRAGA","casa":"29","coordenadas":[37.024659429599254,-7.841906725106869]},{"id":"pt.ine.add.PTCONT.1575935","rua":"TV GENEBRA","casa":"21","coordenadas":[37.024448091208825,-7.840244301809667]},{"id":"pt.ine.add.PTCONT.1581794","rua":"R TEOFILO BRAGA","casa":"12","coordenadas":[37.02487197749097,-7.84289451064156]},{"id":"pt.ine.add.PTCONT.1587893","rua":"R TEÓFILO BRAGA","casa":"73","coordenadas":[37.024813364193065,-7.84263664964289]},{"id":"pt.ine.add.PTCONT.1598754","rua":"R TEÓFILO BRAGA","casa":"5","coordenadas":[37.02448634920402,-7.8411431986127225]},{"id":"pt.ine.add.PTCONT.1598757","rua":"R SETE COTOVELOS","casa":"7","coordenadas":[37.02446552989649,-7.840008235973307]},{"id":"pt.ine.add.PTCONT.1603650","rua":"R TEÓFILO BRAGA","casa":"19","coordenadas":[37.02456849512248,-7.84156993045254]},{"id":"pt.ine.add.PTCONT.1603651","rua":"R TEÓFILO BRAGA","casa":"19","coordenadas":[37.02456849512248,-7.84156993045254]},{"id":"pt.ine.add.PTCONT.1603652","rua":"R TEÓFILO BRAGA","casa":"13","coordenadas":[37.02453187242983,-7.841334071293425]},{"id":"pt.ine.add.PTCONT.1609950","rua":"TV GAIBEU","casa":"12","coordenadas":[37.024442456171585,-7.841615364248652]},{"id":"pt.ine.add.PTCONT.1632393","rua":"R SETE COTOVELOS","casa":"13","coordenadas":[37.024447952525314,-7.8401881121419414]},{"id":"pt.ine.add.PTCONT.1648862","rua":"R SETE COTOVELOS","casa":"11","coordenadas":[37.024447813815236,-7.840131922474595]},{"id":"pt.ine.add.PTCONT.1656724","rua":"R TEÓFILO BRAGA","casa":"32","coordenadas":[37.0248495080347,-7.842254380673815]},{"id":"pt.ine.add.PTCONT.1665504","rua":"R TEÓFILO BRAGA","casa":"4","coordenadas":[37.02452236423206,-7.841131822734213]},{"id":"pt.ine.add.PTCONT.1671271","rua":"R TEÓFILO BRAGA","casa":"28","coordenadas":[37.02463148697887,-7.841535975535803]},{"id":"pt.ine.add.PTCONT.1685301","rua":"R TEÓFILO BRAGA","casa":"38","coordenadas":[37.02490401262064,-7.842433982603809]},{"id":"pt.ine.add.PTCONT.1716758","rua":"R SETE COTOVELOS","casa":"5","coordenadas":[37.02448338467584,-7.839940739107607]},{"id":"pt.ine.add.PTCONT.1716776","rua":"R TEÓFILO BRAGA","casa":"43","coordenadas":[37.024705061825756,-7.842142550577008]},{"id":"pt.ine.add.PTCONT.1722832","rua":"R TEÓFILO BRAGA","casa":"15","coordenadas":[37.02453201057097,-7.8413902610287085]},{"id":"pt.ine.add.PTCONT.1739659","rua":"R TEÓFILO BRAGA","casa":"57","coordenadas":[37.02476774196205,-7.842427678036356]},{"id":"pt.ine.add.PTCONT.1751786","rua":"R TEÓFILO BRAGA","casa":"44","coordenadas":[37.024949368702266,-7.8425574290532705]},{"id":"pt.ine.add.PTCONT.1785733","rua":"R TEÓFILO BRAGA","casa":"37","coordenadas":[37.02467775421872,-7.842030273980593]},{"id":"pt.ine.add.PTCONT.1821027","rua":"TV MUNICIPIO","casa":"3","coordenadas":[37.024721731719595,-7.841591821040732]},{"id":"pt.ine.add.PTCONT.1821034","rua":"TV MUNICIPIO","casa":"3","coordenadas":[37.024721731719595,-7.841591821040732]},{"id":"pt.ine.add.PTCONT.1835305","rua":"R TEÓFILO BRAGA","casa":"71","coordenadas":[37.02480752370285,-7.842578974383385]}],"ruas":["R TEÓFILO BRAGA","R SETE COTOVELOS","TV GENEBRA","R TEOFILO BRAGA","TV GAIBEU","TV MUNICIPIO"],"centroide":[37.02464882599914,-7.841571540047952]}
+{
+  "CP": "8700-520",
+  "CP4": "8700",
+  "CP3": "520",
+  "Distrito": "Faro",
+  "Concelho": "Olhão",
+  "Localidade": "Olhão",
+  "Designação Postal": "OLHÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Teófilo Braga",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1497001",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "53",
+      "coordenadas": [
+        37.024732424412264,
+        -7.8422773032094275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1511401",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "21",
+      "coordenadas": [
+        37.02502109627078,
+        -7.842411060255122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1514117",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "7",
+      "coordenadas": [
+        37.02451365764863,
+        -7.841255474604733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1517070",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "53",
+      "coordenadas": [
+        37.024736037006335,
+        -7.842342094967479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1535817",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "65",
+      "coordenadas": [
+        37.02478689484817,
+        -7.842512881940085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1543448",
+      "rua": "R SETE COTOVELOS",
+      "casa": "9",
+      "coordenadas": [
+        37.02445668574714,
+        -7.840075698198361
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1571815",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "29",
+      "coordenadas": [
+        37.024659429599254,
+        -7.841906725106869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1575935",
+      "rua": "TV GENEBRA",
+      "casa": "21",
+      "coordenadas": [
+        37.024448091208825,
+        -7.840244301809667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1581794",
+      "rua": "R TEOFILO BRAGA",
+      "casa": "12",
+      "coordenadas": [
+        37.02487197749097,
+        -7.84289451064156
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1587893",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "73",
+      "coordenadas": [
+        37.024813364193065,
+        -7.84263664964289
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1598754",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "5",
+      "coordenadas": [
+        37.02448634920402,
+        -7.8411431986127225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1598757",
+      "rua": "R SETE COTOVELOS",
+      "casa": "7",
+      "coordenadas": [
+        37.02446552989649,
+        -7.840008235973307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1603650",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "19",
+      "coordenadas": [
+        37.02456849512248,
+        -7.84156993045254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1603651",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "19",
+      "coordenadas": [
+        37.02456849512248,
+        -7.84156993045254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1603652",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "13",
+      "coordenadas": [
+        37.02453187242983,
+        -7.841334071293425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1609950",
+      "rua": "TV GAIBEU",
+      "casa": "12",
+      "coordenadas": [
+        37.024442456171585,
+        -7.841615364248652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1632393",
+      "rua": "R SETE COTOVELOS",
+      "casa": "13",
+      "coordenadas": [
+        37.024447952525314,
+        -7.8401881121419414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1648862",
+      "rua": "R SETE COTOVELOS",
+      "casa": "11",
+      "coordenadas": [
+        37.024447813815236,
+        -7.840131922474595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1656724",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "32",
+      "coordenadas": [
+        37.0248495080347,
+        -7.842254380673815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1665504",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "4",
+      "coordenadas": [
+        37.02452236423206,
+        -7.841131822734213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1671271",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "28",
+      "coordenadas": [
+        37.02463148697887,
+        -7.841535975535803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1685301",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "38",
+      "coordenadas": [
+        37.02490401262064,
+        -7.842433982603809
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1716758",
+      "rua": "R SETE COTOVELOS",
+      "casa": "5",
+      "coordenadas": [
+        37.02448338467584,
+        -7.839940739107607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1716776",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "43",
+      "coordenadas": [
+        37.024705061825756,
+        -7.842142550577008
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1722832",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "15",
+      "coordenadas": [
+        37.02453201057097,
+        -7.8413902610287085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1739659",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "57",
+      "coordenadas": [
+        37.02476774196205,
+        -7.842427678036356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1751786",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "44",
+      "coordenadas": [
+        37.024949368702266,
+        -7.8425574290532705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1785733",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "37",
+      "coordenadas": [
+        37.02467775421872,
+        -7.842030273980593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1821027",
+      "rua": "TV MUNICIPIO",
+      "casa": "3",
+      "coordenadas": [
+        37.024721731719595,
+        -7.841591821040732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1821034",
+      "rua": "TV MUNICIPIO",
+      "casa": "3",
+      "coordenadas": [
+        37.024721731719595,
+        -7.841591821040732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1835305",
+      "rua": "R TEÓFILO BRAGA",
+      "casa": "71",
+      "coordenadas": [
+        37.02480752370285,
+        -7.842578974383385
+      ]
+    }
+  ],
+  "ruas": [
+    "R TEÓFILO BRAGA",
+    "R SETE COTOVELOS",
+    "TV GENEBRA",
+    "R TEOFILO BRAGA",
+    "TV GAIBEU",
+    "TV MUNICIPIO"
+  ],
+  "centro": [
+    37.02473177622118,
+    -7.841417624874584
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.02468406191373,
+                -7.842334884094663
+              ],
+              [
+                37.02463037174881,
+                -7.842174990795549
+              ],
+              [
+                37.02458347656769,
+                -7.842011905381105
+              ],
+              [
+                37.02454337637036,
+                -7.84184562785133
+              ],
+              [
+                37.02451007115683,
+                -7.8416761582062255
+              ],
+              [
+                37.024483560927095,
+                -7.84150349644579
+              ],
+              [
+                37.02446384568116,
+                -7.8413276425700245
+              ],
+              [
+                37.024450925419025,
+                -7.841148596578929
+              ],
+              [
+                37.024444800140685,
+                -7.840966358472502
+              ],
+              [
+                37.024445469846135,
+                -7.840780928250745
+              ],
+              [
+                37.024446332652175,
+                -7.840616744205125
+              ],
+              [
+                37.02444738855881,
+                -7.840473806335642
+              ],
+              [
+                37.02444863756603,
+                -7.840352114642296
+              ],
+              [
+                37.02445007967384,
+                -7.840251669125086
+              ],
+              [
+                37.02445171488223,
+                -7.840172469784014
+              ],
+              [
+                37.024453543191214,
+                -7.84011451661908
+              ],
+              [
+                37.024455564600785,
+                -7.840077809630282
+              ],
+              [
+                37.02445777911094,
+                -7.84006234881762
+              ],
+              [
+                37.024459995788256,
+                -7.840047765968015
+              ],
+              [
+                37.02446221463273,
+                -7.840034061081467
+              ],
+              [
+                37.024464435644354,
+                -7.840021234157974
+              ],
+              [
+                37.024466658823144,
+                -7.840009285197537
+              ],
+              [
+                37.02446888416908,
+                -7.839998214200157
+              ],
+              [
+                37.02447111168219,
+                -7.839988021165832
+              ],
+              [
+                37.02447334136245,
+                -7.839978706094563
+              ],
+              [
+                37.02447557320987,
+                -7.83997026898635
+              ],
+              [
+                37.02448592782003,
+                -7.840001485284594
+              ],
+              [
+                37.024504405192936,
+                -7.840072354989294
+              ],
+              [
+                37.02453100532858,
+                -7.8401828781004514
+              ],
+              [
+                37.02456572822699,
+                -7.840333054618066
+              ],
+              [
+                37.02460857388812,
+                -7.8405228845421355
+              ],
+              [
+                37.024659542312,
+                -7.840752367872661
+              ],
+              [
+                37.02471863349862,
+                -7.841021504609644
+              ],
+              [
+                37.024785847447994,
+                -7.841330294753084
+              ],
+              [
+                37.02484232967276,
+                -7.841608040040882
+              ],
+              [
+                37.02488808017291,
+                -7.841854740473037
+              ],
+              [
+                37.02492309894846,
+                -7.842070396049551
+              ],
+              [
+                37.024947385999404,
+                -7.842255006770423
+              ],
+              [
+                37.024960941325745,
+                -7.842408572635653
+              ],
+              [
+                37.02496376492748,
+                -7.842531093645242
+              ],
+              [
+                37.02495585680461,
+                -7.842622569799189
+              ],
+              [
+                37.02493721695714,
+                -7.842683001097493
+              ],
+              [
+                37.02491419581998,
+                -7.84271589182112
+              ],
+              [
+                37.024886793393144,
+                -7.842721241970072
+              ],
+              [
+                37.02485500967663,
+                -7.842699051544344
+              ],
+              [
+                37.02481884467042,
+                -7.84264932054394
+              ],
+              [
+                37.02477829837454,
+                -7.842572048968858
+              ],
+              [
+                37.02473337078898,
+                -7.8424672368190995
+              ],
+              [
+                37.02468406191373,
+                -7.842334884094663
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.02462204305348,
+    -7.841166972116807
+  ],
+  "centroDeMassa": [
+    37.02473177622118,
+    -7.841417624874584
+  ]
+}

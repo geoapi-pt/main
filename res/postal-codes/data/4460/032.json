@@ -1,1 +1,405 @@
-{"CP4":"4460","CP3":"032","Distrito":"Porto","Concelho":"Matosinhos","CP":"4460-032","Artéria":"Travessa Padre José Dias Inácio","Localidade":"Guifões","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GUIFÕES","locais":[{"id":"pt.ine.add.PTCONT.3599313","rua":"R PADRE JOSE DIAS INÁCIO","casa":"22","coordenadas":[41.20101285669907,-8.668735634971444]},{"id":"pt.ine.add.PTCONT.3617137","rua":"R PADRE JOSE DIAS INACIO","casa":"41","coordenadas":[41.201355892886895,-8.668547681187428]},{"id":"pt.ine.add.PTCONT.3678818","rua":"R PADRE JOSE DIAS INACIO","casa":"71","coordenadas":[41.20143753784992,-8.668417205366891]},{"id":"pt.ine.add.PTCONT.3678819","rua":"R PADRE JOSE DIAS INACIO","casa":"77","coordenadas":[41.20143753784992,-8.668417205366891]},{"id":"pt.ine.add.PTCONT.3678820","rua":"R PADRE JOSE DIAS INACIO","casa":"77","coordenadas":[41.20143753784992,-8.668417205366891]},{"id":"pt.ine.add.PTCONT.3678821","rua":"R PADRE JOSE DIAS INACIO","casa":"71","coordenadas":[41.20143753784992,-8.668417205366891]},{"id":"pt.ine.add.PTCONT.3839719","rua":"R PADRE JOSE DIAS INÁCIO","casa":"95","coordenadas":[41.201618669020284,-8.668192163969396]},{"id":"pt.ine.add.PTCONT.3839721","rua":"R PADRE JOSE DIAS INÁCIO","casa":"60","coordenadas":[41.2012128275565,-8.668331921034282]},{"id":"pt.ine.add.PTCONT.3896053","rua":"R PADRE JOSE DIAS INÁCIO","casa":"74","coordenadas":[41.20124011634585,-8.66827253387089]},{"id":"pt.ine.add.PTCONT.3908108","rua":"R PADRE JOSÉ DIAS INÁCIO","casa":"77","coordenadas":[41.201509957127534,-8.668334341854477]},{"id":"pt.ine.add.PTCONT.3908109","rua":"R PADRE JOSÉ DIAS INÁCIO","casa":"77","coordenadas":[41.201509957127534,-8.668334341854477]},{"id":"pt.ine.add.PTCONT.3923990","rua":"R PADRE JOSE DIAS INACIO","casa":"50","coordenadas":[41.201122012501834,-8.668498087419874]},{"id":"pt.ine.add.PTCONT.3948341","rua":"R PADRE JOSE DIAS INÁCIO","casa":"115","coordenadas":[41.20173621852997,-8.668085823547564]},{"id":"pt.ine.add.PTCONT.4038529","rua":"R PADRE JOSE DIAS INÁCIO","casa":"28","coordenadas":[41.20104009025442,-8.668688169568153]},{"id":"pt.ine.add.PTCONT.4065216","rua":"R PADRE JOSE DIAS INÁCIO","casa":"42","coordenadas":[41.20185382330996,-8.667967561187028]},{"id":"pt.ine.add.PTCONT.4195845","rua":"R PADRE JOSE DIAS INÁCIO","casa":"125","coordenadas":[41.20179941214776,-8.668050572177437]},{"id":"pt.ine.add.PTCONT.4215712","rua":"R PADRE JOSE DIAS INÁCIO","casa":"83","coordenadas":[41.20155530916957,-8.668263179621633]},{"id":"pt.ine.add.PTCONT.4215730","rua":"TV PADRE JOSE DIAS INÁCIO","casa":"101","coordenadas":[41.20114262382952,-8.667937926991296]},{"id":"pt.ine.add.PTCONT.4222098","rua":"R PADRE JOSE DIAS INÁCIO","casa":"101","coordenadas":[41.20168191805762,-8.668144991236009]},{"id":"pt.ine.add.PTCONT.4320709","rua":"R PADRE JOSE DIAS INÁCIO","casa":"34","coordenadas":[41.20105831986391,-8.66864063072585]}],"ruas":["R PADRE JOSE DIAS INÁCIO","R PADRE JOSE DIAS INACIO","R PADRE JOSÉ DIAS INÁCIO","TV PADRE JOSE DIAS INÁCIO"],"centroide":[41.201428517682324,-8.668318618524157]}
+{
+  "CP": "4460-032",
+  "CP4": "4460",
+  "CP3": "032",
+  "Distrito": "Porto",
+  "Concelho": "Matosinhos",
+  "Localidade": "Guifões",
+  "Designação Postal": "GUIFÕES",
+  "partes": [
+    {
+      "Artéria": "Rua Padre José Dias Inácio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Padre José Dias Inácio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3599313",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "22",
+      "coordenadas": [
+        41.20101285669907,
+        -8.668735634971444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3617137",
+      "rua": "R PADRE JOSE DIAS INACIO",
+      "casa": "41",
+      "coordenadas": [
+        41.201355892886895,
+        -8.668547681187428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3678818",
+      "rua": "R PADRE JOSE DIAS INACIO",
+      "casa": "71",
+      "coordenadas": [
+        41.20143753784992,
+        -8.668417205366891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3678819",
+      "rua": "R PADRE JOSE DIAS INACIO",
+      "casa": "77",
+      "coordenadas": [
+        41.20143753784992,
+        -8.668417205366891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3678820",
+      "rua": "R PADRE JOSE DIAS INACIO",
+      "casa": "77",
+      "coordenadas": [
+        41.20143753784992,
+        -8.668417205366891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3678821",
+      "rua": "R PADRE JOSE DIAS INACIO",
+      "casa": "71",
+      "coordenadas": [
+        41.20143753784992,
+        -8.668417205366891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3839719",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "95",
+      "coordenadas": [
+        41.201618669020284,
+        -8.668192163969396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3839721",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "60",
+      "coordenadas": [
+        41.2012128275565,
+        -8.668331921034282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3896053",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "74",
+      "coordenadas": [
+        41.20124011634585,
+        -8.66827253387089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3908108",
+      "rua": "R PADRE JOSÉ DIAS INÁCIO",
+      "casa": "77",
+      "coordenadas": [
+        41.201509957127534,
+        -8.668334341854477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3908109",
+      "rua": "R PADRE JOSÉ DIAS INÁCIO",
+      "casa": "77",
+      "coordenadas": [
+        41.201509957127534,
+        -8.668334341854477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3923990",
+      "rua": "R PADRE JOSE DIAS INACIO",
+      "casa": "50",
+      "coordenadas": [
+        41.201122012501834,
+        -8.668498087419874
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3948341",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "115",
+      "coordenadas": [
+        41.20173621852997,
+        -8.668085823547564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4038529",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "28",
+      "coordenadas": [
+        41.20104009025442,
+        -8.668688169568153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4065216",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "42",
+      "coordenadas": [
+        41.20185382330996,
+        -8.667967561187028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4195845",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "125",
+      "coordenadas": [
+        41.20179941214776,
+        -8.668050572177437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4215712",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "83",
+      "coordenadas": [
+        41.20155530916957,
+        -8.668263179621633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4215730",
+      "rua": "TV PADRE JOSE DIAS INÁCIO",
+      "casa": "101",
+      "coordenadas": [
+        41.20114262382952,
+        -8.667937926991296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4222098",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "101",
+      "coordenadas": [
+        41.20168191805762,
+        -8.668144991236009
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4320709",
+      "rua": "R PADRE JOSE DIAS INÁCIO",
+      "casa": "34",
+      "coordenadas": [
+        41.20105831986391,
+        -8.66864063072585
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE JOSE DIAS INÁCIO",
+    "R PADRE JOSE DIAS INACIO",
+    "R PADRE JOSÉ DIAS INÁCIO",
+    "TV PADRE JOSE DIAS INÁCIO"
+  ],
+  "centro": [
+    41.20143334000451,
+    -8.66833678098137
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.201205814554726,
+                -8.668629910967935
+              ],
+              [
+                41.20116293503125,
+                -8.668653405190938
+              ],
+              [
+                41.20112744305962,
+                -8.668661498448873
+              ],
+              [
+                41.201099338639835,
+                -8.668654190741748
+              ],
+              [
+                41.2010786217719,
+                -8.668631482069554
+              ],
+              [
+                41.20106529245582,
+                -8.668593372432294
+              ],
+              [
+                41.20105935069158,
+                -8.66853986182997
+              ],
+              [
+                41.20106079647919,
+                -8.66847095026258
+              ],
+              [
+                41.20106962981865,
+                -8.668386637730128
+              ],
+              [
+                41.201085850709944,
+                -8.668286924232612
+              ],
+              [
+                41.201111156481716,
+                -8.668200137956592
+              ],
+              [
+                41.20114554713396,
+                -8.668126278902069
+              ],
+              [
+                41.201189022666675,
+                -8.668065347069044
+              ],
+              [
+                41.201241583079856,
+                -8.668017342457519
+              ],
+              [
+                41.201303228373504,
+                -8.66798226506749
+              ],
+              [
+                41.20137395854762,
+                -8.66796011489896
+              ],
+              [
+                41.20145377360221,
+                -8.667950891951929
+              ],
+              [
+                41.20154267353727,
+                -8.667954596226396
+              ],
+              [
+                41.201619610806034,
+                -8.667959134513278
+              ],
+              [
+                41.2016845854085,
+                -8.667964506812577
+              ],
+              [
+                41.20173759734469,
+                -8.667970713124294
+              ],
+              [
+                41.20177864661457,
+                -8.66797775344843
+              ],
+              [
+                41.201807733218175,
+                -8.667985627784981
+              ],
+              [
+                41.20182485715547,
+                -8.667994336133948
+              ],
+              [
+                41.20183001842649,
+                -8.668003878495332
+              ],
+              [
+                41.20182321703122,
+                -8.668014254869133
+              ],
+              [
+                41.201810335821904,
+                -8.668031101524491
+              ],
+              [
+                41.201791374798546,
+                -8.668054418461404
+              ],
+              [
+                41.201766333961146,
+                -8.668084205679873
+              ],
+              [
+                41.2017352133097,
+                -8.668120463179898
+              ],
+              [
+                41.20169801284422,
+                -8.66816319096148
+              ],
+              [
+                41.20165473256469,
+                -8.668212389024614
+              ],
+              [
+                41.20160537247113,
+                -8.668268057369307
+              ],
+              [
+                41.20154993256352,
+                -8.668330195995559
+              ],
+              [
+                41.20149606270393,
+                -8.6683875040714
+              ],
+              [
+                41.20144376289236,
+                -8.668439981596837
+              ],
+              [
+                41.2013930331288,
+                -8.668487628571867
+              ],
+              [
+                41.20134387341326,
+                -8.668530444996495
+              ],
+              [
+                41.201296283745734,
+                -8.668568430870714
+              ],
+              [
+                41.201250264126216,
+                -8.668601586194526
+              ],
+              [
+                41.201205814554726,
+                -8.668629910967935
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.20143292177464,
+    -8.668247875302928
+  ],
+  "centroDeMassa": [
+    41.20143334000451,
+    -8.66833678098137
+  ]
+}

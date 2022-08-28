@@ -1,1 +1,627 @@
-{"CP4":"4830","CP3":"597","Distrito":"Braga","Concelho":"Póvoa de Lanhoso","CP":"4830-597","Artéria":"Travessa da Estrada Nacional 205","Localidade":"Póvoa de Lanhoso","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PÓVOA DE LANHOSO","locais":[{"id":"pt.ine.add.PTCONT.481454","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.581569304173755,-8.278219352872195]},{"id":"pt.ine.add.PTCONT.497097","rua":"R PÉ DA LAGE","casa":"","coordenadas":[41.581764395080135,-8.280570160495703]},{"id":"pt.ine.add.PTCONT.499109","rua":"R ESTRADA NACIONAL 205","casa":"20","coordenadas":[41.581714118433794,-8.277620093125703]},{"id":"pt.ine.add.PTCONT.515757","rua":"R HORTO","casa":"120","coordenadas":[41.58350173806497,-8.280861921342847]},{"id":"pt.ine.add.PTCONT.543834","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.581227390654675,-8.278038713600411]},{"id":"pt.ine.add.PTCONT.574246","rua":"TV RUA DO CALAIS","casa":"73","coordenadas":[41.58153780506681,-8.281732834676657]},{"id":"pt.ine.add.PTCONT.587598","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.581407509888734,-8.27800314146395]},{"id":"pt.ine.add.PTCONT.608513","rua":"R PEDREIRA","casa":"8","coordenadas":[41.58274541263572,-8.280872189098982]},{"id":"pt.ine.add.PTCONT.608514","rua":"R PEDREIRA","casa":"8","coordenadas":[41.58274541263572,-8.280872189098982]},{"id":"pt.ine.add.PTCONT.620870","rua":"R PÉ DE LAJE","casa":"370","coordenadas":[41.58203421342295,-8.280798617356112]},{"id":"pt.ine.add.PTCONT.624578","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.58205544309188,-8.278268408178596]},{"id":"pt.ine.add.PTCONT.624579","rua":"R CALAIS","casa":"308","coordenadas":[41.58217793332037,-8.281062763648318]},{"id":"pt.ine.add.PTCONT.627513","rua":"TV ESTRADA NACIONAL 205","casa":"72","coordenadas":[41.58491289786515,-8.282735932583925]},{"id":"pt.ine.add.PTCONT.640666","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.58115534597979,-8.278050544091688]},{"id":"pt.ine.add.PTCONT.643151","rua":"R PEDREIRA","casa":"24","coordenadas":[41.58278175076291,-8.28062044253925]},{"id":"pt.ine.add.PTCONT.643152","rua":"R PEDREIRA","casa":"24","coordenadas":[41.58278175076291,-8.28062044253925]},{"id":"pt.ine.add.PTCONT.646465","rua":"R CALAIS","casa":"173","coordenadas":[41.58022576035152,-8.279787219024442]},{"id":"pt.ine.add.PTCONT.646477","rua":"R PEDREIRA","casa":"","coordenadas":[41.582575448864745,-8.280008389285987]},{"id":"pt.ine.add.PTCONT.662563","rua":"R PE DA LAGE","casa":"35","coordenadas":[41.58261922220447,-8.280979828034805]},{"id":"pt.ine.add.PTCONT.677359","rua":"TV RUA DO CALAIS","casa":"88","coordenadas":[41.58157324545499,-8.282176607083832]},{"id":"pt.ine.add.PTCONT.679364","rua":"TV RUA DO CALAIS","casa":"88","coordenadas":[41.58157324545499,-8.282176607083832]},{"id":"pt.ine.add.PTCONT.705437","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.581074282489396,-8.278074345949081]},{"id":"pt.ine.add.PTCONT.719346","rua":"R CALAIS","casa":"","coordenadas":[41.580884356270325,-8.278745446613724]},{"id":"pt.ine.add.PTCONT.723756","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.581326461524995,-8.278014951898962]},{"id":"pt.ine.add.PTCONT.754277","rua":"TV RUA DO CALAIS","casa":"70","coordenadas":[41.581690510993916,-8.282008993327926]},{"id":"pt.ine.add.PTCONT.771410","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.58323885058793,-8.282240397546422]},{"id":"pt.ine.add.PTCONT.789167","rua":"R ESTRADA NACIONAL 205","casa":"560","coordenadas":[41.584175078657275,-8.282362473087607]},{"id":"pt.ine.add.PTCONT.810738","rua":"R ESTRADA NACIONAL 205","casa":"","coordenadas":[41.582995330539354,-8.282563618961353]},{"id":"pt.ine.add.PTCONT.816630","rua":"TV ESTRADA NACIONAL 205","casa":"120","coordenadas":[41.58486833148696,-8.282388054091756]},{"id":"pt.ine.add.PTCONT.824346","rua":"R PEDREIRA","casa":"152","coordenadas":[41.58212592189553,-8.279491725029256]}],"ruas":["R ESTRADA NACIONAL 205","R PÉ DA LAGE","R HORTO","TV RUA DO CALAIS","R PEDREIRA","R PÉ DE LAJE","R CALAIS","TV ESTRADA NACIONAL 205","R PE DA LAGE"],"centroide":[41.58223905333522,-8.280361195817322]}
+{
+  "CP": "4830-597",
+  "CP4": "4830",
+  "CP3": "597",
+  "Distrito": "Braga",
+  "Concelho": "Póvoa de Lanhoso",
+  "Localidade": "Póvoa de Lanhoso",
+  "Designação Postal": "PÓVOA DE LANHOSO",
+  "partes": [
+    {
+      "Artéria": "Rua Castelo de Lanhoso",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Estrada Nacional 205",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Condomínio do Castelo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Horto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Pilar",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Pedreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Pé da Lage",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Calais",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Morro do Horto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Calais",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Estrada Nacional 205",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.481454",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.581569304173755,
+        -8.278219352872195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.497097",
+      "rua": "R PÉ DA LAGE",
+      "casa": "",
+      "coordenadas": [
+        41.581764395080135,
+        -8.280570160495703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.499109",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "20",
+      "coordenadas": [
+        41.581714118433794,
+        -8.277620093125703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.515757",
+      "rua": "R HORTO",
+      "casa": "120",
+      "coordenadas": [
+        41.58350173806497,
+        -8.280861921342847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.543834",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.581227390654675,
+        -8.278038713600411
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.574246",
+      "rua": "TV RUA DO CALAIS",
+      "casa": "73",
+      "coordenadas": [
+        41.58153780506681,
+        -8.281732834676657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.587598",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.581407509888734,
+        -8.27800314146395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.608513",
+      "rua": "R PEDREIRA",
+      "casa": "8",
+      "coordenadas": [
+        41.58274541263572,
+        -8.280872189098982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.608514",
+      "rua": "R PEDREIRA",
+      "casa": "8",
+      "coordenadas": [
+        41.58274541263572,
+        -8.280872189098982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.620870",
+      "rua": "R PÉ DE LAJE",
+      "casa": "370",
+      "coordenadas": [
+        41.58203421342295,
+        -8.280798617356112
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.624578",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.58205544309188,
+        -8.278268408178596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.624579",
+      "rua": "R CALAIS",
+      "casa": "308",
+      "coordenadas": [
+        41.58217793332037,
+        -8.281062763648318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.627513",
+      "rua": "TV ESTRADA NACIONAL 205",
+      "casa": "72",
+      "coordenadas": [
+        41.58491289786515,
+        -8.282735932583925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.640666",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.58115534597979,
+        -8.278050544091688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.643151",
+      "rua": "R PEDREIRA",
+      "casa": "24",
+      "coordenadas": [
+        41.58278175076291,
+        -8.28062044253925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.643152",
+      "rua": "R PEDREIRA",
+      "casa": "24",
+      "coordenadas": [
+        41.58278175076291,
+        -8.28062044253925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.646465",
+      "rua": "R CALAIS",
+      "casa": "173",
+      "coordenadas": [
+        41.58022576035152,
+        -8.279787219024442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.646477",
+      "rua": "R PEDREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.582575448864745,
+        -8.280008389285987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.662563",
+      "rua": "R PE DA LAGE",
+      "casa": "35",
+      "coordenadas": [
+        41.58261922220447,
+        -8.280979828034805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.677359",
+      "rua": "TV RUA DO CALAIS",
+      "casa": "88",
+      "coordenadas": [
+        41.58157324545499,
+        -8.282176607083832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.679364",
+      "rua": "TV RUA DO CALAIS",
+      "casa": "88",
+      "coordenadas": [
+        41.58157324545499,
+        -8.282176607083832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.705437",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.581074282489396,
+        -8.278074345949081
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.719346",
+      "rua": "R CALAIS",
+      "casa": "",
+      "coordenadas": [
+        41.580884356270325,
+        -8.278745446613724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.723756",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.581326461524995,
+        -8.278014951898962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.754277",
+      "rua": "TV RUA DO CALAIS",
+      "casa": "70",
+      "coordenadas": [
+        41.581690510993916,
+        -8.282008993327926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.771410",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.58323885058793,
+        -8.282240397546422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.789167",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "560",
+      "coordenadas": [
+        41.584175078657275,
+        -8.282362473087607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.810738",
+      "rua": "R ESTRADA NACIONAL 205",
+      "casa": "",
+      "coordenadas": [
+        41.582995330539354,
+        -8.282563618961353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.816630",
+      "rua": "TV ESTRADA NACIONAL 205",
+      "casa": "120",
+      "coordenadas": [
+        41.58486833148696,
+        -8.282388054091756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.824346",
+      "rua": "R PEDREIRA",
+      "casa": "152",
+      "coordenadas": [
+        41.58212592189553,
+        -8.279491725029256
+      ]
+    }
+  ],
+  "ruas": [
+    "R ESTRADA NACIONAL 205",
+    "R PÉ DA LAGE",
+    "R HORTO",
+    "TV RUA DO CALAIS",
+    "R PEDREIRA",
+    "R PÉ DE LAJE",
+    "R CALAIS",
+    "TV ESTRADA NACIONAL 205",
+    "R PE DA LAGE"
+  ],
+  "centro": [
+    41.58256932910834,
+    -8.280178012854815
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.580983720722216,
+                -8.28113124980785
+              ],
+              [
+                41.580815285084284,
+                -8.280832576300426
+              ],
+              [
+                41.5806811620595,
+                -8.280544473339628
+              ],
+              [
+                41.58058135164786,
+                -8.280266940925454
+              ],
+              [
+                41.58051585384936,
+                -8.279999979057907
+              ],
+              [
+                41.58048466866401,
+                -8.279743587736984
+              ],
+              [
+                41.58048779609181,
+                -8.279497766962688
+              ],
+              [
+                41.58052523613275,
+                -8.279262516735017
+              ],
+              [
+                41.58059698878684,
+                -8.279037837053972
+              ],
+              [
+                41.58070305405407,
+                -8.278823727919551
+              ],
+              [
+                41.58080585859953,
+                -8.27862928472657
+              ],
+              [
+                41.58090540242323,
+                -8.278454507475022
+              ],
+              [
+                41.58100168552514,
+                -8.278299396164915
+              ],
+              [
+                41.58109470790529,
+                -8.278163950796245
+              ],
+              [
+                41.58118446956365,
+                -8.278048171369011
+              ],
+              [
+                41.581270970500256,
+                -8.277952057883216
+              ],
+              [
+                41.58135421071508,
+                -8.277875610338855
+              ],
+              [
+                41.581434190208114,
+                -8.27781882873593
+              ],
+              [
+                41.581553456843494,
+                -8.277843644223466
+              ],
+              [
+                41.58171201062119,
+                -8.277950056801465
+              ],
+              [
+                41.58190985154121,
+                -8.278138066469923
+              ],
+              [
+                41.582146979603564,
+                -8.27840767322884
+              ],
+              [
+                41.58242339480823,
+                -8.278758877078218
+              ],
+              [
+                41.582739097155226,
+                -8.279191678018055
+              ],
+              [
+                41.58309408664455,
+                -8.27970607604835
+              ],
+              [
+                41.5834883632762,
+                -8.280302071169109
+              ],
+              [
+                41.58383405167855,
+                -8.28082900250121
+              ],
+              [
+                41.5841311518516,
+                -8.281286870044658
+              ],
+              [
+                41.58437966379536,
+                -8.281675673799452
+              ],
+              [
+                41.584579587509815,
+                -8.281995413765591
+              ],
+              [
+                41.58473092299498,
+                -8.282246089943076
+              ],
+              [
+                41.584833670250845,
+                -8.282427702331905
+              ],
+              [
+                41.58488782927741,
+                -8.28254025093208
+              ],
+              [
+                41.5848934000747,
+                -8.2825837357436
+              ],
+              [
+                41.58486831253285,
+                -8.282619092553329
+              ],
+              [
+                41.58481256665187,
+                -8.282646321361263
+              ],
+              [
+                41.58472616243177,
+                -8.282665422167407
+              ],
+              [
+                41.584609099872544,
+                -8.282676394971757
+              ],
+              [
+                41.5844613789742,
+                -8.282679239774314
+              ],
+              [
+                41.584282999736715,
+                -8.28267395657508
+              ],
+              [
+                41.58407396216012,
+                -8.28266054537405
+              ],
+              [
+                41.583834266244395,
+                -8.282639006171229
+              ],
+              [
+                41.583602312238696,
+                -8.282614112308172
+              ],
+              [
+                41.58337810014301,
+                -8.282585863784885
+              ],
+              [
+                41.58316162995735,
+                -8.282554260601362
+              ],
+              [
+                41.582952901681715,
+                -8.282519302757606
+              ],
+              [
+                41.5827519153161,
+                -8.282480990253617
+              ],
+              [
+                41.582558670860514,
+                -8.282439323089394
+              ],
+              [
+                41.582373168314945,
+                -8.282394301264937
+              ],
+              [
+                41.5821954076794,
+                -8.282345924780248
+              ],
+              [
+                41.58201881266855,
+                -8.282266261167717
+              ],
+              [
+                41.58184338328241,
+                -8.282155310427342
+              ],
+              [
+                41.58166911952097,
+                -8.282013072559128
+              ],
+              [
+                41.581496021384226,
+                -8.28183954756307
+              ],
+              [
+                41.58132408887219,
+                -8.281634735439171
+              ],
+              [
+                41.58115332198485,
+                -8.281398636187431
+              ],
+              [
+                41.580983720722216,
+                -8.28113124980785
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.58248056666016,
+    -8.280763695831443
+  ],
+  "centroDeMassa": [
+    41.58256932910834,
+    -8.280178012854815
+  ]
+}

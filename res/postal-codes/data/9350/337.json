@@ -1,1 +1,636 @@
-{"CP4":"9350","CP3":"337","Distrito":"Ilha da Madeira","Concelho":"Ribeira Brava","CP":"9350-337","Artéria":"Entrada Nº 2 à Estrada do Pinheiro","Localidade":"Serra de Água","Local":"Pinheiro","Troço":"","Porta":"","Cliente":"","Designação Postal":"SERRA DE ÁGUA","locais":[{"id":"pt.ine.add.MAD.32622","rua":"ESTR PINHEIRO","casa":"65","coordenadas":[32.7277046879404,-17.02869662349476]},{"id":"pt.ine.add.MAD.32623","rua":"ESTR PINHEIRO","casa":"10","coordenadas":[32.726892329305855,-17.029297035684177]},{"id":"pt.ine.add.MAD.32624","rua":"ESTR PINHEIRO","casa":"12","coordenadas":[32.7266674699736,-17.029259932036016]},{"id":"pt.ine.add.MAD.32633","rua":"ESTR PINHEIRO","casa":"7","coordenadas":[32.72674252637762,-17.029080255803333]},{"id":"pt.ine.add.MAD.32634","rua":"ESTR PINHEIRO","casa":"9","coordenadas":[32.7262629994032,-17.02917608157474]},{"id":"pt.ine.add.MAD.32635","rua":"ESTR PINHEIRO","casa":"40","coordenadas":[32.72420140440351,-17.030623017910493]},{"id":"pt.ine.add.MAD.32636","rua":"VR TERRA CHA","casa":"4","coordenadas":[32.72424077710172,-17.03097598582997]},{"id":"pt.ine.add.MAD.32637","rua":"VR TERRA CHA","casa":"2","coordenadas":[32.724367161196,-17.030968183191046]},{"id":"pt.ine.add.MAD.32638","rua":"ESTR PINHEIRO","casa":"44","coordenadas":[32.724075221629946,-17.031174940686267]},{"id":"pt.ine.add.MAD.32639","rua":"ESTR PINHEIRO","casa":"","coordenadas":[32.72203753797721,-17.03281437643077]},{"id":"pt.ine.add.MAD.32640","rua":"VR FURNA","casa":"8","coordenadas":[32.72288722402762,-17.033249745241406]},{"id":"pt.ine.add.MAD.32641","rua":"ESTR PINHEIRO","casa":"3","coordenadas":[32.72271747446766,-17.032595097237333]},{"id":"pt.ine.add.MAD.32642","rua":"ESTR PINHEIRO","casa":"67","coordenadas":[32.72281421889769,-17.0327466557167]},{"id":"pt.ine.add.MAD.32643","rua":"ESTR PINHEIRO","casa":"64","coordenadas":[32.72334749251692,-17.032673409416947]},{"id":"pt.ine.add.MAD.32644","rua":"ESTR PINHEIRO","casa":"62","coordenadas":[32.7234312226578,-17.032515277263805]},{"id":"pt.ine.add.MAD.32645","rua":"ESTR PINHEIRO","casa":"","coordenadas":[32.72349583602889,-17.031311163522744]},{"id":"pt.ine.add.MAD.32646","rua":"ESTR PINHEIRO","casa":"51","coordenadas":[32.72376542444271,-17.031370622915304]},{"id":"pt.ine.add.MAD.33368","rua":"ESTR PINHEIRO","casa":"3","coordenadas":[32.72715062317706,-17.028940133378647]},{"id":"pt.ine.add.MAD.57988","rua":"ESTR PINHEIRO","casa":"6","coordenadas":[32.72710140343971,-17.029195081047455]},{"id":"pt.ine.add.MAD.64766","rua":"ESTR PINHEIRO","casa":"88","coordenadas":[32.722071195242584,-17.033519273124988]},{"id":"pt.ine.add.MAD.64767","rua":"ESTR PINHEIRO","casa":"8O","coordenadas":[32.7224279739619,-17.03320731257601]},{"id":"pt.ine.add.MAD.64768","rua":"ESTR PINHEIRO","casa":"49","coordenadas":[32.72381170986966,-17.03129699059093]},{"id":"pt.ine.add.MAD.66719","rua":"ESTR PINHEIRO","casa":"45","coordenadas":[32.72388867008004,-17.031000007041328]},{"id":"pt.ine.add.MAD.70455","rua":"VR FURNA","casa":"4","coordenadas":[32.722764299977506,-17.033044247980918]},{"id":"pt.ine.add.MAD.72797","rua":"ESTR PINHEIRO","casa":"2","coordenadas":[32.72759357161857,-17.0288754848806]},{"id":"pt.ine.add.MAD.72800","rua":"ESTR PINHEIRO","casa":"48","coordenadas":[32.7239001321993,-17.03140568525201]},{"id":"pt.ine.add.MAD.72801","rua":"ESTR PINHEIRO","casa":"","coordenadas":[32.721907846337224,-17.032470035586222]},{"id":"pt.ine.add.MAD.81021","rua":"VR TERRA CHA","casa":"7","coordenadas":[32.724592711281616,-17.030962629570944]},{"id":"pt.ine.add.MAD.84649","rua":"VR FURNA","casa":"6","coordenadas":[32.722834690626115,-17.03315253362635]},{"id":"pt.ine.add.MAD.84650","rua":"ESTR PINHEIRO","casa":"55","coordenadas":[32.72356398092244,-17.031558093016383]},{"id":"pt.ine.add.MAD.90998","rua":"ESTR PINHEIRO","casa":"65","coordenadas":[32.72304947589187,-17.03269865160845]},{"id":"pt.ine.add.MAD.95424","rua":"ESTR PINHEIRO","casa":"75","coordenadas":[32.722196695814645,-17.033010025490537]},{"id":"pt.ine.add.MAD.120406","rua":"VR TERRA CHA","casa":"5","coordenadas":[32.72442681012082,-17.031182915287623]},{"id":"pt.ine.add.MAD.120407","rua":"ESTR PINHEIRO","casa":"82","coordenadas":[32.722311988934486,-17.033129998462698]}],"ruas":["ESTR PINHEIRO","VR TERRA CHA","VR FURNA"],"centroide":[32.72421008481543,-17.031334772848943]}
+{
+  "CP": "9350-337",
+  "CP4": "9350",
+  "CP3": "337",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Ribeira Brava",
+  "Localidade": "Serra de Água",
+  "Designação Postal": "SERRA DE ÁGUA",
+  "partes": [
+    {
+      "Artéria": "Estrada do Pinheiro",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda da Terra Chã",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda da Furna",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda do Pinheiro",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda do Cavalo",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda do Boneco",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Entrada Nº 1 à Estrada do Pinheiro",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Entrada Nº 2 à Estrada do Pinheiro",
+      "Local": "Pinheiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.32622",
+      "rua": "ESTR PINHEIRO",
+      "casa": "65",
+      "coordenadas": [
+        32.7277046879404,
+        -17.02869662349476
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32623",
+      "rua": "ESTR PINHEIRO",
+      "casa": "10",
+      "coordenadas": [
+        32.726892329305855,
+        -17.029297035684177
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32624",
+      "rua": "ESTR PINHEIRO",
+      "casa": "12",
+      "coordenadas": [
+        32.7266674699736,
+        -17.029259932036016
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32633",
+      "rua": "ESTR PINHEIRO",
+      "casa": "7",
+      "coordenadas": [
+        32.72674252637762,
+        -17.029080255803333
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32634",
+      "rua": "ESTR PINHEIRO",
+      "casa": "9",
+      "coordenadas": [
+        32.7262629994032,
+        -17.02917608157474
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32635",
+      "rua": "ESTR PINHEIRO",
+      "casa": "40",
+      "coordenadas": [
+        32.72420140440351,
+        -17.030623017910493
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32636",
+      "rua": "VR TERRA CHA",
+      "casa": "4",
+      "coordenadas": [
+        32.72424077710172,
+        -17.03097598582997
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32637",
+      "rua": "VR TERRA CHA",
+      "casa": "2",
+      "coordenadas": [
+        32.724367161196,
+        -17.030968183191046
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32638",
+      "rua": "ESTR PINHEIRO",
+      "casa": "44",
+      "coordenadas": [
+        32.724075221629946,
+        -17.031174940686267
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32639",
+      "rua": "ESTR PINHEIRO",
+      "casa": "",
+      "coordenadas": [
+        32.72203753797721,
+        -17.03281437643077
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32640",
+      "rua": "VR FURNA",
+      "casa": "8",
+      "coordenadas": [
+        32.72288722402762,
+        -17.033249745241406
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32641",
+      "rua": "ESTR PINHEIRO",
+      "casa": "3",
+      "coordenadas": [
+        32.72271747446766,
+        -17.032595097237333
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32642",
+      "rua": "ESTR PINHEIRO",
+      "casa": "67",
+      "coordenadas": [
+        32.72281421889769,
+        -17.0327466557167
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32643",
+      "rua": "ESTR PINHEIRO",
+      "casa": "64",
+      "coordenadas": [
+        32.72334749251692,
+        -17.032673409416947
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32644",
+      "rua": "ESTR PINHEIRO",
+      "casa": "62",
+      "coordenadas": [
+        32.7234312226578,
+        -17.032515277263805
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32645",
+      "rua": "ESTR PINHEIRO",
+      "casa": "",
+      "coordenadas": [
+        32.72349583602889,
+        -17.031311163522744
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.32646",
+      "rua": "ESTR PINHEIRO",
+      "casa": "51",
+      "coordenadas": [
+        32.72376542444271,
+        -17.031370622915304
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.33368",
+      "rua": "ESTR PINHEIRO",
+      "casa": "3",
+      "coordenadas": [
+        32.72715062317706,
+        -17.028940133378647
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.57988",
+      "rua": "ESTR PINHEIRO",
+      "casa": "6",
+      "coordenadas": [
+        32.72710140343971,
+        -17.029195081047455
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.64766",
+      "rua": "ESTR PINHEIRO",
+      "casa": "88",
+      "coordenadas": [
+        32.722071195242584,
+        -17.033519273124988
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.64767",
+      "rua": "ESTR PINHEIRO",
+      "casa": "8O",
+      "coordenadas": [
+        32.7224279739619,
+        -17.03320731257601
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.64768",
+      "rua": "ESTR PINHEIRO",
+      "casa": "49",
+      "coordenadas": [
+        32.72381170986966,
+        -17.03129699059093
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.66719",
+      "rua": "ESTR PINHEIRO",
+      "casa": "45",
+      "coordenadas": [
+        32.72388867008004,
+        -17.031000007041328
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.70455",
+      "rua": "VR FURNA",
+      "casa": "4",
+      "coordenadas": [
+        32.722764299977506,
+        -17.033044247980918
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.72797",
+      "rua": "ESTR PINHEIRO",
+      "casa": "2",
+      "coordenadas": [
+        32.72759357161857,
+        -17.0288754848806
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.72800",
+      "rua": "ESTR PINHEIRO",
+      "casa": "48",
+      "coordenadas": [
+        32.7239001321993,
+        -17.03140568525201
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.72801",
+      "rua": "ESTR PINHEIRO",
+      "casa": "",
+      "coordenadas": [
+        32.721907846337224,
+        -17.032470035586222
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.81021",
+      "rua": "VR TERRA CHA",
+      "casa": "7",
+      "coordenadas": [
+        32.724592711281616,
+        -17.030962629570944
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.84649",
+      "rua": "VR FURNA",
+      "casa": "6",
+      "coordenadas": [
+        32.722834690626115,
+        -17.03315253362635
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.84650",
+      "rua": "ESTR PINHEIRO",
+      "casa": "55",
+      "coordenadas": [
+        32.72356398092244,
+        -17.031558093016383
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.90998",
+      "rua": "ESTR PINHEIRO",
+      "casa": "65",
+      "coordenadas": [
+        32.72304947589187,
+        -17.03269865160845
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.95424",
+      "rua": "ESTR PINHEIRO",
+      "casa": "75",
+      "coordenadas": [
+        32.722196695814645,
+        -17.033010025490537
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.120406",
+      "rua": "VR TERRA CHA",
+      "casa": "5",
+      "coordenadas": [
+        32.72442681012082,
+        -17.031182915287623
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.120407",
+      "rua": "ESTR PINHEIRO",
+      "casa": "82",
+      "coordenadas": [
+        32.722311988934486,
+        -17.033129998462698
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR PINHEIRO",
+    "VR TERRA CHA",
+    "VR FURNA"
+  ],
+  "centro": [
+    32.72480626713882,
+    -17.031107948309874
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.721999730096485,
+                -17.03306023170178
+              ],
+              [
+                32.721979311483324,
+                -17.03292907700943
+              ],
+              [
+                32.721997282041585,
+                -17.032785457002447
+              ],
+              [
+                32.722053641771275,
+                -17.032629371680823
+              ],
+              [
+                32.7221483906724,
+                -17.032460821044555
+              ],
+              [
+                32.722281528744965,
+                -17.032279805093648
+              ],
+              [
+                32.72245305598896,
+                -17.0320863238281
+              ],
+              [
+                32.72266297240437,
+                -17.031880377247916
+              ],
+              [
+                32.72291127799122,
+                -17.03166196535309
+              ],
+              [
+                32.72319797274951,
+                -17.031431088143623
+              ],
+              [
+                32.723481043084874,
+                -17.0312064622051
+              ],
+              [
+                32.72376048899733,
+                -17.030988087537505
+              ],
+              [
+                32.724036310486866,
+                -17.03077596414085
+              ],
+              [
+                32.724308507553495,
+                -17.030570092015132
+              ],
+              [
+                32.7245770801972,
+                -17.030370471160353
+              ],
+              [
+                32.724842028417996,
+                -17.030177101576506
+              ],
+              [
+                32.72510335221587,
+                -17.0299899832636
+              ],
+              [
+                32.72536105159084,
+                -17.02980911622163
+              ],
+              [
+                32.725609064927326,
+                -17.029643366027408
+              ],
+              [
+                32.72584739222533,
+                -17.029492732680936
+              ],
+              [
+                32.72607603348486,
+                -17.029357216182206
+              ],
+              [
+                32.72629498870592,
+                -17.029236816531217
+              ],
+              [
+                32.72650425788849,
+                -17.02913153372798
+              ],
+              [
+                32.726703841032595,
+                -17.029041367772493
+              ],
+              [
+                32.72689373813822,
+                -17.02896631866475
+              ],
+              [
+                32.727073949205376,
+                -17.02890638640475
+              ],
+              [
+                32.7272298976966,
+                -17.028856740386406
+              ],
+              [
+                32.72736158361191,
+                -17.028817380609716
+              ],
+              [
+                32.727469006951296,
+                -17.028788307074677
+              ],
+              [
+                32.727552167714755,
+                -17.0287695197813
+              ],
+              [
+                32.727611065902295,
+                -17.02876101872957
+              ],
+              [
+                32.727645701513914,
+                -17.02876280391949
+              ],
+              [
+                32.7276560745496,
+                -17.02877487535107
+              ],
+              [
+                32.72764218500937,
+                -17.028797233024292
+              ],
+              [
+                32.72755649498056,
+                -17.028885143806505
+              ],
+              [
+                32.727399004463166,
+                -17.029038607697707
+              ],
+              [
+                32.7271697134572,
+                -17.029257624697888
+              ],
+              [
+                32.72686862196266,
+                -17.029542194807053
+              ],
+              [
+                32.72649572997953,
+                -17.029892318025205
+              ],
+              [
+                32.72605103750782,
+                -17.030307994352334
+              ],
+              [
+                32.725534544547536,
+                -17.030789223788453
+              ],
+              [
+                32.724946251098665,
+                -17.031336006333554
+              ],
+              [
+                32.72441874388114,
+                -17.0318186524337
+              ],
+              [
+                32.72395202289495,
+                -17.032237162088883
+              ],
+              [
+                32.72354608814011,
+                -17.032591535299115
+              ],
+              [
+                32.72320093961661,
+                -17.03288177206439
+              ],
+              [
+                32.722916577324455,
+                -17.033107872384704
+              ],
+              [
+                32.722693001263636,
+                -17.033269836260068
+              ],
+              [
+                32.72253021143417,
+                -17.03336766369047
+              ],
+              [
+                32.72242820783604,
+                -17.033401354675924
+              ],
+              [
+                32.72233640236102,
+                -17.033414439951645
+              ],
+              [
+                32.722254795009135,
+                -17.033406919517645
+              ],
+              [
+                32.72218338578037,
+                -17.03337879337392
+              ],
+              [
+                32.72212217467472,
+                -17.03333006152047
+              ],
+              [
+                32.72207116169219,
+                -17.033260723957298
+              ],
+              [
+                32.722030346832774,
+                -17.0331707806844
+              ],
+              [
+                32.721999730096485,
+                -17.03306023170178
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.724661275567584,
+    -17.03094432311617
+  ],
+  "centroDeMassa": [
+    32.72480626713882,
+    -17.031107948309874
+  ]
+}

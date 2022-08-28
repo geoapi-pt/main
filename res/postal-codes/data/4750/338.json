@@ -1,1 +1,411 @@
-{"CP4":"4750","CP3":"338","Distrito":"Braga","Concelho":"Barcelos","CP":"4750-338","Artéria":"Rua Doutor Teotónio da Fonseca","Localidade":"Barcelos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BARCELOS","locais":[{"id":"pt.ine.add.PTCONT.500494","rua":"R DR TEOTONIO FONSECA","casa":"43","coordenadas":[41.53475102039068,-8.621175424815887]},{"id":"pt.ine.add.PTCONT.509150","rua":"R DR TEOTONIO DA FONSECA","casa":"28","coordenadas":[41.53455492647002,-8.620706616974552]},{"id":"pt.ine.add.PTCONT.527455","rua":"R DR TEOTONIO DA FONSECA","casa":"40","coordenadas":[41.53479674959553,-8.621008007133659]},{"id":"pt.ine.add.PTCONT.542241","rua":"R DR TEOTONIO DA FONSECA","casa":"30","coordenadas":[41.53455467242125,-8.62076652964677]},{"id":"pt.ine.add.PTCONT.551585","rua":"R DR TEOTONIO DA FONSECA","casa":"34","coordenadas":[41.53465330404818,-8.62086313395287]},{"id":"pt.ine.add.PTCONT.560116","rua":"R DR TEOTONIO DA FONSECA","casa":"32","coordenadas":[41.53459943569164,-8.62082678048927]},{"id":"pt.ine.add.PTCONT.633415","rua":"R DR TEOTÓNIO DA FONSECA","casa":"56","coordenadas":[41.53515526087924,-8.621394158180342]},{"id":"pt.ine.add.PTCONT.682955","rua":"R DR TEOTONIO DA FONSECA","casa":"4","coordenadas":[41.53444764678191,-8.620526067844356]},{"id":"pt.ine.add.PTCONT.693234","rua":"R DR TEOTONIO DA FONSECA","casa":"50","coordenadas":[41.5350655823148,-8.621309602645942]},{"id":"pt.ine.add.PTCONT.712812","rua":"R DR TEOTONIO FONSECA","casa":"29","coordenadas":[41.53459862242459,-8.621018501165677]},{"id":"pt.ine.add.PTCONT.736746","rua":"R DR TEOTONIO DA FONSECA","casa":"26","coordenadas":[41.53451006153251,-8.62067033130857]},{"id":"pt.ine.add.PTCONT.752341","rua":"R DR TEOTONIO DA FONSECA","casa":"10","coordenadas":[41.53450161681734,-8.620538455923258]},{"id":"pt.ine.add.PTCONT.759945","rua":"R DR TEOTONIO FONSECA","casa":"23","coordenadas":[41.53453575064727,-8.620982079949007]},{"id":"pt.ine.add.PTCONT.778802","rua":"R DR TEOTONIO DA FONSECA","casa":"36","coordenadas":[41.53468006032678,-8.620923249657903]},{"id":"pt.ine.add.PTCONT.820848","rua":"R DR TEOTONIO DA FONSECA","casa":"16","coordenadas":[41.534474352444825,-8.620598165740788]},{"id":"pt.ine.add.PTCONT.826019","rua":"R DR TEOTONIO DA FONSECA","casa":"38","coordenadas":[41.534742830452146,-8.620983636037552]},{"id":"pt.ine.add.PTCONT.835747","rua":"R DR TEOTONIO FONSECA","casa":"5","coordenadas":[41.53439301641613,-8.620669452350251]},{"id":"pt.ine.add.PTCONT.839566","rua":"R DR TEOTONIO FONSECA","casa":"46","coordenadas":[41.53498500887411,-8.621201149810192]}],"ruas":["R DR TEOTONIO FONSECA","R DR TEOTONIO DA FONSECA","R DR TEOTÓNIO DA FONSECA"],"centroide":[41.534647935862054,-8.620880011400981]}
+{
+  "CP": "4750-338",
+  "CP4": "4750",
+  "CP3": "338",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Barcelos",
+  "Designação Postal": "BARCELOS",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Teotónio da Fonseca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.500494",
+      "rua": "R DR TEOTONIO FONSECA",
+      "casa": "43",
+      "coordenadas": [
+        41.53475102039068,
+        -8.621175424815887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.509150",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "28",
+      "coordenadas": [
+        41.53455492647002,
+        -8.620706616974552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.527455",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "40",
+      "coordenadas": [
+        41.53479674959553,
+        -8.621008007133659
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.542241",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "30",
+      "coordenadas": [
+        41.53455467242125,
+        -8.62076652964677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.551585",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "34",
+      "coordenadas": [
+        41.53465330404818,
+        -8.62086313395287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.560116",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "32",
+      "coordenadas": [
+        41.53459943569164,
+        -8.62082678048927
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.633415",
+      "rua": "R DR TEOTÓNIO DA FONSECA",
+      "casa": "56",
+      "coordenadas": [
+        41.53515526087924,
+        -8.621394158180342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.682955",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "4",
+      "coordenadas": [
+        41.53444764678191,
+        -8.620526067844356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.693234",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "50",
+      "coordenadas": [
+        41.5350655823148,
+        -8.621309602645942
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.712812",
+      "rua": "R DR TEOTONIO FONSECA",
+      "casa": "29",
+      "coordenadas": [
+        41.53459862242459,
+        -8.621018501165677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.736746",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "26",
+      "coordenadas": [
+        41.53451006153251,
+        -8.62067033130857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.752341",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "10",
+      "coordenadas": [
+        41.53450161681734,
+        -8.620538455923258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.759945",
+      "rua": "R DR TEOTONIO FONSECA",
+      "casa": "23",
+      "coordenadas": [
+        41.53453575064727,
+        -8.620982079949007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.778802",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "36",
+      "coordenadas": [
+        41.53468006032678,
+        -8.620923249657903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.820848",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "16",
+      "coordenadas": [
+        41.534474352444825,
+        -8.620598165740788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.826019",
+      "rua": "R DR TEOTONIO DA FONSECA",
+      "casa": "38",
+      "coordenadas": [
+        41.534742830452146,
+        -8.620983636037552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.835747",
+      "rua": "R DR TEOTONIO FONSECA",
+      "casa": "5",
+      "coordenadas": [
+        41.53439301641613,
+        -8.620669452350251
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.839566",
+      "rua": "R DR TEOTONIO FONSECA",
+      "casa": "46",
+      "coordenadas": [
+        41.53498500887411,
+        -8.621201149810192
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR TEOTONIO FONSECA",
+    "R DR TEOTONIO DA FONSECA",
+    "R DR TEOTÓNIO DA FONSECA"
+  ],
+  "centro": [
+    41.53477413864769,
+    -8.620960113012348
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.53447330442114,
+                -8.62084530537455
+              ],
+              [
+                41.534455462642256,
+                -8.620806226924708
+              ],
+              [
+                41.53444070468519,
+                -8.62076979289819
+              ],
+              [
+                41.53442903054995,
+                -8.620736003294997
+              ],
+              [
+                41.534420440236545,
+                -8.620704858115129
+              ],
+              [
+                41.534414933744955,
+                -8.620676357358587
+              ],
+              [
+                41.534412511075196,
+                -8.620650501025374
+              ],
+              [
+                41.53441317222726,
+                -8.620627289115484
+              ],
+              [
+                41.53441691720116,
+                -8.620606721628922
+              ],
+              [
+                41.53442374599688,
+                -8.620588798565684
+              ],
+              [
+                41.534430564474945,
+                -8.620573309449085
+              ],
+              [
+                41.534437372635345,
+                -8.620560254279123
+              ],
+              [
+                41.53444417047808,
+                -8.620549633055798
+              ],
+              [
+                41.534450958003156,
+                -8.620541445779113
+              ],
+              [
+                41.534457735210566,
+                -8.620535692449062
+              ],
+              [
+                41.53446450210032,
+                -8.62053237306565
+              ],
+              [
+                41.53447125867241,
+                -8.620531487628874
+              ],
+              [
+                41.53447800492684,
+                -8.620533036138738
+              ],
+              [
+                41.53449412108793,
+                -8.620547761432634
+              ],
+              [
+                41.53451960715569,
+                -8.620575663510564
+              ],
+              [
+                41.53455446313011,
+                -8.62061674237253
+              ],
+              [
+                41.53459868901119,
+                -8.62067099801853
+              ],
+              [
+                41.53465228479894,
+                -8.620738430448565
+              ],
+              [
+                41.53471525049335,
+                -8.620819039662631
+              ],
+              [
+                41.534787586094424,
+                -8.620912825660731
+              ],
+              [
+                41.53486929160216,
+                -8.621019788442869
+              ],
+              [
+                41.5349344676638,
+                -8.621109963168417
+              ],
+              [
+                41.53498311427934,
+                -8.621183349837379
+              ],
+              [
+                41.535015231448774,
+                -8.621239948449755
+              ],
+              [
+                41.5350308191721,
+                -8.621279759005544
+              ],
+              [
+                41.53502987744933,
+                -8.621302781504747
+              ],
+              [
+                41.535012406280465,
+                -8.621309015947364
+              ],
+              [
+                41.5349784056655,
+                -8.621298462333392
+              ],
+              [
+                41.534927875604424,
+                -8.621271120662836
+              ],
+              [
+                41.53488029821125,
+                -8.621244175687552
+              ],
+              [
+                41.53483567348597,
+                -8.621217627407546
+              ],
+              [
+                41.53479400142858,
+                -8.621191475822812
+              ],
+              [
+                41.53475528203907,
+                -8.621165720933355
+              ],
+              [
+                41.53471951531747,
+                -8.62114036273917
+              ],
+              [
+                41.53468670126376,
+                -8.62111540124026
+              ],
+              [
+                41.53465683987794,
+                -8.621090836436625
+              ],
+              [
+                41.53462993116001,
+                -8.621066668328268
+              ],
+              [
+                41.53460415580946,
+                -8.621040636427221
+              ],
+              [
+                41.5345795138263,
+                -8.62101274073349
+              ],
+              [
+                41.534556005210504,
+                -8.620982981247073
+              ],
+              [
+                41.5345336299621,
+                -8.62095135796797
+              ],
+              [
+                41.53451238808106,
+                -8.620917870896182
+              ],
+              [
+                41.53449227956742,
+                -8.620882520031708
+              ],
+              [
+                41.53447330442114,
+                -8.62084530537455
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.53463071865543,
+    -8.62088093984385
+  ],
+  "centroDeMassa": [
+    41.53477413864769,
+    -8.620960113012348
+  ]
+}

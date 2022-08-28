@@ -1,1 +1,526 @@
-{"CP4":"4900","CP3":"691","Distrito":"Viana do Castelo","Concelho":"Viana do Castelo","CP":"4900-691","Artéria":"Rua da Estrada Velha","Localidade":"Viana do Castelo","Local":"Meadela","Troço":"","Porta":"","Cliente":"","Designação Postal":"VIANA DO CASTELO","locais":[{"id":"pt.ine.add.PTCONT.5139047","rua":"R ESTRADA VELHA","casa":"169","coordenadas":[41.7061298053904,-8.79496444808993]},{"id":"pt.ine.add.PTCONT.5139048","rua":"R ESTRADA VELHA","casa":"175","coordenadas":[41.7061298053904,-8.79496444808993]},{"id":"pt.ine.add.PTCONT.5139049","rua":"R ESTRADA VELHA","casa":"171","coordenadas":[41.7061298053904,-8.79496444808993]},{"id":"pt.ine.add.PTCONT.5139050","rua":"R ESTRADA VELHA","casa":"169 175","coordenadas":[41.7061298053904,-8.79496444808993]},{"id":"pt.ine.add.PTCONT.5155121","rua":"R ESTRADA VELHA","casa":"219","coordenadas":[41.7062007058371,-8.793595500215734]},{"id":"pt.ine.add.PTCONT.5174327","rua":"R ESTRADA VELHA","casa":"172","coordenadas":[41.705914081128306,-8.794902162386512]},{"id":"pt.ine.add.PTCONT.5174363","rua":"R ESTRADA VELHA","casa":"217","coordenadas":[41.70618200940965,-8.793715455758091]},{"id":"pt.ine.add.PTCONT.5181252","rua":"R ESTRADA VELHA","casa":"46","coordenadas":[41.70665847716943,-8.796964323511883]},{"id":"pt.ine.add.PTCONT.5191441","rua":"R ESTRADA VELHA","casa":"221","coordenadas":[41.70622868121157,-8.79342758076144]},{"id":"pt.ine.add.PTCONT.5193029","rua":"R ESTRADA VELHA","casa":"192","coordenadas":[41.70587903792085,-8.794733598145607]},{"id":"pt.ine.add.PTCONT.5193030","rua":"R ESTRADA VELHA","casa":"192","coordenadas":[41.70587903792085,-8.794733598145607]},{"id":"pt.ine.add.PTCONT.5193105","rua":"R ESTRADA VELHA","casa":"185","coordenadas":[41.706142266445525,-8.794363841773382]},{"id":"pt.ine.add.PTCONT.5193106","rua":"R ESTRADA VELHA","casa":"185","coordenadas":[41.706142266445525,-8.794363841773382]},{"id":"pt.ine.add.PTCONT.5207007","rua":"R ESTRADA VELHA","casa":"64","coordenadas":[41.706552038065375,-8.796686889096229]},{"id":"pt.ine.add.PTCONT.5207008","rua":"R ESTRADA VELHA","casa":"64","coordenadas":[41.706552038065375,-8.796686889096229]},{"id":"pt.ine.add.PTCONT.5216000","rua":"R ESTRADA VELHA","casa":"397 391","coordenadas":[41.70632009091307,-8.79318822179021]},{"id":"pt.ine.add.PTCONT.5216001","rua":"R ESTRADA VELHA","casa":"391","coordenadas":[41.70632009091307,-8.79318822179021]},{"id":"pt.ine.add.PTCONT.5216187","rua":"R ESTRADA VELHA","casa":"397","coordenadas":[41.70632009091307,-8.79318822179021]},{"id":"pt.ine.add.PTCONT.5217121","rua":"R ESTRADA VELHA","casa":"213","coordenadas":[41.70618069697707,-8.793943721428898]},{"id":"pt.ine.add.PTCONT.5227656","rua":"R ESTRADA VELHA","casa":"43","coordenadas":[41.706821223722315,-8.796845849677242]},{"id":"pt.ine.add.PTCONT.5232274","rua":"R ESTRADA VELHA","casa":"177","coordenadas":[41.70611366731783,-8.794639886294364]},{"id":"pt.ine.add.PTCONT.5232275","rua":"R ESTRADA VELHA","casa":"177","coordenadas":[41.70611366731783,-8.794639886294364]},{"id":"pt.ine.add.PTCONT.5232284","rua":"R ESTRADA VELHA","casa":"163","coordenadas":[41.70618112341753,-8.79543354730964]},{"id":"pt.ine.add.PTCONT.5232285","rua":"R ESTRADA VELHA","casa":"161","coordenadas":[41.70618112341753,-8.79543354730964]},{"id":"pt.ine.add.PTCONT.5237091","rua":"R ESTRADA VELHA","casa":"167","coordenadas":[41.70615522237156,-8.795241046520166]},{"id":"pt.ine.add.PTCONT.5237114","rua":"R ESTRADA VELHA","casa":"167","coordenadas":[41.70615522237156,-8.795241046520166]},{"id":"pt.ine.add.PTCONT.5244229","rua":"R ESTRADA VELHA","casa":"122","coordenadas":[41.70614164800021,-8.796033876252684]},{"id":"pt.ine.add.PTCONT.5259823","rua":"R ESTRADA VELHA","casa":"125","coordenadas":[41.706376902031025,-8.79583204264774]},{"id":"pt.ine.add.PTCONT.5259824","rua":"R ESTRADA VELHA","casa":"125 A","coordenadas":[41.706376902031025,-8.79583204264774]},{"id":"pt.ine.add.PTCONT.5275361","rua":"R ESTRADA VELHA","casa":"30","coordenadas":[41.70670133965077,-8.797337222815928]},{"id":"pt.ine.add.PTCONT.5275362","rua":"R ESTRADA VELHA","casa":"30","coordenadas":[41.70670133965077,-8.797337222815928]}],"ruas":["R ESTRADA VELHA"],"centroide":[41.7062436290849,-8.79500166180377]}
+{
+  "CP": "4900-691",
+  "CP4": "4900",
+  "CP3": "691",
+  "Distrito": "Viana do Castelo",
+  "Concelho": "Viana do Castelo",
+  "Localidade": "Viana do Castelo",
+  "Designação Postal": "VIANA DO CASTELO",
+  "partes": [
+    {
+      "Artéria": "Rua da Estrada Velha",
+      "Local": "Meadela",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5139047",
+      "rua": "R ESTRADA VELHA",
+      "casa": "169",
+      "coordenadas": [
+        41.7061298053904,
+        -8.79496444808993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5139048",
+      "rua": "R ESTRADA VELHA",
+      "casa": "175",
+      "coordenadas": [
+        41.7061298053904,
+        -8.79496444808993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5139049",
+      "rua": "R ESTRADA VELHA",
+      "casa": "171",
+      "coordenadas": [
+        41.7061298053904,
+        -8.79496444808993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5139050",
+      "rua": "R ESTRADA VELHA",
+      "casa": "169 175",
+      "coordenadas": [
+        41.7061298053904,
+        -8.79496444808993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5155121",
+      "rua": "R ESTRADA VELHA",
+      "casa": "219",
+      "coordenadas": [
+        41.7062007058371,
+        -8.793595500215734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5174327",
+      "rua": "R ESTRADA VELHA",
+      "casa": "172",
+      "coordenadas": [
+        41.705914081128306,
+        -8.794902162386512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5174363",
+      "rua": "R ESTRADA VELHA",
+      "casa": "217",
+      "coordenadas": [
+        41.70618200940965,
+        -8.793715455758091
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5181252",
+      "rua": "R ESTRADA VELHA",
+      "casa": "46",
+      "coordenadas": [
+        41.70665847716943,
+        -8.796964323511883
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5191441",
+      "rua": "R ESTRADA VELHA",
+      "casa": "221",
+      "coordenadas": [
+        41.70622868121157,
+        -8.79342758076144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5193029",
+      "rua": "R ESTRADA VELHA",
+      "casa": "192",
+      "coordenadas": [
+        41.70587903792085,
+        -8.794733598145607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5193030",
+      "rua": "R ESTRADA VELHA",
+      "casa": "192",
+      "coordenadas": [
+        41.70587903792085,
+        -8.794733598145607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5193105",
+      "rua": "R ESTRADA VELHA",
+      "casa": "185",
+      "coordenadas": [
+        41.706142266445525,
+        -8.794363841773382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5193106",
+      "rua": "R ESTRADA VELHA",
+      "casa": "185",
+      "coordenadas": [
+        41.706142266445525,
+        -8.794363841773382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5207007",
+      "rua": "R ESTRADA VELHA",
+      "casa": "64",
+      "coordenadas": [
+        41.706552038065375,
+        -8.796686889096229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5207008",
+      "rua": "R ESTRADA VELHA",
+      "casa": "64",
+      "coordenadas": [
+        41.706552038065375,
+        -8.796686889096229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5216000",
+      "rua": "R ESTRADA VELHA",
+      "casa": "397 391",
+      "coordenadas": [
+        41.70632009091307,
+        -8.79318822179021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5216001",
+      "rua": "R ESTRADA VELHA",
+      "casa": "391",
+      "coordenadas": [
+        41.70632009091307,
+        -8.79318822179021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5216187",
+      "rua": "R ESTRADA VELHA",
+      "casa": "397",
+      "coordenadas": [
+        41.70632009091307,
+        -8.79318822179021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5217121",
+      "rua": "R ESTRADA VELHA",
+      "casa": "213",
+      "coordenadas": [
+        41.70618069697707,
+        -8.793943721428898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5227656",
+      "rua": "R ESTRADA VELHA",
+      "casa": "43",
+      "coordenadas": [
+        41.706821223722315,
+        -8.796845849677242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5232274",
+      "rua": "R ESTRADA VELHA",
+      "casa": "177",
+      "coordenadas": [
+        41.70611366731783,
+        -8.794639886294364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5232275",
+      "rua": "R ESTRADA VELHA",
+      "casa": "177",
+      "coordenadas": [
+        41.70611366731783,
+        -8.794639886294364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5232284",
+      "rua": "R ESTRADA VELHA",
+      "casa": "163",
+      "coordenadas": [
+        41.70618112341753,
+        -8.79543354730964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5232285",
+      "rua": "R ESTRADA VELHA",
+      "casa": "161",
+      "coordenadas": [
+        41.70618112341753,
+        -8.79543354730964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5237091",
+      "rua": "R ESTRADA VELHA",
+      "casa": "167",
+      "coordenadas": [
+        41.70615522237156,
+        -8.795241046520166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5237114",
+      "rua": "R ESTRADA VELHA",
+      "casa": "167",
+      "coordenadas": [
+        41.70615522237156,
+        -8.795241046520166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5244229",
+      "rua": "R ESTRADA VELHA",
+      "casa": "122",
+      "coordenadas": [
+        41.70614164800021,
+        -8.796033876252684
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5259823",
+      "rua": "R ESTRADA VELHA",
+      "casa": "125",
+      "coordenadas": [
+        41.706376902031025,
+        -8.79583204264774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5259824",
+      "rua": "R ESTRADA VELHA",
+      "casa": "125 A",
+      "coordenadas": [
+        41.706376902031025,
+        -8.79583204264774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5275361",
+      "rua": "R ESTRADA VELHA",
+      "casa": "30",
+      "coordenadas": [
+        41.70670133965077,
+        -8.797337222815928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5275362",
+      "rua": "R ESTRADA VELHA",
+      "casa": "30",
+      "coordenadas": [
+        41.70670133965077,
+        -8.797337222815928
+      ]
+    }
+  ],
+  "ruas": [
+    "R ESTRADA VELHA"
+  ],
+  "centro": [
+    41.70635013082158,
+    -8.795262722303068
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.706026756090495,
+                -8.795465004580839
+              ],
+              [
+                41.70599392983057,
+                -8.795302469817452
+              ],
+              [
+                41.70597067002956,
+                -8.795139845377863
+              ],
+              [
+                41.70595697668745,
+                -8.79497713126207
+              ],
+              [
+                41.705952849804255,
+                -8.794814327470073
+              ],
+              [
+                41.705958289379964,
+                -8.794651434001869
+              ],
+              [
+                41.70597329541458,
+                -8.794488450857463
+              ],
+              [
+                41.70599786790811,
+                -8.79432537803685
+              ],
+              [
+                41.70603200686054,
+                -8.794162215540034
+              ],
+              [
+                41.70607571227188,
+                -8.793998963367013
+              ],
+              [
+                41.706115382783395,
+                -8.793852377731694
+              ],
+              [
+                41.70615101839506,
+                -8.793722458634079
+              ],
+              [
+                41.70618261910691,
+                -8.793609206074164
+              ],
+              [
+                41.70621018491892,
+                -8.793512620051951
+              ],
+              [
+                41.706233715831104,
+                -8.79343270056744
+              ],
+              [
+                41.70625321184346,
+                -8.793369447620634
+              ],
+              [
+                41.70626867295598,
+                -8.793322861211527
+              ],
+              [
+                41.70628009916866,
+                -8.793292941340123
+              ],
+              [
+                41.7062979273049,
+                -8.793323911888379
+              ],
+              [
+                41.70632215736471,
+                -8.793415772856296
+              ],
+              [
+                41.706352789348074,
+                -8.793568524243874
+              ],
+              [
+                41.706389823254995,
+                -8.79378216605111
+              ],
+              [
+                41.70643325908547,
+                -8.794056698278009
+              ],
+              [
+                41.70648309683952,
+                -8.794392120924567
+              ],
+              [
+                41.70653933651711,
+                -8.794788433990785
+              ],
+              [
+                41.70660197811827,
+                -8.795245637476665
+              ],
+              [
+                41.70665491633066,
+                -8.795653368232102
+              ],
+              [
+                41.7066981511543,
+                -8.796011626257094
+              ],
+              [
+                41.706731682589165,
+                -8.796320411551646
+              ],
+              [
+                41.70675551063527,
+                -8.796579724115754
+              ],
+              [
+                41.706769635292616,
+                -8.796789563949417
+              ],
+              [
+                41.706774056561194,
+                -8.79694993105264
+              ],
+              [
+                41.70676877444102,
+                -8.797060825425417
+              ],
+              [
+                41.70675378893207,
+                -8.797122247067753
+              ],
+              [
+                41.7067319314297,
+                -8.797155626214746
+              ],
+              [
+                41.70670320193392,
+                -8.797160962866398
+              ],
+              [
+                41.7066676004447,
+                -8.797138257022706
+              ],
+              [
+                41.70662512696208,
+                -8.79708750868367
+              ],
+              [
+                41.70657578148602,
+                -8.797008717849293
+              ],
+              [
+                41.706519564016546,
+                -8.796901884519572
+              ],
+              [
+                41.70645647455365,
+                -8.79676700869451
+              ],
+              [
+                41.70638651309733,
+                -8.796604090374103
+              ],
+              [
+                41.70632119354056,
+                -8.796441219998325
+              ],
+              [
+                41.70626051588334,
+                -8.796278397567175
+              ],
+              [
+                41.70620448012568,
+                -8.796115623080652
+              ],
+              [
+                41.70615308626755,
+                -8.795952896538758
+              ],
+              [
+                41.706106334308984,
+                -8.79579021794149
+              ],
+              [
+                41.70606422424996,
+                -8.795627587288852
+              ],
+              [
+                41.706026756090495,
+                -8.795465004580839
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.706348670236466,
+    -8.795261058240518
+  ],
+  "centroDeMassa": [
+    41.70635013082158,
+    -8.795262722303068
+  ]
+}

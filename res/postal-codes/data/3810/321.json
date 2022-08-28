@@ -1,1 +1,552 @@
-{"CP4":"3810","CP3":"321","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3810-321","Artéria":"Travessa da Quinta Velha","Localidade":"Aveiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AVEIRO","locais":[{"id":"pt.ine.add.PTCONT.316584","rua":"R QUINTA VELHA","casa":"81","coordenadas":[40.63214608894746,-8.621301701313095]},{"id":"pt.ine.add.PTCONT.324096","rua":"R QUINTA VELHA","casa":"49","coordenadas":[40.6326423735972,-8.622572144090569]},{"id":"pt.ine.add.PTCONT.330166","rua":"R QUINTA VELHA","casa":"8B C","coordenadas":[40.63365485907059,-8.623773394306701]},{"id":"pt.ine.add.PTCONT.335411","rua":"R QUINTA VELHA","casa":"IC","coordenadas":[40.633583171552885,-8.623690127076285]},{"id":"pt.ine.add.PTCONT.335412","rua":"R QUINTA VELHA","casa":"46","coordenadas":[40.63233550615034,-8.622735385077256]},{"id":"pt.ine.add.PTCONT.339766","rua":"R QUINTA VELHA","casa":"N 50","coordenadas":[40.6320111299304,-8.622780295925283]},{"id":"pt.ine.add.PTCONT.345530","rua":"R QUINTA VELHA","casa":"41","coordenadas":[40.632812664647965,-8.622762511028943]},{"id":"pt.ine.add.PTCONT.348436","rua":"R QUINTA VELHA","casa":"26","coordenadas":[40.63317050307135,-8.623320678124715]},{"id":"pt.ine.add.PTCONT.16669","rua":"R QUINTA VELHA","casa":"63","coordenadas":[40.6324274083166,-8.622298711008062]},{"id":"pt.ine.add.PTCONT.38051","rua":"R QUINTA VELHA","casa":"8","coordenadas":[40.63378983180394,-8.623798023148083]},{"id":"pt.ine.add.PTCONT.38052","rua":"R QUINTA VELHA","casa":"8","coordenadas":[40.63365420610518,-8.623927054226735]},{"id":"pt.ine.add.PTCONT.46300","rua":"R QUINTA VELHA","casa":"57","coordenadas":[40.63251675606671,-8.622464845343716]},{"id":"pt.ine.add.PTCONT.50484","rua":"R QUINTA VELHA","casa":"16","coordenadas":[40.63337636058315,-8.623617691510951]},{"id":"pt.ine.add.PTCONT.62257","rua":"R QUINTA VELHA","casa":"61","coordenadas":[40.63248103702705,-8.622393663640652]},{"id":"pt.ine.add.PTCONT.75769","rua":"R QUINTA VELHA","casa":"13","coordenadas":[40.63354800545986,-8.623488923858655]},{"id":"pt.ine.add.PTCONT.77560","rua":"R QUINTA VELHA","casa":"13","coordenadas":[40.63354800545986,-8.623488923858655]},{"id":"pt.ine.add.PTCONT.108044","rua":"R QUINTA VELHA","casa":"27","coordenadas":[40.63325189817538,-8.623238531383059]},{"id":"pt.ine.add.PTCONT.114029","rua":"R QUINTA VELHA","casa":"3","coordenadas":[40.63328314654597,-8.624361688015085]},{"id":"pt.ine.add.PTCONT.152911","rua":"R QUINTA VELHA","casa":"31","coordenadas":[40.63314429105064,-8.62313136207172]},{"id":"pt.ine.add.PTCONT.154970","rua":"R QUINTA VELHA","casa":"29","coordenadas":[40.63318906466595,-8.623190790800727]},{"id":"pt.ine.add.PTCONT.177026","rua":"R QUINTA VELHA","casa":"","coordenadas":[40.63314139595626,-8.621689267784046]},{"id":"pt.ine.add.PTCONT.177027","rua":"TV QUINTA VELHA","casa":"","coordenadas":[40.63314139595626,-8.621689267784046]},{"id":"pt.ine.add.PTCONT.183431","rua":"R QUINTA VELHA","casa":"","coordenadas":[40.63383576001304,-8.623585592299213]},{"id":"pt.ine.add.PTCONT.207994","rua":"R QUINTA VELHA","casa":"30","coordenadas":[40.63308070512259,-8.62326092007594]},{"id":"pt.ine.add.PTCONT.208960","rua":"R QUINTA VELHA","casa":"26","coordenadas":[40.63317050307135,-8.623320678124715]},{"id":"pt.ine.add.PTCONT.210807","rua":"R QUINTA VELHA","casa":"8","coordenadas":[40.63346414896121,-8.62415024871703]},{"id":"pt.ine.add.PTCONT.210908","rua":"R QUINTA VELHA","casa":"26","coordenadas":[40.63317050307135,-8.623320678124715]},{"id":"pt.ine.add.PTCONT.214505","rua":"R QUINTA VELHA","casa":"53","coordenadas":[40.6325705349176,-8.622524338820163]},{"id":"pt.ine.add.PTCONT.214527","rua":"R QUINTA VELHA","casa":"12","coordenadas":[40.63350232847967,-8.62364225402898]},{"id":"pt.ine.add.PTCONT.217385","rua":"R QUINTA VELHA","casa":"17","coordenadas":[40.633386469658575,-8.623357718572874]},{"id":"pt.ine.add.PTCONT.230907","rua":"R QUINTA VELHA","casa":"35","coordenadas":[40.63311037692883,-8.62263466296557]},{"id":"pt.ine.add.PTCONT.274644","rua":"R QUINTA VELHA","casa":"1-8","coordenadas":[40.63334984792479,-8.623499294409383]},{"id":"pt.ine.add.PTCONT.277594","rua":"R QUINTA VELHA","casa":"35","coordenadas":[40.632983206037125,-8.622893779550386]}],"ruas":["R QUINTA VELHA","TV QUINTA VELHA"],"centroide":[40.633109071196564,-8.623094105234863]}
+{
+  "CP": "3810-321",
+  "CP4": "3810",
+  "CP3": "321",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "Aveiro",
+  "Designação Postal": "AVEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua da Quinta Velha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Quinta Velha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.316584",
+      "rua": "R QUINTA VELHA",
+      "casa": "81",
+      "coordenadas": [
+        40.63214608894746,
+        -8.621301701313095
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.324096",
+      "rua": "R QUINTA VELHA",
+      "casa": "49",
+      "coordenadas": [
+        40.6326423735972,
+        -8.622572144090569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.330166",
+      "rua": "R QUINTA VELHA",
+      "casa": "8B C",
+      "coordenadas": [
+        40.63365485907059,
+        -8.623773394306701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.335411",
+      "rua": "R QUINTA VELHA",
+      "casa": "IC",
+      "coordenadas": [
+        40.633583171552885,
+        -8.623690127076285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.335412",
+      "rua": "R QUINTA VELHA",
+      "casa": "46",
+      "coordenadas": [
+        40.63233550615034,
+        -8.622735385077256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.339766",
+      "rua": "R QUINTA VELHA",
+      "casa": "N 50",
+      "coordenadas": [
+        40.6320111299304,
+        -8.622780295925283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.345530",
+      "rua": "R QUINTA VELHA",
+      "casa": "41",
+      "coordenadas": [
+        40.632812664647965,
+        -8.622762511028943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.348436",
+      "rua": "R QUINTA VELHA",
+      "casa": "26",
+      "coordenadas": [
+        40.63317050307135,
+        -8.623320678124715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.16669",
+      "rua": "R QUINTA VELHA",
+      "casa": "63",
+      "coordenadas": [
+        40.6324274083166,
+        -8.622298711008062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.38051",
+      "rua": "R QUINTA VELHA",
+      "casa": "8",
+      "coordenadas": [
+        40.63378983180394,
+        -8.623798023148083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.38052",
+      "rua": "R QUINTA VELHA",
+      "casa": "8",
+      "coordenadas": [
+        40.63365420610518,
+        -8.623927054226735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.46300",
+      "rua": "R QUINTA VELHA",
+      "casa": "57",
+      "coordenadas": [
+        40.63251675606671,
+        -8.622464845343716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.50484",
+      "rua": "R QUINTA VELHA",
+      "casa": "16",
+      "coordenadas": [
+        40.63337636058315,
+        -8.623617691510951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.62257",
+      "rua": "R QUINTA VELHA",
+      "casa": "61",
+      "coordenadas": [
+        40.63248103702705,
+        -8.622393663640652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.75769",
+      "rua": "R QUINTA VELHA",
+      "casa": "13",
+      "coordenadas": [
+        40.63354800545986,
+        -8.623488923858655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.77560",
+      "rua": "R QUINTA VELHA",
+      "casa": "13",
+      "coordenadas": [
+        40.63354800545986,
+        -8.623488923858655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108044",
+      "rua": "R QUINTA VELHA",
+      "casa": "27",
+      "coordenadas": [
+        40.63325189817538,
+        -8.623238531383059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.114029",
+      "rua": "R QUINTA VELHA",
+      "casa": "3",
+      "coordenadas": [
+        40.63328314654597,
+        -8.624361688015085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.152911",
+      "rua": "R QUINTA VELHA",
+      "casa": "31",
+      "coordenadas": [
+        40.63314429105064,
+        -8.62313136207172
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.154970",
+      "rua": "R QUINTA VELHA",
+      "casa": "29",
+      "coordenadas": [
+        40.63318906466595,
+        -8.623190790800727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.177026",
+      "rua": "R QUINTA VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.63314139595626,
+        -8.621689267784046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.177027",
+      "rua": "TV QUINTA VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.63314139595626,
+        -8.621689267784046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.183431",
+      "rua": "R QUINTA VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.63383576001304,
+        -8.623585592299213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.207994",
+      "rua": "R QUINTA VELHA",
+      "casa": "30",
+      "coordenadas": [
+        40.63308070512259,
+        -8.62326092007594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.208960",
+      "rua": "R QUINTA VELHA",
+      "casa": "26",
+      "coordenadas": [
+        40.63317050307135,
+        -8.623320678124715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.210807",
+      "rua": "R QUINTA VELHA",
+      "casa": "8",
+      "coordenadas": [
+        40.63346414896121,
+        -8.62415024871703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.210908",
+      "rua": "R QUINTA VELHA",
+      "casa": "26",
+      "coordenadas": [
+        40.63317050307135,
+        -8.623320678124715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214505",
+      "rua": "R QUINTA VELHA",
+      "casa": "53",
+      "coordenadas": [
+        40.6325705349176,
+        -8.622524338820163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.214527",
+      "rua": "R QUINTA VELHA",
+      "casa": "12",
+      "coordenadas": [
+        40.63350232847967,
+        -8.62364225402898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217385",
+      "rua": "R QUINTA VELHA",
+      "casa": "17",
+      "coordenadas": [
+        40.633386469658575,
+        -8.623357718572874
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.230907",
+      "rua": "R QUINTA VELHA",
+      "casa": "35",
+      "coordenadas": [
+        40.63311037692883,
+        -8.62263466296557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.274644",
+      "rua": "R QUINTA VELHA",
+      "casa": "1-8",
+      "coordenadas": [
+        40.63334984792479,
+        -8.623499294409383
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.277594",
+      "rua": "R QUINTA VELHA",
+      "casa": "35",
+      "coordenadas": [
+        40.632983206037125,
+        -8.622893779550386
+      ]
+    }
+  ],
+  "ruas": [
+    "R QUINTA VELHA",
+    "TV QUINTA VELHA"
+  ],
+  "centro": [
+    40.63292344497172,
+    -8.62283169466409
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.63272663927666,
+                -8.623669828975796
+              ],
+              [
+                40.632567637199706,
+                -8.623472154964572
+              ],
+              [
+                40.63243061911702,
+                -8.623276087163935
+              ],
+              [
+                40.63231558502859,
+                -8.623081625573885
+              ],
+              [
+                40.63222253493443,
+                -8.622888770194423
+              ],
+              [
+                40.63215146883452,
+                -8.622697521025549
+              ],
+              [
+                40.632102386728874,
+                -8.62250787806726
+              ],
+              [
+                40.632075288617486,
+                -8.622319841319563
+              ],
+              [
+                40.632070174500356,
+                -8.62213341078245
+              ],
+              [
+                40.6320870443775,
+                -8.621948586455929
+              ],
+              [
+                40.632117357192,
+                -8.621792920896329
+              ],
+              [
+                40.632161112943876,
+                -8.621666414103654
+              ],
+              [
+                40.632218311633125,
+                -8.621569066077903
+              ],
+              [
+                40.63228895325973,
+                -8.621500876819074
+              ],
+              [
+                40.632373037823726,
+                -8.621461846327172
+              ],
+              [
+                40.63247056532508,
+                -8.621451974602191
+              ],
+              [
+                40.63258153576381,
+                -8.621471261644137
+              ],
+              [
+                40.63270594913991,
+                -8.621519707453006
+              ],
+              [
+                40.632825660282386,
+                -8.621591727606315
+              ],
+              [
+                40.632940669191235,
+                -8.621687322104066
+              ],
+              [
+                40.63305097586646,
+                -8.621806490946257
+              ],
+              [
+                40.63315658030806,
+                -8.62194923413289
+              ],
+              [
+                40.633257482516036,
+                -8.622115551663963
+              ],
+              [
+                40.63335368249038,
+                -8.622305443539476
+              ],
+              [
+                40.6334451802311,
+                -8.622518909759432
+              ],
+              [
+                40.6335319757382,
+                -8.622755950323826
+              ],
+              [
+                40.633607204178645,
+                -8.622966680049686
+              ],
+              [
+                40.63367086555243,
+                -8.623151098937011
+              ],
+              [
+                40.63372295985957,
+                -8.623309206985798
+              ],
+              [
+                40.633763487100055,
+                -8.623441004196053
+              ],
+              [
+                40.633792447273876,
+                -8.623546490567769
+              ],
+              [
+                40.63380984038104,
+                -8.62362566610095
+              ],
+              [
+                40.633815666421555,
+                -8.623678530795594
+              ],
+              [
+                40.633809925395425,
+                -8.623705084651704
+              ],
+              [
+                40.63379698504039,
+                -8.623737126539346
+              ],
+              [
+                40.63377684535648,
+                -8.623774656458522
+              ],
+              [
+                40.633749506343676,
+                -8.62381767440923
+              ],
+              [
+                40.63371496800198,
+                -8.62386618039147
+              ],
+              [
+                40.63367323033141,
+                -8.623920174405246
+              ],
+              [
+                40.633624293331934,
+                -8.623979656450555
+              ],
+              [
+                40.63356815700358,
+                -8.624044626527397
+              ],
+              [
+                40.63350482134633,
+                -8.624115084635772
+              ],
+              [
+                40.63342952738662,
+                -8.624152026229197
+              ],
+              [
+                40.63334227512445,
+                -8.624155451307672
+              ],
+              [
+                40.633243064559814,
+                -8.624125359871197
+              ],
+              [
+                40.63313189569272,
+                -8.624061751919772
+              ],
+              [
+                40.63300876852316,
+                -8.623964627453397
+              ],
+              [
+                40.632873683051145,
+                -8.623833986472071
+              ],
+              [
+                40.63272663927666,
+                -8.623669828975796
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.63303455886617,
+    -8.6229194280808
+  ],
+  "centroDeMassa": [
+    40.63292344497172,
+    -8.62283169466409
+  ]
+}

@@ -1,1 +1,495 @@
-{"CP4":"4100","CP3":"003","Distrito":"Porto","Concelho":"Porto","CP":"4100-003","Artéria":"Rua Doutor Mário Cal Brandão","Localidade":"Porto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3660950","rua":"R CAMPOS MONTEIRO","casa":"106 - 110","coordenadas":[41.16613127404487,-8.654772449499124]},{"id":"pt.ine.add.PTCONT.3674155","rua":"R CAMPOS MONTEIRO","casa":"98 - 102","coordenadas":[41.165916580642254,-8.654460943843123]},{"id":"pt.ine.add.PTCONT.3771803","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771804","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771805","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771806","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771807","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771808","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771809","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771810","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771811","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771812","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771813","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771814","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771815","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3771829","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164738069709394,-8.658193001853869]},{"id":"pt.ine.add.PTCONT.3887505","rua":"R CAMPOS MONTEIRO","casa":"88 - 92","coordenadas":[41.165781628468515,-8.654436043237697]},{"id":"pt.ine.add.PTCONT.3942562","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942563","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942564","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942671","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942672","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942673","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942674","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942675","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942676","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942677","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942678","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942679","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3942680","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]},{"id":"pt.ine.add.PTCONT.3945781","rua":"R DR MÁRIO CAL BRANDÃO","casa":"","coordenadas":[41.164611633485265,-8.658275399378526]}],"ruas":["R CAMPOS MONTEIRO","R DR MÁRIO CAL BRANDÃO"],"centroide":[41.16480378981319,-8.657865055148504]}
+{
+  "CP": "4100-003",
+  "CP4": "4100",
+  "CP3": "003",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Mário Cal Brandão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3660950",
+      "rua": "R CAMPOS MONTEIRO",
+      "casa": "106 - 110",
+      "coordenadas": [
+        41.16613127404487,
+        -8.654772449499124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3674155",
+      "rua": "R CAMPOS MONTEIRO",
+      "casa": "98 - 102",
+      "coordenadas": [
+        41.165916580642254,
+        -8.654460943843123
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771803",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771804",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771805",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771806",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771807",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771808",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771809",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771810",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771811",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771812",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771813",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771814",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771815",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771829",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164738069709394,
+        -8.658193001853869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3887505",
+      "rua": "R CAMPOS MONTEIRO",
+      "casa": "88 - 92",
+      "coordenadas": [
+        41.165781628468515,
+        -8.654436043237697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942562",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942563",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942564",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942671",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942672",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942673",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942674",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942675",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942676",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942677",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942678",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942679",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3942680",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3945781",
+      "rua": "R DR MÁRIO CAL BRANDÃO",
+      "casa": "",
+      "coordenadas": [
+        41.164611633485265,
+        -8.658275399378526
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAMPOS MONTEIRO",
+    "R DR MÁRIO CAL BRANDÃO"
+  ],
+  "centro": [
+    41.16537145376507,
+    -8.656355721308111
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.164682753861335,
+                -8.658229050770906
+              ],
+              [
+                41.164666949333316,
+                -8.65823935046149
+              ],
+              [
+                41.16467140154292,
+                -8.658188372751047
+              ],
+              [
+                41.16469611049013,
+                -8.658076117639583
+              ],
+              [
+                41.16474107617496,
+                -8.657902585127095
+              ],
+              [
+                41.16480629859741,
+                -8.657667775213584
+              ],
+              [
+                41.164891777757475,
+                -8.657371687899051
+              ],
+              [
+                41.16499751365515,
+                -8.657014323183493
+              ],
+              [
+                41.16512350629044,
+                -8.656595681066914
+              ],
+              [
+                41.165269755663346,
+                -8.656115761549309
+              ],
+              [
+                41.165399832492355,
+                -8.655696221043366
+              ],
+              [
+                41.165513736777456,
+                -8.655337059549083
+              ],
+              [
+                41.16561146851867,
+                -8.65503827706646
+              ],
+              [
+                41.16569302771598,
+                -8.654799873595499
+              ],
+              [
+                41.16575841436939,
+                -8.654621849136197
+              ],
+              [
+                41.165807628478916,
+                -8.654504203688553
+              ],
+              [
+                41.16584067004453,
+                -8.654446937252573
+              ],
+              [
+                41.16585753906624,
+                -8.654450049828249
+              ],
+              [
+                41.165875654044655,
+                -8.654457640607843
+              ],
+              [
+                41.16589501497978,
+                -8.654469709591352
+              ],
+              [
+                41.165915621871605,
+                -8.654486256778775
+              ],
+              [
+                41.165937474720124,
+                -8.654507282170115
+              ],
+              [
+                41.16596057352535,
+                -8.654532785765369
+              ],
+              [
+                41.16598491828727,
+                -8.654562767564538
+              ],
+              [
+                41.1660105090059,
+                -8.654597227567624
+              ],
+              [
+                41.166037345681225,
+                -8.654636165774622
+              ],
+              [
+                41.1660390589544,
+                -8.654723682836291
+              ],
+              [
+                41.16601564882541,
+                -8.654859778752627
+              ],
+              [
+                41.165967115294265,
+                -8.65504445352363
+              ],
+              [
+                41.165893458360955,
+                -8.655277707149303
+              ],
+              [
+                41.1657946780255,
+                -8.655559539629643
+              ],
+              [
+                41.165670774287875,
+                -8.65588995096465
+              ],
+              [
+                41.1655217471481,
+                -8.656268941154325
+              ],
+              [
+                41.16534759660617,
+                -8.656696510198667
+              ],
+              [
+                41.16519323931597,
+                -8.657071920573792
+              ],
+              [
+                41.16505867527752,
+                -8.657395172279694
+              ],
+              [
+                41.1649439044908,
+                -8.657666265316376
+              ],
+              [
+                41.16484892695583,
+                -8.65788519968384
+              ],
+              [
+                41.16477374267259,
+                -8.658051975382081
+              ],
+              [
+                41.16471835164109,
+                -8.658166592411105
+              ],
+              [
+                41.164682753861335,
+                -8.658229050770906
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.16543583727006,
+    -8.656027567562466
+  ],
+  "centroDeMassa": [
+    41.16537145376507,
+    -8.656355721308111
+  ]
+}

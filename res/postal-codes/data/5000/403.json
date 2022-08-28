@@ -1,1 +1,404 @@
-{"CP4":"5000","CP3":"403","Distrito":"Vila Real","Concelho":"Vila Real","CP":"5000-403","Artéria":"Rua João Batista Ribeiro","Localidade":"Vila Real","Local":"Bairro de Vilalva","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA REAL","locais":[{"id":"pt.ine.add.PTCONT.5292476","rua":"R JOÃO BATISTA RIBEIRO","casa":"5","coordenadas":[41.292617906675396,-7.72893976121372]},{"id":"pt.ine.add.PTCONT.5298717","rua":"R JOÃO BAPTISTA RIBEIRO","casa":"1","coordenadas":[41.292745846903806,-7.7294762073729375]},{"id":"pt.ine.add.PTCONT.5316597","rua":"R JOÃO BAPTISTA RIBEIRO","casa":"6","coordenadas":[41.29238464193835,-7.729179971115827]},{"id":"pt.ine.add.PTCONT.5325621","rua":"R JOÃO BATISTA RIBEIRO","casa":"7","coordenadas":[41.29249126442197,-7.728773403482842]},{"id":"pt.ine.add.PTCONT.5329483","rua":"R JOÃO BATISTA RIBEIRO","casa":"10","coordenadas":[41.2921492400066,-7.728811330750453]},{"id":"pt.ine.add.PTCONT.5342748","rua":"R JOÃO BATISTA RIBEIRO","casa":"12","coordenadas":[41.29206757538378,-7.728632758195119]},{"id":"pt.ine.add.PTCONT.5369591","rua":"R ENG JOAQUIM BOTELHO DE LUCENA","casa":"21","coordenadas":[41.291390936011304,-7.728254911085879]},{"id":"pt.ine.add.PTCONT.5374345","rua":"R JOÃO BAPTISTA RIBEIRO","casa":"4","coordenadas":[41.29260015023359,-7.729011502093685]},{"id":"pt.ine.add.PTCONT.5374906","rua":"R JOÃO BATISTA RIBEIRO","casa":"14","coordenadas":[41.29203130787618,-7.728561351547998]},{"id":"pt.ine.add.PTCONT.5379195","rua":"R ENG JOAQUIM BOTELHO DE LUCENA","casa":"21","coordenadas":[41.29187912141,-7.728812998457668]},{"id":"pt.ine.add.PTCONT.5381311","rua":"R JOÃO BATISTA RIBEIRO","casa":"8","coordenadas":[41.29225787430307,-7.728977798827459]},{"id":"pt.ine.add.PTCONT.5383445","rua":"R JOÃO BATISTA RIBEIRO","casa":"10","coordenadas":[41.29225552540156,-7.7283092581921435]},{"id":"pt.ine.add.PTCONT.5391306","rua":"R JOÃO BAPTISTA RIBEIRO","casa":"4","coordenadas":[41.29242136968789,-7.729382699314994]},{"id":"pt.ine.add.PTCONT.5409942","rua":"R JOÃO BATISTA RIBEIRO","casa":"9","coordenadas":[41.29238246202902,-7.728559182163156]},{"id":"pt.ine.add.PTCONT.5423786","rua":"R JOÃO BAPTISTA RIBEIRO","casa":"3","coordenadas":[41.29265492807162,-7.7292260580888925]}],"ruas":["R JOÃO BATISTA RIBEIRO","R JOÃO BAPTISTA RIBEIRO","R ENG JOAQUIM BOTELHO DE LUCENA"],"centroide":[41.29226251587732,-7.7288345095581334]}
+{
+  "CP": "5000-403",
+  "CP4": "5000",
+  "CP3": "403",
+  "Distrito": "Vila Real",
+  "Concelho": "Vila Real",
+  "Localidade": [
+    "Arroios",
+    "Vila Real"
+  ],
+  "Designação Postal": "VILA REAL",
+  "partes": [
+    {
+      "Artéria": "Rua João Baptista Ribeiro",
+      "Localidade": "Arroios",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua João Baptista Ribeiro",
+      "Localidade": "Vila Real",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua João Batista Ribeiro",
+      "Localidade": "Vila Real",
+      "Local": "Bairro de Vilalva",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5292476",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "5",
+      "coordenadas": [
+        41.292617906675396,
+        -7.72893976121372
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5298717",
+      "rua": "R JOÃO BAPTISTA RIBEIRO",
+      "casa": "1",
+      "coordenadas": [
+        41.292745846903806,
+        -7.7294762073729375
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5316597",
+      "rua": "R JOÃO BAPTISTA RIBEIRO",
+      "casa": "6",
+      "coordenadas": [
+        41.29238464193835,
+        -7.729179971115827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5325621",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "7",
+      "coordenadas": [
+        41.29249126442197,
+        -7.728773403482842
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5329483",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "10",
+      "coordenadas": [
+        41.2921492400066,
+        -7.728811330750453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5342748",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "12",
+      "coordenadas": [
+        41.29206757538378,
+        -7.728632758195119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5369591",
+      "rua": "R ENG JOAQUIM BOTELHO DE LUCENA",
+      "casa": "21",
+      "coordenadas": [
+        41.291390936011304,
+        -7.728254911085879
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5374345",
+      "rua": "R JOÃO BAPTISTA RIBEIRO",
+      "casa": "4",
+      "coordenadas": [
+        41.29260015023359,
+        -7.729011502093685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5374906",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "14",
+      "coordenadas": [
+        41.29203130787618,
+        -7.728561351547998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5379195",
+      "rua": "R ENG JOAQUIM BOTELHO DE LUCENA",
+      "casa": "21",
+      "coordenadas": [
+        41.29187912141,
+        -7.728812998457668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5381311",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "8",
+      "coordenadas": [
+        41.29225787430307,
+        -7.728977798827459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5383445",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "10",
+      "coordenadas": [
+        41.29225552540156,
+        -7.7283092581921435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5391306",
+      "rua": "R JOÃO BAPTISTA RIBEIRO",
+      "casa": "4",
+      "coordenadas": [
+        41.29242136968789,
+        -7.729382699314994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5409942",
+      "rua": "R JOÃO BATISTA RIBEIRO",
+      "casa": "9",
+      "coordenadas": [
+        41.29238246202902,
+        -7.728559182163156
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5423786",
+      "rua": "R JOÃO BAPTISTA RIBEIRO",
+      "casa": "3",
+      "coordenadas": [
+        41.29265492807162,
+        -7.7292260580888925
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOÃO BATISTA RIBEIRO",
+    "R JOÃO BAPTISTA RIBEIRO",
+    "R ENG JOAQUIM BOTELHO DE LUCENA"
+  ],
+  "centro": [
+    41.292068391457555,
+    -7.728865559229408
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.29166554029807,
+                -7.728568835232511
+              ],
+              [
+                41.29160451712323,
+                -7.728499074311037
+              ],
+              [
+                41.29156463105447,
+                -7.728438882678283
+              ],
+              [
+                41.29154588209179,
+                -7.728388260334248
+              ],
+              [
+                41.29154827023518,
+                -7.728347207278933
+              ],
+              [
+                41.29157179548466,
+                -7.728315723512338
+              ],
+              [
+                41.291616457840206,
+                -7.728293809034462
+              ],
+              [
+                41.29168225730183,
+                -7.728281463845306
+              ],
+              [
+                41.29176919386954,
+                -7.72827868794487
+              ],
+              [
+                41.29187726754332,
+                -7.728285481333153
+              ],
+              [
+                41.29197749421529,
+                -7.728301277157613
+              ],
+              [
+                41.292069873885424,
+                -7.728326075418249
+              ],
+              [
+                41.29215440655375,
+                -7.7283598761150625
+              ],
+              [
+                41.29223109222026,
+                -7.7284026792480525
+              ],
+              [
+                41.292299930884944,
+                -7.7284544848172185
+              ],
+              [
+                41.292360922547815,
+                -7.728515292822562
+              ],
+              [
+                41.29241406720886,
+                -7.728585103264082
+              ],
+              [
+                41.292459364868094,
+                -7.72866391614178
+              ],
+              [
+                41.292500999385986,
+                -7.728741259381003
+              ],
+              [
+                41.29253897076255,
+                -7.728817132981751
+              ],
+              [
+                41.29257327899778,
+                -7.728891536944025
+              ],
+              [
+                41.292603924091665,
+                -7.728964471267824
+              ],
+              [
+                41.29263090604422,
+                -7.729035935953149
+              ],
+              [
+                41.29265422485544,
+                -7.729105931
+              ],
+              [
+                41.29267388052532,
+                -7.729174456408377
+              ],
+              [
+                41.29268987305388,
+                -7.72924151217828
+              ],
+              [
+                41.29269879655986,
+                -7.729298724913539
+              ],
+              [
+                41.292700651043276,
+                -7.729346094614155
+              ],
+              [
+                41.292695436504125,
+                -7.729383621280128
+              ],
+              [
+                41.2926831529424,
+                -7.729411304911457
+              ],
+              [
+                41.29266380035811,
+                -7.729429145508143
+              ],
+              [
+                41.292637378751266,
+                -7.729437143070188
+              ],
+              [
+                41.29260388812184,
+                -7.729435297597587
+              ],
+              [
+                41.29256332846985,
+                -7.729423609090344
+              ],
+              [
+                41.292519366145015,
+                -7.729404480070611
+              ],
+              [
+                41.292472001147345,
+                -7.729377910538386
+              ],
+              [
+                41.29242123347682,
+                -7.729343900493673
+              ],
+              [
+                41.292367063133455,
+                -7.729302449936469
+              ],
+              [
+                41.29230949011725,
+                -7.729253558866775
+              ],
+              [
+                41.2922485144282,
+                -7.7291972272845895
+              ],
+              [
+                41.29218413606631,
+                -7.729133455189914
+              ],
+              [
+                41.29211635503157,
+                -7.729062242582748
+              ],
+              [
+                41.29204941872932,
+                -7.728991211436294
+              ],
+              [
+                41.29198332715956,
+                -7.728920361750551
+              ],
+              [
+                41.29191808032229,
+                -7.72884969352552
+              ],
+              [
+                41.2918536782175,
+                -7.7287792067612004
+              ],
+              [
+                41.2917901208452,
+                -7.728708901457592
+              ],
+              [
+                41.291727408205396,
+                -7.728638777614696
+              ],
+              [
+                41.29166554029807,
+                -7.728568835232511
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.292218451014996,
+    -7.728862639272891
+  ],
+  "centroDeMassa": [
+    41.292068391457555,
+    -7.728865559229408
+  ]
+}

@@ -1,1 +1,410 @@
-{"CP4":"7300","CP3":"134","Distrito":"Portalegre","Concelho":"Portalegre","CP":"7300-134","Artéria":"Rua Conselheiro Themudo de Oliveira","Localidade":"Portalegre","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PORTALEGRE","locais":[{"id":"pt.ine.add.PTCONT.3535835","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"12","coordenadas":[39.290856939141804,-7.428208515653521]},{"id":"pt.ine.add.PTCONT.3465501","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"10","coordenadas":[39.29088501924568,-7.428232363633882]},{"id":"pt.ine.add.PTCONT.3465502","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"10","coordenadas":[39.29088501924568,-7.428232363633882]},{"id":"pt.ine.add.PTCONT.3465503","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"10","coordenadas":[39.29088501924568,-7.428232363633882]},{"id":"pt.ine.add.PTCONT.3467908","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"27/29","coordenadas":[39.290632370290844,-7.428268110196729]},{"id":"pt.ine.add.PTCONT.3476610","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"1","coordenadas":[39.290976873751305,-7.428352046422654]},{"id":"pt.ine.add.PTCONT.3491321","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"9-7","coordenadas":[39.290894647128255,-7.428326566652118]},{"id":"pt.ine.add.PTCONT.3491322","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"9-7","coordenadas":[39.290894647128255,-7.428326566652118]},{"id":"pt.ine.add.PTCONT.3513889","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"23-25","coordenadas":[39.29070198571256,-7.428289674376869]},{"id":"pt.ine.add.PTCONT.3513890","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"23-25","coordenadas":[39.29070198571256,-7.428289674376869]},{"id":"pt.ine.add.PTCONT.3513895","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"23-25","coordenadas":[39.29070198571256,-7.428289674376869]},{"id":"pt.ine.add.PTCONT.3519774","rua":"R CONS THEMUDO OLIVEIRA","casa":"18","coordenadas":[39.29080616019082,-7.428191976382164]},{"id":"pt.ine.add.PTCONT.3520226","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"14","coordenadas":[39.29080616019082,-7.428191976382164]},{"id":"pt.ine.add.PTCONT.3525062","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"15-17","coordenadas":[39.290844838392864,-7.4283174881232625]},{"id":"pt.ine.add.PTCONT.3528833","rua":"R CONS THEMUDO OLIVEIRA","casa":"24","coordenadas":[39.29070568897259,-7.428118655011914]},{"id":"pt.ine.add.PTCONT.3528834","rua":"R CONS THEMUDO OLIVEIRA","casa":"26","coordenadas":[39.29070568897259,-7.428118655011914]},{"id":"pt.ine.add.PTCONT.3529367","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"19-21","coordenadas":[39.290786687935864,-7.428300046693643]},{"id":"pt.ine.add.PTCONT.3529368","rua":"R CONS THEMUDO DE OLIVEIRA","casa":"19-21","coordenadas":[39.290786687935864,-7.428300046693643]}],"ruas":["R CONS THEMUDO DE OLIVEIRA","R CONS THEMUDO OLIVEIRA"],"centroide":[39.290804218645334,-7.428252159836143]}
+{
+  "CP": "7300-134",
+  "CP4": "7300",
+  "CP3": "134",
+  "Distrito": "Portalegre",
+  "Concelho": "Portalegre",
+  "Localidade": "Portalegre",
+  "Designação Postal": "PORTALEGRE",
+  "partes": [
+    {
+      "Artéria": "Rua Conselheiro Themudo de Oliveira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3535835",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "12",
+      "coordenadas": [
+        39.290856939141804,
+        -7.428208515653521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3465501",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "10",
+      "coordenadas": [
+        39.29088501924568,
+        -7.428232363633882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3465502",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "10",
+      "coordenadas": [
+        39.29088501924568,
+        -7.428232363633882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3465503",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "10",
+      "coordenadas": [
+        39.29088501924568,
+        -7.428232363633882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3467908",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "27/29",
+      "coordenadas": [
+        39.290632370290844,
+        -7.428268110196729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3476610",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "1",
+      "coordenadas": [
+        39.290976873751305,
+        -7.428352046422654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491321",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "9-7",
+      "coordenadas": [
+        39.290894647128255,
+        -7.428326566652118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491322",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "9-7",
+      "coordenadas": [
+        39.290894647128255,
+        -7.428326566652118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513889",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "23-25",
+      "coordenadas": [
+        39.29070198571256,
+        -7.428289674376869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513890",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "23-25",
+      "coordenadas": [
+        39.29070198571256,
+        -7.428289674376869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513895",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "23-25",
+      "coordenadas": [
+        39.29070198571256,
+        -7.428289674376869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519774",
+      "rua": "R CONS THEMUDO OLIVEIRA",
+      "casa": "18",
+      "coordenadas": [
+        39.29080616019082,
+        -7.428191976382164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3520226",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "14",
+      "coordenadas": [
+        39.29080616019082,
+        -7.428191976382164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3525062",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "15-17",
+      "coordenadas": [
+        39.290844838392864,
+        -7.4283174881232625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3528833",
+      "rua": "R CONS THEMUDO OLIVEIRA",
+      "casa": "24",
+      "coordenadas": [
+        39.29070568897259,
+        -7.428118655011914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3528834",
+      "rua": "R CONS THEMUDO OLIVEIRA",
+      "casa": "26",
+      "coordenadas": [
+        39.29070568897259,
+        -7.428118655011914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3529367",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "19-21",
+      "coordenadas": [
+        39.290786687935864,
+        -7.428300046693643
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3529368",
+      "rua": "R CONS THEMUDO DE OLIVEIRA",
+      "casa": "19-21",
+      "coordenadas": [
+        39.290786687935864,
+        -7.428300046693643
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONS THEMUDO DE OLIVEIRA",
+    "R CONS THEMUDO OLIVEIRA"
+  ],
+  "centro": [
+    39.29080462202107,
+    -7.428235350717284
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.290671528965554,
+                -7.428280240048059
+              ],
+              [
+                39.29066282703784,
+                -7.428277544525541
+              ],
+              [
+                39.29065635845549,
+                -7.428272850706075
+              ],
+              [
+                39.29065212321852,
+                -7.428266158589661
+              ],
+              [
+                39.290650121326905,
+                -7.4282574681763
+              ],
+              [
+                39.29065035278066,
+                -7.42824677946599
+              ],
+              [
+                39.290652817579776,
+                -7.428234092458732
+              ],
+              [
+                39.29065751572426,
+                -7.4282194071545256
+              ],
+              [
+                39.290664447214105,
+                -7.428202723553372
+              ],
+              [
+                39.290673612049325,
+                -7.428184041655271
+              ],
+              [
+                39.290683994564034,
+                -7.428169099066956
+              ],
+              [
+                39.29069559475823,
+                -7.42815789578843
+              ],
+              [
+                39.29070841263193,
+                -7.428150431819692
+              ],
+              [
+                39.29072244818511,
+                -7.4281467071607405
+              ],
+              [
+                39.29073770141779,
+                -7.428146721811578
+              ],
+              [
+                39.290754172329954,
+                -7.428150475772203
+              ],
+              [
+                39.290771860921616,
+                -7.4281579690426165
+              ],
+              [
+                39.290790767192775,
+                -7.428169201622818
+              ],
+              [
+                39.290807748931655,
+                -7.428179402755187
+              ],
+              [
+                39.290822806138266,
+                -7.428188572439724
+              ],
+              [
+                39.290835938812606,
+                -7.428196710676429
+              ],
+              [
+                39.29084714695467,
+                -7.428203817465302
+              ],
+              [
+                39.29085643056446,
+                -7.4282098928063425
+              ],
+              [
+                39.29086378964199,
+                -7.428214936699552
+              ],
+              [
+                39.29086922418725,
+                -7.428218949144929
+              ],
+              [
+                39.290872734200235,
+                -7.428221930142475
+              ],
+              [
+                39.290877240688246,
+                -7.428226408558901
+              ],
+              [
+                39.29088274365128,
+                -7.428232384394208
+              ],
+              [
+                39.29088924308935,
+                -7.428239857648398
+              ],
+              [
+                39.29089673900244,
+                -7.428248828321468
+              ],
+              [
+                39.29090523139057,
+                -7.42825929641342
+              ],
+              [
+                39.29091472025371,
+                -7.428271261924254
+              ],
+              [
+                39.29092520559189,
+                -7.428284724853969
+              ],
+              [
+                39.29093668740509,
+                -7.428299685202566
+              ],
+              [
+                39.29094243886604,
+                -7.428311800944373
+              ],
+              [
+                39.29094245997473,
+                -7.428321072079389
+              ],
+              [
+                39.29093675073116,
+                -7.428327498607616
+              ],
+              [
+                39.290925311135354,
+                -7.428331080529053
+              ],
+              [
+                39.29090814118727,
+                -7.4283318178436994
+              ],
+              [
+                39.29088524088694,
+                -7.428329710551556
+              ],
+              [
+                39.29085661023435,
+                -7.428324758652622
+              ],
+              [
+                39.290822249229514,
+                -7.4283169621469005
+              ],
+              [
+                39.29079109560931,
+                -7.428309803264078
+              ],
+              [
+                39.290763149373745,
+                -7.428303282004156
+              ],
+              [
+                39.29073841052283,
+                -7.4282973983671345
+              ],
+              [
+                39.290716879056546,
+                -7.4282921523530145
+              ],
+              [
+                39.29069855497491,
+                -7.428287543961795
+              ],
+              [
+                39.29068343827791,
+                -7.428283573193476
+              ],
+              [
+                39.290671528965554,
+                -7.428280240048059
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.2907931461858,
+    -7.428244894215928
+  ],
+  "centroDeMassa": [
+    39.29080462202107,
+    -7.428235350717284
+  ]
+}

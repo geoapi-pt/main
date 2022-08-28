@@ -1,1 +1,463 @@
-{"CP4":"9700","CP3":"085","Distrito":"Ilha Terceira","Concelho":"Angra do Heroísmo","CP":"9700-085","Artéria":"Rua Francisco de Ornelas","Localidade":"Angra do Heroísmo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ANGRA DO HEROÍSMO","locais":[{"id":"pt.ine.add.AC26.35948","rua":"R FRANCISCO DE ORNELAS","casa":"2","coordenadas":[38.653823337654764,-27.21476309731031]},{"id":"pt.ine.add.AC26.35949","rua":"R FRANCISCO DE ORNELAS","casa":"4","coordenadas":[38.65389549558095,-27.214728834816686]},{"id":"pt.ine.add.AC26.35950","rua":"R FRANCISCO DE ORNELAS","casa":"6","coordenadas":[38.6540037008127,-27.214694679849515]},{"id":"pt.ine.add.AC26.35951","rua":"R FRANCISCO DE ORNELAS","casa":"8","coordenadas":[38.654084870545994,-27.214660444096626]},{"id":"pt.ine.add.AC26.36699","rua":"R FRANCISCO DE ORNELAS","casa":"3","coordenadas":[38.65392187655738,-27.21508518574984]},{"id":"pt.ine.add.AC26.36700","rua":"R FRANCISCO DE ORNELAS","casa":"1","coordenadas":[38.65378657231732,-27.215153736933622]},{"id":"pt.ine.add.AC26.36744","rua":"R FRANCISCO DE ORNELAS","casa":"33","coordenadas":[38.6552295203118,-27.21458341022119]},{"id":"pt.ine.add.AC26.36745","rua":"R FRANCISCO DE ORNELAS","casa":"33","coordenadas":[38.6552295203118,-27.21458341022119]},{"id":"pt.ine.add.AC26.36746","rua":"R FRANCISCO DE ORNELAS","casa":"29A","coordenadas":[38.65508530999191,-27.21459447282091]},{"id":"pt.ine.add.AC26.36747","rua":"R FRANCISCO DE ORNELAS","casa":"23","coordenadas":[38.65486896287554,-27.214628305748914]},{"id":"pt.ine.add.AC26.36748","rua":"R FRANCISCO DE ORNELAS","casa":"21","coordenadas":[38.654805816817046,-27.214662595698165]},{"id":"pt.ine.add.AC26.36749","rua":"R FRANCISCO DE ORNELAS","casa":"19","coordenadas":[38.65472471036601,-27.214662353639156]},{"id":"pt.ine.add.AC26.36750","rua":"R FRANCISCO DE ORNELAS","casa":"19","coordenadas":[38.65472471036601,-27.214662353639156]},{"id":"pt.ine.add.AC26.36751","rua":"R FRANCISCO DE ORNELAS","casa":"17","coordenadas":[38.654661627569986,-27.214662165371696]},{"id":"pt.ine.add.AC26.37451","rua":"R FRANCISCO DE ORNELAS","casa":"10","coordenadas":[38.65421120482737,-27.214568879547222]},{"id":"pt.ine.add.AC26.53447","rua":"R FRANCISCO DE ORNELAS","casa":"5","coordenadas":[38.65398500161903,-27.21506238918774]},{"id":"pt.ine.add.AC26.53583","rua":"R FRANCISCO DE ORNELAS","casa":"27A","coordenadas":[38.655022206115916,-27.21460577737445]},{"id":"pt.ine.add.AC26.60785","rua":"R FRANCISCO DE ORNELAS","casa":"9","coordenadas":[38.65414736240933,-27.214982425829806]},{"id":"pt.ine.add.AC26.60794","rua":"R FRANCISCO ORNELAS","casa":"14","coordenadas":[38.65457148819869,-27.214673389111027]},{"id":"pt.ine.add.AC26.60795","rua":"R FRANCISCO DE ORNELAS","casa":"16","coordenadas":[38.65457148819869,-27.214673389111027]},{"id":"pt.ine.add.AC26.65385","rua":"R FRANCISCO DE ORNELAS","casa":"11","coordenadas":[38.65425560994238,-27.214925285844398]},{"id":"pt.ine.add.AC26.68552","rua":"R FRANCISCO DE ORNELAS","casa":"25","coordenadas":[38.65495006932475,-27.214628547770793]},{"id":"pt.ine.add.AC26.70483","rua":"R FRANCISCO DE ORNELAS","casa":"31","coordenadas":[38.655157425693574,-27.214583195133674]},{"id":"pt.ine.add.AC26.70484","rua":"R FRANCISCO DE ORNELAS","casa":"31","coordenadas":[38.655157425693574,-27.214583195133674]},{"id":"pt.ine.add.AC26.72954","rua":"R FRANCISCO DE ORNELAS","casa":"35","coordenadas":[38.65530161492914,-27.214583625309462]},{"id":"pt.ine.add.AC26.75712","rua":"R FRANCISCO ORNELAS","casa":"20","coordenadas":[38.65455327468127,-27.214776769517588]},{"id":"pt.ine.add.AC26.75713","rua":"R FRANCISCO ORNELAS","casa":"18","coordenadas":[38.65455327468127,-27.214776769517588]},{"id":"pt.ine.add.AC26.83236","rua":"R FRANCISCO DE ORNELAS","casa":"13","coordenadas":[38.65431875608239,-27.214890996386167]},{"id":"pt.ine.add.AC26.85554","rua":"R FRANCISCO DE ORNELAS","casa":"7","coordenadas":[38.65409324919341,-27.21500524945069]},{"id":"pt.ine.add.AC26.86172","rua":"R FRANCISCO DE ORNELAS","casa":"35","coordenadas":[38.65530161492914,-27.214583625309462]},{"id":"pt.ine.add.AC26.87775","rua":"R FRANCISCO DE ORNELAS","casa":"21","coordenadas":[38.654805816817046,-27.214662595698165]}],"ruas":["R FRANCISCO DE ORNELAS","R FRANCISCO ORNELAS"],"centroide":[38.65456656995331,-27.21473428518839]}
+{
+  "CP": "9700-085",
+  "CP4": "9700",
+  "CP3": "085",
+  "Distrito": "Ilha Terceira",
+  "Concelho": "Angra do Heroísmo",
+  "Localidade": "Angra do Heroísmo",
+  "Designação Postal": "ANGRA DO HEROÍSMO",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco de Ornelas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.AC26.35948",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "2",
+      "coordenadas": [
+        38.653823337654764,
+        -27.21476309731031
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.35949",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "4",
+      "coordenadas": [
+        38.65389549558095,
+        -27.214728834816686
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.35950",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "6",
+      "coordenadas": [
+        38.6540037008127,
+        -27.214694679849515
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.35951",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "8",
+      "coordenadas": [
+        38.654084870545994,
+        -27.214660444096626
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36699",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "3",
+      "coordenadas": [
+        38.65392187655738,
+        -27.21508518574984
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36700",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "1",
+      "coordenadas": [
+        38.65378657231732,
+        -27.215153736933622
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36744",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "33",
+      "coordenadas": [
+        38.6552295203118,
+        -27.21458341022119
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36745",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "33",
+      "coordenadas": [
+        38.6552295203118,
+        -27.21458341022119
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36746",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "29A",
+      "coordenadas": [
+        38.65508530999191,
+        -27.21459447282091
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36747",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "23",
+      "coordenadas": [
+        38.65486896287554,
+        -27.214628305748914
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36748",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "21",
+      "coordenadas": [
+        38.654805816817046,
+        -27.214662595698165
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36749",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "19",
+      "coordenadas": [
+        38.65472471036601,
+        -27.214662353639156
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36750",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "19",
+      "coordenadas": [
+        38.65472471036601,
+        -27.214662353639156
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.36751",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "17",
+      "coordenadas": [
+        38.654661627569986,
+        -27.214662165371696
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.37451",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "10",
+      "coordenadas": [
+        38.65421120482737,
+        -27.214568879547222
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.53447",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "5",
+      "coordenadas": [
+        38.65398500161903,
+        -27.21506238918774
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.53583",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "27A",
+      "coordenadas": [
+        38.655022206115916,
+        -27.21460577737445
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.60785",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "9",
+      "coordenadas": [
+        38.65414736240933,
+        -27.214982425829806
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.60794",
+      "rua": "R FRANCISCO ORNELAS",
+      "casa": "14",
+      "coordenadas": [
+        38.65457148819869,
+        -27.214673389111027
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.60795",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "16",
+      "coordenadas": [
+        38.65457148819869,
+        -27.214673389111027
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.65385",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "11",
+      "coordenadas": [
+        38.65425560994238,
+        -27.214925285844398
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.68552",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "25",
+      "coordenadas": [
+        38.65495006932475,
+        -27.214628547770793
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.70483",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "31",
+      "coordenadas": [
+        38.655157425693574,
+        -27.214583195133674
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.70484",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "31",
+      "coordenadas": [
+        38.655157425693574,
+        -27.214583195133674
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.72954",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "35",
+      "coordenadas": [
+        38.65530161492914,
+        -27.214583625309462
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.75712",
+      "rua": "R FRANCISCO ORNELAS",
+      "casa": "20",
+      "coordenadas": [
+        38.65455327468127,
+        -27.214776769517588
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.75713",
+      "rua": "R FRANCISCO ORNELAS",
+      "casa": "18",
+      "coordenadas": [
+        38.65455327468127,
+        -27.214776769517588
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.83236",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "13",
+      "coordenadas": [
+        38.65431875608239,
+        -27.214890996386167
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.85554",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "7",
+      "coordenadas": [
+        38.65409324919341,
+        -27.21500524945069
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.86172",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "35",
+      "coordenadas": [
+        38.65530161492914,
+        -27.214583625309462
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.87775",
+      "rua": "R FRANCISCO DE ORNELAS",
+      "casa": "21",
+      "coordenadas": [
+        38.654805816817046,
+        -27.214662595698165
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO DE ORNELAS",
+    "R FRANCISCO ORNELAS"
+  ],
+  "centro": [
+    38.65454409362323,
+    -27.214861308240422
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.654638783786474,
+                -27.21483304914503
+              ],
+              [
+                38.654449403459985,
+                -27.214904313098053
+              ],
+              [
+                38.65428427013271,
+                -27.21496056531283
+              ],
+              [
+                38.65414338380466,
+                -27.215001805789367
+              ],
+              [
+                38.6540267444758,
+                -27.215028034527663
+              ],
+              [
+                38.65393435214615,
+                -27.215039251527713
+              ],
+              [
+                38.653866206815714,
+                -27.215035456789526
+              ],
+              [
+                38.65382230848447,
+                -27.215016650313096
+              ],
+              [
+                38.65380265715245,
+                -27.21498283209842
+              ],
+              [
+                38.65380725281964,
+                -27.214934002145508
+              ],
+              [
+                38.653817334452995,
+                -27.214888241284157
+              ],
+              [
+                38.65383290205252,
+                -27.214845549514372
+              ],
+              [
+                38.653853955618224,
+                -27.214805926836156
+              ],
+              [
+                38.6538804951501,
+                -27.214769373249517
+              ],
+              [
+                38.65391252064815,
+                -27.214735888754433
+              ],
+              [
+                38.65395003211238,
+                -27.21470547335091
+              ],
+              [
+                38.653993029542775,
+                -27.214678127038958
+              ],
+              [
+                38.65404151293936,
+                -27.214653849818575
+              ],
+              [
+                38.6541009735692,
+                -27.214632837653273
+              ],
+              [
+                38.654171411432316,
+                -27.21461509054305
+              ],
+              [
+                38.65425282652869,
+                -27.214600608487913
+              ],
+              [
+                38.65434521885834,
+                -27.214589391487866
+              ],
+              [
+                38.65444858842126,
+                -27.214581439542897
+              ],
+              [
+                38.65456293521744,
+                -27.214576752653002
+              ],
+              [
+                38.654688259246896,
+                -27.2145753308182
+              ],
+              [
+                38.65482456050961,
+                -27.21457717403848
+              ],
+              [
+                38.654920151573684,
+                -27.21458769485036
+              ],
+              [
+                38.654975032439104,
+                -27.214606893253823
+              ],
+              [
+                38.65498920310588,
+                -27.21463476924888
+              ],
+              [
+                38.654962663574004,
+                -27.21467132283552
+              ],
+              [
+                38.65489541384348,
+                -27.214716554013762
+              ],
+              [
+                38.6547874539143,
+                -27.214770462783605
+              ],
+              [
+                38.654638783786474,
+                -27.21483304914503
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.654280682432145,
+    -27.214767334775154
+  ],
+  "centroDeMassa": [
+    38.65454409362323,
+    -27.214861308240422
+  ]
+}

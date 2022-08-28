@@ -1,1 +1,587 @@
-{"CP4":"9880","CP3":"320","Distrito":"Ilha da Graciosa","Concelho":"Santa Cruz da Graciosa","CP":"9880-320","Artéria":"Avenida Mousinho de Albuquerque","Localidade":"Santa Cruz da Graciosa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTA CRUZ DA GRACIOSA","locais":[{"id":"pt.ine.add.AC26.3686","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"39","coordenadas":[39.084400405492154,-28.009900430243736]},{"id":"pt.ine.add.AC26.4490","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"33","coordenadas":[39.08454175892637,-28.009185611649876]},{"id":"pt.ine.add.AC26.4491","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"13","coordenadas":[39.08498221503474,-28.00722636240511]},{"id":"pt.ine.add.AC26.4492","rua":"AV MOUSINHO ALBUQUERQUE","casa":"3","coordenadas":[39.0850737113951,-28.007065796664364]},{"id":"pt.ine.add.AC26.5319","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"10","coordenadas":[39.08481883958801,-28.007362781494095]},{"id":"pt.ine.add.AC26.6141","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"12 A","coordenadas":[39.08471923203538,-28.007419174017194]},{"id":"pt.ine.add.AC26.7037","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"32","coordenadas":[39.084324122142114,-28.009344375671162]},{"id":"pt.ine.add.AC26.46939","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"16","coordenadas":[39.084635646019315,-28.00770703150869]},{"id":"pt.ine.add.AC26.48624","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"14","coordenadas":[39.08467308405234,-28.007545698090137]},{"id":"pt.ine.add.AC26.51549","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"41","coordenadas":[39.08437237463375,-28.010015648680184]},{"id":"pt.ine.add.AC26.53170","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"8","coordenadas":[39.08483765827135,-28.007270554029986]},{"id":"pt.ine.add.AC26.57770","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"21","coordenadas":[39.08508833536791,-28.007459110390762]},{"id":"pt.ine.add.AC26.57773","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"24","coordenadas":[39.0842991940488,-28.00910122250879]},{"id":"pt.ine.add.AC26.61637","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"27","coordenadas":[39.08466969742589,-28.008979321206116]},{"id":"pt.ine.add.AC26.70713","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"52","coordenadas":[39.084062835464486,-28.01038121067305]},{"id":"pt.ine.add.AC26.73326","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"16 B","coordenadas":[39.084443041814474,-28.008097393108603]},{"id":"pt.ine.add.AC26.73327","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"16 B","coordenadas":[39.084443041814474,-28.008097393108603]},{"id":"pt.ine.add.AC26.73328","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"16 B","coordenadas":[39.084443041814474,-28.008097393108603]},{"id":"pt.ine.add.AC26.78059","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"22","coordenadas":[39.08437367362011,-28.008824800147003]},{"id":"pt.ine.add.AC26.79968","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[39.085008961538016,-28.008302001466387]},{"id":"pt.ine.add.AC26.80519","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"37","coordenadas":[39.08450201652853,-28.00961283329589]},{"id":"pt.ine.add.AC26.80806","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"25","coordenadas":[39.08495148959885,-28.007653716154465]},{"id":"pt.ine.add.AC26.81956","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"43","coordenadas":[39.08431641274527,-28.01023452489546]},{"id":"pt.ine.add.AC26.82327","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"45","coordenadas":[39.084288581912574,-28.010326622311783]},{"id":"pt.ine.add.AC26.83289","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"47","coordenadas":[39.084394195030676,-28.010617174450754]},{"id":"pt.ine.add.AC26.87496","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"49","coordenadas":[39.08418576661188,-28.01075294159095]},{"id":"pt.ine.add.AC26.87931","rua":"AV MOUSINHO DE ALBUQUERQUE","casa":"25","coordenadas":[39.08497060821563,-28.00752680711967]}],"ruas":["AV MOUSINHO DE ALBUQUERQUE","AV MOUSINHO ALBUQUERQUE"],"centroide":[39.084571128189495,-28.008714658571993]}
+{
+  "CP": "9880-320",
+  "CP4": "9880",
+  "CP3": "320",
+  "Distrito": "Ilha da Graciosa",
+  "Concelho": "Santa Cruz da Graciosa",
+  "Localidade": "Santa Cruz da Graciosa",
+  "Designação Postal": "SANTA CRUZ DA GRACIOSA",
+  "partes": [
+    {
+      "Artéria": "Avenida Mousinho de Albuquerque",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.AC26.3686",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "39",
+      "coordenadas": [
+        39.084400405492154,
+        -28.009900430243736
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.4490",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "33",
+      "coordenadas": [
+        39.08454175892637,
+        -28.009185611649876
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.4491",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "13",
+      "coordenadas": [
+        39.08498221503474,
+        -28.00722636240511
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.4492",
+      "rua": "AV MOUSINHO ALBUQUERQUE",
+      "casa": "3",
+      "coordenadas": [
+        39.0850737113951,
+        -28.007065796664364
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.5319",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "10",
+      "coordenadas": [
+        39.08481883958801,
+        -28.007362781494095
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.6141",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "12 A",
+      "coordenadas": [
+        39.08471923203538,
+        -28.007419174017194
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.7037",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "32",
+      "coordenadas": [
+        39.084324122142114,
+        -28.009344375671162
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.46939",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "16",
+      "coordenadas": [
+        39.084635646019315,
+        -28.00770703150869
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.48624",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "14",
+      "coordenadas": [
+        39.08467308405234,
+        -28.007545698090137
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.51549",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "41",
+      "coordenadas": [
+        39.08437237463375,
+        -28.010015648680184
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.53170",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "8",
+      "coordenadas": [
+        39.08483765827135,
+        -28.007270554029986
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.57770",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "21",
+      "coordenadas": [
+        39.08508833536791,
+        -28.007459110390762
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.57773",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "24",
+      "coordenadas": [
+        39.0842991940488,
+        -28.00910122250879
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.61637",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "27",
+      "coordenadas": [
+        39.08466969742589,
+        -28.008979321206116
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.70713",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "52",
+      "coordenadas": [
+        39.084062835464486,
+        -28.01038121067305
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.73326",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "16 B",
+      "coordenadas": [
+        39.084443041814474,
+        -28.008097393108603
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.73327",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "16 B",
+      "coordenadas": [
+        39.084443041814474,
+        -28.008097393108603
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.73328",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "16 B",
+      "coordenadas": [
+        39.084443041814474,
+        -28.008097393108603
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.78059",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "22",
+      "coordenadas": [
+        39.08437367362011,
+        -28.008824800147003
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.79968",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        39.085008961538016,
+        -28.008302001466387
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.80519",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "37",
+      "coordenadas": [
+        39.08450201652853,
+        -28.00961283329589
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.80806",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "25",
+      "coordenadas": [
+        39.08495148959885,
+        -28.007653716154465
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.81956",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "43",
+      "coordenadas": [
+        39.08431641274527,
+        -28.01023452489546
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.82327",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "45",
+      "coordenadas": [
+        39.084288581912574,
+        -28.010326622311783
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.83289",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "47",
+      "coordenadas": [
+        39.084394195030676,
+        -28.010617174450754
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.87496",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "49",
+      "coordenadas": [
+        39.08418576661188,
+        -28.01075294159095
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.87931",
+      "rua": "AV MOUSINHO DE ALBUQUERQUE",
+      "casa": "25",
+      "coordenadas": [
+        39.08497060821563,
+        -28.00752680711967
+      ]
+    }
+  ],
+  "ruas": [
+    "AV MOUSINHO DE ALBUQUERQUE",
+    "AV MOUSINHO ALBUQUERQUE"
+  ],
+  "centro": [
+    39.0845755854162,
+    -28.008909369127657
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.0841319842349,
+                -28.010590309314367
+              ],
+              [
+                39.084116617841474,
+                -28.01054384294963
+              ],
+              [
+                39.08410911297145,
+                -28.010467500231044
+              ],
+              [
+                39.084109469624806,
+                -28.010361281158602
+              ],
+              [
+                39.08411768780157,
+                -28.010225185732306
+              ],
+              [
+                39.08413376750173,
+                -28.01005921395216
+              ],
+              [
+                39.08415770872529,
+                -28.009863365818163
+              ],
+              [
+                39.084189511472246,
+                -28.00963764133031
+              ],
+              [
+                39.0842291757426,
+                -28.009382040488607
+              ],
+              [
+                39.08427670153636,
+                -28.00909656329305
+              ],
+              [
+                39.08432260207809,
+                -28.008836173573634
+              ],
+              [
+                39.084366877367806,
+                -28.008600871330362
+              ],
+              [
+                39.0844095274055,
+                -28.00839065656323
+              ],
+              [
+                39.084450552191186,
+                -28.00820552927224
+              ],
+              [
+                39.08448995172485,
+                -28.00804548945739
+              ],
+              [
+                39.08452772600649,
+                -28.007910537118683
+              ],
+              [
+                39.084563875036125,
+                -28.007800672256113
+              ],
+              [
+                39.08459839881373,
+                -28.007715894869687
+              ],
+              [
+                39.08463045752908,
+                -28.007639392469265
+              ],
+              [
+                39.08466005118217,
+                -28.00757116505484
+              ],
+              [
+                39.084687179772985,
+                -28.007511212626426
+              ],
+              [
+                39.08471184330154,
+                -28.00745953518401
+              ],
+              [
+                39.08473404176783,
+                -28.0074161327276
+              ],
+              [
+                39.08475377517185,
+                -28.007381005257194
+              ],
+              [
+                39.08477104351361,
+                -28.00735415277279
+              ],
+              [
+                39.08478584679311,
+                -28.00733557527439
+              ],
+              [
+                39.08480248799273,
+                -28.00731612062945
+              ],
+              [
+                39.084820967112464,
+                -28.00729578883798
+              ],
+              [
+                39.08484128415233,
+                -28.007274579899963
+              ],
+              [
+                39.08486343911231,
+                -28.007252493815407
+              ],
+              [
+                39.08488743199242,
+                -28.00722953058432
+              ],
+              [
+                39.08491326279264,
+                -28.007205690206693
+              ],
+              [
+                39.08494093151299,
+                -28.007180972682526
+              ],
+              [
+                39.084970438153455,
+                -28.007155378011824
+              ],
+              [
+                39.08499648496344,
+                -28.007139128201935
+              ],
+              [
+                39.085019071942945,
+                -28.007132223252857
+              ],
+              [
+                39.08503819909196,
+                -28.007134663164592
+              ],
+              [
+                39.0850538664105,
+                -28.00714644793714
+              ],
+              [
+                39.08506607389855,
+                -28.007167577570502
+              ],
+              [
+                39.08507482155612,
+                -28.007198052064677
+              ],
+              [
+                39.085080109383206,
+                -28.00723787141966
+              ],
+              [
+                39.085081937379805,
+                -28.00728703563546
+              ],
+              [
+                39.08508229666074,
+                -28.00734322449734
+              ],
+              [
+                39.085081187226,
+                -28.00740643800531
+              ],
+              [
+                39.0850786090756,
+                -28.007476676159357
+              ],
+              [
+                39.085074562209535,
+                -28.007553938959482
+              ],
+              [
+                39.0850690466278,
+                -28.00763822640569
+              ],
+              [
+                39.0850620623304,
+                -28.00772953849798
+              ],
+              [
+                39.08505360931733,
+                -28.007827875236348
+              ],
+              [
+                39.085043687588595,
+                -28.0079332366208
+              ],
+              [
+                39.08502540034927,
+                -28.008061602410077
+              ],
+              [
+                39.08499874759936,
+                -28.008212972604177
+              ],
+              [
+                39.08496372933887,
+                -28.008387347203104
+              ],
+              [
+                39.084920345567795,
+                -28.008584726206852
+              ],
+              [
+                39.084868596286135,
+                -28.008805109615427
+              ],
+              [
+                39.08480848149389,
+                -28.009048497428825
+              ],
+              [
+                39.08474000119105,
+                -28.009314889647047
+              ],
+              [
+                39.08466315537764,
+                -28.009604286270093
+              ],
+              [
+                39.084592658596854,
+                -28.009859629676825
+              ],
+              [
+                39.084528510848706,
+                -28.010080919867242
+              ],
+              [
+                39.08447071213319,
+                -28.01026815684134
+              ],
+              [
+                39.084419262450304,
+                -28.010421340599123
+              ],
+              [
+                39.084374161800056,
+                -28.010540471140594
+              ],
+              [
+                39.08433541018243,
+                -28.01062554846575
+              ],
+              [
+                39.084303007597455,
+                -28.01067657257459
+              ],
+              [
+                39.08427695404511,
+                -28.010693543467113
+              ],
+              [
+                39.08425223638763,
+                -28.010702584702482
+              ],
+              [
+                39.08422885462501,
+                -28.010703696280693
+              ],
+              [
+                39.08420680875725,
+                -28.010696878201742
+              ],
+              [
+                39.084186098784365,
+                -28.010682130465636
+              ],
+              [
+                39.08416672470635,
+                -28.01065945307237
+              ],
+              [
+                39.08414868652319,
+                -28.010628846021945
+              ],
+              [
+                39.0841319842349,
+                -28.010590309314367
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.08464597083658,
+    -28.008596150710225
+  ],
+  "centroDeMassa": [
+    39.0845755854162,
+    -28.008909369127657
+  ]
+}

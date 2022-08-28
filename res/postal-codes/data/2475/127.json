@@ -1,1 +1,489 @@
-{"CP4":"2475","CP3":"127","Distrito":"Leiria","Concelho":"Alcobaça","CP":"2475-127","Artéria":"Rua Nova do Solão","Localidade":"Benedita","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BENEDITA","locais":[{"id":"pt.ine.add.PTCONT.1984122","rua":"BR TOMAS","casa":"7","coordenadas":[39.42726419812016,-8.974199704145146]},{"id":"pt.ine.add.PTCONT.1999013","rua":"R NOVA DO SOLAO","casa":"13","coordenadas":[39.42694958459429,-8.971617680209068]},{"id":"pt.ine.add.PTCONT.2010542","rua":"R NOVA DO SOLAO","casa":"15","coordenadas":[39.42692390547949,-8.971431553280215]},{"id":"pt.ine.add.PTCONT.2019981","rua":"R SOLAO","casa":"14","coordenadas":[39.42715981830799,-8.973687444913606]},{"id":"pt.ine.add.PTCONT.2045555","rua":"BR TOMAS","casa":"4A","coordenadas":[39.42733842992381,-8.97389863870806]},{"id":"pt.ine.add.PTCONT.2048972","rua":"BR TOMAS","casa":"2A","coordenadas":[39.427303664439236,-8.973724014508308]},{"id":"pt.ine.add.PTCONT.2049769","rua":"R PINHEIRA","casa":"7","coordenadas":[39.42915332112763,-8.972027358374401]},{"id":"pt.ine.add.PTCONT.2063359","rua":"R SOLAO","casa":"10","coordenadas":[39.427430253619484,-8.973655852875504]},{"id":"pt.ine.add.PTCONT.2073774","rua":"BR TOMAS","casa":"9","coordenadas":[39.427245430098054,-8.974304002250971]},{"id":"pt.ine.add.PTCONT.2078173","rua":"BR TOMAS","casa":"8","coordenadas":[39.42735518290912,-8.974073046559097]},{"id":"pt.ine.add.PTCONT.2094940","rua":"R NOVA DO SOLAO","casa":"9","coordenadas":[39.42701744647994,-8.972199179186743]},{"id":"pt.ine.add.PTCONT.2097946","rua":"R SOLAO","casa":"18","coordenadas":[39.42667340395833,-8.973693214370693]},{"id":"pt.ine.add.PTCONT.2113637","rua":"R BAIRRO TOMAS","casa":"12","coordenadas":[39.427434894474246,-8.974259825231062]},{"id":"pt.ine.add.PTCONT.2117914","rua":"BR TOMAS","casa":"1C","coordenadas":[39.42738136161554,-8.97418949896023]},{"id":"pt.ine.add.PTCONT.2139173","rua":"R SOLAO","casa":"21","coordenadas":[39.426613465346904,-8.973262789366311]},{"id":"pt.ine.add.PTCONT.2139174","rua":"R SOLAO","casa":"17","coordenadas":[39.42701806969746,-8.973360557880767]},{"id":"pt.ine.add.PTCONT.2150564","rua":"R BAIRRO TOMAS","casa":"5","coordenadas":[39.42724685761759,-8.974106585676282]},{"id":"pt.ine.add.PTCONT.2185535","rua":"R SOLAO","casa":"12","coordenadas":[39.42728632355524,-8.973630896097854]},{"id":"pt.ine.add.PTCONT.2187718","rua":"R CARRICO","casa":"8","coordenadas":[39.429132493656,-8.973664691525565]},{"id":"pt.ine.add.PTCONT.2199141","rua":"R SOLAO","casa":"8","coordenadas":[39.42760069848681,-8.973750811189243]},{"id":"pt.ine.add.PTCONT.2201347","rua":"R BAIRRO TOMAS","casa":"6","coordenadas":[39.42733767440528,-8.974003153509367]},{"id":"pt.ine.add.PTCONT.2201355","rua":"R LUIS JORGE","casa":"","coordenadas":[39.42648758409554,-8.975723365803002]},{"id":"pt.ine.add.PTCONT.2208084","rua":"R SOLAO","casa":"4","coordenadas":[39.427531837924114,-8.973308659467262]},{"id":"pt.ine.add.PTCONT.2210267","rua":"R NOVA DO SOLAO","casa":"","coordenadas":[39.426957123667584,-8.973069483358294]},{"id":"pt.ine.add.PTCONT.2214804","rua":"R SOLAO","casa":"4","coordenadas":[39.427913814043116,-8.974044920151668]},{"id":"pt.ine.add.PTCONT.2225525","rua":"R SOLAO","casa":"16","coordenadas":[39.42697035412556,-8.973731623327163]},{"id":"pt.ine.add.PTCONT.2254960","rua":"R PINHEIRA","casa":"9","coordenadas":[39.429270986956936,-8.971947470834282]},{"id":"pt.ine.add.PTCONT.2265540","rua":"R NOVA DO SOLAO","casa":"11","coordenadas":[39.426975179677584,-8.971815419971287]},{"id":"pt.ine.add.PTCONT.2266443","rua":"R BAIRRO TOMAS","casa":"5A","coordenadas":[39.427229433086765,-8.9740250799898]}],"ruas":["BR TOMAS","R NOVA DO SOLAO","R SOLAO","R PINHEIRA","R BAIRRO TOMAS","R CARRICO","R LUIS JORGE"],"centroide":[39.42739190565725,-8.973442194347552]}
+{
+  "CP": "2475-127",
+  "CP4": "2475",
+  "CP3": "127",
+  "Distrito": "Leiria",
+  "Concelho": "Alcobaça",
+  "Localidade": "Benedita",
+  "Designação Postal": "BENEDITA",
+  "partes": [
+    {
+      "Artéria": "Rua do Solão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Nova do Solão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1984122",
+      "rua": "BR TOMAS",
+      "casa": "7",
+      "coordenadas": [
+        39.42726419812016,
+        -8.974199704145146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1999013",
+      "rua": "R NOVA DO SOLAO",
+      "casa": "13",
+      "coordenadas": [
+        39.42694958459429,
+        -8.971617680209068
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2010542",
+      "rua": "R NOVA DO SOLAO",
+      "casa": "15",
+      "coordenadas": [
+        39.42692390547949,
+        -8.971431553280215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2019981",
+      "rua": "R SOLAO",
+      "casa": "14",
+      "coordenadas": [
+        39.42715981830799,
+        -8.973687444913606
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2045555",
+      "rua": "BR TOMAS",
+      "casa": "4A",
+      "coordenadas": [
+        39.42733842992381,
+        -8.97389863870806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2048972",
+      "rua": "BR TOMAS",
+      "casa": "2A",
+      "coordenadas": [
+        39.427303664439236,
+        -8.973724014508308
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2049769",
+      "rua": "R PINHEIRA",
+      "casa": "7",
+      "coordenadas": [
+        39.42915332112763,
+        -8.972027358374401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2063359",
+      "rua": "R SOLAO",
+      "casa": "10",
+      "coordenadas": [
+        39.427430253619484,
+        -8.973655852875504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2073774",
+      "rua": "BR TOMAS",
+      "casa": "9",
+      "coordenadas": [
+        39.427245430098054,
+        -8.974304002250971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2078173",
+      "rua": "BR TOMAS",
+      "casa": "8",
+      "coordenadas": [
+        39.42735518290912,
+        -8.974073046559097
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2094940",
+      "rua": "R NOVA DO SOLAO",
+      "casa": "9",
+      "coordenadas": [
+        39.42701744647994,
+        -8.972199179186743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2097946",
+      "rua": "R SOLAO",
+      "casa": "18",
+      "coordenadas": [
+        39.42667340395833,
+        -8.973693214370693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2113637",
+      "rua": "R BAIRRO TOMAS",
+      "casa": "12",
+      "coordenadas": [
+        39.427434894474246,
+        -8.974259825231062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2117914",
+      "rua": "BR TOMAS",
+      "casa": "1C",
+      "coordenadas": [
+        39.42738136161554,
+        -8.97418949896023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2139173",
+      "rua": "R SOLAO",
+      "casa": "21",
+      "coordenadas": [
+        39.426613465346904,
+        -8.973262789366311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2139174",
+      "rua": "R SOLAO",
+      "casa": "17",
+      "coordenadas": [
+        39.42701806969746,
+        -8.973360557880767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2150564",
+      "rua": "R BAIRRO TOMAS",
+      "casa": "5",
+      "coordenadas": [
+        39.42724685761759,
+        -8.974106585676282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2185535",
+      "rua": "R SOLAO",
+      "casa": "12",
+      "coordenadas": [
+        39.42728632355524,
+        -8.973630896097854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2187718",
+      "rua": "R CARRICO",
+      "casa": "8",
+      "coordenadas": [
+        39.429132493656,
+        -8.973664691525565
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2199141",
+      "rua": "R SOLAO",
+      "casa": "8",
+      "coordenadas": [
+        39.42760069848681,
+        -8.973750811189243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2201347",
+      "rua": "R BAIRRO TOMAS",
+      "casa": "6",
+      "coordenadas": [
+        39.42733767440528,
+        -8.974003153509367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2201355",
+      "rua": "R LUIS JORGE",
+      "casa": "",
+      "coordenadas": [
+        39.42648758409554,
+        -8.975723365803002
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2208084",
+      "rua": "R SOLAO",
+      "casa": "4",
+      "coordenadas": [
+        39.427531837924114,
+        -8.973308659467262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2210267",
+      "rua": "R NOVA DO SOLAO",
+      "casa": "",
+      "coordenadas": [
+        39.426957123667584,
+        -8.973069483358294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2214804",
+      "rua": "R SOLAO",
+      "casa": "4",
+      "coordenadas": [
+        39.427913814043116,
+        -8.974044920151668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2225525",
+      "rua": "R SOLAO",
+      "casa": "16",
+      "coordenadas": [
+        39.42697035412556,
+        -8.973731623327163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2254960",
+      "rua": "R PINHEIRA",
+      "casa": "9",
+      "coordenadas": [
+        39.429270986956936,
+        -8.971947470834282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2265540",
+      "rua": "R NOVA DO SOLAO",
+      "casa": "11",
+      "coordenadas": [
+        39.426975179677584,
+        -8.971815419971287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2266443",
+      "rua": "R BAIRRO TOMAS",
+      "casa": "5A",
+      "coordenadas": [
+        39.427229433086765,
+        -8.9740250799898
+      ]
+    }
+  ],
+  "ruas": [
+    "BR TOMAS",
+    "R NOVA DO SOLAO",
+    "R SOLAO",
+    "R PINHEIRA",
+    "R BAIRRO TOMAS",
+    "R CARRICO",
+    "R LUIS JORGE"
+  ],
+  "centro": [
+    39.42787928552624,
+    -8.973577459541609
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.4279753457233,
+                -8.974565361521945
+              ],
+              [
+                39.42764473202824,
+                -8.974822695806624
+              ],
+              [
+                39.42735741193961,
+                -8.975009416798896
+              ],
+              [
+                39.42711338545743,
+                -8.97512552449876
+              ],
+              [
+                39.42691265258168,
+                -8.975171018906213
+              ],
+              [
+                39.42675521331236,
+                -8.97514590002126
+              ],
+              [
+                39.42664106764948,
+                -8.975050167843898
+              ],
+              [
+                39.42657021559303,
+                -8.974883822374128
+              ],
+              [
+                39.42654265714301,
+                -8.974646863611952
+              ],
+              [
+                39.426558392299434,
+                -8.974339291557364
+              ],
+              [
+                39.42657701118837,
+                -8.974041552945756
+              ],
+              [
+                39.42659851380983,
+                -8.973753647777125
+              ],
+              [
+                39.42662290016381,
+                -8.973475576051474
+              ],
+              [
+                39.426650170250305,
+                -8.973207337768798
+              ],
+              [
+                39.42668032406932,
+                -8.972948932929103
+              ],
+              [
+                39.426713361620855,
+                -8.972700361532384
+              ],
+              [
+                39.42674928290491,
+                -8.972461623578644
+              ],
+              [
+                39.42678808792148,
+                -8.972232719067883
+              ],
+              [
+                39.42685871545906,
+                -8.972040488832748
+              ],
+              [
+                39.42696116551767,
+                -8.971884932873241
+              ],
+              [
+                39.42709543809728,
+                -8.971766051189363
+              ],
+              [
+                39.42726153319791,
+                -8.97168384378111
+              ],
+              [
+                39.427459450819555,
+                -8.971638310648485
+              ],
+              [
+                39.42768919096221,
+                -8.97162945179149
+              ],
+              [
+                39.42795075362588,
+                -8.97165726721012
+              ],
+              [
+                39.428244138810555,
+                -8.97172175690438
+              ],
+              [
+                39.42849868688932,
+                -8.971805016960158
+              ],
+              [
+                39.42871439786218,
+                -8.971907047377453
+              ],
+              [
+                39.42889127172912,
+                -8.972027848156268
+              ],
+              [
+                39.42902930849016,
+                -8.972167419296602
+              ],
+              [
+                39.429128508145276,
+                -8.972325760798455
+              ],
+              [
+                39.42918887069448,
+                -8.972502872661828
+              ],
+              [
+                39.429210396137776,
+                -8.972698754886718
+              ],
+              [
+                39.42919308447516,
+                -8.97291340747313
+              ],
+              [
+                39.429136610058485,
+                -8.973133395271823
+              ],
+              [
+                39.42904097288776,
+                -8.9733587182828
+              ],
+              [
+                39.42890617296298,
+                -8.973589376506062
+              ],
+              [
+                39.42873221028414,
+                -8.973825369941608
+              ],
+              [
+                39.428519084851246,
+                -8.974066698589436
+              ],
+              [
+                39.4282667966643,
+                -8.97431336244955
+              ],
+              [
+                39.4279753457233,
+                -8.974565361521945
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.42768568710697,
+    -8.973205974161875
+  ],
+  "centroDeMassa": [
+    39.42787928552624,
+    -8.973577459541609
+  ]
+}

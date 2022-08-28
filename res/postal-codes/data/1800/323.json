@@ -1,1 +1,447 @@
-{"CP4":"1800","CP3":"323","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1800-323","Artéria":"Rua Quinta do Morgado","Localidade":"Lisboa","Local":"","Troço":"Pares de 2 a 36","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2588049","rua":"R QUINTA DO MORGADO","casa":"32","coordenadas":[38.77178497934587,-9.116389823630515]},{"id":"pt.ine.add.PTCONT.2646752","rua":"R QUINTA DO MORGADO","casa":"50","coordenadas":[38.77149423900636,-9.115614894090076]},{"id":"pt.ine.add.PTCONT.2659491","rua":"R QUINTA DO MORGADO","casa":"28","coordenadas":[38.771696750656105,-9.116169987517152]},{"id":"pt.ine.add.PTCONT.2704599","rua":"R QUINTA DO MORGADO","casa":"24","coordenadas":[38.771554480879544,-9.115949410329998]},{"id":"pt.ine.add.PTCONT.2755497","rua":"R QUINTA DO MORGADO","casa":"53","coordenadas":[38.77188647532366,-9.117173665771672]},{"id":"pt.ine.add.PTCONT.2795233","rua":"R QUINTA MORGADO","casa":"2","coordenadas":[38.77119728903696,-9.114506197537436]},{"id":"pt.ine.add.PTCONT.2800012","rua":"R QUINTA MORGADO","casa":"53","coordenadas":[38.771257244160246,-9.11487522704011]},{"id":"pt.ine.add.PTCONT.2800013","rua":"R QUINTA MORGADO","casa":"53","coordenadas":[38.771257244160246,-9.11487522704011]},{"id":"pt.ine.add.PTCONT.2811556","rua":"R QUINTA DO MORGADO","casa":"26","coordenadas":[38.7716703109996,-9.116100585216886]},{"id":"pt.ine.add.PTCONT.2854042","rua":"R QUINTA MORGADO","casa":"51","coordenadas":[38.771397098755926,-9.115383431075566]},{"id":"pt.ine.add.PTCONT.2854043","rua":"R QUINTA MORGADO","casa":"51","coordenadas":[38.771397098755926,-9.115383431075566]},{"id":"pt.ine.add.PTCONT.2854044","rua":"R QUINTA MORGADO","casa":"51","coordenadas":[38.771397098755926,-9.115383431075566]},{"id":"pt.ine.add.PTCONT.2854045","rua":"R QUINTA MORGADO","casa":"51","coordenadas":[38.771397098755926,-9.115383431075566]},{"id":"pt.ine.add.PTCONT.2859993","rua":"R QUINTA MORGADO","casa":"51","coordenadas":[38.771397098755926,-9.115383431075566]},{"id":"pt.ine.add.PTCONT.2945371","rua":"R QUINTA DO MORGADO","casa":"52","coordenadas":[38.77132697837733,-9.115152339182059]},{"id":"pt.ine.add.PTCONT.3177857","rua":"R QUINTA DO MORGADO","casa":"22","coordenadas":[38.771608811821075,-9.115915636260716]},{"id":"pt.ine.add.PTCONT.3207502","rua":"R QUINTA DO MORGADO","casa":"36","coordenadas":[38.771927635560814,-9.116564381294502]},{"id":"pt.ine.add.PTCONT.3316858","rua":"R QUINTA DO MORGADO","casa":"30","coordenadas":[38.77174962984311,-9.116308792269415]},{"id":"pt.ine.add.PTCONT.3417254","rua":"R QUINTA DO MORGADO","casa":"34","coordenadas":[38.77187407900254,-9.116506112880671]},{"id":"pt.ine.add.PTCONT.3436067","rua":"R QUINTA MORGADO","casa":"51","coordenadas":[38.771397098755926,-9.115383431075566]},{"id":"pt.ine.add.PTCONT.3437449","rua":"R QUINTA MORGADO","casa":"2","coordenadas":[38.77119728903696,-9.114506197537436]}],"ruas":["R QUINTA DO MORGADO","R QUINTA MORGADO"],"centroide":[38.77153343703545,-9.115720143325737]}
+{
+  "CP": "1800-323",
+  "CP4": "1800",
+  "CP3": "323",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "LT 52 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "LT 52 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "LT 52",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "LT 53 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "LT 53 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "LT 53",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta do Morgado",
+      "Local": "",
+      "Troço": "Pares de 2 a 36",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2588049",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "32",
+      "coordenadas": [
+        38.77178497934587,
+        -9.116389823630515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2646752",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "50",
+      "coordenadas": [
+        38.77149423900636,
+        -9.115614894090076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2659491",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "28",
+      "coordenadas": [
+        38.771696750656105,
+        -9.116169987517152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2704599",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "24",
+      "coordenadas": [
+        38.771554480879544,
+        -9.115949410329998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2755497",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "53",
+      "coordenadas": [
+        38.77188647532366,
+        -9.117173665771672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2795233",
+      "rua": "R QUINTA MORGADO",
+      "casa": "2",
+      "coordenadas": [
+        38.77119728903696,
+        -9.114506197537436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2800012",
+      "rua": "R QUINTA MORGADO",
+      "casa": "53",
+      "coordenadas": [
+        38.771257244160246,
+        -9.11487522704011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2800013",
+      "rua": "R QUINTA MORGADO",
+      "casa": "53",
+      "coordenadas": [
+        38.771257244160246,
+        -9.11487522704011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2811556",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "26",
+      "coordenadas": [
+        38.7716703109996,
+        -9.116100585216886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2854042",
+      "rua": "R QUINTA MORGADO",
+      "casa": "51",
+      "coordenadas": [
+        38.771397098755926,
+        -9.115383431075566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2854043",
+      "rua": "R QUINTA MORGADO",
+      "casa": "51",
+      "coordenadas": [
+        38.771397098755926,
+        -9.115383431075566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2854044",
+      "rua": "R QUINTA MORGADO",
+      "casa": "51",
+      "coordenadas": [
+        38.771397098755926,
+        -9.115383431075566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2854045",
+      "rua": "R QUINTA MORGADO",
+      "casa": "51",
+      "coordenadas": [
+        38.771397098755926,
+        -9.115383431075566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2859993",
+      "rua": "R QUINTA MORGADO",
+      "casa": "51",
+      "coordenadas": [
+        38.771397098755926,
+        -9.115383431075566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2945371",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "52",
+      "coordenadas": [
+        38.77132697837733,
+        -9.115152339182059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3177857",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "22",
+      "coordenadas": [
+        38.771608811821075,
+        -9.115915636260716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3207502",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "36",
+      "coordenadas": [
+        38.771927635560814,
+        -9.116564381294502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3316858",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "30",
+      "coordenadas": [
+        38.77174962984311,
+        -9.116308792269415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3417254",
+      "rua": "R QUINTA DO MORGADO",
+      "casa": "34",
+      "coordenadas": [
+        38.77187407900254,
+        -9.116506112880671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3436067",
+      "rua": "R QUINTA MORGADO",
+      "casa": "51",
+      "coordenadas": [
+        38.771397098755926,
+        -9.115383431075566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3437449",
+      "rua": "R QUINTA MORGADO",
+      "casa": "2",
+      "coordenadas": [
+        38.77119728903696,
+        -9.114506197537436
+      ]
+    }
+  ],
+  "ruas": [
+    "R QUINTA DO MORGADO",
+    "R QUINTA MORGADO"
+  ],
+  "centro": [
+    38.77156246229889,
+    -9.115839931654554
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.77123101379381,
+                -9.11471377663269
+              ],
+              [
+                38.7712235194034,
+                -9.114667647944856
+              ],
+              [
+                38.77122837347623,
+                -9.114659444464206
+              ],
+              [
+                38.771245576012284,
+                -9.114689166190736
+              ],
+              [
+                38.771275127011585,
+                -9.114756813124453
+              ],
+              [
+                38.77131702647412,
+                -9.114862385265353
+              ],
+              [
+                38.7713712743999,
+                -9.115005882613435
+              ],
+              [
+                38.7714378707889,
+                -9.115187305168703
+              ],
+              [
+                38.77151681564115,
+                -9.115406652931153
+              ],
+              [
+                38.77160810895663,
+                -9.115663925900787
+              ],
+              [
+                38.77168734747897,
+                -9.115898559819172
+              ],
+              [
+                38.77175453120817,
+                -9.116110554686308
+              ],
+              [
+                38.77180966014423,
+                -9.116299910502196
+              ],
+              [
+                38.77185273428715,
+                -9.116466627266835
+              ],
+              [
+                38.77188375363693,
+                -9.116610704980225
+              ],
+              [
+                38.77190271819357,
+                -9.11673214364237
+              ],
+              [
+                38.771909627957065,
+                -9.116830943253264
+              ],
+              [
+                38.77190448292742,
+                -9.11690710381291
+              ],
+              [
+                38.771891238886695,
+                -9.116942161074638
+              ],
+              [
+                38.77186989583488,
+                -9.116936115038447
+              ],
+              [
+                38.771840453772,
+                -9.116888965704337
+              ],
+              [
+                38.77180291269802,
+                -9.11680071307231
+              ],
+              [
+                38.77175727261297,
+                -9.116671357142364
+              ],
+              [
+                38.77170353351685,
+                -9.116500897914499
+              ],
+              [
+                38.77164169540964,
+                -9.116289335388716
+              ],
+              [
+                38.771571758291344,
+                -9.116036669565014
+              ],
+              [
+                38.771509473715696,
+                -9.115811257092057
+              ],
+              [
+                38.7714548416827,
+                -9.115613097969845
+              ],
+              [
+                38.77140786219234,
+                -9.115442192198378
+              ],
+              [
+                38.77136853524463,
+                -9.115298539777655
+              ],
+              [
+                38.77133686083956,
+                -9.115182140707677
+              ],
+              [
+                38.77131283897714,
+                -9.115092994988444
+              ],
+              [
+                38.77129646965736,
+                -9.115031102619955
+              ],
+              [
+                38.77128775288022,
+                -9.114996463602214
+              ],
+              [
+                38.771279188901424,
+                -9.11496038837571
+              ],
+              [
+                38.77127077772097,
+                -9.114922876940444
+              ],
+              [
+                38.771262519338855,
+                -9.114883929296415
+              ],
+              [
+                38.77125441375508,
+                -9.114843545443627
+              ],
+              [
+                38.77124646096965,
+                -9.114801725382076
+              ],
+              [
+                38.77123866098256,
+                -9.114758469111763
+              ],
+              [
+                38.77123101379381,
+                -9.11471377663269
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.7715191244918,
+    -9.115654362165156
+  ],
+  "centroDeMassa": [
+    38.77156246229889,
+    -9.115839931654554
+  ]
+}

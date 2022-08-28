@@ -1,1 +1,503 @@
-{"CP4":"1600","CP3":"371","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1600-371","Artéria":"Rua António Livramento","Localidade":"Lisboa","Local":"","Troço":"Pares de 2 a 22A","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2297312","rua":"R ANTÓNIO LIVRAMENTO","casa":"15","coordenadas":[38.76603762099213,-9.166544547966222]},{"id":"pt.ine.add.PTCONT.2315000","rua":"R ANTÓNIO LIVRAMENTO","casa":"8","coordenadas":[38.765814387473185,-9.166322721324462]},{"id":"pt.ine.add.PTCONT.2327561","rua":"R ANTÓNIO LIVRAMENTO","casa":"29","coordenadas":[38.76646439150499,-9.166159511596357]},{"id":"pt.ine.add.PTCONT.2365115","rua":"R ANTONIO LIVRAMENTO","casa":"48","coordenadas":[38.76613628716831,-9.166591993957807]},{"id":"pt.ine.add.PTCONT.2371658","rua":"R ANTÓNIO LIVRAMENTO","casa":"14","coordenadas":[38.766023065825756,-9.166153146985073]},{"id":"pt.ine.add.PTCONT.2415946","rua":"R ANTÓNIO LIVRAMENTO","casa":"35","coordenadas":[38.766672357868075,-9.166070465071186]},{"id":"pt.ine.add.PTCONT.2445511","rua":"R ANTÓNIO LIVRAMENTO","casa":"23","coordenadas":[38.76635346394361,-9.166480070610463]},{"id":"pt.ine.add.PTCONT.2460763","rua":"R ANTÓNIO LIVRAMENTO","casa":"18","coordenadas":[38.766131959076546,-9.166062672302635]},{"id":"pt.ine.add.PTCONT.2472869","rua":"R ANTÓNIO LIVRAMENTO","casa":"16","coordenadas":[38.76607751245969,-9.166107909677972]},{"id":"pt.ine.add.PTCONT.2617292","rua":"R ANTÓNIO LIVRAMENTO","casa":"9","coordenadas":[38.765882167961834,-9.166806933947527]},{"id":"pt.ine.add.PTCONT.2659037","rua":"R ANTÓNIO LIVRAMENTO","casa":"20","coordenadas":[38.76618640567635,-9.166017434859059]},{"id":"pt.ine.add.PTCONT.2711607","rua":"R ANTÓNIO LIVRAMENTO","casa":"4","coordenadas":[38.76550057859455,-9.166157117611053]},{"id":"pt.ine.add.PTCONT.2740400","rua":"R ANTÓNIO LIVRAMENTO","casa":"33","coordenadas":[38.7665641764301,-9.166080410739086]},{"id":"pt.ine.add.PTCONT.2860190","rua":"R ANTÓNIO LIVRAMENTO","casa":"22","coordenadas":[38.766250062249874,-9.165949318837573]},{"id":"pt.ine.add.PTCONT.2881281","rua":"R ANTÓNIO LIVRAMENTO","casa":"31","coordenadas":[38.766571454278356,-9.166276112688495]},{"id":"pt.ine.add.PTCONT.3056262","rua":"R ANTÓNIO LIVRAMENTO","casa":"6","coordenadas":[38.76575083240012,-9.166379332496996]},{"id":"pt.ine.add.PTCONT.3233340","rua":"R ANTÓNIO LIVRAMENTO","casa":"11","coordenadas":[38.76597253967231,-9.166773721229784]},{"id":"pt.ine.add.PTCONT.3233341","rua":"R ANTÓNIO LIVRAMENTO","casa":"11","coordenadas":[38.76597253967231,-9.166773721229784]},{"id":"pt.ine.add.PTCONT.3242572","rua":"R ANTÓNIO LIVRAMENTO","casa":"12","coordenadas":[38.76594159923423,-9.16619799454208]},{"id":"pt.ine.add.PTCONT.3288041","rua":"R ANTÓNIO LIVRAMENTO","casa":"21","coordenadas":[38.766218567703824,-9.166455113285677]},{"id":"pt.ine.add.PTCONT.3288042","rua":"R ANTÓNIO LIVRAMENTO","casa":"27","coordenadas":[38.766444750998204,-9.166343319311812]},{"id":"pt.ine.add.PTCONT.3327152","rua":"R ANTÓNIO LIVRAMENTO","casa":"19","coordenadas":[38.76622615015157,-9.166616301767993]},{"id":"pt.ine.add.PTCONT.3327153","rua":"R ANTÓNIO LIVRAMENTO","casa":"10","coordenadas":[38.765896057513636,-9.16625486572614]},{"id":"pt.ine.add.PTCONT.3399087","rua":"R ANTÓNIO LIVRAMENTO","casa":"25","coordenadas":[38.76632776631221,-9.16633012622924]}],"ruas":["R ANTÓNIO LIVRAMENTO","R ANTONIO LIVRAMENTO"],"centroide":[38.76613430125434,-9.166329336424576]}}
+{
+  "CP": "1600-371",
+  "CP4": "1600",
+  "CP3": "371",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua António Livramento",
+      "Local": "",
+      "Troço": "Impares de 9 a 35",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Livramento",
+      "Local": "",
+      "Troço": "Pares de 2 a 22A",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2297312",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "15",
+      "coordenadas": [
+        38.76603762099213,
+        -9.166544547966222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2315000",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "8",
+      "coordenadas": [
+        38.765814387473185,
+        -9.166322721324462
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2327561",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "29",
+      "coordenadas": [
+        38.76646439150499,
+        -9.166159511596357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2365115",
+      "rua": "R ANTONIO LIVRAMENTO",
+      "casa": "48",
+      "coordenadas": [
+        38.76613628716831,
+        -9.166591993957807
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2371658",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "14",
+      "coordenadas": [
+        38.766023065825756,
+        -9.166153146985073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2415946",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "35",
+      "coordenadas": [
+        38.766672357868075,
+        -9.166070465071186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2445511",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "23",
+      "coordenadas": [
+        38.76635346394361,
+        -9.166480070610463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2460763",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "18",
+      "coordenadas": [
+        38.766131959076546,
+        -9.166062672302635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2472869",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "16",
+      "coordenadas": [
+        38.76607751245969,
+        -9.166107909677972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2617292",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "9",
+      "coordenadas": [
+        38.765882167961834,
+        -9.166806933947527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2659037",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "20",
+      "coordenadas": [
+        38.76618640567635,
+        -9.166017434859059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2711607",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "4",
+      "coordenadas": [
+        38.76550057859455,
+        -9.166157117611053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2740400",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "33",
+      "coordenadas": [
+        38.7665641764301,
+        -9.166080410739086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2860190",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "22",
+      "coordenadas": [
+        38.766250062249874,
+        -9.165949318837573
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2881281",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "31",
+      "coordenadas": [
+        38.766571454278356,
+        -9.166276112688495
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3056262",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "6",
+      "coordenadas": [
+        38.76575083240012,
+        -9.166379332496996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3233340",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "11",
+      "coordenadas": [
+        38.76597253967231,
+        -9.166773721229784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3233341",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "11",
+      "coordenadas": [
+        38.76597253967231,
+        -9.166773721229784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3242572",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "12",
+      "coordenadas": [
+        38.76594159923423,
+        -9.16619799454208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3288041",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "21",
+      "coordenadas": [
+        38.766218567703824,
+        -9.166455113285677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3288042",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "27",
+      "coordenadas": [
+        38.766444750998204,
+        -9.166343319311812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3327152",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "19",
+      "coordenadas": [
+        38.76622615015157,
+        -9.166616301767993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3327153",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "10",
+      "coordenadas": [
+        38.765896057513636,
+        -9.16625486572614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3399087",
+      "rua": "R ANTÓNIO LIVRAMENTO",
+      "casa": "25",
+      "coordenadas": [
+        38.76632776631221,
+        -9.16633012622924
+      ]
+    }
+  ],
+  "ruas": [
+    "R ANTÓNIO LIVRAMENTO",
+    "R ANTONIO LIVRAMENTO"
+  ],
+  "centro": [
+    38.76608646823131,
+    -9.16637812639255
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.76571522261364,
+                -9.166522639300318
+              ],
+              [
+                38.76566752394273,
+                -9.166441412258262
+              ],
+              [
+                38.7656374982878,
+                -9.166367091740625
+              ],
+              [
+                38.76562514564884,
+                -9.166299677747407
+              ],
+              [
+                38.76563046602587,
+                -9.166239170278613
+              ],
+              [
+                38.76565345941887,
+                -9.16618556933424
+              ],
+              [
+                38.76569412582785,
+                -9.16613887491429
+              ],
+              [
+                38.76575246525282,
+                -9.166099087018761
+              ],
+              [
+                38.76582847769375,
+                -9.166066205647654
+              ],
+              [
+                38.76592216315067,
+                -9.166040230800972
+              ],
+              [
+                38.766010736294504,
+                -9.166019395720022
+              ],
+              [
+                38.76609419712527,
+                -9.166003700404808
+              ],
+              [
+                38.766172545642945,
+                -9.16599314485533
+              ],
+              [
+                38.76624578184753,
+                -9.165987729071588
+              ],
+              [
+                38.76631390573905,
+                -9.165987453053582
+              ],
+              [
+                38.76637691731749,
+                -9.165992316801313
+              ],
+              [
+                38.766434816582844,
+                -9.166002320314778
+              ],
+              [
+                38.76648760353511,
+                -9.166017463593981
+              ],
+              [
+                38.766532215499765,
+                -9.166033927207302
+              ],
+              [
+                38.76656865247679,
+                -9.166051711154745
+              ],
+              [
+                38.76659691446619,
+                -9.166070815436308
+              ],
+              [
+                38.76661700146798,
+                -9.166091240051989
+              ],
+              [
+                38.76662891348213,
+                -9.166112985001792
+              ],
+              [
+                38.76663265050866,
+                -9.166136050285715
+              ],
+              [
+                38.76662821254757,
+                -9.166160435903759
+              ],
+              [
+                38.76661559959885,
+                -9.166186141855922
+              ],
+              [
+                38.76659916789174,
+                -9.166213950018433
+              ],
+              [
+                38.766578917426244,
+                -9.16624386039129
+              ],
+              [
+                38.76655484820236,
+                -9.166275872974493
+              ],
+              [
+                38.76652696022008,
+                -9.166309987768045
+              ],
+              [
+                38.766495253479405,
+                -9.166346204771942
+              ],
+              [
+                38.76645972798035,
+                -9.166384523986185
+              ],
+              [
+                38.76642038372289,
+                -9.166424945410775
+              ],
+              [
+                38.76637722070704,
+                -9.166467469045713
+              ],
+              [
+                38.76633549040444,
+                -9.166507136905373
+              ],
+              [
+                38.76629519281507,
+                -9.166543948989757
+              ],
+              [
+                38.76625632793895,
+                -9.166577905298865
+              ],
+              [
+                38.76621889577606,
+                -9.166609005832694
+              ],
+              [
+                38.76618289632643,
+                -9.166637250591249
+              ],
+              [
+                38.76614832959004,
+                -9.166662639574525
+              ],
+              [
+                38.76611519556689,
+                -9.166685172782527
+              ],
+              [
+                38.76608349425699,
+                -9.16670485021525
+              ],
+              [
+                38.76605434355284,
+                -9.166722586917599
+              ],
+              [
+                38.76602774345446,
+                -9.166738382889571
+              ],
+              [
+                38.76600369396184,
+                -9.166752238131167
+              ],
+              [
+                38.76598219507498,
+                -9.166764152642388
+              ],
+              [
+                38.76596324679389,
+                -9.166774126423233
+              ],
+              [
+                38.765946849118556,
+                -9.166782159473701
+              ],
+              [
+                38.76593300204898,
+                -9.166788251793797
+              ],
+              [
+                38.76592170558517,
+                -9.166792403383514
+              ],
+              [
+                38.76590585884547,
+                -9.16678588264426
+              ],
+              [
+                38.76588546182988,
+                -9.166768689576035
+              ],
+              [
+                38.76586051453841,
+                -9.166740824178834
+              ],
+              [
+                38.765831016971056,
+                -9.166702286452665
+              ],
+              [
+                38.765796969127805,
+                -9.166653076397521
+              ],
+              [
+                38.765758371008666,
+                -9.166593194013405
+              ],
+              [
+                38.76571522261364,
+                -9.166522639300318
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.766153615825225,
+    -9.166378567307659
+  ],
+  "centroDeMassa": [
+    38.76608646823131,
+    -9.16637812639255
+  ]
+}

@@ -1,1 +1,413 @@
-{"CP4":"4505","CP3":"482","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4505-482","Artéria":"Rua Dom Afonso Henriques","Localidade":"Lobão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LOBÃO","locais":[{"id":"pt.ine.add.PTCONT.294332","rua":"R D AFONSO HENRIQUES","casa":"135","coordenadas":[40.98782345054796,-8.48082957604728]},{"id":"pt.ine.add.PTCONT.324476","rua":"R D AFONSO HENRIQUES","casa":"263","coordenadas":[40.988965334442646,-8.481394104982007]},{"id":"pt.ine.add.PTCONT.327","rua":"R D AFONSO HENRIQUES","casa":"331","coordenadas":[40.98953132375127,-8.481824897253741]},{"id":"pt.ine.add.PTCONT.21586","rua":"R D AFONSO HENRIQUES","casa":"133","coordenadas":[40.98776041912637,-8.480829244929541]},{"id":"pt.ine.add.PTCONT.32826","rua":"R D AFONSO HENRIQUES","casa":"215","coordenadas":[40.988435217949174,-8.481011042737231]},{"id":"pt.ine.add.PTCONT.64819","rua":"R D AFONSO HENRIQUES","casa":"177","coordenadas":[40.9881294239228,-8.480890600761768]},{"id":"pt.ine.add.PTCONT.69638","rua":"R D AFONSO HENRIQUES","casa":"361","coordenadas":[40.989737599788214,-8.482099310510726]},{"id":"pt.ine.add.PTCONT.70749","rua":"R D AFONSO HENRIQUES","casa":"235","coordenadas":[40.988605980396535,-8.481118892290969]},{"id":"pt.ine.add.PTCONT.81630","rua":"R D AFONSO HENRIQUES","casa":"175","coordenadas":[40.98819238363741,-8.480914698530077]},{"id":"pt.ine.add.PTCONT.83338","rua":"R D AFONSO HENRIQUES","casa":"229","coordenadas":[40.988552025217864,-8.481094841515304]},{"id":"pt.ine.add.PTCONT.96231","rua":"R D AFONSO HENRIQUES","casa":"281","coordenadas":[40.98912727157549,-8.481442491693507]},{"id":"pt.ine.add.PTCONT.105882","rua":"R D AFONSO HENRIQUES","casa":"163","coordenadas":[40.98806639250496,-8.480890269582355]},{"id":"pt.ine.add.PTCONT.146984","rua":"R D AFONSO HENRIQUES","casa":"203","coordenadas":[40.98839033895124,-8.480963272778604]},{"id":"pt.ine.add.PTCONT.155651","rua":"R D AFONSO HENRIQUES","casa":"315","coordenadas":[40.989405548495846,-8.481729164999134]},{"id":"pt.ine.add.PTCONT.202131","rua":"R D AFONSO HENRIQUES","casa":"147","coordenadas":[40.98787744163608,-8.480841743100779]},{"id":"pt.ine.add.PTCONT.216284","rua":"R D AFONSO HENRIQUES","casa":"161","coordenadas":[40.988003396935625,-8.480878055143988]},{"id":"pt.ine.add.PTCONT.236817","rua":"R D AFONSO HENRIQUES","casa":"149","coordenadas":[40.98794043721087,-8.480853957480539]},{"id":"pt.ine.add.PTCONT.239439","rua":"R D AFONSO HENRIQUES","casa":"201","coordenadas":[40.98830940612814,-8.480927196939227]},{"id":"pt.ine.add.PTCONT.262339","rua":"R D AFONSO HENRIQUES","casa":"251","coordenadas":[40.98875837485022,-8.481345481637891]},{"id":"pt.ine.add.PTCONT.263733","rua":"R D AFONSO HENRIQUES","casa":"263","coordenadas":[40.98913735273738,-8.481086035191321]},{"id":"pt.ine.add.PTCONT.265782","rua":"R D AFONSO HENRIQUES","casa":"217","coordenadas":[40.98849807003349,-8.481070790779125]},{"id":"pt.ine.add.PTCONT.287857","rua":"R D AFONSO HENRIQUES","casa":"295","coordenadas":[40.989234139787094,-8.481835215196881]}],"ruas":["R D AFONSO HENRIQUES"],"centroide":[40.98853558046856,-8.481144555661198]}
+{
+  "CP": "4505-482",
+  "CP4": "4505",
+  "CP3": "482",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Lobão",
+  "Designação Postal": "LOBÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Dom Afonso Henriques",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.294332",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "135",
+      "coordenadas": [
+        40.98782345054796,
+        -8.48082957604728
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.324476",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "263",
+      "coordenadas": [
+        40.988965334442646,
+        -8.481394104982007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.327",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "331",
+      "coordenadas": [
+        40.98953132375127,
+        -8.481824897253741
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.21586",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "133",
+      "coordenadas": [
+        40.98776041912637,
+        -8.480829244929541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.32826",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "215",
+      "coordenadas": [
+        40.988435217949174,
+        -8.481011042737231
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.64819",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "177",
+      "coordenadas": [
+        40.9881294239228,
+        -8.480890600761768
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.69638",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "361",
+      "coordenadas": [
+        40.989737599788214,
+        -8.482099310510726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.70749",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "235",
+      "coordenadas": [
+        40.988605980396535,
+        -8.481118892290969
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.81630",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "175",
+      "coordenadas": [
+        40.98819238363741,
+        -8.480914698530077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83338",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "229",
+      "coordenadas": [
+        40.988552025217864,
+        -8.481094841515304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.96231",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "281",
+      "coordenadas": [
+        40.98912727157549,
+        -8.481442491693507
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.105882",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "163",
+      "coordenadas": [
+        40.98806639250496,
+        -8.480890269582355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.146984",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "203",
+      "coordenadas": [
+        40.98839033895124,
+        -8.480963272778604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.155651",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "315",
+      "coordenadas": [
+        40.989405548495846,
+        -8.481729164999134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.202131",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "147",
+      "coordenadas": [
+        40.98787744163608,
+        -8.480841743100779
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.216284",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "161",
+      "coordenadas": [
+        40.988003396935625,
+        -8.480878055143988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.236817",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "149",
+      "coordenadas": [
+        40.98794043721087,
+        -8.480853957480539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.239439",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "201",
+      "coordenadas": [
+        40.98830940612814,
+        -8.480927196939227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.262339",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "251",
+      "coordenadas": [
+        40.98875837485022,
+        -8.481345481637891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.263733",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "263",
+      "coordenadas": [
+        40.98913735273738,
+        -8.481086035191321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.265782",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "217",
+      "coordenadas": [
+        40.98849807003349,
+        -8.481070790779125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.287857",
+      "rua": "R D AFONSO HENRIQUES",
+      "casa": "295",
+      "coordenadas": [
+        40.989234139787094,
+        -8.481835215196881
+      ]
+    }
+  ],
+  "ruas": [
+    "R D AFONSO HENRIQUES"
+  ],
+  "centro": [
+    40.988749009457294,
+    -8.481464277720134
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.98858938699803,
+                -8.481395103204921
+              ],
+              [
+                40.98840517191543,
+                -8.481269356921501
+              ],
+              [
+                40.98824496858413,
+                -8.481159334097226
+              ],
+              [
+                40.988108777004115,
+                -8.481065034732094
+              ],
+              [
+                40.98799659717538,
+                -8.480986458826102
+              ],
+              [
+                40.98790842909793,
+                -8.480923606379251
+              ],
+              [
+                40.987844272771774,
+                -8.480876477391543
+              ],
+              [
+                40.9878041281969,
+                -8.480845071862976
+              ],
+              [
+                40.98778799537332,
+                -8.480829389793552
+              ],
+              [
+                40.98779587430101,
+                -8.480829431183269
+              ],
+              [
+                40.98782329808445,
+                -8.480833474573398
+              ],
+              [
+                40.98787026672365,
+                -8.480841519963937
+              ],
+              [
+                40.98793678021859,
+                -8.480853567354888
+              ],
+              [
+                40.98802283856928,
+                -8.480869616746247
+              ],
+              [
+                40.988128441775714,
+                -8.48088966813802
+              ],
+              [
+                40.988253589837896,
+                -8.480913721530204
+              ],
+              [
+                40.988398282755824,
+                -8.480941776922798
+              ],
+              [
+                40.98856252052951,
+                -8.480973834315805
+              ],
+              [
+                40.98871560744165,
+                -8.48101771696155
+              ],
+              [
+                40.988857543492244,
+                -8.481073424860034
+              ],
+              [
+                40.9889883286813,
+                -8.48114095801126
+              ],
+              [
+                40.98910796300881,
+                -8.481220316415225
+              ],
+              [
+                40.989216446474785,
+                -8.48131150007193
+              ],
+              [
+                40.989313779079225,
+                -8.481414508981375
+              ],
+              [
+                40.98939996082212,
+                -8.48152934314356
+              ],
+              [
+                40.989474991703474,
+                -8.481656002558488
+              ],
+              [
+                40.98953277716214,
+                -8.481762703057267
+              ],
+              [
+                40.98957331719812,
+                -8.481849444639902
+              ],
+              [
+                40.989596611811415,
+                -8.481916227306396
+              ],
+              [
+                40.989602661002024,
+                -8.481963051056743
+              ],
+              [
+                40.989591464769944,
+                -8.481989915890946
+              ],
+              [
+                40.98956302311518,
+                -8.481996821809005
+              ],
+              [
+                40.98951733603773,
+                -8.481983768810919
+              ],
+              [
+                40.989454403537586,
+                -8.481950756896689
+              ],
+              [
+                40.98937631071464,
+                -8.48190615318631
+              ],
+              [
+                40.98928305756888,
+                -8.481849957679783
+              ],
+              [
+                40.98917464410032,
+                -8.481782170377107
+              ],
+              [
+                40.98905107030896,
+                -8.481702791278282
+              ],
+              [
+                40.98891233619479,
+                -8.48161182038331
+              ],
+              [
+                40.98875844175781,
+                -8.481509257692188
+              ],
+              [
+                40.98858938699803,
+                -8.481395103204921
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.988738592397404,
+    -8.481335876375152
+  ],
+  "centroDeMassa": [
+    40.988749009457294,
+    -8.481464277720134
+  ]
+}

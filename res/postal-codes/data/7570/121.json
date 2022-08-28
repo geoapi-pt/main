@@ -1,1 +1,383 @@
-{"CP4":"7570","CP3":"121","Distrito":"Setúbal","Concelho":"Grândola","CP":"7570-121","Artéria":"Estrada Municipal","Localidade":"Grândola","Local":"Bairro Vale Pereiro","Troço":"","Porta":"","Cliente":"","Designação Postal":"GRÂNDOLA","locais":[{"id":"pt.ine.add.PTCONT.4687597","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.1831441101341,-8.519566005251855]},{"id":"pt.ine.add.PTCONT.4689888","rua":"","casa":"","coordenadas":[38.20074565951001,-8.522878464851372]},{"id":"pt.ine.add.PTCONT.4711386","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.17803089625672,-8.537149092543647]},{"id":"pt.ine.add.PTCONT.4770234","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.18004047635974,-8.526363296942781]},{"id":"pt.ine.add.PTCONT.4773645","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.21788433782086,-8.431019942317207]},{"id":"pt.ine.add.PTCONT.4787404","rua":"MALHADAS","casa":"","coordenadas":[38.182499556472074,-8.526188399784171]},{"id":"pt.ine.add.PTCONT.4791052","rua":"MALHADAS","casa":"","coordenadas":[38.18390842135334,-8.52719522399144]},{"id":"pt.ine.add.PTCONT.4826449","rua":"","casa":"","coordenadas":[38.19766005657684,-8.516046687745328]},{"id":"pt.ine.add.PTCONT.4839061","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.21737811251869,-8.431378949131616]},{"id":"pt.ine.add.PTCONT.4872943","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.17887839876476,-8.52917648733845]},{"id":"pt.ine.add.PTCONT.4875758","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.21746943158458,-8.431046170271307]},{"id":"pt.ine.add.PTCONT.4883270","rua":"","casa":"","coordenadas":[38.19751595317714,-8.516034517102334]},{"id":"pt.ine.add.PTCONT.4911979","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.179177588441426,-8.52845866448885]},{"id":"pt.ine.add.PTCONT.4927849","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.18238179881255,-8.521251187433547]},{"id":"pt.ine.add.PTCONT.4971175","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.17900793044817,-8.528887696607281]},{"id":"pt.ine.add.PTCONT.5020494","rua":"","casa":"","coordenadas":[38.202718942733995,-8.621801193981625]},{"id":"pt.ine.add.PTCONT.5032989","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.179077607536584,-8.528720624561798]},{"id":"pt.ine.add.PTCONT.5035343","rua":"","casa":"","coordenadas":[38.18075057009777,-8.53744944439482]},{"id":"pt.ine.add.PTCONT.5064359","rua":"","casa":"","coordenadas":[38.180043892989715,-8.528029643699105]},{"id":"pt.ine.add.PTCONT.5105202","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.21756636319689,-8.430753534427101]},{"id":"pt.ine.add.PTCONT.5128780","rua":"ESTR IC1 MONTE PEDROES","casa":"","coordenadas":[38.130413391541964,-8.467005065528555]},{"id":"pt.ine.add.PTCONT.5133016","rua":"ESTR MUNICIPAL","casa":"","coordenadas":[38.217670819832556,-8.43068677789161]}],"ruas":["ESTR MUNICIPAL","","MALHADAS","ESTR IC1 MONTE PEDROES"],"centroide":[38.188871118872754,-8.509828585352105]}
+{
+  "CP": "7570-121",
+  "CP4": "7570",
+  "CP3": "121",
+  "Distrito": "Setúbal",
+  "Concelho": "Grândola",
+  "Localidade": "Grândola",
+  "Designação Postal": "GRÂNDOLA",
+  "partes": [
+    {
+      "Artéria": "Estrada Municipal",
+      "Local": "Bairro Vale Pereiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4687597",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.1831441101341,
+        -8.519566005251855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4689888",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.20074565951001,
+        -8.522878464851372
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4711386",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.17803089625672,
+        -8.537149092543647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4770234",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.18004047635974,
+        -8.526363296942781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4773645",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.21788433782086,
+        -8.431019942317207
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4787404",
+      "rua": "MALHADAS",
+      "casa": "",
+      "coordenadas": [
+        38.182499556472074,
+        -8.526188399784171
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4791052",
+      "rua": "MALHADAS",
+      "casa": "",
+      "coordenadas": [
+        38.18390842135334,
+        -8.52719522399144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4826449",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.19766005657684,
+        -8.516046687745328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839061",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.21737811251869,
+        -8.431378949131616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4872943",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.17887839876476,
+        -8.52917648733845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4875758",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.21746943158458,
+        -8.431046170271307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4883270",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.19751595317714,
+        -8.516034517102334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4911979",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.179177588441426,
+        -8.52845866448885
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4927849",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.18238179881255,
+        -8.521251187433547
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4971175",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.17900793044817,
+        -8.528887696607281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5020494",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.202718942733995,
+        -8.621801193981625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5032989",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.179077607536584,
+        -8.528720624561798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5035343",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.18075057009777,
+        -8.53744944439482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5064359",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.180043892989715,
+        -8.528029643699105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5105202",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.21756636319689,
+        -8.430753534427101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5128780",
+      "rua": "ESTR IC1 MONTE PEDROES",
+      "casa": "",
+      "coordenadas": [
+        38.130413391541964,
+        -8.467005065528555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5133016",
+      "rua": "ESTR MUNICIPAL",
+      "casa": "",
+      "coordenadas": [
+        38.217670819832556,
+        -8.43068677789161
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR MUNICIPAL",
+    "MALHADAS",
+    "ESTR IC1 MONTE PEDROES"
+  ],
+  "centro": [
+    38.17414886468141,
+    -8.526243985936617
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.17108526408748,
+                -8.554077887783407
+              ],
+              [
+                38.16204707018848,
+                -8.534728371726773
+              ],
+              [
+                38.15550204784388,
+                -8.517230071932893
+              ],
+              [
+                38.15145019705372,
+                -8.501582988401761
+              ],
+              [
+                38.14989151781796,
+                -8.487787121133383
+              ],
+              [
+                38.15082601013662,
+                -8.475842470127759
+              ],
+              [
+                38.154253674009695,
+                -8.465749035384885
+              ],
+              [
+                38.16017450943719,
+                -8.457506816904761
+              ],
+              [
+                38.1685885164191,
+                -8.451115814687391
+              ],
+              [
+                38.17949569495542,
+                -8.446576028732775
+              ],
+              [
+                38.18904281239327,
+                -8.442608921716634
+              ],
+              [
+                38.19722986873265,
+                -8.439214493638968
+              ],
+              [
+                38.204056863973555,
+                -8.436392744499782
+              ],
+              [
+                38.20952379811598,
+                -8.434143674299074
+              ],
+              [
+                38.21363067115994,
+                -8.432467283036843
+              ],
+              [
+                38.216377483105425,
+                -8.431363570713087
+              ],
+              [
+                38.21776423395244,
+                -8.43083253732781
+              ],
+              [
+                38.21779092370098,
+                -8.430874182881007
+              ],
+              [
+                38.21757731793272,
+                -8.433891579797313
+              ],
+              [
+                38.21712341664765,
+                -8.439884728076727
+              ],
+              [
+                38.21642921984579,
+                -8.448853627719245
+              ],
+              [
+                38.215494727527144,
+                -8.460798278724873
+              ],
+              [
+                38.21431993969168,
+                -8.475718681093605
+              ],
+              [
+                38.21290485633942,
+                -8.493614834825443
+              ],
+              [
+                38.21124947747036,
+                -8.51448673992039
+              ],
+              [
+                38.2093538030845,
+                -8.538334396378442
+              ],
+              [
+                38.2065653137595,
+                -8.55678240627216
+              ],
+              [
+                38.20288400949535,
+                -8.569830769601538
+              ],
+              [
+                38.198309890292066,
+                -8.577479486366585
+              ],
+              [
+                38.19284295614963,
+                -8.579728556567293
+              ],
+              [
+                38.186483207068065,
+                -8.576577980203668
+              ],
+              [
+                38.17923064304735,
+                -8.568027757275704
+              ],
+              [
+                38.17108526408748,
+                -8.554077887783407
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.19217187298234,
+    -8.487628244929748
+  ],
+  "centroDeMassa": [
+    38.17414886468141,
+    -8.526243985936617
+  ]
+}

@@ -1,1 +1,396 @@
-{"CP4":"2200","CP3":"082","Distrito":"Santarém","Concelho":"Abrantes","CP":"2200-082","Artéria":"Rua Lucílio Marques Heitor","Localidade":"Abrantes","Local":"Alferrarede Velha","Troço":"","Porta":"","Cliente":"","Designação Postal":"ABRANTES","locais":[{"id":"pt.ine.add.PTCONT.4412489","rua":"R LUCILIO MARQUES HEITOR","casa":"18","coordenadas":[39.47799246216015,-8.166952844557954]},{"id":"pt.ine.add.PTCONT.4461164","rua":"R DA ONIA","casa":"79","coordenadas":[39.477398056143365,-8.170917144483347]},{"id":"pt.ine.add.PTCONT.4471989","rua":"R LUCILIO MARQUES HEITOR","casa":"6","coordenadas":[39.47761416435318,-8.166964283598908]},{"id":"pt.ine.add.PTCONT.4493438","rua":"R LUCILIO MARQUES HEITOR","casa":"10","coordenadas":[39.47775827651751,-8.166964353459626]},{"id":"pt.ine.add.PTCONT.4508986","rua":"R LUCILIO MARQUES HEITOR","casa":"3","coordenadas":[39.47773120119815,-8.167150298487385]},{"id":"pt.ine.add.PTCONT.4522121","rua":"R LUCILIO MARQUES HEITOR","casa":"","coordenadas":[39.4775690579864,-8.167208331242126]},{"id":"pt.ine.add.PTCONT.4550643","rua":"R LUCILIO MARQUES HEITOR","casa":"11","coordenadas":[39.47805546375764,-8.167115589228393]},{"id":"pt.ine.add.PTCONT.4563360","rua":"R LUCILIO MARQUES HEITOR","casa":"","coordenadas":[39.47828969347581,-8.16695298859948]},{"id":"pt.ine.add.PTCONT.4565469","rua":"R LUCILIO MARQUES HEITOR","casa":"22","coordenadas":[39.478154578181055,-8.166987790485937]},{"id":"pt.ine.add.PTCONT.4575613","rua":"R LUCILIO MARQUES HEITOR","casa":"N 21","coordenadas":[39.478181521021234,-8.167255120124743]},{"id":"pt.ine.add.PTCONT.4575614","rua":"R LUCILIO MARQUES HEITOR","casa":"23","coordenadas":[39.478181521021234,-8.167255120124743]},{"id":"pt.ine.add.PTCONT.4575615","rua":"R LUCILIO MARQUES HEITOR","casa":"19","coordenadas":[39.478181521021234,-8.167255120124743]},{"id":"pt.ine.add.PTCONT.4575616","rua":"R LUCILIO MARQUES HEITOR","casa":"23","coordenadas":[39.478181521021234,-8.167255120124743]},{"id":"pt.ine.add.PTCONT.4575621","rua":"R LUCILIO MARQUES HEITOR","casa":"7","coordenadas":[39.47801041850714,-8.16715043458722]},{"id":"pt.ine.add.PTCONT.4577052","rua":"R LUCILIO MARQUES HEITOR","casa":"23","coordenadas":[39.478181521021234,-8.167255120124743]},{"id":"pt.ine.add.PTCONT.4577774","rua":"R LUCILIO MARQUES HEITOR","casa":"5","coordenadas":[39.477929334983685,-8.1672201295694]},{"id":"pt.ine.add.PTCONT.4586186","rua":"R LUCILIO MARQUES HEITOR","casa":"20","coordenadas":[39.47808252548984,-8.166976133089454]},{"id":"pt.ine.add.PTCONT.4615316","rua":"R LUCILIO MARQUES HEITOR","casa":"12","coordenadas":[39.47785735362843,-8.166964401489155]},{"id":"pt.ine.add.PTCONT.4626635","rua":"R LUCILIO MARQUES HEITOR","casa":"14","coordenadas":[39.4779113956882,-8.166964427687182]},{"id":"pt.ine.add.PTCONT.4631185","rua":"R LUCILIO MARQUES HEITOR","casa":"13","coordenadas":[39.47812750963271,-8.167150491661916]}],"ruas":["R LUCILIO MARQUES HEITOR","R DA ONIA"],"centroide":[39.47796113616719,-8.16730340795733]}
+{
+  "CP": "2200-082",
+  "CP4": "2200",
+  "CP3": "082",
+  "Distrito": "Santarém",
+  "Concelho": "Abrantes",
+  "Localidade": "Abrantes",
+  "Designação Postal": "ABRANTES",
+  "partes": [
+    {
+      "Artéria": "Rua Lucílio Marques Heitor",
+      "Local": "Alferrarede Velha",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4412489",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "18",
+      "coordenadas": [
+        39.47799246216015,
+        -8.166952844557954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4461164",
+      "rua": "R DA ONIA",
+      "casa": "79",
+      "coordenadas": [
+        39.477398056143365,
+        -8.170917144483347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4471989",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "6",
+      "coordenadas": [
+        39.47761416435318,
+        -8.166964283598908
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4493438",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "10",
+      "coordenadas": [
+        39.47775827651751,
+        -8.166964353459626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4508986",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "3",
+      "coordenadas": [
+        39.47773120119815,
+        -8.167150298487385
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4522121",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "",
+      "coordenadas": [
+        39.4775690579864,
+        -8.167208331242126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4550643",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "11",
+      "coordenadas": [
+        39.47805546375764,
+        -8.167115589228393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4563360",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "",
+      "coordenadas": [
+        39.47828969347581,
+        -8.16695298859948
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4565469",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "22",
+      "coordenadas": [
+        39.478154578181055,
+        -8.166987790485937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4575613",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "N 21",
+      "coordenadas": [
+        39.478181521021234,
+        -8.167255120124743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4575614",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "23",
+      "coordenadas": [
+        39.478181521021234,
+        -8.167255120124743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4575615",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "19",
+      "coordenadas": [
+        39.478181521021234,
+        -8.167255120124743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4575616",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "23",
+      "coordenadas": [
+        39.478181521021234,
+        -8.167255120124743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4575621",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "7",
+      "coordenadas": [
+        39.47801041850714,
+        -8.16715043458722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4577052",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "23",
+      "coordenadas": [
+        39.478181521021234,
+        -8.167255120124743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4577774",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "5",
+      "coordenadas": [
+        39.477929334983685,
+        -8.1672201295694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4586186",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "20",
+      "coordenadas": [
+        39.47808252548984,
+        -8.166976133089454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4615316",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "12",
+      "coordenadas": [
+        39.47785735362843,
+        -8.166964401489155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4626635",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "14",
+      "coordenadas": [
+        39.4779113956882,
+        -8.166964427687182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4631185",
+      "rua": "R LUCILIO MARQUES HEITOR",
+      "casa": "13",
+      "coordenadas": [
+        39.47812750963271,
+        -8.167150491661916
+      ]
+    }
+  ],
+  "ruas": [
+    "R LUCILIO MARQUES HEITOR",
+    "R DA ONIA"
+  ],
+  "centro": [
+    39.47784387480959,
+    -8.16893499452065
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.47789960214287,
+                -8.16868730679867
+              ],
+              [
+                39.4777881474763,
+                -8.169182826284157
+              ],
+              [
+                39.47769329654687,
+                -8.16955845562706
+              ],
+              [
+                39.47761504935455,
+                -8.169814194827385
+              ],
+              [
+                39.47755340589934,
+                -8.16995004388513
+              ],
+              [
+                39.477508366181254,
+                -8.169966002800294
+              ],
+              [
+                39.47747993020028,
+                -8.16986207157288
+              ],
+              [
+                39.47746809795643,
+                -8.169638250202887
+              ],
+              [
+                39.47747286944969,
+                -8.169294538690313
+              ],
+              [
+                39.477494244680074,
+                -8.16883093703516
+              ],
+              [
+                39.47751365279363,
+                -8.168421472342475
+              ],
+              [
+                39.47753109379039,
+                -8.16806614461226
+              ],
+              [
+                39.477546567670316,
+                -8.167764953844515
+              ],
+              [
+                39.47756007443343,
+                -8.167517900039236
+              ],
+              [
+                39.47757161407972,
+                -8.16732498319643
+              ],
+              [
+                39.4775811866092,
+                -8.167186203316088
+              ],
+              [
+                39.47758879202186,
+                -8.167101560398219
+              ],
+              [
+                39.47759443031771,
+                -8.167071054442815
+              ],
+              [
+                39.47760527472981,
+                -8.167044182996824
+              ],
+              [
+                39.477621325258156,
+                -8.167020946060243
+              ],
+              [
+                39.47764258190277,
+                -8.167001343633071
+              ],
+              [
+                39.47766904466363,
+                -8.16698537571531
+              ],
+              [
+                39.47770071354074,
+                -8.16697304230696
+              ],
+              [
+                39.47773758853411,
+                -8.166964343408019
+              ],
+              [
+                39.47777966964372,
+                -8.16695927901849
+              ],
+              [
+                39.477826956869606,
+                -8.166957849138372
+              ],
+              [
+                39.477872977431545,
+                -8.166956600243918
+              ],
+              [
+                39.47791773132957,
+                -8.166955532335123
+              ],
+              [
+                39.47796121856366,
+                -8.166954645411996
+              ],
+              [
+                39.47800343913382,
+                -8.166953939474531
+              ],
+              [
+                39.47804439304006,
+                -8.166953414522732
+              ],
+              [
+                39.47808408028237,
+                -8.166953070556595
+              ],
+              [
+                39.478122500860756,
+                -8.166952907576121
+              ],
+              [
+                39.478159654775205,
+                -8.166952925581313
+              ],
+              [
+                39.47817823261704,
+                -8.16701488127154
+              ],
+              [
+                39.47817823438624,
+                -8.167138774646803
+              ],
+              [
+                39.478159660082824,
+                -8.167324605707105
+              ],
+              [
+                39.47812250970678,
+                -8.16757237445244
+              ],
+              [
+                39.4780667832581,
+                -8.167882080882816
+              ],
+              [
+                39.477992480736795,
+                -8.168253724998223
+              ],
+              [
+                39.47789960214287,
+                -8.16868730679867
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.47777268682378,
+    -8.167799118496363
+  ],
+  "centroDeMassa": [
+    39.47784387480959,
+    -8.16893499452065
+  ]
+}

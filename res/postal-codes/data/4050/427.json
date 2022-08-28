@@ -1,1 +1,525 @@
-{"CP4":"4050","CP3":"427","Distrito":"Porto","Concelho":"Porto","CP":"4050-427","Artéria":"Rua Nossa Senhora de Fátima","Localidade":"Porto","Local":"","Troço":"Impares de 13 a 185","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3607060","rua":"R NSA SRA DE FÁTIMA","casa":"125","coordenadas":[41.15998253727459,-8.623758097928858]},{"id":"pt.ine.add.PTCONT.3782890","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782891","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782892","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782893","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782894","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782895","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782896","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3782897","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3784256","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]},{"id":"pt.ine.add.PTCONT.3787368","rua":"R NSA SRA DE FÁTIMA","casa":"57","coordenadas":[41.160247102987164,-8.622949886544271]},{"id":"pt.ine.add.PTCONT.3812366","rua":"R NSA SRA DE FÁTIMA","casa":"67","coordenadas":[41.160210478685805,-8.623092587508362]},{"id":"pt.ine.add.PTCONT.3906675","rua":"R NOSSA SENHORA DE FÁTIMA","casa":"123","coordenadas":[41.16001875647942,-8.623710710301644]},{"id":"pt.ine.add.PTCONT.3916588","rua":"R NSA SRA DE FÁTIMA","casa":"43","coordenadas":[41.16028352449675,-8.62285484184998]},{"id":"pt.ine.add.PTCONT.3983434","rua":"R NOSSA SENHORA DE FÁTIMA","casa":"97","coordenadas":[41.16007425188301,-8.6233656051913]},{"id":"pt.ine.add.PTCONT.4051994","rua":"R NSA SRA DE FÁTIMA","casa":"135","coordenadas":[41.15999123680946,-8.623829649397456]},{"id":"pt.ine.add.PTCONT.4125063","rua":"R NOSSA SENHORA DE FATIMA","casa":"13","coordenadas":[41.16027558395362,-8.622604578592005]},{"id":"pt.ine.add.PTCONT.4125064","rua":"R NOSSA SENHORA DE FATIMA","casa":"13","coordenadas":[41.16027558395362,-8.622604578592005]},{"id":"pt.ine.add.PTCONT.4125065","rua":"R PAULA VICENTE","casa":"209","coordenadas":[41.16027558395362,-8.622604578592005]},{"id":"pt.ine.add.PTCONT.4127322","rua":"R PAULA VICENTE","casa":"209","coordenadas":[41.16027558395362,-8.622604578592005]},{"id":"pt.ine.add.PTCONT.4197164","rua":"R NSA SRA DE FÁTIMA","casa":"25","coordenadas":[41.16032019914573,-8.622700226478216]},{"id":"pt.ine.add.PTCONT.4316249","rua":"R NSA SRA DE FÁTIMA","casa":"149","coordenadas":[41.15991839211058,-8.624019736743755]},{"id":"pt.ine.add.PTCONT.4316250","rua":"R NSA SRA DE FÁTIMA","casa":"149","coordenadas":[41.15991839211058,-8.624019736743755]},{"id":"pt.ine.add.PTCONT.4316251","rua":"R NSA SRA DE FÁTIMA","casa":"149","coordenadas":[41.15991839211058,-8.624019736743755]},{"id":"pt.ine.add.PTCONT.4316252","rua":"R NSA SRA DE FÁTIMA","casa":"149","coordenadas":[41.15991839211058,-8.624019736743755]},{"id":"pt.ine.add.PTCONT.4316253","rua":"R NSA SRA DE FÁTIMA","casa":"149","coordenadas":[41.15991839211058,-8.624019736743755]},{"id":"pt.ine.add.PTCONT.4390016","rua":"R NSA SRA DE FÁTIMA","casa":"143","coordenadas":[41.15994570890925,-8.623948454038493]}],"ruas":["R NSA SRA DE FÁTIMA","R NOSSA SENHORA DE FÁTIMA","R NOSSA SENHORA DE FATIMA","R PAULA VICENTE"],"centroide":[41.160051298627415,-8.623550564985898]}
+{
+  "CP": "4050-427",
+  "CP4": "4050",
+  "CP3": "427",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua Nossa Senhora de Fátima",
+      "Local": "",
+      "Troço": "Impares de 13 a 185",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3607060",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "125",
+      "coordenadas": [
+        41.15998253727459,
+        -8.623758097928858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782890",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782891",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782892",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782893",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782894",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782895",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782896",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782897",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3784256",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3787368",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "57",
+      "coordenadas": [
+        41.160247102987164,
+        -8.622949886544271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3812366",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "67",
+      "coordenadas": [
+        41.160210478685805,
+        -8.623092587508362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3906675",
+      "rua": "R NOSSA SENHORA DE FÁTIMA",
+      "casa": "123",
+      "coordenadas": [
+        41.16001875647942,
+        -8.623710710301644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3916588",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "43",
+      "coordenadas": [
+        41.16028352449675,
+        -8.62285484184998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3983434",
+      "rua": "R NOSSA SENHORA DE FÁTIMA",
+      "casa": "97",
+      "coordenadas": [
+        41.16007425188301,
+        -8.6233656051913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4051994",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "135",
+      "coordenadas": [
+        41.15999123680946,
+        -8.623829649397456
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4125063",
+      "rua": "R NOSSA SENHORA DE FATIMA",
+      "casa": "13",
+      "coordenadas": [
+        41.16027558395362,
+        -8.622604578592005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4125064",
+      "rua": "R NOSSA SENHORA DE FATIMA",
+      "casa": "13",
+      "coordenadas": [
+        41.16027558395362,
+        -8.622604578592005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4125065",
+      "rua": "R PAULA VICENTE",
+      "casa": "209",
+      "coordenadas": [
+        41.16027558395362,
+        -8.622604578592005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4127322",
+      "rua": "R PAULA VICENTE",
+      "casa": "209",
+      "coordenadas": [
+        41.16027558395362,
+        -8.622604578592005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4197164",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "25",
+      "coordenadas": [
+        41.16032019914573,
+        -8.622700226478216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4316249",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "149",
+      "coordenadas": [
+        41.15991839211058,
+        -8.624019736743755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4316250",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "149",
+      "coordenadas": [
+        41.15991839211058,
+        -8.624019736743755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4316251",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "149",
+      "coordenadas": [
+        41.15991839211058,
+        -8.624019736743755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4316252",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "149",
+      "coordenadas": [
+        41.15991839211058,
+        -8.624019736743755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4316253",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "149",
+      "coordenadas": [
+        41.15991839211058,
+        -8.624019736743755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4390016",
+      "rua": "R NSA SRA DE FÁTIMA",
+      "casa": "143",
+      "coordenadas": [
+        41.15994570890925,
+        -8.623948454038493
+      ]
+    }
+  ],
+  "ruas": [
+    "R NSA SRA DE FÁTIMA",
+    "R NOSSA SENHORA DE FÁTIMA",
+    "R NOSSA SENHORA DE FATIMA",
+    "R PAULA VICENTE"
+  ],
+  "centro": [
+    41.16011929562816,
+    -8.623312157667879
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.15993375780984,
+                -8.623979640222045
+              ],
+              [
+                41.15993034320999,
+                -8.623988550560203
+              ],
+              [
+                41.15992979074409,
+                -8.623986126300583
+              ],
+              [
+                41.15993210041211,
+                -8.623972367443187
+              ],
+              [
+                41.15993727221404,
+                -8.623947273988014
+              ],
+              [
+                41.1599453061499,
+                -8.623910845935066
+              ],
+              [
+                41.15995620221968,
+                -8.62386308328434
+              ],
+              [
+                41.15996996042339,
+                -8.623803986035835
+              ],
+              [
+                41.15998658076102,
+                -8.623733554189556
+              ],
+              [
+                41.16000606323257,
+                -8.623651787745498
+              ],
+              [
+                41.16002625620879,
+                -8.623568351066336
+              ],
+              [
+                41.160047159689654,
+                -8.623483244152062
+              ],
+              [
+                41.160068773675185,
+                -8.623396467002685
+              ],
+              [
+                41.160091098165374,
+                -8.623308019618204
+              ],
+              [
+                41.16011413316022,
+                -8.623217901998611
+              ],
+              [
+                41.16013787865974,
+                -8.623126114143915
+              ],
+              [
+                41.1601623346639,
+                -8.623032656054109
+              ],
+              [
+                41.16018750117273,
+                -8.622937527729198
+              ],
+              [
+                41.160210218980325,
+                -8.622855784943122
+              ],
+              [
+                41.160230488086704,
+                -8.622787427695883
+              ],
+              [
+                41.160248308491845,
+                -8.622732455987478
+              ],
+              [
+                41.16026368019577,
+                -8.62269086981791
+              ],
+              [
+                41.160276603198454,
+                -8.622662669187179
+              ],
+              [
+                41.16028707749993,
+                -8.622647854095284
+              ],
+              [
+                41.16029510310017,
+                -8.622646424542223
+              ],
+              [
+                41.16030067999918,
+                -8.622658380527998
+              ],
+              [
+                41.16030498674443,
+                -8.622671257880736
+              ],
+              [
+                41.16030802333591,
+                -8.622685056600437
+              ],
+              [
+                41.16030978977362,
+                -8.6226997766871
+              ],
+              [
+                41.160310286057566,
+                -8.622715418140722
+              ],
+              [
+                41.160309512187744,
+                -8.622731980961305
+              ],
+              [
+                41.160307468164156,
+                -8.622749465148853
+              ],
+              [
+                41.1603041539868,
+                -8.622767870703361
+              ],
+              [
+                41.16029956965568,
+                -8.622787197624833
+              ],
+              [
+                41.16029099137083,
+                -8.622819340049048
+              ],
+              [
+                41.16027841913227,
+                -8.622864297976012
+              ],
+              [
+                41.16026185293997,
+                -8.622922071405718
+              ],
+              [
+                41.160241292793955,
+                -8.62299266033817
+              ],
+              [
+                41.16021673869421,
+                -8.623076064773368
+              ],
+              [
+                41.160188190640746,
+                -8.623172284711313
+              ],
+              [
+                41.16015564863356,
+                -8.623281320152001
+              ],
+              [
+                41.160119112672646,
+                -8.623403171095434
+              ],
+              [
+                41.160086432333415,
+                -8.623511646993457
+              ],
+              [
+                41.16005760761584,
+                -8.623606747846065
+              ],
+              [
+                41.16003263851995,
+                -8.623688473653258
+              ],
+              [
+                41.16001152504573,
+                -8.623756824415041
+              ],
+              [
+                41.159994267193184,
+                -8.62381180013141
+              ],
+              [
+                41.15998086496232,
+                -8.623853400802364
+              ],
+              [
+                41.159971318353115,
+                -8.623881626427908
+              ],
+              [
+                41.159965627365594,
+                -8.62389647700804
+              ],
+              [
+                41.15996022092652,
+                -8.623910585057924
+              ],
+              [
+                41.159955099035926,
+                -8.62392395057756
+              ],
+              [
+                41.15995026169378,
+                -8.623936573566949
+              ],
+              [
+                41.15994570890011,
+                -8.623948454026094
+              ],
+              [
+                41.15994144065489,
+                -8.62395959195499
+              ],
+              [
+                41.15993745695813,
+                -8.623969987353641
+              ],
+              [
+                41.15993375780984,
+                -8.623979640222045
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.16011555675834,
+    -8.623331870327315
+  ],
+  "centroDeMassa": [
+    41.16011929562816,
+    -8.623312157667879
+  ]
+}

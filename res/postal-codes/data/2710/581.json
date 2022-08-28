@@ -1,1 +1,536 @@
-{"CP4":"2710","CP3":"581","Distrito":"Lisboa","Concelho":"Sintra","CP":"2710-581","Artéria":"Travessa João de Deus","Localidade":"Sintra","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SINTRA","locais":[{"id":"pt.ine.add.PTCONT.2270578","rua":"TV JOÃO DE DEUS","casa":"21","coordenadas":[38.79927068507322,-9.383682026947183]},{"id":"pt.ine.add.PTCONT.2347870","rua":"TV JOÃO DE DEUS","casa":"9","coordenadas":[38.799522604230276,-9.383709452116548]},{"id":"pt.ine.add.PTCONT.2436909","rua":"TV JOAO DEUS","casa":"25","coordenadas":[38.79919074050904,-9.383577032672488]},{"id":"pt.ine.add.PTCONT.2454982","rua":"TV JOÃO DE DEUS","casa":"7 B","coordenadas":[38.79963055197805,-9.383722849924037]},{"id":"pt.ine.add.PTCONT.2539036","rua":"TV JOÃO DE DEUS","casa":"7 C","coordenadas":[38.79968471064047,-9.383712285812752]},{"id":"pt.ine.add.PTCONT.2575091","rua":"TV JOÃO DE DEUS","casa":"7 G","coordenadas":[38.79964733180944,-9.383838251599931]},{"id":"pt.ine.add.PTCONT.2797154","rua":"TV JOÃO DE DEUS","casa":"7 F","coordenadas":[38.79974553436676,-9.383920544365884]},{"id":"pt.ine.add.PTCONT.2897182","rua":"TV JOÃO DE DEUS","casa":"7 A","coordenadas":[38.799585276031166,-9.383745080122543]},{"id":"pt.ine.add.PTCONT.2970269","rua":"TV JOÃO DE DEUS","casa":"7 E","coordenadas":[38.799737144507674,-9.383862843433473]},{"id":"pt.ine.add.PTCONT.3090813","rua":"TV JOÃO DE DEUS","casa":"7 D","coordenadas":[38.799738376526065,-9.383747756472799]},{"id":"pt.ine.add.PTCONT.3124489","rua":"TV JOÃO DE DEUS","casa":"93","coordenadas":[38.7992159104495,-9.38375013409158]},{"id":"pt.ine.add.PTCONT.3190265","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190266","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190267","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190268","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190269","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190272","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190273","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3190274","rua":"TV JOÃO DE DEUS","casa":"2","coordenadas":[38.79945562013748,-9.38407662694964]},{"id":"pt.ine.add.PTCONT.3272560","rua":"TV JOÃO DE DEUS","casa":"8","coordenadas":[38.79919666661912,-9.383864905322346]},{"id":"pt.ine.add.PTCONT.3272561","rua":"TV JOÃO DE DEUS","casa":"8","coordenadas":[38.79919666661912,-9.383864905322346]},{"id":"pt.ine.add.PTCONT.3272562","rua":"TV JOÃO DE DEUS","casa":"8","coordenadas":[38.79919666661912,-9.383864905322346]},{"id":"pt.ine.add.PTCONT.3272563","rua":"TV JOÃO DE DEUS","casa":"8","coordenadas":[38.79919666661912,-9.383864905322346]},{"id":"pt.ine.add.PTCONT.3290902","rua":"TV JOÃO DE DEUS","casa":"25","coordenadas":[38.799244406445915,-9.383612502977181]},{"id":"pt.ine.add.PTCONT.3306092","rua":"TV JOÃO DE DEUS","casa":"5","coordenadas":[38.79951138068273,-9.383916450566078]},{"id":"pt.ine.add.PTCONT.3306093","rua":"TV JOÃO DE DEUS","casa":"5","coordenadas":[38.79951138068273,-9.383916450566078]},{"id":"pt.ine.add.PTCONT.3306094","rua":"TV JOÃO DE DEUS","casa":"5","coordenadas":[38.79951138068273,-9.383916450566078]},{"id":"pt.ine.add.PTCONT.3306095","rua":"TV JOÃO DE DEUS","casa":"5","coordenadas":[38.79951138068273,-9.383916450566078]},{"id":"pt.ine.add.PTCONT.3390465","rua":"TV JOÃO DE DEUS","casa":"6","coordenadas":[38.79934076120566,-9.383867424446047]},{"id":"pt.ine.add.PTCONT.3390466","rua":"TV JOÃO DE DEUS","casa":"6","coordenadas":[38.79934076120566,-9.383867424446047]},{"id":"pt.ine.add.PTCONT.3390467","rua":"TV JOÃO DE DEUS","casa":"6","coordenadas":[38.79934076120566,-9.383867424446047]},{"id":"pt.ine.add.PTCONT.3395116","rua":"TV JOÃO DE DEUS","casa":"6","coordenadas":[38.79934076120566,-9.383867424446047]}],"ruas":["TV JOÃO DE DEUS","TV JOAO DEUS"],"centroide":[38.7994423453707,-9.38387811203308]}
+{
+  "CP": "2710-581",
+  "CP4": "2710",
+  "CP3": "581",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Sintra",
+  "Designação Postal": "SINTRA",
+  "partes": [
+    {
+      "Artéria": "Travessa João de Deus",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2270578",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "21",
+      "coordenadas": [
+        38.79927068507322,
+        -9.383682026947183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2347870",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "9",
+      "coordenadas": [
+        38.799522604230276,
+        -9.383709452116548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2436909",
+      "rua": "TV JOAO DEUS",
+      "casa": "25",
+      "coordenadas": [
+        38.79919074050904,
+        -9.383577032672488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2454982",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 B",
+      "coordenadas": [
+        38.79963055197805,
+        -9.383722849924037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2539036",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 C",
+      "coordenadas": [
+        38.79968471064047,
+        -9.383712285812752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2575091",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 G",
+      "coordenadas": [
+        38.79964733180944,
+        -9.383838251599931
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2797154",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 F",
+      "coordenadas": [
+        38.79974553436676,
+        -9.383920544365884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2897182",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 A",
+      "coordenadas": [
+        38.799585276031166,
+        -9.383745080122543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2970269",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 E",
+      "coordenadas": [
+        38.799737144507674,
+        -9.383862843433473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3090813",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "7 D",
+      "coordenadas": [
+        38.799738376526065,
+        -9.383747756472799
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3124489",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "93",
+      "coordenadas": [
+        38.7992159104495,
+        -9.38375013409158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190265",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190266",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190267",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190268",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190269",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190272",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190273",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190274",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "2",
+      "coordenadas": [
+        38.79945562013748,
+        -9.38407662694964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3272560",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "8",
+      "coordenadas": [
+        38.79919666661912,
+        -9.383864905322346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3272561",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "8",
+      "coordenadas": [
+        38.79919666661912,
+        -9.383864905322346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3272562",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "8",
+      "coordenadas": [
+        38.79919666661912,
+        -9.383864905322346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3272563",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "8",
+      "coordenadas": [
+        38.79919666661912,
+        -9.383864905322346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3290902",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "25",
+      "coordenadas": [
+        38.799244406445915,
+        -9.383612502977181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3306092",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "5",
+      "coordenadas": [
+        38.79951138068273,
+        -9.383916450566078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3306093",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "5",
+      "coordenadas": [
+        38.79951138068273,
+        -9.383916450566078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3306094",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "5",
+      "coordenadas": [
+        38.79951138068273,
+        -9.383916450566078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3306095",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "5",
+      "coordenadas": [
+        38.79951138068273,
+        -9.383916450566078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3390465",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "6",
+      "coordenadas": [
+        38.79934076120566,
+        -9.383867424446047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3390466",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "6",
+      "coordenadas": [
+        38.79934076120566,
+        -9.383867424446047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3390467",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "6",
+      "coordenadas": [
+        38.79934076120566,
+        -9.383867424446047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3395116",
+      "rua": "TV JOÃO DE DEUS",
+      "casa": "6",
+      "coordenadas": [
+        38.79934076120566,
+        -9.383867424446047
+      ]
+    }
+  ],
+  "ruas": [
+    "TV JOÃO DE DEUS",
+    "TV JOAO DEUS"
+  ],
+  "centro": [
+    38.7994681374379,
+    -9.383826829811063
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.799194073945955,
+                -9.383738961038032
+              ],
+              [
+                38.7991933331822,
+                -9.383702976956801
+              ],
+              [
+                38.79920040329721,
+                -9.383673604216039
+              ],
+              [
+                38.799215284291,
+                -9.383650842815749
+              ],
+              [
+                38.79923797616356,
+                -9.383634692755928
+              ],
+              [
+                38.7992684789149,
+                -9.383625154036578
+              ],
+              [
+                38.799306792544996,
+                -9.383622226657698
+              ],
+              [
+                38.79935291705388,
+                -9.38362591061929
+              ],
+              [
+                38.799406852441535,
+                -9.383636205921354
+              ],
+              [
+                38.799468598707975,
+                -9.383653112563886
+              ],
+              [
+                38.79952346522056,
+                -9.383668460105167
+              ],
+              [
+                38.799571451979304,
+                -9.383682248545194
+              ],
+              [
+                38.79961255898421,
+                -9.383694477883965
+              ],
+              [
+                38.79964678623527,
+                -9.383705148121484
+              ],
+              [
+                38.799674133732495,
+                -9.38371425925775
+              ],
+              [
+                38.79969460147588,
+                -9.383721811292762
+              ],
+              [
+                38.79970818946542,
+                -9.383727804226522
+              ],
+              [
+                38.799714897701115,
+                -9.383732238059029
+              ],
+              [
+                38.79972087924861,
+                -9.3837388174733
+              ],
+              [
+                38.799726134107914,
+                -9.383747542469338
+              ],
+              [
+                38.799730662279,
+                -9.383758413047143
+              ],
+              [
+                38.7997344637619,
+                -9.383771429206714
+              ],
+              [
+                38.79973753855659,
+                -9.383786590948052
+              ],
+              [
+                38.799739886663076,
+                -9.383803898271154
+              ],
+              [
+                38.79974150808137,
+                -9.383823351176023
+              ],
+              [
+                38.79974240281145,
+                -9.38384494966266
+              ],
+              [
+                38.79973865579044,
+                -9.383866287128836
+              ],
+              [
+                38.79973026701835,
+                -9.383887363574555
+              ],
+              [
+                38.799717236495155,
+                -9.383908178999816
+              ],
+              [
+                38.79969956422086,
+                -9.383928733404618
+              ],
+              [
+                38.79967725019549,
+                -9.383949026788962
+              ],
+              [
+                38.79965029441901,
+                -9.383969059152847
+              ],
+              [
+                38.79961869689145,
+                -9.383988830496275
+              ],
+              [
+                38.79958245761279,
+                -9.384008340819246
+              ],
+              [
+                38.79954670209524,
+                -9.384022104201417
+              ],
+              [
+                38.7995114303388,
+                -9.384030120642793
+              ],
+              [
+                38.79947664234346,
+                -9.384032390143368
+              ],
+              [
+                38.79944233810923,
+                -9.384028912703148
+              ],
+              [
+                38.79940851763611,
+                -9.384019688322127
+              ],
+              [
+                38.799375180924095,
+                -9.384004717000312
+              ],
+              [
+                38.79934232797319,
+                -9.383983998737698
+              ],
+              [
+                38.799309958783404,
+                -9.383957533534286
+              ],
+              [
+                38.79928154314686,
+                -9.383929878471147
+              ],
+              [
+                38.79925708106358,
+                -9.38390103354828
+              ],
+              [
+                38.799236572533545,
+                -9.383870998765687
+              ],
+              [
+                38.79922001755676,
+                -9.383839774123363
+              ],
+              [
+                38.79920741613324,
+                -9.383807359621315
+              ],
+              [
+                38.79919876826297,
+                -9.383773755259536
+              ],
+              [
+                38.799194073945955,
+                -9.383738961038032
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.79950194146649,
+    -9.383816525265985
+  ],
+  "centroDeMassa": [
+    38.7994681374379,
+    -9.383826829811063
+  ]
+}

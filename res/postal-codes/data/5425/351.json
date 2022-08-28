@@ -1,1 +1,382 @@
-{"CP4":"5425","CP3":"351","Distrito":"Vila Real","Concelho":"Chaves","CP":"5425-351","Artéria":"Rua dos Bombeiros Voluntários","Localidade":"Vidago","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VIDAGO","locais":[{"id":"pt.ine.add.PTCONT.5297922","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"","coordenadas":[41.638932123233225,-7.571954596144663]},{"id":"pt.ine.add.PTCONT.5339807","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"","coordenadas":[41.63889646194791,-7.572026918762761]},{"id":"pt.ine.add.PTCONT.5346041","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"A","coordenadas":[41.63871084888294,-7.572736657064334]},{"id":"pt.ine.add.PTCONT.5346042","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"A","coordenadas":[41.63871084888294,-7.572736657064334]},{"id":"pt.ine.add.PTCONT.5346043","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"A","coordenadas":[41.63871084888294,-7.572736657064334]},{"id":"pt.ine.add.PTCONT.5346044","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"A","coordenadas":[41.63871084888294,-7.572736657064334]},{"id":"pt.ine.add.PTCONT.5379598","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"23","coordenadas":[41.63895878127221,-7.571882351560346]},{"id":"pt.ine.add.PTCONT.5381018","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"","coordenadas":[41.63877152997156,-7.5722560439434785]},{"id":"pt.ine.add.PTCONT.5383096","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"22","coordenadas":[41.63885179741582,-7.572099319384143]},{"id":"pt.ine.add.PTCONT.5385329","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"B","coordenadas":[41.63872803605255,-7.572568477679854]},{"id":"pt.ine.add.PTCONT.5385345","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"B","coordenadas":[41.63872803605255,-7.572568477679854]},{"id":"pt.ine.add.PTCONT.5385346","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"B","coordenadas":[41.63872803605255,-7.572568477679854]},{"id":"pt.ine.add.PTCONT.5385347","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"B","coordenadas":[41.63872803605255,-7.572568477679854]},{"id":"pt.ine.add.PTCONT.5399126","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"","coordenadas":[41.63901239025945,-7.571797870824494]},{"id":"pt.ine.add.PTCONT.5421970","rua":"R DOS BOMBEIROS VOLUNTÁRIOS","casa":"21","coordenadas":[41.63880713283709,-7.572171719905701]}],"ruas":["R DOS BOMBEIROS VOLUNTÁRIOS"],"centroide":[41.63879847313159,-7.572374117114045]}
+{
+  "CP": "5425-351",
+  "CP4": "5425",
+  "CP3": "351",
+  "Distrito": "Vila Real",
+  "Concelho": "Chaves",
+  "Localidade": "Vidago",
+  "Designação Postal": "VIDAGO",
+  "partes": [
+    {
+      "Artéria": "Rua dos Bombeiros Voluntários",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5297922",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "",
+      "coordenadas": [
+        41.638932123233225,
+        -7.571954596144663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5339807",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "",
+      "coordenadas": [
+        41.63889646194791,
+        -7.572026918762761
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5346041",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "A",
+      "coordenadas": [
+        41.63871084888294,
+        -7.572736657064334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5346042",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "A",
+      "coordenadas": [
+        41.63871084888294,
+        -7.572736657064334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5346043",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "A",
+      "coordenadas": [
+        41.63871084888294,
+        -7.572736657064334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5346044",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "A",
+      "coordenadas": [
+        41.63871084888294,
+        -7.572736657064334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5379598",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "23",
+      "coordenadas": [
+        41.63895878127221,
+        -7.571882351560346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5381018",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "",
+      "coordenadas": [
+        41.63877152997156,
+        -7.5722560439434785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5383096",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "22",
+      "coordenadas": [
+        41.63885179741582,
+        -7.572099319384143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5385329",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "B",
+      "coordenadas": [
+        41.63872803605255,
+        -7.572568477679854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5385345",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "B",
+      "coordenadas": [
+        41.63872803605255,
+        -7.572568477679854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5385346",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "B",
+      "coordenadas": [
+        41.63872803605255,
+        -7.572568477679854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5385347",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "B",
+      "coordenadas": [
+        41.63872803605255,
+        -7.572568477679854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5399126",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "",
+      "coordenadas": [
+        41.63901239025945,
+        -7.571797870824494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5421970",
+      "rua": "R DOS BOMBEIROS VOLUNTÁRIOS",
+      "casa": "21",
+      "coordenadas": [
+        41.63880713283709,
+        -7.572171719905701
+      ]
+    }
+  ],
+  "ruas": [
+    "R DOS BOMBEIROS VOLUNTÁRIOS"
+  ],
+  "centro": [
+    41.638861619571195,
+    -7.572267263944415
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.63888046590722,
+                -7.572208589804425
+              ],
+              [
+                41.63884277323517,
+                -7.572325938084404
+              ],
+              [
+                41.638810060696635,
+                -7.572425990026504
+              ],
+              [
+                41.63878232829164,
+                -7.572508745630724
+              ],
+              [
+                41.63875957602018,
+                -7.572574204897065
+              ],
+              [
+                41.63874180388224,
+                -7.572622367825525
+              ],
+              [
+                41.63872901187784,
+                -7.572653234416105
+              ],
+              [
+                41.63872120000697,
+                -7.572666804668805
+              ],
+              [
+                41.63871836826964,
+                -7.572663078583624
+              ],
+              [
+                41.63872051666584,
+                -7.572642056160564
+              ],
+              [
+                41.638723076105,
+                -7.572618779763255
+              ],
+              [
+                41.638726046587124,
+                -7.572593249391698
+              ],
+              [
+                41.6387294281122,
+                -7.572565465045893
+              ],
+              [
+                41.638733220680244,
+                -7.572535426725841
+              ],
+              [
+                41.63873742429124,
+                -7.572503134431539
+              ],
+              [
+                41.638742038945196,
+                -7.572468588162988
+              ],
+              [
+                41.63874706464212,
+                -7.5724317879201894
+              ],
+              [
+                41.63875250138199,
+                -7.572392733703143
+              ],
+              [
+                41.63875781482416,
+                -7.572357243700137
+              ],
+              [
+                41.63876300496861,
+                -7.5723253179111705
+              ],
+              [
+                41.638768071815356,
+                -7.572296956336245
+              ],
+              [
+                41.638773015364386,
+                -7.572272158975361
+              ],
+              [
+                41.638777835615706,
+                -7.572250925828516
+              ],
+              [
+                41.63878253256932,
+                -7.572233256895714
+              ],
+              [
+                41.63878710622522,
+                -7.5722191521769515
+              ],
+              [
+                41.63879155658342,
+                -7.572208611672228
+              ],
+              [
+                41.638797820153634,
+                -7.5721948673502
+              ],
+              [
+                41.63880589693588,
+                -7.572177919210867
+              ],
+              [
+                41.63881578693014,
+                -7.572157767254227
+              ],
+              [
+                41.638827490136435,
+                -7.572134411480281
+              ],
+              [
+                41.63884100655475,
+                -7.5721078518890295
+              ],
+              [
+                41.638856336185086,
+                -7.572078088480472
+              ],
+              [
+                41.63887347902745,
+                -7.572045121254609
+              ],
+              [
+                41.63889243508184,
+                -7.572008950211439
+              ],
+              [
+                41.63890985926986,
+                -7.571975980537168
+              ],
+              [
+                41.6389257515915,
+                -7.5719462122317935
+              ],
+              [
+                41.63894011204677,
+                -7.571919645295321
+              ],
+              [
+                41.638952940635676,
+                -7.571896279727746
+              ],
+              [
+                41.638964237358195,
+                -7.571876115529069
+              ],
+              [
+                41.638974002214354,
+                -7.571859152699291
+              ],
+              [
+                41.638982235204125,
+                -7.571845391238411
+              ],
+              [
+                41.638988936327536,
+                -7.57183483114643
+              ],
+              [
+                41.63899008822651,
+                -7.571840259600943
+              ],
+              [
+                41.63898569090104,
+                -7.571861676601952
+              ],
+              [
+                41.63897574435114,
+                -7.571899082149456
+              ],
+              [
+                41.63896024857682,
+                -7.571952476243455
+              ],
+              [
+                41.638939203578055,
+                -7.57202185888395
+              ],
+              [
+                41.638912609354854,
+                -7.57210723007094
+              ],
+              [
+                41.63888046590722,
+                -7.572208589804425
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.63883145321263,
+    -7.572235520163036
+  ],
+  "centroDeMassa": [
+    41.638861619571195,
+    -7.572267263944415
+  ]
+}

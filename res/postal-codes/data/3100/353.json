@@ -1,1 +1,416 @@
-{"CP4":"3100","CP3":"353","Distrito":"Leiria","Concelho":"Pombal","CP":"3100-353","Artéria":" ","Localidade":"Mouriscas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"POMBAL","locais":[{"id":"pt.ine.add.PTCONT.2006819","rua":"R ALBERGARIA DOS DOZE","casa":"","coordenadas":[39.90106939005746,-8.627219724042433]},{"id":"pt.ine.add.PTCONT.2035351","rua":"R CONGOSTAS","casa":"31","coordenadas":[39.897901141286596,-8.628869064100444]},{"id":"pt.ine.add.PTCONT.2045014","rua":"R ALBERGARIA DOS DOZE","casa":"19","coordenadas":[39.903134506303694,-8.626591395524521]},{"id":"pt.ine.add.PTCONT.2047182","rua":"R ALBERGARIA DOS DOZE","casa":"5","coordenadas":[39.90215155644413,-8.626888379986962]},{"id":"pt.ine.add.PTCONT.2056256","rua":"R VIEIRA","casa":"13","coordenadas":[39.89932923509666,-8.625558482680425]},{"id":"pt.ine.add.PTCONT.2061998","rua":"R ALBERGARIA DOS DOZE","casa":"25","coordenadas":[39.89820934443065,-8.628403564100726]},{"id":"pt.ine.add.PTCONT.2082237","rua":"R ALBERGARIA DOS DOZE","casa":"39","coordenadas":[39.89703256085823,-8.629798231134524]},{"id":"pt.ine.add.PTCONT.2082238","rua":"R ALBERGARIA DOS DOZE","casa":"27","coordenadas":[39.89815430931323,-8.628637028144869]},{"id":"pt.ine.add.PTCONT.2137080","rua":"R ALBERGARIA DOS DOZE","casa":"","coordenadas":[39.897911995933384,-8.628436502383847]},{"id":"pt.ine.add.PTCONT.2165503","rua":"R ALBERGARIA DOS DOZE","casa":"1","coordenadas":[39.90275485991962,-8.626916098214542]},{"id":"pt.ine.add.PTCONT.2165781","rua":"R ALBERGARIA DOS DOZE","casa":"21","coordenadas":[39.89889689590537,-8.6276835393462]},{"id":"pt.ine.add.PTCONT.2169797","rua":"R CONGOSTAS","casa":"41","coordenadas":[39.89686094563982,-8.629913920156108]},{"id":"pt.ine.add.PTCONT.2171960","rua":"R ALBERGARIA DOS DOZE","casa":"7","coordenadas":[39.90190704926873,-8.627202353471597]},{"id":"pt.ine.add.PTCONT.2178425","rua":"R VIEIRA","casa":"4","coordenadas":[39.900339653476294,-8.627272949624633]},{"id":"pt.ine.add.PTCONT.2189525","rua":"R CONGOSTAS","casa":"33","coordenadas":[39.897657228839755,-8.629042700442382]},{"id":"pt.ine.add.PTCONT.2196448","rua":"ESTR CONGOSTAS","casa":"34","coordenadas":[39.89892892691496,-8.628619221145462]},{"id":"pt.ine.add.PTCONT.2200853","rua":"R CONGOSTAS","casa":"35","coordenadas":[39.89718826564889,-8.629191327095079]},{"id":"pt.ine.add.PTCONT.2200859","rua":"R VIEIRA","casa":"9","coordenadas":[39.89980387127645,-8.62619331804374]},{"id":"pt.ine.add.PTCONT.2218637","rua":"R ALBERGARIA DOS DOZE","casa":"29","coordenadas":[39.89802822503014,-8.628636120026169]},{"id":"pt.ine.add.PTCONT.2222940","rua":"R VIEIRA","casa":"12","coordenadas":[39.899792427715056,-8.626766207305552]},{"id":"pt.ine.add.PTCONT.2234135","rua":"R VIEIRA","casa":"3","coordenadas":[39.90038767102756,-8.626571690994894]},{"id":"pt.ine.add.PTCONT.2249241","rua":"R CONGOSTAS","casa":"23","coordenadas":[39.89869806521907,-8.62784581346476]}],"ruas":["R ALBERGARIA DOS DOZE","R CONGOSTAS","R VIEIRA","ESTR CONGOSTAS"],"centroide":[39.89940190763746,-8.627829134188815]}
+{
+  "CP": "3100-353",
+  "CP4": "3100",
+  "CP3": "353",
+  "Distrito": "Leiria",
+  "Concelho": "Pombal",
+  "Localidade": "Mouriscas",
+  "Designação Postal": "POMBAL",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2006819",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "",
+      "coordenadas": [
+        39.90106939005746,
+        -8.627219724042433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2035351",
+      "rua": "R CONGOSTAS",
+      "casa": "31",
+      "coordenadas": [
+        39.897901141286596,
+        -8.628869064100444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2045014",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "19",
+      "coordenadas": [
+        39.903134506303694,
+        -8.626591395524521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2047182",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "5",
+      "coordenadas": [
+        39.90215155644413,
+        -8.626888379986962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2056256",
+      "rua": "R VIEIRA",
+      "casa": "13",
+      "coordenadas": [
+        39.89932923509666,
+        -8.625558482680425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2061998",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "25",
+      "coordenadas": [
+        39.89820934443065,
+        -8.628403564100726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2082237",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "39",
+      "coordenadas": [
+        39.89703256085823,
+        -8.629798231134524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2082238",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "27",
+      "coordenadas": [
+        39.89815430931323,
+        -8.628637028144869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2137080",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "",
+      "coordenadas": [
+        39.897911995933384,
+        -8.628436502383847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2165503",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "1",
+      "coordenadas": [
+        39.90275485991962,
+        -8.626916098214542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2165781",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "21",
+      "coordenadas": [
+        39.89889689590537,
+        -8.6276835393462
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2169797",
+      "rua": "R CONGOSTAS",
+      "casa": "41",
+      "coordenadas": [
+        39.89686094563982,
+        -8.629913920156108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2171960",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "7",
+      "coordenadas": [
+        39.90190704926873,
+        -8.627202353471597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2178425",
+      "rua": "R VIEIRA",
+      "casa": "4",
+      "coordenadas": [
+        39.900339653476294,
+        -8.627272949624633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2189525",
+      "rua": "R CONGOSTAS",
+      "casa": "33",
+      "coordenadas": [
+        39.897657228839755,
+        -8.629042700442382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2196448",
+      "rua": "ESTR CONGOSTAS",
+      "casa": "34",
+      "coordenadas": [
+        39.89892892691496,
+        -8.628619221145462
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2200853",
+      "rua": "R CONGOSTAS",
+      "casa": "35",
+      "coordenadas": [
+        39.89718826564889,
+        -8.629191327095079
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2200859",
+      "rua": "R VIEIRA",
+      "casa": "9",
+      "coordenadas": [
+        39.89980387127645,
+        -8.62619331804374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2218637",
+      "rua": "R ALBERGARIA DOS DOZE",
+      "casa": "29",
+      "coordenadas": [
+        39.89802822503014,
+        -8.628636120026169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2222940",
+      "rua": "R VIEIRA",
+      "casa": "12",
+      "coordenadas": [
+        39.899792427715056,
+        -8.626766207305552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2234135",
+      "rua": "R VIEIRA",
+      "casa": "3",
+      "coordenadas": [
+        39.90038767102756,
+        -8.626571690994894
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2249241",
+      "rua": "R CONGOSTAS",
+      "casa": "23",
+      "coordenadas": [
+        39.89869806521907,
+        -8.62784581346476
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALBERGARIA DOS DOZE",
+    "R CONGOSTAS",
+    "R VIEIRA",
+    "ESTR CONGOSTAS"
+  ],
+  "centro": [
+    39.89999772597176,
+    -8.627736201418266
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.90017627242221,
+                -8.628227645313975
+              ],
+              [
+                39.89943953313723,
+                -8.628602373056674
+              ],
+              [
+                39.898800000638026,
+                -8.628918969314954
+              ],
+              [
+                39.89825767492457,
+                -8.629177434088819
+              ],
+              [
+                39.89781255599689,
+                -8.629377767378267
+              ],
+              [
+                39.89746464385497,
+                -8.6295199691833
+              ],
+              [
+                39.89721393849881,
+                -8.629604039503919
+              ],
+              [
+                39.897060439928424,
+                -8.629629978340121
+              ],
+              [
+                39.89700414814379,
+                -8.629597785691908
+              ],
+              [
+                39.89704506314492,
+                -8.629507461559278
+              ],
+              [
+                39.89711431641854,
+                -8.62937166474925
+              ],
+              [
+                39.89721190796463,
+                -8.62919039526182
+              ],
+              [
+                39.897337837783205,
+                -8.62896365309699
+              ],
+              [
+                39.89749210587426,
+                -8.62869143825476
+              ],
+              [
+                39.89767471223779,
+                -8.628373750735129
+              ],
+              [
+                39.8978856568738,
+                -8.6280105905381
+              ],
+              [
+                39.898124939782285,
+                -8.627601957663668
+              ],
+              [
+                39.898392560963266,
+                -8.627147852111836
+              ],
+              [
+                39.89868618685922,
+                -8.626766649017172
+              ],
+              [
+                39.89900581747017,
+                -8.626458348379677
+              ],
+              [
+                39.899351452796104,
+                -8.626222950199349
+              ],
+              [
+                39.89972309283703,
+                -8.626060454476189
+              ],
+              [
+                39.90012073759294,
+                -8.625970861210197
+              ],
+              [
+                39.900544387063846,
+                -8.625954170401373
+              ],
+              [
+                39.90099404124974,
+                -8.626010382049717
+              ],
+              [
+                39.901469700150614,
+                -8.62613949615523
+              ],
+              [
+                39.90187996971413,
+                -8.626257544477085
+              ],
+              [
+                39.902224849940296,
+                -8.62636452701528
+              ],
+              [
+                39.90250434082909,
+                -8.62646044376982
+              ],
+              [
+                39.90271844238052,
+                -8.626545294740703
+              ],
+              [
+                39.902867154594595,
+                -8.626619079927927
+              ],
+              [
+                39.9029504774713,
+                -8.626681799331497
+              ],
+              [
+                39.902968411010654,
+                -8.626733452951406
+              ],
+              [
+                39.90292095521266,
+                -8.626774040787657
+              ],
+              [
+                39.902787338978776,
+                -8.626856396112215
+              ],
+              [
+                39.902567562309024,
+                -8.626980518925079
+              ],
+              [
+                39.9022616252034,
+                -8.627146409226247
+              ],
+              [
+                39.90186952766191,
+                -8.627354067015721
+              ],
+              [
+                39.901391269684545,
+                -8.6276034922935
+              ],
+              [
+                39.90082685127131,
+                -8.627894685059585
+              ],
+              [
+                39.90017627242221,
+                -8.628227645313975
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.899853562521734,
+    -8.627634244734136
+  ],
+  "centroDeMassa": [
+    39.89999772597176,
+    -8.627736201418266
+  ]
+}

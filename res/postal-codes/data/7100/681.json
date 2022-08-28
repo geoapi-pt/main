@@ -1,1 +1,365 @@
-{"CP4":"7100","CP3":"681","Distrito":"Évora","Concelho":"Estremoz","CP":"7100-681","Artéria":"Bairro Condessa de Cuba","Localidade":"Veiros","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VEIROS ETZ","locais":[{"id":"pt.ine.add.PTCONT.1370085","rua":"BR CONDESSA DE CUBA","casa":"10","coordenadas":[38.955603487006385,-7.504032309028774]},{"id":"pt.ine.add.PTCONT.1372524","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95594811229827,-7.503986421198078]},{"id":"pt.ine.add.PTCONT.1381357","rua":"BR CONDESSA DE CUBA","casa":"15","coordenadas":[38.95612269467178,-7.503995858029819]},{"id":"pt.ine.add.PTCONT.1389626","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95542610466214,-7.504102021911051]},{"id":"pt.ine.add.PTCONT.1400731","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.955265500969325,-7.503396292822705]},{"id":"pt.ine.add.PTCONT.1408272","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95526673000128,-7.504172649307379]},{"id":"pt.ine.add.PTCONT.1411203","rua":"QTA COUVES","casa":"","coordenadas":[38.95457012948798,-7.504835217623693]},{"id":"pt.ine.add.PTCONT.1411697","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.954972665501515,-7.5043355175732795]},{"id":"pt.ine.add.PTCONT.1411945","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95490197793634,-7.504372045673497]},{"id":"pt.ine.add.PTCONT.1413206","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95577837147108,-7.503993009633847]},{"id":"pt.ine.add.PTCONT.1425787","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.955359015679285,-7.504131181501247]},{"id":"pt.ine.add.PTCONT.1427353","rua":"ESTR FERRAGIAL DO ZAMBUJEIRO","casa":"","coordenadas":[38.95636454480787,-7.5049533508477175]},{"id":"pt.ine.add.PTCONT.1429414","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95636027644531,-7.504026595101626]},{"id":"pt.ine.add.PTCONT.1430225","rua":"BR CONDESSA DE CUBA","casa":"17","coordenadas":[38.95628584282399,-7.504013179733093]},{"id":"pt.ine.add.PTCONT.1430226","rua":"BR CONDESSA DE CUBA","casa":"13","coordenadas":[38.95585804547059,-7.503988319302774]},{"id":"pt.ine.add.PTCONT.1435056","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.955524300984266,-7.504062692436248]},{"id":"pt.ine.add.PTCONT.1441671","rua":"BR CONDESSA DE CUBA","casa":"5","coordenadas":[38.95520448136551,-7.504206587045443]},{"id":"pt.ine.add.PTCONT.1447800","rua":"BR CONDESSA DE CUBA","casa":"16","coordenadas":[38.95619451163257,-7.504005777834745]},{"id":"pt.ine.add.PTCONT.1462142","rua":"BR CONDESSA DE CUBA","casa":"11","coordenadas":[38.95569170314893,-7.504006252648393]},{"id":"pt.ine.add.PTCONT.1463729","rua":"BR CONDESSA DE CUBA","casa":"","coordenadas":[38.95483016827553,-7.504418825582535]}],"ruas":["BR CONDESSA DE CUBA","QTA COUVES","ESTR FERRAGIAL DO ZAMBUJEIRO"],"centroide":[38.95561571033497,-7.504137646276495]}
+{
+  "CP": "7100-681",
+  "CP4": "7100",
+  "CP3": "681",
+  "Distrito": "Évora",
+  "Concelho": "Estremoz",
+  "Localidade": "Veiros",
+  "Designação Postal": "VEIROS ETZ",
+  "partes": [
+    {
+      "Artéria": "Bairro Condessa de Cuba",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1370085",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "10",
+      "coordenadas": [
+        38.955603487006385,
+        -7.504032309028774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1372524",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95594811229827,
+        -7.503986421198078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1381357",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "15",
+      "coordenadas": [
+        38.95612269467178,
+        -7.503995858029819
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1389626",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95542610466214,
+        -7.504102021911051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1400731",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.955265500969325,
+        -7.503396292822705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1408272",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95526673000128,
+        -7.504172649307379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411203",
+      "rua": "QTA COUVES",
+      "casa": "",
+      "coordenadas": [
+        38.95457012948798,
+        -7.504835217623693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411697",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.954972665501515,
+        -7.5043355175732795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411945",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95490197793634,
+        -7.504372045673497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413206",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95577837147108,
+        -7.503993009633847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425787",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.955359015679285,
+        -7.504131181501247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1427353",
+      "rua": "ESTR FERRAGIAL DO ZAMBUJEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.95636454480787,
+        -7.5049533508477175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1429414",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95636027644531,
+        -7.504026595101626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1430225",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "17",
+      "coordenadas": [
+        38.95628584282399,
+        -7.504013179733093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1430226",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "13",
+      "coordenadas": [
+        38.95585804547059,
+        -7.503988319302774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1435056",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.955524300984266,
+        -7.504062692436248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1441671",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "5",
+      "coordenadas": [
+        38.95520448136551,
+        -7.504206587045443
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1447800",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "16",
+      "coordenadas": [
+        38.95619451163257,
+        -7.504005777834745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1462142",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "11",
+      "coordenadas": [
+        38.95569170314893,
+        -7.504006252648393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1463729",
+      "rua": "BR CONDESSA DE CUBA",
+      "casa": "",
+      "coordenadas": [
+        38.95483016827553,
+        -7.504418825582535
+      ]
+    }
+  ],
+  "ruas": [
+    "BR CONDESSA DE CUBA",
+    "QTA COUVES",
+    "ESTR FERRAGIAL DO ZAMBUJEIRO"
+  ],
+  "centro": [
+    38.95546733714792,
+    -7.504174821835211
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.95557948810542,
+                -7.504901667562207
+              ],
+              [
+                38.95535518619043,
+                -7.504886900909204
+              ],
+              [
+                38.955169787194215,
+                -7.504851496887811
+              ],
+              [
+                38.95502329111677,
+                -7.504795455498028
+              ],
+              [
+                38.954915697958086,
+                -7.504718776739855
+              ],
+              [
+                38.954847007718186,
+                -7.504621460613292
+              ],
+              [
+                38.95481722039705,
+                -7.504503507118339
+              ],
+              [
+                38.95482633599467,
+                -7.504364916254994
+              ],
+              [
+                38.95487435451107,
+                -7.504205688023261
+              ],
+              [
+                38.95496127594624,
+                -7.504025822423138
+              ],
+              [
+                38.95505443806883,
+                -7.5038782884961375
+              ],
+              [
+                38.95515384087882,
+                -7.503763086242261
+              ],
+              [
+                38.95525948437624,
+                -7.5036802156615074
+              ],
+              [
+                38.955371368561075,
+                -7.503629676753879
+              ],
+              [
+                38.95548949343332,
+                -7.503611469519374
+              ],
+              [
+                38.95561385899299,
+                -7.503625593957991
+              ],
+              [
+                38.955744465240066,
+                -7.503672050069733
+              ],
+              [
+                38.95588131217456,
+                -7.503750837854598
+              ],
+              [
+                38.95600111993541,
+                -7.503834257724887
+              ],
+              [
+                38.95610388852262,
+                -7.503922309680602
+              ],
+              [
+                38.956189617936175,
+                -7.504014993721741
+              ],
+              [
+                38.95625830817609,
+                -7.504112309848304
+              ],
+              [
+                38.95630995924235,
+                -7.5042142580602915
+              ],
+              [
+                38.956344571134956,
+                -7.504320838357705
+              ],
+              [
+                38.95636214385392,
+                -7.504432050740541
+              ],
+              [
+                38.956362677399255,
+                -7.504547895208802
+              ],
+              [
+                38.956335106512036,
+                -7.504647413286905
+              ],
+              [
+                38.95627943119228,
+                -7.504730604974851
+              ],
+              [
+                38.956195651439984,
+                -7.5047974702726385
+              ],
+              [
+                38.95608376725515,
+                -7.504848009180267
+              ],
+              [
+                38.95594377863778,
+                -7.504882221697738
+              ],
+              [
+                38.95577568558787,
+                -7.504900107825052
+              ],
+              [
+                38.95557948810542,
+                -7.504901667562207
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.95564011292762,
+    -7.5043028640989355
+  ],
+  "centroDeMassa": [
+    38.95546733714792,
+    -7.504174821835211
+  ]
+}

@@ -1,1 +1,497 @@
-{"CP4":"2420","CP3":"095","Distrito":"Leiria","Concelho":"Leiria","CP":"2420-095","Artéria":"Rua Padre Joaquim José Pereira","Localidade":"Caranguejeira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CARANGUEJEIRA","locais":[{"id":"pt.ine.add.PTCONT.1989329","rua":"R HENRRIQUE PEREIRA RODRIGUES","casa":"8","coordenadas":[39.741887879776726,-8.704235100854241]},{"id":"pt.ine.add.PTCONT.2014609","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"20","coordenadas":[39.74210441078572,-8.70598687320816]},{"id":"pt.ine.add.PTCONT.2049237","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"37","coordenadas":[39.74309831792531,-8.703510089510058]},{"id":"pt.ine.add.PTCONT.2066092","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"32","coordenadas":[39.74266418763353,-8.703879843187803]},{"id":"pt.ine.add.PTCONT.2073347","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"10","coordenadas":[39.742649579822654,-8.706843053608631]},{"id":"pt.ine.add.PTCONT.2086668","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"23","coordenadas":[39.74253109462644,-8.705302074900144]},{"id":"pt.ine.add.PTCONT.2086669","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"2","coordenadas":[39.74325108819915,-8.707233045159956]},{"id":"pt.ine.add.PTCONT.2101882","rua":"R HENRRIQUE PEREIRA RODRIGUES","casa":"13 B","coordenadas":[39.74230600579933,-8.703456890465938]},{"id":"pt.ine.add.PTCONT.2117489","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"18","coordenadas":[39.74197653936577,-8.70634747719152]},{"id":"pt.ine.add.PTCONT.2149167","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"16","coordenadas":[39.74203854524856,-8.706557988934316]},{"id":"pt.ine.add.PTCONT.2160182","rua":"R HENRRIQUE PEREIRA RODRIGUES","casa":"13","coordenadas":[39.74230537521669,-8.703585217866067]},{"id":"pt.ine.add.PTCONT.2175334","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"14","coordenadas":[39.742082538449765,-8.706768351692444]},{"id":"pt.ine.add.PTCONT.2181978","rua":"R HENRRIQUE PEREIRA RODRIGUES","casa":"5","coordenadas":[39.74231833775145,-8.70461198571946]},{"id":"pt.ine.add.PTCONT.2186293","rua":"R HENRRIQUE PEREIRA RODRIGUES","casa":"3","coordenadas":[39.74238923801695,-8.70484590369222]},{"id":"pt.ine.add.PTCONT.2207669","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"31","coordenadas":[39.743183559945884,-8.704490799166095]},{"id":"pt.ine.add.PTCONT.2211177","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"17","coordenadas":[39.742357158643706,-8.705872300076834]},{"id":"pt.ine.add.PTCONT.2213383","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"7","coordenadas":[39.742803837294616,-8.706610999254485]},{"id":"pt.ine.add.PTCONT.2231415","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"8","coordenadas":[39.742639535606656,-8.707052970098701]},{"id":"pt.ine.add.PTCONT.2264988","rua":"R PADRE JOAQUIM JOSE PEREIRA","casa":"27","coordenadas":[39.742956855320095,-8.704803927883765]}],"ruas":["R HENRRIQUE PEREIRA RODRIGUES","R PADRE JOAQUIM JOSE PEREIRA"],"centroide":[39.74247706833939,-8.705399498032612]}
+{
+  "CP": "2420-095",
+  "CP4": "2420",
+  "CP3": "095",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Caranguejeira",
+  "Designação Postal": "CARANGUEJEIRA",
+  "partes": [
+    {
+      "Artéria": "Rua Henrique Pereira Rodrigues",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Maestro António Cordeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Padre Joaquim José Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1989329",
+      "rua": "R HENRRIQUE PEREIRA RODRIGUES",
+      "casa": "8",
+      "coordenadas": [
+        39.741887879776726,
+        -8.704235100854241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2014609",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "20",
+      "coordenadas": [
+        39.74210441078572,
+        -8.70598687320816
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2049237",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "37",
+      "coordenadas": [
+        39.74309831792531,
+        -8.703510089510058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2066092",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "32",
+      "coordenadas": [
+        39.74266418763353,
+        -8.703879843187803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2073347",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "10",
+      "coordenadas": [
+        39.742649579822654,
+        -8.706843053608631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2086668",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "23",
+      "coordenadas": [
+        39.74253109462644,
+        -8.705302074900144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2086669",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "2",
+      "coordenadas": [
+        39.74325108819915,
+        -8.707233045159956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2101882",
+      "rua": "R HENRRIQUE PEREIRA RODRIGUES",
+      "casa": "13 B",
+      "coordenadas": [
+        39.74230600579933,
+        -8.703456890465938
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2117489",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "18",
+      "coordenadas": [
+        39.74197653936577,
+        -8.70634747719152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2149167",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "16",
+      "coordenadas": [
+        39.74203854524856,
+        -8.706557988934316
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2160182",
+      "rua": "R HENRRIQUE PEREIRA RODRIGUES",
+      "casa": "13",
+      "coordenadas": [
+        39.74230537521669,
+        -8.703585217866067
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2175334",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "14",
+      "coordenadas": [
+        39.742082538449765,
+        -8.706768351692444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2181978",
+      "rua": "R HENRRIQUE PEREIRA RODRIGUES",
+      "casa": "5",
+      "coordenadas": [
+        39.74231833775145,
+        -8.70461198571946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2186293",
+      "rua": "R HENRRIQUE PEREIRA RODRIGUES",
+      "casa": "3",
+      "coordenadas": [
+        39.74238923801695,
+        -8.70484590369222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2207669",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "31",
+      "coordenadas": [
+        39.743183559945884,
+        -8.704490799166095
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211177",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "17",
+      "coordenadas": [
+        39.742357158643706,
+        -8.705872300076834
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2213383",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "7",
+      "coordenadas": [
+        39.742803837294616,
+        -8.706610999254485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2231415",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "8",
+      "coordenadas": [
+        39.742639535606656,
+        -8.707052970098701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2264988",
+      "rua": "R PADRE JOAQUIM JOSE PEREIRA",
+      "casa": "27",
+      "coordenadas": [
+        39.742956855320095,
+        -8.704803927883765
+      ]
+    }
+  ],
+  "ruas": [
+    "R HENRRIQUE PEREIRA RODRIGUES",
+    "R PADRE JOAQUIM JOSE PEREIRA"
+  ],
+  "centro": [
+    39.742569483987936,
+    -8.705344967812948
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.741937750795564,
+                -8.70542331254396
+              ],
+              [
+                39.741926668346935,
+                -8.7051592655018
+              ],
+              [
+                39.74192350442348,
+                -8.704916064802593
+              ],
+              [
+                39.741928259025215,
+                -8.704693710446339
+              ],
+              [
+                39.74194093215213,
+                -8.704492202433038
+              ],
+              [
+                39.74196152380423,
+                -8.704311540762689
+              ],
+              [
+                39.74199003398151,
+                -8.704151725435292
+              ],
+              [
+                39.74202646268397,
+                -8.704012756450847
+              ],
+              [
+                39.74207080991161,
+                -8.703894633809359
+              ],
+              [
+                39.74212307566444,
+                -8.70379735751082
+              ],
+              [
+                39.74218118807513,
+                -8.703713071984666
+              ],
+              [
+                39.742245147143684,
+                -8.703641777230889
+              ],
+              [
+                39.7423149528701,
+                -8.703583473249497
+              ],
+              [
+                39.7423906052544,
+                -8.703538160040486
+              ],
+              [
+                39.74247210429655,
+                -8.703505837603856
+              ],
+              [
+                39.74255944999656,
+                -8.703486505939608
+              ],
+              [
+                39.74265264235444,
+                -8.703480165047742
+              ],
+              [
+                39.742751681370194,
+                -8.703486814928256
+              ],
+              [
+                39.74283967241554,
+                -8.703507957162081
+              ],
+              [
+                39.74291661549049,
+                -8.70354359174922
+              ],
+              [
+                39.742982510595056,
+                -8.703593718689667
+              ],
+              [
+                39.743037357729214,
+                -8.703658337983427
+              ],
+              [
+                39.74308115689298,
+                -8.703737449630498
+              ],
+              [
+                39.74311390808634,
+                -8.703831053630879
+              ],
+              [
+                39.743135611309306,
+                -8.703939149984574
+              ],
+              [
+                39.74314626656189,
+                -8.704061738691578
+              ],
+              [
+                39.74315664503684,
+                -8.704211851403862
+              ],
+              [
+                39.74316674673418,
+                -8.704389488121425
+              ],
+              [
+                39.74317657165391,
+                -8.704594648844264
+              ],
+              [
+                39.74318611979602,
+                -8.704827333572382
+              ],
+              [
+                39.743195391160526,
+                -8.70508754230578
+              ],
+              [
+                39.74320438574741,
+                -8.705375275044453
+              ],
+              [
+                39.743213103556684,
+                -8.70569053178841
+              ],
+              [
+                39.74322154458835,
+                -8.706033312537642
+              ],
+              [
+                39.74321937498179,
+                -8.70633043202039
+              ],
+              [
+                39.743206594737025,
+                -8.706581890236649
+              ],
+              [
+                39.74318320385404,
+                -8.706787687186424
+              ],
+              [
+                39.74314920233283,
+                -8.706947822869711
+              ],
+              [
+                39.74310459017342,
+                -8.707062297286512
+              ],
+              [
+                39.74304936737578,
+                -8.70713111043683
+              ],
+              [
+                39.742983533939935,
+                -8.707154262320657
+              ],
+              [
+                39.742907089865874,
+                -8.707131752938
+              ],
+              [
+                39.7428314982205,
+                -8.707107610065577
+              ],
+              [
+                39.7427567590038,
+                -8.707081833703388
+              ],
+              [
+                39.74268287221578,
+                -8.707054423851435
+              ],
+              [
+                39.742609837856435,
+                -8.707025380509716
+              ],
+              [
+                39.74253765592579,
+                -8.70699470367823
+              ],
+              [
+                39.74246632642381,
+                -8.706962393356982
+              ],
+              [
+                39.742395849350515,
+                -8.706928449545964
+              ],
+              [
+                39.742326224705906,
+                -8.70689287224518
+              ],
+              [
+                39.74226364690618,
+                -8.706855165942919
+              ],
+              [
+                39.74220811595134,
+                -8.706815330639179
+              ],
+              [
+                39.7421596318414,
+                -8.706773366333959
+              ],
+              [
+                39.74211819457635,
+                -8.70672927302726
+              ],
+              [
+                39.74208380415618,
+                -8.706683050719082
+              ],
+              [
+                39.74205646058091,
+                -8.706634699409427
+              ],
+              [
+                39.74203616385052,
+                -8.70658421909829
+              ],
+              [
+                39.74202291396502,
+                -8.706531609785674
+              ],
+              [
+                39.742009935009136,
+                -8.706452570756865
+              ],
+              [
+                39.741997226982846,
+                -8.706347102011863
+              ],
+              [
+                39.741984789886175,
+                -8.706215203550668
+              ],
+              [
+                39.74197262371911,
+                -8.706056875373282
+              ],
+              [
+                39.74196072848165,
+                -8.7058721174797
+              ],
+              [
+                39.741949104173806,
+                -8.705660929869927
+              ],
+              [
+                39.741937750795564,
+                -8.70542331254396
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.74255318313357,
+    -8.705386840517368
+  ],
+  "centroDeMassa": [
+    39.742569483987936,
+    -8.705344967812948
+  ]
+}

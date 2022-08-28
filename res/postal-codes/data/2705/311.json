@@ -1,1 +1,532 @@
-{"CP4":"2705","CP3":"311","Distrito":"Lisboa","Concelho":"Sintra","CP":"2705-311","Artéria":"Rua João Paulo Pires","Localidade":"Praia das Maçãs","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"COLARES","locais":[{"id":"pt.ine.add.PTCONT.2342751","rua":"R JOÃO PAULO PIRES","casa":"53","coordenadas":[38.830259592740745,-9.465697893234243]},{"id":"pt.ine.add.PTCONT.2362724","rua":"R JOÃO PAULO PIRES","casa":"57","coordenadas":[38.83014409644583,-9.465557551527834]},{"id":"pt.ine.add.PTCONT.2380180","rua":"R JOÃO PAULO PIRES","casa":"25","coordenadas":[38.83184753512865,-9.46625723864555]},{"id":"pt.ine.add.PTCONT.2511568","rua":"R JOÃO PAULO PIRES","casa":"37","coordenadas":[38.83102138794856,-9.46603454161127]},{"id":"pt.ine.add.PTCONT.2545193","rua":"R JOÃO PAULO PIRES","casa":"33","coordenadas":[38.83130161171675,-9.465947641706773]},{"id":"pt.ine.add.PTCONT.2597076","rua":"R JOÃO PAULO PIRES","casa":"22","coordenadas":[38.83109744446855,-9.466473561456555]},{"id":"pt.ine.add.PTCONT.2695877","rua":"R JOÃO PAULO PIRES","casa":"18","coordenadas":[38.831385622665564,-9.4664789385429]},{"id":"pt.ine.add.PTCONT.2723142","rua":"R JOÃO PAULO PIRES","casa":"35","coordenadas":[38.83113885452886,-9.466002185187094]},{"id":"pt.ine.add.PTCONT.2778769","rua":"R JOÃO PAULO PIRES","casa":"9","coordenadas":[38.83255884357951,-9.466282025273516]},{"id":"pt.ine.add.PTCONT.2826445","rua":"R JOÃO PAULO PIRES","casa":"1","coordenadas":[38.83305388691851,-9.466314293711202]},{"id":"pt.ine.add.PTCONT.2930293","rua":"R JOÃO PAULO PIRES","casa":"3","coordenadas":[38.83231083006578,-9.466703490702574]},{"id":"pt.ine.add.PTCONT.2936973","rua":"R JOÃO PAULO PIRES","casa":"53","coordenadas":[38.830234020841836,-9.465570743881257]},{"id":"pt.ine.add.PTCONT.2984164","rua":"R JOÃO PAULO PIRES","casa":"12","coordenadas":[38.83208634818036,-9.46664172136817]},{"id":"pt.ine.add.PTCONT.2984165","rua":"R JOÃO PAULO PIRES","casa":"55","coordenadas":[38.83018886163256,-9.465581417539259]},{"id":"pt.ine.add.PTCONT.3021967","rua":"R JOÃO PAULO PIRES","casa":"14","coordenadas":[38.831799090162804,-9.46655574912633]},{"id":"pt.ine.add.PTCONT.3078209","rua":"R JOÃO PAULO PIRES","casa":"4","coordenadas":[38.83276084543256,-9.466734921516338]},{"id":"pt.ine.add.PTCONT.3096614","rua":"R JOÃO PAULO PIRES","casa":"16","coordenadas":[38.831574213851404,-9.4665285210776]},{"id":"pt.ine.add.PTCONT.3168775","rua":"R JOÃO PAULO PIRES","casa":"6","coordenadas":[38.83247266733359,-9.466729543134013]},{"id":"pt.ine.add.PTCONT.3197966","rua":"R JOÃO PAULO PIRES NOSSA SENHORA DA PRAIA","casa":"","coordenadas":[38.830131614074624,-9.466651306995853]},{"id":"pt.ine.add.PTCONT.3235954","rua":"R JOÃO PAULO PIRES","casa":"59","coordenadas":[38.830087830072095,-9.465752268624101]},{"id":"pt.ine.add.PTCONT.3272292","rua":"R JOÃO PAULO PIRES","casa":"13","coordenadas":[38.832162861432266,-9.466251605500128]},{"id":"pt.ine.add.PTCONT.3319065","rua":"R JOÃO PAULO PIRES","casa":"","coordenadas":[38.82991462231169,-9.465933288751545]},{"id":"pt.ine.add.PTCONT.3329688","rua":"R JOÃO PAULO PIRES","casa":"29","coordenadas":[38.8316594694493,-9.466161602772488]},{"id":"pt.ine.add.PTCONT.3355346","rua":"R JOÃO PAULO PIRES","casa":"19","coordenadas":[38.831973218839885,-9.466294131323686]},{"id":"pt.ine.add.PTCONT.3371805","rua":"R JOÃO PAULO PIRES","casa":"49","coordenadas":[38.83034938575987,-9.46572259904071]},{"id":"pt.ine.add.PTCONT.3401541","rua":"R JOÃO PAULO PIRES","casa":"20","coordenadas":[38.83118605432624,-9.466601888993958]},{"id":"pt.ine.add.PTCONT.3401542","rua":"R JOÃO PAULO PIRES","casa":"20","coordenadas":[38.83118605432624,-9.466601888993958]},{"id":"pt.ine.add.PTCONT.3447730","rua":"R JOÃO PAULO PIRES","casa":"15","coordenadas":[38.83204447485893,-9.46636455657872]}],"ruas":["R JOÃO PAULO PIRES","R JOÃO PAULO PIRES NOSSA SENHORA DA PRAIA"],"centroide":[38.83132914311979,-9.466224539268108]}
+{
+  "CP": "2705-311",
+  "CP4": "2705",
+  "CP3": "311",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Praia das Maçãs",
+  "Designação Postal": "COLARES",
+  "partes": [
+    {
+      "Artéria": "Rua João Paulo Pires",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2342751",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "53",
+      "coordenadas": [
+        38.830259592740745,
+        -9.465697893234243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2362724",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "57",
+      "coordenadas": [
+        38.83014409644583,
+        -9.465557551527834
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2380180",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "25",
+      "coordenadas": [
+        38.83184753512865,
+        -9.46625723864555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2511568",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "37",
+      "coordenadas": [
+        38.83102138794856,
+        -9.46603454161127
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2545193",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "33",
+      "coordenadas": [
+        38.83130161171675,
+        -9.465947641706773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2597076",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "22",
+      "coordenadas": [
+        38.83109744446855,
+        -9.466473561456555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2695877",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "18",
+      "coordenadas": [
+        38.831385622665564,
+        -9.4664789385429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2723142",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "35",
+      "coordenadas": [
+        38.83113885452886,
+        -9.466002185187094
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2778769",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "9",
+      "coordenadas": [
+        38.83255884357951,
+        -9.466282025273516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2826445",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "1",
+      "coordenadas": [
+        38.83305388691851,
+        -9.466314293711202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2930293",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "3",
+      "coordenadas": [
+        38.83231083006578,
+        -9.466703490702574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2936973",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "53",
+      "coordenadas": [
+        38.830234020841836,
+        -9.465570743881257
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2984164",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "12",
+      "coordenadas": [
+        38.83208634818036,
+        -9.46664172136817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2984165",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "55",
+      "coordenadas": [
+        38.83018886163256,
+        -9.465581417539259
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3021967",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "14",
+      "coordenadas": [
+        38.831799090162804,
+        -9.46655574912633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3078209",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "4",
+      "coordenadas": [
+        38.83276084543256,
+        -9.466734921516338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3096614",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "16",
+      "coordenadas": [
+        38.831574213851404,
+        -9.4665285210776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3168775",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "6",
+      "coordenadas": [
+        38.83247266733359,
+        -9.466729543134013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3197966",
+      "rua": "R JOÃO PAULO PIRES NOSSA SENHORA DA PRAIA",
+      "casa": "",
+      "coordenadas": [
+        38.830131614074624,
+        -9.466651306995853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3235954",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "59",
+      "coordenadas": [
+        38.830087830072095,
+        -9.465752268624101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3272292",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "13",
+      "coordenadas": [
+        38.832162861432266,
+        -9.466251605500128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3319065",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "",
+      "coordenadas": [
+        38.82991462231169,
+        -9.465933288751545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3329688",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "29",
+      "coordenadas": [
+        38.8316594694493,
+        -9.466161602772488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3355346",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "19",
+      "coordenadas": [
+        38.831973218839885,
+        -9.466294131323686
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3371805",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "49",
+      "coordenadas": [
+        38.83034938575987,
+        -9.46572259904071
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3401541",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "20",
+      "coordenadas": [
+        38.83118605432624,
+        -9.466601888993958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3401542",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "20",
+      "coordenadas": [
+        38.83118605432624,
+        -9.466601888993958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3447730",
+      "rua": "R JOÃO PAULO PIRES",
+      "casa": "15",
+      "coordenadas": [
+        38.83204447485893,
+        -9.46636455657872
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOÃO PAULO PIRES",
+    "R JOÃO PAULO PIRES NOSSA SENHORA DA PRAIA"
+  ],
+  "centro": [
+    38.831484254615106,
+    -9.466146236522086
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.83003668017834,
+                -9.466337174013969
+              ],
+              [
+                38.83000955620797,
+                -9.46624742173343
+              ],
+              [
+                38.829989408267245,
+                -9.466163017593837
+              ],
+              [
+                38.82997623635616,
+                -9.466083961595194
+              ],
+              [
+                38.82997004047472,
+                -9.466010253737496
+              ],
+              [
+                38.829970820622925,
+                -9.465941894020743
+              ],
+              [
+                38.82997857680077,
+                -9.465878882444938
+              ],
+              [
+                38.829993309008245,
+                -9.465821219010083
+              ],
+              [
+                38.83001501724537,
+                -9.465768903716171
+              ],
+              [
+                38.830043701512146,
+                -9.465721936563208
+              ],
+              [
+                38.83007020531426,
+                -9.465681046434886
+              ],
+              [
+                38.830094528651706,
+                -9.465646233331208
+              ],
+              [
+                38.8301166715245,
+                -9.465617497252172
+              ],
+              [
+                38.83013663393263,
+                -9.465594838197777
+              ],
+              [
+                38.83015441587611,
+                -9.465578256168028
+              ],
+              [
+                38.83017001735492,
+                -9.46556775116292
+              ],
+              [
+                38.830183438369076,
+                -9.465563323182455
+              ],
+              [
+                38.83019467891859,
+                -9.465564972226634
+              ],
+              [
+                38.830248574806845,
+                -9.465578033106382
+              ],
+              [
+                38.83034512603387,
+                -9.4656025058217
+              ],
+              [
+                38.83048433259965,
+                -9.46563839037259
+              ],
+              [
+                38.83066619450419,
+                -9.465685686759052
+              ],
+              [
+                38.83089071174749,
+                -9.465744394981083
+              ],
+              [
+                38.83115788432956,
+                -9.465814515038684
+              ],
+              [
+                38.83146771225039,
+                -9.465896046931856
+              ],
+              [
+                38.83182019550996,
+                -9.465988990660602
+              ],
+              [
+                38.832124039588884,
+                -9.466076888732708
+              ],
+              [
+                38.832379244487136,
+                -9.466159741148175
+              ],
+              [
+                38.83258581020472,
+                -9.466237547907005
+              ],
+              [
+                38.83274373674165,
+                -9.466310309009197
+              ],
+              [
+                38.8328530240979,
+                -9.466378024454752
+              ],
+              [
+                38.832913672273484,
+                -9.46644069424367
+              ],
+              [
+                38.83292568126841,
+                -9.46649831837595
+              ],
+              [
+                38.83288905108267,
+                -9.46655089685159
+              ],
+              [
+                38.83285249688734,
+                -9.466596818980554
+              ],
+              [
+                38.83281601868244,
+                -9.466636084762836
+              ],
+              [
+                38.83277961646796,
+                -9.466668694198441
+              ],
+              [
+                38.8327432902439,
+                -9.466694647287367
+              ],
+              [
+                38.83270704001026,
+                -9.466713944029614
+              ],
+              [
+                38.83267086576706,
+                -9.466726584425182
+              ],
+              [
+                38.832634767514264,
+                -9.46673256847407
+              ],
+              [
+                38.832598745251886,
+                -9.46673189617628
+              ],
+              [
+                38.832530646815144,
+                -9.466730085476055
+              ],
+              [
+                38.832430472204024,
+                -9.466727136373393
+              ],
+              [
+                38.832298221418526,
+                -9.4667230488683
+              ],
+              [
+                38.83213389445866,
+                -9.466717822960767
+              ],
+              [
+                38.83193749132441,
+                -9.466711458650803
+              ],
+              [
+                38.831709012015786,
+                -9.466703955938403
+              ],
+              [
+                38.83144845653279,
+                -9.466695314823568
+              ],
+              [
+                38.831155824875424,
+                -9.466685535306299
+              ],
+              [
+                38.830896381678926,
+                -9.46666575919362
+              ],
+              [
+                38.8306701269433,
+                -9.466635986485532
+              ],
+              [
+                38.83047706066856,
+                -9.466596217182037
+              ],
+              [
+                38.8303171828547,
+                -9.466546451283133
+              ],
+              [
+                38.8301904935017,
+                -9.46648668878882
+              ],
+              [
+                38.83009699260958,
+                -9.466416929699099
+              ],
+              [
+                38.83003668017834,
+                -9.466337174013969
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.83124453619409,
+    -9.46621309278829
+  ],
+  "centroDeMassa": [
+    38.831484254615106,
+    -9.466146236522086
+  ]
+}

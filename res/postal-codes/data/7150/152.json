@@ -1,1 +1,460 @@
-{"CP4":"7150","CP3":"152","Distrito":"Évora","Concelho":"Borba","CP":"7150-152","Artéria":"Largo Combatentes da Grande Guerra","Localidade":"Borba","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BORBA","locais":[{"id":"pt.ine.add.PTCONT.1372620","rua":"LG COMBATENTES GRANDE GUERRA","casa":"7","coordenadas":[38.80425132445559,-7.458705678786707]},{"id":"pt.ine.add.PTCONT.1372621","rua":"LG COMBATENTES GRANDE GUERRA","casa":"11","coordenadas":[38.80425132445559,-7.458705678786707]},{"id":"pt.ine.add.PTCONT.1374663","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"41","coordenadas":[38.80474976969559,-7.459350232324048]},{"id":"pt.ine.add.PTCONT.1376311","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"4","coordenadas":[38.80449386056583,-7.458588271996262]},{"id":"pt.ine.add.PTCONT.1387996","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"21","coordenadas":[38.80444436225685,-7.4589839754601295]},{"id":"pt.ine.add.PTCONT.1395685","rua":"LG COMBATENTES GRANDE GUERRA","casa":"23","coordenadas":[38.80452489400787,-7.459086098563405]},{"id":"pt.ine.add.PTCONT.1395686","rua":"LG COMBATENTES GRANDE GUERRA","casa":"23 A","coordenadas":[38.80452489400787,-7.459086098563405]},{"id":"pt.ine.add.PTCONT.1395687","rua":"LG COMBATENTES GRANDE GUERRA","casa":"27","coordenadas":[38.80452489400787,-7.459086098563405]},{"id":"pt.ine.add.PTCONT.1397124","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"12","coordenadas":[38.805082399249365,-7.459112280798735]},{"id":"pt.ine.add.PTCONT.1400897","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"12-14","coordenadas":[38.8047971896402,-7.45891852337962]},{"id":"pt.ine.add.PTCONT.1401399","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"12-14","coordenadas":[38.8047971896402,-7.45891852337962]},{"id":"pt.ine.add.PTCONT.1404262","rua":"LG COMBATENTES GRANDE GUERRA","casa":"2","coordenadas":[38.80441232848793,-7.45850845657262]},{"id":"pt.ine.add.PTCONT.1404264","rua":"LG COMBATENTES GRANDE GUERRA","casa":"2","coordenadas":[38.80441232848793,-7.45850845657262]},{"id":"pt.ine.add.PTCONT.1408447","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"19 A","coordenadas":[38.80440571298762,-7.45892295179577]},{"id":"pt.ine.add.PTCONT.1430043","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"37","coordenadas":[38.80469532681034,-7.459281672656667]},{"id":"pt.ine.add.PTCONT.1431665","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"43","coordenadas":[38.80477760724496,-7.4593684182576725]},{"id":"pt.ine.add.PTCONT.1444852","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"22","coordenadas":[38.80492960775539,-7.45914740476943]},{"id":"pt.ine.add.PTCONT.1444853","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"22","coordenadas":[38.80492960775539,-7.45914740476943]},{"id":"pt.ine.add.PTCONT.1447676","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"15","coordenadas":[38.80435120342498,-7.458842881394624]},{"id":"pt.ine.add.PTCONT.1464698","rua":"LG COMBATENTES DA GRANDE GUERRA","casa":"18","coordenadas":[38.80493080683889,-7.459033124288413]}],"ruas":["LG COMBATENTES GRANDE GUERRA","LG COMBATENTES DA GRANDE GUERRA"],"centroide":[38.80459767499672,-7.45896153196794]}
+{
+  "CP": "7150-152",
+  "CP4": "7150",
+  "CP3": "152",
+  "Distrito": "Évora",
+  "Concelho": "Borba",
+  "Localidade": "Borba",
+  "Designação Postal": "BORBA",
+  "partes": [
+    {
+      "Artéria": "Largo Combatentes da Grande Guerra",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1372620",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "7",
+      "coordenadas": [
+        38.80425132445559,
+        -7.458705678786707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1372621",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "11",
+      "coordenadas": [
+        38.80425132445559,
+        -7.458705678786707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1374663",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "41",
+      "coordenadas": [
+        38.80474976969559,
+        -7.459350232324048
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1376311",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "4",
+      "coordenadas": [
+        38.80449386056583,
+        -7.458588271996262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1387996",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "21",
+      "coordenadas": [
+        38.80444436225685,
+        -7.4589839754601295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395685",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "23",
+      "coordenadas": [
+        38.80452489400787,
+        -7.459086098563405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395686",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "23 A",
+      "coordenadas": [
+        38.80452489400787,
+        -7.459086098563405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395687",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "27",
+      "coordenadas": [
+        38.80452489400787,
+        -7.459086098563405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1397124",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "12",
+      "coordenadas": [
+        38.805082399249365,
+        -7.459112280798735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1400897",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "12-14",
+      "coordenadas": [
+        38.8047971896402,
+        -7.45891852337962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1401399",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "12-14",
+      "coordenadas": [
+        38.8047971896402,
+        -7.45891852337962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1404262",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "2",
+      "coordenadas": [
+        38.80441232848793,
+        -7.45850845657262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1404264",
+      "rua": "LG COMBATENTES GRANDE GUERRA",
+      "casa": "2",
+      "coordenadas": [
+        38.80441232848793,
+        -7.45850845657262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1408447",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "19 A",
+      "coordenadas": [
+        38.80440571298762,
+        -7.45892295179577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1430043",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "37",
+      "coordenadas": [
+        38.80469532681034,
+        -7.459281672656667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1431665",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "43",
+      "coordenadas": [
+        38.80477760724496,
+        -7.4593684182576725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444852",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "22",
+      "coordenadas": [
+        38.80492960775539,
+        -7.45914740476943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444853",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "22",
+      "coordenadas": [
+        38.80492960775539,
+        -7.45914740476943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1447676",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "15",
+      "coordenadas": [
+        38.80435120342498,
+        -7.458842881394624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1464698",
+      "rua": "LG COMBATENTES DA GRANDE GUERRA",
+      "casa": "18",
+      "coordenadas": [
+        38.80493080683889,
+        -7.459033124288413
+      ]
+    }
+  ],
+  "ruas": [
+    "LG COMBATENTES GRANDE GUERRA",
+    "LG COMBATENTES DA GRANDE GUERRA"
+  ],
+  "centro": [
+    38.80466686185248,
+    -7.458938437415146
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.8043599082188,
+                -7.458862220665507
+              ],
+              [
+                38.804335778493645,
+                -7.458827433581329
+              ],
+              [
+                38.804317180672136,
+                -7.458793913285579
+              ],
+              [
+                38.80430411475428,
+                -7.458761659778254
+              ],
+              [
+                38.80429658074007,
+                -7.4587306730593586
+              ],
+              [
+                38.80429457862951,
+                -7.458700953128889
+              ],
+              [
+                38.8042981084226,
+                -7.458672499986847
+              ],
+              [
+                38.804307170119344,
+                -7.458645313633232
+              ],
+              [
+                38.80432176371974,
+                -7.458619394068044
+              ],
+              [
+                38.80434188922378,
+                -7.458594741291283
+              ],
+              [
+                38.804369968895465,
+                -7.458582604865151
+              ],
+              [
+                38.80440600273479,
+                -7.458582984789646
+              ],
+              [
+                38.80444999074176,
+                -7.4585958810647695
+              ],
+              [
+                38.80450193291637,
+                -7.458621293690521
+              ],
+              [
+                38.804561829258624,
+                -7.458659222666901
+              ],
+              [
+                38.80462967976852,
+                -7.458709667993909
+              ],
+              [
+                38.80470548444605,
+                -7.458772629671545
+              ],
+              [
+                38.80478924329124,
+                -7.45884810769981
+              ],
+              [
+                38.8048577699057,
+                -7.458918153122338
+              ],
+              [
+                38.80491106428945,
+                -7.458982765939126
+              ],
+              [
+                38.80494912644248,
+                -7.45904194615018
+              ],
+              [
+                38.80497195636479,
+                -7.459095693755495
+              ],
+              [
+                38.80497955405639,
+                -7.459144008755073
+              ],
+              [
+                38.80497191951727,
+                -7.459186891148915
+              ],
+              [
+                38.80494905274744,
+                -7.45922434093702
+              ],
+              [
+                38.804910953746884,
+                -7.4592563581193865
+              ],
+              [
+                38.8048771821597,
+                -7.4592840889987455
+              ],
+              [
+                38.80484773798587,
+                -7.459307533575096
+              ],
+              [
+                38.8048226212254,
+                -7.459326691848437
+              ],
+              [
+                38.80480183187828,
+                -7.459341563818769
+              ],
+              [
+                38.80478536994453,
+                -7.459352149486092
+              ],
+              [
+                38.804773235424136,
+                -7.4593584488504066
+              ],
+              [
+                38.804765428317104,
+                -7.459360461911712
+              ],
+              [
+                38.804761948623444,
+                -7.459358188670008
+              ],
+              [
+                38.80475539020886,
+                -7.459352072493508
+              ],
+              [
+                38.80474575307336,
+                -7.459342113382211
+              ],
+              [
+                38.804733037216955,
+                -7.459328311336116
+              ],
+              [
+                38.80471724263964,
+                -7.459310666355225
+              ],
+              [
+                38.80469836934141,
+                -7.459289178439536
+              ],
+              [
+                38.80467641732226,
+                -7.45926384758905
+              ],
+              [
+                38.80465138658221,
+                -7.459234673803766
+              ],
+              [
+                38.80462327712125,
+                -7.459201657083686
+              ],
+              [
+                38.804597423034295,
+                -7.4591711717801275
+              ],
+              [
+                38.80457382432135,
+                -7.4591432178930885
+              ],
+              [
+                38.804552480982416,
+                -7.459117795422573
+              ],
+              [
+                38.80453339301749,
+                -7.459094904368579
+              ],
+              [
+                38.804516560426585,
+                -7.459074544731105
+              ],
+              [
+                38.80450198320968,
+                -7.459056716510153
+              ],
+              [
+                38.804489661366794,
+                -7.459041419705722
+              ],
+              [
+                38.80447959489792,
+                -7.459028654317812
+              ],
+              [
+                38.80446777052201,
+                -7.4590131362178695
+              ],
+              [
+                38.80445418823906,
+                -7.458994865405893
+              ],
+              [
+                38.80443884804908,
+                -7.458973841881883
+              ],
+              [
+                38.80442174995206,
+                -7.45895006564584
+              ],
+              [
+                38.80440289394801,
+                -7.458923536697762
+              ],
+              [
+                38.804382280036926,
+                -7.458894255037651
+              ],
+              [
+                38.8043599082188,
+                -7.458862220665507
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.804606097914025,
+    -7.459016448680473
+  ],
+  "centroDeMassa": [
+    38.80466686185248,
+    -7.458938437415146
+  ]
+}

@@ -1,1 +1,503 @@
-{"CP4":"3630","CP3":"215","Distrito":"Viseu","Concelho":"Penedono","CP":"3630-215","Artéria":"Tapada da Páscoa","Localidade":"Ferronha","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PENEDONO","locais":[{"id":"pt.ine.add.PTCONT.5433639","rua":"R EIRA DE FORA","casa":"7","coordenadas":[40.97890469978827,-7.373802103905958]},{"id":"pt.ine.add.PTCONT.5441206","rua":"R TAPADA DA PASCOA","casa":"1","coordenadas":[40.9800946043598,-7.378113473584025]},{"id":"pt.ine.add.PTCONT.5443337","rua":"R SANTO ANTÓNIO","casa":"3","coordenadas":[40.97964979653522,-7.37619368895055]},{"id":"pt.ine.add.PTCONT.5475584","rua":"R TAPADA PASCOA","casa":"9","coordenadas":[40.978576735849984,-7.377334712079055]},{"id":"pt.ine.add.PTCONT.5488417","rua":"R TAPADA DA PASCOA","casa":"3","coordenadas":[40.97940291169196,-7.376992591246633]},{"id":"pt.ine.add.PTCONT.5504169","rua":"R TAPADA DA PASCOA","casa":"10","coordenadas":[40.97850634018585,-7.3775850298110335]},{"id":"pt.ine.add.PTCONT.5545190","rua":"R TAPADA DA PASCOA","casa":"","coordenadas":[40.98031417367296,-7.37726735106833]},{"id":"pt.ine.add.PTCONT.5548525","rua":"R PRINCIPAL","casa":"1","coordenadas":[40.9783491016158,-7.375578833730769]},{"id":"pt.ine.add.PTCONT.5552703","rua":"R SANTO ANTÓNIO","casa":"10","coordenadas":[40.97886162011655,-7.3754660346447425]},{"id":"pt.ine.add.PTCONT.5557624","rua":"R TAPADA DA PASCOA","casa":"6","coordenadas":[40.9788733966599,-7.377260035596675]},{"id":"pt.ine.add.PTCONT.5560993","rua":"R PRINCIPAL","casa":"9","coordenadas":[40.97878144403004,-7.375597650544085]},{"id":"pt.ine.add.PTCONT.5561479","rua":"R SANTO ANTÓNIO","casa":"8","coordenadas":[40.97864786890717,-7.375824930176482]},{"id":"pt.ine.add.PTCONT.5566659","rua":"R PRINCIPAL","casa":"6","coordenadas":[40.979125074584736,-7.375819472054524]},{"id":"pt.ine.add.PTCONT.5571861","rua":"R EIRA DE FORA","casa":"6","coordenadas":[40.97880964651091,-7.374409159730461]},{"id":"pt.ine.add.PTCONT.5572667","rua":"R SANTO ANTÓNIO","casa":"4","coordenadas":[40.97953972133008,-7.375886020231447]},{"id":"pt.ine.add.PTCONT.5595642","rua":"R EIRA DE FORA","casa":"1","coordenadas":[40.97863300817482,-7.374933976402118]},{"id":"pt.ine.add.PTCONT.5603478","rua":"R EIRA DE FORA","casa":"","coordenadas":[40.979121170715885,-7.375225429826366]},{"id":"pt.ine.add.PTCONT.5607559","rua":"R SANTO ANTÓNIO","casa":"13","coordenadas":[40.97852902308965,-7.375553011953678]},{"id":"pt.ine.add.PTCONT.5610792","rua":"R TAPADA DA PASCOA","casa":"7","coordenadas":[40.9791099118989,-7.377625669360958]},{"id":"pt.ine.add.PTCONT.5618721","rua":"R TAPADA DA PASCOA","casa":"4","coordenadas":[40.9791523612485,-7.377233087441364]},{"id":"pt.ine.add.PTCONT.5618722","rua":"R TAPADA DA PASCOA","casa":"5","coordenadas":[40.978908165669615,-7.377069531475043]},{"id":"pt.ine.add.PTCONT.5626044","rua":"R EIRA DE FORA","casa":"5","coordenadas":[40.97902620870724,-7.374477968454705]},{"id":"pt.ine.add.PTCONT.5643679","rua":"R SANTO ANTÓNIO","casa":"1","coordenadas":[40.97979674412826,-7.376631637775563]},{"id":"pt.ine.add.PTCONT.5651091","rua":"R SANTO ANTÓNIO","casa":"11","coordenadas":[40.97886929641191,-7.375263958034962]},{"id":"pt.ine.add.PTCONT.5656049","rua":"R TAPADA DA PASCOA","casa":"8","coordenadas":[40.978812550130634,-7.3775934173389]},{"id":"pt.ine.add.PTCONT.5656626","rua":"R SANTO ANTÓNIO","casa":"7","coordenadas":[40.97883804293064,-7.375989098661185]},{"id":"pt.ine.add.PTCONT.5661641","rua":"R EIRA DE FORA","casa":"22","coordenadas":[40.97864311782094,-7.373733813852072]},{"id":"pt.ine.add.PTCONT.5663300","rua":"R EIRA DE FORA","casa":"6","coordenadas":[40.97890610816784,-7.37401595832502]}],"ruas":["R EIRA DE FORA","R TAPADA DA PASCOA","R SANTO ANTÓNIO","R TAPADA PASCOA","R PRINCIPAL"],"centroide":[40.97903247173208,-7.3760911736271]}
+{
+  "CP": "3630-215",
+  "CP4": "3630",
+  "CP3": "215",
+  "Distrito": "Viseu",
+  "Concelho": "Penedono",
+  "Localidade": "Ferronha",
+  "Designação Postal": "PENEDONO",
+  "partes": [
+    {
+      "Artéria": "Tapada da Páscoa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5433639",
+      "rua": "R EIRA DE FORA",
+      "casa": "7",
+      "coordenadas": [
+        40.97890469978827,
+        -7.373802103905958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5441206",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "1",
+      "coordenadas": [
+        40.9800946043598,
+        -7.378113473584025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5443337",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "3",
+      "coordenadas": [
+        40.97964979653522,
+        -7.37619368895055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5475584",
+      "rua": "R TAPADA PASCOA",
+      "casa": "9",
+      "coordenadas": [
+        40.978576735849984,
+        -7.377334712079055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5488417",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "3",
+      "coordenadas": [
+        40.97940291169196,
+        -7.376992591246633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5504169",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "10",
+      "coordenadas": [
+        40.97850634018585,
+        -7.3775850298110335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5545190",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "",
+      "coordenadas": [
+        40.98031417367296,
+        -7.37726735106833
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5548525",
+      "rua": "R PRINCIPAL",
+      "casa": "1",
+      "coordenadas": [
+        40.9783491016158,
+        -7.375578833730769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5552703",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "10",
+      "coordenadas": [
+        40.97886162011655,
+        -7.3754660346447425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5557624",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "6",
+      "coordenadas": [
+        40.9788733966599,
+        -7.377260035596675
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5560993",
+      "rua": "R PRINCIPAL",
+      "casa": "9",
+      "coordenadas": [
+        40.97878144403004,
+        -7.375597650544085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5561479",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "8",
+      "coordenadas": [
+        40.97864786890717,
+        -7.375824930176482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5566659",
+      "rua": "R PRINCIPAL",
+      "casa": "6",
+      "coordenadas": [
+        40.979125074584736,
+        -7.375819472054524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5571861",
+      "rua": "R EIRA DE FORA",
+      "casa": "6",
+      "coordenadas": [
+        40.97880964651091,
+        -7.374409159730461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5572667",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "4",
+      "coordenadas": [
+        40.97953972133008,
+        -7.375886020231447
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5595642",
+      "rua": "R EIRA DE FORA",
+      "casa": "1",
+      "coordenadas": [
+        40.97863300817482,
+        -7.374933976402118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5603478",
+      "rua": "R EIRA DE FORA",
+      "casa": "",
+      "coordenadas": [
+        40.979121170715885,
+        -7.375225429826366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5607559",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "13",
+      "coordenadas": [
+        40.97852902308965,
+        -7.375553011953678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5610792",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "7",
+      "coordenadas": [
+        40.9791099118989,
+        -7.377625669360958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5618721",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "4",
+      "coordenadas": [
+        40.9791523612485,
+        -7.377233087441364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5618722",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "5",
+      "coordenadas": [
+        40.978908165669615,
+        -7.377069531475043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5626044",
+      "rua": "R EIRA DE FORA",
+      "casa": "5",
+      "coordenadas": [
+        40.97902620870724,
+        -7.374477968454705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5643679",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "1",
+      "coordenadas": [
+        40.97979674412826,
+        -7.376631637775563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5651091",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "11",
+      "coordenadas": [
+        40.97886929641191,
+        -7.375263958034962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5656049",
+      "rua": "R TAPADA DA PASCOA",
+      "casa": "8",
+      "coordenadas": [
+        40.978812550130634,
+        -7.3775934173389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5656626",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "7",
+      "coordenadas": [
+        40.97883804293064,
+        -7.375989098661185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5661641",
+      "rua": "R EIRA DE FORA",
+      "casa": "22",
+      "coordenadas": [
+        40.97864311782094,
+        -7.373733813852072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5663300",
+      "rua": "R EIRA DE FORA",
+      "casa": "6",
+      "coordenadas": [
+        40.97890610816784,
+        -7.37401595832502
+      ]
+    }
+  ],
+  "ruas": [
+    "R EIRA DE FORA",
+    "R TAPADA DA PASCOA",
+    "R SANTO ANTÓNIO",
+    "R TAPADA PASCOA",
+    "R PRINCIPAL"
+  ],
+  "centro": [
+    40.97933163764438,
+    -7.375923643718048
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.978437548311454,
+                -7.376707319025917
+              ],
+              [
+                40.978417893490196,
+                -7.376456544515884
+              ],
+              [
+                40.9784052895248,
+                -7.376208288384001
+              ],
+              [
+                40.97839973641527,
+                -7.375962550630267
+              ],
+              [
+                40.978401234161595,
+                -7.3757193312546825
+              ],
+              [
+                40.97840978276379,
+                -7.375478630257247
+              ],
+              [
+                40.97842538222184,
+                -7.375240447637962
+              ],
+              [
+                40.978448032535766,
+                -7.375004783396825
+              ],
+              [
+                40.978477733705546,
+                -7.374771637533838
+              ],
+              [
+                40.97851448573118,
+                -7.374541010049002
+              ],
+              [
+                40.97855073097186,
+                -7.374340278031861
+              ],
+              [
+                40.978586469427576,
+                -7.374169441482417
+              ],
+              [
+                40.97862170109832,
+                -7.374028500400671
+              ],
+              [
+                40.9786564259841,
+                -7.3739174547866195
+              ],
+              [
+                40.978690644084914,
+                -7.373836304640266
+              ],
+              [
+                40.978724355400765,
+                -7.37378504996161
+              ],
+              [
+                40.97875755993165,
+                -7.373763690750648
+              ],
+              [
+                40.97879025767756,
+                -7.373772227007382
+              ],
+              [
+                40.97884089123469,
+                -7.373833840718938
+              ],
+              [
+                40.97890946060303,
+                -7.373948531885315
+              ],
+              [
+                40.97899596578257,
+                -7.374116300506511
+              ],
+              [
+                40.97910040677331,
+                -7.374337146582526
+              ],
+              [
+                40.979222783575274,
+                -7.374611070113363
+              ],
+              [
+                40.97936309618844,
+                -7.374938071099019
+              ],
+              [
+                40.97952134461282,
+                -7.3753181495394955
+              ],
+              [
+                40.97969752884841,
+                -7.375751305434792
+              ],
+              [
+                40.97984825928403,
+                -7.376143537507485
+              ],
+              [
+                40.97997353591968,
+                -7.3764948457575725
+              ],
+              [
+                40.98007335875537,
+                -7.376805230185056
+              ],
+              [
+                40.98014772779109,
+                -7.377074690789936
+              ],
+              [
+                40.980196643026844,
+                -7.37730322757221
+              ],
+              [
+                40.98022010446263,
+                -7.37749084053188
+              ],
+              [
+                40.980218112098456,
+                -7.377637529668947
+              ],
+              [
+                40.9801906659343,
+                -7.377743294983408
+              ],
+              [
+                40.98014183391296,
+                -7.377827582699609
+              ],
+              [
+                40.980071616034415,
+                -7.37789039281755
+              ],
+              [
+                40.97998001229867,
+                -7.37793172533723
+              ],
+              [
+                40.979867022705726,
+                -7.377951580258649
+              ],
+              [
+                40.97973264725558,
+                -7.377949957581807
+              ],
+              [
+                40.979576885948234,
+                -7.377926857306704
+              ],
+              [
+                40.97939973878369,
+                -7.377882279433341
+              ],
+              [
+                40.97920120576196,
+                -7.377816223961718
+              ],
+              [
+                40.97902503251528,
+                -7.377727078610293
+              ],
+              [
+                40.978871219043654,
+                -7.3776148433790665
+              ],
+              [
+                40.97873976534709,
+                -7.377479518268039
+              ],
+              [
+                40.97863067142559,
+                -7.37732110327721
+              ],
+              [
+                40.978543937279156,
+                -7.377139598406581
+              ],
+              [
+                40.97847956290777,
+                -7.37693500365615
+              ],
+              [
+                40.978437548311454,
+                -7.376707319025917
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.979135339573936,
+    -7.3760134343253645
+  ],
+  "centroDeMassa": [
+    40.97933163764438,
+    -7.375923643718048
+  ]
+}

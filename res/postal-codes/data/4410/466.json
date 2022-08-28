@@ -1,1 +1,591 @@
-{"CP4":"4410","CP3":"466","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4410-466","Artéria":"Avenida do Padre Guilherme","Localidade":"Arcozelo","Local":"Aguda","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARCOZELO VNG","locais":[{"id":"pt.ine.add.PTCONT.3550497","rua":"R PADRE GUILHERME","casa":"248","coordenadas":[41.05140912906658,-8.652092888536037]},{"id":"pt.ine.add.PTCONT.3551656","rua":"R PADRE GUILHERME","casa":"78","coordenadas":[41.05104857332849,-8.65417163599794]},{"id":"pt.ine.add.PTCONT.3563526","rua":"R PADRE GUILHERME","casa":"256","coordenadas":[41.05142783367493,-8.65193840291419]},{"id":"pt.ine.add.PTCONT.3603023","rua":"R PADRE GUILHERME","casa":"195","coordenadas":[41.0515051735412,-8.65275975376771]},{"id":"pt.ine.add.PTCONT.3660240","rua":"R PADRE GUILHERME","casa":"750","coordenadas":[41.05159204884761,-8.65346223322642]},{"id":"pt.ine.add.PTCONT.3738147","rua":"R PADRE GUILHERME","casa":"250","coordenadas":[41.051409450432885,-8.652021522184643]},{"id":"pt.ine.add.PTCONT.3769863","rua":"R PADRE GUILHERME","casa":"238","coordenadas":[41.05132718062511,-8.652294456121467]},{"id":"pt.ine.add.PTCONT.3769864","rua":"R PADRE GUILHERME","casa":"2A8","coordenadas":[41.05132718062511,-8.652294456121467]},{"id":"pt.ine.add.PTCONT.3769990","rua":"AV PADRE GUILHERME","casa":"53","coordenadas":[41.051172748863,-8.654588932648803]},{"id":"pt.ine.add.PTCONT.3771013","rua":"AV PADRE GUILHERME","casa":"53","coordenadas":[41.051172748863,-8.654588932648803]},{"id":"pt.ine.add.PTCONT.3838511","rua":"R PADRE GUILHERME","casa":"99","coordenadas":[41.051103781264985,-8.653910386916188]},{"id":"pt.ine.add.PTCONT.3873000","rua":"R PADRE GUILHERME","casa":"238","coordenadas":[41.051408807656074,-8.65216425488628]},{"id":"pt.ine.add.PTCONT.3905927","rua":"R PADRE GUILHERME","casa":"72","coordenadas":[41.051029973321434,-8.654302331431346]},{"id":"pt.ine.add.PTCONT.3938296","rua":"AV PADRE GUILHERME","casa":"65","coordenadas":[41.0512283880674,-8.654232528594978]},{"id":"pt.ine.add.PTCONT.3950901","rua":"R PADRE GUILHERME","casa":"258","coordenadas":[41.051464118144885,-8.651879213853041]},{"id":"pt.ine.add.PTCONT.3970225","rua":"R PADRE GUILHERME","casa":"165","coordenadas":[41.051403175818905,-8.653413165828509]},{"id":"pt.ine.add.PTCONT.4015074","rua":"AV PADRE GUILHERME","casa":"61","coordenadas":[41.05119183342373,-8.654351187883053]},{"id":"pt.ine.add.PTCONT.4068001","rua":"AV PADRE GUILHERME","casa":"71","coordenadas":[41.05123852147209,-8.653982818143858]},{"id":"pt.ine.add.PTCONT.4080678","rua":"AV PADRE GUILHERME","casa":"69","coordenadas":[41.05121102503841,-8.654089654270182]},{"id":"pt.ine.add.PTCONT.4094026","rua":"R PADRE GUILHERME","casa":"266","coordenadas":[41.051464439379224,-8.651807847439812]},{"id":"pt.ine.add.PTCONT.4100669","rua":"AV PADRE GUILHERME","casa":"97","coordenadas":[41.05129297660604,-8.653888089298134]},{"id":"pt.ine.add.PTCONT.4208864","rua":"R PADRE GUILHERME","casa":"264","coordenadas":[41.05144637747249,-8.651819600399966]},{"id":"pt.ine.add.PTCONT.4224645","rua":"R PADRE GUILHERME","casa":"14S","coordenadas":[41.05151106490709,-8.653449700312011]},{"id":"pt.ine.add.PTCONT.4224646","rua":"R PADRE GUILHERME","casa":"14S","coordenadas":[41.05151106490709,-8.653449700312011]},{"id":"pt.ine.add.PTCONT.4232823","rua":"AV PADRE GUILHERME","casa":"55","coordenadas":[41.05119108013737,-8.65451770875755]},{"id":"pt.ine.add.PTCONT.4232825","rua":"AV PADRE GUILHERME","casa":"55","coordenadas":[41.05119108013737,-8.65451770875755]},{"id":"pt.ine.add.PTCONT.4270705","rua":"AV PADRE GUILHERME","casa":"","coordenadas":[41.051287649351565,-8.655065631522405]},{"id":"pt.ine.add.PTCONT.4337198","rua":"R PADRE GUILHERME","casa":"86","coordenadas":[41.05108523531815,-8.654029188205557]},{"id":"pt.ine.add.PTCONT.4350189","rua":"AV PADRE GUILHERME","casa":"51","coordenadas":[41.05114503652708,-8.654743345767978]},{"id":"pt.ine.add.PTCONT.4350190","rua":"AV PADRE GUILHERME","casa":"51","coordenadas":[41.05114503652708,-8.654743345767978]},{"id":"pt.ine.add.PTCONT.4362957","rua":"R PADRE GUILHERME","casa":"187","coordenadas":[41.05147730269435,-8.65294985166333]}],"ruas":["R PADRE GUILHERME","AV PADRE GUILHERME"],"centroide":[41.05129809111155,-8.653485687417197]}
+{
+  "CP": "4410-466",
+  "CP4": "4410",
+  "CP3": "466",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Arcozelo",
+  "Designação Postal": "ARCOZELO VNG",
+  "partes": [
+    {
+      "Artéria": "Avenida do Padre Guilherme",
+      "Local": "Aguda",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3550497",
+      "rua": "R PADRE GUILHERME",
+      "casa": "248",
+      "coordenadas": [
+        41.05140912906658,
+        -8.652092888536037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3551656",
+      "rua": "R PADRE GUILHERME",
+      "casa": "78",
+      "coordenadas": [
+        41.05104857332849,
+        -8.65417163599794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3563526",
+      "rua": "R PADRE GUILHERME",
+      "casa": "256",
+      "coordenadas": [
+        41.05142783367493,
+        -8.65193840291419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3603023",
+      "rua": "R PADRE GUILHERME",
+      "casa": "195",
+      "coordenadas": [
+        41.0515051735412,
+        -8.65275975376771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3660240",
+      "rua": "R PADRE GUILHERME",
+      "casa": "750",
+      "coordenadas": [
+        41.05159204884761,
+        -8.65346223322642
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3738147",
+      "rua": "R PADRE GUILHERME",
+      "casa": "250",
+      "coordenadas": [
+        41.051409450432885,
+        -8.652021522184643
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3769863",
+      "rua": "R PADRE GUILHERME",
+      "casa": "238",
+      "coordenadas": [
+        41.05132718062511,
+        -8.652294456121467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3769864",
+      "rua": "R PADRE GUILHERME",
+      "casa": "2A8",
+      "coordenadas": [
+        41.05132718062511,
+        -8.652294456121467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3769990",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "53",
+      "coordenadas": [
+        41.051172748863,
+        -8.654588932648803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771013",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "53",
+      "coordenadas": [
+        41.051172748863,
+        -8.654588932648803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3838511",
+      "rua": "R PADRE GUILHERME",
+      "casa": "99",
+      "coordenadas": [
+        41.051103781264985,
+        -8.653910386916188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3873000",
+      "rua": "R PADRE GUILHERME",
+      "casa": "238",
+      "coordenadas": [
+        41.051408807656074,
+        -8.65216425488628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3905927",
+      "rua": "R PADRE GUILHERME",
+      "casa": "72",
+      "coordenadas": [
+        41.051029973321434,
+        -8.654302331431346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3938296",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "65",
+      "coordenadas": [
+        41.0512283880674,
+        -8.654232528594978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3950901",
+      "rua": "R PADRE GUILHERME",
+      "casa": "258",
+      "coordenadas": [
+        41.051464118144885,
+        -8.651879213853041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3970225",
+      "rua": "R PADRE GUILHERME",
+      "casa": "165",
+      "coordenadas": [
+        41.051403175818905,
+        -8.653413165828509
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4015074",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "61",
+      "coordenadas": [
+        41.05119183342373,
+        -8.654351187883053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068001",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "71",
+      "coordenadas": [
+        41.05123852147209,
+        -8.653982818143858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4080678",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "69",
+      "coordenadas": [
+        41.05121102503841,
+        -8.654089654270182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4094026",
+      "rua": "R PADRE GUILHERME",
+      "casa": "266",
+      "coordenadas": [
+        41.051464439379224,
+        -8.651807847439812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4100669",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "97",
+      "coordenadas": [
+        41.05129297660604,
+        -8.653888089298134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4208864",
+      "rua": "R PADRE GUILHERME",
+      "casa": "264",
+      "coordenadas": [
+        41.05144637747249,
+        -8.651819600399966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4224645",
+      "rua": "R PADRE GUILHERME",
+      "casa": "14S",
+      "coordenadas": [
+        41.05151106490709,
+        -8.653449700312011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4224646",
+      "rua": "R PADRE GUILHERME",
+      "casa": "14S",
+      "coordenadas": [
+        41.05151106490709,
+        -8.653449700312011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4232823",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "55",
+      "coordenadas": [
+        41.05119108013737,
+        -8.65451770875755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4232825",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "55",
+      "coordenadas": [
+        41.05119108013737,
+        -8.65451770875755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4270705",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "",
+      "coordenadas": [
+        41.051287649351565,
+        -8.655065631522405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4337198",
+      "rua": "R PADRE GUILHERME",
+      "casa": "86",
+      "coordenadas": [
+        41.05108523531815,
+        -8.654029188205557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4350189",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "51",
+      "coordenadas": [
+        41.05114503652708,
+        -8.654743345767978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4350190",
+      "rua": "AV PADRE GUILHERME",
+      "casa": "51",
+      "coordenadas": [
+        41.05114503652708,
+        -8.654743345767978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4362957",
+      "rua": "R PADRE GUILHERME",
+      "casa": "187",
+      "coordenadas": [
+        41.05147730269435,
+        -8.65294985166333
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE GUILHERME",
+    "AV PADRE GUILHERME"
+  ],
+  "centro": [
+    41.05131101108452,
+    -8.653436739481108
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.05109469637461,
+                -8.654550401995701
+              ],
+              [
+                41.0510803134739,
+                -8.654495275203622
+              ],
+              [
+                41.0510680190609,
+                -8.654444997144406
+              ],
+              [
+                41.051057813135586,
+                -8.654399567818052
+              ],
+              [
+                41.05104969569798,
+                -8.654358987224562
+              ],
+              [
+                41.051043666748065,
+                -8.654323255363934
+              ],
+              [
+                41.05103972628585,
+                -8.65429237223617
+              ],
+              [
+                41.051037874311334,
+                -8.654266337841268
+              ],
+              [
+                41.051038110824514,
+                -8.65424515217923
+              ],
+              [
+                41.051040435825406,
+                -8.654228815250056
+              ],
+              [
+                41.05104682344019,
+                -8.654185189501458
+              ],
+              [
+                41.05105727366886,
+                -8.654114274933434
+              ],
+              [
+                41.05107178651144,
+                -8.65401607154599
+              ],
+              [
+                41.05109036196792,
+                -8.653890579339123
+              ],
+              [
+                41.0511130000383,
+                -8.653737798312834
+              ],
+              [
+                41.05113970072259,
+                -8.653557728467119
+              ],
+              [
+                41.051170464020764,
+                -8.653350369801982
+              ],
+              [
+                41.05120528993283,
+                -8.653115722317425
+              ],
+              [
+                41.05123762505664,
+                -8.652902986147787
+              ],
+              [
+                41.05126746939218,
+                -8.65271216129307
+              ],
+              [
+                41.051294822939454,
+                -8.652543247753275
+              ],
+              [
+                41.05131968569846,
+                -8.652396245528402
+              ],
+              [
+                41.05134205766919,
+                -8.65227115461845
+              ],
+              [
+                41.05136193885164,
+                -8.65216797502342
+              ],
+              [
+                41.05137932924583,
+                -8.652086706743312
+              ],
+              [
+                41.05139422885176,
+                -8.652027349778123
+              ],
+              [
+                41.05140754822423,
+                -8.651975228793582
+              ],
+              [
+                41.05141928736326,
+                -8.651930343789687
+              ],
+              [
+                41.05142944626884,
+                -8.651892694766437
+              ],
+              [
+                41.05143802494097,
+                -8.651862281723831
+              ],
+              [
+                41.05144502337966,
+                -8.651839104661875
+              ],
+              [
+                41.0514504415849,
+                -8.651823163580564
+              ],
+              [
+                41.05145427955669,
+                -8.6518144584799
+              ],
+              [
+                41.051456537295024,
+                -8.65181298935988
+              ],
+              [
+                41.05146050671402,
+                -8.65183755365778
+              ],
+              [
+                41.05146618781366,
+                -8.651888151373596
+              ],
+              [
+                41.05147358059396,
+                -8.651964782507331
+              ],
+              [
+                41.0514826850549,
+                -8.652067447058984
+              ],
+              [
+                41.0514935011965,
+                -8.652196145028556
+              ],
+              [
+                41.05150602901874,
+                -8.652350876416046
+              ],
+              [
+                41.05152026852164,
+                -8.652531641221453
+              ],
+              [
+                41.051536219705184,
+                -8.65273843944478
+              ],
+              [
+                41.05154542074867,
+                -8.652944440988565
+              ],
+              [
+                41.05154787165208,
+                -8.653149645852809
+              ],
+              [
+                41.051543572415426,
+                -8.653354054037512
+              ],
+              [
+                41.05153252303869,
+                -8.653557665542673
+              ],
+              [
+                41.05151472352189,
+                -8.653760480368295
+              ],
+              [
+                41.051490173865034,
+                -8.653962498514375
+              ],
+              [
+                41.05145887406809,
+                -8.654163719980913
+              ],
+              [
+                41.051420824131085,
+                -8.654364144767912
+              ],
+              [
+                41.051385302110816,
+                -8.654534480741622
+              ],
+              [
+                41.051352308007296,
+                -8.654674727902044
+              ],
+              [
+                41.051321841820524,
+                -8.65478488624918
+              ],
+              [
+                41.051293903550494,
+                -8.654864955783028
+              ],
+              [
+                41.0512684931972,
+                -8.654914936503587
+              ],
+              [
+                41.05124561076066,
+                -8.654934828410859
+              ],
+              [
+                41.051225256240855,
+                -8.654924631504842
+              ],
+              [
+                41.0512074296378,
+                -8.65488434578554
+              ],
+              [
+                41.051190033497534,
+                -8.65484220493214
+              ],
+              [
+                41.05117306782006,
+                -8.654798208944642
+              ],
+              [
+                41.051156532605376,
+                -8.65475235782305
+              ],
+              [
+                41.0511404278535,
+                -8.654704651567357
+              ],
+              [
+                41.0511247535644,
+                -8.654655090177569
+              ],
+              [
+                41.05110950973811,
+                -8.654603673653684
+              ],
+              [
+                41.05109469637461,
+                -8.654550401995701
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.05129265985663,
+    -8.653458385238416
+  ],
+  "centroDeMassa": [
+    41.05131101108452,
+    -8.653436739481108
+  ]
+}

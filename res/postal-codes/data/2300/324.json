@@ -1,1 +1,553 @@
-{"CP4":"2300","CP3":"324","Distrito":"Santarém","Concelho":"Tomar","CP":"2300-324","Artéria":"Bairro Botas","Localidade":"Tomar","Local":"Marmelais de Cima","Troço":"","Porta":"","Cliente":"","Designação Postal":"TOMAR","locais":[{"id":"pt.ine.add.PTCONT.4392318","rua":"BR BOTAS","casa":"8","coordenadas":[39.59676288431968,-8.399762306570407]},{"id":"pt.ine.add.PTCONT.4392319","rua":"BR BOTAS","casa":"8","coordenadas":[39.59676288431968,-8.399762306570407]},{"id":"pt.ine.add.PTCONT.4392320","rua":"BR BOTAS","casa":"8","coordenadas":[39.59676288431968,-8.399762306570407]},{"id":"pt.ine.add.PTCONT.4393256","rua":"ESTR MARMELAIS DE CIMA","casa":"13 A","coordenadas":[39.59230390180049,-8.3960781440989]},{"id":"pt.ine.add.PTCONT.4394594","rua":"BR BOTAS","casa":"3","coordenadas":[39.59705975894084,-8.399914794522045]},{"id":"pt.ine.add.PTCONT.4437909","rua":"BR BOTAS","casa":"17A","coordenadas":[39.59738384073553,-8.39998589189734]},{"id":"pt.ine.add.PTCONT.4443957","rua":"QTA CIDRA","casa":"","coordenadas":[39.593470918623616,-8.397782241477442]},{"id":"pt.ine.add.PTCONT.4450733","rua":"BR BOTAS","casa":"4","coordenadas":[39.59712272583556,-8.399949962967543]},{"id":"pt.ine.add.PTCONT.4455534","rua":"BR BOTAS","casa":"11","coordenadas":[39.59652916338437,-8.39956349318196]},{"id":"pt.ine.add.PTCONT.4457853","rua":"ESTR MARMELAIS DE CIMA","casa":"","coordenadas":[39.59673490155074,-8.400181319340216]},{"id":"pt.ine.add.PTCONT.4473054","rua":"ESTR MARMELAIS DE CIMA","casa":"16","coordenadas":[39.597032096831526,-8.400194102964798]},{"id":"pt.ine.add.PTCONT.4473158","rua":"BR BOTAS","casa":"7","coordenadas":[39.59691591855293,-8.39979782012368]},{"id":"pt.ine.add.PTCONT.4479373","rua":"R MARMELEIROS","casa":"6","coordenadas":[39.59112628025365,-8.395072541306982]},{"id":"pt.ine.add.PTCONT.4498082","rua":"BR BOTAS","casa":"5","coordenadas":[39.59701483222042,-8.39986805307312]},{"id":"pt.ine.add.PTCONT.4500769","rua":"ESTR MARMELAIS DE CIMA","casa":"12","coordenadas":[39.59725584506053,-8.400812004789406]},{"id":"pt.ine.add.PTCONT.4500770","rua":"ESTR MARMELAIS DE CIMA","casa":"12","coordenadas":[39.59725584506053,-8.400812004789406]},{"id":"pt.ine.add.PTCONT.4506693","rua":"ESTR COIMBRA","casa":"5","coordenadas":[39.60968602731948,-8.400463960538925]},{"id":"pt.ine.add.PTCONT.4506774","rua":"ESTR MARMELAIS DE CIMA","casa":"16A","coordenadas":[39.59687887539671,-8.400240083496787]},{"id":"pt.ine.add.PTCONT.4510629","rua":"QTA MARMELAIS DE CIMA","casa":"","coordenadas":[39.595251141302086,-8.399151127488384]},{"id":"pt.ine.add.PTCONT.4516616","rua":"ESTR MARMELAIS DE CIMA","casa":"16","coordenadas":[39.59679789513041,-8.400204845728885]},{"id":"pt.ine.add.PTCONT.4516739","rua":"BR BOTAS","casa":"6","coordenadas":[39.596969878756575,-8.399832953845566]},{"id":"pt.ine.add.PTCONT.4527337","rua":"BR PIMENTA","casa":"2","coordenadas":[39.60015426445073,-8.401579944879545]},{"id":"pt.ine.add.PTCONT.4589060","rua":"ESTR MARMELAIS DE CIMA","casa":"13A","coordenadas":[39.59239417991597,-8.39598535343614]},{"id":"pt.ine.add.PTCONT.4593464","rua":"BR BOTAS","casa":"11","coordenadas":[39.59644820959794,-8.399516614306384]},{"id":"pt.ine.add.PTCONT.4599422","rua":"ESTR COIMBRA","casa":"9","coordenadas":[39.609508273263025,-8.399426928540063]},{"id":"pt.ine.add.PTCONT.4601668","rua":"BR BOTAS","casa":"1","coordenadas":[39.59717668599053,-8.399985096912603]},{"id":"pt.ine.add.PTCONT.4620418","rua":"BR PIMENTA","casa":"1","coordenadas":[39.60020817026283,-8.401638367034412]},{"id":"pt.ine.add.PTCONT.4624589","rua":"ESTR MARMELAIS DE CIMA","casa":"19","coordenadas":[39.59702461357505,-8.399530464688233]},{"id":"pt.ine.add.PTCONT.4626610","rua":"BR BOTAS","casa":"17","coordenadas":[39.59735759552534,-8.399648163655945]},{"id":"pt.ine.add.PTCONT.4636869","rua":"ESTR MARMELAIS DE CIMA","casa":"14","coordenadas":[39.597338084687514,-8.400300059076454]},{"id":"pt.ine.add.PTCONT.4638757","rua":"QTA CIDRA","casa":"","coordenadas":[39.59360564829886,-8.39794573799276]}],"ruas":["BR BOTAS","ESTR MARMELAIS DE CIMA","QTA CIDRA","R MARMELEIROS","ESTR COIMBRA","QTA MARMELAIS DE CIMA","BR PIMENTA"],"centroide":[39.597356285899465,-8.399560108595747]},-8.399560108595747]}
+{
+  "CP": "2300-324",
+  "CP4": "2300",
+  "CP3": "324",
+  "Distrito": "Santarém",
+  "Concelho": "Tomar",
+  "Localidade": "Tomar",
+  "Designação Postal": "TOMAR",
+  "partes": [
+    {
+      "Artéria": "Bairro da Fonte Marmelais de Cima",
+      "Local": "Marmelais de Cima",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Bairro Património dos Pobres",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Bairro Pimenta",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Bairro Botas",
+      "Local": "Marmelais de Cima",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4392318",
+      "rua": "BR BOTAS",
+      "casa": "8",
+      "coordenadas": [
+        39.59676288431968,
+        -8.399762306570407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4392319",
+      "rua": "BR BOTAS",
+      "casa": "8",
+      "coordenadas": [
+        39.59676288431968,
+        -8.399762306570407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4392320",
+      "rua": "BR BOTAS",
+      "casa": "8",
+      "coordenadas": [
+        39.59676288431968,
+        -8.399762306570407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4393256",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "13 A",
+      "coordenadas": [
+        39.59230390180049,
+        -8.3960781440989
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4394594",
+      "rua": "BR BOTAS",
+      "casa": "3",
+      "coordenadas": [
+        39.59705975894084,
+        -8.399914794522045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4437909",
+      "rua": "BR BOTAS",
+      "casa": "17A",
+      "coordenadas": [
+        39.59738384073553,
+        -8.39998589189734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4443957",
+      "rua": "QTA CIDRA",
+      "casa": "",
+      "coordenadas": [
+        39.593470918623616,
+        -8.397782241477442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4450733",
+      "rua": "BR BOTAS",
+      "casa": "4",
+      "coordenadas": [
+        39.59712272583556,
+        -8.399949962967543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455534",
+      "rua": "BR BOTAS",
+      "casa": "11",
+      "coordenadas": [
+        39.59652916338437,
+        -8.39956349318196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4457853",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        39.59673490155074,
+        -8.400181319340216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4473054",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "16",
+      "coordenadas": [
+        39.597032096831526,
+        -8.400194102964798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4473158",
+      "rua": "BR BOTAS",
+      "casa": "7",
+      "coordenadas": [
+        39.59691591855293,
+        -8.39979782012368
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4479373",
+      "rua": "R MARMELEIROS",
+      "casa": "6",
+      "coordenadas": [
+        39.59112628025365,
+        -8.395072541306982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498082",
+      "rua": "BR BOTAS",
+      "casa": "5",
+      "coordenadas": [
+        39.59701483222042,
+        -8.39986805307312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500769",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "12",
+      "coordenadas": [
+        39.59725584506053,
+        -8.400812004789406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500770",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "12",
+      "coordenadas": [
+        39.59725584506053,
+        -8.400812004789406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4506693",
+      "rua": "ESTR COIMBRA",
+      "casa": "5",
+      "coordenadas": [
+        39.60968602731948,
+        -8.400463960538925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4506774",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "16A",
+      "coordenadas": [
+        39.59687887539671,
+        -8.400240083496787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4510629",
+      "rua": "QTA MARMELAIS DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        39.595251141302086,
+        -8.399151127488384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4516616",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "16",
+      "coordenadas": [
+        39.59679789513041,
+        -8.400204845728885
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4516739",
+      "rua": "BR BOTAS",
+      "casa": "6",
+      "coordenadas": [
+        39.596969878756575,
+        -8.399832953845566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4527337",
+      "rua": "BR PIMENTA",
+      "casa": "2",
+      "coordenadas": [
+        39.60015426445073,
+        -8.401579944879545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4589060",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "13A",
+      "coordenadas": [
+        39.59239417991597,
+        -8.39598535343614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4593464",
+      "rua": "BR BOTAS",
+      "casa": "11",
+      "coordenadas": [
+        39.59644820959794,
+        -8.399516614306384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4599422",
+      "rua": "ESTR COIMBRA",
+      "casa": "9",
+      "coordenadas": [
+        39.609508273263025,
+        -8.399426928540063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4601668",
+      "rua": "BR BOTAS",
+      "casa": "1",
+      "coordenadas": [
+        39.59717668599053,
+        -8.399985096912603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4620418",
+      "rua": "BR PIMENTA",
+      "casa": "1",
+      "coordenadas": [
+        39.60020817026283,
+        -8.401638367034412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4624589",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "19",
+      "coordenadas": [
+        39.59702461357505,
+        -8.399530464688233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4626610",
+      "rua": "BR BOTAS",
+      "casa": "17",
+      "coordenadas": [
+        39.59735759552534,
+        -8.399648163655945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4636869",
+      "rua": "ESTR MARMELAIS DE CIMA",
+      "casa": "14",
+      "coordenadas": [
+        39.597338084687514,
+        -8.400300059076454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4638757",
+      "rua": "QTA CIDRA",
+      "casa": "",
+      "coordenadas": [
+        39.59360564829886,
+        -8.39794573799276
+      ]
+    }
+  ],
+  "ruas": [
+    "BR BOTAS",
+    "ESTR MARMELAIS DE CIMA",
+    "QTA CIDRA",
+    "R MARMELEIROS",
+    "ESTR COIMBRA",
+    "QTA MARMELAIS DE CIMA",
+    "BR PIMENTA"
+  ],
+  "centro": [
+    39.600406153786565,
+    -8.398355454170698
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.59252092477908,
+                -8.396688714442732
+              ],
+              [
+                39.59221100377343,
+                -8.39632956485701
+              ],
+              [
+                39.59222704153426,
+                -8.39608334627002
+              ],
+              [
+                39.592569038061555,
+                -8.395950058681763
+              ],
+              [
+                39.59323699335534,
+                -8.395929702092236
+              ],
+              [
+                39.5942309074156,
+                -8.396022276501444
+              ],
+              [
+                39.595550780242334,
+                -8.396227781909383
+              ],
+              [
+                39.59719661183556,
+                -8.396546218316052
+              ],
+              [
+                39.59916840219525,
+                -8.396977585721455
+              ],
+              [
+                39.60146615132142,
+                -8.397521884125592
+              ],
+              [
+                39.60347945921395,
+                -8.398014348854192
+              ],
+              [
+                39.605208325872844,
+                -8.398454979907257
+              ],
+              [
+                39.6066527512981,
+                -8.398843777284789
+              ],
+              [
+                39.607812735489716,
+                -8.399180740986782
+              ],
+              [
+                39.608688278447694,
+                -8.399465871013245
+              ],
+              [
+                39.609279380172026,
+                -8.399699167364172
+              ],
+              [
+                39.60958604066273,
+                -8.399880630039565
+              ],
+              [
+                39.60960825991978,
+                -8.400010259039423
+              ],
+              [
+                39.609479610253196,
+                -8.40014203451579
+              ],
+              [
+                39.60920009166297,
+                -8.400275956468668
+              ],
+              [
+                39.6087697041491,
+                -8.400412024898054
+              ],
+              [
+                39.60818844771159,
+                -8.400550239803952
+              ],
+              [
+                39.60745632235044,
+                -8.400690601186358
+              ],
+              [
+                39.606573328065636,
+                -8.400833109045275
+              ],
+              [
+                39.6055394648572,
+                -8.4009777633807
+              ],
+              [
+                39.60435473272511,
+                -8.401124564192637
+              ],
+              [
+                39.60327196202826,
+                -8.401240102993002
+              ],
+              [
+                39.602291152766625,
+                -8.401324379781796
+              ],
+              [
+                39.60141230494021,
+                -8.401377394559022
+              ],
+              [
+                39.60063541854903,
+                -8.401399147324678
+              ],
+              [
+                39.59996049359307,
+                -8.401389638078763
+              ],
+              [
+                39.599387530072335,
+                -8.401348866821277
+              ],
+              [
+                39.59891652798682,
+                -8.40127683355222
+              ],
+              [
+                39.59854748733654,
+                -8.401173538271596
+              ],
+              [
+                39.598167542443136,
+                -8.40103836948235
+              ],
+              [
+                39.59777669330661,
+                -8.400871327184484
+              ],
+              [
+                39.59737493992698,
+                -8.400672411378
+              ],
+              [
+                39.59696228230423,
+                -8.4004416220629
+              ],
+              [
+                39.596538720438375,
+                -8.400178959239177
+              ],
+              [
+                39.59610425432939,
+                -8.399884422906833
+              ],
+              [
+                39.5956588839773,
+                -8.399558013065873
+              ],
+              [
+                39.59520260938209,
+                -8.399199729716292
+              ],
+              [
+                39.59476462898558,
+                -8.398841338087195
+              ],
+              [
+                39.59434494278776,
+                -8.398482838178577
+              ],
+              [
+                39.59394355078863,
+                -8.398124229990444
+              ],
+              [
+                39.59356045298821,
+                -8.397765513522792
+              ],
+              [
+                39.59319564938647,
+                -8.397406688775623
+              ],
+              [
+                39.59284913998343,
+                -8.397047755748936
+              ],
+              [
+                39.59252092477908,
+                -8.396688714442732
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.60023170740973,
+    -8.39922659003376
+  ],
+  "centroDeMassa": [
+    39.600406153786565,
+    -8.398355454170698
+  ]
+}

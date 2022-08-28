@@ -1,1 +1,564 @@
-{"CP4":"2350","CP3":"273","Distrito":"Santarém","Concelho":"Torres Novas","CP":"2350-273","Artéria":"Largo dos Casaleiros","Localidade":"Vale da Serra","Local":"Casal Valentão","Troço":"","Porta":"","Cliente":"","Designação Postal":"PEDRÓGÃO TNV","locais":[{"id":"pt.ine.add.PTCONT.4396258","rua":"BC SEM SAIDA","casa":"","coordenadas":[39.508092972783146,-8.648109632431966]},{"id":"pt.ine.add.PTCONT.4405131","rua":"R ANTONIO FORMIGA ORFAO","casa":"19","coordenadas":[39.50710945001213,-8.648509323549838]},{"id":"pt.ine.add.PTCONT.4418963","rua":"R CASALEIROS","casa":"1","coordenadas":[39.50496710529945,-8.646179758181084]},{"id":"pt.ine.add.PTCONT.4418964","rua":"ESTR CASAL VALENTAO","casa":"6","coordenadas":[39.50397708712205,-8.650079037405455]},{"id":"pt.ine.add.PTCONT.4435519","rua":"R RATO","casa":"2","coordenadas":[39.50716142695568,-8.648974795355098]},{"id":"pt.ine.add.PTCONT.4437642","rua":"R CASALEIROS","casa":"4","coordenadas":[39.50667718469677,-8.648494503019027]},{"id":"pt.ine.add.PTCONT.4441534","rua":"ESTR CASAL VALENTAO","casa":"12","coordenadas":[39.505799417389,-8.649418176219914]},{"id":"pt.ine.add.PTCONT.4443539","rua":"BC SEM SAIDA","casa":"9","coordenadas":[39.50811376552025,-8.647481908790164]},{"id":"pt.ine.add.PTCONT.4479058","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"15","coordenadas":[39.50662030856643,-8.649133573636552]},{"id":"pt.ine.add.PTCONT.4479806","rua":"R CASALEIROS","casa":"12","coordenadas":[39.50655356490249,-8.64793548927217]},{"id":"pt.ine.add.PTCONT.4487612","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"","coordenadas":[39.50631568331503,-8.648770881800319]},{"id":"pt.ine.add.PTCONT.4496049","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"2","coordenadas":[39.50659504266317,-8.648738065326569]},{"id":"pt.ine.add.PTCONT.4509725","rua":"BC SEM SAIDA","casa":"1","coordenadas":[39.50776925015666,-8.64799096968438]},{"id":"pt.ine.add.PTCONT.4511735","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"39","coordenadas":[39.50803486562514,-8.646992978701313]},{"id":"pt.ine.add.PTCONT.4532998","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"3","coordenadas":[39.50639421447148,-8.649341188546043]},{"id":"pt.ine.add.PTCONT.4532999","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"3","coordenadas":[39.50639421447148,-8.649341188546043]},{"id":"pt.ine.add.PTCONT.4533086","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"","coordenadas":[39.50739143629584,-8.647883536167564]},{"id":"pt.ine.add.PTCONT.4542884","rua":"R CASALEIROS","casa":"14","coordenadas":[39.506723969436955,-8.64809952646786]},{"id":"pt.ine.add.PTCONT.4548917","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"35","coordenadas":[39.50792467834204,-8.647468887287445]},{"id":"pt.ine.add.PTCONT.4551071","rua":"R ANTONIO FORMIGA ORFAO","casa":"20","coordenadas":[39.50727959588955,-8.64873149763029]},{"id":"pt.ine.add.PTCONT.4561649","rua":"R CASALEIROS","casa":"16","coordenadas":[39.506885779237884,-8.648170483807311]},{"id":"pt.ine.add.PTCONT.4563721","rua":"BC SEM SAIDA","casa":"","coordenadas":[39.508059005621654,-8.647644287867791]},{"id":"pt.ine.add.PTCONT.4563722","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"21","coordenadas":[39.50732550533905,-8.648534174158025]},{"id":"pt.ine.add.PTCONT.4578215","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"22","coordenadas":[39.507345218922715,-8.6481506213422]},{"id":"pt.ine.add.PTCONT.4593074","rua":"R CASALEIROS","casa":"","coordenadas":[39.506884645757324,-8.648426272725395]},{"id":"pt.ine.add.PTCONT.4628803","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"2","coordenadas":[39.506568383788796,-8.648656478619193]},{"id":"pt.ine.add.PTCONT.4631678","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"29","coordenadas":[39.50748937604408,-8.648140058354464]},{"id":"pt.ine.add.PTCONT.4656021","rua":"R ANTÓNIO FORMIGA ORFAO","casa":"25","coordenadas":[39.507434151480545,-8.648407077201254]}],"ruas":["BC SEM SAIDA","R ANTONIO FORMIGA ORFAO","R CASALEIROS","ESTR CASAL VALENTAO","R RATO","R ANTÓNIO FORMIGA ORFAO"],"centroide":[39.50690567217135,-8.648348047959017]}959017]}
+{
+  "CP": "2350-273",
+  "CP4": "2350",
+  "CP3": "273",
+  "Distrito": "Santarém",
+  "Concelho": "Torres Novas",
+  "Localidade": "Vale da Serra",
+  "Designação Postal": "PEDRÓGÃO TNV",
+  "partes": [
+    {
+      "Artéria": "Rua António Formiga Órfão",
+      "Local": "Casal Valentão",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco Sem Saída",
+      "Local": "Casal Valentão",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Rato",
+      "Local": "Casal Valentão",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Casaleiros",
+      "Local": "Casal Valentão",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo dos Casaleiros",
+      "Local": "Casal Valentão",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4396258",
+      "rua": "BC SEM SAIDA",
+      "casa": "",
+      "coordenadas": [
+        39.508092972783146,
+        -8.648109632431966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4405131",
+      "rua": "R ANTONIO FORMIGA ORFAO",
+      "casa": "19",
+      "coordenadas": [
+        39.50710945001213,
+        -8.648509323549838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4418963",
+      "rua": "R CASALEIROS",
+      "casa": "1",
+      "coordenadas": [
+        39.50496710529945,
+        -8.646179758181084
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4418964",
+      "rua": "ESTR CASAL VALENTAO",
+      "casa": "6",
+      "coordenadas": [
+        39.50397708712205,
+        -8.650079037405455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4435519",
+      "rua": "R RATO",
+      "casa": "2",
+      "coordenadas": [
+        39.50716142695568,
+        -8.648974795355098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4437642",
+      "rua": "R CASALEIROS",
+      "casa": "4",
+      "coordenadas": [
+        39.50667718469677,
+        -8.648494503019027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4441534",
+      "rua": "ESTR CASAL VALENTAO",
+      "casa": "12",
+      "coordenadas": [
+        39.505799417389,
+        -8.649418176219914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4443539",
+      "rua": "BC SEM SAIDA",
+      "casa": "9",
+      "coordenadas": [
+        39.50811376552025,
+        -8.647481908790164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4479058",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "15",
+      "coordenadas": [
+        39.50662030856643,
+        -8.649133573636552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4479806",
+      "rua": "R CASALEIROS",
+      "casa": "12",
+      "coordenadas": [
+        39.50655356490249,
+        -8.64793548927217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4487612",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "",
+      "coordenadas": [
+        39.50631568331503,
+        -8.648770881800319
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4496049",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "2",
+      "coordenadas": [
+        39.50659504266317,
+        -8.648738065326569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4509725",
+      "rua": "BC SEM SAIDA",
+      "casa": "1",
+      "coordenadas": [
+        39.50776925015666,
+        -8.64799096968438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4511735",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "39",
+      "coordenadas": [
+        39.50803486562514,
+        -8.646992978701313
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532998",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "3",
+      "coordenadas": [
+        39.50639421447148,
+        -8.649341188546043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532999",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "3",
+      "coordenadas": [
+        39.50639421447148,
+        -8.649341188546043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4533086",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "",
+      "coordenadas": [
+        39.50739143629584,
+        -8.647883536167564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4542884",
+      "rua": "R CASALEIROS",
+      "casa": "14",
+      "coordenadas": [
+        39.506723969436955,
+        -8.64809952646786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4548917",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "35",
+      "coordenadas": [
+        39.50792467834204,
+        -8.647468887287445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4551071",
+      "rua": "R ANTONIO FORMIGA ORFAO",
+      "casa": "20",
+      "coordenadas": [
+        39.50727959588955,
+        -8.64873149763029
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4561649",
+      "rua": "R CASALEIROS",
+      "casa": "16",
+      "coordenadas": [
+        39.506885779237884,
+        -8.648170483807311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4563721",
+      "rua": "BC SEM SAIDA",
+      "casa": "",
+      "coordenadas": [
+        39.508059005621654,
+        -8.647644287867791
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4563722",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "21",
+      "coordenadas": [
+        39.50732550533905,
+        -8.648534174158025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4578215",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "22",
+      "coordenadas": [
+        39.507345218922715,
+        -8.6481506213422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4593074",
+      "rua": "R CASALEIROS",
+      "casa": "",
+      "coordenadas": [
+        39.506884645757324,
+        -8.648426272725395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4628803",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "2",
+      "coordenadas": [
+        39.506568383788796,
+        -8.648656478619193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4631678",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "29",
+      "coordenadas": [
+        39.50748937604408,
+        -8.648140058354464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4656021",
+      "rua": "R ANTÓNIO FORMIGA ORFAO",
+      "casa": "25",
+      "coordenadas": [
+        39.507434151480545,
+        -8.648407077201254
+      ]
+    }
+  ],
+  "ruas": [
+    "BC SEM SAIDA",
+    "R ANTONIO FORMIGA ORFAO",
+    "R CASALEIROS",
+    "ESTR CASAL VALENTAO",
+    "R RATO",
+    "R ANTÓNIO FORMIGA ORFAO"
+  ],
+  "centro": [
+    39.50604542632115,
+    -8.64812939779327
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.50533672125611,
+                -8.649663997422035
+              ],
+              [
+                39.50503458033742,
+                -8.649756228529462
+              ],
+              [
+                39.5047856760676,
+                -8.649776004510578
+              ],
+              [
+                39.50459000844664,
+                -8.649723325365386
+              ],
+              [
+                39.50444757747453,
+                -8.649598191093887
+              ],
+              [
+                39.50435838315128,
+                -8.649400601696076
+              ],
+              [
+                39.504322425476886,
+                -8.649130557171958
+              ],
+              [
+                39.50433970445134,
+                -8.64878805752153
+              ],
+              [
+                39.50441022007466,
+                -8.648373102744793
+              ],
+              [
+                39.50453397234684,
+                -8.647885692841745
+              ],
+              [
+                39.50469018934008,
+                -8.647471915747209
+              ],
+              [
+                39.504878871054395,
+                -8.647131771461183
+              ],
+              [
+                39.50510001748977,
+                -8.646865259983663
+              ],
+              [
+                39.505353628646205,
+                -8.646672381314655
+              ],
+              [
+                39.505639704523716,
+                -8.646553135454155
+              ],
+              [
+                39.5059582451223,
+                -8.646507522402164
+              ],
+              [
+                39.506309250441944,
+                -8.646535542158684
+              ],
+              [
+                39.50669272048265,
+                -8.646637194723713
+              ],
+              [
+                39.50702948957913,
+                -8.646733780250752
+              ],
+              [
+                39.50731955773139,
+                -8.646825298739799
+              ],
+              [
+                39.50756292493942,
+                -8.646911750190856
+              ],
+              [
+                39.50775959120321,
+                -8.646993134603925
+              ],
+              [
+                39.50790955652279,
+                -8.647069451979
+              ],
+              [
+                39.50801282089813,
+                -8.647140702316088
+              ],
+              [
+                39.508069384329254,
+                -8.647206885615185
+              ],
+              [
+                39.508079246816145,
+                -8.647268001876292
+              ],
+              [
+                39.508087551605655,
+                -8.647331286786663
+              ],
+              [
+                39.508094298697785,
+                -8.647396740346299
+              ],
+              [
+                39.50809948809254,
+                -8.6474643625552
+              ],
+              [
+                39.50810311978991,
+                -8.647534153413366
+              ],
+              [
+                39.50810519378991,
+                -8.647606112920798
+              ],
+              [
+                39.50810571009253,
+                -8.647680241077492
+              ],
+              [
+                39.50810466869777,
+                -8.647756537883453
+              ],
+              [
+                39.50810206960563,
+                -8.647835003338677
+              ],
+              [
+                39.50808523999645,
+                -8.647917178782674
+              ],
+              [
+                39.50805417987024,
+                -8.648003064215441
+              ],
+              [
+                39.50800888922699,
+                -8.648092659636978
+              ],
+              [
+                39.50794936806671,
+                -8.648185965047285
+              ],
+              [
+                39.50787561638939,
+                -8.648282980446364
+              ],
+              [
+                39.50778763419503,
+                -8.648383705834215
+              ],
+              [
+                39.507685421483636,
+                -8.648488141210835
+              ],
+              [
+                39.5075689782552,
+                -8.648596286576227
+              ],
+              [
+                39.50745510273525,
+                -8.648696638664553
+              ],
+              [
+                39.5073437949238,
+                -8.648789197475814
+              ],
+              [
+                39.507235054820825,
+                -8.64887396301001
+              ],
+              [
+                39.50712888242634,
+                -8.64895093526714
+              ],
+              [
+                39.507025277740354,
+                -8.649020114247204
+              ],
+              [
+                39.50692424076286,
+                -8.649081499950203
+              ],
+              [
+                39.506825771493844,
+                -8.649135092376136
+              ],
+              [
+                39.50672986993332,
+                -8.649180891525004
+              ],
+              [
+                39.50660818845303,
+                -8.649232494668691
+              ],
+              [
+                39.50646072705296,
+                -8.649289901807201
+              ],
+              [
+                39.506287485733125,
+                -8.649353112940528
+              ],
+              [
+                39.50608846449353,
+                -8.649422128068675
+              ],
+              [
+                39.505863663334154,
+                -8.649496947191643
+              ],
+              [
+                39.50561308225502,
+                -8.649577570309429
+              ],
+              [
+                39.50533672125611,
+                -8.649663997422035
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.50667734825389,
+    -8.648165614201588
+  ],
+  "centroDeMassa": [
+    39.50604542632115,
+    -8.64812939779327
+  ]
+}

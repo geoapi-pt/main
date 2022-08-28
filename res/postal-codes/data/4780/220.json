@@ -1,1 +1,354 @@
-{"CP4":"4780","CP3":"220","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4780-220","Artéria":"Rua Recontro do Outeiro","Localidade":"Santa Cristina Couto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO TIRSO","locais":[{"id":"pt.ine.add.PTCONT.3557165","rua":"R RECONTRO DO OUTEIRO","casa":"269","coordenadas":[41.33101178863042,-8.473115577203231]},{"id":"pt.ine.add.PTCONT.3653132","rua":"R RECONTRO DO OUTEIRO","casa":"596","coordenadas":[41.33079533274158,-8.470175851514472]},{"id":"pt.ine.add.PTCONT.3679772","rua":"R RECONTRO DO OUTEIRO","casa":"301","coordenadas":[41.33135714505164,-8.472030320338588]},{"id":"pt.ine.add.PTCONT.3691576","rua":"R RECONTRO OUTEIRO","casa":"885 A","coordenadas":[41.33061495623997,-8.467188547530816]},{"id":"pt.ine.add.PTCONT.3763458","rua":"R RECONTRO DO OUTEIRO","casa":"275","coordenadas":[41.33097633723422,-8.472924263880941]},{"id":"pt.ine.add.PTCONT.4112396","rua":"R RECONTRO DO OUTEIRO","casa":"492","coordenadas":[41.329942009846405,-8.47253663726335]},{"id":"pt.ine.add.PTCONT.4161015","rua":"R RECONTRO DO OUTEIRO","casa":"560","coordenadas":[41.33058139664609,-8.472504119461847]},{"id":"pt.ine.add.PTCONT.4161016","rua":"R RECONTRO DO OUTEIRO","casa":"560","coordenadas":[41.33058139664609,-8.472504119461847]},{"id":"pt.ine.add.PTCONT.4184611","rua":"R RECONTRO DO OUTEIRO","casa":"141","coordenadas":[41.33062441083207,-8.467033304343742]},{"id":"pt.ine.add.PTCONT.4184613","rua":"R S JOÃO","casa":"50","coordenadas":[41.331149068636186,-8.47236371855383]},{"id":"pt.ine.add.PTCONT.4270375","rua":"R RECONTRO DO OUTEIRO","casa":"452","coordenadas":[41.330520866663356,-8.471655676284415]},{"id":"pt.ine.add.PTCONT.4290895","rua":"R RECONTRO DO OUTEIRO","casa":"281","coordenadas":[41.330959175375064,-8.472637481278094]},{"id":"pt.ine.add.PTCONT.4304156","rua":"R RECONTRO DO OUTEIRO","casa":"768","coordenadas":[41.32997199267958,-8.468451473160146]},{"id":"pt.ine.add.PTCONT.4304157","rua":"R RECONTRO DO OUTEIRO","casa":"768","coordenadas":[41.32997199267958,-8.468451473160146]},{"id":"pt.ine.add.PTCONT.4317351","rua":"R RECONTRO DO OUTEIRO","casa":"791","coordenadas":[41.330782697330214,-8.468336175137031]},{"id":"pt.ine.add.PTCONT.4325242","rua":"R RECONTRO DO OUTEIRO","casa":"36","coordenadas":[41.32816230007714,-8.468406358612036]},{"id":"pt.ine.add.PTCONT.4329965","rua":"R RECONTRO DO OUTEIRO","casa":"28","coordenadas":[41.3303832912931,-8.47554918205187]},{"id":"pt.ine.add.PTCONT.4391006","rua":"R RECONTRO OUTEIRO","casa":"889","coordenadas":[41.33061495623997,-8.467188547530816]}],"ruas":["R RECONTRO DO OUTEIRO","R RECONTRO OUTEIRO","R S JOÃO"],"centroide":[41.33049330344721,-8.47093319289626]}
+{
+  "CP": "4780-220",
+  "CP4": "4780",
+  "CP3": "220",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "Santa Cristina Couto",
+  "Designação Postal": "SANTO TIRSO",
+  "partes": [
+    {
+      "Artéria": "Rua de São João",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Recontro do Outeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3557165",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "269",
+      "coordenadas": [
+        41.33101178863042,
+        -8.473115577203231
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3653132",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "596",
+      "coordenadas": [
+        41.33079533274158,
+        -8.470175851514472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3679772",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "301",
+      "coordenadas": [
+        41.33135714505164,
+        -8.472030320338588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691576",
+      "rua": "R RECONTRO OUTEIRO",
+      "casa": "885 A",
+      "coordenadas": [
+        41.33061495623997,
+        -8.467188547530816
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3763458",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "275",
+      "coordenadas": [
+        41.33097633723422,
+        -8.472924263880941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4112396",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "492",
+      "coordenadas": [
+        41.329942009846405,
+        -8.47253663726335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4161015",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "560",
+      "coordenadas": [
+        41.33058139664609,
+        -8.472504119461847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4161016",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "560",
+      "coordenadas": [
+        41.33058139664609,
+        -8.472504119461847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4184611",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "141",
+      "coordenadas": [
+        41.33062441083207,
+        -8.467033304343742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4184613",
+      "rua": "R S JOÃO",
+      "casa": "50",
+      "coordenadas": [
+        41.331149068636186,
+        -8.47236371855383
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4270375",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "452",
+      "coordenadas": [
+        41.330520866663356,
+        -8.471655676284415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4290895",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "281",
+      "coordenadas": [
+        41.330959175375064,
+        -8.472637481278094
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304156",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "768",
+      "coordenadas": [
+        41.32997199267958,
+        -8.468451473160146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4304157",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "768",
+      "coordenadas": [
+        41.32997199267958,
+        -8.468451473160146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4317351",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "791",
+      "coordenadas": [
+        41.330782697330214,
+        -8.468336175137031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4325242",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "36",
+      "coordenadas": [
+        41.32816230007714,
+        -8.468406358612036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4329965",
+      "rua": "R RECONTRO DO OUTEIRO",
+      "casa": "28",
+      "coordenadas": [
+        41.3303832912931,
+        -8.47554918205187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4391006",
+      "rua": "R RECONTRO OUTEIRO",
+      "casa": "889",
+      "coordenadas": [
+        41.33061495623997,
+        -8.467188547530816
+      ]
+    }
+  ],
+  "ruas": [
+    "R RECONTRO DO OUTEIRO",
+    "R RECONTRO OUTEIRO",
+    "R S JOÃO"
+  ],
+  "centro": [
+    41.32975972256439,
+    -8.471291243197806
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.32941160763612,
+                -8.472424196796942
+              ],
+              [
+                41.329133983734124,
+                -8.471531343866964
+              ],
+              [
+                41.32892953330042,
+                -8.47072864358029
+              ],
+              [
+                41.32879825633501,
+                -8.47001609593692
+              ],
+              [
+                41.32874015283791,
+                -8.469393700936857
+              ],
+              [
+                41.32875522280909,
+                -8.4688614585801
+              ],
+              [
+                41.32884346624858,
+                -8.468419368866648
+              ],
+              [
+                41.32900488315635,
+                -8.4680674317965
+              ],
+              [
+                41.329239473532425,
+                -8.467805647369659
+              ],
+              [
+                41.32954723737679,
+                -8.467634015586121
+              ],
+              [
+                41.32982797971279,
+                -8.467561916150446
+              ],
+              [
+                41.33008170054043,
+                -8.467589349062631
+              ],
+              [
+                41.3303083998597,
+                -8.46771631432268
+              ],
+              [
+                41.3305080776706,
+                -8.46794281193059
+              ],
+              [
+                41.330680733973146,
+                -8.46826884188636
+              ],
+              [
+                41.330826368767326,
+                -8.468694404189993
+              ],
+              [
+                41.33094498205314,
+                -8.469219498841486
+              ],
+              [
+                41.33103657383057,
+                -8.469844125840844
+              ],
+              [
+                41.33110150017086,
+                -8.47044565667955
+              ],
+              [
+                41.331139761074,
+                -8.471024091357606
+              ],
+              [
+                41.33115135653997,
+                -8.471579429875014
+              ],
+              [
+                41.331136286568785,
+                -8.47211167223177
+              ],
+              [
+                41.33109455116045,
+                -8.47262081842788
+              ],
+              [
+                41.33102615031494,
+                -8.473106868463338
+              ],
+              [
+                41.33093108403229,
+                -8.473569822338149
+              ],
+              [
+                41.33080935231246,
+                -8.474009680052308
+              ],
+              [
+                41.33066813406987,
+                -8.474282948935953
+              ],
+              [
+                41.330507429304504,
+                -8.474389628989076
+              ],
+              [
+                41.33032723801637,
+                -8.474329720211685
+              ],
+              [
+                41.330127560205476,
+                -8.474103222603775
+              ],
+              [
+                41.3299083958718,
+                -8.473710136165348
+              ],
+              [
+                41.329669745015345,
+                -8.473150460896402
+              ],
+              [
+                41.32941160763612,
+                -8.472424196796942
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.33013178681349,
+    -8.47075479133656
+  ],
+  "centroDeMassa": [
+    41.32975972256439,
+    -8.471291243197806
+  ]
+}

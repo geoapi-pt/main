@@ -1,1 +1,367 @@
-{"CP4":"2140","CP3":"618","Distrito":"Santarém","Concelho":"Chamusca","CP":"2140-618","Artéria":"Caminho das Caseiras","Localidade":"Arripiado","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CARREGUEIRA","locais":[{"id":"pt.ine.add.PTCONT.4391324","rua":"ESTR PARTICULAR","casa":"","coordenadas":[39.388283473147624,-8.354463874058224]},{"id":"pt.ine.add.PTCONT.4406450","rua":"R SOMMER DE ANDRADE","casa":"17","coordenadas":[39.45393371347829,-8.398647298430163]},{"id":"pt.ine.add.PTCONT.4412684","rua":"R SOMMER DE ANDRADE","casa":"","coordenadas":[39.45302470054056,-8.398341770697265]},{"id":"pt.ine.add.PTCONT.4418690","rua":"ESTR PARTICULAR","casa":"","coordenadas":[39.385897038585895,-8.358913468891373]},{"id":"pt.ine.add.PTCONT.4442735","rua":"R SOMMER DE ANDRADE","casa":"1","coordenadas":[39.45472502397288,-8.399219612792331]},{"id":"pt.ine.add.PTCONT.4469160","rua":"ESTR PARTICULAR","casa":"","coordenadas":[39.38612219316324,-8.358925801641806]},{"id":"pt.ine.add.PTCONT.4537815","rua":"ESTR PARTICULAR","casa":"","coordenadas":[39.38599611651215,-8.358913788183461]},{"id":"pt.ine.add.PTCONT.4552967","rua":"R SOMMER DE ANDRADE","casa":"5","coordenadas":[39.454274782772444,-8.399171424808927]},{"id":"pt.ine.add.PTCONT.4552996","rua":"R SOMMER DE ANDRADE","casa":"","coordenadas":[39.453075794153975,-8.399631591437771]},{"id":"pt.ine.add.PTCONT.4565642","rua":"R SOMMER DE ANDRADE","casa":"19","coordenadas":[39.45387964524071,-8.39865871142328]},{"id":"pt.ine.add.PTCONT.4601057","rua":"R SOMMER DE ANDRADE","casa":"","coordenadas":[39.45296051150834,-8.398841111499902]},{"id":"pt.ine.add.PTCONT.4619761","rua":"R SOMMER DE ANDRADE","casa":"","coordenadas":[39.45324068192327,-8.398423918240281]},{"id":"pt.ine.add.PTCONT.4642695","rua":"R SOMMER DE ANDRADE","casa":"21","coordenadas":[39.45387985742116,-8.398565765078951]},{"id":"pt.ine.add.PTCONT.4642696","rua":"R SOMMER DE ANDRADE","casa":"15","coordenadas":[39.453987569477334,-8.398728831906926]},{"id":"pt.ine.add.PTCONT.4654755","rua":"R SOMMER DE ANDRADE","casa":"25","coordenadas":[39.453771906571575,-8.398507263230742]},{"id":"pt.ine.add.PTCONT.4654756","rua":"R SOMMER DE ANDRADE","casa":"23","coordenadas":[39.453798741815255,-8.398588693783724]}],"ruas":["ESTR PARTICULAR","R SOMMER DE ANDRADE"],"centroide":[39.43580353389795,-8.387863615488094]}}
+{
+  "CP": "2140-618",
+  "CP4": "2140",
+  "CP3": "618",
+  "Distrito": "Santarém",
+  "Concelho": "Chamusca",
+  "Localidade": "Arripiado",
+  "Designação Postal": "CARREGUEIRA",
+  "partes": [
+    {
+      "Artéria": "Rua Sommer de Andrade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho das Caseiras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4391324",
+      "rua": "ESTR PARTICULAR",
+      "casa": "",
+      "coordenadas": [
+        39.388283473147624,
+        -8.354463874058224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4406450",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "17",
+      "coordenadas": [
+        39.45393371347829,
+        -8.398647298430163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4412684",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.45302470054056,
+        -8.398341770697265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4418690",
+      "rua": "ESTR PARTICULAR",
+      "casa": "",
+      "coordenadas": [
+        39.385897038585895,
+        -8.358913468891373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4442735",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "1",
+      "coordenadas": [
+        39.45472502397288,
+        -8.399219612792331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4469160",
+      "rua": "ESTR PARTICULAR",
+      "casa": "",
+      "coordenadas": [
+        39.38612219316324,
+        -8.358925801641806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4537815",
+      "rua": "ESTR PARTICULAR",
+      "casa": "",
+      "coordenadas": [
+        39.38599611651215,
+        -8.358913788183461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4552967",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "5",
+      "coordenadas": [
+        39.454274782772444,
+        -8.399171424808927
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4552996",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.453075794153975,
+        -8.399631591437771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4565642",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "19",
+      "coordenadas": [
+        39.45387964524071,
+        -8.39865871142328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4601057",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.45296051150834,
+        -8.398841111499902
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4619761",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.45324068192327,
+        -8.398423918240281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4642695",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "21",
+      "coordenadas": [
+        39.45387985742116,
+        -8.398565765078951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4642696",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "15",
+      "coordenadas": [
+        39.453987569477334,
+        -8.398728831906926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4654755",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "25",
+      "coordenadas": [
+        39.453771906571575,
+        -8.398507263230742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4654756",
+      "rua": "R SOMMER DE ANDRADE",
+      "casa": "23",
+      "coordenadas": [
+        39.453798741815255,
+        -8.398588693783724
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR PARTICULAR",
+    "R SOMMER DE ANDRADE"
+  ],
+  "centro": [
+    39.42031103127938,
+    -8.377047732747997
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.42368508859294,
+                -8.381817412823722
+              ],
+              [
+                39.41528774414693,
+                -8.376727647505422
+              ],
+              [
+                39.4079773557967,
+                -8.37220457793264
+              ],
+              [
+                39.401753923542245,
+                -8.368248204105381
+              ],
+              [
+                39.396617447383576,
+                -8.364858526023639
+              ],
+              [
+                39.39256792732067,
+                -8.36203554368742
+              ],
+              [
+                39.38960536335355,
+                -8.359779257096717
+              ],
+              [
+                39.38772975548221,
+                -8.358089666251534
+              ],
+              [
+                39.38694110370665,
+                -8.356966771151871
+              ],
+              [
+                39.38723940802687,
+                -8.356410571797726
+              ],
+              [
+                39.38852536781133,
+                -8.35661298941005
+              ],
+              [
+                39.39079898306004,
+                -8.357574023988839
+              ],
+              [
+                39.394060253773,
+                -8.359293675534095
+              ],
+              [
+                39.398309179950196,
+                -8.36177194404582
+              ],
+              [
+                39.40354576159165,
+                -8.36500882952401
+              ],
+              [
+                39.40976999869735,
+                -8.369004331968668
+              ],
+              [
+                39.41698189126729,
+                -8.373758451379793
+              ],
+              [
+                39.42518143930149,
+                -8.379271187757382
+              ],
+              [
+                39.432369249558775,
+                -8.384105048458297
+              ],
+              [
+                39.43854532203916,
+                -8.388260033482533
+              ],
+              [
+                39.44370965674264,
+                -8.39173614283009
+              ],
+              [
+                39.44786225366922,
+                -8.394533376500974
+              ],
+              [
+                39.451003112818896,
+                -8.396651734495178
+              ],
+              [
+                39.45313223419167,
+                -8.398091216812706
+              ],
+              [
+                39.45424961778754,
+                -8.398851823453555
+              ],
+              [
+                39.4543552636065,
+                -8.398933554417727
+              ],
+              [
+                39.45442193448217,
+                -8.399011506177713
+              ],
+              [
+                39.45444963041456,
+                -8.399085678733513
+              ],
+              [
+                39.454438351403645,
+                -8.399156072085125
+              ],
+              [
+                39.454388097449446,
+                -8.399222686232552
+              ],
+              [
+                39.45429886855196,
+                -8.399285521175791
+              ],
+              [
+                39.45417066471117,
+                -8.399344576914844
+              ],
+              [
+                39.4540034859271,
+                -8.399399853449712
+              ],
+              [
+                39.45379733219974,
+                -8.39945135078039
+              ],
+              [
+                39.45256727963255,
+                -8.398860190279947
+              ],
+              [
+                39.45031332822552,
+                -8.397626371948384
+              ],
+              [
+                39.447035477978666,
+                -8.395749895785697
+              ],
+              [
+                39.44273372889199,
+                -8.393230761791887
+              ],
+              [
+                39.43740808096547,
+                -8.390068969966954
+              ],
+              [
+                39.43105853419912,
+                -8.3862645203109
+              ],
+              [
+                39.42368508859294,
+                -8.381817412823722
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.427172237456304,
+    -8.382158862451728
+  ],
+  "centroDeMassa": [
+    39.42031103127938,
+    -8.377047732747997
+  ]
+}

@@ -1,1 +1,584 @@
-{"CP4":"1685","CP3":"816","Distrito":"Lisboa","Concelho":"Odivelas","CP":"1685-816","Artéria":"Rua Quinta da Silveira","Localidade":"Famões","Local":"Casal da Silveira","Troço":"LT 548","Porta":"","Cliente":"","Designação Postal":"FAMÕES","locais":[{"id":"pt.ine.add.PTCONT.2319804","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79151209391004,-9.220098592761623]},{"id":"pt.ine.add.PTCONT.2320594","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79151209391004,-9.220098592761623]},{"id":"pt.ine.add.PTCONT.2496378","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79148657326944,-9.219937069789985]},{"id":"pt.ine.add.PTCONT.2496379","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79165963494392,-9.220699337865668]},{"id":"pt.ine.add.PTCONT.2496480","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79165963494392,-9.220699337865668]},{"id":"pt.ine.add.PTCONT.2565360","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.791451938925164,-9.21978691821187]},{"id":"pt.ine.add.PTCONT.2600633","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.791537935544596,-9.220225591695144]},{"id":"pt.ine.add.PTCONT.2773545","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79153652830001,-9.219408383317168]},{"id":"pt.ine.add.PTCONT.2792173","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79299677386243,-9.22123760503673]},{"id":"pt.ine.add.PTCONT.2796630","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79299677386243,-9.22123760503673]},{"id":"pt.ine.add.PTCONT.2886031","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79225063205473,-9.221076632681823]},{"id":"pt.ine.add.PTCONT.2886032","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79225063205473,-9.221076632681823]},{"id":"pt.ine.add.PTCONT.2919983","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.7914007895529,-9.21947538088367]},{"id":"pt.ine.add.PTCONT.2923647","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.7914007895529,-9.21947538088367]},{"id":"pt.ine.add.PTCONT.3192118","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.79158029065195,-9.220513977150937]},{"id":"pt.ine.add.PTCONT.3283495","rua":"R QUINTA DA SILVEIRA","casa":"","coordenadas":[38.791703274549306,-9.220849627186254]}],"ruas":["R QUINTA DA SILVEIRA"],"centroide":[38.791815541022615,-9.22033646924161]}]}
+{
+  "CP": "1685-816",
+  "CP4": "1685",
+  "CP3": "816",
+  "Distrito": "Lisboa",
+  "Concelho": "Odivelas",
+  "Localidade": "Famões",
+  "Designação Postal": "FAMÕES",
+  "partes": [
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 392",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 393 A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 393 B",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 393",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 395",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 429",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 430",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 466",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 502",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 529",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 530",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 532",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 533",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 535",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 536",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 537",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 538",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 539",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 541",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 542",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 543",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 546",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 547",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Quinta da Silveira",
+      "Local": "Casal da Silveira",
+      "Troço": "LT 548",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2319804",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79151209391004,
+        -9.220098592761623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2320594",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79151209391004,
+        -9.220098592761623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2496378",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79148657326944,
+        -9.219937069789985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2496379",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79165963494392,
+        -9.220699337865668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2496480",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79165963494392,
+        -9.220699337865668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2565360",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.791451938925164,
+        -9.21978691821187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2600633",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.791537935544596,
+        -9.220225591695144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2773545",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79153652830001,
+        -9.219408383317168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2792173",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79299677386243,
+        -9.22123760503673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2796630",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79299677386243,
+        -9.22123760503673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2886031",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79225063205473,
+        -9.221076632681823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2886032",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79225063205473,
+        -9.221076632681823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2919983",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.7914007895529,
+        -9.21947538088367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2923647",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.7914007895529,
+        -9.21947538088367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3192118",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.79158029065195,
+        -9.220513977150937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3283495",
+      "rua": "R QUINTA DA SILVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.791703274549306,
+        -9.220849627186254
+      ]
+    }
+  ],
+  "ruas": [
+    "R QUINTA DA SILVEIRA"
+  ],
+  "centro": [
+    38.79219878170767,
+    -9.22032299417695
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.79142956107479,
+                -9.219650620630782
+              ],
+              [
+                38.791423167403266,
+                -9.219611678464757
+              ],
+              [
+                38.7914196938586,
+                -9.219576557232507
+              ],
+              [
+                38.791419140440794,
+                -9.219545256934037
+              ],
+              [
+                38.791421507149856,
+                -9.21951777756934
+              ],
+              [
+                38.791426793985785,
+                -9.219494119138421
+              ],
+              [
+                38.79143500094858,
+                -9.21947428164128
+              ],
+              [
+                38.79144612803823,
+                -9.219458265077915
+              ],
+              [
+                38.791460175254755,
+                -9.219446069448326
+              ],
+              [
+                38.791477142598154,
+                -9.219437694752513
+              ],
+              [
+                38.79151480536053,
+                -9.219458948483044
+              ],
+              [
+                38.79157316354189,
+                -9.219509830639922
+              ],
+              [
+                38.79165221714224,
+                -9.219590341223144
+              ],
+              [
+                38.7917519661616,
+                -9.21970048023271
+              ],
+              [
+                38.79187241059993,
+                -9.219840247668621
+              ],
+              [
+                38.792013550457256,
+                -9.220009643530878
+              ],
+              [
+                38.79217538573357,
+                -9.220208667819477
+              ],
+              [
+                38.79235791642887,
+                -9.220437320534423
+              ],
+              [
+                38.792505972321514,
+                -9.220634876466955
+              ],
+              [
+                38.7926195534115,
+                -9.220801335617072
+              ],
+              [
+                38.79269865969883,
+                -9.220936697984778
+              ],
+              [
+                38.7927432911835,
+                -9.221040963570067
+              ],
+              [
+                38.79275344786551,
+                -9.221114132372945
+              ],
+              [
+                38.79272912974486,
+                -9.22115620439341
+              ],
+              [
+                38.79267033682156,
+                -9.22116717963146
+              ],
+              [
+                38.7925770690956,
+                -9.221147058087096
+              ],
+              [
+                38.79248690737436,
+                -9.22112590477491
+              ],
+              [
+                38.79239985165785,
+                -9.2211037196949
+              ],
+              [
+                38.792315901946054,
+                -9.22108050284707
+              ],
+              [
+                38.79223505823898,
+                -9.221056254231414
+              ],
+              [
+                38.79215732053663,
+                -9.221030973847936
+              ],
+              [
+                38.79208268883902,
+                -9.221004661696636
+              ],
+              [
+                38.792011163146114,
+                -9.22097731777751
+              ],
+              [
+                38.79194274345792,
+                -9.220948942090565
+              ],
+              [
+                38.79188095460737,
+                -9.220918868832687
+              ],
+              [
+                38.791825796594445,
+                -9.220887098003875
+              ],
+              [
+                38.79177726941914,
+                -9.220853629604127
+              ],
+              [
+                38.79173537308148,
+                -9.220818463633444
+              ],
+              [
+                38.791700107581434,
+                -9.22078160009183
+              ],
+              [
+                38.791671472919006,
+                -9.220743038979283
+              ],
+              [
+                38.79164946909421,
+                -9.220702780295802
+              ],
+              [
+                38.791634096107046,
+                -9.220660824041389
+              ],
+              [
+                38.79161863924754,
+                -9.220612752022852
+              ],
+              [
+                38.7916030985157,
+                -9.220558564240196
+              ],
+              [
+                38.79158747391153,
+                -9.220498260693418
+              ],
+              [
+                38.791571765435016,
+                -9.220431841382519
+              ],
+              [
+                38.791555973086176,
+                -9.220359306307499
+              ],
+              [
+                38.79154009686499,
+                -9.220280655468358
+              ],
+              [
+                38.791524136771486,
+                -9.220195888865096
+              ],
+              [
+                38.79150809280563,
+                -9.220105006497711
+              ],
+              [
+                38.791493255126575,
+                -9.220020616655498
+              ],
+              [
+                38.791479623734304,
+                -9.219942719338453
+              ],
+              [
+                38.79146719862882,
+                -9.21987131454658
+              ],
+              [
+                38.79145597981014,
+                -9.219806402279875
+              ],
+              [
+                38.791445967278236,
+                -9.219747982538342
+              ],
+              [
+                38.791437161033116,
+                -9.219696055321977
+              ],
+              [
+                38.79142956107479,
+                -9.219650620630782
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.791845746842355,
+    -9.220335503495493
+  ],
+  "centroDeMassa": [
+    38.79219878170767,
+    -9.22032299417695
+  ]
+}

@@ -1,1 +1,406 @@
-{"CP4":"2560","CP3":"357","Distrito":"Lisboa","Concelho":"Torres Vedras","CP":"2560-357","Artéria":"Rua Paiva Andrade","Localidade":"Torres Vedras","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"TORRES VEDRAS","locais":[{"id":"pt.ine.add.PTCONT.2282633","rua":"R PAIVA ANDRADE","casa":"9","coordenadas":[39.09110316167358,-9.259773836006072]},{"id":"pt.ine.add.PTCONT.2286468","rua":"R PAIVA ANDRADE","casa":"9","coordenadas":[39.09110316167358,-9.259773836006072]},{"id":"pt.ine.add.PTCONT.2291565","rua":"R PAIVA DE ANDRADA","casa":"8","coordenadas":[39.091226563120664,-9.260053196939745]},{"id":"pt.ine.add.PTCONT.2291566","rua":"R PAIVA DE ANDRADA","casa":"8","coordenadas":[39.091226563120664,-9.260053196939745]},{"id":"pt.ine.add.PTCONT.2291567","rua":"R PAIVA DE ANDRADA","casa":"8","coordenadas":[39.091226563120664,-9.260053196939745]},{"id":"pt.ine.add.PTCONT.2291568","rua":"R PAIVA DE ANDRADA","casa":"8","coordenadas":[39.091226563120664,-9.260053196939745]},{"id":"pt.ine.add.PTCONT.2291569","rua":"R PAIVA DE ANDRADA","casa":"8","coordenadas":[39.091226563120664,-9.260053196939745]},{"id":"pt.ine.add.PTCONT.2293481","rua":"R PAIVA DE ANDRADA","casa":"8","coordenadas":[39.091226563120664,-9.260053196939745]},{"id":"pt.ine.add.PTCONT.2461871","rua":"R PAIVA ANDRADA","casa":"2","coordenadas":[39.091334337443065,-9.259153369924563]},{"id":"pt.ine.add.PTCONT.2467798","rua":"R PAIVA ANDRADA","casa":"2","coordenadas":[39.091334337443065,-9.259153369924563]},{"id":"pt.ine.add.PTCONT.2519082","rua":"R PAIVA DE ANDRADA","casa":"21","coordenadas":[39.09098760614557,-9.260546395215291]},{"id":"pt.ine.add.PTCONT.2519083","rua":"R PAIVA DE ANDRADA","casa":"21","coordenadas":[39.09098760614557,-9.260546395215291]},{"id":"pt.ine.add.PTCONT.2519084","rua":"R PAIVA DE ANDRADA","casa":"21","coordenadas":[39.09098760614557,-9.260546395215291]},{"id":"pt.ine.add.PTCONT.2519085","rua":"R PAIVA DE ANDRADA","casa":"21","coordenadas":[39.09098760614557,-9.260546395215291]},{"id":"pt.ine.add.PTCONT.2519086","rua":"R PAIVA DE ANDRADA","casa":"21","coordenadas":[39.09098760614557,-9.260546395215291]},{"id":"pt.ine.add.PTCONT.2520854","rua":"R PAIVA DE ANDRADA","casa":"21","coordenadas":[39.09098760614557,-9.260546395215291]},{"id":"pt.ine.add.PTCONT.2867752","rua":"R PAIVA DE ANDRADA","casa":"4","coordenadas":[39.091306091957236,-9.259280061256277]},{"id":"pt.ine.add.PTCONT.3013898","rua":"R PAIVA DE ANDRADA","casa":"6","coordenadas":[39.091295634777026,-9.259430151920421]},{"id":"pt.ine.add.PTCONT.3115961","rua":"R PAIVA ANDRADE","casa":"11","coordenadas":[39.09107379853473,-9.260016090823802]},{"id":"pt.ine.add.PTCONT.3134357","rua":"R PAIVA DE ANDRADA","casa":"12","coordenadas":[39.09118841699574,-9.260272195805317]},{"id":"pt.ine.add.PTCONT.3450458","rua":"R PAIVA DE ANDRADA","casa":"6","coordenadas":[39.091295634777026,-9.259430151920421]}],"ruas":["R PAIVA ANDRADE","R PAIVA DE ANDRADA","R PAIVA ANDRADA"],"centroide":[39.09115119780476,-9.260022523229866]}
+{
+  "CP": "2560-357",
+  "CP4": "2560",
+  "CP3": "357",
+  "Distrito": "Lisboa",
+  "Concelho": "Torres Vedras",
+  "Localidade": "Torres Vedras",
+  "Designação Postal": "TORRES VEDRAS",
+  "partes": [
+    {
+      "Artéria": "Rua Paiva Andrade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2282633",
+      "rua": "R PAIVA ANDRADE",
+      "casa": "9",
+      "coordenadas": [
+        39.09110316167358,
+        -9.259773836006072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2286468",
+      "rua": "R PAIVA ANDRADE",
+      "casa": "9",
+      "coordenadas": [
+        39.09110316167358,
+        -9.259773836006072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2291565",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "8",
+      "coordenadas": [
+        39.091226563120664,
+        -9.260053196939745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2291566",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "8",
+      "coordenadas": [
+        39.091226563120664,
+        -9.260053196939745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2291567",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "8",
+      "coordenadas": [
+        39.091226563120664,
+        -9.260053196939745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2291568",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "8",
+      "coordenadas": [
+        39.091226563120664,
+        -9.260053196939745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2291569",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "8",
+      "coordenadas": [
+        39.091226563120664,
+        -9.260053196939745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2293481",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "8",
+      "coordenadas": [
+        39.091226563120664,
+        -9.260053196939745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2461871",
+      "rua": "R PAIVA ANDRADA",
+      "casa": "2",
+      "coordenadas": [
+        39.091334337443065,
+        -9.259153369924563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2467798",
+      "rua": "R PAIVA ANDRADA",
+      "casa": "2",
+      "coordenadas": [
+        39.091334337443065,
+        -9.259153369924563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2519082",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "21",
+      "coordenadas": [
+        39.09098760614557,
+        -9.260546395215291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2519083",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "21",
+      "coordenadas": [
+        39.09098760614557,
+        -9.260546395215291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2519084",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "21",
+      "coordenadas": [
+        39.09098760614557,
+        -9.260546395215291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2519085",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "21",
+      "coordenadas": [
+        39.09098760614557,
+        -9.260546395215291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2519086",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "21",
+      "coordenadas": [
+        39.09098760614557,
+        -9.260546395215291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2520854",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "21",
+      "coordenadas": [
+        39.09098760614557,
+        -9.260546395215291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2867752",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "4",
+      "coordenadas": [
+        39.091306091957236,
+        -9.259280061256277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3013898",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "6",
+      "coordenadas": [
+        39.091295634777026,
+        -9.259430151920421
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3115961",
+      "rua": "R PAIVA ANDRADE",
+      "casa": "11",
+      "coordenadas": [
+        39.09107379853473,
+        -9.260016090823802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3134357",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "12",
+      "coordenadas": [
+        39.09118841699574,
+        -9.260272195805317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3450458",
+      "rua": "R PAIVA DE ANDRADA",
+      "casa": "6",
+      "coordenadas": [
+        39.091295634777026,
+        -9.259430151920421
+      ]
+    }
+  ],
+  "ruas": [
+    "R PAIVA ANDRADE",
+    "R PAIVA DE ANDRADA",
+    "R PAIVA ANDRADA"
+  ],
+  "centro": [
+    39.09116097179432,
+    -9.259849882569927
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.09110056224879,
+                -9.26039215804718
+              ],
+              [
+                39.09107546089252,
+                -9.260426432973427
+              ],
+              [
+                39.09105530276091,
+                -9.260444352296249
+              ],
+              [
+                39.09104008785395,
+                -9.260445916015646
+              ],
+              [
+                39.091029816171655,
+                -9.260431124131618
+              ],
+              [
+                39.09102448771402,
+                -9.260399976644166
+              ],
+              [
+                39.09102410248105,
+                -9.260352473553287
+              ],
+              [
+                39.09102866047273,
+                -9.260288614858986
+              ],
+              [
+                39.09103816168908,
+                -9.260208400561257
+              ],
+              [
+                39.09105260613007,
+                -9.260111830660106
+              ],
+              [
+                39.091068857137344,
+                -9.260017637214075
+              ],
+              [
+                39.0910869147109,
+                -9.259925820223161
+              ],
+              [
+                39.09110677885072,
+                -9.259836379687371
+              ],
+              [
+                39.09112844955681,
+                -9.259749315606701
+              ],
+              [
+                39.091151926829184,
+                -9.25966462798115
+              ],
+              [
+                39.09117721066782,
+                -9.259582316810722
+              ],
+              [
+                39.09120430107273,
+                -9.259502382095413
+              ],
+              [
+                39.091233198043916,
+                -9.259424823835223
+              ],
+              [
+                39.091256798919915,
+                -9.25937102015467
+              ],
+              [
+                39.091275103700724,
+                -9.259340971053755
+              ],
+              [
+                39.09128811238635,
+                -9.259334676532472
+              ],
+              [
+                39.0912958249768,
+                -9.259352136590827
+              ],
+              [
+                39.09129824147206,
+                -9.259393351228816
+              ],
+              [
+                39.09129536187213,
+                -9.259458320446445
+              ],
+              [
+                39.09128718617701,
+                -9.259547044243707
+              ],
+              [
+                39.091273714386716,
+                -9.259659522620602
+              ],
+              [
+                39.091261330536994,
+                -9.259761363057663
+              ],
+              [
+                39.091250034627876,
+                -9.259852565554887
+              ],
+              [
+                39.09123982665933,
+                -9.259933130112271
+              ],
+              [
+                39.091230706631364,
+                -9.260003056729817
+              ],
+              [
+                39.091222674544,
+                -9.260062345407526
+              ],
+              [
+                39.09121573039721,
+                -9.2601109961454
+              ],
+              [
+                39.09120987419101,
+                -9.260149008943433
+              ],
+              [
+                39.0912051059254,
+                -9.26017638380163
+              ],
+              [
+                39.091197796023444,
+                -9.260204621168333
+              ],
+              [
+                39.09118794448517,
+                -9.260233721043543
+              ],
+              [
+                39.091175551310556,
+                -9.260263683427258
+              ],
+              [
+                39.091160616499614,
+                -9.260294508319479
+              ],
+              [
+                39.09114314005234,
+                -9.260326195720207
+              ],
+              [
+                39.09112312196873,
+                -9.26035874562944
+              ],
+              [
+                39.09110056224879,
+                -9.26039215804718
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.09116801707573,
+    -9.259959798778198
+  ],
+  "centroDeMassa": [
+    39.09116097179432,
+    -9.259849882569927
+  ]
+}

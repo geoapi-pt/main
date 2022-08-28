@@ -1,1 +1,491 @@
-{"CP4":"4800","CP3":"944","Distrito":"Braga","Concelho":"Guimarães","CP":"4800-944","Artéria":"Rua do Talho","Localidade":"Prazins de Santo Tirso","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO TIRSO PRAZINS","locais":[{"id":"pt.ine.add.PTCONT.463386","rua":"R TALHO","casa":"347","coordenadas":[41.48150085388172,-8.321817750612118]},{"id":"pt.ine.add.PTCONT.463390","rua":"R TALHO","casa":"17","coordenadas":[41.48232075201061,-8.32148487590505]},{"id":"pt.ine.add.PTCONT.477387","rua":"R TALHO","casa":"348","coordenadas":[41.48176188640447,-8.321866400814576]},{"id":"pt.ine.add.PTCONT.497102","rua":"PRAÇA","casa":"","coordenadas":[41.48570956625071,-8.307952144338559]},{"id":"pt.ine.add.PTCONT.497103","rua":"PRAÇA","casa":"","coordenadas":[41.48570956625071,-8.307952144338559]},{"id":"pt.ine.add.PTCONT.508601","rua":"R TALHO","casa":"60","coordenadas":[41.48204153520702,-8.321543933698914]},{"id":"pt.ine.add.PTCONT.508685","rua":"R NSA DO ROSARIO","casa":"","coordenadas":[41.48028139749501,-8.318701243815642]},{"id":"pt.ine.add.PTCONT.508686","rua":"R NSA DO ROSARIO","casa":"","coordenadas":[41.48028139749501,-8.318701243815642]},{"id":"pt.ine.add.PTCONT.514736","rua":"PRAZINS","casa":"","coordenadas":[41.486939277690674,-8.304506884969786]},{"id":"pt.ine.add.PTCONT.528940","rua":"R TALHO","casa":"363","coordenadas":[41.48149169286717,-8.321913509483274]},{"id":"pt.ine.add.PTCONT.537849","rua":"R TALHO","casa":"285","coordenadas":[41.481528473707975,-8.321446661918115]},{"id":"pt.ine.add.PTCONT.540673","rua":"R TALHO","casa":"32","coordenadas":[41.48213131841721,-8.321699846677944]},{"id":"pt.ine.add.PTCONT.554826","rua":"R TALHO","casa":"12","coordenadas":[41.48216721593117,-8.321771790588693]},{"id":"pt.ine.add.PTCONT.558810","rua":"R TALHO","casa":"","coordenadas":[41.48227585048779,-8.321412905916391]},{"id":"pt.ine.add.PTCONT.574414","rua":"R TALHO","casa":"289","coordenadas":[41.48151931300219,-8.321542420883326]},{"id":"pt.ine.add.PTCONT.582641","rua":"MONTE DE CORVITE","casa":"","coordenadas":[41.48001530070791,-8.327177304314658]},{"id":"pt.ine.add.PTCONT.590265","rua":"R TALHO","casa":"5","coordenadas":[41.482374676933496,-8.32154489879176]},{"id":"pt.ine.add.PTCONT.610920","rua":"R TALHO","casa":"75","coordenadas":[41.48215014947653,-8.321197022581712]},{"id":"pt.ine.add.PTCONT.627397","rua":"R TALHO","casa":"364","coordenadas":[41.481761748837364,-8.32195021303025]},{"id":"pt.ine.add.PTCONT.649799","rua":"R TALHO","casa":"61","coordenadas":[41.48218606689082,-8.321256992984795]},{"id":"pt.ine.add.PTCONT.652261","rua":"R TALHO","casa":"49","coordenadas":[41.482239952749886,-8.321340962082491]},{"id":"pt.ine.add.PTCONT.667795","rua":"R NSA SRA DO ROSÁRIO","casa":"","coordenadas":[41.48056967471171,-8.318606282195542]},{"id":"pt.ine.add.PTCONT.667796","rua":"R NSA SRA DO ROSÁRIO","casa":"","coordenadas":[41.48056967471171,-8.318606282195542]},{"id":"pt.ine.add.PTCONT.702367","rua":"R TALHO","casa":"","coordenadas":[41.48178024753011,-8.321650935881753]},{"id":"pt.ine.add.PTCONT.712169","rua":"AV DE STO TIRSO","casa":"","coordenadas":[41.487227614316886,-8.304363954012725]},{"id":"pt.ine.add.PTCONT.729208","rua":"R TALHO","casa":"331","coordenadas":[41.48150101098517,-8.321721965606175]},{"id":"pt.ine.add.PTCONT.756220","rua":"R TALHO","casa":"42","coordenadas":[41.48208639740329,-8.321639849985077]},{"id":"pt.ine.add.PTCONT.777176","rua":"R TALHO","casa":"315","coordenadas":[41.48151017184034,-8.32162620669374]},{"id":"pt.ine.add.PTCONT.780410","rua":"R TALHO","casa":"89","coordenadas":[41.48210524777144,-8.321125052980285]},{"id":"pt.ine.add.PTCONT.794380","rua":"R TALHO","casa":"332","coordenadas":[41.48177104738022,-8.32177064153902]}],"ruas":["R TALHO","PRAÇA","R NSA DO ROSARIO","PRAZINS","MONTE DE CORVITE","R NSA SRA DO ROSÁRIO","AV DE STO TIRSO"],"centroide":[41.48226682868848,-8.319245575210795]}
+{
+  "CP": "4800-944",
+  "CP4": "4800",
+  "CP3": "944",
+  "Distrito": "Braga",
+  "Concelho": "Guimarães",
+  "Localidade": "Prazins de Santo Tirso",
+  "Designação Postal": "SANTO TIRSO PRAZINS",
+  "partes": [
+    {
+      "Artéria": "Rua do Talho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.463386",
+      "rua": "R TALHO",
+      "casa": "347",
+      "coordenadas": [
+        41.48150085388172,
+        -8.321817750612118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.463390",
+      "rua": "R TALHO",
+      "casa": "17",
+      "coordenadas": [
+        41.48232075201061,
+        -8.32148487590505
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.477387",
+      "rua": "R TALHO",
+      "casa": "348",
+      "coordenadas": [
+        41.48176188640447,
+        -8.321866400814576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.497102",
+      "rua": "PRAÇA",
+      "casa": "",
+      "coordenadas": [
+        41.48570956625071,
+        -8.307952144338559
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.497103",
+      "rua": "PRAÇA",
+      "casa": "",
+      "coordenadas": [
+        41.48570956625071,
+        -8.307952144338559
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.508601",
+      "rua": "R TALHO",
+      "casa": "60",
+      "coordenadas": [
+        41.48204153520702,
+        -8.321543933698914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.508685",
+      "rua": "R NSA DO ROSARIO",
+      "casa": "",
+      "coordenadas": [
+        41.48028139749501,
+        -8.318701243815642
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.508686",
+      "rua": "R NSA DO ROSARIO",
+      "casa": "",
+      "coordenadas": [
+        41.48028139749501,
+        -8.318701243815642
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.514736",
+      "rua": "PRAZINS",
+      "casa": "",
+      "coordenadas": [
+        41.486939277690674,
+        -8.304506884969786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.528940",
+      "rua": "R TALHO",
+      "casa": "363",
+      "coordenadas": [
+        41.48149169286717,
+        -8.321913509483274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.537849",
+      "rua": "R TALHO",
+      "casa": "285",
+      "coordenadas": [
+        41.481528473707975,
+        -8.321446661918115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.540673",
+      "rua": "R TALHO",
+      "casa": "32",
+      "coordenadas": [
+        41.48213131841721,
+        -8.321699846677944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.554826",
+      "rua": "R TALHO",
+      "casa": "12",
+      "coordenadas": [
+        41.48216721593117,
+        -8.321771790588693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.558810",
+      "rua": "R TALHO",
+      "casa": "",
+      "coordenadas": [
+        41.48227585048779,
+        -8.321412905916391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.574414",
+      "rua": "R TALHO",
+      "casa": "289",
+      "coordenadas": [
+        41.48151931300219,
+        -8.321542420883326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.582641",
+      "rua": "MONTE DE CORVITE",
+      "casa": "",
+      "coordenadas": [
+        41.48001530070791,
+        -8.327177304314658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.590265",
+      "rua": "R TALHO",
+      "casa": "5",
+      "coordenadas": [
+        41.482374676933496,
+        -8.32154489879176
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.610920",
+      "rua": "R TALHO",
+      "casa": "75",
+      "coordenadas": [
+        41.48215014947653,
+        -8.321197022581712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.627397",
+      "rua": "R TALHO",
+      "casa": "364",
+      "coordenadas": [
+        41.481761748837364,
+        -8.32195021303025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.649799",
+      "rua": "R TALHO",
+      "casa": "61",
+      "coordenadas": [
+        41.48218606689082,
+        -8.321256992984795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.652261",
+      "rua": "R TALHO",
+      "casa": "49",
+      "coordenadas": [
+        41.482239952749886,
+        -8.321340962082491
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.667795",
+      "rua": "R NSA SRA DO ROSÁRIO",
+      "casa": "",
+      "coordenadas": [
+        41.48056967471171,
+        -8.318606282195542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.667796",
+      "rua": "R NSA SRA DO ROSÁRIO",
+      "casa": "",
+      "coordenadas": [
+        41.48056967471171,
+        -8.318606282195542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.702367",
+      "rua": "R TALHO",
+      "casa": "",
+      "coordenadas": [
+        41.48178024753011,
+        -8.321650935881753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.712169",
+      "rua": "AV DE STO TIRSO",
+      "casa": "",
+      "coordenadas": [
+        41.487227614316886,
+        -8.304363954012725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.729208",
+      "rua": "R TALHO",
+      "casa": "331",
+      "coordenadas": [
+        41.48150101098517,
+        -8.321721965606175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.756220",
+      "rua": "R TALHO",
+      "casa": "42",
+      "coordenadas": [
+        41.48208639740329,
+        -8.321639849985077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.777176",
+      "rua": "R TALHO",
+      "casa": "315",
+      "coordenadas": [
+        41.48151017184034,
+        -8.32162620669374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.780410",
+      "rua": "R TALHO",
+      "casa": "89",
+      "coordenadas": [
+        41.48210524777144,
+        -8.321125052980285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.794380",
+      "rua": "R TALHO",
+      "casa": "332",
+      "coordenadas": [
+        41.48177104738022,
+        -8.32177064153902
+      ]
+    }
+  ],
+  "ruas": [
+    "R TALHO",
+    "PRAÇA",
+    "R NSA DO ROSARIO",
+    "PRAZINS",
+    "MONTE DE CORVITE",
+    "R NSA SRA DO ROSÁRIO",
+    "AV DE STO TIRSO"
+  ],
+  "centro": [
+    41.4836214575124,
+    -8.31577062916369
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.481342449834806,
+                -8.324009076208029
+              ],
+              [
+                41.4810475278066,
+                -8.32471312689839
+              ],
+              [
+                41.48079362879423,
+                -8.32519673280716
+              ],
+              [
+                41.48058075279768,
+                -8.325459893934337
+              ],
+              [
+                41.48040889981695,
+                -8.325502610279923
+              ],
+              [
+                41.48027806985204,
+                -8.325324881843915
+              ],
+              [
+                41.480188262902956,
+                -8.324926708626315
+              ],
+              [
+                41.480139478969704,
+                -8.324308090627124
+              ],
+              [
+                41.48013171805226,
+                -8.323469027846338
+              ],
+              [
+                41.48016498015066,
+                -8.322409520283962
+              ],
+              [
+                41.480298113864805,
+                -8.321260664309914
+              ],
+              [
+                41.48053111919471,
+                -8.3200224599242
+              ],
+              [
+                41.48086399614037,
+                -8.318694907126815
+              ],
+              [
+                41.481296744701794,
+                -8.31727800591776
+              ],
+              [
+                41.481829364878976,
+                -8.315771756297035
+              ],
+              [
+                41.48246185667192,
+                -8.314176158264644
+              ],
+              [
+                41.48319422008062,
+                -8.31249121182058
+              ],
+              [
+                41.48402645510507,
+                -8.310716916964848
+              ],
+              [
+                41.48475916601126,
+                -8.30916217566988
+              ],
+              [
+                41.48539235279917,
+                -8.307826987935671
+              ],
+              [
+                41.485926015468806,
+                -8.306711353762227
+              ],
+              [
+                41.486360154020176,
+                -8.305815273149545
+              ],
+              [
+                41.48669476845326,
+                -8.305138746097624
+              ],
+              [
+                41.48692985876809,
+                -8.304681772606468
+              ],
+              [
+                41.48706542496464,
+                -8.304444352676073
+              ],
+              [
+                41.48710146704292,
+                -8.304426486306438
+              ],
+              [
+                41.4870571767148,
+                -8.304679305495181
+              ],
+              [
+                41.48693255398027,
+                -8.305202810242303
+              ],
+              [
+                41.48672759883935,
+                -8.305997000547801
+              ],
+              [
+                41.48644231129202,
+                -8.307061876411673
+              ],
+              [
+                41.486076691338305,
+                -8.308397437833923
+              ],
+              [
+                41.48563073897818,
+                -8.31000368481455
+              ],
+              [
+                41.48510445421165,
+                -8.311880617353554
+              ],
+              [
+                41.48449783703873,
+                -8.314028235450932
+              ],
+              [
+                41.48393018175889,
+                -8.315995407622434
+              ],
+              [
+                41.48340148837215,
+                -8.31778213386806
+              ],
+              [
+                41.4829117568785,
+                -8.319388414187808
+              ],
+              [
+                41.48246098727794,
+                -8.320814248581678
+              ],
+              [
+                41.48204917957047,
+                -8.322059637049673
+              ],
+              [
+                41.48167633375609,
+                -8.323124579591788
+              ],
+              [
+                41.481342449834806,
+                -8.324009076208029
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.4833676534288,
+    -8.315258857180913
+  ],
+  "centroDeMassa": [
+    41.4836214575124,
+    -8.31577062916369
+  ]
+}

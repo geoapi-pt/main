@@ -1,1 +1,405 @@
-{"CP4":"7370","CP3":"022","Distrito":"Portalegre","Concelho":"Campo Maior","CP":"7370-022","Artéria":"Rua Salgado Zenha","Localidade":"Campo Maior","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAMPO MAIOR","locais":[{"id":"pt.ine.add.PTCONT.3458786","rua":"R SALGADO ZENHA","casa":"10B","coordenadas":[39.01825678359529,-7.060447554521255]},{"id":"pt.ine.add.PTCONT.3458787","rua":"R SALGADO ZENHA","casa":"10B","coordenadas":[39.01825678359529,-7.060447554521255]},{"id":"pt.ine.add.PTCONT.3464453","rua":"R SALGADO ZENHA","casa":"4","coordenadas":[39.018405870281036,-7.060987982184978]},{"id":"pt.ine.add.PTCONT.3470465","rua":"R SALGADO ZENHA","casa":"8","coordenadas":[39.01830372505351,-7.0606546799749506]},{"id":"pt.ine.add.PTCONT.3471847","rua":"R SALGADO ZENHA","casa":"34","coordenadas":[39.01695881497837,-7.059370282014972]},{"id":"pt.ine.add.PTCONT.3473340","rua":"R SALGADO ZENHA","casa":"28","coordenadas":[39.01724044918884,-7.0596315849110685]},{"id":"pt.ine.add.PTCONT.3478961","rua":"R SALGADO ZENHA","casa":"26","coordenadas":[39.017331360496165,-7.059722579929907]},{"id":"pt.ine.add.PTCONT.3481184","rua":"R SALGADO ZENHA","casa":"32","coordenadas":[39.0171224131386,-7.059529454139814]},{"id":"pt.ine.add.PTCONT.3481887","rua":"R SALGADO ZENHA","casa":"41","coordenadas":[39.01701561437024,-7.059669623223928]},{"id":"pt.ine.add.PTCONT.3486982","rua":"R SALGADO ZENHA","casa":"","coordenadas":[39.018176683732435,-7.060552682066582]},{"id":"pt.ine.add.PTCONT.3486983","rua":"R SALGADO ZENHA","casa":"","coordenadas":[39.018176683732435,-7.060552682066582]},{"id":"pt.ine.add.PTCONT.3486984","rua":"R SALGADO ZENHA","casa":"","coordenadas":[39.018176683732435,-7.060552682066582]},{"id":"pt.ine.add.PTCONT.3488362","rua":"R SALGADO ZENHA","casa":"12","coordenadas":[39.018085348402366,-7.060415505966728]},{"id":"pt.ine.add.PTCONT.3494789","rua":"R SALGADO ZENHA","casa":"10","coordenadas":[39.01797631916205,-7.0603132365895815]},{"id":"pt.ine.add.PTCONT.3509197","rua":"ESTR S PEPRO","casa":"102","coordenadas":[39.018783093565595,-7.057934021345916]},{"id":"pt.ine.add.PTCONT.3511588","rua":"R SALGADO ZENHA","casa":"24","coordenadas":[39.01743117165162,-7.059801894389491]},{"id":"pt.ine.add.PTCONT.3514076","rua":"R SALGADO ZENHA","casa":"2","coordenadas":[39.01833520045871,-7.061139152467033]},{"id":"pt.ine.add.PTCONT.3515700","rua":"R SALGADO ZENHA","casa":"43","coordenadas":[39.01685212264894,-7.059521995537401]},{"id":"pt.ine.add.PTCONT.3519097","rua":"R SALGADO ZENHA","casa":"6","coordenadas":[39.018430554020334,-7.060733588658565]},{"id":"pt.ine.add.PTCONT.3526569","rua":"R SALGADO ZENHA","casa":"20","coordenadas":[39.017676143136796,-7.059994477242436]},{"id":"pt.ine.add.PTCONT.3530655","rua":"R SALGADO ZENHA","casa":"22","coordenadas":[39.017531407614186,-7.059927387645709]}],"ruas":["R SALGADO ZENHA","ESTR S PEPRO"],"centroide":[39.01784959094706,-7.060098660690952]}
+{
+  "CP": "7370-022",
+  "CP4": "7370",
+  "CP3": "022",
+  "Distrito": "Portalegre",
+  "Concelho": "Campo Maior",
+  "Localidade": "Campo Maior",
+  "Designação Postal": "CAMPO MAIOR",
+  "partes": [
+    {
+      "Artéria": "Rua Salgado Zenha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3458786",
+      "rua": "R SALGADO ZENHA",
+      "casa": "10B",
+      "coordenadas": [
+        39.01825678359529,
+        -7.060447554521255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3458787",
+      "rua": "R SALGADO ZENHA",
+      "casa": "10B",
+      "coordenadas": [
+        39.01825678359529,
+        -7.060447554521255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3464453",
+      "rua": "R SALGADO ZENHA",
+      "casa": "4",
+      "coordenadas": [
+        39.018405870281036,
+        -7.060987982184978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3470465",
+      "rua": "R SALGADO ZENHA",
+      "casa": "8",
+      "coordenadas": [
+        39.01830372505351,
+        -7.0606546799749506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3471847",
+      "rua": "R SALGADO ZENHA",
+      "casa": "34",
+      "coordenadas": [
+        39.01695881497837,
+        -7.059370282014972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3473340",
+      "rua": "R SALGADO ZENHA",
+      "casa": "28",
+      "coordenadas": [
+        39.01724044918884,
+        -7.0596315849110685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478961",
+      "rua": "R SALGADO ZENHA",
+      "casa": "26",
+      "coordenadas": [
+        39.017331360496165,
+        -7.059722579929907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3481184",
+      "rua": "R SALGADO ZENHA",
+      "casa": "32",
+      "coordenadas": [
+        39.0171224131386,
+        -7.059529454139814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3481887",
+      "rua": "R SALGADO ZENHA",
+      "casa": "41",
+      "coordenadas": [
+        39.01701561437024,
+        -7.059669623223928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3486982",
+      "rua": "R SALGADO ZENHA",
+      "casa": "",
+      "coordenadas": [
+        39.018176683732435,
+        -7.060552682066582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3486983",
+      "rua": "R SALGADO ZENHA",
+      "casa": "",
+      "coordenadas": [
+        39.018176683732435,
+        -7.060552682066582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3486984",
+      "rua": "R SALGADO ZENHA",
+      "casa": "",
+      "coordenadas": [
+        39.018176683732435,
+        -7.060552682066582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3488362",
+      "rua": "R SALGADO ZENHA",
+      "casa": "12",
+      "coordenadas": [
+        39.018085348402366,
+        -7.060415505966728
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3494789",
+      "rua": "R SALGADO ZENHA",
+      "casa": "10",
+      "coordenadas": [
+        39.01797631916205,
+        -7.0603132365895815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509197",
+      "rua": "ESTR S PEPRO",
+      "casa": "102",
+      "coordenadas": [
+        39.018783093565595,
+        -7.057934021345916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511588",
+      "rua": "R SALGADO ZENHA",
+      "casa": "24",
+      "coordenadas": [
+        39.01743117165162,
+        -7.059801894389491
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3514076",
+      "rua": "R SALGADO ZENHA",
+      "casa": "2",
+      "coordenadas": [
+        39.01833520045871,
+        -7.061139152467033
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515700",
+      "rua": "R SALGADO ZENHA",
+      "casa": "43",
+      "coordenadas": [
+        39.01685212264894,
+        -7.059521995537401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519097",
+      "rua": "R SALGADO ZENHA",
+      "casa": "6",
+      "coordenadas": [
+        39.018430554020334,
+        -7.060733588658565
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3526569",
+      "rua": "R SALGADO ZENHA",
+      "casa": "20",
+      "coordenadas": [
+        39.017676143136796,
+        -7.059994477242436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530655",
+      "rua": "R SALGADO ZENHA",
+      "casa": "22",
+      "coordenadas": [
+        39.017531407614186,
+        -7.059927387645709
+      ]
+    }
+  ],
+  "ruas": [
+    "R SALGADO ZENHA",
+    "ESTR S PEPRO"
+  ],
+  "centro": [
+    39.017817608107265,
+    -7.059536586906474
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.01768635391693,
+                -7.0604316463103185
+              ],
+              [
+                39.01750096919072,
+                -7.060229501694115
+              ],
+              [
+                39.01734042462292,
+                -7.0600502546311485
+              ],
+              [
+                39.01720472021355,
+                -7.059893905121419
+              ],
+              [
+                39.0170938559626,
+                -7.0597604531649285
+              ],
+              [
+                39.01700783187009,
+                -7.059649898761674
+              ],
+              [
+                39.01694664793599,
+                -7.059562241911658
+              ],
+              [
+                39.01691030416032,
+                -7.059497482614878
+              ],
+              [
+                39.01689880054307,
+                -7.059455620871338
+              ],
+              [
+                39.01691213708425,
+                -7.059436656681035
+              ],
+              [
+                39.0169523109107,
+                -7.059397621441565
+              ],
+              [
+                39.017019322022435,
+                -7.059338515152929
+              ],
+              [
+                39.01711317041945,
+                -7.059259337815128
+              ],
+              [
+                39.01723385610174,
+                -7.05916008942816
+              ],
+              [
+                39.017381379069306,
+                -7.059040769992027
+              ],
+              [
+                39.01755573932216,
+                -7.058901379506725
+              ],
+              [
+                39.01775693686029,
+                -7.0587419179722595
+              ],
+              [
+                39.01798497168368,
+                -7.058562385388628
+              ],
+              [
+                39.01817860804034,
+                -7.058453012516059
+              ],
+              [
+                39.018337845930255,
+                -7.058413799354557
+              ],
+              [
+                39.01846268535342,
+                -7.058444745904118
+              ],
+              [
+                39.01855312630983,
+                -7.058545852164743
+              ],
+              [
+                39.01860916879951,
+                -7.058717118136433
+              ],
+              [
+                39.01863081282243,
+                -7.0589585438191875
+              ],
+              [
+                39.0186180583786,
+                -7.059270129213006
+              ],
+              [
+                39.01857090546803,
+                -7.059651874317888
+              ],
+              [
+                39.0185285424553,
+                -7.059988263320317
+              ],
+              [
+                39.01849096934043,
+                -7.060279296220294
+              ],
+              [
+                39.0184581861234,
+                -7.060524973017817
+              ],
+              [
+                39.01843019280422,
+                -7.060725293712887
+              ],
+              [
+                39.01840698938288,
+                -7.060880258305503
+              ],
+              [
+                39.018388575859404,
+                -7.0609898667956665
+              ],
+              [
+                39.01837495223376,
+                -7.061054119183376
+              ],
+              [
+                39.01836611850597,
+                -7.061073015468633
+              ],
+              [
+                39.01833521590338,
+                -7.061064281641207
+              ],
+              [
+                39.01828224442598,
+                -7.0610279177011
+              ],
+              [
+                39.01820720407378,
+                -7.060963923648309
+              ],
+              [
+                39.01811009484677,
+                -7.060872299482835
+              ],
+              [
+                39.017990916744964,
+                -7.060753045204679
+              ],
+              [
+                39.017849669768346,
+                -7.06060616081384
+              ],
+              [
+                39.01768635391693,
+                -7.0604316463103185
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.01786702038653,
+    -7.059790686710059
+  ],
+  "centroDeMassa": [
+    39.017817608107265,
+    -7.059536586906474
+  ]
+}

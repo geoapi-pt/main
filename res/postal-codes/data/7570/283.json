@@ -1,1 +1,526 @@
-{"CP4":"7570","CP3":"283","Distrito":"Setúbal","Concelho":"Grândola","CP":"7570-283","Artéria":"Rua Luís de Camões","Localidade":"Grândola","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GRÂNDOLA","locais":[{"id":"pt.ine.add.PTCONT.4694074","rua":"R LUIS DE CAMÕES","casa":"28","coordenadas":[38.175437648193686,-8.569561049629264]},{"id":"pt.ine.add.PTCONT.4779533","rua":"R LUIS DE CAMÕES","casa":"5A","coordenadas":[38.175504408966155,-8.568508081095429]},{"id":"pt.ine.add.PTCONT.4779534","rua":"R LUIS DE CAMÕES","casa":"5A","coordenadas":[38.175504408966155,-8.568508081095429]},{"id":"pt.ine.add.PTCONT.4779535","rua":"R LUIS DE CAMÕES","casa":"5A","coordenadas":[38.175504408966155,-8.568508081095429]},{"id":"pt.ine.add.PTCONT.4779536","rua":"R LUIS DE CAMÕES","casa":"5A","coordenadas":[38.175504408966155,-8.568508081095429]},{"id":"pt.ine.add.PTCONT.4779537","rua":"R LUIS DE CAMÕES","casa":"5A","coordenadas":[38.175504408966155,-8.568508081095429]},{"id":"pt.ine.add.PTCONT.4780886","rua":"R LUIS DE CAMÕES","casa":"1","coordenadas":[38.17549634801787,-8.568278575998548]},{"id":"pt.ine.add.PTCONT.4828675","rua":"R LUIS DE CAMÕES","casa":"5C","coordenadas":[38.1754765785177,-8.568724752652113]},{"id":"pt.ine.add.PTCONT.4828676","rua":"R LUIS DE CAMÕES","casa":"5C","coordenadas":[38.1754765785177,-8.568724752652113]},{"id":"pt.ine.add.PTCONT.4828677","rua":"R LUIS DE CAMÕES","casa":"5C","coordenadas":[38.1754765785177,-8.568724752652113]},{"id":"pt.ine.add.PTCONT.4828678","rua":"R LUIS DE CAMÕES","casa":"5C","coordenadas":[38.1754765785177,-8.568724752652113]},{"id":"pt.ine.add.PTCONT.4828679","rua":"R LUIS DE CAMÕES","casa":"5C","coordenadas":[38.1754765785177,-8.568724752652113]},{"id":"pt.ine.add.PTCONT.4828680","rua":"R LUIS DE CAMÕES","casa":"5C","coordenadas":[38.1754765785177,-8.568724752652113]},{"id":"pt.ine.add.PTCONT.4895607","rua":"R LUIS DE CAMÕES","casa":"22","coordenadas":[38.17548217106769,-8.569380759444389]},{"id":"pt.ine.add.PTCONT.4901157","rua":"R LUIS DE CAMÕES","casa":"30","coordenadas":[38.175422292745594,-8.56962761373118]},{"id":"pt.ine.add.PTCONT.4922910","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4922911","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4922912","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4922913","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4922914","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4922915","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4922916","rua":"R LUIS DE CAMÕES","casa":"14","coordenadas":[38.17552354179153,-8.569228026250345]},{"id":"pt.ine.add.PTCONT.4943989","rua":"R LUIS DE CAMÕES","casa":"5","coordenadas":[38.17521591691827,-8.568563426777427]},{"id":"pt.ine.add.PTCONT.4983862","rua":"R LUIS DE CAMÕES","casa":"17","coordenadas":[38.17533843852348,-8.5695342149537]},{"id":"pt.ine.add.PTCONT.5009140","rua":"R LUIS DE CAMÕES","casa":"2","coordenadas":[38.1755752091751,-8.56885087726479]},{"id":"pt.ine.add.PTCONT.5036108","rua":"R LUIS DE CAMÕES","casa":"18","coordenadas":[38.17549306210843,-8.569336595295239]},{"id":"pt.ine.add.PTCONT.5075078","rua":"R LUIS DE CAMÕES","casa":"5B","coordenadas":[38.17548592592244,-8.56863350843359]},{"id":"pt.ine.add.PTCONT.5078805","rua":"R LUIS DE CAMÕES","casa":"19","coordenadas":[38.17532908848808,-8.569607074526337]},{"id":"pt.ine.add.PTCONT.5096968","rua":"R LUIS DE CAMÕES","casa":"13","coordenadas":[38.17545786516491,-8.568938396974248]},{"id":"pt.ine.add.PTCONT.5103494","rua":"R LUIS DE CAMÕES","casa":"21","coordenadas":[38.17530180957929,-8.56969377085271]},{"id":"pt.ine.add.PTCONT.5103495","rua":"R LUIS DE CAMÕES","casa":"23","coordenadas":[38.17528336771249,-8.569807785334685]}],"ruas":["R LUIS DE CAMÕES"],"centroide":[38.17546940281275,-8.568983032300793]}
+{
+  "CP": "7570-283",
+  "CP4": "7570",
+  "CP3": "283",
+  "Distrito": "Setúbal",
+  "Concelho": "Grândola",
+  "Localidade": "Grândola",
+  "Designação Postal": "GRÂNDOLA",
+  "partes": [
+    {
+      "Artéria": "Rua Luís de Camões",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4694074",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "28",
+      "coordenadas": [
+        38.175437648193686,
+        -8.569561049629264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4779533",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5A",
+      "coordenadas": [
+        38.175504408966155,
+        -8.568508081095429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4779534",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5A",
+      "coordenadas": [
+        38.175504408966155,
+        -8.568508081095429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4779535",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5A",
+      "coordenadas": [
+        38.175504408966155,
+        -8.568508081095429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4779536",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5A",
+      "coordenadas": [
+        38.175504408966155,
+        -8.568508081095429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4779537",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5A",
+      "coordenadas": [
+        38.175504408966155,
+        -8.568508081095429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4780886",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "1",
+      "coordenadas": [
+        38.17549634801787,
+        -8.568278575998548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4828675",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5C",
+      "coordenadas": [
+        38.1754765785177,
+        -8.568724752652113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4828676",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5C",
+      "coordenadas": [
+        38.1754765785177,
+        -8.568724752652113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4828677",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5C",
+      "coordenadas": [
+        38.1754765785177,
+        -8.568724752652113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4828678",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5C",
+      "coordenadas": [
+        38.1754765785177,
+        -8.568724752652113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4828679",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5C",
+      "coordenadas": [
+        38.1754765785177,
+        -8.568724752652113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4828680",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5C",
+      "coordenadas": [
+        38.1754765785177,
+        -8.568724752652113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4895607",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "22",
+      "coordenadas": [
+        38.17548217106769,
+        -8.569380759444389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4901157",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "30",
+      "coordenadas": [
+        38.175422292745594,
+        -8.56962761373118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922910",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922911",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922912",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922913",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922914",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922915",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4922916",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "14",
+      "coordenadas": [
+        38.17552354179153,
+        -8.569228026250345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4943989",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5",
+      "coordenadas": [
+        38.17521591691827,
+        -8.568563426777427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4983862",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "17",
+      "coordenadas": [
+        38.17533843852348,
+        -8.5695342149537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5009140",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "2",
+      "coordenadas": [
+        38.1755752091751,
+        -8.56885087726479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5036108",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "18",
+      "coordenadas": [
+        38.17549306210843,
+        -8.569336595295239
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5075078",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "5B",
+      "coordenadas": [
+        38.17548592592244,
+        -8.56863350843359
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5078805",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "19",
+      "coordenadas": [
+        38.17532908848808,
+        -8.569607074526337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5096968",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "13",
+      "coordenadas": [
+        38.17545786516491,
+        -8.568938396974248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5103494",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "21",
+      "coordenadas": [
+        38.17530180957929,
+        -8.56969377085271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5103495",
+      "rua": "R LUIS DE CAMÕES",
+      "casa": "23",
+      "coordenadas": [
+        38.17528336771249,
+        -8.569807785334685
+      ]
+    }
+  ],
+  "ruas": [
+    "R LUIS DE CAMÕES"
+  ],
+  "centro": [
+    38.175395563046685,
+    -8.569043180666617
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.17525385799002,
+                -8.569263378465884
+              ],
+              [
+                38.175245426640736,
+                -8.569107833646228
+              ],
+              [
+                38.17524243094605,
+                -8.568967281135608
+              ],
+              [
+                38.17524487090596,
+                -8.568841720934024
+              ],
+              [
+                38.17525274652046,
+                -8.56873115304148
+              ],
+              [
+                38.17526605778954,
+                -8.568635577457968
+              ],
+              [
+                38.17528480471322,
+                -8.568554994183497
+              ],
+              [
+                38.17530898729149,
+                -8.568489403218063
+              ],
+              [
+                38.175338605524345,
+                -8.568438804561666
+              ],
+              [
+                38.1753736594118,
+                -8.568403198214309
+              ],
+              [
+                38.1754055637689,
+                -8.568380984867654
+              ],
+              [
+                38.17543431859564,
+                -8.568372164521703
+              ],
+              [
+                38.17545992389205,
+                -8.568376737176457
+              ],
+              [
+                38.1754823796581,
+                -8.56839470283192
+              ],
+              [
+                38.175501685893806,
+                -8.568426061488084
+              ],
+              [
+                38.17551784259915,
+                -8.568470813144954
+              ],
+              [
+                38.175530849774155,
+                -8.568528957802528
+              ],
+              [
+                38.17554070741881,
+                -8.56860049546081
+              ],
+              [
+                38.175548525555016,
+                -8.568668983864704
+              ],
+              [
+                38.175554304182775,
+                -8.568734423014211
+              ],
+              [
+                38.175558043302075,
+                -8.568796812909333
+              ],
+              [
+                38.17555974291293,
+                -8.568856153550072
+              ],
+              [
+                38.175559403015335,
+                -8.568912444936425
+              ],
+              [
+                38.17555702360929,
+                -8.56896568706839
+              ],
+              [
+                38.17555260469479,
+                -8.56901587994597
+              ],
+              [
+                38.175546146271834,
+                -8.569063023569164
+              ],
+              [
+                38.17553891313541,
+                -8.569110517793849
+              ],
+              [
+                38.17553090528552,
+                -8.56915836262002
+              ],
+              [
+                38.17552212272215,
+                -8.569206558047679
+              ],
+              [
+                38.17551256544531,
+                -8.56925510407683
+              ],
+              [
+                38.17550223345499,
+                -8.569304000707469
+              ],
+              [
+                38.1754911267512,
+                -8.569353247939596
+              ],
+              [
+                38.17547924533393,
+                -8.569402845773212
+              ],
+              [
+                38.17546658920319,
+                -8.569452794208313
+              ],
+              [
+                38.17545334438515,
+                -8.569499314270335
+              ],
+              [
+                38.17543951087981,
+                -8.569542405959275
+              ],
+              [
+                38.17542508868717,
+                -8.569582069275128
+              ],
+              [
+                38.17541007780723,
+                -8.5696183042179
+              ],
+              [
+                38.175394478239994,
+                -8.569651110787587
+              ],
+              [
+                38.175378289985446,
+                -8.569680488984194
+              ],
+              [
+                38.17536151304361,
+                -8.569706438807714
+              ],
+              [
+                38.17534414741448,
+                -8.569728960258153
+              ],
+              [
+                38.175327898570316,
+                -8.56972922342483
+              ],
+              [
+                38.17531276651114,
+                -8.569707228307742
+              ],
+              [
+                38.17529875123695,
+                -8.569662974906894
+              ],
+              [
+                38.17528585274774,
+                -8.569596463222286
+              ],
+              [
+                38.17527407104352,
+                -8.569507693253914
+              ],
+              [
+                38.17526340612428,
+                -8.56939666500178
+              ],
+              [
+                38.17525385799002,
+                -8.569263378465884
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.17541944606014,
+    -8.569059384226161
+  ],
+  "centroDeMassa": [
+    38.175395563046685,
+    -8.569043180666617
+  ]
+}

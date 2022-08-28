@@ -1,1 +1,473 @@
-{"CP4":"4430","CP3":"473","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4430-473","Artéria":"Travessa de Rua Nova","Localidade":"Vila Nova de Gaia","Local":"Vilar de Andorinho","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3550636","rua":"TV RUA NOVA","casa":"32","coordenadas":[41.09639583015769,-8.574196920704216]},{"id":"pt.ine.add.PTCONT.3613851","rua":"R NOVA","casa":"","coordenadas":[41.097637637182586,-8.57440758183846]},{"id":"pt.ine.add.PTCONT.3613852","rua":"R NOVA","casa":"","coordenadas":[41.097637637182586,-8.57440758183846]},{"id":"pt.ine.add.PTCONT.3613853","rua":"R NOVA","casa":"","coordenadas":[41.097637637182586,-8.57440758183846]},{"id":"pt.ine.add.PTCONT.3613854","rua":"R NOVA","casa":"","coordenadas":[41.097637637182586,-8.57440758183846]},{"id":"pt.ine.add.PTCONT.3647036","rua":"R NOVA","casa":"14","coordenadas":[41.09636808829476,-8.574387182145042]},{"id":"pt.ine.add.PTCONT.3926180","rua":"TV RUA NOVA","casa":"52","coordenadas":[41.096027021718264,-8.574099230580348]},{"id":"pt.ine.add.PTCONT.3929608","rua":"R NOVA","casa":"","coordenadas":[41.09745773522132,-8.574358765227615]},{"id":"pt.ine.add.PTCONT.3929609","rua":"R NOVA","casa":"","coordenadas":[41.09745773522132,-8.574358765227615]},{"id":"pt.ine.add.PTCONT.3929610","rua":"R NOVA B","casa":"B6E2","coordenadas":[41.09745773522132,-8.574358765227615]},{"id":"pt.ine.add.PTCONT.3932618","rua":"R NOVA B","casa":"B6E2","coordenadas":[41.09745773522132,-8.574358765227615]},{"id":"pt.ine.add.PTCONT.3990411","rua":"R DOS HEROIS DO ULTRAMAR","casa":"","coordenadas":[41.09228570247134,-8.565778376098903]},{"id":"pt.ine.add.PTCONT.4061396","rua":"R NOVA","casa":"","coordenadas":[41.09634052852906,-8.57452983290981]},{"id":"pt.ine.add.PTCONT.4074536","rua":"R NOVA","casa":"","coordenadas":[41.09705277341009,-8.574296539871884]},{"id":"pt.ine.add.PTCONT.4074537","rua":"R NOVA","casa":"","coordenadas":[41.09705277341009,-8.574296539871884]},{"id":"pt.ine.add.PTCONT.4074538","rua":"R NOVA","casa":"","coordenadas":[41.09705277341009,-8.574296539871884]},{"id":"pt.ine.add.PTCONT.4074539","rua":"R NOVA","casa":"","coordenadas":[41.09705277341009,-8.574296539871884]},{"id":"pt.ine.add.PTCONT.4237818","rua":"R NOVA","casa":"1","coordenadas":[41.09680979629171,-8.574259205035727]},{"id":"pt.ine.add.PTCONT.4237819","rua":"R NOVA ENTRAD","casa":"ENTRAD 1","coordenadas":[41.09680979629171,-8.574259205035727]},{"id":"pt.ine.add.PTCONT.4237820","rua":"R NOVA","casa":"","coordenadas":[41.09680979629171,-8.574259205035727]},{"id":"pt.ine.add.PTCONT.4237821","rua":"R NOVA","casa":"","coordenadas":[41.09680979629171,-8.574259205035727]},{"id":"pt.ine.add.PTCONT.4263949","rua":"R NOVA","casa":"","coordenadas":[41.09662980309912,-8.574234194824204]},{"id":"pt.ine.add.PTCONT.4263950","rua":"R NOVA","casa":"","coordenadas":[41.09662980309912,-8.574234194824204]},{"id":"pt.ine.add.PTCONT.4263953","rua":"R NOVA","casa":"","coordenadas":[41.09662980309912,-8.574234194824204]},{"id":"pt.ine.add.PTCONT.4286080","rua":"R NOVA","casa":"","coordenadas":[41.09724172520997,-8.574333513467662]},{"id":"pt.ine.add.PTCONT.4286081","rua":"R NOVA","casa":"","coordenadas":[41.09724172520997,-8.574333513467662]},{"id":"pt.ine.add.PTCONT.4286082","rua":"R NOVA","casa":"","coordenadas":[41.09724172520997,-8.574333513467662]},{"id":"pt.ine.add.PTCONT.4286186","rua":"R NOVA","casa":"","coordenadas":[41.09724172520997,-8.574333513467662]},{"id":"pt.ine.add.PTCONT.4323563","rua":"R NOVA","casa":"3","coordenadas":[41.09638641579769,-8.574303984205178]},{"id":"pt.ine.add.PTCONT.4325280","rua":"TV RUA NOVA","casa":"42","coordenadas":[41.096107968566294,-8.574123577728779]},{"id":"pt.ine.add.PTCONT.4379524","rua":"R NOVA","casa":"2","coordenadas":[41.09662980309912,-8.574234194824204]}],"ruas":["TV RUA NOVA","R NOVA","R NOVA B","R DOS HEROIS DO ULTRAMAR","R NOVA ENTRAD"],"centroide":[41.09681998780316,-8.574024803687008]}
+{
+  "CP": "4430-473",
+  "CP4": "4430",
+  "CP3": "473",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Rua Nova",
+      "Local": "Vilar de Andorinho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Rua Nova",
+      "Local": "Vilar de Andorinho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3550636",
+      "rua": "TV RUA NOVA",
+      "casa": "32",
+      "coordenadas": [
+        41.09639583015769,
+        -8.574196920704216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3613851",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.097637637182586,
+        -8.57440758183846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3613852",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.097637637182586,
+        -8.57440758183846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3613853",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.097637637182586,
+        -8.57440758183846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3613854",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.097637637182586,
+        -8.57440758183846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3647036",
+      "rua": "R NOVA",
+      "casa": "14",
+      "coordenadas": [
+        41.09636808829476,
+        -8.574387182145042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3926180",
+      "rua": "TV RUA NOVA",
+      "casa": "52",
+      "coordenadas": [
+        41.096027021718264,
+        -8.574099230580348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3929608",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09745773522132,
+        -8.574358765227615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3929609",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09745773522132,
+        -8.574358765227615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3929610",
+      "rua": "R NOVA B",
+      "casa": "B6E2",
+      "coordenadas": [
+        41.09745773522132,
+        -8.574358765227615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3932618",
+      "rua": "R NOVA B",
+      "casa": "B6E2",
+      "coordenadas": [
+        41.09745773522132,
+        -8.574358765227615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3990411",
+      "rua": "R DOS HEROIS DO ULTRAMAR",
+      "casa": "",
+      "coordenadas": [
+        41.09228570247134,
+        -8.565778376098903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4061396",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09634052852906,
+        -8.57452983290981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4074536",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09705277341009,
+        -8.574296539871884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4074537",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09705277341009,
+        -8.574296539871884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4074538",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09705277341009,
+        -8.574296539871884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4074539",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09705277341009,
+        -8.574296539871884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4237818",
+      "rua": "R NOVA",
+      "casa": "1",
+      "coordenadas": [
+        41.09680979629171,
+        -8.574259205035727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4237819",
+      "rua": "R NOVA ENTRAD",
+      "casa": "ENTRAD 1",
+      "coordenadas": [
+        41.09680979629171,
+        -8.574259205035727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4237820",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09680979629171,
+        -8.574259205035727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4237821",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09680979629171,
+        -8.574259205035727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4263949",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09662980309912,
+        -8.574234194824204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4263950",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09662980309912,
+        -8.574234194824204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4263953",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09662980309912,
+        -8.574234194824204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4286080",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09724172520997,
+        -8.574333513467662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4286081",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09724172520997,
+        -8.574333513467662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4286082",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09724172520997,
+        -8.574333513467662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4286186",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.09724172520997,
+        -8.574333513467662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4323563",
+      "rua": "R NOVA",
+      "casa": "3",
+      "coordenadas": [
+        41.09638641579769,
+        -8.574303984205178
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4325280",
+      "rua": "TV RUA NOVA",
+      "casa": "42",
+      "coordenadas": [
+        41.096107968566294,
+        -8.574123577728779
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4379524",
+      "rua": "R NOVA",
+      "casa": "2",
+      "coordenadas": [
+        41.09662980309912,
+        -8.574234194824204
+      ]
+    }
+  ],
+  "ruas": [
+    "TV RUA NOVA",
+    "R NOVA",
+    "R NOVA B",
+    "R DOS HEROIS DO ULTRAMAR",
+    "R NOVA ENTRAD"
+  ],
+  "centro": [
+    41.09496166982696,
+    -8.570154104504358
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.09439019454773,
+                -8.570458856744716
+              ],
+              [
+                41.09392252964187,
+                -8.569418749934535
+              ],
+              [
+                41.0935969468291,
+                -8.568643487815308
+              ],
+              [
+                41.09341344610942,
+                -8.568133070387034
+              ],
+              [
+                41.09337202748285,
+                -8.567887497649714
+              ],
+              [
+                41.09347269094936,
+                -8.567906769603344
+              ],
+              [
+                41.09371543650898,
+                -8.56819088624793
+              ],
+              [
+                41.094100264161696,
+                -8.568739847583469
+              ],
+              [
+                41.094627173907504,
+                -8.56955365360996
+              ],
+              [
+                41.09529616574641,
+                -8.570632304327404
+              ],
+              [
+                41.095861266282746,
+                -8.571578033878158
+              ],
+              [
+                41.0963224755165,
+                -8.572390842262221
+              ],
+              [
+                41.096679793447684,
+                -8.573070729479593
+              ],
+              [
+                41.096933220076295,
+                -8.573617695530276
+              ],
+              [
+                41.097082755402326,
+                -8.574031740414267
+              ],
+              [
+                41.097128399425785,
+                -8.574312864131567
+              ],
+              [
+                41.09707015214667,
+                -8.574461066682176
+              ],
+              [
+                41.09690801356498,
+                -8.574476348066096
+              ],
+              [
+                41.09676124376208,
+                -8.574482991115627
+              ],
+              [
+                41.096629842737975,
+                -8.574480995830768
+              ],
+              [
+                41.09651381049266,
+                -8.574470362211525
+              ],
+              [
+                41.09641314702615,
+                -8.574451090257895
+              ],
+              [
+                41.09632785233842,
+                -8.574423179969875
+              ],
+              [
+                41.09625792642948,
+                -8.574386631347467
+              ],
+              [
+                41.09620336929934,
+                -8.574341444390672
+              ],
+              [
+                41.09616418094799,
+                -8.574287619099486
+              ],
+              [
+                41.09607143302732,
+                -8.574110508618428
+              ],
+              [
+                41.09592512553735,
+                -8.573810112947498
+              ],
+              [
+                41.095725258478055,
+                -8.573386432086691
+              ],
+              [
+                41.09547183184944,
+                -8.57283946603601
+              ],
+              [
+                41.09516484565152,
+                -8.572169214795453
+              ],
+              [
+                41.09480429988428,
+                -8.571375678365023
+              ],
+              [
+                41.09439019454773,
+                -8.570458856744716
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.09557272247531,
+    -8.572203755356881
+  ],
+  "centroDeMassa": [
+    41.09496166982696,
+    -8.570154104504358
+  ]
+}

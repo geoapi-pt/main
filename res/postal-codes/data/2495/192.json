@@ -1,1 +1,331 @@
-{"CP4":"2495","CP3":"192","Distrito":"Leiria","Concelho":"Leiria","CP":"2495-192","Artéria":" ","Localidade":"Vale Maior","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTA CATARINA DA SERRA","locais":[{"id":"pt.ine.add.PTCONT.2015921","rua":"R S FRANCISCO","casa":"","coordenadas":[39.684684699675806,-8.708391332862458]},{"id":"pt.ine.add.PTCONT.2018024","rua":"R CASAL DE CIMA","casa":"29","coordenadas":[39.68242880661119,-8.70924685204429]},{"id":"pt.ine.add.PTCONT.2088208","rua":"R S FRANCISCO","casa":"","coordenadas":[39.6847372352976,-8.70869484830742]},{"id":"pt.ine.add.PTCONT.2099188","rua":"R CASAL DE CIMA","casa":"","coordenadas":[39.68265436731207,-8.709167130631078]},{"id":"pt.ine.add.PTCONT.2112127","rua":"R CASAL DE CIMA","casa":"","coordenadas":[39.682761979545425,-8.70926127735592]},{"id":"pt.ine.add.PTCONT.2112128","rua":"R S FRANCISCO","casa":"","coordenadas":[39.68448482961585,-8.708739380070398]},{"id":"pt.ine.add.PTCONT.2146153","rua":"LOUREIRA","casa":"","coordenadas":[39.66078303847185,-8.685738001322406]},{"id":"pt.ine.add.PTCONT.2116341","rua":"R S FRANCISCO","casa":"22","coordenadas":[39.68494200885735,-8.709174482954744]},{"id":"pt.ine.add.PTCONT.2156019","rua":"R CASAL DE CIMA","casa":"30","coordenadas":[39.68277202654637,-8.709051542549282]},{"id":"pt.ine.add.PTCONT.2160458","rua":"R S FRANCISCO","casa":"","coordenadas":[39.68474381389557,-8.709184492895837]},{"id":"pt.ine.add.PTCONT.2178631","rua":"R VALE GALINHA","casa":"","coordenadas":[39.683842671652485,-8.707463461984425]},{"id":"pt.ine.add.PTCONT.2214595","rua":"R VALE FIGUEIRA","casa":"","coordenadas":[39.68187001699189,-8.707505401759931]},{"id":"pt.ine.add.PTCONT.2230326","rua":"R S FRANCISCO","casa":"18","coordenadas":[39.68489859632006,-8.708847728163853]},{"id":"pt.ine.add.PTCONT.2230327","rua":"R S FRANCISCO","casa":"18","coordenadas":[39.68489859632006,-8.708847728163853]},{"id":"pt.ine.add.PTCONT.2248515","rua":"R S FRANCISCO","casa":"","coordenadas":[39.684796231723205,-8.70951132203921]},{"id":"pt.ine.add.PTCONT.2248520","rua":"R S FRANCISCO","casa":"","coordenadas":[39.68550392049511,-8.708468073480553]}],"ruas":["R S FRANCISCO","R CASAL DE CIMA","LOUREIRA","R VALE GALINHA","R VALE FIGUEIRA"],"centroide":[39.68235326125579,-8.707254998873674]}
+{
+  "CP": "2495-192",
+  "CP4": "2495",
+  "CP3": "192",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Vale Maior",
+  "Designação Postal": "SANTA CATARINA DA SERRA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2015921",
+      "rua": "R S FRANCISCO",
+      "casa": "",
+      "coordenadas": [
+        39.684684699675806,
+        -8.708391332862458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2018024",
+      "rua": "R CASAL DE CIMA",
+      "casa": "29",
+      "coordenadas": [
+        39.68242880661119,
+        -8.70924685204429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088208",
+      "rua": "R S FRANCISCO",
+      "casa": "",
+      "coordenadas": [
+        39.6847372352976,
+        -8.70869484830742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2099188",
+      "rua": "R CASAL DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        39.68265436731207,
+        -8.709167130631078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2112127",
+      "rua": "R CASAL DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        39.682761979545425,
+        -8.70926127735592
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2112128",
+      "rua": "R S FRANCISCO",
+      "casa": "",
+      "coordenadas": [
+        39.68448482961585,
+        -8.708739380070398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2146153",
+      "rua": "LOUREIRA",
+      "casa": "",
+      "coordenadas": [
+        39.66078303847185,
+        -8.685738001322406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2116341",
+      "rua": "R S FRANCISCO",
+      "casa": "22",
+      "coordenadas": [
+        39.68494200885735,
+        -8.709174482954744
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2156019",
+      "rua": "R CASAL DE CIMA",
+      "casa": "30",
+      "coordenadas": [
+        39.68277202654637,
+        -8.709051542549282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2160458",
+      "rua": "R S FRANCISCO",
+      "casa": "",
+      "coordenadas": [
+        39.68474381389557,
+        -8.709184492895837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2178631",
+      "rua": "R VALE GALINHA",
+      "casa": "",
+      "coordenadas": [
+        39.683842671652485,
+        -8.707463461984425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2214595",
+      "rua": "R VALE FIGUEIRA",
+      "casa": "",
+      "coordenadas": [
+        39.68187001699189,
+        -8.707505401759931
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2230326",
+      "rua": "R S FRANCISCO",
+      "casa": "18",
+      "coordenadas": [
+        39.68489859632006,
+        -8.708847728163853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2230327",
+      "rua": "R S FRANCISCO",
+      "casa": "18",
+      "coordenadas": [
+        39.68489859632006,
+        -8.708847728163853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2248515",
+      "rua": "R S FRANCISCO",
+      "casa": "",
+      "coordenadas": [
+        39.684796231723205,
+        -8.70951132203921
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2248520",
+      "rua": "R S FRANCISCO",
+      "casa": "",
+      "coordenadas": [
+        39.68550392049511,
+        -8.708468073480553
+      ]
+    }
+  ],
+  "ruas": [
+    "R S FRANCISCO",
+    "R CASAL DE CIMA",
+    "LOUREIRA",
+    "R VALE GALINHA",
+    "R VALE FIGUEIRA"
+  ],
+  "centro": [
+    39.67314347948348,
+    -8.697624661680809
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.67295878305023,
+                -8.698961729853465
+              ],
+              [
+                39.67025306203281,
+                -8.69602312351323
+              ],
+              [
+                39.668271819924186,
+                -8.693807000342995
+              ],
+              [
+                39.667015056724345,
+                -8.69231336034276
+              ],
+              [
+                39.6664827724333,
+                -8.691542203512526
+              ],
+              [
+                39.66667496705104,
+                -8.691493529852293
+              ],
+              [
+                39.66759164057758,
+                -8.69216733936206
+              ],
+              [
+                39.66923279301291,
+                -8.693563632041828
+              ],
+              [
+                39.67159842435703,
+                -8.695682407891596
+              ],
+              [
+                39.67468853460993,
+                -8.698523666911363
+              ],
+              [
+                39.677381323444166,
+                -8.70102606931239
+              ],
+              [
+                39.67967679085973,
+                -8.703189615094674
+              ],
+              [
+                39.68157493685661,
+                -8.705014304258217
+              ],
+              [
+                39.683075761434814,
+                -8.706500136803019
+              ],
+              [
+                39.68417926459435,
+                -8.707647112729077
+              ],
+              [
+                39.684885446335215,
+                -8.708455232036393
+              ],
+              [
+                39.6851943066574,
+                -8.708924494724966
+              ],
+              [
+                39.68510584556091,
+                -8.709054900794797
+              ],
+              [
+                39.684991451084116,
+                -8.70916487376223
+              ],
+              [
+                39.68485112322699,
+                -8.709254413627262
+              ],
+              [
+                39.68468486198957,
+                -8.709323520389896
+              ],
+              [
+                39.68449266737183,
+                -8.709372194050129
+              ],
+              [
+                39.68427453937377,
+                -8.709400434607963
+              ],
+              [
+                39.684030477995385,
+                -8.709408242063398
+              ],
+              [
+                39.683760483236696,
+                -8.709395616416433
+              ],
+              [
+                39.6834645550977,
+                -8.709362557667067
+              ],
+              [
+                39.68286740284889,
+                -8.708966305468843
+              ],
+              [
+                39.681969026490286,
+                -8.708206859821763
+              ],
+              [
+                39.68076942602188,
+                -8.707084220725822
+              ],
+              [
+                39.67926860144367,
+                -8.70559838818102
+              ],
+              [
+                39.67746655275566,
+                -8.70374936218736
+              ],
+              [
+                39.67536327995784,
+                -8.701537142744844
+              ],
+              [
+                39.67295878305023,
+                -8.698961729853465
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.678377999325335,
+    -8.703241062221615
+  ],
+  "centroDeMassa": [
+    39.67314347948348,
+    -8.697624661680809
+  ]
+}

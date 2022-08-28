@@ -1,1 +1,541 @@
-{"CP4":"4820","CP3":"500","Distrito":"Braga","Concelho":"Fafe","CP":"4820-500","Artéria":" ","Localidade":"Corujeira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MEDELO","locais":[{"id":"pt.ine.add.PTCONT.462934","rua":"R MO","casa":"460","coordenadas":[41.47062370142742,-8.155530370657212]},{"id":"pt.ine.add.PTCONT.462946","rua":"AV JOÃO PAULO II","casa":"827","coordenadas":[41.46958817552899,-8.155925056813752]},{"id":"pt.ine.add.PTCONT.476888","rua":"AV JOÃO PAULO II","casa":"674","coordenadas":[41.46892222478099,-8.154153133659763]},{"id":"pt.ine.add.PTCONT.489709","rua":"AV JOÃO PAULO II","casa":"","coordenadas":[41.46873314288829,-8.154153072514406]},{"id":"pt.ine.add.PTCONT.528595","rua":"R MO","casa":"474","coordenadas":[41.4704345442853,-8.155913382418012]},{"id":"pt.ine.add.PTCONT.531021","rua":"AV JOÃO PAULO II","casa":"794","coordenadas":[41.469417209364295,-8.155374332381198]},{"id":"pt.ine.add.PTCONT.531022","rua":"AV JOÃO PAULO II","casa":"794","coordenadas":[41.469417209364295,-8.155374332381198]},{"id":"pt.ine.add.PTCONT.531023","rua":"AV JOÃO PAULO II","casa":"794","coordenadas":[41.469417209364295,-8.155374332381198]},{"id":"pt.ine.add.PTCONT.561195","rua":"AV JOÃO PAULO II","casa":"943","coordenadas":[41.470335369002655,-8.156571760144852]},{"id":"pt.ine.add.PTCONT.569086","rua":"R MO","casa":"648","coordenadas":[41.470461596142165,-8.155709882190665]},{"id":"pt.ine.add.PTCONT.589927","rua":"AV JOÃO PAULO II","casa":"974","coordenadas":[41.470623649790376,-8.15579373679934]},{"id":"pt.ine.add.PTCONT.641472","rua":"AV JOÃO PAULO II","casa":"9","coordenadas":[41.473916154364304,-8.154970947473554]},{"id":"pt.ine.add.PTCONT.672214","rua":"AV JOÃO PAULO II","casa":"1241","coordenadas":[41.47280263468191,-8.155579007844064]},{"id":"pt.ine.add.PTCONT.675115","rua":"AV JOÃO PAULO II","casa":"801","coordenadas":[41.46941710620416,-8.155901054899749]},{"id":"pt.ine.add.PTCONT.694666","rua":"AV JOÃO PAULO II","casa":"1215","coordenadas":[41.472604530276875,-8.155674711859254]},{"id":"pt.ine.add.PTCONT.694667","rua":"AV JOÃO PAULO II","casa":"1215","coordenadas":[41.472604530276875,-8.155674711859254]},{"id":"pt.ine.add.PTCONT.710890","rua":"AV JOÃO PAULO II","casa":"12B5","coordenadas":[41.4731538168076,-8.155423497612707]},{"id":"pt.ine.add.PTCONT.714048","rua":"R S MARTINHO","casa":"104","coordenadas":[41.47140674643241,-8.156991143116777]},{"id":"pt.ine.add.PTCONT.719661","rua":"R CORUJEIRA","casa":"177","coordenadas":[41.4732165291272,-8.156991807380702]},{"id":"pt.ine.add.PTCONT.728842","rua":"R S MARTINHO","casa":"120","coordenadas":[41.47155081620832,-8.156955281915089]},{"id":"pt.ine.add.PTCONT.758569","rua":"AV JOÃO PAULO II","casa":"882","coordenadas":[41.47011036585175,-8.156104806325425]},{"id":"pt.ine.add.PTCONT.758570","rua":"AV JOÃO PAULO II CASA DO OLIVAL","casa":"","coordenadas":[41.469507157033924,-8.155841231521391]},{"id":"pt.ine.add.PTCONT.758571","rua":"AV JOÃO PAULO II CASA DO OLIVAL","casa":"","coordenadas":[41.469507157033924,-8.155841231521391]},{"id":"pt.ine.add.PTCONT.764439","rua":"AV JOÃO PAULO II","casa":"1263","coordenadas":[41.472973727321516,-8.155483293957825]},{"id":"pt.ine.add.PTCONT.764440","rua":"AV JOÃO PAULO II","casa":"1263","coordenadas":[41.472973727321516,-8.155483293957825]},{"id":"pt.ine.add.PTCONT.769144","rua":"LOTEAM DA CORUJEIRA","casa":"7","coordenadas":[41.47371209282978,-8.155244112718874]},{"id":"pt.ine.add.PTCONT.780013","rua":"AV LIBERDADE","casa":"891","coordenadas":[41.470200315425096,-8.156547769226984]},{"id":"pt.ine.add.PTCONT.800777","rua":"R MO","casa":"396","coordenadas":[41.4706688586748,-8.154812114372321]},{"id":"pt.ine.add.PTCONT.800778","rua":"R MO","casa":"396","coordenadas":[41.4706688586748,-8.154812114372321]},{"id":"pt.ine.add.PTCONT.843504","rua":"R S MARTINHO","casa":"290","coordenadas":[41.47317129647407,-8.157997410030813]},{"id":"pt.ine.add.PTCONT.846362","rua":"AV JOÃO PAULO II CASA DO OLIVAL","casa":"","coordenadas":[41.469507157033924,-8.155841231521391]},{"id":"pt.ine.add.PTCONT.848905","rua":"R MO","casa":"648","coordenadas":[41.470461596142165,-8.155709882190665]}],"ruas":["R MO","AV JOÃO PAULO II","R S MARTINHO","R CORUJEIRA","AV JOÃO PAULO II CASA DO OLIVAL","LOTEAM DA CORUJEIRA","AV LIBERDADE"],"centroide":[41.47102089064495,-8.155743360188042]}
+{
+  "CP": "4820-500",
+  "CP4": "4820",
+  "CP3": "500",
+  "Distrito": "Braga",
+  "Concelho": "Fafe",
+  "Localidade": "Corujeira",
+  "Designação Postal": "MEDELO",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.462934",
+      "rua": "R MO",
+      "casa": "460",
+      "coordenadas": [
+        41.47062370142742,
+        -8.155530370657212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.462946",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "827",
+      "coordenadas": [
+        41.46958817552899,
+        -8.155925056813752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.476888",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "674",
+      "coordenadas": [
+        41.46892222478099,
+        -8.154153133659763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.489709",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "",
+      "coordenadas": [
+        41.46873314288829,
+        -8.154153072514406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.528595",
+      "rua": "R MO",
+      "casa": "474",
+      "coordenadas": [
+        41.4704345442853,
+        -8.155913382418012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.531021",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "794",
+      "coordenadas": [
+        41.469417209364295,
+        -8.155374332381198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.531022",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "794",
+      "coordenadas": [
+        41.469417209364295,
+        -8.155374332381198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.531023",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "794",
+      "coordenadas": [
+        41.469417209364295,
+        -8.155374332381198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.561195",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "943",
+      "coordenadas": [
+        41.470335369002655,
+        -8.156571760144852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.569086",
+      "rua": "R MO",
+      "casa": "648",
+      "coordenadas": [
+        41.470461596142165,
+        -8.155709882190665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.589927",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "974",
+      "coordenadas": [
+        41.470623649790376,
+        -8.15579373679934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.641472",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "9",
+      "coordenadas": [
+        41.473916154364304,
+        -8.154970947473554
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.672214",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "1241",
+      "coordenadas": [
+        41.47280263468191,
+        -8.155579007844064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.675115",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "801",
+      "coordenadas": [
+        41.46941710620416,
+        -8.155901054899749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.694666",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "1215",
+      "coordenadas": [
+        41.472604530276875,
+        -8.155674711859254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.694667",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "1215",
+      "coordenadas": [
+        41.472604530276875,
+        -8.155674711859254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.710890",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "12B5",
+      "coordenadas": [
+        41.4731538168076,
+        -8.155423497612707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.714048",
+      "rua": "R S MARTINHO",
+      "casa": "104",
+      "coordenadas": [
+        41.47140674643241,
+        -8.156991143116777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.719661",
+      "rua": "R CORUJEIRA",
+      "casa": "177",
+      "coordenadas": [
+        41.4732165291272,
+        -8.156991807380702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.728842",
+      "rua": "R S MARTINHO",
+      "casa": "120",
+      "coordenadas": [
+        41.47155081620832,
+        -8.156955281915089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.758569",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "882",
+      "coordenadas": [
+        41.47011036585175,
+        -8.156104806325425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.758570",
+      "rua": "AV JOÃO PAULO II CASA DO OLIVAL",
+      "casa": "",
+      "coordenadas": [
+        41.469507157033924,
+        -8.155841231521391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.758571",
+      "rua": "AV JOÃO PAULO II CASA DO OLIVAL",
+      "casa": "",
+      "coordenadas": [
+        41.469507157033924,
+        -8.155841231521391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.764439",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "1263",
+      "coordenadas": [
+        41.472973727321516,
+        -8.155483293957825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.764440",
+      "rua": "AV JOÃO PAULO II",
+      "casa": "1263",
+      "coordenadas": [
+        41.472973727321516,
+        -8.155483293957825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.769144",
+      "rua": "LOTEAM DA CORUJEIRA",
+      "casa": "7",
+      "coordenadas": [
+        41.47371209282978,
+        -8.155244112718874
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.780013",
+      "rua": "AV LIBERDADE",
+      "casa": "891",
+      "coordenadas": [
+        41.470200315425096,
+        -8.156547769226984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.800777",
+      "rua": "R MO",
+      "casa": "396",
+      "coordenadas": [
+        41.4706688586748,
+        -8.154812114372321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.800778",
+      "rua": "R MO",
+      "casa": "396",
+      "coordenadas": [
+        41.4706688586748,
+        -8.154812114372321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.843504",
+      "rua": "R S MARTINHO",
+      "casa": "290",
+      "coordenadas": [
+        41.47317129647407,
+        -8.157997410030813
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.846362",
+      "rua": "AV JOÃO PAULO II CASA DO OLIVAL",
+      "casa": "",
+      "coordenadas": [
+        41.469507157033924,
+        -8.155841231521391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.848905",
+      "rua": "R MO",
+      "casa": "648",
+      "coordenadas": [
+        41.470461596142165,
+        -8.155709882190665
+      ]
+    }
+  ],
+  "ruas": [
+    "R MO",
+    "AV JOÃO PAULO II",
+    "R S MARTINHO",
+    "R CORUJEIRA",
+    "AV JOÃO PAULO II CASA DO OLIVAL",
+    "LOTEAM DA CORUJEIRA",
+    "AV LIBERDADE"
+  ],
+  "centro": [
+    41.47132464862629,
+    -8.15607524127261
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.46911787225346,
+                -8.15513631260616
+              ],
+              [
+                41.46903237683898,
+                -8.154917814807995
+              ],
+              [
+                41.468960522755886,
+                -8.154726630189995
+              ],
+              [
+                41.46890231000417,
+                -8.15456275875216
+              ],
+              [
+                41.468857738583836,
+                -8.154426200494493
+              ],
+              [
+                41.46882680849489,
+                -8.154316955416995
+              ],
+              [
+                41.46880951973732,
+                -8.154235023519663
+              ],
+              [
+                41.46880587231114,
+                -8.154180404802498
+              ],
+              [
+                41.468815866216346,
+                -8.1541530992655
+              ],
+              [
+                41.46883950145293,
+                -8.15415310690867
+              ],
+              [
+                41.468938212434686,
+                -8.154165891937282
+              ],
+              [
+                41.46911199916161,
+                -8.154191454351341
+              ],
+              [
+                41.469360861633696,
+                -8.154229794150844
+              ],
+              [
+                41.469684799850945,
+                -8.154280911335789
+              ],
+              [
+                41.47008381381336,
+                -8.154344805906181
+              ],
+              [
+                41.47055790352094,
+                -8.154421477862018
+              ],
+              [
+                41.47110706897369,
+                -8.154510927203297
+              ],
+              [
+                41.4717313101716,
+                -8.15461315393002
+              ],
+              [
+                41.472265882815236,
+                -8.154749890793362
+              ],
+              [
+                41.47271078690461,
+                -8.154921137793318
+              ],
+              [
+                41.4730660224397,
+                -8.155126894929893
+              ],
+              [
+                41.47333158942052,
+                -8.155367162203085
+              ],
+              [
+                41.473507487847066,
+                -8.155641939612892
+              ],
+              [
+                41.47359371771934,
+                -8.155951227159314
+              ],
+              [
+                41.47359027903733,
+                -8.156295024842354
+              ],
+              [
+                41.47349717180105,
+                -8.156673332662013
+              ],
+              [
+                41.47336928139041,
+                -8.156981701366654
+              ],
+              [
+                41.47320660780542,
+                -8.157220130956276
+              ],
+              [
+                41.47300915104608,
+                -8.157388621430883
+              ],
+              [
+                41.472776911112376,
+                -8.157487172790471
+              ],
+              [
+                41.472509888004325,
+                -8.157515785035045
+              ],
+              [
+                41.47220808172191,
+                -8.1574744581646
+              ],
+              [
+                41.471871492265144,
+                -8.157363192179139
+              ],
+              [
+                41.47150011963402,
+                -8.15718198707866
+              ],
+              [
+                41.47116293093771,
+                -8.157013327704378
+              ],
+              [
+                41.47085992617622,
+                -8.156857214056293
+              ],
+              [
+                41.470591105349534,
+                -8.156713646134405
+              ],
+              [
+                41.470356468457666,
+                -8.156582623938712
+              ],
+              [
+                41.470156015500606,
+                -8.156464147469217
+              ],
+              [
+                41.46998974647837,
+                -8.15635821672592
+              ],
+              [
+                41.46985766139094,
+                -8.15626483170882
+              ],
+              [
+                41.469759760238325,
+                -8.156183992417914
+              ],
+              [
+                41.469663409802976,
+                -8.1560859458136
+              ],
+              [
+                41.46956861008489,
+                -8.155970691895881
+              ],
+              [
+                41.46947536108407,
+                -8.155838230664752
+              ],
+              [
+                41.46938366280052,
+                -8.155688562120215
+              ],
+              [
+                41.46929351523423,
+                -8.155521686262272
+              ],
+              [
+                41.469204918385216,
+                -8.15533760309092
+              ],
+              [
+                41.46911787225346,
+                -8.15513631260616
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.47072670668948,
+    -8.15562056463421
+  ],
+  "centroDeMassa": [
+    41.47132464862629,
+    -8.15607524127261
+  ]
+}

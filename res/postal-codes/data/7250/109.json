@@ -1,1 +1,423 @@
-{"CP4":"7250","CP3":"109","Distrito":"Évora","Concelho":"Alandroal","CP":"7250-109","Artéria":"Beco do Telheiro","Localidade":"Alandroal","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALANDROAL","locais":[{"id":"pt.ine.add.PTCONT.1393920","rua":"ESTR TELHEIROS","casa":"2","coordenadas":[38.6946189146918,-7.403839163154108]},{"id":"pt.ine.add.PTCONT.1399683","rua":"ESTR TELHEIROS","casa":"6","coordenadas":[38.69603564109727,-7.402679131095305]},{"id":"pt.ine.add.PTCONT.1401539","rua":"ESTR TELHEIROS","casa":"22","coordenadas":[38.69433146328307,-7.403968519530132]},{"id":"pt.ine.add.PTCONT.1406265","rua":"HORTA DOS TELHEIROS","casa":"","coordenadas":[38.697449674548245,-7.402752893433293]},{"id":"pt.ine.add.PTCONT.1406266","rua":"HORTA DOS TELHEIROS","casa":"","coordenadas":[38.697449674548245,-7.402752893433293]},{"id":"pt.ine.add.PTCONT.1407569","rua":"ESTR TELHEIROS","casa":"1","coordenadas":[38.694699265286445,-7.403723403411372]},{"id":"pt.ine.add.PTCONT.1413051","rua":"TAPADA EIRA","casa":"1","coordenadas":[38.697829236467456,-7.401507585515268]},{"id":"pt.ine.add.PTCONT.1413052","rua":"TAPADA EIRA","casa":"","coordenadas":[38.697829236467456,-7.401507585515268]},{"id":"pt.ine.add.PTCONT.1413053","rua":"TAPADA EIRA","casa":"RC","coordenadas":[38.697829236467456,-7.401507585515268]},{"id":"pt.ine.add.PTCONT.1413054","rua":"TAPADA EIRA","casa":"","coordenadas":[38.697829236467456,-7.401507585515268]},{"id":"pt.ine.add.PTCONT.1413469","rua":"TAPADA EIRA","casa":"","coordenadas":[38.697829236467456,-7.401507585515268]},{"id":"pt.ine.add.PTCONT.1419070","rua":"ESTR TELHEIROS","casa":"18","coordenadas":[38.69502195755257,-7.40346724859865]},{"id":"pt.ine.add.PTCONT.1420302","rua":"ESTR TELHEIROS","casa":"","coordenadas":[38.69784277222404,-7.402231625538727]},{"id":"pt.ine.add.PTCONT.1433113","rua":"ESTR TELHEIROS","casa":"4","coordenadas":[38.69603908050734,-7.402655645981792]},{"id":"pt.ine.add.PTCONT.1442921","rua":"ESTR TELHEIROS","casa":"14","coordenadas":[38.69594065122512,-7.402766118076875]},{"id":"pt.ine.add.PTCONT.1451283","rua":"ESTR TELHEIROS","casa":"","coordenadas":[38.695900530157274,-7.402791637141081]},{"id":"pt.ine.add.PTCONT.1451387","rua":"ESTR DE TELHEIROS","casa":"2","coordenadas":[38.6960763748585,-7.402626240480518]},{"id":"pt.ine.add.PTCONT.1453155","rua":"HORTA DOS TELHEIROS","casa":"","coordenadas":[38.697206974893355,-7.402835825235401]},{"id":"pt.ine.add.PTCONT.1454414","rua":"ESTR TELHEIROS","casa":"8","coordenadas":[38.696010778738184,-7.402703485830334]},{"id":"pt.ine.add.PTCONT.1455924","rua":"ESTR TELHEIROS","casa":"20","coordenadas":[38.694959335381775,-7.403536851363303]},{"id":"pt.ine.add.PTCONT.1464666","rua":"ESTR TELHEIROS","casa":"30","coordenadas":[38.69601734037326,-7.402744470895714]},{"id":"pt.ine.add.PTCONT.1465033","rua":"HORTA DOS TELHEIROS","casa":"","coordenadas":[38.697449674548245,-7.402752893433293]}],"ruas":["ESTR TELHEIROS","HORTA DOS TELHEIROS","TAPADA EIRA","ESTR DE TELHEIROS"],"centroide":[38.69641650531922,-7.402648241941725]}725]}
+{
+  "CP": "7250-109",
+  "CP4": "7250",
+  "CP3": "109",
+  "Distrito": "Évora",
+  "Concelho": "Alandroal",
+  "Localidade": "Alandroal",
+  "Designação Postal": "ALANDROAL",
+  "partes": [
+    {
+      "Artéria": "Estrada dos Telheiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco do Telheiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1393920",
+      "rua": "ESTR TELHEIROS",
+      "casa": "2",
+      "coordenadas": [
+        38.6946189146918,
+        -7.403839163154108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399683",
+      "rua": "ESTR TELHEIROS",
+      "casa": "6",
+      "coordenadas": [
+        38.69603564109727,
+        -7.402679131095305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1401539",
+      "rua": "ESTR TELHEIROS",
+      "casa": "22",
+      "coordenadas": [
+        38.69433146328307,
+        -7.403968519530132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1406265",
+      "rua": "HORTA DOS TELHEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.697449674548245,
+        -7.402752893433293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1406266",
+      "rua": "HORTA DOS TELHEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.697449674548245,
+        -7.402752893433293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1407569",
+      "rua": "ESTR TELHEIROS",
+      "casa": "1",
+      "coordenadas": [
+        38.694699265286445,
+        -7.403723403411372
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413051",
+      "rua": "TAPADA EIRA",
+      "casa": "1",
+      "coordenadas": [
+        38.697829236467456,
+        -7.401507585515268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413052",
+      "rua": "TAPADA EIRA",
+      "casa": "",
+      "coordenadas": [
+        38.697829236467456,
+        -7.401507585515268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413053",
+      "rua": "TAPADA EIRA",
+      "casa": "RC",
+      "coordenadas": [
+        38.697829236467456,
+        -7.401507585515268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413054",
+      "rua": "TAPADA EIRA",
+      "casa": "",
+      "coordenadas": [
+        38.697829236467456,
+        -7.401507585515268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413469",
+      "rua": "TAPADA EIRA",
+      "casa": "",
+      "coordenadas": [
+        38.697829236467456,
+        -7.401507585515268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1419070",
+      "rua": "ESTR TELHEIROS",
+      "casa": "18",
+      "coordenadas": [
+        38.69502195755257,
+        -7.40346724859865
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1420302",
+      "rua": "ESTR TELHEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.69784277222404,
+        -7.402231625538727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1433113",
+      "rua": "ESTR TELHEIROS",
+      "casa": "4",
+      "coordenadas": [
+        38.69603908050734,
+        -7.402655645981792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1442921",
+      "rua": "ESTR TELHEIROS",
+      "casa": "14",
+      "coordenadas": [
+        38.69594065122512,
+        -7.402766118076875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1451283",
+      "rua": "ESTR TELHEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.695900530157274,
+        -7.402791637141081
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1451387",
+      "rua": "ESTR DE TELHEIROS",
+      "casa": "2",
+      "coordenadas": [
+        38.6960763748585,
+        -7.402626240480518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1453155",
+      "rua": "HORTA DOS TELHEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.697206974893355,
+        -7.402835825235401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1454414",
+      "rua": "ESTR TELHEIROS",
+      "casa": "8",
+      "coordenadas": [
+        38.696010778738184,
+        -7.402703485830334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1455924",
+      "rua": "ESTR TELHEIROS",
+      "casa": "20",
+      "coordenadas": [
+        38.694959335381775,
+        -7.403536851363303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1464666",
+      "rua": "ESTR TELHEIROS",
+      "casa": "30",
+      "coordenadas": [
+        38.69601734037326,
+        -7.402744470895714
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1465033",
+      "rua": "HORTA DOS TELHEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.697449674548245,
+        -7.402752893433293
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR TELHEIROS",
+    "HORTA DOS TELHEIROS",
+    "TAPADA EIRA",
+    "ESTR DE TELHEIROS"
+  ],
+  "centro": [
+    38.69608711775356,
+    -7.4027380525227
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.696085457119736,
+                -7.403284729850659
+              ],
+              [
+                38.69569568071158,
+                -7.403436683112766
+              ],
+              [
+                38.695381890597815,
+                -7.403548669106957
+              ],
+              [
+                38.69514408677844,
+                -7.403620687833235
+              ],
+              [
+                38.69498226925345,
+                -7.4036527392916
+              ],
+              [
+                38.69489643802284,
+                -7.403644823482051
+              ],
+              [
+                38.694886593086615,
+                -7.403596940404589
+              ],
+              [
+                38.694952734444776,
+                -7.403509090059214
+              ],
+              [
+                38.69509486209732,
+                -7.403381272445926
+              ],
+              [
+                38.69531297604425,
+                -7.403213487564724
+              ],
+              [
+                38.695531214210455,
+                -7.403049196809841
+              ],
+              [
+                38.69574957659592,
+                -7.402888400181275
+              ],
+              [
+                38.695968063200674,
+                -7.402731097679027
+              ],
+              [
+                38.6961866740247,
+                -7.4025772893031
+              ],
+              [
+                38.696405409068,
+                -7.402426975053489
+              ],
+              [
+                38.69662426833057,
+                -7.402280154930194
+              ],
+              [
+                38.69684325181241,
+                -7.40213682893322
+              ],
+              [
+                38.69706235951354,
+                -7.4019969970625645
+              ],
+              [
+                38.69725429024821,
+                -7.401885957301108
+              ],
+              [
+                38.69741904401645,
+                -7.401803709648848
+              ],
+              [
+                38.69755662081823,
+                -7.401750254105788
+              ],
+              [
+                38.69766702065358,
+                -7.401725590671926
+              ],
+              [
+                38.69775024352248,
+                -7.401729719347262
+              ],
+              [
+                38.697806289424946,
+                -7.401762640131797
+              ],
+              [
+                38.69783515836096,
+                -7.401824353025531
+              ],
+              [
+                38.69783685033053,
+                -7.401914858028464
+              ],
+              [
+                38.697832188652725,
+                -7.402002194716882
+              ],
+              [
+                38.69782117332754,
+                -7.402086363090787
+              ],
+              [
+                38.69780380435497,
+                -7.402167363150178
+              ],
+              [
+                38.69778008173501,
+                -7.4022451948950545
+              ],
+              [
+                38.69775000546768,
+                -7.402319858325416
+              ],
+              [
+                38.697713575552974,
+                -7.402391353441264
+              ],
+              [
+                38.69767079199088,
+                -7.402459680242599
+              ],
+              [
+                38.69762165478141,
+                -7.402524838729422
+              ],
+              [
+                38.6975299376721,
+                -7.4026008465631525
+              ],
+              [
+                38.69739564066296,
+                -7.402687703743794
+              ],
+              [
+                38.69721876375398,
+                -7.4027854102713455
+              ],
+              [
+                38.69699930694517,
+                -7.4028939661458075
+              ],
+              [
+                38.696737270236525,
+                -7.40301337136718
+              ],
+              [
+                38.69643265362805,
+                -7.403143625935464
+              ],
+              [
+                38.696085457119736,
+                -7.403284729850659
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.696705904276264,
+    -7.402617372899587
+  ],
+  "centroDeMassa": [
+    38.69608711775356,
+    -7.4027380525227
+  ]
+}

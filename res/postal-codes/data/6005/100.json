@@ -1,1 +1,555 @@
-{"CP4":"6005","CP3":"100","Distrito":"Castelo Branco","Concelho":"Castelo Branco","CP":"6005-100","Artéria":"Rua Viscondessa Oleiros","Localidade":"Alcains","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALCAINS","locais":[{"id":"pt.ine.add.PTCONT.953990","rua":"R VISCONDESSA OLEIROS","casa":"47","coordenadas":[39.91708028123464,-7.456561547855311]},{"id":"pt.ine.add.PTCONT.963277","rua":"R VISCONDESSA OLEIROS","casa":"27","coordenadas":[39.91734076404601,-7.456442022502324]},{"id":"pt.ine.add.PTCONT.998737","rua":"R VISCONDESSA OLEIROS","casa":"33","coordenadas":[39.91722403120602,-7.456501652351275]},{"id":"pt.ine.add.PTCONT.1005698","rua":"R VISCONDESSA OLEIROS","casa":"37","coordenadas":[39.91720649749373,-7.456583698198718]},{"id":"pt.ine.add.PTCONT.1015055","rua":"R VISCONDESSA OLEIROS","casa":"29","coordenadas":[39.917268786709435,-7.45645442711563]},{"id":"pt.ine.add.PTCONT.1021457","rua":"R VISCONDESSA OLEIROS","casa":"4","coordenadas":[39.91737767400426,-7.456593710002878]},{"id":"pt.ine.add.PTCONT.1021477","rua":"R VISCONDESSA OLEIROS","casa":"59","coordenadas":[39.91700905441932,-7.456702602568776]},{"id":"pt.ine.add.PTCONT.1025238","rua":"R VISCONDESSA OLEIROS","casa":"8","coordenadas":[39.91821614765728,-7.455427640409407]},{"id":"pt.ine.add.PTCONT.1026143","rua":"R VISCONDESSA OLEIROS","casa":"14","coordenadas":[39.91721645838927,-7.456747346790753]},{"id":"pt.ine.add.PTCONT.1026483","rua":"R VISCONDESSA OLEIROS","casa":"20","coordenadas":[39.91710859465366,-7.456783496430798]},{"id":"pt.ine.add.PTCONT.1029573","rua":"R VISCONDESSA OLEIROS","casa":"47","coordenadas":[39.91711684990223,-7.456654757358616]},{"id":"pt.ine.add.PTCONT.1030628","rua":"R VISCONDESSA OLEIROS","casa":"10","coordenadas":[39.91727021969309,-7.456700033116551]},{"id":"pt.ine.add.PTCONT.1038619","rua":"R VISCONDESSA OLEIROS","casa":"32","coordenadas":[39.9180712700177,-7.454471191630484]},{"id":"pt.ine.add.PTCONT.1046614","rua":"R VISCONDESSA OLEIROS","casa":"6","coordenadas":[39.91733298667521,-7.456652630759266]},{"id":"pt.ine.add.PTCONT.1046615","rua":"R VISCONDESSA OLEIROS","casa":"6","coordenadas":[39.91733298667521,-7.456652630759266]},{"id":"pt.ine.add.PTCONT.1050121","rua":"R VISCONDESSA OLEIROS","casa":"10","coordenadas":[39.918147032482814,-7.455548056004184]},{"id":"pt.ine.add.PTCONT.1063653","rua":"R VISCONDESSA OLEIROS","casa":"17","coordenadas":[39.91792892424309,-7.455371869634961]},{"id":"pt.ine.add.PTCONT.1068384","rua":"R VISCONDESSA OLEIROS","casa":"14","coordenadas":[39.918008000721265,-7.455875477544756]},{"id":"pt.ine.add.PTCONT.1074206","rua":"R VISCONDESSA OLEIROS","casa":"12","coordenadas":[39.91814494090489,-7.454339953102479]},{"id":"pt.ine.add.PTCONT.1078883","rua":"R VISCONDESSA OLEIROS","casa":"16","coordenadas":[39.91716262884919,-7.456782964884444]},{"id":"pt.ine.add.PTCONT.1082755","rua":"R VISCONDESSA OLEIROS CHÃO DA CORTE","casa":"4","coordenadas":[39.91813174628452,-7.455220470489982]},{"id":"pt.ine.add.PTCONT.1087422","rua":"R VISCONDESSA OLEIROS","casa":"S5","coordenadas":[39.91705381000857,-7.456655377612437]},{"id":"pt.ine.add.PTCONT.1088668","rua":"R VISCONDESSA OLEIROS","casa":"2A","coordenadas":[39.918061554250116,-7.454993383605143]},{"id":"pt.ine.add.PTCONT.1088695","rua":"R VISCONDESSA OLEIROS","casa":"15","coordenadas":[39.91794659381977,-7.455313213897668]},{"id":"pt.ine.add.PTCONT.1088696","rua":"R VISCONDESSA OLEIROS","casa":"15","coordenadas":[39.91794659381977,-7.455313213897668]},{"id":"pt.ine.add.PTCONT.1093246","rua":"R VISCONDESSA OLEIROS","casa":"22","coordenadas":[39.91709986181001,-7.456830367003832]},{"id":"pt.ine.add.PTCONT.1099334","rua":"R VISCONDESSA OLEIROS","casa":"41","coordenadas":[39.91714345760198,-7.456584318519661]}],"ruas":["R VISCONDESSA OLEIROS","R VISCONDESSA OLEIROS CHÃO DA CORTE"],"centroide":[39.91753093422965,-7.4560836052126]}
+{
+  "CP": "6005-100",
+  "CP4": "6005",
+  "CP3": "100",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Castelo Branco",
+  "Localidade": "Alcains",
+  "Designação Postal": "ALCAINS",
+  "partes": [
+    {
+      "Artéria": "Rua Viscondessa Oleiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.953990",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "47",
+      "coordenadas": [
+        39.91708028123464,
+        -7.456561547855311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.963277",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "27",
+      "coordenadas": [
+        39.91734076404601,
+        -7.456442022502324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.998737",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "33",
+      "coordenadas": [
+        39.91722403120602,
+        -7.456501652351275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1005698",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "37",
+      "coordenadas": [
+        39.91720649749373,
+        -7.456583698198718
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1015055",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "29",
+      "coordenadas": [
+        39.917268786709435,
+        -7.45645442711563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1021457",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "4",
+      "coordenadas": [
+        39.91737767400426,
+        -7.456593710002878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1021477",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "59",
+      "coordenadas": [
+        39.91700905441932,
+        -7.456702602568776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1025238",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "8",
+      "coordenadas": [
+        39.91821614765728,
+        -7.455427640409407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1026143",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "14",
+      "coordenadas": [
+        39.91721645838927,
+        -7.456747346790753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1026483",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "20",
+      "coordenadas": [
+        39.91710859465366,
+        -7.456783496430798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1029573",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "47",
+      "coordenadas": [
+        39.91711684990223,
+        -7.456654757358616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1030628",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "10",
+      "coordenadas": [
+        39.91727021969309,
+        -7.456700033116551
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1038619",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "32",
+      "coordenadas": [
+        39.9180712700177,
+        -7.454471191630484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1046614",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "6",
+      "coordenadas": [
+        39.91733298667521,
+        -7.456652630759266
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1046615",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "6",
+      "coordenadas": [
+        39.91733298667521,
+        -7.456652630759266
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1050121",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "10",
+      "coordenadas": [
+        39.918147032482814,
+        -7.455548056004184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1063653",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "17",
+      "coordenadas": [
+        39.91792892424309,
+        -7.455371869634961
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1068384",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "14",
+      "coordenadas": [
+        39.918008000721265,
+        -7.455875477544756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1074206",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "12",
+      "coordenadas": [
+        39.91814494090489,
+        -7.454339953102479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1078883",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "16",
+      "coordenadas": [
+        39.91716262884919,
+        -7.456782964884444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1082755",
+      "rua": "R VISCONDESSA OLEIROS CHÃO DA CORTE",
+      "casa": "4",
+      "coordenadas": [
+        39.91813174628452,
+        -7.455220470489982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1087422",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "S5",
+      "coordenadas": [
+        39.91705381000857,
+        -7.456655377612437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1088668",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "2A",
+      "coordenadas": [
+        39.918061554250116,
+        -7.454993383605143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1088695",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "15",
+      "coordenadas": [
+        39.91794659381977,
+        -7.455313213897668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1088696",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "15",
+      "coordenadas": [
+        39.91794659381977,
+        -7.455313213897668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1093246",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "22",
+      "coordenadas": [
+        39.91709986181001,
+        -7.456830367003832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1099334",
+      "rua": "R VISCONDESSA OLEIROS",
+      "casa": "41",
+      "coordenadas": [
+        39.91714345760198,
+        -7.456584318519661
+      ]
+    }
+  ],
+  "ruas": [
+    "R VISCONDESSA OLEIROS",
+    "R VISCONDESSA OLEIROS CHÃO DA CORTE"
+  ],
+  "centro": [
+    39.9176126010383,
+    -7.455585160053156
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.917060133576584,
+                -7.456774470063495
+              ],
+              [
+                39.91704878265274,
+                -7.456758499509114
+              ],
+              [
+                39.91705544771311,
+                -7.456709659478118
+              ],
+              [
+                39.91708012875769,
+                -7.45662794997051
+              ],
+              [
+                39.917122825786464,
+                -7.45651337098629
+              ],
+              [
+                39.91718353879944,
+                -7.456365922525455
+              ],
+              [
+                39.91726226779663,
+                -7.456185604588008
+              ],
+              [
+                39.917359012778014,
+                -7.455972417173948
+              ],
+              [
+                39.91747377374361,
+                -7.455726360283274
+              ],
+              [
+                39.91760655069341,
+                -7.455447433915987
+              ],
+              [
+                39.91772388163209,
+                -7.455201322742612
+              ],
+              [
+                39.917825766559666,
+                -7.4549880267631465
+              ],
+              [
+                39.91791220547613,
+                -7.454807545977592
+              ],
+              [
+                39.91798319838147,
+                -7.4546598803859485
+              ],
+              [
+                39.91803874527571,
+                -7.454545029988216
+              ],
+              [
+                39.918078846158835,
+                -7.454462994784393
+              ],
+              [
+                39.91810350103084,
+                -7.454413774774482
+              ],
+              [
+                39.918112709891744,
+                -7.45439736995848
+              ],
+              [
+                39.91812188025053,
+                -7.454400010858651
+              ],
+              [
+                39.918131012107224,
+                -7.4544216974749915
+              ],
+              [
+                39.9181401054618,
+                -7.454462429807503
+              ],
+              [
+                39.91814916031428,
+                -7.454522207856187
+              ],
+              [
+                39.91815817666465,
+                -7.45460103162104
+              ],
+              [
+                39.918167154512915,
+                -7.454698901102065
+              ],
+              [
+                39.91817609385907,
+                -7.45481581629926
+              ],
+              [
+                39.918184994703104,
+                -7.454951777212626
+              ],
+              [
+                39.91818953064577,
+                -7.455077740467061
+              ],
+              [
+                39.91818970168706,
+                -7.455193706062565
+              ],
+              [
+                39.91818550782697,
+                -7.455299673999138
+              ],
+              [
+                39.91817694906549,
+                -7.455395644276781
+              ],
+              [
+                39.91816402540263,
+                -7.455481616895492
+              ],
+              [
+                39.918146736838395,
+                -7.455557591855272
+              ],
+              [
+                39.91812508337277,
+                -7.455623569156122
+              ],
+              [
+                39.91809906500578,
+                -7.455679548798041
+              ],
+              [
+                39.918065751840174,
+                -7.455740674003696
+              ],
+              [
+                39.91802514387599,
+                -7.455806944773089
+              ],
+              [
+                39.9179772411132,
+                -7.455878361106218
+              ],
+              [
+                39.91792204355182,
+                -7.455954923003084
+              ],
+              [
+                39.917859551191846,
+                -7.456036630463688
+              ],
+              [
+                39.91778976403328,
+                -7.456123483488027
+              ],
+              [
+                39.91771268207612,
+                -7.456215482076104
+              ],
+              [
+                39.917628305320356,
+                -7.456312626227918
+              ],
+              [
+                39.917552654904604,
+                -7.456399107298747
+              ],
+              [
+                39.91748573082886,
+                -7.456474925288591
+              ],
+              [
+                39.917427533093104,
+                -7.456540080197451
+              ],
+              [
+                39.917378061697356,
+                -7.456594572025326
+              ],
+              [
+                39.91733731664161,
+                -7.456638400772215
+              ],
+              [
+                39.91730529792586,
+                -7.456671566438121
+              ],
+              [
+                39.91728200555011,
+                -7.456694069023041
+              ],
+              [
+                39.91726743951437,
+                -7.456705908526977
+              ],
+              [
+                39.91725287241154,
+                -7.45671756528375
+              ],
+              [
+                39.917238304241636,
+                -7.456729039293361
+              ],
+              [
+                39.91722373500464,
+                -7.456740330555808
+              ],
+              [
+                39.917209164700566,
+                -7.456751439071094
+              ],
+              [
+                39.91719459332941,
+                -7.456762364839216
+              ],
+              [
+                39.917180020891166,
+                -7.456773107860178
+              ],
+              [
+                39.91716544738584,
+                -7.4567836681339745
+              ],
+              [
+                39.91715087281344,
+                -7.45679404566061
+              ],
+              [
+                39.917136701197094,
+                -7.456801129677118
+              ],
+              [
+                39.91712293253683,
+                -7.456804920183499
+              ],
+              [
+                39.917109566832636,
+                -7.456805417179752
+              ],
+              [
+                39.91709660408452,
+                -7.456802620665878
+              ],
+              [
+                39.917084044292466,
+                -7.456796530641878
+              ],
+              [
+                39.91707188745649,
+                -7.45678714710775
+              ],
+              [
+                39.917060133576584,
+                -7.456774470063495
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.917637340074364,
+    -7.4558809012262195
+  ],
+  "centroDeMassa": [
+    39.9176126010383,
+    -7.455585160053156
+  ]
+}

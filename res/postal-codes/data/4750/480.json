@@ -1,1 +1,513 @@
-{"CP4":"4750","CP3":"480","Distrito":"Braga","Concelho":"Barcelos","CP":"4750-480","Artéria":"Carreiro das Escadinhas da Fonte","Localidade":"Galegos (São Martinho)","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GALEGOS (SÃO MARTINHO)","locais":[{"id":"pt.ine.add.PTCONT.465075","rua":"AV PADRE PAULINO","casa":"377","coordenadas":[41.558609201805766,-8.567747393356427]},{"id":"pt.ine.add.PTCONT.478487","rua":"AV PADRE PAULINO","casa":"376","coordenadas":[41.558565950436275,-8.567279596466962]},{"id":"pt.ine.add.PTCONT.518615","rua":"AV PADRE PAULINO","casa":"485","coordenadas":[41.55949145407425,-8.567777279745059]},{"id":"pt.ine.add.PTCONT.527708","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559242117905036,-8.567044372329413]},{"id":"pt.ine.add.PTCONT.527709","rua":"AV PADRE PAULINO","casa":"480","coordenadas":[41.559242117905036,-8.567044372329413]},{"id":"pt.ine.add.PTCONT.527710","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559242117905036,-8.567044372329413]},{"id":"pt.ine.add.PTCONT.539601","rua":"AV PADRE PAULINO","casa":"489","coordenadas":[41.559554387931136,-8.567801676540245]},{"id":"pt.ine.add.PTCONT.542439","rua":"AV PADRE PAULINO","casa":"482","coordenadas":[41.559386309600704,-8.5670093743529]},{"id":"pt.ine.add.PTCONT.542440","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559386309600704,-8.5670093743529]},{"id":"pt.ine.add.PTCONT.542444","rua":"AV PADRE PAULINO","casa":"515","coordenadas":[41.55977943006087,-8.56781517218128]},{"id":"pt.ine.add.PTCONT.544515","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559386309600704,-8.5670093743529]},{"id":"pt.ine.add.PTCONT.544657","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559386309600704,-8.5670093743529]},{"id":"pt.ine.add.PTCONT.551191","rua":"AV PADRE PAULINO","casa":"28","coordenadas":[41.55550539299826,-8.567091298927526]},{"id":"pt.ine.add.PTCONT.551192","rua":"AV PADRE PAULINO","casa":"28","coordenadas":[41.55550539299826,-8.567091298927526]},{"id":"pt.ine.add.PTCONT.563124","rua":"AV PADRE PAULINO","casa":"477","coordenadas":[41.55943743308487,-8.567776917762579]},{"id":"pt.ine.add.PTCONT.619253","rua":"AV PADRE PAULINO","casa":"521","coordenadas":[41.55984245454435,-8.567815594536507]},{"id":"pt.ine.add.PTCONT.637394","rua":"AV PADRE PAULINO","casa":"503","coordenadas":[41.559671478720546,-8.567790473622631]},{"id":"pt.ine.add.PTCONT.653645","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559430286393294,-8.567285381501708]},{"id":"pt.ine.add.PTCONT.653646","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559430286393294,-8.567285381501708]},{"id":"pt.ine.add.PTCONT.653647","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559430286393294,-8.567285381501708]},{"id":"pt.ine.add.PTCONT.653648","rua":"AV PADRE PAULINO","casa":"468","coordenadas":[41.559430286393294,-8.567285381501708]},{"id":"pt.ine.add.PTCONT.671232","rua":"AV PADRE PAULINO","casa":"495","coordenadas":[41.559617367100174,-8.567814086131149]},{"id":"pt.ine.add.PTCONT.689223","rua":"AV PADRE PAULINO","casa":"475","coordenadas":[41.55938345740786,-8.567764568572134]},{"id":"pt.ine.add.PTCONT.727235","rua":"AV PADRE PAULINO","casa":"303","coordenadas":[41.55788028071994,-8.567646611713302]},{"id":"pt.ine.add.PTCONT.778958","rua":"AV PADRE PAULINO","casa":"296","coordenadas":[41.55786390365846,-8.567214961667299]},{"id":"pt.ine.add.PTCONT.778959","rua":"AV PADRE PAULINO","casa":"296","coordenadas":[41.55786390365846,-8.567214961667299]},{"id":"pt.ine.add.PTCONT.798310","rua":"AV PADRE PAULINO","casa":"529","coordenadas":[41.55991448252462,-8.567816077229837]},{"id":"pt.ine.add.PTCONT.808568","rua":"AV PADRE PAULINO","casa":"509","coordenadas":[41.559734457889455,-8.567802883226042]}],"ruas":["AV PADRE PAULINO"],"centroide":[41.558943655904265,-8.567398892942757]}
+{
+  "CP": "4750-480",
+  "CP4": "4750",
+  "CP3": "480",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Galegos (São Martinho)",
+  "Designação Postal": "GALEGOS (SÃO MARTINHO)",
+  "partes": [
+    {
+      "Artéria": "Rua 8 de Dezembro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Padre Paulino",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Carreiro das Escadinhas da Fonte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.465075",
+      "rua": "AV PADRE PAULINO",
+      "casa": "377",
+      "coordenadas": [
+        41.558609201805766,
+        -8.567747393356427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.478487",
+      "rua": "AV PADRE PAULINO",
+      "casa": "376",
+      "coordenadas": [
+        41.558565950436275,
+        -8.567279596466962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.518615",
+      "rua": "AV PADRE PAULINO",
+      "casa": "485",
+      "coordenadas": [
+        41.55949145407425,
+        -8.567777279745059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.527708",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559242117905036,
+        -8.567044372329413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.527709",
+      "rua": "AV PADRE PAULINO",
+      "casa": "480",
+      "coordenadas": [
+        41.559242117905036,
+        -8.567044372329413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.527710",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559242117905036,
+        -8.567044372329413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.539601",
+      "rua": "AV PADRE PAULINO",
+      "casa": "489",
+      "coordenadas": [
+        41.559554387931136,
+        -8.567801676540245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.542439",
+      "rua": "AV PADRE PAULINO",
+      "casa": "482",
+      "coordenadas": [
+        41.559386309600704,
+        -8.5670093743529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.542440",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559386309600704,
+        -8.5670093743529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.542444",
+      "rua": "AV PADRE PAULINO",
+      "casa": "515",
+      "coordenadas": [
+        41.55977943006087,
+        -8.56781517218128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.544515",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559386309600704,
+        -8.5670093743529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.544657",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559386309600704,
+        -8.5670093743529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.551191",
+      "rua": "AV PADRE PAULINO",
+      "casa": "28",
+      "coordenadas": [
+        41.55550539299826,
+        -8.567091298927526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.551192",
+      "rua": "AV PADRE PAULINO",
+      "casa": "28",
+      "coordenadas": [
+        41.55550539299826,
+        -8.567091298927526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.563124",
+      "rua": "AV PADRE PAULINO",
+      "casa": "477",
+      "coordenadas": [
+        41.55943743308487,
+        -8.567776917762579
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.619253",
+      "rua": "AV PADRE PAULINO",
+      "casa": "521",
+      "coordenadas": [
+        41.55984245454435,
+        -8.567815594536507
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.637394",
+      "rua": "AV PADRE PAULINO",
+      "casa": "503",
+      "coordenadas": [
+        41.559671478720546,
+        -8.567790473622631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.653645",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559430286393294,
+        -8.567285381501708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.653646",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559430286393294,
+        -8.567285381501708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.653647",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559430286393294,
+        -8.567285381501708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.653648",
+      "rua": "AV PADRE PAULINO",
+      "casa": "468",
+      "coordenadas": [
+        41.559430286393294,
+        -8.567285381501708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.671232",
+      "rua": "AV PADRE PAULINO",
+      "casa": "495",
+      "coordenadas": [
+        41.559617367100174,
+        -8.567814086131149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.689223",
+      "rua": "AV PADRE PAULINO",
+      "casa": "475",
+      "coordenadas": [
+        41.55938345740786,
+        -8.567764568572134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.727235",
+      "rua": "AV PADRE PAULINO",
+      "casa": "303",
+      "coordenadas": [
+        41.55788028071994,
+        -8.567646611713302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.778958",
+      "rua": "AV PADRE PAULINO",
+      "casa": "296",
+      "coordenadas": [
+        41.55786390365846,
+        -8.567214961667299
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.778959",
+      "rua": "AV PADRE PAULINO",
+      "casa": "296",
+      "coordenadas": [
+        41.55786390365846,
+        -8.567214961667299
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.798310",
+      "rua": "AV PADRE PAULINO",
+      "casa": "529",
+      "coordenadas": [
+        41.55991448252462,
+        -8.567816077229837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.808568",
+      "rua": "AV PADRE PAULINO",
+      "casa": "509",
+      "coordenadas": [
+        41.559734457889455,
+        -8.567802883226042
+      ]
+    }
+  ],
+  "ruas": [
+    "AV PADRE PAULINO"
+  ],
+  "centro": [
+    41.557709937761445,
+    -8.567412725791367
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.55684126734171,
+                -8.567403662369525
+              ],
+              [
+                41.556544406376496,
+                -8.567334248271305
+              ],
+              [
+                41.55634529235385,
+                -8.567272230863882
+              ],
+              [
+                41.556243925273776,
+                -8.567217610147257
+              ],
+              [
+                41.55624030513626,
+                -8.567170386121433
+              ],
+              [
+                41.5563344319413,
+                -8.567130558786406
+              ],
+              [
+                41.55652630568892,
+                -8.567098128142181
+              ],
+              [
+                41.55681592637909,
+                -8.567073094188753
+              ],
+              [
+                41.55720329401183,
+                -8.567055456926127
+              ],
+              [
+                41.55768840858714,
+                -8.567045216354298
+              ],
+              [
+                41.55812113654247,
+                -8.567048860586402
+              ],
+              [
+                41.55850147787781,
+                -8.567066389622434
+              ],
+              [
+                41.558829432593186,
+                -8.567097803462397
+              ],
+              [
+                41.55910500068859,
+                -8.567143102106293
+              ],
+              [
+                41.55932818216401,
+                -8.567202285554117
+              ],
+              [
+                41.559498977019445,
+                -8.567275353805874
+              ],
+              [
+                41.55961738525492,
+                -8.56736230686156
+              ],
+              [
+                41.559683406870406,
+                -8.567463144721177
+              ],
+              [
+                41.559736533355455,
+                -8.567551346737424
+              ],
+              [
+                41.55977676471006,
+                -8.567626912910304
+              ],
+              [
+                41.559804100934215,
+                -8.567689843239814
+              ],
+              [
+                41.559818542027934,
+                -8.567740137725956
+              ],
+              [
+                41.559820087991206,
+                -8.567777796368727
+              ],
+              [
+                41.55980873882404,
+                -8.56780281916813
+              ],
+              [
+                41.559784494526426,
+                -8.56781520612416
+              ],
+              [
+                41.55974735509837,
+                -8.567814957236825
+              ],
+              [
+                41.55969910551609,
+                -8.5678136973858
+              ],
+              [
+                41.559639745779606,
+                -8.567811426571087
+              ],
+              [
+                41.55956927588889,
+                -8.567808144792687
+              ],
+              [
+                41.55948769584396,
+                -8.5678038520506
+              ],
+              [
+                41.55939500564482,
+                -8.567798548344825
+              ],
+              [
+                41.55929120529145,
+                -8.567792233675359
+              ],
+              [
+                41.55917629478387,
+                -8.567784908042208
+              ],
+              [
+                41.55905027412207,
+                -8.567776571445368
+              ],
+              [
+                41.55892861665103,
+                -8.56776770220996
+              ],
+              [
+                41.558811322370744,
+                -8.567758300335981
+              ],
+              [
+                41.558698391281226,
+                -8.567748365823435
+              ],
+              [
+                41.558589823382455,
+                -8.567737898672318
+              ],
+              [
+                41.558485618674446,
+                -8.567726898882635
+              ],
+              [
+                41.558385777157206,
+                -8.567715366454381
+              ],
+              [
+                41.55829029883072,
+                -8.56770330138756
+              ],
+              [
+                41.55819918369499,
+                -8.56769070368217
+              ],
+              [
+                41.55808235033058,
+                -8.567671003927675
+              ],
+              [
+                41.55793979873748,
+                -8.567644202124075
+              ],
+              [
+                41.557771528915694,
+                -8.567610298271374
+              ],
+              [
+                41.557577540865225,
+                -8.56756929236957
+              ],
+              [
+                41.55735783458607,
+                -8.56752118441866
+              ],
+              [
+                41.55711241007823,
+                -8.567465974418644
+              ],
+              [
+                41.55684126734171,
+                -8.567403662369525
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.55848550579157,
+    -8.567520806951856
+  ],
+  "centroDeMassa": [
+    41.557709937761445,
+    -8.567412725791367
+  ]
+}

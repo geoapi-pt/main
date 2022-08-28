@@ -1,1 +1,481 @@
-{"CP4":"4575","CP3":"131","Distrito":"Porto","Concelho":"Penafiel","CP":"4575-131","Artéria":"Rua do Cantinho de Cimo de Vila","Localidade":"Cabeça Santa","Local":"Cimo de Vila","Troço":"","Porta":"","Cliente":"","Designação Postal":"CABEÇA SANTA","locais":[{"id":"pt.ine.add.PTCONT.3618952","rua":"TV CIMO DE VILA","casa":"44","coordenadas":[41.130662525305624,-8.285795948770891]},{"id":"pt.ine.add.PTCONT.3651313","rua":"TV CIMO DE VILA","casa":"125","coordenadas":[41.13201861888313,-8.28164270421892]},{"id":"pt.ine.add.PTCONT.3716413","rua":"TV CIMO DE VILA","casa":"167","coordenadas":[41.131066853251184,-8.286451894960448]},{"id":"pt.ine.add.PTCONT.3723117","rua":"R CIMO","casa":"364","coordenadas":[41.13275964812683,-8.286479655727208]},{"id":"pt.ine.add.PTCONT.3729791","rua":"CC CIMO DE VILA","casa":"47","coordenadas":[41.131993686994356,-8.286918520352067]},{"id":"pt.ine.add.PTCONT.3732738","rua":"CIMO DE VILA","casa":"","coordenadas":[41.1315347963921,-8.286667352561848]},{"id":"pt.ine.add.PTCONT.3782653","rua":"CC CIMO DE VILA","casa":"15","coordenadas":[41.1317237616958,-8.286763068129627]},{"id":"pt.ine.add.PTCONT.3789921","rua":"TV CIMO DE VILA","casa":"10","coordenadas":[41.13059123059901,-8.285236052739679]},{"id":"pt.ine.add.PTCONT.3796671","rua":"R CIMO","casa":"118","coordenadas":[41.130735159400835,-8.285343567917286]},{"id":"pt.ine.add.PTCONT.3851011","rua":"R CIMO DE VILA","casa":"103","coordenadas":[41.13048126594559,-8.2866768052562]},{"id":"pt.ine.add.PTCONT.3858333","rua":"R CIMO DE VILA","casa":"94","coordenadas":[41.13035544234516,-8.286497875037114]},{"id":"pt.ine.add.PTCONT.3872922","rua":"TV CANTINHO","casa":"20","coordenadas":[41.129859421940424,-8.28708026238873]},{"id":"pt.ine.add.PTCONT.3906233","rua":"R CIMO","casa":"","coordenadas":[41.1312654882622,-8.28604744171796]},{"id":"pt.ine.add.PTCONT.3906234","rua":"R CIMO DE VILA","casa":"","coordenadas":[41.131292153333895,-8.286309508052701]},{"id":"pt.ine.add.PTCONT.3910921","rua":"","casa":"","coordenadas":[41.13100426583456,-8.286118290530817]},{"id":"pt.ine.add.PTCONT.3975632","rua":"TV NOVA DE CIMO DE VILA","casa":"168","coordenadas":[41.13102306396329,-8.285522872065249]},{"id":"pt.ine.add.PTCONT.4189945","rua":"TV NOVA DE CIMO DE VILA","casa":"","coordenadas":[41.131829342162284,-8.281785189985339]},{"id":"pt.ine.add.PTCONT.4196527","rua":"TV CIMO DE VILA","casa":"","coordenadas":[41.13068868437169,-8.286439105262401]},{"id":"pt.ine.add.PTCONT.4196528","rua":"TV CIMO DE VILA","casa":"10","coordenadas":[41.13066321860913,-8.285271946557543]},{"id":"pt.ine.add.PTCONT.4288873","rua":"CC CIMO DE VILA","casa":"58","coordenadas":[41.13207486961593,-8.286811525062312]},{"id":"pt.ine.add.PTCONT.4348131","rua":"TV CIMO DE VILA","casa":"33","coordenadas":[41.130392614183435,-8.285628595211232]},{"id":"pt.ine.add.PTCONT.4351076","rua":"R CIMO","casa":"194","coordenadas":[41.13125629405369,-8.286190331785935]},{"id":"pt.ine.add.PTCONT.4361129","rua":"CC CIMO DE VILA","casa":"31","coordenadas":[41.131849648448394,-8.286894365159602]}],"ruas":["TV CIMO DE VILA","R CIMO","CC CIMO DE VILA","CIMO DE VILA","R CIMO DE VILA","TV CANTINHO","","TV NOVA DE CIMO DE VILA"],"centroide":[41.1311487456941,-8.28580356883143]}
+{
+  "CP": "4575-131",
+  "CP4": "4575",
+  "CP3": "131",
+  "Distrito": "Porto",
+  "Concelho": "Penafiel",
+  "Localidade": "Cabeça Santa",
+  "Designação Postal": "CABEÇA SANTA",
+  "partes": [
+    {
+      "Artéria": "Rua de Cimo de Vila",
+      "Local": "Cimo de Vila",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Cimo de Vila",
+      "Local": "Cimo de Vila",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Nova de Cimo de Vila",
+      "Local": "Cimo de Vila",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Cantinho de Cimo de Vila",
+      "Local": "Cimo de Vila",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3618952",
+      "rua": "TV CIMO DE VILA",
+      "casa": "44",
+      "coordenadas": [
+        41.130662525305624,
+        -8.285795948770891
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3651313",
+      "rua": "TV CIMO DE VILA",
+      "casa": "125",
+      "coordenadas": [
+        41.13201861888313,
+        -8.28164270421892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3716413",
+      "rua": "TV CIMO DE VILA",
+      "casa": "167",
+      "coordenadas": [
+        41.131066853251184,
+        -8.286451894960448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3723117",
+      "rua": "R CIMO",
+      "casa": "364",
+      "coordenadas": [
+        41.13275964812683,
+        -8.286479655727208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3729791",
+      "rua": "CC CIMO DE VILA",
+      "casa": "47",
+      "coordenadas": [
+        41.131993686994356,
+        -8.286918520352067
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3732738",
+      "rua": "CIMO DE VILA",
+      "casa": "",
+      "coordenadas": [
+        41.1315347963921,
+        -8.286667352561848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3782653",
+      "rua": "CC CIMO DE VILA",
+      "casa": "15",
+      "coordenadas": [
+        41.1317237616958,
+        -8.286763068129627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3789921",
+      "rua": "TV CIMO DE VILA",
+      "casa": "10",
+      "coordenadas": [
+        41.13059123059901,
+        -8.285236052739679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3796671",
+      "rua": "R CIMO",
+      "casa": "118",
+      "coordenadas": [
+        41.130735159400835,
+        -8.285343567917286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3851011",
+      "rua": "R CIMO DE VILA",
+      "casa": "103",
+      "coordenadas": [
+        41.13048126594559,
+        -8.2866768052562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3858333",
+      "rua": "R CIMO DE VILA",
+      "casa": "94",
+      "coordenadas": [
+        41.13035544234516,
+        -8.286497875037114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3872922",
+      "rua": "TV CANTINHO",
+      "casa": "20",
+      "coordenadas": [
+        41.129859421940424,
+        -8.28708026238873
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3906233",
+      "rua": "R CIMO",
+      "casa": "",
+      "coordenadas": [
+        41.1312654882622,
+        -8.28604744171796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3906234",
+      "rua": "R CIMO DE VILA",
+      "casa": "",
+      "coordenadas": [
+        41.131292153333895,
+        -8.286309508052701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3910921",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.13100426583456,
+        -8.286118290530817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3975632",
+      "rua": "TV NOVA DE CIMO DE VILA",
+      "casa": "168",
+      "coordenadas": [
+        41.13102306396329,
+        -8.285522872065249
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4189945",
+      "rua": "TV NOVA DE CIMO DE VILA",
+      "casa": "",
+      "coordenadas": [
+        41.131829342162284,
+        -8.281785189985339
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4196527",
+      "rua": "TV CIMO DE VILA",
+      "casa": "",
+      "coordenadas": [
+        41.13068868437169,
+        -8.286439105262401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4196528",
+      "rua": "TV CIMO DE VILA",
+      "casa": "10",
+      "coordenadas": [
+        41.13066321860913,
+        -8.285271946557543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4288873",
+      "rua": "CC CIMO DE VILA",
+      "casa": "58",
+      "coordenadas": [
+        41.13207486961593,
+        -8.286811525062312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4348131",
+      "rua": "TV CIMO DE VILA",
+      "casa": "33",
+      "coordenadas": [
+        41.130392614183435,
+        -8.285628595211232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4351076",
+      "rua": "R CIMO",
+      "casa": "194",
+      "coordenadas": [
+        41.13125629405369,
+        -8.286190331785935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4361129",
+      "rua": "CC CIMO DE VILA",
+      "casa": "31",
+      "coordenadas": [
+        41.131849648448394,
+        -8.286894365159602
+      ]
+    }
+  ],
+  "ruas": [
+    "TV CIMO DE VILA",
+    "R CIMO",
+    "CC CIMO DE VILA",
+    "CIMO DE VILA",
+    "R CIMO DE VILA",
+    "TV CANTINHO",
+    "TV NOVA DE CIMO DE VILA"
+  ],
+  "centro": [
+    41.13130953503362,
+    -8.284361483303826
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.13105994603326,
+                -8.286989282493106
+              ],
+              [
+                41.130793162901526,
+                -8.287009500247692
+              ],
+              [
+                41.13056805879005,
+                -8.287004508483303
+              ],
+              [
+                41.13038463369883,
+                -8.28697430719994
+              ],
+              [
+                41.13024288762789,
+                -8.28691889639761
+              ],
+              [
+                41.1301428205772,
+                -8.28683827607631
+              ],
+              [
+                41.13008443254678,
+                -8.286732446236035
+              ],
+              [
+                41.13006772353663,
+                -8.286601406876793
+              ],
+              [
+                41.130092693546736,
+                -8.286445157998577
+              ],
+              [
+                41.13015934257712,
+                -8.286263699601387
+              ],
+              [
+                41.13024010935337,
+                -8.286044870297193
+              ],
+              [
+                41.130334993875486,
+                -8.285788670085994
+              ],
+              [
+                41.130443996143484,
+                -8.285495098967788
+              ],
+              [
+                41.130567116157344,
+                -8.285164156942576
+              ],
+              [
+                41.13070435391708,
+                -8.284795844010358
+              ],
+              [
+                41.13085570942269,
+                -8.284390160171135
+              ],
+              [
+                41.131021182674175,
+                -8.283947105424904
+              ],
+              [
+                41.13120077367154,
+                -8.283466679771667
+              ],
+              [
+                41.13136087324298,
+                -8.283044080984984
+              ],
+              [
+                41.131501481388526,
+                -8.282679309064857
+              ],
+              [
+                41.131622598108166,
+                -8.282372364011282
+              ],
+              [
+                41.131724223401896,
+                -8.282123245824264
+              ],
+              [
+                41.131806357269724,
+                -8.281931954503799
+              ],
+              [
+                41.13186899971164,
+                -8.281798490049887
+              ],
+              [
+                41.13191215072766,
+                -8.281722852462531
+              ],
+              [
+                41.131935810317756,
+                -8.281705041741729
+              ],
+              [
+                41.13196809104103,
+                -8.281765034728345
+              ],
+              [
+                41.13200899289748,
+                -8.281902831422375
+              ],
+              [
+                41.132058515887095,
+                -8.282118431823825
+              ],
+              [
+                41.13211666000988,
+                -8.282411835932692
+              ],
+              [
+                41.132183425265836,
+                -8.282783043748974
+              ],
+              [
+                41.13225881165496,
+                -8.283232055272677
+              ],
+              [
+                41.13234281917725,
+                -8.283758870503796
+              ],
+              [
+                41.132435447832705,
+                -8.284363489442331
+              ],
+              [
+                41.132504529763544,
+                -8.284899388273315
+              ],
+              [
+                41.13255006496975,
+                -8.285366566996743
+              ],
+              [
+                41.13257205345133,
+                -8.28576502561262
+              ],
+              [
+                41.132570495208284,
+                -8.28609476412094
+              ],
+              [
+                41.13254539024061,
+                -8.286355782521708
+              ],
+              [
+                41.1324967385483,
+                -8.286548080814923
+              ],
+              [
+                41.13242454013137,
+                -8.286671659000582
+              ],
+              [
+                41.13232879498982,
+                -8.28672651707869
+              ],
+              [
+                41.13221167009949,
+                -8.28677704511636
+              ],
+              [
+                41.132073165460376,
+                -8.286823243113584
+              ],
+              [
+                41.1319132810725,
+                -8.286865111070371
+              ],
+              [
+                41.13173201693586,
+                -8.286902648986716
+              ],
+              [
+                41.131529373050434,
+                -8.28693585686262
+              ],
+              [
+                41.13130534941623,
+                -8.286964734698085
+              ],
+              [
+                41.13105994603326,
+                -8.286989282493106
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.13147555538175,
+    -8.284922487980582
+  ],
+  "centroDeMassa": [
+    41.13130953503362,
+    -8.284361483303826
+  ]
+}

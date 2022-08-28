@@ -1,1 +1,391 @@
-{"CP4":"3800","CP3":"902","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3800-902","Artéria":"Rua Carlos Roeder","Localidade":"São Jacinto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO JACINTO","locais":[{"id":"pt.ine.add.PTCONT.54105","rua":"R CARLOS ROEDER","casa":"","coordenadas":[40.664554635333424,-8.728421589307917]},{"id":"pt.ine.add.PTCONT.54106","rua":"R CARLOS ROEDER","casa":"18","coordenadas":[40.66435982302563,-8.727781266620905]},{"id":"pt.ine.add.PTCONT.70272","rua":"R CARLOS ROEDER","casa":"","coordenadas":[40.664030484464355,-8.727033322863651]},{"id":"pt.ine.add.PTCONT.78490","rua":"R CARLOS ROEDER","casa":"","coordenadas":[40.66465228414033,-8.728694451000385]},{"id":"pt.ine.add.PTCONT.115816","rua":"R TERRA NOVA","casa":"","coordenadas":[40.66399349238731,-8.727222205686195]},{"id":"pt.ine.add.PTCONT.121174","rua":"R CARLOS ROEDER","casa":"","coordenadas":[40.66407380424632,-8.727364826734036]},{"id":"pt.ine.add.PTCONT.136261","rua":"R CARLOS ROEDER","casa":"9","coordenadas":[40.66425310648665,-8.72752015267965]},{"id":"pt.ine.add.PTCONT.168936","rua":"R CARLOS ROEDER","casa":"12","coordenadas":[40.66417315997229,-8.72730658000094]},{"id":"pt.ine.add.PTCONT.176079","rua":"R DA TERRA NOVA","casa":"3 - 5","coordenadas":[40.66399349238731,-8.727222205686195]},{"id":"pt.ine.add.PTCONT.184848","rua":"R TERRA NOVA","casa":"10","coordenadas":[40.66400152338526,-8.7274114879401]},{"id":"pt.ine.add.PTCONT.217353","rua":"R CARLOS ROEDER","casa":"7","coordenadas":[40.664324169719414,-8.727709995485881]},{"id":"pt.ine.add.PTCONT.217354","rua":"R CARLOS ROEDER","casa":"28","coordenadas":[40.66405713351786,-8.727104513441155]},{"id":"pt.ine.add.PTCONT.222732","rua":"R CARLOS ROEDER","casa":"10","coordenadas":[40.66422645769294,-8.727448961730477]},{"id":"pt.ine.add.PTCONT.249826","rua":"R CARLOS ROEDER","casa":"11","coordenadas":[40.66419980885483,-8.727377770837576]},{"id":"pt.ine.add.PTCONT.267312","rua":"R CARLOS ROEDER","casa":"","coordenadas":[40.66449269985384,-8.728208174681317]},{"id":"pt.ine.add.PTCONT.277155","rua":"R CARLOS ROEDER","casa":"8","coordenadas":[40.66427981611873,-8.7275795184897]},{"id":"pt.ine.add.PTCONT.279557","rua":"R TERRA NOVA","casa":"6","coordenadas":[40.663938247181676,-8.727458228981025]}],"ruas":["R CARLOS ROEDER","R TERRA NOVA","R DA TERRA NOVA"],"centroide":[40.664229118224156,-8.72758793894913]}}
+{
+  "CP": "3800-902",
+  "CP4": "3800",
+  "CP3": "902",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "São Jacinto",
+  "Designação Postal": "SÃO JACINTO",
+  "partes": [
+    {
+      "Artéria": "Rua da Terra Nova",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Pregões",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Estaleiros",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Carlos Roeder",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.54105",
+      "rua": "R CARLOS ROEDER",
+      "casa": "",
+      "coordenadas": [
+        40.664554635333424,
+        -8.728421589307917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54106",
+      "rua": "R CARLOS ROEDER",
+      "casa": "18",
+      "coordenadas": [
+        40.66435982302563,
+        -8.727781266620905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.70272",
+      "rua": "R CARLOS ROEDER",
+      "casa": "",
+      "coordenadas": [
+        40.664030484464355,
+        -8.727033322863651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.78490",
+      "rua": "R CARLOS ROEDER",
+      "casa": "",
+      "coordenadas": [
+        40.66465228414033,
+        -8.728694451000385
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.115816",
+      "rua": "R TERRA NOVA",
+      "casa": "",
+      "coordenadas": [
+        40.66399349238731,
+        -8.727222205686195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.121174",
+      "rua": "R CARLOS ROEDER",
+      "casa": "",
+      "coordenadas": [
+        40.66407380424632,
+        -8.727364826734036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.136261",
+      "rua": "R CARLOS ROEDER",
+      "casa": "9",
+      "coordenadas": [
+        40.66425310648665,
+        -8.72752015267965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.168936",
+      "rua": "R CARLOS ROEDER",
+      "casa": "12",
+      "coordenadas": [
+        40.66417315997229,
+        -8.72730658000094
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.176079",
+      "rua": "R DA TERRA NOVA",
+      "casa": "3 - 5",
+      "coordenadas": [
+        40.66399349238731,
+        -8.727222205686195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.184848",
+      "rua": "R TERRA NOVA",
+      "casa": "10",
+      "coordenadas": [
+        40.66400152338526,
+        -8.7274114879401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217353",
+      "rua": "R CARLOS ROEDER",
+      "casa": "7",
+      "coordenadas": [
+        40.664324169719414,
+        -8.727709995485881
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217354",
+      "rua": "R CARLOS ROEDER",
+      "casa": "28",
+      "coordenadas": [
+        40.66405713351786,
+        -8.727104513441155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.222732",
+      "rua": "R CARLOS ROEDER",
+      "casa": "10",
+      "coordenadas": [
+        40.66422645769294,
+        -8.727448961730477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.249826",
+      "rua": "R CARLOS ROEDER",
+      "casa": "11",
+      "coordenadas": [
+        40.66419980885483,
+        -8.727377770837576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.267312",
+      "rua": "R CARLOS ROEDER",
+      "casa": "",
+      "coordenadas": [
+        40.66449269985384,
+        -8.728208174681317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.277155",
+      "rua": "R CARLOS ROEDER",
+      "casa": "8",
+      "coordenadas": [
+        40.66427981611873,
+        -8.7275795184897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.279557",
+      "rua": "R TERRA NOVA",
+      "casa": "6",
+      "coordenadas": [
+        40.663938247181676,
+        -8.727458228981025
+      ]
+    }
+  ],
+  "ruas": [
+    "R CARLOS ROEDER",
+    "R TERRA NOVA",
+    "R DA TERRA NOVA"
+  ],
+  "centro": [
+    40.664295265661,
+    -8.727863886932017
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.664339892970915,
+                -8.728153603866915
+              ],
+              [
+                40.66425063835109,
+                -8.727999076114493
+              ],
+              [
+                40.664173981766275,
+                -8.727857225173043
+              ],
+              [
+                40.664109923216486,
+                -8.72772805104256
+              ],
+              [
+                40.66405846270171,
+                -8.727611553723046
+              ],
+              [
+                40.66401960022197,
+                -8.7275077332145
+              ],
+              [
+                40.66399333577724,
+                -8.727416589516922
+              ],
+              [
+                40.66397966936753,
+                -8.727338122630314
+              ],
+              [
+                40.66397860099285,
+                -8.727272332554673
+              ],
+              [
+                40.66399013065318,
+                -8.727219219290003
+              ],
+              [
+                40.66400244841079,
+                -8.727177014826186
+              ],
+              [
+                40.66401555426566,
+                -8.727145719163222
+              ],
+              [
+                40.6640294482178,
+                -8.727125332301112
+              ],
+              [
+                40.66404413026722,
+                -8.727115854239855
+              ],
+              [
+                40.66405960041391,
+                -8.727117284979455
+              ],
+              [
+                40.66407585865785,
+                -8.727129624519907
+              ],
+              [
+                40.66409290499908,
+                -8.727152872861215
+              ],
+              [
+                40.66411073943757,
+                -8.727187030003376
+              ],
+              [
+                40.66412926118146,
+                -8.727224334481203
+              ],
+              [
+                40.66414847023075,
+                -8.727264786294699
+              ],
+              [
+                40.66416836658543,
+                -8.727308385443859
+              ],
+              [
+                40.66418895024551,
+                -8.72735513192869
+              ],
+              [
+                40.664210221210986,
+                -8.727405025749183
+              ],
+              [
+                40.66423217948186,
+                -8.727458066905346
+              ],
+              [
+                40.66425482505813,
+                -8.727514255397175
+              ],
+              [
+                40.6642781579398,
+                -8.727573591224669
+              ],
+              [
+                40.66430314391617,
+                -8.727639778579658
+              ],
+              [
+                40.66432978298726,
+                -8.72771281746214
+              ],
+              [
+                40.664358075153054,
+                -8.727792707872112
+              ],
+              [
+                40.66438802041355,
+                -8.727879449809576
+              ],
+              [
+                40.66441961876876,
+                -8.727973043274535
+              ],
+              [
+                40.66445287021868,
+                -8.728073488266984
+              ],
+              [
+                40.66448777476331,
+                -8.728180784786927
+              ],
+              [
+                40.66452433240265,
+                -8.728294932834363
+              ],
+              [
+                40.66454516350959,
+                -8.728375496406816
+              ],
+              [
+                40.66455026808414,
+                -8.728422475504287
+              ],
+              [
+                40.664539646126286,
+                -8.728435870126777
+              ],
+              [
+                40.664513297636034,
+                -8.728415680274281
+              ],
+              [
+                40.66447122261339,
+                -8.728361905946807
+              ],
+              [
+                40.664413421058356,
+                -8.728274547144352
+              ],
+              [
+                40.664339892970915,
+                -8.728153603866915
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.66423079975685,
+    -8.72765476989338
+  ],
+  "centroDeMassa": [
+    40.664295265661,
+    -8.727863886932017
+  ]
+}

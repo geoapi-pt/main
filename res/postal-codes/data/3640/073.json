@@ -1,1 +1,499 @@
-{"CP4":"3640","CP3":"073","Distrito":"Viseu","Concelho":"Sernancelhe","CP":"3640-073","Artéria":"Rua Nossa Senhora da Consolação","Localidade":"Ferreirim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FERREIRIM SRN","locais":[{"id":"pt.ine.add.PTCONT.5434944","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"4","coordenadas":[40.94301221380044,-7.498939474038808]},{"id":"pt.ine.add.PTCONT.5465239","rua":"R SORTES","casa":"","coordenadas":[40.93947610831741,-7.501075114195477]},{"id":"pt.ine.add.PTCONT.5474223","rua":"R SORTES","casa":"","coordenadas":[40.93731302688739,-7.4990771038051]},{"id":"pt.ine.add.PTCONT.5476898","rua":"R AMARGOZINHAS","casa":"","coordenadas":[40.94607650441412,-7.499432696880287]},{"id":"pt.ine.add.PTCONT.5489508","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"2","coordenadas":[40.943073871193285,-7.498689502552575]},{"id":"pt.ine.add.PTCONT.5491377","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"","coordenadas":[40.941357135678594,-7.500902807405352]},{"id":"pt.ine.add.PTCONT.5493758","rua":"R AMARGOZINHAS","casa":"","coordenadas":[40.94620465062305,-7.49981150000492]},{"id":"pt.ine.add.PTCONT.5493759","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"14","coordenadas":[40.94200152776833,-7.500184154996206]},{"id":"pt.ine.add.PTCONT.5504524","rua":"R SORTES","casa":"","coordenadas":[40.937534457348654,-7.501687338307633]},{"id":"pt.ine.add.PTCONT.5529885","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"","coordenadas":[40.942106447725784,-7.4996131463842]},{"id":"pt.ine.add.PTCONT.5550471","rua":"LG CALVÁRIO","casa":"","coordenadas":[40.94385795274588,-7.498812629063655]},{"id":"pt.ine.add.PTCONT.5557899","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"7","coordenadas":[40.943942255045094,-7.499405596140005]},{"id":"pt.ine.add.PTCONT.5568031","rua":"QTA TESTAMENTO","casa":"","coordenadas":[40.943876351132154,-7.500522519572027]},{"id":"pt.ine.add.PTCONT.5569816","rua":"LG CALVÁRIO","casa":"","coordenadas":[40.94344767815244,-7.499529077662755]},{"id":"pt.ine.add.PTCONT.5570706","rua":"AMARGOSINHOS DE BAIXO","casa":"","coordenadas":[40.94607650441412,-7.499432696880287]},{"id":"pt.ine.add.PTCONT.5575385","rua":"R SORTES","casa":"","coordenadas":[40.9388097337513,-7.501069591713651]},{"id":"pt.ine.add.PTCONT.5580898","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"8","coordenadas":[40.94266548936481,-7.499750307391945]},{"id":"pt.ine.add.PTCONT.5586488","rua":"R SORTES","casa":"","coordenadas":[40.938098793764,-7.501147615055057]},{"id":"pt.ine.add.PTCONT.5588020","rua":"LG CALVÁRIO","casa":"","coordenadas":[40.942990030979175,-7.499818458676194]},{"id":"pt.ine.add.PTCONT.5597683","rua":"R SORTES","casa":"","coordenadas":[40.93658947287193,-7.501779455865603]},{"id":"pt.ine.add.PTCONT.5608333","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"6","coordenadas":[40.94292321689959,-7.499130330026963]},{"id":"pt.ine.add.PTCONT.5608336","rua":"R SORTES","casa":"","coordenadas":[40.93826217038885,-7.501383547063921]},{"id":"pt.ine.add.PTCONT.5619015","rua":"TV NOSSA SENHORA CONSOLAÇÃO","casa":"","coordenadas":[40.94201540450743,-7.484853234369842]},{"id":"pt.ine.add.PTCONT.5629342","rua":"R NOSSA SENHORA DA CONSOLAÇÃO","casa":"10","coordenadas":[40.94228744448104,-7.49977766936697]},{"id":"pt.ine.add.PTCONT.5636041","rua":"PEDREGAL","casa":"","coordenadas":[40.940769845186104,-7.500540285451613]},{"id":"pt.ine.add.PTCONT.5636770","rua":"R NSA SRA CONSOLACAO O","casa":"O6","coordenadas":[40.94387889950468,-7.4993468244510435]},{"id":"pt.ine.add.PTCONT.5644494","rua":"R NSA SRA DA CONSOLAÇÃO","casa":"12","coordenadas":[40.94209104803238,-7.500088299228199]}],"ruas":["R NSA SRA DA CONSOLAÇÃO","R SORTES","R AMARGOZINHAS","LG CALVÁRIO","QTA TESTAMENTO","AMARGOSINHOS DE BAIXO","TV NOSSA SENHORA CONSOLAÇÃO","R NOSSA SENHORA DA CONSOLAÇÃO","PEDREGAL","R NSA SRA CONSOLACAO O"],"centroide":[40.94187104565175,-7.499450487589311]}
+{
+  "CP": "3640-073",
+  "CP4": "3640",
+  "CP3": "073",
+  "Distrito": "Viseu",
+  "Concelho": "Sernancelhe",
+  "Localidade": "Ferreirim",
+  "Designação Postal": "FERREIRIM SRN",
+  "partes": [
+    {
+      "Artéria": "Rua Nossa Senhora da Consolação",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5434944",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "4",
+      "coordenadas": [
+        40.94301221380044,
+        -7.498939474038808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5465239",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.93947610831741,
+        -7.501075114195477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5474223",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.93731302688739,
+        -7.4990771038051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5476898",
+      "rua": "R AMARGOZINHAS",
+      "casa": "",
+      "coordenadas": [
+        40.94607650441412,
+        -7.499432696880287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5489508",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "2",
+      "coordenadas": [
+        40.943073871193285,
+        -7.498689502552575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5491377",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "",
+      "coordenadas": [
+        40.941357135678594,
+        -7.500902807405352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5493758",
+      "rua": "R AMARGOZINHAS",
+      "casa": "",
+      "coordenadas": [
+        40.94620465062305,
+        -7.49981150000492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5493759",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "14",
+      "coordenadas": [
+        40.94200152776833,
+        -7.500184154996206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5504524",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.937534457348654,
+        -7.501687338307633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5529885",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "",
+      "coordenadas": [
+        40.942106447725784,
+        -7.4996131463842
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5550471",
+      "rua": "LG CALVÁRIO",
+      "casa": "",
+      "coordenadas": [
+        40.94385795274588,
+        -7.498812629063655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5557899",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "7",
+      "coordenadas": [
+        40.943942255045094,
+        -7.499405596140005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5568031",
+      "rua": "QTA TESTAMENTO",
+      "casa": "",
+      "coordenadas": [
+        40.943876351132154,
+        -7.500522519572027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5569816",
+      "rua": "LG CALVÁRIO",
+      "casa": "",
+      "coordenadas": [
+        40.94344767815244,
+        -7.499529077662755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5570706",
+      "rua": "AMARGOSINHOS DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.94607650441412,
+        -7.499432696880287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5575385",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.9388097337513,
+        -7.501069591713651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5580898",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "8",
+      "coordenadas": [
+        40.94266548936481,
+        -7.499750307391945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5586488",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.938098793764,
+        -7.501147615055057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5588020",
+      "rua": "LG CALVÁRIO",
+      "casa": "",
+      "coordenadas": [
+        40.942990030979175,
+        -7.499818458676194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597683",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.93658947287193,
+        -7.501779455865603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5608333",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "6",
+      "coordenadas": [
+        40.94292321689959,
+        -7.499130330026963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5608336",
+      "rua": "R SORTES",
+      "casa": "",
+      "coordenadas": [
+        40.93826217038885,
+        -7.501383547063921
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5619015",
+      "rua": "TV NOSSA SENHORA CONSOLAÇÃO",
+      "casa": "",
+      "coordenadas": [
+        40.94201540450743,
+        -7.484853234369842
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5629342",
+      "rua": "R NOSSA SENHORA DA CONSOLAÇÃO",
+      "casa": "10",
+      "coordenadas": [
+        40.94228744448104,
+        -7.49977766936697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5636041",
+      "rua": "PEDREGAL",
+      "casa": "",
+      "coordenadas": [
+        40.940769845186104,
+        -7.500540285451613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5636770",
+      "rua": "R NSA SRA CONSOLACAO O",
+      "casa": "O6",
+      "coordenadas": [
+        40.94387889950468,
+        -7.4993468244510435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5644494",
+      "rua": "R NSA SRA DA CONSOLAÇÃO",
+      "casa": "12",
+      "coordenadas": [
+        40.94209104803238,
+        -7.500088299228199
+      ]
+    }
+  ],
+  "ruas": [
+    "R NSA SRA DA CONSOLAÇÃO",
+    "R SORTES",
+    "R AMARGOZINHAS",
+    "LG CALVÁRIO",
+    "QTA TESTAMENTO",
+    "AMARGOSINHOS DE BAIXO",
+    "TV NOSSA SENHORA CONSOLAÇÃO",
+    "R NOSSA SENHORA DA CONSOLAÇÃO",
+    "PEDREGAL",
+    "R NSA SRA CONSOLACAO O"
+  ],
+  "centro": [
+    40.941397061747494,
+    -7.493316345117723
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.937121026640085,
+                -7.501727639739245
+              ],
+              [
+                40.93700290358049,
+                -7.5017391544339915
+              ],
+              [
+                40.936910851434845,
+                -7.501707005540949
+              ],
+              [
+                40.93684487020313,
+                -7.501631193060119
+              ],
+              [
+                40.936804959885364,
+                -7.501511716991499
+              ],
+              [
+                40.93679112048154,
+                -7.501348577335089
+              ],
+              [
+                40.93680335199165,
+                -7.501141774090892
+              ],
+              [
+                40.936841654415694,
+                -7.500891307258907
+              ],
+              [
+                40.93690602775369,
+                -7.500597176839133
+              ],
+              [
+                40.936996472005625,
+                -7.50025938283157
+              ],
+              [
+                40.93714908537638,
+                -7.499741565115026
+              ],
+              [
+                40.937363867865955,
+                -7.499043723689503
+              ],
+              [
+                40.93764081947435,
+                -7.498165858554998
+              ],
+              [
+                40.93797994020157,
+                -7.4971079697115135
+              ],
+              [
+                40.93838123004761,
+                -7.495870057159048
+              ],
+              [
+                40.93884468901248,
+                -7.494452120897602
+              ],
+              [
+                40.939370317096156,
+                -7.492854160927175
+              ],
+              [
+                40.93995811429866,
+                -7.491076177247767
+              ],
+              [
+                40.94053789382141,
+                -7.489754164428834
+              ],
+              [
+                40.941109655664405,
+                -7.4888881224703745
+              ],
+              [
+                40.941673399827636,
+                -7.488478051372389
+              ],
+              [
+                40.94222912631112,
+                -7.488523951134877
+              ],
+              [
+                40.94277683511484,
+                -7.48902582175784
+              ],
+              [
+                40.9433165262388,
+                -7.4899836632412775
+              ],
+              [
+                40.94384819968302,
+                -7.491397475585188
+              ],
+              [
+                40.944371855447464,
+                -7.493267258789574
+              ],
+              [
+                40.944793674561815,
+                -7.4949144287741465
+              ],
+              [
+                40.94511365702606,
+                -7.496338985538907
+              ],
+              [
+                40.94533180284021,
+                -7.497540929083856
+              ],
+              [
+                40.945448112004264,
+                -7.498520259408991
+              ],
+              [
+                40.94546258451821,
+                -7.499276976514317
+              ],
+              [
+                40.94537522038205,
+                -7.499811080399828
+              ],
+              [
+                40.94518601959578,
+                -7.500122571065529
+              ],
+              [
+                40.944894982159425,
+                -7.500211448511418
+              ],
+              [
+                40.94454123231224,
+                -7.500307416569314
+              ],
+              [
+                40.94412477005423,
+                -7.500410475239219
+              ],
+              [
+                40.943645595385405,
+                -7.500520624521131
+              ],
+              [
+                40.94310370830575,
+                -7.50063786441505
+              ],
+              [
+                40.94249910881528,
+                -7.500762194920977
+              ],
+              [
+                40.94183179691399,
+                -7.500893616038913
+              ],
+              [
+                40.94110177260187,
+                -7.501032127768855
+              ],
+              [
+                40.94030903587894,
+                -7.501177730110805
+              ],
+              [
+                40.93960062586392,
+                -7.501306571496855
+              ],
+              [
+                40.93897654255682,
+                -7.501418651927005
+              ],
+              [
+                40.938436785957634,
+                -7.501513971401254
+              ],
+              [
+                40.93798135606637,
+                -7.501592529919603
+              ],
+              [
+                40.93761025288302,
+                -7.501654327482051
+              ],
+              [
+                40.9373234764076,
+                -7.501699364088598
+              ],
+              [
+                40.937121026640085,
+                -7.501727639739245
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.940588893895104,
+    -7.497955191987522
+  ],
+  "centroDeMassa": [
+    40.941397061747494,
+    -7.493316345117723
+  ]
+}

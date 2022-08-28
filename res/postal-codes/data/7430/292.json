@@ -1,1 +1,428 @@
-{"CP4":"7430","CP3":"292","Distrito":"Portalegre","Concelho":"Crato","CP":"7430-292","Artéria":"Rua Doutor José Pequito Crespo","Localidade":"Gáfete","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GÁFETE","locais":[{"id":"pt.ine.add.PTCONT.3536385","rua":"R JOSE PEQUITO CRESPO","casa":"22","coordenadas":[39.415320509615384,-7.690122436277132]},{"id":"pt.ine.add.PTCONT.3538999","rua":"R JOSE PEQUITO CRESPO","casa":"2","coordenadas":[39.41507227685389,-7.688800250069939]},{"id":"pt.ine.add.PTCONT.3463304","rua":"R JOSE PEQUITO CRESPO","casa":"24","coordenadas":[39.41535733267132,-7.690331218383701]},{"id":"pt.ine.add.PTCONT.3469932","rua":"R JOSE PEQUITO CRESPO","casa":"","coordenadas":[39.415109279574494,-7.689055477240897]},{"id":"pt.ine.add.PTCONT.3470564","rua":"R JOSE PEQUITO CRESPO","casa":"18","coordenadas":[39.415256488713545,-7.689867378859472]},{"id":"pt.ine.add.PTCONT.3473681","rua":"R JOSE PEQUITO CRESPO","casa":"14","coordenadas":[39.41521052519747,-7.689623819423492]},{"id":"pt.ine.add.PTCONT.3476122","rua":"R JOSE PEQUITO CRESPO","casa":"1","coordenadas":[39.415259406119226,-7.690633748220516]},{"id":"pt.ine.add.PTCONT.3482756","rua":"R JOSE PEQUITO CRESPO","casa":"9","coordenadas":[39.4152778613894,-7.690749750954812]},{"id":"pt.ine.add.PTCONT.3486474","rua":"R JOSE PEQUITO CRESPO","casa":"28","coordenadas":[39.415403383050155,-7.690598002171361]},{"id":"pt.ine.add.PTCONT.3497873","rua":"R JOSE PEQUITO CRESPO","casa":"10","coordenadas":[39.415164649750395,-7.6894034835922165]},{"id":"pt.ine.add.PTCONT.3499065","rua":"R JOSE PEQUITO CRESPO","casa":"4","coordenadas":[39.415081948776844,-7.688974367280674]},{"id":"pt.ine.add.PTCONT.3506663","rua":"R JOSE PEQUITO CRESPO","casa":"8","coordenadas":[39.415127957954184,-7.689229537464541]},{"id":"pt.ine.add.PTCONT.3510277","rua":"R JOSE PEQUITO CRESPO","casa":"","coordenadas":[39.41522284869958,-7.690494636150117]},{"id":"pt.ine.add.PTCONT.3511665","rua":"R JOSE PEQUITO CRESPO","casa":"3","coordenadas":[39.41513105645816,-7.69004235189443]},{"id":"pt.ine.add.PTCONT.3515985","rua":"R JOSE PEQUITO CRESPO","casa":"12","coordenadas":[39.415182973411675,-7.689484650903618]},{"id":"pt.ine.add.PTCONT.3521846","rua":"R JOSE PEQUITO CRESPO","casa":"20","coordenadas":[39.415274900516366,-7.689971769720309]},{"id":"pt.ine.add.PTCONT.3529461","rua":"R JOSE PEQUITO CRESPO","casa":"18","coordenadas":[39.41522889296246,-7.689716598498421]},{"id":"pt.ine.add.PTCONT.3532904","rua":"ESTR MONTE DA PEDRA","casa":"","coordenadas":[39.40521745996668,-7.695643189312363]},{"id":"pt.ine.add.PTCONT.3534275","rua":"R JOSE PEQUITO CRESPO","casa":"26A","coordenadas":[39.41538492762811,-7.690481999270777]},{"id":"pt.ine.add.PTCONT.3534284","rua":"R JOSE PEQUITO CRESPO","casa":"1","coordenadas":[39.41510346093441,-7.689891571732]}],"ruas":["R JOSE PEQUITO CRESPO","ESTR MONTE DA PEDRA"],"centroide":[39.414699193647856,-7.6901697192467795]}
+{
+  "CP": "7430-292",
+  "CP4": "7430",
+  "CP3": "292",
+  "Distrito": "Portalegre",
+  "Concelho": "Crato",
+  "Localidade": "Gáfete",
+  "Designação Postal": "GÁFETE",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor José Pequito Crespo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3536385",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "22",
+      "coordenadas": [
+        39.415320509615384,
+        -7.690122436277132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3538999",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "2",
+      "coordenadas": [
+        39.41507227685389,
+        -7.688800250069939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3463304",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "24",
+      "coordenadas": [
+        39.41535733267132,
+        -7.690331218383701
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3469932",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "",
+      "coordenadas": [
+        39.415109279574494,
+        -7.689055477240897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3470564",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "18",
+      "coordenadas": [
+        39.415256488713545,
+        -7.689867378859472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3473681",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "14",
+      "coordenadas": [
+        39.41521052519747,
+        -7.689623819423492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3476122",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "1",
+      "coordenadas": [
+        39.415259406119226,
+        -7.690633748220516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3482756",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "9",
+      "coordenadas": [
+        39.4152778613894,
+        -7.690749750954812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3486474",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "28",
+      "coordenadas": [
+        39.415403383050155,
+        -7.690598002171361
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3497873",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "10",
+      "coordenadas": [
+        39.415164649750395,
+        -7.6894034835922165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3499065",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "4",
+      "coordenadas": [
+        39.415081948776844,
+        -7.688974367280674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3506663",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "8",
+      "coordenadas": [
+        39.415127957954184,
+        -7.689229537464541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3510277",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "",
+      "coordenadas": [
+        39.41522284869958,
+        -7.690494636150117
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511665",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "3",
+      "coordenadas": [
+        39.41513105645816,
+        -7.69004235189443
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515985",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "12",
+      "coordenadas": [
+        39.415182973411675,
+        -7.689484650903618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3521846",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "20",
+      "coordenadas": [
+        39.415274900516366,
+        -7.689971769720309
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3529461",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "18",
+      "coordenadas": [
+        39.41522889296246,
+        -7.689716598498421
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532904",
+      "rua": "ESTR MONTE DA PEDRA",
+      "casa": "",
+      "coordenadas": [
+        39.40521745996668,
+        -7.695643189312363
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3534275",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "26A",
+      "coordenadas": [
+        39.41538492762811,
+        -7.690481999270777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3534284",
+      "rua": "R JOSE PEQUITO CRESPO",
+      "casa": "1",
+      "coordenadas": [
+        39.41510346093441,
+        -7.689891571732
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE PEQUITO CRESPO",
+    "ESTR MONTE DA PEDRA"
+  ],
+  "centro": [
+    39.41031042150841,
+    -7.692221719691151
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.41087643576696,
+                -7.69289063023624
+              ],
+              [
+                39.40961888558912,
+                -7.693502310030935
+              ],
+              [
+                39.40867251069737,
+                -7.693930608925628
+              ],
+              [
+                39.40803731109172,
+                -7.694175526920322
+              ],
+              [
+                39.40771328677216,
+                -7.6942370640150175
+              ],
+              [
+                39.40770043773868,
+                -7.694115220209714
+              ],
+              [
+                39.40799876399131,
+                -7.6938099955044095
+              ],
+              [
+                39.40860826553002,
+                -7.693321389899105
+              ],
+              [
+                39.40952894235483,
+                -7.692649403393801
+              ],
+              [
+                39.41076079446574,
+                -7.691794035988499
+              ],
+              [
+                39.41184254369968,
+                -7.691066248668346
+              ],
+              [
+                39.412774190056645,
+                -7.690466041433344
+              ],
+              [
+                39.413555733536654,
+                -7.689993414283492
+              ],
+              [
+                39.4141871741397,
+                -7.6896483672187905
+              ],
+              [
+                39.41466851186578,
+                -7.689430900239239
+              ],
+              [
+                39.4149997467149,
+                -7.689341013344837
+              ],
+              [
+                39.415180878687046,
+                -7.689378706535586
+              ],
+              [
+                39.41521190778223,
+                -7.689543979811485
+              ],
+              [
+                39.415240064771965,
+                -7.689694212099672
+              ],
+              [
+                39.41526534965625,
+                -7.689829403400148
+              ],
+              [
+                39.41528776243509,
+                -7.689949553712912
+              ],
+              [
+                39.415307303108484,
+                -7.690054663037965
+              ],
+              [
+                39.41532397167643,
+                -7.690144731375305
+              ],
+              [
+                39.41533776813891,
+                -7.690219758724936
+              ],
+              [
+                39.415348692495954,
+                -7.690279745086853
+              ],
+              [
+                39.41535674474754,
+                -7.690324690461058
+              ],
+              [
+                39.41536407883365,
+                -7.69036583020881
+              ],
+              [
+                39.41537069475429,
+                -7.690403164330107
+              ],
+              [
+                39.41537659250944,
+                -7.69043669282495
+              ],
+              [
+                39.41538177209911,
+                -7.69046641569334
+              ],
+              [
+                39.41538623352331,
+                -7.690492332935276
+              ],
+              [
+                39.415389976782016,
+                -7.6905144445507565
+              ],
+              [
+                39.41539300187525,
+                -7.690532750539783
+              ],
+              [
+                39.415395308803014,
+                -7.690547250902356
+              ],
+              [
+                39.415395366088845,
+                -7.690562309794348
+              ],
+              [
+                39.41539317373277,
+                -7.69057792721576
+              ],
+              [
+                39.415388731734765,
+                -7.6905941031665925
+              ],
+              [
+                39.41538204009484,
+                -7.690610837646846
+              ],
+              [
+                39.415373098813006,
+                -7.690628130656517
+              ],
+              [
+                39.41536190788925,
+                -7.69064598219561
+              ],
+              [
+                39.41534846732357,
+                -7.690664392264122
+              ],
+              [
+                39.41533277711598,
+                -7.690683360862053
+              ],
+              [
+                39.415161854412105,
+                -7.6907764183595795
+              ],
+              [
+                39.41483569921195,
+                -7.690943564756701
+              ],
+              [
+                39.41435431151551,
+                -7.691184800053419
+              ],
+              [
+                39.41371769132279,
+                -7.691500124249731
+              ],
+              [
+                39.4129258386338,
+                -7.691889537345639
+              ],
+              [
+                39.411978753448516,
+                -7.692353039341143
+              ],
+              [
+                39.41087643576696,
+                -7.69289063023624
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.41361273641727,
+    -7.691065938009398
+  ],
+  "centroDeMassa": [
+    39.41031042150841,
+    -7.692221719691151
+  ]
+}

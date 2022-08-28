@@ -1,1 +1,410 @@
-{"CP4":"5050","CP3":"241","Distrito":"Vila Real","Concelho":"Peso da Régua","CP":"5050-241","Artéria":"Largo Dom Manuel Vieira de Matos","Localidade":"Peso da Régua","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PESO DA RÉGUA","locais":[{"id":"pt.ine.add.PTCONT.5298826","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.16532096184052,-7.785701584653369]},{"id":"pt.ine.add.PTCONT.5316606","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.165428473166685,-7.785522285141981]},{"id":"pt.ine.add.PTCONT.5333675","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.164986835284196,-7.785381634454731]},{"id":"pt.ine.add.PTCONT.5340266","rua":"LG DR MANUEL VIEIRA MATOS","casa":"","coordenadas":[41.164724597499045,-7.785013645850792]},{"id":"pt.ine.add.PTCONT.5340267","rua":"LG DR MANUEL VIEIRA MATOS","casa":"","coordenadas":[41.164724597499045,-7.785013645850792]},{"id":"pt.ine.add.PTCONT.5340268","rua":"LG DR MANUEL VIEIRA MATOS","casa":"","coordenadas":[41.164724597499045,-7.785013645850792]},{"id":"pt.ine.add.PTCONT.5341498","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.165553668807426,-7.785235652330495]},{"id":"pt.ine.add.PTCONT.5343452","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.16493342133354,-7.785584477871496]},{"id":"pt.ine.add.PTCONT.5346744","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.164931478276614,-7.7849410589269805]},{"id":"pt.ine.add.PTCONT.5347680","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.16568855200998,-7.785175361515115]},{"id":"pt.ine.add.PTCONT.5347681","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.16568855200998,-7.785175361515115]},{"id":"pt.ine.add.PTCONT.5348725","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.165571389301405,-7.785140234839953]},{"id":"pt.ine.add.PTCONT.5360048","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.16563449075896,-7.7851637319929985]},{"id":"pt.ine.add.PTCONT.5384777","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"82","coordenadas":[41.165203907099354,-7.785702202877541]},{"id":"pt.ine.add.PTCONT.5384778","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"82","coordenadas":[41.165203907099354,-7.785702202877541]},{"id":"pt.ine.add.PTCONT.5390189","rua":"LG DR MANUEL VIEIRA DE MATOS","casa":"","coordenadas":[41.16542793368736,-7.785343556307154]},{"id":"pt.ine.add.PTCONT.5403242","rua":"LG DR MANUEL VIEIRA MATOS","casa":"51","coordenadas":[41.16496832315785,-7.785214917241667]},{"id":"pt.ine.add.PTCONT.5423060","rua":"LG DR MANUEL VIEIRA MATOS","casa":"63","coordenadas":[41.164958851005345,-7.785060067649555]}],"ruas":["LG DR MANUEL VIEIRA DE MATOS","LG DR MANUEL VIEIRA MATOS"],"centroide":[41.165218569784145,-7.785295600005795]}
+{
+  "CP": "5050-241",
+  "CP4": "5050",
+  "CP3": "241",
+  "Distrito": "Vila Real",
+  "Concelho": "Peso da Régua",
+  "Localidade": "Peso da Régua",
+  "Designação Postal": "PESO DA RÉGUA",
+  "partes": [
+    {
+      "Artéria": "Largo Dom Manuel Vieira de Matos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5298826",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.16532096184052,
+        -7.785701584653369
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5316606",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.165428473166685,
+        -7.785522285141981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5333675",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.164986835284196,
+        -7.785381634454731
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5340266",
+      "rua": "LG DR MANUEL VIEIRA MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.164724597499045,
+        -7.785013645850792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5340267",
+      "rua": "LG DR MANUEL VIEIRA MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.164724597499045,
+        -7.785013645850792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5340268",
+      "rua": "LG DR MANUEL VIEIRA MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.164724597499045,
+        -7.785013645850792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5341498",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.165553668807426,
+        -7.785235652330495
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5343452",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.16493342133354,
+        -7.785584477871496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5346744",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.164931478276614,
+        -7.7849410589269805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5347680",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.16568855200998,
+        -7.785175361515115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5347681",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.16568855200998,
+        -7.785175361515115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5348725",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.165571389301405,
+        -7.785140234839953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5360048",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.16563449075896,
+        -7.7851637319929985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5384777",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "82",
+      "coordenadas": [
+        41.165203907099354,
+        -7.785702202877541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5384778",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "82",
+      "coordenadas": [
+        41.165203907099354,
+        -7.785702202877541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5390189",
+      "rua": "LG DR MANUEL VIEIRA DE MATOS",
+      "casa": "",
+      "coordenadas": [
+        41.16542793368736,
+        -7.785343556307154
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5403242",
+      "rua": "LG DR MANUEL VIEIRA MATOS",
+      "casa": "51",
+      "coordenadas": [
+        41.16496832315785,
+        -7.785214917241667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5423060",
+      "rua": "LG DR MANUEL VIEIRA MATOS",
+      "casa": "63",
+      "coordenadas": [
+        41.164958851005345,
+        -7.785060067649555
+      ]
+    }
+  ],
+  "ruas": [
+    "LG DR MANUEL VIEIRA DE MATOS",
+    "LG DR MANUEL VIEIRA MATOS"
+  ],
+  "centro": [
+    41.165206574754514,
+    -7.785321630902261
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.164842060905954,
+                -7.7853347388624385
+              ],
+              [
+                41.164815957926635,
+                -7.785263384859849
+              ],
+              [
+                41.16479635033188,
+                -7.785199815936901
+              ],
+              [
+                41.1647832381217,
+                -7.78514403209359
+              ],
+              [
+                41.164776621296085,
+                -7.785096033329919
+              ],
+              [
+                41.16477649985502,
+                -7.785055819645887
+              ],
+              [
+                41.16478287379853,
+                -7.785023391041495
+              ],
+              [
+                41.164795743126604,
+                -7.784998747516741
+              ],
+              [
+                41.16481510783923,
+                -7.784981889071625
+              ],
+              [
+                41.16484096793643,
+                -7.784972815706148
+              ],
+              [
+                41.16487542479856,
+                -7.784968537489296
+              ],
+              [
+                41.164918478425626,
+                -7.784969054421067
+              ],
+              [
+                41.16497012881763,
+                -7.784974366501463
+              ],
+              [
+                41.16503037597455,
+                -7.784984473730484
+              ],
+              [
+                41.16509921989642,
+                -7.784999376108129
+              ],
+              [
+                41.16517666058323,
+                -7.785019073634397
+              ],
+              [
+                41.165262698034965,
+                -7.78504356630929
+              ],
+              [
+                41.16535733225163,
+                -7.785072854132807
+              ],
+              [
+                41.16543439359482,
+                -7.785106703214918
+              ],
+              [
+                41.16549388206453,
+                -7.785145113555626
+              ],
+              [
+                41.16553579766076,
+                -7.78518808515493
+              ],
+              [
+                41.1655601403835,
+                -7.78523561801283
+              ],
+              [
+                41.16556691023276,
+                -7.785287712129325
+              ],
+              [
+                41.165556107208545,
+                -7.785344367504415
+              ],
+              [
+                41.165527731310846,
+                -7.7854055841381005
+              ],
+              [
+                41.16548178253966,
+                -7.785471362030384
+              ],
+              [
+                41.16543974838454,
+                -7.785528927345883
+              ],
+              [
+                41.1654016288455,
+                -7.7855782800846
+              ],
+              [
+                41.16536742392252,
+                -7.785619420246533
+              ],
+              [
+                41.165337133615594,
+                -7.785652347831684
+              ],
+              [
+                41.16531075792475,
+                -7.785677062840053
+              ],
+              [
+                41.16528829684997,
+                -7.785693565271641
+              ],
+              [
+                41.16526975039126,
+                -7.785701855126445
+              ],
+              [
+                41.165255118548615,
+                -7.785701932404466
+              ],
+              [
+                41.16523808934621,
+                -7.785700160569516
+              ],
+              [
+                41.16521866278404,
+                -7.7856965396215925
+              ],
+              [
+                41.165196838862116,
+                -7.785691069560698
+              ],
+              [
+                41.16517261758043,
+                -7.785683750386831
+              ],
+              [
+                41.16514599893898,
+                -7.7856745820999915
+              ],
+              [
+                41.165116982937775,
+                -7.78566356470018
+              ],
+              [
+                41.16508556957681,
+                -7.785650698187397
+              ],
+              [
+                41.16505175885608,
+                -7.78563598256164
+              ],
+              [
+                41.165018911603035,
+                -7.785614187138781
+              ],
+              [
+                41.16498702781766,
+                -7.785585311918818
+              ],
+              [
+                41.16495610749996,
+                -7.78554935690175
+              ],
+              [
+                41.16492615064995,
+                -7.785506322087578
+              ],
+              [
+                41.1648971572676,
+                -7.785456207476302
+              ],
+              [
+                41.164869127352944,
+                -7.785399013067923
+              ],
+              [
+                41.164842060905954,
+                -7.7853347388624385
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.165133819676505,
+    -7.785353055282549
+  ],
+  "centroDeMassa": [
+    41.165206574754514,
+    -7.785321630902261
+  ]
+}

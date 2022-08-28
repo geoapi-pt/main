@@ -1,1 +1,554 @@
-{"CP4":"2615","CP3":"288","Distrito":"Lisboa","Concelho":"Vila Franca de Xira","CP":"2615-288","Artéria":"Rua Poeta António Aleixo","Localidade":"Alverca do Ribatejo","Local":"Bom Sucesso","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALVERCA DO RIBATEJO","locais":[{"id":"pt.ine.add.PTCONT.2367263","rua":"R POETA ANTÓNIO ALEIXO","casa":"","coordenadas":[38.90191734429167,-9.045650688022572]},{"id":"pt.ine.add.PTCONT.2462136","rua":"R POETA ANTÓNIO ALEIXO","casa":"CASA 3","coordenadas":[38.901510956960074,-9.04463106165884]},{"id":"pt.ine.add.PTCONT.2482585","rua":"R POETA ANTÓNIO ALEIXO","casa":"CASA 2","coordenadas":[38.9014031457768,-9.044595100531938]},{"id":"pt.ine.add.PTCONT.2582673","rua":"R POETA ANTÓNIO ALEIXO","casa":"6","coordenadas":[38.901282817598734,-9.04500855242011]},{"id":"pt.ine.add.PTCONT.2585700","rua":"R POETA ANTÓNIO ALEIXO","casa":"6","coordenadas":[38.901282817598734,-9.04500855242011]},{"id":"pt.ine.add.PTCONT.2591040","rua":"R POETA ANTÓNIO ALEIXO","casa":"1A","coordenadas":[38.901589587644175,-9.044943311223134]},{"id":"pt.ine.add.PTCONT.2598262","rua":"R POETA ANTÓNIO ALEIXO","casa":"16","coordenadas":[38.90160291848645,-9.045542914999332]},{"id":"pt.ine.add.PTCONT.2598263","rua":"R POETA ANTÓNIO ALEIXO","casa":"16","coordenadas":[38.90160291848645,-9.045542914999332]},{"id":"pt.ine.add.PTCONT.2624346","rua":"R POETA ANTÓNIO ALEIXO","casa":"5","coordenadas":[38.90152573007179,-9.04504624237497]},{"id":"pt.ine.add.PTCONT.2742599","rua":"R POETA ANTÓNIO ALEIXO","casa":"14","coordenadas":[38.901576258521544,-9.045496463534294]},{"id":"pt.ine.add.PTCONT.2742600","rua":"R POETA ANTÓNIO ALEIXO","casa":"14","coordenadas":[38.901576258521544,-9.045496463534294]},{"id":"pt.ine.add.PTCONT.2948959","rua":"R POETA ANTÓNIO ALEIXO","casa":"18","coordenadas":[38.90167434196842,-9.045624522199201]},{"id":"pt.ine.add.PTCONT.2949142","rua":"R POETA ANTÓNIO ALEIXO","casa":"CASA 1","coordenadas":[38.90145799619265,-9.044492053994874]},{"id":"pt.ine.add.PTCONT.2951252","rua":"R POETA ANTÓNIO ALEIXO","casa":"18","coordenadas":[38.90167434196842,-9.045624522199201]},{"id":"pt.ine.add.PTCONT.3079219","rua":"R POETA ANTÓNIO ALEIXO","casa":"12","coordenadas":[38.90154086198766,-9.045415317634939]},{"id":"pt.ine.add.PTCONT.3080838","rua":"R POETA ANTÓNIO ALEIXO","casa":"12","coordenadas":[38.90154086198766,-9.045415317634939]},{"id":"pt.ine.add.PTCONT.3105460","rua":"R POETA ANTÓNIO ALEIXO","casa":"3","coordenadas":[38.90153716728194,-9.044735144772034]},{"id":"pt.ine.add.PTCONT.3105461","rua":"R POETA ANTÓNIO ALEIXO","casa":"3","coordenadas":[38.90153716728194,-9.044735144772034]},{"id":"pt.ine.add.PTCONT.3125281","rua":"R POETA ANTÓNIO ALEIXO","casa":"1","coordenadas":[38.90159282769587,-9.04452836045522]},{"id":"pt.ine.add.PTCONT.3181471","rua":"R POETA ANTÓNIO ALEIXO","casa":"","coordenadas":[38.90137378543978,-9.044894440805576]},{"id":"pt.ine.add.PTCONT.3181472","rua":"R POETA ANTÓNIO ALEIXO","casa":"","coordenadas":[38.90137378543978,-9.044894440805576]},{"id":"pt.ine.add.PTCONT.3181473","rua":"R POETA ANTÓNIO ALEIXO","casa":"","coordenadas":[38.90137378543978,-9.044894440805576]},{"id":"pt.ine.add.PTCONT.3182712","rua":"R POETA ANTÓNIO ALEIXO","casa":"","coordenadas":[38.90137378543978,-9.044894440805576]},{"id":"pt.ine.add.PTCONT.3338528","rua":"R POETA ANTÓNIO ALEIXO","casa":"1","coordenadas":[38.90163552161521,-9.044828623083529]},{"id":"pt.ine.add.PTCONT.3338529","rua":"R POETA ANTÓNIO ALEIXO","casa":"7","coordenadas":[38.901470879171384,-9.045149288572837]},{"id":"pt.ine.add.PTCONT.3356370","rua":"R POETA ANTÓNIO ALEIXO","casa":"29","coordenadas":[38.901942472376646,-9.045893089652356]},{"id":"pt.ine.add.PTCONT.3364368","rua":"R POETA ANTÓNIO ALEIXO","casa":"20","coordenadas":[38.90185429697677,-9.04564988094959]}],"ruas":["R POETA ANTÓNIO ALEIXO"],"centroide":[38.901537320586336,-9.04511466976586]}
+{
+  "CP": "2615-288",
+  "CP4": "2615",
+  "CP3": "288",
+  "Distrito": "Lisboa",
+  "Concelho": "Vila Franca de Xira",
+  "Localidade": "Alverca do Ribatejo",
+  "Designação Postal": "ALVERCA DO RIBATEJO",
+  "partes": [
+    {
+      "Artéria": "Rua Poeta António Aleixo",
+      "Local": "Bom Sucesso",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2367263",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.90191734429167,
+        -9.045650688022572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2462136",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "CASA 3",
+      "coordenadas": [
+        38.901510956960074,
+        -9.04463106165884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2482585",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "CASA 2",
+      "coordenadas": [
+        38.9014031457768,
+        -9.044595100531938
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2582673",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "6",
+      "coordenadas": [
+        38.901282817598734,
+        -9.04500855242011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2585700",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "6",
+      "coordenadas": [
+        38.901282817598734,
+        -9.04500855242011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2591040",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "1A",
+      "coordenadas": [
+        38.901589587644175,
+        -9.044943311223134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2598262",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "16",
+      "coordenadas": [
+        38.90160291848645,
+        -9.045542914999332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2598263",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "16",
+      "coordenadas": [
+        38.90160291848645,
+        -9.045542914999332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2624346",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "5",
+      "coordenadas": [
+        38.90152573007179,
+        -9.04504624237497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2742599",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "14",
+      "coordenadas": [
+        38.901576258521544,
+        -9.045496463534294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2742600",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "14",
+      "coordenadas": [
+        38.901576258521544,
+        -9.045496463534294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2948959",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "18",
+      "coordenadas": [
+        38.90167434196842,
+        -9.045624522199201
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2949142",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "CASA 1",
+      "coordenadas": [
+        38.90145799619265,
+        -9.044492053994874
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2951252",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "18",
+      "coordenadas": [
+        38.90167434196842,
+        -9.045624522199201
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3079219",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "12",
+      "coordenadas": [
+        38.90154086198766,
+        -9.045415317634939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3080838",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "12",
+      "coordenadas": [
+        38.90154086198766,
+        -9.045415317634939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3105460",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "3",
+      "coordenadas": [
+        38.90153716728194,
+        -9.044735144772034
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3105461",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "3",
+      "coordenadas": [
+        38.90153716728194,
+        -9.044735144772034
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3125281",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "1",
+      "coordenadas": [
+        38.90159282769587,
+        -9.04452836045522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3181471",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.90137378543978,
+        -9.044894440805576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3181472",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.90137378543978,
+        -9.044894440805576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3181473",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.90137378543978,
+        -9.044894440805576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3182712",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "",
+      "coordenadas": [
+        38.90137378543978,
+        -9.044894440805576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3338528",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "1",
+      "coordenadas": [
+        38.90163552161521,
+        -9.044828623083529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3338529",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "7",
+      "coordenadas": [
+        38.901470879171384,
+        -9.045149288572837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3356370",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "29",
+      "coordenadas": [
+        38.901942472376646,
+        -9.045893089652356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3364368",
+      "rua": "R POETA ANTÓNIO ALEIXO",
+      "casa": "20",
+      "coordenadas": [
+        38.90185429697677,
+        -9.04564988094959
+      ]
+    }
+  ],
+  "ruas": [
+    "R POETA ANTÓNIO ALEIXO"
+  ],
+  "centro": [
+    38.901612644987694,
+    -9.045192571823616
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.90146287434808,
+                -9.045309131370923
+              ],
+              [
+                38.90142286173711,
+                -9.04524233604852
+              ],
+              [
+                38.901389730830296,
+                -9.045177429955665
+              ],
+              [
+                38.901363481627634,
+                -9.045114413092358
+              ],
+              [
+                38.90134411412913,
+                -9.045053285458598
+              ],
+              [
+                38.90133162833477,
+                -9.044994047054386
+              ],
+              [
+                38.901326024244575,
+                -9.044936697879722
+              ],
+              [
+                38.90132730185853,
+                -9.044881237934604
+              ],
+              [
+                38.90133546117663,
+                -9.044827667219035
+              ],
+              [
+                38.901350502198895,
+                -9.044775985733013
+              ],
+              [
+                38.90136452013112,
+                -9.044729154330602
+              ],
+              [
+                38.901377514973305,
+                -9.044687173011804
+              ],
+              [
+                38.90138948672546,
+                -9.044650041776615
+              ],
+              [
+                38.90140043538757,
+                -9.044617760625037
+              ],
+              [
+                38.90141036095966,
+                -9.04459032955707
+              ],
+              [
+                38.90141926344171,
+                -9.044567748572717
+              ],
+              [
+                38.901427142833725,
+                -9.044550017671973
+              ],
+              [
+                38.90143399913572,
+                -9.044537136854839
+              ],
+              [
+                38.90144210514219,
+                -9.044526433428292
+              ],
+              [
+                38.90145146085315,
+                -9.044517907392326
+              ],
+              [
+                38.90146206626861,
+                -9.044511558746947
+              ],
+              [
+                38.90147392138854,
+                -9.044507387492153
+              ],
+              [
+                38.901487026212976,
+                -9.044505393627944
+              ],
+              [
+                38.90150138074189,
+                -9.044505577154318
+              ],
+              [
+                38.90151698497531,
+                -9.044507938071275
+              ],
+              [
+                38.90153383891321,
+                -9.044512476378818
+              ],
+              [
+                38.90155365668068,
+                -9.044533983766158
+              ],
+              [
+                38.90157643827773,
+                -9.044572460233296
+              ],
+              [
+                38.90160218370434,
+                -9.04462790578023
+              ],
+              [
+                38.90163089296054,
+                -9.04470032040696
+              ],
+              [
+                38.9016625660463,
+                -9.044789704113489
+              ],
+              [
+                38.90169720296163,
+                -9.044896056899814
+              ],
+              [
+                38.90173480370653,
+                -9.045019378765936
+              ],
+              [
+                38.90177536828101,
+                -9.045159669711856
+              ],
+              [
+                38.90181125491,
+                -9.045286211815
+              ],
+              [
+                38.90184246359351,
+                -9.045399005075371
+              ],
+              [
+                38.901868994331544,
+                -9.045498049492966
+              ],
+              [
+                38.90189084712409,
+                -9.045583345067786
+              ],
+              [
+                38.90190802197116,
+                -9.045654891799833
+              ],
+              [
+                38.90192051887274,
+                -9.045712689689104
+              ],
+              [
+                38.90192833782885,
+                -9.045756738735603
+              ],
+              [
+                38.901931478839465,
+                -9.045787038939325
+              ],
+              [
+                38.90193003768613,
+                -9.045809355251128
+              ],
+              [
+                38.901924014368845,
+                -9.04582368767101
+              ],
+              [
+                38.901913408887594,
+                -9.04583003619897
+              ],
+              [
+                38.9018982212424,
+                -9.045828400835008
+              ],
+              [
+                38.90187845143324,
+                -9.045818781579126
+              ],
+              [
+                38.901854099460124,
+                -9.045801178431324
+              ],
+              [
+                38.901825165323054,
+                -9.045775591391601
+              ],
+              [
+                38.90179164902202,
+                -9.045742020459956
+              ],
+              [
+                38.90176120626671,
+                -9.04571137078227
+              ],
+              [
+                38.90173383705714,
+                -9.045683642358542
+              ],
+              [
+                38.901709541393274,
+                -9.04565883518877
+              ],
+              [
+                38.90168831927514,
+                -9.045636949272955
+              ],
+              [
+                38.90167017070272,
+                -9.045617984611098
+              ],
+              [
+                38.90165509567603,
+                -9.0456019412032
+              ],
+              [
+                38.90164309419506,
+                -9.045588819049259
+              ],
+              [
+                38.90163416625981,
+                -9.045578618149275
+              ],
+              [
+                38.90162135274011,
+                -9.04556134294649
+              ],
+              [
+                38.90160465363593,
+                -9.0455369934409
+              ],
+              [
+                38.90158406894729,
+                -9.045505569632509
+              ],
+              [
+                38.90155959867418,
+                -9.045467071521317
+              ],
+              [
+                38.90153124281662,
+                -9.045421499107322
+              ],
+              [
+                38.901499001374575,
+                -9.045368852390522
+              ],
+              [
+                38.90146287434808,
+                -9.045309131370923
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.901609233048404,
+    -9.04516691028445
+  ],
+  "centroDeMassa": [
+    38.901612644987694,
+    -9.045192571823616
+  ]
+}

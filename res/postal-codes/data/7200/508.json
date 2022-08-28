@@ -1,1 +1,439 @@
-{"CP4":"7200","CP3":"508","Distrito":"Évora","Concelho":"Reguengos de Monsaraz","CP":"7200-508","Artéria":"Rua A","Localidade":"Campinho","Local":"Bairro Novo","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAMPINHO","locais":[{"id":"pt.ine.add.PTCONT.1372501","rua":"R A BR NOVO","casa":"24","coordenadas":[38.36555533432664,-7.467636477449254]},{"id":"pt.ine.add.PTCONT.1375187","rua":"R PADRE MORAIS","casa":"17","coordenadas":[38.36566156058682,-7.468894144854184]},{"id":"pt.ine.add.PTCONT.1378832","rua":"R PADRE MORAIS","casa":"13","coordenadas":[38.36536577406074,-7.467569560390433]},{"id":"pt.ine.add.PTCONT.1379596","rua":"R PADRE MORAIS","casa":"9","coordenadas":[38.36536914986662,-7.468164520572116]},{"id":"pt.ine.add.PTCONT.1380347","rua":"R PADRE MORAIS","casa":"19","coordenadas":[38.36555221540655,-7.4686501388393465]},{"id":"pt.ine.add.PTCONT.1383384","rua":"R PADRE MORAIS","casa":"","coordenadas":[38.365376528712375,-7.468684434152377]},{"id":"pt.ine.add.PTCONT.1386910","rua":"R PADRE MORAIS","casa":"5","coordenadas":[38.365426830728886,-7.468804752991523]},{"id":"pt.ine.add.PTCONT.1387772","rua":"R PADRE MORAIS","casa":"2","coordenadas":[38.36564521689123,-7.469366691519595]},{"id":"pt.ine.add.PTCONT.1393750","rua":"R PADRE MORAIS","casa":"1","coordenadas":[38.3652597545537,-7.469172428008973]},{"id":"pt.ine.add.PTCONT.1403408","rua":"R PADRE MORAIS","casa":"11","coordenadas":[38.365358194530636,-7.467821356763347]},{"id":"pt.ine.add.PTCONT.1409520","rua":"R PADRE MORAIS","casa":"8","coordenadas":[38.36536092034509,-7.468301901492209]},{"id":"pt.ine.add.PTCONT.1419801","rua":"R PADRE MORAIS","casa":"22","coordenadas":[38.36552730572528,-7.468077502175877]},{"id":"pt.ine.add.PTCONT.1421712","rua":"R PADRE MORAIS","casa":"16","coordenadas":[38.36568988318833,-7.468991078228432]},{"id":"pt.ine.add.PTCONT.1424201","rua":"R PADRE MORAIS","casa":"14","coordenadas":[38.365786635125644,-7.4692437773324185]},{"id":"pt.ine.add.PTCONT.1427189","rua":"R PADRE MORAIS","casa":"23","coordenadas":[38.365533753625414,-7.4679287843099065]},{"id":"pt.ine.add.PTCONT.1431385","rua":"R PADRE MORAIS","casa":"15","coordenadas":[38.365730881199745,-7.4691750945377136]},{"id":"pt.ine.add.PTCONT.1437177","rua":"R PADRE MORAIS","casa":"12","coordenadas":[38.365366228671995,-7.467649651178322]},{"id":"pt.ine.add.PTCONT.1438296","rua":"R PADRE MORAIS","casa":"7","coordenadas":[38.365353598641605,-7.468599463960574]},{"id":"pt.ine.add.PTCONT.1440531","rua":"R PADRE MORAIS","casa":"3","coordenadas":[38.36554568631734,-7.469112605019037]},{"id":"pt.ine.add.PTCONT.1442014","rua":"R PADRE MORAIS","casa":"21","coordenadas":[38.36551246975853,-7.468285956174364]},{"id":"pt.ine.add.PTCONT.1444300","rua":"R PADRE MORAIS","casa":"18","coordenadas":[38.36558511410063,-7.468727752370113]},{"id":"pt.ine.add.PTCONT.1448206","rua":"R PADRE MORAIS","casa":"10","coordenadas":[38.36535890862477,-7.46794721370987]},{"id":"pt.ine.add.PTCONT.1452739","rua":"R PADRE MORAIS","casa":"20","coordenadas":[38.36552899802268,-7.46837591772228]},{"id":"pt.ine.add.PTCONT.1460666","rua":"R PADRE MORAIS","casa":"4","coordenadas":[38.365481462890635,-7.468907233008195]}],"ruas":["R A BR NOVO","R PADRE MORAIS"],"centroide":[38.36549786708745,-7.468486139293576]}
+{
+  "CP": "7200-508",
+  "CP4": "7200",
+  "CP3": "508",
+  "Distrito": "Évora",
+  "Concelho": "Reguengos de Monsaraz",
+  "Localidade": "Campinho",
+  "Designação Postal": "CAMPINHO",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Morais",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua A",
+      "Local": "Bairro Novo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1372501",
+      "rua": "R A BR NOVO",
+      "casa": "24",
+      "coordenadas": [
+        38.36555533432664,
+        -7.467636477449254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1375187",
+      "rua": "R PADRE MORAIS",
+      "casa": "17",
+      "coordenadas": [
+        38.36566156058682,
+        -7.468894144854184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1378832",
+      "rua": "R PADRE MORAIS",
+      "casa": "13",
+      "coordenadas": [
+        38.36536577406074,
+        -7.467569560390433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1379596",
+      "rua": "R PADRE MORAIS",
+      "casa": "9",
+      "coordenadas": [
+        38.36536914986662,
+        -7.468164520572116
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1380347",
+      "rua": "R PADRE MORAIS",
+      "casa": "19",
+      "coordenadas": [
+        38.36555221540655,
+        -7.4686501388393465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1383384",
+      "rua": "R PADRE MORAIS",
+      "casa": "",
+      "coordenadas": [
+        38.365376528712375,
+        -7.468684434152377
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1386910",
+      "rua": "R PADRE MORAIS",
+      "casa": "5",
+      "coordenadas": [
+        38.365426830728886,
+        -7.468804752991523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1387772",
+      "rua": "R PADRE MORAIS",
+      "casa": "2",
+      "coordenadas": [
+        38.36564521689123,
+        -7.469366691519595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1393750",
+      "rua": "R PADRE MORAIS",
+      "casa": "1",
+      "coordenadas": [
+        38.3652597545537,
+        -7.469172428008973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1403408",
+      "rua": "R PADRE MORAIS",
+      "casa": "11",
+      "coordenadas": [
+        38.365358194530636,
+        -7.467821356763347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1409520",
+      "rua": "R PADRE MORAIS",
+      "casa": "8",
+      "coordenadas": [
+        38.36536092034509,
+        -7.468301901492209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1419801",
+      "rua": "R PADRE MORAIS",
+      "casa": "22",
+      "coordenadas": [
+        38.36552730572528,
+        -7.468077502175877
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421712",
+      "rua": "R PADRE MORAIS",
+      "casa": "16",
+      "coordenadas": [
+        38.36568988318833,
+        -7.468991078228432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1424201",
+      "rua": "R PADRE MORAIS",
+      "casa": "14",
+      "coordenadas": [
+        38.365786635125644,
+        -7.4692437773324185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1427189",
+      "rua": "R PADRE MORAIS",
+      "casa": "23",
+      "coordenadas": [
+        38.365533753625414,
+        -7.4679287843099065
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1431385",
+      "rua": "R PADRE MORAIS",
+      "casa": "15",
+      "coordenadas": [
+        38.365730881199745,
+        -7.4691750945377136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1437177",
+      "rua": "R PADRE MORAIS",
+      "casa": "12",
+      "coordenadas": [
+        38.365366228671995,
+        -7.467649651178322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1438296",
+      "rua": "R PADRE MORAIS",
+      "casa": "7",
+      "coordenadas": [
+        38.365353598641605,
+        -7.468599463960574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1440531",
+      "rua": "R PADRE MORAIS",
+      "casa": "3",
+      "coordenadas": [
+        38.36554568631734,
+        -7.469112605019037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1442014",
+      "rua": "R PADRE MORAIS",
+      "casa": "21",
+      "coordenadas": [
+        38.36551246975853,
+        -7.468285956174364
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444300",
+      "rua": "R PADRE MORAIS",
+      "casa": "18",
+      "coordenadas": [
+        38.36558511410063,
+        -7.468727752370113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448206",
+      "rua": "R PADRE MORAIS",
+      "casa": "10",
+      "coordenadas": [
+        38.36535890862477,
+        -7.46794721370987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1452739",
+      "rua": "R PADRE MORAIS",
+      "casa": "20",
+      "coordenadas": [
+        38.36552899802268,
+        -7.46837591772228
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1460666",
+      "rua": "R PADRE MORAIS",
+      "casa": "4",
+      "coordenadas": [
+        38.365481462890635,
+        -7.468907233008195
+      ]
+    }
+  ],
+  "ruas": [
+    "R A BR NOVO",
+    "R PADRE MORAIS"
+  ],
+  "centro": [
+    38.36552319483967,
+    -7.468468125955014
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.36547657711856,
+                -7.469281701233697
+              ],
+              [
+                38.36542839432637,
+                -7.46925741829487
+              ],
+              [
+                38.365387890937996,
+                -7.469211125916856
+              ],
+              [
+                38.365355066953455,
+                -7.469142824099656
+              ],
+              [
+                38.36532992237272,
+                -7.469052512843269
+              ],
+              [
+                38.36531245719581,
+                -7.468940192147696
+              ],
+              [
+                38.365302671422725,
+                -7.468805862012937
+              ],
+              [
+                38.36530056505346,
+                -7.468649522438993
+              ],
+              [
+                38.36530613808802,
+                -7.468471173425861
+              ],
+              [
+                38.365319390526416,
+                -7.468270814973545
+              ],
+              [
+                38.365333948289155,
+                -7.4680965469068115
+              ],
+              [
+                38.36534981137625,
+                -7.467948369225661
+              ],
+              [
+                38.3653669797877,
+                -7.467826281930094
+              ],
+              [
+                38.36538545352351,
+                -7.467730285020111
+              ],
+              [
+                38.36540523258367,
+                -7.4676603784957125
+              ],
+              [
+                38.3654263169682,
+                -7.467616562356898
+              ],
+              [
+                38.36544870667707,
+                -7.467598836603667
+              ],
+              [
+                38.365472401710306,
+                -7.46760720123602
+              ],
+              [
+                38.36549674893937,
+                -7.467639634350003
+              ],
+              [
+                38.36552174836427,
+                -7.467696135945616
+              ],
+              [
+                38.365547399985,
+                -7.4677767060228595
+              ],
+              [
+                38.36557370380156,
+                -7.467881344581735
+              ],
+              [
+                38.36560065981394,
+                -7.468010051622239
+              ],
+              [
+                38.36562826802216,
+                -7.468162827144374
+              ],
+              [
+                38.3656565284262,
+                -7.468339671148139
+              ],
+              [
+                38.36568544102609,
+                -7.4685405836335335
+              ],
+              [
+                38.365708529891066,
+                -7.468718302592428
+              ],
+              [
+                38.36572579502115,
+                -7.468872828024825
+              ],
+              [
+                38.36573723641633,
+                -7.469004159930721
+              ],
+              [
+                38.36574285407661,
+                -7.469112298310119
+              ],
+              [
+                38.365742648002,
+                -7.4691972431630145
+              ],
+              [
+                38.36573661819249,
+                -7.469258994489412
+              ],
+              [
+                38.365724764648085,
+                -7.469297552289309
+              ],
+              [
+                38.36570708736878,
+                -7.469312916562705
+              ],
+              [
+                38.36568559690037,
+                -7.4693233249345745
+              ],
+              [
+                38.36566029324285,
+                -7.469328777404916
+              ],
+              [
+                38.365631176396214,
+                -7.469329273973729
+              ],
+              [
+                38.36559824636047,
+                -7.469324814641011
+              ],
+              [
+                38.36556150313561,
+                -7.469315399406767
+              ],
+              [
+                38.365520946721645,
+                -7.469301028270998
+              ],
+              [
+                38.36547657711856,
+                -7.469281701233697
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.3655225429916,
+    -7.468597786940134
+  ],
+  "centroDeMassa": [
+    38.36552319483967,
+    -7.468468125955014
+  ]
+}

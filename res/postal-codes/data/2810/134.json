@@ -1,1 +1,366 @@
-{"CP4":"2810","CP3":"134","Distrito":"Setúbal","Concelho":"Almada","CP":"2810-134","Artéria":"Azinhaga Vale dos Tanoeiros","Localidade":"Almada","Local":"Vale Flores","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALMADA","locais":[{"id":"pt.ine.add.PTCONT.4730653","rua":"AZ VALE TANOEIROS","casa":"51","coordenadas":[38.65082329148281,-9.177086486699979]},{"id":"pt.ine.add.PTCONT.4748703","rua":"AZ VALE DOS TANOEIROS","casa":"55","coordenadas":[38.650554420204415,-9.176933251904522]},{"id":"pt.ine.add.PTCONT.4754774","rua":"AZ VALE DOS TANOEIROS","casa":"1 8","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4754775","rua":"AZ VALE DOS TANOEIROS","casa":"1 8","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4754776","rua":"AZ VALE TANOEIROS","casa":"3","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4754777","rua":"AZ VALE TANOEIROS","casa":"4","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4754778","rua":"AZ VALE TANOEIROS","casa":"6","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4754779","rua":"AZ VALE DOS TANOEIROS","casa":"1 8","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4757247","rua":"AZ VALE TANOEIROS","casa":"5","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4757423","rua":"AZ VALE TANOEIROS","casa":"N 8 TZ","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4758161","rua":"AZ VALE DOS TANOEIROS","casa":"1 5","coordenadas":[38.650276541901725,-9.176779887589683]},{"id":"pt.ine.add.PTCONT.4804358","rua":"AZ VALE DOS TANOEIROS","casa":"","coordenadas":[38.65062893412862,-9.176658642294003]},{"id":"pt.ine.add.PTCONT.4804359","rua":"AZ VALE DOS TANOEIROS","casa":"","coordenadas":[38.65062893412862,-9.176658642294003]},{"id":"pt.ine.add.PTCONT.4804360","rua":"AZ VALE DOS TANOEIROS","casa":"","coordenadas":[38.65062893412862,-9.176658642294003]},{"id":"pt.ine.add.PTCONT.4804361","rua":"AZ VALE DOS TANOEIROS","casa":"","coordenadas":[38.65062893412862,-9.176658642294003]},{"id":"pt.ine.add.PTCONT.4915556","rua":"AZ VALE DOS TANOEIROS QTA DA FOLHA","casa":"","coordenadas":[38.65239535554639,-9.178579692145366]},{"id":"pt.ine.add.PTCONT.4960803","rua":"AZ VALE DOS TANOEIROS","casa":"41","coordenadas":[38.651289081558886,-9.177380427924916]},{"id":"pt.ine.add.PTCONT.4972939","rua":"AZ VALE DOS TANOEIROS","casa":"62-63","coordenadas":[38.650136531438655,-9.176318374371883]},{"id":"pt.ine.add.PTCONT.5028107","rua":"AZ VALE DOS TANOEIROS","casa":"","coordenadas":[38.65067079103258,-9.177015350549345]},{"id":"pt.ine.add.PTCONT.5077183","rua":"AZ DO VALE DOS TANOEIROS","casa":"49-49 A","coordenadas":[38.65087681967394,-9.177144699415633]}],"ruas":["AZ VALE TANOEIROS","AZ VALE DOS TANOEIROS","AZ VALE DOS TANOEIROS QTA DA FOLHA","AZ DO VALE DOS TANOEIROS"],"centroide":[38.65057232025757,-9.17689300742522]}
+{
+  "CP": "2810-134",
+  "CP4": "2810",
+  "CP3": "134",
+  "Distrito": "Setúbal",
+  "Concelho": "Almada",
+  "Localidade": "Almada",
+  "Designação Postal": "ALMADA",
+  "partes": [
+    {
+      "Artéria": "Azinhaga Vale dos Tanoeiros",
+      "Local": "Vale Flores",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4730653",
+      "rua": "AZ VALE TANOEIROS",
+      "casa": "51",
+      "coordenadas": [
+        38.65082329148281,
+        -9.177086486699979
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4748703",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "55",
+      "coordenadas": [
+        38.650554420204415,
+        -9.176933251904522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4754774",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "1 8",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4754775",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "1 8",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4754776",
+      "rua": "AZ VALE TANOEIROS",
+      "casa": "3",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4754777",
+      "rua": "AZ VALE TANOEIROS",
+      "casa": "4",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4754778",
+      "rua": "AZ VALE TANOEIROS",
+      "casa": "6",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4754779",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "1 8",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4757247",
+      "rua": "AZ VALE TANOEIROS",
+      "casa": "5",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4757423",
+      "rua": "AZ VALE TANOEIROS",
+      "casa": "N 8 TZ",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4758161",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "1 5",
+      "coordenadas": [
+        38.650276541901725,
+        -9.176779887589683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4804358",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.65062893412862,
+        -9.176658642294003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4804359",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.65062893412862,
+        -9.176658642294003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4804360",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.65062893412862,
+        -9.176658642294003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4804361",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.65062893412862,
+        -9.176658642294003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4915556",
+      "rua": "AZ VALE DOS TANOEIROS QTA DA FOLHA",
+      "casa": "",
+      "coordenadas": [
+        38.65239535554639,
+        -9.178579692145366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4960803",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "41",
+      "coordenadas": [
+        38.651289081558886,
+        -9.177380427924916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4972939",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "62-63",
+      "coordenadas": [
+        38.650136531438655,
+        -9.176318374371883
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5028107",
+      "rua": "AZ VALE DOS TANOEIROS",
+      "casa": "",
+      "coordenadas": [
+        38.65067079103258,
+        -9.177015350549345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5077183",
+      "rua": "AZ DO VALE DOS TANOEIROS",
+      "casa": "49-49 A",
+      "coordenadas": [
+        38.65087681967394,
+        -9.177144699415633
+      ]
+    }
+  ],
+  "ruas": [
+    "AZ VALE TANOEIROS",
+    "AZ VALE DOS TANOEIROS",
+    "AZ VALE DOS TANOEIROS QTA DA FOLHA",
+    "AZ DO VALE DOS TANOEIROS"
+  ],
+  "centro": [
+    38.65126594349252,
+    -9.177449033258625
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.65021528732413,
+                -9.176577975556896
+              ],
+              [
+                38.65019778601625,
+                -9.17652028640467
+              ],
+              [
+                38.65019016616388,
+                -9.176475125082757
+              ],
+              [
+                38.650192427767024,
+                -9.176442491591155
+              ],
+              [
+                38.65020457082569,
+                -9.176422385929863
+              ],
+              [
+                38.65022659533987,
+                -9.176414808098883
+              ],
+              [
+                38.65025850130957,
+                -9.176419758098215
+              ],
+              [
+                38.65030028873478,
+                -9.176437235927857
+              ],
+              [
+                38.65035195761551,
+                -9.176467241587812
+              ],
+              [
+                38.65041350795176,
+                -9.176509775078074
+              ],
+              [
+                38.65049496483063,
+                -9.176577008285985
+              ],
+              [
+                38.65059632825212,
+                -9.176668941211538
+              ],
+              [
+                38.65071759821623,
+                -9.176785573854737
+              ],
+              [
+                38.65085877472296,
+                -9.17692690621558
+              ],
+              [
+                38.65101985777231,
+                -9.177092938294066
+              ],
+              [
+                38.651200847364294,
+                -9.177283670090198
+              ],
+              [
+                38.651401743498894,
+                -9.177499101603974
+              ],
+              [
+                38.651622546176114,
+                -9.177739232835396
+              ],
+              [
+                38.651782642055494,
+                -9.177921225716705
+              ],
+              [
+                38.651882031137006,
+                -9.178045080247905
+              ],
+              [
+                38.65192071342068,
+                -9.178110796428996
+              ],
+              [
+                38.65189868890649,
+                -9.178118374259975
+              ],
+              [
+                38.65181595759446,
+                -9.178067813740846
+              ],
+              [
+                38.65167251948458,
+                -9.177959114871605
+              ],
+              [
+                38.651468374576844,
+                -9.177792277652255
+              ],
+              [
+                38.65120352287126,
+                -9.177567302082794
+              ],
+              [
+                38.6509695899654,
+                -9.177363237315488
+              ],
+              [
+                38.65076657585924,
+                -9.177180083350338
+              ],
+              [
+                38.6505944805528,
+                -9.17701784018734
+              ],
+              [
+                38.65045330404605,
+                -9.176876507826497
+              ],
+              [
+                38.65034304633903,
+                -9.176756086267808
+              ],
+              [
+                38.65026370743173,
+                -9.176656575511274
+              ],
+              [
+                38.65021528732413,
+                -9.176577975556896
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.65085934075385,
+    -9.177084149100235
+  ],
+  "centroDeMassa": [
+    38.65126594349252,
+    -9.177449033258625
+  ]
+}

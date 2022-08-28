@@ -1,1 +1,336 @@
-{"CP4":"3700","CP3":"417","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"3700-417","Artéria":"Rua Almeida Garrett","Localidade":"Arrifana","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARRIFANA VFR","locais":[{"id":"pt.ine.add.PTCONT.305656","rua":"R ALMEIDA GARRETT","casa":"25","coordenadas":[40.89862710512287,-8.50543795267317]},{"id":"pt.ine.add.PTCONT.307625","rua":"R ALMEIDA GARRETT","casa":"23","coordenadas":[40.89862710512287,-8.50543795267317]},{"id":"pt.ine.add.PTCONT.319542","rua":"R ALMEIDA GARRETT","casa":"4O","coordenadas":[40.898752019669466,-8.505794676782301]},{"id":"pt.ine.add.PTCONT.319543","rua":"R ALMEIDA GARRETT","casa":"4O","coordenadas":[40.898752019669466,-8.505794676782301]},{"id":"pt.ine.add.PTCONT.6238","rua":"R ALMEIDA GARRETT","casa":"8","coordenadas":[40.89885225853369,-8.50542734770647]},{"id":"pt.ine.add.PTCONT.46602","rua":"R ALMEIDA GARRETT","casa":"56","coordenadas":[40.898715234038725,-8.50603181930045]},{"id":"pt.ine.add.PTCONT.46603","rua":"R ALMEIDA GARRETT","casa":"56","coordenadas":[40.898715234038725,-8.50603181930045]},{"id":"pt.ine.add.PTCONT.73343","rua":"R ALMEIDA GARRETT","casa":"3","coordenadas":[40.89861859846944,-8.505283628357388]},{"id":"pt.ine.add.PTCONT.73344","rua":"R ALMEIDA GARRETT","casa":"3","coordenadas":[40.89861859846944,-8.505283628357388]},{"id":"pt.ine.add.PTCONT.102536","rua":"R ALMEIDA GARRETT","casa":"31","coordenadas":[40.89857238768791,-8.505651259484637]},{"id":"pt.ine.add.PTCONT.102537","rua":"R ALMEIDA GARRETT","casa":"31","coordenadas":[40.89857238768791,-8.505651259484637]},{"id":"pt.ine.add.PTCONT.123876","rua":"R ALMEIDA GARRETT","casa":"32","coordenadas":[40.898770335626935,-8.505699839911353]},{"id":"pt.ine.add.PTCONT.123877","rua":"R ALMEIDA GARRETT","casa":"32","coordenadas":[40.898770335626935,-8.505699839911353]},{"id":"pt.ine.add.PTCONT.202617","rua":"R ALMEIDA GARRETT","casa":"55","coordenadas":[40.89852694292311,-8.505781546089063]},{"id":"pt.ine.add.PTCONT.202633","rua":"R ALMEIDA GARRETT","casa":"55","coordenadas":[40.89852694292311,-8.505781546089063]},{"id":"pt.ine.add.PTCONT.273905","rua":"R ALMEIDA GARRETT","casa":"24","coordenadas":[40.89880677569611,-8.50556950226442]},{"id":"pt.ine.add.PTCONT.273906","rua":"R ALMEIDA GARRETT","casa":"24","coordenadas":[40.89880677569611,-8.50556950226442]}],"ruas":["R ALMEIDA GARRETT"],"centroide":[40.89867651758168,-8.505647393447976]}
+{
+  "CP": "3700-417",
+  "CP4": "3700",
+  "CP3": "417",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Arrifana",
+  "Designação Postal": "ARRIFANA VFR",
+  "partes": [
+    {
+      "Artéria": "Rua Almeida Garrett",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.305656",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "25",
+      "coordenadas": [
+        40.89862710512287,
+        -8.50543795267317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.307625",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "23",
+      "coordenadas": [
+        40.89862710512287,
+        -8.50543795267317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.319542",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "4O",
+      "coordenadas": [
+        40.898752019669466,
+        -8.505794676782301
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.319543",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "4O",
+      "coordenadas": [
+        40.898752019669466,
+        -8.505794676782301
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.6238",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "8",
+      "coordenadas": [
+        40.89885225853369,
+        -8.50542734770647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.46602",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "56",
+      "coordenadas": [
+        40.898715234038725,
+        -8.50603181930045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.46603",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "56",
+      "coordenadas": [
+        40.898715234038725,
+        -8.50603181930045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73343",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "3",
+      "coordenadas": [
+        40.89861859846944,
+        -8.505283628357388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73344",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "3",
+      "coordenadas": [
+        40.89861859846944,
+        -8.505283628357388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.102536",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "31",
+      "coordenadas": [
+        40.89857238768791,
+        -8.505651259484637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.102537",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "31",
+      "coordenadas": [
+        40.89857238768791,
+        -8.505651259484637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.123876",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "32",
+      "coordenadas": [
+        40.898770335626935,
+        -8.505699839911353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.123877",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "32",
+      "coordenadas": [
+        40.898770335626935,
+        -8.505699839911353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.202617",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "55",
+      "coordenadas": [
+        40.89852694292311,
+        -8.505781546089063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.202633",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "55",
+      "coordenadas": [
+        40.89852694292311,
+        -8.505781546089063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.273905",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "24",
+      "coordenadas": [
+        40.89880677569611,
+        -8.50556950226442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.273906",
+      "rua": "R ALMEIDA GARRETT",
+      "casa": "24",
+      "coordenadas": [
+        40.89880677569611,
+        -8.50556950226442
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALMEIDA GARRETT"
+  ],
+  "centro": [
+    40.8986896007284,
+    -8.505657723828918
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.89863285667565,
+                -8.505922324770468
+              ],
+              [
+                40.89860932028619,
+                -8.505891040619044
+              ],
+              [
+                40.89859015806333,
+                -8.505855887021992
+              ],
+              [
+                40.898575370007066,
+                -8.505816863979309
+              ],
+              [
+                40.8985649561174,
+                -8.505773971490997
+              ],
+              [
+                40.89855891639432,
+                -8.505727209557056
+              ],
+              [
+                40.89855725083783,
+                -8.505676578177486
+              ],
+              [
+                40.89855995944793,
+                -8.505622077352285
+              ],
+              [
+                40.89856704222463,
+                -8.505563707081455
+              ],
+              [
+                40.898578499167925,
+                -8.505501467364995
+              ],
+              [
+                40.89859217493181,
+                -8.505449253227923
+              ],
+              [
+                40.89860806951628,
+                -8.505407064670237
+              ],
+              [
+                40.89862618292135,
+                -8.505374901691939
+              ],
+              [
+                40.898646515147014,
+                -8.505352764293027
+              ],
+              [
+                40.898669066193264,
+                -8.505340652473503
+              ],
+              [
+                40.89869383606011,
+                -8.505338566233362
+              ],
+              [
+                40.89872082474755,
+                -8.50534650557261
+              ],
+              [
+                40.89875003225558,
+                -8.505364470491248
+              ],
+              [
+                40.898773447817376,
+                -8.50538963466371
+              ],
+              [
+                40.898791071432925,
+                -8.505421998089998
+              ],
+              [
+                40.89880290310224,
+                -8.505461560770113
+              ],
+              [
+                40.898808942825326,
+                -8.505508322704054
+              ],
+              [
+                40.898809190602165,
+                -8.505562283891821
+              ],
+              [
+                40.898803646432775,
+                -8.505623444333416
+              ],
+              [
+                40.89879231031714,
+                -8.505691804028837
+              ],
+              [
+                40.89877518225527,
+                -8.505767362978084
+              ],
+              [
+                40.89875725315245,
+                -8.505829566539747
+              ],
+              [
+                40.89873852300869,
+                -8.505878414713827
+              ],
+              [
+                40.898718991823976,
+                -8.505913907500323
+              ],
+              [
+                40.89869865959831,
+                -8.505936044899235
+              ],
+              [
+                40.8986775263317,
+                -8.505944826910564
+              ],
+              [
+                40.89865559202415,
+                -8.505940253534307
+              ],
+              [
+                40.89863285667565,
+                -8.505922324770468
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.898678258491245,
+    -8.505631085363344
+  ],
+  "centroDeMassa": [
+    40.8986896007284,
+    -8.505657723828918
+  ]
+}

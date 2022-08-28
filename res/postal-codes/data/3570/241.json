@@ -1,1 +1,564 @@
-{"CP4":"3570","CP3":"241","Distrito":"Guarda","Concelho":"Aguiar da Beira","CP":"3570-241","Artéria":"Rua do Barrocal","Localidade":"Aguiar da Beira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AGUIAR DA BEIRA","locais":[{"id":"pt.ine.add.PTCONT.1901184","rua":"TV AUTO CONSTRUÇÃO","casa":"9","coordenadas":[40.813510752126454,-7.547547437126555]},{"id":"pt.ine.add.PTCONT.1905761","rua":"R DO BARROCAL","casa":"5","coordenadas":[40.81359221325557,-7.547629686394969]},{"id":"pt.ine.add.PTCONT.1907287","rua":"TV DE NSA SRA DO LEITE","casa":"2","coordenadas":[40.8138355741391,-7.547674956022543]},{"id":"pt.ine.add.PTCONT.1916034","rua":"TV AUTO CONSTRUÇÃO","casa":"2","coordenadas":[40.813535719700475,-7.547144242697165]},{"id":"pt.ine.add.PTCONT.1927269","rua":"R DE NSA SRA DO LEITE","casa":"4","coordenadas":[40.813788085220175,-7.547189431294379]},{"id":"pt.ine.add.PTCONT.1930583","rua":"R DE NSA SRA DO LEITE","casa":"14","coordenadas":[40.814049635710916,-7.547270096305772]},{"id":"pt.ine.add.PTCONT.1940300","rua":"TV DE NSA SRA DO LEITE","casa":"2","coordenadas":[40.813755135338525,-7.547794185533972]},{"id":"pt.ine.add.PTCONT.1942889","rua":"R DE NSA SRA DO LEITE","casa":"12","coordenadas":[40.814543917702494,-7.547076110156848]},{"id":"pt.ine.add.PTCONT.1943967","rua":"TV AUTO CONSTRUÇÃO","casa":"11","coordenadas":[40.81344669821033,-7.547346513115501]},{"id":"pt.ine.add.PTCONT.1950775","rua":"R DO BARROCAL","casa":"10","coordenadas":[40.814352716448674,-7.546662960448979]},{"id":"pt.ine.add.PTCONT.1953871","rua":"R DO BARROCAL","casa":"16","coordenadas":[40.81456593031898,-7.546092168389097]},{"id":"pt.ine.add.PTCONT.1957722","rua":"R NSA SRA LEITE","casa":"82","coordenadas":[40.81350696027834,-7.546800781989047]},{"id":"pt.ine.add.PTCONT.1963749","rua":"TV AUTO CONSTRUÇÃO","casa":"5","coordenadas":[40.813167921049086,-7.547420077828157]},{"id":"pt.ine.add.PTCONT.1964456","rua":"R DE NSA SRA DO LEITE","casa":"11","coordenadas":[40.8140777321003,-7.5474831905487845]},{"id":"pt.ine.add.PTCONT.1964582","rua":"TV AUTO CONSTRUÇÃO","casa":"1","coordenadas":[40.81335520921213,-7.547062865673588]},{"id":"pt.ine.add.PTCONT.1978660","rua":"R DO BARROCAL","casa":"12","coordenadas":[40.814281584301185,-7.546841371856716]},{"id":"pt.ine.add.PTCONT.1858835","rua":"TV DE NSA SRA DO LEITE","casa":"17","coordenadas":[40.81415847140002,-7.547423219007803]},{"id":"pt.ine.add.PTCONT.1858838","rua":"TV DOS PENEDOS DO BARROCAL","casa":"8","coordenadas":[40.81378429103424,-7.5464427730956105]},{"id":"pt.ine.add.PTCONT.1862881","rua":"R DE NSA SRA DO LEITE","casa":"6","coordenadas":[40.81378970982082,-7.547509427708832]},{"id":"pt.ine.add.PTCONT.1865898","rua":"R DE NSA SRA DO LEITE","casa":"13","coordenadas":[40.813934322457236,-7.5476148266121665]},{"id":"pt.ine.add.PTCONT.1878565","rua":"R DO BARROCAL","casa":"9","coordenadas":[40.81406589892183,-7.546926236618429]},{"id":"pt.ine.add.PTCONT.1886696","rua":"R DE NSA SRA DO LEITE","casa":"8","coordenadas":[40.81430103821638,-7.547125656746099]},{"id":"pt.ine.add.PTCONT.1888405","rua":"TV AUTO CONSTRUÇÃO","casa":"3","coordenadas":[40.813203156662176,-7.547265690093048]},{"id":"pt.ine.add.PTCONT.1889837","rua":"R DE NSA SRA DO LEITE","casa":"4","coordenadas":[40.81387038897932,-7.547437604729237]},{"id":"pt.ine.add.PTCONT.1890827","rua":"TV DOS PENEDOS DO BARROCAL","casa":"6","coordenadas":[40.81388382210365,-7.54653671445486]},{"id":"pt.ine.add.PTCONT.1895712","rua":"TV AUTO CONSTRUÇÃO","casa":"7","coordenadas":[40.81337550482062,-7.547513069721174]},{"id":"pt.ine.add.PTCONT.1898176","rua":"R DE NSA SRA DO LEITE","casa":"16","coordenadas":[40.81396001237698,-7.547353850630572]},{"id":"pt.ine.add.PTCONT.1898177","rua":"R DO BARROCAL","casa":"7","coordenadas":[40.81413733235563,-7.546807084779425]}],"ruas":["TV AUTO CONSTRUÇÃO","R DO BARROCAL","TV DE NSA SRA DO LEITE","R DE NSA SRA DO LEITE","R NSA SRA LEITE","TV DOS PENEDOS DO BARROCAL"],"centroide":[40.81384045932986,-7.547192042399996]}92042399996]}6]}
+{
+  "CP": "3570-241",
+  "CP4": "3570",
+  "CP3": "241",
+  "Distrito": "Guarda",
+  "Concelho": "Aguiar da Beira",
+  "Localidade": "Aguiar da Beira",
+  "Designação Postal": "AGUIAR DA BEIRA",
+  "partes": [
+    {
+      "Artéria": "Travessa Nossa Senhora do Leite",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Auto Construção",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Nossa Senhora do Leite",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Penedos do Barrocal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Barrocal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1901184",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "9",
+      "coordenadas": [
+        40.813510752126454,
+        -7.547547437126555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1905761",
+      "rua": "R DO BARROCAL",
+      "casa": "5",
+      "coordenadas": [
+        40.81359221325557,
+        -7.547629686394969
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1907287",
+      "rua": "TV DE NSA SRA DO LEITE",
+      "casa": "2",
+      "coordenadas": [
+        40.8138355741391,
+        -7.547674956022543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1916034",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "2",
+      "coordenadas": [
+        40.813535719700475,
+        -7.547144242697165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1927269",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "4",
+      "coordenadas": [
+        40.813788085220175,
+        -7.547189431294379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1930583",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "14",
+      "coordenadas": [
+        40.814049635710916,
+        -7.547270096305772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1940300",
+      "rua": "TV DE NSA SRA DO LEITE",
+      "casa": "2",
+      "coordenadas": [
+        40.813755135338525,
+        -7.547794185533972
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1942889",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "12",
+      "coordenadas": [
+        40.814543917702494,
+        -7.547076110156848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1943967",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "11",
+      "coordenadas": [
+        40.81344669821033,
+        -7.547346513115501
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1950775",
+      "rua": "R DO BARROCAL",
+      "casa": "10",
+      "coordenadas": [
+        40.814352716448674,
+        -7.546662960448979
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1953871",
+      "rua": "R DO BARROCAL",
+      "casa": "16",
+      "coordenadas": [
+        40.81456593031898,
+        -7.546092168389097
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1957722",
+      "rua": "R NSA SRA LEITE",
+      "casa": "82",
+      "coordenadas": [
+        40.81350696027834,
+        -7.546800781989047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1963749",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "5",
+      "coordenadas": [
+        40.813167921049086,
+        -7.547420077828157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1964456",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "11",
+      "coordenadas": [
+        40.8140777321003,
+        -7.5474831905487845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1964582",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "1",
+      "coordenadas": [
+        40.81335520921213,
+        -7.547062865673588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1978660",
+      "rua": "R DO BARROCAL",
+      "casa": "12",
+      "coordenadas": [
+        40.814281584301185,
+        -7.546841371856716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1858835",
+      "rua": "TV DE NSA SRA DO LEITE",
+      "casa": "17",
+      "coordenadas": [
+        40.81415847140002,
+        -7.547423219007803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1858838",
+      "rua": "TV DOS PENEDOS DO BARROCAL",
+      "casa": "8",
+      "coordenadas": [
+        40.81378429103424,
+        -7.5464427730956105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1862881",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "6",
+      "coordenadas": [
+        40.81378970982082,
+        -7.547509427708832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1865898",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "13",
+      "coordenadas": [
+        40.813934322457236,
+        -7.5476148266121665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1878565",
+      "rua": "R DO BARROCAL",
+      "casa": "9",
+      "coordenadas": [
+        40.81406589892183,
+        -7.546926236618429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1886696",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "8",
+      "coordenadas": [
+        40.81430103821638,
+        -7.547125656746099
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1888405",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "3",
+      "coordenadas": [
+        40.813203156662176,
+        -7.547265690093048
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1889837",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "4",
+      "coordenadas": [
+        40.81387038897932,
+        -7.547437604729237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1890827",
+      "rua": "TV DOS PENEDOS DO BARROCAL",
+      "casa": "6",
+      "coordenadas": [
+        40.81388382210365,
+        -7.54653671445486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1895712",
+      "rua": "TV AUTO CONSTRUÇÃO",
+      "casa": "7",
+      "coordenadas": [
+        40.81337550482062,
+        -7.547513069721174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1898176",
+      "rua": "R DE NSA SRA DO LEITE",
+      "casa": "16",
+      "coordenadas": [
+        40.81396001237698,
+        -7.547353850630572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1898177",
+      "rua": "R DO BARROCAL",
+      "casa": "7",
+      "coordenadas": [
+        40.81413733235563,
+        -7.546807084779425
+      ]
+    }
+  ],
+  "ruas": [
+    "TV AUTO CONSTRUÇÃO",
+    "R DO BARROCAL",
+    "TV DE NSA SRA DO LEITE",
+    "R DE NSA SRA DO LEITE",
+    "R NSA SRA LEITE",
+    "TV DOS PENEDOS DO BARROCAL"
+  ],
+  "centro": [
+    40.81386692568403,
+    -7.546943176961534
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.81349822908689,
+                -7.5476305134126775
+              ],
+              [
+                40.81342482730072,
+                -7.547583749949451
+              ],
+              [
+                40.81336115129427,
+                -7.547540419610766
+              ],
+              [
+                40.81330720106754,
+                -7.547500522396624
+              ],
+              [
+                40.813262976620535,
+                -7.547464058307025
+              ],
+              [
+                40.813228477953274,
+                -7.547431027341967
+              ],
+              [
+                40.813203705065725,
+                -7.547401429501452
+              ],
+              [
+                40.81318865795791,
+                -7.547375264785478
+              ],
+              [
+                40.81318333662981,
+                -7.547352533194047
+              ],
+              [
+                40.81318774108145,
+                -7.547333234727158
+              ],
+              [
+                40.81319634190813,
+                -7.5473090843795045
+              ],
+              [
+                40.813209139109865,
+                -7.547280082151088
+              ],
+              [
+                40.813226132686644,
+                -7.5472462280419075
+              ],
+              [
+                40.813247322638475,
+                -7.5472075220519645
+              ],
+              [
+                40.81327270896535,
+                -7.547163964181256
+              ],
+              [
+                40.81330229166727,
+                -7.547115554429783
+              ],
+              [
+                40.81333607074424,
+                -7.547062292797547
+              ],
+              [
+                40.81337404619627,
+                -7.5470041792845475
+              ],
+              [
+                40.81341160800985,
+                -7.546947736071712
+              ],
+              [
+                40.81344875618498,
+                -7.546892963159042
+              ],
+              [
+                40.81348549072168,
+                -7.546839860546537
+              ],
+              [
+                40.81352181161993,
+                -7.546788428234197
+              ],
+              [
+                40.81355771887974,
+                -7.546738666222022
+              ],
+              [
+                40.81359321250112,
+                -7.546690574510013
+              ],
+              [
+                40.81362829248405,
+                -7.5466441530981685
+              ],
+              [
+                40.81366295882854,
+                -7.546599401986489
+              ],
+              [
+                40.81370550499379,
+                -7.54655476656523
+              ],
+              [
+                40.813755930979795,
+                -7.5465102468343925
+              ],
+              [
+                40.81381423678658,
+                -7.546465842793975
+              ],
+              [
+                40.813880422414115,
+                -7.546421554443978
+              ],
+              [
+                40.81395448786242,
+                -7.546377381784402
+              ],
+              [
+                40.814036433131484,
+                -7.546333324815246
+              ],
+              [
+                40.81412625822131,
+                -7.546289383536512
+              ],
+              [
+                40.81422396313191,
+                -7.546245557948196
+              ],
+              [
+                40.81430911098154,
+                -7.546222584648542
+              ],
+              [
+                40.814381701770216,
+                -7.546220463637549
+              ],
+              [
+                40.81444173549794,
+                -7.546239194915215
+              ],
+              [
+                40.81448921216471,
+                -7.546278778481544
+              ],
+              [
+                40.81452413177052,
+                -7.546339214336532
+              ],
+              [
+                40.81454649431537,
+                -7.546420502480179
+              ],
+              [
+                40.81455629979927,
+                -7.546522642912487
+              ],
+              [
+                40.8145535482222,
+                -7.546645635633457
+              ],
+              [
+                40.814538815867834,
+                -7.546764474192073
+              ],
+              [
+                40.814512102736174,
+                -7.546879158588334
+              ],
+              [
+                40.8144734088272,
+                -7.546989688822242
+              ],
+              [
+                40.81442273414092,
+                -7.547096064893797
+              ],
+              [
+                40.81436007867734,
+                -7.547198286802997
+              ],
+              [
+                40.81428544243644,
+                -7.547296354549845
+              ],
+              [
+                40.81419882541825,
+                -7.54739026813434
+              ],
+              [
+                40.81410022762277,
+                -7.54748002755648
+              ],
+              [
+                40.814004779328435,
+                -7.547552721617949
+              ],
+              [
+                40.813912480535265,
+                -7.5476083503187485
+              ],
+              [
+                40.81382333124326,
+                -7.547646913658876
+              ],
+              [
+                40.81373733145242,
+                -7.547668411638332
+              ],
+              [
+                40.81365448116274,
+                -7.547672844257118
+              ],
+              [
+                40.81357478037424,
+                -7.547660211515233
+              ],
+              [
+                40.81349822908689,
+                -7.5476305134126775
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.81378961605484,
+    -7.546984541012255
+  ],
+  "centroDeMassa": [
+    40.81386692568403,
+    -7.546943176961534
+  ]
+}

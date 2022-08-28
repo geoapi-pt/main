@@ -1,1 +1,513 @@
-{"CP4":"4480","CP3":"120","Distrito":"Porto","Concelho":"Vila do Conde","CP":"4480-120","Artéria":"Rua do Pindelo","Localidade":"Azurara","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AZURARA","locais":[{"id":"pt.ine.add.PTCONT.3639838","rua":"R PINDELO","casa":"169","coordenadas":[41.34128974262796,-8.732428061021952]},{"id":"pt.ine.add.PTCONT.3645933","rua":"R PINDELO","casa":"165","coordenadas":[41.341128797298296,-8.732211532952062]},{"id":"pt.ine.add.PTCONT.3726357","rua":"R DAS FIGUEIRAS","casa":"","coordenadas":[41.34527958323019,-8.732225682381532]},{"id":"pt.ine.add.PTCONT.3748183","rua":"R PINDELO","casa":"50","coordenadas":[41.34159424732305,-8.7327414864049]},{"id":"pt.ine.add.PTCONT.3839103","rua":"R PINDELO","casa":"63","coordenadas":[41.34111942053669,-8.732283131164985]},{"id":"pt.ine.add.PTCONT.3931737","rua":"R PINDELO","casa":"1 A","coordenadas":[41.3418710551911,-8.733186082969995]},{"id":"pt.ine.add.PTCONT.4046751","rua":"R PINDELO","casa":"460","coordenadas":[41.34128781348117,-8.732798412395733]},{"id":"pt.ine.add.PTCONT.4236486","rua":"R PINDELO","casa":"167","coordenadas":[41.341190827371086,-8.732403259397012]},{"id":"pt.ine.add.PTCONT.4280264","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4280265","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4280266","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4280267","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4280268","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4280269","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4280270","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4282351","rua":"R PINDELO","casa":"151","coordenadas":[41.341091974311986,-8.73236651106579]},{"id":"pt.ine.add.PTCONT.4282495","rua":"R PINDELO","casa":"3","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4282496","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4282497","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4282498","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4282499","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4285319","rua":"R PINDELO","casa":"","coordenadas":[41.34089660959882,-8.733571399171993]},{"id":"pt.ine.add.PTCONT.4341146","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341348","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341349","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341350","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341351","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341352","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341353","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341354","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341355","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4341356","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]},{"id":"pt.ine.add.PTCONT.4344918","rua":"R PINDELO","casa":"","coordenadas":[41.34111889362893,-8.734111072111796]}],"ruas":["R PINDELO","R DAS FIGUEIRAS"],"centroide":[41.34120932257642,-8.733443220940867]}
+{
+  "CP": "4480-120",
+  "CP4": "4480",
+  "CP3": "120",
+  "Distrito": "Porto",
+  "Concelho": "Vila do Conde",
+  "Localidade": "Azurara",
+  "Designação Postal": "AZURARA",
+  "partes": [
+    {
+      "Artéria": "Rua do Pindelo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3639838",
+      "rua": "R PINDELO",
+      "casa": "169",
+      "coordenadas": [
+        41.34128974262796,
+        -8.732428061021952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3645933",
+      "rua": "R PINDELO",
+      "casa": "165",
+      "coordenadas": [
+        41.341128797298296,
+        -8.732211532952062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3726357",
+      "rua": "R DAS FIGUEIRAS",
+      "casa": "",
+      "coordenadas": [
+        41.34527958323019,
+        -8.732225682381532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3748183",
+      "rua": "R PINDELO",
+      "casa": "50",
+      "coordenadas": [
+        41.34159424732305,
+        -8.7327414864049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3839103",
+      "rua": "R PINDELO",
+      "casa": "63",
+      "coordenadas": [
+        41.34111942053669,
+        -8.732283131164985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3931737",
+      "rua": "R PINDELO",
+      "casa": "1 A",
+      "coordenadas": [
+        41.3418710551911,
+        -8.733186082969995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4046751",
+      "rua": "R PINDELO",
+      "casa": "460",
+      "coordenadas": [
+        41.34128781348117,
+        -8.732798412395733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4236486",
+      "rua": "R PINDELO",
+      "casa": "167",
+      "coordenadas": [
+        41.341190827371086,
+        -8.732403259397012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280264",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280265",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280266",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280267",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280268",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280269",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280270",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4282351",
+      "rua": "R PINDELO",
+      "casa": "151",
+      "coordenadas": [
+        41.341091974311986,
+        -8.73236651106579
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4282495",
+      "rua": "R PINDELO",
+      "casa": "3",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4282496",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4282497",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4282498",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4282499",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4285319",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34089660959882,
+        -8.733571399171993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341146",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341348",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341349",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341350",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341351",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341352",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341353",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341354",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341355",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341356",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4344918",
+      "rua": "R PINDELO",
+      "casa": "",
+      "coordenadas": [
+        41.34111889362893,
+        -8.734111072111796
+      ]
+    }
+  ],
+  "ruas": [
+    "R PINDELO",
+    "R DAS FIGUEIRAS"
+  ],
+  "centro": [
+    41.343088096414505,
+    -8.73316130253193
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.34102164436575,
+                -8.73387496520063
+              ],
+              [
+                41.34099385886199,
+                -8.733807506083156
+              ],
+              [
+                41.340972599119844,
+                -8.733729652978706
+              ],
+              [
+                41.34095786513931,
+                -8.73364140588728
+              ],
+              [
+                41.34094965692039,
+                -8.733542764808881
+              ],
+              [
+                41.34094797446308,
+                -8.733433729743505
+              ],
+              [
+                41.34095281776738,
+                -8.733314300691156
+              ],
+              [
+                41.3409641868333,
+                -8.733184477651829
+              ],
+              [
+                41.340982081660826,
+                -8.73304426062553
+              ],
+              [
+                41.34100650224998,
+                -8.732893649612253
+              ],
+              [
+                41.341028445624644,
+                -8.73275944344261
+              ],
+              [
+                41.34104791178482,
+                -8.732641642116599
+              ],
+              [
+                41.341064900730515,
+                -8.732540245634222
+              ],
+              [
+                41.34107941246174,
+                -8.732455253995475
+              ],
+              [
+                41.341091446978474,
+                -8.732386667200362
+              ],
+              [
+                41.34110100428073,
+                -8.732334485248883
+              ],
+              [
+                41.3411080843685,
+                -8.732298708141034
+              ],
+              [
+                41.34111268724178,
+                -8.732279335876818
+              ],
+              [
+                41.3411815707861,
+                -8.732262606230465
+              ],
+              [
+                41.34131473500143,
+                -8.732248519201972
+              ],
+              [
+                41.3415121798878,
+                -8.732237074791344
+              ],
+              [
+                41.34177390544519,
+                -8.73222827299858
+              ],
+              [
+                41.3420999116736,
+                -8.732222113823676
+              ],
+              [
+                41.342490198573046,
+                -8.732218597266634
+              ],
+              [
+                41.3429447661435,
+                -8.732217723327455
+              ],
+              [
+                41.34346361438499,
+                -8.73221949200614
+              ],
+              [
+                41.34385259582127,
+                -8.732250498814523
+              ],
+              [
+                41.34411171045234,
+                -8.732310743752606
+              ],
+              [
+                41.34424095827821,
+                -8.73240022682039
+              ],
+              [
+                41.34424033929887,
+                -8.732518948017873
+              ],
+              [
+                41.34410985351433,
+                -8.732666907345056
+              ],
+              [
+                41.34384950092459,
+                -8.73284410480194
+              ],
+              [
+                41.34345928152964,
+                -8.733050540388522
+              ],
+              [
+                41.342939195329485,
+                -8.733286214104806
+              ],
+              [
+                41.34248064671638,
+                -8.73348399621687
+              ],
+              [
+                41.342083635690315,
+                -8.733643886724712
+              ],
+              [
+                41.34174816225131,
+                -8.733765885628337
+              ],
+              [
+                41.34147422639934,
+                -8.73384999292774
+              ],
+              [
+                41.34126182813443,
+                -8.733896208622923
+              ],
+              [
+                41.341110967456565,
+                -8.733904532713886
+              ],
+              [
+                41.34102164436575,
+                -8.73387496520063
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.341903171613644,
+    -8.732897239536635
+  ],
+  "centroDeMassa": [
+    41.343088096414505,
+    -8.73316130253193
+  ]
+}

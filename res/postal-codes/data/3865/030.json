@@ -1,1 +1,437 @@
-{"CP4":"3865","CP3":"030","Distrito":"Aveiro","Concelho":"Estarreja","CP":"3865-030","Artéria":"Rua Nova Jardim","Localidade":"Canelas","Local":"Cabeço de Baixo","Troço":"","Porta":"","Cliente":"","Designação Postal":"CANELAS ETR","locais":[{"id":"pt.ine.add.PTCONT.292077","rua":"R NOVA JARDIM","casa":"26","coordenadas":[40.72192950182542,-8.558530184420828]},{"id":"pt.ine.add.PTCONT.314126","rua":"R NOVA JARDIM","casa":"28","coordenadas":[40.72199148834898,-8.558814642896099]},{"id":"pt.ine.add.PTCONT.332877","rua":"R NOVA JARDIM","casa":"10","coordenadas":[40.72223110394734,-8.557324829174773]},{"id":"pt.ine.add.PTCONT.332878","rua":"R NOVA JARDIM","casa":"12","coordenadas":[40.72237422389438,-8.557586131165353]},{"id":"pt.ine.add.PTCONT.332879","rua":"R NOVA JARDIM","casa":"13","coordenadas":[40.72152855367641,-8.557367712429869]},{"id":"pt.ine.add.PTCONT.11586","rua":"R NOVA JARDIM","casa":"7","coordenadas":[40.72156600783418,-8.556977364979687]},{"id":"pt.ine.add.PTCONT.40969","rua":"R NOVA JARDIM","casa":"4","coordenadas":[40.721263186607466,-8.556064082517588]},{"id":"pt.ine.add.PTCONT.60708","rua":"R NOVA JARDIM A CASINHA","casa":"20","coordenadas":[40.72180578801349,-8.557890254942498]},{"id":"pt.ine.add.PTCONT.70526","rua":"R NOVA JARDIM","casa":"18","coordenadas":[40.7217447129625,-8.557357248980486]},{"id":"pt.ine.add.PTCONT.73250","rua":"R NOVA JARDIM","casa":"15","coordenadas":[40.721642306834035,-8.558267965415352]},{"id":"pt.ine.add.PTCONT.73251","rua":"R NOVA JARDIM","casa":"15","coordenadas":[40.721642306834035,-8.558267965415352]},{"id":"pt.ine.add.PTCONT.75974","rua":"R NOVA JARDIM","casa":"30","coordenadas":[40.72199026569229,-8.559146042877137]},{"id":"pt.ine.add.PTCONT.92090","rua":"R NOVA JARDIM","casa":"16","coordenadas":[40.72197909936666,-8.557287721246576]},{"id":"pt.ine.add.PTCONT.116057","rua":"R NOVA JARDIM","casa":"6","coordenadas":[40.72146025163058,-8.556349391486597]},{"id":"pt.ine.add.PTCONT.151507","rua":"R NOVA JARDIM CASA LARGO DAS MAIAS","casa":"1","coordenadas":[40.720789439442854,-8.555102385621915]},{"id":"pt.ine.add.PTCONT.169159","rua":"R NOVA JARDIM","casa":"","coordenadas":[40.72170086288816,-8.557037400155869]},{"id":"pt.ine.add.PTCONT.177225","rua":"R NOVA JARDIM","casa":"22","coordenadas":[40.72200310994698,-8.558104557287031]},{"id":"pt.ine.add.PTCONT.199924","rua":"R NOVA JARDIM","casa":"9","coordenadas":[40.72152015774055,-8.557201956395314]},{"id":"pt.ine.add.PTCONT.241796","rua":"R NOVA JARDIM","casa":"3","coordenadas":[40.72083299178071,-8.555505077452159]},{"id":"pt.ine.add.PTCONT.255386","rua":"R NOVA JARDIM CASA DO JARDIM","casa":"19","coordenadas":[40.72172060147092,-8.55901412808068]}],"ruas":["R NOVA JARDIM","R NOVA JARDIM A CASINHA","R NOVA JARDIM CASA LARGO DAS MAIAS","R NOVA JARDIM CASA DO JARDIM"],"centroide":[40.72168396627721,-8.557378048150552]}
+{
+  "CP": "3865-030",
+  "CP4": "3865",
+  "CP3": "030",
+  "Distrito": "Aveiro",
+  "Concelho": "Estarreja",
+  "Localidade": "Canelas",
+  "Designação Postal": "CANELAS ETR",
+  "partes": [
+    {
+      "Artéria": "Beco do Jardim",
+      "Local": "Cabeço de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Nova Jardim",
+      "Local": "Cabeço de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.292077",
+      "rua": "R NOVA JARDIM",
+      "casa": "26",
+      "coordenadas": [
+        40.72192950182542,
+        -8.558530184420828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.314126",
+      "rua": "R NOVA JARDIM",
+      "casa": "28",
+      "coordenadas": [
+        40.72199148834898,
+        -8.558814642896099
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.332877",
+      "rua": "R NOVA JARDIM",
+      "casa": "10",
+      "coordenadas": [
+        40.72223110394734,
+        -8.557324829174773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.332878",
+      "rua": "R NOVA JARDIM",
+      "casa": "12",
+      "coordenadas": [
+        40.72237422389438,
+        -8.557586131165353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.332879",
+      "rua": "R NOVA JARDIM",
+      "casa": "13",
+      "coordenadas": [
+        40.72152855367641,
+        -8.557367712429869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11586",
+      "rua": "R NOVA JARDIM",
+      "casa": "7",
+      "coordenadas": [
+        40.72156600783418,
+        -8.556977364979687
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.40969",
+      "rua": "R NOVA JARDIM",
+      "casa": "4",
+      "coordenadas": [
+        40.721263186607466,
+        -8.556064082517588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.60708",
+      "rua": "R NOVA JARDIM A CASINHA",
+      "casa": "20",
+      "coordenadas": [
+        40.72180578801349,
+        -8.557890254942498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.70526",
+      "rua": "R NOVA JARDIM",
+      "casa": "18",
+      "coordenadas": [
+        40.7217447129625,
+        -8.557357248980486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73250",
+      "rua": "R NOVA JARDIM",
+      "casa": "15",
+      "coordenadas": [
+        40.721642306834035,
+        -8.558267965415352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73251",
+      "rua": "R NOVA JARDIM",
+      "casa": "15",
+      "coordenadas": [
+        40.721642306834035,
+        -8.558267965415352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.75974",
+      "rua": "R NOVA JARDIM",
+      "casa": "30",
+      "coordenadas": [
+        40.72199026569229,
+        -8.559146042877137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92090",
+      "rua": "R NOVA JARDIM",
+      "casa": "16",
+      "coordenadas": [
+        40.72197909936666,
+        -8.557287721246576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.116057",
+      "rua": "R NOVA JARDIM",
+      "casa": "6",
+      "coordenadas": [
+        40.72146025163058,
+        -8.556349391486597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.151507",
+      "rua": "R NOVA JARDIM CASA LARGO DAS MAIAS",
+      "casa": "1",
+      "coordenadas": [
+        40.720789439442854,
+        -8.555102385621915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.169159",
+      "rua": "R NOVA JARDIM",
+      "casa": "",
+      "coordenadas": [
+        40.72170086288816,
+        -8.557037400155869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.177225",
+      "rua": "R NOVA JARDIM",
+      "casa": "22",
+      "coordenadas": [
+        40.72200310994698,
+        -8.558104557287031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.199924",
+      "rua": "R NOVA JARDIM",
+      "casa": "9",
+      "coordenadas": [
+        40.72152015774055,
+        -8.557201956395314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.241796",
+      "rua": "R NOVA JARDIM",
+      "casa": "3",
+      "coordenadas": [
+        40.72083299178071,
+        -8.555505077452159
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255386",
+      "rua": "R NOVA JARDIM CASA DO JARDIM",
+      "casa": "19",
+      "coordenadas": [
+        40.72172060147092,
+        -8.55901412808068
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOVA JARDIM",
+    "R NOVA JARDIM A CASINHA",
+    "R NOVA JARDIM CASA LARGO DAS MAIAS",
+    "R NOVA JARDIM CASA DO JARDIM"
+  ],
+  "centro": [
+    40.721581831668615,
+    -8.557124214249527
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.7208139376329,
+                -8.555328899776427
+              ],
+              [
+                40.72080849359067,
+                -8.555278563297646
+              ],
+              [
+                40.72082625606159,
+                -8.555269244559227
+              ],
+              [
+                40.72086722504568,
+                -8.55530094356117
+              ],
+              [
+                40.72093140054294,
+                -8.555373660303472
+              ],
+              [
+                40.72101878255335,
+                -8.555487394786136
+              ],
+              [
+                40.72112937107693,
+                -8.55564214700916
+              ],
+              [
+                40.72126316611367,
+                -8.555837916972546
+              ],
+              [
+                40.72142016766357,
+                -8.556074704676291
+              ],
+              [
+                40.721600375726624,
+                -8.556352510120398
+              ],
+              [
+                40.72176029403097,
+                -8.556599672727593
+              ],
+              [
+                40.72189992257661,
+                -8.55681619249788
+              ],
+              [
+                40.72201926136354,
+                -8.557002069431254
+              ],
+              [
+                40.722118310391764,
+                -8.557157303527719
+              ],
+              [
+                40.72219706966128,
+                -8.557281894787273
+              ],
+              [
+                40.72225553917208,
+                -8.557375843209917
+              ],
+              [
+                40.72229371892417,
+                -8.55743914879565
+              ],
+              [
+                40.72231160891754,
+                -8.557471811544476
+              ],
+              [
+                40.722321263314846,
+                -8.557524765070191
+              ],
+              [
+                40.722322682116065,
+                -8.557598009372802
+              ],
+              [
+                40.72231586532121,
+                -8.557691544452306
+              ],
+              [
+                40.722300812930264,
+                -8.557805370308703
+              ],
+              [
+                40.722277524943244,
+                -8.557939486941995
+              ],
+              [
+                40.72224600136014,
+                -8.55809389435218
+              ],
+              [
+                40.72220624218096,
+                -8.558268592539259
+              ],
+              [
+                40.7221582474057,
+                -8.558463581503231
+              ],
+              [
+                40.722112038473895,
+                -8.558632135678012
+              ],
+              [
+                40.72206761538553,
+                -8.558774255063602
+              ],
+              [
+                40.72202497814062,
+                -8.558889939660002
+              ],
+              [
+                40.72198412673915,
+                -8.558979189467209
+              ],
+              [
+                40.72194506118113,
+                -8.559042004485226
+              ],
+              [
+                40.72190778146657,
+                -8.559078384714052
+              ],
+              [
+                40.721872287595446,
+                -8.559088330153685
+              ],
+              [
+                40.72183857956777,
+                -8.55907184080413
+              ],
+              [
+                40.721795216142155,
+                -8.559002583707196
+              ],
+              [
+                40.72174219731858,
+                -8.558880558862887
+              ],
+              [
+                40.72167952309705,
+                -8.558705766271203
+              ],
+              [
+                40.72160719347758,
+                -8.55847820593214
+              ],
+              [
+                40.72152520846015,
+                -8.558197877845704
+              ],
+              [
+                40.72143356804477,
+                -8.55786478201189
+              ],
+              [
+                40.72133227223145,
+                -8.5574789184307
+              ],
+              [
+                40.72122132102018,
+                -8.557040287102136
+              ],
+              [
+                40.721123558205036,
+                -8.556650192629794
+              ],
+              [
+                40.721038983786016,
+                -8.556308635013673
+              ],
+              [
+                40.720967597763135,
+                -8.556015614253777
+              ],
+              [
+                40.72090940013638,
+                -8.555771130350106
+              ],
+              [
+                40.72086439090576,
+                -8.555575183302658
+              ],
+              [
+                40.720832570071266,
+                -8.555427773111429
+              ],
+              [
+                40.7208139376329,
+                -8.555328899776427
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.721656437704745,
+    -8.557279765728671
+  ],
+  "centroDeMassa": [
+    40.721581831668615,
+    -8.557124214249527
+  ]
+}

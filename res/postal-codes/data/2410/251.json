@@ -1,1 +1,541 @@
-{"CP4":"2410","CP3":"251","Distrito":"Leiria","Concelho":"Leiria","CP":"2410-251","Artéria":" ","Localidade":"Quinta do Retiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LEIRIA","locais":[{"id":"pt.ine.add.PTCONT.1989349","rua":"R MEIRINHO","casa":"83","coordenadas":[39.69974494611848,-8.80384368204235]},{"id":"pt.ine.add.PTCONT.1989354","rua":"R S SILVESTRE","casa":"957","coordenadas":[39.69616860107349,-8.80397228665381]},{"id":"pt.ine.add.PTCONT.2005400","rua":"R S SILVESTRE","casa":"1130","coordenadas":[39.69767321797043,-8.80388192251624]},{"id":"pt.ine.add.PTCONT.2011405","rua":"R S SILVESTRE","casa":"975","coordenadas":[39.696303152986395,-8.804066859771389]},{"id":"pt.ine.add.PTCONT.2020677","rua":"R S SILVESTRE","casa":"1005","coordenadas":[39.69622962224431,-8.804322641323004]},{"id":"pt.ine.add.PTCONT.2024193","rua":"R CAMPO OA BOLA","casa":"40","coordenadas":[39.70069460001781,-8.804715682129473]},{"id":"pt.ine.add.PTCONT.2027310","rua":"R S SILVESTRE","casa":"1262","coordenadas":[39.6987425799473,-8.804300347473527]},{"id":"pt.ine.add.PTCONT.2029191","rua":"R HEIRINHO","casa":"53","coordenadas":[39.69988783042853,-8.804054934691104]},{"id":"pt.ine.add.PTCONT.2037608","rua":"R BENFEITOR","casa":"116","coordenadas":[39.7001710579777,-8.80335810981209]},{"id":"pt.ine.add.PTCONT.2039806","rua":"R BENFEITOR","casa":"26","coordenadas":[39.70032018805739,-8.804047462112605]},{"id":"pt.ine.add.PTCONT.2039807","rua":"R FORNO DA TEHLA","casa":"1350","coordenadas":[39.69928166215733,-8.804527096495404]},{"id":"pt.ine.add.PTCONT.2039808","rua":"R S SILVESTRE","casa":"","coordenadas":[39.69908683105438,-8.803953903914033]},{"id":"pt.ine.add.PTCONT.2046317","rua":"R FORNO DA TELHA","casa":"175","coordenadas":[39.70146321471936,-8.804186787762093]},{"id":"pt.ine.add.PTCONT.2050221","rua":"R FORNO DA TELHA","casa":"","coordenadas":[39.703406700108715,-8.804520433865276]},{"id":"pt.ine.add.PTCONT.2068217","rua":"R S SILVESTRE","casa":"1316","coordenadas":[39.69921949612894,-8.804374923185684]},{"id":"pt.ine.add.PTCONT.2074534","rua":"R CAMPO OA BOLA","casa":"","coordenadas":[39.70119920825399,-8.80467393513435]},{"id":"pt.ine.add.PTCONT.2074562","rua":"R BENFEITOR","casa":"98","coordenadas":[39.70025036221963,-8.803662023305355]},{"id":"pt.ine.add.PTCONT.2074563","rua":"R S SILVESTRE","casa":"1170","coordenadas":[39.698060747546954,-8.803839037624545]},{"id":"pt.ine.add.PTCONT.2074566","rua":"R S SILVESTRE","casa":"863","coordenadas":[39.695305299395216,-8.803742414751952]},{"id":"pt.ine.add.PTCONT.2078999","rua":"R S SILVESTRE","casa":"1218","coordenadas":[39.698418766511516,-8.804227255747268]},{"id":"pt.ine.add.PTCONT.2082094","rua":"R BENFEITOR","casa":"64","coordenadas":[39.70024901537985,-8.803895199737143]},{"id":"pt.ine.add.PTCONT.2110109","rua":"R BENFEITOR","casa":"138","coordenadas":[39.70010102804911,-8.80300764889457]},{"id":"pt.ine.add.PTCONT.2110110","rua":"R BENFEITOR","casa":"138","coordenadas":[39.70010102804911,-8.80300764889457]},{"id":"pt.ine.add.PTCONT.2110111","rua":"R S SILVESTRE","casa":"1316","coordenadas":[39.69922978257379,-8.804153496112427]},{"id":"pt.ine.add.PTCONT.2118773","rua":"R S SILVESTRE","casa":"917","coordenadas":[39.695844248431705,-8.803992463982826]},{"id":"pt.ine.add.PTCONT.2125307","rua":"R FORNO DA TELHA","casa":"","coordenadas":[39.70076134958836,-8.80407505341343]},{"id":"pt.ine.add.PTCONT.2140706","rua":"R S SILVESTRE","casa":"50","coordenadas":[39.70033691992619,-8.804269154412687]},{"id":"pt.ine.add.PTCONT.2149182","rua":"R S SILVESTRE","casa":"901","coordenadas":[39.69646553139111,-8.804021796697581]},{"id":"pt.ine.add.PTCONT.2151404","rua":"R S SILVESTRE","casa":"979","coordenadas":[39.696489651937775,-8.80452336037619]},{"id":"pt.ine.add.PTCONT.2154724","rua":"R S SILVESTRE","casa":"210","coordenadas":[39.701621098864884,-8.803360478067964]},{"id":"pt.ine.add.PTCONT.2236938","rua":"R S SILVESTRE","casa":"883","coordenadas":[39.69548508382078,-8.80380244801794]},{"id":"pt.ine.add.PTCONT.2257111","rua":"R CAMPO OA BOLA","casa":"236","coordenadas":[39.70232300753795,-8.805022963465662]}],"ruas":["R MEIRINHO","R S SILVESTRE","R CAMPO OA BOLA","R HEIRINHO","R BENFEITOR","R FORNO DA TEHLA","R FORNO DA TELHA"],"centroide":[39.69897783299777,-8.804012273836097]}
+{
+  "CP": "2410-251",
+  "CP4": "2410",
+  "CP3": "251",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Quinta do Retiro",
+  "Designação Postal": "LEIRIA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1989349",
+      "rua": "R MEIRINHO",
+      "casa": "83",
+      "coordenadas": [
+        39.69974494611848,
+        -8.80384368204235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1989354",
+      "rua": "R S SILVESTRE",
+      "casa": "957",
+      "coordenadas": [
+        39.69616860107349,
+        -8.80397228665381
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2005400",
+      "rua": "R S SILVESTRE",
+      "casa": "1130",
+      "coordenadas": [
+        39.69767321797043,
+        -8.80388192251624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2011405",
+      "rua": "R S SILVESTRE",
+      "casa": "975",
+      "coordenadas": [
+        39.696303152986395,
+        -8.804066859771389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2020677",
+      "rua": "R S SILVESTRE",
+      "casa": "1005",
+      "coordenadas": [
+        39.69622962224431,
+        -8.804322641323004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2024193",
+      "rua": "R CAMPO OA BOLA",
+      "casa": "40",
+      "coordenadas": [
+        39.70069460001781,
+        -8.804715682129473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2027310",
+      "rua": "R S SILVESTRE",
+      "casa": "1262",
+      "coordenadas": [
+        39.6987425799473,
+        -8.804300347473527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2029191",
+      "rua": "R HEIRINHO",
+      "casa": "53",
+      "coordenadas": [
+        39.69988783042853,
+        -8.804054934691104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2037608",
+      "rua": "R BENFEITOR",
+      "casa": "116",
+      "coordenadas": [
+        39.7001710579777,
+        -8.80335810981209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039806",
+      "rua": "R BENFEITOR",
+      "casa": "26",
+      "coordenadas": [
+        39.70032018805739,
+        -8.804047462112605
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039807",
+      "rua": "R FORNO DA TEHLA",
+      "casa": "1350",
+      "coordenadas": [
+        39.69928166215733,
+        -8.804527096495404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039808",
+      "rua": "R S SILVESTRE",
+      "casa": "",
+      "coordenadas": [
+        39.69908683105438,
+        -8.803953903914033
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2046317",
+      "rua": "R FORNO DA TELHA",
+      "casa": "175",
+      "coordenadas": [
+        39.70146321471936,
+        -8.804186787762093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2050221",
+      "rua": "R FORNO DA TELHA",
+      "casa": "",
+      "coordenadas": [
+        39.703406700108715,
+        -8.804520433865276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2068217",
+      "rua": "R S SILVESTRE",
+      "casa": "1316",
+      "coordenadas": [
+        39.69921949612894,
+        -8.804374923185684
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2074534",
+      "rua": "R CAMPO OA BOLA",
+      "casa": "",
+      "coordenadas": [
+        39.70119920825399,
+        -8.80467393513435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2074562",
+      "rua": "R BENFEITOR",
+      "casa": "98",
+      "coordenadas": [
+        39.70025036221963,
+        -8.803662023305355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2074563",
+      "rua": "R S SILVESTRE",
+      "casa": "1170",
+      "coordenadas": [
+        39.698060747546954,
+        -8.803839037624545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2074566",
+      "rua": "R S SILVESTRE",
+      "casa": "863",
+      "coordenadas": [
+        39.695305299395216,
+        -8.803742414751952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2078999",
+      "rua": "R S SILVESTRE",
+      "casa": "1218",
+      "coordenadas": [
+        39.698418766511516,
+        -8.804227255747268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2082094",
+      "rua": "R BENFEITOR",
+      "casa": "64",
+      "coordenadas": [
+        39.70024901537985,
+        -8.803895199737143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2110109",
+      "rua": "R BENFEITOR",
+      "casa": "138",
+      "coordenadas": [
+        39.70010102804911,
+        -8.80300764889457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2110110",
+      "rua": "R BENFEITOR",
+      "casa": "138",
+      "coordenadas": [
+        39.70010102804911,
+        -8.80300764889457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2110111",
+      "rua": "R S SILVESTRE",
+      "casa": "1316",
+      "coordenadas": [
+        39.69922978257379,
+        -8.804153496112427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2118773",
+      "rua": "R S SILVESTRE",
+      "casa": "917",
+      "coordenadas": [
+        39.695844248431705,
+        -8.803992463982826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2125307",
+      "rua": "R FORNO DA TELHA",
+      "casa": "",
+      "coordenadas": [
+        39.70076134958836,
+        -8.80407505341343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2140706",
+      "rua": "R S SILVESTRE",
+      "casa": "50",
+      "coordenadas": [
+        39.70033691992619,
+        -8.804269154412687
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2149182",
+      "rua": "R S SILVESTRE",
+      "casa": "901",
+      "coordenadas": [
+        39.69646553139111,
+        -8.804021796697581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2151404",
+      "rua": "R S SILVESTRE",
+      "casa": "979",
+      "coordenadas": [
+        39.696489651937775,
+        -8.80452336037619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2154724",
+      "rua": "R S SILVESTRE",
+      "casa": "210",
+      "coordenadas": [
+        39.701621098864884,
+        -8.803360478067964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2236938",
+      "rua": "R S SILVESTRE",
+      "casa": "883",
+      "coordenadas": [
+        39.69548508382078,
+        -8.80380244801794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2257111",
+      "rua": "R CAMPO OA BOLA",
+      "casa": "236",
+      "coordenadas": [
+        39.70232300753795,
+        -8.805022963465662
+      ]
+    }
+  ],
+  "ruas": [
+    "R MEIRINHO",
+    "R S SILVESTRE",
+    "R CAMPO OA BOLA",
+    "R HEIRINHO",
+    "R BENFEITOR",
+    "R FORNO DA TEHLA",
+    "R FORNO DA TELHA"
+  ],
+  "centro": [
+    39.699355999751965,
+    -8.804015306180116
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.695971497700405,
+                -8.804181696665587
+              ],
+              [
+                39.695823453632585,
+                -8.804084078462555
+              ],
+              [
+                39.695768848333465,
+                -8.803987181818384
+              ],
+              [
+                39.69580768180303,
+                -8.803891006733068
+              ],
+              [
+                39.69593995404129,
+                -8.80379555320661
+              ],
+              [
+                39.696165665048255,
+                -8.803700821239008
+              ],
+              [
+                39.696484814823904,
+                -8.803606810830264
+              ],
+              [
+                39.696897403368254,
+                -8.803513521980378
+              ],
+              [
+                39.6974034306813,
+                -8.803420954689347
+              ],
+              [
+                39.69800289676303,
+                -8.803329108957175
+              ],
+              [
+                39.69855118069105,
+                -8.803254256897358
+              ],
+              [
+                39.69904828246534,
+                -8.803196398509895
+              ],
+              [
+                39.699494202085916,
+                -8.80315553379479
+              ],
+              [
+                39.69988893955277,
+                -8.803131662752042
+              ],
+              [
+                39.7002324948659,
+                -8.803124785381648
+              ],
+              [
+                39.70052486802532,
+                -8.803134901683611
+              ],
+              [
+                39.70076605903101,
+                -8.803162011657928
+              ],
+              [
+                39.700956067882984,
+                -8.803206115304604
+              ],
+              [
+                39.70115022564789,
+                -8.803262830304776
+              ],
+              [
+                39.70134853232574,
+                -8.803332156658449
+              ],
+              [
+                39.70155098791653,
+                -8.80341409436562
+              ],
+              [
+                39.70175759242026,
+                -8.803508643426287
+              ],
+              [
+                39.70196834583692,
+                -8.803615803840454
+              ],
+              [
+                39.70218324816652,
+                -8.803735575608123
+              ],
+              [
+                39.70240229940906,
+                -8.803867958729288
+              ],
+              [
+                39.70262549956454,
+                -8.804012953203951
+              ],
+              [
+                39.702803867004164,
+                -8.80414767539429
+              ],
+              [
+                39.70293740172794,
+                -8.8042721253003
+              ],
+              [
+                39.70302610373586,
+                -8.804386302921982
+              ],
+              [
+                39.70306997302792,
+                -8.804490208259338
+              ],
+              [
+                39.703069009604135,
+                -8.804583841312366
+              ],
+              [
+                39.7030232134645,
+                -8.80466720208107
+              ],
+              [
+                39.702932584609,
+                -8.804740290565446
+              ],
+              [
+                39.702797123037655,
+                -8.804803106765492
+              ],
+              [
+                39.70258744798147,
+                -8.804850264642262
+              ],
+              [
+                39.702303559440466,
+                -8.804881764195754
+              ],
+              [
+                39.70194545741461,
+                -8.804897605425964
+              ],
+              [
+                39.70151314190393,
+                -8.804897788332896
+              ],
+              [
+                39.70100661290841,
+                -8.804882312916549
+              ],
+              [
+                39.700425870428056,
+                -8.804851179176923
+              ],
+              [
+                39.699770914462874,
+                -8.804804387114018
+              ],
+              [
+                39.69904174501285,
+                -8.804741936727835
+              ],
+              [
+                39.69838521623561,
+                -8.804675090364544
+              ],
+              [
+                39.697801328131135,
+                -8.80460384802415
+              ],
+              [
+                39.69729008069944,
+                -8.804528209706648
+              ],
+              [
+                39.69685147394052,
+                -8.804448175412041
+              ],
+              [
+                39.696485507854376,
+                -8.804363745140328
+              ],
+              [
+                39.696192182440996,
+                -8.80427491889151
+              ],
+              [
+                39.695971497700405,
+                -8.804181696665587
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.69987446431561,
+    -8.804029549903602
+  ],
+  "centroDeMassa": [
+    39.699355999751965,
+    -8.804015306180116
+  ]
+}

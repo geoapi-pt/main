@@ -1,1 +1,501 @@
-{"CP4":"3700","CP3":"140","Distrito":"Aveiro","Concelho":"São João da Madeira","CP":"3700-140","Artéria":"Rua Jaime Afreixo","Localidade":"São João da Madeira","Local":"","Troço":"Pares de 16 a 276","Porta":"","Cliente":"","Designação Postal":"SÃO JOÃO DA MADEIRA","locais":[{"id":"pt.ine.add.PTCONT.291471","rua":"R JAIME AFREIXO","casa":"134","coordenadas":[40.90172778165185,-8.48732105244929]},{"id":"pt.ine.add.PTCONT.309833","rua":"R JAIME AFREIXO","casa":"222","coordenadas":[40.902338125481336,-8.48796518611317]},{"id":"pt.ine.add.PTCONT.328753","rua":"R JAIME AFREIXO","casa":"262","coordenadas":[40.902652446809846,-8.488239833720874]},{"id":"pt.ine.add.PTCONT.7321","rua":"R JAIME AFREIXO","casa":"168","coordenadas":[40.90198818630019,-8.487559802478616]},{"id":"pt.ine.add.PTCONT.15186","rua":"R JAIME AFREIXO","casa":"142","coordenadas":[40.90182668663215,-8.487369052146724]},{"id":"pt.ine.add.PTCONT.17199","rua":"R JAIME AFREIXO","casa":"248","coordenadas":[40.90256261990708,-8.48816814439264]},{"id":"pt.ine.add.PTCONT.23142","rua":"R JAIME AFREIXO","casa":"78","coordenadas":[40.901377694498535,-8.486963146881946]},{"id":"pt.ine.add.PTCONT.74491","rua":"R JAIME AFREIXO","casa":"88","coordenadas":[40.90651709551517,-8.490634277301401]},{"id":"pt.ine.add.PTCONT.80478","rua":"R JAIME AFREIXO","casa":"220","coordenadas":[40.90230232609582,-8.48789378620841]},{"id":"pt.ine.add.PTCONT.89534","rua":"R JAIME AFREIXO","casa":"21","coordenadas":[40.9018540285291,-8.487262385912727]},{"id":"pt.ine.add.PTCONT.93201","rua":"R JAIME AFREIXO","casa":"172","coordenadas":[40.90210506392712,-8.487619766744613]},{"id":"pt.ine.add.PTCONT.93203","rua":"R JAIME AFREIXO","casa":"98","coordenadas":[40.90149428106263,-8.487118051583705]},{"id":"pt.ine.add.PTCONT.93204","rua":"R JAIME AFREIXO","casa":"98","coordenadas":[40.90149428106263,-8.487118051583705]},{"id":"pt.ine.add.PTCONT.104559","rua":"R JAIME AFREIXO","casa":"116","coordenadas":[40.901629058858695,-8.487213713999815]},{"id":"pt.ine.add.PTCONT.104568","rua":"R JAIME AFREIXO","casa":"116","coordenadas":[40.901629058858695,-8.487213713999815]},{"id":"pt.ine.add.PTCONT.109354","rua":"R JAIME AFREIXO","casa":"56","coordenadas":[40.901198184575904,-8.486772303829767]},{"id":"pt.ine.add.PTCONT.109355","rua":"R JAIME AFREIXO","casa":"58","coordenadas":[40.901198184575904,-8.486772303829767]},{"id":"pt.ine.add.PTCONT.112025","rua":"R JAIME AFREIXO","casa":"110","coordenadas":[40.90154816304448,-8.487165810715261]},{"id":"pt.ine.add.PTCONT.120121","rua":"R JAIME AFREIXO","casa":"259","coordenadas":[40.90268037390327,-8.487943279070052]},{"id":"pt.ine.add.PTCONT.133266","rua":"R JAIME AFREIXO","casa":"146","coordenadas":[40.90186244988582,-8.487452319078187]},{"id":"pt.ine.add.PTCONT.157952","rua":"R JAIME AFREIXO","casa":"170","coordenadas":[40.90206058792057,-8.487441508500936]},{"id":"pt.ine.add.PTCONT.178260","rua":"R JAIME AFREIXO","casa":"236","coordenadas":[40.9024368475536,-8.488072526828965]},{"id":"pt.ine.add.PTCONT.197150","rua":"R JAIME AFREIXO","casa":"158","coordenadas":[40.9019342680179,-8.487523910542814]},{"id":"pt.ine.add.PTCONT.215948","rua":"R JAIME AFREIXO","casa":"208","coordenadas":[40.90220353085408,-8.487810181738503]},{"id":"pt.ine.add.PTCONT.215949","rua":"R JAIME AFREIXO","casa":"208","coordenadas":[40.90220353085408,-8.487810181738503]},{"id":"pt.ine.add.PTCONT.215955","rua":"R JAIME AFREIXO","casa":"66","coordenadas":[40.90128793957793,-8.48686772522671]},{"id":"pt.ine.add.PTCONT.224050","rua":"R JAIME AFREIXO","casa":"238","coordenadas":[40.90250892100474,-8.488061044038059]},{"id":"pt.ine.add.PTCONT.226714","rua":"R JAIME AFREIXO","casa":"234","coordenadas":[40.902410125889894,-8.487977439057772]},{"id":"pt.ine.add.PTCONT.226715","rua":"R JAIME AFREIXO","casa":"234","coordenadas":[40.902410125889894,-8.487977439057772]},{"id":"pt.ine.add.PTCONT.226720","rua":"R JAIME AFREIXO","casa":"16","coordenadas":[40.90078451784969,-8.486592083049919]},{"id":"pt.ine.add.PTCONT.281425","rua":"R JAIME AFREIXO","casa":"220","coordenadas":[40.90224844442716,-8.48784602594133]}],"ruas":["R JAIME AFREIXO"],"centroide":[40.902074216219624,-8.487596667394014]}
+{
+  "CP": "3700-140",
+  "CP4": "3700",
+  "CP3": "140",
+  "Distrito": "Aveiro",
+  "Concelho": "São João da Madeira",
+  "Localidade": "São João da Madeira",
+  "Designação Postal": "SÃO JOÃO DA MADEIRA",
+  "partes": [
+    {
+      "Artéria": "Rua Jaime Afreixo",
+      "Local": "",
+      "Troço": "Cafetaria Cerne",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Jaime Afreixo",
+      "Local": "",
+      "Troço": "Pares de 16 a 276",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.291471",
+      "rua": "R JAIME AFREIXO",
+      "casa": "134",
+      "coordenadas": [
+        40.90172778165185,
+        -8.48732105244929
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.309833",
+      "rua": "R JAIME AFREIXO",
+      "casa": "222",
+      "coordenadas": [
+        40.902338125481336,
+        -8.48796518611317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.328753",
+      "rua": "R JAIME AFREIXO",
+      "casa": "262",
+      "coordenadas": [
+        40.902652446809846,
+        -8.488239833720874
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.7321",
+      "rua": "R JAIME AFREIXO",
+      "casa": "168",
+      "coordenadas": [
+        40.90198818630019,
+        -8.487559802478616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.15186",
+      "rua": "R JAIME AFREIXO",
+      "casa": "142",
+      "coordenadas": [
+        40.90182668663215,
+        -8.487369052146724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.17199",
+      "rua": "R JAIME AFREIXO",
+      "casa": "248",
+      "coordenadas": [
+        40.90256261990708,
+        -8.48816814439264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.23142",
+      "rua": "R JAIME AFREIXO",
+      "casa": "78",
+      "coordenadas": [
+        40.901377694498535,
+        -8.486963146881946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.74491",
+      "rua": "R JAIME AFREIXO",
+      "casa": "88",
+      "coordenadas": [
+        40.90651709551517,
+        -8.490634277301401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.80478",
+      "rua": "R JAIME AFREIXO",
+      "casa": "220",
+      "coordenadas": [
+        40.90230232609582,
+        -8.48789378620841
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89534",
+      "rua": "R JAIME AFREIXO",
+      "casa": "21",
+      "coordenadas": [
+        40.9018540285291,
+        -8.487262385912727
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.93201",
+      "rua": "R JAIME AFREIXO",
+      "casa": "172",
+      "coordenadas": [
+        40.90210506392712,
+        -8.487619766744613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.93203",
+      "rua": "R JAIME AFREIXO",
+      "casa": "98",
+      "coordenadas": [
+        40.90149428106263,
+        -8.487118051583705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.93204",
+      "rua": "R JAIME AFREIXO",
+      "casa": "98",
+      "coordenadas": [
+        40.90149428106263,
+        -8.487118051583705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.104559",
+      "rua": "R JAIME AFREIXO",
+      "casa": "116",
+      "coordenadas": [
+        40.901629058858695,
+        -8.487213713999815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.104568",
+      "rua": "R JAIME AFREIXO",
+      "casa": "116",
+      "coordenadas": [
+        40.901629058858695,
+        -8.487213713999815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.109354",
+      "rua": "R JAIME AFREIXO",
+      "casa": "56",
+      "coordenadas": [
+        40.901198184575904,
+        -8.486772303829767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.109355",
+      "rua": "R JAIME AFREIXO",
+      "casa": "58",
+      "coordenadas": [
+        40.901198184575904,
+        -8.486772303829767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.112025",
+      "rua": "R JAIME AFREIXO",
+      "casa": "110",
+      "coordenadas": [
+        40.90154816304448,
+        -8.487165810715261
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.120121",
+      "rua": "R JAIME AFREIXO",
+      "casa": "259",
+      "coordenadas": [
+        40.90268037390327,
+        -8.487943279070052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.133266",
+      "rua": "R JAIME AFREIXO",
+      "casa": "146",
+      "coordenadas": [
+        40.90186244988582,
+        -8.487452319078187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.157952",
+      "rua": "R JAIME AFREIXO",
+      "casa": "170",
+      "coordenadas": [
+        40.90206058792057,
+        -8.487441508500936
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.178260",
+      "rua": "R JAIME AFREIXO",
+      "casa": "236",
+      "coordenadas": [
+        40.9024368475536,
+        -8.488072526828965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.197150",
+      "rua": "R JAIME AFREIXO",
+      "casa": "158",
+      "coordenadas": [
+        40.9019342680179,
+        -8.487523910542814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.215948",
+      "rua": "R JAIME AFREIXO",
+      "casa": "208",
+      "coordenadas": [
+        40.90220353085408,
+        -8.487810181738503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.215949",
+      "rua": "R JAIME AFREIXO",
+      "casa": "208",
+      "coordenadas": [
+        40.90220353085408,
+        -8.487810181738503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.215955",
+      "rua": "R JAIME AFREIXO",
+      "casa": "66",
+      "coordenadas": [
+        40.90128793957793,
+        -8.48686772522671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.224050",
+      "rua": "R JAIME AFREIXO",
+      "casa": "238",
+      "coordenadas": [
+        40.90250892100474,
+        -8.488061044038059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.226714",
+      "rua": "R JAIME AFREIXO",
+      "casa": "234",
+      "coordenadas": [
+        40.902410125889894,
+        -8.487977439057772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.226715",
+      "rua": "R JAIME AFREIXO",
+      "casa": "234",
+      "coordenadas": [
+        40.902410125889894,
+        -8.487977439057772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.226720",
+      "rua": "R JAIME AFREIXO",
+      "casa": "16",
+      "coordenadas": [
+        40.90078451784969,
+        -8.486592083049919
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.281425",
+      "rua": "R JAIME AFREIXO",
+      "casa": "220",
+      "coordenadas": [
+        40.90224844442716,
+        -8.48784602594133
+      ]
+    }
+  ],
+  "ruas": [
+    "R JAIME AFREIXO"
+  ],
+  "centro": [
+    40.90365080668243,
+    -8.48861318017566
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.90171395330814,
+                -8.487424832675632
+              ],
+              [
+                40.90150741209515,
+                -8.487239777203252
+              ],
+              [
+                40.90133315207638,
+                -8.487080669614603
+              ],
+              [
+                40.90119117325183,
+                -8.486947509909687
+              ],
+              [
+                40.9010814756215,
+                -8.486840298088506
+              ],
+              [
+                40.901004059185404,
+                -8.486759034151055
+              ],
+              [
+                40.90095892394352,
+                -8.486703718097338
+              ],
+              [
+                40.90094606989585,
+                -8.486674349927355
+              ],
+              [
+                40.90096549704241,
+                -8.486670929641104
+              ],
+              [
+                40.901017205383184,
+                -8.486693457238584
+              ],
+              [
+                40.901145558164785,
+                -8.486773512221873
+              ],
+              [
+                40.901350555387225,
+                -8.486911094590972
+              ],
+              [
+                40.90163219705049,
+                -8.487106204345881
+              ],
+              [
+                40.90199048315458,
+                -8.4873588414866
+              ],
+              [
+                40.902425413699504,
+                -8.487669006013128
+              ],
+              [
+                40.902936988685255,
+                -8.488036697925462
+              ],
+              [
+                40.90352520811183,
+                -8.488461917223608
+              ],
+              [
+                40.904190071979244,
+                -8.488944663907562
+              ],
+              [
+                40.904711442727205,
+                -8.489329654075075
+              ],
+              [
+                40.905089320355714,
+                -8.48961688772615
+              ],
+              [
+                40.905323704864784,
+                -8.489806364860783
+              ],
+              [
+                40.9054145962544,
+                -8.489898085478977
+              ],
+              [
+                40.905361994524576,
+                -8.489892049580732
+              ],
+              [
+                40.9051658996753,
+                -8.489788257166047
+              ],
+              [
+                40.904826311706586,
+                -8.48958670823492
+              ],
+              [
+                40.90434323061842,
+                -8.489287402787355
+              ],
+              [
+                40.9039171659279,
+                -8.489022896350548
+              ],
+              [
+                40.90354811763502,
+                -8.488793188924502
+              ],
+              [
+                40.90323608573978,
+                -8.488598280509215
+              ],
+              [
+                40.90298107024219,
+                -8.488438171104686
+              ],
+              [
+                40.90278307114223,
+                -8.48831286071092
+              ],
+              [
+                40.90264208843992,
+                -8.488222349327911
+              ],
+              [
+                40.90255812213525,
+                -8.488166636955663
+              ],
+              [
+                40.90253117222821,
+                -8.488145723594176
+              ],
+              [
+                40.902481773407935,
+                -8.488104292468826
+              ],
+              [
+                40.90240992567442,
+                -8.488042343579615
+              ],
+              [
+                40.902315629027655,
+                -8.487959876926542
+              ],
+              [
+                40.90219888346763,
+                -8.487856892509605
+              ],
+              [
+                40.902059688994385,
+                -8.48773339032881
+              ],
+              [
+                40.90189804560788,
+                -8.487589370384153
+              ],
+              [
+                40.90171395330814,
+                -8.487424832675632
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.902717818460836,
+    -8.488062204946186
+  ],
+  "centroDeMassa": [
+    40.90365080668243,
+    -8.48861318017566
+  ]
+}

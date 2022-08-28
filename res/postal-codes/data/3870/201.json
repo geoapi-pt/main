@@ -1,1 +1,435 @@
-{"CP4":"3870","CP3":"201","Distrito":"Aveiro","Concelho":"Murtosa","CP":"3870-201","Artéria":"Travessa do Canto das Catraias","Localidade":"Murtosa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MURTOSA","locais":[{"id":"pt.ine.add.PTCONT.293044","rua":"CANTO DAS CATRAIAS","casa":"","coordenadas":[40.74052007878328,-8.644068904939928]},{"id":"pt.ine.add.PTCONT.296417","rua":"CANTO DAS CATRAIAS","casa":"10","coordenadas":[40.740395270700795,-8.643783808311937]},{"id":"pt.ine.add.PTCONT.36131","rua":"TV CANTO DAS CATRAIAS","casa":"","coordenadas":[40.74134814268495,-8.644158117407523]},{"id":"pt.ine.add.PTCONT.66979","rua":"CANTO DAS CATRAIAS","casa":"26","coordenadas":[40.74125704722305,-8.64439420788197]},{"id":"pt.ine.add.PTCONT.89063","rua":"","casa":"","coordenadas":[40.740018906516944,-8.64336655914363]},{"id":"pt.ine.add.PTCONT.92728","rua":"CANTO DAS CATRAIAS","casa":"","coordenadas":[40.74068378722017,-8.643703139894791]},{"id":"pt.ine.add.PTCONT.92729","rua":"TV CANTO DAS CATRAIAS","casa":"8","coordenadas":[40.74096172750097,-8.643977569910403]},{"id":"pt.ine.add.PTCONT.122107","rua":"CANTO DAS CATRAIAS","casa":"","coordenadas":[40.740244180650016,-8.643332762984004]},{"id":"pt.ine.add.PTCONT.135445","rua":"CANTO DAS CATRAIAS","casa":"25","coordenadas":[40.74068917529393,-8.644520091708065]},{"id":"pt.ine.add.PTCONT.140546","rua":"CANTO DAS CATRAIAS","casa":"4A","coordenadas":[40.740065081075734,-8.64310645016619]},{"id":"pt.ine.add.PTCONT.160601","rua":"CANTO DAS CATRAIAS","casa":"28","coordenadas":[40.74132808801511,-8.644619700413935]},{"id":"pt.ine.add.PTCONT.169839","rua":"CANTO DAS CATRAIAS","casa":"20A","coordenadas":[40.74090581217836,-8.644403357718783]},{"id":"pt.ine.add.PTCONT.169855","rua":"CANTO DAS CATRAIAS","casa":"3","coordenadas":[40.73975012630738,-8.643056688188523]},{"id":"pt.ine.add.PTCONT.172907","rua":"CANTO DAS CATRAIAS","casa":"11","coordenadas":[40.740099320543614,-8.64350924379188]},{"id":"pt.ine.add.PTCONT.180411","rua":"","casa":"","coordenadas":[40.739902787483096,-8.643152567204469]},{"id":"pt.ine.add.PTCONT.212097","rua":"CANTO DAS CATRAIAS","casa":"10 A","coordenadas":[40.740215019871506,-8.643817947375503]},{"id":"pt.ine.add.PTCONT.264195","rua":"TV CANTO DAS CATRAIAS","casa":"3","coordenadas":[40.74109601158404,-8.644156187663452]},{"id":"pt.ine.add.PTCONT.272375","rua":"CANTO DAS CATRAIAS","casa":"13","coordenadas":[40.74009858749346,-8.643674986703772]},{"id":"pt.ine.add.PTCONT.282822","rua":"CANTO DAS CATRAIAS","casa":"","coordenadas":[40.74106794890238,-8.644392759907674]},{"id":"pt.ine.add.PTCONT.285514","rua":"CANTO DAS CATRAIAS","casa":"","coordenadas":[40.74035841371916,-8.643972954043358]}],"ruas":["CANTO DAS CATRAIAS","TV CANTO DAS CATRAIAS",""],"centroide":[40.740560373685724,-8.643852371121916]}71121916]}
+{
+  "CP": "3870-201",
+  "CP4": "3870",
+  "CP3": "201",
+  "Distrito": "Aveiro",
+  "Concelho": "Murtosa",
+  "Localidade": "Murtosa",
+  "Designação Postal": "MURTOSA",
+  "partes": [
+    {
+      "Artéria": "Rua Canto das Catraias",
+      "Local": "Canto das Catraias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Canto das Catraias",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.293044",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "",
+      "coordenadas": [
+        40.74052007878328,
+        -8.644068904939928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.296417",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "10",
+      "coordenadas": [
+        40.740395270700795,
+        -8.643783808311937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.36131",
+      "rua": "TV CANTO DAS CATRAIAS",
+      "casa": "",
+      "coordenadas": [
+        40.74134814268495,
+        -8.644158117407523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.66979",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "26",
+      "coordenadas": [
+        40.74125704722305,
+        -8.64439420788197
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89063",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.740018906516944,
+        -8.64336655914363
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92728",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "",
+      "coordenadas": [
+        40.74068378722017,
+        -8.643703139894791
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92729",
+      "rua": "TV CANTO DAS CATRAIAS",
+      "casa": "8",
+      "coordenadas": [
+        40.74096172750097,
+        -8.643977569910403
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.122107",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "",
+      "coordenadas": [
+        40.740244180650016,
+        -8.643332762984004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.135445",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "25",
+      "coordenadas": [
+        40.74068917529393,
+        -8.644520091708065
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.140546",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "4A",
+      "coordenadas": [
+        40.740065081075734,
+        -8.64310645016619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.160601",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "28",
+      "coordenadas": [
+        40.74132808801511,
+        -8.644619700413935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.169839",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "20A",
+      "coordenadas": [
+        40.74090581217836,
+        -8.644403357718783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.169855",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "3",
+      "coordenadas": [
+        40.73975012630738,
+        -8.643056688188523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.172907",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "11",
+      "coordenadas": [
+        40.740099320543614,
+        -8.64350924379188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.180411",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.739902787483096,
+        -8.643152567204469
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.212097",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "10 A",
+      "coordenadas": [
+        40.740215019871506,
+        -8.643817947375503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.264195",
+      "rua": "TV CANTO DAS CATRAIAS",
+      "casa": "3",
+      "coordenadas": [
+        40.74109601158404,
+        -8.644156187663452
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.272375",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "13",
+      "coordenadas": [
+        40.74009858749346,
+        -8.643674986703772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282822",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "",
+      "coordenadas": [
+        40.74106794890238,
+        -8.644392759907674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.285514",
+      "rua": "CANTO DAS CATRAIAS",
+      "casa": "",
+      "coordenadas": [
+        40.74035841371916,
+        -8.643972954043358
+      ]
+    }
+  ],
+  "ruas": [
+    "CANTO DAS CATRAIAS",
+    "TV CANTO DAS CATRAIAS"
+  ],
+  "centro": [
+    40.74054913449616,
+    -8.643838194301228
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.73994613572455,
+                -8.643404481103351
+              ],
+              [
+                40.73990257807629,
+                -8.643327193788943
+              ],
+              [
+                40.73986938630232,
+                -8.643260344919739
+              ],
+              [
+                40.73984656040264,
+                -8.643203934495737
+              ],
+              [
+                40.73983410037724,
+                -8.643157962516938
+              ],
+              [
+                40.73983200622613,
+                -8.643122428983336
+              ],
+              [
+                40.73984027794931,
+                -8.64309733389494
+              ],
+              [
+                40.739858915546776,
+                -8.643082677251744
+              ],
+              [
+                40.73988791901853,
+                -8.64307845905375
+              ],
+              [
+                40.73992728836458,
+                -8.643084679300962
+              ],
+              [
+                40.739981784380014,
+                -8.643106554317916
+              ],
+              [
+                40.74005140706483,
+                -8.643144084104613
+              ],
+              [
+                40.74013615641904,
+                -8.643197268661055
+              ],
+              [
+                40.740236032442645,
+                -8.643266107987243
+              ],
+              [
+                40.74035103513563,
+                -8.643350602083174
+              ],
+              [
+                40.74048116449801,
+                -8.643450750948851
+              ],
+              [
+                40.74062642052977,
+                -8.643566554584273
+              ],
+              [
+                40.74078680323091,
+                -8.64369801298944
+              ],
+              [
+                40.7409268247402,
+                -8.643820251328435
+              ],
+              [
+                40.74104648505764,
+                -8.643933269601261
+              ],
+              [
+                40.74114578418321,
+                -8.644037067807915
+              ],
+              [
+                40.74122472211692,
+                -8.644131645948399
+              ],
+              [
+                40.741283298858775,
+                -8.644217004022712
+              ],
+              [
+                40.74132151440876,
+                -8.644293142030856
+              ],
+              [
+                40.741339368766894,
+                -8.64436005997283
+              ],
+              [
+                40.74133686193316,
+                -8.644417757848629
+              ],
+              [
+                40.741324685442386,
+                -8.644466687103927
+              ],
+              [
+                40.74130283929455,
+                -8.64450684773872
+              ],
+              [
+                40.74127132348966,
+                -8.644538239753008
+              ],
+              [
+                40.741230138027724,
+                -8.644560863146793
+              ],
+              [
+                40.74117928290873,
+                -8.644574717920072
+              ],
+              [
+                40.74111875813269,
+                -8.644579804072848
+              ],
+              [
+                40.74104856369959,
+                -8.644576121605118
+              ],
+              [
+                40.740968699609446,
+                -8.644563670516883
+              ],
+              [
+                40.74088959059618,
+                -8.644539571048988
+              ],
+              [
+                40.74081123665981,
+                -8.644503823201427
+              ],
+              [
+                40.74073363780032,
+                -8.644456426974205
+              ],
+              [
+                40.74065679401771,
+                -8.64439738236732
+              ],
+              [
+                40.740580705312,
+                -8.644326689380772
+              ],
+              [
+                40.74050537168317,
+                -8.64424434801456
+              ],
+              [
+                40.740430793131225,
+                -8.644150358268687
+              ],
+              [
+                40.74035696965617,
+                -8.644044720143151
+              ],
+              [
+                40.74028692940946,
+                -8.643942625869006
+              ],
+              [
+                40.7402206723911,
+                -8.643844075446253
+              ],
+              [
+                40.74015819860109,
+                -8.64374906887489
+              ],
+              [
+                40.74009950803943,
+                -8.643657606154918
+              ],
+              [
+                40.74004460070612,
+                -8.643569687286337
+              ],
+              [
+                40.73999347660116,
+                -8.64348531226915
+              ],
+              [
+                40.73994613572455,
+                -8.643404481103351
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.74054653347843,
+    -8.643856005764668
+  ],
+  "centroDeMassa": [
+    40.74054913449616,
+    -8.643838194301228
+  ]
+}

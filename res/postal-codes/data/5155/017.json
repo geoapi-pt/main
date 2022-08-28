@@ -1,1 +1,382 @@
-{"CP4":"5155","CP3":"017","Distrito":"Guarda","Concelho":"Vila Nova de Foz Côa","CP":"5155-017","Artéria":"Rua Dona Maria José Boleo Tomé","Localidade":"Cedovim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CEDOVIM","locais":[{"id":"pt.ine.add.PTCONT.1899329","rua":"R DIREITA","casa":"28 A","coordenadas":[41.02701544659862,-7.310754110701198]},{"id":"pt.ine.add.PTCONT.1904187","rua":"R CESAR CALE","casa":"2","coordenadas":[41.02747997556559,-7.311497426416607]},{"id":"pt.ine.add.PTCONT.1911734","rua":"R DIREITA","casa":"22","coordenadas":[41.02711550481117,-7.310895549836731]},{"id":"pt.ine.add.PTCONT.1912488","rua":"R DIREITA","casa":"11","coordenadas":[41.02739606014371,-7.311094196385109]},{"id":"pt.ine.add.PTCONT.1918644","rua":"TV JOSÉ MAGALHÃES","casa":"1","coordenadas":[41.02717249469491,-7.311311003033883]},{"id":"pt.ine.add.PTCONT.1935843","rua":"R DIREITA","casa":"1","coordenadas":[41.02725930897418,-7.310858089874588]},{"id":"pt.ine.add.PTCONT.1944754","rua":"R DIREITA","casa":"18","coordenadas":[41.027242913051886,-7.3110842106688345]},{"id":"pt.ine.add.PTCONT.1948671","rua":"R DIREITA","casa":"2","coordenadas":[41.027875034851206,-7.311337939363779]},{"id":"pt.ine.add.PTCONT.1951118","rua":"R DIREITA","casa":"5","coordenadas":[41.02769436812383,-7.311256952546087]},{"id":"pt.ine.add.PTCONT.1951119","rua":"R DIREITA","casa":"16","coordenadas":[41.02743343141941,-7.31128397790512]},{"id":"pt.ine.add.PTCONT.1953668","rua":"R DIREITA","casa":"7","coordenadas":[41.02762216924441,-7.31123406943958]},{"id":"pt.ine.add.PTCONT.1963894","rua":"R DIREITA","casa":"28 B","coordenadas":[41.02696091559617,-7.310683447309394]},{"id":"pt.ine.add.PTCONT.1968241","rua":"R DIREITA","casa":"20","coordenadas":[41.0271792937778,-7.311001769454637]},{"id":"pt.ine.add.PTCONT.1969199","rua":"R DIREITA","casa":"12","coordenadas":[41.027569079811116,-7.31136552418935]},{"id":"pt.ine.add.PTCONT.1854716","rua":"R DIREITA","casa":"8","coordenadas":[41.02765911645569,-7.311364404787405]},{"id":"pt.ine.add.PTCONT.1858631","rua":"R DIREITA","casa":"10","coordenadas":[41.02761418290381,-7.311376853861264]},{"id":"pt.ine.add.PTCONT.1865698","rua":"R DIREITA","casa":"15","coordenadas":[41.02751488828014,-7.311342417119362]},{"id":"pt.ine.add.PTCONT.1865703","rua":"R ENG JOSÉ COSTA FERREIRA","casa":"","coordenadas":[41.027138530057144,-7.314129436182096]},{"id":"pt.ine.add.PTCONT.1872707","rua":"R DIREITA","casa":"15","coordenadas":[41.02716867854899,-7.310775984916755]},{"id":"pt.ine.add.PTCONT.1875505","rua":"R DIREITA","casa":"23","coordenadas":[41.027078981222445,-7.310824662197924]},{"id":"pt.ine.add.PTCONT.1888115","rua":"R DIREITA","casa":"4","coordenadas":[41.027776164091534,-7.311362949557289]}],"ruas":["R DIREITA","R CESAR CALE","TV JOSÉ MAGALHÃES","R ENG JOSÉ COSTA FERREIRA"],"centroide":[41.027359518706604,-7.311273601309483]}
+{
+  "CP": "5155-017",
+  "CP4": "5155",
+  "CP3": "017",
+  "Distrito": "Guarda",
+  "Concelho": "Vila Nova de Foz Côa",
+  "Localidade": "Cedovim",
+  "Designação Postal": "CEDOVIM",
+  "partes": [
+    {
+      "Artéria": "Rua Direita",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Dona Maria José Boleo Tomé",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1899329",
+      "rua": "R DIREITA",
+      "casa": "28 A",
+      "coordenadas": [
+        41.02701544659862,
+        -7.310754110701198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1904187",
+      "rua": "R CESAR CALE",
+      "casa": "2",
+      "coordenadas": [
+        41.02747997556559,
+        -7.311497426416607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1911734",
+      "rua": "R DIREITA",
+      "casa": "22",
+      "coordenadas": [
+        41.02711550481117,
+        -7.310895549836731
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1912488",
+      "rua": "R DIREITA",
+      "casa": "11",
+      "coordenadas": [
+        41.02739606014371,
+        -7.311094196385109
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1918644",
+      "rua": "TV JOSÉ MAGALHÃES",
+      "casa": "1",
+      "coordenadas": [
+        41.02717249469491,
+        -7.311311003033883
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1935843",
+      "rua": "R DIREITA",
+      "casa": "1",
+      "coordenadas": [
+        41.02725930897418,
+        -7.310858089874588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1944754",
+      "rua": "R DIREITA",
+      "casa": "18",
+      "coordenadas": [
+        41.027242913051886,
+        -7.3110842106688345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1948671",
+      "rua": "R DIREITA",
+      "casa": "2",
+      "coordenadas": [
+        41.027875034851206,
+        -7.311337939363779
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1951118",
+      "rua": "R DIREITA",
+      "casa": "5",
+      "coordenadas": [
+        41.02769436812383,
+        -7.311256952546087
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1951119",
+      "rua": "R DIREITA",
+      "casa": "16",
+      "coordenadas": [
+        41.02743343141941,
+        -7.31128397790512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1953668",
+      "rua": "R DIREITA",
+      "casa": "7",
+      "coordenadas": [
+        41.02762216924441,
+        -7.31123406943958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1963894",
+      "rua": "R DIREITA",
+      "casa": "28 B",
+      "coordenadas": [
+        41.02696091559617,
+        -7.310683447309394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1968241",
+      "rua": "R DIREITA",
+      "casa": "20",
+      "coordenadas": [
+        41.0271792937778,
+        -7.311001769454637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1969199",
+      "rua": "R DIREITA",
+      "casa": "12",
+      "coordenadas": [
+        41.027569079811116,
+        -7.31136552418935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1854716",
+      "rua": "R DIREITA",
+      "casa": "8",
+      "coordenadas": [
+        41.02765911645569,
+        -7.311364404787405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1858631",
+      "rua": "R DIREITA",
+      "casa": "10",
+      "coordenadas": [
+        41.02761418290381,
+        -7.311376853861264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1865698",
+      "rua": "R DIREITA",
+      "casa": "15",
+      "coordenadas": [
+        41.02751488828014,
+        -7.311342417119362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1865703",
+      "rua": "R ENG JOSÉ COSTA FERREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.027138530057144,
+        -7.314129436182096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1872707",
+      "rua": "R DIREITA",
+      "casa": "15",
+      "coordenadas": [
+        41.02716867854899,
+        -7.310775984916755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1875505",
+      "rua": "R DIREITA",
+      "casa": "23",
+      "coordenadas": [
+        41.027078981222445,
+        -7.310824662197924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1888115",
+      "rua": "R DIREITA",
+      "casa": "4",
+      "coordenadas": [
+        41.027776164091534,
+        -7.311362949557289
+      ]
+    }
+  ],
+  "ruas": [
+    "R DIREITA",
+    "R CESAR CALE",
+    "TV JOSÉ MAGALHÃES",
+    "R ENG JOSÉ COSTA FERREIRA"
+  ],
+  "centro": [
+    41.027417975223685,
+    -7.312406441745745
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.027060823730466,
+                -7.312621816050289
+              ],
+              [
+                41.02703862192285,
+                -7.312191067441201
+              ],
+              [
+                41.027022441637314,
+                -7.311815608308365
+              ],
+              [
+                41.02701228287387,
+                -7.311495438651779
+              ],
+              [
+                41.02700814563252,
+                -7.311230558471443
+              ],
+              [
+                41.02701002991327,
+                -7.3110209677673605
+              ],
+              [
+                41.0270179357161,
+                -7.310866666539527
+              ],
+              [
+                41.02703186304102,
+                -7.310767654787946
+              ],
+              [
+                41.02705181188803,
+                -7.310723932512615
+              ],
+              [
+                41.02707778225714,
+                -7.310735499713534
+              ],
+              [
+                41.02711154314732,
+                -7.310754401552574
+              ],
+              [
+                41.027153094558585,
+                -7.310780638029733
+              ],
+              [
+                41.02720243649094,
+                -7.310814209145013
+              ],
+              [
+                41.02725956894439,
+                -7.310855114898412
+              ],
+              [
+                41.027324491918904,
+                -7.3109033552899305
+              ],
+              [
+                41.027397205414516,
+                -7.310958930319568
+              ],
+              [
+                41.02747770943121,
+                -7.311021839987327
+              ],
+              [
+                41.027566003968985,
+                -7.311092084293207
+              ],
+              [
+                41.02763175380214,
+                -7.311197165198636
+              ],
+              [
+                41.02767495893066,
+                -7.311337082703616
+              ],
+              [
+                41.027695619354546,
+                -7.311511836808149
+              ],
+              [
+                41.0276937350738,
+                -7.311721427512232
+              ],
+              [
+                41.02766930608843,
+                -7.311965854815868
+              ],
+              [
+                41.02762233239843,
+                -7.312245118719055
+              ],
+              [
+                41.0275528140038,
+                -7.312559219221793
+              ],
+              [
+                41.02746075090455,
+                -7.312908156324082
+              ],
+              [
+                41.02737742046675,
+                -7.313159632712449
+              ],
+              [
+                41.0273028226904,
+                -7.313313648386895
+              ],
+              [
+                41.027236957575504,
+                -7.313370203347418
+              ],
+              [
+                41.02717982512206,
+                -7.313329297594019
+              ],
+              [
+                41.027131425330076,
+                -7.313190931126698
+              ],
+              [
+                41.027091758199546,
+                -7.312955103945454
+              ],
+              [
+                41.027060823730466,
+                -7.312621816050289
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.02728578976338,
+    -7.311731701943006
+  ],
+  "centroDeMassa": [
+    41.027417975223685,
+    -7.312406441745745
+  ]
+}

@@ -1,1 +1,532 @@
-{"CP4":"6005","CP3":"117","Distrito":"Castelo Branco","Concelho":"Castelo Branco","CP":"6005-117","Artéria":"Praceta Madre Teresa de Calcutá","Localidade":"Alcains","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALCAINS","locais":[{"id":"pt.ine.add.PTCONT.951744","rua":"R MADRE TERESA DE CALCUTA","casa":"127","coordenadas":[39.91062369308832,-7.459806130969643]},{"id":"pt.ine.add.PTCONT.961765","rua":"R MADRE TERESA DE CALCUTA","casa":"116","coordenadas":[39.91044303553252,-7.459714339492875]},{"id":"pt.ine.add.PTCONT.966115","rua":"R MADRE TERESA DE CALCUTA","casa":"","coordenadas":[39.91130343920792,-7.45899250794459]},{"id":"pt.ine.add.PTCONT.966116","rua":"PCT MADRE TERESA DE CALCUTÁ","casa":"","coordenadas":[39.91041241743444,-7.459094802719794]},{"id":"pt.ine.add.PTCONT.967221","rua":"R MADRE TERESA DE CALCUTA","casa":"135","coordenadas":[39.91107870427993,-7.4590648818792635]},{"id":"pt.ine.add.PTCONT.969374","rua":"PCT MADRE TERESA DE CALCUTA","casa":"118","coordenadas":[39.91028885164729,-7.459528729148418]},{"id":"pt.ine.add.PTCONT.979427","rua":"PCT MADRE TERESA DE CALCUTA","casa":"151","coordenadas":[39.91104077759247,-7.458737789805168]},{"id":"pt.ine.add.PTCONT.979428","rua":"R MADRE TERESA DE CALCUTA","casa":"129","coordenadas":[39.91073968078974,-7.459617873959417]},{"id":"pt.ine.add.PTCONT.980641","rua":"PCT MADRE TERESA DE CALCUTA","casa":"148","coordenadas":[39.910734243299146,-7.458682320438065]},{"id":"pt.ine.add.PTCONT.982966","rua":"PCT MADRE TERESA DE CALCUTA","casa":"150","coordenadas":[39.910924519369765,-7.45887927130987]},{"id":"pt.ine.add.PTCONT.988243","rua":"R MADRE TERESA DE CALCUTA","casa":"126","coordenadas":[39.910552326330276,-7.459923780259426]},{"id":"pt.ine.add.PTCONT.1005678","rua":"PCT MADRE TERESA DE CALCUTA","casa":"147","coordenadas":[39.91063450024339,-7.458566347976989]},{"id":"pt.ine.add.PTCONT.1017577","rua":"R MADRE TERESA DE CALCUTA","casa":"","coordenadas":[39.9113195465803,-7.458664884888315]},{"id":"pt.ine.add.PTCONT.1022735","rua":"PCT MADRE TERESA DE CALCUTA","casa":"146","coordenadas":[39.910552836536375,-7.458461893533814]},{"id":"pt.ine.add.PTCONT.1022736","rua":"PCT MADRE TERESA CALCUTA","casa":"125A","coordenadas":[39.91038614793155,-7.459223705473948]},{"id":"pt.ine.add.PTCONT.1023617","rua":"PCT MADRE TERESA DE CALCUTA","casa":"117","coordenadas":[39.91034349725889,-7.459633449065189]},{"id":"pt.ine.add.PTCONT.1040379","rua":"R MADRE TERESA DE CALCUTA","casa":"1","coordenadas":[39.911509890673194,-7.458873531914857]},{"id":"pt.ine.add.PTCONT.1041015","rua":"R MADRE TERESA DE CALCUTA","casa":"131","coordenadas":[39.910828718975964,-7.459441575425206]},{"id":"pt.ine.add.PTCONT.1046656","rua":"PCT MADRE TERESA DE CALCUTA","casa":"124","coordenadas":[39.91031138285159,-7.458756637615324]},{"id":"pt.ine.add.PTCONT.1050927","rua":"PCT MADRE TERESA DE CALCUTA","casa":"122","coordenadas":[39.910186254848675,-7.458921594512334]},{"id":"pt.ine.add.PTCONT.1063387","rua":"R MADRE TERESA DE CALCUTA","casa":"128","coordenadas":[39.91068625774689,-7.459723652861828]},{"id":"pt.ine.add.PTCONT.1070617","rua":"PCT MADRE TERESA DE CALCUTA","casa":"123","coordenadas":[39.91024895487669,-7.458862504809458]},{"id":"pt.ine.add.PTCONT.1074488","rua":"R MADRE TERESA DE CALCUTA","casa":"134","coordenadas":[39.91101641197087,-7.459194138921855]},{"id":"pt.ine.add.PTCONT.1084030","rua":"PCT MADRE TERESA DE CALCUTÁ","casa":"","coordenadas":[39.91055528513215,-7.458882891457342]},{"id":"pt.ine.add.PTCONT.1087990","rua":"PCT MADRE TERESA DE CALCUTA","casa":"119","coordenadas":[39.91019845483364,-7.459471139605446]},{"id":"pt.ine.add.PTCONT.1096025","rua":"R MADRE TERESA DE CALCUTA","casa":"130","coordenadas":[39.91078423388206,-7.459535571963099]},{"id":"pt.ine.add.PTCONT.1098564","rua":"PCT MADRE TERESA DE CALCUTÁ","casa":"","coordenadas":[39.91047484561933,-7.458988935479823]}],"ruas":["R MADRE TERESA DE CALCUTA","PCT MADRE TERESA DE CALCUTÁ","PCT MADRE TERESA DE CALCUTA","PCT MADRE TERESA CALCUTA"],"centroide":[39.91068092549669,-7.459163690305829]}
+{
+  "CP": "6005-117",
+  "CP4": "6005",
+  "CP3": "117",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Castelo Branco",
+  "Localidade": "Alcains",
+  "Designação Postal": "ALCAINS",
+  "partes": [
+    {
+      "Artéria": "Rua Madre Teresa de Calcutá",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Praceta Madre Teresa de Calcutá",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.951744",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "127",
+      "coordenadas": [
+        39.91062369308832,
+        -7.459806130969643
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.961765",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "116",
+      "coordenadas": [
+        39.91044303553252,
+        -7.459714339492875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.966115",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "",
+      "coordenadas": [
+        39.91130343920792,
+        -7.45899250794459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.966116",
+      "rua": "PCT MADRE TERESA DE CALCUTÁ",
+      "casa": "",
+      "coordenadas": [
+        39.91041241743444,
+        -7.459094802719794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.967221",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "135",
+      "coordenadas": [
+        39.91107870427993,
+        -7.4590648818792635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.969374",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "118",
+      "coordenadas": [
+        39.91028885164729,
+        -7.459528729148418
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.979427",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "151",
+      "coordenadas": [
+        39.91104077759247,
+        -7.458737789805168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.979428",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "129",
+      "coordenadas": [
+        39.91073968078974,
+        -7.459617873959417
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.980641",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "148",
+      "coordenadas": [
+        39.910734243299146,
+        -7.458682320438065
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.982966",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "150",
+      "coordenadas": [
+        39.910924519369765,
+        -7.45887927130987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.988243",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "126",
+      "coordenadas": [
+        39.910552326330276,
+        -7.459923780259426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1005678",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "147",
+      "coordenadas": [
+        39.91063450024339,
+        -7.458566347976989
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1017577",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "",
+      "coordenadas": [
+        39.9113195465803,
+        -7.458664884888315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1022735",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "146",
+      "coordenadas": [
+        39.910552836536375,
+        -7.458461893533814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1022736",
+      "rua": "PCT MADRE TERESA CALCUTA",
+      "casa": "125A",
+      "coordenadas": [
+        39.91038614793155,
+        -7.459223705473948
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1023617",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "117",
+      "coordenadas": [
+        39.91034349725889,
+        -7.459633449065189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1040379",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "1",
+      "coordenadas": [
+        39.911509890673194,
+        -7.458873531914857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1041015",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "131",
+      "coordenadas": [
+        39.910828718975964,
+        -7.459441575425206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1046656",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "124",
+      "coordenadas": [
+        39.91031138285159,
+        -7.458756637615324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1050927",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "122",
+      "coordenadas": [
+        39.910186254848675,
+        -7.458921594512334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1063387",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "128",
+      "coordenadas": [
+        39.91068625774689,
+        -7.459723652861828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1070617",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "123",
+      "coordenadas": [
+        39.91024895487669,
+        -7.458862504809458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1074488",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "134",
+      "coordenadas": [
+        39.91101641197087,
+        -7.459194138921855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1084030",
+      "rua": "PCT MADRE TERESA DE CALCUTÁ",
+      "casa": "",
+      "coordenadas": [
+        39.91055528513215,
+        -7.458882891457342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1087990",
+      "rua": "PCT MADRE TERESA DE CALCUTA",
+      "casa": "119",
+      "coordenadas": [
+        39.91019845483364,
+        -7.459471139605446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1096025",
+      "rua": "R MADRE TERESA DE CALCUTA",
+      "casa": "130",
+      "coordenadas": [
+        39.91078423388206,
+        -7.459535571963099
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1098564",
+      "rua": "PCT MADRE TERESA DE CALCUTÁ",
+      "casa": "",
+      "coordenadas": [
+        39.91047484561933,
+        -7.458988935479823
+      ]
+    }
+  ],
+  "ruas": [
+    "R MADRE TERESA DE CALCUTA",
+    "PCT MADRE TERESA DE CALCUTÁ",
+    "PCT MADRE TERESA DE CALCUTA",
+    "PCT MADRE TERESA CALCUTA"
+  ],
+  "centro": [
+    39.910848072760935,
+    -7.459192836896619
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.910193117340214,
+                -7.45923071362721
+              ],
+              [
+                39.9101915923421,
+                -7.45916202049057
+              ],
+              [
+                39.910192213093794,
+                -7.459099336544495
+              ],
+              [
+                39.91019497959529,
+                -7.459042661788984
+              ],
+              [
+                39.9101998918466,
+                -7.458991996224038
+              ],
+              [
+                39.91020694984772,
+                -7.458947339849654
+              ],
+              [
+                39.910216153598654,
+                -7.458908692665836
+              ],
+              [
+                39.9102275030994,
+                -7.458876054672583
+              ],
+              [
+                39.91024099834995,
+                -7.458849425869892
+              ],
+              [
+                39.910256639350315,
+                -7.458828806257766
+              ],
+              [
+                39.91027409793946,
+                -7.458806158720883
+              ],
+              [
+                39.91029337411738,
+                -7.45878148325924
+              ],
+              [
+                39.910314467884085,
+                -7.458754779872841
+              ],
+              [
+                39.910337379239564,
+                -7.458726048561683
+              ],
+              [
+                39.91036210818383,
+                -7.458695289325767
+              ],
+              [
+                39.91038865471687,
+                -7.458662502165094
+              ],
+              [
+                39.910417018838686,
+                -7.458627687079663
+              ],
+              [
+                39.910447200549285,
+                -7.458590844069475
+              ],
+              [
+                39.9104855893905,
+                -7.458561778175474
+              ],
+              [
+                39.910532185362314,
+                -7.4585404893976595
+              ],
+              [
+                39.91058698846475,
+                -7.4585269777360335
+              ],
+              [
+                39.91064999869779,
+                -7.458521243190596
+              ],
+              [
+                39.91072121606145,
+                -7.458523285761346
+              ],
+              [
+                39.91080064055572,
+                -7.458533105448283
+              ],
+              [
+                39.91088827218059,
+                -7.458550702251408
+              ],
+              [
+                39.910984110936084,
+                -7.45857607617072
+              ],
+              [
+                39.911070943973584,
+                -7.458601538459909
+              ],
+              [
+                39.911148771293114,
+                -7.458627089118973
+              ],
+              [
+                39.911217592894644,
+                -7.4586527281479125
+              ],
+              [
+                39.9112774087782,
+                -7.458678455546728
+              ],
+              [
+                39.911328218943765,
+                -7.458704271315419
+              ],
+              [
+                39.91137002339134,
+                -7.458730175453985
+              ],
+              [
+                39.91140282212094,
+                -7.458756167962427
+              ],
+              [
+                39.911426615132555,
+                -7.458782248840745
+              ],
+              [
+                39.91143247207486,
+                -7.458821479739656
+              ],
+              [
+                39.911420392947846,
+                -7.458873860659162
+              ],
+              [
+                39.91139037775153,
+                -7.458939391599262
+              ],
+              [
+                39.91134242648591,
+                -7.459018072559957
+              ],
+              [
+                39.911276539150975,
+                -7.459109903541245
+              ],
+              [
+                39.91119271574672,
+                -7.459214884543128
+              ],
+              [
+                39.91109095627317,
+                -7.459333015565606
+              ],
+              [
+                39.9109712607303,
+                -7.459464296608677
+              ],
+              [
+                39.91086099788816,
+                -7.459572095011145
+              ],
+              [
+                39.910760167746744,
+                -7.459656410773012
+              ],
+              [
+                39.910668770306046,
+                -7.459717243894276
+              ],
+              [
+                39.910586805566076,
+                -7.459754594374939
+              ],
+              [
+                39.91051427352683,
+                -7.459768462214999
+              ],
+              [
+                39.910451174188296,
+                -7.459758847414456
+              ],
+              [
+                39.9103975075505,
+                -7.459725749973311
+              ],
+              [
+                39.910353273613424,
+                -7.459669169891562
+              ],
+              [
+                39.91031437829371,
+                -7.4596110756779535
+              ],
+              [
+                39.910280821591364,
+                -7.459551467332482
+              ],
+              [
+                39.91025260350639,
+                -7.45949034485515
+              ],
+              [
+                39.9102297240388,
+                -7.459427708245958
+              ],
+              [
+                39.91021218318857,
+                -7.459363557504902
+              ],
+              [
+                39.9101999809557,
+                -7.459297892631987
+              ],
+              [
+                39.910193117340214,
+                -7.45923071362721
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.910661527522,
+    -7.459010494618502
+  ],
+  "centroDeMassa": [
+    39.910848072760935,
+    -7.459192836896619
+  ]
+}

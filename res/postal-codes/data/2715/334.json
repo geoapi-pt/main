@@ -1,1 +1,551 @@
-{"CP4":"2715","CP3":"334","Distrito":"Lisboa","Concelho":"Sintra","CP":"2715-334","Artéria":"Rua da Pedra da Abelha","Localidade":"Negrais","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALMARGEM DO BISPO","locais":[{"id":"pt.ine.add.PTCONT.2317572","rua":"R PEDRA DA ABELHA QTA DAS ROSAS","casa":"54","coordenadas":[38.882583716598596,-9.276248611523448]},{"id":"pt.ine.add.PTCONT.2331541","rua":"R PEDRA DA ABELHA","casa":"63","coordenadas":[38.882047277017456,-9.27675860489808]},{"id":"pt.ine.add.PTCONT.2335637","rua":"R PEDRA DA ABELHA","casa":"59","coordenadas":[38.88175817775338,-9.276846163375362]},{"id":"pt.ine.add.PTCONT.2362597","rua":"R PEDRA DA ABELHA","casa":"58","coordenadas":[38.88271497247152,-9.276642542216354]},{"id":"pt.ine.add.PTCONT.2436766","rua":"R PEDRA DA ABELHA","casa":"4","coordenadas":[38.87964712937638,-9.277181080399663]},{"id":"pt.ine.add.PTCONT.2476878","rua":"R PEDRA DA ABELHA","casa":"28","coordenadas":[38.88076682545016,-9.27689941303269]},{"id":"pt.ine.add.PTCONT.2489407","rua":"R PEDRA DA ABELHA","casa":"44","coordenadas":[38.88162466570834,-9.276682684564264]},{"id":"pt.ine.add.PTCONT.2508905","rua":"R PEDRA DA ABELHA","casa":"48","coordenadas":[38.88169750472732,-9.27660318309585]},{"id":"pt.ine.add.PTCONT.2517976","rua":"R PEDRA DA ABELHA","casa":"71","coordenadas":[38.88225543383509,-9.276658223868912]},{"id":"pt.ine.add.PTCONT.2669457","rua":"R PEDRA DA ABELHA","casa":"69","coordenadas":[38.88212056748146,-9.27663301334771]},{"id":"pt.ine.add.PTCONT.2669464","rua":"R PEDRA DA ABELHA","casa":"67","coordenadas":[38.881985136888474,-9.276665414944949]},{"id":"pt.ine.add.PTCONT.2723055","rua":"R PEDRA DA ABELHA","casa":"","coordenadas":[38.88099940474321,-9.277064478889137]},{"id":"pt.ine.add.PTCONT.2792549","rua":"R PEDRA DA ABELHA","casa":"","coordenadas":[38.88102552003136,-9.277157090131672]},{"id":"pt.ine.add.PTCONT.2853096","rua":"R PEDRA ABELHA","casa":"27","coordenadas":[38.880484474424605,-9.277217557089974]},{"id":"pt.ine.add.PTCONT.2892358","rua":"R PEDRA DA ABELHA","casa":"55","coordenadas":[38.88164716922419,-9.277144011619885]},{"id":"pt.ine.add.PTCONT.2912170","rua":"R PEDRA ABELHA","casa":"N 4 6","coordenadas":[38.87959026984514,-9.277468264165003]},{"id":"pt.ine.add.PTCONT.2976052","rua":"R PEDRA DA ABELHA","casa":"17","coordenadas":[38.88000342288183,-9.277590130516373]},{"id":"pt.ine.add.PTCONT.2983161","rua":"R PEDRA DA ABELHA","casa":"61","coordenadas":[38.88184891629622,-9.276778473092227]},{"id":"pt.ine.add.PTCONT.3003077","rua":"R PEDRA ABELHA","casa":"57","coordenadas":[38.88170244781887,-9.277018132327749]},{"id":"pt.ine.add.PTCONT.3049145","rua":"R PEDRA DA ABELHA","casa":"39","coordenadas":[38.88131428086557,-9.27710410062589]},{"id":"pt.ine.add.PTCONT.3104989","rua":"R PEDRA DA ABELHA","casa":"63","coordenadas":[38.88201879135856,-9.276907963033258]},{"id":"pt.ine.add.PTCONT.3189881","rua":"R PEDRA DA ABELHA","casa":"50","coordenadas":[38.881815261546485,-9.276535925638013]},{"id":"pt.ine.add.PTCONT.3212708","rua":"R PEDRA DA ABELHA","casa":"13","coordenadas":[38.87985887294136,-9.277633906995609]},{"id":"pt.ine.add.PTCONT.3244883","rua":"R PEDRA DA ABELHA","casa":"9","coordenadas":[38.879758563038266,-9.27775906005201]},{"id":"pt.ine.add.PTCONT.3263644","rua":"R PEDRA ABELHA","casa":"53","coordenadas":[38.881594599946894,-9.276993354601325]},{"id":"pt.ine.add.PTCONT.3281342","rua":"R PEDRA DA ABELHA","casa":"","coordenadas":[38.880028634182786,-9.2777749173032]},{"id":"pt.ine.add.PTCONT.3307596","rua":"R PEDRA DA ABELHA","casa":"1O","coordenadas":[38.87978840487702,-9.277471442456179]},{"id":"pt.ine.add.PTCONT.3355165","rua":"R PEDRA DA ABELHA","casa":"75","coordenadas":[38.882531463816846,-9.276985329384901]},{"id":"pt.ine.add.PTCONT.3360274","rua":"R PEDRA DA ABELHA","casa":"75","coordenadas":[38.882531463816846,-9.276985329384901]},{"id":"pt.ine.add.PTCONT.3364479","rua":"R PEDRA DA ABELHA","casa":"33","coordenadas":[38.880982069762425,-9.276995056604326]}],"ruas":["R PEDRA DA ABELHA QTA DAS ROSAS","R PEDRA DA ABELHA","R PEDRA ABELHA"],"centroide":[38.88130149548152,-9.2770140828474]}
+{
+  "CP": "2715-334",
+  "CP4": "2715",
+  "CP3": "334",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Negrais",
+  "Designação Postal": "ALMARGEM DO BISPO",
+  "partes": [
+    {
+      "Artéria": "Rua da Pedra da Abelha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2317572",
+      "rua": "R PEDRA DA ABELHA QTA DAS ROSAS",
+      "casa": "54",
+      "coordenadas": [
+        38.882583716598596,
+        -9.276248611523448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2331541",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "63",
+      "coordenadas": [
+        38.882047277017456,
+        -9.27675860489808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2335637",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "59",
+      "coordenadas": [
+        38.88175817775338,
+        -9.276846163375362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2362597",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "58",
+      "coordenadas": [
+        38.88271497247152,
+        -9.276642542216354
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2436766",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "4",
+      "coordenadas": [
+        38.87964712937638,
+        -9.277181080399663
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2476878",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "28",
+      "coordenadas": [
+        38.88076682545016,
+        -9.27689941303269
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2489407",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "44",
+      "coordenadas": [
+        38.88162466570834,
+        -9.276682684564264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2508905",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "48",
+      "coordenadas": [
+        38.88169750472732,
+        -9.27660318309585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2517976",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "71",
+      "coordenadas": [
+        38.88225543383509,
+        -9.276658223868912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2669457",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "69",
+      "coordenadas": [
+        38.88212056748146,
+        -9.27663301334771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2669464",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "67",
+      "coordenadas": [
+        38.881985136888474,
+        -9.276665414944949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2723055",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "",
+      "coordenadas": [
+        38.88099940474321,
+        -9.277064478889137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2792549",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "",
+      "coordenadas": [
+        38.88102552003136,
+        -9.277157090131672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2853096",
+      "rua": "R PEDRA ABELHA",
+      "casa": "27",
+      "coordenadas": [
+        38.880484474424605,
+        -9.277217557089974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2892358",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "55",
+      "coordenadas": [
+        38.88164716922419,
+        -9.277144011619885
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2912170",
+      "rua": "R PEDRA ABELHA",
+      "casa": "N 4 6",
+      "coordenadas": [
+        38.87959026984514,
+        -9.277468264165003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2976052",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "17",
+      "coordenadas": [
+        38.88000342288183,
+        -9.277590130516373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2983161",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "61",
+      "coordenadas": [
+        38.88184891629622,
+        -9.276778473092227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3003077",
+      "rua": "R PEDRA ABELHA",
+      "casa": "57",
+      "coordenadas": [
+        38.88170244781887,
+        -9.277018132327749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3049145",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "39",
+      "coordenadas": [
+        38.88131428086557,
+        -9.27710410062589
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3104989",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "63",
+      "coordenadas": [
+        38.88201879135856,
+        -9.276907963033258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3189881",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "50",
+      "coordenadas": [
+        38.881815261546485,
+        -9.276535925638013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3212708",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "13",
+      "coordenadas": [
+        38.87985887294136,
+        -9.277633906995609
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3244883",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "9",
+      "coordenadas": [
+        38.879758563038266,
+        -9.27775906005201
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3263644",
+      "rua": "R PEDRA ABELHA",
+      "casa": "53",
+      "coordenadas": [
+        38.881594599946894,
+        -9.276993354601325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3281342",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "",
+      "coordenadas": [
+        38.880028634182786,
+        -9.2777749173032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3307596",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "1O",
+      "coordenadas": [
+        38.87978840487702,
+        -9.277471442456179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3355165",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "75",
+      "coordenadas": [
+        38.882531463816846,
+        -9.276985329384901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3360274",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "75",
+      "coordenadas": [
+        38.882531463816846,
+        -9.276985329384901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3364479",
+      "rua": "R PEDRA DA ABELHA",
+      "casa": "33",
+      "coordenadas": [
+        38.880982069762425,
+        -9.276995056604326
+      ]
+    }
+  ],
+  "ruas": [
+    "R PEDRA DA ABELHA QTA DAS ROSAS",
+    "R PEDRA DA ABELHA",
+    "R PEDRA ABELHA"
+  ],
+  "centro": [
+    38.88115262115833,
+    -9.277011764413324
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.87968493476627,
+                -9.277631836851445
+              ],
+              [
+                38.87966389811714,
+                -9.277595487365568
+              ],
+              [
+                38.87964637947931,
+                -9.277559194319092
+              ],
+              [
+                38.87963237885281,
+                -9.27752295771202
+              ],
+              [
+                38.87962189623762,
+                -9.277486777544347
+              ],
+              [
+                38.87961493163375,
+                -9.277450653816075
+              ],
+              [
+                38.8796114850412,
+                -9.277414586527204
+              ],
+              [
+                38.87961155645997,
+                -9.277378575677734
+              ],
+              [
+                38.87961514589006,
+                -9.277342621267666
+              ],
+              [
+                38.87962225333146,
+                -9.277306723297
+              ],
+              [
+                38.87967435651804,
+                -9.277260742746474
+              ],
+              [
+                38.879771455449784,
+                -9.277204679616093
+              ],
+              [
+                38.8799135501267,
+                -9.277138533905852
+              ],
+              [
+                38.880100640548804,
+                -9.277062305615754
+              ],
+              [
+                38.88033272671606,
+                -9.276975994745799
+              ],
+              [
+                38.8806098086285,
+                -9.276879601295988
+              ],
+              [
+                38.880931886286106,
+                -9.276773125266319
+              ],
+              [
+                38.88129895968888,
+                -9.276656566656792
+              ],
+              [
+                38.88162219978932,
+                -9.276560733040531
+              ],
+              [
+                38.881901606587434,
+                -9.27648562441754
+              ],
+              [
+                38.88213718008321,
+                -9.276431240787815
+              ],
+              [
+                38.88232892027666,
+                -9.27639758215136
+              ],
+              [
+                38.88247682716777,
+                -9.27638464850817
+              ],
+              [
+                38.88258090075656,
+                -9.276392439858249
+              ],
+              [
+                38.882641141043,
+                -9.276420956201594
+              ],
+              [
+                38.88265754802711,
+                -9.276470197538206
+              ],
+              [
+                38.882669036815486,
+                -9.276518639757253
+              ],
+              [
+                38.88267560740811,
+                -9.27656628285873
+              ],
+              [
+                38.88267725980499,
+                -9.276613126842639
+              ],
+              [
+                38.88267399400614,
+                -9.27665917170898
+              ],
+              [
+                38.88266581001153,
+                -9.276704417457752
+              ],
+              [
+                38.88265270782119,
+                -9.276748864088958
+              ],
+              [
+                38.8826346874351,
+                -9.276792511602594
+              ],
+              [
+                38.882611748853265,
+                -9.276835359998664
+              ],
+              [
+                38.88255257088113,
+                -9.276885189656447
+              ],
+              [
+                38.88245715351869,
+                -9.276942000575945
+              ],
+              [
+                38.88232549676595,
+                -9.277005792757159
+              ],
+              [
+                38.8821576006229,
+                -9.277076566200083
+              ],
+              [
+                38.88195346508955,
+                -9.277154320904726
+              ],
+              [
+                38.881713090165896,
+                -9.277239056871084
+              ],
+              [
+                38.88143647585194,
+                -9.277330774099156
+              ],
+              [
+                38.88112362214768,
+                -9.277429472588945
+              ],
+              [
+                38.88084565529482,
+                -9.277515585997959
+              ],
+              [
+                38.880602575293366,
+                -9.277589114326199
+              ],
+              [
+                38.88039438214331,
+                -9.277650057573666
+              ],
+              [
+                38.880221075844645,
+                -9.27769841574036
+              ],
+              [
+                38.88008265639739,
+                -9.277734188826281
+              ],
+              [
+                38.87997912380152,
+                -9.27775737683143
+              ],
+              [
+                38.879910478057056,
+                -9.277767979755804
+              ],
+              [
+                38.879876719163995,
+                -9.277765997599404
+              ],
+              [
+                38.879844550551425,
+                -9.27775971952682
+              ],
+              [
+                38.87981397221934,
+                -9.277749145538053
+              ],
+              [
+                38.87978498416774,
+                -9.277734275633101
+              ],
+              [
+                38.879757586396636,
+                -9.277715109811965
+              ],
+              [
+                38.87973177890602,
+                -9.277691648074644
+              ],
+              [
+                38.879707561695895,
+                -9.277663890421135
+              ],
+              [
+                38.87968493476627,
+                -9.277631836851445
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.88097924990422,
+    -9.277151400720655
+  ],
+  "centroDeMassa": [
+    38.88115262115833,
+    -9.277011764413324
+  ]
+}

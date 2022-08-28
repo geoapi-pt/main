@@ -1,1 +1,556 @@
-{"CP4":"4470","CP3":"619","Distrito":"Porto","Concelho":"Maia","CP":"4470-619","Artéria":"Rua Doutora Maria Eulália Balacó","Localidade":"Maia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MAIA","locais":[{"id":"pt.ine.add.PTCONT.3583139","rua":"R DR EULÁLIA BALOCÓ","casa":"103","coordenadas":[41.25422070092052,-8.648600086187189]},{"id":"pt.ine.add.PTCONT.3583140","rua":"R DR EULÁLIA BALOCÓ","casa":"103","coordenadas":[41.25422070092052,-8.648600086187189]},{"id":"pt.ine.add.PTCONT.3583141","rua":"R DR EULÁLIA BALOCÓ","casa":"103","coordenadas":[41.25422070092052,-8.648600086187189]},{"id":"pt.ine.add.PTCONT.3584694","rua":"R DR EULÁLIA BALOCÓ","casa":"103","coordenadas":[41.25422070092052,-8.648600086187189]},{"id":"pt.ine.add.PTCONT.3642879","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"67","coordenadas":[41.25396720321904,-8.648908311928892]},{"id":"pt.ine.add.PTCONT.3642880","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"67","coordenadas":[41.25396720321904,-8.648908311928892]},{"id":"pt.ine.add.PTCONT.3707743","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"186","coordenadas":[41.2544053677864,-8.647575423319907]},{"id":"pt.ine.add.PTCONT.3837123","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"45","coordenadas":[41.25381338897776,-8.649074142401098]},{"id":"pt.ine.add.PTCONT.3837124","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"33","coordenadas":[41.253768102268026,-8.649133443299862]},{"id":"pt.ine.add.PTCONT.3837125","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"33","coordenadas":[41.253768102268026,-8.649133443299862]},{"id":"pt.ine.add.PTCONT.3837130","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"45","coordenadas":[41.25381338897776,-8.649074142401098]},{"id":"pt.ine.add.PTCONT.3873995","rua":"R DR MARIA EULALIA BALACO","casa":"25","coordenadas":[41.25364151326963,-8.64925176135906]},{"id":"pt.ine.add.PTCONT.3873996","rua":"R DR MARIA EULALIA BALACO","casa":"7","coordenadas":[41.25364151326963,-8.64925176135906]},{"id":"pt.ine.add.PTCONT.3914828","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"75","coordenadas":[41.254057776376975,-8.648789709378788]},{"id":"pt.ine.add.PTCONT.3914829","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"75","coordenadas":[41.254057776376975,-8.648789709378788]},{"id":"pt.ine.add.PTCONT.3921146","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"173","coordenadas":[41.2543331235424,-8.647622582700164]},{"id":"pt.ine.add.PTCONT.3959525","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"121","coordenadas":[41.254338392187826,-8.648457832792792]},{"id":"pt.ine.add.PTCONT.4063673","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"286","coordenadas":[41.25524480622557,-8.64711667270343]},{"id":"pt.ine.add.PTCONT.4115919","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"53","coordenadas":[41.25390380193606,-8.648991333519026]},{"id":"pt.ine.add.PTCONT.4115920","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"53","coordenadas":[41.25390380193606,-8.648991333519026]},{"id":"pt.ine.add.PTCONT.4259769","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"89","coordenadas":[41.254112013349975,-8.648742409875588]},{"id":"pt.ine.add.PTCONT.4313467","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"242","coordenadas":[41.25501022610003,-8.647222218859012]},{"id":"pt.ine.add.PTCONT.4314632","rua":"R DR MARIA EULALIA BALACO","casa":"232A","coordenadas":[41.25485662744025,-8.647340331003926]},{"id":"pt.ine.add.PTCONT.4314633","rua":"R DR MARIA EULALIA BALACO","casa":"232","coordenadas":[41.25485662744025,-8.647340331003926]},{"id":"pt.ine.add.PTCONT.4326736","rua":"R DRA MARIA EULÁLIA BALACÓ","casa":"325","coordenadas":[41.25558892337465,-8.646677894445075]},{"id":"pt.ine.add.PTCONT.4334568","rua":"R DR MARIA EULALIA BALACO","casa":"328","coordenadas":[41.25536382655688,-8.646676131342549]},{"id":"pt.ine.add.PTCONT.4334569","rua":"R DR MARIA EULALIA BALACO","casa":"326","coordenadas":[41.25536382655688,-8.646676131342549]}],"ruas":["R DR EULÁLIA BALOCÓ","R DRA MARIA EULÁLIA BALACÓ","R DR MARIA EULALIA BALACO"],"centroide":[41.25428062729929,-8.648364214483408]}
+{
+  "CP": "4470-619",
+  "CP4": "4470",
+  "CP3": "619",
+  "Distrito": "Porto",
+  "Concelho": "Maia",
+  "Localidade": "Maia",
+  "Designação Postal": "MAIA",
+  "partes": [
+    {
+      "Artéria": "Rua Doutora Maria Eulália Balacó",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3583139",
+      "rua": "R DR EULÁLIA BALOCÓ",
+      "casa": "103",
+      "coordenadas": [
+        41.25422070092052,
+        -8.648600086187189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3583140",
+      "rua": "R DR EULÁLIA BALOCÓ",
+      "casa": "103",
+      "coordenadas": [
+        41.25422070092052,
+        -8.648600086187189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3583141",
+      "rua": "R DR EULÁLIA BALOCÓ",
+      "casa": "103",
+      "coordenadas": [
+        41.25422070092052,
+        -8.648600086187189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3584694",
+      "rua": "R DR EULÁLIA BALOCÓ",
+      "casa": "103",
+      "coordenadas": [
+        41.25422070092052,
+        -8.648600086187189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3642879",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "67",
+      "coordenadas": [
+        41.25396720321904,
+        -8.648908311928892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3642880",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "67",
+      "coordenadas": [
+        41.25396720321904,
+        -8.648908311928892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3707743",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "186",
+      "coordenadas": [
+        41.2544053677864,
+        -8.647575423319907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837123",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "45",
+      "coordenadas": [
+        41.25381338897776,
+        -8.649074142401098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837124",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "33",
+      "coordenadas": [
+        41.253768102268026,
+        -8.649133443299862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837125",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "33",
+      "coordenadas": [
+        41.253768102268026,
+        -8.649133443299862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837130",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "45",
+      "coordenadas": [
+        41.25381338897776,
+        -8.649074142401098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3873995",
+      "rua": "R DR MARIA EULALIA BALACO",
+      "casa": "25",
+      "coordenadas": [
+        41.25364151326963,
+        -8.64925176135906
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3873996",
+      "rua": "R DR MARIA EULALIA BALACO",
+      "casa": "7",
+      "coordenadas": [
+        41.25364151326963,
+        -8.64925176135906
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3914828",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "75",
+      "coordenadas": [
+        41.254057776376975,
+        -8.648789709378788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3914829",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "75",
+      "coordenadas": [
+        41.254057776376975,
+        -8.648789709378788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3921146",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "173",
+      "coordenadas": [
+        41.2543331235424,
+        -8.647622582700164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3959525",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "121",
+      "coordenadas": [
+        41.254338392187826,
+        -8.648457832792792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4063673",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "286",
+      "coordenadas": [
+        41.25524480622557,
+        -8.64711667270343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4115919",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "53",
+      "coordenadas": [
+        41.25390380193606,
+        -8.648991333519026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4115920",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "53",
+      "coordenadas": [
+        41.25390380193606,
+        -8.648991333519026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4259769",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "89",
+      "coordenadas": [
+        41.254112013349975,
+        -8.648742409875588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4313467",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "242",
+      "coordenadas": [
+        41.25501022610003,
+        -8.647222218859012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4314632",
+      "rua": "R DR MARIA EULALIA BALACO",
+      "casa": "232A",
+      "coordenadas": [
+        41.25485662744025,
+        -8.647340331003926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4314633",
+      "rua": "R DR MARIA EULALIA BALACO",
+      "casa": "232",
+      "coordenadas": [
+        41.25485662744025,
+        -8.647340331003926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4326736",
+      "rua": "R DRA MARIA EULÁLIA BALACÓ",
+      "casa": "325",
+      "coordenadas": [
+        41.25558892337465,
+        -8.646677894445075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4334568",
+      "rua": "R DR MARIA EULALIA BALACO",
+      "casa": "328",
+      "coordenadas": [
+        41.25536382655688,
+        -8.646676131342549
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4334569",
+      "rua": "R DR MARIA EULALIA BALACO",
+      "casa": "326",
+      "coordenadas": [
+        41.25536382655688,
+        -8.646676131342549
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR EULÁLIA BALOCÓ",
+    "R DRA MARIA EULÁLIA BALACÓ",
+    "R DR MARIA EULALIA BALACO"
+  ],
+  "centro": [
+    41.254615218322144,
+    -8.647963946350805
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.25371271958122,
+                -8.64918520745076
+              ],
+              [
+                41.25369689595643,
+                -8.64919999720816
+              ],
+              [
+                41.25369385669524,
+                -8.64918748232934
+              ],
+              [
+                41.25370360179766,
+                -8.6491476628143
+              ],
+              [
+                41.2537261312637,
+                -8.64908053866304
+              ],
+              [
+                41.25376144509335,
+                -8.648986109875558
+              ],
+              [
+                41.253809543286614,
+                -8.648864376451858
+              ],
+              [
+                41.25387042584348,
+                -8.648715338391936
+              ],
+              [
+                41.253944092763966,
+                -8.648538995695795
+              ],
+              [
+                41.254030544048064,
+                -8.648335348363432
+              ],
+              [
+                41.254122293656245,
+                -8.648142368645152
+              ],
+              [
+                41.254219341588524,
+                -8.647960056540954
+              ],
+              [
+                41.254321687844886,
+                -8.64778841205084
+              ],
+              [
+                41.25442933242534,
+                -8.647627435174808
+              ],
+              [
+                41.25454227532988,
+                -8.647477125912859
+              ],
+              [
+                41.254660516558516,
+                -8.647337484264991
+              ],
+              [
+                41.25478405611124,
+                -8.647208510231208
+              ],
+              [
+                41.25491289398804,
+                -8.647090203811505
+              ],
+              [
+                41.25502914426803,
+                -8.646986713242743
+              ],
+              [
+                41.255132806951195,
+                -8.64689803852492
+              ],
+              [
+                41.255223882037534,
+                -8.646824179658037
+              ],
+              [
+                41.25530236952705,
+                -8.646765136642095
+              ],
+              [
+                41.25536826941975,
+                -8.646720909477091
+              ],
+              [
+                41.25542158171561,
+                -8.646691498163028
+              ],
+              [
+                41.25546230641466,
+                -8.646676902699904
+              ],
+              [
+                41.25549044351688,
+                -8.64667712308772
+              ],
+              [
+                41.25549552393153,
+                -8.64670512746374
+              ],
+              [
+                41.2554775476586,
+                -8.646760915827969
+              ],
+              [
+                41.25543651469811,
+                -8.646844488180403
+              ],
+              [
+                41.25537242505005,
+                -8.646955844521045
+              ],
+              [
+                41.25528527871441,
+                -8.64709498484989
+              ],
+              [
+                41.2551750756912,
+                -8.647261909166943
+              ],
+              [
+                41.25504181598042,
+                -8.647456617472201
+              ],
+              [
+                41.25488549958206,
+                -8.647679109765665
+              ],
+              [
+                41.25474518556416,
+                -8.647878237039366
+              ],
+              [
+                41.25462087392671,
+                -8.648053999293301
+              ],
+              [
+                41.25451256466972,
+                -8.648206396527472
+              ],
+              [
+                41.25442025779318,
+                -8.648335428741879
+              ],
+              [
+                41.25434395329709,
+                -8.648441095936521
+              ],
+              [
+                41.254283651181446,
+                -8.6485233981114
+              ],
+              [
+                41.254239351446266,
+                -8.648582335266514
+              ],
+              [
+                41.254211054091535,
+                -8.648617907401865
+              ],
+              [
+                41.2541830406028,
+                -8.648652922452225
+              ],
+              [
+                41.25415531098007,
+                -8.648687380417595
+              ],
+              [
+                41.25412786522333,
+                -8.648721281297973
+              ],
+              [
+                41.2541007033326,
+                -8.648754625093364
+              ],
+              [
+                41.254073825307856,
+                -8.648787411803763
+              ],
+              [
+                41.25404723114912,
+                -8.648819641429172
+              ],
+              [
+                41.254020920856384,
+                -8.648851313969592
+              ],
+              [
+                41.253994894429646,
+                -8.648882429425022
+              ],
+              [
+                41.25397000099893,
+                -8.648911875913848
+              ],
+              [
+                41.25394624056426,
+                -8.648939653436072
+              ],
+              [
+                41.25392361312561,
+                -8.648965761991692
+              ],
+              [
+                41.25390211868299,
+                -8.648990201580709
+              ],
+              [
+                41.2538817572364,
+                -8.649012972203122
+              ],
+              [
+                41.25386252878583,
+                -8.649034073858934
+              ],
+              [
+                41.253844433331295,
+                -8.649053506548142
+              ],
+              [
+                41.25382747087279,
+                -8.649071270270746
+              ],
+              [
+                41.2538106507685,
+                -8.6490886622477
+              ],
+              [
+                41.25379397301842,
+                -8.649105682479004
+              ],
+              [
+                41.25377743762256,
+                -8.649122330964657
+              ],
+              [
+                41.2537610445809,
+                -8.649138607704659
+              ],
+              [
+                41.25374479389346,
+                -8.64915451269901
+              ],
+              [
+                41.25372868556023,
+                -8.64917004594771
+              ],
+              [
+                41.25371271958122,
+                -8.64918520745076
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.254381212060686,
+    -8.648194173666765
+  ],
+  "centroDeMassa": [
+    41.254615218322144,
+    -8.647963946350805
+  ]
+}

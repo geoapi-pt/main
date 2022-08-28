@@ -1,1 +1,491 @@
-{"CP4":"4520","CP3":"301","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4520-301","Artéria":" ","Localidade":"Arieiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FORNOS VFR","locais":[{"id":"pt.ine.add.PTCONT.295993","rua":"R RAINHA SANTA ISABEL","casa":"134","coordenadas":[40.9076663159151,-8.535398646849028]},{"id":"pt.ine.add.PTCONT.302940","rua":"TV RAINHA SANTA ISABEL","casa":"105","coordenadas":[40.908027657023645,-8.535068501731985]},{"id":"pt.ine.add.PTCONT.322726","rua":"R AREEIRO","casa":"47","coordenadas":[40.90928028296842,-8.53479122334189]},{"id":"pt.ine.add.PTCONT.327767","rua":"TV RAINHA SANTA ISABEL","casa":"61","coordenadas":[40.90798441194679,-8.534557868540944]},{"id":"pt.ine.add.PTCONT.339639","rua":"R AREEIRO","casa":"63","coordenadas":[40.909262852509606,-8.53462494725211]},{"id":"pt.ine.add.PTCONT.14254","rua":"R LAGOEIRA FORNOS","casa":"199","coordenadas":[40.90829370344244,-8.533657683256772]},{"id":"pt.ine.add.PTCONT.17726","rua":"R RAINHA SANTA ISABEL","casa":"156","coordenadas":[40.9078103474397,-8.535411388816984]},{"id":"pt.ine.add.PTCONT.27561","rua":"R LAGOEIRA","casa":"149","coordenadas":[40.907887467317146,-8.533951958991986]},{"id":"pt.ine.add.PTCONT.59311","rua":"R AREEIRO","casa":"101","coordenadas":[40.90923703671721,-8.534280580678471]},{"id":"pt.ine.add.PTCONT.92230","rua":"R LAGOEIRA","casa":"121","coordenadas":[40.90762621132562,-8.533985988465325]},{"id":"pt.ine.add.PTCONT.108435","rua":"R AREEIRO","casa":"25","coordenadas":[40.90918965851376,-8.534956845339494]},{"id":"pt.ine.add.PTCONT.111984","rua":"TV RAINHA SANTA ISABEL","casa":"87","coordenadas":[40.90802831876304,-8.534878600007211]},{"id":"pt.ine.add.PTCONT.112336","rua":"TV RAINHA SANTA ISABEL","casa":"113","coordenadas":[40.90802728465782,-8.535175321449394]},{"id":"pt.ine.add.PTCONT.130845","rua":"R DA VALEJADA","casa":"141","coordenadas":[40.91164074898598,-8.5414173177403]},{"id":"pt.ine.add.PTCONT.134997","rua":"R LAGOEIRA","casa":"87","coordenadas":[40.907418281075316,-8.53422211273534]},{"id":"pt.ine.add.PTCONT.137238","rua":"TV RAINHA SANTA ISABEL","casa":"53","coordenadas":[40.90797582048604,-8.534439125591488]},{"id":"pt.ine.add.PTCONT.147558","rua":"R AREEIRO","casa":"79","coordenadas":[40.90924542181057,-8.53445867124777]},{"id":"pt.ine.add.PTCONT.156679","rua":"TV RAINHA SANTA ISABEL","casa":"129","coordenadas":[40.90802662242985,-8.53536522316429]},{"id":"pt.ine.add.PTCONT.170784","rua":"R DOS MOINHOS","casa":"360","coordenadas":[40.9071400761274,-8.526102069556996]},{"id":"pt.ine.add.PTCONT.175104","rua":"R AREEIRO","casa":"55","coordenadas":[40.90927156776903,-8.534708085286322]},{"id":"pt.ine.add.PTCONT.190433","rua":"R AREEIRO","casa":"117","coordenadas":[40.90921972932916,-8.534078697608807]},{"id":"pt.ine.add.PTCONT.201529","rua":"TV RAINHA SANTA ISABEL","casa":"79","coordenadas":[40.908019686295795,-8.534771725796944]},{"id":"pt.ine.add.PTCONT.209325","rua":"R AREEIRO","casa":"71","coordenadas":[40.90925413719012,-8.53454180923926]},{"id":"pt.ine.add.PTCONT.212971","rua":"R AREEIRO","casa":"87","coordenadas":[40.9092366650722,-8.534387402352412]},{"id":"pt.ine.add.PTCONT.225793","rua":"R RAINHA SANTA ISABEL","casa":"316","coordenadas":[40.90929672024064,-8.535242357546583]},{"id":"pt.ine.add.PTCONT.225794","rua":"R LAGOEIRA","casa":"254","coordenadas":[40.908655863138364,-8.53309014607815]},{"id":"pt.ine.add.PTCONT.236233","rua":"TV RAINHA SANTA ISABEL","casa":"35","coordenadas":[40.90794938494109,-8.53427279844105]},{"id":"pt.ine.add.PTCONT.241992","rua":"TV RAINHA SANTA ISABEL","casa":"137","coordenadas":[40.90802629119862,-8.535460174019367]},{"id":"pt.ine.add.PTCONT.244909","rua":"R LAGOEIRA","casa":"98","coordenadas":[40.90735648703042,-8.533865669685548]},{"id":"pt.ine.add.PTCONT.285067","rua":"R AREEIRO","casa":"109","coordenadas":[40.909228362428294,-8.534185573667626]}],"ruas":["R RAINHA SANTA ISABEL","TV RAINHA SANTA ISABEL","R AREEIRO","R LAGOEIRA FORNOS","R LAGOEIRA","R DA VALEJADA","R DOS MOINHOS"],"centroide":[40.908484656953824,-8.534522860028009]}
+{
+  "CP": "4520-301",
+  "CP4": "4520",
+  "CP3": "301",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Arieiro",
+  "Designação Postal": "FORNOS VFR",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.295993",
+      "rua": "R RAINHA SANTA ISABEL",
+      "casa": "134",
+      "coordenadas": [
+        40.9076663159151,
+        -8.535398646849028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.302940",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "105",
+      "coordenadas": [
+        40.908027657023645,
+        -8.535068501731985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.322726",
+      "rua": "R AREEIRO",
+      "casa": "47",
+      "coordenadas": [
+        40.90928028296842,
+        -8.53479122334189
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.327767",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "61",
+      "coordenadas": [
+        40.90798441194679,
+        -8.534557868540944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.339639",
+      "rua": "R AREEIRO",
+      "casa": "63",
+      "coordenadas": [
+        40.909262852509606,
+        -8.53462494725211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.14254",
+      "rua": "R LAGOEIRA FORNOS",
+      "casa": "199",
+      "coordenadas": [
+        40.90829370344244,
+        -8.533657683256772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.17726",
+      "rua": "R RAINHA SANTA ISABEL",
+      "casa": "156",
+      "coordenadas": [
+        40.9078103474397,
+        -8.535411388816984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.27561",
+      "rua": "R LAGOEIRA",
+      "casa": "149",
+      "coordenadas": [
+        40.907887467317146,
+        -8.533951958991986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.59311",
+      "rua": "R AREEIRO",
+      "casa": "101",
+      "coordenadas": [
+        40.90923703671721,
+        -8.534280580678471
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92230",
+      "rua": "R LAGOEIRA",
+      "casa": "121",
+      "coordenadas": [
+        40.90762621132562,
+        -8.533985988465325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108435",
+      "rua": "R AREEIRO",
+      "casa": "25",
+      "coordenadas": [
+        40.90918965851376,
+        -8.534956845339494
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.111984",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "87",
+      "coordenadas": [
+        40.90802831876304,
+        -8.534878600007211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.112336",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "113",
+      "coordenadas": [
+        40.90802728465782,
+        -8.535175321449394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.130845",
+      "rua": "R DA VALEJADA",
+      "casa": "141",
+      "coordenadas": [
+        40.91164074898598,
+        -8.5414173177403
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.134997",
+      "rua": "R LAGOEIRA",
+      "casa": "87",
+      "coordenadas": [
+        40.907418281075316,
+        -8.53422211273534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137238",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "53",
+      "coordenadas": [
+        40.90797582048604,
+        -8.534439125591488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.147558",
+      "rua": "R AREEIRO",
+      "casa": "79",
+      "coordenadas": [
+        40.90924542181057,
+        -8.53445867124777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.156679",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "129",
+      "coordenadas": [
+        40.90802662242985,
+        -8.53536522316429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.170784",
+      "rua": "R DOS MOINHOS",
+      "casa": "360",
+      "coordenadas": [
+        40.9071400761274,
+        -8.526102069556996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.175104",
+      "rua": "R AREEIRO",
+      "casa": "55",
+      "coordenadas": [
+        40.90927156776903,
+        -8.534708085286322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190433",
+      "rua": "R AREEIRO",
+      "casa": "117",
+      "coordenadas": [
+        40.90921972932916,
+        -8.534078697608807
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.201529",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "79",
+      "coordenadas": [
+        40.908019686295795,
+        -8.534771725796944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209325",
+      "rua": "R AREEIRO",
+      "casa": "71",
+      "coordenadas": [
+        40.90925413719012,
+        -8.53454180923926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.212971",
+      "rua": "R AREEIRO",
+      "casa": "87",
+      "coordenadas": [
+        40.9092366650722,
+        -8.534387402352412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.225793",
+      "rua": "R RAINHA SANTA ISABEL",
+      "casa": "316",
+      "coordenadas": [
+        40.90929672024064,
+        -8.535242357546583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.225794",
+      "rua": "R LAGOEIRA",
+      "casa": "254",
+      "coordenadas": [
+        40.908655863138364,
+        -8.53309014607815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.236233",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "35",
+      "coordenadas": [
+        40.90794938494109,
+        -8.53427279844105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.241992",
+      "rua": "TV RAINHA SANTA ISABEL",
+      "casa": "137",
+      "coordenadas": [
+        40.90802629119862,
+        -8.535460174019367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.244909",
+      "rua": "R LAGOEIRA",
+      "casa": "98",
+      "coordenadas": [
+        40.90735648703042,
+        -8.533865669685548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.285067",
+      "rua": "R AREEIRO",
+      "casa": "109",
+      "coordenadas": [
+        40.909228362428294,
+        -8.534185573667626
+      ]
+    }
+  ],
+  "ruas": [
+    "R RAINHA SANTA ISABEL",
+    "TV RAINHA SANTA ISABEL",
+    "R AREEIRO",
+    "R LAGOEIRA FORNOS",
+    "R LAGOEIRA",
+    "R DA VALEJADA",
+    "R DOS MOINHOS"
+  ],
+  "centro": [
+    40.90939041255669,
+    -8.533759693648648
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.90726180726035,
+                -8.530469094629307
+              ],
+              [
+                40.90723475589747,
+                -8.529498644613238
+              ],
+              [
+                40.907281408968366,
+                -8.52888880160204
+              ],
+              [
+                40.907401766473036,
+                -8.528639565595718
+              ],
+              [
+                40.90759582841148,
+                -8.528750936594268
+              ],
+              [
+                40.90786359478371,
+                -8.529222914597689
+              ],
+              [
+                40.90820506558971,
+                -8.530055499605986
+              ],
+              [
+                40.90862024082948,
+                -8.531248691619151
+              ],
+              [
+                40.909109120503025,
+                -8.532802490637192
+              ],
+              [
+                40.90967170461035,
+                -8.534716896660106
+              ],
+              [
+                40.91010186518753,
+                -8.536297960197478
+              ],
+              [
+                40.91039960223455,
+                -8.537545681249311
+              ],
+              [
+                40.91056491575143,
+                -8.538460059815604
+              ],
+              [
+                40.91059780573817,
+                -8.539041095896353
+              ],
+              [
+                40.91049827219475,
+                -8.539288789491565
+              ],
+              [
+                40.910266315121184,
+                -8.539203140601238
+              ],
+              [
+                40.90990193451747,
+                -8.53878414922537
+              ],
+              [
+                40.90940513038361,
+                -8.53803181536396
+              ],
+              [
+                40.908966551222115,
+                -8.537355139889701
+              ],
+              [
+                40.908586197032974,
+                -8.536754122802591
+              ],
+              [
+                40.9082640678162,
+                -8.536228764102631
+              ],
+              [
+                40.90800016357178,
+                -8.535779063789821
+              ],
+              [
+                40.90779448429972,
+                -8.535405021864161
+              ],
+              [
+                40.90764703000003,
+                -8.53510663832565
+              ],
+              [
+                40.90755780067269,
+                -8.53488391317429
+              ],
+              [
+                40.907526796317725,
+                -8.534736846410079
+              ],
+              [
+                40.90749870197517,
+                -8.534602593568742
+              ],
+              [
+                40.90747351764503,
+                -8.534481154650276
+              ],
+              [
+                40.90745124332732,
+                -8.534372529654686
+              ],
+              [
+                40.907431879022035,
+                -8.53427671858197
+              ],
+              [
+                40.907415424729166,
+                -8.534193721432125
+              ],
+              [
+                40.90740188044871,
+                -8.534123538205154
+              ],
+              [
+                40.90739124618067,
+                -8.534066168901058
+              ],
+              [
+                40.90738352192506,
+                -8.534021613519831
+              ],
+              [
+                40.90737338178104,
+                -8.533861321309253
+              ],
+              [
+                40.90736082574861,
+                -8.533585292269317
+              ],
+              [
+                40.90734585382778,
+                -8.533193526400026
+              ],
+              [
+                40.90732846601853,
+                -8.53268602370138
+              ],
+              [
+                40.90730866232088,
+                -8.532062784173378
+              ],
+              [
+                40.907286442734815,
+                -8.53132380781602
+              ],
+              [
+                40.90726180726035,
+                -8.530469094629307
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.90824438182684,
+    -8.534201163313444
+  ],
+  "centroDeMassa": [
+    40.90939041255669,
+    -8.533759693648648
+  ]
+}

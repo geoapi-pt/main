@@ -1,1 +1,510 @@
-{"CP4":"4780","CP3":"509","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4780-509","Artéria":"Rua Nova de Argemil","Localidade":"Santo Tirso","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO TIRSO","locais":[{"id":"pt.ine.add.PTCONT.3557046","rua":"R NOVA DE ARGEMIL","casa":"105","coordenadas":[41.35289794080596,-8.491822961371884]},{"id":"pt.ine.add.PTCONT.3575932","rua":"R NOVA DE ARGEMIL","casa":"108","coordenadas":[41.35277984670106,-8.492156900318747]},{"id":"pt.ine.add.PTCONT.3580174","rua":"R NOVA ARGEMIL","casa":"285","coordenadas":[41.352615462718106,-8.492896866955215]},{"id":"pt.ine.add.PTCONT.3601767","rua":"R NOVA ARGEMIL","casa":"","coordenadas":[41.35353568994929,-8.49231639945441]},{"id":"pt.ine.add.PTCONT.3633810","rua":"R NOVA DE ARGEMIL","casa":"123","coordenadas":[41.35275413899781,-8.491738525170735]},{"id":"pt.ine.add.PTCONT.3691618","rua":"R NOVA DE ARGEMIL","casa":"149","coordenadas":[41.352547309779766,-8.491653743510103]},{"id":"pt.ine.add.PTCONT.3705027","rua":"R NOVA DE ARGEMIL","casa":"262","coordenadas":[41.35249101320124,-8.492382353597055]},{"id":"pt.ine.add.PTCONT.3737967","rua":"R NOVA DE ARGEMIL","casa":"213","coordenadas":[41.351977715956224,-8.49240343023811]},{"id":"pt.ine.add.PTCONT.3793779","rua":"R NOVA DE ARGEMIL","casa":"64","coordenadas":[41.35305825922227,-8.492385472451812]},{"id":"pt.ine.add.PTCONT.3796161","rua":"R NOVA DE ARGEMIL","casa":"335","coordenadas":[41.35289391114648,-8.493113492291474]},{"id":"pt.ine.add.PTCONT.3796162","rua":"R NOVA DE ARGEMIL","casa":"335","coordenadas":[41.35289391114648,-8.493113492291474]},{"id":"pt.ine.add.PTCONT.3813868","rua":"R NOVA DE ARGEMIL","casa":"222","coordenadas":[41.3523113826248,-8.492237972459405]},{"id":"pt.ine.add.PTCONT.3828012","rua":"R NOVA DE ARGEMIL","casa":"95","coordenadas":[41.352987719115916,-8.491907101304282]},{"id":"pt.ine.add.PTCONT.3898777","rua":"R NOVA ARGEMIL","casa":"59","coordenadas":[41.35327528512883,-8.492087924861496]},{"id":"pt.ine.add.PTCONT.3931206","rua":"R NOVA DE ARGEMIL","casa":"111","coordenadas":[41.3527990468133,-8.491774620285126]},{"id":"pt.ine.add.PTCONT.3931374","rua":"R NOVA DE ARGEMIL","casa":"111","coordenadas":[41.3527990468133,-8.491774620285126]},{"id":"pt.ine.add.PTCONT.3970052","rua":"R NOVA DE ARGEMIL","casa":"83","coordenadas":[41.35306860523821,-8.49195534383854]},{"id":"pt.ine.add.PTCONT.3988191","rua":"R NOVA DE ARGEMIL","casa":"225","coordenadas":[41.35207646045014,-8.492499568500262]},{"id":"pt.ine.add.PTCONT.4047649","rua":"R NOVA DE ARGEMIL","casa":"80","coordenadas":[41.35292353632781,-8.49227718556917]},{"id":"pt.ine.add.PTCONT.4100378","rua":"R NOVA DE ARGEMIL","casa":"251","coordenadas":[41.35231003947711,-8.492668145580767]},{"id":"pt.ine.add.PTCONT.4113031","rua":"R NOVA ARGEMIL","casa":"274","coordenadas":[41.352634590649004,-8.492538486742903]},{"id":"pt.ine.add.PTCONT.4119969","rua":"R NOVA DE ARGEMIL","casa":"133","coordenadas":[41.35261919211102,-8.491701935991063]},{"id":"pt.ine.add.PTCONT.4137876","rua":"R NOVA DE ARGEMIL","casa":"164","coordenadas":[41.352429402456316,-8.49192793460036]},{"id":"pt.ine.add.PTCONT.4165898","rua":"R NOVA DE ARGEMIL","casa":"122","coordenadas":[41.35261814913156,-8.492036516683678]},{"id":"pt.ine.add.PTCONT.4170117","rua":"R NOVA DE ARGEMIL","casa":"21","coordenadas":[41.35279982857086,-8.491523684065438]},{"id":"pt.ine.add.PTCONT.4281774","rua":"R NOVA DA ARGEMIL","casa":"165","coordenadas":[41.352205273008536,-8.491616018445068]},{"id":"pt.ine.add.PTCONT.4310869","rua":"R NOVA DE ARGEMIL","casa":"288","coordenadas":[41.35272444308998,-8.492598728655357]},{"id":"pt.ine.add.PTCONT.4357421","rua":"R NOVA DE ARGEMIL","casa":"65","coordenadas":[41.35314945407444,-8.492015535900137]},{"id":"pt.ine.add.PTCONT.4362758","rua":"R NOVA DE ARGEMIL","casa":"227","coordenadas":[41.35246280717212,-8.492764582078719]}],"ruas":["R NOVA DE ARGEMIL","R NOVA ARGEMIL","R NOVA DA ARGEMIL"],"centroide":[41.35272059481092,-8.492183034336401]}
+{
+  "CP": "4780-509",
+  "CP4": "4780",
+  "CP3": "509",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "Santo Tirso",
+  "Designação Postal": "SANTO TIRSO",
+  "partes": [
+    {
+      "Artéria": "Rua Nova de Argemil",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3557046",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "105",
+      "coordenadas": [
+        41.35289794080596,
+        -8.491822961371884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3575932",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "108",
+      "coordenadas": [
+        41.35277984670106,
+        -8.492156900318747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3580174",
+      "rua": "R NOVA ARGEMIL",
+      "casa": "285",
+      "coordenadas": [
+        41.352615462718106,
+        -8.492896866955215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3601767",
+      "rua": "R NOVA ARGEMIL",
+      "casa": "",
+      "coordenadas": [
+        41.35353568994929,
+        -8.49231639945441
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3633810",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "123",
+      "coordenadas": [
+        41.35275413899781,
+        -8.491738525170735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691618",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "149",
+      "coordenadas": [
+        41.352547309779766,
+        -8.491653743510103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3705027",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "262",
+      "coordenadas": [
+        41.35249101320124,
+        -8.492382353597055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3737967",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "213",
+      "coordenadas": [
+        41.351977715956224,
+        -8.49240343023811
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3793779",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "64",
+      "coordenadas": [
+        41.35305825922227,
+        -8.492385472451812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3796161",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "335",
+      "coordenadas": [
+        41.35289391114648,
+        -8.493113492291474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3796162",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "335",
+      "coordenadas": [
+        41.35289391114648,
+        -8.493113492291474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3813868",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "222",
+      "coordenadas": [
+        41.3523113826248,
+        -8.492237972459405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3828012",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "95",
+      "coordenadas": [
+        41.352987719115916,
+        -8.491907101304282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3898777",
+      "rua": "R NOVA ARGEMIL",
+      "casa": "59",
+      "coordenadas": [
+        41.35327528512883,
+        -8.492087924861496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3931206",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "111",
+      "coordenadas": [
+        41.3527990468133,
+        -8.491774620285126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3931374",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "111",
+      "coordenadas": [
+        41.3527990468133,
+        -8.491774620285126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3970052",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "83",
+      "coordenadas": [
+        41.35306860523821,
+        -8.49195534383854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3988191",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "225",
+      "coordenadas": [
+        41.35207646045014,
+        -8.492499568500262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4047649",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "80",
+      "coordenadas": [
+        41.35292353632781,
+        -8.49227718556917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4100378",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "251",
+      "coordenadas": [
+        41.35231003947711,
+        -8.492668145580767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113031",
+      "rua": "R NOVA ARGEMIL",
+      "casa": "274",
+      "coordenadas": [
+        41.352634590649004,
+        -8.492538486742903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4119969",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "133",
+      "coordenadas": [
+        41.35261919211102,
+        -8.491701935991063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4137876",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "164",
+      "coordenadas": [
+        41.352429402456316,
+        -8.49192793460036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4165898",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "122",
+      "coordenadas": [
+        41.35261814913156,
+        -8.492036516683678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4170117",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "21",
+      "coordenadas": [
+        41.35279982857086,
+        -8.491523684065438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4281774",
+      "rua": "R NOVA DA ARGEMIL",
+      "casa": "165",
+      "coordenadas": [
+        41.352205273008536,
+        -8.491616018445068
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4310869",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "288",
+      "coordenadas": [
+        41.35272444308998,
+        -8.492598728655357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4357421",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "65",
+      "coordenadas": [
+        41.35314945407444,
+        -8.492015535900137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4362758",
+      "rua": "R NOVA DE ARGEMIL",
+      "casa": "227",
+      "coordenadas": [
+        41.35246280717212,
+        -8.492764582078719
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOVA DE ARGEMIL",
+    "R NOVA ARGEMIL",
+    "R NOVA DA ARGEMIL"
+  ],
+  "centro": [
+    41.35275670295276,
+    -8.492318588178456
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.35203325973405,
+                -8.49245750801057
+              ],
+              [
+                41.352020916672316,
+                -8.4924454907278
+              ],
+              [
+                41.35201367207223,
+                -8.492422672296112
+              ],
+              [
+                41.35201152593382,
+                -8.492389052715502
+              ],
+              [
+                41.352014478257054,
+                -8.492344631985972
+              ],
+              [
+                41.35202252904195,
+                -8.492289410107524
+              ],
+              [
+                41.352035678288516,
+                -8.492223387080154
+              ],
+              [
+                41.35205392599673,
+                -8.492146562903864
+              ],
+              [
+                41.35207727216661,
+                -8.492058937578655
+              ],
+              [
+                41.35210571679815,
+                -8.491960511104523
+              ],
+              [
+                41.352139895781406,
+                -8.491872945214977
+              ],
+              [
+                41.352179809116386,
+                -8.491796239910018
+              ],
+              [
+                41.35222545680308,
+                -8.491730395189641
+              ],
+              [
+                41.35227683884149,
+                -8.491675411053848
+              ],
+              [
+                41.35233395523163,
+                -8.49163128750264
+              ],
+              [
+                41.35239680597348,
+                -8.49159802453602
+              ],
+              [
+                41.35246539106705,
+                -8.49157562215398
+              ],
+              [
+                41.352539710512346,
+                -8.491564080356525
+              ],
+              [
+                41.352616237861014,
+                -8.491566367461706
+              ],
+              [
+                41.35269497311305,
+                -8.491582483469521
+              ],
+              [
+                41.35277591626848,
+                -8.49161242837997
+              ],
+              [
+                41.35285906732727,
+                -8.491656202193056
+              ],
+              [
+                41.352944426289454,
+                -8.491713804908773
+              ],
+              [
+                41.353031993155,
+                -8.491785236527125
+              ],
+              [
+                41.35312176792392,
+                -8.491870497048112
+              ],
+              [
+                41.353213750596225,
+                -8.491969586471736
+              ],
+              [
+                41.3532842076407,
+                -8.492068744292983
+              ],
+              [
+                41.35333313905734,
+                -8.492167970511858
+              ],
+              [
+                41.35336054484615,
+                -8.492267265128358
+              ],
+              [
+                41.35336642500712,
+                -8.492366628142484
+              ],
+              [
+                41.353350779540264,
+                -8.49246605955424
+              ],
+              [
+                41.35331360844558,
+                -8.49256555936362
+              ],
+              [
+                41.35325491172306,
+                -8.492665127570625
+              ],
+              [
+                41.353174689372715,
+                -8.49276476417526
+              ],
+              [
+                41.35309172214903,
+                -8.492842353645074
+              ],
+              [
+                41.353006010052,
+                -8.492897895980075
+              ],
+              [
+                41.35291755308164,
+                -8.492931391180257
+              ],
+              [
+                41.35282635123794,
+                -8.492942839245623
+              ],
+              [
+                41.35273240452091,
+                -8.492932240176172
+              ],
+              [
+                41.35263571293054,
+                -8.492899593971904
+              ],
+              [
+                41.352536276466836,
+                -8.49284490063282
+              ],
+              [
+                41.35243409512979,
+                -8.492768160158917
+              ],
+              [
+                41.35234314357716,
+                -8.492699510083908
+              ],
+              [
+                41.35226342180894,
+                -8.49263895040779
+              ],
+              [
+                41.35219492982514,
+                -8.492586481130562
+              ],
+              [
+                41.35213766762575,
+                -8.492542102252226
+              ],
+              [
+                41.35209163521077,
+                -8.492505813772782
+              ],
+              [
+                41.3520568325802,
+                -8.49247761569223
+              ],
+              [
+                41.35203325973405,
+                -8.49245750801057
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.352581479846926,
+    -8.492245432165793
+  ],
+  "centroDeMassa": [
+    41.35275670295276,
+    -8.492318588178456
+  ]
+}

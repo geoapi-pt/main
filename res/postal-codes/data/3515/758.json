@@ -1,1 +1,576 @@
-{"CP4":"3515","CP3":"758","Distrito":"Viseu","Concelho":"Viseu","CP":"3515-758","Artéria":"Rua das Lages Cimeiras","Localidade":"Várzea","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CALDE","locais":[{"id":"pt.ine.add.PTCONT.5444072","rua":"R SEARA","casa":"15","coordenadas":[40.767118468541376,-7.875749227000523]},{"id":"pt.ine.add.PTCONT.5446029","rua":"R EIRO","casa":"1","coordenadas":[40.76450960018732,-7.876908116472174]},{"id":"pt.ine.add.PTCONT.5447184","rua":"TV SEARA","casa":"13","coordenadas":[40.76715229178489,-7.874766041840499]},{"id":"pt.ine.add.PTCONT.5458821","rua":"R EIRO","casa":"27","coordenadas":[40.76537146299066,-7.875732278874536]},{"id":"pt.ine.add.PTCONT.5461073","rua":"R EIRO","casa":"17","coordenadas":[40.76503878284555,-7.875958591768343]},{"id":"pt.ine.add.PTCONT.5466531","rua":"TV SEARA","casa":"42","coordenadas":[40.76853814539025,-7.874357969412673]},{"id":"pt.ine.add.PTCONT.5475057","rua":"R EIRO","casa":"31","coordenadas":[40.76577731759986,-7.876014964062513]},{"id":"pt.ine.add.PTCONT.5500229","rua":"R EIRO","casa":"22","coordenadas":[40.76513646298448,-7.875342344201141]},{"id":"pt.ine.add.PTCONT.5507883","rua":"TV EIRO","casa":"9","coordenadas":[40.76554144590068,-7.875234185764255]},{"id":"pt.ine.add.PTCONT.5519045","rua":"R SEARA","casa":"3","coordenadas":[40.766398339782214,-7.875870444049558]},{"id":"pt.ine.add.PTCONT.5530793","rua":"R EIRO","casa":"25","coordenadas":[40.76532657047809,-7.875791670602424]},{"id":"pt.ine.add.PTCONT.5530794","rua":"R EIRO","casa":"8","coordenadas":[40.764598095995034,-7.876209005481382]},{"id":"pt.ine.add.PTCONT.5531911","rua":"TV SEARA","casa":"9","coordenadas":[40.76716169425256,-7.874943665936912]},{"id":"pt.ine.add.PTCONT.5535696","rua":"TV EIRO","casa":"11","coordenadas":[40.765468850593315,-7.874985747966518]},{"id":"pt.ine.add.PTCONT.5539082","rua":"TV EIRO","casa":"11","coordenadas":[40.7658204128761,-7.875150200893068]},{"id":"pt.ine.add.PTCONT.5548028","rua":"R EIRO","casa":"21","coordenadas":[40.76514663064466,-7.8758634266706595]},{"id":"pt.ine.add.PTCONT.5565032","rua":"R EIRO","casa":"15","coordenadas":[40.764886358677245,-7.876255270018936]},{"id":"pt.ine.add.PTCONT.5573409","rua":"R BARREIRA","casa":"14","coordenadas":[40.76577448754027,-7.874747689689892]},{"id":"pt.ine.add.PTCONT.5588841","rua":"R SEARA","casa":"27","coordenadas":[40.76791034559335,-7.875497444529349]},{"id":"pt.ine.add.PTCONT.5588912","rua":"TV EIRO","casa":"7","coordenadas":[40.765937953037756,-7.875362935110161]},{"id":"pt.ine.add.PTCONT.5606520","rua":"R EIRO","casa":"11","coordenadas":[40.76464377927523,-7.8765049192510155]},{"id":"pt.ine.add.PTCONT.5608012","rua":"TV EIRO","casa":"14","coordenadas":[40.76553169951714,-7.8749025985908805]},{"id":"pt.ine.add.PTCONT.5610236","rua":"R BARREIRA","casa":"18","coordenadas":[40.76572003369243,-7.87455840012319]},{"id":"pt.ine.add.PTCONT.5615708","rua":"R EIRO","casa":"33","coordenadas":[40.766074321355994,-7.875942756463674]},{"id":"pt.ine.add.PTCONT.5625536","rua":"R EIRO","casa":"13","coordenadas":[40.76479662576153,-7.876397738852274]},{"id":"pt.ine.add.PTCONT.5628006","rua":"R BARREIRA","casa":"20","coordenadas":[40.76579215257494,-7.874593652000743]},{"id":"pt.ine.add.PTCONT.5628007","rua":"TV EIRO","casa":"12","coordenadas":[40.765604109664494,-7.875068130945951]},{"id":"pt.ine.add.PTCONT.5646421","rua":"R BARREIRA","casa":"7","coordenadas":[40.76601804420676,-7.874936247771863]},{"id":"pt.ine.add.PTCONT.5664631","rua":"TV SEARA","casa":"8","coordenadas":[40.76686492953052,-7.8751224740914045]},{"id":"pt.ine.add.PTCONT.5666297","rua":"CC EIRO","casa":"21","coordenadas":[40.765350805798164,-7.874547987326101]},{"id":"pt.ine.add.PTCONT.5667164","rua":"TV SEARA","casa":"54","coordenadas":[40.76906869079396,-7.874024269051406]}],"ruas":["R SEARA","R EIRO","TV SEARA","TV EIRO","R BARREIRA","CC EIRO"],"centroide":[40.76583367396909,-7.875443870858755]}}
+{
+  "CP": "3515-758",
+  "CP4": "3515",
+  "CP3": "758",
+  "Distrito": "Viseu",
+  "Concelho": "Viseu",
+  "Localidade": "Várzea",
+  "Designação Postal": "CALDE",
+  "partes": [
+    {
+      "Artéria": "Rua do Eirô",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Seara",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Corre Carro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Seara",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Barreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Eirô",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Calçada do Eirô",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Lagareta Árabe",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Pedra Malhadoura",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Areiras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Eira do Rei",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Lages Cimeiras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5444072",
+      "rua": "R SEARA",
+      "casa": "15",
+      "coordenadas": [
+        40.767118468541376,
+        -7.875749227000523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5446029",
+      "rua": "R EIRO",
+      "casa": "1",
+      "coordenadas": [
+        40.76450960018732,
+        -7.876908116472174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5447184",
+      "rua": "TV SEARA",
+      "casa": "13",
+      "coordenadas": [
+        40.76715229178489,
+        -7.874766041840499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5458821",
+      "rua": "R EIRO",
+      "casa": "27",
+      "coordenadas": [
+        40.76537146299066,
+        -7.875732278874536
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5461073",
+      "rua": "R EIRO",
+      "casa": "17",
+      "coordenadas": [
+        40.76503878284555,
+        -7.875958591768343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5466531",
+      "rua": "TV SEARA",
+      "casa": "42",
+      "coordenadas": [
+        40.76853814539025,
+        -7.874357969412673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5475057",
+      "rua": "R EIRO",
+      "casa": "31",
+      "coordenadas": [
+        40.76577731759986,
+        -7.876014964062513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5500229",
+      "rua": "R EIRO",
+      "casa": "22",
+      "coordenadas": [
+        40.76513646298448,
+        -7.875342344201141
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5507883",
+      "rua": "TV EIRO",
+      "casa": "9",
+      "coordenadas": [
+        40.76554144590068,
+        -7.875234185764255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5519045",
+      "rua": "R SEARA",
+      "casa": "3",
+      "coordenadas": [
+        40.766398339782214,
+        -7.875870444049558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5530793",
+      "rua": "R EIRO",
+      "casa": "25",
+      "coordenadas": [
+        40.76532657047809,
+        -7.875791670602424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5530794",
+      "rua": "R EIRO",
+      "casa": "8",
+      "coordenadas": [
+        40.764598095995034,
+        -7.876209005481382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5531911",
+      "rua": "TV SEARA",
+      "casa": "9",
+      "coordenadas": [
+        40.76716169425256,
+        -7.874943665936912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5535696",
+      "rua": "TV EIRO",
+      "casa": "11",
+      "coordenadas": [
+        40.765468850593315,
+        -7.874985747966518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5539082",
+      "rua": "TV EIRO",
+      "casa": "11",
+      "coordenadas": [
+        40.7658204128761,
+        -7.875150200893068
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5548028",
+      "rua": "R EIRO",
+      "casa": "21",
+      "coordenadas": [
+        40.76514663064466,
+        -7.8758634266706595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5565032",
+      "rua": "R EIRO",
+      "casa": "15",
+      "coordenadas": [
+        40.764886358677245,
+        -7.876255270018936
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5573409",
+      "rua": "R BARREIRA",
+      "casa": "14",
+      "coordenadas": [
+        40.76577448754027,
+        -7.874747689689892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5588841",
+      "rua": "R SEARA",
+      "casa": "27",
+      "coordenadas": [
+        40.76791034559335,
+        -7.875497444529349
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5588912",
+      "rua": "TV EIRO",
+      "casa": "7",
+      "coordenadas": [
+        40.765937953037756,
+        -7.875362935110161
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5606520",
+      "rua": "R EIRO",
+      "casa": "11",
+      "coordenadas": [
+        40.76464377927523,
+        -7.8765049192510155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5608012",
+      "rua": "TV EIRO",
+      "casa": "14",
+      "coordenadas": [
+        40.76553169951714,
+        -7.8749025985908805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5610236",
+      "rua": "R BARREIRA",
+      "casa": "18",
+      "coordenadas": [
+        40.76572003369243,
+        -7.87455840012319
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5615708",
+      "rua": "R EIRO",
+      "casa": "33",
+      "coordenadas": [
+        40.766074321355994,
+        -7.875942756463674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5625536",
+      "rua": "R EIRO",
+      "casa": "13",
+      "coordenadas": [
+        40.76479662576153,
+        -7.876397738852274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5628006",
+      "rua": "R BARREIRA",
+      "casa": "20",
+      "coordenadas": [
+        40.76579215257494,
+        -7.874593652000743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5628007",
+      "rua": "TV EIRO",
+      "casa": "12",
+      "coordenadas": [
+        40.765604109664494,
+        -7.875068130945951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5646421",
+      "rua": "R BARREIRA",
+      "casa": "7",
+      "coordenadas": [
+        40.76601804420676,
+        -7.874936247771863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5664631",
+      "rua": "TV SEARA",
+      "casa": "8",
+      "coordenadas": [
+        40.76686492953052,
+        -7.8751224740914045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5666297",
+      "rua": "CC EIRO",
+      "casa": "21",
+      "coordenadas": [
+        40.765350805798164,
+        -7.874547987326101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5667164",
+      "rua": "TV SEARA",
+      "casa": "54",
+      "coordenadas": [
+        40.76906869079396,
+        -7.874024269051406
+      ]
+    }
+  ],
+  "ruas": [
+    "R SEARA",
+    "R EIRO",
+    "TV SEARA",
+    "TV EIRO",
+    "R BARREIRA",
+    "CC EIRO"
+  ],
+  "centro": [
+    40.766789145490634,
+    -7.87546619276179
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.76642251947821,
+                -7.876114613504335
+              ],
+              [
+                40.76599742630246,
+                -7.876290947497187
+              ],
+              [
+                40.76562685252067,
+                -7.876434316131704
+              ],
+              [
+                40.76531079813284,
+                -7.876544719407882
+              ],
+              [
+                40.76504926313898,
+                -7.876622157325722
+              ],
+              [
+                40.76484224753909,
+                -7.876666629885223
+              ],
+              [
+                40.764689751333165,
+                -7.876678137086387
+              ],
+              [
+                40.76459177452119,
+                -7.876656678929214
+              ],
+              [
+                40.76454831710319,
+                -7.876602255413703
+              ],
+              [
+                40.76455937907916,
+                -7.876514866539853
+              ],
+              [
+                40.7645808193988,
+                -7.87641244786656
+              ],
+              [
+                40.76461263806212,
+                -7.876294999393821
+              ],
+              [
+                40.76465483506912,
+                -7.8761625211216355
+              ],
+              [
+                40.764707410419796,
+                -7.876015013050006
+              ],
+              [
+                40.76477036411415,
+                -7.875852475178931
+              ],
+              [
+                40.76484369615219,
+                -7.875674907508411
+              ],
+              [
+                40.7649274065339,
+                -7.875482310038446
+              ],
+              [
+                40.7650214952593,
+                -7.875274682769037
+              ],
+              [
+                40.76516191484707,
+                -7.87508482581026
+              ],
+              [
+                40.76534866529724,
+                -7.874912739162118
+              ],
+              [
+                40.76558174660978,
+                -7.874758422824611
+              ],
+              [
+                40.765861158784716,
+                -7.874621876797738
+              ],
+              [
+                40.76618690182204,
+                -7.874503101081499
+              ],
+              [
+                40.766558975721736,
+                -7.874402095675894
+              ],
+              [
+                40.76697738048382,
+                -7.874318860580922
+              ],
+              [
+                40.7674421161083,
+                -7.874253395796585
+              ],
+              [
+                40.76783066063595,
+                -7.874219132477133
+              ],
+              [
+                40.76814301406678,
+                -7.874216070622566
+              ],
+              [
+                40.7683791764008,
+                -7.8742442102328845
+              ],
+              [
+                40.76853914763801,
+                -7.874303551308087
+              ],
+              [
+                40.76862292777839,
+                -7.874394093848175
+              ],
+              [
+                40.76863051682195,
+                -7.8745158378531475
+              ],
+              [
+                40.768561914768696,
+                -7.874668783323005
+              ],
+              [
+                40.76841712161861,
+                -7.87485293025775
+              ],
+              [
+                40.76823729096533,
+                -7.875036100574756
+              ],
+              [
+                40.76802242280884,
+                -7.875218294274026
+              ],
+              [
+                40.76777251714913,
+                -7.87539951135556
+              ],
+              [
+                40.767487573986216,
+                -7.875579751819358
+              ],
+              [
+                40.767167593320096,
+                -7.87575901566542
+              ],
+              [
+                40.76681257515075,
+                -7.875937302893746
+              ],
+              [
+                40.76642251947821,
+                -7.876114613504335
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.76628750767357,
+    -7.875437364572082
+  ],
+  "centroDeMassa": [
+    40.766789145490634,
+    -7.87546619276179
+  ]
+}

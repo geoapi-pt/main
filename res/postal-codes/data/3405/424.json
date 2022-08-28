@@ -1,1 +1,369 @@
-{"CP4":"3405","CP3":"424","Distrito":"Coimbra","Concelho":"Oliveira do Hospital","CP":"3405-424","Artéria":"Variante Nossa Senhora da Estrela","Localidade":"Seixo da Beira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SEIXO DA BEIRA","locais":[{"id":"pt.ine.add.PTCONT.1119915","rua":"BR DA SENHORA DA ESTRELA","casa":"7","coordenadas":[40.45440080842964,-7.837276406841037]},{"id":"pt.ine.add.PTCONT.1132520","rua":"VL DOS CARRASCAIS","casa":"","coordenadas":[40.45235880693705,-7.834644720695412]},{"id":"pt.ine.add.PTCONT.1156658","rua":"BR DA SENHORA DA ESTRELA","casa":"5","coordenadas":[40.45467970330039,-7.837169082854644]},{"id":"pt.ine.add.PTCONT.1158679","rua":"BR DA SENHORA DA ESTRELA","casa":"8","coordenadas":[40.45444607659428,-7.837370519844446]},{"id":"pt.ine.add.PTCONT.1162737","rua":"BR DA SENHORA DA ESTRELA","casa":"3","coordenadas":[40.45489589251041,-7.837191712406913]},{"id":"pt.ine.add.PTCONT.1191320","rua":"QTA DAS FONTAÍNHAS","casa":"","coordenadas":[40.45105309282572,-7.8453307418396525]},{"id":"pt.ine.add.PTCONT.1231047","rua":"VL DOS CARRASCAIS","casa":"","coordenadas":[40.4520259125201,-7.8347640787054935]},{"id":"pt.ine.add.PTCONT.1238742","rua":"BR DA SENHORA DA ESTRELA","casa":"1","coordenadas":[40.45506702468991,-7.8372027507002935]},{"id":"pt.ine.add.PTCONT.1252665","rua":"BR DA SENHORA DA ESTRELA","casa":"10","coordenadas":[40.454563598661046,-7.8375468390300815]},{"id":"pt.ine.add.PTCONT.1256153","rua":"BR DA SENHORA DA ESTRELA","casa":"9","coordenadas":[40.4545093252704,-7.837452765214985]},{"id":"pt.ine.add.PTCONT.1297837","rua":"VAR DE NSA SRA DA ESTRELA","casa":"3","coordenadas":[40.45048916933023,-7.850366730960823]},{"id":"pt.ine.add.PTCONT.1310596","rua":"BR DA SENHORA DA ESTRELA","casa":"6","coordenadas":[40.45458967979,-7.8371812667791705]},{"id":"pt.ine.add.PTCONT.1318479","rua":"BR DA SENHORA DA ESTRELA","casa":"2","coordenadas":[40.45497694082757,-7.837191356848756]},{"id":"pt.ine.add.PTCONT.1328789","rua":"BR DA SENHORA DA ESTRELA","casa":"4","coordenadas":[40.4548058991775,-7.837215685214276]},{"id":"pt.ine.add.PTCONT.1341139","rua":"VL DOS CARRASCAIS","casa":"","coordenadas":[40.45239382335676,-7.83425554254532]},{"id":"pt.ine.add.PTCONT.1343108","rua":"VAR DE NSA SRA DA ESTRELA","casa":"11","coordenadas":[40.45152184138396,-7.849159982774839]}],"ruas":["BR DA SENHORA DA ESTRELA","VL DOS CARRASCAIS","QTA DAS FONTAÍNHAS","VAR DE NSA SRA DA ESTRELA"],"centroide":[40.45368371694806,-7.838144013365421]}
+{
+  "CP": "3405-424",
+  "CP4": "3405",
+  "CP3": "424",
+  "Distrito": "Coimbra",
+  "Concelho": "Oliveira do Hospital",
+  "Localidade": "Seixo da Beira",
+  "Designação Postal": "SEIXO DA BEIRA",
+  "partes": [
+    {
+      "Artéria": "Bairro Senhora da Estrela",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Variante Nossa Senhora da Estrela",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1119915",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "7",
+      "coordenadas": [
+        40.45440080842964,
+        -7.837276406841037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1132520",
+      "rua": "VL DOS CARRASCAIS",
+      "casa": "",
+      "coordenadas": [
+        40.45235880693705,
+        -7.834644720695412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156658",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "5",
+      "coordenadas": [
+        40.45467970330039,
+        -7.837169082854644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1158679",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "8",
+      "coordenadas": [
+        40.45444607659428,
+        -7.837370519844446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1162737",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "3",
+      "coordenadas": [
+        40.45489589251041,
+        -7.837191712406913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1191320",
+      "rua": "QTA DAS FONTAÍNHAS",
+      "casa": "",
+      "coordenadas": [
+        40.45105309282572,
+        -7.8453307418396525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1231047",
+      "rua": "VL DOS CARRASCAIS",
+      "casa": "",
+      "coordenadas": [
+        40.4520259125201,
+        -7.8347640787054935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1238742",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "1",
+      "coordenadas": [
+        40.45506702468991,
+        -7.8372027507002935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1252665",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "10",
+      "coordenadas": [
+        40.454563598661046,
+        -7.8375468390300815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1256153",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "9",
+      "coordenadas": [
+        40.4545093252704,
+        -7.837452765214985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1297837",
+      "rua": "VAR DE NSA SRA DA ESTRELA",
+      "casa": "3",
+      "coordenadas": [
+        40.45048916933023,
+        -7.850366730960823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1310596",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "6",
+      "coordenadas": [
+        40.45458967979,
+        -7.8371812667791705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1318479",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "2",
+      "coordenadas": [
+        40.45497694082757,
+        -7.837191356848756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1328789",
+      "rua": "BR DA SENHORA DA ESTRELA",
+      "casa": "4",
+      "coordenadas": [
+        40.4548058991775,
+        -7.837215685214276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1341139",
+      "rua": "VL DOS CARRASCAIS",
+      "casa": "",
+      "coordenadas": [
+        40.45239382335676,
+        -7.83425554254532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1343108",
+      "rua": "VAR DE NSA SRA DA ESTRELA",
+      "casa": "11",
+      "coordenadas": [
+        40.45152184138396,
+        -7.849159982774839
+      ]
+    }
+  ],
+  "ruas": [
+    "BR DA SENHORA DA ESTRELA",
+    "VL DOS CARRASCAIS",
+    "QTA DAS FONTAÍNHAS",
+    "VAR DE NSA SRA DA ESTRELA"
+  ],
+  "centro": [
+    40.45277809701007,
+    -7.842311136753072
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.45107004736045,
+                -7.849687935106207
+              ],
+              [
+                40.45094096335374,
+                -7.849838778629454
+              ],
+              [
+                40.4508520264602,
+                -7.849726975270807
+              ],
+              [
+                40.450803236679846,
+                -7.849352525030265
+              ],
+              [
+                40.45079459401268,
+                -7.848715427907827
+              ],
+              [
+                40.45082609845869,
+                -7.847815683903491
+              ],
+              [
+                40.45089775001788,
+                -7.846653293017262
+              ],
+              [
+                40.451009548690244,
+                -7.845228255249136
+              ],
+              [
+                40.4511614944758,
+                -7.8435405705991155
+              ],
+              [
+                40.451353587374534,
+                -7.8415902390672
+              ],
+              [
+                40.45152741726775,
+                -7.83987575309927
+              ],
+              [
+                40.45168298415544,
+                -7.838397112695329
+              ],
+              [
+                40.45182028803762,
+                -7.837154317855373
+              ],
+              [
+                40.45193932891428,
+                -7.836147368579403
+              ],
+              [
+                40.45204010678542,
+                -7.835376264867421
+              ],
+              [
+                40.45212262165103,
+                -7.834841006719427
+              ],
+              [
+                40.45218687351114,
+                -7.834541594135418
+              ],
+              [
+                40.45223286236572,
+                -7.834478027115397
+              ],
+              [
+                40.45231487138432,
+                -7.834468456100299
+              ],
+              [
+                40.452432900566905,
+                -7.834512881090125
+              ],
+              [
+                40.45258694991351,
+                -7.834611302084875
+              ],
+              [
+                40.45277701942413,
+                -7.834763719084551
+              ],
+              [
+                40.45300310909875,
+                -7.83497013208915
+              ],
+              [
+                40.453265218937375,
+                -7.8352305410986745
+              ],
+              [
+                40.45356334894001,
+                -7.835544946113122
+              ],
+              [
+                40.45389749910666,
+                -7.835913347132492
+              ],
+              [
+                40.45413448701332,
+                -7.836422529775607
+              ],
+              [
+                40.45427431265999,
+                -7.8370724940424665
+              ],
+              [
+                40.45431697604667,
+                -7.837863239933068
+              ],
+              [
+                40.45426247717337,
+                -7.838794767447412
+              ],
+              [
+                40.454110816040085,
+                -7.8398670765855005
+              ],
+              [
+                40.45386199264681,
+                -7.841080167347332
+              ],
+              [
+                40.45351600699355,
+                -7.8424340397329075
+              ],
+              [
+                40.45307285908031,
+                -7.843928693742225
+              ],
+              [
+                40.45266896915538,
+                -7.845255371440784
+              ],
+              [
+                40.45230433721876,
+                -7.846414072828585
+              ],
+              [
+                40.45197896327047,
+                -7.847404797905627
+              ],
+              [
+                40.45169284731049,
+                -7.848227546671909
+              ],
+              [
+                40.45144598933883,
+                -7.8488823191274335
+              ],
+              [
+                40.45123838935548,
+                -7.8493691152722
+              ],
+              [
+                40.45107004736045,
+                -7.849687935106207
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.45229955425619,
+    -7.841149817137354
+  ],
+  "centroDeMassa": [
+    40.45277809701007,
+    -7.842311136753072
+  ]
+}

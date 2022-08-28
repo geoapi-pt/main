@@ -1,1 +1,508 @@
-{"CP4":"1200","CP3":"172","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1200-172","Artéria":"Calçada Engenheiro Miguel Pais","Localidade":"Lisboa","Local":"","Troço":"Impares de 9 a 57","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2377836","rua":"CC ENG MIGUEL PAIS","casa":"21","coordenadas":[38.717030910524116,-9.151615664742815]},{"id":"pt.ine.add.PTCONT.2377837","rua":"CC ENG MIGUEL PAIS","casa":"21","coordenadas":[38.717030910524116,-9.151615664742815]},{"id":"pt.ine.add.PTCONT.2377838","rua":"CC ENG MIGUEL PAIS","casa":"21","coordenadas":[38.717030910524116,-9.151615664742815]},{"id":"pt.ine.add.PTCONT.2383846","rua":"CC ENG MIGUEL PAIS","casa":"21","coordenadas":[38.717030910524116,-9.151615664742815]},{"id":"pt.ine.add.PTCONT.2464445","rua":"CC ENG MIGUEL PAIS","casa":"11","coordenadas":[38.71688600104523,-9.151705589935856]},{"id":"pt.ine.add.PTCONT.2464446","rua":"CC ENG MIGUEL PAIS","casa":"11","coordenadas":[38.71688600104523,-9.151705589935856]},{"id":"pt.ine.add.PTCONT.2464447","rua":"CC ENG MIGUEL PAIS","casa":"11","coordenadas":[38.71688600104523,-9.151705589935856]},{"id":"pt.ine.add.PTCONT.2464448","rua":"CC ENG MIGUEL PAIS","casa":"11","coordenadas":[38.71688600104523,-9.151705589935856]},{"id":"pt.ine.add.PTCONT.2626893","rua":"CC ENG MIGUEL PAIS","casa":"43","coordenadas":[38.71724847489447,-9.151457783519092]},{"id":"pt.ine.add.PTCONT.2626894","rua":"CC ENG MIGUEL PAIS","casa":"43","coordenadas":[38.71724847489447,-9.151457783519092]},{"id":"pt.ine.add.PTCONT.2626895","rua":"CC ENG MIGUEL PAIS","casa":"43","coordenadas":[38.71724847489447,-9.151457783519092]},{"id":"pt.ine.add.PTCONT.2748712","rua":"CC ENG MIGUEL PAIS","casa":"29","coordenadas":[38.71714889978865,-9.15151385934707]},{"id":"pt.ine.add.PTCONT.2748713","rua":"CC ENG MIGUEL PAIS","casa":"29","coordenadas":[38.71714889978865,-9.15151385934707]},{"id":"pt.ine.add.PTCONT.2748714","rua":"CC ENG MIGUEL PAIS","casa":"29","coordenadas":[38.71714889978865,-9.15151385934707]},{"id":"pt.ine.add.PTCONT.2767325","rua":"CC ENG MIGUEL PAIS","casa":"15","coordenadas":[38.716976569477445,-9.151649386732188]},{"id":"pt.ine.add.PTCONT.2895437","rua":"CC ENG MIGUEL PAIS","casa":"45","coordenadas":[38.71731172251491,-9.151435685466044]},{"id":"pt.ine.add.PTCONT.2971022","rua":"CC ENG MIGUEL PAIS","casa":"13","coordenadas":[38.71693123518483,-9.151683236516345]},{"id":"pt.ine.add.PTCONT.2971023","rua":"CC ENG MIGUEL PAIS","casa":"13","coordenadas":[38.71693123518483,-9.151683236516345]},{"id":"pt.ine.add.PTCONT.2971024","rua":"CC ENG MIGUEL PAIS","casa":"13","coordenadas":[38.71693123518483,-9.151683236516345]},{"id":"pt.ine.add.PTCONT.3001693","rua":"CC ENG MIGUEL PAIS","casa":"35","coordenadas":[38.717203140656004,-9.151491633549997]},{"id":"pt.ine.add.PTCONT.3001694","rua":"CC ENG MIGUEL PAIS","casa":"35","coordenadas":[38.717203140656004,-9.151491633549997]},{"id":"pt.ine.add.PTCONT.3047515","rua":"CC ENG MIGUEL PAIS","casa":"25","coordenadas":[38.71709435847454,-9.151570574180125]},{"id":"pt.ine.add.PTCONT.3047516","rua":"CC ENG MIGUEL PAIS","casa":"25","coordenadas":[38.71709435847454,-9.151570574180125]},{"id":"pt.ine.add.PTCONT.3051882","rua":"CC ENG MIGUEL PAIS","casa":"25","coordenadas":[38.71709435847454,-9.151570574180125]},{"id":"pt.ine.add.PTCONT.3210247","rua":"CC ENG MIGUEL PAIS","casa":"9","coordenadas":[38.716813446113534,-9.151762048708548]},{"id":"pt.ine.add.PTCONT.3317269","rua":"CC ENG MIGUEL PAIS","casa":"47","coordenadas":[38.717357056737505,-9.151401835349725]},{"id":"pt.ine.add.PTCONT.3317270","rua":"CC ENG MIGUEL PAIS","casa":"47","coordenadas":[38.717357056737505,-9.151401835349725]},{"id":"pt.ine.add.PTCONT.3317271","rua":"CC ENG MIGUEL PAIS","casa":"47","coordenadas":[38.717357056737505,-9.151401835349725]},{"id":"pt.ine.add.PTCONT.3317272","rua":"CC ENG MIGUEL PAIS","casa":"47","coordenadas":[38.717357056737505,-9.151401835349725]}],"ruas":["CC ENG MIGUEL PAIS"],"centroide":[38.717089847890534,-9.151571331194944]}
+{
+  "CP": "1200-172",
+  "CP4": "1200",
+  "CP3": "172",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Calçada Engenheiro Miguel Pais",
+      "Local": "",
+      "Troço": "Impares de 9 a 57",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2377836",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "21",
+      "coordenadas": [
+        38.717030910524116,
+        -9.151615664742815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2377837",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "21",
+      "coordenadas": [
+        38.717030910524116,
+        -9.151615664742815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2377838",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "21",
+      "coordenadas": [
+        38.717030910524116,
+        -9.151615664742815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2383846",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "21",
+      "coordenadas": [
+        38.717030910524116,
+        -9.151615664742815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2464445",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "11",
+      "coordenadas": [
+        38.71688600104523,
+        -9.151705589935856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2464446",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "11",
+      "coordenadas": [
+        38.71688600104523,
+        -9.151705589935856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2464447",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "11",
+      "coordenadas": [
+        38.71688600104523,
+        -9.151705589935856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2464448",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "11",
+      "coordenadas": [
+        38.71688600104523,
+        -9.151705589935856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2626893",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "43",
+      "coordenadas": [
+        38.71724847489447,
+        -9.151457783519092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2626894",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "43",
+      "coordenadas": [
+        38.71724847489447,
+        -9.151457783519092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2626895",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "43",
+      "coordenadas": [
+        38.71724847489447,
+        -9.151457783519092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2748712",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "29",
+      "coordenadas": [
+        38.71714889978865,
+        -9.15151385934707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2748713",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "29",
+      "coordenadas": [
+        38.71714889978865,
+        -9.15151385934707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2748714",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "29",
+      "coordenadas": [
+        38.71714889978865,
+        -9.15151385934707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2767325",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "15",
+      "coordenadas": [
+        38.716976569477445,
+        -9.151649386732188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2895437",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "45",
+      "coordenadas": [
+        38.71731172251491,
+        -9.151435685466044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971022",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "13",
+      "coordenadas": [
+        38.71693123518483,
+        -9.151683236516345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971023",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "13",
+      "coordenadas": [
+        38.71693123518483,
+        -9.151683236516345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971024",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "13",
+      "coordenadas": [
+        38.71693123518483,
+        -9.151683236516345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3001693",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "35",
+      "coordenadas": [
+        38.717203140656004,
+        -9.151491633549997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3001694",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "35",
+      "coordenadas": [
+        38.717203140656004,
+        -9.151491633549997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3047515",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "25",
+      "coordenadas": [
+        38.71709435847454,
+        -9.151570574180125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3047516",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "25",
+      "coordenadas": [
+        38.71709435847454,
+        -9.151570574180125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3051882",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "25",
+      "coordenadas": [
+        38.71709435847454,
+        -9.151570574180125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3210247",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "9",
+      "coordenadas": [
+        38.716813446113534,
+        -9.151762048708548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3317269",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "47",
+      "coordenadas": [
+        38.717357056737505,
+        -9.151401835349725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3317270",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "47",
+      "coordenadas": [
+        38.717357056737505,
+        -9.151401835349725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3317271",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "47",
+      "coordenadas": [
+        38.717357056737505,
+        -9.151401835349725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3317272",
+      "rua": "CC ENG MIGUEL PAIS",
+      "casa": "47",
+      "coordenadas": [
+        38.717357056737505,
+        -9.151401835349725
+      ]
+    }
+  ],
+  "ruas": [
+    "CC ENG MIGUEL PAIS"
+  ],
+  "centro": [
+    38.717085251425516,
+    -9.151581942029136
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.717093726589304,
+                -9.151578469384638
+              ],
+              [
+                38.717031442039136,
+                -9.151619264789954
+              ],
+              [
+                38.71697807672854,
+                -9.151654078601279
+              ],
+              [
+                38.71693363065753,
+                -9.151682910818614
+              ],
+              [
+                38.7168981038261,
+                -9.151705761441967
+              ],
+              [
+                38.71687149623425,
+                -9.15172263047133
+              ],
+              [
+                38.71685380788197,
+                -9.151733517906706
+              ],
+              [
+                38.71684503876927,
+                -9.151738423748096
+              ],
+              [
+                38.71684518889616,
+                -9.151737347995496
+              ],
+              [
+                38.716854258262615,
+                -9.151730290648908
+              ],
+              [
+                38.71686630175114,
+                -9.151721119680195
+              ],
+              [
+                38.71688131936172,
+                -9.151709835089356
+              ],
+              [
+                38.71689931109435,
+                -9.15169643687639
+              ],
+              [
+                38.71692027694905,
+                -9.151680925041298
+              ],
+              [
+                38.716944216925796,
+                -9.15166329958408
+              ],
+              [
+                38.71697113102461,
+                -9.151643560504734
+              ],
+              [
+                38.71700101924547,
+                -9.151621707803262
+              ],
+              [
+                38.71703388158841,
+                -9.151597741479664
+              ],
+              [
+                38.71706419199949,
+                -9.151575894761702
+              ],
+              [
+                38.717091950478746,
+                -9.15155616764938
+              ],
+              [
+                38.71711715702616,
+                -9.151538560142695
+              ],
+              [
+                38.71713981164174,
+                -9.151523072241647
+              ],
+              [
+                38.71715991432548,
+                -9.151509703946237
+              ],
+              [
+                38.71717746507738,
+                -9.151498455256466
+              ],
+              [
+                38.71719246389745,
+                -9.15148932617233
+              ],
+              [
+                38.71720491078567,
+                -9.151482316693832
+              ],
+              [
+                38.71721749840417,
+                -9.15147530921
+              ],
+              [
+                38.71723022675293,
+                -9.151468303720835
+              ],
+              [
+                38.71724309583197,
+                -9.151461300226336
+              ],
+              [
+                38.717256105641276,
+                -9.1514542987265
+              ],
+              [
+                38.71726925618085,
+                -9.151447299221333
+              ],
+              [
+                38.717282547450694,
+                -9.151440301710831
+              ],
+              [
+                38.7172959794508,
+                -9.151433306194994
+              ],
+              [
+                38.71730955218117,
+                -9.151426312673824
+              ],
+              [
+                38.717320719973024,
+                -9.151420722250867
+              ],
+              [
+                38.71732948282636,
+                -9.151416534926122
+              ],
+              [
+                38.71733584074116,
+                -9.151413750699593
+              ],
+              [
+                38.717339793717436,
+                -9.151412369571279
+              ],
+              [
+                38.71734134175519,
+                -9.151412391541177
+              ],
+              [
+                38.71734048485441,
+                -9.151413816609288
+              ],
+              [
+                38.717337223015114,
+                -9.151416644775615
+              ],
+              [
+                38.71733155623729,
+                -9.151420876040154
+              ],
+              [
+                38.71731881223792,
+                -9.151429677822291
+              ],
+              [
+                38.71729899101702,
+                -9.151443050122024
+              ],
+              [
+                38.71727209257456,
+                -9.151460992939354
+              ],
+              [
+                38.717238116910565,
+                -9.151483506274282
+              ],
+              [
+                38.71719706402502,
+                -9.151510590126804
+              ],
+              [
+                38.71714893391794,
+                -9.151542244496923
+              ],
+              [
+                38.717093726589304,
+                -9.151578469384638
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71712760018238,
+    -9.151546133721055
+  ],
+  "centroDeMassa": [
+    38.717085251425516,
+    -9.151581942029136
+  ]
+}

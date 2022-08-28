@@ -1,1 +1,411 @@
-{"CP4":"4780","CP3":"016","Distrito":"Porto","Concelho":"Santo Tirso","CP":"4780-016","Artéria":"Rua do Bombeiro Voluntário","Localidade":"Areias","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AREIAS STS","locais":[{"id":"pt.ine.add.PTCONT.3568800","rua":"R BOMBEIRO VOLUNTARIO","casa":"11","coordenadas":[41.357239560216634,-8.482501615867703]},{"id":"pt.ine.add.PTCONT.3682251","rua":"R BOMBEIRO VOLUNTARIO","casa":"188","coordenadas":[41.35738910163347,-8.483661603320762]},{"id":"pt.ine.add.PTCONT.3787699","rua":"R BOMBEIRO VOLUNTARIO","casa":"3","coordenadas":[41.357473335239824,-8.482610419707152]},{"id":"pt.ine.add.PTCONT.3795769","rua":"R BOMBEIRO VOLUNTARIO","casa":"139","coordenadas":[41.357120366746805,-8.483206048490258]},{"id":"pt.ine.add.PTCONT.3807167","rua":"R BOMBEIRO VOLUNTARIO","casa":"209","coordenadas":[41.35702883616196,-8.483695521256946]},{"id":"pt.ine.add.PTCONT.3861714","rua":"R BOMBEIRO VOLUNTÁRIO","casa":"73","coordenadas":[41.35711803687768,-8.482851152752824]},{"id":"pt.ine.add.PTCONT.3871804","rua":"R BOMBEIRO VOLUNTARIO","casa":"118","coordenadas":[41.35738184352173,-8.483087945773983]},{"id":"pt.ine.add.PTCONT.3905898","rua":"R BOMBEIRO VOLUNTARIO","casa":"43","coordenadas":[41.35719399633981,-8.482680627499287]},{"id":"pt.ine.add.PTCONT.4113655","rua":"R DR ADELINO AMARO DA COSTA","casa":"17","coordenadas":[41.360344996307084,-8.485768877379464]},{"id":"pt.ine.add.PTCONT.4136275","rua":"R BOMBEIRO VOLUNTARIO","casa":"240","coordenadas":[41.357217153445625,-8.483947489291435]},{"id":"pt.ine.add.PTCONT.4145075","rua":"R BOMBEIRO VOLUNTARIO","casa":"80","coordenadas":[41.35740936389449,-8.482920787699413]},{"id":"pt.ine.add.PTCONT.4172062","rua":"R BOMBEIRO VOLUNTARIO","casa":"103","coordenadas":[41.3571209845688,-8.483002896022967]},{"id":"pt.ine.add.PTCONT.4223526","rua":"R BOMBEIRO VOLUNTARIO","casa":"210","coordenadas":[41.35724467506455,-8.483780332008498]},{"id":"pt.ine.add.PTCONT.4262613","rua":"R BOMBEIRO VOLUNTARIO","casa":"201","coordenadas":[41.35704738989312,-8.483516365922732]},{"id":"pt.ine.add.PTCONT.4356129","rua":"R BOMBEIRO VOLUNTARIO","casa":"187","coordenadas":[41.357065906978505,-8.48334916061968]},{"id":"pt.ine.add.PTCONT.4361824","rua":"R BOMBEIRO VOLUNTARIO","casa":"148","coordenadas":[41.35731787089112,-8.483398312855712]},{"id":"pt.ine.add.PTCONT.4378014","rua":"R BOMBEIRO VOLUNTARIO","casa":"239","coordenadas":[41.35696533546046,-8.483850534554655]},{"id":"pt.ine.add.PTCONT.4388345","rua":"R BOMBEIRO VOLUNTARIO","casa":"267","coordenadas":[41.356983015445195,-8.483958182299215]}],"ruas":["R BOMBEIRO VOLUNTARIO","R BOMBEIRO VOLUNTÁRIO","R DR ADELINO AMARO DA COSTA"],"centroide":[41.357392867837746,-8.483401746530792]}
+{
+  "CP": "4780-016",
+  "CP4": "4780",
+  "CP3": "016",
+  "Distrito": "Porto",
+  "Concelho": "Santo Tirso",
+  "Localidade": "Areias",
+  "Designação Postal": "AREIAS STS",
+  "partes": [
+    {
+      "Artéria": "Rua do Bombeiro Voluntário",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3568800",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "11",
+      "coordenadas": [
+        41.357239560216634,
+        -8.482501615867703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682251",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "188",
+      "coordenadas": [
+        41.35738910163347,
+        -8.483661603320762
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3787699",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "3",
+      "coordenadas": [
+        41.357473335239824,
+        -8.482610419707152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3795769",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "139",
+      "coordenadas": [
+        41.357120366746805,
+        -8.483206048490258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3807167",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "209",
+      "coordenadas": [
+        41.35702883616196,
+        -8.483695521256946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3861714",
+      "rua": "R BOMBEIRO VOLUNTÁRIO",
+      "casa": "73",
+      "coordenadas": [
+        41.35711803687768,
+        -8.482851152752824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3871804",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "118",
+      "coordenadas": [
+        41.35738184352173,
+        -8.483087945773983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3905898",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "43",
+      "coordenadas": [
+        41.35719399633981,
+        -8.482680627499287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113655",
+      "rua": "R DR ADELINO AMARO DA COSTA",
+      "casa": "17",
+      "coordenadas": [
+        41.360344996307084,
+        -8.485768877379464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4136275",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "240",
+      "coordenadas": [
+        41.357217153445625,
+        -8.483947489291435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4145075",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "80",
+      "coordenadas": [
+        41.35740936389449,
+        -8.482920787699413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4172062",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "103",
+      "coordenadas": [
+        41.3571209845688,
+        -8.483002896022967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4223526",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "210",
+      "coordenadas": [
+        41.35724467506455,
+        -8.483780332008498
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4262613",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "201",
+      "coordenadas": [
+        41.35704738989312,
+        -8.483516365922732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4356129",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "187",
+      "coordenadas": [
+        41.357065906978505,
+        -8.48334916061968
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4361824",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "148",
+      "coordenadas": [
+        41.35731787089112,
+        -8.483398312855712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4378014",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "239",
+      "coordenadas": [
+        41.35696533546046,
+        -8.483850534554655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4388345",
+      "rua": "R BOMBEIRO VOLUNTARIO",
+      "casa": "267",
+      "coordenadas": [
+        41.356983015445195,
+        -8.483958182299215
+      ]
+    }
+  ],
+  "ruas": [
+    "R BOMBEIRO VOLUNTARIO",
+    "R BOMBEIRO VOLUNTÁRIO",
+    "R DR ADELINO AMARO DA COSTA"
+  ],
+  "centro": [
+    41.358655165883775,
+    -8.484135246623584
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.35697528045188,
+                -8.48391108641097
+              ],
+              [
+                41.356973070453776,
+                -8.4838976304429
+              ],
+              [
+                41.35697352266509,
+                -8.483870241130184
+              ],
+              [
+                41.356976637085815,
+                -8.483828918472824
+              ],
+              [
+                41.35698241371594,
+                -8.48377366247082
+              ],
+              [
+                41.35699085255547,
+                -8.48370447312417
+              ],
+              [
+                41.3570019536044,
+                -8.483621350432877
+              ],
+              [
+                41.35701571686275,
+                -8.483524294396938
+              ],
+              [
+                41.357032142330496,
+                -8.483413305016354
+              ],
+              [
+                41.35705123000764,
+                -8.483288382291125
+              ],
+              [
+                41.35706983052732,
+                -8.48317361339272
+              ],
+              [
+                41.35708794388953,
+                -8.483068998321139
+              ],
+              [
+                41.35710557009426,
+                -8.48297453707638
+              ],
+              [
+                41.35712270914153,
+                -8.482890229658446
+              ],
+              [
+                41.357139361031315,
+                -8.482816076067335
+              ],
+              [
+                41.35715552576363,
+                -8.482752076303047
+              ],
+              [
+                41.357171203338474,
+                -8.482698230365584
+              ],
+              [
+                41.35718639375584,
+                -8.482654538254943
+              ],
+              [
+                41.357203338105776,
+                -8.482618007718123
+              ],
+              [
+                41.35722203638828,
+                -8.482588638755127
+              ],
+              [
+                41.35724248860335,
+                -8.482566431365951
+              ],
+              [
+                41.35726469475098,
+                -8.482551385550595
+              ],
+              [
+                41.35728865483118,
+                -8.482543501309063
+              ],
+              [
+                41.357314368843944,
+                -8.482542778641351
+              ],
+              [
+                41.357341836789274,
+                -8.482549217547461
+              ],
+              [
+                41.357371058667184,
+                -8.482562818027393
+              ],
+              [
+                41.357441497514515,
+                -8.482624069348462
+              ],
+              [
+                41.357553153331295,
+                -8.482732971510671
+              ],
+              [
+                41.357706026117505,
+                -8.482889524514018
+              ],
+              [
+                41.35790011587316,
+                -8.483093728358503
+              ],
+              [
+                41.35813542259825,
+                -8.483345583044127
+              ],
+              [
+                41.358411946292776,
+                -8.483645088570889
+              ],
+              [
+                41.35872968695675,
+                -8.483992244938788
+              ],
+              [
+                41.35908864459016,
+                -8.484387052147827
+              ],
+              [
+                41.359350201568425,
+                -8.484704216345106
+              ],
+              [
+                41.35951435789155,
+                -8.484943737530628
+              ],
+              [
+                41.35958111355953,
+                -8.485105615704391
+              ],
+              [
+                41.359550468572365,
+                -8.485189850866394
+              ],
+              [
+                41.35942242293006,
+                -8.48519644301664
+              ],
+              [
+                41.3591969766326,
+                -8.485125392155126
+              ],
+              [
+                41.35887412968001,
+                -8.484976698281855
+              ],
+              [
+                41.35845388207227,
+                -8.484750361396824
+              ],
+              [
+                41.358085889165736,
+                -8.484550634626414
+              ],
+              [
+                41.35777015096042,
+                -8.484377517970623
+              ],
+              [
+                41.35750666745629,
+                -8.484231011429452
+              ],
+              [
+                41.35729543865338,
+                -8.484111115002902
+              ],
+              [
+                41.35713646455167,
+                -8.484017828690972
+              ],
+              [
+                41.357029745151166,
+                -8.483951152493661
+              ],
+              [
+                41.35697528045188,
+                -8.48391108641097
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.35768737992448,
+    -8.483590130426835
+  ],
+  "centroDeMassa": [
+    41.358655165883775,
+    -8.484135246623584
+  ]
+}

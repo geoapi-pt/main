@@ -1,1 +1,425 @@
-{"CP4":"2710","CP3":"543","Distrito":"Lisboa","Concelho":"Sintra","CP":"2710-543","Artéria":"Estrada de Boialvo","Localidade":"Lourel","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SINTRA","locais":[{"id":"pt.ine.add.PTCONT.2336001","rua":"ESTR BOIALVO","casa":"114","coordenadas":[38.80715916989251,-9.369498951669131]},{"id":"pt.ine.add.PTCONT.2354028","rua":"ESTR BOIALVO","casa":"1","coordenadas":[38.80685114655186,-9.368814418557001]},{"id":"pt.ine.add.PTCONT.2418900","rua":"ESTR BOIALVO CASAL NOSSA SENHORA PIEDADE","casa":"","coordenadas":[38.80598208486612,-9.373473222434223]},{"id":"pt.ine.add.PTCONT.2500395","rua":"ESTR BOIALVO","casa":"153","coordenadas":[38.80885923066282,-9.368020225339508]},{"id":"pt.ine.add.PTCONT.2526895","rua":"ESTR BOIALVO","casa":"154 A","coordenadas":[38.80792212500271,-9.36805009362006]},{"id":"pt.ine.add.PTCONT.2554029","rua":"ESTR BOIALVO","casa":"24","coordenadas":[38.806296887920205,-9.370969083710653]},{"id":"pt.ine.add.PTCONT.2669790","rua":"ESTR BOIALVO CASAL NOSSA SENHORA CONCEIFAO","casa":"59","coordenadas":[38.806285389455816,-9.37290288646649]},{"id":"pt.ine.add.PTCONT.2684836","rua":"ESTR BOIALVO","casa":"114","coordenadas":[38.80727478538852,-9.369639095176108]},{"id":"pt.ine.add.PTCONT.2696261","rua":"ESTR BOIALVO","casa":"","coordenadas":[38.805362385846415,-9.373301311505523]},{"id":"pt.ine.add.PTCONT.2891942","rua":"ESTR BOIALVO QTA DOS RANOS","casa":"","coordenadas":[38.805898831644534,-9.373678992044256]},{"id":"pt.ine.add.PTCONT.2967449","rua":"ESTR BOIALVO","casa":"","coordenadas":[38.804767260780714,-9.373360063097957]},{"id":"pt.ine.add.PTCONT.3162315","rua":"ESTR BOIALVO SANTA SECILIA","casa":"155","coordenadas":[38.80890900473376,-9.367572103459324]},{"id":"pt.ine.add.PTCONT.3169923","rua":"ESTR BOIALVO CASAL NOSSA SENHORA FATINA","casa":"","coordenadas":[38.8057120132251,-9.37600113952736]},{"id":"pt.ine.add.PTCONT.3203995","rua":"ESTR BOIALVO","casa":"1","coordenadas":[38.80599487442756,-9.377352942774912]},{"id":"pt.ine.add.PTCONT.3253895","rua":"ESTR BOIALVO TERRA DO MATO","casa":"151","coordenadas":[38.80848438866558,-9.368543317619276]},{"id":"pt.ine.add.PTCONT.3281701","rua":"ESTR BOIALVO","casa":"","coordenadas":[38.80504583393585,-9.373422451869837]},{"id":"pt.ine.add.PTCONT.3305786","rua":"ESTR BOIALVO","casa":"169","coordenadas":[38.80881687013046,-9.366914310514021]},{"id":"pt.ine.add.PTCONT.3305787","rua":"ESTR BOIALVO NORADIA NOVA","casa":"","coordenadas":[38.80703095905815,-9.372248112031112]},{"id":"pt.ine.add.PTCONT.3390464","rua":"ESTR BOIALVO","casa":"96","coordenadas":[38.80645378210939,-9.369763044907314]}],"ruas":["ESTR BOIALVO","ESTR BOIALVO CASAL NOSSA SENHORA PIEDADE","ESTR BOIALVO CASAL NOSSA SENHORA CONCEIFAO","ESTR BOIALVO QTA DOS RANOS","ESTR BOIALVO SANTA SECILIA","ESTR BOIALVO CASAL NOSSA SENHORA FATINA","ESTR BOIALVO TERRA DO MATO","ESTR BOIALVO NORADIA NOVA"],"centroide":[38.80681406901048,-9.37132015118982]}
+{
+  "CP": "2710-543",
+  "CP4": "2710",
+  "CP3": "543",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Lourel",
+  "Designação Postal": "SINTRA",
+  "partes": [
+    {
+      "Artéria": "Estrada de Boialvo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2336001",
+      "rua": "ESTR BOIALVO",
+      "casa": "114",
+      "coordenadas": [
+        38.80715916989251,
+        -9.369498951669131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2354028",
+      "rua": "ESTR BOIALVO",
+      "casa": "1",
+      "coordenadas": [
+        38.80685114655186,
+        -9.368814418557001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2418900",
+      "rua": "ESTR BOIALVO CASAL NOSSA SENHORA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        38.80598208486612,
+        -9.373473222434223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2500395",
+      "rua": "ESTR BOIALVO",
+      "casa": "153",
+      "coordenadas": [
+        38.80885923066282,
+        -9.368020225339508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2526895",
+      "rua": "ESTR BOIALVO",
+      "casa": "154 A",
+      "coordenadas": [
+        38.80792212500271,
+        -9.36805009362006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2554029",
+      "rua": "ESTR BOIALVO",
+      "casa": "24",
+      "coordenadas": [
+        38.806296887920205,
+        -9.370969083710653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2669790",
+      "rua": "ESTR BOIALVO CASAL NOSSA SENHORA CONCEIFAO",
+      "casa": "59",
+      "coordenadas": [
+        38.806285389455816,
+        -9.37290288646649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2684836",
+      "rua": "ESTR BOIALVO",
+      "casa": "114",
+      "coordenadas": [
+        38.80727478538852,
+        -9.369639095176108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2696261",
+      "rua": "ESTR BOIALVO",
+      "casa": "",
+      "coordenadas": [
+        38.805362385846415,
+        -9.373301311505523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2891942",
+      "rua": "ESTR BOIALVO QTA DOS RANOS",
+      "casa": "",
+      "coordenadas": [
+        38.805898831644534,
+        -9.373678992044256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2967449",
+      "rua": "ESTR BOIALVO",
+      "casa": "",
+      "coordenadas": [
+        38.804767260780714,
+        -9.373360063097957
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3162315",
+      "rua": "ESTR BOIALVO SANTA SECILIA",
+      "casa": "155",
+      "coordenadas": [
+        38.80890900473376,
+        -9.367572103459324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3169923",
+      "rua": "ESTR BOIALVO CASAL NOSSA SENHORA FATINA",
+      "casa": "",
+      "coordenadas": [
+        38.8057120132251,
+        -9.37600113952736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3203995",
+      "rua": "ESTR BOIALVO",
+      "casa": "1",
+      "coordenadas": [
+        38.80599487442756,
+        -9.377352942774912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3253895",
+      "rua": "ESTR BOIALVO TERRA DO MATO",
+      "casa": "151",
+      "coordenadas": [
+        38.80848438866558,
+        -9.368543317619276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3281701",
+      "rua": "ESTR BOIALVO",
+      "casa": "",
+      "coordenadas": [
+        38.80504583393585,
+        -9.373422451869837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3305786",
+      "rua": "ESTR BOIALVO",
+      "casa": "169",
+      "coordenadas": [
+        38.80881687013046,
+        -9.366914310514021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3305787",
+      "rua": "ESTR BOIALVO NORADIA NOVA",
+      "casa": "",
+      "coordenadas": [
+        38.80703095905815,
+        -9.372248112031112
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3390464",
+      "rua": "ESTR BOIALVO",
+      "casa": "96",
+      "coordenadas": [
+        38.80645378210939,
+        -9.369763044907314
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR BOIALVO",
+    "ESTR BOIALVO CASAL NOSSA SENHORA PIEDADE",
+    "ESTR BOIALVO CASAL NOSSA SENHORA CONCEIFAO",
+    "ESTR BOIALVO QTA DOS RANOS",
+    "ESTR BOIALVO SANTA SECILIA",
+    "ESTR BOIALVO CASAL NOSSA SENHORA FATINA",
+    "ESTR BOIALVO TERRA DO MATO",
+    "ESTR BOIALVO NORADIA NOVA"
+  ],
+  "centro": [
+    38.806838132757235,
+    -9.372133626644466
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.805457793457066,
+                -9.375606057916244
+              ],
+              [
+                38.80530434175121,
+                -9.375106947956626
+              ],
+              [
+                38.80520263222376,
+                -9.374599201046006
+              ],
+              [
+                38.80515266487471,
+                -9.374082817184387
+              ],
+              [
+                38.805154439704076,
+                -9.373557796371768
+              ],
+              [
+                38.80520795671185,
+                -9.373024138608146
+              ],
+              [
+                38.805313215898025,
+                -9.372481843893528
+              ],
+              [
+                38.8054702172626,
+                -9.371930912227908
+              ],
+              [
+                38.80567896080559,
+                -9.371371343611289
+              ],
+              [
+                38.805939446526985,
+                -9.37080313804367
+              ],
+              [
+                38.80619808596411,
+                -9.37027626898383
+              ],
+              [
+                38.80645487911699,
+                -9.369790736431773
+              ],
+              [
+                38.80670982598561,
+                -9.369346540387495
+              ],
+              [
+                38.806962926569966,
+                -9.368943680850998
+              ],
+              [
+                38.80721418087007,
+                -9.368582157822283
+              ],
+              [
+                38.80746358888591,
+                -9.368261971301349
+              ],
+              [
+                38.80771115061749,
+                -9.367983121288196
+              ],
+              [
+                38.80795686606482,
+                -9.367745607782824
+              ],
+              [
+                38.80817330668441,
+                -9.367548061480395
+              ],
+              [
+                38.80836047247625,
+                -9.367390482380905
+              ],
+              [
+                38.80851836344036,
+                -9.36727287048436
+              ],
+              [
+                38.80864697957673,
+                -9.367195225790756
+              ],
+              [
+                38.808746320885355,
+                -9.367157548300092
+              ],
+              [
+                38.80881638736625,
+                -9.36715983801237
+              ],
+              [
+                38.808857179019405,
+                -9.367202094927592
+              ],
+              [
+                38.808868695844815,
+                -9.367284319045753
+              ],
+              [
+                38.808877995347196,
+                -9.367363267053523
+              ],
+              [
+                38.80888507752654,
+                -9.367438938950901
+              ],
+              [
+                38.80888994238285,
+                -9.367511334737888
+              ],
+              [
+                38.80889258991612,
+                -9.36758045441448
+              ],
+              [
+                38.80889302012636,
+                -9.36764629798068
+              ],
+              [
+                38.80889123301356,
+                -9.367708865436489
+              ],
+              [
+                38.80888722857773,
+                -9.367768156781905
+              ],
+              [
+                38.80888100681885,
+                -9.367824172016928
+              ],
+              [
+                38.80883080721367,
+                -9.368019009057502
+              ],
+              [
+                38.808736629762166,
+                -9.368352667903626
+              ],
+              [
+                38.80859847446435,
+                -9.368825148555299
+              ],
+              [
+                38.80841634132021,
+                -9.369436451012524
+              ],
+              [
+                38.80819023032976,
+                -9.370186575275298
+              ],
+              [
+                38.807920141492986,
+                -9.371075521343622
+              ],
+              [
+                38.8076060748099,
+                -9.372103289217497
+              ],
+              [
+                38.80724803028048,
+                -9.373269878896922
+              ],
+              [
+                38.80691555985402,
+                -9.374228256121466
+              ],
+              [
+                38.806608663530504,
+                -9.374978420891132
+              ],
+              [
+                38.806327341309924,
+                -9.375520373205916
+              ],
+              [
+                38.8060715931923,
+                -9.37585411306582
+              ],
+              [
+                38.80584141917761,
+                -9.375979640470842
+              ],
+              [
+                38.80563681926587,
+                -9.375896955420982
+              ],
+              [
+                38.805457793457066,
+                -9.375606057916244
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.807366397881204,
+    -9.370339010623786
+  ],
+  "centroDeMassa": [
+    38.806838132757235,
+    -9.372133626644466
+  ]
+}

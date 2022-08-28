@@ -1,1 +1,406 @@
-{"CP4":"6060","CP3":"232","Distrito":"Castelo Branco","Concelho":"Idanha-a-Nova","CP":"6060-232","Artéria":"Travessa da Misericórdia","Localidade":"Ladoeiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LADOEIRO","locais":[{"id":"pt.ine.add.PTCONT.964204","rua":"LG DA MISERICÓRDIA","casa":"22","coordenadas":[39.83292424890598,-7.260736041619029]},{"id":"pt.ine.add.PTCONT.978122","rua":"LG DA MISERICÓRDIA","casa":"6","coordenadas":[39.83282936205632,-7.260094745217121]},{"id":"pt.ine.add.PTCONT.989744","rua":"LG DA MISERICÓRDIA","casa":"18","coordenadas":[39.83295223126581,-7.260864187206314]},{"id":"pt.ine.add.PTCONT.1017556","rua":"LG DA MISERICÓRDIA","casa":"23","coordenadas":[39.832914716458596,-7.260666071564736]},{"id":"pt.ine.add.PTCONT.1018905","rua":"R DO RIBEIRO DAS LAGES","casa":"","coordenadas":[39.832443623455305,-7.2602982176024256]},{"id":"pt.ine.add.PTCONT.1025806","rua":"R DA MISERICÓRDIA","casa":"5","coordenadas":[39.832821235585314,-7.260211665691723]},{"id":"pt.ine.add.PTCONT.1030160","rua":"LG DA MISERICÓRDIA","casa":"10","coordenadas":[39.83264156676887,-7.2602723487037455]},{"id":"pt.ine.add.PTCONT.1031249","rua":"LG DA MISERICÓRDIA","casa":"9","coordenadas":[39.832650044869375,-7.260202151009631]},{"id":"pt.ine.add.PTCONT.1035970","rua":"LG DA MISERICÓRDIA","casa":"24","coordenadas":[39.83293228805619,-7.260607440355133]},{"id":"pt.ine.add.PTCONT.1038162","rua":"R DA MISERICÓRDIA","casa":"3","coordenadas":[39.83281284536167,-7.260293544204723]},{"id":"pt.ine.add.PTCONT.1049505","rua":"LG DA MISERICÓRDIA","casa":"4","coordenadas":[39.8325871827593,-7.2602263102055025]},{"id":"pt.ine.add.PTCONT.1067343","rua":"LG DA MISERICÓRDIA","casa":"26","coordenadas":[39.832759603759214,-7.260399353849516]},{"id":"pt.ine.add.PTCONT.1072348","rua":"R DO RIBEIRO DAS LAGES","casa":"","coordenadas":[39.83257940763925,-7.260389952679729]},{"id":"pt.ine.add.PTCONT.1073435","rua":"R DO RIBEIRO DAS LAGES","casa":"15","coordenadas":[39.832310123883936,-7.260510177447346]},{"id":"pt.ine.add.PTCONT.1078436","rua":"R DO RIBEIRO DAS LAGES","casa":"","coordenadas":[39.83250534302665,-7.260122210815141]},{"id":"pt.ine.add.PTCONT.1079232","rua":"LG DA MISERICÓRDIA","casa":"20","coordenadas":[39.83293369348221,-7.260794331026046]},{"id":"pt.ine.add.PTCONT.1080023","rua":"LG DA MISERICÓRDIA","casa":"25","coordenadas":[39.83289573929388,-7.260537812176519]},{"id":"pt.ine.add.PTCONT.1080024","rua":"LG DA MISERICÓRDIA","casa":"2","coordenadas":[39.83299488668589,-7.260548239347568]},{"id":"pt.ine.add.PTCONT.1081353","rua":"TV DA MISERICÓRDIA","casa":"","coordenadas":[39.832604578350626,-7.260144317948673]},{"id":"pt.ine.add.PTCONT.1082350","rua":"LG ENG CARLOS COSTA","casa":"4","coordenadas":[39.832508330831615,-7.260519350996444]}],"ruas":["LG DA MISERICÓRDIA","R DO RIBEIRO DAS LAGES","R DA MISERICÓRDIA","TV DA MISERICÓRDIA","LG ENG CARLOS COSTA"],"centroide":[39.83274172219287,-7.2604167957195065]}
+{
+  "CP": "6060-232",
+  "CP4": "6060",
+  "CP3": "232",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Idanha-a-Nova",
+  "Localidade": "Ladoeiro",
+  "Designação Postal": "LADOEIRO",
+  "partes": [
+    {
+      "Artéria": "Largo da Misericórdia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Misericórdia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.964204",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "22",
+      "coordenadas": [
+        39.83292424890598,
+        -7.260736041619029
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.978122",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "6",
+      "coordenadas": [
+        39.83282936205632,
+        -7.260094745217121
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.989744",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "18",
+      "coordenadas": [
+        39.83295223126581,
+        -7.260864187206314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1017556",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "23",
+      "coordenadas": [
+        39.832914716458596,
+        -7.260666071564736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1018905",
+      "rua": "R DO RIBEIRO DAS LAGES",
+      "casa": "",
+      "coordenadas": [
+        39.832443623455305,
+        -7.2602982176024256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1025806",
+      "rua": "R DA MISERICÓRDIA",
+      "casa": "5",
+      "coordenadas": [
+        39.832821235585314,
+        -7.260211665691723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1030160",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "10",
+      "coordenadas": [
+        39.83264156676887,
+        -7.2602723487037455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1031249",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "9",
+      "coordenadas": [
+        39.832650044869375,
+        -7.260202151009631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1035970",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "24",
+      "coordenadas": [
+        39.83293228805619,
+        -7.260607440355133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1038162",
+      "rua": "R DA MISERICÓRDIA",
+      "casa": "3",
+      "coordenadas": [
+        39.83281284536167,
+        -7.260293544204723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1049505",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "4",
+      "coordenadas": [
+        39.8325871827593,
+        -7.2602263102055025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1067343",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "26",
+      "coordenadas": [
+        39.832759603759214,
+        -7.260399353849516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1072348",
+      "rua": "R DO RIBEIRO DAS LAGES",
+      "casa": "",
+      "coordenadas": [
+        39.83257940763925,
+        -7.260389952679729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1073435",
+      "rua": "R DO RIBEIRO DAS LAGES",
+      "casa": "15",
+      "coordenadas": [
+        39.832310123883936,
+        -7.260510177447346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1078436",
+      "rua": "R DO RIBEIRO DAS LAGES",
+      "casa": "",
+      "coordenadas": [
+        39.83250534302665,
+        -7.260122210815141
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1079232",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "20",
+      "coordenadas": [
+        39.83293369348221,
+        -7.260794331026046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1080023",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "25",
+      "coordenadas": [
+        39.83289573929388,
+        -7.260537812176519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1080024",
+      "rua": "LG DA MISERICÓRDIA",
+      "casa": "2",
+      "coordenadas": [
+        39.83299488668589,
+        -7.260548239347568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1081353",
+      "rua": "TV DA MISERICÓRDIA",
+      "casa": "",
+      "coordenadas": [
+        39.832604578350626,
+        -7.260144317948673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1082350",
+      "rua": "LG ENG CARLOS COSTA",
+      "casa": "4",
+      "coordenadas": [
+        39.832508330831615,
+        -7.260519350996444
+      ]
+    }
+  ],
+  "ruas": [
+    "LG DA MISERICÓRDIA",
+    "R DO RIBEIRO DAS LAGES",
+    "R DA MISERICÓRDIA",
+    "TV DA MISERICÓRDIA",
+    "LG ENG CARLOS COSTA"
+  ],
+  "centro": [
+    39.83265250528491,
+    -7.260479466211718
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.83267130928623,
+                -7.260709307936764
+              ],
+              [
+                39.8325910458635,
+                -7.2606650567168955
+              ],
+              [
+                39.83252386566772,
+                -7.26062027492088
+              ],
+              [
+                39.83246976869888,
+                -7.26057496254872
+              ],
+              [
+                39.832428754956986,
+                -7.260529119600417
+              ],
+              [
+                39.83240082444204,
+                -7.260482746075967
+              ],
+              [
+                39.83238597715404,
+                -7.260435841975374
+              ],
+              [
+                39.83238421309298,
+                -7.260388407298638
+              ],
+              [
+                39.83239553225887,
+                -7.260340442045757
+              ],
+              [
+                39.83241993465171,
+                -7.260291946216731
+              ],
+              [
+                39.83244634954278,
+                -7.260249083216365
+              ],
+              [
+                39.83247477693209,
+                -7.260211853044658
+              ],
+              [
+                39.83250521681963,
+                -7.260180255701609
+              ],
+              [
+                39.83253766920541,
+                -7.26015429118722
+              ],
+              [
+                39.83257213408941,
+                -7.26013395950149
+              ],
+              [
+                39.832608611471656,
+                -7.260119260644419
+              ],
+              [
+                39.83264710135213,
+                -7.260110194616008
+              ],
+              [
+                39.83268760373084,
+                -7.260106761416256
+              ],
+              [
+                39.83272562963455,
+                -7.260110843212261
+              ],
+              [
+                39.832761179063255,
+                -7.260122440004022
+              ],
+              [
+                39.83279425201696,
+                -7.260141551791541
+              ],
+              [
+                39.83282484849566,
+                -7.260168178574818
+              ],
+              [
+                39.83285296849937,
+                -7.2602023203538515
+              ],
+              [
+                39.83287861202806,
+                -7.260243977128644
+              ],
+              [
+                39.83290177908176,
+                -7.260293148899192
+              ],
+              [
+                39.83292246966045,
+                -7.260349835665497
+              ],
+              [
+                39.83293990742587,
+                -7.260404373271308
+              ],
+              [
+                39.83295409237802,
+                -7.260456761716624
+              ],
+              [
+                39.83296502451688,
+                -7.260507001001444
+              ],
+              [
+                39.83297270384247,
+                -7.260555091125768
+              ],
+              [
+                39.83297713035479,
+                -7.260601032089598
+              ],
+              [
+                39.83297830405384,
+                -7.260644823892932
+              ],
+              [
+                39.8329762249396,
+                -7.26068646653577
+              ],
+              [
+                39.832970893012096,
+                -7.260725960018113
+              ],
+              [
+                39.83295619464768,
+                -7.260754985412679
+              ],
+              [
+                39.83293212984637,
+                -7.260773542719468
+              ],
+              [
+                39.83289869860815,
+                -7.260781631938481
+              ],
+              [
+                39.83285590093302,
+                -7.2607792530697175
+              ],
+              [
+                39.83280373682099,
+                -7.260766406113177
+              ],
+              [
+                39.832742206272066,
+                -7.260743091068859
+              ],
+              [
+                39.83267130928623,
+                -7.260709307936764
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.832718389383714,
+    -7.260427912006698
+  ],
+  "centroDeMassa": [
+    39.83265250528491,
+    -7.260479466211718
+  ]
+}

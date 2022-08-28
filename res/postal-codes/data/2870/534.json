@@ -1,1 +1,395 @@
-{"CP4":"2870","CP3":"534","Distrito":"Setúbal","Concelho":"Montijo","CP":"2870-534","Artéria":"Rua Fernando Pessoa","Localidade":"Sarilhos Grandes","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SARILHOS GRANDES","locais":[{"id":"pt.ine.add.PTCONT.4697734","rua":"R FERNANDO PESSOA CASA TERRIA","casa":"1","coordenadas":[38.68247209179787,-8.96423774904977]},{"id":"pt.ine.add.PTCONT.4705991","rua":"R MACHADO SANTOS EM504","casa":"","coordenadas":[38.68035662338715,-8.974119405973493]},{"id":"pt.ine.add.PTCONT.4727221","rua":"R FERNANDO PESSOA","casa":"45","coordenadas":[38.681923871734334,-8.964059023412517]},{"id":"pt.ine.add.PTCONT.4856094","rua":"R FERNANDO PESSOA CASA TERRIA","casa":"2","coordenadas":[38.68243573594124,-8.964283297950821]},{"id":"pt.ine.add.PTCONT.4859540","rua":"R FERNANDO PESSOA","casa":"232","coordenadas":[38.68136151221031,-8.96586828585771]},{"id":"pt.ine.add.PTCONT.4894039","rua":"R FERNANDO PESSOA","casa":"67","coordenadas":[38.681958267689595,-8.96428926689984]},{"id":"pt.ine.add.PTCONT.4937447","rua":"R FERNANDO PESSOA","casa":"125","coordenadas":[38.68177550771947,-8.964654904931832]},{"id":"pt.ine.add.PTCONT.4963985","rua":"R FERNANDO PESSOA","casa":"244","coordenadas":[38.68125088755308,-8.966223261051104]},{"id":"pt.ine.add.PTCONT.4977230","rua":"R FERNANDO PESSOA","casa":"230","coordenadas":[38.68132417367553,-8.966051728038174]},{"id":"pt.ine.add.PTCONT.4977261","rua":"R FERNANDO PESSOA","casa":"89","coordenadas":[38.68182144291026,-8.96452902164605]},{"id":"pt.ine.add.PTCONT.4987988","rua":"R FERNANDO PESSOA CASA TERRIA","casa":"","coordenadas":[38.680974444129156,-8.96582932351028]},{"id":"pt.ine.add.PTCONT.5042899","rua":"R FERNANDO PESSOA ANEXO","casa":"244","coordenadas":[38.68123246365091,-8.966280508272371]},{"id":"pt.ine.add.PTCONT.5072522","rua":"R FERNANDO PESSOA CASA TERRIA","casa":"3","coordenadas":[38.68239929838944,-8.964340338216614]},{"id":"pt.ine.add.PTCONT.5099993","rua":"R FERNANDO PESSOA CASA TERRIA","casa":"125","coordenadas":[38.681604941061174,-8.964572485372678]},{"id":"pt.ine.add.PTCONT.5106721","rua":"R FERNANDO PESSOA","casa":"45","coordenadas":[38.68205840957691,-8.964141025426223]},{"id":"pt.ine.add.PTCONT.5110964","rua":"R PORTO DA ESPINHOSA","casa":"","coordenadas":[38.68394250905677,-8.974023468295252]}],"ruas":["R FERNANDO PESSOA CASA TERRIA","R MACHADO SANTOS EM504","R FERNANDO PESSOA","R FERNANDO PESSOA ANEXO","R PORTO DA ESPINHOSA"],"centroide":[38.68166331142844,-8.965565308373963]}
+{
+  "CP": "2870-534",
+  "CP4": "2870",
+  "CP3": "534",
+  "Distrito": "Setúbal",
+  "Concelho": "Montijo",
+  "Localidade": "Sarilhos Grandes",
+  "Designação Postal": "SARILHOS GRANDES",
+  "partes": [
+    {
+      "Artéria": "Rua Fernando Pessoa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4697734",
+      "rua": "R FERNANDO PESSOA CASA TERRIA",
+      "casa": "1",
+      "coordenadas": [
+        38.68247209179787,
+        -8.96423774904977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4705991",
+      "rua": "R MACHADO SANTOS EM504",
+      "casa": "",
+      "coordenadas": [
+        38.68035662338715,
+        -8.974119405973493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4727221",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "45",
+      "coordenadas": [
+        38.681923871734334,
+        -8.964059023412517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4856094",
+      "rua": "R FERNANDO PESSOA CASA TERRIA",
+      "casa": "2",
+      "coordenadas": [
+        38.68243573594124,
+        -8.964283297950821
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4859540",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "232",
+      "coordenadas": [
+        38.68136151221031,
+        -8.96586828585771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4894039",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "67",
+      "coordenadas": [
+        38.681958267689595,
+        -8.96428926689984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4937447",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "125",
+      "coordenadas": [
+        38.68177550771947,
+        -8.964654904931832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4963985",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "244",
+      "coordenadas": [
+        38.68125088755308,
+        -8.966223261051104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4977230",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "230",
+      "coordenadas": [
+        38.68132417367553,
+        -8.966051728038174
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4977261",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "89",
+      "coordenadas": [
+        38.68182144291026,
+        -8.96452902164605
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4987988",
+      "rua": "R FERNANDO PESSOA CASA TERRIA",
+      "casa": "",
+      "coordenadas": [
+        38.680974444129156,
+        -8.96582932351028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5042899",
+      "rua": "R FERNANDO PESSOA ANEXO",
+      "casa": "244",
+      "coordenadas": [
+        38.68123246365091,
+        -8.966280508272371
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5072522",
+      "rua": "R FERNANDO PESSOA CASA TERRIA",
+      "casa": "3",
+      "coordenadas": [
+        38.68239929838944,
+        -8.964340338216614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5099993",
+      "rua": "R FERNANDO PESSOA CASA TERRIA",
+      "casa": "125",
+      "coordenadas": [
+        38.681604941061174,
+        -8.964572485372678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5106721",
+      "rua": "R FERNANDO PESSOA",
+      "casa": "45",
+      "coordenadas": [
+        38.68205840957691,
+        -8.964141025426223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5110964",
+      "rua": "R PORTO DA ESPINHOSA",
+      "casa": "",
+      "coordenadas": [
+        38.68394250905677,
+        -8.974023468295252
+      ]
+    }
+  ],
+  "ruas": [
+    "R FERNANDO PESSOA CASA TERRIA",
+    "R MACHADO SANTOS EM504",
+    "R FERNANDO PESSOA",
+    "R FERNANDO PESSOA ANEXO",
+    "R PORTO DA ESPINHOSA"
+  ],
+  "centro": [
+    38.68214956622196,
+    -8.969089214693005
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.68237368407631,
+                -8.974065441029484
+              ],
+              [
+                38.68192544836761,
+                -8.974077433239263
+              ],
+              [
+                38.68154289557159,
+                -8.973958393884333
+              ],
+              [
+                38.68122602568825,
+                -8.973708322964693
+              ],
+              [
+                38.68097483871759,
+                -8.973327220480343
+              ],
+              [
+                38.680789334659615,
+                -8.97281508643128
+              ],
+              [
+                38.68066951351432,
+                -8.972171920817509
+              ],
+              [
+                38.68061537528171,
+                -8.97139772363903
+              ],
+              [
+                38.68062691996178,
+                -8.970492494895836
+              ],
+              [
+                38.68070414755452,
+                -8.969456234587936
+              ],
+              [
+                38.68078157321274,
+                -8.968529868722621
+              ],
+              [
+                38.68085919693644,
+                -8.967713397299894
+              ],
+              [
+                38.680937018725594,
+                -8.967006820319757
+              ],
+              [
+                38.68101503858022,
+                -8.966410137782205
+              ],
+              [
+                38.68109325650032,
+                -8.965923349687243
+              ],
+              [
+                38.681171672485874,
+                -8.965546456034867
+              ],
+              [
+                38.68125028653691,
+                -8.965279456825078
+              ],
+              [
+                38.68132909865342,
+                -8.965122352057877
+              ],
+              [
+                38.681403042547124,
+                -8.964976862543448
+              ],
+              [
+                38.68147211821804,
+                -8.964842988281795
+              ],
+              [
+                38.68153632566615,
+                -8.964720729272912
+              ],
+              [
+                38.68159566489148,
+                -8.964610085516803
+              ],
+              [
+                38.68165013589401,
+                -8.964511057013466
+              ],
+              [
+                38.68169973867374,
+                -8.9644236437629
+              ],
+              [
+                38.68174447323068,
+                -8.964347845765108
+              ],
+              [
+                38.68178433956483,
+                -8.964283663020087
+              ],
+              [
+                38.68182778854569,
+                -8.964230295706276
+              ],
+              [
+                38.68187482017329,
+                -8.964187743823675
+              ],
+              [
+                38.68192543444761,
+                -8.964156007372285
+              ],
+              [
+                38.681979631368655,
+                -8.964135086352105
+              ],
+              [
+                38.682037410936424,
+                -8.964124980763131
+              ],
+              [
+                38.68209877315091,
+                -8.96412569060537
+              ],
+              [
+                38.682163718012134,
+                -8.964137215878816
+              ],
+              [
+                38.68223224552007,
+                -8.964159556583471
+              ],
+              [
+                38.68231518235919,
+                -8.964332006563257
+              ],
+              [
+                38.6824125285295,
+                -8.96465456581817
+              ],
+              [
+                38.68252428403097,
+                -8.965127234348213
+              ],
+              [
+                38.68265044886362,
+                -8.965750012153384
+              ],
+              [
+                38.68279102302745,
+                -8.966522899233684
+              ],
+              [
+                38.68294600652246,
+                -8.967445895589112
+              ],
+              [
+                38.68311539934864,
+                -8.968519001219668
+              ],
+              [
+                38.683299201506,
+                -8.969742216125354
+              ],
+              [
+                38.6834039989301,
+                -8.970814028194052
+              ],
+              [
+                38.68342979162095,
+                -8.97173443742576
+              ],
+              [
+                38.68337657957854,
+                -8.972503443820482
+              ],
+              [
+                38.68324436280287,
+                -8.973121047378214
+              ],
+              [
+                38.68303314129394,
+                -8.97358724809896
+              ],
+              [
+                38.682742915051755,
+                -8.973902045982715
+              ],
+              [
+                38.68237368407631,
+                -8.974065441029484
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.68187908019441,
+    -8.967806909269
+  ],
+  "centroDeMassa": [
+    38.68214956622196,
+    -8.969089214693005
+  ]
+}

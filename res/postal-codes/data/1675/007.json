@@ -1,1 +1,436 @@
-{"CP4":"1675","CP3":"007","Distrito":"Lisboa","Concelho":"Odivelas","CP":"1675-007","Artéria":"Rua Cidade de Coimbra","Localidade":"Pontinha","Local":"Bairro Casalinho da Azenha","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTINHA","locais":[{"id":"pt.ine.add.PTCONT.2292958","rua":"R CIDADE DE COIMBRA","casa":"75","coordenadas":[38.779427791119716,-9.216750479203062]},{"id":"pt.ine.add.PTCONT.2553279","rua":"R CIDADE DE COIMBRA","casa":"88","coordenadas":[38.779576312032674,-9.217247560564273]},{"id":"pt.ine.add.PTCONT.2623097","rua":"R CIDADE DE COIMBRA","casa":"1","coordenadas":[38.78027433257335,-9.217741460732942]},{"id":"pt.ine.add.PTCONT.2725441","rua":"R CIDADE DE COIMBRA","casa":"81","coordenadas":[38.77997184972114,-9.217334104671595]},{"id":"pt.ine.add.PTCONT.2731899","rua":"R CIDADE DE COIMBRA","casa":"","coordenadas":[38.77896920754829,-9.216662984925682]},{"id":"pt.ine.add.PTCONT.2841716","rua":"R CIDADE DE COIMBRA","casa":"72","coordenadas":[38.779142357610155,-9.216446959319367]},{"id":"pt.ine.add.PTCONT.2905744","rua":"R CIDADE DE COIMBRA","casa":"73","coordenadas":[38.779240362124064,-9.21656351922277]},{"id":"pt.ine.add.PTCONT.3005711","rua":"R CIDADE DE COIMBRA","casa":"91","coordenadas":[38.779290666416955,-9.216967050272373]},{"id":"pt.ine.add.PTCONT.3033685","rua":"R CIDADE DE COIMBRA","casa":"92","coordenadas":[38.77918365583666,-9.21685035341624]},{"id":"pt.ine.add.PTCONT.3034088","rua":"R CIDADE DE COIMBRA","casa":"71","coordenadas":[38.779026020030436,-9.216364645375055]},{"id":"pt.ine.add.PTCONT.3228863","rua":"R CIDADE DE COIMBRA","casa":"87","coordenadas":[38.779629710370486,-9.2173174157143]},{"id":"pt.ine.add.PTCONT.3228864","rua":"R CIDADE DE COIMBRA","casa":"87","coordenadas":[38.779629710370486,-9.2173174157143]},{"id":"pt.ine.add.PTCONT.3247252","rua":"R CIDADE DE COIMBRA","casa":"","coordenadas":[38.77911256435104,-9.21674570822027]},{"id":"pt.ine.add.PTCONT.3247640","rua":"R CIDADE DE COIMBRA","casa":"","coordenadas":[38.77911256435104,-9.21674570822027]},{"id":"pt.ine.add.PTCONT.3293198","rua":"R CIDADE DE COIMBRA","casa":"84","coordenadas":[38.78031110605013,-9.217661462726424]},{"id":"pt.ine.add.PTCONT.3308249","rua":"R CIDADE DE COIMBRA","casa":"54","coordenadas":[38.78059728394395,-9.217884448345691]},{"id":"pt.ine.add.PTCONT.3308281","rua":"R CIDADE DE COIMBRA","casa":"54","coordenadas":[38.78059728394395,-9.217884448345691]},{"id":"pt.ine.add.PTCONT.3308282","rua":"R CIDADE DE COIMBRA","casa":"54","coordenadas":[38.78059728394395,-9.217884448345691]},{"id":"pt.ine.add.PTCONT.3329064","rua":"R CIDADE DE COIMBRA","casa":"76","coordenadas":[38.77949019624205,-9.216820470165723]},{"id":"pt.ine.add.PTCONT.3412571","rua":"R CIDADE DE COIMBRA","casa":"74","coordenadas":[38.77931177384478,-9.216633646137582]},{"id":"pt.ine.add.PTCONT.3434096","rua":"R CIDADE DE COIMBRA","casa":"89","coordenadas":[38.779442282317405,-9.217130453731318]}],"ruas":["R CIDADE DE COIMBRA"],"centroide":[38.77962460162127,-9.217091214481966]}
+{
+  "CP": "1675-007",
+  "CP4": "1675",
+  "CP3": "007",
+  "Distrito": "Lisboa",
+  "Concelho": "Odivelas",
+  "Localidade": "Pontinha",
+  "Designação Postal": "PONTINHA",
+  "partes": [
+    {
+      "Artéria": "Rua Cidade de Coimbra",
+      "Local": "Bairro Casalinho da Azenha",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2292958",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "75",
+      "coordenadas": [
+        38.779427791119716,
+        -9.216750479203062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2553279",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "88",
+      "coordenadas": [
+        38.779576312032674,
+        -9.217247560564273
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2623097",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "1",
+      "coordenadas": [
+        38.78027433257335,
+        -9.217741460732942
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2725441",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "81",
+      "coordenadas": [
+        38.77997184972114,
+        -9.217334104671595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2731899",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "",
+      "coordenadas": [
+        38.77896920754829,
+        -9.216662984925682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2841716",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "72",
+      "coordenadas": [
+        38.779142357610155,
+        -9.216446959319367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2905744",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "73",
+      "coordenadas": [
+        38.779240362124064,
+        -9.21656351922277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3005711",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "91",
+      "coordenadas": [
+        38.779290666416955,
+        -9.216967050272373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3033685",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "92",
+      "coordenadas": [
+        38.77918365583666,
+        -9.21685035341624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3034088",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "71",
+      "coordenadas": [
+        38.779026020030436,
+        -9.216364645375055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3228863",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "87",
+      "coordenadas": [
+        38.779629710370486,
+        -9.2173174157143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3228864",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "87",
+      "coordenadas": [
+        38.779629710370486,
+        -9.2173174157143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3247252",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "",
+      "coordenadas": [
+        38.77911256435104,
+        -9.21674570822027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3247640",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "",
+      "coordenadas": [
+        38.77911256435104,
+        -9.21674570822027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3293198",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "84",
+      "coordenadas": [
+        38.78031110605013,
+        -9.217661462726424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3308249",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "54",
+      "coordenadas": [
+        38.78059728394395,
+        -9.217884448345691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3308281",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "54",
+      "coordenadas": [
+        38.78059728394395,
+        -9.217884448345691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3308282",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "54",
+      "coordenadas": [
+        38.78059728394395,
+        -9.217884448345691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3329064",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "76",
+      "coordenadas": [
+        38.77949019624205,
+        -9.216820470165723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3412571",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "74",
+      "coordenadas": [
+        38.77931177384478,
+        -9.216633646137582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3434096",
+      "rua": "R CIDADE DE COIMBRA",
+      "casa": "89",
+      "coordenadas": [
+        38.779442282317405,
+        -9.217130453731318
+      ]
+    }
+  ],
+  "ruas": [
+    "R CIDADE DE COIMBRA"
+  ],
+  "centro": [
+    38.77978324574612,
+    -9.217124546860372
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.77934074038578,
+                -9.21703110224428
+              ],
+              [
+                38.779258177532995,
+                -9.216949298395702
+              ],
+              [
+                38.77918682273185,
+                -9.216873058472718
+              ],
+              [
+                38.77912667598234,
+                -9.216802382475327
+              ],
+              [
+                38.77907773728445,
+                -9.21673727040353
+              ],
+              [
+                38.77904000663821,
+                -9.216677722257328
+              ],
+              [
+                38.77901348404359,
+                -9.21662373803672
+              ],
+              [
+                38.778998169500596,
+                -9.216575317741704
+              ],
+              [
+                38.778994063009236,
+                -9.216532461372282
+              ],
+              [
+                38.77900116456949,
+                -9.216495168928454
+              ],
+              [
+                38.779009196209415,
+                -9.216463824195484
+              ],
+              [
+                38.77901815792898,
+                -9.216438427173372
+              ],
+              [
+                38.7790280497282,
+                -9.21641897786212
+              ],
+              [
+                38.77903887160707,
+                -9.216405476261725
+              ],
+              [
+                38.77905062356558,
+                -9.216397922372188
+              ],
+              [
+                38.77906330560375,
+                -9.21639631619351
+              ],
+              [
+                38.77907691772156,
+                -9.216400657725691
+              ],
+              [
+                38.77909145991903,
+                -9.21641094696873
+              ],
+              [
+                38.779126917565776,
+                -9.216442410822426
+              ],
+              [
+                38.779183290661805,
+                -9.216495049286776
+              ],
+              [
+                38.77926057920712,
+                -9.216568862361784
+              ],
+              [
+                38.77935878320171,
+                -9.216663850047452
+              ],
+              [
+                38.77947790264559,
+                -9.216780012343772
+              ],
+              [
+                38.779617937538745,
+                -9.21691734925075
+              ],
+              [
+                38.77977888788119,
+                -9.217075860768384
+              ],
+              [
+                38.77996075367291,
+                -9.217255546896673
+              ],
+              [
+                38.780114840125506,
+                -9.217410538077479
+              ],
+              [
+                38.78024114723897,
+                -9.217540834310798
+              ],
+              [
+                38.780339675013295,
+                -9.217646435596631
+              ],
+              [
+                38.7804104234485,
+                -9.217727341934982
+              ],
+              [
+                38.780453392544565,
+                -9.217783553325845
+              ],
+              [
+                38.7804685823015,
+                -9.21781506976922
+              ],
+              [
+                38.78045599271931,
+                -9.217821891265112
+              ],
+              [
+                38.78041562379798,
+                -9.217804017813519
+              ],
+              [
+                38.7803702287699,
+                -9.217781752839958
+              ],
+              [
+                38.78031980763507,
+                -9.217755096344431
+              ],
+              [
+                38.78026436039348,
+                -9.217724048326936
+              ],
+              [
+                38.78020388704514,
+                -9.217688608787475
+              ],
+              [
+                38.78013838759004,
+                -9.217648777726044
+              ],
+              [
+                38.78006786202819,
+                -9.21760455514265
+              ],
+              [
+                38.77999231035959,
+                -9.217555941037286
+              ],
+              [
+                38.77991173258424,
+                -9.217502935409955
+              ],
+              [
+                38.779830906674206,
+                -9.21744633000497
+              ],
+              [
+                38.77974983262949,
+                -9.217386124822328
+              ],
+              [
+                38.7796685104501,
+                -9.21732231986203
+              ],
+              [
+                38.779586940136035,
+                -9.217254915124077
+              ],
+              [
+                38.77950512168729,
+                -9.217183910608467
+              ],
+              [
+                38.77942305510388,
+                -9.217109306315201
+              ],
+              [
+                38.77934074038578,
+                -9.21703110224428
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.779606485346115,
+    -9.217069652402174
+  ],
+  "centroDeMassa": [
+    38.77978324574612,
+    -9.217124546860372
+  ]
+}

@@ -1,1 +1,401 @@
-{"CP4":"7370","CP3":"074","Distrito":"Portalegre","Concelho":"Campo Maior","CP":"7370-074","Artéria":"Rua Capitão Manuel António Vieira","Localidade":"Campo Maior","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAMPO MAIOR","locais":[{"id":"pt.ine.add.PTCONT.3463050","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"4","coordenadas":[39.01380450627698,-7.069012419673357]},{"id":"pt.ine.add.PTCONT.3471340","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"","coordenadas":[39.01360679165195,-7.069061565373052]},{"id":"pt.ine.add.PTCONT.3479191","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"18","coordenadas":[39.01328351700061,-7.0691703202357825]},{"id":"pt.ine.add.PTCONT.3484088","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"23","coordenadas":[39.013389695720676,-7.068960908651795]},{"id":"pt.ine.add.PTCONT.3490866","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"","coordenadas":[39.013748994850346,-7.068851612667371]},{"id":"pt.ine.add.PTCONT.3491793","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"","coordenadas":[39.0136411314036,-7.068876320751329]},{"id":"pt.ine.add.PTCONT.3491794","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"20","coordenadas":[39.01315764111761,-7.069195297565768]},{"id":"pt.ine.add.PTCONT.3497086","rua":"R CAP MANUEL ANTONIO VIEIRA","casa":"17B","coordenadas":[39.01356929264527,-7.068900488785967]},{"id":"pt.ine.add.PTCONT.3499027","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"2","coordenadas":[39.01315806225101,-7.069241473437486]},{"id":"pt.ine.add.PTCONT.3507959","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"1","coordenadas":[39.0140266357963,-7.068707412098313]},{"id":"pt.ine.add.PTCONT.3509765","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"7","coordenadas":[39.013802926570655,-7.068839258595873]},{"id":"pt.ine.add.PTCONT.3509766","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"7","coordenadas":[39.013802926570655,-7.068839258595873]},{"id":"pt.ine.add.PTCONT.3514678","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"5","coordenadas":[39.01394259021873,-7.0687776794285515]},{"id":"pt.ine.add.PTCONT.3519089","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"14","coordenadas":[39.0134363061078,-7.069133393916217]},{"id":"pt.ine.add.PTCONT.3523385","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"20","coordenadas":[39.01322958523577,-7.069182673957156]},{"id":"pt.ine.add.PTCONT.3524632","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"10","coordenadas":[39.01334645493866,-7.069157831535705]},{"id":"pt.ine.add.PTCONT.3531549","rua":"R CAP MANUEL ANTÓNIO VIEIRA","casa":"21","coordenadas":[39.01347033004366,-7.068913517720334]}],"ruas":["R CAP MANUEL ANTÓNIO VIEIRA","R CAP MANUEL ANTONIO VIEIRA"],"centroide":[39.01355919114729,-7.06899424470435]}
+{
+  "CP": "7370-074",
+  "CP4": "7370",
+  "CP3": "074",
+  "Distrito": "Portalegre",
+  "Concelho": "Campo Maior",
+  "Localidade": "Campo Maior",
+  "Designação Postal": "CAMPO MAIOR",
+  "partes": [
+    {
+      "Artéria": "Rua Capitão Manuel António Vieira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3463050",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "4",
+      "coordenadas": [
+        39.01380450627698,
+        -7.069012419673357
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3471340",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "",
+      "coordenadas": [
+        39.01360679165195,
+        -7.069061565373052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3479191",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "18",
+      "coordenadas": [
+        39.01328351700061,
+        -7.0691703202357825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3484088",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "23",
+      "coordenadas": [
+        39.013389695720676,
+        -7.068960908651795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3490866",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "",
+      "coordenadas": [
+        39.013748994850346,
+        -7.068851612667371
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491793",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "",
+      "coordenadas": [
+        39.0136411314036,
+        -7.068876320751329
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491794",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "20",
+      "coordenadas": [
+        39.01315764111761,
+        -7.069195297565768
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3497086",
+      "rua": "R CAP MANUEL ANTONIO VIEIRA",
+      "casa": "17B",
+      "coordenadas": [
+        39.01356929264527,
+        -7.068900488785967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3499027",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "2",
+      "coordenadas": [
+        39.01315806225101,
+        -7.069241473437486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3507959",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "1",
+      "coordenadas": [
+        39.0140266357963,
+        -7.068707412098313
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509765",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "7",
+      "coordenadas": [
+        39.013802926570655,
+        -7.068839258595873
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509766",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "7",
+      "coordenadas": [
+        39.013802926570655,
+        -7.068839258595873
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3514678",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "5",
+      "coordenadas": [
+        39.01394259021873,
+        -7.0687776794285515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519089",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "14",
+      "coordenadas": [
+        39.0134363061078,
+        -7.069133393916217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3523385",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "20",
+      "coordenadas": [
+        39.01322958523577,
+        -7.069182673957156
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3524632",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "10",
+      "coordenadas": [
+        39.01334645493866,
+        -7.069157831535705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3531549",
+      "rua": "R CAP MANUEL ANTÓNIO VIEIRA",
+      "casa": "21",
+      "coordenadas": [
+        39.01347033004366,
+        -7.068913517720334
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAP MANUEL ANTÓNIO VIEIRA",
+    "R CAP MANUEL ANTONIO VIEIRA"
+  ],
+  "centro": [
+    39.01359213845696,
+    -7.0689744427678995
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.013157878005146,
+                -7.0692212714936105
+              ],
+              [
+                39.01315782536348,
+                -7.069215499509644
+              ],
+              [
+                39.01316140515519,
+                -7.069206786696894
+              ],
+              [
+                39.01316861738027,
+                -7.069195133055359
+              ],
+              [
+                39.01317946203874,
+                -7.069180538585039
+              ],
+              [
+                39.013193939130595,
+                -7.069163003285933
+              ],
+              [
+                39.01321204865583,
+                -7.069142527158042
+              ],
+              [
+                39.01323379061445,
+                -7.069119110201367
+              ],
+              [
+                39.01325916500645,
+                -7.069092752415905
+              ],
+              [
+                39.01328817183183,
+                -7.0690634538016575
+              ],
+              [
+                39.01331481271534,
+                -7.069037077030888
+              ],
+              [
+                39.013339087656966,
+                -7.069013622103595
+              ],
+              [
+                39.01336099665672,
+                -7.068993089019779
+              ],
+              [
+                39.01338053971461,
+                -7.068975477779439
+              ],
+              [
+                39.01339771683061,
+                -7.068960788382576
+              ],
+              [
+                39.013412528004736,
+                -7.068949020829191
+              ],
+              [
+                39.01342497323699,
+                -7.068940175119281
+              ],
+              [
+                39.01343505252735,
+                -7.068934251252848
+              ],
+              [
+                39.01345256418381,
+                -7.068925847469377
+              ],
+              [
+                39.013477508206364,
+                -7.068914963768864
+              ],
+              [
+                39.013509884595,
+                -7.068901600151312
+              ],
+              [
+                39.01354969334973,
+                -7.068885756616718
+              ],
+              [
+                39.01359693447054,
+                -7.068867433165085
+              ],
+              [
+                39.01365160795745,
+                -7.068846629796413
+              ],
+              [
+                39.01371371381044,
+                -7.068823346510699
+              ],
+              [
+                39.01378325202952,
+                -7.068797583307947
+              ],
+              [
+                39.013840627197474,
+                -7.068779806248898
+              ],
+              [
+                39.013885839314305,
+                -7.068770015333553
+              ],
+              [
+                39.01391888838001,
+                -7.068768210561913
+              ],
+              [
+                39.01393977439459,
+                -7.068774391933978
+              ],
+              [
+                39.01394849735805,
+                -7.068788559449747
+              ],
+              [
+                39.013945057270384,
+                -7.068810713109219
+              ],
+              [
+                39.0139294541316,
+                -7.068840852912395
+              ],
+              [
+                39.01390168794168,
+                -7.068878978859275
+              ],
+              [
+                39.013867291837606,
+                -7.0689159180278605
+              ],
+              [
+                39.01382626581936,
+                -7.06895167041815
+              ],
+              [
+                39.01377860988694,
+                -7.068986236030144
+              ],
+              [
+                39.01372432404037,
+                -7.0690196148638424
+              ],
+              [
+                39.01366340827962,
+                -7.069051806919245
+              ],
+              [
+                39.0135958626047,
+                -7.069082812196353
+              ],
+              [
+                39.013521687015626,
+                -7.069112630695164
+              ],
+              [
+                39.013440881512366,
+                -7.0691412624156795
+              ],
+              [
+                39.013370170116815,
+                -7.0691655936731355
+              ],
+              [
+                39.01330955282897,
+                -7.069185624467531
+              ],
+              [
+                39.01325902964881,
+                -7.069201354798867
+              ],
+              [
+                39.01321860057635,
+                -7.069212784667144
+              ],
+              [
+                39.01318826561158,
+                -7.0692199140723595
+              ],
+              [
+                39.01316802475452,
+                -7.069222743014515
+              ],
+              [
+                39.013157878005146,
+                -7.0692212714936105
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.01350114520104,
+    -7.069005171524509
+  ],
+  "centroDeMassa": [
+    39.01359213845696,
+    -7.0689744427678995
+  ]
+}

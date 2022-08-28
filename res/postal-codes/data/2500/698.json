@@ -1,1 +1,549 @@
-{"CP4":"2500","CP3":"698","Distrito":"Leiria","Concelho":"Caldas da Rainha","CP":"2500-698","Artéria":"Rua Encosta do Sol","Localidade":"Salir do Porto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SALIR DO PORTO","locais":[{"id":"pt.ine.add.PTCONT.1979617","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49439863822938,-9.157518489601323]},{"id":"pt.ine.add.PTCONT.1982558","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.495086540992666,-9.15713333990878]},{"id":"pt.ine.add.PTCONT.1994053","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49488708803383,-9.157281536787208]},{"id":"pt.ine.add.PTCONT.1994895","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49441102286063,-9.157135052894017]},{"id":"pt.ine.add.PTCONT.2001570","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49427501826068,-9.157237680350702]},{"id":"pt.ine.add.PTCONT.2006295","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494130212820814,-9.157316928742548]},{"id":"pt.ine.add.PTCONT.2037441","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494660823074824,-9.157406089615947]},{"id":"pt.ine.add.PTCONT.2039623","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49493242292206,-9.157247327416353]},{"id":"pt.ine.add.PTCONT.2055186","rua":"R ENCOSTA DO SOL","casa":"7","coordenadas":[39.49356541601079,-9.15804099398899]},{"id":"pt.ine.add.PTCONT.2061371","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49483284998885,-9.157303990581527]},{"id":"pt.ine.add.PTCONT.2078826","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494597477055386,-9.15744003439913]},{"id":"pt.ine.add.PTCONT.2101342","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494516119940585,-9.15747371475959]},{"id":"pt.ine.add.PTCONT.2108245","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494154566786335,-9.15761952990396]},{"id":"pt.ine.add.PTCONT.2112976","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49421156989548,-9.157283248374814]},{"id":"pt.ine.add.PTCONT.2114261","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49407320961895,-9.157653209851471]},{"id":"pt.ine.add.PTCONT.2120211","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49472816187216,-9.15691883399636]},{"id":"pt.ine.add.PTCONT.2123313","rua":"R ENCOSTA DO SOL","casa":"5","coordenadas":[39.49375740102087,-9.157718321954809]},{"id":"pt.ine.add.PTCONT.2125129","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49447447116905,-9.157089484607601]},{"id":"pt.ine.add.PTCONT.2127777","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49471506113933,-9.157383635953861]},{"id":"pt.ine.add.PTCONT.2132337","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49459225982477,-9.157009839000182]},{"id":"pt.ine.add.PTCONT.2160035","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49422691840094,-9.157585717685636]},{"id":"pt.ine.add.PTCONT.2166612","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49404875333751,-9.157362232273263]},{"id":"pt.ine.add.PTCONT.2179470","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494308275548654,-9.157552037588719]},{"id":"pt.ine.add.PTCONT.2179471","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49479161009767,-9.156873265310681]},{"id":"pt.ine.add.PTCONT.2186175","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.494470887401384,-9.157496300474305]},{"id":"pt.ine.add.PTCONT.2195289","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.4947694015997,-9.157349558898042]},{"id":"pt.ine.add.PTCONT.2213203","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49434757453475,-9.15718062109844]},{"id":"pt.ine.add.PTCONT.2236765","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49500497919961,-9.157190267651513]},{"id":"pt.ine.add.PTCONT.2236766","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49466471362917,-9.15696440260004]},{"id":"pt.ine.add.PTCONT.2239093","rua":"R ENCOSTA DO SOL","casa":"","coordenadas":[39.49453781709082,-9.157055539561405]}],"ruas":["R ENCOSTA DO SOL"],"centroide":[39.494470118802305,-9.157336747802407]}
+{
+  "CP": "2500-698",
+  "CP4": "2500",
+  "CP3": "698",
+  "Distrito": "Leiria",
+  "Concelho": "Caldas da Rainha",
+  "Localidade": "Salir do Porto",
+  "Designação Postal": "SALIR DO PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua Encosta do Sol",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1979617",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49439863822938,
+        -9.157518489601323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1982558",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.495086540992666,
+        -9.15713333990878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1994053",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49488708803383,
+        -9.157281536787208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1994895",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49441102286063,
+        -9.157135052894017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2001570",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49427501826068,
+        -9.157237680350702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2006295",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494130212820814,
+        -9.157316928742548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2037441",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494660823074824,
+        -9.157406089615947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039623",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49493242292206,
+        -9.157247327416353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2055186",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "7",
+      "coordenadas": [
+        39.49356541601079,
+        -9.15804099398899
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2061371",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49483284998885,
+        -9.157303990581527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2078826",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494597477055386,
+        -9.15744003439913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2101342",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494516119940585,
+        -9.15747371475959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2108245",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494154566786335,
+        -9.15761952990396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2112976",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49421156989548,
+        -9.157283248374814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2114261",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49407320961895,
+        -9.157653209851471
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2120211",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49472816187216,
+        -9.15691883399636
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2123313",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "5",
+      "coordenadas": [
+        39.49375740102087,
+        -9.157718321954809
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2125129",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49447447116905,
+        -9.157089484607601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2127777",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49471506113933,
+        -9.157383635953861
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2132337",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49459225982477,
+        -9.157009839000182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2160035",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49422691840094,
+        -9.157585717685636
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2166612",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49404875333751,
+        -9.157362232273263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2179470",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494308275548654,
+        -9.157552037588719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2179471",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49479161009767,
+        -9.156873265310681
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2186175",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.494470887401384,
+        -9.157496300474305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2195289",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.4947694015997,
+        -9.157349558898042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2213203",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49434757453475,
+        -9.15718062109844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2236765",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49500497919961,
+        -9.157190267651513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2236766",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49466471362917,
+        -9.15696440260004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2239093",
+      "rua": "R ENCOSTA DO SOL",
+      "casa": "",
+      "coordenadas": [
+        39.49453781709082,
+        -9.157055539561405
+      ]
+    }
+  ],
+  "ruas": [
+    "R ENCOSTA DO SOL"
+  ],
+  "centro": [
+    39.49432597850173,
+    -9.157457129649835
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.494212091395596,
+                -9.15767123009423
+              ],
+              [
+                39.494068385754524,
+                -9.157753399848621
+              ],
+              [
+                39.49394564308437,
+                -9.15782025663318
+              ],
+              [
+                39.49384386338514,
+                -9.157871800447905
+              ],
+              [
+                39.49376304665682,
+                -9.157908031292797
+              ],
+              [
+                39.49370319289942,
+                -9.157928949167855
+              ],
+              [
+                39.493664302112926,
+                -9.157934554073082
+              ],
+              [
+                39.493646374297356,
+                -9.157924846008475
+              ],
+              [
+                39.4936494094527,
+                -9.157899824974036
+              ],
+              [
+                39.49367340757896,
+                -9.157859490969763
+              ],
+              [
+                39.493698958319385,
+                -9.157818634814749
+              ],
+              [
+                39.49372606167398,
+                -9.157777256508997
+              ],
+              [
+                39.49375471764274,
+                -9.157735356052504
+              ],
+              [
+                39.49378492622565,
+                -9.157692933445272
+              ],
+              [
+                39.493816687422736,
+                -9.157649988687298
+              ],
+              [
+                39.49385000123399,
+                -9.157606521778586
+              ],
+              [
+                39.4938848676594,
+                -9.157562532719133
+              ],
+              [
+                39.49392128669898,
+                -9.157518021508938
+              ],
+              [
+                39.49396476049549,
+                -9.15747143409123
+              ],
+              [
+                39.49401528904893,
+                -9.157422770466004
+              ],
+              [
+                39.4940728723593,
+                -9.157372030633262
+              ],
+              [
+                39.4941375104266,
+                -9.157319214593002
+              ],
+              [
+                39.494209203250826,
+                -9.15726432234523
+              ],
+              [
+                39.49428795083199,
+                -9.15720735388994
+              ],
+              [
+                39.49437375317008,
+                -9.157148309227132
+              ],
+              [
+                39.49446661026509,
+                -9.157087188356812
+              ],
+              [
+                39.49455246851847,
+                -9.157037771260875
+              ],
+              [
+                39.49463132793021,
+                -9.157000057939323
+              ],
+              [
+                39.494703188500296,
+                -9.156974048392158
+              ],
+              [
+                39.49476805022875,
+                -9.156959742619376
+              ],
+              [
+                39.494825913115555,
+                -9.156957140620982
+              ],
+              [
+                39.49487677716071,
+                -9.156966242396972
+              ],
+              [
+                39.494920642364235,
+                -9.156987047947348
+              ],
+              [
+                39.4949575087261,
+                -9.157019557272113
+              ],
+              [
+                39.494986650340266,
+                -9.157050318507505
+              ],
+              [
+                39.49500806720671,
+                -9.157079331653527
+              ],
+              [
+                39.49502175932543,
+                -9.15710659671018
+              ],
+              [
+                39.49502772669644,
+                -9.157132113677461
+              ],
+              [
+                39.49502596931974,
+                -9.157155882555374
+              ],
+              [
+                39.495016487195315,
+                -9.15717790334392
+              ],
+              [
+                39.49499928032317,
+                -9.157198176043092
+              ],
+              [
+                39.49497434870332,
+                -9.157216700652896
+              ],
+              [
+                39.49494984561572,
+                -9.157234504985952
+              ],
+              [
+                39.49492577106038,
+                -9.157251589042263
+              ],
+              [
+                39.49490212503729,
+                -9.157267952821828
+              ],
+              [
+                39.49487890754646,
+                -9.157283596324644
+              ],
+              [
+                39.494856118587876,
+                -9.157298519550716
+              ],
+              [
+                39.494833758161555,
+                -9.157312722500041
+              ],
+              [
+                39.49481182626749,
+                -9.15732620517262
+              ],
+              [
+                39.49479032290567,
+                -9.15733896756845
+              ],
+              [
+                39.494753544258955,
+                -9.157360405884102
+              ],
+              [
+                39.49470149032732,
+                -9.157390520119574
+              ],
+              [
+                39.49463416111079,
+                -9.157429310274864
+              ],
+              [
+                39.49455155660936,
+                -9.157476776349977
+              ],
+              [
+                39.494453676823014,
+                -9.157532918344907
+              ],
+              [
+                39.49434052175175,
+                -9.157597736259659
+              ],
+              [
+                39.494212091395596,
+                -9.15767123009423
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.49440741009038,
+    -9.1573990465968
+  ],
+  "centroDeMassa": [
+    39.49432597850173,
+    -9.157457129649835
+  ]
+}

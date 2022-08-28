@@ -1,1 +1,384 @@
-{"CP4":"3870","CP3":"108","Distrito":"Aveiro","Concelho":"Murtosa","CP":"3870-108","Artéria":" ","Localidade":"Santa Luzia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MURTOSA","locais":[{"id":"pt.ine.add.PTCONT.296418","rua":"R SANTA LUZIA","casa":"147","coordenadas":[40.75866190445288,-8.634532492504862]},{"id":"pt.ine.add.PTCONT.334397","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"10","coordenadas":[40.75603440850558,-8.640267966181344]},{"id":"pt.ine.add.PTCONT.344329","rua":"R AGRICULTURA","casa":"13","coordenadas":[40.75023952065378,-8.637228166711118]},{"id":"pt.ine.add.PTCONT.1656","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"35","coordenadas":[40.75595679827327,-8.639485804802941]},{"id":"pt.ine.add.PTCONT.12182","rua":"R SANTA LUZIA","casa":"137","coordenadas":[40.75820765423636,-8.635452785975854]},{"id":"pt.ine.add.PTCONT.17490","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"82","coordenadas":[40.75672532051166,-8.640829796940892]},{"id":"pt.ine.add.PTCONT.30536","rua":"R AGRICULTURA","casa":"15","coordenadas":[40.750434362860545,-8.637975622148652]},{"id":"pt.ine.add.PTCONT.36150","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"4","coordenadas":[40.75635696268476,-8.640637521442134]},{"id":"pt.ine.add.PTCONT.41646","rua":"R AGRICULTURA","casa":"36","coordenadas":[40.751160683480364,-8.63867974330378]},{"id":"pt.ine.add.PTCONT.44427","rua":"R AGRICULTURA","casa":"21","coordenadas":[40.75098027876178,-8.638749423525493]},{"id":"pt.ine.add.PTCONT.63043","rua":"R SANTA LUZIA","casa":"16","coordenadas":[40.7512224191076,-8.638976239760627]},{"id":"pt.ine.add.PTCONT.69022","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"40","coordenadas":[40.755072908709224,-8.637750190011708]},{"id":"pt.ine.add.PTCONT.76613","rua":"R AGRICULTURA","casa":"23","coordenadas":[40.75101557108457,-8.638915466518869]},{"id":"pt.ine.add.PTCONT.90616","rua":"R AGRICULTURA","casa":"3","coordenadas":[40.749383352048774,-8.637387472344706]},{"id":"pt.ine.add.PTCONT.92724","rua":"R MARIA ANJOS MATOS","casa":"11","coordenadas":[40.75270293312355,-8.648318495963204]},{"id":"pt.ine.add.PTCONT.122108","rua":"R SANTA LUZIA","casa":"","coordenadas":[40.75077283379247,-8.640172668367786]},{"id":"pt.ine.add.PTCONT.122109","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"13A","coordenadas":[40.75626347640278,-8.639369711328428]},{"id":"pt.ine.add.PTCONT.149787","rua":"R SANTA LUZIA","casa":"20","coordenadas":[40.75141198429735,-8.638871105760149]},{"id":"pt.ine.add.PTCONT.149788","rua":"R SANTA LUZIA","casa":"22","coordenadas":[40.75165562930635,-8.638754539633863]},{"id":"pt.ine.add.PTCONT.169844","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"24","coordenadas":[40.755670466666096,-8.639069164206413]},{"id":"pt.ine.add.PTCONT.211974","rua":"R SANTA LUZIA","casa":"131","coordenadas":[40.75790020654424,-8.63574653005435]},{"id":"pt.ine.add.PTCONT.242568","rua":"R PADRE MANUEL JOSE COSTEIRA","casa":"28","coordenadas":[40.75555434023233,-8.63885512920204]}],"ruas":["R SANTA LUZIA","R PADRE MANUEL JOSE COSTEIRA","R AGRICULTURA","R MARIA ANJOS MATOS"],"centroide":[40.753706175024,-8.638912900356532]}
+{
+  "CP": "3870-108",
+  "CP4": "3870",
+  "CP3": "108",
+  "Distrito": "Aveiro",
+  "Concelho": "Murtosa",
+  "Localidade": "Santa Luzia",
+  "Designação Postal": "MURTOSA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.296418",
+      "rua": "R SANTA LUZIA",
+      "casa": "147",
+      "coordenadas": [
+        40.75866190445288,
+        -8.634532492504862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.334397",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "10",
+      "coordenadas": [
+        40.75603440850558,
+        -8.640267966181344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.344329",
+      "rua": "R AGRICULTURA",
+      "casa": "13",
+      "coordenadas": [
+        40.75023952065378,
+        -8.637228166711118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1656",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "35",
+      "coordenadas": [
+        40.75595679827327,
+        -8.639485804802941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.12182",
+      "rua": "R SANTA LUZIA",
+      "casa": "137",
+      "coordenadas": [
+        40.75820765423636,
+        -8.635452785975854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.17490",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "82",
+      "coordenadas": [
+        40.75672532051166,
+        -8.640829796940892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.30536",
+      "rua": "R AGRICULTURA",
+      "casa": "15",
+      "coordenadas": [
+        40.750434362860545,
+        -8.637975622148652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.36150",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "4",
+      "coordenadas": [
+        40.75635696268476,
+        -8.640637521442134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41646",
+      "rua": "R AGRICULTURA",
+      "casa": "36",
+      "coordenadas": [
+        40.751160683480364,
+        -8.63867974330378
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.44427",
+      "rua": "R AGRICULTURA",
+      "casa": "21",
+      "coordenadas": [
+        40.75098027876178,
+        -8.638749423525493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.63043",
+      "rua": "R SANTA LUZIA",
+      "casa": "16",
+      "coordenadas": [
+        40.7512224191076,
+        -8.638976239760627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.69022",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "40",
+      "coordenadas": [
+        40.755072908709224,
+        -8.637750190011708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.76613",
+      "rua": "R AGRICULTURA",
+      "casa": "23",
+      "coordenadas": [
+        40.75101557108457,
+        -8.638915466518869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.90616",
+      "rua": "R AGRICULTURA",
+      "casa": "3",
+      "coordenadas": [
+        40.749383352048774,
+        -8.637387472344706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.92724",
+      "rua": "R MARIA ANJOS MATOS",
+      "casa": "11",
+      "coordenadas": [
+        40.75270293312355,
+        -8.648318495963204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.122108",
+      "rua": "R SANTA LUZIA",
+      "casa": "",
+      "coordenadas": [
+        40.75077283379247,
+        -8.640172668367786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.122109",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "13A",
+      "coordenadas": [
+        40.75626347640278,
+        -8.639369711328428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.149787",
+      "rua": "R SANTA LUZIA",
+      "casa": "20",
+      "coordenadas": [
+        40.75141198429735,
+        -8.638871105760149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.149788",
+      "rua": "R SANTA LUZIA",
+      "casa": "22",
+      "coordenadas": [
+        40.75165562930635,
+        -8.638754539633863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.169844",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "24",
+      "coordenadas": [
+        40.755670466666096,
+        -8.639069164206413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.211974",
+      "rua": "R SANTA LUZIA",
+      "casa": "131",
+      "coordenadas": [
+        40.75790020654424,
+        -8.63574653005435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.242568",
+      "rua": "R PADRE MANUEL JOSE COSTEIRA",
+      "casa": "28",
+      "coordenadas": [
+        40.75555434023233,
+        -8.63885512920204
+      ]
+    }
+  ],
+  "ruas": [
+    "R SANTA LUZIA",
+    "R PADRE MANUEL JOSE COSTEIRA",
+    "R AGRICULTURA",
+    "R MARIA ANJOS MATOS"
+  ],
+  "centro": [
+    40.75402262825082,
+    -8.641425494234033
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.75125061640334,
+                -8.643536173130112
+              ],
+              [
+                40.750835668768985,
+                -8.642169795177798
+              ],
+              [
+                40.75061756697025,
+                -8.640929605409529
+              ],
+              [
+                40.750596311007115,
+                -8.639815603825298
+              ],
+              [
+                40.75077190087959,
+                -8.638827790425111
+              ],
+              [
+                40.75114433658768,
+                -8.637966165208963
+              ],
+              [
+                40.75171361813137,
+                -8.637230728176858
+              ],
+              [
+                40.75247974551067,
+                -8.636621479328795
+              ],
+              [
+                40.75344271872557,
+                -8.636138418664773
+              ],
+              [
+                40.75460253777608,
+                -8.635781546184793
+              ],
+              [
+                40.755587120321195,
+                -8.635567678146623
+              ],
+              [
+                40.756396466360926,
+                -8.635496814550265
+              ],
+              [
+                40.75703057589525,
+                -8.635568955395716
+              ],
+              [
+                40.757489448924176,
+                -8.635784100682978
+              ],
+              [
+                40.75777308544771,
+                -8.63614225041205
+              ],
+              [
+                40.75788148546585,
+                -8.636643404582934
+              ],
+              [
+                40.757814648978595,
+                -8.637287563195626
+              ],
+              [
+                40.75757257598595,
+                -8.638074726250128
+              ],
+              [
+                40.75729791231444,
+                -8.638880504845043
+              ],
+              [
+                40.75699065796407,
+                -8.639704898980368
+              ],
+              [
+                40.75665081293484,
+                -8.640547908656103
+              ],
+              [
+                40.75627837722676,
+                -8.64140953387225
+              ],
+              [
+                40.75587335083981,
+                -8.642289774628807
+              ],
+              [
+                40.755435733774014,
+                -8.643188630925776
+              ],
+              [
+                40.75496552602936,
+                -8.644106102763153
+              ],
+              [
+                40.75446272760585,
+                -8.645042190140941
+              ],
+              [
+                40.75397091053098,
+                -8.645690469352468
+              ],
+              [
+                40.75349007480476,
+                -8.646050940397734
+              ],
+              [
+                40.75302022042718,
+                -8.646123603276735
+              ],
+              [
+                40.75256134739825,
+                -8.645908457989472
+              ],
+              [
+                40.75211345571796,
+                -8.64540550453595
+              ],
+              [
+                40.75167654538633,
+                -8.644614742916161
+              ],
+              [
+                40.75125061640334,
+                -8.643536173130112
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.75436837753422,
+    -8.640267064438415
+  ],
+  "centroDeMassa": [
+    40.75402262825082,
+    -8.641425494234033
+  ]
+}

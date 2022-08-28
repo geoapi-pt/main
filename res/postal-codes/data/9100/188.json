@@ -1,1 +1,534 @@
-{"CP4":"9100","CP3":"188","Distrito":"Ilha da Madeira","Concelho":"Santa Cruz","CP":"9100-188","Artéria":"Rampa da Cafusa","Localidade":"Terça de Cima","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTA CRUZ","locais":[{"id":"pt.ine.add.MAD.41422","rua":"R CAFUSA","casa":"5","coordenadas":[32.69974094483009,-16.785425324677153]},{"id":"pt.ine.add.MAD.41423","rua":"R CAFUSA","casa":"11","coordenadas":[32.699445984119805,-16.78523811746126]},{"id":"pt.ine.add.MAD.42239","rua":"RAMP CAFUSA","casa":"5","coordenadas":[32.69940906463502,-16.78593071254987]},{"id":"pt.ine.add.MAD.47172","rua":"LEV CAFUSA","casa":"39","coordenadas":[32.696282845328646,-16.78315920909832]},{"id":"pt.ine.add.MAD.49688","rua":"R CAFUSA","casa":"35","coordenadas":[32.69800323157089,-16.783950745315135]},{"id":"pt.ine.add.MAD.49687","rua":"R CAFUSA","casa":"24","coordenadas":[32.69855760904908,-16.78492176389035]},{"id":"pt.ine.add.MAD.49689","rua":"R CAFUSA","casa":"39","coordenadas":[32.69784964889418,-16.783969022083426]},{"id":"pt.ine.add.MAD.49690","rua":"R CAFUSA","casa":"43","coordenadas":[32.6977359243173,-16.7837214313114]},{"id":"pt.ine.add.MAD.49709","rua":"LEV CAFUSA","casa":"","coordenadas":[32.694747704386096,-16.78139010836778]},{"id":"pt.ine.add.MAD.53065","rua":"LEV CAFUSA","casa":"55","coordenadas":[32.70055815298941,-16.786305608325993]},{"id":"pt.ine.add.MAD.60114","rua":"R CAFUSA","casa":"32","coordenadas":[32.698129070478785,-16.78461457057177]},{"id":"pt.ine.add.MAD.62808","rua":"R CAFUSA","casa":"6","coordenadas":[32.699592885947375,-16.785689041905684]},{"id":"pt.ine.add.MAD.65808","rua":"R CAFUSA","casa":"23","coordenadas":[32.698696042777115,-16.784700522851697]},{"id":"pt.ine.add.MAD.68164","rua":"LEV CAFUSA CCI","casa":"CCI 1104","coordenadas":[32.7002448571646,-16.7861393645223]},{"id":"pt.ine.add.MAD.72589","rua":"R CAFUSA","casa":"18","coordenadas":[32.6988414285662,-16.78525807798006]},{"id":"pt.ine.add.MAD.76782","rua":"VR DOCA","casa":"","coordenadas":[32.699142487048405,-16.783749417396177]},{"id":"pt.ine.add.MAD.76954","rua":"LEV CAFUSA","casa":"1","coordenadas":[32.694023207707694,-16.781599700243255]},{"id":"pt.ine.add.MAD.78771","rua":"R CAFUSA","casa":"12","coordenadas":[32.69928217033731,-16.785341521290217]},{"id":"pt.ine.add.MAD.79146","rua":"LEV CAFUSA","casa":"","coordenadas":[32.69488355694542,-16.78135014310094]},{"id":"pt.ine.add.MAD.81605","rua":"R CAFUSA","casa":"55","coordenadas":[32.6972525255768,-16.78346648720982]},{"id":"pt.ine.add.MAD.85079","rua":"R CAFUSA","casa":"","coordenadas":[32.69736443047046,-16.783842036675402]},{"id":"pt.ine.add.MAD.90013","rua":"R CAFUSA","casa":"33","coordenadas":[32.69807217697528,-16.78417611301101]},{"id":"pt.ine.add.MAD.92824","rua":"RAMP CAFUSA","casa":"9","coordenadas":[32.699076368496286,-16.78586008514026]},{"id":"pt.ine.add.MAD.99919","rua":"R CAFUSA","casa":"37","coordenadas":[32.69793216206175,-16.78387466597668]},{"id":"pt.ine.add.MAD.101865","rua":"RAMP CAFUSA","casa":"","coordenadas":[32.69891802133338,-16.785579600122855]},{"id":"pt.ine.add.MAD.101978","rua":"R CAFUSA","casa":"31","coordenadas":[32.69821416381025,-16.784338935978806]},{"id":"pt.ine.add.MAD.104458","rua":"R CAFUSA","casa":"21","coordenadas":[32.697414888138844,-16.784099033920075]},{"id":"pt.ine.add.MAD.119451","rua":"R CAFUSA","casa":"21","coordenadas":[32.69883848420329,-16.784831357202535]},{"id":"pt.ine.add.MAD.125306","rua":"R CAFUSA","casa":"14","coordenadas":[32.69913851494052,-16.78529599399623]},{"id":"pt.ine.add.MAD.125733","rua":"R CAFUSA","casa":"27","coordenadas":[32.698436539449006,-16.784556692167552]},{"id":"pt.ine.add.MAD.128764","rua":"R CAFUSA","casa":"12","coordenadas":[32.697844576513525,-16.783691593756423]}],"ruas":["R CAFUSA","RAMP CAFUSA","LEV CAFUSA","LEV CAFUSA CCI","VR DOCA"],"centroide":[32.698194169751645,-16.784412513478134]}
+{
+  "CP": "9100-188",
+  "CP4": "9100",
+  "CP3": "188",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Santa Cruz",
+  "Localidade": [
+    "Santa Cruz",
+    "Terça de Cima"
+  ],
+  "Designação Postal": "SANTA CRUZ",
+  "partes": [
+    {
+      "Artéria": "Vereda da Doca",
+      "Localidade": "Santa Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Levada da Cafusa",
+      "Localidade": "Santa Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Cafusa",
+      "Localidade": "Santa Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Vereda do Vinte",
+      "Localidade": "Santa Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rampa da Cafusa",
+      "Localidade": "Terça de Cima",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.41422",
+      "rua": "R CAFUSA",
+      "casa": "5",
+      "coordenadas": [
+        32.69974094483009,
+        -16.785425324677153
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.41423",
+      "rua": "R CAFUSA",
+      "casa": "11",
+      "coordenadas": [
+        32.699445984119805,
+        -16.78523811746126
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.42239",
+      "rua": "RAMP CAFUSA",
+      "casa": "5",
+      "coordenadas": [
+        32.69940906463502,
+        -16.78593071254987
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.47172",
+      "rua": "LEV CAFUSA",
+      "casa": "39",
+      "coordenadas": [
+        32.696282845328646,
+        -16.78315920909832
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.49688",
+      "rua": "R CAFUSA",
+      "casa": "35",
+      "coordenadas": [
+        32.69800323157089,
+        -16.783950745315135
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.49687",
+      "rua": "R CAFUSA",
+      "casa": "24",
+      "coordenadas": [
+        32.69855760904908,
+        -16.78492176389035
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.49689",
+      "rua": "R CAFUSA",
+      "casa": "39",
+      "coordenadas": [
+        32.69784964889418,
+        -16.783969022083426
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.49690",
+      "rua": "R CAFUSA",
+      "casa": "43",
+      "coordenadas": [
+        32.6977359243173,
+        -16.7837214313114
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.49709",
+      "rua": "LEV CAFUSA",
+      "casa": "",
+      "coordenadas": [
+        32.694747704386096,
+        -16.78139010836778
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.53065",
+      "rua": "LEV CAFUSA",
+      "casa": "55",
+      "coordenadas": [
+        32.70055815298941,
+        -16.786305608325993
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.60114",
+      "rua": "R CAFUSA",
+      "casa": "32",
+      "coordenadas": [
+        32.698129070478785,
+        -16.78461457057177
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.62808",
+      "rua": "R CAFUSA",
+      "casa": "6",
+      "coordenadas": [
+        32.699592885947375,
+        -16.785689041905684
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.65808",
+      "rua": "R CAFUSA",
+      "casa": "23",
+      "coordenadas": [
+        32.698696042777115,
+        -16.784700522851697
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.68164",
+      "rua": "LEV CAFUSA CCI",
+      "casa": "CCI 1104",
+      "coordenadas": [
+        32.7002448571646,
+        -16.7861393645223
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.72589",
+      "rua": "R CAFUSA",
+      "casa": "18",
+      "coordenadas": [
+        32.6988414285662,
+        -16.78525807798006
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.76782",
+      "rua": "VR DOCA",
+      "casa": "",
+      "coordenadas": [
+        32.699142487048405,
+        -16.783749417396177
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.76954",
+      "rua": "LEV CAFUSA",
+      "casa": "1",
+      "coordenadas": [
+        32.694023207707694,
+        -16.781599700243255
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.78771",
+      "rua": "R CAFUSA",
+      "casa": "12",
+      "coordenadas": [
+        32.69928217033731,
+        -16.785341521290217
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.79146",
+      "rua": "LEV CAFUSA",
+      "casa": "",
+      "coordenadas": [
+        32.69488355694542,
+        -16.78135014310094
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.81605",
+      "rua": "R CAFUSA",
+      "casa": "55",
+      "coordenadas": [
+        32.6972525255768,
+        -16.78346648720982
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.85079",
+      "rua": "R CAFUSA",
+      "casa": "",
+      "coordenadas": [
+        32.69736443047046,
+        -16.783842036675402
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.90013",
+      "rua": "R CAFUSA",
+      "casa": "33",
+      "coordenadas": [
+        32.69807217697528,
+        -16.78417611301101
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.92824",
+      "rua": "RAMP CAFUSA",
+      "casa": "9",
+      "coordenadas": [
+        32.699076368496286,
+        -16.78586008514026
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.99919",
+      "rua": "R CAFUSA",
+      "casa": "37",
+      "coordenadas": [
+        32.69793216206175,
+        -16.78387466597668
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.101865",
+      "rua": "RAMP CAFUSA",
+      "casa": "",
+      "coordenadas": [
+        32.69891802133338,
+        -16.785579600122855
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.101978",
+      "rua": "R CAFUSA",
+      "casa": "31",
+      "coordenadas": [
+        32.69821416381025,
+        -16.784338935978806
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.104458",
+      "rua": "R CAFUSA",
+      "casa": "21",
+      "coordenadas": [
+        32.697414888138844,
+        -16.784099033920075
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.119451",
+      "rua": "R CAFUSA",
+      "casa": "21",
+      "coordenadas": [
+        32.69883848420329,
+        -16.784831357202535
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.125306",
+      "rua": "R CAFUSA",
+      "casa": "14",
+      "coordenadas": [
+        32.69913851494052,
+        -16.78529599399623
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.125733",
+      "rua": "R CAFUSA",
+      "casa": "27",
+      "coordenadas": [
+        32.698436539449006,
+        -16.784556692167552
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.128764",
+      "rua": "R CAFUSA",
+      "casa": "12",
+      "coordenadas": [
+        32.697844576513525,
+        -16.783691593756423
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAFUSA",
+    "RAMP CAFUSA",
+    "LEV CAFUSA",
+    "LEV CAFUSA CCI",
+    "VR DOCA"
+  ],
+  "centro": [
+    32.69729068034855,
+    -16.783827875713467
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.69686561065127,
+                -16.783996166747823
+              ],
+              [
+                32.69623396555271,
+                -16.783463618635697
+              ],
+              [
+                32.69569471904829,
+                -16.782993739707237
+              ],
+              [
+                32.695247871138044,
+                -16.782586529962447
+              ],
+              [
+                32.69489342182195,
+                -16.78224198940132
+              ],
+              [
+                32.69463137110002,
+                -16.781960118023864
+              ],
+              [
+                32.694461718972256,
+                -16.78174091583007
+              ],
+              [
+                32.694384465438645,
+                -16.78158438281995
+              ],
+              [
+                32.694399610499204,
+                -16.781490518993493
+              ],
+              [
+                32.69450715415391,
+                -16.781459324350703
+              ],
+              [
+                32.69466780063465,
+                -16.781469517699126
+              ],
+              [
+                32.69488154994141,
+                -16.78152109903876
+              ],
+              [
+                32.69514840207418,
+                -16.781614068369606
+              ],
+              [
+                32.695468357032965,
+                -16.781748425691664
+              ],
+              [
+                32.69584141481778,
+                -16.781924171004935
+              ],
+              [
+                32.69626757542862,
+                -16.782141304309413
+              ],
+              [
+                32.69674683886547,
+                -16.782399825605108
+              ],
+              [
+                32.697279205128346,
+                -16.78269973489201
+              ],
+              [
+                32.69776714538869,
+                -16.78300209600133
+              ],
+              [
+                32.6982106596465,
+                -16.783306908933067
+              ],
+              [
+                32.698609747901784,
+                -16.783614173687216
+              ],
+              [
+                32.69896441015453,
+                -16.78392389026378
+              ],
+              [
+                32.69927464640475,
+                -16.78423605866276
+              ],
+              [
+                32.69954045665244,
+                -16.78455067888416
+              ],
+              [
+                32.699761840897594,
+                -16.784867750927972
+              ],
+              [
+                32.69993879914023,
+                -16.785187274794197
+              ],
+              [
+                32.70007048471982,
+                -16.78545989687737
+              ],
+              [
+                32.700156897636376,
+                -16.78568561717749
+              ],
+              [
+                32.700198037889905,
+                -16.78586443569455
+              ],
+              [
+                32.70019390548039,
+                -16.78599635242855
+              ],
+              [
+                32.70014450040785,
+                -16.786081367379502
+              ],
+              [
+                32.70004982267228,
+                -16.786119480547395
+              ],
+              [
+                32.699909872273665,
+                -16.786110691932237
+              ],
+              [
+                32.69972464921203,
+                -16.786055001534017
+              ],
+              [
+                32.69948362339577,
+                -16.785939703921564
+              ],
+              [
+                32.69918679482489,
+                -16.78576479909487
+              ],
+              [
+                32.6988341634994,
+                -16.785530287053938
+              ],
+              [
+                32.6984257294193,
+                -16.785236167798768
+              ],
+              [
+                32.697961492584575,
+                -16.78488244132936
+              ],
+              [
+                32.69744145299523,
+                -16.78446910764571
+              ],
+              [
+                32.69686561065127,
+                -16.783996166747823
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.69753675463744,
+    -16.783772990841324
+  ],
+  "centroDeMassa": [
+    32.69729068034855,
+    -16.783827875713467
+  ]
+}

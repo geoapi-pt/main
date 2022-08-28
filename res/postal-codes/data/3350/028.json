@@ -1,1 +1,592 @@
-{"CP4":"3350","CP3":"028","Distrito":"Coimbra","Concelho":"Vila Nova de Poiares","CP":"3350-028","Artéria":" ","Localidade":"Pereiro de Cima","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARRIFANA PRS","locais":[{"id":"pt.ine.add.PTCONT.1115855","rua":"QUELHAS","casa":"","coordenadas":[40.20873907322341,-8.288370753639317]},{"id":"pt.ine.add.PTCONT.1142591","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21337627394155,-8.288980436962007]},{"id":"pt.ine.add.PTCONT.1142592","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21263926150699,-8.287886281591808]},{"id":"pt.ine.add.PTCONT.1149162","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.2127920934981,-8.288086327966518]},{"id":"pt.ine.add.PTCONT.1165250","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.213528310593254,-8.2897678415802]},{"id":"pt.ine.add.PTCONT.1197333","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.213708331823995,-8.289838738949069]},{"id":"pt.ine.add.PTCONT.1197334","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.211488655165766,-8.286274358426077]},{"id":"pt.ine.add.PTCONT.1203280","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21072183354892,-8.287271095311288]},{"id":"pt.ine.add.PTCONT.1208652","rua":"QUELHAS","casa":"","coordenadas":[40.21110486508089,-8.290408329512145]},{"id":"pt.ine.add.PTCONT.1208765","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21198249418198,-8.287391420148003]},{"id":"pt.ine.add.PTCONT.1209143","rua":"SITIO PEREIRO DE BAIXO CASA DA PONTINHA","casa":"","coordenadas":[40.21090171550536,-8.287447702710717]},{"id":"pt.ine.add.PTCONT.1210917","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21368169571553,-8.289556746340983]},{"id":"pt.ine.add.PTCONT.1211348","rua":"QUELHAS","casa":"","coordenadas":[40.210942312622805,-8.290736860254011]},{"id":"pt.ine.add.PTCONT.1229957","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21343470680992,-8.285679637752033]},{"id":"pt.ine.add.PTCONT.1245263","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21307064429595,-8.28855684367288]},{"id":"pt.ine.add.PTCONT.1245264","rua":"QUELHAS","casa":"","coordenadas":[40.21024908703728,-8.290570802696703]},{"id":"pt.ine.add.PTCONT.1256198","rua":"","casa":"","coordenadas":[40.21465644236523,-8.287984849206069]},{"id":"pt.ine.add.PTCONT.1262349","rua":"QUELHAS","casa":"","coordenadas":[40.20957420772998,-8.29015811601018]},{"id":"pt.ine.add.PTCONT.1268129","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.209551668114635,-8.286822080048871]},{"id":"pt.ine.add.PTCONT.1286936","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21301061031354,-8.286301278744395]},{"id":"pt.ine.add.PTCONT.1290609","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21289140915801,-8.28789860221351]},{"id":"pt.ine.add.PTCONT.1292735","rua":"QUELHAS","casa":"","coordenadas":[40.21176975896732,-8.291537559972157]},{"id":"pt.ine.add.PTCONT.1301463","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21177701284283,-8.286145792693027]},{"id":"pt.ine.add.PTCONT.1306568","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21377048007016,-8.29049672255143]},{"id":"pt.ine.add.PTCONT.1306569","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.213152499782055,-8.287957931453995]},{"id":"pt.ine.add.PTCONT.1309800","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.211263151436306,-8.286544025299982]},{"id":"pt.ine.add.PTCONT.1329691","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21249634281877,-8.287004936652702]},{"id":"pt.ine.add.PTCONT.1334911","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.213080091366876,-8.288227948375825]},{"id":"pt.ine.add.PTCONT.1335499","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21074025156392,-8.286965724723064]},{"id":"pt.ine.add.PTCONT.1357879","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21374403680357,-8.290073764123184]},{"id":"pt.ine.add.PTCONT.1357880","rua":"SITIO PEREIRO DE BAIXO","casa":"","coordenadas":[40.21330495365497,-8.288439908328622]}],"ruas":["QUELHAS","SITIO PEREIRO DE BAIXO","SITIO PEREIRO DE BAIXO CASA DA PONTINHA",""],"centroide":[40.212127977262824,-8.288364783652739]}
+{
+  "CP": "3350-028",
+  "CP4": "3350",
+  "CP3": "028",
+  "Distrito": "Coimbra",
+  "Concelho": "Vila Nova de Poiares",
+  "Localidade": "Pereiro de Cima",
+  "Designação Postal": "ARRIFANA PRS",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1115855",
+      "rua": "QUELHAS",
+      "casa": "",
+      "coordenadas": [
+        40.20873907322341,
+        -8.288370753639317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1142591",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21337627394155,
+        -8.288980436962007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1142592",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21263926150699,
+        -8.287886281591808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1149162",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.2127920934981,
+        -8.288086327966518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1165250",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.213528310593254,
+        -8.2897678415802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1197333",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.213708331823995,
+        -8.289838738949069
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1197334",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.211488655165766,
+        -8.286274358426077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1203280",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21072183354892,
+        -8.287271095311288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1208652",
+      "rua": "QUELHAS",
+      "casa": "",
+      "coordenadas": [
+        40.21110486508089,
+        -8.290408329512145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1208765",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21198249418198,
+        -8.287391420148003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1209143",
+      "rua": "SITIO PEREIRO DE BAIXO CASA DA PONTINHA",
+      "casa": "",
+      "coordenadas": [
+        40.21090171550536,
+        -8.287447702710717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1210917",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21368169571553,
+        -8.289556746340983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1211348",
+      "rua": "QUELHAS",
+      "casa": "",
+      "coordenadas": [
+        40.210942312622805,
+        -8.290736860254011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1229957",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21343470680992,
+        -8.285679637752033
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1245263",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21307064429595,
+        -8.28855684367288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1245264",
+      "rua": "QUELHAS",
+      "casa": "",
+      "coordenadas": [
+        40.21024908703728,
+        -8.290570802696703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1256198",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.21465644236523,
+        -8.287984849206069
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1262349",
+      "rua": "QUELHAS",
+      "casa": "",
+      "coordenadas": [
+        40.20957420772998,
+        -8.29015811601018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1268129",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.209551668114635,
+        -8.286822080048871
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1286936",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21301061031354,
+        -8.286301278744395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1290609",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21289140915801,
+        -8.28789860221351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1292735",
+      "rua": "QUELHAS",
+      "casa": "",
+      "coordenadas": [
+        40.21176975896732,
+        -8.291537559972157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1301463",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21177701284283,
+        -8.286145792693027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1306568",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21377048007016,
+        -8.29049672255143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1306569",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.213152499782055,
+        -8.287957931453995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1309800",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.211263151436306,
+        -8.286544025299982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1329691",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21249634281877,
+        -8.287004936652702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1334911",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.213080091366876,
+        -8.288227948375825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1335499",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21074025156392,
+        -8.286965724723064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1357879",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21374403680357,
+        -8.290073764123184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1357880",
+      "rua": "SITIO PEREIRO DE BAIXO",
+      "casa": "",
+      "coordenadas": [
+        40.21330495365497,
+        -8.288439908328622
+      ]
+    }
+  ],
+  "ruas": [
+    "QUELHAS",
+    "SITIO PEREIRO DE BAIXO",
+    "SITIO PEREIRO DE BAIXO CASA DA PONTINHA"
+  ],
+  "centro": [
+    40.211697757794326,
+    -8.288608598862094
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.209208836383354,
+                -8.289376144972927
+              ],
+              [
+                40.20910444457004,
+                -8.289152724676569
+              ],
+              [
+                40.20902579852856,
+                -8.288933033892405
+              ],
+              [
+                40.208972898258914,
+                -8.288717072620436
+              ],
+              [
+                40.20894574376111,
+                -8.28850484086066
+              ],
+              [
+                40.208944335035156,
+                -8.288296338613076
+              ],
+              [
+                40.208968672081035,
+                -8.28809156587769
+              ],
+              [
+                40.20901875489876,
+                -8.287890522654497
+              ],
+              [
+                40.20909458348832,
+                -8.287693208943498
+              ],
+              [
+                40.20919615784972,
+                -8.28749962474469
+              ],
+              [
+                40.209319806427324,
+                -8.2873196715808
+              ],
+              [
+                40.209465529221134,
+                -8.287153349451827
+              ],
+              [
+                40.20963332623114,
+                -8.287000658357769
+              ],
+              [
+                40.20982319745737,
+                -8.286861598298625
+              ],
+              [
+                40.210035142899784,
+                -8.286736169274398
+              ],
+              [
+                40.210269162558404,
+                -8.286624371285086
+              ],
+              [
+                40.21052525643322,
+                -8.28652620433069
+              ],
+              [
+                40.210803424524244,
+                -8.286441668411209
+              ],
+              [
+                40.21107272307213,
+                -8.28636041581071
+              ],
+              [
+                40.21133315207687,
+                -8.286282446529194
+              ],
+              [
+                40.211584711538464,
+                -8.28620776056666
+              ],
+              [
+                40.21182740145692,
+                -8.286136357923107
+              ],
+              [
+                40.212061221832236,
+                -8.286068238598537
+              ],
+              [
+                40.212286172664406,
+                -8.286003402592948
+              ],
+              [
+                40.21250225395343,
+                -8.285941849906342
+              ],
+              [
+                40.21270946569932,
+                -8.285883580538718
+              ],
+              [
+                40.212909865595016,
+                -8.285868613771015
+              ],
+              [
+                40.213103453640535,
+                -8.285896949603234
+              ],
+              [
+                40.21329022983587,
+                -8.285968588035377
+              ],
+              [
+                40.21347019418102,
+                -8.286083529067444
+              ],
+              [
+                40.21364334667599,
+                -8.286241772699432
+              ],
+              [
+                40.21380968732077,
+                -8.286443318931342
+              ],
+              [
+                40.213969216115366,
+                -8.286688167763174
+              ],
+              [
+                40.214121933059786,
+                -8.286976319194927
+              ],
+              [
+                40.214241717225285,
+                -8.287267699718733
+              ],
+              [
+                40.21432856861188,
+                -8.287562309334593
+              ],
+              [
+                40.21438248721956,
+                -8.287860148042503
+              ],
+              [
+                40.214403473048314,
+                -8.288161215842466
+              ],
+              [
+                40.21439152609817,
+                -8.288465512734481
+              ],
+              [
+                40.21434664636911,
+                -8.288773038718547
+              ],
+              [
+                40.214268833861134,
+                -8.289083793794665
+              ],
+              [
+                40.21415808857426,
+                -8.289397777962835
+              ],
+              [
+                40.214029925181,
+                -8.289688777194682
+              ],
+              [
+                40.21388434368137,
+                -8.289956791490207
+              ],
+              [
+                40.213721344075374,
+                -8.29020182084941
+              ],
+              [
+                40.213540926363,
+                -8.29042386527229
+              ],
+              [
+                40.21334309054426,
+                -8.290622924758848
+              ],
+              [
+                40.21312783661915,
+                -8.290798999309084
+              ],
+              [
+                40.212895164587664,
+                -8.290952088922998
+              ],
+              [
+                40.21264507444981,
+                -8.29108219360059
+              ],
+              [
+                40.2123919400911,
+                -8.291174481381576
+              ],
+              [
+                40.21213576151155,
+                -8.291228952265957
+              ],
+              [
+                40.21187653871114,
+                -8.291245606253733
+              ],
+              [
+                40.211614271689875,
+                -8.291224443344907
+              ],
+              [
+                40.211348960447765,
+                -8.291165463539475
+              ],
+              [
+                40.2110806049848,
+                -8.291068666837436
+              ],
+              [
+                40.21080920530098,
+                -8.290934053238793
+              ],
+              [
+                40.21053476139632,
+                -8.290761622743545
+              ],
+              [
+                40.21028157400306,
+                -8.29058281852316
+              ],
+              [
+                40.21004964312124,
+                -8.290397640577634
+              ],
+              [
+                40.20983896875083,
+                -8.29020608890697
+              ],
+              [
+                40.209649550891825,
+                -8.290008163511168
+              ],
+              [
+                40.20948138954425,
+                -8.289803864390226
+              ],
+              [
+                40.209334484708094,
+                -8.289593191544146
+              ],
+              [
+                40.209208836383354,
+                -8.289376144972927
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.21165916876543,
+    -8.288399438984136
+  ],
+  "centroDeMassa": [
+    40.211697757794326,
+    -8.288608598862094
+  ]
+}

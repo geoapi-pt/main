@@ -1,1 +1,377 @@
-{"CP4":"4635","CP3":"692","Distrito":"Porto","Concelho":"Marco de Canaveses","CP":"4635-692","Artéria":"Caminho das Enxurreiras","Localidade":"Vila Boa de Quires","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA BOA DE QUIRES","locais":[{"id":"pt.ine.add.PTCONT.3560935","rua":"R CAVADINHA","casa":"825","coordenadas":[41.181017645691384,-8.211363891614356]},{"id":"pt.ine.add.PTCONT.3573607","rua":"R CAVADINHA","casa":"272","coordenadas":[41.18249437404665,-8.211341812355103]},{"id":"pt.ine.add.PTCONT.3728986","rua":"R CAVADINHA","casa":"1240","coordenadas":[41.18516207820101,-8.207697757842539]},{"id":"pt.ine.add.PTCONT.3848768","rua":"R CAVADINHA","casa":"1320","coordenadas":[41.18780573762101,-8.21308838543666]},{"id":"pt.ine.add.PTCONT.3883665","rua":"R CAVADINHA","casa":"","coordenadas":[41.18597062849403,-8.210487767498705]},{"id":"pt.ine.add.PTCONT.3892344","rua":"CAM COVAS","casa":"91","coordenadas":[41.188714122381086,-8.214591372352778]},{"id":"pt.ine.add.PTCONT.3892345","rua":"CAM COVAS","casa":"91","coordenadas":[41.188714122381086,-8.214591372352778]},{"id":"pt.ine.add.PTCONT.3896044","rua":"R CAVADINHA","casa":"1290","coordenadas":[41.18452235156329,-8.208340654399755]},{"id":"pt.ine.add.PTCONT.3999352","rua":"R CAVADINHA","casa":"1154","coordenadas":[41.185673565413175,-8.210368226360222]},{"id":"pt.ine.add.PTCONT.4007171","rua":"R CAVADINHA","casa":"","coordenadas":[41.18598893261113,-8.210046778629458]},{"id":"pt.ine.add.PTCONT.4172140","rua":"R CAVADINHA","casa":"1361","coordenadas":[41.188049668005014,-8.2119086444343]},{"id":"pt.ine.add.PTCONT.4215680","rua":"TV CAVADINHA","casa":"166","coordenadas":[41.185996712445885,-8.211858506417043]},{"id":"pt.ine.add.PTCONT.4234917","rua":"R CAVADINHA","casa":"673","coordenadas":[41.182251491079555,-8.210995886149774]},{"id":"pt.ine.add.PTCONT.4274660","rua":"TV CAVADINHA","casa":"10","coordenadas":[41.18778875397395,-8.211598423923656]},{"id":"pt.ine.add.PTCONT.4288204","rua":"R CAVADINHA","casa":"301","coordenadas":[41.18236854752113,-8.21099602483794]},{"id":"pt.ine.add.PTCONT.4301632","rua":"R CAVADINHA","casa":"1165","coordenadas":[41.18598914714043,-8.209724960466561]},{"id":"pt.ine.add.PTCONT.4301633","rua":"R CAVADINHA","casa":"1165","coordenadas":[41.18598914714043,-8.209724960466561]},{"id":"pt.ine.add.PTCONT.4341837","rua":"R CAVADINHA","casa":"","coordenadas":[41.18669130262274,-8.209999923464505]},{"id":"pt.ine.add.PTCONT.4388044","rua":"R CAVADINHA","casa":"1240","coordenadas":[41.18516207820101,-8.207697757842539]}],"ruas":["R CAVADINHA","CAM COVAS","TV CAVADINHA"],"centroide":[41.185621573796276,-8.211040297166816]}
+{
+  "CP": "4635-692",
+  "CP4": "4635",
+  "CP3": "692",
+  "Distrito": "Porto",
+  "Concelho": "Marco de Canaveses",
+  "Localidade": "Vila Boa de Quires",
+  "Designação Postal": "VILA BOA DE QUIRES",
+  "partes": [
+    {
+      "Artéria": "Caminho das Covas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Cavadinha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Cavadinha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho das Enxurreiras",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3560935",
+      "rua": "R CAVADINHA",
+      "casa": "825",
+      "coordenadas": [
+        41.181017645691384,
+        -8.211363891614356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3573607",
+      "rua": "R CAVADINHA",
+      "casa": "272",
+      "coordenadas": [
+        41.18249437404665,
+        -8.211341812355103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3728986",
+      "rua": "R CAVADINHA",
+      "casa": "1240",
+      "coordenadas": [
+        41.18516207820101,
+        -8.207697757842539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3848768",
+      "rua": "R CAVADINHA",
+      "casa": "1320",
+      "coordenadas": [
+        41.18780573762101,
+        -8.21308838543666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3883665",
+      "rua": "R CAVADINHA",
+      "casa": "",
+      "coordenadas": [
+        41.18597062849403,
+        -8.210487767498705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3892344",
+      "rua": "CAM COVAS",
+      "casa": "91",
+      "coordenadas": [
+        41.188714122381086,
+        -8.214591372352778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3892345",
+      "rua": "CAM COVAS",
+      "casa": "91",
+      "coordenadas": [
+        41.188714122381086,
+        -8.214591372352778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3896044",
+      "rua": "R CAVADINHA",
+      "casa": "1290",
+      "coordenadas": [
+        41.18452235156329,
+        -8.208340654399755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3999352",
+      "rua": "R CAVADINHA",
+      "casa": "1154",
+      "coordenadas": [
+        41.185673565413175,
+        -8.210368226360222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4007171",
+      "rua": "R CAVADINHA",
+      "casa": "",
+      "coordenadas": [
+        41.18598893261113,
+        -8.210046778629458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4172140",
+      "rua": "R CAVADINHA",
+      "casa": "1361",
+      "coordenadas": [
+        41.188049668005014,
+        -8.2119086444343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4215680",
+      "rua": "TV CAVADINHA",
+      "casa": "166",
+      "coordenadas": [
+        41.185996712445885,
+        -8.211858506417043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4234917",
+      "rua": "R CAVADINHA",
+      "casa": "673",
+      "coordenadas": [
+        41.182251491079555,
+        -8.210995886149774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4274660",
+      "rua": "TV CAVADINHA",
+      "casa": "10",
+      "coordenadas": [
+        41.18778875397395,
+        -8.211598423923656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4288204",
+      "rua": "R CAVADINHA",
+      "casa": "301",
+      "coordenadas": [
+        41.18236854752113,
+        -8.21099602483794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4301632",
+      "rua": "R CAVADINHA",
+      "casa": "1165",
+      "coordenadas": [
+        41.18598914714043,
+        -8.209724960466561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4301633",
+      "rua": "R CAVADINHA",
+      "casa": "1165",
+      "coordenadas": [
+        41.18598914714043,
+        -8.209724960466561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4341837",
+      "rua": "R CAVADINHA",
+      "casa": "",
+      "coordenadas": [
+        41.18669130262274,
+        -8.209999923464505
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4388044",
+      "rua": "R CAVADINHA",
+      "casa": "1240",
+      "coordenadas": [
+        41.18516207820101,
+        -8.207697757842539
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAVADINHA",
+    "CAM COVAS",
+    "TV CAVADINHA"
+  ],
+  "centro": [
+    41.184865884036235,
+    -8.211144565097658
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.185346913829335,
+                -8.213179349529717
+              ],
+              [
+                41.184384854243135,
+                -8.212775914437415
+              ],
+              [
+                41.18360780886316,
+                -8.212365625391467
+              ],
+              [
+                41.18301577768943,
+                -8.211948482391872
+              ],
+              [
+                41.18260876072193,
+                -8.211524485438627
+              ],
+              [
+                41.18238675796067,
+                -8.211093634531737
+              ],
+              [
+                41.18234976940566,
+                -8.2106559296712
+              ],
+              [
+                41.18249779505688,
+                -8.210211370857017
+              ],
+              [
+                41.18283083491435,
+                -8.209759958089187
+              ],
+              [
+                41.183348888978045,
+                -8.209301691367708
+              ],
+              [
+                41.183847304874476,
+                -8.208966503089412
+              ],
+              [
+                41.184326082603626,
+                -8.208754393254297
+              ],
+              [
+                41.1847852221655,
+                -8.208665361862362
+              ],
+              [
+                41.18522472356011,
+                -8.20869940891361
+              ],
+              [
+                41.18564458678743,
+                -8.208856534408037
+              ],
+              [
+                41.18604481184748,
+                -8.209136738345645
+              ],
+              [
+                41.18642539874026,
+                -8.209540020726434
+              ],
+              [
+                41.18678634746576,
+                -8.210066381550405
+              ],
+              [
+                41.187112559700196,
+                -8.210568864895105
+              ],
+              [
+                41.18740403544358,
+                -8.211047470760533
+              ],
+              [
+                41.18766077469589,
+                -8.211502199146695
+              ],
+              [
+                41.18788277745715,
+                -8.211933050053585
+              ],
+              [
+                41.188070043727336,
+                -8.212340023481206
+              ],
+              [
+                41.18822257350647,
+                -8.212723119429555
+              ],
+              [
+                41.18834036679454,
+                -8.213082337898635
+              ],
+              [
+                41.18842342359155,
+                -8.213417678888446
+              ],
+              [
+                41.188375840840656,
+                -8.213660672867992
+              ],
+              [
+                41.188197618541864,
+                -8.213811319837273
+              ],
+              [
+                41.187888756695166,
+                -8.21386961979629
+              ],
+              [
+                41.18744925530056,
+                -8.213835572745042
+              ],
+              [
+                41.18687911435805,
+                -8.21370917868353
+              ],
+              [
+                41.186178333867645,
+                -8.213490437611757
+              ],
+              [
+                41.185346913829335,
+                -8.213179349529717
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.18573587856962,
+    -8.211390416560993
+  ],
+  "centroDeMassa": [
+    41.184865884036235,
+    -8.211144565097658
+  ]
+}

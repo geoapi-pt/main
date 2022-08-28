@@ -1,1 +1,448 @@
-{"CP4":"2675","CP3":"270","Distrito":"Lisboa","Concelho":"Odivelas","CP":"2675-270","Artéria":"Rua de Santo António","Localidade":"Odivelas","Local":"Bairro Encosta da Luz","Troço":"","Porta":"","Cliente":"","Designação Postal":"ODIVELAS","locais":[{"id":"pt.ine.add.PTCONT.2326225","rua":"R STO ANTONIO ENCOSTA LUZ","casa":"112","coordenadas":[38.78064147173347,-9.181462486807035]},{"id":"pt.ine.add.PTCONT.2326226","rua":"R STO ANTONIO ENCOSTA LUZ","casa":"112","coordenadas":[38.78064147173347,-9.181462486807035]},{"id":"pt.ine.add.PTCONT.2494274","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[38.78063222899875,-9.180484175381276]},{"id":"pt.ine.add.PTCONT.2566529","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[38.780453159336545,-9.181367665989765]},{"id":"pt.ine.add.PTCONT.2674276","rua":"R SANTO ANTONIO","casa":"LOTE 122","coordenadas":[38.78028401934213,-9.182147726566898]},{"id":"pt.ine.add.PTCONT.2674277","rua":"R SANTO ANTONIO","casa":"LOTE 122","coordenadas":[38.78028401934213,-9.182147726566898]},{"id":"pt.ine.add.PTCONT.2674278","rua":"R SANTO ANTONIO","casa":"LOTE 122","coordenadas":[38.78028401934213,-9.182147726566898]},{"id":"pt.ine.add.PTCONT.2674279","rua":"R SANTO ANTONIO","casa":"LOTE 122","coordenadas":[38.78028401934213,-9.182147726566898]},{"id":"pt.ine.add.PTCONT.2824548","rua":"R SANTO ANTÓNIO","casa":"129A","coordenadas":[38.78059424292998,-9.180702270691318]},{"id":"pt.ine.add.PTCONT.2868995","rua":"R SANTO ANTONIO","casa":"LOTE 105","coordenadas":[38.78042285499037,-9.18273666470227]},{"id":"pt.ine.add.PTCONT.2868996","rua":"R SANTO ANTONIO","casa":"LOTE 105","coordenadas":[38.78042285499037,-9.18273666470227]},{"id":"pt.ine.add.PTCONT.2868997","rua":"R SANTO ANTONIO","casa":"LOTE 105","coordenadas":[38.78042285499037,-9.18273666470227]},{"id":"pt.ine.add.PTCONT.2868998","rua":"R SANTO ANTONIO","casa":"LOTE 105","coordenadas":[38.78042285499037,-9.18273666470227]},{"id":"pt.ine.add.PTCONT.2916747","rua":"R SANTO ANTONIO","casa":"LOTE 127","coordenadas":[38.780481520844255,-9.181218478160211]},{"id":"pt.ine.add.PTCONT.2916748","rua":"R SANTO ANTONIO","casa":"LOTE 127","coordenadas":[38.780481520844255,-9.181218478160211]},{"id":"pt.ine.add.PTCONT.2916749","rua":"R SANTO ANTONIO","casa":"LOTE 127","coordenadas":[38.780481520844255,-9.181218478160211]},{"id":"pt.ine.add.PTCONT.3099907","rua":"R STO ANTÓNIO JESUS","casa":"","coordenadas":[38.78066092999991,-9.181301660316487]},{"id":"pt.ine.add.PTCONT.3107715","rua":"R SANTO ANTONIO","casa":"LOTE 106","coordenadas":[38.78043341176036,-9.182564200660702]},{"id":"pt.ine.add.PTCONT.3107716","rua":"R STO ANTONIO ENCOSTA LUZ","casa":"106","coordenadas":[38.78043341176036,-9.182564200660702]},{"id":"pt.ine.add.PTCONT.3228721","rua":"R SANTO ANTONIO","casa":"LOTE 101","coordenadas":[38.780253395606955,-9.183551240628415]},{"id":"pt.ine.add.PTCONT.3228722","rua":"R SANTO ANTONIO","casa":"LOTE 101","coordenadas":[38.780253395606955,-9.183551240628415]},{"id":"pt.ine.add.PTCONT.3228938","rua":"R SANTO ANTONIO","casa":"LOTE 101","coordenadas":[38.780253395606955,-9.183551240628415]}],"ruas":["R STO ANTONIO ENCOSTA LUZ","R SANTO ANTÓNIO","R SANTO ANTONIO","R STO ANTÓNIO JESUS"],"centroide":[38.78044138949187,-9.182009744196593]}
+{
+  "CP": "2675-270",
+  "CP4": "2675",
+  "CP3": "270",
+  "Distrito": "Lisboa",
+  "Concelho": "Odivelas",
+  "Localidade": "Odivelas",
+  "Designação Postal": "ODIVELAS",
+  "partes": [
+    {
+      "Artéria": "Rua de Santo António",
+      "Local": "Bairro Encosta da Luz",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2326225",
+      "rua": "R STO ANTONIO ENCOSTA LUZ",
+      "casa": "112",
+      "coordenadas": [
+        38.78064147173347,
+        -9.181462486807035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2326226",
+      "rua": "R STO ANTONIO ENCOSTA LUZ",
+      "casa": "112",
+      "coordenadas": [
+        38.78064147173347,
+        -9.181462486807035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2494274",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        38.78063222899875,
+        -9.180484175381276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2566529",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        38.780453159336545,
+        -9.181367665989765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2674276",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 122",
+      "coordenadas": [
+        38.78028401934213,
+        -9.182147726566898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2674277",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 122",
+      "coordenadas": [
+        38.78028401934213,
+        -9.182147726566898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2674278",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 122",
+      "coordenadas": [
+        38.78028401934213,
+        -9.182147726566898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2674279",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 122",
+      "coordenadas": [
+        38.78028401934213,
+        -9.182147726566898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2824548",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "129A",
+      "coordenadas": [
+        38.78059424292998,
+        -9.180702270691318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2868995",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 105",
+      "coordenadas": [
+        38.78042285499037,
+        -9.18273666470227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2868996",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 105",
+      "coordenadas": [
+        38.78042285499037,
+        -9.18273666470227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2868997",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 105",
+      "coordenadas": [
+        38.78042285499037,
+        -9.18273666470227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2868998",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 105",
+      "coordenadas": [
+        38.78042285499037,
+        -9.18273666470227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2916747",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 127",
+      "coordenadas": [
+        38.780481520844255,
+        -9.181218478160211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2916748",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 127",
+      "coordenadas": [
+        38.780481520844255,
+        -9.181218478160211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2916749",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 127",
+      "coordenadas": [
+        38.780481520844255,
+        -9.181218478160211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3099907",
+      "rua": "R STO ANTÓNIO JESUS",
+      "casa": "",
+      "coordenadas": [
+        38.78066092999991,
+        -9.181301660316487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3107715",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 106",
+      "coordenadas": [
+        38.78043341176036,
+        -9.182564200660702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3107716",
+      "rua": "R STO ANTONIO ENCOSTA LUZ",
+      "casa": "106",
+      "coordenadas": [
+        38.78043341176036,
+        -9.182564200660702
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3228721",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 101",
+      "coordenadas": [
+        38.780253395606955,
+        -9.183551240628415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3228722",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 101",
+      "coordenadas": [
+        38.780253395606955,
+        -9.183551240628415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3228938",
+      "rua": "R SANTO ANTONIO",
+      "casa": "LOTE 101",
+      "coordenadas": [
+        38.780253395606955,
+        -9.183551240628415
+      ]
+    }
+  ],
+  "ruas": [
+    "R STO ANTONIO ENCOSTA LUZ",
+    "R SANTO ANTÓNIO",
+    "R SANTO ANTONIO",
+    "R STO ANTÓNIO JESUS"
+  ],
+  "centro": [
+    38.78045716280343,
+    -9.182017708004846
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.780348716510126,
+                -9.18309304166996
+              ],
+              [
+                38.7803275340872,
+                -9.183194863660727
+              ],
+              [
+                38.780309477963,
+                -9.183262027995438
+              ],
+              [
+                38.780294548137526,
+                -9.183294534674092
+              ],
+              [
+                38.78028274461079,
+                -9.183292383696688
+              ],
+              [
+                38.78027406738278,
+                -9.183255575063228
+              ],
+              [
+                38.78026851645349,
+                -9.183184108773709
+              ],
+              [
+                38.780266091822924,
+                -9.183077984828135
+              ],
+              [
+                38.780266793491094,
+                -9.182937203226501
+              ],
+              [
+                38.780270621457994,
+                -9.182761763968811
+              ],
+              [
+                38.78027941170491,
+                -9.182582261631058
+              ],
+              [
+                38.78029316423186,
+                -9.18239869621324
+              ],
+              [
+                38.78031187903882,
+                -9.182211067715357
+              ],
+              [
+                38.780335556125806,
+                -9.182019376137411
+              ],
+              [
+                38.780364195492815,
+                -9.181823621479401
+              ],
+              [
+                38.78039779713984,
+                -9.181623803741326
+              ],
+              [
+                38.7804363610669,
+                -9.181419922923187
+              ],
+              [
+                38.78047988727398,
+                -9.181211979024987
+              ],
+              [
+                38.78051842115831,
+                -9.18104280131617
+              ],
+              [
+                38.78055196271991,
+                -9.180912389796745
+              ],
+              [
+                38.78058051195877,
+                -9.180820744466706
+              ],
+              [
+                38.78060406887487,
+                -9.180767865326054
+              ],
+              [
+                38.78062263346824,
+                -9.180753752374791
+              ],
+              [
+                38.78063620573887,
+                -9.180778405612918
+              ],
+              [
+                38.78064478568676,
+                -9.180841825040432
+              ],
+              [
+                38.780648373311905,
+                -9.180944010657331
+              ],
+              [
+                38.78065120844849,
+                -9.181035935986035
+              ],
+              [
+                38.78065329109653,
+                -9.181117601026543
+              ],
+              [
+                38.780654621256,
+                -9.18118900577885
+              ],
+              [
+                38.780655198926915,
+                -9.18125015024296
+              ],
+              [
+                38.78065502410928,
+                -9.18130103441887
+              ],
+              [
+                38.78065409680309,
+                -9.181341658306586
+              ],
+              [
+                38.78065241700834,
+                -9.181372021906101
+              ],
+              [
+                38.78064998472504,
+                -9.18139212521742
+              ],
+              [
+                38.780644440590535,
+                -9.181429624644435
+              ],
+              [
+                38.78063578460483,
+                -9.181484520187151
+              ],
+              [
+                38.78062401676794,
+                -9.181556811845565
+              ],
+              [
+                38.78060913707984,
+                -9.181646499619676
+              ],
+              [
+                38.78059114554055,
+                -9.181753583509487
+              ],
+              [
+                38.78057004215005,
+                -9.181878063514995
+              ],
+              [
+                38.780545826908366,
+                -9.1820199396362
+              ],
+              [
+                38.78051849981547,
+                -9.182179211873105
+              ],
+              [
+                38.780491940806336,
+                -9.182331302829244
+              ],
+              [
+                38.78046614988094,
+                -9.182476212504614
+              ],
+              [
+                38.78044112703929,
+                -9.182613940899216
+              ],
+              [
+                38.78041687228137,
+                -9.182744488013054
+              ],
+              [
+                38.78039338560721,
+                -9.182867853846123
+              ],
+              [
+                38.7803706670168,
+                -9.182984038398423
+              ],
+              [
+                38.780348716510126,
+                -9.18309304166996
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.78048248344527,
+    -9.181947325733729
+  ],
+  "centroDeMassa": [
+    38.78045716280343,
+    -9.182017708004846
+  ]
+}

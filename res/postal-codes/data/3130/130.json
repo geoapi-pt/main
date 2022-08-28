@@ -1,1 +1,526 @@
-{"CP4":"3130","CP3":"130","Distrito":"Coimbra","Concelho":"Soure","CP":"3130-130","Artéria":" ","Localidade":"Urmar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SAMUEL","locais":[{"id":"pt.ine.add.PTCONT.1109716","rua":"R TRAS","casa":"5","coordenadas":[40.07341549072908,-8.686069433021157]},{"id":"pt.ine.add.PTCONT.1117733","rua":"R PRINCIPAL","casa":"12","coordenadas":[40.07163482961587,-8.68553923765263]},{"id":"pt.ine.add.PTCONT.1136688","rua":"LG CRUZEIRO","casa":"4","coordenadas":[40.07385497709431,-8.686448123092086]},{"id":"pt.ine.add.PTCONT.1139347","rua":"R CARRASQUEIRA","casa":"1","coordenadas":[40.07408699572454,-8.686895475979322]},{"id":"pt.ine.add.PTCONT.1165695","rua":"R PRINCIPAL","casa":"10","coordenadas":[40.07289344193245,-8.686006596845184]},{"id":"pt.ine.add.PTCONT.1170648","rua":"R CARRASQUEIRA","casa":"4","coordenadas":[40.07441002246278,-8.687144277234363]},{"id":"pt.ine.add.PTCONT.1170652","rua":"R SICO","casa":"7","coordenadas":[40.07378554694268,-8.684009181842269]},{"id":"pt.ine.add.PTCONT.1170859","rua":"R PRINCIPAL","casa":"14","coordenadas":[40.07135543030771,-8.685583870557933]},{"id":"pt.ine.add.PTCONT.1173865","rua":"R SICO","casa":"6","coordenadas":[40.07362876880999,-8.684781633364468]},{"id":"pt.ine.add.PTCONT.1179810","rua":"R PRINCIPAL","casa":"3","coordenadas":[40.076388239788905,-8.68401843110868]},{"id":"pt.ine.add.PTCONT.1189036","rua":"R PRINCIPAL","casa":"7","coordenadas":[40.07558461646409,-8.684457440182426]},{"id":"pt.ine.add.PTCONT.1190985","rua":"R PRINCIPAL","casa":"8A","coordenadas":[40.07337728496718,-8.686526317410378]},{"id":"pt.ine.add.PTCONT.1195871","rua":"R SICO","casa":"5","coordenadas":[40.07365863128802,-8.684184003559595]},{"id":"pt.ine.add.PTCONT.1226439","rua":"R PRINCIPAL","casa":"2","coordenadas":[40.075300917786535,-8.685404734517144]},{"id":"pt.ine.add.PTCONT.1230060","rua":"R FONTE","casa":"1","coordenadas":[40.07508595153703,-8.687044245976319]},{"id":"pt.ine.add.PTCONT.1240641","rua":"R SICO","casa":"3","coordenadas":[40.07376424453586,-8.684700665676274]},{"id":"pt.ine.add.PTCONT.1247248","rua":"R SICO","casa":"2","coordenadas":[40.073690244931804,-8.6851103723211]},{"id":"pt.ine.add.PTCONT.1252191","rua":"LG CRUZEIRO","casa":"6","coordenadas":[40.07364807080346,-8.686399556743707]},{"id":"pt.ine.add.PTCONT.1255937","rua":"R TRAS","casa":"1","coordenadas":[40.073615181595585,-8.68574280549676]},{"id":"pt.ine.add.PTCONT.1284371","rua":"R PRINCIPAL","casa":"1","coordenadas":[40.07663217306431,-8.683856268313045]},{"id":"pt.ine.add.PTCONT.1290574","rua":"R PRINCIPAL","casa":"9","coordenadas":[40.07369757434474,-8.685462120370193]},{"id":"pt.ine.add.PTCONT.1306531","rua":"R SICO","casa":"8","coordenadas":[40.07354928041779,-8.68445274974611]},{"id":"pt.ine.add.PTCONT.1312674","rua":"R PRINCIPAL","casa":"5","coordenadas":[40.07580992541704,-8.684424087248797]},{"id":"pt.ine.add.PTCONT.1318543","rua":"R PRINCIPAL","casa":"18","coordenadas":[40.07078773775742,-8.685649618514653]},{"id":"pt.ine.add.PTCONT.1320600","rua":"R PRINCIPAL","casa":"8","coordenadas":[40.07313569957285,-8.686196121728834]},{"id":"pt.ine.add.PTCONT.1321564","rua":"","casa":"","coordenadas":[40.07674452819811,-8.69049266559824]},{"id":"pt.ine.add.PTCONT.1328837","rua":"R SICO","casa":"4","coordenadas":[40.07363699282426,-8.684945821053605]},{"id":"pt.ine.add.PTCONT.1335664","rua":"R PRINCIPAL","casa":"4","coordenadas":[40.073848378025275,-8.685943981199415]},{"id":"pt.ine.add.PTCONT.1341193","rua":"R CARRASQUEIRA","casa":"3","coordenadas":[40.07410399816515,-8.687106628265006]},{"id":"pt.ine.add.PTCONT.1349328","rua":"","casa":"","coordenadas":[40.07830470485456,-8.690048160306409]},{"id":"pt.ine.add.PTCONT.1350375","rua":"R PRINCIPAL","casa":"20","coordenadas":[40.07054519960777,-8.685518712012644]},{"id":"pt.ine.add.PTCONT.1357841","rua":"LG CRUZEIRO","casa":"2","coordenadas":[40.07384725895209,-8.686178431908207]},{"id":"pt.ine.add.PTCONT.1357843","rua":"R SICO","casa":"1","coordenadas":[40.073816994448194,-8.68497071985633]},{"id":"pt.ine.add.PTCONT.1361798","rua":"R PRINCIPAL","casa":"16","coordenadas":[40.07124685912053,-8.685688496197146]}],"ruas":["R TRAS","R PRINCIPAL","LG CRUZEIRO","R CARRASQUEIRA","R SICO","R FONTE",""],"centroide":[40.07398907069599,-8.685797348142525]}
+{
+  "CP": "3130-130",
+  "CP4": "3130",
+  "CP3": "130",
+  "Distrito": "Coimbra",
+  "Concelho": "Soure",
+  "Localidade": "Urmar",
+  "Designação Postal": "SAMUEL",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1109716",
+      "rua": "R TRAS",
+      "casa": "5",
+      "coordenadas": [
+        40.07341549072908,
+        -8.686069433021157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1117733",
+      "rua": "R PRINCIPAL",
+      "casa": "12",
+      "coordenadas": [
+        40.07163482961587,
+        -8.68553923765263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1136688",
+      "rua": "LG CRUZEIRO",
+      "casa": "4",
+      "coordenadas": [
+        40.07385497709431,
+        -8.686448123092086
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1139347",
+      "rua": "R CARRASQUEIRA",
+      "casa": "1",
+      "coordenadas": [
+        40.07408699572454,
+        -8.686895475979322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1165695",
+      "rua": "R PRINCIPAL",
+      "casa": "10",
+      "coordenadas": [
+        40.07289344193245,
+        -8.686006596845184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1170648",
+      "rua": "R CARRASQUEIRA",
+      "casa": "4",
+      "coordenadas": [
+        40.07441002246278,
+        -8.687144277234363
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1170652",
+      "rua": "R SICO",
+      "casa": "7",
+      "coordenadas": [
+        40.07378554694268,
+        -8.684009181842269
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1170859",
+      "rua": "R PRINCIPAL",
+      "casa": "14",
+      "coordenadas": [
+        40.07135543030771,
+        -8.685583870557933
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1173865",
+      "rua": "R SICO",
+      "casa": "6",
+      "coordenadas": [
+        40.07362876880999,
+        -8.684781633364468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1179810",
+      "rua": "R PRINCIPAL",
+      "casa": "3",
+      "coordenadas": [
+        40.076388239788905,
+        -8.68401843110868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1189036",
+      "rua": "R PRINCIPAL",
+      "casa": "7",
+      "coordenadas": [
+        40.07558461646409,
+        -8.684457440182426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1190985",
+      "rua": "R PRINCIPAL",
+      "casa": "8A",
+      "coordenadas": [
+        40.07337728496718,
+        -8.686526317410378
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1195871",
+      "rua": "R SICO",
+      "casa": "5",
+      "coordenadas": [
+        40.07365863128802,
+        -8.684184003559595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1226439",
+      "rua": "R PRINCIPAL",
+      "casa": "2",
+      "coordenadas": [
+        40.075300917786535,
+        -8.685404734517144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1230060",
+      "rua": "R FONTE",
+      "casa": "1",
+      "coordenadas": [
+        40.07508595153703,
+        -8.687044245976319
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1240641",
+      "rua": "R SICO",
+      "casa": "3",
+      "coordenadas": [
+        40.07376424453586,
+        -8.684700665676274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1247248",
+      "rua": "R SICO",
+      "casa": "2",
+      "coordenadas": [
+        40.073690244931804,
+        -8.6851103723211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1252191",
+      "rua": "LG CRUZEIRO",
+      "casa": "6",
+      "coordenadas": [
+        40.07364807080346,
+        -8.686399556743707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1255937",
+      "rua": "R TRAS",
+      "casa": "1",
+      "coordenadas": [
+        40.073615181595585,
+        -8.68574280549676
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1284371",
+      "rua": "R PRINCIPAL",
+      "casa": "1",
+      "coordenadas": [
+        40.07663217306431,
+        -8.683856268313045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1290574",
+      "rua": "R PRINCIPAL",
+      "casa": "9",
+      "coordenadas": [
+        40.07369757434474,
+        -8.685462120370193
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1306531",
+      "rua": "R SICO",
+      "casa": "8",
+      "coordenadas": [
+        40.07354928041779,
+        -8.68445274974611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1312674",
+      "rua": "R PRINCIPAL",
+      "casa": "5",
+      "coordenadas": [
+        40.07580992541704,
+        -8.684424087248797
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1318543",
+      "rua": "R PRINCIPAL",
+      "casa": "18",
+      "coordenadas": [
+        40.07078773775742,
+        -8.685649618514653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1320600",
+      "rua": "R PRINCIPAL",
+      "casa": "8",
+      "coordenadas": [
+        40.07313569957285,
+        -8.686196121728834
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321564",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.07674452819811,
+        -8.69049266559824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1328837",
+      "rua": "R SICO",
+      "casa": "4",
+      "coordenadas": [
+        40.07363699282426,
+        -8.684945821053605
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1335664",
+      "rua": "R PRINCIPAL",
+      "casa": "4",
+      "coordenadas": [
+        40.073848378025275,
+        -8.685943981199415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1341193",
+      "rua": "R CARRASQUEIRA",
+      "casa": "3",
+      "coordenadas": [
+        40.07410399816515,
+        -8.687106628265006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349328",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.07830470485456,
+        -8.690048160306409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1350375",
+      "rua": "R PRINCIPAL",
+      "casa": "20",
+      "coordenadas": [
+        40.07054519960777,
+        -8.685518712012644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1357841",
+      "rua": "LG CRUZEIRO",
+      "casa": "2",
+      "coordenadas": [
+        40.07384725895209,
+        -8.686178431908207
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1357843",
+      "rua": "R SICO",
+      "casa": "1",
+      "coordenadas": [
+        40.073816994448194,
+        -8.68497071985633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1361798",
+      "rua": "R PRINCIPAL",
+      "casa": "16",
+      "coordenadas": [
+        40.07124685912053,
+        -8.685688496197146
+      ]
+    }
+  ],
+  "ruas": [
+    "R TRAS",
+    "R PRINCIPAL",
+    "LG CRUZEIRO",
+    "R CARRASQUEIRA",
+    "R SICO",
+    "R FONTE"
+  ],
+  "centro": [
+    40.07442495223117,
+    -8.687174466955643
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.07403232193984,
+                -8.688316560904543
+              ],
+              [
+                40.073257405866045,
+                -8.687694816706344
+              ],
+              [
+                40.07262998472858,
+                -8.687127204124007
+              ],
+              [
+                40.072150058527455,
+                -8.686613723157532
+              ],
+              [
+                40.071817627262654,
+                -8.686154373806922
+              ],
+              [
+                40.07163269093419,
+                -8.685749156072173
+              ],
+              [
+                40.07159524954206,
+                -8.685398069953287
+              ],
+              [
+                40.071705303086254,
+                -8.685101115450266
+              ],
+              [
+                40.07196285156679,
+                -8.684858292563106
+              ],
+              [
+                40.072367894983664,
+                -8.684669601291809
+              ],
+              [
+                40.07276678650657,
+                -8.684502107155529
+              ],
+              [
+                40.07315952613551,
+                -8.684355810154267
+              ],
+              [
+                40.073546113870506,
+                -8.684230710288023
+              ],
+              [
+                40.07392654971154,
+                -8.684126807556801
+              ],
+              [
+                40.07430083365861,
+                -8.684044101960593
+              ],
+              [
+                40.07466896571174,
+                -8.683982593499405
+              ],
+              [
+                40.07503094587089,
+                -8.683942282173234
+              ],
+              [
+                40.0753867741361,
+                -8.68392316798208
+              ],
+              [
+                40.07572425717737,
+                -8.684003191377219
+              ],
+              [
+                40.07604339499473,
+                -8.684182352358647
+              ],
+              [
+                40.07634418758814,
+                -8.684460650926365
+              ],
+              [
+                40.076626634957634,
+                -8.684838087080374
+              ],
+              [
+                40.0768907371032,
+                -8.685314660820673
+              ],
+              [
+                40.077136494024835,
+                -8.685890372147261
+              ],
+              [
+                40.07736390572255,
+                -8.68656522106014
+              ],
+              [
+                40.07757297219632,
+                -8.687339207559313
+              ],
+              [
+                40.077731527600626,
+                -8.688023391141272
+              ],
+              [
+                40.07783957193545,
+                -8.688617771806019
+              ],
+              [
+                40.07789710520079,
+                -8.689122349553555
+              ],
+              [
+                40.07790412739665,
+                -8.689537124383879
+              ],
+              [
+                40.077860638523035,
+                -8.689862096296991
+              ],
+              [
+                40.07776663857993,
+                -8.690097265292895
+              ],
+              [
+                40.07762212756736,
+                -8.690242631371586
+              ],
+              [
+                40.077427105485306,
+                -8.690298194533064
+              ],
+              [
+                40.07715959665428,
+                -8.690269094274583
+              ],
+              [
+                40.0768196010743,
+                -8.690155330596143
+              ],
+              [
+                40.076407118745344,
+                -8.689956903497743
+              ],
+              [
+                40.07592214966741,
+                -8.68967381297938
+              ],
+              [
+                40.07536469384053,
+                -8.689306059041062
+              ],
+              [
+                40.074734751264664,
+                -8.688853641682782
+              ],
+              [
+                40.07403232193984,
+                -8.688316560904543
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.07520243053348,
+    -8.686784997614522
+  ],
+  "centroDeMassa": [
+    40.07442495223117,
+    -8.687174466955643
+  ]
+}

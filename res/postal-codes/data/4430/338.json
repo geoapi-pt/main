@@ -1,1 +1,518 @@
-{"CP4":"4430","CP3":"338","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4430-338","Artéria":"Rua de Barrosa de Cima","Localidade":"Vila Nova de Gaia","Local":"Vilar de Andorinho","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3569915","rua":"R BARROSA DE CIMA","casa":"75","coordenadas":[41.10334311185627,-8.575279067654971]},{"id":"pt.ine.add.PTCONT.3576329","rua":"R BARROSA DE CIMA","casa":"44","coordenadas":[41.10348909678803,-8.574780069436082]},{"id":"pt.ine.add.PTCONT.3577071","rua":"R BARROSA DE CIMA","casa":"44","coordenadas":[41.10348909678803,-8.574780069436082]},{"id":"pt.ine.add.PTCONT.3646970","rua":"R BARROSA DE CIMA","casa":"87","coordenadas":[41.1034230986423,-8.575553401051227]},{"id":"pt.ine.add.PTCONT.3672971","rua":"R BARROSA DE CIMA","casa":"15","coordenadas":[41.10344709155757,-8.576339240372535]},{"id":"pt.ine.add.PTCONT.3718241","rua":"R BARROSA CIMA","casa":"86","coordenadas":[41.10372974435984,-8.575424512237667]},{"id":"pt.ine.add.PTCONT.3718428","rua":"R BARROSA DE CIMA","casa":"48","coordenadas":[41.103524337677975,-8.574982677471105]},{"id":"pt.ine.add.PTCONT.3744720","rua":"R BARROSA DE CIMA","casa":"72","coordenadas":[41.1035234243618,-8.575220755958195]},{"id":"pt.ine.add.PTCONT.3792413","rua":"R BARROSA DE CIMA","casa":"86 CASA","coordenadas":[41.10367576483219,-8.575412245787424]},{"id":"pt.ine.add.PTCONT.3821960","rua":"R BARROSA DE CIMA","casa":"22","coordenadas":[41.103364406326556,-8.574422107958997]},{"id":"pt.ine.add.PTCONT.3828299","rua":"R BARROSA DE CIMA","casa":"130","coordenadas":[41.10359326402924,-8.575792628014197]},{"id":"pt.ine.add.PTCONT.3866741","rua":"R BARROSA DE CIMA","casa":"99","coordenadas":[41.103447869870955,-8.576136873924112]},{"id":"pt.ine.add.PTCONT.3899742","rua":"R BARROSA DE CIMA","casa":"30","coordenadas":[41.10338218674601,-8.574481748015982]},{"id":"pt.ine.add.PTCONT.3933609","rua":"R BARROSA DE CIMA","casa":"126","coordenadas":[41.10358252092213,-8.576244917025427]},{"id":"pt.ine.add.PTCONT.3933610","rua":"R BARROSA DE CIMA","casa":"126","coordenadas":[41.10358252092213,-8.576244917025427]},{"id":"pt.ine.add.PTCONT.3933643","rua":"R BARROSA DE CIMA","casa":"126","coordenadas":[41.10358252092213,-8.576244917025427]},{"id":"pt.ine.add.PTCONT.3941001","rua":"R BARROSA DE CIMA","casa":"128","coordenadas":[41.10359280659522,-8.575911667370557]},{"id":"pt.ine.add.PTCONT.3970345","rua":"R BARROSA DE CIMA","casa":"7","coordenadas":[41.10326567919517,-8.57433811774088]},{"id":"pt.ine.add.PTCONT.3972081","rua":"R BARROSA DE CIMA","casa":"36","coordenadas":[41.10346249481417,-8.574672753227553]},{"id":"pt.ine.add.PTCONT.3972082","rua":"R BARROSA DE CIMA","casa":"36","coordenadas":[41.10346249481417,-8.574672753227553]},{"id":"pt.ine.add.PTCONT.4027006","rua":"R BARROSA CIMA","casa":"86","coordenadas":[41.10351373484715,-8.575399254403647]},{"id":"pt.ine.add.PTCONT.4159590","rua":"R BARROSA DE CIMA","casa":"8","coordenadas":[41.10335576684452,-8.57432681651907]},{"id":"pt.ine.add.PTCONT.4200931","rua":"R BARROSA CIMA","casa":"9","coordenadas":[41.10330087526003,-8.57455262874375]},{"id":"pt.ine.add.PTCONT.4237750","rua":"R BARROSA DE CIMA","casa":"86CASA3","coordenadas":[41.10363078950718,-8.575400039770662]},{"id":"pt.ine.add.PTCONT.4280148","rua":"R BARROSA DE CIMA","casa":"2","coordenadas":[41.103356131489946,-8.574231585356264]},{"id":"pt.ine.add.PTCONT.4291204","rua":"R BARROSA DE CIMA","casa":"90","coordenadas":[41.103585265746766,-8.575530680989777]},{"id":"pt.ine.add.PTCONT.4291205","rua":"R BARROSA DE CIMA","casa":"90","coordenadas":[41.103585265746766,-8.575530680989777]},{"id":"pt.ine.add.PTCONT.4298361","rua":"R BARROSA CIMA","casa":"86","coordenadas":[41.10358576848435,-8.575399737705878]},{"id":"pt.ine.add.PTCONT.4337352","rua":"R BARROSA DE CIMA","casa":"156","coordenadas":[41.103592074444975,-8.576102130335022]},{"id":"pt.ine.add.PTCONT.4382040","rua":"R BARROSA DE CIMA","casa":"9","coordenadas":[41.10330128569012,-8.57444549377794]}],"ruas":["R BARROSA DE CIMA","R BARROSA CIMA"],"centroide":[41.10349893808254,-8.575289965337078]}
+{
+  "CP": "4430-338",
+  "CP4": "4430",
+  "CP3": "338",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Rua de Barrosa de Cima",
+      "Local": "Vilar de Andorinho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3569915",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "75",
+      "coordenadas": [
+        41.10334311185627,
+        -8.575279067654971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3576329",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "44",
+      "coordenadas": [
+        41.10348909678803,
+        -8.574780069436082
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3577071",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "44",
+      "coordenadas": [
+        41.10348909678803,
+        -8.574780069436082
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3646970",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "87",
+      "coordenadas": [
+        41.1034230986423,
+        -8.575553401051227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3672971",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "15",
+      "coordenadas": [
+        41.10344709155757,
+        -8.576339240372535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3718241",
+      "rua": "R BARROSA CIMA",
+      "casa": "86",
+      "coordenadas": [
+        41.10372974435984,
+        -8.575424512237667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3718428",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "48",
+      "coordenadas": [
+        41.103524337677975,
+        -8.574982677471105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3744720",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "72",
+      "coordenadas": [
+        41.1035234243618,
+        -8.575220755958195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3792413",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "86 CASA",
+      "coordenadas": [
+        41.10367576483219,
+        -8.575412245787424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3821960",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "22",
+      "coordenadas": [
+        41.103364406326556,
+        -8.574422107958997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3828299",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "130",
+      "coordenadas": [
+        41.10359326402924,
+        -8.575792628014197
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3866741",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "99",
+      "coordenadas": [
+        41.103447869870955,
+        -8.576136873924112
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3899742",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "30",
+      "coordenadas": [
+        41.10338218674601,
+        -8.574481748015982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3933609",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "126",
+      "coordenadas": [
+        41.10358252092213,
+        -8.576244917025427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3933610",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "126",
+      "coordenadas": [
+        41.10358252092213,
+        -8.576244917025427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3933643",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "126",
+      "coordenadas": [
+        41.10358252092213,
+        -8.576244917025427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3941001",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "128",
+      "coordenadas": [
+        41.10359280659522,
+        -8.575911667370557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3970345",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "7",
+      "coordenadas": [
+        41.10326567919517,
+        -8.57433811774088
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3972081",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "36",
+      "coordenadas": [
+        41.10346249481417,
+        -8.574672753227553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3972082",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "36",
+      "coordenadas": [
+        41.10346249481417,
+        -8.574672753227553
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4027006",
+      "rua": "R BARROSA CIMA",
+      "casa": "86",
+      "coordenadas": [
+        41.10351373484715,
+        -8.575399254403647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4159590",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "8",
+      "coordenadas": [
+        41.10335576684452,
+        -8.57432681651907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4200931",
+      "rua": "R BARROSA CIMA",
+      "casa": "9",
+      "coordenadas": [
+        41.10330087526003,
+        -8.57455262874375
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4237750",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "86CASA3",
+      "coordenadas": [
+        41.10363078950718,
+        -8.575400039770662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4280148",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "2",
+      "coordenadas": [
+        41.103356131489946,
+        -8.574231585356264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4291204",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "90",
+      "coordenadas": [
+        41.103585265746766,
+        -8.575530680989777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4291205",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "90",
+      "coordenadas": [
+        41.103585265746766,
+        -8.575530680989777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4298361",
+      "rua": "R BARROSA CIMA",
+      "casa": "86",
+      "coordenadas": [
+        41.10358576848435,
+        -8.575399737705878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4337352",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "156",
+      "coordenadas": [
+        41.103592074444975,
+        -8.576102130335022
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4382040",
+      "rua": "R BARROSA DE CIMA",
+      "casa": "9",
+      "coordenadas": [
+        41.10330128569012,
+        -8.57444549377794
+      ]
+    }
+  ],
+  "ruas": [
+    "R BARROSA DE CIMA",
+    "R BARROSA CIMA"
+  ],
+  "centro": [
+    41.10349771177751,
+    -8.5752854128644
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.10330923506704,
+                -8.574867402067557
+              ],
+              [
+                41.1032995559844,
+                -8.574749783328294
+              ],
+              [
+                41.103292500104196,
+                -8.57464520236293
+              ],
+              [
+                41.10328806742643,
+                -8.574553659171468
+              ],
+              [
+                41.1032862579511,
+                -8.5744751537539
+              ],
+              [
+                41.1032870716782,
+                -8.574409686110231
+              ],
+              [
+                41.10329050860774,
+                -8.57435725624046
+              ],
+              [
+                41.103296568739715,
+                -8.574317864144586
+              ],
+              [
+                41.10330525207413,
+                -8.574291509822611
+              ],
+              [
+                41.10331655861098,
+                -8.574278193274534
+              ],
+              [
+                41.103332289531814,
+                -8.574285180777487
+              ],
+              [
+                41.10335244483663,
+                -8.574312472331474
+              ],
+              [
+                41.103377024525436,
+                -8.57436006793649
+              ],
+              [
+                41.103406028598236,
+                -8.57442796759254
+              ],
+              [
+                41.10343945705502,
+                -8.57451617129962
+              ],
+              [
+                41.10347730989578,
+                -8.574624679057733
+              ],
+              [
+                41.10351958712053,
+                -8.574753490866877
+              ],
+              [
+                41.103566288729255,
+                -8.574902606727054
+              ],
+              [
+                41.103604852270685,
+                -8.575045901929517
+              ],
+              [
+                41.103635277744814,
+                -8.575183376474264
+              ],
+              [
+                41.103657565151636,
+                -8.5753150303613
+              ],
+              [
+                41.10367171449114,
+                -8.575440863590623
+              ],
+              [
+                41.10367772576335,
+                -8.575560876162232
+              ],
+              [
+                41.10367559896825,
+                -8.57567506807613
+              ],
+              [
+                41.10366533410584,
+                -8.575783439332312
+              ],
+              [
+                41.10364693117613,
+                -8.575885989930782
+              ],
+              [
+                41.1036287125288,
+                -8.575977195506741
+              ],
+              [
+                41.103610678163875,
+                -8.576057056060192
+              ],
+              [
+                41.10359282808135,
+                -8.576125571591131
+              ],
+              [
+                41.1035751622812,
+                -8.57618274209956
+              ],
+              [
+                41.10355768076346,
+                -8.57622856758548
+              ],
+              [
+                41.1035403835281,
+                -8.576263048048888
+              ],
+              [
+                41.10352327057514,
+                -8.576286183489787
+              ],
+              [
+                41.10350634190456,
+                -8.576297973908176
+              ],
+              [
+                41.10348990463498,
+                -8.576291725325554
+              ],
+              [
+                41.103473958766386,
+                -8.57626743774192
+              ],
+              [
+                41.103458504298786,
+                -8.576225111157278
+              ],
+              [
+                41.10344354123217,
+                -8.576164745571624
+              ],
+              [
+                41.103429069566545,
+                -8.576086340984961
+              ],
+              [
+                41.103415089301905,
+                -8.575989897397285
+              ],
+              [
+                41.103401600438254,
+                -8.575875414808602
+              ],
+              [
+                41.103388602975585,
+                -8.575742893218905
+              ],
+              [
+                41.10337602031043,
+                -8.575612234485515
+              ],
+              [
+                41.10336385244277,
+                -8.575483438608426
+              ],
+              [
+                41.103352099372614,
+                -8.575356505587644
+              ],
+              [
+                41.10334076109997,
+                -8.575231435423166
+              ],
+              [
+                41.10332983762482,
+                -8.575108228114992
+              ],
+              [
+                41.10331932894718,
+                -8.574986883663122
+              ],
+              [
+                41.10330923506704,
+                -8.574867402067557
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.10345404656349,
+    -8.575309573397957
+  ],
+  "centroDeMassa": [
+    41.10349771177751,
+    -8.5752854128644
+  ]
+}

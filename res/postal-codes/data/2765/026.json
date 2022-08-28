@@ -1,1 +1,414 @@
-{"CP4":"2765","CP3":"026","Distrito":"Lisboa","Concelho":"Cascais","CP":"2765-026","Artéria":"Jardim Doutor João Cabral","Localidade":"Alapraia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ESTORIL","locais":[{"id":"pt.ine.add.PTCONT.3033780","rua":"R FRANCISCO DE PAULA E OLIVEIRA ANEXO","casa":"6","coordenadas":[38.706631725805174,-9.376467938489418]},{"id":"pt.ine.add.PTCONT.3127451","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"","coordenadas":[38.70684640483075,-9.376609608309337]},{"id":"pt.ine.add.PTCONT.3268827","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"D","coordenadas":[38.70678287327556,-9.37665449144151]},{"id":"pt.ine.add.PTCONT.3277475","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"D","coordenadas":[38.70678287327556,-9.37665449144151]},{"id":"pt.ine.add.PTCONT.3315081","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"","coordenadas":[38.70677667869619,-9.376389977779427]},{"id":"pt.ine.add.PTCONT.2274947","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"","coordenadas":[38.706894002188356,-9.376369017974572]},{"id":"pt.ine.add.PTCONT.2277505","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"","coordenadas":[38.706894002188356,-9.376369017974572]},{"id":"pt.ine.add.PTCONT.2278246","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"B","coordenadas":[38.70700060836858,-9.376508815980953]},{"id":"pt.ine.add.PTCONT.2294779","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"22A","coordenadas":[38.70660348517522,-9.376582408327966]},{"id":"pt.ine.add.PTCONT.2294780","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"22A","coordenadas":[38.70660348517522,-9.376582408327966]},{"id":"pt.ine.add.PTCONT.2295597","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"22A","coordenadas":[38.70660348517522,-9.376582408327966]},{"id":"pt.ine.add.PTCONT.2532381","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"2","coordenadas":[38.706531436536416,-9.37658116023749]},{"id":"pt.ine.add.PTCONT.2829969","rua":"R FRANCISCO DE PAULA E OLIVEIRA","casa":"","coordenadas":[38.70666567199163,-9.376663956958534]},{"id":"pt.ine.add.PTCONT.2829970","rua":"R FRANCISCO PAULA E OLIVEIRA","casa":"6","coordenadas":[38.70666567199163,-9.376663956958534]}],"ruas":["R FRANCISCO DE PAULA E OLIVEIRA ANEXO","R FRANCISCO DE PAULA E OLIVEIRA","R FRANCISCO PAULA E OLIVEIRA"],"centroide":[38.70673974866786,-9.376539669351631]}51631]}
+{
+  "CP": "2765-026",
+  "CP4": "2765",
+  "CP3": "026",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": "Alapraia",
+  "Designação Postal": "ESTORIL",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco de Paula e Oliveira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Jardim Doutor João Cabral",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3033780",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA ANEXO",
+      "casa": "6",
+      "coordenadas": [
+        38.706631725805174,
+        -9.376467938489418
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3127451",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.70684640483075,
+        -9.376609608309337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3268827",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "D",
+      "coordenadas": [
+        38.70678287327556,
+        -9.37665449144151
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3277475",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "D",
+      "coordenadas": [
+        38.70678287327556,
+        -9.37665449144151
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3315081",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.70677667869619,
+        -9.376389977779427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2274947",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.706894002188356,
+        -9.376369017974572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2277505",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.706894002188356,
+        -9.376369017974572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2278246",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "B",
+      "coordenadas": [
+        38.70700060836858,
+        -9.376508815980953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2294779",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "22A",
+      "coordenadas": [
+        38.70660348517522,
+        -9.376582408327966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2294780",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "22A",
+      "coordenadas": [
+        38.70660348517522,
+        -9.376582408327966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295597",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "22A",
+      "coordenadas": [
+        38.70660348517522,
+        -9.376582408327966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2532381",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "2",
+      "coordenadas": [
+        38.706531436536416,
+        -9.37658116023749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2829969",
+      "rua": "R FRANCISCO DE PAULA E OLIVEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.70666567199163,
+        -9.376663956958534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2829970",
+      "rua": "R FRANCISCO PAULA E OLIVEIRA",
+      "casa": "6",
+      "coordenadas": [
+        38.70666567199163,
+        -9.376663956958534
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO DE PAULA E OLIVEIRA ANEXO",
+    "R FRANCISCO DE PAULA E OLIVEIRA",
+    "R FRANCISCO PAULA E OLIVEIRA"
+  ],
+  "centro": [
+    38.7067660224525,
+    -9.376516487466553
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.70660694397997,
+                -9.376627733393077
+              ],
+              [
+                38.706590164548075,
+                -9.376617383802946
+              ],
+              [
+                38.706577049564984,
+                -9.376606558821768
+              ],
+              [
+                38.70656759903071,
+                -9.376595258449543
+              ],
+              [
+                38.706561812945246,
+                -9.376583482686272
+              ],
+              [
+                38.70655969130859,
+                -9.376571231531951
+              ],
+              [
+                38.70656123412075,
+                -9.376558504986585
+              ],
+              [
+                38.70656644138172,
+                -9.37654530305017
+              ],
+              [
+                38.7065753130915,
+                -9.37653162572271
+              ],
+              [
+                38.70658784925009,
+                -9.3765174730042
+              ],
+              [
+                38.70660108327778,
+                -9.37650387123941
+              ],
+              [
+                38.70661501517457,
+                -9.37649082042834
+              ],
+              [
+                38.70662964494046,
+                -9.376478320570993
+              ],
+              [
+                38.70664497257545,
+                -9.376466371667362
+              ],
+              [
+                38.706660998079535,
+                -9.376454973717454
+              ],
+              [
+                38.706677721452714,
+                -9.376444126721264
+              ],
+              [
+                38.70669514269499,
+                -9.376433830678796
+              ],
+              [
+                38.70671326180637,
+                -9.376424085590049
+              ],
+              [
+                38.706730949208385,
+                -9.376415231140442
+              ],
+              [
+                38.706748204901054,
+                -9.376407267329979
+              ],
+              [
+                38.706765028884355,
+                -9.37640019415866
+              ],
+              [
+                38.706781421158304,
+                -9.37639401162648
+              ],
+              [
+                38.7067973817229,
+                -9.376388719733447
+              ],
+              [
+                38.70681291057813,
+                -9.376384318479554
+              ],
+              [
+                38.70682800772401,
+                -9.376380807864804
+              ],
+              [
+                38.70684267316053,
+                -9.376378187889197
+              ],
+              [
+                38.706857171139056,
+                -9.37637807975439
+              ],
+              [
+                38.70687150165958,
+                -9.376380483460384
+              ],
+              [
+                38.70688566472211,
+                -9.376385399007178
+              ],
+              [
+                38.70689966032663,
+                -9.376392826394774
+              ],
+              [
+                38.70691348847315,
+                -9.376402765623169
+              ],
+              [
+                38.70692714916167,
+                -9.376415216692367
+              ],
+              [
+                38.706940642392205,
+                -9.376430179602364
+              ],
+              [
+                38.70695396816473,
+                -9.37644765435316
+              ],
+              [
+                38.706962226104864,
+                -9.376465220939181
+              ],
+              [
+                38.706965416212604,
+                -9.37648287936042
+              ],
+              [
+                38.70696353848795,
+                -9.376500629616883
+              ],
+              [
+                38.7069565929309,
+                -9.376518471708566
+              ],
+              [
+                38.70694457954146,
+                -9.376536405635472
+              ],
+              [
+                38.706927498319615,
+                -9.376554431397597
+              ],
+              [
+                38.706905349265384,
+                -9.376572548994947
+              ],
+              [
+                38.706878132378755,
+                -9.376590758427515
+              ],
+              [
+                38.70685248633289,
+                -9.376606839579718
+              ],
+              [
+                38.7068284111278,
+                -9.376620792451552
+              ],
+              [
+                38.70680590676348,
+                -9.376632617043018
+              ],
+              [
+                38.70678497323992,
+                -9.376642313354118
+              ],
+              [
+                38.70676561055713,
+                -9.376649881384848
+              ],
+              [
+                38.7067478187151,
+                -9.376655321135212
+              ],
+              [
+                38.70673159771384,
+                -9.376658632605208
+              ],
+              [
+                38.706716947553346,
+                -9.376659815794836
+              ],
+              [
+                38.70670203123393,
+                -9.376659557386994
+              ],
+              [
+                38.70668684875558,
+                -9.376657857381684
+              ],
+              [
+                38.70667140011832,
+                -9.376654715778901
+              ],
+              [
+                38.70665568532212,
+                -9.37665013257865
+              ],
+              [
+                38.70663970436699,
+                -9.37664410778093
+              ],
+              [
+                38.706623457252945,
+                -9.376636641385737
+              ],
+              [
+                38.70660694397997,
+                -9.376627733393077
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.70675471383741,
+    -9.376519336980271
+  ],
+  "centroDeMassa": [
+    38.7067660224525,
+    -9.376516487466553
+  ]
+}

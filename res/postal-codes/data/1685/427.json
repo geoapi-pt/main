@@ -1,1 +1,417 @@
-{"CP4":"1685","CP3":"427","Distrito":"Lisboa","Concelho":"Odivelas","CP":"1685-427","Artéria":"Rua da Paz","Localidade":"Caneças","Local":"Bairro do Casal Novo","Troço":"VV Santos","Porta":"","Cliente":"","Designação Postal":"CANEÇAS","locais":[{"id":"pt.ine.add.PTCONT.2439259","rua":"R PAZ","casa":"47","coordenadas":[38.809379352545264,-9.219564213111358]},{"id":"pt.ine.add.PTCONT.2528517","rua":"R PAZ","casa":"","coordenadas":[38.809164482837275,-9.219422798920744]},{"id":"pt.ine.add.PTCONT.2600069","rua":"R PAZ","casa":"","coordenadas":[38.80992521114554,-9.219952422241883]},{"id":"pt.ine.add.PTCONT.2601016","rua":"R PAZ","casa":"","coordenadas":[38.80992521114554,-9.219952422241883]},{"id":"pt.ine.add.PTCONT.2689479","rua":"R PAZ","casa":"","coordenadas":[38.80902091518416,-9.219363055867278]},{"id":"pt.ine.add.PTCONT.2741604","rua":"R PAZ","casa":"105","coordenadas":[38.8085119359777,-9.218883316928869]},{"id":"pt.ine.add.PTCONT.2758808","rua":"R PAZ","casa":"94","coordenadas":[38.809719348382586,-9.219811142625483]},{"id":"pt.ine.add.PTCONT.2791535","rua":"R PAZ","casa":"","coordenadas":[38.809603121423095,-9.219717275954125]},{"id":"pt.ine.add.PTCONT.2791536","rua":"R PAZ","casa":"","coordenadas":[38.809603121423095,-9.219717275954125]},{"id":"pt.ine.add.PTCONT.2791537","rua":"R PAZ","casa":"","coordenadas":[38.809603121423095,-9.219717275954125]},{"id":"pt.ine.add.PTCONT.2905393","rua":"R PAZ","casa":"","coordenadas":[38.80868038327216,-9.219173685006423]},{"id":"pt.ine.add.PTCONT.3023802","rua":"R PAZ","casa":"93","coordenadas":[38.80980855599257,-9.219904599024739]},{"id":"pt.ine.add.PTCONT.3052698","rua":"R PAZ","casa":"","coordenadas":[38.807952230352704,-9.218045933276109]},{"id":"pt.ine.add.PTCONT.3052705","rua":"R PAZ","casa":"","coordenadas":[38.807952230352704,-9.218045933276109]},{"id":"pt.ine.add.PTCONT.3237758","rua":"R PAZ","casa":"","coordenadas":[38.809281245255,-9.219459109994629]},{"id":"pt.ine.add.PTCONT.3366421","rua":"R PAZ","casa":"","coordenadas":[38.809513592487356,-9.219658352889294]},{"id":"pt.ine.add.PTCONT.3366422","rua":"R PAZ","casa":"","coordenadas":[38.809513592487356,-9.219658352889294]},{"id":"pt.ine.add.PTCONT.3403388","rua":"R PAZ","casa":"","coordenadas":[38.80879725279677,-9.21919848458136]},{"id":"pt.ine.add.PTCONT.3437920","rua":"R PAZ","casa":"","coordenadas":[38.809603121423095,-9.219717275954125]}],"ruas":["R PAZ"],"centroide":[38.809219716915784,-9.219402536152103]}536152103]}
+{
+  "CP": "1685-427",
+  "CP4": "1685",
+  "CP3": "427",
+  "Distrito": "Lisboa",
+  "Concelho": "Odivelas",
+  "Localidade": "Caneças",
+  "Designação Postal": "CANEÇAS",
+  "partes": [
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 100",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 102",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 103",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 93",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 94",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 96",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "LT 99",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "VV Candeias",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "VV Carvalho Bandeira",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Paz",
+      "Local": "Bairro do Casal Novo",
+      "Troço": "VV Santos",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2439259",
+      "rua": "R PAZ",
+      "casa": "47",
+      "coordenadas": [
+        38.809379352545264,
+        -9.219564213111358
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2528517",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809164482837275,
+        -9.219422798920744
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2600069",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.80992521114554,
+        -9.219952422241883
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2601016",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.80992521114554,
+        -9.219952422241883
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2689479",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.80902091518416,
+        -9.219363055867278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2741604",
+      "rua": "R PAZ",
+      "casa": "105",
+      "coordenadas": [
+        38.8085119359777,
+        -9.218883316928869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2758808",
+      "rua": "R PAZ",
+      "casa": "94",
+      "coordenadas": [
+        38.809719348382586,
+        -9.219811142625483
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2791535",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809603121423095,
+        -9.219717275954125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2791536",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809603121423095,
+        -9.219717275954125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2791537",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809603121423095,
+        -9.219717275954125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2905393",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.80868038327216,
+        -9.219173685006423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3023802",
+      "rua": "R PAZ",
+      "casa": "93",
+      "coordenadas": [
+        38.80980855599257,
+        -9.219904599024739
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3052698",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.807952230352704,
+        -9.218045933276109
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3052705",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.807952230352704,
+        -9.218045933276109
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3237758",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809281245255,
+        -9.219459109994629
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3366421",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809513592487356,
+        -9.219658352889294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3366422",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809513592487356,
+        -9.219658352889294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3403388",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.80879725279677,
+        -9.21919848458136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3437920",
+      "rua": "R PAZ",
+      "casa": "",
+      "coordenadas": [
+        38.809603121423095,
+        -9.219717275954125
+      ]
+    }
+  ],
+  "ruas": [
+    "R PAZ"
+  ],
+  "centro": [
+    38.808938720749126,
+    -9.218999177758995
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.808361816369896,
+                -9.218680293624411
+              ],
+              [
+                38.80827079725497,
+                -9.218539324658122
+              ],
+              [
+                38.808221983354294,
+                -9.21844576570271
+              ],
+              [
+                38.80821537466787,
+                -9.218399616758173
+              ],
+              [
+                38.8082509711957,
+                -9.218400877824513
+              ],
+              [
+                38.808328772937784,
+                -9.218449548901727
+              ],
+              [
+                38.80844877989412,
+                -9.21854562998982
+              ],
+              [
+                38.80861099206472,
+                -9.21868912108879
+              ],
+              [
+                38.80881540944957,
+                -9.218880022198634
+              ],
+              [
+                38.80906203204867,
+                -9.219118333319358
+              ],
+              [
+                38.80927600408613,
+                -9.21932610831222
+              ],
+              [
+                38.80945732556192,
+                -9.219503347177227
+              ],
+              [
+                38.809605996476066,
+                -9.219650049914375
+              ],
+              [
+                38.80972201682856,
+                -9.219766216523663
+              ],
+              [
+                38.8098053866194,
+                -9.219851847005094
+              ],
+              [
+                38.80985610584858,
+                -9.219906941358667
+              ],
+              [
+                38.80987417451612,
+                -9.219931499584384
+              ],
+              [
+                38.809859592622,
+                -9.219925521682239
+              ],
+              [
+                38.80982920576589,
+                -9.219908870486329
+              ],
+              [
+                38.80978301394778,
+                -9.219881545996648
+              ],
+              [
+                38.80972101716768,
+                -9.2198435482132
+              ],
+              [
+                38.8096432154256,
+                -9.219794877135985
+              ],
+              [
+                38.809549608721525,
+                -9.219735532765
+              ],
+              [
+                38.80944019705545,
+                -9.219665515100248
+              ],
+              [
+                38.80931498042739,
+                -9.219584824141727
+              ],
+              [
+                38.809173958837334,
+                -9.219493459889435
+              ],
+              [
+                38.80903918755667,
+                -9.219395895047896
+              ],
+              [
+                38.808910666585405,
+                -9.219292129617108
+              ],
+              [
+                38.80878839592352,
+                -9.219182163597068
+              ],
+              [
+                38.808672375571035,
+                -9.219065996987776
+              ],
+              [
+                38.80856260552793,
+                -9.218943629789237
+              ],
+              [
+                38.80845908579422,
+                -9.21881506200145
+              ],
+              [
+                38.808361816369896,
+                -9.218680293624411
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.80909159519074,
+    -9.219269159887288
+  ],
+  "centroDeMassa": [
+    38.808938720749126,
+    -9.218999177758995
+  ]
+}

@@ -1,1 +1,415 @@
-{"CP4":"5300","CP3":"677","Distrito":"Bragança","Concelho":"Bragança","CP":"5300-677","Artéria":"Rua de Álvaro Gil","Localidade":"Bragança","Local":"Bairro das Cantarias","Troço":"","Porta":"","Cliente":"","Designação Postal":"BRAGANÇA","locais":[{"id":"pt.ine.add.PTCONT.853408","rua":"R FRANCISCO GARCIA","casa":"30","coordenadas":[41.783432865950914,-6.774172818286451]},{"id":"pt.ine.add.PTCONT.854996","rua":"R FRANCISCO GARCIA","casa":"26","coordenadas":[41.783614021466484,-6.774265223222182]},{"id":"pt.ine.add.PTCONT.854997","rua":"R FRANCISCO GARCIA","casa":"26","coordenadas":[41.783614021466484,-6.774265223222182]},{"id":"pt.ine.add.PTCONT.854998","rua":"R FRANCISCO GARCIA","casa":"26","coordenadas":[41.783614021466484,-6.774265223222182]},{"id":"pt.ine.add.PTCONT.856516","rua":"R ÁLVARO GIL","casa":"7","coordenadas":[41.78373515790073,-6.774611502196246]},{"id":"pt.ine.add.PTCONT.856518","rua":"R ÁLVARO GIL","casa":"7","coordenadas":[41.78373515790073,-6.774611502196246]},{"id":"pt.ine.add.PTCONT.864164","rua":"R FRANCISCO GARCIA","casa":"34","coordenadas":[41.7831959976766,-6.7739372453501305]},{"id":"pt.ine.add.PTCONT.869502","rua":"R DR ARMANDO PIRES","casa":"11","coordenadas":[41.78437606849426,-6.774754347758852]},{"id":"pt.ine.add.PTCONT.877649","rua":"R FRANCISCO GARCIA","casa":"32","coordenadas":[41.78330642697005,-6.774139402160875]},{"id":"pt.ine.add.PTCONT.877682","rua":"R FRANCISCO GARCIA","casa":"32","coordenadas":[41.78330642697005,-6.774139402160875]},{"id":"pt.ine.add.PTCONT.881879","rua":"R ÁLVARO GIL","casa":"1","coordenadas":[41.783784895696364,-6.774249585900913]},{"id":"pt.ine.add.PTCONT.881880","rua":"R ÁLVARO GIL","casa":"1","coordenadas":[41.783784895696364,-6.774249585900913]},{"id":"pt.ine.add.PTCONT.882368","rua":"R FRANCISCO GARCIA","casa":"24","coordenadas":[41.78370403014898,-6.7742633224620485]},{"id":"pt.ine.add.PTCONT.882369","rua":"R FRANCISCO GARCIA","casa":"24","coordenadas":[41.78370403014898,-6.7742633224620485]},{"id":"pt.ine.add.PTCONT.882370","rua":"R FRANCISCO GARCIA","casa":"24","coordenadas":[41.78370403014898,-6.7742633224620485]},{"id":"pt.ine.add.PTCONT.889713","rua":"R FRANCISCO GARCIA","casa":"22","coordenadas":[41.78389219476171,-6.7741871755001855]},{"id":"pt.ine.add.PTCONT.902648","rua":"R FRANCISCO GARCIA","casa":"28","coordenadas":[41.783523443717705,-6.774219020690716]},{"id":"pt.ine.add.PTCONT.902649","rua":"R FRANCISCO GARCIA","casa":"28","coordenadas":[41.783523443717705,-6.774219020690716]},{"id":"pt.ine.add.PTCONT.931546","rua":"R ÁLVARO GIL","casa":"5","coordenadas":[41.78367200958584,-6.774600806539569]},{"id":"pt.ine.add.PTCONT.940475","rua":"R FRANCISCO GARCIA","casa":"32","coordenadas":[41.78333584809505,-6.774343270238792]},{"id":"pt.ine.add.PTCONT.940477","rua":"R FRANCISCO GARCIA","casa":"32 A","coordenadas":[41.78333584809505,-6.774343270238792]},{"id":"pt.ine.add.PTCONT.949088","rua":"R ÁLVARO GIL","casa":"4","coordenadas":[41.78393847950809,-6.774294458140264]}],"ruas":["R FRANCISCO GARCIA","R ÁLVARO GIL","R DR ARMANDO PIRES"],"centroide":[41.78361403981313,-6.7743030282315715]}
+{
+  "CP": "5300-677",
+  "CP4": "5300",
+  "CP3": "677",
+  "Distrito": "Bragança",
+  "Concelho": "Bragança",
+  "Localidade": "Bragança",
+  "Designação Postal": "BRAGANÇA",
+  "partes": [
+    {
+      "Artéria": "Rua de Álvaro Gil",
+      "Local": "Bairro das Cantarias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.853408",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "30",
+      "coordenadas": [
+        41.783432865950914,
+        -6.774172818286451
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.854996",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "26",
+      "coordenadas": [
+        41.783614021466484,
+        -6.774265223222182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.854997",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "26",
+      "coordenadas": [
+        41.783614021466484,
+        -6.774265223222182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.854998",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "26",
+      "coordenadas": [
+        41.783614021466484,
+        -6.774265223222182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.856516",
+      "rua": "R ÁLVARO GIL",
+      "casa": "7",
+      "coordenadas": [
+        41.78373515790073,
+        -6.774611502196246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.856518",
+      "rua": "R ÁLVARO GIL",
+      "casa": "7",
+      "coordenadas": [
+        41.78373515790073,
+        -6.774611502196246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.864164",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "34",
+      "coordenadas": [
+        41.7831959976766,
+        -6.7739372453501305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.869502",
+      "rua": "R DR ARMANDO PIRES",
+      "casa": "11",
+      "coordenadas": [
+        41.78437606849426,
+        -6.774754347758852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.877649",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "32",
+      "coordenadas": [
+        41.78330642697005,
+        -6.774139402160875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.877682",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "32",
+      "coordenadas": [
+        41.78330642697005,
+        -6.774139402160875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.881879",
+      "rua": "R ÁLVARO GIL",
+      "casa": "1",
+      "coordenadas": [
+        41.783784895696364,
+        -6.774249585900913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.881880",
+      "rua": "R ÁLVARO GIL",
+      "casa": "1",
+      "coordenadas": [
+        41.783784895696364,
+        -6.774249585900913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.882368",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "24",
+      "coordenadas": [
+        41.78370403014898,
+        -6.7742633224620485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.882369",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "24",
+      "coordenadas": [
+        41.78370403014898,
+        -6.7742633224620485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.882370",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "24",
+      "coordenadas": [
+        41.78370403014898,
+        -6.7742633224620485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.889713",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "22",
+      "coordenadas": [
+        41.78389219476171,
+        -6.7741871755001855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.902648",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "28",
+      "coordenadas": [
+        41.783523443717705,
+        -6.774219020690716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.902649",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "28",
+      "coordenadas": [
+        41.783523443717705,
+        -6.774219020690716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.931546",
+      "rua": "R ÁLVARO GIL",
+      "casa": "5",
+      "coordenadas": [
+        41.78367200958584,
+        -6.774600806539569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.940475",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "32",
+      "coordenadas": [
+        41.78333584809505,
+        -6.774343270238792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.940477",
+      "rua": "R FRANCISCO GARCIA",
+      "casa": "32 A",
+      "coordenadas": [
+        41.78333584809505,
+        -6.774343270238792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.949088",
+      "rua": "R ÁLVARO GIL",
+      "casa": "4",
+      "coordenadas": [
+        41.78393847950809,
+        -6.774294458140264
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO GARCIA",
+    "R ÁLVARO GIL",
+    "R DR ARMANDO PIRES"
+  ],
+  "centro": [
+    41.783786033085434,
+    -6.774345796554491
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.78327466353697,
+                -6.774165634350003
+              ],
+              [
+                41.78325718223468,
+                -6.77411488123892
+              ],
+              [
+                41.78325276417461,
+                -6.774074377425317
+              ],
+              [
+                41.78326140935679,
+                -6.774044122909195
+              ],
+              [
+                41.78328311778121,
+                -6.774024117690552
+              ],
+              [
+                41.783317889447886,
+                -6.774014361769388
+              ],
+              [
+                41.78336572435679,
+                -6.774014855145705
+              ],
+              [
+                41.783426622507946,
+                -6.774025597819503
+              ],
+              [
+                41.78350058390134,
+                -6.77404658979078
+              ],
+              [
+                41.783587608536976,
+                -6.774077831059536
+              ],
+              [
+                41.78367131562023,
+                -6.77411402923624
+              ],
+              [
+                41.78375170515111,
+                -6.774155184320891
+              ],
+              [
+                41.7838287771296,
+                -6.774201296313489
+              ],
+              [
+                41.7839025315557,
+                -6.774252365214035
+              ],
+              [
+                41.78397296842941,
+                -6.774308391022528
+              ],
+              [
+                41.78404008775075,
+                -6.774369373738965
+              ],
+              [
+                41.7841038895197,
+                -6.774435313363352
+              ],
+              [
+                41.784164373736274,
+                -6.774506209895685
+              ],
+              [
+                41.784206296505324,
+                -6.774565845279925
+              ],
+              [
+                41.78422965782686,
+                -6.774614219516073
+              ],
+              [
+                41.78423445770089,
+                -6.774651332604128
+              ],
+              [
+                41.78422069612739,
+                -6.774677184544089
+              ],
+              [
+                41.78418837310639,
+                -6.774691775335958
+              ],
+              [
+                41.78413748863787,
+                -6.774695104979733
+              ],
+              [
+                41.78406804272183,
+                -6.7746871734754155
+              ],
+              [
+                41.783980035358276,
+                -6.774667980823006
+              ],
+              [
+                41.783897776391875,
+                -6.774647163247447
+              ],
+              [
+                41.78382126582262,
+                -6.774624720748739
+              ],
+              [
+                41.783750503650516,
+                -6.774600653326884
+              ],
+              [
+                41.78368548987557,
+                -6.77457496098188
+              ],
+              [
+                41.78362622449777,
+                -6.774547643713729
+              ],
+              [
+                41.783572707517116,
+                -6.774518701522427
+              ],
+              [
+                41.78352493893362,
+                -6.774488134407979
+              ],
+              [
+                41.783482918747275,
+                -6.774455942370382
+              ],
+              [
+                41.78344396592143,
+                -6.774421430198599
+              ],
+              [
+                41.783408080456084,
+                -6.774384597892631
+              ],
+              [
+                41.78337526235126,
+                -6.774345445452477
+              ],
+              [
+                41.783345511606925,
+                -6.774303972878137
+              ],
+              [
+                41.7833188282231,
+                -6.774260180169611
+              ],
+              [
+                41.78329521219979,
+                -6.7742140673269
+              ],
+              [
+                41.78327466353697,
+                -6.774165634350003
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.78369442372269,
+    -6.774364569077505
+  ],
+  "centroDeMassa": [
+    41.783786033085434,
+    -6.774345796554491
+  ]
+}

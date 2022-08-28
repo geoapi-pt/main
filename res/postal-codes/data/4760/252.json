@@ -1,1 +1,575 @@
-{"CP4":"4760","CP3":"252","Distrito":"Braga","Concelho":"Vila Nova de Famalicão","CP":"4760-252","Artéria":"Rua João Gomes Barroso","Localidade":"Brufe","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BRUFE VNF","locais":[{"id":"pt.ine.add.PTCONT.469651","rua":"R DANIEL RODRIGUES","casa":"697","coordenadas":[41.41430424636822,-8.530506943846063]},{"id":"pt.ine.add.PTCONT.482023","rua":"R DANIEL RODRIGUES","casa":"582","coordenadas":[41.41450488818144,-8.529766594445581]},{"id":"pt.ine.add.PTCONT.499954","rua":"R DANIEL RODRIGUES","casa":"1423","coordenadas":[41.416100886481395,-8.534297613648045]},{"id":"pt.ine.add.PTCONT.505397","rua":"R DANIEL RODRIGUES","casa":"1429","coordenadas":[41.41604698902325,-8.534261398616913]},{"id":"pt.ine.add.PTCONT.520259","rua":"R DANIEL RODRIGUES","casa":"1082","coordenadas":[41.415152438745274,-8.53258136004914]},{"id":"pt.ine.add.PTCONT.521280","rua":"R DANIEL RODRIGUES","casa":"839","coordenadas":[41.41439906763393,-8.531727525816875]},{"id":"pt.ine.add.PTCONT.579179","rua":"R DANIEL RODRIGUES","casa":"654","coordenadas":[41.414673813930975,-8.530389587601778]},{"id":"pt.ine.add.PTCONT.608738","rua":"R DANIEL RODRIGUES","casa":"1447","coordenadas":[41.415984087790804,-8.534225128252078]},{"id":"pt.ine.add.PTCONT.623319","rua":"R JOÃO GOMES BARROSO","casa":"20","coordenadas":[41.41554665122375,-8.533145943981202]},{"id":"pt.ine.add.PTCONT.625751","rua":"R DANIEL RODRIGUES","casa":"767","coordenadas":[41.41449187885948,-8.53092671689051]},{"id":"pt.ine.add.PTCONT.627634","rua":"R DANIEL RODRIGUES","casa":"870","coordenadas":[41.41485921250758,-8.531455238122474]},{"id":"pt.ine.add.PTCONT.627635","rua":"R DANIEL RODRIGUES","casa":"711","coordenadas":[41.41435793845368,-8.530602957626753]},{"id":"pt.ine.add.PTCONT.640918","rua":"R JOÃO GOMES BARROSO","casa":"212","coordenadas":[41.41608845644666,-8.532694745279308]},{"id":"pt.ine.add.PTCONT.640923","rua":"R DANIEL RODRIGUES","casa":"651","coordenadas":[41.414323038588485,-8.530279802990373]},{"id":"pt.ine.add.PTCONT.643157","rua":"R DANIEL RODRIGUES","casa":"749","coordenadas":[41.414402378681565,-8.5307706800969]},{"id":"pt.ine.add.PTCONT.648979","rua":"R DANIEL RODRIGUES","casa":"802","coordenadas":[41.414689961754135,-8.530927925476416]},{"id":"pt.ine.add.PTCONT.682201","rua":"R DANIEL RODRIGUES","casa":"829","coordenadas":[41.414517483385396,-8.531333541866438]},{"id":"pt.ine.add.PTCONT.711711","rua":"R DANIEL RODRIGUES","casa":"763","coordenadas":[41.41451909692162,-8.530867078728436]},{"id":"pt.ine.add.PTCONT.726715","rua":"R DANIEL RODRIGUES","casa":"728","coordenadas":[41.4149796942294,-8.53046321698504]},{"id":"pt.ine.add.PTCONT.741566","rua":"R DANIEL RODRIGUES","casa":"958","coordenadas":[41.414920830217625,-8.531862285846069]},{"id":"pt.ine.add.PTCONT.761306","rua":"R DANIEL RODRIGUES","casa":"626","coordenadas":[41.4145402433536,-8.52995818313352]},{"id":"pt.ine.add.PTCONT.764993","rua":"R DANIEL RODRIGUES","casa":"671","coordenadas":[41.414295573046424,-8.530411204542329]},{"id":"pt.ine.add.PTCONT.774676","rua":"R DANIEL RODRIGUES","casa":"979","coordenadas":[41.41480282752633,-8.532136664814987]},{"id":"pt.ine.add.PTCONT.792502","rua":"R JOÃO GOMES BARROSO","casa":"134","coordenadas":[41.41593518474937,-8.53275361143151]},{"id":"pt.ine.add.PTCONT.792503","rua":"R DANIEL RODRIGUES","casa":"725","coordenadas":[41.41438461915237,-8.530698806853872]},{"id":"pt.ine.add.PTCONT.797581","rua":"R DANIEL RODRIGUES","casa":"700","coordenadas":[41.414584560699794,-8.530161787462031]},{"id":"pt.ine.add.PTCONT.814338","rua":"R DANIEL RODRIGUES","casa":"986","coordenadas":[41.41498319318531,-8.532054042143004]},{"id":"pt.ine.add.PTCONT.822850","rua":"R DANIEL RODRIGUES","casa":"754","coordenadas":[41.414672533065556,-8.530760366897937]},{"id":"pt.ine.add.PTCONT.837736","rua":"R DANIEL RODRIGUES","casa":"1030","coordenadas":[41.4150007029607,-8.53219768049115]},{"id":"pt.ine.add.PTCONT.837737","rua":"R DANIEL RODRIGUES","casa":"775","coordenadas":[41.41453673227094,-8.530974833955652]},{"id":"pt.ine.add.PTCONT.837739","rua":"R DANIEL RODRIGUES","casa":"569","coordenadas":[41.4142523289883,-8.529896626757857]},{"id":"pt.ine.add.PTCONT.845989","rua":"R DANIEL RODRIGUES","casa":"1017","coordenadas":[41.414856310768755,-8.532292483932538]}],"ruas":["R DANIEL RODRIGUES","R JOÃO GOMES BARROSO"],"centroide":[41.41486617865881,-8.531454519182267]}
+{
+  "CP": "4760-252",
+  "CP4": "4760",
+  "CP3": "252",
+  "Distrito": "Braga",
+  "Concelho": "Vila Nova de Famalicão",
+  "Localidade": "Brufe",
+  "Designação Postal": "BRUFE VNF",
+  "partes": [
+    {
+      "Artéria": "Rua Daniel Rodrigues",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua João Gomes Barroso",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.469651",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "697",
+      "coordenadas": [
+        41.41430424636822,
+        -8.530506943846063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.482023",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "582",
+      "coordenadas": [
+        41.41450488818144,
+        -8.529766594445581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.499954",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "1423",
+      "coordenadas": [
+        41.416100886481395,
+        -8.534297613648045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.505397",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "1429",
+      "coordenadas": [
+        41.41604698902325,
+        -8.534261398616913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.520259",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "1082",
+      "coordenadas": [
+        41.415152438745274,
+        -8.53258136004914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.521280",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "839",
+      "coordenadas": [
+        41.41439906763393,
+        -8.531727525816875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.579179",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "654",
+      "coordenadas": [
+        41.414673813930975,
+        -8.530389587601778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.608738",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "1447",
+      "coordenadas": [
+        41.415984087790804,
+        -8.534225128252078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.623319",
+      "rua": "R JOÃO GOMES BARROSO",
+      "casa": "20",
+      "coordenadas": [
+        41.41554665122375,
+        -8.533145943981202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.625751",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "767",
+      "coordenadas": [
+        41.41449187885948,
+        -8.53092671689051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.627634",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "870",
+      "coordenadas": [
+        41.41485921250758,
+        -8.531455238122474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.627635",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "711",
+      "coordenadas": [
+        41.41435793845368,
+        -8.530602957626753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.640918",
+      "rua": "R JOÃO GOMES BARROSO",
+      "casa": "212",
+      "coordenadas": [
+        41.41608845644666,
+        -8.532694745279308
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.640923",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "651",
+      "coordenadas": [
+        41.414323038588485,
+        -8.530279802990373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.643157",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "749",
+      "coordenadas": [
+        41.414402378681565,
+        -8.5307706800969
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.648979",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "802",
+      "coordenadas": [
+        41.414689961754135,
+        -8.530927925476416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.682201",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "829",
+      "coordenadas": [
+        41.414517483385396,
+        -8.531333541866438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.711711",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "763",
+      "coordenadas": [
+        41.41451909692162,
+        -8.530867078728436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.726715",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "728",
+      "coordenadas": [
+        41.4149796942294,
+        -8.53046321698504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.741566",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "958",
+      "coordenadas": [
+        41.414920830217625,
+        -8.531862285846069
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.761306",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "626",
+      "coordenadas": [
+        41.4145402433536,
+        -8.52995818313352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.764993",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "671",
+      "coordenadas": [
+        41.414295573046424,
+        -8.530411204542329
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.774676",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "979",
+      "coordenadas": [
+        41.41480282752633,
+        -8.532136664814987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.792502",
+      "rua": "R JOÃO GOMES BARROSO",
+      "casa": "134",
+      "coordenadas": [
+        41.41593518474937,
+        -8.53275361143151
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.792503",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "725",
+      "coordenadas": [
+        41.41438461915237,
+        -8.530698806853872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.797581",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "700",
+      "coordenadas": [
+        41.414584560699794,
+        -8.530161787462031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.814338",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "986",
+      "coordenadas": [
+        41.41498319318531,
+        -8.532054042143004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.822850",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "754",
+      "coordenadas": [
+        41.414672533065556,
+        -8.530760366897937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.837736",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "1030",
+      "coordenadas": [
+        41.4150007029607,
+        -8.53219768049115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.837737",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "775",
+      "coordenadas": [
+        41.41453673227094,
+        -8.530974833955652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.837739",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "569",
+      "coordenadas": [
+        41.4142523289883,
+        -8.529896626757857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.845989",
+      "rua": "R DANIEL RODRIGUES",
+      "casa": "1017",
+      "coordenadas": [
+        41.414856310768755,
+        -8.532292483932538
+      ]
+    }
+  ],
+  "ruas": [
+    "R DANIEL RODRIGUES",
+    "R JOÃO GOMES BARROSO"
+  ],
+  "centro": [
+    41.41517660773485,
+    -8.532032104046813
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.41433486947647,
+                -8.530926507478554
+              ],
+              [
+                41.414316527145765,
+                -8.530697645096176
+              ],
+              [
+                41.41430442384379,
+                -8.530495358756717
+              ],
+              [
+                41.414298559570554,
+                -8.530319648460177
+              ],
+              [
+                41.41429893432604,
+                -8.530170514206553
+              ],
+              [
+                41.41430554811025,
+                -8.530047955995846
+              ],
+              [
+                41.4143184009232,
+                -8.529951973828059
+              ],
+              [
+                41.414337492764886,
+                -8.529882567703188
+              ],
+              [
+                41.4143628236353,
+                -8.529839737621236
+              ],
+              [
+                41.41439439353444,
+                -8.529823483582202
+              ],
+              [
+                41.41442943604069,
+                -8.529820146025225
+              ],
+              [
+                41.414467951154045,
+                -8.529829724950309
+              ],
+              [
+                41.41450993887451,
+                -8.52985222035745
+              ],
+              [
+                41.41455539920208,
+                -8.529887632246647
+              ],
+              [
+                41.414604332136754,
+                -8.529935960617905
+              ],
+              [
+                41.414656737678534,
+                -8.52999720547122
+              ],
+              [
+                41.414712615827426,
+                -8.530071366806595
+              ],
+              [
+                41.414771966583416,
+                -8.530158444624028
+              ],
+              [
+                41.414841222904556,
+                -8.53026950534388
+              ],
+              [
+                41.41492038479085,
+                -8.53040454896615
+              ],
+              [
+                41.41500945224227,
+                -8.530563575490838
+              ],
+              [
+                41.41510842525885,
+                -8.530746584917946
+              ],
+              [
+                41.41521730384057,
+                -8.530953577247473
+              ],
+              [
+                41.41533608798744,
+                -8.531184552479418
+              ],
+              [
+                41.41546477769945,
+                -8.531439510613783
+              ],
+              [
+                41.41560337297661,
+                -8.531718451650566
+              ],
+              [
+                41.41572483806341,
+                -8.531987569876012
+              ],
+              [
+                41.41582917295987,
+                -8.532246865290123
+              ],
+              [
+                41.415916377665965,
+                -8.532496337892898
+              ],
+              [
+                41.41598645218171,
+                -8.532735987684337
+              ],
+              [
+                41.41603939650711,
+                -8.532965814664436
+              ],
+              [
+                41.416075210642155,
+                -8.533185818833202
+              ],
+              [
+                41.41609389458685,
+                -8.53339600019063
+              ],
+              [
+                41.416095448341196,
+                -8.533596358736723
+              ],
+              [
+                41.41609498289671,
+                -8.53377053988024
+              ],
+              [
+                41.41609249825338,
+                -8.533918543621187
+              ],
+              [
+                41.41608799441123,
+                -8.534040369959559
+              ],
+              [
+                41.416081471370234,
+                -8.534136018895357
+              ],
+              [
+                41.416072929130415,
+                -8.534205490428581
+              ],
+              [
+                41.41606236769175,
+                -8.534248784559232
+              ],
+              [
+                41.41604978705426,
+                -8.53426590128731
+              ],
+              [
+                41.416035187217936,
+                -8.534256840612814
+              ],
+              [
+                41.415997646421204,
+                -8.534209887484579
+              ],
+              [
+                41.41593716466406,
+                -8.534125041902609
+              ],
+              [
+                41.4158537419465,
+                -8.534002303866899
+              ],
+              [
+                41.415747378268534,
+                -8.533841673377449
+              ],
+              [
+                41.41561807363016,
+                -8.533643150434264
+              ],
+              [
+                41.415465828031365,
+                -8.533406735037339
+              ],
+              [
+                41.41529064147217,
+                -8.533132427186677
+              ],
+              [
+                41.415092513952565,
+                -8.532820226882276
+              ],
+              [
+                41.41491685958157,
+                -8.532518443818129
+              ],
+              [
+                41.414763678359186,
+                -8.532227077994234
+              ],
+              [
+                41.41463297028542,
+                -8.531946129410592
+              ],
+              [
+                41.41452473536026,
+                -8.531675598067203
+              ],
+              [
+                41.41443897358372,
+                -8.531415483964066
+              ],
+              [
+                41.414375684955786,
+                -8.531165787101184
+              ],
+              [
+                41.41433486947647,
+                -8.530926507478554
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.41518705853599,
+    -8.531867350169254
+  ],
+  "centroDeMassa": [
+    41.41517660773485,
+    -8.532032104046813
+  ]
+}

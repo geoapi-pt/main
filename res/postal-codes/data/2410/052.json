@@ -1,1 +1,328 @@
-{"CP4":"2410","CP3":"052","Distrito":"Leiria","Concelho":"Leiria","CP":"2410-052","Artéria":"Rua Poeta José Marques da Cruz","Localidade":"Leiria","Local":"","Troço":"Pares de 200 a 276","Porta":"","Cliente":"","Designação Postal":"LEIRIA","locais":[{"id":"pt.ine.add.PTCONT.1987043","rua":"R POETA JOSE MARQUES CRUZ","casa":"101","coordenadas":[39.72415824711534,-8.810635050187706]},{"id":"pt.ine.add.PTCONT.2044061","rua":"R POETA JOSE MARQUES DA CRUZ","casa":"","coordenadas":[39.724222377978684,-8.810449061731303]},{"id":"pt.ine.add.PTCONT.2074491","rua":"R POETA JOSE MARQUES DA CRUZ","casa":"103","coordenadas":[39.72411929528044,-8.811136199029077]},{"id":"pt.ine.add.PTCONT.2095508","rua":"R POETA JOSE MARQUES DA CRUZ","casa":"99","coordenadas":[39.72426836049384,-8.810286222435366]},{"id":"pt.ine.add.PTCONT.2097750","rua":"R POETA JOSE MARQUES DA CRUZ","casa":"97","coordenadas":[39.72449561880379,-8.80992687537326]},{"id":"pt.ine.add.PTCONT.2122753","rua":"R POETA JOSE MARQUES DA CRUZ","casa":"98","coordenadas":[39.72435084283844,-8.810042095181366]},{"id":"pt.ine.add.PTCONT.2229117","rua":"R POETA JOSE MARQUES DA CRUZ","casa":"102","coordenadas":[39.72416595967887,-8.810856732133646]}],"ruas":["R POETA JOSE MARQUES CRUZ","R POETA JOSE MARQUES DA CRUZ"],"centroide":[39.72426912375175,-8.81041258398968]}
+{
+  "CP": "2410-052",
+  "CP4": "2410",
+  "CP3": "052",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Leiria",
+  "Designação Postal": "LEIRIA",
+  "partes": [
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 100",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 101",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 102",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 103",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 97",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 98",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "LT 99",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Poeta José Marques da Cruz",
+      "Local": "",
+      "Troço": "Pares de 200 a 276",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1987043",
+      "rua": "R POETA JOSE MARQUES CRUZ",
+      "casa": "101",
+      "coordenadas": [
+        39.72415824711534,
+        -8.810635050187706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2044061",
+      "rua": "R POETA JOSE MARQUES DA CRUZ",
+      "casa": "",
+      "coordenadas": [
+        39.724222377978684,
+        -8.810449061731303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2074491",
+      "rua": "R POETA JOSE MARQUES DA CRUZ",
+      "casa": "103",
+      "coordenadas": [
+        39.72411929528044,
+        -8.811136199029077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2095508",
+      "rua": "R POETA JOSE MARQUES DA CRUZ",
+      "casa": "99",
+      "coordenadas": [
+        39.72426836049384,
+        -8.810286222435366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2097750",
+      "rua": "R POETA JOSE MARQUES DA CRUZ",
+      "casa": "97",
+      "coordenadas": [
+        39.72449561880379,
+        -8.80992687537326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2122753",
+      "rua": "R POETA JOSE MARQUES DA CRUZ",
+      "casa": "98",
+      "coordenadas": [
+        39.72435084283844,
+        -8.810042095181366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2229117",
+      "rua": "R POETA JOSE MARQUES DA CRUZ",
+      "casa": "102",
+      "coordenadas": [
+        39.72416595967887,
+        -8.810856732133646
+      ]
+    }
+  ],
+  "ruas": [
+    "R POETA JOSE MARQUES CRUZ",
+    "R POETA JOSE MARQUES DA CRUZ"
+  ],
+  "centro": [
+    39.724307457042116,
+    -8.810531537201168
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.724330977262326,
+                -8.81045595447268
+              ],
+              [
+                39.724283936821905,
+                -8.810607119929657
+              ],
+              [
+                39.724243385058955,
+                -8.810731559253865
+              ],
+              [
+                39.72420932197349,
+                -8.810829272445305
+              ],
+              [
+                39.72418174756548,
+                -8.810900259503978
+              ],
+              [
+                39.72416066183496,
+                -8.810944520429878
+              ],
+              [
+                39.7241460647819,
+                -8.810962055223014
+              ],
+              [
+                39.72413795640632,
+                -8.81095286388338
+              ],
+              [
+                39.724136336708206,
+                -8.810916946410977
+              ],
+              [
+                39.72414120568757,
+                -8.810854302805806
+              ],
+              [
+                39.72414718656605,
+                -8.810794039217651
+              ],
+              [
+                39.72415427934366,
+                -8.810736155646511
+              ],
+              [
+                39.724162484020376,
+                -8.810680652092389
+              ],
+              [
+                39.7241718005962,
+                -8.810627528555282
+              ],
+              [
+                39.72418222907116,
+                -8.81057678503519
+              ],
+              [
+                39.724193769445236,
+                -8.810528421532116
+              ],
+              [
+                39.72420642171843,
+                -8.810482438046057
+              ],
+              [
+                39.72422018589075,
+                -8.810438834577015
+              ],
+              [
+                39.724233518328155,
+                -8.81039686705326
+              ],
+              [
+                39.724246419030656,
+                -8.810356535474789
+              ],
+              [
+                39.72425888799825,
+                -8.810317839841606
+              ],
+              [
+                39.72427092523095,
+                -8.810280780153711
+              ],
+              [
+                39.724282530728736,
+                -8.810245356411102
+              ],
+              [
+                39.72429370449162,
+                -8.810211568613777
+              ],
+              [
+                39.724304446519604,
+                -8.810179416761741
+              ],
+              [
+                39.724314756812674,
+                -8.81014890085499
+              ],
+              [
+                39.72432604044357,
+                -8.810120399127083
+              ],
+              [
+                39.7243382974123,
+                -8.810093911578015
+              ],
+              [
+                39.724351527718845,
+                -8.810069438207792
+              ],
+              [
+                39.72436573136322,
+                -8.81004697901641
+              ],
+              [
+                39.72438090834542,
+                -8.810026534003871
+              ],
+              [
+                39.72439705866544,
+                -8.810008103170174
+              ],
+              [
+                39.72441418232328,
+                -8.80999168651532
+              ],
+              [
+                39.724432279318954,
+                -8.809977284039306
+              ],
+              [
+                39.72444223413511,
+                -8.809983577554917
+              ],
+              [
+                39.72444404677176,
+                -8.81001056706215
+              ],
+              [
+                39.724437717228895,
+                -8.810058252561008
+              ],
+              [
+                39.72442324550652,
+                -8.81012663405149
+              ],
+              [
+                39.72440063160464,
+                -8.810215711533598
+              ],
+              [
+                39.72436987552324,
+                -8.810325485007326
+              ],
+              [
+                39.724330977262326,
+                -8.81045595447268
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.72427847290637,
+    -8.810405288441356
+  ],
+  "centroDeMassa": [
+    39.724307457042116,
+    -8.810531537201168
+  ]
+}

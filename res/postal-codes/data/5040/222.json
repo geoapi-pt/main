@@ -1,1 +1,433 @@
-{"CP4":"5040","CP3":"222","Distrito":"Vila Real","Concelho":"Mesão Frio","CP":"5040-222","Artéria":"Rua da Senhora da Piedade","Localidade":"Oliveira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLIVEIRA MSF","locais":[{"id":"pt.ine.add.PTCONT.5296173","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17556273949172,-7.825022189513791]},{"id":"pt.ine.add.PTCONT.5300287","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.177184647501655,-7.825443622857705]},{"id":"pt.ine.add.PTCONT.5300308","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17631488994969,-7.826818196477091]},{"id":"pt.ine.add.PTCONT.5312808","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.176475125930146,-7.826126237721846]},{"id":"pt.ine.add.PTCONT.5324654","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17664601569068,-7.826053934962349]},{"id":"pt.ine.add.PTCONT.5325208","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.176297261692376,-7.8269612876563555]},{"id":"pt.ine.add.PTCONT.5330957","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17725655397922,-7.825395616004631]},{"id":"pt.ine.add.PTCONT.5342455","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.176207346080275,-7.827009375929198]},{"id":"pt.ine.add.PTCONT.5342456","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.176207346080275,-7.827009375929198]},{"id":"pt.ine.add.PTCONT.5342497","rua":"R SENHORA DA PIEDADE","casa":"","coordenadas":[41.17904285412737,-7.826686308931982]},{"id":"pt.ine.add.PTCONT.5353980","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17637776109156,-7.826758316426229]},{"id":"pt.ine.add.PTCONT.5362860","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17583763402417,-7.826808502277596]},{"id":"pt.ine.add.PTCONT.5367106","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17666469105492,-7.826304115006515]},{"id":"pt.ine.add.PTCONT.5398105","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17625119455356,-7.826568227500053]},{"id":"pt.ine.add.PTCONT.5408145","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.176556386305904,-7.82620928061592]},{"id":"pt.ine.add.PTCONT.5411594","rua":"CAM DO MONTE","casa":"81","coordenadas":[41.177869350710296,-7.825583431367253]},{"id":"pt.ine.add.PTCONT.5417001","rua":"LUGAR DA SENHORA DA PIEDADE","casa":"","coordenadas":[41.17659256197992,-7.826268699141512]},{"id":"pt.ine.add.PTCONT.5422047","rua":"CAM MONTE","casa":"","coordenadas":[41.18034234284327,-7.827764804354505]}],"ruas":["LUGAR DA SENHORA DA PIEDADE","R SENHORA DA PIEDADE","CAM DO MONTE","CAM MONTE"],"centroide":[41.17666731530845,-7.826295689312895]}]}5]}
+{
+  "CP": "5040-222",
+  "CP4": "5040",
+  "CP3": "222",
+  "Distrito": "Vila Real",
+  "Concelho": "Mesão Frio",
+  "Localidade": "Oliveira",
+  "Designação Postal": "OLIVEIRA MSF",
+  "partes": [
+    {
+      "Artéria": "Caminho do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Calçada da Senhora da Piedade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo da Senhora da Piedade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Senhora da Piedade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5296173",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17556273949172,
+        -7.825022189513791
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5300287",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.177184647501655,
+        -7.825443622857705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5300308",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17631488994969,
+        -7.826818196477091
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5312808",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.176475125930146,
+        -7.826126237721846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5324654",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17664601569068,
+        -7.826053934962349
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5325208",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.176297261692376,
+        -7.8269612876563555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5330957",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17725655397922,
+        -7.825395616004631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5342455",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.176207346080275,
+        -7.827009375929198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5342456",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.176207346080275,
+        -7.827009375929198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5342497",
+      "rua": "R SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17904285412737,
+        -7.826686308931982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5353980",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17637776109156,
+        -7.826758316426229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5362860",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17583763402417,
+        -7.826808502277596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5367106",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17666469105492,
+        -7.826304115006515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5398105",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17625119455356,
+        -7.826568227500053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5408145",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.176556386305904,
+        -7.82620928061592
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5411594",
+      "rua": "CAM DO MONTE",
+      "casa": "81",
+      "coordenadas": [
+        41.177869350710296,
+        -7.825583431367253
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5417001",
+      "rua": "LUGAR DA SENHORA DA PIEDADE",
+      "casa": "",
+      "coordenadas": [
+        41.17659256197992,
+        -7.826268699141512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5422047",
+      "rua": "CAM MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.18034234284327,
+        -7.827764804354505
+      ]
+    }
+  ],
+  "ruas": [
+    "LUGAR DA SENHORA DA PIEDADE",
+    "R SENHORA DA PIEDADE",
+    "CAM DO MONTE",
+    "CAM MONTE"
+  ],
+  "centro": [
+    41.17795254116749,
+    -7.826393496934148
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.17571736766622,
+                -7.826026990443432
+              ],
+              [
+                41.17568300584966,
+                -7.825803701347956
+              ],
+              [
+                41.17567940511155,
+                -7.825614158178334
+              ],
+              [
+                41.17570656545186,
+                -7.825458360934566
+              ],
+              [
+                41.17576448687062,
+                -7.8253363096166515
+              ],
+              [
+                41.175853169367805,
+                -7.8252480042245915
+              ],
+              [
+                41.17597261294343,
+                -7.825193444758384
+              ],
+              [
+                41.1761228175975,
+                -7.825172631218032
+              ],
+              [
+                41.17630378333,
+                -7.825185563603533
+              ],
+              [
+                41.17651551014094,
+                -7.825232241914889
+              ],
+              [
+                41.17671034604943,
+                -7.825276020052366
+              ],
+              [
+                41.17688829105548,
+                -7.825316898015963
+              ],
+              [
+                41.177049345159084,
+                -7.825354875805683
+              ],
+              [
+                41.17719350836025,
+                -7.825389953421524
+              ],
+              [
+                41.17732078065896,
+                -7.825422130863487
+              ],
+              [
+                41.17743116205524,
+                -7.825451408131572
+              ],
+              [
+                41.17752465254907,
+                -7.825477785225779
+              ],
+              [
+                41.17760125214045,
+                -7.825501262146105
+              ],
+              [
+                41.177706917284986,
+                -7.825555888404318
+              ],
+              [
+                41.17784164798268,
+                -7.8256416640004165
+              ],
+              [
+                41.178005444233534,
+                -7.825758588934399
+              ],
+              [
+                41.17819830603753,
+                -7.825906663206265
+              ],
+              [
+                41.17842023339469,
+                -7.826085886816017
+              ],
+              [
+                41.178671226305,
+                -7.826296259763654
+              ],
+              [
+                41.178951284768466,
+                -7.826537782049176
+              ],
+              [
+                41.17926040878509,
+                -7.826810453672582
+              ],
+              [
+                41.17946628297521,
+                -7.827037237773918
+              ],
+              [
+                41.17956890733884,
+                -7.827218134353181
+              ],
+              [
+                41.179568281875966,
+                -7.827353143410374
+              ],
+              [
+                41.17946440658658,
+                -7.827442264945496
+              ],
+              [
+                41.17925728147071,
+                -7.827485498958547
+              ],
+              [
+                41.17894690652833,
+                -7.827482845449524
+              ],
+              [
+                41.17853328175946,
+                -7.827434304418433
+              ],
+              [
+                41.17801640716408,
+                -7.82733987586527
+              ],
+              [
+                41.17755836514225,
+                -7.827254112230446
+              ],
+              [
+                41.17715915569397,
+                -7.827177013513961
+              ],
+              [
+                41.17681877881923,
+                -7.827108579715815
+              ],
+              [
+                41.17653723451804,
+                -7.827048810836009
+              ],
+              [
+                41.17631452279039,
+                -7.826997706874541
+              ],
+              [
+                41.176150643636284,
+                -7.826955267831411
+              ],
+              [
+                41.176045597055726,
+                -7.826921493706622
+              ],
+              [
+                41.17599938304872,
+                -7.826896384500173
+              ],
+              [
+                41.175954650565515,
+                -7.826846502807594
+              ],
+              [
+                41.175911399606115,
+                -7.826771848628886
+              ],
+              [
+                41.175869630170524,
+                -7.8266724219640516
+              ],
+              [
+                41.17582934225874,
+                -7.82654822281309
+              ],
+              [
+                41.17579053587076,
+                -7.826399251175998
+              ],
+              [
+                41.17575321100658,
+                -7.826225507052779
+              ],
+              [
+                41.17571736766622,
+                -7.826026990443432
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.17717932785482,
+    -7.826263986574496
+  ],
+  "centroDeMassa": [
+    41.17795254116749,
+    -7.826393496934148
+  ]
+}

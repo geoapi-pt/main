@@ -1,1 +1,469 @@
-{"CP4":"4490","CP3":"077","Distrito":"Porto","Concelho":"Póvoa de Varzim","CP":"4490-077","Artéria":"Rua do Padre Avelino Sampaio","Localidade":"Póvoa de Varzim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PÓVOA DE VARZIM","locais":[{"id":"pt.ine.add.PTCONT.3588195","rua":"R PADRE AVELINO SAMPAIO","casa":"231","coordenadas":[41.40330636472099,-8.773083228051984]},{"id":"pt.ine.add.PTCONT.3677582","rua":"R PADRE AVELINO SAMPAIO","casa":"220","coordenadas":[41.403522646816484,-8.773049473854899]},{"id":"pt.ine.add.PTCONT.3691075","rua":"R PADRE AVELINO SAMPAIO","casa":"203","coordenadas":[41.40342473944566,-8.772845214456709]},{"id":"pt.ine.add.PTCONT.3730845","rua":"R PADRE AVELINO SAMPAIO","casa":"271","coordenadas":[41.40312383412362,-8.773523908934838]},{"id":"pt.ine.add.PTCONT.3743079","rua":"R PADRE AVELINO SAMPAIO","casa":"236","coordenadas":[41.403458092702955,-8.773323891955556]},{"id":"pt.ine.add.PTCONT.3816319","rua":"R PADRE AVELINO SAMPAIO","casa":"245","coordenadas":[41.403251479316225,-8.773238152907208]},{"id":"pt.ine.add.PTCONT.3871175","rua":"R SILVEIRA CAMPOS","casa":"135","coordenadas":[41.40371417905344,-8.77260887721606]},{"id":"pt.ine.add.PTCONT.4027614","rua":"R PADRE AVELINO SAMPAIO","casa":"237","coordenadas":[41.40327888878424,-8.77316666954919]},{"id":"pt.ine.add.PTCONT.4047031","rua":"R PADRE AVELINO SAMPAIO","casa":"","coordenadas":[41.40366208532549,-8.772261561352803]},{"id":"pt.ine.add.PTCONT.4047032","rua":"R PADRE AVELINO SAMPAIO","casa":"","coordenadas":[41.40366208532549,-8.772261561352803]},{"id":"pt.ine.add.PTCONT.4047033","rua":"R PADRE AVELINO SAMPAIO","casa":"","coordenadas":[41.40366208532549,-8.772261561352803]},{"id":"pt.ine.add.PTCONT.4048652","rua":"R PADRE AVELINO SAMPAIO","casa":"","coordenadas":[41.40366208532549,-8.772261561352803]},{"id":"pt.ine.add.PTCONT.4054372","rua":"R PADRE AVELINO SAMPAIO","casa":"259","coordenadas":[41.40316057994446,-8.7733927239725]},{"id":"pt.ine.add.PTCONT.4060612","rua":"R PADRE AVELINO SAMPAIO","casa":"250","coordenadas":[41.40341260971264,-8.773407156773425]},{"id":"pt.ine.add.PTCONT.4132172","rua":"R PADRE AVELINO SAMPAIO","casa":"127","coordenadas":[41.403689826275105,-8.77213028637319]},{"id":"pt.ine.add.PTCONT.4136881","rua":"R PADRE AVELINO SAMPAIO","casa":"258","coordenadas":[41.403366860433955,-8.773538253830084]},{"id":"pt.ine.add.PTCONT.4151963","rua":"R PADRE AVELINO SAMPAIO","casa":"283","coordenadas":[41.403078284422925,-8.773619131223303]},{"id":"pt.ine.add.PTCONT.4208943","rua":"R PADRE AVELINO SAMPAIO","casa":"251","coordenadas":[41.40320606292407,-8.773309459463945]},{"id":"pt.ine.add.PTCONT.4249652","rua":"R PADRE AVELINO SAMPAIO","casa":"178","coordenadas":[41.403658961868295,-8.77282359416318]},{"id":"pt.ine.add.PTCONT.4249653","rua":"R PADRE AVELINO SAMPAIO","casa":"223","coordenadas":[41.40336992086214,-8.772988181705632]},{"id":"pt.ine.add.PTCONT.4249978","rua":"R PADRE AVELINO SAMPAIO","casa":"109","coordenadas":[41.40378112232847,-8.771903963271816]}],"ruas":["R PADRE AVELINO SAMPAIO","R SILVEIRA CAMPOS"],"centroide":[41.403433583635454,-8.772954722492148]}
+{
+  "CP": "4490-077",
+  "CP4": "4490",
+  "CP3": "077",
+  "Distrito": "Porto",
+  "Concelho": "Póvoa de Varzim",
+  "Localidade": "Póvoa de Varzim",
+  "Designação Postal": "PÓVOA DE VARZIM",
+  "partes": [
+    {
+      "Artéria": "Rua do Padre Avelino Sampaio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3588195",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "231",
+      "coordenadas": [
+        41.40330636472099,
+        -8.773083228051984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3677582",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "220",
+      "coordenadas": [
+        41.403522646816484,
+        -8.773049473854899
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691075",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "203",
+      "coordenadas": [
+        41.40342473944566,
+        -8.772845214456709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3730845",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "271",
+      "coordenadas": [
+        41.40312383412362,
+        -8.773523908934838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3743079",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "236",
+      "coordenadas": [
+        41.403458092702955,
+        -8.773323891955556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3816319",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "245",
+      "coordenadas": [
+        41.403251479316225,
+        -8.773238152907208
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3871175",
+      "rua": "R SILVEIRA CAMPOS",
+      "casa": "135",
+      "coordenadas": [
+        41.40371417905344,
+        -8.77260887721606
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4027614",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "237",
+      "coordenadas": [
+        41.40327888878424,
+        -8.77316666954919
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4047031",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "",
+      "coordenadas": [
+        41.40366208532549,
+        -8.772261561352803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4047032",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "",
+      "coordenadas": [
+        41.40366208532549,
+        -8.772261561352803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4047033",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "",
+      "coordenadas": [
+        41.40366208532549,
+        -8.772261561352803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4048652",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "",
+      "coordenadas": [
+        41.40366208532549,
+        -8.772261561352803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4054372",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "259",
+      "coordenadas": [
+        41.40316057994446,
+        -8.7733927239725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4060612",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "250",
+      "coordenadas": [
+        41.40341260971264,
+        -8.773407156773425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4132172",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "127",
+      "coordenadas": [
+        41.403689826275105,
+        -8.77213028637319
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4136881",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "258",
+      "coordenadas": [
+        41.403366860433955,
+        -8.773538253830084
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4151963",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "283",
+      "coordenadas": [
+        41.403078284422925,
+        -8.773619131223303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4208943",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "251",
+      "coordenadas": [
+        41.40320606292407,
+        -8.773309459463945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4249652",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "178",
+      "coordenadas": [
+        41.403658961868295,
+        -8.77282359416318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4249653",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "223",
+      "coordenadas": [
+        41.40336992086214,
+        -8.772988181705632
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4249978",
+      "rua": "R PADRE AVELINO SAMPAIO",
+      "casa": "109",
+      "coordenadas": [
+        41.40378112232847,
+        -8.771903963271816
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE AVELINO SAMPAIO",
+    "R SILVEIRA CAMPOS"
+  ],
+  "centro": [
+    41.40342970337569,
+    -8.772761547247558
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.40324060842913,
+                -8.77357363768962
+              ],
+              [
+                41.40320453642775,
+                -8.77358374736377
+              ],
+              [
+                41.40317425929407,
+                -8.773589055715359
+              ],
+              [
+                41.403149777028084,
+                -8.773589562744386
+              ],
+              [
+                41.403131089629795,
+                -8.773585268450848
+              ],
+              [
+                41.4031181970992,
+                -8.773576172834751
+              ],
+              [
+                41.4031110994363,
+                -8.773562275896088
+              ],
+              [
+                41.403109796641104,
+                -8.773543577634863
+              ],
+              [
+                41.403114288713596,
+                -8.773520078051074
+              ],
+              [
+                41.40312457565379,
+                -8.773491777144727
+              ],
+              [
+                41.40314327270121,
+                -8.773443751965722
+              ],
+              [
+                41.40317037985585,
+                -8.773376002514063
+              ],
+              [
+                41.40320589711772,
+                -8.773288528789749
+              ],
+              [
+                41.40324982448682,
+                -8.77318133079278
+              ],
+              [
+                41.40330216196314,
+                -8.773054408523159
+              ],
+              [
+                41.40336290954669,
+                -8.772907761980882
+              ],
+              [
+                41.40343206723747,
+                -8.772741391165951
+              ],
+              [
+                41.40350963503546,
+                -8.772555296078364
+              ],
+              [
+                41.40357646087004,
+                -8.772403477157106
+              ],
+              [
+                41.4036325447412,
+                -8.772285934402175
+              ],
+              [
+                41.403677886648936,
+                -8.77220266781357
+              ],
+              [
+                41.403712486593236,
+                -8.772153677391293
+              ],
+              [
+                41.40373634457413,
+                -8.772138963135342
+              ],
+              [
+                41.4037494605916,
+                -8.772158525045718
+              ],
+              [
+                41.40375183464565,
+                -8.772212363122422
+              ],
+              [
+                41.40374346673626,
+                -8.772300477365453
+              ],
+              [
+                41.40373528204704,
+                -8.772380932280404
+              ],
+              [
+                41.40372728057797,
+                -8.772453727867275
+              ],
+              [
+                41.40371946232905,
+                -8.772518864126065
+              ],
+              [
+                41.4037118273003,
+                -8.772576341056775
+              ],
+              [
+                41.403704375491685,
+                -8.772626158659405
+              ],
+              [
+                41.40369710690324,
+                -8.772668316933954
+              ],
+              [
+                41.403690021534935,
+                -8.772702815880425
+              ],
+              [
+                41.40368311938679,
+                -8.772729655498814
+              ],
+              [
+                41.40367394142646,
+                -8.772760957317914
+              ],
+              [
+                41.40366248765393,
+                -8.772796721337716
+              ],
+              [
+                41.403648758069224,
+                -8.772836947558229
+              ],
+              [
+                41.40363275267231,
+                -8.772881635979445
+              ],
+              [
+                41.403614471463214,
+                -8.772930786601371
+              ],
+              [
+                41.403593914441934,
+                -8.772984399424004
+              ],
+              [
+                41.40357108160846,
+                -8.773042474447344
+              ],
+              [
+                41.40354597296279,
+                -8.77310501167139
+              ],
+              [
+                41.40352257739363,
+                -8.77316308114672
+              ],
+              [
+                41.40350089490098,
+                -8.773216682873336
+              ],
+              [
+                41.40348092548483,
+                -8.773265816851234
+              ],
+              [
+                41.40346266914517,
+                -8.773310483080415
+              ],
+              [
+                41.40344612588203,
+                -8.773350681560881
+              ],
+              [
+                41.4034312956954,
+                -8.773386412292629
+              ],
+              [
+                41.40341817858527,
+                -8.773417675275661
+              ],
+              [
+                41.40340677455164,
+                -8.773444470509979
+              ],
+              [
+                41.40339228702205,
+                -8.773469180049274
+              ],
+              [
+                41.403374715996485,
+                -8.77349180389355
+              ],
+              [
+                41.40335406147495,
+                -8.773512342042805
+              ],
+              [
+                41.40333032345745,
+                -8.773530794497038
+              ],
+              [
+                41.40330350194398,
+                -8.773547161256252
+              ],
+              [
+                41.40327359693454,
+                -8.773561442320446
+              ],
+              [
+                41.40324060842913,
+                -8.77357363768962
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.403459725822074,
+    -8.773030062233214
+  ],
+  "centroDeMassa": [
+    41.40342970337569,
+    -8.772761547247558
+  ]
+}

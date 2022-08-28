@@ -1,1 +1,332 @@
-{"CP4":"5030","CP3":"107","Distrito":"Vila Real","Concelho":"Santa Marta de Penaguião","CP":"5030-107","Artéria":"Rua do Calvário","Localidade":"Fontes","Local":"Barreiro","Troço":"","Porta":"","Cliente":"","Designação Postal":"FONTES SMP","locais":[{"id":"pt.ine.add.PTCONT.5296875","rua":"R BARREIRO","casa":"5","coordenadas":[41.22766126802909,-7.8182299826016965]},{"id":"pt.ine.add.PTCONT.5305420","rua":"R BARREIRO","casa":"","coordenadas":[41.22687575702441,-7.820750263627164]},{"id":"pt.ine.add.PTCONT.5338584","rua":"R BARREIRO","casa":"","coordenadas":[41.2272635820742,-7.820986951359182]},{"id":"pt.ine.add.PTCONT.5346259","rua":"R BARREIRO","casa":"","coordenadas":[41.22603811254504,-7.820658838314805]},{"id":"pt.ine.add.PTCONT.5352406","rua":"R BARREIRO","casa":"","coordenadas":[41.227116471570426,-7.819866546418749]},{"id":"pt.ine.add.PTCONT.5366820","rua":"R CALVÁRIO","casa":"","coordenadas":[41.22952769795792,-7.819163267365866]},{"id":"pt.ine.add.PTCONT.5373152","rua":"R BARREIRO","casa":"","coordenadas":[41.22509144647291,-7.820210146100178]},{"id":"pt.ine.add.PTCONT.5375177","rua":"R BARREIRO","casa":"","coordenadas":[41.227441074860046,-7.820031971071185]},{"id":"pt.ine.add.PTCONT.5380149","rua":"R BARREIRO","casa":"3","coordenadas":[41.227760052654446,-7.818134094594252]},{"id":"pt.ine.add.PTCONT.5390248","rua":"R BARREIRO","casa":"","coordenadas":[41.227120323526144,-7.82128579873278]},{"id":"pt.ine.add.PTCONT.5403093","rua":"R BARREIRO","casa":"","coordenadas":[41.22621842197865,-7.820741465355981]},{"id":"pt.ine.add.PTCONT.5418367","rua":"R CALVÁRIO","casa":"","coordenadas":[41.231651144922566,-7.818592518046959]},{"id":"pt.ine.add.PTCONT.5420425","rua":"R BARREIRO","casa":"","coordenadas":[41.226597307588044,-7.821002046300369]},{"id":"pt.ine.add.PTCONT.5421542","rua":"ESTR BARREIRO","casa":"","coordenadas":[41.226503767835354,-7.819714425588069]}],"ruas":["R BARREIRO","R CALVÁRIO","ESTR BARREIRO"],"centroide":[41.2274125124003,-7.819973376145319]}19]}
+{
+  "CP": "5030-107",
+  "CP4": "5030",
+  "CP3": "107",
+  "Distrito": "Vila Real",
+  "Concelho": "Santa Marta de Penaguião",
+  "Localidade": "Fontes",
+  "Designação Postal": "FONTES SMP",
+  "partes": [
+    {
+      "Artéria": "Rua do Barreiro",
+      "Local": "Barreiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Barreiro",
+      "Local": "Barreiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Calçada do Barreiro",
+      "Local": "Barreiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Calvário",
+      "Local": "Barreiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5296875",
+      "rua": "R BARREIRO",
+      "casa": "5",
+      "coordenadas": [
+        41.22766126802909,
+        -7.8182299826016965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5305420",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.22687575702441,
+        -7.820750263627164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5338584",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.2272635820742,
+        -7.820986951359182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5346259",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.22603811254504,
+        -7.820658838314805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5352406",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.227116471570426,
+        -7.819866546418749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5366820",
+      "rua": "R CALVÁRIO",
+      "casa": "",
+      "coordenadas": [
+        41.22952769795792,
+        -7.819163267365866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5373152",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.22509144647291,
+        -7.820210146100178
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5375177",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.227441074860046,
+        -7.820031971071185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5380149",
+      "rua": "R BARREIRO",
+      "casa": "3",
+      "coordenadas": [
+        41.227760052654446,
+        -7.818134094594252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5390248",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.227120323526144,
+        -7.82128579873278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5403093",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.22621842197865,
+        -7.820741465355981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5418367",
+      "rua": "R CALVÁRIO",
+      "casa": "",
+      "coordenadas": [
+        41.231651144922566,
+        -7.818592518046959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5420425",
+      "rua": "R BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.226597307588044,
+        -7.821002046300369
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5421542",
+      "rua": "ESTR BARREIRO",
+      "casa": "",
+      "coordenadas": [
+        41.226503767835354,
+        -7.819714425588069
+      ]
+    }
+  ],
+  "ruas": [
+    "R BARREIRO",
+    "R CALVÁRIO",
+    "ESTR BARREIRO"
+  ],
+  "centro": [
+    41.22837129569774,
+    -7.819709946663516
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.226232689815355,
+                -7.820815200706017
+              ],
+              [
+                41.2259790801837,
+                -7.820680744126941
+              ],
+              [
+                41.225798868727594,
+                -7.82053065631547
+              ],
+              [
+                41.22569205544703,
+                -7.820364937271604
+              ],
+              [
+                41.225658640342,
+                -7.820183586995341
+              ],
+              [
+                41.22569862341252,
+                -7.819986605486684
+              ],
+              [
+                41.22581200465858,
+                -7.81977399274563
+              ],
+              [
+                41.22599878408018,
+                -7.819545748772181
+              ],
+              [
+                41.22625896167733,
+                -7.819301873566336
+              ],
+              [
+                41.226592537450024,
+                -7.819042367128094
+              ],
+              [
+                41.22694521456782,
+                -7.818822461861082
+              ],
+              [
+                41.22731699303071,
+                -7.818642157765298
+              ],
+              [
+                41.227707872838714,
+                -7.818501454840743
+              ],
+              [
+                41.228117853991826,
+                -7.818400353087418
+              ],
+              [
+                41.228546936490034,
+                -7.81833885250532
+              ],
+              [
+                41.22899512033334,
+                -7.818316953094451
+              ],
+              [
+                41.229462405521744,
+                -7.8183346548548105
+              ],
+              [
+                41.22994879205527,
+                -7.8183919577864
+              ],
+              [
+                41.23030358618777,
+                -7.8184841803622565
+              ],
+              [
+                41.23052678791926,
+                -7.818611322582379
+              ],
+              [
+                41.230618397249756,
+                -7.81877338444677
+              ],
+              [
+                41.230578414179234,
+                -7.818970365955428
+              ],
+              [
+                41.23040683870771,
+                -7.819202267108354
+              ],
+              [
+                41.23010367083518,
+                -7.819469087905546
+              ],
+              [
+                41.22966891056163,
+                -7.819770828347006
+              ],
+              [
+                41.229102557887074,
+                -7.8201074884327335
+              ],
+              [
+                41.228575298092885,
+                -7.82038525893536
+              ],
+              [
+                41.22808713117905,
+                -7.820604139854887
+              ],
+              [
+                41.22763805714559,
+                -7.820764131191313
+              ],
+              [
+                41.227228075992485,
+                -7.820865232944639
+              ],
+              [
+                41.226857187719745,
+                -7.820907445114865
+              ],
+              [
+                41.22652539232737,
+                -7.820890767701991
+              ],
+              [
+                41.226232689815355,
+                -7.820815200706017
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.22790574189402,
+    -7.819555639368542
+  ],
+  "centroDeMassa": [
+    41.22837129569774,
+    -7.819709946663516
+  ]
+}

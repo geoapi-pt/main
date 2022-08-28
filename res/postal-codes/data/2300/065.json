@@ -1,1 +1,363 @@
-{"CP4":"2300","CP3":"065","Distrito":"Santarém","Concelho":"Tomar","CP":"2300-065","Artéria":"Rua do Bairro Alberto","Localidade":"Olalhas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLALHAS","locais":[{"id":"pt.ine.add.PTCONT.4407142","rua":"R PEDREIRO","casa":"2","coordenadas":[39.6312683632706,-8.291067287610119]},{"id":"pt.ine.add.PTCONT.4411271","rua":"R BAIRRO ALBERTO","casa":"7","coordenadas":[39.63243737806239,-8.292432788169302]},{"id":"pt.ine.add.PTCONT.4416238","rua":"R BAIRRO ALBERTO","casa":"4","coordenadas":[39.63277864129945,-8.293155764300426]},{"id":"pt.ine.add.PTCONT.4421345","rua":"R PEDREIRO","casa":"","coordenadas":[39.63100822636519,-8.290286281208267]},{"id":"pt.ine.add.PTCONT.4428490","rua":"R BAIRRO ALBERTO QUINTA DAS OLIVEIRAS","casa":"","coordenadas":[39.63286952559029,-8.292561910726038]},{"id":"pt.ine.add.PTCONT.4437832","rua":"R BAIRRO ALBERTO","casa":"9","coordenadas":[39.632203585982936,-8.292152695491616]},{"id":"pt.ine.add.PTCONT.4439841","rua":"R BAIRRO ALBERTO","casa":"1","coordenadas":[39.63322905828706,-8.293098560458876]},{"id":"pt.ine.add.PTCONT.4440392","rua":"R BAIRRO ALBERTO","casa":"72","coordenadas":[39.63369655657519,-8.29371700432512]},{"id":"pt.ine.add.PTCONT.4457848","rua":"R BAIRRO ALBERTO","casa":"2","coordenadas":[39.63307594379198,-8.293098207751044]},{"id":"pt.ine.add.PTCONT.4459026","rua":"R BAIRRO ALBERTO","casa":"","coordenadas":[39.63245486370818,-8.292817219694395]},{"id":"pt.ine.add.PTCONT.4464775","rua":"R BAIRRO ALBERTO","casa":"8","coordenadas":[39.63234743846364,-8.292339396202502]},{"id":"pt.ine.add.PTCONT.4498161","rua":"R BAIRRO ALBERTO","casa":"6","coordenadas":[39.63210353692053,-8.292863004505824]},{"id":"pt.ine.add.PTCONT.4510065","rua":"R PEDREIRO","casa":"","coordenadas":[39.62865467007932,-8.285621920511351]},{"id":"pt.ine.add.PTCONT.4539274","rua":"R PEDREIRO","casa":"1","coordenadas":[39.63169201232883,-8.290823641030341]},{"id":"pt.ine.add.PTCONT.4557865","rua":"R PEDREIRO","casa":"4","coordenadas":[39.63095495675305,-8.289715409967325]},{"id":"pt.ine.add.PTCONT.4595389","rua":"R BAIRRO ALBERTO","casa":"72 A","coordenadas":[39.633381417486504,-8.293646385289412]},{"id":"pt.ine.add.PTCONT.4641104","rua":"R BAIRRO ALBERTO","casa":"","coordenadas":[39.63255416188839,-8.292654372647704]},{"id":"pt.ine.add.PTCONT.4643587","rua":"R BAIRRO ALBERTO","casa":"","coordenadas":[39.63268875040083,-8.293027426258222]},{"id":"pt.ine.add.PTCONT.4659893","rua":"R BAIRRO ALBERTO","casa":"72A","coordenadas":[39.633210482614736,-8.293506209965402]}],"ruas":["R PEDREIRO","R BAIRRO ALBERTO","R BAIRRO ALBERTO QUINTA DAS OLIVEIRAS"],"centroide":[39.63218883818079,-8.291948848674885]}
+{
+  "CP": "2300-065",
+  "CP4": "2300",
+  "CP3": "065",
+  "Distrito": "Santarém",
+  "Concelho": "Tomar",
+  "Localidade": "Olalhas",
+  "Designação Postal": "OLALHAS",
+  "partes": [
+    {
+      "Artéria": "Bairro Pedreiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Bairro Alberto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4407142",
+      "rua": "R PEDREIRO",
+      "casa": "2",
+      "coordenadas": [
+        39.6312683632706,
+        -8.291067287610119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4411271",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "7",
+      "coordenadas": [
+        39.63243737806239,
+        -8.292432788169302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4416238",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "4",
+      "coordenadas": [
+        39.63277864129945,
+        -8.293155764300426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4421345",
+      "rua": "R PEDREIRO",
+      "casa": "",
+      "coordenadas": [
+        39.63100822636519,
+        -8.290286281208267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4428490",
+      "rua": "R BAIRRO ALBERTO QUINTA DAS OLIVEIRAS",
+      "casa": "",
+      "coordenadas": [
+        39.63286952559029,
+        -8.292561910726038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4437832",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "9",
+      "coordenadas": [
+        39.632203585982936,
+        -8.292152695491616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4439841",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "1",
+      "coordenadas": [
+        39.63322905828706,
+        -8.293098560458876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4440392",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "72",
+      "coordenadas": [
+        39.63369655657519,
+        -8.29371700432512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4457848",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "2",
+      "coordenadas": [
+        39.63307594379198,
+        -8.293098207751044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4459026",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "",
+      "coordenadas": [
+        39.63245486370818,
+        -8.292817219694395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4464775",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "8",
+      "coordenadas": [
+        39.63234743846364,
+        -8.292339396202502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498161",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "6",
+      "coordenadas": [
+        39.63210353692053,
+        -8.292863004505824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4510065",
+      "rua": "R PEDREIRO",
+      "casa": "",
+      "coordenadas": [
+        39.62865467007932,
+        -8.285621920511351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4539274",
+      "rua": "R PEDREIRO",
+      "casa": "1",
+      "coordenadas": [
+        39.63169201232883,
+        -8.290823641030341
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4557865",
+      "rua": "R PEDREIRO",
+      "casa": "4",
+      "coordenadas": [
+        39.63095495675305,
+        -8.289715409967325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4595389",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "72 A",
+      "coordenadas": [
+        39.633381417486504,
+        -8.293646385289412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4641104",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "",
+      "coordenadas": [
+        39.63255416188839,
+        -8.292654372647704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4643587",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "",
+      "coordenadas": [
+        39.63268875040083,
+        -8.293027426258222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4659893",
+      "rua": "R BAIRRO ALBERTO",
+      "casa": "72A",
+      "coordenadas": [
+        39.633210482614736,
+        -8.293506209965402
+      ]
+    }
+  ],
+  "ruas": [
+    "R PEDREIRO",
+    "R BAIRRO ALBERTO",
+    "R BAIRRO ALBERTO QUINTA DAS OLIVEIRAS"
+  ],
+  "centro": [
+    39.63117561332726,
+    -8.289669462418235
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.630594657677506,
+                -8.289695030258242
+              ],
+              [
+                39.63016354932235,
+                -8.288789894758933
+              ],
+              [
+                39.62986510898809,
+                -8.288124386881627
+              ],
+              [
+                39.629699336674726,
+                -8.287698506626326
+              ],
+              [
+                39.62966623238225,
+                -8.287512253993027
+              ],
+              [
+                39.62976579611066,
+                -8.287565628981733
+              ],
+              [
+                39.62999802785997,
+                -8.287858631592442
+              ],
+              [
+                39.63036292763017,
+                -8.288391261825158
+              ],
+              [
+                39.63086049542126,
+                -8.289163519679875
+              ],
+              [
+                39.63149073123325,
+                -8.290175405156596
+              ],
+              [
+                39.63203726352047,
+                -8.291059701526294
+              ],
+              [
+                39.63250009228294,
+                -8.291816408788968
+              ],
+              [
+                39.632879217520646,
+                -8.29244552694462
+              ],
+              [
+                39.633174639233594,
+                -8.29294705599325
+              ],
+              [
+                39.633386357421784,
+                -8.293320995934856
+              ],
+              [
+                39.633514372085216,
+                -8.293567346769438
+              ],
+              [
+                39.63355868322389,
+                -8.293686108496997
+              ],
+              [
+                39.6335192908378,
+                -8.293677281117533
+              ],
+              [
+                39.63346485561614,
+                -8.293657316835759
+              ],
+              [
+                39.633395377558884,
+                -8.293626215651674
+              ],
+              [
+                39.63331085666606,
+                -8.293583977565278
+              ],
+              [
+                39.63321129293763,
+                -8.293530602576572
+              ],
+              [
+                39.633096686373634,
+                -8.293466090685556
+              ],
+              [
+                39.63296703697405,
+                -8.29339044189223
+              ],
+              [
+                39.63282234473889,
+                -8.293303656196592
+              ],
+              [
+                39.632662609668145,
+                -8.293205733598644
+              ],
+              [
+                39.63246895293685,
+                -8.293006909388026
+              ],
+              [
+                39.632241374544996,
+                -8.292707183564737
+              ],
+              [
+                39.6319798744926,
+                -8.292306556128779
+              ],
+              [
+                39.63168445277965,
+                -8.291805027080148
+              ],
+              [
+                39.63135510940615,
+                -8.29120259641885
+              ],
+              [
+                39.630991844372105,
+                -8.29049926414488
+              ],
+              [
+                39.630594657677506,
+                -8.289695030258242
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.63195904526539,
+    -8.291462078657927
+  ],
+  "centroDeMassa": [
+    39.63117561332726,
+    -8.289669462418235
+  ]
+}

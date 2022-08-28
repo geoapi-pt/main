@@ -1,1 +1,411 @@
-{"CP4":"3700","CP3":"393","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"3700-393","Artéria":"Rua das Terras de Santa Maria","Localidade":"Arrifana","Local":"","Troço":"Pares de 58 a 1052","Porta":"","Cliente":"","Designação Postal":"ARRIFANA VFR","locais":[{"id":"pt.ine.add.PTCONT.290388","rua":"R TERRAS DE SANTA MARIA","casa":"898","coordenadas":[40.91677883062454,-8.49756268424726]},{"id":"pt.ine.add.PTCONT.316848","rua":"R TERRAS DE SANTA MARIA","casa":"422","coordenadas":[40.92000875221477,-8.501272386428996]},{"id":"pt.ine.add.PTCONT.331415","rua":"R TERRAS DE SANTA MARIA","casa":"754","coordenadas":[40.9176658489122,-8.498968315089423]},{"id":"pt.ine.add.PTCONT.341020","rua":"R TERRAS DE SANTA MARIA","casa":"546","coordenadas":[40.91925577378126,-8.500199807320616]},{"id":"pt.ine.add.PTCONT.343633","rua":"R TERRAS DE SANTA MARIA","casa":"808","coordenadas":[40.9169050073351,-8.497527765128186]},{"id":"pt.ine.add.PTCONT.66946","rua":"R TERRAS DE SANTA MARIA","casa":"514","coordenadas":[40.91943518492761,-8.500414480704906]},{"id":"pt.ine.add.PTCONT.70596","rua":"R TERRAS DE SANTA MARIA","casa":"4","coordenadas":[40.9163211713697,-8.497061605559024]},{"id":"pt.ine.add.PTCONT.94881","rua":"R TERRAS DE SANTA MARIA","casa":"526","coordenadas":[40.91933647482878,-8.500307094035612]},{"id":"pt.ine.add.PTCONT.94882","rua":"R TERRAS DE SANTA MARIA","casa":"526","coordenadas":[40.91933647482878,-8.500307094035612]},{"id":"pt.ine.add.PTCONT.108316","rua":"R TERRAS DE SANTA MARIA","casa":"1024","coordenadas":[40.91591802363283,-8.496406515506747]},{"id":"pt.ine.add.PTCONT.114649","rua":"R TERRAS DE SANTA MARIA","casa":"436","coordenadas":[40.91993747335702,-8.50103456601686]},{"id":"pt.ine.add.PTCONT.125264","rua":"R TERRAS DE SANTA MARIA","casa":"394","coordenadas":[40.920242226685396,-8.501475494022715]},{"id":"pt.ine.add.PTCONT.125389","rua":"R TERRAS DE SANTA MARIA","casa":"920","coordenadas":[40.91668011778847,-8.49745530612873]},{"id":"pt.ine.add.PTCONT.160431","rua":"R TERRAS DE SANTA MARIA","casa":"","coordenadas":[40.92018891950663,-8.501249643556147]},{"id":"pt.ine.add.PTCONT.173104","rua":"R TERRAS DE SANTA MARIA","casa":"918","coordenadas":[40.91670769396308,-8.497277397516118]},{"id":"pt.ine.add.PTCONT.199567","rua":"R TERRAS DE SANTA MARIA","casa":"","coordenadas":[40.9180779486855,-8.499635358373146]},{"id":"pt.ine.add.PTCONT.209198","rua":"R TERRAS DE SANTA MARIA","casa":"6","coordenadas":[40.91766773040807,-8.498374783482623]},{"id":"pt.ine.add.PTCONT.225695","rua":"R TERRAS DE SANTA MARIA","casa":"1014","coordenadas":[40.91598079393711,-8.496489952918525]},{"id":"pt.ine.add.PTCONT.250094","rua":"R TERRAS DE SANTA MARIA","casa":"22","coordenadas":[40.92336259595814,-8.502810595453862]},{"id":"pt.ine.add.PTCONT.279843","rua":"R TERRAS DE SANTA MARIA","casa":"","coordenadas":[40.91985707587366,-8.50083230927674]},{"id":"pt.ine.add.PTCONT.282305","rua":"R TERRAS DE SANTA MARIA","casa":"1014","coordenadas":[40.91608851228062,-8.496597377791248]}],"ruas":["R TERRAS DE SANTA MARIA"],"centroide":[40.91848320593094,-8.499333157740093]}
+{
+  "CP": "3700-393",
+  "CP4": "3700",
+  "CP3": "393",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Arrifana",
+  "Designação Postal": "ARRIFANA VFR",
+  "partes": [
+    {
+      "Artéria": "Rua do Bairro de Santa Maria",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Terras de Santa Maria",
+      "Local": "",
+      "Troço": "Pares de 58 a 1052",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.290388",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "898",
+      "coordenadas": [
+        40.91677883062454,
+        -8.49756268424726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.316848",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "422",
+      "coordenadas": [
+        40.92000875221477,
+        -8.501272386428996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.331415",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "754",
+      "coordenadas": [
+        40.9176658489122,
+        -8.498968315089423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.341020",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "546",
+      "coordenadas": [
+        40.91925577378126,
+        -8.500199807320616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.343633",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "808",
+      "coordenadas": [
+        40.9169050073351,
+        -8.497527765128186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.66946",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "514",
+      "coordenadas": [
+        40.91943518492761,
+        -8.500414480704906
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.70596",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "4",
+      "coordenadas": [
+        40.9163211713697,
+        -8.497061605559024
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.94881",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "526",
+      "coordenadas": [
+        40.91933647482878,
+        -8.500307094035612
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.94882",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "526",
+      "coordenadas": [
+        40.91933647482878,
+        -8.500307094035612
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.108316",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "1024",
+      "coordenadas": [
+        40.91591802363283,
+        -8.496406515506747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.114649",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "436",
+      "coordenadas": [
+        40.91993747335702,
+        -8.50103456601686
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.125264",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "394",
+      "coordenadas": [
+        40.920242226685396,
+        -8.501475494022715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.125389",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "920",
+      "coordenadas": [
+        40.91668011778847,
+        -8.49745530612873
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.160431",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "",
+      "coordenadas": [
+        40.92018891950663,
+        -8.501249643556147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.173104",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "918",
+      "coordenadas": [
+        40.91670769396308,
+        -8.497277397516118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.199567",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "",
+      "coordenadas": [
+        40.9180779486855,
+        -8.499635358373146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209198",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "6",
+      "coordenadas": [
+        40.91766773040807,
+        -8.498374783482623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.225695",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "1014",
+      "coordenadas": [
+        40.91598079393711,
+        -8.496489952918525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250094",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "22",
+      "coordenadas": [
+        40.92336259595814,
+        -8.502810595453862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.279843",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "",
+      "coordenadas": [
+        40.91985707587366,
+        -8.50083230927674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282305",
+      "rua": "R TERRAS DE SANTA MARIA",
+      "casa": "1014",
+      "coordenadas": [
+        40.91608851228062,
+        -8.496597377791248
+      ]
+    }
+  ],
+  "ruas": [
+    "R TERRAS DE SANTA MARIA"
+  ],
+  "centro": [
+    40.91964030979548,
+    -8.499608555480304
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.91614479423482,
+                -8.496775003661153
+              ],
+              [
+                40.91609440076771,
+                -8.496693117404618
+              ],
+              [
+                40.91616662792657,
+                -8.496721530679324
+              ],
+              [
+                40.91636147571141,
+                -8.496860243485271
+              ],
+              [
+                40.91667894412221,
+                -8.497109255822457
+              ],
+              [
+                40.91711903315898,
+                -8.497468567690884
+              ],
+              [
+                40.917681742821735,
+                -8.49793817909055
+              ],
+              [
+                40.91836707311046,
+                -8.49851809002146
+              ],
+              [
+                40.91917502402515,
+                -8.499208300483609
+              ],
+              [
+                40.920105595565815,
+                -8.500008810476999
+              ],
+              [
+                40.92087108989401,
+                -8.500688395761353
+              ],
+              [
+                40.921471507009734,
+                -8.501247056336672
+              ],
+              [
+                40.92190684691299,
+                -8.501684792202955
+              ],
+              [
+                40.92217710960377,
+                -8.502001603360203
+              ],
+              [
+                40.92228229508209,
+                -8.502197489808415
+              ],
+              [
+                40.92222240334794,
+                -8.502272451547594
+              ],
+              [
+                40.92199743440131,
+                -8.502226488577735
+              ],
+              [
+                40.92160738824222,
+                -8.502059600898843
+              ],
+              [
+                40.92123228100927,
+                -8.501884822060287
+              ],
+              [
+                40.92087211270245,
+                -8.501702152062066
+              ],
+              [
+                40.92052688332177,
+                -8.501511590904185
+              ],
+              [
+                40.920196592867235,
+                -8.50131313858664
+              ],
+              [
+                40.919881241338835,
+                -8.501106795109433
+              ],
+              [
+                40.919580828736564,
+                -8.500892560472561
+              ],
+              [
+                40.91929535506044,
+                -8.500670434676028
+              ],
+              [
+                40.919024820310455,
+                -8.500440417719833
+              ],
+              [
+                40.91876065275866,
+                -8.50019893799544
+              ],
+              [
+                40.91850285240505,
+                -8.49994599550285
+              ],
+              [
+                40.91825141924963,
+                -8.499681590242066
+              ],
+              [
+                40.9180063532924,
+                -8.499405722213087
+              ],
+              [
+                40.91776765453336,
+                -8.499118391415909
+              ],
+              [
+                40.917535322972505,
+                -8.498819597850536
+              ],
+              [
+                40.91730935860984,
+                -8.498509341516968
+              ],
+              [
+                40.91708976144536,
+                -8.498187622415202
+              ],
+              [
+                40.916891314743054,
+                -8.49789588241909
+              ],
+              [
+                40.91671401850293,
+                -8.497634121528634
+              ],
+              [
+                40.916557872724965,
+                -8.497402339743829
+              ],
+              [
+                40.91642287740917,
+                -8.497200537064678
+              ],
+              [
+                40.916309032555546,
+                -8.497028713491183
+              ],
+              [
+                40.9162163381641,
+                -8.496886869023342
+              ],
+              [
+                40.91614479423482,
+                -8.496775003661153
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.91878439326631,
+    -8.4994779137831
+  ],
+  "centroDeMassa": [
+    40.91964030979548,
+    -8.499608555480304
+  ]
+}

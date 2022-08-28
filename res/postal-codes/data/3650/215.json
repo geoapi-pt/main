@@ -1,1 +1,472 @@
-{"CP4":"3650","CP3":"215","Distrito":"Viseu","Concelho":"Vila Nova de Paiva","CP":"3650-215","Artéria":"Rua de Santo António","Localidade":"Vila Nova de Paiva","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE PAIVA","locais":[{"id":"pt.ine.add.PTCONT.5428758","rua":"R SANTO ANTÓNIO","casa":"9","coordenadas":[40.84718405258542,-7.7290851015701625]},{"id":"pt.ine.add.PTCONT.5432176","rua":"AV STO ANTONIO","casa":"","coordenadas":[40.85842565613206,-7.70510654889429]},{"id":"pt.ine.add.PTCONT.5441501","rua":"R SANTO ANTÓNIO","casa":"1","coordenadas":[40.847962516733304,-7.730242495019761]},{"id":"pt.ine.add.PTCONT.5441508","rua":"R SANTO ANTÓNIO","casa":"5","coordenadas":[40.84748481461488,-7.730114946814647]},{"id":"pt.ine.add.PTCONT.5442049","rua":"TV PONTE VELHA","casa":"","coordenadas":[40.843979697530905,-7.726910892256323]},{"id":"pt.ine.add.PTCONT.5450908","rua":"R SANTO ANTÓNIO","casa":"7","coordenadas":[40.84769080267926,-7.72979352386]},{"id":"pt.ine.add.PTCONT.5455652","rua":"R EMIGRANTE","casa":"26","coordenadas":[40.84653247383075,-7.73073733876656]},{"id":"pt.ine.add.PTCONT.5465103","rua":"R SANTO ANTÓNIO","casa":"31","coordenadas":[40.84652604840713,-7.728899367884482]},{"id":"pt.ine.add.PTCONT.5470699","rua":"R SANTO ANTÓNIO","casa":"10","coordenadas":[40.84733140410169,-7.7300210100229485]},{"id":"pt.ine.add.PTCONT.5476085","rua":"R SANTO ANTÓNIO","casa":"12","coordenadas":[40.84725007216744,-7.729938495057629]},{"id":"pt.ine.add.PTCONT.5488705","rua":"R SANTO ANTÓNIO","casa":"8","coordenadas":[40.847275468932935,-7.72947586895683]},{"id":"pt.ine.add.PTCONT.5489768","rua":"R EMIGRANTE","casa":"25","coordenadas":[40.84644176538042,-7.730548157620416]},{"id":"pt.ine.add.PTCONT.5491615","rua":"R STO ANTÓNIO","casa":"13","coordenadas":[40.847574032390455,-7.729877240035869]},{"id":"pt.ine.add.PTCONT.5491628","rua":"R EMIGRANTE","casa":"31","coordenadas":[40.84633416463158,-7.730679247779617]},{"id":"pt.ine.add.PTCONT.5496991","rua":"R EMIGRANTE","casa":"4","coordenadas":[40.847079232413904,-7.730010679822574]},{"id":"pt.ine.add.PTCONT.5503050","rua":"R PONTE VELHA","casa":"","coordenadas":[40.846039298528495,-7.728760028949314]},{"id":"pt.ine.add.PTCONT.5520805","rua":"R EMIGRANTE","casa":"27","coordenadas":[40.8467375527509,-7.7301550482305625]},{"id":"pt.ine.add.PTCONT.5562119","rua":"R EMIGRANTE","casa":"","coordenadas":[40.846711946363605,-7.730558380799771]},{"id":"pt.ine.add.PTCONT.5581189","rua":"R STO ANTÓNIO","casa":"9","coordenadas":[40.847673580856345,-7.730018936583588]},{"id":"pt.ine.add.PTCONT.5581291","rua":"R EMIGRANTE","casa":"16","coordenadas":[40.8467834455654,-7.730403791881855]},{"id":"pt.ine.add.PTCONT.5599695","rua":"R EMIGRANTE","casa":"23","coordenadas":[40.846549365976315,-7.730417067036939]},{"id":"pt.ine.add.PTCONT.5599696","rua":"R EMIGRANTE","casa":"21","coordenadas":[40.846549365976315,-7.730417067036939]},{"id":"pt.ine.add.PTCONT.5604257","rua":"R PONTE VELHA","casa":"","coordenadas":[40.84630964589239,-7.728817676160414]},{"id":"pt.ine.add.PTCONT.5608122","rua":"R STO ANTÓNIO","casa":"29","coordenadas":[40.846805067950655,-7.728862097965181]},{"id":"pt.ine.add.PTCONT.5623974","rua":"R EMIGRANTE","casa":"3","coordenadas":[40.84663734133819,-7.7298236271221485]},{"id":"pt.ine.add.PTCONT.5633417","rua":"R EMIGRANTE","casa":"35","coordenadas":[40.846181912577265,-7.730917330134153]},{"id":"pt.ine.add.PTCONT.5639313","rua":"R EMIGRANTE","casa":"","coordenadas":[40.84706279675997,-7.730461391896584]},{"id":"pt.ine.add.PTCONT.5657733","rua":"R EMIGRANTE","casa":"11","coordenadas":[40.84664792035919,-7.730274172657243]},{"id":"pt.ine.add.PTCONT.5665022","rua":"R PONTE VELHA","casa":"","coordenadas":[40.84524530884898,-7.728314254711831]},{"id":"pt.ine.add.PTCONT.5668581","rua":"R EMIGRANTE","casa":"31","coordenadas":[40.84633416463158,-7.730679247779617]}],"ruas":["R SANTO ANTÓNIO","AV STO ANTONIO","TV PONTE VELHA","R EMIGRANTE","R STO ANTÓNIO","R PONTE VELHA"],"centroide":[40.847138163871584,-7.728953165018228]}
+{
+  "CP": "3650-215",
+  "CP4": "3650",
+  "CP3": "215",
+  "Distrito": "Viseu",
+  "Concelho": "Vila Nova de Paiva",
+  "Localidade": "Vila Nova de Paiva",
+  "Designação Postal": "VILA NOVA DE PAIVA",
+  "partes": [
+    {
+      "Artéria": "Rua do Emigrante",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Ponte Velha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Santo António",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5428758",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "9",
+      "coordenadas": [
+        40.84718405258542,
+        -7.7290851015701625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5432176",
+      "rua": "AV STO ANTONIO",
+      "casa": "",
+      "coordenadas": [
+        40.85842565613206,
+        -7.70510654889429
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5441501",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "1",
+      "coordenadas": [
+        40.847962516733304,
+        -7.730242495019761
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5441508",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "5",
+      "coordenadas": [
+        40.84748481461488,
+        -7.730114946814647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5442049",
+      "rua": "TV PONTE VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.843979697530905,
+        -7.726910892256323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5450908",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "7",
+      "coordenadas": [
+        40.84769080267926,
+        -7.72979352386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5455652",
+      "rua": "R EMIGRANTE",
+      "casa": "26",
+      "coordenadas": [
+        40.84653247383075,
+        -7.73073733876656
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5465103",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "31",
+      "coordenadas": [
+        40.84652604840713,
+        -7.728899367884482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5470699",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "10",
+      "coordenadas": [
+        40.84733140410169,
+        -7.7300210100229485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5476085",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "12",
+      "coordenadas": [
+        40.84725007216744,
+        -7.729938495057629
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5488705",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "8",
+      "coordenadas": [
+        40.847275468932935,
+        -7.72947586895683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5489768",
+      "rua": "R EMIGRANTE",
+      "casa": "25",
+      "coordenadas": [
+        40.84644176538042,
+        -7.730548157620416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5491615",
+      "rua": "R STO ANTÓNIO",
+      "casa": "13",
+      "coordenadas": [
+        40.847574032390455,
+        -7.729877240035869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5491628",
+      "rua": "R EMIGRANTE",
+      "casa": "31",
+      "coordenadas": [
+        40.84633416463158,
+        -7.730679247779617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5496991",
+      "rua": "R EMIGRANTE",
+      "casa": "4",
+      "coordenadas": [
+        40.847079232413904,
+        -7.730010679822574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5503050",
+      "rua": "R PONTE VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.846039298528495,
+        -7.728760028949314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5520805",
+      "rua": "R EMIGRANTE",
+      "casa": "27",
+      "coordenadas": [
+        40.8467375527509,
+        -7.7301550482305625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5562119",
+      "rua": "R EMIGRANTE",
+      "casa": "",
+      "coordenadas": [
+        40.846711946363605,
+        -7.730558380799771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5581189",
+      "rua": "R STO ANTÓNIO",
+      "casa": "9",
+      "coordenadas": [
+        40.847673580856345,
+        -7.730018936583588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5581291",
+      "rua": "R EMIGRANTE",
+      "casa": "16",
+      "coordenadas": [
+        40.8467834455654,
+        -7.730403791881855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5599695",
+      "rua": "R EMIGRANTE",
+      "casa": "23",
+      "coordenadas": [
+        40.846549365976315,
+        -7.730417067036939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5599696",
+      "rua": "R EMIGRANTE",
+      "casa": "21",
+      "coordenadas": [
+        40.846549365976315,
+        -7.730417067036939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5604257",
+      "rua": "R PONTE VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.84630964589239,
+        -7.728817676160414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5608122",
+      "rua": "R STO ANTÓNIO",
+      "casa": "29",
+      "coordenadas": [
+        40.846805067950655,
+        -7.728862097965181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5623974",
+      "rua": "R EMIGRANTE",
+      "casa": "3",
+      "coordenadas": [
+        40.84663734133819,
+        -7.7298236271221485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5633417",
+      "rua": "R EMIGRANTE",
+      "casa": "35",
+      "coordenadas": [
+        40.846181912577265,
+        -7.730917330134153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5639313",
+      "rua": "R EMIGRANTE",
+      "casa": "",
+      "coordenadas": [
+        40.84706279675997,
+        -7.730461391896584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5657733",
+      "rua": "R EMIGRANTE",
+      "casa": "11",
+      "coordenadas": [
+        40.84664792035919,
+        -7.730274172657243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5665022",
+      "rua": "R PONTE VELHA",
+      "casa": "",
+      "coordenadas": [
+        40.84524530884898,
+        -7.728314254711831
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5668581",
+      "rua": "R EMIGRANTE",
+      "casa": "31",
+      "coordenadas": [
+        40.84633416463158,
+        -7.730679247779617
+      ]
+    }
+  ],
+  "ruas": [
+    "R SANTO ANTÓNIO",
+    "AV STO ANTONIO",
+    "TV PONTE VELHA",
+    "R EMIGRANTE",
+    "R STO ANTÓNIO",
+    "R PONTE VELHA"
+  ],
+  "centro": [
+    40.851202676831484,
+    -7.718011939514222
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.84521844349448,
+                -7.729164513562603
+              ],
+              [
+                40.84494316661369,
+                -7.728663708827874
+              ],
+              [
+                40.844928017446136,
+                -7.727884811819954
+              ],
+              [
+                40.845172995991824,
+                -7.726827822538844
+              ],
+              [
+                40.84567810225076,
+                -7.725492740984543
+              ],
+              [
+                40.84644333622293,
+                -7.723879567157051
+              ],
+              [
+                40.847468697908354,
+                -7.721988301056369
+              ],
+              [
+                40.84875418730701,
+                -7.719818942682497
+              ],
+              [
+                40.85029980441891,
+                -7.717371492035434
+              ],
+              [
+                40.85210554924406,
+                -7.714645949115179
+              ],
+              [
+                40.85352208941295,
+                -7.712653848218168
+              ],
+              [
+                40.8545494249256,
+                -7.711395189344398
+              ],
+              [
+                40.855187555782,
+                -7.710869972493871
+              ],
+              [
+                40.855436481982146,
+                -7.711078197666585
+              ],
+              [
+                40.85529620352605,
+                -7.712019864862542
+              ],
+              [
+                40.8547667204137,
+                -7.713694974081742
+              ],
+              [
+                40.853848032645104,
+                -7.716103525324183
+              ],
+              [
+                40.852540140220256,
+                -7.719245518589867
+              ],
+              [
+                40.85136791240858,
+                -7.722005306996003
+              ],
+              [
+                40.850331349210066,
+                -7.72438289054259
+              ],
+              [
+                40.84943045062473,
+                -7.72637826922963
+              ],
+              [
+                40.848665216652556,
+                -7.727991443057122
+              ],
+              [
+                40.84803564729354,
+                -7.729222412025065
+              ],
+              [
+                40.847541742547705,
+                -7.73007117613346
+              ],
+              [
+                40.847183502415035,
+                -7.730537735382308
+              ],
+              [
+                40.846960926895534,
+                -7.730622089771606
+              ],
+              [
+                40.84673176370587,
+                -7.730633299270401
+              ],
+              [
+                40.84649601284604,
+                -7.730571363878694
+              ],
+              [
+                40.846253674316046,
+                -7.730436283596482
+              ],
+              [
+                40.8460047481159,
+                -7.730228058423767
+              ],
+              [
+                40.84574923424559,
+                -7.729946688360549
+              ],
+              [
+                40.84548713270512,
+                -7.729592173406828
+              ],
+              [
+                40.84521844349448,
+                -7.729164513562603
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.84913744574338,
+    -7.723294316576132
+  ],
+  "centroDeMassa": [
+    40.851202676831484,
+    -7.718011939514222
+  ]
+}

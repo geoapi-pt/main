@@ -1,1 +1,431 @@
-{"CP4":"7920","CP3":"381","Distrito":"Beja","Concelho":"Alvito","CP":"7920-381","Artéria":"Rua Joaquim Correia","Localidade":"Vila Nova da Baronia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DA BARONIA","locais":[{"id":"pt.ine.add.PTCONT.456989","rua":"R JOAQUIM CORREIA","casa":"14","coordenadas":[38.28644348288549,-8.038171477720336]},{"id":"pt.ine.add.PTCONT.353921","rua":"R JOAQUIM CORREIA","casa":"2","coordenadas":[38.286776837775314,-8.038205333394822]},{"id":"pt.ine.add.PTCONT.362262","rua":"R JOAQUIM CORREIA","casa":"3","coordenadas":[38.286173023146716,-8.037931802777853]},{"id":"pt.ine.add.PTCONT.362263","rua":"R JOAQUIM CORREIA","casa":"17","coordenadas":[38.28556952333564,-8.038046888561214]},{"id":"pt.ine.add.PTCONT.365839","rua":"R JOAQUIM CORREIA","casa":"24","coordenadas":[38.28609216577459,-8.038206224888407]},{"id":"pt.ine.add.PTCONT.369791","rua":"R JOAQUIM CORREIA","casa":"42","coordenadas":[38.28542554835295,-8.038252811847267]},{"id":"pt.ine.add.PTCONT.375080","rua":"R JOAQUIM CORREIA","casa":"20","coordenadas":[38.28617322686471,-8.03818325960655]},{"id":"pt.ine.add.PTCONT.380646","rua":"R JOAQUIM CORREIA","casa":"60","coordenadas":[38.28491206271954,-8.038276339419765]},{"id":"pt.ine.add.PTCONT.393602","rua":"R JOAQUIM CORREIA","casa":"25","coordenadas":[38.285299267287414,-8.038058670761286]},{"id":"pt.ine.add.PTCONT.395167","rua":"R JOAQUIM CORREIA","casa":"8","coordenadas":[38.28662364122447,-8.038148383177774]},{"id":"pt.ine.add.PTCONT.400824","rua":"R JOAQUIM CORREIA","casa":"36","coordenadas":[38.28568678632998,-8.038229612291467]},{"id":"pt.ine.add.PTCONT.404115","rua":"R JOAQUIM CORREIA","casa":"48","coordenadas":[38.28525438956065,-8.038264464313057]},{"id":"pt.ine.add.PTCONT.408928","rua":"R JOAQUIM CORREIA","casa":"30","coordenadas":[38.285893980477894,-8.03821791275882]},{"id":"pt.ine.add.PTCONT.408931","rua":"R JOAQUIM CORREIA","casa":"27","coordenadas":[38.28520017000452,-8.038058799987688]},{"id":"pt.ine.add.PTCONT.415364","rua":"R JOAQUIM CORREIA","casa":"6","coordenadas":[38.2866596765916,-8.038148336228321]},{"id":"pt.ine.add.PTCONT.420238","rua":"R JOAQUIM CORREIA","casa":"1","coordenadas":[38.28661443786305,-8.037908366488827]},{"id":"pt.ine.add.PTCONT.428187","rua":"R JOAQUIM CORREIA","casa":"62","coordenadas":[38.28484901004562,-8.038287851113651]},{"id":"pt.ine.add.PTCONT.443039","rua":"R JOAQUIM CORREIA","casa":"34","coordenadas":[38.285785874361494,-8.038218053499866]},{"id":"pt.ine.add.PTCONT.444038","rua":"R JOAQUIM CORREIA","casa":"40","coordenadas":[38.28550660946179,-8.038229846828795]},{"id":"pt.ine.add.PTCONT.445902","rua":"R JOAQUIM CORREIA","casa":"9","coordenadas":[38.28585777852972,-8.038012223156834]},{"id":"pt.ine.add.PTCONT.446257","rua":"R JOAQUIM CORREIA","casa":"19","coordenadas":[38.28546141721378,-8.038047029554287]},{"id":"pt.ine.add.PTCONT.447064","rua":"R JOAQUIM CORREIA","casa":"22","coordenadas":[38.2861101649668,-8.038183341736389]},{"id":"pt.ine.add.PTCONT.447067","rua":"R JOAQUIM CORREIA","casa":"11","coordenadas":[38.285740672833846,-8.038023805744588]},{"id":"pt.ine.add.PTCONT.454343","rua":"R JOAQUIM CORREIA","casa":"28","coordenadas":[38.28596603273033,-8.038194959284189]}],"ruas":["R JOAQUIM CORREIA"],"centroide":[38.28583085859163,-8.038143949385125]}
+{
+  "CP": "7920-381",
+  "CP4": "7920",
+  "CP3": "381",
+  "Distrito": "Beja",
+  "Concelho": "Alvito",
+  "Localidade": "Vila Nova da Baronia",
+  "Designação Postal": "VILA NOVA DA BARONIA",
+  "partes": [
+    {
+      "Artéria": "Rua Joaquim Correia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.456989",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "14",
+      "coordenadas": [
+        38.28644348288549,
+        -8.038171477720336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.353921",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "2",
+      "coordenadas": [
+        38.286776837775314,
+        -8.038205333394822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.362262",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "3",
+      "coordenadas": [
+        38.286173023146716,
+        -8.037931802777853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.362263",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "17",
+      "coordenadas": [
+        38.28556952333564,
+        -8.038046888561214
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.365839",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "24",
+      "coordenadas": [
+        38.28609216577459,
+        -8.038206224888407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.369791",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "42",
+      "coordenadas": [
+        38.28542554835295,
+        -8.038252811847267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.375080",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "20",
+      "coordenadas": [
+        38.28617322686471,
+        -8.03818325960655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.380646",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "60",
+      "coordenadas": [
+        38.28491206271954,
+        -8.038276339419765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.393602",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "25",
+      "coordenadas": [
+        38.285299267287414,
+        -8.038058670761286
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.395167",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "8",
+      "coordenadas": [
+        38.28662364122447,
+        -8.038148383177774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.400824",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "36",
+      "coordenadas": [
+        38.28568678632998,
+        -8.038229612291467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.404115",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "48",
+      "coordenadas": [
+        38.28525438956065,
+        -8.038264464313057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.408928",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "30",
+      "coordenadas": [
+        38.285893980477894,
+        -8.03821791275882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.408931",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "27",
+      "coordenadas": [
+        38.28520017000452,
+        -8.038058799987688
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.415364",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "6",
+      "coordenadas": [
+        38.2866596765916,
+        -8.038148336228321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.420238",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "1",
+      "coordenadas": [
+        38.28661443786305,
+        -8.037908366488827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.428187",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "62",
+      "coordenadas": [
+        38.28484901004562,
+        -8.038287851113651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.443039",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "34",
+      "coordenadas": [
+        38.285785874361494,
+        -8.038218053499866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.444038",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "40",
+      "coordenadas": [
+        38.28550660946179,
+        -8.038229846828795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.445902",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "9",
+      "coordenadas": [
+        38.28585777852972,
+        -8.038012223156834
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.446257",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "19",
+      "coordenadas": [
+        38.28546141721378,
+        -8.038047029554287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.447064",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "22",
+      "coordenadas": [
+        38.2861101649668,
+        -8.038183341736389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.447067",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "11",
+      "coordenadas": [
+        38.285740672833846,
+        -8.038023805744588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.454343",
+      "rua": "R JOAQUIM CORREIA",
+      "casa": "28",
+      "coordenadas": [
+        38.28596603273033,
+        -8.038194959284189
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOAQUIM CORREIA"
+  ],
+  "centro": [
+    38.28581292391047,
+    -8.03809810880124
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.285933413143574,
+                -8.03824143489681
+              ],
+              [
+                38.28569243467736,
+                -8.038251749611662
+              ],
+              [
+                38.28548706539378,
+                -8.038257196063316
+              ],
+              [
+                38.28531730529284,
+                -8.03825777425177
+              ],
+              [
+                38.285183154374536,
+                -8.038253484177025
+              ],
+              [
+                38.285084612638855,
+                -8.038244325839079
+              ],
+              [
+                38.28502168008582,
+                -8.038230299237933
+              ],
+              [
+                38.28499435671541,
+                -8.038211404373587
+              ],
+              [
+                38.28500264252764,
+                -8.038187641246042
+              ],
+              [
+                38.285046537522504,
+                -8.038159009855297
+              ],
+              [
+                38.285100146473354,
+                -8.038131973056991
+              ],
+              [
+                38.285163469380194,
+                -8.038106530851126
+              ],
+              [
+                38.285236506243024,
+                -8.038082683237699
+              ],
+              [
+                38.28531925706184,
+                -8.03806043021671
+              ],
+              [
+                38.28541172183665,
+                -8.038039771788164
+              ],
+              [
+                38.285513900567445,
+                -8.038020707952054
+              ],
+              [
+                38.285625793254226,
+                -8.038003238708386
+              ],
+              [
+                38.285747399897005,
+                -8.037987364057155
+              ],
+              [
+                38.285860702814375,
+                -8.037973107545314
+              ],
+              [
+                38.28596570200634,
+                -8.037960469172859
+              ],
+              [
+                38.286062397472904,
+                -8.037949448939793
+              ],
+              [
+                38.28615078921406,
+                -8.037940046846115
+              ],
+              [
+                38.28623087722981,
+                -8.037932262891825
+              ],
+              [
+                38.28630266152017,
+                -8.03792609707692
+              ],
+              [
+                38.286366142085114,
+                -8.037921549401403
+              ],
+              [
+                38.28642131892465,
+                -8.037918619865277
+              ],
+              [
+                38.28647213615788,
+                -8.037920696629069
+              ],
+              [
+                38.28651859378479,
+                -8.037927779692787
+              ],
+              [
+                38.2865606918054,
+                -8.037939869056423
+              ],
+              [
+                38.286598430219684,
+                -8.037956964719985
+              ],
+              [
+                38.286631809027654,
+                -8.037979066683468
+              ],
+              [
+                38.286660828229316,
+                -8.038006174946872
+              ],
+              [
+                38.28668548782466,
+                -8.0380382895102
+              ],
+              [
+                38.2867057878137,
+                -8.03807541037345
+              ],
+              [
+                38.28669342799583,
+                -8.03810918046815
+              ],
+              [
+                38.28664840837105,
+                -8.038139599794299
+              ],
+              [
+                38.28657072893937,
+                -8.0381666683519
+              ],
+              [
+                38.28646038970077,
+                -8.038190386140952
+              ],
+              [
+                38.28631739065528,
+                -8.038210753161454
+              ],
+              [
+                38.28614173180288,
+                -8.038227769413407
+              ],
+              [
+                38.285933413143574,
+                -8.03824143489681
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.28592269576704,
+    -8.038078430752568
+  ],
+  "centroDeMassa": [
+    38.28581292391047,
+    -8.03809810880124
+  ]
+}

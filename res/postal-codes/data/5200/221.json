@@ -1,1 +1,418 @@
-{"CP4":"5200","CP3":"221","Distrito":"Bragança","Concelho":"Mogadouro","CP":"5200-221","Artéria":"Rua Bispo Dom Manuel Manso","Localidade":"Mogadouro","Local":"Bairro de São Sebastião","Troço":"","Porta":"","Cliente":"","Designação Postal":"MOGADOURO","locais":[{"id":"pt.ine.add.PTCONT.860519","rua":"R BISPO D MANUEL MANSO","casa":"1","coordenadas":[41.34110822570207,-6.709840589505312]},{"id":"pt.ine.add.PTCONT.871226","rua":"R BISPO D MANUEL MANSO","casa":"10","coordenadas":[41.34081706722097,-6.708867283210167]},{"id":"pt.ine.add.PTCONT.875710","rua":"R BISPO D MANUEL MANSO","casa":"9","coordenadas":[41.34108976733292,-6.709076385997542]},{"id":"pt.ine.add.PTCONT.875711","rua":"R BISPO D MANUEL MANSO","casa":"9","coordenadas":[41.34108976733292,-6.709076385997542]},{"id":"pt.ine.add.PTCONT.875712","rua":"R BISPO D MANUEL MANSO","casa":"9","coordenadas":[41.34108976733292,-6.709076385997542]},{"id":"pt.ine.add.PTCONT.875938","rua":"R BISPO D MANUEL MANSO","casa":"9","coordenadas":[41.34108976733292,-6.709076385997542]},{"id":"pt.ine.add.PTCONT.880307","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880308","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880309","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880310","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880311","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880312","rua":"R BISPO D MANUEL MANSO","casa":"12","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880313","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.880314","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34084170576897,-6.708675595673876]},{"id":"pt.ine.add.PTCONT.901922","rua":"R BISPO D MANUEL MANSO","casa":"7","coordenadas":[41.34110187230255,-6.709327008463713]},{"id":"pt.ine.add.PTCONT.926322","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34080142966553,-6.7090587744880805]},{"id":"pt.ine.add.PTCONT.926323","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34080142966553,-6.7090587744880805]},{"id":"pt.ine.add.PTCONT.926521","rua":"R BISPO D MANUEL MANSO","casa":"","coordenadas":[41.34080142966553,-6.7090587744880805]},{"id":"pt.ine.add.PTCONT.927421","rua":"R BISPO D MANUEL MANSO","casa":"5","coordenadas":[41.341112794654926,-6.709482081066907]}],"ruas":["R BISPO D MANUEL MANSO"],"centroide":[41.3409180094281,-6.708940084112481]}
+{
+  "CP": "5200-221",
+  "CP4": "5200",
+  "CP3": "221",
+  "Distrito": "Bragança",
+  "Concelho": "Mogadouro",
+  "Localidade": "Mogadouro",
+  "Designação Postal": "MOGADOURO",
+  "partes": [
+    {
+      "Artéria": "Rua Bispo Dom Manuel Manso",
+      "Local": "Bairro de São Sebastião",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.860519",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "1",
+      "coordenadas": [
+        41.34110822570207,
+        -6.709840589505312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.871226",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "10",
+      "coordenadas": [
+        41.34081706722097,
+        -6.708867283210167
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.875710",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "9",
+      "coordenadas": [
+        41.34108976733292,
+        -6.709076385997542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.875711",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "9",
+      "coordenadas": [
+        41.34108976733292,
+        -6.709076385997542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.875712",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "9",
+      "coordenadas": [
+        41.34108976733292,
+        -6.709076385997542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.875938",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "9",
+      "coordenadas": [
+        41.34108976733292,
+        -6.709076385997542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880307",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880308",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880309",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880310",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880311",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880312",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "12",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880313",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.880314",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34084170576897,
+        -6.708675595673876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.901922",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "7",
+      "coordenadas": [
+        41.34110187230255,
+        -6.709327008463713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.926322",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34080142966553,
+        -6.7090587744880805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.926323",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34080142966553,
+        -6.7090587744880805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.926521",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "",
+      "coordenadas": [
+        41.34080142966553,
+        -6.7090587744880805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.927421",
+      "rua": "R BISPO D MANUEL MANSO",
+      "casa": "5",
+      "coordenadas": [
+        41.341112794654926,
+        -6.709482081066907
+      ]
+    }
+  ],
+  "ruas": [
+    "R BISPO D MANUEL MANSO"
+  ],
+  "centro": [
+    41.340957112160226,
+    -6.709258092589594
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.340974002436084,
+                -6.709498545435274
+              ],
+              [
+                41.34093565293152,
+                -6.7094008185581195
+              ],
+              [
+                41.34090234145183,
+                -6.709312315489392
+              ],
+              [
+                41.34087406799701,
+                -6.709233036229092
+              ],
+              [
+                41.340850832567064,
+                -6.709162980777219
+              ],
+              [
+                41.340832635161995,
+                -6.709102149133772
+              ],
+              [
+                41.3408194757818,
+                -6.709050541298752
+              ],
+              [
+                41.340811354426485,
+                -6.709008157272159
+              ],
+              [
+                41.34080827109604,
+                -6.708974997053993
+              ],
+              [
+                41.34081022579046,
+                -6.708951060644254
+              ],
+              [
+                41.3408123211254,
+                -6.708927121167978
+              ],
+              [
+                41.34081455710084,
+                -6.708903178625163
+              ],
+              [
+                41.3408169337168,
+                -6.7088792330158125
+              ],
+              [
+                41.34081945097328,
+                -6.708855284339927
+              ],
+              [
+                41.340822108870256,
+                -6.708831332597502
+              ],
+              [
+                41.340824907407736,
+                -6.70880737778854
+              ],
+              [
+                41.340827846585725,
+                -6.70878341991304
+              ],
+              [
+                41.34083092640422,
+                -6.708759458971003
+              ],
+              [
+                41.340837497207346,
+                -6.708744755495529
+              ],
+              [
+                41.340847558995094,
+                -6.708739309486617
+              ],
+              [
+                41.34086111176747,
+                -6.708743120944266
+              ],
+              [
+                41.340878155524464,
+                -6.708756189868476
+              ],
+              [
+                41.34089869026609,
+                -6.708778516259248
+              ],
+              [
+                41.340922715992335,
+                -6.708810100116583
+              ],
+              [
+                41.3409502327032,
+                -6.70885094144048
+              ],
+              [
+                41.34098124039869,
+                -6.708901040230939
+              ],
+              [
+                41.34100873193415,
+                -6.708951215658049
+              ],
+              [
+                41.34103270730959,
+                -6.709001467721809
+              ],
+              [
+                41.341053166524986,
+                -6.709051796422221
+              ],
+              [
+                41.341070109580365,
+                -6.709102201759288
+              ],
+              [
+                41.34108353647571,
+                -6.709152683733004
+              ],
+              [
+                41.34109344721102,
+                -6.709203242343371
+              ],
+              [
+                41.3410998417863,
+                -6.709253877590389
+              ],
+              [
+                41.34110272020155,
+                -6.70930458947406
+              ],
+              [
+                41.341105167425006,
+                -6.709354564066622
+              ],
+              [
+                41.34110718345667,
+                -6.709403801368074
+              ],
+              [
+                41.341108768296536,
+                -6.709452301378418
+              ],
+              [
+                41.34110992194461,
+                -6.709500064097655
+              ],
+              [
+                41.341110644400885,
+                -6.709547089525782
+              ],
+              [
+                41.34111093566536,
+                -6.7095933776628005
+              ],
+              [
+                41.34111079573805,
+                -6.70963892850871
+              ],
+              [
+                41.341110224618944,
+                -6.70968374206351
+              ],
+              [
+                41.341104931201656,
+                -6.709710738064317
+              ],
+              [
+                41.34109491548618,
+                -6.709719916511129
+              ],
+              [
+                41.34108017747253,
+                -6.7097112774039465
+              ],
+              [
+                41.341060717160694,
+                -6.70968482074277
+              ],
+              [
+                41.34103653455067,
+                -6.709640546527599
+              ],
+              [
+                41.34100762964247,
+                -6.709578454758433
+              ],
+              [
+                41.340974002436084,
+                -6.709498545435274
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.34096183172423,
+    -6.709166784990315
+  ],
+  "centroDeMassa": [
+    41.340957112160226,
+    -6.709258092589594
+  ]
+}

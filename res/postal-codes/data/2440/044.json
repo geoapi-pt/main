@@ -1,1 +1,335 @@
-{"CP4":"2440","CP3":"044","Distrito":"Leiria","Concelho":"Batalha","CP":"2440-044","Artéria":"Estrada Real Dona Maria I","Localidade":"Santo Antão","Local":"Paredões","Troço":"","Porta":"","Cliente":"","Designação Postal":"BATALHA","locais":[{"id":"pt.ine.add.PTCONT.1995647","rua":"R PAREDOES","casa":"","coordenadas":[39.68378679469527,-8.835581979845237]},{"id":"pt.ine.add.PTCONT.2017403","rua":"R PAREDOES","casa":"","coordenadas":[39.68394960798092,-8.835467062480047]},{"id":"pt.ine.add.PTCONT.2026131","rua":"EDIFÍCIO PORCAO","casa":"","coordenadas":[39.6851113835248,-8.83547883329775]},{"id":"pt.ine.add.PTCONT.2028212","rua":"ESTR D MARIA II","casa":"","coordenadas":[39.68297787487265,-8.835305682455878]},{"id":"pt.ine.add.PTCONT.2043692","rua":"R PAREDOES","casa":"4","coordenadas":[39.683859336347695,-8.835501118004006]},{"id":"pt.ine.add.PTCONT.2048760","rua":"R PAREDOES","casa":"3","coordenadas":[39.68394165933158,-8.83529213121637]},{"id":"pt.ine.add.PTCONT.2065879","rua":"R PAREDOES","casa":"","coordenadas":[39.68403390385411,-8.834931706891732]},{"id":"pt.ine.add.PTCONT.2089726","rua":"R PAREDOES","casa":"","coordenadas":[39.68363559583388,-8.835265717817018]},{"id":"pt.ine.add.PTCONT.2118282","rua":"ESTR PAREDOES","casa":"","coordenadas":[39.68387123200073,-8.835023313678105]},{"id":"pt.ine.add.PTCONT.2173938","rua":"R PAREDOES","casa":"11","coordenadas":[39.683943350565826,-8.835012387165685]},{"id":"pt.ine.add.PTCONT.2188132","rua":"ESTR PAREDOES","casa":"","coordenadas":[39.68382584964197,-8.835081137661978]},{"id":"pt.ine.add.PTCONT.2201718","rua":"R PAREDOES","casa":"","coordenadas":[39.68377139077385,-8.835150526342709]},{"id":"pt.ine.add.PTCONT.2249905","rua":"R PAREDOES","casa":"","coordenadas":[39.68403178994499,-8.835281387414188]},{"id":"pt.ine.add.PTCONT.2252173","rua":"R PAREDOES","casa":"","coordenadas":[39.683707996324934,-8.835208167740786]},{"id":"pt.ine.add.PTCONT.2262583","rua":"ESTR PAREDOES","casa":"","coordenadas":[39.68387123200073,-8.835023313678105]}],"ruas":["R PAREDOES","EDIFÍCIO PORCAO","ESTR D MARIA II","ESTR PAREDOES"],"centroide":[39.68388912612095,-8.83525579657225]}
+{
+  "CP": "2440-044",
+  "CP4": "2440",
+  "CP3": "044",
+  "Distrito": "Leiria",
+  "Concelho": "Batalha",
+  "Localidade": "Santo Antão",
+  "Designação Postal": "BATALHA",
+  "partes": [
+    {
+      "Artéria": "Rua dos Paredões",
+      "Local": "Paredões",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada do Moinho São João",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada Real Dona Maria I",
+      "Local": "Paredões",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1995647",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68378679469527,
+        -8.835581979845237
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2017403",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68394960798092,
+        -8.835467062480047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2026131",
+      "rua": "EDIFÍCIO PORCAO",
+      "casa": "",
+      "coordenadas": [
+        39.6851113835248,
+        -8.83547883329775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2028212",
+      "rua": "ESTR D MARIA II",
+      "casa": "",
+      "coordenadas": [
+        39.68297787487265,
+        -8.835305682455878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2043692",
+      "rua": "R PAREDOES",
+      "casa": "4",
+      "coordenadas": [
+        39.683859336347695,
+        -8.835501118004006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2048760",
+      "rua": "R PAREDOES",
+      "casa": "3",
+      "coordenadas": [
+        39.68394165933158,
+        -8.83529213121637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2065879",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68403390385411,
+        -8.834931706891732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2089726",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68363559583388,
+        -8.835265717817018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2118282",
+      "rua": "ESTR PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68387123200073,
+        -8.835023313678105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2173938",
+      "rua": "R PAREDOES",
+      "casa": "11",
+      "coordenadas": [
+        39.683943350565826,
+        -8.835012387165685
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2188132",
+      "rua": "ESTR PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68382584964197,
+        -8.835081137661978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2201718",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68377139077385,
+        -8.835150526342709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2249905",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68403178994499,
+        -8.835281387414188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2252173",
+      "rua": "R PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.683707996324934,
+        -8.835208167740786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2262583",
+      "rua": "ESTR PAREDOES",
+      "casa": "",
+      "coordenadas": [
+        39.68387123200073,
+        -8.835023313678105
+      ]
+    }
+  ],
+  "ruas": [
+    "R PAREDOES",
+    "EDIFÍCIO PORCAO",
+    "ESTR D MARIA II",
+    "ESTR PAREDOES"
+  ],
+  "centro": [
+    39.68404462919872,
+    -8.835256843368484
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.683432892272876,
+                -8.835461099737394
+              ],
+              [
+                39.683331777295045,
+                -8.835426562563722
+              ],
+              [
+                39.68325980214228,
+                -8.835390499168572
+              ],
+              [
+                39.683216966814584,
+                -8.83535290955194
+              ],
+              [
+                39.683203271311946,
+                -8.835313793713826
+              ],
+              [
+                39.68321871563437,
+                -8.835273151654235
+              ],
+              [
+                39.683263299781856,
+                -8.835230983373158
+              ],
+              [
+                39.68333702375442,
+                -8.835187288870603
+              ],
+              [
+                39.683439887552034,
+                -8.835142068146565
+              ],
+              [
+                39.68357189117472,
+                -8.835095321201047
+              ],
+              [
+                39.68370422996442,
+                -8.835062966473814
+              ],
+              [
+                39.68383690392115,
+                -8.835045003964861
+              ],
+              [
+                39.68396991304488,
+                -8.835041433674196
+              ],
+              [
+                39.68410325733564,
+                -8.835052255601813
+              ],
+              [
+                39.684236936793425,
+                -8.835077469747713
+              ],
+              [
+                39.68437095141822,
+                -8.835117076111896
+              ],
+              [
+                39.68450530121004,
+                -8.835171074694365
+              ],
+              [
+                39.68463998616887,
+                -8.835239465495116
+              ],
+              [
+                39.68473713880739,
+                -8.83530091911058
+              ],
+              [
+                39.68479675912559,
+                -8.835355435540752
+              ],
+              [
+                39.68481884712348,
+                -8.835403014785637
+              ],
+              [
+                39.68480340280106,
+                -8.835443656845229
+              ],
+              [
+                39.68475042615832,
+                -8.835477361719533
+              ],
+              [
+                39.684659917195255,
+                -8.835504129408548
+              ],
+              [
+                39.68453187591188,
+                -8.835523959912274
+              ],
+              [
+                39.68436630230819,
+                -8.835536853230712
+              ],
+              [
+                39.684208786032734,
+                -8.835543817737634
+              ],
+              [
+                39.68405932708551,
+                -8.835544853433044
+              ],
+              [
+                39.68391792546652,
+                -8.83553996031694
+              ],
+              [
+                39.68378458117576,
+                -8.835529138389322
+              ],
+              [
+                39.68365929421323,
+                -8.835512387650192
+              ],
+              [
+                39.68354206457894,
+                -8.83548970809955
+              ],
+              [
+                39.683432892272876,
+                -8.835461099737394
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.6839774892367,
+    -8.83532455062265
+  ],
+  "centroDeMassa": [
+    39.68404462919872,
+    -8.835256843368484
+  ]
+}

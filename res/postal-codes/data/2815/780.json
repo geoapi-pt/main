@@ -1,1 +1,413 @@
-{"CP4":"2815","CP3":"780","Distrito":"Setúbal","Concelho":"Almada","CP":"2815-780","Artéria":"Rua Leonel Ribeiro","Localidade":"Sobreda","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SOBREDA","locais":[{"id":"pt.ine.add.PTCONT.4687970","rua":"R LEONEL RIBEIRO","casa":"12","coordenadas":[38.64579137238774,-9.195701740899041]},{"id":"pt.ine.add.PTCONT.4696502","rua":"R LEONEL RIBEIRO","casa":"8","coordenadas":[38.64597004663086,-9.195865189033743]},{"id":"pt.ine.add.PTCONT.4721828","rua":"R LEONEL RIBEIRO","casa":"13","coordenadas":[38.64584895935435,-9.195312055789667]},{"id":"pt.ine.add.PTCONT.4721829","rua":"R LEONEL RIBEIRO","casa":"20","coordenadas":[38.64638414826786,-9.195894279280104]},{"id":"pt.ine.add.PTCONT.4758612","rua":"R LEONEL RIBEIRO","casa":"42","coordenadas":[38.64522495054489,-9.19459069544035]},{"id":"pt.ine.add.PTCONT.4758613","rua":"R LEONEL RIBEIRO","casa":"42","coordenadas":[38.64522495054489,-9.19459069544035]},{"id":"pt.ine.add.PTCONT.4808123","rua":"R LEONEL RIBEIRO","casa":"24","coordenadas":[38.64518158411102,-9.194406275790948]},{"id":"pt.ine.add.PTCONT.4815895","rua":"R LEONEL RIBEIRO","casa":"21","coordenadas":[38.64625899290158,-9.195789052668815]},{"id":"pt.ine.add.PTCONT.4829224","rua":"R LEONEL RIBEIRO","casa":"8","coordenadas":[38.64605917495425,-9.19596988307749]},{"id":"pt.ine.add.PTCONT.4832982","rua":"R LEONEL RIBEIRO","casa":"2","coordenadas":[38.64628225627817,-9.196202907149535]},{"id":"pt.ine.add.PTCONT.4846089","rua":"R LEONEL RIBEIRO","casa":"40","coordenadas":[38.645302050239465,-9.195028310758731]},{"id":"pt.ine.add.PTCONT.4918137","rua":"R LEONEL RIBEIRO","casa":"19","coordenadas":[38.646519249454826,-9.19589627515652]},{"id":"pt.ine.add.PTCONT.4918202","rua":"R LEONEL RIBEIRO","casa":"27","coordenadas":[38.64585128928657,-9.19604721618939]},{"id":"pt.ine.add.PTCONT.4921609","rua":"R LEONEL RIBEIRO","casa":"9","coordenadas":[38.646080735840194,-9.195579664688623]},{"id":"pt.ine.add.PTCONT.4943116","rua":"R LEONEL RIBEIRO","casa":"17","coordenadas":[38.64563509145873,-9.195056199285046]},{"id":"pt.ine.add.PTCONT.4994690","rua":"R LEONEL RIBEIRO","casa":"11","coordenadas":[38.64597390657702,-9.195440250611423]},{"id":"pt.ine.add.PTCONT.5015949","rua":"R LEONEL RIBEIRO","casa":"","coordenadas":[38.64590804278265,-9.195749409554981]},{"id":"pt.ine.add.PTCONT.5015950","rua":"R LEONEL RIBEIRO","casa":"","coordenadas":[38.64590804278265,-9.195749409554981]},{"id":"pt.ine.add.PTCONT.5045321","rua":"R LEONEL RIBEIRO","casa":"14","coordenadas":[38.6456666340762,-9.195550576414767]},{"id":"pt.ine.add.PTCONT.5102848","rua":"R LEONEL RIBEIRO","casa":"4","coordenadas":[38.6461395051602,-9.196051474606826]},{"id":"pt.ine.add.PTCONT.5121221","rua":"R LEONEL RIBEIRO","casa":"15","coordenadas":[38.64575983042299,-9.195207362859314]},{"id":"pt.ine.add.PTCONT.5131474","rua":"R LEONEL RIBEIRO","casa":"19","coordenadas":[38.64546625672678,-9.194801008886627]}],"ruas":["R LEONEL RIBEIRO"],"centroide":[38.64585575305034,-9.195508520202415]}
+{
+  "CP": "2815-780",
+  "CP4": "2815",
+  "CP3": "780",
+  "Distrito": "Setúbal",
+  "Concelho": "Almada",
+  "Localidade": "Sobreda",
+  "Designação Postal": "SOBREDA",
+  "partes": [
+    {
+      "Artéria": "Rua Leonel Ribeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4687970",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "12",
+      "coordenadas": [
+        38.64579137238774,
+        -9.195701740899041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4696502",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "8",
+      "coordenadas": [
+        38.64597004663086,
+        -9.195865189033743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4721828",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "13",
+      "coordenadas": [
+        38.64584895935435,
+        -9.195312055789667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4721829",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "20",
+      "coordenadas": [
+        38.64638414826786,
+        -9.195894279280104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4758612",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "42",
+      "coordenadas": [
+        38.64522495054489,
+        -9.19459069544035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4758613",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "42",
+      "coordenadas": [
+        38.64522495054489,
+        -9.19459069544035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4808123",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "24",
+      "coordenadas": [
+        38.64518158411102,
+        -9.194406275790948
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4815895",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "21",
+      "coordenadas": [
+        38.64625899290158,
+        -9.195789052668815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4829224",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "8",
+      "coordenadas": [
+        38.64605917495425,
+        -9.19596988307749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4832982",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "2",
+      "coordenadas": [
+        38.64628225627817,
+        -9.196202907149535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4846089",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "40",
+      "coordenadas": [
+        38.645302050239465,
+        -9.195028310758731
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4918137",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "19",
+      "coordenadas": [
+        38.646519249454826,
+        -9.19589627515652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4918202",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "27",
+      "coordenadas": [
+        38.64585128928657,
+        -9.19604721618939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4921609",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "9",
+      "coordenadas": [
+        38.646080735840194,
+        -9.195579664688623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4943116",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "17",
+      "coordenadas": [
+        38.64563509145873,
+        -9.195056199285046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4994690",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "11",
+      "coordenadas": [
+        38.64597390657702,
+        -9.195440250611423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5015949",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.64590804278265,
+        -9.195749409554981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5015950",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.64590804278265,
+        -9.195749409554981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5045321",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "14",
+      "coordenadas": [
+        38.6456666340762,
+        -9.195550576414767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5102848",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "4",
+      "coordenadas": [
+        38.6461395051602,
+        -9.196051474606826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5121221",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "15",
+      "coordenadas": [
+        38.64575983042299,
+        -9.195207362859314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5131474",
+      "rua": "R LEONEL RIBEIRO",
+      "casa": "19",
+      "coordenadas": [
+        38.64546625672678,
+        -9.194801008886627
+      ]
+    }
+  ],
+  "ruas": [
+    "R LEONEL RIBEIRO"
+  ],
+  "centro": [
+    38.64585041678292,
+    -9.195304591470242
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.64524934630827,
+                -9.194756170460327
+              ],
+              [
+                38.64523428804222,
+                -9.194678416089353
+              ],
+              [
+                38.64524201308041,
+                -9.19463366225484
+              ],
+              [
+                38.64527252142287,
+                -9.194621908956783
+              ],
+              [
+                38.645325813069576,
+                -9.194643156195188
+              ],
+              [
+                38.64540188802053,
+                -9.194697403970048
+              ],
+              [
+                38.645500746275744,
+                -9.194784652281369
+              ],
+              [
+                38.64562238783522,
+                -9.194904901129147
+              ],
+              [
+                38.64576681269894,
+                -9.195058150513384
+              ],
+              [
+                38.64593402086691,
+                -9.195244400434083
+              ],
+              [
+                38.6460766249955,
+                -9.195412160239583
+              ],
+              [
+                38.64619462508472,
+                -9.195561429929885
+              ],
+              [
+                38.646288021134545,
+                -9.195692209504994
+              ],
+              [
+                38.64635681314499,
+                -9.195804498964904
+              ],
+              [
+                38.64640100111606,
+                -9.19589829830962
+              ],
+              [
+                38.646420585047736,
+                -9.195973607539141
+              ],
+              [
+                38.646415564940035,
+                -9.196030426653463
+              ],
+              [
+                38.64638594079296,
+                -9.196068755652592
+              ],
+              [
+                38.64635328580502,
+                -9.196099860855576
+              ],
+              [
+                38.646317599976214,
+                -9.196123742262415
+              ],
+              [
+                38.64627888330656,
+                -9.196140399873114
+              ],
+              [
+                38.64623713579605,
+                -9.196149833687668
+              ],
+              [
+                38.646192357444676,
+                -9.196152043706078
+              ],
+              [
+                38.64614454825244,
+                -9.196147029928348
+              ],
+              [
+                38.64609370821934,
+                -9.196134792354473
+              ],
+              [
+                38.6460398373454,
+                -9.196115330984453
+              ],
+              [
+                38.64598411847058,
+                -9.196082381888333
+              ],
+              [
+                38.64592655159489,
+                -9.196035945066113
+              ],
+              [
+                38.64586713671834,
+                -9.195976020517788
+              ],
+              [
+                38.64580587384092,
+                -9.195902608243362
+              ],
+              [
+                38.645742762962634,
+                -9.195815708242835
+              ],
+              [
+                38.645677804083476,
+                -9.195715320516207
+              ],
+              [
+                38.645610997203455,
+                -9.195601445063478
+              ],
+              [
+                38.64554234232258,
+                -9.195474081884644
+              ],
+              [
+                38.645480387018544,
+                -9.195352919806794
+              ],
+              [
+                38.64542513129136,
+                -9.195237958829928
+              ],
+              [
+                38.645376575141036,
+                -9.195129198954042
+              ],
+              [
+                38.64533471856756,
+                -9.19502664017914
+              ],
+              [
+                38.645299561570944,
+                -9.194930282505219
+              ],
+              [
+                38.64527110415118,
+                -9.19484012593228
+              ],
+              [
+                38.64524934630827,
+                -9.194756170460327
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.645827285874006,
+    -9.195516197009024
+  ],
+  "centroDeMassa": [
+    38.64585041678292,
+    -9.195304591470242
+  ]
+}

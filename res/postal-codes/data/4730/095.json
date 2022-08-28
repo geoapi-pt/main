@@ -1,1 +1,584 @@
-{"CP4":"4730","CP3":"095","Distrito":"Braga","Concelho":"Vila Verde","CP":"4730-095","Artéria":"Largo do Gira","Localidade":"Cabanelas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CABANELAS VVD","locais":[{"id":"pt.ine.add.PTCONT.472932","rua":"R JOSE COIMBRA","casa":"12","coordenadas":[41.581366167925474,-8.502018196654033]},{"id":"pt.ine.add.PTCONT.483862","rua":"R MONTE","casa":"25","coordenadas":[41.58174708343087,-8.501156965130948]},{"id":"pt.ine.add.PTCONT.493118","rua":"TV JOSE COIMBRA","casa":"15","coordenadas":[41.58150822211101,-8.502642569140729]},{"id":"pt.ine.add.PTCONT.502653","rua":"R JOSE COIMBRA","casa":"16","coordenadas":[41.58142880786778,-8.502138469170673]},{"id":"pt.ine.add.PTCONT.502654","rua":"TV A RUA DO MONTE","casa":"11","coordenadas":[41.58193292889462,-8.502165322697422]},{"id":"pt.ine.add.PTCONT.508364","rua":"R MONTE","casa":"4","coordenadas":[41.58138322361781,-8.49950005931761]},{"id":"pt.ine.add.PTCONT.516892","rua":"R JOSE COIMBRA","casa":"14","coordenadas":[41.58140202816127,-8.502066367132345]},{"id":"pt.ine.add.PTCONT.565015","rua":"R MONTE","casa":"31A","coordenadas":[41.58214197161675,-8.501554934586967]},{"id":"pt.ine.add.PTCONT.579408","rua":"R MONTE","casa":"5","coordenadas":[41.58102036585795,-8.500349406564133]},{"id":"pt.ine.add.PTCONT.584224","rua":"TV A RUA DO MONTE","casa":"20","coordenadas":[41.58177956082721,-8.502260382778404]},{"id":"pt.ine.add.PTCONT.588422","rua":"LG GIRA","casa":"3","coordenadas":[41.58083611291393,-8.501655435202387]},{"id":"pt.ine.add.PTCONT.606186","rua":"R MONTE","casa":"28","coordenadas":[41.581982019562716,-8.500894481684078]},{"id":"pt.ine.add.PTCONT.636401","rua":"R MONTE","casa":"","coordenadas":[41.58143487328125,-8.500243830602304]},{"id":"pt.ine.add.PTCONT.685276","rua":"R MONTE","casa":"","coordenadas":[41.5835105473051,-8.501550722430567]},{"id":"pt.ine.add.PTCONT.691503","rua":"R S JOSE","casa":"1","coordenadas":[41.581522263673534,-8.501071747239823]},{"id":"pt.ine.add.PTCONT.692039","rua":"TV A RUA DO MONTE","casa":"1","coordenadas":[41.582285951328686,-8.501579736549767]},{"id":"pt.ine.add.PTCONT.700083","rua":"TV JOSE COIMBRA","casa":"5","coordenadas":[41.58104565167915,-8.500889168672865]},{"id":"pt.ine.add.PTCONT.700088","rua":"R S JOSE","casa":"8","coordenadas":[41.58153777364438,-8.501851290645694]},{"id":"pt.ine.add.PTCONT.700089","rua":"R S JOSE","casa":"8","coordenadas":[41.58153777364438,-8.501851290645694]},{"id":"pt.ine.add.PTCONT.700095","rua":"R MONTE","casa":"","coordenadas":[41.58165946385157,-8.500400994068665]},{"id":"pt.ine.add.PTCONT.726939","rua":"TV A RUA DO MONTE","casa":"9","coordenadas":[41.581915806777836,-8.501889416320529]},{"id":"pt.ine.add.PTCONT.729901","rua":"TV JOSE COIMBRA","casa":"4","coordenadas":[41.5812195307286,-8.502820796729132]},{"id":"pt.ine.add.PTCONT.738785","rua":"R JOSE COIMBRA","casa":"6","coordenadas":[41.58128001213435,-8.500806557412256]},{"id":"pt.ine.add.PTCONT.741843","rua":"R MONTE","casa":"24","coordenadas":[41.58178447864203,-8.500725477470255]},{"id":"pt.ine.add.PTCONT.746935","rua":"R MONTE","casa":"45","coordenadas":[41.58356245308415,-8.502210577244824]},{"id":"pt.ine.add.PTCONT.748227","rua":"R MONTE","casa":"10","coordenadas":[41.5810592108363,-8.499462253231146]},{"id":"pt.ine.add.PTCONT.754465","rua":"R MONTE","casa":"13","coordenadas":[41.5808871497558,-8.4997730597818]},{"id":"pt.ine.add.PTCONT.757062","rua":"R MONTE","casa":"31","coordenadas":[41.58229587682084,-8.501291990706731]},{"id":"pt.ine.add.PTCONT.774908","rua":"LG GIRA","casa":"4","coordenadas":[41.58092683994917,-8.501440103909726]},{"id":"pt.ine.add.PTCONT.819044","rua":"R MONTE","casa":"","coordenadas":[41.58089806375219,-8.499173546375387]},{"id":"pt.ine.add.PTCONT.838385","rua":"R JOSE COIMBRA","casa":"8","coordenadas":[41.58133242161911,-8.501310501200711]},{"id":"pt.ine.add.PTCONT.839275","rua":"R JOSE COIMBRA","casa":"18","coordenadas":[41.58147347911009,-8.502246647976792]},{"id":"pt.ine.add.PTCONT.845542","rua":"R JOSE COIMBRA","casa":"10","coordenadas":[41.581339388142766,-8.501946094734713]}],"ruas":["R JOSE COIMBRA","R MONTE","TV JOSE COIMBRA","TV A RUA DO MONTE","LG GIRA","R S JOSE"],"centroide":[41.581615566075186,-8.501281009352324]}01281009352324]}
+{
+  "CP": "4730-095",
+  "CP4": "4730",
+  "CP3": "095",
+  "Distrito": "Braga",
+  "Concelho": "Vila Verde",
+  "Localidade": "Cabanelas",
+  "Designação Postal": "CABANELAS VVD",
+  "partes": [
+    {
+      "Artéria": "Rua do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa À Rua do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de São José",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua José Coimbra",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa à Rua José Coimbra",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo do Gira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.472932",
+      "rua": "R JOSE COIMBRA",
+      "casa": "12",
+      "coordenadas": [
+        41.581366167925474,
+        -8.502018196654033
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.483862",
+      "rua": "R MONTE",
+      "casa": "25",
+      "coordenadas": [
+        41.58174708343087,
+        -8.501156965130948
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.493118",
+      "rua": "TV JOSE COIMBRA",
+      "casa": "15",
+      "coordenadas": [
+        41.58150822211101,
+        -8.502642569140729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.502653",
+      "rua": "R JOSE COIMBRA",
+      "casa": "16",
+      "coordenadas": [
+        41.58142880786778,
+        -8.502138469170673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.502654",
+      "rua": "TV A RUA DO MONTE",
+      "casa": "11",
+      "coordenadas": [
+        41.58193292889462,
+        -8.502165322697422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.508364",
+      "rua": "R MONTE",
+      "casa": "4",
+      "coordenadas": [
+        41.58138322361781,
+        -8.49950005931761
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.516892",
+      "rua": "R JOSE COIMBRA",
+      "casa": "14",
+      "coordenadas": [
+        41.58140202816127,
+        -8.502066367132345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.565015",
+      "rua": "R MONTE",
+      "casa": "31A",
+      "coordenadas": [
+        41.58214197161675,
+        -8.501554934586967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.579408",
+      "rua": "R MONTE",
+      "casa": "5",
+      "coordenadas": [
+        41.58102036585795,
+        -8.500349406564133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.584224",
+      "rua": "TV A RUA DO MONTE",
+      "casa": "20",
+      "coordenadas": [
+        41.58177956082721,
+        -8.502260382778404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.588422",
+      "rua": "LG GIRA",
+      "casa": "3",
+      "coordenadas": [
+        41.58083611291393,
+        -8.501655435202387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.606186",
+      "rua": "R MONTE",
+      "casa": "28",
+      "coordenadas": [
+        41.581982019562716,
+        -8.500894481684078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.636401",
+      "rua": "R MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.58143487328125,
+        -8.500243830602304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.685276",
+      "rua": "R MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.5835105473051,
+        -8.501550722430567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.691503",
+      "rua": "R S JOSE",
+      "casa": "1",
+      "coordenadas": [
+        41.581522263673534,
+        -8.501071747239823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.692039",
+      "rua": "TV A RUA DO MONTE",
+      "casa": "1",
+      "coordenadas": [
+        41.582285951328686,
+        -8.501579736549767
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.700083",
+      "rua": "TV JOSE COIMBRA",
+      "casa": "5",
+      "coordenadas": [
+        41.58104565167915,
+        -8.500889168672865
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.700088",
+      "rua": "R S JOSE",
+      "casa": "8",
+      "coordenadas": [
+        41.58153777364438,
+        -8.501851290645694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.700089",
+      "rua": "R S JOSE",
+      "casa": "8",
+      "coordenadas": [
+        41.58153777364438,
+        -8.501851290645694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.700095",
+      "rua": "R MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.58165946385157,
+        -8.500400994068665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.726939",
+      "rua": "TV A RUA DO MONTE",
+      "casa": "9",
+      "coordenadas": [
+        41.581915806777836,
+        -8.501889416320529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.729901",
+      "rua": "TV JOSE COIMBRA",
+      "casa": "4",
+      "coordenadas": [
+        41.5812195307286,
+        -8.502820796729132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.738785",
+      "rua": "R JOSE COIMBRA",
+      "casa": "6",
+      "coordenadas": [
+        41.58128001213435,
+        -8.500806557412256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.741843",
+      "rua": "R MONTE",
+      "casa": "24",
+      "coordenadas": [
+        41.58178447864203,
+        -8.500725477470255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.746935",
+      "rua": "R MONTE",
+      "casa": "45",
+      "coordenadas": [
+        41.58356245308415,
+        -8.502210577244824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.748227",
+      "rua": "R MONTE",
+      "casa": "10",
+      "coordenadas": [
+        41.5810592108363,
+        -8.499462253231146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.754465",
+      "rua": "R MONTE",
+      "casa": "13",
+      "coordenadas": [
+        41.5808871497558,
+        -8.4997730597818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.757062",
+      "rua": "R MONTE",
+      "casa": "31",
+      "coordenadas": [
+        41.58229587682084,
+        -8.501291990706731
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.774908",
+      "rua": "LG GIRA",
+      "casa": "4",
+      "coordenadas": [
+        41.58092683994917,
+        -8.501440103909726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.819044",
+      "rua": "R MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.58089806375219,
+        -8.499173546375387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.838385",
+      "rua": "R JOSE COIMBRA",
+      "casa": "8",
+      "coordenadas": [
+        41.58133242161911,
+        -8.501310501200711
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.839275",
+      "rua": "R JOSE COIMBRA",
+      "casa": "18",
+      "coordenadas": [
+        41.58147347911009,
+        -8.502246647976792
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.845542",
+      "rua": "R JOSE COIMBRA",
+      "casa": "10",
+      "coordenadas": [
+        41.581339388142766,
+        -8.501946094734713
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE COIMBRA",
+    "R MONTE",
+    "TV JOSE COIMBRA",
+    "TV A RUA DO MONTE",
+    "LG GIRA",
+    "R S JOSE"
+  ],
+  "centro": [
+    41.58219928299904,
+    -8.50099717155226
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.58105178543469,
+                -8.502310951061181
+              ],
+              [
+                41.58100385820784,
+                -8.502165280870338
+              ],
+              [
+                41.580962889866214,
+                -8.50199903994043
+              ],
+              [
+                41.58092888040978,
+                -8.501812228271454
+              ],
+              [
+                41.58090182983855,
+                -8.501604845863412
+              ],
+              [
+                41.58088173815253,
+                -8.501376892716301
+              ],
+              [
+                41.580868605351704,
+                -8.501128368830125
+              ],
+              [
+                41.58086243143608,
+                -8.500859274204883
+              ],
+              [
+                41.58086321640566,
+                -8.500569608840575
+              ],
+              [
+                41.580870960260455,
+                -8.500259372737201
+              ],
+              [
+                41.58088531675629,
+                -8.49999301791147
+              ],
+              [
+                41.58090628589318,
+                -8.49977054436338
+              ],
+              [
+                41.58093386767112,
+                -8.499591952092938
+              ],
+              [
+                41.58096806209011,
+                -8.49945724110014
+              ],
+              [
+                41.58100886915015,
+                -8.499366411384985
+              ],
+              [
+                41.581056288851244,
+                -8.499319462947476
+              ],
+              [
+                41.5811103211934,
+                -8.49931639578761
+              ],
+              [
+                41.5811709661766,
+                -8.499357209905387
+              ],
+              [
+                41.58125726996951,
+                -8.499424963869583
+              ],
+              [
+                41.58136923257214,
+                -8.499519657680196
+              ],
+              [
+                41.58150685398449,
+                -8.499641291337227
+              ],
+              [
+                41.58167013420655,
+                -8.499789864840675
+              ],
+              [
+                41.58185907323832,
+                -8.499965378190542
+              ],
+              [
+                41.58207367107981,
+                -8.500167831386825
+              ],
+              [
+                41.58231392773101,
+                -8.500397224429529
+              ],
+              [
+                41.58257984319191,
+                -8.500653557318648
+              ],
+              [
+                41.582813330248,
+                -8.5008881588281
+              ],
+              [
+                41.58301438889929,
+                -8.501101028957887
+              ],
+              [
+                41.58318301914575,
+                -8.501292167708005
+              ],
+              [
+                41.58331922098739,
+                -8.501461575078455
+              ],
+              [
+                41.583422994424225,
+                -8.501609251069238
+              ],
+              [
+                41.58349433945624,
+                -8.501735195680356
+              ],
+              [
+                41.583533256083435,
+                -8.501839408911804
+              ],
+              [
+                41.58353974430582,
+                -8.501921890763587
+              ],
+              [
+                41.5835088133386,
+                -8.502003597063338
+              ],
+              [
+                41.58344046318177,
+                -8.502084527811059
+              ],
+              [
+                41.58333469383534,
+                -8.50216468300675
+              ],
+              [
+                41.58319150529931,
+                -8.50224406265041
+              ],
+              [
+                41.58301089757367,
+                -8.50232266674204
+              ],
+              [
+                41.58279287065844,
+                -8.50240049528164
+              ],
+              [
+                41.5825374245536,
+                -8.502477548269209
+              ],
+              [
+                41.58224455925915,
+                -8.502553825704748
+              ],
+              [
+                41.581982311223165,
+                -8.502602359686989
+              ],
+              [
+                41.581750680445616,
+                -8.502623150215932
+              ],
+              [
+                41.58154966692653,
+                -8.502616197291577
+              ],
+              [
+                41.5813792706659,
+                -8.502581500913923
+              ],
+              [
+                41.58123949166371,
+                -8.502519061082975
+              ],
+              [
+                41.58113032991997,
+                -8.502428877798726
+              ],
+              [
+                41.58105178543469,
+                -8.502310951061181
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.58190165523363,
+    -8.501151856216651
+  ],
+  "centroDeMassa": [
+    41.58219928299904,
+    -8.50099717155226
+  ]
+}

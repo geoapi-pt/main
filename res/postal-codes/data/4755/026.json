@@ -1,1 +1,551 @@
-{"CP4":"4755","CP3":"026","Distrito":"Braga","Concelho":"Barcelos","CP":"4755-026","Artéria":"Rua do Senhor da Cruz","Localidade":"Alvelos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALVELOS","locais":[{"id":"pt.ine.add.PTCONT.478460","rua":"R SANTO ANTÓNIO","casa":"94","coordenadas":[41.51383866608089,-8.622491729416243]},{"id":"pt.ine.add.PTCONT.485734","rua":"R LAMACÃES","casa":"240","coordenadas":[41.513253285604534,-8.622523257265868]},{"id":"pt.ine.add.PTCONT.485735","rua":"R LAMACÃES","casa":"240","coordenadas":[41.513253285604534,-8.622523257265868]},{"id":"pt.ine.add.PTCONT.503374","rua":"R LAMACÃES","casa":"236","coordenadas":[41.51318202207199,-8.622343035881832]},{"id":"pt.ine.add.PTCONT.506317","rua":"R SANTO ANTÓNIO","casa":"110","coordenadas":[41.51388439706979,-8.622324366435281]},{"id":"pt.ine.add.PTCONT.509076","rua":"R LAMACÃES","casa":"211","coordenadas":[41.51294015009311,-8.622053720391444]},{"id":"pt.ine.add.PTCONT.527406","rua":"R LAMACÃES","casa":"219","coordenadas":[41.51301929651191,-8.62249753687228]},{"id":"pt.ine.add.PTCONT.536392","rua":"R SANTO ANTÓNIO","casa":"300","coordenadas":[41.51439683150284,-8.62038759496674]},{"id":"pt.ine.add.PTCONT.560084","rua":"R LAMACÃES","casa":"","coordenadas":[41.51312027106398,-8.62204309687698]},{"id":"pt.ine.add.PTCONT.562883","rua":"R MURO ALTO","casa":"64","coordenadas":[41.514276572771045,-8.623261695008944]},{"id":"pt.ine.add.PTCONT.562884","rua":"R MURO ALTO","casa":"56","coordenadas":[41.514276572771045,-8.623261695008944]},{"id":"pt.ine.add.PTCONT.625152","rua":"R MURO ALTO","casa":"88","coordenadas":[41.5144924014551,-8.623323219326709]},{"id":"pt.ine.add.PTCONT.625153","rua":"R MURO ALTO","casa":"80","coordenadas":[41.5144924014551,-8.623323219326709]},{"id":"pt.ine.add.PTCONT.629381","rua":"R SANTO ANTÓNIO","casa":"195","coordenadas":[41.51427439912264,-8.62165646925024]},{"id":"pt.ine.add.PTCONT.638984","rua":"R LAMACÃES","casa":"136","coordenadas":[41.51349048379508,-8.621794323146005]},{"id":"pt.ine.add.PTCONT.677137","rua":"R SANTO ANTÓNIO","casa":"368","coordenadas":[41.514381309915706,-8.61980049802258]},{"id":"pt.ine.add.PTCONT.688973","rua":"R SANTO ANTÓNIO","casa":"88","coordenadas":[41.513739066809734,-8.622622749053066]},{"id":"pt.ine.add.PTCONT.688974","rua":"R SANTO ANTÓNIO","casa":"295","coordenadas":[41.514558742276556,-8.620424746969878]},{"id":"pt.ine.add.PTCONT.688977","rua":"R CABINE","casa":"28","coordenadas":[41.51395022219678,-8.621666010765777]},{"id":"pt.ine.add.PTCONT.739556","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[41.51419824685422,-8.620505897214219]},{"id":"pt.ine.add.PTCONT.739569","rua":"R LAMACÃES","casa":"162","coordenadas":[41.51340894322613,-8.621913500003155]},{"id":"pt.ine.add.PTCONT.762000","rua":"R SANTO ANTÓNIO","casa":"91","coordenadas":[41.51389136614485,-8.620683281672951]},{"id":"pt.ine.add.PTCONT.769609","rua":"R MURO ALTO","casa":"18","coordenadas":[41.5138899838096,-8.623127008428439]},{"id":"pt.ine.add.PTCONT.772201","rua":"R MURO ALTO","casa":"18","coordenadas":[41.5138899838096,-8.623127008428439]},{"id":"pt.ine.add.PTCONT.787500","rua":"R SANTO ANTÓNIO","casa":"5","coordenadas":[41.5143147846661,-8.62062656326814]},{"id":"pt.ine.add.PTCONT.805717","rua":"R STO ANTONIO","casa":"1","coordenadas":[41.51385494582462,-8.620778841142103]},{"id":"pt.ine.add.PTCONT.811937","rua":"R LAMACÃES","casa":"30","coordenadas":[41.51429505048235,-8.62103370726035]},{"id":"pt.ine.add.PTCONT.826729","rua":"R SANTO ANTÓNIO","casa":"124","coordenadas":[41.513993457922446,-8.622085605168971]},{"id":"pt.ine.add.PTCONT.826730","rua":"R SANTO ANTÓNIO","casa":"124","coordenadas":[41.513993457922446,-8.622085605168971]},{"id":"pt.ine.add.PTCONT.826731","rua":"R SANTO ANTÓNIO","casa":"124","coordenadas":[41.513993457922446,-8.622085605168971]},{"id":"pt.ine.add.PTCONT.840076","rua":"R SANTO ANTÓNIO","casa":"213","coordenadas":[41.51433823763756,-8.621465282298175]},{"id":"pt.ine.add.PTCONT.847325","rua":"R CABINE","casa":"547","coordenadas":[41.515398618716546,-8.628265561930695]},{"id":"pt.ine.add.PTCONT.847711","rua":"R SANTO ANTÓNIO","casa":"83","coordenadas":[41.513927375386466,-8.622803854457501]}],"ruas":["R SANTO ANTÓNIO","R LAMACÃES","R MURO ALTO","R CABINE","R STO ANTONIO"],"centroide":[41.513946278534725,-8.622128302762656]}}
+{
+  "CP": "4755-026",
+  "CP4": "4755",
+  "CP3": "026",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Alvelos",
+  "Designação Postal": "ALVELOS",
+  "partes": [
+    {
+      "Artéria": "Rua de Santo António",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Lamaçães",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Lamaçães",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Muro Alto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Cabine",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Senhor da Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.478460",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "94",
+      "coordenadas": [
+        41.51383866608089,
+        -8.622491729416243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.485734",
+      "rua": "R LAMACÃES",
+      "casa": "240",
+      "coordenadas": [
+        41.513253285604534,
+        -8.622523257265868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.485735",
+      "rua": "R LAMACÃES",
+      "casa": "240",
+      "coordenadas": [
+        41.513253285604534,
+        -8.622523257265868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.503374",
+      "rua": "R LAMACÃES",
+      "casa": "236",
+      "coordenadas": [
+        41.51318202207199,
+        -8.622343035881832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.506317",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "110",
+      "coordenadas": [
+        41.51388439706979,
+        -8.622324366435281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.509076",
+      "rua": "R LAMACÃES",
+      "casa": "211",
+      "coordenadas": [
+        41.51294015009311,
+        -8.622053720391444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.527406",
+      "rua": "R LAMACÃES",
+      "casa": "219",
+      "coordenadas": [
+        41.51301929651191,
+        -8.62249753687228
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.536392",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "300",
+      "coordenadas": [
+        41.51439683150284,
+        -8.62038759496674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.560084",
+      "rua": "R LAMACÃES",
+      "casa": "",
+      "coordenadas": [
+        41.51312027106398,
+        -8.62204309687698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.562883",
+      "rua": "R MURO ALTO",
+      "casa": "64",
+      "coordenadas": [
+        41.514276572771045,
+        -8.623261695008944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.562884",
+      "rua": "R MURO ALTO",
+      "casa": "56",
+      "coordenadas": [
+        41.514276572771045,
+        -8.623261695008944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.625152",
+      "rua": "R MURO ALTO",
+      "casa": "88",
+      "coordenadas": [
+        41.5144924014551,
+        -8.623323219326709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.625153",
+      "rua": "R MURO ALTO",
+      "casa": "80",
+      "coordenadas": [
+        41.5144924014551,
+        -8.623323219326709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.629381",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "195",
+      "coordenadas": [
+        41.51427439912264,
+        -8.62165646925024
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.638984",
+      "rua": "R LAMACÃES",
+      "casa": "136",
+      "coordenadas": [
+        41.51349048379508,
+        -8.621794323146005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.677137",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "368",
+      "coordenadas": [
+        41.514381309915706,
+        -8.61980049802258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.688973",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "88",
+      "coordenadas": [
+        41.513739066809734,
+        -8.622622749053066
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.688974",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "295",
+      "coordenadas": [
+        41.514558742276556,
+        -8.620424746969878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.688977",
+      "rua": "R CABINE",
+      "casa": "28",
+      "coordenadas": [
+        41.51395022219678,
+        -8.621666010765777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.739556",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        41.51419824685422,
+        -8.620505897214219
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.739569",
+      "rua": "R LAMACÃES",
+      "casa": "162",
+      "coordenadas": [
+        41.51340894322613,
+        -8.621913500003155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.762000",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "91",
+      "coordenadas": [
+        41.51389136614485,
+        -8.620683281672951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.769609",
+      "rua": "R MURO ALTO",
+      "casa": "18",
+      "coordenadas": [
+        41.5138899838096,
+        -8.623127008428439
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.772201",
+      "rua": "R MURO ALTO",
+      "casa": "18",
+      "coordenadas": [
+        41.5138899838096,
+        -8.623127008428439
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.787500",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "5",
+      "coordenadas": [
+        41.5143147846661,
+        -8.62062656326814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.805717",
+      "rua": "R STO ANTONIO",
+      "casa": "1",
+      "coordenadas": [
+        41.51385494582462,
+        -8.620778841142103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.811937",
+      "rua": "R LAMACÃES",
+      "casa": "30",
+      "coordenadas": [
+        41.51429505048235,
+        -8.62103370726035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.826729",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "124",
+      "coordenadas": [
+        41.513993457922446,
+        -8.622085605168971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.826730",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "124",
+      "coordenadas": [
+        41.513993457922446,
+        -8.622085605168971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.826731",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "124",
+      "coordenadas": [
+        41.513993457922446,
+        -8.622085605168971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.840076",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "213",
+      "coordenadas": [
+        41.51433823763756,
+        -8.621465282298175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.847325",
+      "rua": "R CABINE",
+      "casa": "547",
+      "coordenadas": [
+        41.515398618716546,
+        -8.628265561930695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.847711",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "83",
+      "coordenadas": [
+        41.513927375386466,
+        -8.622803854457501
+      ]
+    }
+  ],
+  "ruas": [
+    "R SANTO ANTÓNIO",
+    "R LAMACÃES",
+    "R MURO ALTO",
+    "R CABINE",
+    "R STO ANTONIO"
+  ],
+  "centro": [
+    41.51416938440482,
+    -8.624033029976637
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.51298466995368,
+                -8.622303367161914
+              ],
+              [
+                41.51297477665133,
+                -8.622247890101809
+              ],
+              [
+                41.512988638134004,
+                -8.622164141074705
+              ],
+              [
+                41.513026254401694,
+                -8.6220521200806
+              ],
+              [
+                41.51308762545442,
+                -8.621911827119494
+              ],
+              [
+                41.51317275129215,
+                -8.621743262191387
+              ],
+              [
+                41.513281631914914,
+                -8.62154642529628
+              ],
+              [
+                41.513414267322695,
+                -8.621321316434173
+              ],
+              [
+                41.513570657515494,
+                -8.621067935605065
+              ],
+              [
+                41.51375080249332,
+                -8.620786282808957
+              ],
+              [
+                41.51391120172955,
+                -8.620549590502165
+              ],
+              [
+                41.5140518552242,
+                -8.620357858684686
+              ],
+              [
+                41.51417276297725,
+                -8.620211087356523
+              ],
+              [
+                41.51427392498872,
+                -8.620109276517674
+              ],
+              [
+                41.51435534125859,
+                -8.620052426168142
+              ],
+              [
+                41.51441701178689,
+                -8.620040536307926
+              ],
+              [
+                41.51445893657358,
+                -8.620073606937023
+              ],
+              [
+                41.514481115618686,
+                -8.620151638055434
+              ],
+              [
+                41.51451364535252,
+                -8.620342428017807
+              ],
+              [
+                41.514556525775106,
+                -8.620645976824143
+              ],
+              [
+                41.514609756886415,
+                -8.621062284474439
+              ],
+              [
+                41.51467333868648,
+                -8.621591350968696
+              ],
+              [
+                41.51474727117527,
+                -8.622233176306914
+              ],
+              [
+                41.51483155435279,
+                -8.622987760489094
+              ],
+              [
+                41.51492618821905,
+                -8.623855103515234
+              ],
+              [
+                41.51503117277405,
+                -8.624835205385336
+              ],
+              [
+                41.51508585735023,
+                -8.625602669130139
+              ],
+              [
+                41.515090241947576,
+                -8.626157494749638
+              ],
+              [
+                41.51504432656611,
+                -8.62649968224384
+              ],
+              [
+                41.514948111205825,
+                -8.626629231612739
+              ],
+              [
+                41.514801595866714,
+                -8.62654614285634
+              ],
+              [
+                41.51460478054878,
+                -8.626250415974638
+              ],
+              [
+                41.51435766525202,
+                -8.625742050967638
+              ],
+              [
+                41.51406024997644,
+                -8.625021047835336
+              ],
+              [
+                41.51379877494751,
+                -8.624383235462059
+              ],
+              [
+                41.513573240165236,
+                -8.623828613847806
+              ],
+              [
+                41.51338364562962,
+                -8.623357182992578
+              ],
+              [
+                41.51322999134065,
+                -8.622968942896375
+              ],
+              [
+                41.51311227729834,
+                -8.622663893559196
+              ],
+              [
+                41.513030503502684,
+                -8.622442034981042
+              ],
+              [
+                41.51298466995368,
+                -8.622303367161914
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.51405962350277,
+    -8.622608412837376
+  ],
+  "centroDeMassa": [
+    41.51416938440482,
+    -8.624033029976637
+  ]
+}

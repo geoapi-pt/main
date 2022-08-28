@@ -1,1 +1,419 @@
-{"CP4":"2140","CP3":"131","Distrito":"Santarém","Concelho":"Chamusca","CP":"2140-131","Artéria":"Rua José Luciano de Castro","Localidade":"Chamusca","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CHAMUSCA","locais":[{"id":"pt.ine.add.PTCONT.4393685","rua":"R JOSE LUCIANO CASTRO","casa":"36","coordenadas":[39.35576169799732,-8.484896659375162]},{"id":"pt.ine.add.PTCONT.4397896","rua":"R JOSE LUCIANO DE CASTRO","casa":"21","coordenadas":[39.35607757514022,-8.484689404749114]},{"id":"pt.ine.add.PTCONT.4401868","rua":"R JOSE LUCIANO DE CASTRO","casa":"Z8","coordenadas":[39.3560678669015,-8.484921399217326]},{"id":"pt.ine.add.PTCONT.4410326","rua":"R JOSE LUCIANO DE CASTRO","casa":"26","coordenadas":[39.35612201429511,-8.48488686430696]},{"id":"pt.ine.add.PTCONT.4432774","rua":"R JOSE LUCIANO DE CASTRO","casa":"8","coordenadas":[39.35644714374484,-8.484598439424808]},{"id":"pt.ine.add.PTCONT.4432775","rua":"R JOSE LUCIANO DE CASTRO","casa":"27","coordenadas":[39.35596020331323,-8.484781633549892]},{"id":"pt.ine.add.PTCONT.4434174","rua":"R JOSE LUCIANO DE CASTRO","casa":"2","coordenadas":[39.35672678207646,-8.484460613553285]},{"id":"pt.ine.add.PTCONT.4470400","rua":"R JOSE LUCIANO DE CASTRO","casa":"6","coordenadas":[39.35655536825797,-8.484552572805118]},{"id":"pt.ine.add.PTCONT.4474173","rua":"R JOSE LUCIANO DE CASTRO","casa":"40","coordenadas":[39.355318387799535,-8.485544149896928]},{"id":"pt.ine.add.PTCONT.4495503","rua":"R JOSE LUCIANO DE CASTRO","casa":"25","coordenadas":[39.356023357697374,-8.48474714373755]},{"id":"pt.ine.add.PTCONT.4532665","rua":"R JOSE LUCIANO DE CASTRO","casa":"11","coordenadas":[39.356249059153875,-8.48457424242833]},{"id":"pt.ine.add.PTCONT.4534758","rua":"R JOSE LUCIANO DE CASTRO","casa":"24","coordenadas":[39.356185238836645,-8.484829170511038]},{"id":"pt.ine.add.PTCONT.4537812","rua":"R JOSE LUCIANO DE CASTRO","casa":"1","coordenadas":[39.356673160130875,-8.484321117869206]},{"id":"pt.ine.add.PTCONT.4549961","rua":"R JOSE LUCIANO DE CASTRO","casa":"14","coordenadas":[39.356311582673705,-8.484748588671074]},{"id":"pt.ine.add.PTCONT.4550558","rua":"R JOSE LUCIANO CASTRO","casa":"33","coordenadas":[39.355626241781906,-8.485012000862795]},{"id":"pt.ine.add.PTCONT.4552695","rua":"R JOSE LUCIANO DE CASTRO","casa":"16","coordenadas":[39.356257400263075,-8.484794725792785]},{"id":"pt.ine.add.PTCONT.4555295","rua":"R JOSE LUCIANO DE CASTRO","casa":"35","coordenadas":[39.35558092594432,-8.485104590125705]},{"id":"pt.ine.add.PTCONT.4597956","rua":"R JOSE LUCIANO DE CASTRO","casa":"10","coordenadas":[39.35640186328525,-8.484679428000948]},{"id":"pt.ine.add.PTCONT.4613133","rua":"R JOSE LUCIANO DE CASTRO","casa":"12","coordenadas":[39.356347751005366,-8.484702361180986]}],"ruas":["R JOSE LUCIANO CASTRO","R JOSE LUCIANO DE CASTRO"],"centroide":[39.35613032607185,-8.484785708048777]}
+{
+  "CP": "2140-131",
+  "CP4": "2140",
+  "CP3": "131",
+  "Distrito": "Santarém",
+  "Concelho": "Chamusca",
+  "Localidade": "Chamusca",
+  "Designação Postal": "CHAMUSCA",
+  "partes": [
+    {
+      "Artéria": "Rua José Luciano de Castro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4393685",
+      "rua": "R JOSE LUCIANO CASTRO",
+      "casa": "36",
+      "coordenadas": [
+        39.35576169799732,
+        -8.484896659375162
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4397896",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "21",
+      "coordenadas": [
+        39.35607757514022,
+        -8.484689404749114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4401868",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "Z8",
+      "coordenadas": [
+        39.3560678669015,
+        -8.484921399217326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4410326",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "26",
+      "coordenadas": [
+        39.35612201429511,
+        -8.48488686430696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4432774",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "8",
+      "coordenadas": [
+        39.35644714374484,
+        -8.484598439424808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4432775",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "27",
+      "coordenadas": [
+        39.35596020331323,
+        -8.484781633549892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4434174",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "2",
+      "coordenadas": [
+        39.35672678207646,
+        -8.484460613553285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470400",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "6",
+      "coordenadas": [
+        39.35655536825797,
+        -8.484552572805118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4474173",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "40",
+      "coordenadas": [
+        39.355318387799535,
+        -8.485544149896928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4495503",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "25",
+      "coordenadas": [
+        39.356023357697374,
+        -8.48474714373755
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532665",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "11",
+      "coordenadas": [
+        39.356249059153875,
+        -8.48457424242833
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4534758",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "24",
+      "coordenadas": [
+        39.356185238836645,
+        -8.484829170511038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4537812",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "1",
+      "coordenadas": [
+        39.356673160130875,
+        -8.484321117869206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4549961",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "14",
+      "coordenadas": [
+        39.356311582673705,
+        -8.484748588671074
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4550558",
+      "rua": "R JOSE LUCIANO CASTRO",
+      "casa": "33",
+      "coordenadas": [
+        39.355626241781906,
+        -8.485012000862795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4552695",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "16",
+      "coordenadas": [
+        39.356257400263075,
+        -8.484794725792785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4555295",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "35",
+      "coordenadas": [
+        39.35558092594432,
+        -8.485104590125705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4597956",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "10",
+      "coordenadas": [
+        39.35640186328525,
+        -8.484679428000948
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4613133",
+      "rua": "R JOSE LUCIANO DE CASTRO",
+      "casa": "12",
+      "coordenadas": [
+        39.356347751005366,
+        -8.484702361180986
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE LUCIANO CASTRO",
+    "R JOSE LUCIANO DE CASTRO"
+  ],
+  "centro": [
+    39.356022584937996,
+    -8.484932633883066
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.3561106095803,
+                -8.48493466070363
+              ],
+              [
+                39.355934560295694,
+                -8.485070102746583
+              ],
+              [
+                39.35578532739012,
+                -8.485180299705512
+              ],
+              [
+                39.355662910863614,
+                -8.485265251580412
+              ],
+              [
+                39.355567310716154,
+                -8.485324958371283
+              ],
+              [
+                39.35549852694774,
+                -8.48535942007813
+              ],
+              [
+                39.35545655955839,
+                -8.485368636700946
+              ],
+              [
+                39.355441408548074,
+                -8.485352608239733
+              ],
+              [
+                39.35545307391682,
+                -8.485311334694494
+              ],
+              [
+                39.35549155566462,
+                -8.48524481606523
+              ],
+              [
+                39.35552734369731,
+                -8.485184810053877
+              ],
+              [
+                39.355560438014884,
+                -8.485131316660436
+              ],
+              [
+                39.35559083861735,
+                -8.485084335884912
+              ],
+              [
+                39.35561854550472,
+                -8.4850438677273
+              ],
+              [
+                39.35564355867697,
+                -8.485009912187603
+              ],
+              [
+                39.35566587813411,
+                -8.484982469265823
+              ],
+              [
+                39.35568550387615,
+                -8.484961538961954
+              ],
+              [
+                39.355702435903076,
+                -8.484947121276
+              ],
+              [
+                39.35572486644471,
+                -8.484929468035997
+              ],
+              [
+                39.355752795501054,
+                -8.484908579241942
+              ],
+              [
+                39.355786223072094,
+                -8.48488445489384
+              ],
+              [
+                39.35582514915784,
+                -8.484857094991685
+              ],
+              [
+                39.35586957375829,
+                -8.484826499535481
+              ],
+              [
+                39.355919496873454,
+                -8.484792668525227
+              ],
+              [
+                39.35597491850332,
+                -8.484755601960924
+              ],
+              [
+                39.356035838647884,
+                -8.484715299842568
+              ],
+              [
+                39.35609577035215,
+                -8.484676080417772
+              ],
+              [
+                39.356154713616114,
+                -8.484637943686534
+              ],
+              [
+                39.35621266843977,
+                -8.484600889648855
+              ],
+              [
+                39.35626963482311,
+                -8.484564918304732
+              ],
+              [
+                39.35632561276614,
+                -8.484530029654168
+              ],
+              [
+                39.356380602268885,
+                -8.484496223697162
+              ],
+              [
+                39.35643460333131,
+                -8.484463500433714
+              ],
+              [
+                39.35648761595344,
+                -8.484431859863822
+              ],
+              [
+                39.3565348398407,
+                -8.484406353985232
+              ],
+              [
+                39.35657627499309,
+                -8.48438698279794
+              ],
+              [
+                39.35661192141062,
+                -8.48437374630195
+              ],
+              [
+                39.35664177909328,
+                -8.48436664449726
+              ],
+              [
+                39.356665848041075,
+                -8.48436567738387
+              ],
+              [
+                39.356684128254,
+                -8.484370844961779
+              ],
+              [
+                39.35669661973207,
+                -8.484382147230988
+              ],
+              [
+                39.35670332247526,
+                -8.4843995841915
+              ],
+              [
+                39.35668718121499,
+                -8.484431771787316
+              ],
+              [
+                39.35664819595123,
+                -8.484478710018436
+              ],
+              [
+                39.356586366684,
+                -8.484540398884864
+              ],
+              [
+                39.356501693413286,
+                -8.484616838386597
+              ],
+              [
+                39.356394176139105,
+                -8.484708028523634
+              ],
+              [
+                39.356263814861435,
+                -8.48481396929598
+              ],
+              [
+                39.3561106095803,
+                -8.48493466070363
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.35605922148999,
+    -8.484801463997618
+  ],
+  "centroDeMassa": [
+    39.356022584937996,
+    -8.484932633883066
+  ]
+}

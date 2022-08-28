@@ -1,1 +1,486 @@
-{"CP4":"2835","CP3":"471","Distrito":"Setúbal","Concelho":"Barreiro","CP":"2835-471","Artéria":"Largo dos Caçadores","Localidade":"Cabeço Verde","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO ANTÓNIO DA CHARNECA","locais":[{"id":"pt.ine.add.PTCONT.4698924","rua":"R IRENE LISBOA","casa":"4","coordenadas":[38.62692722443405,-9.032588817453508]},{"id":"pt.ine.add.PTCONT.4768509","rua":"R DO PARAÍSO","casa":"16","coordenadas":[38.63653546906711,-9.036533389709058]},{"id":"pt.ine.add.PTCONT.4724770","rua":"R 1 DE DEZEMBRO","casa":"15","coordenadas":[38.624387510086514,-9.030168615274613]},{"id":"pt.ine.add.PTCONT.4784610","rua":"LG CACADORES","casa":"","coordenadas":[38.628440212350384,-9.022289713215734]},{"id":"pt.ine.add.PTCONT.4839013","rua":"R CMDT RAMIRO CORREIA","casa":"25","coordenadas":[38.61614364404772,-9.026828076064149]},{"id":"pt.ine.add.PTCONT.4839014","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4839015","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4839016","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4839017","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4839018","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4839019","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4839020","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.4857241","rua":"R IRENE LISBOA","casa":"3","coordenadas":[38.626639434863634,-9.032527804828971]},{"id":"pt.ine.add.PTCONT.4913511","rua":"R MANUEL GALRINHO BENTO","casa":"33","coordenadas":[38.62399483957273,-9.024973414494186]},{"id":"pt.ine.add.PTCONT.4913512","rua":"R DE DIU","casa":"5","coordenadas":[38.62132309254198,-9.025675205803587]},{"id":"pt.ine.add.PTCONT.4942155","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4942156","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4942148","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4942151","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4942152","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4942153","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4942154","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]},{"id":"pt.ine.add.PTCONT.4960359","rua":"R DO PINHAL","casa":"1","coordenadas":[38.62110607571344,-9.028141258237898]},{"id":"pt.ine.add.PTCONT.4985694","rua":"R IRENE LISBOA","casa":"8","coordenadas":[38.626898701898206,-9.032783679623936]},{"id":"pt.ine.add.PTCONT.5037011","rua":"R IRENE LISBOA","casa":"2","coordenadas":[38.62689234308324,-9.032439096899328]},{"id":"pt.ine.add.PTCONT.5051841","rua":"R ARISTIDES DE SOUSA MENDES","casa":"1","coordenadas":[38.62630793299548,-9.032293996425459]},{"id":"pt.ine.add.PTCONT.5101748","rua":"R DA FRONTEIRA","casa":"58","coordenadas":[38.624349229632024,-9.021016154483542]},{"id":"pt.ine.add.PTCONT.5127393","rua":"R DA FONTE","casa":"8","coordenadas":[38.618894243372004,-9.029950914536379]},{"id":"pt.ine.add.PTCONT.5129885","rua":"R DA FONTE","casa":"10","coordenadas":[38.618732289132964,-9.029925933321278]}],"ruas":["R IRENE LISBOA","R DO PARAÍSO","R 1 DE DEZEMBRO","LG CACADORES","R CMDT RAMIRO CORREIA","R DA FONTE","R MANUEL GALRINHO BENTO","R DE DIU","R DO PINHAL","R ARISTIDES DE SOUSA MENDES","R DA FRONTEIRA"],"centroide":[38.621865202899755,-9.029548145430496]}
+{
+  "CP": "2835-471",
+  "CP4": "2835",
+  "CP3": "471",
+  "Distrito": "Setúbal",
+  "Concelho": "Barreiro",
+  "Localidade": "Cabeço Verde",
+  "Designação Postal": "SANTO ANTÓNIO DA CHARNECA",
+  "partes": [
+    {
+      "Artéria": "Largo dos Caçadores",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4698924",
+      "rua": "R IRENE LISBOA",
+      "casa": "4",
+      "coordenadas": [
+        38.62692722443405,
+        -9.032588817453508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4768509",
+      "rua": "R DO PARAÍSO",
+      "casa": "16",
+      "coordenadas": [
+        38.63653546906711,
+        -9.036533389709058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4724770",
+      "rua": "R 1 DE DEZEMBRO",
+      "casa": "15",
+      "coordenadas": [
+        38.624387510086514,
+        -9.030168615274613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4784610",
+      "rua": "LG CACADORES",
+      "casa": "",
+      "coordenadas": [
+        38.628440212350384,
+        -9.022289713215734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839013",
+      "rua": "R CMDT RAMIRO CORREIA",
+      "casa": "25",
+      "coordenadas": [
+        38.61614364404772,
+        -9.026828076064149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839014",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839015",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839016",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839017",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839018",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839019",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4839020",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4857241",
+      "rua": "R IRENE LISBOA",
+      "casa": "3",
+      "coordenadas": [
+        38.626639434863634,
+        -9.032527804828971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4913511",
+      "rua": "R MANUEL GALRINHO BENTO",
+      "casa": "33",
+      "coordenadas": [
+        38.62399483957273,
+        -9.024973414494186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4913512",
+      "rua": "R DE DIU",
+      "casa": "5",
+      "coordenadas": [
+        38.62132309254198,
+        -9.025675205803587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942155",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942156",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942148",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942151",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942152",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942153",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942154",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4960359",
+      "rua": "R DO PINHAL",
+      "casa": "1",
+      "coordenadas": [
+        38.62110607571344,
+        -9.028141258237898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4985694",
+      "rua": "R IRENE LISBOA",
+      "casa": "8",
+      "coordenadas": [
+        38.626898701898206,
+        -9.032783679623936
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5037011",
+      "rua": "R IRENE LISBOA",
+      "casa": "2",
+      "coordenadas": [
+        38.62689234308324,
+        -9.032439096899328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5051841",
+      "rua": "R ARISTIDES DE SOUSA MENDES",
+      "casa": "1",
+      "coordenadas": [
+        38.62630793299548,
+        -9.032293996425459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5101748",
+      "rua": "R DA FRONTEIRA",
+      "casa": "58",
+      "coordenadas": [
+        38.624349229632024,
+        -9.021016154483542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5127393",
+      "rua": "R DA FONTE",
+      "casa": "8",
+      "coordenadas": [
+        38.618894243372004,
+        -9.029950914536379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5129885",
+      "rua": "R DA FONTE",
+      "casa": "10",
+      "coordenadas": [
+        38.618732289132964,
+        -9.029925933321278
+      ]
+    }
+  ],
+  "ruas": [
+    "R IRENE LISBOA",
+    "R DO PARAÍSO",
+    "R 1 DE DEZEMBRO",
+    "LG CACADORES",
+    "R CMDT RAMIRO CORREIA",
+    "R DA FONTE",
+    "R MANUEL GALRINHO BENTO",
+    "R DE DIU",
+    "R DO PINHAL",
+    "R ARISTIDES DE SOUSA MENDES",
+    "R DA FRONTEIRA"
+  ],
+  "centro": [
+    38.62633955655741,
+    -9.0287747720963
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.61759975690817,
+                -9.028570620771283
+              ],
+              [
+                38.61727617627251,
+                -9.028183388614144
+              ],
+              [
+                38.61712125549107,
+                -9.027753749201949
+              ],
+              [
+                38.617134994563834,
+                -9.027281702534697
+              ],
+              [
+                38.617317393490815,
+                -9.026767248612394
+              ],
+              [
+                38.61766845227201,
+                -9.026210387435034
+              ],
+              [
+                38.61818817090741,
+                -9.02561111900262
+              ],
+              [
+                38.61887654939702,
+                -9.024969443315154
+              ],
+              [
+                38.61973358774085,
+                -9.024285360372632
+              ],
+              [
+                38.62075928593889,
+                -9.023558870175057
+              ],
+              [
+                38.621720693467154,
+                -9.022943090607368
+              ],
+              [
+                38.62261781032562,
+                -9.022438021669569
+              ],
+              [
+                38.62345063651432,
+                -9.022043663361655
+              ],
+              [
+                38.624219172033236,
+                -9.021760015683629
+              ],
+              [
+                38.62492341688237,
+                -9.021587078635491
+              ],
+              [
+                38.62556337106173,
+                -9.02152485221724
+              ],
+              [
+                38.6261390345713,
+                -9.021573336428876
+              ],
+              [
+                38.6266504074111,
+                -9.0217325312704
+              ],
+              [
+                38.62722434703212,
+                -9.022094384201942
+              ],
+              [
+                38.62786085343436,
+                -9.0226588952235
+              ],
+              [
+                38.62855992661783,
+                -9.023426064335077
+              ],
+              [
+                38.629321566582526,
+                -9.024395891536674
+              ],
+              [
+                38.630145773328444,
+                -9.025568376828286
+              ],
+              [
+                38.631032546855586,
+                -9.026943520209915
+              ],
+              [
+                38.63198188716395,
+                -9.028521321681563
+              ],
+              [
+                38.632993794253544,
+                -9.03030178124323
+              ],
+              [
+                38.63360103827046,
+                -9.031756441853629
+              ],
+              [
+                38.63380361921472,
+                -9.032885303512758
+              ],
+              [
+                38.6336015370863,
+                -9.033688366220623
+              ],
+              [
+                38.6329947918852,
+                -9.034165629977219
+              ],
+              [
+                38.63198338361144,
+                -9.034317094782548
+              ],
+              [
+                38.630567312265015,
+                -9.034142760636609
+              ],
+              [
+                38.62874657784592,
+                -9.033642627539404
+              ],
+              [
+                38.62652118035416,
+                -9.032816695490933
+              ],
+              [
+                38.6245335099694,
+                -9.032045600928877
+              ],
+              [
+                38.622783566691666,
+                -9.031329343853235
+              ],
+              [
+                38.62127135052094,
+                -9.030667924264012
+              ],
+              [
+                38.619996861457224,
+                -9.030061342161206
+              ],
+              [
+                38.618960099500526,
+                -9.029509597544815
+              ],
+              [
+                38.618161064650835,
+                -9.029012690414842
+              ],
+              [
+                38.61759975690817,
+                -9.028570620771283
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.624840168846035,
+    -9.027318653358751
+  ],
+  "centroDeMassa": [
+    38.62633955655741,
+    -9.0287747720963
+  ]
+}

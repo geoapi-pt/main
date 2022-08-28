@@ -1,1 +1,398 @@
-{"CP4":"2565","CP3":"075","Distrito":"Lisboa","Concelho":"Torres Vedras","CP":"2565-075","Artéria":"Rua Padre Hermenegildo Valente Vaz","Localidade":"Campelos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAMPELOS","locais":[{"id":"pt.ine.add.PTCONT.2401043","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"9 FRAC B","coordenadas":[39.19650928052009,-9.236753531213127]},{"id":"pt.ine.add.PTCONT.2490633","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"9 FRAC E","coordenadas":[39.196849416413485,-9.236978788313975]},{"id":"pt.ine.add.PTCONT.2555221","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"8","coordenadas":[39.19708873314743,-9.23738767859517]},{"id":"pt.ine.add.PTCONT.2759367","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"9 FRAC A","coordenadas":[39.19641977099366,-9.236694253394534]},{"id":"pt.ine.add.PTCONT.2822467","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"10","coordenadas":[39.19690455775016,-9.237813090151212]},{"id":"pt.ine.add.PTCONT.2826666","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"8A","coordenadas":[39.197356163146345,-9.237681255826875]},{"id":"pt.ine.add.PTCONT.2840284","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"13","coordenadas":[39.19678451149746,-9.237174556404998]},{"id":"pt.ine.add.PTCONT.2848297","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"3","coordenadas":[39.19723918668172,-9.23671864956866]},{"id":"pt.ine.add.PTCONT.2858125","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"7A","coordenadas":[39.19733792124029,-9.236754921256132]},{"id":"pt.ine.add.PTCONT.2892759","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"9 FRAC C","coordenadas":[39.19661691120864,-9.236801517241817]},{"id":"pt.ine.add.PTCONT.2913283","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"6","coordenadas":[39.19723600655998,-9.237054292059213]},{"id":"pt.ine.add.PTCONT.3078912","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"7","coordenadas":[39.19716615367554,-9.23682168711143]},{"id":"pt.ine.add.PTCONT.3245877","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"7","coordenadas":[39.19741040599316,-9.236709752937003]},{"id":"pt.ine.add.PTCONT.3254390","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"9 FRAC D","coordenadas":[39.196751010903625,-9.23690779518521]},{"id":"pt.ine.add.PTCONT.3282313","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"13A","coordenadas":[39.196337403291984,-9.236831870066592]},{"id":"pt.ine.add.PTCONT.3302069","rua":"R PADRE HERMENEGILDO VALENTE VAZ","casa":"17","coordenadas":[39.196673370565605,-9.23749693081195]}],"ruas":["R PADRE HERMENEGILDO VALENTE VAZ"],"centroide":[39.19693382886824,-9.237005575955063]}
+{
+  "CP": "2565-075",
+  "CP4": "2565",
+  "CP3": "075",
+  "Distrito": "Lisboa",
+  "Concelho": "Torres Vedras",
+  "Localidade": "Campelos",
+  "Designação Postal": "CAMPELOS",
+  "partes": [
+    {
+      "Artéria": "Rua da Igreja Nova",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Padre Hermenegildo Valente Vaz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2401043",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "9 FRAC B",
+      "coordenadas": [
+        39.19650928052009,
+        -9.236753531213127
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2490633",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "9 FRAC E",
+      "coordenadas": [
+        39.196849416413485,
+        -9.236978788313975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2555221",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "8",
+      "coordenadas": [
+        39.19708873314743,
+        -9.23738767859517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2759367",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "9 FRAC A",
+      "coordenadas": [
+        39.19641977099366,
+        -9.236694253394534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2822467",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "10",
+      "coordenadas": [
+        39.19690455775016,
+        -9.237813090151212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2826666",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "8A",
+      "coordenadas": [
+        39.197356163146345,
+        -9.237681255826875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2840284",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "13",
+      "coordenadas": [
+        39.19678451149746,
+        -9.237174556404998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2848297",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "3",
+      "coordenadas": [
+        39.19723918668172,
+        -9.23671864956866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2858125",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "7A",
+      "coordenadas": [
+        39.19733792124029,
+        -9.236754921256132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2892759",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "9 FRAC C",
+      "coordenadas": [
+        39.19661691120864,
+        -9.236801517241817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2913283",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "6",
+      "coordenadas": [
+        39.19723600655998,
+        -9.237054292059213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3078912",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "7",
+      "coordenadas": [
+        39.19716615367554,
+        -9.23682168711143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3245877",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "7",
+      "coordenadas": [
+        39.19741040599316,
+        -9.236709752937003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3254390",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "9 FRAC D",
+      "coordenadas": [
+        39.196751010903625,
+        -9.23690779518521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3282313",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "13A",
+      "coordenadas": [
+        39.196337403291984,
+        -9.236831870066592
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3302069",
+      "rua": "R PADRE HERMENEGILDO VALENTE VAZ",
+      "casa": "17",
+      "coordenadas": [
+        39.196673370565605,
+        -9.23749693081195
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE HERMENEGILDO VALENTE VAZ"
+  ],
+  "centro": [
+    39.19687390464257,
+    -9.237253671772873
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.19652638488339,
+                -9.237205966735857
+              ],
+              [
+                39.19648438897419,
+                -9.237122834142685
+              ],
+              [
+                39.19644892954898,
+                -9.23704794286316
+              ],
+              [
+                39.19642000660776,
+                -9.236981292897283
+              ],
+              [
+                39.19639762015052,
+                -9.236922884245049
+              ],
+              [
+                39.196381770177275,
+                -9.236872716906461
+              ],
+              [
+                39.19637245668802,
+                -9.236830790881516
+              ],
+              [
+                39.196369679682746,
+                -9.236797106170219
+              ],
+              [
+                39.19637343916147,
+                -9.236771662772567
+              ],
+              [
+                39.19638373512417,
+                -9.236754460688559
+              ],
+              [
+                39.19640822276341,
+                -9.236739651045404
+              ],
+              [
+                39.19644690207918,
+                -9.2367272338431
+              ],
+              [
+                39.19649977307148,
+                -9.236717209081649
+              ],
+              [
+                39.1965668357403,
+                -9.236709576761049
+              ],
+              [
+                39.196648090085645,
+                -9.236704336881303
+              ],
+              [
+                39.19674353610753,
+                -9.236701489442407
+              ],
+              [
+                39.19685317380594,
+                -9.236701034444364
+              ],
+              [
+                39.196977003180876,
+                -9.236702971887173
+              ],
+              [
+                39.197084506339465,
+                -9.236719846882284
+              ],
+              [
+                39.197175683281706,
+                -9.236751659429698
+              ],
+              [
+                39.197250534007594,
+                -9.236798409529417
+              ],
+              [
+                39.19730905851714,
+                -9.236860097181438
+              ],
+              [
+                39.197351256810336,
+                -9.236936722385764
+              ],
+              [
+                39.19737712888718,
+                -9.23702828514239
+              ],
+              [
+                39.19738667474768,
+                -9.237134785451321
+              ],
+              [
+                39.19737989439182,
+                -9.237256223312556
+              ],
+              [
+                39.19736690524614,
+                -9.237364541352452
+              ],
+              [
+                39.19734770731062,
+                -9.237459739571015
+              ],
+              [
+                39.19732230058527,
+                -9.23754181796824
+              ],
+              [
+                39.19729068507009,
+                -9.237610776544127
+              ],
+              [
+                39.19725286076506,
+                -9.237666615298679
+              ],
+              [
+                39.1972088276702,
+                -9.237709334231893
+              ],
+              [
+                39.197158585785516,
+                -9.23773893334377
+              ],
+              [
+                39.19710213511099,
+                -9.237755412634314
+              ],
+              [
+                39.19704912847102,
+                -9.237764892023861
+              ],
+              [
+                39.19699956586562,
+                -9.237767371512417
+              ],
+              [
+                39.19695344729476,
+                -9.237762851099978
+              ],
+              [
+                39.196910772758464,
+                -9.237751330786544
+              ],
+              [
+                39.19687154225672,
+                -9.237732810572119
+              ],
+              [
+                39.196835755789536,
+                -9.237707290456697
+              ],
+              [
+                39.19680341335692,
+                -9.237674770440284
+              ],
+              [
+                39.19677451495885,
+                -9.237635250522878
+              ],
+              [
+                39.19674397937189,
+                -9.237590279021
+              ],
+              [
+                39.19671180659604,
+                -9.237539855934653
+              ],
+              [
+                39.196677996631294,
+                -9.237483981263832
+              ],
+              [
+                39.19664254947765,
+                -9.237422655008544
+              ],
+              [
+                39.19660546513512,
+                -9.237355877168785
+              ],
+              [
+                39.196566743603704,
+                -9.237283647744555
+              ],
+              [
+                39.19652638488339,
+                -9.237205966735857
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.19685027862349,
+    -9.237204525531363
+  ],
+  "centroDeMassa": [
+    39.19687390464257,
+    -9.237253671772873
+  ]
+}

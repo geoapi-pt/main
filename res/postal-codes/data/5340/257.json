@@ -1,1 +1,483 @@
-{"CP4":"5340","CP3":"257","Distrito":"Bragança","Concelho":"Macedo de Cavaleiros","CP":"5340-257","Artéria":"Rua Comendador Emílio Augusto Pires","Localidade":"Macedo de Cavaleiros","Local":"Bairro dos Merouços","Troço":"","Porta":"","Cliente":"","Designação Postal":"MACEDO DE CAVALEIROS","locais":[{"id":"pt.ine.add.PTCONT.871800","rua":"R COMEND EMILIO A PIRES","casa":"16","coordenadas":[41.53537281048068,-6.969022880362454]},{"id":"pt.ine.add.PTCONT.879778","rua":"R COMEND EMILIO A PIRES","casa":"3","coordenadas":[41.53802778791937,-6.970225400906457]},{"id":"pt.ine.add.PTCONT.881151","rua":"TULIA SALDANHA","casa":"23","coordenadas":[41.53759406916583,-6.97004461017194]},{"id":"pt.ine.add.PTCONT.883182","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.53486965824385,-6.969154200963235]},{"id":"pt.ine.add.PTCONT.883183","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.53486965824385,-6.969154200963235]},{"id":"pt.ine.add.PTCONT.884009","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.53660849488438,-6.969630879494956]},{"id":"pt.ine.add.PTCONT.884541","rua":"R COMEND EMILIO A PIRES","casa":"14","coordenadas":[41.535459869771586,-6.969016051539124]},{"id":"pt.ine.add.PTCONT.884542","rua":"R COMEND EMILIO A PIRES","casa":"14","coordenadas":[41.535459869771586,-6.969016051539124]},{"id":"pt.ine.add.PTCONT.887174","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.53493768064283,-6.969121602135214]},{"id":"pt.ine.add.PTCONT.887175","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.53493768064283,-6.969121602135214]},{"id":"pt.ine.add.PTCONT.892709","rua":"R COMEND EMILIO A PIRES","casa":"7","coordenadas":[41.53650502087078,-6.969557420800149]},{"id":"pt.ine.add.PTCONT.892710","rua":"R COMEND EMILIO A PIRES","casa":"10","coordenadas":[41.5357020979218,-6.968958134735026]},{"id":"pt.ine.add.PTCONT.893522","rua":"R COMEND EMILIO A PIRES","casa":"3","coordenadas":[41.53521231047345,-6.969045854805044]},{"id":"pt.ine.add.PTCONT.894944","rua":"R COMEND EMILIO A PIRES","casa":"20","coordenadas":[41.53512940475123,-6.9690720055875826]},{"id":"pt.ine.add.PTCONT.895304","rua":"R COMEND EMILIO A PIRES","casa":"20","coordenadas":[41.53512940475123,-6.9690720055875826]},{"id":"pt.ine.add.PTCONT.900824","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.535998574624,-6.968970767086119]},{"id":"pt.ine.add.PTCONT.900825","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.535998574624,-6.968970767086119]},{"id":"pt.ine.add.PTCONT.900826","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.535998574624,-6.968970767086119]},{"id":"pt.ine.add.PTCONT.901029","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.535998574624,-6.968970767086119]},{"id":"pt.ine.add.PTCONT.901908","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.537213999996595,-6.969882632575323]},{"id":"pt.ine.add.PTCONT.917571","rua":"R TULIA SALDANHA","casa":"11","coordenadas":[41.536868350723694,-6.969718915924205]},{"id":"pt.ine.add.PTCONT.932072","rua":"R COMEND EMILIO A PIRES","casa":"15","coordenadas":[41.5371130321582,-6.969850409814295]},{"id":"pt.ine.add.PTCONT.940787","rua":"R COMEND EMILIO A PIRES","casa":"19","coordenadas":[41.5373424784138,-6.969939172429448]},{"id":"pt.ine.add.PTCONT.941896","rua":"R COMEND EMILIO A PIRES","casa":"12","coordenadas":[41.5355950667743,-6.968978377153248]},{"id":"pt.ine.add.PTCONT.941898","rua":"R COMEND EMILIO A PIRES","casa":"12","coordenadas":[41.5355950667743,-6.968978377153248]},{"id":"pt.ine.add.PTCONT.950142","rua":"R COMEND EMILIO A PIRES","casa":"","coordenadas":[41.5363845181659,-6.969513925523176]}],"ruas":["R COMEND EMILIO A PIRES","TULIA SALDANHA","R TULIA SALDANHA"],"centroide":[41.5359815244749,-6.9692977542048204]}
+{
+  "CP": "5340-257",
+  "CP4": "5340",
+  "CP3": "257",
+  "Distrito": "Bragança",
+  "Concelho": "Macedo de Cavaleiros",
+  "Localidade": "Macedo de Cavaleiros",
+  "Designação Postal": "MACEDO DE CAVALEIROS",
+  "partes": [
+    {
+      "Artéria": "Rua Comendador Emílio Augusto Pires",
+      "Local": "Bairro dos Merouços",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.871800",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "16",
+      "coordenadas": [
+        41.53537281048068,
+        -6.969022880362454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.879778",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "3",
+      "coordenadas": [
+        41.53802778791937,
+        -6.970225400906457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.881151",
+      "rua": "TULIA SALDANHA",
+      "casa": "23",
+      "coordenadas": [
+        41.53759406916583,
+        -6.97004461017194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.883182",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.53486965824385,
+        -6.969154200963235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.883183",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.53486965824385,
+        -6.969154200963235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.884009",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.53660849488438,
+        -6.969630879494956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.884541",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "14",
+      "coordenadas": [
+        41.535459869771586,
+        -6.969016051539124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.884542",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "14",
+      "coordenadas": [
+        41.535459869771586,
+        -6.969016051539124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.887174",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.53493768064283,
+        -6.969121602135214
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.887175",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.53493768064283,
+        -6.969121602135214
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.892709",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "7",
+      "coordenadas": [
+        41.53650502087078,
+        -6.969557420800149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.892710",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "10",
+      "coordenadas": [
+        41.5357020979218,
+        -6.968958134735026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.893522",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "3",
+      "coordenadas": [
+        41.53521231047345,
+        -6.969045854805044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.894944",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "20",
+      "coordenadas": [
+        41.53512940475123,
+        -6.9690720055875826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.895304",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "20",
+      "coordenadas": [
+        41.53512940475123,
+        -6.9690720055875826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.900824",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.535998574624,
+        -6.968970767086119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.900825",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.535998574624,
+        -6.968970767086119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.900826",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.535998574624,
+        -6.968970767086119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.901029",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.535998574624,
+        -6.968970767086119
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.901908",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.537213999996595,
+        -6.969882632575323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.917571",
+      "rua": "R TULIA SALDANHA",
+      "casa": "11",
+      "coordenadas": [
+        41.536868350723694,
+        -6.969718915924205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.932072",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "15",
+      "coordenadas": [
+        41.5371130321582,
+        -6.969850409814295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.940787",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "19",
+      "coordenadas": [
+        41.5373424784138,
+        -6.969939172429448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.941896",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "12",
+      "coordenadas": [
+        41.5355950667743,
+        -6.968978377153248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.941898",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "12",
+      "coordenadas": [
+        41.5355950667743,
+        -6.968978377153248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.950142",
+      "rua": "R COMEND EMILIO A PIRES",
+      "casa": "",
+      "coordenadas": [
+        41.5363845181659,
+        -6.969513925523176
+      ]
+    }
+  ],
+  "ruas": [
+    "R COMEND EMILIO A PIRES",
+    "TULIA SALDANHA",
+    "R TULIA SALDANHA"
+  ],
+  "centro": [
+    41.536448723081605,
+    -6.9695917678207415
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.53664610618633,
+                -6.969756750931298
+              ],
+              [
+                41.536251339976886,
+                -6.969622850938395
+              ],
+              [
+                41.53590698239361,
+                -6.969505179087918
+              ],
+              [
+                41.5356130334365,
+                -6.9694037353798635
+              ],
+              [
+                41.53536949310555,
+                -6.9693185198142364
+              ],
+              [
+                41.53517636140077,
+                -6.969249532391034
+              ],
+              [
+                41.53503363832215,
+                -6.969196773110255
+              ],
+              [
+                41.534941323869695,
+                -6.969160241971903
+              ],
+              [
+                41.5348994180434,
+                -6.969139938975976
+              ],
+              [
+                41.534907920843274,
+                -6.969135864122473
+              ],
+              [
+                41.534919651884266,
+                -6.969131115073624
+              ],
+              [
+                41.53493461116638,
+                -6.969125691829431
+              ],
+              [
+                41.53495279868961,
+                -6.969119594389889
+              ],
+              [
+                41.53497421445395,
+                -6.969112822755001
+              ],
+              [
+                41.534998858459424,
+                -6.969105376924768
+              ],
+              [
+                41.53502673070601,
+                -6.96909725689919
+              ],
+              [
+                41.53505783119372,
+                -6.969088462678265
+              ],
+              [
+                41.53509215992255,
+                -6.969078994261993
+              ],
+              [
+                41.535129850489156,
+                -6.969069338771662
+              ],
+              [
+                41.53517090289354,
+                -6.9690594962072705
+              ],
+              [
+                41.535215317135695,
+                -6.969049466568818
+              ],
+              [
+                41.53526309321563,
+                -6.969039249856307
+              ],
+              [
+                41.53531423113334,
+                -6.969028846069735
+              ],
+              [
+                41.535368730888834,
+                -6.969018255209103
+              ],
+              [
+                41.535426592482104,
+                -6.9690074772744115
+              ],
+              [
+                41.53548781591314,
+                -6.968996512265659
+              ],
+              [
+                41.53554601886378,
+                -6.968987115263486
+              ],
+              [
+                41.535601201334,
+                -6.968979286267894
+              ],
+              [
+                41.535653363323824,
+                -6.968973025278881
+              ],
+              [
+                41.53570250483324,
+                -6.968968332296448
+              ],
+              [
+                41.53574862586224,
+                -6.968965207320595
+              ],
+              [
+                41.53579172641083,
+                -6.968963650351322
+              ],
+              [
+                41.53583180647901,
+                -6.968963661388629
+              ],
+              [
+                41.53586886606679,
+                -6.9689652404325155
+              ],
+              [
+                41.535932999663835,
+                -6.968986225749359
+              ],
+              [
+                41.536024207270145,
+                -6.96902661733916
+              ],
+              [
+                41.53614248888573,
+                -6.969086415201917
+              ],
+              [
+                41.53628784451057,
+                -6.969165619337631
+              ],
+              [
+                41.53646027414469,
+                -6.969264229746303
+              ],
+              [
+                41.536659777788074,
+                -6.969382246427931
+              ],
+              [
+                41.53688635544073,
+                -6.9695196693825165
+              ],
+              [
+                41.53714000710265,
+                -6.969676498610059
+              ],
+              [
+                41.53731260653065,
+                -6.969796986685045
+              ],
+              [
+                41.53740415372474,
+                -6.969881133607476
+              ],
+              [
+                41.537414648684894,
+                -6.969928939377351
+              ],
+              [
+                41.537344091411136,
+                -6.969940403994672
+              ],
+              [
+                41.53719248190345,
+                -6.9699155274594355
+              ],
+              [
+                41.536959820161854,
+                -6.9698543097716446
+              ],
+              [
+                41.53664610618633,
+                -6.969756750931298
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.53579135163755,
+    -6.969245993438516
+  ],
+  "centroDeMassa": [
+    41.536448723081605,
+    -6.9695917678207415
+  ]
+}

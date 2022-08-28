@@ -1,1 +1,617 @@
-{"CP4":"2760","CP3":"009","Distrito":"Lisboa","Concelho":"Oeiras","CP":"2760-009","Artéria":"Avenida António Florêncio dos Santos","Localidade":"Laveiras","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAXIAS","locais":[{"id":"pt.ine.add.PTCONT.2526342","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"4","coordenadas":[38.69996037197255,-9.27640439273958]},{"id":"pt.ine.add.PTCONT.2526343","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"4","coordenadas":[38.69996037197255,-9.27640439273958]},{"id":"pt.ine.add.PTCONT.2526344","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"4","coordenadas":[38.69996037197255,-9.27640439273958]},{"id":"pt.ine.add.PTCONT.2574878","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"39","coordenadas":[38.70322965690828,-9.274617181828493]},{"id":"pt.ine.add.PTCONT.2581195","rua":"AV ANTONIO FLORENCIO SANTOS","casa":"27","coordenadas":[38.70265122604478,-9.274814901340816]},{"id":"pt.ine.add.PTCONT.2581196","rua":"AV ANTONIO FLORENCIO SANTOS","casa":"27","coordenadas":[38.70265122604478,-9.274814901340816]},{"id":"pt.ine.add.PTCONT.2678244","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"2","coordenadas":[38.6998964279544,-9.276495333896559]},{"id":"pt.ine.add.PTCONT.2805646","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"31","coordenadas":[38.70283270114475,-9.274679842589283]},{"id":"pt.ine.add.PTCONT.2882026","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"19","coordenadas":[38.702209574765305,-9.274842363911773]},{"id":"pt.ine.add.PTCONT.2903352","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"17","coordenadas":[38.70212806804054,-9.274887048847857]},{"id":"pt.ine.add.PTCONT.2937636","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"1","coordenadas":[38.7001452354282,-9.276844144759652]},{"id":"pt.ine.add.PTCONT.2966930","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"1","coordenadas":[38.70005652027065,-9.276704792263212]},{"id":"pt.ine.add.PTCONT.2984406","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"23","coordenadas":[38.7023725881649,-9.274752993740824]},{"id":"pt.ine.add.PTCONT.3002963","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"37","coordenadas":[38.703085554194956,-9.274614890587163]},{"id":"pt.ine.add.PTCONT.3039823","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"33","coordenadas":[38.70290486472199,-9.274669494645524]},{"id":"pt.ine.add.PTCONT.3069320","rua":"AV ANTONIO FLORENCIO SANTOS","casa":"4","coordenadas":[38.70274129024148,-9.274816333593396]},{"id":"pt.ine.add.PTCONT.3082516","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"15","coordenadas":[38.70200930089183,-9.275057588938344]},{"id":"pt.ine.add.PTCONT.3082517","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"15","coordenadas":[38.70200930089183,-9.275057588938344]},{"id":"pt.ine.add.PTCONT.3082518","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"15","coordenadas":[38.70200930089183,-9.275057588938344]},{"id":"pt.ine.add.PTCONT.3197955","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"41","coordenadas":[38.70329258962969,-9.274629677931218]},{"id":"pt.ine.add.PTCONT.3216570","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"35","coordenadas":[38.70301339062352,-9.274625238607463]},{"id":"pt.ine.add.PTCONT.3226155","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"1","coordenadas":[38.70008264019755,-9.276797167867437]},{"id":"pt.ine.add.PTCONT.3281177","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"1","coordenadas":[38.70010380036081,-9.276475646287308]},{"id":"pt.ine.add.PTCONT.3383436","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"21","coordenadas":[38.702263837751936,-9.274820236241748]},{"id":"pt.ine.add.PTCONT.3395089","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"1","coordenadas":[38.69999414979088,-9.276634829264282]},{"id":"pt.ine.add.PTCONT.3428124","rua":"AV ANTÓNIO FLORÊNCIO DOS SANTOS","casa":"25","coordenadas":[38.70247177101284,-9.274743075570337]}],"ruas":["AV ANTÓNIO FLORÊNCIO DOS SANTOS","AV ANTONIO FLORENCIO SANTOS"],"centroide":[38.701662574434906,-9.275436918583146]}
+{
+  "CP": "2760-009",
+  "CP4": "2760",
+  "CP3": "009",
+  "Distrito": "Lisboa",
+  "Concelho": "Oeiras",
+  "Localidade": "Laveiras",
+  "Designação Postal": "CAXIAS",
+  "partes": [
+    {
+      "Artéria": "Jardim Ernesto Madeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida António Florêncio dos Santos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2526342",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "4",
+      "coordenadas": [
+        38.69996037197255,
+        -9.27640439273958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2526343",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "4",
+      "coordenadas": [
+        38.69996037197255,
+        -9.27640439273958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2526344",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "4",
+      "coordenadas": [
+        38.69996037197255,
+        -9.27640439273958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2574878",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "39",
+      "coordenadas": [
+        38.70322965690828,
+        -9.274617181828493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2581195",
+      "rua": "AV ANTONIO FLORENCIO SANTOS",
+      "casa": "27",
+      "coordenadas": [
+        38.70265122604478,
+        -9.274814901340816
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2581196",
+      "rua": "AV ANTONIO FLORENCIO SANTOS",
+      "casa": "27",
+      "coordenadas": [
+        38.70265122604478,
+        -9.274814901340816
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2678244",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "2",
+      "coordenadas": [
+        38.6998964279544,
+        -9.276495333896559
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2805646",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "31",
+      "coordenadas": [
+        38.70283270114475,
+        -9.274679842589283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2882026",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "19",
+      "coordenadas": [
+        38.702209574765305,
+        -9.274842363911773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2903352",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "17",
+      "coordenadas": [
+        38.70212806804054,
+        -9.274887048847857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2937636",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.7001452354282,
+        -9.276844144759652
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2966930",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.70005652027065,
+        -9.276704792263212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2984406",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "23",
+      "coordenadas": [
+        38.7023725881649,
+        -9.274752993740824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3002963",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "37",
+      "coordenadas": [
+        38.703085554194956,
+        -9.274614890587163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3039823",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "33",
+      "coordenadas": [
+        38.70290486472199,
+        -9.274669494645524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3069320",
+      "rua": "AV ANTONIO FLORENCIO SANTOS",
+      "casa": "4",
+      "coordenadas": [
+        38.70274129024148,
+        -9.274816333593396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3082516",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "15",
+      "coordenadas": [
+        38.70200930089183,
+        -9.275057588938344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3082517",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "15",
+      "coordenadas": [
+        38.70200930089183,
+        -9.275057588938344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3082518",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "15",
+      "coordenadas": [
+        38.70200930089183,
+        -9.275057588938344
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3197955",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "41",
+      "coordenadas": [
+        38.70329258962969,
+        -9.274629677931218
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3216570",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "35",
+      "coordenadas": [
+        38.70301339062352,
+        -9.274625238607463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3226155",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.70008264019755,
+        -9.276797167867437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3281177",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.70010380036081,
+        -9.276475646287308
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3383436",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "21",
+      "coordenadas": [
+        38.702263837751936,
+        -9.274820236241748
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3395089",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "1",
+      "coordenadas": [
+        38.69999414979088,
+        -9.276634829264282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3428124",
+      "rua": "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+      "casa": "25",
+      "coordenadas": [
+        38.70247177101284,
+        -9.274743075570337
+      ]
+    }
+  ],
+  "ruas": [
+    "AV ANTÓNIO FLORÊNCIO DOS SANTOS",
+    "AV ANTONIO FLORENCIO SANTOS"
+  ],
+  "centro": [
+    38.70159450879204,
+    -9.275729517673408
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.700001172341175,
+                -9.276665115505178
+              ],
+              [
+                38.699977895810775,
+                -9.27662738625882
+              ],
+              [
+                38.69995852797197,
+                -9.276592952212678
+              ],
+              [
+                38.69994306882474,
+                -9.276561813366751
+              ],
+              [
+                38.6999315183691,
+                -9.276533969721042
+              ],
+              [
+                38.69992387660503,
+                -9.276509421275552
+              ],
+              [
+                38.69992014353255,
+                -9.276488168030276
+              ],
+              [
+                38.69992031915166,
+                -9.27647020998522
+              ],
+              [
+                38.69992440346235,
+                -9.276455547140381
+              ],
+              [
+                38.699932396464604,
+                -9.276444179495758
+              ],
+              [
+                38.69997326059266,
+                -9.276410524308407
+              ],
+              [
+                38.70004699584648,
+                -9.276354581578323
+              ],
+              [
+                38.70015360222609,
+                -9.27627635130551
+              ],
+              [
+                38.70029307973147,
+                -9.276175833489967
+              ],
+              [
+                38.700465428362634,
+                -9.276053028131694
+              ],
+              [
+                38.70067064811958,
+                -9.275907935230688
+              ],
+              [
+                38.7009087390023,
+                -9.275740554786951
+              ],
+              [
+                38.70117970101079,
+                -9.275550886800486
+              ],
+              [
+                38.70142061339517,
+                -9.27538283270128
+              ],
+              [
+                38.70163147615543,
+                -9.275236392489337
+              ],
+              [
+                38.701812289291574,
+                -9.275111566164654
+              ],
+              [
+                38.70196305280359,
+                -9.275008353727232
+              ],
+              [
+                38.7020837666915,
+                -9.27492675517707
+              ],
+              [
+                38.70217443095528,
+                -9.274866770514171
+              ],
+              [
+                38.702235045594946,
+                -9.274828399738531
+              ],
+              [
+                38.702265610610496,
+                -9.27481164285015
+              ],
+              [
+                38.70230236753751,
+                -9.27479498439886
+              ],
+              [
+                38.702345316376,
+                -9.274778424384658
+              ],
+              [
+                38.70239445712596,
+                -9.274761962807546
+              ],
+              [
+                38.702449789787394,
+                -9.27474559966752
+              ],
+              [
+                38.70251131436031,
+                -9.274729334964585
+              ],
+              [
+                38.70257903084469,
+                -9.274713168698737
+              ],
+              [
+                38.702652939240544,
+                -9.274697100869979
+              ],
+              [
+                38.70273303954787,
+                -9.274681131478308
+              ],
+              [
+                38.70280425487259,
+                -9.27466699657278
+              ],
+              [
+                38.70286658521469,
+                -9.274654696153394
+              ],
+              [
+                38.702920030574184,
+                -9.274644230220149
+              ],
+              [
+                38.70296459095106,
+                -9.274635598773044
+              ],
+              [
+                38.70300026634533,
+                -9.274628801812081
+              ],
+              [
+                38.70302705675698,
+                -9.274623839337261
+              ],
+              [
+                38.70304496218602,
+                -9.274620711348582
+              ],
+              [
+                38.70305398263245,
+                -9.274619417846043
+              ],
+              [
+                38.703064127127966,
+                -9.27461832183197
+              ],
+              [
+                38.703075395672585,
+                -9.274617423306356
+              ],
+              [
+                38.70308778826629,
+                -9.274616722269208
+              ],
+              [
+                38.70310130490909,
+                -9.274616218720524
+              ],
+              [
+                38.70311594560098,
+                -9.274615912660302
+              ],
+              [
+                38.70313171034196,
+                -9.27461580408854
+              ],
+              [
+                38.703148599132035,
+                -9.274615893005244
+              ],
+              [
+                38.7031666119712,
+                -9.274616179410412
+              ],
+              [
+                38.703183356529244,
+                -9.274616625266537
+              ],
+              [
+                38.703198832806166,
+                -9.274617230573622
+              ],
+              [
+                38.703213040801955,
+                -9.274617995331667
+              ],
+              [
+                38.70322598051663,
+                -9.274618919540668
+              ],
+              [
+                38.703237651950175,
+                -9.274620003200631
+              ],
+              [
+                38.70324805510259,
+                -9.274621246311554
+              ],
+              [
+                38.7032571899739,
+                -9.274622648873436
+              ],
+              [
+                38.70326505656407,
+                -9.274624210886277
+              ],
+              [
+                38.70322276242108,
+                -9.274660178691708
+              ],
+              [
+                38.70313030754492,
+                -9.274730552289725
+              ],
+              [
+                38.70298769193558,
+                -9.274835331680334
+              ],
+              [
+                38.70279491559308,
+                -9.274974516863532
+              ],
+              [
+                38.702551978517405,
+                -9.275148107839318
+              ],
+              [
+                38.70225888070856,
+                -9.275356104607694
+              ],
+              [
+                38.701915622166545,
+                -9.275598507168658
+              ],
+              [
+                38.70152220289135,
+                -9.275875315522212
+              ],
+              [
+                38.70117698297508,
+                -9.276116788817632
+              ],
+              [
+                38.70087996241774,
+                -9.276322927054915
+              ],
+              [
+                38.700631141219304,
+                -9.276493730234064
+              ],
+              [
+                38.7004305193798,
+                -9.276629198355078
+              ],
+              [
+                38.70027809689921,
+                -9.276729331417958
+              ],
+              [
+                38.700173873777544,
+                -9.2767941294227
+              ],
+              [
+                38.70011785001479,
+                -9.276823592369308
+              ],
+              [
+                38.700110025610954,
+                -9.276817720257782
+              ],
+              [
+                38.700100269691305,
+                -9.2768078660044
+              ],
+              [
+                38.70008858225584,
+                -9.276794029609164
+              ],
+              [
+                38.700074963304544,
+                -9.276776211072075
+              ],
+              [
+                38.70005941283743,
+                -9.276754410393135
+              ],
+              [
+                38.700041930854496,
+                -9.276728627572338
+              ],
+              [
+                38.70002251735575,
+                -9.276698862609685
+              ],
+              [
+                38.700001172341175,
+                -9.276665115505178
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.70172065231146,
+    -9.275466807080624
+  ],
+  "centroDeMassa": [
+    38.70159450879204,
+    -9.275729517673408
+  ]
+}

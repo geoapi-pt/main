@@ -1,1 +1,369 @@
-{"CP4":"2025","CP3":"334","Distrito":"Santarém","Concelho":"Santarém","CP":"2025-334","Artéria":"Rua Doutor Augusto Fialho","Localidade":"Amiais de Baixo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AMIAIS DE BAIXO","locais":[{"id":"pt.ine.add.PTCONT.4402516","rua":"R DR AUGUSTO FIALHO","casa":"20","coordenadas":[39.44385897218764,-8.735504505088068]},{"id":"pt.ine.add.PTCONT.4413719","rua":"R DR AUGUSTO FIALHO","casa":"10","coordenadas":[39.44393973044571,-8.73556328405205]},{"id":"pt.ine.add.PTCONT.4444584","rua":"R DR AUGUSTO FIALHO","casa":"23","coordenadas":[39.44375023154259,-8.735631350960803]},{"id":"pt.ine.add.PTCONT.4475759","rua":"R DR AUGUSTO FIALHO","casa":"19","coordenadas":[39.44369667351559,-8.735537956642116]},{"id":"pt.ine.add.PTCONT.4510300","rua":"R DR AUGUSTO FIALHO","casa":"39","coordenadas":[39.44425201051805,-8.736135192678997]},{"id":"pt.ine.add.PTCONT.4510425","rua":"R DR AUGUSTO FIALHO","casa":"6","coordenadas":[39.443707424408615,-8.735201167796994]},{"id":"pt.ine.add.PTCONT.4512465","rua":"R DR AUGUSTO FIALHO","casa":"14","coordenadas":[39.443787761828716,-8.735341258968425]},{"id":"pt.ine.add.PTCONT.4517405","rua":"R DR AUGUSTO FIALHO","casa":"15-17","coordenadas":[39.44367908151787,-8.73545648889006]},{"id":"pt.ine.add.PTCONT.4517406","rua":"R DR AUGUSTO FIALHO","casa":"15-17","coordenadas":[39.44367908151787,-8.73545648889006]},{"id":"pt.ine.add.PTCONT.4522670","rua":"R DR AUGUSTO FIALHO","casa":"16","coordenadas":[39.443814300316404,-8.735434420505232]},{"id":"pt.ine.add.PTCONT.4523614","rua":"R DR AUGUSTO FIALHO","casa":"18","coordenadas":[39.443814300316404,-8.735434420505232]},{"id":"pt.ine.add.PTCONT.4527521","rua":"R DE S GÊNS","casa":"","coordenadas":[39.44204259140693,-8.741842986616744]},{"id":"pt.ine.add.PTCONT.4536906","rua":"R DR AUGUSTO FIALHO","casa":"9","coordenadas":[39.44359874423439,-8.735316397807345]},{"id":"pt.ine.add.PTCONT.4578301","rua":"R DR AUGUSTO FIALHO","casa":"30","coordenadas":[39.44412022274072,-8.735495139186506]},{"id":"pt.ine.add.PTCONT.4613700","rua":"R DR AUGUSTO FIALHO","casa":"11 13","coordenadas":[39.44364341618064,-8.735386482097864]},{"id":"pt.ine.add.PTCONT.4630401","rua":"R DR AUGUSTO FIALHO","casa":"22","coordenadas":[39.44374308985724,-8.735271174560593]},{"id":"pt.ine.add.PTCONT.4658918","rua":"R DR AUGUSTO FIALHO","casa":"26","coordenadas":[39.44402961558425,-8.735598908487797]}],"ruas":["R DR AUGUSTO FIALHO","R DE S GÊNS"],"centroide":[39.44369547703345,-8.735875544702944]}
+{
+  "CP": "2025-334",
+  "CP4": "2025",
+  "CP3": "334",
+  "Distrito": "Santarém",
+  "Concelho": "Santarém",
+  "Localidade": "Amiais de Baixo",
+  "Designação Postal": "AMIAIS DE BAIXO",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Augusto Fialho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4402516",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "20",
+      "coordenadas": [
+        39.44385897218764,
+        -8.735504505088068
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4413719",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "10",
+      "coordenadas": [
+        39.44393973044571,
+        -8.73556328405205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4444584",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "23",
+      "coordenadas": [
+        39.44375023154259,
+        -8.735631350960803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4475759",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "19",
+      "coordenadas": [
+        39.44369667351559,
+        -8.735537956642116
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4510300",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "39",
+      "coordenadas": [
+        39.44425201051805,
+        -8.736135192678997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4510425",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "6",
+      "coordenadas": [
+        39.443707424408615,
+        -8.735201167796994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4512465",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "14",
+      "coordenadas": [
+        39.443787761828716,
+        -8.735341258968425
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4517405",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "15-17",
+      "coordenadas": [
+        39.44367908151787,
+        -8.73545648889006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4517406",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "15-17",
+      "coordenadas": [
+        39.44367908151787,
+        -8.73545648889006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4522670",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "16",
+      "coordenadas": [
+        39.443814300316404,
+        -8.735434420505232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4523614",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "18",
+      "coordenadas": [
+        39.443814300316404,
+        -8.735434420505232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4527521",
+      "rua": "R DE S GÊNS",
+      "casa": "",
+      "coordenadas": [
+        39.44204259140693,
+        -8.741842986616744
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4536906",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "9",
+      "coordenadas": [
+        39.44359874423439,
+        -8.735316397807345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4578301",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "30",
+      "coordenadas": [
+        39.44412022274072,
+        -8.735495139186506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4613700",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "11 13",
+      "coordenadas": [
+        39.44364341618064,
+        -8.735386482097864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4630401",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "22",
+      "coordenadas": [
+        39.44374308985724,
+        -8.735271174560593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4658918",
+      "rua": "R DR AUGUSTO FIALHO",
+      "casa": "26",
+      "coordenadas": [
+        39.44402961558425,
+        -8.735598908487797
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR AUGUSTO FIALHO",
+    "R DE S GÊNS"
+  ],
+  "centro": [
+    39.443147300962494,
+    -8.73852207720687
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.443285389656936,
+                -8.73863235252676
+              ],
+              [
+                39.443009212268045,
+                -8.739345826768979
+              ],
+              [
+                39.4427918719407,
+                -8.739868138780773
+              ],
+              [
+                39.44263336867488,
+                -8.740199288562144
+              ],
+              [
+                39.44253370247061,
+                -8.74033927611309
+              ],
+              [
+                39.44249287332789,
+                -8.74028810143361
+              ],
+              [
+                39.442510881246704,
+                -8.740045764523709
+              ],
+              [
+                39.442587726227046,
+                -8.739612265383382
+              ],
+              [
+                39.44272340826895,
+                -8.738987604012632
+              ],
+              [
+                39.44291792737238,
+                -8.738171780411458
+              ],
+              [
+                39.44308982971561,
+                -8.737456134291516
+              ],
+              [
+                39.443239115298624,
+                -8.736840665652814
+              ],
+              [
+                39.44336578412143,
+                -8.736325374495344
+              ],
+              [
+                39.44346983618404,
+                -8.73591026081911
+              ],
+              [
+                39.44355127148644,
+                -8.73559532462411
+              ],
+              [
+                39.44361009002863,
+                -8.735380565910345
+              ],
+              [
+                39.44364629181061,
+                -8.735265984677817
+              ],
+              [
+                39.4436598768324,
+                -8.735251580926523
+              ],
+              [
+                39.443678213700395,
+                -8.735243570947102
+              ],
+              [
+                39.443701302414595,
+                -8.735241954739553
+              ],
+              [
+                39.44372914297503,
+                -8.735246732303878
+              ],
+              [
+                39.44376173538167,
+                -8.735257903640075
+              ],
+              [
+                39.44379907963454,
+                -8.735275468748146
+              ],
+              [
+                39.44384117573362,
+                -8.735299427628089
+              ],
+              [
+                39.44388802367891,
+                -8.735329780279905
+              ],
+              [
+                39.44393962347043,
+                -8.735366526703595
+              ],
+              [
+                39.44398683247202,
+                -8.735408680660143
+              ],
+              [
+                39.4440296506837,
+                -8.735456242149551
+              ],
+              [
+                39.44406807810546,
+                -8.735509211171816
+              ],
+              [
+                39.44410211473729,
+                -8.73556758772694
+              ],
+              [
+                39.44413176057921,
+                -8.735631371814925
+              ],
+              [
+                39.44415701563122,
+                -8.73570056343577
+              ],
+              [
+                39.4441778798933,
+                -8.735775162589473
+              ],
+              [
+                39.44419435336546,
+                -8.735855169276032
+              ],
+              [
+                39.44417424548,
+                -8.73601435940705
+              ],
+              [
+                39.4441175562369,
+                -8.736252732982527
+              ],
+              [
+                39.44402428563617,
+                -8.736570290002458
+              ],
+              [
+                39.44389443367781,
+                -8.73696703046685
+              ],
+              [
+                39.443728000361816,
+                -8.737442954375696
+              ],
+              [
+                39.44352498568819,
+                -8.737998061729
+              ],
+              [
+                39.443285389656936,
+                -8.73863235252676
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.44354419866174,
+    -8.736798176817317
+  ],
+  "centroDeMassa": [
+    39.443147300962494,
+    -8.73852207720687
+  ]
+}

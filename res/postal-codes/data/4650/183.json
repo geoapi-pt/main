@@ -1,1 +1,416 @@
-{"CP4":"4650","CP3":"183","Distrito":"Porto","Concelho":"Felgueiras","CP":"4650-183","Artéria":"Rua de Sub-Carreira","Localidade":"Barrosas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"IDÃES","locais":[{"id":"pt.ine.add.PTCONT.3604569","rua":"R SUB CARREIRA","casa":"608","coordenadas":[41.33768264717402,-8.243747777267055]},{"id":"pt.ine.add.PTCONT.3604597","rua":"R SUB CARREIRA","casa":"106","coordenadas":[41.33550861160706,-8.238463783025406]},{"id":"pt.ine.add.PTCONT.3617379","rua":"R SUB CARREIRA","casa":"352","coordenadas":[41.336199007922154,-8.241606835809817]},{"id":"pt.ine.add.PTCONT.3635292","rua":"R SUB CARREIRA IDAES","casa":"IDAES","coordenadas":[41.337835440713675,-8.244034759994163]},{"id":"pt.ine.add.PTCONT.3636704","rua":"R SUB CARREIRA","casa":"","coordenadas":[41.33336776302266,-8.26283022105624]},{"id":"pt.ine.add.PTCONT.3666141","rua":"R SUB CARREIRA","casa":"851","coordenadas":[41.33916664340592,-8.245482615739588]},{"id":"pt.ine.add.PTCONT.3666142","rua":"R SUB CARREIRA","casa":"853","coordenadas":[41.33916664340592,-8.245482615739588]},{"id":"pt.ine.add.PTCONT.3707955","rua":"R SUB-CARREIRA","casa":"","coordenadas":[41.33767335559429,-8.244046431801037]},{"id":"pt.ine.add.PTCONT.3779964","rua":"R SUB CARREIRA","casa":"688","coordenadas":[41.33772665221525,-8.244799171898356]},{"id":"pt.ine.add.PTCONT.3793280","rua":"R SUB CARREIRA","casa":"","coordenadas":[41.339565927462324,-8.242257569909537]},{"id":"pt.ine.add.PTCONT.3830994","rua":"R SUB CARREIRA","casa":"","coordenadas":[41.34007157027211,-8.249988283881704]},{"id":"pt.ine.add.PTCONT.3854791","rua":"R SUB CARREIRA","casa":"","coordenadas":[41.33756498361373,-8.244380758045851]},{"id":"pt.ine.add.PTCONT.3870111","rua":"R SUB CARREIRA","casa":"659","coordenadas":[41.33732173451047,-8.244523705004568]},{"id":"pt.ine.add.PTCONT.3964663","rua":"R SUB CARREIRA","casa":"699","coordenadas":[41.33802372916117,-8.244859413785909]},{"id":"pt.ine.add.PTCONT.4025975","rua":"R SUB CARREIRA","casa":"","coordenadas":[41.33704296562574,-8.244152882405501]},{"id":"pt.ine.add.PTCONT.4051642","rua":"R SUB-CARREIRA","casa":"","coordenadas":[41.3382307535723,-8.244931449125707]},{"id":"pt.ine.add.PTCONT.4127227","rua":"R SUB CARREIRA","casa":"689","coordenadas":[41.33744762973847,-8.244691174311635]},{"id":"pt.ine.add.PTCONT.4141196","rua":"R SUB CARREIRA","casa":"","coordenadas":[41.33450696765243,-8.240827523024961]},{"id":"pt.ine.add.PTCONT.4155475","rua":"R SUB-CARREIRA","casa":"","coordenadas":[41.337898894504484,-8.243592834147684]},{"id":"pt.ine.add.PTCONT.4266542","rua":"R SUB CARREIRA","casa":"272","coordenadas":[41.335983213310044,-8.241283922171041]},{"id":"pt.ine.add.PTCONT.4307145","rua":"R SUB CARREIRA","casa":"479","coordenadas":[41.33842883190011,-8.24494373487021]},{"id":"pt.ine.add.PTCONT.4307177","rua":"R BREIAS","casa":"","coordenadas":[41.335371639857186,-8.24053028778472]}],"ruas":["R SUB CARREIRA","R SUB CARREIRA IDAES","R SUB-CARREIRA","R BREIAS"],"centroide":[41.33744828411354,-8.244806069667408]}
+{
+  "CP": "4650-183",
+  "CP4": "4650",
+  "CP3": "183",
+  "Distrito": "Porto",
+  "Concelho": "Felgueiras",
+  "Localidade": "Barrosas",
+  "Designação Postal": "IDÃES",
+  "partes": [
+    {
+      "Artéria": "Rua de Sub-Carreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3604569",
+      "rua": "R SUB CARREIRA",
+      "casa": "608",
+      "coordenadas": [
+        41.33768264717402,
+        -8.243747777267055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3604597",
+      "rua": "R SUB CARREIRA",
+      "casa": "106",
+      "coordenadas": [
+        41.33550861160706,
+        -8.238463783025406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3617379",
+      "rua": "R SUB CARREIRA",
+      "casa": "352",
+      "coordenadas": [
+        41.336199007922154,
+        -8.241606835809817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3635292",
+      "rua": "R SUB CARREIRA IDAES",
+      "casa": "IDAES",
+      "coordenadas": [
+        41.337835440713675,
+        -8.244034759994163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3636704",
+      "rua": "R SUB CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.33336776302266,
+        -8.26283022105624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3666141",
+      "rua": "R SUB CARREIRA",
+      "casa": "851",
+      "coordenadas": [
+        41.33916664340592,
+        -8.245482615739588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3666142",
+      "rua": "R SUB CARREIRA",
+      "casa": "853",
+      "coordenadas": [
+        41.33916664340592,
+        -8.245482615739588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3707955",
+      "rua": "R SUB-CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.33767335559429,
+        -8.244046431801037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3779964",
+      "rua": "R SUB CARREIRA",
+      "casa": "688",
+      "coordenadas": [
+        41.33772665221525,
+        -8.244799171898356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3793280",
+      "rua": "R SUB CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.339565927462324,
+        -8.242257569909537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3830994",
+      "rua": "R SUB CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.34007157027211,
+        -8.249988283881704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854791",
+      "rua": "R SUB CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.33756498361373,
+        -8.244380758045851
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3870111",
+      "rua": "R SUB CARREIRA",
+      "casa": "659",
+      "coordenadas": [
+        41.33732173451047,
+        -8.244523705004568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3964663",
+      "rua": "R SUB CARREIRA",
+      "casa": "699",
+      "coordenadas": [
+        41.33802372916117,
+        -8.244859413785909
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4025975",
+      "rua": "R SUB CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.33704296562574,
+        -8.244152882405501
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4051642",
+      "rua": "R SUB-CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.3382307535723,
+        -8.244931449125707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4127227",
+      "rua": "R SUB CARREIRA",
+      "casa": "689",
+      "coordenadas": [
+        41.33744762973847,
+        -8.244691174311635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4141196",
+      "rua": "R SUB CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.33450696765243,
+        -8.240827523024961
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4155475",
+      "rua": "R SUB-CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.337898894504484,
+        -8.243592834147684
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4266542",
+      "rua": "R SUB CARREIRA",
+      "casa": "272",
+      "coordenadas": [
+        41.335983213310044,
+        -8.241283922171041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307145",
+      "rua": "R SUB CARREIRA",
+      "casa": "479",
+      "coordenadas": [
+        41.33842883190011,
+        -8.24494373487021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307177",
+      "rua": "R BREIAS",
+      "casa": "",
+      "coordenadas": [
+        41.335371639857186,
+        -8.24053028778472
+      ]
+    }
+  ],
+  "ruas": [
+    "R SUB CARREIRA",
+    "R SUB CARREIRA IDAES",
+    "R SUB-CARREIRA",
+    "R BREIAS"
+  ],
+  "centro": [
+    41.33671966664738,
+    -8.250647002040822
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.33713865460047,
+                -8.255606631395562
+              ],
+              [
+                41.33630067869429,
+                -8.257211873542381
+              ],
+              [
+                41.33558524984872,
+                -8.258272668264107
+              ],
+              [
+                41.33499236806376,
+                -8.258789015560742
+              ],
+              [
+                41.33452203333942,
+                -8.258760915432287
+              ],
+              [
+                41.33417424567569,
+                -8.258188367878738
+              ],
+              [
+                41.333949005072576,
+                -8.257071372900102
+              ],
+              [
+                41.333846311530074,
+                -8.255409930496374
+              ],
+              [
+                41.333866165048185,
+                -8.253204040667555
+              ],
+              [
+                41.33400856562691,
+                -8.250453703413646
+              ],
+              [
+                41.33414881682008,
+                -8.248010224878982
+              ],
+              [
+                41.334286918627704,
+                -8.245873605063561
+              ],
+              [
+                41.334422871049775,
+                -8.24404384396739
+              ],
+              [
+                41.3345566740863,
+                -8.242520941590463
+              ],
+              [
+                41.334688327737275,
+                -8.241304897932782
+              ],
+              [
+                41.3348178320027,
+                -8.240395712994346
+              ],
+              [
+                41.33494518688258,
+                -8.239793386775155
+              ],
+              [
+                41.33507039237691,
+                -8.239497919275212
+              ],
+              [
+                41.33524334274469,
+                -8.239298663132825
+              ],
+              [
+                41.335464037985915,
+                -8.239195618347996
+              ],
+              [
+                41.33573247810059,
+                -8.239188784920724
+              ],
+              [
+                41.3360486630887,
+                -8.239278162851008
+              ],
+              [
+                41.33641259295026,
+                -8.239463752138853
+              ],
+              [
+                41.33682426768528,
+                -8.239745552784253
+              ],
+              [
+                41.33728368729374,
+                -8.240123564787213
+              ],
+              [
+                41.337790851775644,
+                -8.24059778814773
+              ],
+              [
+                41.33824252136622,
+                -8.241133525993996
+              ],
+              [
+                41.33863869606546,
+                -8.241730778326014
+              ],
+              [
+                41.33897937587336,
+                -8.242389545143782
+              ],
+              [
+                41.33926456078992,
+                -8.2431098264473
+              ],
+              [
+                41.33949425081515,
+                -8.24389162223657
+              ],
+              [
+                41.339668445949044,
+                -8.244734932511589
+              ],
+              [
+                41.339787146191604,
+                -8.24563975727236
+              ],
+              [
+                41.33985035154283,
+                -8.24660609651888
+              ],
+              [
+                41.33980090923688,
+                -8.247652298627937
+              ],
+              [
+                41.33963881927375,
+                -8.248778363599534
+              ],
+              [
+                41.33936408165345,
+                -8.249984291433666
+              ],
+              [
+                41.33897669637597,
+                -8.251270082130333
+              ],
+              [
+                41.33847666344132,
+                -8.25263573568954
+              ],
+              [
+                41.337863982849484,
+                -8.254081252111282
+              ],
+              [
+                41.33713865460047,
+                -8.255606631395562
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.33660416800332,
+    -8.24687347617957
+  ],
+  "centroDeMassa": [
+    41.33671966664738,
+    -8.250647002040822
+  ]
+}

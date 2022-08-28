@@ -1,1 +1,602 @@
-{"CP4":"4755","CP3":"108","Distrito":"Braga","Concelho":"Barcelos","CP":"4755-108","Artéria":"Travessa da Fonte do Outeiro","Localidade":"Carvalhos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CARVALHOS BCL","locais":[{"id":"pt.ine.add.PTCONT.462030","rua":"R OUTEIRO","casa":"618","coordenadas":[41.470690821813875,-8.603432239998329]},{"id":"pt.ine.add.PTCONT.473311","rua":"R FONTE OUTEIRO","casa":"9","coordenadas":[41.46952872178312,-8.603579463030307]},{"id":"pt.ine.add.PTCONT.479935","rua":"R OUTEIRO","casa":"496","coordenadas":[41.46966362882044,-8.603616351263351]},{"id":"pt.ine.add.PTCONT.485960","rua":"R OUTEIRO CASA FERROS","casa":"639","coordenadas":[41.47089623957521,-8.603840745142426]},{"id":"pt.ine.add.PTCONT.485961","rua":"TV OUTEIRO","casa":"119","coordenadas":[41.468699479575626,-8.605991566418933]},{"id":"pt.ine.add.PTCONT.491978","rua":"TV OUTEIRO","casa":"95","coordenadas":[41.46869126318272,-8.605799974189537]},{"id":"pt.ine.add.PTCONT.494679","rua":"R FONTE OUTEIRO","casa":"108","coordenadas":[41.46935926846103,-8.603183198027212]},{"id":"pt.ine.add.PTCONT.518555","rua":"TV OUTEIRO","casa":"335","coordenadas":[41.468362355905725,-8.604768103015706]},{"id":"pt.ine.add.PTCONT.542389","rua":"R SANDIAES","casa":"137","coordenadas":[41.47081334479331,-8.604295050068872]},{"id":"pt.ine.add.PTCONT.542390","rua":"R OUTEIRO","casa":"591","coordenadas":[41.470562616704065,-8.603958042973492]},{"id":"pt.ine.add.PTCONT.552831","rua":"R FONTE DO OUTEIRO","casa":"138","coordenadas":[41.46920694096291,-8.603002534503464]},{"id":"pt.ine.add.PTCONT.557207","rua":"R AMINS","casa":"155","coordenadas":[41.46793459561742,-8.603687644812531]},{"id":"pt.ine.add.PTCONT.595010","rua":"R FONTE DO OUTEIRO","casa":"371","coordenadas":[41.467604593967685,-8.602919141251835]},{"id":"pt.ine.add.PTCONT.600895","rua":"R OUTEIRO","casa":"357","coordenadas":[41.46864210532368,-8.604614510511617]},{"id":"pt.ine.add.PTCONT.621553","rua":"R OUTEIRO","casa":"570","coordenadas":[41.47029451685298,-8.603465288857638]},{"id":"pt.ine.add.PTCONT.621554","rua":"R OUTEIRO","casa":"203","coordenadas":[41.467549183483165,-8.605456502722157]},{"id":"pt.ine.add.PTCONT.653582","rua":"R MARCO","casa":"32","coordenadas":[41.46823404647435,-8.605317825215355]},{"id":"pt.ine.add.PTCONT.653588","rua":"TV OUTEIRO","casa":"14","coordenadas":[41.468542575050556,-8.604733496931182]},{"id":"pt.ine.add.PTCONT.660793","rua":"R SANDIAES","casa":"41","coordenadas":[41.47008415185834,-8.604265827951375]},{"id":"pt.ine.add.PTCONT.679914","rua":"R OUTEIRO","casa":"329","coordenadas":[41.46814533683271,-8.604993973101083]},{"id":"pt.ine.add.PTCONT.683120","rua":"R OUTEIRO","casa":"638","coordenadas":[41.47089795340217,-8.603421765917993]},{"id":"pt.ine.add.PTCONT.692848","rua":"TV OUTEIRO","casa":"89","coordenadas":[41.46867419038142,-8.605572405365047]},{"id":"pt.ine.add.PTCONT.695153","rua":"R OUTEIRO","casa":"456","coordenadas":[41.46935505687359,-8.60421266546417]},{"id":"pt.ine.add.PTCONT.695151","rua":"R OUTEIRO","casa":"658","coordenadas":[41.47112289638256,-8.603459305432697]},{"id":"pt.ine.add.PTCONT.709921","rua":"R FONTE DO OUTEIRO","casa":"108","coordenadas":[41.469231945825705,-8.603493521253181]},{"id":"pt.ine.add.PTCONT.727838","rua":"R MARCO","casa":"32","coordenadas":[41.4684670585552,-8.605582872306023]},{"id":"pt.ine.add.PTCONT.739785","rua":"R MARCO","casa":"32","coordenadas":[41.468396504255466,-8.605223238205106]},{"id":"pt.ine.add.PTCONT.747757","rua":"R OUTEIRO","casa":"567","coordenadas":[41.47030180648112,-8.603884329331823]},{"id":"pt.ine.add.PTCONT.763649","rua":"R FONTE OUTEIRO","casa":"176","coordenadas":[41.46893844605783,-8.602605558416201]},{"id":"pt.ine.add.PTCONT.772994","rua":"R SANDIAES","casa":"73","coordenadas":[41.470371727403865,-8.604399592152888]},{"id":"pt.ine.add.PTCONT.778943","rua":"R SANDIAES","casa":"29","coordenadas":[41.46999494928251,-8.60406167469707]},{"id":"pt.ine.add.PTCONT.789984","rua":"R FONTE DO OUTEIRO","casa":"117","coordenadas":[41.469378791524846,-8.602812240848538]},{"id":"pt.ine.add.PTCONT.793756","rua":"R SANDIAES","casa":"7","coordenadas":[41.46980641284904,-8.603928629342388]},{"id":"pt.ine.add.PTCONT.799916","rua":"R FONTE DO OUTEIRO","casa":"198","coordenadas":[41.46886411959015,-8.603167650494175]}],"ruas":["R OUTEIRO","R FONTE OUTEIRO","R OUTEIRO CASA FERROS","TV OUTEIRO","R SANDIAES","R FONTE DO OUTEIRO","R AMINS","R MARCO"],"centroide":[41.46934677352468,-8.604169069052105]}
+{
+  "CP": "4755-108",
+  "CP4": "4755",
+  "CP3": "108",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Carvalhos",
+  "Designação Postal": "CARVALHOS BCL",
+  "partes": [
+    {
+      "Artéria": "Rua de Sandiães",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Outeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Marco",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Outeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Fonte do Outeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Amins",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Fonte do Outeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.462030",
+      "rua": "R OUTEIRO",
+      "casa": "618",
+      "coordenadas": [
+        41.470690821813875,
+        -8.603432239998329
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.473311",
+      "rua": "R FONTE OUTEIRO",
+      "casa": "9",
+      "coordenadas": [
+        41.46952872178312,
+        -8.603579463030307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.479935",
+      "rua": "R OUTEIRO",
+      "casa": "496",
+      "coordenadas": [
+        41.46966362882044,
+        -8.603616351263351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.485960",
+      "rua": "R OUTEIRO CASA FERROS",
+      "casa": "639",
+      "coordenadas": [
+        41.47089623957521,
+        -8.603840745142426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.485961",
+      "rua": "TV OUTEIRO",
+      "casa": "119",
+      "coordenadas": [
+        41.468699479575626,
+        -8.605991566418933
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.491978",
+      "rua": "TV OUTEIRO",
+      "casa": "95",
+      "coordenadas": [
+        41.46869126318272,
+        -8.605799974189537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.494679",
+      "rua": "R FONTE OUTEIRO",
+      "casa": "108",
+      "coordenadas": [
+        41.46935926846103,
+        -8.603183198027212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.518555",
+      "rua": "TV OUTEIRO",
+      "casa": "335",
+      "coordenadas": [
+        41.468362355905725,
+        -8.604768103015706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.542389",
+      "rua": "R SANDIAES",
+      "casa": "137",
+      "coordenadas": [
+        41.47081334479331,
+        -8.604295050068872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.542390",
+      "rua": "R OUTEIRO",
+      "casa": "591",
+      "coordenadas": [
+        41.470562616704065,
+        -8.603958042973492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.552831",
+      "rua": "R FONTE DO OUTEIRO",
+      "casa": "138",
+      "coordenadas": [
+        41.46920694096291,
+        -8.603002534503464
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.557207",
+      "rua": "R AMINS",
+      "casa": "155",
+      "coordenadas": [
+        41.46793459561742,
+        -8.603687644812531
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.595010",
+      "rua": "R FONTE DO OUTEIRO",
+      "casa": "371",
+      "coordenadas": [
+        41.467604593967685,
+        -8.602919141251835
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.600895",
+      "rua": "R OUTEIRO",
+      "casa": "357",
+      "coordenadas": [
+        41.46864210532368,
+        -8.604614510511617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.621553",
+      "rua": "R OUTEIRO",
+      "casa": "570",
+      "coordenadas": [
+        41.47029451685298,
+        -8.603465288857638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.621554",
+      "rua": "R OUTEIRO",
+      "casa": "203",
+      "coordenadas": [
+        41.467549183483165,
+        -8.605456502722157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.653582",
+      "rua": "R MARCO",
+      "casa": "32",
+      "coordenadas": [
+        41.46823404647435,
+        -8.605317825215355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.653588",
+      "rua": "TV OUTEIRO",
+      "casa": "14",
+      "coordenadas": [
+        41.468542575050556,
+        -8.604733496931182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.660793",
+      "rua": "R SANDIAES",
+      "casa": "41",
+      "coordenadas": [
+        41.47008415185834,
+        -8.604265827951375
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.679914",
+      "rua": "R OUTEIRO",
+      "casa": "329",
+      "coordenadas": [
+        41.46814533683271,
+        -8.604993973101083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.683120",
+      "rua": "R OUTEIRO",
+      "casa": "638",
+      "coordenadas": [
+        41.47089795340217,
+        -8.603421765917993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.692848",
+      "rua": "TV OUTEIRO",
+      "casa": "89",
+      "coordenadas": [
+        41.46867419038142,
+        -8.605572405365047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.695153",
+      "rua": "R OUTEIRO",
+      "casa": "456",
+      "coordenadas": [
+        41.46935505687359,
+        -8.60421266546417
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.695151",
+      "rua": "R OUTEIRO",
+      "casa": "658",
+      "coordenadas": [
+        41.47112289638256,
+        -8.603459305432697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.709921",
+      "rua": "R FONTE DO OUTEIRO",
+      "casa": "108",
+      "coordenadas": [
+        41.469231945825705,
+        -8.603493521253181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.727838",
+      "rua": "R MARCO",
+      "casa": "32",
+      "coordenadas": [
+        41.4684670585552,
+        -8.605582872306023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.739785",
+      "rua": "R MARCO",
+      "casa": "32",
+      "coordenadas": [
+        41.468396504255466,
+        -8.605223238205106
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.747757",
+      "rua": "R OUTEIRO",
+      "casa": "567",
+      "coordenadas": [
+        41.47030180648112,
+        -8.603884329331823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.763649",
+      "rua": "R FONTE OUTEIRO",
+      "casa": "176",
+      "coordenadas": [
+        41.46893844605783,
+        -8.602605558416201
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.772994",
+      "rua": "R SANDIAES",
+      "casa": "73",
+      "coordenadas": [
+        41.470371727403865,
+        -8.604399592152888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.778943",
+      "rua": "R SANDIAES",
+      "casa": "29",
+      "coordenadas": [
+        41.46999494928251,
+        -8.60406167469707
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.789984",
+      "rua": "R FONTE DO OUTEIRO",
+      "casa": "117",
+      "coordenadas": [
+        41.469378791524846,
+        -8.602812240848538
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.793756",
+      "rua": "R SANDIAES",
+      "casa": "7",
+      "coordenadas": [
+        41.46980641284904,
+        -8.603928629342388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.799916",
+      "rua": "R FONTE DO OUTEIRO",
+      "casa": "198",
+      "coordenadas": [
+        41.46886411959015,
+        -8.603167650494175
+      ]
+    }
+  ],
+  "ruas": [
+    "R OUTEIRO",
+    "R FONTE OUTEIRO",
+    "R OUTEIRO CASA FERROS",
+    "TV OUTEIRO",
+    "R SANDIAES",
+    "R FONTE DO OUTEIRO",
+    "R AMINS",
+    "R MARCO"
+  ],
+  "centro": [
+    41.46933603993286,
+    -8.604298562417567
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.46819622503518,
+                -8.605757476051593
+              ],
+              [
+                41.46805243802361,
+                -8.605690593089498
+              ],
+              [
+                41.46792749017732,
+                -8.605592424224689
+              ],
+              [
+                41.46782138149629,
+                -8.60546296945717
+              ],
+              [
+                41.46773411198053,
+                -8.605302228786936
+              ],
+              [
+                41.46766568163004,
+                -8.605110202213993
+              ],
+              [
+                41.46761609044481,
+                -8.604886889738337
+              ],
+              [
+                41.46758533842484,
+                -8.60463229135997
+              ],
+              [
+                41.46757342557014,
+                -8.604346407078891
+              ],
+              [
+                41.46758035188071,
+                -8.604029236895101
+              ],
+              [
+                41.467607253841365,
+                -8.603746813252478
+              ],
+              [
+                41.4676541314521,
+                -8.603499136151022
+              ],
+              [
+                41.467720984712926,
+                -8.603286205590733
+              ],
+              [
+                41.46780781362385,
+                -8.603108021571611
+              ],
+              [
+                41.46791461818485,
+                -8.602964584093655
+              ],
+              [
+                41.46804139839595,
+                -8.602855893156866
+              ],
+              [
+                41.46818815425712,
+                -8.602781948761244
+              ],
+              [
+                41.46835488576839,
+                -8.602742750906792
+              ],
+              [
+                41.46853490787707,
+                -8.602721792581276
+              ],
+              [
+                41.46872822058317,
+                -8.6027190737847
+              ],
+              [
+                41.468934823886684,
+                -8.602734594517063
+              ],
+              [
+                41.46915471778762,
+                -8.60276835477837
+              ],
+              [
+                41.46938790228596,
+                -8.602820354568612
+              ],
+              [
+                41.46963437738172,
+                -8.602890593887794
+              ],
+              [
+                41.469894143074896,
+                -8.602979072735916
+              ],
+              [
+                41.47016719936549,
+                -8.603085791112981
+              ],
+              [
+                41.47040128687617,
+                -8.60319222820285
+              ],
+              [
+                41.470596405606955,
+                -8.603298384005527
+              ],
+              [
+                41.47075255555782,
+                -8.60340425852101
+              ],
+              [
+                41.4708697367288,
+                -8.603509851749305
+              ],
+              [
+                41.47094794911986,
+                -8.603615163690403
+              ],
+              [
+                41.470987192731016,
+                -8.60372019434431
+              ],
+              [
+                41.47098746756227,
+                -8.603824943711025
+              ],
+              [
+                41.4709487736136,
+                -8.603929411790546
+              ],
+              [
+                41.470881887264504,
+                -8.604047329428099
+              ],
+              [
+                41.47078680851496,
+                -8.604178696623679
+              ],
+              [
+                41.47066353736497,
+                -8.604323513377288
+              ],
+              [
+                41.47051207381454,
+                -8.604481779688928
+              ],
+              [
+                41.47033241786366,
+                -8.604653495558596
+              ],
+              [
+                41.470124569512336,
+                -8.604838660986296
+              ],
+              [
+                41.46988852876057,
+                -8.605037275972023
+              ],
+              [
+                41.46962429560836,
+                -8.605249340515781
+              ],
+              [
+                41.46937511822373,
+                -8.605426536621307
+              ],
+              [
+                41.469140996606676,
+                -8.605568864288601
+              ],
+              [
+                41.46892193075721,
+                -8.605676323517663
+              ],
+              [
+                41.46871792067534,
+                -8.605748914308492
+              ],
+              [
+                41.468528966361035,
+                -8.605786636661092
+              ],
+              [
+                41.468355067814315,
+                -8.605789490575459
+              ],
+              [
+                41.46819622503518,
+                -8.605757476051593
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.46912132404336,
+    -8.604121187385116
+  ],
+  "centroDeMassa": [
+    41.46933603993286,
+    -8.604298562417567
+  ]
+}

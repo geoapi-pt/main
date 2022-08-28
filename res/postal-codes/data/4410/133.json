@@ -1,1 +1,480 @@
-{"CP4":"4410","CP3":"133","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4410-133","Artéria":"Rua Nova do Monte","Localidade":"São Félix da Marinha","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO FELIX DA MARINHA","locais":[{"id":"pt.ine.add.PTCONT.3564065","rua":"TV LIGUSTRES","casa":"56","coordenadas":[41.036877807870326,-8.633319878107217]},{"id":"pt.ine.add.PTCONT.3564066","rua":"TV LIGUSTRES","casa":"56","coordenadas":[41.036877807870326,-8.633319878107217]},{"id":"pt.ine.add.PTCONT.3564070","rua":"R NOVA DO MONTE","casa":"118","coordenadas":[41.03595798197902,-8.63363399995827]},{"id":"pt.ine.add.PTCONT.3576602","rua":"R NOVA DO MONTE","casa":"194","coordenadas":[41.035880659022794,-8.63277718869706]},{"id":"pt.ine.add.PTCONT.3589394","rua":"R NOVA DO MONTE","casa":"206","coordenadas":[41.035718995165,-8.632680830302515]},{"id":"pt.ine.add.PTCONT.3615636","rua":"R NOVA DO MONTE","casa":"206","coordenadas":[41.03587237643987,-8.632610637781564]},{"id":"pt.ine.add.PTCONT.3653787","rua":"R NOVA","casa":"","coordenadas":[41.035516737505354,-8.631561457287331]},{"id":"pt.ine.add.PTCONT.3682339","rua":"R NOVA DO MONTE","casa":"159","coordenadas":[41.03610406292378,-8.633171316070714]},{"id":"pt.ine.add.PTCONT.3743689","rua":"R NOVA DO MONTE","casa":"338","coordenadas":[41.03547259043421,-8.631358961148177]},{"id":"pt.ine.add.PTCONT.3853546","rua":"R NOVA DO MONTE","casa":"169","coordenadas":[41.03608662193604,-8.63304037143489]},{"id":"pt.ine.add.PTCONT.3919328","rua":"TV LIGUSTRES","casa":"78","coordenadas":[41.036716041303364,-8.633247300473844]},{"id":"pt.ine.add.PTCONT.3919329","rua":"TV LIGUSTRES","casa":"78","coordenadas":[41.036716041303364,-8.633247300473844]},{"id":"pt.ine.add.PTCONT.3919330","rua":"TV LIGUSTRES","casa":"78","coordenadas":[41.036716041303364,-8.633247300473844]},{"id":"pt.ine.add.PTCONT.3919331","rua":"TV LIGUSTRES","casa":"78","coordenadas":[41.036716041303364,-8.633247300473844]},{"id":"pt.ine.add.PTCONT.3963800","rua":"R NOVA DO MONTE","casa":"132","coordenadas":[41.035931795415976,-8.633443529109435]},{"id":"pt.ine.add.PTCONT.3963801","rua":"R NOVA DO MONTE","casa":"132","coordenadas":[41.035931795415976,-8.633443529109435]},{"id":"pt.ine.add.PTCONT.4002583","rua":"R NOVA DO MONTE","casa":"206","coordenadas":[41.03557461808213,-8.632751090583998]},{"id":"pt.ine.add.PTCONT.4008132","rua":"R NOVA DO MONTE","casa":"177","coordenadas":[41.036086982984536,-8.63295712975422]},{"id":"pt.ine.add.PTCONT.4015519","rua":"R NOVA DO MONTE","casa":"364","coordenadas":[41.03537493138256,-8.631037142643454]},{"id":"pt.ine.add.PTCONT.4035156","rua":"R NOVA DO MONTE","casa":"24","coordenadas":[41.03609786254852,-8.634598316423448]},{"id":"pt.ine.add.PTCONT.4068409","rua":"R NOVA DO MONTE","casa":"354","coordenadas":[41.03539258020485,-8.631120519172748]},{"id":"pt.ine.add.PTCONT.4081191","rua":"R NOVA DO MONTE","casa":"160","coordenadas":[41.03589670750774,-8.633229206988045]},{"id":"pt.ine.add.PTCONT.4133397","rua":"R NOVA DO MONTE","casa":"115","coordenadas":[41.03629129359764,-8.63360084843283]},{"id":"pt.ine.add.PTCONT.4133426","rua":"R NOVA DO MONTE","casa":"206","coordenadas":[41.035782179452895,-8.632645631978248]},{"id":"pt.ine.add.PTCONT.4138378","rua":"R NOVA DO MONTE","casa":"218","coordenadas":[41.03585467717274,-8.63253915188612]},{"id":"pt.ine.add.PTCONT.4238139","rua":"R NOVA DO MONTE","casa":"12","coordenadas":[41.036043060858944,-8.634776281273549]},{"id":"pt.ine.add.PTCONT.4291708","rua":"R NOVA DO MONTE","casa":"344","coordenadas":[41.03541913041839,-8.631227746721615]},{"id":"pt.ine.add.PTCONT.4337787","rua":"R NOVA DO MONTE","casa":"176","coordenadas":[41.03589763614391,-8.633015157570327]},{"id":"pt.ine.add.PTCONT.4337788","rua":"R NOVA DO MONTE","casa":"176","coordenadas":[41.03589763614391,-8.633015157570327]},{"id":"pt.ine.add.PTCONT.4344180","rua":"R NOVA DO MONTE","casa":"200","coordenadas":[41.03588091678389,-8.632717730536813]},{"id":"pt.ine.add.PTCONT.4369825","rua":"R NOVA DO MONTE","casa":"149","coordenadas":[41.03611270595591,-8.633254625923337]},{"id":"pt.ine.add.PTCONT.4387433","rua":"R NOVA DO MONTE","casa":"184","coordenadas":[41.035871139172265,-8.632896036911491]}],"ruas":["TV LIGUSTRES","R NOVA DO MONTE","R NOVA"],"centroide":[41.03602246182035,-8.632897952144138]}38]}
+{
+  "CP": "4410-133",
+  "CP4": "4410",
+  "CP3": "133",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "São Félix da Marinha",
+  "Designação Postal": "SÃO FELIX DA MARINHA",
+  "partes": [
+    {
+      "Artéria": "Travessa de Ligustres",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Nova do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3564065",
+      "rua": "TV LIGUSTRES",
+      "casa": "56",
+      "coordenadas": [
+        41.036877807870326,
+        -8.633319878107217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3564066",
+      "rua": "TV LIGUSTRES",
+      "casa": "56",
+      "coordenadas": [
+        41.036877807870326,
+        -8.633319878107217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3564070",
+      "rua": "R NOVA DO MONTE",
+      "casa": "118",
+      "coordenadas": [
+        41.03595798197902,
+        -8.63363399995827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3576602",
+      "rua": "R NOVA DO MONTE",
+      "casa": "194",
+      "coordenadas": [
+        41.035880659022794,
+        -8.63277718869706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3589394",
+      "rua": "R NOVA DO MONTE",
+      "casa": "206",
+      "coordenadas": [
+        41.035718995165,
+        -8.632680830302515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3615636",
+      "rua": "R NOVA DO MONTE",
+      "casa": "206",
+      "coordenadas": [
+        41.03587237643987,
+        -8.632610637781564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3653787",
+      "rua": "R NOVA",
+      "casa": "",
+      "coordenadas": [
+        41.035516737505354,
+        -8.631561457287331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3682339",
+      "rua": "R NOVA DO MONTE",
+      "casa": "159",
+      "coordenadas": [
+        41.03610406292378,
+        -8.633171316070714
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3743689",
+      "rua": "R NOVA DO MONTE",
+      "casa": "338",
+      "coordenadas": [
+        41.03547259043421,
+        -8.631358961148177
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3853546",
+      "rua": "R NOVA DO MONTE",
+      "casa": "169",
+      "coordenadas": [
+        41.03608662193604,
+        -8.63304037143489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3919328",
+      "rua": "TV LIGUSTRES",
+      "casa": "78",
+      "coordenadas": [
+        41.036716041303364,
+        -8.633247300473844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3919329",
+      "rua": "TV LIGUSTRES",
+      "casa": "78",
+      "coordenadas": [
+        41.036716041303364,
+        -8.633247300473844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3919330",
+      "rua": "TV LIGUSTRES",
+      "casa": "78",
+      "coordenadas": [
+        41.036716041303364,
+        -8.633247300473844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3919331",
+      "rua": "TV LIGUSTRES",
+      "casa": "78",
+      "coordenadas": [
+        41.036716041303364,
+        -8.633247300473844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963800",
+      "rua": "R NOVA DO MONTE",
+      "casa": "132",
+      "coordenadas": [
+        41.035931795415976,
+        -8.633443529109435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963801",
+      "rua": "R NOVA DO MONTE",
+      "casa": "132",
+      "coordenadas": [
+        41.035931795415976,
+        -8.633443529109435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4002583",
+      "rua": "R NOVA DO MONTE",
+      "casa": "206",
+      "coordenadas": [
+        41.03557461808213,
+        -8.632751090583998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4008132",
+      "rua": "R NOVA DO MONTE",
+      "casa": "177",
+      "coordenadas": [
+        41.036086982984536,
+        -8.63295712975422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4015519",
+      "rua": "R NOVA DO MONTE",
+      "casa": "364",
+      "coordenadas": [
+        41.03537493138256,
+        -8.631037142643454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4035156",
+      "rua": "R NOVA DO MONTE",
+      "casa": "24",
+      "coordenadas": [
+        41.03609786254852,
+        -8.634598316423448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4068409",
+      "rua": "R NOVA DO MONTE",
+      "casa": "354",
+      "coordenadas": [
+        41.03539258020485,
+        -8.631120519172748
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4081191",
+      "rua": "R NOVA DO MONTE",
+      "casa": "160",
+      "coordenadas": [
+        41.03589670750774,
+        -8.633229206988045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4133397",
+      "rua": "R NOVA DO MONTE",
+      "casa": "115",
+      "coordenadas": [
+        41.03629129359764,
+        -8.63360084843283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4133426",
+      "rua": "R NOVA DO MONTE",
+      "casa": "206",
+      "coordenadas": [
+        41.035782179452895,
+        -8.632645631978248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4138378",
+      "rua": "R NOVA DO MONTE",
+      "casa": "218",
+      "coordenadas": [
+        41.03585467717274,
+        -8.63253915188612
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4238139",
+      "rua": "R NOVA DO MONTE",
+      "casa": "12",
+      "coordenadas": [
+        41.036043060858944,
+        -8.634776281273549
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4291708",
+      "rua": "R NOVA DO MONTE",
+      "casa": "344",
+      "coordenadas": [
+        41.03541913041839,
+        -8.631227746721615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4337787",
+      "rua": "R NOVA DO MONTE",
+      "casa": "176",
+      "coordenadas": [
+        41.03589763614391,
+        -8.633015157570327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4337788",
+      "rua": "R NOVA DO MONTE",
+      "casa": "176",
+      "coordenadas": [
+        41.03589763614391,
+        -8.633015157570327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4344180",
+      "rua": "R NOVA DO MONTE",
+      "casa": "200",
+      "coordenadas": [
+        41.03588091678389,
+        -8.632717730536813
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4369825",
+      "rua": "R NOVA DO MONTE",
+      "casa": "149",
+      "coordenadas": [
+        41.03611270595591,
+        -8.633254625923337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4387433",
+      "rua": "R NOVA DO MONTE",
+      "casa": "184",
+      "coordenadas": [
+        41.035871139172265,
+        -8.632896036911491
+      ]
+    }
+  ],
+  "ruas": [
+    "TV LIGUSTRES",
+    "R NOVA DO MONTE",
+    "R NOVA"
+  ],
+  "centro": [
+    41.036126369626444,
+    -8.632906711958501
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.03548725515107,
+                -8.63200123836001
+              ],
+              [
+                41.035462294313625,
+                -8.631786994867442
+              ],
+              [
+                41.03546393602598,
+                -8.631635199553067
+              ],
+              [
+                41.03549218028814,
+                -8.631545852416881
+              ],
+              [
+                41.0355470271001,
+                -8.63151895345889
+              ],
+              [
+                41.03562847646186,
+                -8.631554502679094
+              ],
+              [
+                41.03573652837343,
+                -8.631652500077488
+              ],
+              [
+                41.035871182834796,
+                -8.631812945654072
+              ],
+              [
+                41.03603243984596,
+                -8.63203583940885
+              ],
+              [
+                41.03622029940693,
+                -8.632321181341823
+              ],
+              [
+                41.03637163360072,
+                -8.632593611832645
+              ],
+              [
+                41.036486442427346,
+                -8.63285313088132
+              ],
+              [
+                41.0365647258868,
+                -8.63309973848785
+              ],
+              [
+                41.03660648397907,
+                -8.63333343465223
+              ],
+              [
+                41.03661171670417,
+                -8.633554219374464
+              ],
+              [
+                41.0365804240621,
+                -8.63376209265455
+              ],
+              [
+                41.03651260605285,
+                -8.633957054492488
+              ],
+              [
+                41.03640826267642,
+                -8.63413910488828
+              ],
+              [
+                41.03630964280366,
+                -8.634266755380073
+              ],
+              [
+                41.036216746434576,
+                -8.634340005967868
+              ],
+              [
+                41.03612957356914,
+                -8.634358856651666
+              ],
+              [
+                41.03604812420738,
+                -8.634323307431462
+              ],
+              [
+                41.03597239834928,
+                -8.634233358307263
+              ],
+              [
+                41.03590239599485,
+                -8.634089009279066
+              ],
+              [
+                41.03583811714408,
+                -8.63389026034687
+              ],
+              [
+                41.035779561796986,
+                -8.633637111510676
+              ],
+              [
+                41.03572520576359,
+                -8.633388825842436
+              ],
+              [
+                41.035675049043896,
+                -8.633145403342148
+              ],
+              [
+                41.035629091637915,
+                -8.632906844009815
+              ],
+              [
+                41.03558733354565,
+                -8.632673147845432
+              ],
+              [
+                41.035549774767084,
+                -8.632444314849005
+              ],
+              [
+                41.03551641530222,
+                -8.632220345020531
+              ],
+              [
+                41.03548725515107,
+                -8.63200123836001
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.03596760454849,
+    -8.632971098152055
+  ],
+  "centroDeMassa": [
+    41.036126369626444,
+    -8.632906711958501
+  ]
+}

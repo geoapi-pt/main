@@ -1,1 +1,597 @@
-{"CP4":"3510","CP3":"091","Distrito":"Viseu","Concelho":"Viseu","CP":"3510-091","Artéria":"Praça Tenente Miguel Ponces","Localidade":"Viseu","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VISEU","locais":[{"id":"pt.ine.add.PTCONT.5451646","rua":"PC TEN MIGUEL PONCES","casa":"14","coordenadas":[40.65661242424998,-7.917370785231474]},{"id":"pt.ine.add.PTCONT.5451647","rua":"PC TEN MIGUEL PONCES","casa":"14","coordenadas":[40.65661242424998,-7.917370785231474]},{"id":"pt.ine.add.PTCONT.5514532","rua":"LG TEN MIGUEL PONCES","casa":"1","coordenadas":[40.65685624646388,-7.91773655960985]},{"id":"pt.ine.add.PTCONT.5531603","rua":"PC TEN MIGUEL PONCES","casa":"22","coordenadas":[40.656405262540275,-7.917347803689552]},{"id":"pt.ine.add.PTCONT.5561736","rua":"PC TEN MIGUEL PONCES","casa":"6","coordenadas":[40.656542234780005,-7.918364265482053]},{"id":"pt.ine.add.PTCONT.5571315","rua":"LG TEN MIGUEL PONCES OBRA SANTA ZITA","casa":"11","coordenadas":[40.65598250812057,-7.917609301428712]},{"id":"pt.ine.add.PTCONT.5571316","rua":"LG TEN MIGUEL PONCES OBRA SANTA ZITA","casa":"11","coordenadas":[40.65598250812057,-7.917609301428712]},{"id":"pt.ine.add.PTCONT.5571317","rua":"LG TEN MIGUEL PONCES OBRA SANTA ZITA","casa":"11","coordenadas":[40.65598250812057,-7.917609301428712]},{"id":"pt.ine.add.PTCONT.5572500","rua":"LG TEN MIGUEL PONCES OBRA SANTA ZITA","casa":"11","coordenadas":[40.65598250812057,-7.917609301428712]},{"id":"pt.ine.add.PTCONT.5577165","rua":"PC TEN MIGUEL PONCES","casa":"13","coordenadas":[40.65654921171226,-7.917276393212179]},{"id":"pt.ine.add.PTCONT.5577166","rua":"PC TEN MIGUEL PONCES","casa":"13","coordenadas":[40.65654921171226,-7.917276393212179]},{"id":"pt.ine.add.PTCONT.5597437","rua":"PC TEN MIGUEL PONCES","casa":"6B","coordenadas":[40.65635297350392,-7.918282101383801]},{"id":"pt.ine.add.PTCONT.5597438","rua":"PC TEN MIGUEL PONCES","casa":"6B","coordenadas":[40.65635297350392,-7.918282101383801]},{"id":"pt.ine.add.PTCONT.5597439","rua":"PC TEN MIGUEL PONCES","casa":"6B","coordenadas":[40.65635297350392,-7.918282101383801]},{"id":"pt.ine.add.PTCONT.5597455","rua":"PC TEN MIGUEL PONCES","casa":"6B","coordenadas":[40.65635297350392,-7.918282101383801]},{"id":"pt.ine.add.PTCONT.5597456","rua":"PC TEN MIGUEL PONCES","casa":"6B","coordenadas":[40.65635297350392,-7.918282101383801]},{"id":"pt.ine.add.PTCONT.5597457","rua":"PC TEN MIGUEL PONCES","casa":"6B","coordenadas":[40.65635297350392,-7.918282101383801]},{"id":"pt.ine.add.PTCONT.5610237","rua":"PC TEN MIGUEL PONCES","casa":"17","coordenadas":[40.65680175240422,-7.917488420353246]},{"id":"pt.ine.add.PTCONT.5610238","rua":"PC TEN MIGUEL PONCES","casa":"17","coordenadas":[40.65680175240422,-7.917488420353246]},{"id":"pt.ine.add.PTCONT.5617951","rua":"LG TEN MIGUEL PONCES","casa":"4","coordenadas":[40.656831949733615,-7.918141111503867]},{"id":"pt.ine.add.PTCONT.5621532","rua":"PC TEN MIGUEL PONCES","casa":"20","coordenadas":[40.656128373335825,-7.918566606960793]},{"id":"pt.ine.add.PTCONT.5621699","rua":"PC TEN MIGUEL PONCES","casa":"5","coordenadas":[40.656596177472885,-7.918316794663964]},{"id":"pt.ine.add.PTCONT.5621700","rua":"PC TEN MIGUEL PONCES","casa":"5","coordenadas":[40.656596177472885,-7.918316794663964]},{"id":"pt.ine.add.PTCONT.5646245","rua":"PC TEN MIGUEL PONCES","casa":"6A","coordenadas":[40.656335315096214,-7.918471348708861]},{"id":"pt.ine.add.PTCONT.5647375","rua":"PC TEN MIGUEL PONCES","casa":"6A","coordenadas":[40.656335315096214,-7.918471348708861]},{"id":"pt.ine.add.PTCONT.5648467","rua":"PC TEN MIGUEL PONCES","casa":"16","coordenadas":[40.65668473013753,-7.9175124460667385]},{"id":"pt.ine.add.PTCONT.5653137","rua":"PC TEN MIGUEL PONCES","casa":"2","coordenadas":[40.65691047555874,-7.917842805891171]},{"id":"pt.ine.add.PTCONT.5664773","rua":"PC TEN MIGUEL PONCES","casa":"6A","coordenadas":[40.656335315096214,-7.918471348708861]}],"ruas":["PC TEN MIGUEL PONCES","LG TEN MIGUEL PONCES","LG TEN MIGUEL PONCES OBRA SANTA ZITA"],"centroide":[40.65645173733063,-7.917906996205965]}
+{
+  "CP": "3510-091",
+  "CP4": "3510",
+  "CP3": "091",
+  "Distrito": "Viseu",
+  "Concelho": "Viseu",
+  "Localidade": "Viseu",
+  "Designação Postal": "VISEU",
+  "partes": [
+    {
+      "Artéria": "Praça Tenente Miguel Ponces",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5451646",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "14",
+      "coordenadas": [
+        40.65661242424998,
+        -7.917370785231474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5451647",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "14",
+      "coordenadas": [
+        40.65661242424998,
+        -7.917370785231474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5514532",
+      "rua": "LG TEN MIGUEL PONCES",
+      "casa": "1",
+      "coordenadas": [
+        40.65685624646388,
+        -7.91773655960985
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5531603",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "22",
+      "coordenadas": [
+        40.656405262540275,
+        -7.917347803689552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5561736",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6",
+      "coordenadas": [
+        40.656542234780005,
+        -7.918364265482053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5571315",
+      "rua": "LG TEN MIGUEL PONCES OBRA SANTA ZITA",
+      "casa": "11",
+      "coordenadas": [
+        40.65598250812057,
+        -7.917609301428712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5571316",
+      "rua": "LG TEN MIGUEL PONCES OBRA SANTA ZITA",
+      "casa": "11",
+      "coordenadas": [
+        40.65598250812057,
+        -7.917609301428712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5571317",
+      "rua": "LG TEN MIGUEL PONCES OBRA SANTA ZITA",
+      "casa": "11",
+      "coordenadas": [
+        40.65598250812057,
+        -7.917609301428712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5572500",
+      "rua": "LG TEN MIGUEL PONCES OBRA SANTA ZITA",
+      "casa": "11",
+      "coordenadas": [
+        40.65598250812057,
+        -7.917609301428712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5577165",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "13",
+      "coordenadas": [
+        40.65654921171226,
+        -7.917276393212179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5577166",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "13",
+      "coordenadas": [
+        40.65654921171226,
+        -7.917276393212179
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597437",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6B",
+      "coordenadas": [
+        40.65635297350392,
+        -7.918282101383801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597438",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6B",
+      "coordenadas": [
+        40.65635297350392,
+        -7.918282101383801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597439",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6B",
+      "coordenadas": [
+        40.65635297350392,
+        -7.918282101383801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597455",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6B",
+      "coordenadas": [
+        40.65635297350392,
+        -7.918282101383801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597456",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6B",
+      "coordenadas": [
+        40.65635297350392,
+        -7.918282101383801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5597457",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6B",
+      "coordenadas": [
+        40.65635297350392,
+        -7.918282101383801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5610237",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "17",
+      "coordenadas": [
+        40.65680175240422,
+        -7.917488420353246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5610238",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "17",
+      "coordenadas": [
+        40.65680175240422,
+        -7.917488420353246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5617951",
+      "rua": "LG TEN MIGUEL PONCES",
+      "casa": "4",
+      "coordenadas": [
+        40.656831949733615,
+        -7.918141111503867
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5621532",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "20",
+      "coordenadas": [
+        40.656128373335825,
+        -7.918566606960793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5621699",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "5",
+      "coordenadas": [
+        40.656596177472885,
+        -7.918316794663964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5621700",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "5",
+      "coordenadas": [
+        40.656596177472885,
+        -7.918316794663964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5646245",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6A",
+      "coordenadas": [
+        40.656335315096214,
+        -7.918471348708861
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5647375",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6A",
+      "coordenadas": [
+        40.656335315096214,
+        -7.918471348708861
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5648467",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "16",
+      "coordenadas": [
+        40.65668473013753,
+        -7.9175124460667385
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5653137",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "2",
+      "coordenadas": [
+        40.65691047555874,
+        -7.917842805891171
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5664773",
+      "rua": "PC TEN MIGUEL PONCES",
+      "casa": "6A",
+      "coordenadas": [
+        40.656335315096214,
+        -7.918471348708861
+      ]
+    }
+  ],
+  "ruas": [
+    "PC TEN MIGUEL PONCES",
+    "LG TEN MIGUEL PONCES",
+    "LG TEN MIGUEL PONCES OBRA SANTA ZITA"
+  ],
+  "centro": [
+    40.65644649183966,
+    -7.917921500086486
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.65606455730415,
+                -7.918147785790508
+              ],
+              [
+                40.65604632415224,
+                -7.918028122598998
+              ],
+              [
+                40.656036975682134,
+                -7.917919331404253
+              ],
+              [
+                40.65603651189382,
+                -7.917821412206271
+              ],
+              [
+                40.6560449327873,
+                -7.917734365005053
+              ],
+              [
+                40.65606223836258,
+                -7.917658189800601
+              ],
+              [
+                40.656088428619654,
+                -7.917592886592913
+              ],
+              [
+                40.656123503558526,
+                -7.9175384553819885
+              ],
+              [
+                40.656167463179194,
+                -7.917494896167829
+              ],
+              [
+                40.656220307481654,
+                -7.917462208950434
+              ],
+              [
+                40.65626879545212,
+                -7.917432491846505
+              ],
+              [
+                40.656312927090596,
+                -7.91740574485604
+              ],
+              [
+                40.65635270239707,
+                -7.917381967979042
+              ],
+              [
+                40.65638812137155,
+                -7.917361161215508
+              ],
+              [
+                40.656419184014034,
+                -7.91734332456544
+              ],
+              [
+                40.65644589032452,
+                -7.9173284580288374
+              ],
+              [
+                40.65646824030302,
+                -7.9173165616057
+              ],
+              [
+                40.656486233949515,
+                -7.917307635296029
+              ],
+              [
+                40.65650592433852,
+                -7.917303137699146
+              ],
+              [
+                40.656527311470015,
+                -7.917303068815052
+              ],
+              [
+                40.65655039534401,
+                -7.917307428643744
+              ],
+              [
+                40.656575175960505,
+                -7.917316217185225
+              ],
+              [
+                40.6566016533195,
+                -7.917329434439494
+              ],
+              [
+                40.656629827421,
+                -7.91734708040655
+              ],
+              [
+                40.65665969826499,
+                -7.917369155086396
+              ],
+              [
+                40.65669126585149,
+                -7.917395658479029
+              ],
+              [
+                40.65672058628896,
+                -7.917424386221613
+              ],
+              [
+                40.656747659577405,
+                -7.917455338314149
+              ],
+              [
+                40.656772485716836,
+                -7.917488514756634
+              ],
+              [
+                40.65679506470724,
+                -7.917523915549072
+              ],
+              [
+                40.65681539654862,
+                -7.91756154069146
+              ],
+              [
+                40.65683348124098,
+                -7.9176013901837985
+              ],
+              [
+                40.65684931878432,
+                -7.917643464026089
+              ],
+              [
+                40.656862909178635,
+                -7.917687762218328
+              ],
+              [
+                40.656873573807644,
+                -7.917731184161737
+              ],
+              [
+                40.656881312671345,
+                -7.917773729856315
+              ],
+              [
+                40.656886125769745,
+                -7.917815399302061
+              ],
+              [
+                40.65688801310283,
+                -7.9178561924989745
+              ],
+              [
+                40.65688697467061,
+                -7.917896109447057
+              ],
+              [
+                40.65688301047308,
+                -7.917935150146308
+              ],
+              [
+                40.65687612051025,
+                -7.917973314596726
+              ],
+              [
+                40.65686630478211,
+                -7.9180106027983115
+              ],
+              [
+                40.65685318922384,
+                -7.91804671675561
+              ],
+              [
+                40.65683677383543,
+                -7.918081656468618
+              ],
+              [
+                40.656817058616895,
+                -7.918115421937337
+              ],
+              [
+                40.65679404356821,
+                -7.918148013161769
+              ],
+              [
+                40.65676772868941,
+                -7.91817943014191
+              ],
+              [
+                40.656738113980474,
+                -7.91820967287776
+              ],
+              [
+                40.656705199441404,
+                -7.918238741369323
+              ],
+              [
+                40.656668985072216,
+                -7.918266635616597
+              ],
+              [
+                40.656634064379105,
+                -7.91829271625838
+              ],
+              [
+                40.65660043736208,
+                -7.918316983294672
+              ],
+              [
+                40.65656810402115,
+                -7.918339436725475
+              ],
+              [
+                40.656537064356314,
+                -7.918360076550787
+              ],
+              [
+                40.656507318367574,
+                -7.918378902770608
+              ],
+              [
+                40.65647886605491,
+                -7.91839591538494
+              ],
+              [
+                40.65645170741835,
+                -7.918411114393781
+              ],
+              [
+                40.65642584245787,
+                -7.9184244997971325
+              ],
+              [
+                40.65639997715245,
+                -7.918437700435251
+              ],
+              [
+                40.65637411150209,
+                -7.918450716308137
+              ],
+              [
+                40.65634824550677,
+                -7.918463547415791
+              ],
+              [
+                40.65632237916651,
+                -7.918476193758212
+              ],
+              [
+                40.6562965124813,
+                -7.918488655335401
+              ],
+              [
+                40.65627064545115,
+                -7.918500932147357
+              ],
+              [
+                40.656244778076044,
+                -7.918513024194081
+              ],
+              [
+                40.656218910355996,
+                -7.918524931475573
+              ],
+              [
+                40.65619399695696,
+                -7.918520392447939
+              ],
+              [
+                40.65617003787895,
+                -7.91849940711118
+              ],
+              [
+                40.656147033121954,
+                -7.918461975465296
+              ],
+              [
+                40.656124982685974,
+                -7.918408097510286
+              ],
+              [
+                40.65610388657102,
+                -7.918337773246152
+              ],
+              [
+                40.65608374477707,
+                -7.918251002672893
+              ],
+              [
+                40.65606455730415,
+                -7.918147785790508
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.656498564809084,
+    -7.917900895247826
+  ],
+  "centroDeMassa": [
+    40.65644649183966,
+    -7.917921500086486
+  ]
+}

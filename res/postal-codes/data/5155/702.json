@@ -1,1 +1,335 @@
-{"CP4":"5155","CP3":"702","Distrito":"Guarda","Concelho":"Vila Nova de Foz Côa","CP":"5155-702","Artéria":"Travessa da Amendoeira","Localidade":"Sebadelhe","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SEBADELHE","locais":[{"id":"pt.ine.add.PTCONT.1903657","rua":"R AMENDOEIRA","casa":"5","coordenadas":[41.05242996114831,-7.270649316341049]},{"id":"pt.ine.add.PTCONT.1907802","rua":"R AMENDOEIRA","casa":"7","coordenadas":[41.05253631201714,-7.2704219243423704]},{"id":"pt.ine.add.PTCONT.1923594","rua":"R DA AMENDOEIRA","casa":"","coordenadas":[41.05245349923493,-7.2701851085729325]},{"id":"pt.ine.add.PTCONT.1949662","rua":"R DA AMENDOEIRA","casa":"21","coordenadas":[41.05272592036798,-7.270490816906079]},{"id":"pt.ine.add.PTCONT.1953671","rua":"R DA AMENDOEIRA","casa":"","coordenadas":[41.052850634176586,-7.27031076349885]},{"id":"pt.ine.add.PTCONT.1971399","rua":"R DA AMENDOEIRA","casa":"14","coordenadas":[41.05264408726205,-7.270384831639534]},{"id":"pt.ine.add.PTCONT.1851671","rua":"R DA AMENDOEIRA","casa":"","coordenadas":[41.05237193306666,-7.270114805227387]},{"id":"pt.ine.add.PTCONT.1856963","rua":"R DA AMENDOEIRA","casa":"23","coordenadas":[41.05275346512683,-7.270561826702827]},{"id":"pt.ine.add.PTCONT.1858634","rua":"R DA AMENDOEIRA","casa":"25","coordenadas":[41.05276326982608,-7.270668753066808]},{"id":"pt.ine.add.PTCONT.1860648","rua":"R DA AMENDOEIRA","casa":"","coordenadas":[41.05257901425609,-7.270112099000038]},{"id":"pt.ine.add.PTCONT.1868714","rua":"R DA AMENDOEIRA","casa":"13","coordenadas":[41.05249922934812,-7.270279670113394]},{"id":"pt.ine.add.PTCONT.1871348","rua":"R DA AMENDOEIRA","casa":"19","coordenadas":[41.05268108077569,-7.270515192481481]},{"id":"pt.ine.add.PTCONT.1875551","rua":"R DA AMENDOEIRA","casa":"1","coordenadas":[41.05227093441079,-7.269854438460475]},{"id":"pt.ine.add.PTCONT.1883333","rua":"R DA AMENDOEIRA","casa":"3","coordenadas":[41.05229865773228,-7.269949234875527]},{"id":"pt.ine.add.PTCONT.1895235","rua":"R DA AMENDOEIRA","casa":"27","coordenadas":[41.05276433789629,-7.2708114783616375]},{"id":"pt.ine.add.PTCONT.1897976","rua":"R DA AMENDOEIRA","casa":"5","coordenadas":[41.05235330248883,-7.2700317846599205]}],"ruas":["R AMENDOEIRA","R DA AMENDOEIRA"],"centroide":[41.052574822443056,-7.270354017306024]}
+{
+  "CP": "5155-702",
+  "CP4": "5155",
+  "CP3": "702",
+  "Distrito": "Guarda",
+  "Concelho": "Vila Nova de Foz Côa",
+  "Localidade": "Sebadelhe",
+  "Designação Postal": "SEBADELHE",
+  "partes": [
+    {
+      "Artéria": "Rua Amendoeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Amendoeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1903657",
+      "rua": "R AMENDOEIRA",
+      "casa": "5",
+      "coordenadas": [
+        41.05242996114831,
+        -7.270649316341049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1907802",
+      "rua": "R AMENDOEIRA",
+      "casa": "7",
+      "coordenadas": [
+        41.05253631201714,
+        -7.2704219243423704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1923594",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.05245349923493,
+        -7.2701851085729325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1949662",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "21",
+      "coordenadas": [
+        41.05272592036798,
+        -7.270490816906079
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1953671",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.052850634176586,
+        -7.27031076349885
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1971399",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "14",
+      "coordenadas": [
+        41.05264408726205,
+        -7.270384831639534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1851671",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.05237193306666,
+        -7.270114805227387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1856963",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "23",
+      "coordenadas": [
+        41.05275346512683,
+        -7.270561826702827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1858634",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "25",
+      "coordenadas": [
+        41.05276326982608,
+        -7.270668753066808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1860648",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.05257901425609,
+        -7.270112099000038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1868714",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "13",
+      "coordenadas": [
+        41.05249922934812,
+        -7.270279670113394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1871348",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "19",
+      "coordenadas": [
+        41.05268108077569,
+        -7.270515192481481
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1875551",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "1",
+      "coordenadas": [
+        41.05227093441079,
+        -7.269854438460475
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1883333",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "3",
+      "coordenadas": [
+        41.05229865773228,
+        -7.269949234875527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1895235",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "27",
+      "coordenadas": [
+        41.05276433789629,
+        -7.2708114783616375
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1897976",
+      "rua": "R DA AMENDOEIRA",
+      "casa": "5",
+      "coordenadas": [
+        41.05235330248883,
+        -7.2700317846599205
+      ]
+    }
+  ],
+  "ruas": [
+    "R AMENDOEIRA",
+    "R DA AMENDOEIRA"
+  ],
+  "centro": [
+    41.05256078429369,
+    -7.270332958411056
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.05236038695065,
+                -7.270301557268297
+              ],
+              [
+                41.05234050860845,
+                -7.2702021975332265
+              ],
+              [
+                41.05233217286788,
+                -7.270122387843763
+              ],
+              [
+                41.052335379728916,
+                -7.270062128199908
+              ],
+              [
+                41.052350129191574,
+                -7.270021418601662
+              ],
+              [
+                41.05237642125584,
+                -7.270000259049025
+              ],
+              [
+                41.052414255921725,
+                -7.269998649541996
+              ],
+              [
+                41.05246363318922,
+                -7.270016590080576
+              ],
+              [
+                41.052524553058326,
+                -7.270054080664764
+              ],
+              [
+                41.05259701552905,
+                -7.27011112129456
+              ],
+              [
+                41.052659071811554,
+                -7.270168855515363
+              ],
+              [
+                41.05271072190583,
+                -7.270227283327175
+              ],
+              [
+                41.0527519658119,
+                -7.270286404729991
+              ],
+              [
+                41.052782803529745,
+                -7.2703462197238125
+              ],
+              [
+                41.052803235059365,
+                -7.270406728308642
+              ],
+              [
+                41.052813260400775,
+                -7.270467930484478
+              ],
+              [
+                41.052812879553954,
+                -7.27052982625132
+              ],
+              [
+                41.052802092518924,
+                -7.270592415609169
+              ],
+              [
+                41.052787429226576,
+                -7.270644647515715
+              ],
+              [
+                41.052768889676926,
+                -7.270686521970957
+              ],
+              [
+                41.05274647386996,
+                -7.270718038974897
+              ],
+              [
+                41.0527201818057,
+                -7.270739198527536
+              ],
+              [
+                41.052690013484124,
+                -7.27075000062887
+              ],
+              [
+                41.05265596890524,
+                -7.270750445278901
+              ],
+              [
+                41.05261804806905,
+                -7.270740532477631
+              ],
+              [
+                41.05257625097555,
+                -7.270720262225056
+              ],
+              [
+                41.05253719372597,
+                -7.270690105787169
+              ],
+              [
+                41.0525008763203,
+                -7.2706500631639726
+              ],
+              [
+                41.05246729875854,
+                -7.270600134355462
+              ],
+              [
+                41.0524364610407,
+                -7.27054031936164
+              ],
+              [
+                41.05240836316677,
+                -7.270470618182505
+              ],
+              [
+                41.052383005136754,
+                -7.270391030818057
+              ],
+              [
+                41.05236038695065,
+                -7.270301557268297
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.052578966907994,
+    -7.270406499165503
+  ],
+  "centroDeMassa": [
+    41.05256078429369,
+    -7.270332958411056
+  ]
+}

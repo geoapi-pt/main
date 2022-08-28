@@ -1,1 +1,369 @@
-{"CP4":"2860","CP3":"159","Distrito":"Setúbal","Concelho":"Moita","CP":"2860-159","Artéria":"Rua Dinis de Almeida","Localidade":"Arroteias","Local":"Bairro das Arroteias","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALHOS VEDROS","locais":[{"id":"pt.ine.add.PTCONT.4714514","rua":"R DINIS DE ALMEIDA","casa":"17","coordenadas":[38.6406547013171,-9.010156635410087]},{"id":"pt.ine.add.PTCONT.4740824","rua":"R DINIS DE ALMEIDA","casa":"12","coordenadas":[38.64020812612498,-9.009645826803766]},{"id":"pt.ine.add.PTCONT.4762173","rua":"R DINIS DE ALMEIDA","casa":"25","coordenadas":[38.641381274203226,-9.01056749324911]},{"id":"pt.ine.add.PTCONT.4762225","rua":"R DINIS DE ALMEIDA","casa":"28 A","coordenadas":[38.64136584351194,-9.010222732060557]},{"id":"pt.ine.add.PTCONT.4812551","rua":"R DINIS DE ALMEIDA","casa":"","coordenadas":[38.64088759815111,-9.01033175942439]},{"id":"pt.ine.add.PTCONT.4814087","rua":"R DINIS DE ALMEIDA","casa":"11","coordenadas":[38.64032255226479,-9.010003274277063]},{"id":"pt.ine.add.PTCONT.4819015","rua":"R DINIS ALMEIDA","casa":"58","coordenadas":[38.64098874445147,-9.010057335516944]},{"id":"pt.ine.add.PTCONT.4825962","rua":"R DINIS DE ALMEIDA","casa":"","coordenadas":[38.640008675687646,-9.009815680563532]},{"id":"pt.ine.add.PTCONT.4869026","rua":"R DINIS DE ALMEIDA","casa":"","coordenadas":[38.64075550289254,-9.009928150616304]},{"id":"pt.ine.add.PTCONT.4904399","rua":"R DINIS DE ALMEIDA","casa":"","coordenadas":[38.640531354489475,-9.009787591717338]},{"id":"pt.ine.add.PTCONT.4986904","rua":"R DINIS DE ALMEIDA","casa":"5","coordenadas":[38.63990994017286,-9.009768535496619]},{"id":"pt.ine.add.PTCONT.4990412","rua":"R DINIS DE ALMEIDA","casa":"8","coordenadas":[38.63997471197025,-9.009539613674217]},{"id":"pt.ine.add.PTCONT.5020631","rua":"R DINIS ALMEIDA","casa":"60","coordenadas":[38.6408631594849,-9.00998689087735]},{"id":"pt.ine.add.PTCONT.5044024","rua":"R DINIS DE ALMEIDA","casa":"6","coordenadas":[38.63986696908584,-9.009492359309704]},{"id":"pt.ine.add.PTCONT.5107706","rua":"R DINIS DE ALMEIDA","casa":"4","coordenadas":[38.639732548531406,-9.009398838177983]},{"id":"pt.ine.add.PTCONT.5125350","rua":"R DINIS DE ALMEIDA","casa":"19","coordenadas":[38.640807307934544,-9.010227409512009]},{"id":"pt.ine.add.PTCONT.5130075","rua":"R DINIS DE ALMEIDA","casa":"","coordenadas":[38.63946789626209,-9.009855034010585]}],"ruas":["R DINIS DE ALMEIDA","R DINIS ALMEIDA"],"centroide":[38.64051618814213,-9.009933132917935]}
+{
+  "CP": "2860-159",
+  "CP4": "2860",
+  "CP3": "159",
+  "Distrito": "Setúbal",
+  "Concelho": "Moita",
+  "Localidade": "Arroteias",
+  "Designação Postal": "ALHOS VEDROS",
+  "partes": [
+    {
+      "Artéria": "Rua Dinis de Almeida",
+      "Local": "Bairro das Arroteias",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4714514",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "17",
+      "coordenadas": [
+        38.6406547013171,
+        -9.010156635410087
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4740824",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "12",
+      "coordenadas": [
+        38.64020812612498,
+        -9.009645826803766
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4762173",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "25",
+      "coordenadas": [
+        38.641381274203226,
+        -9.01056749324911
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4762225",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "28 A",
+      "coordenadas": [
+        38.64136584351194,
+        -9.010222732060557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4812551",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        38.64088759815111,
+        -9.01033175942439
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4814087",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "11",
+      "coordenadas": [
+        38.64032255226479,
+        -9.010003274277063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4819015",
+      "rua": "R DINIS ALMEIDA",
+      "casa": "58",
+      "coordenadas": [
+        38.64098874445147,
+        -9.010057335516944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4825962",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        38.640008675687646,
+        -9.009815680563532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4869026",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        38.64075550289254,
+        -9.009928150616304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4904399",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        38.640531354489475,
+        -9.009787591717338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4986904",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "5",
+      "coordenadas": [
+        38.63990994017286,
+        -9.009768535496619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4990412",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "8",
+      "coordenadas": [
+        38.63997471197025,
+        -9.009539613674217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5020631",
+      "rua": "R DINIS ALMEIDA",
+      "casa": "60",
+      "coordenadas": [
+        38.6408631594849,
+        -9.00998689087735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5044024",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "6",
+      "coordenadas": [
+        38.63986696908584,
+        -9.009492359309704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5107706",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "4",
+      "coordenadas": [
+        38.639732548531406,
+        -9.009398838177983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5125350",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "19",
+      "coordenadas": [
+        38.640807307934544,
+        -9.010227409512009
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5130075",
+      "rua": "R DINIS DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        38.63946789626209,
+        -9.009855034010585
+      ]
+    }
+  ],
+  "ruas": [
+    "R DINIS DE ALMEIDA",
+    "R DINIS ALMEIDA"
+  ],
+  "centro": [
+    38.64042458523266,
+    -9.009983165713546
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.64054417135398,
+                -9.010255792332256
+              ],
+              [
+                38.640304999111336,
+                -9.01016673492744
+              ],
+              [
+                38.64009985859074,
+                -9.010081681638342
+              ],
+              [
+                38.63992874979217,
+                -9.010000632464962
+              ],
+              [
+                38.639791672715646,
+                -9.009923587407298
+              ],
+              [
+                38.63968862736115,
+                -9.009850546465353
+              ],
+              [
+                38.639619613728705,
+                -9.009781509639126
+              ],
+              [
+                38.639584631818295,
+                -9.009716476928613
+              ],
+              [
+                38.639583681629915,
+                -9.00965544833382
+              ],
+              [
+                38.63961676316358,
+                -9.009598423854747
+              ],
+              [
+                38.63965819084863,
+                -9.009554601709608
+              ],
+              [
+                38.639707964685066,
+                -9.009523981898406
+              ],
+              [
+                38.63976608467289,
+                -9.009506564421141
+              ],
+              [
+                38.6398325508121,
+                -9.009502349277813
+              ],
+              [
+                38.63990736310271,
+                -9.009511336468423
+              ],
+              [
+                38.63999052154469,
+                -9.009533525992968
+              ],
+              [
+                38.64008202613806,
+                -9.00956891785145
+              ],
+              [
+                38.64018187688282,
+                -9.00961751204387
+              ],
+              [
+                38.64028228517546,
+                -9.0096668310301
+              ],
+              [
+                38.64038325101599,
+                -9.00971687481014
+              ],
+              [
+                38.640484774404385,
+                -9.00976764338399
+              ],
+              [
+                38.64058685534067,
+                -9.009819136751652
+              ],
+              [
+                38.64068949382483,
+                -9.009871354913123
+              ],
+              [
+                38.64079268985688,
+                -9.009924297868404
+              ],
+              [
+                38.6408964434368,
+                -9.009977965617496
+              ],
+              [
+                38.641000754564615,
+                -9.010032358160398
+              ],
+              [
+                38.641092267906,
+                -9.01008533852901
+              ],
+              [
+                38.64117098346095,
+                -9.010136906723329
+              ],
+              [
+                38.64123690122949,
+                -9.010187062743356
+              ],
+              [
+                38.64129002121159,
+                -9.010235806589092
+              ],
+              [
+                38.641330343407276,
+                -9.010283138260537
+              ],
+              [
+                38.64135786781654,
+                -9.01032905775769
+              ],
+              [
+                38.641372594439375,
+                -9.01037356508055
+              ],
+              [
+                38.641374523275786,
+                -9.010416660229117
+              ],
+              [
+                38.64134631447732,
+                -9.010443236308513
+              ],
+              [
+                38.64128796804397,
+                -9.010453293318736
+              ],
+              [
+                38.64119948397573,
+                -9.010446831259786
+              ],
+              [
+                38.64108086227261,
+                -9.010423850131664
+              ],
+              [
+                38.64093210293461,
+                -9.010384349934368
+              ],
+              [
+                38.64075320596174,
+                -9.010328330667898
+              ],
+              [
+                38.64054417135398,
+                -9.010255792332256
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.64049578339963,
+    -9.009966337843114
+  ],
+  "centroDeMassa": [
+    38.64042458523266,
+    -9.009983165713546
+  ]
+}

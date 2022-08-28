@@ -1,1 +1,418 @@
-{"CP4":"8375","CP3":"106","Distrito":"Faro","Concelho":"Silves","CP":"8375-106","Artéria":"Rua Francisco Vargas Mogo","Localidade":"São Bartolomeu de Messines","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"S BARTOLOMEU DE MESSINES","locais":[{"id":"pt.ine.add.PTCONT.1506329","rua":"R FRANCISCO VARGAS MOGO","casa":"25","coordenadas":[37.25747308384008,-8.285784441815496]},{"id":"pt.ine.add.PTCONT.1506330","rua":"R FRANCISCO VARGAS MOGO","casa":"5","coordenadas":[37.25758045132683,-8.286370834217227]},{"id":"pt.ine.add.PTCONT.1524620","rua":"R FRANCISCO VARGAS MOGO","casa":"16","coordenadas":[37.25738273258299,-8.285975893333223]},{"id":"pt.ine.add.PTCONT.1524621","rua":"R FRANCISCO VARGAS MOGO","casa":"16","coordenadas":[37.25738273258299,-8.285975893333223]},{"id":"pt.ine.add.PTCONT.1526341","rua":"R FRANCISCO VARGAS MOGO","casa":"2","coordenadas":[37.25742009413955,-8.284950163506132]},{"id":"pt.ine.add.PTCONT.1549315","rua":"R FRANCISCO VARGAS MOGO","casa":"24","coordenadas":[37.25744648822725,-8.285446210442522]},{"id":"pt.ine.add.PTCONT.1553796","rua":"R FRANCISCO VARGAS MOGO","casa":"19","coordenadas":[37.25748184697854,-8.285976093618784]},{"id":"pt.ine.add.PTCONT.1553797","rua":"R FRANCISCO VARGAS MOGO","casa":"19","coordenadas":[37.25748184697854,-8.285976093618784]},{"id":"pt.ine.add.PTCONT.1580588","rua":"R FRANCISCO VARGAS MOGO","casa":"32","coordenadas":[37.25744672014487,-8.285265849469928]},{"id":"pt.ine.add.PTCONT.1601832","rua":"R FRANCISCO VARGAS MOGO","casa":"7","coordenadas":[37.2575625180581,-8.286303162242211]},{"id":"pt.ine.add.PTCONT.1601833","rua":"R FRANCISCO VARGAS MOGO","casa":"28","coordenadas":[37.25742853993133,-8.28538981136288]},{"id":"pt.ine.add.PTCONT.1610485","rua":"R FRANCISCO VARGAS MOGO","casa":"20","coordenadas":[37.257410243474915,-8.285603953637981]},{"id":"pt.ine.add.PTCONT.1633785","rua":"R FRANCISCO VARGAS MOGO","casa":"14","coordenadas":[37.257454568208814,-8.286167672542826]},{"id":"pt.ine.add.PTCONT.1645434","rua":"R FRANCISCO VARGAS MOGO","casa":"13","coordenadas":[37.25755362430496,-8.286212963385376]},{"id":"pt.ine.add.PTCONT.1665996","rua":"R FRANCISCO VARGAS MOGO","casa":"18","coordenadas":[37.25738296530714,-8.285795532517083]},{"id":"pt.ine.add.PTCONT.1697452","rua":"R FRANCISCO VARGAS MOGO","casa":"30","coordenadas":[37.257455643607784,-8.285333502966159]},{"id":"pt.ine.add.PTCONT.1700033","rua":"R FRANCISCO VARGAS MOGO","casa":"1S","coordenadas":[37.25750876171139,-8.286066328799956]},{"id":"pt.ine.add.PTCONT.1711473","rua":"R FRANCISCO VARGAS MOGO","casa":"22","coordenadas":[37.25740133467793,-8.285525027597062]},{"id":"pt.ine.add.PTCONT.1747953","rua":"R FRANCISCO VARGAS MOGO","casa":"31","coordenadas":[37.25751838278931,-8.285592899028616]}],"ruas":["R FRANCISCO VARGAS MOGO"],"centroide":[37.2574585664491,-8.28578441268927]}
+{
+  "CP": "8375-106",
+  "CP4": "8375",
+  "CP3": "106",
+  "Distrito": "Faro",
+  "Concelho": "Silves",
+  "Localidade": "São Bartolomeu de Messines",
+  "Designação Postal": "S BARTOLOMEU DE MESSINES",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco Vargas Mogo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1506329",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "25",
+      "coordenadas": [
+        37.25747308384008,
+        -8.285784441815496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1506330",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "5",
+      "coordenadas": [
+        37.25758045132683,
+        -8.286370834217227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1524620",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "16",
+      "coordenadas": [
+        37.25738273258299,
+        -8.285975893333223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1524621",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "16",
+      "coordenadas": [
+        37.25738273258299,
+        -8.285975893333223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1526341",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "2",
+      "coordenadas": [
+        37.25742009413955,
+        -8.284950163506132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1549315",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "24",
+      "coordenadas": [
+        37.25744648822725,
+        -8.285446210442522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1553796",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "19",
+      "coordenadas": [
+        37.25748184697854,
+        -8.285976093618784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1553797",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "19",
+      "coordenadas": [
+        37.25748184697854,
+        -8.285976093618784
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1580588",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "32",
+      "coordenadas": [
+        37.25744672014487,
+        -8.285265849469928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1601832",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "7",
+      "coordenadas": [
+        37.2575625180581,
+        -8.286303162242211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1601833",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "28",
+      "coordenadas": [
+        37.25742853993133,
+        -8.28538981136288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1610485",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "20",
+      "coordenadas": [
+        37.257410243474915,
+        -8.285603953637981
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1633785",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "14",
+      "coordenadas": [
+        37.257454568208814,
+        -8.286167672542826
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1645434",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "13",
+      "coordenadas": [
+        37.25755362430496,
+        -8.286212963385376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1665996",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "18",
+      "coordenadas": [
+        37.25738296530714,
+        -8.285795532517083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697452",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "30",
+      "coordenadas": [
+        37.257455643607784,
+        -8.285333502966159
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1700033",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "1S",
+      "coordenadas": [
+        37.25750876171139,
+        -8.286066328799956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1711473",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "22",
+      "coordenadas": [
+        37.25740133467793,
+        -8.285525027597062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1747953",
+      "rua": "R FRANCISCO VARGAS MOGO",
+      "casa": "31",
+      "coordenadas": [
+        37.25751838278931,
+        -8.285592899028616
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO VARGAS MOGO"
+  ],
+  "centro": [
+    37.257481591954914,
+    -8.285660498861679
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.25742314012252,
+                -8.286083769138624
+              ],
+              [
+                37.25741416066929,
+                -8.286059796737424
+              ],
+              [
+                37.25740630728403,
+                -8.286036002748622
+              ],
+              [
+                37.257399579966744,
+                -8.286012387172216
+              ],
+              [
+                37.25739397871742,
+                -8.28598895000821
+              ],
+              [
+                37.25738950353606,
+                -8.285965691256601
+              ],
+              [
+                37.257386154422676,
+                -8.285942610917392
+              ],
+              [
+                37.25738393137725,
+                -8.285919708990576
+              ],
+              [
+                37.257382834399806,
+                -8.285896985476162
+              ],
+              [
+                37.25738286349032,
+                -8.285874440374144
+              ],
+              [
+                37.257383469082534,
+                -8.285841504519082
+              ],
+              [
+                37.25738465117644,
+                -8.285798177910978
+              ],
+              [
+                37.257386409772025,
+                -8.285744460549829
+              ],
+              [
+                37.25738874486932,
+                -8.285680352435634
+              ],
+              [
+                37.25739165646829,
+                -8.285605853568397
+              ],
+              [
+                37.25739514456895,
+                -8.285520963948118
+              ],
+              [
+                37.25739920917131,
+                -8.285425683574793
+              ],
+              [
+                37.25740385027537,
+                -8.285320012448423
+              ],
+              [
+                37.257409447001564,
+                -8.285237592955388
+              ],
+              [
+                37.2574159993499,
+                -8.28517842509569
+              ],
+              [
+                37.2574235073204,
+                -8.285142508869326
+              ],
+              [
+                37.25743197091303,
+                -8.285129844276296
+              ],
+              [
+                37.25744139012781,
+                -8.285140431316602
+              ],
+              [
+                37.25745176496474,
+                -8.285174269990241
+              ],
+              [
+                37.257463095423816,
+                -8.285231360297217
+              ],
+              [
+                37.25747538150503,
+                -8.285311702237529
+              ],
+              [
+                37.257487101647,
+                -8.285394156672623
+              ],
+              [
+                37.25749825584972,
+                -8.285478723602502
+              ],
+              [
+                37.257508844113175,
+                -8.285565403027162
+              ],
+              [
+                37.25751886643738,
+                -8.285654194946604
+              ],
+              [
+                37.25752832282233,
+                -8.285745099360831
+              ],
+              [
+                37.25753721326803,
+                -8.285838116269842
+              ],
+              [
+                37.257545537774476,
+                -8.285933245673634
+              ],
+              [
+                37.25755329634166,
+                -8.28603048757221
+              ],
+              [
+                37.25755811816423,
+                -8.286112399832302
+              ],
+              [
+                37.25756000324219,
+                -8.28617898245391
+              ],
+              [
+                37.257558951575525,
+                -8.286230235437031
+              ],
+              [
+                37.257554963164246,
+                -8.28626615878167
+              ],
+              [
+                37.25754803800835,
+                -8.286286752487822
+              ],
+              [
+                37.25753817610783,
+                -8.286292016555493
+              ],
+              [
+                37.2575253774627,
+                -8.286281950984677
+              ],
+              [
+                37.25750964207295,
+                -8.286256555775376
+              ],
+              [
+                37.25749475117526,
+                -8.286231338417089
+              ],
+              [
+                37.257480704769634,
+                -8.286206298909812
+              ],
+              [
+                37.25746750285608,
+                -8.28618143725355
+              ],
+              [
+                37.2574551454346,
+                -8.2861567534483
+              ],
+              [
+                37.25744363250517,
+                -8.286132247494063
+              ],
+              [
+                37.25743296406781,
+                -8.286107919390837
+              ],
+              [
+                37.25742314012252,
+                -8.286083769138624
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.25745653239244,
+    -8.285808832524184
+  ],
+  "centroDeMassa": [
+    37.257481591954914,
+    -8.285660498861679
+  ]
+}

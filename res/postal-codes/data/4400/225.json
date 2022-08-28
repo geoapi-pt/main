@@ -1,1 +1,427 @@
-{"CP4":"4400","CP3":"225","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4400-225","Artéria":"Escadas de Monte de Coimbra","Localidade":"Vila Nova de Gaia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3544079","rua":"ESC MONTE DE COIMBRA","casa":"72","coordenadas":[41.13549816335592,-8.619871599889894]},{"id":"pt.ine.add.PTCONT.3564034","rua":"ESC MONTE DE COIMBRA","casa":"48-54","coordenadas":[41.1356233147038,-8.620086905453412]},{"id":"pt.ine.add.PTCONT.3570229","rua":"ESC MONTE DE COIMBRA","casa":"66","coordenadas":[41.135542831552094,-8.619955300146014]},{"id":"pt.ine.add.PTCONT.3576568","rua":"ESC MONTE DE COIMBRA","casa":"76","coordenadas":[41.13545309254327,-8.619883176699986]},{"id":"pt.ine.add.PTCONT.3576569","rua":"ESC MONTE DE COIMBRA","casa":"76","coordenadas":[41.13545309254327,-8.619883176699986]},{"id":"pt.ine.add.PTCONT.3580118","rua":"ESC MONTE DE COIMBRA","casa":"13","coordenadas":[41.13561375673177,-8.62021784498577]},{"id":"pt.ine.add.PTCONT.3647338","rua":"ESC MONTE DE COIMBRA","casa":"31","coordenadas":[41.13555213761843,-8.619883908898517]},{"id":"pt.ine.add.PTCONT.3653757","rua":"ESC MONTE COIMBRA","casa":"78","coordenadas":[41.13537215630805,-8.619858758422437]},{"id":"pt.ine.add.PTCONT.3692487","rua":"ESC MONTE DE COIMBRA","casa":"68","coordenadas":[41.13552502467414,-8.619907528471634]},{"id":"pt.ine.add.PTCONT.3757149","rua":"ESC MONTE DE COIMBRA","casa":"11","coordenadas":[41.135568534800385,-8.620265150495818]},{"id":"pt.ine.add.PTCONT.3763980","rua":"ESC MONTE DE COIMBRA","casa":"47","coordenadas":[41.13536325285088,-8.619834872657036]},{"id":"pt.ine.add.PTCONT.3764000","rua":"ESC MONTE DE COIMBRA","casa":"78 CASA","coordenadas":[41.13545284090657,-8.619942724794603]},{"id":"pt.ine.add.PTCONT.3790620","rua":"ESC MONTE DE COIMBRA","casa":"62","coordenadas":[41.13556969284366,-8.619991228786198]},{"id":"pt.ine.add.PTCONT.3873724","rua":"ESC MONTE COIMBRA","casa":"1","coordenadas":[41.136022262148884,-8.619434800807909]},{"id":"pt.ine.add.PTCONT.3874018","rua":"ESC MONTE COIMBRA","casa":"1","coordenadas":[41.136022262148884,-8.619434800807909]},{"id":"pt.ine.add.PTCONT.3882023","rua":"ESC MONTE DE COIMBRA","casa":"27","coordenadas":[41.13559660446242,-8.62001524781099]},{"id":"pt.ine.add.PTCONT.3932967","rua":"ESC MONTE DE COIMBRA","casa":"33","coordenadas":[41.13549841495608,-8.619812051753666]},{"id":"pt.ine.add.PTCONT.3951470","rua":"ESC MONTE DE COIMBRA","casa":"17","coordenadas":[41.135650427684226,-8.62006328591965]},{"id":"pt.ine.add.PTCONT.4015489","rua":"ESC MONTE DE COIMBRA","casa":"37","coordenadas":[41.135462297928335,-8.619835604780594]},{"id":"pt.ine.add.PTCONT.4147675","rua":"ESC MONTE COIMBRA","casa":"78","coordenadas":[41.13540777008671,-8.619954301548278]},{"id":"pt.ine.add.PTCONT.4159837","rua":"ESC MONTE DE COIMBRA","casa":"78 CASA","coordenadas":[41.13548895795592,-8.619919171829975]},{"id":"pt.ine.add.PTCONT.4183130","rua":"ESC MONTE DE COIMBRA","casa":"60","coordenadas":[41.13559650378384,-8.62003906710037]},{"id":"pt.ine.add.PTCONT.4186829","rua":"ESC MONTE DE COIMBRA","casa":"41","coordenadas":[41.13544348446582,-8.62002602554293]},{"id":"pt.ine.add.PTCONT.4231500","rua":"ESC MONTE DE COIMBRA","casa":"78 CASA","coordenadas":[41.13540797140313,-8.619906663105334]},{"id":"pt.ine.add.PTCONT.4244915","rua":"ESC MONTE DE COIMBRA","casa":"49","coordenadas":[41.13531838331233,-8.619798811090593]},{"id":"pt.ine.add.PTCONT.4311679","rua":"ESC MONTE DE COIMBRA","casa":"27","coordenadas":[41.13554288188327,-8.619943390510898]},{"id":"pt.ine.add.PTCONT.4372486","rua":"ESC MONTE DE COIMBRA","casa":"15","coordenadas":[41.13565012560359,-8.620134743845329]}],"ruas":["ESC MONTE DE COIMBRA","ESC MONTE COIMBRA"],"centroide":[41.13554023514046,-8.61991405380809]}
+{
+  "CP": "4400-225",
+  "CP4": "4400",
+  "CP3": "225",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Escadas de Monte de Coimbra",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3544079",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "72",
+      "coordenadas": [
+        41.13549816335592,
+        -8.619871599889894
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3564034",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "48-54",
+      "coordenadas": [
+        41.1356233147038,
+        -8.620086905453412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3570229",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "66",
+      "coordenadas": [
+        41.135542831552094,
+        -8.619955300146014
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3576568",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "76",
+      "coordenadas": [
+        41.13545309254327,
+        -8.619883176699986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3576569",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "76",
+      "coordenadas": [
+        41.13545309254327,
+        -8.619883176699986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3580118",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "13",
+      "coordenadas": [
+        41.13561375673177,
+        -8.62021784498577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3647338",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "31",
+      "coordenadas": [
+        41.13555213761843,
+        -8.619883908898517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3653757",
+      "rua": "ESC MONTE COIMBRA",
+      "casa": "78",
+      "coordenadas": [
+        41.13537215630805,
+        -8.619858758422437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3692487",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "68",
+      "coordenadas": [
+        41.13552502467414,
+        -8.619907528471634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3757149",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "11",
+      "coordenadas": [
+        41.135568534800385,
+        -8.620265150495818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3763980",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "47",
+      "coordenadas": [
+        41.13536325285088,
+        -8.619834872657036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3764000",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "78 CASA",
+      "coordenadas": [
+        41.13545284090657,
+        -8.619942724794603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3790620",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "62",
+      "coordenadas": [
+        41.13556969284366,
+        -8.619991228786198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3873724",
+      "rua": "ESC MONTE COIMBRA",
+      "casa": "1",
+      "coordenadas": [
+        41.136022262148884,
+        -8.619434800807909
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3874018",
+      "rua": "ESC MONTE COIMBRA",
+      "casa": "1",
+      "coordenadas": [
+        41.136022262148884,
+        -8.619434800807909
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3882023",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "27",
+      "coordenadas": [
+        41.13559660446242,
+        -8.62001524781099
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3932967",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "33",
+      "coordenadas": [
+        41.13549841495608,
+        -8.619812051753666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3951470",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "17",
+      "coordenadas": [
+        41.135650427684226,
+        -8.62006328591965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4015489",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "37",
+      "coordenadas": [
+        41.135462297928335,
+        -8.619835604780594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4147675",
+      "rua": "ESC MONTE COIMBRA",
+      "casa": "78",
+      "coordenadas": [
+        41.13540777008671,
+        -8.619954301548278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4159837",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "78 CASA",
+      "coordenadas": [
+        41.13548895795592,
+        -8.619919171829975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4183130",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "60",
+      "coordenadas": [
+        41.13559650378384,
+        -8.62003906710037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4186829",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "41",
+      "coordenadas": [
+        41.13544348446582,
+        -8.62002602554293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4231500",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "78 CASA",
+      "coordenadas": [
+        41.13540797140313,
+        -8.619906663105334
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4244915",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "49",
+      "coordenadas": [
+        41.13531838331233,
+        -8.619798811090593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4311679",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "27",
+      "coordenadas": [
+        41.13554288188327,
+        -8.619943390510898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4372486",
+      "rua": "ESC MONTE DE COIMBRA",
+      "casa": "15",
+      "coordenadas": [
+        41.13565012560359,
+        -8.620134743845329
+      ]
+    }
+  ],
+  "ruas": [
+    "ESC MONTE DE COIMBRA",
+    "ESC MONTE COIMBRA"
+  ],
+  "centro": [
+    41.135670322730604,
+    -8.619849975651864
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.13545909352436,
+                -8.620061127006032
+              ],
+              [
+                41.13542782458836,
+                -8.62000283458038
+              ],
+              [
+                41.135411462376176,
+                -8.619946141047265
+              ],
+              [
+                41.13541000688781,
+                -8.619891046406691
+              ],
+              [
+                41.13542345812327,
+                -8.619837550658657
+              ],
+              [
+                41.13545181608255,
+                -8.619785653803165
+              ],
+              [
+                41.13549508076565,
+                -8.61973535584021
+              ],
+              [
+                41.13555325217258,
+                -8.619686656769796
+              ],
+              [
+                41.135626330303324,
+                -8.61963955659192
+              ],
+              [
+                41.13571431515789,
+                -8.619594055306582
+              ],
+              [
+                41.1357849190085,
+                -8.619566476747192
+              ],
+              [
+                41.13583814185514,
+                -8.61955682091375
+              ],
+              [
+                41.13587398369782,
+                -8.619565087806253
+              ],
+              [
+                41.13589244453653,
+                -8.619591277424702
+              ],
+              [
+                41.13589352437128,
+                -8.619635389769098
+              ],
+              [
+                41.13587722320207,
+                -8.619697424839437
+              ],
+              [
+                41.1358435410289,
+                -8.619777382635725
+              ],
+              [
+                41.13579247785176,
+                -8.619875263157954
+              ],
+              [
+                41.13574709097908,
+                -8.619961647763503
+              ],
+              [
+                41.13570738041088,
+                -8.620036536452368
+              ],
+              [
+                41.13567334614713,
+                -8.620099929224548
+              ],
+              [
+                41.13564498818785,
+                -8.62015182608004
+              ],
+              [
+                41.13562230653304,
+                -8.620192227018851
+              ],
+              [
+                41.13560530118268,
+                -8.620221132040975
+              ],
+              [
+                41.13559397213679,
+                -8.620238541146417
+              ],
+              [
+                41.13558831939537,
+                -8.620244454335172
+              ],
+              [
+                41.135579464629615,
+                -8.620242341822127
+              ],
+              [
+                41.135567407839545,
+                -8.62023220360728
+              ],
+              [
+                41.13555214902516,
+                -8.620214039690634
+              ],
+              [
+                41.13553368818644,
+                -8.620187850072185
+              ],
+              [
+                41.13551202532341,
+                -8.620153634751937
+              ],
+              [
+                41.13548716043604,
+                -8.620111393729886
+              ],
+              [
+                41.13545909352436,
+                -8.620061127006032
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.135630734248345,
+    -8.619929151845023
+  ],
+  "centroDeMassa": [
+    41.135670322730604,
+    -8.619849975651864
+  ]
+}

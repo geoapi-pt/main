@@ -1,1 +1,415 @@
-{"CP4":"8200","CP3":"216","Distrito":"Faro","Concelho":"Albufeira","CP":"8200-216","Artéria":"Avenida dos Descobrimentos","Localidade":"Albufeira","Local":"Várzea da Ourada","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALBUFEIRA","locais":[{"id":"pt.ine.add.PTCONT.1469364","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.097859272890894,-8.246542362413395]},{"id":"pt.ine.add.PTCONT.1484803","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.0972104624814,-8.246586390428897]},{"id":"pt.ine.add.PTCONT.1542315","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09767766279732,-8.247993197328729]},{"id":"pt.ine.add.PTCONT.1549709","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09767915654088,-8.2464408539642]},{"id":"pt.ine.add.PTCONT.1590378","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09805742123111,-8.246632649313288]},{"id":"pt.ine.add.PTCONT.1604086","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.098354557309996,-8.246858072267734]},{"id":"pt.ine.add.PTCONT.1604551","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09729268277721,-8.24540538649665]},{"id":"pt.ine.add.PTCONT.1663023","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.097443440183106,-8.24793659945545]},{"id":"pt.ine.add.PTCONT.1667502","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09756206098461,-8.246395684099369]},{"id":"pt.ine.add.PTCONT.1677712","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.0972011607984,-8.2468900944455]},{"id":"pt.ine.add.PTCONT.1692339","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09816548448094,-8.24670030426367]},{"id":"pt.ine.add.PTCONT.1720631","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09727420242576,-8.245889058551798]},{"id":"pt.ine.add.PTCONT.1729003","rua":"URB ALDEIA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09724682756338,-8.246248980137613]},{"id":"pt.ine.add.PTCONT.1734059","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09757855646548,-8.247981798826022]},{"id":"pt.ine.add.PTCONT.1747481","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09777819849304,-8.246519743755659]},{"id":"pt.ine.add.PTCONT.1749986","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09825552637661,-8.24676793248648]},{"id":"pt.ine.add.PTCONT.1768961","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09725595621244,-8.246125256703786]},{"id":"pt.ine.add.PTCONT.1784123","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09722863439353,-8.246428934122655]},{"id":"pt.ine.add.PTCONT.1786828","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.09726506331263,-8.246024030848588]},{"id":"pt.ine.add.PTCONT.1810106","rua":"URB VILA DAS AMENDOEIRAS","casa":"","coordenadas":[37.097210311676726,-8.246743873572703]},{"id":"pt.ine.add.PTCONT.1845299","rua":"URB VILA DAS AMENDOEIRAS","casa":"51","coordenadas":[37.09730145882713,-8.245652873612825]},{"id":"pt.ine.add.PTCONT.1550191","rua":"AV DOS DESCOBRIMENTOS","casa":"","coordenadas":[37.019254863399134,-7.929207355487652]}],"ruas":["URB VILA DAS AMENDOEIRAS","URB ALDEIA DAS AMENDOEIRAS","AV DOS DESCOBRIMENTOS"],"centroide":[37.09756657610584,-8.246607813195]}
+{
+  "CP": "8200-216",
+  "CP4": "8200",
+  "CP3": "216",
+  "Distrito": "Faro",
+  "Concelho": "Albufeira",
+  "Localidade": "Albufeira",
+  "Designação Postal": "ALBUFEIRA",
+  "partes": [
+    {
+      "Artéria": "Avenida dos Descobrimentos",
+      "Local": "Várzea da Ourada",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1469364",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.097859272890894,
+        -8.246542362413395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1484803",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.0972104624814,
+        -8.246586390428897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1542315",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09767766279732,
+        -8.247993197328729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1549709",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09767915654088,
+        -8.2464408539642
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1590378",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09805742123111,
+        -8.246632649313288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1604086",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.098354557309996,
+        -8.246858072267734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1604551",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09729268277721,
+        -8.24540538649665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1663023",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.097443440183106,
+        -8.24793659945545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1667502",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09756206098461,
+        -8.246395684099369
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1677712",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.0972011607984,
+        -8.2468900944455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1692339",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09816548448094,
+        -8.24670030426367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1720631",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09727420242576,
+        -8.245889058551798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1729003",
+      "rua": "URB ALDEIA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09724682756338,
+        -8.246248980137613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1734059",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09757855646548,
+        -8.247981798826022
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1747481",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09777819849304,
+        -8.246519743755659
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1749986",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09825552637661,
+        -8.24676793248648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1768961",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09725595621244,
+        -8.246125256703786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1784123",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09722863439353,
+        -8.246428934122655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1786828",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.09726506331263,
+        -8.246024030848588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1810106",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "",
+      "coordenadas": [
+        37.097210311676726,
+        -8.246743873572703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1845299",
+      "rua": "URB VILA DAS AMENDOEIRAS",
+      "casa": "51",
+      "coordenadas": [
+        37.09730145882713,
+        -8.245652873612825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1550191",
+      "rua": "AV DOS DESCOBRIMENTOS",
+      "casa": "",
+      "coordenadas": [
+        37.019254863399134,
+        -7.929207355487652
+      ]
+    }
+  ],
+  "ruas": [
+    "URB VILA DAS AMENDOEIRAS",
+    "URB ALDEIA DAS AMENDOEIRAS",
+    "AV DOS DESCOBRIMENTOS"
+  ],
+  "centro": [
+    37.058804710354565,
+    -8.08860027640819
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.06323593784012,
+                -8.108492555219538
+              ],
+              [
+                37.05346236574212,
+                -8.068651399723564
+              ],
+              [
+                37.04614642287373,
+                -8.038753681114272
+              ],
+              [
+                37.04128810923494,
+                -8.018799399391671
+              ],
+              [
+                37.03888742482577,
+                -8.008788554555753
+              ],
+              [
+                37.038944369646195,
+                -8.008721146606518
+              ],
+              [
+                37.041458943696234,
+                -8.018597175543974
+              ],
+              [
+                37.04643114697588,
+                -8.038416641368112
+              ],
+              [
+                37.05386097948513,
+                -8.068179544078937
+              ],
+              [
+                37.063748441224,
+                -8.107885883676449
+              ],
+              [
+                37.072389393768745,
+                -8.142646667153347
+              ],
+              [
+                37.079783837119365,
+                -8.172461894509638
+              ],
+              [
+                37.08593177127587,
+                -8.197331565745316
+              ],
+              [
+                37.09083319623825,
+                -8.217255680860383
+              ],
+              [
+                37.094488112006516,
+                -8.23223423985484
+              ],
+              [
+                37.096896518580664,
+                -8.242267242728683
+              ],
+              [
+                37.09805841596069,
+                -8.24735468948192
+              ],
+              [
+                37.09797380414662,
+                -8.247496580114543
+              ],
+              [
+                37.09789822027285,
+                -8.247620556316486
+              ],
+              [
+                37.097831664339424,
+                -8.247726618087743
+              ],
+              [
+                37.09777413634632,
+                -8.24781476542832
+              ],
+              [
+                37.09772563629353,
+                -8.247884998338211
+              ],
+              [
+                37.097686164181084,
+                -8.247937316817422
+              ],
+              [
+                37.097655720008945,
+                -8.24797172086595
+              ],
+              [
+                37.09763430377714,
+                -8.247988210483793
+              ],
+              [
+                37.09762191548566,
+                -8.247986785670957
+              ],
+              [
+                37.09760896453871,
+                -8.247984832719558
+              ],
+              [
+                37.09759545093627,
+                -8.247982351629597
+              ],
+              [
+                37.097581374678356,
+                -8.247979342401077
+              ],
+              [
+                37.09756673576497,
+                -8.247975805033999
+              ],
+              [
+                37.0975515341961,
+                -8.247971739528358
+              ],
+              [
+                37.097535769971756,
+                -8.247967145884157
+              ],
+              [
+                37.09751944309194,
+                -8.247962024101398
+              ],
+              [
+                37.09750255355665,
+                -8.247956374180074
+              ],
+              [
+                37.09626607870102,
+                -8.242971286061922
+              ],
+              [
+                37.09381001852505,
+                -8.233006759746937
+              ],
+              [
+                37.09013437302873,
+                -8.21806279523512
+              ],
+              [
+                37.08523914221209,
+                -8.198139392526475
+              ],
+              [
+                37.0791243260751,
+                -8.173236551620995
+              ],
+              [
+                37.071789924617775,
+                -8.143354272518682
+              ],
+              [
+                37.06323593784012,
+                -8.108492555219538
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.082061816031,
+    -8.183995404673118
+  ],
+  "centroDeMassa": [
+    37.058804710354565,
+    -8.08860027640819
+  ]
+}

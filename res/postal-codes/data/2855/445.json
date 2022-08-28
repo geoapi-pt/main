@@ -1,1 +1,428 @@
-{"CP4":"2855","CP3":"445","Distrito":"Setúbal","Concelho":"Seixal","CP":"2855-445","Artéria":"Rua Fernão Mendes Pinto","Localidade":"Vale de Milhaços","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CORROIOS","locais":[{"id":"pt.ine.add.PTCONT.4680263","rua":"R FERNÃO MENDES PINTO","casa":"17","coordenadas":[38.62802442948595,-9.160770712935404]},{"id":"pt.ine.add.PTCONT.4701973","rua":"R FERNÃO MENDES PINTO","casa":"1","coordenadas":[38.628655643158986,-9.1617213812871]},{"id":"pt.ine.add.PTCONT.4705036","rua":"R FERNÃO MENDES PINTO","casa":"14","coordenadas":[38.62834098119978,-9.160625945372706]},{"id":"pt.ine.add.PTCONT.4764387","rua":"R FERNÃO MENDES PINTO","casa":"13","coordenadas":[38.62814051020992,-9.160887205486338]},{"id":"pt.ine.add.PTCONT.4782481","rua":"R FERNÃO MENDES PINTO","casa":"7","coordenadas":[38.62838967603505,-9.161235270398024]},{"id":"pt.ine.add.PTCONT.4916878","rua":"R FERNÃO MENDES PINTO","casa":"2","coordenadas":[38.62884660445873,-9.161517404109672]},{"id":"pt.ine.add.PTCONT.4916879","rua":"R FERNÃO MENDES PINTO","casa":"2","coordenadas":[38.62884660445873,-9.161517404109672]},{"id":"pt.ine.add.PTCONT.4934025","rua":"R FERNÃO MENDES PINTO","casa":"9","coordenadas":[38.628345247080546,-9.161165734399772]},{"id":"pt.ine.add.PTCONT.4934026","rua":"R FERNÃO MENDES PINTO","casa":"15","coordenadas":[38.62807796642587,-9.160828894871576]},{"id":"pt.ine.add.PTCONT.4956228","rua":"R FERNÃO MENDES PINTO","casa":"10","coordenadas":[38.628366690734445,-9.160775598891908]},{"id":"pt.ine.add.PTCONT.4970720","rua":"R FERNÃO MENDES PINTO","casa":"6","coordenadas":[38.62856242098168,-9.161053999768846]},{"id":"pt.ine.add.PTCONT.4970721","rua":"R FERNÃO MENDES PINTO","casa":"4","coordenadas":[38.62875825145438,-9.161320919955402]},{"id":"pt.ine.add.PTCONT.5018257","rua":"R FERNÃO MENDES PINTO","casa":"11","coordenadas":[38.62829191210049,-9.161084587740376]},{"id":"pt.ine.add.PTCONT.5018258","rua":"R FERNÃO MENDES PINTO","casa":"11","coordenadas":[38.62829191210049,-9.161084587740376]},{"id":"pt.ine.add.PTCONT.5040314","rua":"R FERNÃO MENDES PINTO","casa":"8","coordenadas":[38.62847336106745,-9.160937892053381]},{"id":"pt.ine.add.PTCONT.5057799","rua":"R FERNÃO MENDES PINTO","casa":"3","coordenadas":[38.62854037080756,-9.161513029230187]},{"id":"pt.ine.add.PTCONT.5069417","rua":"R FERNÃO MENDES PINTO","casa":"12","coordenadas":[38.6282775296824,-9.160670973963105]},{"id":"pt.ine.add.PTCONT.5090956","rua":"R FERNÃO MENDES PINTO","casa":"5","coordenadas":[38.62844280907699,-9.161339381581028]},{"id":"pt.ine.add.PTCONT.5090963","rua":"R FERNÃO MENDES PINTO","casa":"5","coordenadas":[38.62844280907699,-9.161339381581028]},{"id":"pt.ine.add.PTCONT.5104859","rua":"R FERNAO MENDES PINTO","casa":"4","coordenadas":[38.62868730646568,-9.161193586671716]}],"ruas":["R FERNÃO MENDES PINTO","R FERNAO MENDES PINTO"],"centroide":[38.62842714366296,-9.161125805551361]}
+{
+  "CP": "2855-445",
+  "CP4": "2855",
+  "CP3": "445",
+  "Distrito": "Setúbal",
+  "Concelho": "Seixal",
+  "Localidade": "Vale de Milhaços",
+  "Designação Postal": "CORROIOS",
+  "partes": [
+    {
+      "Artéria": "Rua Fernão Mendes Pinto",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4680263",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "17",
+      "coordenadas": [
+        38.62802442948595,
+        -9.160770712935404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4701973",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "1",
+      "coordenadas": [
+        38.628655643158986,
+        -9.1617213812871
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4705036",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "14",
+      "coordenadas": [
+        38.62834098119978,
+        -9.160625945372706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4764387",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "13",
+      "coordenadas": [
+        38.62814051020992,
+        -9.160887205486338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4782481",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "7",
+      "coordenadas": [
+        38.62838967603505,
+        -9.161235270398024
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4916878",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "2",
+      "coordenadas": [
+        38.62884660445873,
+        -9.161517404109672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4916879",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "2",
+      "coordenadas": [
+        38.62884660445873,
+        -9.161517404109672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4934025",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "9",
+      "coordenadas": [
+        38.628345247080546,
+        -9.161165734399772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4934026",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "15",
+      "coordenadas": [
+        38.62807796642587,
+        -9.160828894871576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4956228",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "10",
+      "coordenadas": [
+        38.628366690734445,
+        -9.160775598891908
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4970720",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "6",
+      "coordenadas": [
+        38.62856242098168,
+        -9.161053999768846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4970721",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "4",
+      "coordenadas": [
+        38.62875825145438,
+        -9.161320919955402
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5018257",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "11",
+      "coordenadas": [
+        38.62829191210049,
+        -9.161084587740376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5018258",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "11",
+      "coordenadas": [
+        38.62829191210049,
+        -9.161084587740376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5040314",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "8",
+      "coordenadas": [
+        38.62847336106745,
+        -9.160937892053381
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5057799",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "3",
+      "coordenadas": [
+        38.62854037080756,
+        -9.161513029230187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5069417",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "12",
+      "coordenadas": [
+        38.6282775296824,
+        -9.160670973963105
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5090956",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "5",
+      "coordenadas": [
+        38.62844280907699,
+        -9.161339381581028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5090963",
+      "rua": "R FERNÃO MENDES PINTO",
+      "casa": "5",
+      "coordenadas": [
+        38.62844280907699,
+        -9.161339381581028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5104859",
+      "rua": "R FERNAO MENDES PINTO",
+      "casa": "4",
+      "coordenadas": [
+        38.62868730646568,
+        -9.161193586671716
+      ]
+    }
+  ],
+  "ruas": [
+    "R FERNÃO MENDES PINTO",
+    "R FERNAO MENDES PINTO"
+  ],
+  "centro": [
+    38.62843551697234,
+    -9.161173663329903
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.62837948717703,
+                -9.161305463883233
+              ],
+              [
+                38.628300585467905,
+                -9.161186630339271
+              ],
+              [
+                38.62823649259295,
+                -9.161080388995138
+              ],
+              [
+                38.62818720855215,
+                -9.16098673985083
+              ],
+              [
+                38.62815273334553,
+                -9.160905682906353
+              ],
+              [
+                38.628133066973085,
+                -9.160837218161706
+              ],
+              [
+                38.628128209434806,
+                -9.160781345616885
+              ],
+              [
+                38.62813816073069,
+                -9.16073806527189
+              ],
+              [
+                38.62816292086075,
+                -9.160707377126723
+              ],
+              [
+                38.62820248982498,
+                -9.160689281181387
+              ],
+              [
+                38.62824252400095,
+                -9.160682316624513
+              ],
+              [
+                38.62828302338869,
+                -9.160686483456104
+              ],
+              [
+                38.62832398798817,
+                -9.16070178167616
+              ],
+              [
+                38.6283654177994,
+                -9.160728211284678
+              ],
+              [
+                38.62840731282239,
+                -9.160765772281662
+              ],
+              [
+                38.62844967305712,
+                -9.16081446466711
+              ],
+              [
+                38.62849249850361,
+                -9.160874288441022
+              ],
+              [
+                38.62853578916185,
+                -9.1609452436034
+              ],
+              [
+                38.62857477700326,
+                -9.161009318953038
+              ],
+              [
+                38.62860946202783,
+                -9.161066514489935
+              ],
+              [
+                38.62863984423557,
+                -9.161116830214093
+              ],
+              [
+                38.628665923626485,
+                -9.16116026612551
+              ],
+              [
+                38.628687700200565,
+                -9.16119682222419
+              ],
+              [
+                38.62870517395781,
+                -9.161226498510128
+              ],
+              [
+                38.62871834489823,
+                -9.161249294983328
+              ],
+              [
+                38.628727213021826,
+                -9.16126521164379
+              ],
+              [
+                38.628736353145655,
+                -9.161282208786604
+              ],
+              [
+                38.628745765269734,
+                -9.16130028641177
+              ],
+              [
+                38.628755449394056,
+                -9.16131944451929
+              ],
+              [
+                38.62876540551862,
+                -9.161339683109162
+              ],
+              [
+                38.628775633643436,
+                -9.161361002181387
+              ],
+              [
+                38.628786133768486,
+                -9.161383401735964
+              ],
+              [
+                38.628796905893786,
+                -9.161406881772896
+              ],
+              [
+                38.62880795001933,
+                -9.161431442292178
+              ],
+              [
+                38.62881462985887,
+                -9.16145611988995
+              ],
+              [
+                38.62881694541241,
+                -9.161480914566207
+              ],
+              [
+                38.62881489667995,
+                -9.161505826320951
+              ],
+              [
+                38.62880848366149,
+                -9.161530855154181
+              ],
+              [
+                38.62879770635702,
+                -9.1615560010659
+              ],
+              [
+                38.62878256476656,
+                -9.161581264056103
+              ],
+              [
+                38.628763058890094,
+                -9.161606644124795
+              ],
+              [
+                38.62873918872762,
+                -9.161632141271976
+              ],
+              [
+                38.628708439621825,
+                -9.161639597082761
+              ],
+              [
+                38.62867081157269,
+                -9.161629011557153
+              ],
+              [
+                38.62862630458022,
+                -9.161600384695154
+              ],
+              [
+                38.628574918644425,
+                -9.161553716496764
+              ],
+              [
+                38.62851665376529,
+                -9.161489006961979
+              ],
+              [
+                38.62845150994283,
+                -9.161406256090801
+              ],
+              [
+                38.62837948717703,
+                -9.161305463883233
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.62855220270392,
+    -9.161191658388667
+  ],
+  "centroDeMassa": [
+    38.62843551697234,
+    -9.161173663329903
+  ]
+}

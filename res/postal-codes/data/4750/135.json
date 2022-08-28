@@ -1,1 +1,415 @@
-{"CP4":"4750","CP3":"135","Distrito":"Braga","Concelho":"Barcelos","CP":"4750-135","Artéria":"Rua do Corujo","Localidade":"Barcelos","Local":"","Troço":"Pares de 4 a 152","Porta":"","Cliente":"","Designação Postal":"BARCELOS","locais":[{"id":"pt.ine.add.PTCONT.461245","rua":"R CORUJO","casa":"","coordenadas":[41.55717126900296,-8.608050375901426]},{"id":"pt.ine.add.PTCONT.493790","rua":"R CALVÁRIO","casa":"13","coordenadas":[41.552327558540405,-8.607978960579626]},{"id":"pt.ine.add.PTCONT.497485","rua":"TV RUA NOVA DO CORUJO","casa":"5","coordenadas":[41.55613062753139,-8.607131752847943]},{"id":"pt.ine.add.PTCONT.517607","rua":"R CORUJO","casa":"","coordenadas":[41.557056252974505,-8.607558063813922]},{"id":"pt.ine.add.PTCONT.534467","rua":"TV RUA NOVA DO CORUJO","casa":"105","coordenadas":[41.55646034282002,-8.607961262515362]},{"id":"pt.ine.add.PTCONT.534468","rua":"TV RUA NOVA DO CORUJO","casa":"105","coordenadas":[41.55646034282002,-8.607961262515362]},{"id":"pt.ine.add.PTCONT.583317","rua":"R CALVÁRIO","casa":"5","coordenadas":[41.55230089461537,-8.607894862063949]},{"id":"pt.ine.add.PTCONT.633627","rua":"EM 543","casa":"9","coordenadas":[41.556627101835744,-8.606823718568155]},{"id":"pt.ine.add.PTCONT.641575","rua":"TV RUA NOVA DO CORUJO","casa":"105","coordenadas":[41.55637921274313,-8.607984642583695]},{"id":"pt.ine.add.PTCONT.642131","rua":"R CORUJO","casa":"","coordenadas":[41.55709656493608,-8.606515482496459]},{"id":"pt.ine.add.PTCONT.658209","rua":"TV RUA NOVA DO CORUJO","casa":"30","coordenadas":[41.556355021975,-8.607301209653183]},{"id":"pt.ine.add.PTCONT.697835","rua":"R CORUJO","casa":"115","coordenadas":[41.55726046166783,-8.608254809792733]},{"id":"pt.ine.add.PTCONT.709724","rua":"R CORUJO","casa":"","coordenadas":[41.557163156524645,-8.607834548814917]},{"id":"pt.ine.add.PTCONT.742709","rua":"TV RUA NOVA DO CORUJO","casa":"15","coordenadas":[41.55621126327455,-8.607228237371697]},{"id":"pt.ine.add.PTCONT.754776","rua":"TV RUA NOVA DO CORUJO","casa":"","coordenadas":[41.55660543728718,-8.607710597724637]},{"id":"pt.ine.add.PTCONT.762079","rua":"R CORUJO","casa":"","coordenadas":[41.555085998677576,-8.604990485826939]},{"id":"pt.ine.add.PTCONT.799698","rua":"TV RUA NOVA DO CORUJO","casa":"","coordenadas":[41.55679322304356,-8.608023634180983]},{"id":"pt.ine.add.PTCONT.832062","rua":"R CORUJO","casa":"107","coordenadas":[41.55529597262066,-8.60647836999932]},{"id":"pt.ine.add.PTCONT.832535","rua":"R CORUJO","casa":"124","coordenadas":[41.556730743374395,-8.607891319639815]},{"id":"pt.ine.add.PTCONT.840294","rua":"R CORUJO","casa":"","coordenadas":[41.55493574159393,-8.604306152012352]},{"id":"pt.ine.add.PTCONT.842904","rua":"TV RUA NOVA CORUJO","casa":"245","coordenadas":[41.556219376909326,-8.607444061225081]}],"ruas":["R CORUJO","R CALVÁRIO","TV RUA NOVA DO CORUJO","EM 543","TV RUA NOVA CORUJO"],"centroide":[41.55602235939294,-8.607293987445123]}]}
+{
+  "CP": "4750-135",
+  "CP4": "4750",
+  "CP3": "135",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Barcelos",
+  "Designação Postal": "BARCELOS",
+  "partes": [
+    {
+      "Artéria": "Rua do Corujo",
+      "Local": "",
+      "Troço": "Impares de 1 a 141",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Corujo",
+      "Local": "",
+      "Troço": "Pares de 4 a 152",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.461245",
+      "rua": "R CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.55717126900296,
+        -8.608050375901426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.493790",
+      "rua": "R CALVÁRIO",
+      "casa": "13",
+      "coordenadas": [
+        41.552327558540405,
+        -8.607978960579626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.497485",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "5",
+      "coordenadas": [
+        41.55613062753139,
+        -8.607131752847943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.517607",
+      "rua": "R CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.557056252974505,
+        -8.607558063813922
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.534467",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "105",
+      "coordenadas": [
+        41.55646034282002,
+        -8.607961262515362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.534468",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "105",
+      "coordenadas": [
+        41.55646034282002,
+        -8.607961262515362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.583317",
+      "rua": "R CALVÁRIO",
+      "casa": "5",
+      "coordenadas": [
+        41.55230089461537,
+        -8.607894862063949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.633627",
+      "rua": "EM 543",
+      "casa": "9",
+      "coordenadas": [
+        41.556627101835744,
+        -8.606823718568155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.641575",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "105",
+      "coordenadas": [
+        41.55637921274313,
+        -8.607984642583695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.642131",
+      "rua": "R CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.55709656493608,
+        -8.606515482496459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.658209",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "30",
+      "coordenadas": [
+        41.556355021975,
+        -8.607301209653183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.697835",
+      "rua": "R CORUJO",
+      "casa": "115",
+      "coordenadas": [
+        41.55726046166783,
+        -8.608254809792733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.709724",
+      "rua": "R CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.557163156524645,
+        -8.607834548814917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.742709",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "15",
+      "coordenadas": [
+        41.55621126327455,
+        -8.607228237371697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.754776",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.55660543728718,
+        -8.607710597724637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.762079",
+      "rua": "R CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.555085998677576,
+        -8.604990485826939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.799698",
+      "rua": "TV RUA NOVA DO CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.55679322304356,
+        -8.608023634180983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.832062",
+      "rua": "R CORUJO",
+      "casa": "107",
+      "coordenadas": [
+        41.55529597262066,
+        -8.60647836999932
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.832535",
+      "rua": "R CORUJO",
+      "casa": "124",
+      "coordenadas": [
+        41.556730743374395,
+        -8.607891319639815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.840294",
+      "rua": "R CORUJO",
+      "casa": "",
+      "coordenadas": [
+        41.55493574159393,
+        -8.604306152012352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.842904",
+      "rua": "TV RUA NOVA CORUJO",
+      "casa": "245",
+      "coordenadas": [
+        41.556219376909326,
+        -8.607444061225081
+      ]
+    }
+  ],
+  "ruas": [
+    "R CORUJO",
+    "R CALVÁRIO",
+    "TV RUA NOVA DO CORUJO",
+    "EM 543",
+    "TV RUA NOVA CORUJO"
+  ],
+  "centro": [
+    41.5547806781416,
+    -8.606280480902543
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.5523158930732,
+                -8.607942167479017
+              ],
+              [
+                41.55231256008258,
+                -8.607931655164558
+              ],
+              [
+                41.552350813199816,
+                -8.60786638329485
+              ],
+              [
+                41.552430652424924,
+                -8.607746351869892
+              ],
+              [
+                41.5525520777579,
+                -8.607571560889687
+              ],
+              [
+                41.55271508919874,
+                -8.607342010354232
+              ],
+              [
+                41.55291968674746,
+                -8.607057700263528
+              ],
+              [
+                41.55316587040404,
+                -8.606718630617577
+              ],
+              [
+                41.55345364016849,
+                -8.606324801416376
+              ],
+              [
+                41.55378299604081,
+                -8.605876212659926
+              ],
+              [
+                41.55410494529381,
+                -8.605518218286846
+              ],
+              [
+                41.5544194879275,
+                -8.605250818297137
+              ],
+              [
+                41.55472662394186,
+                -8.605074012690798
+              ],
+              [
+                41.5550263533369,
+                -8.60498780146783
+              ],
+              [
+                41.55531867611262,
+                -8.604992184628234
+              ],
+              [
+                41.55560359226902,
+                -8.605087162172005
+              ],
+              [
+                41.555881101806115,
+                -8.605272734099149
+              ],
+              [
+                41.556151204723896,
+                -8.605548900409662
+              ],
+              [
+                41.55639010566338,
+                -8.605817722920365
+              ],
+              [
+                41.55659780462457,
+                -8.606079201631259
+              ],
+              [
+                41.556774301607476,
+                -8.606333336542342
+              ],
+              [
+                41.55691959661209,
+                -8.606580127653618
+              ],
+              [
+                41.557033689638416,
+                -8.606819574965082
+              ],
+              [
+                41.55711658068647,
+                -8.607051678476735
+              ],
+              [
+                41.55716826975622,
+                -8.607276438188578
+              ],
+              [
+                41.557188756847694,
+                -8.607493854100614
+              ],
+              [
+                41.55712960644136,
+                -8.60767978287969
+              ],
+              [
+                41.55699081853723,
+                -8.607834224525803
+              ],
+              [
+                41.5567723931353,
+                -8.60795717903896
+              ],
+              [
+                41.556474330235574,
+                -8.608048646419158
+              ],
+              [
+                41.556096629838045,
+                -8.608108626666397
+              ],
+              [
+                41.55563929194271,
+                -8.608137119780679
+              ],
+              [
+                41.55510231654958,
+                -8.608134125762
+              ],
+              [
+                41.554485703658656,
+                -8.608099644610359
+              ],
+              [
+                41.55394575075526,
+                -8.60806815956337
+              ],
+              [
+                41.55348245783941,
+                -8.608039670621025
+              ],
+              [
+                41.5530958249111,
+                -8.60801417778333
+              ],
+              [
+                41.55278585197031,
+                -8.60799168105028
+              ],
+              [
+                41.55255253901707,
+                -8.607972180421879
+              ],
+              [
+                41.55239588605137,
+                -8.607955675898124
+              ],
+              [
+                41.5523158930732,
+                -8.607942167479017
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.55478424427072,
+    -8.606990053389023
+  ],
+  "centroDeMassa": [
+    41.5547806781416,
+    -8.606280480902543
+  ]
+}

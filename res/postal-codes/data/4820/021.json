@@ -1,1 +1,423 @@
-{"CP4":"4820","CP3":"021","Distrito":"Braga","Concelho":"Fafe","CP":"4820-021","Artéria":"Travessa da Carreira","Localidade":"Cepães","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CEPÃES","locais":[{"id":"pt.ine.add.PTCONT.510350","rua":"R CARREIRA","casa":"3","coordenadas":[41.435232080692124,-8.196353652609535]},{"id":"pt.ine.add.PTCONT.517917","rua":"TV CARREIRA","casa":"267","coordenadas":[41.43337654964272,-8.197644000536894]},{"id":"pt.ine.add.PTCONT.533658","rua":"R CARREIRA","casa":"99","coordenadas":[41.4346643618544,-8.19720258664838]},{"id":"pt.ine.add.PTCONT.546350","rua":"TV CARREIRA","casa":"24","coordenadas":[41.43489873013205,-8.196724232315523]},{"id":"pt.ine.add.PTCONT.549260","rua":"TV CARREIRA","casa":"125","coordenadas":[41.4342592906555,-8.197010756107158]},{"id":"pt.ine.add.PTCONT.550670","rua":"TV CARREIRA","casa":"329","coordenadas":[41.43336812486255,-8.196603094523422]},{"id":"pt.ine.add.PTCONT.559612","rua":"TV CARREIRA","casa":"173","coordenadas":[41.43379994274114,-8.197273522855227]},{"id":"pt.ine.add.PTCONT.582758","rua":"R CARREIRA","casa":"109","coordenadas":[41.43463729664565,-8.197298276616793]},{"id":"pt.ine.add.PTCONT.618334","rua":"TV CARREIRA","casa":"17","coordenadas":[41.4349528529169,-8.196544815678998]},{"id":"pt.ine.add.PTCONT.621831","rua":"TV CARREIRA","casa":"","coordenadas":[41.43392604471356,-8.197189895932018]},{"id":"pt.ine.add.PTCONT.645916","rua":"R CARREIRA","casa":"203","coordenadas":[41.43427662100972,-8.198219188394866]},{"id":"pt.ine.add.PTCONT.645917","rua":"R CARREIRA","casa":"203","coordenadas":[41.43427662100972,-8.198219188394866]},{"id":"pt.ine.add.PTCONT.657223","rua":"TV CARREIRA","casa":"77","coordenadas":[41.43443952876643,-8.196723783969531]},{"id":"pt.ine.add.PTCONT.673767","rua":"TV CARREIRA","casa":"81","coordenadas":[41.43435846013357,-8.196783527432846]},{"id":"pt.ine.add.PTCONT.702063","rua":"TV CARREIRA","casa":"86","coordenadas":[41.43449338667691,-8.197022950245161]},{"id":"pt.ine.add.PTCONT.703396","rua":"TV CARREIRA","casa":"86","coordenadas":[41.43449338667691,-8.197022950245161]},{"id":"pt.ine.add.PTCONT.706268","rua":"TV CARREIRA","casa":"178","coordenadas":[41.433709816393296,-8.197428971351139]},{"id":"pt.ine.add.PTCONT.715391","rua":"TV CARREIRA","casa":"53","coordenadas":[41.434691698816025,-8.196616348920353]},{"id":"pt.ine.add.PTCONT.734763","rua":"TV CARREIRA","casa":"68","coordenadas":[41.43458355884973,-8.196783747414765]},{"id":"pt.ine.add.PTCONT.748342","rua":"TV CARREIRA","casa":"3","coordenadas":[41.43506991743069,-8.196521000348593]},{"id":"pt.ine.add.PTCONT.785830","rua":"R CARREIRA","casa":"139","coordenadas":[41.43456507094767,-8.197645177725416]},{"id":"pt.ine.add.PTCONT.791713","rua":"TV CARREIRA","casa":"113","coordenadas":[41.434304330331,-8.196974906740927]},{"id":"pt.ine.add.PTCONT.800830","rua":"TV CARREIRA","casa":"246","coordenadas":[41.43292585888555,-8.198516945126812]},{"id":"pt.ine.add.PTCONT.807106","rua":"R CARREIRA","casa":"195","coordenadas":[41.43445668643589,-8.198243297415777]},{"id":"pt.ine.add.PTCONT.823496","rua":"TV CARREIRA","casa":"160","coordenadas":[41.43387194095808,-8.197333415924264]}],"ruas":["R CARREIRA","TV CARREIRA"],"centroide":[41.43432334238415,-8.197190284064588]}
+{
+  "CP": "4820-021",
+  "CP4": "4820",
+  "CP3": "021",
+  "Distrito": "Braga",
+  "Concelho": "Fafe",
+  "Localidade": "Cepães",
+  "Designação Postal": "CEPÃES",
+  "partes": [
+    {
+      "Artéria": "Rua Nova",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Carreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa da Carreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.510350",
+      "rua": "R CARREIRA",
+      "casa": "3",
+      "coordenadas": [
+        41.435232080692124,
+        -8.196353652609535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.517917",
+      "rua": "TV CARREIRA",
+      "casa": "267",
+      "coordenadas": [
+        41.43337654964272,
+        -8.197644000536894
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.533658",
+      "rua": "R CARREIRA",
+      "casa": "99",
+      "coordenadas": [
+        41.4346643618544,
+        -8.19720258664838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.546350",
+      "rua": "TV CARREIRA",
+      "casa": "24",
+      "coordenadas": [
+        41.43489873013205,
+        -8.196724232315523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.549260",
+      "rua": "TV CARREIRA",
+      "casa": "125",
+      "coordenadas": [
+        41.4342592906555,
+        -8.197010756107158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.550670",
+      "rua": "TV CARREIRA",
+      "casa": "329",
+      "coordenadas": [
+        41.43336812486255,
+        -8.196603094523422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.559612",
+      "rua": "TV CARREIRA",
+      "casa": "173",
+      "coordenadas": [
+        41.43379994274114,
+        -8.197273522855227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.582758",
+      "rua": "R CARREIRA",
+      "casa": "109",
+      "coordenadas": [
+        41.43463729664565,
+        -8.197298276616793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.618334",
+      "rua": "TV CARREIRA",
+      "casa": "17",
+      "coordenadas": [
+        41.4349528529169,
+        -8.196544815678998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.621831",
+      "rua": "TV CARREIRA",
+      "casa": "",
+      "coordenadas": [
+        41.43392604471356,
+        -8.197189895932018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.645916",
+      "rua": "R CARREIRA",
+      "casa": "203",
+      "coordenadas": [
+        41.43427662100972,
+        -8.198219188394866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.645917",
+      "rua": "R CARREIRA",
+      "casa": "203",
+      "coordenadas": [
+        41.43427662100972,
+        -8.198219188394866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.657223",
+      "rua": "TV CARREIRA",
+      "casa": "77",
+      "coordenadas": [
+        41.43443952876643,
+        -8.196723783969531
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.673767",
+      "rua": "TV CARREIRA",
+      "casa": "81",
+      "coordenadas": [
+        41.43435846013357,
+        -8.196783527432846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.702063",
+      "rua": "TV CARREIRA",
+      "casa": "86",
+      "coordenadas": [
+        41.43449338667691,
+        -8.197022950245161
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.703396",
+      "rua": "TV CARREIRA",
+      "casa": "86",
+      "coordenadas": [
+        41.43449338667691,
+        -8.197022950245161
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.706268",
+      "rua": "TV CARREIRA",
+      "casa": "178",
+      "coordenadas": [
+        41.433709816393296,
+        -8.197428971351139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.715391",
+      "rua": "TV CARREIRA",
+      "casa": "53",
+      "coordenadas": [
+        41.434691698816025,
+        -8.196616348920353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.734763",
+      "rua": "TV CARREIRA",
+      "casa": "68",
+      "coordenadas": [
+        41.43458355884973,
+        -8.196783747414765
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.748342",
+      "rua": "TV CARREIRA",
+      "casa": "3",
+      "coordenadas": [
+        41.43506991743069,
+        -8.196521000348593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.785830",
+      "rua": "R CARREIRA",
+      "casa": "139",
+      "coordenadas": [
+        41.43456507094767,
+        -8.197645177725416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.791713",
+      "rua": "TV CARREIRA",
+      "casa": "113",
+      "coordenadas": [
+        41.434304330331,
+        -8.196974906740927
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.800830",
+      "rua": "TV CARREIRA",
+      "casa": "246",
+      "coordenadas": [
+        41.43292585888555,
+        -8.198516945126812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.807106",
+      "rua": "R CARREIRA",
+      "casa": "195",
+      "coordenadas": [
+        41.43445668643589,
+        -8.198243297415777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.823496",
+      "rua": "TV CARREIRA",
+      "casa": "160",
+      "coordenadas": [
+        41.43387194095808,
+        -8.197333415924264
+      ]
+    }
+  ],
+  "ruas": [
+    "R CARREIRA",
+    "TV CARREIRA"
+  ],
+  "centro": [
+    41.434078969788835,
+    -8.197435298868173
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.43378694938261,
+                -8.198363018289356
+              ],
+              [
+                41.433595595938826,
+                -8.198397224253235
+              ],
+              [
+                41.433435072081394,
+                -8.198397250555951
+              ],
+              [
+                41.43330537781033,
+                -8.198363097197504
+              ],
+              [
+                41.433206513125626,
+                -8.198294764177895
+              ],
+              [
+                41.4331384780273,
+                -8.198192251497124
+              ],
+              [
+                41.43310127251533,
+                -8.19805555915519
+              ],
+              [
+                41.43309489658972,
+                -8.19788468715209
+              ],
+              [
+                41.43311935025048,
+                -8.19767963548783
+              ],
+              [
+                41.433174633497615,
+                -8.197440404162403
+              ],
+              [
+                41.43325213064868,
+                -8.197227179222754
+              ],
+              [
+                41.4333518417037,
+                -8.197039960668878
+              ],
+              [
+                41.43347376666266,
+                -8.196878748500774
+              ],
+              [
+                41.43361790552558,
+                -8.196743542718444
+              ],
+              [
+                41.433784258292434,
+                -8.196634343321888
+              ],
+              [
+                41.433972824963234,
+                -8.196551150311105
+              ],
+              [
+                41.43418360553798,
+                -8.196493963686097
+              ],
+              [
+                41.43441660001669,
+                -8.19646278344686
+              ],
+              [
+                41.434608354650294,
+                -8.196465026437627
+              ],
+              [
+                41.43475886943881,
+                -8.196500692658395
+              ],
+              [
+                41.434868144382236,
+                -8.196569782109165
+              ],
+              [
+                41.43493617948056,
+                -8.196672294789936
+              ],
+              [
+                41.43496297473381,
+                -8.19680823070071
+              ],
+              [
+                41.43494853014195,
+                -8.196977589841488
+              ],
+              [
+                41.43489284570502,
+                -8.197180372212266
+              ],
+              [
+                41.43479592142299,
+                -8.197416577813044
+              ],
+              [
+                41.43468719349575,
+                -8.197627533459212
+              ],
+              [
+                41.43456666192327,
+                -8.197813239150769
+              ],
+              [
+                41.434434326705585,
+                -8.197973694887711
+              ],
+              [
+                41.43429018784266,
+                -8.19810890067004
+              ],
+              [
+                41.43413424533453,
+                -8.198218856497757
+              ],
+              [
+                41.43396649918118,
+                -8.198303562370864
+              ],
+              [
+                41.43378694938261,
+                -8.198363018289356
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.433995687719026,
+    -8.197429247418887
+  ],
+  "centroDeMassa": [
+    41.434078969788835,
+    -8.197435298868173
+  ]
+}

@@ -1,1 +1,535 @@
-{"CP4":"4250","CP3":"300","Distrito":"Porto","Concelho":"Porto","CP":"4250-300","Artéria":"Rua do Monte Alegre","Localidade":"Porto","Local":"","Troço":"Impares de 39 a 131","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3640028","rua":"R MONTE ALEGRE","casa":"172","coordenadas":[41.16517775741296,-8.619578806838195]},{"id":"pt.ine.add.PTCONT.3664070","rua":"R MONTE ALEGRE","casa":"119","coordenadas":[41.16513761262189,-8.618422719557863]},{"id":"pt.ine.add.PTCONT.3664071","rua":"R MONTE ALEGRE","casa":"119","coordenadas":[41.16513761262189,-8.618422719557863]},{"id":"pt.ine.add.PTCONT.3667529","rua":"R MONTE ALEGRE","casa":"119","coordenadas":[41.16513761262189,-8.618422719557863]},{"id":"pt.ine.add.PTCONT.3691031","rua":"R MONTE ALEGRE","casa":"115","coordenadas":[41.16513741180094,-8.618470379535601]},{"id":"pt.ine.add.PTCONT.3691032","rua":"R MONTE ALEGRE","casa":"115","coordenadas":[41.16513741180094,-8.618470379535601]},{"id":"pt.ine.add.PTCONT.3691033","rua":"R MONTE ALEGRE","casa":"115","coordenadas":[41.16513741180094,-8.618470379535601]},{"id":"pt.ine.add.PTCONT.3691034","rua":"R MONTE ALEGRE","casa":"115","coordenadas":[41.16513741180094,-8.618470379535601]},{"id":"pt.ine.add.PTCONT.3691035","rua":"R MONTE ALEGRE","casa":"115","coordenadas":[41.16513741180094,-8.618470379535601]},{"id":"pt.ine.add.PTCONT.3693244","rua":"R MONTE ALEGRE","casa":"115","coordenadas":[41.16513741180094,-8.618470379535601]},{"id":"pt.ine.add.PTCONT.3772531","rua":"R MONTE ALEGRE","casa":"61","coordenadas":[41.165072273622556,-8.61897034371778]},{"id":"pt.ine.add.PTCONT.3772532","rua":"R MONTE ALEGRE","casa":"61","coordenadas":[41.165072273622556,-8.61897034371778]},{"id":"pt.ine.add.PTCONT.3772533","rua":"R MONTE ALEGRE","casa":"51","coordenadas":[41.16504470853777,-8.619101208937641]},{"id":"pt.ine.add.PTCONT.3786921","rua":"R MONTE ALEGRE","casa":"89","coordenadas":[41.16508193094283,-8.618815515439785]},{"id":"pt.ine.add.PTCONT.3786922","rua":"R MONTE ALEGRE","casa":"89","coordenadas":[41.16508193094283,-8.618815515439785]},{"id":"pt.ine.add.PTCONT.3786923","rua":"R MONTE ALEGRE","casa":"89","coordenadas":[41.16508193094283,-8.618815515439785]},{"id":"pt.ine.add.PTCONT.3820892","rua":"R MONTE ALEGRE","casa":"41","coordenadas":[41.16503489996195,-8.619291782005607]},{"id":"pt.ine.add.PTCONT.3850664","rua":"R MONTE ALEGRE","casa":"77","coordenadas":[41.16506362135517,-8.618886872348865]},{"id":"pt.ine.add.PTCONT.4028433","rua":"R MONTE ALEGRE","casa":"131","coordenadas":[41.16515587172691,-8.61836327743465]},{"id":"pt.ine.add.PTCONT.4040537","rua":"R MONTE ALEGRE","casa":"45","coordenadas":[41.1650442057475,-8.619220358700824]},{"id":"pt.ine.add.PTCONT.4051609","rua":"R MONTE ALEGRE","casa":"95","coordenadas":[41.16510984728262,-8.618601245099823]},{"id":"pt.ine.add.PTCONT.4060418","rua":"R MONTE ALEGRE","casa":"107","coordenadas":[41.16513721096026,-8.618518039512868]},{"id":"pt.ine.add.PTCONT.4060419","rua":"R MONTE ALEGRE","casa":"107","coordenadas":[41.16513721096026,-8.618518039512868]},{"id":"pt.ine.add.PTCONT.4060420","rua":"R MONTE ALEGRE","casa":"107","coordenadas":[41.16513721096026,-8.618518039512868]},{"id":"pt.ine.add.PTCONT.4060435","rua":"R MONTE ALEGRE","casa":"107","coordenadas":[41.16513721096026,-8.618518039512868]},{"id":"pt.ine.add.PTCONT.4113619","rua":"R MONTE ALEGRE","casa":"93","coordenadas":[41.16510949570393,-8.618684650023143]},{"id":"pt.ine.add.PTCONT.4113620","rua":"R MONTE ALEGRE","casa":"93","coordenadas":[41.16510949570393,-8.618684650023143]},{"id":"pt.ine.add.PTCONT.4113621","rua":"R MONTE ALEGRE","casa":"93","coordenadas":[41.16510949570393,-8.618684650023143]},{"id":"pt.ine.add.PTCONT.4113801","rua":"R MONTE ALEGRE","casa":"93","coordenadas":[41.16510949570393,-8.618684650023143]},{"id":"pt.ine.add.PTCONT.4113802","rua":"R MONTE ALEGRE","casa":"93","coordenadas":[41.16510949570393,-8.618684650023143]},{"id":"pt.ine.add.PTCONT.4114745","rua":"R MONTE ALEGRE","casa":"93","coordenadas":[41.16510949570393,-8.618684650023143]},{"id":"pt.ine.add.PTCONT.4135758","rua":"R MONTE ALEGRE","casa":"75","coordenadas":[41.165118198355515,-8.61875620643478]}],"ruas":["R MONTE ALEGRE"],"centroide":[41.16511175415596,-8.618700041264455]}
+{
+  "CP": "4250-300",
+  "CP4": "4250",
+  "CP3": "300",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua do Monte Alegre",
+      "Local": "",
+      "Troço": "Impares de 39 a 131",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3640028",
+      "rua": "R MONTE ALEGRE",
+      "casa": "172",
+      "coordenadas": [
+        41.16517775741296,
+        -8.619578806838195
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3664070",
+      "rua": "R MONTE ALEGRE",
+      "casa": "119",
+      "coordenadas": [
+        41.16513761262189,
+        -8.618422719557863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3664071",
+      "rua": "R MONTE ALEGRE",
+      "casa": "119",
+      "coordenadas": [
+        41.16513761262189,
+        -8.618422719557863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3667529",
+      "rua": "R MONTE ALEGRE",
+      "casa": "119",
+      "coordenadas": [
+        41.16513761262189,
+        -8.618422719557863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691031",
+      "rua": "R MONTE ALEGRE",
+      "casa": "115",
+      "coordenadas": [
+        41.16513741180094,
+        -8.618470379535601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691032",
+      "rua": "R MONTE ALEGRE",
+      "casa": "115",
+      "coordenadas": [
+        41.16513741180094,
+        -8.618470379535601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691033",
+      "rua": "R MONTE ALEGRE",
+      "casa": "115",
+      "coordenadas": [
+        41.16513741180094,
+        -8.618470379535601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691034",
+      "rua": "R MONTE ALEGRE",
+      "casa": "115",
+      "coordenadas": [
+        41.16513741180094,
+        -8.618470379535601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3691035",
+      "rua": "R MONTE ALEGRE",
+      "casa": "115",
+      "coordenadas": [
+        41.16513741180094,
+        -8.618470379535601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3693244",
+      "rua": "R MONTE ALEGRE",
+      "casa": "115",
+      "coordenadas": [
+        41.16513741180094,
+        -8.618470379535601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772531",
+      "rua": "R MONTE ALEGRE",
+      "casa": "61",
+      "coordenadas": [
+        41.165072273622556,
+        -8.61897034371778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772532",
+      "rua": "R MONTE ALEGRE",
+      "casa": "61",
+      "coordenadas": [
+        41.165072273622556,
+        -8.61897034371778
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3772533",
+      "rua": "R MONTE ALEGRE",
+      "casa": "51",
+      "coordenadas": [
+        41.16504470853777,
+        -8.619101208937641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3786921",
+      "rua": "R MONTE ALEGRE",
+      "casa": "89",
+      "coordenadas": [
+        41.16508193094283,
+        -8.618815515439785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3786922",
+      "rua": "R MONTE ALEGRE",
+      "casa": "89",
+      "coordenadas": [
+        41.16508193094283,
+        -8.618815515439785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3786923",
+      "rua": "R MONTE ALEGRE",
+      "casa": "89",
+      "coordenadas": [
+        41.16508193094283,
+        -8.618815515439785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3820892",
+      "rua": "R MONTE ALEGRE",
+      "casa": "41",
+      "coordenadas": [
+        41.16503489996195,
+        -8.619291782005607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3850664",
+      "rua": "R MONTE ALEGRE",
+      "casa": "77",
+      "coordenadas": [
+        41.16506362135517,
+        -8.618886872348865
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4028433",
+      "rua": "R MONTE ALEGRE",
+      "casa": "131",
+      "coordenadas": [
+        41.16515587172691,
+        -8.61836327743465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4040537",
+      "rua": "R MONTE ALEGRE",
+      "casa": "45",
+      "coordenadas": [
+        41.1650442057475,
+        -8.619220358700824
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4051609",
+      "rua": "R MONTE ALEGRE",
+      "casa": "95",
+      "coordenadas": [
+        41.16510984728262,
+        -8.618601245099823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4060418",
+      "rua": "R MONTE ALEGRE",
+      "casa": "107",
+      "coordenadas": [
+        41.16513721096026,
+        -8.618518039512868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4060419",
+      "rua": "R MONTE ALEGRE",
+      "casa": "107",
+      "coordenadas": [
+        41.16513721096026,
+        -8.618518039512868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4060420",
+      "rua": "R MONTE ALEGRE",
+      "casa": "107",
+      "coordenadas": [
+        41.16513721096026,
+        -8.618518039512868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4060435",
+      "rua": "R MONTE ALEGRE",
+      "casa": "107",
+      "coordenadas": [
+        41.16513721096026,
+        -8.618518039512868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113619",
+      "rua": "R MONTE ALEGRE",
+      "casa": "93",
+      "coordenadas": [
+        41.16510949570393,
+        -8.618684650023143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113620",
+      "rua": "R MONTE ALEGRE",
+      "casa": "93",
+      "coordenadas": [
+        41.16510949570393,
+        -8.618684650023143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113621",
+      "rua": "R MONTE ALEGRE",
+      "casa": "93",
+      "coordenadas": [
+        41.16510949570393,
+        -8.618684650023143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113801",
+      "rua": "R MONTE ALEGRE",
+      "casa": "93",
+      "coordenadas": [
+        41.16510949570393,
+        -8.618684650023143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4113802",
+      "rua": "R MONTE ALEGRE",
+      "casa": "93",
+      "coordenadas": [
+        41.16510949570393,
+        -8.618684650023143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4114745",
+      "rua": "R MONTE ALEGRE",
+      "casa": "93",
+      "coordenadas": [
+        41.16510949570393,
+        -8.618684650023143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4135758",
+      "rua": "R MONTE ALEGRE",
+      "casa": "75",
+      "coordenadas": [
+        41.165118198355515,
+        -8.61875620643478
+      ]
+    }
+  ],
+  "ruas": [
+    "R MONTE ALEGRE"
+  ],
+  "centro": [
+    41.16510632868746,
+    -8.618971042136423
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.165115257278146,
+                -8.619453233473937
+              ],
+              [
+                41.16509740009677,
+                -8.619417355369865
+              ],
+              [
+                41.16508192832206,
+                -8.619382984324613
+              ],
+              [
+                41.165068841954024,
+                -8.619350120338185
+              ],
+              [
+                41.165058140992656,
+                -8.619318763410577
+              ],
+              [
+                41.165049825437954,
+                -8.619288913541792
+              ],
+              [
+                41.16504389528993,
+                -8.61926057073183
+              ],
+              [
+                41.165040350548566,
+                -8.61923373498069
+              ],
+              [
+                41.16503919121387,
+                -8.619208406288372
+              ],
+              [
+                41.16504041728585,
+                -8.619184584654874
+              ],
+              [
+                41.1650417856116,
+                -8.619160391716367
+              ],
+              [
+                41.16504329619113,
+                -8.619135827472846
+              ],
+              [
+                41.165044949024434,
+                -8.619110891924311
+              ],
+              [
+                41.16504674411151,
+                -8.619085585070767
+              ],
+              [
+                41.16504868145236,
+                -8.619059906912208
+              ],
+              [
+                41.165050761046984,
+                -8.619033857448635
+              ],
+              [
+                41.16505298289538,
+                -8.61900743668005
+              ],
+              [
+                41.16505534699756,
+                -8.618980644606456
+              ],
+              [
+                41.165058571700506,
+                -8.618949949154699
+              ],
+              [
+                41.16506265700423,
+                -8.618915350324782
+              ],
+              [
+                41.165067602908714,
+                -8.618876848116706
+              ],
+              [
+                41.16507340941397,
+                -8.618834442530467
+              ],
+              [
+                41.16508007652,
+                -8.618788133566072
+              ],
+              [
+                41.1650876042268,
+                -8.618737921223516
+              ],
+              [
+                41.16509599253436,
+                -8.618683805502801
+              ],
+              [
+                41.1651052414427,
+                -8.618625786403927
+              ],
+              [
+                41.16511361953601,
+                -8.618574090909235
+              ],
+              [
+                41.1651211268143,
+                -8.618528719018729
+              ],
+              [
+                41.16512776327755,
+                -8.618489670732405
+              ],
+              [
+                41.16513352892579,
+                -8.618456946050268
+              ],
+              [
+                41.165138423759004,
+                -8.618430544972313
+              ],
+              [
+                41.165142447777185,
+                -8.618410467498542
+              ],
+              [
+                41.16514560098034,
+                -8.618396713628957
+              ],
+              [
+                41.16514788336846,
+                -8.618389283363555
+              ],
+              [
+                41.165150222421914,
+                -8.61840177452826
+              ],
+              [
+                41.16515261814071,
+                -8.61843418712307
+              ],
+              [
+                41.16515507052482,
+                -8.618486521147984
+              ],
+              [
+                41.16515757957426,
+                -8.618558776603004
+              ],
+              [
+                41.165160145289036,
+                -8.61865095348813
+              ],
+              [
+                41.16516276766913,
+                -8.618763051803363
+              ],
+              [
+                41.16516544671455,
+                -8.618895071548701
+              ],
+              [
+                41.16516818242532,
+                -8.619047012724144
+              ],
+              [
+                41.16516834402455,
+                -8.619175476489648
+              ],
+              [
+                41.16516593151228,
+                -8.619280462845213
+              ],
+              [
+                41.165160944888484,
+                -8.619361971790836
+              ],
+              [
+                41.16515338415317,
+                -8.619420003326521
+              ],
+              [
+                41.165143249306354,
+                -8.619454557452267
+              ],
+              [
+                41.165130540348,
+                -8.61946563416807
+              ],
+              [
+                41.165115257278146,
+                -8.619453233473937
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.16510241193611,
+    -8.618940777853803
+  ],
+  "centroDeMassa": [
+    41.16510632868746,
+    -8.618971042136423
+  ]
+}

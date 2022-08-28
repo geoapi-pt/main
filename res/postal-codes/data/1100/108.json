@@ -1,1 +1,462 @@
-{"CP4":"1100","CP3":"108","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1100-108","Artéria":"Rua dos Caminhos de Ferro","Localidade":"Lisboa","Local":"","Troço":"Pares de 50 a 110","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2334121","rua":"R CAMINHOS DE FERRO","casa":"22","coordenadas":[38.71399342981849,-9.12351916431513]},{"id":"pt.ine.add.PTCONT.2334122","rua":"R CAMINHOS DE FERRO","casa":"22","coordenadas":[38.71399342981849,-9.12351916431513]},{"id":"pt.ine.add.PTCONT.2334123","rua":"R CAMINHOS DE FERRO","casa":"22","coordenadas":[38.71399342981849,-9.12351916431513]},{"id":"pt.ine.add.PTCONT.2334124","rua":"R CAMINHOS DE FERRO","casa":"22","coordenadas":[38.71399342981849,-9.12351916431513]},{"id":"pt.ine.add.PTCONT.2334125","rua":"R CAMINHOS DE FERRO","casa":"22","coordenadas":[38.71399342981849,-9.12351916431513]},{"id":"pt.ine.add.PTCONT.2334126","rua":"R CAMINHOS DE FERRO","casa":"22","coordenadas":[38.71399342981849,-9.12351916431513]},{"id":"pt.ine.add.PTCONT.2417225","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2417226","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2417227","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2417228","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2417229","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2417230","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2421341","rua":"R CAMINHOS DE FERRO","casa":"62","coordenadas":[38.71453086948494,-9.122813743163114]},{"id":"pt.ine.add.PTCONT.2449010","rua":"R CAMINHOS DE FERRO","casa":"100","coordenadas":[38.71389318582107,-9.123655748352066]},{"id":"pt.ine.add.PTCONT.2450645","rua":"R CAMINHOS DE FERRO","casa":"100","coordenadas":[38.71389318582107,-9.123655748352066]},{"id":"pt.ine.add.PTCONT.2721489","rua":"R CAMINHOS DE FERRO","casa":"56","coordenadas":[38.71458637018703,-9.122642047592489]},{"id":"pt.ine.add.PTCONT.2721490","rua":"R CAMINHOS DE FERRO","casa":"56","coordenadas":[38.71458637018703,-9.122642047592489]},{"id":"pt.ine.add.PTCONT.2721491","rua":"R CAMINHOS DE FERRO","casa":"56","coordenadas":[38.71458637018703,-9.122642047592489]},{"id":"pt.ine.add.PTCONT.2787894","rua":"R CAMINHOS DE FERRO","casa":"21","coordenadas":[38.714294452903026,-9.123074921888037]},{"id":"pt.ine.add.PTCONT.2787895","rua":"R CAMINHOS DE FERRO","casa":"21","coordenadas":[38.714294452903026,-9.123074921888037]},{"id":"pt.ine.add.PTCONT.2787896","rua":"R CAMINHOS DE FERRO","casa":"21","coordenadas":[38.714294452903026,-9.123074921888037]},{"id":"pt.ine.add.PTCONT.2787897","rua":"R CAMINHOS DE FERRO","casa":"21","coordenadas":[38.714294452903026,-9.123074921888037]},{"id":"pt.ine.add.PTCONT.2971485","rua":"R CAMINHOS DE FERRO","casa":"76","coordenadas":[38.71434016849993,-9.122995070995394]},{"id":"pt.ine.add.PTCONT.2971483","rua":"R CAMINHOS DE FERRO","casa":"76","coordenadas":[38.71434016849993,-9.122995070995394]},{"id":"pt.ine.add.PTCONT.2971484","rua":"R CAMINHOS DE FERRO","casa":"76","coordenadas":[38.71434016849993,-9.122995070995394]},{"id":"pt.ine.add.PTCONT.2971486","rua":"R CAMINHOS DE FERRO","casa":"76","coordenadas":[38.71434016849993,-9.122995070995394]},{"id":"pt.ine.add.PTCONT.2971669","rua":"R CAMINHOS DE FERRO","casa":"76","coordenadas":[38.71434016849993,-9.122995070995394]},{"id":"pt.ine.add.PTCONT.3166233","rua":"R CAMINHOS DE FERRO","casa":"70","coordenadas":[38.71438588404327,-9.122915220000467]},{"id":"pt.ine.add.PTCONT.3166513","rua":"R CAMINHOS DE FERRO","casa":"70","coordenadas":[38.71438588404327,-9.122915220000467]},{"id":"pt.ine.add.PTCONT.3166531","rua":"R CAMINHOS DE FERRO","casa":"70","coordenadas":[38.71438588404327,-9.122915220000467]},{"id":"pt.ine.add.PTCONT.3453130","rua":"R CAMINHOS DE FERRO","casa":"100","coordenadas":[38.71389318582107,-9.123655748352066]}],"ruas":["R CAMINHOS DE FERRO"],"centroide":[38.71430861512499,-9.123068984334822]}
+{
+  "CP": "1100-108",
+  "CP4": "1100",
+  "CP3": "108",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua dos Caminhos de Ferro",
+      "Local": "",
+      "Troço": "Pares de 50 a 110",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2334121",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "22",
+      "coordenadas": [
+        38.71399342981849,
+        -9.12351916431513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334122",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "22",
+      "coordenadas": [
+        38.71399342981849,
+        -9.12351916431513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334123",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "22",
+      "coordenadas": [
+        38.71399342981849,
+        -9.12351916431513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334124",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "22",
+      "coordenadas": [
+        38.71399342981849,
+        -9.12351916431513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334125",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "22",
+      "coordenadas": [
+        38.71399342981849,
+        -9.12351916431513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334126",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "22",
+      "coordenadas": [
+        38.71399342981849,
+        -9.12351916431513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417225",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417226",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417227",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417228",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417229",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417230",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2421341",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "62",
+      "coordenadas": [
+        38.71453086948494,
+        -9.122813743163114
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2449010",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "100",
+      "coordenadas": [
+        38.71389318582107,
+        -9.123655748352066
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2450645",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "100",
+      "coordenadas": [
+        38.71389318582107,
+        -9.123655748352066
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2721489",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "56",
+      "coordenadas": [
+        38.71458637018703,
+        -9.122642047592489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2721490",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "56",
+      "coordenadas": [
+        38.71458637018703,
+        -9.122642047592489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2721491",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "56",
+      "coordenadas": [
+        38.71458637018703,
+        -9.122642047592489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2787894",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "21",
+      "coordenadas": [
+        38.714294452903026,
+        -9.123074921888037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2787895",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "21",
+      "coordenadas": [
+        38.714294452903026,
+        -9.123074921888037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2787896",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "21",
+      "coordenadas": [
+        38.714294452903026,
+        -9.123074921888037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2787897",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "21",
+      "coordenadas": [
+        38.714294452903026,
+        -9.123074921888037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971485",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "76",
+      "coordenadas": [
+        38.71434016849993,
+        -9.122995070995394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971483",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "76",
+      "coordenadas": [
+        38.71434016849993,
+        -9.122995070995394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971484",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "76",
+      "coordenadas": [
+        38.71434016849993,
+        -9.122995070995394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971486",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "76",
+      "coordenadas": [
+        38.71434016849993,
+        -9.122995070995394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2971669",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "76",
+      "coordenadas": [
+        38.71434016849993,
+        -9.122995070995394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3166233",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "70",
+      "coordenadas": [
+        38.71438588404327,
+        -9.122915220000467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3166513",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "70",
+      "coordenadas": [
+        38.71438588404327,
+        -9.122915220000467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3166531",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "70",
+      "coordenadas": [
+        38.71438588404327,
+        -9.122915220000467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3453130",
+      "rua": "R CAMINHOS DE FERRO",
+      "casa": "100",
+      "coordenadas": [
+        38.71389318582107,
+        -9.123655748352066
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAMINHOS DE FERRO"
+  ],
+  "centro": [
+    38.71423977800405,
+    -9.123148897972278
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.714251882881996,
+                -9.12318212043328
+              ],
+              [
+                38.714172172424014,
+                -9.123287371081899
+              ],
+              [
+                38.714110124183,
+                -9.123367894643948
+              ],
+              [
+                38.71406573815896,
+                -9.123423691119424
+              ],
+              [
+                38.71403901435188,
+                -9.12345476050833
+              ],
+              [
+                38.71402995276178,
+                -9.123461102810666
+              ],
+              [
+                38.71403855338864,
+                -9.123442718026428
+              ],
+              [
+                38.71406481623248,
+                -9.123399606155619
+              ],
+              [
+                38.71410874129328,
+                -9.123331767198241
+              ],
+              [
+                38.71417032857106,
+                -9.123239201154291
+              ],
+              [
+                38.7142273500351,
+                -9.12315393754696
+              ],
+              [
+                38.714279805685436,
+                -9.12307597637625
+              ],
+              [
+                38.71432769552203,
+                -9.123005317642157
+              ],
+              [
+                38.7143710195449,
+                -9.122941961344683
+              ],
+              [
+                38.71440977775404,
+                -9.122885907483829
+              ],
+              [
+                38.71444397014946,
+                -9.122837156059592
+              ],
+              [
+                38.71447359673116,
+                -9.122795707071976
+              ],
+              [
+                38.714498657499135,
+                -9.12276156052098
+              ],
+              [
+                38.71451971847264,
+                -9.122734365032148
+              ],
+              [
+                38.714536779651674,
+                -9.122714120605483
+              ],
+              [
+                38.714549841036245,
+                -9.122700827240983
+              ],
+              [
+                38.71455890262635,
+                -9.122694484938648
+              ],
+              [
+                38.71456396442199,
+                -9.122695093698479
+              ],
+              [
+                38.71456502642316,
+                -9.122702653520477
+              ],
+              [
+                38.71456208862986,
+                -9.122717164404637
+              ],
+              [
+                38.714555151042106,
+                -9.122738626350966
+              ],
+              [
+                38.714539116845565,
+                -9.12277056188508
+              ],
+              [
+                38.714513986040245,
+                -9.12281297100698
+              ],
+              [
+                38.714479758626155,
+                -9.122865853716668
+              ],
+              [
+                38.71443643460327,
+                -9.12292921001414
+              ],
+              [
+                38.714384013971625,
+                -9.1230030398994
+              ],
+              [
+                38.7143224967312,
+                -9.123087343372447
+              ],
+              [
+                38.714251882881996,
+                -9.12318212043328
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71434907738408,
+    -9.123006689777032
+  ],
+  "centroDeMassa": [
+    38.71423977800405,
+    -9.123148897972278
+  ]
+}

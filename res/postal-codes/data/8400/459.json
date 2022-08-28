@@ -1,1 +1,415 @@
-{"CP4":"8400","CP3":"459","Distrito":"Faro","Concelho":"Lagoa (Algarve)","CP":"8400-459","Artéria":" ","Localidade":"Monte Alto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PORCHES","locais":[{"id":"pt.ine.add.PTCONT.1476008","rua":"CAM MONTE ALTO MONTE DO GATO","casa":"","coordenadas":[37.12912019881121,-8.401392439444443]},{"id":"pt.ine.add.PTCONT.1559131","rua":"QTA MONTE ALTO","casa":"","coordenadas":[37.13168750545745,-8.405655471023238]},{"id":"pt.ine.add.PTCONT.1598081","rua":"","casa":"","coordenadas":[37.12912746152537,-8.409990143195207]},{"id":"pt.ine.add.PTCONT.1621107","rua":"CAM VILA MACEALBA VILA MACEALBA","casa":"","coordenadas":[37.130267274491636,-8.40415363903025]},{"id":"pt.ine.add.PTCONT.1639982","rua":"CAM MONTE ALTO","casa":"","coordenadas":[37.12802719376343,-8.402592689042551]},{"id":"pt.ine.add.PTCONT.1667430","rua":"CAM CASA IMPERADOR","casa":"","coordenadas":[37.1305835684467,-8.403749633106806]},{"id":"pt.ine.add.PTCONT.1670668","rua":"CAM MONTE ALTO","casa":"311 A","coordenadas":[37.13056225007061,-8.405190033113037]},{"id":"pt.ine.add.PTCONT.1672091","rua":"CAM MONTE ALTO","casa":"311 A","coordenadas":[37.13056225007061,-8.405190033113037]},{"id":"pt.ine.add.PTCONT.1734259","rua":"CAM MONTE ALTO CASAS MONTE ALTO","casa":"","coordenadas":[37.12902743914961,-8.402562475126578]},{"id":"pt.ine.add.PTCONT.1734260","rua":"CAM MONTE ALTO CASAS MONTE ALTO","casa":"","coordenadas":[37.12902743914961,-8.402562475126578]},{"id":"pt.ine.add.PTCONT.1734261","rua":"CAM MONTE ALTO CASAS MONTE ALTO","casa":"","coordenadas":[37.12902743914961,-8.402562475126578]},{"id":"pt.ine.add.PTCONT.1757373","rua":"CAM MONTE ALTO","casa":"311 A","coordenadas":[37.13048125866636,-8.40514472833201]},{"id":"pt.ine.add.PTCONT.1759007","rua":"","casa":"","coordenadas":[37.12904640587536,-8.402146163083263]},{"id":"pt.ine.add.PTCONT.1786246","rua":"CAM QUINTA DOS PINHEIROS","casa":"","coordenadas":[37.12867995368899,-8.404789424234513]},{"id":"pt.ine.add.PTCONT.1793421","rua":"CAM MONTE ALTO","casa":"","coordenadas":[37.12903690991565,-8.402359945833165]},{"id":"pt.ine.add.PTCONT.1793422","rua":"CAM MONTE ALTO","casa":"","coordenadas":[37.12903690991565,-8.402359945833165]},{"id":"pt.ine.add.PTCONT.1799349","rua":"","casa":"","coordenadas":[37.127589447744135,-8.404886805731302]},{"id":"pt.ine.add.PTCONT.1799350","rua":"","casa":"","coordenadas":[37.127589447744135,-8.404886805731302]}],"ruas":["CAM MONTE ALTO MONTE DO GATO","QTA MONTE ALTO","","CAM VILA MACEALBA VILA MACEALBA","CAM MONTE ALTO","CAM CASA IMPERADOR","CAM MONTE ALTO CASAS MONTE ALTO","CAM QUINTA DOS PINHEIROS"],"centroide":[37.12946417093482,-8.40395814820563]}
+{
+  "CP": "8400-459",
+  "CP4": "8400",
+  "CP3": "459",
+  "Distrito": "Faro",
+  "Concelho": "Lagoa (Algarve)",
+  "Localidade": "Monte Alto",
+  "Designação Postal": "PORCHES",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1476008",
+      "rua": "CAM MONTE ALTO MONTE DO GATO",
+      "casa": "",
+      "coordenadas": [
+        37.12912019881121,
+        -8.401392439444443
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1559131",
+      "rua": "QTA MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.13168750545745,
+        -8.405655471023238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1598081",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.12912746152537,
+        -8.409990143195207
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1621107",
+      "rua": "CAM VILA MACEALBA VILA MACEALBA",
+      "casa": "",
+      "coordenadas": [
+        37.130267274491636,
+        -8.40415363903025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1639982",
+      "rua": "CAM MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.12802719376343,
+        -8.402592689042551
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1667430",
+      "rua": "CAM CASA IMPERADOR",
+      "casa": "",
+      "coordenadas": [
+        37.1305835684467,
+        -8.403749633106806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1670668",
+      "rua": "CAM MONTE ALTO",
+      "casa": "311 A",
+      "coordenadas": [
+        37.13056225007061,
+        -8.405190033113037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1672091",
+      "rua": "CAM MONTE ALTO",
+      "casa": "311 A",
+      "coordenadas": [
+        37.13056225007061,
+        -8.405190033113037
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1734259",
+      "rua": "CAM MONTE ALTO CASAS MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.12902743914961,
+        -8.402562475126578
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1734260",
+      "rua": "CAM MONTE ALTO CASAS MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.12902743914961,
+        -8.402562475126578
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1734261",
+      "rua": "CAM MONTE ALTO CASAS MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.12902743914961,
+        -8.402562475126578
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1757373",
+      "rua": "CAM MONTE ALTO",
+      "casa": "311 A",
+      "coordenadas": [
+        37.13048125866636,
+        -8.40514472833201
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1759007",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.12904640587536,
+        -8.402146163083263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1786246",
+      "rua": "CAM QUINTA DOS PINHEIROS",
+      "casa": "",
+      "coordenadas": [
+        37.12867995368899,
+        -8.404789424234513
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1793421",
+      "rua": "CAM MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.12903690991565,
+        -8.402359945833165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1793422",
+      "rua": "CAM MONTE ALTO",
+      "casa": "",
+      "coordenadas": [
+        37.12903690991565,
+        -8.402359945833165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1799349",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.127589447744135,
+        -8.404886805731302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1799350",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.127589447744135,
+        -8.404886805731302
+      ]
+    }
+  ],
+  "ruas": [
+    "CAM MONTE ALTO MONTE DO GATO",
+    "QTA MONTE ALTO",
+    "CAM VILA MACEALBA VILA MACEALBA",
+    "CAM MONTE ALTO",
+    "CAM CASA IMPERADOR",
+    "CAM MONTE ALTO CASAS MONTE ALTO",
+    "CAM QUINTA DOS PINHEIROS"
+  ],
+  "centro": [
+    37.12963847660079,
+    -8.405691291319826
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.128454580496076,
+                -8.407757433054748
+              ],
+              [
+                37.128262328773424,
+                -8.407119515871761
+              ],
+              [
+                37.12810094829766,
+                -8.406525492763384
+              ],
+              [
+                37.12797043906876,
+                -8.40597536372962
+              ],
+              [
+                37.12787080108676,
+                -8.405469128770466
+              ],
+              [
+                37.127802034351646,
+                -8.405006787885926
+              ],
+              [
+                37.127764138863405,
+                -8.404588341075996
+              ],
+              [
+                37.12775711462205,
+                -8.404213788340677
+              ],
+              [
+                37.12778096162758,
+                -8.403883129679972
+              ],
+              [
+                37.127835679879986,
+                -8.403596365093879
+              ],
+              [
+                37.12790063655471,
+                -8.403326692181077
+              ],
+              [
+                37.12797583165177,
+                -8.403074110941565
+              ],
+              [
+                37.12806126517114,
+                -8.402838621375345
+              ],
+              [
+                37.128156937112834,
+                -8.402620223482419
+              ],
+              [
+                37.12826284747685,
+                -8.40241891726278
+              ],
+              [
+                37.12837899626318,
+                -8.402234702716434
+              ],
+              [
+                37.12850538347183,
+                -8.40206757984338
+              ],
+              [
+                37.128642009102805,
+                -8.401917548643615
+              ],
+              [
+                37.128784421680464,
+                -8.401823102494797
+              ],
+              [
+                37.1289326212048,
+                -8.401784241396923
+              ],
+              [
+                37.12908660767582,
+                -8.401800965349993
+              ],
+              [
+                37.12924638109353,
+                -8.40187327435401
+              ],
+              [
+                37.12941194145792,
+                -8.40200116840897
+              ],
+              [
+                37.129583288768984,
+                -8.402184647514876
+              ],
+              [
+                37.12976042302674,
+                -8.402423711671727
+              ],
+              [
+                37.12994334423117,
+                -8.402718360879522
+              ],
+              [
+                37.13012064930085,
+                -8.403005957653788
+              ],
+              [
+                37.13029233823576,
+                -8.403286501994522
+              ],
+              [
+                37.13045841103591,
+                -8.403559993901727
+              ],
+              [
+                37.13061886770131,
+                -8.403826433375402
+              ],
+              [
+                37.130773708231935,
+                -8.404085820415546
+              ],
+              [
+                37.1309229326278,
+                -8.40433815502216
+              ],
+              [
+                37.1310665408889,
+                -8.404583437195244
+              ],
+              [
+                37.13120453301524,
+                -8.404821666934799
+              ],
+              [
+                37.13128527543935,
+                -8.405097847209596
+              ],
+              [
+                37.13130876816123,
+                -8.405411978019636
+              ],
+              [
+                37.13127501118088,
+                -8.405764059364918
+              ],
+              [
+                37.1311840044983,
+                -8.406154091245442
+              ],
+              [
+                37.13103574811349,
+                -8.406582073661209
+              ],
+              [
+                37.13083024202644,
+                -8.407048006612222
+              ],
+              [
+                37.13056748623716,
+                -8.407551890098475
+              ],
+              [
+                37.13024748074566,
+                -8.408093724119972
+              ],
+              [
+                37.12994344447525,
+                -8.408488089240906
+              ],
+              [
+                37.129655377425955,
+                -8.408734985461281
+              ],
+              [
+                37.12938327959777,
+                -8.408834412781097
+              ],
+              [
+                37.12912715099068,
+                -8.40878637120035
+              ],
+              [
+                37.12888699160471,
+                -8.408590860719043
+              ],
+              [
+                37.12866280143984,
+                -8.408247881337175
+              ],
+              [
+                37.128454580496076,
+                -8.407757433054748
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.12935589595805,
+    -8.404711196923925
+  ],
+  "centroDeMassa": [
+    37.12963847660079,
+    -8.405691291319826
+  ]
+}

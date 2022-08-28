@@ -1,1 +1,413 @@
-{"CP4":"8200","CP3":"275","Distrito":"Faro","Concelho":"Albufeira","CP":"8200-275","Artéria":"Rua Bernardo de Passos","Localidade":"Albufeira","Local":"Areias de São João","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALBUFEIRA","locais":[{"id":"pt.ine.add.PTCONT.1695380","rua":"R BERNARDO PASSOS","casa":"9","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1695381","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1695382","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1695383","rua":"R BERNARDO PASSOS","casa":"N 12","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697326","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697327","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697328","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697329","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697330","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697331","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697332","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1697333","rua":"R BERNARDO DE PASSOS","casa":"6","coordenadas":[37.090319888361,-8.233731134911016]},{"id":"pt.ine.add.PTCONT.1738311","rua":"R BERNARDO DE PASSOS","casa":"","coordenadas":[37.09026597688241,-8.233551099045528]},{"id":"pt.ine.add.PTCONT.1738312","rua":"R BERNARDO DE PASSOS","casa":"","coordenadas":[37.09026597688241,-8.233551099045528]},{"id":"pt.ine.add.PTCONT.1738313","rua":"R BERNARDO DE PASSOS","casa":"","coordenadas":[37.09026597688241,-8.233551099045528]},{"id":"pt.ine.add.PTCONT.1738327","rua":"R BERNARDO DE PASSOS","casa":"","coordenadas":[37.09026597688241,-8.233551099045528]},{"id":"pt.ine.add.PTCONT.1740749","rua":"R BERNARDO DE PASSOS","casa":"","coordenadas":[37.09026597688241,-8.233551099045528]},{"id":"pt.ine.add.PTCONT.1740802","rua":"R BERNARDO DE PASSOS","casa":"","coordenadas":[37.09026597688241,-8.233551099045528]},{"id":"pt.ine.add.PTCONT.1825794","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825795","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825796","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825797","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825798","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825799","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825800","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825801","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825802","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1825940","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]},{"id":"pt.ine.add.PTCONT.1826831","rua":"R BERNARDO DE PASSOS","casa":"7","coordenadas":[37.090400841142554,-8.233899959039054]}],"ruas":["R BERNARDO PASSOS","R BERNARDO DE PASSOS"],"centroide":[37.09033724760901,-8.233752850128429]}
+{
+  "CP": "8200-275",
+  "CP4": "8200",
+  "CP3": "275",
+  "Distrito": "Faro",
+  "Concelho": "Albufeira",
+  "Localidade": "Albufeira",
+  "Designação Postal": "ALBUFEIRA",
+  "partes": [
+    {
+      "Artéria": "Rua Bernardo de Passos",
+      "Local": "Areias de São João",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1695380",
+      "rua": "R BERNARDO PASSOS",
+      "casa": "9",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1695381",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1695382",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1695383",
+      "rua": "R BERNARDO PASSOS",
+      "casa": "N 12",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697326",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697327",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697328",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697329",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697330",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697331",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697332",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697333",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "6",
+      "coordenadas": [
+        37.090319888361,
+        -8.233731134911016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1738311",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "",
+      "coordenadas": [
+        37.09026597688241,
+        -8.233551099045528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1738312",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "",
+      "coordenadas": [
+        37.09026597688241,
+        -8.233551099045528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1738313",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "",
+      "coordenadas": [
+        37.09026597688241,
+        -8.233551099045528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1738327",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "",
+      "coordenadas": [
+        37.09026597688241,
+        -8.233551099045528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1740749",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "",
+      "coordenadas": [
+        37.09026597688241,
+        -8.233551099045528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1740802",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "",
+      "coordenadas": [
+        37.09026597688241,
+        -8.233551099045528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825794",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825795",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825796",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825797",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825798",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825799",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825800",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825801",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825802",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1825940",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1826831",
+      "rua": "R BERNARDO DE PASSOS",
+      "casa": "7",
+      "coordenadas": [
+        37.090400841142554,
+        -8.233899959039054
+      ]
+    }
+  ],
+  "ruas": [
+    "R BERNARDO PASSOS",
+    "R BERNARDO DE PASSOS"
+  ],
+  "centro": [
+    37.09033340901248,
+    -8.23372552904229
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.090296302089115,
+                -8.233652369219865
+              ],
+              [
+                37.09028956315429,
+                -8.23362986473668
+              ],
+              [
+                37.090285773840385,
+                -8.23361562425129
+              ],
+              [
+                37.0902849341474,
+                -8.233609647763698
+              ],
+              [
+                37.090287044075325,
+                -8.233611935273903
+              ],
+              [
+                37.090292103624165,
+                -8.233622486781906
+              ],
+              [
+                37.09030011279393,
+                -8.233641302287705
+              ],
+              [
+                37.09031107158462,
+                -8.2336683817913
+              ],
+              [
+                37.090324979996225,
+                -8.233703725292695
+              ],
+              [
+                37.090341838028735,
+                -8.233747332791886
+              ],
+              [
+                37.09035532391998,
+                -8.233782851476679
+              ],
+              [
+                37.090365437669945,
+                -8.233810281347068
+              ],
+              [
+                37.09037217927863,
+                -8.23382962240306
+              ],
+              [
+                37.09037554874605,
+                -8.233840874644656
+              ],
+              [
+                37.09037554607218,
+                -8.23384403807185
+              ],
+              [
+                37.090372171257044,
+                -8.233839112684642
+              ],
+              [
+                37.09036542430062,
+                -8.233826098483036
+              ],
+              [
+                37.090355305202934,
+                -8.233804995467032
+              ],
+              [
+                37.0903456086256,
+                -8.23378371726763
+              ],
+              [
+                37.090336334568626,
+                -8.23376226388483
+              ],
+              [
+                37.090327483032006,
+                -8.233740635318632
+              ],
+              [
+                37.090319054015744,
+                -8.233718831569036
+              ],
+              [
+                37.09031104751984,
+                -8.233696852636044
+              ],
+              [
+                37.0903034635443,
+                -8.233674698519653
+              ],
+              [
+                37.090296302089115,
+                -8.233652369219865
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.090328902128654,
+    -8.2337273976652
+  ],
+  "centroDeMassa": [
+    37.09033340901248,
+    -8.23372552904229
+  ]
+}

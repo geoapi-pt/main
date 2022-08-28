@@ -1,1 +1,480 @@
-{"CP4":"2655","CP3":"459","Distrito":"Lisboa","Concelho":"Mafra","CP":"2655-459","Artéria":"Rua Pinhal da Carrasqueira","Localidade":"Ericeira","Local":"Pinhal dos Frades","Troço":"","Porta":"","Cliente":"","Designação Postal":"ERICEIRA","locais":[{"id":"pt.ine.add.PTCONT.2308017","rua":"PCT LIMOEIROS","casa":"5","coordenadas":[38.97256374373699,-9.381312594824687]},{"id":"pt.ine.add.PTCONT.2343237","rua":"ESTR CABECA ALTA","casa":"17","coordenadas":[38.971844998142856,-9.378611465783331]},{"id":"pt.ine.add.PTCONT.2361929","rua":"R PINHAL DA CARRASQUEIRA","casa":"6","coordenadas":[38.97379418839511,-9.380803402848306]},{"id":"pt.ine.add.PTCONT.2361932","rua":"R PINHAL DA CARRASQUEIRA","casa":"6","coordenadas":[38.97379418839511,-9.380803402848306]},{"id":"pt.ine.add.PTCONT.2361933","rua":"R PINHAL DA CARRASQUEIRA","casa":"6","coordenadas":[38.97379418839511,-9.380803402848306]},{"id":"pt.ine.add.PTCONT.2389915","rua":"ESTR CABECA ALTA","casa":"16","coordenadas":[38.971968491124336,-9.378855941641016]},{"id":"pt.ine.add.PTCONT.2469853","rua":"ESTR CABECA ALTA","casa":"60","coordenadas":[38.971829941954276,-9.378334273857623]},{"id":"pt.ine.add.PTCONT.2469854","rua":"PCT LIMOEIROS","casa":"6","coordenadas":[38.97270845123049,-9.381257441159034]},{"id":"pt.ine.add.PTCONT.2474633","rua":"ESTR CABECA ALTA","casa":"60","coordenadas":[38.971829941954276,-9.378334273857623]},{"id":"pt.ine.add.PTCONT.2489365","rua":"PCT LIMOEIROS","casa":"4","coordenadas":[38.972382643347395,-9.3814017256419]},{"id":"pt.ine.add.PTCONT.2570720","rua":"ESTR CABECA ALTA","casa":"","coordenadas":[38.97143433345929,-9.379954289577993]},{"id":"pt.ine.add.PTCONT.2601277","rua":"ESTR SANTO ISIDRO","casa":"","coordenadas":[38.97151961215885,-9.376182654792466]},{"id":"pt.ine.add.PTCONT.2615224","rua":"R PINHAL DA CARRASQUEIRA","casa":"17","coordenadas":[38.97325027119661,-9.381128485951066]},{"id":"pt.ine.add.PTCONT.2677728","rua":"PCT LIMOEIROS","casa":"9","coordenadas":[38.972079166128594,-9.381142546001136]},{"id":"pt.ine.add.PTCONT.2690058","rua":"ESTR CABECA ALTA","casa":"20","coordenadas":[38.97179961323063,-9.379487609624528]},{"id":"pt.ine.add.PTCONT.2722270","rua":"ESTR CABECA ALTA","casa":"","coordenadas":[38.97176691740712,-9.37917549257886]},{"id":"pt.ine.add.PTCONT.2795606","rua":"ESTR CABECA ALTA","casa":"6","coordenadas":[38.97186631255639,-9.37745797106861]},{"id":"pt.ine.add.PTCONT.2911559","rua":"PCT LIMOEIROS","casa":"11","coordenadas":[38.97166293159662,-9.381319858353576]},{"id":"pt.ine.add.PTCONT.3030529","rua":"ESTR CABECA ALTA","casa":"64","coordenadas":[38.97191702431123,-9.377770403176411]},{"id":"pt.ine.add.PTCONT.3048419","rua":"PCT LIMOEIROS","casa":"8","coordenadas":[38.97227790747534,-9.381088340742133]},{"id":"pt.ine.add.PTCONT.3068082","rua":"PCT LIMOEIROS","casa":"10","coordenadas":[38.971835026280296,-9.381230570095736]},{"id":"pt.ine.add.PTCONT.3105498","rua":"PCT LIMOEIROS","casa":"2","coordenadas":[38.971912251101564,-9.381589624925018]},{"id":"pt.ine.add.PTCONT.3123484","rua":"PCT LIMOEIROS","casa":"7","coordenadas":[38.97266613767103,-9.381002844586373]},{"id":"pt.ine.add.PTCONT.3169172","rua":"PCT LIMOEIROS","casa":"3","coordenadas":[38.97217464936372,-9.381478845100347]},{"id":"pt.ine.add.PTCONT.3189111","rua":"R PINHAL DA CARRASQUEIRA","casa":"","coordenadas":[38.97304758041064,-9.381551866261075]},{"id":"pt.ine.add.PTCONT.3205742","rua":"ESTR CABECA ALTA","casa":"","coordenadas":[38.971420636105194,-9.379550198147603]},{"id":"pt.ine.add.PTCONT.3304858","rua":"ESTR CARRASQUEIRA DE CIMA","casa":"","coordenadas":[38.97183230821423,-9.379799726935236]},{"id":"pt.ine.add.PTCONT.3339977","rua":"R PINHAL DA CARRASQUEIRA","casa":"18","coordenadas":[38.97334267206107,-9.38091086845268]},{"id":"pt.ine.add.PTCONT.3345551","rua":"PCT LIMOEIROS","casa":"1","coordenadas":[38.97169500444761,-9.38168965818317]},{"id":"pt.ine.add.PTCONT.3354407","rua":"ESTR CABECA ALTA","casa":"31","coordenadas":[38.971829693974676,-9.383411285288338]},{"id":"pt.ine.add.PTCONT.3418746","rua":"ESTR CABECA ALTA","casa":"","coordenadas":[38.971309859804784,-9.381486739066066]}],"ruas":["PCT LIMOEIROS","ESTR CABECA ALTA","R PINHAL DA CARRASQUEIRA","ESTR SANTO ISIDRO","ESTR CARRASQUEIRA DE CIMA"],"centroide":[38.972261360860884,-9.380248035505083]}
+{
+  "CP": "2655-459",
+  "CP4": "2655",
+  "CP3": "459",
+  "Distrito": "Lisboa",
+  "Concelho": "Mafra",
+  "Localidade": "Ericeira",
+  "Designação Postal": "ERICEIRA",
+  "partes": [
+    {
+      "Artéria": "Estrada da Cabeça Alta",
+      "Local": "Pinhal dos Frades",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Praceta dos Limoeiros",
+      "Local": "Pinhal dos Frades",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Pinhal da Carrasqueira",
+      "Local": "Pinhal dos Frades",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2308017",
+      "rua": "PCT LIMOEIROS",
+      "casa": "5",
+      "coordenadas": [
+        38.97256374373699,
+        -9.381312594824687
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2343237",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "17",
+      "coordenadas": [
+        38.971844998142856,
+        -9.378611465783331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2361929",
+      "rua": "R PINHAL DA CARRASQUEIRA",
+      "casa": "6",
+      "coordenadas": [
+        38.97379418839511,
+        -9.380803402848306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2361932",
+      "rua": "R PINHAL DA CARRASQUEIRA",
+      "casa": "6",
+      "coordenadas": [
+        38.97379418839511,
+        -9.380803402848306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2361933",
+      "rua": "R PINHAL DA CARRASQUEIRA",
+      "casa": "6",
+      "coordenadas": [
+        38.97379418839511,
+        -9.380803402848306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2389915",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "16",
+      "coordenadas": [
+        38.971968491124336,
+        -9.378855941641016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2469853",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "60",
+      "coordenadas": [
+        38.971829941954276,
+        -9.378334273857623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2469854",
+      "rua": "PCT LIMOEIROS",
+      "casa": "6",
+      "coordenadas": [
+        38.97270845123049,
+        -9.381257441159034
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2474633",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "60",
+      "coordenadas": [
+        38.971829941954276,
+        -9.378334273857623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2489365",
+      "rua": "PCT LIMOEIROS",
+      "casa": "4",
+      "coordenadas": [
+        38.972382643347395,
+        -9.3814017256419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2570720",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "",
+      "coordenadas": [
+        38.97143433345929,
+        -9.379954289577993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2601277",
+      "rua": "ESTR SANTO ISIDRO",
+      "casa": "",
+      "coordenadas": [
+        38.97151961215885,
+        -9.376182654792466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2615224",
+      "rua": "R PINHAL DA CARRASQUEIRA",
+      "casa": "17",
+      "coordenadas": [
+        38.97325027119661,
+        -9.381128485951066
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2677728",
+      "rua": "PCT LIMOEIROS",
+      "casa": "9",
+      "coordenadas": [
+        38.972079166128594,
+        -9.381142546001136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2690058",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "20",
+      "coordenadas": [
+        38.97179961323063,
+        -9.379487609624528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2722270",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "",
+      "coordenadas": [
+        38.97176691740712,
+        -9.37917549257886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2795606",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "6",
+      "coordenadas": [
+        38.97186631255639,
+        -9.37745797106861
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2911559",
+      "rua": "PCT LIMOEIROS",
+      "casa": "11",
+      "coordenadas": [
+        38.97166293159662,
+        -9.381319858353576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3030529",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "64",
+      "coordenadas": [
+        38.97191702431123,
+        -9.377770403176411
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3048419",
+      "rua": "PCT LIMOEIROS",
+      "casa": "8",
+      "coordenadas": [
+        38.97227790747534,
+        -9.381088340742133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3068082",
+      "rua": "PCT LIMOEIROS",
+      "casa": "10",
+      "coordenadas": [
+        38.971835026280296,
+        -9.381230570095736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3105498",
+      "rua": "PCT LIMOEIROS",
+      "casa": "2",
+      "coordenadas": [
+        38.971912251101564,
+        -9.381589624925018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3123484",
+      "rua": "PCT LIMOEIROS",
+      "casa": "7",
+      "coordenadas": [
+        38.97266613767103,
+        -9.381002844586373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3169172",
+      "rua": "PCT LIMOEIROS",
+      "casa": "3",
+      "coordenadas": [
+        38.97217464936372,
+        -9.381478845100347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3189111",
+      "rua": "R PINHAL DA CARRASQUEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.97304758041064,
+        -9.381551866261075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3205742",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "",
+      "coordenadas": [
+        38.971420636105194,
+        -9.379550198147603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3304858",
+      "rua": "ESTR CARRASQUEIRA DE CIMA",
+      "casa": "",
+      "coordenadas": [
+        38.97183230821423,
+        -9.379799726935236
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3339977",
+      "rua": "R PINHAL DA CARRASQUEIRA",
+      "casa": "18",
+      "coordenadas": [
+        38.97334267206107,
+        -9.38091086845268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3345551",
+      "rua": "PCT LIMOEIROS",
+      "casa": "1",
+      "coordenadas": [
+        38.97169500444761,
+        -9.38168965818317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3354407",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "31",
+      "coordenadas": [
+        38.971829693974676,
+        -9.383411285288338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3418746",
+      "rua": "ESTR CABECA ALTA",
+      "casa": "",
+      "coordenadas": [
+        38.971309859804784,
+        -9.381486739066066
+      ]
+    }
+  ],
+  "ruas": [
+    "PCT LIMOEIROS",
+    "ESTR CABECA ALTA",
+    "R PINHAL DA CARRASQUEIRA",
+    "ESTR SANTO ISIDRO",
+    "ESTR CARRASQUEIRA DE CIMA"
+  ],
+  "centro": [
+    38.97255202409995,
+    -9.379796970040402
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.97160226652535,
+                -9.382569296316092
+              ],
+              [
+                38.97153728725411,
+                -9.38232872803831
+              ],
+              [
+                38.971483707772315,
+                -9.382035354478473
+              ],
+              [
+                38.97144152807995,
+                -9.381689175636584
+              ],
+              [
+                38.97141074817703,
+                -9.381290191512644
+              ],
+              [
+                38.97139136806353,
+                -9.380838402106654
+              ],
+              [
+                38.97138338773948,
+                -9.380333807418609
+              ],
+              [
+                38.971386807204865,
+                -9.379776407448514
+              ],
+              [
+                38.97140162645969,
+                -9.379166202196366
+              ],
+              [
+                38.971427845503946,
+                -9.378503191662166
+              ],
+              [
+                38.97148632742136,
+                -9.377995256633113
+              ],
+              [
+                38.97157707221194,
+                -9.37764239710921
+              ],
+              [
+                38.971700079875674,
+                -9.37744461309045
+              ],
+              [
+                38.971855350412575,
+                -9.377401904576843
+              ],
+              [
+                38.972042883822624,
+                -9.37751427156838
+              ],
+              [
+                38.97226268010584,
+                -9.377781714065065
+              ],
+              [
+                38.97251473926221,
+                -9.378204232066896
+              ],
+              [
+                38.97279906129175,
+                -9.378781825573876
+              ],
+              [
+                38.97301714784227,
+                -9.379327968055609
+              ],
+              [
+                38.97316899891378,
+                -9.379842659512097
+              ],
+              [
+                38.973254614506274,
+                -9.380325899943335
+              ],
+              [
+                38.973273994619774,
+                -9.380777689349324
+              ],
+              [
+                38.97322713925425,
+                -9.38119802773007
+              ],
+              [
+                38.97311404840971,
+                -9.381586915085569
+              ],
+              [
+                38.972934722086165,
+                -9.38194435141582
+              ],
+              [
+                38.97268916028362,
+                -9.382270336720824
+              ],
+              [
+                38.972466171297484,
+                -9.382525502827978
+              ],
+              [
+                38.97226575512775,
+                -9.382709849737285
+              ],
+              [
+                38.972087911774445,
+                -9.382823377448744
+              ],
+              [
+                38.97193264123755,
+                -9.382866085962355
+              ],
+              [
+                38.97179994351707,
+                -9.382837975278116
+              ],
+              [
+                38.971689818613,
+                -9.382739045396027
+              ],
+              [
+                38.97160226652535,
+                -9.382569296316092
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.972113338583355,
+    -9.380471020498794
+  ],
+  "centroDeMassa": [
+    38.97255202409995,
+    -9.379796970040402
+  ]
+}

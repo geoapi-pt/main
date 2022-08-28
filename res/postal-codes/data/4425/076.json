@@ -1,1 +1,573 @@
-{"CP4":"4425","CP3":"076","Distrito":"Porto","Concelho":"Maia","CP":"4425-076","Artéria":"Rua Doutor Joaquim Moutinho dos Santos","Localidade":"Maia","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MAIA","locais":[{"id":"pt.ine.add.PTCONT.3553898","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"136","coordenadas":[41.20545275916092,-8.593599388918095]},{"id":"pt.ine.add.PTCONT.3598800","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"93","coordenadas":[41.204966589610315,-8.593584057980104]},{"id":"pt.ine.add.PTCONT.3624496","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"54","coordenadas":[41.20495972952983,-8.593047493248699]},{"id":"pt.ine.add.PTCONT.3643848","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"40","coordenadas":[41.20488831623395,-8.592891999673032]},{"id":"pt.ine.add.PTCONT.3643849","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"40","coordenadas":[41.20488831623395,-8.592891999673032]},{"id":"pt.ine.add.PTCONT.3708696","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"148","coordenadas":[41.20551564429144,-8.593635597865823]},{"id":"pt.ine.add.PTCONT.3734917","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"85","coordenadas":[41.204930954845715,-8.593488427474655]},{"id":"pt.ine.add.PTCONT.3799498","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"76","coordenadas":[41.2050307615211,-8.593298365331135]},{"id":"pt.ine.add.PTCONT.3799499","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"78","coordenadas":[41.2050307615211,-8.593298365331135]},{"id":"pt.ine.add.PTCONT.3831691","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"133","coordenadas":[41.20528944685005,-8.593908232935453]},{"id":"pt.ine.add.PTCONT.3863906","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"125","coordenadas":[41.20518182787541,-8.593800174262224]},{"id":"pt.ine.add.PTCONT.3863907","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"125","coordenadas":[41.20518182787541,-8.593800174262224]},{"id":"pt.ine.add.PTCONT.3883046","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"106","coordenadas":[41.20515610308226,-8.593478082892306]},{"id":"pt.ine.add.PTCONT.3883047","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"106","coordenadas":[41.20515610308226,-8.593478082892306]},{"id":"pt.ine.add.PTCONT.3956635","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"48","coordenadas":[41.204915042688086,-8.592963722256457]},{"id":"pt.ine.add.PTCONT.3956636","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"77","coordenadas":[41.20507416111262,-8.593704038222103]},{"id":"pt.ine.add.PTCONT.3958197","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"46","coordenadas":[41.204915042688086,-8.592963722256457]},{"id":"pt.ine.add.PTCONT.3958322","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"77","coordenadas":[41.20507416111262,-8.593704038222103]},{"id":"pt.ine.add.PTCONT.3962305","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"163","coordenadas":[41.205541273210045,-8.593981535783092]},{"id":"pt.ine.add.PTCONT.3985366","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"130","coordenadas":[41.20532670284802,-8.593598505178482]},{"id":"pt.ine.add.PTCONT.4031516","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"115","coordenadas":[41.205128042192385,-8.593740183914639]},{"id":"pt.ine.add.PTCONT.4031517","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"113","coordenadas":[41.205128042192385,-8.593740183914639]},{"id":"pt.ine.add.PTCONT.4057573","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"88","coordenadas":[41.20512037292905,-8.593406296741144]},{"id":"pt.ine.add.PTCONT.4057574","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"92","coordenadas":[41.20512037292905,-8.593406296741144]},{"id":"pt.ine.add.PTCONT.4156171","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"145","coordenadas":[41.20536138361418,-8.59393258292801]},{"id":"pt.ine.add.PTCONT.4260709","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"157","coordenadas":[41.205460332437376,-8.59395712249499]},{"id":"pt.ine.add.PTCONT.4307900","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"112","coordenadas":[41.20526396070443,-8.593526529432916]},{"id":"pt.ine.add.PTCONT.4342953","rua":"R DR JOAQUIM MOUTINHO DOS SANTOS","casa":"66","coordenadas":[41.20501318219717,-8.593190938754855]},{"id":"pt.ine.add.PTCONT.4387377","rua":"R DR JOAQUIM MOUTINHO SANTOS","casa":"56","coordenadas":[41.20495972952983,-8.593047493248699]}],"ruas":["R DR JOAQUIM MOUTINHO DOS SANTOS","R DR JOAQUIM MOUTINHO SANTOS"],"centroide":[41.20514540052033,-8.593500576413616]}
+{
+  "CP": "4425-076",
+  "CP4": "4425",
+  "CP3": "076",
+  "Distrito": "Porto",
+  "Concelho": "Maia",
+  "Localidade": "Maia",
+  "Designação Postal": "MAIA",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Joaquim Moutinho dos Santos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3553898",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "136",
+      "coordenadas": [
+        41.20545275916092,
+        -8.593599388918095
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3598800",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "93",
+      "coordenadas": [
+        41.204966589610315,
+        -8.593584057980104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3624496",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "54",
+      "coordenadas": [
+        41.20495972952983,
+        -8.593047493248699
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3643848",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "40",
+      "coordenadas": [
+        41.20488831623395,
+        -8.592891999673032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3643849",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "40",
+      "coordenadas": [
+        41.20488831623395,
+        -8.592891999673032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3708696",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "148",
+      "coordenadas": [
+        41.20551564429144,
+        -8.593635597865823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3734917",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "85",
+      "coordenadas": [
+        41.204930954845715,
+        -8.593488427474655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3799498",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "76",
+      "coordenadas": [
+        41.2050307615211,
+        -8.593298365331135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3799499",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "78",
+      "coordenadas": [
+        41.2050307615211,
+        -8.593298365331135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3831691",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "133",
+      "coordenadas": [
+        41.20528944685005,
+        -8.593908232935453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3863906",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "125",
+      "coordenadas": [
+        41.20518182787541,
+        -8.593800174262224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3863907",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "125",
+      "coordenadas": [
+        41.20518182787541,
+        -8.593800174262224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3883046",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "106",
+      "coordenadas": [
+        41.20515610308226,
+        -8.593478082892306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3883047",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "106",
+      "coordenadas": [
+        41.20515610308226,
+        -8.593478082892306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3956635",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "48",
+      "coordenadas": [
+        41.204915042688086,
+        -8.592963722256457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3956636",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "77",
+      "coordenadas": [
+        41.20507416111262,
+        -8.593704038222103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3958197",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "46",
+      "coordenadas": [
+        41.204915042688086,
+        -8.592963722256457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3958322",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "77",
+      "coordenadas": [
+        41.20507416111262,
+        -8.593704038222103
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3962305",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "163",
+      "coordenadas": [
+        41.205541273210045,
+        -8.593981535783092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3985366",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "130",
+      "coordenadas": [
+        41.20532670284802,
+        -8.593598505178482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4031516",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "115",
+      "coordenadas": [
+        41.205128042192385,
+        -8.593740183914639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4031517",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "113",
+      "coordenadas": [
+        41.205128042192385,
+        -8.593740183914639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057573",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "88",
+      "coordenadas": [
+        41.20512037292905,
+        -8.593406296741144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057574",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "92",
+      "coordenadas": [
+        41.20512037292905,
+        -8.593406296741144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4156171",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "145",
+      "coordenadas": [
+        41.20536138361418,
+        -8.59393258292801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4260709",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "157",
+      "coordenadas": [
+        41.205460332437376,
+        -8.59395712249499
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307900",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "112",
+      "coordenadas": [
+        41.20526396070443,
+        -8.593526529432916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4342953",
+      "rua": "R DR JOAQUIM MOUTINHO DOS SANTOS",
+      "casa": "66",
+      "coordenadas": [
+        41.20501318219717,
+        -8.593190938754855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4387377",
+      "rua": "R DR JOAQUIM MOUTINHO SANTOS",
+      "casa": "56",
+      "coordenadas": [
+        41.20495972952983,
+        -8.593047493248699
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR JOAQUIM MOUTINHO DOS SANTOS",
+    "R DR JOAQUIM MOUTINHO SANTOS"
+  ],
+  "centro": [
+    41.205214794721996,
+    -8.593436767728061
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.204912300453074,
+                -8.593227490311445
+              ],
+              [
+                41.204906970626595,
+                -8.593152936836244
+              ],
+              [
+                41.20491210902934,
+                -8.593099321267204
+              ],
+              [
+                41.20492771566128,
+                -8.593066643604324
+              ],
+              [
+                41.204953790522424,
+                -8.593054903847609
+              ],
+              [
+                41.204990333612784,
+                -8.593064101997058
+              ],
+              [
+                41.20503734493234,
+                -8.59309423805267
+              ],
+              [
+                41.205094824481115,
+                -8.593145312014443
+              ],
+              [
+                41.2051627722591,
+                -8.59321732388238
+              ],
+              [
+                41.205241188266285,
+                -8.593310273656476
+              ],
+              [
+                41.205310202724434,
+                -8.59339700998877
+              ],
+              [
+                41.20536981563353,
+                -8.593477532879259
+              ],
+              [
+                41.20542002699358,
+                -8.593551842327942
+              ],
+              [
+                41.205460836804576,
+                -8.593619938334824
+              ],
+              [
+                41.20549224506654,
+                -8.593681820899898
+              ],
+              [
+                41.205514251779455,
+                -8.593737490023164
+              ],
+              [
+                41.20552685694332,
+                -8.593786945704629
+              ],
+              [
+                41.20553006055816,
+                -8.593830187944286
+              ],
+              [
+                41.205530052946195,
+                -8.593867260015628
+              ],
+              [
+                41.205526834107445,
+                -8.593898161918652
+              ],
+              [
+                41.2055204040419,
+                -8.593922893653357
+              ],
+              [
+                41.205510762749576,
+                -8.593941455219742
+              ],
+              [
+                41.205497910230456,
+                -8.59395384661781
+              ],
+              [
+                41.205481846484545,
+                -8.593960067847561
+              ],
+              [
+                41.20546257151185,
+                -8.593960118908994
+              ],
+              [
+                41.20544008531237,
+                -8.593953999802109
+              ],
+              [
+                41.20541928587588,
+                -8.59394826511495
+              ],
+              [
+                41.20540017320239,
+                -8.593942914847519
+              ],
+              [
+                41.20538274729189,
+                -8.593937948999814
+              ],
+              [
+                41.20536700814439,
+                -8.593933367571838
+              ],
+              [
+                41.20535295575989,
+                -8.593929170563587
+              ],
+              [
+                41.20534059013839,
+                -8.593925357975063
+              ],
+              [
+                41.205329911279875,
+                -8.593921929806267
+              ],
+              [
+                41.20532091918436,
+                -8.593918886057196
+              ],
+              [
+                41.205309687261135,
+                -8.593913032234365
+              ],
+              [
+                41.2052962155102,
+                -8.593904368337771
+              ],
+              [
+                41.20528050393156,
+                -8.593892894367414
+              ],
+              [
+                41.20526255252522,
+                -8.593878610323294
+              ],
+              [
+                41.20524236129116,
+                -8.593861516205411
+              ],
+              [
+                41.2052199302294,
+                -8.593841612013769
+              ],
+              [
+                41.20519525933992,
+                -8.593818897748362
+              ],
+              [
+                41.20516834862275,
+                -8.593793373409193
+              ],
+              [
+                41.20514312094049,
+                -8.59376916492114
+              ],
+              [
+                41.205119576293164,
+                -8.5937462722842
+              ],
+              [
+                41.205097714680754,
+                -8.593724695498377
+              ],
+              [
+                41.20507753610327,
+                -8.593704434563668
+              ],
+              [
+                41.205059040560705,
+                -8.593685489480073
+              ],
+              [
+                41.205042228053074,
+                -8.593667860247592
+              ],
+              [
+                41.20502709858036,
+                -8.593651546866228
+              ],
+              [
+                41.205013652142576,
+                -8.59363654933598
+              ],
+              [
+                41.20500132971631,
+                -8.593621932270363
+              ],
+              [
+                41.20499013130157,
+                -8.59360769566938
+              ],
+              [
+                41.204980056898364,
+                -8.593593839533032
+              ],
+              [
+                41.20497110650669,
+                -8.593580363861314
+              ],
+              [
+                41.204963280126535,
+                -8.593567268654233
+              ],
+              [
+                41.204956577757905,
+                -8.593554553911783
+              ],
+              [
+                41.20495099940081,
+                -8.59354221963397
+              ],
+              [
+                41.20494654505522,
+                -8.593530265820789
+              ],
+              [
+                41.20494198127454,
+                -8.593510487049857
+              ],
+              [
+                41.20493730805874,
+                -8.593482883321169
+              ],
+              [
+                41.20493252540783,
+                -8.593447454634731
+              ],
+              [
+                41.204927633321816,
+                -8.593404200990538
+              ],
+              [
+                41.20492263180068,
+                -8.593353122388594
+              ],
+              [
+                41.20491752084443,
+                -8.593294218828897
+              ],
+              [
+                41.204912300453074,
+                -8.593227490311445
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.205195971221045,
+    -8.593640809107786
+  ],
+  "centroDeMassa": [
+    41.205214794721996,
+    -8.593436767728061
+  ]
+}

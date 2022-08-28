@@ -1,1 +1,406 @@
-{"CP4":"7240","CP3":"261","Distrito":"Évora","Concelho":"Mourão","CP":"7240-261","Artéria":"Rua Marcos Gomes Vasconcelos Rosado","Localidade":"Mourão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MOURÃO","locais":[{"id":"pt.ine.add.PTCONT.1376812","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"20","coordenadas":[38.38294475255225,-7.341949852985175]},{"id":"pt.ine.add.PTCONT.1380873","rua":"LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA","casa":"22","coordenadas":[38.38211192503808,-7.342340376838015]},{"id":"pt.ine.add.PTCONT.1383127","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"33","coordenadas":[38.38284006384024,-7.341816927678427]},{"id":"pt.ine.add.PTCONT.1392046","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"18","coordenadas":[38.382981170099406,-7.34200668046436]},{"id":"pt.ine.add.PTCONT.1397356","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"20 B","coordenadas":[38.3829171110923,-7.3418585954758075]},{"id":"pt.ine.add.PTCONT.1402166","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"21","coordenadas":[38.38295938242676,-7.342130611257733]},{"id":"pt.ine.add.PTCONT.1404943","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"19","coordenadas":[38.38298538783467,-7.34219905200044]},{"id":"pt.ine.add.PTCONT.1410193","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"11","coordenadas":[38.38313238134162,-7.342605975575363]},{"id":"pt.ine.add.PTCONT.1411827","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"16","coordenadas":[38.38318174620194,-7.342572986348073]},{"id":"pt.ine.add.PTCONT.1420733","rua":"LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA","casa":"26","coordenadas":[38.38225060779022,-7.341877301286996]},{"id":"pt.ine.add.PTCONT.1438060","rua":"LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA","casa":"24","coordenadas":[38.382143444449724,-7.342271269302968]},{"id":"pt.ine.add.PTCONT.1440278","rua":"LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA","casa":"21","coordenadas":[38.38208009025213,-7.342362602263779]},{"id":"pt.ine.add.PTCONT.1447200","rua":"LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA","casa":"23","coordenadas":[38.38214123651919,-7.342308801074844]},{"id":"pt.ine.add.PTCONT.1453368","rua":"R MARCOS GOMES VASCONCELOS ROSADO","casa":"2","coordenadas":[38.38322314971161,-7.342696621020609]}],"ruas":["R MARCOS GOMES VASCONCELOS ROSADO","LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA"],"centroide":[38.38266686918758,-7.342177002504]}
+{
+  "CP": "7240-261",
+  "CP4": "7240",
+  "CP3": "261",
+  "Distrito": "Évora",
+  "Concelho": "Mourão",
+  "Localidade": "Mourão",
+  "Designação Postal": "MOURÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Marcos Gomes Vasconcelos Rosado",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1376812",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "20",
+      "coordenadas": [
+        38.38294475255225,
+        -7.341949852985175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1380873",
+      "rua": "LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA",
+      "casa": "22",
+      "coordenadas": [
+        38.38211192503808,
+        -7.342340376838015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1383127",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "33",
+      "coordenadas": [
+        38.38284006384024,
+        -7.341816927678427
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1392046",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "18",
+      "coordenadas": [
+        38.382981170099406,
+        -7.34200668046436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1397356",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "20 B",
+      "coordenadas": [
+        38.3829171110923,
+        -7.3418585954758075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1402166",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "21",
+      "coordenadas": [
+        38.38295938242676,
+        -7.342130611257733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1404943",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "19",
+      "coordenadas": [
+        38.38298538783467,
+        -7.34219905200044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1410193",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "11",
+      "coordenadas": [
+        38.38313238134162,
+        -7.342605975575363
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411827",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "16",
+      "coordenadas": [
+        38.38318174620194,
+        -7.342572986348073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1420733",
+      "rua": "LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA",
+      "casa": "26",
+      "coordenadas": [
+        38.38225060779022,
+        -7.341877301286996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1438060",
+      "rua": "LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA",
+      "casa": "24",
+      "coordenadas": [
+        38.382143444449724,
+        -7.342271269302968
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1440278",
+      "rua": "LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA",
+      "casa": "21",
+      "coordenadas": [
+        38.38208009025213,
+        -7.342362602263779
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1447200",
+      "rua": "LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA",
+      "casa": "23",
+      "coordenadas": [
+        38.38214123651919,
+        -7.342308801074844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1453368",
+      "rua": "R MARCOS GOMES VASCONCELOS ROSADO",
+      "casa": "2",
+      "coordenadas": [
+        38.38322314971161,
+        -7.342696621020609
+      ]
+    }
+  ],
+  "ruas": [
+    "R MARCOS GOMES VASCONCELOS ROSADO",
+    "LG TEN GENERAL JOSÉ ANTÓNIO DA ROSA"
+  ],
+  "centro": [
+    38.38265161998187,
+    -7.342256774349519
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.38272306119809,
+                -7.342550487814496
+              ],
+              [
+                38.38258017876565,
+                -7.342508735469892
+              ],
+              [
+                38.382457820973805,
+                -7.342464619340602
+              ],
+              [
+                38.38235598782255,
+                -7.342418139426624
+              ],
+              [
+                38.38227467931188,
+                -7.34236929572796
+              ],
+              [
+                38.38221389544178,
+                -7.3423180882446095
+              ],
+              [
+                38.382173636212286,
+                -7.342264516976572
+              ],
+              [
+                38.38215390162337,
+                -7.342208581923847
+              ],
+              [
+                38.38215469167505,
+                -7.342150283086436
+              ],
+              [
+                38.38217600636731,
+                -7.342089620464337
+              ],
+              [
+                38.38220386697382,
+                -7.342035597332368
+              ],
+              [
+                38.38223827349458,
+                -7.341988213690527
+              ],
+              [
+                38.38227922592959,
+                -7.341947469538814
+              ],
+              [
+                38.38232672427884,
+                -7.341913364877231
+              ],
+              [
+                38.38238076854235,
+                -7.341885899705774
+              ],
+              [
+                38.3824413587201,
+                -7.341865074024447
+              ],
+              [
+                38.3825084948121,
+                -7.341850887833248
+              ],
+              [
+                38.38258217681836,
+                -7.341843341132176
+              ],
+              [
+                38.382647852437145,
+                -7.341837388828073
+              ],
+              [
+                38.382705521668456,
+                -7.341833030920937
+              ],
+              [
+                38.382755184512305,
+                -7.34183026741077
+              ],
+              [
+                38.38279684096869,
+                -7.341829098297571
+              ],
+              [
+                38.382830491037595,
+                -7.341829523581339
+              ],
+              [
+                38.38285613471904,
+                -7.341831543262076
+              ],
+              [
+                38.38287377201301,
+                -7.341835157339781
+              ],
+              [
+                38.38288340291952,
+                -7.341840365814454
+              ],
+              [
+                38.3828928308847,
+                -7.341847237057738
+              ],
+              [
+                38.382902055908545,
+                -7.3418557710696355
+              ],
+              [
+                38.382911077991075,
+                -7.341865967850144
+              ],
+              [
+                38.382919897132275,
+                -7.341877827399265
+              ],
+              [
+                38.382928513332146,
+                -7.341891349716997
+              ],
+              [
+                38.382936926590695,
+                -7.341906534803343
+              ],
+              [
+                38.38294513690791,
+                -7.341923382658299
+              ],
+              [
+                38.382953144283796,
+                -7.341941893281868
+              ],
+              [
+                38.3829632847393,
+                -7.341966938606925
+              ],
+              [
+                38.38297555827442,
+                -7.341998518633467
+              ],
+              [
+                38.382989964889155,
+                -7.342036633361497
+              ],
+              [
+                38.383006504583506,
+                -7.342081282791014
+              ],
+              [
+                38.38302517735748,
+                -7.342132466922017
+              ],
+              [
+                38.38304598321106,
+                -7.342190185754507
+              ],
+              [
+                38.38306892214426,
+                -7.342254439288485
+              ],
+              [
+                38.38309399415708,
+                -7.342325227523949
+              ],
+              [
+                38.38311657909813,
+                -7.342389099021739
+              ],
+              [
+                38.383136676967425,
+                -7.342446053781853
+              ],
+              [
+                38.38315428776495,
+                -7.342496091804294
+              ],
+              [
+                38.38316941149071,
+                -7.34253921308906
+              ],
+              [
+                38.38318204814472,
+                -7.34257541763615
+              ],
+              [
+                38.383192197726956,
+                -7.3426047054455665
+              ],
+              [
+                38.383199860237426,
+                -7.342627076517308
+              ],
+              [
+                38.38320503567613,
+                -7.342642530851375
+              ],
+              [
+                38.38319170388095,
+                -7.342650834350608
+              ],
+              [
+                38.38315986485187,
+                -7.3426519870150075
+              ],
+              [
+                38.383109518588896,
+                -7.342645988844573
+              ],
+              [
+                38.38304066509204,
+                -7.342632839839306
+              ],
+              [
+                38.38295330436128,
+                -7.3426125399992035
+              ],
+              [
+                38.38284743639663,
+                -7.342585089324265
+              ],
+              [
+                38.38272306119809,
+                -7.342550487814496
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.38278199128398,
+    -7.342170244934008
+  ],
+  "centroDeMassa": [
+    38.38265161998187,
+    -7.342256774349519
+  ]
+}

@@ -1,1 +1,470 @@
-{"CP4":"2865","CP3":"463","Distrito":"Setúbal","Concelho":"Seixal","CP":"2865-463","Artéria":"Rua Flora Jesus de Carvalho","Localidade":"Quinta das Laranjeiras","Local":"Bairro dos Alentejanos","Troço":"","Porta":"","Cliente":"","Designação Postal":"FERNÃO FERRO","locais":[{"id":"pt.ine.add.PTCONT.4680221","rua":"R FLORA JESUS DE CARVALHO","casa":"17","coordenadas":[38.58987833984275,-9.094713271582142]},{"id":"pt.ine.add.PTCONT.4712939","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.589615153004964,-9.094950787422968]},{"id":"pt.ine.add.PTCONT.4730746","rua":"R FLORA JESUS CARVALHO F","casa":"F 27","coordenadas":[38.58971281631224,-9.095124252550967]},{"id":"pt.ine.add.PTCONT.4768069","rua":"R FLORA JESUS DE CARVALHO","casa":"E 7","coordenadas":[38.590240969364224,-9.096623382795915]},{"id":"pt.ine.add.PTCONT.4771548","rua":"R FLORA JESUS DE CARVALHO","casa":"F 24A","coordenadas":[38.58986852669805,-9.095906800141497]},{"id":"pt.ine.add.PTCONT.4776087","rua":"R FLORA JESUS DE CARVALHO","casa":"14","coordenadas":[38.59007795593195,-9.09563413659919]},{"id":"pt.ine.add.PTCONT.4785111","rua":"R FLORA JESUS DE CARVALHO","casa":"16","coordenadas":[38.59012129229881,-9.095841310860614]},{"id":"pt.ine.add.PTCONT.4838786","rua":"R FLORA JESUS CARVALHO","casa":"21F","coordenadas":[38.58995529256628,-9.096309671758855]},{"id":"pt.ine.add.PTCONT.4850911","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.58993775060764,-9.096252049846477]},{"id":"pt.ine.add.PTCONT.4909802","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.5898520229803,-9.095722939851228]},{"id":"pt.ine.add.PTCONT.4934327","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.589651034093826,-9.096064579788534]},{"id":"pt.ine.add.PTCONT.4938231","rua":"R FLORA JESUS DE CARVALHO","casa":"19","coordenadas":[38.58975511558479,-9.095457663858982]},{"id":"pt.ine.add.PTCONT.4952739","rua":"R FLORA JESUS DE CARVALHO","casa":"F 10","coordenadas":[38.590155621184444,-9.096048365047169]},{"id":"pt.ine.add.PTCONT.4984987","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.58992096413599,-9.096102618035044]},{"id":"pt.ine.add.PTCONT.4984998","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.589545453765076,-9.09466292136982]},{"id":"pt.ine.add.PTCONT.4992384","rua":"R FLORA JESUS CARVALHO F","casa":"F 15","coordenadas":[38.58992964739218,-9.09504680363192]},{"id":"pt.ine.add.PTCONT.4994399","rua":"R FLORA JESUS CARVALHO","casa":"21","coordenadas":[38.58999018746152,-9.096447868168122]},{"id":"pt.ine.add.PTCONT.5036025","rua":"R FLORA JESUS DE CARVALHO","casa":"F 9","coordenadas":[38.59016321171625,-9.09622062955807]},{"id":"pt.ine.add.PTCONT.5040238","rua":"R FLORA JESUS DE CARVALHO","casa":"","coordenadas":[38.58958035062801,-9.094801116232896]},{"id":"pt.ine.add.PTCONT.5062449","rua":"R FLORA JESUS DE CARVALHO","casa":"13","coordenadas":[38.59008040967501,-9.095335753623143]},{"id":"pt.ine.add.PTCONT.5072660","rua":"R FLORA JESUS DE CARVALHO","casa":"14","coordenadas":[38.590054803609966,-9.09516324896445]}],"ruas":["R FLORA JESUS DE CARVALHO","R FLORA JESUS CARVALHO F","R FLORA JESUS CARVALHO"],"centroide":[38.589901605762215,-9.095663346136181]}
+{
+  "CP": "2865-463",
+  "CP4": "2865",
+  "CP3": "463",
+  "Distrito": "Setúbal",
+  "Concelho": "Seixal",
+  "Localidade": "Quinta das Laranjeiras",
+  "Designação Postal": "FERNÃO FERRO",
+  "partes": [
+    {
+      "Artéria": "Rua Flora Jesus de Carvalho",
+      "Local": "Bairro dos Alentejanos",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4680221",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "17",
+      "coordenadas": [
+        38.58987833984275,
+        -9.094713271582142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4712939",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.589615153004964,
+        -9.094950787422968
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730746",
+      "rua": "R FLORA JESUS CARVALHO F",
+      "casa": "F 27",
+      "coordenadas": [
+        38.58971281631224,
+        -9.095124252550967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4768069",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "E 7",
+      "coordenadas": [
+        38.590240969364224,
+        -9.096623382795915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4771548",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "F 24A",
+      "coordenadas": [
+        38.58986852669805,
+        -9.095906800141497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4776087",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "14",
+      "coordenadas": [
+        38.59007795593195,
+        -9.09563413659919
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4785111",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "16",
+      "coordenadas": [
+        38.59012129229881,
+        -9.095841310860614
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4838786",
+      "rua": "R FLORA JESUS CARVALHO",
+      "casa": "21F",
+      "coordenadas": [
+        38.58995529256628,
+        -9.096309671758855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4850911",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.58993775060764,
+        -9.096252049846477
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4909802",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.5898520229803,
+        -9.095722939851228
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4934327",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.589651034093826,
+        -9.096064579788534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4938231",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "19",
+      "coordenadas": [
+        38.58975511558479,
+        -9.095457663858982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4952739",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "F 10",
+      "coordenadas": [
+        38.590155621184444,
+        -9.096048365047169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4984987",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.58992096413599,
+        -9.096102618035044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4984998",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.589545453765076,
+        -9.09466292136982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4992384",
+      "rua": "R FLORA JESUS CARVALHO F",
+      "casa": "F 15",
+      "coordenadas": [
+        38.58992964739218,
+        -9.09504680363192
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4994399",
+      "rua": "R FLORA JESUS CARVALHO",
+      "casa": "21",
+      "coordenadas": [
+        38.58999018746152,
+        -9.096447868168122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5036025",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "F 9",
+      "coordenadas": [
+        38.59016321171625,
+        -9.09622062955807
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5040238",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        38.58958035062801,
+        -9.094801116232896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5062449",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "13",
+      "coordenadas": [
+        38.59008040967501,
+        -9.095335753623143
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5072660",
+      "rua": "R FLORA JESUS DE CARVALHO",
+      "casa": "14",
+      "coordenadas": [
+        38.590054803609966,
+        -9.09516324896445
+      ]
+    }
+  ],
+  "ruas": [
+    "R FLORA JESUS DE CARVALHO",
+    "R FLORA JESUS CARVALHO F",
+    "R FLORA JESUS CARVALHO"
+  ],
+  "centro": [
+    38.58989321156465,
+    -9.095643152082868
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.5896048427,
+                -9.095451354230345
+              ],
+              [
+                38.589591645158904,
+                -9.095276146928008
+              ],
+              [
+                38.589585298655415,
+                -9.095123627260527
+              ],
+              [
+                38.589585803189514,
+                -9.094993795227907
+              ],
+              [
+                38.589593158761225,
+                -9.094886650830148
+              ],
+              [
+                38.58960736537053,
+                -9.094802194067249
+              ],
+              [
+                38.58962842301744,
+                -9.09474042493921
+              ],
+              [
+                38.58965633170195,
+                -9.09470134344603
+              ],
+              [
+                38.58969109142406,
+                -9.09468494958771
+              ],
+              [
+                38.58973270218377,
+                -9.09469124336425
+              ],
+              [
+                38.58977186884488,
+                -9.09470378131532
+              ],
+              [
+                38.589808591407376,
+                -9.094722563440925
+              ],
+              [
+                38.58984286987128,
+                -9.094747589741058
+              ],
+              [
+                38.5898747042366,
+                -9.094778860215722
+              ],
+              [
+                38.589904094503304,
+                -9.094816374864918
+              ],
+              [
+                38.5899310406714,
+                -9.094860133688645
+              ],
+              [
+                38.58995554274091,
+                -9.094910136686902
+              ],
+              [
+                38.589977600711805,
+                -9.09496638385969
+              ],
+              [
+                38.58999730153111,
+                -9.095018295521172
+              ],
+              [
+                38.59001464519882,
+                -9.095065871671348
+              ],
+              [
+                38.590029631714934,
+                -9.095109112310217
+              ],
+              [
+                38.590042261079454,
+                -9.09514801743778
+              ],
+              [
+                38.59005253329237,
+                -9.095182587054035
+              ],
+              [
+                38.59006044835369,
+                -9.095212821158986
+              ],
+              [
+                38.59006600626342,
+                -9.09523871975263
+              ],
+              [
+                38.59006920702156,
+                -9.095260282834964
+              ],
+              [
+                38.590074516430064,
+                -9.095299269737833
+              ],
+              [
+                38.59008193448895,
+                -9.095355680461235
+              ],
+              [
+                38.59009146119821,
+                -9.09542951500517
+              ],
+              [
+                38.590103096557854,
+                -9.095520773369635
+              ],
+              [
+                38.59011684056787,
+                -9.095629455554635
+              ],
+              [
+                38.59013269322827,
+                -9.095755561560166
+              ],
+              [
+                38.590150654539045,
+                -9.095899091386231
+              ],
+              [
+                38.59017072450019,
+                -9.096060045032827
+              ],
+              [
+                38.590184367248966,
+                -9.09619813705754
+              ],
+              [
+                38.59019158278537,
+                -9.09631336746037
+              ],
+              [
+                38.5901923711094,
+                -9.096405736241314
+              ],
+              [
+                38.59018673222106,
+                -9.096475243400375
+              ],
+              [
+                38.59017466612035,
+                -9.096521888937552
+              ],
+              [
+                38.590156172807255,
+                -9.096545672852846
+              ],
+              [
+                38.59013125228179,
+                -9.096546595146256
+              ],
+              [
+                38.59009990454395,
+                -9.096524655817781
+              ],
+              [
+                38.59006717600197,
+                -9.096499470024437
+              ],
+              [
+                38.590033066655856,
+                -9.096471037766218
+              ],
+              [
+                38.589997576505596,
+                -9.096439359043128
+              ],
+              [
+                38.58996070555119,
+                -9.096404433855167
+              ],
+              [
+                38.58992245379265,
+                -9.096366262202334
+              ],
+              [
+                38.58988282122998,
+                -9.096324844084627
+              ],
+              [
+                38.58984180786315,
+                -9.096280179502052
+              ],
+              [
+                38.58979941369219,
+                -9.096232268454603
+              ],
+              [
+                38.58976066909997,
+                -9.096168445375294
+              ],
+              [
+                38.589725574086465,
+                -9.096088710264123
+              ],
+              [
+                38.58969412865171,
+                -9.09599306312109
+              ],
+              [
+                38.58966633279568,
+                -9.095881503946195
+              ],
+              [
+                38.58964218651838,
+                -9.09575403273944
+              ],
+              [
+                38.58962168981983,
+                -9.095610649500824
+              ],
+              [
+                38.5896048427,
+                -9.095451354230345
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.58992017111605,
+    -9.095573003756018
+  ],
+  "centroDeMassa": [
+    38.58989321156465,
+    -9.095643152082868
+  ]
+}

@@ -1,1 +1,456 @@
-{"CP4":"3100","CP3":"708","Distrito":"Leiria","Concelho":"Pombal","CP":"3100-708","Artéria":" ","Localidade":"Barrinho","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO SIMÃO DE LITÉM","locais":[{"id":"pt.ine.add.PTCONT.2004939","rua":"R S PEDRO","casa":"6","coordenadas":[39.8319317295713,-8.597905040202084]},{"id":"pt.ine.add.PTCONT.2010181","rua":"R S PEDRO","casa":"","coordenadas":[39.829696093537066,-8.598415636390863]},{"id":"pt.ine.add.PTCONT.2010182","rua":"R S PEDRO","casa":"8","coordenadas":[39.82802835904483,-8.598801543267971]},{"id":"pt.ine.add.PTCONT.2019487","rua":"R S PEDRO","casa":"","coordenadas":[39.82799280316278,-8.598684492023313]},{"id":"pt.ine.add.PTCONT.2023007","rua":"R S PEDRO","casa":"24","coordenadas":[39.828820808065835,-8.598830256462026]},{"id":"pt.ine.add.PTCONT.2025330","rua":"R S PEDRO","casa":"","coordenadas":[39.8304907431777,-8.597895328472381]},{"id":"pt.ine.add.PTCONT.2034031","rua":"R S PEDRO","casa":"","coordenadas":[39.82829812208242,-8.598908495226887]},{"id":"pt.ine.add.PTCONT.2051488","rua":"R VALE AMIEIRO","casa":"3","coordenadas":[39.82641146310843,-8.597739350046231]},{"id":"pt.ine.add.PTCONT.2060614","rua":"TV FERREIROS","casa":"","coordenadas":[39.831833225124726,-8.600007094499391]},{"id":"pt.ine.add.PTCONT.2060615","rua":"R VALE AMIEIRO","casa":"","coordenadas":[39.82699709817402,-8.597684890288628]},{"id":"pt.ine.add.PTCONT.2060616","rua":"R S PEDRO","casa":"6","coordenadas":[39.827976383840856,-8.598287223291049]},{"id":"pt.ine.add.PTCONT.2069262","rua":"R S PEDRO","casa":"8","coordenadas":[39.831571108583546,-8.597996063470239]},{"id":"pt.ine.add.PTCONT.2069712","rua":"TV FERREIROS","casa":"","coordenadas":[39.83178955712108,-8.599668027808393]},{"id":"pt.ine.add.PTCONT.2080059","rua":"R S PEDRO","casa":"11","coordenadas":[39.829507572954945,-8.598262506632995]},{"id":"pt.ine.add.PTCONT.2080117","rua":"R S PEDRO","casa":"4","coordenadas":[39.83211175924459,-8.597929617217158]},{"id":"pt.ine.add.PTCONT.2092969","rua":"R VALE AMIEIRO","casa":"","coordenadas":[39.82653834456228,-8.59754162992941]},{"id":"pt.ine.add.PTCONT.2101640","rua":"R S PEDRO","casa":"","coordenadas":[39.83002232892841,-8.597915534602626]},{"id":"pt.ine.add.PTCONT.2101641","rua":"R S PEDRO","casa":"5","coordenadas":[39.83079723357686,-8.597827304492862]},{"id":"pt.ine.add.PTCONT.2143574","rua":"R S PEDRO","casa":"15","coordenadas":[39.82815407028479,-8.598895841223149]},{"id":"pt.ine.add.PTCONT.2163428","rua":"R S PEDRO","casa":"12","coordenadas":[39.83074207328925,-8.59810729079488]},{"id":"pt.ine.add.PTCONT.2180759","rua":"R FERREIROS","casa":"","coordenadas":[39.83206225415815,-8.601281961976984]},{"id":"pt.ine.add.PTCONT.2182660","rua":"R S PEDRO","casa":"26","coordenadas":[39.828585756612014,-8.59905061241078]},{"id":"pt.ine.add.PTCONT.2185200","rua":"R VALE AMIEIRO","casa":"","coordenadas":[39.82528611234484,-8.597626643787311]},{"id":"pt.ine.add.PTCONT.2192941","rua":"R S PEDRO","casa":"3","coordenadas":[39.83089648854936,-8.597781246884708]},{"id":"pt.ine.add.PTCONT.2197131","rua":"R S PEDRO","casa":"","coordenadas":[39.830435442251606,-8.598210357122912]},{"id":"pt.ine.add.PTCONT.2227316","rua":"R S PEDRO","casa":"20","coordenadas":[39.82922655442574,-8.59871618305038]},{"id":"pt.ine.add.PTCONT.2240431","rua":"R S PEDRO","casa":"14","coordenadas":[39.83062489949959,-8.598129863876052]},{"id":"pt.ine.add.PTCONT.2254443","rua":"R S PEDRO","casa":"1","coordenadas":[39.832969543150185,-8.597386346895153]},{"id":"pt.ine.add.PTCONT.2254444","rua":"R S PEDRO","casa":"22","coordenadas":[39.829118386663026,-8.59873881542823]},{"id":"pt.ine.add.PTCONT.2262509","rua":"R S PEDRO","casa":"10","coordenadas":[39.83094072385559,-8.59798013242335]}],"ruas":["R S PEDRO","R VALE AMIEIRO","TV FERREIROS","R FERREIROS"],"centroide":[39.82961780396863,-8.598421558543967]}
+{
+  "CP": "3100-708",
+  "CP4": "3100",
+  "CP3": "708",
+  "Distrito": "Leiria",
+  "Concelho": "Pombal",
+  "Localidade": "Barrinho",
+  "Designação Postal": "SÃO SIMÃO DE LITÉM",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2004939",
+      "rua": "R S PEDRO",
+      "casa": "6",
+      "coordenadas": [
+        39.8319317295713,
+        -8.597905040202084
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2010181",
+      "rua": "R S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        39.829696093537066,
+        -8.598415636390863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2010182",
+      "rua": "R S PEDRO",
+      "casa": "8",
+      "coordenadas": [
+        39.82802835904483,
+        -8.598801543267971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2019487",
+      "rua": "R S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        39.82799280316278,
+        -8.598684492023313
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2023007",
+      "rua": "R S PEDRO",
+      "casa": "24",
+      "coordenadas": [
+        39.828820808065835,
+        -8.598830256462026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2025330",
+      "rua": "R S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        39.8304907431777,
+        -8.597895328472381
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2034031",
+      "rua": "R S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        39.82829812208242,
+        -8.598908495226887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2051488",
+      "rua": "R VALE AMIEIRO",
+      "casa": "3",
+      "coordenadas": [
+        39.82641146310843,
+        -8.597739350046231
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2060614",
+      "rua": "TV FERREIROS",
+      "casa": "",
+      "coordenadas": [
+        39.831833225124726,
+        -8.600007094499391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2060615",
+      "rua": "R VALE AMIEIRO",
+      "casa": "",
+      "coordenadas": [
+        39.82699709817402,
+        -8.597684890288628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2060616",
+      "rua": "R S PEDRO",
+      "casa": "6",
+      "coordenadas": [
+        39.827976383840856,
+        -8.598287223291049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2069262",
+      "rua": "R S PEDRO",
+      "casa": "8",
+      "coordenadas": [
+        39.831571108583546,
+        -8.597996063470239
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2069712",
+      "rua": "TV FERREIROS",
+      "casa": "",
+      "coordenadas": [
+        39.83178955712108,
+        -8.599668027808393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2080059",
+      "rua": "R S PEDRO",
+      "casa": "11",
+      "coordenadas": [
+        39.829507572954945,
+        -8.598262506632995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2080117",
+      "rua": "R S PEDRO",
+      "casa": "4",
+      "coordenadas": [
+        39.83211175924459,
+        -8.597929617217158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2092969",
+      "rua": "R VALE AMIEIRO",
+      "casa": "",
+      "coordenadas": [
+        39.82653834456228,
+        -8.59754162992941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2101640",
+      "rua": "R S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        39.83002232892841,
+        -8.597915534602626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2101641",
+      "rua": "R S PEDRO",
+      "casa": "5",
+      "coordenadas": [
+        39.83079723357686,
+        -8.597827304492862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2143574",
+      "rua": "R S PEDRO",
+      "casa": "15",
+      "coordenadas": [
+        39.82815407028479,
+        -8.598895841223149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2163428",
+      "rua": "R S PEDRO",
+      "casa": "12",
+      "coordenadas": [
+        39.83074207328925,
+        -8.59810729079488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2180759",
+      "rua": "R FERREIROS",
+      "casa": "",
+      "coordenadas": [
+        39.83206225415815,
+        -8.601281961976984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2182660",
+      "rua": "R S PEDRO",
+      "casa": "26",
+      "coordenadas": [
+        39.828585756612014,
+        -8.59905061241078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2185200",
+      "rua": "R VALE AMIEIRO",
+      "casa": "",
+      "coordenadas": [
+        39.82528611234484,
+        -8.597626643787311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2192941",
+      "rua": "R S PEDRO",
+      "casa": "3",
+      "coordenadas": [
+        39.83089648854936,
+        -8.597781246884708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2197131",
+      "rua": "R S PEDRO",
+      "casa": "",
+      "coordenadas": [
+        39.830435442251606,
+        -8.598210357122912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2227316",
+      "rua": "R S PEDRO",
+      "casa": "20",
+      "coordenadas": [
+        39.82922655442574,
+        -8.59871618305038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2240431",
+      "rua": "R S PEDRO",
+      "casa": "14",
+      "coordenadas": [
+        39.83062489949959,
+        -8.598129863876052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2254443",
+      "rua": "R S PEDRO",
+      "casa": "1",
+      "coordenadas": [
+        39.832969543150185,
+        -8.597386346895153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2254444",
+      "rua": "R S PEDRO",
+      "casa": "22",
+      "coordenadas": [
+        39.829118386663026,
+        -8.59873881542823
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2262509",
+      "rua": "R S PEDRO",
+      "casa": "10",
+      "coordenadas": [
+        39.83094072385559,
+        -8.59798013242335
+      ]
+    }
+  ],
+  "ruas": [
+    "R S PEDRO",
+    "R VALE AMIEIRO",
+    "TV FERREIROS",
+    "R FERREIROS"
+  ],
+  "centro": [
+    39.82912782774751,
+    -8.599334154436068
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.82909769211483,
+                -8.599682760269001
+              ],
+              [
+                39.82825067438816,
+                -8.599225845495294
+              ],
+              [
+                39.82752910000573,
+                -8.598824716726767
+              ],
+              [
+                39.826932968967526,
+                -8.598479373963427
+              ],
+              [
+                39.82646228127355,
+                -8.59818981720527
+              ],
+              [
+                39.82611703692382,
+                -8.597956046452296
+              ],
+              [
+                39.825897235918305,
+                -8.597778061704508
+              ],
+              [
+                39.82580287825702,
+                -8.597655862961902
+              ],
+              [
+                39.82583396393997,
+                -8.59758945022448
+              ],
+              [
+                39.82599049296715,
+                -8.597578823492242
+              ],
+              [
+                39.826227943343866,
+                -8.597567098804122
+              ],
+              [
+                39.82654631507013,
+                -8.597554276160123
+              ],
+              [
+                39.82694560814592,
+                -8.597540355560245
+              ],
+              [
+                39.82742582257126,
+                -8.597525337004484
+              ],
+              [
+                39.82798695834612,
+                -8.597509220492846
+              ],
+              [
+                39.82862901547054,
+                -8.597492006025323
+              ],
+              [
+                39.829351993944485,
+                -8.597473693601923
+              ],
+              [
+                39.83015589376798,
+                -8.597454283222639
+              ],
+              [
+                39.83084512972303,
+                -8.597498168126421
+              ],
+              [
+                39.831419701809644,
+                -8.59760534831327
+              ],
+              [
+                39.831879610027826,
+                -8.597775823783177
+              ],
+              [
+                39.83222485437756,
+                -8.598009594536151
+              ],
+              [
+                39.832455434858865,
+                -8.598306660572188
+              ],
+              [
+                39.832571351471735,
+                -8.598667021891288
+              ],
+              [
+                39.83257260421617,
+                -8.599090678493454
+              ],
+              [
+                39.83245919309216,
+                -8.599577630378683
+              ],
+              [
+                39.83225408114282,
+                -8.599946598931545
+              ],
+              [
+                39.83195726836816,
+                -8.600197584152038
+              ],
+              [
+                39.831568754768156,
+                -8.600330586040165
+              ],
+              [
+                39.83108854034282,
+                -8.600345604595926
+              ],
+              [
+                39.83051662509216,
+                -8.600242639819317
+              ],
+              [
+                39.82985300901616,
+                -8.600021691710342
+              ],
+              [
+                39.82909769211483,
+                -8.599682760269001
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.82921406355386,
+    -8.598459145647215
+  ],
+  "centroDeMassa": [
+    39.82912782774751,
+    -8.599334154436068
+  ]
+}

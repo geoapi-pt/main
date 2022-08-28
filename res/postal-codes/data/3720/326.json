@@ -1,1 +1,392 @@
-{"CP4":"3720","CP3":"326","Distrito":"Aveiro","Concelho":"Oliveira de Azeméis","CP":"3720-326","Artéria":"Rua Doutor José Lopes de Oliveira","Localidade":"Oliveira de Azeméis","Local":"Centro Sul","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLIVEIRA DE AZEMÉIS","locais":[{"id":"pt.ine.add.PTCONT.297213","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"29","coordenadas":[40.83383524134906,-8.477142797598406]},{"id":"pt.ine.add.PTCONT.1676","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"58","coordenadas":[40.8337373906259,-8.476739192534616]},{"id":"pt.ine.add.PTCONT.4292","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"63 A","coordenadas":[40.833962438343015,-8.476764066308846]},{"id":"pt.ine.add.PTCONT.30664","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"29A","coordenadas":[40.8336003048036,-8.477414267373078]},{"id":"pt.ine.add.PTCONT.50317","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"63 B","coordenadas":[40.83396197913582,-8.476918190640617]},{"id":"pt.ine.add.PTCONT.151786","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"47","coordenadas":[40.83383616015534,-8.476834549525567]},{"id":"pt.ine.add.PTCONT.153266","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"72","coordenadas":[40.83378308502392,-8.476514166964801]},{"id":"pt.ine.add.PTCONT.154561","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"51","coordenadas":[40.83380889866427,-8.476917399840147]},{"id":"pt.ine.add.PTCONT.164673","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"46","coordenadas":[40.83367407494507,-8.476833712415019]},{"id":"pt.ine.add.PTCONT.174608","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"55","coordenadas":[40.833872002460545,-8.476894014059788]},{"id":"pt.ine.add.PTCONT.201059","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"68","coordenadas":[40.83376465198925,-8.47665634223496]},{"id":"pt.ine.add.PTCONT.201060","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"68","coordenadas":[40.83376465198925,-8.47665634223496]},{"id":"pt.ine.add.PTCONT.201061","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"68","coordenadas":[40.83376465198925,-8.47665634223496]},{"id":"pt.ine.add.PTCONT.201062","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"68","coordenadas":[40.83376465198925,-8.47665634223496]},{"id":"pt.ine.add.PTCONT.201063","rua":"R DR JOSE LOPES OLIVEIRA","casa":"66","coordenadas":[40.83376465198925,-8.47665634223496]},{"id":"pt.ine.add.PTCONT.264329","rua":"R DR JOSE LOPES DE OLIVEIRA","casa":"45","coordenadas":[40.83378163711385,-8.47700025008652]}],"ruas":["R DR JOSE LOPES DE OLIVEIRA","R DR JOSE LOPES OLIVEIRA"],"centroide":[40.83379298903018,-8.476816937895713]}
+{
+  "CP": "3720-326",
+  "CP4": "3720",
+  "CP3": "326",
+  "Distrito": "Aveiro",
+  "Concelho": "Oliveira de Azeméis",
+  "Localidade": "Oliveira de Azeméis",
+  "Designação Postal": "OLIVEIRA DE AZEMÉIS",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor José Lopes de Oliveira",
+      "Local": "Centro Sul",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.297213",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "29",
+      "coordenadas": [
+        40.83383524134906,
+        -8.477142797598406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1676",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "58",
+      "coordenadas": [
+        40.8337373906259,
+        -8.476739192534616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4292",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "63 A",
+      "coordenadas": [
+        40.833962438343015,
+        -8.476764066308846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.30664",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "29A",
+      "coordenadas": [
+        40.8336003048036,
+        -8.477414267373078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.50317",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "63 B",
+      "coordenadas": [
+        40.83396197913582,
+        -8.476918190640617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.151786",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "47",
+      "coordenadas": [
+        40.83383616015534,
+        -8.476834549525567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153266",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "72",
+      "coordenadas": [
+        40.83378308502392,
+        -8.476514166964801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.154561",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "51",
+      "coordenadas": [
+        40.83380889866427,
+        -8.476917399840147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.164673",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "46",
+      "coordenadas": [
+        40.83367407494507,
+        -8.476833712415019
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.174608",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "55",
+      "coordenadas": [
+        40.833872002460545,
+        -8.476894014059788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.201059",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "68",
+      "coordenadas": [
+        40.83376465198925,
+        -8.47665634223496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.201060",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "68",
+      "coordenadas": [
+        40.83376465198925,
+        -8.47665634223496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.201061",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "68",
+      "coordenadas": [
+        40.83376465198925,
+        -8.47665634223496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.201062",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "68",
+      "coordenadas": [
+        40.83376465198925,
+        -8.47665634223496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.201063",
+      "rua": "R DR JOSE LOPES OLIVEIRA",
+      "casa": "66",
+      "coordenadas": [
+        40.83376465198925,
+        -8.47665634223496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.264329",
+      "rua": "R DR JOSE LOPES DE OLIVEIRA",
+      "casa": "45",
+      "coordenadas": [
+        40.83378163711385,
+        -8.47700025008652
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR JOSE LOPES DE OLIVEIRA",
+    "R DR JOSE LOPES OLIVEIRA"
+  ],
+  "centro": [
+    40.83378137157331,
+    -8.47696421716894
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.83373245661043,
+                -8.477261565624826
+              ],
+              [
+                40.83370308954223,
+                -8.477295499346658
+              ],
+              [
+                40.83367854601603,
+                -8.477316120182042
+              ],
+              [
+                40.83365882603182,
+                -8.47732342813098
+              ],
+              [
+                40.83364392958959,
+                -8.477317423193465
+              ],
+              [
+                40.83363385668934,
+                -8.477298105369506
+              ],
+              [
+                40.83362860733108,
+                -8.477265474659095
+              ],
+              [
+                40.8336281815148,
+                -8.477219531062236
+              ],
+              [
+                40.83363257924049,
+                -8.477160274578928
+              ],
+              [
+                40.83364180050818,
+                -8.477087705209168
+              ],
+              [
+                40.83365157239989,
+                -8.477019214112971
+              ],
+              [
+                40.83366189491561,
+                -8.476954801290336
+              ],
+              [
+                40.83367276805536,
+                -8.476894466741259
+              ],
+              [
+                40.83368419181914,
+                -8.47683821046574
+              ],
+              [
+                40.83369616620693,
+                -8.476786032463783
+              ],
+              [
+                40.83370869121874,
+                -8.476737932735384
+              ],
+              [
+                40.83372176685457,
+                -8.476693911280547
+              ],
+              [
+                40.83373539311442,
+                -8.476653968099273
+              ],
+              [
+                40.8337501184874,
+                -8.476622922492906
+              ],
+              [
+                40.833765942973514,
+                -8.476600774461447
+              ],
+              [
+                40.833782866572754,
+                -8.476587524004902
+              ],
+              [
+                40.833800889285136,
+                -8.476583171123265
+              ],
+              [
+                40.83382001111064,
+                -8.476587715816539
+              ],
+              [
+                40.83384023204926,
+                -8.476601158084726
+              ],
+              [
+                40.83386155210102,
+                -8.476623497927822
+              ],
+              [
+                40.83388397126591,
+                -8.476654735345825
+              ],
+              [
+                40.833903580860074,
+                -8.476684476279264
+              ],
+              [
+                40.83392038088351,
+                -8.476712720728138
+              ],
+              [
+                40.833934371336234,
+                -8.476739468692443
+              ],
+              [
+                40.833945552218225,
+                -8.47676472017218
+              ],
+              [
+                40.83395392352949,
+                -8.476788475167353
+              ],
+              [
+                40.83395948527004,
+                -8.476810733677958
+              ],
+              [
+                40.83396223743987,
+                -8.476831495703996
+              ],
+              [
+                40.83396218003897,
+                -8.476850761245467
+              ],
+              [
+                40.833960149535265,
+                -8.47687112807797
+              ],
+              [
+                40.83395614592875,
+                -8.476892596201505
+              ],
+              [
+                40.833950169219435,
+                -8.47691516561607
+              ],
+              [
+                40.83394221940732,
+                -8.476938836321668
+              ],
+              [
+                40.833932296492385,
+                -8.476963608318297
+              ],
+              [
+                40.83392040047465,
+                -8.476989481605957
+              ],
+              [
+                40.83390653135411,
+                -8.47701645618465
+              ],
+              [
+                40.83389068913077,
+                -8.477044532054373
+              ],
+              [
+                40.83387315630182,
+                -8.477073340155611
+              ],
+              [
+                40.83385393286726,
+                -8.477102880488362
+              ],
+              [
+                40.8338330188271,
+                -8.477133153052627
+              ],
+              [
+                40.83381041418134,
+                -8.477164157848406
+              ],
+              [
+                40.83378611892997,
+                -8.477195894875699
+              ],
+              [
+                40.83376013307301,
+                -8.477228364134504
+              ],
+              [
+                40.83373245661043,
+                -8.477261565624826
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.83380285393341,
+    -8.476931200216795
+  ],
+  "centroDeMassa": [
+    40.83378137157331,
+    -8.47696421716894
+  ]
+}

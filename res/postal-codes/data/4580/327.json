@@ -1,1 +1,410 @@
-{"CP4":"4580","CP3":"327","Distrito":"Porto","Concelho":"Paredes","CP":"4580-327","Artéria":"Rua da Gaia","Localidade":"Cete","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CETE","locais":[{"id":"pt.ine.add.PTCONT.3551638","rua":"R ALTO DO MONTE","casa":"58","coordenadas":[41.17573539319844,-8.372313149864393]},{"id":"pt.ine.add.PTCONT.3596460","rua":"TV ALTO DO MONTE","casa":"33","coordenadas":[41.175339526428466,-8.372156785422781]},{"id":"pt.ine.add.PTCONT.3664187","rua":"URB ALTO DO MONTE","casa":"75","coordenadas":[41.17548974672922,-8.37352781925446]},{"id":"pt.ine.add.PTCONT.3670911","rua":"URB ALTO DO MONTE","casa":"","coordenadas":[41.175688263616955,-8.373325950650967]},{"id":"pt.ine.add.PTCONT.3819773","rua":"TV ALTO DO MONTE","casa":"35","coordenadas":[41.175474442240066,-8.372228779593241]},{"id":"pt.ine.add.PTCONT.3826338","rua":"URB ALTO DO MONTE","casa":"","coordenadas":[41.175743555278345,-8.37271836879393]},{"id":"pt.ine.add.PTCONT.3826341","rua":"TV ALTO DO MONTE","casa":"38","coordenadas":[41.17562791073158,-8.372038660738111]},{"id":"pt.ine.add.PTCONT.3864941","rua":"URB ALTO DO MONTE","casa":"","coordenadas":[41.175490094861566,-8.373360978545016]},{"id":"pt.ine.add.PTCONT.3872684","rua":"URB ALTO DO MONTE","casa":"23","coordenadas":[41.17549098894931,-8.372931959564447]},{"id":"pt.ine.add.PTCONT.3923409","rua":"R ALTO DO MONTE","casa":"279","coordenadas":[41.17542877715233,-8.372538462640048]},{"id":"pt.ine.add.PTCONT.3944191","rua":"R ALTO DO MONTE","casa":"212","coordenadas":[41.17591490925682,-8.37258790223904]},{"id":"pt.ine.add.PTCONT.3968132","rua":"R ALTO MONTE","casa":"116","coordenadas":[41.176868544606194,-8.372984654163284]},{"id":"pt.ine.add.PTCONT.3980892","rua":"TV ALTO DO MONTE","casa":"148","coordenadas":[41.17599841944762,-8.371396468714305]},{"id":"pt.ine.add.PTCONT.4000118","rua":"TV ALTO DO MONTE","casa":"78","coordenadas":[41.17607898931573,-8.371623191133756]},{"id":"pt.ine.add.PTCONT.4025378","rua":"TV ALTO DO MONTE","casa":"90","coordenadas":[41.17599809882904,-8.371551393450218]},{"id":"pt.ine.add.PTCONT.4032659","rua":"R ALTO DO MONTE","casa":"184","coordenadas":[41.17590486320456,-8.373088394757904]},{"id":"pt.ine.add.PTCONT.4045801","rua":"R ALTO DO MONTE","casa":"139","coordenadas":[41.17611223471832,-8.372958060231682]},{"id":"pt.ine.add.PTCONT.4147555","rua":"R ALTO DO MONTE","casa":"168","coordenadas":[41.17589481497792,-8.373588887113412]},{"id":"pt.ine.add.PTCONT.4150774","rua":"R ALTO DO MONTE","casa":"115","coordenadas":[41.17654429124934,-8.373031141125564]}],"ruas":["R ALTO DO MONTE","TV ALTO DO MONTE","URB ALTO DO MONTE","R ALTO MONTE"],"centroide":[41.17579330964124,-8.37260665927061]}37260665927061]}
+{
+  "CP": "4580-327",
+  "CP4": "4580",
+  "CP3": "327",
+  "Distrito": "Porto",
+  "Concelho": "Paredes",
+  "Localidade": "Cete",
+  "Designação Postal": "CETE",
+  "partes": [
+    {
+      "Artéria": "Rua Alto do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Alto do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Urbanização Alto do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Gaia",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3551638",
+      "rua": "R ALTO DO MONTE",
+      "casa": "58",
+      "coordenadas": [
+        41.17573539319844,
+        -8.372313149864393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3596460",
+      "rua": "TV ALTO DO MONTE",
+      "casa": "33",
+      "coordenadas": [
+        41.175339526428466,
+        -8.372156785422781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3664187",
+      "rua": "URB ALTO DO MONTE",
+      "casa": "75",
+      "coordenadas": [
+        41.17548974672922,
+        -8.37352781925446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3670911",
+      "rua": "URB ALTO DO MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.175688263616955,
+        -8.373325950650967
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3819773",
+      "rua": "TV ALTO DO MONTE",
+      "casa": "35",
+      "coordenadas": [
+        41.175474442240066,
+        -8.372228779593241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3826338",
+      "rua": "URB ALTO DO MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.175743555278345,
+        -8.37271836879393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3826341",
+      "rua": "TV ALTO DO MONTE",
+      "casa": "38",
+      "coordenadas": [
+        41.17562791073158,
+        -8.372038660738111
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3864941",
+      "rua": "URB ALTO DO MONTE",
+      "casa": "",
+      "coordenadas": [
+        41.175490094861566,
+        -8.373360978545016
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3872684",
+      "rua": "URB ALTO DO MONTE",
+      "casa": "23",
+      "coordenadas": [
+        41.17549098894931,
+        -8.372931959564447
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3923409",
+      "rua": "R ALTO DO MONTE",
+      "casa": "279",
+      "coordenadas": [
+        41.17542877715233,
+        -8.372538462640048
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3944191",
+      "rua": "R ALTO DO MONTE",
+      "casa": "212",
+      "coordenadas": [
+        41.17591490925682,
+        -8.37258790223904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3968132",
+      "rua": "R ALTO MONTE",
+      "casa": "116",
+      "coordenadas": [
+        41.176868544606194,
+        -8.372984654163284
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3980892",
+      "rua": "TV ALTO DO MONTE",
+      "casa": "148",
+      "coordenadas": [
+        41.17599841944762,
+        -8.371396468714305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4000118",
+      "rua": "TV ALTO DO MONTE",
+      "casa": "78",
+      "coordenadas": [
+        41.17607898931573,
+        -8.371623191133756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4025378",
+      "rua": "TV ALTO DO MONTE",
+      "casa": "90",
+      "coordenadas": [
+        41.17599809882904,
+        -8.371551393450218
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4032659",
+      "rua": "R ALTO DO MONTE",
+      "casa": "184",
+      "coordenadas": [
+        41.17590486320456,
+        -8.373088394757904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4045801",
+      "rua": "R ALTO DO MONTE",
+      "casa": "139",
+      "coordenadas": [
+        41.17611223471832,
+        -8.372958060231682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4147555",
+      "rua": "R ALTO DO MONTE",
+      "casa": "168",
+      "coordenadas": [
+        41.17589481497792,
+        -8.373588887113412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4150774",
+      "rua": "R ALTO DO MONTE",
+      "casa": "115",
+      "coordenadas": [
+        41.17654429124934,
+        -8.373031141125564
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALTO DO MONTE",
+    "TV ALTO DO MONTE",
+    "URB ALTO DO MONTE",
+    "R ALTO MONTE"
+  ],
+  "centro": [
+    41.17610403551733,
+    -8.372492677913858
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.17542402534764,
+                -8.372927991953102
+              ],
+              [
+                41.17540524781005,
+                -8.372756612724142
+              ],
+              [
+                41.175399112668075,
+                -8.372594775950233
+              ],
+              [
+                41.17540561992173,
+                -8.37244248163137
+              ],
+              [
+                41.17542476957101,
+                -8.372299729767562
+              ],
+              [
+                41.1754565616159,
+                -8.372166520358801
+              ],
+              [
+                41.17550099605643,
+                -8.372042853405091
+              ],
+              [
+                41.17555807289258,
+                -8.371928728906433
+              ],
+              [
+                41.175627792124345,
+                -8.371824146862824
+              ],
+              [
+                41.175710153751744,
+                -8.371729107274263
+              ],
+              [
+                41.175795815881315,
+                -8.371670763031915
+              ],
+              [
+                41.175884778513065,
+                -8.371649114135774
+              ],
+              [
+                41.175977041646995,
+                -8.371664160585848
+              ],
+              [
+                41.1760726052831,
+                -8.371715902382128
+              ],
+              [
+                41.17617146942139,
+                -8.37180433952462
+              ],
+              [
+                41.17627363406186,
+                -8.371929472013322
+              ],
+              [
+                41.1763790992045,
+                -8.372091299848234
+              ],
+              [
+                41.176487864849314,
+                -8.372289823029357
+              ],
+              [
+                41.17656782026309,
+                -8.372472971952686
+              ],
+              [
+                41.176618965445826,
+                -8.372640746618217
+              ],
+              [
+                41.17664130039752,
+                -8.372793147025956
+              ],
+              [
+                41.17663482511816,
+                -8.372930173175902
+              ],
+              [
+                41.17659953960776,
+                -8.373051825068051
+              ],
+              [
+                41.176535443866314,
+                -8.373158102702405
+              ],
+              [
+                41.17644253789383,
+                -8.373249006078964
+              ],
+              [
+                41.17632082169029,
+                -8.373324535197732
+              ],
+              [
+                41.176207990820814,
+                -8.373389668991354
+              ],
+              [
+                41.17610404528539,
+                -8.373444407459838
+              ],
+              [
+                41.176008985084025,
+                -8.373488750603178
+              ],
+              [
+                41.17592281021671,
+                -8.373522698421375
+              ],
+              [
+                41.17584552068345,
+                -8.373546250914433
+              ],
+              [
+                41.175777116484255,
+                -8.373559408082347
+              ],
+              [
+                41.17571759761911,
+                -8.37356216992512
+              ],
+              [
+                41.17566696408802,
+                -8.373554536442752
+              ],
+              [
+                41.17562031255612,
+                -8.373526434742057
+              ],
+              [
+                41.1755776430234,
+                -8.373477864823041
+              ],
+              [
+                41.17553895548988,
+                -8.3734088266857
+              ],
+              [
+                41.175504249955544,
+                -8.373319320330037
+              ],
+              [
+                41.17547352642039,
+                -8.373209345756049
+              ],
+              [
+                41.17544678488442,
+                -8.373078902963737
+              ],
+              [
+                41.17542402534764,
+                -8.372927991953102
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.175918210437885,
+    -8.37273092293365
+  ],
+  "centroDeMassa": [
+    41.17610403551733,
+    -8.372492677913858
+  ]
+}

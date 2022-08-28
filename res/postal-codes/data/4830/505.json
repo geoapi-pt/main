@@ -1,1 +1,392 @@
-{"CP4":"4830","CP3":"505","Distrito":"Braga","Concelho":"Póvoa de Lanhoso","CP":"4830-505","Artéria":"Rua Doutor Custódio José da Silva","Localidade":"Póvoa de Lanhoso","Local":"Bagães","Troço":"","Porta":"","Cliente":"","Designação Postal":"PÓVOA DE LANHOSO","locais":[{"id":"pt.ine.add.PTCONT.475624","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"126","coordenadas":[41.5788908294982,-8.266977642884306]},{"id":"pt.ine.add.PTCONT.475625","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"140","coordenadas":[41.579043948277125,-8.266929994346135]},{"id":"pt.ine.add.PTCONT.513642","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"196","coordenadas":[41.57936813737326,-8.266882698612168]},{"id":"pt.ine.add.PTCONT.513643","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"196","coordenadas":[41.57936813737326,-8.266882698612168]},{"id":"pt.ine.add.PTCONT.538739","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"61","coordenadas":[41.57837691881409,-8.267576134740347]},{"id":"pt.ine.add.PTCONT.540858","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"","coordenadas":[41.579628965446126,-8.267123062751185]},{"id":"pt.ine.add.PTCONT.540875","rua":"R DR CUSTODIO LOPES SILVA","casa":"24","coordenadas":[41.578035282103585,-8.267143750132258]},{"id":"pt.ine.add.PTCONT.547689","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"254","coordenadas":[41.58010666395724,-8.266692360588376]},{"id":"pt.ine.add.PTCONT.590468","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"215","coordenadas":[41.57939482726742,-8.267158552452859]},{"id":"pt.ine.add.PTCONT.593405","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"283","coordenadas":[41.57998019363153,-8.2670518407272]},{"id":"pt.ine.add.PTCONT.687712","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"958","coordenadas":[41.57920602887547,-8.266918337724556]},{"id":"pt.ine.add.PTCONT.687713","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"","coordenadas":[41.577909174323565,-8.267191453297528]},{"id":"pt.ine.add.PTCONT.805355","rua":"R DR CUSTODIO LOPES SILVA","casa":"191","coordenadas":[41.57929575858345,-8.267182330052517]},{"id":"pt.ine.add.PTCONT.814281","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"193","coordenadas":[41.57925075405513,-8.26717024574722]},{"id":"pt.ine.add.PTCONT.834358","rua":"R DR CUSTODIO LOPES SILVA","casa":"70 68","coordenadas":[41.578323498442224,-8.267060408681571]},{"id":"pt.ine.add.PTCONT.847978","rua":"R DR CUSTÓDIO LOPES DA SILVA","casa":"","coordenadas":[41.57902556359968,-8.267253718313205]}],"ruas":["R DR CUSTÓDIO LOPES DA SILVA","R DR CUSTODIO LOPES SILVA"],"centroide":[41.57907860786812,-8.26706276742336]}
+{
+  "CP": "4830-505",
+  "CP4": "4830",
+  "CP3": "505",
+  "Distrito": "Braga",
+  "Concelho": "Póvoa de Lanhoso",
+  "Localidade": "Póvoa de Lanhoso",
+  "Designação Postal": "PÓVOA DE LANHOSO",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Custódio José da Silva",
+      "Local": "Bagães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.475624",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "126",
+      "coordenadas": [
+        41.5788908294982,
+        -8.266977642884306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.475625",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "140",
+      "coordenadas": [
+        41.579043948277125,
+        -8.266929994346135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.513642",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "196",
+      "coordenadas": [
+        41.57936813737326,
+        -8.266882698612168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.513643",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "196",
+      "coordenadas": [
+        41.57936813737326,
+        -8.266882698612168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.538739",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "61",
+      "coordenadas": [
+        41.57837691881409,
+        -8.267576134740347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.540858",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "",
+      "coordenadas": [
+        41.579628965446126,
+        -8.267123062751185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.540875",
+      "rua": "R DR CUSTODIO LOPES SILVA",
+      "casa": "24",
+      "coordenadas": [
+        41.578035282103585,
+        -8.267143750132258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.547689",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "254",
+      "coordenadas": [
+        41.58010666395724,
+        -8.266692360588376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.590468",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "215",
+      "coordenadas": [
+        41.57939482726742,
+        -8.267158552452859
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.593405",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "283",
+      "coordenadas": [
+        41.57998019363153,
+        -8.2670518407272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.687712",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "958",
+      "coordenadas": [
+        41.57920602887547,
+        -8.266918337724556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.687713",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "",
+      "coordenadas": [
+        41.577909174323565,
+        -8.267191453297528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.805355",
+      "rua": "R DR CUSTODIO LOPES SILVA",
+      "casa": "191",
+      "coordenadas": [
+        41.57929575858345,
+        -8.267182330052517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.814281",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "193",
+      "coordenadas": [
+        41.57925075405513,
+        -8.26717024574722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.834358",
+      "rua": "R DR CUSTODIO LOPES SILVA",
+      "casa": "70 68",
+      "coordenadas": [
+        41.578323498442224,
+        -8.267060408681571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.847978",
+      "rua": "R DR CUSTÓDIO LOPES DA SILVA",
+      "casa": "",
+      "coordenadas": [
+        41.57902556359968,
+        -8.267253718313205
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR CUSTÓDIO LOPES DA SILVA",
+    "R DR CUSTODIO LOPES SILVA"
+  ],
+  "centro": [
+    41.5790079191404,
+    -8.267134247664362
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.57817228059948,
+                -8.267407836609113
+              ],
+              [
+                41.57811381253817,
+                -8.26735975142876
+              ],
+              [
+                41.578064623418584,
+                -8.267316931533994
+              ],
+              [
+                41.57802471324072,
+                -8.267279376924815
+              ],
+              [
+                41.57799408200459,
+                -8.267247087601223
+              ],
+              [
+                41.57797272971018,
+                -8.267220063563219
+              ],
+              [
+                41.577960656357504,
+                -8.267198304810801
+              ],
+              [
+                41.57795786194655,
+                -8.267181811343967
+              ],
+              [
+                41.57796434647733,
+                -8.267170583162722
+              ],
+              [
+                41.57798010994982,
+                -8.267164620267064
+              ],
+              [
+                41.57799840636855,
+                -8.267158100523195
+              ],
+              [
+                41.57801923573351,
+                -8.267151023931117
+              ],
+              [
+                41.5780425980447,
+                -8.26714339049083
+              ],
+              [
+                41.57806849330212,
+                -8.267135200202333
+              ],
+              [
+                41.57809692150577,
+                -8.267126453065625
+              ],
+              [
+                41.578127882655636,
+                -8.26711714908071
+              ],
+              [
+                41.57816137675174,
+                -8.267107288247583
+              ],
+              [
+                41.57819740379407,
+                -8.267096870566245
+              ],
+              [
+                41.57825678941728,
+                -8.26708200434362
+              ],
+              [
+                41.578339533621374,
+                -8.267062689579706
+              ],
+              [
+                41.57844563640634,
+                -8.267038926274502
+              ],
+              [
+                41.5785750977722,
+                -8.267010714428011
+              ],
+              [
+                41.578727917718936,
+                -8.266978054040228
+              ],
+              [
+                41.578904096246546,
+                -8.266940945111157
+              ],
+              [
+                41.57910363335505,
+                -8.266899387640798
+              ],
+              [
+                41.57932652904442,
+                -8.266853381629147
+              ],
+              [
+                41.57951958667378,
+                -8.266818743246123
+              ],
+              [
+                41.57968280624314,
+                -8.266795472491726
+              ],
+              [
+                41.579816187752485,
+                -8.266783569365952
+              ],
+              [
+                41.57991973120181,
+                -8.266783033868805
+              ],
+              [
+                41.57999343659114,
+                -8.266793866000281
+              ],
+              [
+                41.58003730392045,
+                -8.266816065760384
+              ],
+              [
+                41.58005133318974,
+                -8.266849633149112
+              ],
+              [
+                41.58003552439902,
+                -8.266894568166466
+              ],
+              [
+                41.57999664053813,
+                -8.266942078400605
+              ],
+              [
+                41.57993468160705,
+                -8.26699216385153
+              ],
+              [
+                41.57984964760578,
+                -8.267044824519242
+              ],
+              [
+                41.579741538534336,
+                -8.26710006040374
+              ],
+              [
+                41.579610354392706,
+                -8.267157871505024
+              ],
+              [
+                41.579456095180895,
+                -8.267218257823096
+              ],
+              [
+                41.5792787608989,
+                -8.267281219357951
+              ],
+              [
+                41.57907835154671,
+                -8.267346756109596
+              ],
+              [
+                41.578895684855894,
+                -8.26739809011974
+              ],
+              [
+                41.57873076082643,
+                -8.267435221388384
+              ],
+              [
+                41.578583579458325,
+                -8.267458149915528
+              ],
+              [
+                41.578454140751575,
+                -8.267466875701174
+              ],
+              [
+                41.57834244470618,
+                -8.267461398745318
+              ],
+              [
+                41.57824849132216,
+                -8.267441719047966
+              ],
+              [
+                41.57817228059948,
+                -8.267407836609113
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.57878862187871,
+    -8.267119324694546
+  ],
+  "centroDeMassa": [
+    41.5790079191404,
+    -8.267134247664362
+  ]
+}

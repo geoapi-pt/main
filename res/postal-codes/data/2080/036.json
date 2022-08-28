@@ -1,1 +1,305 @@
-{"CP4":"2080","CP3":"036","Distrito":"Santarém","Concelho":"Almeirim","CP":"2080-036","Artéria":"Largo do Padre Oliveiros de Jesus Reis","Localidade":"Almeirim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALMEIRIM","locais":[{"id":"pt.ine.add.PTCONT.4410091","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"8","coordenadas":[39.212846457064124,-8.627802539929046]},{"id":"pt.ine.add.PTCONT.4435198","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"16","coordenadas":[39.2132081167252,-8.627480877772696]},{"id":"pt.ine.add.PTCONT.4446942","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"17","coordenadas":[39.21328071382624,-8.627354022482956]},{"id":"pt.ine.add.PTCONT.4500280","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"11","coordenadas":[39.21303644153801,-8.627607037862134]},{"id":"pt.ine.add.PTCONT.4500281","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"11","coordenadas":[39.21303644153801,-8.627607037862134]},{"id":"pt.ine.add.PTCONT.4500884","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"11","coordenadas":[39.21303644153801,-8.627607037862134]},{"id":"pt.ine.add.PTCONT.4525716","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"15A","coordenadas":[39.21315397593635,-8.627503655237323]},{"id":"pt.ine.add.PTCONT.4545825","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"13","coordenadas":[39.213271461115625,-8.62741185050138]},{"id":"pt.ine.add.PTCONT.4588038","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"12","coordenadas":[39.21274708409692,-8.627871313597876]},{"id":"pt.ine.add.PTCONT.4635742","rua":"LG PADRE OLIVEIRA DE JESUS REIS","casa":"10","coordenadas":[39.21278325995607,-8.62783683198026]}],"ruas":["LG PADRE OLIVEIRA DE JESUS REIS"],"centroide":[39.213068570375384,-8.627582819234185]}
+{
+  "CP": "2080-036",
+  "CP4": "2080",
+  "CP3": "036",
+  "Distrito": "Santarém",
+  "Concelho": "Almeirim",
+  "Localidade": "Almeirim",
+  "Designação Postal": "ALMEIRIM",
+  "partes": [
+    {
+      "Artéria": "Largo do Padre Oliveiros de Jesus Reis",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4410091",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "8",
+      "coordenadas": [
+        39.212846457064124,
+        -8.627802539929046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4435198",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "16",
+      "coordenadas": [
+        39.2132081167252,
+        -8.627480877772696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4446942",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "17",
+      "coordenadas": [
+        39.21328071382624,
+        -8.627354022482956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500280",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "11",
+      "coordenadas": [
+        39.21303644153801,
+        -8.627607037862134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500281",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "11",
+      "coordenadas": [
+        39.21303644153801,
+        -8.627607037862134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4500884",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "11",
+      "coordenadas": [
+        39.21303644153801,
+        -8.627607037862134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4525716",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "15A",
+      "coordenadas": [
+        39.21315397593635,
+        -8.627503655237323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4545825",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "13",
+      "coordenadas": [
+        39.213271461115625,
+        -8.62741185050138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4588038",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "12",
+      "coordenadas": [
+        39.21274708409692,
+        -8.627871313597876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4635742",
+      "rua": "LG PADRE OLIVEIRA DE JESUS REIS",
+      "casa": "10",
+      "coordenadas": [
+        39.21278325995607,
+        -8.62783683198026
+      ]
+    }
+  ],
+  "ruas": [
+    "LG PADRE OLIVEIRA DE JESUS REIS"
+  ],
+  "centro": [
+    39.21301389896158,
+    -8.627612668040417
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.21280298139097,
+                -8.627832628409159
+              ],
+              [
+                39.21279055977007,
+                -8.627841225117763
+              ],
+              [
+                39.212788028816306,
+                -8.62784066456412
+              ],
+              [
+                39.21279538852967,
+                -8.627830946748231
+              ],
+              [
+                39.21281263891017,
+                -8.627812071670096
+              ],
+              [
+                39.2128397799578,
+                -8.627784039329718
+              ],
+              [
+                39.212876811672565,
+                -8.62774684972709
+              ],
+              [
+                39.21292373405446,
+                -8.627700502862218
+              ],
+              [
+                39.21298054710349,
+                -8.6276449987351
+              ],
+              [
+                39.21304725081966,
+                -8.627580337345734
+              ],
+              [
+                39.2131054719977,
+                -8.627524662192828
+              ],
+              [
+                39.213155210637616,
+                -8.627477973276381
+              ],
+              [
+                39.21319646673941,
+                -8.627440270596392
+              ],
+              [
+                39.21322924030308,
+                -8.627411554152859
+              ],
+              [
+                39.213253531328625,
+                -8.627391823945786
+              ],
+              [
+                39.213269339816044,
+                -8.627381079975173
+              ],
+              [
+                39.21327666576534,
+                -8.627379322241017
+              ],
+              [
+                39.21327550917652,
+                -8.627386550743319
+              ],
+              [
+                39.2132735074052,
+                -8.627393954233948
+              ],
+              [
+                39.21327066045138,
+                -8.627401532712906
+              ],
+              [
+                39.21326696831506,
+                -8.627409286180187
+              ],
+              [
+                39.213262430996245,
+                -8.627417214635795
+              ],
+              [
+                39.21325704849493,
+                -8.62742531807973
+              ],
+              [
+                39.21325082081112,
+                -8.627433596511992
+              ],
+              [
+                39.213243747944816,
+                -8.62744204993258
+              ],
+              [
+                39.21323582989601,
+                -8.627450678341496
+              ],
+              [
+                39.213223250671106,
+                -8.62746325417049
+              ],
+              [
+                39.213206010270085,
+                -8.627479777419559
+              ],
+              [
+                39.21318410869297,
+                -8.62750024808871
+              ],
+              [
+                39.21315754593976,
+                -8.627524666177939
+              ],
+              [
+                39.21312632201044,
+                -8.627553031687246
+              ],
+              [
+                39.213090436905006,
+                -8.627585344616634
+              ],
+              [
+                39.21304989062348,
+                -8.627621604966098
+              ],
+              [
+                39.21300468316584,
+                -8.627661812735642
+              ],
+              [
+                39.2129635739378,
+                -8.62769806912257
+              ],
+              [
+                39.212926562939344,
+                -8.627730374126877
+              ],
+              [
+                39.212893650170486,
+                -8.627758727748569
+              ],
+              [
+                39.21286483563122,
+                -8.627783129987643
+              ],
+              [
+                39.21284011932155,
+                -8.627803580844098
+              ],
+              [
+                39.21281950124146,
+                -8.627820080317939
+              ],
+              [
+                39.21280298139097,
+                -8.627832628409159
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.21307076656562,
+    -8.627584120856792
+  ],
+  "centroDeMassa": [
+    39.21301389896158,
+    -8.627612668040417
+  ]
+}

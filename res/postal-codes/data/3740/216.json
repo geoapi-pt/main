@@ -1,1 +1,395 @@
-{"CP4":"3740","CP3":"216","Distrito":"Aveiro","Concelho":"Sever do Vouga","CP":"3740-216","Artéria":"Caminho da Serra","Localidade":"Sever do Vouga","Local":"Póvoa do Meio","Troço":"","Porta":"","Cliente":"","Designação Postal":"SEVER DO VOUGA","locais":[{"id":"pt.ine.add.PTCONT.315331","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73148794446095,-8.363813642000482]},{"id":"pt.ine.add.PTCONT.325056","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73071829027462,-8.365918071736392]},{"id":"pt.ine.add.PTCONT.325057","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73071829027462,-8.365918071736392]},{"id":"pt.ine.add.PTCONT.342605","rua":"R PÓVOA MEIO","casa":"","coordenadas":[40.73093015568351,-8.363551288046775]},{"id":"pt.ine.add.PTCONT.39545","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73181916086529,-8.3647973207549]},{"id":"pt.ine.add.PTCONT.42338","rua":"CAM SERRA","casa":"","coordenadas":[40.731435025227896,-8.363257087314842]},{"id":"pt.ine.add.PTCONT.48074","rua":"R PÓVOA MEIO","casa":"","coordenadas":[40.73126239380594,-8.36402594102745]},{"id":"pt.ine.add.PTCONT.59487","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.7315684684992,-8.364074350045907]},{"id":"pt.ine.add.PTCONT.68226","rua":"VLA PÓVOA DO MEIO","casa":"","coordenadas":[40.73147941243035,-8.363576858371289]},{"id":"pt.ine.add.PTCONT.68227","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.731495836093345,-8.36437004166886]},{"id":"pt.ine.add.PTCONT.74620","rua":"VLA PÓVOA DO MEIO","casa":"","coordenadas":[40.73119035393776,-8.364025691982539]},{"id":"pt.ine.add.PTCONT.74626","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73197236434859,-8.364738663192394]},{"id":"pt.ine.add.PTCONT.90154","rua":"R PÓVOA DO MEIO","casa":"4","coordenadas":[40.73163050747135,-8.364571749423575]},{"id":"pt.ine.add.PTCONT.122711","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73210708261419,-8.364916697657666]},{"id":"pt.ine.add.PTCONT.151958","rua":"R PÓVOA MEIO","casa":"","coordenadas":[40.73147917601473,-8.363695234635442]},{"id":"pt.ine.add.PTCONT.170528","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73182001546805,-8.364371164061367]},{"id":"pt.ine.add.PTCONT.181461","rua":"R PÓVOA DO MEIO","casa":"","coordenadas":[40.73118878832236,-8.364806971894232]},{"id":"pt.ine.add.PTCONT.221595","rua":"R SERRA","casa":"","coordenadas":[40.73124599136949,-8.36322092299038]}],"ruas":["R PÓVOA DO MEIO","R PÓVOA MEIO","CAM SERRA","VLA PÓVOA DO MEIO","R SERRA"],"centroide":[40.73142960387017,-8.364378167385324]}85324]}
+{
+  "CP": "3740-216",
+  "CP4": "3740",
+  "CP3": "216",
+  "Distrito": "Aveiro",
+  "Concelho": "Sever do Vouga",
+  "Localidade": "Sever do Vouga",
+  "Designação Postal": "SEVER DO VOUGA",
+  "partes": [
+    {
+      "Artéria": "Rua da Póvoa do Meio",
+      "Local": "Póvoa do Meio",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Viela da Póvoa do Meio",
+      "Local": "Póvoa do Meio",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho da Serra",
+      "Local": "Póvoa do Meio",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.315331",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73148794446095,
+        -8.363813642000482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.325056",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73071829027462,
+        -8.365918071736392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.325057",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73071829027462,
+        -8.365918071736392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.342605",
+      "rua": "R PÓVOA MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73093015568351,
+        -8.363551288046775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.39545",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73181916086529,
+        -8.3647973207549
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.42338",
+      "rua": "CAM SERRA",
+      "casa": "",
+      "coordenadas": [
+        40.731435025227896,
+        -8.363257087314842
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48074",
+      "rua": "R PÓVOA MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73126239380594,
+        -8.36402594102745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.59487",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.7315684684992,
+        -8.364074350045907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.68226",
+      "rua": "VLA PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73147941243035,
+        -8.363576858371289
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.68227",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.731495836093345,
+        -8.36437004166886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.74620",
+      "rua": "VLA PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73119035393776,
+        -8.364025691982539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.74626",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73197236434859,
+        -8.364738663192394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.90154",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "4",
+      "coordenadas": [
+        40.73163050747135,
+        -8.364571749423575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.122711",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73210708261419,
+        -8.364916697657666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.151958",
+      "rua": "R PÓVOA MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73147917601473,
+        -8.363695234635442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.170528",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73182001546805,
+        -8.364371164061367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.181461",
+      "rua": "R PÓVOA DO MEIO",
+      "casa": "",
+      "coordenadas": [
+        40.73118878832236,
+        -8.364806971894232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.221595",
+      "rua": "R SERRA",
+      "casa": "",
+      "coordenadas": [
+        40.73124599136949,
+        -8.36322092299038
+      ]
+    }
+  ],
+  "ruas": [
+    "R PÓVOA DO MEIO",
+    "R PÓVOA MEIO",
+    "CAM SERRA",
+    "VLA PÓVOA DO MEIO",
+    "R SERRA"
+  ],
+  "centro": [
+    40.73141268644441,
+    -8.364569497363386
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.73149948596563,
+                -8.365354798817108
+              ],
+              [
+                40.73132588692319,
+                -8.36547997057695
+              ],
+              [
+                40.73117729815806,
+                -8.36555251487166
+              ],
+              [
+                40.73105371967026,
+                -8.365572431701239
+              ],
+              [
+                40.73095515145977,
+                -8.365539721065689
+              ],
+              [
+                40.7308815935266,
+                -8.365454382965009
+              ],
+              [
+                40.73083304587075,
+                -8.365316417399198
+              ],
+              [
+                40.73080950849222,
+                -8.365125824368256
+              ],
+              [
+                40.73081098139101,
+                -8.364882603872184
+              ],
+              [
+                40.730837464567124,
+                -8.364586755910983
+              ],
+              [
+                40.73086557227881,
+                -8.364322726990924
+              ],
+              [
+                40.73089530452608,
+                -8.36409051711201
+              ],
+              [
+                40.73092666130893,
+                -8.36389012627424
+              ],
+              [
+                40.73095964262736,
+                -8.363721554477614
+              ],
+              [
+                40.730994248481366,
+                -8.363584801722133
+              ],
+              [
+                40.73103047887096,
+                -8.363479868007795
+              ],
+              [
+                40.73106833379613,
+                -8.363406753334601
+              ],
+              [
+                40.73110781325687,
+                -8.363365457702553
+              ],
+              [
+                40.731145311439064,
+                -8.363329889092078
+              ],
+              [
+                40.7311808283427,
+                -8.363300047503182
+              ],
+              [
+                40.73121436396778,
+                -8.36327593293586
+              ],
+              [
+                40.731245918314315,
+                -8.363257545390114
+              ],
+              [
+                40.73127549138228,
+                -8.363244884865944
+              ],
+              [
+                40.731303083171696,
+                -8.36323795136335
+              ],
+              [
+                40.73132869368254,
+                -8.363236744882332
+              ],
+              [
+                40.731352322914844,
+                -8.36324126542289
+              ],
+              [
+                40.731383499389764,
+                -8.363271152307483
+              ],
+              [
+                40.73142222310731,
+                -8.363326405536117
+              ],
+              [
+                40.73146849406748,
+                -8.363407025108785
+              ],
+              [
+                40.73152231227028,
+                -8.363513011025491
+              ],
+              [
+                40.73158367771569,
+                -8.363644363286234
+              ],
+              [
+                40.73165259040373,
+                -8.363801081891012
+              ],
+              [
+                40.731729050334394,
+                -8.363983166839827
+              ],
+              [
+                40.73181305750769,
+                -8.364190618132682
+              ],
+              [
+                40.73186486390401,
+                -8.364387784483906
+              ],
+              [
+                40.731884469523365,
+                -8.364574665893507
+              ],
+              [
+                40.73187187436575,
+                -8.36475126236148
+              ],
+              [
+                40.73182707843117,
+                -8.364917573887826
+              ],
+              [
+                40.731750081719625,
+                -8.365073600472549
+              ],
+              [
+                40.73164088423111,
+                -8.36521934211564
+              ],
+              [
+                40.73149948596563,
+                -8.365354798817108
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.73128730903394,
+    -8.36417281354921
+  ],
+  "centroDeMassa": [
+    40.73141268644441,
+    -8.364569497363386
+  ]
+}

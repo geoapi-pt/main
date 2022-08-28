@@ -1,1 +1,393 @@
-{"CP4":"9500","CP3":"038","Distrito":"Ilha de São Miguel","Concelho":"Ponta Delgada","CP":"9500-038","Artéria":"Rua Calço da Má Cara","Localidade":"Ponta Delgada","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTA DELGADA","locais":[{"id":"pt.ine.add.AC26.23445","rua":"R CALÇO DA MA CARA","casa":"2B","coordenadas":[37.75072148305894,-25.668629566580137]},{"id":"pt.ine.add.AC26.25091","rua":"R CALÇO DA MA CARA","casa":"37","coordenadas":[37.75006356326257,-25.66863000568705]},{"id":"pt.ine.add.AC26.25092","rua":"R CALÇO DA MA CARA","casa":"23","coordenadas":[37.749828512029,-25.668566113859413]},{"id":"pt.ine.add.AC26.25093","rua":"R CALÇO DA MA CARA","casa":"21 19","coordenadas":[37.74974728621314,-25.668556218824705]},{"id":"pt.ine.add.AC26.25094","rua":"R CALÇO DA MA CARA","casa":"21 19","coordenadas":[37.74974728621314,-25.668556218824705]},{"id":"pt.ine.add.AC26.25095","rua":"R CALCO MA CARA","casa":"2","coordenadas":[37.74968421030243,-25.66855734917073]},{"id":"pt.ine.add.AC26.25096","rua":"R CALÇO DA MA CARA","casa":"15","coordenadas":[37.749413243868915,-25.668505452078644]},{"id":"pt.ine.add.AC26.25097","rua":"R CALÇO DA MA CARA","casa":"13 A","coordenadas":[37.74931386813246,-25.66848453185531]},{"id":"pt.ine.add.AC26.25098","rua":"R CALÇO DA MA CARA","casa":"9","coordenadas":[37.74923277052925,-25.668485985212264]},{"id":"pt.ine.add.AC26.48835","rua":"R CALÇO DA MA CARA","casa":"39","coordenadas":[37.75011762832704,-25.668629036858864]},{"id":"pt.ine.add.AC26.52592","rua":"R CALCO MA CARA","casa":"136","coordenadas":[37.750593023247696,-25.668427554966133]},{"id":"pt.ine.add.AC26.60855","rua":"R CALÇO DA MA CARA","casa":"2C","coordenadas":[37.750820986968705,-25.668661835832147]},{"id":"pt.ine.add.AC26.63862","rua":"R CALCO MA CARA","casa":"92","coordenadas":[37.753577369326386,-25.669327565313804]},{"id":"pt.ine.add.AC26.74754","rua":"R CALÇO DA MA CARA","casa":"35","coordenadas":[37.750009241773114,-25.668608277772954]},{"id":"pt.ine.add.AC26.78098","rua":"R CALÇO DA MA CARA","casa":"7","coordenadas":[37.749178320786996,-25.66845290938685]},{"id":"pt.ine.add.AC26.79664","rua":"R CALÇO DA MA CARA","casa":"31","coordenadas":[37.749927503097,-25.668552989245182]},{"id":"pt.ine.add.AC26.84846","rua":"R CALCO DA MA CARA","casa":"17","coordenadas":[37.74968421030243,-25.66855734917073]},{"id":"pt.ine.add.AC26.85628","rua":"R CALCO MA CARA","casa":"81","coordenadas":[37.75178164848423,-25.66913271100595]},{"id":"pt.ine.add.AC26.89221","rua":"R CALÇO DA MÁ CARA","casa":"3","coordenadas":[37.74910623402789,-25.668454201284362]},{"id":"pt.ine.add.AC26.92997","rua":"R CALCO MA CARA","casa":"161","coordenadas":[37.754593374349945,-25.669910988204776]},{"id":"pt.ine.add.AC26.98406","rua":"R CALÇO DA MA CARA","casa":"29","coordenadas":[37.74988244887656,-25.668553796642744]},{"id":"pt.ine.add.AC26.103683","rua":"R CALÇO DA MÁ CARA","casa":"3","coordenadas":[37.74910623402789,-25.668454201284362]},{"id":"pt.ine.add.AC26.107879","rua":"R CALÇO DA MA CARA","casa":"41","coordenadas":[37.75019872592278,-25.66862758361174]}],"ruas":["R CALÇO DA MA CARA","R CALCO MA CARA","R CALCO DA MA CARA","R CALÇO DA MÁ CARA"],"centroide":[37.75027865669116,-25.668667948139174]}
+{
+  "CP": "9500-038",
+  "CP4": "9500",
+  "CP3": "038",
+  "Distrito": "Ilha de São Miguel",
+  "Concelho": "Ponta Delgada",
+  "Localidade": "Ponta Delgada",
+  "Designação Postal": "PONTA DELGADA",
+  "partes": [
+    {
+      "Artéria": "Rua Calço da Má Cara",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.AC26.23445",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "2B",
+      "coordenadas": [
+        37.75072148305894,
+        -25.668629566580137
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25091",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "37",
+      "coordenadas": [
+        37.75006356326257,
+        -25.66863000568705
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25092",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "23",
+      "coordenadas": [
+        37.749828512029,
+        -25.668566113859413
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25093",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "21 19",
+      "coordenadas": [
+        37.74974728621314,
+        -25.668556218824705
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25094",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "21 19",
+      "coordenadas": [
+        37.74974728621314,
+        -25.668556218824705
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25095",
+      "rua": "R CALCO MA CARA",
+      "casa": "2",
+      "coordenadas": [
+        37.74968421030243,
+        -25.66855734917073
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25096",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "15",
+      "coordenadas": [
+        37.749413243868915,
+        -25.668505452078644
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25097",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "13 A",
+      "coordenadas": [
+        37.74931386813246,
+        -25.66848453185531
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.25098",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "9",
+      "coordenadas": [
+        37.74923277052925,
+        -25.668485985212264
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.48835",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "39",
+      "coordenadas": [
+        37.75011762832704,
+        -25.668629036858864
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.52592",
+      "rua": "R CALCO MA CARA",
+      "casa": "136",
+      "coordenadas": [
+        37.750593023247696,
+        -25.668427554966133
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.60855",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "2C",
+      "coordenadas": [
+        37.750820986968705,
+        -25.668661835832147
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.63862",
+      "rua": "R CALCO MA CARA",
+      "casa": "92",
+      "coordenadas": [
+        37.753577369326386,
+        -25.669327565313804
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.74754",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "35",
+      "coordenadas": [
+        37.750009241773114,
+        -25.668608277772954
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.78098",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "7",
+      "coordenadas": [
+        37.749178320786996,
+        -25.66845290938685
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.79664",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "31",
+      "coordenadas": [
+        37.749927503097,
+        -25.668552989245182
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.84846",
+      "rua": "R CALCO DA MA CARA",
+      "casa": "17",
+      "coordenadas": [
+        37.74968421030243,
+        -25.66855734917073
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.85628",
+      "rua": "R CALCO MA CARA",
+      "casa": "81",
+      "coordenadas": [
+        37.75178164848423,
+        -25.66913271100595
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.89221",
+      "rua": "R CALÇO DA MÁ CARA",
+      "casa": "3",
+      "coordenadas": [
+        37.74910623402789,
+        -25.668454201284362
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.92997",
+      "rua": "R CALCO MA CARA",
+      "casa": "161",
+      "coordenadas": [
+        37.754593374349945,
+        -25.669910988204776
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.98406",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "29",
+      "coordenadas": [
+        37.74988244887656,
+        -25.668553796642744
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.103683",
+      "rua": "R CALÇO DA MÁ CARA",
+      "casa": "3",
+      "coordenadas": [
+        37.74910623402789,
+        -25.668454201284362
+      ]
+    },
+    {
+      "id": "pt.ine.add.AC26.107879",
+      "rua": "R CALÇO DA MA CARA",
+      "casa": "41",
+      "coordenadas": [
+        37.75019872592278,
+        -25.66862758361174
+      ]
+    }
+  ],
+  "ruas": [
+    "R CALÇO DA MA CARA",
+    "R CALCO MA CARA",
+    "R CALCO DA MA CARA",
+    "R CALÇO DA MÁ CARA"
+  ],
+  "centro": [
+    37.75184980418892,
+    -25.669169271585453
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.752192750459045,
+                -25.66927364392709
+              ],
+              [
+                37.75150685791879,
+                -25.669091545562047
+              ],
+              [
+                37.75092993302762,
+                -25.6689317931439
+              ],
+              [
+                37.750461975785555,
+                -25.668794386672666
+              ],
+              [
+                37.75010298619257,
+                -25.668679326148343
+              ],
+              [
+                37.749852964248674,
+                -25.668586611570927
+              ],
+              [
+                37.749711909953874,
+                -25.66851624294042
+              ],
+              [
+                37.74967982330817,
+                -25.668468220256827
+              ],
+              [
+                37.74975670431155,
+                -25.66844254352014
+              ],
+              [
+                37.74994255296403,
+                -25.668439212730355
+              ],
+              [
+                37.750151800942426,
+                -25.668450360950985
+              ],
+              [
+                37.75038444824674,
+                -25.668475988182013
+              ],
+              [
+                37.750640494876976,
+                -25.66851609442345
+              ],
+              [
+                37.75091994083314,
+                -25.66857067967529
+              ],
+              [
+                37.751222786115214,
+                -25.668639743937533
+              ],
+              [
+                37.75154903072321,
+                -25.668723287210188
+              ],
+              [
+                37.75189867465713,
+                -25.66882130949324
+              ],
+              [
+                37.752271717916955,
+                -25.668933810786697
+              ],
+              [
+                37.7526140058478,
+                -25.669041365401146
+              ],
+              [
+                37.752925538449674,
+                -25.66914397333658
+              ],
+              [
+                37.75320631572255,
+                -25.669241634593007
+              ],
+              [
+                37.753456337666435,
+                -25.669334349170423
+              ],
+              [
+                37.75367560428134,
+                -25.669422117068827
+              ],
+              [
+                37.75386411556726,
+                -25.66950493828822
+              ],
+              [
+                37.75402187152419,
+                -25.669582812828605
+              ],
+              [
+                37.75414887215214,
+                -25.669655740689976
+              ],
+              [
+                37.75417426113406,
+                -25.669696790273044
+              ],
+              [
+                37.754098038469955,
+                -25.669705961577808
+              ],
+              [
+                37.753920204159826,
+                -25.669683254604273
+              ],
+              [
+                37.75364075820366,
+                -25.66962866935243
+              ],
+              [
+                37.75325970060148,
+                -25.66954220582229
+              ],
+              [
+                37.752777031353276,
+                -25.669423864013844
+              ],
+              [
+                37.752192750459045,
+                -25.66927364392709
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.75196750023798,
+    -25.66903007744227
+  ],
+  "centroDeMassa": [
+    37.75184980418892,
+    -25.669169271585453
+  ]
+}

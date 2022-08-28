@@ -1,1 +1,529 @@
-{"CP4":"3830","CP3":"153","Distrito":"Aveiro","Concelho":"Ílhavo","CP":"3830-153","Artéria":"Rua de Santo António","Localidade":"Ílhavo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÍLHAVO","locais":[{"id":"pt.ine.add.PTCONT.301469","rua":"R SANTO ANTÓNIO","casa":"6-8-10-12","coordenadas":[40.60045079122106,-8.668803707344415]},{"id":"pt.ine.add.PTCONT.305905","rua":"R SANTO ANTÓNIO","casa":"9","coordenadas":[40.60028864882087,-8.668814227441723]},{"id":"pt.ine.add.PTCONT.309315","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.6008311316305,-8.668345975595466]},{"id":"pt.ine.add.PTCONT.325015","rua":"AV SANTO ANTÓNIO","casa":"1 2","coordenadas":[40.6003057268955,-8.669015209802314]},{"id":"pt.ine.add.PTCONT.341511","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60102269619436,-8.667815846635216]},{"id":"pt.ine.add.PTCONT.41535","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60145651540016,-8.667476677942904]},{"id":"pt.ine.add.PTCONT.48322","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48323","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48324","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48325","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48326","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48327","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48431","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.48432","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.50364","rua":"R STO ANTONIO","casa":"62","coordenadas":[40.601241163663424,-8.667309558083621]},{"id":"pt.ine.add.PTCONT.54845","rua":"R SANTO ANTÓNIO","casa":"11-13-15","coordenadas":[40.60011602166726,-8.66914365363392]},{"id":"pt.ine.add.PTCONT.66042","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60037106208161,-8.668519523263507]},{"id":"pt.ine.add.PTCONT.132605","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60076771431071,-8.668428171638748]},{"id":"pt.ine.add.PTCONT.135360","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60085034548305,-8.66808620835054]},{"id":"pt.ine.add.PTCONT.144163","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60054149731278,-8.668662657286104]},{"id":"pt.ine.add.PTCONT.149912","rua":"R SANTO ANTÓNIO","casa":"65","coordenadas":[40.601555514281536,-8.667489281012221]},{"id":"pt.ine.add.PTCONT.190797","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60031604694563,-8.668731744845758]},{"id":"pt.ine.add.PTCONT.190798","rua":"BC SANTO ANTÓNIO","casa":"","coordenadas":[40.600325599600694,-8.668613676337388]},{"id":"pt.ine.add.PTCONT.204173","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.600858693630826,-8.66822804974096]},{"id":"pt.ine.add.PTCONT.209748","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.600922056082936,-8.668157667540946]},{"id":"pt.ine.add.PTCONT.218149","rua":"R SANTO ANTÓNIO","casa":"46","coordenadas":[40.60093226464673,-8.667897828120575]},{"id":"pt.ine.add.PTCONT.220844","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60166324470896,-8.667561027215026]},{"id":"pt.ine.add.PTCONT.248171","rua":"BC SANTO ANTÓNIO","casa":"21","coordenadas":[40.60045188682565,-8.668567426133379]},{"id":"pt.ine.add.PTCONT.255984","rua":"R SANTO ANTÓNIO","casa":"21","coordenadas":[40.60040642430578,-8.66866157928719]},{"id":"pt.ine.add.PTCONT.280323","rua":"R SANTO ANTÓNIO","casa":"17","coordenadas":[40.60001768077228,-8.668989280618234]},{"id":"pt.ine.add.PTCONT.288161","rua":"R SANTO ANTÓNIO","casa":"","coordenadas":[40.60069534682769,-8.668498481576028]}],"ruas":["R SANTO ANTÓNIO","AV SANTO ANTÓNIO","R STO ANTONIO","BC SANTO ANTÓNIO"],"centroide":[40.60085406785966,-8.668059848084635]}
+{
+  "CP": "3830-153",
+  "CP4": "3830",
+  "CP3": "153",
+  "Distrito": "Aveiro",
+  "Concelho": "Ílhavo",
+  "Localidade": "Ílhavo",
+  "Designação Postal": "ÍLHAVO",
+  "partes": [
+    {
+      "Artéria": "Rua de Santo António",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.301469",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "6-8-10-12",
+      "coordenadas": [
+        40.60045079122106,
+        -8.668803707344415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.305905",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "9",
+      "coordenadas": [
+        40.60028864882087,
+        -8.668814227441723
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.309315",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.6008311316305,
+        -8.668345975595466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.325015",
+      "rua": "AV SANTO ANTÓNIO",
+      "casa": "1 2",
+      "coordenadas": [
+        40.6003057268955,
+        -8.669015209802314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.341511",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60102269619436,
+        -8.667815846635216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41535",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60145651540016,
+        -8.667476677942904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48322",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48323",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48324",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48325",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48326",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48327",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48431",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.48432",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.50364",
+      "rua": "R STO ANTONIO",
+      "casa": "62",
+      "coordenadas": [
+        40.601241163663424,
+        -8.667309558083621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54845",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "11-13-15",
+      "coordenadas": [
+        40.60011602166726,
+        -8.66914365363392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.66042",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60037106208161,
+        -8.668519523263507
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.132605",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60076771431071,
+        -8.668428171638748
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.135360",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60085034548305,
+        -8.66808620835054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.144163",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60054149731278,
+        -8.668662657286104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.149912",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "65",
+      "coordenadas": [
+        40.601555514281536,
+        -8.667489281012221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190797",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60031604694563,
+        -8.668731744845758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190798",
+      "rua": "BC SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.600325599600694,
+        -8.668613676337388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.204173",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.600858693630826,
+        -8.66822804974096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209748",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.600922056082936,
+        -8.668157667540946
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.218149",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "46",
+      "coordenadas": [
+        40.60093226464673,
+        -8.667897828120575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220844",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60166324470896,
+        -8.667561027215026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.248171",
+      "rua": "BC SANTO ANTÓNIO",
+      "casa": "21",
+      "coordenadas": [
+        40.60045188682565,
+        -8.668567426133379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255984",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "21",
+      "coordenadas": [
+        40.60040642430578,
+        -8.66866157928719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.280323",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "17",
+      "coordenadas": [
+        40.60001768077228,
+        -8.668989280618234
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.288161",
+      "rua": "R SANTO ANTÓNIO",
+      "casa": "",
+      "coordenadas": [
+        40.60069534682769,
+        -8.668498481576028
+      ]
+    }
+  ],
+  "ruas": [
+    "R SANTO ANTÓNIO",
+    "AV SANTO ANTÓNIO",
+    "R STO ANTONIO",
+    "BC SANTO ANTÓNIO"
+  ],
+  "centro": [
+    40.60084046274062,
+    -8.66822660585877
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.600072997525714,
+                -8.669076115439559
+              ],
+              [
+                40.60006070491383,
+                -8.669056818812596
+              ],
+              [
+                40.60006906579862,
+                -8.669013688599403
+              ],
+              [
+                40.60009808018006,
+                -8.668946724799977
+              ],
+              [
+                40.60014774805816,
+                -8.668855927414317
+              ],
+              [
+                40.60021806943293,
+                -8.668741296442423
+              ],
+              [
+                40.60030904430434,
+                -8.668602831884296
+              ],
+              [
+                40.60042067267242,
+                -8.668440533739936
+              ],
+              [
+                40.60055295453716,
+                -8.668254402009342
+              ],
+              [
+                40.60070588989855,
+                -8.668044436692515
+              ],
+              [
+                40.60084462006818,
+                -8.66786352521105
+              ],
+              [
+                40.60096914504604,
+                -8.667711667564948
+              ],
+              [
+                40.60107946483213,
+                -8.66758886375421
+              ],
+              [
+                40.60117557942646,
+                -8.667495113778836
+              ],
+              [
+                40.60125748882902,
+                -8.667430417638823
+              ],
+              [
+                40.60132519303982,
+                -8.667394775334172
+              ],
+              [
+                40.601378692058844,
+                -8.667388186864883
+              ],
+              [
+                40.601417985886116,
+                -8.66741065223096
+              ],
+              [
+                40.601454051272896,
+                -8.667431430460692
+              ],
+              [
+                40.6014868882192,
+                -8.667450521554088
+              ],
+              [
+                40.601516496725026,
+                -8.66746792551114
+              ],
+              [
+                40.601542876790376,
+                -8.667483642331852
+              ],
+              [
+                40.60156602841524,
+                -8.667497672016225
+              ],
+              [
+                40.60158595159963,
+                -8.667510014564256
+              ],
+              [
+                40.60160264634354,
+                -8.667520669975946
+              ],
+              [
+                40.60161611264696,
+                -8.667529638251299
+              ],
+              [
+                40.60160668444662,
+                -8.667560207095157
+              ],
+              [
+                40.60157436174252,
+                -8.667612376507522
+              ],
+              [
+                40.60151914453466,
+                -8.667686146488396
+              ],
+              [
+                40.60144103282303,
+                -8.667781517037776
+              ],
+              [
+                40.601340026607645,
+                -8.667898488155664
+              ],
+              [
+                40.60121612588849,
+                -8.66803705984206
+              ],
+              [
+                40.601069330665574,
+                -8.668197232096963
+              ],
+              [
+                40.600899640938884,
+                -8.668379004920377
+              ],
+              [
+                40.600748198283846,
+                -8.66854006307573
+              ],
+              [
+                40.60061500270046,
+                -8.668680406563025
+              ],
+              [
+                40.60050005418871,
+                -8.668800035382263
+              ],
+              [
+                40.60040335274859,
+                -8.668898949533444
+              ],
+              [
+                40.60032489838014,
+                -8.668977149016568
+              ],
+              [
+                40.60026469108332,
+                -8.669034633831634
+              ],
+              [
+                40.60022273085815,
+                -8.669071403978643
+              ],
+              [
+                40.60019901770461,
+                -8.669087459457591
+              ],
+              [
+                40.6001767321188,
+                -8.669099095923304
+              ],
+              [
+                40.60015587410068,
+                -8.669106313375776
+              ],
+              [
+                40.60013644365027,
+                -8.669109111815011
+              ],
+              [
+                40.600118440767574,
+                -8.669107491241007
+              ],
+              [
+                40.60010186545257,
+                -8.669101451653763
+              ],
+              [
+                40.600086717705295,
+                -8.66909099305328
+              ],
+              [
+                40.600072997525714,
+                -8.669076115439559
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.600816558664825,
+    -8.668251335060889
+  ],
+  "centroDeMassa": [
+    40.60084046274062,
+    -8.66822660585877
+  ]
+}

@@ -1,1 +1,415 @@
-{"CP4":"2825","CP3":"089","Distrito":"Setúbal","Concelho":"Almada","CP":"2825-089","Artéria":"Rua Doutor José Ribeiro Toscano Pessoa","Localidade":"Monte de Caparica","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAPARICA","locais":[{"id":"pt.ine.add.PTCONT.4674229","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"12 A","coordenadas":[38.66348829162446,-9.199076804804713]},{"id":"pt.ine.add.PTCONT.4702253","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"14 A","coordenadas":[38.6634407449835,-9.199351839485926]},{"id":"pt.ine.add.PTCONT.4745497","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"10","coordenadas":[38.66340681242961,-9.199121553340003]},{"id":"pt.ine.add.PTCONT.4804097","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"12","coordenadas":[38.66337005264163,-9.199201432280457]},{"id":"pt.ine.add.PTCONT.4853646","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"","coordenadas":[38.66356809554616,-9.199215858079738]},{"id":"pt.ine.add.PTCONT.4865405","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"","coordenadas":[38.66351405528799,-9.199215056746324]},{"id":"pt.ine.add.PTCONT.4866080","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"1","coordenadas":[38.66354641428506,-9.198629588991489]},{"id":"pt.ine.add.PTCONT.4912118","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"14","coordenadas":[38.66337790746551,-9.19932792930611]},{"id":"pt.ine.add.PTCONT.4912316","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"14","coordenadas":[38.66337790746551,-9.19932792930611]},{"id":"pt.ine.add.PTCONT.4949995","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA ANEXO","casa":"1","coordenadas":[38.66350965482818,-9.198709468344772]},{"id":"pt.ine.add.PTCONT.5084689","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"12","coordenadas":[38.6635893545145,-9.198860008887689]},{"id":"pt.ine.add.PTCONT.5085038","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"14 B","coordenadas":[38.66354851131274,-9.19938790520194]},{"id":"pt.ine.add.PTCONT.5096922","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"12 D","coordenadas":[38.66354264597698,-9.199043143187327]},{"id":"pt.ine.add.PTCONT.5098396","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"12 D","coordenadas":[38.66354264597698,-9.199043143187327]},{"id":"pt.ine.add.PTCONT.5126893","rua":"R DR JOSE RIBEIRO TOSCANO PESSOA","casa":"6","coordenadas":[38.66367146163297,-9.198746334122903]}],"ruas":["R DR JOSE RIBEIRO TOSCANO PESSOA","R DR JOSE RIBEIRO TOSCANO PESSOA ANEXO"],"centroide":[38.66348736388135,-9.199107975796425]}
+{
+  "CP": "2825-089",
+  "CP4": "2825",
+  "CP3": "089",
+  "Distrito": "Setúbal",
+  "Concelho": "Almada",
+  "Localidade": "Monte de Caparica",
+  "Designação Postal": "CAPARICA",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor José Ribeiro Toscano Pessoa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4674229",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "12 A",
+      "coordenadas": [
+        38.66348829162446,
+        -9.199076804804713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4702253",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "14 A",
+      "coordenadas": [
+        38.6634407449835,
+        -9.199351839485926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4745497",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "10",
+      "coordenadas": [
+        38.66340681242961,
+        -9.199121553340003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4804097",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "12",
+      "coordenadas": [
+        38.66337005264163,
+        -9.199201432280457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4853646",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "",
+      "coordenadas": [
+        38.66356809554616,
+        -9.199215858079738
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4865405",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "",
+      "coordenadas": [
+        38.66351405528799,
+        -9.199215056746324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4866080",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "1",
+      "coordenadas": [
+        38.66354641428506,
+        -9.198629588991489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4912118",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "14",
+      "coordenadas": [
+        38.66337790746551,
+        -9.19932792930611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4912316",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "14",
+      "coordenadas": [
+        38.66337790746551,
+        -9.19932792930611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4949995",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA ANEXO",
+      "casa": "1",
+      "coordenadas": [
+        38.66350965482818,
+        -9.198709468344772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5084689",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "12",
+      "coordenadas": [
+        38.6635893545145,
+        -9.198860008887689
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5085038",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "14 B",
+      "coordenadas": [
+        38.66354851131274,
+        -9.19938790520194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5096922",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "12 D",
+      "coordenadas": [
+        38.66354264597698,
+        -9.199043143187327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5098396",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "12 D",
+      "coordenadas": [
+        38.66354264597698,
+        -9.199043143187327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5126893",
+      "rua": "R DR JOSE RIBEIRO TOSCANO PESSOA",
+      "casa": "6",
+      "coordenadas": [
+        38.66367146163297,
+        -9.198746334122903
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR JOSE RIBEIRO TOSCANO PESSOA",
+    "R DR JOSE RIBEIRO TOSCANO PESSOA ANEXO"
+  ],
+  "centro": [
+    38.663520757137306,
+    -9.199008747096714
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.66337447098006,
+                -9.199272586857386
+              ],
+              [
+                38.66337348912708,
+                -9.19925677472918
+              ],
+              [
+                38.663374811289884,
+                -9.199235252180504
+              ],
+              [
+                38.66337843746847,
+                -9.199208019211358
+              ],
+              [
+                38.66338436766285,
+                -9.199175075821746
+              ],
+              [
+                38.66339260187302,
+                -9.19913642201166
+              ],
+              [
+                38.66340314009898,
+                -9.199092057781108
+              ],
+              [
+                38.663415982340716,
+                -9.199041983130087
+              ],
+              [
+                38.66343112859825,
+                -9.198986198058595
+              ],
+              [
+                38.66344857887157,
+                -9.198924702566632
+              ],
+              [
+                38.663464422227236,
+                -9.198869645896272
+              ],
+              [
+                38.66347865866525,
+                -9.198821028047512
+              ],
+              [
+                38.66349128818562,
+                -9.19877884902035
+              ],
+              [
+                38.66350231078833,
+                -9.198743108814792
+              ],
+              [
+                38.6635117264734,
+                -9.198713807430831
+              ],
+              [
+                38.66351953524081,
+                -9.19869094486847
+              ],
+              [
+                38.663525737090566,
+                -9.19867452112771
+              ],
+              [
+                38.663530332022674,
+                -9.19866453620855
+              ],
+              [
+                38.66353630645308,
+                -9.198657623546964
+              ],
+              [
+                38.66354366038178,
+                -9.198653783142952
+              ],
+              [
+                38.663552393808786,
+                -9.198653014996511
+              ],
+              [
+                38.66356250673408,
+                -9.198655319107642
+              ],
+              [
+                38.663573999157684,
+                -9.198660695476349
+              ],
+              [
+                38.66358687107957,
+                -9.19866914410263
+              ],
+              [
+                38.66360112249977,
+                -9.198680664986483
+              ],
+              [
+                38.66361675341825,
+                -9.19869525812791
+              ],
+              [
+                38.66362850937318,
+                -9.198718051674769
+              ],
+              [
+                38.66363639036454,
+                -9.198749045627059
+              ],
+              [
+                38.66364039639234,
+                -9.19878823998478
+              ],
+              [
+                38.663640527456565,
+                -9.198835634747933
+              ],
+              [
+                38.66363678355724,
+                -9.198891229916516
+              ],
+              [
+                38.66362916469433,
+                -9.198955025490534
+              ],
+              [
+                38.663617670867865,
+                -9.19902702146998
+              ],
+              [
+                38.66360230207785,
+                -9.199107217854863
+              ],
+              [
+                38.663587170537674,
+                -9.19917682616482
+              ],
+              [
+                38.663572276247365,
+                -9.199235846399851
+              ],
+              [
+                38.66355761920691,
+                -9.199284278559965
+              ],
+              [
+                38.66354319941632,
+                -9.199322122645153
+              ],
+              [
+                38.663529016875586,
+                -9.19934937865542
+              ],
+              [
+                38.66351507158471,
+                -9.199366046590765
+              ],
+              [
+                38.663501363543695,
+                -9.199372126451184
+              ],
+              [
+                38.66348789275254,
+                -9.199367618236682
+              ],
+              [
+                38.66347512397407,
+                -9.199363299952433
+              ],
+              [
+                38.66346305720826,
+                -9.199359171598438
+              ],
+              [
+                38.66345169245513,
+                -9.199355233174694
+              ],
+              [
+                38.663441029714676,
+                -9.199351484681205
+              ],
+              [
+                38.6634310689869,
+                -9.19934792611797
+              ],
+              [
+                38.6634218102718,
+                -9.199344557484986
+              ],
+              [
+                38.663413253569374,
+                -9.199341378782256
+              ],
+              [
+                38.66340539887963,
+                -9.19933839000978
+              ],
+              [
+                38.66339840329448,
+                -9.199333798317836
+              ],
+              [
+                38.663392266813915,
+                -9.199327603706426
+              ],
+              [
+                38.66338698943795,
+                -9.19931980617555
+              ],
+              [
+                38.66338257116659,
+                -9.199310405725209
+              ],
+              [
+                38.66337901199982,
+                -9.1992994023554
+              ],
+              [
+                38.66337631193764,
+                -9.199286796066128
+              ],
+              [
+                38.66337447098006,
+                -9.199272586857386
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.66349496387852,
+    -9.19905064253337
+  ],
+  "centroDeMassa": [
+    38.663520757137306,
+    -9.199008747096714
+  ]
+}

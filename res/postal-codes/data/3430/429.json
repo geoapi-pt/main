@@ -1,1 +1,474 @@
-{"CP4":"3430","CP3":"429","Distrito":"Viseu","Concelho":"Carregal do Sal","CP":"3430-429","Artéria":"Travessa Fernão Gomes de Góis","Localidade":"Oliveira do Conde","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CARREGAL DO SAL","locais":[{"id":"pt.ine.add.PTCONT.5428887","rua":"R SENHORA DA ESPERANÇA","casa":"8","coordenadas":[40.4391530366193,-7.967345914702484]},{"id":"pt.ine.add.PTCONT.5454594","rua":"R FERNÃO GOMES DE GOIS","casa":"","coordenadas":[40.43886448930794,-7.9670873261729]},{"id":"pt.ine.add.PTCONT.5457864","rua":"R FERNÃO GOMES DE GOIS","casa":"","coordenadas":[40.438990328892835,-7.966922009000924]},{"id":"pt.ine.add.PTCONT.5460288","rua":"R FERNÃO GOMES DE GOIS","casa":"12","coordenadas":[40.43925175862024,-7.967109946145519]},{"id":"pt.ine.add.PTCONT.5460289","rua":"R SENHORA DA ESPERANÇA","casa":"","coordenadas":[40.439080739184305,-7.967169298148674]},{"id":"pt.ine.add.PTCONT.5461495","rua":"R SENHORA DA CONCEIÇÃO","casa":"2","coordenadas":[40.439027651824674,-7.967829459534476]},{"id":"pt.ine.add.PTCONT.5479854","rua":"R SENHORA DA ESPERANÇA","casa":"14","coordenadas":[40.43936938762979,-7.967498605556433]},{"id":"pt.ine.add.PTCONT.5490647","rua":"R SENHORA DA ESPERANÇA","casa":"","coordenadas":[40.43911728495448,-7.967534583006992]},{"id":"pt.ine.add.PTCONT.5511260","rua":"R SENHORA DA CONCEIÇÃO","casa":"5","coordenadas":[40.43955050802545,-7.968205342524229]},{"id":"pt.ine.add.PTCONT.5525853","rua":"R SENHORA DA ESPERANÇA","casa":"9","coordenadas":[40.43908095901069,-7.9673225191790396]},{"id":"pt.ine.add.PTCONT.5541708","rua":"R SENHORA DA ESPERANÇA","casa":"5","coordenadas":[40.43902712889079,-7.967464086590211]},{"id":"pt.ine.add.PTCONT.5541976","rua":"R FERNÃO GOMES DE GOIS","casa":"8","coordenadas":[40.43900862769728,-7.96712233039791]},{"id":"pt.ine.add.PTCONT.5559864","rua":"R FERNÃO GOMES DE GOIS","casa":"","coordenadas":[40.43895454406903,-7.96708710465057]},{"id":"pt.ine.add.PTCONT.5567371","rua":"R FERNÃO GOMES DE GOIS","casa":"3","coordenadas":[40.43906250820322,-7.967016121443692]},{"id":"pt.ine.add.PTCONT.5578229","rua":"R SRA CONCEIÇÃO","casa":"","coordenadas":[40.439604658534144,-7.968287714778975]},{"id":"pt.ine.add.PTCONT.5602357","rua":"R FERNÃO GOMES DE GOIS","casa":"","coordenadas":[40.43906237269964,-7.966921831605888]},{"id":"pt.ine.add.PTCONT.5657142","rua":"R SENHORA DA ESPERANÇA","casa":"","coordenadas":[40.438963820205224,-7.967275661899984]},{"id":"pt.ine.add.PTCONT.5662498","rua":"R SENHORA DA ESPERANÇA","casa":"4","coordenadas":[40.43904537614977,-7.967629049565083]},{"id":"pt.ine.add.PTCONT.5668018","rua":"R FERNÃO GOMES DE GOIS","casa":"9","coordenadas":[40.43912561425682,-7.9670631112737516]}],"ruas":["R SENHORA DA ESPERANÇA","R FERNÃO GOMES DE GOIS","R SENHORA DA CONCEIÇÃO","R SRA CONCEIÇÃO"],"centroide":[40.439123065584376,-7.967379383605778]}
+{
+  "CP": "3430-429",
+  "CP4": "3430",
+  "CP3": "429",
+  "Distrito": "Viseu",
+  "Concelho": "Carregal do Sal",
+  "Localidade": "Oliveira do Conde",
+  "Designação Postal": "CARREGAL DO SAL",
+  "partes": [
+    {
+      "Artéria": "Rua Senhora da Esperança",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Senhora da Conceição",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Fernão Gomes de Góis",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Fernão Gomes de Góis",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5428887",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "8",
+      "coordenadas": [
+        40.4391530366193,
+        -7.967345914702484
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5454594",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "",
+      "coordenadas": [
+        40.43886448930794,
+        -7.9670873261729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5457864",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "",
+      "coordenadas": [
+        40.438990328892835,
+        -7.966922009000924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5460288",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "12",
+      "coordenadas": [
+        40.43925175862024,
+        -7.967109946145519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5460289",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "",
+      "coordenadas": [
+        40.439080739184305,
+        -7.967169298148674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5461495",
+      "rua": "R SENHORA DA CONCEIÇÃO",
+      "casa": "2",
+      "coordenadas": [
+        40.439027651824674,
+        -7.967829459534476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5479854",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "14",
+      "coordenadas": [
+        40.43936938762979,
+        -7.967498605556433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5490647",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "",
+      "coordenadas": [
+        40.43911728495448,
+        -7.967534583006992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5511260",
+      "rua": "R SENHORA DA CONCEIÇÃO",
+      "casa": "5",
+      "coordenadas": [
+        40.43955050802545,
+        -7.968205342524229
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5525853",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "9",
+      "coordenadas": [
+        40.43908095901069,
+        -7.9673225191790396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5541708",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "5",
+      "coordenadas": [
+        40.43902712889079,
+        -7.967464086590211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5541976",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "8",
+      "coordenadas": [
+        40.43900862769728,
+        -7.96712233039791
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5559864",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "",
+      "coordenadas": [
+        40.43895454406903,
+        -7.96708710465057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5567371",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "3",
+      "coordenadas": [
+        40.43906250820322,
+        -7.967016121443692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5578229",
+      "rua": "R SRA CONCEIÇÃO",
+      "casa": "",
+      "coordenadas": [
+        40.439604658534144,
+        -7.968287714778975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5602357",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "",
+      "coordenadas": [
+        40.43906237269964,
+        -7.966921831605888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5657142",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "",
+      "coordenadas": [
+        40.438963820205224,
+        -7.967275661899984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5662498",
+      "rua": "R SENHORA DA ESPERANÇA",
+      "casa": "4",
+      "coordenadas": [
+        40.43904537614977,
+        -7.967629049565083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5668018",
+      "rua": "R FERNÃO GOMES DE GOIS",
+      "casa": "9",
+      "coordenadas": [
+        40.43912561425682,
+        -7.9670631112737516
+      ]
+    }
+  ],
+  "ruas": [
+    "R SENHORA DA ESPERANÇA",
+    "R FERNÃO GOMES DE GOIS",
+    "R SENHORA DA CONCEIÇÃO",
+    "R SRA CONCEIÇÃO"
+  ],
+  "centro": [
+    40.43923457392104,
+    -7.9676047731924315
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.4389562682236,
+                -7.967504776188786
+              ],
+              [
+                40.438935872909006,
+                -7.96741200951859
+              ],
+              [
+                40.438919993252256,
+                -7.967328255601355
+              ],
+              [
+                40.43890862925333,
+                -7.967253514437082
+              ],
+              [
+                40.43890178091226,
+                -7.9671877860257725
+              ],
+              [
+                40.43889944822902,
+                -7.967131070367426
+              ],
+              [
+                40.43890163120362,
+                -7.967083367462042
+              ],
+              [
+                40.43890832983605,
+                -7.9670446773096195
+              ],
+              [
+                40.43891954412633,
+                -7.96701499991016
+              ],
+              [
+                40.438935274074446,
+                -7.966994335263663
+              ],
+              [
+                40.438950163463524,
+                -7.96697625092618
+              ],
+              [
+                40.43896421229357,
+                -7.966960746897714
+              ],
+              [
+                40.438977420564584,
+                -7.966947823178261
+              ],
+              [
+                40.438989788276565,
+                -7.966937479767822
+              ],
+              [
+                40.439001315429515,
+                -7.966929716666399
+              ],
+              [
+                40.439012002023425,
+                -7.966924533873989
+              ],
+              [
+                40.43902184805831,
+                -7.966921931390595
+              ],
+              [
+                40.43903085353416,
+                -7.966921909216217
+              ],
+              [
+                40.439041692480544,
+                -7.966924829103317
+              ],
+              [
+                40.439054364897444,
+                -7.966930691051895
+              ],
+              [
+                40.43906887078488,
+                -7.966939495061953
+              ],
+              [
+                40.43908521014285,
+                -7.966951241133491
+              ],
+              [
+                40.43910338297134,
+                -7.9669659292665065
+              ],
+              [
+                40.43912338927035,
+                -7.966983559461002
+              ],
+              [
+                40.4391452290399,
+                -7.967004131716977
+              ],
+              [
+                40.439168902279974,
+                -7.96702764603443
+              ],
+              [
+                40.43919145431832,
+                -7.967054293865498
+              ],
+              [
+                40.439212885154916,
+                -7.96708407521018
+              ],
+              [
+                40.439233194789786,
+                -7.967116990068475
+              ],
+              [
+                40.43925238322293,
+                -7.967153038440384
+              ],
+              [
+                40.43927045045433,
+                -7.967192220325907
+              ],
+              [
+                40.43928739648399,
+                -7.967234535725043
+              ],
+              [
+                40.43930322131192,
+                -7.967279984637794
+              ],
+              [
+                40.43931792493811,
+                -7.9673285670641585
+              ],
+              [
+                40.439334466718904,
+                -7.967383406518829
+              ],
+              [
+                40.439352846654316,
+                -7.967444503001807
+              ],
+              [
+                40.43937306474432,
+                -7.967511856513092
+              ],
+              [
+                40.43939512098894,
+                -7.9675854670526824
+              ],
+              [
+                40.43941901538817,
+                -7.9676653346205795
+              ],
+              [
+                40.439444747942,
+                -7.967751459216785
+              ],
+              [
+                40.43947231865044,
+                -7.9678438408412955
+              ],
+              [
+                40.439501727513495,
+                -7.967942479494114
+              ],
+              [
+                40.43951844453882,
+                -7.968021628077134
+              ],
+              [
+                40.439522469726434,
+                -7.9680812865903565
+              ],
+              [
+                40.43951380307633,
+                -7.968121455033781
+              ],
+              [
+                40.43949244458851,
+                -7.968142133407408
+              ],
+              [
+                40.43945839426298,
+                -7.9681433217112385
+              ],
+              [
+                40.43941165209972,
+                -7.968125019945272
+              ],
+              [
+                40.439352218098755,
+                -7.968087228109507
+              ],
+              [
+                40.43928009226007,
+                -7.968029946203943
+              ],
+              [
+                40.4392144327369,
+                -7.9679682287028015
+              ],
+              [
+                40.439155239529235,
+                -7.96790207560608
+              ],
+              [
+                40.439102512637085,
+                -7.967831486913781
+              ],
+              [
+                40.439056252060446,
+                -7.967756462625902
+              ],
+              [
+                40.43901645779932,
+                -7.967677002742443
+              ],
+              [
+                40.4389831298537,
+                -7.967593107263404
+              ],
+              [
+                40.4389562682236,
+                -7.967504776188786
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.43916723535846,
+    -7.967379556113587
+  ],
+  "centroDeMassa": [
+    40.43923457392104,
+    -7.9676047731924315
+  ]
+}

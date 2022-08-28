@@ -1,1 +1,360 @@
-{"CP4":"6090","CP3":"577","Distrito":"Castelo Branco","Concelho":"Penamacor","CP":"6090-577","Artéria":"Rua Major André Bastos","Localidade":"Penamacor","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PENAMACOR","locais":[{"id":"pt.ine.add.PTCONT.954704","rua":"R MAJOR ANDRÉ BASTOS","casa":"15","coordenadas":[40.16731412073511,-7.169437841898856]},{"id":"pt.ine.add.PTCONT.961308","rua":"R MAJOR ANDRÉ BASTOS","casa":"30","coordenadas":[40.16752220487806,-7.169552288026121]},{"id":"pt.ine.add.PTCONT.985776","rua":"R MAJOR ANDRÉ BASTOS","casa":"34","coordenadas":[40.1675761351576,-7.169539786487307]},{"id":"pt.ine.add.PTCONT.988521","rua":"R MAJOR ANDRÉ BASTOS","casa":"11","coordenadas":[40.16744223741338,-7.169682546586515]},{"id":"pt.ine.add.PTCONT.1003166","rua":"R MAJOR ANDRÉ BASTOS","casa":"1","coordenadas":[40.16708400415003,-7.169922388104288]},{"id":"pt.ine.add.PTCONT.1008418","rua":"R MAJOR ANDRÉ BASTOS","casa":"10","coordenadas":[40.167262144173975,-7.1696850929256515]},{"id":"pt.ine.add.PTCONT.1012241","rua":"R MAJOR ANDRÉ BASTOS","casa":"1","coordenadas":[40.16702880429825,-7.169782302600031]},{"id":"pt.ine.add.PTCONT.1012319","rua":"R MAJOR ANDRÉ BASTOS","casa":"9","coordenadas":[40.167218292858614,-7.1698265791006595]},{"id":"pt.ine.add.PTCONT.1016725","rua":"R MAJOR ANDRÉ BASTOS","casa":"17","coordenadas":[40.16750517237082,-7.1696699178470045]},{"id":"pt.ine.add.PTCONT.1027147","rua":"R MAJOR ANDRÉ BASTOS","casa":"36","coordenadas":[40.167629576968636,-7.169468597246665]},{"id":"pt.ine.add.PTCONT.1027883","rua":"R MAJOR ANDRÉ BASTOS","casa":"22","coordenadas":[40.16737861871496,-7.1696130128465585]},{"id":"pt.ine.add.PTCONT.1044956","rua":"R MAJOR ANDRÉ BASTOS","casa":"8","coordenadas":[40.167154478910874,-7.169733570538389]},{"id":"pt.ine.add.PTCONT.1059817","rua":"R MAJOR ANDRÉ BASTOS","casa":"26","coordenadas":[40.16730609300135,-7.169555344052057]},{"id":"pt.ine.add.PTCONT.1062950","rua":"R ANTÓNIO NUNES RIBEIRO SANCHES","casa":"","coordenadas":[40.16772079585075,-7.169608174400735]},{"id":"pt.ine.add.PTCONT.1070112","rua":"R MAJOR ANDRÉ BASTOS","casa":"4","coordenadas":[40.167091348604814,-7.1697227242591355]},{"id":"pt.ine.add.PTCONT.1099529","rua":"R MAJOR ANDRÉ BASTOS","casa":"20","coordenadas":[40.167324786103755,-7.1696372517723725]}],"ruas":["R MAJOR ANDRÉ BASTOS","R ANTÓNIO NUNES RIBEIRO SANCHES"],"centroide":[40.167348935205816,-7.16965334446133]}
+{
+  "CP": "6090-577",
+  "CP4": "6090",
+  "CP3": "577",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Penamacor",
+  "Localidade": "Penamacor",
+  "Designação Postal": "PENAMACOR",
+  "partes": [
+    {
+      "Artéria": "Rua Major André Bastos",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.954704",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "15",
+      "coordenadas": [
+        40.16731412073511,
+        -7.169437841898856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.961308",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "30",
+      "coordenadas": [
+        40.16752220487806,
+        -7.169552288026121
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.985776",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "34",
+      "coordenadas": [
+        40.1675761351576,
+        -7.169539786487307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.988521",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "11",
+      "coordenadas": [
+        40.16744223741338,
+        -7.169682546586515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1003166",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "1",
+      "coordenadas": [
+        40.16708400415003,
+        -7.169922388104288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1008418",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "10",
+      "coordenadas": [
+        40.167262144173975,
+        -7.1696850929256515
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1012241",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "1",
+      "coordenadas": [
+        40.16702880429825,
+        -7.169782302600031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1012319",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "9",
+      "coordenadas": [
+        40.167218292858614,
+        -7.1698265791006595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1016725",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "17",
+      "coordenadas": [
+        40.16750517237082,
+        -7.1696699178470045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1027147",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "36",
+      "coordenadas": [
+        40.167629576968636,
+        -7.169468597246665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1027883",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "22",
+      "coordenadas": [
+        40.16737861871496,
+        -7.1696130128465585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1044956",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "8",
+      "coordenadas": [
+        40.167154478910874,
+        -7.169733570538389
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1059817",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "26",
+      "coordenadas": [
+        40.16730609300135,
+        -7.169555344052057
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1062950",
+      "rua": "R ANTÓNIO NUNES RIBEIRO SANCHES",
+      "casa": "",
+      "coordenadas": [
+        40.16772079585075,
+        -7.169608174400735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1070112",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "4",
+      "coordenadas": [
+        40.167091348604814,
+        -7.1697227242591355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1099529",
+      "rua": "R MAJOR ANDRÉ BASTOS",
+      "casa": "20",
+      "coordenadas": [
+        40.167324786103755,
+        -7.1696372517723725
+      ]
+    }
+  ],
+  "ruas": [
+    "R MAJOR ANDRÉ BASTOS",
+    "R ANTÓNIO NUNES RIBEIRO SANCHES"
+  ],
+  "centro": [
+    40.1673748000745,
+    -7.169680115001572
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.16705985421488,
+                -7.169861100696175
+              ],
+              [
+                40.167052954233405,
+                -7.169843590008144
+              ],
+              [
+                40.16705137481894,
+                -7.169822885957659
+              ],
+              [
+                40.16705511597149,
+                -7.1697989885447235
+              ],
+              [
+                40.167064177691046,
+                -7.169771897769336
+              ],
+              [
+                40.16707855997761,
+                -7.169741613631496
+              ],
+              [
+                40.16709826283119,
+                -7.169708136131205
+              ],
+              [
+                40.16712328625178,
+                -7.169671465268462
+              ],
+              [
+                40.167153630239376,
+                -7.1696316010432675
+              ],
+              [
+                40.16718929479398,
+                -7.16958854345562
+              ],
+              [
+                40.16722543028291,
+                -7.1695513486187386
+              ],
+              [
+                40.16726203670616,
+                -7.169520016532623
+              ],
+              [
+                40.16729911406374,
+                -7.169494547197272
+              ],
+              [
+                40.16733666235564,
+                -7.1694749406126865
+              ],
+              [
+                40.16737468158186,
+                -7.169461196778867
+              ],
+              [
+                40.1674131717424,
+                -7.169453315695812
+              ],
+              [
+                40.167452132837276,
+                -7.169451297363523
+              ],
+              [
+                40.16749156486647,
+                -7.169455141781999
+              ],
+              [
+                40.167527493187045,
+                -7.169460686541197
+              ],
+              [
+                40.167559917799004,
+                -7.169467931641119
+              ],
+              [
+                40.16758883870235,
+                -7.169476877081764
+              ],
+              [
+                40.16761425589707,
+                -7.169487522863132
+              ],
+              [
+                40.16763616938319,
+                -7.169499868985222
+              ],
+              [
+                40.16765457916068,
+                -7.169513915448036
+              ],
+              [
+                40.16766948522956,
+                -7.169529662251572
+              ],
+              [
+                40.167680887589825,
+                -7.169547109395829
+              ],
+              [
+                40.167680914784725,
+                -7.169567285236173
+              ],
+              [
+                40.16766956681428,
+                -7.169590189772604
+              ],
+              [
+                40.167646843678476,
+                -7.16961582300512
+              ],
+              [
+                40.16761274537731,
+                -7.16964418493372
+              ],
+              [
+                40.1675672719108,
+                -7.169675275558407
+              ],
+              [
+                40.16751042327891,
+                -7.169709094879181
+              ],
+              [
+                40.167442199481684,
+                -7.169745642896039
+              ],
+              [
+                40.16736260051909,
+                -7.169784919608983
+              ],
+              [
+                40.167292088929145,
+                -7.169817097896805
+              ],
+              [
+                40.16723066471182,
+                -7.169842177759506
+              ],
+              [
+                40.167178327867155,
+                -7.169860159197084
+              ],
+              [
+                40.16713507839513,
+                -7.1698710422095395
+              ],
+              [
+                40.16710091629574,
+                -7.169874826796873
+              ],
+              [
+                40.16707584156899,
+                -7.1698715129590855
+              ],
+              [
+                40.16705985421488,
+                -7.169861100696175
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.16735546040056,
+    -7.169643860850115
+  ],
+  "centroDeMassa": [
+    40.1673748000745,
+    -7.169680115001572
+  ]
+}

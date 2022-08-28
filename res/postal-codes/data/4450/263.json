@@ -1,1 +1,517 @@
-{"CP4":"4450","CP3":"263","Distrito":"Porto","Concelho":"Matosinhos","CP":"4450-263","Artéria":"Rua Conde São Salvador","Localidade":"Matosinhos","Local":"","Troço":"Pares de 10 a 188","Porta":"","Cliente":"","Designação Postal":"MATOSINHOS","locais":[{"id":"pt.ine.add.PTCONT.3542971","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184281031889,-8.695571557713519]},{"id":"pt.ine.add.PTCONT.3577515","rua":"R CONDE S SALVADOR","casa":"42-46","coordenadas":[41.18471008877681,-8.695829467448085]},{"id":"pt.ine.add.PTCONT.3650795","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184563631755054,-8.695753817279432]},{"id":"pt.ine.add.PTCONT.3670542","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18427543497192,-8.695438576908138]},{"id":"pt.ine.add.PTCONT.3670543","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184401633661366,-8.695737627434069]},{"id":"pt.ine.add.PTCONT.3686463","rua":"R CONDE S SALVADOR","casa":"22","coordenadas":[41.18460793465136,-8.696005167460491]},{"id":"pt.ine.add.PTCONT.3709369","rua":"R CONDE S SALVADOR","casa":"183","coordenadas":[41.18442491985882,-8.695608545467884]},{"id":"pt.ine.add.PTCONT.3729271","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.1842185282992,-8.695463753649904]},{"id":"pt.ine.add.PTCONT.3765641","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184461302163605,-8.695816186350292]},{"id":"pt.ine.add.PTCONT.3771442","rua":"R CONDE S SALVADOR","casa":"114","coordenadas":[41.18511183534053,-8.695078070371732]},{"id":"pt.ine.add.PTCONT.3771443","rua":"R CONDE S SALVADOR","casa":"114","coordenadas":[41.18511183534053,-8.695078070371732]},{"id":"pt.ine.add.PTCONT.3771561","rua":"R CONDE S SALVADOR","casa":"114","coordenadas":[41.18511183534053,-8.695078070371732]},{"id":"pt.ine.add.PTCONT.3788020","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.1842481933133,-8.69553042738571]},{"id":"pt.ine.add.PTCONT.3830546","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18437821043069,-8.695553168948452]},{"id":"pt.ine.add.PTCONT.3837795","rua":"R CONDE S SALVADOR","casa":"182","coordenadas":[41.18543899857585,-8.694461078209281]},{"id":"pt.ine.add.PTCONT.3855874","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184367007497436,-8.69567591213039]},{"id":"pt.ine.add.PTCONT.3883907","rua":"R CONDE S SALVADOR","casa":"56","coordenadas":[41.184807448914604,-8.695669587548092]},{"id":"pt.ine.add.PTCONT.3883908","rua":"R CONDE S SALVADOR","casa":"56","coordenadas":[41.184807448914604,-8.695669587548092]},{"id":"pt.ine.add.PTCONT.3923790","rua":"R CONDE S SALVADOR","casa":"50","coordenadas":[41.1847411466617,-8.695701126037267]},{"id":"pt.ine.add.PTCONT.3971197","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18446070265926,-8.695656527067033]},{"id":"pt.ine.add.PTCONT.4030158","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18454018052094,-8.69569363844808]},{"id":"pt.ine.add.PTCONT.4036842","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18439526192608,-8.69558541942647]},{"id":"pt.ine.add.PTCONT.4045369","rua":"R CONDE S SALVADOR","casa":"16","coordenadas":[41.18458687696672,-8.696079092706853]},{"id":"pt.ine.add.PTCONT.4117638","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18447075126965,-8.695874419305145]},{"id":"pt.ine.add.PTCONT.4153943","rua":"R CONDE S SALVADOR","casa":"162","coordenadas":[41.18535720807495,-8.694615326827481]},{"id":"pt.ine.add.PTCONT.4210065","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184316872916064,-8.695607620863697]},{"id":"pt.ine.add.PTCONT.4222326","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.18443310872161,-8.695775479335673]},{"id":"pt.ine.add.PTCONT.4222327","rua":"R CONDE S SALVADOR","casa":"30","coordenadas":[41.18464013781184,-8.695953349386173]},{"id":"pt.ine.add.PTCONT.4228611","rua":"R CONDE S SALVADOR","casa":"176","coordenadas":[41.18541163826855,-8.694532358664523]},{"id":"pt.ine.add.PTCONT.4320874","rua":"R CONDE S SALVADOR","casa":"34","coordenadas":[41.184499297289406,-8.695738463379222]}],"ruas":["R CONDE S SALVADOR"],"centroide":[41.18464417949975,-8.695520449333292]}
+{
+  "CP": "4450-263",
+  "CP4": "4450",
+  "CP3": "263",
+  "Distrito": "Porto",
+  "Concelho": "Matosinhos",
+  "Localidade": "Matosinhos",
+  "Designação Postal": "MATOSINHOS",
+  "partes": [
+    {
+      "Artéria": "Rua Conde São Salvador",
+      "Local": "",
+      "Troço": "Pares de 10 a 188",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3542971",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184281031889,
+        -8.695571557713519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3577515",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "42-46",
+      "coordenadas": [
+        41.18471008877681,
+        -8.695829467448085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3650795",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184563631755054,
+        -8.695753817279432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3670542",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18427543497192,
+        -8.695438576908138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3670543",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184401633661366,
+        -8.695737627434069
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3686463",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "22",
+      "coordenadas": [
+        41.18460793465136,
+        -8.696005167460491
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3709369",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "183",
+      "coordenadas": [
+        41.18442491985882,
+        -8.695608545467884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3729271",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.1842185282992,
+        -8.695463753649904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3765641",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184461302163605,
+        -8.695816186350292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771442",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "114",
+      "coordenadas": [
+        41.18511183534053,
+        -8.695078070371732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771443",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "114",
+      "coordenadas": [
+        41.18511183534053,
+        -8.695078070371732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3771561",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "114",
+      "coordenadas": [
+        41.18511183534053,
+        -8.695078070371732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3788020",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.1842481933133,
+        -8.69553042738571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3830546",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18437821043069,
+        -8.695553168948452
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3837795",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "182",
+      "coordenadas": [
+        41.18543899857585,
+        -8.694461078209281
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3855874",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184367007497436,
+        -8.69567591213039
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3883907",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "56",
+      "coordenadas": [
+        41.184807448914604,
+        -8.695669587548092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3883908",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "56",
+      "coordenadas": [
+        41.184807448914604,
+        -8.695669587548092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3923790",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "50",
+      "coordenadas": [
+        41.1847411466617,
+        -8.695701126037267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3971197",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18446070265926,
+        -8.695656527067033
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4030158",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18454018052094,
+        -8.69569363844808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4036842",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18439526192608,
+        -8.69558541942647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4045369",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "16",
+      "coordenadas": [
+        41.18458687696672,
+        -8.696079092706853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4117638",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18447075126965,
+        -8.695874419305145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4153943",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "162",
+      "coordenadas": [
+        41.18535720807495,
+        -8.694615326827481
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4210065",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184316872916064,
+        -8.695607620863697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4222326",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.18443310872161,
+        -8.695775479335673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4222327",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "30",
+      "coordenadas": [
+        41.18464013781184,
+        -8.695953349386173
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4228611",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "176",
+      "coordenadas": [
+        41.18541163826855,
+        -8.694532358664523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4320874",
+      "rua": "R CONDE S SALVADOR",
+      "casa": "34",
+      "coordenadas": [
+        41.184499297289406,
+        -8.695738463379222
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONDE S SALVADOR"
+  ],
+  "centro": [
+    41.18482876343752,
+    -8.695270085458066
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.18423521486963,
+                -8.695501257626296
+              ],
+              [
+                41.18423150674287,
+                -8.69549292340932
+              ],
+              [
+                41.184247331980025,
+                -8.695469964165707
+              ],
+              [
+                41.18428269058109,
+                -8.695432379895456
+              ],
+              [
+                41.184337582546085,
+                -8.695380170598566
+              ],
+              [
+                41.184412007875,
+                -8.695313336275037
+              ],
+              [
+                41.184505966567826,
+                -8.695231876924872
+              ],
+              [
+                41.18461945862457,
+                -8.69513579254807
+              ],
+              [
+                41.184752484045234,
+                -8.69502508314463
+              ],
+              [
+                41.18490504282981,
+                -8.694899748714553
+              ],
+              [
+                41.185038104261515,
+                -8.69479119484535
+              ],
+              [
+                41.18515166834035,
+                -8.694699421537017
+              ],
+              [
+                41.18524573506631,
+                -8.694624428789558
+              ],
+              [
+                41.1853203044394,
+                -8.694566216602972
+              ],
+              [
+                41.18537537645961,
+                -8.694524784977258
+              ],
+              [
+                41.18541095112695,
+                -8.694500133912419
+              ],
+              [
+                41.18542702844141,
+                -8.694492263408451
+              ],
+              [
+                41.185423608402985,
+                -8.694501173465353
+              ],
+              [
+                41.18541117541072,
+                -8.69452673896645
+              ],
+              [
+                41.1853897294646,
+                -8.694568959911742
+              ],
+              [
+                41.18535927056463,
+                -8.694627836301224
+              ],
+              [
+                41.18531979871081,
+                -8.6947033681349
+              ],
+              [
+                41.18527131390313,
+                -8.69479555541277
+              ],
+              [
+                41.185213816141584,
+                -8.694904398134831
+              ],
+              [
+                41.1851473054262,
+                -8.695029896301085
+              ],
+              [
+                41.18507178175695,
+                -8.69517204991153
+              ],
+              [
+                41.18500225210968,
+                -8.695302832838777
+              ],
+              [
+                41.184938716484375,
+                -8.69542224508282
+              ],
+              [
+                41.18488117488104,
+                -8.695530286643667
+              ],
+              [
+                41.18482962729968,
+                -8.695626957521313
+              ],
+              [
+                41.18478407374028,
+                -8.695712257715758
+              ],
+              [
+                41.18474451420286,
+                -8.695786187227004
+              ],
+              [
+                41.1847109486874,
+                -8.695848746055049
+              ],
+              [
+                41.18468337719392,
+                -8.695899934199897
+              ],
+              [
+                41.18465396020503,
+                -8.695936150930994
+              ],
+              [
+                41.184622697720755,
+                -8.69595739624834
+              ],
+              [
+                41.18458958974107,
+                -8.69596367015194
+              ],
+              [
+                41.184554636265986,
+                -8.695954972641792
+              ],
+              [
+                41.18451783729551,
+                -8.695931303717893
+              ],
+              [
+                41.18447919282963,
+                -8.695892663380247
+              ],
+              [
+                41.18443870286835,
+                -8.695839051628854
+              ],
+              [
+                41.18439636741168,
+                -8.69577046846371
+              ],
+              [
+                41.18435886037124,
+                -8.695709416417088
+              ],
+              [
+                41.18432618174704,
+                -8.695655895488988
+              ],
+              [
+                41.18429833153908,
+                -8.695609905679408
+              ],
+              [
+                41.184275309747356,
+                -8.695571446988346
+              ],
+              [
+                41.184257116371874,
+                -8.695540519415808
+              ],
+              [
+                41.18424375141264,
+                -8.695517122961792
+              ],
+              [
+                41.18423521486963,
+                -8.695501257626296
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.18478528072304,
+    -8.695289383027394
+  ],
+  "centroDeMassa": [
+    41.18482876343752,
+    -8.695270085458066
+  ]
+}

@@ -1,1 +1,415 @@
-{"CP4":"2950","CP3":"611","Distrito":"Setúbal","Concelho":"Palmela","CP":"2950-611","Artéria":"Rua Fonte dos Pintos","Localidade":"Quinta do Anjo","Local":"Cabanas","Troço":"","Porta":"","Cliente":"","Designação Postal":"QUINTA DO ANJO","locais":[{"id":"pt.ine.add.PTCONT.4743717","rua":"R FONTE PINTOS","casa":"10","coordenadas":[38.55129840492036,-8.973944420812773]},{"id":"pt.ine.add.PTCONT.4752540","rua":"R FONTE PINTOS VBATISTA","casa":"VBATISTA","coordenadas":[38.55126750905124,-8.974483218600914]},{"id":"pt.ine.add.PTCONT.4790749","rua":"R FONTE DOS PINTOS 4 VIVENDA A","casa":"","coordenadas":[38.55261996508056,-8.975565845894597]},{"id":"pt.ine.add.PTCONT.4819256","rua":"R FONTE PINTOS VBATISTA","casa":"VBATISTA","coordenadas":[38.5511672725834,-8.974642650266594]},{"id":"pt.ine.add.PTCONT.4836793","rua":"SERRA DO LOURO QTA DA SERRA","casa":"","coordenadas":[38.54792791445273,-8.969110325385579]},{"id":"pt.ine.add.PTCONT.4840231","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.55153781566252,-8.974474897580386]},{"id":"pt.ine.add.PTCONT.4896955","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.55008244378349,-8.97266842051893]},{"id":"pt.ine.add.PTCONT.4900787","rua":"R FONTE PINTOS","casa":"","coordenadas":[38.55120602290012,-8.974264544816524]},{"id":"pt.ine.add.PTCONT.4961779","rua":"SERRA DO LOURO","casa":"","coordenadas":[38.549955914750036,-8.961344839445028]},{"id":"pt.ine.add.PTCONT.4968835","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.55212049766106,-8.974871722410812]},{"id":"pt.ine.add.PTCONT.5016385","rua":"R FONTE DOS PINTOS QTA DO MOINHO VELHO","casa":"CCI 9501","coordenadas":[38.550463568641895,-8.959618494160408]},{"id":"pt.ine.add.PTCONT.5033936","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.5523263496455,-8.97505766853722]},{"id":"pt.ine.add.PTCONT.5040567","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.55279251014345,-8.975372841036673]},{"id":"pt.ine.add.PTCONT.5042028","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.55145732546217,-8.974393659178288]},{"id":"pt.ine.add.PTCONT.5072621","rua":"R FONTE DOS PINTOS","casa":"3","coordenadas":[38.55269351052204,-8.975360214244006]},{"id":"pt.ine.add.PTCONT.5078515","rua":"R FONTE DOS PINTOS","casa":"","coordenadas":[38.55146484898058,-8.97460023332669]},{"id":"pt.ine.add.PTCONT.5110092","rua":"R FONTE DOS PINTOS","casa":"6","coordenadas":[38.55247319100568,-8.974680817413379]},{"id":"pt.ine.add.PTCONT.5110129","rua":"R FONTE PINTOS","casa":"18","coordenadas":[38.55065203237334,-8.97488901357664]}],"ruas":["R FONTE PINTOS","R FONTE PINTOS VBATISTA","R FONTE DOS PINTOS 4 VIVENDA A","SERRA DO LOURO QTA DA SERRA","R FONTE DOS PINTOS","SERRA DO LOURO","R FONTE DOS PINTOS QTA DO MOINHO VELHO"],"centroide":[38.551344415602756,-8.972614989036988]}
+{
+  "CP": "2950-611",
+  "CP4": "2950",
+  "CP3": "611",
+  "Distrito": "Setúbal",
+  "Concelho": "Palmela",
+  "Localidade": "Quinta do Anjo",
+  "Designação Postal": "QUINTA DO ANJO",
+  "partes": [
+    {
+      "Artéria": "Rua Fonte dos Pintos",
+      "Local": "Cabanas",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4743717",
+      "rua": "R FONTE PINTOS",
+      "casa": "10",
+      "coordenadas": [
+        38.55129840492036,
+        -8.973944420812773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4752540",
+      "rua": "R FONTE PINTOS VBATISTA",
+      "casa": "VBATISTA",
+      "coordenadas": [
+        38.55126750905124,
+        -8.974483218600914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4790749",
+      "rua": "R FONTE DOS PINTOS 4 VIVENDA A",
+      "casa": "",
+      "coordenadas": [
+        38.55261996508056,
+        -8.975565845894597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4819256",
+      "rua": "R FONTE PINTOS VBATISTA",
+      "casa": "VBATISTA",
+      "coordenadas": [
+        38.5511672725834,
+        -8.974642650266594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4836793",
+      "rua": "SERRA DO LOURO QTA DA SERRA",
+      "casa": "",
+      "coordenadas": [
+        38.54792791445273,
+        -8.969110325385579
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4840231",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55153781566252,
+        -8.974474897580386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4896955",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55008244378349,
+        -8.97266842051893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4900787",
+      "rua": "R FONTE PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55120602290012,
+        -8.974264544816524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4961779",
+      "rua": "SERRA DO LOURO",
+      "casa": "",
+      "coordenadas": [
+        38.549955914750036,
+        -8.961344839445028
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968835",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55212049766106,
+        -8.974871722410812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5016385",
+      "rua": "R FONTE DOS PINTOS QTA DO MOINHO VELHO",
+      "casa": "CCI 9501",
+      "coordenadas": [
+        38.550463568641895,
+        -8.959618494160408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5033936",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.5523263496455,
+        -8.97505766853722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5040567",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55279251014345,
+        -8.975372841036673
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5042028",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55145732546217,
+        -8.974393659178288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5072621",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "3",
+      "coordenadas": [
+        38.55269351052204,
+        -8.975360214244006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5078515",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "",
+      "coordenadas": [
+        38.55146484898058,
+        -8.97460023332669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5110092",
+      "rua": "R FONTE DOS PINTOS",
+      "casa": "6",
+      "coordenadas": [
+        38.55247319100568,
+        -8.974680817413379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5110129",
+      "rua": "R FONTE PINTOS",
+      "casa": "18",
+      "coordenadas": [
+        38.55065203237334,
+        -8.97488901357664
+      ]
+    }
+  ],
+  "ruas": [
+    "R FONTE PINTOS",
+    "R FONTE PINTOS VBATISTA",
+    "R FONTE DOS PINTOS 4 VIVENDA A",
+    "SERRA DO LOURO QTA DA SERRA",
+    "R FONTE DOS PINTOS",
+    "SERRA DO LOURO",
+    "R FONTE DOS PINTOS QTA DO MOINHO VELHO"
+  ],
+  "centro": [
+    38.55036021229809,
+    -8.967592170027501
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.549460230783076,
+                -8.97236083749305
+              ],
+              [
+                38.549119716042995,
+                -8.971638501469169
+              ],
+              [
+                38.54885345315007,
+                -8.97088512173045
+              ],
+              [
+                38.54866144210431,
+                -8.970100698276894
+              ],
+              [
+                38.5485436829057,
+                -8.969285231108504
+              ],
+              [
+                38.54850017555424,
+                -8.96843872022528
+              ],
+              [
+                38.54853092004994,
+                -8.967561165627217
+              ],
+              [
+                38.54863591639279,
+                -8.96665256731432
+              ],
+              [
+                38.5488151645828,
+                -8.965712925286587
+              ],
+              [
+                38.549068664619966,
+                -8.96474223954402
+              ],
+              [
+                38.54929840924454,
+                -8.9638659153742
+              ],
+              [
+                38.549504398456534,
+                -8.963083952777128
+              ],
+              [
+                38.54968663225594,
+                -8.962396351752806
+              ],
+              [
+                38.54984511064277,
+                -8.961803112301233
+              ],
+              [
+                38.54997983361701,
+                -8.96130423442241
+              ],
+              [
+                38.55009080117866,
+                -8.960899718116334
+              ],
+              [
+                38.55017801332773,
+                -8.960589563383007
+              ],
+              [
+                38.5502414700642,
+                -8.960373770222429
+              ],
+              [
+                38.55033338441959,
+                -8.960431112876865
+              ],
+              [
+                38.55045375639387,
+                -8.960761591346316
+              ],
+              [
+                38.55060258598706,
+                -8.961365205630779
+              ],
+              [
+                38.55077987319915,
+                -8.962241955730256
+              ],
+              [
+                38.55098561803013,
+                -8.963391841644748
+              ],
+              [
+                38.55121982048003,
+                -8.964814863374254
+              ],
+              [
+                38.55148248054882,
+                -8.966511020918773
+              ],
+              [
+                38.551773598236515,
+                -8.968480314278308
+              ],
+              [
+                38.55202563019664,
+                -8.970206461668804
+              ],
+              [
+                38.5522385764292,
+                -8.971689463090264
+              ],
+              [
+                38.55241243693418,
+                -8.972929318542686
+              ],
+              [
+                38.5525472117116,
+                -8.973926028026074
+              ],
+              [
+                38.55264290076145,
+                -8.974679591540424
+              ],
+              [
+                38.552699504083726,
+                -8.975190009085736
+              ],
+              [
+                38.55271702167843,
+                -8.975457280662013
+              ],
+              [
+                38.552695453545574,
+                -8.975481406269257
+              ],
+              [
+                38.55264583248077,
+                -8.975491940670624
+              ],
+              [
+                38.55256815848402,
+                -8.975488883866117
+              ],
+              [
+                38.552462431555334,
+                -8.975472235855738
+              ],
+              [
+                38.5523286516947,
+                -8.975441996639486
+              ],
+              [
+                38.55216681890212,
+                -8.97539816621736
+              ],
+              [
+                38.55197693317761,
+                -8.975340744589362
+              ],
+              [
+                38.55175899452115,
+                -8.97526973175549
+              ],
+              [
+                38.55151300293275,
+                -8.975185127715745
+              ],
+              [
+                38.55125519595039,
+                -8.975020807177984
+              ],
+              [
+                38.55098557357407,
+                -8.974776770142206
+              ],
+              [
+                38.550704135803784,
+                -8.97445301660841
+              ],
+              [
+                38.550410882639554,
+                -8.974049546576595
+              ],
+              [
+                38.55010581408135,
+                -8.973566360046764
+              ],
+              [
+                38.549788930129196,
+                -8.973003457018915
+              ],
+              [
+                38.549460230783076,
+                -8.97236083749305
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.55073531757367,
+    -8.96931689324982
+  ],
+  "centroDeMassa": [
+    38.55036021229809,
+    -8.967592170027501
+  ]
+}

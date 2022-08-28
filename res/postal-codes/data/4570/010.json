@@ -1,1 +1,390 @@
-{"CP4":"4570","CP3":"010","Distrito":"Porto","Concelho":"Póvoa de Varzim","CP":"4570-010","Artéria":"Rua Doutor Arlindo de Carvalho","Localidade":"Balazar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BALAZAR PVZ","locais":[{"id":"pt.ine.add.PTCONT.3590906","rua":"R DR ARLINDO CARVALHO","casa":"257","coordenadas":[41.41737693709439,-8.65001964266396]},{"id":"pt.ine.add.PTCONT.3642777","rua":"R DR ARLINDO CARVALHO","casa":"267","coordenadas":[41.41513514426768,-8.64997794703074]},{"id":"pt.ine.add.PTCONT.3694334","rua":"TV DR ARLINDO DE CARVALHO","casa":"","coordenadas":[41.41757904344224,-8.64912414146202]},{"id":"pt.ine.add.PTCONT.3791707","rua":"TV DR ARLINDO DE CARVALHO","casa":"54","coordenadas":[41.41755122778873,-8.64930334195713]},{"id":"pt.ine.add.PTCONT.3791772","rua":"TV DR ARLINDO DE CARVALHO","casa":"52","coordenadas":[41.4175696106305,-8.64921975784561]},{"id":"pt.ine.add.PTCONT.3798320","rua":"R DR ARLINDO CARVALHO","casa":"279","coordenadas":[41.41754784453584,-8.650056881893866]},{"id":"pt.ine.add.PTCONT.3894938","rua":"TV DR ARLINDO DE CARVALHO","casa":"53","coordenadas":[41.41703861194363,-8.649167709062196]},{"id":"pt.ine.add.PTCONT.3940589","rua":"TV DR ARLINDO DE CARVALHO","casa":"59","coordenadas":[41.41705624360376,-8.649251577633935]},{"id":"pt.ine.add.PTCONT.3965861","rua":"TV DR ARLINDO DE CARVALHO","casa":"","coordenadas":[41.417171680316514,-8.649611330772]},{"id":"pt.ine.add.PTCONT.4106105","rua":"R DR ARLINDO CARVALHO","casa":"118","coordenadas":[41.41614499966157,-8.649663002701567]},{"id":"pt.ine.add.PTCONT.4181065","rua":"TV DR ARLINDO DE CARVALHO","casa":"41","coordenadas":[41.41704863465894,-8.648940523980977]},{"id":"pt.ine.add.PTCONT.4214094","rua":"R DR ARLINDO CARVALHO","casa":"267","coordenadas":[41.41744885852691,-8.650044135633856]},{"id":"pt.ine.add.PTCONT.4233034","rua":"TV DR ARLINDO DE CARVALHO","casa":"","coordenadas":[41.417570522578885,-8.649016421590167]},{"id":"pt.ine.add.PTCONT.4233035","rua":"TV DR ARLINDO DE CARVALHO","casa":"47","coordenadas":[41.417048151983444,-8.649048171727541]},{"id":"pt.ine.add.PTCONT.4240126","rua":"R DR ARLINDO CARVALHO","casa":"239","coordenadas":[41.417259728895516,-8.650054597314782]}],"ruas":["R DR ARLINDO CARVALHO","TV DR ARLINDO DE CARVALHO"],"centroide":[41.41709196507379,-8.649460327568256]}256]}
+{
+  "CP": "4570-010",
+  "CP4": "4570",
+  "CP3": "010",
+  "Distrito": "Porto",
+  "Concelho": "Póvoa de Varzim",
+  "Localidade": "Balazar",
+  "Designação Postal": "BALAZAR PVZ",
+  "partes": [
+    {
+      "Artéria": "Travessa Doutor Arlindo de Carvalho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Doutor Arlindo de Carvalho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3590906",
+      "rua": "R DR ARLINDO CARVALHO",
+      "casa": "257",
+      "coordenadas": [
+        41.41737693709439,
+        -8.65001964266396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3642777",
+      "rua": "R DR ARLINDO CARVALHO",
+      "casa": "267",
+      "coordenadas": [
+        41.41513514426768,
+        -8.64997794703074
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3694334",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        41.41757904344224,
+        -8.64912414146202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3791707",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "54",
+      "coordenadas": [
+        41.41755122778873,
+        -8.64930334195713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3791772",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "52",
+      "coordenadas": [
+        41.4175696106305,
+        -8.64921975784561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3798320",
+      "rua": "R DR ARLINDO CARVALHO",
+      "casa": "279",
+      "coordenadas": [
+        41.41754784453584,
+        -8.650056881893866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3894938",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "53",
+      "coordenadas": [
+        41.41703861194363,
+        -8.649167709062196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3940589",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "59",
+      "coordenadas": [
+        41.41705624360376,
+        -8.649251577633935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3965861",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        41.417171680316514,
+        -8.649611330772
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4106105",
+      "rua": "R DR ARLINDO CARVALHO",
+      "casa": "118",
+      "coordenadas": [
+        41.41614499966157,
+        -8.649663002701567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4181065",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "41",
+      "coordenadas": [
+        41.41704863465894,
+        -8.648940523980977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4214094",
+      "rua": "R DR ARLINDO CARVALHO",
+      "casa": "267",
+      "coordenadas": [
+        41.41744885852691,
+        -8.650044135633856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4233034",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "",
+      "coordenadas": [
+        41.417570522578885,
+        -8.649016421590167
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4233035",
+      "rua": "TV DR ARLINDO DE CARVALHO",
+      "casa": "47",
+      "coordenadas": [
+        41.417048151983444,
+        -8.649048171727541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4240126",
+      "rua": "R DR ARLINDO CARVALHO",
+      "casa": "239",
+      "coordenadas": [
+        41.417259728895516,
+        -8.650054597314782
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR ARLINDO CARVALHO",
+    "TV DR ARLINDO DE CARVALHO"
+  ],
+  "centro": [
+    41.416357093854955,
+    -8.649498702937422
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.41633022312084,
+                -8.650021062815512
+              ],
+              [
+                41.41606465004236,
+                -8.650011481530008
+              ],
+              [
+                41.41586217188605,
+                -8.649986888170037
+              ],
+              [
+                41.41572278865192,
+                -8.649947282735603
+              ],
+              [
+                41.41564650033996,
+                -8.649892665226705
+              ],
+              [
+                41.41563330695017,
+                -8.649823035643342
+              ],
+              [
+                41.41568320848256,
+                -8.649738393985515
+              ],
+              [
+                41.41579620493712,
+                -8.649638740253225
+              ],
+              [
+                41.41597229631385,
+                -8.64952407444647
+              ],
+              [
+                41.416211482612766,
+                -8.649394396565247
+              ],
+              [
+                41.41642892512306,
+                -8.649282114319323
+              ],
+              [
+                41.41662462384474,
+                -8.649187227708698
+              ],
+              [
+                41.4167985787778,
+                -8.649109736733365
+              ],
+              [
+                41.416950789922254,
+                -8.64904964139333
+              ],
+              [
+                41.417081257278085,
+                -8.64900694168859
+              ],
+              [
+                41.41718998084531,
+                -8.648981637619144
+              ],
+              [
+                41.417276960623916,
+                -8.648973729184997
+              ],
+              [
+                41.41734219661391,
+                -8.648983216386148
+              ],
+              [
+                41.41739941124364,
+                -8.64899320081015
+              ],
+              [
+                41.41744860451312,
+                -8.649003682457005
+              ],
+              [
+                41.417489776422336,
+                -8.649014661326717
+              ],
+              [
+                41.417522926971294,
+                -8.64902613741928
+              ],
+              [
+                41.41754805615999,
+                -8.6490381107347
+              ],
+              [
+                41.41756516398843,
+                -8.649050581272974
+              ],
+              [
+                41.4175742504566,
+                -8.649063549034102
+              ],
+              [
+                41.41757531556452,
+                -8.649077014018085
+              ],
+              [
+                41.41757576005104,
+                -8.649103369948316
+              ],
+              [
+                41.417575583916154,
+                -8.649142616824797
+              ],
+              [
+                41.417574787159865,
+                -8.649194754647528
+              ],
+              [
+                41.417573369782176,
+                -8.649259783416511
+              ],
+              [
+                41.41757133178308,
+                -8.64933770313174
+              ],
+              [
+                41.41756867316259,
+                -8.649428513793222
+              ],
+              [
+                41.41756539392069,
+                -8.649532215400951
+              ],
+              [
+                41.41756149405739,
+                -8.649648807954934
+              ],
+              [
+                41.417553579870116,
+                -8.649750790743118
+              ],
+              [
+                41.41754165135889,
+                -8.649838163765507
+              ],
+              [
+                41.417525708523684,
+                -8.6499109270221
+              ],
+              [
+                41.417505751364516,
+                -8.649969080512896
+              ],
+              [
+                41.41748177988138,
+                -8.650012624237899
+              ],
+              [
+                41.41745379407427,
+                -8.650041558197104
+              ],
+              [
+                41.4174217939432,
+                -8.650055882390514
+              ],
+              [
+                41.41738577948816,
+                -8.650055596818131
+              ],
+              [
+                41.41732107020519,
+                -8.650054149281605
+              ],
+              [
+                41.417227666094284,
+                -8.65005153978094
+              ],
+              [
+                41.41710556715546,
+                -8.650047768316135
+              ],
+              [
+                41.416954773388696,
+                -8.650042834887188
+              ],
+              [
+                41.416775284794014,
+                -8.650036739494103
+              ],
+              [
+                41.416567101371385,
+                -8.650029482136878
+              ],
+              [
+                41.41633022312084,
+                -8.650021062815512
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.417023486396516,
+    -8.649528418878758
+  ],
+  "centroDeMassa": [
+    41.416357093854955,
+    -8.649498702937422
+  ]
+}

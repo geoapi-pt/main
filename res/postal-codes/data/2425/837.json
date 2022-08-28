@@ -1,1 +1,481 @@
-{"CP4":"2425","CP3":"837","Distrito":"Leiria","Concelho":"Leiria","CP":"2425-837","Artéria":"Rua Central","Localidade":"Marinha","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SOUTO DA CARPALHOSA","locais":[{"id":"pt.ine.add.PTCONT.1981263","rua":"R CENTRAL","casa":"383","coordenadas":[39.858653689146,-8.778568235021869]},{"id":"pt.ine.add.PTCONT.1991790","rua":"R CENTRAL","casa":"236","coordenadas":[39.857397517262754,-8.779339431128244]},{"id":"pt.ine.add.PTCONT.2020311","rua":"R CENTRAL","casa":"670","coordenadas":[39.859921980646945,-8.775611755348999]},{"id":"pt.ine.add.PTCONT.2028936","rua":"R CENTRAL","casa":"298","coordenadas":[39.857867708739526,-8.77900494396393]},{"id":"pt.ine.add.PTCONT.2028938","rua":"R PINHEIRO MANSO","casa":"259","coordenadas":[39.85530111705998,-8.782194446368496]},{"id":"pt.ine.add.PTCONT.2031304","rua":"R CENTRAL","casa":"439","coordenadas":[39.85897084398992,-8.778220617263965]},{"id":"pt.ine.add.PTCONT.2034066","rua":"R CENTRAL","casa":"439","coordenadas":[39.85897194864858,-8.778021960435327]},{"id":"pt.ine.add.PTCONT.2063585","rua":"R CENTRAL","casa":"330","coordenadas":[39.85815726200323,-8.778762249008304]},{"id":"pt.ine.add.PTCONT.2079258","rua":"R CENTRAL","casa":"715","coordenadas":[39.86019235031304,-8.775579217359255]},{"id":"pt.ine.add.PTCONT.2081192","rua":"TV PRESA DOS BAIRROS","casa":"71","coordenadas":[39.85836111940582,-8.776111391833709]},{"id":"pt.ine.add.PTCONT.2088216","rua":"R CENTRAL","casa":"341","coordenadas":[39.858363290561456,-8.778962845201644]},{"id":"pt.ine.add.PTCONT.2096809","rua":"R CENTRAL","casa":"329","coordenadas":[39.85839781716363,-8.7792319516152]},{"id":"pt.ine.add.PTCONT.2099624","rua":"R PINHEIRO MANSO","casa":"249","coordenadas":[39.85525687237101,-8.78205380150441]},{"id":"pt.ine.add.PTCONT.2114636","rua":"R FORNO","casa":"307","coordenadas":[39.868976418782005,-8.779915587028013]},{"id":"pt.ine.add.PTCONT.2114646","rua":"R CENTRAL","casa":"","coordenadas":[39.85887742932612,-8.777203035460573]},{"id":"pt.ine.add.PTCONT.2122909","rua":"R PRINCIPAL","casa":"","coordenadas":[39.856904098677056,-8.780608572009806]},{"id":"pt.ine.add.PTCONT.2125539","rua":"TV PRESA DOS BARREIROS","casa":"122","coordenadas":[39.858422086904746,-8.77648591961775]},{"id":"pt.ine.add.PTCONT.2132610","rua":"R CENTRAL","casa":"711","coordenadas":[39.859783266281525,-8.776264902468148]},{"id":"pt.ine.add.PTCONT.2154539","rua":"R CENTRAL","casa":"517","coordenadas":[39.858964566681216,-8.77772973375571]},{"id":"pt.ine.add.PTCONT.2172476","rua":"R CENTRAL","casa":"975","coordenadas":[39.860841802949025,-8.772137720297215]},{"id":"pt.ine.add.PTCONT.2182078","rua":"R CENTRAL","casa":"724","coordenadas":[39.85998851521907,-8.774981306060857]},{"id":"pt.ine.add.PTCONT.2184308","rua":"R CENTRAL","casa":"204","coordenadas":[39.85714424667176,-8.779535717483489]},{"id":"pt.ine.add.PTCONT.2186571","rua":"R CENTRAL","casa":"837","coordenadas":[39.86088496471305,-8.772477032975766]},{"id":"pt.ine.add.PTCONT.2191069","rua":"R CENTRAL","casa":"366","coordenadas":[39.857168593303484,-8.780015071814153]},{"id":"pt.ine.add.PTCONT.2229955","rua":"R CENTRAL","casa":"244","coordenadas":[39.85768759179909,-8.779003255410473]},{"id":"pt.ine.add.PTCONT.2237187","rua":"R CENTRAL","casa":"756","coordenadas":[39.86009787849537,-8.774748595080009]},{"id":"pt.ine.add.PTCONT.2240548","rua":"R CENTRAL","casa":"420","coordenadas":[39.85860264394389,-8.778030189683223]},{"id":"pt.ine.add.PTCONT.2243529","rua":"R CENTRAL","casa":"593","coordenadas":[39.859065254151645,-8.777438517848628]},{"id":"pt.ine.add.PTCONT.2255414","rua":"R PRINCIPAL","casa":"","coordenadas":[39.85715561000478,-8.780727795618546]}],"ruas":["R CENTRAL","R PINHEIRO MANSO","TV PRESA DOS BAIRROS","R FORNO","R PRINCIPAL","TV PRESA DOS BARREIROS"],"centroide":[39.85890081697182,-8.777794214394543]}
+{
+  "CP": "2425-837",
+  "CP4": "2425",
+  "CP3": "837",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Marinha",
+  "Designação Postal": "SOUTO DA CARPALHOSA",
+  "partes": [
+    {
+      "Artéria": "Rua Central",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1981263",
+      "rua": "R CENTRAL",
+      "casa": "383",
+      "coordenadas": [
+        39.858653689146,
+        -8.778568235021869
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1991790",
+      "rua": "R CENTRAL",
+      "casa": "236",
+      "coordenadas": [
+        39.857397517262754,
+        -8.779339431128244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2020311",
+      "rua": "R CENTRAL",
+      "casa": "670",
+      "coordenadas": [
+        39.859921980646945,
+        -8.775611755348999
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2028936",
+      "rua": "R CENTRAL",
+      "casa": "298",
+      "coordenadas": [
+        39.857867708739526,
+        -8.77900494396393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2028938",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "259",
+      "coordenadas": [
+        39.85530111705998,
+        -8.782194446368496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2031304",
+      "rua": "R CENTRAL",
+      "casa": "439",
+      "coordenadas": [
+        39.85897084398992,
+        -8.778220617263965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2034066",
+      "rua": "R CENTRAL",
+      "casa": "439",
+      "coordenadas": [
+        39.85897194864858,
+        -8.778021960435327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2063585",
+      "rua": "R CENTRAL",
+      "casa": "330",
+      "coordenadas": [
+        39.85815726200323,
+        -8.778762249008304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2079258",
+      "rua": "R CENTRAL",
+      "casa": "715",
+      "coordenadas": [
+        39.86019235031304,
+        -8.775579217359255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2081192",
+      "rua": "TV PRESA DOS BAIRROS",
+      "casa": "71",
+      "coordenadas": [
+        39.85836111940582,
+        -8.776111391833709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088216",
+      "rua": "R CENTRAL",
+      "casa": "341",
+      "coordenadas": [
+        39.858363290561456,
+        -8.778962845201644
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2096809",
+      "rua": "R CENTRAL",
+      "casa": "329",
+      "coordenadas": [
+        39.85839781716363,
+        -8.7792319516152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2099624",
+      "rua": "R PINHEIRO MANSO",
+      "casa": "249",
+      "coordenadas": [
+        39.85525687237101,
+        -8.78205380150441
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2114636",
+      "rua": "R FORNO",
+      "casa": "307",
+      "coordenadas": [
+        39.868976418782005,
+        -8.779915587028013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2114646",
+      "rua": "R CENTRAL",
+      "casa": "",
+      "coordenadas": [
+        39.85887742932612,
+        -8.777203035460573
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2122909",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.856904098677056,
+        -8.780608572009806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2125539",
+      "rua": "TV PRESA DOS BARREIROS",
+      "casa": "122",
+      "coordenadas": [
+        39.858422086904746,
+        -8.77648591961775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2132610",
+      "rua": "R CENTRAL",
+      "casa": "711",
+      "coordenadas": [
+        39.859783266281525,
+        -8.776264902468148
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2154539",
+      "rua": "R CENTRAL",
+      "casa": "517",
+      "coordenadas": [
+        39.858964566681216,
+        -8.77772973375571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2172476",
+      "rua": "R CENTRAL",
+      "casa": "975",
+      "coordenadas": [
+        39.860841802949025,
+        -8.772137720297215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2182078",
+      "rua": "R CENTRAL",
+      "casa": "724",
+      "coordenadas": [
+        39.85998851521907,
+        -8.774981306060857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2184308",
+      "rua": "R CENTRAL",
+      "casa": "204",
+      "coordenadas": [
+        39.85714424667176,
+        -8.779535717483489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2186571",
+      "rua": "R CENTRAL",
+      "casa": "837",
+      "coordenadas": [
+        39.86088496471305,
+        -8.772477032975766
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2191069",
+      "rua": "R CENTRAL",
+      "casa": "366",
+      "coordenadas": [
+        39.857168593303484,
+        -8.780015071814153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2229955",
+      "rua": "R CENTRAL",
+      "casa": "244",
+      "coordenadas": [
+        39.85768759179909,
+        -8.779003255410473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2237187",
+      "rua": "R CENTRAL",
+      "casa": "756",
+      "coordenadas": [
+        39.86009787849537,
+        -8.774748595080009
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2240548",
+      "rua": "R CENTRAL",
+      "casa": "420",
+      "coordenadas": [
+        39.85860264394389,
+        -8.778030189683223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2243529",
+      "rua": "R CENTRAL",
+      "casa": "593",
+      "coordenadas": [
+        39.859065254151645,
+        -8.777438517848628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2255414",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.85715561000478,
+        -8.780727795618546
+      ]
+    }
+  ],
+  "ruas": [
+    "R CENTRAL",
+    "R PINHEIRO MANSO",
+    "TV PRESA DOS BAIRROS",
+    "R FORNO",
+    "R PRINCIPAL",
+    "TV PRESA DOS BARREIROS"
+  ],
+  "centro": [
+    39.862116645576506,
+    -8.777166083332855
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.85528176000855,
+                -8.78213291424046
+              ],
+              [
+                39.85527622942244,
+                -8.782115333632447
+              ],
+              [
+                39.8553198940195,
+                -8.782007100449334
+              ],
+              [
+                39.85541275379975,
+                -8.781808214691118
+              ],
+              [
+                39.85555480876318,
+                -8.781518676357797
+              ],
+              [
+                39.855746058909794,
+                -8.781138485449372
+              ],
+              [
+                39.855986504239596,
+                -8.780667641965845
+              ],
+              [
+                39.85627614475257,
+                -8.780106145907212
+              ],
+              [
+                39.85661498044874,
+                -8.779453997273478
+              ],
+              [
+                39.85700301132809,
+                -8.778711196064641
+              ],
+              [
+                39.857381299027885,
+                -8.77799915638915
+              ],
+              [
+                39.85774984354812,
+                -8.777317878247008
+              ],
+              [
+                39.85810864488881,
+                -8.77666736163821
+              ],
+              [
+                39.85845770304993,
+                -8.77604760656276
+              ],
+              [
+                39.8587970180315,
+                -8.775458613020657
+              ],
+              [
+                39.859126589833515,
+                -8.774900381011904
+              ],
+              [
+                39.859446418455974,
+                -8.774372910536494
+              ],
+              [
+                39.85975650389887,
+                -8.773876201594431
+              ],
+              [
+                39.8601549320338,
+                -8.773563110437795
+              ],
+              [
+                39.860641702860754,
+                -8.773433637066587
+              ],
+              [
+                39.86121681637974,
+                -8.773487781480805
+              ],
+              [
+                39.86188027259075,
+                -8.773725543680447
+              ],
+              [
+                39.86263207149379,
+                -8.77414692366552
+              ],
+              [
+                39.863472213088855,
+                -8.774751921436016
+              ],
+              [
+                39.864400697375956,
+                -8.77554053699194
+              ],
+              [
+                39.865417524355074,
+                -8.776512770333287
+              ],
+              [
+                39.8660935713724,
+                -8.777399081684164
+              ],
+              [
+                39.866428838427936,
+                -8.778199471044568
+              ],
+              [
+                39.866423325521666,
+                -8.778913938414497
+              ],
+              [
+                39.86607703265359,
+                -8.77954248379395
+              ],
+              [
+                39.86538995982373,
+                -8.780085107182932
+              ],
+              [
+                39.86436210703208,
+                -8.78054180858144
+              ],
+              [
+                39.862993474278625,
+                -8.780912587989475
+              ],
+              [
+                39.86128406156337,
+                -8.781197445407035
+              ],
+              [
+                39.859787634114255,
+                -8.781444498071398
+              ],
+              [
+                39.85850419193129,
+                -8.781653745982567
+              ],
+              [
+                39.85743373501445,
+                -8.781825189140537
+              ],
+              [
+                39.85657626336377,
+                -8.781958827545314
+              ],
+              [
+                39.85593177697922,
+                -8.782054661196891
+              ],
+              [
+                39.85550027586082,
+                -8.782112690095273
+              ],
+              [
+                39.85528176000855,
+                -8.78213291424046
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.85974746611357,
+    -8.77848258940637
+  ],
+  "centroDeMassa": [
+    39.862116645576506,
+    -8.777166083332855
+  ]
+}

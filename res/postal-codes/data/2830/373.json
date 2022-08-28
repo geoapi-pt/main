@@ -1,1 +1,337 @@
-{"CP4":"2830","CP3":"373","Distrito":"Setúbal","Concelho":"Barreiro","CP":"2830-373","Artéria":"Travessa da Parreirinha","Localidade":"Barreiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BARREIRO","locais":[{"id":"pt.ine.add.PTCONT.4697468","rua":"TV PARREIRINHA","casa":"3","coordenadas":[38.6649259031964,-9.075713047364292]},{"id":"pt.ine.add.PTCONT.4748719","rua":"TV BOCAGE","casa":"2","coordenadas":[38.6651184761517,-9.075290460109423]},{"id":"pt.ine.add.PTCONT.4748856","rua":"TV BOCAGE","casa":"2","coordenadas":[38.6651184761517,-9.075290460109423]},{"id":"pt.ine.add.PTCONT.4748857","rua":"TV BOCAGE","casa":"2","coordenadas":[38.6651184761517,-9.075290460109423]},{"id":"pt.ine.add.PTCONT.4748858","rua":"TV BOCAGE","casa":"2","coordenadas":[38.6651184761517,-9.075290460109423]},{"id":"pt.ine.add.PTCONT.4834000","rua":"TV PARREIRINHA","casa":"1","coordenadas":[38.66502479555697,-9.075737322944725]},{"id":"pt.ine.add.PTCONT.4919103","rua":"TV PARREIRINHA","casa":"5-7","coordenadas":[38.66477306111683,-9.075676575080903]},{"id":"pt.ine.add.PTCONT.4920510","rua":"TV PARREIRINHA","casa":"5-7","coordenadas":[38.66477306111683,-9.075676575080903]},{"id":"pt.ine.add.PTCONT.4969551","rua":"TV PARREIRINHA","casa":"15","coordenadas":[38.66469236799292,-9.07562955937324]},{"id":"pt.ine.add.PTCONT.4969552","rua":"TV PARREIRINHA","casa":"15","coordenadas":[38.66469236799292,-9.07562955937324]},{"id":"pt.ine.add.PTCONT.4970936","rua":"TV PARREIRINHA","casa":"15","coordenadas":[38.66469236799292,-9.07562955937324]},{"id":"pt.ine.add.PTCONT.4986019","rua":"TV PARREIRINHA","casa":"10-8 1A","coordenadas":[38.664637307279186,-9.075755221371294]},{"id":"pt.ine.add.PTCONT.4986020","rua":"TV PARREIRINHA","casa":"10-8 1A","coordenadas":[38.664637307279186,-9.075755221371294]},{"id":"pt.ine.add.PTCONT.4986021","rua":"TV PARREIRINHA","casa":"10-8 1A","coordenadas":[38.664637307279186,-9.075755221371294]},{"id":"pt.ine.add.PTCONT.4998869","rua":"TV PARREIRINHA","casa":"9-11","coordenadas":[38.66474659544154,-9.07560729136758]},{"id":"pt.ine.add.PTCONT.4998870","rua":"TV PARREIRINHA","casa":"9-11","coordenadas":[38.66474659544154,-9.07560729136758]},{"id":"pt.ine.add.PTCONT.5131429","rua":"TV PARREIRINHA","casa":"10-8 1A","coordenadas":[38.664637307279186,-9.075755221371294]}],"ruas":["TV PARREIRINHA","TV BOCAGE"],"centroide":[38.66484080889333,-9.075583392867332]}
+{
+  "CP": "2830-373",
+  "CP4": "2830",
+  "CP3": "373",
+  "Distrito": "Setúbal",
+  "Concelho": "Barreiro",
+  "Localidade": "Barreiro",
+  "Designação Postal": "BARREIRO",
+  "partes": [
+    {
+      "Artéria": "Travessa da Parreirinha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4697468",
+      "rua": "TV PARREIRINHA",
+      "casa": "3",
+      "coordenadas": [
+        38.6649259031964,
+        -9.075713047364292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4748719",
+      "rua": "TV BOCAGE",
+      "casa": "2",
+      "coordenadas": [
+        38.6651184761517,
+        -9.075290460109423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4748856",
+      "rua": "TV BOCAGE",
+      "casa": "2",
+      "coordenadas": [
+        38.6651184761517,
+        -9.075290460109423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4748857",
+      "rua": "TV BOCAGE",
+      "casa": "2",
+      "coordenadas": [
+        38.6651184761517,
+        -9.075290460109423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4748858",
+      "rua": "TV BOCAGE",
+      "casa": "2",
+      "coordenadas": [
+        38.6651184761517,
+        -9.075290460109423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4834000",
+      "rua": "TV PARREIRINHA",
+      "casa": "1",
+      "coordenadas": [
+        38.66502479555697,
+        -9.075737322944725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4919103",
+      "rua": "TV PARREIRINHA",
+      "casa": "5-7",
+      "coordenadas": [
+        38.66477306111683,
+        -9.075676575080903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4920510",
+      "rua": "TV PARREIRINHA",
+      "casa": "5-7",
+      "coordenadas": [
+        38.66477306111683,
+        -9.075676575080903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4969551",
+      "rua": "TV PARREIRINHA",
+      "casa": "15",
+      "coordenadas": [
+        38.66469236799292,
+        -9.07562955937324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4969552",
+      "rua": "TV PARREIRINHA",
+      "casa": "15",
+      "coordenadas": [
+        38.66469236799292,
+        -9.07562955937324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4970936",
+      "rua": "TV PARREIRINHA",
+      "casa": "15",
+      "coordenadas": [
+        38.66469236799292,
+        -9.07562955937324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4986019",
+      "rua": "TV PARREIRINHA",
+      "casa": "10-8 1A",
+      "coordenadas": [
+        38.664637307279186,
+        -9.075755221371294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4986020",
+      "rua": "TV PARREIRINHA",
+      "casa": "10-8 1A",
+      "coordenadas": [
+        38.664637307279186,
+        -9.075755221371294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4986021",
+      "rua": "TV PARREIRINHA",
+      "casa": "10-8 1A",
+      "coordenadas": [
+        38.664637307279186,
+        -9.075755221371294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4998869",
+      "rua": "TV PARREIRINHA",
+      "casa": "9-11",
+      "coordenadas": [
+        38.66474659544154,
+        -9.07560729136758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4998870",
+      "rua": "TV PARREIRINHA",
+      "casa": "9-11",
+      "coordenadas": [
+        38.66474659544154,
+        -9.07560729136758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5131429",
+      "rua": "TV PARREIRINHA",
+      "casa": "10-8 1A",
+      "coordenadas": [
+        38.664637307279186,
+        -9.075755221371294
+      ]
+    }
+  ],
+  "ruas": [
+    "TV PARREIRINHA",
+    "TV BOCAGE"
+  ],
+  "centro": [
+    38.66487789171544,
+    -9.075522840740359
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.66485526943544,
+                -9.07574515350635
+              ],
+              [
+                38.66480683340071,
+                -9.07574739080967
+              ],
+              [
+                38.66476531219398,
+                -9.075747384981357
+              ],
+              [
+                38.664730705815245,
+                -9.075745136021407
+              ],
+              [
+                38.664703014264504,
+                -9.075740643929825
+              ],
+              [
+                38.664682237541754,
+                -9.075733908706606
+              ],
+              [
+                38.664668375647,
+                -9.075724930351754
+              ],
+              [
+                38.66466142858023,
+                -9.075713708865267
+              ],
+              [
+                38.66466139634145,
+                -9.075700244247145
+              ],
+              [
+                38.664668278930655,
+                -9.07568453649739
+              ],
+              [
+                38.6646809591362,
+                -9.075665493790355
+              ],
+              [
+                38.66469943695808,
+                -9.075643116126043
+              ],
+              [
+                38.66472371239628,
+                -9.075617403504454
+              ],
+              [
+                38.66475378545081,
+                -9.075588355925586
+              ],
+              [
+                38.66478965612168,
+                -9.075555973389442
+              ],
+              [
+                38.66483132440886,
+                -9.075520255896018
+              ],
+              [
+                38.66487879031238,
+                -9.07548120344532
+              ],
+              [
+                38.66493205383224,
+                -9.075438816037343
+              ],
+              [
+                38.66497719565281,
+                -9.075408709287165
+              ],
+              [
+                38.665014215774114,
+                -9.075390883194785
+              ],
+              [
+                38.66504311419614,
+                -9.075385337760205
+              ],
+              [
+                38.66506389091889,
+                -9.075392072983423
+              ],
+              [
+                38.66507654594236,
+                -9.075411088864438
+              ],
+              [
+                38.66508107926657,
+                -9.075442385403255
+              ],
+              [
+                38.6650774908915,
+                -9.075485962599869
+              ],
+              [
+                38.665065780817166,
+                -9.07554182045428
+              ],
+              [
+                38.665049479997776,
+                -9.075590975739807
+              ],
+              [
+                38.66502858843333,
+                -9.075633428456445
+              ],
+              [
+                38.66500310612385,
+                -9.0756691786042
+              ],
+              [
+                38.664973033069316,
+                -9.075698226183068
+              ],
+              [
+                38.664938369269734,
+                -9.075720571193049
+              ],
+              [
+                38.66489911472512,
+                -9.075736213634142
+              ],
+              [
+                38.66485526943544,
+                -9.07574515350635
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.66486823674519,
+    -9.07560314094967
+  ],
+  "centroDeMassa": [
+    38.66487789171544,
+    -9.075522840740359
+  ]
+}

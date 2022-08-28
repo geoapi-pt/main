@@ -1,1 +1,401 @@
-{"CP4":"2975","CP3":"400","Distrito":"Setúbal","Concelho":"Sesimbra","CP":"2975-400","Artéria":"Rua Tristão Vaz Teixeira","Localidade":"Quinta do Conde","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"QUINTA DO CONDE","locais":[{"id":"pt.ine.add.PTCONT.4701802","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.56765816438368,-9.04134987587202]},{"id":"pt.ine.add.PTCONT.4730261","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4730262","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4730263","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4730264","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4730265","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4730266","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4730267","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.5678530300317,-9.041776868142415]},{"id":"pt.ine.add.PTCONT.4752478","rua":"R TRISTAO DA CUNHA","casa":"2920","coordenadas":[38.56824810351528,-9.04194248139964]},{"id":"pt.ine.add.PTCONT.4752479","rua":"R TRISTAO DA CUNHA","casa":"2920","coordenadas":[38.56824810351528,-9.04194248139964]},{"id":"pt.ine.add.PTCONT.4752601","rua":"R TRISTAO DA CUNHA","casa":"2920","coordenadas":[38.56824810351528,-9.04194248139964]},{"id":"pt.ine.add.PTCONT.4792223","rua":"R TRISTÃO DA CUNHA","casa":"","coordenadas":[38.56819673177071,-9.041597611710186]},{"id":"pt.ine.add.PTCONT.4793442","rua":"R TRISTÃO DA CUNHA","casa":"","coordenadas":[38.56819673177071,-9.041597611710186]},{"id":"pt.ine.add.PTCONT.4802130","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.56758388016834,-9.041635790403769]},{"id":"pt.ine.add.PTCONT.4803469","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.56758388016834,-9.041635790403769]},{"id":"pt.ine.add.PTCONT.4911400","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.56744921611906,-9.041576724780139]},{"id":"pt.ine.add.PTCONT.4911401","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.56744921611906,-9.041576724780139]},{"id":"pt.ine.add.PTCONT.4955960","rua":"R TRISTAO DA CUNHA","casa":"2935","coordenadas":[38.56754151475941,-9.041291037483331]},{"id":"pt.ine.add.PTCONT.4966701","rua":"R TRISTAO DA CUNHA","casa":"","coordenadas":[38.568041648597635,-9.041848088144567]}],"ruas":["R TRISTAO DA CUNHA","R TRISTÃO DA CUNHA"],"centroide":[38.56785415866816,-9.041695927129963]}
+{
+  "CP": "2975-400",
+  "CP4": "2975",
+  "CP3": "400",
+  "Distrito": "Setúbal",
+  "Concelho": "Sesimbra",
+  "Localidade": "Quinta do Conde",
+  "Designação Postal": "QUINTA DO CONDE",
+  "partes": [
+    {
+      "Artéria": "Rua Nuno Tristão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Tristão da Cunha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Tristão Vaz Teixeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4701802",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56765816438368,
+        -9.04134987587202
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730261",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730262",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730263",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730264",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730265",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730266",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4730267",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.5678530300317,
+        -9.041776868142415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4752478",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "2920",
+      "coordenadas": [
+        38.56824810351528,
+        -9.04194248139964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4752479",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "2920",
+      "coordenadas": [
+        38.56824810351528,
+        -9.04194248139964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4752601",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "2920",
+      "coordenadas": [
+        38.56824810351528,
+        -9.04194248139964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4792223",
+      "rua": "R TRISTÃO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56819673177071,
+        -9.041597611710186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4793442",
+      "rua": "R TRISTÃO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56819673177071,
+        -9.041597611710186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4802130",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56758388016834,
+        -9.041635790403769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4803469",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56758388016834,
+        -9.041635790403769
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4911400",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56744921611906,
+        -9.041576724780139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4911401",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.56744921611906,
+        -9.041576724780139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4955960",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "2935",
+      "coordenadas": [
+        38.56754151475941,
+        -9.041291037483331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4966701",
+      "rua": "R TRISTAO DA CUNHA",
+      "casa": "",
+      "coordenadas": [
+        38.568041648597635,
+        -9.041848088144567
+      ]
+    }
+  ],
+  "ruas": [
+    "R TRISTAO DA CUNHA",
+    "R TRISTÃO DA CUNHA"
+  ],
+  "centro": [
+    38.56784865981717,
+    -9.041616759441485
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.56767636144492,
+                -9.041689305421421
+              ],
+              [
+                38.56762588470584,
+                -9.041664287501135
+              ],
+              [
+                38.5675831597254,
+                -9.041637932956874
+              ],
+              [
+                38.5675481865036,
+                -9.041610241788634
+              ],
+              [
+                38.567520965040444,
+                -9.04158121399642
+              ],
+              [
+                38.567501495335925,
+                -9.041550849580226
+              ],
+              [
+                38.56748977739005,
+                -9.041519148540058
+              ],
+              [
+                38.56748581120281,
+                -9.041486110875908
+              ],
+              [
+                38.56748959677421,
+                -9.041451736587785
+              ],
+              [
+                38.56750113410426,
+                -9.041416025675684
+              ],
+              [
+                38.56752146703385,
+                -9.04138956884989
+              ],
+              [
+                38.567550595562984,
+                -9.041372366110405
+              ],
+              [
+                38.56758851969167,
+                -9.041364417457224
+              ],
+              [
+                38.567635239419886,
+                -9.041365722890353
+              ],
+              [
+                38.56769075474766,
+                -9.041376282409788
+              ],
+              [
+                38.56775506567499,
+                -9.04139609601553
+              ],
+              [
+                38.56782817220186,
+                -9.04142516370758
+              ],
+              [
+                38.56791007432827,
+                -9.041463485485938
+              ],
+              [
+                38.567982541372395,
+                -9.041502405630897
+              ],
+              [
+                38.56804557333422,
+                -9.04154192414246
+              ],
+              [
+                38.568099170213756,
+                -9.041582041020627
+              ],
+              [
+                38.56814333201099,
+                -9.041622756265395
+              ],
+              [
+                38.56817805872594,
+                -9.041664069876767
+              ],
+              [
+                38.5682033503586,
+                -9.041705981854744
+              ],
+              [
+                38.568219206908964,
+                -9.041748492199321
+              ],
+              [
+                38.56822562837703,
+                -9.041791600910503
+              ],
+              [
+                38.56822507413841,
+                -9.041826733325644
+              ],
+              [
+                38.5682175441931,
+                -9.041853889444742
+              ],
+              [
+                38.5682030385411,
+                -9.0418730692678
+              ],
+              [
+                38.56818155718241,
+                -9.041884272794812
+              ],
+              [
+                38.56815310011704,
+                -9.041887500025785
+              ],
+              [
+                38.56811766734497,
+                -9.041882750960717
+              ],
+              [
+                38.568075258866216,
+                -9.041870025599605
+              ],
+              [
+                38.56802587468077,
+                -9.041849323942452
+              ],
+              [
+                38.56797635392612,
+                -9.041828082752408
+              ],
+              [
+                38.567926696602264,
+                -9.041806302029473
+              ],
+              [
+                38.5678769027092,
+                -9.041783981773644
+              ],
+              [
+                38.567826972246934,
+                -9.041761121984926
+              ],
+              [
+                38.56777690521547,
+                -9.041737722663315
+              ],
+              [
+                38.56772670161479,
+                -9.041713783808813
+              ],
+              [
+                38.56767636144492,
+                -9.041689305421421
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.56785771923923,
+    -9.041636944703143
+  ],
+  "centroDeMassa": [
+    38.56784865981717,
+    -9.041616759441485
+  ]
+}

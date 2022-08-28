@@ -1,1 +1,545 @@
-{"CP4":"9300","CP3":"265","Distrito":"Ilha da Madeira","Concelho":"Câmara de Lobos","CP":"9300-265","Artéria":"Rua Bispo Manuel Joaquim Gonçalves de Andrade","Localidade":"Quinta Grande","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"QUINTA GRANDE","locais":[{"id":"pt.ine.add.MAD.691","rua":"R NSA SRA DOS REMEDIOS","casa":"12","coordenadas":[32.66142166409355,-17.013422679993045]},{"id":"pt.ine.add.MAD.692","rua":"R NSA SRA DOS REMEDIOS","casa":"14","coordenadas":[32.66136791450201,-17.01340015144782]},{"id":"pt.ine.add.MAD.694","rua":"R NSA SRA DOS REMEDIOS","casa":"11","coordenadas":[32.66176903357046,-17.013131947756456]},{"id":"pt.ine.add.MAD.11746","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"23","coordenadas":[32.662536322250496,-17.011400645579926]},{"id":"pt.ine.add.MAD.11747","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"17","coordenadas":[32.66243168561293,-17.01173947324408]},{"id":"pt.ine.add.MAD.11748","rua":"R BISPO MANUEL JOAQUIM GONCALVES ANDRADE","casa":"9 11","coordenadas":[32.66252367497573,-17.012189323852496]},{"id":"pt.ine.add.MAD.11749","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"5","coordenadas":[32.662228470785166,-17.01316357438924]},{"id":"pt.ine.add.MAD.11750","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"1","coordenadas":[32.661783934760486,-17.01388925207953]},{"id":"pt.ine.add.MAD.12517","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"32","coordenadas":[32.662933755478036,-17.010236764557717]},{"id":"pt.ine.add.MAD.12519","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"28","coordenadas":[32.66284629841832,-17.010629288381583]},{"id":"pt.ine.add.MAD.12524","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"20","coordenadas":[32.66241164604726,-17.01130189724532]},{"id":"pt.ine.add.MAD.12532","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"6","coordenadas":[32.66193656122327,-17.01337025928064]},{"id":"pt.ine.add.MAD.55392","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"","coordenadas":[32.66313820385374,-17.010422592391638]},{"id":"pt.ine.add.MAD.55560","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"25","coordenadas":[32.66262087718921,-17.011189307089868]},{"id":"pt.ine.add.MAD.69531","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"10","coordenadas":[32.66226286982365,-17.01270589661807]},{"id":"pt.ine.add.MAD.71966","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"53","coordenadas":[32.663192295611715,-17.010423803880947]},{"id":"pt.ine.add.MAD.79011","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"3","coordenadas":[32.66206020940355,-17.013532956326802]},{"id":"pt.ine.add.MAD.87629","rua":"R NSA SRA DOS REMEDIOS","casa":"5","coordenadas":[32.661928278478854,-17.012762364030824]},{"id":"pt.ine.add.MAD.92679","rua":"R BISPO MANUEL JOAQUIM GONCALVES ANDRADE","casa":"","coordenadas":[32.66275050823902,-17.01097897802256]},{"id":"pt.ine.add.MAD.93830","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"39","coordenadas":[32.66283335422158,-17.010874217172613]},{"id":"pt.ine.add.MAD.93831","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"34","coordenadas":[32.663087186259375,-17.01022953888428]},{"id":"pt.ine.add.MAD.93832","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"8","coordenadas":[32.66202962156852,-17.01319109962918]},{"id":"pt.ine.add.MAD.97684","rua":"R NSA SRA DOS REMEDIOS","casa":"4","coordenadas":[32.66215126657158,-17.012916626241758]},{"id":"pt.ine.add.MAD.99131","rua":"R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","casa":"55","coordenadas":[32.66322139097641,-17.010296514756845]},{"id":"pt.ine.add.MAD.102104","rua":"R NSA SRA DOS REMEDIOS","casa":"45","coordenadas":[32.659696903615945,-17.014684676043622]}],"ruas":["R NSA SRA DOS REMEDIOS","R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE","R BISPO MANUEL JOAQUIM GONCALVES ANDRADE"],"centroide":[32.66239445932979,-17.01197496470222]}
+{
+  "CP": "9300-265",
+  "CP4": "9300",
+  "CP3": "265",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Câmara de Lobos",
+  "Localidade": "Quinta Grande",
+  "Designação Postal": "QUINTA GRANDE",
+  "partes": [
+    {
+      "Artéria": "Rua de Nossa Senhora dos Remédios",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Bispo Manuel Joaquim Gonçalves de Andrade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.691",
+      "rua": "R NSA SRA DOS REMEDIOS",
+      "casa": "12",
+      "coordenadas": [
+        32.66142166409355,
+        -17.013422679993045
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.692",
+      "rua": "R NSA SRA DOS REMEDIOS",
+      "casa": "14",
+      "coordenadas": [
+        32.66136791450201,
+        -17.01340015144782
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.694",
+      "rua": "R NSA SRA DOS REMEDIOS",
+      "casa": "11",
+      "coordenadas": [
+        32.66176903357046,
+        -17.013131947756456
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.11746",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "23",
+      "coordenadas": [
+        32.662536322250496,
+        -17.011400645579926
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.11747",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "17",
+      "coordenadas": [
+        32.66243168561293,
+        -17.01173947324408
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.11748",
+      "rua": "R BISPO MANUEL JOAQUIM GONCALVES ANDRADE",
+      "casa": "9 11",
+      "coordenadas": [
+        32.66252367497573,
+        -17.012189323852496
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.11749",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "5",
+      "coordenadas": [
+        32.662228470785166,
+        -17.01316357438924
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.11750",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "1",
+      "coordenadas": [
+        32.661783934760486,
+        -17.01388925207953
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12517",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "32",
+      "coordenadas": [
+        32.662933755478036,
+        -17.010236764557717
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12519",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "28",
+      "coordenadas": [
+        32.66284629841832,
+        -17.010629288381583
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12524",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "20",
+      "coordenadas": [
+        32.66241164604726,
+        -17.01130189724532
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.12532",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "6",
+      "coordenadas": [
+        32.66193656122327,
+        -17.01337025928064
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.55392",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        32.66313820385374,
+        -17.010422592391638
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.55560",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "25",
+      "coordenadas": [
+        32.66262087718921,
+        -17.011189307089868
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.69531",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "10",
+      "coordenadas": [
+        32.66226286982365,
+        -17.01270589661807
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.71966",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "53",
+      "coordenadas": [
+        32.663192295611715,
+        -17.010423803880947
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.79011",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "3",
+      "coordenadas": [
+        32.66206020940355,
+        -17.013532956326802
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.87629",
+      "rua": "R NSA SRA DOS REMEDIOS",
+      "casa": "5",
+      "coordenadas": [
+        32.661928278478854,
+        -17.012762364030824
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.92679",
+      "rua": "R BISPO MANUEL JOAQUIM GONCALVES ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        32.66275050823902,
+        -17.01097897802256
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.93830",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "39",
+      "coordenadas": [
+        32.66283335422158,
+        -17.010874217172613
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.93831",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "34",
+      "coordenadas": [
+        32.663087186259375,
+        -17.01022953888428
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.93832",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "8",
+      "coordenadas": [
+        32.66202962156852,
+        -17.01319109962918
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.97684",
+      "rua": "R NSA SRA DOS REMEDIOS",
+      "casa": "4",
+      "coordenadas": [
+        32.66215126657158,
+        -17.012916626241758
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.99131",
+      "rua": "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+      "casa": "55",
+      "coordenadas": [
+        32.66322139097641,
+        -17.010296514756845
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.102104",
+      "rua": "R NSA SRA DOS REMEDIOS",
+      "casa": "45",
+      "coordenadas": [
+        32.659696903615945,
+        -17.014684676043622
+      ]
+    }
+  ],
+  "ruas": [
+    "R NSA SRA DOS REMEDIOS",
+    "R BISPO MANUEL JOAQUIM GONÇALVES DE ANDRADE",
+    "R BISPO MANUEL JOAQUIM GONCALVES ANDRADE"
+  ],
+  "centro": [
+    32.66145914729618,
+    -17.012457107463952
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.660870858634745,
+                -17.01423725006382
+              ],
+              [
+                32.660609979741686,
+                -17.01433667805933
+              ],
+              [
+                32.660432286520596,
+                -17.014354178938436
+              ],
+              [
+                32.66033777897148,
+                -17.01428975270114
+              ],
+              [
+                32.66032645709435,
+                -17.014143399347432
+              ],
+              [
+                32.66039832088919,
+                -17.013915118877314
+              ],
+              [
+                32.66055337035602,
+                -17.0136049112908
+              ],
+              [
+                32.66079160549482,
+                -17.01321277658787
+              ],
+              [
+                32.66111302630561,
+                -17.01273871476854
+              ],
+              [
+                32.661517632788374,
+                -17.0121827258328
+              ],
+              [
+                32.66187406081675,
+                -17.011696122612882
+              ],
+              [
+                32.66218231039073,
+                -17.01127890510878
+              ],
+              [
+                32.66244238151033,
+                -17.010931073320506
+              ],
+              [
+                32.66265427417555,
+                -17.010652627248042
+              ],
+              [
+                32.66281798838638,
+                -17.010443566891404
+              ],
+              [
+                32.662933524142815,
+                -17.010303892250583
+              ],
+              [
+                32.66300088144487,
+                -17.010233603325588
+              ],
+              [
+                32.66302006029254,
+                -17.010232700116408
+              ],
+              [
+                32.66303893873295,
+                -17.010232956306385
+              ],
+              [
+                32.663057516766116,
+                -17.010234371895518
+              ],
+              [
+                32.663075794392014,
+                -17.010236946883808
+              ],
+              [
+                32.66309377161066,
+                -17.010240681271256
+              ],
+              [
+                32.66311144842206,
+                -17.010245575057855
+              ],
+              [
+                32.66312882482619,
+                -17.010251628243612
+              ],
+              [
+                32.663145900823075,
+                -17.010258840828527
+              ],
+              [
+                32.6631626764127,
+                -17.010267212812597
+              ],
+              [
+                32.66317690043856,
+                -17.010276527191223
+              ],
+              [
+                32.66318857290063,
+                -17.010286783964403
+              ],
+              [
+                32.66319769379893,
+                -17.01029798313214
+              ],
+              [
+                32.66320426313345,
+                -17.01031012469443
+              ],
+              [
+                32.66320828090419,
+                -17.01032320865128
+              ],
+              [
+                32.66320974711117,
+                -17.010337235002684
+              ],
+              [
+                32.66320866175436,
+                -17.01035220374864
+              ],
+              [
+                32.663205024833765,
+                -17.010368114889154
+              ],
+              [
+                32.66318678276534,
+                -17.010424846051293
+              ],
+              [
+                32.663153935549076,
+                -17.010522397235064
+              ],
+              [
+                32.66310648318496,
+                -17.01066076844046
+              ],
+              [
+                32.663044425673014,
+                -17.010839959667486
+              ],
+              [
+                32.66296776301322,
+                -17.011059970916136
+              ],
+              [
+                32.66287649520558,
+                -17.011320802186418
+              ],
+              [
+                32.66277062225011,
+                -17.011622453478324
+              ],
+              [
+                32.66265014414678,
+                -17.01196492479186
+              ],
+              [
+                32.66254209672229,
+                -17.01227035878398
+              ],
+              [
+                32.66244647997663,
+                -17.012538755454678
+              ],
+              [
+                32.66236329390979,
+                -17.012770114803963
+              ],
+              [
+                32.662292538521775,
+                -17.01296443683183
+              ],
+              [
+                32.66223421381259,
+                -17.013121721538276
+              ],
+              [
+                32.66218831978224,
+                -17.01324196892331
+              ],
+              [
+                32.66215485643071,
+                -17.01332517898692
+              ],
+              [
+                32.662133823758005,
+                -17.01337135172912
+              ],
+              [
+                32.662111103378095,
+                -17.013417319999675
+              ],
+              [
+                32.662086695290974,
+                -17.013463083798598
+              ],
+              [
+                32.66206059949664,
+                -17.013508643125878
+              ],
+              [
+                32.6620328159951,
+                -17.013553997981518
+              ],
+              [
+                32.66200334478634,
+                -17.013599148365522
+              ],
+              [
+                32.66197218587038,
+                -17.013644094277893
+              ],
+              [
+                32.66193933924721,
+                -17.01368883571862
+              ],
+              [
+                32.66190480491683,
+                -17.01373337268771
+              ],
+              [
+                32.66184197751611,
+                -17.013784771035105
+              ],
+              [
+                32.66175085704506,
+                -17.0138430307608
+              ],
+              [
+                32.661631443503666,
+                -17.0139081518648
+              ],
+              [
+                32.66148373689194,
+                -17.0139801343471
+              ],
+              [
+                32.661307737209874,
+                -17.014058978207704
+              ],
+              [
+                32.66110344445748,
+                -17.014144683446613
+              ],
+              [
+                32.660870858634745,
+                -17.01423725006382
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.662275518361334,
+    -17.012057135114873
+  ],
+  "centroDeMassa": [
+    32.66145914729618,
+    -17.012457107463952
+  ]
+}

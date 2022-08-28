@@ -1,1 +1,538 @@
-{"CP4":"4500","CP3":"762","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4500-762","Artéria":"Rua da Regedoura de Baixo","Localidade":"Nogueira da Regedoura","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"NOGUEIRA DA REGEDOURA","locais":[{"id":"pt.ine.add.PTCONT.290579","rua":"R REGEDOURA","casa":"19","coordenadas":[41.009394141427066,-8.585824430180072]},{"id":"pt.ine.add.PTCONT.310224","rua":"R REGEDOURA","casa":"22","coordenadas":[41.00925049211894,-8.58571646175166]},{"id":"pt.ine.add.PTCONT.314417","rua":"R REGEDOURA DE CIMA","casa":"10","coordenadas":[41.00911468006727,-8.585905727892568]},{"id":"pt.ine.add.PTCONT.343789","rua":"R REGEDOURA","casa":"656","coordenadas":[41.00883288198262,-8.586581367350508]},{"id":"pt.ine.add.PTCONT.3787","rua":"TV FONTE DA CHAMUSCA","casa":"136","coordenadas":[41.013146925834214,-8.57944251717664]},{"id":"pt.ine.add.PTCONT.19574","rua":"R REGEDOURA","casa":"16","coordenadas":[41.009546608167135,-8.585980008634856]},{"id":"pt.ine.add.PTCONT.19575","rua":"R REGEDOURA DE CIMA","casa":"18","coordenadas":[41.009456891662495,-8.585896183372741]},{"id":"pt.ine.add.PTCONT.35712","rua":"R REGEDOURA","casa":"15","coordenadas":[41.009609545132236,-8.586004214188096]},{"id":"pt.ine.add.PTCONT.35713","rua":"R REGEDOURA","casa":"9","coordenadas":[41.00917761705385,-8.585929933213457]},{"id":"pt.ine.add.PTCONT.52167","rua":"R REGEDOURA","casa":"562","coordenadas":[41.009769099358095,-8.586647222920055]},{"id":"pt.ine.add.PTCONT.54566","rua":"R REGEDOURA","casa":"21","coordenadas":[41.00929532710765,-8.58576431756696]},{"id":"pt.ine.add.PTCONT.61230","rua":"R REGEDOURA","casa":"7","coordenadas":[41.00929439326312,-8.586002056205329]},{"id":"pt.ine.add.PTCONT.64730","rua":"R REGEDOURA DE CIMA","casa":"12","coordenadas":[41.009762058339675,-8.586147906550886]},{"id":"pt.ine.add.PTCONT.64731","rua":"R REGEDOURA","casa":"6","coordenadas":[41.00932117274317,-8.586061675856055]},{"id":"pt.ine.add.PTCONT.85437","rua":"R REGEDOURA DE CIMA","casa":"8","coordenadas":[41.00922240525148,-8.585989676038217]},{"id":"pt.ine.add.PTCONT.96657","rua":"R REGEDOURA","casa":"4","coordenadas":[41.00945581738279,-8.586169583468747]},{"id":"pt.ine.add.PTCONT.111006","rua":"R REGEDOURA","casa":"14","coordenadas":[41.00965433328569,-8.586063957455618]},{"id":"pt.ine.add.PTCONT.153945","rua":"R REGEDOURA","casa":"1","coordenadas":[41.009608610787076,-8.586241953947994]},{"id":"pt.ine.add.PTCONT.159803","rua":"R REGEDOURA","casa":"11","coordenadas":[41.009824948542786,-8.586183999370997]},{"id":"pt.ine.add.PTCONT.174882","rua":"R REGEDOURA","casa":"3","coordenadas":[41.00951898791529,-8.58613435430943]},{"id":"pt.ine.add.PTCONT.190542","rua":"R REGEDOURA","casa":"5","coordenadas":[41.0093840629798,-8.586097768350013]},{"id":"pt.ine.add.PTCONT.198009","rua":"R REGEDOURA DE CIMA","casa":"17","coordenadas":[41.009510777610764,-8.585932214137905]},{"id":"pt.ine.add.PTCONT.213074","rua":"R REGEDOURA","casa":"13","coordenadas":[41.00971727023136,-8.586088163128938]},{"id":"pt.ine.add.PTCONT.213075","rua":"R REGEDOURA","casa":"24","coordenadas":[41.009142813399734,-8.585620627108117]},{"id":"pt.ine.add.PTCONT.231390","rua":"R REGEDOURA","casa":"2","coordenadas":[41.00953662280681,-8.586229573458084]},{"id":"pt.ine.add.PTCONT.233929","rua":"R REGEDOURA DE CIMA","casa":"23","coordenadas":[41.00918774176732,-8.585644708954181]},{"id":"pt.ine.add.PTCONT.242105","rua":"R REGEDOURA DE CIMA","casa":"20","coordenadas":[41.00934016207578,-8.585812173447232]},{"id":"pt.ine.add.PTCONT.282483","rua":"R REGEDOURA","casa":"610","coordenadas":[41.009156336587864,-8.586761893380318]},{"id":"pt.ine.add.PTCONT.282484","rua":"R REGEDOURA","casa":"626","coordenadas":[41.00898548804807,-8.586701285584098]}],"ruas":["R REGEDOURA","R REGEDOURA DE CIMA","TV FONTE DA CHAMUSCA"],"centroide":[41.00954402588866,-8.585816952479133]}
+{
+  "CP": "4500-762",
+  "CP4": "4500",
+  "CP3": "762",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Nogueira da Regedoura",
+  "Designação Postal": "NOGUEIRA DA REGEDOURA",
+  "partes": [
+    {
+      "Artéria": "Rua Regedoura",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Regedoura de Cima",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Regedoura de Trás",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Regedoura Central",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Regedoura de Baixo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.290579",
+      "rua": "R REGEDOURA",
+      "casa": "19",
+      "coordenadas": [
+        41.009394141427066,
+        -8.585824430180072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.310224",
+      "rua": "R REGEDOURA",
+      "casa": "22",
+      "coordenadas": [
+        41.00925049211894,
+        -8.58571646175166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.314417",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "10",
+      "coordenadas": [
+        41.00911468006727,
+        -8.585905727892568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.343789",
+      "rua": "R REGEDOURA",
+      "casa": "656",
+      "coordenadas": [
+        41.00883288198262,
+        -8.586581367350508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3787",
+      "rua": "TV FONTE DA CHAMUSCA",
+      "casa": "136",
+      "coordenadas": [
+        41.013146925834214,
+        -8.57944251717664
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.19574",
+      "rua": "R REGEDOURA",
+      "casa": "16",
+      "coordenadas": [
+        41.009546608167135,
+        -8.585980008634856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.19575",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "18",
+      "coordenadas": [
+        41.009456891662495,
+        -8.585896183372741
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35712",
+      "rua": "R REGEDOURA",
+      "casa": "15",
+      "coordenadas": [
+        41.009609545132236,
+        -8.586004214188096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35713",
+      "rua": "R REGEDOURA",
+      "casa": "9",
+      "coordenadas": [
+        41.00917761705385,
+        -8.585929933213457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.52167",
+      "rua": "R REGEDOURA",
+      "casa": "562",
+      "coordenadas": [
+        41.009769099358095,
+        -8.586647222920055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54566",
+      "rua": "R REGEDOURA",
+      "casa": "21",
+      "coordenadas": [
+        41.00929532710765,
+        -8.58576431756696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.61230",
+      "rua": "R REGEDOURA",
+      "casa": "7",
+      "coordenadas": [
+        41.00929439326312,
+        -8.586002056205329
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.64730",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "12",
+      "coordenadas": [
+        41.009762058339675,
+        -8.586147906550886
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.64731",
+      "rua": "R REGEDOURA",
+      "casa": "6",
+      "coordenadas": [
+        41.00932117274317,
+        -8.586061675856055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.85437",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "8",
+      "coordenadas": [
+        41.00922240525148,
+        -8.585989676038217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.96657",
+      "rua": "R REGEDOURA",
+      "casa": "4",
+      "coordenadas": [
+        41.00945581738279,
+        -8.586169583468747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.111006",
+      "rua": "R REGEDOURA",
+      "casa": "14",
+      "coordenadas": [
+        41.00965433328569,
+        -8.586063957455618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153945",
+      "rua": "R REGEDOURA",
+      "casa": "1",
+      "coordenadas": [
+        41.009608610787076,
+        -8.586241953947994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.159803",
+      "rua": "R REGEDOURA",
+      "casa": "11",
+      "coordenadas": [
+        41.009824948542786,
+        -8.586183999370997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.174882",
+      "rua": "R REGEDOURA",
+      "casa": "3",
+      "coordenadas": [
+        41.00951898791529,
+        -8.58613435430943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.190542",
+      "rua": "R REGEDOURA",
+      "casa": "5",
+      "coordenadas": [
+        41.0093840629798,
+        -8.586097768350013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198009",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "17",
+      "coordenadas": [
+        41.009510777610764,
+        -8.585932214137905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.213074",
+      "rua": "R REGEDOURA",
+      "casa": "13",
+      "coordenadas": [
+        41.00971727023136,
+        -8.586088163128938
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.213075",
+      "rua": "R REGEDOURA",
+      "casa": "24",
+      "coordenadas": [
+        41.009142813399734,
+        -8.585620627108117
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.231390",
+      "rua": "R REGEDOURA",
+      "casa": "2",
+      "coordenadas": [
+        41.00953662280681,
+        -8.586229573458084
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.233929",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "23",
+      "coordenadas": [
+        41.00918774176732,
+        -8.585644708954181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.242105",
+      "rua": "R REGEDOURA DE CIMA",
+      "casa": "20",
+      "coordenadas": [
+        41.00934016207578,
+        -8.585812173447232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282483",
+      "rua": "R REGEDOURA",
+      "casa": "610",
+      "coordenadas": [
+        41.009156336587864,
+        -8.586761893380318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282484",
+      "rua": "R REGEDOURA",
+      "casa": "626",
+      "coordenadas": [
+        41.00898548804807,
+        -8.586701285584098
+      ]
+    }
+  ],
+  "ruas": [
+    "R REGEDOURA",
+    "R REGEDOURA DE CIMA",
+    "TV FONTE DA CHAMUSCA"
+  ],
+  "centro": [
+    41.01098990390842,
+    -8.583102205278479
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.008918722894435,
+                -8.586648821356903
+              ],
+              [
+                41.00889964713625,
+                -8.586633831577704
+              ],
+              [
+                41.00888779852624,
+                -8.586605703954618
+              ],
+              [
+                41.00888317706439,
+                -8.586564438487645
+              ],
+              [
+                41.0088857827507,
+                -8.586510035176783
+              ],
+              [
+                41.00889561558518,
+                -8.586442494022034
+              ],
+              [
+                41.00891267556783,
+                -8.586361815023398
+              ],
+              [
+                41.008936962698634,
+                -8.586267998180872
+              ],
+              [
+                41.00896847697761,
+                -8.586161043494462
+              ],
+              [
+                41.00900721840475,
+                -8.586040950964163
+              ],
+              [
+                41.00910368141028,
+                -8.585839337032471
+              ],
+              [
+                41.00925786599421,
+                -8.58555620169939
+              ],
+              [
+                41.009469772156535,
+                -8.585191544964914
+              ],
+              [
+                41.00973939989727,
+                -8.584745366829047
+              ],
+              [
+                41.01006674921639,
+                -8.584217667291789
+              ],
+              [
+                41.0104518201139,
+                -8.58360844635314
+              ],
+              [
+                41.010894612589816,
+                -8.582917704013095
+              ],
+              [
+                41.01139512664413,
+                -8.582145440271661
+              ],
+              [
+                41.01178029790296,
+                -8.581582283025146
+              ],
+              [
+                41.01205012636632,
+                -8.581228232273553
+              ],
+              [
+                41.012204612034196,
+                -8.581083288016877
+              ],
+              [
+                41.01224375490659,
+                -8.581147450255125
+              ],
+              [
+                41.012167554983506,
+                -8.581420718988293
+              ],
+              [
+                41.01197601226495,
+                -8.581903094216377
+              ],
+              [
+                41.01166912675091,
+                -8.582594575939384
+              ],
+              [
+                41.01124689844139,
+                -8.583495164157311
+              ],
+              [
+                41.010867874252284,
+                -8.584284970573938
+              ],
+              [
+                41.01053205418357,
+                -8.584963995189264
+              ],
+              [
+                41.010239438235274,
+                -8.585532238003294
+              ],
+              [
+                41.00999002640738,
+                -8.585989699016027
+              ],
+              [
+                41.00978381869989,
+                -8.586336378227458
+              ],
+              [
+                41.0096208151128,
+                -8.586572275637588
+              ],
+              [
+                41.009501015646116,
+                -8.586697391246421
+              ],
+              [
+                41.009424420299844,
+                -8.586711725053952
+              ],
+              [
+                41.00935472986342,
+                -8.586723320138729
+              ],
+              [
+                41.00929194433684,
+                -8.586732176500746
+              ],
+              [
+                41.00923606372011,
+                -8.586738294140007
+              ],
+              [
+                41.009187088013235,
+                -8.586741673056508
+              ],
+              [
+                41.00914501721621,
+                -8.586742313250253
+              ],
+              [
+                41.00910985132903,
+                -8.586740214721242
+              ],
+              [
+                41.009081590351705,
+                -8.586735377469473
+              ],
+              [
+                41.00906023428423,
+                -8.586727801494945
+              ],
+              [
+                41.00903916325541,
+                -8.586719298794833
+              ],
+              [
+                41.009018377265264,
+                -8.586709869369137
+              ],
+              [
+                41.00899787631377,
+                -8.586699513217859
+              ],
+              [
+                41.008977660400944,
+                -8.586688230340997
+              ],
+              [
+                41.00895772952678,
+                -8.586676020738548
+              ],
+              [
+                41.00893808369128,
+                -8.586662884410517
+              ],
+              [
+                41.008918722894435,
+                -8.586648821356903
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.009838924201766,
+    -8.585292485586622
+  ],
+  "centroDeMassa": [
+    41.01098990390842,
+    -8.583102205278479
+  ]
+}

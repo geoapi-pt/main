@@ -1,1 +1,361 @@
-{"CP4":"7645","CP3":"299","Distrito":"Beja","Concelho":"Odemira","CP":"7645-299","Artéria":"Rua Engenheiro Poole da Costa","Localidade":"Vila Nova de Milfontes","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE MILFONTES","locais":[{"id":"pt.ine.add.PTCONT.457919","rua":"LG DE BRITO PAIS","casa":"7","coordenadas":[37.72269677358627,-8.782366836278866]},{"id":"pt.ine.add.PTCONT.354662","rua":"R ANTÓNIO JOSÉ DE ALMEIDA","casa":"","coordenadas":[37.72281172752124,-8.782397938335572]},{"id":"pt.ine.add.PTCONT.370020","rua":"R ANTÓNIO JOSÉ DE ALMEIDA","casa":"","coordenadas":[37.72283030796926,-8.78229601740409]},{"id":"pt.ine.add.PTCONT.373263","rua":"R ENG POOLE DA COSTA","casa":"","coordenadas":[37.722867913614664,-8.7817957308467]},{"id":"pt.ine.add.PTCONT.390107","rua":"LG DE BRITO PAIS","casa":"","coordenadas":[37.72264993778142,-8.782328470772509]},{"id":"pt.ine.add.PTCONT.403971","rua":"R ENG POOLE DA COSTA","casa":"1","coordenadas":[37.722787655112384,-8.782103046140401]},{"id":"pt.ine.add.PTCONT.406423","rua":"R ENG POOLE DA COSTA","casa":"","coordenadas":[37.722901263453025,-8.781903295290602]},{"id":"pt.ine.add.PTCONT.408784","rua":"R ENG POOLE DA COSTA","casa":"3","coordenadas":[37.722769987509686,-8.782013652120504]},{"id":"pt.ine.add.PTCONT.419293","rua":"R ENG POOLE DA COSTA","casa":"5","coordenadas":[37.72276317257826,-8.781684752579457]},{"id":"pt.ine.add.PTCONT.424933","rua":"R ANTÓNIO JOSÉ DE ALMEIDA","casa":"","coordenadas":[37.722857959917896,-8.782182833010708]},{"id":"pt.ine.add.PTCONT.425654","rua":"LG DE BRITO PAIS","casa":"7","coordenadas":[37.72269677358627,-8.782366836278866]},{"id":"pt.ine.add.PTCONT.425655","rua":"LG DE BRITO PAIS","casa":"7","coordenadas":[37.72269677358627,-8.782366836278866]},{"id":"pt.ine.add.PTCONT.425656","rua":"LG DE BRITO PAIS","casa":"7","coordenadas":[37.72269677358627,-8.782366836278866]},{"id":"pt.ine.add.PTCONT.425657","rua":"LG DE BRITO PAIS","casa":"7","coordenadas":[37.72269677358627,-8.782366836278866]},{"id":"pt.ine.add.PTCONT.430509","rua":"LG DE BRITO PAIS","casa":"3","coordenadas":[37.723080886630825,-8.782990996189856]},{"id":"pt.ine.add.PTCONT.443753","rua":"R ENG POOLE DA COSTA","casa":"2","coordenadas":[37.722874041918296,-8.78201362641518]}],"ruas":["LG DE BRITO PAIS","R ANTÓNIO JOSÉ DE ALMEIDA","R ENG POOLE DA COSTA"],"centroide":[37.722786978668,-8.782235394272314]}
+{
+  "CP": "7645-299",
+  "CP4": "7645",
+  "CP3": "299",
+  "Distrito": "Beja",
+  "Concelho": "Odemira",
+  "Localidade": "Vila Nova de Milfontes",
+  "Designação Postal": "VILA NOVA DE MILFONTES",
+  "partes": [
+    {
+      "Artéria": "Rua Engenheiro Poole da Costa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.457919",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "7",
+      "coordenadas": [
+        37.72269677358627,
+        -8.782366836278866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.354662",
+      "rua": "R ANTÓNIO JOSÉ DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        37.72281172752124,
+        -8.782397938335572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.370020",
+      "rua": "R ANTÓNIO JOSÉ DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        37.72283030796926,
+        -8.78229601740409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.373263",
+      "rua": "R ENG POOLE DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        37.722867913614664,
+        -8.7817957308467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.390107",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "",
+      "coordenadas": [
+        37.72264993778142,
+        -8.782328470772509
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.403971",
+      "rua": "R ENG POOLE DA COSTA",
+      "casa": "1",
+      "coordenadas": [
+        37.722787655112384,
+        -8.782103046140401
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.406423",
+      "rua": "R ENG POOLE DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        37.722901263453025,
+        -8.781903295290602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.408784",
+      "rua": "R ENG POOLE DA COSTA",
+      "casa": "3",
+      "coordenadas": [
+        37.722769987509686,
+        -8.782013652120504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.419293",
+      "rua": "R ENG POOLE DA COSTA",
+      "casa": "5",
+      "coordenadas": [
+        37.72276317257826,
+        -8.781684752579457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.424933",
+      "rua": "R ANTÓNIO JOSÉ DE ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        37.722857959917896,
+        -8.782182833010708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.425654",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "7",
+      "coordenadas": [
+        37.72269677358627,
+        -8.782366836278866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.425655",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "7",
+      "coordenadas": [
+        37.72269677358627,
+        -8.782366836278866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.425656",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "7",
+      "coordenadas": [
+        37.72269677358627,
+        -8.782366836278866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.425657",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "7",
+      "coordenadas": [
+        37.72269677358627,
+        -8.782366836278866
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.430509",
+      "rua": "LG DE BRITO PAIS",
+      "casa": "3",
+      "coordenadas": [
+        37.723080886630825,
+        -8.782990996189856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.443753",
+      "rua": "R ENG POOLE DA COSTA",
+      "casa": "2",
+      "coordenadas": [
+        37.722874041918296,
+        -8.78201362641518
+      ]
+    }
+  ],
+  "ruas": [
+    "LG DE BRITO PAIS",
+    "R ANTÓNIO JOSÉ DE ALMEIDA",
+    "R ENG POOLE DA COSTA"
+  ],
+  "centro": [
+    37.72286541220612,
+    -8.782337874384655
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.72289234650921,
+                -8.782701141319768
+              ],
+              [
+                37.72283847790303,
+                -8.782618325642597
+              ],
+              [
+                37.72279311216633,
+                -8.782535803828308
+              ],
+              [
+                37.722756249299096,
+                -8.7824535758769
+              ],
+              [
+                37.72272788930134,
+                -8.78237164178837
+              ],
+              [
+                37.72270803217306,
+                -8.782290001562721
+              ],
+              [
+                37.72269667791424,
+                -8.78220865519995
+              ],
+              [
+                37.7226938265249,
+                -8.78212760270006
+              ],
+              [
+                37.72269947800504,
+                -8.782046844063048
+              ],
+              [
+                37.72271363235464,
+                -8.781966379288917
+              ],
+              [
+                37.72272765398924,
+                -8.781897706646976
+              ],
+              [
+                37.722741542908835,
+                -8.78184082613723
+              ],
+              [
+                37.72275529911342,
+                -8.781795737759676
+              ],
+              [
+                37.722768922602995,
+                -8.78176244151431
+              ],
+              [
+                37.72278241337757,
+                -8.781740937401139
+              ],
+              [
+                37.722795771437134,
+                -8.781731225420161
+              ],
+              [
+                37.72280899678169,
+                -8.781733305571375
+              ],
+              [
+                37.72282208941124,
+                -8.781747177854779
+              ],
+              [
+                37.72283406655332,
+                -8.781760996797196
+              ],
+              [
+                37.72284492820793,
+                -8.781774762398621
+              ],
+              [
+                37.72285467437507,
+                -8.781788474659058
+              ],
+              [
+                37.722863305054744,
+                -8.781802133578505
+              ],
+              [
+                37.722870820246946,
+                -8.781815739156961
+              ],
+              [
+                37.722877219951684,
+                -8.78182929139443
+              ],
+              [
+                37.72288250416894,
+                -8.781842790290908
+              ],
+              [
+                37.722886672898746,
+                -8.781856235846394
+              ],
+              [
+                37.72289312714947,
+                -8.781884996033998
+              ],
+              [
+                37.72290186692112,
+                -8.781929070853714
+              ],
+              [
+                37.7229128922137,
+                -8.781988460305548
+              ],
+              [
+                37.722926203027214,
+                -8.782063164389495
+              ],
+              [
+                37.72294179936165,
+                -8.782153183105558
+              ],
+              [
+                37.72295968121702,
+                -8.782258516453734
+              ],
+              [
+                37.72297984859331,
+                -8.782379164434026
+              ],
+              [
+                37.72300230149054,
+                -8.782515127046432
+              ],
+              [
+                37.72301521419983,
+                -8.782623742372643
+              ],
+              [
+                37.72301858672121,
+                -8.782705010412656
+              ],
+              [
+                37.72301241905466,
+                -8.782758931166471
+              ],
+              [
+                37.72299671120019,
+                -8.78278550463409
+              ],
+              [
+                37.72297146315779,
+                -8.782784730815512
+              ],
+              [
+                37.72293667492746,
+                -8.78275660971074
+              ],
+              [
+                37.72289234650921,
+                -8.782701141319768
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.72285263481164,
+    -8.782140649135826
+  ],
+  "centroDeMassa": [
+    37.72286541220612,
+    -8.782337874384655
+  ]
+}

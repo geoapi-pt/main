@@ -1,1 +1,577 @@
-{"CP4":"7645","CP3":"314","Distrito":"Beja","Concelho":"Odemira","CP":"7645-314","Artéria":"Rua de São Sebastião","Localidade":"Vila Nova de Milfontes","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE MILFONTES","locais":[{"id":"pt.ine.add.PTCONT.457611","rua":"R DE S SEBASTIÃO","casa":"4","coordenadas":[37.72503942399045,-8.78142101683857]},{"id":"pt.ine.add.PTCONT.457838","rua":"R DE S SEBASTIÃO","casa":"10","coordenadas":[37.725277983967615,-8.781420184620345]},{"id":"pt.ine.add.PTCONT.357042","rua":"R DE S SEBASTIÃO","casa":"17","coordenadas":[37.72546189608674,-8.781492305902121]},{"id":"pt.ine.add.PTCONT.357043","rua":"R DE S SEBASTIÃO","casa":"17","coordenadas":[37.72546189608674,-8.781492305902121]},{"id":"pt.ine.add.PTCONT.357044","rua":"R DE S SEBASTIÃO","casa":"17","coordenadas":[37.72546189608674,-8.781492305902121]},{"id":"pt.ine.add.PTCONT.357045","rua":"R DE S SEBASTIÃO","casa":"17","coordenadas":[37.72546189608674,-8.781492305902121]},{"id":"pt.ine.add.PTCONT.357048","rua":"R DE S SEBASTIÃO","casa":"27","coordenadas":[37.725870638182435,-8.781480101396511]},{"id":"pt.ine.add.PTCONT.360288","rua":"R DE S SEBASTIÃO","casa":"29 A","coordenadas":[37.726065031032384,-8.78151406599405]},{"id":"pt.ine.add.PTCONT.365148","rua":"LG DE S SEBASTIÃO","casa":"26 A","coordenadas":[37.72578197589078,-8.781289566519678]},{"id":"pt.ine.add.PTCONT.368353","rua":"R DE S SEBASTIÃO","casa":"27 A","coordenadas":[37.72592069032975,-8.781484290027542]},{"id":"pt.ine.add.PTCONT.368354","rua":"R DE S SEBASTIÃO","casa":"27 A","coordenadas":[37.72592069032975,-8.781484290027542]},{"id":"pt.ine.add.PTCONT.370012","rua":"R DE S SEBASTIÃO","casa":"14","coordenadas":[37.72543193111481,-8.781389926205348]},{"id":"pt.ine.add.PTCONT.379688","rua":"R DE S SEBASTIÃO","casa":"8","coordenadas":[37.725116928740626,-8.781421031148714]},{"id":"pt.ine.add.PTCONT.386227","rua":"R DE S SEBASTIÃO","casa":"2","coordenadas":[37.72496185746137,-8.781292315709935]},{"id":"pt.ine.add.PTCONT.386228","rua":"R DE S SEBASTIÃO","casa":"2","coordenadas":[37.72496185746137,-8.781292315709935]},{"id":"pt.ine.add.PTCONT.388544","rua":"R DE S SEBASTIÃO","casa":"13","coordenadas":[37.72529395477279,-8.78151167652043]},{"id":"pt.ine.add.PTCONT.389422","rua":"R DE S SEBASTIÃO","casa":"16","coordenadas":[37.725525655357984,-8.78136855629302]},{"id":"pt.ine.add.PTCONT.397483","rua":"R DE S SEBASTIÃO","casa":"29 B","coordenadas":[37.72612889417542,-8.781524764625752]},{"id":"pt.ine.add.PTCONT.401450","rua":"R DE S SEBASTIÃO","casa":"7","coordenadas":[37.72510007146029,-8.781514964621476]},{"id":"pt.ine.add.PTCONT.411277","rua":"R DE S SEBASTIÃO","casa":"23","coordenadas":[37.72573392273724,-8.78146252567353]},{"id":"pt.ine.add.PTCONT.416948","rua":"R DE S SEBASTIÃO","casa":"8 A","coordenadas":[37.72518918525695,-8.78142271249393]},{"id":"pt.ine.add.PTCONT.418474","rua":"R DE S SEBASTIÃO","casa":"16 A","coordenadas":[37.725406563072006,-8.781497518811845]},{"id":"pt.ine.add.PTCONT.419343","rua":"R DE S SEBASTIÃO","casa":"15","coordenadas":[37.72535851888207,-8.781505665026884]},{"id":"pt.ine.add.PTCONT.424096","rua":"R DE S SEBASTIÃO","casa":"11","coordenadas":[37.72521122046226,-8.781524676774158]},{"id":"pt.ine.add.PTCONT.430479","rua":"R DE S SEBASTIÃO","casa":"12","coordenadas":[37.725352604184735,-8.781394908491285]},{"id":"pt.ine.add.PTCONT.438103","rua":"R DE S SEBASTIÃO","casa":"29 C","coordenadas":[37.72622951760636,-8.78155325327321]},{"id":"pt.ine.add.PTCONT.442035","rua":"R DE S SEBASTIÃO","casa":"6","coordenadas":[37.72507386117746,-8.781425457187272]},{"id":"pt.ine.add.PTCONT.442899","rua":"R DE S SEBASTIÃO","casa":"21","coordenadas":[37.72567087992912,-8.781467139422775]},{"id":"pt.ine.add.PTCONT.446987","rua":"R DE S SEBASTIÃO","casa":"19","coordenadas":[37.725606976385805,-8.78147377719146]},{"id":"pt.ine.add.PTCONT.447004","rua":"R DE S SEBASTIÃO","casa":"25","coordenadas":[37.7257957563835,-8.78146120219574]},{"id":"pt.ine.add.PTCONT.450990","rua":"R DE S SEBASTIÃO","casa":"22","coordenadas":[37.72598443299145,-8.78121985618115]},{"id":"pt.ine.add.PTCONT.455002","rua":"R DE S SEBASTIÃO","casa":"20","coordenadas":[37.72573680546961,-8.781311858870438]},{"id":"pt.ine.add.PTCONT.455825","rua":"R DE S SEBASTIÃO","casa":"9","coordenadas":[37.72515447169587,-8.781521434763123]}],"ruas":["R DE S SEBASTIÃO","LG DE S SEBASTIÃO"],"centroide":[37.72551860666105,-8.781440588795656]}
+{
+  "CP": "7645-314",
+  "CP4": "7645",
+  "CP3": "314",
+  "Distrito": "Beja",
+  "Concelho": "Odemira",
+  "Localidade": "Vila Nova de Milfontes",
+  "Designação Postal": "VILA NOVA DE MILFONTES",
+  "partes": [
+    {
+      "Artéria": "Rua de São Sebastião",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.457611",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "4",
+      "coordenadas": [
+        37.72503942399045,
+        -8.78142101683857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.457838",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "10",
+      "coordenadas": [
+        37.725277983967615,
+        -8.781420184620345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.357042",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "17",
+      "coordenadas": [
+        37.72546189608674,
+        -8.781492305902121
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.357043",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "17",
+      "coordenadas": [
+        37.72546189608674,
+        -8.781492305902121
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.357044",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "17",
+      "coordenadas": [
+        37.72546189608674,
+        -8.781492305902121
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.357045",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "17",
+      "coordenadas": [
+        37.72546189608674,
+        -8.781492305902121
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.357048",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "27",
+      "coordenadas": [
+        37.725870638182435,
+        -8.781480101396511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.360288",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "29 A",
+      "coordenadas": [
+        37.726065031032384,
+        -8.78151406599405
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.365148",
+      "rua": "LG DE S SEBASTIÃO",
+      "casa": "26 A",
+      "coordenadas": [
+        37.72578197589078,
+        -8.781289566519678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.368353",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "27 A",
+      "coordenadas": [
+        37.72592069032975,
+        -8.781484290027542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.368354",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "27 A",
+      "coordenadas": [
+        37.72592069032975,
+        -8.781484290027542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.370012",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "14",
+      "coordenadas": [
+        37.72543193111481,
+        -8.781389926205348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.379688",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "8",
+      "coordenadas": [
+        37.725116928740626,
+        -8.781421031148714
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.386227",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "2",
+      "coordenadas": [
+        37.72496185746137,
+        -8.781292315709935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.386228",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "2",
+      "coordenadas": [
+        37.72496185746137,
+        -8.781292315709935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.388544",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "13",
+      "coordenadas": [
+        37.72529395477279,
+        -8.78151167652043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.389422",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "16",
+      "coordenadas": [
+        37.725525655357984,
+        -8.78136855629302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.397483",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "29 B",
+      "coordenadas": [
+        37.72612889417542,
+        -8.781524764625752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.401450",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "7",
+      "coordenadas": [
+        37.72510007146029,
+        -8.781514964621476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.411277",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "23",
+      "coordenadas": [
+        37.72573392273724,
+        -8.78146252567353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.416948",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "8 A",
+      "coordenadas": [
+        37.72518918525695,
+        -8.78142271249393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.418474",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "16 A",
+      "coordenadas": [
+        37.725406563072006,
+        -8.781497518811845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.419343",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "15",
+      "coordenadas": [
+        37.72535851888207,
+        -8.781505665026884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.424096",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "11",
+      "coordenadas": [
+        37.72521122046226,
+        -8.781524676774158
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.430479",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "12",
+      "coordenadas": [
+        37.725352604184735,
+        -8.781394908491285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.438103",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "29 C",
+      "coordenadas": [
+        37.72622951760636,
+        -8.78155325327321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.442035",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "6",
+      "coordenadas": [
+        37.72507386117746,
+        -8.781425457187272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.442899",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "21",
+      "coordenadas": [
+        37.72567087992912,
+        -8.781467139422775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.446987",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "19",
+      "coordenadas": [
+        37.725606976385805,
+        -8.78147377719146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.447004",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "25",
+      "coordenadas": [
+        37.7257957563835,
+        -8.78146120219574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.450990",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "22",
+      "coordenadas": [
+        37.72598443299145,
+        -8.78121985618115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.455002",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "20",
+      "coordenadas": [
+        37.72573680546961,
+        -8.781311858870438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.455825",
+      "rua": "R DE S SEBASTIÃO",
+      "casa": "9",
+      "coordenadas": [
+        37.72515447169587,
+        -8.781521434763123
+      ]
+    }
+  ],
+  "ruas": [
+    "R DE S SEBASTIÃO",
+    "LG DE S SEBASTIÃO"
+  ],
+  "centro": [
+    37.72559568753387,
+    -8.78138655472718
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.72500548863398,
+                -8.781364710094792
+              ],
+              [
+                37.72499579281784,
+                -8.781348622453713
+              ],
+              [
+                37.72500328672139,
+                -8.781333413587632
+              ],
+              [
+                37.7250279703446,
+                -8.781319083496548
+              ],
+              [
+                37.72506984368749,
+                -8.781305632180462
+              ],
+              [
+                37.725128906750044,
+                -8.78129305963937
+              ],
+              [
+                37.72520515953228,
+                -8.78128136587328
+              ],
+              [
+                37.7252986020342,
+                -8.781270550882187
+              ],
+              [
+                37.725409234255785,
+                -8.781260614666092
+              ],
+              [
+                37.72553705619705,
+                -8.781251557224993
+              ],
+              [
+                37.72565272984276,
+                -8.781248841293595
+              ],
+              [
+                37.72575625519292,
+                -8.7812524668719
+              ],
+              [
+                37.72584763224753,
+                -8.781262433959903
+              ],
+              [
+                37.725926861006585,
+                -8.781278742557609
+              ],
+              [
+                37.725993941470094,
+                -8.781301392665014
+              ],
+              [
+                37.726048873638064,
+                -8.781330384282118
+              ],
+              [
+                37.72609165751047,
+                -8.781365717408924
+              ],
+              [
+                37.72612229308734,
+                -8.781407392045434
+              ],
+              [
+                37.72613318832422,
+                -8.78144341084458
+              ],
+              [
+                37.726124343221116,
+                -8.781473773806365
+              ],
+              [
+                37.726095757778026,
+                -8.781498480930788
+              ],
+              [
+                37.72604743199495,
+                -8.781517532217853
+              ],
+              [
+                37.72597936587189,
+                -8.781530927667553
+              ],
+              [
+                37.72589155940884,
+                -8.781538667279895
+              ],
+              [
+                37.725784012605814,
+                -8.781540751054873
+              ],
+              [
+                37.72565672546281,
+                -8.781537178992494
+              ],
+              [
+                37.7255444625132,
+                -8.781534002781488
+              ],
+              [
+                37.72544722375699,
+                -8.781531222421854
+              ],
+              [
+                37.72536500919418,
+                -8.7815288379136
+              ],
+              [
+                37.72529781882478,
+                -8.78152684925672
+              ],
+              [
+                37.72524565264877,
+                -8.781525256451214
+              ],
+              [
+                37.72520851066617,
+                -8.781524059497084
+              ],
+              [
+                37.72518639287697,
+                -8.78152325839433
+              ],
+              [
+                37.725179299281166,
+                -8.781522853142953
+              ],
+              [
+                37.72517224238116,
+                -8.781522397452033
+              ],
+              [
+                37.725165222176955,
+                -8.781521891321571
+              ],
+              [
+                37.72515823866854,
+                -8.781521334751568
+              ],
+              [
+                37.72515129185591,
+                -8.781520727742025
+              ],
+              [
+                37.725144381739085,
+                -8.781520070292942
+              ],
+              [
+                37.72513750831804,
+                -8.781519362404318
+              ],
+              [
+                37.72513067159281,
+                -8.781518604076153
+              ],
+              [
+                37.725123871563355,
+                -8.781517795308446
+              ],
+              [
+                37.725116973920876,
+                -8.781515619702596
+              ],
+              [
+                37.72510997866536,
+                -8.7815120772586
+              ],
+              [
+                37.7251028857968,
+                -8.78150716797646
+              ],
+              [
+                37.72509569531521,
+                -8.781500891856176
+              ],
+              [
+                37.72508840722059,
+                -8.781493248897746
+              ],
+              [
+                37.725081021512935,
+                -8.781484239101173
+              ],
+              [
+                37.72507353819224,
+                -8.781473862466454
+              ],
+              [
+                37.7250659572585,
+                -8.781462118993591
+              ],
+              [
+                37.72505811196447,
+                -8.7814498324997
+              ],
+              [
+                37.72505000231014,
+                -8.781437002984784
+              ],
+              [
+                37.72504162829551,
+                -8.78142363044884
+              ],
+              [
+                37.725032989920585,
+                -8.781409714891867
+              ],
+              [
+                37.72502408718535,
+                -8.781395256313868
+              ],
+              [
+                37.72501492008981,
+                -8.781380254714843
+              ],
+              [
+                37.72500548863398,
+                -8.781364710094792
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.725382999381154,
+    -8.781435359737374
+  ],
+  "centroDeMassa": [
+    37.72559568753387,
+    -8.78138655472718
+  ]
+}

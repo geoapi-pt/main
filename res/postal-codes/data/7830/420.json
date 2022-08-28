@@ -1,1 +1,574 @@
-{"CP4":"7830","CP3":"420","Distrito":"Beja","Concelho":"Serpa","CP":"7830-420","Artéria":"Rua Doutor Álvaro Cunhal","Localidade":"Serpa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SERPA","locais":[{"id":"pt.ine.add.PTCONT.456404","rua":"R FRANCISCO TORRAO","casa":"4","coordenadas":[37.9420987299192,-7.602704069485798]},{"id":"pt.ine.add.PTCONT.354462","rua":"R 3","casa":"4","coordenadas":[37.94227320470261,-7.60307913594742]},{"id":"pt.ine.add.PTCONT.363412","rua":"R DR ÁLVARO CUNHAL","casa":"6","coordenadas":[37.94202077769212,-7.602322819231336]},{"id":"pt.ine.add.PTCONT.365036","rua":"R FRANCISCO TORRAO","casa":"1","coordenadas":[37.94230061302069,-7.602778879341704]},{"id":"pt.ine.add.PTCONT.367361","rua":"R FRANCISCO TORRAO","casa":"3","coordenadas":[37.942165424679615,-7.6026930545505245]},{"id":"pt.ine.add.PTCONT.373952","rua":"R 3","casa":"5","coordenadas":[37.942311302046896,-7.603151688743858]},{"id":"pt.ine.add.PTCONT.382578","rua":"R FRANCISCO TORRAO","casa":"5","coordenadas":[37.942031998064515,-7.6027066560085945]},{"id":"pt.ine.add.PTCONT.386378","rua":"R DR ÁLVARO CUNHAL","casa":"7","coordenadas":[37.94196111805261,-7.602332976164628]},{"id":"pt.ine.add.PTCONT.389205","rua":"R 3","casa":"6","coordenadas":[37.94232066968009,-7.6032312554832915]},{"id":"pt.ine.add.PTCONT.391550","rua":"R DR ÁLVARO CUNHAL","casa":"10","coordenadas":[37.941679953891466,-7.602339862914588]},{"id":"pt.ine.add.PTCONT.397915","rua":"R FRANCISCO TORRAO","casa":"7","coordenadas":[37.941821790796716,-7.602714487502847]},{"id":"pt.ine.add.PTCONT.401142","rua":"R 3","casa":"7","coordenadas":[37.94233019092125,-7.603344950008145]},{"id":"pt.ine.add.PTCONT.401143","rua":"R DR ÁLVARO CUNHAL","casa":"1","coordenadas":[37.94233268031188,-7.602298687790026]},{"id":"pt.ine.add.PTCONT.402118","rua":"R FRANCISCO TORRAO","casa":"6","coordenadas":[37.94197914144579,-7.602800993380289]},{"id":"pt.ine.add.PTCONT.403829","rua":"R 3","casa":"4","coordenadas":[37.94231995235417,-7.603071992607567]},{"id":"pt.ine.add.PTCONT.403833","rua":"R DR ÁLVARO CUNHAL","casa":"8","coordenadas":[37.941826302895514,-7.602427217115025]},{"id":"pt.ine.add.PTCONT.406632","rua":"R FRANCISCO TORRAO","casa":"8","coordenadas":[37.941768416165914,-7.602719084873027]},{"id":"pt.ine.add.PTCONT.408175","rua":"R DR ÁLVARO CUNHAL","casa":"7","coordenadas":[37.94196510818383,-7.602416047431036]},{"id":"pt.ine.add.PTCONT.423220","rua":"R DR ÁLVARO CUNHAL","casa":"2","coordenadas":[37.94227103879833,-7.60229669893908]},{"id":"pt.ine.add.PTCONT.437086","rua":"R FRANCISCO TORRAO","casa":"2","coordenadas":[37.942246188689076,-7.602697105316653]},{"id":"pt.ine.add.PTCONT.440394","rua":"R DR ÁLVARO CUNHAL","casa":"11","coordenadas":[37.941602928028125,-7.602342849144751]},{"id":"pt.ine.add.PTCONT.440395","rua":"R FRANCISCO TORRAO","casa":"9","coordenadas":[37.94171329479868,-7.602810668067983]},{"id":"pt.ine.add.PTCONT.444264","rua":"R DR ÁLVARO CUNHAL","casa":"5","coordenadas":[37.94208238539197,-7.60231751161594]},{"id":"pt.ine.add.PTCONT.448426","rua":"R FRANCISCO TORRAO","casa":"1","coordenadas":[37.94229888838425,-7.602687881462717]},{"id":"pt.ine.add.PTCONT.449265","rua":"R DR ÁLVARO CUNHAL","casa":"3","coordenadas":[37.94222637517349,-7.602299078180328]},{"id":"pt.ine.add.PTCONT.450564","rua":"R FRANCISCO TORRAO","casa":"9","coordenadas":[37.94173631019394,-7.602735569940075]},{"id":"pt.ine.add.PTCONT.451595","rua":"R DR ÁLVARO CUNHAL","casa":"1","coordenadas":[37.942344793521166,-7.602397001024812]},{"id":"pt.ine.add.PTCONT.451854","rua":"R DR ÁLVARO CUNHAL","casa":"4","coordenadas":[37.942149771466156,-7.60231216356516]},{"id":"pt.ine.add.PTCONT.453964","rua":"R FRANCISCO TORRAO","casa":"6","coordenadas":[37.94198363923273,-7.602713324227163]},{"id":"pt.ine.add.PTCONT.454872","rua":"R DR ÁLVARO CUNHAL","casa":"8","coordenadas":[37.941799372809996,-7.602341436230534]},{"id":"pt.ine.add.PTCONT.454873","rua":"R DR ÁLVARO CUNHAL","casa":"9","coordenadas":[37.94173963547239,-7.602334569195019]}],"ruas":["R FRANCISCO TORRAO","R 3","R DR ÁLVARO CUNHAL"],"centroide":[37.94206541204377,-7.602636171543164]}71543164]}
+{
+  "CP": "7830-420",
+  "CP4": "7830",
+  "CP3": "420",
+  "Distrito": "Beja",
+  "Concelho": "Serpa",
+  "Localidade": "Serpa",
+  "Designação Postal": "SERPA",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco Torrão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Circundante do Bairro Operário",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Doutor Álvaro Cunhal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.456404",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "4",
+      "coordenadas": [
+        37.9420987299192,
+        -7.602704069485798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.354462",
+      "rua": "R 3",
+      "casa": "4",
+      "coordenadas": [
+        37.94227320470261,
+        -7.60307913594742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.363412",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "6",
+      "coordenadas": [
+        37.94202077769212,
+        -7.602322819231336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.365036",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "1",
+      "coordenadas": [
+        37.94230061302069,
+        -7.602778879341704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.367361",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "3",
+      "coordenadas": [
+        37.942165424679615,
+        -7.6026930545505245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.373952",
+      "rua": "R 3",
+      "casa": "5",
+      "coordenadas": [
+        37.942311302046896,
+        -7.603151688743858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.382578",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "5",
+      "coordenadas": [
+        37.942031998064515,
+        -7.6027066560085945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.386378",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "7",
+      "coordenadas": [
+        37.94196111805261,
+        -7.602332976164628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.389205",
+      "rua": "R 3",
+      "casa": "6",
+      "coordenadas": [
+        37.94232066968009,
+        -7.6032312554832915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.391550",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "10",
+      "coordenadas": [
+        37.941679953891466,
+        -7.602339862914588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.397915",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "7",
+      "coordenadas": [
+        37.941821790796716,
+        -7.602714487502847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.401142",
+      "rua": "R 3",
+      "casa": "7",
+      "coordenadas": [
+        37.94233019092125,
+        -7.603344950008145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.401143",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "1",
+      "coordenadas": [
+        37.94233268031188,
+        -7.602298687790026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.402118",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "6",
+      "coordenadas": [
+        37.94197914144579,
+        -7.602800993380289
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.403829",
+      "rua": "R 3",
+      "casa": "4",
+      "coordenadas": [
+        37.94231995235417,
+        -7.603071992607567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.403833",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "8",
+      "coordenadas": [
+        37.941826302895514,
+        -7.602427217115025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.406632",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "8",
+      "coordenadas": [
+        37.941768416165914,
+        -7.602719084873027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.408175",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "7",
+      "coordenadas": [
+        37.94196510818383,
+        -7.602416047431036
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.423220",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "2",
+      "coordenadas": [
+        37.94227103879833,
+        -7.60229669893908
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.437086",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "2",
+      "coordenadas": [
+        37.942246188689076,
+        -7.602697105316653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.440394",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "11",
+      "coordenadas": [
+        37.941602928028125,
+        -7.602342849144751
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.440395",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "9",
+      "coordenadas": [
+        37.94171329479868,
+        -7.602810668067983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.444264",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "5",
+      "coordenadas": [
+        37.94208238539197,
+        -7.60231751161594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.448426",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "1",
+      "coordenadas": [
+        37.94229888838425,
+        -7.602687881462717
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.449265",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "3",
+      "coordenadas": [
+        37.94222637517349,
+        -7.602299078180328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.450564",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "9",
+      "coordenadas": [
+        37.94173631019394,
+        -7.602735569940075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451595",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "1",
+      "coordenadas": [
+        37.942344793521166,
+        -7.602397001024812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451854",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "4",
+      "coordenadas": [
+        37.942149771466156,
+        -7.60231216356516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.453964",
+      "rua": "R FRANCISCO TORRAO",
+      "casa": "6",
+      "coordenadas": [
+        37.94198363923273,
+        -7.602713324227163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.454872",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "8",
+      "coordenadas": [
+        37.941799372809996,
+        -7.602341436230534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.454873",
+      "rua": "R DR ÁLVARO CUNHAL",
+      "casa": "9",
+      "coordenadas": [
+        37.94173963547239,
+        -7.602334569195019
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO TORRAO",
+    "R 3",
+    "R DR ÁLVARO CUNHAL"
+  ],
+  "centro": [
+    37.941973860774645,
+    -7.602820824473612
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.94166500933657,
+                -7.60260599728907
+              ],
+              [
+                37.94165121349024,
+                -7.602547519923665
+              ],
+              [
+                37.94164888348636,
+                -7.6024956683076175
+              ],
+              [
+                37.94165801932492,
+                -7.602450442440926
+              ],
+              [
+                37.941678621005906,
+                -7.602411842323591
+              ],
+              [
+                37.941710688529334,
+                -7.602379867955612
+              ],
+              [
+                37.941754221895195,
+                -7.60235451933699
+              ],
+              [
+                37.94180922110349,
+                -7.602335796467725
+              ],
+              [
+                37.941875686154226,
+                -7.602323699347815
+              ],
+              [
+                37.941953617047396,
+                -7.602318227977263
+              ],
+              [
+                37.94202250444806,
+                -7.602313403352385
+              ],
+              [
+                37.94208234835621,
+                -7.6023092254731806
+              ],
+              [
+                37.94213314877186,
+                -7.602305694339652
+              ],
+              [
+                37.942174905695,
+                -7.602302809951797
+              ],
+              [
+                37.942207619125625,
+                -7.602300572309618
+              ],
+              [
+                37.94223128906374,
+                -7.602298981413113
+              ],
+              [
+                37.94224591550936,
+                -7.6022980372622815
+              ],
+              [
+                37.94225149846246,
+                -7.602297739857127
+              ],
+              [
+                37.94225734669508,
+                -7.60229751070341
+              ],
+              [
+                37.94226346020721,
+                -7.602297349801136
+              ],
+              [
+                37.94226983899885,
+                -7.602297257150302
+              ],
+              [
+                37.942276483069996,
+                -7.602297232750908
+              ],
+              [
+                37.942283392420656,
+                -7.602297276602955
+              ],
+              [
+                37.942290567050826,
+                -7.602297388706441
+              ],
+              [
+                37.942298006960506,
+                -7.602297569061369
+              ],
+              [
+                37.942305712149704,
+                -7.602297817667738
+              ],
+              [
+                37.94231264345914,
+                -7.602299571342604
+              ],
+              [
+                37.94231880088883,
+                -7.602302830085966
+              ],
+              [
+                37.94232418443876,
+                -7.602307593897827
+              ],
+              [
+                37.94232879410893,
+                -7.602313862778185
+              ],
+              [
+                37.942332629899354,
+                -7.602321636727041
+              ],
+              [
+                37.94233569181003,
+                -7.602330915744394
+              ],
+              [
+                37.94233797984094,
+                -7.602341699830245
+              ],
+              [
+                37.9423394939921,
+                -7.602353988984593
+              ],
+              [
+                37.94234059070874,
+                -7.602379553697512
+              ],
+              [
+                37.94234126999086,
+                -7.602418393969003
+              ],
+              [
+                37.942341531838466,
+                -7.602470509799065
+              ],
+              [
+                37.94234137625156,
+                -7.6025359011876965
+              ],
+              [
+                37.942340803230124,
+                -7.602614568134899
+              ],
+              [
+                37.94233981277418,
+                -7.602706510640674
+              ],
+              [
+                37.9423384048837,
+                -7.60281172870502
+              ],
+              [
+                37.94233657955871,
+                -7.602930222327936
+              ],
+              [
+                37.94232534339743,
+                -7.603025556092674
+              ],
+              [
+                37.94230469639986,
+                -7.603097729999232
+              ],
+              [
+                37.942274638566,
+                -7.60314674404761
+              ],
+              [
+                37.942235169895845,
+                -7.6031725982378076
+              ],
+              [
+                37.9421862903894,
+                -7.603175292569826
+              ],
+              [
+                37.94212800004666,
+                -7.603154827043665
+              ],
+              [
+                37.942060298867624,
+                -7.603111201659324
+              ],
+              [
+                37.941983186852305,
+                -7.603044416416804
+              ],
+              [
+                37.941913989358106,
+                -7.602978669658922
+              ],
+              [
+                37.94185270638503,
+                -7.602913961385683
+              ],
+              [
+                37.941799337933084,
+                -7.602850291597081
+              ],
+              [
+                37.941753884002274,
+                -7.602787660293119
+              ],
+              [
+                37.94171634459258,
+                -7.602726067473797
+              ],
+              [
+                37.94168671970401,
+                -7.602665513139113
+              ],
+              [
+                37.94166500933657,
+                -7.60260599728907
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.94211732879328,
+    -7.6025414190221605
+  ],
+  "centroDeMassa": [
+    37.941973860774645,
+    -7.602820824473612
+  ]
+}

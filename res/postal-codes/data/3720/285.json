@@ -1,1 +1,391 @@
-{"CP4":"3720","CP3":"285","Distrito":"Aveiro","Concelho":"Oliveira de Azeméis","CP":"3720-285","Artéria":"Travessa Manuel Correia Bastos Pina","Localidade":"Oliveira de Azeméis","Local":"Cidacos","Troço":"","Porta":"","Cliente":"","Designação Postal":"OLIVEIRA DE AZEMÉIS","locais":[{"id":"pt.ine.add.PTCONT.293424","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"105","coordenadas":[40.84131509415772,-8.465952691230514]},{"id":"pt.ine.add.PTCONT.335913","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"","coordenadas":[40.84155623569054,-8.466641618346458]},{"id":"pt.ine.add.PTCONT.339046","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"49","coordenadas":[40.84189694025046,-8.467153190850345]},{"id":"pt.ine.add.PTCONT.349873","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"39","coordenadas":[40.8419236110445,-8.46727189796003]},{"id":"pt.ine.add.PTCONT.350592","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"92","coordenadas":[40.84151035463743,-8.466937819526311]},{"id":"pt.ine.add.PTCONT.6911","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"68","coordenadas":[40.84164511674963,-8.467045211110733]},{"id":"pt.ine.add.PTCONT.14812","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"104","coordenadas":[40.841151742389115,-8.466390589850409]},{"id":"pt.ine.add.PTCONT.83170","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"92","coordenadas":[40.84151035463743,-8.466937819526311]},{"id":"pt.ine.add.PTCONT.83171","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"92","coordenadas":[40.84151035463743,-8.466937819526311]},{"id":"pt.ine.add.PTCONT.83173","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"92","coordenadas":[40.84151035463743,-8.466937819526311]},{"id":"pt.ine.add.PTCONT.86548","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"40","coordenadas":[40.84177946666876,-8.467294888601096]},{"id":"pt.ine.add.PTCONT.86549","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"285","coordenadas":[40.84207541981963,-8.467711382268657]},{"id":"pt.ine.add.PTCONT.250730","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"295","coordenadas":[40.84194959431309,-8.467627748213658]},{"id":"pt.ine.add.PTCONT.257040","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"52","coordenadas":[40.84174382550153,-8.467164279411604]},{"id":"pt.ine.add.PTCONT.276485","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"26","coordenadas":[40.84180593113489,-8.467484738318115]},{"id":"pt.ine.add.PTCONT.276486","rua":"TV MANUEL CORREIA BASTOS PINA","casa":"26","coordenadas":[40.84180593113489,-8.467484738318115]}],"ruas":["TV MANUEL CORREIA BASTOS PINA"],"centroide":[40.84165895975131,-8.467032634284458]}
+{
+  "CP": "3720-285",
+  "CP4": "3720",
+  "CP3": "285",
+  "Distrito": "Aveiro",
+  "Concelho": "Oliveira de Azeméis",
+  "Localidade": "Oliveira de Azeméis",
+  "Designação Postal": "OLIVEIRA DE AZEMÉIS",
+  "partes": [
+    {
+      "Artéria": "Travessa Manuel Correia Bastos Pina",
+      "Local": "Cidacos",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.293424",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "105",
+      "coordenadas": [
+        40.84131509415772,
+        -8.465952691230514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.335913",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "",
+      "coordenadas": [
+        40.84155623569054,
+        -8.466641618346458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.339046",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "49",
+      "coordenadas": [
+        40.84189694025046,
+        -8.467153190850345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.349873",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "39",
+      "coordenadas": [
+        40.8419236110445,
+        -8.46727189796003
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.350592",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "92",
+      "coordenadas": [
+        40.84151035463743,
+        -8.466937819526311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.6911",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "68",
+      "coordenadas": [
+        40.84164511674963,
+        -8.467045211110733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.14812",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "104",
+      "coordenadas": [
+        40.841151742389115,
+        -8.466390589850409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83170",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "92",
+      "coordenadas": [
+        40.84151035463743,
+        -8.466937819526311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83171",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "92",
+      "coordenadas": [
+        40.84151035463743,
+        -8.466937819526311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83173",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "92",
+      "coordenadas": [
+        40.84151035463743,
+        -8.466937819526311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.86548",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "40",
+      "coordenadas": [
+        40.84177946666876,
+        -8.467294888601096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.86549",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "285",
+      "coordenadas": [
+        40.84207541981963,
+        -8.467711382268657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250730",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "295",
+      "coordenadas": [
+        40.84194959431309,
+        -8.467627748213658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.257040",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "52",
+      "coordenadas": [
+        40.84174382550153,
+        -8.467164279411604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.276485",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "26",
+      "coordenadas": [
+        40.84180593113489,
+        -8.467484738318115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.276486",
+      "rua": "TV MANUEL CORREIA BASTOS PINA",
+      "casa": "26",
+      "coordenadas": [
+        40.84180593113489,
+        -8.467484738318115
+      ]
+    }
+  ],
+  "ruas": [
+    "TV MANUEL CORREIA BASTOS PINA"
+  ],
+  "centro": [
+    40.84161358110437,
+    -8.466832036749587
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.84151972355861,
+                -8.467006048363494
+              ],
+              [
+                40.841437949965396,
+                -8.46686927980503
+              ],
+              [
+                40.841368950442714,
+                -8.466742765150439
+              ],
+              [
+                40.84131272499056,
+                -8.46662650439972
+              ],
+              [
+                40.84126927360895,
+                -8.466520497552873
+              ],
+              [
+                40.84123859629788,
+                -8.466424744609899
+              ],
+              [
+                40.84122069305734,
+                -8.466339245570795
+              ],
+              [
+                40.841215563887346,
+                -8.466264000435565
+              ],
+              [
+                40.84122320878788,
+                -8.466199009204207
+              ],
+              [
+                40.841243627758956,
+                -8.466144271876718
+              ],
+              [
+                40.841270585703846,
+                -8.466115134521727
+              ],
+              [
+                40.84130408262255,
+                -8.466111597139234
+              ],
+              [
+                40.84134411851507,
+                -8.466133659729234
+              ],
+              [
+                40.841390693381406,
+                -8.466181322291728
+              ],
+              [
+                40.84144380722155,
+                -8.46625458482672
+              ],
+              [
+                40.84150346003552,
+                -8.466353447334209
+              ],
+              [
+                40.84156965182329,
+                -8.466477909814191
+              ],
+              [
+                40.84164238258488,
+                -8.466627972266668
+              ],
+              [
+                40.84170881074454,
+                -8.466767998653498
+              ],
+              [
+                40.84176893630228,
+                -8.466897988974681
+              ],
+              [
+                40.84182275925808,
+                -8.467017943230214
+              ],
+              [
+                40.841870279611946,
+                -8.467127861420096
+              ],
+              [
+                40.84191149736389,
+                -8.467227743544331
+              ],
+              [
+                40.84194641251389,
+                -8.467317589602917
+              ],
+              [
+                40.84197502506197,
+                -8.467397399595857
+              ],
+              [
+                40.84199733500812,
+                -8.467467173523145
+              ],
+              [
+                40.84201489018746,
+                -8.467526918927414
+              ],
+              [
+                40.842027690599984,
+                -8.467576635808662
+              ],
+              [
+                40.842035736245705,
+                -8.467616324166888
+              ],
+              [
+                40.84203902712463,
+                -8.467645984002097
+              ],
+              [
+                40.84203756323673,
+                -8.467665615314283
+              ],
+              [
+                40.84203134458203,
+                -8.46767521810345
+              ],
+              [
+                40.84202037116052,
+                -8.467674792369596
+              ],
+              [
+                40.8420046429722,
+                -8.46766433811272
+              ],
+              [
+                40.84198863607026,
+                -8.467652956108337
+              ],
+              [
+                40.84197235045471,
+                -8.467640646356445
+              ],
+              [
+                40.84195578612554,
+                -8.467627408857044
+              ],
+              [
+                40.84193894308274,
+                -8.467613243610135
+              ],
+              [
+                40.84192182132632,
+                -8.467598150615718
+              ],
+              [
+                40.84190442085628,
+                -8.46758212987379
+              ],
+              [
+                40.84188674167263,
+                -8.467565181384357
+              ],
+              [
+                40.841868783775354,
+                -8.467547305147415
+              ],
+              [
+                40.84184284891609,
+                -8.467514567370282
+              ],
+              [
+                40.841808937094825,
+                -8.467466968052959
+              ],
+              [
+                40.84176704831157,
+                -8.467404507195447
+              ],
+              [
+                40.84171718256632,
+                -8.467327184797742
+              ],
+              [
+                40.84165933985908,
+                -8.467235000859851
+              ],
+              [
+                40.84159352018984,
+                -8.467127955381766
+              ],
+              [
+                40.84151972355861,
+                -8.467006048363494
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.84169912034415,
+    -8.467053390121949
+  ],
+  "centroDeMassa": [
+    40.84161358110437,
+    -8.466832036749587
+  ]
+}

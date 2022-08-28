@@ -1,1 +1,509 @@
-{"CP4":"3530","CP3":"207","Distrito":"Viseu","Concelho":"Mangualde","CP":"3530-207","Artéria":"Rua Doutor Veiga Simão","Localidade":"Mangualde","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MANGUALDE","locais":[{"id":"pt.ine.add.PTCONT.5429314","rua":"R DR VEIGA SIMAO","casa":"28","coordenadas":[40.60266872203947,-7.755195183208963]},{"id":"pt.ine.add.PTCONT.5429315","rua":"R DR VEIGA SIMAO","casa":"28","coordenadas":[40.60266872203947,-7.755195183208963]},{"id":"pt.ine.add.PTCONT.5443720","rua":"R DR VEIGA SIMAO","casa":"39","coordenadas":[40.6015809249022,-7.755756602198322]},{"id":"pt.ine.add.PTCONT.5458581","rua":"R DR VEIGA SIMAO","casa":"35","coordenadas":[40.60177003124162,-7.755755538761266]},{"id":"pt.ine.add.PTCONT.5460964","rua":"R DR VEIGA SIMAO","casa":"12","coordenadas":[40.603305759796484,-7.754482692896361]},{"id":"pt.ine.add.PTCONT.5463833","rua":"R DR VEIGA SIMAO","casa":"58","coordenadas":[40.601672980992525,-7.756370451692829]},{"id":"pt.ine.add.PTCONT.5467526","rua":"R DR VEIGA SIMAO","casa":"11","coordenadas":[40.60299004036801,-7.7543190646332185]},{"id":"pt.ine.add.PTCONT.5517065","rua":"R DR VEIGA SIMAO","casa":"41","coordenadas":[40.601653505663606,-7.755921600539504]},{"id":"pt.ine.add.PTCONT.5522787","rua":"R DR VEIGA SIMAO","casa":"14","coordenadas":[40.60317114855895,-7.754625232677646]},{"id":"pt.ine.add.PTCONT.5525651","rua":"R DR VEIGA SIMAO","casa":"2","coordenadas":[40.60416993559996,-7.7543832948868525]},{"id":"pt.ine.add.PTCONT.5531861","rua":"R DR VEIGA SIMAO","casa":"16","coordenadas":[40.60300940585267,-7.754732479900703]},{"id":"pt.ine.add.PTCONT.5534896","rua":"R DR VEIGA SIMAO","casa":"6","coordenadas":[40.60353981388764,-7.754457742007186]},{"id":"pt.ine.add.PTCONT.5540758","rua":"R DR VEIGA SIMAO","casa":"31","coordenadas":[40.602173830119874,-7.755316118840169]},{"id":"pt.ine.add.PTCONT.5568923","rua":"R DR VEIGA SIMAO","casa":"36","coordenadas":[40.60255208137745,-7.755325804119093]},{"id":"pt.ine.add.PTCONT.5575081","rua":"R DR VEIGA SIMAO","casa":"52","coordenadas":[40.601959986442544,-7.7560143962231045]},{"id":"pt.ine.add.PTCONT.5575082","rua":"R DR VEIGA SIMAO","casa":"52","coordenadas":[40.601959986442544,-7.7560143962231045]},{"id":"pt.ine.add.PTCONT.5582489","rua":"R DR VEIGA SIMAO","casa":"25","coordenadas":[40.60232629773202,-7.755126222532539]},{"id":"pt.ine.add.PTCONT.5593657","rua":"R DR VEIGA SIMAO","casa":"21","coordenadas":[40.602684836569274,-7.754616160823233]},{"id":"pt.ine.add.PTCONT.5599167","rua":"R DR VEIGA SIMAO","casa":"24","coordenadas":[40.602857016284155,-7.754946008530188]},{"id":"pt.ine.add.PTCONT.5601019","rua":"R DR VEIGA SIMAO","casa":"40","coordenadas":[40.602381603319145,-7.755515801965445]},{"id":"pt.ine.add.PTCONT.5604953","rua":"R DR VEIGA SIMAO","casa":"51","coordenadas":[40.60139355421692,-7.756289317547256]},{"id":"pt.ine.add.PTCONT.5614812","rua":"SIT MANGUALDE","casa":"7","coordenadas":[40.60323205284274,-7.753975062630376]},{"id":"pt.ine.add.PTCONT.5615013","rua":"R DR VEIGA SIMAO","casa":"48","coordenadas":[40.60206762284242,-7.755883828287892]},{"id":"pt.ine.add.PTCONT.5615935","rua":"R DR VEIGA SIMAO","casa":"1","coordenadas":[40.60380880315013,-7.754101770165269]},{"id":"pt.ine.add.PTCONT.5619589","rua":"R DR VEIGA SIMAO","casa":"17","coordenadas":[40.60285546805405,-7.754473418808216]},{"id":"pt.ine.add.PTCONT.5619590","rua":"R DR VEIGA SIMAO","casa":"17","coordenadas":[40.60285546805405,-7.754473418808216]},{"id":"pt.ine.add.PTCONT.5640970","rua":"R DR VEIGA SIMAO","casa":"45","coordenadas":[40.60150981038415,-7.756040555495139]},{"id":"pt.ine.add.PTCONT.5665241","rua":"R DR VEIGA SIMAO","casa":"22","coordenadas":[40.602910853227066,-7.75488663026087]},{"id":"pt.ine.add.PTCONT.5669067","rua":"R DR VEIGA SIMAO","casa":"12","coordenadas":[40.603305759796484,-7.754482692896361]}],"ruas":["R DR VEIGA SIMAO","SIT MANGUALDE"],"centroide":[40.60256179507148,-7.755149784923998]}
+{
+  "CP": "3530-207",
+  "CP4": "3530",
+  "CP3": "207",
+  "Distrito": "Viseu",
+  "Concelho": "Mangualde",
+  "Localidade": "Mangualde",
+  "Designação Postal": "MANGUALDE",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Veiga Simão",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5429314",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "28",
+      "coordenadas": [
+        40.60266872203947,
+        -7.755195183208963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5429315",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "28",
+      "coordenadas": [
+        40.60266872203947,
+        -7.755195183208963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5443720",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "39",
+      "coordenadas": [
+        40.6015809249022,
+        -7.755756602198322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5458581",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "35",
+      "coordenadas": [
+        40.60177003124162,
+        -7.755755538761266
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5460964",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "12",
+      "coordenadas": [
+        40.603305759796484,
+        -7.754482692896361
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5463833",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "58",
+      "coordenadas": [
+        40.601672980992525,
+        -7.756370451692829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5467526",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "11",
+      "coordenadas": [
+        40.60299004036801,
+        -7.7543190646332185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5517065",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "41",
+      "coordenadas": [
+        40.601653505663606,
+        -7.755921600539504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5522787",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "14",
+      "coordenadas": [
+        40.60317114855895,
+        -7.754625232677646
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5525651",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "2",
+      "coordenadas": [
+        40.60416993559996,
+        -7.7543832948868525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5531861",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "16",
+      "coordenadas": [
+        40.60300940585267,
+        -7.754732479900703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5534896",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "6",
+      "coordenadas": [
+        40.60353981388764,
+        -7.754457742007186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5540758",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "31",
+      "coordenadas": [
+        40.602173830119874,
+        -7.755316118840169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5568923",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "36",
+      "coordenadas": [
+        40.60255208137745,
+        -7.755325804119093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5575081",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "52",
+      "coordenadas": [
+        40.601959986442544,
+        -7.7560143962231045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5575082",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "52",
+      "coordenadas": [
+        40.601959986442544,
+        -7.7560143962231045
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5582489",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "25",
+      "coordenadas": [
+        40.60232629773202,
+        -7.755126222532539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5593657",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "21",
+      "coordenadas": [
+        40.602684836569274,
+        -7.754616160823233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5599167",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "24",
+      "coordenadas": [
+        40.602857016284155,
+        -7.754946008530188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5601019",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "40",
+      "coordenadas": [
+        40.602381603319145,
+        -7.755515801965445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5604953",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "51",
+      "coordenadas": [
+        40.60139355421692,
+        -7.756289317547256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5614812",
+      "rua": "SIT MANGUALDE",
+      "casa": "7",
+      "coordenadas": [
+        40.60323205284274,
+        -7.753975062630376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5615013",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "48",
+      "coordenadas": [
+        40.60206762284242,
+        -7.755883828287892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5615935",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "1",
+      "coordenadas": [
+        40.60380880315013,
+        -7.754101770165269
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5619589",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "17",
+      "coordenadas": [
+        40.60285546805405,
+        -7.754473418808216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5619590",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "17",
+      "coordenadas": [
+        40.60285546805405,
+        -7.754473418808216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5640970",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "45",
+      "coordenadas": [
+        40.60150981038415,
+        -7.756040555495139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5665241",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "22",
+      "coordenadas": [
+        40.602910853227066,
+        -7.75488663026087
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5669067",
+      "rua": "R DR VEIGA SIMAO",
+      "casa": "12",
+      "coordenadas": [
+        40.603305759796484,
+        -7.754482692896361
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR VEIGA SIMAO",
+    "SIT MANGUALDE"
+  ],
+  "centro": [
+    40.60278174490844,
+    -7.755172757161603
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.6015507317782,
+                -7.7563349555041405
+              ],
+              [
+                40.60151580343125,
+                -7.756324813735944
+              ],
+              [
+                40.601488168794624,
+                -7.756307616011445
+              ],
+              [
+                40.601467827868326,
+                -7.756283362330642
+              ],
+              [
+                40.601454780652354,
+                -7.756252052693538
+              ],
+              [
+                40.60144902714671,
+                -7.756213687100131
+              ],
+              [
+                40.601450567351385,
+                -7.756168265550422
+              ],
+              [
+                40.601459401266396,
+                -7.756115788044411
+              ],
+              [
+                40.60147552889173,
+                -7.756056254582097
+              ],
+              [
+                40.60149895022739,
+                -7.755989665163481
+              ],
+              [
+                40.601545242770165,
+                -7.755903562866442
+              ],
+              [
+                40.60161440652005,
+                -7.755797947690981
+              ],
+              [
+                40.60170644147705,
+                -7.755672819637098
+              ],
+              [
+                40.60182134764116,
+                -7.755528178704793
+              ],
+              [
+                40.601959125012385,
+                -7.755364024894066
+              ],
+              [
+                40.60211977359073,
+                -7.7551803582049175
+              ],
+              [
+                40.60230329337619,
+                -7.754977178637346
+              ],
+              [
+                40.602509684368755,
+                -7.754754486191352
+              ],
+              [
+                40.60269928821081,
+                -7.754561610106341
+              ],
+              [
+                40.60287210490234,
+                -7.754398550382311
+              ],
+              [
+                40.603028134443356,
+                -7.754265307019264
+              ],
+              [
+                40.603167376833845,
+                -7.7541618800171985
+              ],
+              [
+                40.60328983207383,
+                -7.754088269376115
+              ],
+              [
+                40.60339550016328,
+                -7.754044475096013
+              ],
+              [
+                40.60348438110222,
+                -7.754030497176892
+              ],
+              [
+                40.60355647489065,
+                -7.754046335618753
+              ],
+              [
+                40.60362519965005,
+                -7.754064593079156
+              ],
+              [
+                40.60369055538042,
+                -7.754085269558102
+              ],
+              [
+                40.603752542081764,
+                -7.75410836505559
+              ],
+              [
+                40.6038111597541,
+                -7.7541338795716195
+              ],
+              [
+                40.6038664083974,
+                -7.754161813106192
+              ],
+              [
+                40.60391828801168,
+                -7.754192165659306
+              ],
+              [
+                40.60396679859693,
+                -7.754224937230962
+              ],
+              [
+                40.60401194015316,
+                -7.754260127821159
+              ],
+              [
+                40.60401242409912,
+                -7.7543219689126754
+              ],
+              [
+                40.603968250434804,
+                -7.754410460505513
+              ],
+              [
+                40.60387941916023,
+                -7.754525602599666
+              ],
+              [
+                40.60374593027537,
+                -7.754667395195138
+              ],
+              [
+                40.60356778378026,
+                -7.754835838291929
+              ],
+              [
+                40.60334497967487,
+                -7.755030931890039
+              ],
+              [
+                40.60307751795921,
+                -7.7552526759894675
+              ],
+              [
+                40.60276539863328,
+                -7.755501070590215
+              ],
+              [
+                40.60248792817972,
+                -7.755717148144845
+              ],
+              [
+                40.60224510659854,
+                -7.755900908653354
+              ],
+              [
+                40.60203693388972,
+                -7.756052352115748
+              ],
+              [
+                40.601863410053284,
+                -7.756171478532023
+              ],
+              [
+                40.60172453508921,
+                -7.756258287902179
+              ],
+              [
+                40.60162030899752,
+                -7.75631278022622
+              ],
+              [
+                40.6015507317782,
+                -7.7563349555041405
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.60264304195075,
+    -7.755146083186816
+  ],
+  "centroDeMassa": [
+    40.60278174490844,
+    -7.755172757161603
+  ]
+}

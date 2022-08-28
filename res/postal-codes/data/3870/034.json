@@ -1,1 +1,374 @@
-{"CP4":"3870","CP3":"034","Distrito":"Aveiro","Concelho":"Murtosa","CP":"3870-034","Artéria":"Rua Doutor António Tavares Afonso e Cunha","Localidade":"Bunheiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BUNHEIRO","locais":[{"id":"pt.ine.add.PTCONT.306743","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"53","coordenadas":[40.77836951468847,-8.641669777853432]},{"id":"pt.ine.add.PTCONT.333557","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"51","coordenadas":[40.77816246045456,-8.641656352825938]},{"id":"pt.ine.add.PTCONT.1420","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"25","coordenadas":[40.77654252637536,-8.643480074738708]},{"id":"pt.ine.add.PTCONT.14652","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"19","coordenadas":[40.77619092674471,-8.643572148596666]},{"id":"pt.ine.add.PTCONT.25378","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"2","coordenadas":[40.77442171898821,-8.644529919104128]},{"id":"pt.ine.add.PTCONT.30153","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"47","coordenadas":[40.77806226081188,-8.641916198878672]},{"id":"pt.ine.add.PTCONT.63034","rua":"LG REITOR DOMINGOS PINHO","casa":"","coordenadas":[40.775700481248734,-8.644516034389294]},{"id":"pt.ine.add.PTCONT.82138","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"55","coordenadas":[40.77849463960552,-8.641883960030338]},{"id":"pt.ine.add.PTCONT.181674","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"17","coordenadas":[40.776063446801814,-8.64389100299872]},{"id":"pt.ine.add.PTCONT.207119","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"49","coordenadas":[40.778000168334074,-8.641702498779692]},{"id":"pt.ine.add.PTCONT.209832","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"29","coordenadas":[40.776849521767815,-8.6432928930056]},{"id":"pt.ine.add.PTCONT.253316","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"12","coordenadas":[40.776191922061216,-8.643347090093176]},{"id":"pt.ine.add.PTCONT.258816","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"21","coordenadas":[40.7762899252573,-8.643584751979757]},{"id":"pt.ine.add.PTCONT.269599","rua":"R DR ANTÓNIO TAVARES AFONSO E CUNHA","casa":"39","coordenadas":[40.77759177323706,-8.642421979925734]}],"ruas":["R DR ANTÓNIO TAVARES AFONSO E CUNHA","LG REITOR DOMINGOS PINHO"],"centroide":[40.77687227024151,-8.643003284867241]}
+{
+  "CP": "3870-034",
+  "CP4": "3870",
+  "CP3": "034",
+  "Distrito": "Aveiro",
+  "Concelho": "Murtosa",
+  "Localidade": "Bunheiro",
+  "Designação Postal": "BUNHEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor António Tavares Afonso e Cunha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.306743",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "53",
+      "coordenadas": [
+        40.77836951468847,
+        -8.641669777853432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.333557",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "51",
+      "coordenadas": [
+        40.77816246045456,
+        -8.641656352825938
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1420",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "25",
+      "coordenadas": [
+        40.77654252637536,
+        -8.643480074738708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.14652",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "19",
+      "coordenadas": [
+        40.77619092674471,
+        -8.643572148596666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.25378",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "2",
+      "coordenadas": [
+        40.77442171898821,
+        -8.644529919104128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.30153",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "47",
+      "coordenadas": [
+        40.77806226081188,
+        -8.641916198878672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.63034",
+      "rua": "LG REITOR DOMINGOS PINHO",
+      "casa": "",
+      "coordenadas": [
+        40.775700481248734,
+        -8.644516034389294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.82138",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "55",
+      "coordenadas": [
+        40.77849463960552,
+        -8.641883960030338
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.181674",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "17",
+      "coordenadas": [
+        40.776063446801814,
+        -8.64389100299872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.207119",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "49",
+      "coordenadas": [
+        40.778000168334074,
+        -8.641702498779692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209832",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "29",
+      "coordenadas": [
+        40.776849521767815,
+        -8.6432928930056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.253316",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "12",
+      "coordenadas": [
+        40.776191922061216,
+        -8.643347090093176
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.258816",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "21",
+      "coordenadas": [
+        40.7762899252573,
+        -8.643584751979757
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.269599",
+      "rua": "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+      "casa": "39",
+      "coordenadas": [
+        40.77759177323706,
+        -8.642421979925734
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR ANTÓNIO TAVARES AFONSO E CUNHA",
+    "LG REITOR DOMINGOS PINHO"
+  ],
+  "centro": [
+    40.77645817929687,
+    -8.643093135965033
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.775141022759755,
+                -8.644522108952033
+              ],
+              [
+                40.77498117747719,
+                -8.644523844541387
+              ],
+              [
+                40.77489722612597,
+                -8.644481184739503
+              ],
+              [
+                40.77488916870611,
+                -8.64439412954638
+              ],
+              [
+                40.77495700521759,
+                -8.644262678962018
+              ],
+              [
+                40.77510073566043,
+                -8.644086832986419
+              ],
+              [
+                40.77532036003461,
+                -8.643866591619581
+              ],
+              [
+                40.77561587834015,
+                -8.643601954861502
+              ],
+              [
+                40.77598729057703,
+                -8.643292922712188
+              ],
+              [
+                40.776434596745254,
+                -8.642939495171632
+              ],
+              [
+                40.77682852545684,
+                -8.64262952504312
+              ],
+              [
+                40.777169076711786,
+                -8.642363012326651
+              ],
+              [
+                40.77745625051008,
+                -8.642139957022222
+              ],
+              [
+                40.777690046851724,
+                -8.641960359129834
+              ],
+              [
+                40.777870465736726,
+                -8.64182421864949
+              ],
+              [
+                40.777997507165075,
+                -8.641731535581187
+              ],
+              [
+                40.77807117113679,
+                -8.641682309924924
+              ],
+              [
+                40.77809145765185,
+                -8.641676541680706
+              ],
+              [
+                40.77811244357493,
+                -8.641671704233067
+              ],
+              [
+                40.77813412890604,
+                -8.641667797582013
+              ],
+              [
+                40.778156513645165,
+                -8.641664821727538
+              ],
+              [
+                40.77817959779232,
+                -8.641662776669648
+              ],
+              [
+                40.77820338134748,
+                -8.641661662408339
+              ],
+              [
+                40.77822786431068,
+                -8.641661478943611
+              ],
+              [
+                40.7782530466819,
+                -8.641662226275466
+              ],
+              [
+                40.778278928461134,
+                -8.641663904403904
+              ],
+              [
+                40.778303530094796,
+                -8.6416687193628
+              ],
+              [
+                40.77832685158288,
+                -8.641676671152155
+              ],
+              [
+                40.77834889292539,
+                -8.64168775977197
+              ],
+              [
+                40.77836965412233,
+                -8.641701985222246
+              ],
+              [
+                40.77838913517369,
+                -8.641719347502981
+              ],
+              [
+                40.778407336079475,
+                -8.641739846614175
+              ],
+              [
+                40.778424256839685,
+                -8.64176348255583
+              ],
+              [
+                40.778439897454305,
+                -8.641790255327942
+              ],
+              [
+                40.778409924267784,
+                -8.6418548076654
+              ],
+              [
+                40.77833433728011,
+                -8.641957139568202
+              ],
+              [
+                40.778213136491274,
+                -8.642097251036349
+              ],
+              [
+                40.7780463219013,
+                -8.64227514206984
+              ],
+              [
+                40.77783389351016,
+                -8.642490812668676
+              ],
+              [
+                40.77757585131786,
+                -8.642744262832856
+              ],
+              [
+                40.77727219532442,
+                -8.643035492562381
+              ],
+              [
+                40.776922925529824,
+                -8.643364501857251
+              ],
+              [
+                40.77659733379923,
+                -8.643652601938932
+              ],
+              [
+                40.77629542013264,
+                -8.64389979280742
+              ],
+              [
+                40.776017184530055,
+                -8.644106074462723
+              ],
+              [
+                40.77576262699147,
+                -8.644271446904835
+              ],
+              [
+                40.775531747516894,
+                -8.644395910133756
+              ],
+              [
+                40.77532454610632,
+                -8.64447946414949
+              ],
+              [
+                40.775141022759755,
+                -8.644522108952033
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.77719149721993,
+    -8.642659757163804
+  ],
+  "centroDeMassa": [
+    40.77645817929687,
+    -8.643093135965033
+  ]
+}

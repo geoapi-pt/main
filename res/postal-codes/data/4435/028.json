@@ -1,1 +1,523 @@
-{"CP4":"4435","CP3":"028","Distrito":"Porto","Concelho":"Gondomar","CP":"4435-028","Artéria":"Rua Filipa de Vilhena","Localidade":"Rio Tinto","Local":"Areosa","Troço":"","Porta":"","Cliente":"","Designação Postal":"RIO TINTO","locais":[{"id":"pt.ine.add.PTCONT.3617236","rua":"R FILIPA DE VILHENA","casa":"20 22","coordenadas":[41.19342594460358,-8.56973369756756]},{"id":"pt.ine.add.PTCONT.3624063","rua":"R FILIPA DE VILHENA","casa":"101","coordenadas":[41.19406356060613,-8.57017899721782]},{"id":"pt.ine.add.PTCONT.3624064","rua":"R FILIPA DE VILHENA","casa":"105","coordenadas":[41.19406356060613,-8.57017899721782]},{"id":"pt.ine.add.PTCONT.3628772","rua":"R FILIPA DE VILHENA","casa":"76","coordenadas":[41.19381248681224,-8.56990315401838]},{"id":"pt.ine.add.PTCONT.3676538","rua":"R FILIPA DE VILHENA","casa":"57","coordenadas":[41.19363177236544,-8.570068840361575]},{"id":"pt.ine.add.PTCONT.3693289","rua":"R FILIPA DE VILHENA","casa":"95","coordenadas":[41.19399161852739,-8.570154677486679]},{"id":"pt.ine.add.PTCONT.3727990","rua":"R FILIPA DE VILHENA","casa":"84","coordenadas":[41.193875515300014,-8.569903572981124]},{"id":"pt.ine.add.PTCONT.3751088","rua":"R FILIPA DE VILHENA","casa":"41","coordenadas":[41.19350598672188,-8.569996480820139]},{"id":"pt.ine.add.PTCONT.3776848","rua":"R FILIPA DE VILHENA","casa":"58 64","coordenadas":[41.19363276704867,-8.569806595059882]},{"id":"pt.ine.add.PTCONT.3793551","rua":"R FILIPA DE VILHENA","casa":"30 34","coordenadas":[41.19348888271121,-8.569757956792655]},{"id":"pt.ine.add.PTCONT.3793552","rua":"R FILIPA VILHENA","casa":"34","coordenadas":[41.19348888271121,-8.569757956792655]},{"id":"pt.ine.add.PTCONT.3799055","rua":"R FILIPA DE VILHENA","casa":"16","coordenadas":[41.19331780537077,-8.569756820005706]},{"id":"pt.ine.add.PTCONT.3869585","rua":"R FILIPA VILHENA","casa":"49","coordenadas":[41.193568969992675,-8.570008820097287]},{"id":"pt.ine.add.PTCONT.3869586","rua":"R FILIPA DE VILHENA","casa":"55","coordenadas":[41.193568969992675,-8.570008820097287]},{"id":"pt.ine.add.PTCONT.4052785","rua":"R FILIPA DE VILHENA","casa":"105","coordenadas":[41.19420762570843,-8.57017995546212]},{"id":"pt.ine.add.PTCONT.4090250","rua":"R FILIPA VILHENA","casa":"89","coordenadas":[41.193892709466844,-8.57011825787238]},{"id":"pt.ine.add.PTCONT.4090251","rua":"R FILIPA VILHENA","casa":"91","coordenadas":[41.193892709466844,-8.57011825787238]},{"id":"pt.ine.add.PTCONT.4103310","rua":"R FILIPA DE VILHENA","casa":"38 36","coordenadas":[41.193560779685754,-8.569794196127582]},{"id":"pt.ine.add.PTCONT.4122861","rua":"R FILIPA DE VILHENA","casa":"65","coordenadas":[41.19373973074652,-8.570093399372626]},{"id":"pt.ine.add.PTCONT.4140367","rua":"R FILIPA VILHENA","casa":"8","coordenadas":[41.1932098920971,-8.56972034154603]},{"id":"pt.ine.add.PTCONT.4149214","rua":"R FILIPA DE VILHENA","casa":"62","coordenadas":[41.19372267214537,-8.56984295421514]},{"id":"pt.ine.add.PTCONT.4175252","rua":"R FILIPA DE VILHENA","casa":"94","coordenadas":[41.194055461054745,-8.569940530978242]},{"id":"pt.ine.add.PTCONT.4307465","rua":"R FILIPA DE VILHENA","casa":"12","coordenadas":[41.19327278501716,-8.569756520852874]},{"id":"pt.ine.add.PTCONT.4321777","rua":"R FILIPA DE VILHENA","casa":"92","coordenadas":[41.19397451485477,-8.569916151656962]},{"id":"pt.ine.add.PTCONT.4352283","rua":"R FILIPA DE VILHENA","casa":"70","coordenadas":[41.19377656094953,-8.56987907407724]},{"id":"pt.ine.add.PTCONT.4352603","rua":"R FILIPA DE VILHENA","casa":"100","coordenadas":[41.19420839458401,-8.569977309593682]},{"id":"pt.ine.add.PTCONT.4383552","rua":"R FILIPA DE VILHENA","casa":"10","coordenadas":[41.19323681392718,-8.56974436136155]}],"ruas":["R FILIPA DE VILHENA","R FILIPA VILHENA"],"centroide":[41.1937288676595,-8.569944320620918]}
+{
+  "CP": "4435-028",
+  "CP4": "4435",
+  "CP3": "028",
+  "Distrito": "Porto",
+  "Concelho": "Gondomar",
+  "Localidade": "Rio Tinto",
+  "Designação Postal": "RIO TINTO",
+  "partes": [
+    {
+      "Artéria": "Rua Filipa de Vilhena",
+      "Local": "Areosa",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3617236",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "20 22",
+      "coordenadas": [
+        41.19342594460358,
+        -8.56973369756756
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3624063",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "101",
+      "coordenadas": [
+        41.19406356060613,
+        -8.57017899721782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3624064",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "105",
+      "coordenadas": [
+        41.19406356060613,
+        -8.57017899721782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3628772",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "76",
+      "coordenadas": [
+        41.19381248681224,
+        -8.56990315401838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3676538",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "57",
+      "coordenadas": [
+        41.19363177236544,
+        -8.570068840361575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3693289",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "95",
+      "coordenadas": [
+        41.19399161852739,
+        -8.570154677486679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3727990",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "84",
+      "coordenadas": [
+        41.193875515300014,
+        -8.569903572981124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3751088",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "41",
+      "coordenadas": [
+        41.19350598672188,
+        -8.569996480820139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3776848",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "58 64",
+      "coordenadas": [
+        41.19363276704867,
+        -8.569806595059882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3793551",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "30 34",
+      "coordenadas": [
+        41.19348888271121,
+        -8.569757956792655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3793552",
+      "rua": "R FILIPA VILHENA",
+      "casa": "34",
+      "coordenadas": [
+        41.19348888271121,
+        -8.569757956792655
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3799055",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "16",
+      "coordenadas": [
+        41.19331780537077,
+        -8.569756820005706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3869585",
+      "rua": "R FILIPA VILHENA",
+      "casa": "49",
+      "coordenadas": [
+        41.193568969992675,
+        -8.570008820097287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3869586",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "55",
+      "coordenadas": [
+        41.193568969992675,
+        -8.570008820097287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4052785",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "105",
+      "coordenadas": [
+        41.19420762570843,
+        -8.57017995546212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4090250",
+      "rua": "R FILIPA VILHENA",
+      "casa": "89",
+      "coordenadas": [
+        41.193892709466844,
+        -8.57011825787238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4090251",
+      "rua": "R FILIPA VILHENA",
+      "casa": "91",
+      "coordenadas": [
+        41.193892709466844,
+        -8.57011825787238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4103310",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "38 36",
+      "coordenadas": [
+        41.193560779685754,
+        -8.569794196127582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4122861",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "65",
+      "coordenadas": [
+        41.19373973074652,
+        -8.570093399372626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4140367",
+      "rua": "R FILIPA VILHENA",
+      "casa": "8",
+      "coordenadas": [
+        41.1932098920971,
+        -8.56972034154603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4149214",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "62",
+      "coordenadas": [
+        41.19372267214537,
+        -8.56984295421514
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4175252",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "94",
+      "coordenadas": [
+        41.194055461054745,
+        -8.569940530978242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4307465",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "12",
+      "coordenadas": [
+        41.19327278501716,
+        -8.569756520852874
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4321777",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "92",
+      "coordenadas": [
+        41.19397451485477,
+        -8.569916151656962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4352283",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "70",
+      "coordenadas": [
+        41.19377656094953,
+        -8.56987907407724
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4352603",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "100",
+      "coordenadas": [
+        41.19420839458401,
+        -8.569977309593682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4383552",
+      "rua": "R FILIPA DE VILHENA",
+      "casa": "10",
+      "coordenadas": [
+        41.19323681392718,
+        -8.56974436136155
+      ]
+    }
+  ],
+  "ruas": [
+    "R FILIPA DE VILHENA",
+    "R FILIPA VILHENA"
+  ],
+  "centro": [
+    41.193709143340556,
+    -8.569950148504075
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.193376445323544,
+                -8.569875669887717
+              ],
+              [
+                41.193339433495446,
+                -8.569841152478453
+              ],
+              [
+                41.193310423966274,
+                -8.569811158433183
+              ],
+              [
+                41.19328941673603,
+                -8.569785687751908
+              ],
+              [
+                41.19327641180471,
+                -8.569764740434628
+              ],
+              [
+                41.19327140917232,
+                -8.569748316481341
+              ],
+              [
+                41.193274408838846,
+                -8.56973641589205
+              ],
+              [
+                41.19328541080431,
+                -8.569729038666752
+              ],
+              [
+                41.19330441506869,
+                -8.56972618480545
+              ],
+              [
+                41.193331421631996,
+                -8.569727854308141
+              ],
+              [
+                41.19336727815584,
+                -8.569733121560905
+              ],
+              [
+                41.19341198464021,
+                -8.569741986563741
+              ],
+              [
+                41.19346554108511,
+                -8.569754449316648
+              ],
+              [
+                41.193527947490544,
+                -8.569770509819623
+              ],
+              [
+                41.19359920385651,
+                -8.569790168072673
+              ],
+              [
+                41.193679310183,
+                -8.569813424075795
+              ],
+              [
+                41.19376826647002,
+                -8.569840277828987
+              ],
+              [
+                41.193866072717576,
+                -8.569870729332255
+              ],
+              [
+                41.1939516411705,
+                -8.569900540739305
+              ],
+              [
+                41.19402497182881,
+                -8.569929712050143
+              ],
+              [
+                41.194086064692485,
+                -8.569958243264766
+              ],
+              [
+                41.19413491976154,
+                -8.569986134383177
+              ],
+              [
+                41.19417153703597,
+                -8.570013385405373
+              ],
+              [
+                41.19419591651577,
+                -8.570039996331355
+              ],
+              [
+                41.19420805820094,
+                -8.570065967161124
+              ],
+              [
+                41.1942079620915,
+                -8.570091297894677
+              ],
+              [
+                41.1942056269785,
+                -8.570113447313972
+              ],
+              [
+                41.19420105286197,
+                -8.570132415419003
+              ],
+              [
+                41.1941942397419,
+                -8.570148202209772
+              ],
+              [
+                41.19418518761828,
+                -8.570160807686282
+              ],
+              [
+                41.19417389649112,
+                -8.570170231848529
+              ],
+              [
+                41.19416036636042,
+                -8.570176474696513
+              ],
+              [
+                41.19414459722618,
+                -8.570179536230238
+              ],
+              [
+                41.194126589088384,
+                -8.570179416449701
+              ],
+              [
+                41.194104085276564,
+                -8.570177590440853
+              ],
+              [
+                41.194077085790695,
+                -8.57017405820369
+              ],
+              [
+                41.1940455906308,
+                -8.57016881973822
+              ],
+              [
+                41.194009599796864,
+                -8.570161875044436
+              ],
+              [
+                41.19396911328889,
+                -8.57015322412234
+              ],
+              [
+                41.19392413110688,
+                -8.570142866971933
+              ],
+              [
+                41.19387465325083,
+                -8.570130803593214
+              ],
+              [
+                41.193820679720744,
+                -8.57011703398618
+              ],
+              [
+                41.19377148748124,
+                -8.570103854962195
+              ],
+              [
+                41.19372707653231,
+                -8.570091266521251
+              ],
+              [
+                41.193687446873966,
+                -8.570079268663353
+              ],
+              [
+                41.193652598506205,
+                -8.570067861388498
+              ],
+              [
+                41.193622531429014,
+                -8.570057044696687
+              ],
+              [
+                41.19359724564241,
+                -8.57004681858792
+              ],
+              [
+                41.19357674114639,
+                -8.570037183062198
+              ],
+              [
+                41.19356101794094,
+                -8.570028138119518
+              ],
+              [
+                41.193542633657664,
+                -8.570015909118515
+              ],
+              [
+                41.19352158829656,
+                -8.57000049605919
+              ],
+              [
+                41.193497881857624,
+                -8.569981898941542
+              ],
+              [
+                41.19347151434084,
+                -8.56996011776557
+              ],
+              [
+                41.193442485746246,
+                -8.569935152531276
+              ],
+              [
+                41.193410796073806,
+                -8.569907003238658
+              ],
+              [
+                41.193376445323544,
+                -8.569875669887717
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.19375045381237,
+    -8.569979374652704
+  ],
+  "centroDeMassa": [
+    41.193709143340556,
+    -8.569950148504075
+  ]
+}

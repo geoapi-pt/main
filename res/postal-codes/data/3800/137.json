@@ -1,1 +1,531 @@
-{"CP4":"3800","CP3":"137","Distrito":"Aveiro","Concelho":"Aveiro","CP":"3800-137","Artéria":"Rua Conselheiro Luís Magalhães","Localidade":"Aveiro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AVEIRO","locais":[{"id":"pt.ine.add.PTCONT.51111","rua":"R CONS LUIS MAGALHÃES","casa":"29 C","coordenadas":[40.64246922331276,-8.651716257514616]},{"id":"pt.ine.add.PTCONT.51112","rua":"R CONS LUIS MAGALHÃES","casa":"29 C","coordenadas":[40.64246922331276,-8.651716257514616]},{"id":"pt.ine.add.PTCONT.53061","rua":"R CONS LUIS MAGALHÃES","casa":"29 C","coordenadas":[40.64246922331276,-8.651716257514616]},{"id":"pt.ine.add.PTCONT.118509","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.118510","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.118511","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.118512","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.118513","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.118514","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.120260","rua":"R CONS LUIS MAGALHÃES","casa":"46","coordenadas":[40.64255584530592,-8.65093470433511]},{"id":"pt.ine.add.PTCONT.217374","rua":"R CONS LUIS MAGALHÃES","casa":"31 B","coordenadas":[40.64255775560419,-8.651641042439604]},{"id":"pt.ine.add.PTCONT.217375","rua":"R CONS LUIS MAGALHÃES","casa":"31 B","coordenadas":[40.64255775560419,-8.651641042439604]},{"id":"pt.ine.add.PTCONT.217376","rua":"R CONS LUIS MAGALHÃES","casa":"31 B","coordenadas":[40.64255775560419,-8.651641042439604]},{"id":"pt.ine.add.PTCONT.217377","rua":"R CONS LUIS MAGALHÃES","casa":"31 B","coordenadas":[40.64255775560419,-8.651641042439604]},{"id":"pt.ine.add.PTCONT.217378","rua":"R CONS LUIS MAGALHÃES","casa":"31 B","coordenadas":[40.64255775560419,-8.651641042439604]},{"id":"pt.ine.add.PTCONT.217379","rua":"R CONS LUIS MAGALHÃES","casa":"31 B","coordenadas":[40.64255775560419,-8.651641042439604]},{"id":"pt.ine.add.PTCONT.239026","rua":"R CONS LUIS MAGALHÃES","casa":"47","coordenadas":[40.64279630983665,-8.651179578594432]},{"id":"pt.ine.add.PTCONT.249837","rua":"R CONS LUIS MAGALHÃES","casa":"36","coordenadas":[40.64239743242233,-8.651356630686063]},{"id":"pt.ine.add.PTCONT.252370","rua":"R CONS LUIS MAGALHÃES","casa":"52","coordenadas":[40.6428498186039,-8.65088156426575]},{"id":"pt.ine.add.PTCONT.252371","rua":"R CONS LUIS MAGALHÃES","casa":"52","coordenadas":[40.6428498186039,-8.65088156426575]},{"id":"pt.ine.add.PTCONT.252372","rua":"R CONS LUIS MAGALHÃES","casa":"52","coordenadas":[40.6428498186039,-8.65088156426575]},{"id":"pt.ine.add.PTCONT.252373","rua":"R CONS LUIS MAGALHÃES","casa":"52","coordenadas":[40.6428498186039,-8.65088156426575]},{"id":"pt.ine.add.PTCONT.252374","rua":"R CONS LUIS MAGALHÃES","casa":"52","coordenadas":[40.6428498186039,-8.65088156426575]},{"id":"pt.ine.add.PTCONT.252375","rua":"R CONS LUIS MAGALHÃES","casa":"52","coordenadas":[40.6428498186039,-8.65088156426575]},{"id":"pt.ine.add.PTCONT.263323","rua":"R CONS LUIS MAGALHÃES","casa":"39","coordenadas":[40.64269644471111,-8.651250014776117]},{"id":"pt.ine.add.PTCONT.275612","rua":"R CONS LUIS MAGALHÃES","casa":"56","coordenadas":[40.64293389551261,-8.650875643306634]},{"id":"pt.ine.add.PTCONT.275613","rua":"R CONS LUIS MAGALHÃES","casa":"56","coordenadas":[40.64293389551261,-8.650875643306634]},{"id":"pt.ine.add.PTCONT.275809","rua":"R CONS LUIS MAGALHÃES","casa":"56","coordenadas":[40.64293389551261,-8.650875643306634]}],"ruas":["R CONS LUIS MAGALHÃES"],"centroide":[40.64264822260457,-8.651198698288578]}
+{
+  "CP": "3800-137",
+  "CP4": "3800",
+  "CP3": "137",
+  "Distrito": "Aveiro",
+  "Concelho": "Aveiro",
+  "Localidade": "Aveiro",
+  "Designação Postal": "AVEIRO",
+  "partes": [
+    {
+      "Artéria": "Rua Conselheiro Luís Magalhães",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.51111",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "29 C",
+      "coordenadas": [
+        40.64246922331276,
+        -8.651716257514616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.51112",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "29 C",
+      "coordenadas": [
+        40.64246922331276,
+        -8.651716257514616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.53061",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "29 C",
+      "coordenadas": [
+        40.64246922331276,
+        -8.651716257514616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118509",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118510",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118511",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118512",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118513",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118514",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.120260",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "46",
+      "coordenadas": [
+        40.64255584530592,
+        -8.65093470433511
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217374",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "31 B",
+      "coordenadas": [
+        40.64255775560419,
+        -8.651641042439604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217375",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "31 B",
+      "coordenadas": [
+        40.64255775560419,
+        -8.651641042439604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217376",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "31 B",
+      "coordenadas": [
+        40.64255775560419,
+        -8.651641042439604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217377",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "31 B",
+      "coordenadas": [
+        40.64255775560419,
+        -8.651641042439604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217378",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "31 B",
+      "coordenadas": [
+        40.64255775560419,
+        -8.651641042439604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.217379",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "31 B",
+      "coordenadas": [
+        40.64255775560419,
+        -8.651641042439604
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.239026",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "47",
+      "coordenadas": [
+        40.64279630983665,
+        -8.651179578594432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.249837",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "36",
+      "coordenadas": [
+        40.64239743242233,
+        -8.651356630686063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252370",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "52",
+      "coordenadas": [
+        40.6428498186039,
+        -8.65088156426575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252371",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "52",
+      "coordenadas": [
+        40.6428498186039,
+        -8.65088156426575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252372",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "52",
+      "coordenadas": [
+        40.6428498186039,
+        -8.65088156426575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252373",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "52",
+      "coordenadas": [
+        40.6428498186039,
+        -8.65088156426575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252374",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "52",
+      "coordenadas": [
+        40.6428498186039,
+        -8.65088156426575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252375",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "52",
+      "coordenadas": [
+        40.6428498186039,
+        -8.65088156426575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.263323",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "39",
+      "coordenadas": [
+        40.64269644471111,
+        -8.651250014776117
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.275612",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "56",
+      "coordenadas": [
+        40.64293389551261,
+        -8.650875643306634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.275613",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "56",
+      "coordenadas": [
+        40.64293389551261,
+        -8.650875643306634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.275809",
+      "rua": "R CONS LUIS MAGALHÃES",
+      "casa": "56",
+      "coordenadas": [
+        40.64293389551261,
+        -8.650875643306634
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONS LUIS MAGALHÃES"
+  ],
+  "centro": [
+    40.64266566396747,
+    -8.651295950410624
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.6424378147982,
+                -8.651558920777125
+              ],
+              [
+                40.64242884093689,
+                -8.651513967423556
+              ],
+              [
+                40.64242346400955,
+                -8.65146804063995
+              ],
+              [
+                40.6424216840162,
+                -8.651421140426304
+              ],
+              [
+                40.642423500956795,
+                -8.651373266782622
+              ],
+              [
+                40.64242891483137,
+                -8.651324419708905
+              ],
+              [
+                40.64243792563991,
+                -8.651274599205149
+              ],
+              [
+                40.642450533382416,
+                -8.651223805271353
+              ],
+              [
+                40.6424667380589,
+                -8.651172037907521
+              ],
+              [
+                40.64248653966935,
+                -8.651119297113652
+              ],
+              [
+                40.642508459411275,
+                -8.651072318605433
+              ],
+              [
+                40.64253249728468,
+                -8.651031102382863
+              ],
+              [
+                40.64255865328955,
+                -8.650995648445944
+              ],
+              [
+                40.64258692742589,
+                -8.650965956794675
+              ],
+              [
+                40.64261731969371,
+                -8.650942027429055
+              ],
+              [
+                40.64264983009301,
+                -8.650923860349085
+              ],
+              [
+                40.64268445862378,
+                -8.650911455554766
+              ],
+              [
+                40.64272120528603,
+                -8.650904813046095
+              ],
+              [
+                40.642754672317196,
+                -8.650898908336023
+              ],
+              [
+                40.642784859717274,
+                -8.650893741424548
+              ],
+              [
+                40.64281176748628,
+                -8.650889312311671
+              ],
+              [
+                40.642835395624196,
+                -8.650885620997391
+              ],
+              [
+                40.64285574413103,
+                -8.650882667481708
+              ],
+              [
+                40.64287281300679,
+                -8.650880451764625
+              ],
+              [
+                40.64288660225146,
+                -8.650878973846137
+              ],
+              [
+                40.642897111865054,
+                -8.650878233726248
+              ],
+              [
+                40.64290415800076,
+                -8.650882335110216
+              ],
+              [
+                40.64290774065857,
+                -8.650891277998042
+              ],
+              [
+                40.64290785983851,
+                -8.650905062389727
+              ],
+              [
+                40.64290451554055,
+                -8.65092368828527
+              ],
+              [
+                40.64289770776472,
+                -8.650947155684669
+              ],
+              [
+                40.64288743651099,
+                -8.650975464587928
+              ],
+              [
+                40.64287370177938,
+                -8.651008614995044
+              ],
+              [
+                40.64285650356989,
+                -8.65104660690602
+              ],
+              [
+                40.64283772772669,
+                -8.651087060200704
+              ],
+              [
+                40.6428173742498,
+                -8.651129974879098
+              ],
+              [
+                40.64279544313922,
+                -8.6511753509412
+              ],
+              [
+                40.64277193439494,
+                -8.651223188387009
+              ],
+              [
+                40.64274684801697,
+                -8.651273487216528
+              ],
+              [
+                40.642720184005306,
+                -8.651326247429758
+              ],
+              [
+                40.642691942359946,
+                -8.651381469026695
+              ],
+              [
+                40.64266212308088,
+                -8.651439152007342
+              ],
+              [
+                40.64263464789465,
+                -8.651490799850954
+              ],
+              [
+                40.64260951680126,
+                -8.651536412557533
+              ],
+              [
+                40.64258672980068,
+                -8.651575990127078
+              ],
+              [
+                40.642566286892944,
+                -8.65160953255959
+              ],
+              [
+                40.642548188078024,
+                -8.651637039855068
+              ],
+              [
+                40.64253243335594,
+                -8.651658512013512
+              ],
+              [
+                40.64251902272669,
+                -8.651673949034922
+              ],
+              [
+                40.64250795619026,
+                -8.6516833509193
+              ],
+              [
+                40.642497151238224,
+                -8.651685958398932
+              ],
+              [
+                40.64248660787057,
+                -8.651681771473822
+              ],
+              [
+                40.64247632608732,
+                -8.65167079014397
+              ],
+              [
+                40.64246630588845,
+                -8.651653014409375
+              ],
+              [
+                40.64245654727398,
+                -8.651628444270035
+              ],
+              [
+                40.64244705024389,
+                -8.651597079725951
+              ],
+              [
+                40.6424378147982,
+                -8.651558920777125
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.642651468656915,
+    -8.651226488734602
+  ],
+  "centroDeMassa": [
+    40.64266566396747,
+    -8.651295950410624
+  ]
+}

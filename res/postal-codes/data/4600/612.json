@@ -1,1 +1,633 @@
-{"CP4":"4600","CP3":"612","Distrito":"Porto","Concelho":"Amarante","CP":"4600-612","Artéria":" ","Localidade":"Vila Nova","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FREIXO DE BAIXO","locais":[{"id":"pt.ine.add.PTCONT.3552902","rua":"R CORUJEIRA","casa":"243","coordenadas":[41.294514925310274,-8.11773098448923]},{"id":"pt.ine.add.PTCONT.3559555","rua":"R CORUJEIRA","casa":"360","coordenadas":[41.294839190176035,-8.118614393932214]},{"id":"pt.ine.add.PTCONT.3559561","rua":"R ALTO DA CORUJEIRA","casa":"","coordenadas":[41.29409178264075,-8.118137005040921]},{"id":"pt.ine.add.PTCONT.3565851","rua":"R CORUJEIRA","casa":"382","coordenadas":[41.29505526459442,-8.118411382526139]},{"id":"pt.ine.add.PTCONT.3583897","rua":"R DOS FRADES CRÚZIOS","casa":"851","coordenadas":[41.297316202252475,-8.12980110672099]},{"id":"pt.ine.add.PTCONT.3636525","rua":"R ALTO DA CORUJEIRA","casa":"","coordenadas":[41.29422689581736,-8.118530957283957]},{"id":"pt.ine.add.PTCONT.3666533","rua":"R ALTO DA CORUJEIRA","casa":"","coordenadas":[41.29365961916485,-8.118423634556342]},{"id":"pt.ine.add.PTCONT.3687727","rua":"CC CORUJEIRA","casa":"106","coordenadas":[41.29361450787805,-8.117731195941463]},{"id":"pt.ine.add.PTCONT.3727505","rua":"CC CORUJEIRA","casa":"110","coordenadas":[41.293470426673146,-8.117623781071671]},{"id":"pt.ine.add.PTCONT.3743379","rua":"R LOUREIROS","casa":"176","coordenadas":[41.294596127887736,-8.119020372042073]},{"id":"pt.ine.add.PTCONT.3789018","rua":"R LOUREIROS","casa":"216","coordenadas":[41.29486624576675,-8.11896061892783]},{"id":"pt.ine.add.PTCONT.3797221","rua":"R LOUREIROS","casa":"140","coordenadas":[41.29441608483811,-8.119354700465479]},{"id":"pt.ine.add.PTCONT.3817536","rua":"R CORUJEIRA","casa":"","coordenadas":[41.29490222688809,-8.118674075008864]},{"id":"pt.ine.add.PTCONT.3824065","rua":"R MANUEL JESUS TEIXEIRA","casa":"","coordenadas":[41.291939470823394,-8.115893065539355]},{"id":"pt.ine.add.PTCONT.3882095","rua":"R ALTO DA CORUJEIRA","casa":"47","coordenadas":[41.293776730415686,-8.118877282723973]},{"id":"pt.ine.add.PTCONT.3915484","rua":"R CORUJEIRA","casa":"430","coordenadas":[41.29513637242047,-8.118972499610692]},{"id":"pt.ine.add.PTCONT.3943803","rua":"R CORUJEIRA","casa":"283","coordenadas":[41.29498324487949,-8.118518849878576]},{"id":"pt.ine.add.PTCONT.3946935","rua":"R CORUJEIRA","casa":"386","coordenadas":[41.29501029038639,-8.11878150241847]},{"id":"pt.ine.add.PTCONT.3946940","rua":"R LOUREIROS","casa":"174","coordenadas":[41.29464117197374,-8.11921138568558]},{"id":"pt.ine.add.PTCONT.3985508","rua":"R ALTO DA CORUJEIRA","casa":"47","coordenadas":[41.294064855125086,-8.118805586984893]},{"id":"pt.ine.add.PTCONT.4007865","rua":"R CORUJEIRA","casa":"568","coordenadas":[41.29591086894932,-8.120142373017982]},{"id":"pt.ine.add.PTCONT.4063710","rua":"R CORUJEIRA","casa":"","coordenadas":[41.29514535743,-8.118817290016283]},{"id":"pt.ine.add.PTCONT.4128592","rua":"R CORUJEIRA","casa":"175","coordenadas":[41.29397460019948,-8.117181924882718]},{"id":"pt.ine.add.PTCONT.4169369","rua":"R CORUJEIRA","casa":"","coordenadas":[41.29449694389531,-8.117933950558127]},{"id":"pt.ine.add.PTCONT.4204807","rua":"R CORUJEIRA","casa":"205","coordenadas":[41.294154706688126,-8.11734902525236]},{"id":"pt.ine.add.PTCONT.4206372","rua":"R CORUJEIRA","casa":"205","coordenadas":[41.294154706688126,-8.11734902525236]},{"id":"pt.ine.add.PTCONT.4212557","rua":"R CORUJEIRA","casa":"57","coordenadas":[41.29329015903074,-8.116310565370059]},{"id":"pt.ine.add.PTCONT.4247773","rua":"R CORUJEIRA","casa":"265","coordenadas":[41.29455996206406,-8.117850363348762]},{"id":"pt.ine.add.PTCONT.4277750","rua":"R CORUJEIRA","casa":"","coordenadas":[41.29435287081028,-8.11788622832259]}],"ruas":["R CORUJEIRA","R ALTO DA CORUJEIRA","R DOS FRADES CRÚZIOS","CC CORUJEIRA","R LOUREIROS","R MANUEL JESUS TEIXEIRA"],"centroide":[41.29445746217349,-8.118678889233836]}118678889233836]}
+{
+  "CP": "4600-612",
+  "CP4": "4600",
+  "CP3": "612",
+  "Distrito": "Porto",
+  "Concelho": "Amarante",
+  "Localidade": [
+    "Areeiro",
+    "Calvário",
+    "Castanheira",
+    "Corujeira",
+    "Difestas",
+    "Escola",
+    "Olivais",
+    "Pardelhas",
+    "Pardelhinhas",
+    "Paúles",
+    "Tapada",
+    "Torre",
+    "Verdial",
+    "Vila Nova"
+  ],
+  "Designação Postal": "FREIXO DE BAIXO",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Localidade": "Areeiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Calvário",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Castanheira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Corujeira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Difestas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Escola",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Olivais",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Pardelhas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Pardelhinhas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Paúles",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Campo da Poça",
+      "Localidade": "Tapada",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Torre",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Verdial",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": " ",
+      "Localidade": "Vila Nova",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3552902",
+      "rua": "R CORUJEIRA",
+      "casa": "243",
+      "coordenadas": [
+        41.294514925310274,
+        -8.11773098448923
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3559555",
+      "rua": "R CORUJEIRA",
+      "casa": "360",
+      "coordenadas": [
+        41.294839190176035,
+        -8.118614393932214
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3559561",
+      "rua": "R ALTO DA CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29409178264075,
+        -8.118137005040921
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3565851",
+      "rua": "R CORUJEIRA",
+      "casa": "382",
+      "coordenadas": [
+        41.29505526459442,
+        -8.118411382526139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3583897",
+      "rua": "R DOS FRADES CRÚZIOS",
+      "casa": "851",
+      "coordenadas": [
+        41.297316202252475,
+        -8.12980110672099
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3636525",
+      "rua": "R ALTO DA CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29422689581736,
+        -8.118530957283957
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3666533",
+      "rua": "R ALTO DA CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29365961916485,
+        -8.118423634556342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3687727",
+      "rua": "CC CORUJEIRA",
+      "casa": "106",
+      "coordenadas": [
+        41.29361450787805,
+        -8.117731195941463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3727505",
+      "rua": "CC CORUJEIRA",
+      "casa": "110",
+      "coordenadas": [
+        41.293470426673146,
+        -8.117623781071671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3743379",
+      "rua": "R LOUREIROS",
+      "casa": "176",
+      "coordenadas": [
+        41.294596127887736,
+        -8.119020372042073
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3789018",
+      "rua": "R LOUREIROS",
+      "casa": "216",
+      "coordenadas": [
+        41.29486624576675,
+        -8.11896061892783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3797221",
+      "rua": "R LOUREIROS",
+      "casa": "140",
+      "coordenadas": [
+        41.29441608483811,
+        -8.119354700465479
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3817536",
+      "rua": "R CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29490222688809,
+        -8.118674075008864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3824065",
+      "rua": "R MANUEL JESUS TEIXEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.291939470823394,
+        -8.115893065539355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3882095",
+      "rua": "R ALTO DA CORUJEIRA",
+      "casa": "47",
+      "coordenadas": [
+        41.293776730415686,
+        -8.118877282723973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3915484",
+      "rua": "R CORUJEIRA",
+      "casa": "430",
+      "coordenadas": [
+        41.29513637242047,
+        -8.118972499610692
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3943803",
+      "rua": "R CORUJEIRA",
+      "casa": "283",
+      "coordenadas": [
+        41.29498324487949,
+        -8.118518849878576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3946935",
+      "rua": "R CORUJEIRA",
+      "casa": "386",
+      "coordenadas": [
+        41.29501029038639,
+        -8.11878150241847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3946940",
+      "rua": "R LOUREIROS",
+      "casa": "174",
+      "coordenadas": [
+        41.29464117197374,
+        -8.11921138568558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3985508",
+      "rua": "R ALTO DA CORUJEIRA",
+      "casa": "47",
+      "coordenadas": [
+        41.294064855125086,
+        -8.118805586984893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4007865",
+      "rua": "R CORUJEIRA",
+      "casa": "568",
+      "coordenadas": [
+        41.29591086894932,
+        -8.120142373017982
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4063710",
+      "rua": "R CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29514535743,
+        -8.118817290016283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4128592",
+      "rua": "R CORUJEIRA",
+      "casa": "175",
+      "coordenadas": [
+        41.29397460019948,
+        -8.117181924882718
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4169369",
+      "rua": "R CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29449694389531,
+        -8.117933950558127
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4204807",
+      "rua": "R CORUJEIRA",
+      "casa": "205",
+      "coordenadas": [
+        41.294154706688126,
+        -8.11734902525236
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4206372",
+      "rua": "R CORUJEIRA",
+      "casa": "205",
+      "coordenadas": [
+        41.294154706688126,
+        -8.11734902525236
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4212557",
+      "rua": "R CORUJEIRA",
+      "casa": "57",
+      "coordenadas": [
+        41.29329015903074,
+        -8.116310565370059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4247773",
+      "rua": "R CORUJEIRA",
+      "casa": "265",
+      "coordenadas": [
+        41.29455996206406,
+        -8.117850363348762
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4277750",
+      "rua": "R CORUJEIRA",
+      "casa": "",
+      "coordenadas": [
+        41.29435287081028,
+        -8.11788622832259
+      ]
+    }
+  ],
+  "ruas": [
+    "R CORUJEIRA",
+    "R ALTO DA CORUJEIRA",
+    "R DOS FRADES CRÚZIOS",
+    "CC CORUJEIRA",
+    "R LOUREIROS",
+    "R MANUEL JESUS TEIXEIRA"
+  ],
+  "centro": [
+    41.294627836537934,
+    -8.122847086130172
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.29496388225225,
+                -8.123716338704025
+              ],
+              [
+                41.29429179082362,
+                -8.12197783355632
+              ],
+              [
+                41.2937248153268,
+                -8.120463164986933
+              ],
+              [
+                41.293262955761804,
+                -8.119172332995866
+              ],
+              [
+                41.29290621212862,
+                -8.118105337583113
+              ],
+              [
+                41.29265458442726,
+                -8.117262178748682
+              ],
+              [
+                41.292508072657725,
+                -8.116642856492565
+              ],
+              [
+                41.29246667682,
+                -8.116247370814769
+              ],
+              [
+                41.2925303969141,
+                -8.116075721715287
+              ],
+              [
+                41.29269923294002,
+                -8.116127909194127
+              ],
+              [
+                41.29286610143582,
+                -8.116195767286847
+              ],
+              [
+                41.29303100240149,
+                -8.116279295993447
+              ],
+              [
+                41.293193935837046,
+                -8.116378495313933
+              ],
+              [
+                41.29335490174248,
+                -8.116493365248301
+              ],
+              [
+                41.29351390011779,
+                -8.116623905796551
+              ],
+              [
+                41.29367093096297,
+                -8.116770116958682
+              ],
+              [
+                41.29382599427804,
+                -8.116931998734696
+              ],
+              [
+                41.293979090062976,
+                -8.117109551124592
+              ],
+              [
+                41.29412149167612,
+                -8.117275540685078
+              ],
+              [
+                41.29425319911745,
+                -8.117429967416156
+              ],
+              [
+                41.294374212386984,
+                -8.11757283131782
+              ],
+              [
+                41.29448453148472,
+                -8.117704132390076
+              ],
+              [
+                41.29458415641065,
+                -8.11782387063292
+              ],
+              [
+                41.29467308716477,
+                -8.117932046046354
+              ],
+              [
+                41.294751323747086,
+                -8.118028658630378
+              ],
+              [
+                41.294818866157605,
+                -8.11811370838499
+              ],
+              [
+                41.29489133458485,
+                -8.118215173646712
+              ],
+              [
+                41.29496872902883,
+                -8.118333054415542
+              ],
+              [
+                41.29505104948954,
+                -8.118467350691482
+              ],
+              [
+                41.29513829596698,
+                -8.118618062474528
+              ],
+              [
+                41.29523046846114,
+                -8.118785189764685
+              ],
+              [
+                41.29532756697205,
+                -8.118968732561948
+              ],
+              [
+                41.29542959149968,
+                -8.11916869086632
+              ],
+              [
+                41.29553654204405,
+                -8.1193850646778
+              ],
+              [
+                41.29565208210323,
+                -8.119725309476957
+              ],
+              [
+                41.29577621167722,
+                -8.120189425263785
+              ],
+              [
+                41.29590893076604,
+                -8.120777412038288
+              ],
+              [
+                41.29605023936967,
+                -8.121489269800467
+              ],
+              [
+                41.296200137488114,
+                -8.122324998550319
+              ],
+              [
+                41.29635862512138,
+                -8.123284598287846
+              ],
+              [
+                41.296525702269456,
+                -8.124368069013048
+              ],
+              [
+                41.29670136893234,
+                -8.125575410725924
+              ],
+              [
+                41.296771065833795,
+                -8.126414521581228
+              ],
+              [
+                41.29673479297381,
+                -8.126885401578958
+              ],
+              [
+                41.29659255035238,
+                -8.126988050719117
+              ],
+              [
+                41.296344337969515,
+                -8.126722469001702
+              ],
+              [
+                41.2959901558252,
+                -8.126088656426715
+              ],
+              [
+                41.295530003919446,
+                -8.125086612994156
+              ],
+              [
+                41.29496388225225,
+                -8.123716338704025
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.29467114849344,
+    -8.119714912943959
+  ],
+  "centroDeMassa": [
+    41.294627836537934,
+    -8.122847086130172
+  ]
+}

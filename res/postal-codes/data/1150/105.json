@@ -1,1 +1,435 @@
-{"CP4":"1150","CP3":"105","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1150-105","Artéria":"Rua do Conde de Redondo","Localidade":"Lisboa","Local":"","Troço":"Pares de 2 a 8A","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2294998","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2294999","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2295000","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2295001","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2295002","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2295003","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2295004","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2295429","rua":"R CONDE DE REDONDO","casa":"2","coordenadas":[38.727801720274876,-9.142568982788815]},{"id":"pt.ine.add.PTCONT.2937699","rua":"R CONDE DE REDONDO","casa":"6","coordenadas":[38.7278601992678,-9.143098783228556]},{"id":"pt.ine.add.PTCONT.2937700","rua":"R CONDE DE REDONDO","casa":"6","coordenadas":[38.7278601992678,-9.143098783228556]},{"id":"pt.ine.add.PTCONT.2937701","rua":"R CONDE DE REDONDO","casa":"6","coordenadas":[38.7278601992678,-9.143098783228556]},{"id":"pt.ine.add.PTCONT.3007491","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007492","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007493","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007494","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007495","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007496","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007497","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007498","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007499","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007500","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007501","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3007945","rua":"R CONDE DE REDONDO","casa":"4","coordenadas":[38.72783427161884,-9.14297192359561]},{"id":"pt.ine.add.PTCONT.3086278","rua":"R CONDE DE REDONDO","casa":"8","coordenadas":[38.72784069551073,-9.143271001215467]},{"id":"pt.ine.add.PTCONT.3426685","rua":"R CONDE DE REDONDO","casa":"2A","coordenadas":[38.727835463458725,-9.142833946299126]},{"id":"pt.ine.add.PTCONT.3426686","rua":"R CONDE DE REDONDO","casa":"2A","coordenadas":[38.727835463458725,-9.142833946299126]},{"id":"pt.ine.add.PTCONT.3426687","rua":"R CONDE DE REDONDO","casa":"2A","coordenadas":[38.727835463458725,-9.142833946299126]},{"id":"pt.ine.add.PTCONT.3431129","rua":"R CONDE DE REDONDO","casa":"2A","coordenadas":[38.727835463458725,-9.142833946299126]}],"ruas":["R CONDE DE REDONDO"],"centroide":[38.72782787797463,-9.142862375379865]}
+{
+  "CP": "1150-105",
+  "CP4": "1150",
+  "CP3": "105",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua do Conde de Redondo",
+      "Local": "",
+      "Troço": "Pares de 2 a 8A",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2294998",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2294999",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295000",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295001",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295002",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295003",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295004",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2295429",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2",
+      "coordenadas": [
+        38.727801720274876,
+        -9.142568982788815
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2937699",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "6",
+      "coordenadas": [
+        38.7278601992678,
+        -9.143098783228556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2937700",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "6",
+      "coordenadas": [
+        38.7278601992678,
+        -9.143098783228556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2937701",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "6",
+      "coordenadas": [
+        38.7278601992678,
+        -9.143098783228556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007491",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007492",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007493",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007494",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007495",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007496",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007497",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007498",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007499",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007500",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007501",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3007945",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "4",
+      "coordenadas": [
+        38.72783427161884,
+        -9.14297192359561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3086278",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "8",
+      "coordenadas": [
+        38.72784069551073,
+        -9.143271001215467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3426685",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2A",
+      "coordenadas": [
+        38.727835463458725,
+        -9.142833946299126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3426686",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2A",
+      "coordenadas": [
+        38.727835463458725,
+        -9.142833946299126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3426687",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2A",
+      "coordenadas": [
+        38.727835463458725,
+        -9.142833946299126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3431129",
+      "rua": "R CONDE DE REDONDO",
+      "casa": "2A",
+      "coordenadas": [
+        38.727835463458725,
+        -9.142833946299126
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONDE DE REDONDO"
+  ],
+  "centro": [
+    38.72783095977134,
+    -9.142919992002142
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.72782364384504,
+                -9.142963868153807
+              ],
+              [
+                38.72781877194056,
+                -9.142876115850475
+              ],
+              [
+                38.72781503626139,
+                -9.142803472639908
+              ],
+              [
+                38.727812436807525,
+                -9.142745938522108
+              ],
+              [
+                38.72781097357897,
+                -9.142703513497072
+              ],
+              [
+                38.72781064657572,
+                -9.1426761975648
+              ],
+              [
+                38.72781145579778,
+                -9.142663990725293
+              ],
+              [
+                38.72781340124514,
+                -9.142666892978554
+              ],
+              [
+                38.72781648291781,
+                -9.142684904324575
+              ],
+              [
+                38.72782070081579,
+                -9.142718024763365
+              ],
+              [
+                38.727824777973545,
+                -9.142751143224327
+              ],
+              [
+                38.72782871439106,
+                -9.142784259707462
+              ],
+              [
+                38.72783251006835,
+                -9.142817374212772
+              ],
+              [
+                38.72783616500541,
+                -9.142850486740258
+              ],
+              [
+                38.72783967920223,
+                -9.142883597289915
+              ],
+              [
+                38.72784305265883,
+                -9.142916705861746
+              ],
+              [
+                38.72784628537519,
+                -9.14294981245575
+              ],
+              [
+                38.72784937735133,
+                -9.14298291707193
+              ],
+              [
+                38.72785177808424,
+                -9.143014574517132
+              ],
+              [
+                38.72785348757393,
+                -9.143044784791357
+              ],
+              [
+                38.7278545058204,
+                -9.143073547894605
+              ],
+              [
+                38.72785483282366,
+                -9.143100863826877
+              ],
+              [
+                38.727854468583686,
+                -9.143126732588172
+              ],
+              [
+                38.7278534131005,
+                -9.14315115417849
+              ],
+              [
+                38.72785166637408,
+                -9.143174128597831
+              ],
+              [
+                38.72784922840445,
+                -9.143195655846192
+              ],
+              [
+                38.72784648619296,
+                -9.143203523150595
+              ],
+              [
+                38.727843439739615,
+                -9.143197730511035
+              ],
+              [
+                38.72784008904441,
+                -9.143178277927515
+              ],
+              [
+                38.72783643410735,
+                -9.143145165400028
+              ],
+              [
+                38.727832474928434,
+                -9.143098392928584
+              ],
+              [
+                38.72782821150767,
+                -9.143037960513176
+              ],
+              [
+                38.72782364384504,
+                -9.142963868153807
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.72783451962803,
+    -9.142943178382993
+  ],
+  "centroDeMassa": [
+    38.72783095977134,
+    -9.142919992002142
+  ]
+}

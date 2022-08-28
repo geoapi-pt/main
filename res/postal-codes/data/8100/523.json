@@ -1,1 +1,506 @@
-{"CP4":"8100","CP3":"523","Distrito":"Faro","Concelho":"Loulé","CP":"8100-523","Artéria":"Largo Batalhão Sapadores do Caminho de Ferro","Localidade":"Loulé","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LOULÉ","locais":[{"id":"pt.ine.add.PTCONT.1482349","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"19","coordenadas":[37.137464466446694,-8.023318021808855]},{"id":"pt.ine.add.PTCONT.1529820","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"3","coordenadas":[37.137689950066196,-8.023554046841557]},{"id":"pt.ine.add.PTCONT.1534533","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"9","coordenadas":[37.13765420887522,-8.023880487503416]},{"id":"pt.ine.add.PTCONT.1559238","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"2","coordenadas":[37.13764482423884,-8.023475328336067]},{"id":"pt.ine.add.PTCONT.1630651","rua":"LG MATRIZ","casa":"22","coordenadas":[37.13756357260004,-8.02330662381651]},{"id":"pt.ine.add.PTCONT.1644791","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"1","coordenadas":[37.137662772543976,-8.023396518846846]},{"id":"pt.ine.add.PTCONT.1704813","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"10-11","coordenadas":[37.137339065833054,-8.02412854506845]},{"id":"pt.ine.add.PTCONT.1704814","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"10-11","coordenadas":[37.137339065833054,-8.02412854506845]},{"id":"pt.ine.add.PTCONT.1751620","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"13","coordenadas":[37.137293898957815,-8.024004807666747]},{"id":"pt.ine.add.PTCONT.1751621","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"13","coordenadas":[37.137293898957815,-8.024004807666747]},{"id":"pt.ine.add.PTCONT.1751622","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"13","coordenadas":[37.137293898957815,-8.024004807666747]},{"id":"pt.ine.add.PTCONT.1751623","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"13","coordenadas":[37.137293898957815,-8.024004807666747]},{"id":"pt.ine.add.PTCONT.1763968","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"20","coordenadas":[37.137518519610275,-8.02330668892482]},{"id":"pt.ine.add.PTCONT.1773149","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"15","coordenadas":[37.13726673240709,-8.02385853505523]},{"id":"pt.ine.add.PTCONT.1773150","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"15","coordenadas":[37.13726673240709,-8.02385853505523]},{"id":"pt.ine.add.PTCONT.1814096","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"6","coordenadas":[37.1376540947326,-8.023756684895408]},{"id":"pt.ine.add.PTCONT.1814097","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"6","coordenadas":[37.1376540947326,-8.023756684895408]},{"id":"pt.ine.add.PTCONT.1814098","rua":"LG BATALHAO SAPADORES DO CAMINHO DE FERRO","casa":"6","coordenadas":[37.1376540947326,-8.023756684895408]}],"ruas":["LG BATALHAO SAPADORES DO CAMINHO DE FERRO","LG MATRIZ"],"centroide":[37.13746433506812,-8.023749675104895]}
+{
+  "CP": "8100-523",
+  "CP4": "8100",
+  "CP3": "523",
+  "Distrito": "Faro",
+  "Concelho": "Loulé",
+  "Localidade": "Loulé",
+  "Designação Postal": "LOULÉ",
+  "partes": [
+    {
+      "Artéria": "Largo Batalhão Sapadores do Caminho de Ferro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1482349",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "19",
+      "coordenadas": [
+        37.137464466446694,
+        -8.023318021808855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1529820",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "3",
+      "coordenadas": [
+        37.137689950066196,
+        -8.023554046841557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1534533",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "9",
+      "coordenadas": [
+        37.13765420887522,
+        -8.023880487503416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1559238",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "2",
+      "coordenadas": [
+        37.13764482423884,
+        -8.023475328336067
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1630651",
+      "rua": "LG MATRIZ",
+      "casa": "22",
+      "coordenadas": [
+        37.13756357260004,
+        -8.02330662381651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1644791",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "1",
+      "coordenadas": [
+        37.137662772543976,
+        -8.023396518846846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1704813",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "10-11",
+      "coordenadas": [
+        37.137339065833054,
+        -8.02412854506845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1704814",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "10-11",
+      "coordenadas": [
+        37.137339065833054,
+        -8.02412854506845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1751620",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "13",
+      "coordenadas": [
+        37.137293898957815,
+        -8.024004807666747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1751621",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "13",
+      "coordenadas": [
+        37.137293898957815,
+        -8.024004807666747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1751622",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "13",
+      "coordenadas": [
+        37.137293898957815,
+        -8.024004807666747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1751623",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "13",
+      "coordenadas": [
+        37.137293898957815,
+        -8.024004807666747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1763968",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "20",
+      "coordenadas": [
+        37.137518519610275,
+        -8.02330668892482
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1773149",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "15",
+      "coordenadas": [
+        37.13726673240709,
+        -8.02385853505523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1773150",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "15",
+      "coordenadas": [
+        37.13726673240709,
+        -8.02385853505523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1814096",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "6",
+      "coordenadas": [
+        37.1376540947326,
+        -8.023756684895408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1814097",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "6",
+      "coordenadas": [
+        37.1376540947326,
+        -8.023756684895408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1814098",
+      "rua": "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+      "casa": "6",
+      "coordenadas": [
+        37.1376540947326,
+        -8.023756684895408
+      ]
+    }
+  ],
+  "ruas": [
+    "LG BATALHAO SAPADORES DO CAMINHO DE FERRO",
+    "LG MATRIZ"
+  ],
+  "centro": [
+    37.137478341236644,
+    -8.02371758444248
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.13728201359187,
+                -8.023940813399207
+              ],
+              [
+                37.137278617773035,
+                -8.023922529322768
+              ],
+              [
+                37.13727873602591,
+                -8.023898085236407
+              ],
+              [
+                37.137282368350526,
+                -8.02386748114013
+              ],
+              [
+                37.137289514746854,
+                -8.023830717033931
+              ],
+              [
+                37.13730017521491,
+                -8.023787792917812
+              ],
+              [
+                37.13731434975469,
+                -8.023738708791775
+              ],
+              [
+                37.137332038366196,
+                -8.023683464655818
+              ],
+              [
+                37.13735324104942,
+                -8.02362206050994
+              ],
+              [
+                37.13737795780437,
+                -8.023554496354144
+              ],
+              [
+                37.137400429545636,
+                -8.02349520064151
+              ],
+              [
+                37.13742065627321,
+                -8.023444173372035
+              ],
+              [
+                37.13743863798709,
+                -8.023401414545724
+              ],
+              [
+                37.137454374687294,
+                -8.023366924162573
+              ],
+              [
+                37.137467866373804,
+                -8.023340702222583
+              ],
+              [
+                37.13747911304662,
+                -8.023322748725757
+              ],
+              [
+                37.13748811470576,
+                -8.02331306367209
+              ],
+              [
+                37.13749487135121,
+                -8.023311647061584
+              ],
+              [
+                37.13750148736894,
+                -8.023310406510076
+              ],
+              [
+                37.13750796275896,
+                -8.023309342017562
+              ],
+              [
+                37.13751429752126,
+                -8.023308453584045
+              ],
+              [
+                37.13752049165584,
+                -8.023307741209525
+              ],
+              [
+                37.137526545162714,
+                -8.023307204894
+              ],
+              [
+                37.13753245804186,
+                -8.023306844637467
+              ],
+              [
+                37.137538230293295,
+                -8.023306660439934
+              ],
+              [
+                37.13754386191702,
+                -8.023306652301395
+              ],
+              [
+                37.137550339586895,
+                -8.023308049790023
+              ],
+              [
+                37.13755766330293,
+                -8.023310852905816
+              ],
+              [
+                37.137565833065125,
+                -8.023315061648777
+              ],
+              [
+                37.137574848873484,
+                -8.023320676018903
+              ],
+              [
+                37.137584710728,
+                -8.023327696016196
+              ],
+              [
+                37.13759541862868,
+                -8.023336121640657
+              ],
+              [
+                37.13760697257551,
+                -8.023345952892281
+              ],
+              [
+                37.1376193725685,
+                -8.023357189771072
+              ],
+              [
+                37.137630647211154,
+                -8.023369483414934
+              ],
+              [
+                37.13764079650346,
+                -8.023382833823863
+              ],
+              [
+                37.13764982044544,
+                -8.02339724099786
+              ],
+              [
+                37.13765771903708,
+                -8.023412704936927
+              ],
+              [
+                37.137664492278375,
+                -8.02342922564106
+              ],
+              [
+                37.13767014016933,
+                -8.02344680311026
+              ],
+              [
+                37.13767466270994,
+                -8.023465437344532
+              ],
+              [
+                37.137678059900225,
+                -8.023485128343872
+              ],
+              [
+                37.137680473985604,
+                -8.023507458603634
+              ],
+              [
+                37.137681904966094,
+                -8.023532428123822
+              ],
+              [
+                37.13768235284169,
+                -8.023560036904433
+              ],
+              [
+                37.13768181761239,
+                -8.023590284945469
+              ],
+              [
+                37.1376802992782,
+                -8.023623172246928
+              ],
+              [
+                37.13767779783912,
+                -8.023658698808813
+              ],
+              [
+                37.137674313295136,
+                -8.023696864631122
+              ],
+              [
+                37.13766984564627,
+                -8.023737669713851
+              ],
+              [
+                37.13766101234347,
+                -8.023777250060697
+              ],
+              [
+                37.13764781338675,
+                -8.023815605671652
+              ],
+              [
+                37.137630248776105,
+                -8.023852736546722
+              ],
+              [
+                37.13760831851153,
+                -8.023888642685904
+              ],
+              [
+                37.13758202259304,
+                -8.023923324089196
+              ],
+              [
+                37.13755136102062,
+                -8.0239567807566
+              ],
+              [
+                37.137516333794274,
+                -8.02398901268812
+              ],
+              [
+                37.137476940914,
+                -8.024020019883746
+              ],
+              [
+                37.13744176641134,
+                -8.024045217783021
+              ],
+              [
+                37.13741081028628,
+                -8.024064606385942
+              ],
+              [
+                37.137384072538836,
+                -8.024078185692504
+              ],
+              [
+                37.137361553169,
+                -8.024085955702713
+              ],
+              [
+                37.13734325217676,
+                -8.024087916416565
+              ],
+              [
+                37.13732916956215,
+                -8.024084067834064
+              ],
+              [
+                37.137319305325136,
+                -8.024074409955206
+              ],
+              [
+                37.13731365946573,
+                -8.024058942779993
+              ],
+              [
+                37.1373082948614,
+                -8.024043123492126
+              ],
+              [
+                37.13730321151213,
+                -8.024026952091607
+              ],
+              [
+                37.13729840941794,
+                -8.024010428578434
+              ],
+              [
+                37.137293888578824,
+                -8.023993552952605
+              ],
+              [
+                37.137289648994766,
+                -8.023976325214125
+              ],
+              [
+                37.13728569066579,
+                -8.023958745362993
+              ],
+              [
+                37.13728201359187,
+                -8.023940813399207
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.13749479859337,
+    -8.023639363948048
+  ],
+  "centroDeMassa": [
+    37.137478341236644,
+    -8.02371758444248
+  ]
+}

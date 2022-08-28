@@ -1,1 +1,555 @@
-{"CP4":"2785","CP3":"193","Distrito":"Lisboa","Concelho":"Cascais","CP":"2785-193","Artéria":"Rua do Bocage","Localidade":"Tires","Local":"Bairro das Coveiras","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO DOMINGOS DE RANA","locais":[{"id":"pt.ine.add.PTCONT.3222848","rua":"BC BOCAGE","casa":"35","coordenadas":[38.711675924150434,-9.34560613037323]},{"id":"pt.ine.add.PTCONT.3222849","rua":"BC BOCAGE","casa":"35","coordenadas":[38.711675924150434,-9.34560613037323]},{"id":"pt.ine.add.PTCONT.3222850","rua":"BC BOCAGE","casa":"35","coordenadas":[38.711675924150434,-9.34560613037323]},{"id":"pt.ine.add.PTCONT.3222851","rua":"BC BOCAGE","casa":"35 A","coordenadas":[38.711675924150434,-9.34560613037323]},{"id":"pt.ine.add.PTCONT.3222852","rua":"BC BOCAGE","casa":"35","coordenadas":[38.711675924150434,-9.34560613037323]},{"id":"pt.ine.add.PTCONT.3229216","rua":"BC BOCAGE","casa":"35 A","coordenadas":[38.711675924150434,-9.34560613037323]},{"id":"pt.ine.add.PTCONT.3278378","rua":"R BOCAGE","casa":"112","coordenadas":[38.71199012851606,-9.346577169242506]},{"id":"pt.ine.add.PTCONT.3358998","rua":"R BOCAGE","casa":"152","coordenadas":[38.71194044374338,-9.347024703735343]},{"id":"pt.ine.add.PTCONT.3358999","rua":"R BOCAGE","casa":"152","coordenadas":[38.71194044374338,-9.347024703735343]},{"id":"pt.ine.add.PTCONT.3359000","rua":"R BOCAGE","casa":"152","coordenadas":[38.71194044374338,-9.347024703735343]},{"id":"pt.ine.add.PTCONT.3398440","rua":"BC BOCAGE","casa":"39","coordenadas":[38.71174618523793,-9.345779768693422]},{"id":"pt.ine.add.PTCONT.3443533","rua":"R BOCAGE","casa":"152","coordenadas":[38.71194044374338,-9.347024703735343]},{"id":"pt.ine.add.PTCONT.2314316","rua":"R BOCAGE","casa":"140","coordenadas":[38.711977900585644,-9.346887375815976]},{"id":"pt.ine.add.PTCONT.2314317","rua":"R BOCAGE","casa":"140","coordenadas":[38.711977900585644,-9.346887375815976]},{"id":"pt.ine.add.PTCONT.2326565","rua":"PCT BARBOSA DU BOCAGE","casa":"2","coordenadas":[38.712133093088035,-9.34582079670438]},{"id":"pt.ine.add.PTCONT.2326566","rua":"PCT BARBOSA DU BOCAGE","casa":"27","coordenadas":[38.712133093088035,-9.34582079670438]},{"id":"pt.ine.add.PTCONT.2329490","rua":"PCT BARBOSA DU BOCAGE","casa":"","coordenadas":[38.712133093088035,-9.34582079670438]},{"id":"pt.ine.add.PTCONT.2415053","rua":"PCT BARBOSA DU BOCAGE","casa":"","coordenadas":[38.71225822561731,-9.34591488583423]},{"id":"pt.ine.add.PTCONT.2415054","rua":"PCT BARBOSA DU BOCAGE","casa":"3","coordenadas":[38.71225822561731,-9.34591488583423]},{"id":"pt.ine.add.PTCONT.2415055","rua":"PCT BARBOSA DU BOCAGE","casa":"3","coordenadas":[38.71225822561731,-9.34591488583423]},{"id":"pt.ine.add.PTCONT.2532616","rua":"R BOCAGE","casa":"44","coordenadas":[38.711944798019104,-9.345737137487335]},{"id":"pt.ine.add.PTCONT.2620077","rua":"R BOCAGE","casa":"168","coordenadas":[38.71201022519763,-9.347244323136126]},{"id":"pt.ine.add.PTCONT.2620078","rua":"R BOCAGE","casa":"168","coordenadas":[38.71201022519763,-9.347244323136126]},{"id":"pt.ine.add.PTCONT.2620079","rua":"R BOCAGE","casa":"168","coordenadas":[38.71201022519763,-9.347244323136126]},{"id":"pt.ine.add.PTCONT.2737909","rua":"R BOCAGE","casa":"140 A","coordenadas":[38.71238800683578,-9.347296701685977]},{"id":"pt.ine.add.PTCONT.2737910","rua":"R BOCAGE","casa":"140 A","coordenadas":[38.71238800683578,-9.347296701685977]},{"id":"pt.ine.add.PTCONT.2737911","rua":"R BOCAGE","casa":"140 A","coordenadas":[38.71238800683578,-9.347296701685977]},{"id":"pt.ine.add.PTCONT.2775043","rua":"R BOCAGE","casa":"106","coordenadas":[38.71198291185266,-9.34640459536075]},{"id":"pt.ine.add.PTCONT.2849278","rua":"R BOCAGE","casa":"56","coordenadas":[38.7119334070893,-9.345966880691963]},{"id":"pt.ine.add.PTCONT.2849279","rua":"R BOCAGE","casa":"56","coordenadas":[38.7119334070893,-9.345966880691963]}],"ruas":["BC BOCAGE","R BOCAGE","PCT BARBOSA DU BOCAGE"],"centroide":[38.71199100703375,-9.346372621461061]}}}21461061]}061]}
+{
+  "CP": "2785-193",
+  "CP4": "2785",
+  "CP3": "193",
+  "Distrito": "Lisboa",
+  "Concelho": "Cascais",
+  "Localidade": [
+    "São Domingos de Rana",
+    "Tires"
+  ],
+  "Designação Postal": "SÃO DOMINGOS DE RANA",
+  "partes": [
+    {
+      "Artéria": "Beco do Bocage",
+      "Localidade": "São Domingos de Rana",
+      "Local": "Bairro das Coveiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Praceta Barbosa Du Bocage",
+      "Localidade": "Tires",
+      "Local": "Bairro das Coveiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco dos Amigos",
+      "Localidade": "Tires",
+      "Local": "Bairro das Coveiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Beco do Bocage",
+      "Localidade": "Tires",
+      "Local": "Bairro das Coveiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Bocage",
+      "Localidade": "Tires",
+      "Local": "Bairro das Coveiras",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3222848",
+      "rua": "BC BOCAGE",
+      "casa": "35",
+      "coordenadas": [
+        38.711675924150434,
+        -9.34560613037323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3222849",
+      "rua": "BC BOCAGE",
+      "casa": "35",
+      "coordenadas": [
+        38.711675924150434,
+        -9.34560613037323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3222850",
+      "rua": "BC BOCAGE",
+      "casa": "35",
+      "coordenadas": [
+        38.711675924150434,
+        -9.34560613037323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3222851",
+      "rua": "BC BOCAGE",
+      "casa": "35 A",
+      "coordenadas": [
+        38.711675924150434,
+        -9.34560613037323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3222852",
+      "rua": "BC BOCAGE",
+      "casa": "35",
+      "coordenadas": [
+        38.711675924150434,
+        -9.34560613037323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3229216",
+      "rua": "BC BOCAGE",
+      "casa": "35 A",
+      "coordenadas": [
+        38.711675924150434,
+        -9.34560613037323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3278378",
+      "rua": "R BOCAGE",
+      "casa": "112",
+      "coordenadas": [
+        38.71199012851606,
+        -9.346577169242506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3358998",
+      "rua": "R BOCAGE",
+      "casa": "152",
+      "coordenadas": [
+        38.71194044374338,
+        -9.347024703735343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3358999",
+      "rua": "R BOCAGE",
+      "casa": "152",
+      "coordenadas": [
+        38.71194044374338,
+        -9.347024703735343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3359000",
+      "rua": "R BOCAGE",
+      "casa": "152",
+      "coordenadas": [
+        38.71194044374338,
+        -9.347024703735343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3398440",
+      "rua": "BC BOCAGE",
+      "casa": "39",
+      "coordenadas": [
+        38.71174618523793,
+        -9.345779768693422
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3443533",
+      "rua": "R BOCAGE",
+      "casa": "152",
+      "coordenadas": [
+        38.71194044374338,
+        -9.347024703735343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2314316",
+      "rua": "R BOCAGE",
+      "casa": "140",
+      "coordenadas": [
+        38.711977900585644,
+        -9.346887375815976
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2314317",
+      "rua": "R BOCAGE",
+      "casa": "140",
+      "coordenadas": [
+        38.711977900585644,
+        -9.346887375815976
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2326565",
+      "rua": "PCT BARBOSA DU BOCAGE",
+      "casa": "2",
+      "coordenadas": [
+        38.712133093088035,
+        -9.34582079670438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2326566",
+      "rua": "PCT BARBOSA DU BOCAGE",
+      "casa": "27",
+      "coordenadas": [
+        38.712133093088035,
+        -9.34582079670438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2329490",
+      "rua": "PCT BARBOSA DU BOCAGE",
+      "casa": "",
+      "coordenadas": [
+        38.712133093088035,
+        -9.34582079670438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2415053",
+      "rua": "PCT BARBOSA DU BOCAGE",
+      "casa": "",
+      "coordenadas": [
+        38.71225822561731,
+        -9.34591488583423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2415054",
+      "rua": "PCT BARBOSA DU BOCAGE",
+      "casa": "3",
+      "coordenadas": [
+        38.71225822561731,
+        -9.34591488583423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2415055",
+      "rua": "PCT BARBOSA DU BOCAGE",
+      "casa": "3",
+      "coordenadas": [
+        38.71225822561731,
+        -9.34591488583423
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2532616",
+      "rua": "R BOCAGE",
+      "casa": "44",
+      "coordenadas": [
+        38.711944798019104,
+        -9.345737137487335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2620077",
+      "rua": "R BOCAGE",
+      "casa": "168",
+      "coordenadas": [
+        38.71201022519763,
+        -9.347244323136126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2620078",
+      "rua": "R BOCAGE",
+      "casa": "168",
+      "coordenadas": [
+        38.71201022519763,
+        -9.347244323136126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2620079",
+      "rua": "R BOCAGE",
+      "casa": "168",
+      "coordenadas": [
+        38.71201022519763,
+        -9.347244323136126
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2737909",
+      "rua": "R BOCAGE",
+      "casa": "140 A",
+      "coordenadas": [
+        38.71238800683578,
+        -9.347296701685977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2737910",
+      "rua": "R BOCAGE",
+      "casa": "140 A",
+      "coordenadas": [
+        38.71238800683578,
+        -9.347296701685977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2737911",
+      "rua": "R BOCAGE",
+      "casa": "140 A",
+      "coordenadas": [
+        38.71238800683578,
+        -9.347296701685977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2775043",
+      "rua": "R BOCAGE",
+      "casa": "106",
+      "coordenadas": [
+        38.71198291185266,
+        -9.34640459536075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2849278",
+      "rua": "R BOCAGE",
+      "casa": "56",
+      "coordenadas": [
+        38.7119334070893,
+        -9.345966880691963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2849279",
+      "rua": "R BOCAGE",
+      "casa": "56",
+      "coordenadas": [
+        38.7119334070893,
+        -9.345966880691963
+      ]
+    }
+  ],
+  "ruas": [
+    "BC BOCAGE",
+    "R BOCAGE",
+    "PCT BARBOSA DU BOCAGE"
+  ],
+  "centro": [
+    38.71203196549311,
+    -9.346451416029604
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.71182471642146,
+                -9.346404077889417
+              ],
+              [
+                38.71179165147235,
+                -9.346226756219156
+              ],
+              [
+                38.71176986290652,
+                -9.3460749539191
+              ],
+              [
+                38.71175935072398,
+                -9.345948670989248
+              ],
+              [
+                38.71176011492473,
+                -9.345847907429606
+              ],
+              [
+                38.711772155508775,
+                -9.34577266324017
+              ],
+              [
+                38.711795472476105,
+                -9.345722938420941
+              ],
+              [
+                38.711830065826724,
+                -9.345698732971922
+              ],
+              [
+                38.711875935560634,
+                -9.345700046893107
+              ],
+              [
+                38.711933081677834,
+                -9.345726880184504
+              ],
+              [
+                38.71198503972616,
+                -9.345751829457127
+              ],
+              [
+                38.71203180970559,
+                -9.34577489471098
+              ],
+              [
+                38.71207339161616,
+                -9.345796075946062
+              ],
+              [
+                38.712109785457834,
+                -9.345815373162374
+              ],
+              [
+                38.71214099123063,
+                -9.345832786359916
+              ],
+              [
+                38.71216700893456,
+                -9.345848315538687
+              ],
+              [
+                38.71218783856959,
+                -9.345861960698688
+              ],
+              [
+                38.712203480135756,
+                -9.345873721839922
+              ],
+              [
+                38.71221919433768,
+                -9.345905603711183
+              ],
+              [
+                38.71223498117538,
+                -9.345957606312473
+              ],
+              [
+                38.71225084064884,
+                -9.346029729643792
+              ],
+              [
+                38.71226677275808,
+                -9.346121973705142
+              ],
+              [
+                38.71228277750308,
+                -9.34623433849652
+              ],
+              [
+                38.712298854883855,
+                -9.34636682401793
+              ],
+              [
+                38.71231500490039,
+                -9.346519430269367
+              ],
+              [
+                38.7123312275527,
+                -9.346692157250839
+              ],
+              [
+                38.71233951953538,
+                -9.346842474944783
+              ],
+              [
+                38.71233988084841,
+                -9.346970383351199
+              ],
+              [
+                38.71233231149182,
+                -9.347075882470094
+              ],
+              [
+                38.712316811465584,
+                -9.347158972301461
+              ],
+              [
+                38.71229338076972,
+                -9.347219652845306
+              ],
+              [
+                38.71226201940422,
+                -9.347257924101623
+              ],
+              [
+                38.71222272736909,
+                -9.347273786070417
+              ],
+              [
+                38.71217550466432,
+                -9.347267238751686
+              ],
+              [
+                38.71213309446242,
+                -9.347258078294658
+              ],
+              [
+                38.7120954967634,
+                -9.347246304699336
+              ],
+              [
+                38.712062711567256,
+                -9.347231917965717
+              ],
+              [
+                38.71203473887398,
+                -9.347214918093803
+              ],
+              [
+                38.71201157868358,
+                -9.347195305083593
+              ],
+              [
+                38.71199323099605,
+                -9.347173078935086
+              ],
+              [
+                38.711979695811394,
+                -9.347148239648284
+              ],
+              [
+                38.71197097312962,
+                -9.347120787223185
+              ],
+              [
+                38.71195920766442,
+                -9.347074601142442
+              ],
+              [
+                38.7119443994158,
+                -9.347009681406053
+              ],
+              [
+                38.71192654838377,
+                -9.346926028014018
+              ],
+              [
+                38.71190565456831,
+                -9.346823640966335
+              ],
+              [
+                38.71188171796945,
+                -9.346702520263008
+              ],
+              [
+                38.711854738587164,
+                -9.346562665904036
+              ],
+              [
+                38.71182471642146,
+                -9.346404077889417
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.71206765310543,
+    -9.34648459024488
+  ],
+  "centroDeMassa": [
+    38.71203196549311,
+    -9.346451416029604
+  ]
+}

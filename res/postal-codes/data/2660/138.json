@@ -1,1 +1,522 @@
-{"CP4":"2660","CP3":"138","Distrito":"Lisboa","Concelho":"Loures","CP":"2660-138","Artéria":"Rua Camilo Castelo Branco","Localidade":"Santo Antão do Tojal","Local":"Bairro dos Loios","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANTO ANTÃO DO TOJAL","locais":[{"id":"pt.ine.add.PTCONT.2877215","rua":"R CAMILO CASTELO BRANCO","casa":"25","coordenadas":[38.849091734824135,-9.144615092740038]},{"id":"pt.ine.add.PTCONT.2878465","rua":"R CAMILO CASTELO BRANCO","casa":"25","coordenadas":[38.849091734824135,-9.144615092740038]},{"id":"pt.ine.add.PTCONT.2881948","rua":"R CAMILO CASTELO BRANCO","casa":"20","coordenadas":[38.848624789041175,-9.144447214496626]},{"id":"pt.ine.add.PTCONT.2887517","rua":"R CAMILO CASTELO BRANCO","casa":"31","coordenadas":[38.849799632850086,-9.144003086105359]},{"id":"pt.ine.add.PTCONT.2956759","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.848984952505866,-9.144463833523282]},{"id":"pt.ine.add.PTCONT.3151967","rua":"R CAMILO CASTELO BRANCO","casa":"32","coordenadas":[38.85043909996887,-9.144012137641047]},{"id":"pt.ine.add.PTCONT.3154638","rua":"R CAMILO CASTELO BRANCO","casa":"32","coordenadas":[38.85043909996887,-9.144012137641047]},{"id":"pt.ine.add.PTCONT.3310583","rua":"R CAMILO CASTELO BRANCO","casa":"29","coordenadas":[38.84933351584886,-9.144779783717324]},{"id":"pt.ine.add.PTCONT.3317722","rua":"R CESARIO VERDE CASA DA PEDRA","casa":"13","coordenadas":[38.847152848768495,-9.145912283945444]},{"id":"pt.ine.add.PTCONT.3440418","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.84755642596556,-9.145077137243671]},{"id":"pt.ine.add.PTCONT.2334487","rua":"R CESARIO VERDE","casa":"4","coordenadas":[38.84684782346751,-9.145769734982048]},{"id":"pt.ine.add.PTCONT.2338915","rua":"R CESARIO VERDE","casa":"4","coordenadas":[38.84684782346751,-9.145769734982048]},{"id":"pt.ine.add.PTCONT.2408218","rua":"R CAMILO CASTELO BRANCO","casa":"33","coordenadas":[38.849934631852314,-9.144016516111325]},{"id":"pt.ine.add.PTCONT.2507793","rua":"R CAMILO CASTELO BRANCO","casa":"5","coordenadas":[38.84996736773079,-9.144397111428535]},{"id":"pt.ine.add.PTCONT.2525361","rua":"R CAMILO CASTELO BRANCO","casa":"9","coordenadas":[38.84739440731074,-9.14506332295954]},{"id":"pt.ine.add.PTCONT.2525362","rua":"R CAMILO CASTELO BRANCO","casa":"9","coordenadas":[38.84739440731074,-9.14506332295954]},{"id":"pt.ine.add.PTCONT.2543937","rua":"R CAMILO CASTELO BRANCO","casa":"9 A","coordenadas":[38.849326005623155,-9.144606891642953]},{"id":"pt.ine.add.PTCONT.2603339","rua":"R CAMILO CASTELO BRANCO","casa":"29 B","coordenadas":[38.84932520760027,-9.144699032708118]},{"id":"pt.ine.add.PTCONT.2699482","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.84755642596556,-9.145077137243671]},{"id":"pt.ine.add.PTCONT.2699483","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.84755642596556,-9.145077137243671]},{"id":"pt.ine.add.PTCONT.2699484","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.84755642596556,-9.145077137243671]},{"id":"pt.ine.add.PTCONT.2699485","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.84755642596556,-9.145077137243671]},{"id":"pt.ine.add.PTCONT.2699490","rua":"R CAMILO CASTELO BRANCO","casa":"11","coordenadas":[38.84755642596556,-9.145077137243671]},{"id":"pt.ine.add.PTCONT.2765077","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.84972907542783,-9.143829300721416]},{"id":"pt.ine.add.PTCONT.2795596","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.850105756858305,-9.144018938368935]},{"id":"pt.ine.add.PTCONT.2854452","rua":"R CAMILO CASTELO BRANCO","casa":"","coordenadas":[38.84982003823894,-9.143726915902654]}],"ruas":["R CAMILO CASTELO BRANCO","R CESARIO VERDE CASA DA PEDRA","R CESARIO VERDE"],"centroide":[38.84860673884171,-9.14474229571507]}
+{
+  "CP": "2660-138",
+  "CP4": "2660",
+  "CP3": "138",
+  "Distrito": "Lisboa",
+  "Concelho": "Loures",
+  "Localidade": "Santo Antão do Tojal",
+  "Designação Postal": "SANTO ANTÃO DO TOJAL",
+  "partes": [
+    {
+      "Artéria": "Rua Cesário Verde",
+      "Local": "Bairro dos Loios",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Camilo Castelo Branco",
+      "Local": "Bairro dos Loios",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2877215",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "25",
+      "coordenadas": [
+        38.849091734824135,
+        -9.144615092740038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2878465",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "25",
+      "coordenadas": [
+        38.849091734824135,
+        -9.144615092740038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2881948",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "20",
+      "coordenadas": [
+        38.848624789041175,
+        -9.144447214496626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2887517",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "31",
+      "coordenadas": [
+        38.849799632850086,
+        -9.144003086105359
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2956759",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.848984952505866,
+        -9.144463833523282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3151967",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "32",
+      "coordenadas": [
+        38.85043909996887,
+        -9.144012137641047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3154638",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "32",
+      "coordenadas": [
+        38.85043909996887,
+        -9.144012137641047
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3310583",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "29",
+      "coordenadas": [
+        38.84933351584886,
+        -9.144779783717324
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3317722",
+      "rua": "R CESARIO VERDE CASA DA PEDRA",
+      "casa": "13",
+      "coordenadas": [
+        38.847152848768495,
+        -9.145912283945444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3440418",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.84755642596556,
+        -9.145077137243671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2334487",
+      "rua": "R CESARIO VERDE",
+      "casa": "4",
+      "coordenadas": [
+        38.84684782346751,
+        -9.145769734982048
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2338915",
+      "rua": "R CESARIO VERDE",
+      "casa": "4",
+      "coordenadas": [
+        38.84684782346751,
+        -9.145769734982048
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2408218",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "33",
+      "coordenadas": [
+        38.849934631852314,
+        -9.144016516111325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2507793",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "5",
+      "coordenadas": [
+        38.84996736773079,
+        -9.144397111428535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2525361",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "9",
+      "coordenadas": [
+        38.84739440731074,
+        -9.14506332295954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2525362",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "9",
+      "coordenadas": [
+        38.84739440731074,
+        -9.14506332295954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2543937",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "9 A",
+      "coordenadas": [
+        38.849326005623155,
+        -9.144606891642953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2603339",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "29 B",
+      "coordenadas": [
+        38.84932520760027,
+        -9.144699032708118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2699482",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.84755642596556,
+        -9.145077137243671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2699483",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.84755642596556,
+        -9.145077137243671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2699484",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.84755642596556,
+        -9.145077137243671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2699485",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.84755642596556,
+        -9.145077137243671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2699490",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "11",
+      "coordenadas": [
+        38.84755642596556,
+        -9.145077137243671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2765077",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.84972907542783,
+        -9.143829300721416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2795596",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.850105756858305,
+        -9.144018938368935
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2854452",
+      "rua": "R CAMILO CASTELO BRANCO",
+      "casa": "",
+      "coordenadas": [
+        38.84982003823894,
+        -9.143726915902654
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAMILO CASTELO BRANCO",
+    "R CESARIO VERDE CASA DA PEDRA",
+    "R CESARIO VERDE"
+  ],
+  "centro": [
+    38.84864346171819,
+    -9.144819599924048
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.847019400199315,
+                -9.145849918773958
+              ],
+              [
+                38.846981272036686,
+                -9.145832100153534
+              ],
+              [
+                38.846956450266944,
+                -9.14580547117281
+              ],
+              [
+                38.84694493489008,
+                -9.14577003183179
+              ],
+              [
+                38.84694672590609,
+                -9.14572578213047
+              ],
+              [
+                38.846961823314984,
+                -9.14567272206885
+              ],
+              [
+                38.846990227116756,
+                -9.145610851646932
+              ],
+              [
+                38.8470319373114,
+                -9.145540170864717
+              ],
+              [
+                38.84708695389892,
+                -9.145460679722202
+              ],
+              [
+                38.847155276879334,
+                -9.145372378219388
+              ],
+              [
+                38.84725295997044,
+                -9.145274233044162
+              ],
+              [
+                38.84738000317224,
+                -9.145166244196524
+              ],
+              [
+                38.84753640648475,
+                -9.145048411676473
+              ],
+              [
+                38.84772216990797,
+                -9.144920735484014
+              ],
+              [
+                38.84793729344189,
+                -9.144783215619139
+              ],
+              [
+                38.84818177708651,
+                -9.144635852081851
+              ],
+              [
+                38.848455620841825,
+                -9.144478644872152
+              ],
+              [
+                38.84875882470785,
+                -9.144311593990043
+              ],
+              [
+                38.84903380093016,
+                -9.144169881057858
+              ],
+              [
+                38.849280549508734,
+                -9.144053506075599
+              ],
+              [
+                38.849499070443585,
+                -9.143962469043267
+              ],
+              [
+                38.849689363734726,
+                -9.143896769960861
+              ],
+              [
+                38.849851429382134,
+                -9.143856408828382
+              ],
+              [
+                38.84998526738582,
+                -9.143841385645828
+              ],
+              [
+                38.850090877745785,
+                -9.143851700413201
+              ],
+              [
+                38.85016826046202,
+                -9.1438873531305
+              ],
+              [
+                38.85022859952251,
+                -9.143924564473565
+              ],
+              [
+                38.850271894927246,
+                -9.1439633344424
+              ],
+              [
+                38.85029814667624,
+                -9.144003663037
+              ],
+              [
+                38.850307354769484,
+                -9.144045550257367
+              ],
+              [
+                38.85029951920698,
+                -9.144088996103502
+              ],
+              [
+                38.85027463998872,
+                -9.144134000575402
+              ],
+              [
+                38.85023271711471,
+                -9.144180563673071
+              ],
+              [
+                38.85017375058494,
+                -9.14422868539651
+              ],
+              [
+                38.85011225093575,
+                -9.144276771159028
+              ],
+              [
+                38.850048218167125,
+                -9.144324820960628
+              ],
+              [
+                38.849981652279055,
+                -9.144372834801313
+              ],
+              [
+                38.849912553271565,
+                -9.144420812681082
+              ],
+              [
+                38.849840921144626,
+                -9.144468754599933
+              ],
+              [
+                38.84976675589825,
+                -9.144516660557864
+              ],
+              [
+                38.84969005753244,
+                -9.14456453055488
+              ],
+              [
+                38.84961082604721,
+                -9.144612364590978
+              ],
+              [
+                38.849507425574494,
+                -9.14467191468863
+              ],
+              [
+                38.8493798561143,
+                -9.144743180847833
+              ],
+              [
+                38.84922811766663,
+                -9.144826163068586
+              ],
+              [
+                38.84905221023149,
+                -9.144920861350894
+              ],
+              [
+                38.84885213380887,
+                -9.145027275694751
+              ],
+              [
+                38.848627888398774,
+                -9.145145406100163
+              ],
+              [
+                38.848379474001206,
+                -9.145275252567126
+              ],
+              [
+                38.84810689061615,
+                -9.145416815095642
+              ],
+              [
+                38.84786361413391,
+                -9.145538454980539
+              ],
+              [
+                38.84764964455447,
+                -9.145640172221821
+              ],
+              [
+                38.847464981877835,
+                -9.145721966819483
+              ],
+              [
+                38.84730962610399,
+                -9.145783838773529
+              ],
+              [
+                38.84718357723296,
+                -9.145825788083956
+              ],
+              [
+                38.84708683526474,
+                -9.145847814750766
+              ],
+              [
+                38.847019400199315,
+                -9.145849918773958
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.84870787161917,
+    -9.144808755796657
+  ],
+  "centroDeMassa": [
+    38.84864346171819,
+    -9.144819599924048
+  ]
+}

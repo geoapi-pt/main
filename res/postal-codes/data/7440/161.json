@@ -1,1 +1,406 @@
-{"CP4":"7440","CP3":"161","Distrito":"Portalegre","Concelho":"Alter do Chão","CP":"7440-161","Artéria":"Rua da Bela Vista","Localidade":"Alter do Chão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALTER DO CHÃO","locais":[{"id":"pt.ine.add.PTCONT.3537792","rua":"R DA BELA VISTA","casa":"33","coordenadas":[39.20395771528925,-7.66280949731352]},{"id":"pt.ine.add.PTCONT.3537798","rua":"R BELA VISTA","casa":"","coordenadas":[39.20376232924964,-7.66339159986609]},{"id":"pt.ine.add.PTCONT.3465598","rua":"R RUY DE ANDRADE","casa":"","coordenadas":[39.20357053092451,-7.661946853079505]},{"id":"pt.ine.add.PTCONT.3468537","rua":"R RUY DE ANDRADE","casa":"","coordenadas":[39.20363431558324,-7.661796050949711]},{"id":"pt.ine.add.PTCONT.3472424","rua":"R RUY DE ANDRADE","casa":"4","coordenadas":[39.20389727299298,-7.661121600131939]},{"id":"pt.ine.add.PTCONT.3479081","rua":"R PRINCIPAL","casa":"","coordenadas":[39.20343723210984,-7.663185379624089]},{"id":"pt.ine.add.PTCONT.3485896","rua":"R DA BELA VISTA","casa":"31","coordenadas":[39.20397960148233,-7.662930022526951]},{"id":"pt.ine.add.PTCONT.3489048","rua":"R BELA VISTA","casa":"22","coordenadas":[39.20406871180351,-7.663424290472375]},{"id":"pt.ine.add.PTCONT.3493228","rua":"R BELA VISTA","casa":"","coordenadas":[39.20319724766121,-7.661751439236407]},{"id":"pt.ine.add.PTCONT.3495254","rua":"R DA BELA VISTA","casa":"31","coordenadas":[39.204022508984934,-7.663135171512695]},{"id":"pt.ine.add.PTCONT.3500217","rua":"R BELA VISTA","casa":"","coordenadas":[39.20358134624896,-7.663184419366409]},{"id":"pt.ine.add.PTCONT.3509136","rua":"R BELA VISTA","casa":"","coordenadas":[39.2033055674204,-7.661808600029516]},{"id":"pt.ine.add.PTCONT.3509705","rua":"R RUY DE ANDRADE","casa":"","coordenadas":[39.203690057467284,-7.661629249629396]},{"id":"pt.ine.add.PTCONT.3509891","rua":"R DA BELA VISTA","casa":"38","coordenadas":[39.203721721072135,-7.6622573226517305]},{"id":"pt.ine.add.PTCONT.3513973","rua":"ESTR COUDELARIA QTA DE CAMBITES","casa":"","coordenadas":[39.20575745283784,-7.663715918223867]},{"id":"pt.ine.add.PTCONT.3524718","rua":"R DA BELA VISTA","casa":"29","coordenadas":[39.20405009070696,-7.663273912561672]},{"id":"pt.ine.add.PTCONT.3527275","rua":"R DA BELA VISTA","casa":"35","coordenadas":[39.20393927048729,-7.662702975977262]},{"id":"pt.ine.add.PTCONT.3529536","rua":"R DA BELA VISTA","casa":"36","coordenadas":[39.20392967932402,-7.66255841363944]},{"id":"pt.ine.add.PTCONT.3530820","rua":"R RUY DE ANDRADE","casa":"","coordenadas":[39.20372754399956,-7.661470046569162]},{"id":"pt.ine.add.PTCONT.3531652","rua":"R DA BELA VISTA","casa":"30","coordenadas":[39.20399617870359,-7.663046107508632]}],"ruas":["R DA BELA VISTA","R BELA VISTA","R RUY DE ANDRADE","R PRINCIPAL","ESTR COUDELARIA QTA DE CAMBITES"],"centroide":[39.20385422082345,-7.662531198071669]}}
+{
+  "CP": "7440-161",
+  "CP4": "7440",
+  "CP3": "161",
+  "Distrito": "Portalegre",
+  "Concelho": "Alter do Chão",
+  "Localidade": "Alter do Chão",
+  "Designação Postal": "ALTER DO CHÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Ruy de Andrade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Bela Vista",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3537792",
+      "rua": "R DA BELA VISTA",
+      "casa": "33",
+      "coordenadas": [
+        39.20395771528925,
+        -7.66280949731352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3537798",
+      "rua": "R BELA VISTA",
+      "casa": "",
+      "coordenadas": [
+        39.20376232924964,
+        -7.66339159986609
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3465598",
+      "rua": "R RUY DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.20357053092451,
+        -7.661946853079505
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3468537",
+      "rua": "R RUY DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.20363431558324,
+        -7.661796050949711
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3472424",
+      "rua": "R RUY DE ANDRADE",
+      "casa": "4",
+      "coordenadas": [
+        39.20389727299298,
+        -7.661121600131939
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3479081",
+      "rua": "R PRINCIPAL",
+      "casa": "",
+      "coordenadas": [
+        39.20343723210984,
+        -7.663185379624089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3485896",
+      "rua": "R DA BELA VISTA",
+      "casa": "31",
+      "coordenadas": [
+        39.20397960148233,
+        -7.662930022526951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3489048",
+      "rua": "R BELA VISTA",
+      "casa": "22",
+      "coordenadas": [
+        39.20406871180351,
+        -7.663424290472375
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3493228",
+      "rua": "R BELA VISTA",
+      "casa": "",
+      "coordenadas": [
+        39.20319724766121,
+        -7.661751439236407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3495254",
+      "rua": "R DA BELA VISTA",
+      "casa": "31",
+      "coordenadas": [
+        39.204022508984934,
+        -7.663135171512695
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3500217",
+      "rua": "R BELA VISTA",
+      "casa": "",
+      "coordenadas": [
+        39.20358134624896,
+        -7.663184419366409
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509136",
+      "rua": "R BELA VISTA",
+      "casa": "",
+      "coordenadas": [
+        39.2033055674204,
+        -7.661808600029516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509705",
+      "rua": "R RUY DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.203690057467284,
+        -7.661629249629396
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509891",
+      "rua": "R DA BELA VISTA",
+      "casa": "38",
+      "coordenadas": [
+        39.203721721072135,
+        -7.6622573226517305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513973",
+      "rua": "ESTR COUDELARIA QTA DE CAMBITES",
+      "casa": "",
+      "coordenadas": [
+        39.20575745283784,
+        -7.663715918223867
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3524718",
+      "rua": "R DA BELA VISTA",
+      "casa": "29",
+      "coordenadas": [
+        39.20405009070696,
+        -7.663273912561672
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3527275",
+      "rua": "R DA BELA VISTA",
+      "casa": "35",
+      "coordenadas": [
+        39.20393927048729,
+        -7.662702975977262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3529536",
+      "rua": "R DA BELA VISTA",
+      "casa": "36",
+      "coordenadas": [
+        39.20392967932402,
+        -7.66255841363944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530820",
+      "rua": "R RUY DE ANDRADE",
+      "casa": "",
+      "coordenadas": [
+        39.20372754399956,
+        -7.661470046569162
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3531652",
+      "rua": "R DA BELA VISTA",
+      "casa": "30",
+      "coordenadas": [
+        39.20399617870359,
+        -7.663046107508632
+      ]
+    }
+  ],
+  "ruas": [
+    "R DA BELA VISTA",
+    "R BELA VISTA",
+    "R RUY DE ANDRADE",
+    "R PRINCIPAL",
+    "ESTR COUDELARIA QTA DE CAMBITES"
+  ],
+  "centro": [
+    39.20447735024952,
+    -7.662418759177903
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.20333223891356,
+                -7.662558030704479
+              ],
+              [
+                39.20330224085748,
+                -7.662378788156017
+              ],
+              [
+                39.203286930454226,
+                -7.662212109690107
+              ],
+              [
+                39.20328630770378,
+                -7.662057995306747
+              ],
+              [
+                39.20330037260616,
+                -7.661916445005938
+              ],
+              [
+                39.20332912516135,
+                -7.661787458787679
+              ],
+              [
+                39.20337256536937,
+                -7.6616710366519705
+              ],
+              [
+                39.2034306932302,
+                -7.661567178598811
+              ],
+              [
+                39.20350350874386,
+                -7.661475884628202
+              ],
+              [
+                39.20359101191033,
+                -7.661397154740144
+              ],
+              [
+                39.20369664249107,
+                -7.66136880230828
+              ],
+              [
+                39.20382040048608,
+                -7.661390827332609
+              ],
+              [
+                39.20396228589535,
+                -7.6614632298131315
+              ],
+              [
+                39.204122298718886,
+                -7.661586009749847
+              ],
+              [
+                39.20430043895669,
+                -7.661759167142757
+              ],
+              [
+                39.204496706608765,
+                -7.66198270199186
+              ],
+              [
+                39.20471110167511,
+                -7.662256614297157
+              ],
+              [
+                39.20494362415571,
+                -7.6625809040586494
+              ],
+              [
+                39.20511590752018,
+                -7.662859590125613
+              ],
+              [
+                39.2052279517685,
+                -7.663092672498051
+              ],
+              [
+                39.20527975690068,
+                -7.663280151175962
+              ],
+              [
+                39.205271322916715,
+                -7.6634220261593455
+              ],
+              [
+                39.20520264981662,
+                -7.663518297448204
+              ],
+              [
+                39.20507373760038,
+                -7.6635689650425345
+              ],
+              [
+                39.204884586267994,
+                -7.663574028942339
+              ],
+              [
+                39.20463519581948,
+                -7.663533489147619
+              ],
+              [
+                39.20441189953421,
+                -7.663494794635955
+              ],
+              [
+                39.20421469741219,
+                -7.663457945407352
+              ],
+              [
+                39.204043589453434,
+                -7.663422941461806
+              ],
+              [
+                39.203898575657945,
+                -7.663389782799319
+              ],
+              [
+                39.2037796560257,
+                -7.663358469419892
+              ],
+              [
+                39.203686830556705,
+                -7.663329001323524
+              ],
+              [
+                39.203620099250976,
+                -7.663301378510214
+              ],
+              [
+                39.2035794621085,
+                -7.663275600979964
+              ],
+              [
+                39.20354015485182,
+                -7.663230640322437
+              ],
+              [
+                39.20350217748095,
+                -7.6631664965376345
+              ],
+              [
+                39.203465529995874,
+                -7.663083169625557
+              ],
+              [
+                39.20343021239659,
+                -7.662980659586201
+              ],
+              [
+                39.20339622468312,
+                -7.66285896641957
+              ],
+              [
+                39.20336356685544,
+                -7.662718090125663
+              ],
+              [
+                39.20333223891356,
+                -7.662558030704479
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.204010306970304,
+    -7.662633187416479
+  ],
+  "centroDeMassa": [
+    39.20447735024952,
+    -7.662418759177903
+  ]
+}

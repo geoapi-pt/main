@@ -1,1 +1,387 @@
-{"CP4":"4605","CP3":"036","Distrito":"Porto","Concelho":"Amarante","CP":"4605-036","Artéria":"Rua Gastão Teixeira da Fonseca","Localidade":"Vila Meã","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA MEÃ","locais":[{"id":"pt.ine.add.PTCONT.3630094","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"222","coordenadas":[41.24879972333591,-8.200742957932476]},{"id":"pt.ine.add.PTCONT.3798578","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"156","coordenadas":[41.24898934831798,-8.199824493961355]},{"id":"pt.ine.add.PTCONT.3798579","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"156","coordenadas":[41.24898934831798,-8.199824493961355]},{"id":"pt.ine.add.PTCONT.3804031","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"156","coordenadas":[41.24898934831798,-8.199824493961355]},{"id":"pt.ine.add.PTCONT.3841744","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"94","coordenadas":[41.249070682583366,-8.199311558406153]},{"id":"pt.ine.add.PTCONT.3934063","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"222","coordenadas":[41.24895327601811,-8.199919902359552]},{"id":"pt.ine.add.PTCONT.3966008","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"240","coordenadas":[41.2488357052377,-8.200802648114887]},{"id":"pt.ine.add.PTCONT.3966009","rua":"R GASTAO TEIXEIRA FONSECA","casa":"222","coordenadas":[41.2488357052377,-8.200802648114887]},{"id":"pt.ine.add.PTCONT.4089726","rua":"R GASTAO TEIXEIRA FONSECA","casa":"","coordenadas":[41.24917873345313,-8.199311667476954]},{"id":"pt.ine.add.PTCONT.4089727","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"110","coordenadas":[41.24917873345313,-8.199311667476954]},{"id":"pt.ine.add.PTCONT.4096658","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"244","coordenadas":[41.24879063491105,-8.20088611584394]},{"id":"pt.ine.add.PTCONT.4102776","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"244","coordenadas":[41.24878167980148,-8.200802592351877]},{"id":"pt.ine.add.PTCONT.4142351","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"103","coordenadas":[41.248917658502165,-8.199227889527593]},{"id":"pt.ine.add.PTCONT.4174803","rua":"R GASTAO TEIXEIRA FONSECA","casa":"550","coordenadas":[41.24837530763808,-8.202782641128731]},{"id":"pt.ine.add.PTCONT.4194341","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"","coordenadas":[41.249161134336724,-8.198595809244582]},{"id":"pt.ine.add.PTCONT.4205850","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"161","coordenadas":[41.24881819165316,-8.199955556584584]},{"id":"pt.ine.add.PTCONT.4226905","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"75","coordenadas":[41.24891783621218,-8.198917693321846]},{"id":"pt.ine.add.PTCONT.4284984","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"260","coordenadas":[41.24878128506699,-8.201470705840224]},{"id":"pt.ine.add.PTCONT.4382200","rua":"R GASTAO TEIXEIRA DA FONSECA","casa":"254","coordenadas":[41.24871849551366,-8.201065000200705]}],"ruas":["R GASTAO TEIXEIRA DA FONSECA","R GASTAO TEIXEIRA FONSECA"],"centroide":[41.24890912957749,-8.200128640867185]}
+{
+  "CP": "4605-036",
+  "CP4": "4605",
+  "CP3": "036",
+  "Distrito": "Porto",
+  "Concelho": "Amarante",
+  "Localidade": "Vila Meã",
+  "Designação Postal": "VILA MEÃ",
+  "partes": [
+    {
+      "Artéria": "Rua Gastão Teixeira da Fonseca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3630094",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "222",
+      "coordenadas": [
+        41.24879972333591,
+        -8.200742957932476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3798578",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "156",
+      "coordenadas": [
+        41.24898934831798,
+        -8.199824493961355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3798579",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "156",
+      "coordenadas": [
+        41.24898934831798,
+        -8.199824493961355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3804031",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "156",
+      "coordenadas": [
+        41.24898934831798,
+        -8.199824493961355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3841744",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "94",
+      "coordenadas": [
+        41.249070682583366,
+        -8.199311558406153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3934063",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "222",
+      "coordenadas": [
+        41.24895327601811,
+        -8.199919902359552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3966008",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "240",
+      "coordenadas": [
+        41.2488357052377,
+        -8.200802648114887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3966009",
+      "rua": "R GASTAO TEIXEIRA FONSECA",
+      "casa": "222",
+      "coordenadas": [
+        41.2488357052377,
+        -8.200802648114887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4089726",
+      "rua": "R GASTAO TEIXEIRA FONSECA",
+      "casa": "",
+      "coordenadas": [
+        41.24917873345313,
+        -8.199311667476954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4089727",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "110",
+      "coordenadas": [
+        41.24917873345313,
+        -8.199311667476954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4096658",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "244",
+      "coordenadas": [
+        41.24879063491105,
+        -8.20088611584394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4102776",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "244",
+      "coordenadas": [
+        41.24878167980148,
+        -8.200802592351877
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4142351",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "103",
+      "coordenadas": [
+        41.248917658502165,
+        -8.199227889527593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4174803",
+      "rua": "R GASTAO TEIXEIRA FONSECA",
+      "casa": "550",
+      "coordenadas": [
+        41.24837530763808,
+        -8.202782641128731
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4194341",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "",
+      "coordenadas": [
+        41.249161134336724,
+        -8.198595809244582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4205850",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "161",
+      "coordenadas": [
+        41.24881819165316,
+        -8.199955556584584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4226905",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "75",
+      "coordenadas": [
+        41.24891783621218,
+        -8.198917693321846
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4284984",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "260",
+      "coordenadas": [
+        41.24878128506699,
+        -8.201470705840224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4382200",
+      "rua": "R GASTAO TEIXEIRA DA FONSECA",
+      "casa": "254",
+      "coordenadas": [
+        41.24871849551366,
+        -8.201065000200705
+      ]
+    }
+  ],
+  "ruas": [
+    "R GASTAO TEIXEIRA DA FONSECA",
+    "R GASTAO TEIXEIRA FONSECA"
+  ],
+  "centro": [
+    41.2487770205456,
+    -8.200689225186657
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.24860366994184,
+                -8.202044677528946
+              ],
+              [
+                41.248552922763224,
+                -8.20220866944001
+              ],
+              [
+                41.24851699599091,
+                -8.202291772552707
+              ],
+              [
+                41.24849588962489,
+                -8.20229398686704
+              ],
+              [
+                41.24848960366516,
+                -8.202215312383007
+              ],
+              [
+                41.24849813811174,
+                -8.202055749100607
+              ],
+              [
+                41.24852149296461,
+                -8.201815297019843
+              ],
+              [
+                41.24855966822378,
+                -8.201493956140714
+              ],
+              [
+                41.24861266388925,
+                -8.201091726463218
+              ],
+              [
+                41.24868047996101,
+                -8.200608607987359
+              ],
+              [
+                41.24874362055699,
+                -8.200180849882273
+              ],
+              [
+                41.24880208567721,
+                -8.199808452147963
+              ],
+              [
+                41.24885587532165,
+                -8.199491414784429
+              ],
+              [
+                41.24890498949031,
+                -8.199229737791669
+              ],
+              [
+                41.24894942818321,
+                -8.199023421169684
+              ],
+              [
+                41.24898919140033,
+                -8.198872464918477
+              ],
+              [
+                41.249024279141665,
+                -8.198776869038042
+              ],
+              [
+                41.24905469140724,
+                -8.198736633528386
+              ],
+              [
+                41.2490815771258,
+                -8.198712612742316
+              ],
+              [
+                41.249104936297364,
+                -8.198704806679833
+              ],
+              [
+                41.24912476892193,
+                -8.19871321534094
+              ],
+              [
+                41.249141074999486,
+                -8.198737838725634
+              ],
+              [
+                41.24915385453004,
+                -8.198778676833916
+              ],
+              [
+                41.249163107513596,
+                -8.198835729665786
+              ],
+              [
+                41.24916883395015,
+                -8.198908997221245
+              ],
+              [
+                41.2491710338397,
+                -8.19899847950029
+              ],
+              [
+                41.249166748612026,
+                -8.19911051146888
+              ],
+              [
+                41.24915597826712,
+                -8.199245093127018
+              ],
+              [
+                41.249138722804986,
+                -8.199402224474701
+              ],
+              [
+                41.249114982225635,
+                -8.199581905511929
+              ],
+              [
+                41.249084756529044,
+                -8.199784136238701
+              ],
+              [
+                41.24904804571523,
+                -8.200008916655019
+              ],
+              [
+                41.24900484978419,
+                -8.200256246760883
+              ],
+              [
+                41.248955168735925,
+                -8.200526126556294
+              ],
+              [
+                41.24890535442136,
+                -8.20078277036616
+              ],
+              [
+                41.24885540684051,
+                -8.201026178190482
+              ],
+              [
+                41.24880532599336,
+                -8.201256350029261
+              ],
+              [
+                41.24875511187992,
+                -8.201473285882496
+              ],
+              [
+                41.24870476450019,
+                -8.20167698575019
+              ],
+              [
+                41.248654283854165,
+                -8.20186744963234
+              ],
+              [
+                41.24860366994184,
+                -8.202044677528946
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.24888285934142,
+    -8.200215703402467
+  ],
+  "centroDeMassa": [
+    41.2487770205456,
+    -8.200689225186657
+  ]
+}

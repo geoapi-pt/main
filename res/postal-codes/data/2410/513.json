@@ -1,1 +1,377 @@
-{"CP4":"2410","CP3":"513","Distrito":"Leiria","Concelho":"Leiria","CP":"2410-513","Artéria":"Rua da Senhora da Gaiola","Localidade":"Cortes","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LEIRIA","locais":[{"id":"pt.ine.add.PTCONT.1984757","rua":"R SENHORA DA GAIOLA","casa":"16","coordenadas":[39.70162157145503,-8.782676158735343]},{"id":"pt.ine.add.PTCONT.2026462","rua":"R SENHORA DA GAIOLA","casa":"","coordenadas":[39.70266294892631,-8.78328057704435]},{"id":"pt.ine.add.PTCONT.2030836","rua":"R SENHORA DA GAIOLA","casa":"03","coordenadas":[39.70153529496785,-8.783608125735144]},{"id":"pt.ine.add.PTCONT.2030844","rua":"R SENHORA DA GAIOLA","casa":"08","coordenadas":[39.701464617738544,-8.783362608710258]},{"id":"pt.ine.add.PTCONT.2032992","rua":"R SENHORA DA GAIOLA","casa":"","coordenadas":[39.701243898357085,-8.784176712596224]},{"id":"pt.ine.add.PTCONT.2036501","rua":"R SENHORA DA GAIOLA","casa":"01","coordenadas":[39.70148961131511,-8.783724293711645]},{"id":"pt.ine.add.PTCONT.2039674","rua":"R SENHORA DA GAIOLA","casa":"13","coordenadas":[39.702060846960364,-8.783041730742912]},{"id":"pt.ine.add.PTCONT.2039675","rua":"R SENHORA DA GAIOLA","casa":"07","coordenadas":[39.70165459419447,-8.783212815424163]},{"id":"pt.ine.add.PTCONT.2072716","rua":"R SENHORA DA GAIOLA","casa":"05","coordenadas":[39.70162666192731,-8.783375789318992]},{"id":"pt.ine.add.PTCONT.2074445","rua":"R SENHORA DA GAIOLA","casa":"09","coordenadas":[39.701718224236444,-8.783108474933593]},{"id":"pt.ine.add.PTCONT.2098619","rua":"R SENHORA DA GAIOLA","casa":"08","coordenadas":[39.701915835860476,-8.783203607049305]},{"id":"pt.ine.add.PTCONT.2116898","rua":"R SENHORA DA GAIOLA","casa":"04","coordenadas":[39.70138206093324,-8.783630006340164]},{"id":"pt.ine.add.PTCONT.2136036","rua":"R SENHORA DA GAIOLA","casa":"10","coordenadas":[39.7014833480646,-8.783234527916049]},{"id":"pt.ine.add.PTCONT.2154035","rua":"R SENHORA DA GAIOLA","casa":"","coordenadas":[39.70181102531874,-8.78261963629486]},{"id":"pt.ine.add.PTCONT.2193141","rua":"R SENHORA DA GAIOLA","casa":"O5A","coordenadas":[39.702138571787565,-8.783637109712473]},{"id":"pt.ine.add.PTCONT.2231198","rua":"R SENHORA DA GAIOLA","casa":"02","coordenadas":[39.701335789223336,-8.783851105508914]},{"id":"pt.ine.add.PTCONT.2252493","rua":"R SENHORA DA GAIOLA","casa":"011","coordenadas":[39.70174635188211,-8.782910523343679]},{"id":"pt.ine.add.PTCONT.2263802","rua":"R SENHORA DA GAIOLA","casa":"","coordenadas":[39.702004786775376,-8.78340265794429]}],"ruas":["R SENHORA DA GAIOLA"],"centroide":[39.701699485479324,-8.783332576654004]}
+{
+  "CP": "2410-513",
+  "CP4": "2410",
+  "CP3": "513",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Cortes",
+  "Designação Postal": "LEIRIA",
+  "partes": [
+    {
+      "Artéria": "Rua da Senhora da Gaiola",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1984757",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "16",
+      "coordenadas": [
+        39.70162157145503,
+        -8.782676158735343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2026462",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "",
+      "coordenadas": [
+        39.70266294892631,
+        -8.78328057704435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2030836",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "03",
+      "coordenadas": [
+        39.70153529496785,
+        -8.783608125735144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2030844",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "08",
+      "coordenadas": [
+        39.701464617738544,
+        -8.783362608710258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2032992",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "",
+      "coordenadas": [
+        39.701243898357085,
+        -8.784176712596224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2036501",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "01",
+      "coordenadas": [
+        39.70148961131511,
+        -8.783724293711645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039674",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "13",
+      "coordenadas": [
+        39.702060846960364,
+        -8.783041730742912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039675",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "07",
+      "coordenadas": [
+        39.70165459419447,
+        -8.783212815424163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2072716",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "05",
+      "coordenadas": [
+        39.70162666192731,
+        -8.783375789318992
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2074445",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "09",
+      "coordenadas": [
+        39.701718224236444,
+        -8.783108474933593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2098619",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "08",
+      "coordenadas": [
+        39.701915835860476,
+        -8.783203607049305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2116898",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "04",
+      "coordenadas": [
+        39.70138206093324,
+        -8.783630006340164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2136036",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "10",
+      "coordenadas": [
+        39.7014833480646,
+        -8.783234527916049
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2154035",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "",
+      "coordenadas": [
+        39.70181102531874,
+        -8.78261963629486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2193141",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "O5A",
+      "coordenadas": [
+        39.702138571787565,
+        -8.783637109712473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2231198",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "02",
+      "coordenadas": [
+        39.701335789223336,
+        -8.783851105508914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2252493",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "011",
+      "coordenadas": [
+        39.70174635188211,
+        -8.782910523343679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2263802",
+      "rua": "R SENHORA DA GAIOLA",
+      "casa": "",
+      "coordenadas": [
+        39.702004786775376,
+        -8.78340265794429
+      ]
+    }
+  ],
+  "ruas": [
+    "R SENHORA DA GAIOLA"
+  ],
+  "centro": [
+    39.7019534236417,
+    -8.783398174445542
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.70174715216173,
+                -8.783873185974112
+              ],
+              [
+                39.70163531798292,
+                -8.783940636334584
+              ],
+              [
+                39.701543364218615,
+                -8.783976209245917
+              ],
+              [
+                39.70147129086882,
+                -8.783979904708119
+              ],
+              [
+                39.70141909793353,
+                -8.78395172272118
+              ],
+              [
+                39.701386785412744,
+                -8.783891663285111
+              ],
+              [
+                39.70137435330647,
+                -8.783799726399904
+              ],
+              [
+                39.7013818016147,
+                -8.783675912065565
+              ],
+              [
+                39.70140913033744,
+                -8.783520220282089
+              ],
+              [
+                39.701456339474674,
+                -8.78333265104948
+              ],
+              [
+                39.701500607686384,
+                -8.783167644807815
+              ],
+              [
+                39.70154193497255,
+                -8.783025201557091
+              ],
+              [
+                39.701580321333196,
+                -8.782905321297312
+              ],
+              [
+                39.7016157667683,
+                -8.782808004028476
+              ],
+              [
+                39.70164827127787,
+                -8.782733249750585
+              ],
+              [
+                39.701677834861904,
+                -8.782681058463638
+              ],
+              [
+                39.7017044575204,
+                -8.782651430167633
+              ],
+              [
+                39.70172813925337,
+                -8.782644364862572
+              ],
+              [
+                39.70176217207608,
+                -8.782648509919856
+              ],
+              [
+                39.70180655598853,
+                -8.782663865339481
+              ],
+              [
+                39.70186129099074,
+                -8.78269043112145
+              ],
+              [
+                39.70192637708271,
+                -8.782728207265764
+              ],
+              [
+                39.702001814264406,
+                -8.78277719377242
+              ],
+              [
+                39.702087602535855,
+                -8.782837390641419
+              ],
+              [
+                39.70218374189705,
+                -8.782908797872762
+              ],
+              [
+                39.702290232348,
+                -8.782991415466448
+              ],
+              [
+                39.70237521809979,
+                -8.783069276683863
+              ],
+              [
+                39.70243869915241,
+                -8.783142381525007
+              ],
+              [
+                39.70248067550587,
+                -8.783210729989879
+              ],
+              [
+                39.70250114716018,
+                -8.783274322078478
+              ],
+              [
+                39.70250011411532,
+                -8.783333157790807
+              ],
+              [
+                39.702477576371294,
+                -8.783387237126867
+              ],
+              [
+                39.70243353392811,
+                -8.783436560086653
+              ],
+              [
+                39.70236798678577,
+                -8.78348112667017
+              ],
+              [
+                39.70229665376386,
+                -8.783528553725803
+              ],
+              [
+                39.7022195348624,
+                -8.783578841253558
+              ],
+              [
+                39.702136630081384,
+                -8.78363198925343
+              ],
+              [
+                39.70204793942081,
+                -8.783687997725423
+              ],
+              [
+                39.701953462880674,
+                -8.783746866669533
+              ],
+              [
+                39.70185320046098,
+                -8.783808596085763
+              ],
+              [
+                39.70174715216173,
+                -8.783873185974112
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.70189560316894,
+    -8.78327803887665
+  ],
+  "centroDeMassa": [
+    39.7019534236417,
+    -8.783398174445542
+  ]
+}

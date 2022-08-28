@@ -1,1 +1,421 @@
-{"CP4":"2635","CP3":"649","Distrito":"Lisboa","Concelho":"Sintra","CP":"2635-649","Artéria":"Rua Henrique Viana","Localidade":"Rio de Mouro","Local":"Paiões","Troço":"","Porta":"","Cliente":"","Designação Postal":"RIO DE MOURO","locais":[{"id":"pt.ine.add.PTCONT.2418867","rua":"R ULMEIRO","casa":"20","coordenadas":[38.76803867895122,-9.320901749048602]},{"id":"pt.ine.add.PTCONT.2464589","rua":"R ULMEIRO","casa":"11","coordenadas":[38.76892805272159,-9.319363194553265]},{"id":"pt.ine.add.PTCONT.2464590","rua":"R ULMEIRO","casa":"11","coordenadas":[38.76892805272159,-9.319363194553265]},{"id":"pt.ine.add.PTCONT.2468973","rua":"R PADRE FRANCISCO CRUZ","casa":"3","coordenadas":[38.76908204849016,-9.317501776357341]},{"id":"pt.ine.add.PTCONT.2481733","rua":"R HENRIQUE VIANA","casa":"","coordenadas":[38.76761398043287,-9.32014683288802]},{"id":"pt.ine.add.PTCONT.2489082","rua":"R ULMEIRO","casa":"19","coordenadas":[38.768297281035316,-9.320273215746534]},{"id":"pt.ine.add.PTCONT.2627008","rua":"R ULMEIRO","casa":"13","coordenadas":[38.768872731057286,-9.319488843687504]},{"id":"pt.ine.add.PTCONT.2814951","rua":"R HENRIQUE VIANA","casa":"6","coordenadas":[38.7677332806714,-9.319930200547162]},{"id":"pt.ine.add.PTCONT.2859618","rua":"R ULMEIRO","casa":"","coordenadas":[38.76770147116871,-9.320401409493071]},{"id":"pt.ine.add.PTCONT.2936800","rua":"R ULMEIRO","casa":"7","coordenadas":[38.7690026709509,-9.319111299159076]},{"id":"pt.ine.add.PTCONT.2936801","rua":"R ULMEIRO","casa":"5","coordenadas":[38.76901319481545,-9.318961895834887]},{"id":"pt.ine.add.PTCONT.2958216","rua":"R PADRE FRANCISCO CRUZ","casa":"13","coordenadas":[38.76913366003981,-9.3186302167303]},{"id":"pt.ine.add.PTCONT.3013104","rua":"R ULMEIRO","casa":"","coordenadas":[38.76793457972642,-9.320508825741165]},{"id":"pt.ine.add.PTCONT.3124438","rua":"R ULMEIRO QTA CHARQUEIRAO","casa":"","coordenadas":[38.7689285311388,-9.320203137130255]},{"id":"pt.ine.add.PTCONT.3170461","rua":"R PADRE FRANCISCO CRUZ","casa":"9","coordenadas":[38.76910206932275,-9.318192466462648]},{"id":"pt.ine.add.PTCONT.3180545","rua":"R PADRE FRANCISCO CRUZ","casa":"7","coordenadas":[38.76909539616618,-9.3179622363963]},{"id":"pt.ine.add.PTCONT.3180546","rua":"R PADRE FRANCISCO CRUZ","casa":"7","coordenadas":[38.76909539616618,-9.3179622363963]},{"id":"pt.ine.add.PTCONT.3190221","rua":"R PADRE FRANCISCO CRUZ","casa":"11","coordenadas":[38.76911809825283,-9.318388333443743]},{"id":"pt.ine.add.PTCONT.3204855","rua":"R PADRE FRANCISCO CRUZ","casa":"5","coordenadas":[38.769079716375536,-9.317731857400267]},{"id":"pt.ine.add.PTCONT.3236076","rua":"R HENRIQUE VIANA","casa":"","coordenadas":[38.76753163943798,-9.320272031299517]},{"id":"pt.ine.add.PTCONT.3419767","rua":"R ULMEIRO","casa":"","coordenadas":[38.7681688570952,-9.320501203772281]}],"ruas":["R ULMEIRO","R PADRE FRANCISCO CRUZ","R HENRIQUE VIANA","R ULMEIRO QTA CHARQUEIRAO"],"centroide":[38.76861152648216,-9.319264747643462]}
+{
+  "CP": "2635-649",
+  "CP4": "2635",
+  "CP3": "649",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Rio de Mouro",
+  "Designação Postal": "RIO DE MOURO",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Francisco Cruz",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Ulmeiro",
+      "Local": "Paiões",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Henrique Viana",
+      "Local": "Paiões",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2418867",
+      "rua": "R ULMEIRO",
+      "casa": "20",
+      "coordenadas": [
+        38.76803867895122,
+        -9.320901749048602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2464589",
+      "rua": "R ULMEIRO",
+      "casa": "11",
+      "coordenadas": [
+        38.76892805272159,
+        -9.319363194553265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2464590",
+      "rua": "R ULMEIRO",
+      "casa": "11",
+      "coordenadas": [
+        38.76892805272159,
+        -9.319363194553265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2468973",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "3",
+      "coordenadas": [
+        38.76908204849016,
+        -9.317501776357341
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2481733",
+      "rua": "R HENRIQUE VIANA",
+      "casa": "",
+      "coordenadas": [
+        38.76761398043287,
+        -9.32014683288802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2489082",
+      "rua": "R ULMEIRO",
+      "casa": "19",
+      "coordenadas": [
+        38.768297281035316,
+        -9.320273215746534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2627008",
+      "rua": "R ULMEIRO",
+      "casa": "13",
+      "coordenadas": [
+        38.768872731057286,
+        -9.319488843687504
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2814951",
+      "rua": "R HENRIQUE VIANA",
+      "casa": "6",
+      "coordenadas": [
+        38.7677332806714,
+        -9.319930200547162
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2859618",
+      "rua": "R ULMEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.76770147116871,
+        -9.320401409493071
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2936800",
+      "rua": "R ULMEIRO",
+      "casa": "7",
+      "coordenadas": [
+        38.7690026709509,
+        -9.319111299159076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2936801",
+      "rua": "R ULMEIRO",
+      "casa": "5",
+      "coordenadas": [
+        38.76901319481545,
+        -9.318961895834887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2958216",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "13",
+      "coordenadas": [
+        38.76913366003981,
+        -9.3186302167303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3013104",
+      "rua": "R ULMEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.76793457972642,
+        -9.320508825741165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3124438",
+      "rua": "R ULMEIRO QTA CHARQUEIRAO",
+      "casa": "",
+      "coordenadas": [
+        38.7689285311388,
+        -9.320203137130255
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3170461",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "9",
+      "coordenadas": [
+        38.76910206932275,
+        -9.318192466462648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3180545",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "7",
+      "coordenadas": [
+        38.76909539616618,
+        -9.3179622363963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3180546",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "7",
+      "coordenadas": [
+        38.76909539616618,
+        -9.3179622363963
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190221",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "11",
+      "coordenadas": [
+        38.76911809825283,
+        -9.318388333443743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3204855",
+      "rua": "R PADRE FRANCISCO CRUZ",
+      "casa": "5",
+      "coordenadas": [
+        38.769079716375536,
+        -9.317731857400267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3236076",
+      "rua": "R HENRIQUE VIANA",
+      "casa": "",
+      "coordenadas": [
+        38.76753163943798,
+        -9.320272031299517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3419767",
+      "rua": "R ULMEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.7681688570952,
+        -9.320501203772281
+      ]
+    }
+  ],
+  "ruas": [
+    "R ULMEIRO",
+    "R PADRE FRANCISCO CRUZ",
+    "R HENRIQUE VIANA",
+    "R ULMEIRO QTA CHARQUEIRAO"
+  ],
+  "centro": [
+    38.768332649738895,
+    -9.31920176270297
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.767816849164184,
+                -9.320626247533378
+              ],
+              [
+                38.76775346922502,
+                -9.320547532814741
+              ],
+              [
+                38.7677222369197,
+                -9.320435372202464
+              ],
+              [
+                38.76772315224822,
+                -9.320289765696543
+              ],
+              [
+                38.76775621521057,
+                -9.320110713296982
+              ],
+              [
+                38.76782142580676,
+                -9.319898215003779
+              ],
+              [
+                38.76791878403677,
+                -9.319652270816931
+              ],
+              [
+                38.76804828990063,
+                -9.319372880736445
+              ],
+              [
+                38.76820994339831,
+                -9.319060044762315
+              ],
+              [
+                38.768403744529834,
+                -9.318713762894543
+              ],
+              [
+                38.76857412695038,
+                -9.31842839814107
+              ],
+              [
+                38.768721090659945,
+                -9.318203950501896
+              ],
+              [
+                38.76884463565854,
+                -9.31804041997702
+              ],
+              [
+                38.76894476194615,
+                -9.317937806566444
+              ],
+              [
+                38.76902146952279,
+                -9.317896110270167
+              ],
+              [
+                38.76907475838845,
+                -9.317915331088189
+              ],
+              [
+                38.76910462854313,
+                -9.31799546902051
+              ],
+              [
+                38.76911107998684,
+                -9.318136524067132
+              ],
+              [
+                38.76911351986101,
+                -9.318284524114173
+              ],
+              [
+                38.76911194816563,
+                -9.318439469161635
+              ],
+              [
+                38.76910636490071,
+                -9.31860135920952
+              ],
+              [
+                38.76909677006624,
+                -9.31877019425783
+              ],
+              [
+                38.769083163662245,
+                -9.318945974306558
+              ],
+              [
+                38.7690655456887,
+                -9.319128699355709
+              ],
+              [
+                38.76904391614562,
+                -9.31931836940528
+              ],
+              [
+                38.76901827503299,
+                -9.319514984455274
+              ],
+              [
+                38.768981935119015,
+                -9.319697938435244
+              ],
+              [
+                38.768934896403685,
+                -9.319867231345189
+              ],
+              [
+                38.768877158887,
+                -9.320022863185107
+              ],
+              [
+                38.768808722568956,
+                -9.320164833955
+              ],
+              [
+                38.76872958744957,
+                -9.320293143654869
+              ],
+              [
+                38.768639753528824,
+                -9.320407792284714
+              ],
+              [
+                38.76853922080673,
+                -9.320508779844532
+              ],
+              [
+                38.76842798928328,
+                -9.320596106334326
+              ],
+              [
+                38.768322739207875,
+                -9.320662677673067
+              ],
+              [
+                38.768223470580494,
+                -9.320708493860751
+              ],
+              [
+                38.76813018340116,
+                -9.320733554897384
+              ],
+              [
+                38.76804287766986,
+                -9.320737860782963
+              ],
+              [
+                38.7679615533866,
+                -9.320721411517487
+              ],
+              [
+                38.767886210551374,
+                -9.32068420710096
+              ],
+              [
+                38.767816849164184,
+                -9.320626247533378
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.7685429116116,
+    -9.319501782113203
+  ],
+  "centroDeMassa": [
+    38.768332649738895,
+    -9.31920176270297
+  ]
+}

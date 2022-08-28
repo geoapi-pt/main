@@ -1,1 +1,414 @@
-{"CP4":"2800","CP3":"077","Distrito":"Setúbal","Concelho":"Almada","CP":"2800-077","Artéria":"Rua Conde de Ferreira","Localidade":"Almada","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALMADA","locais":[{"id":"pt.ine.add.PTCONT.4747585","rua":"R CONDE DE FERREIRA","casa":"11","coordenadas":[38.68174691439236,-9.159860801423903]},{"id":"pt.ine.add.PTCONT.4747586","rua":"R CONDE DE FERREIRA","casa":"11","coordenadas":[38.68174691439236,-9.159860801423903]},{"id":"pt.ine.add.PTCONT.4761706","rua":"R CONDE FERREIRA","casa":"2","coordenadas":[38.681625991545204,-9.160295772873788]},{"id":"pt.ine.add.PTCONT.4843257","rua":"R CONDE DE FERREIRA","casa":"15","coordenadas":[38.68174943621974,-9.15957353468004]},{"id":"pt.ine.add.PTCONT.4843258","rua":"R CONDE DE FERREIRA","casa":"15","coordenadas":[38.68174943621974,-9.15957353468004]},{"id":"pt.ine.add.PTCONT.4843259","rua":"R CONDE DE FERREIRA","casa":"15","coordenadas":[38.68174943621974,-9.15957353468004]},{"id":"pt.ine.add.PTCONT.4843260","rua":"R CONDE DE FERREIRA","casa":"15","coordenadas":[38.68174943621974,-9.15957353468004]},{"id":"pt.ine.add.PTCONT.4909553","rua":"R CONDE DE FERREIRA","casa":"22","coordenadas":[38.681693176278856,-9.159825557185561]},{"id":"pt.ine.add.PTCONT.4909818","rua":"R CONDE DE FERREIRA","casa":"22","coordenadas":[38.681693176278856,-9.159825557185561]},{"id":"pt.ine.add.PTCONT.4939308","rua":"R CONDE DE FERREIRA","casa":"30","coordenadas":[38.6816857834768,-9.159641577927163]},{"id":"pt.ine.add.PTCONT.4942783","rua":"R CONDE DE FERREIRA","casa":"18 20","coordenadas":[38.68169208441565,-9.159901182598247]},{"id":"pt.ine.add.PTCONT.4968048","rua":"R CONDE DE FERREIRA","casa":"4 6","coordenadas":[38.6812924567586,-9.161348272036596]},{"id":"pt.ine.add.PTCONT.4968049","rua":"R CONDE DE FERREIRA","casa":"4 6","coordenadas":[38.6812924567586,-9.161348272036596]},{"id":"pt.ine.add.PTCONT.4968050","rua":"R CONDE DE FERREIRA","casa":"4 6","coordenadas":[38.6812924567586,-9.161348272036596]},{"id":"pt.ine.add.PTCONT.4968051","rua":"R CONDE DE FERREIRA","casa":"4 6","coordenadas":[38.6812924567586,-9.161348272036596]},{"id":"pt.ine.add.PTCONT.4968052","rua":"R CONDE DE FERREIRA","casa":"4 6","coordenadas":[38.6812924567586,-9.161348272036596]},{"id":"pt.ine.add.PTCONT.5015502","rua":"R CONDE DE FERREIRA","casa":"28","coordenadas":[38.68163974078857,-9.159755841044031]},{"id":"pt.ine.add.PTCONT.5048679","rua":"R CONDE DE FERREIRA","casa":"2","coordenadas":[38.681281530149434,-9.161566464333871]},{"id":"pt.ine.add.PTCONT.5077704","rua":"R CONDE DE FERREIRA","casa":"34 40","coordenadas":[38.68166857677323,-9.159549395304282]},{"id":"pt.ine.add.PTCONT.5077705","rua":"R CONDE FERREIRA","casa":"40","coordenadas":[38.68166857677323,-9.159549395304282]},{"id":"pt.ine.add.PTCONT.5080593","rua":"R CONDE FERREIRA","casa":"40","coordenadas":[38.68166857677323,-9.159549395304282]},{"id":"pt.ine.add.PTCONT.5113918","rua":"R CONDE DE FERREIRA","casa":"24 26","coordenadas":[38.68168509096985,-9.159742321580929]}],"ruas":["R CONDE DE FERREIRA","R CONDE FERREIRA"],"centroide":[38.68158433670045,-9.160200820991049]}
+{
+  "CP": "2800-077",
+  "CP4": "2800",
+  "CP3": "077",
+  "Distrito": "Setúbal",
+  "Concelho": "Almada",
+  "Localidade": "Almada",
+  "Designação Postal": "ALMADA",
+  "partes": [
+    {
+      "Artéria": "Rua Conde de Ferreira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4747585",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "11",
+      "coordenadas": [
+        38.68174691439236,
+        -9.159860801423903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4747586",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "11",
+      "coordenadas": [
+        38.68174691439236,
+        -9.159860801423903
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4761706",
+      "rua": "R CONDE FERREIRA",
+      "casa": "2",
+      "coordenadas": [
+        38.681625991545204,
+        -9.160295772873788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4843257",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "15",
+      "coordenadas": [
+        38.68174943621974,
+        -9.15957353468004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4843258",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "15",
+      "coordenadas": [
+        38.68174943621974,
+        -9.15957353468004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4843259",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "15",
+      "coordenadas": [
+        38.68174943621974,
+        -9.15957353468004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4843260",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "15",
+      "coordenadas": [
+        38.68174943621974,
+        -9.15957353468004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4909553",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "22",
+      "coordenadas": [
+        38.681693176278856,
+        -9.159825557185561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4909818",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "22",
+      "coordenadas": [
+        38.681693176278856,
+        -9.159825557185561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4939308",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "30",
+      "coordenadas": [
+        38.6816857834768,
+        -9.159641577927163
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4942783",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "18 20",
+      "coordenadas": [
+        38.68169208441565,
+        -9.159901182598247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968048",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "4 6",
+      "coordenadas": [
+        38.6812924567586,
+        -9.161348272036596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968049",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "4 6",
+      "coordenadas": [
+        38.6812924567586,
+        -9.161348272036596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968050",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "4 6",
+      "coordenadas": [
+        38.6812924567586,
+        -9.161348272036596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968051",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "4 6",
+      "coordenadas": [
+        38.6812924567586,
+        -9.161348272036596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4968052",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "4 6",
+      "coordenadas": [
+        38.6812924567586,
+        -9.161348272036596
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5015502",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "28",
+      "coordenadas": [
+        38.68163974078857,
+        -9.159755841044031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5048679",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "2",
+      "coordenadas": [
+        38.681281530149434,
+        -9.161566464333871
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5077704",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "34 40",
+      "coordenadas": [
+        38.68166857677323,
+        -9.159549395304282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5077705",
+      "rua": "R CONDE FERREIRA",
+      "casa": "40",
+      "coordenadas": [
+        38.68166857677323,
+        -9.159549395304282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5080593",
+      "rua": "R CONDE FERREIRA",
+      "casa": "40",
+      "coordenadas": [
+        38.68166857677323,
+        -9.159549395304282
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5113918",
+      "rua": "R CONDE DE FERREIRA",
+      "casa": "24 26",
+      "coordenadas": [
+        38.68168509096985,
+        -9.159742321580929
+      ]
+    }
+  ],
+  "ruas": [
+    "R CONDE DE FERREIRA",
+    "R CONDE FERREIRA"
+  ],
+  "centro": [
+    38.68151548318458,
+    -9.160557929819078
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.681543308786075,
+                -9.160607028947014
+              ],
+              [
+                38.68148513575572,
+                -9.16082023681076
+              ],
+              [
+                38.68143440508241,
+                -9.161003384436892
+              ],
+              [
+                38.68139111676618,
+                -9.161156471825414
+              ],
+              [
+                38.681355270807,
+                -9.16127949897632
+              ],
+              [
+                38.68132686720489,
+                -9.161372465889613
+              ],
+              [
+                38.681305905959846,
+                -9.161435372565293
+              ],
+              [
+                38.68129238707186,
+                -9.16146821900336
+              ],
+              [
+                38.68128631054094,
+                -9.161471005203815
+              ],
+              [
+                38.68128767636709,
+                -9.161443731166653
+              ],
+              [
+                38.68129474834019,
+                -9.161391758935196
+              ],
+              [
+                38.681307526460266,
+                -9.161315088509443
+              ],
+              [
+                38.68132601072729,
+                -9.16121371988939
+              ],
+              [
+                38.68135020114128,
+                -9.161087653075041
+              ],
+              [
+                38.681380097702224,
+                -9.160936888066395
+              ],
+              [
+                38.681415700410135,
+                -9.160761424863452
+              ],
+              [
+                38.681457009265,
+                -9.16056126346621
+              ],
+              [
+                38.68150402426683,
+                -9.16033640387467
+              ],
+              [
+                38.681546425822276,
+                -9.160140028909819
+              ],
+              [
+                38.68158421393136,
+                -9.159972138571657
+              ],
+              [
+                38.68161738859405,
+                -9.159832732860185
+              ],
+              [
+                38.681645949810374,
+                -9.159721811775398
+              ],
+              [
+                38.68166989758031,
+                -9.159639375317303
+              ],
+              [
+                38.68168923190388,
+                -9.159585423485895
+              ],
+              [
+                38.68170395278108,
+                -9.159559956281177
+              ],
+              [
+                38.68171406021189,
+                -9.159562973703146
+              ],
+              [
+                38.681722864810304,
+                -9.159570102490243
+              ],
+              [
+                38.6817303665763,
+                -9.159581342642467
+              ],
+              [
+                38.6817365655099,
+                -9.159596694159816
+              ],
+              [
+                38.681741461611104,
+                -9.15961615704229
+              ],
+              [
+                38.6817450548799,
+                -9.159639731289893
+              ],
+              [
+                38.68174734531628,
+                -9.159667416902625
+              ],
+              [
+                38.681748332920264,
+                -9.159699213880481
+              ],
+              [
+                38.681748017691845,
+                -9.159735122223465
+              ],
+              [
+                38.68174047023818,
+                -9.159793193006543
+              ],
+              [
+                38.681725690559276,
+                -9.159873426229716
+              ],
+              [
+                38.68170367865512,
+                -9.159975821892985
+              ],
+              [
+                38.68167443452572,
+                -9.160100379996349
+              ],
+              [
+                38.68163795817108,
+                -9.16024710053981
+              ],
+              [
+                38.6815942495912,
+                -9.160415983523365
+              ],
+              [
+                38.681543308786075,
+                -9.160607028947014
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.68154778285867,
+    -9.16037969355574
+  ],
+  "centroDeMassa": [
+    38.68151548318458,
+    -9.160557929819078
+  ]
+}

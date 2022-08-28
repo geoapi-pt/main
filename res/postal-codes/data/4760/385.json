@@ -1,1 +1,427 @@
-{"CP4":"4760","CP3":"385","Distrito":"Braga","Concelho":"Vila Nova de Famalicão","CP":"4760-385","Artéria":"Rua São Miguel-o-Anjo","Localidade":"Vila Nova de Famalicão","Local":"Calendário","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE FAMALICÃO","locais":[{"id":"pt.ine.add.PTCONT.461724","rua":"R S MIGUEL-O-ANJO","casa":"323","coordenadas":[41.3897650694601,-8.528862934268075]},{"id":"pt.ine.add.PTCONT.464753","rua":"R S MIGUEL-O-ANJO","casa":"194","coordenadas":[41.39009031638536,-8.528542084795953]},{"id":"pt.ine.add.PTCONT.470433","rua":"R S MIGUEL-O-ANJO","casa":"639","coordenadas":[41.38902875267076,-8.530891018408894]},{"id":"pt.ine.add.PTCONT.476712","rua":"R S MIGUEL-O-ANJO","casa":"521","coordenadas":[41.38933608020742,-8.530546161049845]},{"id":"pt.ine.add.PTCONT.476713","rua":"R S MIGUEL-O-ANJO","casa":"323","coordenadas":[41.38977427885463,-8.528803208569133]},{"id":"pt.ine.add.PTCONT.479599","rua":"R S MIGUEL-O-ANJO","casa":"96","coordenadas":[41.39063046272216,-8.528569270838233]},{"id":"pt.ine.add.PTCONT.500361","rua":"R S MIGUEL-O-ANJO","casa":"212","coordenadas":[41.3899819008435,-8.528649034974725]},{"id":"pt.ine.add.PTCONT.521118","rua":"R S MIGUEL-O-ANJO","casa":"278","coordenadas":[41.38988150203335,-8.529042985308463]},{"id":"pt.ine.add.PTCONT.527273","rua":"R S MIGUEL-O-ANJO","casa":"611","coordenadas":[41.38908351926463,-8.530676140940368]},{"id":"pt.ine.add.PTCONT.530311","rua":"R S MIGUEL-O-ANJO","casa":"475","coordenadas":[41.38932880968104,-8.530043955201384]},{"id":"pt.ine.add.PTCONT.530312","rua":"R S MIGUEL-O-ANJO","casa":"475","coordenadas":[41.38932880968104,-8.530043955201384]},{"id":"pt.ine.add.PTCONT.544947","rua":"R S MIGUEL-O-ANJO","casa":"505","coordenadas":[41.389229149010454,-8.530222692167303]},{"id":"pt.ine.add.PTCONT.606479","rua":"R S MIGUEL-O-ANJO","casa":"168","coordenadas":[41.390126988856615,-8.528351005025165]},{"id":"pt.ine.add.PTCONT.606480","rua":"R S MIGUEL-O-ANJO","casa":"250","coordenadas":[41.38996311213736,-8.528876091635386]},{"id":"pt.ine.add.PTCONT.609657","rua":"R S MIGUEL-O-ANJO","casa":"437","coordenadas":[41.38941967237068,-8.529805382978026]},{"id":"pt.ine.add.PTCONT.615415","rua":"R S MIGUEL-O-ANJO","casa":"169","coordenadas":[41.389757545171534,-8.528432461595845]},{"id":"pt.ine.add.PTCONT.617576","rua":"R S MIGUEL O ANJO","casa":"621","coordenadas":[41.389047090889754,-8.530795480777794]},{"id":"pt.ine.add.PTCONT.617577","rua":"R S MIGUEL O ANJO","casa":"221","coordenadas":[41.389047090889754,-8.530795480777794]},{"id":"pt.ine.add.PTCONT.665006","rua":"R S MIGUEL-O-ANJO","casa":"665","coordenadas":[41.38896522996177,-8.531034105149455]},{"id":"pt.ine.add.PTCONT.679838","rua":"R S MIGUEL-O-ANJO","casa":"128","coordenadas":[41.390334158596175,-8.528328346965136]},{"id":"pt.ine.add.PTCONT.721977","rua":"R S MIGUEL-O-ANJO","casa":"277","coordenadas":[41.38970134357475,-8.529065804845283]},{"id":"pt.ine.add.PTCONT.751689","rua":"R S MIGUEL-O-ANJO","casa":"744","coordenadas":[41.38872926917521,-8.531570691681164]},{"id":"pt.ine.add.PTCONT.763398","rua":"R S MIGUEL-O-ANJO","casa":"368","coordenadas":[41.38975367859255,-8.529556330931191]},{"id":"pt.ine.add.PTCONT.781755","rua":"R S MIGUEL-O-ANJO","casa":"61","coordenadas":[41.390047924365874,-8.527776620877587]},{"id":"pt.ine.add.PTCONT.822859","rua":"R S MIGUEL O ANJO","casa":"585","coordenadas":[41.389119864922314,-8.530580712844927]},{"id":"pt.ine.add.PTCONT.822860","rua":"R S MIGUEL O ANJO","casa":"585","coordenadas":[41.389119864922314,-8.530580712844927]},{"id":"pt.ine.add.PTCONT.846774","rua":"R S MIGUEL-O-ANJO","casa":"368","coordenadas":[41.38975367859255,-8.529556330931191]}],"ruas":["R S MIGUEL-O-ANJO","R S MIGUEL O ANJO"],"centroide":[41.38956121097081,-8.529632410409747]}
+{
+  "CP": "4760-385",
+  "CP4": "4760",
+  "CP3": "385",
+  "Distrito": "Braga",
+  "Concelho": "Vila Nova de Famalicão",
+  "Localidade": "Vila Nova de Famalicão",
+  "Designação Postal": "VILA NOVA DE FAMALICÃO",
+  "partes": [
+    {
+      "Artéria": "Rua São Miguel-o-Anjo",
+      "Local": "Calendário",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.461724",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "323",
+      "coordenadas": [
+        41.3897650694601,
+        -8.528862934268075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.464753",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "194",
+      "coordenadas": [
+        41.39009031638536,
+        -8.528542084795953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.470433",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "639",
+      "coordenadas": [
+        41.38902875267076,
+        -8.530891018408894
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.476712",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "521",
+      "coordenadas": [
+        41.38933608020742,
+        -8.530546161049845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.476713",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "323",
+      "coordenadas": [
+        41.38977427885463,
+        -8.528803208569133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.479599",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "96",
+      "coordenadas": [
+        41.39063046272216,
+        -8.528569270838233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.500361",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "212",
+      "coordenadas": [
+        41.3899819008435,
+        -8.528649034974725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.521118",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "278",
+      "coordenadas": [
+        41.38988150203335,
+        -8.529042985308463
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.527273",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "611",
+      "coordenadas": [
+        41.38908351926463,
+        -8.530676140940368
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.530311",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "475",
+      "coordenadas": [
+        41.38932880968104,
+        -8.530043955201384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.530312",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "475",
+      "coordenadas": [
+        41.38932880968104,
+        -8.530043955201384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.544947",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "505",
+      "coordenadas": [
+        41.389229149010454,
+        -8.530222692167303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.606479",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "168",
+      "coordenadas": [
+        41.390126988856615,
+        -8.528351005025165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.606480",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "250",
+      "coordenadas": [
+        41.38996311213736,
+        -8.528876091635386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.609657",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "437",
+      "coordenadas": [
+        41.38941967237068,
+        -8.529805382978026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.615415",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "169",
+      "coordenadas": [
+        41.389757545171534,
+        -8.528432461595845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.617576",
+      "rua": "R S MIGUEL O ANJO",
+      "casa": "621",
+      "coordenadas": [
+        41.389047090889754,
+        -8.530795480777794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.617577",
+      "rua": "R S MIGUEL O ANJO",
+      "casa": "221",
+      "coordenadas": [
+        41.389047090889754,
+        -8.530795480777794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.665006",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "665",
+      "coordenadas": [
+        41.38896522996177,
+        -8.531034105149455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.679838",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "128",
+      "coordenadas": [
+        41.390334158596175,
+        -8.528328346965136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.721977",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "277",
+      "coordenadas": [
+        41.38970134357475,
+        -8.529065804845283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.751689",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "744",
+      "coordenadas": [
+        41.38872926917521,
+        -8.531570691681164
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.763398",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "368",
+      "coordenadas": [
+        41.38975367859255,
+        -8.529556330931191
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.781755",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "61",
+      "coordenadas": [
+        41.390047924365874,
+        -8.527776620877587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.822859",
+      "rua": "R S MIGUEL O ANJO",
+      "casa": "585",
+      "coordenadas": [
+        41.389119864922314,
+        -8.530580712844927
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.822860",
+      "rua": "R S MIGUEL O ANJO",
+      "casa": "585",
+      "coordenadas": [
+        41.389119864922314,
+        -8.530580712844927
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.846774",
+      "rua": "R S MIGUEL-O-ANJO",
+      "casa": "368",
+      "coordenadas": [
+        41.38975367859255,
+        -8.529556330931191
+      ]
+    }
+  ],
+  "ruas": [
+    "R S MIGUEL-O-ANJO",
+    "R S MIGUEL O ANJO"
+  ],
+  "centro": [
+    41.38967986594868,
+    -8.529673656279375
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.38979869054536,
+                -8.529882392457015
+              ],
+              [
+                41.389561041351996,
+                -8.530257570062382
+              ],
+              [
+                41.38936916512024,
+                -8.530536815621993
+              ],
+              [
+                41.3892230618501,
+                -8.530720129135853
+              ],
+              [
+                41.389122731541576,
+                -8.530807510603957
+              ],
+              [
+                41.38906817419466,
+                -8.530798960026308
+              ],
+              [
+                41.38905938980936,
+                -8.530694477402905
+              ],
+              [
+                41.38909637838567,
+                -8.530494062733748
+              ],
+              [
+                41.3891791399236,
+                -8.530197716018838
+              ],
+              [
+                41.38930767442314,
+                -8.52980543725817
+              ],
+              [
+                41.38942467928514,
+                -8.529451945831365
+              ],
+              [
+                41.38953015450963,
+                -8.529137241738422
+              ],
+              [
+                41.389624100096576,
+                -8.528861324979339
+              ],
+              [
+                41.38970651604599,
+                -8.528624195554116
+              ],
+              [
+                41.38977740235788,
+                -8.528425853462753
+              ],
+              [
+                41.38983675903223,
+                -8.528266298705251
+              ],
+              [
+                41.38988458606906,
+                -8.528145531281607
+              ],
+              [
+                41.38992088346835,
+                -8.528063551191824
+              ],
+              [
+                41.38996174585455,
+                -8.5280042037689
+              ],
+              [
+                41.39000717322766,
+                -8.527967489012834
+              ],
+              [
+                41.39005716558766,
+                -8.527953406923626
+              ],
+              [
+                41.39011172293458,
+                -8.527961957501274
+              ],
+              [
+                41.3901708452684,
+                -8.527993140745782
+              ],
+              [
+                41.39023453258912,
+                -8.528046956657146
+              ],
+              [
+                41.39030278489675,
+                -8.52812340523537
+              ],
+              [
+                41.390375602191284,
+                -8.52822248648045
+              ],
+              [
+                41.390409611174825,
+                -8.528356079770568
+              ],
+              [
+                41.39040481184739,
+                -8.528524185105718
+              ],
+              [
+                41.39036120420896,
+                -8.528726802485906
+              ],
+              [
+                41.39027878825954,
+                -8.528963931911132
+              ],
+              [
+                41.39015756399914,
+                -8.529235573381392
+              ],
+              [
+                41.38999753142774,
+                -8.529541726896685
+              ],
+              [
+                41.38979869054536,
+                -8.529882392457015
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.389791300358695,
+    -8.529087261248208
+  ],
+  "centroDeMassa": [
+    41.38967986594868,
+    -8.529673656279375
+  ]
+}

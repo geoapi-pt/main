@@ -1,1 +1,383 @@
-{"CP4":"7350","CP3":"128","Distrito":"Portalegre","Concelho":"Elvas","CP":"7350-128","Artéria":"Rua António Victorino D'Almeida","Localidade":"Elvas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ELVAS","locais":[{"id":"pt.ine.add.PTCONT.3464599","rua":"R COR ANTÓNIO ANDRADE E SILVA","casa":"5","coordenadas":[38.86783994783483,-7.163036222418204]},{"id":"pt.ine.add.PTCONT.3467006","rua":"R ANTONIO JOSE TORRES DE CARVALHO","casa":"8 69","coordenadas":[38.870390987170154,-7.162538646825382]},{"id":"pt.ine.add.PTCONT.3467007","rua":"R ANTONIO JOSE TORRES DE CARVALHO","casa":"8 69","coordenadas":[38.870390987170154,-7.162538646825382]},{"id":"pt.ine.add.PTCONT.3467008","rua":"R ANTÓNIO JOSÉ TORRES DE CARVALHO","casa":"4","coordenadas":[38.870390987170154,-7.162538646825382]},{"id":"pt.ine.add.PTCONT.3467346","rua":"R ANTONIO JOSE TORRES DE CARVALHO","casa":"6","coordenadas":[38.870390987170154,-7.162538646825382]},{"id":"pt.ine.add.PTCONT.3471853","rua":"R COR ANTÓNIO ANDRADE E SILVA","casa":"3","coordenadas":[38.86809209153599,-7.16314692180647]},{"id":"pt.ine.add.PTCONT.3497281","rua":"R COR ANTÓNIO ANDRADE E SILVA","casa":"","coordenadas":[38.868192930144936,-7.163238822964226]},{"id":"pt.ine.add.PTCONT.3511124","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86943991275965,-7.161486227032557]},{"id":"pt.ine.add.PTCONT.3511511","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86943991275965,-7.161486227032557]},{"id":"pt.ine.add.PTCONT.3511512","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86943991275965,-7.161486227032557]},{"id":"pt.ine.add.PTCONT.3511513","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86943991275965,-7.161486227032557]},{"id":"pt.ine.add.PTCONT.3511514","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86943991275965,-7.161486227032557]},{"id":"pt.ine.add.PTCONT.3514842","rua":"R COR ANTÓNIO ANDRADE E SILVA","casa":"9","coordenadas":[38.86767687083238,-7.162923218506597]},{"id":"pt.ine.add.PTCONT.3530869","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86941185008344,-7.161779967301038]},{"id":"pt.ine.add.PTCONT.3530870","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86941185008344,-7.161779967301038]},{"id":"pt.ine.add.PTCONT.3530871","rua":"R D AUGUSTO EDUARDO NUNES","casa":"","coordenadas":[38.86941185008344,-7.161779967301038]}],"ruas":["R COR ANTÓNIO ANDRADE E SILVA","R ANTONIO JOSE TORRES DE CARVALHO","R ANTÓNIO JOSÉ TORRES DE CARVALHO","R D AUGUSTO EDUARDO NUNES"],"centroide":[38.869292603532934,-7.162232722850792]}2934,-7.162232722850792]}
+{
+  "CP": "7350-128",
+  "CP4": "7350",
+  "CP3": "128",
+  "Distrito": "Portalegre",
+  "Concelho": "Elvas",
+  "Localidade": "Elvas",
+  "Designação Postal": "ELVAS",
+  "partes": [
+    {
+      "Artéria": "Rua António José Torres de Carvalho",
+      "Local": "Bairro de São Pedro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Dom Augusto Eduardo Nunes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Coronel Andrade e Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Victorino D'Almeida",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3464599",
+      "rua": "R COR ANTÓNIO ANDRADE E SILVA",
+      "casa": "5",
+      "coordenadas": [
+        38.86783994783483,
+        -7.163036222418204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3467006",
+      "rua": "R ANTONIO JOSE TORRES DE CARVALHO",
+      "casa": "8 69",
+      "coordenadas": [
+        38.870390987170154,
+        -7.162538646825382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3467007",
+      "rua": "R ANTONIO JOSE TORRES DE CARVALHO",
+      "casa": "8 69",
+      "coordenadas": [
+        38.870390987170154,
+        -7.162538646825382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3467008",
+      "rua": "R ANTÓNIO JOSÉ TORRES DE CARVALHO",
+      "casa": "4",
+      "coordenadas": [
+        38.870390987170154,
+        -7.162538646825382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3467346",
+      "rua": "R ANTONIO JOSE TORRES DE CARVALHO",
+      "casa": "6",
+      "coordenadas": [
+        38.870390987170154,
+        -7.162538646825382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3471853",
+      "rua": "R COR ANTÓNIO ANDRADE E SILVA",
+      "casa": "3",
+      "coordenadas": [
+        38.86809209153599,
+        -7.16314692180647
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3497281",
+      "rua": "R COR ANTÓNIO ANDRADE E SILVA",
+      "casa": "",
+      "coordenadas": [
+        38.868192930144936,
+        -7.163238822964226
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511124",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86943991275965,
+        -7.161486227032557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511511",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86943991275965,
+        -7.161486227032557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511512",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86943991275965,
+        -7.161486227032557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511513",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86943991275965,
+        -7.161486227032557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3511514",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86943991275965,
+        -7.161486227032557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3514842",
+      "rua": "R COR ANTÓNIO ANDRADE E SILVA",
+      "casa": "9",
+      "coordenadas": [
+        38.86767687083238,
+        -7.162923218506597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530869",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86941185008344,
+        -7.161779967301038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530870",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86941185008344,
+        -7.161779967301038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3530871",
+      "rua": "R D AUGUSTO EDUARDO NUNES",
+      "casa": "",
+      "coordenadas": [
+        38.86941185008344,
+        -7.161779967301038
+      ]
+    }
+  ],
+  "ruas": [
+    "R COR ANTÓNIO ANDRADE E SILVA",
+    "R ANTONIO JOSE TORRES DE CARVALHO",
+    "R ANTÓNIO JOSÉ TORRES DE CARVALHO",
+    "R D AUGUSTO EDUARDO NUNES"
+  ],
+  "centro": [
+    38.86903392900127,
+    -7.162362524998391
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.86776860164626,
+                -7.162986783206876
+              ],
+              [
+                38.86774821702095,
+                -7.162972657717925
+              ],
+              [
+                38.867757928003925,
+                -7.162937844923311
+              ],
+              [
+                38.86779773459517,
+                -7.162882344823034
+              ],
+              [
+                38.8678676367947,
+                -7.162806157417094
+              ],
+              [
+                38.86796763460249,
+                -7.162709282705491
+              ],
+              [
+                38.868097728018576,
+                -7.162591720688225
+              ],
+              [
+                38.86825791704293,
+                -7.162453471365296
+              ],
+              [
+                38.86844820167556,
+                -7.162294534736705
+              ],
+              [
+                38.86866858191647,
+                -7.162114910802449
+              ],
+              [
+                38.86887627516493,
+                -7.16197418391924
+              ],
+              [
+                38.86907128142094,
+                -7.161872354087073
+              ],
+              [
+                38.8692536006845,
+                -7.161809421305953
+              ],
+              [
+                38.86942323295561,
+                -7.161785385575877
+              ],
+              [
+                38.86958017823427,
+                -7.161800246896846
+              ],
+              [
+                38.869724436520485,
+                -7.161854005268859
+              ],
+              [
+                38.86985600781425,
+                -7.1619466606919175
+              ],
+              [
+                38.86997489211556,
+                -7.162078213166022
+              ],
+              [
+                38.87004457123818,
+                -7.162204261833032
+              ],
+              [
+                38.87006504518213,
+                -7.162324806692948
+              ],
+              [
+                38.870036313947395,
+                -7.1624398477457705
+              ],
+              [
+                38.869958377533976,
+                -7.1625493849914985
+              ],
+              [
+                38.869831235941874,
+                -7.162653418430134
+              ],
+              [
+                38.86965488917109,
+                -7.162751948061677
+              ],
+              [
+                38.86942933722162,
+                -7.162844973886126
+              ],
+              [
+                38.869154580093465,
+                -7.1629324959034815
+              ],
+              [
+                38.86890865225774,
+                -7.163005912035136
+              ],
+              [
+                38.86869155371443,
+                -7.16306522228109
+              ],
+              [
+                38.86850328446355,
+                -7.163110426641342
+              ],
+              [
+                38.86834384450509,
+                -7.163141525115894
+              ],
+              [
+                38.86821323383906,
+                -7.163158517704744
+              ],
+              [
+                38.86811145246545,
+                -7.1631614044078935
+              ],
+              [
+                38.868038500384266,
+                -7.163150185225342
+              ],
+              [
+                38.8679943775955,
+                -7.1631248601570885
+              ],
+              [
+                38.867953222077176,
+                -7.163100935036249
+              ],
+              [
+                38.86791503382928,
+                -7.163078409862821
+              ],
+              [
+                38.86787981285181,
+                -7.163057284636807
+              ],
+              [
+                38.86784755914477,
+                -7.163037559358205
+              ],
+              [
+                38.86781827270817,
+                -7.163019234027016
+              ],
+              [
+                38.867791953541996,
+                -7.1630023086432395
+              ],
+              [
+                38.86776860164626,
+                -7.162986783206876
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.868708129748384,
+    -7.162644627549393
+  ],
+  "centroDeMassa": [
+    38.86903392900127,
+    -7.162362524998391
+  ]
+}

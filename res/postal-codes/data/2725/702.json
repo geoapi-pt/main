@@ -1,1 +1,345 @@
-{"CP4":"2725","CP3":"702","Distrito":"Lisboa","Concelho":"Sintra","CP":"2725-702","Artéria":"Rua Armando Cortez","Localidade":"Algueirão","Local":"Bairro Coopalme","Troço":"","Porta":"","Cliente":"","Designação Postal":"MEM MARTINS","locais":[{"id":"pt.ine.add.PTCONT.2320722","rua":"R RUA VARELA SILVA","casa":"388","coordenadas":[38.80425635499759,-9.35172091327331]},{"id":"pt.ine.add.PTCONT.2463083","rua":"URB COOPALME","casa":"385","coordenadas":[38.80413183140489,-9.351569141255709]},{"id":"pt.ine.add.PTCONT.2508793","rua":"URB COOPALME","casa":"387","coordenadas":[38.804220931197435,-9.351662751784291]},{"id":"pt.ine.add.PTCONT.2698816","rua":"URB COOPALME","casa":"386","coordenadas":[38.8041946334221,-9.35159323421154]},{"id":"pt.ine.add.PTCONT.2770171","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770172","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770173","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770174","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770175","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770300","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770301","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770302","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770303","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770304","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2770543","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.2772866","rua":"PCT PAULO RENATO","casa":"6","coordenadas":[38.80428865300679,-9.352941694379545]},{"id":"pt.ine.add.PTCONT.3124008","rua":"URB COOPALME","casa":"389","coordenadas":[38.80430979079338,-9.351779381688221]}],"ruas":["R RUA VARELA SILVA","URB COOPALME","PCT PAULO RENATO"],"centroide":[38.804266724193965,-9.352615398317466]}]}
+{
+  "CP": "2725-702",
+  "CP4": "2725",
+  "CP3": "702",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Algueirão",
+  "Designação Postal": "MEM MARTINS",
+  "partes": [
+    {
+      "Artéria": "Praceta Paulo Renato",
+      "Local": "Bairro Coopalme",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Armando Cortez",
+      "Local": "Bairro Coopalme",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2320722",
+      "rua": "R RUA VARELA SILVA",
+      "casa": "388",
+      "coordenadas": [
+        38.80425635499759,
+        -9.35172091327331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2463083",
+      "rua": "URB COOPALME",
+      "casa": "385",
+      "coordenadas": [
+        38.80413183140489,
+        -9.351569141255709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2508793",
+      "rua": "URB COOPALME",
+      "casa": "387",
+      "coordenadas": [
+        38.804220931197435,
+        -9.351662751784291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2698816",
+      "rua": "URB COOPALME",
+      "casa": "386",
+      "coordenadas": [
+        38.8041946334221,
+        -9.35159323421154
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770171",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770172",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770173",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770174",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770175",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770300",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770301",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770302",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770303",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770304",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2770543",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2772866",
+      "rua": "PCT PAULO RENATO",
+      "casa": "6",
+      "coordenadas": [
+        38.80428865300679,
+        -9.352941694379545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3124008",
+      "rua": "URB COOPALME",
+      "casa": "389",
+      "coordenadas": [
+        38.80430979079338,
+        -9.351779381688221
+      ]
+    }
+  ],
+  "ruas": [
+    "R RUA VARELA SILVA",
+    "URB COOPALME",
+    "PCT PAULO RENATO"
+  ],
+  "centro": [
+    38.804220811099135,
+    -9.352255417817627
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.804220043555965,
+                -9.352341202387867
+              ],
+              [
+                38.804200440855716,
+                -9.352169633247387
+              ],
+              [
+                38.804184269774524,
+                -9.352019886701902
+              ],
+              [
+                38.80417153031239,
+                -9.351891962751413
+              ],
+              [
+                38.8041622224693,
+                -9.351785861395918
+              ],
+              [
+                38.804156346245264,
+                -9.351701582635418
+              ],
+              [
+                38.80415390164026,
+                -9.351639126469912
+              ],
+              [
+                38.80415488865432,
+                -9.3515984928994
+              ],
+              [
+                38.80415930728742,
+                -9.351579681923885
+              ],
+              [
+                38.80416715753957,
+                -9.351582693543364
+              ],
+              [
+                38.804175825844126,
+                -9.351588237264732
+              ],
+              [
+                38.8041853122011,
+                -9.351596313087986
+              ],
+              [
+                38.80419561661047,
+                -9.35160692101313
+              ],
+              [
+                38.80420673907224,
+                -9.351620061040162
+              ],
+              [
+                38.804218679586434,
+                -9.351635733169081
+              ],
+              [
+                38.80423143815303,
+                -9.35165393739989
+              ],
+              [
+                38.804245014772036,
+                -9.351674673732587
+              ],
+              [
+                38.804259409443446,
+                -9.351697942167172
+              ],
+              [
+                38.80427167450301,
+                -9.351736463183236
+              ],
+              [
+                38.804281809950744,
+                -9.35179023678078
+              ],
+              [
+                38.80428981578663,
+                -9.3518592629598
+              ],
+              [
+                38.80429569201067,
+                -9.351943541720301
+              ],
+              [
+                38.80429943862288,
+                -9.35204307306228
+              ],
+              [
+                38.804301055623235,
+                -9.352157856985738
+              ],
+              [
+                38.80430054301175,
+                -9.352287893490676
+              ],
+              [
+                38.80429790078843,
+                -9.35243318257709
+              ],
+              [
+                38.804293138505486,
+                -9.352538864385146
+              ],
+              [
+                38.80428625616293,
+                -9.352604938914837
+              ],
+              [
+                38.804277253760766,
+                -9.352631406166166
+              ],
+              [
+                38.80426613129899,
+                -9.352618266139135
+              ],
+              [
+                38.80425288877759,
+                -9.35256551883374
+              ],
+              [
+                38.80423752619659,
+                -9.352473164249986
+              ],
+              [
+                38.804220043555965,
+                -9.352341202387867
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.80423122715679,
+    -9.351970862883753
+  ],
+  "centroDeMassa": [
+    38.804220811099135,
+    -9.352255417817627
+  ]
+}

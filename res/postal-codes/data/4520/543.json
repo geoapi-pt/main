@@ -1,1 +1,579 @@
-{"CP4":"4520","CP3":"543","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4520-543","Artéria":"Rua Julieta Aguiar Neves","Localidade":"Sanfins","Local":"Carvalhosa","Troço":"","Porta":"","Cliente":"","Designação Postal":"SANFINS VFR","locais":[{"id":"pt.ine.add.PTCONT.301302","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"3","coordenadas":[40.93172979725005,-8.513329530896046]},{"id":"pt.ine.add.PTCONT.306372","rua":"R JULIETA AGUIAR NEVES","casa":"18","coordenadas":[40.93243876572446,-8.514057877672304]},{"id":"pt.ine.add.PTCONT.35793","rua":"R JULIETA AGUIAR NEVES","casa":"12","coordenadas":[40.93207917225717,-8.513877710958138]},{"id":"pt.ine.add.PTCONT.38594","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"13","coordenadas":[40.93234108788993,-8.513641745419404]},{"id":"pt.ine.add.PTCONT.41307","rua":"R JULIETA AGUIAR NEVES","casa":"4","coordenadas":[40.93155788850016,-8.513577885147734]},{"id":"pt.ine.add.PTCONT.41308","rua":"R JULIETA AGUIAR NEVES","casa":"4","coordenadas":[40.93155788850016,-8.513577885147734]},{"id":"pt.ine.add.PTCONT.54619","rua":"R JULIETA AGUIAR NEVES","casa":"8","coordenadas":[40.93180058018223,-8.513709884397205]},{"id":"pt.ine.add.PTCONT.54620","rua":"R JULIETA AGUIAR NEVES","casa":"8","coordenadas":[40.93180058018223,-8.513709884397205]},{"id":"pt.ine.add.PTCONT.54621","rua":"R JULIETA AGUIAR NEVES","casa":"6","coordenadas":[40.93180058018223,-8.513709884397205]},{"id":"pt.ine.add.PTCONT.96663","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"1","coordenadas":[40.93160408592737,-8.513221950236346]},{"id":"pt.ine.add.PTCONT.111136","rua":"R JULIETA AGUIAR NEVES","casa":"14","coordenadas":[40.93219619210784,-8.513890256229512]},{"id":"pt.ine.add.PTCONT.121812","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"9","coordenadas":[40.93209827864507,-8.513545364911705]},{"id":"pt.ine.add.PTCONT.121813","rua":"R PROF JULIETA AGUIAR NEVES","casa":"","coordenadas":[40.93209827864507,-8.513545364911705]},{"id":"pt.ine.add.PTCONT.125731","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"15","coordenadas":[40.932457794253565,-8.513749276397995]},{"id":"pt.ine.add.PTCONT.148285","rua":"R JULIETA AGUIAR NEVES","casa":"10","coordenadas":[40.931926487025244,-8.51375810048233]},{"id":"pt.ine.add.PTCONT.156873","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"11","coordenadas":[40.932188206555004,-8.513581501061575]},{"id":"pt.ine.add.PTCONT.156874","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"11","coordenadas":[40.932188206555004,-8.513581501061575]},{"id":"pt.ine.add.PTCONT.209509","rua":"R JULIETA AGUIAR NEVES","casa":"6","coordenadas":[40.931647738049094,-8.51363776726928]},{"id":"pt.ine.add.PTCONT.223317","rua":"R JULIETA AGUIAR NEVES","casa":"22","coordenadas":[40.93278923659988,-8.514273614558054]},{"id":"pt.ine.add.PTCONT.223318","rua":"R JULIETA AGUIAR NEVES","casa":"16","coordenadas":[40.93231281980132,-8.514021533871533]},{"id":"pt.ine.add.PTCONT.233989","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"7","coordenadas":[40.93198161124031,-8.51342596170435]},{"id":"pt.ine.add.PTCONT.243529","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"19","coordenadas":[40.932781369729135,-8.513929236641347]},{"id":"pt.ine.add.PTCONT.253006","rua":"R JULIETA AGUIAR NEVES","casa":"20","coordenadas":[40.9325645939399,-8.514129841444822]},{"id":"pt.ine.add.PTCONT.272047","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"17","coordenadas":[40.93260167094865,-8.513809469703109]},{"id":"pt.ine.add.PTCONT.272048","rua":"R PROF JULIETA AGUIAR DAS NEVES","casa":"17","coordenadas":[40.93260167094865,-8.513809469703109]},{"id":"pt.ine.add.PTCONT.272050","rua":"R JULIETA AGUIAR NEVES","casa":"2","coordenadas":[40.93142305536441,-8.513505871881641]}],"ruas":["R PROF JULIETA AGUIAR DAS NEVES","R JULIETA AGUIAR NEVES","R PROF JULIETA AGUIAR NEVES"],"centroide":[40.93212578326558,-8.513724099944852]}
+{
+  "CP": "4520-543",
+  "CP4": "4520",
+  "CP3": "543",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Sanfins",
+  "Designação Postal": "SANFINS VFR",
+  "partes": [
+    {
+      "Artéria": "Rua Julieta Aguiar Neves",
+      "Local": "Carvalhosa",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.301302",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "3",
+      "coordenadas": [
+        40.93172979725005,
+        -8.513329530896046
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.306372",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "18",
+      "coordenadas": [
+        40.93243876572446,
+        -8.514057877672304
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35793",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "12",
+      "coordenadas": [
+        40.93207917225717,
+        -8.513877710958138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.38594",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "13",
+      "coordenadas": [
+        40.93234108788993,
+        -8.513641745419404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41307",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "4",
+      "coordenadas": [
+        40.93155788850016,
+        -8.513577885147734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.41308",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "4",
+      "coordenadas": [
+        40.93155788850016,
+        -8.513577885147734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54619",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "8",
+      "coordenadas": [
+        40.93180058018223,
+        -8.513709884397205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54620",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "8",
+      "coordenadas": [
+        40.93180058018223,
+        -8.513709884397205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.54621",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "6",
+      "coordenadas": [
+        40.93180058018223,
+        -8.513709884397205
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.96663",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "1",
+      "coordenadas": [
+        40.93160408592737,
+        -8.513221950236346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.111136",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "14",
+      "coordenadas": [
+        40.93219619210784,
+        -8.513890256229512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.121812",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "9",
+      "coordenadas": [
+        40.93209827864507,
+        -8.513545364911705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.121813",
+      "rua": "R PROF JULIETA AGUIAR NEVES",
+      "casa": "",
+      "coordenadas": [
+        40.93209827864507,
+        -8.513545364911705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.125731",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "15",
+      "coordenadas": [
+        40.932457794253565,
+        -8.513749276397995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.148285",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "10",
+      "coordenadas": [
+        40.931926487025244,
+        -8.51375810048233
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.156873",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "11",
+      "coordenadas": [
+        40.932188206555004,
+        -8.513581501061575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.156874",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "11",
+      "coordenadas": [
+        40.932188206555004,
+        -8.513581501061575
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.209509",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "6",
+      "coordenadas": [
+        40.931647738049094,
+        -8.51363776726928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.223317",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "22",
+      "coordenadas": [
+        40.93278923659988,
+        -8.514273614558054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.223318",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "16",
+      "coordenadas": [
+        40.93231281980132,
+        -8.514021533871533
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.233989",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "7",
+      "coordenadas": [
+        40.93198161124031,
+        -8.51342596170435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.243529",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "19",
+      "coordenadas": [
+        40.932781369729135,
+        -8.513929236641347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.253006",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "20",
+      "coordenadas": [
+        40.9325645939399,
+        -8.514129841444822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.272047",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "17",
+      "coordenadas": [
+        40.93260167094865,
+        -8.513809469703109
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.272048",
+      "rua": "R PROF JULIETA AGUIAR DAS NEVES",
+      "casa": "17",
+      "coordenadas": [
+        40.93260167094865,
+        -8.513809469703109
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.272050",
+      "rua": "R JULIETA AGUIAR NEVES",
+      "casa": "2",
+      "coordenadas": [
+        40.93142305536441,
+        -8.513505871881641
+      ]
+    }
+  ],
+  "ruas": [
+    "R PROF JULIETA AGUIAR DAS NEVES",
+    "R JULIETA AGUIAR NEVES",
+    "R PROF JULIETA AGUIAR NEVES"
+  ],
+  "centro": [
+    40.93210614598215,
+    -8.5137477823972
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.93154943937454,
+                -8.513580063037187
+              ],
+              [
+                40.93152135403896,
+                -8.513563576113734
+              ],
+              [
+                40.93149960797287,
+                -8.513544713780004
+              ],
+              [
+                40.931484201176275,
+                -8.513523476035996
+              ],
+              [
+                40.93147513364917,
+                -8.513499862881712
+              ],
+              [
+                40.93147240539156,
+                -8.513473874317157
+              ],
+              [
+                40.93147601640345,
+                -8.513445510342322
+              ],
+              [
+                40.93148596668483,
+                -8.513414770957212
+              ],
+              [
+                40.9315022562357,
+                -8.513381656161826
+              ],
+              [
+                40.93152488505608,
+                -8.513346165956161
+              ],
+              [
+                40.931550584106915,
+                -8.513318299705395
+              ],
+              [
+                40.931579353388216,
+                -8.513298057409523
+              ],
+              [
+                40.93161119289999,
+                -8.513285439068547
+              ],
+              [
+                40.93164610264223,
+                -8.513280444682469
+              ],
+              [
+                40.93168408261495,
+                -8.513283074251284
+              ],
+              [
+                40.93172513281813,
+                -8.513293327774992
+              ],
+              [
+                40.93176925325178,
+                -8.513311205253597
+              ],
+              [
+                40.9318164439159,
+                -8.513336706687099
+              ],
+              [
+                40.93186335256965,
+                -8.513362392061959
+              ],
+              [
+                40.931909979213046,
+                -8.51338826137818
+              ],
+              [
+                40.931956323846066,
+                -8.513414314635762
+              ],
+              [
+                40.932002386468724,
+                -8.513440551834703
+              ],
+              [
+                40.93204816708102,
+                -8.513466972975005
+              ],
+              [
+                40.932093665682956,
+                -8.513493578056666
+              ],
+              [
+                40.93213888227452,
+                -8.513520367079687
+              ],
+              [
+                40.93218381685572,
+                -8.513547340044068
+              ],
+              [
+                40.93222720622457,
+                -8.513573562079834
+              ],
+              [
+                40.93226905038105,
+                -8.513599033186988
+              ],
+              [
+                40.93230934932518,
+                -8.513623753365525
+              ],
+              [
+                40.93234810305695,
+                -8.513647722615445
+              ],
+              [
+                40.93238531157637,
+                -8.513670940936754
+              ],
+              [
+                40.93242097488342,
+                -8.513693408329447
+              ],
+              [
+                40.93245509297812,
+                -8.513715124793524
+              ],
+              [
+                40.932487665860464,
+                -8.513736090328988
+              ],
+              [
+                40.932518974925955,
+                -8.51375630653093
+              ],
+              [
+                40.9325490201746,
+                -8.513775773399345
+              ],
+              [
+                40.93257780160639,
+                -8.51379449093424
+              ],
+              [
+                40.932605319221345,
+                -8.513812459135611
+              ],
+              [
+                40.93263157301944,
+                -8.51382967800346
+              ],
+              [
+                40.9326565630007,
+                -8.513846147537786
+              ],
+              [
+                40.93268028916511,
+                -8.513861867738589
+              ],
+              [
+                40.93270275151267,
+                -8.513876838605869
+              ],
+              [
+                40.932722528986645,
+                -8.513895319019689
+              ],
+              [
+                40.93273962158703,
+                -8.513917308980044
+              ],
+              [
+                40.93275402931382,
+                -8.513942808486942
+              ],
+              [
+                40.93276575216702,
+                -8.513971817540373
+              ],
+              [
+                40.93277479014664,
+                -8.514004336140346
+              ],
+              [
+                40.932781143252654,
+                -8.514040364286858
+              ],
+              [
+                40.932784811485085,
+                -8.514079901979908
+              ],
+              [
+                40.93278579484393,
+                -8.514122949219495
+              ],
+              [
+                40.932779211270436,
+                -8.514156676793409
+              ],
+              [
+                40.93276506076461,
+                -8.514181084701645
+              ],
+              [
+                40.93274334332646,
+                -8.514196172944207
+              ],
+              [
+                40.93271405895597,
+                -8.514201941521094
+              ],
+              [
+                40.93267720765316,
+                -8.514198390432304
+              ],
+              [
+                40.932632789417994,
+                -8.51418551967784
+              ],
+              [
+                40.932580804250506,
+                -8.5141633292577
+              ],
+              [
+                40.93252125215069,
+                -8.514131819171885
+              ],
+              [
+                40.93245875216097,
+                -8.514098251493635
+              ],
+              [
+                40.93239330428135,
+                -8.514062626222955
+              ],
+              [
+                40.93232490851182,
+                -8.51402494335984
+              ],
+              [
+                40.932253564852395,
+                -8.51398520290429
+              ],
+              [
+                40.93217927330307,
+                -8.51394340485631
+              ],
+              [
+                40.93210203386384,
+                -8.513899549215896
+              ],
+              [
+                40.93202184653472,
+                -8.513853635983047
+              ],
+              [
+                40.931938711315695,
+                -8.513805665157767
+              ],
+              [
+                40.931862457332095,
+                -8.513761629820213
+              ],
+              [
+                40.93179308458393,
+                -8.51372152997039
+              ],
+              [
+                40.931730593071194,
+                -8.513685365608293
+              ],
+              [
+                40.93167498279388,
+                -8.513653136733922
+              ],
+              [
+                40.931626253752,
+                -8.513624843347282
+              ],
+              [
+                40.93158440594556,
+                -8.513600485448372
+              ],
+              [
+                40.93154943937454,
+                -8.513580063037187
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.932164741727796,
+    -8.513718572365006
+  ],
+  "centroDeMassa": [
+    40.93210614598215,
+    -8.5137477823972
+  ]
+}

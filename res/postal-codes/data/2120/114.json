@@ -1,1 +1,414 @@
-{"CP4":"2120","CP3":"114","Distrito":"Santarém","Concelho":"Salvaterra de Magos","CP":"2120-114","Artéria":"Rua Florbela Espanca","Localidade":"Vale Queimado","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SALVATERRA DE MAGOS","locais":[{"id":"pt.ine.add.PTCONT.4391342","rua":"R FLORBELA ESPANCA","casa":"4","coordenadas":[39.02583952765449,-8.747634062233235]},{"id":"pt.ine.add.PTCONT.4455070","rua":"R FLORBELA ESPANCA","casa":"21","coordenadas":[39.02743824191538,-8.74851401620225]},{"id":"pt.ine.add.PTCONT.4479418","rua":"R FLORBELA ESPANCA","casa":"5","coordenadas":[39.02602520936601,-8.748293901217924]},{"id":"pt.ine.add.PTCONT.4498763","rua":"R FLORBELA ESPANCA","casa":"33","coordenadas":[39.028453189528044,-8.749065588046351]},{"id":"pt.ine.add.PTCONT.4498764","rua":"R FLORBELA ESPANCA","casa":"","coordenadas":[39.02641318842687,-8.748170236405855]},{"id":"pt.ine.add.PTCONT.4510273","rua":"R FLORBELA ESPANCA","casa":"1","coordenadas":[39.02544132479735,-8.747988596919294]},{"id":"pt.ine.add.PTCONT.4513451","rua":"R FLORBELA ESPANCA","casa":"1","coordenadas":[39.02552391086657,-8.747700616509519]},{"id":"pt.ine.add.PTCONT.4522691","rua":"R FLORBELA ESPANCA","casa":"","coordenadas":[39.02535368663307,-8.747525925376406]},{"id":"pt.ine.add.PTCONT.4531957","rua":"R FLORBELA ESPANCA","casa":"3","coordenadas":[39.025722251637475,-8.747667690408674]},{"id":"pt.ine.add.PTCONT.4536963","rua":"R FLORBELA ESPANCA","casa":"","coordenadas":[39.02947289138475,-8.748716435921548]},{"id":"pt.ine.add.PTCONT.4555420","rua":"R FLORBELA ESPANCA","casa":"10","coordenadas":[39.02560223669367,-8.748220947917627]},{"id":"pt.ine.add.PTCONT.4572326","rua":"R FLORBELA ESPANCA","casa":"19","coordenadas":[39.02695313275522,-8.748267300275897]},{"id":"pt.ine.add.PTCONT.4572334","rua":"R FLORBELA ESPANCA","casa":"6","coordenadas":[39.025567547235646,-8.747966594745838]},{"id":"pt.ine.add.PTCONT.4572335","rua":"R FLORBELA ESPANCA","casa":"9","coordenadas":[39.02550297489706,-8.748254731146359]},{"id":"pt.ine.add.PTCONT.4601387","rua":"R FLORBELA ESPANCA","casa":"17","coordenadas":[39.0267729280447,-8.748277286354568]},{"id":"pt.ine.add.PTCONT.4606030","rua":"R FLORBELA ESPANCA","casa":"","coordenadas":[39.02374772873603,-8.748020115527147]},{"id":"pt.ine.add.PTCONT.4607682","rua":"R FLORBELA ESPANCA","casa":"3","coordenadas":[39.0259193755073,-8.747865711588355]},{"id":"pt.ine.add.PTCONT.4613764","rua":"R FLORBELA ESPANCA","casa":"","coordenadas":[39.02515595407459,-8.74744337922602]},{"id":"pt.ine.add.PTCONT.4615943","rua":"R FLORBELA ESPANCA","casa":"7","coordenadas":[39.025675755281604,-8.747944436442134]},{"id":"pt.ine.add.PTCONT.4619036","rua":"R DOS FOROS","casa":"36","coordenadas":[39.02053812160527,-8.748569663294155]},{"id":"pt.ine.add.PTCONT.4628374","rua":"R FLORBELA ESPANCA","casa":"2","coordenadas":[39.02563205802858,-8.747690005138539]},{"id":"pt.ine.add.PTCONT.4633286","rua":"R FLORBELA ESPANCA","casa":"","coordenadas":[39.024280918001416,-8.747689853386671]}],"ruas":["R FLORBELA ESPANCA","R DOS FOROS"],"centroide":[39.02584529690808,-8.74808558289989]}
+{
+  "CP": "2120-114",
+  "CP4": "2120",
+  "CP3": "114",
+  "Distrito": "Santarém",
+  "Concelho": "Salvaterra de Magos",
+  "Localidade": "Vale Queimado",
+  "Designação Postal": "SALVATERRA DE MAGOS",
+  "partes": [
+    {
+      "Artéria": "Rua Florbela Espanca",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4391342",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "4",
+      "coordenadas": [
+        39.02583952765449,
+        -8.747634062233235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4455070",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "21",
+      "coordenadas": [
+        39.02743824191538,
+        -8.74851401620225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4479418",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "5",
+      "coordenadas": [
+        39.02602520936601,
+        -8.748293901217924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498763",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "33",
+      "coordenadas": [
+        39.028453189528044,
+        -8.749065588046351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4498764",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "",
+      "coordenadas": [
+        39.02641318842687,
+        -8.748170236405855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4510273",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "1",
+      "coordenadas": [
+        39.02544132479735,
+        -8.747988596919294
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4513451",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "1",
+      "coordenadas": [
+        39.02552391086657,
+        -8.747700616509519
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4522691",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "",
+      "coordenadas": [
+        39.02535368663307,
+        -8.747525925376406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4531957",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "3",
+      "coordenadas": [
+        39.025722251637475,
+        -8.747667690408674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4536963",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "",
+      "coordenadas": [
+        39.02947289138475,
+        -8.748716435921548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4555420",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "10",
+      "coordenadas": [
+        39.02560223669367,
+        -8.748220947917627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4572326",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "19",
+      "coordenadas": [
+        39.02695313275522,
+        -8.748267300275897
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4572334",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "6",
+      "coordenadas": [
+        39.025567547235646,
+        -8.747966594745838
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4572335",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "9",
+      "coordenadas": [
+        39.02550297489706,
+        -8.748254731146359
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4601387",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "17",
+      "coordenadas": [
+        39.0267729280447,
+        -8.748277286354568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4606030",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "",
+      "coordenadas": [
+        39.02374772873603,
+        -8.748020115527147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4607682",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "3",
+      "coordenadas": [
+        39.0259193755073,
+        -8.747865711588355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4613764",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "",
+      "coordenadas": [
+        39.02515595407459,
+        -8.74744337922602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4615943",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "7",
+      "coordenadas": [
+        39.025675755281604,
+        -8.747944436442134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4619036",
+      "rua": "R DOS FOROS",
+      "casa": "36",
+      "coordenadas": [
+        39.02053812160527,
+        -8.748569663294155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4628374",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "2",
+      "coordenadas": [
+        39.02563205802858,
+        -8.747690005138539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4633286",
+      "rua": "R FLORBELA ESPANCA",
+      "casa": "",
+      "coordenadas": [
+        39.024280918001416,
+        -8.747689853386671
+      ]
+    }
+  ],
+  "ruas": [
+    "R FLORBELA ESPANCA",
+    "R DOS FOROS"
+  ],
+  "centro": [
+    39.025005506495006,
+    -8.748254483636185
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.02499034731183,
+                -8.748848620967266
+              ],
+              [
+                39.024000963821486,
+                -8.74878663037324
+              ],
+              [
+                39.023207406899765,
+                -8.748714790414905
+              ],
+              [
+                39.022609676546665,
+                -8.748633101092258
+              ],
+              [
+                39.0222077727622,
+                -8.748541562405299
+              ],
+              [
+                39.02200169554636,
+                -8.748440174354027
+              ],
+              [
+                39.02199144489914,
+                -8.748328936938446
+              ],
+              [
+                39.02217702082056,
+                -8.74820785015855
+              ],
+              [
+                39.0225584233106,
+                -8.748076914014346
+              ],
+              [
+                39.02313565236926,
+                -8.74793612850583
+              ],
+              [
+                39.02365140863279,
+                -8.747815920607865
+              ],
+              [
+                39.02410569210116,
+                -8.747716290320453
+              ],
+              [
+                39.02449850277438,
+                -8.747637237643593
+              ],
+              [
+                39.02482984065245,
+                -8.747578762577286
+              ],
+              [
+                39.025099705735386,
+                -8.74754086512153
+              ],
+              [
+                39.02530809802316,
+                -8.747523545276328
+              ],
+              [
+                39.025455017515796,
+                -8.747526803041676
+              ],
+              [
+                39.02554046421328,
+                -8.747550638417579
+              ],
+              [
+                39.02567200138187,
+                -8.747588406460372
+              ],
+              [
+                39.02584962902156,
+                -8.747640107170058
+              ],
+              [
+                39.02607334713234,
+                -8.747705740546637
+              ],
+              [
+                39.02634315571423,
+                -8.747785306590108
+              ],
+              [
+                39.026659054767215,
+                -8.747878805300472
+              ],
+              [
+                39.0270210442913,
+                -8.747986236677725
+              ],
+              [
+                39.02742912428648,
+                -8.748107600721871
+              ],
+              [
+                39.02788329475276,
+                -8.748242897432911
+              ],
+              [
+                39.028264761069245,
+                -8.74836673755702
+              ],
+              [
+                39.02857352323593,
+                -8.7484791210942
+              ],
+              [
+                39.02880958125282,
+                -8.748580048044449
+              ],
+              [
+                39.02897293511993,
+                -8.74866951840777
+              ],
+              [
+                39.02906358483723,
+                -8.74874753218416
+              ],
+              [
+                39.02908153040473,
+                -8.748814089373619
+              ],
+              [
+                39.029026771822444,
+                -8.74886918997615
+              ],
+              [
+                39.02889930909035,
+                -8.74891283399175
+              ],
+              [
+                39.028664106263484,
+                -8.748943273681148
+              ],
+              [
+                39.02832116334183,
+                -8.748960509044341
+              ],
+              [
+                39.0278704803254,
+                -8.748964540081332
+              ],
+              [
+                39.027312057214175,
+                -8.74895536679212
+              ],
+              [
+                39.026645894008176,
+                -8.748932989176705
+              ],
+              [
+                39.025871990707394,
+                -8.748897407235088
+              ],
+              [
+                39.02499034731183,
+                -8.748848620967266
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.025891936849426,
+    -8.748285825744262
+  ],
+  "centroDeMassa": [
+    39.025005506495006,
+    -8.748254483636185
+  ]
+}

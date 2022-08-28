@@ -1,1 +1,488 @@
-{"CP4":"7700","CP3":"028","Distrito":"Beja","Concelho":"Almodôvar","CP":"7700-028","Artéria":"Travessa do Cerro da Nodre","Localidade":"Almodôvar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALMODÔVAR","locais":[{"id":"pt.ine.add.PTCONT.456854","rua":"","casa":"","coordenadas":[37.42410686283967,-8.038129943869311]},{"id":"pt.ine.add.PTCONT.456925","rua":"TV CERRO DA NODRE","casa":"7","coordenadas":[37.51384493795387,-8.059812728951249]},{"id":"pt.ine.add.PTCONT.353118","rua":"R CERRO DO NODRE","casa":"27","coordenadas":[37.51420540237762,-8.059914176358424]},{"id":"pt.ine.add.PTCONT.355542","rua":"TV CERRO DA NODRE","casa":"2A","coordenadas":[37.51389890681313,-8.059665632436808]},{"id":"pt.ine.add.PTCONT.368566","rua":"TV HOSPITAL","casa":"","coordenadas":[37.514367202876834,-8.059303217470529]},{"id":"pt.ine.add.PTCONT.378235","rua":"R CERRO DO NODRE","casa":"30","coordenadas":[37.51408830699043,-8.059970846140182]},{"id":"pt.ine.add.PTCONT.385875","rua":"TV CERRO DA NODRE","casa":"2","coordenadas":[37.51392585243748,-8.059529873304694]},{"id":"pt.ine.add.PTCONT.389965","rua":"R CERRO DO NODRE","casa":"9","coordenadas":[37.51385438802453,-8.06052531585315]},{"id":"pt.ine.add.PTCONT.390653","rua":"R CERRO DO NODRE","casa":"23","coordenadas":[37.51414240918742,-8.060038659904798]},{"id":"pt.ine.add.PTCONT.390698","rua":"R CERRO DO NODRE","casa":"8","coordenadas":[37.51362920665077,-8.060638644086062]},{"id":"pt.ine.add.PTCONT.392533","rua":"TV CERRO DA NODRE","casa":"7","coordenadas":[37.51384493795387,-8.059812728951249]},{"id":"pt.ine.add.PTCONT.392873","rua":"","casa":"","coordenadas":[37.431968191838635,-8.093415933422534]},{"id":"pt.ine.add.PTCONT.393283","rua":"","casa":"","coordenadas":[37.431968191838635,-8.093415933422534]},{"id":"pt.ine.add.PTCONT.397009","rua":"R CERRO DO NODRE","casa":"15","coordenadas":[37.51399845809817,-8.060378132397812]},{"id":"pt.ine.add.PTCONT.397010","rua":"R CERRO DO NODRE","casa":"15","coordenadas":[37.51399845809817,-8.060378132397812]},{"id":"pt.ine.add.PTCONT.397011","rua":"R CERRO DO NODRE","casa":"15","coordenadas":[37.51399845809817,-8.060378132397812]},{"id":"pt.ine.add.PTCONT.397012","rua":"R CERRO DO NODRE","casa":"20","coordenadas":[37.51370109217861,-8.060321865828428]},{"id":"pt.ine.add.PTCONT.405771","rua":"R CERRO DO NODRE","casa":"33","coordenadas":[37.51429537635737,-8.05971048839331]},{"id":"pt.ine.add.PTCONT.408893","rua":"R CERRO DO NODRE","casa":"28","coordenadas":[37.51396224351127,-8.060095390886248]},{"id":"pt.ine.add.PTCONT.413249","rua":"","casa":"","coordenadas":[37.39790506673179,-8.049885775617776]},{"id":"pt.ine.add.PTCONT.413251","rua":"R CERRO DO NODRE","casa":"21","coordenadas":[37.514115428044676,-8.060117863834892]},{"id":"pt.ine.add.PTCONT.429840","rua":"R CERRO DO NODRE","casa":"4","coordenadas":[37.5135932012029,-8.060695233953]},{"id":"pt.ine.add.PTCONT.439876","rua":"R CERRO DO NODRE","casa":"13 A","coordenadas":[37.513926398726305,-8.060412135507104]},{"id":"pt.ine.add.PTCONT.439877","rua":"R CERRO DO NODRE","casa":"13 A","coordenadas":[37.513926398726305,-8.060412135507104]},{"id":"pt.ine.add.PTCONT.439889","rua":"R CERRO DO NODRE","casa":"28 A","coordenadas":[37.51389921521407,-8.060163318627051]},{"id":"pt.ine.add.PTCONT.441425","rua":"R CERRO DO NODRE","casa":"11 A","coordenadas":[37.513908434317884,-8.060502641396317]},{"id":"pt.ine.add.PTCONT.441456","rua":"R CERRO DO NODRE","casa":"19","coordenadas":[37.5140524206809,-8.060219724914848]},{"id":"pt.ine.add.PTCONT.442170","rua":"R CERRO DO NODRE","casa":"7","coordenadas":[37.51380937259966,-8.060581914663501]},{"id":"pt.ine.add.PTCONT.444273","rua":"AZ POÇO DOS PASSARINHOS","casa":"2","coordenadas":[37.517061392221976,-8.059605975566132]},{"id":"pt.ine.add.PTCONT.444335","rua":"R CERRO DO NODRE","casa":"25","coordenadas":[37.51421446144757,-8.059993345240855]},{"id":"pt.ine.add.PTCONT.448689","rua":"R CERRO DO NODRE","casa":"31","coordenadas":[37.51425940646213,-8.059823634729566]},{"id":"pt.ine.add.PTCONT.451105","rua":"","casa":"","coordenadas":[37.508718868146055,-8.060858286639046]}],"ruas":["","TV CERRO DA NODRE","R CERRO DO NODRE","TV HOSPITAL","AZ POÇO DOS PASSARINHOS"],"centroide":[37.502144196145174,-8.061220950839711]}
+{
+  "CP": "7700-028",
+  "CP4": "7700",
+  "CP3": "028",
+  "Distrito": "Beja",
+  "Concelho": "Almodôvar",
+  "Localidade": "Almodôvar",
+  "Designação Postal": "ALMODÔVAR",
+  "partes": [
+    {
+      "Artéria": "Rua Cerro do Nodre",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Hospital",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Cerro da Nodre",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.456854",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.42410686283967,
+        -8.038129943869311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.456925",
+      "rua": "TV CERRO DA NODRE",
+      "casa": "7",
+      "coordenadas": [
+        37.51384493795387,
+        -8.059812728951249
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.353118",
+      "rua": "R CERRO DO NODRE",
+      "casa": "27",
+      "coordenadas": [
+        37.51420540237762,
+        -8.059914176358424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.355542",
+      "rua": "TV CERRO DA NODRE",
+      "casa": "2A",
+      "coordenadas": [
+        37.51389890681313,
+        -8.059665632436808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.368566",
+      "rua": "TV HOSPITAL",
+      "casa": "",
+      "coordenadas": [
+        37.514367202876834,
+        -8.059303217470529
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.378235",
+      "rua": "R CERRO DO NODRE",
+      "casa": "30",
+      "coordenadas": [
+        37.51408830699043,
+        -8.059970846140182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.385875",
+      "rua": "TV CERRO DA NODRE",
+      "casa": "2",
+      "coordenadas": [
+        37.51392585243748,
+        -8.059529873304694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.389965",
+      "rua": "R CERRO DO NODRE",
+      "casa": "9",
+      "coordenadas": [
+        37.51385438802453,
+        -8.06052531585315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.390653",
+      "rua": "R CERRO DO NODRE",
+      "casa": "23",
+      "coordenadas": [
+        37.51414240918742,
+        -8.060038659904798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.390698",
+      "rua": "R CERRO DO NODRE",
+      "casa": "8",
+      "coordenadas": [
+        37.51362920665077,
+        -8.060638644086062
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.392533",
+      "rua": "TV CERRO DA NODRE",
+      "casa": "7",
+      "coordenadas": [
+        37.51384493795387,
+        -8.059812728951249
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.392873",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.431968191838635,
+        -8.093415933422534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.393283",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.431968191838635,
+        -8.093415933422534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.397009",
+      "rua": "R CERRO DO NODRE",
+      "casa": "15",
+      "coordenadas": [
+        37.51399845809817,
+        -8.060378132397812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.397010",
+      "rua": "R CERRO DO NODRE",
+      "casa": "15",
+      "coordenadas": [
+        37.51399845809817,
+        -8.060378132397812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.397011",
+      "rua": "R CERRO DO NODRE",
+      "casa": "15",
+      "coordenadas": [
+        37.51399845809817,
+        -8.060378132397812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.397012",
+      "rua": "R CERRO DO NODRE",
+      "casa": "20",
+      "coordenadas": [
+        37.51370109217861,
+        -8.060321865828428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.405771",
+      "rua": "R CERRO DO NODRE",
+      "casa": "33",
+      "coordenadas": [
+        37.51429537635737,
+        -8.05971048839331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.408893",
+      "rua": "R CERRO DO NODRE",
+      "casa": "28",
+      "coordenadas": [
+        37.51396224351127,
+        -8.060095390886248
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.413249",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.39790506673179,
+        -8.049885775617776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.413251",
+      "rua": "R CERRO DO NODRE",
+      "casa": "21",
+      "coordenadas": [
+        37.514115428044676,
+        -8.060117863834892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.429840",
+      "rua": "R CERRO DO NODRE",
+      "casa": "4",
+      "coordenadas": [
+        37.5135932012029,
+        -8.060695233953
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.439876",
+      "rua": "R CERRO DO NODRE",
+      "casa": "13 A",
+      "coordenadas": [
+        37.513926398726305,
+        -8.060412135507104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.439877",
+      "rua": "R CERRO DO NODRE",
+      "casa": "13 A",
+      "coordenadas": [
+        37.513926398726305,
+        -8.060412135507104
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.439889",
+      "rua": "R CERRO DO NODRE",
+      "casa": "28 A",
+      "coordenadas": [
+        37.51389921521407,
+        -8.060163318627051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.441425",
+      "rua": "R CERRO DO NODRE",
+      "casa": "11 A",
+      "coordenadas": [
+        37.513908434317884,
+        -8.060502641396317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.441456",
+      "rua": "R CERRO DO NODRE",
+      "casa": "19",
+      "coordenadas": [
+        37.5140524206809,
+        -8.060219724914848
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.442170",
+      "rua": "R CERRO DO NODRE",
+      "casa": "7",
+      "coordenadas": [
+        37.51380937259966,
+        -8.060581914663501
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.444273",
+      "rua": "AZ POÇO DOS PASSARINHOS",
+      "casa": "2",
+      "coordenadas": [
+        37.517061392221976,
+        -8.059605975566132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.444335",
+      "rua": "R CERRO DO NODRE",
+      "casa": "25",
+      "coordenadas": [
+        37.51421446144757,
+        -8.059993345240855
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.448689",
+      "rua": "R CERRO DO NODRE",
+      "casa": "31",
+      "coordenadas": [
+        37.51425940646213,
+        -8.059823634729566
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451105",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        37.508718868146055,
+        -8.060858286639046
+      ]
+    }
+  ],
+  "ruas": [
+    "TV CERRO DA NODRE",
+    "R CERRO DO NODRE",
+    "TV HOSPITAL",
+    "AZ POÇO DOS PASSARINHOS"
+  ],
+  "centro": [
+    37.45748322947688,
+    -8.065772938645923
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.417065574604386,
+                -8.074371489382951
+              ],
+              [
+                37.41280768396603,
+                -8.068930219657357
+              ],
+              [
+                37.40949143272165,
+                -8.063985423776392
+              ],
+              [
+                37.40711682087126,
+                -8.059537101740057
+              ],
+              [
+                37.405683848414846,
+                -8.055585253548351
+              ],
+              [
+                37.405192515352404,
+                -8.052129879201274
+              ],
+              [
+                37.405642821683955,
+                -8.049170978698827
+              ],
+              [
+                37.40703476740948,
+                -8.04670855204101
+              ],
+              [
+                37.409368352528986,
+                -8.044742599227822
+              ],
+              [
+                37.41264357704247,
+                -8.043273120259265
+              ],
+              [
+                37.41696181301337,
+                -8.042322889157038
+              ],
+              [
+                37.422323060441684,
+                -8.041891905921148
+              ],
+              [
+                37.42872731932741,
+                -8.041980170551586
+              ],
+              [
+                37.43617458967054,
+                -8.042587683048357
+              ],
+              [
+                37.44466487147109,
+                -8.043714443411462
+              ],
+              [
+                37.45419816472905,
+                -8.045360451640901
+              ],
+              [
+                37.46477446944443,
+                -8.047525707736671
+              ],
+              [
+                37.47639378561722,
+                -8.050210211698772
+              ],
+              [
+                37.48523110601242,
+                -8.053087433257119
+              ],
+              [
+                37.491286430630026,
+                -8.05615737241171
+              ],
+              [
+                37.49455975947005,
+                -8.059420029162542
+              ],
+              [
+                37.49505109253249,
+                -8.062875403509619
+              ],
+              [
+                37.49276042981734,
+                -8.066523495452937
+              ],
+              [
+                37.487687771324595,
+                -8.070364304992502
+              ],
+              [
+                37.47983311705426,
+                -8.074397832128309
+              ],
+              [
+                37.46919646700635,
+                -8.078624076860358
+              ],
+              [
+                37.459357161884625,
+                -8.081641882285203
+              ],
+              [
+                37.450315201689094,
+                -8.083451248402842
+              ],
+              [
+                37.44207058641976,
+                -8.084052175213275
+              ],
+              [
+                37.434623316076625,
+                -8.083444662716502
+              ],
+              [
+                37.42797339065969,
+                -8.081628710912526
+              ],
+              [
+                37.422120810168934,
+                -8.07860431980134
+              ],
+              [
+                37.417065574604386,
+                -8.074371489382951
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.44276037840801,
+    -8.060259407118938
+  ],
+  "centroDeMassa": [
+    37.45748322947688,
+    -8.065772938645923
+  ]
+}

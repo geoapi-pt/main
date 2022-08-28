@@ -1,1 +1,540 @@
-{"CP4":"4100","CP3":"035","Distrito":"Porto","Concelho":"Porto","CP":"4100-035","Artéria":"Rua Alcaide de Faria","Localidade":"Porto","Local":"Bairro Leão XIII","Troço":"Impares de 135 a 257","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3561899","rua":"R ALCAIDE DE FARIA","casa":"145","coordenadas":[41.17277868884078,-8.666086497567113]},{"id":"pt.ine.add.PTCONT.3568165","rua":"R ALCAIDE DE FARIA","casa":"165","coordenadas":[41.17295937481419,-8.665956877554597]},{"id":"pt.ine.add.PTCONT.3574566","rua":"R ALCAIDE DE FARIA","casa":"181","coordenadas":[41.17299550096605,-8.66593333673309]},{"id":"pt.ine.add.PTCONT.3581438","rua":"R ALCAIDE DE FARIA","casa":"163","coordenadas":[41.17292324865744,-8.665980418350394]},{"id":"pt.ine.add.PTCONT.3606678","rua":"R ALCAIDE DE FARIA","casa":"223","coordenadas":[41.17342034099406,-8.665579273504743]},{"id":"pt.ine.add.PTCONT.3626040","rua":"R ALCAIDE DE FARIA","casa":"155","coordenadas":[41.172860000303814,-8.6660275728339]},{"id":"pt.ine.add.PTCONT.3690094","rua":"R ALCAIDE DE FARIA","casa":"183","coordenadas":[41.173040410583525,-8.66595753419244]},{"id":"pt.ine.add.PTCONT.3705877","rua":"R ALCAIDE DE FARIA","casa":"215","coordenadas":[41.17338382924011,-8.665686229478883]},{"id":"pt.ine.add.PTCONT.3710000","rua":"R ALCAIDE DE FARIA","casa":"221","coordenadas":[41.17341117174514,-8.665614949814064]},{"id":"pt.ine.add.PTCONT.3768163","rua":"R ALCAIDE DE FARIA","casa":"231","coordenadas":[41.17344773851499,-8.665496077342407]},{"id":"pt.ine.add.PTCONT.3826575","rua":"R ALCAIDE DE FARIA","casa":"257","coordenadas":[41.17354826897861,-8.665175135573941]},{"id":"pt.ine.add.PTCONT.3872428","rua":"R ALCAIDE DE FARIA","casa":"255","coordenadas":[41.17353004082732,-8.665222655579631]},{"id":"pt.ine.add.PTCONT.3895568","rua":"R ALCAIDE DE FARIA","casa":"229","coordenadas":[41.173438514206275,-8.665543670089617]},{"id":"pt.ine.add.PTCONT.3909318","rua":"R ALCAIDE DE FARIA","casa":"207","coordenadas":[41.17335643158248,-8.665769425479958]},{"id":"pt.ine.add.PTCONT.3959142","rua":"R ALCAIDE DE FARIA","casa":"239","coordenadas":[41.17347513597614,-8.665412881110225]},{"id":"pt.ine.add.PTCONT.3980566","rua":"R ALCAIDE DE FARIA","casa":"193","coordenadas":[41.173157186589556,-8.66601806447085]},{"id":"pt.ine.add.PTCONT.4000384","rua":"R ALCAIDE DE FARIA","casa":"139","coordenadas":[41.17271549558907,-8.666121735566916]},{"id":"pt.ine.add.PTCONT.4025610","rua":"R ALCAIDE DE FARIA","casa":"143","coordenadas":[41.17275162177506,-8.66609819492222]},{"id":"pt.ine.add.PTCONT.4051160","rua":"R ALCAIDE DE FARIA","casa":"249","coordenadas":[41.173520706512974,-8.665294081279015]},{"id":"pt.ine.add.PTCONT.4051161","rua":"R ALCAIDE DE FARIA","casa":"195","coordenadas":[41.17319309221328,-8.666042189076645]},{"id":"pt.ine.add.PTCONT.4059182","rua":"R ALCAIDE DE FARIA","casa":"213","coordenadas":[41.17336565598407,-8.665721832824696]},{"id":"pt.ine.add.PTCONT.4098912","rua":"R ALCAIDE DE FARIA","casa":"247","coordenadas":[41.173502423247015,-8.665353517654516]},{"id":"pt.ine.add.PTCONT.4131122","rua":"R ALCAIDE DE FARIA","casa":"205","coordenadas":[41.17332925432681,-8.665804955847973]},{"id":"pt.ine.add.PTCONT.4147299","rua":"R ALCAIDE DE FARIA","casa":"237","coordenadas":[41.173465856623565,-8.665472390305547]},{"id":"pt.ine.add.PTCONT.4209304","rua":"R ALCAIDE DE FARIA","casa":"189","coordenadas":[41.17311227698622,-8.66599386692648]},{"id":"pt.ine.add.PTCONT.4209305","rua":"R ALCAIDE DE FARIA","casa":"187","coordenadas":[41.173067367377264,-8.66596966941543]},{"id":"pt.ine.add.PTCONT.4262170","rua":"R ALCAIDE DE FARIA","casa":"137","coordenadas":[41.172688373372786,-8.666145349170616]},{"id":"pt.ine.add.PTCONT.4289068","rua":"R ALCAIDE DE FARIA","casa":"263","coordenadas":[41.173566552152906,-8.665115699106558]},{"id":"pt.ine.add.PTCONT.4352738","rua":"R ALCAIDE DE FARIA","casa":"157","coordenadas":[41.172887122495844,-8.666003959120491]}],"ruas":["R ALCAIDE DE FARIA"],"centroide":[41.17321444853504,-8.665735502920446]}
+{
+  "CP": "4100-035",
+  "CP4": "4100",
+  "CP3": "035",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua Alcaide de Faria",
+      "Local": "Bairro Leão XIII",
+      "Troço": "Impares de 135 a 257",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3561899",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "145",
+      "coordenadas": [
+        41.17277868884078,
+        -8.666086497567113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3568165",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "165",
+      "coordenadas": [
+        41.17295937481419,
+        -8.665956877554597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3574566",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "181",
+      "coordenadas": [
+        41.17299550096605,
+        -8.66593333673309
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3581438",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "163",
+      "coordenadas": [
+        41.17292324865744,
+        -8.665980418350394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3606678",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "223",
+      "coordenadas": [
+        41.17342034099406,
+        -8.665579273504743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3626040",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "155",
+      "coordenadas": [
+        41.172860000303814,
+        -8.6660275728339
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3690094",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "183",
+      "coordenadas": [
+        41.173040410583525,
+        -8.66595753419244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3705877",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "215",
+      "coordenadas": [
+        41.17338382924011,
+        -8.665686229478883
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3710000",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "221",
+      "coordenadas": [
+        41.17341117174514,
+        -8.665614949814064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3768163",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "231",
+      "coordenadas": [
+        41.17344773851499,
+        -8.665496077342407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3826575",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "257",
+      "coordenadas": [
+        41.17354826897861,
+        -8.665175135573941
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3872428",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "255",
+      "coordenadas": [
+        41.17353004082732,
+        -8.665222655579631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3895568",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "229",
+      "coordenadas": [
+        41.173438514206275,
+        -8.665543670089617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3909318",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "207",
+      "coordenadas": [
+        41.17335643158248,
+        -8.665769425479958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3959142",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "239",
+      "coordenadas": [
+        41.17347513597614,
+        -8.665412881110225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3980566",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "193",
+      "coordenadas": [
+        41.173157186589556,
+        -8.66601806447085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4000384",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "139",
+      "coordenadas": [
+        41.17271549558907,
+        -8.666121735566916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4025610",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "143",
+      "coordenadas": [
+        41.17275162177506,
+        -8.66609819492222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4051160",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "249",
+      "coordenadas": [
+        41.173520706512974,
+        -8.665294081279015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4051161",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "195",
+      "coordenadas": [
+        41.17319309221328,
+        -8.666042189076645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4059182",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "213",
+      "coordenadas": [
+        41.17336565598407,
+        -8.665721832824696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4098912",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "247",
+      "coordenadas": [
+        41.173502423247015,
+        -8.665353517654516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4131122",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "205",
+      "coordenadas": [
+        41.17332925432681,
+        -8.665804955847973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4147299",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "237",
+      "coordenadas": [
+        41.173465856623565,
+        -8.665472390305547
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4209304",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "189",
+      "coordenadas": [
+        41.17311227698622,
+        -8.66599386692648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4209305",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "187",
+      "coordenadas": [
+        41.173067367377264,
+        -8.66596966941543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4262170",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "137",
+      "coordenadas": [
+        41.172688373372786,
+        -8.666145349170616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4289068",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "263",
+      "coordenadas": [
+        41.173566552152906,
+        -8.665115699106558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4352738",
+      "rua": "R ALCAIDE DE FARIA",
+      "casa": "157",
+      "coordenadas": [
+        41.172887122495844,
+        -8.666003959120491
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALCAIDE DE FARIA"
+  ],
+  "centro": [
+    41.17312746276285,
+    -8.665630524138587
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.17297227772057,
+                -8.666087321617757
+              ],
+              [
+                41.17290918786551,
+                -8.666100216629504
+              ],
+              [
+                41.17286770578577,
+                -8.66609541148253
+              ],
+              [
+                41.17284783148135,
+                -8.66607290617684
+              ],
+              [
+                41.17284956495225,
+                -8.666032700712428
+              ],
+              [
+                41.172872906198485,
+                -8.665974795089298
+              ],
+              [
+                41.172917855220035,
+                -8.66589918930745
+              ],
+              [
+                41.1729844120169,
+                -8.665805883366879
+              ],
+              [
+                41.17307257658909,
+                -8.66569487726759
+              ],
+              [
+                41.173182348936606,
+                -8.665566171009583
+              ],
+              [
+                41.17327768340256,
+                -8.66545634025527
+              ],
+              [
+                41.17335857998694,
+                -8.665365385004655
+              ],
+              [
+                41.17342503868977,
+                -8.665293305257734
+              ],
+              [
+                41.17347705951103,
+                -8.66524010101451
+              ],
+              [
+                41.17351464245073,
+                -8.66520577227498
+              ],
+              [
+                41.17353778750886,
+                -8.665190319039144
+              ],
+              [
+                41.17354649468544,
+                -8.665193741307007
+              ],
+              [
+                41.17354076398044,
+                -8.665216039078565
+              ],
+              [
+                41.17353546393754,
+                -8.665236478322045
+              ],
+              [
+                41.17353059455674,
+                -8.665255059037447
+              ],
+              [
+                41.17352615583803,
+                -8.66527178122477
+              ],
+              [
+                41.17352214778141,
+                -8.66528664488402
+              ],
+              [
+                41.17351857038689,
+                -8.66529965001519
+              ],
+              [
+                41.173515423654464,
+                -8.665310796618282
+              ],
+              [
+                41.17351270758412,
+                -8.665320084693297
+              ],
+              [
+                41.173510422175866,
+                -8.665327514240234
+              ],
+              [
+                41.173507851090164,
+                -8.665335872478977
+              ],
+              [
+                41.17350499432699,
+                -8.665345159409524
+              ],
+              [
+                41.17350185188637,
+                -8.665355375031877
+              ],
+              [
+                41.17349842376828,
+                -8.665366519346037
+              ],
+              [
+                41.173494709972736,
+                -8.665378592351999
+              ],
+              [
+                41.17349071049973,
+                -8.665391594049769
+              ],
+              [
+                41.17348642534925,
+                -8.665405524439342
+              ],
+              [
+                41.17348185452133,
+                -8.665420383520722
+              ],
+              [
+                41.17347614528062,
+                -8.665438026391527
+              ],
+              [
+                41.173469297627136,
+                -8.665458453051762
+              ],
+              [
+                41.17346131156088,
+                -8.665481663501424
+              ],
+              [
+                41.17345218708184,
+                -8.665507657740516
+              ],
+              [
+                41.17344192419003,
+                -8.665536435769033
+              ],
+              [
+                41.173430522885454,
+                -8.66556799758698
+              ],
+              [
+                41.17341798316809,
+                -8.665602343194353
+              ],
+              [
+                41.17340430503795,
+                -8.665639472591153
+              ],
+              [
+                41.173389784496436,
+                -8.665676222744551
+              ],
+              [
+                41.173374421543556,
+                -8.66571259365455
+              ],
+              [
+                41.17335821617929,
+                -8.665748585321145
+              ],
+              [
+                41.173341168403645,
+                -8.665784197744339
+              ],
+              [
+                41.17332327821663,
+                -8.665819430924131
+              ],
+              [
+                41.17330454561822,
+                -8.665854284860519
+              ],
+              [
+                41.17328497060845,
+                -8.665888759553507
+              ],
+              [
+                41.17326455318731,
+                -8.665922855003096
+              ],
+              [
+                41.17323880171192,
+                -8.665954300397951
+              ],
+              [
+                41.17320771618229,
+                -8.665983095738078
+              ],
+              [
+                41.173171296598426,
+                -8.666009241023472
+              ],
+              [
+                41.17312954296031,
+                -8.66603273625414
+              ],
+              [
+                41.17308245526797,
+                -8.666053581430075
+              ],
+              [
+                41.173030033521385,
+                -8.66607177655128
+              ],
+              [
+                41.17297227772057,
+                -8.666087321617757
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.173327633672145,
+    -8.665598950296122
+  ],
+  "centroDeMassa": [
+    41.17312746276285,
+    -8.665630524138587
+  ]
+}

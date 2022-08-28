@@ -1,1 +1,435 @@
-{"CP4":"3090","CP3":"898","Distrito":"Coimbra","Concelho":"Figueira da Foz","CP":"3090-898","Artéria":"Rua Doutor Pedro Santana Lopes","Localidade":"Cova","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FIGUEIRA DA FOZ","locais":[{"id":"pt.ine.add.PTCONT.1147983","rua":"R DR PEDRO SANTANA LOPES","casa":"6","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1147984","rua":"R DR PEDRO SANTANA LOPES","casa":"8","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1147985","rua":"R DR PEDRO SANTANA LOPES","casa":"10","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1147986","rua":"R DR PEDRO SANTANA LOPES","casa":"12","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1147987","rua":"R DR PEDRO SANTANA LOPES","casa":"20","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1147988","rua":"R DR PEDRO SANTANA LOPES","casa":"18","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1147989","rua":"R DR PEDRO SANTANA LOPES","casa":"14","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1148788","rua":"R DR PEDRO SANTANA LOPES","casa":"16","coordenadas":[40.12595858979367,-8.855727649676433]},{"id":"pt.ine.add.PTCONT.1156190","rua":"R DR PEDRO SANTANA LOPES","casa":"42","coordenadas":[40.12580103257242,-8.856441623663478]},{"id":"pt.ine.add.PTCONT.1156191","rua":"R DR PEDRO SANTANA LOPES","casa":"46","coordenadas":[40.12580103257242,-8.856441623663478]},{"id":"pt.ine.add.PTCONT.1156192","rua":"R DR PEDRO SANTANA LOPES","casa":"48","coordenadas":[40.12580103257242,-8.856441623663478]},{"id":"pt.ine.add.PTCONT.1156193","rua":"R DR PEDRO SANTANA LOPES","casa":"50","coordenadas":[40.12580103257242,-8.856441623663478]},{"id":"pt.ine.add.PTCONT.1156194","rua":"R DR PEDRO SANTANA LOPES","casa":"52","coordenadas":[40.12580103257242,-8.856441623663478]},{"id":"pt.ine.add.PTCONT.1156893","rua":"R DR PEDRO SANTANA LOPES","casa":"44","coordenadas":[40.12580103257242,-8.856441623663478]},{"id":"pt.ine.add.PTCONT.1321709","rua":"R DR PEDRO SANTANA LOPES","casa":"60","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1321710","rua":"R DR PEDRO SANTANA LOPES","casa":"56","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1321711","rua":"R DR PEDRO SANTANA LOPES","casa":"4","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1321712","rua":"R DR PEDRO SANTANA LOPES","casa":"62","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1321713","rua":"R DR PEDRO SANTANA LOPES","casa":"64","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1321714","rua":"R DR PEDRO SANTANA LOPES","casa":"66","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1321715","rua":"R DR PEDRO SANTANA LOPES","casa":"68","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1322970","rua":"R DR PEDRO SANTANA LOPES","casa":"58","coordenadas":[40.1257266449985,-8.856816253723526]},{"id":"pt.ine.add.PTCONT.1349858","rua":"R DR PEDRO SANTANA LOPES","casa":"28","coordenadas":[40.12587527247004,-8.856090454927187]},{"id":"pt.ine.add.PTCONT.1349859","rua":"R DR PEDRO SANTANA LOPES","casa":"28","coordenadas":[40.12587527247004,-8.856090454927187]},{"id":"pt.ine.add.PTCONT.1349860","rua":"R DR PEDRO SANTANA LOPES","casa":"28","coordenadas":[40.12587527247004,-8.856090454927187]},{"id":"pt.ine.add.PTCONT.1349861","rua":"R DR PEDRO SANTANA LOPES","casa":"28","coordenadas":[40.12587527247004,-8.856090454927187]},{"id":"pt.ine.add.PTCONT.1349862","rua":"R DR PEDRO SANTANA LOPES","casa":"28","coordenadas":[40.12587527247004,-8.856090454927187]},{"id":"pt.ine.add.PTCONT.1349863","rua":"R DR PEDRO SANTANA LOPES","casa":"28","coordenadas":[40.12587527247004,-8.856090454927187]}],"ruas":["R DR PEDRO SANTANA LOPES"],"centroide":[40.12583942356008,-8.856276046067281]}
+{
+  "CP": "3090-898",
+  "CP4": "3090",
+  "CP3": "898",
+  "Distrito": "Coimbra",
+  "Concelho": "Figueira da Foz",
+  "Localidade": "Cova",
+  "Designação Postal": "FIGUEIRA DA FOZ",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor Pedro Santana Lopes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1147983",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "6",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147984",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "8",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147985",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "10",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147986",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "12",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147987",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "20",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147988",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "18",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1147989",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "14",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1148788",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "16",
+      "coordenadas": [
+        40.12595858979367,
+        -8.855727649676433
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156190",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "42",
+      "coordenadas": [
+        40.12580103257242,
+        -8.856441623663478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156191",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "46",
+      "coordenadas": [
+        40.12580103257242,
+        -8.856441623663478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156192",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "48",
+      "coordenadas": [
+        40.12580103257242,
+        -8.856441623663478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156193",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "50",
+      "coordenadas": [
+        40.12580103257242,
+        -8.856441623663478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156194",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "52",
+      "coordenadas": [
+        40.12580103257242,
+        -8.856441623663478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1156893",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "44",
+      "coordenadas": [
+        40.12580103257242,
+        -8.856441623663478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321709",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "60",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321710",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "56",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321711",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "4",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321712",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "62",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321713",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "64",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321714",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "66",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1321715",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "68",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1322970",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "58",
+      "coordenadas": [
+        40.1257266449985,
+        -8.856816253723526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349858",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "28",
+      "coordenadas": [
+        40.12587527247004,
+        -8.856090454927187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349859",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "28",
+      "coordenadas": [
+        40.12587527247004,
+        -8.856090454927187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349860",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "28",
+      "coordenadas": [
+        40.12587527247004,
+        -8.856090454927187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349861",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "28",
+      "coordenadas": [
+        40.12587527247004,
+        -8.856090454927187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349862",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "28",
+      "coordenadas": [
+        40.12587527247004,
+        -8.856090454927187
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349863",
+      "rua": "R DR PEDRO SANTANA LOPES",
+      "casa": "28",
+      "coordenadas": [
+        40.12587527247004,
+        -8.856090454927187
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR PEDRO SANTANA LOPES"
+  ],
+  "centro": [
+    40.12584261739609,
+    -8.85627195169998
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.125857113945784,
+                -8.856203913947036
+              ],
+              [
+                40.12582812084639,
+                -8.856339989452923
+              ],
+              [
+                40.12580391419026,
+                -8.856453201925886
+              ],
+              [
+                40.1257844939774,
+                -8.856543551365924
+              ],
+              [
+                40.1257698602078,
+                -8.856611037773039
+              ],
+              [
+                40.12576001288147,
+                -8.856655661147228
+              ],
+              [
+                40.1257549519984,
+                -8.856677421488495
+              ],
+              [
+                40.12575467755862,
+                -8.856676318796836
+              ],
+              [
+                40.12575918956209,
+                -8.856652353072256
+              ],
+              [
+                40.12576848800883,
+                -8.856605524314748
+              ],
+              [
+                40.12577778414813,
+                -8.856559062140427
+              ],
+              [
+                40.12578707797998,
+                -8.856512966549289
+              ],
+              [
+                40.1257963695044,
+                -8.856467237541334
+              ],
+              [
+                40.12580565872137,
+                -8.856421875116563
+              ],
+              [
+                40.1258149456309,
+                -8.856376879274976
+              ],
+              [
+                40.125824230232986,
+                -8.856332250016571
+              ],
+              [
+                40.12583351252763,
+                -8.85628798734135
+              ],
+              [
+                40.12584279251483,
+                -8.856244091249316
+              ],
+              [
+                40.12585221433681,
+                -8.85620001333674
+              ],
+              [
+                40.12586177799358,
+                -8.856155753603627
+              ],
+              [
+                40.12587148348513,
+                -8.856111312049974
+              ],
+              [
+                40.12588133081145,
+                -8.856066688675785
+              ],
+              [
+                40.12589131997257,
+                -8.856021883481056
+              ],
+              [
+                40.125901450968456,
+                -8.855976896465789
+              ],
+              [
+                40.12591172379913,
+                -8.855931727629983
+              ],
+              [
+                40.12592213846458,
+                -8.855886376973638
+              ],
+              [
+                40.12592762715943,
+                -8.855863704587573
+              ],
+              [
+                40.125928189883666,
+                -8.855863710471786
+              ],
+              [
+                40.125923826637305,
+                -8.855886394626278
+              ],
+              [
+                40.125914537420336,
+                -8.85593175705105
+              ],
+              [
+                40.12590032223275,
+                -8.8559997977461
+              ],
+              [
+                40.125881181074575,
+                -8.85609051671143
+              ],
+              [
+                40.125857113945784,
+                -8.856203913947036
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.12584038495866,
+    -8.856268995497658
+  ],
+  "centroDeMassa": [
+    40.12584261739609,
+    -8.85627195169998
+  ]
+}

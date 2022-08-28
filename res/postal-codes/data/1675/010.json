@@ -1,1 +1,455 @@
-{"CP4":"1675","CP3":"010","Distrito":"Lisboa","Concelho":"Odivelas","CP":"1675-010","Artéria":"Rua Cidade de Viseu","Localidade":"Pontinha","Local":"Bairro Casalinho da Azenha","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTINHA","locais":[{"id":"pt.ine.add.PTCONT.2301817","rua":"R CIDADE DE VISEU","casa":"47","coordenadas":[38.78023698690677,-9.216912328986169]},{"id":"pt.ine.add.PTCONT.2301818","rua":"R CIDADE DE VISEU","casa":"47","coordenadas":[38.78023698690677,-9.216912328986169]},{"id":"pt.ine.add.PTCONT.2345821","rua":"R CIDADE DE VISEU","casa":"63","coordenadas":[38.77975202434918,-9.216755386577558]},{"id":"pt.ine.add.PTCONT.2383088","rua":"R CIDADE DE VISEU","casa":"52","coordenadas":[38.78082682430289,-9.217416100116166]},{"id":"pt.ine.add.PTCONT.2421060","rua":"R CIDADE DE VISEU","casa":"50","coordenadas":[38.78059404385835,-9.217262971679633]},{"id":"pt.ine.add.PTCONT.2446854","rua":"R CIDADE VISEU","casa":"9","coordenadas":[38.78132990551962,-9.217561815943945]},{"id":"pt.ine.add.PTCONT.2461030","rua":"R CIDADE DE VISEU","casa":"66","coordenadas":[38.77943967812023,-9.216439950318023]},{"id":"pt.ine.add.PTCONT.2473808","rua":"R CIDADE DE VISEU","casa":"64","coordenadas":[38.77962710730446,-9.216626910512256]},{"id":"pt.ine.add.PTCONT.2502573","rua":"R CIDADE DE VISEU","casa":"39","coordenadas":[38.7794968099785,-9.216107090236113]},{"id":"pt.ine.add.PTCONT.2528921","rua":"R CIDADE DE VISEU","casa":"62","coordenadas":[38.779814429460544,-9.216825377868076]},{"id":"pt.ine.add.PTCONT.2528935","rua":"R CIDADE DE VISEU","casa":"51","coordenadas":[38.78069258130031,-9.217322003505616]},{"id":"pt.ine.add.PTCONT.2553438","rua":"R CIDADE DE VISEU","casa":"59","coordenadas":[38.78009085541521,-9.217128765784196]},{"id":"pt.ine.add.PTCONT.2583623","rua":"R CIDADE DE VISEU","casa":"67","coordenadas":[38.77936815961965,-9.2163813295735]},{"id":"pt.ine.add.PTCONT.2583663","rua":"R CIDADE DE VISEU","casa":"67","coordenadas":[38.77936815961965,-9.2163813295735]},{"id":"pt.ine.add.PTCONT.2615838","rua":"R CIDADE DE VISEU","casa":"56","coordenadas":[38.780448018495576,-9.217467902531537]},{"id":"pt.ine.add.PTCONT.2654749","rua":"R CIDADE DE VISEU","casa":"70","coordenadas":[38.77901893328772,-9.216157400170056]},{"id":"pt.ine.add.PTCONT.2716509","rua":"R CIDADE DE VISEU","casa":"55","coordenadas":[38.78055534874601,-9.217550083518912]},{"id":"pt.ine.add.PTCONT.2753131","rua":"R CIDADE DE VISEU","casa":"68","coordenadas":[38.77927926805859,-9.216253399861829]},{"id":"pt.ine.add.PTCONT.2841714","rua":"R CIDADE DE VISEU","casa":"69","coordenadas":[38.77917161688793,-9.216205740538674]},{"id":"pt.ine.add.PTCONT.2914733","rua":"R CIDADE DE VISEU","casa":"46","coordenadas":[38.78013887607968,-9.216807273188971]},{"id":"pt.ine.add.PTCONT.2932567","rua":"R CIDADE DE VISEU","casa":"44","coordenadas":[38.77998736644959,-9.216632362572549]},{"id":"pt.ine.add.PTCONT.3329063","rua":"R CIDADE DE VISEU","casa":"58","coordenadas":[38.78016216001861,-9.217210400340486]},{"id":"pt.ine.add.PTCONT.3357614","rua":"R CIDADE DE VISEU","casa":"65","coordenadas":[38.77954658242564,-9.216568153132748]}],"ruas":["R CIDADE DE VISEU","R CIDADE VISEU"],"centroide":[38.77998346094026,-9.216832647835632]}
+{
+  "CP": "1675-010",
+  "CP4": "1675",
+  "CP3": "010",
+  "Distrito": "Lisboa",
+  "Concelho": "Odivelas",
+  "Localidade": "Pontinha",
+  "Designação Postal": "PONTINHA",
+  "partes": [
+    {
+      "Artéria": "Rua Cidade de Viseu",
+      "Local": "Bairro Casalinho da Azenha",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2301817",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "47",
+      "coordenadas": [
+        38.78023698690677,
+        -9.216912328986169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2301818",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "47",
+      "coordenadas": [
+        38.78023698690677,
+        -9.216912328986169
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2345821",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "63",
+      "coordenadas": [
+        38.77975202434918,
+        -9.216755386577558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2383088",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "52",
+      "coordenadas": [
+        38.78082682430289,
+        -9.217416100116166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2421060",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "50",
+      "coordenadas": [
+        38.78059404385835,
+        -9.217262971679633
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2446854",
+      "rua": "R CIDADE VISEU",
+      "casa": "9",
+      "coordenadas": [
+        38.78132990551962,
+        -9.217561815943945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2461030",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "66",
+      "coordenadas": [
+        38.77943967812023,
+        -9.216439950318023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2473808",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "64",
+      "coordenadas": [
+        38.77962710730446,
+        -9.216626910512256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2502573",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "39",
+      "coordenadas": [
+        38.7794968099785,
+        -9.216107090236113
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2528921",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "62",
+      "coordenadas": [
+        38.779814429460544,
+        -9.216825377868076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2528935",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "51",
+      "coordenadas": [
+        38.78069258130031,
+        -9.217322003505616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2553438",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "59",
+      "coordenadas": [
+        38.78009085541521,
+        -9.217128765784196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2583623",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "67",
+      "coordenadas": [
+        38.77936815961965,
+        -9.2163813295735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2583663",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "67",
+      "coordenadas": [
+        38.77936815961965,
+        -9.2163813295735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2615838",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "56",
+      "coordenadas": [
+        38.780448018495576,
+        -9.217467902531537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2654749",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "70",
+      "coordenadas": [
+        38.77901893328772,
+        -9.216157400170056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2716509",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "55",
+      "coordenadas": [
+        38.78055534874601,
+        -9.217550083518912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2753131",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "68",
+      "coordenadas": [
+        38.77927926805859,
+        -9.216253399861829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2841714",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "69",
+      "coordenadas": [
+        38.77917161688793,
+        -9.216205740538674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2914733",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "46",
+      "coordenadas": [
+        38.78013887607968,
+        -9.216807273188971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2932567",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "44",
+      "coordenadas": [
+        38.77998736644959,
+        -9.216632362572549
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3329063",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "58",
+      "coordenadas": [
+        38.78016216001861,
+        -9.217210400340486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3357614",
+      "rua": "R CIDADE DE VISEU",
+      "casa": "65",
+      "coordenadas": [
+        38.77954658242564,
+        -9.216568153132748
+      ]
+    }
+  ],
+  "ruas": [
+    "R CIDADE DE VISEU",
+    "R CIDADE VISEU"
+  ],
+  "centro": [
+    38.78017441940367,
+    -9.21683445309003
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.77966199832385,
+                -9.216749712765923
+              ],
+              [
+                38.77951909498248,
+                -9.216618087744619
+              ],
+              [
+                38.779401521382084,
+                -9.216502129758261
+              ],
+              [
+                38.77930927752266,
+                -9.216401838806847
+              ],
+              [
+                38.77924236340419,
+                -9.21631721489038
+              ],
+              [
+                38.77920077902668,
+                -9.216248258008855
+              ],
+              [
+                38.77918452439013,
+                -9.216194968162277
+              ],
+              [
+                38.779193599494555,
+                -9.216157345350643
+              ],
+              [
+                38.779228004339934,
+                -9.216135389573955
+              ],
+              [
+                38.77928773892628,
+                -9.216129100832214
+              ],
+              [
+                38.779368648807164,
+                -9.216146328272373
+              ],
+              [
+                38.77947073398258,
+                -9.216187071894435
+              ],
+              [
+                38.77959399445254,
+                -9.2162513316984
+              ],
+              [
+                38.77973843021704,
+                -9.216339107684268
+              ],
+              [
+                38.77990404127607,
+                -9.21645039985204
+              ],
+              [
+                38.780090827629635,
+                -9.216585208201712
+              ],
+              [
+                38.78029878927774,
+                -9.21674353273329
+              ],
+              [
+                38.78052792622037,
+                -9.216925373446768
+              ],
+              [
+                38.7807163185956,
+                -9.217084300751921
+              ],
+              [
+                38.78086396640341,
+                -9.217220314648749
+              ],
+              [
+                38.780970869643795,
+                -9.21733341513725
+              ],
+              [
+                38.78103702831677,
+                -9.217423602217423
+              ],
+              [
+                38.78106244242232,
+                -9.217490875889272
+              ],
+              [
+                38.78104711196045,
+                -9.217535236152795
+              ],
+              [
+                38.78099103693116,
+                -9.217556683007992
+              ],
+              [
+                38.78089421733447,
+                -9.217555216454866
+              ],
+              [
+                38.780807823152195,
+                -9.217552649142949
+              ],
+              [
+                38.780731854384335,
+                -9.217548981072248
+              ],
+              [
+                38.780666311030906,
+                -9.217544212242757
+              ],
+              [
+                38.78061119309191,
+                -9.217538342654482
+              ],
+              [
+                38.780566500567325,
+                -9.217531372307418
+              ],
+              [
+                38.78053223345717,
+                -9.21752330120157
+              ],
+              [
+                38.780508391761444,
+                -9.217514129336934
+              ],
+              [
+                38.780494975480146,
+                -9.217503856713513
+              ],
+              [
+                38.7804787696953,
+                -9.217490844696282
+              ],
+              [
+                38.780459774406914,
+                -9.217475093285247
+              ],
+              [
+                38.780437989614995,
+                -9.217456602480402
+              ],
+              [
+                38.78041341531953,
+                -9.21743537228175
+              ],
+              [
+                38.78038605152053,
+                -9.217411402689292
+              ],
+              [
+                38.78035589821799,
+                -9.217384693703025
+              ],
+              [
+                38.780322955411904,
+                -9.217355245322953
+              ],
+              [
+                38.780287223102285,
+                -9.21732305754907
+              ],
+              [
+                38.78023809441369,
+                -9.217278440119262
+              ],
+              [
+                38.78017556934614,
+                -9.217221393033524
+              ],
+              [
+                38.78009964789962,
+                -9.21715191629186
+              ],
+              [
+                38.78001033007412,
+                -9.217070009894268
+              ],
+              [
+                38.77990761586967,
+                -9.216975673840746
+              ],
+              [
+                38.77979150528624,
+                -9.2168689081313
+              ],
+              [
+                38.77966199832385,
+                -9.216749712765923
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.780168529341005,
+    -9.217009115456841
+  ],
+  "centroDeMassa": [
+    38.78017441940367,
+    -9.21683445309003
+  ]
+}

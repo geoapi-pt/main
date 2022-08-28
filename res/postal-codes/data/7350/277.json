@@ -1,1 +1,501 @@
-{"CP4":"7350","CP3":"277","Distrito":"Portalegre","Concelho":"Elvas","CP":"7350-277","Artéria":"Rua Mousinho de Albuquerque","Localidade":"Elvas","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"ELVAS","locais":[{"id":"pt.ine.add.PTCONT.3535554","rua":"R MOUSINHO ALBUQUERQUE","casa":"14A","coordenadas":[38.88046929397984,-7.159140227369645]},{"id":"pt.ine.add.PTCONT.3535555","rua":"R MOUSINHO ALBUQUERQUE","casa":"14B","coordenadas":[38.88046929397984,-7.159140227369645]},{"id":"pt.ine.add.PTCONT.3465282","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"12","coordenadas":[38.880491662356405,-7.15899322011745]},{"id":"pt.ine.add.PTCONT.3468775","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"9","coordenadas":[38.880516975212885,-7.159520120964001]},{"id":"pt.ine.add.PTCONT.3468776","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"9","coordenadas":[38.880516975212885,-7.159520120964001]},{"id":"pt.ine.add.PTCONT.3468806","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"9","coordenadas":[38.880516975212885,-7.159520120964001]},{"id":"pt.ine.add.PTCONT.3471745","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"10","coordenadas":[38.88044591201529,-7.159600180662064]},{"id":"pt.ine.add.PTCONT.3478660","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"9","coordenadas":[38.88041465642602,-7.159664262812444]},{"id":"pt.ine.add.PTCONT.3500067","rua":"ESTR NACIONAL","casa":"","coordenadas":[38.87803843660626,-7.156050487452279]},{"id":"pt.ine.add.PTCONT.3505969","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"6","coordenadas":[38.880028151379356,-7.16001723281439]},{"id":"pt.ine.add.PTCONT.3508782","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"1","coordenadas":[38.880408327132564,-7.159418309793097]},{"id":"pt.ine.add.PTCONT.3508783","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"1","coordenadas":[38.880408327132564,-7.159418309793097]},{"id":"pt.ine.add.PTCONT.3509354","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"3","coordenadas":[38.88035668557047,-7.159523451637802]},{"id":"pt.ine.add.PTCONT.3509355","rua":"R MOUSINHO ALBUQUERQUE","casa":"3A","coordenadas":[38.88035668557047,-7.159523451637802]},{"id":"pt.ine.add.PTCONT.3509356","rua":"R MOUSINHO ALBUQUERQUE","casa":"3B","coordenadas":[38.88035668557047,-7.159523451637802]},{"id":"pt.ine.add.PTCONT.3515710","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[38.879941457902774,-7.159573822161063]},{"id":"pt.ine.add.PTCONT.3515711","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[38.879941457902774,-7.159573822161063]},{"id":"pt.ine.add.PTCONT.3515712","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[38.879941457902774,-7.159573822161063]},{"id":"pt.ine.add.PTCONT.3515713","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[38.879941457902774,-7.159573822161063]},{"id":"pt.ine.add.PTCONT.3515714","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[38.879941457902774,-7.159573822161063]},{"id":"pt.ine.add.PTCONT.3515819","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"","coordenadas":[38.879941457902774,-7.159573822161063]},{"id":"pt.ine.add.PTCONT.3519245","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"15","coordenadas":[38.88046703177643,-7.15925152806971]},{"id":"pt.ine.add.PTCONT.3519246","rua":"R MOUSINHO ALBUQUERQUE","casa":"15A","coordenadas":[38.88046703177643,-7.15925152806971]},{"id":"pt.ine.add.PTCONT.3519247","rua":"R MOUSINHO ALBUQUERQUE","casa":"15B","coordenadas":[38.88046703177643,-7.15925152806971]},{"id":"pt.ine.add.PTCONT.3524795","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"8","coordenadas":[38.88037562088132,-7.159761194447931]},{"id":"pt.ine.add.PTCONT.3524794","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"8","coordenadas":[38.88037562088132,-7.159761194447931]},{"id":"pt.ine.add.PTCONT.3526251","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"2","coordenadas":[38.88037232841891,-7.159479284139369]},{"id":"pt.ine.add.PTCONT.3528022","rua":"R MOUSINHO DE ALBUQUERQUE","casa":"7","coordenadas":[38.88017914254312,-7.159926473791378]}],"ruas":["R MOUSINHO ALBUQUERQUE","R MOUSINHO DE ALBUQUERQUE","ESTR NACIONAL"],"centroide":[38.88022105393651,-7.159361939488899]}
+{
+  "CP": "7350-277",
+  "CP4": "7350",
+  "CP3": "277",
+  "Distrito": "Portalegre",
+  "Concelho": "Elvas",
+  "Localidade": "Elvas",
+  "Designação Postal": "ELVAS",
+  "partes": [
+    {
+      "Artéria": "Rua Mousinho de Albuquerque",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3535554",
+      "rua": "R MOUSINHO ALBUQUERQUE",
+      "casa": "14A",
+      "coordenadas": [
+        38.88046929397984,
+        -7.159140227369645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3535555",
+      "rua": "R MOUSINHO ALBUQUERQUE",
+      "casa": "14B",
+      "coordenadas": [
+        38.88046929397984,
+        -7.159140227369645
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3465282",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "12",
+      "coordenadas": [
+        38.880491662356405,
+        -7.15899322011745
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3468775",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "9",
+      "coordenadas": [
+        38.880516975212885,
+        -7.159520120964001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3468776",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "9",
+      "coordenadas": [
+        38.880516975212885,
+        -7.159520120964001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3468806",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "9",
+      "coordenadas": [
+        38.880516975212885,
+        -7.159520120964001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3471745",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "10",
+      "coordenadas": [
+        38.88044591201529,
+        -7.159600180662064
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478660",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "9",
+      "coordenadas": [
+        38.88041465642602,
+        -7.159664262812444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3500067",
+      "rua": "ESTR NACIONAL",
+      "casa": "",
+      "coordenadas": [
+        38.87803843660626,
+        -7.156050487452279
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3505969",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "6",
+      "coordenadas": [
+        38.880028151379356,
+        -7.16001723281439
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3508782",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "1",
+      "coordenadas": [
+        38.880408327132564,
+        -7.159418309793097
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3508783",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "1",
+      "coordenadas": [
+        38.880408327132564,
+        -7.159418309793097
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509354",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "3",
+      "coordenadas": [
+        38.88035668557047,
+        -7.159523451637802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509355",
+      "rua": "R MOUSINHO ALBUQUERQUE",
+      "casa": "3A",
+      "coordenadas": [
+        38.88035668557047,
+        -7.159523451637802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3509356",
+      "rua": "R MOUSINHO ALBUQUERQUE",
+      "casa": "3B",
+      "coordenadas": [
+        38.88035668557047,
+        -7.159523451637802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515710",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        38.879941457902774,
+        -7.159573822161063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515711",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        38.879941457902774,
+        -7.159573822161063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515712",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        38.879941457902774,
+        -7.159573822161063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515713",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        38.879941457902774,
+        -7.159573822161063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515714",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        38.879941457902774,
+        -7.159573822161063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515819",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "",
+      "coordenadas": [
+        38.879941457902774,
+        -7.159573822161063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519245",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "15",
+      "coordenadas": [
+        38.88046703177643,
+        -7.15925152806971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519246",
+      "rua": "R MOUSINHO ALBUQUERQUE",
+      "casa": "15A",
+      "coordenadas": [
+        38.88046703177643,
+        -7.15925152806971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519247",
+      "rua": "R MOUSINHO ALBUQUERQUE",
+      "casa": "15B",
+      "coordenadas": [
+        38.88046703177643,
+        -7.15925152806971
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3524795",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "8",
+      "coordenadas": [
+        38.88037562088132,
+        -7.159761194447931
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3524794",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "8",
+      "coordenadas": [
+        38.88037562088132,
+        -7.159761194447931
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3526251",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "2",
+      "coordenadas": [
+        38.88037232841891,
+        -7.159479284139369
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3528022",
+      "rua": "R MOUSINHO DE ALBUQUERQUE",
+      "casa": "7",
+      "coordenadas": [
+        38.88017914254312,
+        -7.159926473791378
+      ]
+    }
+  ],
+  "ruas": [
+    "R MOUSINHO ALBUQUERQUE",
+    "R MOUSINHO DE ALBUQUERQUE",
+    "ESTR NACIONAL"
+  ],
+  "centro": [
+    38.87927770590957,
+    -7.158033860133335
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.879157651166125,
+                -7.158281781718466
+              ],
+              [
+                38.878908936819485,
+                -7.157785938548203
+              ],
+              [
+                38.878729643418524,
+                -7.157398055972115
+              ],
+              [
+                38.87861977096324,
+                -7.1571181339902035
+              ],
+              [
+                38.878579319453635,
+                -7.156946172602469
+              ],
+              [
+                38.878608288889694,
+                -7.15688217180891
+              ],
+              [
+                38.87870667927144,
+                -7.156926131609527
+              ],
+              [
+                38.878874490598854,
+                -7.157078052004321
+              ],
+              [
+                38.87911172287195,
+                -7.157337932993292
+              ],
+              [
+                38.87941837609072,
+                -7.157705774576438
+              ],
+              [
+                38.879687093170524,
+                -7.158035868787418
+              ],
+              [
+                38.879917874111364,
+                -7.1583282156262324
+              ],
+              [
+                38.880110718913244,
+                -7.15858281509288
+              ],
+              [
+                38.88026562757615,
+                -7.158799667187364
+              ],
+              [
+                38.880382600100106,
+                -7.1589787719096805
+              ],
+              [
+                38.880461636485094,
+                -7.159120129259832
+              ],
+              [
+                38.88050273673112,
+                -7.159223739237817
+              ],
+              [
+                38.88050590083817,
+                -7.159289601843636
+              ],
+              [
+                38.88050646077042,
+                -7.1593509983969135
+              ],
+              [
+                38.880504416527856,
+                -7.15940792889765
+              ],
+              [
+                38.880499768110475,
+                -7.159460393345847
+              ],
+              [
+                38.880492515518284,
+                -7.159508391741502
+              ],
+              [
+                38.880482658751276,
+                -7.1595519240846155
+              ],
+              [
+                38.88047019780946,
+                -7.159590990375189
+              ],
+              [
+                38.88045513269282,
+                -7.159625590613221
+              ],
+              [
+                38.88043746340138,
+                -7.159655724798712
+              ],
+              [
+                38.880418932797326,
+                -7.159684674700758
+              ],
+              [
+                38.880399540880674,
+                -7.1597124403193595
+              ],
+              [
+                38.880379287651415,
+                -7.159739021654516
+              ],
+              [
+                38.880358173109556,
+                -7.159764418706226
+              ],
+              [
+                38.88033619725509,
+                -7.159788631474493
+              ],
+              [
+                38.880313360088024,
+                -7.159811659959313
+              ],
+              [
+                38.88028966160836,
+                -7.159833504160689
+              ],
+              [
+                38.88026510181608,
+                -7.15985416407862
+              ],
+              [
+                38.88024125276091,
+                -7.159873659616545
+              ],
+              [
+                38.88021811444283,
+                -7.159891990774462
+              ],
+              [
+                38.88019568686186,
+                -7.159909157552372
+              ],
+              [
+                38.88017397001799,
+                -7.159925159950275
+              ],
+              [
+                38.880152963911215,
+                -7.159939997968172
+              ],
+              [
+                38.88013266854155,
+                -7.159953671606061
+              ],
+              [
+                38.880113083908974,
+                -7.159966180863945
+              ],
+              [
+                38.8800942100135,
+                -7.159977525741823
+              ],
+              [
+                38.88004660606164,
+                -7.159925472113682
+              ],
+              [
+                38.87997027205338,
+                -7.159810019979523
+              ],
+              [
+                38.87986520798872,
+                -7.159631169339347
+              ],
+              [
+                38.87973141386767,
+                -7.159388920193153
+              ],
+              [
+                38.87956888969022,
+                -7.159083272540942
+              ],
+              [
+                38.879377635456365,
+                -7.158714226382712
+              ],
+              [
+                38.879157651166125,
+                -7.158281781718466
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.879938331496554,
+    -7.1590447882645725
+  ],
+  "centroDeMassa": [
+    38.87927770590957,
+    -7.158033860133335
+  ]
+}

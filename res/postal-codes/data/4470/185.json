@@ -1,1 +1,374 @@
-{"CP4":"4470","CP3":"185","Distrito":"Porto","Concelho":"Maia","CP":"4470-185","Artéria":"Avenida Doutor Germano Vieira","Localidade":"Maia","Local":"","Troço":"Pares de 598 a 1506","Porta":"","Cliente":"","Designação Postal":"MAIA","locais":[{"id":"pt.ine.add.PTCONT.3789536","rua":"AV DR GERMANO VIEIRA","casa":"606","coordenadas":[41.21399583517633,-8.609578142784072]},{"id":"pt.ine.add.PTCONT.3869308","rua":"AV DR GERMANO VIEIRA","casa":"639","coordenadas":[41.21706870296275,-8.60461588054398]},{"id":"pt.ine.add.PTCONT.4057686","rua":"AV DR GERMANO VIEIRA","casa":"1032","coordenadas":[41.215118388778095,-8.60811958319569]},{"id":"pt.ine.add.PTCONT.4057687","rua":"AV DR GERMANO VIEIRA","casa":"1032","coordenadas":[41.215118388778095,-8.60811958319569]},{"id":"pt.ine.add.PTCONT.4057688","rua":"AV DR GERMANO VIEIRA","casa":"1032","coordenadas":[41.215118388778095,-8.60811958319569]},{"id":"pt.ine.add.PTCONT.4057689","rua":"AV DR GERMANO VIEIRA","casa":"1032","coordenadas":[41.215118388778095,-8.60811958319569]},{"id":"pt.ine.add.PTCONT.4057690","rua":"AV DR GERMANO VIEIRA","casa":"1032","coordenadas":[41.215118388778095,-8.60811958319569]},{"id":"pt.ine.add.PTCONT.4057691","rua":"AV DR GERMANO VIEIRA","casa":"1032","coordenadas":[41.215118388778095,-8.60811958319569]},{"id":"pt.ine.add.PTCONT.4149799","rua":"AV DR GERMANO VIEIRA","casa":"600","coordenadas":[41.213916115442856,-8.609050459193995]},{"id":"pt.ine.add.PTCONT.4156279","rua":"AV DR GERMANO VIEIRA","casa":"1366","coordenadas":[41.21434734128815,-8.609153884795736]},{"id":"pt.ine.add.PTCONT.4160564","rua":"AV DR GERMANO VIEIRA","casa":"1366","coordenadas":[41.21434734128815,-8.609153884795736]},{"id":"pt.ine.add.PTCONT.4251930","rua":"AV DR GERMANO VIEIRA","casa":"1240","coordenadas":[41.21362663722973,-8.61010535213534]},{"id":"pt.ine.add.PTCONT.4267478","rua":"R LUIS SILVA NEVES","casa":"1446","coordenadas":[41.21327112043011,-8.61063412888056]},{"id":"pt.ine.add.PTCONT.4267481","rua":"R LUIS SILVA NEVES","casa":"1446","coordenadas":[41.21327112043011,-8.61063412888056]},{"id":"pt.ine.add.PTCONT.4366442","rua":"AV DR GERMANO VIEIRA","casa":"1466","coordenadas":[41.2132167998152,-8.610705278381445]},{"id":"pt.ine.add.PTCONT.4379534","rua":"R LUIS SILVA NEVES","casa":"1446","coordenadas":[41.21327112043011,-8.61063412888056]}],"ruas":["AV DR GERMANO VIEIRA","R LUIS SILVA NEVES"],"centroide":[41.21451808978213,-8.608823242637703]}]}
+{
+  "CP": "4470-185",
+  "CP4": "4470",
+  "CP3": "185",
+  "Distrito": "Porto",
+  "Concelho": "Maia",
+  "Localidade": "Maia",
+  "Designação Postal": "MAIA",
+  "partes": [
+    {
+      "Artéria": "Avenida Doutor Germano Vieira",
+      "Local": "",
+      "Troço": "Impares de 525 a 549",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Doutor Germano Vieira",
+      "Local": "",
+      "Troço": "Impares de 565 a 1059",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Avenida Doutor Germano Vieira",
+      "Local": "",
+      "Troço": "Pares de 598 a 1506",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3789536",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "606",
+      "coordenadas": [
+        41.21399583517633,
+        -8.609578142784072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3869308",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "639",
+      "coordenadas": [
+        41.21706870296275,
+        -8.60461588054398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057686",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1032",
+      "coordenadas": [
+        41.215118388778095,
+        -8.60811958319569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057687",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1032",
+      "coordenadas": [
+        41.215118388778095,
+        -8.60811958319569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057688",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1032",
+      "coordenadas": [
+        41.215118388778095,
+        -8.60811958319569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057689",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1032",
+      "coordenadas": [
+        41.215118388778095,
+        -8.60811958319569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057690",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1032",
+      "coordenadas": [
+        41.215118388778095,
+        -8.60811958319569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057691",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1032",
+      "coordenadas": [
+        41.215118388778095,
+        -8.60811958319569
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4149799",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "600",
+      "coordenadas": [
+        41.213916115442856,
+        -8.609050459193995
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4156279",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1366",
+      "coordenadas": [
+        41.21434734128815,
+        -8.609153884795736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4160564",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1366",
+      "coordenadas": [
+        41.21434734128815,
+        -8.609153884795736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4251930",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1240",
+      "coordenadas": [
+        41.21362663722973,
+        -8.61010535213534
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4267478",
+      "rua": "R LUIS SILVA NEVES",
+      "casa": "1446",
+      "coordenadas": [
+        41.21327112043011,
+        -8.61063412888056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4267481",
+      "rua": "R LUIS SILVA NEVES",
+      "casa": "1446",
+      "coordenadas": [
+        41.21327112043011,
+        -8.61063412888056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4366442",
+      "rua": "AV DR GERMANO VIEIRA",
+      "casa": "1466",
+      "coordenadas": [
+        41.2132167998152,
+        -8.610705278381445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4379534",
+      "rua": "R LUIS SILVA NEVES",
+      "casa": "1446",
+      "coordenadas": [
+        41.21327112043011,
+        -8.61063412888056
+      ]
+    }
+  ],
+  "ruas": [
+    "AV DR GERMANO VIEIRA",
+    "R LUIS SILVA NEVES"
+  ],
+  "centro": [
+    41.215142751388974,
+    -8.607660579462713
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.21324735516109,
+                -8.610665256787197
+              ],
+              [
+                41.21324056508422,
+                -8.610674150474809
+              ],
+              [
+                41.213245550573646,
+                -8.610656075901664
+              ],
+              [
+                41.213262311629364,
+                -8.610611033067764
+              ],
+              [
+                41.213290848251376,
+                -8.610539021973109
+              ],
+              [
+                41.213331160439665,
+                -8.610440042617698
+              ],
+              [
+                41.213383248194255,
+                -8.610314095001533
+              ],
+              [
+                41.21344711151513,
+                -8.610161179124612
+              ],
+              [
+                41.2135227504023,
+                -8.609981294986936
+              ],
+              [
+                41.21361016485576,
+                -8.609774442588504
+              ],
+              [
+                41.213735911682534,
+                -8.60952415644847
+              ],
+              [
+                41.213899990882624,
+                -8.609230436566834
+              ],
+              [
+                41.21410240245603,
+                -8.608893282943596
+              ],
+              [
+                41.21434314640275,
+                -8.608512695578753
+              ],
+              [
+                41.21462222272278,
+                -8.60808867447231
+              ],
+              [
+                41.214939631416144,
+                -8.607621219624262
+              ],
+              [
+                41.215295372482814,
+                -8.607110331034614
+              ],
+              [
+                41.21568944592279,
+                -8.606556008703361
+              ],
+              [
+                41.21600378652365,
+                -8.606125722017449
+              ],
+              [
+                41.21623839428537,
+                -8.605819470976876
+              ],
+              [
+                41.216393269207956,
+                -8.605637255581641
+              ],
+              [
+                41.21646841129141,
+                -8.605579075831749
+              ],
+              [
+                41.21646382053572,
+                -8.605644931727193
+              ],
+              [
+                41.21637949694091,
+                -8.605834823267978
+              ],
+              [
+                41.216215440506964,
+                -8.606148750454103
+              ],
+              [
+                41.21597165123388,
+                -8.606586713285566
+              ],
+              [
+                41.215729472052,
+                -8.607009220539423
+              ],
+              [
+                41.21548890296131,
+                -8.607416272215675
+              ],
+              [
+                41.21524994396182,
+                -8.607807868314318
+              ],
+              [
+                41.21501259505353,
+                -8.608184008835353
+              ],
+              [
+                41.21477685623644,
+                -8.608544693778784
+              ],
+              [
+                41.21454272751054,
+                -8.608889923144606
+              ],
+              [
+                41.214310208875844,
+                -8.60921969693282
+              ],
+              [
+                41.21407930033236,
+                -8.60953401514343
+              ],
+              [
+                41.21387640659719,
+                -8.609810155288663
+              ],
+              [
+                41.213701527670345,
+                -8.610048117368521
+              ],
+              [
+                41.21355466355183,
+                -8.610247901383007
+              ],
+              [
+                41.213435814241656,
+                -8.610409507332117
+              ],
+              [
+                41.2133449797398,
+                -8.61053293521585
+              ],
+              [
+                41.21328216004628,
+                -8.610618185034213
+              ],
+              [
+                41.21324735516109,
+                -8.610665256787197
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.214518225485804,
+    -8.608625066039135
+  ],
+  "centroDeMassa": [
+    41.215142751388974,
+    -8.607660579462713
+  ]
+}

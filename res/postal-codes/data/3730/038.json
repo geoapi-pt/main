@@ -1,1 +1,426 @@
-{"CP4":"3730","CP3":"038","Distrito":"Aveiro","Concelho":"Vale de Cambra","CP":"3730-038","Artéria":" ","Localidade":"Bouça da Aguincheira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VALE DE CAMBRA","locais":[{"id":"pt.ine.add.PTCONT.297127","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"","coordenadas":[40.83250092166564,-8.387483494840438]},{"id":"pt.ine.add.PTCONT.328849","rua":"R BOUCA DA AGUINCHEIRA","casa":"","coordenadas":[40.833272181252774,-8.384818889444341]},{"id":"pt.ine.add.PTCONT.10120","rua":"R BOUCA DA AGUINCHEIRA","casa":"","coordenadas":[40.833136669193806,-8.385019924994332]},{"id":"pt.ine.add.PTCONT.32518","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"","coordenadas":[40.83246542498627,-8.38724624621852]},{"id":"pt.ine.add.PTCONT.42395","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"362","coordenadas":[40.83080018745267,-8.386943504261307]},{"id":"pt.ine.add.PTCONT.74587","rua":"R BOUCA DA AGUINCHEIRA","casa":"","coordenadas":[40.833209483746,-8.384664527174545]},{"id":"pt.ine.add.PTCONT.126633","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"324","coordenadas":[40.83102562067701,-8.386802099273295]},{"id":"pt.ine.add.PTCONT.140684","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"","coordenadas":[40.83192435238312,-8.387599846791558]},{"id":"pt.ine.add.PTCONT.140685","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"344","coordenadas":[40.83088143939491,-8.38684897119546]},{"id":"pt.ine.add.PTCONT.166259","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"","coordenadas":[40.83127780754726,-8.386779349609865]},{"id":"pt.ine.add.PTCONT.178502","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"276","coordenadas":[40.83139492223058,-8.386756085039998]},{"id":"pt.ine.add.PTCONT.180091","rua":"R BOUCA DA AGUINCHEIRA","casa":"","coordenadas":[40.833450593529676,-8.385590192734508]},{"id":"pt.ine.add.PTCONT.202574","rua":"R AMARO EDUARDO MARTINS ALMEIDA","casa":"304","coordenadas":[40.831142839627915,-8.386731413577314]},{"id":"pt.ine.add.PTCONT.256679","rua":"R AMARO EDUARDO MARTINS ALMEIDA CASA DA BOUCA","casa":"","coordenadas":[40.833242418110956,-8.38607549025147]},{"id":"pt.ine.add.PTCONT.256680","rua":"R AMARO EDUARDO MARTINS ALMEIDA CASA DA BOUCA","casa":"","coordenadas":[40.833242418110956,-8.38607549025147]},{"id":"pt.ine.add.PTCONT.257045","rua":"R BOUCA AGUINCHEIRA","casa":"1252","coordenadas":[40.83335389666619,-8.384510947522354]}],"ruas":["R AMARO EDUARDO MARTINS ALMEIDA","R BOUCA DA AGUINCHEIRA","R AMARO EDUARDO MARTINS ALMEIDA CASA DA BOUCA","R BOUCA AGUINCHEIRA"],"centroide":[40.832197818660646,-8.386362368377227]}
+{
+  "CP": "3730-038",
+  "CP4": "3730",
+  "CP3": "038",
+  "Distrito": "Aveiro",
+  "Concelho": "Vale de Cambra",
+  "Localidade": "Bouça da Aguincheira",
+  "Designação Postal": "VALE DE CAMBRA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.297127",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        40.83250092166564,
+        -8.387483494840438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.328849",
+      "rua": "R BOUCA DA AGUINCHEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.833272181252774,
+        -8.384818889444341
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.10120",
+      "rua": "R BOUCA DA AGUINCHEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.833136669193806,
+        -8.385019924994332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.32518",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        40.83246542498627,
+        -8.38724624621852
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.42395",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "362",
+      "coordenadas": [
+        40.83080018745267,
+        -8.386943504261307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.74587",
+      "rua": "R BOUCA DA AGUINCHEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.833209483746,
+        -8.384664527174545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.126633",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "324",
+      "coordenadas": [
+        40.83102562067701,
+        -8.386802099273295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.140684",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        40.83192435238312,
+        -8.387599846791558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.140685",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "344",
+      "coordenadas": [
+        40.83088143939491,
+        -8.38684897119546
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.166259",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "",
+      "coordenadas": [
+        40.83127780754726,
+        -8.386779349609865
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.178502",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "276",
+      "coordenadas": [
+        40.83139492223058,
+        -8.386756085039998
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.180091",
+      "rua": "R BOUCA DA AGUINCHEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.833450593529676,
+        -8.385590192734508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.202574",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA",
+      "casa": "304",
+      "coordenadas": [
+        40.831142839627915,
+        -8.386731413577314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.256679",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA CASA DA BOUCA",
+      "casa": "",
+      "coordenadas": [
+        40.833242418110956,
+        -8.38607549025147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.256680",
+      "rua": "R AMARO EDUARDO MARTINS ALMEIDA CASA DA BOUCA",
+      "casa": "",
+      "coordenadas": [
+        40.833242418110956,
+        -8.38607549025147
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.257045",
+      "rua": "R BOUCA AGUINCHEIRA",
+      "casa": "1252",
+      "coordenadas": [
+        40.83335389666619,
+        -8.384510947522354
+      ]
+    }
+  ],
+  "ruas": [
+    "R AMARO EDUARDO MARTINS ALMEIDA",
+    "R BOUCA DA AGUINCHEIRA",
+    "R AMARO EDUARDO MARTINS ALMEIDA CASA DA BOUCA",
+    "R BOUCA AGUINCHEIRA"
+  ],
+  "centro": [
+    40.83212539049117,
+    -8.386055397156955
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.831432530226046,
+                -8.387312696934572
+              ],
+              [
+                40.83129200960974,
+                -8.38723065411829
+              ],
+              [
+                40.831170323632065,
+                -8.387157389574892
+              ],
+              [
+                40.831067472293036,
+                -8.38709290330437
+              ],
+              [
+                40.83098345559264,
+                -8.387037195306736
+              ],
+              [
+                40.83091827353088,
+                -8.386990265581979
+              ],
+              [
+                40.83087192610775,
+                -8.386952114130105
+              ],
+              [
+                40.83084441332326,
+                -8.38692274095111
+              ],
+              [
+                40.8308357351774,
+                -8.386902146045
+              ],
+              [
+                40.83084589167018,
+                -8.386890329411766
+              ],
+              [
+                40.83089341074623,
+                -8.386843458237799
+              ],
+              [
+                40.83097829240553,
+                -8.38676153252309
+              ],
+              [
+                40.831100536648115,
+                -8.386644552267644
+              ],
+              [
+                40.83126014347396,
+                -8.38649251747146
+              ],
+              [
+                40.83145711288307,
+                -8.386305428134536
+              ],
+              [
+                40.83169144487545,
+                -8.386083284256875
+              ],
+              [
+                40.8319631394511,
+                -8.385826085838476
+              ],
+              [
+                40.83227219661,
+                -8.385533832879338
+              ],
+              [
+                40.83254413251254,
+                -8.385294974746532
+              ],
+              [
+                40.83277894715871,
+                -8.385109511440056
+              ],
+              [
+                40.8329766405485,
+                -8.384977442959915
+              ],
+              [
+                40.833137212681926,
+                -8.384898769306108
+              ],
+              [
+                40.833260663558974,
+                -8.38487349047863
+              ],
+              [
+                40.83334699317966,
+                -8.384901606477484
+              ],
+              [
+                40.83339620154396,
+                -8.38498311730267
+              ],
+              [
+                40.833408288651896,
+                -8.385118022954192
+              ],
+              [
+                40.83341561213042,
+                -8.385243648172974
+              ],
+              [
+                40.833418171979545,
+                -8.385359992959017
+              ],
+              [
+                40.83341596819925,
+                -8.385467057312324
+              ],
+              [
+                40.83340900078955,
+                -8.385564841232894
+              ],
+              [
+                40.833397269750435,
+                -8.385653344720726
+              ],
+              [
+                40.83338077508192,
+                -8.385732567775822
+              ],
+              [
+                40.833359516783986,
+                -8.385802510398179
+              ],
+              [
+                40.833333494856646,
+                -8.385863172587797
+              ],
+              [
+                40.83329913978827,
+                -8.385938252075418
+              ],
+              [
+                40.83325645157885,
+                -8.38602774886104
+              ],
+              [
+                40.83320543022839,
+                -8.38613166294466
+              ],
+              [
+                40.83314607573688,
+                -8.38624999432628
+              ],
+              [
+                40.83307838810434,
+                -8.3863827430059
+              ],
+              [
+                40.83300236733075,
+                -8.386529908983523
+              ],
+              [
+                40.83291801341613,
+                -8.386691492259143
+              ],
+              [
+                40.832825326360464,
+                -8.386867492832765
+              ],
+              [
+                40.832735216291724,
+                -8.38702331133392
+              ],
+              [
+                40.8326476832099,
+                -8.387158947762607
+              ],
+              [
+                40.83256272711499,
+                -8.38727440211883
+              ],
+              [
+                40.832480348006996,
+                -8.387369674402585
+              ],
+              [
+                40.832400545885925,
+                -8.387444764613875
+              ],
+              [
+                40.83232332075177,
+                -8.387499672752698
+              ],
+              [
+                40.832248672604535,
+                -8.387534398819053
+              ],
+              [
+                40.832176601444225,
+                -8.387548942812943
+              ],
+              [
+                40.83209597410191,
+                -8.387551413455562
+              ],
+              [
+                40.832006790577594,
+                -8.387541810746907
+              ],
+              [
+                40.83190905087129,
+                -8.387520134686984
+              ],
+              [
+                40.831802754982974,
+                -8.387486385275787
+              ],
+              [
+                40.83168790291266,
+                -8.38744056251332
+              ],
+              [
+                40.831564494660356,
+                -8.387382666399581
+              ],
+              [
+                40.831432530226046,
+                -8.387312696934572
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.83230768702902,
+    -8.386436063942442
+  ],
+  "centroDeMassa": [
+    40.83212539049117,
+    -8.386055397156955
+  ]
+}

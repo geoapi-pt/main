@@ -1,1 +1,426 @@
-{"CP4":"2965","CP3":"223","Distrito":"Setúbal","Concelho":"Palmela","CP":"2965-223","Artéria":"Travessa Angelina Marques","Localidade":"Forninho","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"POCEIRÃO","locais":[{"id":"pt.ine.add.PTCONT.4674919","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.654657644285614,-8.771710863730128]},{"id":"pt.ine.add.PTCONT.4674927","rua":"TV ANGELINA MARQUES","casa":"","coordenadas":[38.655359382543715,-8.770223635816375]},{"id":"pt.ine.add.PTCONT.4696880","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.66278562316433,-8.769577093769628]},{"id":"pt.ine.add.PTCONT.4709057","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.65554240765948,-8.771351098038243]},{"id":"pt.ine.add.PTCONT.4726213","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.6542720675738,-8.771385777160797]},{"id":"pt.ine.add.PTCONT.4726223","rua":"R FERREIRA DA COSTA","casa":"CCI 716","coordenadas":[38.66013947867105,-8.770817452183149]},{"id":"pt.ine.add.PTCONT.4773257","rua":"TV ANGELINA MARQUES","casa":"CCI 4210","coordenadas":[38.65516956236863,-8.76536248189478]},{"id":"pt.ine.add.PTCONT.4831144","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.65487426866996,-8.771632370649362]},{"id":"pt.ine.add.PTCONT.4866275","rua":"R FERREIRA DA COSTA","casa":"CCI 216","coordenadas":[38.66072585480487,-8.76900739013507]},{"id":"pt.ine.add.PTCONT.4978446","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.656363679854095,-8.769416862857152]},{"id":"pt.ine.add.PTCONT.4983438","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.66265050132346,-8.771230358134199]},{"id":"pt.ine.add.PTCONT.5007092","rua":"R FERREIRA DA COSTA","casa":"714","coordenadas":[38.66290245682746,-8.767969619014455]},{"id":"pt.ine.add.PTCONT.5027647","rua":"R FERREIRA DA COSTA","casa":"CCI 704","coordenadas":[38.662397290952796,-8.769757484687945]},{"id":"pt.ine.add.PTCONT.5038501","rua":"TV ANGELINA MARQUES","casa":"201","coordenadas":[38.655356813368954,-8.769040334276331]},{"id":"pt.ine.add.PTCONT.5049427","rua":"R FERREIRA DA COSTA","casa":"715","coordenadas":[38.66144134712299,-8.769955824938776]},{"id":"pt.ine.add.PTCONT.5067844","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.66229219780437,-8.770859522306406]},{"id":"pt.ine.add.PTCONT.5075400","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.65729841227402,-8.771458589284041]},{"id":"pt.ine.add.PTCONT.5085557","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.65420550158917,-8.772028512123857]},{"id":"pt.ine.add.PTCONT.5110133","rua":"R FERREIRA DA COSTA","casa":"","coordenadas":[38.65469950266686,-8.770642847873171]}],"ruas":["R FERREIRA DA COSTA","TV ANGELINA MARQUES"],"centroide":[38.65824636060327,-8.770154737277815]}
+{
+  "CP": "2965-223",
+  "CP4": "2965",
+  "CP3": "223",
+  "Distrito": "Setúbal",
+  "Concelho": "Palmela",
+  "Localidade": "Forninho",
+  "Designação Postal": "POCEIRÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Ferreira da Costa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Angelina Marques",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4674919",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.654657644285614,
+        -8.771710863730128
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4674927",
+      "rua": "TV ANGELINA MARQUES",
+      "casa": "",
+      "coordenadas": [
+        38.655359382543715,
+        -8.770223635816375
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4696880",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.66278562316433,
+        -8.769577093769628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4709057",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.65554240765948,
+        -8.771351098038243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4726213",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.6542720675738,
+        -8.771385777160797
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4726223",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "CCI 716",
+      "coordenadas": [
+        38.66013947867105,
+        -8.770817452183149
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4773257",
+      "rua": "TV ANGELINA MARQUES",
+      "casa": "CCI 4210",
+      "coordenadas": [
+        38.65516956236863,
+        -8.76536248189478
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4831144",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.65487426866996,
+        -8.771632370649362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4866275",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "CCI 216",
+      "coordenadas": [
+        38.66072585480487,
+        -8.76900739013507
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4978446",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.656363679854095,
+        -8.769416862857152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4983438",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.66265050132346,
+        -8.771230358134199
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5007092",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "714",
+      "coordenadas": [
+        38.66290245682746,
+        -8.767969619014455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5027647",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "CCI 704",
+      "coordenadas": [
+        38.662397290952796,
+        -8.769757484687945
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5038501",
+      "rua": "TV ANGELINA MARQUES",
+      "casa": "201",
+      "coordenadas": [
+        38.655356813368954,
+        -8.769040334276331
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5049427",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "715",
+      "coordenadas": [
+        38.66144134712299,
+        -8.769955824938776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5067844",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.66229219780437,
+        -8.770859522306406
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5075400",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.65729841227402,
+        -8.771458589284041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5085557",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.65420550158917,
+        -8.772028512123857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5110133",
+      "rua": "R FERREIRA DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        38.65469950266686,
+        -8.770642847873171
+      ]
+    }
+  ],
+  "ruas": [
+    "R FERREIRA DA COSTA",
+    "TV ANGELINA MARQUES"
+  ],
+  "centro": [
+    38.658553979208314,
+    -8.768695497009318
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.658955813939706,
+                -8.771579550504674
+              ],
+              [
+                38.657900188972924,
+                -8.771679319753382
+              ],
+              [
+                38.65697755722049,
+                -8.771756575112203
+              ],
+              [
+                38.65618791868242,
+                -8.771811316581138
+              ],
+              [
+                38.65553127335871,
+                -8.771843544160186
+              ],
+              [
+                38.65500762124936,
+                -8.771853257849349
+              ],
+              [
+                38.65461696235437,
+                -8.771840457648624
+              ],
+              [
+                38.654359296673725,
+                -8.771805143558014
+              ],
+              [
+                38.65423462420745,
+                -8.771747315577517
+              ],
+              [
+                38.65424294495552,
+                -8.771666973707136
+              ],
+              [
+                38.65426424896626,
+                -8.77150256058202
+              ],
+              [
+                38.65429853623965,
+                -8.771254076202169
+              ],
+              [
+                38.65434580677571,
+                -8.770921520567587
+              ],
+              [
+                38.65440606057443,
+                -8.770504893678268
+              ],
+              [
+                38.65447929763581,
+                -8.770004195534218
+              ],
+              [
+                38.654565517959846,
+                -8.769419426135434
+              ],
+              [
+                38.65466472154654,
+                -8.768750585481914
+              ],
+              [
+                38.65477690839589,
+                -8.767997673573664
+              ],
+              [
+                38.65499589836499,
+                -8.767379612171437
+              ],
+              [
+                38.65532169145385,
+                -8.766896401275238
+              ],
+              [
+                38.65575428766245,
+                -8.766548040885066
+              ],
+              [
+                38.65629368699081,
+                -8.766334531000918
+              ],
+              [
+                38.6569398894389,
+                -8.766255871622798
+              ],
+              [
+                38.65769289500676,
+                -8.766312062750703
+              ],
+              [
+                38.65855270369436,
+                -8.766503104384638
+              ],
+              [
+                38.65951931550172,
+                -8.766828996524596
+              ],
+              [
+                38.66036327530717,
+                -8.767139268940111
+              ],
+              [
+                38.661084583110714,
+                -8.76743392163118
+              ],
+              [
+                38.66168323891235,
+                -8.767712954597803
+              ],
+              [
+                38.662159242712086,
+                -8.767976367839982
+              ],
+              [
+                38.66251259450991,
+                -8.768224161357715
+              ],
+              [
+                38.66274329430583,
+                -8.768456335151
+              ],
+              [
+                38.66285134209984,
+                -8.768672889219843
+              ],
+              [
+                38.66283673789195,
+                -8.768873823564242
+              ],
+              [
+                38.66282184793128,
+                -8.769075473371284
+              ],
+              [
+                38.66280667221784,
+                -8.769277838640976
+              ],
+              [
+                38.662791210751614,
+                -8.769480919373311
+              ],
+              [
+                38.66277546353262,
+                -8.769684715568296
+              ],
+              [
+                38.66275943056084,
+                -8.769889227225924
+              ],
+              [
+                38.66274311183628,
+                -8.770094454346204
+              ],
+              [
+                38.66272650735895,
+                -8.770300396929127
+              ],
+              [
+                38.66270961712885,
+                -8.7705070549747
+              ],
+              [
+                38.66256288505665,
+                -8.770700351920663
+              ],
+              [
+                38.66228631114237,
+                -8.770880287767017
+              ],
+              [
+                38.66187989538601,
+                -8.771046862513764
+              ],
+              [
+                38.66134363778755,
+                -8.771200076160905
+              ],
+              [
+                38.660677538347024,
+                -8.771339928708436
+              ],
+              [
+                38.65988159706441,
+                -8.771466420156358
+              ],
+              [
+                38.658955813939706,
+                -8.771579550504674
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.65866428547447,
+    -8.769592307016284
+  ],
+  "centroDeMassa": [
+    38.658553979208314,
+    -8.768695497009318
+  ]
+}

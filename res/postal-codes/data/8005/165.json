@@ -1,1 +1,463 @@
-{"CP4":"8005","CP3":"165","Distrito":"Faro","Concelho":"Faro","CP":"8005-165","Artéria":"Rua 25 de Abril","Localidade":"Faro","Local":"Montenegro","Troço":"Impares de 1 a 73","Porta":"","Cliente":"","Designação Postal":"FARO","locais":[{"id":"pt.ine.add.PTCONT.1522868","rua":"R 25 DE ABRIL","casa":"41","coordenadas":[37.028658640966036,-7.96115627842621]},{"id":"pt.ine.add.PTCONT.1522994","rua":"R 25 DE ABRIL","casa":"3","coordenadas":[37.028299559369636,-7.962089894497377]},{"id":"pt.ine.add.PTCONT.1545272","rua":"R 25 DE ABRIL","casa":"8","coordenadas":[37.02899117369496,-7.96055987582026]},{"id":"pt.ine.add.PTCONT.1547976","rua":"R 25 DE ABRIL","casa":"29","coordenadas":[37.02851494095504,-7.9614825236634]},{"id":"pt.ine.add.PTCONT.1554339","rua":"R 25 DE ABRIL","casa":"33","coordenadas":[37.02854185936803,-7.9614037924103735]},{"id":"pt.ine.add.PTCONT.1569162","rua":"R 25 DE ABRIL","casa":"23","coordenadas":[37.028461120210515,-7.961651224624781]},{"id":"pt.ine.add.PTCONT.1605650","rua":"R 25 DE ABRIL","casa":"15","coordenadas":[37.02841626129335,-7.96178618927053]},{"id":"pt.ine.add.PTCONT.1624902","rua":"R 25 DE ABRIL","casa":"7","coordenadas":[37.02833545651756,-7.961988666262545]},{"id":"pt.ine.add.PTCONT.1630905","rua":"R 25 DE ABRIL","casa":"1","coordenadas":[37.02828165123981,-7.962168605067595]},{"id":"pt.ine.add.PTCONT.1639409","rua":"R 25 DE ABRIL","casa":"5","coordenadas":[37.02831751605511,-7.962044899692131]},{"id":"pt.ine.add.PTCONT.1642585","rua":"R 25 ABRIL","casa":"25","coordenadas":[37.028488087468844,-7.961606209362822]},{"id":"pt.ine.add.PTCONT.1643958","rua":"R 25 DE ABRIL","casa":"45","coordenadas":[37.02872150434324,-7.961010033668108]},{"id":"pt.ine.add.PTCONT.1657522","rua":"R 25 DE ABRIL","casa":"47","coordenadas":[37.028712265310055,-7.9608527127837805]},{"id":"pt.ine.add.PTCONT.1658816","rua":"R 25 DE ABRIL","casa":"11","coordenadas":[37.02840738032387,-7.961876118417466]},{"id":"pt.ine.add.PTCONT.1686350","rua":"R 25 DE ABRIL","casa":"17","coordenadas":[37.02843420163256,-7.961729955707697]},{"id":"pt.ine.add.PTCONT.1697080","rua":"R 25 DE ABRIL","casa":"33 A","coordenadas":[37.02855979952519,-7.961347558665618]},{"id":"pt.ine.add.PTCONT.1698586","rua":"R 25 DE ABRIL","casa":"1 A","coordenadas":[37.02825481321295,-7.962303528741241]},{"id":"pt.ine.add.PTCONT.1724234","rua":"R 25 DE ABRIL","casa":"67","coordenadas":[37.02862037335621,-7.9596279040351865]},{"id":"pt.ine.add.PTCONT.1742046","rua":"R 25 DE ABRIL","casa":"43","coordenadas":[37.02865855952588,-7.9611000851746825]},{"id":"pt.ine.add.PTCONT.1744872","rua":"R 25 ABRIL","casa":"69A","coordenadas":[37.02867399378836,-7.95932433748641]},{"id":"pt.ine.add.PTCONT.1744873","rua":"R 25 DE ABRIL","casa":"69","coordenadas":[37.02867399378836,-7.95932433748641]},{"id":"pt.ine.add.PTCONT.1744874","rua":"R 25 ABRIL","casa":"73","coordenadas":[37.02867399378836,-7.95932433748641]},{"id":"pt.ine.add.PTCONT.1744875","rua":"R 25 ABRIL","casa":"N 71","coordenadas":[37.02867399378836,-7.95932433748641]},{"id":"pt.ine.add.PTCONT.1747460","rua":"R 25 DE ABRIL","casa":"9","coordenadas":[37.0283714508556,-7.961954869583468]},{"id":"pt.ine.add.PTCONT.1775276","rua":"R 25 DE ABRIL","casa":"65","coordenadas":[37.02866555845813,-7.959717710776496]},{"id":"pt.ine.add.PTCONT.1796437","rua":"R 25 DE ABRIL","casa":"27","coordenadas":[37.028524081696425,-7.961572412435804]},{"id":"pt.ine.add.PTCONT.1796574","rua":"R 25 DE ABRIL","casa":"27","coordenadas":[37.028524081696425,-7.961572412435804]},{"id":"pt.ine.add.PTCONT.1796575","rua":"R 25 DE ABRIL","casa":"27","coordenadas":[37.028524081696425,-7.961572412435804]},{"id":"pt.ine.add.PTCONT.1796576","rua":"R 25 DE ABRIL","casa":"27","coordenadas":[37.028524081696425,-7.961572412435804]},{"id":"pt.ine.add.PTCONT.1801986","rua":"R 25 DE ABRIL","casa":"49A","coordenadas":[37.02877517729094,-7.960740183675732]},{"id":"pt.ine.add.PTCONT.1845536","rua":"R 25 DE ABRIL","casa":"35","coordenadas":[37.02861373379242,-7.9612575277793685]}],"ruas":["R 25 DE ABRIL","R 25 ABRIL"],"centroide":[37.02854265509709,-7.961126194000544]}
+{
+  "CP": "8005-165",
+  "CP4": "8005",
+  "CP3": "165",
+  "Distrito": "Faro",
+  "Concelho": "Faro",
+  "Localidade": "Faro",
+  "Designação Postal": "FARO",
+  "partes": [
+    {
+      "Artéria": "Rua 25 de Abril",
+      "Local": "Montenegro",
+      "Troço": "Impares de 1 a 73",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1522868",
+      "rua": "R 25 DE ABRIL",
+      "casa": "41",
+      "coordenadas": [
+        37.028658640966036,
+        -7.96115627842621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1522994",
+      "rua": "R 25 DE ABRIL",
+      "casa": "3",
+      "coordenadas": [
+        37.028299559369636,
+        -7.962089894497377
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1545272",
+      "rua": "R 25 DE ABRIL",
+      "casa": "8",
+      "coordenadas": [
+        37.02899117369496,
+        -7.96055987582026
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1547976",
+      "rua": "R 25 DE ABRIL",
+      "casa": "29",
+      "coordenadas": [
+        37.02851494095504,
+        -7.9614825236634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1554339",
+      "rua": "R 25 DE ABRIL",
+      "casa": "33",
+      "coordenadas": [
+        37.02854185936803,
+        -7.9614037924103735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1569162",
+      "rua": "R 25 DE ABRIL",
+      "casa": "23",
+      "coordenadas": [
+        37.028461120210515,
+        -7.961651224624781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1605650",
+      "rua": "R 25 DE ABRIL",
+      "casa": "15",
+      "coordenadas": [
+        37.02841626129335,
+        -7.96178618927053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1624902",
+      "rua": "R 25 DE ABRIL",
+      "casa": "7",
+      "coordenadas": [
+        37.02833545651756,
+        -7.961988666262545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1630905",
+      "rua": "R 25 DE ABRIL",
+      "casa": "1",
+      "coordenadas": [
+        37.02828165123981,
+        -7.962168605067595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1639409",
+      "rua": "R 25 DE ABRIL",
+      "casa": "5",
+      "coordenadas": [
+        37.02831751605511,
+        -7.962044899692131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1642585",
+      "rua": "R 25 ABRIL",
+      "casa": "25",
+      "coordenadas": [
+        37.028488087468844,
+        -7.961606209362822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1643958",
+      "rua": "R 25 DE ABRIL",
+      "casa": "45",
+      "coordenadas": [
+        37.02872150434324,
+        -7.961010033668108
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1657522",
+      "rua": "R 25 DE ABRIL",
+      "casa": "47",
+      "coordenadas": [
+        37.028712265310055,
+        -7.9608527127837805
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1658816",
+      "rua": "R 25 DE ABRIL",
+      "casa": "11",
+      "coordenadas": [
+        37.02840738032387,
+        -7.961876118417466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1686350",
+      "rua": "R 25 DE ABRIL",
+      "casa": "17",
+      "coordenadas": [
+        37.02843420163256,
+        -7.961729955707697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1697080",
+      "rua": "R 25 DE ABRIL",
+      "casa": "33 A",
+      "coordenadas": [
+        37.02855979952519,
+        -7.961347558665618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1698586",
+      "rua": "R 25 DE ABRIL",
+      "casa": "1 A",
+      "coordenadas": [
+        37.02825481321295,
+        -7.962303528741241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1724234",
+      "rua": "R 25 DE ABRIL",
+      "casa": "67",
+      "coordenadas": [
+        37.02862037335621,
+        -7.9596279040351865
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1742046",
+      "rua": "R 25 DE ABRIL",
+      "casa": "43",
+      "coordenadas": [
+        37.02865855952588,
+        -7.9611000851746825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1744872",
+      "rua": "R 25 ABRIL",
+      "casa": "69A",
+      "coordenadas": [
+        37.02867399378836,
+        -7.95932433748641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1744873",
+      "rua": "R 25 DE ABRIL",
+      "casa": "69",
+      "coordenadas": [
+        37.02867399378836,
+        -7.95932433748641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1744874",
+      "rua": "R 25 ABRIL",
+      "casa": "73",
+      "coordenadas": [
+        37.02867399378836,
+        -7.95932433748641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1744875",
+      "rua": "R 25 ABRIL",
+      "casa": "N 71",
+      "coordenadas": [
+        37.02867399378836,
+        -7.95932433748641
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1747460",
+      "rua": "R 25 DE ABRIL",
+      "casa": "9",
+      "coordenadas": [
+        37.0283714508556,
+        -7.961954869583468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1775276",
+      "rua": "R 25 DE ABRIL",
+      "casa": "65",
+      "coordenadas": [
+        37.02866555845813,
+        -7.959717710776496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1796437",
+      "rua": "R 25 DE ABRIL",
+      "casa": "27",
+      "coordenadas": [
+        37.028524081696425,
+        -7.961572412435804
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1796574",
+      "rua": "R 25 DE ABRIL",
+      "casa": "27",
+      "coordenadas": [
+        37.028524081696425,
+        -7.961572412435804
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1796575",
+      "rua": "R 25 DE ABRIL",
+      "casa": "27",
+      "coordenadas": [
+        37.028524081696425,
+        -7.961572412435804
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1796576",
+      "rua": "R 25 DE ABRIL",
+      "casa": "27",
+      "coordenadas": [
+        37.028524081696425,
+        -7.961572412435804
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1801986",
+      "rua": "R 25 DE ABRIL",
+      "casa": "49A",
+      "coordenadas": [
+        37.02877517729094,
+        -7.960740183675732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1845536",
+      "rua": "R 25 DE ABRIL",
+      "casa": "35",
+      "coordenadas": [
+        37.02861373379242,
+        -7.9612575277793685
+      ]
+    }
+  ],
+  "ruas": [
+    "R 25 DE ABRIL",
+    "R 25 ABRIL"
+  ],
+  "centro": [
+    37.02862299345396,
+    -7.960813933113826
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.02866901598408,
+                -7.961322723973189
+              ],
+              [
+                37.02857697092384,
+                -7.961540680588311
+              ],
+              [
+                37.02850214337335,
+                -7.961689585990511
+              ],
+              [
+                37.02844453333264,
+                -7.96176944017979
+              ],
+              [
+                37.0284041408017,
+                -7.961780243156145
+              ],
+              [
+                37.02838096578053,
+                -7.9617219949195785
+              ],
+              [
+                37.02837500826912,
+                -7.96159469547009
+              ],
+              [
+                37.0283862682675,
+                -7.961398344807677
+              ],
+              [
+                37.02841474577563,
+                -7.961132942932342
+              ],
+              [
+                37.02846044079354,
+                -7.960798489844086
+              ],
+              [
+                37.02850126175346,
+                -7.960501100164535
+              ],
+              [
+                37.02853720865539,
+                -7.960240773893694
+              ],
+              [
+                37.028568281499346,
+                -7.96001751103156
+              ],
+              [
+                37.02859448028531,
+                -7.959831311578133
+              ],
+              [
+                37.02861580501329,
+                -7.9596821755334135
+              ],
+              [
+                37.02863225568328,
+                -7.959570102897401
+              ],
+              [
+                37.02864383229528,
+                -7.959495093670096
+              ],
+              [
+                37.0286505348493,
+                -7.9594571478515
+              ],
+              [
+                37.0286613555201,
+                -7.959443250546695
+              ],
+              [
+                37.0286762943077,
+                -7.959453401755679
+              ],
+              [
+                37.02869535121208,
+                -7.959487601478455
+              ],
+              [
+                37.02871852623325,
+                -7.959545849715022
+              ],
+              [
+                37.02874581937121,
+                -7.95962814646538
+              ],
+              [
+                37.02877723062596,
+                -7.959734491729529
+              ],
+              [
+                37.0288127599975,
+                -7.95986488550747
+              ],
+              [
+                37.02885240748582,
+                -7.9600193277992
+              ],
+              [
+                37.02887559340558,
+                -7.960181709381356
+              ],
+              [
+                37.02888231775676,
+                -7.960352030253936
+              ],
+              [
+                37.02887258053937,
+                -7.960530290416939
+              ],
+              [
+                37.028846381753404,
+                -7.960716489870365
+              ],
+              [
+                37.02880372139887,
+                -7.960910628614216
+              ],
+              [
+                37.02874459947576,
+                -7.961112706648491
+              ],
+              [
+                37.02866901598408,
+                -7.961322723973189
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.02863508851313,
+    -7.960453911520775
+  ],
+  "centroDeMassa": [
+    37.02862299345396,
+    -7.960813933113826
+  ]
+}

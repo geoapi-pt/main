@@ -1,1 +1,431 @@
-{"CP4":"4505","CP3":"251","Distrito":"Aveiro","Concelho":"Santa Maria da Feira","CP":"4505-251","Artéria":"Rua Casal do Monte","Localidade":"Fiães","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FIÃES VFR","locais":[{"id":"pt.ine.add.PTCONT.333051","rua":"R CASAL DO MONTE","casa":"16","coordenadas":[40.98716321232913,-8.523903046769146]},{"id":"pt.ine.add.PTCONT.338515","rua":"R CASAL DO MONTE","casa":"31","coordenadas":[40.987008968031006,-8.524246750726267]},{"id":"pt.ine.add.PTCONT.341109","rua":"R CASAL DO MONTE","casa":"5","coordenadas":[40.98690325106593,-8.523556897969618]},{"id":"pt.ine.add.PTCONT.341110","rua":"R CASAL DO MONTE","casa":"5","coordenadas":[40.98690325106593,-8.523556897969618]},{"id":"pt.ine.add.PTCONT.11733","rua":"R CASAL DO MONTE","casa":"","coordenadas":[40.987383399807655,-8.525354112836437]},{"id":"pt.ine.add.PTCONT.22588","rua":"R CASAL DO MONTE","casa":"54","coordenadas":[40.98715942032466,-8.525020053507822]},{"id":"pt.ine.add.PTCONT.22589","rua":"R CASAL DO MONTE","casa":"84","coordenadas":[40.987579474397734,-8.525949442930617]},{"id":"pt.ine.add.PTCONT.35634","rua":"R CASAL DO MONTE","casa":"43","coordenadas":[40.98694468645883,-8.524614751637827]},{"id":"pt.ine.add.PTCONT.64810","rua":"R CASAL DO MONTE","casa":"107","coordenadas":[40.98743329596195,-8.526566508931186]},{"id":"pt.ine.add.PTCONT.73445","rua":"R CASAL DO MONTE","casa":"123","coordenadas":[40.98748582114334,-8.527006504976676]},{"id":"pt.ine.add.PTCONT.76144","rua":"R CASAL DO MONTE","casa":"42","coordenadas":[40.98716083350586,-8.524604146768322]},{"id":"pt.ine.add.PTCONT.76145","rua":"R CASAL DO MONTE","casa":"42","coordenadas":[40.98716083350586,-8.524604146768322]},{"id":"pt.ine.add.PTCONT.99827","rua":"R CASAL DO MONTE","casa":"52","coordenadas":[40.98716010691435,-8.524818041666615]},{"id":"pt.ine.add.PTCONT.116246","rua":"R CASAL DO MONTE","casa":"22","coordenadas":[40.98719858542917,-8.524093388337736]},{"id":"pt.ine.add.PTCONT.118955","rua":"R CASAL DO MONTE","casa":"","coordenadas":[40.986915411262366,-8.525280040189926]},{"id":"pt.ine.add.PTCONT.124853","rua":"R CASAL DO MONTE","casa":"101","coordenadas":[40.98739804856439,-8.526340516126671]},{"id":"pt.ine.add.PTCONT.137027","rua":"R CASAL DO MONTE","casa":"55","coordenadas":[40.98700573865473,-8.525197392518471]},{"id":"pt.ine.add.PTCONT.148681","rua":"R CASAL DO MONTE","casa":"66","coordenadas":[40.98732065169617,-8.52527055778212]},{"id":"pt.ine.add.PTCONT.167322","rua":"R CASAL DO MONTE","casa":"56","coordenadas":[40.987357033240215,-8.525163823410958]},{"id":"pt.ine.add.PTCONT.183532","rua":"R CASAL DO MONTE","casa":"37","coordenadas":[40.986954175089515,-8.52447220873828]},{"id":"pt.ine.add.PTCONT.198679","rua":"R CASAL DO MONTE","casa":"34","coordenadas":[40.98717956859157,-8.524390358316467]},{"id":"pt.ine.add.PTCONT.224802","rua":"R CASAL DO MONTE","casa":"111","coordenadas":[40.98749588085154,-8.52669759777899]},{"id":"pt.ine.add.PTCONT.252807","rua":"R CASAL DO MONTE","casa":"18","coordenadas":[40.98718089891858,-8.523998217528302]},{"id":"pt.ine.add.PTCONT.287836","rua":"R CASAL DO MONTE","casa":"80","coordenadas":[40.98761642321376,-8.525676344698303]}],"ruas":["R CASAL DO MONTE"],"centroide":[40.98719358899176,-8.524987191486364]}
+{
+  "CP": "4505-251",
+  "CP4": "4505",
+  "CP3": "251",
+  "Distrito": "Aveiro",
+  "Concelho": "Santa Maria da Feira",
+  "Localidade": "Fiães",
+  "Designação Postal": "FIÃES VFR",
+  "partes": [
+    {
+      "Artéria": "Rua Casal do Monte",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.333051",
+      "rua": "R CASAL DO MONTE",
+      "casa": "16",
+      "coordenadas": [
+        40.98716321232913,
+        -8.523903046769146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.338515",
+      "rua": "R CASAL DO MONTE",
+      "casa": "31",
+      "coordenadas": [
+        40.987008968031006,
+        -8.524246750726267
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.341109",
+      "rua": "R CASAL DO MONTE",
+      "casa": "5",
+      "coordenadas": [
+        40.98690325106593,
+        -8.523556897969618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.341110",
+      "rua": "R CASAL DO MONTE",
+      "casa": "5",
+      "coordenadas": [
+        40.98690325106593,
+        -8.523556897969618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.11733",
+      "rua": "R CASAL DO MONTE",
+      "casa": "",
+      "coordenadas": [
+        40.987383399807655,
+        -8.525354112836437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.22588",
+      "rua": "R CASAL DO MONTE",
+      "casa": "54",
+      "coordenadas": [
+        40.98715942032466,
+        -8.525020053507822
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.22589",
+      "rua": "R CASAL DO MONTE",
+      "casa": "84",
+      "coordenadas": [
+        40.987579474397734,
+        -8.525949442930617
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.35634",
+      "rua": "R CASAL DO MONTE",
+      "casa": "43",
+      "coordenadas": [
+        40.98694468645883,
+        -8.524614751637827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.64810",
+      "rua": "R CASAL DO MONTE",
+      "casa": "107",
+      "coordenadas": [
+        40.98743329596195,
+        -8.526566508931186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73445",
+      "rua": "R CASAL DO MONTE",
+      "casa": "123",
+      "coordenadas": [
+        40.98748582114334,
+        -8.527006504976676
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.76144",
+      "rua": "R CASAL DO MONTE",
+      "casa": "42",
+      "coordenadas": [
+        40.98716083350586,
+        -8.524604146768322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.76145",
+      "rua": "R CASAL DO MONTE",
+      "casa": "42",
+      "coordenadas": [
+        40.98716083350586,
+        -8.524604146768322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.99827",
+      "rua": "R CASAL DO MONTE",
+      "casa": "52",
+      "coordenadas": [
+        40.98716010691435,
+        -8.524818041666615
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.116246",
+      "rua": "R CASAL DO MONTE",
+      "casa": "22",
+      "coordenadas": [
+        40.98719858542917,
+        -8.524093388337736
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118955",
+      "rua": "R CASAL DO MONTE",
+      "casa": "",
+      "coordenadas": [
+        40.986915411262366,
+        -8.525280040189926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.124853",
+      "rua": "R CASAL DO MONTE",
+      "casa": "101",
+      "coordenadas": [
+        40.98739804856439,
+        -8.526340516126671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137027",
+      "rua": "R CASAL DO MONTE",
+      "casa": "55",
+      "coordenadas": [
+        40.98700573865473,
+        -8.525197392518471
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.148681",
+      "rua": "R CASAL DO MONTE",
+      "casa": "66",
+      "coordenadas": [
+        40.98732065169617,
+        -8.52527055778212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.167322",
+      "rua": "R CASAL DO MONTE",
+      "casa": "56",
+      "coordenadas": [
+        40.987357033240215,
+        -8.525163823410958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.183532",
+      "rua": "R CASAL DO MONTE",
+      "casa": "37",
+      "coordenadas": [
+        40.986954175089515,
+        -8.52447220873828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.198679",
+      "rua": "R CASAL DO MONTE",
+      "casa": "34",
+      "coordenadas": [
+        40.98717956859157,
+        -8.524390358316467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.224802",
+      "rua": "R CASAL DO MONTE",
+      "casa": "111",
+      "coordenadas": [
+        40.98749588085154,
+        -8.52669759777899
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.252807",
+      "rua": "R CASAL DO MONTE",
+      "casa": "18",
+      "coordenadas": [
+        40.98718089891858,
+        -8.523998217528302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.287836",
+      "rua": "R CASAL DO MONTE",
+      "casa": "80",
+      "coordenadas": [
+        40.98761642321376,
+        -8.525676344698303
+      ]
+    }
+  ],
+  "ruas": [
+    "R CASAL DO MONTE"
+  ],
+  "centro": [
+    40.987259837139845,
+    -8.525281701473148
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.986910091176426,
+                -8.524526165468542
+              ],
+              [
+                40.98690857115187,
+                -8.524310772691003
+              ],
+              [
+                40.986911303025124,
+                -8.52412771258565
+              ],
+              [
+                40.98691828679618,
+                -8.523976985152482
+              ],
+              [
+                40.98692952246505,
+                -8.523858590391498
+              ],
+              [
+                40.986945010031725,
+                -8.523772528302697
+              ],
+              [
+                40.9869647494962,
+                -8.523718798886083
+              ],
+              [
+                40.986988740858486,
+                -8.523697402141654
+              ],
+              [
+                40.98701698411858,
+                -8.523708338069412
+              ],
+              [
+                40.98704947927648,
+                -8.523751606669352
+              ],
+              [
+                40.98708499395972,
+                -8.523817174474443
+              ],
+              [
+                40.98712352816828,
+                -8.523905041484685
+              ],
+              [
+                40.987165081902184,
+                -8.524015207700076
+              ],
+              [
+                40.98720965516143,
+                -8.524147673120622
+              ],
+              [
+                40.987257247946005,
+                -8.524302437746314
+              ],
+              [
+                40.98730786025591,
+                -8.524479501577158
+              ],
+              [
+                40.98736149209115,
+                -8.524678864613152
+              ],
+              [
+                40.987418143451734,
+                -8.524900526854296
+              ],
+              [
+                40.98746567273489,
+                -8.525115265069648
+              ],
+              [
+                40.98750407994063,
+                -8.525323079259206
+              ],
+              [
+                40.98753336506894,
+                -8.52552396942297
+              ],
+              [
+                40.98755352811982,
+                -8.52571793556094
+              ],
+              [
+                40.98756456909329,
+                -8.525904977673116
+              ],
+              [
+                40.987566487989326,
+                -8.5260850957595
+              ],
+              [
+                40.98755928480794,
+                -8.52625828982009
+              ],
+              [
+                40.987542959549145,
+                -8.526424559854888
+              ],
+              [
+                40.9875197622933,
+                -8.526543070123042
+              ],
+              [
+                40.987489693040416,
+                -8.526613820624554
+              ],
+              [
+                40.9874527517905,
+                -8.526636811359424
+              ],
+              [
+                40.98740893854354,
+                -8.526612042327649
+              ],
+              [
+                40.98735825329953,
+                -8.526539513529233
+              ],
+              [
+                40.9873006960585,
+                -8.526419224964172
+              ],
+              [
+                40.98723626682042,
+                -8.526251176632472
+              ],
+              [
+                40.98716496558529,
+                -8.52603536853413
+              ],
+              [
+                40.98710238700149,
+                -8.525819612350887
+              ],
+              [
+                40.98704853106901,
+                -8.525603908082745
+              ],
+              [
+                40.98700339778785,
+                -8.525388255729704
+              ],
+              [
+                40.98696698715801,
+                -8.52517265529176
+              ],
+              [
+                40.9869392991795,
+                -8.52495710676892
+              ],
+              [
+                40.986920333852304,
+                -8.52474161016118
+              ],
+              [
+                40.986910091176426,
+                -8.524526165468542
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.9872168238029,
+    -8.525084566920734
+  ],
+  "centroDeMassa": [
+    40.987259837139845,
+    -8.525281701473148
+  ]
+}

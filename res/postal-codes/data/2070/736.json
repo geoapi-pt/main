@@ -1,1 +1,445 @@
-{"CP4":"2070","CP3":"736","Distrito":"Santarém","Concelho":"Cartaxo","CP":"2070-736","Artéria":"Rua José Ribeiro da Costa","Localidade":"Vale da Pedra","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VALE DA PEDRA","locais":[{"id":"pt.ine.add.PTCONT.4412377","rua":"R JOSE RIBEIRO COSTA","casa":"23","coordenadas":[39.109646726889956,-8.810828212158679]},{"id":"pt.ine.add.PTCONT.4420436","rua":"R JOSE RIBEIRO DA COSTA CASAL DAS CORREIAS","casa":"5","coordenadas":[39.10676940441934,-8.809956699395066]},{"id":"pt.ine.add.PTCONT.4474171","rua":"R JOSE RIBEIRO DA COSTA","casa":"26","coordenadas":[39.11068857049864,-8.809797638383937]},{"id":"pt.ine.add.PTCONT.4478170","rua":"R JOSE RIBEIRO DA COSTA","casa":"21","coordenadas":[39.10915154616773,-8.810788785243089]},{"id":"pt.ine.add.PTCONT.4484850","rua":"R JOSE RIBEIRO DA COSTA","casa":"12","coordenadas":[39.10829251958527,-8.809809409263224]},{"id":"pt.ine.add.PTCONT.4522029","rua":"R JOSE RIBEIRO DA COSTA QTA PIRACANTA","casa":"","coordenadas":[39.10880511064977,-8.809953047735382]},{"id":"pt.ine.add.PTCONT.4522030","rua":"R JOSE RIBEIRO DA COSTA","casa":"22","coordenadas":[39.109960818815715,-8.809478516208625]},{"id":"pt.ine.add.PTCONT.4532354","rua":"R INACIA","casa":"4","coordenadas":[39.10837091171266,-8.805601839896582]},{"id":"pt.ine.add.PTCONT.4548437","rua":"R JOSE RIBEIRO DA COSTA","casa":"97","coordenadas":[39.10797096326317,-8.810893091761619]},{"id":"pt.ine.add.PTCONT.4548466","rua":"R JOSE RIBEIRO DA COSTA","casa":"28","coordenadas":[39.110683399827124,-8.810687839264887]},{"id":"pt.ine.add.PTCONT.4558985","rua":"R JOSE RIBEIRO DA COSTA","casa":"19","coordenadas":[39.108908358457136,-8.810786456276771]},{"id":"pt.ine.add.PTCONT.4565380","rua":"R JOSE RIBEIRO DA COSTA","casa":"","coordenadas":[39.110337701997764,-8.809724913098872]},{"id":"pt.ine.add.PTCONT.4583992","rua":"R JOSE RIBEIRO DA COSTA","casa":"27","coordenadas":[39.1105814329124,-8.811184014884628]},{"id":"pt.ine.add.PTCONT.4607057","rua":"R JOSE RIBEIRO DA COSTA","casa":"9","coordenadas":[39.107552472657936,-8.810056678496657]},{"id":"pt.ine.add.PTCONT.4608979","rua":"R JOSE RIBEIRO DA COSTA","casa":"5","coordenadas":[39.10668007306775,-8.809828673579466]},{"id":"pt.ine.add.PTCONT.4608980","rua":"R JOSE RIBEIRO DA COSTA","casa":"5","coordenadas":[39.10668007306775,-8.809828673579466]},{"id":"pt.ine.add.PTCONT.4644228","rua":"R JOSE RIBEIRO COSTA","casa":"30","coordenadas":[39.11084451685201,-8.810862807904789]},{"id":"pt.ine.add.PTCONT.4649749","rua":"R JOSE RIBEIRO DA COSTA","casa":"20","coordenadas":[39.10973289397374,-8.80995036060791]}],"ruas":["R JOSE RIBEIRO COSTA","R JOSE RIBEIRO DA COSTA CASAL DAS CORREIAS","R JOSE RIBEIRO DA COSTA","R JOSE RIBEIRO DA COSTA QTA PIRACANTA","R INACIA"],"centroide":[39.10893674122601,-8.810003958654807]}
+{
+  "CP": "2070-736",
+  "CP4": "2070",
+  "CP3": "736",
+  "Distrito": "Santarém",
+  "Concelho": "Cartaxo",
+  "Localidade": "Vale da Pedra",
+  "Designação Postal": "VALE DA PEDRA",
+  "partes": [
+    {
+      "Artéria": "Rua José Ribeiro da Costa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4412377",
+      "rua": "R JOSE RIBEIRO COSTA",
+      "casa": "23",
+      "coordenadas": [
+        39.109646726889956,
+        -8.810828212158679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4420436",
+      "rua": "R JOSE RIBEIRO DA COSTA CASAL DAS CORREIAS",
+      "casa": "5",
+      "coordenadas": [
+        39.10676940441934,
+        -8.809956699395066
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4474171",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "26",
+      "coordenadas": [
+        39.11068857049864,
+        -8.809797638383937
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4478170",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "21",
+      "coordenadas": [
+        39.10915154616773,
+        -8.810788785243089
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4484850",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "12",
+      "coordenadas": [
+        39.10829251958527,
+        -8.809809409263224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4522029",
+      "rua": "R JOSE RIBEIRO DA COSTA QTA PIRACANTA",
+      "casa": "",
+      "coordenadas": [
+        39.10880511064977,
+        -8.809953047735382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4522030",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "22",
+      "coordenadas": [
+        39.109960818815715,
+        -8.809478516208625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4532354",
+      "rua": "R INACIA",
+      "casa": "4",
+      "coordenadas": [
+        39.10837091171266,
+        -8.805601839896582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4548437",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "97",
+      "coordenadas": [
+        39.10797096326317,
+        -8.810893091761619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4548466",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "28",
+      "coordenadas": [
+        39.110683399827124,
+        -8.810687839264887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4558985",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "19",
+      "coordenadas": [
+        39.108908358457136,
+        -8.810786456276771
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4565380",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "",
+      "coordenadas": [
+        39.110337701997764,
+        -8.809724913098872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4583992",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "27",
+      "coordenadas": [
+        39.1105814329124,
+        -8.811184014884628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4607057",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "9",
+      "coordenadas": [
+        39.107552472657936,
+        -8.810056678496657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4608979",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "5",
+      "coordenadas": [
+        39.10668007306775,
+        -8.809828673579466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4608980",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "5",
+      "coordenadas": [
+        39.10668007306775,
+        -8.809828673579466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4644228",
+      "rua": "R JOSE RIBEIRO COSTA",
+      "casa": "30",
+      "coordenadas": [
+        39.11084451685201,
+        -8.810862807904789
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4649749",
+      "rua": "R JOSE RIBEIRO DA COSTA",
+      "casa": "20",
+      "coordenadas": [
+        39.10973289397374,
+        -8.80995036060791
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE RIBEIRO COSTA",
+    "R JOSE RIBEIRO DA COSTA CASAL DAS CORREIAS",
+    "R JOSE RIBEIRO DA COSTA",
+    "R JOSE RIBEIRO DA COSTA QTA PIRACANTA",
+    "R INACIA"
+  ],
+  "centro": [
+    39.10876229495988,
+    -8.808392927390605
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.10673032195302,
+                -8.809900688100742
+              ],
+              [
+                39.106719155534066,
+                -8.80988468487379
+              ],
+              [
+                39.10673580427132,
+                -8.809804637773915
+              ],
+              [
+                39.10678026816476,
+                -8.809660546801112
+              ],
+              [
+                39.1068525472144,
+                -8.809452411955382
+              ],
+              [
+                39.10695264142023,
+                -8.809180233236727
+              ],
+              [
+                39.10708055078226,
+                -8.808844010645146
+              ],
+              [
+                39.10723627530048,
+                -8.808443744180638
+              ],
+              [
+                39.1074198149749,
+                -8.807979433843204
+              ],
+              [
+                39.107631169805515,
+                -8.807451079632845
+              ],
+              [
+                39.107852318700836,
+                -8.807054329050144
+              ],
+              [
+                39.10808326166085,
+                -8.806789182095104
+              ],
+              [
+                39.10832399868558,
+                -8.806655638767722
+              ],
+              [
+                39.10857452977501,
+                -8.806653699068
+              ],
+              [
+                39.10883485492914,
+                -8.80678336299594
+              ],
+              [
+                39.10910497414798,
+                -8.807044630551541
+              ],
+              [
+                39.109384887431524,
+                -8.8074375017348
+              ],
+              [
+                39.10967459477977,
+                -8.80796197654572
+              ],
+              [
+                39.109930525371254,
+                -8.808437535279037
+              ],
+              [
+                39.11015267920599,
+                -8.808864177934751
+              ],
+              [
+                39.11034105628396,
+                -8.809241904512866
+              ],
+              [
+                39.11049565660517,
+                -8.809570715013379
+              ],
+              [
+                39.11061648016962,
+                -8.80985060943629
+              ],
+              [
+                39.110703526977304,
+                -8.810081587781601
+              ],
+              [
+                39.11075679702824,
+                -8.81026365004931
+              ],
+              [
+                39.11077629032241,
+                -8.810396796239417
+              ],
+              [
+                39.11078923626826,
+                -8.810518318014818
+              ],
+              [
+                39.11079563486577,
+                -8.81062821537552
+              ],
+              [
+                39.11079548611496,
+                -8.810726488321517
+              ],
+              [
+                39.11078879001582,
+                -8.810813136852808
+              ],
+              [
+                39.110775546568355,
+                -8.810888160969398
+              ],
+              [
+                39.11075575577255,
+                -8.810951560671285
+              ],
+              [
+                39.11072941762843,
+                -8.811003335958468
+              ],
+              [
+                39.11069653213598,
+                -8.811043486830949
+              ],
+              [
+                39.11062696874181,
+                -8.811074073170571
+              ],
+              [
+                39.11052072744594,
+                -8.811095094977336
+              ],
+              [
+                39.110377808248344,
+                -8.811106552251246
+              ],
+              [
+                39.11019821114904,
+                -8.811108444992296
+              ],
+              [
+                39.109981936148024,
+                -8.811100773200492
+              ],
+              [
+                39.1097289832453,
+                -8.811083536875831
+              ],
+              [
+                39.10943935244086,
+                -8.811056736018312
+              ],
+              [
+                39.10911304373471,
+                -8.811020370627935
+              ],
+              [
+                39.10880874925989,
+                -8.81097391978063
+              ],
+              [
+                39.10852646901641,
+                -8.810917383476394
+              ],
+              [
+                39.108266203004256,
+                -8.810850761715226
+              ],
+              [
+                39.108027951223434,
+                -8.810774054497127
+              ],
+              [
+                39.107811713673954,
+                -8.810687261822098
+              ],
+              [
+                39.10761749035581,
+                -8.81059038369014
+              ],
+              [
+                39.107445281268994,
+                -8.810483420101251
+              ],
+              [
+                39.107295086413515,
+                -8.810366371055434
+              ],
+              [
+                39.1071622701126,
+                -8.810261952736973
+              ],
+              [
+                39.10704683236626,
+                -8.810170165145871
+              ],
+              [
+                39.10694877317448,
+                -8.810091008282129
+              ],
+              [
+                39.106868092537255,
+                -8.810024482145742
+              ],
+              [
+                39.10680479045461,
+                -8.809970586736718
+              ],
+              [
+                39.10675886692653,
+                -8.80992932205505
+              ],
+              [
+                39.10673032195302,
+                -8.809900688100742
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.108843696103705,
+    -8.809732109400871
+  ],
+  "centroDeMassa": [
+    39.10876229495988,
+    -8.808392927390605
+  ]
+}

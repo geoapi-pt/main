@@ -1,1 +1,416 @@
-{"CP4":"2500","CP3":"047","Distrito":"Leiria","Concelho":"Caldas da Rainha","CP":"2500-047","Artéria":" ","Localidade":"Casal das Sesmarias","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"A DOS FRANCOS","locais":[{"id":"pt.ine.add.PTCONT.2012956","rua":"ESTR SUL","casa":"4","coordenadas":[39.3118356740638,-9.037212513802713]},{"id":"pt.ine.add.PTCONT.2017338","rua":"ESTR SESMARIAS","casa":"40","coordenadas":[39.312085864902855,-9.03747081597367]},{"id":"pt.ine.add.PTCONT.2039297","rua":"ESTR SESMARIAS","casa":"17B","coordenadas":[39.31201939775021,-9.036751092990288]},{"id":"pt.ine.add.PTCONT.2043664","rua":"R PADRE JOSE","casa":"32","coordenadas":[39.3160678248847,-9.04773754236315]},{"id":"pt.ine.add.PTCONT.2045849","rua":"ESTR SESMARIAS","casa":"10","coordenadas":[39.31372664508339,-9.04075011093152]},{"id":"pt.ine.add.PTCONT.2048634","rua":"ESTR SUL","casa":"8","coordenadas":[39.31170760683164,-9.0374659463849]},{"id":"pt.ine.add.PTCONT.2054896","rua":"ESTR SESMARIAS","casa":"19","coordenadas":[39.31151558036766,-9.035515589749085]},{"id":"pt.ine.add.PTCONT.2061697","rua":"ESTR SESMARIAS","casa":"13","coordenadas":[39.3127413315673,-9.037734339045608]},{"id":"pt.ine.add.PTCONT.2067791","rua":"ESTR SESMARIAS","casa":"28","coordenadas":[39.31286083746383,-9.038582296395898]},{"id":"pt.ine.add.PTCONT.2116418","rua":"R PADRE JOSE","casa":"30","coordenadas":[39.317593577851426,-9.048429953010206]},{"id":"pt.ine.add.PTCONT.2117563","rua":"ESTR SESMARIAS","casa":"17","coordenadas":[39.31508843182531,-9.041683723464315]},{"id":"pt.ine.add.PTCONT.2132096","rua":"R PRINCIPAL","casa":"17","coordenadas":[39.31402655893155,-9.040406137344522]},{"id":"pt.ine.add.PTCONT.2157498","rua":"ESTR SUL","casa":"10","coordenadas":[39.31140959340162,-9.037566460704117]},{"id":"pt.ine.add.PTCONT.2203436","rua":"ESTR SESMARIAS","casa":"14","coordenadas":[39.31313928762343,-9.039838125926133]},{"id":"pt.ine.add.PTCONT.2219208","rua":"ESTR SESMARIAS","casa":"13 A","coordenadas":[39.31270629797949,-9.037606345671543]},{"id":"pt.ine.add.PTCONT.2232203","rua":"ESTR SESMARIAS","casa":"15A","coordenadas":[39.31251086478204,-9.037255987832031]},{"id":"pt.ine.add.PTCONT.2235341","rua":"ESTR SESMARIAS","casa":"42","coordenadas":[39.311935642027535,-9.037097854198896]},{"id":"pt.ine.add.PTCONT.2236461","rua":"ESTR SESMARIAS","casa":"17 A","coordenadas":[39.31208163075582,-9.036856245328472]},{"id":"pt.ine.add.PTCONT.2247247","rua":"ESTR SUL","casa":"6","coordenadas":[39.31177200072486,-9.037292856475226]},{"id":"pt.ine.add.PTCONT.2250184","rua":"ESTR SESMARIAS","casa":"1BB","coordenadas":[39.31242152368257,-9.037162080325974]},{"id":"pt.ine.add.PTCONT.2267348","rua":"ESTR SESMARIAS","casa":"30","coordenadas":[39.31275321466556,-9.038522935368904]},{"id":"pt.ine.add.PTCONT.2268396","rua":"ESTR SESMARIAS","casa":"12","coordenadas":[39.31353131190601,-9.040388145669331]}],"ruas":["ESTR SUL","ESTR SESMARIAS","R PADRE JOSE","R PRINCIPAL"],"centroide":[39.312952351769844,-9.038997093013673]}
+{
+  "CP": "2500-047",
+  "CP4": "2500",
+  "CP3": "047",
+  "Distrito": "Leiria",
+  "Concelho": "Caldas da Rainha",
+  "Localidade": "Casal das Sesmarias",
+  "Designação Postal": "A DOS FRANCOS",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2012956",
+      "rua": "ESTR SUL",
+      "casa": "4",
+      "coordenadas": [
+        39.3118356740638,
+        -9.037212513802713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2017338",
+      "rua": "ESTR SESMARIAS",
+      "casa": "40",
+      "coordenadas": [
+        39.312085864902855,
+        -9.03747081597367
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2039297",
+      "rua": "ESTR SESMARIAS",
+      "casa": "17B",
+      "coordenadas": [
+        39.31201939775021,
+        -9.036751092990288
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2043664",
+      "rua": "R PADRE JOSE",
+      "casa": "32",
+      "coordenadas": [
+        39.3160678248847,
+        -9.04773754236315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2045849",
+      "rua": "ESTR SESMARIAS",
+      "casa": "10",
+      "coordenadas": [
+        39.31372664508339,
+        -9.04075011093152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2048634",
+      "rua": "ESTR SUL",
+      "casa": "8",
+      "coordenadas": [
+        39.31170760683164,
+        -9.0374659463849
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2054896",
+      "rua": "ESTR SESMARIAS",
+      "casa": "19",
+      "coordenadas": [
+        39.31151558036766,
+        -9.035515589749085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2061697",
+      "rua": "ESTR SESMARIAS",
+      "casa": "13",
+      "coordenadas": [
+        39.3127413315673,
+        -9.037734339045608
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2067791",
+      "rua": "ESTR SESMARIAS",
+      "casa": "28",
+      "coordenadas": [
+        39.31286083746383,
+        -9.038582296395898
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2116418",
+      "rua": "R PADRE JOSE",
+      "casa": "30",
+      "coordenadas": [
+        39.317593577851426,
+        -9.048429953010206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2117563",
+      "rua": "ESTR SESMARIAS",
+      "casa": "17",
+      "coordenadas": [
+        39.31508843182531,
+        -9.041683723464315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2132096",
+      "rua": "R PRINCIPAL",
+      "casa": "17",
+      "coordenadas": [
+        39.31402655893155,
+        -9.040406137344522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2157498",
+      "rua": "ESTR SUL",
+      "casa": "10",
+      "coordenadas": [
+        39.31140959340162,
+        -9.037566460704117
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2203436",
+      "rua": "ESTR SESMARIAS",
+      "casa": "14",
+      "coordenadas": [
+        39.31313928762343,
+        -9.039838125926133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2219208",
+      "rua": "ESTR SESMARIAS",
+      "casa": "13 A",
+      "coordenadas": [
+        39.31270629797949,
+        -9.037606345671543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2232203",
+      "rua": "ESTR SESMARIAS",
+      "casa": "15A",
+      "coordenadas": [
+        39.31251086478204,
+        -9.037255987832031
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2235341",
+      "rua": "ESTR SESMARIAS",
+      "casa": "42",
+      "coordenadas": [
+        39.311935642027535,
+        -9.037097854198896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2236461",
+      "rua": "ESTR SESMARIAS",
+      "casa": "17 A",
+      "coordenadas": [
+        39.31208163075582,
+        -9.036856245328472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2247247",
+      "rua": "ESTR SUL",
+      "casa": "6",
+      "coordenadas": [
+        39.31177200072486,
+        -9.037292856475226
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2250184",
+      "rua": "ESTR SESMARIAS",
+      "casa": "1BB",
+      "coordenadas": [
+        39.31242152368257,
+        -9.037162080325974
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2267348",
+      "rua": "ESTR SESMARIAS",
+      "casa": "30",
+      "coordenadas": [
+        39.31275321466556,
+        -9.038522935368904
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2268396",
+      "rua": "ESTR SESMARIAS",
+      "casa": "12",
+      "coordenadas": [
+        39.31353131190601,
+        -9.040388145669331
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR SUL",
+    "ESTR SESMARIAS",
+    "R PADRE JOSE",
+    "R PRINCIPAL"
+  ],
+  "centro": [
+    39.31450158562652,
+    -9.041972771379646
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.31402984861086,
+                -9.043287694137323
+              ],
+              [
+                39.31344756967546,
+                -9.042016308929943
+              ],
+              [
+                39.312939731653344,
+                -9.040871802014815
+              ],
+              [
+                39.312506334544494,
+                -9.039854173391936
+              ],
+              [
+                39.31214737834891,
+                -9.038963423061306
+              ],
+              [
+                39.31186286306661,
+                -9.038199551022927
+              ],
+              [
+                39.31165278869756,
+                -9.037562557276797
+              ],
+              [
+                39.31151715524178,
+                -9.037052441822919
+              ],
+              [
+                39.31145596269927,
+                -9.03666920466129
+              ],
+              [
+                39.31146921107002,
+                -9.036412845791912
+              ],
+              [
+                39.31153662919846,
+                -9.036284908870506
+              ],
+              [
+                39.31165821708458,
+                -9.03628539389707
+              ],
+              [
+                39.31183397472837,
+                -9.036414300871611
+              ],
+              [
+                39.31206390212986,
+                -9.036671629794123
+              ],
+              [
+                39.31234799928902,
+                -9.037057380664608
+              ],
+              [
+                39.31268626620586,
+                -9.037571553483067
+              ],
+              [
+                39.31307870288038,
+                -9.038214148249498
+              ],
+              [
+                39.31352530931259,
+                -9.038985164963902
+              ],
+              [
+                39.31395523284743,
+                -9.03976521442566
+              ],
+              [
+                39.3143684734849,
+                -9.040554296634772
+              ],
+              [
+                39.314765031225,
+                -9.041352411591237
+              ],
+              [
+                39.31514490606774,
+                -9.042159559295058
+              ],
+              [
+                39.315508098013105,
+                -9.04297573974623
+              ],
+              [
+                39.315854607061105,
+                -9.04380095294476
+              ],
+              [
+                39.31618443321174,
+                -9.044635198890642
+              ],
+              [
+                39.316497576465,
+                -9.04547847758388
+              ],
+              [
+                39.3167477369215,
+                -9.046205527524101
+              ],
+              [
+                39.31693491458124,
+                -9.046816348711307
+              ],
+              [
+                39.317059109444216,
+                -9.0473109411455
+              ],
+              [
+                39.31712032151042,
+                -9.047689304826676
+              ],
+              [
+                39.31711855077987,
+                -9.04795143975484
+              ],
+              [
+                39.317053797252555,
+                -9.048097345929985
+              ],
+              [
+                39.31692606092848,
+                -9.04812702335212
+              ],
+              [
+                39.31673534180764,
+                -9.048040472021238
+              ],
+              [
+                39.31649567770999,
+                -9.047805816455792
+              ],
+              [
+                39.31620706863551,
+                -9.047423056655786
+              ],
+              [
+                39.315869514584215,
+                -9.046892192621218
+              ],
+              [
+                39.3154830155561,
+                -9.046213224352087
+              ],
+              [
+                39.31504757155117,
+                -9.045386151848396
+              ],
+              [
+                39.31456318256942,
+                -9.04441097511014
+              ],
+              [
+                39.31402984861086,
+                -9.043287694137323
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.314335001666144,
+    -9.042186653858174
+  ],
+  "centroDeMassa": [
+    39.31450158562652,
+    -9.041972771379646
+  ]
+}

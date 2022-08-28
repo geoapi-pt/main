@@ -1,1 +1,540 @@
-{"CP4":"3720","CP3":"571","Distrito":"Aveiro","Concelho":"Oliveira de Azeméis","CP":"3720-571","Artéria":" ","Localidade":"Póvoa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"TRAVANCA OAZ","locais":[{"id":"pt.ine.add.PTCONT.321923","rua":"R FONTE DAS CANAS","casa":"67","coordenadas":[40.815608816321735,-8.483306812755526]},{"id":"pt.ine.add.PTCONT.323516","rua":"AV SA CARNEIRO","casa":"674","coordenadas":[40.816423194296135,-8.482007289893035]},{"id":"pt.ine.add.PTCONT.328493","rua":"R FONTE DAS CANAS","casa":"88","coordenadas":[40.81594062435046,-8.483758959806341]},{"id":"pt.ine.add.PTCONT.335237","rua":"R FONTE DAS CANAS","casa":"","coordenadas":[40.8163568583999,-8.483097396662654]},{"id":"pt.ine.add.PTCONT.335238","rua":"R FONTE DAS CANAS","casa":"63","coordenadas":[40.81599558903127,-8.483451079021691]},{"id":"pt.ine.add.PTCONT.351279","rua":"R FONTE DAS CANAS","casa":"220","coordenadas":[40.81592739674447,-8.485145654592687]},{"id":"pt.ine.add.PTCONT.28307","rua":"R PÓVOA","casa":"21","coordenadas":[40.8147377265242,-8.48251996880306]},{"id":"pt.ine.add.PTCONT.30552","rua":"R SENHOR DA PONTE","casa":"35","coordenadas":[40.816911599466756,-8.481298676961206]},{"id":"pt.ine.add.PTCONT.30553","rua":"R SENHOR DA PONTE","casa":"35","coordenadas":[40.816911599466756,-8.481298676961206]},{"id":"pt.ine.add.PTCONT.44677","rua":"R FONTE DAS CANAS","casa":"161","coordenadas":[40.815705022816914,-8.484243677853398]},{"id":"pt.ine.add.PTCONT.59681","rua":"R PÓVOA","casa":"174","coordenadas":[40.81565793332908,-8.481955870094788]},{"id":"pt.ine.add.PTCONT.67386","rua":"R FONTE DAS CANAS","casa":"52","coordenadas":[40.81617568413647,-8.483452026461224]},{"id":"pt.ine.add.PTCONT.89079","rua":"R GROSO","casa":"36","coordenadas":[40.81792123777388,-8.4839116254844]},{"id":"pt.ine.add.PTCONT.110911","rua":"R MONTE ALEM","casa":"","coordenadas":[40.8143008217542,-8.484058488358292]},{"id":"pt.ine.add.PTCONT.122338","rua":"R MONTE ALEM","casa":"","coordenadas":[40.814023043315736,-8.483606635350858]},{"id":"pt.ine.add.PTCONT.133007","rua":"R PÓVOA","casa":"1","coordenadas":[40.81454744146074,-8.482910101063274]},{"id":"pt.ine.add.PTCONT.140549","rua":"R PÓVOA","casa":"105","coordenadas":[40.81516130902538,-8.4824036656518]},{"id":"pt.ine.add.PTCONT.153193","rua":"R PÓVOA","casa":"289","coordenadas":[40.816428392966124,-8.48326371149001]},{"id":"pt.ine.add.PTCONT.175860","rua":"AV SA CARNEIRO","casa":"522","coordenadas":[40.815812375102276,-8.481506277734747]},{"id":"pt.ine.add.PTCONT.180327","rua":"R FONTE DAS CANAS","casa":"18","coordenadas":[40.81640062304251,-8.483512473685327]},{"id":"pt.ine.add.PTCONT.192656","rua":"AV SA CARNEIRO","casa":"680","coordenadas":[40.81653943143465,-8.482280513205742]},{"id":"pt.ine.add.PTCONT.221206","rua":"R FONTE DAS CANAS","casa":"100","coordenadas":[40.81582341843652,-8.483805753352915]},{"id":"pt.ine.add.PTCONT.234550","rua":"R SENHOR DA PONTE","casa":"272","coordenadas":[40.81834763928399,-8.479883811429211]},{"id":"pt.ine.add.PTCONT.250847","rua":"AV SA CARNEIRO","casa":"794","coordenadas":[40.81743699736867,-8.483245308970588]},{"id":"pt.ine.add.PTCONT.261380","rua":"R FONTE DAS CANAS","casa":"78","coordenadas":[40.81605779422627,-8.483724018617583]},{"id":"pt.ine.add.PTCONT.261381","rua":"R FONTE DAS CANAS","casa":"19","coordenadas":[40.81634695441784,-8.483393663671624]},{"id":"pt.ine.add.PTCONT.272580","rua":"R FONTE DAS CANAS","casa":"14","coordenadas":[40.816490886546866,-8.483441831902413]},{"id":"pt.ine.add.PTCONT.283063","rua":"R FONTE DAS CANAS","casa":"376","coordenadas":[40.815383380210285,-8.48636359567275]},{"id":"pt.ine.add.PTCONT.283064","rua":"R FONTE DAS CANAS","casa":"400","coordenadas":[40.81577853645394,-8.486709418905587]},{"id":"pt.ine.add.PTCONT.283068","rua":"R PÓVOA","casa":"126","coordenadas":[40.815018738851876,-8.481905111793456]},{"id":"pt.ine.add.PTCONT.283069","rua":"R FONTE DAS CANAS","casa":"101","coordenadas":[40.81562614209182,-8.48353210391025]},{"id":"pt.ine.add.PTCONT.288524","rua":"R PÓVOA","casa":"176","coordenadas":[40.81533419199537,-8.481811943287205]}],"ruas":["R FONTE DAS CANAS","AV SA CARNEIRO","R PÓVOA","R SENHOR DA PONTE","R GROSO","R MONTE ALEM"],"centroide":[40.81599345834348,-8.483193361294116]}
+{
+  "CP": "3720-571",
+  "CP4": "3720",
+  "CP3": "571",
+  "Distrito": "Aveiro",
+  "Concelho": "Oliveira de Azeméis",
+  "Localidade": "Póvoa",
+  "Designação Postal": "TRAVANCA OAZ",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.321923",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "67",
+      "coordenadas": [
+        40.815608816321735,
+        -8.483306812755526
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.323516",
+      "rua": "AV SA CARNEIRO",
+      "casa": "674",
+      "coordenadas": [
+        40.816423194296135,
+        -8.482007289893035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.328493",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "88",
+      "coordenadas": [
+        40.81594062435046,
+        -8.483758959806341
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.335237",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "",
+      "coordenadas": [
+        40.8163568583999,
+        -8.483097396662654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.335238",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "63",
+      "coordenadas": [
+        40.81599558903127,
+        -8.483451079021691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.351279",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "220",
+      "coordenadas": [
+        40.81592739674447,
+        -8.485145654592687
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.28307",
+      "rua": "R PÓVOA",
+      "casa": "21",
+      "coordenadas": [
+        40.8147377265242,
+        -8.48251996880306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.30552",
+      "rua": "R SENHOR DA PONTE",
+      "casa": "35",
+      "coordenadas": [
+        40.816911599466756,
+        -8.481298676961206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.30553",
+      "rua": "R SENHOR DA PONTE",
+      "casa": "35",
+      "coordenadas": [
+        40.816911599466756,
+        -8.481298676961206
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.44677",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "161",
+      "coordenadas": [
+        40.815705022816914,
+        -8.484243677853398
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.59681",
+      "rua": "R PÓVOA",
+      "casa": "174",
+      "coordenadas": [
+        40.81565793332908,
+        -8.481955870094788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.67386",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "52",
+      "coordenadas": [
+        40.81617568413647,
+        -8.483452026461224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89079",
+      "rua": "R GROSO",
+      "casa": "36",
+      "coordenadas": [
+        40.81792123777388,
+        -8.4839116254844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.110911",
+      "rua": "R MONTE ALEM",
+      "casa": "",
+      "coordenadas": [
+        40.8143008217542,
+        -8.484058488358292
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.122338",
+      "rua": "R MONTE ALEM",
+      "casa": "",
+      "coordenadas": [
+        40.814023043315736,
+        -8.483606635350858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.133007",
+      "rua": "R PÓVOA",
+      "casa": "1",
+      "coordenadas": [
+        40.81454744146074,
+        -8.482910101063274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.140549",
+      "rua": "R PÓVOA",
+      "casa": "105",
+      "coordenadas": [
+        40.81516130902538,
+        -8.4824036656518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153193",
+      "rua": "R PÓVOA",
+      "casa": "289",
+      "coordenadas": [
+        40.816428392966124,
+        -8.48326371149001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.175860",
+      "rua": "AV SA CARNEIRO",
+      "casa": "522",
+      "coordenadas": [
+        40.815812375102276,
+        -8.481506277734747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.180327",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "18",
+      "coordenadas": [
+        40.81640062304251,
+        -8.483512473685327
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.192656",
+      "rua": "AV SA CARNEIRO",
+      "casa": "680",
+      "coordenadas": [
+        40.81653943143465,
+        -8.482280513205742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.221206",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "100",
+      "coordenadas": [
+        40.81582341843652,
+        -8.483805753352915
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.234550",
+      "rua": "R SENHOR DA PONTE",
+      "casa": "272",
+      "coordenadas": [
+        40.81834763928399,
+        -8.479883811429211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250847",
+      "rua": "AV SA CARNEIRO",
+      "casa": "794",
+      "coordenadas": [
+        40.81743699736867,
+        -8.483245308970588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.261380",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "78",
+      "coordenadas": [
+        40.81605779422627,
+        -8.483724018617583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.261381",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "19",
+      "coordenadas": [
+        40.81634695441784,
+        -8.483393663671624
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.272580",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "14",
+      "coordenadas": [
+        40.816490886546866,
+        -8.483441831902413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.283063",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "376",
+      "coordenadas": [
+        40.815383380210285,
+        -8.48636359567275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.283064",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "400",
+      "coordenadas": [
+        40.81577853645394,
+        -8.486709418905587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.283068",
+      "rua": "R PÓVOA",
+      "casa": "126",
+      "coordenadas": [
+        40.815018738851876,
+        -8.481905111793456
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.283069",
+      "rua": "R FONTE DAS CANAS",
+      "casa": "101",
+      "coordenadas": [
+        40.81562614209182,
+        -8.48353210391025
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.288524",
+      "rua": "R PÓVOA",
+      "casa": "176",
+      "coordenadas": [
+        40.81533419199537,
+        -8.481811943287205
+      ]
+    }
+  ],
+  "ruas": [
+    "R FONTE DAS CANAS",
+    "AV SA CARNEIRO",
+    "R PÓVOA",
+    "R SENHOR DA PONTE",
+    "R GROSO",
+    "R MONTE ALEM"
+  ],
+  "centro": [
+    40.816185341299864,
+    -8.483296615167399
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.81478823281892,
+                -8.485157425531922
+              ],
+              [
+                40.8146181907071,
+                -8.484812805491686
+              ],
+              [
+                40.81448496160201,
+                -8.484484676650894
+              ],
+              [
+                40.814388545503654,
+                -8.484173039009548
+              ],
+              [
+                40.814328942412025,
+                -8.483877892567646
+              ],
+              [
+                40.81430615232712,
+                -8.48359923732519
+              ],
+              [
+                40.81432017524895,
+                -8.48333707328218
+              ],
+              [
+                40.814371011177506,
+                -8.483091400438614
+              ],
+              [
+                40.81445866011279,
+                -8.482862218794494
+              ],
+              [
+                40.81458312205481,
+                -8.482649528349818
+              ],
+              [
+                40.81474404032333,
+                -8.482431841392536
+              ],
+              [
+                40.81494141491835,
+                -8.482209157922648
+              ],
+              [
+                40.81517524583987,
+                -8.481981477940153
+              ],
+              [
+                40.81544553308788,
+                -8.481748801445047
+              ],
+              [
+                40.815752276662394,
+                -8.481511128437337
+              ],
+              [
+                40.816095476563405,
+                -8.481268458917022
+              ],
+              [
+                40.81647513279093,
+                -8.481020792884099
+              ],
+              [
+                40.81689124534494,
+                -8.480768130338568
+              ],
+              [
+                40.81724868130611,
+                -8.480609985205842
+              ],
+              [
+                40.81754744067443,
+                -8.48054635748592
+              ],
+              [
+                40.8177875234499,
+                -8.4805772471788
+              ],
+              [
+                40.81796892963253,
+                -8.480702654284482
+              ],
+              [
+                40.818091659222304,
+                -8.48092257880297
+              ],
+              [
+                40.81815571221923,
+                -8.48123702073426
+              ],
+              [
+                40.81816108862331,
+                -8.481645980078355
+              ],
+              [
+                40.81810778843456,
+                -8.482149456835256
+              ],
+              [
+                40.818027671061266,
+                -8.482633714519746
+              ],
+              [
+                40.81792073650344,
+                -8.483098753131832
+              ],
+              [
+                40.817786984761085,
+                -8.483544572671512
+              ],
+              [
+                40.81762641583421,
+                -8.483971173138785
+              ],
+              [
+                40.817439029722806,
+                -8.484378554533654
+              ],
+              [
+                40.817224826426866,
+                -8.484766716856114
+              ],
+              [
+                40.81698380594641,
+                -8.485135660106168
+              ],
+              [
+                40.816715968281414,
+                -8.485485384283818
+              ],
+              [
+                40.81647543600824,
+                -8.485785989451246
+              ],
+              [
+                40.81626220912688,
+                -8.486037475608455
+              ],
+              [
+                40.81607628763734,
+                -8.486239842755447
+              ],
+              [
+                40.815917671539616,
+                -8.48639309089222
+              ],
+              [
+                40.815786360833705,
+                -8.486497220018773
+              ],
+              [
+                40.81568235551961,
+                -8.486552230135107
+              ],
+              [
+                40.81560565559734,
+                -8.48655812124122
+              ],
+              [
+                40.81555626106689,
+                -8.486514893337116
+              ],
+              [
+                40.815491785588755,
+                -8.486433991415993
+              ],
+              [
+                40.81541222916296,
+                -8.486315415477858
+              ],
+              [
+                40.81531759178949,
+                -8.486159165522704
+              ],
+              [
+                40.81520787346836,
+                -8.485965241550531
+              ],
+              [
+                40.81508307419955,
+                -8.485733643561344
+              ],
+              [
+                40.81494319398307,
+                -8.485464371555143
+              ],
+              [
+                40.81478823281892,
+                -8.485157425531922
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.81607876264828,
+    -8.483730033106044
+  ],
+  "centroDeMassa": [
+    40.816185341299864,
+    -8.483296615167399
+  ]
+}

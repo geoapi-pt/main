@@ -1,1 +1,413 @@
-{"CP4":"7005","CP3":"253","Distrito":"Évora","Concelho":"Évora","CP":"7005-253","Artéria":"Praceta Barão José Rochinha","Localidade":"Évora","Local":"Frei Aleixo","Troço":"","Porta":"","Cliente":"","Designação Postal":"ÉVORA","locais":[{"id":"pt.ine.add.PTCONT.1387348","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"4 A","coordenadas":[38.58453253845465,-7.900106984942637]},{"id":"pt.ine.add.PTCONT.1395740","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"10-12","coordenadas":[38.58444413019897,-7.899941858738007]},{"id":"pt.ine.add.PTCONT.1395778","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"10-12","coordenadas":[38.58444413019897,-7.899941858738007]},{"id":"pt.ine.add.PTCONT.1396046","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"10","coordenadas":[38.58444413019897,-7.899941858738007]},{"id":"pt.ine.add.PTCONT.1396182","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"11","coordenadas":[38.58444413019897,-7.899941858738007]},{"id":"pt.ine.add.PTCONT.1411901","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"16","coordenadas":[38.58431773927122,-7.899804543992539]},{"id":"pt.ine.add.PTCONT.1411902","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"14","coordenadas":[38.58431773927122,-7.899804543992539]},{"id":"pt.ine.add.PTCONT.1411903","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"13","coordenadas":[38.58431773927122,-7.899804543992539]},{"id":"pt.ine.add.PTCONT.1411977","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"15","coordenadas":[38.58431773927122,-7.899804543992539]},{"id":"pt.ine.add.PTCONT.1412049","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"1 A","coordenadas":[38.58430960342311,-7.900050333168204]},{"id":"pt.ine.add.PTCONT.1412122","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"8","coordenadas":[38.58460682836567,-7.900216780619631]},{"id":"pt.ine.add.PTCONT.1412978","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"10","coordenadas":[38.58464198599433,-7.900255583296296]},{"id":"pt.ine.add.PTCONT.1413817","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"16","coordenadas":[38.58476126964856,-7.900390617799083]},{"id":"pt.ine.add.PTCONT.1415228","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"2","coordenadas":[38.58451872159963,-7.900036953413627]},{"id":"pt.ine.add.PTCONT.1421912","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"12","coordenadas":[38.58466557285444,-7.90027833719414]},{"id":"pt.ine.add.PTCONT.1427890","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"22 A","coordenadas":[38.58493748613127,-7.900559220824263]},{"id":"pt.ine.add.PTCONT.1428600","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"14","coordenadas":[38.584713064046326,-7.900335817980287]},{"id":"pt.ine.add.PTCONT.1436431","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"1","coordenadas":[38.584271522857605,-7.9000062791864725]},{"id":"pt.ine.add.PTCONT.1448215","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"6","coordenadas":[38.5845887203697,-7.900170931119387]},{"id":"pt.ine.add.PTCONT.1454169","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"4","coordenadas":[38.584552595715266,-7.900125139854419]},{"id":"pt.ine.add.PTCONT.1457692","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"22","coordenadas":[38.58487760291668,-7.900479878047662]},{"id":"pt.ine.add.PTCONT.1462339","rua":"PCT BARÃO JOSÉ ROCHINHA","casa":"1","coordenadas":[38.58422739542861,-7.900000003930215]}],"ruas":["PCT BARÃO JOSÉ ROCHINHA"],"centroide":[38.58452499953609,-7.900095165160396]}
+{
+  "CP": "7005-253",
+  "CP4": "7005",
+  "CP3": "253",
+  "Distrito": "Évora",
+  "Concelho": "Évora",
+  "Localidade": "Évora",
+  "Designação Postal": "ÉVORA",
+  "partes": [
+    {
+      "Artéria": "Praceta Barão José Rochinha",
+      "Local": "Frei Aleixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1387348",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "4 A",
+      "coordenadas": [
+        38.58453253845465,
+        -7.900106984942637
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395740",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "10-12",
+      "coordenadas": [
+        38.58444413019897,
+        -7.899941858738007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395778",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "10-12",
+      "coordenadas": [
+        38.58444413019897,
+        -7.899941858738007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1396046",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "10",
+      "coordenadas": [
+        38.58444413019897,
+        -7.899941858738007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1396182",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "11",
+      "coordenadas": [
+        38.58444413019897,
+        -7.899941858738007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411901",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "16",
+      "coordenadas": [
+        38.58431773927122,
+        -7.899804543992539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411902",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "14",
+      "coordenadas": [
+        38.58431773927122,
+        -7.899804543992539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411903",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "13",
+      "coordenadas": [
+        38.58431773927122,
+        -7.899804543992539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411977",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "15",
+      "coordenadas": [
+        38.58431773927122,
+        -7.899804543992539
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412049",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "1 A",
+      "coordenadas": [
+        38.58430960342311,
+        -7.900050333168204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412122",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "8",
+      "coordenadas": [
+        38.58460682836567,
+        -7.900216780619631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412978",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "10",
+      "coordenadas": [
+        38.58464198599433,
+        -7.900255583296296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413817",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "16",
+      "coordenadas": [
+        38.58476126964856,
+        -7.900390617799083
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1415228",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "2",
+      "coordenadas": [
+        38.58451872159963,
+        -7.900036953413627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1421912",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "12",
+      "coordenadas": [
+        38.58466557285444,
+        -7.90027833719414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1427890",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "22 A",
+      "coordenadas": [
+        38.58493748613127,
+        -7.900559220824263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428600",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "14",
+      "coordenadas": [
+        38.584713064046326,
+        -7.900335817980287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1436431",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "1",
+      "coordenadas": [
+        38.584271522857605,
+        -7.9000062791864725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448215",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "6",
+      "coordenadas": [
+        38.5845887203697,
+        -7.900170931119387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1454169",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "4",
+      "coordenadas": [
+        38.584552595715266,
+        -7.900125139854419
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1457692",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "22",
+      "coordenadas": [
+        38.58487760291668,
+        -7.900479878047662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1462339",
+      "rua": "PCT BARÃO JOSÉ ROCHINHA",
+      "casa": "1",
+      "coordenadas": [
+        38.58422739542861,
+        -7.900000003930215
+      ]
+    }
+  ],
+  "ruas": [
+    "PCT BARÃO JOSÉ ROCHINHA"
+  ],
+  "centro": [
+    38.58458244077994,
+    -7.9001818824084005
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.58462682144886,
+                -7.900314563433118
+              ],
+              [
+                38.58453806011102,
+                -7.900244661321361
+              ],
+              [
+                38.58446180556297,
+                -7.900180442912049
+              ],
+              [
+                38.58439805780467,
+                -7.900121908205178
+              ],
+              [
+                38.584346816836145,
+                -7.900069057200752
+              ],
+              [
+                38.58430808265739,
+                -7.900021889898769
+              ],
+              [
+                38.58428185526841,
+                -7.89998040629923
+              ],
+              [
+                38.584268134669195,
+                -7.899944606402134
+              ],
+              [
+                38.58426692085975,
+                -7.899914490207482
+              ],
+              [
+                38.58427821384008,
+                -7.899890057715272
+              ],
+              [
+                38.584290070056106,
+                -7.899870824827486
+              ],
+              [
+                38.58430248950784,
+                -7.899856791544125
+              ],
+              [
+                38.584315472195286,
+                -7.899847957865188
+              ],
+              [
+                38.58432901811843,
+                -7.899844323790676
+              ],
+              [
+                38.584343127277286,
+                -7.899845889320587
+              ],
+              [
+                38.58435779967185,
+                -7.8998526544549215
+              ],
+              [
+                38.584373035302114,
+                -7.89986461919368
+              ],
+              [
+                38.584388834168074,
+                -7.899881783536864
+              ],
+              [
+                38.58440943118701,
+                -7.899905208888863
+              ],
+              [
+                38.58443482635892,
+                -7.899934895249679
+              ],
+              [
+                38.5844650196838,
+                -7.899970842619308
+              ],
+              [
+                38.58450001116164,
+                -7.900013050997752
+              ],
+              [
+                38.58453980079245,
+                -7.900061520385012
+              ],
+              [
+                38.584584388576225,
+                -7.90011625078109
+              ],
+              [
+                38.584633774512966,
+                -7.900177242185981
+              ],
+              [
+                38.584687958602686,
+                -7.900244494599688
+              ],
+              [
+                38.584736305356415,
+                -7.900304580192566
+              ],
+              [
+                38.584778814774154,
+                -7.900357498964615
+              ],
+              [
+                38.5848154868559,
+                -7.9004032509158355
+              ],
+              [
+                38.584846321601674,
+                -7.900441836046225
+              ],
+              [
+                38.584871319011455,
+                -7.900473254355788
+              ],
+              [
+                38.584890479085246,
+                -7.900497505844521
+              ],
+              [
+                38.58490380182306,
+                -7.900514590512424
+              ],
+              [
+                38.584911287224884,
+                -7.900524508359501
+              ],
+              [
+                38.58490674178425,
+                -7.900524448711722
+              ],
+              [
+                38.584890165501164,
+                -7.900514411569089
+              ],
+              [
+                38.584861558375614,
+                -7.900494396931602
+              ],
+              [
+                38.58482092040761,
+                -7.900464404799262
+              ],
+              [
+                38.58476825159715,
+                -7.900424435172068
+              ],
+              [
+                38.58470355194423,
+                -7.90037448805002
+              ],
+              [
+                38.58462682144886,
+                -7.900314563433118
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.584560870789346,
+    -7.900157101106538
+  ],
+  "centroDeMassa": [
+    38.58458244077994,
+    -7.9001818824084005
+  ]
+}

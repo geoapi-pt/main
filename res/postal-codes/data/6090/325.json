@@ -1,1 +1,401 @@
-{"CP4":"6090","CP3":"325","Distrito":"Castelo Branco","Concelho":"Penamacor","CP":"6090-325","Artéria":"Largo Dona Bárbara Tavares da Silva","Localidade":"Benquerença","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BENQUERENÇA","locais":[{"id":"pt.ine.add.PTCONT.965625","rua":"R DO LAR D BÁRBARA TAVARES DA SILVA","casa":"18","coordenadas":[40.22558443864229,-7.23481780368679]},{"id":"pt.ine.add.PTCONT.967082","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"6","coordenadas":[40.225320656550586,-7.2344805698990395]},{"id":"pt.ine.add.PTCONT.975488","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"11","coordenadas":[40.22528700874472,-7.23478648606613]},{"id":"pt.ine.add.PTCONT.981370","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"2","coordenadas":[40.225672753384444,-7.234593406577931]},{"id":"pt.ine.add.PTCONT.996612","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"3","coordenadas":[40.22514993137949,-7.234529821557978]},{"id":"pt.ine.add.PTCONT.1000592","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"10","coordenadas":[40.225357222760024,-7.234550580170773]},{"id":"pt.ine.add.PTCONT.1005481","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"13","coordenadas":[40.22533267068377,-7.234868125230735]},{"id":"pt.ine.add.PTCONT.1019838","rua":"R DO LAR D BÁRBARA TAVARES DA SILVA","casa":"20","coordenadas":[40.225594172779914,-7.234911666755622]},{"id":"pt.ine.add.PTCONT.1019882","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"16","coordenadas":[40.22547610824391,-7.2347839879430165]},{"id":"pt.ine.add.PTCONT.1022246","rua":"R DO LAR D BÁRBARA TAVARES DA SILVA","casa":"22","coordenadas":[40.225613276213366,-7.235052401949943]},{"id":"pt.ine.add.PTCONT.1027619","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"14","coordenadas":[40.225448273336085,-7.234678615272085]},{"id":"pt.ine.add.PTCONT.1034641","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"12","coordenadas":[40.225402793665324,-7.234620471538099]},{"id":"pt.ine.add.PTCONT.1052912","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"5","coordenadas":[40.22519568469633,-7.234623208067368]},{"id":"pt.ine.add.PTCONT.1067639","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"4","coordenadas":[40.225293186256586,-7.2344221883951265]},{"id":"pt.ine.add.PTCONT.1077139","rua":"R DO LAR D BÁRBARA TAVARES DA SILVA","casa":"24","coordenadas":[40.22562282786618,-7.2351227695779095]},{"id":"pt.ine.add.PTCONT.1077976","rua":"R DO LAR D BÁRBARA TAVARES DA SILVA","casa":"22 A","coordenadas":[40.22560381568041,-7.234993782097587]},{"id":"pt.ine.add.PTCONT.1095038","rua":"LG D BÁRBARA TAVARES DA SILVA","casa":"15","coordenadas":[40.22536023192264,-7.234938254665396]}],"ruas":["R DO LAR D BÁRBARA TAVARES DA SILVA","LG D BÁRBARA TAVARES DA SILVA"],"centroide":[40.22543467630523,-7.234739742799134]}
+{
+  "CP": "6090-325",
+  "CP4": "6090",
+  "CP3": "325",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Penamacor",
+  "Localidade": "Benquerença",
+  "Designação Postal": "BENQUERENÇA",
+  "partes": [
+    {
+      "Artéria": "Largo Dona Bárbara Tavares da Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.965625",
+      "rua": "R DO LAR D BÁRBARA TAVARES DA SILVA",
+      "casa": "18",
+      "coordenadas": [
+        40.22558443864229,
+        -7.23481780368679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.967082",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "6",
+      "coordenadas": [
+        40.225320656550586,
+        -7.2344805698990395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.975488",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "11",
+      "coordenadas": [
+        40.22528700874472,
+        -7.23478648606613
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.981370",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "2",
+      "coordenadas": [
+        40.225672753384444,
+        -7.234593406577931
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.996612",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "3",
+      "coordenadas": [
+        40.22514993137949,
+        -7.234529821557978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1000592",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "10",
+      "coordenadas": [
+        40.225357222760024,
+        -7.234550580170773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1005481",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "13",
+      "coordenadas": [
+        40.22533267068377,
+        -7.234868125230735
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1019838",
+      "rua": "R DO LAR D BÁRBARA TAVARES DA SILVA",
+      "casa": "20",
+      "coordenadas": [
+        40.225594172779914,
+        -7.234911666755622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1019882",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "16",
+      "coordenadas": [
+        40.22547610824391,
+        -7.2347839879430165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1022246",
+      "rua": "R DO LAR D BÁRBARA TAVARES DA SILVA",
+      "casa": "22",
+      "coordenadas": [
+        40.225613276213366,
+        -7.235052401949943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1027619",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "14",
+      "coordenadas": [
+        40.225448273336085,
+        -7.234678615272085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1034641",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "12",
+      "coordenadas": [
+        40.225402793665324,
+        -7.234620471538099
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1052912",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "5",
+      "coordenadas": [
+        40.22519568469633,
+        -7.234623208067368
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1067639",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "4",
+      "coordenadas": [
+        40.225293186256586,
+        -7.2344221883951265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1077139",
+      "rua": "R DO LAR D BÁRBARA TAVARES DA SILVA",
+      "casa": "24",
+      "coordenadas": [
+        40.22562282786618,
+        -7.2351227695779095
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1077976",
+      "rua": "R DO LAR D BÁRBARA TAVARES DA SILVA",
+      "casa": "22 A",
+      "coordenadas": [
+        40.22560381568041,
+        -7.234993782097587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1095038",
+      "rua": "LG D BÁRBARA TAVARES DA SILVA",
+      "casa": "15",
+      "coordenadas": [
+        40.22536023192264,
+        -7.234938254665396
+      ]
+    }
+  ],
+  "ruas": [
+    "R DO LAR D BÁRBARA TAVARES DA SILVA",
+    "LG D BÁRBARA TAVARES DA SILVA"
+  ],
+  "centro": [
+    40.22541134238197,
+    -7.2347724789865175
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.22517566762021,
+                -7.23458235146951
+              ],
+              [
+                40.22516994845561,
+                -7.234570678155836
+              ],
+              [
+                40.225167182544034,
+                -7.234558782238203
+              ],
+              [
+                40.22516736988549,
+                -7.234546663716609
+              ],
+              [
+                40.22517051047998,
+                -7.2345343225910534
+              ],
+              [
+                40.22517660432749,
+                -7.234521758861538
+              ],
+              [
+                40.225185651428035,
+                -7.234508972528063
+              ],
+              [
+                40.225197651781606,
+                -7.234495963590627
+              ],
+              [
+                40.225212605388215,
+                -7.234482732049231
+              ],
+              [
+                40.225230512247855,
+                -7.234469277903875
+              ],
+              [
+                40.22525211148641,
+                -7.234460180810794
+              ],
+              [
+                40.22527740310389,
+                -7.234455440769988
+              ],
+              [
+                40.225306387100275,
+                -7.234455057781459
+              ],
+              [
+                40.22533906347559,
+                -7.234459031845207
+              ],
+              [
+                40.22537543222981,
+                -7.2344673629612295
+              ],
+              [
+                40.22541549336296,
+                -7.234480051129528
+              ],
+              [
+                40.225459246875026,
+                -7.234497096350102
+              ],
+              [
+                40.225506692766004,
+                -7.234518498622954
+              ],
+              [
+                40.22554742783439,
+                -7.234545496908573
+              ],
+              [
+                40.225581452080185,
+                -7.23457809120696
+              ],
+              [
+                40.22560876550338,
+                -7.234616281518116
+              ],
+              [
+                40.22562936810398,
+                -7.23466006784204
+              ],
+              [
+                40.225643259881984,
+                -7.234709450178732
+              ],
+              [
+                40.22565044083739,
+                -7.234764428528193
+              ],
+              [
+                40.2256509109702,
+                -7.234825002890422
+              ],
+              [
+                40.225644670280424,
+                -7.234891173265419
+              ],
+              [
+                40.22563510661524,
+                -7.234946189298034
+              ],
+              [
+                40.22562221997467,
+                -7.234990050988267
+              ],
+              [
+                40.2256060103587,
+                -7.235022758336116
+              ],
+              [
+                40.225586477767344,
+                -7.23504431134158
+              ],
+              [
+                40.22556362220058,
+                -7.235054710004665
+              ],
+              [
+                40.22553744365843,
+                -7.235053954325366
+              ],
+              [
+                40.22550794214089,
+                -7.235042044303684
+              ],
+              [
+                40.22547511764794,
+                -7.235018979939621
+              ],
+              [
+                40.22544382516621,
+                -7.23499387601797
+              ],
+              [
+                40.22541406469568,
+                -7.234966732538735
+              ],
+              [
+                40.225385836236356,
+                -7.234937549501912
+              ],
+              [
+                40.22535913978824,
+                -7.2349063269075025
+              ],
+              [
+                40.22533397535133,
+                -7.234873064755508
+              ],
+              [
+                40.225310342925624,
+                -7.234837763045926
+              ],
+              [
+                40.225288242511134,
+                -7.2348004217787585
+              ],
+              [
+                40.22526767410785,
+                -7.234761040954005
+              ],
+              [
+                40.22524896185939,
+                -7.234725123568137
+              ],
+              [
+                40.22523210576578,
+                -7.234692669621154
+              ],
+              [
+                40.22521710582699,
+                -7.234663679113055
+              ],
+              [
+                40.22520396204304,
+                -7.23463815204384
+              ],
+              [
+                40.22519267441393,
+                -7.234616088413511
+              ],
+              [
+                40.22518324293965,
+                -7.234597488222068
+              ],
+              [
+                40.22517566762021,
+                -7.23458235146951
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.225382435917616,
+    -7.234704941473619
+  ],
+  "centroDeMassa": [
+    40.22541134238197,
+    -7.2347724789865175
+  ]
+}

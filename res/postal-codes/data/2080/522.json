@@ -1,1 +1,564 @@
-{"CP4":"2080","CP3":"522","Distrito":"Santarém","Concelho":"Almeirim","CP":"2080-522","Artéria":"Estrada Vale de Barrocas","Localidade":"Fazendas de Almeirim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FAZENDAS DE ALMEIRIM","locais":[{"id":"pt.ine.add.PTCONT.4408937","rua":"ESTR VALE DE BARROCAS","casa":"","coordenadas":[39.18029388905003,-8.603860888251125]},{"id":"pt.ine.add.PTCONT.4420182","rua":"ESTR VALE BARROCAS","casa":"","coordenadas":[39.179904945244985,-8.606485389990366]},{"id":"pt.ine.add.PTCONT.4420190","rua":"ESTR VALE DE BARROCAS","casa":"","coordenadas":[39.17790795997262,-8.601368401064965]},{"id":"pt.ine.add.PTCONT.4424236","rua":"ESTR VALE BARROCAS","casa":"14","coordenadas":[39.181340560543816,-8.60563859080725]},{"id":"pt.ine.add.PTCONT.4424237","rua":"ESTR VALE BARROCAS","casa":"14","coordenadas":[39.181340560543816,-8.60563859080725]},{"id":"pt.ine.add.PTCONT.4432518","rua":"ESTR VALE BARROCAS","casa":"72","coordenadas":[39.17821215660141,-8.601879623607461]},{"id":"pt.ine.add.PTCONT.4449012","rua":"ESTR VALE DE BARROCAS","casa":"2","coordenadas":[39.1817800333691,-8.606104469683517]},{"id":"pt.ine.add.PTCONT.4451059","rua":"ESTR VALE BARROCAS","casa":"40","coordenadas":[39.17981646233953,-8.603869277237244]},{"id":"pt.ine.add.PTCONT.4461453","rua":"ESTR VALE BARROCAS","casa":"82","coordenadas":[39.17793446987999,-8.60149587757748]},{"id":"pt.ine.add.PTCONT.4468177","rua":"ESTR VALE BARROCAS","casa":"26","coordenadas":[39.18076630646308,-8.605090803572027]},{"id":"pt.ine.add.PTCONT.4470097","rua":"ESTR VALE DE BARROCAS","casa":"","coordenadas":[39.18178636501647,-8.604542100764021]},{"id":"pt.ine.add.PTCONT.4470099","rua":"ESTR VALE BARROCAS","casa":"10","coordenadas":[39.181564519027255,-8.60594099808269]},{"id":"pt.ine.add.PTCONT.4476993","rua":"ESTR VALE DE BARROCAS","casa":"4","coordenadas":[39.18031744038564,-8.606939510278027]},{"id":"pt.ine.add.PTCONT.4493029","rua":"ESTR VALE DE BARROCAS","casa":"89","coordenadas":[39.17777582625608,-8.600626867835196]},{"id":"pt.ine.add.PTCONT.4506272","rua":"ESTR VALE BARROCAS","casa":"65167","coordenadas":[39.17872617065544,-8.60173258921183]},{"id":"pt.ine.add.PTCONT.4506273","rua":"ESTR VALE BARROCAS","casa":"","coordenadas":[39.179252070811856,-8.6053352844051]},{"id":"pt.ine.add.PTCONT.4531117","rua":"ESTR VALE DE BARROCAS","casa":"45","coordenadas":[39.18010917495496,-8.602760207733454]},{"id":"pt.ine.add.PTCONT.4534321","rua":"ESTR VALE BARROCAS","casa":"","coordenadas":[39.17978968477739,-8.606033266502136]},{"id":"pt.ine.add.PTCONT.4536092","rua":"ESTR VALE DE BARROCAS","casa":"911","coordenadas":[39.18154903898205,-8.60531593194593]},{"id":"pt.ine.add.PTCONT.4542106","rua":"ESTR VALE DE BARROCAS","casa":"45","coordenadas":[39.180281616802326,-8.602437306319626]},{"id":"pt.ine.add.PTCONT.4554195","rua":"ESTR VALE BARROCAS","casa":"76","coordenadas":[39.17812255035313,-8.601763300370585]},{"id":"pt.ine.add.PTCONT.4579562","rua":"ESTR VALE BARROCAS","casa":"60","coordenadas":[39.178695375510465,-8.602669790609754]},{"id":"pt.ine.add.PTCONT.4585798","rua":"ESTR VALE BARROCAS","casa":"70","coordenadas":[39.178292802122876,-8.601984314773137]},{"id":"pt.ine.add.PTCONT.4625024","rua":"ESTR VALE BARROCAS","casa":"46 48","coordenadas":[39.17951162068315,-8.60352005279314]},{"id":"pt.ine.add.PTCONT.4637423","rua":"ESTR VALE BARROCAS","casa":"64","coordenadas":[39.17856983462084,-8.602530080806027]},{"id":"pt.ine.add.PTCONT.4647685","rua":"ESTR VALE BARROCAS","casa":"72","coordenadas":[39.17848400058268,-8.601476378188492]},{"id":"pt.ine.add.PTCONT.4651548","rua":"ESTR VALE DE BARROCAS","casa":"47","coordenadas":[39.1780618723688,-8.601172684311475]},{"id":"pt.ine.add.PTCONT.4652200","rua":"ESTR VALE DE BARROCAS","casa":"","coordenadas":[39.183006915601865,-8.603416038993148]}],"ruas":["ESTR VALE DE BARROCAS","ESTR VALE BARROCAS"],"centroide":[39.17963656695998,-8.603637502871454]}
+{
+  "CP": "2080-522",
+  "CP4": "2080",
+  "CP3": "522",
+  "Distrito": "Santarém",
+  "Concelho": "Almeirim",
+  "Localidade": "Fazendas de Almeirim",
+  "Designação Postal": "FAZENDAS DE ALMEIRIM",
+  "partes": [
+    {
+      "Artéria": "Estrada Vale de Barrocas",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4408937",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.18029388905003,
+        -8.603860888251125
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4420182",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.179904945244985,
+        -8.606485389990366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4420190",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.17790795997262,
+        -8.601368401064965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4424236",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "14",
+      "coordenadas": [
+        39.181340560543816,
+        -8.60563859080725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4424237",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "14",
+      "coordenadas": [
+        39.181340560543816,
+        -8.60563859080725
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4432518",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "72",
+      "coordenadas": [
+        39.17821215660141,
+        -8.601879623607461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4449012",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "2",
+      "coordenadas": [
+        39.1817800333691,
+        -8.606104469683517
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4451059",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "40",
+      "coordenadas": [
+        39.17981646233953,
+        -8.603869277237244
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4461453",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "82",
+      "coordenadas": [
+        39.17793446987999,
+        -8.60149587757748
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4468177",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "26",
+      "coordenadas": [
+        39.18076630646308,
+        -8.605090803572027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470097",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.18178636501647,
+        -8.604542100764021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470099",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "10",
+      "coordenadas": [
+        39.181564519027255,
+        -8.60594099808269
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4476993",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "4",
+      "coordenadas": [
+        39.18031744038564,
+        -8.606939510278027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4493029",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "89",
+      "coordenadas": [
+        39.17777582625608,
+        -8.600626867835196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4506272",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "65167",
+      "coordenadas": [
+        39.17872617065544,
+        -8.60173258921183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4506273",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.179252070811856,
+        -8.6053352844051
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4531117",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "45",
+      "coordenadas": [
+        39.18010917495496,
+        -8.602760207733454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4534321",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.17978968477739,
+        -8.606033266502136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4536092",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "911",
+      "coordenadas": [
+        39.18154903898205,
+        -8.60531593194593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4542106",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "45",
+      "coordenadas": [
+        39.180281616802326,
+        -8.602437306319626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4554195",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "76",
+      "coordenadas": [
+        39.17812255035313,
+        -8.601763300370585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4579562",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "60",
+      "coordenadas": [
+        39.178695375510465,
+        -8.602669790609754
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4585798",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "70",
+      "coordenadas": [
+        39.178292802122876,
+        -8.601984314773137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4625024",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "46 48",
+      "coordenadas": [
+        39.17951162068315,
+        -8.60352005279314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4637423",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "64",
+      "coordenadas": [
+        39.17856983462084,
+        -8.602530080806027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4647685",
+      "rua": "ESTR VALE BARROCAS",
+      "casa": "72",
+      "coordenadas": [
+        39.17848400058268,
+        -8.601476378188492
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4651548",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "47",
+      "coordenadas": [
+        39.1780618723688,
+        -8.601172684311475
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4652200",
+      "rua": "ESTR VALE DE BARROCAS",
+      "casa": "",
+      "coordenadas": [
+        39.183006915601865,
+        -8.603416038993148
+      ]
+    }
+  ],
+  "ruas": [
+    "ESTR VALE DE BARROCAS",
+    "ESTR VALE BARROCAS"
+  ],
+  "centro": [
+    39.18039137092897,
+    -8.60378318905661
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.17785015147163,
+                -8.601043980276941
+              ],
+              [
+                39.177833634757064,
+                -8.60095128862322
+              ],
+              [
+                39.17790091840285,
+                -8.600913764225556
+              ],
+              [
+                39.178052002408975,
+                -8.600931407083952
+              ],
+              [
+                39.17828688677546,
+                -8.601004217198405
+              ],
+              [
+                39.17860557150228,
+                -8.601132194568915
+              ],
+              [
+                39.17900805658946,
+                -8.601315339195484
+              ],
+              [
+                39.17949434203699,
+                -8.601553651078113
+              ],
+              [
+                39.18006442784486,
+                -8.601847130216798
+              ],
+              [
+                39.180718314013085,
+                -8.602195776611543
+              ],
+              [
+                39.18127129437539,
+                -8.602542848936482
+              ],
+              [
+                39.181723368931785,
+                -8.602888347191614
+              ],
+              [
+                39.18207453768226,
+                -8.60323227137694
+              ],
+              [
+                39.18232480062682,
+                -8.603574621492461
+              ],
+              [
+                39.18247415776547,
+                -8.603915397538175
+              ],
+              [
+                39.182522609098214,
+                -8.604254599514082
+              ],
+              [
+                39.18247015462503,
+                -8.604592227420184
+              ],
+              [
+                39.18231679434594,
+                -8.60492828125648
+              ],
+              [
+                39.18215975108636,
+                -8.605235375872528
+              ],
+              [
+                39.181999024846306,
+                -8.605513511268331
+              ],
+              [
+                39.18183461562577,
+                -8.605762687443884
+              ],
+              [
+                39.18166652342476,
+                -8.605982904399186
+              ],
+              [
+                39.18149474824327,
+                -8.606174162134243
+              ],
+              [
+                39.18131929008129,
+                -8.606336460649054
+              ],
+              [
+                39.18114014893884,
+                -8.606469799943614
+              ],
+              [
+                39.18095732481591,
+                -8.60657418001793
+              ],
+              [
+                39.18079090847177,
+                -8.606658416953458
+              ],
+              [
+                39.18064089990643,
+                -8.606722510750203
+              ],
+              [
+                39.18050729911988,
+                -8.606766461408165
+              ],
+              [
+                39.180390106112114,
+                -8.606790268927346
+              ],
+              [
+                39.180289320883155,
+                -8.60679393330774
+              ],
+              [
+                39.18020494343298,
+                -8.60677745454935
+              ],
+              [
+                39.180136973761606,
+                -8.606740832652177
+              ],
+              [
+                39.18008541186903,
+                -8.606684067616216
+              ],
+              [
+                39.18003009405,
+                -8.606616427809984
+              ],
+              [
+                39.17997102030453,
+                -8.606537913233476
+              ],
+              [
+                39.17990819063261,
+                -8.606448523886693
+              ],
+              [
+                39.17984160503425,
+                -8.606348259769637
+              ],
+              [
+                39.17977126350944,
+                -8.606237120882305
+              ],
+              [
+                39.17969716605819,
+                -8.606115107224696
+              ],
+              [
+                39.17961931268049,
+                -8.605982218796813
+              ],
+              [
+                39.179537703376354,
+                -8.605838455598654
+              ],
+              [
+                39.17944570772067,
+                -8.605652672068585
+              ],
+              [
+                39.17934332571344,
+                -8.605424868206603
+              ],
+              [
+                39.17923055735467,
+                -8.60515504401271
+              ],
+              [
+                39.17910740264436,
+                -8.604843199486902
+              ],
+              [
+                39.178973861582506,
+                -8.604489334629186
+              ],
+              [
+                39.178829934169116,
+                -8.604093449439558
+              ],
+              [
+                39.17867562040417,
+                -8.603655543918016
+              ],
+              [
+                39.178510920287685,
+                -8.603175618064565
+              ],
+              [
+                39.17836639346846,
+                -8.602753691122285
+              ],
+              [
+                39.17824203994649,
+                -8.602389763091182
+              ],
+              [
+                39.17813785972178,
+                -8.60208383397125
+              ],
+              [
+                39.17805385279433,
+                -8.601835903762488
+              ],
+              [
+                39.177990019164135,
+                -8.601645972464905
+              ],
+              [
+                39.1779463588312,
+                -8.601514040078492
+              ],
+              [
+                39.177922871795516,
+                -8.601440106603254
+              ],
+              [
+                39.1779195580571,
+                -8.60142417203919
+              ],
+              [
+                39.17791459394665,
+                -8.601398642838918
+              ],
+              [
+                39.177907979464194,
+                -8.60136351900244
+              ],
+              [
+                39.17789971460972,
+                -8.601318800529754
+              ],
+              [
+                39.17788979938322,
+                -8.601264487420861
+              ],
+              [
+                39.17787823378471,
+                -8.601200579675762
+              ],
+              [
+                39.177865017814185,
+                -8.601127077294453
+              ],
+              [
+                39.17785015147163,
+                -8.601043980276941
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.179734957690265,
+    -8.603971479978474
+  ],
+  "centroDeMassa": [
+    39.18039137092897,
+    -8.60378318905661
+  ]
+}

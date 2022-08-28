@@ -1,1 +1,317 @@
-{"CP4":"2970","CP3":"865","Distrito":"Setúbal","Concelho":"Sesimbra","CP":"2970-865","Artéria":"Rua Pedro Marmelo","Localidade":"Venda Nova","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SESIMBRA","locais":[{"id":"pt.ine.add.PTCONT.4702467","rua":"R PEDRO MARMELO","casa":"4","coordenadas":[38.477991017180514,-9.100868556703901]},{"id":"pt.ine.add.PTCONT.4715964","rua":"BC PEDRO MARMELO","casa":"10","coordenadas":[38.47738781399006,-9.100826112595705]},{"id":"pt.ine.add.PTCONT.4767670","rua":"R PEDRO MARMELO","casa":"","coordenadas":[38.4775423574889,-9.100656284067878]},{"id":"pt.ine.add.PTCONT.4884353","rua":"R PEDRO MARMELO","casa":"5","coordenadas":[38.47792626201602,-9.101073965700335]},{"id":"pt.ine.add.PTCONT.4908776","rua":"R PEDRO MARMELO","casa":"11","coordenadas":[38.4771085885475,-9.100822379381391]},{"id":"pt.ine.add.PTCONT.4908777","rua":"R PEDRO MARMELO","casa":"10","coordenadas":[38.47778545918546,-9.100670993491919]},{"id":"pt.ine.add.PTCONT.4923123","rua":"R PEDRO MARMELO","casa":"15","coordenadas":[38.47679342866278,-9.100806706256384]},{"id":"pt.ine.add.PTCONT.5006369","rua":"R PEDRO MARMELO","casa":"","coordenadas":[38.47746973139155,-9.100724071068077]},{"id":"pt.ine.add.PTCONT.5025174","rua":"R PEDRO MARMELO","casa":"13","coordenadas":[38.47720994019656,-9.100548704050217]},{"id":"pt.ine.add.PTCONT.5032909","rua":"R PEDRO MARMELO","casa":"12","coordenadas":[38.47757971156884,-9.100496348194191]},{"id":"pt.ine.add.PTCONT.5072450","rua":"R PEDRO MARMELO","casa":"2A","coordenadas":[38.47744991817432,-9.100941539301699]},{"id":"pt.ine.add.PTCONT.5072553","rua":"R PEDRO MARMELO","casa":"2B","coordenadas":[38.47744991817432,-9.100941539301699]},{"id":"pt.ine.add.PTCONT.5123048","rua":"R PEDRO MARMELO","casa":"","coordenadas":[38.47732854882828,-9.100366935491895]},{"id":"pt.ine.add.PTCONT.5128635","rua":"R PEDRO MARMELO","casa":"2","coordenadas":[38.478109342344645,-9.100721162175105]}],"ruas":["R PEDRO MARMELO","BC PEDRO MARMELO"],"centroide":[38.47746328426194,-9.100749548892713]}}
+{
+  "CP": "2970-865",
+  "CP4": "2970",
+  "CP3": "865",
+  "Distrito": "Setúbal",
+  "Concelho": "Sesimbra",
+  "Localidade": "Venda Nova",
+  "Designação Postal": "SESIMBRA",
+  "partes": [
+    {
+      "Artéria": "Beco Pedro Marmelo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Pedro Marmelo",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4702467",
+      "rua": "R PEDRO MARMELO",
+      "casa": "4",
+      "coordenadas": [
+        38.477991017180514,
+        -9.100868556703901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4715964",
+      "rua": "BC PEDRO MARMELO",
+      "casa": "10",
+      "coordenadas": [
+        38.47738781399006,
+        -9.100826112595705
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4767670",
+      "rua": "R PEDRO MARMELO",
+      "casa": "",
+      "coordenadas": [
+        38.4775423574889,
+        -9.100656284067878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4884353",
+      "rua": "R PEDRO MARMELO",
+      "casa": "5",
+      "coordenadas": [
+        38.47792626201602,
+        -9.101073965700335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4908776",
+      "rua": "R PEDRO MARMELO",
+      "casa": "11",
+      "coordenadas": [
+        38.4771085885475,
+        -9.100822379381391
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4908777",
+      "rua": "R PEDRO MARMELO",
+      "casa": "10",
+      "coordenadas": [
+        38.47778545918546,
+        -9.100670993491919
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4923123",
+      "rua": "R PEDRO MARMELO",
+      "casa": "15",
+      "coordenadas": [
+        38.47679342866278,
+        -9.100806706256384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5006369",
+      "rua": "R PEDRO MARMELO",
+      "casa": "",
+      "coordenadas": [
+        38.47746973139155,
+        -9.100724071068077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5025174",
+      "rua": "R PEDRO MARMELO",
+      "casa": "13",
+      "coordenadas": [
+        38.47720994019656,
+        -9.100548704050217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5032909",
+      "rua": "R PEDRO MARMELO",
+      "casa": "12",
+      "coordenadas": [
+        38.47757971156884,
+        -9.100496348194191
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5072450",
+      "rua": "R PEDRO MARMELO",
+      "casa": "2A",
+      "coordenadas": [
+        38.47744991817432,
+        -9.100941539301699
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5072553",
+      "rua": "R PEDRO MARMELO",
+      "casa": "2B",
+      "coordenadas": [
+        38.47744991817432,
+        -9.100941539301699
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5123048",
+      "rua": "R PEDRO MARMELO",
+      "casa": "",
+      "coordenadas": [
+        38.47732854882828,
+        -9.100366935491895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5128635",
+      "rua": "R PEDRO MARMELO",
+      "casa": "2",
+      "coordenadas": [
+        38.478109342344645,
+        -9.100721162175105
+      ]
+    }
+  ],
+  "ruas": [
+    "R PEDRO MARMELO",
+    "BC PEDRO MARMELO"
+  ],
+  "centro": [
+    38.47745138550371,
+    -9.100720450596114
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.47743064742397,
+                -9.100957039693608
+              ],
+              [
+                38.47728904325483,
+                -9.100923632263111
+              ],
+              [
+                38.4771735008594,
+                -9.100887529343234
+              ],
+              [
+                38.477084020237704,
+                -9.100848730933974
+              ],
+              [
+                38.47702060138974,
+                -9.10080723703533
+              ],
+              [
+                38.476983244315505,
+                -9.100763047647302
+              ],
+              [
+                38.476971949015,
+                -9.10071616276989
+              ],
+              [
+                38.47698671548823,
+                -9.100666582403097
+              ],
+              [
+                38.47702754373519,
+                -9.10061430654692
+              ],
+              [
+                38.47709443375587,
+                -9.100559335201357
+              ],
+              [
+                38.477165162422665,
+                -9.100516770065916
+              ],
+              [
+                38.47723972973557,
+                -9.100486611140596
+              ],
+              [
+                38.47731813569458,
+                -9.100468858425398
+              ],
+              [
+                38.4774003802997,
+                -9.100463511920317
+              ],
+              [
+                38.47748646355092,
+                -9.100470571625358
+              ],
+              [
+                38.47757638544825,
+                -9.10049003754052
+              ],
+              [
+                38.47767014599169,
+                -9.100521909665801
+              ],
+              [
+                38.47776774518123,
+                -9.1005661880012
+              ],
+              [
+                38.477850283841946,
+                -9.100610444099758
+              ],
+              [
+                38.47791776197384,
+                -9.100654677961472
+              ],
+              [
+                38.4779701795769,
+                -9.100698889586344
+              ],
+              [
+                38.478007536651134,
+                -9.100743078974372
+              ],
+              [
+                38.478029833196544,
+                -9.100787246125556
+              ],
+              [
+                38.478037069213116,
+                -9.100831391039897
+              ],
+              [
+                38.47802924470087,
+                -9.100875513717394
+              ],
+              [
+                38.478006359659794,
+                -9.100919614158046
+              ],
+              [
+                38.47796863472771,
+                -9.100954026114806
+              ],
+              [
+                38.47791606990461,
+                -9.100978749587673
+              ],
+              [
+                38.4778486651905,
+                -9.100993784576646
+              ],
+              [
+                38.47776642058539,
+                -9.100999131081727
+              ],
+              [
+                38.477669336089264,
+                -9.100994789102913
+              ],
+              [
+                38.47755741170212,
+                -9.100980758640208
+              ],
+              [
+                38.47743064742397,
+                -9.100957039693608
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.477539395462934,
+    -9.10074219240593
+  ],
+  "centroDeMassa": [
+    38.47745138550371,
+    -9.100720450596114
+  ]
+}

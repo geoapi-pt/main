@@ -1,1 +1,376 @@
-{"CP4":"2925","CP3":"092","Distrito":"Setúbal","Concelho":"Setúbal","CP":"2925-092","Artéria":"Rua Padre António Pires Brioso","Localidade":"Azeitão","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AZEITÃO","locais":[{"id":"pt.ine.add.PTCONT.4705723","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"","coordenadas":[38.549188203656904,-8.998972727281728]},{"id":"pt.ine.add.PTCONT.4741652","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"17","coordenadas":[38.551799676390324,-9.001527781314234]},{"id":"pt.ine.add.PTCONT.4869714","rua":"R PADRE ANTONIO PIRES BRIOSO","casa":"N 10","coordenadas":[38.55016729675134,-8.999351550205347]},{"id":"pt.ine.add.PTCONT.4884918","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"10D","coordenadas":[38.550214879568216,-8.99900798349993]},{"id":"pt.ine.add.PTCONT.4884946","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"31","coordenadas":[38.55192509933704,-9.001621062358351]},{"id":"pt.ine.add.PTCONT.4888386","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"85","coordenadas":[38.549606460057554,-8.999666013182944]},{"id":"pt.ine.add.PTCONT.4891964","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"10F","coordenadas":[38.550261613250484,-8.99877911878445]},{"id":"pt.ine.add.PTCONT.4898943","rua":"R PADRE ANTONIO PIRES BRIOSO","casa":"10","coordenadas":[38.55023978043803,-8.99929506365215]},{"id":"pt.ine.add.PTCONT.4904203","rua":"R PADRE ANTÓNIO PIRES BRIOSO QTA CASTANHEIRA","casa":"11","coordenadas":[38.55095646838931,-8.999831346048781]},{"id":"pt.ine.add.PTCONT.4921000","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"10E","coordenadas":[38.55025006076655,-8.999123118086683]},{"id":"pt.ine.add.PTCONT.4947778","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"49","coordenadas":[38.550725505724564,-9.000608623929862]},{"id":"pt.ine.add.PTCONT.4952461","rua":"R PADRE ANTÓNIO PIRES BRIOSO","casa":"7","coordenadas":[38.5501919420661,-8.999673040967116]},{"id":"pt.ine.add.PTCONT.4988989","rua":"R PADRE ANTONIO PIRES BRIOSO","casa":"10","coordenadas":[38.550269772423775,-8.99889392926541]},{"id":"pt.ine.add.PTCONT.5119672","rua":"R PADRE ANTÓNIO PIRES BRIOSO QTA DO EURICO","casa":"9","coordenadas":[38.55062353375954,-8.999781463551605]}],"ruas":["R PADRE ANTÓNIO PIRES BRIOSO","R PADRE ANTONIO PIRES BRIOSO","R PADRE ANTÓNIO PIRES BRIOSO QTA CASTANHEIRA","R PADRE ANTÓNIO PIRES BRIOSO QTA DO EURICO"],"centroide":[38.55044590452463,-8.999719335275152]}
+{
+  "CP": "2925-092",
+  "CP4": "2925",
+  "CP3": "092",
+  "Distrito": "Setúbal",
+  "Concelho": "Setúbal",
+  "Localidade": "Azeitão",
+  "Designação Postal": "AZEITÃO",
+  "partes": [
+    {
+      "Artéria": "Rua Padre António Pires Brioso",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4705723",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "",
+      "coordenadas": [
+        38.549188203656904,
+        -8.998972727281728
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4741652",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "17",
+      "coordenadas": [
+        38.551799676390324,
+        -9.001527781314234
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4869714",
+      "rua": "R PADRE ANTONIO PIRES BRIOSO",
+      "casa": "N 10",
+      "coordenadas": [
+        38.55016729675134,
+        -8.999351550205347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4884918",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "10D",
+      "coordenadas": [
+        38.550214879568216,
+        -8.99900798349993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4884946",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "31",
+      "coordenadas": [
+        38.55192509933704,
+        -9.001621062358351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4888386",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "85",
+      "coordenadas": [
+        38.549606460057554,
+        -8.999666013182944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4891964",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "10F",
+      "coordenadas": [
+        38.550261613250484,
+        -8.99877911878445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4898943",
+      "rua": "R PADRE ANTONIO PIRES BRIOSO",
+      "casa": "10",
+      "coordenadas": [
+        38.55023978043803,
+        -8.99929506365215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4904203",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO QTA CASTANHEIRA",
+      "casa": "11",
+      "coordenadas": [
+        38.55095646838931,
+        -8.999831346048781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4921000",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "10E",
+      "coordenadas": [
+        38.55025006076655,
+        -8.999123118086683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4947778",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "49",
+      "coordenadas": [
+        38.550725505724564,
+        -9.000608623929862
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4952461",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO",
+      "casa": "7",
+      "coordenadas": [
+        38.5501919420661,
+        -8.999673040967116
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4988989",
+      "rua": "R PADRE ANTONIO PIRES BRIOSO",
+      "casa": "10",
+      "coordenadas": [
+        38.550269772423775,
+        -8.99889392926541
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5119672",
+      "rua": "R PADRE ANTÓNIO PIRES BRIOSO QTA DO EURICO",
+      "casa": "9",
+      "coordenadas": [
+        38.55062353375954,
+        -8.999781463551605
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE ANTÓNIO PIRES BRIOSO",
+    "R PADRE ANTONIO PIRES BRIOSO",
+    "R PADRE ANTÓNIO PIRES BRIOSO QTA CASTANHEIRA",
+    "R PADRE ANTÓNIO PIRES BRIOSO QTA DO EURICO"
+  ],
+  "centro": [
+    38.550556651496976,
+    -9.0002000905714
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.54942347288227,
+                -8.999362700601163
+              ],
+              [
+                38.54937119083219,
+                -8.99927603986351
+              ],
+              [
+                38.549342216063266,
+                -8.999197186585295
+              ],
+              [
+                38.54933654857551,
+                -8.999126140766515
+              ],
+              [
+                38.54935418836891,
+                -8.999062902407173
+              ],
+              [
+                38.54939513544346,
+                -8.999007471507268
+              ],
+              [
+                38.549459389799175,
+                -8.998959848066798
+              ],
+              [
+                38.54954695143606,
+                -8.998920032085765
+              ],
+              [
+                38.54965782035409,
+                -8.998888023564168
+              ],
+              [
+                38.549791996553296,
+                -8.99886382250201
+              ],
+              [
+                38.54992025783913,
+                -8.998859087623625
+              ],
+              [
+                38.550042604211626,
+                -8.998873818929013
+              ],
+              [
+                38.55015903567075,
+                -8.99890801641818
+              ],
+              [
+                38.55026955221653,
+                -8.99896168009112
+              ],
+              [
+                38.55037415384895,
+                -8.999034809947837
+              ],
+              [
+                38.550472840568005,
+                -8.999127405988329
+              ],
+              [
+                38.55056561237372,
+                -8.999239468212593
+              ],
+              [
+                38.550652469266076,
+                -8.999370996620637
+              ],
+              [
+                38.550743603905445,
+                -8.99951404829501
+              ],
+              [
+                38.550839016291825,
+                -8.999668623235715
+              ],
+              [
+                38.55093870642522,
+                -8.999834721442753
+              ],
+              [
+                38.55104267430563,
+                -9.00001234291612
+              ],
+              [
+                38.55115091993305,
+                -9.00020148765582
+              ],
+              [
+                38.55126344330749,
+                -9.000402155661854
+              ],
+              [
+                38.55138024442894,
+                -9.000614346934219
+              ],
+              [
+                38.55150132329741,
+                -9.000838061472914
+              ],
+              [
+                38.55160530757377,
+                -9.001032354177958
+              ],
+              [
+                38.551692197258035,
+                -9.001197225049353
+              ],
+              [
+                38.5517619923502,
+                -9.001332674087095
+              ],
+              [
+                38.551814692850265,
+                -9.001438701291185
+              ],
+              [
+                38.551850298758225,
+                -9.001515306661624
+              ],
+              [
+                38.55186881007409,
+                -9.001562490198413
+              ],
+              [
+                38.55187022679785,
+                -9.001580251901549
+              ],
+              [
+                38.55185454892951,
+                -9.001568591771035
+              ],
+              [
+                38.55180656178952,
+                -9.001529299029784
+              ],
+              [
+                38.551726265377866,
+                -9.001462373677793
+              ],
+              [
+                38.55161365969455,
+                -9.001367815715067
+              ],
+              [
+                38.55146874473959,
+                -9.001245625141607
+              ],
+              [
+                38.55129152051296,
+                -9.001095801957407
+              ],
+              [
+                38.551081987014676,
+                -9.000918346162468
+              ],
+              [
+                38.55084014424474,
+                -9.000713257756793
+              ],
+              [
+                38.55056599220314,
+                -9.000480536740383
+              ],
+              [
+                38.550319573910485,
+                -9.000266073258818
+              ],
+              [
+                38.55010088936676,
+                -9.000069867312096
+              ],
+              [
+                38.549909938571986,
+                -8.999891918900218
+              ],
+              [
+                38.54974672152615,
+                -8.999732228023188
+              ],
+              [
+                38.54961123822925,
+                -8.999590794681
+              ],
+              [
+                38.549503488681296,
+                -8.999467618873659
+              ],
+              [
+                38.54942347288227,
+                -8.999362700601163
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.55062292018027,
+    -9.00006634149508
+  ],
+  "centroDeMassa": [
+    38.550556651496976,
+    -9.0002000905714
+  ]
+}

@@ -1,1 +1,485 @@
-{"CP4":"4250","CP3":"308","Distrito":"Porto","Concelho":"Porto","CP":"4250-308","Artéria":"Travessa Monte de Ramalde","Localidade":"Porto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PORTO","locais":[{"id":"pt.ine.add.PTCONT.3549711","rua":"TV MONTE DE RAMALDE","casa":"81","coordenadas":[41.16633223460308,-8.633838378121387]},{"id":"pt.ine.add.PTCONT.3607390","rua":"TV MONTE DE RAMALDE","casa":"58","coordenadas":[41.16625947705946,-8.634004642134384]},{"id":"pt.ine.add.PTCONT.3619926","rua":"TV MONTE DE RAMALDE","casa":"119","coordenadas":[41.16627148433049,-8.633313630709804]},{"id":"pt.ine.add.PTCONT.3658642","rua":"TV MONTE DE RAMALDE","casa":"58","coordenadas":[41.16616948857031,-8.633992041296962]},{"id":"pt.ine.add.PTCONT.3679566","rua":"TV MONTE DE RAMALDE","casa":"107","coordenadas":[41.166271018582115,-8.633420867267315]},{"id":"pt.ine.add.PTCONT.3717363","rua":"TV MONTE DE RAMALDE","casa":"109","coordenadas":[41.166271277343526,-8.63336129140234]},{"id":"pt.ine.add.PTCONT.3717364","rua":"TV MONTE DE RAMALDE","casa":"47","coordenadas":[41.166384393233294,-8.634267736326734]},{"id":"pt.ine.add.PTCONT.3780679","rua":"TV MONTE DE RAMALDE","casa":"58","coordenadas":[41.1662054010609,-8.634016145883601]},{"id":"pt.ine.add.PTCONT.3823117","rua":"TV MONTE DE RAMALDE","casa":"90","coordenadas":[41.16618930937949,-8.633575147925052]},{"id":"pt.ine.add.PTCONT.3890216","rua":"TV MONTE DE RAMALDE","casa":"80","coordenadas":[41.166224548795334,-8.633754149425542]},{"id":"pt.ine.add.PTCONT.3930348","rua":"TV MONTE DE RAMALDE","casa":"41","coordenadas":[41.16637507812293,-8.634339158863007]},{"id":"pt.ine.add.PTCONT.3965894","rua":"TV MONTE DE RAMALDE","casa":"63","coordenadas":[41.166340565147195,-8.63399334406814]},{"id":"pt.ine.add.PTCONT.3985710","rua":"TV MONTE DE RAMALDE","casa":"91","coordenadas":[41.16627940145996,-8.633563917848337]},{"id":"pt.ine.add.PTCONT.4001211","rua":"TV MONTE DE RAMALDE","casa":"84","coordenadas":[41.16612597051296,-8.63364615923664]},{"id":"pt.ine.add.PTCONT.4001212","rua":"TV MONTE DE RAMALDE","casa":"84","coordenadas":[41.16612597051296,-8.63364615923664]},{"id":"pt.ine.add.PTCONT.4040466","rua":"TV MONTE DE RAMALDE","casa":"71","coordenadas":[41.16634082420506,-8.633933768145392]},{"id":"pt.ine.add.PTCONT.4073494","rua":"TV MONTE DE RAMALDE","casa":"76","coordenadas":[41.166161158021886,-8.633837075753634]},{"id":"pt.ine.add.PTCONT.4099725","rua":"TV MONTE DE RAMALDE","casa":"70","coordenadas":[41.16622403083583,-8.633873301062911]},{"id":"pt.ine.add.PTCONT.4111626","rua":"TV MONTE DE RAMALDE","casa":"60","coordenadas":[41.16612472747355,-8.633932122737264]},{"id":"pt.ine.add.PTCONT.4125509","rua":"TV MONTE DE RAMALDE","casa":"87","coordenadas":[41.166306051130924,-8.633647529625996]},{"id":"pt.ine.add.PTCONT.4185881","rua":"TV MONTE DE RAMALDE","casa":"121","coordenadas":[41.1662987551304,-8.63325426024107]},{"id":"pt.ine.add.PTCONT.4223841","rua":"TV MONTE DE RAMALDE","casa":"9","coordenadas":[41.16639220454583,-8.634541854374872]},{"id":"pt.ine.add.PTCONT.4269729","rua":"TV MONTE DE RAMALDE","casa":"55","coordenadas":[41.16640323062491,-8.634077230409764]},{"id":"pt.ine.add.PTCONT.4322981","rua":"TV MONTE DE RAMALDE","casa":"49","coordenadas":[41.16639391563241,-8.634148652994629]},{"id":"pt.ine.add.PTCONT.4323121","rua":"TV MONTE DE RAMALDE","casa":"49","coordenadas":[41.16639391563241,-8.634148652994629]},{"id":"pt.ine.add.PTCONT.4323122","rua":"TV MONTE DE RAMALDE","casa":"114","coordenadas":[41.166064339862984,-8.633323970951956]},{"id":"pt.ine.add.PTCONT.4331482","rua":"TV MONTE DE RAMALDE","casa":"105","coordenadas":[41.16627070802776,-8.633492358304258]},{"id":"pt.ine.add.PTCONT.4355369","rua":"TV MONTE DE RAMALDE","casa":"59","coordenadas":[41.16638553348281,-8.634005602097139]},{"id":"pt.ine.add.PTCONT.4355478","rua":"TV MONTE DE RAMALDE","casa":"106","coordenadas":[41.16612659176642,-8.63350317747962]},{"id":"pt.ine.add.PTCONT.4372862","rua":"TV MONTE DE RAMALDE","casa":"112","coordenadas":[41.1660909379568,-8.633419497500194]}],"ruas":["TV MONTE DE RAMALDE"],"centroide":[41.166265917416794,-8.633808700928244]}
+{
+  "CP": "4250-308",
+  "CP4": "4250",
+  "CP3": "308",
+  "Distrito": "Porto",
+  "Concelho": "Porto",
+  "Localidade": "Porto",
+  "Designação Postal": "PORTO",
+  "partes": [
+    {
+      "Artéria": "Travessa Monte de Ramalde",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3549711",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "81",
+      "coordenadas": [
+        41.16633223460308,
+        -8.633838378121387
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3607390",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "58",
+      "coordenadas": [
+        41.16625947705946,
+        -8.634004642134384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3619926",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "119",
+      "coordenadas": [
+        41.16627148433049,
+        -8.633313630709804
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3658642",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "58",
+      "coordenadas": [
+        41.16616948857031,
+        -8.633992041296962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3679566",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "107",
+      "coordenadas": [
+        41.166271018582115,
+        -8.633420867267315
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3717363",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "109",
+      "coordenadas": [
+        41.166271277343526,
+        -8.63336129140234
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3717364",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "47",
+      "coordenadas": [
+        41.166384393233294,
+        -8.634267736326734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3780679",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "58",
+      "coordenadas": [
+        41.1662054010609,
+        -8.634016145883601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3823117",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "90",
+      "coordenadas": [
+        41.16618930937949,
+        -8.633575147925052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3890216",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "80",
+      "coordenadas": [
+        41.166224548795334,
+        -8.633754149425542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3930348",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "41",
+      "coordenadas": [
+        41.16637507812293,
+        -8.634339158863007
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3965894",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "63",
+      "coordenadas": [
+        41.166340565147195,
+        -8.63399334406814
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3985710",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "91",
+      "coordenadas": [
+        41.16627940145996,
+        -8.633563917848337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4001211",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "84",
+      "coordenadas": [
+        41.16612597051296,
+        -8.63364615923664
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4001212",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "84",
+      "coordenadas": [
+        41.16612597051296,
+        -8.63364615923664
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4040466",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "71",
+      "coordenadas": [
+        41.16634082420506,
+        -8.633933768145392
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4073494",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "76",
+      "coordenadas": [
+        41.166161158021886,
+        -8.633837075753634
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4099725",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "70",
+      "coordenadas": [
+        41.16622403083583,
+        -8.633873301062911
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4111626",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "60",
+      "coordenadas": [
+        41.16612472747355,
+        -8.633932122737264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4125509",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "87",
+      "coordenadas": [
+        41.166306051130924,
+        -8.633647529625996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4185881",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "121",
+      "coordenadas": [
+        41.1662987551304,
+        -8.63325426024107
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4223841",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "9",
+      "coordenadas": [
+        41.16639220454583,
+        -8.634541854374872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4269729",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "55",
+      "coordenadas": [
+        41.16640323062491,
+        -8.634077230409764
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4322981",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "49",
+      "coordenadas": [
+        41.16639391563241,
+        -8.634148652994629
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4323121",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "49",
+      "coordenadas": [
+        41.16639391563241,
+        -8.634148652994629
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4323122",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "114",
+      "coordenadas": [
+        41.166064339862984,
+        -8.633323970951956
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4331482",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "105",
+      "coordenadas": [
+        41.16627070802776,
+        -8.633492358304258
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4355369",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "59",
+      "coordenadas": [
+        41.16638553348281,
+        -8.634005602097139
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4355478",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "106",
+      "coordenadas": [
+        41.16612659176642,
+        -8.63350317747962
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4372862",
+      "rua": "TV MONTE DE RAMALDE",
+      "casa": "112",
+      "coordenadas": [
+        41.1660909379568,
+        -8.633419497500194
+      ]
+    }
+  ],
+  "ruas": [
+    "TV MONTE DE RAMALDE"
+  ],
+  "centro": [
+    41.166233785243946,
+    -8.63389805730797
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.16609830789393,
+                -8.633666056331192
+              ],
+              [
+                41.16609075944261,
+                -8.633590037358028
+              ],
+              [
+                41.166087817286254,
+                -8.633522431526652
+              ],
+              [
+                41.166089481424876,
+                -8.633463238837065
+              ],
+              [
+                41.16609575185846,
+                -8.633412459289264
+              ],
+              [
+                41.16610662858701,
+                -8.633370092883252
+              ],
+              [
+                41.166122111610534,
+                -8.63333613961903
+              ],
+              [
+                41.166142200929016,
+                -8.633310599496593
+              ],
+              [
+                41.16616689654248,
+                -8.633293472515945
+              ],
+              [
+                41.166196198450905,
+                -8.633284758677082
+              ],
+              [
+                41.16622347005038,
+                -8.633289992976966
+              ],
+              [
+                41.1662487113409,
+                -8.633309175415592
+              ],
+              [
+                41.16627192232247,
+                -8.633342305992961
+              ],
+              [
+                41.16629310299509,
+                -8.633389384709075
+              ],
+              [
+                41.16631225335876,
+                -8.633450411563931
+              ],
+              [
+                41.166329373413475,
+                -8.63352538655753
+              ],
+              [
+                41.16634446315924,
+                -8.633614309689873
+              ],
+              [
+                41.166357522596066,
+                -8.63371718096096
+              ],
+              [
+                41.16636877732079,
+                -8.633814453072615
+              ],
+              [
+                41.166378227333425,
+                -8.633906126024842
+              ],
+              [
+                41.16638587263398,
+                -8.633992199817635
+              ],
+              [
+                41.16639171322244,
+                -8.634072674450996
+              ],
+              [
+                41.16639574909882,
+                -8.63414754992493
+              ],
+              [
+                41.16639798026311,
+                -8.63421682623943
+              ],
+              [
+                41.16639840671531,
+                -8.6342805033945
+              ],
+              [
+                41.16639702845543,
+                -8.634338581390136
+              ],
+              [
+                41.16639164314877,
+                -8.634379872579483
+              ],
+              [
+                41.166382250795344,
+                -8.634404376962536
+              ],
+              [
+                41.166368851395156,
+                -8.634412094539298
+              ],
+              [
+                41.1663514449482,
+                -8.634403025309766
+              ],
+              [
+                41.16633003145447,
+                -8.634377169273943
+              ],
+              [
+                41.166304610913976,
+                -8.634334526431825
+              ],
+              [
+                41.16627518332671,
+                -8.634275096783417
+              ],
+              [
+                41.16624174869268,
+                -8.634198880328718
+              ],
+              [
+                41.16621154983148,
+                -8.63412268855921
+              ],
+              [
+                41.16618458674313,
+                -8.634046521474891
+              ],
+              [
+                41.16616085942761,
+                -8.633970379075766
+              ],
+              [
+                41.16614036788493,
+                -8.633894261361835
+              ],
+              [
+                41.16612311211509,
+                -8.633818168333097
+              ],
+              [
+                41.16610909211809,
+                -8.633742099989547
+              ],
+              [
+                41.16609830789393,
+                -8.633666056331192
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.16625665152753,
+    -8.633825887742985
+  ],
+  "centroDeMassa": [
+    41.166233785243946,
+    -8.63389805730797
+  ]
+}

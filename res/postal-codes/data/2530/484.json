@@ -1,1 +1,431 @@
-{"CP4":"2530","CP3":"484","Distrito":"Lisboa","Concelho":"Lourinhã","CP":"2530-484","Artéria":"Rua Vale da Eira","Localidade":"Moita dos Ferreiros","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MOITA DOS FERREIROS","locais":[{"id":"pt.ine.add.PTCONT.2298763","rua":"R FONTE PICARRA","casa":"14","coordenadas":[39.247207116876,-9.218863089254]},{"id":"pt.ine.add.PTCONT.2417657","rua":"R FONTE PICARRA","casa":"","coordenadas":[39.24748823860477,-9.21865891476251]},{"id":"pt.ine.add.PTCONT.2508063","rua":"R MATA","casa":"6","coordenadas":[39.246488168568604,-9.218689830838295]},{"id":"pt.ine.add.PTCONT.2642781","rua":"R VALE DA EIRA","casa":"1","coordenadas":[39.25014885479448,-9.206617501996567]},{"id":"pt.ine.add.PTCONT.2668604","rua":"R FONTE PICARRA","casa":"9","coordenadas":[39.24631670031151,-9.220656411996497]},{"id":"pt.ine.add.PTCONT.2683828","rua":"R FONTE PICARRA","casa":"7","coordenadas":[39.24598665126725,-9.22127682966374]},{"id":"pt.ine.add.PTCONT.2703606","rua":"R MATA","casa":"9","coordenadas":[39.247322957704014,-9.218030838989844]},{"id":"pt.ine.add.PTCONT.2728994","rua":"TV FONTE PICARRA","casa":"6","coordenadas":[39.248078361622696,-9.218158318920155]},{"id":"pt.ine.add.PTCONT.2739596","rua":"R MATA","casa":"8","coordenadas":[39.246553044053016,-9.218493907927211]},{"id":"pt.ine.add.PTCONT.2756419","rua":"R MATA","casa":"9","coordenadas":[39.24682537525752,-9.218266430788486]},{"id":"pt.ine.add.PTCONT.2776952","rua":"R FONTE PICARRA","casa":"2A","coordenadas":[39.245833553631776,-9.221274463639272]},{"id":"pt.ine.add.PTCONT.2805745","rua":"R FONTE PICARRA","casa":"7","coordenadas":[39.247374510179,-9.218298061931739]},{"id":"pt.ine.add.PTCONT.2875360","rua":"R FONTE PICARRA","casa":"4","coordenadas":[39.2459169858901,-9.221020913639856]},{"id":"pt.ine.add.PTCONT.2878631","rua":"R MATA","casa":"9","coordenadas":[39.247107035479225,-9.218004344241274]},{"id":"pt.ine.add.PTCONT.2911314","rua":"R FONTE PICARRA","casa":"5","coordenadas":[39.24596690810509,-9.221461862410788]},{"id":"pt.ine.add.PTCONT.2975102","rua":"R MATA","casa":"21","coordenadas":[39.2468193297549,-9.218915028121042]},{"id":"pt.ine.add.PTCONT.2993298","rua":"R MATA","casa":"5","coordenadas":[39.24684915429383,-9.218614310195797]},{"id":"pt.ine.add.PTCONT.3077247","rua":"R FONTE PICARRA","casa":"1","coordenadas":[39.24600076606334,-9.22169405819505]},{"id":"pt.ine.add.PTCONT.3160980","rua":"R FONTE PICARRA","casa":"5","coordenadas":[39.24769111439307,-9.218152351009842]},{"id":"pt.ine.add.PTCONT.3173781","rua":"R DA MATA","casa":"11","coordenadas":[39.24666780347126,-9.217777485433885]},{"id":"pt.ine.add.PTCONT.3386334","rua":"R MATA","casa":"9","coordenadas":[39.246785741213245,-9.21768663224542]},{"id":"pt.ine.add.PTCONT.3439867","rua":"R FONTE PICARRA","casa":"2","coordenadas":[39.24575977602106,-9.221458660781163]}],"ruas":["R FONTE PICARRA","R MATA","R VALE DA EIRA","TV FONTE PICARRA","R DA MATA"],"centroide":[39.246925160549274,-9.218600551723872]}872]}
+{
+  "CP": "2530-484",
+  "CP4": "2530",
+  "CP3": "484",
+  "Distrito": "Lisboa",
+  "Concelho": "Lourinhã",
+  "Localidade": "Moita dos Ferreiros",
+  "Designação Postal": "MOITA DOS FERREIROS",
+  "partes": [
+    {
+      "Artéria": "Rua da Fonte Piçarra",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Mata",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Vale da Eira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2298763",
+      "rua": "R FONTE PICARRA",
+      "casa": "14",
+      "coordenadas": [
+        39.247207116876,
+        -9.218863089254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2417657",
+      "rua": "R FONTE PICARRA",
+      "casa": "",
+      "coordenadas": [
+        39.24748823860477,
+        -9.21865891476251
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2508063",
+      "rua": "R MATA",
+      "casa": "6",
+      "coordenadas": [
+        39.246488168568604,
+        -9.218689830838295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2642781",
+      "rua": "R VALE DA EIRA",
+      "casa": "1",
+      "coordenadas": [
+        39.25014885479448,
+        -9.206617501996567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2668604",
+      "rua": "R FONTE PICARRA",
+      "casa": "9",
+      "coordenadas": [
+        39.24631670031151,
+        -9.220656411996497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2683828",
+      "rua": "R FONTE PICARRA",
+      "casa": "7",
+      "coordenadas": [
+        39.24598665126725,
+        -9.22127682966374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2703606",
+      "rua": "R MATA",
+      "casa": "9",
+      "coordenadas": [
+        39.247322957704014,
+        -9.218030838989844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2728994",
+      "rua": "TV FONTE PICARRA",
+      "casa": "6",
+      "coordenadas": [
+        39.248078361622696,
+        -9.218158318920155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2739596",
+      "rua": "R MATA",
+      "casa": "8",
+      "coordenadas": [
+        39.246553044053016,
+        -9.218493907927211
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2756419",
+      "rua": "R MATA",
+      "casa": "9",
+      "coordenadas": [
+        39.24682537525752,
+        -9.218266430788486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2776952",
+      "rua": "R FONTE PICARRA",
+      "casa": "2A",
+      "coordenadas": [
+        39.245833553631776,
+        -9.221274463639272
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2805745",
+      "rua": "R FONTE PICARRA",
+      "casa": "7",
+      "coordenadas": [
+        39.247374510179,
+        -9.218298061931739
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2875360",
+      "rua": "R FONTE PICARRA",
+      "casa": "4",
+      "coordenadas": [
+        39.2459169858901,
+        -9.221020913639856
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2878631",
+      "rua": "R MATA",
+      "casa": "9",
+      "coordenadas": [
+        39.247107035479225,
+        -9.218004344241274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2911314",
+      "rua": "R FONTE PICARRA",
+      "casa": "5",
+      "coordenadas": [
+        39.24596690810509,
+        -9.221461862410788
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2975102",
+      "rua": "R MATA",
+      "casa": "21",
+      "coordenadas": [
+        39.2468193297549,
+        -9.218915028121042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2993298",
+      "rua": "R MATA",
+      "casa": "5",
+      "coordenadas": [
+        39.24684915429383,
+        -9.218614310195797
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3077247",
+      "rua": "R FONTE PICARRA",
+      "casa": "1",
+      "coordenadas": [
+        39.24600076606334,
+        -9.22169405819505
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3160980",
+      "rua": "R FONTE PICARRA",
+      "casa": "5",
+      "coordenadas": [
+        39.24769111439307,
+        -9.218152351009842
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3173781",
+      "rua": "R DA MATA",
+      "casa": "11",
+      "coordenadas": [
+        39.24666780347126,
+        -9.217777485433885
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3386334",
+      "rua": "R MATA",
+      "casa": "9",
+      "coordenadas": [
+        39.246785741213245,
+        -9.21768663224542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3439867",
+      "rua": "R FONTE PICARRA",
+      "casa": "2",
+      "coordenadas": [
+        39.24575977602106,
+        -9.221458660781163
+      ]
+    }
+  ],
+  "ruas": [
+    "R FONTE PICARRA",
+    "R MATA",
+    "R VALE DA EIRA",
+    "TV FONTE PICARRA",
+    "R DA MATA"
+  ],
+  "centro": [
+    39.24795431540777,
+    -9.214155780095808
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.245895332919844,
+                -9.221591071826476
+              ],
+              [
+                39.245865209164556,
+                -9.22156164714974
+              ],
+              [
+                39.245853038807596,
+                -9.221478382192794
+              ],
+              [
+                39.24585882184895,
+                -9.22134127695564
+              ],
+              [
+                39.24588255828862,
+                -9.221150331438276
+              ],
+              [
+                39.24592424812662,
+                -9.220905545640703
+              ],
+              [
+                39.24598389136293,
+                -9.22060691956292
+              ],
+              [
+                39.246061487997565,
+                -9.220254453204928
+              ],
+              [
+                39.246157038030525,
+                -9.21984814656673
+              ],
+              [
+                39.2462705414618,
+                -9.219387999648319
+              ],
+              [
+                39.24642424839109,
+                -9.218810996353504
+              ],
+              [
+                39.2466181588184,
+                -9.218117136682281
+              ],
+              [
+                39.24685227274372,
+                -9.21730642063465
+              ],
+              [
+                39.247126590167056,
+                -9.216378848210612
+              ],
+              [
+                39.247441111088406,
+                -9.21533441941017
+              ],
+              [
+                39.24779583550777,
+                -9.214173134233317
+              ],
+              [
+                39.248190763425164,
+                -9.21289499268006
+              ],
+              [
+                39.24862589484058,
+                -9.211499994750394
+              ],
+              [
+                39.248974283373244,
+                -9.210459696826367
+              ],
+              [
+                39.24923592902318,
+                -9.209774098907982
+              ],
+              [
+                39.24941083179038,
+                -9.209443200995233
+              ],
+              [
+                39.24949899167484,
+                -9.209467003088125
+              ],
+              [
+                39.249500408676575,
+                -9.209845505186657
+              ],
+              [
+                39.249415082795565,
+                -9.210578707290827
+              ],
+              [
+                39.249243014031826,
+                -9.211666609400636
+              ],
+              [
+                39.24898420238535,
+                -9.213109211516086
+              ],
+              [
+                39.24872527976407,
+                -9.214426734293273
+              ],
+              [
+                39.24846624616798,
+                -9.215619177732199
+              ],
+              [
+                39.24820710159709,
+                -9.216686541832866
+              ],
+              [
+                39.2479478460514,
+                -9.217628826595272
+              ],
+              [
+                39.2476884795309,
+                -9.218446032019417
+              ],
+              [
+                39.24742900203559,
+                -9.219138158105299
+              ],
+              [
+                39.24716941356547,
+                -9.219705204852922
+              ],
+              [
+                39.24690971412056,
+                -9.220147172262283
+              ],
+              [
+                39.24667871163685,
+                -9.220530215660883
+              ],
+              [
+                39.24647640611433,
+                -9.220854335048722
+              ],
+              [
+                39.24630279755303,
+                -9.221119530425797
+              ],
+              [
+                39.246157885952925,
+                -9.22132580179211
+              ],
+              [
+                39.246041671314025,
+                -9.221473149147661
+              ],
+              [
+                39.24595415363633,
+                -9.22156157249245
+              ],
+              [
+                39.245895332919844,
+                -9.221591071826476
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.24733111239457,
+    -9.217141205065364
+  ],
+  "centroDeMassa": [
+    39.24795431540777,
+    -9.214155780095808
+  ]
+}

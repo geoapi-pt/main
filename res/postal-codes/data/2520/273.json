@@ -1,1 +1,591 @@
-{"CP4":"2520","CP3":"273","Distrito":"Leiria","Concelho":"Peniche","CP":"2520-273","Artéria":"Rua Alexandre Herculano","Localidade":"Peniche","Local":"","Troço":"Pares de 2 a 84","Porta":"","Cliente":"","Designação Postal":"PENICHE","locais":[{"id":"pt.ine.add.PTCONT.2001098","rua":"R ALEXANDRÉ HERCULANO","casa":"","coordenadas":[39.36093354838011,-9.378462625005763]},{"id":"pt.ine.add.PTCONT.2001099","rua":"R ALEXANDRÉ HERCULANO","casa":"","coordenadas":[39.36093354838011,-9.378462625005763]},{"id":"pt.ine.add.PTCONT.2001100","rua":"R ALEXANDRE HERCULANO","casa":"1","coordenadas":[39.36093354838011,-9.378462625005763]},{"id":"pt.ine.add.PTCONT.2001101","rua":"R ALEXANDRÉ HERCULANO","casa":"","coordenadas":[39.36093354838011,-9.378462625005763]},{"id":"pt.ine.add.PTCONT.2001634","rua":"R ALEXANDRE HERCULANO","casa":"1","coordenadas":[39.36093354838011,-9.378462625005763]},{"id":"pt.ine.add.PTCONT.2003203","rua":"R ALEXANDRE HERCULANO","casa":"24","coordenadas":[39.359879583758435,-9.378478713699021]},{"id":"pt.ine.add.PTCONT.2003204","rua":"R ALEXANDRE HERCULANO","casa":"46","coordenadas":[39.35973426120193,-9.378592155446587]},{"id":"pt.ine.add.PTCONT.2003205","rua":"R ALEXANDRE HERCULANO","casa":"46","coordenadas":[39.35973426120193,-9.378592155446587]},{"id":"pt.ine.add.PTCONT.2003206","rua":"R ALEXANDRE HERCULANO","casa":"46","coordenadas":[39.35973426120193,-9.378592155446587]},{"id":"pt.ine.add.PTCONT.2046876","rua":"R ALEXANDRE HERCULANO","casa":"72","coordenadas":[39.359270035704036,-9.379047997749291]},{"id":"pt.ine.add.PTCONT.2099446","rua":"R ALEXANDRE HERCULANO","casa":"52","coordenadas":[39.35968886340181,-9.378626155890947]},{"id":"pt.ine.add.PTCONT.2132041","rua":"R ALEXANDRE HERCULANO","casa":"78","coordenadas":[39.3591881206849,-9.379127757534626]},{"id":"pt.ine.add.PTCONT.2145245","rua":"R ALEXANDRE HERCULANO","casa":"4-6","coordenadas":[39.360593466466916,-9.378259344216621]},{"id":"pt.ine.add.PTCONT.2153321","rua":"R ALEXANDRE HERCULANO","casa":"32","coordenadas":[39.35981605171144,-9.37852399449373]},{"id":"pt.ine.add.PTCONT.2156349","rua":"R ALEXANDRE HERCULANO","casa":"10 A","coordenadas":[39.360467271470775,-9.37826870574893]},{"id":"pt.ine.add.PTCONT.2156350","rua":"R ALEXANDRE HERCULANO","casa":"10 A","coordenadas":[39.360467271470775,-9.37826870574893]},{"id":"pt.ine.add.PTCONT.2156351","rua":"R ALEXANDRE HERCULANO","casa":"10 A","coordenadas":[39.360467271470775,-9.37826870574893]},{"id":"pt.ine.add.PTCONT.2157110","rua":"R ALEXANDRE HERCULANO","casa":"10 A","coordenadas":[39.360467271470775,-9.37826870574893]},{"id":"pt.ine.add.PTCONT.2186876","rua":"R ALEXANDRE HERCULANO","casa":"2","coordenadas":[39.36084449095224,-9.3783682237469]},{"id":"pt.ine.add.PTCONT.2211770","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2211771","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2211772","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2211773","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2211774","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2211777","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2212304","rua":"R ALEXANDRE HERCULANO","casa":"62","coordenadas":[39.35939734856686,-9.378934237716063]},{"id":"pt.ine.add.PTCONT.2213969","rua":"R ALEXANDRE HERCULANO","casa":"38","coordenadas":[39.35977065393053,-9.378557995021014]},{"id":"pt.ine.add.PTCONT.2233270","rua":"R ALEXANDRÉ HERCULANO","casa":"20 22","coordenadas":[39.35992498151703,-9.37844471306884]},{"id":"pt.ine.add.PTCONT.2233271","rua":"R ALEXANDRE HERCULANO","casa":"22","coordenadas":[39.35992498151703,-9.37844471306884]},{"id":"pt.ine.add.PTCONT.2264840","rua":"R ALEXANDRE HERCULANO","casa":"16","coordenadas":[39.35999764273931,-9.378387991949454]},{"id":"pt.ine.add.PTCONT.2266298","rua":"R ALEXANDRE HERCULANO","casa":"4-6","coordenadas":[39.360593466466916,-9.378259344216621]}],"ruas":["R ALEXANDRÉ HERCULANO","R ALEXANDRE HERCULANO"],"centroide":[39.360013997458026,-9.378599055960535]}
+{
+  "CP": "2520-273",
+  "CP4": "2520",
+  "CP3": "273",
+  "Distrito": "Leiria",
+  "Concelho": "Peniche",
+  "Localidade": "Peniche",
+  "Designação Postal": "PENICHE",
+  "partes": [
+    {
+      "Artéria": "Rua Alexandre Herculano",
+      "Local": "",
+      "Troço": "Pares de 2 a 84",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2001098",
+      "rua": "R ALEXANDRÉ HERCULANO",
+      "casa": "",
+      "coordenadas": [
+        39.36093354838011,
+        -9.378462625005763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2001099",
+      "rua": "R ALEXANDRÉ HERCULANO",
+      "casa": "",
+      "coordenadas": [
+        39.36093354838011,
+        -9.378462625005763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2001100",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "1",
+      "coordenadas": [
+        39.36093354838011,
+        -9.378462625005763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2001101",
+      "rua": "R ALEXANDRÉ HERCULANO",
+      "casa": "",
+      "coordenadas": [
+        39.36093354838011,
+        -9.378462625005763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2001634",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "1",
+      "coordenadas": [
+        39.36093354838011,
+        -9.378462625005763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003203",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "24",
+      "coordenadas": [
+        39.359879583758435,
+        -9.378478713699021
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003204",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "46",
+      "coordenadas": [
+        39.35973426120193,
+        -9.378592155446587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003205",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "46",
+      "coordenadas": [
+        39.35973426120193,
+        -9.378592155446587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003206",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "46",
+      "coordenadas": [
+        39.35973426120193,
+        -9.378592155446587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2046876",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "72",
+      "coordenadas": [
+        39.359270035704036,
+        -9.379047997749291
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2099446",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "52",
+      "coordenadas": [
+        39.35968886340181,
+        -9.378626155890947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2132041",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "78",
+      "coordenadas": [
+        39.3591881206849,
+        -9.379127757534626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2145245",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "4-6",
+      "coordenadas": [
+        39.360593466466916,
+        -9.378259344216621
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2153321",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "32",
+      "coordenadas": [
+        39.35981605171144,
+        -9.37852399449373
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2156349",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "10 A",
+      "coordenadas": [
+        39.360467271470775,
+        -9.37826870574893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2156350",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "10 A",
+      "coordenadas": [
+        39.360467271470775,
+        -9.37826870574893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2156351",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "10 A",
+      "coordenadas": [
+        39.360467271470775,
+        -9.37826870574893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2157110",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "10 A",
+      "coordenadas": [
+        39.360467271470775,
+        -9.37826870574893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2186876",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "2",
+      "coordenadas": [
+        39.36084449095224,
+        -9.3783682237469
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211770",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211771",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211772",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211773",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211774",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211777",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2212304",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "62",
+      "coordenadas": [
+        39.35939734856686,
+        -9.378934237716063
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2213969",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "38",
+      "coordenadas": [
+        39.35977065393053,
+        -9.378557995021014
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2233270",
+      "rua": "R ALEXANDRÉ HERCULANO",
+      "casa": "20 22",
+      "coordenadas": [
+        39.35992498151703,
+        -9.37844471306884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2233271",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "22",
+      "coordenadas": [
+        39.35992498151703,
+        -9.37844471306884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2264840",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "16",
+      "coordenadas": [
+        39.35999764273931,
+        -9.378387991949454
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2266298",
+      "rua": "R ALEXANDRE HERCULANO",
+      "casa": "4-6",
+      "coordenadas": [
+        39.360593466466916,
+        -9.378259344216621
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALEXANDRÉ HERCULANO",
+    "R ALEXANDRE HERCULANO"
+  ],
+  "centro": [
+    39.360060834532504,
+    -9.378693550875624
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.36016992376346,
+                -9.378753620487142
+              ],
+              [
+                39.35995174530155,
+                -9.378836762053247
+              ],
+              [
+                39.35976866325234,
+                -9.378901673397909
+              ],
+              [
+                39.35962067761582,
+                -9.378948354521125
+              ],
+              [
+                39.35950778839199,
+                -9.378976805422894
+              ],
+              [
+                39.35942999558083,
+                -9.378987026103221
+              ],
+              [
+                39.35938729918238,
+                -9.378979016562099
+              ],
+              [
+                39.359379699196616,
+                -9.37895277679953
+              ],
+              [
+                39.35940719562354,
+                -9.378908306815516
+              ],
+              [
+                39.359469788463166,
+                -9.378845606610057
+              ],
+              [
+                39.359525835174836,
+                -9.378789678916686
+              ],
+              [
+                39.35957533575857,
+                -9.378740523735406
+              ],
+              [
+                39.35961829021436,
+                -9.378698141066215
+              ],
+              [
+                39.359654698542215,
+                -9.378662530909114
+              ],
+              [
+                39.359684560742124,
+                -9.378633693264103
+              ],
+              [
+                39.35970787681409,
+                -9.378611628131182
+              ],
+              [
+                39.359724646758124,
+                -9.378596335510352
+              ],
+              [
+                39.359734870574215,
+                -9.378587815401609
+              ],
+              [
+                39.35974736311343,
+                -9.378577704008467
+              ],
+              [
+                39.35976212437578,
+                -9.378566001330926
+              ],
+              [
+                39.35977915436124,
+                -9.378552707368982
+              ],
+              [
+                39.359798453069835,
+                -9.37853782212264
+              ],
+              [
+                39.35982002050156,
+                -9.378521345591896
+              ],
+              [
+                39.3598438566564,
+                -9.378503277776751
+              ],
+              [
+                39.35986996153437,
+                -9.378483618677206
+              ],
+              [
+                39.35989833513547,
+                -9.378462368293262
+              ],
+              [
+                39.35993049998535,
+                -9.378441910360428
+              ],
+              [
+                39.35996645608404,
+                -9.378422244878701
+              ],
+              [
+                39.36000620343151,
+                -9.378403371848087
+              ],
+              [
+                39.36004974202778,
+                -9.37838529126858
+              ],
+              [
+                39.360097071872836,
+                -9.378368003140185
+              ],
+              [
+                39.36014819296669,
+                -9.378351507462899
+              ],
+              [
+                39.36020310530933,
+                -9.378335804236723
+              ],
+              [
+                39.36026180890075,
+                -9.378320893461659
+              ],
+              [
+                39.36031514634007,
+                -9.378307700259535
+              ],
+              [
+                39.36036311762728,
+                -9.37829622463035
+              ],
+              [
+                39.360405722762366,
+                -9.378286466574108
+              ],
+              [
+                39.36044296174535,
+                -9.378278426090805
+              ],
+              [
+                39.36047483457621,
+                -9.378272103180445
+              ],
+              [
+                39.36050134125496,
+                -9.378267497843025
+              ],
+              [
+                39.36052248178159,
+                -9.378264610078546
+              ],
+              [
+                39.360538256156104,
+                -9.378263439887006
+              ],
+              [
+                39.36055598099139,
+                -9.378264117212069
+              ],
+              [
+                39.360575656287445,
+                -9.378266642053738
+              ],
+              [
+                39.36059728204427,
+                -9.378271014412007
+              ],
+              [
+                39.36062085826186,
+                -9.378277234286882
+              ],
+              [
+                39.360646384940225,
+                -9.378285301678357
+              ],
+              [
+                39.36067386207935,
+                -9.378295216586437
+              ],
+              [
+                39.36070328967925,
+                -9.378306979011118
+              ],
+              [
+                39.360734667739905,
+                -9.378320588952404
+              ],
+              [
+                39.3607635150653,
+                -9.378333972670697
+              ],
+              [
+                39.360789831655424,
+                -9.378347130166
+              ],
+              [
+                39.360813617510274,
+                -9.378360061438313
+              ],
+              [
+                39.36083487262984,
+                -9.378372766487633
+              ],
+              [
+                39.36085359701414,
+                -9.378385245313964
+              ],
+              [
+                39.36086979066317,
+                -9.378397497917303
+              ],
+              [
+                39.36088345357693,
+                -9.378409524297652
+              ],
+              [
+                39.36089458575542,
+                -9.378421324455012
+              ],
+              [
+                39.36087705410385,
+                -9.378442042288462
+              ],
+              [
+                39.360830858622236,
+                -9.378471677798009
+              ],
+              [
+                39.360755999310584,
+                -9.378510230983647
+              ],
+              [
+                39.36065247616887,
+                -9.37855770184538
+              ],
+              [
+                39.36052028919712,
+                -9.378614090383206
+              ],
+              [
+                39.36035943839531,
+                -9.378679396597128
+              ],
+              [
+                39.36016992376346,
+                -9.378753620487142
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.36018550725332,
+    -9.378507349889281
+  ],
+  "centroDeMassa": [
+    39.360060834532504,
+    -9.378693550875624
+  ]
+}

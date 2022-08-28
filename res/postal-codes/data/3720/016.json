@@ -1,1 +1,520 @@
-{"CP4":"3720","CP3":"016","Distrito":"Aveiro","Concelho":"Oliveira de Azeméis","CP":"3720-016","Artéria":" ","Localidade":"Carregosa de Baixo","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CARREGOSA","locais":[{"id":"pt.ine.add.PTCONT.290993","rua":"R MARTIR S SEBASTIÃO","casa":"227","coordenadas":[40.885708357385134,-8.415510881712708]},{"id":"pt.ine.add.PTCONT.291902","rua":"TV AMERICANO","casa":"45 A","coordenadas":[40.88594015170156,-8.41646108164978]},{"id":"pt.ine.add.PTCONT.301590","rua":"R MARTIR S SEBASTIÃO","casa":"8","coordenadas":[40.88634492599772,-8.416640786988305]},{"id":"pt.ine.add.PTCONT.314765","rua":"R MARTIR S SEBASTIÃO","casa":"","coordenadas":[40.88604039753569,-8.415975036035027]},{"id":"pt.ine.add.PTCONT.322999","rua":"R CAVADINHA","casa":"690","coordenadas":[40.88660319806394,-8.417804688768204]},{"id":"pt.ine.add.PTCONT.338962","rua":"R MARTIR S SEBASTIÃO","casa":"","coordenadas":[40.88615553548578,-8.416758630855503]},{"id":"pt.ine.add.PTCONT.10334","rua":"R RESTAURACAO","casa":"81","coordenadas":[40.88714969697982,-8.418934243712867]},{"id":"pt.ine.add.PTCONT.19954","rua":"R MARTIR S SEBASTIÃO","casa":"","coordenadas":[40.886144349617005,-8.413970256701253]},{"id":"pt.ine.add.PTCONT.44453","rua":"R RESTAURACAO","casa":"71","coordenadas":[40.88721437460491,-8.418270059083445]},{"id":"pt.ine.add.PTCONT.61154","rua":"R MARTIR S SEBASTIÃO","casa":"213","coordenadas":[40.88577202915335,-8.415250119034729]},{"id":"pt.ine.add.PTCONT.73987","rua":"R MARTIR S SEBASTIÃO","casa":"255","coordenadas":[40.88595069959077,-8.41583227188905]},{"id":"pt.ine.add.PTCONT.74833","rua":"R MARTIR S SEBASTIÃO","casa":"293","coordenadas":[40.8859683016993,-8.415998459422013]},{"id":"pt.ine.add.PTCONT.77670","rua":"TV AMERICANO","casa":"45","coordenadas":[40.88594883569245,-8.416591635709642]},{"id":"pt.ine.add.PTCONT.116724","rua":"R MARTIR S SEBASTIÃO","casa":"81","coordenadas":[40.885973549070215,-8.413850882694545]},{"id":"pt.ine.add.PTCONT.138980","rua":"R MARTIR S SEBASTIÃO","casa":"169","coordenadas":[40.88586346797457,-8.4146809792936]},{"id":"pt.ine.add.PTCONT.151001","rua":"R MARTIR S SEBASTIÃO","casa":"118","coordenadas":[40.8863746474335,-8.415537444689395]},{"id":"pt.ine.add.PTCONT.157495","rua":"R MARTIR S SEBASTIÃO","casa":"349","coordenadas":[40.88604004825871,-8.4161174169473]},{"id":"pt.ine.add.PTCONT.158551","rua":"R MARTIR S SEBASTIÃO","casa":"101","coordenadas":[40.886152689462655,-8.414243192029616]},{"id":"pt.ine.add.PTCONT.193216","rua":"R MARTIR S SEBASTIÃO","casa":"445","coordenadas":[40.88636214742975,-8.416961222440706]},{"id":"pt.ine.add.PTCONT.202490","rua":"R RESTAURACAO","casa":"40","coordenadas":[40.887287408927534,-8.417866948240622]},{"id":"pt.ine.add.PTCONT.218280","rua":"R MARTIR S SEBASTIÃO","casa":"321","coordenadas":[40.88587808002315,-8.416069266249583]},{"id":"pt.ine.add.PTCONT.220984","rua":"R MARTIR S SEBASTIÃO","casa":"","coordenadas":[40.885985670580425,-8.41625956757075]},{"id":"pt.ine.add.PTCONT.224677","rua":"R MARTIR S SEBASTIÃO","casa":"349","coordenadas":[40.88618377407153,-8.416260411956978]},{"id":"pt.ine.add.PTCONT.228992","rua":"R MARTIR S SEBASTIÃO","casa":"15","coordenadas":[40.88630773327237,-8.41343701130683]},{"id":"pt.ine.add.PTCONT.250655","rua":"R MARTIR S SEBASTIÃO","casa":"45","coordenadas":[40.8861986089564,-8.413875564275305]},{"id":"pt.ine.add.PTCONT.258862","rua":"R RESTAURACAO","casa":"35","coordenadas":[40.88702574509957,-8.418079403331209]},{"id":"pt.ine.add.PTCONT.261005","rua":"R RESTAURACAO","casa":"8","coordenadas":[40.887153158173014,-8.417534141587979]},{"id":"pt.ine.add.PTCONT.265106","rua":"TV AMERICANO","casa":"33","coordenadas":[40.886191991859995,-8.416580808114393]},{"id":"pt.ine.add.PTCONT.276483","rua":"R MARTIR S SEBASTIÃO","casa":"83","coordenadas":[40.886018225946046,-8.413993453858739]},{"id":"pt.ine.add.PTCONT.282883","rua":"R MARTIR S SEBASTIÃO","casa":"","coordenadas":[40.886317094712474,-8.416972895182358]}],"ruas":["R MARTIR S SEBASTIÃO","TV AMERICANO","R CAVADINHA","R RESTAURACAO"],"centroide":[40.886273717243,-8.41604640917759]}
+{
+  "CP": "3720-016",
+  "CP4": "3720",
+  "CP3": "016",
+  "Distrito": "Aveiro",
+  "Concelho": "Oliveira de Azeméis",
+  "Localidade": "Carregosa de Baixo",
+  "Designação Postal": "CARREGOSA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.290993",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "227",
+      "coordenadas": [
+        40.885708357385134,
+        -8.415510881712708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.291902",
+      "rua": "TV AMERICANO",
+      "casa": "45 A",
+      "coordenadas": [
+        40.88594015170156,
+        -8.41646108164978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.301590",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "8",
+      "coordenadas": [
+        40.88634492599772,
+        -8.416640786988305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.314765",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "",
+      "coordenadas": [
+        40.88604039753569,
+        -8.415975036035027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.322999",
+      "rua": "R CAVADINHA",
+      "casa": "690",
+      "coordenadas": [
+        40.88660319806394,
+        -8.417804688768204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.338962",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "",
+      "coordenadas": [
+        40.88615553548578,
+        -8.416758630855503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.10334",
+      "rua": "R RESTAURACAO",
+      "casa": "81",
+      "coordenadas": [
+        40.88714969697982,
+        -8.418934243712867
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.19954",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "",
+      "coordenadas": [
+        40.886144349617005,
+        -8.413970256701253
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.44453",
+      "rua": "R RESTAURACAO",
+      "casa": "71",
+      "coordenadas": [
+        40.88721437460491,
+        -8.418270059083445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.61154",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "213",
+      "coordenadas": [
+        40.88577202915335,
+        -8.415250119034729
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.73987",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "255",
+      "coordenadas": [
+        40.88595069959077,
+        -8.41583227188905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.74833",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "293",
+      "coordenadas": [
+        40.8859683016993,
+        -8.415998459422013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.77670",
+      "rua": "TV AMERICANO",
+      "casa": "45",
+      "coordenadas": [
+        40.88594883569245,
+        -8.416591635709642
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.116724",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "81",
+      "coordenadas": [
+        40.885973549070215,
+        -8.413850882694545
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.138980",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "169",
+      "coordenadas": [
+        40.88586346797457,
+        -8.4146809792936
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.151001",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "118",
+      "coordenadas": [
+        40.8863746474335,
+        -8.415537444689395
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.157495",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "349",
+      "coordenadas": [
+        40.88604004825871,
+        -8.4161174169473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.158551",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "101",
+      "coordenadas": [
+        40.886152689462655,
+        -8.414243192029616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.193216",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "445",
+      "coordenadas": [
+        40.88636214742975,
+        -8.416961222440706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.202490",
+      "rua": "R RESTAURACAO",
+      "casa": "40",
+      "coordenadas": [
+        40.887287408927534,
+        -8.417866948240622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.218280",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "321",
+      "coordenadas": [
+        40.88587808002315,
+        -8.416069266249583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.220984",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "",
+      "coordenadas": [
+        40.885985670580425,
+        -8.41625956757075
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.224677",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "349",
+      "coordenadas": [
+        40.88618377407153,
+        -8.416260411956978
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.228992",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "15",
+      "coordenadas": [
+        40.88630773327237,
+        -8.41343701130683
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250655",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "45",
+      "coordenadas": [
+        40.8861986089564,
+        -8.413875564275305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.258862",
+      "rua": "R RESTAURACAO",
+      "casa": "35",
+      "coordenadas": [
+        40.88702574509957,
+        -8.418079403331209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.261005",
+      "rua": "R RESTAURACAO",
+      "casa": "8",
+      "coordenadas": [
+        40.887153158173014,
+        -8.417534141587979
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.265106",
+      "rua": "TV AMERICANO",
+      "casa": "33",
+      "coordenadas": [
+        40.886191991859995,
+        -8.416580808114393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.276483",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "83",
+      "coordenadas": [
+        40.886018225946046,
+        -8.413993453858739
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282883",
+      "rua": "R MARTIR S SEBASTIÃO",
+      "casa": "",
+      "coordenadas": [
+        40.886317094712474,
+        -8.416972895182358
+      ]
+    }
+  ],
+  "ruas": [
+    "R MARTIR S SEBASTIÃO",
+    "TV AMERICANO",
+    "R CAVADINHA",
+    "R RESTAURACAO"
+  ],
+  "centro": [
+    40.88649788315634,
+    -8.416185627509847
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.885843626433,
+                -8.416118805835982
+              ],
+              [
+                40.885813566644586,
+                -8.415983711586367
+              ],
+              [
+                40.8857914079498,
+                -8.415839566633293
+              ],
+              [
+                40.885777150348645,
+                -8.415686370976763
+              ],
+              [
+                40.885770793841125,
+                -8.415524124616777
+              ],
+              [
+                40.88577233842724,
+                -8.415352827553333
+              ],
+              [
+                40.88578178410698,
+                -8.415172479786433
+              ],
+              [
+                40.88579913088035,
+                -8.414983081316077
+              ],
+              [
+                40.88582437874736,
+                -8.414784632142263
+              ],
+              [
+                40.88585752770799,
+                -8.41457713226499
+              ],
+              [
+                40.885891754676706,
+                -8.414389103131946
+              ],
+              [
+                40.8859270596535,
+                -8.414220544743126
+              ],
+              [
+                40.88596344263837,
+                -8.414071457098533
+              ],
+              [
+                40.88600090363133,
+                -8.413941840198166
+              ],
+              [
+                40.88603944263236,
+                -8.413831694042026
+              ],
+              [
+                40.88607905964147,
+                -8.413741018630109
+              ],
+              [
+                40.88611975465866,
+                -8.41366981396242
+              ],
+              [
+                40.886161527683925,
+                -8.413618080038955
+              ],
+              [
+                40.88621338651315,
+                -8.413642030620514
+              ],
+              [
+                40.88627533114632,
+                -8.413741665707096
+              ],
+              [
+                40.886347361583454,
+                -8.413916985298702
+              ],
+              [
+                40.886429477824535,
+                -8.414167989395333
+              ],
+              [
+                40.886521679869574,
+                -8.414494677996986
+              ],
+              [
+                40.88662396771856,
+                -8.414897051103663
+              ],
+              [
+                40.8867363413715,
+                -8.415375108715363
+              ],
+              [
+                40.8868588008284,
+                -8.415928850832088
+              ],
+              [
+                40.886963801104,
+                -8.416430051675976
+              ],
+              [
+                40.887051342198305,
+                -8.416878711247026
+              ],
+              [
+                40.887121424111314,
+                -8.41727482954524
+              ],
+              [
+                40.88717404684303,
+                -8.417618406570618
+              ],
+              [
+                40.88720921039345,
+                -8.417909442323158
+              ],
+              [
+                40.88722691476258,
+                -8.418147936802864
+              ],
+              [
+                40.88722715995041,
+                -8.41833389000973
+              ],
+              [
+                40.88720994595694,
+                -8.41846730194376
+              ],
+              [
+                40.88717612025505,
+                -8.418547434135986
+              ],
+              [
+                40.88712568284472,
+                -8.418574286586407
+              ],
+              [
+                40.88705863372596,
+                -8.418547859295025
+              ],
+              [
+                40.88697497289877,
+                -8.418468152261841
+              ],
+              [
+                40.886874700363144,
+                -8.41833516548685
+              ],
+              [
+                40.88675781611908,
+                -8.418148898970054
+              ],
+              [
+                40.88662432016659,
+                -8.417909352711455
+              ],
+              [
+                40.886474212505675,
+                -8.417616526711054
+              ],
+              [
+                40.886339110828814,
+                -8.417343417179499
+              ],
+              [
+                40.88621901513602,
+                -8.417090024116792
+              ],
+              [
+                40.886113925427296,
+                -8.416856347522934
+              ],
+              [
+                40.886023841702624,
+                -8.416642387397921
+              ],
+              [
+                40.88594876396202,
+                -8.41644814374176
+              ],
+              [
+                40.885888692205484,
+                -8.416273616554447
+              ],
+              [
+                40.885843626433,
+                -8.416118805835982
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.886395930221255,
+    -8.416031933896203
+  ],
+  "centroDeMassa": [
+    40.88649788315634,
+    -8.416185627509847
+  ]
+}

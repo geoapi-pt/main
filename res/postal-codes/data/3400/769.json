@@ -1,1 +1,406 @@
-{"CP4":"3400","CP3":"769","Distrito":"Coimbra","Concelho":"Oliveira do Hospital","CP":"3400-769","Artéria":"Rua dos Olivais","Localidade":"Vila Pouca da Beira","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA POUCA DA BEIRA","locais":[{"id":"pt.ine.add.PTCONT.1121973","rua":"R DOS OLIVAIS","casa":"14","coordenadas":[40.305737350757475,-7.924349129585949]},{"id":"pt.ine.add.PTCONT.1134640","rua":"R DOS OLIVAIS","casa":"15","coordenadas":[40.30625769997019,-7.923253554560669]},{"id":"pt.ine.add.PTCONT.1150244","rua":"R DOS OLIVAIS","casa":"17","coordenadas":[40.30579074742982,-7.92399607308342]},{"id":"pt.ine.add.PTCONT.1154884","rua":"QTA DA RIBEIRA","casa":"","coordenadas":[40.30293872562395,-7.930627197797986]},{"id":"pt.ine.add.PTCONT.1164681","rua":"R DOS OLIVAIS","casa":"4","coordenadas":[40.3070223266181,-7.922780656834837]},{"id":"pt.ine.add.PTCONT.1218876","rua":"R DOS OLIVAIS","casa":"11","coordenadas":[40.30634735095657,-7.923029776939749]},{"id":"pt.ine.add.PTCONT.1224741","rua":"R DOS OLIVAIS","casa":"7","coordenadas":[40.30640080776804,-7.922712005567394]},{"id":"pt.ine.add.PTCONT.1247201","rua":"R DOS OLIVAIS","casa":"18","coordenadas":[40.30824266518202,-7.9203535913734955]},{"id":"pt.ine.add.PTCONT.1247202","rua":"R DOS OLIVAIS","casa":"4 A","coordenadas":[40.30708519511046,-7.922686355469455]},{"id":"pt.ine.add.PTCONT.1247204","rua":"R DOS OLIVAIS","casa":"3","coordenadas":[40.306904782281094,-7.922522229629594]},{"id":"pt.ine.add.PTCONT.1264203","rua":"R DOS OLIVAIS","casa":"1","coordenadas":[40.30696762914208,-7.922416164981428]},{"id":"pt.ine.add.PTCONT.1276064","rua":"R DOS OLIVAIS","casa":"8","coordenadas":[40.30655484408807,-7.923229108566449]},{"id":"pt.ine.add.PTCONT.1278432","rua":"R DOS OLIVAIS","casa":"5","coordenadas":[40.30651800968028,-7.922782221099887]},{"id":"pt.ine.add.PTCONT.1282277","rua":"R DOS OLIVAIS","casa":"13","coordenadas":[40.30632063289453,-7.923194543987583]},{"id":"pt.ine.add.PTCONT.1300661","rua":"R DOS OLIVAIS","casa":"","coordenadas":[40.3057394250994,-7.9255019032610585]},{"id":"pt.ine.add.PTCONT.1306477","rua":"R DOS OLIVAIS","casa":"16","coordenadas":[40.305575588287724,-7.924537836106431]},{"id":"pt.ine.add.PTCONT.1334816","rua":"R DOS OLIVAIS","casa":"6","coordenadas":[40.306887327259965,-7.922828128615836]},{"id":"pt.ine.add.PTCONT.1338971","rua":"R DOS OLIVAIS","casa":"8","coordenadas":[40.30643815442159,-7.923441207025901]},{"id":"pt.ine.add.PTCONT.1343104","rua":"R DOS OLIVAIS","casa":"12","coordenadas":[40.306501811764434,-7.923782142822298]},{"id":"pt.ine.add.PTCONT.1347454","rua":"QTA DA CORDOEIRA","casa":"","coordenadas":[40.301280031498315,-7.929691166733465]},{"id":"pt.ine.add.PTCONT.1361499","rua":"R DOS OLIVAIS","casa":"9","coordenadas":[40.30645535479554,-7.922994152781094]}],"ruas":["R DOS OLIVAIS","QTA DA RIBEIRA","QTA DA CORDOEIRA"],"centroide":[40.306075555291706,-7.923885749702142]}
+{
+  "CP": "3400-769",
+  "CP4": "3400",
+  "CP3": "769",
+  "Distrito": "Coimbra",
+  "Concelho": "Oliveira do Hospital",
+  "Localidade": "Vila Pouca da Beira",
+  "Designação Postal": "VILA POUCA DA BEIRA",
+  "partes": [
+    {
+      "Artéria": "Rua dos Olivais",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1121973",
+      "rua": "R DOS OLIVAIS",
+      "casa": "14",
+      "coordenadas": [
+        40.305737350757475,
+        -7.924349129585949
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1134640",
+      "rua": "R DOS OLIVAIS",
+      "casa": "15",
+      "coordenadas": [
+        40.30625769997019,
+        -7.923253554560669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1150244",
+      "rua": "R DOS OLIVAIS",
+      "casa": "17",
+      "coordenadas": [
+        40.30579074742982,
+        -7.92399607308342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1154884",
+      "rua": "QTA DA RIBEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.30293872562395,
+        -7.930627197797986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1164681",
+      "rua": "R DOS OLIVAIS",
+      "casa": "4",
+      "coordenadas": [
+        40.3070223266181,
+        -7.922780656834837
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1218876",
+      "rua": "R DOS OLIVAIS",
+      "casa": "11",
+      "coordenadas": [
+        40.30634735095657,
+        -7.923029776939749
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1224741",
+      "rua": "R DOS OLIVAIS",
+      "casa": "7",
+      "coordenadas": [
+        40.30640080776804,
+        -7.922712005567394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1247201",
+      "rua": "R DOS OLIVAIS",
+      "casa": "18",
+      "coordenadas": [
+        40.30824266518202,
+        -7.9203535913734955
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1247202",
+      "rua": "R DOS OLIVAIS",
+      "casa": "4 A",
+      "coordenadas": [
+        40.30708519511046,
+        -7.922686355469455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1247204",
+      "rua": "R DOS OLIVAIS",
+      "casa": "3",
+      "coordenadas": [
+        40.306904782281094,
+        -7.922522229629594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1264203",
+      "rua": "R DOS OLIVAIS",
+      "casa": "1",
+      "coordenadas": [
+        40.30696762914208,
+        -7.922416164981428
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1276064",
+      "rua": "R DOS OLIVAIS",
+      "casa": "8",
+      "coordenadas": [
+        40.30655484408807,
+        -7.923229108566449
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1278432",
+      "rua": "R DOS OLIVAIS",
+      "casa": "5",
+      "coordenadas": [
+        40.30651800968028,
+        -7.922782221099887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1282277",
+      "rua": "R DOS OLIVAIS",
+      "casa": "13",
+      "coordenadas": [
+        40.30632063289453,
+        -7.923194543987583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1300661",
+      "rua": "R DOS OLIVAIS",
+      "casa": "",
+      "coordenadas": [
+        40.3057394250994,
+        -7.9255019032610585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1306477",
+      "rua": "R DOS OLIVAIS",
+      "casa": "16",
+      "coordenadas": [
+        40.305575588287724,
+        -7.924537836106431
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1334816",
+      "rua": "R DOS OLIVAIS",
+      "casa": "6",
+      "coordenadas": [
+        40.306887327259965,
+        -7.922828128615836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1338971",
+      "rua": "R DOS OLIVAIS",
+      "casa": "8",
+      "coordenadas": [
+        40.30643815442159,
+        -7.923441207025901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1343104",
+      "rua": "R DOS OLIVAIS",
+      "casa": "12",
+      "coordenadas": [
+        40.306501811764434,
+        -7.923782142822298
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1347454",
+      "rua": "QTA DA CORDOEIRA",
+      "casa": "",
+      "coordenadas": [
+        40.301280031498315,
+        -7.929691166733465
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1361499",
+      "rua": "R DOS OLIVAIS",
+      "casa": "9",
+      "coordenadas": [
+        40.30645535479554,
+        -7.922994152781094
+      ]
+    }
+  ],
+  "ruas": [
+    "R DOS OLIVAIS",
+    "QTA DA RIBEIRA",
+    "QTA DA CORDOEIRA"
+  ],
+  "centro": [
+    40.304761348340165,
+    -7.925490394585741
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.30221304694399,
+                -7.930217684207258
+              ],
+              [
+                40.30200571017828,
+                -7.930100680324194
+              ],
+              [
+                40.3019043026375,
+                -7.929889252533291
+              ],
+              [
+                40.30190882432166,
+                -7.929583400834553
+              ],
+              [
+                40.302019275230734,
+                -7.929183125227977
+              ],
+              [
+                40.30223565536473,
+                -7.928688425713565
+              ],
+              [
+                40.30255796472367,
+                -7.928099302291317
+              ],
+              [
+                40.302986203307526,
+                -7.927415754961231
+              ],
+              [
+                40.30352037111632,
+                -7.926637783723309
+              ],
+              [
+                40.30416046815003,
+                -7.925765388577551
+              ],
+              [
+                40.304749332076625,
+                -7.924965192603231
+              ],
+              [
+                40.305286962896105,
+                -7.9242371958003535
+              ],
+              [
+                40.305773360608455,
+                -7.923581398168915
+              ],
+              [
+                40.30620852521369,
+                -7.9229977997089165
+              ],
+              [
+                40.3065924567118,
+                -7.922486400420358
+              ],
+              [
+                40.30692515510279,
+                -7.922047200303241
+              ],
+              [
+                40.30720662038666,
+                -7.921680199357564
+              ],
+              [
+                40.307436852563406,
+                -7.921385397583327
+              ],
+              [
+                40.307599192591766,
+                -7.921207888404112
+              ],
+              [
+                40.30769364047175,
+                -7.92114767181992
+              ],
+              [
+                40.30772019620334,
+                -7.9212047478307515
+              ],
+              [
+                40.30767885978655,
+                -7.921379116436606
+              ],
+              [
+                40.30756963122138,
+                -7.921670777637482
+              ],
+              [
+                40.30739251050782,
+                -7.9220797314333815
+              ],
+              [
+                40.30714749764587,
+                -7.922605977824304
+              ],
+              [
+                40.306834592635546,
+                -7.92324951681025
+              ],
+              [
+                40.306517039822204,
+                -7.923892696150091
+              ],
+              [
+                40.30619483920585,
+                -7.924535515843829
+              ],
+              [
+                40.30586799078649,
+                -7.925177975891463
+              ],
+              [
+                40.3055364945641,
+                -7.925820076292995
+              ],
+              [
+                40.30520035053871,
+                -7.9264618170484225
+              ],
+              [
+                40.30485955871031,
+                -7.927103198157745
+              ],
+              [
+                40.30451411907889,
+                -7.927744219620965
+              ],
+              [
+                40.30416403164446,
+                -7.928384881438081
+              ],
+              [
+                40.30383178804362,
+                -7.928930835042674
+              ],
+              [
+                40.30351738827637,
+                -7.929382080434745
+              ],
+              [
+                40.30322083234271,
+                -7.9297386176142926
+              ],
+              [
+                40.30294212024265,
+                -7.930000446581318
+              ],
+              [
+                40.30268125197617,
+                -7.930167567335821
+              ],
+              [
+                40.302438227543284,
+                -7.9302399798778005
+              ],
+              [
+                40.30221304694399,
+                -7.930217684207258
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.304920331034346,
+    -7.925777172946679
+  ],
+  "centroDeMassa": [
+    40.304761348340165,
+    -7.925490394585741
+  ]
+}

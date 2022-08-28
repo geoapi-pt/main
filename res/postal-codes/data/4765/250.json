@@ -1,1 +1,443 @@
-{"CP4":"4765","CP3":"250","Distrito":"Braga","Concelho":"Vila Nova de Famalicão","CP":"4765-250","Artéria":"Calçada Miguel Martins Cerqueira","Localidade":"Riba de Ave","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"RIBA DE AVE","locais":[{"id":"pt.ine.add.PTCONT.618335","rua":"R GUERRA JUNQUEIRO","casa":"19","coordenadas":[41.39058184131139,-8.377702239271416]},{"id":"pt.ine.add.PTCONT.459342","rua":"R GUERRA JUNQUEIRO","casa":"24","coordenadas":[41.390094203338855,-8.37836996943574]},{"id":"pt.ine.add.PTCONT.472841","rua":"R GUERRA JUNQUEIRO","casa":"25","coordenadas":[41.390093871945055,-8.378525401269851]},{"id":"pt.ine.add.PTCONT.495978","rua":"R GUERRA JUNQUEIRO","casa":"8","coordenadas":[41.389761261331486,-8.378273067502276]},{"id":"pt.ine.add.PTCONT.499535","rua":"R GUERRA JUNQUEIRO","casa":"67","coordenadas":[41.389820633500634,-8.379983047257506]},{"id":"pt.ine.add.PTCONT.521989","rua":"R GUERRA JUNQUEIRO","casa":"27","coordenadas":[41.39004826541373,-8.37880022655132]},{"id":"pt.ine.add.PTCONT.525268","rua":"R GUERRA JUNQUEIRO","casa":"26","coordenadas":[41.390039593237326,-8.378644760951403]},{"id":"pt.ine.add.PTCONT.544290","rua":"R GUERRA JUNQUEIRO","casa":"68","coordenadas":[41.389604949180324,-8.379790930509913]},{"id":"pt.ine.add.PTCONT.590892","rua":"R GUERRA JUNQUEIRO","casa":"28","coordenadas":[41.39001196876192,-8.378931610030133]},{"id":"pt.ine.add.PTCONT.595710","rua":"R GUERRA JUNQUEIRO","casa":"1","coordenadas":[41.38972335712455,-8.379157692992793]},{"id":"pt.ine.add.PTCONT.619229","rua":"R GUERRA JUNQUEIRO","casa":"49","coordenadas":[41.389227552009594,-8.37943081699137]},{"id":"pt.ine.add.PTCONT.625469","rua":"R GUERRA JUNQUEIRO","casa":"2","coordenadas":[41.38968790349716,-8.3788945203619]},{"id":"pt.ine.add.PTCONT.630851","rua":"R GUERRA JUNQUEIRO","casa":"3","coordenadas":[41.3897600627039,-8.378835010488892]},{"id":"pt.ine.add.PTCONT.677422","rua":"R GUERRA JUNQUEIRO","casa":"6","coordenadas":[41.389724786840056,-8.378488144291262]},{"id":"pt.ine.add.PTCONT.718021","rua":"R GUERRA JUNQUEIRO","casa":"13","coordenadas":[41.38937094922235,-8.379742220953839]},{"id":"pt.ine.add.PTCONT.724140","rua":"R GUERRA JUNQUEIRO","casa":"5","coordenadas":[41.389778529960154,-8.378619866032986]},{"id":"pt.ine.add.PTCONT.766391","rua":"R GUERRA JUNQUEIRO","casa":"98","coordenadas":[41.38975875896101,-8.379444778372052]},{"id":"pt.ine.add.PTCONT.811154","rua":"R GUERRA JUNQUEIRO","casa":"85","coordenadas":[41.38991103190216,-8.379816000237414]},{"id":"pt.ine.add.PTCONT.811155","rua":"R GUERRA JUNQUEIRO","casa":"85","coordenadas":[41.38991103190216,-8.379816000237414]},{"id":"pt.ine.add.PTCONT.818579","rua":"R GUERRA JUNQUEIRO","casa":"4","coordenadas":[41.38969734140625,-8.37869129850122]},{"id":"pt.ine.add.PTCONT.828793","rua":"R GUERRA JUNQUEIRO","casa":"7","coordenadas":[41.38980600075609,-8.378404755297604]}],"ruas":["R GUERRA JUNQUEIRO"],"centroide":[41.389830394677496,-8.378997880112035]}
+{
+  "CP": "4765-250",
+  "CP4": "4765",
+  "CP3": "250",
+  "Distrito": "Braga",
+  "Concelho": "Vila Nova de Famalicão",
+  "Localidade": "Riba de Ave",
+  "Designação Postal": "RIBA DE AVE",
+  "partes": [
+    {
+      "Artéria": "Rua Guerra Junqueiro",
+      "Local": "Penedo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Calçada Miguel Martins Cerqueira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.618335",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "19",
+      "coordenadas": [
+        41.39058184131139,
+        -8.377702239271416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.459342",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "24",
+      "coordenadas": [
+        41.390094203338855,
+        -8.37836996943574
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.472841",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "25",
+      "coordenadas": [
+        41.390093871945055,
+        -8.378525401269851
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.495978",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "8",
+      "coordenadas": [
+        41.389761261331486,
+        -8.378273067502276
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.499535",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "67",
+      "coordenadas": [
+        41.389820633500634,
+        -8.379983047257506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.521989",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "27",
+      "coordenadas": [
+        41.39004826541373,
+        -8.37880022655132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.525268",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "26",
+      "coordenadas": [
+        41.390039593237326,
+        -8.378644760951403
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.544290",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "68",
+      "coordenadas": [
+        41.389604949180324,
+        -8.379790930509913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.590892",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "28",
+      "coordenadas": [
+        41.39001196876192,
+        -8.378931610030133
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.595710",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "1",
+      "coordenadas": [
+        41.38972335712455,
+        -8.379157692992793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.619229",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "49",
+      "coordenadas": [
+        41.389227552009594,
+        -8.37943081699137
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.625469",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "2",
+      "coordenadas": [
+        41.38968790349716,
+        -8.3788945203619
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.630851",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "3",
+      "coordenadas": [
+        41.3897600627039,
+        -8.378835010488892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.677422",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "6",
+      "coordenadas": [
+        41.389724786840056,
+        -8.378488144291262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.718021",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "13",
+      "coordenadas": [
+        41.38937094922235,
+        -8.379742220953839
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.724140",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "5",
+      "coordenadas": [
+        41.389778529960154,
+        -8.378619866032986
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.766391",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "98",
+      "coordenadas": [
+        41.38975875896101,
+        -8.379444778372052
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.811154",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "85",
+      "coordenadas": [
+        41.38991103190216,
+        -8.379816000237414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.811155",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "85",
+      "coordenadas": [
+        41.38991103190216,
+        -8.379816000237414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.818579",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "4",
+      "coordenadas": [
+        41.38969734140625,
+        -8.37869129850122
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.828793",
+      "rua": "R GUERRA JUNQUEIRO",
+      "casa": "7",
+      "coordenadas": [
+        41.38980600075609,
+        -8.378404755297604
+      ]
+    }
+  ],
+  "ruas": [
+    "R GUERRA JUNQUEIRO"
+  ],
+  "centro": [
+    41.389904696660494,
+    -8.378842643264461
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.38930821294177,
+                -8.37960598172026
+              ],
+              [
+                41.38929028829017,
+                -8.37956705622495
+              ],
+              [
+                41.389282943428185,
+                -8.379514906580788
+              ],
+              [
+                41.3892861783558,
+                -8.379449532787772
+              ],
+              [
+                41.38929999307302,
+                -8.379370934845902
+              ],
+              [
+                41.38932438757983,
+                -8.379279112755182
+              ],
+              [
+                41.38935936187626,
+                -8.379174066515604
+              ],
+              [
+                41.38940491596229,
+                -8.379055796127174
+              ],
+              [
+                41.38946104983792,
+                -8.37892430158989
+              ],
+              [
+                41.38952776350316,
+                -8.378779582903753
+              ],
+              [
+                41.38959895952243,
+                -8.378644034862276
+              ],
+              [
+                41.38967463789572,
+                -8.378517657465459
+              ],
+              [
+                41.38975479862306,
+                -8.378400450713302
+              ],
+              [
+                41.38983944170442,
+                -8.378292414605806
+              ],
+              [
+                41.38992856713981,
+                -8.378193549142969
+              ],
+              [
+                41.390022174929236,
+                -8.378103854324792
+              ],
+              [
+                41.390120265072696,
+                -8.378023330151274
+              ],
+              [
+                41.39022283757018,
+                -8.377951976622418
+              ],
+              [
+                41.39030210710847,
+                -8.377922569799761
+              ],
+              [
+                41.39035807368754,
+                -8.377935109683305
+              ],
+              [
+                41.39039073730741,
+                -8.37798959627305
+              ],
+              [
+                41.39040009796808,
+                -8.378086029568998
+              ],
+              [
+                41.390386155669546,
+                -8.378224409571143
+              ],
+              [
+                41.3903489104118,
+                -8.378404736279492
+              ],
+              [
+                41.39028836219485,
+                -8.37862700969404
+              ],
+              [
+                41.390204511018695,
+                -8.37889122981479
+              ],
+              [
+                41.390129728764535,
+                -8.379125032530133
+              ],
+              [
+                41.39006401543237,
+                -8.379328417840075
+              ],
+              [
+                41.39000737102221,
+                -8.379501385744609
+              ],
+              [
+                41.38995979553404,
+                -8.37964393624374
+              ],
+              [
+                41.389921288967855,
+                -8.379756069337466
+              ],
+              [
+                41.389891851323675,
+                -8.379837785025787
+              ],
+              [
+                41.38987148260149,
+                -8.379889083308704
+              ],
+              [
+                41.3898601828013,
+                -8.379909964186215
+              ],
+              [
+                41.389843269159286,
+                -8.379924472043044
+              ],
+              [
+                41.38982074167545,
+                -8.379932606879187
+              ],
+              [
+                41.38979260034978,
+                -8.379934368694647
+              ],
+              [
+                41.3897588451823,
+                -8.379929757489425
+              ],
+              [
+                41.389719476172985,
+                -8.379918773263517
+              ],
+              [
+                41.38967449332184,
+                -8.379901416016926
+              ],
+              [
+                41.389623896628876,
+                -8.379877685749651
+              ],
+              [
+                41.3895676860941,
+                -8.379847582461693
+              ],
+              [
+                41.38951626129471,
+                -8.379816376397816
+              ],
+              [
+                41.38946962223071,
+                -8.37978406755802
+              ],
+              [
+                41.389427768902124,
+                -8.379750655942306
+              ],
+              [
+                41.38939070130894,
+                -8.379716141550672
+              ],
+              [
+                41.389358419451156,
+                -8.37968052438312
+              ],
+              [
+                41.38933092332876,
+                -8.379643804439649
+              ],
+              [
+                41.38930821294177,
+                -8.37960598172026
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.38977887821293,
+    -8.379157898702303
+  ],
+  "centroDeMassa": [
+    41.389904696660494,
+    -8.378842643264461
+  ]
+}

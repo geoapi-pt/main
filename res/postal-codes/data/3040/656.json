@@ -1,1 +1,463 @@
-{"CP4":"3040","CP3":"656","Distrito":"Coimbra","Concelho":"Coimbra","CP":"3040-656","Artéria":"Rua Inês de Castro","Localidade":"Algar","Local":"Quinta da Cheira","Troço":"","Porta":"","Cliente":"","Designação Postal":"ASSAFARGE","locais":[{"id":"pt.ine.add.PTCONT.1126911","rua":"R SALVACAO","casa":"21","coordenadas":[40.171639964216105,-8.446128785656207]},{"id":"pt.ine.add.PTCONT.1157371","rua":"R CINEIRO","casa":"6","coordenadas":[40.17037945747123,-8.442659799788588]},{"id":"pt.ine.add.PTCONT.1166019","rua":"R TRAVESSA DO CINEIRO","casa":"","coordenadas":[40.16999684004976,-8.440920603871593]},{"id":"pt.ine.add.PTCONT.1171323","rua":"R CINEIRO","casa":"16","coordenadas":[40.16952559932619,-8.44202198790654]},{"id":"pt.ine.add.PTCONT.1175779","rua":"R SALVACAO","casa":"5","coordenadas":[40.17143760983601,-8.444355142196658]},{"id":"pt.ine.add.PTCONT.1191607","rua":"R TRAVESSA DO CINEIRO","casa":"3","coordenadas":[40.17039084518771,-8.441767638362476]},{"id":"pt.ine.add.PTCONT.1198328","rua":"R TRAVESSA DO CINEIRO","casa":"9","coordenadas":[40.170392408487636,-8.441180663081157]},{"id":"pt.ine.add.PTCONT.1236324","rua":"R SALVACAO","casa":"3","coordenadas":[40.17141116030525,-8.44414370457277]},{"id":"pt.ine.add.PTCONT.1237113","rua":"R CINEIRO","casa":"10","coordenadas":[40.16999302361815,-8.442352815197943]},{"id":"pt.ine.add.PTCONT.1245854","rua":"R CINEIRO","casa":"12","coordenadas":[40.16981322105324,-8.442234603704808]},{"id":"pt.ine.add.PTCONT.1262900","rua":"TV RUA DAS GALEGAS","casa":"","coordenadas":[40.16816481407808,-8.442356257617416]},{"id":"pt.ine.add.PTCONT.1276723","rua":"R TRAVESSA DO CINEIRO","casa":"8","coordenadas":[40.17005900633706,-8.441249593220382]},{"id":"pt.ine.add.PTCONT.1292882","rua":"R LIBERDADE","casa":"54","coordenadas":[40.17082855397858,-8.443107949503135]},{"id":"pt.ine.add.PTCONT.1311226","rua":"R SALVACAO","casa":"1","coordenadas":[40.17142942416332,-8.44404986934297]},{"id":"pt.ine.add.PTCONT.1347988","rua":"R SILVANINHO","casa":"12","coordenadas":[40.16721709857654,-8.43975761563535]},{"id":"pt.ine.add.PTCONT.1352122","rua":"TV RUA DAS GALEGAS","casa":"8","coordenadas":[40.16774270047993,-8.44191999194908]},{"id":"pt.ine.add.PTCONT.1363456","rua":"R TRAVESSA DO CINEIRO","casa":"7","coordenadas":[40.17042793176594,-8.44136865814752]},{"id":"pt.ine.add.PTCONT.1363938","rua":"R CINEIRO","casa":"14","coordenadas":[40.16967835337815,-8.442151815186852]}],"ruas":["R SALVACAO","R CINEIRO","R TRAVESSA DO CINEIRO","TV RUA DAS GALEGAS","R LIBERDADE","R SILVANINHO"],"centroide":[40.170049979937104,-8.442445628220858]}
+{
+  "CP": "3040-656",
+  "CP4": "3040",
+  "CP3": "656",
+  "Distrito": "Coimbra",
+  "Concelho": "Coimbra",
+  "Localidade": "Algar",
+  "Designação Postal": "ASSAFARGE",
+  "partes": [
+    {
+      "Artéria": "Rua do Cineiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Liberdade",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Penedo Moço",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Salvação",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Cruzes",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Cineiro",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Rossaio",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Inês de Castro",
+      "Local": "Quinta da Cheira",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1126911",
+      "rua": "R SALVACAO",
+      "casa": "21",
+      "coordenadas": [
+        40.171639964216105,
+        -8.446128785656207
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1157371",
+      "rua": "R CINEIRO",
+      "casa": "6",
+      "coordenadas": [
+        40.17037945747123,
+        -8.442659799788588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1166019",
+      "rua": "R TRAVESSA DO CINEIRO",
+      "casa": "",
+      "coordenadas": [
+        40.16999684004976,
+        -8.440920603871593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1171323",
+      "rua": "R CINEIRO",
+      "casa": "16",
+      "coordenadas": [
+        40.16952559932619,
+        -8.44202198790654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1175779",
+      "rua": "R SALVACAO",
+      "casa": "5",
+      "coordenadas": [
+        40.17143760983601,
+        -8.444355142196658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1191607",
+      "rua": "R TRAVESSA DO CINEIRO",
+      "casa": "3",
+      "coordenadas": [
+        40.17039084518771,
+        -8.441767638362476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1198328",
+      "rua": "R TRAVESSA DO CINEIRO",
+      "casa": "9",
+      "coordenadas": [
+        40.170392408487636,
+        -8.441180663081157
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1236324",
+      "rua": "R SALVACAO",
+      "casa": "3",
+      "coordenadas": [
+        40.17141116030525,
+        -8.44414370457277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1237113",
+      "rua": "R CINEIRO",
+      "casa": "10",
+      "coordenadas": [
+        40.16999302361815,
+        -8.442352815197943
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1245854",
+      "rua": "R CINEIRO",
+      "casa": "12",
+      "coordenadas": [
+        40.16981322105324,
+        -8.442234603704808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1262900",
+      "rua": "TV RUA DAS GALEGAS",
+      "casa": "",
+      "coordenadas": [
+        40.16816481407808,
+        -8.442356257617416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1276723",
+      "rua": "R TRAVESSA DO CINEIRO",
+      "casa": "8",
+      "coordenadas": [
+        40.17005900633706,
+        -8.441249593220382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1292882",
+      "rua": "R LIBERDADE",
+      "casa": "54",
+      "coordenadas": [
+        40.17082855397858,
+        -8.443107949503135
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1311226",
+      "rua": "R SALVACAO",
+      "casa": "1",
+      "coordenadas": [
+        40.17142942416332,
+        -8.44404986934297
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1347988",
+      "rua": "R SILVANINHO",
+      "casa": "12",
+      "coordenadas": [
+        40.16721709857654,
+        -8.43975761563535
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1352122",
+      "rua": "TV RUA DAS GALEGAS",
+      "casa": "8",
+      "coordenadas": [
+        40.16774270047993,
+        -8.44191999194908
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1363456",
+      "rua": "R TRAVESSA DO CINEIRO",
+      "casa": "7",
+      "coordenadas": [
+        40.17042793176594,
+        -8.44136865814752
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1363938",
+      "rua": "R CINEIRO",
+      "casa": "14",
+      "coordenadas": [
+        40.16967835337815,
+        -8.442151815186852
+      ]
+    }
+  ],
+  "ruas": [
+    "R SALVACAO",
+    "R CINEIRO",
+    "R TRAVESSA DO CINEIRO",
+    "TV RUA DAS GALEGAS",
+    "R LIBERDADE",
+    "R SILVANINHO"
+  ],
+  "centro": [
+    40.16942853139632,
+    -8.442943200645779
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.167512749647194,
+                -8.440973952311822
+              ],
+              [
+                40.16744704940927,
+                -8.440703655272607
+              ],
+              [
+                40.167432995161604,
+                -8.440485317054485
+              ],
+              [
+                40.1674705869042,
+                -8.440318937657455
+              ],
+              [
+                40.16755982463706,
+                -8.440204517081519
+              ],
+              [
+                40.16770070836017,
+                -8.440142055326675
+              ],
+              [
+                40.167893238073546,
+                -8.440131552392927
+              ],
+              [
+                40.16813741377718,
+                -8.44017300828027
+              ],
+              [
+                40.16843323547107,
+                -8.440266422988707
+              ],
+              [
+                40.168780703155235,
+                -8.440411796518237
+              ],
+              [
+                40.16909091813571,
+                -8.440543061781725
+              ],
+              [
+                40.169363880412504,
+                -8.440660218779172
+              ],
+              [
+                40.16959958998562,
+                -8.440763267510576
+              ],
+              [
+                40.169798046855064,
+                -8.44085220797594
+              ],
+              [
+                40.16995925102083,
+                -8.44092704017526
+              ],
+              [
+                40.170083202482914,
+                -8.440987764108542
+              ],
+              [
+                40.17016990124133,
+                -8.441034379775779
+              ],
+              [
+                40.17021934729607,
+                -8.441066887176973
+              ],
+              [
+                40.17027881596389,
+                -8.441140162500862
+              ],
+              [
+                40.17034830724481,
+                -8.44125420574744
+              ],
+              [
+                40.170427821138816,
+                -8.441409016916708
+              ],
+              [
+                40.170517357645906,
+                -8.44160459600867
+              ],
+              [
+                40.17061691676609,
+                -8.44184094302332
+              ],
+              [
+                40.17072649849938,
+                -8.442118057960665
+              ],
+              [
+                40.17084610284575,
+                -8.442435940820701
+              ],
+              [
+                40.17097572980521,
+                -8.442794591603427
+              ],
+              [
+                40.17109244308306,
+                -8.443140894105708
+              ],
+              [
+                40.17119624267931,
+                -8.443474848327542
+              ],
+              [
+                40.171287128593946,
+                -8.443796454268929
+              ],
+              [
+                40.171365100826975,
+                -8.444105711929868
+              ],
+              [
+                40.171430159378396,
+                -8.444402621310363
+              ],
+              [
+                40.17148230424821,
+                -8.44468718241041
+              ],
+              [
+                40.17152153543641,
+                -8.444959395230011
+              ],
+              [
+                40.171547852943014,
+                -8.445219259769166
+              ],
+              [
+                40.17150998601541,
+                -8.445380878839252
+              ],
+              [
+                40.1714079346536,
+                -8.44544425244027
+              ],
+              [
+                40.17124169885759,
+                -8.44540938057222
+              ],
+              [
+                40.171011278627375,
+                -8.445276263235103
+              ],
+              [
+                40.170716673962964,
+                -8.445044900428917
+              ],
+              [
+                40.170357884864345,
+                -8.444715292153662
+              ],
+              [
+                40.169934911331524,
+                -8.444287438409338
+              ],
+              [
+                40.16944775336451,
+                -8.443761339195948
+              ],
+              [
+                40.169013277613615,
+                -8.443267215254329
+              ],
+              [
+                40.16863148407887,
+                -8.442805066584482
+              ],
+              [
+                40.16830237276026,
+                -8.442374893186408
+              ],
+              [
+                40.16802594365779,
+                -8.441976695060102
+              ],
+              [
+                40.167802196771454,
+                -8.441610472205571
+              ],
+              [
+                40.167631132101256,
+                -8.441276224622811
+              ],
+              [
+                40.167512749647194,
+                -8.440973952311822
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.16973640599555,
+    -8.442326254922726
+  ],
+  "centroDeMassa": [
+    40.16942853139632,
+    -8.442943200645779
+  ]
+}

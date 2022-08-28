@@ -1,1 +1,525 @@
-{"CP4":"2150","CP3":"015","Distrito":"Santarém","Concelho":"Golegã","CP":"2150-015","Artéria":"Rua António Eugénio de Menezes","Localidade":"Azinhaga","Local":"Casal Centeio","Troço":"","Porta":"","Cliente":"","Designação Postal":"AZINHAGA","locais":[{"id":"pt.ine.add.PTCONT.4401025","rua":"R CASAL CENTEIO","casa":"","coordenadas":[39.343669262053396,-8.549158573175404]},{"id":"pt.ine.add.PTCONT.4407366","rua":"R CASAL DO CENTEIO","casa":"20","coordenadas":[39.3438762982332,-8.549194601043832]},{"id":"pt.ine.add.PTCONT.4407367","rua":"R CASAL DO CENTEIO","casa":"36","coordenadas":[39.34459656639669,-8.549280073601038]},{"id":"pt.ine.add.PTCONT.4407749","rua":"R CASAL DO CENTEIO","casa":"20","coordenadas":[39.34722602320026,-8.549458078905895]},{"id":"pt.ine.add.PTCONT.4411826","rua":"R CASAL DO CENTEIO","casa":"","coordenadas":[39.34399272534491,-8.549380893670238]},{"id":"pt.ine.add.PTCONT.4427801","rua":"R CASAL DO CENTEIO","casa":"42","coordenadas":[39.34492081767954,-8.549281996688844]},{"id":"pt.ine.add.PTCONT.4436177","rua":"R CASAL DO CENTEIO","casa":"18","coordenadas":[39.34375020049016,-8.549193853357467]},{"id":"pt.ine.add.PTCONT.4443808","rua":"R CASAL DO CENTEIO","casa":"38","coordenadas":[39.34481260948139,-8.549316155751661]},{"id":"pt.ine.add.PTCONT.4457920","rua":"R CASAL DO CENTEIO","casa":"28","coordenadas":[39.344344495368595,-8.549243778024044]},{"id":"pt.ine.add.PTCONT.4470610","rua":"R CASAL DO CENTEIO","casa":"50","coordenadas":[39.34527196544089,-8.549318880392342]},{"id":"pt.ine.add.PTCONT.4475233","rua":"R CASAL DO CENTEIO","casa":"14","coordenadas":[39.34748718400104,-8.549471229338716]},{"id":"pt.ine.add.PTCONT.4476181","rua":"R CASAL DO CENTEIO","casa":"8","coordenadas":[39.34331861158183,-8.548982493764747]},{"id":"pt.ine.add.PTCONT.4494581","rua":"R CASAL DO CENTEIO","casa":"25","coordenadas":[39.346469561647375,-8.549418788566413]},{"id":"pt.ine.add.PTCONT.4502564","rua":"R CASAL DO CENTEIO","casa":"22","coordenadas":[39.34420050809026,-8.549208123618266]},{"id":"pt.ine.add.PTCONT.4505679","rua":"R CASAL DO CENTEIO","casa":"14","coordenadas":[39.34350717784066,-8.549146012139275]},{"id":"pt.ine.add.PTCONT.4525241","rua":"R CASAL DO CENTEIO","casa":"12","coordenadas":[39.34778449718619,-8.54944979211309]},{"id":"pt.ine.add.PTCONT.4537824","rua":"R CASAL DO CENTEIO","casa":"17","coordenadas":[39.344694937889365,-8.549477861417412]},{"id":"pt.ine.add.PTCONT.4558065","rua":"R CASAL DO CENTEIO","casa":"30","coordenadas":[39.34438948879775,-8.549255645053996]},{"id":"pt.ine.add.PTCONT.4568365","rua":"R CASAL DO CENTEIO","casa":"25","coordenadas":[39.34478500768819,-8.549478395861094]},{"id":"pt.ine.add.PTCONT.4572758","rua":"R CASAL DO CENTEIO","casa":"44","coordenadas":[39.345100666896,-8.549364265640468]},{"id":"pt.ine.add.PTCONT.4576678","rua":"R CASAL DO CENTEIO","casa":"15","coordenadas":[39.347710905193296,-8.549878583432964]},{"id":"pt.ine.add.PTCONT.4580998","rua":"R CASAL DO CENTEIO","casa":"52","coordenadas":[39.345370834785804,-8.549377468688416]},{"id":"pt.ine.add.PTCONT.4599580","rua":"R CASAL DO CENTEIO","casa":"27","coordenadas":[39.34487503598728,-8.549490530349058]},{"id":"pt.ine.add.PTCONT.4599727","rua":"R CASAL DO CENTEIO","casa":"54","coordenadas":[39.34545185610762,-8.54938954972059]},{"id":"pt.ine.add.PTCONT.4608128","rua":"R CASAL DO CENTEIO","casa":"24","coordenadas":[39.34427243952203,-8.549243350716512]},{"id":"pt.ine.add.PTCONT.4610124","rua":"R CASAL DO CENTEIO","casa":"26","coordenadas":[39.34630747754664,-8.549406226370845]},{"id":"pt.ine.add.PTCONT.4618688","rua":"R CASAL DO CENTEIO","casa":"62","coordenadas":[39.345857170142985,-8.549391954290627]},{"id":"pt.ine.add.PTCONT.4647615","rua":"R CASAL DO CENTEIO","casa":"56","coordenadas":[39.34555993985316,-8.549390190934524]},{"id":"pt.ine.add.PTCONT.4651720","rua":"R CASAL DO CENTEIO","casa":"34","coordenadas":[39.3444796000785,-8.5492445792298]},{"id":"pt.ine.add.PTCONT.4659325","rua":"R CASAL DO CENTEIO","casa":"22","coordenadas":[39.34695589690485,-8.549433274749301]}],"ruas":["R CASAL CENTEIO","R CASAL DO CENTEIO"],"centroide":[39.34510634015603,-8.54934110089164]}
+{
+  "CP": "2150-015",
+  "CP4": "2150",
+  "CP3": "015",
+  "Distrito": "Santarém",
+  "Concelho": "Golegã",
+  "Localidade": "Azinhaga",
+  "Designação Postal": "AZINHAGA",
+  "partes": [
+    {
+      "Artéria": "Rua do Casal do Centeio",
+      "Local": "Casal Centeio",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua António Eugénio de Menezes",
+      "Local": "Casal Centeio",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4401025",
+      "rua": "R CASAL CENTEIO",
+      "casa": "",
+      "coordenadas": [
+        39.343669262053396,
+        -8.549158573175404
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4407366",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "20",
+      "coordenadas": [
+        39.3438762982332,
+        -8.549194601043832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4407367",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "36",
+      "coordenadas": [
+        39.34459656639669,
+        -8.549280073601038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4407749",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "20",
+      "coordenadas": [
+        39.34722602320026,
+        -8.549458078905895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4411826",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "",
+      "coordenadas": [
+        39.34399272534491,
+        -8.549380893670238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4427801",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "42",
+      "coordenadas": [
+        39.34492081767954,
+        -8.549281996688844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4436177",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "18",
+      "coordenadas": [
+        39.34375020049016,
+        -8.549193853357467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4443808",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "38",
+      "coordenadas": [
+        39.34481260948139,
+        -8.549316155751661
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4457920",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "28",
+      "coordenadas": [
+        39.344344495368595,
+        -8.549243778024044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470610",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "50",
+      "coordenadas": [
+        39.34527196544089,
+        -8.549318880392342
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4475233",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "14",
+      "coordenadas": [
+        39.34748718400104,
+        -8.549471229338716
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4476181",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "8",
+      "coordenadas": [
+        39.34331861158183,
+        -8.548982493764747
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4494581",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "25",
+      "coordenadas": [
+        39.346469561647375,
+        -8.549418788566413
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4502564",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "22",
+      "coordenadas": [
+        39.34420050809026,
+        -8.549208123618266
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4505679",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "14",
+      "coordenadas": [
+        39.34350717784066,
+        -8.549146012139275
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4525241",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "12",
+      "coordenadas": [
+        39.34778449718619,
+        -8.54944979211309
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4537824",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "17",
+      "coordenadas": [
+        39.344694937889365,
+        -8.549477861417412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4558065",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "30",
+      "coordenadas": [
+        39.34438948879775,
+        -8.549255645053996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4568365",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "25",
+      "coordenadas": [
+        39.34478500768819,
+        -8.549478395861094
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4572758",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "44",
+      "coordenadas": [
+        39.345100666896,
+        -8.549364265640468
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4576678",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "15",
+      "coordenadas": [
+        39.347710905193296,
+        -8.549878583432964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4580998",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "52",
+      "coordenadas": [
+        39.345370834785804,
+        -8.549377468688416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4599580",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "27",
+      "coordenadas": [
+        39.34487503598728,
+        -8.549490530349058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4599727",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "54",
+      "coordenadas": [
+        39.34545185610762,
+        -8.54938954972059
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4608128",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "24",
+      "coordenadas": [
+        39.34427243952203,
+        -8.549243350716512
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4610124",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "26",
+      "coordenadas": [
+        39.34630747754664,
+        -8.549406226370845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4618688",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "62",
+      "coordenadas": [
+        39.345857170142985,
+        -8.549391954290627
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4647615",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "56",
+      "coordenadas": [
+        39.34555993985316,
+        -8.549390190934524
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4651720",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "34",
+      "coordenadas": [
+        39.3444796000785,
+        -8.5492445792298
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4659325",
+      "rua": "R CASAL DO CENTEIO",
+      "casa": "22",
+      "coordenadas": [
+        39.34695589690485,
+        -8.549433274749301
+      ]
+    }
+  ],
+  "ruas": [
+    "R CASAL CENTEIO",
+    "R CASAL DO CENTEIO"
+  ],
+  "centro": [
+    39.34555155438401,
+    -8.549430538598855
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.343424680102416,
+                -8.54907447285042
+              ],
+              [
+                39.34340110932007,
+                -8.549054033053602
+              ],
+              [
+                39.34345026434808,
+                -8.549043449768082
+              ],
+              [
+                39.34357214518644,
+                -8.549042722993853
+              ],
+              [
+                39.343766751835176,
+                -8.549051852730923
+              ],
+              [
+                39.34403408429428,
+                -8.549070838979286
+              ],
+              [
+                39.34437414256374,
+                -8.549099681738944
+              ],
+              [
+                39.34478692664355,
+                -8.5491383810099
+              ],
+              [
+                39.34527243653373,
+                -8.549186936792147
+              ],
+              [
+                39.345830672234285,
+                -8.549245349085691
+              ],
+              [
+                39.34631797859737,
+                -8.549303159706913
+              ],
+              [
+                39.346734355623,
+                -8.549360368655819
+              ],
+              [
+                39.347079803311175,
+                -8.549416975932402
+              ],
+              [
+                39.347354321661896,
+                -8.549472981536663
+              ],
+              [
+                39.34755791067515,
+                -8.549528385468609
+              ],
+              [
+                39.347690570350956,
+                -8.549583187728231
+              ],
+              [
+                39.3477523006893,
+                -8.549637388315535
+              ],
+              [
+                39.347743101690185,
+                -8.54969098723052
+              ],
+              [
+                39.34768792807684,
+                -8.549731624999637
+              ],
+              [
+                39.34758677984926,
+                -8.549759301622888
+              ],
+              [
+                39.34743965700744,
+                -8.549774017100276
+              ],
+              [
+                39.347246559551394,
+                -8.549775771431793
+              ],
+              [
+                39.34700748748111,
+                -8.549764564617448
+              ],
+              [
+                39.34672244079658,
+                -8.549740396657239
+              ],
+              [
+                39.34639141949783,
+                -8.549703267551159
+              ],
+              [
+                39.34601442358483,
+                -8.549653177299216
+              ],
+              [
+                39.345673580089965,
+                -8.549607833207714
+              ],
+              [
+                39.3453688890132,
+                -8.549567235276658
+              ],
+              [
+                39.345100350354556,
+                -8.549531383506043
+              ],
+              [
+                39.344867964114044,
+                -8.549500277895874
+              ],
+              [
+                39.34467173029164,
+                -8.549473918446147
+              ],
+              [
+                39.34451164888734,
+                -8.549452305156862
+              ],
+              [
+                39.344387719901164,
+                -8.549435438028024
+              ],
+              [
+                39.34429994333311,
+                -8.549423317059626
+              ],
+              [
+                39.34421555215631,
+                -8.549409041188358
+              ],
+              [
+                39.34413454637075,
+                -8.549392610414216
+              ],
+              [
+                39.34405692597646,
+                -8.549374024737205
+              ],
+              [
+                39.343982690973405,
+                -8.549353284157323
+              ],
+              [
+                39.34391184136162,
+                -8.549330388674568
+              ],
+              [
+                39.34384437714108,
+                -8.54930533828894
+              ],
+              [
+                39.3437802983118,
+                -8.549278133000442
+              ],
+              [
+                39.34371960487377,
+                -8.549248772809072
+              ],
+              [
+                39.3436635517677,
+                -8.549220527667021
+              ],
+              [
+                39.343612138993585,
+                -8.549193397574289
+              ],
+              [
+                39.34356536655143,
+                -8.549167382530875
+              ],
+              [
+                39.343523234441236,
+                -8.549142482536784
+              ],
+              [
+                39.343485742663006,
+                -8.549118697592009
+              ],
+              [
+                39.34345289121673,
+                -8.549096027696555
+              ],
+              [
+                39.343424680102416,
+                -8.54907447285042
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.34516814250604,
+    -8.549385939422956
+  ],
+  "centroDeMassa": [
+    39.34555155438401,
+    -8.549430538598855
+  ]
+}

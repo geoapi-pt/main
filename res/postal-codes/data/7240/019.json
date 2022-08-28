@@ -1,1 +1,510 @@
-{"CP4":"7240","CP3":"019","Distrito":"Évora","Concelho":"Mourão","CP":"7240-019","Artéria":"Estrada Nacional 385","Localidade":"Granja","Local":"","Troço":"Monte Carvoeiro","Porta":"","Cliente":"","Designação Postal":"GRANJA MOU","locais":[{"id":"pt.ine.add.PTCONT.1368143","rua":"R DAS FLORES","casa":"58","coordenadas":[38.30105318288905,-7.256040816846893]},{"id":"pt.ine.add.PTCONT.1368732","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"8","coordenadas":[38.30473630268655,-7.255135730636412]},{"id":"pt.ine.add.PTCONT.1368764","rua":"MTE DO CARVOEIRO","casa":"","coordenadas":[38.319255250538916,-7.271758301469434]},{"id":"pt.ine.add.PTCONT.1370202","rua":"R DE VALADARES","casa":"8","coordenadas":[38.300601447237625,-7.256778346440473]},{"id":"pt.ine.add.PTCONT.1377304","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"18","coordenadas":[38.30439229608432,-7.254911229205436]},{"id":"pt.ine.add.PTCONT.1377308","rua":"R DA CRUZ","casa":"19","coordenadas":[38.30170703108503,-7.256403992165056]},{"id":"pt.ine.add.PTCONT.1377855","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"22","coordenadas":[38.30412474587906,-7.254759886103271]},{"id":"pt.ine.add.PTCONT.1379297","rua":"R DE SÃO SEBASTIÃO","casa":"13","coordenadas":[38.30072117913568,-7.256248975617916]},{"id":"pt.ine.add.PTCONT.1382375","rua":"R DE VALADARES","casa":"6","coordenadas":[38.3006845694872,-7.256624979519053]},{"id":"pt.ine.add.PTCONT.1386193","rua":"MTE DA SARDINHA","casa":"","coordenadas":[38.32249066485651,-7.263395140163551]},{"id":"pt.ine.add.PTCONT.1389009","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"","coordenadas":[38.30337846056073,-7.254260382558983]},{"id":"pt.ine.add.PTCONT.1390510","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"6","coordenadas":[38.30481771482841,-7.255180479160594]},{"id":"pt.ine.add.PTCONT.1412361","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"2","coordenadas":[38.30501674122585,-7.255292405186607]},{"id":"pt.ine.add.PTCONT.1417700","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"20","coordenadas":[38.304275845365254,-7.2548697824173]},{"id":"pt.ine.add.PTCONT.1424266","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"4","coordenadas":[38.30491731359455,-7.255247873565243]},{"id":"pt.ine.add.PTCONT.1425164","rua":"R DIREITA","casa":"41","coordenadas":[38.30014393152179,-7.255098357920648]},{"id":"pt.ine.add.PTCONT.1425878","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"28","coordenadas":[38.30381733428762,-7.254569809726336]},{"id":"pt.ine.add.PTCONT.1428020","rua":"R DE VALADARES","casa":"16","coordenadas":[38.30044961319257,-7.257024289963039]},{"id":"pt.ine.add.PTCONT.1433514","rua":"R DOS MEIGOS","casa":"9","coordenadas":[38.30082570121788,-7.257203102844733]},{"id":"pt.ine.add.PTCONT.1434603","rua":"R PEDRO PITEIRA","casa":"15","coordenadas":[38.30267542166388,-7.256946834316198]},{"id":"pt.ine.add.PTCONT.1435160","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"10","coordenadas":[38.30463653271343,-7.255045473704213]},{"id":"pt.ine.add.PTCONT.1444044","rua":"R DOS MEIGOS","casa":"12","coordenadas":[38.300727048089826,-7.257181735233435]},{"id":"pt.ine.add.PTCONT.1447199","rua":"MTE DA AZEDA JOSE DOMINGUES","casa":"","coordenadas":[38.31216259186219,-7.262821066229876]},{"id":"pt.ine.add.PTCONT.1448737","rua":"R DE VALADARES","casa":"10","coordenadas":[38.30057801339681,-7.256832034384124]},{"id":"pt.ine.add.PTCONT.1450350","rua":"R JOAQUIM ANTÓNIO DE CASTRO","casa":"14","coordenadas":[38.304537019411356,-7.254989511237583]},{"id":"pt.ine.add.PTCONT.1452031","rua":"R DE VALADARES","casa":"12","coordenadas":[38.30053340145521,-7.256889730106461]},{"id":"pt.ine.add.PTCONT.1454796","rua":"MTE HERDADE DO CARVOEIRO","casa":"","coordenadas":[38.31890554220529,-7.271979698853483]},{"id":"pt.ine.add.PTCONT.1460921","rua":"R DE VALADARES","casa":"14","coordenadas":[38.300479952464286,-7.256970395655983]}],"ruas":["R DAS FLORES","R JOAQUIM ANTÓNIO DE CASTRO","MTE DO CARVOEIRO","R DE VALADARES","R DA CRUZ","R DE SÃO SEBASTIÃO","MTE DA SARDINHA","R DIREITA","R DOS MEIGOS","R PEDRO PITEIRA","MTE DA AZEDA JOSE DOMINGUES","MTE HERDADE DO CARVOEIRO"],"centroide":[38.30489499616564,-7.257536665391717]}
+{
+  "CP": "7240-019",
+  "CP4": "7240",
+  "CP3": "019",
+  "Distrito": "Évora",
+  "Concelho": "Mourão",
+  "Localidade": "Granja",
+  "Designação Postal": "GRANJA MOU",
+  "partes": [
+    {
+      "Artéria": "Estrada Nacional 385",
+      "Local": "",
+      "Troço": "Monte Carvoeiro",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1368143",
+      "rua": "R DAS FLORES",
+      "casa": "58",
+      "coordenadas": [
+        38.30105318288905,
+        -7.256040816846893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1368732",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "8",
+      "coordenadas": [
+        38.30473630268655,
+        -7.255135730636412
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1368764",
+      "rua": "MTE DO CARVOEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.319255250538916,
+        -7.271758301469434
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1370202",
+      "rua": "R DE VALADARES",
+      "casa": "8",
+      "coordenadas": [
+        38.300601447237625,
+        -7.256778346440473
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377304",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "18",
+      "coordenadas": [
+        38.30439229608432,
+        -7.254911229205436
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377308",
+      "rua": "R DA CRUZ",
+      "casa": "19",
+      "coordenadas": [
+        38.30170703108503,
+        -7.256403992165056
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377855",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "22",
+      "coordenadas": [
+        38.30412474587906,
+        -7.254759886103271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1379297",
+      "rua": "R DE SÃO SEBASTIÃO",
+      "casa": "13",
+      "coordenadas": [
+        38.30072117913568,
+        -7.256248975617916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1382375",
+      "rua": "R DE VALADARES",
+      "casa": "6",
+      "coordenadas": [
+        38.3006845694872,
+        -7.256624979519053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1386193",
+      "rua": "MTE DA SARDINHA",
+      "casa": "",
+      "coordenadas": [
+        38.32249066485651,
+        -7.263395140163551
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1389009",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "",
+      "coordenadas": [
+        38.30337846056073,
+        -7.254260382558983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1390510",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "6",
+      "coordenadas": [
+        38.30481771482841,
+        -7.255180479160594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412361",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "2",
+      "coordenadas": [
+        38.30501674122585,
+        -7.255292405186607
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1417700",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "20",
+      "coordenadas": [
+        38.304275845365254,
+        -7.2548697824173
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1424266",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "4",
+      "coordenadas": [
+        38.30491731359455,
+        -7.255247873565243
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425164",
+      "rua": "R DIREITA",
+      "casa": "41",
+      "coordenadas": [
+        38.30014393152179,
+        -7.255098357920648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1425878",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "28",
+      "coordenadas": [
+        38.30381733428762,
+        -7.254569809726336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428020",
+      "rua": "R DE VALADARES",
+      "casa": "16",
+      "coordenadas": [
+        38.30044961319257,
+        -7.257024289963039
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1433514",
+      "rua": "R DOS MEIGOS",
+      "casa": "9",
+      "coordenadas": [
+        38.30082570121788,
+        -7.257203102844733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1434603",
+      "rua": "R PEDRO PITEIRA",
+      "casa": "15",
+      "coordenadas": [
+        38.30267542166388,
+        -7.256946834316198
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1435160",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "10",
+      "coordenadas": [
+        38.30463653271343,
+        -7.255045473704213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444044",
+      "rua": "R DOS MEIGOS",
+      "casa": "12",
+      "coordenadas": [
+        38.300727048089826,
+        -7.257181735233435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1447199",
+      "rua": "MTE DA AZEDA JOSE DOMINGUES",
+      "casa": "",
+      "coordenadas": [
+        38.31216259186219,
+        -7.262821066229876
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448737",
+      "rua": "R DE VALADARES",
+      "casa": "10",
+      "coordenadas": [
+        38.30057801339681,
+        -7.256832034384124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1450350",
+      "rua": "R JOAQUIM ANTÓNIO DE CASTRO",
+      "casa": "14",
+      "coordenadas": [
+        38.304537019411356,
+        -7.254989511237583
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1452031",
+      "rua": "R DE VALADARES",
+      "casa": "12",
+      "coordenadas": [
+        38.30053340145521,
+        -7.256889730106461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1454796",
+      "rua": "MTE HERDADE DO CARVOEIRO",
+      "casa": "",
+      "coordenadas": [
+        38.31890554220529,
+        -7.271979698853483
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1460921",
+      "rua": "R DE VALADARES",
+      "casa": "14",
+      "coordenadas": [
+        38.300479952464286,
+        -7.256970395655983
+      ]
+    }
+  ],
+  "ruas": [
+    "R DAS FLORES",
+    "R JOAQUIM ANTÓNIO DE CASTRO",
+    "MTE DO CARVOEIRO",
+    "R DE VALADARES",
+    "R DA CRUZ",
+    "R DE SÃO SEBASTIÃO",
+    "MTE DA SARDINHA",
+    "R DIREITA",
+    "R DOS MEIGOS",
+    "R PEDRO PITEIRA",
+    "MTE DA AZEDA JOSE DOMINGUES",
+    "MTE HERDADE DO CARVOEIRO"
+  ],
+  "centro": [
+    38.31131729818915,
+    -7.263120040706233
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.3003158774616,
+                -7.256181694694493
+              ],
+              [
+                38.30027766725276,
+                -7.255940953189194
+              ],
+              [
+                38.300294772836246,
+                -7.255717211007031
+              ],
+              [
+                38.30036719421208,
+                -7.255510468148005
+              ],
+              [
+                38.30049493138025,
+                -7.255320724612115
+              ],
+              [
+                38.30067798434076,
+                -7.255147980399363
+              ],
+              [
+                38.300916353093605,
+                -7.254992235509745
+              ],
+              [
+                38.301210037638796,
+                -7.2548534899432635
+              ],
+              [
+                38.30155903797632,
+                -7.25473174369992
+              ],
+              [
+                38.30196335410619,
+                -7.254626996779711
+              ],
+              [
+                38.30261575891195,
+                -7.2546780738121015
+              ],
+              [
+                38.303516252393585,
+                -7.254884974797088
+              ],
+              [
+                38.30466483455112,
+                -7.255247699734672
+              ],
+              [
+                38.30606150538454,
+                -7.2557662486248535
+              ],
+              [
+                38.307706264893845,
+                -7.2564406214676325
+              ],
+              [
+                38.309599113079045,
+                -7.257270818263008
+              ],
+              [
+                38.311740049940134,
+                -7.258256839010981
+              ],
+              [
+                38.314129075477105,
+                -7.259398683711552
+              ],
+              [
+                38.31616891947325,
+                -7.260528472219956
+              ],
+              [
+                38.31785958192856,
+                -7.261646204536193
+              ],
+              [
+                38.31920106284303,
+                -7.262751880660263
+              ],
+              [
+                38.32019336221666,
+                -7.263845500592167
+              ],
+              [
+                38.320836480049465,
+                -7.264927064331902
+              ],
+              [
+                38.32113041634143,
+                -7.265996571879471
+              ],
+              [
+                38.321075171092566,
+                -7.267054023234874
+              ],
+              [
+                38.320670744302866,
+                -7.26809941839811
+              ],
+              [
+                38.32031140666916,
+                -7.269017598500067
+              ],
+              [
+                38.31999715819147,
+                -7.269808563540745
+              ],
+              [
+                38.319727998869766,
+                -7.270472313520145
+              ],
+              [
+                38.319503928704066,
+                -7.271008848438264
+              ],
+              [
+                38.31932494769436,
+                -7.2714181682951065
+              ],
+              [
+                38.31919105584066,
+                -7.271700273090671
+              ],
+              [
+                38.31910225314296,
+                -7.271855162824956
+              ],
+              [
+                38.31905853960125,
+                -7.2718828374979605
+              ],
+              [
+                38.31873191636144,
+                -7.271673374572927
+              ],
+              [
+                38.318122383423514,
+                -7.271226774049856
+              ],
+              [
+                38.317229940787485,
+                -7.270543035928746
+              ],
+              [
+                38.316054588453326,
+                -7.269622160209597
+              ],
+              [
+                38.31459632642107,
+                -7.268464146892408
+              ],
+              [
+                38.31285515469071,
+                -7.26706899597718
+              ],
+              [
+                38.31083107326223,
+                -7.2654367074639135
+              ],
+              [
+                38.30852408213564,
+                -7.263567281352608
+              ],
+              [
+                38.30650068862377,
+                -7.261901440817054
+              ],
+              [
+                38.304760892726605,
+                -7.2604391858572495
+              ],
+              [
+                38.30330469444417,
+                -7.259180516473196
+              ],
+              [
+                38.30213209377645,
+                -7.258125432664895
+              ],
+              [
+                38.30124309072345,
+                -7.257273934432343
+              ],
+              [
+                38.30063768528517,
+                -7.256626021775542
+              ],
+              [
+                38.3003158774616,
+                -7.256181694694493
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.310770577145966,
+    -7.2622526951548565
+  ],
+  "centroDeMassa": [
+    38.31131729818915,
+    -7.263120040706233
+  ]
+}

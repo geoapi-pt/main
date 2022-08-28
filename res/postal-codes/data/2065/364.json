@@ -1,1 +1,526 @@
-{"CP4":"2065","CP3":"364","Distrito":"Lisboa","Concelho":"Azambuja","CP":"2065-364","Artéria":"Rua Pina Manique","Localidade":"Manique do Intendente","Local":"","Troço":"Pares de 50 a 176","Porta":"","Cliente":"","Designação Postal":"MANIQUE DO INTENDENTE","locais":[{"id":"pt.ine.add.PTCONT.2273455","rua":"R PINA MANIQUE","casa":"80","coordenadas":[39.221138235648894,-8.894231183528188]},{"id":"pt.ine.add.PTCONT.2311484","rua":"R PINA MANIQUE","casa":"82","coordenadas":[39.220859484548285,-8.894158694990493]},{"id":"pt.ine.add.PTCONT.2371080","rua":"R PINA MANIQUE","casa":"158","coordenadas":[39.216714351341565,-8.899926608076944]},{"id":"pt.ine.add.PTCONT.2396003","rua":"R PINA MANIQUE","casa":"84","coordenadas":[39.220759352584516,-8.894319729365696]},{"id":"pt.ine.add.PTCONT.2438717","rua":"R PINA MANIQUE","casa":"146","coordenadas":[39.21743326113635,-8.898811252481153]},{"id":"pt.ine.add.PTCONT.2438749","rua":"R PINA MANIQUE","casa":"144","coordenadas":[39.217500111319495,-8.898233021203817]},{"id":"pt.ine.add.PTCONT.2439552","rua":"R PINA MANIQUE","casa":"146","coordenadas":[39.21743326113635,-8.898811252481153]},{"id":"pt.ine.add.PTCONT.2477299","rua":"R PINA MANIQUE","casa":"150","coordenadas":[39.21709780901611,-8.899143401927246]},{"id":"pt.ine.add.PTCONT.2522991","rua":"R PINA MANIQUE","casa":"150","coordenadas":[39.217261374430976,-8.89892517639601]},{"id":"pt.ine.add.PTCONT.2541140","rua":"R PINA MANIQUE","casa":"78","coordenadas":[39.220950458407444,-8.894020720725472]},{"id":"pt.ine.add.PTCONT.2674888","rua":"R PINA MANIQUE","casa":"88","coordenadas":[39.22058701612638,-8.894503142597806]},{"id":"pt.ine.add.PTCONT.2710195","rua":"R PINA MANIQUE","casa":"70","coordenadas":[39.22164501075223,-8.892488101632786]},{"id":"pt.ine.add.PTCONT.2829159","rua":"R PINA MANIQUE","casa":"172","coordenadas":[39.215396031373544,-8.901788033230014]},{"id":"pt.ine.add.PTCONT.2890801","rua":"R PINA MANIQUE","casa":"102","coordenadas":[39.220175129744455,-8.89550611742691]},{"id":"pt.ine.add.PTCONT.2899398","rua":"R PINA MANIQUE","casa":"106","coordenadas":[39.21982205276078,-8.895780206973232]},{"id":"pt.ine.add.PTCONT.2923519","rua":"R PINA MANIQUE","casa":"142","coordenadas":[39.21755483538381,-8.898129402793828]},{"id":"pt.ine.add.PTCONT.2923520","rua":"R PINA MANIQUE","casa":"108","coordenadas":[39.219767406575656,-8.895872251843032]},{"id":"pt.ine.add.PTCONT.2990429","rua":"R PINA MANIQUE","casa":"146","coordenadas":[39.21792220504416,-8.898422870473444]},{"id":"pt.ine.add.PTCONT.3054846","rua":"R PINA MANIQUE","casa":"64","coordenadas":[39.22179993455,-8.892211854295377]},{"id":"pt.ine.add.PTCONT.3103852","rua":"R PINA MANIQUE","casa":"56","coordenadas":[39.221760708313376,-8.891319783102098]},{"id":"pt.ine.add.PTCONT.3149035","rua":"R PINA MANIQUE","casa":"128","coordenadas":[39.21871467248096,-8.897076691071472]},{"id":"pt.ine.add.PTCONT.3157955","rua":"R PINA MANIQUE","casa":"64","coordenadas":[39.221881522278,-8.892131673967013]},{"id":"pt.ine.add.PTCONT.3157961","rua":"R PINA MANIQUE","casa":"56","coordenadas":[39.22181248642339,-8.891667735999889]},{"id":"pt.ine.add.PTCONT.3185829","rua":"R PINA MANIQUE","casa":"104","coordenadas":[39.22005811956664,-8.895493272149649]},{"id":"pt.ine.add.PTCONT.3231858","rua":"R PINA MANIQUE","casa":"140","coordenadas":[39.21788944851014,-8.897924608635712]},{"id":"pt.ine.add.PTCONT.3231861","rua":"R PINA MANIQUE","casa":"146","coordenadas":[39.21740012592733,-8.898370885486818]},{"id":"pt.ine.add.PTCONT.3249973","rua":"R PINA MANIQUE","casa":"","coordenadas":[39.22176176337055,-8.891157676502825]},{"id":"pt.ine.add.PTCONT.3260141","rua":"R PINA MANIQUE","casa":"110","coordenadas":[39.219667878911494,-8.895940651786287]},{"id":"pt.ine.add.PTCONT.3274745","rua":"R PINA MANIQUE","casa":"118","coordenadas":[39.21930465639612,-8.896388319080817]},{"id":"pt.ine.add.PTCONT.3393389","rua":"R PINA MANIQUE","casa":"120","coordenadas":[39.21911437938852,-8.896559949764587]},{"id":"pt.ine.add.PTCONT.3448973","rua":"R PINA MANIQUE","casa":"76","coordenadas":[39.22109479113669,-8.893987539764867]}],"ruas":["R PINA MANIQUE"],"centroide":[39.21937276944824,-8.89597714233299]}
+{
+  "CP": "2065-364",
+  "CP4": "2065",
+  "CP3": "364",
+  "Distrito": "Lisboa",
+  "Concelho": "Azambuja",
+  "Localidade": "Manique do Intendente",
+  "Designação Postal": "MANIQUE DO INTENDENTE",
+  "partes": [
+    {
+      "Artéria": "Rua Pina Manique",
+      "Local": "",
+      "Troço": "Pares de 50 a 176",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2273455",
+      "rua": "R PINA MANIQUE",
+      "casa": "80",
+      "coordenadas": [
+        39.221138235648894,
+        -8.894231183528188
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2311484",
+      "rua": "R PINA MANIQUE",
+      "casa": "82",
+      "coordenadas": [
+        39.220859484548285,
+        -8.894158694990493
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2371080",
+      "rua": "R PINA MANIQUE",
+      "casa": "158",
+      "coordenadas": [
+        39.216714351341565,
+        -8.899926608076944
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2396003",
+      "rua": "R PINA MANIQUE",
+      "casa": "84",
+      "coordenadas": [
+        39.220759352584516,
+        -8.894319729365696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2438717",
+      "rua": "R PINA MANIQUE",
+      "casa": "146",
+      "coordenadas": [
+        39.21743326113635,
+        -8.898811252481153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2438749",
+      "rua": "R PINA MANIQUE",
+      "casa": "144",
+      "coordenadas": [
+        39.217500111319495,
+        -8.898233021203817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2439552",
+      "rua": "R PINA MANIQUE",
+      "casa": "146",
+      "coordenadas": [
+        39.21743326113635,
+        -8.898811252481153
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2477299",
+      "rua": "R PINA MANIQUE",
+      "casa": "150",
+      "coordenadas": [
+        39.21709780901611,
+        -8.899143401927246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2522991",
+      "rua": "R PINA MANIQUE",
+      "casa": "150",
+      "coordenadas": [
+        39.217261374430976,
+        -8.89892517639601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2541140",
+      "rua": "R PINA MANIQUE",
+      "casa": "78",
+      "coordenadas": [
+        39.220950458407444,
+        -8.894020720725472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2674888",
+      "rua": "R PINA MANIQUE",
+      "casa": "88",
+      "coordenadas": [
+        39.22058701612638,
+        -8.894503142597806
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2710195",
+      "rua": "R PINA MANIQUE",
+      "casa": "70",
+      "coordenadas": [
+        39.22164501075223,
+        -8.892488101632786
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2829159",
+      "rua": "R PINA MANIQUE",
+      "casa": "172",
+      "coordenadas": [
+        39.215396031373544,
+        -8.901788033230014
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2890801",
+      "rua": "R PINA MANIQUE",
+      "casa": "102",
+      "coordenadas": [
+        39.220175129744455,
+        -8.89550611742691
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2899398",
+      "rua": "R PINA MANIQUE",
+      "casa": "106",
+      "coordenadas": [
+        39.21982205276078,
+        -8.895780206973232
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2923519",
+      "rua": "R PINA MANIQUE",
+      "casa": "142",
+      "coordenadas": [
+        39.21755483538381,
+        -8.898129402793828
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2923520",
+      "rua": "R PINA MANIQUE",
+      "casa": "108",
+      "coordenadas": [
+        39.219767406575656,
+        -8.895872251843032
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2990429",
+      "rua": "R PINA MANIQUE",
+      "casa": "146",
+      "coordenadas": [
+        39.21792220504416,
+        -8.898422870473444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3054846",
+      "rua": "R PINA MANIQUE",
+      "casa": "64",
+      "coordenadas": [
+        39.22179993455,
+        -8.892211854295377
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3103852",
+      "rua": "R PINA MANIQUE",
+      "casa": "56",
+      "coordenadas": [
+        39.221760708313376,
+        -8.891319783102098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3149035",
+      "rua": "R PINA MANIQUE",
+      "casa": "128",
+      "coordenadas": [
+        39.21871467248096,
+        -8.897076691071472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3157955",
+      "rua": "R PINA MANIQUE",
+      "casa": "64",
+      "coordenadas": [
+        39.221881522278,
+        -8.892131673967013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3157961",
+      "rua": "R PINA MANIQUE",
+      "casa": "56",
+      "coordenadas": [
+        39.22181248642339,
+        -8.891667735999889
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3185829",
+      "rua": "R PINA MANIQUE",
+      "casa": "104",
+      "coordenadas": [
+        39.22005811956664,
+        -8.895493272149649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3231858",
+      "rua": "R PINA MANIQUE",
+      "casa": "140",
+      "coordenadas": [
+        39.21788944851014,
+        -8.897924608635712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3231861",
+      "rua": "R PINA MANIQUE",
+      "casa": "146",
+      "coordenadas": [
+        39.21740012592733,
+        -8.898370885486818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3249973",
+      "rua": "R PINA MANIQUE",
+      "casa": "",
+      "coordenadas": [
+        39.22176176337055,
+        -8.891157676502825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3260141",
+      "rua": "R PINA MANIQUE",
+      "casa": "110",
+      "coordenadas": [
+        39.219667878911494,
+        -8.895940651786287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3274745",
+      "rua": "R PINA MANIQUE",
+      "casa": "118",
+      "coordenadas": [
+        39.21930465639612,
+        -8.896388319080817
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3393389",
+      "rua": "R PINA MANIQUE",
+      "casa": "120",
+      "coordenadas": [
+        39.21911437938852,
+        -8.896559949764587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3448973",
+      "rua": "R PINA MANIQUE",
+      "casa": "76",
+      "coordenadas": [
+        39.22109479113669,
+        -8.893987539764867
+      ]
+    }
+  ],
+  "ruas": [
+    "R PINA MANIQUE"
+  ],
+  "centro": [
+    39.21863877682577,
+    -8.89647285486642
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.21808427420718,
+                -8.898254455590768
+              ],
+              [
+                39.21748688691082,
+                -8.899039695066156
+              ],
+              [
+                39.2169954870039,
+                -8.899673386673634
+              ],
+              [
+                39.21661007448644,
+                -8.900155530413201
+              ],
+              [
+                39.21633064935842,
+                -8.900486126284855
+              ],
+              [
+                39.216157211619844,
+                -8.9006651742886
+              ],
+              [
+                39.21608976127072,
+                -8.900692674424434
+              ],
+              [
+                39.21612829831105,
+                -8.900568626692355
+              ],
+              [
+                39.21627282274082,
+                -8.900293031092366
+              ],
+              [
+                39.21652333456005,
+                -8.899865887624467
+              ],
+              [
+                39.21681068298692,
+                -8.899379430699678
+              ],
+              [
+                39.21713486802143,
+                -8.898833660318003
+              ],
+              [
+                39.217495889663596,
+                -8.898228576479442
+              ],
+              [
+                39.21789374791341,
+                -8.897564179183993
+              ],
+              [
+                39.21832844277087,
+                -8.896840468431657
+              ],
+              [
+                39.21879997423598,
+                -8.896057444222432
+              ],
+              [
+                39.219308342308736,
+                -8.895215106556321
+              ],
+              [
+                39.21985354698914,
+                -8.894313455433322
+              ],
+              [
+                39.22033247231742,
+                -8.893539729411076
+              ],
+              [
+                39.22074511829358,
+                -8.892893928489581
+              ],
+              [
+                39.22109148491762,
+                -8.89237605266884
+              ],
+              [
+                39.22137157218953,
+                -8.891986101948854
+              ],
+              [
+                39.22158538010933,
+                -8.891724076329618
+              ],
+              [
+                39.221732908677,
+                -8.891589975811137
+              ],
+              [
+                39.22181415789255,
+                -8.891583800393406
+              ],
+              [
+                39.221829127755996,
+                -8.89170555007643
+              ],
+              [
+                39.22183061253291,
+                -8.89184488588597
+              ],
+              [
+                39.22181861222333,
+                -8.892001807822023
+              ],
+              [
+                39.22179312682723,
+                -8.892176315884592
+              ],
+              [
+                39.22175415634462,
+                -8.892368410073678
+              ],
+              [
+                39.22170170077551,
+                -8.892578090389279
+              ],
+              [
+                39.22163576011989,
+                -8.892805356831396
+              ],
+              [
+                39.22155633437776,
+                -8.893050209400027
+              ],
+              [
+                39.22146342354913,
+                -8.893312648095172
+              ],
+              [
+                39.22136707804432,
+                -8.893562202795593
+              ],
+              [
+                39.22126729786332,
+                -8.89379887350129
+              ],
+              [
+                39.22116408300615,
+                -8.89402266021226
+              ],
+              [
+                39.2210574334728,
+                -8.894233562928502
+              ],
+              [
+                39.22094734926328,
+                -8.894431581650021
+              ],
+              [
+                39.22083383037758,
+                -8.894616716376813
+              ],
+              [
+                39.2207168768157,
+                -8.894788967108878
+              ],
+              [
+                39.22059648857765,
+                -8.89494833384622
+              ],
+              [
+                39.220416475457306,
+                -8.895185934675816
+              ],
+              [
+                39.22017683745467,
+                -8.895501769597667
+              ],
+              [
+                39.21987757456975,
+                -8.895895838611775
+              ],
+              [
+                39.219518686802544,
+                -8.896368141718138
+              ],
+              [
+                39.21910017415304,
+                -8.896918678916759
+              ],
+              [
+                39.218622036621255,
+                -8.897547450207636
+              ],
+              [
+                39.21808427420718,
+                -8.898254455590768
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.219625468057124,
+    -8.895530928356962
+  ],
+  "centroDeMassa": [
+    39.21863877682577,
+    -8.89647285486642
+  ]
+}

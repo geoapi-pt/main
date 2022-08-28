@@ -1,1 +1,415 @@
-{"CP4":"3515","CP3":"782","Distrito":"Viseu","Concelho":"Viseu","CP":"3515-782","Artéria":" ","Localidade":"Quintãs","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"LORDOSA","locais":[{"id":"pt.ine.add.PTCONT.5431226","rua":"R PRINCIPAL","casa":"64","coordenadas":[40.74107850485422,-7.8980366680213585]},{"id":"pt.ine.add.PTCONT.5432958","rua":"R PRINCIPAL","casa":"58","coordenadas":[40.74119902898557,-7.899741121717849]},{"id":"pt.ine.add.PTCONT.5463879","rua":"R PRINCIPAL","casa":"518","coordenadas":[40.74118870562381,-7.899089989214476]},{"id":"pt.ine.add.PTCONT.5467381","rua":"R FUSEIRO","casa":"83","coordenadas":[40.740239952422286,-7.9019584153221825]},{"id":"pt.ine.add.PTCONT.5468681","rua":"R FONTE","casa":"12","coordenadas":[40.74116195469861,-7.899220316632508]},{"id":"pt.ine.add.PTCONT.5472469","rua":"","casa":"","coordenadas":[40.73795810120994,-7.887155905709868]},{"id":"pt.ine.add.PTCONT.5486078","rua":"R PRINCIPAL","casa":"48","coordenadas":[40.741153477236956,-7.899480813622509]},{"id":"pt.ine.add.PTCONT.5486773","rua":"R PRINCIPAL","casa":"457","coordenadas":[40.74097258643694,-7.899090746643763]},{"id":"pt.ine.add.PTCONT.5495528","rua":"R ESTRADA PRINCIPAL","casa":"343","coordenadas":[40.74079344629235,-7.899564948814466]},{"id":"pt.ine.add.PTCONT.5497159","rua":"R PRINCIPAL","casa":"240","coordenadas":[40.7434952231229,-7.899697576651878]},{"id":"pt.ine.add.PTCONT.5518861","rua":"R PRINCIPAL","casa":"19","coordenadas":[40.74075689911466,-7.899304610890713]},{"id":"pt.ine.add.PTCONT.5520044","rua":"R TANQUE","casa":"41","coordenadas":[40.740188193209725,-7.898619925571726]},{"id":"pt.ine.add.PTCONT.5527580","rua":"R FUSEIRO","casa":"9","coordenadas":[40.74060877663738,-7.901767709358079]},{"id":"pt.ine.add.PTCONT.5566071","rua":"R POCAS","casa":"62","coordenadas":[40.740988864929896,-7.898238253278884]},{"id":"pt.ine.add.PTCONT.5575130","rua":"R PRINCIPAL","casa":"256","coordenadas":[40.74331521962717,-7.899745565144743]},{"id":"pt.ine.add.PTCONT.5575131","rua":"R PRINCIPAL","casa":"364","coordenadas":[40.742405598586515,-7.899689546108461]},{"id":"pt.ine.add.PTCONT.5601082","rua":"R PRINCIPAL","casa":"54","coordenadas":[40.74127061368425,-7.899515922109001]},{"id":"pt.ine.add.PTCONT.5606375","rua":"R PRINCIPAL","casa":"206","coordenadas":[40.74382821514907,-7.899601693364287]},{"id":"pt.ine.add.PTCONT.5618967","rua":"R POMBAL","casa":"110","coordenadas":[40.74309314963742,-7.901261831434638]},{"id":"pt.ine.add.PTCONT.5623370","rua":"R POMBAL","casa":"1","coordenadas":[40.7444250033884,-7.900819126430808]},{"id":"pt.ine.add.PTCONT.5658133","rua":"R PRINCIPAL","casa":"504","coordenadas":[40.74142271469646,-7.899029971726359]},{"id":"pt.ine.add.PTCONT.5658134","rua":"R POMBAL","casa":"66","coordenadas":[40.74277963764739,-7.902091699850145]},{"id":"pt.ine.add.PTCONT.5662268","rua":"R PRINCIPAL","casa":"371","coordenadas":[40.74076564020587,-7.89917434739314]},{"id":"pt.ine.add.PTCONT.5665520","rua":"TV POCAS","casa":"26","coordenadas":[40.7408992246506,-7.898439837996271]},{"id":"pt.ine.add.PTCONT.5666298","rua":"R FUSEIRO","casa":"","coordenadas":[40.73965458196942,-7.901936763312533]}],"ruas":["R PRINCIPAL","R FUSEIRO","R FONTE","","R ESTRADA PRINCIPAL","R TANQUE","R POCAS","R POMBAL","TV POCAS"],"centroide":[40.74149953050202,-7.8991806892920025]}
+{
+  "CP": "3515-782",
+  "CP4": "3515",
+  "CP3": "782",
+  "Distrito": "Viseu",
+  "Concelho": "Viseu",
+  "Localidade": "Quintãs",
+  "Designação Postal": "LORDOSA",
+  "partes": [
+    {
+      "Artéria": " ",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5431226",
+      "rua": "R PRINCIPAL",
+      "casa": "64",
+      "coordenadas": [
+        40.74107850485422,
+        -7.8980366680213585
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5432958",
+      "rua": "R PRINCIPAL",
+      "casa": "58",
+      "coordenadas": [
+        40.74119902898557,
+        -7.899741121717849
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5463879",
+      "rua": "R PRINCIPAL",
+      "casa": "518",
+      "coordenadas": [
+        40.74118870562381,
+        -7.899089989214476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5467381",
+      "rua": "R FUSEIRO",
+      "casa": "83",
+      "coordenadas": [
+        40.740239952422286,
+        -7.9019584153221825
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5468681",
+      "rua": "R FONTE",
+      "casa": "12",
+      "coordenadas": [
+        40.74116195469861,
+        -7.899220316632508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5472469",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        40.73795810120994,
+        -7.887155905709868
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5486078",
+      "rua": "R PRINCIPAL",
+      "casa": "48",
+      "coordenadas": [
+        40.741153477236956,
+        -7.899480813622509
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5486773",
+      "rua": "R PRINCIPAL",
+      "casa": "457",
+      "coordenadas": [
+        40.74097258643694,
+        -7.899090746643763
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5495528",
+      "rua": "R ESTRADA PRINCIPAL",
+      "casa": "343",
+      "coordenadas": [
+        40.74079344629235,
+        -7.899564948814466
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5497159",
+      "rua": "R PRINCIPAL",
+      "casa": "240",
+      "coordenadas": [
+        40.7434952231229,
+        -7.899697576651878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5518861",
+      "rua": "R PRINCIPAL",
+      "casa": "19",
+      "coordenadas": [
+        40.74075689911466,
+        -7.899304610890713
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5520044",
+      "rua": "R TANQUE",
+      "casa": "41",
+      "coordenadas": [
+        40.740188193209725,
+        -7.898619925571726
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5527580",
+      "rua": "R FUSEIRO",
+      "casa": "9",
+      "coordenadas": [
+        40.74060877663738,
+        -7.901767709358079
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5566071",
+      "rua": "R POCAS",
+      "casa": "62",
+      "coordenadas": [
+        40.740988864929896,
+        -7.898238253278884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5575130",
+      "rua": "R PRINCIPAL",
+      "casa": "256",
+      "coordenadas": [
+        40.74331521962717,
+        -7.899745565144743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5575131",
+      "rua": "R PRINCIPAL",
+      "casa": "364",
+      "coordenadas": [
+        40.742405598586515,
+        -7.899689546108461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5601082",
+      "rua": "R PRINCIPAL",
+      "casa": "54",
+      "coordenadas": [
+        40.74127061368425,
+        -7.899515922109001
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5606375",
+      "rua": "R PRINCIPAL",
+      "casa": "206",
+      "coordenadas": [
+        40.74382821514907,
+        -7.899601693364287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5618967",
+      "rua": "R POMBAL",
+      "casa": "110",
+      "coordenadas": [
+        40.74309314963742,
+        -7.901261831434638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5623370",
+      "rua": "R POMBAL",
+      "casa": "1",
+      "coordenadas": [
+        40.7444250033884,
+        -7.900819126430808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5658133",
+      "rua": "R PRINCIPAL",
+      "casa": "504",
+      "coordenadas": [
+        40.74142271469646,
+        -7.899029971726359
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5658134",
+      "rua": "R POMBAL",
+      "casa": "66",
+      "coordenadas": [
+        40.74277963764739,
+        -7.902091699850145
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5662268",
+      "rua": "R PRINCIPAL",
+      "casa": "371",
+      "coordenadas": [
+        40.74076564020587,
+        -7.89917434739314
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5665520",
+      "rua": "TV POCAS",
+      "casa": "26",
+      "coordenadas": [
+        40.7408992246506,
+        -7.898439837996271
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5666298",
+      "rua": "R FUSEIRO",
+      "casa": "",
+      "coordenadas": [
+        40.73965458196942,
+        -7.901936763312533
+      ]
+    }
+  ],
+  "ruas": [
+    "R PRINCIPAL",
+    "R FUSEIRO",
+    "R FONTE",
+    "R ESTRADA PRINCIPAL",
+    "R TANQUE",
+    "R POCAS",
+    "R POMBAL",
+    "TV POCAS"
+  ],
+  "centro": [
+    40.74119155229917,
+    -7.894623802780007
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.73891237163715,
+                -7.895470138111367
+              ],
+              [
+                40.73870031154221,
+                -7.893622530911034
+              ],
+              [
+                40.73861580430568,
+                -7.892219362434507
+              ],
+              [
+                40.73865884992756,
+                -7.891260632681788
+              ],
+              [
+                40.73882944840784,
+                -7.890746341652873
+              ],
+              [
+                40.739127599746524,
+                -7.890676489347764
+              ],
+              [
+                40.739553303943616,
+                -7.8910510757664625
+              ],
+              [
+                40.74010656099911,
+                -7.891870100908967
+              ],
+              [
+                40.74078737091302,
+                -7.893133564775279
+              ],
+              [
+                40.74159573368532,
+                -7.8948414673653975
+              ],
+              [
+                40.74227734227139,
+                -7.896355766091428
+              ],
+              [
+                40.742832196671216,
+                -7.897676460953369
+              ],
+              [
+                40.7432602968848,
+                -7.898803551951224
+              ],
+              [
+                40.743561642912134,
+                -7.899737039084991
+              ],
+              [
+                40.743736234753236,
+                -7.900476922354671
+              ],
+              [
+                40.74378407240809,
+                -7.901023201760264
+              ],
+              [
+                40.74370515587671,
+                -7.901375877301769
+              ],
+              [
+                40.74349948515908,
+                -7.901534948979185
+              ],
+              [
+                40.74327069428619,
+                -7.901671715813524
+              ],
+              [
+                40.74301878325804,
+                -7.901786177804788
+              ],
+              [
+                40.74274375207462,
+                -7.901878334952973
+              ],
+              [
+                40.74244560073592,
+                -7.90194818725808
+              ],
+              [
+                40.742124329241975,
+                -7.901995734720111
+              ],
+              [
+                40.74177993759275,
+                -7.902020977339064
+              ],
+              [
+                40.741412425788276,
+                -7.90202391511494
+              ],
+              [
+                40.74102179382853,
+                -7.9020045480477386
+              ],
+              [
+                40.740653483351885,
+                -7.901756650963896
+              ],
+              [
+                40.74030749435834,
+                -7.90128022386341
+              ],
+              [
+                40.7399838268479,
+                -7.9005752667462845
+              ],
+              [
+                40.739682480820555,
+                -7.8996417796125185
+              ],
+              [
+                40.739403456276314,
+                -7.8984797624621095
+              ],
+              [
+                40.73914675321518,
+                -7.8970892152950585
+              ],
+              [
+                40.73891237163715,
+                -7.895470138111367
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.74120433105379,
+    -7.898000873825839
+  ],
+  "centroDeMassa": [
+    40.74119155229917,
+    -7.894623802780007
+  ]
+}

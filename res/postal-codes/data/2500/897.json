@@ -1,1 +1,416 @@
-{"CP4":"2500","CP3":"897","Distrito":"Leiria","Concelho":"Caldas da Rainha","CP":"2500-897","Artéria":"Travessa 25 de Abril","Localidade":"Salir do Porto","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SALIR DO PORTO","locais":[{"id":"pt.ine.add.PTCONT.1982520","rua":"R ANGOLA","casa":"10","coordenadas":[39.49640231458771,-9.152944347794639]},{"id":"pt.ine.add.PTCONT.1994211","rua":"R ANGOLA","casa":"10","coordenadas":[39.49630457892182,-9.152791792929085]},{"id":"pt.ine.add.PTCONT.2000355","rua":"R ANGOLA","casa":"5","coordenadas":[39.49606931305282,-9.152916231250018]},{"id":"pt.ine.add.PTCONT.2012587","rua":"TV 25 DE ABRIL","casa":"1","coordenadas":[39.49637305446942,-9.153199673112733]},{"id":"pt.ine.add.PTCONT.2013233","rua":"R ANGOLA","casa":"3","coordenadas":[39.49574871326968,-9.153527672802836]},{"id":"pt.ine.add.PTCONT.2015467","rua":"TV 25 DE ABRIL","casa":"2A","coordenadas":[39.496246874752735,-9.153209453804061]},{"id":"pt.ine.add.PTCONT.2021122","rua":"R ANGOLA","casa":"12","coordenadas":[39.49646073123737,-9.152445320139739]},{"id":"pt.ine.add.PTCONT.2072816","rua":"R ANGOLA","casa":"1","coordenadas":[39.495801522258795,-9.153667945413115]},{"id":"pt.ine.add.PTCONT.2072817","rua":"R ANGOLA","casa":"1","coordenadas":[39.495801522258795,-9.153667945413115]},{"id":"pt.ine.add.PTCONT.2112978","rua":"R ANGOLA","casa":"14","coordenadas":[39.49648876697218,-9.15232947812457]},{"id":"pt.ine.add.PTCONT.2112979","rua":"R ANGOLA","casa":"14","coordenadas":[39.49648876697218,-9.15232947812457]},{"id":"pt.ine.add.PTCONT.2113017","rua":"R ANGOLA","casa":"14","coordenadas":[39.49648876697218,-9.15232947812457]},{"id":"pt.ine.add.PTCONT.2114229","rua":"R ANGOLA","casa":"4","coordenadas":[39.49602132798409,-9.153252657182552]},{"id":"pt.ine.add.PTCONT.2118531","rua":"TV 25 DE ABRIL","casa":"1","coordenadas":[39.49617503431065,-9.153185153477072]},{"id":"pt.ine.add.PTCONT.2133777","rua":"TV 25 DE ABRIL","casa":"19","coordenadas":[39.49655408335809,-9.153097692840626]},{"id":"pt.ine.add.PTCONT.2154388","rua":"R ANGOLA","casa":"3 A","coordenadas":[39.49568567440554,-9.153526751060836]},{"id":"pt.ine.add.PTCONT.2170893","rua":"R ANGOLA","casa":"16","coordenadas":[39.49651782143442,-9.15209739931794]},{"id":"pt.ine.add.PTCONT.2201982","rua":"R ANGOLA","casa":"7","coordenadas":[39.49601436205471,-9.153020053896537]},{"id":"pt.ine.add.PTCONT.2213151","rua":"TV 25 DE ABRIL","casa":"1T","coordenadas":[39.49644662858137,-9.153026371406773]},{"id":"pt.ine.add.PTCONT.2230915","rua":"TV 25 DE ABRIL","casa":"2","coordenadas":[39.496328434652725,-9.153152520384587]},{"id":"pt.ine.add.PTCONT.2241382","rua":"TV 25 DE ABRIL","casa":"21","coordenadas":[39.49649084053547,-9.153120018784184]},{"id":"pt.ine.add.PTCONT.2252408","rua":"R ANGOLA","casa":"8","coordenadas":[39.49622097990361,-9.153081199105168]},{"id":"pt.ine.add.PTCONT.2252409","rua":"R ANGOLA","casa":"8","coordenadas":[39.49622097990361,-9.153081199105168]},{"id":"pt.ine.add.PTCONT.2252410","rua":"R ANGOLA","casa":"6","coordenadas":[39.49614023585277,-9.153045143696934]},{"id":"pt.ine.add.PTCONT.2254348","rua":"R ANGOLA","casa":"7A","coordenadas":[39.49588624469768,-9.153250682537832]}],"ruas":["R ANGOLA","TV 25 DE ABRIL"],"centroide":[39.4962288053626,-9.153001874053812]}
+{
+  "CP": "2500-897",
+  "CP4": "2500",
+  "CP3": "897",
+  "Distrito": "Leiria",
+  "Concelho": "Caldas da Rainha",
+  "Localidade": "Salir do Porto",
+  "Designação Postal": "SALIR DO PORTO",
+  "partes": [
+    {
+      "Artéria": "Rua de Angola",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa 25 de Abril",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1982520",
+      "rua": "R ANGOLA",
+      "casa": "10",
+      "coordenadas": [
+        39.49640231458771,
+        -9.152944347794639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1994211",
+      "rua": "R ANGOLA",
+      "casa": "10",
+      "coordenadas": [
+        39.49630457892182,
+        -9.152791792929085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2000355",
+      "rua": "R ANGOLA",
+      "casa": "5",
+      "coordenadas": [
+        39.49606931305282,
+        -9.152916231250018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2012587",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "1",
+      "coordenadas": [
+        39.49637305446942,
+        -9.153199673112733
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2013233",
+      "rua": "R ANGOLA",
+      "casa": "3",
+      "coordenadas": [
+        39.49574871326968,
+        -9.153527672802836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2015467",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "2A",
+      "coordenadas": [
+        39.496246874752735,
+        -9.153209453804061
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2021122",
+      "rua": "R ANGOLA",
+      "casa": "12",
+      "coordenadas": [
+        39.49646073123737,
+        -9.152445320139739
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2072816",
+      "rua": "R ANGOLA",
+      "casa": "1",
+      "coordenadas": [
+        39.495801522258795,
+        -9.153667945413115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2072817",
+      "rua": "R ANGOLA",
+      "casa": "1",
+      "coordenadas": [
+        39.495801522258795,
+        -9.153667945413115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2112978",
+      "rua": "R ANGOLA",
+      "casa": "14",
+      "coordenadas": [
+        39.49648876697218,
+        -9.15232947812457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2112979",
+      "rua": "R ANGOLA",
+      "casa": "14",
+      "coordenadas": [
+        39.49648876697218,
+        -9.15232947812457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2113017",
+      "rua": "R ANGOLA",
+      "casa": "14",
+      "coordenadas": [
+        39.49648876697218,
+        -9.15232947812457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2114229",
+      "rua": "R ANGOLA",
+      "casa": "4",
+      "coordenadas": [
+        39.49602132798409,
+        -9.153252657182552
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2118531",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "1",
+      "coordenadas": [
+        39.49617503431065,
+        -9.153185153477072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2133777",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "19",
+      "coordenadas": [
+        39.49655408335809,
+        -9.153097692840626
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2154388",
+      "rua": "R ANGOLA",
+      "casa": "3 A",
+      "coordenadas": [
+        39.49568567440554,
+        -9.153526751060836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2170893",
+      "rua": "R ANGOLA",
+      "casa": "16",
+      "coordenadas": [
+        39.49651782143442,
+        -9.15209739931794
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2201982",
+      "rua": "R ANGOLA",
+      "casa": "7",
+      "coordenadas": [
+        39.49601436205471,
+        -9.153020053896537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2213151",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "1T",
+      "coordenadas": [
+        39.49644662858137,
+        -9.153026371406773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2230915",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "2",
+      "coordenadas": [
+        39.496328434652725,
+        -9.153152520384587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2241382",
+      "rua": "TV 25 DE ABRIL",
+      "casa": "21",
+      "coordenadas": [
+        39.49649084053547,
+        -9.153120018784184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2252408",
+      "rua": "R ANGOLA",
+      "casa": "8",
+      "coordenadas": [
+        39.49622097990361,
+        -9.153081199105168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2252409",
+      "rua": "R ANGOLA",
+      "casa": "8",
+      "coordenadas": [
+        39.49622097990361,
+        -9.153081199105168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2252410",
+      "rua": "R ANGOLA",
+      "casa": "6",
+      "coordenadas": [
+        39.49614023585277,
+        -9.153045143696934
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2254348",
+      "rua": "R ANGOLA",
+      "casa": "7A",
+      "coordenadas": [
+        39.49588624469768,
+        -9.153250682537832
+      ]
+    }
+  ],
+  "ruas": [
+    "R ANGOLA",
+    "TV 25 DE ABRIL"
+  ],
+  "centro": [
+    39.496119878881814,
+    -9.152882672365529
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.495750838823,
+                -9.153606172883993
+              ],
+              [
+                39.49573635784134,
+                -9.153588523589956
+              ],
+              [
+                39.49573668927972,
+                -9.153550746836693
+              ],
+              [
+                39.49575183313813,
+                -9.153492842624203
+              ],
+              [
+                39.49578178941657,
+                -9.153414810952484
+              ],
+              [
+                39.495826558115056,
+                -9.153316651821534
+              ],
+              [
+                39.49588613923356,
+                -9.153198365231356
+              ],
+              [
+                39.4959605327721,
+                -9.153059951181952
+              ],
+              [
+                39.496049738730676,
+                -9.152901409673317
+              ],
+              [
+                39.49615375710928,
+                -9.152722740705459
+              ],
+              [
+                39.49624533978312,
+                -9.15258203494487
+              ],
+              [
+                39.4963244867522,
+                -9.15247929239156
+              ],
+              [
+                39.496391198016504,
+                -9.152414513045521
+              ],
+              [
+                39.49644547357604,
+                -9.152387696906757
+              ],
+              [
+                39.496487313430805,
+                -9.152398843975268
+              ],
+              [
+                39.496516717580796,
+                -9.152447954251054
+              ],
+              [
+                39.49653368602603,
+                -9.152535027734114
+              ],
+              [
+                39.49653821876649,
+                -9.152660064424452
+              ],
+              [
+                39.49653042614722,
+                -9.152778381724941
+              ],
+              [
+                39.49651030816821,
+                -9.152889979635583
+              ],
+              [
+                39.496477864829465,
+                -9.15299485815638
+              ],
+              [
+                39.49643309613098,
+                -9.153093017287325
+              ],
+              [
+                39.496376002072765,
+                -9.153184457028427
+              ],
+              [
+                39.496306582654825,
+                -9.153269177379684
+              ],
+              [
+                39.49622483787715,
+                -9.153347178341091
+              ],
+              [
+                39.49613076773974,
+                -9.153418459912652
+              ],
+              [
+                39.496046646246796,
+                -9.153478625126013
+              ],
+              [
+                39.49597247339832,
+                -9.153527673981177
+              ],
+              [
+                39.495908249194315,
+                -9.15356560647814
+              ],
+              [
+                39.49585397363478,
+                -9.1535924226169
+              ],
+              [
+                39.495809646719714,
+                -9.153608122397463
+              ],
+              [
+                39.49577526844912,
+                -9.153612705819828
+              ],
+              [
+                39.495750838823,
+                -9.153606172883993
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.49613977536421,
+    -9.153097447158128
+  ],
+  "centroDeMassa": [
+    39.496119878881814,
+    -9.152882672365529
+  ]
+}

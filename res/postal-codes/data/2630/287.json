@@ -1,1 +1,522 @@
-{"CP4":"2630","CP3":"287","Distrito":"Lisboa","Concelho":"Arruda dos Vinhos","CP":"2630-287","Artéria":"Rua do Casal da Camela","Localidade":"Arruda dos Vinhos","Local":"Galinhatos","Troço":"","Porta":"","Cliente":"","Designação Postal":"ARRUDA DOS VINHOS","locais":[{"id":"pt.ine.add.PTCONT.2274315","rua":"R GALINHATOS","casa":"","coordenadas":[38.97767308236968,-9.068178776561416]},{"id":"pt.ine.add.PTCONT.2350085","rua":"R GALINHATOS","casa":"","coordenadas":[38.979037260240794,-9.06203430774322]},{"id":"pt.ine.add.PTCONT.2382725","rua":"R GALINHATOS","casa":"","coordenadas":[38.978824499940295,-9.061604545196333]},{"id":"pt.ine.add.PTCONT.2395878","rua":"R GALINHATOS","casa":"","coordenadas":[38.978221868954456,-9.060361897840616]},{"id":"pt.ine.add.PTCONT.2445740","rua":"R GALINHATOS","casa":"","coordenadas":[38.978678098533905,-9.061891134119678]},{"id":"pt.ine.add.PTCONT.2445741","rua":"R GALINHATOS","casa":"","coordenadas":[38.978678098533905,-9.061891134119678]},{"id":"pt.ine.add.PTCONT.2560938","rua":"R GALINHATOS","casa":"","coordenadas":[38.97803355423598,-9.064779237339751]},{"id":"pt.ine.add.PTCONT.2630805","rua":"R GALINHATOS","casa":"","coordenadas":[38.979107174814274,-9.060038781957829]},{"id":"pt.ine.add.PTCONT.2641108","rua":"R GALINHATOS","casa":"","coordenadas":[38.97823370057868,-9.065658897807896]},{"id":"pt.ine.add.PTCONT.2681380","rua":"R GALINHATOS","casa":"30","coordenadas":[38.97769368414968,-9.067855930960311]},{"id":"pt.ine.add.PTCONT.2764196","rua":"R GALINHATOS","casa":"","coordenadas":[38.97811472806954,-9.06250693118892]},{"id":"pt.ine.add.PTCONT.2817523","rua":"R GALINHATOS","casa":"","coordenadas":[38.97862341598513,-9.061971199932332]},{"id":"pt.ine.add.PTCONT.2817524","rua":"R GALINHATOS","casa":"","coordenadas":[38.97862341598513,-9.061971199932332]},{"id":"pt.ine.add.PTCONT.2829124","rua":"R GALINHATOS","casa":"","coordenadas":[38.978466904422824,-9.062396135237947]},{"id":"pt.ine.add.PTCONT.2908393","rua":"R GALINHATOS","casa":"","coordenadas":[38.978942503868694,-9.061490685584818]},{"id":"pt.ine.add.PTCONT.2908394","rua":"R GALINHATOS","casa":"","coordenadas":[38.978942503868694,-9.061490685584818]},{"id":"pt.ine.add.PTCONT.2981545","rua":"R GALINHATOS","casa":"","coordenadas":[38.97818691527715,-9.065877543322204]},{"id":"pt.ine.add.PTCONT.2981546","rua":"R GALINHATOS","casa":"","coordenadas":[38.97766984535096,-9.068582629556847]},{"id":"pt.ine.add.PTCONT.3008535","rua":"R GALINHATOS","casa":"","coordenadas":[38.97907098288583,-9.061192320685793]},{"id":"pt.ine.add.PTCONT.3183030","rua":"R GALINHATOS","casa":"28","coordenadas":[38.97767456168424,-9.067994158027584]},{"id":"pt.ine.add.PTCONT.3185711","rua":"R GALINHATOS","casa":"","coordenadas":[38.97804886418513,-9.066245009976802]},{"id":"pt.ine.add.PTCONT.3185712","rua":"R GALINHATOS","casa":"","coordenadas":[38.97804886418513,-9.066245009976802]},{"id":"pt.ine.add.PTCONT.3195214","rua":"R GALINHATOS","casa":"","coordenadas":[38.981043342378726,-9.062360573594274]},{"id":"pt.ine.add.PTCONT.3222253","rua":"R GALINHATOS","casa":"","coordenadas":[38.97731265823244,-9.064815949331958]},{"id":"pt.ine.add.PTCONT.3333252","rua":"R GALINHATOS","casa":"4","coordenadas":[38.979446047114834,-9.061601123093004]},{"id":"pt.ine.add.PTCONT.3351097","rua":"R GALINHATOS","casa":"","coordenadas":[38.97912043214271,-9.061769971942997]},{"id":"pt.ine.add.PTCONT.3351098","rua":"R GALINHATOS","casa":"16","coordenadas":[38.977874028329786,-9.063323118125888]},{"id":"pt.ine.add.PTCONT.3379102","rua":"R GALINHATOS","casa":"16 A","coordenadas":[38.97794718486405,-9.063185596286273]},{"id":"pt.ine.add.PTCONT.3412197","rua":"R GALINHATOS","casa":"","coordenadas":[38.97930373231298,-9.065892197121208]}],"ruas":["R GALINHATOS"],"centroide":[38.97847636504223,-9.063546945893867]}}
+{
+  "CP": "2630-287",
+  "CP4": "2630",
+  "CP3": "287",
+  "Distrito": "Lisboa",
+  "Concelho": "Arruda dos Vinhos",
+  "Localidade": "Arruda dos Vinhos",
+  "Designação Postal": "ARRUDA DOS VINHOS",
+  "partes": [
+    {
+      "Artéria": "Travessa dos Galinhatos",
+      "Local": "Galinhatos",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Galinhatos",
+      "Local": "Galinhatos",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Casal da Camela",
+      "Local": "Galinhatos",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2274315",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97767308236968,
+        -9.068178776561416
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2350085",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.979037260240794,
+        -9.06203430774322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2382725",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978824499940295,
+        -9.061604545196333
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2395878",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978221868954456,
+        -9.060361897840616
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2445740",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978678098533905,
+        -9.061891134119678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2445741",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978678098533905,
+        -9.061891134119678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2560938",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97803355423598,
+        -9.064779237339751
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2630805",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.979107174814274,
+        -9.060038781957829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2641108",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97823370057868,
+        -9.065658897807896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2681380",
+      "rua": "R GALINHATOS",
+      "casa": "30",
+      "coordenadas": [
+        38.97769368414968,
+        -9.067855930960311
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2764196",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97811472806954,
+        -9.06250693118892
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2817523",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97862341598513,
+        -9.061971199932332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2817524",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97862341598513,
+        -9.061971199932332
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2829124",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978466904422824,
+        -9.062396135237947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2908393",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978942503868694,
+        -9.061490685584818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2908394",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.978942503868694,
+        -9.061490685584818
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2981545",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97818691527715,
+        -9.065877543322204
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2981546",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97766984535096,
+        -9.068582629556847
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3008535",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97907098288583,
+        -9.061192320685793
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3183030",
+      "rua": "R GALINHATOS",
+      "casa": "28",
+      "coordenadas": [
+        38.97767456168424,
+        -9.067994158027584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3185711",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97804886418513,
+        -9.066245009976802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3185712",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97804886418513,
+        -9.066245009976802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3195214",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.981043342378726,
+        -9.062360573594274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3222253",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97731265823244,
+        -9.064815949331958
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3333252",
+      "rua": "R GALINHATOS",
+      "casa": "4",
+      "coordenadas": [
+        38.979446047114834,
+        -9.061601123093004
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3351097",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97912043214271,
+        -9.061769971942997
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3351098",
+      "rua": "R GALINHATOS",
+      "casa": "16",
+      "coordenadas": [
+        38.977874028329786,
+        -9.063323118125888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3379102",
+      "rua": "R GALINHATOS",
+      "casa": "16 A",
+      "coordenadas": [
+        38.97794718486405,
+        -9.063185596286273
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3412197",
+      "rua": "R GALINHATOS",
+      "casa": "",
+      "coordenadas": [
+        38.97930373231298,
+        -9.065892197121208
+      ]
+    }
+  ],
+  "ruas": [
+    "R GALINHATOS"
+  ],
+  "centro": [
+    38.97917800030558,
+    -9.064310705757338
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.97751357598661,
+                -9.06693470695846
+              ],
+              [
+                38.977468927596796,
+                -9.066463871930345
+              ],
+              [
+                38.977444066673236,
+                -9.065982296726197
+              ],
+              [
+                38.97743899321594,
+                -9.065489981346008
+              ],
+              [
+                38.977453707224896,
+                -9.064986925789784
+              ],
+              [
+                38.977488208700116,
+                -9.064473130057518
+              ],
+              [
+                38.97754249764159,
+                -9.063948594149217
+              ],
+              [
+                38.977616574049335,
+                -9.063413318064875
+              ],
+              [
+                38.97771043792333,
+                -9.062867301804495
+              ],
+              [
+                38.97782408926357,
+                -9.062310545368078
+              ],
+              [
+                38.97793736709035,
+                -9.061818334800545
+              ],
+              [
+                38.97805027140366,
+                -9.061390670101893
+              ],
+              [
+                38.9781628022035,
+                -9.061027551272128
+              ],
+              [
+                38.978274959489866,
+                -9.060728978311245
+              ],
+              [
+                38.97838674326276,
+                -9.060494951219244
+              ],
+              [
+                38.97849815352218,
+                -9.06032546999613
+              ],
+              [
+                38.97860919026813,
+                -9.060220534641896
+              ],
+              [
+                38.97871985350061,
+                -9.060180145156547
+              ],
+              [
+                38.97884693644722,
+                -9.060181082351185
+              ],
+              [
+                38.97899043910797,
+                -9.060223346225815
+              ],
+              [
+                38.97915036148285,
+                -9.06030693678043
+              ],
+              [
+                38.97932670357186,
+                -9.060431854015034
+              ],
+              [
+                38.97951946537501,
+                -9.060598097929626
+              ],
+              [
+                38.9797286468923,
+                -9.060805668524207
+              ],
+              [
+                38.97995424812372,
+                -9.061054565798774
+              ],
+              [
+                38.98019626906928,
+                -9.06134478975333
+              ],
+              [
+                38.98038085598937,
+                -9.061653917331174
+              ],
+              [
+                38.98050800888397,
+                -9.061981948532306
+              ],
+              [
+                38.980577727753115,
+                -9.062328883356729
+              ],
+              [
+                38.980590012596785,
+                -9.06269472180444
+              ],
+              [
+                38.98054486341498,
+                -9.063079463875441
+              ],
+              [
+                38.98044228020771,
+                -9.063483109569729
+              ],
+              [
+                38.98028226297496,
+                -9.063905658887307
+              ],
+              [
+                38.980064811716744,
+                -9.064347111828175
+              ],
+              [
+                38.97984901238202,
+                -9.06477542115824
+              ],
+              [
+                38.9796348649708,
+                -9.065190586877504
+              ],
+              [
+                38.97942236948306,
+                -9.065592608985966
+              ],
+              [
+                38.97921152591883,
+                -9.065981487483628
+              ],
+              [
+                38.979002334278086,
+                -9.066357222370486
+              ],
+              [
+                38.97879479456084,
+                -9.066719813646543
+              ],
+              [
+                38.9785889067671,
+                -9.0670692613118
+              ],
+              [
+                38.978384670896844,
+                -9.067405565366254
+              ],
+              [
+                38.97820038346164,
+                -9.067640977035389
+              ],
+              [
+                38.978036044461504,
+                -9.067775496319204
+              ],
+              [
+                38.977891653896414,
+                -9.067809123217696
+              ],
+              [
+                38.977767211766384,
+                -9.067741857730866
+              ],
+              [
+                38.97766271807141,
+                -9.067573699858718
+              ],
+              [
+                38.977578172811484,
+                -9.06730464960125
+              ],
+              [
+                38.97751357598661,
+                -9.06693470695846
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.978776437007305,
+    -9.06367533823379
+  ],
+  "centroDeMassa": [
+    38.97917800030558,
+    -9.064310705757338
+  ]
+}

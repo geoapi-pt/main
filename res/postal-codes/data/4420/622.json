@@ -1,1 +1,518 @@
-{"CP4":"4420","CP3":"622","Distrito":"Porto","Concelho":"Gondomar","CP":"4420-622","Artéria":"Rua dos Fundadores da Cooperativa","Localidade":"Gondomar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"GONDOMAR","locais":[{"id":"pt.ine.add.PTCONT.3560104","rua":"R FUNDADORES DA COOPERATIVA","casa":"135","coordenadas":[41.14849106219394,-8.556129356233622]},{"id":"pt.ine.add.PTCONT.3684098","rua":"R FUNDADORES DA COOPERATIVA","casa":"87","coordenadas":[41.14803246245776,-8.555959636784182]},{"id":"pt.ine.add.PTCONT.3741363","rua":"R FUNDADORES DA COOPERATIVA","casa":"93","coordenadas":[41.14808639994961,-8.555983807893124]},{"id":"pt.ine.add.PTCONT.3755203","rua":"R FUNDADORES DA COOPERATIVA","casa":"129","coordenadas":[41.14842820806218,-8.556081302841509]},{"id":"pt.ine.add.PTCONT.3816242","rua":"R FUNDADORES DA COOPERATIVA","casa":"75","coordenadas":[41.14791549585295,-8.555935060804035]},{"id":"pt.ine.add.PTCONT.3818246","rua":"R FUNDADORES DA COOPERATIVA","casa":"3","coordenadas":[41.1471420124038,-8.555691849494048]},{"id":"pt.ine.add.PTCONT.3841510","rua":"R FUNDADORES DA COOPERATIVA","casa":"141","coordenadas":[41.14855413503739,-8.556117849244252]},{"id":"pt.ine.add.PTCONT.3841511","rua":"R FUNDADORES DA COOPERATIVA","casa":"81","coordenadas":[41.14796952080202,-8.555935407870653]},{"id":"pt.ine.add.PTCONT.3882788","rua":"R FUNDADORES DA COOPERATIVA","casa":"33","coordenadas":[41.14743884374599,-8.555777140477138]},{"id":"pt.ine.add.PTCONT.3962001","rua":"R FUNDADORES DA COOPERATIVA","casa":"9","coordenadas":[41.14719594996281,-8.55571602005085]},{"id":"pt.ine.add.PTCONT.4044277","rua":"R FUNDADORES DA COOPERATIVA","casa":"51","coordenadas":[41.14760970421421,-8.555837798717558]},{"id":"pt.ine.add.PTCONT.4052063","rua":"R FUNDADORES DA COOPERATIVA","casa":"21","coordenadas":[41.14731291663215,-8.555740595362657]},{"id":"pt.ine.add.PTCONT.4057282","rua":"R FUNDADORES DA COOPERATIVA","casa":"39","coordenadas":[41.14749278128346,-8.555801311214742]},{"id":"pt.ine.add.PTCONT.4064350","rua":"R FUNDADORES DA COOPERATIVA","casa":"57","coordenadas":[41.14766368545246,-8.555850057634665]},{"id":"pt.ine.add.PTCONT.4162477","rua":"R FUNDADORES DA COOPERATIVA","casa":"105","coordenadas":[41.14820332280736,-8.556020296057648]},{"id":"pt.ine.add.PTCONT.4162478","rua":"R FUNDADORES DA COOPERATIVA","casa":"45","coordenadas":[41.14755572297407,-8.555825539820923]},{"id":"pt.ine.add.PTCONT.4175384","rua":"R FUNDADORES DA COOPERATIVA","casa":"123","coordenadas":[41.14836522269996,-8.556068985723648]},{"id":"pt.ine.add.PTCONT.4175386","rua":"R FUNDADORES DA COOPERATIVA","casa":"27","coordenadas":[41.14737585833813,-8.555764823843221]},{"id":"pt.ine.add.PTCONT.4182144","rua":"R FUNDADORES DA COOPERATIVA","casa":"99","coordenadas":[41.148140337435684,-8.556007979042018]},{"id":"pt.ine.add.PTCONT.4267046","rua":"R FUNDADORES DA COOPERATIVA","casa":"15","coordenadas":[41.14725893537823,-8.555728336602991]},{"id":"pt.ine.add.PTCONT.4346547","rua":"R FUNDADORES DA COOPERATIVA","casa":"63","coordenadas":[41.14772662713042,-8.555874286351667]},{"id":"pt.ine.add.PTCONT.4353949","rua":"R FUNDADORES DA COOPERATIVA","casa":"117","coordenadas":[41.1483202893869,-8.556044872300912]},{"id":"pt.ine.add.PTCONT.4366001","rua":"R FUNDADORES DA COOPERATIVA","casa":"111","coordenadas":[41.14825730401937,-8.55603255523895]}],"ruas":["R FUNDADORES DA COOPERATIVA"],"centroide":[41.14783088610006,-8.555904196107546]}
+{
+  "CP": "4420-622",
+  "CP4": "4420",
+  "CP3": "622",
+  "Distrito": "Porto",
+  "Concelho": "Gondomar",
+  "Localidade": "Gondomar",
+  "Designação Postal": "GONDOMAR",
+  "partes": [
+    {
+      "Artéria": "Rua dos Fundadores da Cooperativa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3560104",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "135",
+      "coordenadas": [
+        41.14849106219394,
+        -8.556129356233622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3684098",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "87",
+      "coordenadas": [
+        41.14803246245776,
+        -8.555959636784182
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3741363",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "93",
+      "coordenadas": [
+        41.14808639994961,
+        -8.555983807893124
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3755203",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "129",
+      "coordenadas": [
+        41.14842820806218,
+        -8.556081302841509
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3816242",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "75",
+      "coordenadas": [
+        41.14791549585295,
+        -8.555935060804035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3818246",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "3",
+      "coordenadas": [
+        41.1471420124038,
+        -8.555691849494048
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3841510",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "141",
+      "coordenadas": [
+        41.14855413503739,
+        -8.556117849244252
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3841511",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "81",
+      "coordenadas": [
+        41.14796952080202,
+        -8.555935407870653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3882788",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "33",
+      "coordenadas": [
+        41.14743884374599,
+        -8.555777140477138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3962001",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "9",
+      "coordenadas": [
+        41.14719594996281,
+        -8.55571602005085
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4044277",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "51",
+      "coordenadas": [
+        41.14760970421421,
+        -8.555837798717558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4052063",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "21",
+      "coordenadas": [
+        41.14731291663215,
+        -8.555740595362657
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4057282",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "39",
+      "coordenadas": [
+        41.14749278128346,
+        -8.555801311214742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4064350",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "57",
+      "coordenadas": [
+        41.14766368545246,
+        -8.555850057634665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4162477",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "105",
+      "coordenadas": [
+        41.14820332280736,
+        -8.556020296057648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4162478",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "45",
+      "coordenadas": [
+        41.14755572297407,
+        -8.555825539820923
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4175384",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "123",
+      "coordenadas": [
+        41.14836522269996,
+        -8.556068985723648
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4175386",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "27",
+      "coordenadas": [
+        41.14737585833813,
+        -8.555764823843221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4182144",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "99",
+      "coordenadas": [
+        41.148140337435684,
+        -8.556007979042018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4267046",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "15",
+      "coordenadas": [
+        41.14725893537823,
+        -8.555728336602991
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4346547",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "63",
+      "coordenadas": [
+        41.14772662713042,
+        -8.555874286351667
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4353949",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "117",
+      "coordenadas": [
+        41.1483202893869,
+        -8.556044872300912
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4366001",
+      "rua": "R FUNDADORES DA COOPERATIVA",
+      "casa": "111",
+      "coordenadas": [
+        41.14825730401937,
+        -8.55603255523895
+      ]
+    }
+  ],
+  "ruas": [
+    "R FUNDADORES DA COOPERATIVA"
+  ],
+  "centro": [
+    41.147848073720596,
+    -8.555910602863836
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.147172352280734,
+                -8.555705445432249
+              ],
+              [
+                41.147165610085864,
+                -8.55570242411265
+              ],
+              [
+                41.14716238104391,
+                -8.555700542112197
+              ],
+              [
+                41.14716266515489,
+                -8.55569979943089
+              ],
+              [
+                41.147166462418795,
+                -8.555700196068731
+              ],
+              [
+                41.147173772835636,
+                -8.55570173202572
+              ],
+              [
+                41.147184596405395,
+                -8.555704407301853
+              ],
+              [
+                41.14719893312809,
+                -8.555708221897135
+              ],
+              [
+                41.1472167830037,
+                -8.555713175811565
+              ],
+              [
+                41.14723814603225,
+                -8.55571926904514
+              ],
+              [
+                41.14725880629338,
+                -8.555725171641933
+              ],
+              [
+                41.14727876378709,
+                -8.555730883601942
+              ],
+              [
+                41.147298018513396,
+                -8.55573640492517
+              ],
+              [
+                41.14731657047228,
+                -8.555741735611612
+              ],
+              [
+                41.14733441966375,
+                -8.555746875661272
+              ],
+              [
+                41.147351566087806,
+                -8.55575182507415
+              ],
+              [
+                41.147368009744454,
+                -8.555756583850243
+              ],
+              [
+                41.147383750633686,
+                -8.555761151989552
+              ],
+              [
+                41.14740581574076,
+                -8.555767622039472
+              ],
+              [
+                41.147434205065686,
+                -8.555775994000003
+              ],
+              [
+                41.14746891860845,
+                -8.555786267871142
+              ],
+              [
+                41.14750995636907,
+                -8.555798443652892
+              ],
+              [
+                41.14755731834754,
+                -8.555812521345251
+              ],
+              [
+                41.14761100454385,
+                -8.55582850094822
+              ],
+              [
+                41.14767101495801,
+                -8.5558463824618
+              ],
+              [
+                41.14773734959,
+                -8.55586616588599
+              ],
+              [
+                41.14780087315215,
+                -8.555885186763877
+              ],
+              [
+                41.147861585644435,
+                -8.555903445095467
+              ],
+              [
+                41.14791948706686,
+                -8.555920940880753
+              ],
+              [
+                41.147974577419404,
+                -8.55593767411974
+              ],
+              [
+                41.1480268567021,
+                -8.555953644812424
+              ],
+              [
+                41.14807632491494,
+                -8.55596885295881
+              ],
+              [
+                41.14812298205791,
+                -8.55598329855889
+              ],
+              [
+                41.14816682813101,
+                -8.555996981612674
+              ],
+              [
+                41.14820884728327,
+                -8.556010094549473
+              ],
+              [
+                41.14824903951468,
+                -8.556022637369288
+              ],
+              [
+                41.14828740482524,
+                -8.556034610072123
+              ],
+              [
+                41.14832394321496,
+                -8.556046012657973
+              ],
+              [
+                41.14835865468382,
+                -8.55605684512684
+              ],
+              [
+                41.148391539231824,
+                -8.556067107478723
+              ],
+              [
+                41.148422596858985,
+                -8.556076799713622
+              ],
+              [
+                41.1484518275653,
+                -8.556085921831542
+              ],
+              [
+                41.14847641892014,
+                -8.556094083481428
+              ],
+              [
+                41.14849637092352,
+                -8.556101284663283
+              ],
+              [
+                41.14851168357542,
+                -8.556107525377108
+              ],
+              [
+                41.14852235687587,
+                -8.556112805622902
+              ],
+              [
+                41.14852839082484,
+                -8.556117125400666
+              ],
+              [
+                41.14852978542235,
+                -8.5561204847104
+              ],
+              [
+                41.148526540668385,
+                -8.556122883552103
+              ],
+              [
+                41.14851865656294,
+                -8.556124321925772
+              ],
+              [
+                41.14849152184208,
+                -8.55611912212488
+              ],
+              [
+                41.148445136505785,
+                -8.556107284149421
+              ],
+              [
+                41.14837950055406,
+                -8.556088807999398
+              ],
+              [
+                41.1482946139869,
+                -8.556063693674812
+              ],
+              [
+                41.1481904768043,
+                -8.55603194117566
+              ],
+              [
+                41.148067089006275,
+                -8.55599355050194
+              ],
+              [
+                41.14792445059282,
+                -8.555948521653658
+              ],
+              [
+                41.14776256156393,
+                -8.555896854630813
+              ],
+              [
+                41.147620065889285,
+                -8.555851268320872
+              ],
+              [
+                41.1474969635689,
+                -8.555811762723836
+              ],
+              [
+                41.14739325460276,
+                -8.555778337839708
+              ],
+              [
+                41.14730893899088,
+                -8.555750993668482
+              ],
+              [
+                41.14724401673325,
+                -8.555729730210166
+              ],
+              [
+                41.14719848782987,
+                -8.555714547464754
+              ],
+              [
+                41.147172352280734,
+                -8.555705445432249
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.147803091270625,
+    -8.555894136379267
+  ],
+  "centroDeMassa": [
+    41.147848073720596,
+    -8.555910602863836
+  ]
+}

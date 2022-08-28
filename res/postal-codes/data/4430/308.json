@@ -1,1 +1,402 @@
-{"CP4":"4430","CP3":"308","Distrito":"Porto","Concelho":"Vila Nova de Gaia","CP":"4430-308","Artéria":"Rua António Fernandes de Castro","Localidade":"Vila Nova de Gaia","Local":"Vilar de Andorinho","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA NOVA DE GAIA","locais":[{"id":"pt.ine.add.PTCONT.3627914","rua":"R ANTONIO FERNANDES CASTRO","casa":"135","coordenadas":[41.107765347905946,-8.577344487578662]},{"id":"pt.ine.add.PTCONT.3628515","rua":"R ANTONIO FERNANDES CASTRO","casa":"139","coordenadas":[41.107765347905946,-8.577344487578662]},{"id":"pt.ine.add.PTCONT.3647112","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"130","coordenadas":[41.107939958402376,-8.576428977306497]},{"id":"pt.ine.add.PTCONT.3647113","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"130","coordenadas":[41.107939958402376,-8.576428977306497]},{"id":"pt.ine.add.PTCONT.3712028","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"71","coordenadas":[41.10755291535252,-8.576390659184293]},{"id":"pt.ine.add.PTCONT.3738367","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"142","coordenadas":[41.107873444153945,-8.577333311123658]},{"id":"pt.ine.add.PTCONT.3785607","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"63","coordenadas":[41.10766243077762,-8.576010436431329]},{"id":"pt.ine.add.PTCONT.3806179","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"168","coordenadas":[41.10783779453453,-8.577237830780323]},{"id":"pt.ine.add.PTCONT.3854022","rua":"R ANTONIO FERNANDES CASTRO","casa":"158","coordenadas":[41.107766632662475,-8.577011156339568]},{"id":"pt.ine.add.PTCONT.3854023","rua":"R ANTONIO FERNANDES DE CASTRO","casa":"164","coordenadas":[41.107766632662475,-8.577011156339568]},{"id":"pt.ine.add.PTCONT.3899515","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"123","coordenadas":[41.10771214875571,-8.577129839264638]},{"id":"pt.ine.add.PTCONT.4110870","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"164","coordenadas":[41.10771352457687,-8.57677269892836]},{"id":"pt.ine.add.PTCONT.4110871","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"164","coordenadas":[41.10771352457687,-8.57677269892836]},{"id":"pt.ine.add.PTCONT.4201092","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"102","coordenadas":[41.1077606987898,-8.57621348168277]},{"id":"pt.ine.add.PTCONT.4264001","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"157","coordenadas":[41.10779171775239,-8.577511335320864]},{"id":"pt.ine.add.PTCONT.4317869","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"113","coordenadas":[41.107632028325455,-8.576891200081668]},{"id":"pt.ine.add.PTCONT.4317870","rua":"R ANTÓNIO FERNANDES DE CASTRO","casa":"113","coordenadas":[41.107632028325455,-8.576891200081668]}],"ruas":["R ANTONIO FERNANDES CASTRO","R ANTÓNIO FERNANDES DE CASTRO","R ANTONIO FERNANDES DE CASTRO"],"centroide":[41.10776213159608,-8.576864545885982]}
+{
+  "CP": "4430-308",
+  "CP4": "4430",
+  "CP3": "308",
+  "Distrito": "Porto",
+  "Concelho": "Vila Nova de Gaia",
+  "Localidade": "Vila Nova de Gaia",
+  "Designação Postal": "VILA NOVA DE GAIA",
+  "partes": [
+    {
+      "Artéria": "Rua António Fernandes de Castro",
+      "Local": "Vilar de Andorinho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3627914",
+      "rua": "R ANTONIO FERNANDES CASTRO",
+      "casa": "135",
+      "coordenadas": [
+        41.107765347905946,
+        -8.577344487578662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3628515",
+      "rua": "R ANTONIO FERNANDES CASTRO",
+      "casa": "139",
+      "coordenadas": [
+        41.107765347905946,
+        -8.577344487578662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3647112",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "130",
+      "coordenadas": [
+        41.107939958402376,
+        -8.576428977306497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3647113",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "130",
+      "coordenadas": [
+        41.107939958402376,
+        -8.576428977306497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3712028",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "71",
+      "coordenadas": [
+        41.10755291535252,
+        -8.576390659184293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3738367",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "142",
+      "coordenadas": [
+        41.107873444153945,
+        -8.577333311123658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3785607",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "63",
+      "coordenadas": [
+        41.10766243077762,
+        -8.576010436431329
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3806179",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "168",
+      "coordenadas": [
+        41.10783779453453,
+        -8.577237830780323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854022",
+      "rua": "R ANTONIO FERNANDES CASTRO",
+      "casa": "158",
+      "coordenadas": [
+        41.107766632662475,
+        -8.577011156339568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3854023",
+      "rua": "R ANTONIO FERNANDES DE CASTRO",
+      "casa": "164",
+      "coordenadas": [
+        41.107766632662475,
+        -8.577011156339568
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3899515",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "123",
+      "coordenadas": [
+        41.10771214875571,
+        -8.577129839264638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4110870",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "164",
+      "coordenadas": [
+        41.10771352457687,
+        -8.57677269892836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4110871",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "164",
+      "coordenadas": [
+        41.10771352457687,
+        -8.57677269892836
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4201092",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "102",
+      "coordenadas": [
+        41.1077606987898,
+        -8.57621348168277
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4264001",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "157",
+      "coordenadas": [
+        41.10779171775239,
+        -8.577511335320864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4317869",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "113",
+      "coordenadas": [
+        41.107632028325455,
+        -8.576891200081668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4317870",
+      "rua": "R ANTÓNIO FERNANDES DE CASTRO",
+      "casa": "113",
+      "coordenadas": [
+        41.107632028325455,
+        -8.576891200081668
+      ]
+    }
+  ],
+  "ruas": [
+    "R ANTONIO FERNANDES CASTRO",
+    "R ANTÓNIO FERNANDES DE CASTRO",
+    "R ANTONIO FERNANDES DE CASTRO"
+  ],
+  "centro": [
+    41.10774643687745,
+    -8.576760885876096
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.1075974163998,
+                -8.576672213439066
+              ],
+              [
+                41.10758752727818,
+                -8.576609645826895
+              ],
+              [
+                41.10758058547528,
+                -8.576548958185729
+              ],
+              [
+                41.1075765909911,
+                -8.576490150515571
+              ],
+              [
+                41.10757554382565,
+                -8.57643322281642
+              ],
+              [
+                41.107577443978904,
+                -8.576378175088273
+              ],
+              [
+                41.10758229145088,
+                -8.576325007331132
+              ],
+              [
+                41.107590086241586,
+                -8.576273719545
+              ],
+              [
+                41.107600828351,
+                -8.576224311729872
+              ],
+              [
+                41.10761451777914,
+                -8.576176783885751
+              ],
+              [
+                41.1076308323979,
+                -8.57614173672332
+              ],
+              [
+                41.107649772207274,
+                -8.576119170242578
+              ],
+              [
+                41.10767133720727,
+                -8.576109084443527
+              ],
+              [
+                41.10769552739789,
+                -8.576111479326164
+              ],
+              [
+                41.10772234277912,
+                -8.57612635489049
+              ],
+              [
+                41.10775178335098,
+                -8.57615371113651
+              ],
+              [
+                41.10778384911345,
+                -8.576193548064214
+              ],
+              [
+                41.107818540066546,
+                -8.576245865673611
+              ],
+              [
+                41.10784785536538,
+                -8.576305773797726
+              ],
+              [
+                41.10787179500993,
+                -8.576373272436559
+              ],
+              [
+                41.10789035900022,
+                -8.576448361590112
+              ],
+              [
+                41.107903547336235,
+                -8.576531041258383
+              ],
+              [
+                41.107911360017994,
+                -8.576621311441372
+              ],
+              [
+                41.10791379704547,
+                -8.576719172139079
+              ],
+              [
+                41.10791085841869,
+                -8.576824623351506
+              ],
+              [
+                41.10790254413763,
+                -8.576937665078649
+              ],
+              [
+                41.10789399216669,
+                -8.577039358217984
+              ],
+              [
+                41.10788520250585,
+                -8.577129702769504
+              ],
+              [
+                41.10787617515512,
+                -8.577208698733214
+              ],
+              [
+                41.107866910114495,
+                -8.577276346109112
+              ],
+              [
+                41.10785740738398,
+                -8.577332644897199
+              ],
+              [
+                41.10784766696357,
+                -8.577377595097472
+              ],
+              [
+                41.107837688853266,
+                -8.577411196709935
+              ],
+              [
+                41.10782747305308,
+                -8.577433449734587
+              ],
+              [
+                41.10781603908061,
+                -8.577443231518043
+              ],
+              [
+                41.10780338693587,
+                -8.577440542060307
+              ],
+              [
+                41.107789516618865,
+                -8.577425381361376
+              ],
+              [
+                41.107774428129574,
+                -8.577397749421252
+              ],
+              [
+                41.107758121468024,
+                -8.577357646239934
+              ],
+              [
+                41.1077405966342,
+                -8.57730507181742
+              ],
+              [
+                41.10772185362811,
+                -8.577240026153715
+              ],
+              [
+                41.10770189244974,
+                -8.577162509248817
+              ],
+              [
+                41.107683190278465,
+                -8.577086861005508
+              ],
+              [
+                41.10766574711428,
+                -8.577013081423791
+              ],
+              [
+                41.1076495629572,
+                -8.576941170503664
+              ],
+              [
+                41.10763463780721,
+                -8.576871128245127
+              ],
+              [
+                41.10762097166431,
+                -8.576802954648183
+              ],
+              [
+                41.107608564528505,
+                -8.576736649712828
+              ],
+              [
+                41.1075974163998,
+                -8.576672213439066
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.10774208246071,
+    -8.576760986574717
+  ],
+  "centroDeMassa": [
+    41.10774643687745,
+    -8.576760885876096
+  ]
+}

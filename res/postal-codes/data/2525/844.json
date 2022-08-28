@@ -1,1 +1,312 @@
-{"CP4":"2525","CP3":"844","Distrito":"Leiria","Concelho":"Peniche","CP":"2525-844","Artéria":"Rua Francisco Xavier Carvalho","Localidade":"Serra D'El Rei","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SERRA D'EL REI","locais":[{"id":"pt.ine.add.PTCONT.2003423","rua":"R FRANCISCO XAVIER CARVALHO","casa":"21","coordenadas":[39.32973322464947,-9.271224931986564]},{"id":"pt.ine.add.PTCONT.2014324","rua":"R FRANCISCO XAVIER CARVALHO","casa":"20","coordenadas":[39.32985896092161,-9.27126176271671]},{"id":"pt.ine.add.PTCONT.2028196","rua":"R FRANCISCO XAVIER CARVALHO","casa":"3","coordenadas":[39.32954241486114,-9.269551818587871]},{"id":"pt.ine.add.PTCONT.2088776","rua":"R FRANCISCO XAVIER CARVALHO","casa":"7","coordenadas":[39.32960834295201,-9.270179143947345]},{"id":"pt.ine.add.PTCONT.2115179","rua":"R FRANCISCO XAVIER CARVALHO","casa":"14","coordenadas":[39.32980934956783,-9.270808659604658]},{"id":"pt.ine.add.PTCONT.2134695","rua":"R FRANCISCO XAVIER CARVALHO","casa":"10","coordenadas":[39.32976579566956,-9.270657187584224]},{"id":"pt.ine.add.PTCONT.2137039","rua":"R FRANCISCO XAVIER CARVALHO","casa":"16","coordenadas":[39.329507411938884,-9.269446875745386]},{"id":"pt.ine.add.PTCONT.2176193","rua":"R FRANCISCO XAVIER CARVALHO","casa":"3A","coordenadas":[39.32955884058408,-9.269714447590035]},{"id":"pt.ine.add.PTCONT.2211989","rua":"R FRANCISCO XAVIER CARVALHO","casa":"15 A","coordenadas":[39.32972637335516,-9.27100447049241]},{"id":"pt.ine.add.PTCONT.2216355","rua":"R FRANCISCO XAVIER CARVALHO","casa":"15","coordenadas":[39.3297189549071,-9.27084198679386]}],"ruas":["R FRANCISCO XAVIER CARVALHO"],"centroide":[39.329678968277754,-9.270427699806133]}
+{
+  "CP": "2525-844",
+  "CP4": "2525",
+  "CP3": "844",
+  "Distrito": "Leiria",
+  "Concelho": "Peniche",
+  "Localidade": "Serra D'El Rei",
+  "Designação Postal": "SERRA D'EL REI",
+  "partes": [
+    {
+      "Artéria": "Travessa dos Namorados",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Francisco Xavier Carvalho",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2003423",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "21",
+      "coordenadas": [
+        39.32973322464947,
+        -9.271224931986564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2014324",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "20",
+      "coordenadas": [
+        39.32985896092161,
+        -9.27126176271671
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2028196",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "3",
+      "coordenadas": [
+        39.32954241486114,
+        -9.269551818587871
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2088776",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "7",
+      "coordenadas": [
+        39.32960834295201,
+        -9.270179143947345
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2115179",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "14",
+      "coordenadas": [
+        39.32980934956783,
+        -9.270808659604658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2134695",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "10",
+      "coordenadas": [
+        39.32976579566956,
+        -9.270657187584224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2137039",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "16",
+      "coordenadas": [
+        39.329507411938884,
+        -9.269446875745386
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2176193",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "3A",
+      "coordenadas": [
+        39.32955884058408,
+        -9.269714447590035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2211989",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "15 A",
+      "coordenadas": [
+        39.32972637335516,
+        -9.27100447049241
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2216355",
+      "rua": "R FRANCISCO XAVIER CARVALHO",
+      "casa": "15",
+      "coordenadas": [
+        39.3297189549071,
+        -9.27084198679386
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO XAVIER CARVALHO"
+  ],
+  "centro": [
+    39.329683186430245,
+    -9.270354319231048
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.32963443158859,
+                -9.27044703238105
+              ],
+              [
+                39.32960620499976,
+                -9.2702247753509
+              ],
+              [
+                39.3295820536552,
+                -9.270031940181436
+              ],
+              [
+                39.3295619775549,
+                -9.269868526872653
+              ],
+              [
+                39.32954597669887,
+                -9.269734535424552
+              ],
+              [
+                39.32953405108711,
+                -9.269629965837135
+              ],
+              [
+                39.3295262007196,
+                -9.269554818110398
+              ],
+              [
+                39.32952242559635,
+                -9.269509092244343
+              ],
+              [
+                39.32952272571737,
+                -9.269492788238972
+              ],
+              [
+                39.329527101082654,
+                -9.269505906094285
+              ],
+              [
+                39.32953510038207,
+                -9.269537022358568
+              ],
+              [
+                39.32954672361561,
+                -9.269586137031826
+              ],
+              [
+                39.32956197078329,
+                -9.269653250114057
+              ],
+              [
+                39.3295808418851,
+                -9.26973836160526
+              ],
+              [
+                39.32960333692104,
+                -9.269841471505437
+              ],
+              [
+                39.329629455891116,
+                -9.269962579814589
+              ],
+              [
+                39.32965919879532,
+                -9.270101686532715
+              ],
+              [
+                39.32969256563366,
+                -9.270258791659813
+              ],
+              [
+                39.329722536794606,
+                -9.270403338382152
+              ],
+              [
+                39.329749112278165,
+                -9.270535326699726
+              ],
+              [
+                39.32977229208433,
+                -9.27065475661254
+              ],
+              [
+                39.32979207621311,
+                -9.270761628120592
+              ],
+              [
+                39.329808464664495,
+                -9.270855941223882
+              ],
+              [
+                39.3298214574385,
+                -9.270937695922413
+              ],
+              [
+                39.32983105453511,
+                -9.27100689221618
+              ],
+              [
+                39.32983725595433,
+                -9.271063530105186
+              ],
+              [
+                39.3298407175669,
+                -9.271112512777908
+              ],
+              [
+                39.329841439372814,
+                -9.271153840234348
+              ],
+              [
+                39.32983942137207,
+                -9.271187512474501
+              ],
+              [
+                39.329834663564675,
+                -9.271213529498368
+              ],
+              [
+                39.32982716595062,
+                -9.271231891305954
+              ],
+              [
+                39.329816928529915,
+                -9.271242597897254
+              ],
+              [
+                39.32980395130255,
+                -9.27124564927227
+              ],
+              [
+                39.329788234268534,
+                -9.271241045431005
+              ],
+              [
+                39.32977095354016,
+                -9.271209234941125
+              ],
+              [
+                39.32975210911745,
+                -9.271150217802639
+              ],
+              [
+                39.32973170100038,
+                -9.27106399401554
+              ],
+              [
+                39.329709729188956,
+                -9.270950563579833
+              ],
+              [
+                39.32968619368319,
+                -9.270809926495515
+              ],
+              [
+                39.32966109448306,
+                -9.270642082762587
+              ],
+              [
+                39.32963443158859,
+                -9.27044703238105
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.32969027238779,
+    -9.270458809728238
+  ],
+  "centroDeMassa": [
+    39.329683186430245,
+    -9.270354319231048
+  ]
+}

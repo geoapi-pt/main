@@ -1,1 +1,371 @@
-{"CP4":"5210","CP3":"185","Distrito":"Bragança","Concelho":"Miranda do Douro","CP":"5210-185","Artéria":"Largo da Terronha","Localidade":"Miranda do Douro","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MIRANDA DO DOURO","locais":[{"id":"pt.ine.add.PTCONT.851344","rua":"R DO CABEÇO DO FORTE","casa":"","coordenadas":[41.49920238010918,-6.270595340338557]},{"id":"pt.ine.add.PTCONT.855758","rua":"R VALENTIM GUERRA","casa":"5","coordenadas":[41.49919598059895,-6.270200326777486]},{"id":"pt.ine.add.PTCONT.870452","rua":"LG DA TERRONHA","casa":"142","coordenadas":[41.50006404247758,-6.269876045972977]},{"id":"pt.ine.add.PTCONT.870453","rua":"LG DA TERRONHA","casa":"142","coordenadas":[41.50006404247758,-6.269876045972977]},{"id":"pt.ine.add.PTCONT.874103","rua":"R VALENTIM GUERRA","casa":"2","coordenadas":[41.499034772856454,-6.270252850623646]},{"id":"pt.ine.add.PTCONT.884198","rua":"R VALENTIM GUERRA","casa":"6","coordenadas":[41.49917953395152,-6.270296603553393]},{"id":"pt.ine.add.PTCONT.885950","rua":"LG DA ESCOLA","casa":"141","coordenadas":[41.50008553211781,-6.270090994739785]},{"id":"pt.ine.add.PTCONT.886566","rua":"R VALENTIM GUERRA","casa":"4","coordenadas":[41.49919520480857,-6.270152446354518]},{"id":"pt.ine.add.PTCONT.893486","rua":"LG DA TERRONHA","casa":"153","coordenadas":[41.500104227638644,-6.270689250421966]},{"id":"pt.ine.add.PTCONT.894511","rua":"R DO CABEÇO DO FORTE","casa":"10","coordenadas":[41.49941597683634,-6.272110133283658]},{"id":"pt.ine.add.PTCONT.920015","rua":"R VALENTIM GUERRA","casa":"1","coordenadas":[41.499042220388176,-6.270156832034091]},{"id":"pt.ine.add.PTCONT.920016","rua":"R VALENTIM GUERRA","casa":"3","coordenadas":[41.49901832615939,-6.270349127147474]},{"id":"pt.ine.add.PTCONT.939377","rua":"LG DA TERRONHA","casa":"","coordenadas":[41.50027734305761,-6.270816023390611]},{"id":"pt.ine.add.PTCONT.944211","rua":"R VALENTIM GUERRA","casa":"8","coordenadas":[41.499341905334084,-6.270315900484537]},{"id":"pt.ine.add.PTCONT.944212","rua":"R VALENTIM GUERRA","casa":"7","coordenadas":[41.49916289329685,-6.270380910182184]},{"id":"pt.ine.add.PTCONT.945867","rua":"R VALENTIM GUERRA","casa":"9","coordenadas":[41.49931704127443,-6.270448345788996]},{"id":"pt.ine.add.PTCONT.948819","rua":"LG DA ESCOLA","casa":"140","coordenadas":[41.50007827862375,-6.270198985149595]}],"ruas":["R DO CABEÇO DO FORTE","R VALENTIM GUERRA","LG DA TERRONHA","LG DA ESCOLA"],"centroide":[41.49948133896145,-6.270412948566678]}
+{
+  "CP": "5210-185",
+  "CP4": "5210",
+  "CP3": "185",
+  "Distrito": "Bragança",
+  "Concelho": "Miranda do Douro",
+  "Localidade": "Miranda do Douro",
+  "Designação Postal": "MIRANDA DO DOURO",
+  "partes": [
+    {
+      "Artéria": "Largo da Terronha",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.851344",
+      "rua": "R DO CABEÇO DO FORTE",
+      "casa": "",
+      "coordenadas": [
+        41.49920238010918,
+        -6.270595340338557
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.855758",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "5",
+      "coordenadas": [
+        41.49919598059895,
+        -6.270200326777486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.870452",
+      "rua": "LG DA TERRONHA",
+      "casa": "142",
+      "coordenadas": [
+        41.50006404247758,
+        -6.269876045972977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.870453",
+      "rua": "LG DA TERRONHA",
+      "casa": "142",
+      "coordenadas": [
+        41.50006404247758,
+        -6.269876045972977
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.874103",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "2",
+      "coordenadas": [
+        41.499034772856454,
+        -6.270252850623646
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.884198",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "6",
+      "coordenadas": [
+        41.49917953395152,
+        -6.270296603553393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.885950",
+      "rua": "LG DA ESCOLA",
+      "casa": "141",
+      "coordenadas": [
+        41.50008553211781,
+        -6.270090994739785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.886566",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "4",
+      "coordenadas": [
+        41.49919520480857,
+        -6.270152446354518
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.893486",
+      "rua": "LG DA TERRONHA",
+      "casa": "153",
+      "coordenadas": [
+        41.500104227638644,
+        -6.270689250421966
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.894511",
+      "rua": "R DO CABEÇO DO FORTE",
+      "casa": "10",
+      "coordenadas": [
+        41.49941597683634,
+        -6.272110133283658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.920015",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "1",
+      "coordenadas": [
+        41.499042220388176,
+        -6.270156832034091
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.920016",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "3",
+      "coordenadas": [
+        41.49901832615939,
+        -6.270349127147474
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.939377",
+      "rua": "LG DA TERRONHA",
+      "casa": "",
+      "coordenadas": [
+        41.50027734305761,
+        -6.270816023390611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.944211",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "8",
+      "coordenadas": [
+        41.499341905334084,
+        -6.270315900484537
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.944212",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "7",
+      "coordenadas": [
+        41.49916289329685,
+        -6.270380910182184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.945867",
+      "rua": "R VALENTIM GUERRA",
+      "casa": "9",
+      "coordenadas": [
+        41.49931704127443,
+        -6.270448345788996
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.948819",
+      "rua": "LG DA ESCOLA",
+      "casa": "140",
+      "coordenadas": [
+        41.50007827862375,
+        -6.270198985149595
+      ]
+    }
+  ],
+  "ruas": [
+    "R DO CABEÇO DO FORTE",
+    "R VALENTIM GUERRA",
+    "LG DA TERRONHA",
+    "LG DA ESCOLA"
+  ],
+  "centro": [
+    41.499647834608496,
+    -6.270993089628318
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.49924200466517,
+                -6.271339693099078
+              ],
+              [
+                41.49919229833055,
+                -6.271119567332055
+              ],
+              [
+                41.49914917863508,
+                -6.270923952674762
+              ],
+              [
+                41.49911264557877,
+                -6.270752849127202
+              ],
+              [
+                41.499082699161605,
+                -6.270606256689373
+              ],
+              [
+                41.4990593393836,
+                -6.2704841753612754
+              ],
+              [
+                41.49904256624474,
+                -6.2703866051429085
+              ],
+              [
+                41.49903237974503,
+                -6.270313546034273
+              ],
+              [
+                41.49902877988448,
+                -6.270264998035369
+              ],
+              [
+                41.49903176666308,
+                -6.270240961146196
+              ],
+              [
+                41.49905034606451,
+                -6.270215541585965
+              ],
+              [
+                41.49908451808875,
+                -6.270188739354675
+              ],
+              [
+                41.49913428273581,
+                -6.270160554452327
+              ],
+              [
+                41.4991996400057,
+                -6.270130986878922
+              ],
+              [
+                41.499280589898405,
+                -6.2701000366344575
+              ],
+              [
+                41.49937713241394,
+                -6.270067703718935
+              ],
+              [
+                41.49948926755229,
+                -6.2700339881323535
+              ],
+              [
+                41.49961699531346,
+                -6.2699988898747145
+              ],
+              [
+                41.499732089926056,
+                -6.26998286604643
+              ],
+              [
+                41.49983455139006,
+                -6.269985916647501
+              ],
+              [
+                41.49992437970548,
+                -6.2700080416779285
+              ],
+              [
+                41.50000157487233,
+                -6.270049241137713
+              ],
+              [
+                41.50006613689058,
+                -6.27010951502685
+              ],
+              [
+                41.50011806576026,
+                -6.270188863345343
+              ],
+              [
+                41.50015736148135,
+                -6.2702872860931915
+              ],
+              [
+                41.500184024053844,
+                -6.270404783270396
+              ],
+              [
+                41.500193894957576,
+                -6.270527813767529
+              ],
+              [
+                41.500186974192545,
+                -6.27065637758459
+              ],
+              [
+                41.50016326175874,
+                -6.270790474721579
+              ],
+              [
+                41.50012275765616,
+                -6.270930105178497
+              ],
+              [
+                41.500065461884816,
+                -6.271075268955342
+              ],
+              [
+                41.49999137444469,
+                -6.271225966052118
+              ],
+              [
+                41.49990049533581,
+                -6.27138219646882
+              ],
+              [
+                41.49979282455814,
+                -6.27154396020545
+              ],
+              [
+                41.49969239933587,
+                -6.271657987754124
+              ],
+              [
+                41.499599219668966,
+                -6.271724279114842
+              ],
+              [
+                41.49951328555745,
+                -6.271742834287603
+              ],
+              [
+                41.49943459700131,
+                -6.271713653272407
+              ],
+              [
+                41.49936315400055,
+                -6.271636736069254
+              ],
+              [
+                41.49929895655517,
+                -6.271512082678145
+              ],
+              [
+                41.49924200466517,
+                -6.271339693099078
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.49956358178382,
+    -6.270661632365763
+  ],
+  "centroDeMassa": [
+    41.499647834608496,
+    -6.270993089628318
+  ]
+}

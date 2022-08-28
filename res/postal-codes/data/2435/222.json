@@ -1,1 +1,412 @@
-{"CP4":"2435","CP3":"222","Distrito":"Santarém","Concelho":"Ourém","CP":"2435-222","Artéria":"Rua do Casal","Localidade":"Abades","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FREIXIANDA","locais":[{"id":"pt.ine.add.PTCONT.4401058","rua":"R LARANJEIRO","casa":"2","coordenadas":[39.76515942981333,-8.469593646919071]},{"id":"pt.ine.add.PTCONT.4433987","rua":"R AFONSO MELO ADMINISTRADOR","casa":"10","coordenadas":[39.763874586945036,-8.4685253948442]},{"id":"pt.ine.add.PTCONT.4466894","rua":"R AFONSO MELO ADMINISTRADOR","casa":"15","coordenadas":[39.76486380713099,-8.469043695572722]},{"id":"pt.ine.add.PTCONT.4467817","rua":"R AFONSO MELO ADMINISTRADOR","casa":"25","coordenadas":[39.76574660413141,-8.468989632610654]},{"id":"pt.ine.add.PTCONT.4470657","rua":"R AFONSO MELO ADMINISTRADOR","casa":"5","coordenadas":[39.764252215257294,-8.468748964185458]},{"id":"pt.ine.add.PTCONT.4475380","rua":"R AFONSO MELO ADMINISTRADOR","casa":"12","coordenadas":[39.76507247335944,-8.46851953660809]},{"id":"pt.ine.add.PTCONT.4476333","rua":"R AFONSO MELO ADMINISTRADOR","casa":"13","coordenadas":[39.76480126878553,-8.468868334676879]},{"id":"pt.ine.add.PTCONT.4484002","rua":"R AFONSO MELO ADMINISTRADOR","casa":"8","coordenadas":[39.76390248262132,-8.468222102031154]},{"id":"pt.ine.add.PTCONT.4496644","rua":"R AFONSO MELO ADMINISTRADOR","casa":"11","coordenadas":[39.764738662687016,-8.468716314679279]},{"id":"pt.ine.add.PTCONT.4502614","rua":"R AFONSO MELO ADMINISTRADOR","casa":"7","coordenadas":[39.764468234126134,-8.468796694656879]},{"id":"pt.ine.add.PTCONT.4521010","rua":"R AFONSO MELO ADMINISTRADOR","casa":"1","coordenadas":[39.76354941136549,-8.46885058423595]},{"id":"pt.ine.add.PTCONT.4521363","rua":"R AFONSO MELO ADMINISTRADOR","casa":"17","coordenadas":[39.765197888370174,-8.468753555785618]},{"id":"pt.ine.add.PTCONT.4529345","rua":"R AFONSO MELO ADMINISTRADOR","casa":"16","coordenadas":[39.76556762353027,-8.468591962718907]},{"id":"pt.ine.add.PTCONT.4531215","rua":"R AFONSO MELO ADMINISTRADOR","casa":"33","coordenadas":[39.76704102436337,-8.469859564831351]},{"id":"pt.ine.add.PTCONT.4531217","rua":"R AFONSO MELO ADMINISTRADOR","casa":"14","coordenadas":[39.76521654219654,-8.468531906180674]},{"id":"pt.ine.add.PTCONT.4543470","rua":"R AFONSO MELO ADMINISTRADOR","casa":"21","coordenadas":[39.765611811900996,-8.468883942235603]},{"id":"pt.ine.add.PTCONT.4582931","rua":"R AFONSO MELO ADMINISTRADOR","casa":"27","coordenadas":[39.766142345587724,-8.469178286609337]},{"id":"pt.ine.add.PTCONT.4606521","rua":"R AFONSO MELO ADMINISTRADOR","casa":"6","coordenadas":[39.76373034944265,-8.468571376150942]},{"id":"pt.ine.add.PTCONT.4639102","rua":"R AFONSO MELO ADMINISTRADOR","casa":"29","coordenadas":[39.76648371009041,-8.469483385756801]},{"id":"pt.ine.add.PTCONT.4642339","rua":"R AFONSO MELO ADMINISTRADOR","casa":"9","coordenadas":[39.76457610852184,-8.468867241060611]},{"id":"pt.ine.add.PTCONT.4655867","rua":"R AFONSO MELO ADMINISTRADOR","casa":"31","coordenadas":[39.76757148760408,-8.470177264374762]}],"ruas":["R LARANJEIRO","R AFONSO MELO ADMINISTRADOR"],"centroide":[39.764999829011344,-8.46887980611751]}.46887980611751]}
+{
+  "CP": "2435-222",
+  "CP4": "2435",
+  "CP3": "222",
+  "Distrito": "Santarém",
+  "Concelho": "Ourém",
+  "Localidade": "Abades",
+  "Designação Postal": "FREIXIANDA",
+  "partes": [
+    {
+      "Artéria": "Rua Afonso Melo Administrador",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Casal",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4401058",
+      "rua": "R LARANJEIRO",
+      "casa": "2",
+      "coordenadas": [
+        39.76515942981333,
+        -8.469593646919071
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4433987",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "10",
+      "coordenadas": [
+        39.763874586945036,
+        -8.4685253948442
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4466894",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "15",
+      "coordenadas": [
+        39.76486380713099,
+        -8.469043695572722
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4467817",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "25",
+      "coordenadas": [
+        39.76574660413141,
+        -8.468989632610654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4470657",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "5",
+      "coordenadas": [
+        39.764252215257294,
+        -8.468748964185458
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4475380",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "12",
+      "coordenadas": [
+        39.76507247335944,
+        -8.46851953660809
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4476333",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "13",
+      "coordenadas": [
+        39.76480126878553,
+        -8.468868334676879
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4484002",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "8",
+      "coordenadas": [
+        39.76390248262132,
+        -8.468222102031154
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4496644",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "11",
+      "coordenadas": [
+        39.764738662687016,
+        -8.468716314679279
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4502614",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "7",
+      "coordenadas": [
+        39.764468234126134,
+        -8.468796694656879
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4521010",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "1",
+      "coordenadas": [
+        39.76354941136549,
+        -8.46885058423595
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4521363",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "17",
+      "coordenadas": [
+        39.765197888370174,
+        -8.468753555785618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4529345",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "16",
+      "coordenadas": [
+        39.76556762353027,
+        -8.468591962718907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4531215",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "33",
+      "coordenadas": [
+        39.76704102436337,
+        -8.469859564831351
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4531217",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "14",
+      "coordenadas": [
+        39.76521654219654,
+        -8.468531906180674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4543470",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "21",
+      "coordenadas": [
+        39.765611811900996,
+        -8.468883942235603
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4582931",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "27",
+      "coordenadas": [
+        39.766142345587724,
+        -8.469178286609337
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4606521",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "6",
+      "coordenadas": [
+        39.76373034944265,
+        -8.468571376150942
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4639102",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "29",
+      "coordenadas": [
+        39.76648371009041,
+        -8.469483385756801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4642339",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "9",
+      "coordenadas": [
+        39.76457610852184,
+        -8.468867241060611
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4655867",
+      "rua": "R AFONSO MELO ADMINISTRADOR",
+      "casa": "31",
+      "coordenadas": [
+        39.76757148760408,
+        -8.470177264374762
+      ]
+    }
+  ],
+  "ruas": [
+    "R LARANJEIRO",
+    "R AFONSO MELO ADMINISTRADOR"
+  ],
+  "centro": [
+    39.76556044948478,
+    -8.469199683202959
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.7644550467424,
+                -8.469268556995207
+              ],
+              [
+                39.76425379443642,
+                -8.469175674159814
+              ],
+              [
+                39.764083215407055,
+                -8.469084581644399
+              ],
+              [
+                39.76394330965432,
+                -8.468995279448956
+              ],
+              [
+                39.7638340771782,
+                -8.468907767573487
+              ],
+              [
+                39.763755517978694,
+                -8.468822046017994
+              ],
+              [
+                39.76370763205581,
+                -8.468738114782472
+              ],
+              [
+                39.763690419409556,
+                -8.468655973866925
+              ],
+              [
+                39.76370388003991,
+                -8.468575623271352
+              ],
+              [
+                39.763748013946895,
+                -8.468497062995752
+              ],
+              [
+                39.763812648942206,
+                -8.46843410182785
+              ],
+              [
+                39.76389778502585,
+                -8.468386739767642
+              ],
+              [
+                39.76400342219781,
+                -8.46835497681513
+              ],
+              [
+                39.76412956045811,
+                -8.468338812970314
+              ],
+              [
+                39.764276199806744,
+                -8.468338248233195
+              ],
+              [
+                39.7644433402437,
+                -8.468353282603772
+              ],
+              [
+                39.76463098176899,
+                -8.468383916082045
+              ],
+              [
+                39.764839124382604,
+                -8.468430148668014
+              ],
+              [
+                39.76505255954567,
+                -8.468495372519111
+              ],
+              [
+                39.765271287258194,
+                -8.468579587635332
+              ],
+              [
+                39.76549530752017,
+                -8.468682794016683
+              ],
+              [
+                39.765724620331596,
+                -8.468804991663156
+              ],
+              [
+                39.76595922569247,
+                -8.468946180574758
+              ],
+              [
+                39.76619912360279,
+                -8.46910636075149
+              ],
+              [
+                39.76644431406256,
+                -8.469285532193343
+              ],
+              [
+                39.76669479707179,
+                -8.469483694900326
+              ],
+              [
+                39.76687628130188,
+                -8.46964796824619
+              ],
+              [
+                39.766988766752846,
+                -8.469778352230936
+              ],
+              [
+                39.76703225342467,
+                -8.469874846854564
+              ],
+              [
+                39.76700674131736,
+                -8.469937452117074
+              ],
+              [
+                39.76691223043092,
+                -8.469966168018466
+              ],
+              [
+                39.766748720765335,
+                -8.469960994558742
+              ],
+              [
+                39.766516212320624,
+                -8.469921931737897
+              ],
+              [
+                39.766214705096786,
+                -8.469848979555936
+              ],
+              [
+                39.765925729737674,
+                -8.469773536042295
+              ],
+              [
+                39.76564928624329,
+                -8.469695601196976
+              ],
+              [
+                39.76538537461364,
+                -8.46961517501998
+              ],
+              [
+                39.76513399484874,
+                -8.469532257511304
+              ],
+              [
+                39.76489514694856,
+                -8.469446848670952
+              ],
+              [
+                39.76466883091311,
+                -8.469358948498918
+              ],
+              [
+                39.7644550467424,
+                -8.469268556995207
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.7651500869869,
+    -8.46908711205597
+  ],
+  "centroDeMassa": [
+    39.76556044948478,
+    -8.469199683202959
+  ]
+}

@@ -1,1 +1,336 @@
-{"CP4":"7555","CP3":"121","Distrito":"Setúbal","Concelho":"Santiago do Cacém","CP":"7555-121","Artéria":"Rua de Aldegalega","Localidade":"Cercal do Alentejo","Local":"","Troço":"Impares de 1 a 47","Porta":"","Cliente":"","Designação Postal":"CERCAL DO ALENTEJO","locais":[{"id":"pt.ine.add.PTCONT.4730568","rua":"R ALDEGALEGA","casa":"39","coordenadas":[37.80040213099808,-8.675046153626582]},{"id":"pt.ine.add.PTCONT.4734017","rua":"R ALDEGALEGA","casa":"","coordenadas":[37.80152040162749,-8.67713637650262]},{"id":"pt.ine.add.PTCONT.4742422","rua":"R ALDEGALEGA","casa":"1","coordenadas":[37.79890914884041,-8.675533548500864]},{"id":"pt.ine.add.PTCONT.4742423","rua":"R ALDEGALEGA","casa":"1","coordenadas":[37.79890914884041,-8.675533548500864]},{"id":"pt.ine.add.PTCONT.4742578","rua":"R ALDEGALEGA","casa":"1","coordenadas":[37.79890914884041,-8.675533548500864]},{"id":"pt.ine.add.PTCONT.4742814","rua":"R ALDEGALEGA","casa":"1","coordenadas":[37.79890914884041,-8.675533548500864]},{"id":"pt.ine.add.PTCONT.4751895","rua":"R ALDEGALEGA","casa":"13","coordenadas":[37.79928752462513,-8.675386545305887]},{"id":"pt.ine.add.PTCONT.4756773","rua":"R ALDEGALEGA","casa":"","coordenadas":[37.800115260735744,-8.675138319891317]},{"id":"pt.ine.add.PTCONT.4787775","rua":"R ALDEGALEGA","casa":"21","coordenadas":[37.79971037060228,-8.675269996758303]},{"id":"pt.ine.add.PTCONT.4806744","rua":"R ALDEGALEGA","casa":"21","coordenadas":[37.800036189573376,-8.675166752622285]},{"id":"pt.ine.add.PTCONT.4844613","rua":"R ALDEGALEGA","casa":"23","coordenadas":[37.79979055268363,-8.675248412259215]},{"id":"pt.ine.add.PTCONT.4896959","rua":"R ALDEGALEGA","casa":"19","coordenadas":[37.79963339884034,-8.675308364849698]},{"id":"pt.ine.add.PTCONT.4959023","rua":"R ALDEGALEGA","casa":"1","coordenadas":[37.798985049810604,-8.675434434692775]},{"id":"pt.ine.add.PTCONT.4977028","rua":"R ALDEGALEGA","casa":"37","coordenadas":[37.80026779670707,-8.675088247533932]},{"id":"pt.ine.add.PTCONT.4977071","rua":"R ALDEGALEGA","casa":"5","coordenadas":[37.799050099527015,-8.675422450113093]},{"id":"pt.ine.add.PTCONT.5058656","rua":"R ALDEGALEGA","casa":"27","coordenadas":[37.79991639206802,-8.675251135100343]},{"id":"pt.ine.add.PTCONT.5118295","rua":"R ALDEGALEGA","casa":"","coordenadas":[37.799213077979786,-8.675383659792395]}],"ruas":["R ALDEGALEGA"],"centroide":[37.799646985197526,-8.67543946145372]}
+{
+  "CP": "7555-121",
+  "CP4": "7555",
+  "CP3": "121",
+  "Distrito": "Setúbal",
+  "Concelho": "Santiago do Cacém",
+  "Localidade": "Cercal do Alentejo",
+  "Designação Postal": "CERCAL DO ALENTEJO",
+  "partes": [
+    {
+      "Artéria": "Rua de Aldegalega",
+      "Local": "",
+      "Troço": "Impares de 1 a 47",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.4730568",
+      "rua": "R ALDEGALEGA",
+      "casa": "39",
+      "coordenadas": [
+        37.80040213099808,
+        -8.675046153626582
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4734017",
+      "rua": "R ALDEGALEGA",
+      "casa": "",
+      "coordenadas": [
+        37.80152040162749,
+        -8.67713637650262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4742422",
+      "rua": "R ALDEGALEGA",
+      "casa": "1",
+      "coordenadas": [
+        37.79890914884041,
+        -8.675533548500864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4742423",
+      "rua": "R ALDEGALEGA",
+      "casa": "1",
+      "coordenadas": [
+        37.79890914884041,
+        -8.675533548500864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4742578",
+      "rua": "R ALDEGALEGA",
+      "casa": "1",
+      "coordenadas": [
+        37.79890914884041,
+        -8.675533548500864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4742814",
+      "rua": "R ALDEGALEGA",
+      "casa": "1",
+      "coordenadas": [
+        37.79890914884041,
+        -8.675533548500864
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4751895",
+      "rua": "R ALDEGALEGA",
+      "casa": "13",
+      "coordenadas": [
+        37.79928752462513,
+        -8.675386545305887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4756773",
+      "rua": "R ALDEGALEGA",
+      "casa": "",
+      "coordenadas": [
+        37.800115260735744,
+        -8.675138319891317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4787775",
+      "rua": "R ALDEGALEGA",
+      "casa": "21",
+      "coordenadas": [
+        37.79971037060228,
+        -8.675269996758303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4806744",
+      "rua": "R ALDEGALEGA",
+      "casa": "21",
+      "coordenadas": [
+        37.800036189573376,
+        -8.675166752622285
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4844613",
+      "rua": "R ALDEGALEGA",
+      "casa": "23",
+      "coordenadas": [
+        37.79979055268363,
+        -8.675248412259215
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4896959",
+      "rua": "R ALDEGALEGA",
+      "casa": "19",
+      "coordenadas": [
+        37.79963339884034,
+        -8.675308364849698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4959023",
+      "rua": "R ALDEGALEGA",
+      "casa": "1",
+      "coordenadas": [
+        37.798985049810604,
+        -8.675434434692775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4977028",
+      "rua": "R ALDEGALEGA",
+      "casa": "37",
+      "coordenadas": [
+        37.80026779670707,
+        -8.675088247533932
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4977071",
+      "rua": "R ALDEGALEGA",
+      "casa": "5",
+      "coordenadas": [
+        37.799050099527015,
+        -8.675422450113093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5058656",
+      "rua": "R ALDEGALEGA",
+      "casa": "27",
+      "coordenadas": [
+        37.79991639206802,
+        -8.675251135100343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5118295",
+      "rua": "R ALDEGALEGA",
+      "casa": "",
+      "coordenadas": [
+        37.799213077979786,
+        -8.675383659792395
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALDEGALEGA"
+  ],
+  "centro": [
+    37.800214775233954,
+    -8.676091265064601
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.80037797853315,
+                -8.676435139251852
+              ],
+              [
+                37.80005157193476,
+                -8.676234785751632
+              ],
+              [
+                37.79976715211383,
+                -8.676057927785688
+              ],
+              [
+                37.79952471907036,
+                -8.675904565354022
+              ],
+              [
+                37.79932427280435,
+                -8.675774698456632
+              ],
+              [
+                37.79916581331579,
+                -8.675668327093515
+              ],
+              [
+                37.7990493406047,
+                -8.675585451264675
+              ],
+              [
+                37.79897485467105,
+                -8.675526070970111
+              ],
+              [
+                37.79894235551487,
+                -8.675490186209824
+              ],
+              [
+                37.79895184313614,
+                -8.675477796983815
+              ],
+              [
+                37.79898228669831,
+                -8.675460889519396
+              ],
+              [
+                37.79903368620138,
+                -8.67543946381657
+              ],
+              [
+                37.799106041645345,
+                -8.675413519875335
+              ],
+              [
+                37.79919935303019,
+                -8.67538305769569
+              ],
+              [
+                37.799313620355946,
+                -8.67534807727764
+              ],
+              [
+                37.799448843622585,
+                -8.675308578621182
+              ],
+              [
+                37.79960502283013,
+                -8.675264561726316
+              ],
+              [
+                37.79978215797856,
+                -8.675216026593041
+              ],
+              [
+                37.79995462421203,
+                -8.675206218083865
+              ],
+              [
+                37.80012242153052,
+                -8.675235136198785
+              ],
+              [
+                37.800285549934046,
+                -8.675302780937802
+              ],
+              [
+                37.8004440094226,
+                -8.675409152300919
+              ],
+              [
+                37.80059779999618,
+                -8.67555425028813
+              ],
+              [
+                37.800746921654806,
+                -8.67573807489944
+              ],
+              [
+                37.80089137439845,
+                -8.675960626134849
+              ],
+              [
+                37.801031158227126,
+                -8.676221903994353
+              ],
+              [
+                37.801112668252415,
+                -8.676425477933893
+              ],
+              [
+                37.80113590447433,
+                -8.676571347953468
+              ],
+              [
+                37.80110086689285,
+                -8.676659514053075
+              ],
+              [
+                37.80100755550801,
+                -8.676689976232717
+              ],
+              [
+                37.800855970319766,
+                -8.676662734492394
+              ],
+              [
+                37.80064611132815,
+                -8.676577788832105
+              ],
+              [
+                37.80037797853315,
+                -8.676435139251852
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.79995418281915,
+    -8.67578762833071
+  ],
+  "centroDeMassa": [
+    37.800214775233954,
+    -8.676091265064601
+  ]
+}

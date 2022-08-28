@@ -1,1 +1,423 @@
-{"CP4":"5300","CP3":"476","Distrito":"Bragança","Concelho":"Bragança","CP":"5300-476","Artéria":"Rua Padre Manuel António Caminha","Localidade":"Bragança","Local":"Bairro do Sapato","Troço":"","Porta":"","Cliente":"","Designação Postal":"BRAGANÇA","locais":[{"id":"pt.ine.add.PTCONT.851119","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"11","coordenadas":[41.81261962908372,-6.7536753674239565]},{"id":"pt.ine.add.PTCONT.858572","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"1","coordenadas":[41.81265934249237,-6.754733530660991]},{"id":"pt.ine.add.PTCONT.858607","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"1","coordenadas":[41.81265934249237,-6.754733530660991]},{"id":"pt.ine.add.PTCONT.861085","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"9","coordenadas":[41.812676812265764,-6.753938894233508]},{"id":"pt.ine.add.PTCONT.861086","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"2","coordenadas":[41.812345518212396,-6.754090412728399]},{"id":"pt.ine.add.PTCONT.871009","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"15","coordenadas":[41.81250526092496,-6.753148315256326]},{"id":"pt.ine.add.PTCONT.872587","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"6","coordenadas":[41.81233232770694,-6.753741703749306]},{"id":"pt.ine.add.PTCONT.874315","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"12","coordenadas":[41.81221040454881,-6.753335157803783]},{"id":"pt.ine.add.PTCONT.883996","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"8","coordenadas":[41.81231317023388,-6.753645841222584]},{"id":"pt.ine.add.PTCONT.892640","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"5","coordenadas":[41.81270887029228,-6.754359406071134]},{"id":"pt.ine.add.PTCONT.893475","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"14","coordenadas":[41.812208380936426,-6.753166722696166]},{"id":"pt.ine.add.PTCONT.897871","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"2 4","coordenadas":[41.81234378464728,-6.753946039428631]},{"id":"pt.ine.add.PTCONT.913870","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"10","coordenadas":[41.812266143347884,-6.753478371708296]},{"id":"pt.ine.add.PTCONT.918294","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"16","coordenadas":[41.81210821629498,-6.75307259963309]},{"id":"pt.ine.add.PTCONT.940767","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"7","coordenadas":[41.81267026737771,-6.754143617223743]},{"id":"pt.ine.add.PTCONT.945274","rua":"R PADRE MANUEL ANTÓNIO CAMINHA","casa":"3","coordenadas":[41.81263075188302,-6.754601766853334]}],"ruas":["R PADRE MANUEL ANTÓNIO CAMINHA"],"centroide":[41.812441831390515,-6.753813967366726]}
+{
+  "CP": "5300-476",
+  "CP4": "5300",
+  "CP3": "476",
+  "Distrito": "Bragança",
+  "Concelho": "Bragança",
+  "Localidade": "Bragança",
+  "Designação Postal": "BRAGANÇA",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Manuel António Caminha",
+      "Local": "Bairro do Sapato",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.851119",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "11",
+      "coordenadas": [
+        41.81261962908372,
+        -6.7536753674239565
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.858572",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "1",
+      "coordenadas": [
+        41.81265934249237,
+        -6.754733530660991
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.858607",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "1",
+      "coordenadas": [
+        41.81265934249237,
+        -6.754733530660991
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.861085",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "9",
+      "coordenadas": [
+        41.812676812265764,
+        -6.753938894233508
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.861086",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "2",
+      "coordenadas": [
+        41.812345518212396,
+        -6.754090412728399
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.871009",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "15",
+      "coordenadas": [
+        41.81250526092496,
+        -6.753148315256326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.872587",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "6",
+      "coordenadas": [
+        41.81233232770694,
+        -6.753741703749306
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.874315",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "12",
+      "coordenadas": [
+        41.81221040454881,
+        -6.753335157803783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.883996",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "8",
+      "coordenadas": [
+        41.81231317023388,
+        -6.753645841222584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.892640",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "5",
+      "coordenadas": [
+        41.81270887029228,
+        -6.754359406071134
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.893475",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "14",
+      "coordenadas": [
+        41.812208380936426,
+        -6.753166722696166
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.897871",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "2 4",
+      "coordenadas": [
+        41.81234378464728,
+        -6.753946039428631
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.913870",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "10",
+      "coordenadas": [
+        41.812266143347884,
+        -6.753478371708296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.918294",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "16",
+      "coordenadas": [
+        41.81210821629498,
+        -6.75307259963309
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.940767",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "7",
+      "coordenadas": [
+        41.81267026737771,
+        -6.754143617223743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.945274",
+      "rua": "R PADRE MANUEL ANTÓNIO CAMINHA",
+      "casa": "3",
+      "coordenadas": [
+        41.81263075188302,
+        -6.754601766853334
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE MANUEL ANTÓNIO CAMINHA"
+  ],
+  "centro": [
+    41.81240854329363,
+    -6.753903065147041
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.812241698623524,
+                -6.753645119499202
+              ],
+              [
+                41.81221203588385,
+                -6.753517892862288
+              ],
+              [
+                41.81219228480898,
+                -6.753407752611602
+              ],
+              [
+                41.8121824453989,
+                -6.753314698747142
+              ],
+              [
+                41.81218251765364,
+                -6.753238731268911
+              ],
+              [
+                41.81219250157317,
+                -6.753179850176906
+              ],
+              [
+                41.81221239715751,
+                -6.753138055471129
+              ],
+              [
+                41.81224220440665,
+                -6.753113347151579
+              ],
+              [
+                41.8122819233206,
+                -6.753105725218257
+              ],
+              [
+                41.81233155389934,
+                -6.753115189671161
+              ],
+              [
+                41.81237676765823,
+                -6.753131706257571
+              ],
+              [
+                41.81241756459725,
+                -6.753155274977488
+              ],
+              [
+                41.81245394471641,
+                -6.753185895830911
+              ],
+              [
+                41.8124859080157,
+                -6.75322356881784
+              ],
+              [
+                41.81251345449514,
+                -6.753268293938276
+              ],
+              [
+                41.81253658415471,
+                -6.753320071192217
+              ],
+              [
+                41.81255529699442,
+                -6.753378900579665
+              ],
+              [
+                41.81256959301426,
+                -6.753444782100619
+              ],
+              [
+                41.81258299551885,
+                -6.753506546037853
+              ],
+              [
+                41.81259550450817,
+                -6.753564192391367
+              ],
+              [
+                41.81260711998223,
+                -6.75361772116116
+              ],
+              [
+                41.812617841941034,
+                -6.753667132347234
+              ],
+              [
+                41.81262767038457,
+                -6.753712425949588
+              ],
+              [
+                41.81263660531285,
+                -6.753753601968222
+              ],
+              [
+                41.81264464672587,
+                -6.753790660403135
+              ],
+              [
+                41.81265179462362,
+                -6.75382360125433
+              ],
+              [
+                41.81265854994082,
+                -6.7538589949965875
+              ],
+              [
+                41.81266491267747,
+                -6.753896841629908
+              ],
+              [
+                41.81267088283356,
+                -6.753937141154294
+              ],
+              [
+                41.812676460409094,
+                -6.753979893569742
+              ],
+              [
+                41.81268164540407,
+                -6.754025098876254
+              ],
+              [
+                41.8126864378185,
+                -6.75407275707383
+              ],
+              [
+                41.81269083765237,
+                -6.75412286816247
+              ],
+              [
+                41.81269484490568,
+                -6.754175432142173
+              ],
+              [
+                41.81269757738046,
+                -6.754227271321129
+              ],
+              [
+                41.81269903507669,
+                -6.754278385699339
+              ],
+              [
+                41.81269921799439,
+                -6.754328775276804
+              ],
+              [
+                41.812698126133554,
+                -6.754378440053522
+              ],
+              [
+                41.812695759494176,
+                -6.754427380029493
+              ],
+              [
+                41.81269211807627,
+                -6.754475595204718
+              ],
+              [
+                41.81268720187982,
+                -6.754523085579196
+              ],
+              [
+                41.81268101090483,
+                -6.754569851152929
+              ],
+              [
+                41.812670690297345,
+                -6.754600722312247
+              ],
+              [
+                41.81265624005735,
+                -6.754615699057153
+              ],
+              [
+                41.812637660184855,
+                -6.754614781387645
+              ],
+              [
+                41.812614950679865,
+                -6.754597969303723
+              ],
+              [
+                41.81258811154237,
+                -6.754565262805389
+              ],
+              [
+                41.81255714277237,
+                -6.754516661892642
+              ],
+              [
+                41.81252204436988,
+                -6.754452166565481
+              ],
+              [
+                41.812482816334885,
+                -6.754371776823907
+              ],
+              [
+                41.81244478396181,
+                -6.754285532470416
+              ],
+              [
+                41.812407947250634,
+                -6.754193433505006
+              ],
+              [
+                41.81237230620138,
+                -6.754095479927679
+              ],
+              [
+                41.81233786081404,
+                -6.753991671738438
+              ],
+              [
+                41.81230461108862,
+                -6.753882008937277
+              ],
+              [
+                41.81227255702512,
+                -6.753766491524198
+              ],
+              [
+                41.812241698623524,
+                -6.753645119499202
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.81251766422378,
+    -6.753859789429629
+  ],
+  "centroDeMassa": [
+    41.81240854329363,
+    -6.753903065147041
+  ]
+}

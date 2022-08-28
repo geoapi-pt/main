@@ -1,1 +1,404 @@
-{"CP4":"6090","CP3":"715","Distrito":"Castelo Branco","Concelho":"Penamacor","CP":"6090-715","Artéria":"Rua Vale da Ginga","Localidade":"Vale de Nossa Senhora da Póvoa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VALE DA SENHORA DA PÓVOA","locais":[{"id":"pt.ine.add.PTCONT.957977","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.27375800211603,-7.205457606778136]},{"id":"pt.ine.add.PTCONT.957978","rua":"R DO VALE DA GINGA","casa":"10","coordenadas":[40.27390085014875,-7.205302809793938]},{"id":"pt.ine.add.PTCONT.960144","rua":"R DO VALE DA GINGA","casa":"6","coordenadas":[40.27391612503763,-7.204961639257451]},{"id":"pt.ine.add.PTCONT.966843","rua":"R DO VALE DA GINGA","casa":"20","coordenadas":[40.27365051253855,-7.205529619205044]},{"id":"pt.ine.add.PTCONT.973863","rua":"R DO VALE DA GINGA","casa":"4","coordenadas":[40.274167538423946,-7.2037471951403385]},{"id":"pt.ine.add.PTCONT.976735","rua":"R DO VALE DA GINGA","casa":"2","coordenadas":[40.27407688724098,-7.204794838556462]},{"id":"pt.ine.add.PTCONT.981716","rua":"R DO VALE DA GINGA","casa":"1","coordenadas":[40.274033036200976,-7.203819580513081]},{"id":"pt.ine.add.PTCONT.1009669","rua":"R DO VALE DA GINGA","casa":"9","coordenadas":[40.27371024535353,-7.205117298664194]},{"id":"pt.ine.add.PTCONT.1013066","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.273612514777916,-7.205283236174719]},{"id":"pt.ine.add.PTCONT.1014440","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.274023236991404,-7.204842601524321]},{"id":"pt.ine.add.PTCONT.1024778","rua":"R DO VALE DA GINGA","casa":"11","coordenadas":[40.273550896566675,-7.2054604369528015]},{"id":"pt.ine.add.PTCONT.1034145","rua":"R DO VALE DA GINGA","casa":"4","coordenadas":[40.27396058213358,-7.204890487544084]},{"id":"pt.ine.add.PTCONT.1044967","rua":"R DO VALE DA GINGA","casa":"12","coordenadas":[40.2742346297756,-7.204251842939686]},{"id":"pt.ine.add.PTCONT.1050883","rua":"R DO VALE DA GINGA","casa":"7","coordenadas":[40.273738767556715,-7.205305025096488]},{"id":"pt.ine.add.PTCONT.1066704","rua":"R DO VALE DA GINGA","casa":"1","coordenadas":[40.273735467449775,-7.204893565722053]},{"id":"pt.ine.add.PTCONT.1079241","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.273872893640835,-7.205185618950242]},{"id":"pt.ine.add.PTCONT.1083562","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.27371411011229,-7.205599293789694]},{"id":"pt.ine.add.PTCONT.1085975","rua":"R DO VALE DA GINGA","casa":"10","coordenadas":[40.27419691247887,-7.204040726737146]},{"id":"pt.ine.add.PTCONT.1087112","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.273654940729166,-7.20608214978875]},{"id":"pt.ine.add.PTCONT.1093959","rua":"R DO VALE DA GINGA","casa":"","coordenadas":[40.273808730077434,-7.205045408630714]},{"id":"pt.ine.add.PTCONT.1099238","rua":"R DO VALE DA GINGA","casa":"14","coordenadas":[40.27426315339266,-7.204439570427515]}],"ruas":["R DO VALE DA GINGA"],"centroide":[40.273865843967535,-7.204980549087968]}
+{
+  "CP": "6090-715",
+  "CP4": "6090",
+  "CP3": "715",
+  "Distrito": "Castelo Branco",
+  "Concelho": "Penamacor",
+  "Localidade": "Vale de Nossa Senhora da Póvoa",
+  "Designação Postal": "VALE DA SENHORA DA PÓVOA",
+  "partes": [
+    {
+      "Artéria": "Rua Vale da Ginga",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.957977",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.27375800211603,
+        -7.205457606778136
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.957978",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "10",
+      "coordenadas": [
+        40.27390085014875,
+        -7.205302809793938
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.960144",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "6",
+      "coordenadas": [
+        40.27391612503763,
+        -7.204961639257451
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.966843",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "20",
+      "coordenadas": [
+        40.27365051253855,
+        -7.205529619205044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.973863",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "4",
+      "coordenadas": [
+        40.274167538423946,
+        -7.2037471951403385
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.976735",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "2",
+      "coordenadas": [
+        40.27407688724098,
+        -7.204794838556462
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.981716",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "1",
+      "coordenadas": [
+        40.274033036200976,
+        -7.203819580513081
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1009669",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "9",
+      "coordenadas": [
+        40.27371024535353,
+        -7.205117298664194
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1013066",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.273612514777916,
+        -7.205283236174719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1014440",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.274023236991404,
+        -7.204842601524321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1024778",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "11",
+      "coordenadas": [
+        40.273550896566675,
+        -7.2054604369528015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1034145",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "4",
+      "coordenadas": [
+        40.27396058213358,
+        -7.204890487544084
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1044967",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "12",
+      "coordenadas": [
+        40.2742346297756,
+        -7.204251842939686
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1050883",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "7",
+      "coordenadas": [
+        40.273738767556715,
+        -7.205305025096488
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1066704",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "1",
+      "coordenadas": [
+        40.273735467449775,
+        -7.204893565722053
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1079241",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.273872893640835,
+        -7.205185618950242
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1083562",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.27371411011229,
+        -7.205599293789694
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1085975",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "10",
+      "coordenadas": [
+        40.27419691247887,
+        -7.204040726737146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1087112",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.273654940729166,
+        -7.20608214978875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1093959",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "",
+      "coordenadas": [
+        40.273808730077434,
+        -7.205045408630714
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1099238",
+      "rua": "R DO VALE DA GINGA",
+      "casa": "14",
+      "coordenadas": [
+        40.27426315339266,
+        -7.204439570427515
+      ]
+    }
+  ],
+  "ruas": [
+    "R DO VALE DA GINGA"
+  ],
+  "centro": [
+    40.273907024979664,
+    -7.204914672464544
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.273609421408075,
+                -7.205810150423022
+              ],
+              [
+                40.273596415887766,
+                -7.205732436318528
+              ],
+              [
+                40.27359256948928,
+                -7.205638798095226
+              ],
+              [
+                40.27359788221261,
+                -7.205529235753114
+              ],
+              [
+                40.27361235405778,
+                -7.205403749292194
+              ],
+              [
+                40.27363598502477,
+                -7.2052623387124655
+              ],
+              [
+                40.273668775113585,
+                -7.205105004013927
+              ],
+              [
+                40.27371072432422,
+                -7.20493174519658
+              ],
+              [
+                40.27376183265668,
+                -7.204742562260424
+              ],
+              [
+                40.27382210011097,
+                -7.204537455205459
+              ],
+              [
+                40.273876935730705,
+                -7.204356855510916
+              ],
+              [
+                40.27392633951589,
+                -7.204200763176795
+              ],
+              [
+                40.27397031146652,
+                -7.204069178203094
+              ],
+              [
+                40.2740088515826,
+                -7.2039621005898145
+              ],
+              [
+                40.27404195986413,
+                -7.203879530336957
+              ],
+              [
+                40.274069636311104,
+                -7.203821467444522
+              ],
+              [
+                40.27409188092353,
+                -7.203787911912507
+              ],
+              [
+                40.2741086937014,
+                -7.203778863740913
+              ],
+              [
+                40.27412489886592,
+                -7.203781764954632
+              ],
+              [
+                40.274140496417104,
+                -7.203796615553662
+              ],
+              [
+                40.27415548635493,
+                -7.203823415538002
+              ],
+              [
+                40.27416986867941,
+                -7.203862164907655
+              ],
+              [
+                40.27418364339054,
+                -7.203912863662619
+              ],
+              [
+                40.27419681048832,
+                -7.203975511802892
+              ],
+              [
+                40.27420936997276,
+                -7.204050109328478
+              ],
+              [
+                40.27422132184385,
+                -7.204136656239376
+              ],
+              [
+                40.27422227640818,
+                -7.20423805008893
+              ],
+              [
+                40.274212233665764,
+                -7.2043542908771405
+              ],
+              [
+                40.274191193616595,
+                -7.204485378604009
+              ],
+              [
+                40.27415915626067,
+                -7.204631313269535
+              ],
+              [
+                40.274116121598,
+                -7.204792094873717
+              ],
+              [
+                40.274062089628565,
+                -7.204967723416558
+              ],
+              [
+                40.27399706035238,
+                -7.205158198898055
+              ],
+              [
+                40.27392103376945,
+                -7.20536352131821
+              ],
+              [
+                40.273852884819334,
+                -7.205533464172783
+              ],
+              [
+                40.27379261350206,
+                -7.205668027461775
+              ],
+              [
+                40.273740219817604,
+                -7.2057672111851865
+              ],
+              [
+                40.27369570376598,
+                -7.205831015343017
+              ],
+              [
+                40.27365906534718,
+                -7.205859439935266
+              ],
+              [
+                40.273630304561216,
+                -7.205852484961935
+              ],
+              [
+                40.273609421408075,
+                -7.205810150423022
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.27393391306269,
+    -7.204709786564497
+  ],
+  "centroDeMassa": [
+    40.273907024979664,
+    -7.204914672464544
+  ]
+}

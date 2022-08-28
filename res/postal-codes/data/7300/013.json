@@ -1,1 +1,386 @@
-{"CP4":"7300","CP3":"013","Distrito":"Portalegre","Concelho":"Portalegre","CP":"7300-013","Artéria":"Praceta Emílio Costa","Localidade":"Portalegre","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PORTALEGRE","locais":[{"id":"pt.ine.add.PTCONT.3460700","rua":"PCT EMILIO COSTA","casa":"10","coordenadas":[39.29090549162127,-7.426319147949654]},{"id":"pt.ine.add.PTCONT.3474769","rua":"PCT EMILIO COSTA","casa":"","coordenadas":[39.29079433164016,-7.426281929760589]},{"id":"pt.ine.add.PTCONT.3474770","rua":"PCT EMILIO COSTA","casa":"","coordenadas":[39.29079433164016,-7.426281929760589]},{"id":"pt.ine.add.PTCONT.3477162","rua":"PCT EMILIO COSTA","casa":"4","coordenadas":[39.290766856666046,-7.426478623021561]},{"id":"pt.ine.add.PTCONT.3502912","rua":"PCT EMILIO COSTA","casa":"1","coordenadas":[39.29082522315758,-7.426561747217203]},{"id":"pt.ine.add.PTCONT.3531399","rua":"PCT EMILIO COSTA","casa":"","coordenadas":[39.29089179615027,-7.426465002843954]},{"id":"pt.ine.add.PTCONT.3531400","rua":"PCT EMILIO COSTA","casa":"","coordenadas":[39.29089179615027,-7.426465002843954]},{"id":"pt.ine.add.PTCONT.3532048","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532049","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532050","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532051","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532052","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532053","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532115","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532116","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532117","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532118","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532119","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]},{"id":"pt.ine.add.PTCONT.3532142","rua":"PCT EMILIO COSTA","casa":"33","coordenadas":[39.2908222615852,-7.425859889788222]}],"ruas":["PCT EMILIO COSTA"],"centroide":[39.290828594692385,-7.426072898392666]}
+{
+  "CP": "7300-013",
+  "CP4": "7300",
+  "CP3": "013",
+  "Distrito": "Portalegre",
+  "Concelho": "Portalegre",
+  "Localidade": "Portalegre",
+  "Designação Postal": "PORTALEGRE",
+  "partes": [
+    {
+      "Artéria": "Praceta Emílio Costa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3460700",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "10",
+      "coordenadas": [
+        39.29090549162127,
+        -7.426319147949654
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3474769",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "",
+      "coordenadas": [
+        39.29079433164016,
+        -7.426281929760589
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3474770",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "",
+      "coordenadas": [
+        39.29079433164016,
+        -7.426281929760589
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3477162",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "4",
+      "coordenadas": [
+        39.290766856666046,
+        -7.426478623021561
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3502912",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "1",
+      "coordenadas": [
+        39.29082522315758,
+        -7.426561747217203
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3531399",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "",
+      "coordenadas": [
+        39.29089179615027,
+        -7.426465002843954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3531400",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "",
+      "coordenadas": [
+        39.29089179615027,
+        -7.426465002843954
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532048",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532049",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532050",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532051",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532052",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532053",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532115",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532116",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532117",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532118",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532119",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532142",
+      "rua": "PCT EMILIO COSTA",
+      "casa": "33",
+      "coordenadas": [
+        39.2908222615852,
+        -7.425859889788222
+      ]
+    }
+  ],
+  "ruas": [
+    "PCT EMILIO COSTA"
+  ],
+  "centro": [
+    39.29083617414366,
+    -7.426210818502712
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.29079968781753,
+                -7.4265253803816105
+              ],
+              [
+                39.2907923920061,
+                -7.4265149898571545
+              ],
+              [
+                39.290786873872946,
+                -7.426496230441485
+              ],
+              [
+                39.29078313341809,
+                -7.426469102134602
+              ],
+              [
+                39.29078117064152,
+                -7.426433604936505
+              ],
+              [
+                39.29078098554324,
+                -7.4263897388471936
+              ],
+              [
+                39.29078257812326,
+                -7.426337503866668
+              ],
+              [
+                39.290785948381576,
+                -7.426276899994929
+              ],
+              [
+                39.29079109631817,
+                -7.426207927231975
+              ],
+              [
+                39.29079802193307,
+                -7.426130585577808
+              ],
+              [
+                39.29080538231541,
+                -7.426070087539184
+              ],
+              [
+                39.29081317746521,
+                -7.426026433116103
+              ],
+              [
+                39.29082140738246,
+                -7.425999622308566
+              ],
+              [
+                39.29083007206716,
+                -7.425989655116571
+              ],
+              [
+                39.29083917151931,
+                -7.42599653154012
+              ],
+              [
+                39.290848705738924,
+                -7.426020251579212
+              ],
+              [
+                39.29085867472598,
+                -7.426060815233848
+              ],
+              [
+                39.29086907848048,
+                -7.4261182225040265
+              ],
+              [
+                39.29087796777395,
+                -7.426170732848156
+              ],
+              [
+                39.29088534260636,
+                -7.426218346266239
+              ],
+              [
+                39.290891202977726,
+                -7.426261062758271
+              ],
+              [
+                39.290895548888045,
+                -7.426298882324254
+              ],
+              [
+                39.29089838033731,
+                -7.426331804964187
+              ],
+              [
+                39.290899697325536,
+                -7.426359830678073
+              ],
+              [
+                39.290899499852706,
+                -7.42638295946591
+              ],
+              [
+                39.29089778791883,
+                -7.426401191327697
+              ],
+              [
+                39.290895249773676,
+                -7.426418655837592
+              ],
+              [
+                39.29089188541725,
+                -7.426435352995599
+              ],
+              [
+                39.290887694849545,
+                -7.426451282801711
+              ],
+              [
+                39.29088267807057,
+                -7.426466445255933
+              ],
+              [
+                39.29087683508031,
+                -7.426480840358264
+              ],
+              [
+                39.29087016587877,
+                -7.426494468108702
+              ],
+              [
+                39.29086267046597,
+                -7.426507328507251
+              ],
+              [
+                39.29085434884188,
+                -7.426519421553906
+              ],
+              [
+                39.29084615544438,
+                -7.426528704154174
+              ],
+              [
+                39.29083809027345,
+                -7.426535176308052
+              ],
+              [
+                39.29083015332911,
+                -7.426538838015542
+              ],
+              [
+                39.29082234461134,
+                -7.426539689276643
+              ],
+              [
+                39.29081466412016,
+                -7.426537730091354
+              ],
+              [
+                39.29080711185556,
+                -7.426532960459676
+              ],
+              [
+                39.29079968781753,
+                -7.4265253803816105
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.29084232583607,
+    -7.42633688216412
+  ],
+  "centroDeMassa": [
+    39.29083617414366,
+    -7.426210818502712
+  ]
+}

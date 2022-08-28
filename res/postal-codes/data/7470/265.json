@@ -1,1 +1,528 @@
-{"CP4":"7470","CP3":"265","Distrito":"Portalegre","Concelho":"Sousel","CP":"7470-265","Artéria":"Rua do Convento","Localidade":"Sousel","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"SOUSEL","locais":[{"id":"pt.ine.add.PTCONT.3536317","rua":"R NOVA DO PARREIRAL","casa":"14","coordenadas":[38.95065644767931,-7.674168455483118]},{"id":"pt.ine.add.PTCONT.3460511","rua":"R NOVA DO PARREIRAL","casa":"24","coordenadas":[38.9505912618015,-7.673626696674146]},{"id":"pt.ine.add.PTCONT.3464879","rua":"R NOVA DO PARREIRAL","casa":"18","coordenadas":[38.95063766134254,-7.673972469140812]},{"id":"pt.ine.add.PTCONT.3465416","rua":"R NOVA DO PARREIRAL","casa":"8","coordenadas":[38.95068478521446,-7.67450280927328]},{"id":"pt.ine.add.PTCONT.3466183","rua":"R NOVA DO PARREIRAL","casa":"44","coordenadas":[38.9504881782236,-7.672612219719914]},{"id":"pt.ine.add.PTCONT.3469534","rua":"R NOVA DO PARREIRAL","casa":"40","coordenadas":[38.950525391304865,-7.672911907547384]},{"id":"pt.ine.add.PTCONT.3469535","rua":"R NOVA DO PARREIRAL","casa":"40","coordenadas":[38.950525391304865,-7.672911907547384]},{"id":"pt.ine.add.PTCONT.3478242","rua":"R NOVA DO PARREIRAL","casa":"38","coordenadas":[38.950543906619835,-7.673038680730753]},{"id":"pt.ine.add.PTCONT.3479560","rua":"R NOVA DO PARREIRAL","casa":"26","coordenadas":[38.95059080762521,-7.6735113423359635]},{"id":"pt.ine.add.PTCONT.3484963","rua":"R NOVA DO PARREIRAL","casa":"22","coordenadas":[38.95060973094172,-7.673741934731212]},{"id":"pt.ine.add.PTCONT.3487296","rua":"R NOVA DO PARREIRAL","casa":"16","coordenadas":[38.9506470772359,-7.674076230020487]},{"id":"pt.ine.add.PTCONT.3487733","rua":"R CONVENTO","casa":"3","coordenadas":[38.95074660957936,-7.676486560378952]},{"id":"pt.ine.add.PTCONT.3487734","rua":"R NOVA DO PARREIRAL","casa":"12","coordenadas":[38.95065690120682,-7.674283809938322]},{"id":"pt.ine.add.PTCONT.3490208","rua":"R NOVA DO PARREIRAL","casa":"6","coordenadas":[38.9506942459517,-7.674618105748666]},{"id":"pt.ine.add.PTCONT.3491940","rua":"BR BASTOS RIBEIRO","casa":"6","coordenadas":[38.950723080223064,-7.675079349940773]},{"id":"pt.ine.add.PTCONT.3491941","rua":"R NOVA DO PARREIRAL","casa":"2","coordenadas":[38.95072217462524,-7.674848640792719]},{"id":"pt.ine.add.PTCONT.3497529","rua":"R NOVA DO PARREIRAL","casa":"4","coordenadas":[38.95071266881206,-7.674721808783808]},{"id":"pt.ine.add.PTCONT.3497530","rua":"R NOVA DO PARREIRAL","casa":"20","coordenadas":[38.95062819996846,-7.673857172849177]},{"id":"pt.ine.add.PTCONT.3502128","rua":"R NOVA DO PARREIRAL","casa":"30","coordenadas":[38.95056301264847,-7.67331541455446]},{"id":"pt.ine.add.PTCONT.3507897","rua":"R NOVA DO PARREIRAL","casa":"32","coordenadas":[38.950553414259176,-7.6731655121961415]},{"id":"pt.ine.add.PTCONT.3512620","rua":"BR BASTOS RIBEIRO","casa":"8","coordenadas":[38.95074965010204,-7.674963821402994]},{"id":"pt.ine.add.PTCONT.3513852","rua":"R NOVA DO PARREIRAL","casa":"48","coordenadas":[38.95045137420339,-7.672416350896082]},{"id":"pt.ine.add.PTCONT.3515561","rua":"R NOVA DO PARREIRAL","casa":"46","coordenadas":[38.950478806552795,-7.672519994692262]},{"id":"pt.ine.add.PTCONT.3516933","rua":"BR BASTOS RIBEIRO","casa":"4","coordenadas":[38.95062431412759,-7.675160735732374]},{"id":"pt.ine.add.PTCONT.3518377","rua":"R NOVA DO PARREIRAL","casa":"28","coordenadas":[38.95058143666349,-7.6734191170499875]},{"id":"pt.ine.add.PTCONT.3518653","rua":"R NOVA DO PARREIRAL","casa":"10","coordenadas":[38.95067541503482,-7.67441058372732]},{"id":"pt.ine.add.PTCONT.3519829","rua":"R CONVENTO","casa":"64","coordenadas":[38.95105300139047,-7.676519201881471]},{"id":"pt.ine.add.PTCONT.3521816","rua":"R CONVENTO","casa":"1","coordenadas":[38.95069220325467,-7.6763946235081715]},{"id":"pt.ine.add.PTCONT.3526059","rua":"R CONVENTO","casa":"5","coordenadas":[38.95078295562655,-7.676567077487302]},{"id":"pt.ine.add.PTCONT.3528742","rua":"R NOVA DO PARREIRAL","casa":"42 A","coordenadas":[38.95049764082533,-7.672727515607151]},{"id":"pt.ine.add.PTCONT.3532698","rua":"BR BASTOS RIBEIRO","casa":"2","coordenadas":[38.950480646018555,-7.675277017312075]}],"ruas":["R NOVA DO PARREIRAL","R CONVENTO","BR BASTOS RIBEIRO"],"centroide":[38.95063625814496,-7.674151668345751]}
+{
+  "CP": "7470-265",
+  "CP4": "7470",
+  "CP3": "265",
+  "Distrito": "Portalegre",
+  "Concelho": "Sousel",
+  "Localidade": "Sousel",
+  "Designação Postal": "SOUSEL",
+  "partes": [
+    {
+      "Artéria": "Rua do Convento",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3536317",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "14",
+      "coordenadas": [
+        38.95065644767931,
+        -7.674168455483118
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3460511",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "24",
+      "coordenadas": [
+        38.9505912618015,
+        -7.673626696674146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3464879",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "18",
+      "coordenadas": [
+        38.95063766134254,
+        -7.673972469140812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3465416",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "8",
+      "coordenadas": [
+        38.95068478521446,
+        -7.67450280927328
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3466183",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "44",
+      "coordenadas": [
+        38.9504881782236,
+        -7.672612219719914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3469534",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "40",
+      "coordenadas": [
+        38.950525391304865,
+        -7.672911907547384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3469535",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "40",
+      "coordenadas": [
+        38.950525391304865,
+        -7.672911907547384
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3478242",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "38",
+      "coordenadas": [
+        38.950543906619835,
+        -7.673038680730753
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3479560",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "26",
+      "coordenadas": [
+        38.95059080762521,
+        -7.6735113423359635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3484963",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "22",
+      "coordenadas": [
+        38.95060973094172,
+        -7.673741934731212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3487296",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "16",
+      "coordenadas": [
+        38.9506470772359,
+        -7.674076230020487
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3487733",
+      "rua": "R CONVENTO",
+      "casa": "3",
+      "coordenadas": [
+        38.95074660957936,
+        -7.676486560378952
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3487734",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "12",
+      "coordenadas": [
+        38.95065690120682,
+        -7.674283809938322
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3490208",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "6",
+      "coordenadas": [
+        38.9506942459517,
+        -7.674618105748666
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491940",
+      "rua": "BR BASTOS RIBEIRO",
+      "casa": "6",
+      "coordenadas": [
+        38.950723080223064,
+        -7.675079349940773
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3491941",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "2",
+      "coordenadas": [
+        38.95072217462524,
+        -7.674848640792719
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3497529",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "4",
+      "coordenadas": [
+        38.95071266881206,
+        -7.674721808783808
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3497530",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "20",
+      "coordenadas": [
+        38.95062819996846,
+        -7.673857172849177
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3502128",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "30",
+      "coordenadas": [
+        38.95056301264847,
+        -7.67331541455446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3507897",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "32",
+      "coordenadas": [
+        38.950553414259176,
+        -7.6731655121961415
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3512620",
+      "rua": "BR BASTOS RIBEIRO",
+      "casa": "8",
+      "coordenadas": [
+        38.95074965010204,
+        -7.674963821402994
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3513852",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "48",
+      "coordenadas": [
+        38.95045137420339,
+        -7.672416350896082
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3515561",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "46",
+      "coordenadas": [
+        38.950478806552795,
+        -7.672519994692262
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3516933",
+      "rua": "BR BASTOS RIBEIRO",
+      "casa": "4",
+      "coordenadas": [
+        38.95062431412759,
+        -7.675160735732374
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3518377",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "28",
+      "coordenadas": [
+        38.95058143666349,
+        -7.6734191170499875
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3518653",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "10",
+      "coordenadas": [
+        38.95067541503482,
+        -7.67441058372732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3519829",
+      "rua": "R CONVENTO",
+      "casa": "64",
+      "coordenadas": [
+        38.95105300139047,
+        -7.676519201881471
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3521816",
+      "rua": "R CONVENTO",
+      "casa": "1",
+      "coordenadas": [
+        38.95069220325467,
+        -7.6763946235081715
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3526059",
+      "rua": "R CONVENTO",
+      "casa": "5",
+      "coordenadas": [
+        38.95078295562655,
+        -7.676567077487302
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3528742",
+      "rua": "R NOVA DO PARREIRAL",
+      "casa": "42 A",
+      "coordenadas": [
+        38.95049764082533,
+        -7.672727515607151
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3532698",
+      "rua": "BR BASTOS RIBEIRO",
+      "casa": "2",
+      "coordenadas": [
+        38.950480646018555,
+        -7.675277017312075
+      ]
+    }
+  ],
+  "ruas": [
+    "R NOVA DO PARREIRAL",
+    "R CONVENTO",
+    "BR BASTOS RIBEIRO"
+  ],
+  "centro": [
+    38.95075218779693,
+    -7.674491714191692
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.95046783959942,
+                -7.674025475755078
+              ],
+              [
+                38.950464180622525,
+                -7.673667892453079
+              ],
+              [
+                38.9504614076482,
+                -7.673356626498144
+              ],
+              [
+                38.95045952067644,
+                -7.673091677890276
+              ],
+              [
+                38.95045851970726,
+                -7.672873046629473
+              ],
+              [
+                38.95045840474066,
+                -7.672700732715735
+              ],
+              [
+                38.950459175776615,
+                -7.672574736149063
+              ],
+              [
+                38.95046083281515,
+                -7.672495056929453
+              ],
+              [
+                38.95046337585625,
+                -7.67246169505691
+              ],
+              [
+                38.95046680489993,
+                -7.672474650531434
+              ],
+              [
+                38.950478777107485,
+                -7.672548474183973
+              ],
+              [
+                38.95049929247892,
+                -7.672683166014526
+              ],
+              [
+                38.950528351014235,
+                -7.672878726023097
+              ],
+              [
+                38.950565952713426,
+                -7.673135154209685
+              ],
+              [
+                38.950612097576496,
+                -7.673452450574288
+              ],
+              [
+                38.950666785603445,
+                -7.673830615116906
+              ],
+              [
+                38.950730016794274,
+                -7.674269647837541
+              ],
+              [
+                38.95080179114898,
+                -7.674769548736192
+              ],
+              [
+                38.95086037424429,
+                -7.675207710078853
+              ],
+              [
+                38.950905766080204,
+                -7.675584131865524
+              ],
+              [
+                38.95093796665671,
+                -7.675898814096204
+              ],
+              [
+                38.950956975973824,
+                -7.676151756770894
+              ],
+              [
+                38.95096279403153,
+                -7.676342959889594
+              ],
+              [
+                38.95095542082984,
+                -7.676472423452303
+              ],
+              [
+                38.95093485636876,
+                -7.676540147459022
+              ],
+              [
+                38.95090110064827,
+                -7.676546131909752
+              ],
+              [
+                38.950870146387025,
+                -7.676548673710716
+              ],
+              [
+                38.95084199358504,
+                -7.676547772861914
+              ],
+              [
+                38.9508166422423,
+                -7.676543429363347
+              ],
+              [
+                38.95079409235882,
+                -7.676535643215017
+              ],
+              [
+                38.95077434393458,
+                -7.67652441441692
+              ],
+              [
+                38.95075739696959,
+                -7.676509742969058
+              ],
+              [
+                38.950743251463855,
+                -7.676491628871432
+              ],
+              [
+                38.950731907417364,
+                -7.676470072124041
+              ],
+              [
+                38.950718675794874,
+                -7.67643374737326
+              ],
+              [
+                38.95070355659638,
+                -7.676382654619088
+              ],
+              [
+                38.95068654982189,
+                -7.676316793861527
+              ],
+              [
+                38.950667655471385,
+                -7.676236165100574
+              ],
+              [
+                38.95064687354488,
+                -7.676140768336233
+              ],
+              [
+                38.950624204042384,
+                -7.676030603568501
+              ],
+              [
+                38.95059964696387,
+                -7.675905670797379
+              ],
+              [
+                38.95057320230935,
+                -7.6757659700228675
+              ],
+              [
+                38.95054960586454,
+                -7.67559903393242
+              ],
+              [
+                38.950528857629436,
+                -7.675404862526035
+              ],
+              [
+                38.95051095760403,
+                -7.675183455803715
+              ],
+              [
+                38.95049590578832,
+                -7.67493481376546
+              ],
+              [
+                38.950483702182325,
+                -7.674658936411268
+              ],
+              [
+                38.950474346786024,
+                -7.674355823741141
+              ],
+              [
+                38.95046783959942,
+                -7.674025475755078
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.950656497841074,
+    -7.674949044296228
+  ],
+  "centroDeMassa": [
+    38.95075218779693,
+    -7.674491714191692
+  ]
+}

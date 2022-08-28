@@ -1,1 +1,584 @@
-{"CP4":"4640","CP3":"304","Distrito":"Porto","Concelho":"Baião","CP":"4640-304","Artéria":"Caminho do Arrastal","Localidade":"Grilo","Local":"Minhães","Troço":"","Porta":"","Cliente":"","Designação Postal":"GRILO","locais":[{"id":"pt.ine.add.PTCONT.3543361","rua":"R MINHAES","casa":"325","coordenadas":[41.13164318646524,-8.08061187228929]},{"id":"pt.ine.add.PTCONT.3604613","rua":"CAM TORTELO","casa":"290","coordenadas":[41.12961864115945,-8.0839003683674]},{"id":"pt.ine.add.PTCONT.3614365","rua":"CAM TORTELO","casa":"","coordenadas":[41.13002399756385,-8.084269246593273]},{"id":"pt.ine.add.PTCONT.3789501","rua":"TV MINHAES","casa":"43","coordenadas":[41.131076744452656,-8.082482077256909]},{"id":"pt.ine.add.PTCONT.3841038","rua":"CAM RIBEIRA","casa":"14","coordenadas":[41.13160774239211,-8.081886201382407]},{"id":"pt.ine.add.PTCONT.3882411","rua":"R MINHAES CASA NOVA DO GIRO","casa":"186","coordenadas":[41.13068894410035,-8.0811128187983]},{"id":"pt.ine.add.PTCONT.3902734","rua":"","casa":"","coordenadas":[41.128194506668066,-8.08065034729734]},{"id":"pt.ine.add.PTCONT.3923904","rua":"R MINHAES","casa":"370","coordenadas":[41.13231843136131,-8.080420782309393]},{"id":"pt.ine.add.PTCONT.3986098","rua":"CAM ALMINHAS","casa":"164","coordenadas":[41.12776422097853,-8.085068802371326]},{"id":"pt.ine.add.PTCONT.3991819","rua":"R MINHAES","casa":"371","coordenadas":[41.13214748307412,-8.080718655356467]},{"id":"pt.ine.add.PTCONT.4030688","rua":"CAM TORTELO","casa":"300","coordenadas":[41.129888636240416,-8.083578622485096]},{"id":"pt.ine.add.PTCONT.4030689","rua":"R NOVAIS","casa":"","coordenadas":[41.12788986156057,-8.084068381492227]},{"id":"pt.ine.add.PTCONT.4070389","rua":"TV NOVAIS","casa":"","coordenadas":[41.12797002717213,-8.082055752195325]},{"id":"pt.ine.add.PTCONT.4076734","rua":"CAM TORTELO","casa":"","coordenadas":[41.12950198158658,-8.084841264390636]},{"id":"pt.ine.add.PTCONT.4095295","rua":"R MINHAES","casa":"337","coordenadas":[41.131949342356464,-8.080623537657459]},{"id":"pt.ine.add.PTCONT.4160700","rua":"R CHÃOS","casa":"335","coordenadas":[41.131229561785695,-8.081898404804964]},{"id":"pt.ine.add.PTCONT.4258545","rua":"R MINHAES","casa":"384","coordenadas":[41.13248954808441,-8.080492102485668]},{"id":"pt.ine.add.PTCONT.4260077","rua":"CAM TORTELO","casa":"","coordenadas":[41.13019512205715,-8.084364392481522]},{"id":"pt.ine.add.PTCONT.4359265","rua":"R MINHAES","casa":"335","coordenadas":[41.13173324157266,-8.08063561925635]},{"id":"pt.ine.add.PTCONT.4359266","rua":"TV MINHAES","casa":"","coordenadas":[41.1312567175507,-8.08221993452414]},{"id":"pt.ine.add.PTCONT.4359267","rua":"TV PARADA","casa":"104","coordenadas":[41.131301501708194,-8.08168398149676]},{"id":"pt.ine.add.PTCONT.4365695","rua":"R MINHAES","casa":"","coordenadas":[41.13104046353144,-8.081886642592416]}],"ruas":["R MINHAES","CAM TORTELO","TV MINHAES","CAM RIBEIRA","R MINHAES CASA NOVA DO GIRO","","CAM ALMINHAS","R NOVAIS","TV NOVAIS","R CHÃOS","TV PARADA"],"centroide":[41.130499497137656,-8.082265865013916]}]}6]}
+{
+  "CP": "4640-304",
+  "CP4": "4640",
+  "CP3": "304",
+  "Distrito": "Porto",
+  "Concelho": "Baião",
+  "Localidade": "Grilo",
+  "Designação Postal": "GRILO",
+  "partes": [
+    {
+      "Artéria": "Calçada da Cruz",
+      "Local": "Cruz",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho da Cruz",
+      "Local": "Cruz",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Cruz",
+      "Local": "Cruz",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho da Tapada da Cruz",
+      "Local": "Cruz",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho das Alminhas",
+      "Local": "Novais",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho de Tortelo",
+      "Local": "Novais",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho de Novais",
+      "Local": "Novais",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Novais",
+      "Local": "Novais",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho do Outeiro",
+      "Local": "Outeiro",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua de Minhães",
+      "Local": "Minhães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Minhães",
+      "Local": "Minhães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho da Fonte do Vale",
+      "Local": "Minhães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho de Sobreposta",
+      "Local": "Minhães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho da Ribeira",
+      "Local": "Minhães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Caminho do Arrastal",
+      "Local": "Minhães",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3543361",
+      "rua": "R MINHAES",
+      "casa": "325",
+      "coordenadas": [
+        41.13164318646524,
+        -8.08061187228929
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3604613",
+      "rua": "CAM TORTELO",
+      "casa": "290",
+      "coordenadas": [
+        41.12961864115945,
+        -8.0839003683674
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3614365",
+      "rua": "CAM TORTELO",
+      "casa": "",
+      "coordenadas": [
+        41.13002399756385,
+        -8.084269246593273
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3789501",
+      "rua": "TV MINHAES",
+      "casa": "43",
+      "coordenadas": [
+        41.131076744452656,
+        -8.082482077256909
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3841038",
+      "rua": "CAM RIBEIRA",
+      "casa": "14",
+      "coordenadas": [
+        41.13160774239211,
+        -8.081886201382407
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3882411",
+      "rua": "R MINHAES CASA NOVA DO GIRO",
+      "casa": "186",
+      "coordenadas": [
+        41.13068894410035,
+        -8.0811128187983
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3902734",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.128194506668066,
+        -8.08065034729734
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3923904",
+      "rua": "R MINHAES",
+      "casa": "370",
+      "coordenadas": [
+        41.13231843136131,
+        -8.080420782309393
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3986098",
+      "rua": "CAM ALMINHAS",
+      "casa": "164",
+      "coordenadas": [
+        41.12776422097853,
+        -8.085068802371326
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3991819",
+      "rua": "R MINHAES",
+      "casa": "371",
+      "coordenadas": [
+        41.13214748307412,
+        -8.080718655356467
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4030688",
+      "rua": "CAM TORTELO",
+      "casa": "300",
+      "coordenadas": [
+        41.129888636240416,
+        -8.083578622485096
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4030689",
+      "rua": "R NOVAIS",
+      "casa": "",
+      "coordenadas": [
+        41.12788986156057,
+        -8.084068381492227
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4070389",
+      "rua": "TV NOVAIS",
+      "casa": "",
+      "coordenadas": [
+        41.12797002717213,
+        -8.082055752195325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4076734",
+      "rua": "CAM TORTELO",
+      "casa": "",
+      "coordenadas": [
+        41.12950198158658,
+        -8.084841264390636
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4095295",
+      "rua": "R MINHAES",
+      "casa": "337",
+      "coordenadas": [
+        41.131949342356464,
+        -8.080623537657459
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4160700",
+      "rua": "R CHÃOS",
+      "casa": "335",
+      "coordenadas": [
+        41.131229561785695,
+        -8.081898404804964
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4258545",
+      "rua": "R MINHAES",
+      "casa": "384",
+      "coordenadas": [
+        41.13248954808441,
+        -8.080492102485668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4260077",
+      "rua": "CAM TORTELO",
+      "casa": "",
+      "coordenadas": [
+        41.13019512205715,
+        -8.084364392481522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4359265",
+      "rua": "R MINHAES",
+      "casa": "335",
+      "coordenadas": [
+        41.13173324157266,
+        -8.08063561925635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4359266",
+      "rua": "TV MINHAES",
+      "casa": "",
+      "coordenadas": [
+        41.1312567175507,
+        -8.08221993452414
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4359267",
+      "rua": "TV PARADA",
+      "casa": "104",
+      "coordenadas": [
+        41.131301501708194,
+        -8.08168398149676
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4365695",
+      "rua": "R MINHAES",
+      "casa": "",
+      "coordenadas": [
+        41.13104046353144,
+        -8.081886642592416
+      ]
+    }
+  ],
+  "ruas": [
+    "R MINHAES",
+    "CAM TORTELO",
+    "TV MINHAES",
+    "CAM RIBEIRA",
+    "R MINHAES CASA NOVA DO GIRO",
+    "CAM ALMINHAS",
+    "R NOVAIS",
+    "TV NOVAIS",
+    "R CHÃOS",
+    "TV PARADA"
+  ],
+  "centro": [
+    41.130126884531464,
+    -8.08274479234036
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.12874171132056,
+                -8.084940812257189
+              ],
+              [
+                41.12852449124455,
+                -8.084969254504776
+              ],
+              [
+                41.128337639399824,
+                -8.084947062562414
+              ],
+              [
+                41.128181155786365,
+                -8.084874236430103
+              ],
+              [
+                41.12805504040419,
+                -8.084750776107844
+              ],
+              [
+                41.127959293253284,
+                -8.084576681595637
+              ],
+              [
+                41.127893914333654,
+                -8.084351952893481
+              ],
+              [
+                41.127858903645304,
+                -8.084076590001377
+              ],
+              [
+                41.12785426118823,
+                -8.083750592919326
+              ],
+              [
+                41.12787998696243,
+                -8.083373961647325
+              ],
+              [
+                41.12790600450698,
+                -8.083022449832795
+              ],
+              [
+                41.12793231382187,
+                -8.082696057475733
+              ],
+              [
+                41.127958914907126,
+                -8.082394784576138
+              ],
+              [
+                41.12798580776273,
+                -8.082118631134016
+              ],
+              [
+                41.12801299238867,
+                -8.08186759714936
+              ],
+              [
+                41.12804046878496,
+                -8.081641682622173
+              ],
+              [
+                41.128068236951606,
+                -8.081440887552457
+              ],
+              [
+                41.12809629688859,
+                -8.081265211940208
+              ],
+              [
+                41.12818528565679,
+                -8.081107908826553
+              ],
+              [
+                41.128335203256206,
+                -8.080968978211494
+              ],
+              [
+                41.12854604968682,
+                -8.08084842009503
+              ],
+              [
+                41.12881782494865,
+                -8.08074623447716
+              ],
+              [
+                41.12915052904168,
+                -8.080662421357884
+              ],
+              [
+                41.12954416196591,
+                -8.0805969807372
+              ],
+              [
+                41.12999872372136,
+                -8.080549912615112
+              ],
+              [
+                41.13051421430802,
+                -8.08052121699162
+              ],
+              [
+                41.13096794227014,
+                -8.080497222698817
+              ],
+              [
+                41.131359907607724,
+                -8.080477929736706
+              ],
+              [
+                41.131690110320775,
+                -8.080463338105286
+              ],
+              [
+                41.13195855040931,
+                -8.080453447804555
+              ],
+              [
+                41.132165227873294,
+                -8.080448258834517
+              ],
+              [
+                41.13231014271275,
+                -8.08044777119517
+              ],
+              [
+                41.13239329492767,
+                -8.080451984886512
+              ],
+              [
+                41.132414684518054,
+                -8.080460899908548
+              ],
+              [
+                41.13239755000296,
+                -8.080529205084012
+              ],
+              [
+                41.13234189138241,
+                -8.08065690041291
+              ],
+              [
+                41.13224770865637,
+                -8.080843985895235
+              ],
+              [
+                41.13211500182486,
+                -8.081090461530994
+              ],
+              [
+                41.13194377088787,
+                -8.081396327320181
+              ],
+              [
+                41.13173401584542,
+                -8.081761583262804
+              ],
+              [
+                41.131485736697485,
+                -8.082186229358854
+              ],
+              [
+                41.13119893344408,
+                -8.082670265608336
+              ],
+              [
+                41.1309371502775,
+                -8.083101248450212
+              ],
+              [
+                41.13070038719773,
+                -8.083479177884485
+              ],
+              [
+                41.13048864420479,
+                -8.08380405391115
+              ],
+              [
+                41.13030192129868,
+                -8.084075876530209
+              ],
+              [
+                41.13014021847939,
+                -8.084294645741664
+              ],
+              [
+                41.130003535746916,
+                -8.084460361545515
+              ],
+              [
+                41.12989187310127,
+                -8.08457302394176
+              ],
+              [
+                41.12980523054246,
+                -8.084632632930399
+              ],
+              [
+                41.12970226579399,
+                -8.084688346076407
+              ],
+              [
+                41.129582978855865,
+                -8.084740163379783
+              ],
+              [
+                41.1294473697281,
+                -8.084788084840527
+              ],
+              [
+                41.12929543841069,
+                -8.08483211045864
+              ],
+              [
+                41.12912718490362,
+                -8.084872240234121
+              ],
+              [
+                41.128942609206916,
+                -8.084908474166971
+              ],
+              [
+                41.12874171132056,
+                -8.084940812257189
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.129776262558316,
+    -8.082556206218742
+  ],
+  "centroDeMassa": [
+    41.130126884531464,
+    -8.08274479234036
+  ]
+}

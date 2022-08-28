@@ -1,1 +1,614 @@
-{"CP4":"1700","CP3":"198","Distrito":"Lisboa","Concelho":"Lisboa","CP":"1700-198","Artéria":"Rua Francisco de Andrade","Localidade":"Lisboa","Local":"","Troço":"Pares de 4 a 12B","Porta":"","Cliente":"","Designação Postal":"LISBOA","locais":[{"id":"pt.ine.add.PTCONT.2287625","rua":"R FRANCISCO DE ANDRADE","casa":"5","coordenadas":[38.74798973133289,-9.13297237077438]},{"id":"pt.ine.add.PTCONT.2327847","rua":"R FRANCISCO DE ANDRADE","casa":"11","coordenadas":[38.748011043330465,-9.13363982759536]},{"id":"pt.ine.add.PTCONT.2451714","rua":"R FRANCISCO DE ANDRADE","casa":"10A","coordenadas":[38.74832775678598,-9.133471706427608]},{"id":"pt.ine.add.PTCONT.2460275","rua":"R FRANCISCO DE ANDRADE","casa":"5B","coordenadas":[38.74798894420752,-9.133064381773318]},{"id":"pt.ine.add.PTCONT.2631687","rua":"R FRANCISCO ANDRADE","casa":"4","coordenadas":[38.74827903007581,-9.132849875523283]},{"id":"pt.ine.add.PTCONT.2631688","rua":"R FRANCISCO ANDRADE","casa":"4 B","coordenadas":[38.74827903007581,-9.132849875523283]},{"id":"pt.ine.add.PTCONT.2631689","rua":"R FRANCISCO DE ANDRADE","casa":"12 A","coordenadas":[38.748146046360446,-9.133653214801651]},{"id":"pt.ine.add.PTCONT.2631690","rua":"R FRANCISCO DE ANDRADE","casa":"7A","coordenadas":[38.747932837059174,-9.133305156560926]},{"id":"pt.ine.add.PTCONT.2766457","rua":"R FRANCISCO DE ANDRADE","casa":"7","coordenadas":[38.74793352596282,-9.13322464700599]},{"id":"pt.ine.add.PTCONT.2804274","rua":"R FRANCISCO ANDRADE","casa":"6A","coordenadas":[38.748286659486,-9.133011021067245]},{"id":"pt.ine.add.PTCONT.2831379","rua":"R FRANCISCO DE ANDRADE","casa":"6 B","coordenadas":[38.74828626591465,-9.133057026757175]},{"id":"pt.ine.add.PTCONT.2849303","rua":"R FRANCISCO DE ANDRADE","casa":"6C","coordenadas":[38.74828577392497,-9.133114533868325]},{"id":"pt.ine.add.PTCONT.2849304","rua":"R FRANCISCO DE ANDRADE","casa":"9A","coordenadas":[38.747931459085585,-9.133466175662543]},{"id":"pt.ine.add.PTCONT.2896879","rua":"R FRANCISCO DE ANDRADE","casa":"3B","coordenadas":[38.747981609994575,-9.13286873277312]},{"id":"pt.ine.add.PTCONT.2900251","rua":"R FRANCISCO DE ANDRADE","casa":"5A","coordenadas":[38.74798933777926,-9.133018376274297]},{"id":"pt.ine.add.PTCONT.2955136","rua":"R FRANCISCO DE ANDRADE","casa":"9","coordenadas":[38.74793214810011,-9.133385666113115]},{"id":"pt.ine.add.PTCONT.2964160","rua":"R FRANCISCO DE ANDRADE","casa":"12","coordenadas":[38.74821810048307,-9.133654220582908]},{"id":"pt.ine.add.PTCONT.3028032","rua":"R FRANCISCO DE ANDRADE","casa":"11 A","coordenadas":[38.748082999002406,-9.133652334746005]},{"id":"pt.ine.add.PTCONT.3074894","rua":"R FRANCISCO DE ANDRADE","casa":"5C","coordenadas":[38.747988550617706,-9.133110387271435]},{"id":"pt.ine.add.PTCONT.3093638","rua":"R FRANCISCO DE ANDRADE","casa":"3C","coordenadas":[38.747990223249474,-9.132914863898222]},{"id":"pt.ine.add.PTCONT.3130396","rua":"R FRANCISCO DE ANDRADE","casa":"4A","coordenadas":[38.74827932519482,-9.132815371257218]},{"id":"pt.ine.add.PTCONT.3148948","rua":"R FRANCISCO DE ANDRADE","casa":"8","coordenadas":[38.74831181015975,-9.133229925096138]},{"id":"pt.ine.add.PTCONT.3232789","rua":"R FRANCISCO DE ANDRADE","casa":"3","coordenadas":[38.747982495332124,-9.132765220403472]},{"id":"pt.ine.add.PTCONT.3310180","rua":"R FRANCISCO ANDRADE","casa":"10","coordenadas":[38.748319537471836,-9.133379569316388]},{"id":"pt.ine.add.PTCONT.3311940","rua":"R FRANCISCO DE ANDRADE","casa":"4","coordenadas":[38.74827981703725,-9.132757864145988]},{"id":"pt.ine.add.PTCONT.3334032","rua":"R FRANCISCO DE ANDRADE","casa":"6","coordenadas":[38.748278046272176,-9.13296488973984]},{"id":"pt.ine.add.PTCONT.3339951","rua":"R FRANCISCO DE ANDRADE","casa":"6","coordenadas":[38.748278046272176,-9.13296488973984]},{"id":"pt.ine.add.PTCONT.3398662","rua":"R FRANCISCO DE ANDRADE","casa":"8A","coordenadas":[38.74832012801293,-9.133310560755925]},{"id":"pt.ine.add.PTCONT.3416227","rua":"R FRANCISCO ANDRADE","casa":"46","coordenadas":[38.74827853818814,-9.132907382632265]},{"id":"pt.ine.add.PTCONT.3448509","rua":"R FRANCISCO DE ANDRADE","casa":"3A","coordenadas":[38.747982101860075,-9.132811225901657]}],"ruas":["R FRANCISCO DE ANDRADE","R FRANCISCO ANDRADE"],"centroide":[38.74814444195758,-9.133151036830595]}
+{
+  "CP": "1700-198",
+  "CP4": "1700",
+  "CP3": "198",
+  "Distrito": "Lisboa",
+  "Concelho": "Lisboa",
+  "Localidade": "Lisboa",
+  "Designação Postal": "LISBOA",
+  "partes": [
+    {
+      "Artéria": "Rua Francisco de Andrade",
+      "Local": "",
+      "Troço": "Pares de 4 a 12B",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2287625",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "5",
+      "coordenadas": [
+        38.74798973133289,
+        -9.13297237077438
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2327847",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "11",
+      "coordenadas": [
+        38.748011043330465,
+        -9.13363982759536
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2451714",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "10A",
+      "coordenadas": [
+        38.74832775678598,
+        -9.133471706427608
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2460275",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "5B",
+      "coordenadas": [
+        38.74798894420752,
+        -9.133064381773318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2631687",
+      "rua": "R FRANCISCO ANDRADE",
+      "casa": "4",
+      "coordenadas": [
+        38.74827903007581,
+        -9.132849875523283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2631688",
+      "rua": "R FRANCISCO ANDRADE",
+      "casa": "4 B",
+      "coordenadas": [
+        38.74827903007581,
+        -9.132849875523283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2631689",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "12 A",
+      "coordenadas": [
+        38.748146046360446,
+        -9.133653214801651
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2631690",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "7A",
+      "coordenadas": [
+        38.747932837059174,
+        -9.133305156560926
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2766457",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "7",
+      "coordenadas": [
+        38.74793352596282,
+        -9.13322464700599
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2804274",
+      "rua": "R FRANCISCO ANDRADE",
+      "casa": "6A",
+      "coordenadas": [
+        38.748286659486,
+        -9.133011021067245
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2831379",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "6 B",
+      "coordenadas": [
+        38.74828626591465,
+        -9.133057026757175
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2849303",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "6C",
+      "coordenadas": [
+        38.74828577392497,
+        -9.133114533868325
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2849304",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "9A",
+      "coordenadas": [
+        38.747931459085585,
+        -9.133466175662543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2896879",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "3B",
+      "coordenadas": [
+        38.747981609994575,
+        -9.13286873277312
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2900251",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "5A",
+      "coordenadas": [
+        38.74798933777926,
+        -9.133018376274297
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2955136",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "9",
+      "coordenadas": [
+        38.74793214810011,
+        -9.133385666113115
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2964160",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "12",
+      "coordenadas": [
+        38.74821810048307,
+        -9.133654220582908
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3028032",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "11 A",
+      "coordenadas": [
+        38.748082999002406,
+        -9.133652334746005
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3074894",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "5C",
+      "coordenadas": [
+        38.747988550617706,
+        -9.133110387271435
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3093638",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "3C",
+      "coordenadas": [
+        38.747990223249474,
+        -9.132914863898222
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3130396",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "4A",
+      "coordenadas": [
+        38.74827932519482,
+        -9.132815371257218
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3148948",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "8",
+      "coordenadas": [
+        38.74831181015975,
+        -9.133229925096138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3232789",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "3",
+      "coordenadas": [
+        38.747982495332124,
+        -9.132765220403472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3310180",
+      "rua": "R FRANCISCO ANDRADE",
+      "casa": "10",
+      "coordenadas": [
+        38.748319537471836,
+        -9.133379569316388
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3311940",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "4",
+      "coordenadas": [
+        38.74827981703725,
+        -9.132757864145988
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3334032",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "6",
+      "coordenadas": [
+        38.748278046272176,
+        -9.13296488973984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3339951",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "6",
+      "coordenadas": [
+        38.748278046272176,
+        -9.13296488973984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3398662",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "8A",
+      "coordenadas": [
+        38.74832012801293,
+        -9.133310560755925
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3416227",
+      "rua": "R FRANCISCO ANDRADE",
+      "casa": "46",
+      "coordenadas": [
+        38.74827853818814,
+        -9.132907382632265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3448509",
+      "rua": "R FRANCISCO DE ANDRADE",
+      "casa": "3A",
+      "coordenadas": [
+        38.747982101860075,
+        -9.132811225901657
+      ]
+    }
+  ],
+  "ruas": [
+    "R FRANCISCO DE ANDRADE",
+    "R FRANCISCO ANDRADE"
+  ],
+  "centro": [
+    38.74812960793578,
+    -9.13320604236445
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.74797622522333,
+                -9.133563854874751
+              ],
+              [
+                38.747966277192724,
+                -9.13354214838315
+              ],
+              [
+                38.747957604960895,
+                -9.13351938131774
+              ],
+              [
+                38.747950208527854,
+                -9.133495553678522
+              ],
+              [
+                38.74794408789359,
+                -9.133470665465495
+              ],
+              [
+                38.74793924305811,
+                -9.133444716678657
+              ],
+              [
+                38.74793567402142,
+                -9.133417707318014
+              ],
+              [
+                38.74793338078351,
+                -9.133389637383562
+              ],
+              [
+                38.747932363344376,
+                -9.133360506875302
+              ],
+              [
+                38.74793262170403,
+                -9.13333031579323
+              ],
+              [
+                38.74793361291512,
+                -9.133296720055757
+              ],
+              [
+                38.747935336977655,
+                -9.133259719662878
+              ],
+              [
+                38.74793779389162,
+                -9.13321931461459
+              ],
+              [
+                38.74794098365703,
+                -9.133175504910898
+              ],
+              [
+                38.74794490627388,
+                -9.133128290551802
+              ],
+              [
+                38.74794956174217,
+                -9.133077671537297
+              ],
+              [
+                38.747954950061896,
+                -9.13302364786739
+              ],
+              [
+                38.74796107123305,
+                -9.132966219542073
+              ],
+              [
+                38.747971072909465,
+                -9.1329158548159
+              ],
+              [
+                38.74798495509112,
+                -9.132872553688868
+              ],
+              [
+                38.74800271777802,
+                -9.132836316160976
+              ],
+              [
+                38.74802436097018,
+                -9.132807142232227
+              ],
+              [
+                38.74804988466758,
+                -9.132785031902618
+              ],
+              [
+                38.74807928887023,
+                -9.13276998517215
+              ],
+              [
+                38.74811257357812,
+                -9.132762002040824
+              ],
+              [
+                38.748149738791255,
+                -9.132761082508637
+              ],
+              [
+                38.74818288821175,
+                -9.132768913802504
+              ],
+              [
+                38.7482120218396,
+                -9.132785495922427
+              ],
+              [
+                38.7482371396748,
+                -9.1328108288684
+              ],
+              [
+                38.74825824171734,
+                -9.13284491264043
+              ],
+              [
+                38.74827532796724,
+                -9.132887747238511
+              ],
+              [
+                38.7482883984245,
+                -9.132939332662646
+              ],
+              [
+                38.74829745308911,
+                -9.132999668912834
+              ],
+              [
+                38.74830249196107,
+                -9.133068755989079
+              ],
+              [
+                38.74830702017361,
+                -9.13313172508191
+              ],
+              [
+                38.74831103772674,
+                -9.133188576191332
+              ],
+              [
+                38.748314544620456,
+                -9.133239309317343
+              ],
+              [
+                38.74831754085475,
+                -9.133283924459944
+              ],
+              [
+                38.74832002642963,
+                -9.133322421619136
+              ],
+              [
+                38.748322001345095,
+                -9.133354800794915
+              ],
+              [
+                38.74832346560114,
+                -9.133381061987286
+              ],
+              [
+                38.74832441919777,
+                -9.133401205196247
+              ],
+              [
+                38.74832354021508,
+                -9.133421682287764
+              ],
+              [
+                38.74832082865309,
+                -9.133442493261837
+              ],
+              [
+                38.74831628451179,
+                -9.133463638118467
+              ],
+              [
+                38.74830990779118,
+                -9.133485116857653
+              ],
+              [
+                38.74830169849125,
+                -9.133506929479397
+              ],
+              [
+                38.74829165661201,
+                -9.133529075983697
+              ],
+              [
+                38.74827978215346,
+                -9.133551556370552
+              ],
+              [
+                38.748266075115595,
+                -9.133574370639966
+              ],
+              [
+                38.74825197049684,
+                -9.1335943036595
+              ],
+              [
+                38.74823746829716,
+                -9.133611355429155
+              ],
+              [
+                38.748222568516596,
+                -9.133625525948933
+              ],
+              [
+                38.74820727115511,
+                -9.133636815218834
+              ],
+              [
+                38.74819157621273,
+                -9.133645223238855
+              ],
+              [
+                38.748175483689465,
+                -9.133650750008998
+              ],
+              [
+                38.74815899358528,
+                -9.133653395529263
+              ],
+              [
+                38.7481421059002,
+                -9.13365315979965
+              ],
+              [
+                38.74812620486837,
+                -9.13365275811201
+              ],
+              [
+                38.74811129048982,
+                -9.133652190466343
+              ],
+              [
+                38.74809736276451,
+                -9.133651456862648
+              ],
+              [
+                38.74808442169248,
+                -9.133650557300927
+              ],
+              [
+                38.7480724672737,
+                -9.133649491781178
+              ],
+              [
+                38.74806149950818,
+                -9.133648260303403
+              ],
+              [
+                38.748051518395926,
+                -9.133646862867598
+              ],
+              [
+                38.748042523936945,
+                -9.133645299473766
+              ],
+              [
+                38.7480334102815,
+                -9.133641218192714
+              ],
+              [
+                38.7480241774296,
+                -9.133634619024441
+              ],
+              [
+                38.748014825381254,
+                -9.133625501968947
+              ],
+              [
+                38.748005354136446,
+                -9.133613867026229
+              ],
+              [
+                38.747995763695194,
+                -9.13359971419629
+              ],
+              [
+                38.74798605405749,
+                -9.133583043479131
+              ],
+              [
+                38.74797622522333,
+                -9.133563854874751
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.74812081389252,
+    -9.133326950813975
+  ],
+  "centroDeMassa": [
+    38.74812960793578,
+    -9.13320604236445
+  ]
+}

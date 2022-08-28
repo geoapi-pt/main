@@ -1,1 +1,280 @@
-{"CP4":"7090","CP3":"421","Distrito":"Évora","Concelho":"Viana do Alentejo","CP":"7090-421","Artéria":"Travessa de Santa Catarina","Localidade":"Aguiar","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"AGUIAR VNT","locais":[{"id":"pt.ine.add.PTCONT.1369609","rua":"R JOSE GERALDO CARAVELA","casa":"9","coordenadas":[38.39248319356142,-7.963956426016152]},{"id":"pt.ine.add.PTCONT.1384841","rua":"R JOSE GERALDO CARAVELA","casa":"2","coordenadas":[38.393853308320296,-7.964508427432142]},{"id":"pt.ine.add.PTCONT.1386367","rua":"R JOSE GERALDO CARAVELA","casa":"7","coordenadas":[38.392637306123966,-7.964065811260383]},{"id":"pt.ine.add.PTCONT.1393669","rua":"R JOSE GERALDO CARAVELA","casa":"17","coordenadas":[38.391563757103306,-7.96357513655754]},{"id":"pt.ine.add.PTCONT.1395083","rua":"R JOSE GERALDO CARAVELA","casa":"11","coordenadas":[38.3922391941948,-7.963888315226461]},{"id":"pt.ine.add.PTCONT.1415515","rua":"R JOSE GERALDO CARAVELA","casa":"5","coordenadas":[38.39282187382321,-7.964171788271623]},{"id":"pt.ine.add.PTCONT.1417867","rua":"","casa":"","coordenadas":[38.39274600709176,-7.971447648905618]},{"id":"pt.ine.add.PTCONT.1422466","rua":"R JOSE GERALDO CARAVELA","casa":"3","coordenadas":[38.39310529380483,-7.96430412429378]},{"id":"pt.ine.add.PTCONT.1428371","rua":"R JOSE GERALDO CARAVELA","casa":"1","coordenadas":[38.39382682506884,-7.964886232916588]},{"id":"pt.ine.add.PTCONT.1428372","rua":"R JOSE GERALDO CARAVELA","casa":"1","coordenadas":[38.39382682506884,-7.964886232916588]}],"ruas":["R JOSE GERALDO CARAVELA",""],"centroide":[38.392808528788045,-7.964978212320032]}
+{
+  "CP": "7090-421",
+  "CP4": "7090",
+  "CP3": "421",
+  "Distrito": "Évora",
+  "Concelho": "Viana do Alentejo",
+  "Localidade": "Aguiar",
+  "Designação Postal": "AGUIAR VNT",
+  "partes": [
+    {
+      "Artéria": "Rua José Geraldo Caravela",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa de Santa Catarina",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1369609",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "9",
+      "coordenadas": [
+        38.39248319356142,
+        -7.963956426016152
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1384841",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "2",
+      "coordenadas": [
+        38.393853308320296,
+        -7.964508427432142
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1386367",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "7",
+      "coordenadas": [
+        38.392637306123966,
+        -7.964065811260383
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1393669",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "17",
+      "coordenadas": [
+        38.391563757103306,
+        -7.96357513655754
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1395083",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "11",
+      "coordenadas": [
+        38.3922391941948,
+        -7.963888315226461
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1415515",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "5",
+      "coordenadas": [
+        38.39282187382321,
+        -7.964171788271623
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1417867",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        38.39274600709176,
+        -7.971447648905618
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1422466",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "3",
+      "coordenadas": [
+        38.39310529380483,
+        -7.96430412429378
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428371",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "1",
+      "coordenadas": [
+        38.39382682506884,
+        -7.964886232916588
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428372",
+      "rua": "R JOSE GERALDO CARAVELA",
+      "casa": "1",
+      "coordenadas": [
+        38.39382682506884,
+        -7.964886232916588
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOSE GERALDO CARAVELA"
+  ],
+  "centro": [
+    38.3927085327118,
+    -7.967511392731579
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.39222877272181,
+                -7.968003424753334
+              ],
+              [
+                38.39208099147325,
+                -7.967019360709823
+              ],
+              [
+                38.39198745711853,
+                -7.966172887341668
+              ],
+              [
+                38.39194816965764,
+                -7.965464004648868
+              ],
+              [
+                38.39196312909059,
+                -7.964892712631421
+              ],
+              [
+                38.392032335417376,
+                -7.964459011289328
+              ],
+              [
+                38.39215578863799,
+                -7.964162900622591
+              ],
+              [
+                38.392333488752456,
+                -7.9640043806312075
+              ],
+              [
+                38.392565435760744,
+                -7.963983451315178
+              ],
+              [
+                38.39285162966286,
+                -7.964100112674504
+              ],
+              [
+                38.39310163552641,
+                -7.964208094574608
+              ],
+              [
+                38.3933154533514,
+                -7.96430739701549
+              ],
+              [
+                38.39349308313781,
+                -7.964398019997152
+              ],
+              [
+                38.39363452488567,
+                -7.964479963519592
+              ],
+              [
+                38.39373977859494,
+                -7.964553227582812
+              ],
+              [
+                38.39380884426565,
+                -7.96461781218681
+              ],
+              [
+                38.393841721897786,
+                -7.9646737173315865
+              ],
+              [
+                38.39383841149135,
+                -7.964720943017143
+              ],
+              [
+                38.393818627104835,
+                -7.964864787616833
+              ],
+              [
+                38.39378236873823,
+                -7.965105251130656
+              ],
+              [
+                38.39372963639153,
+                -7.965442333558615
+              ],
+              [
+                38.39366043006475,
+                -7.965876034900708
+              ],
+              [
+                38.393574749757875,
+                -7.966406355156934
+              ],
+              [
+                38.39347259547091,
+                -7.967033294327295
+              ],
+              [
+                38.393353967203865,
+                -7.967756852411789
+              ],
+              [
+                38.39321886495674,
+                -7.968577029410417
+              ],
+              [
+                38.39308217783442,
+                -7.969171676278778
+              ],
+              [
+                38.39294390583693,
+                -7.969540793016874
+              ],
+              [
+                38.392804048964265,
+                -7.9696843796247006
+              ],
+              [
+                38.39266260721641,
+                -7.969602436102258
+              ],
+              [
+                38.39251958059339,
+                -7.969294962449551
+              ],
+              [
+                38.39237496909519,
+                -7.968761958666576
+              ],
+              [
+                38.39222877272181,
+                -7.968003424753334
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.392997474396054,
+    -7.966104361452971
+  ],
+  "centroDeMassa": [
+    38.3927085327118,
+    -7.967511392731579
+  ]
+}

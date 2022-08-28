@@ -1,1 +1,383 @@
-{"CP4":"8700","CP3":"095","Distrito":"Faro","Concelho":"Olhão","CP":"8700-095","Artéria":"Rua de Santo Cristo","Localidade":"Moncarapacho","Local":"","Troço":"Impares de 7 a 31","Porta":"","Cliente":"","Designação Postal":"MONCARAPACHO","locais":[{"id":"pt.ine.add.PTCONT.1489079","rua":"R SANTO CRISTO","casa":"","coordenadas":[37.08450823792628,-7.788041513502965]},{"id":"pt.ine.add.PTCONT.1492279","rua":"R SANTO CRISTO","casa":"17 A","coordenadas":[37.084410037891146,-7.7883568709979665]},{"id":"pt.ine.add.PTCONT.1500989","rua":"R SANTO CRISTO","casa":"23","coordenadas":[37.08431160834692,-7.78859350072854]},{"id":"pt.ine.add.PTCONT.1501464","rua":"R SANTO CRISTO","casa":"23","coordenadas":[37.08431160834692,-7.78859350072854]},{"id":"pt.ine.add.PTCONT.1540953","rua":"R SANTO CRISTO","casa":"9","coordenadas":[37.08449860547272,-7.787827866383522]},{"id":"pt.ine.add.PTCONT.1555111","rua":"R STO CRISTO","casa":"29","coordenadas":[37.08421321097291,-7.78884137654368]},{"id":"pt.ine.add.PTCONT.1555112","rua":"R SANTO CRISTO","casa":"19","coordenadas":[37.084383235117436,-7.788435720444669]},{"id":"pt.ine.add.PTCONT.1563522","rua":"R SANTO CRISTO","casa":"15","coordenadas":[37.0844815335043,-7.788154103358708]},{"id":"pt.ine.add.PTCONT.1563523","rua":"R SANTO CRISTO","casa":"15","coordenadas":[37.0844815335043,-7.788154103358708]},{"id":"pt.ine.add.PTCONT.1625336","rua":"R SANTO CRISTO","casa":"","coordenadas":[37.0843482057148,-7.788784531745668]},{"id":"pt.ine.add.PTCONT.1644890","rua":"R SANTO CRISTO","casa":"17","coordenadas":[37.08443687331163,-7.788289268222225]},{"id":"pt.ine.add.PTCONT.1650934","rua":"R SANTO CRISTO","casa":"27","coordenadas":[37.084248959241044,-7.788739993258476]},{"id":"pt.ine.add.PTCONT.1650935","rua":"R SANTO CRISTO","casa":"27","coordenadas":[37.084248959241044,-7.788739993258476]},{"id":"pt.ine.add.PTCONT.1650936","rua":"R SANTO CRISTO","casa":"27","coordenadas":[37.084248959241044,-7.788739993258476]},{"id":"pt.ine.add.PTCONT.1650937","rua":"R SANTO CRISTO","casa":"27","coordenadas":[37.084248959241044,-7.788739993258476]},{"id":"pt.ine.add.PTCONT.1650938","rua":"R SANTO CRISTO","casa":"27","coordenadas":[37.084248959241044,-7.788739993258476]},{"id":"pt.ine.add.PTCONT.1739557","rua":"R STO CRISTO","casa":"15","coordenadas":[37.08425930778135,-7.789201067223572]},{"id":"pt.ine.add.PTCONT.1757858","rua":"R SANTO CRISTO","casa":"6","coordenadas":[37.08440187700708,-7.788649326554564]},{"id":"pt.ine.add.PTCONT.1783786","rua":"R SANTO CRISTO","casa":"31","coordenadas":[37.08427670901736,-7.788987298445278]},{"id":"pt.ine.add.PTCONT.1808534","rua":"R SANTO CRISTO","casa":"","coordenadas":[37.084285980578095,-7.789077231351693]},{"id":"pt.ine.add.PTCONT.1815169","rua":"LG PADRE ISIDORO","casa":"2","coordenadas":[37.08459011774699,-7.788311067876093]},{"id":"pt.ine.add.PTCONT.1840820","rua":"R SANTO CRISTO","casa":"27","coordenadas":[37.084248959241044,-7.788739993258476]}],"ruas":["R SANTO CRISTO","R STO CRISTO","LG PADRE ISIDORO"],"centroide":[37.08435445135454,-7.788571348274227]}
+{
+  "CP": "8700-095",
+  "CP4": "8700",
+  "CP3": "095",
+  "Distrito": "Faro",
+  "Concelho": "Olhão",
+  "Localidade": "Moncarapacho",
+  "Designação Postal": "MONCARAPACHO",
+  "partes": [
+    {
+      "Artéria": "Rua de Santo Cristo",
+      "Local": "",
+      "Troço": "Impares de 7 a 31",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1489079",
+      "rua": "R SANTO CRISTO",
+      "casa": "",
+      "coordenadas": [
+        37.08450823792628,
+        -7.788041513502965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1492279",
+      "rua": "R SANTO CRISTO",
+      "casa": "17 A",
+      "coordenadas": [
+        37.084410037891146,
+        -7.7883568709979665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1500989",
+      "rua": "R SANTO CRISTO",
+      "casa": "23",
+      "coordenadas": [
+        37.08431160834692,
+        -7.78859350072854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1501464",
+      "rua": "R SANTO CRISTO",
+      "casa": "23",
+      "coordenadas": [
+        37.08431160834692,
+        -7.78859350072854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1540953",
+      "rua": "R SANTO CRISTO",
+      "casa": "9",
+      "coordenadas": [
+        37.08449860547272,
+        -7.787827866383522
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1555111",
+      "rua": "R STO CRISTO",
+      "casa": "29",
+      "coordenadas": [
+        37.08421321097291,
+        -7.78884137654368
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1555112",
+      "rua": "R SANTO CRISTO",
+      "casa": "19",
+      "coordenadas": [
+        37.084383235117436,
+        -7.788435720444669
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1563522",
+      "rua": "R SANTO CRISTO",
+      "casa": "15",
+      "coordenadas": [
+        37.0844815335043,
+        -7.788154103358708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1563523",
+      "rua": "R SANTO CRISTO",
+      "casa": "15",
+      "coordenadas": [
+        37.0844815335043,
+        -7.788154103358708
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1625336",
+      "rua": "R SANTO CRISTO",
+      "casa": "",
+      "coordenadas": [
+        37.0843482057148,
+        -7.788784531745668
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1644890",
+      "rua": "R SANTO CRISTO",
+      "casa": "17",
+      "coordenadas": [
+        37.08443687331163,
+        -7.788289268222225
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1650934",
+      "rua": "R SANTO CRISTO",
+      "casa": "27",
+      "coordenadas": [
+        37.084248959241044,
+        -7.788739993258476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1650935",
+      "rua": "R SANTO CRISTO",
+      "casa": "27",
+      "coordenadas": [
+        37.084248959241044,
+        -7.788739993258476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1650936",
+      "rua": "R SANTO CRISTO",
+      "casa": "27",
+      "coordenadas": [
+        37.084248959241044,
+        -7.788739993258476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1650937",
+      "rua": "R SANTO CRISTO",
+      "casa": "27",
+      "coordenadas": [
+        37.084248959241044,
+        -7.788739993258476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1650938",
+      "rua": "R SANTO CRISTO",
+      "casa": "27",
+      "coordenadas": [
+        37.084248959241044,
+        -7.788739993258476
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1739557",
+      "rua": "R STO CRISTO",
+      "casa": "15",
+      "coordenadas": [
+        37.08425930778135,
+        -7.789201067223572
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1757858",
+      "rua": "R SANTO CRISTO",
+      "casa": "6",
+      "coordenadas": [
+        37.08440187700708,
+        -7.788649326554564
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1783786",
+      "rua": "R SANTO CRISTO",
+      "casa": "31",
+      "coordenadas": [
+        37.08427670901736,
+        -7.788987298445278
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1808534",
+      "rua": "R SANTO CRISTO",
+      "casa": "",
+      "coordenadas": [
+        37.084285980578095,
+        -7.789077231351693
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1815169",
+      "rua": "LG PADRE ISIDORO",
+      "casa": "2",
+      "coordenadas": [
+        37.08459011774699,
+        -7.788311067876093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1840820",
+      "rua": "R SANTO CRISTO",
+      "casa": "27",
+      "coordenadas": [
+        37.084248959241044,
+        -7.788739993258476
+      ]
+    }
+  ],
+  "ruas": [
+    "R SANTO CRISTO",
+    "R STO CRISTO",
+    "LG PADRE ISIDORO"
+  ],
+  "centro": [
+    37.08440166435995,
+    -7.788514466803547
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                37.08423914042766,
+                -7.78904370255112
+              ],
+              [
+                37.08423337832661,
+                -7.788998741216132
+              ],
+              [
+                37.08423279577725,
+                -7.788943563951767
+              ],
+              [
+                37.08423739277957,
+                -7.788878170758023
+              ],
+              [
+                37.08424716933359,
+                -7.788802561634899
+              ],
+              [
+                37.0842621254393,
+                -7.788716736582396
+              ],
+              [
+                37.0842822610967,
+                -7.788620695600514
+              ],
+              [
+                37.08430757630579,
+                -7.788514438689251
+              ],
+              [
+                37.084338071066576,
+                -7.788397965848611
+              ],
+              [
+                37.084373745379054,
+                -7.788271277078592
+              ],
+              [
+                37.08440639028176,
+                -7.788167974428146
+              ],
+              [
+                37.084436005774684,
+                -7.788088057897274
+              ],
+              [
+                37.084462591857836,
+                -7.788031527485976
+              ],
+              [
+                37.08448614853122,
+                -7.7879983831942505
+              ],
+              [
+                37.08450667579482,
+                -7.7879886250221
+              ],
+              [
+                37.08452417364865,
+                -7.788002252969525
+              ],
+              [
+                37.08453864209271,
+                -7.788039267036522
+              ],
+              [
+                37.084550081127,
+                -7.7880996672230935
+              ],
+              [
+                37.08455492137628,
+                -7.788166423626148
+              ],
+              [
+                37.084553162840564,
+                -7.788239536245685
+              ],
+              [
+                37.084544805519855,
+                -7.788319005081705
+              ],
+              [
+                37.08452984941415,
+                -7.788404830134208
+              ],
+              [
+                37.084508294523445,
+                -7.788497011403194
+              ],
+              [
+                37.08448014084773,
+                -7.788595548888663
+              ],
+              [
+                37.084445388387024,
+                -7.788700442590615
+              ],
+              [
+                37.084404037141326,
+                -7.78881169250905
+              ],
+              [
+                37.084367134538695,
+                -7.7889034160208075
+              ],
+              [
+                37.084334680579154,
+                -7.788975613125886
+              ],
+              [
+                37.084306675262695,
+                -7.789028283824288
+              ],
+              [
+                37.08428311858931,
+                -7.789061428116013
+              ],
+              [
+                37.08426401055902,
+                -7.789075046001059
+              ],
+              [
+                37.0842493511718,
+                -7.789069137479428
+              ],
+              [
+                37.08423914042766,
+                -7.78904370255112
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    37.0843903104935,
+    -7.788545344506717
+  ],
+  "centroDeMassa": [
+    37.08440166435995,
+    -7.788514466803547
+  ]
+}

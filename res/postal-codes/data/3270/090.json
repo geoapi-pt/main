@@ -1,1 +1,391 @@
-{"CP4":"3270","CP3":"090","Distrito":"Leiria","Concelho":"Pedrógão Grande","CP":"3270-090","Artéria":"Avenida Comendador Manuel Nunes Corrêa","Localidade":"Pedrógão Grande","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PEDRÓGÃO GRANDE","locais":[{"id":"pt.ine.add.PTCONT.1985567","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91433379992053,-8.146932818233696]},{"id":"pt.ine.add.PTCONT.2003211","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91438774184566,-8.147716451084987]},{"id":"pt.ine.add.PTCONT.2006530","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.914531863670035,-8.147552739448274]},{"id":"pt.ine.add.PTCONT.2021818","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.914189631766185,-8.147482492654698]},{"id":"pt.ine.add.PTCONT.2033420","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91464913450489,-8.145950426425975]},{"id":"pt.ine.add.PTCONT.2083170","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.914243712723085,-8.147131629169639]},{"id":"pt.ine.add.PTCONT.2121120","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.914441913123945,-8.146617051748228]},{"id":"pt.ine.add.PTCONT.2130150","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"11","coordenadas":[39.914324646743836,-8.148114096244209]},{"id":"pt.ine.add.PTCONT.2136784","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.914604076704585,-8.146184335763758]},{"id":"pt.ine.add.PTCONT.2151943","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.914604124694534,-8.145751587929562]},{"id":"pt.ine.add.PTCONT.2169518","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91455000402434,-8.146488418320661]},{"id":"pt.ine.add.PTCONT.2175938","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91451379629471,-8.147985482927186]},{"id":"pt.ine.add.PTCONT.2226786","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91518958384475,-8.145307248065548]},{"id":"pt.ine.add.PTCONT.2226787","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91518958384475,-8.145307248065548]},{"id":"pt.ine.add.PTCONT.2248944","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91466700891548,-8.147143411395854]},{"id":"pt.ine.add.PTCONT.2263653","rua":"AV COMEND MANUEL NUNES CORREIA","casa":"","coordenadas":[39.91425269484053,-8.147330460075253]}],"ruas":["AV COMEND MANUEL NUNES CORREIA"],"centroide":[39.91456137484142,-8.146777695831855]}
+{
+  "CP": "3270-090",
+  "CP4": "3270",
+  "CP3": "090",
+  "Distrito": "Leiria",
+  "Concelho": "Pedrógão Grande",
+  "Localidade": "Pedrógão Grande",
+  "Designação Postal": "PEDRÓGÃO GRANDE",
+  "partes": [
+    {
+      "Artéria": "Avenida Comendador Manuel Nunes Corrêa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1985567",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91433379992053,
+        -8.146932818233696
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2003211",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91438774184566,
+        -8.147716451084987
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2006530",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.914531863670035,
+        -8.147552739448274
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2021818",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.914189631766185,
+        -8.147482492654698
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2033420",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91464913450489,
+        -8.145950426425975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2083170",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.914243712723085,
+        -8.147131629169639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2121120",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.914441913123945,
+        -8.146617051748228
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2130150",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "11",
+      "coordenadas": [
+        39.914324646743836,
+        -8.148114096244209
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2136784",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.914604076704585,
+        -8.146184335763758
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2151943",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.914604124694534,
+        -8.145751587929562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2169518",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91455000402434,
+        -8.146488418320661
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2175938",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91451379629471,
+        -8.147985482927186
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2226786",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91518958384475,
+        -8.145307248065548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2226787",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91518958384475,
+        -8.145307248065548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2248944",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91466700891548,
+        -8.147143411395854
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2263653",
+      "rua": "AV COMEND MANUEL NUNES CORREIA",
+      "casa": "",
+      "coordenadas": [
+        39.91425269484053,
+        -8.147330460075253
+      ]
+    }
+  ],
+  "ruas": [
+    "AV COMEND MANUEL NUNES CORREIA"
+  ],
+  "centro": [
+    39.91468960780547,
+    -8.146710672154878
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.91426557769112,
+                -8.147837769673798
+              ],
+              [
+                39.91424870081891,
+                -8.147758819225109
+              ],
+              [
+                39.91423477857068,
+                -8.147684255340552
+              ],
+              [
+                39.914223810946424,
+                -8.147614078020126
+              ],
+              [
+                39.91421579794615,
+                -8.147548287263835
+              ],
+              [
+                39.91421073956985,
+                -8.147486883071673
+              ],
+              [
+                39.91420863581753,
+                -8.147429865443645
+              ],
+              [
+                39.914209486689195,
+                -8.14737723437975
+              ],
+              [
+                39.91421329218483,
+                -8.147328989879984
+              ],
+              [
+                39.91422005230444,
+                -8.147285131944352
+              ],
+              [
+                39.91423159884616,
+                -8.147225193106298
+              ],
+              [
+                39.914247931809975,
+                -8.147149173365822
+              ],
+              [
+                39.914269051195895,
+                -8.147057072722923
+              ],
+              [
+                39.91429495700392,
+                -8.146948891177601
+              ],
+              [
+                39.91432564923404,
+                -8.146824628729858
+              ],
+              [
+                39.914361127886266,
+                -8.146684285379692
+              ],
+              [
+                39.91440139296059,
+                -8.146527861127105
+              ],
+              [
+                39.91444644445702,
+                -8.146355355972096
+              ],
+              [
+                39.91449501231562,
+                -8.146197471151087
+              ],
+              [
+                39.91454709653639,
+                -8.146054206664079
+              ],
+              [
+                39.91460269711933,
+                -8.145925562511072
+              ],
+              [
+                39.91466181406443,
+                -8.145811538692067
+              ],
+              [
+                39.914724447371704,
+                -8.145712135207063
+              ],
+              [
+                39.91479059704115,
+                -8.14562735205606
+              ],
+              [
+                39.914860263072754,
+                -8.145557189239057
+              ],
+              [
+                39.91493344546653,
+                -8.145501646756053
+              ],
+              [
+                39.914986920880615,
+                -8.14549489450314
+              ],
+              [
+                39.91502068931501,
+                -8.145536932480315
+              ],
+              [
+                39.915034750769706,
+                -8.145627760687578
+              ],
+              [
+                39.91502910524473,
+                -8.14576737912493
+              ],
+              [
+                39.91500375274005,
+                -8.14595578779237
+              ],
+              [
+                39.91495869325567,
+                -8.146192986689897
+              ],
+              [
+                39.914893926791606,
+                -8.146478975817514
+              ],
+              [
+                39.91480945334786,
+                -8.14681375517522
+              ],
+              [
+                39.914732583622836,
+                -8.14710869669629
+              ],
+              [
+                39.91466331761656,
+                -8.147363800380726
+              ],
+              [
+                39.914601655329015,
+                -8.147579066228527
+              ],
+              [
+                39.91454759676021,
+                -8.147754494239692
+              ],
+              [
+                39.91450114191014,
+                -8.147890084414225
+              ],
+              [
+                39.9144622907788,
+                -8.14798583675212
+              ],
+              [
+                39.91443104336621,
+                -8.148041751253384
+              ],
+              [
+                39.91440739967234,
+                -8.148057827918011
+              ],
+              [
+                39.914384601831195,
+                -8.148062026193475
+              ],
+              [
+                39.914362649842744,
+                -8.148054346079773
+              ],
+              [
+                39.914341543707,
+                -8.148034787576908
+              ],
+              [
+                39.91432128342397,
+                -8.148003350684878
+              ],
+              [
+                39.91430186899365,
+                -8.147960035403683
+              ],
+              [
+                39.91428330041603,
+                -8.147904841733322
+              ],
+              [
+                39.91426557769112,
+                -8.147837769673798
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.91451091601118,
+    -8.146962089498473
+  ],
+  "centroDeMassa": [
+    39.91468960780547,
+    -8.146710672154878
+  ]
+}

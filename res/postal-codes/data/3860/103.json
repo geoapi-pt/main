@@ -1,1 +1,455 @@
-{"CP4":"3860","CP3":"103","Distrito":"Aveiro","Concelho":"Estarreja","CP":"3860-103","Artéria":"Rua António Pereira Alveitar","Localidade":"Avanca","Local":"Sardinha","Troço":"","Porta":"","Cliente":"","Designação Postal":"AVANCA","locais":[{"id":"pt.ine.add.PTCONT.295759","rua":"R ANTÓNIO PEREIRA","casa":"64","coordenadas":[40.79433025401264,-8.570378721654555]},{"id":"pt.ine.add.PTCONT.305762","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"126","coordenadas":[40.79312130671385,-8.575702665255058]},{"id":"pt.ine.add.PTCONT.311671","rua":"R ANTÓNIO PEREIRA","casa":"2","coordenadas":[40.79727958643865,-8.569130193198571]},{"id":"pt.ine.add.PTCONT.316751","rua":"R ANTÓNIO PEREIRA","casa":"40","coordenadas":[40.795548669327985,-8.569652075267486]},{"id":"pt.ine.add.PTCONT.319470","rua":"R ANTÓNIO PEREIRA","casa":"46","coordenadas":[40.79516016699842,-8.569993150707305]},{"id":"pt.ine.add.PTCONT.322846","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"21","coordenadas":[40.79638606099671,-8.569669409865895]},{"id":"pt.ine.add.PTCONT.330299","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"129","coordenadas":[40.7941407043043,-8.572865724635845]},{"id":"pt.ine.add.PTCONT.84988","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"76","coordenadas":[40.79402860300997,-8.571561619883887]},{"id":"pt.ine.add.PTCONT.89961","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"9","coordenadas":[40.79695380485782,-8.569554636211913]},{"id":"pt.ine.add.PTCONT.118787","rua":"R ANTÓNIO PEREIRA","casa":"8","coordenadas":[40.796981894214426,-8.569270436998446]},{"id":"pt.ine.add.PTCONT.124042","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"25","coordenadas":[40.796052125088664,-8.569868657576743]},{"id":"pt.ine.add.PTCONT.134803","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"9","coordenadas":[40.79663855098854,-8.569576270009014]},{"id":"pt.ine.add.PTCONT.137114","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"102","coordenadas":[40.79323707122605,-8.57368916656023]},{"id":"pt.ine.add.PTCONT.148031","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"75","coordenadas":[40.79437956095062,-8.571623172947408]},{"id":"pt.ine.add.PTCONT.153157","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"86","coordenadas":[40.79401712030178,-8.572213226769732]},{"id":"pt.ine.add.PTCONT.153158","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"86","coordenadas":[40.79401712030178,-8.572213226769732]},{"id":"pt.ine.add.PTCONT.183215","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"120","coordenadas":[40.79347516885299,-8.575005943377665]},{"id":"pt.ine.add.PTCONT.185235","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"41","coordenadas":[40.795222392155985,-8.570206840373658]},{"id":"pt.ine.add.PTCONT.203592","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"15","coordenadas":[40.79680072509014,-8.569553633648878]},{"id":"pt.ine.add.PTCONT.212160","rua":"R ANTÓNIO PEREIRA ALVEITAR","casa":"","coordenadas":[40.79430269845354,-8.572890491176803]},{"id":"pt.ine.add.PTCONT.255368","rua":"R ANTÓNIO PEREIRA","casa":"36","coordenadas":[40.795421931074436,-8.569828980403303]},{"id":"pt.ine.add.PTCONT.269011","rua":"R ANTÓNIO PEREIRA","casa":"6","coordenadas":[40.797125655738256,-8.569354323201635]},{"id":"pt.ine.add.PTCONT.282227","rua":"R ANTÓNIO PEREIRA","casa":"32","coordenadas":[40.79580120415357,-8.569547087691495]}],"ruas":["R ANTÓNIO PEREIRA","R ANTÓNIO PEREIRA ALVEITAR"],"centroide":[40.7952100532317,-8.571081934840624]}
+{
+  "CP": "3860-103",
+  "CP4": "3860",
+  "CP3": "103",
+  "Distrito": "Aveiro",
+  "Concelho": "Estarreja",
+  "Localidade": "Avanca",
+  "Designação Postal": "AVANCA",
+  "partes": [
+    {
+      "Artéria": "Rua António Pereira Alveitar",
+      "Local": "Sardinha",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.295759",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "64",
+      "coordenadas": [
+        40.79433025401264,
+        -8.570378721654555
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.305762",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "126",
+      "coordenadas": [
+        40.79312130671385,
+        -8.575702665255058
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.311671",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "2",
+      "coordenadas": [
+        40.79727958643865,
+        -8.569130193198571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.316751",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "40",
+      "coordenadas": [
+        40.795548669327985,
+        -8.569652075267486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.319470",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "46",
+      "coordenadas": [
+        40.79516016699842,
+        -8.569993150707305
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.322846",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "21",
+      "coordenadas": [
+        40.79638606099671,
+        -8.569669409865895
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.330299",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "129",
+      "coordenadas": [
+        40.7941407043043,
+        -8.572865724635845
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.84988",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "76",
+      "coordenadas": [
+        40.79402860300997,
+        -8.571561619883887
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.89961",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "9",
+      "coordenadas": [
+        40.79695380485782,
+        -8.569554636211913
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.118787",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "8",
+      "coordenadas": [
+        40.796981894214426,
+        -8.569270436998446
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.124042",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "25",
+      "coordenadas": [
+        40.796052125088664,
+        -8.569868657576743
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.134803",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "9",
+      "coordenadas": [
+        40.79663855098854,
+        -8.569576270009014
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.137114",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "102",
+      "coordenadas": [
+        40.79323707122605,
+        -8.57368916656023
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.148031",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "75",
+      "coordenadas": [
+        40.79437956095062,
+        -8.571623172947408
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153157",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "86",
+      "coordenadas": [
+        40.79401712030178,
+        -8.572213226769732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.153158",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "86",
+      "coordenadas": [
+        40.79401712030178,
+        -8.572213226769732
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.183215",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "120",
+      "coordenadas": [
+        40.79347516885299,
+        -8.575005943377665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.185235",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "41",
+      "coordenadas": [
+        40.795222392155985,
+        -8.570206840373658
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.203592",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "15",
+      "coordenadas": [
+        40.79680072509014,
+        -8.569553633648878
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.212160",
+      "rua": "R ANTÓNIO PEREIRA ALVEITAR",
+      "casa": "",
+      "coordenadas": [
+        40.79430269845354,
+        -8.572890491176803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.255368",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "36",
+      "coordenadas": [
+        40.795421931074436,
+        -8.569828980403303
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.269011",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "6",
+      "coordenadas": [
+        40.797125655738256,
+        -8.569354323201635
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.282227",
+      "rua": "R ANTÓNIO PEREIRA",
+      "casa": "32",
+      "coordenadas": [
+        40.79580120415357,
+        -8.569547087691495
+      ]
+    }
+  ],
+  "ruas": [
+    "R ANTÓNIO PEREIRA",
+    "R ANTÓNIO PEREIRA ALVEITAR"
+  ],
+  "centro": [
+    40.795200446576246,
+    -8.572416429226815
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.79546033905905,
+                -8.572005649723284
+              ],
+              [
+                40.79494055409345,
+                -8.572827208730345
+              ],
+              [
+                40.794487551069054,
+                -8.573514611944415
+              ],
+              [
+                40.79410132998586,
+                -8.574067859365499
+              ],
+              [
+                40.79378189084387,
+                -8.574486950993592
+              ],
+              [
+                40.79352923364308,
+                -8.574771886828694
+              ],
+              [
+                40.793343358383495,
+                -8.574922666870808
+              ],
+              [
+                40.79322426506511,
+                -8.574939291119934
+              ],
+              [
+                40.79317195368794,
+                -8.57482175957607
+              ],
+              [
+                40.793186424251964,
+                -8.574570072239217
+              ],
+              [
+                40.79321616697652,
+                -8.57429812011782
+              ],
+              [
+                40.793261181861624,
+                -8.574005903211877
+              ],
+              [
+                40.793321468907266,
+                -8.57369342152139
+              ],
+              [
+                40.79339702811343,
+                -8.57336067504636
+              ],
+              [
+                40.793487859480145,
+                -8.573007663786782
+              ],
+              [
+                40.793593963007396,
+                -8.572634387742664
+              ],
+              [
+                40.793715338695186,
+                -8.572240846913997
+              ],
+              [
+                40.79385198654351,
+                -8.571827041300788
+              ],
+              [
+                40.7939905911501,
+                -8.571453607539432
+              ],
+              [
+                40.79413115251495,
+                -8.571120545629928
+              ],
+              [
+                40.794273670638056,
+                -8.57082785557228
+              ],
+              [
+                40.79441814551942,
+                -8.57057553736648
+              ],
+              [
+                40.79456457715905,
+                -8.570363591012537
+              ],
+              [
+                40.794712965556954,
+                -8.570192016510449
+              ],
+              [
+                40.794863310713104,
+                -8.570060813860213
+              ],
+              [
+                40.79501561262752,
+                -8.569969983061828
+              ],
+              [
+                40.79515282265928,
+                -8.569888865682369
+              ],
+              [
+                40.795274940808405,
+                -8.569817461721831
+              ],
+              [
+                40.79538196707486,
+                -8.569755771180217
+              ],
+              [
+                40.79547390145867,
+                -8.569703794057526
+              ],
+              [
+                40.79555074395982,
+                -8.569661530353757
+              ],
+              [
+                40.795612494578336,
+                -8.569628980068913
+              ],
+              [
+                40.79565915331418,
+                -8.56960614320299
+              ],
+              [
+                40.79569072016738,
+                -8.569593019755992
+              ],
+              [
+                40.79574144088713,
+                -8.569575022763415
+              ],
+              [
+                40.795811315473436,
+                -8.569552152225262
+              ],
+              [
+                40.7959003439263,
+                -8.569524408141532
+              ],
+              [
+                40.79600852624571,
+                -8.569491790512224
+              ],
+              [
+                40.79613586243168,
+                -8.569454299337341
+              ],
+              [
+                40.796282352484205,
+                -8.569411934616879
+              ],
+              [
+                40.79644799640329,
+                -8.56936469635084
+              ],
+              [
+                40.79663279418892,
+                -8.569312584539226
+              ],
+              [
+                40.79672951913065,
+                -8.569369681579944
+              ],
+              [
+                40.79673817122848,
+                -8.569535987473
+              ],
+              [
+                40.7966587504824,
+                -8.569811502218387
+              ],
+              [
+                40.796491256892416,
+                -8.57019622581611
+              ],
+              [
+                40.79623569045853,
+                -8.570690158266167
+              ],
+              [
+                40.79589205118074,
+                -8.57129329956856
+              ],
+              [
+                40.79546033905905,
+                -8.572005649723284
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.794886348645456,
+    -8.5713499849379
+  ],
+  "centroDeMassa": [
+    40.795200446576246,
+    -8.572416429226815
+  ]
+}

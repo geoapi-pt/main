@@ -1,1 +1,541 @@
-{"CP4":"9000","CP3":"610","Distrito":"Ilha da Madeira","Concelho":"Funchal","CP":"9000-610","Artéria":"Beco João Francisco Pereira","Localidade":"Funchal","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FUNCHAL","locais":[{"id":"pt.ine.add.MAD.18295","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"4","coordenadas":[32.65035316260283,-16.960054390216197]},{"id":"pt.ine.add.MAD.18296","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"10","coordenadas":[32.65046353956646,-16.960493873505158]},{"id":"pt.ine.add.MAD.19061","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"6","coordenadas":[32.65039457818396,-16.96028982162136]},{"id":"pt.ine.add.MAD.19062","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"8A","coordenadas":[32.65016169605934,-16.960764452585014]},{"id":"pt.ine.add.MAD.19063","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"9","coordenadas":[32.65002313174516,-16.960974633335844]},{"id":"pt.ine.add.MAD.19064","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"10","coordenadas":[32.64961126812167,-16.96136006968453]},{"id":"pt.ine.add.MAD.19065","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"35","coordenadas":[32.64925181080455,-16.96127759832197]},{"id":"pt.ine.add.MAD.19066","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"29","coordenadas":[32.649209397722416,-16.961106108959967]},{"id":"pt.ine.add.MAD.19067","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"23","coordenadas":[32.64943562001223,-16.961057747498824]},{"id":"pt.ine.add.MAD.19068","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"23","coordenadas":[32.64943562001223,-16.961057747498824]},{"id":"pt.ine.add.MAD.19069","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"23","coordenadas":[32.64943562001223,-16.961057747498824]},{"id":"pt.ine.add.MAD.19815","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"23","coordenadas":[32.64943562001223,-16.961057747498824]},{"id":"pt.ine.add.MAD.19816","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"19","coordenadas":[32.649618429705924,-16.960901835448635]},{"id":"pt.ine.add.MAD.19817","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"21","coordenadas":[32.6501416423369,-16.96031628170065]},{"id":"pt.ine.add.MAD.19818","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"25","coordenadas":[32.650167690187274,-16.960380812143843]},{"id":"pt.ine.add.MAD.19825","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"Z","coordenadas":[32.649941275234426,-16.95986417613002]},{"id":"pt.ine.add.MAD.54491","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"4","coordenadas":[32.650320622161594,-16.960405471030242]},{"id":"pt.ine.add.MAD.54492","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"15","coordenadas":[32.65009756327907,-16.96025135773493]},{"id":"pt.ine.add.MAD.58065","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"11","coordenadas":[32.64992179528635,-16.961111004391725]},{"id":"pt.ine.add.MAD.63178","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"63","coordenadas":[32.65011797286752,-16.961253872129138]},{"id":"pt.ine.add.MAD.63180","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"17","coordenadas":[32.64989122854792,-16.96075854768882]},{"id":"pt.ine.add.MAD.66080","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"6","coordenadas":[32.65055685872489,-16.960293363771374]},{"id":"pt.ine.add.MAD.75170","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"31","coordenadas":[32.649118908801725,-16.961125453484417]},{"id":"pt.ine.add.MAD.83015","rua":"BC JOAO FRANCISCO PEREIRA","casa":"8 A","coordenadas":[32.65033365821981,-16.96072556560225]},{"id":"pt.ine.add.MAD.83017","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"37","coordenadas":[32.649197051069095,-16.961319043306922]},{"id":"pt.ine.add.MAD.86054","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"8","coordenadas":[32.650226636811325,-16.9606486068672]},{"id":"pt.ine.add.MAD.86240","rua":"BC JOAO FRANCISCO PEREIRA","casa":"16","coordenadas":[32.64945567121576,-16.961505914874277]},{"id":"pt.ine.add.MAD.86656","rua":"BC JOAO FRANCISCO PEREIRA","casa":"5","coordenadas":[32.65026419770536,-16.960553483934067]},{"id":"pt.ine.add.MAD.99652","rua":"BC JOÃO FRANCISCO PEREIRA","casa":"8","coordenadas":[32.65039876545107,-16.960599062932637]}],"ruas":["BC JOÃO FRANCISCO PEREIRA","BC JOAO FRANCISCO PEREIRA"],"centroide":[32.649877938107515,-16.960784526016567]}
+{
+  "CP": "9000-610",
+  "CP4": "9000",
+  "CP3": "610",
+  "Distrito": "Ilha da Madeira",
+  "Concelho": "Funchal",
+  "Localidade": "Funchal",
+  "Designação Postal": "FUNCHAL",
+  "partes": [
+    {
+      "Artéria": "Beco João Francisco Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.MAD.18295",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "4",
+      "coordenadas": [
+        32.65035316260283,
+        -16.960054390216197
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.18296",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "10",
+      "coordenadas": [
+        32.65046353956646,
+        -16.960493873505158
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19061",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "6",
+      "coordenadas": [
+        32.65039457818396,
+        -16.96028982162136
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19062",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "8A",
+      "coordenadas": [
+        32.65016169605934,
+        -16.960764452585014
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19063",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "9",
+      "coordenadas": [
+        32.65002313174516,
+        -16.960974633335844
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19064",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "10",
+      "coordenadas": [
+        32.64961126812167,
+        -16.96136006968453
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19065",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "35",
+      "coordenadas": [
+        32.64925181080455,
+        -16.96127759832197
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19066",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "29",
+      "coordenadas": [
+        32.649209397722416,
+        -16.961106108959967
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19067",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "23",
+      "coordenadas": [
+        32.64943562001223,
+        -16.961057747498824
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19068",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "23",
+      "coordenadas": [
+        32.64943562001223,
+        -16.961057747498824
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19069",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "23",
+      "coordenadas": [
+        32.64943562001223,
+        -16.961057747498824
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19815",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "23",
+      "coordenadas": [
+        32.64943562001223,
+        -16.961057747498824
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19816",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "19",
+      "coordenadas": [
+        32.649618429705924,
+        -16.960901835448635
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19817",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "21",
+      "coordenadas": [
+        32.6501416423369,
+        -16.96031628170065
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19818",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "25",
+      "coordenadas": [
+        32.650167690187274,
+        -16.960380812143843
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.19825",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "Z",
+      "coordenadas": [
+        32.649941275234426,
+        -16.95986417613002
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.54491",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "4",
+      "coordenadas": [
+        32.650320622161594,
+        -16.960405471030242
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.54492",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "15",
+      "coordenadas": [
+        32.65009756327907,
+        -16.96025135773493
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.58065",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "11",
+      "coordenadas": [
+        32.64992179528635,
+        -16.961111004391725
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.63178",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "63",
+      "coordenadas": [
+        32.65011797286752,
+        -16.961253872129138
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.63180",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "17",
+      "coordenadas": [
+        32.64989122854792,
+        -16.96075854768882
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.66080",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "6",
+      "coordenadas": [
+        32.65055685872489,
+        -16.960293363771374
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.75170",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "31",
+      "coordenadas": [
+        32.649118908801725,
+        -16.961125453484417
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.83015",
+      "rua": "BC JOAO FRANCISCO PEREIRA",
+      "casa": "8 A",
+      "coordenadas": [
+        32.65033365821981,
+        -16.96072556560225
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.83017",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "37",
+      "coordenadas": [
+        32.649197051069095,
+        -16.961319043306922
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.86054",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "8",
+      "coordenadas": [
+        32.650226636811325,
+        -16.9606486068672
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.86240",
+      "rua": "BC JOAO FRANCISCO PEREIRA",
+      "casa": "16",
+      "coordenadas": [
+        32.64945567121576,
+        -16.961505914874277
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.86656",
+      "rua": "BC JOAO FRANCISCO PEREIRA",
+      "casa": "5",
+      "coordenadas": [
+        32.65026419770536,
+        -16.960553483934067
+      ]
+    },
+    {
+      "id": "pt.ine.add.MAD.99652",
+      "rua": "BC JOÃO FRANCISCO PEREIRA",
+      "casa": "8",
+      "coordenadas": [
+        32.65039876545107,
+        -16.960599062932637
+      ]
+    }
+  ],
+  "ruas": [
+    "BC JOÃO FRANCISCO PEREIRA",
+    "BC JOAO FRANCISCO PEREIRA"
+  ],
+  "centro": [
+    32.64983788376331,
+    -16.960685045502146
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.64916286382712,
+                -16.961234347759575
+              ],
+              [
+                32.6491530960437,
+                -16.961210149031764
+              ],
+              [
+                32.64915739870872,
+                -16.961169267686266
+              ],
+              [
+                32.64917577182218,
+                -16.961111703723077
+              ],
+              [
+                32.64920821538407,
+                -16.961037457142208
+              ],
+              [
+                32.6492547293944,
+                -16.96094652794365
+              ],
+              [
+                32.64931531385317,
+                -16.960838916127408
+              ],
+              [
+                32.64938996876038,
+                -16.960714621693484
+              ],
+              [
+                32.64947869411603,
+                -16.96057364464187
+              ],
+              [
+                32.64958148992012,
+                -16.960415984972567
+              ],
+              [
+                32.64967787198883,
+                -16.960281004857027
+              ],
+              [
+                32.649767840322156,
+                -16.960168704295246
+              ],
+              [
+                32.649851394920105,
+                -16.960079083287223
+              ],
+              [
+                32.64992853578268,
+                -16.96001214183296
+              ],
+              [
+                32.64999926290987,
+                -16.959967879932453
+              ],
+              [
+                32.650063576301676,
+                -16.95994629758571
+              ],
+              [
+                32.65012147595811,
+                -16.95994739479272
+              ],
+              [
+                32.65017296187916,
+                -16.959971171553494
+              ],
+              [
+                32.650221194811984,
+                -16.95999571018097
+              ],
+              [
+                32.65026617475658,
+                -16.960021010675145
+              ],
+              [
+                32.65030790171296,
+                -16.96004707303603
+              ],
+              [
+                32.65034637568112,
+                -16.960073897263612
+              ],
+              [
+                32.65038159666105,
+                -16.960101483357903
+              ],
+              [
+                32.65041356465275,
+                -16.960129831318895
+              ],
+              [
+                32.65044227965623,
+                -16.960158941146588
+              ],
+              [
+                32.65046774167149,
+                -16.960188812840983
+              ],
+              [
+                32.650483163343324,
+                -16.96022995851667
+              ],
+              [
+                32.65048854467172,
+                -16.960282378173652
+              ],
+              [
+                32.65048388565669,
+                -16.96034607181192
+              ],
+              [
+                32.65046918629823,
+                -16.960421039431477
+              ],
+              [
+                32.650444446596346,
+                -16.960507281032328
+              ],
+              [
+                32.650409666551035,
+                -16.960604796614465
+              ],
+              [
+                32.65036484616229,
+                -16.960713586177896
+              ],
+              [
+                32.65030998543012,
+                -16.960833649722616
+              ],
+              [
+                32.65025163382616,
+                -16.96094264349214
+              ],
+              [
+                32.650189791350414,
+                -16.961040567486467
+              ],
+              [
+                32.650124458002885,
+                -16.961127421705594
+              ],
+              [
+                32.65005563378356,
+                -16.961203206149527
+              ],
+              [
+                32.64998331869245,
+                -16.961267920818262
+              ],
+              [
+                32.649907512729555,
+                -16.961321565711796
+              ],
+              [
+                32.64982821589487,
+                -16.961364140830135
+              ],
+              [
+                32.64974542818841,
+                -16.96139564617328
+              ],
+              [
+                32.649668948005456,
+                -16.961420293480288
+              ],
+              [
+                32.649598775346014,
+                -16.96143808275116
+              ],
+              [
+                32.64953491021009,
+                -16.961449013985906
+              ],
+              [
+                32.6494773525977,
+                -16.961453087184523
+              ],
+              [
+                32.64942610250881,
+                -16.961450302347
+              ],
+              [
+                32.649381159943445,
+                -16.961440659473347
+              ],
+              [
+                32.6493425249016,
+                -16.96142415856356
+              ],
+              [
+                32.64931019738326,
+                -16.96140079961764
+              ],
+              [
+                32.64928068983179,
+                -16.961377335698984
+              ],
+              [
+                32.64925400224719,
+                -16.96135376680759
+              ],
+              [
+                32.64923013462945,
+                -16.961330092943463
+              ],
+              [
+                32.649209086978566,
+                -16.961306314106594
+              ],
+              [
+                32.64919085929455,
+                -16.961282430296993
+              ],
+              [
+                32.649175451577406,
+                -16.96125844151465
+              ],
+              [
+                32.64916286382712,
+                -16.961234347759575
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    32.649820128645175,
+    -16.96077374484462
+  ],
+  "centroDeMassa": [
+    32.64983788376331,
+    -16.960685045502146
+  ]
+}

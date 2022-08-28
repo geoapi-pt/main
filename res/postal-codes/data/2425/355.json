@@ -1,1 +1,581 @@
-{"CP4":"2425","CP3":"355","Distrito":"Leiria","Concelho":"Leiria","CP":"2425-355","Artéria":"Rua Olímpio Duarte Alves","Localidade":"Junqueiros","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CARVIDE","locais":[{"id":"pt.ine.add.PTCONT.1980430","rua":"R OLIMPIO DUARTE ALVES","casa":"366","coordenadas":[39.85540703001424,-8.8826455130321]},{"id":"pt.ine.add.PTCONT.1982713","rua":"R OLIMPIO DUARTE ALVES","casa":"328","coordenadas":[39.85550329772908,-8.883078930010132]},{"id":"pt.ine.add.PTCONT.1982747","rua":"R OLIMPIO DUARTE ALVES","casa":"143","coordenadas":[39.856554694351736,-8.88483156551787]},{"id":"pt.ine.add.PTCONT.1989308","rua":"R OLIMPIO DUARTE ALVES","casa":"495","coordenadas":[39.85575882437829,-8.881165254482472]},{"id":"pt.ine.add.PTCONT.2009081","rua":"R OLIMPIO DUARTE ALVES","casa":"230","coordenadas":[39.8558841148179,-8.884076362412264]},{"id":"pt.ine.add.PTCONT.2013385","rua":"R OLIMPIO DUARTE ALVES","casa":"285","coordenadas":[39.855960847968724,-8.883352682493017]},{"id":"pt.ine.add.PTCONT.2031067","rua":"R OLIMPIO DUARTE ALVES","casa":"117","coordenadas":[39.856616143366146,-8.885077638945072]},{"id":"pt.ine.add.PTCONT.2036113","rua":"R OLIMPIO DUARTE ALVES","casa":"78","coordenadas":[39.856567477759796,-8.885638028517185]},{"id":"pt.ine.add.PTCONT.2049921","rua":"R OLIMPIO DUARTE ALVES","casa":"209","coordenadas":[39.85628914201666,-8.88411583435335]},{"id":"pt.ine.add.PTCONT.2068172","rua":"R OLIMPIO DUARTE ALVES","casa":"425","coordenadas":[39.85565448444933,-8.88198212033013]},{"id":"pt.ine.add.PTCONT.2083822","rua":"R OLIMPIO DUARTE ALVES","casa":"520","coordenadas":[39.855707201211615,-8.880790751474677]},{"id":"pt.ine.add.PTCONT.2090175","rua":"R OLIMPIO DUARTE ALVES","casa":"267","coordenadas":[39.856040765040355,-8.88352883908951]},{"id":"pt.ine.add.PTCONT.2114410","rua":"R OLIMPIO DUARTE ALVES","casa":"407","coordenadas":[39.85558986043907,-8.882226817310054]},{"id":"pt.ine.add.PTCONT.2115879","rua":"R OLIMPIO DUARTE ALVES","casa":"159","coordenadas":[39.856483936351495,-8.88463213433346]},{"id":"pt.ine.add.PTCONT.2126791","rua":"R OLIMPIO DUARTE ALVES","casa":"75","coordenadas":[39.85677544137738,-8.885511755228803]},{"id":"pt.ine.add.PTCONT.2140720","rua":"R OLIMPIO DUARTE ALVES","casa":"191","coordenadas":[39.85636883089004,-8.884327047632015]},{"id":"pt.ine.add.PTCONT.2166800","rua":"R OLIMPIO DUARTE ALVES","casa":"","coordenadas":[39.855733012946786,-8.880978002910709]},{"id":"pt.ine.add.PTCONT.2169011","rua":"R OLIMPIO DUARTE ALVES","casa":"59","coordenadas":[39.85683734382931,-8.88568771963831]},{"id":"pt.ine.add.PTCONT.2179656","rua":"R OLIMPIO DUARTE ALVES","casa":"516","coordenadas":[39.855562131505486,-8.880941091095439]},{"id":"pt.ine.add.PTCONT.2188587","rua":"R OLIMPIO DUARTE ALVES","casa":"229","coordenadas":[39.85621815586412,-8.883951459553801]},{"id":"pt.ine.add.PTCONT.2197152","rua":"R OLIMPIO DUARTE ALVES","casa":"56","coordenadas":[39.85641294127369,-8.885858371261376]},{"id":"pt.ine.add.PTCONT.2203834","rua":"R OLIMPIO DUARTE ALVES","casa":"6","coordenadas":[39.8568872820929,-8.886319303827563]},{"id":"pt.ine.add.PTCONT.2208909","rua":"R OLIMPIO DUARTE ALVES","casa":"430","coordenadas":[39.85546604462027,-8.88187490126576]},{"id":"pt.ine.add.PTCONT.2217787","rua":"R OLIMPIO DUARTE ALVES","casa":"93","coordenadas":[39.8567048361083,-8.885288952633212]},{"id":"pt.ine.add.PTCONT.2222050","rua":"R OLIMPIO DUARTE ALVES","casa":"247","coordenadas":[39.85612938503217,-8.883751834002567]},{"id":"pt.ine.add.PTCONT.2230043","rua":"R OLIMPIO DUARTE ALVES","casa":"378","coordenadas":[39.85537213982939,-8.882469848785675]},{"id":"pt.ine.add.PTCONT.2234080","rua":"R OLIMPIO DUARTE ALVES","casa":"478","coordenadas":[39.855613904932255,-8.881292223678221]},{"id":"pt.ine.add.PTCONT.2243722","rua":"R OLIMPIO DUARTE ALVES","casa":"365","coordenadas":[39.8555963752078,-8.882612515740254]},{"id":"pt.ine.add.PTCONT.2250581","rua":"R OLIMPIO DUARTE ALVES","casa":"469","coordenadas":[39.855765795012175,-8.881480844443168]},{"id":"pt.ine.add.PTCONT.2250582","rua":"R OLIMPIO DUARTE ALVES","casa":"348","coordenadas":[39.855486872666035,-8.882833352243438]}],"ruas":["R OLIMPIO DUARTE ALVES"],"centroide":[39.85605039449711,-8.88343063255166]}
+{
+  "CP": "2425-355",
+  "CP4": "2425",
+  "CP3": "355",
+  "Distrito": "Leiria",
+  "Concelho": "Leiria",
+  "Localidade": "Junqueiros",
+  "Designação Postal": "CARVIDE",
+  "partes": [
+    {
+      "Artéria": "Rua Olímpio Duarte Alves",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1980430",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "366",
+      "coordenadas": [
+        39.85540703001424,
+        -8.8826455130321
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1982713",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "328",
+      "coordenadas": [
+        39.85550329772908,
+        -8.883078930010132
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1982747",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "143",
+      "coordenadas": [
+        39.856554694351736,
+        -8.88483156551787
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1989308",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "495",
+      "coordenadas": [
+        39.85575882437829,
+        -8.881165254482472
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2009081",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "230",
+      "coordenadas": [
+        39.8558841148179,
+        -8.884076362412264
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2013385",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "285",
+      "coordenadas": [
+        39.855960847968724,
+        -8.883352682493017
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2031067",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "117",
+      "coordenadas": [
+        39.856616143366146,
+        -8.885077638945072
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2036113",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "78",
+      "coordenadas": [
+        39.856567477759796,
+        -8.885638028517185
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2049921",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "209",
+      "coordenadas": [
+        39.85628914201666,
+        -8.88411583435335
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2068172",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "425",
+      "coordenadas": [
+        39.85565448444933,
+        -8.88198212033013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2083822",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "520",
+      "coordenadas": [
+        39.855707201211615,
+        -8.880790751474677
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2090175",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "267",
+      "coordenadas": [
+        39.856040765040355,
+        -8.88352883908951
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2114410",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "407",
+      "coordenadas": [
+        39.85558986043907,
+        -8.882226817310054
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2115879",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "159",
+      "coordenadas": [
+        39.856483936351495,
+        -8.88463213433346
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2126791",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "75",
+      "coordenadas": [
+        39.85677544137738,
+        -8.885511755228803
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2140720",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "191",
+      "coordenadas": [
+        39.85636883089004,
+        -8.884327047632015
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2166800",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "",
+      "coordenadas": [
+        39.855733012946786,
+        -8.880978002910709
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2169011",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "59",
+      "coordenadas": [
+        39.85683734382931,
+        -8.88568771963831
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2179656",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "516",
+      "coordenadas": [
+        39.855562131505486,
+        -8.880941091095439
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2188587",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "229",
+      "coordenadas": [
+        39.85621815586412,
+        -8.883951459553801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2197152",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "56",
+      "coordenadas": [
+        39.85641294127369,
+        -8.885858371261376
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2203834",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "6",
+      "coordenadas": [
+        39.8568872820929,
+        -8.886319303827563
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2208909",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "430",
+      "coordenadas": [
+        39.85546604462027,
+        -8.88187490126576
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2217787",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "93",
+      "coordenadas": [
+        39.8567048361083,
+        -8.885288952633212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2222050",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "247",
+      "coordenadas": [
+        39.85612938503217,
+        -8.883751834002567
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2230043",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "378",
+      "coordenadas": [
+        39.85537213982939,
+        -8.882469848785675
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2234080",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "478",
+      "coordenadas": [
+        39.855613904932255,
+        -8.881292223678221
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2243722",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "365",
+      "coordenadas": [
+        39.8555963752078,
+        -8.882612515740254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2250581",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "469",
+      "coordenadas": [
+        39.855765795012175,
+        -8.881480844443168
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2250582",
+      "rua": "R OLIMPIO DUARTE ALVES",
+      "casa": "348",
+      "coordenadas": [
+        39.855486872666035,
+        -8.882833352243438
+      ]
+    }
+  ],
+  "ruas": [
+    "R OLIMPIO DUARTE ALVES"
+  ],
+  "centro": [
+    39.85612971096114,
+    -8.88355502765112
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.855391765558366,
+                -8.882568659924289
+              ],
+              [
+                39.85538740428527,
+                -8.882546701893487
+              ],
+              [
+                39.85538655679123,
+                -8.882503601777625
+              ],
+              [
+                39.85538922307629,
+                -8.8824393595767
+              ],
+              [
+                39.855395403140406,
+                -8.88235397529072
+              ],
+              [
+                39.8554050969836,
+                -8.882247448919678
+              ],
+              [
+                39.855418304605884,
+                -8.882119780463576
+              ],
+              [
+                39.85543502600725,
+                -8.881970969922417
+              ],
+              [
+                39.855455261187686,
+                -8.881801017296196
+              ],
+              [
+                39.85547901014719,
+                -8.881609922584918
+              ],
+              [
+                39.85550205720092,
+                -8.881440365655973
+              ],
+              [
+                39.85552440234888,
+                -8.881292346509365
+              ],
+              [
+                39.85554604559105,
+                -8.881165865145093
+              ],
+              [
+                39.855566986927435,
+                -8.881060921563154
+              ],
+              [
+                39.85558722635804,
+                -8.880977515763552
+              ],
+              [
+                39.855606763882875,
+                -8.880915647746287
+              ],
+              [
+                39.85562559950192,
+                -8.880875317511356
+              ],
+              [
+                39.85564373321518,
+                -8.88085652505876
+              ],
+              [
+                39.855677258692694,
+                -8.880916596790296
+              ],
+              [
+                39.85572617593444,
+                -8.881055532705963
+              ],
+              [
+                39.85579048494044,
+                -8.881273332805762
+              ],
+              [
+                39.855870185710685,
+                -8.881569997089692
+              ],
+              [
+                39.855965278245165,
+                -8.881945525557752
+              ],
+              [
+                39.85607576254389,
+                -8.882399918209945
+              ],
+              [
+                39.85620163860686,
+                -8.882933175046267
+              ],
+              [
+                39.856342906434065,
+                -8.883545296066721
+              ],
+              [
+                39.856467296068246,
+                -8.884090770462574
+              ],
+              [
+                39.8565748075094,
+                -8.884569598233831
+              ],
+              [
+                39.85666544075751,
+                -8.884981779380485
+              ],
+              [
+                39.856739195812594,
+                -8.88532731390254
+              ],
+              [
+                39.85679607267464,
+                -8.885606201799995
+              ],
+              [
+                39.85683607134365,
+                -8.88581844307285
+              ],
+              [
+                39.85685919181964,
+                -8.885964037721108
+              ],
+              [
+                39.85686543410257,
+                -8.886042985744766
+              ],
+              [
+                39.85686348452485,
+                -8.886104863194118
+              ],
+              [
+                39.85685334308647,
+                -8.886149670069168
+              ],
+              [
+                39.85683500978741,
+                -8.886177406369914
+              ],
+              [
+                39.856808484627685,
+                -8.886188072096353
+              ],
+              [
+                39.856773767607294,
+                -8.886181667248492
+              ],
+              [
+                39.85673085872622,
+                -8.886158191826325
+              ],
+              [
+                39.856679757984494,
+                -8.886117645829856
+              ],
+              [
+                39.85662046538209,
+                -8.886060029259083
+              ],
+              [
+                39.85655437117461,
+                -8.885966185990105
+              ],
+              [
+                39.85648147536203,
+                -8.885836116022924
+              ],
+              [
+                39.856401777944384,
+                -8.885669819357538
+              ],
+              [
+                39.85631527892164,
+                -8.885467295993948
+              ],
+              [
+                39.856221978293824,
+                -8.885228545932154
+              ],
+              [
+                39.85612187606091,
+                -8.884953569172158
+              ],
+              [
+                39.85601497222292,
+                -8.884642365713956
+              ],
+              [
+                39.85590126677984,
+                -8.884294935557552
+              ],
+              [
+                39.8558002703341,
+                -8.883984162030416
+              ],
+              [
+                39.85571198288571,
+                -8.883710045132547
+              ],
+              [
+                39.855636404434655,
+                -8.883472584863949
+              ],
+              [
+                39.85557353498094,
+                -8.883271781224618
+              ],
+              [
+                39.855523374524566,
+                -8.883107634214557
+              ],
+              [
+                39.85548592306553,
+                -8.882980143833766
+              ],
+              [
+                39.85546118060384,
+                -8.882889310082243
+              ],
+              [
+                39.85544914713948,
+                -8.88283513295999
+              ],
+              [
+                39.85543807269904,
+                -8.882784983224166
+              ],
+              [
+                39.855427957282494,
+                -8.882738860874776
+              ],
+              [
+                39.85541880088986,
+                -8.882696765911815
+              ],
+              [
+                39.85541060352113,
+                -8.882658698335286
+              ],
+              [
+                39.8554033651763,
+                -8.882624658145188
+              ],
+              [
+                39.85539708585539,
+                -8.882594645341523
+              ],
+              [
+                39.855391765558366,
+                -8.882568659924289
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.855961170935714,
+    -8.88347394114066
+  ],
+  "centroDeMassa": [
+    39.85612971096114,
+    -8.88355502765112
+  ]
+}

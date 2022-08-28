@@ -1,1 +1,393 @@
-{"CP4":"2715","CP3":"361","Distrito":"Lisboa","Concelho":"Sintra","CP":"2715-361","Artéria":"Travessa dos Quevados","Localidade":"Dona Maria","Local":"Quevados","Troço":"","Porta":"","Cliente":"","Designação Postal":"ALMARGEM DO BISPO","locais":[{"id":"pt.ine.add.PTCONT.2281878","rua":"TV TERRA NOVA","casa":"8","coordenadas":[38.80944817175009,-9.254229530537947]},{"id":"pt.ine.add.PTCONT.2368691","rua":"R QUEVADOS","casa":"5 A","coordenadas":[38.810103865397586,-9.254424011309318]},{"id":"pt.ine.add.PTCONT.2409330","rua":"TV TERRA NOVA","casa":"21","coordenadas":[38.809266498793605,-9.254387857716527]},{"id":"pt.ine.add.PTCONT.2409331","rua":"R QUEVADOS","casa":"27","coordenadas":[38.811290599667046,-9.254661362077764]},{"id":"pt.ine.add.PTCONT.2418604","rua":"R QUEVADOS","casa":"3","coordenadas":[38.81023050624179,-9.254368433606853]},{"id":"pt.ine.add.PTCONT.2435610","rua":"R QUEVADOS","casa":"6","coordenadas":[38.81009850441074,-9.25404401030829]},{"id":"pt.ine.add.PTCONT.2613887","rua":"R QUEVADOS","casa":"5","coordenadas":[38.80993164048523,-9.254536437125706]},{"id":"pt.ine.add.PTCONT.2681758","rua":"TV TERRA NOVA","casa":"6","coordenadas":[38.80980035759876,-9.25507547014146]},{"id":"pt.ine.add.PTCONT.2681759","rua":"TV TERRA NOVA","casa":"6","coordenadas":[38.80980035759876,-9.25507547014146]},{"id":"pt.ine.add.PTCONT.2920359","rua":"TV TERRA NOVA","casa":"","coordenadas":[38.809926832118855,-9.254098882661317]},{"id":"pt.ine.add.PTCONT.3012789","rua":"R QUEVADOS","casa":"9","coordenadas":[38.81031553958507,-9.253955310654426]},{"id":"pt.ine.add.PTCONT.3049186","rua":"R QUEVADOS","casa":"1","coordenadas":[38.81033968677568,-9.254255018613783]},{"id":"pt.ine.add.PTCONT.3205793","rua":"R QUEVADOS","casa":"4","coordenadas":[38.810196800760636,-9.254126139508774]},{"id":"pt.ine.add.PTCONT.3296872","rua":"R QUEVADOS","casa":"8","coordenadas":[38.81010834094512,-9.254896099556]},{"id":"pt.ine.add.PTCONT.3318992","rua":"TV TERRA NOVA CASAL DOS CAROUPINS","casa":"","coordenadas":[38.80821447200877,-9.2551311785496]},{"id":"pt.ine.add.PTCONT.3409151","rua":"R QUEVADOS","casa":"10","coordenadas":[38.809946116729776,-9.254905067630782]},{"id":"pt.ine.add.PTCONT.3440125","rua":"R QUEVADOS","casa":"9","coordenadas":[38.80946110190625,-9.254759309694675]},{"id":"pt.ine.add.PTCONT.3450580","rua":"R QUEVADOS","casa":"2","coordenadas":[38.81052594688701,-9.254557268828178]}],"ruas":["TV TERRA NOVA","R QUEVADOS","TV TERRA NOVA CASAL DOS CAROUPINS"],"centroide":[38.8099105525161,-9.254525269990273]}}
+{
+  "CP": "2715-361",
+  "CP4": "2715",
+  "CP3": "361",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Dona Maria",
+  "Designação Postal": "ALMARGEM DO BISPO",
+  "partes": [
+    {
+      "Artéria": "Travessa da Terra Nova",
+      "Local": "Quevados",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua dos Quevados",
+      "Local": "Quevados",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa dos Quevados",
+      "Local": "Quevados",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2281878",
+      "rua": "TV TERRA NOVA",
+      "casa": "8",
+      "coordenadas": [
+        38.80944817175009,
+        -9.254229530537947
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2368691",
+      "rua": "R QUEVADOS",
+      "casa": "5 A",
+      "coordenadas": [
+        38.810103865397586,
+        -9.254424011309318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2409330",
+      "rua": "TV TERRA NOVA",
+      "casa": "21",
+      "coordenadas": [
+        38.809266498793605,
+        -9.254387857716527
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2409331",
+      "rua": "R QUEVADOS",
+      "casa": "27",
+      "coordenadas": [
+        38.811290599667046,
+        -9.254661362077764
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2418604",
+      "rua": "R QUEVADOS",
+      "casa": "3",
+      "coordenadas": [
+        38.81023050624179,
+        -9.254368433606853
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2435610",
+      "rua": "R QUEVADOS",
+      "casa": "6",
+      "coordenadas": [
+        38.81009850441074,
+        -9.25404401030829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2613887",
+      "rua": "R QUEVADOS",
+      "casa": "5",
+      "coordenadas": [
+        38.80993164048523,
+        -9.254536437125706
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2681758",
+      "rua": "TV TERRA NOVA",
+      "casa": "6",
+      "coordenadas": [
+        38.80980035759876,
+        -9.25507547014146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2681759",
+      "rua": "TV TERRA NOVA",
+      "casa": "6",
+      "coordenadas": [
+        38.80980035759876,
+        -9.25507547014146
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2920359",
+      "rua": "TV TERRA NOVA",
+      "casa": "",
+      "coordenadas": [
+        38.809926832118855,
+        -9.254098882661317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3012789",
+      "rua": "R QUEVADOS",
+      "casa": "9",
+      "coordenadas": [
+        38.81031553958507,
+        -9.253955310654426
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3049186",
+      "rua": "R QUEVADOS",
+      "casa": "1",
+      "coordenadas": [
+        38.81033968677568,
+        -9.254255018613783
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3205793",
+      "rua": "R QUEVADOS",
+      "casa": "4",
+      "coordenadas": [
+        38.810196800760636,
+        -9.254126139508774
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3296872",
+      "rua": "R QUEVADOS",
+      "casa": "8",
+      "coordenadas": [
+        38.81010834094512,
+        -9.254896099556
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3318992",
+      "rua": "TV TERRA NOVA CASAL DOS CAROUPINS",
+      "casa": "",
+      "coordenadas": [
+        38.80821447200877,
+        -9.2551311785496
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3409151",
+      "rua": "R QUEVADOS",
+      "casa": "10",
+      "coordenadas": [
+        38.809946116729776,
+        -9.254905067630782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3440125",
+      "rua": "R QUEVADOS",
+      "casa": "9",
+      "coordenadas": [
+        38.80946110190625,
+        -9.254759309694675
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3450580",
+      "rua": "R QUEVADOS",
+      "casa": "2",
+      "coordenadas": [
+        38.81052594688701,
+        -9.254557268828178
+      ]
+    }
+  ],
+  "ruas": [
+    "TV TERRA NOVA",
+    "R QUEVADOS",
+    "TV TERRA NOVA CASAL DOS CAROUPINS"
+  ],
+  "centro": [
+    38.80975253583791,
+    -9.254543244602013
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.809106532653146,
+                -9.255099842570022
+              ],
+              [
+                38.808908296954385,
+                -9.255106806121038
+              ],
+              [
+                38.808754117276436,
+                -9.255098810977996
+              ],
+              [
+                38.8086439936193,
+                -9.255075857140897
+              ],
+              [
+                38.80857792598295,
+                -9.255037944609736
+              ],
+              [
+                38.80855591436741,
+                -9.254985073384516
+              ],
+              [
+                38.80857795877267,
+                -9.254917243465238
+              ],
+              [
+                38.80864405919873,
+                -9.254834454851899
+              ],
+              [
+                38.80875421564559,
+                -9.254736707544502
+              ],
+              [
+                38.80890842811327,
+                -9.254624001543045
+              ],
+              [
+                38.8090569166449,
+                -9.25452109910609
+              ],
+              [
+                38.809199681240486,
+                -9.254428000233638
+              ],
+              [
+                38.80933672190004,
+                -9.254344704925689
+              ],
+              [
+                38.809468038623564,
+                -9.254271213182239
+              ],
+              [
+                38.80959363141105,
+                -9.254207525003292
+              ],
+              [
+                38.80971350026249,
+                -9.254153640388846
+              ],
+              [
+                38.8098276451779,
+                -9.254109559338906
+              ],
+              [
+                38.80993606615726,
+                -9.254075281853467
+              ],
+              [
+                38.810046169828,
+                -9.254056321107196
+              ],
+              [
+                38.81015795619008,
+                -9.254052677100095
+              ],
+              [
+                38.810271425243535,
+                -9.254064349832163
+              ],
+              [
+                38.81038657698835,
+                -9.254091339303404
+              ],
+              [
+                38.81050341142452,
+                -9.25413364551381
+              ],
+              [
+                38.810621928552045,
+                -9.254191268463387
+              ],
+              [
+                38.81074212837093,
+                -9.254264208152136
+              ],
+              [
+                38.81086401088118,
+                -9.254352464580053
+              ],
+              [
+                38.81094737304533,
+                -9.254436159392977
+              ],
+              [
+                38.81099221486338,
+                -9.254515292590906
+              ],
+              [
+                38.81099853633533,
+                -9.25458986417384
+              ],
+              [
+                38.810966337461196,
+                -9.25465987414178
+              ],
+              [
+                38.81089561824095,
+                -9.254725322494725
+              ],
+              [
+                38.81078637867461,
+                -9.254786209232675
+              ],
+              [
+                38.81063861876217,
+                -9.254842534355632
+              ],
+              [
+                38.81045233850364,
+                -9.254894297863594
+              ],
+              [
+                38.810264563815075,
+                -9.254940461376936
+              ],
+              [
+                38.81007529469649,
+                -9.254981024895663
+              ],
+              [
+                38.80988453114787,
+                -9.255015988419771
+              ],
+              [
+                38.809692273169226,
+                -9.25504535194926
+              ],
+              [
+                38.809498520760556,
+                -9.255069115484133
+              ],
+              [
+                38.80930327392187,
+                -9.255087279024387
+              ],
+              [
+                38.809106532653146,
+                -9.255099842570022
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.809813828121946,
+    -9.25461057039224
+  ],
+  "centroDeMassa": [
+    38.80975253583791,
+    -9.254543244602013
+  ]
+}

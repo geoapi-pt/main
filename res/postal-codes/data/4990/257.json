@@ -1,1 +1,345 @@
-{"CP4":"4990","CP3":"257","Distrito":"Viana do Castelo","Concelho":"Ponte de Lima","CP":"4990-257","Artéria":"Rua Manuel Joaquim de Lima","Localidade":"Arcozelo","Local":"Salgueirinho","Troço":"","Porta":"","Cliente":"","Designação Postal":"PONTE DE LIMA","locais":[{"id":"pt.ine.add.PTCONT.5163524","rua":"R CAMPOS NOVOS","casa":"","coordenadas":[41.77161801544585,-8.59478767773148]},{"id":"pt.ine.add.PTCONT.5177701","rua":"","casa":"","coordenadas":[41.77308294180574,-8.597672686896024]},{"id":"pt.ine.add.PTCONT.5191917","rua":"","casa":"","coordenadas":[41.77275965582516,-8.597465892525356]},{"id":"pt.ine.add.PTCONT.5214154","rua":"R SALGUEIRINHO","casa":"","coordenadas":[41.772474712717,-8.596682075818597]},{"id":"pt.ine.add.PTCONT.5214155","rua":"R SALGUEIRINHO","casa":"","coordenadas":[41.772474712717,-8.596682075818597]},{"id":"pt.ine.add.PTCONT.5219401","rua":"","casa":"","coordenadas":[41.77264412147234,-8.597092218123558]},{"id":"pt.ine.add.PTCONT.5225868","rua":"","casa":"","coordenadas":[41.77264120497696,-8.59781382502782]},{"id":"pt.ine.add.PTCONT.5236067","rua":"R CAMPOS NOVOS","casa":"","coordenadas":[41.77306573033167,-8.595243065969347]},{"id":"pt.ine.add.PTCONT.5246978","rua":"","casa":"","coordenadas":[41.77279493904194,-8.597646554417366]},{"id":"pt.ine.add.PTCONT.5247062","rua":"R SALGUEIRINHO","casa":"","coordenadas":[41.77266450617035,-8.596503035340012]},{"id":"pt.ine.add.PTCONT.5249486","rua":"R SALGUEIRINHO","casa":"","coordenadas":[41.772583186945994,-8.59657461277173]},{"id":"pt.ine.add.PTCONT.5256407","rua":"R SALGUEIRINHO","casa":"","coordenadas":[41.77232064019606,-8.596933534977776]},{"id":"pt.ine.add.PTCONT.5258645","rua":"","casa":"","coordenadas":[41.7725608091323,-8.597656892220296]},{"id":"pt.ine.add.PTCONT.5264207","rua":"","casa":"","coordenadas":[41.77277649508127,-8.59775466575362]},{"id":"pt.ine.add.PTCONT.5274799","rua":"R SALGUEIRINHO","casa":"","coordenadas":[41.77229835635443,-8.597991756425287]},{"id":"pt.ine.add.PTCONT.5277144","rua":"","casa":"","coordenadas":[41.77290375445318,-8.597454904661268]},{"id":"pt.ine.add.PTCONT.5284318","rua":"R SALGUEIRINHO - QTA DO SALGUEIRINHO","casa":"","coordenadas":[41.7722660872654,-8.597065439654365]}],"ruas":["R CAMPOS NOVOS","","R SALGUEIRINHO","R SALGUEIRINHO - QTA DO SALGUEIRINHO"],"centroide":[41.77260398641671,-8.596997217154883]}
+{
+  "CP": "4990-257",
+  "CP4": "4990",
+  "CP3": "257",
+  "Distrito": "Viana do Castelo",
+  "Concelho": "Ponte de Lima",
+  "Localidade": "Arcozelo",
+  "Designação Postal": "PONTE DE LIMA",
+  "partes": [
+    {
+      "Artéria": "Rua do Salgueirinho",
+      "Local": "Salgueirinho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua Manuel Joaquim de Lima",
+      "Local": "Salgueirinho",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.5163524",
+      "rua": "R CAMPOS NOVOS",
+      "casa": "",
+      "coordenadas": [
+        41.77161801544585,
+        -8.59478767773148
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5177701",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77308294180574,
+        -8.597672686896024
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5191917",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77275965582516,
+        -8.597465892525356
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5214154",
+      "rua": "R SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.772474712717,
+        -8.596682075818597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5214155",
+      "rua": "R SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.772474712717,
+        -8.596682075818597
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5219401",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77264412147234,
+        -8.597092218123558
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5225868",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77264120497696,
+        -8.59781382502782
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5236067",
+      "rua": "R CAMPOS NOVOS",
+      "casa": "",
+      "coordenadas": [
+        41.77306573033167,
+        -8.595243065969347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5246978",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77279493904194,
+        -8.597646554417366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5247062",
+      "rua": "R SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.77266450617035,
+        -8.596503035340012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5249486",
+      "rua": "R SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.772583186945994,
+        -8.59657461277173
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5256407",
+      "rua": "R SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.77232064019606,
+        -8.596933534977776
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5258645",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.7725608091323,
+        -8.597656892220296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5264207",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77277649508127,
+        -8.59775466575362
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5274799",
+      "rua": "R SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.77229835635443,
+        -8.597991756425287
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5277144",
+      "rua": "",
+      "casa": "",
+      "coordenadas": [
+        41.77290375445318,
+        -8.597454904661268
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.5284318",
+      "rua": "R SALGUEIRINHO - QTA DO SALGUEIRINHO",
+      "casa": "",
+      "coordenadas": [
+        41.7722660872654,
+        -8.597065439654365
+      ]
+    }
+  ],
+  "ruas": [
+    "R CAMPOS NOVOS",
+    "R SALGUEIRINHO",
+    "R SALGUEIRINHO - QTA DO SALGUEIRINHO"
+  ],
+  "centro": [
+    41.772350478625796,
+    -8.596389717078385
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.77200070720693,
+                -8.596589971996748
+              ],
+              [
+                41.77191566459336,
+                -8.596189462160021
+              ],
+              [
+                41.77186387285157,
+                -8.595846131494103
+              ],
+              [
+                41.771845331981574,
+                -8.59555997999899
+              ],
+              [
+                41.771860041983366,
+                -8.595331007674687
+              ],
+              [
+                41.77190800285694,
+                -8.59515921452119
+              ],
+              [
+                41.77198921460231,
+                -8.595044600538502
+              ],
+              [
+                41.77210367721946,
+                -8.594987165726621
+              ],
+              [
+                41.7722513907084,
+                -8.594986910085547
+              ],
+              [
+                41.77243235506913,
+                -8.59504383361528
+              ],
+              [
+                41.77259096781405,
+                -8.595131604530776
+              ],
+              [
+                41.772727228943154,
+                -8.595250222832036
+              ],
+              [
+                41.77284113845646,
+                -8.595399688519056
+              ],
+              [
+                41.772932696353955,
+                -8.595580001591841
+              ],
+              [
+                41.77300190263564,
+                -8.595791162050388
+              ],
+              [
+                41.77304875730151,
+                -8.596033169894696
+              ],
+              [
+                41.77307326035158,
+                -8.596306025124768
+              ],
+              [
+                41.77307541178583,
+                -8.596609727740603
+              ],
+              [
+                41.773065035143134,
+                -8.596880452990852
+              ],
+              [
+                41.77304213042348,
+                -8.597118200875519
+              ],
+              [
+                41.773006697626855,
+                -8.597322971394599
+              ],
+              [
+                41.77295873675328,
+                -8.597494764548095
+              ],
+              [
+                41.77289824780274,
+                -8.597633580336005
+              ],
+              [
+                41.77282523077525,
+                -8.597739418758334
+              ],
+              [
+                41.77273968567079,
+                -8.597812279815077
+              ],
+              [
+                41.77264161248938,
+                -8.597852163506236
+              ],
+              [
+                41.77254516812894,
+                -8.597836998006407
+              ],
+              [
+                41.772450352589495,
+                -8.597766783315596
+              ],
+              [
+                41.77235716587102,
+                -8.597641519433797
+              ],
+              [
+                41.77226560797352,
+                -8.597461206361011
+              ],
+              [
+                41.772175678897014,
+                -8.597225844097242
+              ],
+              [
+                41.77208737864148,
+                -8.59693543264249
+              ],
+              [
+                41.77200070720693,
+                -8.596589971996748
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.772516260984425,
+    -8.596423796755536
+  ],
+  "centroDeMassa": [
+    41.772350478625796,
+    -8.596389717078385
+  ]
+}

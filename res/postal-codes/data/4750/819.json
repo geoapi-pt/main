@@ -1,1 +1,485 @@
-{"CP4":"4750","CP3":"819","Distrito":"Braga","Concelho":"Barcelos","CP":"4750-819","Artéria":"Rua Castro Neves","Localidade":"Barcelos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BARCELOS","locais":[{"id":"pt.ine.add.PTCONT.483280","rua":"R CASTRO NEVES","casa":"104","coordenadas":[41.534147742459844,-8.6295948262353]},{"id":"pt.ine.add.PTCONT.495074","rua":"R CASTRO NEVES","casa":"22","coordenadas":[41.53588835162036,-8.631010166918639]},{"id":"pt.ine.add.PTCONT.506525","rua":"R CASTRO NEVES","casa":"222","coordenadas":[41.534418660306855,-8.631490194371795]},{"id":"pt.ine.add.PTCONT.516619","rua":"R CASTRO NEVES","casa":"161","coordenadas":[41.534079175752716,-8.63087646431011]},{"id":"pt.ine.add.PTCONT.539548","rua":"R CASTRO NEVES","casa":"80","coordenadas":[41.53414070392771,-8.629139424578447]},{"id":"pt.ine.add.PTCONT.539568","rua":"R CASTRO NEVES","casa":"100","coordenadas":[41.5341571080146,-8.629511017968348]},{"id":"pt.ine.add.PTCONT.553659","rua":"R CASTRO NEVES","casa":"93","coordenadas":[41.53389611114142,-8.6294850569006]},{"id":"pt.ine.add.PTCONT.560313","rua":"R CASTRO NEVES","casa":"111","coordenadas":[41.53392141405705,-8.629880682653457]},{"id":"pt.ine.add.PTCONT.577450","rua":"R CASTRO NEVES","casa":"159","coordenadas":[41.53397134171707,-8.630827706358751]},{"id":"pt.ine.add.PTCONT.588977","rua":"R CASTRO NEVES","casa":"245","coordenadas":[41.534571095800416,-8.63163515950562]},{"id":"pt.ine.add.PTCONT.595756","rua":"R CASTRO NEVES","casa":"150","coordenadas":[41.53420703869944,-8.630458044858907]},{"id":"pt.ine.add.PTCONT.619405","rua":"R CASTRO NEVES","casa":"177","coordenadas":[41.534267158887566,-8.631129545598265]},{"id":"pt.ine.add.PTCONT.659480","rua":"R CASTRO NEVES","casa":"176","coordenadas":[41.53448381258705,-8.630999395570207]},{"id":"pt.ine.add.PTCONT.674347","rua":"R CASTRO NEVES","casa":"","coordenadas":[41.534226651508256,-8.63008672664343]},{"id":"pt.ine.add.PTCONT.674353","rua":"R CASTRO NEVES","casa":"","coordenadas":[41.534226651508256,-8.63008672664343]},{"id":"pt.ine.add.PTCONT.674354","rua":"R CASTRO NEVES","casa":"","coordenadas":[41.534226651508256,-8.63008672664343]},{"id":"pt.ine.add.PTCONT.676513","rua":"R CASTRO NEVES","casa":"207","coordenadas":[41.53534112908416,-8.632623683133042]},{"id":"pt.ine.add.PTCONT.700444","rua":"R CASTRO NEVES","casa":"","coordenadas":[41.53399116299006,-8.630408459962181]},{"id":"pt.ine.add.PTCONT.725094","rua":"R CASTRO NEVES","casa":"125","coordenadas":[41.533912876404486,-8.629772772169192]},{"id":"pt.ine.add.PTCONT.762098","rua":"R CASTRO NEVES","casa":"58","coordenadas":[41.53393403779076,-8.629041983272394]},{"id":"pt.ine.add.PTCONT.775972","rua":"R CASTRO NEVES","casa":"10","coordenadas":[41.53380969392129,-8.628645601856455]},{"id":"pt.ine.add.PTCONT.778970","rua":"R CASTRO NEVES","casa":"108","coordenadas":[41.53416435214859,-8.629918489982993]},{"id":"pt.ine.add.PTCONT.809293","rua":"R CASTRO NEVES","casa":"325","coordenadas":[41.53507138980132,-8.63253772672916]},{"id":"pt.ine.add.PTCONT.809294","rua":"R CASTRO NEVES","casa":"325","coordenadas":[41.53507138980132,-8.63253772672916]},{"id":"pt.ine.add.PTCONT.809295","rua":"R CASTRO NEVES","casa":"325","coordenadas":[41.53507138980132,-8.63253772672916]},{"id":"pt.ine.add.PTCONT.809296","rua":"R CASTRO NEVES","casa":"325","coordenadas":[41.53507138980132,-8.63253772672916]},{"id":"pt.ine.add.PTCONT.821017","rua":"R CASTRO NEVES","casa":"70","coordenadas":[41.53401455212105,-8.629162426418077]},{"id":"pt.ine.add.PTCONT.826030","rua":"R CASTRO NEVES","casa":"67","coordenadas":[41.53396974156067,-8.629114152829176]},{"id":"pt.ine.add.PTCONT.840763","rua":"R CASTRO NEVES","casa":"336","coordenadas":[41.53534112908416,-8.632623683133042]},{"id":"pt.ine.add.PTCONT.846976","rua":"R CASTRO NEVES","casa":"312","coordenadas":[41.53525281149099,-8.632227563228442]}],"ruas":["R CASTRO NEVES"],"centroide":[41.534399789786455,-8.630612414670068]}
+{
+  "CP": "4750-819",
+  "CP4": "4750",
+  "CP3": "819",
+  "Distrito": "Braga",
+  "Concelho": "Barcelos",
+  "Localidade": "Barcelos",
+  "Designação Postal": "BARCELOS",
+  "partes": [
+    {
+      "Artéria": "Rua Castro Neves",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.483280",
+      "rua": "R CASTRO NEVES",
+      "casa": "104",
+      "coordenadas": [
+        41.534147742459844,
+        -8.6295948262353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.495074",
+      "rua": "R CASTRO NEVES",
+      "casa": "22",
+      "coordenadas": [
+        41.53588835162036,
+        -8.631010166918639
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.506525",
+      "rua": "R CASTRO NEVES",
+      "casa": "222",
+      "coordenadas": [
+        41.534418660306855,
+        -8.631490194371795
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.516619",
+      "rua": "R CASTRO NEVES",
+      "casa": "161",
+      "coordenadas": [
+        41.534079175752716,
+        -8.63087646431011
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.539548",
+      "rua": "R CASTRO NEVES",
+      "casa": "80",
+      "coordenadas": [
+        41.53414070392771,
+        -8.629139424578447
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.539568",
+      "rua": "R CASTRO NEVES",
+      "casa": "100",
+      "coordenadas": [
+        41.5341571080146,
+        -8.629511017968348
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.553659",
+      "rua": "R CASTRO NEVES",
+      "casa": "93",
+      "coordenadas": [
+        41.53389611114142,
+        -8.6294850569006
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.560313",
+      "rua": "R CASTRO NEVES",
+      "casa": "111",
+      "coordenadas": [
+        41.53392141405705,
+        -8.629880682653457
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.577450",
+      "rua": "R CASTRO NEVES",
+      "casa": "159",
+      "coordenadas": [
+        41.53397134171707,
+        -8.630827706358751
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.588977",
+      "rua": "R CASTRO NEVES",
+      "casa": "245",
+      "coordenadas": [
+        41.534571095800416,
+        -8.63163515950562
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.595756",
+      "rua": "R CASTRO NEVES",
+      "casa": "150",
+      "coordenadas": [
+        41.53420703869944,
+        -8.630458044858907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.619405",
+      "rua": "R CASTRO NEVES",
+      "casa": "177",
+      "coordenadas": [
+        41.534267158887566,
+        -8.631129545598265
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.659480",
+      "rua": "R CASTRO NEVES",
+      "casa": "176",
+      "coordenadas": [
+        41.53448381258705,
+        -8.630999395570207
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.674347",
+      "rua": "R CASTRO NEVES",
+      "casa": "",
+      "coordenadas": [
+        41.534226651508256,
+        -8.63008672664343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.674353",
+      "rua": "R CASTRO NEVES",
+      "casa": "",
+      "coordenadas": [
+        41.534226651508256,
+        -8.63008672664343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.674354",
+      "rua": "R CASTRO NEVES",
+      "casa": "",
+      "coordenadas": [
+        41.534226651508256,
+        -8.63008672664343
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.676513",
+      "rua": "R CASTRO NEVES",
+      "casa": "207",
+      "coordenadas": [
+        41.53534112908416,
+        -8.632623683133042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.700444",
+      "rua": "R CASTRO NEVES",
+      "casa": "",
+      "coordenadas": [
+        41.53399116299006,
+        -8.630408459962181
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.725094",
+      "rua": "R CASTRO NEVES",
+      "casa": "125",
+      "coordenadas": [
+        41.533912876404486,
+        -8.629772772169192
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.762098",
+      "rua": "R CASTRO NEVES",
+      "casa": "58",
+      "coordenadas": [
+        41.53393403779076,
+        -8.629041983272394
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.775972",
+      "rua": "R CASTRO NEVES",
+      "casa": "10",
+      "coordenadas": [
+        41.53380969392129,
+        -8.628645601856455
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.778970",
+      "rua": "R CASTRO NEVES",
+      "casa": "108",
+      "coordenadas": [
+        41.53416435214859,
+        -8.629918489982993
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.809293",
+      "rua": "R CASTRO NEVES",
+      "casa": "325",
+      "coordenadas": [
+        41.53507138980132,
+        -8.63253772672916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.809294",
+      "rua": "R CASTRO NEVES",
+      "casa": "325",
+      "coordenadas": [
+        41.53507138980132,
+        -8.63253772672916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.809295",
+      "rua": "R CASTRO NEVES",
+      "casa": "325",
+      "coordenadas": [
+        41.53507138980132,
+        -8.63253772672916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.809296",
+      "rua": "R CASTRO NEVES",
+      "casa": "325",
+      "coordenadas": [
+        41.53507138980132,
+        -8.63253772672916
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.821017",
+      "rua": "R CASTRO NEVES",
+      "casa": "70",
+      "coordenadas": [
+        41.53401455212105,
+        -8.629162426418077
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.826030",
+      "rua": "R CASTRO NEVES",
+      "casa": "67",
+      "coordenadas": [
+        41.53396974156067,
+        -8.629114152829176
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.840763",
+      "rua": "R CASTRO NEVES",
+      "casa": "336",
+      "coordenadas": [
+        41.53534112908416,
+        -8.632623683133042
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.846976",
+      "rua": "R CASTRO NEVES",
+      "casa": "312",
+      "coordenadas": [
+        41.53525281149099,
+        -8.632227563228442
+      ]
+    }
+  ],
+  "ruas": [
+    "R CASTRO NEVES"
+  ],
+  "centro": [
+    41.53484902277083,
+    -8.630634642494748
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.53390062080642,
+                -8.629873035638996
+              ],
+              [
+                41.53388041483194,
+                -8.62960027257621
+              ],
+              [
+                41.53389521363083,
+                -8.629398551225368
+              ],
+              [
+                41.53394501720307,
+                -8.62926787158647
+              ],
+              [
+                41.534029825548664,
+                -8.629208233659519
+              ],
+              [
+                41.53414963866762,
+                -8.62921963744451
+              ],
+              [
+                41.53430445655994,
+                -8.62930208294145
+              ],
+              [
+                41.534494279225605,
+                -8.62945557015033
+              ],
+              [
+                41.53471910666463,
+                -8.629680099071159
+              ],
+              [
+                41.53497893887702,
+                -8.629975669703935
+              ],
+              [
+                41.535197741710725,
+                -8.630259505198461
+              ],
+              [
+                41.535375515165754,
+                -8.63053160555474
+              ],
+              [
+                41.53551225924211,
+                -8.630791970772774
+              ],
+              [
+                41.53560797393979,
+                -8.63104060085256
+              ],
+              [
+                41.53566265925879,
+                -8.6312774957941
+              ],
+              [
+                41.535676315199126,
+                -8.631502655597394
+              ],
+              [
+                41.535648941760776,
+                -8.631716080262441
+              ],
+              [
+                41.53558053894374,
+                -8.631917769789242
+              ],
+              [
+                41.53551647180255,
+                -8.632092905056382
+              ],
+              [
+                41.535456740337196,
+                -8.63224148606386
+              ],
+              [
+                41.53540134454767,
+                -8.63236351281168
+              ],
+              [
+                41.53535028443399,
+                -8.632458985299836
+              ],
+              [
+                41.53530355999613,
+                -8.632527903528333
+              ],
+              [
+                41.535261171234104,
+                -8.632570267497169
+              ],
+              [
+                41.53522311814791,
+                -8.632586077206343
+              ],
+              [
+                41.535189400737565,
+                -8.63257533265586
+              ],
+              [
+                41.53514270975218,
+                -8.632539212105897
+              ],
+              [
+                41.53508304519178,
+                -8.632477715556456
+              ],
+              [
+                41.53501040705636,
+                -8.63239084300754
+              ],
+              [
+                41.534924795345916,
+                -8.632278594459146
+              ],
+              [
+                41.53482621006046,
+                -8.632140969911276
+              ],
+              [
+                41.53471465119996,
+                -8.631977969363929
+              ],
+              [
+                41.534590118764456,
+                -8.631789592817105
+              ],
+              [
+                41.53445261275393,
+                -8.631575840270806
+              ],
+              [
+                41.53432976924791,
+                -8.631354711409944
+              ],
+              [
+                41.53422158824639,
+                -8.63112620623452
+              ],
+              [
+                41.53412806974938,
+                -8.630890324744538
+              ],
+              [
+                41.53404921375688,
+                -8.630647066939993
+              ],
+              [
+                41.53398502026889,
+                -8.63039643282089
+              ],
+              [
+                41.5339354892854,
+                -8.630138422387223
+              ],
+              [
+                41.53390062080642,
+                -8.629873035638996
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.534816381228836,
+    -8.63112897699921
+  ],
+  "centroDeMassa": [
+    41.53484902277083,
+    -8.630634642494748
+  ]
+}

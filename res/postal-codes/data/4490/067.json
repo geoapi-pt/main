@@ -1,1 +1,383 @@
-{"CP4":"4490","CP3":"067","Distrito":"Porto","Concelho":"Póvoa de Varzim","CP":"4490-067","Artéria":"Rua de Sezins","Localidade":"Póvoa de Varzim","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"PÓVOA DE VARZIM","locais":[{"id":"pt.ine.add.PTCONT.3588270","rua":"R ALDEAMENTO SANTANA","casa":"55","coordenadas":[41.40798394271799,-8.765750061534224]},{"id":"pt.ine.add.PTCONT.3620394","rua":"R SEZINS","casa":"299","coordenadas":[41.39810846853405,-8.765415128815542]},{"id":"pt.ine.add.PTCONT.3620395","rua":"R SEZINS","casa":"299","coordenadas":[41.39810846853405,-8.765415128815542]},{"id":"pt.ine.add.PTCONT.3621867","rua":"R SEZINS","casa":"299","coordenadas":[41.39810846853405,-8.765415128815542]},{"id":"pt.ine.add.PTCONT.3633402","rua":"R ALDEAMENTO SANTANA","casa":"228","coordenadas":[41.408361364024806,-8.765885279163323]},{"id":"pt.ine.add.PTCONT.3646267","rua":"R SEZINS","casa":"290","coordenadas":[41.398467686942425,-8.765586020382502]},{"id":"pt.ine.add.PTCONT.3658969","rua":"R ALDEAMENTO SANTANA","casa":"334","coordenadas":[41.40905311615061,-8.766167066535196]},{"id":"pt.ine.add.PTCONT.3667174","rua":"R ALDEAMENTO SANTANA","casa":"346","coordenadas":[41.40925112609919,-8.766180948583246]},{"id":"pt.ine.add.PTCONT.3683202","rua":"R SEZINS","casa":"386","coordenadas":[41.39776140538909,-8.766308593737076]},{"id":"pt.ine.add.PTCONT.3724376","rua":"R SEZINS","casa":"359","coordenadas":[41.397772513847954,-8.765926054553523]},{"id":"pt.ine.add.PTCONT.3748149","rua":"R SEZINS","casa":"387","coordenadas":[41.39763588330214,-8.766211713877682]},{"id":"pt.ine.add.PTCONT.3763032","rua":"R SEZINS","casa":"","coordenadas":[41.39784322606147,-8.766165895106775]},{"id":"pt.ine.add.PTCONT.3871573","rua":"R SEZINS CASA DE SEZINS","casa":"278","coordenadas":[41.398666880265864,-8.765384667588078]},{"id":"pt.ine.add.PTCONT.3919360","rua":"R SEZINS","casa":"55","coordenadas":[41.39959972441148,-8.762750979017973]},{"id":"pt.ine.add.PTCONT.3963849","rua":"R SEZINS","casa":"","coordenadas":[41.39780681747767,-8.766237288155587]},{"id":"pt.ine.add.PTCONT.3969494","rua":"R SEZINS","casa":"409","coordenadas":[41.397571674639934,-8.76642632904437]},{"id":"pt.ine.add.PTCONT.4001523","rua":"R SEZINS","casa":"346","coordenadas":[41.39800640655086,-8.765964196636777]},{"id":"pt.ine.add.PTCONT.4034004","rua":"R SEZINS","casa":"","coordenadas":[41.39761735001371,-8.766307195545172]},{"id":"pt.ine.add.PTCONT.4067179","rua":"R SEZINS","casa":"53","coordenadas":[41.39951895495789,-8.762702367268256]},{"id":"pt.ine.add.PTCONT.4106200","rua":"R SEZINS","casa":"346","coordenadas":[41.39783632712603,-8.765783180783224]},{"id":"pt.ine.add.PTCONT.4152057","rua":"R SEZINS","casa":"373","coordenadas":[41.39766394618072,-8.766020663029872]},{"id":"pt.ine.add.PTCONT.4362333","rua":"R SEZINS","casa":"351","coordenadas":[41.397799918778205,-8.765854574041102]}],"ruas":["R ALDEAMENTO SANTANA","R SEZINS","R SEZINS CASA DE SEZINS"],"centroide":[41.4001306548458,-8.765619232713785]}
+{
+  "CP": "4490-067",
+  "CP4": "4490",
+  "CP3": "067",
+  "Distrito": "Porto",
+  "Concelho": "Póvoa de Varzim",
+  "Localidade": "Póvoa de Varzim",
+  "Designação Postal": "PÓVOA DE VARZIM",
+  "partes": [
+    {
+      "Artéria": "Rua de Sezins",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.3588270",
+      "rua": "R ALDEAMENTO SANTANA",
+      "casa": "55",
+      "coordenadas": [
+        41.40798394271799,
+        -8.765750061534224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3620394",
+      "rua": "R SEZINS",
+      "casa": "299",
+      "coordenadas": [
+        41.39810846853405,
+        -8.765415128815542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3620395",
+      "rua": "R SEZINS",
+      "casa": "299",
+      "coordenadas": [
+        41.39810846853405,
+        -8.765415128815542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3621867",
+      "rua": "R SEZINS",
+      "casa": "299",
+      "coordenadas": [
+        41.39810846853405,
+        -8.765415128815542
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3633402",
+      "rua": "R ALDEAMENTO SANTANA",
+      "casa": "228",
+      "coordenadas": [
+        41.408361364024806,
+        -8.765885279163323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3646267",
+      "rua": "R SEZINS",
+      "casa": "290",
+      "coordenadas": [
+        41.398467686942425,
+        -8.765586020382502
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3658969",
+      "rua": "R ALDEAMENTO SANTANA",
+      "casa": "334",
+      "coordenadas": [
+        41.40905311615061,
+        -8.766167066535196
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3667174",
+      "rua": "R ALDEAMENTO SANTANA",
+      "casa": "346",
+      "coordenadas": [
+        41.40925112609919,
+        -8.766180948583246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3683202",
+      "rua": "R SEZINS",
+      "casa": "386",
+      "coordenadas": [
+        41.39776140538909,
+        -8.766308593737076
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3724376",
+      "rua": "R SEZINS",
+      "casa": "359",
+      "coordenadas": [
+        41.397772513847954,
+        -8.765926054553523
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3748149",
+      "rua": "R SEZINS",
+      "casa": "387",
+      "coordenadas": [
+        41.39763588330214,
+        -8.766211713877682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3763032",
+      "rua": "R SEZINS",
+      "casa": "",
+      "coordenadas": [
+        41.39784322606147,
+        -8.766165895106775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3871573",
+      "rua": "R SEZINS CASA DE SEZINS",
+      "casa": "278",
+      "coordenadas": [
+        41.398666880265864,
+        -8.765384667588078
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3919360",
+      "rua": "R SEZINS",
+      "casa": "55",
+      "coordenadas": [
+        41.39959972441148,
+        -8.762750979017973
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3963849",
+      "rua": "R SEZINS",
+      "casa": "",
+      "coordenadas": [
+        41.39780681747767,
+        -8.766237288155587
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3969494",
+      "rua": "R SEZINS",
+      "casa": "409",
+      "coordenadas": [
+        41.397571674639934,
+        -8.76642632904437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4001523",
+      "rua": "R SEZINS",
+      "casa": "346",
+      "coordenadas": [
+        41.39800640655086,
+        -8.765964196636777
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4034004",
+      "rua": "R SEZINS",
+      "casa": "",
+      "coordenadas": [
+        41.39761735001371,
+        -8.766307195545172
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4067179",
+      "rua": "R SEZINS",
+      "casa": "53",
+      "coordenadas": [
+        41.39951895495789,
+        -8.762702367268256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4106200",
+      "rua": "R SEZINS",
+      "casa": "346",
+      "coordenadas": [
+        41.39783632712603,
+        -8.765783180783224
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4152057",
+      "rua": "R SEZINS",
+      "casa": "373",
+      "coordenadas": [
+        41.39766394618072,
+        -8.766020663029872
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.4362333",
+      "rua": "R SEZINS",
+      "casa": "351",
+      "coordenadas": [
+        41.397799918778205,
+        -8.765854574041102
+      ]
+    }
+  ],
+  "ruas": [
+    "R ALDEAMENTO SANTANA",
+    "R SEZINS",
+    "R SEZINS CASA DE SEZINS"
+  ],
+  "centro": [
+    41.40341140036956,
+    -8.764564348156313
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                41.40414136608577,
+                -8.766288302534988
+              ],
+              [
+                41.40268143465336,
+                -8.766318975092627
+              ],
+              [
+                41.40140543639283,
+                -8.766339475049087
+              ],
+              [
+                41.40031337130417,
+                -8.766349802404363
+              ],
+              [
+                41.39940523938739,
+                -8.766349957158459
+              ],
+              [
+                41.39868104064249,
+                -8.766339939311374
+              ],
+              [
+                41.39814077506946,
+                -8.766319748863106
+              ],
+              [
+                41.3977844426683,
+                -8.766289385813655
+              ],
+              [
+                41.397612043439025,
+                -8.766248850163025
+              ],
+              [
+                41.39762357738162,
+                -8.766198141911216
+              ],
+              [
+                41.39766265409354,
+                -8.766101923819605
+              ],
+              [
+                41.39772927357477,
+                -8.765960195888196
+              ],
+              [
+                41.39782343582533,
+                -8.765772958116987
+              ],
+              [
+                41.3979451408452,
+                -8.765540210505979
+              ],
+              [
+                41.3980943886344,
+                -8.765261953055173
+              ],
+              [
+                41.3982711791929,
+                -8.764938185764567
+              ],
+              [
+                41.39847551252073,
+                -8.764568908634164
+              ],
+              [
+                41.39870738861788,
+                -8.764154121663964
+              ],
+              [
+                41.39906234537696,
+                -8.763845535898083
+              ],
+              [
+                41.39954038279799,
+                -8.763643151336524
+              ],
+              [
+                41.40014150088095,
+                -8.76354696797929
+              ],
+              [
+                41.400865699625854,
+                -8.763556985826375
+              ],
+              [
+                41.401712979032695,
+                -8.763673204877783
+              ],
+              [
+                41.402683339101486,
+                -8.763895625133514
+              ],
+              [
+                41.40377677983221,
+                -8.764224246593566
+              ],
+              [
+                41.40499330122487,
+                -8.764659069257936
+              ],
+              [
+                41.4058752660144,
+                -8.765043373158967
+              ],
+              [
+                41.4064226742008,
+                -8.765377158296658
+              ],
+              [
+                41.40663552578406,
+                -8.765660424671008
+              ],
+              [
+                41.40651382076418,
+                -8.765893172282016
+              ],
+              [
+                41.406057559141175,
+                -8.766075401129683
+              ],
+              [
+                41.40526674091504,
+                -8.766207111214005
+              ],
+              [
+                41.40414136608577,
+                -8.766288302534988
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    41.40100142546944,
+    -8.765332576981436
+  ],
+  "centroDeMassa": [
+    41.40341140036956,
+    -8.764564348156313
+  ]
+}

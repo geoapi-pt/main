@@ -1,1 +1,536 @@
-{"CP4":"2705","CP3":"832","Distrito":"Lisboa","Concelho":"Sintra","CP":"2705-832","Artéria":"Largo do Pedregulho","Localidade":"Terrugem","Local":"Alcolombal de Baixo","Troço":"","Porta":"","Cliente":"","Designação Postal":"TERRUGEM SNT","locais":[{"id":"pt.ine.add.PTCONT.2271102","rua":"R FONTE","casa":"2","coordenadas":[38.845031480128824,-9.356240300372686]},{"id":"pt.ine.add.PTCONT.2282351","rua":"ESTR ALCOLOMBAL","casa":"271","coordenadas":[38.84686394803242,-9.359301038700586]},{"id":"pt.ine.add.PTCONT.2291218","rua":"ESTR ALCOLOMBAL","casa":"258","coordenadas":[38.84719322892554,-9.360539173543257]},{"id":"pt.ine.add.PTCONT.2300239","rua":"ESTR ALCOLOMBAL","casa":"254","coordenadas":[38.847116774124686,-9.36010015633863]},{"id":"pt.ine.add.PTCONT.2363085","rua":"LG FONTENARIO","casa":"9","coordenadas":[38.84600061823477,-9.361739620801355]},{"id":"pt.ine.add.PTCONT.2391293","rua":"R SERRADO DA PORTA","casa":"3","coordenadas":[38.84578934115976,-9.359559029144503]},{"id":"pt.ine.add.PTCONT.2400716","rua":"ESTR RIBEIRINHA","casa":"11","coordenadas":[38.84386487469753,-9.365250421722678]},{"id":"pt.ine.add.PTCONT.2455207","rua":"ESTR ALCOLOMBAL","casa":"269","coordenadas":[38.847263351921335,-9.359008413999284]},{"id":"pt.ine.add.PTCONT.2457529","rua":"LG BRANCA","casa":"3","coordenadas":[38.845416469852005,-9.35989817356323]},{"id":"pt.ine.add.PTCONT.2572064","rua":"LG BRANCA","casa":"2","coordenadas":[38.845728355403395,-9.359362171121155]},{"id":"pt.ine.add.PTCONT.2583743","rua":"LG FONTENARIO","casa":"315","coordenadas":[38.845709036366145,-9.362057116888801]},{"id":"pt.ine.add.PTCONT.2776874","rua":"ESTR ALCOLOMBAL","casa":"266","coordenadas":[38.84657307820714,-9.361265694745418]},{"id":"pt.ine.add.PTCONT.2867317","rua":"R FONTE QTA DO CERRADO DA VINHA","casa":"1","coordenadas":[38.845694738080624,-9.357415004727079]},{"id":"pt.ine.add.PTCONT.2904079","rua":"R EIRA VELHA","casa":"10","coordenadas":[38.84588833898493,-9.360424602253884]},{"id":"pt.ine.add.PTCONT.2951048","rua":"ESTR ALCOLOMBAL","casa":"262","coordenadas":[38.84680125335867,-9.36098165698213]},{"id":"pt.ine.add.PTCONT.3059522","rua":"R EIRA VELHA","casa":"6","coordenadas":[38.84579435565532,-9.359939218962307]},{"id":"pt.ine.add.PTCONT.3081141","rua":"R EIRA VELHA","casa":"8","coordenadas":[38.84583648162451,-9.360216381760093]},{"id":"pt.ine.add.PTCONT.3190519","rua":"R SERRADO DA PORTA","casa":"12","coordenadas":[38.84622548004772,-9.360914166769131]},{"id":"pt.ine.add.PTCONT.3201385","rua":"R SERRADO DA PORTA","casa":"2","coordenadas":[38.84611077255867,-9.35982947049183]},{"id":"pt.ine.add.PTCONT.3236368","rua":"ESTR RIBEIRINHA","casa":"3","coordenadas":[38.84517780857652,-9.362036458446905]},{"id":"pt.ine.add.PTCONT.3245550","rua":"R LAGES","casa":"3","coordenadas":[38.84730457254086,-9.358513824353746]},{"id":"pt.ine.add.PTCONT.3291191","rua":"R SERRADO DA PORTA","casa":"14","coordenadas":[38.84633173489535,-9.36108876903882]},{"id":"pt.ine.add.PTCONT.3338064","rua":"LG FONTENARIO","casa":"7","coordenadas":[38.84584594265405,-9.361886698014283]},{"id":"pt.ine.add.PTCONT.3366791","rua":"ESTR ALCOLOMBAL","casa":"264","coordenadas":[38.846834976362864,-9.36120108749802]},{"id":"pt.ine.add.PTCONT.3373718","rua":"R EIRA VELHA","casa":"12 A","coordenadas":[38.84593668533652,-9.360966793879625]},{"id":"pt.ine.add.PTCONT.3443503","rua":"ESTR ALCOLOMBAL","casa":"260","coordenadas":[38.8470383127073,-9.360709288611123]},{"id":"pt.ine.add.PTCONT.3457085","rua":"R LAGES","casa":"7","coordenadas":[38.8469540664808,-9.358438699710073]}],"ruas":["R FONTE","ESTR ALCOLOMBAL","LG FONTENARIO","R SERRADO DA PORTA","ESTR RIBEIRINHA","LG BRANCA","R FONTE QTA DO CERRADO DA VINHA","R EIRA VELHA","R LAGES"],"centroide":[38.84612969270913,-9.360401720489635]}35]}360401720489635]}}
+{
+  "CP": "2705-832",
+  "CP4": "2705",
+  "CP3": "832",
+  "Distrito": "Lisboa",
+  "Concelho": "Sintra",
+  "Localidade": "Terrugem",
+  "Designação Postal": "TERRUGEM SNT",
+  "partes": [
+    {
+      "Artéria": "Travessa da Fonte",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua das Lages",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada de Alcolombal",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "Impares de 269 a 271",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada de Alcolombal",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "Pares de 254 a 266A",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Eira Velha",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo do Fontenário",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Estrada da Ribeirinha",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua do Serrado da Porta",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo da Branca",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Rua da Fonte",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Largo do Pedregulho",
+      "Local": "Alcolombal de Baixo",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2271102",
+      "rua": "R FONTE",
+      "casa": "2",
+      "coordenadas": [
+        38.845031480128824,
+        -9.356240300372686
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2282351",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "271",
+      "coordenadas": [
+        38.84686394803242,
+        -9.359301038700586
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2291218",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "258",
+      "coordenadas": [
+        38.84719322892554,
+        -9.360539173543257
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2300239",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "254",
+      "coordenadas": [
+        38.847116774124686,
+        -9.36010015633863
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2363085",
+      "rua": "LG FONTENARIO",
+      "casa": "9",
+      "coordenadas": [
+        38.84600061823477,
+        -9.361739620801355
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2391293",
+      "rua": "R SERRADO DA PORTA",
+      "casa": "3",
+      "coordenadas": [
+        38.84578934115976,
+        -9.359559029144503
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2400716",
+      "rua": "ESTR RIBEIRINHA",
+      "casa": "11",
+      "coordenadas": [
+        38.84386487469753,
+        -9.365250421722678
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2455207",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "269",
+      "coordenadas": [
+        38.847263351921335,
+        -9.359008413999284
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2457529",
+      "rua": "LG BRANCA",
+      "casa": "3",
+      "coordenadas": [
+        38.845416469852005,
+        -9.35989817356323
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2572064",
+      "rua": "LG BRANCA",
+      "casa": "2",
+      "coordenadas": [
+        38.845728355403395,
+        -9.359362171121155
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2583743",
+      "rua": "LG FONTENARIO",
+      "casa": "315",
+      "coordenadas": [
+        38.845709036366145,
+        -9.362057116888801
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2776874",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "266",
+      "coordenadas": [
+        38.84657307820714,
+        -9.361265694745418
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2867317",
+      "rua": "R FONTE QTA DO CERRADO DA VINHA",
+      "casa": "1",
+      "coordenadas": [
+        38.845694738080624,
+        -9.357415004727079
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2904079",
+      "rua": "R EIRA VELHA",
+      "casa": "10",
+      "coordenadas": [
+        38.84588833898493,
+        -9.360424602253884
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2951048",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "262",
+      "coordenadas": [
+        38.84680125335867,
+        -9.36098165698213
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3059522",
+      "rua": "R EIRA VELHA",
+      "casa": "6",
+      "coordenadas": [
+        38.84579435565532,
+        -9.359939218962307
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3081141",
+      "rua": "R EIRA VELHA",
+      "casa": "8",
+      "coordenadas": [
+        38.84583648162451,
+        -9.360216381760093
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3190519",
+      "rua": "R SERRADO DA PORTA",
+      "casa": "12",
+      "coordenadas": [
+        38.84622548004772,
+        -9.360914166769131
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3201385",
+      "rua": "R SERRADO DA PORTA",
+      "casa": "2",
+      "coordenadas": [
+        38.84611077255867,
+        -9.35982947049183
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3236368",
+      "rua": "ESTR RIBEIRINHA",
+      "casa": "3",
+      "coordenadas": [
+        38.84517780857652,
+        -9.362036458446905
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3245550",
+      "rua": "R LAGES",
+      "casa": "3",
+      "coordenadas": [
+        38.84730457254086,
+        -9.358513824353746
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3291191",
+      "rua": "R SERRADO DA PORTA",
+      "casa": "14",
+      "coordenadas": [
+        38.84633173489535,
+        -9.36108876903882
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3338064",
+      "rua": "LG FONTENARIO",
+      "casa": "7",
+      "coordenadas": [
+        38.84584594265405,
+        -9.361886698014283
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3366791",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "264",
+      "coordenadas": [
+        38.846834976362864,
+        -9.36120108749802
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3373718",
+      "rua": "R EIRA VELHA",
+      "casa": "12 A",
+      "coordenadas": [
+        38.84593668533652,
+        -9.360966793879625
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3443503",
+      "rua": "ESTR ALCOLOMBAL",
+      "casa": "260",
+      "coordenadas": [
+        38.8470383127073,
+        -9.360709288611123
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3457085",
+      "rua": "R LAGES",
+      "casa": "7",
+      "coordenadas": [
+        38.8469540664808,
+        -9.358438699710073
+      ]
+    }
+  ],
+  "ruas": [
+    "R FONTE",
+    "ESTR ALCOLOMBAL",
+    "LG FONTENARIO",
+    "R SERRADO DA PORTA",
+    "ESTR RIBEIRINHA",
+    "LG BRANCA",
+    "R FONTE QTA DO CERRADO DA VINHA",
+    "R EIRA VELHA",
+    "R LAGES"
+  ],
+  "centro": [
+    38.8455847236192,
+    -9.360745361047682
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.84553555688428,
+                -9.362972671221307
+              ],
+              [
+                38.845164294176115,
+                -9.363478837999391
+              ],
+              [
+                38.84485766751634,
+                -9.363780950784118
+              ],
+              [
+                38.84461567690494,
+                -9.363879009575491
+              ],
+              [
+                38.84443832234193,
+                -9.363773014373512
+              ],
+              [
+                38.8443256038273,
+                -9.363462965178181
+              ],
+              [
+                38.84427752136106,
+                -9.362948861989494
+              ],
+              [
+                38.8442940749432,
+                -9.362230704807452
+              ],
+              [
+                38.84437526457373,
+                -9.361308493632055
+              ],
+              [
+                38.84452109025263,
+                -9.360182228463309
+              ],
+              [
+                38.84468420479061,
+                -9.359232270252857
+              ],
+              [
+                38.84486460818768,
+                -9.358458619000702
+              ],
+              [
+                38.84506230044381,
+                -9.357861274706845
+              ],
+              [
+                38.84527728155902,
+                -9.35744023737129
+              ],
+              [
+                38.8455095515333,
+                -9.357195506994028
+              ],
+              [
+                38.84575911036666,
+                -9.357127083575065
+              ],
+              [
+                38.84602595805909,
+                -9.357234967114401
+              ],
+              [
+                38.84631009461059,
+                -9.357519157612032
+              ],
+              [
+                38.84655697434917,
+                -9.357799470378547
+              ],
+              [
+                38.846766597274815,
+                -9.358075905413944
+              ],
+              [
+                38.846938963387544,
+                -9.358348462718222
+              ],
+              [
+                38.847074072687334,
+                -9.358617142291383
+              ],
+              [
+                38.84717192517421,
+                -9.358881944133426
+              ],
+              [
+                38.84723252084814,
+                -9.35914286824435
+              ],
+              [
+                38.84725585970915,
+                -9.359399914624156
+              ],
+              [
+                38.84724194175725,
+                -9.359653083272846
+              ],
+              [
+                38.84722416585303,
+                -9.359884948245991
+              ],
+              [
+                38.84720253199651,
+                -9.360095509543594
+              ],
+              [
+                38.84717704018769,
+                -9.360284767165655
+              ],
+              [
+                38.84714769042655,
+                -9.360452721112171
+              ],
+              [
+                38.847114482713124,
+                -9.360599371383145
+              ],
+              [
+                38.8470774170474,
+                -9.360724717978577
+              ],
+              [
+                38.84703649342937,
+                -9.360828760898466
+              ],
+              [
+                38.84699171185903,
+                -9.360911500142812
+              ],
+              [
+                38.84690612014647,
+                -9.361047167828874
+              ],
+              [
+                38.846779718291685,
+                -9.361235763956655
+              ],
+              [
+                38.84661250629466,
+                -9.361477288526151
+              ],
+              [
+                38.8464044841554,
+                -9.361771741537364
+              ],
+              [
+                38.84615565187392,
+                -9.362119122990295
+              ],
+              [
+                38.84586600945022,
+                -9.362519432884943
+              ],
+              [
+                38.84553555688428,
+                -9.362972671221307
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.846045826531125,
+    -9.36034896149808
+  ],
+  "centroDeMassa": [
+    38.8455847236192,
+    -9.360745361047682
+  ]
+}

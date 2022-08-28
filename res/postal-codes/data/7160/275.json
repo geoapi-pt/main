@@ -1,1 +1,637 @@
-{"CP4":"7160","CP3":"275","Distrito":"Évora","Concelho":"Vila Viçosa","CP":"7160-275","Artéria":"Rua Doutor António José de Almeida","Localidade":"Vila Viçosa","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"VILA VIÇOSA","locais":[{"id":"pt.ine.add.PTCONT.1371185","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"16","coordenadas":[38.778156007138946,-7.4174135659608]},{"id":"pt.ine.add.PTCONT.1377011","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"61","coordenadas":[38.77787429821288,-7.4169895022116785]},{"id":"pt.ine.add.PTCONT.1379538","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"22","coordenadas":[38.77808352515851,-7.417345243806548]},{"id":"pt.ine.add.PTCONT.1379539","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"22","coordenadas":[38.77808352515851,-7.417345243806548]},{"id":"pt.ine.add.PTCONT.1379540","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"22","coordenadas":[38.77808352515851,-7.417345243806548]},{"id":"pt.ine.add.PTCONT.1381476","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"17","coordenadas":[38.778425423711596,-7.417524154993352]},{"id":"pt.ine.add.PTCONT.1384478","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"75","coordenadas":[38.77765117339699,-7.416775522386098]},{"id":"pt.ine.add.PTCONT.1384479","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"75","coordenadas":[38.77765117339699,-7.416775522386098]},{"id":"pt.ine.add.PTCONT.1387005","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"10","coordenadas":[38.77831618063341,-7.417590920606366]},{"id":"pt.ine.add.PTCONT.1390715","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"30","coordenadas":[38.777974985639545,-7.4172628687925295]},{"id":"pt.ine.add.PTCONT.1390716","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"30","coordenadas":[38.777974985639545,-7.4172628687925295]},{"id":"pt.ine.add.PTCONT.1396774","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"12","coordenadas":[38.77824369875547,-7.417522598120653]},{"id":"pt.ine.add.PTCONT.1399541","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"41","coordenadas":[38.778122094793396,-7.417210590164577]},{"id":"pt.ine.add.PTCONT.1406284","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"77","coordenadas":[38.777626402240934,-7.416746243747437]},{"id":"pt.ine.add.PTCONT.1411103","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"63","coordenadas":[38.77783647949633,-7.41694544103497]},{"id":"pt.ine.add.PTCONT.1411104","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"51","coordenadas":[38.77798570441124,-7.417079107120858]},{"id":"pt.ine.add.PTCONT.1412581","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"44","coordenadas":[38.77776497141663,-7.417105921293199]},{"id":"pt.ine.add.PTCONT.1413420","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"55","coordenadas":[38.77793906094755,-7.417042739546247]},{"id":"pt.ine.add.PTCONT.1418219","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"27","coordenadas":[38.778301828313275,-7.4173826289403975]},{"id":"pt.ine.add.PTCONT.1422359","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"37","coordenadas":[38.778184084055844,-7.417262091463712]},{"id":"pt.ine.add.PTCONT.1423134","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"43","coordenadas":[38.77809758300943,-7.4171917242741525]},{"id":"pt.ine.add.PTCONT.1428234","rua":"R DR ANTONIO JOSE ALMEIDA","casa":"34","coordenadas":[38.7778995855231,-7.417226835779008]},{"id":"pt.ine.add.PTCONT.1431338","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"8","coordenadas":[38.77837937328032,-7.4176133047816055]},{"id":"pt.ine.add.PTCONT.1432938","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"29","coordenadas":[38.77828256911551,-7.417373327509594]},{"id":"pt.ine.add.PTCONT.1446592","rua":"R DR ANTONIO JOSE ALMEIDA","casa":"50","coordenadas":[38.77764596855213,-7.416999217343901]},{"id":"pt.ine.add.PTCONT.1452688","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"4","coordenadas":[38.778435528951874,-7.4176621789723445]},{"id":"pt.ine.add.PTCONT.1454978","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"24","coordenadas":[38.778035084518606,-7.417310906681881]},{"id":"pt.ine.add.PTCONT.1457284","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"49","coordenadas":[38.778021190169945,-7.417107607980738]},{"id":"pt.ine.add.PTCONT.1463324","rua":"R DR ANTÓNIO JOSE DE ALMEIDA","casa":"31","coordenadas":[38.778248030237464,-7.417325426317303]}],"ruas":["R DR ANTÓNIO JOSE DE ALMEIDA","R DR ANTONIO JOSE ALMEIDA"],"centroide":[38.77803842895703,-7.417229040082299]}
+{
+  "CP": "7160-275",
+  "CP4": "7160",
+  "CP3": "275",
+  "Distrito": "Évora",
+  "Concelho": "Vila Viçosa",
+  "Localidade": "Vila Viçosa",
+  "Designação Postal": "VILA VIÇOSA",
+  "partes": [
+    {
+      "Artéria": "Rua Doutor António José de Almeida",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1371185",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "16",
+      "coordenadas": [
+        38.778156007138946,
+        -7.4174135659608
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1377011",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "61",
+      "coordenadas": [
+        38.77787429821288,
+        -7.4169895022116785
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1379538",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "22",
+      "coordenadas": [
+        38.77808352515851,
+        -7.417345243806548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1379539",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "22",
+      "coordenadas": [
+        38.77808352515851,
+        -7.417345243806548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1379540",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "22",
+      "coordenadas": [
+        38.77808352515851,
+        -7.417345243806548
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1381476",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "17",
+      "coordenadas": [
+        38.778425423711596,
+        -7.417524154993352
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1384478",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "75",
+      "coordenadas": [
+        38.77765117339699,
+        -7.416775522386098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1384479",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "75",
+      "coordenadas": [
+        38.77765117339699,
+        -7.416775522386098
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1387005",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "10",
+      "coordenadas": [
+        38.77831618063341,
+        -7.417590920606366
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1390715",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "30",
+      "coordenadas": [
+        38.777974985639545,
+        -7.4172628687925295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1390716",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "30",
+      "coordenadas": [
+        38.777974985639545,
+        -7.4172628687925295
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1396774",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "12",
+      "coordenadas": [
+        38.77824369875547,
+        -7.417522598120653
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1399541",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "41",
+      "coordenadas": [
+        38.778122094793396,
+        -7.417210590164577
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1406284",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "77",
+      "coordenadas": [
+        38.777626402240934,
+        -7.416746243747437
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411103",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "63",
+      "coordenadas": [
+        38.77783647949633,
+        -7.41694544103497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1411104",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "51",
+      "coordenadas": [
+        38.77798570441124,
+        -7.417079107120858
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1412581",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "44",
+      "coordenadas": [
+        38.77776497141663,
+        -7.417105921293199
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1413420",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "55",
+      "coordenadas": [
+        38.77793906094755,
+        -7.417042739546247
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1418219",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "27",
+      "coordenadas": [
+        38.778301828313275,
+        -7.4173826289403975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1422359",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "37",
+      "coordenadas": [
+        38.778184084055844,
+        -7.417262091463712
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1423134",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "43",
+      "coordenadas": [
+        38.77809758300943,
+        -7.4171917242741525
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1428234",
+      "rua": "R DR ANTONIO JOSE ALMEIDA",
+      "casa": "34",
+      "coordenadas": [
+        38.7778995855231,
+        -7.417226835779008
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1431338",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "8",
+      "coordenadas": [
+        38.77837937328032,
+        -7.4176133047816055
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1432938",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "29",
+      "coordenadas": [
+        38.77828256911551,
+        -7.417373327509594
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1446592",
+      "rua": "R DR ANTONIO JOSE ALMEIDA",
+      "casa": "50",
+      "coordenadas": [
+        38.77764596855213,
+        -7.416999217343901
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1452688",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "4",
+      "coordenadas": [
+        38.778435528951874,
+        -7.4176621789723445
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1454978",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "24",
+      "coordenadas": [
+        38.778035084518606,
+        -7.417310906681881
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1457284",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "49",
+      "coordenadas": [
+        38.778021190169945,
+        -7.417107607980738
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1463324",
+      "rua": "R DR ANTÓNIO JOSE DE ALMEIDA",
+      "casa": "31",
+      "coordenadas": [
+        38.778248030237464,
+        -7.417325426317303
+      ]
+    }
+  ],
+  "ruas": [
+    "R DR ANTÓNIO JOSE DE ALMEIDA",
+    "R DR ANTONIO JOSE ALMEIDA"
+  ],
+  "centro": [
+    38.7780309655964,
+    -7.417204211359891
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.777637408290985,
+                -7.416888541395449
+              ],
+              [
+                38.77763496250208,
+                -7.41685691969589
+              ],
+              [
+                38.777638990998184,
+                -7.416834897024923
+              ],
+              [
+                38.777649493779286,
+                -7.4168224733825445
+              ],
+              [
+                38.777666470845396,
+                -7.416819648768756
+              ],
+              [
+                38.777689922196515,
+                -7.41682642318356
+              ],
+              [
+                38.77771984783263,
+                -7.416842796626952
+              ],
+              [
+                38.77775624775376,
+                -7.416868769098933
+              ],
+              [
+                38.77779912195988,
+                -7.4169043405995065
+              ],
+              [
+                38.777848470451,
+                -7.416949511128669
+              ],
+              [
+                38.7778941955977,
+                -7.416991449146107
+              ],
+              [
+                38.77793629739999,
+                -7.4170301546518225
+              ],
+              [
+                38.77797477585784,
+                -7.417065627645814
+              ],
+              [
+                38.778009630971276,
+                -7.417097868128081
+              ],
+              [
+                38.77804086274028,
+                -7.4171268760986235
+              ],
+              [
+                38.778068471164865,
+                -7.417152651557444
+              ],
+              [
+                38.77809245624503,
+                -7.417175194504539
+              ],
+              [
+                38.77811281798076,
+                -7.4171945049399115
+              ],
+              [
+                38.77813163365862,
+                -7.41721239117795
+              ],
+              [
+                38.7781489032786,
+                -7.417228853218653
+              ],
+              [
+                38.7781646268407,
+                -7.4172438910620215
+              ],
+              [
+                38.77817880434491,
+                -7.417257504708058
+              ],
+              [
+                38.77819143579126,
+                -7.417269694156759
+              ],
+              [
+                38.778202521179715,
+                -7.417280459408126
+              ],
+              [
+                38.7782120605103,
+                -7.417289800462159
+              ],
+              [
+                38.778220053783,
+                -7.417297717318857
+              ],
+              [
+                38.77822788849155,
+                -7.417305538359454
+              ],
+              [
+                38.77823556463595,
+                -7.417313263583949
+              ],
+              [
+                38.77824308221619,
+                -7.417320892992344
+              ],
+              [
+                38.77825044123228,
+                -7.417328426584637
+              ],
+              [
+                38.77825764168422,
+                -7.417335864360829
+              ],
+              [
+                38.778264683572004,
+                -7.417343206320918
+              ],
+              [
+                38.77827156689563,
+                -7.417350452464907
+              ],
+              [
+                38.778278291655106,
+                -7.417357602792794
+              ],
+              [
+                38.77828610699775,
+                -7.417366070674273
+              ],
+              [
+                38.77829501292356,
+                -7.4173758561093415
+              ],
+              [
+                38.77830500943252,
+                -7.417386959098003
+              ],
+              [
+                38.778316096524655,
+                -7.417399379640257
+              ],
+              [
+                38.77832827419996,
+                -7.417413117736101
+              ],
+              [
+                38.77834154245841,
+                -7.417428173385536
+              ],
+              [
+                38.77835590130004,
+                -7.417444546588564
+              ],
+              [
+                38.77837135072483,
+                -7.417462237345185
+              ],
+              [
+                38.7783850268659,
+                -7.4174798733818985
+              ],
+              [
+                38.77839692972325,
+                -7.417497454698706
+              ],
+              [
+                38.77840705929688,
+                -7.417514981295608
+              ],
+              [
+                38.7784154155868,
+                -7.417532453172605
+              ],
+              [
+                38.77842199859299,
+                -7.417549870329696
+              ],
+              [
+                38.77842680831546,
+                -7.4175672327668805
+              ],
+              [
+                38.778429844754214,
+                -7.41758454048416
+              ],
+              [
+                38.778431107909256,
+                -7.417601793481536
+              ],
+              [
+                38.77843034835243,
+                -7.41761577644227
+              ],
+              [
+                38.77842756608376,
+                -7.417626489366363
+              ],
+              [
+                38.77842276110322,
+                -7.417633932253817
+              ],
+              [
+                38.77841593341084,
+                -7.41763810510463
+              ],
+              [
+                38.7784070830066,
+                -7.417639007918803
+              ],
+              [
+                38.7783962098905,
+                -7.417636640696336
+              ],
+              [
+                38.778383314062545,
+                -7.417631003437229
+              ],
+              [
+                38.77836839552274,
+                -7.417622096141482
+              ],
+              [
+                38.778348832501806,
+                -7.417608613432275
+              ],
+              [
+                38.77832462499975,
+                -7.41759055530961
+              ],
+              [
+                38.77829577301657,
+                -7.417567921773486
+              ],
+              [
+                38.778262276552276,
+                -7.417540712823902
+              ],
+              [
+                38.778224135606855,
+                -7.417508928460859
+              ],
+              [
+                38.77818135018031,
+                -7.417472568684358
+              ],
+              [
+                38.77813392027265,
+                -7.417431633494397
+              ],
+              [
+                38.77808184588386,
+                -7.417386122890977
+              ],
+              [
+                38.77803231802851,
+                -7.4173427445749365
+              ],
+              [
+                38.777985336706564,
+                -7.417301498546275
+              ],
+              [
+                38.77794090191806,
+                -7.4172623848049914
+              ],
+              [
+                38.77789901366298,
+                -7.417225403351087
+              ],
+              [
+                38.77785967194133,
+                -7.417190554184561
+              ],
+              [
+                38.7778228767531,
+                -7.417157837305415
+              ],
+              [
+                38.7777886280983,
+                -7.417127252713648
+              ],
+              [
+                38.77775692597693,
+                -7.41709880040926
+              ],
+              [
+                38.777728880897115,
+                -7.417069951930476
+              ],
+              [
+                38.77770449285887,
+                -7.4170407072772955
+              ],
+              [
+                38.77768376186217,
+                -7.417011066449718
+              ],
+              [
+                38.777666687907036,
+                -7.416981029447745
+              ],
+              [
+                38.77765327099346,
+                -7.416950596271375
+              ],
+              [
+                38.77764351112144,
+                -7.416919766920611
+              ],
+              [
+                38.777637408290985,
+                -7.416888541395449
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.77811042223895,
+    -7.417282730614455
+  ],
+  "centroDeMassa": [
+    38.7780309655964,
+    -7.417204211359891
+  ]
+}

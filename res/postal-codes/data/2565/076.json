@@ -1,1 +1,418 @@
-{"CP4":"2565","CP3":"076","Distrito":"Lisboa","Concelho":"Torres Vedras","CP":"2565-076","Artéria":"Rua Padre Joaquim M Sousa","Localidade":"Campelos","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"CAMPELOS","locais":[{"id":"pt.ine.add.PTCONT.2293438","rua":"R PADRE JOAQUIM M SOUSA","casa":"45","coordenadas":[39.19816336707401,-9.240888802707424]},{"id":"pt.ine.add.PTCONT.2345956","rua":"R PADRE JOAQUIM M SOUSA","casa":"65","coordenadas":[39.198349346813345,-9.243114272254532]},{"id":"pt.ine.add.PTCONT.2381326","rua":"R PADRE JOAQUIM M SOUSA","casa":"31","coordenadas":[39.19827244106666,-9.239837121486781]},{"id":"pt.ine.add.PTCONT.2428356","rua":"R PADRE JOAQUIM M SOUSA","casa":"","coordenadas":[39.19817138225317,-9.24099311030101]},{"id":"pt.ine.add.PTCONT.2536848","rua":"R PADRE JOAQUIM M SOUSA","casa":"33 A","coordenadas":[39.19805564305135,-9.23990317402684]},{"id":"pt.ine.add.PTCONT.2557117","rua":"R PADRE JOAQUIM M SOUSA","casa":"61","coordenadas":[39.19838154599086,-9.24257071742844]},{"id":"pt.ine.add.PTCONT.2670473","rua":"R PADRE JOAQUIM M SOUSA","casa":"37","coordenadas":[39.19822433307829,-9.24016048773893]},{"id":"pt.ine.add.PTCONT.2690108","rua":"R PADRE JOAQUIM M SOUSA","casa":"63","coordenadas":[39.198387244424055,-9.242918080439038]},{"id":"pt.ine.add.PTCONT.2705117","rua":"R PADRE JOAQUIM M SOUSA","casa":"33","coordenadas":[39.19819852558293,-9.240032749416043]},{"id":"pt.ine.add.PTCONT.2784072","rua":"R PADRE JOAQUIM M SOUSA","casa":"69","coordenadas":[39.198219074823314,-9.243552100605354]},{"id":"pt.ine.add.PTCONT.2949493","rua":"R PADRE JOAQUIM M SOUSA","casa":"59","coordenadas":[39.19833938272889,-9.24226908413661]},{"id":"pt.ine.add.PTCONT.3022681","rua":"R PADRE JOAQUIM M SOUSA","casa":"57","coordenadas":[39.1981894801179,-9.241931030136929]},{"id":"pt.ine.add.PTCONT.3059894","rua":"R PADRE JOAQUIM M SOUSA","casa":"53","coordenadas":[39.19818432935253,-9.241525798030622]},{"id":"pt.ine.add.PTCONT.3356119","rua":"R PADRE JOAQUIM M SOUSA","casa":"27","coordenadas":[39.19826629374338,-9.239536055223379]},{"id":"pt.ine.add.PTCONT.3410593","rua":"R PADRE JOAQUIM M SOUSA","casa":"51","coordenadas":[39.19814962771292,-9.241386343794742]},{"id":"pt.ine.add.PTCONT.3410594","rua":"R PADRE JOAQUIM M SOUSA","casa":"51","coordenadas":[39.19814962771292,-9.241386343794742]},{"id":"pt.ine.add.PTCONT.3412890","rua":"R PADRE JOAQUIM M SOUSA","casa":"51","coordenadas":[39.19814962771292,-9.241386343794742]},{"id":"pt.ine.add.PTCONT.3448083","rua":"R PADRE JOAQUIM M SOUSA","casa":"39","coordenadas":[39.1981869901135,-9.240298810588907]},{"id":"pt.ine.add.PTCONT.3448321","rua":"R PADRE JOAQUIM M SOUSA","casa":"41","coordenadas":[39.19814975699997,-9.240425559274197]}],"ruas":["R PADRE JOAQUIM M SOUSA"],"centroide":[39.19822434796406,-9.241316134772504]}
+{
+  "CP": "2565-076",
+  "CP4": "2565",
+  "CP3": "076",
+  "Distrito": "Lisboa",
+  "Concelho": "Torres Vedras",
+  "Localidade": "Campelos",
+  "Designação Postal": "CAMPELOS",
+  "partes": [
+    {
+      "Artéria": "Rua Padre Joaquim M Sousa",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2293438",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "45",
+      "coordenadas": [
+        39.19816336707401,
+        -9.240888802707424
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2345956",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "65",
+      "coordenadas": [
+        39.198349346813345,
+        -9.243114272254532
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2381326",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "31",
+      "coordenadas": [
+        39.19827244106666,
+        -9.239837121486781
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2428356",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "",
+      "coordenadas": [
+        39.19817138225317,
+        -9.24099311030101
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2536848",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "33 A",
+      "coordenadas": [
+        39.19805564305135,
+        -9.23990317402684
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2557117",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "61",
+      "coordenadas": [
+        39.19838154599086,
+        -9.24257071742844
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2670473",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "37",
+      "coordenadas": [
+        39.19822433307829,
+        -9.24016048773893
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2690108",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "63",
+      "coordenadas": [
+        39.198387244424055,
+        -9.242918080439038
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2705117",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "33",
+      "coordenadas": [
+        39.19819852558293,
+        -9.240032749416043
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2784072",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "69",
+      "coordenadas": [
+        39.198219074823314,
+        -9.243552100605354
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2949493",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "59",
+      "coordenadas": [
+        39.19833938272889,
+        -9.24226908413661
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3022681",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "57",
+      "coordenadas": [
+        39.1981894801179,
+        -9.241931030136929
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3059894",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "53",
+      "coordenadas": [
+        39.19818432935253,
+        -9.241525798030622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3356119",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "27",
+      "coordenadas": [
+        39.19826629374338,
+        -9.239536055223379
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3410593",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "51",
+      "coordenadas": [
+        39.19814962771292,
+        -9.241386343794742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3410594",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "51",
+      "coordenadas": [
+        39.19814962771292,
+        -9.241386343794742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3412890",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "51",
+      "coordenadas": [
+        39.19814962771292,
+        -9.241386343794742
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3448083",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "39",
+      "coordenadas": [
+        39.1981869901135,
+        -9.240298810588907
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3448321",
+      "rua": "R PADRE JOAQUIM M SOUSA",
+      "casa": "41",
+      "coordenadas": [
+        39.19814975699997,
+        -9.240425559274197
+      ]
+    }
+  ],
+  "ruas": [
+    "R PADRE JOAQUIM M SOUSA"
+  ],
+  "centro": [
+    39.1982214437377,
+    -9.241544077914366
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                39.19814757342308,
+                -9.241955695227254
+              ],
+              [
+                39.19812714445158,
+                -9.24149957940494
+              ],
+              [
+                39.19811256051859,
+                -9.24109474182911
+              ],
+              [
+                39.19810382162409,
+                -9.240741182499766
+              ],
+              [
+                39.198100927768095,
+                -9.240438901416908
+              ],
+              [
+                39.1981038789506,
+                -9.240187898580533
+              ],
+              [
+                39.1981126751716,
+                -9.239988173990646
+              ],
+              [
+                39.19812731643111,
+                -9.239839727647242
+              ],
+              [
+                39.19814780272911,
+                -9.239742559550324
+              ],
+              [
+                39.19817413406562,
+                -9.239696669699894
+              ],
+              [
+                39.19819897480143,
+                -9.23970393267772
+              ],
+              [
+                39.19822232493654,
+                -9.239764348483803
+              ],
+              [
+                39.19824418447095,
+                -9.239877917118143
+              ],
+              [
+                39.19826455340467,
+                -9.240044638580745
+              ],
+              [
+                39.19828343173769,
+                -9.240264512871603
+              ],
+              [
+                39.19830081947002,
+                -9.240537539990719
+              ],
+              [
+                39.19831671660165,
+                -9.240863719938094
+              ],
+              [
+                39.19833112313259,
+                -9.241243052713726
+              ],
+              [
+                39.198343817885174,
+                -9.241580396439446
+              ],
+              [
+                39.19835480085942,
+                -9.241875751115252
+              ],
+              [
+                39.198364072055305,
+                -9.242129116741143
+              ],
+              [
+                39.198371631472845,
+                -9.242340493317123
+              ],
+              [
+                39.19837747911204,
+                -9.242509880843187
+              ],
+              [
+                39.19838161497289,
+                -9.24263727931934
+              ],
+              [
+                39.198384039055384,
+                -9.242722688745577
+              ],
+              [
+                39.198384751359534,
+                -9.242766109121902
+              ],
+              [
+                39.1983847824755,
+                -9.242807167448301
+              ],
+              [
+                39.19838413240328,
+                -9.242845863724781
+              ],
+              [
+                39.19838280114287,
+                -9.242882197951335
+              ],
+              [
+                39.198380788694266,
+                -9.242916170127964
+              ],
+              [
+                39.19837809505749,
+                -9.24294778025467
+              ],
+              [
+                39.19837472023252,
+                -9.242977028331456
+              ],
+              [
+                39.19837066421937,
+                -9.243003914358317
+              ],
+              [
+                39.19836592701803,
+                -9.243028438335253
+              ],
+              [
+                39.198359746467005,
+                -9.243056737883055
+              ],
+              [
+                39.19835212256632,
+                -9.243088813001723
+              ],
+              [
+                39.198343055315945,
+                -9.243124663691253
+              ],
+              [
+                39.19833254471591,
+                -9.243164289951645
+              ],
+              [
+                39.19832059076619,
+                -9.243207691782905
+              ],
+              [
+                39.19830719346678,
+                -9.243254869185028
+              ],
+              [
+                39.1982923528177,
+                -9.243305822158016
+              ],
+              [
+                39.198276068818956,
+                -9.24336055070187
+              ],
+              [
+                39.19825926669861,
+                -9.243351423699952
+              ],
+              [
+                39.19824194645666,
+                -9.243278441152261
+              ],
+              [
+                39.19822410809313,
+                -9.243141603058803
+              ],
+              [
+                39.198205751608015,
+                -9.242940909419572
+              ],
+              [
+                39.19818687700129,
+                -9.24267636023457
+              ],
+              [
+                39.198167484272986,
+                -9.242347955503798
+              ],
+              [
+                39.19814757342308,
+                -9.241955695227254
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    39.19827652480772,
+    -9.241932399996264
+  ],
+  "centroDeMassa": [
+    39.1982214437377,
+    -9.241544077914366
+  ]
+}

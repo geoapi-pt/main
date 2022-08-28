@@ -1,1 +1,555 @@
-{"CP4":"7200","CP3":"411","Distrito":"Évora","Concelho":"Reguengos de Monsaraz","CP":"7200-411","Artéria":"Rua Heitor Ramalho Quintas","Localidade":"Reguengos de Monsaraz","Local":"Bairro São João","Troço":"","Porta":"","Cliente":"","Designação Postal":"REGUENGOS DE MONSARAZ","locais":[{"id":"pt.ine.add.PTCONT.1371220","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.426943075159556,-7.528111928762318]},{"id":"pt.ine.add.PTCONT.1378079","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42696406935017,-7.528686249810888]},{"id":"pt.ine.add.PTCONT.1379575","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42737908910664,-7.527066163968092]},{"id":"pt.ine.add.PTCONT.1380421","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.426311190615124,-7.529167021617035]},{"id":"pt.ine.add.PTCONT.1381062","rua":"R HEITOR RAMALHO","casa":"53","coordenadas":[38.426919595933036,-7.52879923708432]},{"id":"pt.ine.add.PTCONT.1391623","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42720046586214,-7.527365406673602]},{"id":"pt.ine.add.PTCONT.1392297","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42653085928334,-7.528904244272622]},{"id":"pt.ine.add.PTCONT.1392898","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.427530924174576,-7.526812951660081]},{"id":"pt.ine.add.PTCONT.1396301","rua":"R HEITOR RAMALHO QUINTAS","casa":"84","coordenadas":[38.42679049103925,-7.528455338484829]},{"id":"pt.ine.add.PTCONT.1402112","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.4272987265061,-7.5272042587990144]},{"id":"pt.ine.add.PTCONT.1405118","rua":"R HEITOR RAMALHO QUINTAS","casa":"42","coordenadas":[38.42750638719003,-7.527294139384246]},{"id":"pt.ine.add.PTCONT.1420948","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42658314478311,-7.528833316948102]},{"id":"pt.ine.add.PTCONT.1426927","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42639048738912,-7.529091191657918]},{"id":"pt.ine.add.PTCONT.1426928","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42725404107714,-7.527273343729984]},{"id":"pt.ine.add.PTCONT.1438367","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.4271652619243,-7.5275260275159965]},{"id":"pt.ine.add.PTCONT.1441209","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42670053163078,-7.528615403137546]},{"id":"pt.ine.add.PTCONT.1443519","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42644566425976,-7.529019472104516]},{"id":"pt.ine.add.PTCONT.1444260","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42739028771208,-7.527489792439581]},{"id":"pt.ine.add.PTCONT.1445543","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42708501709684,-7.527687024245521]},{"id":"pt.ine.add.PTCONT.1445943","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42687657944313,-7.528322538260293]},{"id":"pt.ine.add.PTCONT.1448970","rua":"R HEITOR RAMALHO QUINTAS","casa":"100","coordenadas":[38.42742347824913,-7.526939821502489]},{"id":"pt.ine.add.PTCONT.1450463","rua":"R HEITOR RAMALHO","casa":"52","coordenadas":[38.4268212740272,-7.528948930610593]},{"id":"pt.ine.add.PTCONT.1451217","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42704086372542,-7.527859171268216]},{"id":"pt.ine.add.PTCONT.1453586","rua":"R HEITOR RAMALHO QUINTAS","casa":"86","coordenadas":[38.42688949927455,-7.528203990697263]},{"id":"pt.ine.add.PTCONT.1455100","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42666354544399,-7.528702225475296]},{"id":"pt.ine.add.PTCONT.1457313","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42675145566947,-7.528533805650382]},{"id":"pt.ine.add.PTCONT.1461162","rua":"R HEITOR RAMALHO QUINTAS","casa":"","coordenadas":[38.42697857557248,-7.528008565634896]}],"ruas":["R HEITOR RAMALHO QUINTAS","R HEITOR RAMALHO"],"centroide":[38.42695600022792,-7.528112038298487]}
+{
+  "CP": "7200-411",
+  "CP4": "7200",
+  "CP3": "411",
+  "Distrito": "Évora",
+  "Concelho": "Reguengos de Monsaraz",
+  "Localidade": "Reguengos de Monsaraz",
+  "Designação Postal": "REGUENGOS DE MONSARAZ",
+  "partes": [
+    {
+      "Artéria": "Rua Heitor Ramalho Quintas",
+      "Local": "Bairro São João",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1371220",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.426943075159556,
+        -7.528111928762318
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1378079",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42696406935017,
+        -7.528686249810888
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1379575",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42737908910664,
+        -7.527066163968092
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1380421",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.426311190615124,
+        -7.529167021617035
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1381062",
+      "rua": "R HEITOR RAMALHO",
+      "casa": "53",
+      "coordenadas": [
+        38.426919595933036,
+        -7.52879923708432
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1391623",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42720046586214,
+        -7.527365406673602
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1392297",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42653085928334,
+        -7.528904244272622
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1392898",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.427530924174576,
+        -7.526812951660081
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1396301",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "84",
+      "coordenadas": [
+        38.42679049103925,
+        -7.528455338484829
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1402112",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.4272987265061,
+        -7.5272042587990144
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1405118",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "42",
+      "coordenadas": [
+        38.42750638719003,
+        -7.527294139384246
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1420948",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42658314478311,
+        -7.528833316948102
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1426927",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42639048738912,
+        -7.529091191657918
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1426928",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42725404107714,
+        -7.527273343729984
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1438367",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.4271652619243,
+        -7.5275260275159965
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1441209",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42670053163078,
+        -7.528615403137546
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1443519",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42644566425976,
+        -7.529019472104516
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1444260",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42739028771208,
+        -7.527489792439581
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1445543",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42708501709684,
+        -7.527687024245521
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1445943",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42687657944313,
+        -7.528322538260293
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1448970",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "100",
+      "coordenadas": [
+        38.42742347824913,
+        -7.526939821502489
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1450463",
+      "rua": "R HEITOR RAMALHO",
+      "casa": "52",
+      "coordenadas": [
+        38.4268212740272,
+        -7.528948930610593
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1451217",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42704086372542,
+        -7.527859171268216
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1453586",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "86",
+      "coordenadas": [
+        38.42688949927455,
+        -7.528203990697263
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1455100",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42666354544399,
+        -7.528702225475296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1457313",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42675145566947,
+        -7.528533805650382
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1461162",
+      "rua": "R HEITOR RAMALHO QUINTAS",
+      "casa": "",
+      "coordenadas": [
+        38.42697857557248,
+        -7.528008565634896
+      ]
+    }
+  ],
+  "ruas": [
+    "R HEITOR RAMALHO QUINTAS",
+    "R HEITOR RAMALHO"
+  ],
+  "centro": [
+    38.42692105739485,
+    -7.527989986638558
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.426598112534414,
+                -7.529044345425912
+              ],
+              [
+                38.42653435210791,
+                -7.5290716068017165
+              ],
+              [
+                38.42649245666044,
+                -7.529067310272056
+              ],
+              [
+                38.426472426192035,
+                -7.529031455836928
+              ],
+              [
+                38.42647426070267,
+                -7.528964043496332
+              ],
+              [
+                38.42649796019235,
+                -7.52886507325027
+              ],
+              [
+                38.426543524661085,
+                -7.528734545098742
+              ],
+              [
+                38.42661095410886,
+                -7.5285724590417455
+              ],
+              [
+                38.426700248535695,
+                -7.528378815079283
+              ],
+              [
+                38.42681140794157,
+                -7.528153613211354
+              ],
+              [
+                38.42691215699027,
+                -7.5279499118086175
+              ],
+              [
+                38.42700249568176,
+                -7.527767710871072
+              ],
+              [
+                38.42708242401608,
+                -7.527607010398721
+              ],
+              [
+                38.4271519419932,
+                -7.5274678103915615
+              ],
+              [
+                38.427211049613135,
+                -7.5273501108495955
+              ],
+              [
+                38.42725974687589,
+                -7.527253911772821
+              ],
+              [
+                38.42729803378145,
+                -7.527179213161239
+              ],
+              [
+                38.42732591032983,
+                -7.527126015014852
+              ],
+              [
+                38.42735198115224,
+                -7.527077484295473
+              ],
+              [
+                38.42737624624869,
+                -7.527033621003106
+              ],
+              [
+                38.42739870561918,
+                -7.52699442513775
+              ],
+              [
+                38.42741935926371,
+                -7.526959896699404
+              ],
+              [
+                38.42743820718228,
+                -7.52693003568807
+              ],
+              [
+                38.42745524937487,
+                -7.526904842103748
+              ],
+              [
+                38.42747048584152,
+                -7.526884315946436
+              ],
+              [
+                38.4274839165822,
+                -7.526868457216134
+              ],
+              [
+                38.427495285089904,
+                -7.52686209938531
+              ],
+              [
+                38.42750459136465,
+                -7.526865242453965
+              ],
+              [
+                38.42751183540642,
+                -7.526877886422097
+              ],
+              [
+                38.42751701721524,
+                -7.526900031289708
+              ],
+              [
+                38.427520136791074,
+                -7.526931677056796
+              ],
+              [
+                38.42752119413394,
+                -7.526972823723361
+              ],
+              [
+                38.427520189243836,
+                -7.527023471289404
+              ],
+              [
+                38.427517122120776,
+                -7.527083619754923
+              ],
+              [
+                38.42750596467184,
+                -7.52715800138767
+              ],
+              [
+                38.42748671689704,
+                -7.527246616187644
+              ],
+              [
+                38.42745937879638,
+                -7.5273494641548435
+              ],
+              [
+                38.42742395036986,
+                -7.527466545289268
+              ],
+              [
+                38.427380431617465,
+                -7.527597859590919
+              ],
+              [
+                38.42732882253921,
+                -7.5277434070597975
+              ],
+              [
+                38.42726912313509,
+                -7.527903187695902
+              ],
+              [
+                38.42720133340511,
+                -7.528077201499232
+              ],
+              [
+                38.42714132249423,
+                -7.528231229003294
+              ],
+              [
+                38.42708909040246,
+                -7.528365270208086
+              ],
+              [
+                38.4270446371298,
+                -7.52847932511361
+              ],
+              [
+                38.42700796267623,
+                -7.5285733937198644
+              ],
+              [
+                38.42697906704178,
+                -7.52864747602685
+              ],
+              [
+                38.426957950226424,
+                -7.528701572034567
+              ],
+              [
+                38.42694461223018,
+                -7.528735681743015
+              ],
+              [
+                38.426939053053026,
+                -7.528749805152194
+              ],
+              [
+                38.42693265249325,
+                -7.528764502096574
+              ],
+              [
+                38.42692541055084,
+                -7.528779772576154
+              ],
+              [
+                38.42691732722579,
+                -7.528795616590934
+              ],
+              [
+                38.4269084025181,
+                -7.528812034140916
+              ],
+              [
+                38.42689863642778,
+                -7.5288290252260985
+              ],
+              [
+                38.42688802895482,
+                -7.528846589846481
+              ],
+              [
+                38.426876580099226,
+                -7.528864728002064
+              ],
+              [
+                38.42686428986101,
+                -7.528883439692849
+              ],
+              [
+                38.42684556584925,
+                -7.528903220094261
+              ],
+              [
+                38.426820408063946,
+                -7.528924069206299
+              ],
+              [
+                38.42678881650511,
+                -7.528945987028966
+              ],
+              [
+                38.426750791172736,
+                -7.528968973562261
+              ],
+              [
+                38.42670633206683,
+                -7.528993028806184
+              ],
+              [
+                38.426655439187385,
+                -7.529018152760734
+              ],
+              [
+                38.426598112534414,
+                -7.529044345425912
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.42708467317517,
+    -7.528001719792907
+  ],
+  "centroDeMassa": [
+    38.42692105739485,
+    -7.527989986638558
+  ]
+}

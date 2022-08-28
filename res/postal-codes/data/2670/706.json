@@ -1,1 +1,469 @@
-{"CP4":"2670","CP3":"706","Distrito":"Lisboa","Concelho":"Loures","CP":"2670-706","Artéria":"Travessa Joaquim Domingos Pereira","Localidade":"Fanhões","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"FANHÕES","locais":[{"id":"pt.ine.add.PTCONT.2876700","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"10","coordenadas":[38.88152150870697,-9.15470902543212]},{"id":"pt.ine.add.PTCONT.2956528","rua":"R JOAQUIM DOMINGOS PEREIRA CASA DA LAPA","casa":"","coordenadas":[38.88143772781207,-9.155018979647929]},{"id":"pt.ine.add.PTCONT.3076659","rua":"TV CALICA CASA DA REGUEIRA","casa":"","coordenadas":[38.88155578388756,-9.15387977081636]},{"id":"pt.ine.add.PTCONT.3095184","rua":"TV CALIÇA","casa":"5","coordenadas":[38.88178064425195,-9.153917561240027]},{"id":"pt.ine.add.PTCONT.3199567","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"17","coordenadas":[38.88114414293544,-9.154599903724296]},{"id":"pt.ine.add.PTCONT.3208083","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"4","coordenadas":[38.881405129865314,-9.154626689274279]},{"id":"pt.ine.add.PTCONT.3317488","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"13","coordenadas":[38.88109060792344,-9.154541516317938]},{"id":"pt.ine.add.PTCONT.3406312","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"2","coordenadas":[38.88114037662829,-9.154000592672235]},{"id":"pt.ine.add.PTCONT.3426752","rua":"TV CALICA","casa":"7","coordenadas":[38.8817098386629,-9.154803916615682]},{"id":"pt.ine.add.PTCONT.2347228","rua":"R JOAQUIM DOMINGOS PEREIRA CASA DA ROCHA","casa":"16","coordenadas":[38.88178666154418,-9.155289036621896]},{"id":"pt.ine.add.PTCONT.2376986","rua":"TV CALICA","casa":"5 C","coordenadas":[38.881769925063445,-9.154113320565665]},{"id":"pt.ine.add.PTCONT.2376987","rua":"TV CALIÇA","casa":"5","coordenadas":[38.88178884482495,-9.154009872832601]},{"id":"pt.ine.add.PTCONT.2376988","rua":"TV CALIÇA","casa":"5","coordenadas":[38.88178884482495,-9.154009872832601]},{"id":"pt.ine.add.PTCONT.2617165","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"3","coordenadas":[38.88132447456784,-9.154579437507012]},{"id":"pt.ine.add.PTCONT.2625138","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"9","coordenadas":[38.881534176958795,-9.155319991492584]},{"id":"pt.ine.add.PTCONT.2625139","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"9","coordenadas":[38.881534176958795,-9.155319991492584]},{"id":"pt.ine.add.PTCONT.2633155","rua":"TV CALIÇA","casa":"7","coordenadas":[38.88163808912742,-9.154768316238506]},{"id":"pt.ine.add.PTCONT.2633156","rua":"TV CALIÇA","casa":"7","coordenadas":[38.88163808912742,-9.154768316238506]},{"id":"pt.ine.add.PTCONT.2702299","rua":"R JOAQUIM DOMINGOS PEREIRA","casa":"16","coordenadas":[38.88181287402726,-9.155381606488788]}],"ruas":["R JOAQUIM DOMINGOS PEREIRA","R JOAQUIM DOMINGOS PEREIRA CASA DA LAPA","TV CALICA CASA DA REGUEIRA","TV CALIÇA","TV CALICA","R JOAQUIM DOMINGOS PEREIRA CASA DA ROCHA"],"centroide":[38.88153272464842,-9.154570895086824]}
+{
+  "CP": "2670-706",
+  "CP4": "2670",
+  "CP3": "706",
+  "Distrito": "Lisboa",
+  "Concelho": "Loures",
+  "Localidade": "Fanhões",
+  "Designação Postal": "FANHÕES",
+  "partes": [
+    {
+      "Artéria": "Rua Joaquim Domingos Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa do Caliça",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    },
+    {
+      "Artéria": "Travessa Joaquim Domingos Pereira",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.2876700",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "10",
+      "coordenadas": [
+        38.88152150870697,
+        -9.15470902543212
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2956528",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA CASA DA LAPA",
+      "casa": "",
+      "coordenadas": [
+        38.88143772781207,
+        -9.155018979647929
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3076659",
+      "rua": "TV CALICA CASA DA REGUEIRA",
+      "casa": "",
+      "coordenadas": [
+        38.88155578388756,
+        -9.15387977081636
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3095184",
+      "rua": "TV CALIÇA",
+      "casa": "5",
+      "coordenadas": [
+        38.88178064425195,
+        -9.153917561240027
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3199567",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "17",
+      "coordenadas": [
+        38.88114414293544,
+        -9.154599903724296
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3208083",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "4",
+      "coordenadas": [
+        38.881405129865314,
+        -9.154626689274279
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3317488",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "13",
+      "coordenadas": [
+        38.88109060792344,
+        -9.154541516317938
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3406312",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "2",
+      "coordenadas": [
+        38.88114037662829,
+        -9.154000592672235
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.3426752",
+      "rua": "TV CALICA",
+      "casa": "7",
+      "coordenadas": [
+        38.8817098386629,
+        -9.154803916615682
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2347228",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA CASA DA ROCHA",
+      "casa": "16",
+      "coordenadas": [
+        38.88178666154418,
+        -9.155289036621896
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2376986",
+      "rua": "TV CALICA",
+      "casa": "5 C",
+      "coordenadas": [
+        38.881769925063445,
+        -9.154113320565665
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2376987",
+      "rua": "TV CALIÇA",
+      "casa": "5",
+      "coordenadas": [
+        38.88178884482495,
+        -9.154009872832601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2376988",
+      "rua": "TV CALIÇA",
+      "casa": "5",
+      "coordenadas": [
+        38.88178884482495,
+        -9.154009872832601
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2617165",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "3",
+      "coordenadas": [
+        38.88132447456784,
+        -9.154579437507012
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2625138",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "9",
+      "coordenadas": [
+        38.881534176958795,
+        -9.155319991492584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2625139",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "9",
+      "coordenadas": [
+        38.881534176958795,
+        -9.155319991492584
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2633155",
+      "rua": "TV CALIÇA",
+      "casa": "7",
+      "coordenadas": [
+        38.88163808912742,
+        -9.154768316238506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2633156",
+      "rua": "TV CALIÇA",
+      "casa": "7",
+      "coordenadas": [
+        38.88163808912742,
+        -9.154768316238506
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.2702299",
+      "rua": "R JOAQUIM DOMINGOS PEREIRA",
+      "casa": "16",
+      "coordenadas": [
+        38.88181287402726,
+        -9.155381606488788
+      ]
+    }
+  ],
+  "ruas": [
+    "R JOAQUIM DOMINGOS PEREIRA",
+    "R JOAQUIM DOMINGOS PEREIRA CASA DA LAPA",
+    "TV CALICA CASA DA REGUEIRA",
+    "TV CALIÇA",
+    "TV CALICA",
+    "R JOAQUIM DOMINGOS PEREIRA CASA DA ROCHA"
+  ],
+  "centro": [
+    38.88145174097535,
+    -9.154630688652574
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.88134011550583,
+                -9.154979408603676
+              ],
+              [
+                38.881284669376406,
+                -9.154882099206846
+              ],
+              [
+                38.881236931649184,
+                -9.154788501552655
+              ],
+              [
+                38.88119690232414,
+                -9.154698615641102
+              ],
+              [
+                38.88116458140129,
+                -9.154612441472192
+              ],
+              [
+                38.88113996888063,
+                -9.15452997904592
+              ],
+              [
+                38.88112306476217,
+                -9.154451228362287
+              ],
+              [
+                38.8811138690459,
+                -9.154376189421296
+              ],
+              [
+                38.88111238173181,
+                -9.154304862222943
+              ],
+              [
+                38.881118602819924,
+                -9.15423724676723
+              ],
+              [
+                38.88113053701044,
+                -9.154176195401984
+              ],
+              [
+                38.88114818430337,
+                -9.154121708127203
+              ],
+              [
+                38.88117154469872,
+                -9.154073784942888
+              ],
+              [
+                38.88120061819647,
+                -9.154032425849039
+              ],
+              [
+                38.88123540479664,
+                -9.153997630845655
+              ],
+              [
+                38.881275904499226,
+                -9.153969399932741
+              ],
+              [
+                38.88132211730422,
+                -9.15394773311029
+              ],
+              [
+                38.88137404321163,
+                -9.153932630378305
+              ],
+              [
+                38.88142299182381,
+                -9.153920005963188
+              ],
+              [
+                38.88146896314075,
+                -9.153909859864939
+              ],
+              [
+                38.88151195716246,
+                -9.153902192083558
+              ],
+              [
+                38.88155197388893,
+                -9.153897002619045
+              ],
+              [
+                38.88158901332018,
+                -9.1538942914714
+              ],
+              [
+                38.8816230754562,
+                -9.153894058640624
+              ],
+              [
+                38.881654160296975,
+                -9.153896304126715
+              ],
+              [
+                38.881682267842535,
+                -9.153901027929674
+              ],
+              [
+                38.88170699007884,
+                -9.153906603625895
+              ],
+              [
+                38.8817283270059,
+                -9.153913031215382
+              ],
+              [
+                38.88174627862373,
+                -9.153920310698133
+              ],
+              [
+                38.88176084493232,
+                -9.153928442074147
+              ],
+              [
+                38.88177202593167,
+                -9.153937425343425
+              ],
+              [
+                38.88177982162177,
+                -9.15394726050597
+              ],
+              [
+                38.88178423200264,
+                -9.153957947561778
+              ],
+              [
+                38.88178525707426,
+                -9.15396948651085
+              ],
+              [
+                38.88178652946822,
+                -9.154001016429666
+              ],
+              [
+                38.881788049184514,
+                -9.154052537318226
+              ],
+              [
+                38.88178981622314,
+                -9.154124049176529
+              ],
+              [
+                38.8817918305841,
+                -9.154215552004576
+              ],
+              [
+                38.88179409226739,
+                -9.154327045802368
+              ],
+              [
+                38.88179660127301,
+                -9.154458530569903
+              ],
+              [
+                38.88179935760096,
+                -9.154610006307182
+              ],
+              [
+                38.88180236125125,
+                -9.154781473014207
+              ],
+              [
+                38.881800634803554,
+                -9.154930543648536
+              ],
+              [
+                38.881794178257884,
+                -9.155057218210173
+              ],
+              [
+                38.88178299161423,
+                -9.155161496699115
+              ],
+              [
+                38.8817670748726,
+                -9.155243379115364
+              ],
+              [
+                38.88174642803298,
+                -9.15530286545892
+              ],
+              [
+                38.88172105109538,
+                -9.155339955729781
+              ],
+              [
+                38.881690944059805,
+                -9.155354649927949
+              ],
+              [
+                38.88165610692625,
+                -9.155346948053424
+              ],
+              [
+                38.88161869366821,
+                -9.15532804523861
+              ],
+              [
+                38.88157870428568,
+                -9.155297941483507
+              ],
+              [
+                38.88153613877868,
+                -9.155256636788117
+              ],
+              [
+                38.88149099714719,
+                -9.155204131152441
+              ],
+              [
+                38.88144327939121,
+                -9.155140424576475
+              ],
+              [
+                38.881392985510765,
+                -9.155065517060219
+              ],
+              [
+                38.88134011550583,
+                -9.154979408603676
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.88152904407175,
+    -9.154435844551504
+  ],
+  "centroDeMassa": [
+    38.88145174097535,
+    -9.154630688652574
+  ]
+}

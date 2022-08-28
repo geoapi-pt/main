@@ -1,1 +1,382 @@
-{"CP4":"3870","CP3":"279","Distrito":"Aveiro","Concelho":"Murtosa","CP":"3870-279","Artéria":"Rua Dom Francisco Maria da Silva","Localidade":"Monte","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"MURTOSA","locais":[{"id":"pt.ine.add.PTCONT.323504","rua":"R D FRANCISCO MARIA DA SILVA","casa":"3","coordenadas":[40.75318076151091,-8.640056817524703]},{"id":"pt.ine.add.PTCONT.348648","rua":"R D FRANCISCO MARIA DA SILVA","casa":"13","coordenadas":[40.753538502341065,-8.640616088311528]},{"id":"pt.ine.add.PTCONT.352194","rua":"R D FRANCISCO MARIA DA SILVA","casa":"","coordenadas":[40.75388156472648,-8.64041738935536]},{"id":"pt.ine.add.PTCONT.9408","rua":"R D FRANCISCO MARIA DA SILVA","casa":"16","coordenadas":[40.753931998417265,-8.641234845463638]},{"id":"pt.ine.add.PTCONT.14664","rua":"R D FRANCISCO MARIA DA SILVA","casa":"40","coordenadas":[40.75487581936153,-8.641620968957628]},{"id":"pt.ine.add.PTCONT.25380","rua":"R D FRANCISCO MARIA DA SILVA","casa":"7","coordenadas":[40.753269403436846,-8.640377211760857]},{"id":"pt.ine.add.PTCONT.65700","rua":"R D FRANCISCO MARIA DA SILVA","casa":"11","coordenadas":[40.75340436937201,-8.640401920635444]},{"id":"pt.ine.add.PTCONT.71207","rua":"R D FRANCISCO MARIA DA SILVA","casa":"22","coordenadas":[40.75429905120755,-8.641723149667827]},{"id":"pt.ine.add.PTCONT.83725","rua":"R D FRANCISCO MARIA DA SILVA","casa":"34","coordenadas":[40.754524637440774,-8.641618293175044]},{"id":"pt.ine.add.PTCONT.98101","rua":"R D FRANCISCO MARIA DA SILVA","casa":"26","coordenadas":[40.7545896518108,-8.641168802014223]},{"id":"pt.ine.add.PTCONT.132724","rua":"R D FRANCISCO MARIA DA SILVA","casa":"9","coordenadas":[40.75320496510849,-8.640696442647679]},{"id":"pt.ine.add.PTCONT.135457","rua":"R D FRANCISCO MARIA DA SILVA","casa":"24","coordenadas":[40.754435321096985,-8.64145182852353]},{"id":"pt.ine.add.PTCONT.183725","rua":"R D FRANCISCO MARIA DA SILVA","casa":"18","coordenadas":[40.75412094000126,-8.641271808959107]},{"id":"pt.ine.add.PTCONT.207125","rua":"R D FRANCISCO MARIA DA SILVA","casa":"32","coordenadas":[40.75463352804056,-8.641429654712336]},{"id":"pt.ine.add.PTCONT.250624","rua":"R D FRANCISCO MARIA DA SILVA","casa":"13","coordenadas":[40.753538502341065,-8.640616088311528]}],"ruas":["R D FRANCISCO MARIA DA SILVA"],"centroide":[40.753992179562324,-8.641006087264921]}
+{
+  "CP": "3870-279",
+  "CP4": "3870",
+  "CP3": "279",
+  "Distrito": "Aveiro",
+  "Concelho": "Murtosa",
+  "Localidade": "Monte",
+  "Designação Postal": "MURTOSA",
+  "partes": [
+    {
+      "Artéria": "Rua Dom Francisco Maria da Silva",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.323504",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "3",
+      "coordenadas": [
+        40.75318076151091,
+        -8.640056817524703
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.348648",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "13",
+      "coordenadas": [
+        40.753538502341065,
+        -8.640616088311528
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.352194",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "",
+      "coordenadas": [
+        40.75388156472648,
+        -8.64041738935536
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.9408",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "16",
+      "coordenadas": [
+        40.753931998417265,
+        -8.641234845463638
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.14664",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "40",
+      "coordenadas": [
+        40.75487581936153,
+        -8.641620968957628
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.25380",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "7",
+      "coordenadas": [
+        40.753269403436846,
+        -8.640377211760857
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.65700",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "11",
+      "coordenadas": [
+        40.75340436937201,
+        -8.640401920635444
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.71207",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "22",
+      "coordenadas": [
+        40.75429905120755,
+        -8.641723149667827
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.83725",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "34",
+      "coordenadas": [
+        40.754524637440774,
+        -8.641618293175044
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.98101",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "26",
+      "coordenadas": [
+        40.7545896518108,
+        -8.641168802014223
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.132724",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "9",
+      "coordenadas": [
+        40.75320496510849,
+        -8.640696442647679
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.135457",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "24",
+      "coordenadas": [
+        40.754435321096985,
+        -8.64145182852353
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.183725",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "18",
+      "coordenadas": [
+        40.75412094000126,
+        -8.641271808959107
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.207125",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "32",
+      "coordenadas": [
+        40.75463352804056,
+        -8.641429654712336
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.250624",
+      "rua": "R D FRANCISCO MARIA DA SILVA",
+      "casa": "13",
+      "coordenadas": [
+        40.753538502341065,
+        -8.640616088311528
+      ]
+    }
+  ],
+  "ruas": [
+    "R D FRANCISCO MARIA DA SILVA"
+  ],
+  "centro": [
+    40.754028290436224,
+    -8.640889983596265
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.75319437603454,
+                -8.640416606656377
+              ],
+              [
+                40.753191350584856,
+                -8.640336653516005
+              ],
+              [
+                40.75319965336661,
+                -8.640272328453033
+              ],
+              [
+                40.753219284379824,
+                -8.640223631467464
+              ],
+              [
+                40.75325024362449,
+                -8.640190562559294
+              ],
+              [
+                40.75329253110061,
+                -8.640173121728523
+              ],
+              [
+                40.7533461468082,
+                -8.640171308975155
+              ],
+              [
+                40.753411090747235,
+                -8.640185124299187
+              ],
+              [
+                40.753487362917724,
+                -8.640214567700617
+              ],
+              [
+                40.753574963319664,
+                -8.640259639179448
+              ],
+              [
+                40.75366267753206,
+                -8.64031081754622
+              ],
+              [
+                40.75375050555491,
+                -8.640368102800934
+              ],
+              [
+                40.753838447388205,
+                -8.640431494943588
+              ],
+              [
+                40.75392650303194,
+                -8.640500993974184
+              ],
+              [
+                40.754014672486136,
+                -8.64057659989272
+              ],
+              [
+                40.754102955750774,
+                -8.640658312699195
+              ],
+              [
+                40.75419135282587,
+                -8.640746132393613
+              ],
+              [
+                40.7542798637114,
+                -8.64084005897597
+              ],
+              [
+                40.75436178210423,
+                -8.640929309844024
+              ],
+              [
+                40.754437108004346,
+                -8.641013884997774
+              ],
+              [
+                40.75450584141175,
+                -8.641093784437219
+              ],
+              [
+                40.75456798232644,
+                -8.641169008162363
+              ],
+              [
+                40.75462353074842,
+                -8.6412395561732
+              ],
+              [
+                40.75467248667769,
+                -8.641305428469733
+              ],
+              [
+                40.75471485011424,
+                -8.641366625051964
+              ],
+              [
+                40.75475062105808,
+                -8.64142314591989
+              ],
+              [
+                40.75477290863154,
+                -8.64147419825292
+              ],
+              [
+                40.7547817128346,
+                -8.64151978205106
+              ],
+              [
+                40.75477703366729,
+                -8.641559897314304
+              ],
+              [
+                40.75475887112959,
+                -8.641594544042652
+              ],
+              [
+                40.7547272252215,
+                -8.641623722236108
+              ],
+              [
+                40.754682095943025,
+                -8.641647431894672
+              ],
+              [
+                40.75462348329417,
+                -8.641665673018341
+              ],
+              [
+                40.754551387274915,
+                -8.641678445607116
+              ],
+              [
+                40.754471208162784,
+                -8.641673579325104
+              ],
+              [
+                40.754382945957744,
+                -8.641651074172305
+              ],
+              [
+                40.754286600659825,
+                -8.64161093014872
+              ],
+              [
+                40.754182172269005,
+                -8.64155314725435
+              ],
+              [
+                40.7540696607853,
+                -8.64147772548919
+              ],
+              [
+                40.753949066208705,
+                -8.641384664853245
+              ],
+              [
+                40.75382038853921,
+                -8.641273965346512
+              ],
+              [
+                40.75368362777683,
+                -8.641145626968994
+              ],
+              [
+                40.75356358392853,
+                -8.641023336746118
+              ],
+              [
+                40.753460256994316,
+                -8.640907094677885
+              ],
+              [
+                40.7533736469742,
+                -8.640796900764297
+              ],
+              [
+                40.75330375386815,
+                -8.640692755005352
+              ],
+              [
+                40.7532505776762,
+                -8.64059465740105
+              ],
+              [
+                40.75321411839833,
+                -8.640502607951392
+              ],
+              [
+                40.75319437603454,
+                -8.640416606656377
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.754005302287624,
+    -8.64094726169457
+  ],
+  "centroDeMassa": [
+    40.754028290436224,
+    -8.640889983596265
+  ]
+}

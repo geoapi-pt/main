@@ -1,1 +1,527 @@
-{"CP4":"3025","CP3":"539","Distrito":"Coimbra","Concelho":"Coimbra","CP":"3025-539","Artéria":"Rua A","Localidade":"São Silvestre","Local":"Bairro de São Silvestre","Troço":"","Porta":"","Cliente":"","Designação Postal":"SÃO SILVESTRE","locais":[{"id":"pt.ine.add.PTCONT.1110725","rua":"R A","casa":"61","coordenadas":[40.23027494505688,-8.523866121436697]},{"id":"pt.ine.add.PTCONT.1129393","rua":"R A BR DE S SILVESTRE","casa":"12","coordenadas":[40.23009776463545,-8.522995608171192]},{"id":"pt.ine.add.PTCONT.1135727","rua":"R A BR DE S SILVESTRE","casa":"16","coordenadas":[40.23003361651425,-8.52332423813448]},{"id":"pt.ine.add.PTCONT.1138842","rua":"R A BR DE S SILVESTRE","casa":"54","coordenadas":[40.23023126494234,-8.523466371917486]},{"id":"pt.ine.add.PTCONT.1145590","rua":"R A BR DE S SILVESTRE","casa":"3","coordenadas":[40.23043587177578,-8.521540548055256]},{"id":"pt.ine.add.PTCONT.1153728","rua":"R A BR DE S SILVESTRE","casa":"83","coordenadas":[40.229859654297925,-8.52416923193662]},{"id":"pt.ine.add.PTCONT.1169737","rua":"R A BR DE S SILVESTRE","casa":"11","coordenadas":[40.23016151630003,-8.522784474751543]},{"id":"pt.ine.add.PTCONT.1169738","rua":"R A BR DE S SILVESTRE","casa":"11","coordenadas":[40.23016151630003,-8.522784474751543]},{"id":"pt.ine.add.PTCONT.1169739","rua":"R A BR DE S SILVESTRE","casa":"11","coordenadas":[40.23016151630003,-8.522784474751543]},{"id":"pt.ine.add.PTCONT.1170920","rua":"R A BR DE S SILVESTRE","casa":"11","coordenadas":[40.23016151630003,-8.522784474751543]},{"id":"pt.ine.add.PTCONT.1174301","rua":"R A BR DE S SILVESTRE","casa":"14","coordenadas":[40.23007931792213,-8.523124751617349]},{"id":"pt.ine.add.PTCONT.1174302","rua":"R A BR DE S SILVESTRE","casa":"8","coordenadas":[40.23029849821229,-8.522221261377924]},{"id":"pt.ine.add.PTCONT.1174977","rua":"R A BR DE S SILVESTRE","casa":"82","coordenadas":[40.22988730621844,-8.523981392638902]},{"id":"pt.ine.add.PTCONT.1185919","rua":"R A BR DE S SILVESTRE","casa":"81","coordenadas":[40.22992364614076,-8.523887602326798]},{"id":"pt.ine.add.PTCONT.1199842","rua":"R A BR DE S SILVESTRE","casa":"6","coordenadas":[40.230344316162586,-8.521986524079551]},{"id":"pt.ine.add.PTCONT.1212625","rua":"R A BR DE S SILVESTRE","casa":"84","coordenadas":[40.229841325408486,-8.524263125623497]},{"id":"pt.ine.add.PTCONT.1234021","rua":"R A BR DE S SILVESTRE","casa":"40","coordenadas":[40.23042303558255,-8.52268022365928]},{"id":"pt.ine.add.PTCONT.1254954","rua":"R A BR DE S SILVESTRE","casa":"7","coordenadas":[40.23032591006269,-8.522103918529975]},{"id":"pt.ine.add.PTCONT.1254955","rua":"R A BR DE S SILVESTRE","casa":"7","coordenadas":[40.23032591006269,-8.522103918529975]},{"id":"pt.ine.add.PTCONT.1265280","rua":"R A BR DE S SILVESTRE","casa":"1","coordenadas":[40.230436975417774,-8.521211554595217]},{"id":"pt.ine.add.PTCONT.1278470","rua":"R A BR DE S SILVESTRE","casa":"18","coordenadas":[40.22996938816671,-8.52367636683571]},{"id":"pt.ine.add.PTCONT.1289660","rua":"R A","casa":"20","coordenadas":[40.23075146316251,-8.521424850545317]},{"id":"pt.ine.add.PTCONT.1289671","rua":"R A BR DE S SILVESTRE","casa":"102","coordenadas":[40.22974960030713,-8.524756092576013]},{"id":"pt.ine.add.PTCONT.1293790","rua":"R A BR DE S SILVESTRE","casa":"4","coordenadas":[40.23040826325834,-8.521716640130071]},{"id":"pt.ine.add.PTCONT.1303667","rua":"R A BR DE S SILVESTRE","casa":"10","coordenadas":[40.230234391818115,-8.522538143328257]},{"id":"pt.ine.add.PTCONT.1311708","rua":"R A BR DE S SILVESTRE","casa":"5","coordenadas":[40.230380851799545,-8.52183398327917]},{"id":"pt.ine.add.PTCONT.1340168","rua":"R A BR DE S SILVESTRE","casa":"9","coordenadas":[40.230252837878545,-8.522408999423485]},{"id":"pt.ine.add.PTCONT.1348359","rua":"R A BR DE S SILVESTRE","casa":"29","coordenadas":[40.230551011361165,-8.522116956384831]},{"id":"pt.ine.add.PTCONT.1349618","rua":"R A BR DE S SILVESTRE","casa":"29","coordenadas":[40.230551011361165,-8.522116956384831]},{"id":"pt.ine.add.PTCONT.1358753","rua":"R A BR DE S SILVESTRE","casa":"59","coordenadas":[40.23016723446302,-8.523759752920453]},{"id":"pt.ine.add.PTCONT.1365603","rua":"R A BR DE S SILVESTRE","casa":"91","coordenadas":[40.230030165649296,-8.524346461433145]}],"ruas":["R A","R A BR DE S SILVESTRE"],"centroide":[40.23021604923965,-8.522813767781484]}
+{
+  "CP": "3025-539",
+  "CP4": "3025",
+  "CP3": "539",
+  "Distrito": "Coimbra",
+  "Concelho": "Coimbra",
+  "Localidade": "São Silvestre",
+  "Designação Postal": "SÃO SILVESTRE",
+  "partes": [
+    {
+      "Artéria": "Rua A",
+      "Local": "Bairro de São Silvestre",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.1110725",
+      "rua": "R A",
+      "casa": "61",
+      "coordenadas": [
+        40.23027494505688,
+        -8.523866121436697
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1129393",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "12",
+      "coordenadas": [
+        40.23009776463545,
+        -8.522995608171192
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1135727",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "16",
+      "coordenadas": [
+        40.23003361651425,
+        -8.52332423813448
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1138842",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "54",
+      "coordenadas": [
+        40.23023126494234,
+        -8.523466371917486
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1145590",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "3",
+      "coordenadas": [
+        40.23043587177578,
+        -8.521540548055256
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1153728",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "83",
+      "coordenadas": [
+        40.229859654297925,
+        -8.52416923193662
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1169737",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "11",
+      "coordenadas": [
+        40.23016151630003,
+        -8.522784474751543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1169738",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "11",
+      "coordenadas": [
+        40.23016151630003,
+        -8.522784474751543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1169739",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "11",
+      "coordenadas": [
+        40.23016151630003,
+        -8.522784474751543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1170920",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "11",
+      "coordenadas": [
+        40.23016151630003,
+        -8.522784474751543
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1174301",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "14",
+      "coordenadas": [
+        40.23007931792213,
+        -8.523124751617349
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1174302",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "8",
+      "coordenadas": [
+        40.23029849821229,
+        -8.522221261377924
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1174977",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "82",
+      "coordenadas": [
+        40.22988730621844,
+        -8.523981392638902
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1185919",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "81",
+      "coordenadas": [
+        40.22992364614076,
+        -8.523887602326798
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1199842",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "6",
+      "coordenadas": [
+        40.230344316162586,
+        -8.521986524079551
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1212625",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "84",
+      "coordenadas": [
+        40.229841325408486,
+        -8.524263125623497
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1234021",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "40",
+      "coordenadas": [
+        40.23042303558255,
+        -8.52268022365928
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1254954",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "7",
+      "coordenadas": [
+        40.23032591006269,
+        -8.522103918529975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1254955",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "7",
+      "coordenadas": [
+        40.23032591006269,
+        -8.522103918529975
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1265280",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "1",
+      "coordenadas": [
+        40.230436975417774,
+        -8.521211554595217
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1278470",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "18",
+      "coordenadas": [
+        40.22996938816671,
+        -8.52367636683571
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1289660",
+      "rua": "R A",
+      "casa": "20",
+      "coordenadas": [
+        40.23075146316251,
+        -8.521424850545317
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1289671",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "102",
+      "coordenadas": [
+        40.22974960030713,
+        -8.524756092576013
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1293790",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "4",
+      "coordenadas": [
+        40.23040826325834,
+        -8.521716640130071
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1303667",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "10",
+      "coordenadas": [
+        40.230234391818115,
+        -8.522538143328257
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1311708",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "5",
+      "coordenadas": [
+        40.230380851799545,
+        -8.52183398327917
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1340168",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "9",
+      "coordenadas": [
+        40.230252837878545,
+        -8.522408999423485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1348359",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "29",
+      "coordenadas": [
+        40.230551011361165,
+        -8.522116956384831
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1349618",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "29",
+      "coordenadas": [
+        40.230551011361165,
+        -8.522116956384831
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1358753",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "59",
+      "coordenadas": [
+        40.23016723446302,
+        -8.523759752920453
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.1365603",
+      "rua": "R A BR DE S SILVESTRE",
+      "casa": "91",
+      "coordenadas": [
+        40.230030165649296,
+        -8.524346461433145
+      ]
+    }
+  ],
+  "ruas": [
+    "R A",
+    "R A BR DE S SILVESTRE"
+  ],
+  "centro": [
+    40.230250531734825,
+    -8.522983823585616
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                40.229907418312095,
+                -8.52452567505815
+              ],
+              [
+                40.22987234764433,
+                -8.52457687895101
+              ],
+              [
+                40.22984381246489,
+                -8.524609577670743
+              ],
+              [
+                40.22982181277379,
+                -8.524623771217351
+              ],
+              [
+                40.22980634857103,
+                -8.524619459590836
+              ],
+              [
+                40.229797419856595,
+                -8.524596642791195
+              ],
+              [
+                40.229795026630505,
+                -8.52455532081843
+              ],
+              [
+                40.22979916889275,
+                -8.524495493672541
+              ],
+              [
+                40.22980984664332,
+                -8.524417161353528
+              ],
+              [
+                40.22982705988224,
+                -8.524320323861387
+              ],
+              [
+                40.22985071004753,
+                -8.524192312336334
+              ],
+              [
+                40.22988079713919,
+                -8.524033126778365
+              ],
+              [
+                40.22991732115723,
+                -8.52384276718748
+              ],
+              [
+                40.22996028210164,
+                -8.52362123356368
+              ],
+              [
+                40.23000967997244,
+                -8.523368525906966
+              ],
+              [
+                40.230065514769606,
+                -8.523084644217336
+              ],
+              [
+                40.23012778649315,
+                -8.522769588494791
+              ],
+              [
+                40.23019649514307,
+                -8.52242335873933
+              ],
+              [
+                40.23026152908276,
+                -8.522123740452521
+              ],
+              [
+                40.230322888312216,
+                -8.521870733634366
+              ],
+              [
+                40.23038057283145,
+                -8.521664338284864
+              ],
+              [
+                40.23043458264045,
+                -8.521504554404014
+              ],
+              [
+                40.230484917739226,
+                -8.521391381991819
+              ],
+              [
+                40.230531578127774,
+                -8.521324821048275
+              ],
+              [
+                40.230574563806094,
+                -8.521304871573385
+              ],
+              [
+                40.23061387477419,
+                -8.52133153356715
+              ],
+              [
+                40.230640826275874,
+                -8.521393007669369
+              ],
+              [
+                40.23065541831114,
+                -8.521489293880046
+              ],
+              [
+                40.23065765088,
+                -8.521620392199182
+              ],
+              [
+                40.23064752398244,
+                -8.521786302626774
+              ],
+              [
+                40.23062503761848,
+                -8.521987025162824
+              ],
+              [
+                40.230590191788096,
+                -8.522222559807332
+              ],
+              [
+                40.2305429864913,
+                -8.522492906560297
+              ],
+              [
+                40.230483421728096,
+                -8.522798065421718
+              ],
+              [
+                40.230427477882046,
+                -8.523072584737907
+              ],
+              [
+                40.23037515495315,
+                -8.523316464508863
+              ],
+              [
+                40.23032645294142,
+                -8.523529704734585
+              ],
+              [
+                40.23028137184685,
+                -8.523712305415076
+              ],
+              [
+                40.23023991166943,
+                -8.523864266550333
+              ],
+              [
+                40.23020207240916,
+                -8.523985588140356
+              ],
+              [
+                40.23016785406606,
+                -8.524076270185144
+              ],
+              [
+                40.23013725664011,
+                -8.5241363126847
+              ],
+              [
+                40.23010610005893,
+                -8.524195250358417
+              ],
+              [
+                40.230074384322535,
+                -8.5242530832063
+              ],
+              [
+                40.2300421094309,
+                -8.524309811228344
+              ],
+              [
+                40.23000927538405,
+                -8.524365434424551
+              ],
+              [
+                40.22997588218196,
+                -8.524419952794922
+              ],
+              [
+                40.22994192982464,
+                -8.524473366339453
+              ],
+              [
+                40.229907418312095,
+                -8.52452567505815
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    40.230188409302,
+    -8.523264412204215
+  ],
+  "centroDeMassa": [
+    40.230250531734825,
+    -8.522983823585616
+  ]
+}

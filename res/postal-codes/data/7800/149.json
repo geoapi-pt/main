@@ -1,1 +1,363 @@
-{"CP4":"7800","CP3":"149","Distrito":"Beja","Concelho":"Beja","CP":"7800-149","Artéria":"Rua das Portas de Moura","Localidade":"Beja","Local":"","Troço":"","Porta":"","Cliente":"","Designação Postal":"BEJA","locais":[{"id":"pt.ine.add.PTCONT.458616","rua":"R PORTAS DE MOURA","casa":"4","coordenadas":[38.01550139208994,-7.8605800769540775]},{"id":"pt.ine.add.PTCONT.366140","rua":"R PORTAS DE MOURA","casa":"6","coordenadas":[38.015548590799256,-7.860557215638704]},{"id":"pt.ine.add.PTCONT.373476","rua":"R PORTAS DE MOURA","casa":"5","coordenadas":[38.015517217625295,-7.860690842126138]},{"id":"pt.ine.add.PTCONT.379887","rua":"R PORTAS DE MOURA","casa":"13","coordenadas":[38.01571841739372,-7.860559765057254]},{"id":"pt.ine.add.PTCONT.387966","rua":"R PORTAS DE MOURA","casa":"19","coordenadas":[38.01587482959228,-7.860442781542959]},{"id":"pt.ine.add.PTCONT.391990","rua":"R PORTAS DE MOURA","casa":"3","coordenadas":[38.01547056430019,-7.860736024584151]},{"id":"pt.ine.add.PTCONT.401624","rua":"R PORTAS DE MOURA","casa":"15","coordenadas":[38.01577281445435,-7.860522510254009]},{"id":"pt.ine.add.PTCONT.406784","rua":"R PORTAS DE MOURA","casa":"2 A","coordenadas":[38.01542343283644,-7.860633147455041]},{"id":"pt.ine.add.PTCONT.407387","rua":"R PORTAS DE MOURA","casa":"9","coordenadas":[38.01630952847698,-7.86008133586018]},{"id":"pt.ine.add.PTCONT.408658","rua":"R PORTAS DE MOURA","casa":"8","coordenadas":[38.01557606719774,-7.860533894390358]},{"id":"pt.ine.add.PTCONT.417069","rua":"R PORTAS DE MOURA","casa":"28","coordenadas":[38.0159657282154,-7.8603370511601165]},{"id":"pt.ine.add.PTCONT.421937","rua":"R PORTAS DE MOURA","casa":"30","coordenadas":[38.01604670505616,-7.860291199994649]},{"id":"pt.ine.add.PTCONT.423629","rua":"R PORTAS DE MOURA","casa":"16","coordenadas":[38.01572661675323,-7.8604606832259485]},{"id":"pt.ine.add.PTCONT.424754","rua":"R PORTAS DE MOURA","casa":"12","coordenadas":[38.015619844828464,-7.860521803649812]},{"id":"pt.ine.add.PTCONT.428243","rua":"R PORTAS DE MOURA","casa":"17","coordenadas":[38.0158142082986,-7.860489461220238]},{"id":"pt.ine.add.PTCONT.437412","rua":"R PORTAS DE MOURA","casa":"14","coordenadas":[38.015693827183405,-7.860480319808914]},{"id":"pt.ine.add.PTCONT.438340","rua":"R PORTAS DE MOURA","casa":"1","coordenadas":[38.01541395600647,-7.860803108135347]},{"id":"pt.ine.add.PTCONT.438344","rua":"R PORTAS DE MOURA","casa":"2","coordenadas":[38.01537329331237,-7.860655930744832]},{"id":"pt.ine.add.PTCONT.451163","rua":"R PORTAS DE MOURA","casa":"34","coordenadas":[38.01612023213793,-7.860237974294184]},{"id":"pt.ine.add.PTCONT.452339","rua":"R PORTAS DE MOURA","casa":"35","coordenadas":[38.016091645206295,-7.86024548233154]}],"ruas":["R PORTAS DE MOURA"],"centroide":[38.01570985613464,-7.860506059268259]}
+{
+  "CP": "7800-149",
+  "CP4": "7800",
+  "CP3": "149",
+  "Distrito": "Beja",
+  "Concelho": "Beja",
+  "Localidade": "Beja",
+  "Designação Postal": "BEJA",
+  "partes": [
+    {
+      "Artéria": "Rua das Portas de Moura",
+      "Local": "",
+      "Troço": "",
+      "Porta": "",
+      "Cliente": ""
+    }
+  ],
+  "pontos": [
+    {
+      "id": "pt.ine.add.PTCONT.458616",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "4",
+      "coordenadas": [
+        38.01550139208994,
+        -7.8605800769540775
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.366140",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "6",
+      "coordenadas": [
+        38.015548590799256,
+        -7.860557215638704
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.373476",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "5",
+      "coordenadas": [
+        38.015517217625295,
+        -7.860690842126138
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.379887",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "13",
+      "coordenadas": [
+        38.01571841739372,
+        -7.860559765057254
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.387966",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "19",
+      "coordenadas": [
+        38.01587482959228,
+        -7.860442781542959
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.391990",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "3",
+      "coordenadas": [
+        38.01547056430019,
+        -7.860736024584151
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.401624",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "15",
+      "coordenadas": [
+        38.01577281445435,
+        -7.860522510254009
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.406784",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "2 A",
+      "coordenadas": [
+        38.01542343283644,
+        -7.860633147455041
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.407387",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "9",
+      "coordenadas": [
+        38.01630952847698,
+        -7.86008133586018
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.408658",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "8",
+      "coordenadas": [
+        38.01557606719774,
+        -7.860533894390358
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.417069",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "28",
+      "coordenadas": [
+        38.0159657282154,
+        -7.8603370511601165
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.421937",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "30",
+      "coordenadas": [
+        38.01604670505616,
+        -7.860291199994649
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.423629",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "16",
+      "coordenadas": [
+        38.01572661675323,
+        -7.8604606832259485
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.424754",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "12",
+      "coordenadas": [
+        38.015619844828464,
+        -7.860521803649812
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.428243",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "17",
+      "coordenadas": [
+        38.0158142082986,
+        -7.860489461220238
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.437412",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "14",
+      "coordenadas": [
+        38.015693827183405,
+        -7.860480319808914
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.438340",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "1",
+      "coordenadas": [
+        38.01541395600647,
+        -7.860803108135347
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.438344",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "2",
+      "coordenadas": [
+        38.01537329331237,
+        -7.860655930744832
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.451163",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "34",
+      "coordenadas": [
+        38.01612023213793,
+        -7.860237974294184
+      ]
+    },
+    {
+      "id": "pt.ine.add.PTCONT.452339",
+      "rua": "R PORTAS DE MOURA",
+      "casa": "35",
+      "coordenadas": [
+        38.016091645206295,
+        -7.86024548233154
+      ]
+    }
+  ],
+  "ruas": [
+    "R PORTAS DE MOURA"
+  ],
+  "centro": [
+    38.01584141089468,
+    -7.860442221997763
+  ],
+  "poligono": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                38.0153961660778,
+                -7.860738718026996
+              ],
+              [
+                38.01539108324104,
+                -7.860720320853182
+              ],
+              [
+                38.01540126443332,
+                -7.860695245281022
+              ],
+              [
+                38.01542670965464,
+                -7.860663491310516
+              ],
+              [
+                38.015467418905004,
+                -7.860625058941664
+              ],
+              [
+                38.01552339218442,
+                -7.860579948174465
+              ],
+              [
+                38.01559462949287,
+                -7.86052815900892
+              ],
+              [
+                38.01568113083036,
+                -7.860469691445031
+              ],
+              [
+                38.015782896196896,
+                -7.860404545482796
+              ],
+              [
+                38.015899925592464,
+                -7.860332721122216
+              ],
+              [
+                38.01599553414352,
+                -7.860275522395501
+              ],
+              [
+                38.01606972185006,
+                -7.860232949302651
+              ],
+              [
+                38.01612248871207,
+                -7.860205001843667
+              ],
+              [
+                38.016153834729565,
+                -7.86019168001855
+              ],
+              [
+                38.01616375990254,
+                -7.860192983827298
+              ],
+              [
+                38.01615226423099,
+                -7.860208913269914
+              ],
+              [
+                38.01611934771492,
+                -7.860239468346395
+              ],
+              [
+                38.01606501035434,
+                -7.860284649056743
+              ],
+              [
+                38.01601026401404,
+                -7.860329812281304
+              ],
+              [
+                38.015955108694044,
+                -7.860374958020076
+              ],
+              [
+                38.015899544394344,
+                -7.860420086273061
+              ],
+              [
+                38.015843571114935,
+                -7.860465197040259
+              ],
+              [
+                38.015787188855825,
+                -7.86051029032167
+              ],
+              [
+                38.01573039761701,
+                -7.860555366117293
+              ],
+              [
+                38.01567319739849,
+                -7.860600424427129
+              ],
+              [
+                38.015615588200255,
+                -7.860645465251178
+              ],
+              [
+                38.015564544797215,
+                -7.860682576325493
+              ],
+              [
+                38.01552006718936,
+                -7.860711757650075
+              ],
+              [
+                38.01548215537668,
+                -7.860733009224925
+              ],
+              [
+                38.01545080935919,
+                -7.860746331050043
+              ],
+              [
+                38.015426029136876,
+                -7.860751723125427
+              ],
+              [
+                38.01540781470975,
+                -7.860749185451077
+              ],
+              [
+                38.0153961660778,
+                -7.860738718026996
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "centroide": [
+    38.01574290184703,
+    -7.8604957890708285
+  ],
+  "centroDeMassa": [
+    38.01584141089468,
+    -7.860442221997763
+  ]
+}
