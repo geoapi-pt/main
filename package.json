@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
   "scripts": {
-    "test": "standard && depcheck --ignores=\"depcheck\" --ignore-patterns=\"res/*\" && node server.js --testStartup && node test/mainTest.js",
+    "test": "standard && depcheck --ignores=\"depcheck,leaflet\" --ignore-patterns=\"res/*\" && node server.js --testStartup && node test/mainTest.js",
     "start": "node server.js",
     "generate-postalcodes": "node --max-old-space-size=16384 js/routines/generatePostalCodes.js",
     "validate-emails": "node js/routines/validateEmails.js"
