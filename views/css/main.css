@@ -102,20 +102,29 @@ iframe {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding: 20px 20px
+	padding: 20px 20px;
 }
 
 .wrap-table100 {
 	width: 960px;
 	border-radius: 10px;
 	overflow: hidden;
-	margin-bottom: 30px;
 }
 
 .table {
 	width: 100%;
 	display: table;
 	margin: 0
+}
+
+.map-div {
+	background: #f2f2f2;
+	padding: 20px 20px;
+}
+
+#map { 
+	height: 500px;
+	border-radius: 10px;
 }
 
 @media screen and (max-width:768px) {
