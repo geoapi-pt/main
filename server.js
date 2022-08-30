@@ -1,6 +1,6 @@
 const path = require('path')
 const express = require('express')
-const { engine } = require('express-handlebars')
+const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const PolygonLookup = require('polygon-lookup')
@@ -16,7 +16,7 @@ const mainPageUrl = 'https://www.geoapi.pt/'
 
 // import server project modules
 const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
-const { obj2html } = require(path.join(serverModulesDir, 'renderHtml.js'))
+const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
 const prepareServerMod = require(path.join(serverModulesDir, 'prepareServer.js'))
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
 
@@ -60,17 +60,6 @@ function prepareServer (callback) {
   })
 }
 
-function preparePostalCodesCTT (callback) {
-  preparePostalCodesCTTMod.prepare((err, data) => {
-    if (err) {
-      callback(Error(err))
-    } else {
-      postalCodes = data
-      callback()
-    }
-  })
-}
-
 function startServer (callback) {
   console.log('Server prepared with ' + colors.green.bold('success'))
   console.log('Starting server...')
@@ -80,12 +69,16 @@ function startServer (callback) {
   app.use(bodyParser.json())
   app.use(nocache())
 
-  app.engine('.hbs', engine({ extname: '.hbs' }))
+  const hbs = exphbs.create({
+    extname: '.hbs',
+    helpers: hbsHelpers
+  })
+
+  app.engine('.hbs', hbs.engine)
   app.set('view engine', '.hbs')
   app.set('views', './views')
 
-  app.use('/css', express.static(path.join(__dirname, 'views', 'css')))
-  app.use('/fonts', express.static(path.join(__dirname, 'views', 'fonts')))
+  app.use('/', express.static(path.join(__dirname, 'views')))
 
   // counter of requests per hour
   let requestsCounterPerHour = 0
@@ -104,7 +97,7 @@ function startServer (callback) {
   }, 1000 * 60 * 60 * 24)
 
   app.use(function (req, res, next) {
-    res.sendData = function (data, input) {
+    res.sendData = function (data, input, processedData, template) {
       requestsCounterPerHour++
       requestsCounterPerDay++
 
@@ -116,10 +109,11 @@ function startServer (callback) {
       } else {
         res.type('text/html')
 
-        res.render('home', {
+        res.render(template || 'home', {
           layout: false,
-          data: obj2html(data),
-          input: input ? obj2html(input) : ''
+          input: input,
+          data: data,
+          processedData: processedData
         })
       }
     }
@@ -430,39 +424,42 @@ function startServer (callback) {
     debug(req.path, req.query, req.headers)
 
     const cp = req.params.cp
+    const cleanCp = cp.replace(/-/, '')
+    const cp4 = cleanCp.slice(0, 4) // first 4 digits of CP
+    const cp3 = cleanCp.slice(4, 7) // last 3 digits of CP or '' when not available
 
-    // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
-    if (/^\d{4}(-?\d{3})?$/.test(cp)) {
-      const cleanCp = cp.replace(/-/, '')
-      const cp4 = cleanCp.slice(0, 4) // first 4 digits of CP
-      const cp3 = cleanCp.slice(4, 7) // last 3 digits of CP or '' when not available
+    // asserts postal code is XXXXYYY or XXXX-YYY
+    if (/^\d{4}(-?\d{3})?$/.test(cp) && cp4 && cp3) {
+      const filename = path.join(__dirname, 'res', 'postal-codes', 'data', cp4, cp3 + '.json')
+      fs.readFile(filename, (err, fileContent) => {
+        if (err) {
+          debug(err)
+          res.status(404).sendData({ error: 'Postal Code not found!' })
+        } else {
+          // raw data
+          const data = JSON.parse(fileContent)
 
-      let results
-      if (cp3) { // last 3 digits of CP are available
-        results = postalCodes.filter(el => el.CP4 === cp4 && el.CP3 === cp3)
-      } else {
-        results = postalCodes.filter(el => el.CP4 === cp4)
-      }
+          // filtered and processed data for presentation
+          const processedData = JSON.parse(fileContent)
+          processedData.partes = processedData.partes.map(obj => {
+            for (const key in obj) {
+              if (!obj[key]) delete obj[key]
+            }
+            return obj
+          });
 
-      // clean empty fields
-      results.forEach((el) => {
-        for (const key in el) {
-          if (!el[key]) delete el[key]
+          ['CP', 'CP4', 'CP3', 'pontos', 'poligono', 'ruas', 'centro', 'centroide', 'centroDeMassa']
+            .forEach(el => {
+              if (el in processedData) delete processedData[el]
+            })
+
+          // present also the input in case of text/html rendering
+          const input = { 'Código Postal': cp4 + '-' + cp3 }
+          res.status(200).sendData(data, input, processedData, 'postalCode')
         }
       })
-
-      // present also the input in case of text/html rendering
-      const input = { 'Código Postal': cp4 + (cp3 ? '-' + cp3 : '') }
-
-      if (results.length > 1) {
-        res.status(200).sendData(results, input)
-      } else if (results.length === 1) {
-        res.status(200).sendData(results[0], input)
-      } else {
-        res.status(404).sendData({ error: 'Postal Code not found!' })
-      }
     } else {
-      res.status(404).sendData({ error: 'Postal Code format must be /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY' })
+      res.status(404).sendData({ error: 'Postal Code format must be /cp/XXXXYYY or /cp/XXXX-YYY' })
     }
   })
 
