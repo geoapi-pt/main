@@ -495,7 +495,7 @@ function startServer (callback) {
     console.log(`**${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/municipio/Évora')}${Array(34).join(' ')}**`)
     console.log(`**${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/cp/2495-300')}${Array(38).join(' ')}**`)
     console.log('**                                                                           **')
-    console.log(`**              for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(16).join(' ')}**`)
+    console.log(`**          for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(23).join(' ')}**`)
     console.log('*******************************************************************************')
 
     if (process.send) {
