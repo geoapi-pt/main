@@ -1,3 +1,5 @@
+/* handlebars helper functions */
+
 const debug = require('debug')('helpers')
 
 module.exports = {
