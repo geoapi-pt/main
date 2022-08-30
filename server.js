@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const rateLimit = require('express-rate-limit')
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -79,6 +80,15 @@ function startServer (callback) {
   app.set('views', './views')
 
   app.use('/', express.static(path.join(__dirname, 'views')))
+
+  // Apply the rate limiting middleware to all requests
+  const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+    legacyHeaders: false // Disable the `X-RateLimit-*` headers
+  })
+  app.use(limiter)
 
   // counter of requests per hour
   let requestsCounterPerHour = 0
