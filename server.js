@@ -26,7 +26,8 @@ const normalizeName = prepareServerMod.normalizeName
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
-  { name: 'testStartup', type: Boolean }
+  { name: 'testStartup', type: Boolean },
+  { name: 'rateLimit', type: Boolean }
 ])
 
 const serverPort = process.env.npm_config_port ||
@@ -83,13 +84,15 @@ function startServer (callback) {
   app.use('/', express.static(path.join(__dirname, 'views')))
 
   // Apply the rate limiting middleware to all requests
-  const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
-    standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-    legacyHeaders: false // Disable the `X-RateLimit-*` headers
-  })
-  app.use(limiter)
+  if (argvOptions.rateLimit) {
+    const limiter = rateLimit({
+      windowMs: 15 * 60 * 1000, // 15 minutes
+      max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+      standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
+      legacyHeaders: false // Disable the `X-RateLimit-*` headers
+    })
+    app.use(limiter)
+  }
 
   // counter of requests per hour
   let requestsCounterPerHour = 0
