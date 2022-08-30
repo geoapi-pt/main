@@ -1,3 +1,4 @@
+const fs = require('fs')
 const path = require('path')
 const express = require('express')
 const rateLimit = require('express-rate-limit')
@@ -11,7 +12,7 @@ const nocache = require('nocache')
 const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
-const fs = require('fs')
+const sanitize = require('sanitize-filename')
 
 const mainPageUrl = 'https://www.geoapi.pt/'
 
@@ -440,7 +441,10 @@ function startServer (callback) {
 
     // asserts postal code is XXXXYYY or XXXX-YYY
     if (/^\d{4}(-?\d{3})?$/.test(cp) && cp4 && cp3) {
-      const filename = path.join(__dirname, 'res', 'postal-codes', 'data', cp4, cp3 + '.json')
+      const filename = path.join(
+        __dirname, 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json')
+      )
+
       fs.readFile(filename, (err, fileContent) => {
         if (err) {
           debug(err)
