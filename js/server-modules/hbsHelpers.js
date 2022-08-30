@@ -1,5 +1,8 @@
+const debug = require('debug')('helpers')
+
 module.exports = {
-  obj2html: obj2html
+  obj2html: obj2html,
+  obj2dataAttribute: obj2dataAttribute
 }
 
 function obj2html (data) {
@@ -13,12 +16,6 @@ function obj2html (data) {
             </div>
             <div class="cell" data-title="Age">
               31
-            </div>
-            <div class="cell" data-title="Job Title">
-              iOS Developer
-            </div>
-            <div class="cell" data-title="Location">
-              Washington
             </div>
         </div>
       </div>
@@ -59,10 +56,13 @@ function obj2html (data) {
         renderObjAsRow(obj[key])
       } else if (Array.isArray(obj[key])) {
         renderTextAsRow(key, 1)
-        const arr = obj[key]
-        for (let i = 0; i < arr.length; i++) {
-          renderTextAsRow(arr[i], 2)
-        }
+        obj[key].forEach(el => {
+          if (isObj(el)) {
+            renderObjAsRow(el)
+          } else {
+            renderTextAsRow(el, 2)
+          }
+        })
       }
     }
   }
@@ -96,7 +96,14 @@ function obj2html (data) {
     html += tableEnd
   }
 
+  debug('obj2html: ', html)
   return html
+}
+
+function obj2dataAttribute (obj) {
+  const str = encodeURIComponent(JSON.stringify(obj || {}))
+  debug('obj2dataAttribute:', str)
+  return str
 }
 
 function isObj (data) {
