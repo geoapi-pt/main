@@ -1,8 +1,6 @@
 [![Node.js CI](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml)
-[![Known Vulnerabilities](https://snyk.io/test/github/jfoclpf/geoapi.pt/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jfoclpf/geoapi.pt?targetFile=package.json)
+[![CodeQL Security Check](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml)
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jfoclpf/geoapi.pt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoapi.pt/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jfoclpf/geoapi.pt.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jfoclpf/geoapi.pt/context:javascript)
 ![Request last hour](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastHour)
 ![Request last day](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2FrequestsLastDay)
 <br>
