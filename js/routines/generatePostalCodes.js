@@ -16,7 +16,7 @@ const turf = require('@turf/turf')
 const ProgressBar = require('progress')
 const colors = require('colors/safe')
 const csv = require('csvtojson')
-const process = require('process')
+const commandLineArgs = require('command-line-args')
 const debug = require('debug')('generate-postal-codes')
 
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'preparePostalCodesCTT.js'))
@@ -47,7 +47,11 @@ const functionExecution =
 
 // ex: node js/generatePostalCodes.js download-zip
 // downloads ZIP from OpenAddresses
-const bDownloadZipFile = process.argv[2] === 'download-zip'
+const argvOptions = commandLineArgs([
+  { name: 'download-zip', type: Boolean }
+])
+
+const bDownloadZipFile = argvOptions['download-zip']
 
 if (bDownloadZipFile) {
   // insert these functions at the beginning of function array
