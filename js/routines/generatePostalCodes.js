@@ -285,10 +285,12 @@ function assembleCP3Data (callback) {
       let partes = cttData
         .filter(el => el.CP && el.CP === postalCode)
         .map(el => {
-          delete el.CP
-          delete el.CP4
-          delete el.CP3
-          return el
+          // clone object to avoid damaging Objects in cttData (in JS Objects are references/pointers)
+          const clone = { ...el } // clone Object
+          delete clone.CP
+          delete clone.CP4
+          delete clone.CP3
+          return clone
         });
 
       // if these keys are the same for all "partes" move them to root of postalCodeObj
@@ -436,10 +438,12 @@ function assembleCP4Data (callback) {
       let partes = cttData
         .filter(el => el.CP4 && el.CP4 === CP4postalCode)
         .map(el => {
-          delete el.CP
-          delete el.CP4
-          delete el.CP3
-          return el
+          // clone object to avoid damaging Objects in cttData (in JS Objects are references/pointers)
+          const clone = { ...el } // clone Object
+          delete clone.CP
+          delete clone.CP4
+          delete clone.CP3
+          return clone
         });
 
       // if these keys are the same for all "partes" move them to root of postalCodeObj
