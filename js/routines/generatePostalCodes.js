@@ -228,7 +228,7 @@ function preparePostalCodesCTT (callback) {
 // process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
 function assembleCP3Data (callback) {
   // for tests, just get first N entries, i.e., trim array
-  postalCodes = postalCodes.slice(0, 100)
+  // postalCodes = postalCodes.slice(0, 100)
 
   // data directory where all CP4/CP3.json will be stored
   if (!fs.existsSync(path.join(resDirectory, 'data'))) {
