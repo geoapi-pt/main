@@ -353,7 +353,13 @@ function assembleCP3Data (callback) {
           // computes convex hull polygon, the minimum polygon than embraces all the points
           const hullPolygon = turf.convex(points)
           if (hullPolygon && hullPolygon.geometry.type === 'Polygon') {
-            postalCodeObj.poligono = turf.polygonSmooth(hullPolygon, { iterations: 3 })
+            const geojsonSmoothPolygon = turf.polygonSmooth(hullPolygon, { iterations: 3 })
+            try {
+              postalCodeObj.poligono = geojsonSmoothPolygon.features[0].geometry.coordinates[0]
+            } catch (e) {
+              debug('Invalid geojsonSmoothPolygon:', geojsonSmoothPolygon)
+            }
+
             // computes centroide and center of mass from hull polygon
             postalCodeObj.centroide = turf.centroid(hullPolygon).geometry.coordinates
             postalCodeObj.centroDeMassa = turf.center(hullPolygon).geometry.coordinates
@@ -493,7 +499,13 @@ function assembleCP4Data (callback) {
           // computes convex hull polygon, the minimum polygon than embraces all the points
           const hullPolygon = turf.convex(points)
           if (hullPolygon && hullPolygon.geometry.type === 'Polygon') {
-            postalCodeObj.poligono = turf.polygonSmooth(hullPolygon, { iterations: 3 })
+            const geojsonSmoothPolygon = turf.polygonSmooth(hullPolygon, { iterations: 3 })
+            try {
+              postalCodeObj.poligono = geojsonSmoothPolygon.features[0].geometry.coordinates[0]
+            } catch (e) {
+              debug('Invalid geojsonSmoothPolygon:', geojsonSmoothPolygon)
+            }
+
             // computes centroide and center of mass from hull polygon
             postalCodeObj.centroide = turf.centroid(hullPolygon).geometry.coordinates
             postalCodeObj.centroDeMassa = turf.center(hullPolygon).geometry.coordinates
