@@ -25,7 +25,7 @@ Provides information on official divisional administrative regions of Portugal (
 
 It also provides information on Postal Codes.
 
-You can use freely the public API at `https://geoapi.pt` (without www).
+You can use freely the public API at `https://geoapi.pt` (without www). The limit per IP is 100 requests per 15 minutes.
 
 It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also [pre-processes all the raw data](/prepareServer.js) for fast real-time delivery.
 
