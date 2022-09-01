@@ -536,6 +536,6 @@ function removeDuplicatesFromArray (array) {
 
 function splitCP (str) {
   // any sort of hyphen, dash or minus sign
-  const CP = str.split(/[\u002D\u058A\u05BE\u2010\u2011\u2012\u2013\u2014\u2015\u2E3A\u2E3B\uFE58\uFE63\uFF0D]/)
+  const CP = str.split(/\p{Dash}/u)
   return { CP4: CP[0], CP3: CP[1] }
 }
