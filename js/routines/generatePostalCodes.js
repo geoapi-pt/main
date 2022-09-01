@@ -31,7 +31,8 @@ const unzippedFilesEncoding = 'utf8' // see https://stackoverflow.com/a/14551669
 let unzippedFilePath
 
 let cttData = [] // data fetched from CTT file
-let postalCodes = [] // array with postal codes (no duplications)
+let postalCodes = [] // array with CP4-CP3 postal codes (no duplications)
+let CP4postalCodes = [] // array with only CP4 postal codes (no duplications)
 const openAddressesData = [] // data fetched from OpenAddresses file
 let numberOfEntriesOpenAddresses
 
@@ -42,7 +43,8 @@ const functionExecution =
     parseCsvFiles, // parse CSV file from OpenAddresses and store it in openAddressesData
     deleteZipFile, // deletes zip file from OpenAddresses
     preparePostalCodesCTT, // parse files from CTT and stores data in cttData
-    assembleData // process and assemble data from both databases, i.e., OpenAddresses and CTT
+    assembleCP3Data, // process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
+    assembleCP4Data // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
   ]
 
 // ex: node js/generatePostalCodes.js download-zip
@@ -215,29 +217,27 @@ function preparePostalCodesCTT (callback) {
     } else {
       cttData = data
       postalCodes = removeDuplicatesFromArray(cttData.map(el => el.CP))
-      console.log(`Found ${postalCodes.length} different postal codes in CTT file`)
+      console.log(`Found ${postalCodes.length} different CP4-CP3 postal codes in CTT file`)
+      CP4postalCodes = removeDuplicatesFromArray(cttData.map(el => el.CP4))
+      console.log(`Found ${CP4postalCodes.length} different CP4 postal codes in CTT file`)
       callback()
     }
   })
 }
 
-// process and assemble data from both databases, i.e., OpenAddresses and CTT
-function assembleData (callback) {
+// process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
+function assembleCP3Data (callback) {
   // for tests, just get first N entries, i.e., trim array
-  // postalCodes = postalCodes.slice(0, 100)
+  postalCodes = postalCodes.slice(0, 100)
 
   // data directory where all CP4/CP3.json will be stored
   if (!fs.existsSync(path.join(resDirectory, 'data'))) {
     fs.mkdirSync(path.join(resDirectory, 'data'))
   }
 
-  console.log('Generating Array of Unique CP4 values')
-  // Array of single CP4 values (no duplicates)
-  const CP4Arr = removeDuplicatesFromArray(cttData.map(el => el.CP4))
-
-  console.log(`Creating ${CP4Arr.length} directories for postal codes, each directory for each CP4`)
-  const barDirectories = new ProgressBar('[:bar] :percent :info', { total: CP4Arr.length, width: 80 })
-  for (const CP4 of CP4Arr) {
+  console.log(`Creating ${CP4postalCodes.length} directories for postal codes, each directory for each CP4`)
+  const barDirectories = new ProgressBar('[:bar] :percent :info', { total: CP4postalCodes.length, width: 80 })
+  for (const CP4 of CP4postalCodes) {
     if (!fs.existsSync(path.join(resDirectory, 'data', CP4))) {
       fs.mkdirSync(path.join(resDirectory, 'data', CP4), { recursive: true })
       barDirectories.tick({ info: `${path.join('res', 'postal-codes', 'data', CP4)} created` })
@@ -247,7 +247,7 @@ function assembleData (callback) {
   }
   barDirectories.terminate()
 
-  console.log('Process and assemble Postal Codes data from both databases (OpenAddresses and CTT)')
+  console.log('Process and assemble CP4-CP3 Postal Codes data from both databases (OpenAddresses and CTT)')
   const openAddressesDataLen = openAddressesData.length
 
   let barAssemble
@@ -263,8 +263,8 @@ function assembleData (callback) {
     const postalCodeObj = {}
     postalCodeObj.CP = postalCode
 
-    const CP4 = postalCode.split('-')[0]
-    const CP3 = postalCode.split('-')[1]
+    const CP4 = splitCP(postalCode).CP4
+    const CP3 = splitCP(postalCode).CP3
     postalCodeObj.CP4 = CP4
     postalCodeObj.CP3 = CP3
 
@@ -384,7 +384,147 @@ function assembleData (callback) {
     if (err) {
       callback(Error(err))
     } else {
-      console.log('All JSON files have been created successfully')
+      console.log('All CP4-CP3 JSON files have been created successfully')
+      callback()
+    }
+  })
+}
+
+// process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
+function assembleCP4Data (callback) {
+  console.log('Process and assemble CP4 Postal Codes data from both databases (OpenAddresses and CTT)')
+  const openAddressesDataLen = openAddressesData.length
+
+  let barAssemble
+  if (!debug.enabled) {
+    barAssemble = new ProgressBar('[:bar] :percent :info', { total: CP4postalCodes.length + 1, width: 80 })
+  } else {
+    barAssemble = { tick: () => {}, terminate: () => {} }
+  }
+
+  barAssemble.tick({ info: 'Beginning' })
+
+  async.each(CP4postalCodes, function (CP4postalCode, callbackAsync) {
+    const postalCodeObj = {}
+    postalCodeObj.CP4 = CP4postalCode
+
+    const filename = path.join(resDirectory, 'data', CP4postalCode + '.json')
+
+    barAssemble.tick({ info: filename })
+
+    // points fetched from OpenAddresses CSV file corresponding to this CP
+    const pontos = []
+
+    try {
+      // fetch data from CTT file
+      let partes = cttData
+        .filter(el => el.CP4 && el.CP4 === CP4postalCode)
+        .map(el => {
+          delete el.CP
+          delete el.CP4
+          delete el.CP3
+          return el
+        });
+
+      // if these keys are the same for all "partes" move them to root of postalCodeObj
+      ['Distrito', 'Concelho', 'Localidade', 'Designação Postal'].forEach(key => {
+        const results = removeDuplicatesFromArray(partes.map(el => el[key]))
+        if (results.length === 1) {
+          postalCodeObj[key] = results[0]
+          partes = partes.map(el => { delete el[key]; return el })
+        } else {
+          postalCodeObj[key] = results
+        }
+      })
+
+      postalCodeObj.partes = partes
+
+      // merges data from OpenAddresses into the CTT data object
+      for (let i = 0; i < openAddressesDataLen; i++) {
+        if (CP4postalCode === splitCP(openAddressesData[i].postcode).CP4) {
+          pontos.push({
+            id: openAddressesData[i].id,
+            rua: openAddressesData[i].street,
+            casa: openAddressesData[i].house,
+            coordenadas: [
+              parseFloat(openAddressesData[i].lat),
+              parseFloat(openAddressesData[i].lon)
+            ]
+          })
+        }
+      }
+
+      postalCodeObj.pontos = pontos
+
+      // get unique arrays of streets
+      const streets = pontos.map(local => local.rua).filter(street => street.trim())
+      postalCodeObj.ruas = removeDuplicatesFromArray(streets)
+
+      if (
+        pontos.every(local =>
+          Number.isFinite(local.coordenadas[0]) && Number.isFinite(local.coordenadas[1])
+        )
+      ) {
+        if (pontos.length === 1) {
+          // just 1 point, center is that single point
+          const centro = pontos[0].coordenadas
+          postalCodeObj.centro = postalCodeObj.centroide = postalCodeObj.centroDeMassa = centro
+        } else if (pontos.length === 2) {
+          // just 2 points, calculates center
+          const points = turf.points(pontos.map(local => [local.coordenadas[0], local.coordenadas[1]]))
+          const geojsonCenter = turf.center(points)
+          const centro = geojsonCenter.geometry.coordinates
+          postalCodeObj.centro = postalCodeObj.centroide = postalCodeObj.centroDeMassa = centro
+        } else if (pontos.length > 2) {
+          // computes center from set of points
+          // computes also corresponding convex hull polygon
+          // from hull polygon, computes centroid and center of mass
+          // https://en.wikipedia.org/wiki/Convex_hull_of_a_simple_polygon
+          // https://github.com/jfoclpf/geoapi.pt/issues/27#issuecomment-1222236088
+          // https://stackoverflow.com/a/61162868/1243247
+
+          // converts to geojson object
+          const points = turf.points(pontos.map(local => [local.coordenadas[0], local.coordenadas[1]]))
+
+          // computes center
+          const geojsonCenter = turf.center(points)
+          postalCodeObj.centro = geojsonCenter.geometry.coordinates
+
+          // computes convex hull polygon, the minimum polygon than embraces all the points
+          const hullPolygon = turf.convex(points)
+          if (hullPolygon && hullPolygon.geometry.type === 'Polygon') {
+            postalCodeObj.poligono = turf.polygonSmooth(hullPolygon, { iterations: 3 })
+            // computes centroide and center of mass from hull polygon
+            postalCodeObj.centroide = turf.centroid(hullPolygon).geometry.coordinates
+            postalCodeObj.centroDeMassa = turf.center(hullPolygon).geometry.coordinates
+          } else {
+            postalCodeObj.centroide = postalCodeObj.centroDeMass = postalCodeObj.centro
+          }
+        }
+      }
+
+      debug(filename)
+      fs.rmSync(filename, { force: true })
+      fs.writeFile(filename, JSON.stringify(postalCodeObj, null, 2), function (err) {
+        if (err) {
+          console.error('Error creating file ' + filename)
+          throw err
+        } else {
+          callbackAsync()
+        }
+      })
+    } catch (err) {
+      console.error(`\nError on ${CP4postalCode}. ${err.message}.`, err)
+      console.error('\npontos (from OpenAddresses) for this postalCode: ', pontos)
+      callbackAsync(Error(err))
+    }
+  },
+  function (err) {
+    barAssemble.terminate()
+    if (err) {
+      callback(Error(err))
+    } else {
+      console.log('All CP4 JSON files have been created successfully')
       callback()
     }
   })
@@ -392,4 +532,10 @@ function assembleData (callback) {
 
 function removeDuplicatesFromArray (array) {
   return [...new Set(array)]
+}
+
+function splitCP (str) {
+  // any sort of hyphen, dash or minus sign
+  const CP = str.split(/[\u002D\u058A\u05BE\u2010\u2011\u2012\u2013\u2014\u2015\u2E3A\u2E3B\uFE58\uFE63\uFF0D]/)
+  return { CP4: CP[0], CP3: CP[1] }
 }
