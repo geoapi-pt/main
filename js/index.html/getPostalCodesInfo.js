@@ -3,6 +3,7 @@
   const geoApiUrl = 'https://geoapi.pt'
 
   const inputCodigoPostal = document.getElementById('codigo-postal')
+  const resultCodigoPostal = document.getElementById('result-codigo-postal')
 
   inputCodigoPostal.addEventListener('input', () => {
     if (!isPostalCodeOK(inputCodigoPostal.value)) {
@@ -13,23 +14,12 @@
         .then(res => res.json())
         .then((cpResults) => {
           let html = ''
-
-          if (Array.isArray(cpResults)) {
-            cpResults.forEach((res, idx, array) => {
-              for (const el in res) {
-                html += `<tr><th>${el}</th><td>${res[el]}</td></tr>`
-              }
-              if (idx !== array.length - 1) {
-                html += '<tr><th>-----</th><td>-----</td></tr>'
-              }
-            })
-          } else {
-            for (const el in cpResults) {
+          for (const el in cpResults) {
+            if (el !== 'partes' && el !== 'pontos' && el !== 'poligono') {
               html += `<tr><th>${el}</th><td>${cpResults[el]}</td></tr>`
             }
           }
-
-          document.getElementById('result-codigo-postal').innerHTML = html
+          resultCodigoPostal.innerHTML = html
         })
         .catch((err) => {
           console.error('error fetching códigos postais', err)
