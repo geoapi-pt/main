@@ -50,12 +50,12 @@ const functionExecution =
 // ex: node js/generatePostalCodes.js download-zip
 // downloads ZIP from OpenAddresses
 const argvOptions = commandLineArgs([
-  { name: 'download-zip', type: Boolean }
+  { name: 'download-zip', type: Boolean },
+  { name: 'onlyCP4', type: Boolean },
+  { name: 'onlyCP3', type: Boolean }
 ])
 
-const bDownloadZipFile = argvOptions['download-zip']
-
-if (bDownloadZipFile) {
+if (argvOptions['download-zip']) {
   // insert these functions at the beginning of function array
   functionExecution.unshift(
     fetchOpenAddressesPtDataUrl, // fetch url to get the PT addresses data
@@ -227,6 +227,11 @@ function preparePostalCodesCTT (callback) {
 
 // process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
 function assembleCP3Data (callback) {
+  if (argvOptions.onlyCP4) {
+    callback()
+    return
+  }
+
   // for tests, just get first N entries, i.e., trim array
   // postalCodes = postalCodes.slice(0, 100)
 
@@ -398,6 +403,11 @@ function assembleCP3Data (callback) {
 
 // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
 function assembleCP4Data (callback) {
+  if (argvOptions.onlyCP3) {
+    callback()
+    return
+  }
+
   console.log('Process and assemble CP4 Postal Codes data from both databases (OpenAddresses and CTT)')
   const openAddressesDataLen = openAddressesData.length
 
