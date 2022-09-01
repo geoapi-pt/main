@@ -4,28 +4,29 @@ const postcodeDataDomEl = document.getElementById('postcode-data')
 const postcodeData = JSON.parse(decodeURIComponent(postcodeDataDomEl.dataset.postcode))
 window.postcodeData = postcodeData
 
-const map = L.map('map').setView(postcodeData.centro, 15)
+const map = L.map('map').setView(postcodeData.centro, 11)
+
+const lats = postcodeData.poligono.map(el => el[0])
+const lons = postcodeData.poligono.map(el => el[1])
+map.fitBounds([
+  [Math.min(...lats), Math.min(...lons)],
+  [Math.max(...lats), Math.max(...lons)]
+], { padding: [30, 30] })
+
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '© OpenStreetMap'
 }).addTo(map);
 
-['centro', 'centroide', 'centroDeMassa'].forEach(el => {
+['centroide', 'centroDeMassa', 'centro'].forEach(el => {
   if (postcodeData[el]) {
     const elMap = L.marker(postcodeData[el]).addTo(map)
     elMap.bindPopup(el)
   }
 })
 
-if (
-  postcodeData.poligono &&
-  postcodeData.poligono.features &&
-  postcodeData.poligono.features[0] &&
-  postcodeData.poligono.features[0].geometry &&
-  postcodeData.poligono.features[0].geometry.coordinates &&
-  postcodeData.poligono.features[0].geometry.coordinates[0]
-) {
-  L.polygon(postcodeData.poligono.features[0].geometry.coordinates[0]).addTo(map)
+if (postcodeData.poligono) {
+  L.polygon(postcodeData.poligono).addTo(map)
 }
 
 postcodeData.pontos
