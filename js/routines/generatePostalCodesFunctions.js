@@ -227,7 +227,8 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
         pointsArr = pontos.map(local => [local.coordenadas[0], local.coordenadas[1]])
 
         // strip outliers
-        pointsArr = outliers2d(pointsArr).filteredPoints
+        const filteredPoints = outliers2d(pointsArr).filteredPoints
+        if (filteredPoints.length > 10) pointsArr = filteredPoints
 
         // converts to geojson object
         const geojsonPoints = turf.points(pointsArr)
