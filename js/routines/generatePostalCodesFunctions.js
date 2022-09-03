@@ -6,6 +6,7 @@ const turf = require('@turf/turf')
 
 module.exports = { createCP4CP3jsonFile, createCP4jsonFile }
 
+// creates one CP3 json file inside respective CP4 directory: XXXX/YYY.json
 function createCP4CP3jsonFile (resDirectory, postalCode, cttData, openAddressesData, callback) {
   const postalCodeObj = {}
   postalCodeObj.CP = postalCode // CP4-CP3 format: 'XXXX-YYY'
@@ -131,6 +132,7 @@ function createCP4CP3jsonFile (resDirectory, postalCode, cttData, openAddressesD
   }
 }
 
+// creates one CP4 json file: XXXX.json
 function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesData, callback) {
   const postalCodeObj = {}
   postalCodeObj.CP4 = CP4postalCode
