@@ -87,7 +87,7 @@ function startServer (callback) {
   if (argvOptions.rateLimit) {
     const limiter = rateLimit({
       windowMs: 15 * 60 * 1000, // 15 minutes
-      max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+      max: 15 * 60, // Limit each IP to average 1 request/sec
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
       legacyHeaders: false // Disable the `X-RateLimit-*` headers
     })
