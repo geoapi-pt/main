@@ -233,7 +233,7 @@ function assembleCP3Data (callback) {
   }
 
   // for tests, just get first N entries, i.e., trim array
-  postalCodes = postalCodes.slice(0, 100)
+  // postalCodes = postalCodes.slice(0, 100)
 
   // data directory where all CP4/CP3.json will be stored
   if (!fs.existsSync(path.join(resDirectory, 'data'))) {
@@ -286,7 +286,7 @@ function assembleCP4Data (callback) {
   }
 
   console.log('Process and assemble CP4 Postal Codes data from both databases (OpenAddresses and CTT)')
-  CP4postalCodes = ['1900', '4400'] // just for tests
+  // CP4postalCodes = ['1900', '4400'] // just for tests
 
   let bar
   if (!debug.enabled) {
