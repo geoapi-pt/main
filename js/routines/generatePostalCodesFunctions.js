@@ -2,6 +2,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const outliers2d = require('outliers2d')
 const turf = require('@turf/turf')
 
 module.exports = { createCP4CP3jsonFile, createCP4jsonFile }
@@ -18,7 +19,7 @@ function createCP4CP3jsonFile (resDirectory, postalCode, cttData, openAddressesD
 
   const filename = path.join(resDirectory, 'data', CP4, CP3 + '.json')
 
-  // points fetched from OpenAddresses CSV file corresponding to this CP
+  // points fetched from OpenAddresses data file, such points corresponding to this postal code
   const pontos = []
 
   try {
@@ -139,8 +140,9 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
 
   const filename = path.join(resDirectory, 'data', CP4postalCode + '.json')
 
-  // points fetched from OpenAddresses CSV file corresponding to this CP
+  // points fetched from OpenAddresses data file, such points corresponding to this CP4
   const pontos = []
+  let pointsArr = []
 
   try {
     // fetch data from CTT file
@@ -151,18 +153,28 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
         const clone = { ...el } // clone Object
         delete clone.CP
         delete clone.CP4
-        delete clone.CP3
         return clone
       });
 
-    // if these keys are the same for all "partes" move them to root of postalCodeObj
-    ['Distrito', 'Concelho', 'Localidade', 'Designação Postal'].forEach(key => {
+    // if these keys are the same for all "partes" ("partes" is an array of Objs) move them to root postalCodeObj
+    // even if they are different amongst "partes", create an array in root postalCodeObj with unique values
+    ['CP3', 'Distrito', 'Concelho', 'Localidade', 'Designação Postal'].forEach(key => {
       const results = removeDuplicatesFromArray(partes.map(el => el[key]))
       if (results.length === 1) {
+        // move key to main Obj and remove the key form "partes" array of Objs
         postalCodeObj[key] = results[0]
-        partes = partes.map(el => { delete el[key]; return el })
+        partes = partes.map(el => { const clone = { ...el }; delete clone[key]; return clone })
       } else {
+        // although the key is different in "partes", create an array in main Obj with unique values
+        // particularly important for CP3
         postalCodeObj[key] = results
+      }
+    })
+
+    // remove empty keys from "partes" to compress JSON file
+    partes.forEach(obj => {
+      for (const key in obj) {
+        if (!obj[key]) delete obj[key]
       }
     })
 
@@ -183,8 +195,6 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
         })
       }
     }
-
-    postalCodeObj.pontos = pontos
 
     // get unique arrays of streets
     const streets = pontos.map(local => local.rua).filter(street => street.trim())
@@ -213,15 +223,21 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
         // https://github.com/jfoclpf/geoapi.pt/issues/27#issuecomment-1222236088
         // https://stackoverflow.com/a/61162868/1243247
 
+        // converts to, f.ex: [[1,2],[3,4]]
+        pointsArr = pontos.map(local => [local.coordenadas[0], local.coordenadas[1]])
+
+        // strip outliers
+        pointsArr = outliers2d(pointsArr).filteredPoints
+
         // converts to geojson object
-        const points = turf.points(pontos.map(local => [local.coordenadas[0], local.coordenadas[1]]))
+        const geojsonPoints = turf.points(pointsArr)
 
         // computes center
-        const geojsonCenter = turf.center(points)
+        const geojsonCenter = turf.center(geojsonPoints)
         postalCodeObj.centro = geojsonCenter.geometry.coordinates
 
         // computes convex hull polygon, the minimum polygon than embraces all the points
-        const hullPolygon = turf.convex(points)
+        const hullPolygon = turf.concave(geojsonPoints)
         if (hullPolygon && hullPolygon.geometry.type === 'Polygon') {
           const geojsonSmoothPolygon = turf.polygonSmooth(hullPolygon, { iterations: 3 })
           try {
@@ -237,8 +253,17 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
       }
     }
 
+    // remove unecessary keys to compress json file
+    pontos.forEach(ponto => {
+      delete ponto.id // some INE id, not needed
+      if (!ponto.rua) delete ponto.rua
+      if (!ponto.casa) delete ponto.casa
+    })
+
+    postalCodeObj.pontos = pontos
+
     fs.rmSync(filename, { force: true })
-    fs.writeFile(filename, JSON.stringify(postalCodeObj, null, 2), function (err) {
+    fs.writeFile(filename, JSON.stringify(postalCodeObj), function (err) {
       if (err) {
         console.error('Error creating file ' + filename)
         throw err
@@ -248,7 +273,7 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
     })
   } catch (err) {
     console.error(`\nError on ${CP4postalCode}. ${err.message}.`, err)
-    console.error('\npontos (from OpenAddresses) for this postalCode: ', pontos)
+    console.error('\npointsArr: ', pointsArr)
     callback(Error(err))
   }
 }
