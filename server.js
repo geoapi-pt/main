@@ -1,29 +1,25 @@
-const fs = require('fs')
 const path = require('path')
 const express = require('express')
 const rateLimit = require('express-rate-limit')
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const PolygonLookup = require('polygon-lookup')
-const proj4 = require('proj4')
 const async = require('async')
 const nocache = require('nocache')
 const debug = require('debug')('server') // run: DEBUG=server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
-const sanitize = require('sanitize-filename')
 
 const mainPageUrl = 'https://www.geoapi.pt/'
 const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
+
+const serverDir = __dirname
 
 // import server project modules
 const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
 const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
 const prepareServerMod = require(path.join(serverModulesDir, 'prepareServer.js'))
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
-
-const normalizeName = prepareServerMod.normalizeName
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -158,332 +154,23 @@ function startServer (callback) {
     })
   })
 
-  app.get(['/gps', '/gps/:lat?,:lon?'], function (req, res) {
-    try {
-      debug('new query: ', req.query)
-      debug(req.headers, req.params)
+  // define Express app.get() routes, files are stored in server-modules/routes/key.js
+  const getRoutes = [
+    { key: 'gps', route: ['/gps', '/gps/:lat?,:lon?'] },
+    { key: 'municipiosMunicipalityFreguesias', route: '/munic(i|í)pios?/:municipality?/freguesias' },
+    { key: 'municipiosMunicipality', route: '/munic(i|í)pios?/:municipality?' },
+    { key: 'freguesiasParish', route: '/freguesias?/:parish?' },
+    { key: 'municipiosFreguesias', route: /^\/municipios?\/freguesias?$/ },
+    { key: 'distritosMunicipios', route: /^\/distritos?\/municipios?$/ },
+    { key: 'cp', route: '/cp/:cp' }
+  ]
 
-      // check that lat and lon are valid numbers
-      const isNumeric = function (str) {
-        if (typeof str !== 'string') return false
-        return !isNaN(str) && !isNaN(parseFloat(str))
-      }
-
-      // use url format /gps/lat,lon
-      if (isNumeric(req.params.lat) && isNumeric(req.params.lon)) {
-        req.query.lat = req.params.lat
-        req.query.lon = req.params.lon
-      }
-
-      // ### validate request query ###
-      // query parameters must be "lat and lon" or "lat, lon and detalhes"
-      const parameters = Object.keys(req.query)
-      const isQueryValid = parameters.includes('lat') && parameters.includes('lon')
-      if (!isQueryValid) {
-        res.status(404).sendData({ error: 'Bad request for /gps. Check instrucions on ' + mainPageUrl })
-        return
-      }
-
-      if (!isNumeric(req.query.lat) || !isNumeric(req.query.lon)) {
-        res.status(404).sendData({ error: `Parameters lat and lon must be a valid number on ${req.originalUrl}` })
-        return
-      }
-      // ### request is valid from here ###
-
-      const lat = parseFloat(req.query.lat) // ex: 40.153687
-      const lon = parseFloat(req.query.lon) // ex: -8.514602
-      const isDetails = Boolean(parseInt(req.query.detalhes))
-
-      const point = [lon, lat] // longitude, latitude
-
-      for (const key in regions) {
-        const transformedPoint = proj4(regions[key].projection, point)
-
-        const lookupFreguesias = new PolygonLookup(regions[key].geojson)
-        const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
-
-        if (freguesia) {
-          debug('Found freguesia: ', freguesia)
-          const local = {
-            freguesia: freguesia.properties.Freguesia,
-            concelho: freguesia.properties.Concelho,
-            distrito: freguesia.properties.Distrito,
-            ilha: freguesia.properties.Ilha
-          }
-
-          if (isDetails) {
-            // search for details for parishes by código INE
-            const numberOfParishes = administrations.parishesDetails.length
-            // regex to remove leading zeros
-            const codigoine = (freguesia.properties.Dicofre || freguesia.properties.DICOFRE).replace(/^0+/, '')
-            for (let i = 0; i < numberOfParishes; i++) {
-              if (codigoine === administrations.parishesDetails[i].codigoine.replace(/^0+/, '')) {
-                local.detalhesFreguesia = administrations.parishesDetails[i]
-                break // found it, break loop
-              }
-            }
-
-            // search for details for municipalities by name
-            const numberOfMunicipalities = administrations.municipalitiesDetails.length
-            const concelho = normalizeName(freguesia.properties.Concelho)
-            for (let i = 0; i < numberOfMunicipalities; i++) {
-              if (concelho === normalizeName(administrations.municipalitiesDetails[i].nome)) {
-                local.detalhesMunicipio = administrations.municipalitiesDetails[i]
-                break // found it, break loop
-              }
-            }
-          }
-
-          debug(local)
-
-          res.status(200).sendData(
-            local,
-            { latitude: lat, longitude: lon } // inform user of input in case of text/html
-          )
-          return
-        }
-      }
-
-      debug('Results not found')
-
-      res.status(404).sendData({ error: 'Results not found. Coordinates out of scope!' })
-    } catch (e) {
-      debug('Error on server', e)
-
-      res.status(400).sendData(
-        { error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' }
-      )
-    }
-  })
-
-  app.get('/munic(i|í)pios?/:municipality?/freguesias', function (req, res, next) {
-    debug(req.path, req.query, req.headers)
-
-    if (!req.params.municipality) {
-      next()
-      return
-    }
-
-    const municipality = req.params.municipality
-
-    const results = administrations.listOfMunicipalitiesWithParishes
-      .filter(el => normalizeName(el.nome) === normalizeName(municipality))
-
-    if (results.length > 1) {
-      res.status(200).sendData(results, 'Lista de freguesias para municípios escolhidos')
-    } else if (results.length === 1) {
-      res.status(200).sendData(results[0], { Município: results[0].nome })
-    } else {
-      res.status(404).sendData({ error: `Município ${municipality} não encontrado!` })
-    }
-  })
-
-  app.get('/munic(i|í)pios?/:municipality?', function (req, res, next) {
-    debug(req.path, req.query, req.headers)
-
-    if (req.params.municipality === 'freguesia' || req.params.municipality === 'freguesias') {
-      next()
-      return
-    }
-
-    // if name is not provided in query, consider parameter from url instead
-    // example /municipio/Évora
-    if (req.params.municipality && !req.query.nome) {
-      req.query.nome = req.params.municipality
-    }
-
-    const numberOfQueryVars = Object.keys(req.query).length
-    if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-      res.status(200).sendData(administrations.listOfMunicipalitiesNames, 'Lista de todos os municípios')
-      return
-    }
-
-    // ### validate request query ###
-    // check if all parameters of request exist in municipalitiesDetails
-    const allowableParams = administrations.keysOfMunicipalitiesDetails.concat('json')
-    const invalidParameters = []
-    for (const param in req.query) {
-      if (!req.query[param] || !allowableParams.includes(param)) {
-        invalidParameters.push(param)
-      }
-    }
-    if (invalidParameters.length) {
-      res.status(404).sendData({ error: `These parameters are invalid or don't exist for ${req.path}: ${invalidParameters}` })
-      return
-    }
-    // ### request query is valid from here ###
-
-    const { nome } = req.query
-    let results = [...administrations.municipalitiesDetails]
-
-    if (nome) {
-      const municipalityToFind = normalizeName(nome)
-      results = results.filter(
-        municipality => normalizeName(municipality.nome) === municipalityToFind
-      )
-    }
-
-    // remaining filters
-    const filters = ['codigo', 'nif', 'codigopostal',
-      'email', 'telefone', 'fax', 'sitio', 'codigoine']
-
-    for (const filter of filters) {
-      if (req.query[filter]) {
-        results = results.filter(p => p[filter] === req.query[filter])
-      }
-    }
-
-    if (results.length > 1) {
-      res.status(200).sendData(results, 'Lista de municípios')
-    } else if (results.length === 1) {
-      res.status(200).sendData(results[0], { Município: results[0].nome })
-    } else {
-      res.status(404).sendData({ error: 'Município não encontrado!' })
-    }
-  })
-
-  app.get('/freguesias?/:parish?', function (req, res) {
-    debug(req.path, req.query, req.headers)
-
-    // if name is not provided in query, consider parameter from url instead
-    // example /freguesia/serzedelo
-    if (req.params.parish && !req.query.nome) {
-      req.query.nome = req.params.parish
-    }
-
-    // no parameters, list of parishes
-    const numberOfQueryVars = Object.keys(req.query).length
-    if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-      res.status(200).sendData(administrations.listOfParishesNames)
-      return
-    }
-
-    // ### validate request query ###
-    // check if all parameters of request exist in parishesDetails
-    const allowableParams = administrations.keysOfParishesDetails.concat('json')
-    const invalidParameters = []
-    for (const param in req.query) {
-      if (!req.query[param] || !allowableParams.includes(param)) {
-        invalidParameters.push(param)
-      }
-    }
-    if (invalidParameters.length) {
-      res.status(404).sendData({ error: `These parameters are invalid or don't exist for for ${req.path}: ${invalidParameters}` })
-      return
-    }
-    // ### request query is valid from here ###
-
-    const { nome, municipio } = req.query
-    let results = [...administrations.parishesDetails]
-
-    if (nome) {
-      const parishToFind = normalizeName(nome)
-      results = results.filter(parish => {
-        const name0 = normalizeName(parish.nome)
-        const name1 = normalizeName(parish.nomecompleto)
-        const name2 = normalizeName(parish.nomecompleto2)
-        const name3 = normalizeName(parish.nomecompleto3)
-        return parishToFind === name0 || parishToFind === name1 || parishToFind === name2 || parishToFind === name3
-      })
-    }
-
-    if (municipio) {
-      const municipalityToFind = normalizeName(municipio)
-      results = results.filter(
-        parish => normalizeName(parish.municipio) === municipalityToFind
-      )
-    }
-
-    // remaining filters
-    const filters = ['codigo', 'nif', 'codigopostal',
-      'email', 'telefone', 'fax', 'sitio', 'codigoine']
-
-    for (const filter of filters) {
-      if (req.query[filter]) {
-        results = results.filter(p => p[filter] === req.query[filter])
-      }
-    }
-
-    if (results.length > 1) {
-      res.status(200).sendData(results, 'Lista de freguesias')
-    } else if (results.length === 1) {
-      res.status(200).sendData(results[0], { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` })
-    } else {
-      res.status(404).sendData({ error: 'Freguesia não encontrada!' })
-    }
-  })
-
-  // /municipio(s)/freguesia(s)
-  app.get(/^\/municipios?\/freguesias?$/, function (req, res) {
-    debug(req.path, req.query, req.headers)
-    res.status(200).sendData(administrations.listOfMunicipalitiesWithParishes, 'Lista de municípios com as respetivas freguesias')
-  })
-
-  // /distrito(s)
-  app.get(/^\/distritos?$/, function (req, res) {
-    debug(req.path, req.query, req.headers)
-    res.status(200).sendData(administrations.listOfDistricts, 'Lista de distritos')
-  })
-
-  // /distrito(s)/municipio(s)
-  app.get(/^\/distritos?\/municipios?$/, function (req, res) {
-    debug(req.path, req.query, req.headers)
-    res.status(200).sendData(
-      administrations.listOfDistrictsWithMunicipalities,
-      'Lista de distritos com os respetivos municípios'
-    )
-  })
-
-  // Path for Postal Codes
-  // /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
-  app.get('/cp/:cp', function (req, res) {
-    debug(req.path, req.query, req.headers)
-
-    const cp = req.params.cp
-    const cleanCp = cp.replace(/\p{Dash}/u, '')
-    const cp4 = cleanCp.slice(0, 4) // first 4 digits of CP
-    const cp3 = cleanCp.slice(4, 7) // last 3 digits of CP or '' when not available
-
-    // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
-    if (/^\d{4}(\p{Dash}?\d{3})?$/u.test(cp) && cp4) {
-      let filename
-      if (cp3) {
-        filename = path.join(__dirname, 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json'))
-      } else {
-        filename = path.join(__dirname, 'res', 'postal-codes', 'data', sanitize(cp4 + '.json'))
-      }
-
-      fs.readFile(filename, (err, fileContent) => {
-        if (err) {
-          debug(err)
-          res.status(404).sendData({ error: 'Postal Code not found!' })
-        } else {
-          // raw data
-          const data = JSON.parse(fileContent)
-
-          // filtered and processed data for presentation
-          const processedData = JSON.parse(fileContent)
-          processedData.partes = processedData.partes.map(obj => {
-            for (const key in obj) {
-              if (!obj[key]) delete obj[key]
-            }
-            return obj
-          })
-
-          const fieldsToDelette = ['CP', 'CP4', 'CP3', 'pontos', 'poligono', 'ruas', 'centro', 'centroide', 'centroDeMassa']
-          if (!cp3) fieldsToDelette.push('partes')
-          fieldsToDelette.forEach(el => {
-            if (el in processedData) delete processedData[el]
-          })
-
-          // present also the input in case of text/html rendering
-          const input = { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') }
-          res.status(200).sendData(data, input, processedData, 'postalCode')
-        }
-      })
-    } else {
-      res.status(404).sendData({ error: 'Postal Code format must be /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY' })
-    }
+  // load Express routes
+  getRoutes.forEach(el => {
+    const routeFn = require(path.join(serverModulesDir, 'routes', el.key + '.js'))
+    app.get(el.route, function (req, res, next) {
+      routeFn(req, res, next, { administrations, regions, serverDir, mainPageUrl })
+    })
   })
 
   app.use(function (req, res) {
