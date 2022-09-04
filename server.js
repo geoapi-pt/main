@@ -15,6 +15,7 @@ const colors = require('colors/safe')
 const sanitize = require('sanitize-filename')
 
 const mainPageUrl = 'https://www.geoapi.pt/'
+const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
 
 // import server project modules
 const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
@@ -125,6 +126,7 @@ function startServer (callback) {
 
         res.render(template || 'home', {
           layout: false,
+          siteDescription: siteDescription,
           input: input,
           data: data,
           processedData: processedData
