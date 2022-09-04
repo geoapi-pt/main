@@ -1,7 +1,7 @@
 {
   "name": "geoapi.pt",
   "version": "1.0.3",
-  "description": "Detect official divisional administrative regions of Portugal, providing coordinates",
+  "description": "Open geographical data for Portugal",
   "scripts": {
     "test": "standard && depcheck --ignores=\"depcheck,leaflet\" --ignore-patterns=\"res/*\" && node server.js --testStartup && node test/mainTest.js",
     "start": "node server.js --rateLimit",
