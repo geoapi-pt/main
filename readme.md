@@ -38,7 +38,8 @@ By default the server replies with `text/html` format. To receive JSON format, e
 
 ## Paths and parameters
 
-### /gps
+### Georeferencing
+#### /gps
 
 The `/gps` path has three parameters: `lat`, `lon` and `detalhes` (optional).
 
@@ -97,8 +98,8 @@ You may also request details for the returned municipality and parish with<br>`/
    }
 }
 ```
-
-### /municipio or /municipios
+### Administrative regions
+#### /municipio or /municipios
 
 With no parameters, returns an array with municipalities names, alphabetically sorted.
 
@@ -126,7 +127,7 @@ The requests `/municipio/Évora` and `/municipio?nome=Évora` are equivalent and
 }
 ```
 
-### /freguesia or /freguesias
+#### /freguesia or /freguesias
 
 With no parameters, returns a JSON array with parishes (freguesias) names, alphabetically sorted.
 
@@ -204,7 +205,7 @@ And the request `/freguesia?nome=serzedelo&municipio=guimarães` will return
 }
 ```
 
-### /municipios/{nome}/freguesias
+#### /municipios/{nome}/freguesias
 
 Returns the parishes for the respective municipality, for example `/municipios/porto/freguesias` returns
 
@@ -223,7 +224,7 @@ Returns the parishes for the respective municipality, for example `/municipios/p
 }
 ```
 
-### /municipios/freguesias
+#### /municipios/freguesias
 
 Returns an array of objects, each object corresponding to a municipality and an array of its parishes
 
@@ -266,71 +267,20 @@ Returns an array of objects, each object corresponding to a municipality and an 
  ]
 ```
 
-### /distritos
+#### /distritos
 
 Returns an array of objects with the list of districts (distritos)
 
-### /distritos/municipios
+#### /distritos/municipios
 
 Returns an array of objects with the list of districts (distritos), each district with the corresponding list of municipalities
 
-### /cp
+### Postal Codes
+#### /cp
 
 The path `/cp` makes reference to Postal Codes (Código Postal in Portuguese). You may search with only the first 4 digits, i.e. `/cp/XXXX`; or with the complete 7 digits, i.e. `/cp/XXXXYYY` or `/cp/XXXX-YYY` (normal hyphen `-`).
 
-For example the request `/cp/1950-449` or `/cp/1950449` returns:
-
-```json
-{
-   "CP4":"1950",
-   "CP3":"449",
-   "Distrito":"Lisboa",
-   "Concelho":"Lisboa",
-   "CP":"1950-449",
-   "Artéria":"Rua Fernando Maurício",
-   "Localidade":"Lisboa",
-   "Troço":"Pares de 30 a 36C",
-   "Designação Postal":"LISBOA"
-}
-```
-
-And the request `/cp/2495-300` or `/cp/2495300` returns:
-
-```json
-[
-   {
-      "CP4":"2495",
-      "CP3":"300",
-      "Distrito":"Santarém",
-      "Concelho":"Ourém",
-      "CP":"2495-300",
-      "Artéria":"Estrada do Casal Selão",
-      "Localidade":"Boleiros",
-      "Designação Postal":"FÁTIMA"
-   },
-   {
-      "CP4":"2495",
-      "CP3":"300",
-      "Distrito":"Santarém",
-      "Concelho":"Ourém",
-      "CP":"2495-300",
-      "Artéria":"Estrada de Minde",
-      "Localidade":"Boleiros",
-      "Designação Postal":"FÁTIMA"
-   },
-   {
-      "CP4":"2495",
-      "CP3":"300",
-      "Distrito":"Santarém",
-      "Concelho":"Ourém",
-      "CP":"2495-300",
-      "Artéria":"Rua da Serrada Machada",
-      "Localidade":"Boleiros",
-      "Designação Postal":"FÁTIMA"
-   }
-]
-```
-
+For example you may request `/cp/1950-449`, `/cp/1950449` or `/cp/1950-449?json=1`
 ## How to install this API on your machine
 
  1. Install NodeJS and git
@@ -343,9 +293,7 @@ And the request `/cp/2495-300` or `/cp/2495300` returns:
 
 ## Continuous operation
 
-For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever), using directly the node script located at the root directory
-
-`node server.js --port=8080`.
+For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever).
 
 ### With pm2
 
