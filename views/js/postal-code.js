@@ -6,12 +6,21 @@ window.postcodeData = postcodeData
 
 const map = L.map('map').setView(postcodeData.centro, 11)
 
-const lats = postcodeData.poligono.map(el => el[0])
-const lons = postcodeData.poligono.map(el => el[1])
-map.fitBounds([
-  [Math.min(...lats), Math.min(...lons)],
-  [Math.max(...lats), Math.max(...lons)]
-], { padding: [30, 30] })
+if (postcodeData.poligono) {
+  const lats = postcodeData.poligono.map(el => el[0])
+  const lons = postcodeData.poligono.map(el => el[1])
+  map.fitBounds([
+    [Math.min(...lats), Math.min(...lons)],
+    [Math.max(...lats), Math.max(...lons)]
+  ], { padding: [30, 30] })
+} else if (postcodeData.pontos && postcodeData.pontos.length > 1) {
+  const lats = postcodeData.pontos.map(el => el.coordenadas[0])
+  const lons = postcodeData.pontos.map(el => el.coordenadas[1])
+  map.fitBounds([
+    [Math.min(...lats), Math.min(...lons)],
+    [Math.max(...lats), Math.max(...lons)]
+  ], { padding: [30, 30] })
+}
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
