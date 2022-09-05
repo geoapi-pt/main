@@ -1,3 +1,4 @@
+const fs = require('fs')
 const path = require('path')
 const express = require('express')
 const rateLimit = require('express-rate-limit')
@@ -13,10 +14,10 @@ const colors = require('colors/safe')
 const mainPageUrl = 'https://www.geoapi.pt/'
 const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
 
-const serverDir = __dirname
-
-// import server project modules
+// define directories
 const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
+const expressRoutesDir = path.join(serverModulesDir, 'routes')
+// import server project modules
 const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
 const prepareServerMod = require(path.join(serverModulesDir, 'prepareServer.js'))
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
@@ -154,24 +155,19 @@ function startServer (callback) {
     })
   })
 
-  // define Express app.get() routes, files are stored in server-modules/routes/key.js
-  const getRoutes = [
-    { key: 'gps', route: ['/gps', '/gps/:lat?,:lon?'] },
-    { key: 'municipiosMunicipalityFreguesias', route: '/munic(i|í)pios?/:municipality?/freguesias' },
-    { key: 'municipiosMunicipality', route: '/munic(i|í)pios?/:municipality?' },
-    { key: 'freguesiasParish', route: '/freguesias?/:parish?' },
-    { key: 'municipiosFreguesias', route: /^\/municipios?\/freguesias?$/ },
-    { key: 'distritosMunicipios', route: /^\/distritos?\/municipios?$/ },
-    { key: 'cp', route: '/cp/:cp' }
-  ]
-
-  // load Express routes
-  getRoutes.forEach(el => {
-    const routeFn = require(path.join(serverModulesDir, 'routes', el.key + '.js'))
-    app.get(el.route, function (req, res, next) {
-      routeFn(req, res, next, { administrations, regions, serverDir, mainPageUrl })
+  // Load Express app.get() routers, respective files are stored in js/server-modules/routes/
+  try {
+    fs.readdirSync(expressRoutesDir).forEach(filename => {
+      const router = require(path.join(expressRoutesDir, filename))
+      app.get(router.route, function (req, res, next) {
+        router.fn(req, res, next, { administrations, regions, serverDir: __dirname, mainPageUrl })
+        debug(`Loaded express get from ${filename} with route ${router.route}`)
+      })
     })
-  })
+  } catch (err) {
+    console.error(err)
+    callback(Error(err))
+  }
 
   app.use(function (req, res) {
     if (req.url.includes('favicon.ico')) {

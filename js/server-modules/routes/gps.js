@@ -6,9 +6,12 @@ const prepareServerMod = require(path.join(__dirname, '..', 'prepareServer.js'))
 
 const normalizeName = prepareServerMod.normalizeName
 
-module.exports = route // ['/gps', '/gps/:lat?,:lon?']
+module.exports = {
+  fn: routeFn,
+  route: ['/gps', '/gps/:lat?,:lon?']
+}
 
-function route (req, res, next, { administrations, regions, mainPageUrl }) {
+function routeFn (req, res, next, { administrations, regions, mainPageUrl }) {
   try {
     debug('new query: ', req.query)
     debug(req.headers, req.params)

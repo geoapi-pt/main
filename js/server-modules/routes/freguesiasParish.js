@@ -4,9 +4,12 @@ const prepareServerMod = require(path.join(__dirname, '..', 'prepareServer.js'))
 
 const normalizeName = prepareServerMod.normalizeName
 
-module.exports = route // '/freguesias?/:parish?'
+module.exports = {
+  fn: routeFn,
+  route: '/freguesias?/:parish?'
+}
 
-function route (req, res, next, { administrations }) {
+function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
   // if name is not provided in query, consider parameter from url instead
