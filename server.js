@@ -21,6 +21,7 @@ const expressRoutesDir = path.join(serverModulesDir, 'routes')
 const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
 const prepareServerMod = require(path.join(serverModulesDir, 'prepareServer.js'))
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
+const shieldsioCounters = require(path.join(serverModulesDir, 'shieldsioCounters.js'))
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -93,28 +94,13 @@ function startServer (callback) {
     app.use(limiter)
   }
 
-  // counter of requests per hour
-  let requestsCounterPerHour = 0
-  let requestsLastHour = 0
-  setInterval(() => {
-    requestsLastHour = requestsCounterPerHour
-    requestsCounterPerHour = 0
-  }, 1000 * 60 * 60)
-
-  // counter of requests per day
-  let requestsCounterPerDay = 0
-  let requestsLastDay = 0
-  setInterval(() => {
-    requestsLastDay = requestsCounterPerDay
-    requestsCounterPerDay = 0
-  }, 1000 * 60 * 60 * 24)
+  shieldsioCounters.setTimers()
 
   app.use(function (req, res, next) {
     res.sendData = function (data, input, processedData, template) {
-      requestsCounterPerHour++
-      requestsCounterPerDay++
-
       debug(req.accepts(['html', 'json']))
+
+      shieldsioCounters.incrementCounters()
 
       res.set('Connection', 'close')
       if (req.accepts(['html', 'json']) === 'json' || parseInt(req.query.json)) {
@@ -138,25 +124,9 @@ function startServer (callback) {
     res.redirect(mainPageUrl)
   })
 
-  app.get('/shieldsio/requestsLastHour', function (req, res) {
-    res.json({
-      schemaVersion: 1,
-      label: 'Requests on last hour',
-      message: requestsLastHour.toString(),
-      color: 'orange'
-    })
-  })
+  shieldsioCounters.loadExpressRoutes(app)
 
-  app.get('/shieldsio/requestsLastDay', function (req, res) {
-    res.json({
-      schemaVersion: 1,
-      label: 'Requests on last day',
-      message: requestsLastDay.toString(),
-      color: 'orange'
-    })
-  })
-
-  // Load Express app.get() routers, respective files are stored in js/server-modules/routes/
+  // Load Express app.get() routers paths, respective files are stored in js/server-modules/routes/
   try {
     fs.readdirSync(expressRoutesDir).forEach(filename => {
       const router = require(path.join(expressRoutesDir, filename))
