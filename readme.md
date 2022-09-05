@@ -291,18 +291,18 @@ For example you may request `/cp/1950-449`, `/cp/1950449` or `/cp/1950-449?json=
  4. Start the server<br>
     `npm start --port=8080`
 
-## Continuous operation
+### Continuous operation
 
 For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever).
 
-### With pm2
+#### With pm2
 
 ```
 npm install pm2@latest -g
 pm2 start server.js -- --port 8080
 ```
 
-## Debug
+### Debug
 
 ```
 DEBUG=server npm start --port=8080
