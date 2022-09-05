@@ -10,7 +10,7 @@ const extract = require('extract-zip')
 const async = require('async')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
-const debug = require('debug')('prepareServer') // run: DEBUG=server npm start
+const debug = require('debug')('geoptapi:prepareServer') // run: DEBUG=geoptapi:prepareServer npm start
 
 const resDir = path.join(__dirname, '..', '..', 'res')
 
@@ -26,17 +26,12 @@ module.exports = {
         buildsAdministrationsDistrictsArrays
       ],
       function (err) {
-        debug(administrations.municipalitiesDetails)
-        debug(administrations.parishesDetails)
-
         if (err) {
           console.error(err)
           callback(Error(err))
           process.exitCode = 1
         } else {
-          console.log('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
-          debug(regions)
-          debug(administrations)
+          debug('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
           callback(null, { regions, administrations })
         }
       })
@@ -113,7 +108,7 @@ function extractZip (mainCallback) {
     const zipFile = path.join(resDir, 'portuguese-administrative-chart', region.zipFileName)
     extract(zipFile, { dir: path.join(resDir, 'portuguese-administrative-chart') })
       .then(() => {
-        console.log(`zip file extraction for ${region.name} complete`)
+        debug(`zip file extraction for ${region.name} complete`)
         callback()
       })
       .catch((errOnUnzip) => {
@@ -139,7 +134,7 @@ function readShapefile (mainCallback) {
         path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.dbf'),
         { encoding: 'utf-8' }
       ).then(geojson => {
-        console.log(
+        debug(
           `Shapefiles read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.shp')} ` +
           `and from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`
         )
@@ -177,7 +172,7 @@ function readProjectionFile (mainCallback) {
           callback(Error(err))
         } else {
           regions[key].projection = data
-          console.log(`Projection info read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`)
+          debug(`Projection info read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`)
           callback()
         }
       })
@@ -211,7 +206,7 @@ function readJsonFiles (mainCallback) {
       municipality.nome = municipality.entidade
       delete municipality.entidade
     }
-    console.log(colors.cyan(jsonResFiles.municipalitiesA) + ' read with success')
+    debug(colors.cyan(jsonResFiles.municipalitiesA) + ' read with success')
 
     // still fetches information from municipalities file from DGAL and merges into municipalitiesDetails
     const muncicipalitiesDetailsB = JSON.parse(fs.readFileSync(
@@ -246,8 +241,8 @@ function readJsonFiles (mainCallback) {
       }
     }
 
-    console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.municipalitiesB))
-    console.log(`Array of Objects ${colors.cyan('municipalitiesDetails')} created`)
+    debug('Fetched and processed info from ' + colors.cyan(jsonResFiles.municipalitiesB))
+    debug(`Array of Objects ${colors.cyan('municipalitiesDetails')} created`)
   } catch (e) {
     mainCallback(Error(`Error processing municipalities json files: ${e}`))
     return
@@ -275,17 +270,24 @@ function readJsonFiles (mainCallback) {
 
       delete parish.entidade
     }
-    console.log(colors.cyan(jsonResFiles.parishesA) + ' read with success')
+    debug(colors.cyan(jsonResFiles.parishesA) + ' read with success')
 
     // still fetches information (email and telephone) from parishes file from DGAL and merges into parishesDetails
     const parishesDetailsB = JSON.parse(fs.readFileSync(
       path.join(resDir, 'details-parishes-municipalities', jsonResFiles.parishesB), 'utf8')
     ).Contatos_freguesias
 
-    const bar = new ProgressBar(
-      `Merging from ${colors.cyan(jsonResFiles.parishesB)} into ${colors.cyan(jsonResFiles.parishesA)} to create a ${colors.cyan('parishesDetails')} Array of Objects :percent`,
-      { total: parishesDetailsB.length }
-    )
+    let bar
+    if (debug.enabled) {
+      bar = new ProgressBar(
+        `Merging from ${colors.cyan(jsonResFiles.parishesB)} into ${colors.cyan(jsonResFiles.parishesA)} to create a ${colors.cyan('parishesDetails')} Array of Objects :percent`,
+        { total: parishesDetailsB.length }
+      )
+    } else {
+      bar = new ProgressBar(
+        'Preparing server :percent', { total: parishesDetailsB.length }
+      )
+    }
 
     for (const parishB of parishesDetailsB) {
       bar.tick()
@@ -318,8 +320,8 @@ function readJsonFiles (mainCallback) {
       }
     }
 
-    console.log('Fetched and processed info from ' + colors.cyan(jsonResFiles.parishesB))
-    console.log(`Array of Objects ${colors.cyan('parishesDetails')} created`)
+    debug('Fetched and processed info from ' + colors.cyan(jsonResFiles.parishesB))
+    debug(`Array of Objects ${colors.cyan('parishesDetails')} created`)
   } catch (e) {
     console.error(e)
     mainCallback(Error(`Error processing parishes json files: ${e}`))

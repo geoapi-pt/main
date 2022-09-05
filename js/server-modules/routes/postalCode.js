@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const sanitize = require('sanitize-filename')
-const debug = require('debug')('server') // run: DEBUG=server npm start
+const debug = require('debug')('geoptapi:server')
 
 module.exports = {
   fn: routeFn,

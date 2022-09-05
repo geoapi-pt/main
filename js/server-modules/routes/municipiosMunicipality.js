@@ -1,5 +1,5 @@
 const path = require('path')
-const debug = require('debug')('server') // run: DEBUG=server npm start
+const debug = require('debug')('geoptapi:server')
 const prepareServerMod = require(path.join(__dirname, '..', 'prepareServer.js'))
 
 const normalizeName = prepareServerMod.normalizeName

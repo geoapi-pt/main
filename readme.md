@@ -305,5 +305,5 @@ pm2 start server.js -- --port 8080
 ### Debug
 
 ```
-DEBUG=server npm start --port=8080
+DEBUG=geoptapi:* npm start --port=8080
 ```
