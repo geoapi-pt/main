@@ -4,9 +4,12 @@ const prepareServerMod = require(path.join(__dirname, '..', 'prepareServer.js'))
 
 const normalizeName = prepareServerMod.normalizeName
 
-module.exports = route // '/munic(i|í)pios?/:municipality?'
+module.exports = {
+  fn: routeFn,
+  route: '/munic(i|í)pios?/:municipality?'
+}
 
-function route (req, res, next, { administrations }) {
+function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
   if (req.params.municipality === 'freguesia' || req.params.municipality === 'freguesias') {

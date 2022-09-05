@@ -1,8 +1,11 @@
 const debug = require('debug')('server') // run: DEBUG=server npm start
 
-module.exports = route // /^\/distritos?$/
+module.exports = {
+  fn: routeFn,
+  route: /^\/distritos?$/
+}
 
-function route (req, res, next, { administrations }) {
+function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
   res.status(200).sendData(
     administrations.listOfDistricts,
