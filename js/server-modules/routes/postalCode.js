@@ -3,10 +3,13 @@ const path = require('path')
 const sanitize = require('sanitize-filename')
 const debug = require('debug')('server') // run: DEBUG=server npm start
 
-module.exports = route // '/cp/:cp'
+module.exports = {
+  fn: routeFn,
+  route: '/cp/:cp'
+}
 
 // route for Postal Codes: /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
-function route (req, res, next, { serverDir }) {
+function routeFn (req, res, next, { serverDir }) {
   debug(req.path, req.query, req.headers)
 
   const cp = req.params.cp
