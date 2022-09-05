@@ -17,8 +17,10 @@ const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões 
 // define directories
 const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
 const expressRoutesDir = path.join(serverModulesDir, 'routes')
+
 // import server project modules
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
+const shutdownServer = require(path.join(serverModulesDir, 'shutdownServer.js'))
 const prepareServer = require(path.join(serverModulesDir, 'prepareServer.js'))
 const shieldsioCounters = require(path.join(serverModulesDir, 'shieldsioCounters.js'))
 const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
@@ -152,7 +154,7 @@ function startServer (callback) {
     // if this is a test to merely test the start up of the server
     if (argvOptions.testStartup) {
       console.log('This was just to test the startup of the server, exiting now...')
-      gracefulShutdown()
+      shutdownServer(null, server)
       return
     }
 
@@ -181,24 +183,6 @@ function startServer (callback) {
   })
 
   // gracefully exiting upon CTRL-C or when PM2 stops the process
-  process.on('SIGINT', gracefulShutdown)
-  process.on('SIGTERM', gracefulShutdown)
-  function gracefulShutdown (signal) {
-    if (signal) {
-      console.log(`Received signal ${signal}`)
-    }
-    console.log('Gracefully closing http server')
-
-    try {
-      server.close(function (err) {
-        if (!err) {
-          console.log('http server closed successfully. Exiting!')
-        }
-        process.exit(err ? 1 : 0)
-      })
-    } catch (err) {
-      console.error('There was an error')
-      setTimeout(() => process.exit(1), 500)
-    }
-  }
+  process.on('SIGINT', (signal) => shutdownServer(signal, server))
+  process.on('SIGTERM', (signal) => shutdownServer(signal, server))
 }
