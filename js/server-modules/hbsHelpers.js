@@ -1,6 +1,6 @@
 /* handlebars helper functions */
 
-const debug = require('debug')('helpers')
+const debug = require('debug')('geoptapi:helpers')
 
 module.exports = {
   obj2html: obj2html,

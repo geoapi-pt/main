@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const async = require('async')
 const nocache = require('nocache')
-const debug = require('debug')('server') // run: DEBUG=server npm start
+const debug = require('debug')('geoptapi:server') // run: DEBUG=geoptapi:server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
@@ -38,6 +38,7 @@ console.time('serverTimeToStart')
 // see global objects "regions" and "administrations" on prepareServer.js
 let regions, administrations
 
+console.log('Starting. Please wait...')
 async.series([copyFrontEndNpmModules, prepareServer, startServer],
   function (err) {
     if (err) {
