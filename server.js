@@ -18,10 +18,10 @@ const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões 
 const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
 const expressRoutesDir = path.join(serverModulesDir, 'routes')
 // import server project modules
-const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
-const prepareServerMod = require(path.join(serverModulesDir, 'prepareServer.js'))
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
+const prepareServer = require(path.join(serverModulesDir, 'prepareServer.js'))
 const shieldsioCounters = require(path.join(serverModulesDir, 'shieldsioCounters.js'))
+const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -35,12 +35,12 @@ const serverPort = process.env.npm_config_port ||
 
 console.time('serverTimeToStart')
 
-// fetched from prepareServerMod
+// fetched from prepareServer module
 // see global objects "regions" and "administrations" on prepareServer.js
 let regions, administrations
 
 console.log('Starting. Please wait...')
-async.series([copyFrontEndNpmModules, prepareServer, startServer],
+async.series([copyFrontEndNpmModules, prepare, startServer],
   function (err) {
     if (err) {
       console.error(err)
@@ -50,8 +50,8 @@ async.series([copyFrontEndNpmModules, prepareServer, startServer],
     }
   })
 
-function prepareServer (callback) {
-  prepareServerMod.prepare((err, data) => {
+function prepare (callback) {
+  prepareServer((err, data) => {
     if (err) {
       callback(Error(err))
     } else {

@@ -12,31 +12,30 @@ const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const debug = require('debug')('geoptapi:prepareServer') // run: DEBUG=geoptapi:prepareServer npm start
 
+const { normalizeName } = require(path.join(__dirname, '..', 'commonFunctions.js'))
+
 const resDir = path.join(__dirname, '..', '..', 'res')
 
-module.exports = {
-  prepare: function (callback) {
-    async.series(
-      [
-        extractZip, // extracts zip file with shapefile and projection files
-        readShapefile, // fill in the geoson fields in the regions Object
-        readProjectionFile, // fill in the projection fields in the regions Object
-        readJsonFiles, // read JSON files with information (email, phone, etc.) of municipalities and parishes
-        buildAdministrationsObject,
-        buildsAdministrationsDistrictsArrays
-      ],
-      function (err) {
-        if (err) {
-          console.error(err)
-          callback(Error(err))
-          process.exitCode = 1
-        } else {
-          debug('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
-          callback(null, { regions, administrations })
-        }
-      })
-  },
-  normalizeName: normalizeName
+module.exports = function (callback) {
+  async.series(
+    [
+      extractZip, // extracts zip file with shapefile and projection files
+      readShapefile, // fill in the geoson fields in the regions Object
+      readProjectionFile, // fill in the projection fields in the regions Object
+      readJsonFiles, // read JSON files with information (email, phone, etc.) of municipalities and parishes
+      buildAdministrationsObject,
+      buildsAdministrationsDistrictsArrays
+    ],
+    function (err) {
+      if (err) {
+        console.error(err)
+        callback(Error(err))
+        process.exitCode = 1
+      } else {
+        debug('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
+        callback(null, { regions, administrations })
+      }
+    })
 }
 
 const regions = {
@@ -469,21 +468,6 @@ function extractParishInfoFromStr (str) {
     return { parish: parish, municipality: municipality, region: region }
   } catch (err) {
     throw Error(`Extracting parish name and municipality from string '${str}' threw an error: ${err}`)
-  }
-}
-
-// normalize name of parish or name of municipality such that it can be compared
-function normalizeName (name) {
-  if (typeof name === 'string') {
-    return name
-      .trim() // removes leading and trailing spaces
-      .toLowerCase()
-      .replace(/\.(\w)/g, '. $1') // add space after a dot followed by letter: 'N.AB' -> 'N. AB'
-      .replace(/\s(dos|das|de|da)\s/g, ' ') // remove words 'dos', 'das', 'de' e 'da'
-      .replace(/\s+/g, ' ') // removes excess of whitespaces
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // removes diacritics 'á'->'a', 'ç'->'c'
-  } else {
-    return null
   }
 }
 
