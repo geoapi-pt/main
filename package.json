@@ -4,7 +4,7 @@
   "description": "Open geographical data for Portugal",
   "scripts": {
     "test": "standard && depcheck --ignores=\"depcheck,leaflet\" --ignore-patterns=\"res/*\" && node server.js --testStartup && node test/mainTest.js",
-    "start": "node server.js --rateLimit",
+    "start": "node server.js",
     "generate-postalcodes": "node --max-old-space-size=16384 js/routines/generatePostalCodes.js",
     "validate-emails": "node js/routines/validateEmails.js"
   },
