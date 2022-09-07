@@ -44,7 +44,7 @@ postcodeData.pontos
       color: 'red',
       fillColor: '#f03',
       fillOpacity: 0.5,
-      radius: 10
+      radius: 2
     }).addTo(map)
     ponto.bindPopup(`${el.rua}${el.casa ? ', ' + el.casa : ''}`)
   })
