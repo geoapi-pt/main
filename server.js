@@ -31,9 +31,7 @@ const argvOptions = commandLineArgs([
   { name: 'rateLimit', type: Boolean }
 ])
 
-const serverPort = process.env.npm_config_port ||
-                   argvOptions.port ||
-                   '8080'
+const serverPort = process.env.npm_config_port || argvOptions.port || '8080'
 
 console.time('serverTimeToStart')
 

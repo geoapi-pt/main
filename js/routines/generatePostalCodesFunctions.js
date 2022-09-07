@@ -2,8 +2,13 @@
 
 const fs = require('fs')
 const path = require('path')
-const outliers2d = require('outliers2d')
+const Piscina = require('piscina')
 const turf = require('@turf/turf')
+const debug = require('debug')('geoptapi:generate-postal-codes')
+
+const piscina = new Piscina({
+  filename: path.resolve(__dirname, 'outliersWorker.js')
+})
 
 module.exports = { createCP4CP3jsonFile, createCP4jsonFile }
 
@@ -134,7 +139,7 @@ function createCP4CP3jsonFile (resDirectory, postalCode, cttData, openAddressesD
 }
 
 // creates one CP4 json file: XXXX.json
-function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesData, callback) {
+async function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesData, callback) {
   const postalCodeObj = {}
   postalCodeObj.CP4 = CP4postalCode
 
@@ -227,8 +232,14 @@ function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddressesD
         pointsArr = pontos.map(local => [local.coordenadas[0], local.coordenadas[1]])
 
         // strip outliers
-        const filteredPoints = outliers2d(pointsArr).filteredPoints
-        if (filteredPoints.length > 10) pointsArr = filteredPoints
+        // const filteredPoints = outliers2d(pointsArr).filteredPoints
+        debug(`running DBSCAN on CP4 ${CP4postalCode}. ${pointsArr.length} points`)
+        const filteredPoints = await piscina.run({ pointsArr, CP4postalCode })
+        debug(`filteredPoints array has ${filteredPoints.length} points`)
+        debug(`runned DBSCAN for CP4 ${CP4postalCode}`)
+        if (Array.isArray(filteredPoints) && filteredPoints.length > 10) {
+          pointsArr = filteredPoints
+        }
 
         // converts to geojson object
         const geojsonPoints = turf.points(pointsArr)
