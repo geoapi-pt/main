@@ -162,6 +162,7 @@ function readShapefile (mainCallback) {
 
 function postProcessRegions (callback) {
   try {
+    // see https://github.com/jfoclpf/geoapi.pt/issues/31
     ['ArqAcores_GOcidental', 'ArqAcores_GCentral', 'ArqAcores_GOriental']
       .forEach(region => {
         regions[region].geojson.features.forEach(parish => {
