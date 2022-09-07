@@ -16,7 +16,7 @@ module.exports = ({ pointsArr, CP4postalCode }) => {
   clusters.sort((a, b) => b.length - a.length) // sort clusters by size
   debug(`lengths of clusters for ${CP4postalCode}: `, clusters.map(el => el.length))
 
-  // if a cluster has more than half of the points of the main cluster, add it to the results
+  // if a cluster has more than "alpha" points, add it to the results
   const filteredPoints = []
   clusters.forEach((cluster, i, arr) => {
     if (cluster.length >= alpha) {
