@@ -21,6 +21,7 @@ module.exports = function (callback) {
     [
       extractZip, // extracts zip file with shapefile and projection files
       readShapefile, // fill in the geoson fields in the regions Object
+      postProcessRegions, // post process data in the geoson fields in the regions Object
       readProjectionFile, // fill in the projection fields in the regions Object
       readJsonFiles, // read JSON files with information (email, phone, etc.) of municipalities and parishes
       buildAdministrationsObject,
@@ -157,6 +158,23 @@ function readShapefile (mainCallback) {
       setTimeout(mainCallback, 3000) // this must be here because shapefile.read is buggy
     }
   })
+}
+
+function postProcessRegions (callback) {
+  try {
+    ['ArqAcores_GOcidental', 'ArqAcores_GCentral', 'ArqAcores_GOriental']
+      .forEach(region => {
+        regions[region].geojson.features.forEach(parish => {
+          if (!/.+\(.+\).*/.test(parish.properties.Ilha)) {
+            parish.properties.Ilha += ' (Açores)'
+          }
+        })
+      })
+    callback()
+  } catch (err) {
+    console.error(err)
+    callback(Error(err.message))
+  }
 }
 
 // fill in the projection fields in the regions Object
