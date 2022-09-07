@@ -38,6 +38,7 @@ module.exports = function (callback) {
     })
 }
 
+// information from Direção Geral do Território
 const regions = {
   cont: {
     name: 'Continente',
