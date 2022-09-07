@@ -20,8 +20,8 @@ const expressRoutesDir = path.join(serverModulesDir, 'routes')
 
 // import server project modules
 const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
-const shutdownServer = require(path.join(serverModulesDir, 'shutdownServer.js'))
 const prepareServer = require(path.join(serverModulesDir, 'prepareServer.js'))
+const shutdownServer = require(path.join(serverModulesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(serverModulesDir, 'shieldsioCounters.js'))
 const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
 
