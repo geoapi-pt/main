@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const Piscina = require('piscina')
 const turf = require('@turf/turf')
-const debug = require('debug')('geoptapi:generate-postal-codes')
+const debug = require('debug')('geoapipt:generate-postal-codes')
 
 const piscina = new Piscina({
   filename: path.resolve(__dirname, 'outliersWorker.js')

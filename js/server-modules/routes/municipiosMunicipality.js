@@ -1,5 +1,5 @@
 const path = require('path')
-const debug = require('debug')('geoptapi:server')
+const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', '..', 'commonFunctions.js'))
 
 module.exports = {
