@@ -1,6 +1,6 @@
 /* worker for multi-thread CPU intensive processing */
 const clustering = require('density-clustering')
-const debug = require('debug')('geoptapi:outliers-worker')
+const debug = require('debug')('geoapipt:outliers-worker')
 
 const alpha = 10 // minimum number of points for cluster NOT to be considered as outlier
 const radius = 0.008 // distance between points to be considered in the same cluster

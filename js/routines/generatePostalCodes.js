@@ -16,7 +16,7 @@ const ProgressBar = require('progress')
 const colors = require('colors/safe')
 const csv = require('csvtojson')
 const commandLineArgs = require('command-line-args')
-const debug = require('debug')('geoptapi:generate-postal-codes')
+const debug = require('debug')('geoapipt:generate-postal-codes')
 
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'preparePostalCodesCTT.js'))
 const generatePostalCodesFunctions = require(path.join(__dirname, 'generatePostalCodesFunctions.js'))

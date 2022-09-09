@@ -1,4 +1,4 @@
-const debug = require('debug')('geoptapi:server')
+const debug = require('debug')('geoapipt:server')
 
 module.exports = {
   fn: routeFn,

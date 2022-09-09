@@ -10,7 +10,7 @@ const extract = require('extract-zip')
 const async = require('async')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
-const debug = require('debug')('geoptapi:prepareServer') // run: DEBUG=geoptapi:prepareServer npm start
+const debug = require('debug')('geoapipt:prepareServer') // run: DEBUG=geoapipt:prepareServer npm start
 
 const { normalizeName } = require(path.join(__dirname, '..', 'commonFunctions.js'))
 

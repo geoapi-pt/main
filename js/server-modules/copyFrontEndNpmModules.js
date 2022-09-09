@@ -1,6 +1,6 @@
 const path = require('path')
 const fse = require('fs-extra')
-const debug = require('debug')('geoptapi:copyFrontEndNpmModules') // run: DEBUG=geoptapi:copyFrontEndNpmModules npm start
+const debug = require('debug')('geoapipt:copyFrontEndNpmModules') // run: DEBUG=geoapipt:copyFrontEndNpmModules npm start
 
 const rootDir = path.join(__dirname, '..', '..')
 
