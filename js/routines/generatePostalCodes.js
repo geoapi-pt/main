@@ -51,7 +51,7 @@ const functionExecution =
 // downloads ZIP from OpenAddresses
 const argvOptions = commandLineArgs([
   { name: 'download-zip', type: Boolean },
-  { name: 'onlyCP4', type: Boolean },
+  { name: 'onlyCP4', type: String, multiple: true },
   { name: 'onlyCP3', type: Boolean }
 ])
 
@@ -286,7 +286,10 @@ function assembleCP4Data (callback) {
   }
 
   console.log('Process and assemble CP4 Postal Codes data from both databases (OpenAddresses and CTT)')
-  // CP4postalCodes = ['1000', '2000', '3000', '4000', '5000', '1900', '2495'] // just for tests
+  if (argvOptions.onlyCP4.length) {
+    CP4postalCodes = argvOptions.onlyCP4
+    console.log('only these CP4: ', CP4postalCodes)
+  }
 
   let bar
   if (!debug.enabled) {
