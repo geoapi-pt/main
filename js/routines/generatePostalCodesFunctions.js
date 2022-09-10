@@ -234,11 +234,12 @@ async function createCP4jsonFile (resDirectory, CP4postalCode, cttData, openAddr
         // strip outliers
         // const filteredPoints = outliers2d(pointsArr).filteredPoints
         debug(`running DBSCAN on CP4 ${CP4postalCode}. ${pointsArr.length} points`)
-        const filteredPoints = await piscina.run({ pointsArr, CP4postalCode })
-        debug(`filteredPoints array has ${filteredPoints.length} points`)
+        const { filteredPoints, outliers } = await piscina.run({ pointsArr })
+        debug(`filteredPoints for ${CP4postalCode} has ${filteredPoints.length} points and ${outliers.length}`)
         debug(`runned DBSCAN for CP4 ${CP4postalCode}`)
         if (Array.isArray(filteredPoints) && filteredPoints.length > 10) {
           pointsArr = filteredPoints
+          postalCodeObj.outliers = outliers
         }
 
         // converts to geojson object
