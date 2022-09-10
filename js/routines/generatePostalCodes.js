@@ -293,7 +293,7 @@ function assembleCP4Data (callback) {
 
   let bar
   if (!debug.enabled) {
-    bar = new ProgressBar('[:bar] :percent :info', { total: CP4postalCodes.length + 1, width: 80 })
+    bar = new ProgressBar('[:bar] :percent :info', { total: CP4postalCodes.length * 2 + 1, width: 80 })
   } else {
     bar = { tick: () => {}, terminate: () => {} }
   }
@@ -302,7 +302,12 @@ function assembleCP4Data (callback) {
 
   async.each(CP4postalCodes, function (CP4postalCode, callback) {
     bar.tick({ info: CP4postalCode })
-    generatePostalCodesFunctions.createCP4jsonFile(resDirectory, CP4postalCode, cttData, openAddressesData, callback)
+    generatePostalCodesFunctions.createCP4jsonFile(resDirectory, CP4postalCode, cttData, openAddressesData,
+      (err) => {
+        bar.tick({ info: CP4postalCode })
+        if (err) callback(Error(err))
+        else callback()
+      })
   },
   function (err) {
     bar.terminate()
