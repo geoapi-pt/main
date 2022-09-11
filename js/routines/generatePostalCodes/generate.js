@@ -18,10 +18,10 @@ const csv = require('csvtojson')
 const commandLineArgs = require('command-line-args')
 const debug = require('debug')('geoapipt:generate-postal-codes')
 
-const preparePostalCodesCTTMod = require(path.join(__dirname, 'preparePostalCodesCTT.js'))
-const generatePostalCodesFunctions = require(path.join(__dirname, 'generatePostalCodesFunctions.js'))
+const preparePostalCodesCTTMod = require(path.join(__dirname, 'prepareCTTfile.js'))
+const generatePostalCodesFunctions = require(path.join(__dirname, 'functions.js'))
 
-const resDirectory = path.join(__dirname, '..', '..', 'res', 'postal-codes')
+const resDirectory = path.join(__dirname, '..', '..', '..', 'res', 'postal-codes')
 
 let openAddressesDataUrl
 let openAddressesZipFilename
