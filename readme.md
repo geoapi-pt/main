@@ -12,12 +12,54 @@
 
 # Resumo
 
- - Obter Distrito, Município e Freguesia através de coordenadas GPS: [https://geoapi.pt/gps/40.153687,-8.514602](https://geoapi.pt/gps/40.153687,-8.514602)
- - Detalhes sobre Município: [https://geoapi.pt/municipio/Évora](https://geoapi.pt/municipio/Évora)
- - Lista de Freguesias no Município: [https://geoapi.pt/municipios/porto/freguesias](https://geoapi.pt/municipios/porto/freguesias)
- - Detalhes sobre Freguesia: [https://geoapi.pt/freguesia/serzedelo](https://geoapi.pt/freguesia/serzedelo)
- - Municípios por Distrito: [https://geoapi.pt/distritos/municipios](https://geoapi.pt/distritos/municipios)
- - Detalhes sobre Códigos Postais: [https://geoapi.pt/cp/2495-300](https://geoapi.pt/cp/2495-300) ou [https://geoapi.pt/cp/2495](https://geoapi.pt/cp/2495)
+<table>
+   <thead>
+      <tr>
+        <th scope="col">Caminho</th>
+        <th scope="col">Propósito</th>
+        <th scope="col">Exemplo</th>
+      </tr>
+    </thead>
+   <tbody>
+      <tr>
+         <td>/gps/{latitude},{longitude}</td>
+         <td>Distrito, Município e Freguesia através de coordenadas GPS</td>
+         <td><a href="https://geoapi.pt/gps/40.153687,-8.514602">https://geoapi.pt/gps/40.153687,-8.514602</a></td>
+      </tr>
+      <tr>
+         <td>/municipio/{município}</td>
+         <td>Detalhes sobre Município</td>
+         <td><a href="https://geoapi.pt/municipio/Évora">https://geoapi.pt/municipio/Évora</a></td>
+      </tr>
+      <tr>
+         <td>/municipios/{município}/freguesias</td>
+         <td>Lista de Freguesias no Município</td>
+         <td><a href="https://geoapi.pt/municipios/porto/freguesias">https://geoapi.pt/municipios/porto/freguesias</a></td>
+      </tr>
+      <tr>
+         <td>/freguesia/{freguesia}</td>
+         <td>Detalhes sobre Freguesia</td>
+         <td><a href="https://geoapi.pt/freguesia/serzedelo">https://geoapi.pt/freguesia/serzedelo</a></td>
+      </tr>
+      <tr>
+         <td>/distritos/municipios</td>
+         <td>Municípios por Distrito</td>
+         <td><a href="https://geoapi.pt/distritos/municipios">https://geoapi.pt/distritos/municipios</a></td>
+      </tr>
+      <tr>
+         <td>/cp/{CP4-CP3}</td>
+         <td>Detalhes sobre Código Postal CP4-CP3</td>
+         <td><a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a></a></td>
+      </tr>
+      <tr>
+      <td>/cp/{CP4}</td>
+         <td>Detalhes sobre Código Postal CP4</td>
+         <td><a href="https://geoapi.pt/cp/2495">https://geoapi.pt/cp/2495</a></td>
+      </tr>
+    </tbody>
+</table>
+
+<p>Para quaisquer resultados em JSON basta adicionar a variável <code>json=1</code> ao pedido GET (<a href="https://geoapi.pt/cp/2495-300?json=1">exemplo</a>).</p>
 
 # GEO API PT
 
