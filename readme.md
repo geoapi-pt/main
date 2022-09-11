@@ -27,17 +27,17 @@
          <td><a href="https://geoapi.pt/gps/40.153687,-8.514602">https://geoapi.pt/gps/40.153687,-8.514602</a></td>
       </tr>
       <tr>
-         <td>/municipio/{nome_do_município}</td>
+         <td>/municipio/{município}</td>
          <td>Detalhes sobre Município</td>
          <td><a href="https://geoapi.pt/municipio/Évora">https://geoapi.pt/municipio/Évora</a></td>
       </tr>
       <tr>
-         <td>/municipios/{nome_do_município}/freguesias</td>
+         <td>/municipios/{município}/freguesias</td>
          <td>Lista de Freguesias no Município</td>
          <td><a href="https://geoapi.pt/municipios/porto/freguesias">https://geoapi.pt/municipios/porto/freguesias</a></td>
       </tr>
       <tr>
-         <td>/freguesia/{nome_da_freguesia}</td>
+         <td>/freguesia/{freguesia}</td>
          <td>Detalhes sobre Freguesia</td>
          <td><a href="https://geoapi.pt/freguesia/serzedelo">https://geoapi.pt/freguesia/serzedelo</a></td>
       </tr>
