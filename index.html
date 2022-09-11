@@ -26,16 +26,55 @@
 </div>
 
 <div class="limiter" style="padding: 3% 10% 0 10%;">
-   <h2>Exemplos</h2>
-   <ul>
-      <li>Obter Distrito, Município e Freguesia através de coordenadas GPS: <a href="https://geoapi.pt/gps/40.153687,-8.514602">https://geoapi.pt/gps/40.153687,-8.514602</a></li>
-      <li>Detalhes sobre Município: <a href="https://geoapi.pt/municipio/Évora">https://geoapi.pt/municipio/Évora</a></li>
-      <li>Lista de Freguesias no Município: <a href="https://geoapi.pt/municipios/porto/freguesias">https://geoapi.pt/municipios/porto/freguesias</a></li>
-      <li>Detalhes sobre Freguesia: <a href="https://geoapi.pt/freguesia/serzedelo">https://geoapi.pt/freguesia/serzedelo</a></li>
-      <li>Municípios por Distrito: <a href="https://geoapi.pt/distritos/municipios">https://geoapi.pt/distritos/municipios</a></li>
-      <li>Detalhes sobre Códigos Postais: <a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a> ou <a href="https://geoapi.pt/cp/2495">https://geoapi.pt/cp/2495</a></li>
-   </ul>
-   <p>Para quaisquer resultados em JSON basta adicionar a variável <code>json=1</code>: <a href="https://geoapi.pt/cp/2495-300?json=1">https://geoapi.pt/cp/2495-300?json=1</a></p>
+   <div class="table-responsive">
+   <table class="table table-hover">
+      <thead>
+         <tr>
+           <th scope="col">Caminho</th>
+           <th scope="col">Propósito</th>
+           <th scope="col">Exemplo</th>
+         </tr>
+       </thead>
+      <tbody>
+         <tr>
+            <th scope="row">/gps/{latitude},{longitude}</th>
+            <td>Distrito, Município e Freguesia através de coordenadas GPS</td>
+            <td><a href="https://geoapi.pt/gps/40.153687,-8.514602">https://geoapi.pt/gps/40.153687,-8.514602</a></td>
+         </tr>
+         <tr>
+            <th scope="row">/municipio/{nome_do_município}</th>
+            <td>Detalhes sobre Município</td>
+            <td><a href="https://geoapi.pt/municipio/Évora">https://geoapi.pt/municipio/Évora</a></td>
+         </tr>
+         <tr>
+            <th scope="row">/municipios/{nome_do_município}/freguesias</th>
+            <td>Lista de Freguesias no Município</td>
+            <td><a href="https://geoapi.pt/municipios/porto/freguesias">https://geoapi.pt/municipios/porto/freguesias</a></td>
+         </tr>
+         <tr>
+            <th scope="row">/freguesia/{nome_da_freguesia}</th>
+            <td>Detalhes sobre Freguesia</td>
+            <td><a href="https://geoapi.pt/freguesia/serzedelo">https://geoapi.pt/freguesia/serzedelo</a></td>
+         </tr>
+         <tr>
+            <th scope="row">/distritos/municipios</th>
+            <td>Municípios por Distrito</td>
+            <td><a href="https://geoapi.pt/distritos/municipios">https://geoapi.pt/distritos/municipios</a></td>
+         </tr>
+         <tr>
+            <th scope="row">/cp/{CP4-CP3}</th>
+            <td>Detalhes sobre Código Postal CP4-CP3</td>
+            <td><a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a></a></td>
+         </tr>
+         <tr>
+         <th scope="row">/cp/{CP4}</th>
+            <td>Detalhes sobre Código Postal CP4</td>
+            <td><a href="https://geoapi.pt/cp/2495">https://geoapi.pt/cp/2495</a></td>
+         </tr>
+       </tbody>
+   </table>
+   </div>
+   <p>Para quaisquer resultados em JSON basta adicionar a variável <code>json=1</code> ao pedido GET (<a href="https://geoapi.pt/cp/2495-300?json=1">exemplo</a>).</p>
 </div>
 
 <div class="limiter" style="padding: 2% 10%;">
