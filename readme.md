@@ -326,8 +326,8 @@ For example you may request `/cp/1950-449`, `/cp/1950449` or `/cp/1950-449?json=
 ## How to install this API on your machine
 
  1. Install NodeJS and git
- 2. Clone the project:<br>
-    `git clone https://github.com/jfoclpf/geoapi.pt.git`
+ 2. Clone the project (just the latest version):<br>
+    `git clone --depth=1 https://github.com/jfoclpf/geoapi.pt.git`
  3. Enter the newly created directory and install dependencies<br>
     `cd geoapi.pt && npm ci`
  4. Start the server<br>
