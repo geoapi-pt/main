@@ -3,13 +3,8 @@
    File from OpenAddresses available on:
    https://github.com/openaddresses/openaddresses/blob/master/sources/pt/countrywide.json */
 
-// see https://github.com/openaddresses/openaddresses/tree/master/sources/pt
-const openAddressesPtInfo = 'https://raw.githubusercontent.com/openaddresses/openaddresses/master/sources/pt/countrywide.json'
-
 const fs = require('fs')
 const path = require('path')
-const download = require('download')
-const got = require('got')
 const extract = require('extract-zip')
 const async = require('async')
 const ProgressBar = require('progress')
@@ -18,15 +13,13 @@ const csv = require('csvtojson')
 const commandLineArgs = require('command-line-args')
 const debug = require('debug')('geoapipt:generate-postal-codes')
 
+const downloadZipMod = require(path.join(__dirname, 'downloadZip.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'prepareCTTfile.js'))
 const generatePostalCodesFunctions = require(path.join(__dirname, 'functions.js'))
 
 const resDirectory = path.join(__dirname, '..', '..', '..', 'res', 'postal-codes')
 
-let openAddressesDataUrl
-let openAddressesZipFilename
 let openAddressesZipFilePath
-const openAddressesDefaultZipFilePath = path.join(resDirectory, 'pt_addresses.csv.zip')
 const unzippedFilesEncoding = 'utf8' // see https://stackoverflow.com/a/14551669/1243247
 let unzippedFilePath
 
@@ -38,6 +31,7 @@ let numberOfEntriesOpenAddresses
 
 const functionExecution =
   [
+    downloadZip, // downloads zip file from OpenAddresses
     extractZip, // extracts zip file from OpenAddresses
     countFileLines, // number of lines of CSV file corresponds to the number of entries
     parseCsvFiles, // parse CSV file from OpenAddresses and store it in openAddressesData
@@ -55,16 +49,6 @@ const argvOptions = commandLineArgs([
   { name: 'onlyCP3', type: Boolean }
 ])
 
-if (argvOptions['download-zip']) {
-  // insert these functions at the beginning of function array
-  functionExecution.unshift(
-    fetchOpenAddressesPtDataUrl, // fetch url to get the PT addresses data
-    downloadOpenAddressesPtData // download Open Addresses raw data
-  )
-} else {
-  openAddressesZipFilePath = openAddressesDefaultZipFilePath
-}
-
 async.series(
   functionExecution,
   function (err) {
@@ -76,67 +60,14 @@ async.series(
     }
   })
 
-// fetch url to get the PT addresses data
-function fetchOpenAddressesPtDataUrl (callback) {
-  console.log(`Fetching info from OpenAddresses PT JSON file ${openAddressesPtInfo}`)
-
-  got(openAddressesPtInfo).json()
-    .then(body => {
-      if (body.error) {
-        callback(Error(`\nError ${body.error} fetching info from ${openAddressesPtInfo}`))
-      } else if (!body.layers || !body.layers.addresses || !body.layers.addresses[0].data) {
-        callback(Error('\nError: key layers.addresses[0].data does not exist in JSON'))
-      } else {
-        openAddressesDataUrl = body.layers.addresses[0].data
-        console.log(`URL with OpenAddresses PT raw data: ${openAddressesDataUrl}`)
-        openAddressesZipFilename = openAddressesDataUrl.split('/').pop()
-        openAddressesZipFilePath = path.join(resDirectory, openAddressesZipFilename)
-        if (openAddressesZipFilename) {
-          console.log('File shall be downloaded to ' + openAddressesZipFilePath)
-          callback()
-        } else {
-          callback(Error('Invalid openAddressesZipFilename: ' + openAddressesZipFilename))
-        }
-      }
-    })
-    .catch(err => {
-      console.error(err.message)
-      callback(Error(`\n${err.message} fetching ${openAddressesPtInfo}\n`))
-    })
-}
-
-// download Open Addresses raw data
-function downloadOpenAddressesPtData (callback) {
-  console.log(`Downloading OpenAddresses PT raw data from ${openAddressesDataUrl} to ${openAddressesZipFilePath}`)
-  console.log('This may take a while, please wait...')
-
-  const writeStream = fs.createWriteStream(openAddressesZipFilePath)
-  const readStream = download(openAddressesDataUrl)
-
-  readStream.on('response', function (res) {
-    const len = parseInt(res.headers['content-length'], 10)
-    const bar = new ProgressBar('  downloading [:bar] :rate/bps :percent :etas', {
-      complete: '=',
-      incomplete: ' ',
-      width: 20,
-      total: len
-    })
-
-    readStream.on('data', function (chunk) {
-      writeStream.write(chunk)
-      bar.tick(chunk.length)
-    })
-
-    readStream.on('end', function () {
-      console.log('Download done with success\n')
-      writeStream.end()
+function downloadZip (callback) {
+  downloadZipMod(argvOptions['download-zip'], (err, res) => {
+    if (err) {
+      callback(Error(err))
+    } else {
+      openAddressesZipFilePath = res
       callback()
-    })
-
-    readStream.on('error', function (err) {
-      console.error('Error:', err)
-      process.exit(1)
-    })
+    }
   })
 }
 
