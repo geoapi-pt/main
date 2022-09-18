@@ -335,7 +335,7 @@ For example you may request `/cp/1950-449`, `/cp/1950449` or `/cp/1950-449?json=
 
 ### Continuous operation
 
-For permanent and continuous operation use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever).
+For permanent and continuous operation (production) use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever).
 
 #### With pm2
 
