@@ -6,6 +6,7 @@
     "test": "standard && depcheck --ignores=\"depcheck,leaflet\" --ignore-patterns=\"res/*\" && node server.js --testStartup && node test/mainTest.js",
     "start": "node server.js",
     "generate-postalcodes": "node --max-old-space-size=16384 js/routines/generatePostalCodes/generate.js",
+    "generate-sitemap": "node js/routines/generateSitemap.js",
     "validate-emails": "node js/routines/validateEmails.js"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://www.geoapi.pt/",
   "dependencies": {
     "@turf/turf": "^6.5.0",
+    "app-root-path": "^3.1.0",
     "async": "^3.2.1",
     "body-parser": "^1.19.2",
     "colors": "^1.4.0",
@@ -43,7 +45,8 @@
     "progress": "^2.0.3",
     "proj4": "^2.6.0",
     "sanitize-filename": "^1.6.3",
-    "shapefile": "^0.6.6"
+    "shapefile": "^0.6.6",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "command-line-args": "^5.2.0",
