@@ -7,8 +7,8 @@ module.exports = {
 
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
-  res.status(200).sendData(
-    administrations.listOfDistricts,
-    'Lista de distritos'
-  )
+  res.status(200).sendData({
+    data: administrations.listOfDistricts,
+    input: 'Lista de distritos'
+  })
 }

@@ -23,7 +23,10 @@ function routeFn (req, res, next, { administrations }) {
 
   const numberOfQueryVars = Object.keys(req.query).length
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-    res.status(200).sendData(administrations.listOfMunicipalitiesNames, 'Lista de todos os municípios')
+    res.status(200).sendData({
+      data: administrations.listOfMunicipalitiesNames,
+      input: 'Lista de todos os municípios'
+    })
     return
   }
 
@@ -63,9 +66,9 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   if (results.length > 1) {
-    res.status(200).sendData(results, 'Lista de municípios')
+    res.status(200).sendData({ data: results, input: 'Lista de municípios' })
   } else if (results.length === 1) {
-    res.status(200).sendData(results[0], { Município: results[0].nome })
+    res.status(200).sendData({ data: results[0], input: { Município: results[0].nome } })
   } else {
     res.status(404).sendData({ error: 'Município não encontrado!' })
   }

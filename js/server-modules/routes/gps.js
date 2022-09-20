@@ -87,10 +87,10 @@ function routeFn (req, res, next, { administrations, regions, mainPageUrl }) {
 
         debug(local)
 
-        res.status(200).sendData(
-          local,
-          { latitude: lat, longitude: lon } // inform user of input in case of text/html
-        )
+        res.status(200).sendData({
+          data: local,
+          input: { latitude: lat, longitude: lon } // inform user of input in case of text/html
+        })
         return
       }
     }

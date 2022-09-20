@@ -19,7 +19,7 @@ function routeFn (req, res, next, { administrations }) {
   // no parameters, list of parishes
   const numberOfQueryVars = Object.keys(req.query).length
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-    res.status(200).sendData(administrations.listOfParishesNames)
+    res.status(200).sendData({ data: administrations.listOfParishesNames })
     return
   }
 
@@ -70,9 +70,12 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   if (results.length > 1) {
-    res.status(200).sendData(results, 'Lista de freguesias')
+    res.status(200).sendData({ data: results, input: 'Lista de freguesias' })
   } else if (results.length === 1) {
-    res.status(200).sendData(results[0], { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` })
+    res.status(200).sendData({
+      data: results[0],
+      input: { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` }
+    })
   } else {
     res.status(404).sendData({ error: 'Freguesia não encontrada!' })
   }
