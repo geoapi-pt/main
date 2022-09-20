@@ -145,11 +145,7 @@ function startServer (callback) {
   }
 
   app.use(function (req, res) {
-    if (req.url.includes('favicon.ico')) {
-      res.writeHead(204) // no content
-    } else {
-      res.status(404).sendData({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
-    }
+    res.status(404).sendData({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
   })
 
   const server = app.listen(serverPort, () => {
