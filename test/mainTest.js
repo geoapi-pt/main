@@ -30,14 +30,14 @@ async.series([
   testSomeGpsCoordinates
 ],
 // done after execution of above funcitons
-function (err, results) {
+function (err) {
   testServer.closeServer()
   console.timeEnd('timeToTestServer')
 
   if (err) {
     console.error(Error(err))
     console.log(colors.red('An error occurred'))
-    process.exitCode = 1
+    process.exit(1)
   } else {
     console.log(colors.green('All tests have been tested OK\n'))
     process.exitCode = 0
@@ -55,6 +55,7 @@ function startsHttpServer (callback) {
       console.log('server started')
       callback()
     }, function (err) {
+      console.error(err)
       callback(Error(err))
     })
 }
@@ -75,6 +76,7 @@ function readShapefile (mainCallback) {
         )
         retryCallback(null, geojson)
       }).catch((err) => {
+        console.error(err)
         retryCallback(Error(err))
       })
     }, function (err, result) {
@@ -87,6 +89,7 @@ function readShapefile (mainCallback) {
     })
   }, function (err) {
     if (err) {
+      console.error(err)
       mainCallback(Error(err))
     } else {
       mainCallback()
@@ -132,6 +135,7 @@ function buildMetaParishes (callback) {
     console.log('Meta parishes Object created')
     callback()
   } catch (err) {
+    console.error(err)
     callback(Error(err))
   }
 }
@@ -144,6 +148,7 @@ function testAllParishesFromGeojson (mainCallback) {
     testParishWithMunicipality(el.parish, el.municipality, (err, res) => {
       bar.tick({ info: `${el.municipality.padEnd(20)} | ${el.parish.substring(0, 25)}` })
       if (err) {
+        console.error(err)
         callback(Error(`Error on ${el.parish}, ${el.municipality} : ${err}`))
       } else {
         callback()
@@ -153,6 +158,7 @@ function testAllParishesFromGeojson (mainCallback) {
     bar.tick({ info: '' })
     bar.terminate()
     if (err) {
+      console.error(err)
       mainCallback(Error(err))
     } else {
       mainCallback()
@@ -190,6 +196,7 @@ function testAllParishesFromServerRequest (mainCallback) {
         bar.tick({ info: '' })
         bar.terminate()
         if (err) {
+          console.error(err)
           mainCallback(Error(err))
         } else {
           console.log(colors.green('All parishes and municipalities have been tested OK\n'))
@@ -198,6 +205,7 @@ function testAllParishesFromServerRequest (mainCallback) {
       })
     })
     .catch(err => {
+      console.error(err)
       mainCallback(Error(`\n${err} on /municipio/freguesias`))
     })
 }
@@ -208,13 +216,14 @@ function testParishWithMunicipality (parish, municipality, callback) {
     .then(body => {
       if (typeof body !== 'object' || Array.isArray(body)) {
         callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on /freguesia?nome=${parish}&municipio=${municipality}\n`))
-      } else if (body.nome && !body.error) {
+      } else if (body.nome && !body.error && !body.erro) {
         callback(null, body) // success
       } else {
         callback(Error(`\nError ${body.error}, on /freguesia?nome=${parish}&municipio=${municipality}\n`))
       }
     })
     .catch(err => {
+      console.error(err)
       callback(Error(`\n${err} on /freguesia?nome=${parish}&municipio=${municipality}\n`))
     })
 }
@@ -222,7 +231,8 @@ function testParishWithMunicipality (parish, municipality, callback) {
 function testPostalCode (callback) {
   got(`http://localhost:${TEST_PORT}/cp/1950-449`).json()
     .then(body => {
-      if (body.error) {
+      if (body.error || body.erro) {
+        console.error(body.error || body.erro)
         callback(Error('\nThere was an error in postal code'))
         return
       }
@@ -253,7 +263,8 @@ function testSomeGpsCoordinates (mainCallback) {
   ], function (urlAbsolutePath, eachCallback) {
     got(`http://localhost:${TEST_PORT}${urlAbsolutePath}`).json()
       .then(body => {
-        if (body.error) {
+        if (body.error || body.erro) {
+          console.error(body.error || body.erro)
           eachCallback(Error('\nThere was an error in gps coordinates'))
           return
         }
