@@ -53,6 +53,7 @@ function routeFn (req, res, next, { serverDir }) {
           data: data,
           input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
           processedData: processedData,
+          pageTitle: `Dados sobre o Código Postal ${cp4 + (cp3 ? `-${cp3}` : '')}`,
           template: 'postalCode'
         })
       }

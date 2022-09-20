@@ -25,7 +25,8 @@ function routeFn (req, res, next, { administrations }) {
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
     res.status(200).sendData({
       data: administrations.listOfMunicipalitiesNames,
-      input: 'Lista de todos os municípios'
+      input: 'Lista de todos os municípios',
+      pageTitle: 'Lista dos municípios de Portugal'
     })
     return
   }
@@ -66,9 +67,17 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   if (results.length > 1) {
-    res.status(200).sendData({ data: results, input: 'Lista de municípios' })
+    res.status(200).sendData({
+      data: results,
+      input: 'Lista de municípios',
+      pageTitle: `Dados sobre municípios: ${results.map(e => `${e.nome}`).join(', ')}`
+    })
   } else if (results.length === 1) {
-    res.status(200).sendData({ data: results[0], input: { Município: results[0].nome } })
+    res.status(200).sendData({
+      data: results[0],
+      input: { Município: results[0].nome },
+      pageTitle: `Dados sobre o Município de ${results[0].nome}`
+    })
   } else {
     res.status(404).sendData({ error: 'Município não encontrado!' })
   }
