@@ -12,6 +12,7 @@ const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 
 const mainPageUrl = 'https://www.geoapi.pt/'
+const mainTitle = 'GEO API PT'
 const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
 
 // define directories
@@ -115,6 +116,7 @@ function startServer (callback) {
           data: dataToBeSent,
           input: data.input || {},
           processedData: data.processedData || {},
+          pageTitle: data.pageTitle ? `${data.pageTitle} - ${mainTitle}` : mainTitle,
           siteDescription: siteDescription
         })
       }

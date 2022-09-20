@@ -89,7 +89,8 @@ function routeFn (req, res, next, { administrations, regions, mainPageUrl }) {
 
         res.status(200).sendData({
           data: local,
-          input: { latitude: lat, longitude: lon } // inform user of input in case of text/html
+          input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
+          pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
         })
         return
       }

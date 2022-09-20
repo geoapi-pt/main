@@ -19,7 +19,10 @@ function routeFn (req, res, next, { administrations }) {
   // no parameters, list of parishes
   const numberOfQueryVars = Object.keys(req.query).length
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-    res.status(200).sendData({ data: administrations.listOfParishesNames })
+    res.status(200).sendData({
+      data: administrations.listOfParishesNames,
+      pageTitle: 'Lista de freguesias de Portugal'
+    })
     return
   }
 
@@ -70,11 +73,16 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   if (results.length > 1) {
-    res.status(200).sendData({ data: results, input: 'Lista de freguesias' })
+    res.status(200).sendData({
+      data: results,
+      input: 'Lista de freguesias',
+      pageTitle: `Dados sobre freguesias: ${results.map(e => `${e.nomecompleto} (${e.municipio})`).join(', ')}`
+    })
   } else if (results.length === 1) {
     res.status(200).sendData({
       data: results[0],
-      input: { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` }
+      input: { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` },
+      pageTitle: `Dados sobre a Freguesia ${results[0].nomecompleto} (${results[0].municipio})`
     })
   } else {
     res.status(404).sendData({ error: 'Freguesia não encontrada!' })

@@ -9,6 +9,7 @@ function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
   res.status(200).sendData({
     data: administrations.listOfDistrictsWithMunicipalities,
-    input: 'Lista de distritos com os respetivos municípios'
+    input: 'Lista de distritos com os respetivos municípios',
+    pageTitle: 'Lista de distritos de Portugal com os respetivos municípios'
   })
 }
