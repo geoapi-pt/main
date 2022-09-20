@@ -49,9 +49,12 @@ function routeFn (req, res, next, { serverDir }) {
           if (el in processedData) delete processedData[el]
         })
 
-        // present also the input in case of text/html rendering
-        const input = { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') }
-        res.status(200).sendData(data, input, processedData, 'postalCode')
+        res.status(200).sendData({
+          data: data,
+          input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
+          processedData: processedData,
+          template: 'postalCode'
+        })
       }
     })
   } else {

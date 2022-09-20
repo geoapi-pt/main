@@ -97,23 +97,25 @@ function startServer (callback) {
   shieldsioCounters.setTimers()
 
   app.use(function (req, res, next) {
-    res.sendData = function (data, input, processedData, template) {
+    res.sendData = function (data) {
       debug(req.accepts(['html', 'json']))
 
       shieldsioCounters.incrementCounters()
 
+      const dataToBeSent = data.error ? { erro: data.error } : data.data
+
       res.set('Connection', 'close')
       if (req.accepts(['html', 'json']) === 'json' || parseInt(req.query.json)) {
-        res.json(data)
+        res.json(dataToBeSent)
       } else {
         res.type('text/html')
 
-        res.render(template || 'home', {
+        res.render(data.template || 'home', {
           layout: false,
-          siteDescription: siteDescription,
-          input: input,
-          data: data,
-          processedData: processedData
+          data: dataToBeSent,
+          input: data.input || {},
+          processedData: data.processedData || {},
+          siteDescription: siteDescription
         })
       }
     }

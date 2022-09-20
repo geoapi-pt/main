@@ -21,9 +21,9 @@ function routeFn (req, res, next, { administrations }) {
     .filter(el => normalizeName(el.nome) === normalizeName(municipality))
 
   if (results.length > 1) {
-    res.status(200).sendData(results, 'Lista de freguesias para municípios escolhidos')
+    res.status(200).sendData({ data: results, input: 'Lista de freguesias para municípios escolhidos' })
   } else if (results.length === 1) {
-    res.status(200).sendData(results[0], { Município: results[0].nome })
+    res.status(200).sendData({ data: results[0], input: { Município: results[0].nome } })
   } else {
     res.status(404).sendData({ error: `Município ${municipality} não encontrado!` })
   }
