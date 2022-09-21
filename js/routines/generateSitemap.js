@@ -6,7 +6,7 @@ const { SitemapStream, streamToPromise } = require('sitemap')
 const { Readable } = require('stream')
 const colors = require('colors/safe')
 
-const mainPageUrl = 'https://www.geoapi.pt'
+const mainPageUrl = 'https://geoapi.pt'
 
 const prepareServer = require(path.join(appRoot.path, 'js', 'server-modules', 'prepareServer.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'generatePostalCodes', 'prepareCTTfile.js'))
