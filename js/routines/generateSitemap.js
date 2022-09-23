@@ -1,7 +1,5 @@
-const fs = require('fs')
 const path = require('path')
 const async = require('async')
-const zlib = require('zlib')
 const appRoot = require('app-root-path')
 const { simpleSitemapAndIndex } = require('sitemap')
 const colors = require('colors/safe')
@@ -86,35 +84,7 @@ function createSitemap (cb) {
     destinationDir: sitemapsDir,
     sourceData: links
   }).then(() => {
-    const promises = []
-    const gzFiles = []
-    fs.readdirSync(sitemapsDir).forEach(async (file) => {
-      if (/^sitemap.*\.xml.gz$/.test(file)) {
-        gzFiles.push(file)
-        console.log(`Exctracing ${file} to ${file.replace(/\.gz$/, '')}`)
-
-        const inputFile = fs.createReadStream(path.join(sitemapsDir, file))
-        const outputFile = fs.createWriteStream(path.join(sitemapsDir, file.replace(/\.gz$/, '')))
-        const stream = inputFile.pipe(zlib.createUnzip()).pipe(outputFile)
-        const promise = new Promise(resolve => stream.on('finish', resolve))
-        promises.push(promise)
-      }
-    })
-
-    Promise.all(promises)
-      .then(() => {
-        console.log('Deleting gz files')
-        gzFiles.forEach(file => fs.unlinkSync(path.join(sitemapsDir, file)))
-
-        if (fs.existsSync(path.join(sitemapsDir, 'sitemap-index.xml'))) {
-          console.log('Renaming sitemap-index.xml -> sitemap.xml')
-          fs.renameSync(path.join(sitemapsDir, 'sitemap-index.xml'), path.join(sitemapsDir, 'sitemap.xml'))
-        }
-
-        cb()
-      }).catch(err => {
-        cb(Error(err))
-      })
+    cb()
   })
 }
 
