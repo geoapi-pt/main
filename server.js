@@ -82,6 +82,11 @@ function startServer (callback) {
   app.set('view engine', '.hbs')
   app.set('views', './views')
 
+  app.use(/^\/sitemap.*\.xml$/, (req, res, next) => {
+    res.type('application/xml')
+    next()
+  })
+
   app.use('/', express.static(path.join(__dirname, 'views')))
 
   // Apply the rate limiting middleware to all requests
