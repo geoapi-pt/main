@@ -1,17 +1,17 @@
 const fs = require('fs')
 const path = require('path')
 const async = require('async')
+const zlib = require('zlib')
 const appRoot = require('app-root-path')
-const { SitemapStream, streamToPromise } = require('sitemap')
-const { Readable } = require('stream')
+const { simpleSitemapAndIndex } = require('sitemap')
 const colors = require('colors/safe')
 
 const mainPageUrl = 'https://geoapi.pt'
 
+const sitemapsDir = path.join(appRoot.path, 'views')
+
 const prepareServer = require(path.join(appRoot.path, 'js', 'server-modules', 'prepareServer.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'generatePostalCodes', 'prepareCTTfile.js'))
-
-const xmlFilePath = path.join(appRoot.path, 'views', 'sitemap.xml')
 
 let administrations, postalCodes, CP4postalCodes
 
@@ -23,6 +23,7 @@ async.series([prepareRegions, preparePostalCodesCTT, createSitemap],
       process.exit(1)
     } else {
       console.log('Everything done with ' + colors.green.bold('success'))
+      console.log(`Sitemaps created at ${path.relative(appRoot.path, sitemapsDir)}/`)
     }
   })
 
@@ -52,6 +53,8 @@ function preparePostalCodesCTT (cb) {
 }
 
 function createSitemap (cb) {
+  console.log('Creating sitemaps, please wait...')
+
   const links = []
   for (const CP of postalCodes) {
     links.push({ url: `/cp/${CP}`, changefreq: 'daily', priority: 0.5 })
@@ -77,22 +80,41 @@ function createSitemap (cb) {
 
   links.push({ url: '/distritos/municipios', changefreq: 'daily', priority: 0.5 })
 
-  // Create a stream to write to
-  const stream = new SitemapStream({ hostname: mainPageUrl })
+  // writes sitemaps and index out to the destination you provide.
+  simpleSitemapAndIndex({
+    hostname: mainPageUrl,
+    destinationDir: sitemapsDir,
+    sourceData: links
+  }).then(() => {
+    const promises = []
+    const gzFiles = []
+    fs.readdirSync(sitemapsDir).forEach(async (file) => {
+      if (/^sitemap.*\.xml.gz$/.test(file)) {
+        gzFiles.push(file)
+        console.log(`Exctracing ${file} to ${file.replace(/\.gz$/, '')}`)
 
-  // Return a promise that resolves with your XML string
-  streamToPromise(Readable.from(links).pipe(stream)).then((data) =>
-    data.toString()
-  ).then(xml => {
-    try {
-      fs.writeFileSync(xmlFilePath, xml)
-      console.log('XML file created OK on ' + xmlFilePath)
-      cb()
-    } catch (err) {
-      cb(Error(err))
-    }
-  }).catch(err => {
-    cb(Error(err))
+        const inputFile = fs.createReadStream(path.join(sitemapsDir, file))
+        const outputFile = fs.createWriteStream(path.join(sitemapsDir, file.replace(/\.gz$/, '')))
+        const stream = inputFile.pipe(zlib.createUnzip()).pipe(outputFile)
+        const promise = new Promise(resolve => stream.on('finish', resolve))
+        promises.push(promise)
+      }
+    })
+
+    Promise.all(promises)
+      .then(() => {
+        console.log('Deleting gz files')
+        gzFiles.forEach(file => fs.unlinkSync(path.join(sitemapsDir, file)))
+
+        if (fs.existsSync(path.join(sitemapsDir, 'sitemap-index.xml'))) {
+          console.log('Renaming sitemap-index.xml -> sitemap.xml')
+          fs.renameSync(path.join(sitemapsDir, 'sitemap-index.xml'), path.join(sitemapsDir, 'sitemap.xml'))
+        }
+
+        cb()
+      }).catch(err => {
+        cb(Error(err))
+      })
   })
 }
 
