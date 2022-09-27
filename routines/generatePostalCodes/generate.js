@@ -10,6 +10,7 @@ const async = require('async')
 const ProgressBar = require('progress')
 const colors = require('colors/safe')
 const csv = require('csvtojson')
+const appRoot = require('app-root-path')
 const commandLineArgs = require('command-line-args')
 const debug = require('debug')('geoapipt:generate-postal-codes')
 
@@ -17,7 +18,7 @@ const downloadZipMod = require(path.join(__dirname, 'downloadZip.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'prepareCTTfile.js'))
 const generatePostalCodesFunctions = require(path.join(__dirname, 'functions.js'))
 
-const resDirectory = path.join(__dirname, '..', '..', '..', 'res', 'postal-codes')
+const resDirectory = path.join(appRoot.path, 'res', 'postal-codes')
 
 let openAddressesZipFilePath
 const unzippedFilesEncoding = 'utf8' // see https://stackoverflow.com/a/14551669/1243247
@@ -41,7 +42,7 @@ const functionExecution =
     assembleCP4Data // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
   ]
 
-// ex: node js/generatePostalCodes.js download-zip
+// ex: node routines/generatePostalCodes.js download-zip
 // downloads ZIP from OpenAddresses
 const argvOptions = commandLineArgs([
   { name: 'download-zip', type: Boolean },

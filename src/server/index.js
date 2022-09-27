@@ -10,21 +10,23 @@ const nocache = require('nocache')
 const debug = require('debug')('geoapipt:server') // run: DEBUG=geoapipt:server npm start
 const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
+const appRoot = require('app-root-path')
 
-const mainPageUrl = 'https://www.geoapi.pt/'
+const mainPageUrl = 'https://geoapi.pt/'
 const mainTitle = 'GEO API PT'
 const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
 
 // define directories
-const serverModulesDir = path.join(__dirname, 'js', 'server-modules')
-const expressRoutesDir = path.join(serverModulesDir, 'routes')
+const servicesDir = path.join(__dirname, 'services')
+const expressRoutesDir = path.join(__dirname, 'routes')
+const utilsDir = path.join(__dirname, 'utils')
 
 // import server project modules
-const copyFrontEndNpmModules = require(path.join(serverModulesDir, 'copyFrontEndNpmModules.js'))
-const prepareServer = require(path.join(serverModulesDir, 'prepareServer.js'))
-const shutdownServer = require(path.join(serverModulesDir, 'shutdownServer.js'))
-const shieldsioCounters = require(path.join(serverModulesDir, 'shieldsioCounters.js'))
-const hbsHelpers = require(path.join(serverModulesDir, 'hbsHelpers.js'))
+const copyFrontEndNpmModules = require(path.join(servicesDir, 'copyFrontEndNpmModules.js'))
+const prepareServer = require(path.join(servicesDir, 'prepareServer.js'))
+const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
+const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
+const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
 
 const argvOptions = commandLineArgs([
   { name: 'port', type: Number },
@@ -80,9 +82,9 @@ function startServer (callback) {
 
   app.engine('.hbs', hbs.engine)
   app.set('view engine', '.hbs')
-  app.set('views', './views')
+  app.set('views', path.join(__dirname, '..', 'views'))
 
-  app.use('/', express.static(path.join(__dirname, 'views')))
+  app.use('/', express.static(path.join(__dirname, '..', 'public')))
 
   // Apply the rate limiting middleware to all requests
   if (argvOptions.rateLimit) {
@@ -125,17 +127,17 @@ function startServer (callback) {
   })
 
   app.get('/', function (req, res) {
-    res.redirect(mainPageUrl)
+    res.sendFile(path.join(__dirname, '..', 'public', 'index.html'))
   })
 
   shieldsioCounters.loadExpressRoutes(app)
 
-  // Load Express app.get() routers paths, respective files are stored in js/server-modules/routes/
+  // Load Express app.get() routers paths, respective files are stored in src/server/routes/
   try {
     fs.readdirSync(expressRoutesDir).forEach(filename => {
       const router = require(path.join(expressRoutesDir, filename))
       app.get(router.route, function (req, res, next) {
-        router.fn(req, res, next, { administrations, regions, serverDir: __dirname, mainPageUrl })
+        router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, mainPageUrl })
         debug(`Loaded express get from ${filename} with route ${router.route}`)
       })
     })

@@ -5,10 +5,11 @@ const path = require('path')
 const https = require('https')
 const async = require('async')
 const verifier = require('email-verify')
+const appRoot = require('app-root-path')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 
-const resDir = path.join(__dirname, '..', 'res')
+const resDir = path.join(appRoot.path, 'res')
 
 const jsonResFiles = {
   parishes2021: 'detalhesFreguesias2021.json',
@@ -18,7 +19,7 @@ const jsonResFiles = {
 let municipalities
 let parishes
 
-const apiKey = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'credentials.json'), 'utf8')).zerobounce.apiKey
+const apiKey = JSON.parse(fs.readFileSync(path.join(appRoot.path, 'credentials.json'), 'utf8')).zerobounce.apiKey
 
 const optionDefinitions = [
   { name: 'credits', alias: 'c', type: Boolean, description: 'Fecthes the remaining amount of credits for the zerobounce API' },

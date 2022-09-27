@@ -3,6 +3,7 @@
 
 const path = require('path')
 const { fork } = require('child_process')
+const appRoot = require('app-root-path')
 const debug = require('debug')('test:serverForTests')
 
 module.exports = {
@@ -13,7 +14,7 @@ module.exports = {
 let httpLocalServer
 
 // starts http server on localhost on test default port
-// arguments: CLI arguments for the node server.js (optional), onStart, onError
+// arguments: CLI arguments for the node src/server/index.js (optional), onStart, onError
 function startsServerForTests () {
   debug('Starting http server...')
 
@@ -27,12 +28,12 @@ function startsServerForTests () {
     onError = arguments[1]
   } else {
     console.error('Arguments for startsServerForTests are:')
-    console.error('CLI arguments for the node bin/server.js (optional), onStart, onError')
+    console.error('CLI arguments for the node index.js (optional), onStart, onError')
     process.exit(1) // exit with error
   }
 
   try {
-    const index = path.join(__dirname, '..', 'server.js')
+    const index = path.join(appRoot.path, 'src', 'server', 'index.js')
     args = args || []
     const options = {
       stdio: ['pipe', 'pipe', 'pipe', 'ipc']

@@ -10,9 +10,10 @@ const fs = require('fs')
 const path = require('path')
 const ProgressBar = require('progress')
 const download = require('download')
+const appRoot = require('app-root-path')
 const got = require('got')
 
-const resDirectory = path.join(__dirname, '..', '..', '..', 'res', 'postal-codes')
+const resDirectory = path.join(appRoot.path, 'res', 'postal-codes')
 const openAddressesDefaultZipFilePath = path.join(resDirectory, 'pt_addresses.csv.zip')
 
 // provided by @joao server see https://github.com/jfoclpf/geoapi.pt/issues/39#issuecomment-1245582378

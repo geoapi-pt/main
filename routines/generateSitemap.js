@@ -6,9 +6,9 @@ const colors = require('colors/safe')
 
 const mainPageUrl = 'https://geoapi.pt'
 
-const sitemapsDir = path.join(appRoot.path, 'views')
+const sitemapsDir = path.join(appRoot.path, 'src', 'public')
 
-const prepareServer = require(path.join(appRoot.path, 'js', 'server-modules', 'prepareServer.js'))
+const prepareServer = require(path.join(appRoot.path, 'src', 'server', 'services', 'prepareServer.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'generatePostalCodes', 'prepareCTTfile.js'))
 
 let administrations, postalCodes, CP4postalCodes

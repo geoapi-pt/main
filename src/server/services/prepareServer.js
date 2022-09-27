@@ -10,11 +10,12 @@ const extract = require('extract-zip')
 const async = require('async')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:prepareServer') // run: DEBUG=geoapipt:prepareServer npm start
 
-const { normalizeName } = require(path.join(__dirname, '..', 'commonFunctions.js'))
+const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
-const resDir = path.join(__dirname, '..', '..', 'res')
+const resDir = path.join(appRoot.path, 'res')
 
 module.exports = function (callback) {
   async.series(

@@ -5,9 +5,10 @@ const path = require('path')
 const extract = require('extract-zip')
 const async = require('async')
 const colors = require('colors/safe')
+const appRoot = require('app-root-path')
 const csv = require('csvtojson')
 
-const resDirectory = path.join(__dirname, '..', '..', '..', 'res', 'postal-codes')
+const resDirectory = path.join(appRoot.path, 'res', 'postal-codes')
 const zipFile = path.join(resDirectory, 'CodigosPostais.zip')
 const unzippedFilesEncoding = 'latin1' // see https://stackoverflow.com/a/14551669/1243247
 const unzippedFilenames = []
