@@ -9,7 +9,7 @@ module.exports = {
 }
 
 // route for Postal Codes: /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
-function routeFn (req, res, next, { serverDir }) {
+function routeFn (req, res, next, { appRootPath }) {
   debug(req.path, req.query, req.headers)
 
   const cp = req.params.cp
@@ -21,9 +21,9 @@ function routeFn (req, res, next, { serverDir }) {
   if (/^\d{4}(\p{Dash}?\d{3})?$/u.test(cp) && cp4) {
     let filename
     if (cp3) {
-      filename = path.join(serverDir, 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json'))
+      filename = path.join(appRootPath, 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json'))
     } else {
-      filename = path.join(serverDir, 'res', 'postal-codes', 'data', sanitize(cp4 + '.json'))
+      filename = path.join(appRootPath, 'res', 'postal-codes', 'data', sanitize(cp4 + '.json'))
     }
 
     fs.readFile(filename, (err, fileContent) => {

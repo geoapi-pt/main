@@ -1,7 +1,7 @@
 {
   "apps" : [{
     "name" : "geoapi.pt",
-    "script" : "server.js",
+    "script" : "src/server/index.js",
     "args" : "--port=4057 --rateLimit",
     "wait_ready" : true,
     "listen_timeout" : 50000,

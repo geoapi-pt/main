@@ -14,9 +14,10 @@ const colors = require('colors')
 const got = require('got')
 const shapefile = require('shapefile')
 const ProgressBar = require('progress')
+const appRoot = require('app-root-path')
 
 const testServer = require(path.join(__dirname, 'serverForTests'))
-const { regions } = require(path.join(__dirname, '..', 'js', 'server-modules', 'prepareServer'))
+const { regions } = require(path.join(appRoot.path, 'src', 'server', 'services', 'prepareServer'))
 let Parishes = [] // Array with ALL the parishes, each element is an object {freguesia, concelho, region}
 
 // main sequence of functions
@@ -66,8 +67,8 @@ function readShapefile (mainCallback) {
     // see: https://github.com/mbostock/shapefile/issues/67
     async.retry({ times: 5, interval: 500 }, function (retryCallback) {
       shapefile.read(
-        path.join(__dirname, '..', 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
-        path.join(__dirname, '..', 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
+        path.join(appRoot.path, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
+        path.join(appRoot.path, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
         { encoding: 'utf-8' }
       ).then(geojson => {
         console.log(

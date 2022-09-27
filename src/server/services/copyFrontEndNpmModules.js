@@ -1,8 +1,7 @@
 const path = require('path')
 const fse = require('fs-extra')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:copyFrontEndNpmModules') // run: DEBUG=geoapipt:copyFrontEndNpmModules npm start
-
-const rootDir = path.join(__dirname, '..', '..')
 
 module.exports = copyFrontEndNpmModules
 
@@ -11,10 +10,10 @@ function copyFrontEndNpmModules (callback) {
   // module is NPM module name
   // dir is the directory relative to module root directory
   const copyModule = function (module, dir) {
-    const srcDir = path.join(rootDir, 'node_modules', module, dir)
-    const destDir = path.join(rootDir, 'views', 'lib', module)
+    const srcDir = path.join(appRoot.path, 'node_modules', module, dir)
+    const destDir = path.join(appRoot.path, 'src', 'public', 'lib', module)
     fse.copySync(srcDir, destDir, { overwrite: true })
-    debug(`Copied files from ${path.relative(rootDir, srcDir)} to ${path.relative(rootDir, destDir)}`)
+    debug(`Copied files from ${path.relative(appRoot.path, srcDir)} to ${path.relative(appRoot.path, destDir)}`)
   }
 
   try {

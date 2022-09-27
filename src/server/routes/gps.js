@@ -2,7 +2,7 @@ const PolygonLookup = require('polygon-lookup')
 const proj4 = require('proj4')
 const path = require('path')
 const debug = require('debug')('geoapipt:server')
-const { normalizeName } = require(path.join(__dirname, '..', '..', 'commonFunctions.js'))
+const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 module.exports = {
   fn: routeFn,
