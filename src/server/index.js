@@ -19,6 +19,7 @@ const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões 
 // define directories
 const servicesDir = path.join(__dirname, 'services')
 const expressRoutesDir = path.join(__dirname, 'routes')
+const middlewaresDir = path.join(__dirname, 'middlewares')
 const utilsDir = path.join(__dirname, 'utils')
 
 // import server project modules
@@ -26,6 +27,7 @@ const copyFrontEndNpmModules = require(path.join(servicesDir, 'copyFrontEndNpmMo
 const prepareServer = require(path.join(servicesDir, 'prepareServer.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
+const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
 
 const argvOptions = commandLineArgs([
@@ -99,32 +101,7 @@ function startServer (callback) {
 
   shieldsioCounters.setTimers()
 
-  app.use(function (req, res, next) {
-    res.sendData = function (data) {
-      debug(req.accepts(['html', 'json']))
-
-      shieldsioCounters.incrementCounters()
-
-      const dataToBeSent = data.error ? { erro: data.error } : data.data
-
-      res.set('Connection', 'close')
-      if (req.accepts(['html', 'json']) === 'json' || parseInt(req.query.json)) {
-        res.json(dataToBeSent)
-      } else {
-        res.type('text/html')
-
-        res.render(data.template || 'home', {
-          layout: false,
-          data: dataToBeSent,
-          input: data.input || {},
-          processedData: data.processedData || {},
-          pageTitle: data.pageTitle ? `${data.pageTitle} - ${mainTitle}` : mainTitle,
-          siteDescription: siteDescription
-        })
-      }
-    }
-    next()
-  })
+  app.use(sendDataMiddleware({ mainTitle, siteDescription, shieldsioCounters }))
 
   app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'))
