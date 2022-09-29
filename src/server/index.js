@@ -27,6 +27,7 @@ const copyFrontEndNpmModules = require(path.join(servicesDir, 'copyFrontEndNpmMo
 const prepareServer = require(path.join(servicesDir, 'prepareServer.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
+const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
 
@@ -137,20 +138,7 @@ function startServer (callback) {
 
     console.timeEnd('serverTimeToStart')
 
-    console.log('Listening on port ' + serverPort)
-    console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
-    console.log('*******************************************************************************')
-    console.log('**                             GEO API PT                                    **')
-    console.log(`**${Array(16).join(' ')}can be now accessed on ${colors.green.bold('localhost:' + serverPort) + Array(24).join(' ')}**`)
-    console.log('**                                                                           **')
-    console.log('**     Examples:                                                             **')
-    console.log(`**${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/gps/40.153687,-8.514602')}${Array(26).join(' ')}**`)
-    console.log(`**${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/municipio/Évora')}${Array(34).join(' ')}**`)
-    console.log(`**${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/cp/2495-300')}${Array(38).join(' ')}**`)
-    console.log(`**${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/cp/1950')}${Array(42).join(' ')}**`)
-    console.log('**                                                                           **')
-    console.log(`**          for instructions see ${colors.cyan.bold(mainPageUrl)}${Array(23).join(' ')}**`)
-    console.log('*******************************************************************************')
+    consoleApiStartupInfo({ serverPort, mainPageUrl })
 
     if (process.send) {
       process.send('ready') // very important, trigger to PM2 that app is ready
