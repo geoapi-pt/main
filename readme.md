@@ -78,7 +78,7 @@ By default the server replies with `text/html` format. To receive JSON format, e
  - add the query parameter `json=1` to the URL (ex.: `/municipio/Évora?json=1`)
  - in the GET request set the HTTP header Accept as JSON, that is, `Accept: application/json`
 
-## How to install this API on your machine
+## Install this API on your machine
 
  1. Install NodeJS and git
  2. Clone the project (just the latest version):<br>
