@@ -10,8 +10,6 @@
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
 
-# Resumo
-
 <table>
    <thead>
       <tr>
