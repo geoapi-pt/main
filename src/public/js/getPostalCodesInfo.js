@@ -7,6 +7,8 @@
   const resultCodigoPostal = document.getElementById('result-codigo-postal')
 
   inputCodigoPostal.addEventListener('input', () => {
+    inputCodigoPostal.value = inputCodigoPostal.value.replace(/[^\d\s\p{Dash}]/ug, '')
+
     if (!isPostalCodeOK(inputCodigoPostal.value)) {
       inputCodigoPostal.classList.add('border-danger')
     } else {
