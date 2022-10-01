@@ -12,9 +12,12 @@ const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 
-const mainPageUrl = 'https://geoapi.pt/'
-const mainTitle = 'GEO API PT'
-const siteDescription = 'Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais'
+const configs = JSON.parse(fs.readFileSync(path.join(appRoot.path, 'configs.json')))
+// origin=scheme+host+port, ex: http://example.com:8080
+const defaultOrigin = configs.defaultOrigin
+const gitProjectUrl = configs.gitProjectUrl
+const mainTitle = configs.mainTitle
+const siteDescription = configs.description
 
 // define directories
 const servicesDir = path.join(__dirname, 'services')
@@ -102,10 +105,16 @@ function startServer (callback) {
 
   shieldsioCounters.setTimers()
 
-  app.use(sendDataMiddleware({ mainTitle, siteDescription, shieldsioCounters }))
+  app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
 
   app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, '..', 'public', 'index.html'))
+    res.type('text/html').send('index', {
+      layout: false,
+      defaultOrigin: defaultOrigin,
+      gitProjectUrl: gitProjectUrl,
+      pageTitle: mainTitle,
+      siteDescription: siteDescription
+    })
   })
 
   shieldsioCounters.loadExpressRoutes(app)
@@ -115,7 +124,7 @@ function startServer (callback) {
     fs.readdirSync(expressRoutesDir).forEach(filename => {
       const router = require(path.join(expressRoutesDir, filename))
       app.get(router.route, function (req, res, next) {
-        router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, mainPageUrl })
+        router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, gitProjectUrl })
         debug(`Loaded express get from ${filename} with route ${router.route}`)
       })
     })
@@ -125,7 +134,7 @@ function startServer (callback) {
   }
 
   app.use(function (req, res) {
-    res.status(404).sendData({ error: 'Bad request. Check instrucions on ' + mainPageUrl })
+    res.status(404).sendData({ error: 'Bad request. Check instrucions on ' + gitProjectUrl })
   })
 
   const server = app.listen(serverPort, () => {
@@ -138,7 +147,7 @@ function startServer (callback) {
 
     console.timeEnd('serverTimeToStart')
 
-    consoleApiStartupInfo({ serverPort, mainPageUrl })
+    consoleApiStartupInfo({ serverPort, gitProjectUrl })
 
     if (process.send) {
       process.send('ready') // very important, trigger to PM2 that app is ready

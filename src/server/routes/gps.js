@@ -9,7 +9,7 @@ module.exports = {
   route: ['/gps', '/gps/:lat?,:lon?']
 }
 
-function routeFn (req, res, next, { administrations, regions, mainPageUrl }) {
+function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   try {
     debug('new query: ', req.query)
     debug(req.headers, req.params)
@@ -31,7 +31,7 @@ function routeFn (req, res, next, { administrations, regions, mainPageUrl }) {
     const parameters = Object.keys(req.query)
     const isQueryValid = parameters.includes('lat') && parameters.includes('lon')
     if (!isQueryValid) {
-      res.status(404).sendData({ error: 'Bad request for /gps. Check instrucions on ' + mainPageUrl })
+      res.status(404).sendData({ error: 'Bad request for /gps. Check instrucions on ' + gitProjectUrl })
       return
     }
 
