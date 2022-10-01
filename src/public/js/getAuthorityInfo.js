@@ -1,13 +1,14 @@
-/* global fetch, Option, Event */
+/* global fetch, location, Option, Event */
 
 (() => {
-  const geoApiUrl = 'https://geoapi.pt'
+  // replace by 'https://geoapi.pt' if you're not running your own API
+  const geoApiOrigin = location.origin
 
   const selectMunicipality = document.getElementById('select-municipio')
   const selectFreguesia = document.getElementById('select-freguesia')
 
   selectMunicipality.addEventListener('change', () => {
-    fetch(`${geoApiUrl}/municipios/${selectMunicipality.value}/freguesias?json=1`).then(res => res.json())
+    fetch(`${geoApiOrigin}/municipios/${selectMunicipality.value}/freguesias?json=1`).then(res => res.json())
       .then((res) => {
         // clean select
         const length = selectFreguesia.options.length
@@ -27,7 +28,7 @@
   })
 
   selectFreguesia.addEventListener('change', () => {
-    fetch(`${geoApiUrl}/freguesia/${selectFreguesia.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
+    fetch(`${geoApiOrigin}/freguesia/${selectFreguesia.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
       .then((res) => {
         const result = document.getElementById('result-freguesia')
         result.innerHTML = ''
@@ -40,7 +41,7 @@
       })
   })
 
-  fetch(`${geoApiUrl}/municipios?json=1`).then(res => res.json())
+  fetch(`${geoApiOrigin}/municipios?json=1`).then(res => res.json())
     .then((municipios) => {
       municipios.forEach(el => {
         selectMunicipality.options.add(new Option(el, el))
