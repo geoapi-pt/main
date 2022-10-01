@@ -1,6 +1,7 @@
-/* global fetch */
+/* global fetch, location */
 (() => {
-  const geoApiUrl = 'https://geoapi.pt'
+  // replace by 'https://geoapi.pt' if you're not running your own API
+  const geoApiOrigin = location.origin
 
   const inputCodigoPostal = document.getElementById('codigo-postal')
   const resultCodigoPostal = document.getElementById('result-codigo-postal')
@@ -10,13 +11,19 @@
       inputCodigoPostal.classList.add('border-danger')
     } else {
       inputCodigoPostal.classList.remove('border-danger')
-      fetch(`${geoApiUrl}/cp/${inputCodigoPostal.value}?json=1`)
+      fetch(`${geoApiOrigin}/cp/${inputCodigoPostal.value}?json=1`)
         .then(res => res.json())
         .then((cpResults) => {
           let html = ''
           for (const el in cpResults) {
             if (el !== 'partes' && el !== 'pontos' && el !== 'poligono') {
-              html += `<tr><th>${el}</th><td>${cpResults[el]}</td></tr>`
+              html += `<tr><th>${el}</th>`
+              if (el === 'CP' || el === 'CP4') {
+                html += `<td><a href="/cp/${cpResults[el]}">${cpResults[el]}</a></td>`
+              } else {
+                html += `<td>${cpResults[el]}</td>`
+              }
+              html += '</tr>'
             }
           }
           resultCodigoPostal.innerHTML = html

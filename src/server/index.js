@@ -108,7 +108,7 @@ function startServer (callback) {
   app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
 
   app.get('/', function (req, res) {
-    res.type('text/html').send('index', {
+    res.type('text/html').render('index', {
       layout: false,
       defaultOrigin: defaultOrigin,
       gitProjectUrl: gitProjectUrl,

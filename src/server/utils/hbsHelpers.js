@@ -4,7 +4,7 @@ const debug = require('debug')('geoapipt:helpers')
 
 module.exports = { obj2html, obj2dataAttribute, getHostnameFromUrl }
 
-function obj2html (data, defaultOrigin, typeOfLink) {
+function obj2html (data, typeOfLink) {
   /*
   Example of HTML table
   <div class="wrap-table100">
@@ -37,7 +37,7 @@ function obj2html (data, defaultOrigin, typeOfLink) {
     } else if (colPos === 2) {
       html +=
         '<div class="cell"></div>' +
-        `<div class="cell">${getLink(text, defaultOrigin, typeOfLink)}</div>`
+        `<div class="cell">${getLink(text, typeOfLink)}</div>`
     }
     html += '</div>'
   }
@@ -99,12 +99,12 @@ function obj2html (data, defaultOrigin, typeOfLink) {
   return html
 }
 
-function getLink (text, defaultOrigin, typeOfLink) {
+function getLink (text, typeOfLink) {
   switch (typeOfLink) {
     case 'municipality':
-      return `<a href="${defaultOrigin}/municipio/${encodeURIComponent(text)}">${text}</a>`
+      return `<a href="/municipio/${encodeURIComponent(text)}">${text}</a>`
     case 'parish':
-      return `<a href="${defaultOrigin}/freguesia/${encodeURIComponent(text)}">${text}</a>`
+      return `<a href="/freguesia/${encodeURIComponent(text)}">${text}</a>`
     default:
       return text
   }
