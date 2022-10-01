@@ -1,10 +1,12 @@
+const fs = require('fs')
 const path = require('path')
 const async = require('async')
 const appRoot = require('app-root-path')
 const { simpleSitemapAndIndex } = require('sitemap')
 const colors = require('colors/safe')
 
-const mainPageUrl = 'https://geoapi.pt'
+// origin=scheme+host+port, ex: http://example.com:8080
+const defaultOrigin = JSON.parse(fs.readFileSync(path.join(appRoot.path, 'configs.json'))).defaultOrigin
 
 const sitemapsDir = path.join(appRoot.path, 'src', 'public')
 
@@ -80,7 +82,7 @@ function createSitemap (cb) {
 
   // writes sitemaps and index out to the destination you provide.
   simpleSitemapAndIndex({
-    hostname: mainPageUrl,
+    hostname: defaultOrigin,
     destinationDir: sitemapsDir,
     sourceData: links
   }).then(() => {

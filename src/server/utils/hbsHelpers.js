@@ -2,12 +2,9 @@
 
 const debug = require('debug')('geoapipt:helpers')
 
-module.exports = {
-  obj2html: obj2html,
-  obj2dataAttribute: obj2dataAttribute
-}
+module.exports = { obj2html, obj2dataAttribute, getHostnameFromUrl }
 
-function obj2html (data) {
+function obj2html (data, defaultOrigin, typeOfLink) {
   /*
   Example of HTML table
   <div class="wrap-table100">
@@ -40,7 +37,7 @@ function obj2html (data) {
     } else if (colPos === 2) {
       html +=
         '<div class="cell"></div>' +
-        `<div class="cell">${text}</div>`
+        `<div class="cell">${getLink(text, defaultOrigin, typeOfLink)}</div>`
     }
     html += '</div>'
   }
@@ -102,6 +99,17 @@ function obj2html (data) {
   return html
 }
 
+function getLink (text, defaultOrigin, typeOfLink) {
+  switch (typeOfLink) {
+    case 'municipality':
+      return `<a href="${defaultOrigin}/municipio/${encodeURIComponent(text)}">${text}</a>`
+    case 'parish':
+      return `<a href="${defaultOrigin}/freguesia/${encodeURIComponent(text)}">${text}</a>`
+    default:
+      return text
+  }
+}
+
 function obj2dataAttribute (obj) {
   const str = encodeURIComponent(JSON.stringify(obj || {}))
   debug('obj2dataAttribute:', str)
@@ -110,4 +118,8 @@ function obj2dataAttribute (obj) {
 
 function isObj (data) {
   return typeof data === 'object' && !Array.isArray(data) && data !== null
+}
+
+function getHostnameFromUrl (url) {
+  return (new URL(url)).hostname
 }
