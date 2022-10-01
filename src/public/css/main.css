@@ -32,6 +32,10 @@ a:focus {
 	outline: none !important
 }
 
+#project_title a, 
+#project_title a:hover, 
+#project_title a:focus, 
+#project_title a:active
 a, a:hover, a:focus, a:active {
 	text-decoration: none;
 	color: inherit;
@@ -104,6 +108,10 @@ iframe {
 	justify-content: center;
 	flex-wrap: wrap;
 	padding: 20px 20px;
+}
+
+.container-table100 .row {
+	display: inherit;
 }
 
 .wrap-table100 {
