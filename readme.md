@@ -47,7 +47,7 @@
       <tr>
          <td>/cp/{CP4-CP3}</td>
          <td>Detalhes sobre Código Postal CP4-CP3</td>
-         <td><a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a></a></td>
+         <td><a href="https://geoapi.pt/cp/2495-300">https://geoapi.pt/cp/2495-300</a></td>
       </tr>
       <tr>
       <td>/cp/{CP4}</td>
