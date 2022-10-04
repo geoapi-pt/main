@@ -13,9 +13,9 @@
 | Caminho | Propósito | Exemplo  |
 |-----|---------|---|
 | /gps/{latitude},{longitude}  | Distrito, Município e Freguesia através de coordenadas GPS  | [https://geoapi.pt/gps/40.153687,-8.51460](https://geoapi.pt/gps/40.153687,-8.514602)  |
-| /municipio/{município}  | Detalhes sobre Município  | [https://geoapi.pt/municipio/Évora](https://geoapi.pt/municipio/Évora)  |
+| /municipios/{município}  | Detalhes sobre Município  | [https://geoapi.pt/municipios/Évora](https://geoapi.pt/municipios/Évora)  |
 | /municipios/{município}/freguesias  | Lista de Freguesias no Município  | [https://geoapi.pt/municipios/porto/freguesias](https://geoapi.pt/municipios/porto/freguesias)  |
-| /freguesia/{freguesia}  | Detalhes sobre Freguesia  | [https://geoapi.pt/freguesia/serzedelo](https://geoapi.pt/freguesia/serzedelo)  |
+| /freguesias/{freguesia}  | Detalhes sobre Freguesia  | [https://geoapi.pt/freguesias/serzedelo](https://geoapi.pt/freguesias/serzedelo)  |
 | /distritos/municipios  | Municípios por Distrito  | [https://geoapi.pt/distritos/municipios](https://geoapi.pt/distritos/municipios)  |
 | /cp/{CP4-CP3}  | Detalhes sobre Código Postal CP4-CP3  | [https://geoapi.pt/cp/2495-300](https://geoapi.pt/cp/2495-300)  |
 | /cp/{CP4}  | Detalhes sobre Código Postal CP4  | [https://geoapi.pt/cp/2495](https://geoapi.pt/cp/2495)  |
