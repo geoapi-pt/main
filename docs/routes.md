@@ -61,13 +61,13 @@ You may also request details for the returned municipality and parish with<br>`/
 }
 ```
 ### Administrative regions
-#### /municipio or /municipios
+#### /municipios
 
 With no parameters, returns an array with municipalities names, alphabetically sorted.
 
 Accept parameters `nome`, `codigo`, `nif`, `codigopostal`, `email`, `telefone`, `fax`, `sitio` and `codigoine`.
 
-The requests `/municipio/Évora` and `/municipio?nome=Évora` are equivalent and will return:
+The requests `/municipios/Évora` and `/municipios?nome=Évora` are equivalent and will return:
 
 ```json
 {
@@ -89,13 +89,13 @@ The requests `/municipio/Évora` and `/municipio?nome=Évora` are equivalent and
 }
 ```
 
-#### /freguesia or /freguesias
+#### /freguesias
 
 With no parameters, returns a JSON array with parishes (freguesias) names, alphabetically sorted.
 
 Accept parameter `nome`, which makes reference to fields `nome`, `nomecompleto` and `nomecompleto2`. Also accepts parameters `municipio`, `codigo`, `nif`, `codigopostal`, `email`, `telefone`, `fax`, `sitio` and `codigoine`.
 
-The requests `/freguesia/serzedelo` and `/freguesia?nome=serzedelo` are equivalent and will return
+The requests `/freguesias/serzedelo` and `/freguesias?nome=serzedelo` are equivalent and will return
 
 ```json
 [
@@ -142,7 +142,7 @@ The requests `/freguesia/serzedelo` and `/freguesia?nome=serzedelo` are equivale
 ]
 ```
 
-And the request `/freguesia?nome=serzedelo&municipio=guimarães` will return
+And the request `/freguesias?nome=serzedelo&municipio=guimarães` will return
 
 ```json
 {
