@@ -67,7 +67,7 @@ With no parameters, returns an array with municipalities names, alphabetically s
 
 Accept parameters `nome`, `codigo`, `nif`, `codigopostal`, `email`, `telefone`, `fax`, `sitio` and `codigoine`.
 
-The requests `/municipios/Évora` and `/municipios?nome=Évora` are equivalent and will return:
+The requests `/municipios/évora` and `/municipios?nome=évora` are equivalent and will return:
 
 ```json
 {
