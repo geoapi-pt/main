@@ -27,7 +27,7 @@ Para mais informações ver [`docs/routes.md`](/docs/routes.md).
 
 # GEO API PT
 
-Provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira.
+[RESTful API](https://restfulapi.net/) which provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira.
 
 It also provides information on Postal Codes.
 
@@ -39,7 +39,7 @@ It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/bench
 
 By default the server replies with `text/html` format. To receive JSON format, either
 
- - add the query parameter `json=1` to the URL (ex.: `/municipio/Évora?json=1`)
+ - add the query parameter `json=1` to the URL (ex.: `/municipio/évora?json=1`)
  - in the GET request set the HTTP header Accept as JSON, that is, `Accept: application/json`
 
 ## Install this API on your machine

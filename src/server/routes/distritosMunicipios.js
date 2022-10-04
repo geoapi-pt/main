@@ -2,7 +2,7 @@ const debug = require('debug')('geoapipt:server')
 
 module.exports = {
   fn: routeFn,
-  route: /^\/distritos?\/municipios?$/
+  route: '/distritos/municipios'
 }
 
 function routeFn (req, res, next, { administrations }) {
