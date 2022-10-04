@@ -207,13 +207,13 @@ function testAllParishesFromServerRequest (mainCallback) {
     })
     .catch(err => {
       console.error(err)
-      mainCallback(Error(`\n${err} on /municipio/freguesias`))
+      mainCallback(Error(`\n${err} on /municipios/freguesias`))
     })
 }
 
 // function to test a single parish-municipality combination
 function testParishWithMunicipality (parish, municipality, callback) {
-  got(`http://localhost:${TEST_PORT}/freguesia?nome=${parish}&municipio=${municipality}`).json()
+  got(`http://localhost:${TEST_PORT}/freguesias?nome=${parish}&municipio=${municipality}`).json()
     .then(body => {
       if (typeof body !== 'object' || Array.isArray(body)) {
         callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on /freguesia?nome=${parish}&municipio=${municipality}\n`))
@@ -225,7 +225,7 @@ function testParishWithMunicipality (parish, municipality, callback) {
     })
     .catch(err => {
       console.error(err)
-      callback(Error(`\n${err} on /freguesia?nome=${parish}&municipio=${municipality}\n`))
+      callback(Error(`\n${err} on /freguesias?nome=${parish}&municipio=${municipality}\n`))
     })
 }
 
