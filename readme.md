@@ -17,6 +17,7 @@
 | /municipios/{município}/freguesias  | Lista de Freguesias no Município  | [https://geoapi.pt/municipios/porto/freguesias](https://geoapi.pt/municipios/porto/freguesias)  |
 | /freguesias/{freguesia}  | Detalhes sobre Freguesia  | [https://geoapi.pt/freguesias/serzedelo](https://geoapi.pt/freguesias/serzedelo)  |
 | /distritos/municipios  | Municípios por Distrito  | [https://geoapi.pt/distritos/municipios](https://geoapi.pt/distritos/municipios)  |
+| /distritos  | Lista de Distritos  | [https://geoapi.pt/distritos](https://geoapi.pt/distritos)  |
 | /cp/{CP4-CP3}  | Detalhes sobre Código Postal CP4-CP3  | [https://geoapi.pt/cp/2495-300](https://geoapi.pt/cp/2495-300)  |
 | /cp/{CP4}  | Detalhes sobre Código Postal CP4  | [https://geoapi.pt/cp/2495](https://geoapi.pt/cp/2495)  |
 
