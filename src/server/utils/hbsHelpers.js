@@ -102,9 +102,9 @@ function obj2html (data, typeOfLink) {
 function getLink (text, typeOfLink) {
   switch (typeOfLink) {
     case 'municipality':
-      return `<a href="/municipio/${encodeURIComponent(text)}">${text}</a>`
+      return `<a href="/municipios/${encodeURIComponent(text)}">${text}</a>`
     case 'parish':
-      return `<a href="/freguesia/${encodeURIComponent(text)}">${text}</a>`
+      return `<a href="/freguesias/${encodeURIComponent(text)}">${text}</a>`
     default:
       return text
   }
