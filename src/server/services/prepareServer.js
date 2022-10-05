@@ -12,6 +12,7 @@ const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:prepareServer') // run: DEBUG=geoapipt:prepareServer npm start
+const debugGeojson = require('debug')('geoapipt:geojson') // run: DEBUG=geoapipt:geojson npm start
 
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
@@ -156,6 +157,7 @@ function readShapefile (mainCallback) {
     if (err) {
       mainCallback(Error(err))
     } else {
+      debugGeojson(regions.cont.geojson.features.filter(el => el.properties.Concelho.toLowerCase().includes('lisboa')))
       setTimeout(mainCallback, 3000) // this must be here because shapefile.read is buggy
     }
   })
