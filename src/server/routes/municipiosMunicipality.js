@@ -16,7 +16,7 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   // if name is not provided in query, consider parameter from url instead
-  // example /municipio/Évora
+  // example /municipios/évora
   if (req.params.municipality && !req.query.nome) {
     req.query.nome = req.params.municipality
   }

@@ -11,7 +11,7 @@ function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
   // if name is not provided in query, consider parameter from url instead
-  // example /freguesia/serzedelo
+  // example /freguesias/serzedelo
   if (req.params.parish && !req.query.nome) {
     req.query.nome = req.params.parish
   }

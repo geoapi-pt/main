@@ -63,16 +63,16 @@ function createSitemap (cb) {
     links.push({ url: `/cp/${CP4}`, changefreq: 'daily', priority: 0.5 })
   }
 
-  // /municipio/{município} and /municipios/{município}/freguesias
+  // /municipios/{município} and /municipios/{município}/freguesias
   for (const municipality of administrations.listOfMunicipalitiesNames) {
-    links.push({ url: `/municipio/${encodeURIComponent(municipality)}`, changefreq: 'daily', priority: 0.5 })
-    links.push({ url: `/municipio/${encodeURIComponent(municipality)}/freguesias`, changefreq: 'daily', priority: 0.5 })
+    links.push({ url: `/municipios/${encodeURIComponent(municipality)}`, changefreq: 'daily', priority: 0.5 })
+    links.push({ url: `/municipios/${encodeURIComponent(municipality)}/freguesias`, changefreq: 'daily', priority: 0.5 })
   }
 
-  // /freguesia/{freguesia}, replace(/ *\([^)]*\) */g, "") removes text between parentheses
+  // /freguesias/{freguesia}, replace(/ *\([^)]*\) */g, "") removes text between parentheses
   for (const parish of administrations.listOfParishesNames) {
     links.push({
-      url: `/freguesia/${encodeURIComponent(parish.replace(/ *\([^)]*\) */g, ''))}`,
+      url: `/freguesias/${encodeURIComponent(parish.replace(/ *\([^)]*\) */g, ''))}`,
       changefreq: 'daily',
       priority: 0.5
     })

@@ -95,9 +95,9 @@ const jsonResFiles = {
 // for municipalities and parishes
 const administrations = {
   parishesDetails: [], // array with details of freguesias
-  keysOfParishesDetails: [], // used to validate request parameters of /freguesia
+  keysOfParishesDetails: [], // used to validate request parameters of /freguesias
   municipalitiesDetails: [], // array with details of municípios
-  keysOfMunicipalitiesDetails: [], // used to validate request parameters of /municipio
+  keysOfMunicipalitiesDetails: [], // used to validate request parameters of /municipios
   listOfParishesNames: [], // an array with just names/strings of freguesias
   listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
   listOfMunicipalitiesWithParishes: [], // array of objects, each object corresponding to a municipality and an array of its parishes
@@ -259,7 +259,7 @@ function readJsonFiles (mainCallback) {
       }
     }
 
-    // build administrations.keysOfMunicipalitiesDetails, used to validate request parameters of /municipio
+    // build administrations.keysOfMunicipalitiesDetails, used to validate request parameters of /municipios
     for (const municipality of administrations.municipalitiesDetails) {
       for (const key in municipality) {
         if (!administrations.keysOfMunicipalitiesDetails.includes(key)) {
@@ -338,7 +338,7 @@ function readJsonFiles (mainCallback) {
       }
     }
 
-    // build administrations.keysOfParishesDetails, used to validate request parameters of /freguesia
+    // build administrations.keysOfParishesDetails, used to validate request parameters of /freguesias
     for (const parish of administrations.parishesDetails) {
       for (const key in parish) {
         if (!administrations.keysOfParishesDetails.includes(key)) {
