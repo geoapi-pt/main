@@ -40,7 +40,7 @@ It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/bench
 
 By default the server replies with `text/html` format. To receive JSON format, either
 
- - add the query parameter `json=1` to the URL (ex.: `/municipio/évora?json=1`)
+ - add the query parameter `json=1` to the URL (ex.: `/municipios/évora?json=1`)
  - in the GET request set the HTTP header Accept as JSON, that is, `Accept: application/json`
 
 ## Install this API on your machine

@@ -143,7 +143,7 @@ function buildMetaParishes (callback) {
 
 // function to test the server with all parishes located on geoson
 function testAllParishesFromGeojson (mainCallback) {
-  console.log('Test server with all parishes from geojson file, requesting server with url /freguesia?nome=parish&municipio=municipality')
+  console.log('Test server with all parishes from geojson file, requesting server with url /freguesias?nome=parish&municipio=municipality')
   const bar = new ProgressBar('[:bar] :percent :info', { total: Parishes.length + 1, width: 80 })
   async.forEachOfLimit(Parishes, 100, function (el, key, callback) {
     testParishWithMunicipality(el.parish, el.municipality, (err, res) => {
@@ -216,11 +216,11 @@ function testParishWithMunicipality (parish, municipality, callback) {
   got(`http://localhost:${TEST_PORT}/freguesias?nome=${parish}&municipio=${municipality}`).json()
     .then(body => {
       if (typeof body !== 'object' || Array.isArray(body)) {
-        callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on /freguesia?nome=${parish}&municipio=${municipality}\n`))
+        callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on /freguesias?nome=${parish}&municipio=${municipality}\n`))
       } else if (body.nome && !body.error && !body.erro) {
         callback(null, body) // success
       } else {
-        callback(Error(`\nError ${body.error}, on /freguesia?nome=${parish}&municipio=${municipality}\n`))
+        callback(Error(`\nError ${body.error}, on /freguesias?nome=${parish}&municipio=${municipality}\n`))
       }
     })
     .catch(err => {
