@@ -158,6 +158,11 @@ function readShapefile (mainCallback) {
       mainCallback(Error(err))
     } else {
       debugGeojson(regions.cont.geojson.features.filter(el => el.properties.Concelho.toLowerCase().includes('lisboa')))
+      // when this debug is enabled, I just want to see the contents of geojson
+      if (debugGeojson.enabled) {
+        setTimeout(process.exit, 500)
+      }
+
       setTimeout(mainCallback, 3000) // this must be here because shapefile.read is buggy
     }
   })
