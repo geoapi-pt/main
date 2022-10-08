@@ -15,6 +15,7 @@
 | /gps/{latitude},{longitude}  | Distrito, Município e Freguesia através de coordenadas GPS  | [https://geoapi.pt/gps/40.153687,-8.51460](https://geoapi.pt/gps/40.153687,-8.514602)  |
 | /municipios/{município}  | Detalhes sobre Município  | [https://geoapi.pt/municipios/évora](https://geoapi.pt/municipios/évora)  |
 | /municipios/{município}/freguesias  | Lista de Freguesias no Município  | [https://geoapi.pt/municipios/porto/freguesias](https://geoapi.pt/municipios/porto/freguesias)  |
+| /municipios/{município}/freguesias/{freguesia}  | Detalhes sobre Freguesia de um Município  | [https://geoapi.pt/municipios/guimarães/freguesias/serzedelo](https://geoapi.pt/municipios/guimarães/freguesias/serzedelo)  |
 | /freguesias/{freguesia}  | Detalhes sobre Freguesia  | [https://geoapi.pt/freguesias/serzedelo](https://geoapi.pt/freguesias/serzedelo)  |
 | /freguesias  | Lista de todas as Freguesias  | [https://geoapi.pt/freguesias](https://geoapi.pt/freguesias)  |
 | /distritos/municipios  | Municípios por Distrito  | [https://geoapi.pt/distritos/municipios](https://geoapi.pt/distritos/municipios)  |
