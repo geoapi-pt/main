@@ -10,7 +10,7 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
       const dataToBeSent = data.error ? { erro: data.error } : data.data
 
       res.set('Connection', 'close')
-      if (req.accepts(['html', 'json']) === 'json' || parseInt(req.query.json)) {
+      if (req.accepts(['html', 'json']) === 'json' || parseInt(req.query.json) || req.query.json === 'true') {
         res.json(dataToBeSent)
       } else {
         res.type('text/html')
