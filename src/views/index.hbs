@@ -9,67 +9,86 @@
 
 <div class="limiter" style="padding: 3% 10% 0 10%;">
    <div class="table-responsive">
-   <table class="table table-hover">
-      <thead>
-         <tr>
-           <th scope="col">Caminho</th>
-           <th scope="col">Propósito</th>
-           <th scope="col">Exemplo</th>
-         </tr>
-       </thead>
-      <tbody>
-         <tr>
-            <th scope="row">/gps/{latitude},{longitude}</th>
-            <td>Distrito, Município e Freguesia através de coordenadas GPS</td>
-            <td><a href="/gps/40.153687,-8.514602">/gps/40.153687,-8.514602</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/municipios/{município}</th>
-            <td>Detalhes sobre Município</td>
-            <td><a href="/municipios/évora">/municipios/évora</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/municipios/{município}/freguesias</th>
-            <td>Lista de Freguesias no Município</td>
-            <td><a href="/municipios/porto/freguesias">/municipios/porto/freguesias</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/municipios/{município}/freguesias/{freguesia}</th>
-            <td>Detalhes sobre Freguesia de um Município</td>
-            <td><a href="/municipios/guimarães/freguesias/serzedelo">/municipios/guimarães/freguesias/serzedelo</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/freguesias/{freguesia}</th>
-            <td>Detalhes sobre Freguesia</td>
-            <td><a href="/freguesias/serzedelo">/freguesias/serzedelo</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/freguesias</th>
-            <td>Lista de todas as Freguesias</td>
-            <td><a href="/freguesias">/freguesias</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/distritos/municipios</th>
-            <td>Municípios por Distrito</td>
-            <td><a href="/distritos/municipios">/distritos/municipios</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/distritos</th>
-            <td>Lista de Distrito</td>
-            <td><a href="/distritos">/distritos</a></td>
-         </tr>
-         <tr>
-            <th scope="row">/cp/{CP4-CP3}</th>
-            <td>Detalhes sobre Código Postal CP4-CP3</td>
-            <td><a href="/cp/2495-300">/cp/2495-300</a></td>
-         </tr>
-         <tr>
-         <th scope="row">/cp/{CP4}</th>
-            <td>Detalhes sobre Código Postal CP4</td>
-            <td><a href="/cp/2495">/cp/2495</a></td>
-         </tr>
-       </tbody>
-   </table>
+      <table class="table table-hover">
+         <thead>
+            <tr class="table-info2">
+               <th scope="col">Caminho</th>
+               <th scope="col">Propósito</th>
+               <th scope="col">Exemplo</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="table-info2">
+               <th scope="row" colspan="3">Georreferenciação</th>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}</th>
+               <td>Distrito, Município e Freguesia através de coordenadas GPS</td>
+               <td><a href="/gps/40.153687,-8.514602">/gps/40.153687,-8.514602</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}/detalhes</th>
+               <td>Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia</td>
+               <td><a href="/gps/40.153687,-8.514602/detalhes">/gps/40.153687,-8.514602/detalhes</a></td>
+            </tr>
+            <tr class="table-info2">
+               <th scope="row" colspan="3">Divisões administrativas</th>
+            </tr>
+            <tr>
+               <th scope="row">/municipios/{município}</th>
+               <td>Detalhes sobre Município</td>
+               <td><a href="/municipios/évora">/municipios/évora</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/municipios/{município}/freguesias</th>
+               <td>Lista de Freguesias no Município</td>
+               <td><a href="/municipios/porto/freguesias">/municipios/porto/freguesias</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/freguesias</th>
+               <td>Lista de todas as Freguesias</td>
+               <td><a href="/freguesias">/freguesias</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/freguesias/{freguesia}</th>
+               <td>Detalhes sobre Freguesia</td>
+               <td><a href="/freguesias/serzedelo">/freguesias/serzedelo</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/municipios/{município}/freguesias/{freguesia}</th>
+               <td>Detalhes sobre Freguesia de um Município</td>
+               <td><a href="/municipios/guimarães/freguesias/serzedelo">/municipios/guimarães/freguesias/serzedelo</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distritos</th>
+               <td>Lista de todos os Distritos</td>
+               <td><a href="/distritos">/distritos</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distritos/municipios</th>
+               <td>Lista de todos os Distritos com respetivos Municípios</td>
+               <td><a href="/distritos/municipios">/distritos/municipios</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distritos/{distrito}/municipios</th>
+               <td>Lista de Municípios do Distrito</td>
+               <td><a href="/distritos/lisboa/municipios">/distritos/lisboa/municipios</a></td>
+            </tr>
+            <tr class="table-info2">
+               <th scope="row" colspan="3">Códigos Postais</th>
+            </tr>
+            <tr>
+               <th scope="row">/cp/{CP4-CP3}</th>
+               <td>Detalhes sobre Código Postal CP4-CP3</td>
+               <td><a href="/cp/2495-300">/cp/2495-300</a></td>
+            </tr>
+            <tr>
+            <th scope="row">/cp/{CP4}</th>
+               <td>Detalhes sobre Código Postal CP4</td>
+               <td><a href="/cp/2495">/cp/2495</a></td>
+            </tr>
+         </tbody>
+      </table>
    </div>
    <p>Para quaisquer resultados em JSON basta adicionar a variável <code>json=1</code> ao pedido GET (<a href="/cp/2495-300?json=1">exemplo</a>), ou colocar <code>Accept: application/json</code> no cabeçalho HTTP.</p>
 </div>
