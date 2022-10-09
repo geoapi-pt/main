@@ -6,7 +6,7 @@ const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFun
 
 module.exports = {
   fn: routeFn,
-  route: ['/gps', '/gps/:lat?,:lon?']
+  route: ['/gps', '/gps/:lat?,:lon?', '/gps/:lat?,:lon?/detalhes']
 }
 
 function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
@@ -43,7 +43,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
     const lat = parseFloat(req.query.lat) // ex: 40.153687
     const lon = parseFloat(req.query.lon) // ex: -8.514602
-    const isDetails = Boolean(parseInt(req.query.detalhes))
+    const isDetails = Boolean(parseInt(req.query.detalhes)) || req.originalUrl.includes('/detalhes')
 
     const point = [lon, lat] // longitude, latitude
 
