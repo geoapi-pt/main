@@ -76,9 +76,9 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
           // search for details for municipalities by name
           const numberOfMunicipalities = administrations.municipalitiesDetails.length
-          const concelho = normalizeName(freguesia.properties.Concelho)
+          const municipality = normalizeName(freguesia.properties.Concelho)
           for (let i = 0; i < numberOfMunicipalities; i++) {
-            if (concelho === normalizeName(administrations.municipalitiesDetails[i].nome)) {
+            if (municipality === normalizeName(administrations.municipalitiesDetails[i].nome)) {
               local.detalhesMunicipio = administrations.municipalitiesDetails[i]
               break // found it, break loop
             }
