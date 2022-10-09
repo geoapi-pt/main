@@ -15,7 +15,7 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
       } else {
         res.type('text/html')
 
-        res.render(data.template || 'home', {
+        res.render(data.template || 'result', {
           layout: false,
           defaultOrigin: defaultOrigin,
           gitProjectUrl: gitProjectUrl,
