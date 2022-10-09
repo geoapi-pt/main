@@ -5,51 +5,35 @@ const debug = require('debug')('geoapipt:helpers')
 module.exports = { obj2html, obj2dataAttribute, getHostnameFromUrl }
 
 function obj2html (data, typeOfLink) {
-  /*
-  Example of HTML table
-  <div class="wrap-table100">
-      <div class="table">
-        <div class="row">
-            <div class="cell" data-title="Full Name">
-              Vincent Williamson
-            </div>
-            <div class="cell" data-title="Age">
-              31
-            </div>
-        </div>
-      </div>
-  </div>
-  */
-
   let html = ''
 
-  const tableStart = '<div class="wrap-table100"><div class="table">'
-  const tableEnd = '</div></div>'
+  const tableStart = '<table class="table"><tbody>'
+  const tableEnd = '</tbody></table>'
 
   const renderTextAsRow = function (text, colPos) {
-    html += '<div class="row">'
+    html += '<tr>'
     if (!colPos) {
-      html += `<div class="cell">${text}</div>`
+      html += `<th scope="row" colspan="2">${text}</th>`
     } else if (colPos === 1) {
       html +=
-        `<div class="cell">${text}</div>` +
-        '<div class="cell"></div>'
+        `<th class="w-50" scope="row">${text}</th>` +
+        '<td class="w-50"></td>'
     } else if (colPos === 2) {
       html +=
-        '<div class="cell"></div>' +
-        `<div class="cell">${getLink(text, typeOfLink)}</div>`
+        '<td class="w-50"></td>' +
+        `<td class="w-50">${getLink(text, typeOfLink)}</td>`
     }
-    html += '</div>'
+    html += '</tr>'
   }
 
   const renderObjAsRow = function (obj) {
     for (const key in obj) {
       if (typeof obj[key] === 'string' || typeof obj[key] === 'number') {
         html +=
-          '<div class="row">' +
-          `  <div class="cell">${key}</div>` +
-          `  <div class="cell">${obj[key]}</div>` +
-          '</div>'
+          '<tr>' +
+          `  <td class="w-50">${key}</td>` +
+          `  <td class="w-50">${obj[key]}</td>` +
+          '</tr>'
       } else if (isObj(obj[key])) {
         renderTextAsRow(key)
         renderObjAsRow(obj[key])

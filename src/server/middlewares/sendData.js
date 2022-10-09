@@ -20,6 +20,7 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
           defaultOrigin: defaultOrigin,
           gitProjectUrl: gitProjectUrl,
           pageTitle: data.pageTitle ? `${data.pageTitle} - ${mainTitle}` : mainTitle,
+          pageDescription: data.pageTitle || '',
           siteDescription: siteDescription,
           input: data.input || {},
           data: dataToBeSent,
