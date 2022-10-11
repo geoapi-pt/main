@@ -3,6 +3,7 @@ const path = require('path')
 const express = require('express')
 const rateLimit = require('express-rate-limit')
 const exphbs = require('express-handlebars')
+const OpenApiValidator = require('express-openapi-validator')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const async = require('async')
@@ -81,6 +82,9 @@ function startServer (callback) {
   app.use(bodyParser.json())
   app.use(nocache())
 
+  app.use(express.text())
+  app.use(express.json())
+
   const hbs = exphbs.create({
     extname: '.hbs',
     helpers: hbsHelpers
@@ -91,6 +95,13 @@ function startServer (callback) {
   app.set('views', path.join(__dirname, '..', 'views'))
 
   app.use('/', express.static(path.join(__dirname, '..', 'public')))
+
+  app.use(
+    OpenApiValidator.middleware({
+      apiSpec: path.join(__dirname, '..', 'public', 'openapi.yaml'),
+      validateRequests: true
+    })
+  )
 
   // Apply the rate limiting middleware to all requests
   if (argvOptions.rateLimit) {
@@ -133,8 +144,12 @@ function startServer (callback) {
     callback(Error(err))
   }
 
-  app.use(function (req, res) {
-    res.status(404).sendData({ error: 'Bad request. Check instrucions on ' + gitProjectUrl })
+  app.use((err, req, res, next) => {
+    // format errors
+    res.status(err.status || 500).json({
+      mensagem: `${err.message}. Check also instrucions on ${gitProjectUrl}`,
+      erros: err.errors
+    })
   })
 
   const server = app.listen(serverPort, () => {
