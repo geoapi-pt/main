@@ -1,0 +1,245 @@
+openapi: 3.0.1
+info:
+  title: GEO API PT
+  description: Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação e códigos postais
+  version: '1.0'
+servers:
+  - url: /
+paths:
+  /:
+    summary: Página principal
+    get:
+      responses:
+        '200':
+          description: Página principal
+          content:
+            text/html:
+              schema:
+                type: string
+
+  /gps/{latitude},{longitude}:
+    summary: Distrito, Município e Freguesia através de coordenadas GPS
+    get:
+      parameters:
+        - in: path
+          name: latitude
+          required: true
+          schema:
+            type: number
+            example: 40.153687
+          description: Latitude da coordenada
+        - in: path
+          name: longitude
+          required: true
+          schema:
+            type: number
+            example: -8.514602
+          description: Longitude da coordenada
+      responses:
+        '200':
+          description: Distrito, Município e Freguesia através de coordenadas GPS
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /gps/{latitude},{longitude}/detalhes:
+    summary: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
+    get:
+      parameters:
+        - in: path
+          name: latitude
+          required: true
+          schema:
+            type: number
+            example: 40.153687
+          description: Latitude da coordenada
+        - in: path
+          name: longitude
+          required: true
+          schema:
+            type: number
+            example: -8.514602
+          description: Longitude da coordenada
+      responses:
+        '200':
+          description: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
+          content:
+            application/json:
+              schema:
+                type: string
+  
+  /municipios/{município}:
+    summary: Detalhes sobre Município  
+    get:
+      parameters:
+        - in: path
+          name: município
+          required: true
+          schema:
+            type: string
+            example: évora
+          description: Município
+      responses:
+        '200':
+          description: Detalhes do município
+          content:
+            application/json:
+              schema:
+                type: string
+  
+  /municipios/{município}/freguesias:
+    summary: Lista de Freguesias no Município
+    get:
+      parameters:
+        - in: path
+          name: município
+          required: true
+          schema:
+            type: string
+            example: évora
+          description: Município
+      responses:
+        '200':
+          description: Lista de Freguesias no Município
+          content:
+            application/json:
+              schema:
+                type: string
+  
+  /freguesias:
+    summary: Lista de todas as Freguesias
+    get:
+      responses:
+        '200':
+          description: Lista de todas as Freguesias
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /freguesias/{freguesia}:
+    summary: Detalhes sobre Freguesia(s)
+    get:
+      parameters:
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          description: Freguesia
+      responses:
+        '200':
+          description: Lista de Freguesias que correspondem à procura
+          content:
+            application/json:
+              schema:
+                type: string
+                
+  /municipios/{município}/freguesias/{freguesia}:
+    summary: Detalhes sobre Freguesia de um determinado Município
+    get:
+      parameters:
+        - in: path
+          name: município
+          required: true
+          schema:
+            type: string
+            example: guimarães
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          description: Município
+      responses:
+        '200':
+          description: Detalhes da Freguesia
+          content:
+            application/json:
+              schema:
+                type: string
+  
+  /distritos:
+    summary: Lista de todos os Distritos
+    get:
+      responses:
+        '200':
+          description: Lista de todos os Distritos
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /distritos/municipios:
+    summary: Lista de todos os Distritos com respetivos Municípios
+    get:
+      responses:
+        '200':
+          description: Lista de todos os Distritos com respetivos Municípios
+          content:
+            application/json:
+              schema:
+                type: string
+                
+  /distritos/{distrito}/municipios:
+    summary: Lista de Municípios do Distrito
+    get:
+      parameters:
+        - in: path
+          name: distrito
+          required: true
+          schema:
+            type: string
+            example: porto
+          description: Distrito
+      responses:
+        '200':
+          description: Lista de Municípios do Distrito
+          content:
+            application/json:
+              schema:
+                type: string
+                
+  /cp/{CP7}:
+    summary: Detalhes sobre Código Postal CP7
+    get:
+      parameters:
+        - in: path
+          name: CP7
+          required: true
+          schema:
+            type: string
+            pattern: '^\d{4}-\d{3}$'
+            example: '2495-300'
+          description: Código Postal CP7
+      responses:
+        '200':
+          description: Detalhes sobre Código Postal CP7
+          content:
+            application/json:
+              schema:
+                type: string
+                
+  /cp/{CP4}:
+    summary: Detalhes sobre Código Postal CP4
+    get:
+      parameters:
+        - in: path
+          name: CP4
+          required: true
+          schema:
+            type: string
+            pattern: '^\d{4}$'
+            example: '2495'
+          description: Código Postal CP4
+      responses:
+        '200':
+          description: Detalhes sobre Código Postal CP4
+          content:
+            application/json:
+              schema:
+                type: string
