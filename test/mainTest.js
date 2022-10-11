@@ -284,7 +284,7 @@ function testSomeGpsCoordinates (mainCallback) {
         }
       })
       .catch(err => {
-        eachCallback(Error(`\n${err} on /cp/1950-449\n`))
+        eachCallback(Error(`\n${err} on ${urlAbsolutePath}\n`))
       })
   }).then(() => {
     console.log(colors.green('GPS route tested OK\n'))
