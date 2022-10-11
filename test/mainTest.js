@@ -213,24 +213,27 @@ function testAllParishesFromServerRequest (mainCallback) {
 
 // function to test a single parish-municipality combination
 function testParishWithMunicipality (parish, municipality, callback) {
-  got(`http://localhost:${TEST_PORT}/freguesias?nome=${parish}&municipio=${municipality}`).json()
+  const url = `http://localhost:${TEST_PORT}` +
+              `/freguesias?nome=${encodeURIComponent(parish)}&municipio=${encodeURIComponent(municipality)}`
+  got(url)
+    .json()
     .then(body => {
       if (typeof body !== 'object' || Array.isArray(body)) {
-        callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on /freguesias?nome=${parish}&municipio=${municipality}\n`))
+        callback(Error(`\nResult is not an object: ${JSON.stringify(body)},\n on ${url}\n`))
       } else if (body.nome && !body.error && !body.erro) {
         callback(null, body) // success
       } else {
-        callback(Error(`\nError ${body.error}, on /freguesias?nome=${parish}&municipio=${municipality}\n`))
+        callback(Error(`\nError ${JSON.stringify(body)},\n on ${url}\n`))
       }
     })
     .catch(err => {
-      console.error(err)
-      callback(Error(`\n${err} on /freguesias?nome=${parish}&municipio=${municipality}\n`))
+      callback(Error(`\n${JSON.stringify(err)},\n on ${url}\n`))
     })
 }
 
 function testPostalCode (callback) {
-  got(`http://localhost:${TEST_PORT}/cp/1950-449`).json()
+  got(`http://localhost:${TEST_PORT}/cp/1950-449`)
+    .json()
     .then(body => {
       if (body.error || body.erro) {
         console.error(body.error || body.erro)
