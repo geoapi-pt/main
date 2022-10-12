@@ -33,6 +33,7 @@ const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
 const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
+const errorMiddleware = require(path.join(middlewaresDir, 'error.js'))
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
 
 const argvOptions = commandLineArgs([
@@ -96,6 +97,8 @@ function startServer (callback) {
 
   app.use('/', express.static(path.join(__dirname, '..', 'public')))
 
+  app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
+
   app.use(
     OpenApiValidator.middleware({
       apiSpec: path.join(__dirname, '..', 'public', 'openapi.yaml'),
@@ -115,8 +118,6 @@ function startServer (callback) {
   }
 
   shieldsioCounters.setTimers()
-
-  app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
 
   app.get('/', function (req, res) {
     res.type('text/html').render('index', {
@@ -144,13 +145,7 @@ function startServer (callback) {
     callback(Error(err))
   }
 
-  app.use((err, req, res, next) => {
-    // format errors
-    res.status(err.status || 500).json({
-      mensagem: `${err.message}. Check also instrucions on ${gitProjectUrl}`,
-      erros: err.errors
-    })
-  })
+  app.use(errorMiddleware({ gitProjectUrl }))
 
   const server = app.listen(serverPort, () => {
     // if this is a test to merely test the start up of the server
