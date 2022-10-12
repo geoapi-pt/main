@@ -21,9 +21,9 @@
             if (el !== 'partes' && el !== 'pontos' && el !== 'poligono') {
               html += `<tr><th>${el}</th>`
               if (el === 'CP' || el === 'CP4') {
-                html += `<td><a href="/cp/${cpResults[el]}">${cpResults[el]}</a></td>`
+                html += `<td class="w-50"><a href="/cp/${cpResults[el]}">${cpResults[el]}</a></td>`
               } else {
-                html += `<td>${cpResults[el]}</td>`
+                html += `<td class="w-50"${cpResults[el]}</td>`
               }
               html += '</tr>'
             }

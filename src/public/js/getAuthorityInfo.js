@@ -33,7 +33,7 @@
         const result = document.getElementById('result-freguesia')
         result.innerHTML = ''
         for (const el in res) {
-          result.innerHTML += `<tr><th>${el}</th><td>${res[el]}</td></tr>`
+          result.innerHTML += `<tr><th class="w-50">${el}</th><td class="w-50">${res[el]}</td></tr>`
         }
       })
       .catch((err) => {
