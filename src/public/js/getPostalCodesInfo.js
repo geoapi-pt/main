@@ -23,7 +23,7 @@
               if (el === 'CP' || el === 'CP4') {
                 html += `<td class="w-50"><a href="/cp/${cpResults[el]}">${cpResults[el]}</a></td>`
               } else {
-                html += `<td class="w-50"${cpResults[el]}</td>`
+                html += `<td class="w-50">${cpResults[el]}</td>`
               }
               html += '</tr>'
             }
