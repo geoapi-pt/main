@@ -22,7 +22,7 @@ It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/bench
 
 ## Routes
 
-See [`docs/routes.md`](/docs/routes.md) or main page at [geoapi.pt](https://geoapi.pt).
+This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification), thus you can see all the routes in the file [`openapi.yaml`](https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/openapi.yaml) file. See also [`docs/routes.md`](/docs/routes.md) or the main page at [geoapi.pt](https://geoapi.pt).
 
 ## JSON or HTML
 
