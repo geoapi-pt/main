@@ -423,4 +423,25 @@ paths:
             application/json:
               schema:
                 type: string
+  
+  /shieldsio/requestslasthour:
+    summary: Pedidos por hora
+    get:
+      responses:
+        '200':
+          description: Pedidos por hora
+          content:
+            application/json:
+              schema:
+                type: string
                 
+  /shieldsio/requestslastday:
+    summary: Pedidos por dia
+    get:
+      responses:
+        '200':
+          description: Pedidos por dia
+          content:
+            application/json:
+              schema:
+                type: string
