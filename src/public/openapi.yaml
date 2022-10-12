@@ -312,6 +312,63 @@ paths:
             example: serzedelo
           allowReserved: true
           description: Freguesia
+        - in: query
+          name: municipio
+          required: false
+          schema:
+            type: string
+          allowReserved: true
+          description: Município da Freguesia
+        - in: query
+          name: codigo
+          required: false
+          schema:
+            type: integer
+          description: Código da Freguesia
+        - in: query
+          name: nif
+          required: false
+          schema:
+            type: integer
+          description: NIF da Freguesia
+        - in: query
+          name: codigopostal
+          required: false
+          schema:
+            type: string
+          description: Código Postal da Freguesia
+        - in: query
+          name: email
+          required: false
+          schema:
+            type: string
+          allowReserved: true
+          description: Email da Freguesia
+        - in: query
+          name: telefone
+          required: false
+          schema:
+            type: integer
+          description: Telefone da Freguesia
+        - in: query
+          name: fax
+          required: false
+          schema:
+            type: integer
+          description: Fax da Freguesia
+        - in: query
+          name: sitio
+          required: false
+          schema:
+            type: string
+          allowReserved: true
+          description: Website da Freguesia
+        - in: query
+          name: codigoine
+          required: false
+          schema:
+            type: integer
+          description: Código INE da Freguesia
         - $ref: '#/components/parameters/json'
       responses:
         '200':
