@@ -20,6 +20,10 @@ html {
 	font-family: sans-serif
 }
 
+body {
+	background-color: #fbfbfb !important;
+}
+
 a {
 	margin: 0;
 	transition: all .4s;
@@ -66,6 +70,10 @@ input {
 	border: none !important
 }
 
+select.form-control {
+	max-width: 600px;
+}
+
 textarea {
 	display: block;
 	outline: none
@@ -92,7 +100,7 @@ iframe {
 .limiter {
 	width: 100%;
 	margin: 0 auto;
-	background-color: #f2f2f2;
+	background-color: #fbfbfb;
 }
 
 .table-info2, .table-info2>td, .table-info2>th {
@@ -101,8 +109,7 @@ iframe {
 
 .container-table100 {
 	width: 100%;
-	/* min-height: 100vh; */
-	background: #f2f2f2;
+	background: #fbfbfb;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
