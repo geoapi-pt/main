@@ -29,7 +29,7 @@ function incrementCounters () {
 }
 
 function loadExpressRoutes (app) {
-  app.get('/shieldsio/requestsLastHour', function (req, res) {
+  app.get('/shieldsio/requestslasthour', function (req, res) {
     res.json({
       schemaVersion: 1,
       label: 'Requests on last hour',
@@ -38,7 +38,7 @@ function loadExpressRoutes (app) {
     })
   })
 
-  app.get('/shieldsio/requestsLastDay', function (req, res) {
+  app.get('/shieldsio/requestslastday', function (req, res) {
     res.json({
       schemaVersion: 1,
       label: 'Requests on last day',
