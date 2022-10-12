@@ -28,7 +28,8 @@ async.series([
   testAllParishesFromGeojson,
   testAllParishesFromServerRequest,
   testPostalCode,
-  testSomeGpsCoordinates
+  testSomeGpsCoordinates,
+  testSomeUrls
 ],
 // done after execution of above funcitons
 function (err) {
@@ -171,7 +172,8 @@ function testAllParishesFromGeojson (mainCallback) {
 function testAllParishesFromServerRequest (mainCallback) {
   console.log('Test server with all parishes obtained from server request /municipios/freguesias')
 
-  got(`http://localhost:${TEST_PORT}/municipios/freguesias`).json()
+  got(`http://localhost:${TEST_PORT}/municipios/freguesias`)
+    .json()
     .then(municipalities => {
       // municipalities ex.: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
       const numberOfMunicipalities = municipalities.length
@@ -213,8 +215,7 @@ function testAllParishesFromServerRequest (mainCallback) {
 
 // function to test a single parish-municipality combination
 function testParishWithMunicipality (parish, municipality, callback) {
-  const url = `http://localhost:${TEST_PORT}` +
-              `/freguesias?nome=${encodeURIComponent(parish)}&municipio=${encodeURIComponent(municipality)}`
+  const url = encodeURI(`http://localhost:${TEST_PORT}/freguesias?nome=${parish}&municipio=${municipality}`)
   got(url)
     .json()
     .then(body => {
@@ -265,7 +266,8 @@ function testSomeGpsCoordinates (mainCallback) {
     '/gps/40.153687,-8.514602',
     '/gps?lat=40.153687&lon=-8.514602'
   ], function (urlAbsolutePath, eachCallback) {
-    got(`http://localhost:${TEST_PORT}${urlAbsolutePath}`).json()
+    const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
+    got(url).json()
       .then(body => {
         if (body.error || body.erro) {
           console.error(body.error || body.erro)
@@ -284,10 +286,48 @@ function testSomeGpsCoordinates (mainCallback) {
         }
       })
       .catch(err => {
-        eachCallback(Error(`\n${err} on ${urlAbsolutePath}\n`))
+        eachCallback(Error(`\n${err} on ${url}\n`))
       })
   }).then(() => {
     console.log(colors.green('GPS route tested OK\n'))
+    mainCallback()
+  }).catch(err => {
+    mainCallback(Error(err))
+  })
+}
+
+function testSomeUrls (mainCallback) {
+  async.each([
+    '/gps/40.153687,-8.514602',
+    '/gps/40.153687,-8.514602/detalhes',
+    '/municipios',
+    '/municipios/évora',
+    '/municipios/porto/freguesias',
+    '/freguesias',
+    '/freguesias/serzedelo',
+    '/municipios/guimarães/freguesias/serzedelo',
+    '/distritos',
+    '/distritos/municipios',
+    '/distritos/lisboa/municipios',
+    '/cp/2495-300',
+    '/cp/2495'
+  ], function (urlAbsolutePath, eachCallback) {
+    const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
+    got(url).json()
+      .then(body => {
+        if (body.error || body.erro) {
+          console.error(body.error || body.erro)
+          eachCallback(Error(`\nError on ${url}`))
+        } else {
+          console.log(colors.green(`${urlAbsolutePath}`))
+          eachCallback()
+        }
+      })
+      .catch(err => {
+        console.error(err)
+        eachCallback(Error(`\nError on ${url}\n`))
+      })
+  }).then(() => {
     mainCallback()
   }).catch(err => {
     mainCallback(Error(err))
