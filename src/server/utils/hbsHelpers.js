@@ -7,7 +7,7 @@ module.exports = { obj2html, obj2dataAttribute, getHostnameFromUrl }
 function obj2html (data, typeOfLink) {
   let html = ''
 
-  const tableStart = '<table class="table"><tbody>'
+  const tableStart = '<table class="table table-hover"><tbody>'
   const tableEnd = '</tbody></table>'
 
   const renderTextAsRow = function (text, colPos) {
