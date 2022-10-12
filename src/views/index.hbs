@@ -116,10 +116,17 @@
    <h2>Obter informação de Freguesia</h2>
    <p>Código Javascript <a href="https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/js/getAuthorityInfo.js">aqui</a></p>
    
-   <label for="select-municipio">Município</label>
-   <select class="form-control" id="select-municipio"></select>
-   <label for="select-freguesia">Junta de Freguesia</label>
-   <select class="form-control" id="select-freguesia"></select><br>
+   <div class="row">
+      <div class="col-4">
+         <label for="select-municipio">Município</label>
+         <select class="form-control" id="select-municipio"></select>
+      </div>
+      <div class="col-8">
+         <label for="select-freguesia">Junta de Freguesia</label>
+         <select class="form-control" id="select-freguesia"></select>
+      </div>
+   </div>
+   <br><br>
 
    <table class="table">
      <tbody id="result-freguesia">
