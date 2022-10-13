@@ -29,7 +29,7 @@ async.series([
   testAllParishesFromServerRequest,
   testPostalCode,
   testSomeGpsCoordinates,
-  testSomeUrls
+  testOpenApiPaths
 ],
 // done after execution of above funcitons
 function (err) {
@@ -296,38 +296,26 @@ function testSomeGpsCoordinates (mainCallback) {
   })
 }
 
-function testSomeUrls (mainCallback) {
-  async.each([
-    '/gps/40.153687,-8.514602',
-    '/gps/40.153687,-8.514602/detalhes',
-    '/municipios',
-    '/municipios/évora',
-    '/municipios/porto/freguesias',
-    '/freguesias',
-    '/freguesias/serzedelo',
-    '/municipios/guimarães/freguesias/serzedelo',
-    '/distritos',
-    '/distritos/municipios',
-    '/distritos/lisboa/municipios',
-    '/cp/2495-300',
-    '/cp/2495'
-  ], function (urlAbsolutePath, eachCallback) {
-    const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
-    got(url).json()
-      .then(body => {
-        if (body.error || body.erro) {
-          console.error(body.error || body.erro)
-          eachCallback(Error(`\nError on ${url}`))
-        } else {
-          console.log(colors.green(`${urlAbsolutePath}`))
-          eachCallback()
-        }
-      })
-      .catch(err => {
-        console.error(err)
-        eachCallback(Error(`\nError on ${url}\n`))
-      })
-  }).then(() => {
+function testOpenApiPaths (mainCallback) {
+  async.each(
+    require(path.join(__dirname, 'openApiPaths'))(),
+    function (urlAbsolutePath, eachCallback) {
+      const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
+      got(url).json()
+        .then(body => {
+          if (body.error || body.erro) {
+            console.error(body.error || body.erro)
+            eachCallback(Error(`\nError on ${url}`))
+          } else {
+            console.log(colors.green(`${urlAbsolutePath}`))
+            eachCallback()
+          }
+        })
+        .catch(err => {
+          console.error(err)
+          eachCallback(Error(`\nError on ${url}\n`))
+        })
+    }).then(() => {
     mainCallback()
   }).catch(err => {
     mainCallback(Error(err))
