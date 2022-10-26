@@ -312,7 +312,7 @@ function readJsonFiles (mainCallback) {
       )
     } else {
       bar = new ProgressBar(
-        'Preparing server :percent', { total: parishesDetailsB.length }
+        'Preparing :percent', { total: parishesDetailsB.length }
       )
     }
 
