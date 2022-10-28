@@ -65,6 +65,9 @@ function obj2html (data, typeOfLink) {
         html += tableStart
         renderObjAsRow(data[i])
         html += tableEnd
+        if (i !== data.length - 1) {
+          html += '<div class="m-5">&nbsp;</div>'
+        }
       }
     }
 
