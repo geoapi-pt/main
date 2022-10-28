@@ -1,4 +1,7 @@
+const fs = require('fs')
 const path = require('path')
+const appRoot = require('app-root-path')
+const sanitize = require('sanitize-filename')
 const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
@@ -37,6 +40,19 @@ function routeFn (req, res, next, { administrations }) {
       ) &&
       municipalityToFind === normalizeName(parish.municipio)
     )
+  })
+
+  const censosParishsesDir = path.join(appRoot.path, 'res', 'censos', 'data', 'freguesias')
+  results.forEach(el => {
+    const file = path.join(censosParishsesDir, sanitize(String(el.codigoine).padStart(6, '0')) + '.json')
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file))
+      for (const key in data) {
+        if (key.startsWith('censos')) {
+          el[key] = data[key]
+        }
+      }
+    }
   })
 
   if (results.length === 1) {
