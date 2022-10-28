@@ -117,13 +117,12 @@ function extractZip (mainCallback) {
 }
 
 function getAdministrations (callback) {
-  console.log('Fetching information about municipalities and parishes')
+  console.log('Get information about municipalities and parishes')
   prepareServer((err, data) => {
     if (err) {
       callback(Error(err))
     } else {
       administrations = data.administrations
-      console.log(administrations.parishesDetails)
       callback()
     }
   })
@@ -194,6 +193,7 @@ function getGeoPackageInfo (mainCallback) {
         try {
           generateJsonData(file, geoPackage)
         } catch (err) {
+          // console.error(err)
           console.error('\n\nCould not process ' + path.relative(appRoot.path, file))
         }
 
@@ -288,20 +288,78 @@ function generateMunicipalityCensosJsonFIle (censosYear, codigoIneMunicipality, 
 // this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
 function generateParishCensosJsonFIle (censosYear, codigoIneMunicipality, geoPackage) {
   const table = geoPackage.getFeatureTables()[0]
-  // const featureDao = geoPackage.getFeatureDao(table)
+  const featureDao = geoPackage.getFeatureDao(table)
 
   // colums which have statistical numbers to aggregate on the municipality
-  // const countableColumns = featureDao.columns.filter(c => c.startsWith('N_'))
+  const countableColumns = featureDao.columns.filter(c => c.startsWith('N_'))
+
+  // get INE code for parishes (it differs according to censos year)
+  const getParishCode = function (feature) {
+    if (censosYear === '2011') {
+      return feature.properties.DTMN11 + feature.properties.FR11
+    } else if (censosYear === '2021') {
+      return feature.properties.DTMNFR21
+    } else {
+      throw Error('wrong censosYear: ' + censosYear)
+    }
+  }
 
   // detect the parishes inside gpkg municipality file
   let parishesCodes = []
-  if (censosYear === '2011') {
-    const geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
-    for (const feature of geoPackageIterator) {
-      parishesCodes.push(feature.properties.DTMN11 + feature.properties.FR11)
-    }
+  let geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
+  for (const feature of geoPackageIterator) {
+    parishesCodes.push(getParishCode(feature))
   }
   parishesCodes = removeDuplicatesFromArray(parishesCodes)
+
+  parishesCodes = parishesCodes.filter(parishCode =>
+    Boolean(administrations.parishesDetails
+      .find(e => parseInt(e.codigoine) === parseInt(parishCode)))
+  )
+
+  const sums = {} // has all statisitcal data of all parishes of this specific muncipality
+  parishesCodes.forEach(parishCode => {
+    sums[parishCode] = {}
+    countableColumns.forEach(el => {
+      sums[parishCode][el] = 0
+    })
+  })
+
+  geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
+  for (const feature of geoPackageIterator) {
+    const parishCode = getParishCode(feature)
+    for (const el in sums[parishCode]) {
+      sums[parishCode][el] += feature.properties[el]
+    }
+  }
+
+  const nameOfMunicipality = administrations.municipalitiesDetails
+    .find(e => parseInt(e.codigoine) === codigoIneMunicipality).nome
+
+  for (const parishCode in sums) {
+    const nameOfParish = administrations.parishesDetails
+      .find(e => parseInt(e.codigoine) === parseInt(parishCode)).nome
+
+    const file = path.join(censosDataDir, 'freguesias', parishCode + '.json')
+
+    // if file does not exists creates it; if it exists append stats for the respective year
+    if (!fs.existsSync(file)) {
+      const data = {
+        tipo: 'freguesia',
+        nome: nameOfParish,
+        codigoine: parishCode,
+        municipio: nameOfMunicipality
+      }
+      data['censos' + censosYear] = sums[parishCode]
+
+      fs.writeFileSync(file, JSON.stringify(data, null, 2))
+    } else {
+      const data = JSON.parse(fs.readFileSync(file))
+      fs.unlinkSync(file)
+      data['censos' + censosYear] = sums[parishCode]
+      fs.writeFileSync(file, JSON.stringify(data, null, 2))
+    }
+  }
 }
 
 // read files recursively from directory
