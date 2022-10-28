@@ -28,7 +28,7 @@ const utilsDir = path.join(__dirname, 'utils')
 
 // import server project modules
 const copyFrontEndNpmModules = require(path.join(servicesDir, 'copyFrontEndNpmModules.js'))
-const prepareServer = require(path.join(servicesDir, 'prepareServer.js'))
+const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
 const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
@@ -46,8 +46,8 @@ const serverPort = process.env.npm_config_port || argvOptions.port || '8080'
 
 console.time('serverTimeToStart')
 
-// fetched from prepareServer module
-// see global objects "regions" and "administrations" on prepareServer.js
+// fetched from getRegionsAndAdmins module
+// see global objects "regions" and "administrations" on getRegionsAndAdmins.js
 let regions, administrations
 
 console.log('Starting. Please wait...')
@@ -62,7 +62,7 @@ async.series([copyFrontEndNpmModules, prepare, startServer],
   })
 
 function prepare (callback) {
-  prepareServer((err, data) => {
+  getRegionsAndAdmins((err, data) => {
     if (err) {
       callback(Error(err))
     } else {

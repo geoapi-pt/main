@@ -17,7 +17,7 @@ const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 
 const testServer = require(path.join(__dirname, 'serverForTests'))
-const { regions } = require(path.join(appRoot.path, 'src', 'server', 'services', 'prepareServer'))
+const { regions } = require(path.join(appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins'))
 let Parishes = [] // Array with ALL the parishes, each element is an object {freguesia, concelho, region}
 
 // main sequence of functions

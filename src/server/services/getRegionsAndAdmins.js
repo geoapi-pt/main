@@ -1,7 +1,6 @@
-/* several taks performed before the server is initiated
-   either to extract zip from Carta Administrativa de Portugal
-   or read JSON files from details of Parishes and Municipalities
-   and then to preprocess and combine data for fast delivery */
+/* Extract zip files from Carta Administrativa de Portugal
+   and read JSON files from details of Parishes and Municipalities (from DGAL)
+   and then to process and combine data for fast delivery */
 
 const fs = require('fs')
 const path = require('path')
@@ -11,7 +10,7 @@ const async = require('async')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
-const debug = require('debug')('geoapipt:prepareServer') // run: DEBUG=geoapipt:prepareServer npm start
+const debug = require('debug')('geoapipt:getRegionsAndAdmins') // run: DEBUG=geoapipt:getRegionsAndAdmins npm start
 const debugGeojson = require('debug')('geoapipt:geojson') // run: DEBUG=geoapipt:geojson npm start
 
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
