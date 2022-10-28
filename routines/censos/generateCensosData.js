@@ -11,8 +11,8 @@ const appRoot = require('app-root-path')
 const { GeoPackageAPI } = require('@ngageoint/geopackage')
 const debug = require('debug')('geoapipt:generate-censosdata')
 
-const prepareServer = require(path.join(
-  appRoot.path, 'src', 'server', 'services', 'prepareServer.js'
+const getRegionsAndAdmins = require(path.join(
+  appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins.js'
 ))
 
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
@@ -118,7 +118,7 @@ function extractZip (mainCallback) {
 
 function getAdministrations (callback) {
   console.log('Get information about municipalities and parishes')
-  prepareServer((err, data) => {
+  getRegionsAndAdmins((err, data) => {
     if (err) {
       callback(Error(err))
     } else {

@@ -10,7 +10,7 @@ const defaultOrigin = JSON.parse(fs.readFileSync(path.join(appRoot.path, 'config
 
 const sitemapsDir = path.join(appRoot.path, 'src', 'public')
 
-const prepareServer = require(path.join(appRoot.path, 'src', 'server', 'services', 'prepareServer.js'))
+const getRegionsAndAdmins = require(path.join(appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'generatePostalCodes', 'prepareCTTfile.js'))
 
 let administrations, postalCodes, CP4postalCodes
@@ -28,7 +28,7 @@ async.series([prepareRegions, preparePostalCodesCTT, createSitemap],
   })
 
 function prepareRegions (cb) {
-  prepareServer((err, data) => {
+  getRegionsAndAdmins((err, data) => {
     if (err) {
       cb(Error(err))
     } else {

@@ -10,11 +10,11 @@ In each download link several options appear, but the versions ending in `AAd_CA
 That is, we should not download the files with `troco` because they make reference to the lines (troço) and not to the surfaces.
 We should not select either the ones ending in `GPKG`.
 
-To update, we must only download the 5 ZIP files into `/res/portuguese-administrative-chart/` and the code should do the rest, if the structure of thoese files remains unchanged. We must also update the files names in the object `regions` in the file `/prepareServer.js`
+To update, we must only download the 5 ZIP files into `/res/portuguese-administrative-chart/` and the code should do the rest, if the structure of thoese files remains unchanged. We must also update the files names in the object `regions` in the file `getRegionsAndAdmins.js`
 
 ## Details about Parishes and Municipalities
 
-The JSON files in `/res/details-parishes-municipalities/` have the detailed information of the Municipalities and Parishes. The `A` files were downloaded from dados.gov.pt and the `B` files from Direção Geral das Autarquias Locais's (DGAL) website. The function `readJsonFiles` at [`prepareServer.js`](../prepareServer.js) merges data from these two different sources.
+The JSON files in `/res/details-parishes-municipalities/` have the detailed information of the Municipalities and Parishes. The `A` files were downloaded from dados.gov.pt and the `B` files from Direção Geral das Autarquias Locais's (DGAL) website. The function `readJsonFiles` at `getRegionsAndAdmins.js` merges data from these two different sources.
 
 Many of the contacts reported by DGAL were not correct nor updated, therefore further corrections and updates were done manually to the `B` files by looking the websites of parishes and municipalities on the Internet.
 
