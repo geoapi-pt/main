@@ -68,7 +68,7 @@ function routeFn (req, res, next, { administrations }) {
 
   for (const filter of filters) {
     if (req.query[filter]) {
-      results = results.filter(p => p[filter] === req.query[filter])
+      results = results.filter(p => p[filter] == req.query[filter]) // eslint-disable-line eqeqeq
     }
   }
 
