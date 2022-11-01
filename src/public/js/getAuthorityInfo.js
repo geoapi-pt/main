@@ -33,7 +33,9 @@
         const result = document.getElementById('result-freguesia')
         result.innerHTML = ''
         for (const el in res) {
-          result.innerHTML += `<tr><th class="w-50">${el}</th><td class="w-50">${res[el]}</td></tr>`
+          if (!el.startsWith('censos')) {
+            result.innerHTML += `<tr><th class="w-50">${el}</th><td class="w-50">${res[el]}</td></tr>`
+          }
         }
       })
       .catch((err) => {
