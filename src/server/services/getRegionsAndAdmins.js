@@ -26,7 +26,8 @@ module.exports = function (callback) {
       readProjectionFile, // fill in the projection fields in the regions Object
       readJsonFiles, // read JSON files with information (email, phone, etc.) of municipalities and parishes
       buildAdministrationsObject,
-      buildsAdministrationsDistrictsArrays
+      buildsAdministrationsDistrictsArrays,
+      addCensosData
     ],
     function (err) {
       if (err) {
@@ -467,6 +468,36 @@ function buildsAdministrationsDistrictsArrays (callback) {
     district.distrito = correctCase(district.distrito)
     district.municipios = district.municipios.map(el => correctCase(el))
   }
+
+  callback()
+}
+
+function addCensosData (callback) {
+  const censosMunicipalitiesDir = path.join(appRoot.path, 'res', 'censos', 'data', 'municipios')
+  administrations.municipalitiesDetails.forEach(el => {
+    const file = path.join(censosMunicipalitiesDir, String(parseInt(el.codigoine)) + '.json')
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file))
+      for (const key in data) {
+        if (key.startsWith('censos')) {
+          el[key] = data[key]
+        }
+      }
+    }
+  })
+
+  const censosParishsesDir = path.join(resDir, 'censos', 'data', 'freguesias')
+  administrations.parishesDetails.forEach(el => {
+    const file = path.join(censosParishsesDir, String(el.codigoine).padStart(6, '0') + '.json')
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file))
+      for (const key in data) {
+        if (key.startsWith('censos')) {
+          el[key] = data[key]
+        }
+      }
+    }
+  })
 
   callback()
 }
