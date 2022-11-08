@@ -3,7 +3,6 @@ const path = require('path')
 const express = require('express')
 const rateLimit = require('express-rate-limit')
 const exphbs = require('express-handlebars')
-const OpenApiValidator = require('express-openapi-validator')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const async = require('async')
@@ -98,13 +97,6 @@ function startServer (callback) {
   app.use('/', express.static(path.join(__dirname, '..', 'public'), { etag: false }))
 
   app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
-
-  app.use(
-    OpenApiValidator.middleware({
-      apiSpec: path.join(__dirname, '..', 'public', 'openapi.yaml'),
-      validateRequests: true
-    })
-  )
 
   // Apply the rate limiting middleware to all requests
   if (argvOptions.rateLimit) {
