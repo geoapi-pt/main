@@ -272,26 +272,26 @@ function testSomeGpsCoordinates (mainCallback) {
         if (body.error || body.erro) {
           console.error(body.error || body.erro)
           eachCallback(Error('\nThere was an error in gps coordinates'))
-          return
-        }
-
-        if (
+        } else if (
           body.freguesia === 'Anobra' &&
           body.concelho === 'Condeixa-A-Nova' &&
           body.distrito === 'Coimbra'
         ) {
           eachCallback()
         } else {
+          console.error('\nResult does not match gps coordinates')
           eachCallback(Error('\nResult does not match gps coordinates'))
         }
       })
       .catch(err => {
+        console.error(`\n${err} on ${url}\n`)
         eachCallback(Error(`\n${err} on ${url}\n`))
       })
   }).then(() => {
     console.log(colors.green('GPS route tested OK\n'))
     mainCallback()
   }).catch(err => {
+    console.error(err)
     mainCallback(Error(err))
   })
 }
