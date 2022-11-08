@@ -14,8 +14,8 @@ function getOpenApiTestPaths () {
 
   let pathsToTest = []
   for (let path in openAPIObj.paths) {
-    // path is alias, thus use $ref
-    if (openAPIObj.paths[path].$ref) {
+    const urlPath = path
+    if (openAPIObj.paths[path].$ref) { // path is alias, thus use $ref
       path = openAPIObj.paths[path].$ref.replace('#/paths/', '').replaceAll('~1', '/')
     }
 
@@ -29,16 +29,16 @@ function getOpenApiTestPaths () {
           }
         })
         if (Object.keys(queryParametersObj).length) {
-          pathsToTest.push(`${path}?${new URLSearchParams(queryParametersObj)}`)
+          pathsToTest.push(`${urlPath}?${new URLSearchParams(queryParametersObj)}`)
         } else {
-          pathsToTest.push(path)
+          pathsToTest.push(urlPath)
         }
       } else { // no parameters at all
-        pathsToTest.push(path)
+        pathsToTest.push(urlPath)
       }
     } else { // path has path parameters, ex: /gps/{coordenadas}
       const parameters = openAPIObj.paths[path].get.parameters
-      let parsedPath = path
+      let parsedPath = urlPath
       parameters.forEach(parameter => {
         if (parameter.in === 'path') {
           if (!parameter.examples) {
@@ -56,6 +56,5 @@ function getOpenApiTestPaths () {
 
   // remove root element if exists
   pathsToTest = pathsToTest.filter(path => path !== '/')
-
   return pathsToTest
 }
