@@ -99,8 +99,9 @@ function startServer (callback) {
   app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
 
   // Apply the rate limiting middleware to all requests
+  let limiter
   if (argvOptions.rateLimit) {
-    const limiter = rateLimit({
+    limiter = rateLimit({
       windowMs: 15 * 60 * 1000, // 15 minutes
       max: 15 * 60, // Limit each IP to average 1 request/sec
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
@@ -127,10 +128,15 @@ function startServer (callback) {
   try {
     fs.readdirSync(expressRoutesDir).forEach(filename => {
       const router = require(path.join(expressRoutesDir, filename))
-      app.get(router.route, function (req, res, next) {
+      const routeFn = (req, res, next) => {
         router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, gitProjectUrl })
-        debug(`Loaded express get from ${filename} with route ${router.route}`)
-      })
+      }
+      if (argvOptions.rateLimit) {
+        app.get(router.route, limiter, routeFn)
+      } else {
+        app.get(router.route, routeFn)
+      }
+      debug(`Loaded express get from ${filename} with route ${router.route}`)
     })
   } catch (err) {
     console.error(err)
