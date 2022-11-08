@@ -13,7 +13,12 @@ function getOpenApiTestPaths () {
   const openAPIObj = YAML.parse(fs.readFileSync(openapiFilePath, 'utf8'))
 
   let pathsToTest = []
-  for (const path in openAPIObj.paths) {
+  for (let path in openAPIObj.paths) {
+    // path is alias, thus use $ref
+    if (openAPIObj.paths[path].$ref) {
+      path = openAPIObj.paths[path].$ref.replace('#/paths/', '').replaceAll('~1', '/')
+    }
+
     if (!/.*\{.*\}.*/.test(path)) { // path has no path parameters
       if (openAPIObj.paths[path].get.parameters) { // path has other parameters, for example query parameters
         const parameters = openAPIObj.paths[path].get.parameters

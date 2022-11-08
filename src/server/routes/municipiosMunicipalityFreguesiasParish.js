@@ -4,7 +4,7 @@ const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFun
 
 module.exports = {
   fn: routeFn,
-  route: '/municipios/:municipality?/freguesias/:parish?'
+  route: '/municipios?/:municipality?/freguesias?/:parish?'
 }
 
 function routeFn (req, res, next, { administrations }) {
