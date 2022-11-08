@@ -7,7 +7,7 @@ const async = require('async')
 const extract = require('extract-zip')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
-const Piscina = require('piscina')
+const gjv = require('geojson-validation')
 const appRoot = require('app-root-path')
 const { GeoPackageAPI } = require('@ngageoint/geopackage')
 const debug = require('debug')('geoapipt:generate-censosdata')
@@ -19,9 +19,9 @@ async.series(
   [
     deleteExtractedFiles, // deletes previous extracted ZIP files (just in case ZIP files are updated)
     extractZip, // extracts zip file with shapefile and projection files
+    deleteGeojsonFiles, // delete previous GeoJSON files
     convertGeoPackageToGeoJSON,
-    zipGeoJSONfiles,
-    deleteGeojsonFiles // we have already zipped the files, we can delete the original ones
+    validateGeojsonFiles
   ],
   function (err) {
     if (err) {
@@ -32,8 +32,9 @@ async.series(
     }
   })
 
+// deletes previous extracted ZIP files (just in case ZIP files are updated)
 function deleteExtractedFiles (mainCallback) {
-  console.log('Deleting previous extracted files to unzip anew')
+  console.log('Deleting previous extracted ZIP files to unzip anew')
   // read files recursively from directory
   getFiles(censosZipDir).then(files => {
     const filesToDelete = files.filter(f => path.extname(f) !== '.zip')
@@ -110,8 +111,49 @@ function extractZip (mainCallback) {
   })
 }
 
+// delete previous GeoJSON files to create new ones
+function deleteGeojsonFiles (mainCallback) {
+  console.log('Deleting previous geojson files')
+  // read files recursively from directory
+  getFiles(censosGeoJSONDir).then(files => {
+    const filesToDelete = files.filter(f => path.extname(f) === '.json')
+
+    let bar
+    if (!debug.enabled) {
+      bar = new ProgressBar('[:bar] :percent :info', { total: filesToDelete.length + 2, width: 80 })
+    } else {
+      bar = { tick: () => {}, terminate: () => {} }
+    }
+
+    bar.tick({ info: 'Deleting' })
+
+    async.eachOf(filesToDelete, function (file, key, callback) {
+      try {
+        if (fs.existsSync(file)) {
+          fs.unlinkSync(file)
+          debug(`${path.relative(appRoot.path, file)} deleted`)
+          bar.tick({ info: path.relative(appRoot.path, file) })
+        } else {
+          bar.tick()
+        }
+        callback()
+      } catch (err) {
+        callback(Error(err))
+      }
+    }, function (err) {
+      bar.tick({ info: '' })
+      bar.terminate()
+      if (err) {
+        mainCallback(Error(err))
+      } else {
+        mainCallback()
+      }
+    })
+  })
+}
+
 function convertGeoPackageToGeoJSON (mainCallback) {
-  console.log('Converting GeoPackage files to GeoJSON files')
+  console.log('Generating GeoJSON files from GeoPackage files')
 
   // read files recursively from directory
   getFiles(censosZipDir).then(files => {
@@ -168,51 +210,8 @@ function convertGeoPackageToGeoJSON (mainCallback) {
   })
 }
 
-function zipGeoJSONfiles (mainCallback) {
-  console.log('Zipping geojson files')
-
-  // read files recursively from directory
-  getFiles(censosGeoJSONDir).then(files => {
-    const filesToZip = files.filter(f => path.extname(f) === '.json')
-
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToZip.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Zipping' })
-
-    const piscina = new Piscina({
-      filename: path.resolve(__dirname, 'zipFile.js')
-    })
-
-    async.eachOf(filesToZip, async file => {
-      try {
-        await piscina.run({ file })
-
-        debug(`${path.relative(appRoot.path, file)} zipped`)
-        bar.tick({ info: path.relative(appRoot.path, file + '.zip') })
-      } catch (err) {
-        console.error(err)
-        throw new Error(err)
-      }
-    }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
-      if (err) {
-        mainCallback(Error(err))
-      } else {
-        mainCallback()
-      }
-    })
-  })
-}
-
-// we have already zipped the files, we can delete the original ones
-function deleteGeojsonFiles (mainCallback) {
-  console.log('Deleting original geojson files since zipped version were created')
+function validateGeojsonFiles (mainCallback) {
+  console.log('Validating generated Geojson files')
   // read files recursively from directory
   getFiles(censosGeoJSONDir).then(files => {
     const filesToDelete = files.filter(f => path.extname(f) === '.json')
@@ -224,14 +223,18 @@ function deleteGeojsonFiles (mainCallback) {
       bar = { tick: () => {}, terminate: () => {} }
     }
 
-    bar.tick({ info: 'Deleting' })
+    bar.tick({ info: 'Validating' })
 
     async.eachOf(filesToDelete, function (file, key, callback) {
       try {
         if (fs.existsSync(file)) {
-          fs.unlinkSync(file)
-          debug(`${path.relative(appRoot.path, file)} deleted`)
-          bar.tick({ info: path.relative(appRoot.path, file) })
+          const data = JSON.parse(fs.readFileSync(file))
+          if (!gjv.valid(data)) {
+            throw Error(`${file} is invalid GeoJSON`)
+          } else {
+            debug(`${path.relative(appRoot.path, file)} validated`)
+            bar.tick({ info: path.relative(appRoot.path, file) })
+          }
         } else {
           bar.tick()
         }
