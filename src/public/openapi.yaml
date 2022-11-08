@@ -201,6 +201,9 @@ paths:
             application/json:
               schema:
                 type: string
+
+  /municipio/{municipio}:
+    $ref: '#/paths/~1municipios~1{municipio}'
   
   /municipios/{municipio}/freguesias:
     summary: Lista de Freguesias no Município
@@ -222,6 +225,9 @@ paths:
             application/json:
               schema:
                 type: string
+
+  /municipio/{municipio}/freguesias:
+    $ref: '#/paths/~1municipios~1{municipio}~1freguesias'
   
   /freguesias:
     summary: Lista de todas as Freguesias
@@ -377,6 +383,9 @@ paths:
             application/json:
               schema:
                 type: string
+
+  /freguesia/{freguesia}:
+    $ref: '#/paths/~1freguesias~1{freguesia}'
                 
   /municipios/{municipio}/freguesias/{freguesia}:
     summary: Detalhes sobre Freguesia de um determinado Município
@@ -406,7 +415,16 @@ paths:
             application/json:
               schema:
                 type: string
+
+  /municipio/{municipio}/freguesias/{freguesia}:
+    $ref: '#/paths/~1municipios~1{municipio}~1freguesias~1{freguesia}'
   
+  /municipios/{municipio}/freguesia/{freguesia}:
+    $ref: '#/paths/~1municipios~1{municipio}~1freguesias~1{freguesia}'
+
+  /municipio/{municipio}/freguesia/{freguesia}:
+    $ref: '#/paths/~1municipios~1{municipio}~1freguesias~1{freguesia}'
+
   /distritos:
     summary: Lista de todos os Distritos
     get:
@@ -453,6 +471,9 @@ paths:
             application/json:
               schema:
                 type: string
+  
+  /distrito/{distrito}/municipios:
+    $ref: '#/paths/~1distritos~1{distrito}~1municipios'
                 
   /cp/{cp}:
     summary: Detalhes sobre Código Postal
