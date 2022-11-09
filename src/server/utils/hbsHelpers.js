@@ -26,7 +26,13 @@ function obj2html (data, typeOfLink) {
     html += '</tr>'
   }
 
-  const renderObjAsRow = function (obj) {
+  // details makes reference to <details>, see issue #57
+  const renderObjAsRow = function (obj, details) {
+    if (details) {
+      html += `<tr><td colspan="2"><details><summary>${details}</summary>` +
+        '<table class="w-100">'
+    }
+
     for (const key in obj) {
       if (typeof obj[key] === 'string' || typeof obj[key] === 'number') {
         html +=
@@ -35,8 +41,7 @@ function obj2html (data, typeOfLink) {
           `  <td class="w-50">${obj[key]}</td>` +
           '</tr>'
       } else if (isObj(obj[key])) {
-        renderTextAsRow(key)
-        renderObjAsRow(obj[key])
+        renderObjAsRow(obj[key], key)
       } else if (Array.isArray(obj[key])) {
         renderTextAsRow(key, 1)
         obj[key].forEach(el => {
@@ -47,6 +52,10 @@ function obj2html (data, typeOfLink) {
           }
         })
       }
+    }
+
+    if (details) {
+      html += '</table></details></td></tr>'
     }
   }
 
