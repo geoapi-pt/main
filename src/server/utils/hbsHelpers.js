@@ -30,7 +30,7 @@ function obj2html (data, typeOfLink) {
   const renderObjAsRow = function (obj, details) {
     if (details) {
       html += `<tr><td colspan="2"><details><summary>${details}</summary>` +
-        '<table class="w-100">'
+        '<table class="w-100"><tbody>'
     }
 
     for (const key in obj) {
@@ -55,7 +55,7 @@ function obj2html (data, typeOfLink) {
     }
 
     if (details) {
-      html += '</table></details></td></tr>'
+      html += '</tbody></table></details></td></tr>'
     }
   }
 
