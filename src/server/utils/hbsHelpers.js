@@ -13,7 +13,7 @@ function obj2html (data, typeOfLink) {
   const renderTextAsRow = function (text, colPos) {
     html += '<tr>'
     if (!colPos) {
-      html += `<th scope="row" colspan="2">${text}</th>`
+      html += `<th scope="row" colspan="2">${getLink(text, typeOfLink)}</th>`
     } else if (colPos === 1) {
       html +=
         `<th class="w-50" scope="row">${text}</th>` +

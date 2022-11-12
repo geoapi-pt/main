@@ -26,7 +26,8 @@ function routeFn (req, res, next, { administrations }) {
     res.status(200).sendData({
       data: administrations.listOfMunicipalitiesNames,
       input: 'Lista de todos os municípios',
-      pageTitle: 'Lista dos municípios de Portugal'
+      pageTitle: 'Lista dos municípios de Portugal',
+      typeOfLink: 'municipality'
     })
     return
   }
