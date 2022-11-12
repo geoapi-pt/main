@@ -113,6 +113,15 @@ function getLink (name, typeOfLink) {
     } else {
       return `<a href="/freguesias/${encodeName(name)}">${name}</a>`
     }
+  } else if (typeOfLink === 'parish (municipality)') {
+    // ex: name === 'Abade de Neiva (Barcelos)'
+    const parish = name.replace(/\(.*\)/, '').trim()
+    const municipalityMatch = name.match(/.+\((.+)\)/)
+    if (municipalityMatch && municipalityMatch[1]) {
+      return `<a href="/municipios/${encodeName(municipalityMatch[1])}/freguesias/${encodeName(parish)}">${name}</a>`
+    } else {
+      return `<a href="/freguesias/${encodeName(parish)}">${name}</a>`
+    }
   } else {
     return name
   }
