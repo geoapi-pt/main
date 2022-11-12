@@ -21,7 +21,8 @@ function routeFn (req, res, next, { administrations }) {
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
     res.status(200).sendData({
       data: administrations.listOfParishesNames,
-      pageTitle: 'Lista de freguesias de Portugal'
+      pageTitle: 'Lista de freguesias de Portugal',
+      typeOfLink: 'parish (municipality)'
     })
     return
   }
