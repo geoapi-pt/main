@@ -95,14 +95,26 @@ function obj2html (data, typeOfLink) {
   return html
 }
 
-function getLink (text, typeOfLink) {
-  switch (typeOfLink) {
-    case 'municipality':
-      return `<a href="/municipios/${encodeURIComponent(text)}">${text}</a>`
-    case 'parish':
-      return `<a href="/freguesias/${encodeURIComponent(text)}">${text}</a>`
-    default:
-      return text
+// get a link for parish or municipality, when presenting results as html
+function getLink (name, typeOfLink) {
+  const encodeName = (str) => {
+    return encodeURIComponent(str.toLowerCase())
+  }
+
+  if (typeOfLink === 'municipality') {
+    return `<a href="/municipios/${encodeName(name)}">${name}</a>`
+  } else if (typeOfLink === 'parish') {
+    return `<a href="/freguesias/${encodeName(name)}">${name}</a>`
+  } else if (/municipality\/.+\/parish$/.test(typeOfLink)) {
+    // ex: typeOfLink === 'municipality/lisboa/parish'
+    const municipalityMatch = typeOfLink.match(/municipality\/(.+)\/parish$/)
+    if (municipalityMatch && municipalityMatch[1]) {
+      return `<a href="/municipios/${encodeName(municipalityMatch[1])}/freguesias/${encodeName(name)}">${name}</a>`
+    } else {
+      return `<a href="/freguesias/${encodeName(name)}">${name}</a>`
+    }
+  } else {
+    return name
   }
 }
 

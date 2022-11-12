@@ -27,7 +27,7 @@ function routeFn (req, res, next, { administrations }) {
       data: results[0],
       input: { Município: results[0].nome },
       pageTitle: `Lista de freguesias do município de ${results[0].nome}`,
-      typeOfLink: 'parish'
+      typeOfLink: `municipality/${results[0].nome}/parish`
     })
   } else {
     res.status(404).sendData({ error: `Município ${municipality} não encontrado!` })
