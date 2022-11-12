@@ -13,6 +13,7 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
       if (
         req.accepts(['html', 'json']) === 'json' ||
         (req.get('accept') && req.get('accept').includes('application/json')) ||
+        (req.hostname && req.hostname.startsWith('json.')) ||
         parseInt(req.query.json) || req.query.json === 'true'
       ) {
         res.json(dataToBeSent)
