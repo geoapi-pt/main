@@ -1,12 +1,17 @@
 const fs = require('fs')
 const path = require('path')
 const proj4 = require('proj4')
+const Piscina = require('piscina')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
 const debug = require('debug')('geoapipt:routes:gps')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
+
+const piscina = new Piscina({
+  filename: path.resolve(__dirname, '..', 'utils', 'gpsRouteWorker.js')
+})
 
 module.exports = {
   fn: routeFn,
@@ -92,28 +97,34 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       }
     }
 
-    // Fetch section and subsection from INE BGRI.
-    // This approach is more efficient than async, because PolygonLookup and search is very CPU intensive.
-    // Async would run PolygonLookup and respective search to ALL files in parallel, being too low;
-    // statistically this approach is more efficient since it breaks the for loop when it finds the result
-    const files = fs.readdirSync(censosGeojsonDir)
-    for (const file of files) {
-      const geojsonData = JSON.parse(fs.readFileSync(path.join(censosGeojsonDir, file)))
-      // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-      const lookupBGRI = new PolygonLookup(geojsonData)
-      const subSecction = lookupBGRI.search(lon, lat)
-      if (subSecction) {
-        debug('Found subSecction: ', subSecction)
-        local['secção (INE, BGRI)'] = subSecction.properties.SEC
-        local['subsecção (INE, BGRI)'] = subSecction.properties.SS
-        break
-      }
-    }
-
     if (!local.freguesia) {
       res.status(404).sendData({ error: 'local não encontrado' })
+      return
+    }
+
+    if (isDetails) {
+      // Fetch section and subsection from INE BGRI.
+      // This approach is more efficient than async, because PolygonLookup and search is very CPU intensive.
+      // Async would run PolygonLookup and respective search to ALL files in parallel, being too low;
+      // statistically this approach is more efficient since it breaks the for loop when it finds the result
+      const files = fs.readdirSync(censosGeojsonDir)
+      for (const _file of files) {
+        (async (file) => {
+          const geojsonFilePath = path.join(censosGeojsonDir, file)
+          const subSecction = await piscina.run({ geojsonFilePath, lat, lon })
+          if (subSecction) {
+            debug('Found subSecction: ', subSecction)
+            local.INE_BGRI_2021 = subSecction.properties
+
+            res.status(200).sendData({
+              data: local,
+              input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
+              pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
+            })
+          }
+        })(_file)
+      }
     } else {
-      debug(local)
       res.status(200).sendData({
         data: local,
         input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
@@ -124,7 +135,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     debug('Error on server', e)
 
     res.status(400).sendData(
-      { error: 'Wrong request! Example of good request: /gps?lat=40.153687&lon=-8.514602' }
+      { error: 'Wrong request! Example of good request: /gps/40.153687,-8.514602' }
     )
   }
 }
