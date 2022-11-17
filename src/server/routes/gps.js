@@ -1,8 +1,12 @@
-const PolygonLookup = require('polygon-lookup')
-const proj4 = require('proj4')
+const fs = require('fs')
 const path = require('path')
-const debug = require('debug')('geoapipt:server')
+const proj4 = require('proj4')
+const appRoot = require('app-root-path')
+const PolygonLookup = require('polygon-lookup')
+const debug = require('debug')('geoapipt:routes:gps')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
+
+const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
 
 module.exports = {
   fn: routeFn,
@@ -46,6 +50,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     const isDetails = Boolean(parseInt(req.query.detalhes)) || req.originalUrl.includes('/detalhes')
 
     const point = [lon, lat] // longitude, latitude
+    const local = {} // the local data corresponding to the coordinates
 
     for (const key in regions) {
       const transformedPoint = proj4(regions[key].projection, point)
@@ -55,12 +60,10 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
       if (freguesia) {
         debug('Found freguesia: ', freguesia)
-        const local = {
-          freguesia: freguesia.properties.Freguesia,
-          concelho: freguesia.properties.Concelho,
-          distrito: freguesia.properties.Distrito,
-          ilha: freguesia.properties.Ilha
-        }
+        local.ilha = freguesia.properties.Ilha
+        local.distrito = freguesia.properties.Distrito
+        local.concelho = freguesia.properties.Concelho
+        local.freguesia = freguesia.properties.Freguesia
 
         if (isDetails) {
           // search for details for parishes by código INE
@@ -85,20 +88,38 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
           }
         }
 
-        debug(local)
-
-        res.status(200).sendData({
-          data: local,
-          input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
-          pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
-        })
-        return
+        break
       }
     }
 
-    debug('Results not found')
+    // Fetch section and subsection from INE BGRI.
+    // This approach is more efficient than async, because PolygonLookup and search is very CPU intensive.
+    // Async would run PolygonLookup and respective search to ALL files in parallel, being too low;
+    // statistically this approach is more efficient since it breaks the for loop when it finds the result
+    const files = fs.readdirSync(censosGeojsonDir)
+    for (const file of files) {
+      const geojsonData = JSON.parse(fs.readFileSync(path.join(censosGeojsonDir, file)))
+      // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
+      const lookupBGRI = new PolygonLookup(geojsonData)
+      const subSecction = lookupBGRI.search(lon, lat)
+      if (subSecction) {
+        debug('Found subSecction: ', subSecction)
+        local['secção (INE, BGRI)'] = subSecction.properties.SEC
+        local['subsecção (INE, BGRI)'] = subSecction.properties.SS
+        break
+      }
+    }
 
-    res.status(404).sendData({ error: 'Results not found. Coordinates out of scope!' })
+    if (!local.freguesia) {
+      res.status(404).sendData({ error: 'local não encontrado' })
+    } else {
+      debug(local)
+      res.status(200).sendData({
+        data: local,
+        input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
+        pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
+      })
+    }
   } catch (e) {
     debug('Error on server', e)
 
