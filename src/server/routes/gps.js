@@ -1,17 +1,12 @@
 const fs = require('fs')
 const path = require('path')
 const proj4 = require('proj4')
-const Piscina = require('piscina')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
 const debug = require('debug')('geoapipt:routes:gps')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
-
-const piscina = new Piscina({
-  filename: path.resolve(__dirname, '..', 'utils', 'gpsRouteWorker.js')
-})
 
 module.exports = {
   fn: routeFn,
@@ -57,6 +52,8 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     const point = [lon, lat] // longitude, latitude
     const local = {} // the local data corresponding to the coordinates
 
+    let municipalityIneCode // code extracted regions Object, to detect the Census INE BGRI file to use
+
     for (const key in regions) {
       const transformedPoint = proj4(regions[key].projection, point)
 
@@ -81,15 +78,18 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
               break // found it, break loop
             }
           }
+        }
 
-          // search for details for municipalities by name
-          const numberOfMunicipalities = administrations.municipalitiesDetails.length
-          const municipality = normalizeName(freguesia.properties.Concelho)
-          for (let i = 0; i < numberOfMunicipalities; i++) {
-            if (municipality === normalizeName(administrations.municipalitiesDetails[i].nome)) {
+        // search for details for municipalities by name
+        const numberOfMunicipalities = administrations.municipalitiesDetails.length
+        const municipality = normalizeName(freguesia.properties.Concelho)
+        for (let i = 0; i < numberOfMunicipalities; i++) {
+          if (municipality === normalizeName(administrations.municipalitiesDetails[i].nome)) {
+            if (isDetails) {
               local.detalhesMunicipio = administrations.municipalitiesDetails[i]
-              break // found it, break loop
             }
+            municipalityIneCode = administrations.municipalitiesDetails[i].codigoine
+            break // found it, break loop
           }
         }
 
@@ -102,35 +102,32 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       return
     }
 
-    if (isDetails) {
-      // Fetch section and subsection from INE BGRI.
-      // This approach is more efficient than async, because PolygonLookup and search is very CPU intensive.
-      // Async would run PolygonLookup and respective search to ALL files in parallel, being too low;
-      // statistically this approach is more efficient since it breaks the for loop when it finds the result
-      const files = fs.readdirSync(censosGeojsonDir)
-      for (const _file of files) {
-        (async (file) => {
-          const geojsonFilePath = path.join(censosGeojsonDir, file)
-          const subSecction = await piscina.run({ geojsonFilePath, lat, lon })
-          if (subSecction) {
-            debug('Found subSecction: ', subSecction)
-            local.INE_BGRI_2021 = subSecction.properties
+    if (municipalityIneCode) {
+      // files pattern like BGRI2021_0211.json
+      // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
+      const file = `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
+      const geojsonFilePath = path.join(censosGeojsonDir, file)
+      if (fs.existsSync(geojsonFilePath)) {
+        const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
+        const lookupBGRI = new PolygonLookup(geojsonData)
+        const subSecction = lookupBGRI.search(lon, lat)
+        if (subSecction) {
+          debug('Found subSecction: ', subSecction)
+          local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
+          local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
 
-            res.status(200).sendData({
-              data: local,
-              input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
-              pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
-            })
+          if (isDetails) {
+            local['Detalhes Subsecção Estatística'] = subSecction.properties
           }
-        })(_file)
+        }
       }
-    } else {
-      res.status(200).sendData({
-        data: local,
-        input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
-        pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
-      })
     }
+
+    res.status(200).sendData({
+      data: local,
+      input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
+      pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
+    })
   } catch (e) {
     debug('Error on server', e)
 
