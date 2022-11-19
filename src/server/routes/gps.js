@@ -130,8 +130,18 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       const referer = `${req.get('origin') || ''}/gps/${lat},${lon}`
       debug('Referer: ', referer)
 
-      got(`${nominatimReverseBaseUrl}?lat=${lat}&lon=${lon}&format=json`,
-        { headers: { Referer: referer } })
+      got(`${nominatimReverseBaseUrl}?lat=${lat}&lon=${lon}&format=json&accept-language=pt-PT`,
+        {
+          headers: { Referer: referer },
+          timeout: {
+            lookup: 100,
+            connect: 50,
+            secureConnect: 50,
+            socket: 1000,
+            send: 2000,
+            response: 1000
+          }
+        })
         .json()
         .then(result => {
           local.morada_completa = result.display_name
@@ -171,7 +181,7 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
     concelho: null,
     freguesia: null,
     'Secção Estatística (INE, BGRI 2021)': null,
-    'Subsecção Estatística (INE, BGRI 2021)': null,
+    'Subsecção Estatística (INE, BGRI 2021)': null
   }
   if (isDetails) {
     objectOrder = Object.assign(objectOrder,
