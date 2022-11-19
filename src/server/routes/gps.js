@@ -151,7 +151,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
             local.rua = address.road
             local.bairro = address.neighbourhood
             local.zona = address.suburb
-            local.CP7 = address.postcode
+            local.CP = address.postcode
           }
           sendDataOk({ res, local, lat, lon, isDetails })
         })
@@ -191,7 +191,7 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
         bairro: null,
         rua: null,
         n_porta: null,
-        CP7: null
+        CP: null
       })
   }
 
@@ -200,6 +200,6 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
   res.status(200).sendData({
     data: local,
     input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
-    pageTitle: `Freguesia correspondente às coordenadas ${lat}, ${lon}`
+    pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`
   })
 }
