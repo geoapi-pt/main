@@ -23,12 +23,12 @@
             </tr>
             <tr>
                <th scope="row">/gps/{latitude},{longitude}</th>
-               <td>Distrito, Município e Freguesia através de coordenadas GPS</td>
+               <td>Distrito, Município, Freguesia e sub(secção) estatística através de coordenadas GPS</td>
                <td><a href="/gps/38.748406,-9.102984">/gps/38.748406,-9.102984</a></td>
             </tr>
             <tr>
                <th scope="row">/gps/{latitude},{longitude}/detalhes</th>
-               <td>Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia</td>
+               <td>Distrito, Município, Freguesia e sub(secção) estatística através de coordenadas GPS, com detalhes sobre endereço postal e respectivos Município, Freguesia e sub(secção) estatística</td>
                <td><a href="/gps/38.748406,-9.102984/detalhes">/gps/38.748406,-9.102984/detalhes</a></td>
             </tr>
             <tr class="table-info2">
@@ -108,10 +108,10 @@
 </div>
 
 <div class="limiter" style="padding: 2% 10%;">
-   <h2>Obter informação de Código Postal</h2>
+   <h2>Código Postal</h2>
    <p>Código Javascript <a href="https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/js/getPostalCodesInfo.js">aqui</a></p>
    
-   <label for="select-codigo-postal">Código Postal</label>
+   <label for="select-codigo-postal">Obter informação de Código Postal</label>
    <input type="text" id="codigo-postal" class="border rounded" name="codigo-postal" placeholder="1234-567" required minlength="8" maxlength="8" size="10">
    <br>
 
@@ -122,7 +122,7 @@
 </div>
 
 <div class="limiter" style="padding: 2% 10%;">
-   <h2>Obter informação de Freguesia</h2>
+   <h2>Freguesia</h2>
    <p>Código Javascript <a href="https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/js/getAuthorityInfo.js">aqui</a></p>
    
    <div class="row">
