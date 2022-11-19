@@ -20,8 +20,8 @@ function routeFn (req, res, next, { administrations }) {
       res.status(200).sendData({
         data: result[0],
         typeOfLink: 'municipality',
-        input: `Lista de Municípios do distrito do ${district}`,
-        pageTitle: `Lista de Municípios do distrito do ${district}`
+        input: `Lista de Municípios do distrito de ${result[0].distrito}`,
+        pageTitle: `Lista de Municípios do distrito de ${result[0].distrito}`
       })
     } else {
       res.status(404).sendData({ error: `Distrito ${district} não encontrado!` })
