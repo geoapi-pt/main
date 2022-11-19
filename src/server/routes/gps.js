@@ -49,7 +49,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
     const lat = parseFloat(req.query.lat) // ex: 40.153687
     const lon = parseFloat(req.query.lon) // ex: -8.514602
-    const isDetails = Boolean(parseInt(req.query.detalhes)) || req.originalUrl.includes('/detalhes')
+    const isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.endsWith('/detalhes'))
 
     const point = [lon, lat] // longitude, latitude
     const local = {} // the local data corresponding to the coordinates
