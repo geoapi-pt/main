@@ -27,6 +27,7 @@ async.series([
   buildMetaParishes,
   testAllParishesFromGeojson,
   testAllParishesFromServerRequest,
+  testAllMunicipalities,
   testPostalCode,
   testSomeGpsCoordinates,
   testOpenApiPaths
@@ -232,6 +233,52 @@ function testParishWithMunicipality (parish, municipality, callback) {
     })
 }
 
+// Ensures that all municipalities have all information
+function testAllMunicipalities (mainCallback) {
+  console.log('Ensures that all municipalities have all information')
+
+  got(`http://localhost:${TEST_PORT}/municipios`)
+    .json()
+    .then(municipalities => {
+      console.log(`Found ${municipalities.length} municipalities`)
+
+      const bar = new ProgressBar('[:bar] :percent :info', { total: municipalities.length + 1, width: 80 })
+      async.eachOfLimit(municipalities, 50, function (municipality, key, callback) {
+        const url = `http://localhost:${TEST_PORT}/municipios/${municipality}`
+        got(url)
+          .json()
+          .then(res => {
+            bar.tick({ info: res.nome || res[0].nome })
+            res = Array.isArray(res) ? res[0] : res
+            if (res.nome && res.distrito && res.codigoine) {
+              callback()
+            } else {
+              console.error(res)
+              callback(Error(`${municipality} misses nome, distrito or codigoine`))
+            }
+          })
+          .catch(err => {
+            console.error(`Error on ${url}`, err)
+            callback(Error(`Error on ${url}`))
+          })
+      }, function (err) {
+        bar.tick({ info: '' })
+        bar.terminate()
+        if (err) {
+          console.error(err)
+          mainCallback(Error(err))
+        } else {
+          console.log(colors.green('All municipalities have been tested OK\n'))
+          mainCallback()
+        }
+      })
+    })
+    .catch(err => {
+      console.error(err)
+      mainCallback(Error(`\n${err} on /municipios`))
+    })
+}
+
 function testPostalCode (callback) {
   got(`http://localhost:${TEST_PORT}/cp/1950-449`)
     .json()
@@ -297,6 +344,7 @@ function testSomeGpsCoordinates (mainCallback) {
 }
 
 function testOpenApiPaths (mainCallback) {
+  console.log('Test OpenAPI routes')
   async.each(
     require(path.join(__dirname, 'openApiPaths'))(),
     function (urlAbsolutePath, eachCallback) {
@@ -321,3 +369,13 @@ function testOpenApiPaths (mainCallback) {
     mainCallback(Error(err))
   })
 }
+
+function shutdownServer (signal) {
+  if (signal) console.log(`\nReceived signal ${signal}`)
+  console.log('Closing test server')
+  testServer.closeServer()
+}
+
+// gracefully exiting upon CTRL-C
+process.on('SIGINT', (signal) => shutdownServer(signal))
+process.on('SIGTERM', (signal) => shutdownServer(signal))
