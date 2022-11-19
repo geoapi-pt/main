@@ -27,7 +27,8 @@ module.exports = function (callback) {
       readJsonFiles, // read JSON files with information (email, phone, etc.) of municipalities and parishes
       buildAdministrationsObject,
       buildsAdministrationsDistrictsArrays,
-      addCensosData
+      addCensusData,
+      postProcessAdministrations
     ],
     function (err) {
       if (err) {
@@ -168,14 +169,19 @@ function readShapefile (mainCallback) {
   })
 }
 
+// apply some tweaks
 function postProcessRegions (callback) {
   try {
-    // see https://github.com/jfoclpf/geoapi.pt/issues/31
     ['ArqAcores_GOcidental', 'ArqAcores_GCentral', 'ArqAcores_GOriental']
       .forEach(region => {
         regions[region].geojson.features.forEach(parish => {
+          // see https://github.com/jfoclpf/geoapi.pt/issues/31
           if (!/.+\(.+\).*/.test(parish.properties.Ilha)) {
             parish.properties.Ilha += ' (Açores)'
+          }
+          // tweak porque há 2 "Lagoa"
+          if (parish.properties.Concelho.trim() === 'Lagoa') {
+            parish.properties.Concelho = 'Lagoa (Açores)'
           }
         })
       })
@@ -230,7 +236,7 @@ function readJsonFiles (mainCallback) {
       delete municipality.presidentecamara
 
       // replace property name form entidade to nome
-      municipality.nome = municipality.entidade
+      municipality.nome = correctCase(municipality.entidade)
       delete municipality.entidade
     }
     debug(colors.cyan(jsonResFiles.municipalitiesA) + ' read with success')
@@ -250,13 +256,6 @@ function readJsonFiles (mainCallback) {
           break
         }
       }
-
-      // some names are in the form: "municipality (region)", for ex: "Calheta (Madeira)"
-      const matches = /\(([^)]+)\)/.exec(municipality.nome) // extract info between parentheses
-      if (matches && matches[1]) {
-        municipality['região'] = matches[1]
-        municipality.nome = municipality.nome.replace(/ *\([^)]*\) */g, '').trim() // remove text between parentheses
-      }
     }
 
     // build administrations.keysOfMunicipalitiesDetails, used to validate request parameters of /municipios
@@ -267,6 +266,11 @@ function readJsonFiles (mainCallback) {
         }
       }
     }
+
+    // build listOfMunicipalitiesNames
+    administrations.listOfMunicipalitiesNames = administrations.municipalitiesDetails.map(m => correctCase(m.nome))
+    administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
+    administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
 
     debug('Fetched and processed info from ' + colors.cyan(jsonResFiles.municipalitiesB))
     debug(`Array of Objects ${colors.cyan('municipalitiesDetails')} created`)
@@ -290,9 +294,9 @@ function readJsonFiles (mainCallback) {
 
       const tempObj = extractParishInfoFromStr(parish.entidade)
       parish.nome = tempObj.parish
-      parish.municipio = tempObj.municipality
+      parish.municipio = correctCase(tempObj.municipality)
       if (tempObj.region) {
-        parish['região'] = tempObj.region
+        parish['região'] = correctCase(tempObj.region)
       }
 
       delete parish.entidade
@@ -375,14 +379,13 @@ function buildAdministrationsObject (callback) {
       const codigoine = parish.properties.Dicofre || parish.properties.DICOFRE
 
       administrations.listOfParishesNames.push(parishName + ` (${municipalityName})`)
-      administrations.listOfMunicipalitiesNames.push(municipalityName)
 
       // extract parish names from geoson files, because names of parishes do not coincide between sources
       // adding an extra fields nomecompleto2 and nomecompleto3 to administrations.parishesDetails
       for (const parish2 of administrations.parishesDetails) {
         // it detects the parish via Código do INE from different sources
         // Regex to remove leading zeros from string
-        if (parish2.codigoine.replace(/^0+/, '') === codigoine.replace(/^0+/, '')) {
+        if (Number(parish2.codigoine) === Number(codigoine)) {
           parish2.nomecompleto2 = parishName
           if (parish.properties.Des_Simpli) {
             parish2.nomecompleto3 = parish.properties.Des_Simpli
@@ -414,9 +417,6 @@ function buildAdministrationsObject (callback) {
   // remove duplicates and sorts arrays
   administrations.listOfParishesNames = [...new Set(administrations.listOfParishesNames)]
   administrations.listOfParishesNames = administrations.listOfParishesNames.sort()
-
-  administrations.listOfMunicipalitiesNames = [...new Set(administrations.listOfMunicipalitiesNames)]
-  administrations.listOfMunicipalitiesNames = administrations.listOfMunicipalitiesNames.sort()
 
   // ex: [{nome: 'Lisboa', freguesias: ['Santa Maria Maior', ...]}, {nome: 'Porto', freguesias: [...]}, ...]
   // remove duplicates
@@ -472,7 +472,7 @@ function buildsAdministrationsDistrictsArrays (callback) {
   callback()
 }
 
-function addCensosData (callback) {
+function addCensusData (callback) {
   const censosMunicipalitiesDir = path.join(appRoot.path, 'res', 'censos', 'data', 'municipios')
   administrations.municipalitiesDetails.forEach(el => {
     const file = path.join(censosMunicipalitiesDir, String(parseInt(el.codigoine)) + '.json')
@@ -500,6 +500,22 @@ function addCensosData (callback) {
   })
 
   callback()
+}
+
+// apply some tweaks
+function postProcessAdministrations (callback) {
+  try {
+    administrations.parishesDetails.forEach(parish => {
+      // tweak porque há 2 "Lagoa"
+      if (normalizeName(parish.municipio) === normalizeName('Lagoa') &&
+          normalizeName(parish['região']) === normalizeName('Açores')) {
+        parish.municipio = 'Lagoa (Açores)'
+      }
+    })
+    callback()
+  } catch (err) {
+    callback(Error(err))
+  }
 }
 
 /* ****** Auxiliary functions ******** */

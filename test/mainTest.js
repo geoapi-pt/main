@@ -24,6 +24,7 @@ let Parishes = [] // Array with ALL the parishes, each element is an object {fre
 async.series([
   startsHttpServer,
   readShapefile,
+  postProcessRegions,
   buildMetaParishes,
   testAllParishesFromGeojson,
   testAllParishesFromServerRequest,
@@ -98,6 +99,29 @@ function readShapefile (mainCallback) {
       mainCallback()
     }
   })
+}
+
+// apply some tweaks
+function postProcessRegions (callback) {
+  try {
+    ['ArqAcores_GOcidental', 'ArqAcores_GCentral', 'ArqAcores_GOriental']
+      .forEach(region => {
+        regions[region].geojson.features.forEach(parish => {
+          // see https://github.com/jfoclpf/geoapi.pt/issues/31
+          if (!/.+\(.+\).*/.test(parish.properties.Ilha)) {
+            parish.properties.Ilha += ' (Açores)'
+          }
+          // tweak porque há 2 "Lagoa"
+          if (parish.properties.Concelho.trim() === 'Lagoa') {
+            parish.properties.Concelho = 'Lagoa (Açores)'
+          }
+        })
+      })
+    callback()
+  } catch (err) {
+    console.error(err)
+    callback(Error(err.message))
+  }
 }
 
 /* from object regions and their geojsons, build a single Parishes Array with Objects of the type
