@@ -125,31 +125,35 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       }
     }
 
-    // Nominatim usage policy demands a referer
-    const referer = `${req.get('origin') || ''}/gps/${lat},${lon}`
-    debug('Referer: ', referer)
+    if (isDetails) {
+      // Nominatim usage policy demands a referer
+      const referer = `${req.get('origin') || ''}/gps/${lat},${lon}`
+      debug('Referer: ', referer)
 
-    got(`${nominatimReverseBaseUrl}?lat=${lat}&lon=${lon}&format=json`,
-      { headers: { Referer: referer } })
-      .json()
-      .then(result => {
-        local.morada_completa = result.display_name
-        if (result.address) {
-          const address = result.address
-          local.n_porta = address.house_number
-          local.rua = address.road
-          local.bairro = address.neighbourhood
-          local.zona = address.suburb
-          local.CP7 = address.postcode
-        }
-        sendDataOk({ res, local, lat, lon })
-      })
-      .catch((err) => {
-        if (err) {
-          console.error('Open Street Map Nominatim service unavailable', err)
-        }
-        sendDataOk({ res, local, lat, lon })
-      })
+      got(`${nominatimReverseBaseUrl}?lat=${lat}&lon=${lon}&format=json`,
+        { headers: { Referer: referer } })
+        .json()
+        .then(result => {
+          local.morada_completa = result.display_name
+          if (result.address) {
+            const address = result.address
+            local.n_porta = address.house_number
+            local.rua = address.road
+            local.bairro = address.neighbourhood
+            local.zona = address.suburb
+            local.CP7 = address.postcode
+          }
+          sendDataOk({ res, local, lat, lon, isDetails })
+        })
+        .catch((err) => {
+          if (err) {
+            console.error('Open Street Map Nominatim service unavailable', err)
+          }
+          sendDataOk({ res, local, lat, lon, isDetails })
+        })
+    } else {
+      sendDataOk({ res, local, lat, lon, isDetails })
+    }
   } catch (e) {
     debug('Error on server', e)
 
@@ -159,22 +163,28 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   }
 }
 
-function sendDataOk ({ res, local, lat, lon }) {
+function sendDataOk ({ res, local, lat, lon, isDetails }) {
   // Create an object which will serve as the order template; these keys will be on top
-  const objectOrder = {
+  let objectOrder = {
     ilha: null,
     distrito: null,
     concelho: null,
     freguesia: null,
     'Secção Estatística (INE, BGRI 2021)': null,
     'Subsecção Estatística (INE, BGRI 2021)': null,
-    morada_completa: null,
-    zona: null,
-    bairro: null,
-    rua: null,
-    n_porta: null,
-    CP7: null
   }
+  if (isDetails) {
+    objectOrder = Object.assign(objectOrder,
+      {
+        morada_completa: null,
+        zona: null,
+        bairro: null,
+        rua: null,
+        n_porta: null,
+        CP7: null
+      })
+  }
+
   local = Object.assign(objectOrder, local)
 
   res.status(200).sendData({
