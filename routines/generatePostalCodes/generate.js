@@ -5,39 +5,28 @@
 
 const fs = require('fs')
 const path = require('path')
-const extract = require('extract-zip')
 const async = require('async')
 const ProgressBar = require('progress')
 const colors = require('colors/safe')
-const csv = require('csvtojson')
 const appRoot = require('app-root-path')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
 const debug = require('debug')('geoapipt:generate-postal-codes')
 
-const downloadZipMod = require(path.join(__dirname, 'downloadZip.js'))
+const fetchAddressesMod = require(path.join(__dirname, '..', 'commons', 'fetchAddresses.js'))
 const preparePostalCodesCTTMod = require(path.join(__dirname, 'prepareCTTfile.js'))
 const generatePostalCodesFunctions = require(path.join(__dirname, 'functions.js'))
 
 const resDirectory = path.join(appRoot.path, 'res', 'postal-codes')
 
-let openAddressesZipFilePath
-const unzippedFilesEncoding = 'utf8' // see https://stackoverflow.com/a/14551669/1243247
-let unzippedFilePath
-
 let cttData = [] // data fetched from CTT file
 let postalCodes = [] // array with CP4-CP3 postal codes (no duplications)
 let CP4postalCodes = [] // array with only CP4 postal codes (no duplications)
-const openAddressesData = [] // data fetched from OpenAddresses file
-let numberOfEntriesOpenAddresses
+let openAddressesData = [] // data fetched from OpenAddresses file
 
 const functionExecution =
   [
-    downloadZip, // downloads zip file from OpenAddresses
-    extractZip, // extracts zip file from OpenAddresses
-    countFileLines, // number of lines of CSV file corresponds to the number of entries
-    parseCsvFiles, // parse CSV file from OpenAddresses and store it in openAddressesData
-    deleteZipFile, // deletes zip file from OpenAddresses
+    fetchOpenAddresses,
     preparePostalCodesCTT, // parse files from CTT and stores data in cttData
     assembleCP3Data, // process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
     assembleCP4Data // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
@@ -80,85 +69,15 @@ async.series(
     }
   })
 
-function downloadZip (callback) {
-  downloadZipMod(argvOptions['download-zip'], (err, res) => {
+function fetchOpenAddresses (callback) {
+  fetchAddressesMod(argvOptions['download-zip'], (err, res) => {
     if (err) {
       callback(Error(err))
     } else {
-      openAddressesZipFilePath = res
+      openAddressesData = res
       callback()
     }
   })
-}
-
-// extracts zip file from OpenAddresses
-function extractZip (callback) {
-  console.log(`extracting ${openAddressesZipFilePath}`)
-  extract(openAddressesZipFilePath, {
-    dir: resDirectory,
-    onEntry: (entry, zipfile) => {
-      unzippedFilePath = path.join(resDirectory, entry.fileName)
-    }
-  }).then(() => {
-    console.log(`extraction complete to ${unzippedFilePath}`)
-    callback()
-  }).catch((errOnUnzip) => {
-    callback(Error('Error unziping file ' + openAddressesZipFilePath + '. ' + errOnUnzip.message))
-  })
-}
-
-// number of lines of CSV file corresponds to the number of entries
-function countFileLines (callback) {
-  let lineCount = 0
-  fs.createReadStream(unzippedFilePath)
-    .on('data', (buffer) => {
-      let idx = -1
-      lineCount-- // Because the loop will run once for idx=-1
-      do {
-        idx = buffer.indexOf(10, idx + 1)
-        lineCount++
-      } while (idx !== -1)
-    }).on('end', () => {
-      numberOfEntriesOpenAddresses = lineCount
-      console.log(`CSV file from OpenAddresses has ${numberOfEntriesOpenAddresses} entries`)
-      callback()
-    }).on('error', (err) => {
-      callback(Error(err))
-    })
-}
-
-function parseCsvFiles (callback) {
-  console.log('Parsing CSV file from OpenAddresses')
-  const bar = new ProgressBar('[:bar] :percent', { total: numberOfEntriesOpenAddresses - 1, width: 80 })
-  csv({
-    delimiter: ','
-  })
-    .fromStream(fs.createReadStream(unzippedFilePath, { encoding: unzippedFilesEncoding }))
-    .subscribe((json) => {
-      bar.tick()
-      if (Array.isArray(json)) { // json is array
-        openAddressesData.push(...json)
-      } else { // json is element
-        openAddressesData.push(json)
-      }
-    },
-    (err) => {
-      bar.terminate()
-      callback(Error(err))
-    },
-    () => {
-      bar.terminate()
-      console.log('Extracted CSV data from ' + unzippedFilePath)
-      callback()
-    })
-}
-
-function deleteZipFile (callback) {
-  if (fs.existsSync(unzippedFilePath)) {
-    fs.unlinkSync(unzippedFilePath)
-  }
-  console.log('Extracted CSF file deleted after being processed')
-  callback()
 }
 
 function preparePostalCodesCTT (callback) {
