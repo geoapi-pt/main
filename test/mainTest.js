@@ -12,19 +12,18 @@ const path = require('path')
 const async = require('async')
 const colors = require('colors')
 const got = require('got')
-const shapefile = require('shapefile')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 
 const testServer = require(path.join(__dirname, 'serverForTests'))
-const { regions } = require(path.join(appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins'))
+
 let Parishes = [] // Array with ALL the parishes, each element is an object {freguesia, concelho, region}
+let regions // Object with geojson files for each region
 
 // main sequence of functions
 async.series([
   startsHttpServer,
-  readShapefile,
-  postProcessRegions,
+  getGeojsonRegions,
   buildMetaParishes,
   testAllParishesFromGeojson,
   testAllParishesFromServerRequest,
@@ -64,64 +63,17 @@ function startsHttpServer (callback) {
     })
 }
 
-function readShapefile (mainCallback) {
-  async.forEachOf(regions, function (value, key, forEachOfCallback) {
-    // try calling shapefile.read 5 times, waiting 500 ms between each retry
-    // see: https://github.com/mbostock/shapefile/issues/67
-    async.retry({ times: 5, interval: 500 }, function (retryCallback) {
-      shapefile.read(
-        path.join(appRoot.path, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.shp'),
-        path.join(appRoot.path, 'res', 'portuguese-administrative-chart', value.unzippedFilenamesWithoutExtension + '.dbf'),
-        { encoding: 'utf-8' }
-      ).then(geojson => {
-        console.log(
-          `Shapefiles read from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.shp')} ` +
-          `and from ${colors.cyan(value.unzippedFilenamesWithoutExtension + '.dbf')}`
-        )
-        retryCallback(null, geojson)
-      }).catch((err) => {
-        console.error(err)
-        retryCallback(Error(err))
-      })
-    }, function (err, result) {
-      if (err) {
-        forEachOfCallback(Error(err))
-      } else {
-        regions[key].geojson = result
-        forEachOfCallback()
-      }
-    })
-  }, function (err) {
+function getGeojsonRegions (callback) {
+  require(
+    path.join(appRoot.path, 'src', 'server', 'services', 'getGeojsonRegions')
+  )((err, _regions) => {
     if (err) {
-      console.error(err)
-      mainCallback(Error(err))
+      callback(Error(err))
     } else {
-      mainCallback()
+      regions = _regions
+      callback()
     }
   })
-}
-
-// apply some tweaks
-function postProcessRegions (callback) {
-  try {
-    ['ArqAcores_GOcidental', 'ArqAcores_GCentral', 'ArqAcores_GOriental']
-      .forEach(region => {
-        regions[region].geojson.features.forEach(parish => {
-          // see https://github.com/jfoclpf/geoapi.pt/issues/31
-          if (!/.+\(.+\).*/.test(parish.properties.Ilha)) {
-            parish.properties.Ilha += ' (Açores)'
-          }
-          // tweak porque há 2 "Lagoa"
-          if (parish.properties.Concelho.trim() === 'Lagoa') {
-            parish.properties.Concelho = 'Lagoa (Açores)'
-          }
-        })
-      })
-    callback()
-  } catch (err) {
-    console.error(err)
-    callback(Error(err.message))
-  }
 }
 
 /* from object regions and their geojsons, build a single Parishes Array with Objects of the type

@@ -10,7 +10,7 @@ In each download link several options appear, but the versions ending in `AAd_CA
 That is, we should not download the files with `troco` because they make reference to the lines (troço) and not to the surfaces.
 We should not select either the ones ending in `GPKG`.
 
-To update, we must only download the 5 ZIP files into `/res/portuguese-administrative-chart/` and the code should do the rest, if the structure of thoese files remains unchanged. We must also update the files names in the object `regions` in the file `getRegionsAndAdmins.js`
+To update, we must only download the 5 ZIP files into `/res/portuguese-administrative-chart/` and the code should do the rest, if the structure of thoese files remains unchanged. We must also update the files names in the object `regions` in the file `getGeojsonRegions.js`
 
 ## Details about Parishes and Municipalities
 
