@@ -1,5 +1,6 @@
-/* Extract zip files from Carta Administrativa de Portugal
-   and export it to regions Object with respective geojson files */
+/* Extract zip files from Carta Administrativa de Portugal (from Direção Geral do Território)
+   and set it to the regions Object with respective geojson files
+   The regions Object will then be exported to other modules that call this module */
 
 const fs = require('fs')
 const path = require('path')
@@ -13,7 +14,7 @@ const debugGeojson = require('debug')('geoapipt:geojson') // run: DEBUG=geoapipt
 
 const resDir = path.join(appRoot.path, 'res')
 
-// information from Direção Geral do Território
+// this Object will be filled and exported to other modules
 const regions = {
   cont: {
     name: 'Continente',
