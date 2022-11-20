@@ -35,7 +35,7 @@ const functionExecution =
 // ex: node routines/generatePostalCodes.js download-zip
 // downloads ZIP from OpenAddresses
 const cliOptions = [
-  { name: 'download-zip', type: Boolean, description: 'download zip source file, instead of using local previously downloaded one' },
+  { name: 'download-zip', type: Boolean, description: 'download OpenAddresses zip source file, instead of using local previously downloaded one' },
   { name: 'onlyCP4', type: String, multiple: true, description: 'only generate CP4 postal codes; you may list which' },
   { name: 'onlyCP3', type: Boolean, description: 'only generate CP3 postal codes' },
   { name: 'help', type: Boolean, description: 'print this help' }
