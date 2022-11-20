@@ -12,6 +12,7 @@ const colors = require('colors/safe')
 const csv = require('csvtojson')
 const appRoot = require('app-root-path')
 const commandLineArgs = require('command-line-args')
+const commandLineUsage = require('command-line-usage')
 const debug = require('debug')('geoapipt:generate-postal-codes')
 
 const downloadZipMod = require(path.join(__dirname, 'downloadZip.js'))
@@ -44,11 +45,29 @@ const functionExecution =
 
 // ex: node routines/generatePostalCodes.js download-zip
 // downloads ZIP from OpenAddresses
-const argvOptions = commandLineArgs([
-  { name: 'download-zip', type: Boolean },
-  { name: 'onlyCP4', type: String, multiple: true },
-  { name: 'onlyCP3', type: Boolean }
-])
+const cliOptions = [
+  { name: 'download-zip', type: Boolean, description: 'download zip source file, instead of using local previously downloaded one' },
+  { name: 'onlyCP4', type: String, multiple: true, description: 'only generate CP4 postal codes; you may list which' },
+  { name: 'onlyCP3', type: Boolean, description: 'only generate CP3 postal codes' },
+  { name: 'help', type: Boolean, description: 'print this help' }
+]
+const cliUsageObj = [
+  {
+    header: 'generate-postalcodes',
+    content: 'Generates Postal Codes resource files'
+  },
+  {
+    header: 'Options',
+    optionList: cliOptions
+  }
+]
+const argvOptions = commandLineArgs(cliOptions)
+const cliUsage = commandLineUsage(cliUsageObj)
+
+if (argvOptions.help) {
+  console.log(cliUsage)
+  process.exit()
+}
 
 async.series(
   functionExecution,
