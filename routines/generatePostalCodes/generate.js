@@ -28,7 +28,7 @@ const functionExecution =
   [
     fetchOpenAddresses,
     preparePostalCodesCTT, // parse files from CTT and stores data in cttData
-    assembleCP3Data, // process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
+    assembleCP7Data, // process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
     assembleCP4Data // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
   ]
 
@@ -37,7 +37,7 @@ const functionExecution =
 const cliOptions = [
   { name: 'download-zip', type: Boolean, description: 'download OpenAddresses zip source file, instead of using local previously downloaded one' },
   { name: 'onlyCP4', type: String, multiple: true, description: 'only generate CP4 postal codes; you may list which' },
-  { name: 'onlyCP3', type: Boolean, description: 'only generate CP3 postal codes' },
+  { name: 'onlyCP7', type: Boolean, description: 'only generate CP7 postal codes' },
   { name: 'help', type: Boolean, description: 'print this help' }
 ]
 const cliUsageObj = [
@@ -95,8 +95,8 @@ function preparePostalCodesCTT (callback) {
   })
 }
 
-// process and assemble data from both databases (OpenAddresses and CTT) to generate CP3 JSON files
-function assembleCP3Data (callback) {
+// process and assemble data from both databases (OpenAddresses and CTT) to generate CP4/CP3 JSON files
+function assembleCP7Data (callback) {
   if (argvOptions.onlyCP4) {
     callback()
     return
@@ -150,7 +150,7 @@ function assembleCP3Data (callback) {
 
 // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
 function assembleCP4Data (callback) {
-  if (argvOptions.onlyCP3) {
+  if (argvOptions.onlyCP7) {
     callback()
     return
   }
