@@ -103,7 +103,7 @@ function startServer (callback) {
   if (argvOptions.rateLimit) {
     limiter = rateLimit({
       windowMs: 15 * 60 * 1000, // 15 minutes
-      max: 15 * 60, // Limit each IP to average 1 request/sec
+      max: 15 * 60 * 10, // Limit each IP to average 1 request/sec
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
       legacyHeaders: false // Disable the `X-RateLimit-*` headers
     })
