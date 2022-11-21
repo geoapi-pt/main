@@ -199,7 +199,18 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
 
   res.status(200).sendData({
     data: local,
-    input: { latitude: lat, longitude: lon }, // inform user of input in case of text/html
+    input: { latitude: convertDDToDMS(lat), longitude: convertDDToDMS(lon, true) }, // inform user of input in case of text/html
     pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`
   })
+}
+
+// convert coordinates from decimal to Degrees Minutes And Seconds
+function convertDDToDMS (D, lng) {
+  const coord = {
+    dir: D < 0 ? (lng ? 'O' : 'S') : lng ? 'E' : 'N',
+    deg: 0 | (D < 0 ? (D = -D) : D),
+    min: 0 | (((D += 1e-9) % 1) * 60),
+    sec: (0 | (((D * 60) % 1) * 6000)) / 100
+  }
+  return `${coord.deg}° ${coord.min}' ${parseInt(coord.sec)}" ${coord.dir}`
 }
