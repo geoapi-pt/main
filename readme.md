@@ -38,7 +38,9 @@ By default the server replies with `text/html` format. To receive JSON format, c
  3. Enter the newly created directory and install dependencies<br>
     `cd geoapi.pt && npm ci`
  4. Start the server<br>
-    `npm start --port=8080`
+    `npm start -- --port=8080`
+
+For more information run `npm start -- --help`
 
 ### Continuous operation
 
