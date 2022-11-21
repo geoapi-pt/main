@@ -33,8 +33,6 @@ const functionExecution =
     assembleCP4Data // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
   ]
 
-// ex: node routines/generatePostalCodes.js download-zip
-// downloads ZIP from OpenAddresses
 const cliOptions = [
   { name: 'download-zip', type: Boolean, description: 'download OpenAddresses zip source file, instead of using local previously downloaded one' },
   { name: 'onlyCP4', type: String, multiple: true, description: 'only (re)generate CP4 postal codes; you must list which' },
