@@ -45,11 +45,28 @@ const cliOptions = [
 const cliUsageObj = [
   {
     header: 'generate-postalcodes',
-    content: 'Generates Postal Codes resource files'
+    content: `Generates Postal Codes resource files into ${path.relative(appRoot.path, resDirectory)}`
   },
   {
     header: 'Options',
     optionList: cliOptions
+  },
+  {
+    header: 'Examples',
+    content: [
+      {
+        desc: '1. Fetch OpenAddress zip file and generate all postal codes.',
+        example: '$ npm run generate-postalcodes -- --download-zip'
+      },
+      {
+        desc: '2. Only generates certain CP4 postal codes. ',
+        example: '$ npm run generate-postalcodes -- --onlyCP4 1990 1950'
+      },
+      {
+        desc: '3. Only generates certain CP7 postal codes. ',
+        example: '$ npm run generate-postalcodes -- --onlyCP7 2845-054 2670-409'
+      }
+    ]
   }
 ]
 const argvOptions = commandLineArgs(cliOptions)
