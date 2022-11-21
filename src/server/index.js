@@ -43,29 +43,14 @@ const cliOptions = [
   { name: 'help', type: Boolean, description: 'print this help' }
 ]
 const cliUsageObj = [
-  {
-    header: 'geoptapi',
-    content: `HTTP server for the GEO PT API: {italic ${siteDescription}}. For more information see ${gitProjectUrl}`
-  },
-  {
-    header: 'Options',
-    optionList: cliOptions
-  },
+  { header: 'geoptapi', content: `HTTP server for the GEO PT API: {italic ${siteDescription}}. For more information see ${gitProjectUrl}` },
+  { header: 'Options', optionList: cliOptions },
   {
     header: 'Examples',
     content: [
-      {
-        desc: `1. Start server on port ${configs.defaultHttpPort} without rate limiter.`,
-        example: '$ npm start'
-      },
-      {
-        desc: '2. Start server on port 9090 with rate limiter activated.',
-        example: '$ npm start -- --port 9090 --rateLimit'
-      },
-      {
-        desc: '3. Test server startup.',
-        example: '$ npm start -- --testStartup'
-      }
+      { desc: `1. Start server on port ${configs.defaultHttpPort} without rate limiter.`, example: '$ npm start' },
+      { desc: '2. Start server on port 9090 with rate limiter activated.', example: '$ npm start -- --port 9090 --rateLimit' },
+      { desc: '3. Test server startup.', example: '$ npm start -- --testStartup' }
     ]
   }
 ]
