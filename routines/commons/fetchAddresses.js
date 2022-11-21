@@ -153,14 +153,14 @@ function downloadFile (originUrl, destPath, callback) {
 
 // extracts zip file from OpenAddresses
 function extractZip (callback) {
-  console.log(`extracting ${openAddressesZipFilePath}`)
+  console.log(`Extracting ${path.relative(appRoot.path, openAddressesZipFilePath)}`)
   extract(openAddressesZipFilePath, {
     dir: resDirectory,
     onEntry: (entry, zipfile) => {
       unzippedFilePath = path.join(resDirectory, entry.fileName)
     }
   }).then(() => {
-    console.log(`extraction complete to ${unzippedFilePath}`)
+    console.log(`Extraction complete to ${colors.green(path.relative(appRoot.path, unzippedFilePath))}`)
     callback()
   }).catch((errOnUnzip) => {
     callback(Error('Error unziping file ' + openAddressesZipFilePath + '. ' + errOnUnzip.message))
@@ -216,7 +216,7 @@ function parseCsvFiles (callback) {
     },
     () => {
       bar.terminate()
-      console.log('Extracted CSV data from ' + unzippedFilePath)
+      console.log('Extracted CSV data from ' + colors.green(path.relative(appRoot.path, unzippedFilePath)))
       callback()
     })
 }
