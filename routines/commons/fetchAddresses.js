@@ -189,17 +189,25 @@ function countFileLines (callback) {
 
 function parseCsvFiles (callback) {
   console.log('Parsing CSV file from OpenAddresses')
+
+  // list of addresses (points in map) to be expurgated from openAddressesData
+  const ignoreAddresses = JSON.parse(fs.readFileSync(path.join(__dirname, 'ignoreAddresses.json')))
+
   const bar = new ProgressBar('[:bar] :percent', { total: numberOfEntriesOpenAddresses - 1, width: 80 })
   csv({
     delimiter: ','
   })
     .fromStream(fs.createReadStream(unzippedFilePath, { encoding: unzippedFilesEncoding }))
-    .subscribe((json) => {
+    .subscribe((el) => {
       bar.tick()
-      if (Array.isArray(json)) { // json is array
-        openAddressesData.push(...json)
-      } else { // json is element
-        openAddressesData.push(json)
+      if (!((!!el) && (el.constructor === Object))) {
+        console.error(el)
+        throw Error('element is not an Object')
+      } else if (!el.id) {
+        console.error(el)
+        throw Error('element has no id key')
+      } else if (!ignoreAddresses.some(_el => _el.id === el.id)) {
+        openAddressesData.push(el)
       }
     },
     (err) => {
@@ -217,6 +225,6 @@ function deleteZipFile (callback) {
   if (fs.existsSync(unzippedFilePath)) {
     fs.unlinkSync(unzippedFilePath)
   }
-  console.log('Extracted CSF file deleted after being processed')
+  console.log('Extracted CSV file deleted after being processed')
   callback()
 }
