@@ -18,6 +18,7 @@ const preparePostalCodesCTTMod = require(path.join(__dirname, 'prepareCTTfile.js
 const generatePostalCodesFunctions = require(path.join(__dirname, 'functions.js'))
 
 const resDirectory = path.join(appRoot.path, 'res', 'postal-codes')
+const ignoreAddressesFile = path.join(appRoot.path, 'routines', 'commons', 'ignoreAddresses.json')
 
 let cttData = [] // data fetched from CTT file
 let postalCodes = [] // array with CP4-CP3 postal codes (no duplications)
@@ -36,8 +37,9 @@ const functionExecution =
 // downloads ZIP from OpenAddresses
 const cliOptions = [
   { name: 'download-zip', type: Boolean, description: 'download OpenAddresses zip source file, instead of using local previously downloaded one' },
-  { name: 'onlyCP4', type: String, multiple: true, description: 'only generate CP4 postal codes; you may list which' },
-  { name: 'onlyCP7', type: Boolean, description: 'only generate CP7 postal codes' },
+  { name: 'onlyCP4', type: String, multiple: true, description: 'only (re)generate CP4 postal codes; you must list which' },
+  { name: 'onlyCP7', type: String, multiple: true, description: 'only (re)generate CP7 postal codes; you must list which' },
+  { name: 'onlyIgnored', type: Boolean, description: `(re)generate only postal codes found in ${path.relative(appRoot.path, ignoreAddressesFile)}` },
   { name: 'help', type: Boolean, description: 'print this help' }
 ]
 const cliUsageObj = [
@@ -105,6 +107,17 @@ function assembleCP7Data (callback) {
   // for tests, just get first N entries, i.e., trim array
   // postalCodes = postalCodes.slice(0, 100)
 
+  if (argvOptions.onlyCP7 && argvOptions.onlyCP7.length) {
+    postalCodes = argvOptions.onlyCP7
+    console.log('Generate only these CP7: ', postalCodes)
+  } else if (argvOptions.onlyIgnored) {
+    const ignorePostalcodes = JSON.parse(fs.readFileSync(ignoreAddressesFile))
+      .filter(el => el.postcode && /^\d{4}\p{Dash}\d{3}$/u.test(el.postcode))
+      .map(el => el.postcode.trim())
+    postalCodes = [...new Set(ignorePostalcodes)] // remove duplicates
+    console.log(`Generate only these CP7 found in ${path.relative(appRoot.path, ignoreAddressesFile)}: `, postalCodes)
+  }
+
   // data directory where all CP4/CP3.json will be stored
   if (!fs.existsSync(path.join(resDirectory, 'data'))) {
     fs.mkdirSync(path.join(resDirectory, 'data'))
@@ -150,7 +163,7 @@ function assembleCP7Data (callback) {
 
 // process and assemble data from both databases (OpenAddresses and CTT) to generate CP4 JSON files
 function assembleCP4Data (callback) {
-  if (argvOptions.onlyCP7) {
+  if (argvOptions.onlyCP7 || argvOptions.onlyIgnored) {
     callback()
     return
   }
