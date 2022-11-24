@@ -6,19 +6,15 @@ const path = require('path')
 const async = require('async')
 const ProgressBar = require('progress')
 const colors = require('colors/safe')
-const proj4 = require('proj4')
+const Piscina = require('piscina')
 const appRoot = require('app-root-path')
-const PolygonLookup = require('polygon-lookup')
 const commandLineArgs = require('command-line-args')
 const commandLineUsage = require('command-line-usage')
-const debug = require('debug')('geoapipt:generate-admins-addresses')
 
 const resDirectory = path.join(appRoot.path, 'res', 'admins-addresses')
 
-const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
 const fetchAddressesMod = require(path.join(appRoot.path, 'routines', 'commons', 'fetchAddresses.js'))
 const getRegionsAndAdminsMod = require(path.join(appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins.js'))
-const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
 
 let openAddressesData = [] // data fetched from OpenAddresses file
 
@@ -92,7 +88,6 @@ function getRegionsAndAdmins (callback) {
       callback(Error(err))
     } else {
       regions = data.regions
-      debug(regions)
       administrations = data.administrations
       callback()
     }
@@ -103,66 +98,65 @@ function getRegionsAndAdmins (callback) {
 // BGRI2021 includes the codes of distrito/município/freguesia/secção/subsecção
 function createMainObject (mainCallback) {
   console.log('Bulding main Object with all BGRI2021 codes, each containing all respective addresses')
+  console.time('createMainObject')
 
   // for tests, just get first N entries, i.e., trim array
-  // openAddressesData = openAddressesData.slice(0, 500)
+  // openAddressesData = openAddressesData.slice(0, 5000)
 
-  let bar
-  if (!debug.enabled) {
-    bar = new ProgressBar('[:bar] :percent BGRI2021 :info', { total: openAddressesData.length + 1, width: 80 })
-  } else {
-    bar = { tick: () => {}, terminate: () => {} }
+  const piscina = new Piscina({
+    filename: path.resolve(__dirname, 'createAddressesObject.js')
+  })
+
+  const numberThreads = piscina.threads.length
+  console.log('numberThreads: ' + numberThreads)
+
+  console.log('Splitting OpenAddresses Data into chunks and processing chunks')
+
+  const openAddressesDataChunks = []
+  const numberOfChunks = numberThreads * 3
+  const bar = new ProgressBar('[:bar] :percent', { total: numberOfChunks * 4, width: 80 })
+
+  // split openAddressesData into chunks
+  for (let i = numberOfChunks; i > 0; i--) {
+    bar.tick()
+    openAddressesDataChunks.push(openAddressesData.splice(0, Math.ceil(openAddressesData.length / i)))
   }
 
-  bar.tick({ info: '' })
-
-  async.eachLimit(openAddressesData, 100,
-    (addr, callback) => {
-      try {
-        let res
-        if (addr.lon && addr.lat) {
-          const lon = parseFloat(addr.lon)
-          const lat = parseFloat(addr.lat)
-
-          res = getAdminsByCoord(lon, lat)
-
-          if (res && res.BGRI2021) {
-            if (!addressesPerBGRI2021[res.BGRI2021]) {
-              addressesPerBGRI2021[res.BGRI2021] = {}
-              addressesPerBGRI2021[res.BGRI2021].data = res
-              addressesPerBGRI2021[res.BGRI2021].addresses = [addr]
-            } else {
-              addressesPerBGRI2021[res.BGRI2021].addresses.push(addr)
-            }
-          }
-        }
-        bar.tick({ info: (res && res.BGRI2021) ? res.BGRI2021 : '' })
-        callback()
-      } catch (err) {
-        console.error(err)
-        callback(Error(err))
-      }
+  const addressesPerBGRI2021Chunks = []
+  async.eachOfLimit(openAddressesDataChunks, numberThreads,
+    async (openAddressesDataChunk, index) => {
+      bar.tick()
+      const result = await piscina.run({ openAddressesDataChunk, regions, administrations })
+      addressesPerBGRI2021Chunks[index] = result
+      bar.tick()
     },
     (err) => {
-      bar.terminate()
       if (err) {
         mainCallback(Error(err))
       } else {
+        // merge results from chunks
+        addressesPerBGRI2021Chunks.forEach(chunk => {
+          for (const key in chunk) {
+            if (!addressesPerBGRI2021.hasOwnProperty(key)) { // eslint-disable-line
+              addressesPerBGRI2021[key] = chunk[key]
+            } else {
+              // just join addresses
+              addressesPerBGRI2021[key].addresses = addressesPerBGRI2021[key].addresses.concat(chunk[key].addresses)
+            }
+          }
+          bar.tick()
+        })
+        bar.terminate()
+        console.timeEnd('createMainObject')
         mainCallback()
       }
-    }
-  )
+    })
 }
 
 function createJsonFiles (mainCallback) {
   console.log('Creating JSON files')
-  let bar
-  if (!debug.enabled) {
-    bar = new ProgressBar('[:bar] :percent file :info', { total: Object.keys(addressesPerBGRI2021).length + 1, width: 80 })
-  } else {
-    bar = { tick: () => {}, terminate: () => {} }
-  }
 
+  const bar = new ProgressBar('[:bar] :percent file :info', { total: Object.keys(addressesPerBGRI2021).length + 1, width: 80 })
   bar.tick({ info: '' })
 
   async.eachLimit(addressesPerBGRI2021, 100,
@@ -191,59 +185,4 @@ function createJsonFiles (mainCallback) {
         mainCallback()
       }
     })
-}
-
-function getAdminsByCoord (lon, lat) {
-  const local = {}
-  const point = [lon, lat] // longitude, latitude
-  let municipalityIneCode
-
-  for (const key in regions) {
-    const transformedPoint = proj4(regions[key].projection, point)
-
-    const lookupFreguesias = new PolygonLookup(regions[key].geojson)
-    const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
-
-    if (freguesia) {
-      local.ilha = freguesia.properties.Ilha
-      local.distrito = freguesia.properties.Distrito
-      local.concelho = freguesia.properties.Concelho
-      local.freguesia = freguesia.properties.Freguesia
-
-      // search for details for municipalities by name
-      const numberOfMunicipalities = administrations.municipalitiesDetails.length
-      const municipality = normalizeName(freguesia.properties.Concelho)
-      for (let i = 0; i < numberOfMunicipalities; i++) {
-        if (municipality === normalizeName(administrations.municipalitiesDetails[i].nome)) {
-          municipalityIneCode = administrations.municipalitiesDetails[i].codigoine
-          break // found it, break loop
-        }
-      }
-
-      break
-    }
-  }
-
-  if (!local.freguesia || !municipalityIneCode) {
-    return null
-  }
-
-  // files pattern like BGRI2021_0211.json
-  // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-  const file = `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
-  const geojsonFilePath = path.join(censosGeojsonDir, file)
-  if (fs.existsSync(geojsonFilePath)) {
-    const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
-    const lookupBGRI = new PolygonLookup(geojsonData)
-    const subSecction = lookupBGRI.search(lon, lat)
-    if (subSecction) {
-      Object.assign(local, subSecction.properties)
-      delete local.N_EDIFICIOS_CLASSICOS
-      delete local.N_ALOJAMENTOS
-      delete local.N_AGREGADOS
-      delete local.N_INDIVIDUOS_RESIDENT
-    }
-  }
-
-  return local
 }
