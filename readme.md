@@ -12,11 +12,11 @@
 
 # GEO API PT
 
-[RESTful API](https://restfulapi.net/) which provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira. It also provides information on Postal Codes and Census.
+[RESTful API](https://restfulapi.net/) which provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2020", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira. It also provides information on Postal Codes and Census. For more information see the [resource](https://github.com/jfoclpf/geoapi.pt/tree/main/res) and [routines](https://github.com/jfoclpf/geoapi.pt/tree/main/routines) documentations.
 
 You can use freely the public API at `https://geoapi.pt`. The limit per IP is 900 requests per 15 minutes (average of 1/sec).
 
-It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It also pre-processes all the raw data for fast real-time delivery.
+It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It pre-processes all the raw data for fast real-time delivery.
 
 ## Routes
 
