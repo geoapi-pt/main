@@ -1,13 +1,15 @@
 const fs = require('fs')
 const path = require('path')
-const got = require('got')
 const proj4 = require('proj4')
+const turf = require('@turf/turf')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
-const debug = require('debug')('geoapipt:routes:gps')
+const debug = require('debug')('geoapipt:routes:gps') // DEBUG=geoapipt:routes:gps npm start
+
+const { correctCase } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
-const nominatimReverseBaseUrl = 'https://nominatim.openstreetmap.org/reverse'
+const adminAddressesDir = path.join(appRoot.path, 'res', 'admins-addresses')
 
 module.exports = {
   fn: routeFn,
@@ -15,6 +17,12 @@ module.exports = {
 }
 
 function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
+  const local = {} // the local data corresponding to the coordinates to send with the response
+  let lon, lat,
+    isDetails, // boolean activated with route /detalhes
+    municipalityIneCode,
+    parishIneCode
+
   try {
     debug('new query: ', req.query)
     debug(req.headers, req.params)
@@ -46,14 +54,11 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     }
     // ### request is valid from here ###
 
-    const lat = parseFloat(req.query.lat) // ex: 40.153687
-    const lon = parseFloat(req.query.lon) // ex: -8.514602
-    const isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.endsWith('/detalhes'))
+    lat = parseFloat(req.query.lat) // ex: 40.153687
+    lon = parseFloat(req.query.lon) // ex: -8.514602
+    isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.endsWith('/detalhes'))
 
     const point = [lon, lat] // longitude, latitude
-    const local = {} // the local data corresponding to the coordinates
-
-    let municipalityIneCode // code extracted regions Object, to detect the Census INE BGRI file to use
 
     for (const key in regions) {
       const transformedPoint = proj4(regions[key].projection, point)
@@ -68,24 +73,16 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         local.concelho = freguesia.properties.Concelho
         local.freguesia = freguesia.properties.Freguesia
 
-        municipalityIneCode = freguesia.properties.Dicofre.slice(0, 4)
+        municipalityIneCode = parseInt((freguesia.properties.Dicofre || freguesia.properties.DICOFRE).slice(0, 4))
+        parishIneCode = parseInt(freguesia.properties.Dicofre || freguesia.properties.DICOFRE)
 
         if (isDetails) {
-          // search for details for parishes by código INE
-          const numberOfParishes = administrations.parishesDetails.length
-          // regex to remove leading zeros
-          const codigoine = (freguesia.properties.Dicofre || freguesia.properties.DICOFRE).replace(/^0+/, '')
-          for (let i = 0; i < numberOfParishes; i++) {
-            if (codigoine === administrations.parishesDetails[i].codigoine.replace(/^0+/, '')) {
-              local.detalhesFreguesia = administrations.parishesDetails[i]
-              break // found it, break loop
-            }
-          }
+          local.detalhesFreguesia = administrations.parishesDetails
+            .find(parish => parseInt(parish.codigoine) === parishIneCode)
 
           local.detalhesMunicipio = administrations.municipalitiesDetails
-            .find(municipality => parseInt(municipality.codigoine) === parseInt(municipalityIneCode))
+            .find(municipality => parseInt(municipality.codigoine) === municipalityIneCode)
         }
-
         break
       }
     }
@@ -95,10 +92,12 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       return
     }
 
-    // files pattern like BGRI2021_0211.json
-    // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-    const file = `BGRI2021_${municipalityIneCode}.json`
-    const geojsonFilePath = path.join(censosGeojsonDir, file)
+    // Provide secção and subseção estatística
+    // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
+    const geojsonFilePath = path.join(
+      censosGeojsonDir,
+      `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
+    )
     if (fs.existsSync(geojsonFilePath)) {
       const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
       const lookupBGRI = new PolygonLookup(geojsonData)
@@ -111,51 +110,42 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         if (isDetails) {
           local['Detalhes Subsecção Estatística'] = subSecction.properties
         }
+
+        // now extract info from nearest point/address
+        const prop = subSecction.properties
+        const addressesFilePath = path.join(
+          adminAddressesDir,
+          prop.DT,
+          prop.CC || prop.MN,
+          prop.fr || prop.FR,
+          prop.SEC,
+          prop.SS + '.json'
+        )
+        if (fs.existsSync(addressesFilePath)) {
+          const addresses = JSON.parse(fs.readFileSync(addressesFilePath)).addresses
+          if (Array.isArray(addresses) && addresses.length) {
+            const targetPoint = turf.point([lon, lat])
+            const points = turf.featureCollection(addresses.map(
+              p => turf.point(
+                [parseFloat(p.lon), parseFloat(p.lat)],
+                { street: p.street, house: p.house, postcode: p.postcode, city: p.city }
+              )
+            ))
+            const nearest = turf.nearestPoint(targetPoint, points)
+            if (nearest && nearest.properties) {
+              debug('nearest point: ', nearest)
+              local.rua = correctCase(nearest.properties.street)
+              local.n_porta = nearest.properties.house
+              local.CP = nearest.properties.postcode
+              local.descr_postal = correctCase(nearest.properties.city)
+            }
+          }
+        }
       }
     }
-
-    if (isDetails) {
-      // Nominatim usage policy demands a referer
-      const referer = `${req.get('origin') || ''}/gps/${lat},${lon}`
-      debug('Referer: ', referer)
-
-      got(`${nominatimReverseBaseUrl}?lat=${lat}&lon=${lon}&format=json&accept-language=pt-PT`,
-        {
-          headers: { Referer: referer },
-          timeout: {
-            lookup: 100,
-            connect: 50,
-            secureConnect: 50,
-            socket: 1000,
-            send: 2000,
-            response: 1000
-          }
-        })
-        .json()
-        .then(result => {
-          local.morada_completa = result.display_name
-          if (result.address) {
-            const address = result.address
-            local.n_porta = address.house_number
-            local.rua = address.road
-            local.bairro = address.neighbourhood
-            local.zona = address.suburb
-            local.CP = address.postcode
-          }
-          sendDataOk({ res, local, lat, lon, isDetails })
-        })
-        .catch((err) => {
-          if (err) {
-            console.error('Open Street Map Nominatim service unavailable', err)
-          }
-          sendDataOk({ res, local, lat, lon, isDetails })
-        })
-    } else {
-      sendDataOk({ res, local, lat, lon, isDetails })
-    }
+    sendDataOk({ res, local, lat, lon, isDetails })
   } catch (e) {
     debug('Error on server', e)
-
     res.status(400).sendData(
       { error: 'Wrong request! Example of good request: /gps/40.153687,-8.514602' }
     )
@@ -164,24 +154,17 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
 function sendDataOk ({ res, local, lat, lon, isDetails }) {
   // Create an object which will serve as the order template; these keys will be on top
-  let objectOrder = {
+  const objectOrder = {
     ilha: null,
     distrito: null,
     concelho: null,
     freguesia: null,
     'Secção Estatística (INE, BGRI 2021)': null,
-    'Subsecção Estatística (INE, BGRI 2021)': null
-  }
-  if (isDetails) {
-    objectOrder = Object.assign(objectOrder,
-      {
-        morada_completa: null,
-        zona: null,
-        bairro: null,
-        rua: null,
-        n_porta: null,
-        CP: null
-      })
+    'Subsecção Estatística (INE, BGRI 2021)': null,
+    rua: null,
+    n_porta: null,
+    CP: null,
+    descr_postal: null
   }
 
   local = Object.assign(objectOrder, local)
