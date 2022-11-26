@@ -5,7 +5,6 @@ const proj4 = require('proj4')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
 const debug = require('debug')('geoapipt:routes:gps')
-const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
 const nominatimReverseBaseUrl = 'https://nominatim.openstreetmap.org/reverse'
@@ -69,6 +68,8 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         local.concelho = freguesia.properties.Concelho
         local.freguesia = freguesia.properties.Freguesia
 
+        municipalityIneCode = freguesia.properties.Dicofre.slice(0, 4)
+
         if (isDetails) {
           // search for details for parishes by código INE
           const numberOfParishes = administrations.parishesDetails.length
@@ -80,19 +81,9 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
               break // found it, break loop
             }
           }
-        }
 
-        // search for details for municipalities by name
-        const numberOfMunicipalities = administrations.municipalitiesDetails.length
-        const municipality = normalizeName(freguesia.properties.Concelho)
-        for (let i = 0; i < numberOfMunicipalities; i++) {
-          if (municipality === normalizeName(administrations.municipalitiesDetails[i].nome)) {
-            if (isDetails) {
-              local.detalhesMunicipio = administrations.municipalitiesDetails[i]
-            }
-            municipalityIneCode = administrations.municipalitiesDetails[i].codigoine
-            break // found it, break loop
-          }
+          local.detalhesMunicipio = administrations.municipalitiesDetails
+            .find(municipality => parseInt(municipality.codigoine) === parseInt(municipalityIneCode))
         }
 
         break
@@ -104,23 +95,21 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       return
     }
 
-    if (municipalityIneCode) {
-      // files pattern like BGRI2021_0211.json
-      // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-      const file = `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
-      const geojsonFilePath = path.join(censosGeojsonDir, file)
-      if (fs.existsSync(geojsonFilePath)) {
-        const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
-        const lookupBGRI = new PolygonLookup(geojsonData)
-        const subSecction = lookupBGRI.search(lon, lat)
-        if (subSecction) {
-          debug('Found subSecction: ', subSecction)
-          local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
-          local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
+    // files pattern like BGRI2021_0211.json
+    // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
+    const file = `BGRI2021_${municipalityIneCode}.json`
+    const geojsonFilePath = path.join(censosGeojsonDir, file)
+    if (fs.existsSync(geojsonFilePath)) {
+      const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
+      const lookupBGRI = new PolygonLookup(geojsonData)
+      const subSecction = lookupBGRI.search(lon, lat)
+      if (subSecction) {
+        debug('Found subSecction: ', subSecction)
+        local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
+        local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
 
-          if (isDetails) {
-            local['Detalhes Subsecção Estatística'] = subSecction.properties
-          }
+        if (isDetails) {
+          local['Detalhes Subsecção Estatística'] = subSecction.properties
         }
       }
     }
