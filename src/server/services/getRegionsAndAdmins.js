@@ -10,7 +10,7 @@ const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:getRegionsAndAdmins') // run: DEBUG=geoapipt:getRegionsAndAdmins npm start
 
-const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
+const { normalizeName, correctCase } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 const resDir = path.join(appRoot.path, 'res')
 
@@ -398,24 +398,4 @@ function extractParishInfoFromStr (str) {
   } catch (err) {
     throw Error(`Extracting parish name and municipality from string '${str}' threw an error: ${err}`)
   }
-}
-
-// REGUENGOS DE MONSARAZ => Reguengos de Monzaraz
-// VENDAS NOVAS => Vendas Novas
-// R. A. MADEIRA => R. A. Madeira
-function correctCase (_str) {
-  let str = _str.toLowerCase()
-    .replace(/\s\s+/g, ' ') // remove excess of spaces
-
-  str = str.split(' ').map(word => {
-    if (word.length > 2) {
-      return word.charAt(0).toUpperCase() + word.slice(1) // capitalize first letter of word
-    } else if (word.length === 2 && word.charAt(1) === '.') { // 'r.' => 'R.'
-      return word.toUpperCase()
-    } else {
-      return word
-    }
-  }).join(' ')
-
-  return str
 }
