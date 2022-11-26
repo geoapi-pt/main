@@ -8,8 +8,6 @@ const PolygonLookup = require('polygon-lookup')
 
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
 
-const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
-
 module.exports = async ({ openAddressesDataChunk, regions, administrations }) => {
   return await processChunk({ openAddressesDataChunk, regions, administrations })
 }
@@ -71,16 +69,7 @@ function getAdminsByCoord ({ regions, administrations, lon, lat }) {
       local.concelho = freguesia.properties.Concelho
       local.freguesia = freguesia.properties.Freguesia
 
-      // search for details for municipalities by name
-      const numberOfMunicipalities = administrations.municipalitiesDetails.length
-      const municipality = normalizeName(freguesia.properties.Concelho)
-      for (let i = 0; i < numberOfMunicipalities; i++) {
-        if (municipality === normalizeName(administrations.municipalitiesDetails[i].nome)) {
-          municipalityIneCode = administrations.municipalitiesDetails[i].codigoine
-          break // found it, break loop
-        }
-      }
-
+      municipalityIneCode = freguesia.properties.Dicofre.slice(0, 4)
       break
     }
   }
@@ -91,7 +80,7 @@ function getAdminsByCoord ({ regions, administrations, lon, lat }) {
 
   // files pattern like BGRI2021_0211.json
   // BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-  const file = `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
+  const file = `BGRI2021_${municipalityIneCode}.json`
   const geojsonFilePath = path.join(censosGeojsonDir, file)
   if (fs.existsSync(geojsonFilePath)) {
     const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
