@@ -101,8 +101,9 @@ function createMainObject (mainCallback) {
   console.time('createMainObject')
 
   // for tests, just get first N entries, i.e., trim array
-  openAddressesData = openAddressesData.slice(0, 5000)
+  // openAddressesData = openAddressesData.slice(0, 5000)
 
+  // for multi-threading processing
   const piscina = new Piscina({
     filename: path.resolve(__dirname, 'createAddressesObject.js')
   })
