@@ -34,3 +34,21 @@ That zip file is automatically unzipped in the directory `/res/postal-codes/` an
 ## Censos
 
 The Censos zipped GeoPackage files were got from the INE website [here](https://mapas.ine.pt/download/index2011.phtml). To update them, download the latest files from the INE website and put them into the respective directories inside `res/censos/source/{year}` according to the respective year; and then run `npm run convert-censos-gpkg2geojson` to generate the zipped geojson files inside `res/censos/geojson/{year}`.
+
+## Carta de Uso e Ocupação do Solo
+
+The directory `carta-solo` has already GeoJSON files with information of ground use (based on "Carta de Uso e Ocupação do Solo" from Direção Geral do Território), these files being split by parishes (freguesias), each parish in a different GeoJSON file. This allows quick indexing on the route `/gps`, since this route, based on GPS coordinates as input, already quickly responds the corresponding parish as output.
+
+For the generation of these GeoJSON files, one must:
+ 1. Install [QGIS](https://qgis.org/en/site/forusers/download.html) PC desktop and `ogr2ogr` CLI command
+ 2. Download "Carta de Uso e Ocupação do Solo" GeoPackage (GPKG.zip) file, and also "Carta Administrativa Oficial de Portugal, Continente" GeoPackage (GPKG.zip) file, both from [D. G. Território](https://www.dgterritorio.gov.pt/dados-abertos)
+ 3. Unzip both zip files
+ 4. Open QGIS and add both gpkg files as different layers: `Layer` -> `Add Layer` -> `Add Vector Layer`. Select `Source Type` as `File` and then add both gpkg files
+ 5. Intersect both layers: `Vector` -> `Geoprocessing tools` -> `Intersection`. Select all fields from "Carta de Uso e Ocupação do Solo" layer, and none from "Carta Administrativa Oficial de Portugal, Continente", due to space saving in disk. A new layer `Intersection` is created with the intersection of both layers
+ 6. Split the layer `Intersection` by parish: `Vector` -> `Data Management Tools` -> `Split Vector Layer`. For the `Unique ID field`, select `Dicofre` (the parish INE id). Save the gpkg files to a temp `Output directory`.
+ 7. Batch convert the GeoPackage files into GeoJSON files with `ogr2ogr` and Unix bash, doing also the change of Coordinate Reference System (CRS) from `EPSG:3763` (ETRS89 / Portugal TM06) to `EPSG:4326` (WGS 84 -- WGS84 - World Geodetic System 1984, used in GPS):
+```
+for file in *.gpkg; do echo "Converting $file"; ogr2ogr -s_srs EPSG:3763 -t_srs EPSG:4326 -f GeoJSON ${file%.*}.json $file; done;
+rename 's/^Dicofre_//' *.json # remove Dicofre from the beginning of each file
+```
+  8. Copy these json files into `res/carta-solo/`
