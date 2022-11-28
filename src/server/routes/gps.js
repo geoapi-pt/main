@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const proj4 = require('proj4')
 const turf = require('@turf/turf')
+const async = require('async')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
 const debug = require('debug')('geoapipt:routes:gps') // DEBUG=geoapipt:routes:gps npm start
@@ -10,6 +11,7 @@ const { correctCase } = require(path.join(__dirname, '..', 'utils', 'commonFunct
 
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
 const adminAddressesDir = path.join(appRoot.path, 'res', 'admins-addresses')
+const cartaSoloDir = path.join(appRoot.path, 'res', 'carta-solo', 'freguesias')
 
 module.exports = {
   fn: routeFn,
@@ -86,70 +88,106 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         break
       }
     }
-
-    if (!local.freguesia) {
-      res.status(404).sendData({ error: 'local não encontrado' })
-      return
-    }
-
-    // Provide secção and subseção estatística
-    // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-    const geojsonFilePath = path.join(
-      censosGeojsonDir,
-      `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
-    )
-    if (fs.existsSync(geojsonFilePath)) {
-      const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
-      const lookupBGRI = new PolygonLookup(geojsonData)
-      const subSecction = lookupBGRI.search(lon, lat)
-      if (subSecction) {
-        debug('Found subSecction: ', subSecction)
-        local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
-        local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
-
-        if (isDetails) {
-          local['Detalhes Subsecção Estatística'] = subSecction.properties
-        }
-
-        // now extract info from nearest point/address
-        const prop = subSecction.properties
-        const addressesFilePath = path.join(
-          adminAddressesDir,
-          prop.DT,
-          prop.CC || prop.MN,
-          prop.fr || prop.FR,
-          prop.SEC,
-          prop.SS + '.json'
-        )
-        if (fs.existsSync(addressesFilePath)) {
-          const addresses = JSON.parse(fs.readFileSync(addressesFilePath)).addresses
-          if (Array.isArray(addresses) && addresses.length) {
-            const targetPoint = turf.point([lon, lat])
-            const points = turf.featureCollection(addresses.map(
-              p => turf.point(
-                [parseFloat(p.lon), parseFloat(p.lat)],
-                { street: p.street, house: p.house, postcode: p.postcode, city: p.city }
-              )
-            ))
-            const nearest = turf.nearestPoint(targetPoint, points)
-            if (nearest && nearest.properties) {
-              debug('nearest point: ', nearest)
-              local.rua = correctCase(nearest.properties.street)
-              local.n_porta = nearest.properties.house
-              local.CP = nearest.properties.postcode
-              local.descr_postal = correctCase(nearest.properties.city)
-            }
-          }
-        }
-      }
-    }
-    sendDataOk({ res, local, lat, lon, isDetails })
-  } catch (e) {
-    debug('Error on server', e)
+  } catch (err) {
+    debug('Error on server', err)
     res.status(400).sendData(
       { error: 'Wrong request! Example of good request: /gps/40.153687,-8.514602' }
     )
   }
+
+  if (!local.freguesia) {
+    res.status(404).sendData({ error: 'local não encontrado' })
+    return
+  }
+
+  // from here the request is OK and parish was found
+
+  async.parallel([(callback) => {
+    try {
+      // Provide secção and subseção estatística
+      // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
+      const geojsonFilePath = path.join(
+        censosGeojsonDir,
+        `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
+      )
+      if (fs.existsSync(geojsonFilePath)) {
+        const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
+        const lookupBGRI = new PolygonLookup(geojsonData)
+        const subSecction = lookupBGRI.search(lon, lat)
+        if (subSecction) {
+          debug('Found subSecction: ', subSecction)
+          local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
+          local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
+
+          if (isDetails) {
+            local['Detalhes Subsecção Estatística'] = subSecction.properties
+          }
+
+          // now extract info from nearest point/address
+          const prop = subSecction.properties
+          const addressesFilePath = path.join(
+            adminAddressesDir,
+            prop.DT,
+            prop.CC || prop.MN,
+            prop.fr || prop.FR,
+            prop.SEC,
+            prop.SS + '.json'
+          )
+          if (fs.existsSync(addressesFilePath)) {
+            const addresses = JSON.parse(fs.readFileSync(addressesFilePath)).addresses
+            if (Array.isArray(addresses) && addresses.length) {
+              const targetPoint = turf.point([lon, lat])
+              const points = turf.featureCollection(addresses.map(
+                p => turf.point(
+                  [parseFloat(p.lon), parseFloat(p.lat)],
+                  { street: p.street, house: p.house, postcode: p.postcode, city: p.city }
+                )
+              ))
+              const nearest = turf.nearestPoint(targetPoint, points)
+              if (nearest && nearest.properties) {
+                debug('nearest point: ', nearest)
+                local.rua = correctCase(nearest.properties.street)
+                local.n_porta = nearest.properties.house
+                local.CP = nearest.properties.postcode
+                local.descr_postal = correctCase(nearest.properties.city)
+              }
+            }
+          }
+        }
+      }
+      callback()
+    } catch (err) {
+      callback(Error(err))
+    }
+  }, (callback) => {
+    try {
+      const cartaSoloGeojsonFile = path.join(
+        cartaSoloDir,
+        `${parishIneCode.toString().padStart(6, '0')}.json`
+      )
+      if (fs.existsSync(cartaSoloGeojsonFile)) {
+        const geojsonData = JSON.parse(fs.readFileSync(cartaSoloGeojsonFile))
+        const lookupBGRI = new PolygonLookup(geojsonData)
+        const zone = lookupBGRI.search(lon, lat)
+        if (zone) {
+          local.uso = zone.properties.COS18n4_L
+          if (isDetails) {
+            local.carta_solo = zone.properties
+          }
+        }
+      }
+      callback()
+    } catch (err) {
+      callback(Error(err))
+    }
+  }], (err) => {
+    if (err) {
+      console.error(err)
+      res.status(500).sendData({ error: 'Internal server error' })
+    } else {
+      sendDataOk({ res, local, lat, lon, isDetails })
+    }
+  })
 }
 
 function sendDataOk ({ res, local, lat, lon, isDetails }) {
@@ -163,6 +201,7 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
     'Subsecção Estatística (INE, BGRI 2021)': null,
     rua: null,
     n_porta: null,
+    uso: null,
     CP: null,
     descr_postal: null
   }
