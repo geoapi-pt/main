@@ -4,6 +4,7 @@ const proj4 = require('proj4')
 const turf = require('@turf/turf')
 const async = require('async')
 const appRoot = require('app-root-path')
+const sphereKnn = require('sphere-knn')
 const PolygonLookup = require('polygon-lookup')
 const debug = require('debug')('geoapipt:routes:gps') // DEBUG=geoapipt:routes:gps npm start
 
@@ -17,6 +18,19 @@ module.exports = {
   fn: routeFn,
   route: ['/gps', '/gps/:lat?,:lon?', '/gps/:lat?,:lon?/detalhes']
 }
+
+// preload points of altimetry
+const altimetryFilePath = path.join(appRoot.path, 'res', 'altimetria', 'altimetria.geojson')
+const altimetryLookup = sphereKnn(
+  JSON.parse(fs.readFileSync(altimetryFilePath)).features
+    .map(feature => Object(
+      {
+        lat: feature.geometry.coordinates[1],
+        lon: feature.geometry.coordinates[0],
+        alt: parseFloat(feature.properties.H_topo_)
+      }
+    ))
+)
 
 function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   const local = {} // the local data corresponding to the coordinates to send with the response
@@ -101,6 +115,12 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   }
 
   // from here the request is OK and parish was found
+
+  // calculate altitude by computing the average of altitude of 5 nearest points
+  const altitudePoints = altimetryLookup(lat, lon, 5, 5000)
+  if (altitudePoints && altitudePoints.length) {
+    local.altitude_m = altitudePoints.map(p => p.alt).reduce((a, b) => a + b, 0) / altitudePoints.length
+  }
 
   async.parallel([(callback) => {
     try {
@@ -202,6 +222,7 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
     rua: null,
     n_porta: null,
     uso: null,
+    altitude_m: null,
     CP: null,
     descr_postal: null
   }
