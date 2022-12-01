@@ -47,7 +47,7 @@ $ curl -s https://json.geoapi.pt/gps/38.748406,-9.102984 | json
   "rua": "R Fernando Maurício",
   "n_porta": "30",
   "uso": "Tecido edificado contínuo predominantemente vertical",
-  "altitude_m": 79.636,
+  "altitude_m": 71,
   "CP": "1950-449",
   "descr_postal": "Lisboa"
 }
