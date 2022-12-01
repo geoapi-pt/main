@@ -123,17 +123,18 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   }
 
   async.parallel([(callback) => {
-    try {
-      // Provide secção and subseção estatística
-      // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
-      const geojsonFilePath = path.join(
-        censosGeojsonDir,
-        `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
-      )
-      if (fs.existsSync(geojsonFilePath)) {
-        const geojsonData = JSON.parse(fs.readFileSync(geojsonFilePath))
+    // Provide secção and subseção estatística
+    // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
+    const geojsonFilePath = path.join(
+      censosGeojsonDir,
+      `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
+    )
+    fs.readFile(geojsonFilePath, (err, data) => {
+      if (!err && data) {
+        const geojsonData = JSON.parse(data)
         const lookupBGRI = new PolygonLookup(geojsonData)
         const subSecction = lookupBGRI.search(lon, lat)
+
         if (subSecction) {
           debug('Found subSecction: ', subSecction)
           local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
@@ -153,39 +154,47 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
             prop.SEC,
             prop.SS + '.json'
           )
-          if (fs.existsSync(addressesFilePath)) {
-            const addresses = JSON.parse(fs.readFileSync(addressesFilePath)).addresses
-            if (Array.isArray(addresses) && addresses.length) {
-              const targetPoint = turf.point([lon, lat])
-              const points = turf.featureCollection(addresses.map(
-                p => turf.point(
-                  [parseFloat(p.lon), parseFloat(p.lat)],
-                  { street: p.street, house: p.house, postcode: p.postcode, city: p.city }
-                )
-              ))
-              const nearest = turf.nearestPoint(targetPoint, points)
-              if (nearest && nearest.properties) {
-                debug('nearest point: ', nearest)
-                local.rua = correctCase(nearest.properties.street)
-                local.n_porta = nearest.properties.house
-                local.CP = nearest.properties.postcode
-                local.descr_postal = correctCase(nearest.properties.city)
+
+          fs.readFile(addressesFilePath, (err, data) => {
+            if (!err && data) {
+              const addresses = JSON.parse(data).addresses
+              if (Array.isArray(addresses) && addresses.length) {
+                const targetPoint = turf.point([lon, lat])
+                const points = turf.featureCollection(addresses.map(
+                  p => turf.point(
+                    [parseFloat(p.lon), parseFloat(p.lat)],
+                    { street: p.street, house: p.house, postcode: p.postcode, city: p.city }
+                  )
+                ))
+                const nearest = turf.nearestPoint(targetPoint, points)
+                if (nearest && nearest.properties) {
+                  debug('nearest point: ', nearest)
+                  local.rua = correctCase(nearest.properties.street)
+                  local.n_porta = nearest.properties.house
+                  local.CP = nearest.properties.postcode
+                  local.descr_postal = correctCase(nearest.properties.city)
+                }
               }
+            } else {
+              console.error('error opening file ' + addressesFilePath, err, data)
             }
-          }
+            callback()
+          })
+        } else {
+          callback()
         }
+      } else {
+        console.error('error opening file ' + geojsonFilePath, err, data)
+        callback()
       }
-      callback()
-    } catch (err) {
-      callback(Error(err))
-    }
+    })
   }, (callback) => {
-    try {
-      const cartaSoloGeojsonFile = path.join(
-        cartaSoloDir,
-        `${parishIneCode.toString().padStart(6, '0')}.json`
-      )
-      if (fs.existsSync(cartaSoloGeojsonFile)) {
+    const cartaSoloGeojsonFile = path.join(
+      cartaSoloDir,
+      `${parishIneCode.toString().padStart(6, '0')}.json`
+    )
+    fs.readFile(cartaSoloGeojsonFile, (err, data) => {
+      if (!err && data) {
         const geojsonData = JSON.parse(fs.readFileSync(cartaSoloGeojsonFile))
         const lookupBGRI = new PolygonLookup(geojsonData)
         const zone = lookupBGRI.search(lon, lat)
@@ -195,11 +204,11 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
             local.carta_solo = zone.properties
           }
         }
+      } else {
+        console.error('error opening file ' + cartaSoloGeojsonFile, err, data)
       }
       callback()
-    } catch (err) {
-      callback(Error(err))
-    }
+    })
   }], (err) => {
     if (err) {
       console.error(err)
