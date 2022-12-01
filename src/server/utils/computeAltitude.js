@@ -56,9 +56,26 @@ function computeAltitude (lat, lon) {
     if (altitude) {
       return Math.round(altitude)
     } else {
-      // point does not fall within any possible triangle of nearest N points
-      // (for example, point close to border or sea), just get average of 2 nearest points
-      altitude = (nearestPoints[0].alt + nearestPoints[1].alt) / 2
+      // point does not fall within any possible triangle of nearest N points,
+      // for example, point close to country border or sea, then find the line
+      // between the 2 nearest points, the shortest path from point(lat, lon) to that line,
+      // and compute the Z(altitude) of that point which is along the line
+
+      const lineBetween2nearestPts = turf.lineString([
+        [nearestPoints[0].lat, nearestPoints[0].lon],
+        [nearestPoints[1].lat, nearestPoints[1].lon]
+      ])
+      const pointOnLine = turf.nearestPointOnLine(lineBetween2nearestPts, point).geometry.coordinates
+      const distanceBetween2nearestPts = Math.sqrt(
+        Math.pow(nearestPoints[0].lat - nearestPoints[1].lat, 2) +
+        Math.pow(nearestPoints[0].lon - nearestPoints[1].lon, 2)
+      )
+      const mOfLine = (nearestPoints[1].alt - nearestPoints[0].alt) / distanceBetween2nearestPts
+      const refDistance = Math.sqrt(
+        Math.pow(nearestPoints[0].lat - pointOnLine[0], 2) +
+        Math.pow(nearestPoints[0].lon - pointOnLine[1], 2)
+      )
+      altitude = refDistance * mOfLine + nearestPoints[0].alt
       return Math.round(altitude)
     }
   } else if (nearestPoints.length === 2) {
