@@ -35,8 +35,8 @@ function routeFn (req, res, next, { appRootPath }) {
         const data = JSON.parse(fileContent)
 
         // filtered and processed data for presentation
-        const processedData = JSON.parse(fileContent)
-        processedData.partes = processedData.partes.map(obj => {
+        const dataToShowOnHtml = JSON.parse(fileContent)
+        dataToShowOnHtml.partes = dataToShowOnHtml.partes.map(obj => {
           for (const key in obj) {
             if (!obj[key]) delete obj[key]
           }
@@ -46,13 +46,13 @@ function routeFn (req, res, next, { appRootPath }) {
         const fieldsToDelette = ['CP', 'CP4', 'CP3', 'pontos', 'poligono', 'ruas', 'centro', 'centroide', 'centroDeMassa']
         if (!cp3) fieldsToDelette.push('partes')
         fieldsToDelette.forEach(el => {
-          if (el in processedData) delete processedData[el]
+          if (el in dataToShowOnHtml) delete dataToShowOnHtml[el]
         })
 
         res.status(200).sendData({
           data: data,
           input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
-          processedData: processedData,
+          dataToShowOnHtml: dataToShowOnHtml,
           pageTitle: `Dados sobre o Código Postal ${cp4 + (cp3 ? `-${cp3}` : '')}`,
           template: 'postalCode'
         })
