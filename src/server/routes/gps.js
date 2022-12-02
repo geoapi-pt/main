@@ -7,9 +7,17 @@ const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
 const debug = require('debug')('geoapipt:routes:gps') // DEBUG=geoapipt:routes:gps npm start
 
+// max distance (in meters) from a point of OpenAddresses file for street to be given
+// if that distance exceeds, use Nominatim
+const distanceInMetersThreshold = 10
+
+// modules
 const { correctCase } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 const computeAltitude = require(path.join(__dirname, '..', 'utils', 'computeAltitude.js'))
+const getNominatimData = require(path.join(__dirname, '..', 'services', 'getNominatimData.js'))
+const getOpenElevationData = require(path.join(__dirname, '..', 'services', 'getOpenElevationData.js'))
 
+// directories
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
 const adminAddressesDir = path.join(appRoot.path, 'res', 'admins-addresses')
 const cartaSoloDir = path.join(appRoot.path, 'res', 'carta-solo', 'freguesias')
@@ -105,17 +113,8 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
   // from here the request is OK and parish was found
 
-  try {
-    const altitude = computeAltitude(lat, lon)
-    if (altitude) {
-      local.altitude_m = altitude
-    }
-  } catch (err) {
-    console.error('Error computing altitude', err)
-  }
-
   async.parallel([(callback) => {
-    // Provide secção and subseção estatística
+    // Provides secção and subseção estatística
     // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
     const geojsonFilePath = path.join(
       censosGeojsonDir,
@@ -161,14 +160,21 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
                 const nearest = turf.nearestPoint(targetPoint, points)
                 if (nearest && nearest.properties) {
                   debug('nearest point: ', nearest)
-                  local.rua = correctCase(nearest.properties.street)
-                  local.n_porta = nearest.properties.house
-                  local.CP = nearest.properties.postcode
-                  local.descr_postal = correctCase(nearest.properties.city)
+                  const distanceInMeters = turf.distance(nearest, targetPoint, { units: 'kilometers' }) * 1000
+                  if (distanceInMeters < distanceInMetersThreshold) {
+                    local.rua = correctCase(nearest.properties.street)
+                    local.n_porta = nearest.properties.house
+                    local.CP = nearest.properties.postcode
+                    local.descr_postal = correctCase(nearest.properties.city)
+                    callback()
+                  } else {
+                    getNominatimData({ req, lat, lon, local }, callback)
+                  }
                 }
               }
+            } else {
+              getNominatimData({ req, lat, lon, local }, callback)
             }
-            callback()
           })
         } else {
           callback()
@@ -178,6 +184,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       }
     })
   }, (callback) => {
+    // Carta de Uso e Utilização do Solo
     const cartaSoloGeojsonFile = path.join(
       cartaSoloDir,
       `${parishIneCode.toString().padStart(6, '0')}.json`
@@ -196,6 +203,20 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       }
       callback()
     })
+  }, (callback) => {
+    // get altitude
+    try {
+      const altitude = computeAltitude(lat, lon)
+      if (altitude) {
+        local.altitude_m = altitude
+        callback()
+      } else {
+        getOpenElevationData({ req, lat, lon, local }, callback)
+      }
+    } catch (err) {
+      console.error('Error computing altitude', err)
+      getOpenElevationData({ req, lat, lon, local }, callback)
+    }
   }], (err) => {
     if (err) {
       console.error(err)
