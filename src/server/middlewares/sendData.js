@@ -30,7 +30,7 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
           input: data.input || {},
           data: dataToBeSent,
           typeOfLink: data.typeOfLink || '',
-          processedData: data.processedData || {}
+          dataToShowOnHtml: data.dataToShowOnHtml || {}
         })
       }
     }
