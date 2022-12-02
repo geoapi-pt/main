@@ -167,8 +167,6 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
                   local.descr_postal = correctCase(nearest.properties.city)
                 }
               }
-            } else {
-              console.error('error opening file ' + addressesFilePath, err, data)
             }
             callback()
           })
@@ -176,7 +174,6 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
           callback()
         }
       } else {
-        console.error('error opening file ' + geojsonFilePath, err, data)
         callback()
       }
     })
@@ -196,8 +193,6 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
             local.carta_solo = zone.properties
           }
         }
-      } else {
-        console.error('error opening file ' + cartaSoloGeojsonFile, err, data)
       }
       callback()
     })
