@@ -17,6 +17,6 @@
   marker.on('dragend', function (event) {
     const marker = event.target
     const position = marker.getLatLng()
-    window.location.href = `${position.lat}, ${position.lng}`
+    window.location.href = `${position.lat},${position.lng}`
   })
 })()
