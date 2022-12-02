@@ -62,6 +62,8 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.endsWith('/detalhes'))
 
     const point = [lon, lat] // longitude, latitude
+    local.lon = lon
+    local.lat = lat
 
     for (const key in regions) {
       const transformedPoint = proj4(regions[key].projection, point)
@@ -228,10 +230,16 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
 
   local = Object.assign(objectOrder, local)
 
+  const dataToShowOnHtml = Object.assign({}, local) // clone
+  delete dataToShowOnHtml.lat
+  delete dataToShowOnHtml.lon
+
   res.status(200).sendData({
     data: local,
     input: { latitude: convertDDToDMS(lat), longitude: convertDDToDMS(lon, true) }, // inform user of input in case of text/html
-    pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`
+    dataToShowOnHtml: dataToShowOnHtml,
+    pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`,
+    template: 'gpsRoute'
   })
 }
 
