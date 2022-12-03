@@ -255,7 +255,7 @@ function sendDataOk ({ res, local, lat, lon, isDetails }) {
     input: { latitude: convertDDToDMS(lat), longitude: convertDDToDMS(lon, true) }, // inform user of input in case of text/html
     dataToShowOnHtml: dataToShowOnHtml,
     pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`,
-    template: 'gpsRoute'
+    template: 'routes/gps'
   })
 }
 
