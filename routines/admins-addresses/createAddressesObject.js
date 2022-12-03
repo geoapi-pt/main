@@ -2,7 +2,6 @@
 const fs = require('fs')
 const path = require('path')
 const async = require('async')
-const proj4 = require('proj4')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
 
@@ -54,14 +53,11 @@ function processChunk ({ openAddressesDataChunk, regions, administrations }) {
 
 function getAdminsByCoord ({ regions, administrations, lon, lat }) {
   const local = {}
-  const point = [lon, lat] // longitude, latitude
   let municipalityIneCode
 
   for (const key in regions) {
-    const transformedPoint = proj4(regions[key].projection, point)
-
     const lookupFreguesias = new PolygonLookup(regions[key].geojson)
-    const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
+    const freguesia = lookupFreguesias.search(lon, lat)
 
     if (freguesia) {
       local.ilha = freguesia.properties.Ilha

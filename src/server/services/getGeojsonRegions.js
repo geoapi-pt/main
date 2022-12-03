@@ -6,6 +6,7 @@ const fs = require('fs')
 const path = require('path')
 const shapefile = require('shapefile')
 const extract = require('extract-zip')
+const reproject = require('reproject')
 const async = require('async')
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
@@ -59,7 +60,8 @@ module.exports = function (callback) {
       extractZip, // extracts zip file with shapefile and projection files
       readShapefile, // fill in the geoson fields in the regions Object
       postProcessRegions, // post process data in the geoson fields in the regions Object
-      readProjectionFile // fill in the projection fields in the regions Object
+      readProjectionFile, // fill in the projection fields in the regions Object
+      convertToWgs84 // convert to GPS coordinates
     ],
     function (err) {
       if (err) {
@@ -183,4 +185,18 @@ function readProjectionFile (mainCallback) {
       mainCallback()
     }
   })
+}
+
+// convert Coordinate Reference System (CRS) to WGS84 (used by GPS and this API)
+function convertToWgs84 (callback) {
+  for (const key in regions) {
+    const region = regions[key]
+
+    const geojson = region.geojson
+    const geojsonWgs84 = reproject.toWgs84(geojson, region.projection)
+    regions[key].geojson = geojsonWgs84
+
+    delete regions[key].projection
+  }
+  callback()
 }
