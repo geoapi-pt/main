@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const proj4 = require('proj4')
 const turf = require('@turf/turf')
 const async = require('async')
 const appRoot = require('app-root-path')
@@ -69,15 +68,12 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     lon = parseFloat(req.query.lon) // ex: -8.514602
     isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.endsWith('/detalhes'))
 
-    const point = [lon, lat] // longitude, latitude
     local.lon = lon
     local.lat = lat
 
     for (const key in regions) {
-      const transformedPoint = proj4(regions[key].projection, point)
-
       const lookupFreguesias = new PolygonLookup(regions[key].geojson)
-      const freguesia = lookupFreguesias.search(transformedPoint[0], transformedPoint[1])
+      const freguesia = lookupFreguesias.search(lon, lat)
 
       if (freguesia) {
         debug('Found freguesia: ', freguesia)
