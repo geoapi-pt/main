@@ -54,7 +54,7 @@ function routeFn (req, res, next, { appRootPath }) {
           input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
           dataToShowOnHtml: dataToShowOnHtml,
           pageTitle: `Dados sobre o Código Postal ${cp4 + (cp3 ? `-${cp3}` : '')}`,
-          template: 'postalCode'
+          template: 'routes/cp'
         })
       }
     })
