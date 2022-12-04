@@ -1,6 +1,10 @@
+const fs = require('fs')
 const path = require('path')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
+
+const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'municipalities-geojson')
 
 module.exports = {
   fn: routeFn,
@@ -74,10 +78,27 @@ function routeFn (req, res, next, { administrations }) {
       pageTitle: `Dados sobre municípios: ${results.map(e => `${e.nome}`).join(', ')}`
     })
   } else if (results.length === 1) {
+    const result = results[0]
+    const municipalityGeojsons = JSON.parse(
+      fs.readFileSync(path.join(municipalitiesGeojsonDir, result.codigoine.padStart(4, '0') + '.json'))
+    )
+
+    if (municipalityGeojsons) {
+      result.geojsons = municipalityGeojsons
+    }
+
+    const dataToShowOnHtml = Object.assign({}, result) // clone
+    if (municipalityGeojsons) {
+      delete dataToShowOnHtml.geojsons
+      dataToShowOnHtml.centros = Object.assign({}, municipalityGeojsons.municipio.properties.centros)
+    }
+
     res.status(200).sendData({
-      data: results[0],
+      data: result,
       input: { Município: results[0].nome },
-      pageTitle: `Dados sobre o Município de ${results[0].nome}`
+      dataToShowOnHtml: dataToShowOnHtml,
+      pageTitle: `Dados sobre o Município de ${results[0].nome}`,
+      template: 'routes/municipality'
     })
   } else {
     res.status(404).sendData({ error: 'Município não encontrado!' })
