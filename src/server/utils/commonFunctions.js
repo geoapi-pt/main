@@ -26,7 +26,11 @@ function correctCase (_str) {
 
   str = str.split(' ').map((word, index) => {
     if (index === 0 && word.length === 1) {
-      return word.toUpperCase() // "r fernando..." => "R...
+      if (word === 'r') {
+        return 'Rua' // "r fernando..." => "Rua...
+      } else {
+        return word.toUpperCase()
+      }
     } else if (word.length > 2) {
       return word.charAt(0).toUpperCase() + word.slice(1) // capitalize first letter of word
     } else if (word.length === 2 && word.charAt(1) === '.') { // 'r.' => 'R.'
