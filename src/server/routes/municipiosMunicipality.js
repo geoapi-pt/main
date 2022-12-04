@@ -99,7 +99,9 @@ function routeFn (req, res, next, { administrations }) {
 
     res.status(200).sendData({
       data: result,
-      input: { Município: results[0].nome },
+      input: {
+        Município: `${result.nome} (<a href="/municipios/${nome}/freguesias">Freguesias</a>)`
+      },
       dataToShowOnHtml: dataToShowOnHtml,
       pageTitle: `Dados sobre o Município de ${results[0].nome}`,
       template: 'routes/municipality'
