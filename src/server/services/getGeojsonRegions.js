@@ -9,6 +9,7 @@ const extract = require('extract-zip')
 const reproject = require('reproject')
 const async = require('async')
 const turf = require('@turf/turf')
+const ProgressBar = require('progress')
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:getRegionsAndAdmins') // run: DEBUG=geoapipt:getRegionsAndAdmins npm start
@@ -17,6 +18,7 @@ const debugGeojson = require('debug')('geoapipt:geojson') // run: DEBUG=geoapipt
 const resDir = path.join(appRoot.path, 'res')
 
 // this Object will be filled and exported to other modules
+// it has geojson data about parishes (freguesias)
 const regions = {
   cont: {
     name: 'Continente',
@@ -55,7 +57,12 @@ const regions = {
   }
 }
 
+let bar
+
 module.exports = function (callback) {
+  bar = new ProgressBar(
+    'Preparing 1/2 :percent', { total: 5 * Object.keys(regions).length }
+  )
   async.series(
     [
       extractZip, // extracts zip file with shapefile and projection files
@@ -83,6 +90,7 @@ function extractZip (mainCallback) {
     extract(zipFile, { dir: path.join(resDir, 'portuguese-administrative-chart') })
       .then(() => {
         debug(`zip file extraction for ${region.name} complete`)
+        bar.tick()
         callback()
       })
       .catch((errOnUnzip) => {
@@ -121,6 +129,7 @@ function readShapefile (mainCallback) {
         forEachOfCallback(Error(err))
       } else {
         regions[key].geojson = result
+        bar.tick()
         forEachOfCallback()
       }
     })
@@ -176,6 +185,7 @@ function readProjectionFile (mainCallback) {
         } else {
           regions[key].projection = data
           debug(`Projection info read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`)
+          bar.tick()
           callback()
         }
       })
@@ -211,6 +221,7 @@ function convertToWgs84 (callback) {
 
     regions[key].geojson = geojsonWgs84
     delete regions[key].projection // not needed anymore, CRS conversion done
+    bar.tick()
   }
   callback()
 }

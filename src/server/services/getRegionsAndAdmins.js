@@ -37,8 +37,7 @@ const administrations = {
   listOfDistrictsWithMunicipalities: [] // array of objects, lista de distritos contendo os municípios
 }
 
-// Object with geojson files for each region
-let regions
+let regions // Object with geojson data for each parish, divided in 5 main regions
 
 module.exports = function (callback) {
   async.series(
@@ -171,7 +170,7 @@ function readJsonFiles (mainCallback) {
       )
     } else {
       bar = new ProgressBar(
-        'Preparing :percent', { total: parishesDetailsB.length }
+        'Preparing 2/2 :percent', { total: parishesDetailsB.length }
       )
     }
 
