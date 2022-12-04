@@ -8,6 +8,7 @@ const shapefile = require('shapefile')
 const extract = require('extract-zip')
 const reproject = require('reproject')
 const async = require('async')
+const turf = require('@turf/turf')
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:getRegionsAndAdmins') // run: DEBUG=geoapipt:getRegionsAndAdmins npm start
@@ -194,9 +195,22 @@ function convertToWgs84 (callback) {
 
     const geojson = region.geojson
     const geojsonWgs84 = reproject.toWgs84(geojson, region.projection)
-    regions[key].geojson = geojsonWgs84
 
-    delete regions[key].projection
+    // calculates also centroid and bbox for each parish
+    geojsonWgs84.features.forEach(parish => {
+      const centros = {}
+      centros.centro = turf.center(parish).geometry.coordinates
+      centros.centroide = turf.centroid(parish).geometry.coordinates
+      centros.centroDeMassa = turf.centerOfMass(parish).geometry.coordinates
+      centros.centroMedio = turf.centerMean(parish).geometry.coordinates
+      centros.centroMediano = turf.centerMedian(parish).geometry.coordinates
+      parish.properties.centros = centros
+
+      parish.bbox = turf.bbox(parish)
+    })
+
+    regions[key].geojson = geojsonWgs84
+    delete regions[key].projection // not needed anymore, CRS conversion done
   }
   callback()
 }
