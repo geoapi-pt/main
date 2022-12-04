@@ -92,6 +92,10 @@ function routeFn (req, res, next, { administrations }) {
       delete dataToShowOnHtml.geojsons
       dataToShowOnHtml.centros = Object.assign({}, municipalityGeojsons.municipio.properties.centros)
     }
+    if (dataToShowOnHtml.sitio) {
+      const host = dataToShowOnHtml.sitio.replace(/^http?:\/\//, '')
+      dataToShowOnHtml.sitio = `<a href="//${host}">${host}</a>`
+    }
 
     res.status(200).sendData({
       data: result,
