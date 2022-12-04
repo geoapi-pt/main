@@ -62,10 +62,23 @@ function routeFn (req, res, next, { administrations, regions }) {
       delete dataToShowOnHtml.geojson
       dataToShowOnHtml.centros = Object.assign({}, parishGeojson.properties.centros)
     }
+    if (dataToShowOnHtml.sitio) {
+      const host = dataToShowOnHtml.sitio.replace(/^http?:\/\//, '')
+      dataToShowOnHtml.sitio = `<a href="//${host}">${host}</a>`
+    }
+
+    // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
+    const CP = dataToShowOnHtml.codigopostal
+    if (/^\d{4}(\p{Dash}?\d{3})?$/u.test(CP)) {
+      dataToShowOnHtml.codigopostal = `<a href="/cp/${CP}">${CP}</a>`
+    }
+    if (dataToShowOnHtml.municipio) {
+      dataToShowOnHtml.municipio = `<a href="/municipios/${dataToShowOnHtml.municipio}">${dataToShowOnHtml.municipio}</a>`
+    }
 
     res.status(200).sendData({
       data: result,
-      input: { Freguesia: `${result.nomecompleto} (${result.municipio})` },
+      input: { Freguesia: `${result.nomecompleto} (<a href="/municipios/${result.municipio}">${result.municipio}</a>)` },
       dataToShowOnHtml: dataToShowOnHtml,
       pageTitle: `Dados sobre a Freguesia ${result.nomecompleto} (${result.municipio})`,
       template: 'routes/parish'
