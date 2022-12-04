@@ -42,8 +42,6 @@ function routeFn (req, res, next, { administrations, regions }) {
   if (results.length === 1) {
     const result = results[0]
 
-    const dataToShowOnHtml = Object.assign({}, result) // clone
-
     let parishGeojson
     for (const region in regions) {
       const parishes = regions[region].geojson.features
@@ -57,6 +55,12 @@ function routeFn (req, res, next, { administrations, regions }) {
 
     if (parishGeojson) {
       result.geojson = parishGeojson
+    }
+
+    const dataToShowOnHtml = Object.assign({}, result) // clone
+    if (parishGeojson) {
+      delete dataToShowOnHtml.geojson
+      dataToShowOnHtml.centros = Object.assign({}, parishGeojson.properties.centros)
     }
 
     res.status(200).sendData({
