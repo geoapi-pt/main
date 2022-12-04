@@ -87,7 +87,6 @@ function prepare (callback) {
       callback(Error(err))
     } else {
       regions = data.regions
-      debug(regions)
       administrations = data.administrations
       callback()
     }
