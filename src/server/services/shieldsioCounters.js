@@ -67,5 +67,9 @@ function loadExpressRoutes (app) {
 // a file is needed to store counters after server restart
 function updateCountersOnFile () {
   const counters = { requestsLastHour, requestsLastDay }
-  fs.writeFile(countersFile, JSON.stringify(counters))
+  fs.writeFile(countersFile, JSON.stringify(counters), (err) => {
+    if (err) {
+      console.error('Error written on ' + countersFile)
+    }
+  })
 }
