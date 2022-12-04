@@ -7,7 +7,7 @@ module.exports = {
   route: '/municipios?/:municipality?/freguesias?/:parish?'
 }
 
-function routeFn (req, res, next, { administrations }) {
+function routeFn (req, res, next, { administrations, regions }) {
   debug(req.path, req.query, req.headers)
 
   if (!req.params.municipality || !req.params.parish) {
@@ -40,10 +40,31 @@ function routeFn (req, res, next, { administrations }) {
   })
 
   if (results.length === 1) {
+    const result = results[0]
+
+    const dataToShowOnHtml = Object.assign({}, result) // clone
+
+    let parishGeojson
+    for (const region in regions) {
+      const parishes = regions[region].geojson.features
+      parishGeojson = parishes.find(parish =>
+        parseInt(parish.properties.DICOFRE || parish.properties.Dicofre) === parseInt(result.codigoine)
+      )
+      if (parishGeojson) {
+        break
+      }
+    }
+
+    if (parishGeojson) {
+      result.geojson = parishGeojson
+    }
+
     res.status(200).sendData({
-      data: results[0],
-      input: { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` },
-      pageTitle: `Dados sobre a Freguesia ${results[0].nomecompleto} (${results[0].municipio})`
+      data: result,
+      input: { Freguesia: `${result.nomecompleto} (${result.municipio})` },
+      dataToShowOnHtml: dataToShowOnHtml,
+      pageTitle: `Dados sobre a Freguesia ${result.nomecompleto} (${result.municipio})`,
+      template: 'routes/parish'
     })
   } else {
     res.status(404).sendData({ error: `Freguesia ${parish} do município ${municipality} não encontrada!` })
