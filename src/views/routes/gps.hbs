@@ -9,21 +9,7 @@
 <body>
 
 {{> bodyHeader}}
-
-<div class="limiter">
-   <div class="container-table100 container-header">
-      {{{ pageDescription }}}
-   </div>
-   <div class="container-table100">
-      {{{obj2html input}}}
-   </div>
-   <div class="map-div">
-      <div id="map"></div>
-   </div>
-   <div class="container-table100">
-      {{{obj2html dataToShowOnHtml}}}
-   </div>
-</div>
+{{> resultMap}}
 
 <data id="gps-route-data" data-gpsroute="{{{obj2dataAttribute data}}}"></data>
 
