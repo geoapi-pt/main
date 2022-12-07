@@ -1,6 +1,10 @@
+const fs = require('fs')
 const path = require('path')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
+
+const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'municipalities-geojson')
 
 module.exports = {
   fn: routeFn,
@@ -23,11 +27,38 @@ function routeFn (req, res, next, { administrations }) {
   if (results.length > 1) {
     res.status(200).sendData({ data: results, input: 'Lista de freguesias para municípios escolhidos' })
   } else if (results.length === 1) {
+    const result = results[0]
+
+    const municipalityToFind = normalizeName(municipality)
+    const municipalityDetails = [...administrations.municipalitiesDetails].filter(
+      municipality => normalizeName(municipality.nome) === municipalityToFind
+    )
+
+    let municipalityGeojsons
+    if (municipalityDetails && municipalityDetails.length === 1) {
+      municipalityGeojsons = JSON.parse(
+        fs.readFileSync(
+          path.join(municipalitiesGeojsonDir, municipalityDetails[0].codigoine.padStart(4, '0') + '.json')
+        )
+      )
+
+      if (municipalityGeojsons) {
+        result.geojsons = municipalityGeojsons
+      }
+    }
+
+    const dataToShowOnHtml = Object.assign({}, result) // clone
+    if (municipalityGeojsons) {
+      delete dataToShowOnHtml.geojsons
+    }
+
     res.status(200).sendData({
-      data: results[0],
-      input: { Município: results[0].nome },
-      pageTitle: `Lista de freguesias do município de ${results[0].nome}`,
-      typeOfLink: `municipality/${results[0].nome}/parish`
+      data: result,
+      input: { Município: `<a href="/municipios/${result.nome.toLowerCase()}">${result.nome}</a>` },
+      dataToShowOnHtml: dataToShowOnHtml,
+      pageTitle: `Lista de freguesias do município de ${result.nome}`,
+      typeOfLink: `municipality/${result.nome}/parish`,
+      template: 'routes/municipalityParishes'
     })
   } else {
     res.status(404).sendData({ error: `Município ${municipality} não encontrado!` })
