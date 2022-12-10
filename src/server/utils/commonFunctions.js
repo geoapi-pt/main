@@ -1,6 +1,6 @@
 /* functions common to many server modules and routines */
 
-module.exports = { normalizeName, correctCase }
+module.exports = { normalizeName, correctCase, isValidPostalCode }
 
 // normalize name of parish or name of municipality such that it can be compared
 function normalizeName (name) {
@@ -41,4 +41,9 @@ function correctCase (_str) {
   }).join(' ')
 
   return str
+}
+
+// asserts postal code is XXXX, XXXXYYY or XXXX-YYY
+function isValidPostalCode (str) {
+  return str && /^\d{4}(\p{Dash}?\d{3})?$/u.test(str)
 }
