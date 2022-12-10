@@ -67,14 +67,14 @@ function routeFn (req, res, next, { administrations, regions }) {
       dataToShowOnHtml.sitio = `<a href="//${host}">${host}</a>`
     }
 
-    // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
-    const CP = dataToShowOnHtml.codigopostal
-    if (/^\d{4}(\p{Dash}?\d{3})?$/u.test(CP)) {
-      dataToShowOnHtml.codigopostal = `<a href="/cp/${CP}">${CP}</a>`
-    }
-    if (dataToShowOnHtml.municipio) {
-      dataToShowOnHtml.municipio = `<a href="/municipios/${dataToShowOnHtml.municipio}">${dataToShowOnHtml.municipio}</a>`
-    }
+      // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
+      const CP = dataToShowOnHtml.codigopostal
+      if (isValidPostalCode(CP)) {
+        dataToShowOnHtml.codigopostal = `<a href="/cp/${CP}">${CP}</a>`
+      }
+      if (dataToShowOnHtml.municipio) {
+        dataToShowOnHtml.municipio = `<a href="/municipios/${dataToShowOnHtml.municipio}">${dataToShowOnHtml.municipio}</a>`
+      }
 
     res.status(200).sendData({
       data: result,
