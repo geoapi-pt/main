@@ -1,4 +1,8 @@
+const path = require('path')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
+
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }) =>
   (req, res, next) => {
@@ -10,12 +14,7 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
       const dataToBeSent = data.error ? { erro: data.error } : data.data
 
       res.set('Connection', 'close')
-      if (
-        req.accepts(['html', 'json']) === 'json' ||
-        (req.get('accept') && req.get('accept').includes('application/json')) ||
-        (req.hostname && req.hostname.startsWith('json.')) ||
-        parseInt(req.query.json) || req.query.json === 'true'
-      ) {
+      if (isResponseJson(req)) {
         res.json(dataToBeSent)
       } else {
         res.type('text/html')
