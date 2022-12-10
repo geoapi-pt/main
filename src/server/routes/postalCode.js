@@ -1,7 +1,11 @@
 const fs = require('fs')
 const path = require('path')
+const appRoot = require('app-root-path')
 const sanitize = require('sanitize-filename')
 const debug = require('debug')('geoapipt:server')
+
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+const { isValidPostalCode } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
 
 module.exports = {
   fn: routeFn,
@@ -17,8 +21,7 @@ function routeFn (req, res, next, { appRootPath }) {
   const cp4 = cleanCp.slice(0, 4) // first 4 digits of CP
   const cp3 = cleanCp.slice(4, 7) // last 3 digits of CP or '' when not available
 
-  // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
-  if (/^\d{4}(\p{Dash}?\d{3})?$/u.test(cp) && cp4) {
+  if (isValidPostalCode(cp) && cp4) {
     let filename
     if (cp3) {
       filename = path.join(appRootPath, 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json'))
