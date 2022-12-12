@@ -12,6 +12,7 @@ const path = require('path')
 const async = require('async')
 const colors = require('colors')
 const got = require('got')
+const HTMLParser = require('node-html-parser')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 
@@ -30,7 +31,8 @@ async.series([
   testAllMunicipalities,
   testPostalCode,
   testSomeGpsCoordinates,
-  testOpenApiPaths
+  testOpenApiPathsJson,
+  testOpenApiPathsHtml
 ],
 // done after execution of above funcitons
 function (err) {
@@ -319,19 +321,128 @@ function testSomeGpsCoordinates (mainCallback) {
   })
 }
 
-function testOpenApiPaths (mainCallback) {
-  console.log('Test OpenAPI routes')
+function testOpenApiPathsJson (mainCallback) {
+  console.log('Test OpenAPI routes with JSON request')
   async.each(
     require(path.join(__dirname, 'openApiPaths'))(),
     function (urlAbsolutePath, eachCallback) {
       const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
       got(url).json()
         .then(body => {
+          console.log(`Testing: ${urlAbsolutePath}`)
           if (body.error || body.erro) {
             console.error(body.error || body.erro)
             eachCallback(Error(`\nError on ${url}`))
           } else {
-            console.log(colors.green(`${urlAbsolutePath}`))
+            const gpsRegex = /^\/gps\/.+/
+            const regexMunicipios = /^\/municipios?\/.+/
+            const regexFreguesias = /\/freguesias?\/.+/
+            const regexDistritos = /^\/distritos?\/.+/
+            const postalCodeCP4 = /^\/cp\/\d{4}/
+
+            if (gpsRegex.test(urlAbsolutePath)) {
+              if (
+                body.distrito &&
+                body.concelho &&
+                body.freguesia &&
+                body.altitude_m &&
+                body.uso
+              ) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath}`))
+              }
+            } else if (regexMunicipios.test(urlAbsolutePath)) {
+              if (body.nome) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has no key 'nome'`))
+              }
+            } else if (regexFreguesias.test(urlAbsolutePath)) {
+              if (Array.isArray(body) && body.length && body[0].nome && body[0].municipio && body[0].censos2011) {
+                eachCallback()
+              } else if (body.nome && body.municipio && body.censos2011) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has not these keys: 'nome', 'municipio' and 'censos2011'`))
+              }
+            } else if (regexDistritos.test(urlAbsolutePath)) {
+              if (Array.isArray(body) && body.length && body[0].distrito && Array.isArray(body[0].municipios)) {
+                eachCallback()
+              } else if (body.distrito && Array.isArray(body.municipios)) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has not these keys: 'distrito' and 'municipios (Array)'`))
+              }
+            } else if (postalCodeCP4.test(urlAbsolutePath)) {
+              if (body.CP4 &&
+                  Array.isArray(body.CP3) &&
+                  Array.isArray(body.Localidade) &&
+                  Array.isArray(body.partes) &&
+                  Array.isArray(body.ruas) &&
+                  Array.isArray(body.pontos)
+              ) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath}`))
+              }
+            } else {
+              eachCallback()
+            }
+          }
+        })
+        .catch(err => {
+          console.error(err)
+          eachCallback(Error(`\nError on ${url}\n`))
+        })
+    }).then(() => {
+    mainCallback()
+  }).catch(err => {
+    mainCallback(Error(err))
+  })
+}
+
+function testOpenApiPathsHtml (mainCallback) {
+  console.log('\nTest OpenAPI routes with HTML request')
+  async.each(
+    require(path.join(__dirname, 'openApiPaths'))(),
+    function (urlAbsolutePath, eachCallback) {
+      const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
+      got(url)
+        .then(res => {
+          const body = res.body
+          console.log(`Testing: ${urlAbsolutePath}`)
+          const root = HTMLParser.parse(body)
+
+          const gpsRegex = /^\/gps\/.+/
+          const regexMunicipios = /^\/municipios?\/.+/
+          const regexFreguesias = /.+\/freguesias?\/.+/
+          const regexDistritos = /^\/distritos?\/.+/
+          const postalCodeCP4 = /^\/cp\/\d{4}/
+
+          if (
+            gpsRegex.test(urlAbsolutePath) ||
+            regexMunicipios.test(urlAbsolutePath) ||
+            regexFreguesias.test(urlAbsolutePath) ||
+            postalCodeCP4.test(urlAbsolutePath)
+          ) {
+            if (!root.querySelector('#map') || !root.querySelector('.container-table100')) {
+              eachCallback(Error(`${urlAbsolutePath} has no #map or no .container-table100`))
+            } else {
+              eachCallback()
+            }
+          } else if (regexDistritos.test(urlAbsolutePath)) {
+            if (!root.querySelector('.container-table100')) {
+              eachCallback(Error(`${urlAbsolutePath} has no .container-table100`))
+            } else {
+              eachCallback()
+            }
+          } else {
             eachCallback()
           }
         })
