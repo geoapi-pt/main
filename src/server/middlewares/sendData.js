@@ -3,6 +3,7 @@ const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+const adaptObjForHtmlRes = require(path.join(appRoot.path, 'src', 'server', 'utils', 'adaptObjForHtmlRes.js'))
 
 module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }) =>
   (req, res, next) => {
@@ -27,9 +28,8 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
           pageDescription: data.pageTitle || '',
           siteDescription: siteDescription,
           input: data.input || {},
-          data: dataToBeSent,
-          typeOfLink: data.typeOfLink || '',
-          dataToShowOnHtml: data.dataToShowOnHtml || {}
+          data: dataToBeSent, // this is sent to frontend Javascript code
+          dataToShowOnHtml: data.dataToShowOnHtml ? adaptObjForHtmlRes(data.dataToShowOnHtml) : {}
         })
       }
     }

@@ -4,7 +4,7 @@ const debug = require('debug')('geoapipt:helpers')
 
 module.exports = { obj2html, obj2dataAttribute, getHostnameFromUrl }
 
-function obj2html (data, typeOfLink) {
+function obj2html (data) {
   let html = ''
 
   const tableStart = '<table class="table table-hover"><tbody>'
@@ -13,7 +13,7 @@ function obj2html (data, typeOfLink) {
   const renderTextAsRow = function (text, colPos) {
     html += '<tr>'
     if (!colPos) {
-      html += `<th scope="row" colspan="2">${getLink(text, typeOfLink)}</th>`
+      html += `<th scope="row" colspan="2">${text}</th>`
     } else if (colPos === 1) {
       html +=
         `<th class="w-50" scope="row">${text}</th>` +
@@ -21,7 +21,7 @@ function obj2html (data, typeOfLink) {
     } else if (colPos === 2) {
       html +=
         '<td class="w-50"></td>' +
-        `<td class="w-50">${getLink(text, typeOfLink)}</td>`
+        `<td class="w-50">${text}</td>`
     }
     html += '</tr>'
   }
@@ -93,38 +93,6 @@ function obj2html (data, typeOfLink) {
 
   debug('obj2html: ', html)
   return html
-}
-
-// get a link for parish or municipality, when presenting results as html
-function getLink (name, typeOfLink) {
-  const encodeName = (str) => {
-    return encodeURIComponent(str.toLowerCase())
-  }
-
-  if (typeOfLink === 'municipality') {
-    return `<a href="/municipios/${encodeName(name)}">${name}</a>`
-  } else if (typeOfLink === 'parish') {
-    return `<a href="/freguesias/${encodeName(name)}">${name}</a>`
-  } else if (/municipality\/.+\/parish$/.test(typeOfLink)) {
-    // ex: typeOfLink === 'municipality/lisboa/parish'
-    const municipalityMatch = typeOfLink.match(/municipality\/(.+)\/parish$/)
-    if (municipalityMatch && municipalityMatch[1]) {
-      return `<a href="/municipios/${encodeName(municipalityMatch[1])}/freguesias/${encodeName(name)}">${name}</a>`
-    } else {
-      return `<a href="/freguesias/${encodeName(name)}">${name}</a>`
-    }
-  } else if (typeOfLink === 'parish (municipality)') {
-    // ex: name === 'Abade de Neiva (Barcelos)'
-    const parish = name.replace(/\(.*\)/, '').trim()
-    const municipalityMatch = name.match(/.+\((.+)\)/)
-    if (municipalityMatch && municipalityMatch[1]) {
-      return `<a href="/municipios/${encodeName(municipalityMatch[1])}/freguesias/${encodeName(parish)}">${name}</a>`
-    } else {
-      return `<a href="/freguesias/${encodeName(parish)}">${name}</a>`
-    }
-  } else {
-    return name
-  }
 }
 
 function obj2dataAttribute (obj) {

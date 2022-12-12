@@ -1,6 +1,9 @@
 const path = require('path')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
-const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
+
+const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 module.exports = {
   fn: routeFn,
@@ -16,14 +19,35 @@ function routeFn (req, res, next, { administrations }) {
     req.query.nome = req.params.parish
   }
 
-  // no parameters, list of parishes
+  // No parameters, list of parishes
   const numberOfQueryVars = Object.keys(req.query).length
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-    res.status(200).sendData({
-      data: administrations.listOfParishesNames,
-      pageTitle: 'Lista de freguesias de Portugal',
-      typeOfLink: 'parish (municipality)'
-    })
+    const result = administrations.listOfParishesNames
+    if (isResponseJson(req)) {
+      res.status(200).sendData({ data: result })
+    } else {
+      let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+
+      const encodeName = (str) => {
+        return encodeURIComponent(str.toLowerCase())
+      }
+
+      resultHtml = resultHtml.map(el => {
+        // ex: el === 'Abade de Neiva (Barcelos)'
+        const parish = el.replace(/\(.*\)/, '').trim()
+        const municipalityMatch = el.match(/.+\((.+)\)/)
+        if (municipalityMatch && municipalityMatch[1]) {
+          return `<a href="/municipios/${encodeName(municipalityMatch[1])}/freguesias/${encodeName(parish)}">${el}</a>`
+        } else {
+          return `<a href="/freguesias/${encodeName(parish)}">${el}</a>`
+        }
+      })
+
+      res.status(200).sendData({
+        data: resultHtml,
+        pageTitle: 'Lista de freguesias de Portugal'
+      })
+    }
     return
   }
 
@@ -80,11 +104,17 @@ function routeFn (req, res, next, { administrations }) {
       pageTitle: `Dados sobre freguesias: ${results.map(e => `${e.nomecompleto} (${e.municipio})`).join(', ')}`
     })
   } else if (results.length === 1) {
-    res.status(200).sendData({
-      data: results[0],
-      input: { Freguesia: `${results[0].nomecompleto} (${results[0].municipio})` },
-      pageTitle: `Dados sobre a Freguesia ${results[0].nomecompleto} (${results[0].municipio})`
-    })
+    const result = results[0]
+
+    if (isResponseJson(req)) {
+      res.status(200).sendData({ data: result })
+    } else {
+      res.status(200).sendData({
+        data: result,
+        input: { Freguesia: `${result.nomecompleto} (${result.municipio})` },
+        pageTitle: `Dados sobre a Freguesia ${result.nomecompleto} (${result.municipio})`
+      })
+    }
   } else {
     res.status(404).sendData({ error: 'Freguesia não encontrada!' })
   }
