@@ -33,7 +33,7 @@ function getNominatimData ({ req, lat, lon, local }, callback) {
     })
     .catch((err) => {
       if (err) {
-        console.error('Open Street Map Nominatim service unavailable', err)
+        console.error('Open Street Map Nominatim service unavailable', err.message)
       }
       callback()
     })
