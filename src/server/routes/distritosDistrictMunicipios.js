@@ -1,6 +1,9 @@
 const path = require('path')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
-const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
+
+const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 module.exports = {
   fn: routeFn,
@@ -13,16 +16,26 @@ function routeFn (req, res, next, { administrations }) {
   if (req.params.district) {
     const district = req.params.district
 
-    const result = administrations.listOfDistrictsWithMunicipalities
+    const results = administrations.listOfDistrictsWithMunicipalities
       .filter(el => normalizeName(el.distrito) === normalizeName(district))
 
-    if (result.length === 1) {
-      res.status(200).sendData({
-        data: result[0],
-        typeOfLink: 'municipality',
-        input: `Lista de Municípios do distrito de ${result[0].distrito}`,
-        pageTitle: `Lista de Municípios do distrito de ${result[0].distrito}`
-      })
+    if (results.length === 1) {
+      const result = results[0] // clone
+
+      if (isResponseJson(req)) {
+        res.status(200).sendData({ data: result })
+      } else {
+        const resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+
+        resultHtml.municipios = resultHtml.municipios
+          .map(el => `<a href="/municipios/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
+
+        res.status(200).sendData({
+          data: resultHtml,
+          input: `Lista de Municípios do distrito de ${resultHtml.distrito}`,
+          pageTitle: `Lista de Municípios do distrito de ${resultHtml.distrito}`
+        })
+      }
     } else {
       res.status(404).sendData({ error: `Distrito ${district} não encontrado!` })
     }

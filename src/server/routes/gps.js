@@ -11,10 +11,13 @@ const debug = require('debug')('geoapipt:routes:gps') // DEBUG=geoapipt:routes:g
 const distanceInMetersThreshold = 10
 
 // modules
-const { correctCase } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
-const computeAltitude = require(path.join(__dirname, '..', 'utils', 'computeAltitude.js'))
-const getNominatimData = require(path.join(__dirname, '..', 'services', 'getNominatimData.js'))
-const getOpenElevationData = require(path.join(__dirname, '..', 'services', 'getOpenElevationData.js'))
+const utilsDir = path.join(appRoot.path, 'src', 'server', 'utils')
+const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
+const { correctCase } = require(path.join(utilsDir, 'commonFunctions.js'))
+const computeAltitude = require(path.join(utilsDir, 'computeAltitude.js'))
+const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
+const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
+const getOpenElevationData = require(path.join(servicesDir, 'getOpenElevationData.js'))
 
 // directories
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
@@ -218,41 +221,29 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       console.error(err)
       res.status(500).sendData({ error: 'Internal server error' })
     } else {
-      sendDataOk({ res, local, lat, lon, isDetails })
+      sendDataOk({ req, res, local, lat, lon, isDetails })
     }
   })
 }
 
-function sendDataOk ({ res, local, lat, lon, isDetails }) {
-  // Create an object which will serve as the order template; these keys will be on top
-  const objectOrder = {
-    ilha: null,
-    distrito: null,
-    concelho: null,
-    freguesia: null,
-    'Secção Estatística (INE, BGRI 2021)': null,
-    'Subsecção Estatística (INE, BGRI 2021)': null,
-    rua: null,
-    n_porta: null,
-    uso: null,
-    altitude_m: null,
-    CP: null,
-    descr_postal: null
+function sendDataOk ({ req, res, local, lat, lon, isDetails }) {
+  if (isResponseJson(req)) {
+    res.status(200).sendData({ data: local })
+  } else {
+    // html/text
+    const dataToShowOnHtml = JSON.parse(JSON.stringify(local)) // deep clone
+
+    delete dataToShowOnHtml.lat
+    delete dataToShowOnHtml.lon
+
+    res.status(200).sendData({
+      data: local,
+      input: { Latitude: convertDDToDMS(lat), Longitude: convertDDToDMS(lon, true) }, // inform user of input in case of text/html
+      dataToShowOnHtml: dataToShowOnHtml,
+      pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`,
+      template: 'routes/gps'
+    })
   }
-
-  local = Object.assign(objectOrder, local)
-
-  const dataToShowOnHtml = Object.assign({}, local) // clone
-  delete dataToShowOnHtml.lat
-  delete dataToShowOnHtml.lon
-
-  res.status(200).sendData({
-    data: local,
-    input: { latitude: convertDDToDMS(lat), longitude: convertDDToDMS(lon, true) }, // inform user of input in case of text/html
-    dataToShowOnHtml: dataToShowOnHtml,
-    pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`,
-    template: 'routes/gps'
-  })
 }
 
 // convert coordinates from decimal to Degrees Minutes And Seconds

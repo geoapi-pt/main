@@ -5,6 +5,7 @@ const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
 const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'municipalities-geojson')
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 module.exports = {
   fn: routeFn,
@@ -25,14 +26,22 @@ function routeFn (req, res, next, { administrations }) {
     req.query.nome = req.params.municipality
   }
 
+  // shows a list of all municipalities in this case
   const numberOfQueryVars = Object.keys(req.query).length
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-    res.status(200).sendData({
-      data: administrations.listOfMunicipalitiesNames,
-      input: 'Lista de todos os municípios',
-      pageTitle: 'Lista dos municípios de Portugal',
-      typeOfLink: 'municipality'
-    })
+    const result = administrations.listOfMunicipalitiesNames
+    if (isResponseJson(req)) {
+      res.status(200).sendData({ data: result })
+    } else {
+      let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+      resultHtml = resultHtml.map(el => `<a href="/municipios/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
+
+      res.status(200).sendData({
+        data: resultHtml,
+        input: 'Lista de todos os municípios',
+        pageTitle: 'Lista dos municípios de Portugal'
+      })
+    }
     return
   }
 
@@ -87,25 +96,31 @@ function routeFn (req, res, next, { administrations }) {
       result.geojsons = municipalityGeojsons
     }
 
-    const dataToShowOnHtml = Object.assign({}, result) // clone
-    if (municipalityGeojsons) {
-      delete dataToShowOnHtml.geojsons
-      dataToShowOnHtml.centros = Object.assign({}, municipalityGeojsons.municipio.properties.centros)
-    }
-    if (dataToShowOnHtml.sitio) {
-      const host = dataToShowOnHtml.sitio.replace(/^http?:\/\//, '')
-      dataToShowOnHtml.sitio = `<a href="//${host}">${host}</a>`
-    }
+    if (isResponseJson(req)) {
+      res.status(200).sendData({ data: result })
+    } else {
+      // html/text response
+      const dataToShowOnHtml = JSON.parse(JSON.stringify(result)) // deep clone
 
-    res.status(200).sendData({
-      data: result,
-      input: {
-        Município: `${result.nome} (<a href="/municipios/${nome}/freguesias">Freguesias</a>)`
-      },
-      dataToShowOnHtml: dataToShowOnHtml,
-      pageTitle: `Dados sobre o Município de ${results[0].nome}`,
-      template: 'routes/municipality'
-    })
+      // no need to show geojsons on html page
+      if (municipalityGeojsons) {
+        delete dataToShowOnHtml.geojsons
+        dataToShowOnHtml.centros = Object.assign({}, municipalityGeojsons.municipio.properties.centros)
+      }
+
+      // information already available in section Censos
+      delete dataToShowOnHtml.populacao
+
+      res.status(200).sendData({
+        data: result,
+        input: {
+          Município: `${result.nome} (<a href="/municipios/${nome}/freguesias">Freguesias</a>)`
+        },
+        dataToShowOnHtml: dataToShowOnHtml,
+        pageTitle: `Dados sobre o Município de ${result.nome}`,
+        template: 'routes/municipality'
+      })
+    }
   } else {
     res.status(404).sendData({ error: 'Município não encontrado!' })
   }
