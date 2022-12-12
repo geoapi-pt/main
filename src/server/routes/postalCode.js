@@ -37,14 +37,18 @@ function routeFn (req, res, next, { appRootPath }) {
         // raw data
         const data = JSON.parse(fileContent)
 
-        // filtered and processed data for presentation
-        const dataToShowOnHtml = JSON.parse(fileContent)
-        dataToShowOnHtml.partes = dataToShowOnHtml.partes.map(obj => {
-          for (const key in obj) {
-            if (!obj[key]) delete obj[key]
-          }
-          return obj
-        })
+        if (isResponseJson(req)) {
+          res.status(200).sendData({ data: data })
+        } else {
+          // text/html
+          // filtered and processed data for presentation
+          const dataToShowOnHtml = JSON.parse(fileContent)
+          dataToShowOnHtml.partes = dataToShowOnHtml.partes.map(obj => {
+            for (const key in obj) {
+              if (!obj[key]) delete obj[key]
+            }
+            return obj
+          })
 
           const fieldsToDelete = ['CP', 'CP4', 'CP3', 'pontos', 'poligono', 'ruas', 'centro', 'centroide', 'centroDeMassa']
           if (!cp3) fieldsToDelete.push('partes')
@@ -52,13 +56,14 @@ function routeFn (req, res, next, { appRootPath }) {
             if (el in dataToShowOnHtml) delete dataToShowOnHtml[el]
           })
 
-        res.status(200).sendData({
-          data: data,
-          input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
-          dataToShowOnHtml: dataToShowOnHtml,
-          pageTitle: `Dados sobre o Código Postal ${cp4 + (cp3 ? `-${cp3}` : '')}`,
-          template: 'routes/cp'
-        })
+          res.status(200).sendData({
+            data: data,
+            input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
+            dataToShowOnHtml: dataToShowOnHtml,
+            pageTitle: `Dados sobre o Código Postal ${cp4 + (cp3 ? `-${cp3}` : '')}`,
+            template: 'routes/cp'
+          })
+        }
       }
     })
   } else {

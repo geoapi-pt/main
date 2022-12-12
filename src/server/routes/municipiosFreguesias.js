@@ -1,4 +1,8 @@
+const path = require('path')
+const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
+
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 module.exports = {
   fn: routeFn,
@@ -7,10 +11,30 @@ module.exports = {
 
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
-  res.status(200).sendData({
-    data: administrations.listOfMunicipalitiesWithParishes,
-    input: 'Lista de municípios com as respetivas freguesias',
-    pageTitle: 'Lista de municípios de Portugal com as respetivas freguesias',
-    typeOfLink: 'parish'
-  })
+
+  const result = administrations.listOfMunicipalitiesWithParishes
+
+  if (isResponseJson(req)) {
+    res.status(200).sendData({ data: result })
+  } else {
+    let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+
+    const encodeName = (str) => {
+      return encodeURIComponent(str.toLowerCase())
+    }
+
+    resultHtml = resultHtml.map(municipality => {
+      return {
+        Município: `<a href="/municipios/${encodeName(municipality.nome)}">${municipality.nome}</a>`,
+        freguesias: municipality.freguesias
+          .map(el => `<a href="/municipios/${encodeName(municipality.nome)}/freguesias/${encodeName(el)}">${el}</a>`)
+      }
+    })
+
+    res.status(200).sendData({
+      data: resultHtml,
+      input: 'Lista de municípios com as respetivas freguesias',
+      pageTitle: 'Lista de municípios de Portugal com as respetivas freguesias'
+    })
+  }
 }
