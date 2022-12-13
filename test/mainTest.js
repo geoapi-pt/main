@@ -338,7 +338,8 @@ function testOpenApiPathsJson (mainCallback) {
             const regexMunicipios = /^\/municipios?\/.+/
             const regexFreguesias = /\/freguesias?\/.+/
             const regexDistritos = /^\/distritos?\/.+/
-            const postalCodeCP4 = /^\/cp\/\d{4}/
+            const postalCodeCP4 = /^\/cp\/\d{4}$/
+            const postalCodeCP7 = /^\/cp\/\d{4}\p{Dash}?\d{3}$/u
 
             if (gpsRegex.test(urlAbsolutePath)) {
               if (
@@ -351,14 +352,14 @@ function testOpenApiPathsJson (mainCallback) {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath}`))
+                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}`))
               }
             } else if (regexMunicipios.test(urlAbsolutePath)) {
               if (body.nome) {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has no key 'nome'`))
+                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, it has no key 'nome'`))
               }
             } else if (regexFreguesias.test(urlAbsolutePath)) {
               if (Array.isArray(body) && body.length && body[0].nome && body[0].municipio && body[0].censos2011) {
@@ -367,7 +368,7 @@ function testOpenApiPathsJson (mainCallback) {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has not these keys: 'nome', 'municipio' and 'censos2011'`))
+                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, it has not these keys: 'nome', 'municipio' and 'censos2011'`))
               }
             } else if (regexDistritos.test(urlAbsolutePath)) {
               if (Array.isArray(body) && body.length && body[0].distrito && Array.isArray(body[0].municipios)) {
@@ -389,7 +390,17 @@ function testOpenApiPathsJson (mainCallback) {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath}`))
+                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}`))
+              }
+            } else if (postalCodeCP7.test(urlAbsolutePath)) {
+              if (body.CP4 &&
+                  body.CP3 &&
+                  Array.isArray(body.partes)
+              ) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}`))
               }
             } else {
               eachCallback()
@@ -423,13 +434,13 @@ function testOpenApiPathsHtml (mainCallback) {
           const regexMunicipios = /^\/municipios?\/.+/
           const regexFreguesias = /.+\/freguesias?\/.+/
           const regexDistritos = /^\/distritos?\/.+/
-          const postalCodeCP4 = /^\/cp\/\d{4}/
+          const postalCode = /^\/cp\/\d{4}/ // CP4 and CP7
 
           if (
             gpsRegex.test(urlAbsolutePath) ||
             regexMunicipios.test(urlAbsolutePath) ||
             regexFreguesias.test(urlAbsolutePath) ||
-            postalCodeCP4.test(urlAbsolutePath)
+            postalCode.test(urlAbsolutePath)
           ) {
             if (!root.querySelector('#map') || !root.querySelector('.container-table100')) {
               eachCallback(Error(`${urlAbsolutePath} has no #map or no .container-table100`))
