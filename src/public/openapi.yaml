@@ -484,7 +484,7 @@ paths:
           required: true
           schema:
             type: string
-            pattern: '^\d{4}(-\d{3})?$'
+            pattern: /^\d{4}(\p{Dash}?\d{3})?$/u
           examples:
             cp4:
               value: '2495'
