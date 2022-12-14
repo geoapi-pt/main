@@ -19,9 +19,20 @@
           let html = ''
           for (const el in cpResults) {
             if (el !== 'partes' && el !== 'pontos' && el !== 'poligono') {
-              html += `<tr><th>${el}</th>`
+              // 1st column
+              if (el.toLocaleLowerCase() === 'concelho') {
+                html += '<tr><th>Município</th>'
+              } else {
+                html += `<tr><th>${el}</th>`
+              }
+
+              // 2nd column
               if (el === 'CP' || el === 'CP4') {
                 html += `<td class="w-50"><a href="/cp/${cpResults[el]}">${cpResults[el]}</a></td>`
+              } else if (el.toLocaleLowerCase() === 'concelho') {
+                html += `<td class="w-50"><a href="/municipios/${cpResults[el]}">${cpResults[el]}</a></td>`
+              } else if (el === 'centro') {
+                html += `<td class="w-50"><a href="/gps/${cpResults[el]}">${cpResults[el]}</a></td>`
               } else {
                 html += `<td class="w-50">${cpResults[el]}</td>`
               }

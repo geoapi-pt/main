@@ -50,11 +50,18 @@ function routeFn (req, res, next, { appRootPath }) {
             return obj
           })
 
-          const fieldsToDelete = ['CP', 'CP4', 'CP3', 'pontos', 'poligono', 'ruas', 'centro', 'centroide', 'centroDeMassa']
-          if (!cp3) fieldsToDelete.push('partes')
+          const fieldsToDelete = ['CP', 'CP4', 'CP3', 'pontos', 'partes', 'poligono', 'ruas', 'centroide', 'centroDeMassa']
           fieldsToDelete.forEach(el => {
             if (el in dataToShowOnHtml) delete dataToShowOnHtml[el]
           })
+
+          // rename key Concelho => Município
+          delete Object.assign(dataToShowOnHtml, { Município: dataToShowOnHtml.Concelho }).Concelho
+
+          const centro = dataToShowOnHtml.centro
+          dataToShowOnHtml.Centro =
+            `<a href="/gps/${centro[0]},${centro[1]}">${centro[0]},${centro[1]}</a>`
+          delete dataToShowOnHtml.centro
 
           res.status(200).sendData({
             data: data,
