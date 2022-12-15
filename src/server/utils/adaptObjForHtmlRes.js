@@ -1,5 +1,5 @@
 /* Rename and order keys for presenting HTML results, for better user friendly display
-   Also adds links accordingly */
+   Also adds links according to the type of data */
 
 const path = require('path')
 
@@ -18,8 +18,9 @@ module.exports = (obj) => {
     }
   }
 
-  // rename keys for a more user friendly html/text result
-  // this mapping also sets the order
+  // Rename keys for a more user friendly html/text result
+  // Mapping from JSON result to HTML view result
+  // This mapping also sets the order
   const keysMapping = [
     ['nome', 'Nome'],
     ['nome_alternativo', 'Nome Alternativo'],
@@ -72,11 +73,11 @@ module.exports = (obj) => {
     obj.Distrito = `<a href="/distritos/${adaptUrlVar(distrito)}">${correctCase(distrito)}</a>`
   } */
 
-  if (obj['Município']) {
+  if (isValidString(obj['Município'])) {
     const municipality = obj['Município']
     obj['Município'] = `<a href="/municipios/${adaptUrlVar(municipality)}">${correctCase(municipality)}</a>`
 
-    if (obj.Freguesia) {
+    if (isValidString(obj.Freguesia)) {
       const parish = obj.Freguesia
       obj.Freguesia =
         `<a href="/municipios/${adaptUrlVar(municipality)}/freguesias/${parish}">${correctCase(parish)}</a>`
@@ -88,7 +89,7 @@ module.exports = (obj) => {
     obj['Código Postal'] = `<a href="/cp/${CP}">${CP}</a>`
   }
 
-  if (obj['Sítio']) {
+  if (isValidString(obj['Sítio'])) {
     const host = obj['Sítio'].replace(/^http?:\/\//, '').trim()
     obj['Sítio'] = `<a href="//${host}">${host}</a>`
   }
@@ -106,6 +107,10 @@ module.exports = (obj) => {
   }
 
   return obj
+}
+
+function isValidString (str) {
+  return str && typeof str === 'string'
 }
 
 function adaptUrlVar (str) {
