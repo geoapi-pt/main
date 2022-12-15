@@ -19,28 +19,14 @@
         res.freguesias.forEach(el => {
           selectFreguesia.options.add(new Option(el, el))
         })
-
-        selectFreguesia.dispatchEvent(new Event('change'))
       })
       .catch((err) => {
         console.error('error fetching freguesias', err)
       })
   })
 
-  selectFreguesia.addEventListener('change', () => {
-    fetch(`${geoApiOrigin}/freguesias/${selectFreguesia.value}?municipio=${selectMunicipality.value}&json=1`).then(res => res.json())
-      .then((res) => {
-        const result = document.getElementById('result-freguesia')
-        result.innerHTML = ''
-        for (const el in res) {
-          if (!el.startsWith('censos')) {
-            result.innerHTML += `<tr><th class="w-50">${el}</th><td class="w-50">${res[el]}</td></tr>`
-          }
-        }
-      })
-      .catch((err) => {
-        console.error('error fetching freguesias', err)
-      })
+  selectFreguesia.addEventListener('click', () => {
+    window.location.href = `/municipios/${selectMunicipality.value}/freguesias/${selectFreguesia.value}`
   })
 
   fetch(`${geoApiOrigin}/municipios?json=1`).then(res => res.json())

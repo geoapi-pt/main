@@ -45,7 +45,8 @@ function routeFn (req, res, next, { administrations }) {
 
       res.status(200).sendData({
         data: resultHtml,
-        pageTitle: 'Lista de freguesias de Portugal'
+        pageTitle: 'Lista de freguesias de Portugal',
+        template: 'routes/parishes'
       })
     }
     return
