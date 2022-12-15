@@ -29,6 +29,9 @@ const testServer = require(path.join(__dirname, 'serverForTests'))
 // Array of url paths whose html is to validate
 const pathnamesToValidateArr = require(path.join(__dirname, 'openApiPaths'))()
 
+// add paths which are not in openapi.yaml because they are not API related, they are only HTML related
+pathnamesToValidateArr.push(...['/', '/cp'])
+
 const bar = new ProgressBar('[:bar] :percent :info', { total: pathnamesToValidateArr.length + 1, width: 80 })
 
 async.series([startsHttpServer, validateHtmlOnAllPages],
@@ -69,7 +72,7 @@ function startsHttpServer (callback) {
 function validateHtmlOnAllPages (next) {
   async.eachOfSeries(pathnamesToValidateArr, validatePage, function (err) {
     if (err) {
-      next(Error('\nError validating html on pages: ' + err.message))
+      next(Error('\nError validating html on some pages.' + err.message))
     } else {
       debug('All html pages validated')
       next()
@@ -89,9 +92,11 @@ function validatePage (pathname, key, callback) {
 
       const report = htmlvalidate.validateString(body)
       if (!report.valid) {
-        console.error('\n\nERROR COUNT: ', report.results[0].errorCount)
+        console.error('\n\nError on ' + colors.red.bold(pathname))
+        console.error('ERROR COUNT: ', report.results[0].errorCount)
         console.error(util.inspect(report.results[0].messages, false, null, true /* enable colors */))
         console.error(addLinesToStr(body))
+        console.error('\nError on ' + colors.red.bold(pathname))
         callback(Error(('Package html-validate found ' + report.results[0].errorCount + ' HTML errors on ' + pathname).error))
       } else {
         debug(pathname)
