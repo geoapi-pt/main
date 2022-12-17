@@ -4,7 +4,7 @@
   "description": "Open geographical data for Portugal",
   "scripts": {
     "depcheck": "depcheck --ignores=\"depcheck,leaflet\" --ignore-patterns=\"res/*\"",
-    "validate-openapi": "lint-openapi -v -e src/public/openapi.yaml",
+    "validate-openapi": "redocly lint src/public/openapi.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
     "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateHtml.js && node test/mainTest.js",
     "start": "node src/server/index.js",
@@ -59,6 +59,7 @@
     "sphere-knn": "^1.4.0"
   },
   "devDependencies": {
+    "@redocly/cli": "^1.0.0-beta.117",
     "command-line-args": "^5.2.0",
     "command-line-usage": "^6.1.3",
     "depcheck": "^1.4.3",
@@ -66,7 +67,6 @@
     "geojson-validation": "^1.0.2",
     "got": "^11.8.2",
     "html-validate": "^7.8.0",
-    "ibm-openapi-validator": "^0.96.2",
     "node-html-parser": "^6.1.4",
     "standard": "^16.0.3",
     "yaml": "^2.1.3"
