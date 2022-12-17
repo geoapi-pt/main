@@ -4,7 +4,7 @@ info:
   description: Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais
   version: '1.0'
 servers:
-  - url: /
+  - url: https://json.geoapi.pt
   
 components:
   parameters:
@@ -24,17 +24,6 @@ components:
           summary: Ativa resposta em JSON
 
 paths:
-  /:
-    summary: Página principal
-    get:
-      responses:
-        '200':
-          description: Página principal
-          content:
-            text/html:
-              schema:
-                type: string
-  
   /gps:
     summary: Distrito, Município e Freguesia através de coordenadas GPS (nos parâmetros da query)
     get:
@@ -203,7 +192,7 @@ paths:
                 type: string
 
   /municipio/{municipio}:
-    $ref: '#/paths/~1municipios~1{municipio}'
+    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D'
   
   /municipios/{municipio}/freguesias:
     summary: Lista de Freguesias no Município
@@ -227,7 +216,7 @@ paths:
                 type: string
 
   /municipio/{municipio}/freguesias:
-    $ref: '#/paths/~1municipios~1{municipio}~1freguesias'
+    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias'
   
   /freguesias:
     summary: Lista de todas as Freguesias
@@ -385,7 +374,7 @@ paths:
                 type: string
 
   /freguesia/{freguesia}:
-    $ref: '#/paths/~1freguesias~1{freguesia}'
+    $ref: '#/paths/~1freguesias~1%7Bfreguesia%7D'
                 
   /municipios/{municipio}/freguesias/{freguesia}:
     summary: Detalhes sobre Freguesia de um determinado Município
@@ -417,13 +406,13 @@ paths:
                 type: string
 
   /municipio/{municipio}/freguesias/{freguesia}:
-    $ref: '#/paths/~1municipios~1{municipio}~1freguesias~1{freguesia}'
+    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
   
   /municipios/{municipio}/freguesia/{freguesia}:
-    $ref: '#/paths/~1municipios~1{municipio}~1freguesias~1{freguesia}'
+    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
 
   /municipio/{municipio}/freguesia/{freguesia}:
-    $ref: '#/paths/~1municipios~1{municipio}~1freguesias~1{freguesia}'
+    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
 
   /distritos:
     summary: Lista de todos os Distritos
@@ -473,7 +462,7 @@ paths:
                 type: string
   
   /distrito/{distrito}/municipios:
-    $ref: '#/paths/~1distritos~1{distrito}~1municipios'
+    $ref: '#/paths/~1distritos~1%7Bdistrito%7D~1municipios'
                 
   /cp/{cp}:
     summary: Detalhes sobre Código Postal
