@@ -16,7 +16,7 @@ function getOpenApiTestPaths () {
   for (let path in openAPIObj.paths) {
     const urlPath = path
     if (openAPIObj.paths[path].$ref) { // path is alias, thus use $ref
-      path = openAPIObj.paths[path].$ref.replace('#/paths/', '').replaceAll('~1', '/')
+      path = decodeURI(openAPIObj.paths[path].$ref.replace('#/paths/', '').replaceAll('~1', '/'))
     }
 
     if (!/.*\{.*\}.*/.test(path)) { // path has no path parameters
@@ -58,3 +58,5 @@ function getOpenApiTestPaths () {
   pathsToTest = pathsToTest.filter(path => path !== '/')
   return pathsToTest
 }
+
+console.log(getOpenApiTestPaths()) // debug
