@@ -58,5 +58,3 @@ function getOpenApiTestPaths () {
   pathsToTest = pathsToTest.filter(path => path !== '/')
   return pathsToTest
 }
-
-console.log(getOpenApiTestPaths()) // debug
