@@ -33,7 +33,7 @@ paths:
   /gps:
     get:
       operationId: getAdminsByGpsAndQuery
-      summary: Obter Distrito, Município e Freguesia através de coordenadas GPS nos parâmetros da query
+      summary: Distrito, Município e Freguesia através de coordenadas GPS nos parâmetros da query
       parameters:
         - in: query
           name: lat
@@ -74,7 +74,7 @@ paths:
   /gps/{coordenadas}:
     get:
       operationId: getAdminsByGps
-      summary: Obter Distrito, Município e Freguesia através de coordenadas GPS
+      summary: Distrito, Município e Freguesia através de coordenadas GPS
       parameters:
         - in: path
           name: coordenadas
@@ -102,7 +102,7 @@ paths:
   /gps/{coordenadas}/detalhes:
     get:
       operationId: getAdminsByGpsWithDetails
-      summary: Obter Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
+      summary: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
       parameters:
         - in: path
           name: coordenadas
@@ -130,7 +130,7 @@ paths:
   /municipios:
     get:
       operationId: getAllMunicipalities
-      summary: Obter lista de todos os Municípios
+      summary: Lista de todos os Municípios
       parameters:
         - in: query
           name: nome
@@ -207,7 +207,7 @@ paths:
   /municipios/{municipio}:
     get:
       operationId: getMunicipality
-      summary: Obter detalhes sobre Município  
+      summary: Detalhes sobre Município  
       parameters:
         - in: path
           name: municipio
@@ -238,7 +238,7 @@ paths:
   /municipios/{municipio}/freguesias:
     get:
       operationId: getParishesOfMunicipality
-      summary: Obter lista de Freguesias no Município
+      summary: Lista de Freguesias no Município
       parameters:
         - in: path
           name: municipio
@@ -269,7 +269,7 @@ paths:
   /freguesias:
     get:
       operationId: getAllParishes
-      summary: Obter lista de todas as Freguesias
+      summary: Lista de todas as Freguesias
       parameters:
         - in: query
           name: nome
@@ -353,7 +353,7 @@ paths:
   /freguesias/{freguesia}:
     get:
       operationId: getParish
-      summary: Obter detalhes sobre Freguesia(s)
+      summary: Detalhes sobre Freguesia(s)
       parameters:
         - in: path
           name: freguesia
@@ -441,7 +441,7 @@ paths:
   /municipios/{municipio}/freguesias/{freguesia}:
     get:
       operationId: getParishOfMunicipality
-      summary: Obter detalhes sobre Freguesia de um determinado Município
+      summary: Detalhes sobre Freguesia de um determinado Município
       parameters:
         - in: path
           name: municipio
@@ -486,7 +486,7 @@ paths:
   /distritos:
     get:
       operationId: getAllDistricts
-      summary: Obter lista de todos os Distritos
+      summary: Lista de todos os Distritos
       parameters: 
         - $ref: '#/components/parameters/json'
       responses:
@@ -506,7 +506,7 @@ paths:
   /distritos/municipios:
     get:
       operationId: getAllDistrictsWithMunicipalities
-      summary: Obter lista de todos os Distritos com respetivos Municípios
+      summary: Lista de todos os Distritos com respetivos Municípios
       parameters: 
         - $ref: '#/components/parameters/json'
       responses:
@@ -526,7 +526,7 @@ paths:
   /distritos/{distrito}/municipios:
     get:
       operationId: getMunicipalitiesOfDistrict
-      summary: Obter lista de Municípios do Distrito
+      summary: Lista de Municípios do Distrito
       parameters:
         - in: path
           name: distrito
@@ -557,7 +557,7 @@ paths:
   /cp/{cp}:
     get:
       operationId: getPostalcodeInfo
-      summary: Obter detalhes sobre Código Postal (CP4 ou CP7)
+      summary: Detalhes sobre Código Postal (CP4 ou CP7)
       parameters:
         - in: path
           name: cp
