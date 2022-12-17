@@ -3,9 +3,13 @@ info:
   title: GEO API PT
   description: Dados gratuitos e abertos para Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais
   version: '1.0'
+  license:
+    name: GNU General Public License v3.0
+    url: https://github.com/jfoclpf/geoapi.pt/blob/main/LICENSE
+
 servers:
   - url: https://json.geoapi.pt
-  
+
 components:
   parameters:
     json:
@@ -23,10 +27,13 @@ components:
           value: 'true'
           summary: Ativa resposta em JSON
 
+security: [] # No security, fully public API
+
 paths:
   /gps:
-    summary: Distrito, Município e Freguesia através de coordenadas GPS (nos parâmetros da query)
     get:
+      operationId: getAdminsByGpsAndQuery
+      summary: Obter Distrito, Município e Freguesia através de coordenadas GPS nos parâmetros da query
       parameters:
         - in: query
           name: lat
@@ -57,10 +64,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Coordenadas não encontradas ou pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
 
   /gps/{coordenadas}:
-    summary: Distrito, Município e Freguesia através de coordenadas GPS
     get:
+      operationId: getAdminsByGps
+      summary: Obter Distrito, Município e Freguesia através de coordenadas GPS
       parameters:
         - in: path
           name: coordenadas
@@ -78,10 +92,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Coordenadas não encontradas ou pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
 
   /gps/{coordenadas}/detalhes:
-    summary: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
     get:
+      operationId: getAdminsByGpsWithDetails
+      summary: Obter Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
       parameters:
         - in: path
           name: coordenadas
@@ -99,10 +120,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Coordenadas não encontradas ou pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
   
   /municipios:
-    summary: Lista de todos os Municípios
     get:
+      operationId: getAllMunicipalities
+      summary: Obter lista de todos os Municípios
       parameters:
         - in: query
           name: nome
@@ -169,10 +197,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Município não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
 
   /municipios/{municipio}:
-    summary: Detalhes sobre Município  
     get:
+      operationId: getMunicipality
+      summary: Obter detalhes sobre Município  
       parameters:
         - in: path
           name: municipio
@@ -190,13 +225,20 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Município não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
 
   /municipio/{municipio}:
     $ref: '#/paths/~1municipios~1%7Bmunicipio%7D'
   
   /municipios/{municipio}/freguesias:
-    summary: Lista de Freguesias no Município
     get:
+      operationId: getParishesOfMunicipality
+      summary: Obter lista de Freguesias no Município
       parameters:
         - in: path
           name: municipio
@@ -214,13 +256,20 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Freguesia não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
 
   /municipio/{municipio}/freguesias:
     $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias'
   
   /freguesias:
-    summary: Lista de todas as Freguesias
     get:
+      operationId: getAllParishes
+      summary: Obter lista de todas as Freguesias
       parameters:
         - in: query
           name: nome
@@ -294,10 +343,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Freguesia não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
 
   /freguesias/{freguesia}:
-    summary: Detalhes sobre Freguesia(s)
     get:
+      operationId: getParish
+      summary: Obter detalhes sobre Freguesia(s)
       parameters:
         - in: path
           name: freguesia
@@ -372,13 +428,20 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Freguesia não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
 
   /freguesia/{freguesia}:
     $ref: '#/paths/~1freguesias~1%7Bfreguesia%7D'
                 
   /municipios/{municipio}/freguesias/{freguesia}:
-    summary: Detalhes sobre Freguesia de um determinado Município
     get:
+      operationId: getParishOfMunicipality
+      summary: Obter detalhes sobre Freguesia de um determinado Município
       parameters:
         - in: path
           name: municipio
@@ -404,6 +467,12 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Freguesia não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
 
   /municipio/{municipio}/freguesias/{freguesia}:
     $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
@@ -415,8 +484,9 @@ paths:
     $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
 
   /distritos:
-    summary: Lista de todos os Distritos
     get:
+      operationId: getAllDistricts
+      summary: Obter lista de todos os Distritos
       parameters: 
         - $ref: '#/components/parameters/json'
       responses:
@@ -426,10 +496,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '400':
+          description: Pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
 
   /distritos/municipios:
-    summary: Lista de todos os Distritos com respetivos Municípios
     get:
+      operationId: getAllDistrictsWithMunicipalities
+      summary: Obter lista de todos os Distritos com respetivos Municípios
       parameters: 
         - $ref: '#/components/parameters/json'
       responses:
@@ -439,10 +516,17 @@ paths:
             application/json:
               schema:
                 type: string
+        '400':
+          description: Pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
                 
   /distritos/{distrito}/municipios:
-    summary: Lista de Municípios do Distrito
     get:
+      operationId: getMunicipalitiesOfDistrict
+      summary: Obter lista de Municípios do Distrito
       parameters:
         - in: path
           name: distrito
@@ -460,13 +544,20 @@ paths:
             application/json:
               schema:
                 type: string
+        '404':
+          description: Distrito não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
   
   /distrito/{distrito}/municipios:
     $ref: '#/paths/~1distritos~1%7Bdistrito%7D~1municipios'
                 
   /cp/{cp}:
-    summary: Detalhes sobre Código Postal
     get:
+      operationId: getPostalcodeInfo
+      summary: Obter detalhes sobre Código Postal (CP4 ou CP7)
       parameters:
         - in: path
           name: cp
@@ -485,15 +576,22 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Detalhes sobre Código Postal CP7
+          description: Detalhes sobre Código Postal CP4 ou CP7
+          content:
+            application/json:
+              schema:
+                type: string
+        '404':
+          description: Código Postal não encontrado
           content:
             application/json:
               schema:
                 type: string
   
   /shieldsio/requestslasthour:
-    summary: Pedidos por hora
     get:
+      operationId: getRequestsPerHour
+      summary: Pedidos por hora
       responses:
         '200':
           description: Pedidos por hora
@@ -501,13 +599,26 @@ paths:
             application/json:
               schema:
                 type: string
+        '400':
+          description: Pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
                 
   /shieldsio/requestslastday:
-    summary: Pedidos por dia
     get:
+      operationId: getRequestsPerDay
+      summary: Pedidos por dia
       responses:
         '200':
           description: Pedidos por dia
+          content:
+            application/json:
+              schema:
+                type: string
+        '400':
+          description: Pedido com erro
           content:
             application/json:
               schema:
