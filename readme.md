@@ -18,9 +18,11 @@ You can use freely the public API at `https://geoapi.pt`. The limit per IP is 90
 
 It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python.html) than Python) to create a HTTP server allowing several GET requests. It pre-processes all the raw data for fast real-time delivery.
 
-## Routes
+## Docs and Routes
 
-This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification), thus you can see all the routes in the file [`openapi.yaml`](https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/openapi.yaml) file. See also [`docs/routes.md`](/docs/routes.md) or the main page at [geoapi.pt](https://geoapi.pt).
+All the API documentation is at [docs.geoapi.pt](https://docs.geoapi.pt/).
+
+This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification), thus you can see all the routes in the file [`openapi.yaml`](https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/openapi.yaml) file. 
 
 ## JSON or HTML
 
