@@ -27,11 +27,17 @@ components:
           value: 'true'
           summary: Ativa resposta em JSON
   schemas:
-    municipios:
+    listaDeMunicipios:
       type: array
       items:
         type: string
       example: ["Abrantes","Aguiar da Beira","Alandroal","Albergaria-a-velha","Albufeira","Alcanena","Alcobaça","Alcochete","Alcoutim","Alcácer do Sal","Alenquer","Alfândega da fé","Alijó","Aljezur","Aljustrel","Almada","Almeida","Almeirim","Almodôvar","Alpiarça","Alter do Chão","Alvaiázere","Alvito","Amadora","Amarante","Amares","Anadia","Angra do Heroísmo","Ansião","Arcos de Valdevez","Arganil","Armamar","Arouca","Arraiolos","Arronches","Arruda Dos Vinhos","Aveiro","Avis","Azambuja","Baião","Barcelos","Barrancos","Barreiro","Batalha","Beja","Belmonte","Benavente","Bombarral","Borba","Boticas","Braga","Bragança","Cabeceiras de Basto","Cadaval","Caldas da Rainha","Calheta","Calheta de São Jorge","Caminha","Campo Maior","Cantanhede","Carrazeda de Ansiães","Carregal do Sal","Cartaxo","Cascais","Castanheira de Pêra","Castelo Branco","Castelo de Paiva","Castelo de Vide","Castro Daire","Castro Marim","Castro Verde","Celorico da Beira","Celorico de Basto","Chamusca","Chaves","Cinfães","Coimbra","Condeixa-a-nova","Constância","Coruche","Corvo","Covilhã","Crato","Cuba","Câmara de Lobos","Elvas","Entroncamento","Espinho","Esposende","Estarreja","Estremoz","Fafe","Faro","Felgueiras","Ferreira do Alentejo","Ferreira do Zêzere","Figueira da Foz","Figueira de Castelo Rodrigo","Figueiró Dos Vinhos","Fornos de Algodres","Freixo de Espada à Cinta","Fronteira","Funchal","Fundão","Gavião","Golegã","Gondomar","Gouveia","Grândola","Guarda","Guimarães","Góis","Horta","Idanha-a-nova","Lagoa","Lagoa (açores)","Lagos","Lajes Das Flores","Lajes do Pico","Lamego","Leiria","Lisboa","Loulé","Loures","Lourinhã","Lousada","Lousã","Macedo de Cavaleiros","Machico","Madalena","Mafra","Maia","Mangualde","Manteigas","Marco de Canaveses","Marinha Grande","Marvão","Matosinhos","Mação","Mealhada","Melgaço","Mesão Frio","Mira","Miranda do Corvo","Miranda do Douro","Mirandela","Mogadouro","Moimenta da Beira","Moita","Monchique","Mondim de Basto","Monforte","Montalegre","Montemor-o-novo","Montemor-o-velho","Montijo","Monção","Mora","Mortágua","Moura","Mourão","Murtosa","Murça","Mértola","Mêda","Nazaré","Nelas","Nisa","Nordeste","Odemira","Odivelas","Oeiras","Oleiros","Olhão","Oliveira de Azeméis","Oliveira de Frades","Oliveira do Bairro","Oliveira do Hospital","Ourique","Ourém","Ovar","Palmela","Pampilhosa da Serra","Paredes","Paredes de Coura","Paços de Ferreira","Pedrógão Grande","Penacova","Penafiel","Penalva do Castelo","Penamacor","Penedono","Penela","Peniche","Peso da Régua","Pinhel","Pombal","Ponta Delgada","Ponta do Sol","Ponte da Barca","Ponte de Lima","Ponte de Sor","Portalegre","Portel","Portimão","Porto","Porto Moniz","Porto Santo","Porto de Mós","Povoação","Praia da Vitória","Proença-a-nova","Póvoa de Lanhoso","Póvoa de Varzim","Redondo","Reguengos de Monsaraz","Resende","Ribeira Brava","Ribeira Grande","Ribeira de Pena","Rio Maior","Sabrosa","Sabugal","Salvaterra de Magos","Santa Comba Dão","Santa Cruz","Santa Cruz Das Flores","Santa Cruz da Graciosa","Santa Maria da Feira","Santa Marta de Penaguião","Santana","Santarém","Santiago do Cacém","Santo Tirso","Sardoal","Seia","Seixal","Sernancelhe","Serpa","Sertã","Sesimbra","Setúbal","Sever do Vouga","Silves","Sines","Sintra","Sobral de Monte Agraço","Soure","Sousel","Sátão","São Brás de Alportel","São João da Madeira","São João da Pesqueira","São Pedro do Sul","São Roque do Pico","São Vicente","Tabuaço","Tarouca","Tavira","Terras de Bouro","Tomar","Tondela","Torre de Moncorvo","Torres Novas","Torres Vedras","Trancoso","Trofa","Tábua","Vagos","Vale de Cambra","Valença","Valongo","Valpaços","Velas","Vendas Novas","Viana do Alentejo","Viana do Castelo","Vidigueira","Vieira do Minho","Vila Flor","Vila Franca de Xira","Vila Franca do Campo","Vila Nova da Barquinha","Vila Nova de Cerveira","Vila Nova de Famalicão","Vila Nova de Foz Côa","Vila Nova de Gaia","Vila Nova de Paiva","Vila Nova de Poiares","Vila Pouca de Aguiar","Vila Real","Vila Real de Santo António","Vila Velha de Ródão","Vila Verde","Vila Viçosa","Vila de Rei","Vila do Bispo","Vila do Conde","Vila do Porto","Vimioso","Vinhais","Viseu","Vizela","Vouzela","Águeda","Évora","Ílhavo","Óbidos"]
+
+    listaDeFreguesias:
+      type: array
+      items:
+        type: string
+      example: ["A dos Francos (Caldas da Rainha)","A dos Negros (Óbidos)","Abade de Neiva (Barcelos)","Abadim (Cabeceiras de Basto)","Abambres (Mirandela)","Abaças (Vila Real)","Abedim (Monção)","..."]
 
     municipio:
       type: object
@@ -1385,6 +1391,749 @@ components:
                 type: number
                 example: -9.13039036150257
 
+    freguesias:
+      type: array
+      items:
+        type: object
+        properties: 
+          codigo: 
+            type: string
+            example: 9712
+          nif: 
+            type: string
+            example: 512071136
+          rua: 
+            type: string
+            example: Rua Dom Jaime Garcia Goulart N.º 5
+          localidade: 
+            type: string
+            example: Madalena
+          codigopostal: 
+            type: string
+            example: 9950-361
+          descrpostal: 
+            type: string
+            example: MADALENA
+          email: 
+            type: string
+            example: freguesia.madalena@mail.telepac.pt
+          telefone: 
+            type: string
+            example: 292622304
+          fax: 
+            type: string
+            example: 
+          sitio: 
+            type: string
+            example: 
+          codigoine: 
+            type: string
+            example: 460204
+          eleitores2011: 
+            type: string
+            example: 2113
+          populacao2011: 
+            type: string
+            example: 2509
+          areaha: 
+            type: string
+            example: 3559.05
+          nomecompleto: 
+            type: string
+            example: Madalena
+          nome: 
+            type: string
+            example: Madalena
+          municipio: 
+            type: string
+            example: Madalena
+          nomecompleto2: 
+            type: string
+            example: Madalena
+          censos2011: 
+            type: object
+            properties: 
+              N_ALOJ: 
+                type: integer
+                format: int32
+                example: 1008
+              N_EDIFICIOS_CLASSICOS: 
+                type: integer
+                format: int32
+                example: 1101
+              N_EDIFICIOS_CLASSICOS_1OU2: 
+                type: integer
+                format: int32
+                example: 1076
+              N_EDIFICIOS_CLASSICOS_ISOLADOS: 
+                type: integer
+                format: int32
+                example: 945
+              N_EDIFICIOS_CLASSICOS_GEMIN: 
+                type: integer
+                format: int32
+                example: 90
+              N_EDIFICIOS_CLASSICOS_EMBANDA: 
+                type: integer
+                format: int32
+                example: 41
+              N_EDIFICIOS_CLASSICOS_3OUMAIS: 
+                type: integer
+                format: int32
+                example: 17
+              N_EDIFICIOS_CLASSICOS_OUTROS: 
+                type: integer
+                format: int32
+                example: 8
+              N_EDIFICIOS_EXCLUSIV_RESID: 
+                type: integer
+                format: int32
+                example: 1039
+              N_EDIFICIOS_PRINCIPAL_RESID: 
+                type: integer
+                format: int32
+                example: 58
+              N_EDIFICIOS_PRINCIP_NAO_RESID: 
+                type: integer
+                format: int32
+                example: 4
+              N_EDIFICIOS_1OU2_PISOS: 
+                type: integer
+                format: int32
+                example: 1087
+              N_EDIFICIOS_3OU4_PISOS: 
+                type: integer
+                format: int32
+                example: 13
+              N_EDIFICIOS_CONSTR_ANTES_1919: 
+                type: integer
+                format: int32
+                example: 36
+              N_EDIFICIOS_CONSTR_1919A1945: 
+                type: integer
+                format: int32
+                example: 38
+              N_EDIFICIOS_CONSTR_1946A1960: 
+                type: integer
+                format: int32
+                example: 58
+              N_EDIFICIOS_CONSTR_1961A1970: 
+                type: integer
+                format: int32
+                example: 41
+              N_EDIFICIOS_CONSTR_1971A1980: 
+                type: integer
+                format: int32
+                example: 80
+              N_EDIFICIOS_CONSTR_1981A1990: 
+                type: integer
+                format: int32
+                example: 132
+              N_EDIFICIOS_CONSTR_1991A1995: 
+                type: integer
+                format: int32
+                example: 101
+              N_EDIFICIOS_CONSTR_1996A2000: 
+                type: integer
+                format: int32
+                example: 243
+              N_EDIFICIOS_CONSTR_2001A2005: 
+                type: integer
+                format: int32
+                example: 251
+              N_EDIFICIOS_CONSTR_2006A2011: 
+                type: integer
+                format: int32
+                example: 121
+              N_EDIFICIOS_ESTRUT_BETAO: 
+                type: integer
+                format: int32
+                example: 978
+              N_EDIFICIOS_ESTRUT_COM_PLACA: 
+                type: integer
+                format: int32
+                example: 10
+              N_EDIFICIOS_ESTRUT_SEM_PLACA: 
+                type: integer
+                format: int32
+                example: 110
+              N_EDIFICIOS_ESTRUT_ADOBE_PEDRA: 
+                type: integer
+                format: int32
+                example: 1
+              N_EDIFICIOS_ESTRUT_OUTRA: 
+                type: integer
+                format: int32
+                example: 2
+              N_ALOJAMENTOS: 
+                type: integer
+                format: int32
+                example: 1174
+              N_ALOJAMENTOS_FAMILIARES: 
+                type: integer
+                format: int32
+                example: 1166
+              N_ALOJAMENTOS_FAM_CLASSICOS: 
+                type: integer
+                format: int32
+                example: 1166
+              N_ALOJAMENTOS_FAM_N_CLASSICOS: 
+                type: integer
+                format: int32
+                example: 0
+              N_ALOJAMENTOS_COLECTIVOS: 
+                type: integer
+                format: int32
+                example: 8
+              N_CLASSICOS_RES_HABITUAL: 
+                type: integer
+                format: int32
+                example: 901
+              N_ALOJAMENTOS_RES_HABITUAL: 
+                type: integer
+                format: int32
+                example: 901
+              N_ALOJAMENTOS_VAGOS: 
+                type: integer
+                format: int32
+                example: 116
+              N_RES_HABITUAL_COM_AGUA: 
+                type: integer
+                format: int32
+                example: 900
+              N_RES_HABITUAL_COM_RETRETE: 
+                type: integer
+                format: int32
+                example: 900
+              N_RES_HABITUAL_COM_ESGOTOS: 
+                type: integer
+                format: int32
+                example: 901
+              N_RES_HABITUAL_COM_BANHO: 
+                type: integer
+                format: int32
+                example: 898
+              N_RES_HABITUAL_AREA_50: 
+                type: integer
+                format: int32
+                example: 61
+              N_RES_HABITUAL_AREA_50_100: 
+                type: integer
+                format: int32
+                example: 254
+              N_RES_HABITUAL_AREA_100_200: 
+                type: integer
+                format: int32
+                example: 417
+              N_RES_HABITUAL_AREA_200: 
+                type: integer
+                format: int32
+                example: 169
+              N_RES_HABITUAL_1_2_DIV: 
+                type: integer
+                format: int32
+                example: 27
+              N_RES_HABITUAL_3_4_DIV: 
+                type: integer
+                format: int32
+                example: 259
+              N_RES_HABITUAL_ESTAC_1: 
+                type: integer
+                format: int32
+                example: 338
+              N_RES_HABITUAL_ESTAC_2: 
+                type: integer
+                format: int32
+                example: 203
+              N_RES_HABITUAL_ESTAC_3: 
+                type: integer
+                format: int32
+                example: 93
+              N_RES_HABITUAL_PROP_OCUP: 
+                type: integer
+                format: int32
+                example: 728
+              N_RES_HABITUAL_ARREND: 
+                type: integer
+                format: int32
+                example: 129
+              N_FAMILIAS_CLASSICAS: 
+                type: integer
+                format: int32
+                example: 929
+              N_FAMILIAS_INSTITUCIONAIS: 
+                type: integer
+                format: int32
+                example: 1
+              N_FAMILIAS_CLASSICAS_1OU2_PESS: 
+                type: integer
+                format: int32
+                example: 456
+              N_FAMILIAS_CLASSICAS_3OU4_PESS: 
+                type: integer
+                format: int32
+                example: 385
+              N_FAMILIAS_CLASSICAS_NPES65: 
+                type: integer
+                format: int32
+                example: 269
+              N_FAMILIAS_CLASSICAS_NPES14: 
+                type: integer
+                format: int32
+                example: 268
+              N_FAMILIAS_CLASSIC_SEM_DESEMP: 
+                type: integer
+                format: int32
+                example: 858
+              N_FAMILIAS_CLASSIC_1DESEMPREG: 
+                type: integer
+                format: int32
+                example: 63
+              N_FAMILIAS_CLASS_2MAIS_DESEMP: 
+                type: integer
+                format: int32
+                example: 8
+              N_NUCLEOS_FAMILIARES: 
+                type: integer
+                format: int32
+                example: 752
+              N_NUCLEOS_1FILH_NAO_CASADO: 
+                type: integer
+                format: int32
+                example: 267
+              N_NUCLEOS_2FILH_NAO_CASADO: 
+                type: integer
+                format: int32
+                example: 165
+              N_NUCLEOS_FILH_INF_6ANOS: 
+                type: integer
+                format: int32
+                example: 110
+              N_NUCLEOS_FILH_INF_15ANOS: 
+                type: integer
+                format: int32
+                example: 267
+              N_NUCLEOS_FILH_MAIS_15ANOS: 
+                type: integer
+                format: int32
+                example: 286
+              N_INDIVIDUOS_PRESENT: 
+                type: integer
+                format: int32
+                example: 2574
+              N_INDIVIDUOS_PRESENT_H: 
+                type: integer
+                format: int32
+                example: 1301
+              N_INDIVIDUOS_PRESENT_M: 
+                type: integer
+                format: int32
+                example: 1273
+              N_INDIVIDUOS_RESIDENT: 
+                type: integer
+                format: int32
+                example: 2581
+              N_INDIVIDUOS_RESIDENT_H: 
+                type: integer
+                format: int32
+                example: 1284
+              N_INDIVIDUOS_RESIDENT_M: 
+                type: integer
+                format: int32
+                example: 1297
+              N_INDIVIDUOS_RESIDENT_0A4: 
+                type: integer
+                format: int32
+                example: 101
+              N_INDIVIDUOS_RESIDENT_5A9: 
+                type: integer
+                format: int32
+                example: 121
+              N_INDIVIDUOS_RESIDENT_10A13: 
+                type: integer
+                format: int32
+                example: 126
+              N_INDIVIDUOS_RESIDENT_14A19: 
+                type: integer
+                format: int32
+                example: 191
+              N_INDIVIDUOS_RESIDENT_15A19: 
+                type: integer
+                format: int32
+                example: 163
+              N_INDIVIDUOS_RESIDENT_20A24: 
+                type: integer
+                format: int32
+                example: 161
+              N_INDIVIDUOS_RESIDENT_20A64: 
+                type: integer
+                format: int32
+                example: 1619
+              N_INDIVIDUOS_RESIDENT_25A64: 
+                type: integer
+                format: int32
+                example: 1458
+              N_INDIVIDUOS_RESIDENT_65: 
+                type: integer
+                format: int32
+                example: 423
+              N_INDIVIDUOS_RESIDENT_H_0A4: 
+                type: integer
+                format: int32
+                example: 50
+              N_INDIVIDUOS_RESIDENT_H_5A9: 
+                type: integer
+                format: int32
+                example: 64
+              N_INDIVIDUOS_RESIDENT_H_10A13: 
+                type: integer
+                format: int32
+                example: 65
+              N_INDIVIDUOS_RESIDENT_H_14A19: 
+                type: integer
+                format: int32
+                example: 99
+              N_INDIVIDUOS_RESIDENT_H_15A19: 
+                type: integer
+                format: int32
+                example: 85
+              N_INDIVIDUOS_RESIDENT_H_20A24: 
+                type: integer
+                format: int32
+                example: 97
+              N_INDIVIDUOS_RESIDENT_H_20A64: 
+                type: integer
+                format: int32
+                example: 834
+              N_INDIVIDUOS_RESIDENT_H_25A64: 
+                type: integer
+                format: int32
+                example: 737
+              N_INDIVIDUOS_RESIDENT_H_65: 
+                type: integer
+                format: int32
+                example: 172
+              N_INDIVIDUOS_RESIDENT_M_0A4: 
+                type: integer
+                format: int32
+                example: 51
+              N_INDIVIDUOS_RESIDENT_M_5A9: 
+                type: integer
+                format: int32
+                example: 57
+              N_INDIVIDUOS_RESIDENT_M_10A13: 
+                type: integer
+                format: int32
+                example: 61
+              N_INDIVIDUOS_RESIDENT_M_14A19: 
+                type: integer
+                format: int32
+                example: 92
+              N_INDIVIDUOS_RESIDENT_M_15A19: 
+                type: integer
+                format: int32
+                example: 78
+              N_INDIVIDUOS_RESIDENT_M_20A24: 
+                type: integer
+                format: int32
+                example: 64
+              N_INDIVIDUOS_RESIDENT_M_20A64: 
+                type: integer
+                format: int32
+                example: 785
+              N_INDIVIDUOS_RESIDENT_M_25A64: 
+                type: integer
+                format: int32
+                example: 721
+              N_INDIVIDUOS_RESIDENT_M_65: 
+                type: integer
+                format: int32
+                example: 251
+              N_INDIV_RESIDENT_N_LER_ESCRV: 
+                type: integer
+                format: int32
+                example: 84
+              N_IND_RESIDENT_FENSINO_1BAS: 
+                type: integer
+                format: int32
+                example: 107
+              N_IND_RESIDENT_FENSINO_2BAS: 
+                type: integer
+                format: int32
+                example: 81
+              N_IND_RESIDENT_FENSINO_3BAS: 
+                type: integer
+                format: int32
+                example: 105
+              N_IND_RESIDENT_FENSINO_SEC: 
+                type: integer
+                format: int32
+                example: 92
+              N_IND_RESIDENT_FENSINO_POSSEC: 
+                type: integer
+                format: int32
+                example: 14
+              N_IND_RESIDENT_FENSINO_SUP: 
+                type: integer
+                format: int32
+                example: 57
+              N_IND_RESIDENT_ENSINCOMP_1BAS: 
+                type: integer
+                format: int32
+                example: 834
+              N_IND_RESIDENT_ENSINCOMP_2BAS: 
+                type: integer
+                format: int32
+                example: 343
+              N_IND_RESIDENT_ENSINCOMP_3BAS: 
+                type: integer
+                format: int32
+                example: 433
+              N_IND_RESIDENT_ENSINCOMP_SEC: 
+                type: integer
+                format: int32
+                example: 363
+              N_IND_RESIDENT_ENSINCOMP_POSEC: 
+                type: integer
+                format: int32
+                example: 30
+              N_IND_RESIDENT_ENSINCOMP_SUP: 
+                type: integer
+                format: int32
+                example: 196
+              N_IND_RESID_DESEMP_PROC_1EMPRG: 
+                type: integer
+                format: int32
+                example: 18
+              N_IND_RESID_DESEMP_PROC_EMPRG: 
+                type: integer
+                format: int32
+                example: 62
+              N_IND_RESID_EMPREGADOS: 
+                type: integer
+                format: int32
+                example: 1160
+              N_IND_RESID_PENS_REFORM: 
+                type: integer
+                format: int32
+                example: 560
+              N_IND_RESID_SEM_ACT_ECON: 
+                type: integer
+                format: int32
+                example: 965
+              N_IND_RESID_EMPREG_SECT_PRIM: 
+                type: integer
+                format: int32
+                example: 68
+              N_IND_RESID_EMPREG_SECT_SEQ: 
+                type: integer
+                format: int32
+                example: 299
+              N_IND_RESID_EMPREG_SECT_TERC: 
+                type: integer
+                format: int32
+                example: 793
+              N_IND_RESID_ESTUD_MUN_RESID: 
+                type: integer
+                format: int32
+                example: 458
+              N_IND_RESID_TRAB_MUN_RESID: 
+                type: integer
+                format: int32
+                example: 1068
+          censos2021: 
+            type: object
+            properties: 
+              N_EDIFICIOS_CLASSICOS: 
+                type: integer
+                format: int32
+                example: 1264
+              N_ALOJAMENTOS: 
+                type: integer
+                format: int32
+                example: 1416
+              N_AGREGADOS: 
+                type: integer
+                format: int32
+                example: 1079
+              N_INDIVIDUOS_RESIDENT: 
+                type: integer
+                format: int32
+                example: 2886
+    
+    CP4:
+      type: object
+      properties:
+        CP4: 
+          type: string
+          example: 1950
+        CP3: 
+          type: array
+          items: 
+            type: string
+            example: 013
+        Distrito: 
+          type: string
+          example: Lisboa
+        Concelho: 
+          type: string
+          example: Lisboa
+        Localidade: 
+          type: string
+          example: Lisboa
+        Designação Postal: 
+          type: string
+          example: LISBOA
+        partes: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              CP3: 
+                type: string
+                example: 013
+              Artéria: 
+                type: string
+                example: Rua Afonso Annes Penedo
+              Troço: 
+                type: string
+                example: Impares de 1 a 5B
+        ruas: 
+          type: array
+          items: 
+            type: string
+            example: AV VERGILIO FERREIRA
+        centro: 
+          type: array
+          items: 
+            type: number
+          example: [38.745199326112484,-9.113186834736876]
+        poligono: 
+          type: array
+          items: 
+            type: array
+            items: 
+              type: number
+          example: [[38.75519026758339,-9.126580323762603],[38.754671961020975,-9.126489735592916],[38.754103015171985,-9.126345788601164],[38.75348343003643,-9.12614848278734],[38.752813205614316,-9.12589781815145],[38.75209234190562,-9.125593794693497],[38.751320838910374,-9.125236412413471],[38.750498696628554,-9.124825671311381],[38.749625915060165,-9.124361571387222],[38.74870249420522,-9.123844112640995],[38.74788193968179,-9.123382698955858]]
+        centroide: 
+          type: array
+          items: 
+            type: number
+          example: [38.74767452246382,-9.114771241873493]
+        centroDeMassa: 
+          type: array
+          items: 
+            type: number
+          example: [38.745199326112484,-9.113186834736876]
+        pontos: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              rua: 
+                type: string
+                example: AV VERGILIO FERREIRA
+              casa: 
+                type: string
+                example: 720
+              coordenadas: 
+                type: array
+                items: 
+                  type: number
+                example: [38.74398571739917,-9.118985023205532]
+
+    CP7:
+      type: object
+      properties: 
+        CP: 
+          type: string
+          example: 1950-449
+        CP4: 
+          type: string
+          example: 1950
+        CP3: 
+          type: string
+          example: 449
+        Distrito: 
+          type: string
+          example: Lisboa
+        Concelho: 
+          type: string
+          example: Lisboa
+        Localidade: 
+          type: string
+          example: Lisboa
+        Designação Postal: 
+          type: string
+          example: LISBOA
+        partes: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              Artéria: 
+                type: string
+                example: Rua Fernando Maurício
+              Local: 
+                type: string
+                example: 
+              Troço: 
+                type: string
+                example: Pares de 30 a 36C
+              Porta: 
+                type: string
+                example: 
+              Cliente: 
+                type: string
+                example: 
+        pontos: 
+          type: array
+          items: 
+            type: object
+            properties: 
+              id: 
+                type: string
+                example: pt.ine.add.PTCONT.2306413
+              rua: 
+                type: string
+                example: R FERNANDO MAURÍCIO
+              casa: 
+                type: string
+                example: 32
+              coordenadas: 
+                type: array
+                items: 
+                  type: number
+                example: [38.74873779672698,-9.102767301982064]
+        ruas: 
+          type: array
+          items: 
+            type: string
+            example: R FERNANDO MAURÍCIO
+        centro: 
+          type: array
+          items: 
+            type: number
+          example: [38.745199326112484,-9.113186834736876]
+        poligono: 
+          type: array
+          items: 
+            type: array
+            items: 
+              type: number
+          example: [[38.74913417627818,-9.103193343115771],[38.748994173561464,-9.103102657614517],[38.748885684176386,-9.103019175968182],[38.74880870812295,-9.102942898176765],[38.74876324540115,-9.10287382424027],[38.748749296010985,-9.10281195415869],[38.748766859952454,-9.102757287932032],[38.74881593722557,-9.102709825560293],[38.74889652783032,-9.102669567043474],[38.7490086317667,-9.102636512381576],[38.749110210058575,-9.102623057072808],[38.749201262705945,-9.102629201117171]]
+        centroide: 
+          type: array
+          items: 
+            type: number
+          example: [38.74767452246382,-9.114771241873493]
+        centroDeMassa: 
+          type: array
+          items: 
+            type: number
+          example: [38.745199326112484,-9.113186834736876]
+
+
 security: [] # No security, fully public API
 
 paths:
@@ -1773,7 +2522,7 @@ paths:
               schema:
                 oneOf:
                 - $ref: '#/components/schemas/municipio'
-                - $ref: '#/components/schemas/municipios'
+                - $ref: '#/components/schemas/listaDeMunicipios'
         
         '404':
           description: Município não encontrado
@@ -1829,11 +2578,168 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Lista de Freguesias no Município
+          description: Lista de Freguesias do Município
           content:
             application/json:
               schema:
-                type: string
+                type: object
+                properties: 
+                  nome: 
+                    type: string
+                    example: Porto
+                  freguesias: 
+                    type: array
+                    items: 
+                      type: string
+                    example: ["Bonfim","Campanhã","Paranhos","Ramalde","União das freguesias de Aldoar, Foz do Douro e Nevogilde","União das freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória","União das freguesias de Lordelo do Ouro e Massarelos"]
+                  geojsons: 
+                    type: object
+                    properties: 
+                      freguesias: 
+                        type: array
+                        items: 
+                          type: object
+                          properties: 
+                            type: 
+                              type: string
+                              example: Feature
+                            properties: 
+                              type: object
+                              properties: 
+                                Dicofre: 
+                                  type: string
+                                  example: 131211
+                                Freguesia: 
+                                  type: string
+                                  example: Ramalde
+                                Concelho: 
+                                  type: string
+                                  example: Porto
+                                Distrito: 
+                                  type: string
+                                  example: Porto
+                                TAA: 
+                                  type: string
+                                  example: ÁREA PRINCIPAL
+                                Area_T_ha: 
+                                  type: number
+                                  example: 582.5
+                                Area_EA_ha: 
+                                  type: number
+                                  example: 582.5
+                                Des_Simpli: 
+                                  type: string
+                                  example: Ramalde
+                                centros: 
+                                  type: object
+                                  properties: 
+                                    centro: 
+                                      type: array
+                                      items: 
+                                        type: number
+                                        example: -8.642840169551537
+                                    centroide: 
+                                      type: array
+                                      items: 
+                                        type: number
+                                        example: -8.644494847208797
+                                    centroDeMassa: 
+                                      type: array
+                                      items: 
+                                        type: number
+                                        example: -8.642921512070712
+                                    centroMedio: 
+                                      type: array
+                                      items: 
+                                        type: number
+                                        example: -8.644403195202479
+                                    centroMediano: 
+                                      type: array
+                                      items: 
+                                        type: number
+                                        example: -8.644494847208797
+                            geometry: 
+                              type: object
+                              properties: 
+                                type: 
+                                  type: string
+                                  example: Polygon
+                                coordinates: 
+                                  type: array
+                                  items: 
+                                    type: array
+                                    items: 
+                                      type: array
+                                      items: 
+                                        type: number
+                                        example: -8.622681669705115
+                            bbox: 
+                              type: array
+                              items: 
+                                type: number
+                                example: -8.66299866939796
+                      municipio: 
+                        type: object
+                        properties: 
+                          type: 
+                            type: string
+                            example: Feature
+                          properties: 
+                            type: object
+                            properties: 
+                              Dicofre: 
+                                type: string
+                                example: 1312
+                              centros: 
+                                type: object
+                                properties: 
+                                  centro: 
+                                    type: array
+                                    items: 
+                                      type: number
+                                      example: -8.6219537622394
+                                  centroide: 
+                                    type: array
+                                    items: 
+                                      type: number
+                                      example: -8.663712335381248
+                                  centroDeMassa: 
+                                    type: array
+                                    items: 
+                                      type: number
+                                      example: -8.620935214483145
+                                  centroMedio: 
+                                    type: array
+                                    items: 
+                                      type: number
+                                      example: -8.66372321145934
+                                  centroMediano: 
+                                    type: array
+                                    items: 
+                                      type: number
+                                      example: -8.663712335381248
+                          geometry: 
+                            type: object
+                            properties: 
+                              type: 
+                                type: string
+                                example: Polygon
+                              coordinates: 
+                                type: array
+                                items: 
+                                  type: array
+                                  items: 
+                                    type: array
+                                    items: 
+                                      type: number
+                                      example: -8.691294069420454
+                          bbox: 
+                            type: array
+                            items: 
+                              type: number
+                              example: -8.691294069420454
+
+
         '404':
           description: Freguesia não encontrada
           content:
@@ -1916,11 +2822,14 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Lista de todas as Freguesias
+          description: Freguesia(s) selecionada(s) ou Lista de todas as Freguesias
           content:
             application/json:
               schema:
-                type: string
+                oneOf:
+                - $ref: '#/components/schemas/freguesia'
+                - $ref: '#/components/schemas/freguesias'
+                - $ref: '#/components/schemas/listaDeFreguesias'
         '404':
           description: Freguesia não encontrada
           content:
@@ -2001,11 +2910,14 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Lista de Freguesias que correspondem à procura
+          description: Freguesia(s) selecionada(s)
           content:
             application/json:
               schema:
-                type: string
+                oneOf:
+                - $ref: '#/components/schemas/freguesia'
+                - $ref: '#/components/schemas/freguesias'
+
         '404':
           description: Freguesia não encontrada
           content:
@@ -2044,7 +2956,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: '#/components/schemas/freguesia'
         '404':
           description: Freguesia não encontrada
           content:
@@ -2135,7 +3047,17 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                type: object
+                properties:
+                  distrito:
+                    type: string
+                    example: Lisboa
+                  municipios:
+                    type: array
+                    items:
+                      type: string
+                    example: ["Alenquer","Amadora","Arruda Dos Vinhos","Azambuja","Cadaval","Cascais","Lisboa","Loures","Lourinhã","Mafra","Odivelas","Oeiras","Sintra","Sobral de Monte Agraço","Torres Vedras","Vila Franca de Xira"]
+
         '404':
           description: Distrito não encontrado
           content:
@@ -2172,7 +3094,9 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                oneOf:
+                - $ref: '#/components/schemas/CP4'
+                - $ref: '#/components/schemas/CP7'
         '404':
           description: Código Postal não encontrado
           content:
@@ -2190,7 +3114,21 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                type: object
+                properties: 
+                  schemaVersion: 
+                    type: integer
+                    format: int32
+                    example: 1
+                  label: 
+                    type: string
+                    example: Requests on last hour
+                  message: 
+                    type: string
+                    example: 630
+                  color: 
+                    type: string
+                    example: orange
         '400':
           description: Pedido com erro
           content:
@@ -2208,7 +3146,21 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                type: object
+                properties:
+                  schemaVersion: 
+                    type: integer
+                    format: int32
+                    example: 1
+                  label: 
+                    type: string
+                    example: Requests on last day
+                  message: 
+                    type: string
+                    example: 7551
+                  color: 
+                    type: string
+                    example: orange
         '400':
           description: Pedido com erro
           content:
