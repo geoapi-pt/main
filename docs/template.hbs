@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8" />
+        <title>{{{ pageTitle }}}</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="{{{defaultOrigin}}}/favicon.ico">
+
+        <meta name="title" content="{{{ pageTitle }}}">
+        <meta name="description" content="{{{siteDescription}}}">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{{defaultOrigin}}}">
+        <meta property="og:title" content="{{{ pageTitle }}}">
+        <meta property="og:description" content="{{{siteDescription}}}">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{{defaultOrigin}}}">
+        <meta property="twitter:title" content="{{{ pageTitle }}}">
+        <meta property="twitter:description" content="{{{siteDescription}}}">
+
+        <meta description="{{{siteDescription}}}">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="{{{defaultOrigin}}}/css/main.css">
+
+        \{{{redocHead}}}
+
+        <script>
+          function init() {
+            document.querySelectorAll('button').forEach(btn => {
+              if(btn.innerHTML.includes('Collapse all')) btn.click()
+            })
+          }
+          window.onload = init
+        </script>
+    </head>
+    <body>
+      {{> bodyHeader}}
+
+      \{{{redocHTML}}}
+    </body>
+</html>
