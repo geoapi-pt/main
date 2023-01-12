@@ -2265,6 +2265,8 @@ paths:
                     type: string
                   n_porta:
                     type: string
+                  altitude_m:
+                    type: number
                   CP:
                     type: string
                 example:   # Sample object
@@ -2278,6 +2280,7 @@ paths:
                   Subsecção Estatística (INE, BGRI 2021): 06
                   rua: Rua Fernando Maurício
                   n_porta: 30
+                  altitude_m: 66
                   CP: 1950-449
         '404':
           description: Coordenadas não encontradas ou pedido com erro
