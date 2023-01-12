@@ -26,12 +26,32 @@ components:
           - 'false'
       description: Ativa resposta em JSON
       examples:
-        1:
+        '1':
           value: '1'
           summary: Ativa resposta em JSON
-        true:
+        'true':
           value: 'true'
           summary: Ativa resposta em JSON
+    ext-apis:
+      in: query
+      name: ext-apis
+      required: false
+      schema:
+        type: string
+        default: '1'
+        enum:
+          - '0'
+          - '1'
+          - 'true'
+          - 'false'
+      description: Quando desativada, não recorre a APIs externas tornando o pedido muito mais rápido
+      examples:
+        '0':
+          value: '0'
+          summary: Não recorre a APIs externas
+        'false':
+          value: 'false'
+          summary: Não recorre a APIs externas
   schemas:
     listaDeMunicipios:
       type: array
@@ -2170,6 +2190,7 @@ paths:
             example: '1'
           description: Ativa apresentação de detalhes de Freguesia e Município
         - $ref: '#/components/parameters/json'
+        - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
           description: Distrito, Município, Freguesia, uso do solo, rua, número de porta e Código Postal
@@ -2235,6 +2256,7 @@ paths:
           allowReserved: true
           description: Coordenadas (latitude e longitude) do ponto
         - $ref: '#/components/parameters/json'
+        - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
           description: Distrito, Município, Freguesia, uso do solo, rua, número de porta, altitude e Código Postal
@@ -2303,6 +2325,7 @@ paths:
           allowReserved: true
           description: Coordenadas (latitude e longitude) do ponto
         - $ref: '#/components/parameters/json'
+        - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
           description: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal com detalhes sobre respectivos Município e Freguesia
@@ -2460,6 +2483,103 @@ paths:
               schema:
                 type: string
   
+  /gps/{coordenadas}/base:
+    get:
+      operationId: getBaseAdminsByGps
+      summary: Distrito, Município e Freguesia através de coordenadas GPS
+      parameters:
+        - in: path
+          name: coordenadas
+          required: true
+          schema:
+            type: string
+            example: '40.153687,-8.514602'
+          allowReserved: true
+          description: Coordenadas (latitude e longitude) do ponto
+        - $ref: '#/components/parameters/json'
+        - $ref: '#/components/parameters/ext-apis'
+      responses:
+        '200':
+          description: Distrito, Município, Freguesia
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lon:
+                    type: number
+                    format: float
+                  lat:
+                    type: number
+                    format: float
+                  distrito:
+                    type: string
+                  concelho:
+                    type: string
+                  freguesia:
+                    type: string
+                example:   # Sample object
+                  lon: -9.102984
+                  lat: 38.748406
+                  distrito: Lisboa
+                  concelho: Lisboa
+                  freguesia: Marvila
+        '404':
+          description: Coordenadas não encontradas ou pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /gps/{coordenadas}/base/detalhes:
+    get:
+      operationId: getBaseAdminsByGpsWithDetails
+      summary: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
+      parameters:
+        - in: path
+          name: coordenadas
+          required: true
+          schema:
+            type: string
+            example: '40.153687,-8.514602'
+          allowReserved: true
+          description: Coordenadas (latitude e longitude) do ponto
+        - $ref: '#/components/parameters/json'
+        - $ref: '#/components/parameters/ext-apis'
+      responses:
+        '200':
+          description: Distrito, Município e Freguesia com detalhes sobre respectivos Município e Freguesia
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: 
+                  lon: 
+                    type: number
+                    example: -9.102984
+                  lat: 
+                    type: number
+                    example: 38.748406
+                  distrito: 
+                    type: string
+                    example: Lisboa
+                  concelho: 
+                    type: string
+                    example: Lisboa
+                  freguesia: 
+                    type: string
+                    example: Marvila
+                  detalhesFreguesia: 
+                    $ref: '#/components/schemas/freguesia'
+                  detalhesMunicipio: 
+                    $ref: '#/components/schemas/municipio'
+        '404':
+          description: Coordenadas não encontradas ou pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
+
   /municipios:
     get:
       operationId: getAllMunicipalities
