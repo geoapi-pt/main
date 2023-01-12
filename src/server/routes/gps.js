@@ -26,13 +26,21 @@ const cartaSoloDir = path.join(appRoot.path, 'res', 'carta-solo', 'freguesias')
 
 module.exports = {
   fn: routeFn,
-  route: ['/gps', '/gps/:lat?,:lon?', '/gps/:lat?,:lon?/detalhes']
+  route: [
+    '/gps',
+    '/gps/:lat?,:lon?',
+    '/gps/:lat?,:lon?/detalhes',
+    '/gps/:lat?,:lon?/base',
+    '/gps/:lat?,:lon?/base/detalhes'
+  ]
 }
 
 function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   const local = {} // the local data corresponding to the coordinates to send with the response
   let lon, lat,
-    isDetails, // boolean activated with route /detalhes
+    isDetails, // boolean activated with route /detalhes or &detalhes=1
+    isBase, // boolean activated with route /base or &base=1
+    useExternalApis, // boolean set to false when query parameter ext-apis=0 or ext-apis=false
     municipalityIneCode,
     parishIneCode
 
@@ -69,7 +77,11 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
     lat = parseFloat(req.query.lat) // ex: 40.153687
     lon = parseFloat(req.query.lon) // ex: -8.514602
-    isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.endsWith('/detalhes'))
+
+    isDetails = Boolean(parseInt(req.query.detalhes)) || (req.path && req.path.includes('/detalhes'))
+    isBase = Boolean(parseInt(req.query.base)) || (req.path && req.path.includes('/base'))
+
+    useExternalApis = parseInt(req.query['ext-apis']) !== 0 && req.query['ext-apis'] !== 'false'
 
     local.lon = lon
     local.lat = lat
@@ -107,6 +119,12 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
   if (!local.freguesia) {
     res.status(404).sendData({ error: 'local não encontrado' })
+    return
+  }
+
+  // just sends distrito, município e freguesia
+  if (isBase) {
+    sendDataOk({ req, res, local, lat, lon })
     return
   }
 
@@ -167,12 +185,20 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
                     local.descr_postal = correctCase(nearest.properties.city)
                     callback()
                   } else {
-                    getNominatimData({ req, lat, lon, local }, callback)
+                    if (useExternalApis) {
+                      getNominatimData({ req, lat, lon, local }, callback)
+                    } else {
+                      callback()
+                    }
                   }
                 }
               }
             } else {
-              getNominatimData({ req, lat, lon, local }, callback)
+              if (useExternalApis) {
+                getNominatimData({ req, lat, lon, local }, callback)
+              } else {
+                callback()
+              }
             }
           })
         } else {
@@ -210,23 +236,31 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         local.altitude_m = altitude
         callback()
       } else {
-        getOpenElevationData({ req, lat, lon, local }, callback)
+        if (useExternalApis) {
+          getOpenElevationData({ req, lat, lon, local }, callback)
+        } else {
+          callback()
+        }
       }
     } catch (err) {
       console.error('Error computing altitude', err)
-      getOpenElevationData({ req, lat, lon, local }, callback)
+      if (useExternalApis) {
+        getOpenElevationData({ req, lat, lon, local }, callback)
+      } else {
+        callback()
+      }
     }
   }], (err) => {
     if (err) {
       console.error(err)
       res.status(500).sendData({ error: 'Internal server error' })
     } else {
-      sendDataOk({ req, res, local, lat, lon, isDetails })
+      sendDataOk({ req, res, local, lat, lon })
     }
   })
 }
 
-function sendDataOk ({ req, res, local, lat, lon, isDetails }) {
+function sendDataOk ({ req, res, local, lat, lon }) {
   if (isResponseJson(req)) {
     res.status(200).sendData({ data: local })
   } else {

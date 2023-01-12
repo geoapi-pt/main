@@ -23,13 +23,23 @@
             </tr>
             <tr>
                <th scope="row">/gps/{latitude},{longitude}</th>
-               <td>Distrito, Município, Freguesia e sub(secção) estatística através de coordenadas GPS</td>
+               <td>Distrito, município, freguesia, sub(secção) estatística, artéria, uso do solo, altitude e código postal, através de coordenadas GPS</td>
                <td><a href="/gps/38.748406,-9.102984">/gps/38.748406,-9.102984</a></td>
             </tr>
             <tr>
                <th scope="row">/gps/{latitude},{longitude}/detalhes</th>
-               <td>Distrito, Município, Freguesia e sub(secção) estatística através de coordenadas GPS, com detalhes sobre endereço postal e respectivos Município, Freguesia e sub(secção) estatística</td>
+               <td>O mesmo que o anterior, mas com detalhes adicionais sobre município, freguesia, sub(secção) estatística e uso do solo</td>
                <td><a href="/gps/38.748406,-9.102984/detalhes">/gps/38.748406,-9.102984/detalhes</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}/base</th>
+               <td>Apenas distrito, município e freguesia (pedido muito mais rápido)</td>
+               <td><a href="/gps/38.748406,-9.102984/base">/gps/38.748406,-9.102984/base</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}/base/detalhes</th>
+               <td>Apenas distrito, município e freguesia (pedido muito mais rápido) com detalhes sobre município e freguesia</td>
+               <td><a href="/gps/38.748406,-9.102984/base/detalhes">/gps/38.748406,-9.102984/base/detalhes</a></td>
             </tr>
             <tr class="table-info2">
                <th scope="row" colspan="3">Divisões administrativas</th>
