@@ -1422,10 +1422,10 @@ components:
             example: 292622304
           fax: 
             type: string
-            example: 
+            example: 512071136
           sitio: 
             type: string
-            example: 
+            example: www.freguesia-madalena.pt
           codigoine: 
             type: string
             example: 460204
@@ -2076,16 +2076,16 @@ components:
                 example: Rua Fernando Maurício
               Local: 
                 type: string
-                example: 
+                example: 'Prédio'
               Troço: 
                 type: string
                 example: Pares de 30 a 36C
               Porta: 
                 type: string
-                example: 
+                example: '30'
               Cliente: 
                 type: string
-                example: 
+                example: José Augusto
         pontos: 
           type: array
           items: 
@@ -2531,7 +2531,7 @@ paths:
               schema:
                 type: string
 
-  /municipios/{municipio}:
+  /municipio/{municipio}:
     get:
       operationId: getMunicipality
       summary: Detalhes sobre Município  
@@ -2559,10 +2559,25 @@ paths:
               schema:
                 type: string
 
-  /municipio/{municipio}:
-    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D'
+  /municipios/{municipio}:
+    get:
+      operationId: getMunicipality2
+      summary: Detalhes sobre Município (descontinuado, usar antes /municipio/{municipio})
+      deprecated: true
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: évora
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1municipio~1%7Bmunicipio%7D/get/responses'
   
-  /municipios/{municipio}/freguesias:
+  /municipio/{municipio}/freguesias:
     get:
       operationId: getParishesOfMunicipality
       summary: Lista de Freguesias no Município
@@ -2747,8 +2762,23 @@ paths:
               schema:
                 type: string
 
-  /municipio/{municipio}/freguesias:
-    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias'
+  /municipios/{municipio}/freguesias:
+    get:
+      operationId: getParishesOfMunicipality2
+      summary: Lista de Freguesias no Município (descontinuado, usar antes /municipio/{municipio}/freguesias)
+      deprecated: true
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: évora
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1municipio~1%7Bmunicipio%7D~1freguesias/get/responses'
   
   /freguesias:
     get:
@@ -2837,7 +2867,7 @@ paths:
               schema:
                 type: string
 
-  /freguesias/{freguesia}:
+  /freguesia/{freguesia}:
     get:
       operationId: getParish
       summary: Detalhes sobre Freguesia(s)
@@ -2925,10 +2955,82 @@ paths:
               schema:
                 type: string
 
-  /freguesia/{freguesia}:
-    $ref: '#/paths/~1freguesias~1%7Bfreguesia%7D'
+  /freguesias/{freguesia}:
+    get:
+      operationId: getParish2
+      summary: Detalhes sobre Freguesia(s) (descontinuado, usar antes /freguesia/{freguesia})
+      deprecated: true
+      parameters:
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          allowReserved: true
+          description: Freguesia
+        - in: query
+          name: municipio
+          required: false
+          schema:
+            type: string
+          allowReserved: true
+          description: Município da Freguesia
+        - in: query
+          name: codigo
+          required: false
+          schema:
+            type: integer
+          description: Código da Freguesia
+        - in: query
+          name: nif
+          required: false
+          schema:
+            type: integer
+          description: NIF da Freguesia
+        - in: query
+          name: codigopostal
+          required: false
+          schema:
+            type: string
+          description: Código Postal da Freguesia
+        - in: query
+          name: email
+          required: false
+          schema:
+            type: string
+          allowReserved: true
+          description: Email da Freguesia
+        - in: query
+          name: telefone
+          required: false
+          schema:
+            type: integer
+          description: Telefone da Freguesia
+        - in: query
+          name: fax
+          required: false
+          schema:
+            type: integer
+          description: Fax da Freguesia
+        - in: query
+          name: sitio
+          required: false
+          schema:
+            type: string
+          allowReserved: true
+          description: Website da Freguesia
+        - in: query
+          name: codigoine
+          required: false
+          schema:
+            type: integer
+          description: Código INE da Freguesia
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1freguesia~1%7Bfreguesia%7D/get/responses'
                 
-  /municipios/{municipio}/freguesias/{freguesia}:
+  /municipio/{municipio}/freguesia/{freguesia}:
     get:
       operationId: getParishOfMunicipality
       summary: Detalhes sobre Freguesia de um determinado Município
@@ -2965,13 +3067,82 @@ paths:
                 type: string
 
   /municipio/{municipio}/freguesias/{freguesia}:
-    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
+    get:
+      operationId: getParishOfMunicipality2
+      summary: Detalhes sobre Freguesia de um determinado Município (descontinuado, usar antes /municipio/{municipio}/freguesia/{freguesia})
+      deprecated: true
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: guimarães
+          allowReserved: true
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1municipio~1%7Bmunicipio%7D~1freguesia~1%7Bfreguesia%7D/get/responses'   
   
   /municipios/{municipio}/freguesia/{freguesia}:
-    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
+    get:
+      operationId: getParishOfMunicipality3
+      summary: Detalhes sobre Freguesia de um determinado Município (descontinuado, usar antes /municipio/{municipio}/freguesia/{freguesia})
+      deprecated: true
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: guimarães
+          allowReserved: true
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1municipio~1%7Bmunicipio%7D~1freguesia~1%7Bfreguesia%7D/get/responses'   
 
-  /municipio/{municipio}/freguesia/{freguesia}:
-    $ref: '#/paths/~1municipios~1%7Bmunicipio%7D~1freguesias~1%7Bfreguesia%7D'
+  /municipios/{municipio}/freguesias/{freguesia}:
+    get:
+      operationId: getParishOfMunicipality4
+      summary: Detalhes sobre Freguesia de um determinado Município (descontinuado, usar antes /municipio/{municipio}/freguesia/{freguesia})
+      deprecated: true
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: guimarães
+          allowReserved: true
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1municipio~1%7Bmunicipio%7D~1freguesia~1%7Bfreguesia%7D/get/responses'   
 
   /distritos:
     get:
@@ -3027,7 +3198,7 @@ paths:
               schema:
                 type: string
                 
-  /distritos/{distrito}/municipios:
+  /distrito/{distrito}/municipios:
     get:
       operationId: getMunicipalitiesOfDistrict
       summary: Lista de Municípios do Distrito
@@ -3065,8 +3236,23 @@ paths:
               schema:
                 type: string
   
-  /distrito/{distrito}/municipios:
-    $ref: '#/paths/~1distritos~1%7Bdistrito%7D~1municipios'
+  /distritos/{distrito}/municipios:
+    get:
+      operationId: getMunicipalitiesOfDistrict2
+      summary: Lista de Municípios do Distrito (descontinuado, usar antes /distrito/{distrito}/municipios)
+      deprecated: true
+      parameters:
+        - in: path
+          name: distrito
+          required: true
+          schema:
+            type: string
+            example: porto
+          allowReserved: true
+          description: Distrito
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1distrito~1%7Bdistrito%7D~1municipios/get/responses' 
                 
   /cp/{cp}:
     get:
