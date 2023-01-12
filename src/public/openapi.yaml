@@ -2224,7 +2224,7 @@ paths:
   /gps/{coordenadas}:
     get:
       operationId: getAdminsByGps
-      summary: Distrito, Município e Freguesia através de coordenadas GPS
+      summary: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal através de coordenadas GPS
       parameters:
         - in: path
           name: coordenadas
@@ -2237,7 +2237,7 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Distrito, Município, Freguesia, uso do solo, rua, número de porta e Código Postal
+          description: Distrito, Município, Freguesia, uso do solo, rua, número de porta, altitude e Código Postal
           content:
             application/json:
               schema:
@@ -2292,7 +2292,7 @@ paths:
   /gps/{coordenadas}/detalhes:
     get:
       operationId: getAdminsByGpsWithDetails
-      summary: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
+      summary: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes
       parameters:
         - in: path
           name: coordenadas
@@ -2305,7 +2305,7 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia
+          description: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal com detalhes sobre respectivos Município e Freguesia
           content:
             application/json:
               schema:
