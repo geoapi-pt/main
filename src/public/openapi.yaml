@@ -18,6 +18,12 @@ components:
       required: false
       schema:
         type: string
+        default: '0'
+        enum:
+          - '0'
+          - '1'
+          - 'true'
+          - 'false'
       description: Ativa resposta em JSON
       examples:
         1:
