@@ -9,7 +9,7 @@ module.exports = ({ serverPort, gitProjectUrl }) => {
   console.log('║                                                                           ║')
   console.log('║     Examples:                                                             ║')
   console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/gps/40.153687,-8.514602')}${Array(26).join(' ')}║`)
-  console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/municipios/évora')}${Array(33).join(' ')}║`)
+  console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/municipio/évora')}${Array(34).join(' ')}║`)
   console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/cp/2495-300')}${Array(38).join(' ')}║`)
   console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/cp/1950')}${Array(42).join(' ')}║`)
   console.log('║                                                                           ║')

@@ -63,10 +63,10 @@ function createSitemap (cb) {
     links.push({ url: `/cp/${CP4}`, changefreq: 'daily', priority: 0.5 })
   }
 
-  // /municipios/{município} and /municipios/{município}/freguesias
+  // /municipio/{município} and /municipio/{município}/freguesias
   for (const municipality of administrations.listOfMunicipalitiesNames) {
-    links.push({ url: `/municipios/${encodeURIComponent(municipality)}`, changefreq: 'daily', priority: 0.5 })
-    links.push({ url: `/municipios/${encodeURIComponent(municipality)}/freguesias`, changefreq: 'daily', priority: 0.5 })
+    links.push({ url: `/municipio/${encodeURIComponent(municipality)}`, changefreq: 'daily', priority: 0.5 })
+    links.push({ url: `/municipio/${encodeURIComponent(municipality)}/freguesias`, changefreq: 'daily', priority: 0.5 })
   }
 
   // /freguesias/{freguesia}, replace(/ *\([^)]*\) */g, "") removes text between parentheses
