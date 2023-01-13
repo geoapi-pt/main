@@ -63,7 +63,7 @@ function routeFn (req, res, next, { administrations }) {
       }
 
       dataToShowOnHtml.freguesias = dataToShowOnHtml.freguesias.map(el =>
-        `<a href="/municipios/${encodeName(dataToShowOnHtml.nome)}/freguesias/${encodeName(el)}">${el}</a>`
+        `<a href="/municipio/${encodeName(dataToShowOnHtml.nome)}/freguesia/${encodeName(el)}">${el}</a>`
       )
 
       // no need for html, since it is already in input key
@@ -71,7 +71,7 @@ function routeFn (req, res, next, { administrations }) {
 
       res.status(200).sendData({
         data: result,
-        input: { Município: `<a href="/municipios/${result.nome.toLowerCase()}">${result.nome}</a>` },
+        input: { Município: `<a href="/municipio/${result.nome.toLowerCase()}">${result.nome}</a>` },
         dataToShowOnHtml: dataToShowOnHtml,
         pageTitle: `Lista de freguesias do município de ${result.nome}`,
         template: 'routes/municipalityParishes'

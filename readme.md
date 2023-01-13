@@ -29,7 +29,7 @@ This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenA
 
 By default the server replies with `text/html` format. To receive JSON format, chose **one** of these:
 
- - add the query GET parameter `json=1` to the URL (ex.: `/municipios/évora?json=1`);
+ - add the query GET parameter `json=1` to the URL (ex.: `/municipio/évora?json=1`);
  - set the HTTP request header `Accept` as JSON, that is, `Accept: application/json`; or
  - in case you're using the public API, use the host `json.geoapi.pt` (ex: `json.geoapi.pt/cp/2495-300`)
 

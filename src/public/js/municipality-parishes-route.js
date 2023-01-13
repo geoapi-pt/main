@@ -94,7 +94,7 @@ function forwardToPage (e) {
   const municipality = e.target.feature.properties.Concelho
   if (parish && municipality) {
     window.location.href =
-      `/municipios/${encodeURIComponent(municipality.toLowerCase())}/freguesias/${encodeURIComponent(parish.toLowerCase())}`
+      `/municipio/${encodeURIComponent(municipality.toLowerCase())}/freguesia/${encodeURIComponent(parish.toLowerCase())}`
   }
 }
 
