@@ -17,10 +17,8 @@
   marker.on('dragend', function (event) {
     const marker = event.target
     const position = marker.getLatLng()
-    if (window.location.pathname.endsWith('/detalhes')) {
-      window.location.href = `/gps/${position.lat},${position.lng}/detalhes`
-    } else {
-      window.location.href = `/gps/${position.lat},${position.lng}`
-    }
+
+    const regex = /\/gps\/([\d.-]+,[\d.-]+)(.*)$/g
+    window.location.href = window.location.href.replace(regex, `/gps/${position.lat},${position.lng}$2`)
   })
 })()
