@@ -25,9 +25,9 @@ function routeFn (req, res, next, { administrations }) {
 
     resultHtml = resultHtml.map(municipality => {
       return {
-        Município: `<a href="/municipios/${encodeName(municipality.nome)}">${municipality.nome}</a>`,
+        Município: `<a href="/municipio/${encodeName(municipality.nome)}">${municipality.nome}</a>`,
         freguesias: municipality.freguesias
-          .map(el => `<a href="/municipios/${encodeName(municipality.nome)}/freguesias/${encodeName(el)}">${el}</a>`)
+          .map(el => `<a href="/municipio/${encodeName(municipality.nome)}/freguesia/${encodeName(el)}">${el}</a>`)
       }
     })
 
