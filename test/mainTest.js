@@ -346,8 +346,7 @@ function testOpenApiPathsJson (mainCallback) {
                 body.distrito &&
                 body.concelho &&
                 body.freguesia &&
-                body.altitude_m &&
-                body.uso
+                ((body.altitude_m && body.uso) || urlAbsolutePath.includes('/base'))
               ) {
                 eachCallback()
               } else {
