@@ -37,9 +37,9 @@ function routeFn (req, res, next, { administrations }) {
         const parish = el.replace(/\(.*\)/, '').trim()
         const municipalityMatch = el.match(/.+\((.+)\)/)
         if (municipalityMatch && municipalityMatch[1]) {
-          return `<a href="/municipios/${encodeName(municipalityMatch[1])}/freguesias/${encodeName(parish)}">${el}</a>`
+          return `<a href="/municipio/${encodeName(municipalityMatch[1])}/freguesia/${encodeName(parish)}">${el}</a>`
         } else {
-          return `<a href="/freguesias/${encodeName(parish)}">${el}</a>`
+          return `<a href="/freguesia/${encodeName(parish)}">${el}</a>`
         }
       })
 
