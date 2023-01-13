@@ -70,17 +70,17 @@ module.exports = (obj) => {
   /* route not yet implemented
   if (obj.Distrito) {
     const distrito = obj.Distrito
-    obj.Distrito = `<a href="/distritos/${adaptUrlVar(distrito)}">${correctCase(distrito)}</a>`
+    obj.Distrito = `<a href="/distrito/${adaptUrlVar(distrito)}">${correctCase(distrito)}</a>`
   } */
 
   if (isValidString(obj['Município'])) {
     const municipality = obj['Município']
-    obj['Município'] = `<a href="/municipios/${adaptUrlVar(municipality)}">${correctCase(municipality)}</a>`
+    obj['Município'] = `<a href="/municipio/${adaptUrlVar(municipality)}">${correctCase(municipality)}</a>`
 
     if (isValidString(obj.Freguesia)) {
       const parish = obj.Freguesia
       obj.Freguesia =
-        `<a href="/municipios/${adaptUrlVar(municipality)}/freguesias/${parish}">${correctCase(parish)}</a>`
+        `<a href="/municipio/${adaptUrlVar(municipality)}/freguesia/${parish}">${correctCase(parish)}</a>`
     }
   }
 

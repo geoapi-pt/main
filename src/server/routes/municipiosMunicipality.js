@@ -21,7 +21,7 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   // if name is not provided in query, consider parameter from url instead
-  // example /municipios/évora
+  // example /municipio/évora
   if (req.params.municipality && !req.query.nome) {
     req.query.nome = req.params.municipality
   }
@@ -34,7 +34,7 @@ function routeFn (req, res, next, { administrations }) {
       res.status(200).sendData({ data: result })
     } else {
       let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
-      resultHtml = resultHtml.map(el => `<a href="/municipios/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
+      resultHtml = resultHtml.map(el => `<a href="/municipio/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
 
       res.status(200).sendData({
         data: resultHtml,
@@ -114,7 +114,7 @@ function routeFn (req, res, next, { administrations }) {
       res.status(200).sendData({
         data: result,
         input: {
-          Município: `${result.nome} (<a href="/municipios/${nome}/freguesias">Freguesias</a>)`
+          Município: `${result.nome} (<a href="/municipio/${nome}/freguesias">Freguesias</a>)`
         },
         dataToShowOnHtml: dataToShowOnHtml,
         pageTitle: `Dados sobre o Município de ${result.nome}`,

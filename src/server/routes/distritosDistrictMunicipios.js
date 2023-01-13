@@ -28,7 +28,7 @@ function routeFn (req, res, next, { administrations }) {
         const resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
 
         resultHtml.municipios = resultHtml.municipios
-          .map(el => `<a href="/municipios/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
+          .map(el => `<a href="/municipio/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
 
         res.status(200).sendData({
           data: resultHtml,
