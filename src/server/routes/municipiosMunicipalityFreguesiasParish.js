@@ -91,7 +91,7 @@ function routeFn (req, res, next, { administrations, regions }) {
 
       res.status(200).sendData({
         data: result,
-        input: { Freguesia: `${result.nomecompleto} (<a href="/municipios/${result.municipio.toLowerCase()}">${result.municipio}</a>)` },
+        input: { Freguesia: `${result.nomecompleto} (<a href="/municipio/${result.municipio.toLowerCase()}">${result.municipio}</a>)` },
         dataToShowOnHtml: dataToShowOnHtml,
         pageTitle: `Dados sobre a Freguesia ${result.nomecompleto} (${result.municipio})`,
         template: 'routes/parish'
