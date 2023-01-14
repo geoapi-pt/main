@@ -1,10 +1,10 @@
 /* unzip ZIP files from INE Censos GeoPackage files (got here https://mapas.ine.pt/download/index2011.phtml)
-   and aggregates information by muncicipality and parish  */
+   and aggregates information by muncicipality and parish in censosDataDir */
 
 const fs = require('fs')
 const path = require('path')
 const async = require('async')
-const extract = require('extract-zip')
+const JSZip = require('jszip')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
@@ -95,15 +95,28 @@ function extractZip (mainCallback) {
     bar.tick({ info: 'Extracting' })
 
     async.eachOf(filesToExtract, function (file, key, callback) {
-      extract(file, { dir: path.dirname(file) })
-        .then(() => {
-          debug(`${path.relative(appRoot.path, file)} extracted`)
-          bar.tick({ info: path.relative(appRoot.path, file) })
-          callback()
-        })
-        .catch((errOnUnzip) => {
-          callback(Error('Error unziping file ' + file + '. ' + errOnUnzip.message))
-        })
+      fs.readFile(file, function (errOnUnzip, data) {
+        if (errOnUnzip) {
+          callback(Error('Error reading file ' + file + '. ' + errOnUnzip.message))
+        } else {
+          JSZip.loadAsync(data).then(function (zip) {
+            const promArr = []
+            Object.keys(zip.files).forEach(function (filename) {
+              const prom = zip.files[filename].async('nodebuffer')
+              promArr.push(prom)
+              prom.then(function (fileData) {
+                const destFilepath = path.join(path.dirname(file), filename)
+                fs.writeFileSync(destFilepath, fileData)
+              })
+            })
+            Promise.all(promArr).then((values) => {
+              bar.tick({ info: path.relative(appRoot.path, file) })
+              debug(path.relative(appRoot.path, file) + ' extracted')
+              callback()
+            })
+          })
+        }
+      })
     }, function (err) {
       bar.tick({ info: '' })
       bar.terminate()
@@ -176,35 +189,19 @@ function getGeoPackageInfo (mainCallback) {
   getFiles(censosZipDir).then(files => {
     const geoPackageFiles = files.filter(f => path.extname(f) === '.gpkg')
 
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: geoPackageFiles.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Fetching' })
-
     async.eachOfSeries(geoPackageFiles, function (file, key, callback) {
       GeoPackageAPI.open(file).then(geoPackage => {
-        debug(file)
-
-        bar.tick({ info: path.relative(appRoot.path, file) })
+        console.log(path.relative(appRoot.path, file))
         try {
           generateJsonData(file, geoPackage)
         } catch (err) {
-          // console.error(err)
           console.error('\n\nCould not process ' + path.relative(appRoot.path, file))
         }
-
         callback()
       }).catch(() => {
-        bar.tick({ info: '' })
         callback()
       })
     }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
       if (err) {
         mainCallback(Error(err))
       } else {
@@ -235,13 +232,17 @@ function generateJsonData (gpkgfilePath, geoPackage) {
   }
   codigoIneMunicipality = parseInt(codigoIneMunicipality)
 
-  generateMunicipalityCensosJsonFIle(censosYear, codigoIneMunicipality, geoPackage)
-  generateParishCensosJsonFIle(censosYear, codigoIneMunicipality, geoPackage)
+  try {
+    generateMunicipalityCensosJsonFIle(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
+    generateParishCensosJsonFIle(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
+  } catch (err) {
+    console.error('Error on ' + gpkgfilePath, err.message)
+  }
 }
 
 // For a specific gpkg file corresponding to a year and a municipality, this function generates the JSON censos municipality file
 // this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
-function generateMunicipalityCensosJsonFIle (censosYear, codigoIneMunicipality, geoPackage) {
+function generateMunicipalityCensosJsonFIle (gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage) {
   const table = geoPackage.getFeatureTables()[0]
   const featureDao = geoPackage.getFeatureDao(table)
 
@@ -254,6 +255,7 @@ function generateMunicipalityCensosJsonFIle (censosYear, codigoIneMunicipality, 
     sum[el] = 0
   })
 
+  debug(path.relative(appRoot.path, gpkgfilePath) + ': geoPackage.iterateGeoJSONFeatures')
   const geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
   for (const feature of geoPackageIterator) {
     for (const el in sum) {
@@ -286,7 +288,7 @@ function generateMunicipalityCensosJsonFIle (censosYear, codigoIneMunicipality, 
 
 // For a specific gpkg file corresponding to a year and a municipality, this function generates the JSON censos parishes file
 // this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
-function generateParishCensosJsonFIle (censosYear, codigoIneMunicipality, geoPackage) {
+function generateParishCensosJsonFIle (gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage) {
   const table = geoPackage.getFeatureTables()[0]
   const featureDao = geoPackage.getFeatureDao(table)
 
