@@ -6,24 +6,16 @@ const path = require('path')
 const { correctCase, isValidPostalCode } = require(path.join(__dirname, 'commonFunctions.js'))
 
 module.exports = (obj) => {
-  const renameObjKey = (oldKey, newKey) => {
-    if (obj[oldKey]) {
-      if (oldKey !== newKey) {
-        Object.defineProperty(obj, newKey,
-          Object.getOwnPropertyDescriptor(obj, oldKey))
-        delete obj[oldKey]
-      }
-    } else {
-      delete obj[oldKey]
-    }
-  }
-
   // Rename keys for a more user friendly html/text result
   // Mapping from JSON result to HTML view result
   // This mapping also sets the order
   const keysMapping = [
     ['nome', 'Nome'],
     ['nome_alternativo', 'Nome Alternativo'],
+    ['nomecompleto', 'Nome Completo'],
+    ['nomecompleto2', 'Nome Completo (2)'],
+    ['nomecompleto3', 'Nome Completo (3)'],
+    ['ID', 'Identificador'],
     ['ilha', 'Ilha'],
     ['distrito', 'Distrito'],
     ['concelho', 'Município'],
@@ -39,6 +31,9 @@ module.exports = (obj) => {
     ['codigopostal', 'Código Postal'],
     ['descr_postal', 'Descrição Postal'],
     ['sitio', 'Sítio'],
+    ['populacao', 'População'],
+    ['populacao2011', 'População (2011)'],
+    ['eleitores2011', 'Eleitores (2011)'],
     ['codigo', 'Código'],
     ['nif', 'NIF'],
     ['localidade', 'Localidade'],
@@ -47,6 +42,7 @@ module.exports = (obj) => {
     ['telefone', 'Telefone'],
     ['fax', 'Fax'],
     ['areaha', 'Área (ha)'],
+    ['Area_ha', 'Área (ha)'],
     ['eleitores', 'Eleitores'],
     ['codigoine', 'Código INE'],
     ['detalhesFreguesia', 'Detalhes da Freguesia'],
@@ -57,7 +53,9 @@ module.exports = (obj) => {
     ['carta_solo', 'Carta de Uso e Utilização do Solo']
   ]
 
-  keysMapping.forEach(mapEl => renameObjKey(mapEl[0], mapEl[1]));
+  loopThroughObjRecurs(obj, (_obj) => {
+    keysMapping.forEach(mapEl => renameObjKey(_obj, mapEl[0], mapEl[1]))
+  });
 
   // correct case of some fields
   ['Distrito', 'Localidade', 'Descrição Postal'].forEach(el => {
@@ -107,6 +105,29 @@ module.exports = (obj) => {
   }
 
   return obj
+}
+
+function renameObjKey (obj, oldKey, newKey) {
+  if (obj[oldKey]) {
+    if (oldKey !== newKey) {
+      Object.defineProperty(obj, newKey,
+        Object.getOwnPropertyDescriptor(obj, oldKey)
+      )
+      delete obj[oldKey]
+    }
+  } else {
+    delete obj[oldKey]
+  }
+}
+
+// recursive function with an Object execute function
+function loopThroughObjRecurs (obj, objExec) {
+  objExec(obj)
+  for (const k in obj) {
+    if (typeof obj[k] === 'object' && obj[k] !== null) {
+      loopThroughObjRecurs(obj[k], objExec)
+    }
+  }
 }
 
 function isValidString (str) {
