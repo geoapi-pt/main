@@ -84,5 +84,5 @@ pm2 start src/server/index.js -- --port 8080
 ### Debug
 
 ```
-DEBUG=geoapipt:* npm start --port=8080
+DEBUG=geoapipt:* npm start -- --port=8080
 ```
