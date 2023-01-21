@@ -298,9 +298,9 @@ function testSomeGpsCoordinates (mainCallback) {
           console.error(body.error || body.erro)
           eachCallback(Error('\nThere was an error in gps coordinates'))
         } else if (
-          body.freguesia === 'Anobra' &&
-          body.concelho === 'Condeixa-A-Nova' &&
-          body.distrito === 'Coimbra'
+          body.freguesia.toLowerCase() === 'anobra' &&
+          body.concelho.toLowerCase() === 'condeixa-a-nova' &&
+          body.distrito.toLowerCase() === 'coimbra'
         ) {
           eachCallback()
         } else {
