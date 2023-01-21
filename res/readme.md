@@ -6,7 +6,7 @@ After updating any resource, run `npm test`.
 
 The ZIP files of the "Carta Administrativa Oficial de Portugal" were downloaded from the Direção Geral de Território website [here](https://www.dgterritorio.gov.pt/dados-abertos) into the directory `/res/portuguese-administrative-chart/`. These are 5 ZIP files, corresponding to Continental Portugal, Madeira and Western, Central and Eastern group of Azores.
 
-In each download link several options appear, but the versions ending in `AAd_CAOP2020.zip` should be selected.
+In each download link several options appear, but the versions ending in `AAd_CAOP20##.zip` should be selected.
 That is, we should not download the files with `troco` because they make reference to the lines (troço) and not to the surfaces.
 We should not select either the ones ending in `GPKG`.
 
