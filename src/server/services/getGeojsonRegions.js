@@ -22,36 +22,36 @@ const resDir = path.join(appRoot.path, 'res')
 const regions = {
   cont: {
     name: 'Continente',
-    zipFileName: 'Cont_AAD_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2020',
+    zipFileName: 'Cont_AAD_CAOP2021.zip',
+    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2021',
     geojson: {}, // geojson FeatureCollection of polygons of all parishes
     projection: '' // info regarding the coordinates transformation
   },
   ArqMadeira: {
     name: 'Arquipélago da Madeira',
-    zipFileName: 'ArqMadeira_AAD_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2020',
+    zipFileName: 'ArqMadeira_AAD_CAOP2021.zip',
+    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2021',
     geojson: {},
     projection: ''
   },
   ArqAcores_GOcidental: {
     name: 'Arquipélago dos Açores (Grupo Ocidental)',
-    zipFileName: 'ArqAcores_GOcidental_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2020',
+    zipFileName: 'ArqAcores_GOcidental_AAd_CAOP2021.zip',
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2021',
     geojson: {},
     projection: ''
   },
   ArqAcores_GCentral: {
     name: 'Arquipélago dos Açores (Grupo Central)',
-    zipFileName: 'ArqAcores_GCentral_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2020',
+    zipFileName: 'ArqAcores_GCentral_AAd_CAOP2021.zip',
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2021',
     geojson: {},
     projection: ''
   },
   ArqAcores_GOriental: {
     name: 'Arquipélago dos Açores (Grupo Oriental)',
-    zipFileName: 'ArqAcores_GOriental_AAd_CAOP2020.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2020',
+    zipFileName: 'ArqAcores_GOriental_AAd_CAOP2021.zip',
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2021',
     geojson: {},
     projection: ''
   }
