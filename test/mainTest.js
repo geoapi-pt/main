@@ -354,11 +354,20 @@ function testOpenApiPathsJson (mainCallback) {
                 eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}`))
               }
             } else if (regexMunicipios.test(urlAbsolutePath)) {
-              if (body.nome) {
-                eachCallback()
-              } else {
-                console.error(body)
-                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, it has no key 'nome'`))
+              if (urlAbsolutePath.includes('/municipios/freguesias')) {
+                if (Array.isArray(body) && body.length) {
+                  eachCallback()
+                } else {
+                  console.error(body)
+                  eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, response is not a non-empty Array`))
+                }
+              } else { // ex: /municipios/lisboa
+                if (body.nome) {
+                  eachCallback()
+                } else {
+                  console.error(body)
+                  eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, it has no key 'nome'`))
+                }
               }
             } else if (regexFreguesias.test(urlAbsolutePath)) {
               if (Array.isArray(body) && body.length && body[0].nome && body[0].municipio && body[0].censos2011) {
@@ -437,7 +446,7 @@ function testOpenApiPathsHtml (mainCallback) {
 
           if (
             gpsRegex.test(urlAbsolutePath) ||
-            regexMunicipios.test(urlAbsolutePath) ||
+            (regexMunicipios.test(urlAbsolutePath) && !urlAbsolutePath.includes('/municipios/freguesias')) ||
             regexFreguesias.test(urlAbsolutePath) ||
             postalCode.test(urlAbsolutePath)
           ) {
