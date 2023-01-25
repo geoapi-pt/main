@@ -22,8 +22,9 @@ function routeFn (req, res, next, { administrations }) {
 
   const municipality = req.params.municipality
 
-  const results = administrations.listOfMunicipalitiesWithParishes
+  const _results = administrations.listOfMunicipalitiesWithParishes
     .filter(el => normalizeName(el.nome) === normalizeName(municipality))
+  const results = JSON.parse(JSON.stringify(_results)) // deep clone
 
   if (results.length > 1) {
     res.status(200).sendData({ data: results, input: 'Lista de freguesias para municípios escolhidos' })

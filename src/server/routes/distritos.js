@@ -12,7 +12,7 @@ module.exports = {
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
-  const result = administrations.listOfDistricts
+  const result = JSON.parse(JSON.stringify(administrations.listOfDistricts)) // deep clone
 
   if (isResponseJson(req)) {
     res.status(200).sendData({ data: result })
