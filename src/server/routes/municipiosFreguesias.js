@@ -12,12 +12,13 @@ module.exports = {
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
-  const result = administrations.listOfMunicipalitiesWithParishes
+  // deep clone
+  const result = JSON.parse(JSON.stringify(administrations.listOfMunicipalitiesWithParishes))
 
   if (isResponseJson(req)) {
     res.status(200).sendData({ data: result })
   } else {
-    let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+    let resultHtml = result
 
     const encodeName = (str) => {
       return encodeURIComponent(str.toLowerCase())

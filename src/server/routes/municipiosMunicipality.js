@@ -29,11 +29,13 @@ function routeFn (req, res, next, { administrations }) {
   // shows a list of all municipalities in this case
   const numberOfQueryVars = Object.keys(req.query).length
   if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
-    const result = administrations.listOfMunicipalitiesNames
+    const _result = administrations.listOfMunicipalitiesNames
+    const result = JSON.parse(JSON.stringify(_result)) // deep clone
+
     if (isResponseJson(req)) {
       res.status(200).sendData({ data: result })
     } else {
-      let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+      let resultHtml = result
       resultHtml = resultHtml.map(el => `<a href="/municipio/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
 
       res.status(200).sendData({
@@ -79,6 +81,8 @@ function routeFn (req, res, next, { administrations }) {
       results = results.filter(p => p[filter] == req.query[filter]) // eslint-disable-line eqeqeq
     }
   }
+
+  results = JSON.parse(JSON.stringify(results)) // deep clone
 
   if (results.length > 1) {
     res.status(200).sendData({

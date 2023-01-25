@@ -42,6 +42,8 @@ function routeFn (req, res, next, { administrations, regions }) {
     )
   })
 
+  results = JSON.parse(JSON.stringify(results)) // deep clone
+
   if (results.length === 1) {
     const result = results[0]
 
