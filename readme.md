@@ -64,7 +64,7 @@ $ curl -s https://json.geoapi.pt/gps/38.748406,-9.102984 | json
  2. Clone the project (just the latest version):<br>
     `git clone --depth=1 https://github.com/jfoclpf/geoapi.pt.git`
  3. Enter the newly created directory and install dependencies<br>
-    `cd geoapi.pt && npm ci`
+    `cd geoapi.pt; npm ci`
  4. Start the server<br>
     `npm start -- --port=8080`
 
