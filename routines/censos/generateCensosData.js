@@ -234,7 +234,7 @@ function generateJsonData (gpkgfilePath, geoPackage) {
 
   try {
     generateMunicipalityCensosJsonFile(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
-    generateParishCensosJsonFIle(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
+    generateParishCensosJsonFiles(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
   } catch (err) {
     console.error('Error on ' + gpkgfilePath, err.message)
   }
@@ -288,7 +288,7 @@ function generateMunicipalityCensosJsonFile (gpkgfilePath, censosYear, codigoIne
 
 // For a specific gpkg file corresponding to a year and a municipality, this function generates the JSON censos parishes file
 // this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
-function generateParishCensosJsonFIle (gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage) {
+function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage) {
   const table = geoPackage.getFeatureTables()[0]
   const featureDao = geoPackage.getFeatureDao(table)
 
