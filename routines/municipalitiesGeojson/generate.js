@@ -9,7 +9,7 @@ const appRoot = require('app-root-path')
 
 const getGeojsonRegions = require(path.join(appRoot.path, 'src', 'server', 'services', 'getGeojsonRegions.js'))
 
-const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'municipalities-geojson')
+const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'municipalities')
 
 let regions
 
