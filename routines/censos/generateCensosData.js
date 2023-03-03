@@ -15,6 +15,8 @@ const getRegionsAndAdmins = require(path.join(
   appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins.js'
 ))
 
+const { correctCase } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
+
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
 const censosDataDir = path.join(appRoot.path, 'res', 'censos', 'data')
 
@@ -263,8 +265,8 @@ function generateMunicipalityCensosJsonFile (gpkgfilePath, censosYear, codigoIne
     }
   }
 
-  const nameOfMunicipality = administrations.municipalitiesDetails
-    .find(e => parseInt(e.codigoine) === codigoIneMunicipality).nome
+  const municipality = administrations.municipalitiesDetails
+    .find(e => parseInt(e.codigoine) === codigoIneMunicipality)
 
   const file = path.join(censosDataDir, 'municipios', codigoIneMunicipality + '.json')
 
@@ -272,7 +274,8 @@ function generateMunicipalityCensosJsonFile (gpkgfilePath, censosYear, codigoIne
   if (!fs.existsSync(file)) {
     const data = {
       tipo: 'municipio',
-      nome: nameOfMunicipality,
+      nome: correctCase(municipality.nome),
+      distrito: correctCase(municipality.distrito),
       codigoine: codigoIneMunicipality
     }
     data['censos' + censosYear] = sum
@@ -335,8 +338,8 @@ function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunic
     }
   }
 
-  const nameOfMunicipality = administrations.municipalitiesDetails
-    .find(e => parseInt(e.codigoine) === codigoIneMunicipality).nome
+  const municipality = administrations.municipalitiesDetails
+    .find(e => parseInt(e.codigoine) === codigoIneMunicipality)
 
   for (const parishCode in sums) {
     const nameOfParish = administrations.parishesDetails
@@ -348,9 +351,10 @@ function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunic
     if (!fs.existsSync(file)) {
       const data = {
         tipo: 'freguesia',
-        nome: nameOfParish,
+        nome: correctCase(nameOfParish),
         codigoine: parishCode,
-        municipio: nameOfMunicipality
+        municipio: correctCase(municipality.nome),
+        distrito: correctCase(municipality.distrito)
       }
       data['censos' + censosYear] = sums[parishCode]
 
