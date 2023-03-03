@@ -145,7 +145,7 @@ function deletePreviousGeneratedData (mainCallback) {
   console.log('Deleting previous generated data: JSON files in ' + path.relative(appRoot.path, censosDataDir))
   // read files recursively from directory
   getFiles(censosDataDir).then(files => {
-    const filesToDelete = files.filter(f => path.extname(f) !== '.json')
+    const filesToDelete = files.filter(f => path.extname(f) === '.json')
 
     let bar
     if (!debug.enabled) {
