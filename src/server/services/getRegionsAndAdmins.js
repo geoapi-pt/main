@@ -307,9 +307,16 @@ function buildsAdministrationsDistrictsArrays (callback) {
 
   for (const municipality of administrations.municipalitiesDetails) {
     if (municipality.nome && municipality.distrito) {
-      administrations.listOfDistrictsWithMunicipalities
+      const district = administrations.listOfDistrictsWithMunicipalities
         .find(el => el.distrito === municipality.distrito)
-        .municipios.push(municipality.nome)
+      district.municipios.push(municipality.nome)
+
+      const districtCodigoine = municipality.codigoine.padStart(4, '0').slice(0, 2)
+      if (!district.codigoine) {
+        district.codigoine = [districtCodigoine]
+      } else if (!district.codigoine.includes(districtCodigoine)) {
+        district.codigoine.push(districtCodigoine)
+      }
     }
   }
 
@@ -321,6 +328,10 @@ function buildsAdministrationsDistrictsArrays (callback) {
 
     district.distrito = correctCase(district.distrito)
     district.municipios = district.municipios.map(el => correctCase(el))
+
+    if (district.codigoine.length === 1) {
+      district.codigoine = district.codigoine[0]
+    }
   }
 
   callback()
