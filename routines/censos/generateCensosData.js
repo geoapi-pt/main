@@ -411,6 +411,8 @@ function generateDistrictsCensosJsonFiles (mainCallback) {
       callback()
     })
   })
+
+  mainCallback()
 }
 
 // read files recursively from directory
