@@ -1,5 +1,5 @@
 /* From Carta Administrativa with all GeoJSON files of parishes,
-   generates GeoJSON files of municipalities */
+   generates GeoJSON files of districts */
 
 const fs = require('fs')
 const path = require('path')
@@ -60,28 +60,28 @@ function generategeojsonDistricts () {
   // now merge parishes geojson for each district and compute bbox and centers
   for (const key in geojsonDistricts) {
     if (geojsonDistricts[key].freguesias.length >= 2) {
-      geojsonDistricts[key].municipio =
+      geojsonDistricts[key].distrito =
         geojsonDistricts[key].freguesias.reduce(
           (accumulator, currentValue) => turf.union(accumulator, currentValue),
           geojsonDistricts[key].freguesias[0]
         )
     } else if (geojsonDistricts[key].freguesias.length === 1) {
-      geojsonDistricts[key].municipio = cloneObj(geojsonDistricts[key].freguesias[0])
+      geojsonDistricts[key].distrito = cloneObj(geojsonDistricts[key].freguesias[0])
     } else {
       console.error(geojsonDistricts[key])
       throw Error('wrong length')
     }
 
-    geojsonDistricts[key].municipio.properties = { Dicofre: key }
-    geojsonDistricts[key].municipio.bbox = turf.bbox(geojsonDistricts[key].municipio)
+    geojsonDistricts[key].distrito.properties = { Dicofre: key }
+    geojsonDistricts[key].distrito.bbox = turf.bbox(geojsonDistricts[key].distrito)
 
     const centros = {}
-    centros.centro = turf.center(geojsonDistricts[key].municipio).geometry.coordinates
-    centros.centroide = turf.centroid(geojsonDistricts[key].municipio).geometry.coordinates
-    centros.centroDeMassa = turf.centerOfMass(geojsonDistricts[key].municipio).geometry.coordinates
-    centros.centroMedio = turf.centerMean(geojsonDistricts[key].municipio).geometry.coordinates
-    centros.centroMediano = turf.centerMedian(geojsonDistricts[key].municipio).geometry.coordinates
-    geojsonDistricts[key].municipio.properties.centros = centros
+    centros.centro = turf.center(geojsonDistricts[key].distrito).geometry.coordinates
+    centros.centroide = turf.centroid(geojsonDistricts[key].distrito).geometry.coordinates
+    centros.centroDeMassa = turf.centerOfMass(geojsonDistricts[key].distrito).geometry.coordinates
+    centros.centroMedio = turf.centerMean(geojsonDistricts[key].distrito).geometry.coordinates
+    centros.centroMediano = turf.centerMedian(geojsonDistricts[key].distrito).geometry.coordinates
+    geojsonDistricts[key].distrito.properties.centros = centros
 
     bar.tick()
   }
