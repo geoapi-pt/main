@@ -29,7 +29,8 @@ async.series(
     extractZip, // extracts zip file with shapefile and projection files
     getAdministrations,
     deletePreviousGeneratedData,
-    getGeoPackageInfo
+    getGeoPackageInfo,
+    generateDistrictsCensosJsonFiles
   ],
   function (err) {
     if (err) {
@@ -368,6 +369,50 @@ function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunic
   }
 }
 
+// from previously generated municipalities JSON stats files, generates the districts JSON stats files
+// by summing all the municipalities stats within a specific district, doing this for all districts
+function generateDistrictsCensosJsonFiles (mainCallback) {
+  getFiles(path.join(censosDataDir, 'municipios')).then(async (files) => {
+    const municipalitiesGeojsonFiles = files.filter(f => path.extname(f) === '.json')
+
+    const municipalities = {}
+    await async.each(municipalitiesGeojsonFiles, function (file, callback) {
+      const data = JSON.parse(fs.readFileSync(file))
+      municipalities[data.codigoine] = data
+      callback()
+    })
+
+    // process distritos
+    const distritosStats = {}
+    for (const muncicipalityCode in municipalities) {
+      const municipality = municipalities[muncicipalityCode]
+
+      // the first 2 digits of 4 digits municipality code are district code; ex: municipality = 123 => distrito = 01
+      const distritoCode = muncicipalityCode.toString().padStart(4, '0').slice(0, 2)
+      if (!distritosStats.hasOwnProperty(distritoCode)) { // eslint-disable-line
+        distritosStats[distritoCode] = {
+          tipo: 'distrito',
+          codigoine: Number(distritoCode),
+          nome: municipality.distrito,
+          censos2011: JSON.parse(JSON.stringify(municipality.censos2011 || {})), // deep clone
+          censos2021: JSON.parse(JSON.stringify(municipality.censos2021 || {})) // deep clone
+        }
+      } else {
+        distritosStats[distritoCode].censos2011 =
+          mergeAndSumObjs(distritosStats[distritoCode].censos2011, municipality.censos2011)
+        distritosStats[distritoCode].censos2021 =
+          mergeAndSumObjs(distritosStats[distritoCode].censos2021, municipality.censos2021)
+      }
+    }
+
+    await async.each(Object.keys(distritosStats), function (distritoCode, callback) {
+      const file = path.join(censosDataDir, 'distritos', distritoCode + '.json')
+      fs.writeFileSync(file, JSON.stringify(distritosStats[distritoCode], null, 2))
+      callback()
+    })
+  })
+}
+
 // read files recursively from directory
 async function getFiles (dir) {
   const dirents = await fs.promises.readdir(dir, { withFileTypes: true })
@@ -380,4 +425,23 @@ async function getFiles (dir) {
 
 function removeDuplicatesFromArray (array) {
   return [...new Set(array)]
+}
+
+// merge two objects, and in the keys that exist in both, sum them
+// ex: o1 = {x: 1, y: 2, z: 3}; o2 = { y: 3, j: 5} => {x: 1, y: 5, z: 3, j: 5}
+function mergeAndSumObjs (_o1, _o2) {
+  if (!_o1) { return { ..._o2 } }
+  if (!_o2) { return { ..._o1 } }
+  const o1 = { ..._o1 }
+  const o2 = { ..._o2 }
+  for (const key of Object.keys({ ...o1, ...o2 })) {
+    if (o2[key]) {
+      if (o1[key]) {
+        o1[key] += o2[key]
+      } else {
+        o1[key] = o2[key]
+      }
+    }
+  }
+  return o1
 }
