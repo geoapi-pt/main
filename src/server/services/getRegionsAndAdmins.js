@@ -34,7 +34,7 @@ const administrations = {
   listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
   listOfMunicipalitiesWithParishes: [], // array of objects, each object corresponding to a municipality and an array of its parishes
   listOfDistricts: [], // array of objects, list de distritos
-  listOfDistrictsWithMunicipalities: [] // array of objects, lista de distritos contendo os municípios
+  districtsDetails: [] // array of objects, lista de distritos contendo os municípios
 }
 
 let regions // Object with geojson data for each parish, divided in 5 main regions
@@ -301,13 +301,13 @@ function buildsAdministrationsDistrictsArrays (callback) {
   administrations.listOfDistricts = [...new Set(administrations.listOfDistricts)]
   administrations.listOfDistricts.sort()
 
-  // builds administrations.listOfDistrictsWithMunicipalities
-  administrations.listOfDistrictsWithMunicipalities =
+  // builds administrations.districtsDetails
+  administrations.districtsDetails =
     administrations.listOfDistricts.map(el => ({ distrito: el, municipios: [] }))
 
   for (const municipality of administrations.municipalitiesDetails) {
     if (municipality.nome && municipality.distrito) {
-      const district = administrations.listOfDistrictsWithMunicipalities
+      const district = administrations.districtsDetails
         .find(el => el.distrito === municipality.distrito)
       district.municipios.push(municipality.nome)
 
@@ -322,7 +322,7 @@ function buildsAdministrationsDistrictsArrays (callback) {
 
   administrations.listOfDistricts = administrations.listOfDistricts.map(el => correctCase(el))
 
-  for (const district of administrations.listOfDistrictsWithMunicipalities) {
+  for (const district of administrations.districtsDetails) {
     district.municipios = [...new Set(district.municipios)]
     district.municipios.sort()
 
@@ -365,7 +365,7 @@ function addCensusData (callback) {
   })
 
   const censosDistrictsDir = path.join(appRoot.path, 'res', 'censos', 'data', 'distritos')
-  administrations.listOfDistrictsWithMunicipalities.forEach(el => {
+  administrations.districtsDetails.forEach(el => {
     const file = path.join(censosDistrictsDir, String(parseInt(el.codigoine)).padStart(2, '0') + '.json')
     if (fs.existsSync(file)) {
       const data = JSON.parse(fs.readFileSync(file))

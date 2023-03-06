@@ -18,7 +18,7 @@ function routeFn (req, res, next, { administrations }) {
   if (req.params.district) {
     const district = req.params.district
 
-    const _results = administrations.listOfDistrictsWithMunicipalities
+    const _results = administrations.districtsDetails
       .filter(el => normalizeName(el.distrito) === normalizeName(district))
     const results = JSON.parse(JSON.stringify(_results)) // deep clone
 
