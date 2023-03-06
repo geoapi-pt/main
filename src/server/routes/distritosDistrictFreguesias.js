@@ -41,15 +41,13 @@ function routeFn (req, res, next, { administrations }) {
         res.status(200).sendData({ data: result })
       } else {
         const distrito = result.distrito
-        const dataToShowOnHtml = JSON.parse(JSON.stringify(result)) // deep clone
+        const dataToShowOnHtml = {}
 
         const encodeName = (str) => {
           return encodeURIComponent(str.toLowerCase())
         }
 
         if (districtGeojsons) {
-          delete dataToShowOnHtml.geojsons
-
           // form list of parishes from geojson file, to show on HTML page
           dataToShowOnHtml.freguesias = districtGeojsons.freguesias
             .map(el => {
@@ -58,9 +56,6 @@ function routeFn (req, res, next, { administrations }) {
               return `<a href="/municipio/${encodeName(municipality)}/freguesia/${encodeName(parish)}">${parish}</a>`
             })
         }
-
-        delete dataToShowOnHtml.distrito
-        delete dataToShowOnHtml.municipios
 
         res.status(200).sendData({
           data: result,
