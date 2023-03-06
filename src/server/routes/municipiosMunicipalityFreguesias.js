@@ -72,7 +72,7 @@ function routeFn (req, res, next, { administrations }) {
 
       res.status(200).sendData({
         data: result,
-        input: { Município: `<a href="/municipio/${result.nome.toLowerCase()}">${result.nome}</a>` },
+        input: { Município: `<a href="/municipio/${encodeName(result.nome)}">${result.nome}</a>` },
         dataToShowOnHtml: dataToShowOnHtml,
         pageTitle: `Lista de freguesias do município de ${result.nome}`,
         template: 'routes/municipalityParishes'
