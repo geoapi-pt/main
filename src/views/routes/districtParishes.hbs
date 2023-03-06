@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+   {{> htmlHead}}
+   
+   <link rel="stylesheet" href="/lib/leaflet/leaflet.css">
+   <script src="/lib/leaflet/leaflet.js"></script>
+</head>
+<body>
+
+{{> bodyHeader}}
+{{> resultMap}}
+
+<data id="district-parishes-route-data" data-districtparishesroute="{{{obj2dataAttribute data}}}"></data>
+
+<script src="/js/district-parishes-route.js"></script>
+
+</body>
+</html>
