@@ -338,6 +338,19 @@ function buildsAdministrationsDistrictsArrays (callback) {
 }
 
 function addCensusData (callback) {
+  const censosParishsesDir = path.join(resDir, 'censos', 'data', 'freguesias')
+  administrations.parishesDetails.forEach(el => {
+    const file = path.join(censosParishsesDir, String(el.codigoine).padStart(6, '0') + '.json')
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file))
+      for (const key in data) {
+        if (key.startsWith('censos')) {
+          el[key] = data[key]
+        }
+      }
+    }
+  })
+
   const censosMunicipalitiesDir = path.join(appRoot.path, 'res', 'censos', 'data', 'municipios')
   administrations.municipalitiesDetails.forEach(el => {
     const file = path.join(censosMunicipalitiesDir, String(parseInt(el.codigoine)) + '.json')
@@ -351,9 +364,9 @@ function addCensusData (callback) {
     }
   })
 
-  const censosParishsesDir = path.join(resDir, 'censos', 'data', 'freguesias')
-  administrations.parishesDetails.forEach(el => {
-    const file = path.join(censosParishsesDir, String(el.codigoine).padStart(6, '0') + '.json')
+  const censosDistrictsDir = path.join(appRoot.path, 'res', 'censos', 'data', 'distritos')
+  administrations.listOfDistrictsWithMunicipalities.forEach(el => {
+    const file = path.join(censosDistrictsDir, String(parseInt(el.codigoine)).padStart(2, '0') + '.json')
     if (fs.existsSync(file)) {
       const data = JSON.parse(fs.readFileSync(file))
       for (const key in data) {
