@@ -24,11 +24,10 @@ module.exports = (obj) => {
   })
 
   // add links accordingly
-  /* route not yet implemented
   if (obj.Distrito) {
     const distrito = obj.Distrito
     obj.Distrito = `<a href="/distrito/${adaptUrlVar(distrito)}">${correctCase(distrito)}</a>`
-  } */
+  }
 
   if (isValidString(obj['Município'])) {
     const municipality = obj['Município']
