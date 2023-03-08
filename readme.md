@@ -33,29 +33,6 @@ By default the server replies with `text/html` format. To receive JSON format, c
  - set the HTTP request header `Accept` as JSON, that is, `Accept: application/json`; or
  - in case you're using the public API, use the host `json.geoapi.pt` (ex: `json.geoapi.pt/cp/2495-300`)
 
-### Fetch JSON with Curl
-
-Install NPM module `json` globally with `npm i -g json`
-
-Now just run for example `curl -s https://json.geoapi.pt/gps/38.748406,-9.102984 | json`
-
-```bash
-$ curl -s https://json.geoapi.pt/gps/38.748406,-9.102984 | json
-{
-  "distrito": "Lisboa",
-  "concelho": "Lisboa",
-  "freguesia": "Marvila",
-  "Secção Estatística (INE, BGRI 2021)": "011",
-  "Subsecção Estatística (INE, BGRI 2021)": "06",
-  "rua": "R Fernando Maurício",
-  "n_porta": "30",
-  "uso": "Tecido edificado contínuo predominantemente vertical",
-  "altitude_m": 71,
-  "CP": "1950-449",
-  "descr_postal": "Lisboa"
-}
-```
-
 ## Install this API on your machine
 
 [Tested](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml) on Linux, Windows and MacOS
