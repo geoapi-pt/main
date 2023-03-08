@@ -1,9 +1,11 @@
+const fs = require('fs')
 const path = require('path')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 
 const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
 
 module.exports = {
   fn: routeFn,
@@ -21,20 +23,38 @@ function routeFn (req, res, next, { administrations }) {
     const results = JSON.parse(JSON.stringify(_results)) // deep clone
 
     if (results.length === 1) {
-      const result = results[0] // clone
+      const result = results[0]
+
+      const districtGeojsons = JSON.parse(
+        fs.readFileSync(
+          path.join(districtsGeojsonDir, result.codigoine.toString().padStart(2, '0') + '.json')
+        )
+      )
+
+      if (districtGeojsons) {
+        delete districtGeojsons.freguesias
+        result.geojsons = districtGeojsons
+      }
 
       if (isResponseJson(req)) {
         res.status(200).sendData({ data: result })
       } else {
-        const resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+        const distrito = result.distrito
+        const dataToShowOnHtml = {}
 
-        resultHtml.municipios = resultHtml.municipios
-          .map(el => `<a href="/municipio/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
+        const encodeName = (str) => {
+          return encodeURIComponent(str.toLowerCase())
+        }
+
+        dataToShowOnHtml.municipios = result.municipios
+          .map(el => `<a href="/municipio/${encodeName(el)}">${el}</a>`)
 
         res.status(200).sendData({
-          data: resultHtml,
-          input: `Lista de Municípios do distrito de ${resultHtml.distrito}`,
-          pageTitle: `Lista de Municípios do distrito de ${resultHtml.distrito}`
+          data: result,
+          input: { Distrito: `<a href="/distrito/${encodeName(distrito)}">${distrito}</a>` },
+          pageTitle: `Lista de Municípios do distrito de ${distrito}`,
+          dataToShowOnHtml: dataToShowOnHtml,
+          template: 'routes/districtMunicipalities'
         })
       }
     } else {
