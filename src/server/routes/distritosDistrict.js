@@ -64,6 +64,10 @@ function routeFn (req, res, next, { administrations }) {
 
       // no need to show geojsons on html page
       if (districtGeojsons) {
+        // result Object is sent to html client for map drawing, strip out uneeded info
+        delete result.geojsons.municipios
+        delete result.geojsons.freguesias
+
         delete dataToShowOnHtml.geojsons
         dataToShowOnHtml.centros = Object.assign({}, districtGeojsons.distrito.properties.centros)
       }
