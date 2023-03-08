@@ -15,7 +15,7 @@ module.exports = {
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
-  if (req.params.municipality === 'municipio' || req.params.municipality === 'municipios') {
+  if (req.params.district === 'municipio' || req.params.district === 'municipios') {
     next()
     return
   }
