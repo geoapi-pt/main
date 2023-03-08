@@ -75,6 +75,11 @@ function generateGeojsonMunicipalities () {
     geojsonMunicipalities[key].municipio.properties = { Dicofre: key }
     geojsonMunicipalities[key].municipio.bbox = turf.bbox(geojsonMunicipalities[key].municipio)
 
+    geojsonMunicipalities[key].municipio.properties.Concelho =
+      geojsonMunicipalities[key].freguesias[0].properties.Concelho
+    geojsonMunicipalities[key].municipio.properties.Distrito =
+      geojsonMunicipalities[key].freguesias[0].properties.Distrito
+
     const centros = {}
     centros.centro = turf.center(geojsonMunicipalities[key].municipio).geometry.coordinates
     centros.centroide = turf.centroid(geojsonMunicipalities[key].municipio).geometry.coordinates

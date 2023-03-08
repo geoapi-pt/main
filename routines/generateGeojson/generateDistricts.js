@@ -9,6 +9,7 @@ const appRoot = require('app-root-path')
 
 const getGeojsonRegions = require(path.join(appRoot.path, 'src', 'server', 'services', 'getGeojsonRegions.js'))
 
+const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'municipalities')
 const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
 
 let regions
@@ -82,6 +83,18 @@ function generategeojsonDistricts () {
     centros.centroMedio = turf.centerMean(geojsonDistricts[key].distrito).geometry.coordinates
     centros.centroMediano = turf.centerMedian(geojsonDistricts[key].distrito).geometry.coordinates
     geojsonDistricts[key].distrito.properties.centros = centros
+
+    // adds municipalities geosjons corresponding to this district
+    geojsonDistricts[key].municipios = []
+    fs.readdirSync(municipalitiesGeojsonDir).forEach(filename => {
+      if (path.parse(filename).name.padStart(4, '0').slice(0, 2) === key) {
+        const municipalityGeojson = JSON.parse(fs.readFileSync(path.join(municipalitiesGeojsonDir, filename)))
+        geojsonDistricts[key].municipios.push(municipalityGeojson.municipio)
+      }
+    })
+
+    geojsonDistricts[key].distrito.properties.Distrito =
+      geojsonDistricts[key].municipios[0].properties.Distrito
 
     bar.tick()
   }
