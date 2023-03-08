@@ -12,13 +12,14 @@ module.exports = {
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
-  const _result = administrations.districtsDetails
-  const result = JSON.parse(JSON.stringify(_result)) // deep clone
+  const result = administrations.districtsDetails
 
   if (isResponseJson(req)) {
     res.status(200).sendData({ data: result })
   } else {
-    const resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+    let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
+
+    resultHtml = resultHtml.map(el => Object({ distrito: el.distrito, municipios: el.municipios }))
 
     resultHtml.forEach(distrito => {
       distrito.municipios = distrito.municipios
