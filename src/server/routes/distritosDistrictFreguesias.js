@@ -32,6 +32,8 @@ function routeFn (req, res, next, { administrations }) {
       )
 
       if (districtGeojsons) {
+        delete districtGeojsons.municipios
+
         result.geojsons = districtGeojsons
         // form list of parishes from geojson file, to show on HTML page
         result.freguesias = districtGeojsons.freguesias.map(el => el.properties.Freguesia)
