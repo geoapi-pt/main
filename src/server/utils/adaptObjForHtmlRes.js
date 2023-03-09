@@ -18,13 +18,13 @@ module.exports = (obj) => {
 
   // correct case of some fields
   ['Distrito', 'Localidade', 'Descrição Postal'].forEach(el => {
-    if (obj[el] && typeof obj[el] === 'string') {
+    if (isValidString(obj[el])) {
       obj[el] = correctCase(obj[el])
     }
   })
 
   // add links accordingly
-  if (obj.Distrito) {
+  if (isValidString(obj.Distrito)) {
     const distrito = obj.Distrito
     obj.Distrito = `<a href="/distrito/${adaptUrlVar(distrito)}">${correctCase(distrito)}</a>`
   }
