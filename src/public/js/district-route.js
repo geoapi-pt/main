@@ -5,6 +5,8 @@
   const districtData = JSON.parse(decodeURIComponent(districtDataDomEl.dataset.districtroute))
   window.districtData = districtData
 
+  console.log('geojsons:', districtData.geojsons)
+
   const centros = districtData.geojsons.distrito.properties.centros
   const centro = centros.centro
 
