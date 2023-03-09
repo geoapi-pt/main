@@ -3408,7 +3408,63 @@ paths:
           description: Distrito
         - $ref: '#/components/parameters/json'
       responses:
-        $ref: '#/paths/~1distrito~1%7Bdistrito%7D~1municipios/get/responses' 
+        $ref: '#/paths/~1distrito~1%7Bdistrito%7D~1municipios/get/responses'
+
+  /distrito/{distrito}/freguesias:
+    get:
+      operationId: getParishesOfDistrict
+      summary: Lista de Freguesias do Distrito
+      parameters:
+        - in: path
+          name: distrito
+          required: true
+          schema:
+            type: string
+            example: lisboa
+          allowReserved: true
+          description: Distrito
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Lista de Freguesias do Distrito
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  distrito:
+                    type: string
+                    example: Lisboa
+                  freguesias:
+                    type: array
+                    items:
+                      type: string
+                    example: ["Vila Nova da Rainha","União das freguesias de Ribafria e Pereiro de Palhacana","União das freguesias de Dois Portos e Runa","Ventosa","União das freguesias de Alenquer (Santo Estêvão e Triana)","União das freguesias de Carvoeira e Carmões","São Pedro da Cadeira","Meca","Olhalvo","Azambuja","Aveiras de Baixo","Ponte do Rol","Vale do Paraíso","União das freguesias de Aldeia Galega da Merceana e Aldeia Gavinha","Santa Maria, São Pedro e Matacães","Silveira","Ventosa","Aveiras de Cima","União das freguesias de Maxial e Monte Redondo","União das freguesias de Carcavelos e Parede","Estrela","Misericórdia","União das freguesias de Oeiras e São Julião da Barra, Paço de Arcos e Caxias","Santa Maria Maior","Belém","União das freguesias de Algés, Linda-a-Velha e Cruz Quebrada-Dafundo","São Vicente","Campo de Ourique","Ajuda","Alcântara","Santo António","União das freguesias de Cascais e Estoril","União das freguesias de Cascais e Estoril","União das freguesias de Cascais e Estoril","União das freguesias de Cascais e Estoril","União das freguesias de Cascais e Estoril","Arroios","Penha de França","União das freguesias de Carnaxide e Queijas","Beato","Campolide","União das freguesias de Cascais e Estoril","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alfragide","Alcabideche","Alcabideche","Avenidas Novas","Alcabideche","Areeiro","Alcabideche","Alcabideche","Alcabideche","Águas Livres","Porto Salvo","Barcarena","São Domingos de Rana","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","São Domingos de Benfica","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Benfica","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Alcabideche","Venteira","Marvila","Alvalade","União das freguesias de Massamá e Monte Abraão","Falagueira-Venda Nova","Alcabideche","Carnide","União das freguesias do Cacém e São Marcos","Encosta do Sol","Lumiar","Olivais","União das freguesias de Moscavide e Portela","União das freguesias de Agualva e Mira-Sintra","Santa Clara","Parque das Nações","Mina de Água","Rio de Mouro","Odivelas","União das freguesias de Sacavém e Prior Velho","União das freguesias de Póvoa de Santo Adrião e Olival Basto","União das freguesias de Pontinha e Famões","Casal de Cambra","União das freguesias de Queluz e Belas","Algueirão-Mem Martins","União das freguesias de Ramada e Caneças","União das freguesias de Santo António dos Cavaleiros e Frielas","União das freguesias de Camarate, Unhos e Apelação","União das freguesias de Sintra (Santa Maria e São Miguel, São Martinho e São Pedro de Penaferrim)","Colares","União das freguesias de Santa Iria de Azoia, São João da Talha e Bobadela","Loures","União das freguesias de Póvoa de Santa Iria e Forte da Casa","União das freguesias de Santo Antão e São Julião do Tojal","União das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar","Vialonga","Fanhões","Lousa","União das freguesias de São João das Lampas e Terrugem","União das freguesias de Alverca do Ribatejo e Sobralinho","Bucelas","União das freguesias de Igreja Nova e Cheleiros","União das freguesias de Malveira e São Miguel de Alcainça","União das freguesias de Venda do Pinheiro e Santo Estêvão das Galés","Milharado","Carvoeira","Milharado","União das freguesias de Alhandra, São João dos Montes e Calhandriz","Cardosas","S. Tiago dos Velhos","Ericeira","Sapataria","Arranhó","Mafra","União das freguesias de Castanheira do Ribatejo e Cachoeiras","União das freguesias de Enxara do Bispo, Gradil e Vila Franca do Rosário","Santo Isidoro","Arruda dos Vinhos","Vila Franca de Xira","União das freguesias de Azueira e Sobral da Abelheira","Sobral de Monte Agraço","Santo Quintino","União das freguesias de Carregado e Cadafais","Freiria","Carnota","Encarnação","Turcifal","Ota","Vila Verde dos Francos","União das freguesias de Abrigada e Cabanas de Torres","Ramalhal","União das freguesias de A dos Cunhados e Maceira","Vilar","Vimeiro","União das freguesias de Campelos e Outeiro da Cabeça","Santa Bárbara","Ribamar","União das freguesias de Manique do Intendente, Vila Nova de São Pedro e Maçussa","União das freguesias de Miragaia e Marteleira","Alcoentre","União das freguesias de Lamas e Cercal","União das freguesias do Cadaval e Pêro Moniz","Moita dos Ferreiros","Peral","União das freguesias de Lourinhã e Atalaia","Vermelha","Alguber","Reguengo Grande","União das freguesias de Painho e Figueiros","União das freguesias de São Bartolomeu dos Galegos e Moledo"]
+
+        '404':
+          description: Distrito não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
+  
+  /distritos/{distrito}/freguesias:
+    get:
+      operationId: getParishesOfDistrict2
+      summary: Lista de Freguesias do Distrito (descontinuado, usar antes /distrito/{distrito}/freguesias)
+      deprecated: true
+      parameters:
+        - in: path
+          name: distrito
+          required: true
+          schema:
+            type: string
+            example: lisboa
+          allowReserved: true
+          description: Distrito
+        - $ref: '#/components/parameters/json'
+      responses:
+        $ref: '#/paths/~1distrito~1%7Bdistrito%7D~1freguesias/get/responses'
                 
   /cp/{cp}:
     get:
