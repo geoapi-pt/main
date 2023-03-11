@@ -17,6 +17,8 @@ const debugGeojson = require('debug')('geoapipt:geojson') // run: DEBUG=geoapipt
 
 const resDir = path.join(appRoot.path, 'res')
 
+const { uniteParishes, removeDuplicatesArr } = require(path.join(appRoot.path, 'routines', 'generateGeojson', 'functions'))
+
 // this Object will be filled and exported to other modules
 // it has geojson data about parishes (freguesias)
 const regions = {
@@ -61,7 +63,7 @@ let bar
 
 module.exports = function (callback) {
   bar = new ProgressBar(
-    'Preparing 1/2 :percent', { total: 5 * Object.keys(regions).length }
+    'Preparing 1/2 :percent', { total: 7 * Object.keys(regions).length }
   )
   async.series(
     [
@@ -69,7 +71,9 @@ module.exports = function (callback) {
       readShapefile, // fill in the geoson fields in the regions Object
       postProcessRegions, // post process data in the geoson fields in the regions Object
       readProjectionFile, // fill in the projection fields in the regions Object
-      convertToWgs84 // convert to GPS coordinates
+      convertToWgs84, // convert to GPS coordinates
+      mergeParishesParts, // merge parish parts; some parishes are split in separate geo objects, f.ex. due to islands
+      sortParishes // sort alphabetically by name of parish
     ],
     function (err) {
       if (err) {
@@ -221,6 +225,43 @@ function convertToWgs84 (callback) {
 
     regions[key].geojson = geojsonWgs84
     delete regions[key].projection // not needed anymore, CRS conversion done
+    bar.tick()
+  }
+  callback()
+}
+
+// some parishes are spread amongst different objects, for example due to islands, like Sagres
+function mergeParishesParts (callback) {
+  for (const key in regions) {
+    // find parishes with more than one entry
+    let parishes = regions[key].geojson.features
+    const parishesCodes = parishes.map(el => el.properties.DICOFRE || el.properties.Dicofre)
+    const codesOfDuplicatedParishes = removeDuplicatesArr(parishesCodes.filter((item, index) => parishesCodes.indexOf(item) !== index))
+
+    codesOfDuplicatedParishes.forEach(code => {
+      const spreadParish = parishes.filter(el => code === (el.properties.DICOFRE || el.properties.Dicofre))
+      const compactedParish = uniteParishes(spreadParish);
+
+      // copy some keys
+      ['Dicofre', 'Freguesia', 'Concelho', 'Distrito', 'Des_Simpli'].forEach(key => {
+        compactedParish.properties[key] = spreadParish[0].properties[key]
+      })
+      delete compactedParish.TAA
+
+      parishes = parishes.filter(el => code !== (el.properties.DICOFRE || el.properties.Dicofre))
+      parishes.push(compactedParish)
+    })
+
+    regions[key].geojson.features = parishes
+    bar.tick()
+  }
+
+  callback()
+}
+
+function sortParishes (callback) {
+  for (const key in regions) {
+    regions[key].geojson.features.sort((a, b) => a.properties.Freguesia.localeCompare(b.properties.Freguesia))
     bar.tick()
   }
   callback()
