@@ -3,7 +3,6 @@
 
 const fs = require('fs')
 const path = require('path')
-const turf = require('@turf/turf')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 
@@ -11,6 +10,8 @@ const getGeojsonRegions = require(path.join(appRoot.path, 'src', 'server', 'serv
 
 const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'municipalities')
 const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
+
+const { uniteParishes, cloneObj } = require(path.join(__dirname, 'functions'))
 
 let regions
 
@@ -61,11 +62,7 @@ function generategeojsonDistricts () {
   // now merge parishes geojson for each district and compute bbox and centers
   for (const key in geojsonDistricts) {
     if (geojsonDistricts[key].freguesias.length >= 2) {
-      geojsonDistricts[key].distrito =
-        geojsonDistricts[key].freguesias.reduce(
-          (accumulator, currentValue) => turf.union(accumulator, currentValue),
-          geojsonDistricts[key].freguesias[0]
-        )
+      geojsonDistricts[key].distrito = uniteParishes(geojsonDistricts[key].freguesias)
     } else if (geojsonDistricts[key].freguesias.length === 1) {
       geojsonDistricts[key].distrito = cloneObj(geojsonDistricts[key].freguesias[0])
     } else {
@@ -73,16 +70,7 @@ function generategeojsonDistricts () {
       throw Error('wrong length')
     }
 
-    geojsonDistricts[key].distrito.properties = { Dicofre: key }
-    geojsonDistricts[key].distrito.bbox = turf.bbox(geojsonDistricts[key].distrito)
-
-    const centros = {}
-    centros.centro = turf.center(geojsonDistricts[key].distrito).geometry.coordinates
-    centros.centroide = turf.centroid(geojsonDistricts[key].distrito).geometry.coordinates
-    centros.centroDeMassa = turf.centerOfMass(geojsonDistricts[key].distrito).geometry.coordinates
-    centros.centroMedio = turf.centerMean(geojsonDistricts[key].distrito).geometry.coordinates
-    centros.centroMediano = turf.centerMedian(geojsonDistricts[key].distrito).geometry.coordinates
-    geojsonDistricts[key].distrito.properties.centros = centros
+    geojsonDistricts[key].distrito.properties.Dicofre = key
 
     // adds municipalities geosjons corresponding to this district
     geojsonDistricts[key].municipios = []
@@ -107,8 +95,4 @@ function saveFiles () {
       JSON.stringify(geojsonDistricts[key])
     )
   }
-}
-
-function cloneObj (obj) {
-  return Object.assign({}, obj)
 }

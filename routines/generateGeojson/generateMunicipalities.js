@@ -3,13 +3,14 @@
 
 const fs = require('fs')
 const path = require('path')
-const turf = require('@turf/turf')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 
 const getGeojsonRegions = require(path.join(appRoot.path, 'src', 'server', 'services', 'getGeojsonRegions.js'))
 
 const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'municipalities')
+
+const { uniteParishes, cloneObj } = require(path.join(__dirname, 'functions'))
 
 let regions
 
@@ -60,11 +61,7 @@ function generateGeojsonMunicipalities () {
   // now merge parishes geojson for each municipality and compute bbox and centers
   for (const key in geojsonMunicipalities) {
     if (geojsonMunicipalities[key].freguesias.length >= 2) {
-      geojsonMunicipalities[key].municipio =
-        geojsonMunicipalities[key].freguesias.reduce(
-          (accumulator, currentValue) => turf.union(accumulator, currentValue),
-          geojsonMunicipalities[key].freguesias[0]
-        )
+      geojsonMunicipalities[key].municipio = uniteParishes(geojsonMunicipalities[key].freguesias)
     } else if (geojsonMunicipalities[key].freguesias.length === 1) {
       geojsonMunicipalities[key].municipio = cloneObj(geojsonMunicipalities[key].freguesias[0])
     } else {
@@ -72,21 +69,12 @@ function generateGeojsonMunicipalities () {
       throw Error('wrong length')
     }
 
-    geojsonMunicipalities[key].municipio.properties = { Dicofre: key }
-    geojsonMunicipalities[key].municipio.bbox = turf.bbox(geojsonMunicipalities[key].municipio)
+    geojsonMunicipalities[key].municipio.properties.Dicofre = key
 
     geojsonMunicipalities[key].municipio.properties.Concelho =
       geojsonMunicipalities[key].freguesias[0].properties.Concelho
     geojsonMunicipalities[key].municipio.properties.Distrito =
       geojsonMunicipalities[key].freguesias[0].properties.Distrito
-
-    const centros = {}
-    centros.centro = turf.center(geojsonMunicipalities[key].municipio).geometry.coordinates
-    centros.centroide = turf.centroid(geojsonMunicipalities[key].municipio).geometry.coordinates
-    centros.centroDeMassa = turf.centerOfMass(geojsonMunicipalities[key].municipio).geometry.coordinates
-    centros.centroMedio = turf.centerMean(geojsonMunicipalities[key].municipio).geometry.coordinates
-    centros.centroMediano = turf.centerMedian(geojsonMunicipalities[key].municipio).geometry.coordinates
-    geojsonMunicipalities[key].municipio.properties.centros = centros
 
     bar.tick()
   }
@@ -99,8 +87,4 @@ function saveFiles () {
       JSON.stringify(geojsonMunicipalities[key])
     )
   }
-}
-
-function cloneObj (obj) {
-  return Object.assign({}, obj)
 }
