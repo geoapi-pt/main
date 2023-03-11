@@ -5,14 +5,12 @@ module.exports = { uniteParishes, cloneObj, removeDuplicatesArr }
 // funciton to merge array of parishes polygons into a single polygon
 // used to compute municipalities, districts or to merge spread parishes (ex: with several islands)
 function uniteParishes (arr) {
-  const res = arr.reduce((accumulator, currentValue) => {
-    const res = turf.union(accumulator, currentValue)
-    res.properties.Area_T_ha = accumulator.properties.Area_T_ha + currentValue.properties.Area_T_ha
-    res.properties.Area_T_ha = accumulator.properties.Area_EA_ha + currentValue.properties.Area_EA_ha
-    return res
-  }, arr[0])
+  const res = arr.reduce((accumulator, currentValue) => turf.union(accumulator, currentValue), arr[0])
 
-  res.properties = {}
+  res.properties = {
+    Area_T_ha: parseFloat((turf.area(res) / 10000).toFixed(1)),
+    Area_EA_ha: parseFloat((turf.area(res) / 10000).toFixed(1))
+  }
 
   const centros = {
     centro: turf.center(res).geometry.coordinates,
