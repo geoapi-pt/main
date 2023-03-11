@@ -5,6 +5,7 @@ const municipalityParishesData = JSON.parse(decodeURIComponent(municipalityParis
 window.municipalityParishesData = municipalityParishesData
 
 const geojsons = municipalityParishesData.geojsons
+console.log('geojsons:', geojsons)
 
 const parishesGeoJsonFeatureCollection = {
   type: 'FeatureCollection',

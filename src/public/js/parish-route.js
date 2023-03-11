@@ -5,6 +5,8 @@
   const parishData = JSON.parse(decodeURIComponent(parishDataDomEl.dataset.parishroute))
   window.parishData = parishData
 
+  console.log('geojsons:', parishData.geojson)
+
   const centros = parishData.geojson.properties.centros
   const centro = centros.centro
 
