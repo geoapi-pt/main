@@ -61,8 +61,7 @@ info.update = function (properties) {
   let contents
   if (properties) {
     const mapWidth = document.getElementById('map').offsetWidth
-    contents = `<b>${properties.Distrito}</b><br/>` +
-      `${properties.Area_T_ha} hectares<br/>`
+    contents = `<b>${properties.Distrito}</b> (${properties.Area_T_ha} hectares)<br/>`
     if (mapWidth > showInfoWidthThreshold) {
       contents += '<br/><b>Censos 2021:</b><br/>' +
         `<div class="table-responsive"><table style="max-width:${(0.4 * mapWidth).toFixed(0)}px" class="table table-sm"><tbody>`
@@ -74,9 +73,9 @@ info.update = function (properties) {
       contents += '</tbody></table></div>'
     }
   } else {
-    contents = 'Mova o rato sobre um distrito ou faça-lhe (duplo)clique'
+    contents = '<h4>Distritos</h4>Mova o rato sobre um distrito ou faça-lhe (duplo)clique'
   }
-  this._div.innerHTML = `<h4>Distritos</h4>${contents}`
+  this._div.innerHTML = `${contents}`
 }
 
 info.addTo(map)
