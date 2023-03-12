@@ -47,7 +47,7 @@ function routeFn (req, res, next, { administrations }) {
         }
 
         dataToShowOnHtml.municipios = result.municipios
-          .map(el => `<a href="/municipio/${encodeName(el)}">${el}</a>`)
+          .map(el => `<a href="/municipio/${encodeName(el.nome)}">${el.nome}</a>`)
 
         res.status(200).sendData({
           data: result,

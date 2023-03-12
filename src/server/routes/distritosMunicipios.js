@@ -19,7 +19,10 @@ function routeFn (req, res, next, { administrations }) {
   } else {
     let resultHtml = JSON.parse(JSON.stringify(result)) // deep clone
 
-    resultHtml = resultHtml.map(el => Object({ distrito: el.distrito, municipios: el.municipios }))
+    resultHtml = resultHtml.map(el => Object({
+      distrito: el.distrito,
+      municipios: el.municipios.map(el => el.nome)
+    }))
 
     resultHtml.forEach(distrito => {
       distrito.municipios = distrito.municipios
