@@ -93,7 +93,7 @@ function zoomToFeature (e) {
 function forwardToPage (e) {
   const municipality = e.target.feature.properties.Concelho
   if (municipality) {
-    window.location.href = `/municipio/${encodeURIComponent(municipality.toLowerCase())}`
+    window.location.href = `/municipio/${encodeURIComponent(municipality.toLowerCase())}/freguesias`
   }
 }
 
