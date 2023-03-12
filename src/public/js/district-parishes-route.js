@@ -44,7 +44,7 @@ info.onAdd = function (map) {
 }
 
 info.update = function (props) {
-  const contents = props ? `<b>${props.Freguesia}</b><br />${props.Area_T_ha} hectares` : 'Mova o rato sobre uma freguesia'
+  const contents = props ? `<b>${props.Freguesia}</b><br />${props.Area_T_ha} hectares` : 'Mova o rato sobre uma freguesia ou faça-lhe (duplo)clique'
   this._div.innerHTML = `<h4>Freguesias</h4>${contents}`
 }
 
