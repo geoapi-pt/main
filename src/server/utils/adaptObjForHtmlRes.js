@@ -6,12 +6,12 @@ const path = require('path')
 
 const { correctCase, isValidPostalCode } = require(path.join(__dirname, 'commonFunctions.js'))
 
-module.exports = (obj) => {
-  // Rename keys for a more user friendly html/text result
-  // Mapping from JSON result to HTML view result
-  // This mapping also sets the order
-  const keysMapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'keysMaping.json')))
+// Rename keys for a more user friendly html/text result
+// Mapping from JSON result to HTML view result
+// This mapping also sets the order
+const keysMapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'keysMaping.json')))
 
+module.exports = (obj) => {
   loopThroughObjRecurs(obj, (_obj) => {
     keysMapping.forEach(mapEl => renameObjKey(_obj, mapEl[0], mapEl[1]))
   });
