@@ -33,7 +33,7 @@
             })
 
             Array.from(document.getElementById('docsTLDRtable').getElementsByTagName('a')).forEach(el => {
-              el.href = '{{{defaultOrigin}}}' + (new URL(el.href)).pathname
+              el.href = '{{{jsonApiOrigin}}}' + (new URL(el.href)).pathname
             })
           }
           window.onload = init
@@ -41,6 +41,10 @@
     </head>
     <body>
       {{> bodyHeader}}
+      <br>
+      <center>
+        <h2>Documentação JSON API</h2>
+      </center>
       {{> docsTLDR}}
       <hr/>
       \{{{redocHTML}}}
