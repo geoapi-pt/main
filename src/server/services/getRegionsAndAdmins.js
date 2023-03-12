@@ -5,6 +5,7 @@
 const fs = require('fs')
 const path = require('path')
 const async = require('async')
+const turf = require('@turf/turf')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
@@ -34,7 +35,8 @@ const administrations = {
   listOfMunicipalitiesNames: [], // an array with just names/strings of municipios
   listOfMunicipalitiesWithParishes: [], // array of objects, each object corresponding to a municipality and an array of its parishes
   listOfDistricts: [], // array of objects, list de distritos
-  districtsDetails: [] // array of objects, lista de distritos contendo os municípios
+  districtsDetails: [], // array of objects, lista de distritos contendo os municípios
+  mainBbox: {} // main bounding boxes for the whole map
 }
 
 let regions // Object with geojson data for each parish, divided in 5 main regions
@@ -47,7 +49,8 @@ module.exports = function (callback) {
       buildAdministrationsObject,
       buildsAdministrationsDistrictsArrays,
       addCensusData,
-      postProcessAdministrations
+      postProcessAdministrations,
+      computeMainBbox
     ],
     function (err) {
       if (err) {
@@ -386,6 +389,21 @@ function addCensusData (callback) {
     }
   })
 
+  callback()
+}
+
+// compute main boundig box for the whole map, continent and all islands
+function computeMainBbox (callback) {
+  const regionKeys = Object.keys(regions)
+  administrations.mainBbox = regionKeys.reduce(
+    (acc, curr) => {
+      const bbox1 = turf.bboxPolygon(acc)
+      const bbox2 = turf.bboxPolygon(regions[curr].geojson.bbox)
+      const union = turf.union(bbox1, bbox2)
+      return turf.bbox(union)
+    },
+    regions[regionKeys[0]].geojson.bbox
+  )
   callback()
 }
 
