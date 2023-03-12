@@ -3,7 +3,7 @@
 }
 
 #map { 
-	height: 500px;
+	height: 800px;
 	border-radius: 10px;
 }
 
@@ -16,5 +16,8 @@
 @media (max-width:480px) {
 	.map-div {
 		padding: 15px 2%;
+	}
+	#map {
+		height: 500px;
 	}
 }
