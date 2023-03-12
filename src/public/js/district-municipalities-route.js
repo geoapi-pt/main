@@ -44,7 +44,7 @@ info.onAdd = function (map) {
 }
 
 info.update = function (props) {
-  const contents = props ? `<b>${props.Concelho}</b>` : 'Mova o rato sobre um município'
+  const contents = props ? `<b>${props.Concelho}</b>` : 'Mova o rato sobre um município ou faça-lhe (duplo)clique'
   this._div.innerHTML = `<h4>Municípios</h4>${contents}`
 }
 
