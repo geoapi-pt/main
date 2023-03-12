@@ -295,7 +295,7 @@ function buildsAdministrationsDistrictsArrays (callback) {
   // builds administrations.listOfDistricts
   for (const municipality of administrations.municipalitiesDetails) {
     if (municipality.distrito) {
-      administrations.listOfDistricts.push(municipality.distrito)
+      administrations.listOfDistricts.push(correctCase(municipality.distrito))
     }
   }
   administrations.listOfDistricts = [...new Set(administrations.listOfDistricts)]
@@ -308,8 +308,12 @@ function buildsAdministrationsDistrictsArrays (callback) {
   for (const municipality of administrations.municipalitiesDetails) {
     if (municipality.nome && municipality.distrito) {
       const district = administrations.districtsDetails
-        .find(el => el.distrito === municipality.distrito)
-      district.municipios.push(municipality.nome)
+        .find(el => correctCase(el.distrito) === correctCase(municipality.distrito))
+
+      district.municipios.push({
+        nome: municipality.nome,
+        codigoine: municipality.codigoine.padStart(4, '0')
+      })
 
       const districtCodigoine = municipality.codigoine.padStart(4, '0').slice(0, 2)
       if (!district.codigoine) {
@@ -324,10 +328,12 @@ function buildsAdministrationsDistrictsArrays (callback) {
 
   for (const district of administrations.districtsDetails) {
     district.municipios = [...new Set(district.municipios)]
-    district.municipios.sort()
+    district.municipios.sort((a, b) => a.nome.localeCompare(b.nome))
+    district.municipios.forEach(el => {
+      el.nome = correctCase(el.nome)
+    })
 
     district.distrito = correctCase(district.distrito)
-    district.municipios = district.municipios.map(el => correctCase(el))
 
     if (district.codigoine.length === 1) {
       district.codigoine = district.codigoine[0]
