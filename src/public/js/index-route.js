@@ -3,8 +3,11 @@
 const indexDataDomEl = document.getElementById('index-route-data')
 const indexData = JSON.parse(decodeURIComponent(indexDataDomEl.dataset.indexroute))
 window.indexData = indexData
-
 console.log('indexData:', indexData)
+
+// when the map width is below this value, does not show info labels
+const showInfoWidthThreshold = 500
+const mapWidth = document.getElementById('map').offsetWidth
 
 const districtsGeoJsonFeatureCollection = {
   type: 'FeatureCollection',
@@ -33,7 +36,10 @@ const bbox = indexData.bbox
 console.log('bbox', bbox)
 // slighlty shift the map to the left, for info label to be shown
 const corner1 = L.latLng(bbox[1], bbox[0])
-const corner2 = L.latLng(bbox[3], bbox[2] - 0.8 * (bbox[0] - bbox[2]))
+const corner2 = L.latLng(
+  bbox[3],
+  mapWidth < showInfoWidthThreshold ? bbox[2] : bbox[2] - 0.8 * (bbox[0] - bbox[2])
+)
 const bounds = L.latLngBounds(corner1, corner2)
 map.fitBounds(bounds)
 
@@ -56,15 +62,17 @@ info.update = function (properties) {
   if (properties) {
     const mapWidth = document.getElementById('map').offsetWidth
     contents = `<b>${properties.Distrito}</b><br/>` +
-      `${properties.Area_T_ha} hectares<br/><br/>` +
-      '<b>Censos 2021:</b><br/>' +
-      `<div class="table-responsive"><table style="max-width:${(0.4 * mapWidth).toFixed(0)}px" class="table table-sm"><tbody>`
-    for (const key in properties.censos2021) {
-      contents +=
-        `<tr><th scope="row">${key}</th>` +
-        `<td>${properties.censos2021[key]}</td></tr>`
+      `${properties.Area_T_ha} hectares<br/>`
+    if (mapWidth > showInfoWidthThreshold) {
+      contents += '<br/><b>Censos 2021:</b><br/>' +
+        `<div class="table-responsive"><table style="max-width:${(0.4 * mapWidth).toFixed(0)}px" class="table table-sm"><tbody>`
+      for (const key in properties.censos2021) {
+        contents +=
+          `<tr><th scope="row">${key}</th>` +
+          `<td>${properties.censos2021[key]}</td></tr>`
+      }
+      contents += '</tbody></table></div>'
     }
-    contents += '</tbody></table></div>'
   } else {
     contents = 'Mova o rato sobre um distrito ou faça-lhe (duplo)clique'
   }
