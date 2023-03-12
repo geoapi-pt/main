@@ -1,0 +1,123 @@
+<div class="limiter main-padding">
+   <div class="table-responsive">
+      <table id="docsTLDRtable" class="table table-hover">
+         <thead>
+            <tr class="table-info2">
+               <th scope="col">Caminho</th>
+               <th scope="col">Propósito</th>
+               <th scope="col">Exemplo</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="table-info2">
+               <th scope="row" colspan="3">Geocodificação reversa</th>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}</th>
+               <td>Distrito, município, freguesia, sub(secção) estatística, artéria, uso do solo, altitude e código postal, através de coordenadas GPS</td>
+               <td><a href="/gps/38.748406,-9.102984">/gps/38.748406,-9.102984</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}/detalhes</th>
+               <td>O mesmo que o anterior, mas com detalhes adicionais sobre município, freguesia, sub(secção) estatística e uso do solo</td>
+               <td><a href="/gps/38.748406,-9.102984/detalhes">/gps/38.748406,-9.102984/detalhes</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}/base</th>
+               <td>Apenas distrito, município e freguesia (pedido muito mais rápido)</td>
+               <td><a href="/gps/38.748406,-9.102984/base">/gps/38.748406,-9.102984/base</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/gps/{latitude},{longitude}/base/detalhes</th>
+               <td>Apenas distrito, município e freguesia (pedido muito mais rápido) com detalhes sobre município e freguesia</td>
+               <td><a href="/gps/38.748406,-9.102984/base/detalhes">/gps/38.748406,-9.102984/base/detalhes</a></td>
+            </tr>
+            <tr class="table-info2">
+               <th scope="row" colspan="3">Divisões administrativas</th>
+            </tr>
+            <tr>
+               <th scope="row">/municipios</th>
+               <td>Lista de todos os Municípios</td>
+               <td><a href="/municipios">/municipios</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/municipio/{município}</th>
+               <td>Detalhes sobre Município</td>
+               <td><a href="/municipio/évora">/municipio/évora</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/municipio/{município}/freguesias</th>
+               <td>Lista de Freguesias no Município</td>
+               <td><a href="/municipio/porto/freguesias">/municipio/porto/freguesias</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/municipios/freguesias</th>
+               <td>Lista de todos os Municípios com respectivas freguesias</td>
+               <td><a href="/municipios/freguesias">/municipios/freguesias</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/freguesias</th>
+               <td>Lista de todas as Freguesias</td>
+               <td><a href="/freguesias">/freguesias</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/freguesia/{freguesia}</th>
+               <td>Detalhes sobre Freguesia</td>
+               <td><a href="/freguesia/serzedelo">/freguesia/serzedelo</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/municipio/{município}/freguesia/{freguesia}</th>
+               <td>Detalhes sobre Freguesia de um Município</td>
+               <td><a href="/municipio/guimarães/freguesia/serzedelo">/municipio/guimarães/freguesia/serzedelo</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distritos</th>
+               <td>Lista de todos os Distritos</td>
+               <td><a href="/distritos">/distritos</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distrito/{distrito}</th>
+               <td>Detalhes sobre o Distrito</td>
+               <td><a href="/distrito/faro">/distrito/faro</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distritos/municipios</th>
+               <td>Lista de todos os Distritos com respetivos Municípios</td>
+               <td><a href="/distritos/municipios">/distritos/municipios</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distrito/{distrito}/municipios</th>
+               <td>Lista de Municípios do Distrito</td>
+               <td><a href="/distrito/lisboa/municipios">/distrito/lisboa/municipios</a></td>
+            </tr>
+            <tr>
+               <th scope="row">/distrito/{distrito}/freguesias</th>
+               <td>Lista de Freguesias do Distrito</td>
+               <td><a href="/distrito/braga/freguesias">/distrito/braga/freguesias</a></td>
+            </tr>
+            <tr class="table-info2">
+               <th scope="row" colspan="3">Códigos Postais</th>
+            </tr>
+            <tr>
+               <th scope="row">/cp/{CP4-CP3}</th>
+               <td>Detalhes sobre Código Postal CP4-CP3</td>
+               <td><a href="/cp/2495-300">/cp/2495-300</a></td>
+            </tr>
+            <tr>
+            <th scope="row">/cp/{CP4}</th>
+               <td>Detalhes sobre Código Postal CP4</td>
+               <td><a href="/cp/2495">/cp/2495</a></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+</div>
+
+<div class="limiter footer-padding">
+   <p>Para quaisquer resultados em <b>JSON</b> pode usar <b>uma</b> das seguintes opções:</p> 
+   <ul>
+      <li>- adicionar a variável <code>json=1</code> ao pedido GET, ex: <a href="/cp/2495-300?json=1">/cp/2495-300?json=1</a>;</li>
+      <li>- colocar <code>Accept: application/json</code> no cabeçalho HTTP do pedido; ou</li>
+      <li>- aceder a <code>json.geoapi.pt</code>, ex: <a href="//json.geoapi.pt/cp/2495-300">json.geoapi.pt/cp/2495-300</a></li>
+   </ul>
+</div>
