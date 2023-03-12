@@ -1,0 +1,20 @@
+.map-div {
+	padding: 20px 10%;
+}
+
+#map { 
+	height: 500px;
+	border-radius: 10px;
+}
+
+#map .info.leaflet-control {
+  background: rgba(255, 255, 255, .7);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+@media (max-width:480px) {
+	.map-div {
+		padding: 15px 2%;
+	}
+}
