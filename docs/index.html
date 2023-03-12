@@ -22,6 +22,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="https://geoapi.pt/css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <script src="https://cdn.redoc.ly/redoc/v2.0.0/bundles/redoc.standalone.js"></script><style data-styled="true" data-styled-version="5.3.3">.fcjMZs{width:calc(100% - 40%);padding:0 40px;}/*!sc*/
 @media print,screen and (max-width:75rem){.fcjMZs{width:100%;padding:40px 40px;}}/*!sc*/
@@ -373,6 +374,10 @@ data-styled.g138[id="sc-iIUQWv"]{content:"liFvtQ,"}/*!sc*/
             document.querySelectorAll('button').forEach(btn => {
               if(btn.innerHTML.includes('Collapse all')) btn.click()
             })
+
+            Array.from(document.getElementById('docsTLDRtable').getElementsByTagName('a')).forEach(el => {
+              el.href = 'https://geoapi.pt' + (new URL(el.href)).pathname
+            })
           }
           window.onload = init
         </script>
@@ -395,7 +400,129 @@ data-styled.g138[id="sc-iIUQWv"]{content:"liFvtQ,"}/*!sc*/
             <img src="https://img.shields.io/endpoint?url=https://geoapi.pt/shieldsio/requestslasthour" alt="Requests on last hour">
             <img src="https://img.shields.io/endpoint?url=https://geoapi.pt/shieldsio/requestslastday" alt="Requests on last day">
          </header>
+      </div>      <div class="limiter main-padding">
+         <div class="table-responsive">
+            <table id="docsTLDRtable" class="table table-hover">
+               <thead>
+                  <tr class="table-info2">
+                     <th scope="col">Caminho</th>
+                     <th scope="col">Propósito</th>
+                     <th scope="col">Exemplo</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="table-info2">
+                     <th scope="row" colspan="3">Geocodificação reversa</th>
+                  </tr>
+                  <tr>
+                     <th scope="row">/gps/{latitude},{longitude}</th>
+                     <td>Distrito, município, freguesia, sub(secção) estatística, artéria, uso do solo, altitude e código postal, através de coordenadas GPS</td>
+                     <td><a href="/gps/38.748406,-9.102984">/gps/38.748406,-9.102984</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/gps/{latitude},{longitude}/detalhes</th>
+                     <td>O mesmo que o anterior, mas com detalhes adicionais sobre município, freguesia, sub(secção) estatística e uso do solo</td>
+                     <td><a href="/gps/38.748406,-9.102984/detalhes">/gps/38.748406,-9.102984/detalhes</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/gps/{latitude},{longitude}/base</th>
+                     <td>Apenas distrito, município e freguesia (pedido muito mais rápido)</td>
+                     <td><a href="/gps/38.748406,-9.102984/base">/gps/38.748406,-9.102984/base</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/gps/{latitude},{longitude}/base/detalhes</th>
+                     <td>Apenas distrito, município e freguesia (pedido muito mais rápido) com detalhes sobre município e freguesia</td>
+                     <td><a href="/gps/38.748406,-9.102984/base/detalhes">/gps/38.748406,-9.102984/base/detalhes</a></td>
+                  </tr>
+                  <tr class="table-info2">
+                     <th scope="row" colspan="3">Divisões administrativas</th>
+                  </tr>
+                  <tr>
+                     <th scope="row">/municipios</th>
+                     <td>Lista de todos os Municípios</td>
+                     <td><a href="/municipios">/municipios</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/municipio/{município}</th>
+                     <td>Detalhes sobre Município</td>
+                     <td><a href="/municipio/évora">/municipio/évora</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/municipio/{município}/freguesias</th>
+                     <td>Lista de Freguesias no Município</td>
+                     <td><a href="/municipio/porto/freguesias">/municipio/porto/freguesias</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/municipios/freguesias</th>
+                     <td>Lista de todos os Municípios com respectivas freguesias</td>
+                     <td><a href="/municipios/freguesias">/municipios/freguesias</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/freguesias</th>
+                     <td>Lista de todas as Freguesias</td>
+                     <td><a href="/freguesias">/freguesias</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/freguesia/{freguesia}</th>
+                     <td>Detalhes sobre Freguesia</td>
+                     <td><a href="/freguesia/serzedelo">/freguesia/serzedelo</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/municipio/{município}/freguesia/{freguesia}</th>
+                     <td>Detalhes sobre Freguesia de um Município</td>
+                     <td><a href="/municipio/guimarães/freguesia/serzedelo">/municipio/guimarães/freguesia/serzedelo</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/distritos</th>
+                     <td>Lista de todos os Distritos</td>
+                     <td><a href="/distritos">/distritos</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/distrito/{distrito}</th>
+                     <td>Detalhes sobre o Distrito</td>
+                     <td><a href="/distrito/faro">/distrito/faro</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/distritos/municipios</th>
+                     <td>Lista de todos os Distritos com respetivos Municípios</td>
+                     <td><a href="/distritos/municipios">/distritos/municipios</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/distrito/{distrito}/municipios</th>
+                     <td>Lista de Municípios do Distrito</td>
+                     <td><a href="/distrito/lisboa/municipios">/distrito/lisboa/municipios</a></td>
+                  </tr>
+                  <tr>
+                     <th scope="row">/distrito/{distrito}/freguesias</th>
+                     <td>Lista de Freguesias do Distrito</td>
+                     <td><a href="/distrito/braga/freguesias">/distrito/braga/freguesias</a></td>
+                  </tr>
+                  <tr class="table-info2">
+                     <th scope="row" colspan="3">Códigos Postais</th>
+                  </tr>
+                  <tr>
+                     <th scope="row">/cp/{CP4-CP3}</th>
+                     <td>Detalhes sobre Código Postal CP4-CP3</td>
+                     <td><a href="/cp/2495-300">/cp/2495-300</a></td>
+                  </tr>
+                  <tr>
+                  <th scope="row">/cp/{CP4}</th>
+                     <td>Detalhes sobre Código Postal CP4</td>
+                     <td><a href="/cp/2495">/cp/2495</a></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
+      
+      <div class="limiter footer-padding">
+         <p>Para quaisquer resultados em <b>JSON</b> pode usar <b>uma</b> das seguintes opções:</p> 
+         <ul>
+            <li>- adicionar a variável <code>json=1</code> ao pedido GET, ex: <a href="/cp/2495-300?json=1">/cp/2495-300?json=1</a>;</li>
+            <li>- colocar <code>Accept: application/json</code> no cabeçalho HTTP do pedido; ou</li>
+            <li>- aceder a <code>json.geoapi.pt</code>, ex: <a href="//json.geoapi.pt/cp/2495-300">json.geoapi.pt/cp/2495-300</a></li>
+         </ul>
+      </div>      <hr/>
       
       <div id="redoc"><div class="sc-dwsnSq cjkacg redoc-wrap"><div class="sc-eWfVMQ iFeLMl menu-content" style="top:0px;height:calc(100vh - 0px)"><div role="search" class="sc-kiIyQV qyDlP"><svg class="sc-iIUQWv liFvtQ search-icon" version="1.1" viewBox="0 0 1000 1000" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><path d="M968.2,849.4L667.3,549c83.9-136.5,66.7-317.4-51.7-435.6C477.1-25,252.5-25,113.9,113.4c-138.5,138.3-138.5,362.6,0,501C219.2,730.1,413.2,743,547.6,666.5l301.9,301.4c43.6,43.6,76.9,14.9,104.2-12.4C981,928.3,1011.8,893,968.2,849.4z M524.5,522c-88.9,88.7-233,88.7-321.8,0c-88.9-88.7-88.9-232.6,0-321.3c88.9-88.7,233-88.7,321.8,0C613.4,289.4,613.4,433.3,524.5,522z"></path></svg><input type="text" value="" placeholder="Search..." aria-label="Search" class="sc-cLpAjG KrPzq search-input"/></div><div class="sc-ikJyIC eqZXtE scrollbar-container undefined"><ul class="sc-uojGG cBjpjq" role="menu"><li data-item-id="operation/getAdminsByGpsAndQuery" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Distrito, Município e Freguesia através de coordenadas GPS nos parâmetros da query</span></label></li><li data-item-id="operation/getAdminsByGps" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal através de coordenadas GPS</span></label></li><li data-item-id="operation/getAdminsByGpsWithDetails" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes</span></label></li><li data-item-id="operation/getBaseAdminsByGps" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Distrito, Município e Freguesia através de coordenadas GPS</span></label></li><li data-item-id="operation/getBaseAdminsByGpsWithDetails" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Distrito, Município e Freguesia através de coordenadas GPS, com detalhes sobre respectivos Município e Freguesia</span></label></li><li data-item-id="operation/getAllMunicipalities" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Município (obtido via parâmetros da query) ou Lista de todos os Municípios (sem parâmetros na query)</span></label></li><li data-item-id="operation/getAllMunicipalitiesWithParishes" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de todos os Municípios com respetivas freguesias</span></label></li><li data-item-id="operation/getMunicipality" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Município</span></label></li><li data-item-id="operation/getMunicipality2" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Município (descontinuado, usar antes /municipio/{municipio})</span></label></li><li data-item-id="operation/getParishesOfMunicipality" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de Freguesias no Município</span></label></li><li data-item-id="operation/getParishesOfMunicipality2" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de Freguesias no Município (descontinuado, usar antes /municipio/{municipio}/freguesias)</span></label></li><li data-item-id="operation/getAllParishes" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de todas as Freguesias</span></label></li><li data-item-id="operation/getParish" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Freguesia(s)</span></label></li><li data-item-id="operation/getParish2" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Freguesia(s) (descontinuado, usar antes /freguesia/{freguesia})</span></label></li><li data-item-id="operation/getParishOfMunicipality" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Freguesia de um determinado Município</span></label></li><li data-item-id="operation/getParishOfMunicipality2" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Freguesia de um determinado Município (descontinuado, usar antes /municipio/{municipio}/freguesia/{freguesia})</span></label></li><li data-item-id="operation/getParishOfMunicipality3" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Freguesia de um determinado Município (descontinuado, usar antes /municipio/{municipio}/freguesia/{freguesia})</span></label></li><li data-item-id="operation/getParishOfMunicipality4" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Freguesia de um determinado Município (descontinuado, usar antes /municipio/{municipio}/freguesia/{freguesia})</span></label></li><li data-item-id="operation/getAllDistricts" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de todos os Distritos</span></label></li><li data-item-id="operation/getAllDistrictsWithMunicipalities" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de todos os Distritos com respetivos Municípios</span></label></li><li data-item-id="operation/getMunicipalitiesOfDistrict" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de Municípios do Distrito</span></label></li><li data-item-id="operation/getMunicipalitiesOfDistrict2" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de Municípios do Distrito (descontinuado, usar antes /distrito/{distrito}/municipios)</span></label></li><li data-item-id="operation/getParishesOfDistrict" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de Freguesias do Distrito</span></label></li><li data-item-id="operation/getParishesOfDistrict2" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI kPeayK -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Lista de Freguesias do Distrito (descontinuado, usar antes /distrito/{distrito}/freguesias)</span></label></li><li data-item-id="operation/getPostalcodeInfo" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Detalhes sobre Código Postal (CP4 ou CP7)</span></label></li><li data-item-id="operation/getRequestsPerHour" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Pedidos por hora</span></label></li><li data-item-id="operation/getRequestsPerDay" class="sc-bilyIR iVJVQY"><label role="menuitem" class="sc-eGPXGI jDuioL -depth2"><span type="get" class="sc-ilfuhL eXEyiA operation-type get">get</span><span width="calc(100% - 38px)" class="sc-hAcGzb gPtqKT">Pedidos por dia</span></label></li></ul><div class="sc-kYHfwS hjTfvW"><a target="_blank" rel="noopener noreferrer" href="https://redocly.com/redoc/">API docs by Redocly</a></div></div></div><div class="sc-kTLmzF cxHKpm"><div class="sc-iqVWFU lptroy"><svg class="" style="transform:translate(2px, -4px) rotate(180deg);transition:transform 0.2s ease" viewBox="0 0 926.23699 573.74994" version="1.1" x="0px" y="0px" width="15" height="15"><g transform="translate(904.92214,-879.1482)"><path d="
           m -673.67664,1221.6502 -231.2455,-231.24803 55.6165,
