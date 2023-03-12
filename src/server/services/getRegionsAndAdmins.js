@@ -336,7 +336,10 @@ function buildsAdministrationsDistrictsArrays (callback) {
     district.distrito = correctCase(district.distrito)
 
     if (district.codigoine.length === 1) {
-      district.codigoine = district.codigoine[0]
+      district.codigoine = district.codigoine[0].padStart(2, '0')
+      district.geojson = JSON.parse(
+        fs.readFileSync(path.join(resDir, 'geojson', 'districts', district.codigoine + '.json'))
+      ).distrito
     }
   }
 

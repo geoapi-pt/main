@@ -1,10 +1,8 @@
-const fs = require('fs')
 const path = require('path')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 
 const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
-const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 module.exports = {
@@ -48,13 +46,6 @@ function routeFn (req, res, next, { administrations }) {
 
   if (results.length === 1) {
     const result = results[0]
-    const districtGeojsons = JSON.parse(
-      fs.readFileSync(path.join(districtsGeojsonDir, result.codigoine.padStart(2, '0') + '.json'))
-    )
-
-    if (districtGeojsons) {
-      result.geojsons = districtGeojsons
-    }
 
     if (isResponseJson(req)) {
       res.status(200).sendData({ data: result })
@@ -62,16 +53,7 @@ function routeFn (req, res, next, { administrations }) {
       // html/text response
       const dataToShowOnHtml = JSON.parse(JSON.stringify(result)) // deep clone
 
-      // no need to show geojsons on html page
-      if (districtGeojsons) {
-        // result Object is sent to html client for map drawing, strip out uneeded info
-        delete result.geojsons.municipios
-        delete result.geojsons.freguesias
-
-        delete dataToShowOnHtml.geojsons
-        dataToShowOnHtml.centros = Object.assign({}, districtGeojsons.distrito.properties.centros)
-      }
-
+      delete dataToShowOnHtml.geojson
       delete dataToShowOnHtml.municipios
       delete dataToShowOnHtml.distrito
 
