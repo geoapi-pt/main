@@ -17,10 +17,17 @@ const template = Handlebars.compile(fs.readFileSync(path.join(__dirname, 'templa
 const { getHostnameFromUrl } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'hbsHelpers'))
 Handlebars.registerHelper('getHostnameFromUrl', getHostnameFromUrl)
 
-Handlebars.registerPartial(
-  'bodyHeader',
-  fs.readFileSync(path.join(appRoot.path, 'src', 'views', 'partials', 'bodyHeader.hbs'), 'utf-8')
-)
+const partialsDir = path.join(appRoot.path, 'src', 'views', 'partials')
+fs.readdirSync(partialsDir).forEach(filename => {
+  if (filename.endsWith('.hbs')) {
+    const name = path.parse(filename).name
+
+    Handlebars.registerPartial(
+      name,
+      fs.readFileSync(path.join(partialsDir, filename), 'utf-8')
+    )
+  }
+})
 
 configs.pageTitle = configs.docsTitle
 configs.siteDescription = configs.description
