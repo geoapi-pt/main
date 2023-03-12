@@ -5,14 +5,14 @@
   const districtData = JSON.parse(decodeURIComponent(districtDataDomEl.dataset.districtroute))
   window.districtData = districtData
 
-  console.log('geojsons:', districtData.geojsons)
+  console.log('geojsons:', districtData.geojson)
 
-  const centros = districtData.geojsons.distrito.properties.centros
+  const centros = districtData.geojson.properties.centros
   const centro = centros.centro
 
   const map = L.map('map').setView([centro[1], centro[0]], 16)
 
-  const bbox = districtData.geojsons.distrito.bbox
+  const bbox = districtData.geojson.bbox
   const corner1 = L.latLng(bbox[1], bbox[0])
   const corner2 = L.latLng(bbox[3], bbox[2])
   const bounds = L.latLngBounds(corner1, corner2)
@@ -43,7 +43,7 @@
     attribution: '© OpenStreetMap'
   }).addTo(map)
 
-  L.geoJSON(districtData.geojsons.distrito, {
+  L.geoJSON(districtData.geojson, {
     style: {
       stroke: true,
       color: '#9933ff',
