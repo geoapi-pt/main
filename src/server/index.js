@@ -143,6 +143,7 @@ function startServer (callback) {
       data: { districts, bbox: regions.cont.geojson.bbox },
       defaultOrigin: defaultOrigin,
       gitProjectUrl: gitProjectUrl,
+      apiDocsOrigin: configs.apiDocsOrigin,
       pageTitle: mainTitle,
       siteDescription: siteDescription
     })
