@@ -197,9 +197,26 @@ iframe {
 	padding-bottom: 15px;
 }
 
-@media (max-width:480px) {
+@media (max-width:500px) {
 	.container-table100 {
 		padding: 15px 2%;
-		font-size: 0.75em;
+		font-size: large;
+		text-align: center;
+		word-break: break-word;
+	}
+
+	table.table tr {
+		display: table;
+		width: 100%;
+		margin: 1em auto;
+		border-top: 2px solid;
+	}
+	table.table td,
+	table.table th {
+		display: table-row;
+		text-align: justify;
+		padding: 3px;
+		font-size: large;
+		word-break: break-word;
 	}
 }
