@@ -44,8 +44,19 @@ info.onAdd = function (map) {
 }
 
 info.update = function (props) {
-  const contents = props ? `<b>${props.Concelho}</b>` : 'Mova o rato sobre um município ou faça-lhe (duplo)clique'
-  this._div.innerHTML = `<h4>Municípios</h4>${contents}`
+  let contents = '<h4>Municípios</h4>'
+
+  if (props && props.Concelho) {
+    contents += `<b>${props.Concelho}</b>`
+  } else {
+    if (window.mobileCheck()) {
+      contents = 'Toque num município ou faça-lhe duplo toque'
+    } else {
+      contents = 'Mova o rato sobre um município ou faça-lhe (duplo)clique'
+    }
+  }
+
+  this._div.innerHTML = contents
 }
 
 info.addTo(map)
