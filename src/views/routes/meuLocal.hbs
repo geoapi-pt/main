@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+   {{> htmlHead}}
+   
+   <link rel="stylesheet" href="/lib/leaflet/leaflet.css">
+   <script src="/lib/leaflet/leaflet.js"></script>
+</head>
+<body>
+
+{{> bodyHeader}}
+
+<data id="meulocal-route-data" data-meulocalroute="{{{obj2dataAttribute data}}}"></data>
+
+<script src="/js/meulocal-route.js"></script>
+
+</body>
+</html>
