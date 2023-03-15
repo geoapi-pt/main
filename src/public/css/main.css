@@ -197,6 +197,32 @@ iframe {
 	padding-bottom: 15px;
 }
 
+#mylocalbutton {
+	text-align: center;
+	padding: 10% 10% 0 10%;
+}
+
+#mylocalbutton a {
+	word-break: break-word;
+	border: #b8b7b7 1px solid;
+	border-radius: 5px;
+	display: block;
+	background: linear-gradient(to top, #e4e0e0, #fcfcfc);
+	text-decoration: none;
+	color: #373737;
+	font-size: larger;
+}
+
+#mylocalbutton img {
+	max-height: 110px;
+}
+
+@media (min-width: 500px) {
+  #mylocalbutton {
+		display: none;
+	}
+}
+
 @media (max-width:500px) {
 	.container-table100 {
 		padding: 15px 2%;
