@@ -44,8 +44,18 @@ info.onAdd = function (map) {
 }
 
 info.update = function (props) {
-  const contents = props ? `<b>${props.Freguesia}</b><br />${props.Area_T_ha} hectares` : 'Mova o rato sobre uma freguesia ou faça-lhe (duplo)clique'
-  this._div.innerHTML = `<h4>Freguesias</h4>${contents}`
+  let contents = '<h4>Freguesias</h4>'
+  if (props && props.Freguesia) {
+    contents += `<b>${props.Freguesia}</b><br>${props.Area_T_ha} hectares`
+  } else {
+    if (window.mobileCheck()) {
+      contents += 'Toque numa freguesia ou faça-lhe duplo toque'
+    } else {
+      contents += 'Mova o rato sobre uma freguesia ou faça-lhe (duplo)clique'
+    }
+  }
+
+  this._div.innerHTML = contents
 }
 
 info.addTo(map)

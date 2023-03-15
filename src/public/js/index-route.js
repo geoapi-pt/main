@@ -78,7 +78,7 @@ info.update = function (properties) {
       contents = '<h4>Distritos</h4>Mova o rato sobre um distrito ou faça-lhe (duplo)clique'
     }
   }
-  this._div.innerHTML = `${contents}`
+  this._div.innerHTML = contents
 }
 
 info.addTo(map)
