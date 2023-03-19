@@ -17,7 +17,7 @@ const { correctCase } = require(path.join(utilsDir, 'commonFunctions.js'))
 const computeAltitude = require(path.join(utilsDir, 'computeAltitude.js'))
 const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
-const getOpenElevationData = require(path.join(servicesDir, 'getOpenElevationData.js'))
+const getElevation = require(path.join(servicesDir, 'getElevation.js'))
 
 // directories
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
@@ -237,7 +237,10 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         callback()
       } else {
         if (useExternalApis) {
-          getOpenElevationData({ req, lat, lon, local }, callback)
+          getElevation({ req, lat, lon, local }, err => {
+            if (err) console.error(err.message)
+            callback()
+          })
         } else {
           callback()
         }
@@ -245,7 +248,10 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     } catch (err) {
       console.error('Error computing altitude', err)
       if (useExternalApis) {
-        getOpenElevationData({ req, lat, lon, local }, callback)
+        getElevation({ req, lat, lon, local }, err => {
+          if (err) console.error(err.message)
+          callback()
+        })
       } else {
         callback()
       }
