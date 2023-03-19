@@ -58,10 +58,12 @@ function routeFn (req, res, next, { appRootPath }) {
           // rename key Concelho => Município
           delete Object.assign(dataToShowOnHtml, { Município: dataToShowOnHtml.Concelho }).Concelho
 
-          const centro = dataToShowOnHtml.centro
-          dataToShowOnHtml.Centro =
-            `<a href="/gps/${centro[0]},${centro[1]}">${centro[0]},${centro[1]}</a>`
-          delete dataToShowOnHtml.centro
+          if (dataToShowOnHtml.centro && Array.isArray(dataToShowOnHtml.centro)) {
+            const centro = dataToShowOnHtml.centro
+            dataToShowOnHtml.Centro =
+              `<a href="/gps/${centro[0]},${centro[1]}">${centro[0]},${centro[1]}</a>`
+            delete dataToShowOnHtml.centro
+          }
 
           res.status(200).sendData({
             data: data,
