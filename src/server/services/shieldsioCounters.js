@@ -1,5 +1,6 @@
 /* requests counter exposed as shieldsIO JSON endpoint https://shields.io/endpoint */
 
+const fs = require('fs')
 const path = require('path')
 const lockfile = require('proper-lockfile')
 const appRoot = require('app-root-path')
@@ -12,6 +13,10 @@ module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 // a JSON "database" file is saved in root project directory as counters.json
 const dbFile = path.join(appRoot.path, 'counters.json')
 const db = new JsonDB(new Config(dbFile, true, false, '/'))
+
+if (!fs.existsSync(dbFile)) {
+  fs.writeFileSync(dbFile, JSON.stringify({}))
+}
 
 const lockRetryOptions = {
   retries: {
@@ -33,7 +38,7 @@ function dbSet (name, val) {
         return db.push('/' + name, val)
       })
       .catch(err =>
-        console.error(err)
+        console.error('Error on dbSet', err)
       )
       .finally(() => {
         cleanup && cleanup()
