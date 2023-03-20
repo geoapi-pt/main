@@ -4,6 +4,7 @@ const turf = require('@turf/turf')
 const async = require('async')
 const appRoot = require('app-root-path')
 const PolygonLookup = require('polygon-lookup')
+const debug = require('debug')('geoapipt:routes:gps') // DEBUG=geoapipt:routes:gps npm start
 
 // max distance (in meters) from a point of OpenAddresses file for street to be given
 // if that distance exceeds, use Nominatim
@@ -44,6 +45,9 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     parishIneCode
 
   try {
+    debug('new query: ', req.query)
+    debug(req.headers, req.params)
+
     // check that lat and lon are valid numbers
     const isNumeric = function (str) {
       if (typeof str !== 'string') return false
@@ -87,6 +91,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       const freguesia = lookupFreguesias.search(lon, lat)
 
       if (freguesia) {
+        debug('Found freguesia: ', freguesia)
         local.ilha = freguesia.properties.Ilha
         local.distrito = freguesia.properties.Distrito
         local.concelho = freguesia.properties.Concelho
@@ -106,6 +111,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       }
     }
   } catch (err) {
+    debug('Error on server', err)
     res.status(400).sendData(
       { error: 'Wrong request! Example of good request: /gps/40.153687,-8.514602' }
     )
@@ -138,6 +144,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         const subSecction = lookupBGRI.search(lon, lat)
 
         if (subSecction) {
+          debug('Found subSecction: ', subSecction)
           local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
           local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
 
@@ -169,6 +176,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
                 ))
                 const nearest = turf.nearestPoint(targetPoint, points)
                 if (nearest && nearest.properties) {
+                  debug('nearest point: ', nearest)
                   const distanceInMeters = turf.distance(nearest, targetPoint, { units: 'kilometers' }) * 1000
                   if (distanceInMeters < distanceInMetersThreshold) {
                     local.rua = correctCase(nearest.properties.street)
