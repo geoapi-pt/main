@@ -1,6 +1,7 @@
 /* requests counter exposed as shieldsIO JSON endpoint https://shields.io/endpoint */
 
 const path = require('path')
+const lockfile = require('proper-lockfile')
 const appRoot = require('app-root-path')
 const { JsonDB, Config } = require('node-json-db')
 
@@ -12,11 +13,32 @@ module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 const dbFile = path.join(appRoot.path, 'counters.json')
 const db = new JsonDB(new Config(dbFile, true, false, '/'))
 
+const lockRetryOptions = {
+  retries: {
+    retries: 5,
+    factor: 3,
+    minTimeout: 1 * 1000,
+    maxTimeout: 60 * 1000,
+    randomize: true
+  }
+}
+
 function dbSet (name, val) {
   return new Promise((resolve, reject) => {
-    db.push('/' + name, val)
-      .then(() => resolve())
-      .catch(() => resolve())
+    let cleanup
+    // lock file due to multi-threading
+    lockfile.lock(dbFile, lockRetryOptions)
+      .then(release => {
+        cleanup = release
+        return db.push('/' + name, val)
+      })
+      .catch(err =>
+        console.error(err)
+      )
+      .finally(() => {
+        cleanup && cleanup()
+        resolve()
+      })
   })
 }
 
