@@ -1,65 +1,89 @@
 /* requests counter exposed as shieldsIO JSON endpoint https://shields.io/endpoint */
 
-const Loki = require('lokijs')
+const path = require('path')
+const appRoot = require('app-root-path')
+const { JsonDB, Config } = require('node-json-db')
 
-const db = new Loki('counters.db')
-const counters = db.addCollection('counters')
 const debug = require('debug')('geoapipt:server:counters')
 
 module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 
-const requestsCounterPerHour = counters.insert({ name: 'requestsCounterPerHour', value: 0 })
-const requestsLastHour = counters.insert({ name: 'requestsLastHour', value: 0 })
-const requestsCounterPerDay = counters.insert({ name: 'requestsCounterPerDay', value: 0 })
-const requestsLastDay = counters.insert({ name: 'requestsLastDay', value: 0 })
+// a JSON "database" file is saved in root project directory as counters.json
+const dbFile = path.join(appRoot.path, 'counters.json')
+const db = new JsonDB(new Config(dbFile, true, false, '/'))
 
-function getCounter (counter) {
-  return counters.findOne({ name: counter }).value
+function dbSet (name, val) {
+  return new Promise((resolve, reject) => {
+    db.push('/' + name, val)
+      .then(() => resolve())
+      .catch(() => resolve())
+  })
 }
 
-function setTimers () {
-  setInterval(() => {
-    requestsLastHour.value = getCounter('requestsCounterPerHour')
-    counters.update(requestsLastHour)
+(async () => {
+  await dbSet('requestsCounterPerHour', 0)
+  await dbSet('requestsCounterPerDay', 0)
+})()
 
-    requestsCounterPerHour.value = 0
-    counters.update(requestsCounterPerHour)
+function setTimers () {
+  setInterval(async () => {
+    try {
+      const requestsCounterPerHour = await db.getData('/requestsCounterPerHour')
+      await dbSet('requestsLastHour', requestsCounterPerHour)
+    } catch {} finally {
+      await dbSet('requestsCounterPerHour', 0)
+    }
   }, 1000 * 60 * 60)
 
-  setInterval(() => {
-    requestsLastDay.value = getCounter('requestsCounterPerDay')
-    counters.update(requestsLastDay)
-
-    requestsCounterPerDay.value = 0
-    counters.update(requestsCounterPerDay)
+  setInterval(async () => {
+    try {
+      const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
+      await dbSet('requestsLastDay', requestsCounterPerDay)
+    } catch {} finally {
+      await dbSet('requestsCounterPerDay', 0)
+    }
   }, 1000 * 60 * 60 * 24)
 }
 
-function incrementCounters () {
-  requestsCounterPerHour.value = getCounter('requestsCounterPerHour') + 1
-  debug(requestsCounterPerHour)
-  counters.update(requestsCounterPerHour)
+async function incrementCounters () {
+  const requestsCounterPerHour = await db.getData('/requestsCounterPerHour')
+  debug('requestsCounterPerHour: ' + requestsCounterPerHour.toString())
+  await dbSet('requestsCounterPerHour', requestsCounterPerHour + 1)
 
-  requestsCounterPerDay.value = getCounter('requestsCounterPerDay') + 1
-  debug(requestsCounterPerDay)
-  counters.update(requestsCounterPerDay)
+  const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
+  debug('requestsCounterPerDay: ' + requestsCounterPerDay.toString())
+  await dbSet('requestsCounterPerDay', requestsCounterPerDay + 1)
 }
 
 function loadExpressRoutes (app) {
-  app.get('/shieldsio/requestslasthour', function (req, res) {
+  app.get('/shieldsio/requestslasthour', async function (req, res) {
+    let requestsLastHour
+    try {
+      requestsLastHour = await db.getData('/requestsLastHour')
+    } catch {
+      requestsLastHour = 0
+    }
+
     res.json({
       schemaVersion: 1,
       label: 'Requests on last hour',
-      message: getCounter('requestsLastHour').toString(),
+      message: requestsLastHour.toString(),
       color: 'orange'
     })
   })
 
-  app.get('/shieldsio/requestslastday', function (req, res) {
+  app.get('/shieldsio/requestslastday', async function (req, res) {
+    let requestsLastDay
+    try {
+      requestsLastDay = await db.getData('/requestsLastDay')
+    } catch {
+      requestsLastDay = 0
+    }
+
     res.json({
       schemaVersion: 1,
       label: 'Requests on last day',
-      message: getCounter('requestsLastDay').toString(),
+      message: requestsLastDay.toString(),
       color: 'orange'
     })
   })
