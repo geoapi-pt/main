@@ -20,6 +20,9 @@ on:
   schedule:
     - cron: '42 16 * * 2'
 
+env:
+  CODEQL_ACTION_EXTRA_OPTIONS: '{"database": { "init": ["--no-calculate-baseline"] } }'
+
 jobs:
   analyze:
     name: Analyze
