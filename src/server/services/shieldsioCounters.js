@@ -2,7 +2,6 @@
 
 const fs = require('fs')
 const path = require('path')
-const lockfile = require('proper-lockfile')
 const appRoot = require('app-root-path')
 const { JsonDB, Config } = require('node-json-db')
 
@@ -18,27 +17,10 @@ if (!fs.existsSync(dbFile)) {
   fs.writeFileSync(dbFile, JSON.stringify({}))
 }
 
-const lockRetryOptions = {
-  retries: {
-    retries: 5,
-    factor: 3,
-    minTimeout: 1 * 1000,
-    maxTimeout: 60 * 1000,
-    randomize: true
-  }
-}
-
 function dbSet (name, val) {
   return new Promise((resolve, reject) => {
-    let cleanup
-    // lock file due to multi-threading
-    lockfile.lock(dbFile, lockRetryOptions)
-      .then(release => {
-        cleanup = release
-        return db.push('/' + name, val)
-      })
+    db.push('/' + name, val)
       .finally(() => {
-        cleanup && cleanup()
         resolve()
       })
   })
