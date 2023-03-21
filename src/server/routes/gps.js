@@ -223,30 +223,22 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
   }, (callback) => {
     // get altitude
     try {
-      const altitude = computeAltitude(lat, lon)
-      if (altitude) {
-        local.altitude_m = altitude
-        callback()
-      } else {
-        if (useExternalApis) {
-          getElevation({ req, lat, lon, local }, err => {
-            if (err) console.error(err.message)
-            callback()
-          })
-        } else {
-          callback()
-        }
-      }
-    } catch (err) {
-      console.error('Error computing altitude', err)
       if (useExternalApis) {
-        getElevation({ req, lat, lon, local }, err => {
-          if (err) console.error(err.message)
+        getElevation({ req, lat, lon }, (err, res) => {
+          if (err) {
+            console.error(err.message)
+          } else {
+            local.altitude_m = res
+          }
           callback()
         })
       } else {
+        local.altitude_m = computeAltitude(lat, lon)
         callback()
       }
+    } catch (err) {
+      console.error('Error computing altitude', err)
+      callback()
     }
   }], (err) => {
     if (err) {
