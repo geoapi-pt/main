@@ -37,9 +37,6 @@ function dbSet (name, val) {
         cleanup = release
         return db.push('/' + name, val)
       })
-      .catch(err =>
-        console.error('Error on dbSet', err)
-      )
       .finally(() => {
         cleanup && cleanup()
         resolve()
