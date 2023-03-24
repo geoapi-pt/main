@@ -1,12 +1,15 @@
 /* global L */
 
+import { mobileCheck } from './functions.js'
+import { getColor } from './map-functions.js'
+
 const indexDataDomEl = document.getElementById('index-route-data')
 const indexData = JSON.parse(decodeURIComponent(indexDataDomEl.dataset.indexroute))
 window.indexData = indexData
 console.log('indexData:', indexData)
 
 const mapWidth = document.getElementById('map').offsetWidth
-const assumeMobile = mapWidth < 500 || window.mobileCheck()
+const assumeMobile = mapWidth < 500 || mobileCheck()
 
 const districtsGeoJsonFeatureCollection = {
   type: 'FeatureCollection',
@@ -72,7 +75,7 @@ info.update = function (properties) {
       contents += '</tbody></table></div>'
     }
   } else {
-    if (window.mobileCheck()) {
+    if (mobileCheck()) {
       contents = '<h4>Distritos</h4>Toque num distrito ou faça-lhe duplo toque'
     } else {
       contents = '<h4>Distritos</h4>Mova o rato sobre um distrito ou faça-lhe (duplo)clique'
@@ -140,26 +143,3 @@ function onEachFeature (feature, layer) {
 }
 
 map.attributionControl.addAttribution('Carta Administrativa Oficial de Portugal <a href="https://www.dgterritorio.gov.pt/">Direção Geral do Território</a>')
-
-function getColor (index, size) {
-  const colors = {
-    3: ['#8dd3c7', '#ffffb3', '#bebada'],
-    4: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072'],
-    5: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3'],
-    6: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462'],
-    7: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69'],
-    8: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5'],
-    9: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9'],
-    10: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd'],
-    11: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5'],
-    12: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5', '#ffed6f']
-  }
-
-  if (size < 3) {
-    return colors[3][index]
-  } else if (size <= 12) {
-    return colors[size][index]
-  } else {
-    return colors[12][index % 12]
-  }
-}
