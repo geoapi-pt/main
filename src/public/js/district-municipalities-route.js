@@ -1,5 +1,8 @@
 /* global L */
 
+import { mobileCheck } from './functions.js'
+import { getColor } from './map-functions.js'
+
 const districtMunicipalitiesDataDomEl = document.getElementById('district-municipalities-route-data')
 const districtMunicipalitiesData = JSON.parse(decodeURIComponent(districtMunicipalitiesDataDomEl.dataset.districtmunicipalitiesroute))
 window.districtMunicipalitiesData = districtMunicipalitiesData
@@ -49,7 +52,7 @@ info.update = function (props) {
   if (props && props.Concelho) {
     contents += `<b>${props.Concelho}</b>`
   } else {
-    if (window.mobileCheck()) {
+    if (mobileCheck()) {
       contents = 'Toque num município ou faça-lhe duplo toque'
     } else {
       contents = 'Mova o rato sobre um município ou faça-lhe (duplo)clique'
@@ -118,26 +121,3 @@ function onEachFeature (feature, layer) {
 }
 
 map.attributionControl.addAttribution('Carta Administrativa Oficial de Portugal <a href="https://www.dgterritorio.gov.pt/">Direção Geral do Território</a>')
-
-function getColor (index, size) {
-  const colors = {
-    3: ['#8dd3c7', '#ffffb3', '#bebada'],
-    4: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072'],
-    5: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3'],
-    6: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462'],
-    7: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69'],
-    8: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5'],
-    9: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9'],
-    10: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd'],
-    11: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5'],
-    12: ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5', '#ffed6f']
-  }
-
-  if (size < 3) {
-    return colors[3][index]
-  } else if (size <= 12) {
-    return colors[size][index]
-  } else {
-    return colors[12][index % 12]
-  }
-}
