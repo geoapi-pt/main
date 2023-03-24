@@ -11,14 +11,16 @@ inputCodigoPostal.addEventListener('input', () => {
 
   if (!isPostalCodeOK(inputCodigoPostal.value)) {
     inputCodigoPostal.classList.add('border-danger')
+    resultCodigoPostal.innerHTML = ''
   } else {
     inputCodigoPostal.classList.remove('border-danger')
     fetch(`${geoApiOrigin}/cp/${inputCodigoPostal.value}?json=1`)
       .then(res => res.json())
       .then((cpResults) => {
         let html = ''
+        const itemsToExcludeFromView = ['partes', 'pontos', 'poligono', 'centroide', 'centroDeMassa', 'CP3']
         for (const el in cpResults) {
-          if (el !== 'partes' && el !== 'pontos' && el !== 'poligono') {
+          if (!itemsToExcludeFromView.includes(el)) {
             // 1st column
             if (el.toLocaleLowerCase() === 'concelho') {
               html += '<tr><th>Município</th>'
