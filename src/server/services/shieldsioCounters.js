@@ -13,7 +13,8 @@ module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 const dbFile = path.join(appRoot.path, 'counters.json')
 const db = new JsonDB(new Config(dbFile, true, false, '/'))
 
-if (!fs.existsSync(dbFile)) {
+// if does not exit or it's empty
+if (!fs.existsSync(dbFile) || fs.statSync(dbFile).size === 0) {
   fs.writeFileSync(dbFile, JSON.stringify({}))
 }
 
