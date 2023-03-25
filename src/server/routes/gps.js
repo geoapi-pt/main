@@ -13,10 +13,9 @@ const distanceInMetersThreshold = 10
 const utilsDir = path.join(appRoot.path, 'src', 'server', 'utils')
 const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
 const { correctCase } = require(path.join(utilsDir, 'commonFunctions.js'))
-const computeAltitude = require(path.join(utilsDir, 'computeAltitude.js'))
 const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
-const getElevation = require(path.join(servicesDir, 'getElevation.js'))
+const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
 
 // directories
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
@@ -221,25 +220,14 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       callback()
     })
   }, (callback) => {
-    // get altitude
-    try {
-      if (useExternalApis) {
-        getElevation({ req, lat, lon }, (err, res) => {
-          if (err) {
-            console.error(err.message)
-          } else {
-            local.altitude_m = res
-          }
-          callback()
-        })
+    getAltitude({ req, lat, lon, useExternalApis }, (err, res) => {
+      if (err) {
+        console.error(err.message)
       } else {
-        local.altitude_m = computeAltitude(lat, lon)
-        callback()
+        local.altitude_m = res
       }
-    } catch (err) {
-      console.error('Error computing altitude', err)
       callback()
-    }
+    })
   }], (err) => {
     if (err) {
       console.error(err)
