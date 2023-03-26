@@ -1,5 +1,7 @@
 /* global L */
 
+import * as leafletContextmenu from './leafletContextmenu.js'
+
 const parishDataDomEl = document.getElementById('parish-route-data')
 const parishData = JSON.parse(decodeURIComponent(parishDataDomEl.dataset.parishroute))
 window.parishData = parishData
@@ -9,7 +11,8 @@ console.log('geojsons:', parishData.geojson)
 const centros = parishData.geojson.properties.centros
 const centro = centros.centro
 
-const map = L.map('map').setView([centro[1], centro[0]], 16)
+const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
+leafletContextmenu.setMap(map)
 
 const bbox = parishData.geojson.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])

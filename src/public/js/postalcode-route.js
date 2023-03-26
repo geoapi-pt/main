@@ -1,10 +1,13 @@
 /* global L */
 
+import * as leafletContextmenu from './leafletContextmenu.js'
+
 const postcodeDataDomEl = document.getElementById('postcode-data')
 const postcodeData = JSON.parse(decodeURIComponent(postcodeDataDomEl.dataset.postcode))
 window.postcodeData = postcodeData
 
-const map = L.map('map').setView(postcodeData.centro, 11)
+const map = L.map('map', leafletContextmenu.mapOtions).setView(postcodeData.centro, 11)
+leafletContextmenu.setMap(map)
 
 if (postcodeData.poligono) {
   const lats = postcodeData.poligono.map(el => el[0])

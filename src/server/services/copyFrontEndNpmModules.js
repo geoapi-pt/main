@@ -18,6 +18,7 @@ function copyFrontEndNpmModules (callback) {
 
   try {
     copyModule('leaflet', 'dist') // from node_modules/leaflet/dist -> views/lib/leaflet
+    copyModule('leaflet-contextmenu', 'dist') // from node_modules/leaflet/dist -> views/lib/leaflet
     callback()
   } catch (err) {
     console.error(err)

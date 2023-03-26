@@ -1,5 +1,7 @@
 /* global L */
 
+import * as leafletContextmenu from './leafletContextmenu.js'
+
 const municipalityDataDomEl = document.getElementById('municipality-route-data')
 const municipalityData = JSON.parse(decodeURIComponent(municipalityDataDomEl.dataset.municipalityroute))
 window.municipalityData = municipalityData
@@ -7,7 +9,8 @@ window.municipalityData = municipalityData
 const centros = municipalityData.geojsons.municipio.properties.centros
 const centro = centros.centro
 
-const map = L.map('map').setView([centro[1], centro[0]], 16)
+const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
+leafletContextmenu.setMap(map)
 
 const bbox = municipalityData.geojsons.municipio.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])
