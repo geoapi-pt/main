@@ -236,16 +236,18 @@ function generateJsonData (gpkgfilePath, geoPackage) {
   codigoIneMunicipality = parseInt(codigoIneMunicipality)
 
   try {
-    generateMunicipalityCensosJsonFile(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
-    generateParishCensosJsonFiles(gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage)
+    generateMunicipalityCensosJsonFile(censosYear, codigoIneMunicipality, geoPackage)
+    generateParishCensosJsonFiles(censosYear, codigoIneMunicipality, geoPackage)
+    generateSectionsCensosJsonFiles(censosYear, codigoIneMunicipality, geoPackage)
+    generateSubsectionsCensosJsonFiles(censosYear, codigoIneMunicipality, geoPackage)
   } catch (err) {
-    console.error('Error on ' + gpkgfilePath, err.message)
+    console.error('Error on ' + gpkgfilePath, err.message, err)
   }
 }
 
 // For a specific gpkg file corresponding to a year and a municipality, this function generates the JSON censos municipality file
 // this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
-function generateMunicipalityCensosJsonFile (gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage) {
+function generateMunicipalityCensosJsonFile (censosYear, codigoIneMunicipality, geoPackage) {
   const table = geoPackage.getFeatureTables()[0]
   const featureDao = geoPackage.getFeatureDao(table)
 
@@ -258,7 +260,6 @@ function generateMunicipalityCensosJsonFile (gpkgfilePath, censosYear, codigoIne
     sum[el] = 0
   })
 
-  debug(path.relative(appRoot.path, gpkgfilePath) + ': geoPackage.iterateGeoJSONFeatures')
   const geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
   for (const feature of geoPackageIterator) {
     for (const el in sum) {
@@ -292,29 +293,18 @@ function generateMunicipalityCensosJsonFile (gpkgfilePath, censosYear, codigoIne
 
 // For a specific gpkg file corresponding to a year and a municipality, this function generates the JSON censos parishes file
 // this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
-function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunicipality, geoPackage) {
+function generateParishCensosJsonFiles (censosYear, codigoIneMunicipality, geoPackage) {
   const table = geoPackage.getFeatureTables()[0]
   const featureDao = geoPackage.getFeatureDao(table)
 
   // colums which have statistical numbers to aggregate on the municipality
   const countableColumns = featureDao.columns.filter(c => c.startsWith('N_'))
 
-  // get INE code for parishes (it differs according to censos year)
-  const getParishCode = function (feature) {
-    if (censosYear === '2011') {
-      return feature.properties.DTMN11 + feature.properties.FR11
-    } else if (censosYear === '2021') {
-      return feature.properties.DTMNFR21
-    } else {
-      throw Error('wrong censosYear: ' + censosYear)
-    }
-  }
-
   // detect the parishes inside gpkg municipality file
   let parishesCodes = []
   let geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
   for (const feature of geoPackageIterator) {
-    parishesCodes.push(getParishCode(feature))
+    parishesCodes.push(getParishCodeFromTableFeature(feature, censosYear))
   }
   parishesCodes = removeDuplicatesFromArray(parishesCodes)
 
@@ -323,7 +313,7 @@ function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunic
       .find(e => parseInt(e.codigoine) === parseInt(parishCode)))
   )
 
-  const sums = {} // has all statisitcal data of all parishes of this specific muncipality
+  const sums = {} // has all statisitcal data of all parishes of this specific parish
   parishesCodes.forEach(parishCode => {
     sums[parishCode] = {}
     countableColumns.forEach(el => {
@@ -333,7 +323,7 @@ function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunic
 
   geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
   for (const feature of geoPackageIterator) {
-    const parishCode = getParishCode(feature)
+    const parishCode = getParishCodeFromTableFeature(feature, censosYear)
     for (const el in sums[parishCode]) {
       sums[parishCode][el] += feature.properties[el]
     }
@@ -364,6 +354,133 @@ function generateParishCensosJsonFiles (gpkgfilePath, censosYear, codigoIneMunic
       const data = JSON.parse(fs.readFileSync(file))
       fs.unlinkSync(file)
       data['censos' + censosYear] = sums[parishCode]
+      fs.writeFileSync(file, JSON.stringify(data, null, 2))
+    }
+  }
+}
+
+// For a specific gpkg file corresponding to a year and a municipality, this function generates the Censos INE sections JSON file
+// this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
+function generateSectionsCensosJsonFiles (censosYear, codigoIneMunicipality, geoPackage) {
+  const table = geoPackage.getFeatureTables()[0]
+  const featureDao = geoPackage.getFeatureDao(table)
+
+  // colums which have statistical numbers to aggregate on the municipality
+  const countableColumns = featureDao.columns.filter(c => c.startsWith('N_'))
+
+  // detect the sections inside gpkg municipality file
+  let sectionCodes = []
+  let geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
+  for (const feature of geoPackageIterator) {
+    sectionCodes.push(getSectionCodeFromTableFeature(feature, censosYear))
+  }
+  sectionCodes = removeDuplicatesFromArray(sectionCodes)
+
+  const sums = {} // has all statisitcal data of all sections of this specific section
+  sectionCodes.forEach(sectionCode => {
+    sums[sectionCode] = {}
+    countableColumns.forEach(el => {
+      sums[sectionCode][el] = 0
+    })
+  })
+
+  geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
+  for (const feature of geoPackageIterator) {
+    const sectionCode = getSectionCodeFromTableFeature(feature, censosYear)
+    for (const el in sums[sectionCode]) {
+      sums[sectionCode][el] += feature.properties[el]
+    }
+  }
+
+  const municipality = administrations.municipalitiesDetails
+    .find(e => parseInt(e.codigoine) === codigoIneMunicipality)
+
+  for (const sectionCode in sums) {
+    const parishCode = sectionCode.slice(0, 6)
+
+    const parish = administrations.parishesDetails
+      .find(e => parseInt(e.codigoine) === parseInt(parishCode))
+    const nameOfParish = parish ? correctCase(parish.nome) : ''
+
+    const dir = path.join(censosDataDir, 'seccoes', parishCode)
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true })
+    }
+
+    const file = path.join(dir, sectionCode + '.json')
+
+    // if file does not exists creates it; if it exists append stats for the respective year
+    if (!fs.existsSync(file)) {
+      const data = {
+        tipo: 'secção',
+        codigoine: sectionCode,
+        freguesia: nameOfParish,
+        municipio: correctCase(municipality.nome),
+        distrito: correctCase(municipality.distrito)
+      }
+      data['censos' + censosYear] = sums[sectionCode]
+
+      fs.writeFileSync(file, JSON.stringify(data, null, 2))
+    } else {
+      const data = JSON.parse(fs.readFileSync(file))
+      fs.unlinkSync(file)
+      data['censos' + censosYear] = sums[sectionCode]
+      fs.writeFileSync(file, JSON.stringify(data, null, 2))
+    }
+  }
+}
+
+// For a specific gpkg file corresponding to a year and a municipality, this function generates the Censos INE sections JSON file
+// this function is run once per each different year, for example it is run for censos year 2011 and again for 2021
+function generateSubsectionsCensosJsonFiles (censosYear, codigoIneMunicipality, geoPackage) {
+  const table = geoPackage.getFeatureTables()[0]
+  const featureDao = geoPackage.getFeatureDao(table)
+
+  const municipality = administrations.municipalitiesDetails
+    .find(e => parseInt(e.codigoine) === codigoIneMunicipality)
+
+  // colums which have statistical numbers to aggregate on the municipality
+  const countableColumns = featureDao.columns.filter(c => c.startsWith('N_'))
+
+  // subsections inside gpkg municipality file
+  const geoPackageIterator = geoPackage.iterateGeoJSONFeatures(table)
+  for (const feature of geoPackageIterator) {
+    const subsectionCode = getSubsectionCodeFromTableFeature(feature, censosYear)
+
+    const values = {}
+    countableColumns.forEach(el => {
+      values[el] = feature.properties[el]
+    })
+
+    // detect parish
+    const parishCode = subsectionCode.slice(0, 6)
+    const parish = administrations.parishesDetails
+      .find(e => parseInt(e.codigoine) === parseInt(parishCode))
+    const nameOfParish = parish ? correctCase(parish.nome) : ''
+
+    const dir = path.join(censosDataDir, 'subseccoes', parishCode)
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true })
+    }
+
+    const file = path.join(dir, subsectionCode + '.json')
+
+    // if file does not exists creates it; if it exists append stats for the respective year
+    if (!fs.existsSync(file)) {
+      const data = {
+        tipo: 'subsecção',
+        codigoine: subsectionCode,
+        freguesia: nameOfParish,
+        municipio: correctCase(municipality.nome),
+        distrito: correctCase(municipality.distrito)
+      }
+      data['censos' + censosYear] = values
+
+      fs.writeFileSync(file, JSON.stringify(data, null, 2))
+    } else {
+      const data = JSON.parse(fs.readFileSync(file))
+      fs.unlinkSync(file)
+      data['censos' + censosYear] = values
       fs.writeFileSync(file, JSON.stringify(data, null, 2))
     }
   }
@@ -413,6 +530,39 @@ function generateDistrictsCensosJsonFiles (mainCallback) {
   })
 
   mainCallback()
+}
+
+// get INE code for parishes (it differs according to censos year)
+function getParishCodeFromTableFeature (feature, censosYear) {
+  if (censosYear === '2011') {
+    return feature.properties.DTMN11 + feature.properties.FR11
+  } else if (censosYear === '2021') {
+    return feature.properties.DTMNFR21
+  } else {
+    throw Error('wrong censosYear: ' + censosYear)
+  }
+}
+
+// get INE code for INE Section (it differs according to censos year)
+function getSectionCodeFromTableFeature (feature, censosYear) {
+  if (censosYear === '2011') {
+    return feature.properties.DTMN11 + feature.properties.FR11 + feature.properties.SEC11
+  } else if (censosYear === '2021') {
+    return feature.properties.DTMNFRSEC21
+  } else {
+    throw Error('wrong censosYear: ' + censosYear)
+  }
+}
+
+// get INE code for INE Section (it differs according to censos year)
+function getSubsectionCodeFromTableFeature (feature, censosYear) {
+  if (censosYear === '2011') {
+    return feature.properties.BGRI11
+  } else if (censosYear === '2021') {
+    return feature.properties.BGRI2021
+  } else {
+    throw Error('wrong censosYear: ' + censosYear)
+  }
 }
 
 // read files recursively from directory
