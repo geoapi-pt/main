@@ -1,5 +1,5 @@
 /* unzip ZIP files from INE Censos GeoPackage files (got here https://mapas.ine.pt/download/index2011.phtml)
-   and converts them to GeoJSON files and then zip them  */
+   and converts them to GeoJSON files stored in res/censos/geojson */
 
 const fs = require('fs')
 const path = require('path')
