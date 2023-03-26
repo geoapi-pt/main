@@ -16,6 +16,7 @@ selectMunicipality.addEventListener('change', () => {
         selectFreguesia.options[i] = null
       }
 
+      selectFreguesia.options.add(new Option('[selecione]', ''))
       res.freguesias.forEach(el => {
         selectFreguesia.options.add(new Option(el, el))
       })
@@ -25,8 +26,10 @@ selectMunicipality.addEventListener('change', () => {
     })
 })
 
-selectFreguesia.addEventListener('click', () => {
-  window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}`
+selectFreguesia.addEventListener('change', () => {
+  if (selectFreguesia.value) {
+    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}`
+  }
 })
 
 fetch(`${geoApiOrigin}/municipios?json=1`).then(res => res.json())
