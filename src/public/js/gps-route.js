@@ -1,10 +1,13 @@
 /* global L */
 
+import * as leafletContextmenu from './leafletContextmenu.js'
+
 const gpsDataDomEl = document.getElementById('gps-route-data')
 const gpsData = JSON.parse(decodeURIComponent(gpsDataDomEl.dataset.gpsroute))
 window.gpsData = gpsData
 
-const map = L.map('map').setView([gpsData.lat, gpsData.lon], 16)
+const map = L.map('map', leafletContextmenu.mapOtions).setView([gpsData.lat, gpsData.lon], 16)
+leafletContextmenu.setMap(map)
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,

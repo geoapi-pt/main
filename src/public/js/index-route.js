@@ -1,5 +1,6 @@
 /* global L */
 
+import * as leafletContextmenu from './leafletContextmenu.js'
 import { mobileCheck } from './functions.js'
 import { getColor } from './map-functions.js'
 
@@ -32,7 +33,8 @@ districtsGeoJsonFeatureCollection.features.forEach((district, index) => {
   district.properties.index = index
 })
 
-const map = L.map('map')
+const map = L.map('map', leafletContextmenu.mapOtions)
+leafletContextmenu.setMap(map)
 
 const bbox = indexData.bbox
 console.log('bbox', bbox)
