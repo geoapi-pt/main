@@ -1,4 +1,6 @@
 /* global L */
+
+import * as leafletContextmenu from './leafletContextmenu.js'
 import { mobileCheck } from './functions.js'
 import { getColor } from './map-functions.js'
 
@@ -23,7 +25,8 @@ parishesGeoJsonFeatureCollection.features.forEach((parish, index) => {
 const centros = geojsons.distrito.properties.centros
 const centro = centros.centro
 
-const map = L.map('map').setView([centro[1], centro[0]], 16)
+const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
+leafletContextmenu.setMap(map)
 
 const bbox = geojsons.distrito.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])
