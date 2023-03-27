@@ -13,7 +13,7 @@ const { GeoPackageAPI } = require('@ngageoint/geopackage')
 const debug = require('debug')('geoapipt:generate-censosdata')
 
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
-const censosGeoJSONDir = path.join(appRoot.path, 'res', 'censos', 'geojson')
+const geoJSONDir = path.join(appRoot.path, 'res', 'geojson')
 
 async.series(
   [
@@ -115,7 +115,7 @@ function extractZip (mainCallback) {
 function deleteGeojsonFiles (mainCallback) {
   console.log('Deleting previous geojson files')
   // read files recursively from directory
-  getFiles(censosGeoJSONDir).then(files => {
+  getFiles(geoJSONDir).then(files => {
     const filesToDelete = files.filter(f => path.extname(f) === '.json')
 
     let bar
@@ -183,7 +183,7 @@ function convertGeoPackageToGeoJSON (mainCallback) {
         for (const feature of iterator) {
           geoJson.features.push(feature)
         }
-        const geoJsonFile = path.join(censosGeoJSONDir, censosYear, featureTables[0] + '.json')
+        const geoJsonFile = path.join(geoJSONDir, censosYear, featureTables[0] + '.json')
         fs.writeFile(geoJsonFile, JSON.stringify(geoJson),
           (err) => {
             if (err) {
@@ -213,7 +213,7 @@ function convertGeoPackageToGeoJSON (mainCallback) {
 function validateGeojsonFiles (mainCallback) {
   console.log('Validating generated Geojson files')
   // read files recursively from directory
-  getFiles(censosGeoJSONDir).then(files => {
+  getFiles(geoJSONDir).then(files => {
     const filesToDelete = files.filter(f => path.extname(f) === '.json')
 
     let bar
