@@ -82,9 +82,12 @@ function generateGeojsonMunicipalities () {
 
 function saveFiles () {
   for (const key in geojsonMunicipalities) {
-    fs.writeFileSync(
-      path.join(municipalitiesGeojsonDir, key + '.json'),
-      JSON.stringify(geojsonMunicipalities[key])
-    )
+    const file = path.join(municipalitiesGeojsonDir, key + '.json')
+
+    if (!fs.existsSync(path.dirname(file))) {
+      fs.mkdirSync(path.dirname(file), { recursive: true })
+    }
+
+    fs.writeFileSync(file, JSON.stringify(geojsonMunicipalities[key]))
   }
 }

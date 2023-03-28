@@ -90,9 +90,12 @@ function generategeojsonDistricts () {
 
 function saveFiles () {
   for (const key in geojsonDistricts) {
-    fs.writeFileSync(
-      path.join(districtsGeojsonDir, key + '.json'),
-      JSON.stringify(geojsonDistricts[key])
-    )
+    const file = path.join(districtsGeojsonDir, key + '.json')
+
+    if (!fs.existsSync(path.dirname(file))) {
+      fs.mkdirSync(path.dirname(file), { recursive: true })
+    }
+
+    fs.writeFileSync(file, JSON.stringify(geojsonDistricts[key]))
   }
 }
