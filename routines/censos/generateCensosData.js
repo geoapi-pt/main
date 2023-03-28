@@ -5,17 +5,18 @@ const fs = require('fs')
 const path = require('path')
 const async = require('async')
 const colors = require('colors/safe')
-const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 const { GeoPackageAPI } = require('@ngageoint/geopackage')
-const debug = require('debug')('geoapipt:generate-censosdata')
 
 const getRegionsAndAdmins = require(path.join(
   appRoot.path, 'src', 'server', 'services', 'getRegionsAndAdmins.js'
 ))
 
 const { correctCase } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
-const { extractZip, deleteNonZipFiles } = require(path.join(appRoot.path, 'src', 'routines', 'commons', 'zip.js'))
+
+const commonsDir = path.join(appRoot.path, 'routines', 'commons')
+const { extractZip, deleteNonZipFiles } = require(path.join(commonsDir, 'zip.js'))
+const { getFiles, deleteAllFilesBasedOnExt } = require(path.join(commonsDir, 'file.js'))
 
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
 const censosDataDir = path.join(appRoot.path, 'res', 'censos', 'data')
@@ -61,44 +62,8 @@ function getAdministrations (callback) {
   })
 }
 
-function deletePreviousGeneratedData (mainCallback) {
-  console.log('Deleting previous generated data: JSON files in ' + path.relative(appRoot.path, censosDataDir))
-  // read files recursively from directory
-  getFiles(censosDataDir).then(files => {
-    const filesToDelete = files.filter(f => path.extname(f) === '.json')
-
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToDelete.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Deleting' })
-
-    async.eachOf(filesToDelete, function (file, key, callback) {
-      try {
-        if (fs.existsSync(file)) {
-          fs.unlinkSync(file)
-          debug(`${path.relative(appRoot.path, file)} deleted`)
-          bar.tick({ info: path.relative(appRoot.path, file) })
-        } else {
-          bar.tick()
-        }
-        callback()
-      } catch (err) {
-        callback(Error(err))
-      }
-    }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
-      if (err) {
-        mainCallback(Error(err))
-      } else {
-        mainCallback()
-      }
-    })
-  })
+function deletePreviousGeneratedData (callback) {
+  deleteAllFilesBasedOnExt(censosDataDir, '.json', callback)
 }
 
 function getGeoPackageInfo (mainCallback) {
@@ -480,16 +445,6 @@ function getSubsectionCodeFromTableFeature (feature, censosYear) {
   } else {
     throw Error('wrong censosYear: ' + censosYear)
   }
-}
-
-// read files recursively from directory
-async function getFiles (dir) {
-  const dirents = await fs.promises.readdir(dir, { withFileTypes: true })
-  const files = await Promise.all(dirents.map((dirent) => {
-    const res = path.resolve(dir, dirent.name)
-    return dirent.isDirectory() ? getFiles(res) : res
-  }))
-  return files.flat()
 }
 
 function removeDuplicatesFromArray (array) {

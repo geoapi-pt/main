@@ -11,17 +11,23 @@ const appRoot = require('app-root-path')
 const { GeoPackageAPI } = require('@ngageoint/geopackage')
 const debug = require('debug')('geoapipt:generate-censosdata')
 
-const { extractZip, deleteNonZipFiles } = require(path.join(appRoot.path, 'src', 'routines', 'commons', 'zip.js'))
+const commonsDir = path.join(appRoot.path, 'routines', 'commons')
+const { extractZip, deleteNonZipFiles } = require(path.join(commonsDir, 'zip.js'))
+const { getFiles, deleteAllFilesBasedOnExt, createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
 
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
-const geoJSONDir = path.join(appRoot.path, 'res', 'geojson')
+const geoJsonSeccoesDir = path.join(appRoot.path, 'res', 'geojson', 'seccoes')
+const geoJsonSubseccoesDir = path.join(appRoot.path, 'res', 'geojson', 'subseccoes')
+
+createDirIfNotExist(geoJsonSeccoesDir)
+createDirIfNotExist(geoJsonSubseccoesDir)
 
 async.series(
   [
     deleteExtractedFiles, // deletes previous extracted ZIP files (just in case ZIP files are updated)
     extractZipFiles, // extracts zip file with shapefile and projection files
     deleteGeojsonFiles, // delete previous GeoJSON files
-    convertGeoPackageToGeoJSON,
+    generateSubsectionsGeojsons,
     validateGeojsonFiles
   ],
   function (err) {
@@ -43,48 +49,12 @@ function extractZipFiles (callback) {
 }
 
 // delete previous GeoJSON files to create new ones
-function deleteGeojsonFiles (mainCallback) {
-  console.log('Deleting previous geojson files')
-  // read files recursively from directory
-  getFiles(geoJSONDir).then(files => {
-    const filesToDelete = files.filter(f => path.extname(f) === '.json')
-
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToDelete.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Deleting' })
-
-    async.eachOf(filesToDelete, function (file, key, callback) {
-      try {
-        if (fs.existsSync(file)) {
-          fs.unlinkSync(file)
-          debug(`${path.relative(appRoot.path, file)} deleted`)
-          bar.tick({ info: path.relative(appRoot.path, file) })
-        } else {
-          bar.tick()
-        }
-        callback()
-      } catch (err) {
-        callback(Error(err))
-      }
-    }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
-      if (err) {
-        mainCallback(Error(err))
-      } else {
-        mainCallback()
-      }
-    })
-  })
+function deleteGeojsonFiles (callback) {
+  deleteAllFilesBasedOnExt([geoJsonSeccoesDir, geoJsonSubseccoesDir], '.json', callback)
 }
 
-function convertGeoPackageToGeoJSON (mainCallback) {
-  console.log('Generating GeoJSON files from GeoPackage files')
+function generateSubsectionsGeojsons (mainCallback) {
+  console.log('Generating GeoJSON INE subsections')
 
   // read files recursively from directory
   getFiles(censosZipDir).then(files => {
@@ -114,7 +84,12 @@ function convertGeoPackageToGeoJSON (mainCallback) {
         for (const feature of iterator) {
           geoJson.features.push(feature)
         }
-        const geoJsonFile = path.join(geoJSONDir, censosYear, featureTables[0] + '.json')
+        const geoJsonFile = path.join(geoJsonSubseccoesDir, censosYear, featureTables[0] + '.json')
+
+        if (!fs.existsSync(path.dirname(geoJsonFile))) {
+          fs.mkdirSync(path.dirname(geoJsonFile), { recursive: true })
+        }
+
         fs.writeFile(geoJsonFile, JSON.stringify(geoJson),
           (err) => {
             if (err) {
@@ -144,7 +119,7 @@ function convertGeoPackageToGeoJSON (mainCallback) {
 function validateGeojsonFiles (mainCallback) {
   console.log('Validating generated Geojson files')
   // read files recursively from directory
-  getFiles(geoJSONDir).then(files => {
+  getFiles([geoJsonSeccoesDir, geoJsonSubseccoesDir]).then(files => {
     const filesToDelete = files.filter(f => path.extname(f) === '.json')
 
     let bar
@@ -183,14 +158,4 @@ function validateGeojsonFiles (mainCallback) {
       }
     })
   })
-}
-
-// read files recursively from directory
-async function getFiles (dir) {
-  const dirents = await fs.promises.readdir(dir, { withFileTypes: true })
-  const files = await Promise.all(dirents.map((dirent) => {
-    const res = path.resolve(dir, dirent.name)
-    return dirent.isDirectory() ? getFiles(res) : res
-  }))
-  return files.flat()
 }
