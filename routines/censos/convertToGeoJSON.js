@@ -4,7 +4,6 @@
 const fs = require('fs')
 const path = require('path')
 const async = require('async')
-const extract = require('extract-zip')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
 const gjv = require('geojson-validation')
@@ -12,13 +11,15 @@ const appRoot = require('app-root-path')
 const { GeoPackageAPI } = require('@ngageoint/geopackage')
 const debug = require('debug')('geoapipt:generate-censosdata')
 
+const { extractZip, deleteNonZipFiles } = require(path.join(appRoot.path, 'src', 'routines', 'commons', 'zip.js'))
+
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
 const geoJSONDir = path.join(appRoot.path, 'res', 'geojson')
 
 async.series(
   [
     deleteExtractedFiles, // deletes previous extracted ZIP files (just in case ZIP files are updated)
-    extractZip, // extracts zip file with shapefile and projection files
+    extractZipFiles, // extracts zip file with shapefile and projection files
     deleteGeojsonFiles, // delete previous GeoJSON files
     convertGeoPackageToGeoJSON,
     validateGeojsonFiles
@@ -33,82 +34,12 @@ async.series(
   })
 
 // deletes previous extracted ZIP files (just in case ZIP files are updated)
-function deleteExtractedFiles (mainCallback) {
-  console.log('Deleting previous extracted ZIP files to unzip anew')
-  // read files recursively from directory
-  getFiles(censosZipDir).then(files => {
-    const filesToDelete = files.filter(f => path.extname(f) !== '.zip')
-
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToDelete.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Deleting' })
-
-    async.eachOf(filesToDelete, function (file, key, callback) {
-      try {
-        if (fs.existsSync(file)) {
-          fs.unlinkSync(file)
-          debug(`${path.relative(appRoot.path, file)} deleted`)
-          bar.tick({ info: path.relative(appRoot.path, file) })
-        } else {
-          bar.tick()
-        }
-        callback()
-      } catch (err) {
-        callback(Error(err))
-      }
-    }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
-      if (err) {
-        mainCallback(Error(err))
-      } else {
-        mainCallback()
-      }
-    })
-  })
+function deleteExtractedFiles (callback) {
+  deleteNonZipFiles(censosZipDir, callback)
 }
 
-function extractZip (mainCallback) {
-  console.log('Unzipping files')
-
-  // read files recursively from directory
-  getFiles(censosZipDir).then(files => {
-    const filesToExtract = files.filter(f => path.extname(f) === '.zip')
-
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToExtract.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Extracting' })
-
-    async.eachOf(filesToExtract, function (file, key, callback) {
-      extract(file, { dir: path.dirname(file) })
-        .then(() => {
-          debug(`${path.relative(appRoot.path, file)} extracted`)
-          bar.tick({ info: path.relative(appRoot.path, file) })
-          callback()
-        })
-        .catch((errOnUnzip) => {
-          callback(Error('Error unziping file ' + file + '. ' + errOnUnzip.message))
-        })
-    }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
-      if (err) {
-        mainCallback(Error(err))
-      } else {
-        mainCallback()
-      }
-    })
-  })
+function extractZipFiles (callback) {
+  extractZip(censosZipDir, callback)
 }
 
 // delete previous GeoJSON files to create new ones
