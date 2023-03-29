@@ -8,6 +8,9 @@ const appRoot = require('app-root-path')
 
 const getGeojsonRegions = require(path.join(appRoot.path, 'src', 'server', 'services', 'getGeojsonRegions.js'))
 
+const commonsDir = path.join(appRoot.path, 'routines', 'commons')
+const { createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
+
 const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'municipalities')
 const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
 
@@ -92,10 +95,7 @@ function saveFiles () {
   for (const key in geojsonDistricts) {
     const file = path.join(districtsGeojsonDir, key + '.json')
 
-    if (!fs.existsSync(path.dirname(file))) {
-      fs.mkdirSync(path.dirname(file), { recursive: true })
-    }
-
+    createDirIfNotExist(path.dirname(file))
     fs.writeFileSync(file, JSON.stringify(geojsonDistricts[key]))
   }
 }

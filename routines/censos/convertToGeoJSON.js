@@ -86,10 +86,7 @@ function generateSubsectionsGeojsons (mainCallback) {
         }
         const geoJsonFile = path.join(geoJsonSubseccoesDir, censosYear, featureTables[0] + '.json')
 
-        if (!fs.existsSync(path.dirname(geoJsonFile))) {
-          fs.mkdirSync(path.dirname(geoJsonFile), { recursive: true })
-        }
-
+        createDirIfNotExist(path.dirname(geoJsonFile))
         fs.writeFile(geoJsonFile, JSON.stringify(geoJson),
           (err) => {
             if (err) {
