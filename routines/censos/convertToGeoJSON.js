@@ -6,14 +6,13 @@ const path = require('path')
 const async = require('async')
 const colors = require('colors/safe')
 const ProgressBar = require('progress')
-const gjv = require('geojson-validation')
 const appRoot = require('app-root-path')
 const { GeoPackageAPI } = require('@ngageoint/geopackage')
 const debug = require('debug')('geoapipt:generate-censosdata')
 
 const commonsDir = path.join(appRoot.path, 'routines', 'commons')
 const { extractZip, deleteNonZipFiles } = require(path.join(commonsDir, 'zip.js'))
-const { getFiles, deleteAllFilesBasedOnExt, createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
+const { getFiles, deleteAllFilesBasedOnExt, validateAllJsonFilesAsGeojson, createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
 
 const censosZipDir = path.join(appRoot.path, 'res', 'censos', 'source')
 const geoJsonSeccoesDir = path.join(appRoot.path, 'res', 'geojson', 'seccoes')
@@ -35,7 +34,7 @@ async.series(
       console.error(err)
       process.exitCode = 1
     } else {
-      console.log('Censos JSON files generated with ' + colors.green.bold('success'))
+      console.log('INE Sections and Subsection GeoJson files generated with ' + colors.green.bold('success'))
     }
   })
 
@@ -113,46 +112,7 @@ function generateSubsectionsGeojsons (mainCallback) {
   })
 }
 
-function validateGeojsonFiles (mainCallback) {
+function validateGeojsonFiles (callback) {
   console.log('Validating generated Geojson files')
-  // read files recursively from directory
-  getFiles([geoJsonSeccoesDir, geoJsonSubseccoesDir]).then(files => {
-    const filesToDelete = files.filter(f => path.extname(f) === '.json')
-
-    let bar
-    if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToDelete.length + 2, width: 80 })
-    } else {
-      bar = { tick: () => {}, terminate: () => {} }
-    }
-
-    bar.tick({ info: 'Validating' })
-
-    async.eachOf(filesToDelete, function (file, key, callback) {
-      try {
-        if (fs.existsSync(file)) {
-          const data = JSON.parse(fs.readFileSync(file))
-          if (!gjv.valid(data)) {
-            throw Error(`${file} is invalid GeoJSON`)
-          } else {
-            debug(`${path.relative(appRoot.path, file)} validated`)
-            bar.tick({ info: path.relative(appRoot.path, file) })
-          }
-        } else {
-          bar.tick()
-        }
-        callback()
-      } catch (err) {
-        callback(Error(err))
-      }
-    }, function (err) {
-      bar.tick({ info: '' })
-      bar.terminate()
-      if (err) {
-        mainCallback(Error(err))
-      } else {
-        mainCallback()
-      }
-    })
-  })
+  validateAllJsonFilesAsGeojson([geoJsonSeccoesDir, geoJsonSubseccoesDir], callback)
 }

@@ -9,7 +9,7 @@ const appRoot = require('app-root-path')
 const getGeojsonRegions = require(path.join(appRoot.path, 'src', 'server', 'services', 'getGeojsonRegions.js'))
 
 const commonsDir = path.join(appRoot.path, 'routines', 'commons')
-const { createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
+const { validateAllJsonFilesAsGeojson, createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
 
 const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'municipalities')
 const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
@@ -27,7 +27,9 @@ getGeojsonRegions((err, _regions) => {
     regions = _regions
     generategeojsonDistricts()
     saveFiles()
-    console.log(`GeoJSON files generated OK into ${path.relative(appRoot.path, districtsGeojsonDir)}`)
+    validateGeojsonFiles(() => {
+      console.log(`GeoJSON files generated OK into ${path.relative(appRoot.path, districtsGeojsonDir)}`)
+    })
   }
 })
 
@@ -98,4 +100,9 @@ function saveFiles () {
     createDirIfNotExist(path.dirname(file))
     fs.writeFileSync(file, JSON.stringify(geojsonDistricts[key]))
   }
+}
+
+function validateGeojsonFiles (callback) {
+  console.log('Validating generated Geojson files')
+  validateAllJsonFilesAsGeojson(districtsGeojsonDir, callback)
 }

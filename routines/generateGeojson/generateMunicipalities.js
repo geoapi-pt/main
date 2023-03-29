@@ -12,7 +12,7 @@ const municipalitiesGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'muni
 
 const { uniteParishes, cloneObj } = require(path.join(__dirname, 'functions'))
 const commonsDir = path.join(appRoot.path, 'routines', 'commons')
-const { createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
+const { validateAllJsonFilesAsGeojson, createDirIfNotExist } = require(path.join(commonsDir, 'file.js'))
 
 let regions
 
@@ -25,7 +25,9 @@ getGeojsonRegions((err, _regions) => {
     regions = _regions
     generateGeojsonMunicipalities()
     saveFiles()
-    console.log(`GeoJSON files generated OK into ${path.relative(appRoot.path, municipalitiesGeojsonDir)}`)
+    validateGeojsonFiles(() => {
+      console.log(`GeoJSON files generated OK into ${path.relative(appRoot.path, municipalitiesGeojsonDir)}`)
+    })
   }
 })
 
@@ -89,4 +91,9 @@ function saveFiles () {
     createDirIfNotExist(path.dirname(file))
     fs.writeFileSync(file, JSON.stringify(geojsonMunicipalities[key]))
   }
+}
+
+function validateGeojsonFiles (callback) {
+  console.log('Validating generated Geojson files')
+  validateAllJsonFilesAsGeojson(municipalitiesGeojsonDir, callback)
 }
