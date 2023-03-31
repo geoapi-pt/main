@@ -6,7 +6,7 @@ const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
-const censosDir = path.join(appRoot.path, 'res', 'censos')
+const geojsonDir = path.join(appRoot.path, 'res', 'geojson')
 
 module.exports = {
   fn: routeFn,
@@ -65,7 +65,7 @@ function routeFn (req, res, next, { administrations, regions }) {
 
     let sectionsGeojson, geojsonFile
     try {
-      geojsonFile = path.join(censosDir, 'geojson', '2021', `BGRI2021_${municipalityCode}.json`)
+      geojsonFile = path.join(geojsonDir, 'seccoes', '2021', `${municipalityCode}.json`)
       sectionsGeojson = JSON.parse(fs.readFileSync(geojsonFile))
     } catch (err) {
       res.status(404).sendData({ error: `Ficheiro Geojson ${path.relative(appRoot.path, geojsonFile)} não encontrado!` })
