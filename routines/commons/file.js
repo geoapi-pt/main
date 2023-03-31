@@ -89,6 +89,7 @@ function validateAllJsonFilesAsGeojson (dir, mainCallback) {
         if (fs.existsSync(file)) {
           const data = JSON.parse(fs.readFileSync(file))
           if (!gjv.valid(data)) {
+            console.error(`\n${file} is invalid GeoJSON\n`)
             throw Error(`${file} is invalid GeoJSON`)
           } else {
             debug(`${path.relative(appRoot.path, file)} validated`)
@@ -99,6 +100,7 @@ function validateAllJsonFilesAsGeojson (dir, mainCallback) {
         }
         callback()
       } catch (err) {
+        console.error(`\n${file} is invalid GeoJSON\n`)
         callback(Error(err))
       }
     }, function (err) {
