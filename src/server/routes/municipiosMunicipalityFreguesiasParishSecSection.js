@@ -7,13 +7,14 @@ const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFun
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 const geojsonDir = path.join(appRoot.path, 'res', 'geojson')
+const sectionsCensosDir = path.join(appRoot.path, 'res', 'censos', 'data', 'seccoes')
 
 module.exports = {
   fn: routeFn,
   route: '/municipios?/:municipality?/freguesias?/:parish?/sec/:section?'
 }
 
-function routeFn (req, res, next, { administrations, regions }) {
+async function routeFn (req, res, next, { administrations, regions }) {
   debug(req.path, req.query, req.headers)
 
   if (!req.params.municipality || !req.params.parish || !req.params.section) {
@@ -63,20 +64,35 @@ function routeFn (req, res, next, { administrations, regions }) {
       municipio: municipality
     }
 
-    let sectionsGeojson, geojsonFile
-    try {
-      geojsonFile = path.join(geojsonDir, 'seccoes', '2021', `${municipalityCode}.json`)
-      sectionsGeojson = JSON.parse(fs.readFileSync(geojsonFile))
-    } catch (err) {
+    const geojsonFile = path.join(geojsonDir, 'seccoes', '2021', `${municipalityCode}.json`)
+    const censosFile = path.join(sectionsCensosDir, parishCode, `${sectionFullCode}.json`)
+
+    if (!fs.existsSync(geojsonFile)) {
       res.status(404).sendData({ error: `Ficheiro Geojson ${path.relative(appRoot.path, geojsonFile)} não encontrado!` })
+      return
     }
+    if (!fs.existsSync(censosFile)) {
+      res.status(404).sendData({ error: `Ficheiro de Censos ${path.relative(appRoot.path, censosFile)} não encontrado!` })
+      return
+    }
+
+    const dataFromFiles = await Promise.all([fs.promises.readFile(geojsonFile), fs.promises.readFile(censosFile)])
+    const sectionsGeojson = JSON.parse(dataFromFiles[0])
+    const sectionsCensos = JSON.parse(dataFromFiles[1])
 
     const sectionGeojson = sectionsGeojson.features
       .find(el => el.properties.DTMNFRSEC21.padStart(9, '0') === sectionFullCode.padStart(9, '0'))
-    console.log(sectionGeojson)
 
     if (sectionGeojson) {
       sectionObj.geojson = sectionGeojson
+    }
+
+    if (sectionsCensos) {
+      for (const key of sectionsCensos) {
+        if (key.startsWith('censos')) {
+          sectionObj[key] = sectionsCensos[key]
+        }
+      }
     }
 
     if (isResponseJson(req)) {
