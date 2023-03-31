@@ -86,7 +86,9 @@ function generateSubsectionsGeojsons (mainCallback) {
         for (const feature of iterator) {
           geoJson.features.push(feature)
         }
-        const geoJsonFile = path.join(geoJsonSubseccoesDir, censosYear, featureTables[0] + '.json')
+
+        const DTMNCode = getDTMNCode(geoJson.features[0], censosYear)
+        const geoJsonFile = path.join(geoJsonSubseccoesDir, censosYear, DTMNCode + '.json')
 
         createDirIfNotExist(path.dirname(geoJsonFile))
         fs.writeFile(geoJsonFile, JSON.stringify(geoJson),
@@ -170,7 +172,8 @@ function generateSectionsGeojsons (mainCallback) {
           sectionsGeoJsons.features.push(sectionGeojson)
         })
 
-        const geoJsonFile = path.join(geoJsonSeccoesDir, censosYear, featureTables[0] + '.json')
+        const DTMNCode = getDTMNCode(sectionsGeoJsons.features[0], censosYear)
+        const geoJsonFile = path.join(geoJsonSeccoesDir, censosYear, DTMNCode + '.json')
 
         createDirIfNotExist(path.dirname(geoJsonFile))
         fs.writeFile(geoJsonFile, JSON.stringify(sectionsGeoJsons),
@@ -239,6 +242,17 @@ function copyFeatureProperties (feature, censosYear) {
     throw Error('wrong censosYear: ' + censosYear)
   }
   return properties
+}
+
+function getDTMNCode (feature, censosYear) {
+  const p = feature.properties
+  if (censosYear === '2011') {
+    return p.DTMN11
+  } else if (censosYear === '2021') {
+    return p.DTMN21
+  } else {
+    throw Error('wrong censosYear: ' + censosYear)
+  }
 }
 
 function removeDuplicatesArr (arr) {
