@@ -37,6 +37,12 @@ module.exports = (obj) => {
       const parish = obj.Freguesia
       obj.Freguesia =
         `<a href="/municipio/${adaptUrlVar(municipality)}/freguesia/${parish}">${correctCase(parish)}</a>`
+
+      if (isValidString(obj['Secção Estatística'])) {
+        const section = obj['Secção Estatística']
+        obj['Secção Estatística'] =
+        `<a href="/municipio/${adaptUrlVar(municipality)}/freguesia/${parish}/sec/${section}">${section}</a>`
+      }
     }
   }
 

@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const appRoot = require('app-root-path')
+const turf = require('@turf/turf')
 const debug = require('debug')('geoapipt:server')
 
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
@@ -57,7 +58,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
     const sectionFullCode = parishCode + section
 
     const municipality = administrations.municipalitiesDetails
-      .find(e => parseInt(e.codigoine) === municipalityCode)
+      .find(e => parseInt(e.codigoine) === parseInt(municipalityCode))
 
     const sectionObj = {
       freguesia: parish,
@@ -85,10 +86,11 @@ async function routeFn (req, res, next, { administrations, regions }) {
 
     if (sectionGeojson) {
       sectionObj.geojson = sectionGeojson
+      sectionObj.geojson.bbox = turf.bbox(sectionGeojson)
     }
 
     if (sectionsCensos) {
-      for (const key of sectionsCensos) {
+      for (const key in sectionsCensos) {
         if (key.startsWith('censos')) {
           sectionObj[key] = sectionsCensos[key]
         }
@@ -101,8 +103,16 @@ async function routeFn (req, res, next, { administrations, regions }) {
       // html/text response
       const dataToShowOnHtml = JSON.parse(JSON.stringify(sectionObj)) // deep clone
 
+      const freguesia = dataToShowOnHtml.freguesia.nome
+      const municipio = dataToShowOnHtml.municipio.nome
+      const distrito = dataToShowOnHtml.municipio.distrito
+
       delete dataToShowOnHtml.freguesia
       delete dataToShowOnHtml.municipio
+
+      dataToShowOnHtml.freguesia = freguesia
+      dataToShowOnHtml.municipio = municipio
+      dataToShowOnHtml.distrito = distrito
 
       if (sectionGeojson) {
         delete dataToShowOnHtml.geojson
@@ -115,7 +125,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
           Freguesia: `${parish.nomecompleto} (<a href="/municipio/${parish.municipio.toLowerCase()}">${parish.municipio}</a>)`
         },
         dataToShowOnHtml: dataToShowOnHtml,
-        pageTitle: `Dados sobre a Secção da Freguesia ${parish.nomecompleto} (${parish.municipio})`,
+        pageTitle: `Dados sobre a Secção Estatística ${section} da Freguesia ${parish.nomecompleto} (${parish.municipio})`,
         template: 'routes/seccao'
       })
     }
