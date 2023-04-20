@@ -18,7 +18,7 @@ const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
 const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
 
 // directories
-const censosGeojsonDir = path.join(appRoot.path, 'res', 'censos', 'geojson', '2021')
+const censosGeojsonDir = path.join(appRoot.path, 'res', 'geojson')
 const adminAddressesDir = path.join(appRoot.path, 'res', 'admins-addresses')
 const cartaSoloDir = path.join(appRoot.path, 'res', 'carta-solo', 'freguesias')
 
@@ -127,8 +127,8 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     // Provides secção and subseção estatística
     // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
     const geojsonFilePath = path.join(
-      censosGeojsonDir,
-      `BGRI2021_${municipalityIneCode.toString().padStart(4, '0')}.json`
+      censosGeojsonDir, 'subseccoes', '2021',
+      `${municipalityIneCode.toString().padStart(4, '0')}.json`
     )
     fs.readFile(geojsonFilePath, (err, data) => {
       if (!err && data) {
@@ -137,22 +137,26 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
         const subSecction = lookupBGRI.search(lon, lat)
 
         if (subSecction) {
-          local['Secção Estatística (INE, BGRI 2021)'] = subSecction.properties.SEC
-          local['Subsecção Estatística (INE, BGRI 2021)'] = subSecction.properties.SS
+          const prop = subSecction.properties
+
+          const SEC = prop.SEC || prop.SECNUM21 || prop.DTMNFRSEC21.slice(-3)
+          const SS = prop.SS || prop.SSNUM21 || prop.SECSSNUM21.slice(-2) || prop.SUBSECCAO.slice(-2)
+
+          local.SEC = SEC
+          local.SS = SS
 
           if (isDetails) {
             local['Detalhes Subsecção Estatística'] = subSecction.properties
           }
 
           // now extract info from nearest point/address
-          const prop = subSecction.properties
           const addressesFilePath = path.join(
             adminAddressesDir,
-            prop.DT,
-            prop.CC || prop.MN,
-            prop.fr || prop.FR,
-            prop.SEC,
-            prop.SS + '.json'
+            prop.DT || prop.DT21,
+            prop.CC || prop.MN || prop.DTMN21.slice(-2),
+            prop.fr || prop.FR || prop.DTMNFR21.slice(-2),
+            SEC,
+            SS + '.json'
           )
 
           fs.readFile(addressesFilePath, (err, data) => {
@@ -196,6 +200,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
           callback()
         }
       } else {
+        console.warn('Empty or no data on ' + geojsonFilePath)
         callback()
       }
     })
