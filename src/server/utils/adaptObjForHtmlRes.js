@@ -42,6 +42,12 @@ module.exports = (obj) => {
         const section = obj['Secção Estatística']
         obj['Secção Estatística'] =
         `<a href="/municipio/${adaptUrlVar(municipality)}/freguesia/${parish}/sec/${section}">${section}</a>`
+
+        if (isValidString(obj['Subsecção Estatística'])) {
+          const subsection = obj['Subsecção Estatística']
+          obj['Subsecção Estatística'] =
+          `<a href="/municipio/${adaptUrlVar(municipality)}/freguesia/${parish}/sec/${section}/ss/${subsection}">${subsection}</a>`
+        }
       }
     }
   }
