@@ -3,7 +3,7 @@
 import * as leafletContextmenu from './leafletContextmenu.js'
 
 const sectionDataDomEl = document.getElementById('section-route-data')
-const sectionData = JSON.parse(decodeURIComponent(sectionDataDomEl.dataset.parishroute))
+const sectionData = JSON.parse(decodeURIComponent(sectionDataDomEl.dataset.sectionroute))
 window.sectionData = sectionData
 
 console.log('geojsons:', sectionData.geojson)
