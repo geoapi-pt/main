@@ -87,6 +87,11 @@ async function routeFn (req, res, next, { administrations, regions }) {
     if (sectionGeojson) {
       sectionObj.geojson = sectionGeojson
       sectionObj.geojson.bbox = turf.bbox(sectionGeojson)
+    } else {
+      res.status(404).sendData({
+        error: `Secção ${section} da freguesia ${parish.nome} do município ${municipality.nome} não encontrada!`
+      })
+      return
     }
 
     if (sectionsCensos) {
@@ -130,6 +135,6 @@ async function routeFn (req, res, next, { administrations, regions }) {
       })
     }
   } else {
-    res.status(404).sendData({ error: `Secção ${section} da freguesia ${parish} do município ${municipality} não encontrada!` })
+    res.status(404).sendData({ error: `Secção ${section} da freguesia ${parish.nome} do município ${municipality.nome} não encontrada!` })
   }
 }
