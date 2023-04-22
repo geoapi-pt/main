@@ -3308,14 +3308,24 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Lista de todos os Distritos
+          description: Informação de todos os Distritos
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  type: string
-                example: ["Aveiro","Beja","Braga","Bragança","Castelo Branco","Coimbra","Faro","Guarda","Leiria","Lisboa","Portalegre","Porto","R. A. Açores","R. A. Madeira","Santarém","Setúbal","Viana do Castelo","Vila Real","Viseu","Évora"]
+                  type: object
+                  properties:
+                    distrito:
+                      type: string
+                    codigoine:
+                      type: string
+                    geojson:
+                      type: object
+                    censos2011:
+                      type: object
+                    censos2021:
+                      type: object
         '400':
           description: Pedido com erro
           content:

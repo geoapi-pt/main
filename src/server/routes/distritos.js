@@ -12,13 +12,16 @@ module.exports = {
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
-  const result = JSON.parse(JSON.stringify(administrations.listOfDistricts)) // deep clone
-
   if (isResponseJson(req)) {
+    const result = JSON.parse(JSON.stringify(administrations.districtsDetails)) // deep clone
+    // for info about municiaplities of each district use instead route /distritos/municipios
+    result.forEach(district => {
+      delete district.municipios
+    })
     res.status(200).sendData({ data: result })
   } else {
     res.status(200).sendData({
-      data: result,
+      data: JSON.parse(JSON.stringify(administrations.listOfDistricts)), // deep clone
       input: 'Lista de distritos',
       pageTitle: 'Lista de distritos de Portugal'
     })
