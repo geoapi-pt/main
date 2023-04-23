@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "Open geographical data for Portugal",
   "scripts": {
-    "depcheck": "depcheck --ignores=\"depcheck,leaflet,leaflet-contextmenu\" --ignore-patterns=\"res/*\"",
+    "depcheck": "depcheck --ignores=\"depcheck,leaflet,leaflet-contextmenu,topojson-client,topojson-server\" --ignore-patterns=\"res/*\"",
     "validate-openapi": "redocly lint src/public/openapi.yaml && lint-openapi src/public/openapi.yaml -e -v -r docs/ibm-lint-openapi-rules.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
     "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateHtml.js && node test/mainTest.js",
