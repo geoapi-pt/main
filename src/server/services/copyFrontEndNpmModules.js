@@ -19,6 +19,9 @@ function copyFrontEndNpmModules (callback) {
   try {
     copyModule('leaflet', 'dist') // from node_modules/leaflet/dist -> views/lib/leaflet
     copyModule('leaflet-contextmenu', 'dist') // from node_modules/leaflet/dist -> views/lib/leaflet
+    copyModule('leaflet-contextmenu', 'dist')
+    copyModule('topojson-server', 'dist')
+    copyModule('topojson-client', 'dist')
     callback()
   } catch (err) {
     console.error(err)
