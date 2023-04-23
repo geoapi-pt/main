@@ -1,6 +1,7 @@
 /* global topojson */
 
-const colors = ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5', '#ffed6f']
+// List of distinctive colors provided by ColorBrewer: https://colorbrewer2.org/#type=qualitative&scheme=Set3&n=12
+const colors = ['#8dd3c7', '#ffffb3', '#fb8072', '#80b1d3', '#fdb462', '#bebada', '#b3de69', '#fccde5', '#d9d9d9', '#bc80bd', '#ccebc5', '#ffed6f']
 
 export function style (feature) {
   return {
