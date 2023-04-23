@@ -2,7 +2,7 @@
 
 import * as leafletContextmenu from './leafletContextmenu.js'
 import { mobileCheck } from './functions.js'
-import { getColor } from './map-functions.js'
+import { getGeojsonFeatureCollection, getHighlightFeature, getZoomToFeature, style } from './map-functions.js'
 
 const indexDataDomEl = document.getElementById('index-route-data')
 const indexData = JSON.parse(decodeURIComponent(indexDataDomEl.dataset.indexroute))
@@ -12,26 +12,19 @@ console.log('indexData:', indexData)
 const mapWidth = document.getElementById('map').offsetWidth
 const assumeMobile = mapWidth < 500 || mobileCheck()
 
-const districtsGeoJsonFeatureCollection = {
-  type: 'FeatureCollection',
-  features: indexData.districts.filter(d => d.geojson).map(d => {
-    const geojson = d.geojson
-    Object.keys(d).forEach(key => {
-      if (key.startsWith('censos')) {
-        geojson.properties[key] = d[key]
-      }
-    })
-    return geojson
+const geojsonFeatures = indexData.districts.filter(d => d.geojson).map(d => {
+  const geojson = d.geojson
+  Object.keys(d).forEach(key => {
+    if (key.startsWith('censos')) {
+      geojson.properties[key] = d[key]
+    }
   })
-}
+  return geojson
+})
+
+const districtsGeoJsonFeatureCollection = getGeojsonFeatureCollection(geojsonFeatures)
 
 console.log(districtsGeoJsonFeatureCollection)
-
-// need this for color pallete
-const numberOfDistricts = districtsGeoJsonFeatureCollection.features.length
-districtsGeoJsonFeatureCollection.features.forEach((district, index) => {
-  district.properties.index = index
-})
 
 const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
@@ -88,44 +81,23 @@ info.update = function (properties) {
 
 info.addTo(map)
 
-function style (feature) {
-  return {
-    weight: 2,
-    opacity: 1,
-    color: 'white',
-    dashArray: '3',
-    fillOpacity: 0.7,
-    fillColor: getColor(feature.properties.index, numberOfDistricts)
-  }
-}
-
-function highlightFeature (e) {
-  const layer = e.target
-
-  layer.setStyle({
-    weight: 5,
-    color: '#666',
-    dashArray: '',
-    fillOpacity: 0.7
-  })
-
-  layer.bringToFront()
-
-  info.update(layer.feature.properties)
-}
-
-const geojson = L.geoJson(districtsGeoJsonFeatureCollection, {
+const geojsonLayer = L.geoJson(districtsGeoJsonFeatureCollection, {
   style,
   onEachFeature
 }).addTo(map)
 
-function resetHighlight (e) {
-  geojson.resetStyle(e.target)
-  info.update()
+function onEachFeature (feature, layer) {
+  layer.on({
+    mouseover: getHighlightFeature(info),
+    mouseout: resetHighlight,
+    click: getZoomToFeature(map),
+    dblclick: forwardToPage
+  })
 }
 
-function zoomToFeature (e) {
-  map.fitBounds(e.target.getBounds())
+function resetHighlight (e) {
+  geojsonLayer.resetStyle(e.target)
+  info.update()
 }
 
 function forwardToPage (e) {
@@ -133,15 +105,6 @@ function forwardToPage (e) {
   if (distrito) {
     window.location.href = `/distrito/${encodeURIComponent(distrito.toLowerCase())}/municipios`
   }
-}
-
-function onEachFeature (feature, layer) {
-  layer.on({
-    mouseover: highlightFeature,
-    mouseout: resetHighlight,
-    click: zoomToFeature,
-    dblclick: forwardToPage
-  })
 }
 
 map.attributionControl.addAttribution('Carta Administrativa Oficial de Portugal <a href="https://www.dgterritorio.gov.pt/">Direção Geral do Território</a>')
