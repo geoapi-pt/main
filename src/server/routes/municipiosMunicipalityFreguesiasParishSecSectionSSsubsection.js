@@ -62,7 +62,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
     const municipality = administrations.municipalitiesDetails
       .find(e => parseInt(e.codigoine) === parseInt(municipalityCode))
 
-    const sectionObj = {
+    const subsectionObj = {
       freguesia: parish,
       municipio: municipality
     }
@@ -83,14 +83,12 @@ async function routeFn (req, res, next, { administrations, regions }) {
     const subsectionsGeojson = JSON.parse(dataFromFiles[0])
     const subsectionsCensos = JSON.parse(dataFromFiles[1])
 
-    // console.log(subsectionsGeojson.features)
-    // console.log(subsectionsGeojson.features[0].properties)
     const subsectionGeojson = subsectionsGeojson.features
       .find(el => el.properties.SUBSECCAO === subsectionFullCode.padStart(11, '0'))
 
     if (subsectionGeojson) {
-      sectionObj.geojson = subsectionGeojson
-      sectionObj.geojson.bbox = turf.bbox(subsectionGeojson)
+      subsectionObj.geojson = subsectionGeojson
+      subsectionObj.geojson.bbox = turf.bbox(subsectionGeojson)
     } else {
       res.status(404).sendData({
         error: `Geojson não encontrado para a Subsecção ${subsection} da Secção ${section} da freguesia ${parish.nome} do município ${municipality.nome}!`
@@ -101,7 +99,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
     if (subsectionsCensos) {
       for (const key in subsectionsCensos) {
         if (key.startsWith('censos')) {
-          sectionObj[key] = subsectionsCensos[key]
+          subsectionObj[key] = subsectionsCensos[key]
         }
       }
     }
@@ -110,7 +108,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
       res.status(200).sendData({ data: sectionObj })
     } else {
       // html/text response
-      const dataToShowOnHtml = JSON.parse(JSON.stringify(sectionObj)) // deep clone
+      const dataToShowOnHtml = JSON.parse(JSON.stringify(subsectionObj)) // deep clone
 
       const freguesia = dataToShowOnHtml.freguesia.nome
       const municipio = dataToShowOnHtml.municipio.nome
@@ -129,7 +127,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
       }
 
       res.status(200).sendData({
-        data: sectionObj,
+        data: subsectionObj,
         input: {
           Subsecção: subsection,
           Secção: `<a href="/municipio/${adaptUrlVar(municipality.nome)}/freguesia/${adaptUrlVar(parish.nome)}/sec/${section}">${section}</a>`,
