@@ -103,6 +103,17 @@ async function routeFn (req, res, next, { administrations, regions }) {
     }
 
     if (isResponseJson(req)) {
+      // JSON response
+      const prop = sectionObj.geojson.properties
+      const SEC = prop.SEC || prop.SECNUM21 || prop.DTMNFRSEC21.slice(-3) || prop.SEC11
+      if (SEC) {
+        sectionObj.SEC = SEC
+      }
+      const DTMNFRSEC = prop.DTMNFRSEC21 || (prop.DTMN11 + prop.FR11 + prop.SEC11)
+      if (DTMNFRSEC) {
+        sectionObj.DTMNFRSEC = DTMNFRSEC
+      }
+
       res.status(200).sendData({ data: sectionObj })
     } else {
       // html/text response
