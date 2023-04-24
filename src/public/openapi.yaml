@@ -2219,9 +2219,9 @@ paths:
                     type: string
                   uso:
                     type: string
-                  Secção Estatística (INE, BGRI 2021):
+                  SEC:
                     type: string
-                  Subsecção Estatística (INE, BGRI 2021):
+                  SS:
                     type: string
                   rua:
                     type: string
@@ -2236,8 +2236,8 @@ paths:
                   concelho: Lisboa
                   freguesia: Marvila
                   uso: Tecido edificado contínuo predominantemente vertical
-                  Secção Estatística (INE, BGRI 2021): 011
-                  Subsecção Estatística (INE, BGRI 2021): 06
+                  SEC: 011
+                  SS: 06
                   rua: Rua Fernando Maurício
                   n_porta: 30
                   CP: 1950-449
@@ -2285,9 +2285,9 @@ paths:
                     type: string
                   uso:
                     type: string
-                  Secção Estatística (INE, BGRI 2021):
+                  SEC:
                     type: string
-                  Subsecção Estatística (INE, BGRI 2021):
+                  SS:
                     type: string
                   rua:
                     type: string
@@ -2304,8 +2304,8 @@ paths:
                   concelho: Lisboa
                   freguesia: Marvila
                   uso: Tecido edificado contínuo predominantemente vertical
-                  Secção Estatística (INE, BGRI 2021): 011
-                  Subsecção Estatística (INE, BGRI 2021): 06
+                  SEC: 011
+                  SS: 06
                   rua: Rua Fernando Maurício
                   n_porta: 30
                   altitude_m: 66
@@ -2400,10 +2400,10 @@ paths:
                         type: integer
                         format: int32
                         example: 807
-                  Secção Estatística (INE BGRI 2021): 
+                  SEC: 
                     type: string
                     example: 011
-                  Subsecção Estatística (INE BGRI 2021): 
+                  SS: 
                     type: string
                     example: 06
                   Detalhes Subsecção Estatística: 
