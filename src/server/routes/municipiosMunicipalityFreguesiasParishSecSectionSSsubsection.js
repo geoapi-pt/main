@@ -105,7 +105,18 @@ async function routeFn (req, res, next, { administrations, regions }) {
     }
 
     if (isResponseJson(req)) {
-      res.status(200).sendData({ data: sectionObj })
+      // JSON response
+      const prop = subsectionObj.geojson.properties
+      const SS = prop.SS || prop.SSNUM21 || prop.SECSSNUM21.slice(-2) || prop.SUBSECCAO.slice(-2) + prop.SS11
+      if (SS) {
+        subsectionObj.SS = SS
+      }
+      const BGRI = prop.BGRI2021 || prop.BGRI11
+      if (BGRI) {
+        subsectionObj.BGRI = BGRI
+      }
+
+      res.status(200).sendData({ data: subsectionObj })
     } else {
       // html/text response
       const dataToShowOnHtml = JSON.parse(JSON.stringify(subsectionObj)) // deep clone
