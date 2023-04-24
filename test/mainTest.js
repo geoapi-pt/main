@@ -335,8 +335,10 @@ function testOpenApiPathsJson (mainCallback) {
             eachCallback(Error(`\nError on ${url}`))
           } else {
             const gpsRegex = /^\/gps\/.+/
-            const regexMunicipios = /^\/municipios?\/.+/
-            const regexFreguesias = /\/freguesias?\/.+/
+            const regexMunicipios = /^\/municipios?\/[^/]+$/
+            const regexFreguesias = /^\/municipios?\/[^/]+\/freguesias?(\/[^/]+)?$/
+            const regexSections = /^\/municipios?\/.+\/sec\/.\d+$/
+            const regexSubsections = /^\/municipios?\/.+\/sec\/\d+\/ss\/\d+$/
             const regexDistritos = /^\/distritos?\/.+/
             const postalCodeCP4 = /^\/cp\/\d{4}$/
             const postalCodeCP7 = /^\/cp\/\d{4}\p{Dash}?\d{3}$/u
@@ -370,13 +372,38 @@ function testOpenApiPathsJson (mainCallback) {
                 }
               }
             } else if (regexFreguesias.test(urlAbsolutePath)) {
-              if (Array.isArray(body) && body.length && body[0].nome && body[0].municipio && body[0].censos2011) {
-                eachCallback()
-              } else if (body.nome && body.municipio && body.censos2011) {
+              if (urlAbsolutePath.endsWith('/freguesias')) {
+                // ex: /municipio/évora/freguesias
+                if (body.nome && Array.isArray(body.freguesias)) {
+                  eachCallback()
+                } else {
+                  console.error(body)
+                  eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, response is not a non-empty Array`))
+                }
+              } else {
+                // ex: /municipio/lisboa/freguesia/ajuda
+                if (Array.isArray(body) && body.length && body[0].nome && body[0].municipio && body[0].censos2011) {
+                  eachCallback()
+                } else if (body.nome && body.municipio && body.censos2011) {
+                  eachCallback()
+                } else {
+                  console.error(body)
+                  eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, it has not these keys: 'nome', 'municipio' and 'censos2011'`))
+                }
+              }
+            } else if (regexSections.test(urlAbsolutePath)) {
+              if (body.SEC) {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response on ${urlAbsolutePath}, it has not these keys: 'nome', 'municipio' and 'censos2011'`))
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has no key SEC`))
+              }
+            } else if (regexSubsections.test(urlAbsolutePath)) {
+              if (body.SS) {
+                eachCallback()
+              } else {
+                console.error(body)
+                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has no key SS`))
               }
             } else if (regexDistritos.test(urlAbsolutePath)) {
               if (Array.isArray(body) && body.length && body[0].distrito && Array.isArray(body[0].municipios)) {
