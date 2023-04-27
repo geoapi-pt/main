@@ -1,6 +1,7 @@
 /* global L */
 
 import * as leafletContextmenu from './leafletContextmenu.js'
+import * as mapFunctions from './map-functions.js'
 
 const subsectionDataDomEl = document.getElementById('subsection-route-data')
 const subsectionData = JSON.parse(decodeURIComponent(subsectionDataDomEl.dataset.subsectionroute))
@@ -10,6 +11,7 @@ console.log('geojsons:', subsectionData.geojson)
 
 const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
+mapFunctions.setMap(map)
 
 const bbox = subsectionData.geojson.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])

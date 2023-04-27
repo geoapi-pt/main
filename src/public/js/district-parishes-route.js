@@ -2,7 +2,7 @@
 
 import * as leafletContextmenu from './leafletContextmenu.js'
 import { mobileCheck } from './functions.js'
-import { getGeojsonFeatureCollection, getHighlightFeature, getZoomToFeature, style } from './map-functions.js'
+import * as mapFunctions from './map-functions.js'
 
 const districtParishesDataDomEl = document.getElementById('district-parishes-route-data')
 const districtParishesData = JSON.parse(decodeURIComponent(districtParishesDataDomEl.dataset.districtparishesroute))
@@ -11,13 +11,14 @@ window.districtParishesData = districtParishesData
 const geojsons = districtParishesData.geojsons
 console.log('geojsons:', geojsons)
 
-const parishesGeoJsonFeatureCollection = getGeojsonFeatureCollection(geojsons.freguesias)
+const parishesGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsons.freguesias)
 
 const centros = geojsons.distrito.properties.centros
 const centro = centros.centro
 
 const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
 leafletContextmenu.setMap(map)
+mapFunctions.setMap(map)
 
 const bbox = geojsons.distrito.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])
@@ -57,15 +58,15 @@ info.update = function (props) {
 info.addTo(map)
 
 const geojsonLayer = L.geoJson(parishesGeoJsonFeatureCollection, {
-  style,
+  style: mapFunctions.style,
   onEachFeature
 }).addTo(map)
 
 function onEachFeature (feature, layer) {
   layer.on({
-    mouseover: getHighlightFeature(info),
+    mouseover: mapFunctions.getHighlightFeature(info),
     mouseout: resetHighlight,
-    click: getZoomToFeature(map),
+    click: mapFunctions.getZoomToFeature(map),
     dblclick: forwardToPage
   })
 }

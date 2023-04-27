@@ -1,6 +1,7 @@
 /* global L */
 
 import * as leafletContextmenu from './leafletContextmenu.js'
+import * as mapFunctions from './map-functions.js'
 
 const districtDataDomEl = document.getElementById('district-route-data')
 const districtData = JSON.parse(decodeURIComponent(districtDataDomEl.dataset.districtroute))
@@ -13,6 +14,7 @@ const centro = centros.centro
 
 const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
 leafletContextmenu.setMap(map)
+mapFunctions.setMap(map)
 
 const bbox = districtData.geojson.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])

@@ -2,7 +2,7 @@
 
 import * as leafletContextmenu from './leafletContextmenu.js'
 import { mobileCheck } from './functions.js'
-import { getGeojsonFeatureCollection, getHighlightFeature, getZoomToFeature, style } from './map-functions.js'
+import * as mapFunctions from './map-functions.js'
 
 const indexDataDomEl = document.getElementById('index-route-data')
 const indexData = JSON.parse(decodeURIComponent(indexDataDomEl.dataset.indexroute))
@@ -22,12 +22,13 @@ const geojsonFeatures = indexData.districts.filter(d => d.geojson).map(d => {
   return geojson
 })
 
-const districtsGeoJsonFeatureCollection = getGeojsonFeatureCollection(geojsonFeatures)
+const districtsGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsonFeatures)
 
 console.log(districtsGeoJsonFeatureCollection)
 
 const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
+mapFunctions.setMap(map)
 
 const bbox = indexData.bbox
 console.log('bbox', bbox)
@@ -71,9 +72,9 @@ info.update = function (properties) {
     }
   } else {
     if (mobileCheck()) {
-      contents = '<h4>Distritos</h4>Toque num distrito ou faça-lhe duplo toque'
+      contents = '<h4>Distritos</h4>Toque num distrito ou faça-lhe duplo toque.<br>Pressione longamente num ponto do mapa para mais opções.'
     } else {
-      contents = '<h4>Distritos</h4>Mova o rato sobre um distrito ou faça-lhe (duplo)clique'
+      contents = '<h4>Distritos</h4><b>Mova o rato sobre um distrito ou faça-lhe (duplo)clique.<br>Clique no botão direito do rato num ponto do mapa para mais opções.</b>'
     }
   }
   this._div.innerHTML = contents
@@ -82,15 +83,15 @@ info.update = function (properties) {
 info.addTo(map)
 
 const geojsonLayer = L.geoJson(districtsGeoJsonFeatureCollection, {
-  style,
+  style: mapFunctions.style,
   onEachFeature
 }).addTo(map)
 
 function onEachFeature (feature, layer) {
   layer.on({
-    mouseover: getHighlightFeature(info),
+    mouseover: mapFunctions.getHighlightFeature(info),
     mouseout: resetHighlight,
-    click: getZoomToFeature(map),
+    click: mapFunctions.getZoomToFeature(map),
     dblclick: forwardToPage
   })
 }
