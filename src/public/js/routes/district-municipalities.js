@@ -1,17 +1,17 @@
 /* global L */
 
-import * as leafletContextmenu from './leafletContextmenu.js'
-import { mobileCheck } from './functions.js'
-import * as mapFunctions from './map-functions.js'
+import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import { mobileCheck } from '../functions.js'
+import * as mapFunctions from '../map/map-functions.js'
 
-const districtParishesDataDomEl = document.getElementById('district-parishes-route-data')
-const districtParishesData = JSON.parse(decodeURIComponent(districtParishesDataDomEl.dataset.districtparishesroute))
-window.districtParishesData = districtParishesData
+const districtMunicipalitiesDataDomEl = document.getElementById('district-municipalities-route-data')
+const districtMunicipalitiesData = JSON.parse(decodeURIComponent(districtMunicipalitiesDataDomEl.dataset.districtmunicipalitiesroute))
+window.districtMunicipalitiesData = districtMunicipalitiesData
 
-const geojsons = districtParishesData.geojsons
+const geojsons = districtMunicipalitiesData.geojsons
 console.log('geojsons:', geojsons)
 
-const parishesGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsons.freguesias)
+const municipalitiesGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsons.municipios)
 
 const centros = geojsons.distrito.properties.centros
 const centro = centros.centro
@@ -41,14 +41,15 @@ info.onAdd = function (map) {
 }
 
 info.update = function (props) {
-  let contents = '<h4>Freguesias</h4>'
-  if (props) {
-    contents += `<b>${props.Freguesia}</b><br>${props.Area_T_ha} hectares`
+  let contents = '<h4>Municípios</h4>'
+
+  if (props && props.Concelho) {
+    contents += `<b>${props.Concelho}</b>`
   } else {
     if (mobileCheck()) {
-      contents += 'Toque numa freguesia ou faça-lhe duplo toque'
+      contents = 'Toque num município ou faça-lhe duplo toque'
     } else {
-      contents += 'Mova o rato sobre uma freguesia ou faça-lhe (duplo)clique'
+      contents = 'Mova o rato sobre um município ou faça-lhe (duplo)clique'
     }
   }
 
@@ -57,7 +58,7 @@ info.update = function (props) {
 
 info.addTo(map)
 
-const geojsonLayer = L.geoJson(parishesGeoJsonFeatureCollection, {
+const geojsonLayer = L.geoJson(municipalitiesGeoJsonFeatureCollection, {
   style: mapFunctions.style,
   onEachFeature
 }).addTo(map)
@@ -77,11 +78,9 @@ function resetHighlight (e) {
 }
 
 function forwardToPage (e) {
-  const parish = e.target.feature.properties.Freguesia
   const municipality = e.target.feature.properties.Concelho
-  if (parish && municipality) {
-    window.location.href =
-      `/municipio/${encodeURIComponent(municipality.toLowerCase())}/freguesia/${encodeURIComponent(parish.toLowerCase())}`
+  if (municipality) {
+    window.location.href = `/municipio/${encodeURIComponent(municipality.toLowerCase())}/freguesias`
   }
 }
 

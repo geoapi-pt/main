@@ -1,8 +1,8 @@
 /* global L */
 
-import * as leafletContextmenu from './leafletContextmenu.js'
-import { mobileCheck } from './functions.js'
-import * as mapFunctions from './map-functions.js'
+import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import { mobileCheck } from '../functions.js'
+import * as mapFunctions from '../map/map-functions.js'
 
 const municipalityParishesDataDomEl = document.getElementById('municipality-parishes-route-data')
 const municipalityParishesData = JSON.parse(decodeURIComponent(municipalityParishesDataDomEl.dataset.municipalityparishesroute))

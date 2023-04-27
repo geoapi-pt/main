@@ -1,19 +1,19 @@
 /* global L */
 
-import * as leafletContextmenu from './leafletContextmenu.js'
-import * as mapFunctions from './map-functions.js'
+import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import * as mapFunctions from '../map/map-functions.js'
 
-const subsectionDataDomEl = document.getElementById('subsection-route-data')
-const subsectionData = JSON.parse(decodeURIComponent(subsectionDataDomEl.dataset.subsectionroute))
-window.subsectionData = subsectionData
+const sectionDataDomEl = document.getElementById('section-route-data')
+const sectionData = JSON.parse(decodeURIComponent(sectionDataDomEl.dataset.sectionroute))
+window.sectionData = sectionData
 
-console.log('geojsons:', subsectionData.geojson)
+console.log('geojsons:', sectionData.geojson)
 
 const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
 mapFunctions.setMap(map)
 
-const bbox = subsectionData.geojson.bbox
+const bbox = sectionData.geojson.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])
 const corner2 = L.latLng(bbox[3], bbox[2])
 const bounds = L.latLngBounds(corner1, corner2)
@@ -24,7 +24,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap'
 }).addTo(map)
 
-L.geoJSON(subsectionData.geojson, {
+L.geoJSON(sectionData.geojson, {
   style: {
     stroke: true,
     color: '#9933ff',

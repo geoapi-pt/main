@@ -1,22 +1,20 @@
 /* global L */
 
-import * as leafletContextmenu from './leafletContextmenu.js'
-import * as mapFunctions from './map-functions.js'
+import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import * as mapFunctions from '../map/map-functions.js'
 
-const districtDataDomEl = document.getElementById('district-route-data')
-const districtData = JSON.parse(decodeURIComponent(districtDataDomEl.dataset.districtroute))
-window.districtData = districtData
+const municipalityDataDomEl = document.getElementById('municipality-route-data')
+const municipalityData = JSON.parse(decodeURIComponent(municipalityDataDomEl.dataset.municipalityroute))
+window.municipalityData = municipalityData
 
-console.log('geojsons:', districtData.geojson)
-
-const centros = districtData.geojson.properties.centros
+const centros = municipalityData.geojsons.municipio.properties.centros
 const centro = centros.centro
 
 const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
 leafletContextmenu.setMap(map)
 mapFunctions.setMap(map)
 
-const bbox = districtData.geojson.bbox
+const bbox = municipalityData.geojsons.municipio.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])
 const corner2 = L.latLng(bbox[3], bbox[2])
 const bounds = L.latLngBounds(corner1, corner2)
@@ -47,7 +45,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap'
 }).addTo(map)
 
-L.geoJSON(districtData.geojson, {
+L.geoJSON(municipalityData.geojsons.municipio, {
   style: {
     stroke: true,
     color: '#9933ff',
