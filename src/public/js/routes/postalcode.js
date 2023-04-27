@@ -1,7 +1,7 @@
 /* global L */
 
-import * as leafletContextmenu from './leafletContextmenu.js'
-import * as mapFunctions from './map-functions.js'
+import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import * as mapFunctions from '../map/map-functions.js'
 
 const postcodeDataDomEl = document.getElementById('postcode-data')
 const postcodeData = JSON.parse(decodeURIComponent(postcodeDataDomEl.dataset.postcode))
