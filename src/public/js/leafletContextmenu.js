@@ -32,7 +32,8 @@ export const mapOtions = {
     text: 'Afastar',
     icon: '/img/zoom-out.png',
     callback: zoomOut
-  }]
+  }],
+  zoomControl: true
 }
 
 function showDetails (e) {
