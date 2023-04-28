@@ -1,4 +1,6 @@
 /* global L */
+import '../getAuthorityInfo.js'
+import '../getPostalCodesInfo.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { mobileCheck } from '../functions.js'

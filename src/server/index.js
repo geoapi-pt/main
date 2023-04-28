@@ -27,7 +27,7 @@ const middlewaresDir = path.join(__dirname, 'middlewares')
 const utilsDir = path.join(__dirname, 'utils')
 
 // import server project modules
-const copyFrontEndNpmModules = require(path.join(servicesDir, 'copyFrontEndNpmModules.js'))
+const webpack = require(path.join(servicesDir, 'webpack.js'))
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
@@ -72,7 +72,7 @@ console.time('serverTimeToStart')
 let regions, administrations
 
 console.log('Starting. Please wait...')
-async.series([copyFrontEndNpmModules, prepare, startServer],
+async.series([webpack, prepare, startServer],
   function (err) {
     if (err) {
       console.error(err)
@@ -115,7 +115,7 @@ function startServer (callback) {
   app.set('view engine', '.hbs')
   app.set('views', path.join(__dirname, '..', 'views'))
 
-  app.use('/', express.static(path.join(__dirname, '..', 'public'), { etag: false }))
+  app.use('/', express.static(path.join(__dirname, '..', 'public', 'dist'), { etag: false }))
 
   app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
 
