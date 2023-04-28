@@ -1,6 +1,18 @@
-/* global topojson */
+/* global L */
+
+import 'leaflet/dist/leaflet'
+
+import * as topojsonServer from 'topojson-server/dist/topojson-server'
+import * as topojsonClient from 'topojson-client/dist/topojson-client'
 
 let map
+
+delete L.Icon.Default.prototype._getIconUrl
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('leaflet/dist/images/marker-icon.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+})
 
 export function setMap (_map) {
   map = _map
@@ -27,8 +39,8 @@ export function getGeojsonFeatureCollection (geojsonFeatures) {
     features: geojsonFeatures
   }
 
-  const topoJSON = topojson.topology([geoJsonFeatureCollection], 1e4)
-  const neighbors = topojson.neighbors(topoJSON.objects[0].geometries)
+  const topoJSON = topojsonServer.topology([geoJsonFeatureCollection], 1e4)
+  const neighbors = topojsonClient.neighbors(topoJSON.objects[0].geometries)
 
   const featureColors = []
   geoJsonFeatureCollection.features.forEach((parish, index) => {

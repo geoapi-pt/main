@@ -5,7 +5,7 @@ const path = require('path')
 const YAML = require('yaml')
 const appRoot = require('app-root-path')
 
-const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'openapi.yaml')
+const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
 
 module.exports = getOpenApiTestPaths
 
