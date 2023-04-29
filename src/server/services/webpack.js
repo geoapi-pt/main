@@ -7,6 +7,9 @@ const CopyPlugin = require('copy-webpack-plugin')
 
 const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src')
 
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
+console.log('mode:', mode)
+
 const JSentryPointsObj = {}
 fs.readdirSync(path.join(srcDir, 'js', 'routes')).forEach(filename => {
   JSentryPointsObj[filename] = path.join(srcDir, 'js', 'routes', filename)
@@ -60,7 +63,7 @@ module.exports = (callback) => {
         ]
       })
     ],
-    mode: process.env.NODE_ENV === 'production' ? 'production' : 'development'
+    mode: mode
   }, (err, stats) => {
     if (err || stats.hasErrors()) {
       if (err) {
