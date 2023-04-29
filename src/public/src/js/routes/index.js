@@ -1,4 +1,4 @@
-/* global L */
+/* global L, fetch */
 import '../getAuthorityInfo.js'
 import '../getPostalCodesInfo.js'
 
@@ -13,20 +13,6 @@ console.log('indexData:', indexData)
 
 const mapWidth = document.getElementById('map').offsetWidth
 const assumeMobile = mapWidth < 500 || mobileCheck()
-
-const geojsonFeatures = indexData.districts.filter(d => d.geojson).map(d => {
-  const geojson = d.geojson
-  Object.keys(d).forEach(key => {
-    if (key.startsWith('censos')) {
-      geojson.properties[key] = d[key]
-    }
-  })
-  return geojson
-})
-
-const districtsGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsonFeatures)
-
-console.log(districtsGeoJsonFeatureCollection)
 
 const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
@@ -84,11 +70,6 @@ info.update = function (properties) {
 
 info.addTo(map)
 
-const geojsonLayer = L.geoJson(districtsGeoJsonFeatureCollection, {
-  style: mapFunctions.style,
-  onEachFeature
-}).addTo(map)
-
 function onEachFeature (feature, layer) {
   layer.on({
     mouseover: mapFunctions.getHighlightFeature(info),
@@ -98,6 +79,7 @@ function onEachFeature (feature, layer) {
   })
 }
 
+let geojsonLayer
 function resetHighlight (e) {
   geojsonLayer.resetStyle(e.target)
   info.update()
@@ -111,3 +93,23 @@ function forwardToPage (e) {
 }
 
 map.attributionControl.addAttribution('Carta Administrativa Oficial de Portugal <a href="https://www.dgterritorio.gov.pt/">Direção Geral do Território</a>')
+
+fetch('/distritos?json=1').then(r => r.json()).then(districts => {
+  const geojsonFeatures = districts.filter(d => d.geojson).map(d => {
+    const geojson = d.geojson
+    Object.keys(d).forEach(key => {
+      if (key.startsWith('censos')) {
+        geojson.properties[key] = d[key]
+      }
+    })
+    return geojson
+  })
+
+  const districtsGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsonFeatures)
+  console.log(districtsGeoJsonFeatureCollection)
+
+  geojsonLayer = L.geoJson(districtsGeoJsonFeatureCollection, {
+    style: mapFunctions.style,
+    onEachFeature
+  }).addTo(map)
+})
