@@ -19,6 +19,7 @@ const defaultOrigin = configs.defaultOrigin
 const gitProjectUrl = configs.gitProjectUrl
 const mainTitle = configs.mainTitle
 const siteDescription = configs.description
+const apiDocsOrigin = configs.apiDocsOrigin
 
 // define directories
 const servicesDir = path.join(__dirname, 'services')
@@ -164,7 +165,11 @@ function startServer (callback) {
     callback(Error(err))
   }
 
-  app.use(errorMiddleware({ gitProjectUrl }))
+  app.use(errorMiddleware({ apiDocsOrigin }))
+
+  app.use((req, res) => {
+    res.status(404).sendData({ error: `Caminho não encontrado; ler instruções em ${apiDocsOrigin}` })
+  })
 
   const server = app.listen(serverPort, () => {
     // if this is a test to merely test the start up of the server
