@@ -131,14 +131,9 @@ function startServer (callback) {
   shieldsioCounters.setTimers()
 
   app.get('/', function (req, res) {
-    res.type('text/html').render('index', {
-      layout: false,
+    res.status(200).sendData({
       data: { bbox: regions.cont.geojson.bbox },
-      defaultOrigin: defaultOrigin,
-      gitProjectUrl: gitProjectUrl,
-      apiDocsOrigin: configs.apiDocsOrigin,
-      pageTitle: mainTitle,
-      siteDescription: siteDescription
+      template: 'index'
     })
   })
 
