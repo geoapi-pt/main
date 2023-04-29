@@ -35,7 +35,6 @@ const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupI
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
 const errorMiddleware = require(path.join(middlewaresDir, 'error.js'))
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
-const adaptObjForHtmlRes = require(path.join(utilsDir, 'adaptObjForHtmlRes.js'))
 
 const cliOptions = [
   { name: 'port', type: Number, description: `local port to run the sever, default is ${configs.defaultHttpPort}` },
@@ -133,14 +132,9 @@ function startServer (callback) {
   shieldsioCounters.setTimers()
 
   app.get('/', function (req, res) {
-    const districts = [...administrations.districtsDetails]
-    districts.forEach(d => {
-      d.censos2011 = adaptObjForHtmlRes(d.censos2021)
-      d.censos2021 = adaptObjForHtmlRes(d.censos2021)
-    })
     res.type('text/html').render('index', {
       layout: false,
-      data: { districts, bbox: regions.cont.geojson.bbox },
+      data: { bbox: regions.cont.geojson.bbox },
       defaultOrigin: defaultOrigin,
       gitProjectUrl: gitProjectUrl,
       apiDocsOrigin: configs.apiDocsOrigin,
