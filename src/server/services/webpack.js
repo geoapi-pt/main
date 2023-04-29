@@ -1,4 +1,6 @@
 const path = require('path')
+const cssnano = require('cssnano')
+const postcss = require('postcss')
 const appRoot = require('app-root-path')
 const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
@@ -52,7 +54,16 @@ module.exports = async () => {
           },
           {
             from: path.join('css', '**/*'),
-            context: srcDir
+            context: srcDir,
+            transform: (content, path) => {
+              return postcss([cssnano])
+                .process(content, {
+                  from: path
+                })
+                .then((result) => {
+                  return result.css
+                })
+            }
           },
           {
             from: require.resolve('leaflet/dist/leaflet.css'),
