@@ -1,21 +1,25 @@
-const fs = require('fs')
 const path = require('path')
 const appRoot = require('app-root-path')
-
 const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
+
+const commonsDir = path.join(appRoot.path, 'routines', 'commons')
+const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
 const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src')
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
 console.log('mode:', mode)
 
-const JSentryPointsObj = {}
-fs.readdirSync(path.join(srcDir, 'js', 'routes')).forEach(filename => {
-  JSentryPointsObj[filename] = path.join(srcDir, 'js', 'routes', filename)
-})
+module.exports = async () => {
+  const files = await getFiles(path.join(srcDir, 'js'))
+  const jsFiles = files.filter(f => path.extname(f) === '.js')
 
-module.exports = (callback) => {
+  const JSentryPointsObj = {}
+  jsFiles.forEach(file => {
+    JSentryPointsObj[path.basename(file)] = file
+  })
+
   webpack({
     entry: JSentryPointsObj,
     output: {
@@ -68,7 +72,7 @@ module.exports = (callback) => {
     if (err || stats.hasErrors()) {
       if (err) {
         console.error(err)
-        callback(Error(err))
+        throw new Error(err)
       } else {
         console.log(
           stats.toString({
@@ -76,9 +80,8 @@ module.exports = (callback) => {
             colors: true // Shows colors in the console
           })
         )
-        callback(Error())
+        throw new Error()
       }
     }
-    callback()
   })
 }
