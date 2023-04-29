@@ -15,9 +15,7 @@ const appRoot = require('app-root-path')
 
 const configs = JSON.parse(fs.readFileSync(path.join(appRoot.path, 'configs.json')))
 // origin=scheme+host+port, ex: http://example.com:8080
-const defaultOrigin = configs.defaultOrigin
 const gitProjectUrl = configs.gitProjectUrl
-const mainTitle = configs.mainTitle
 const siteDescription = configs.description
 const apiDocsOrigin = configs.apiDocsOrigin
 
@@ -117,7 +115,7 @@ function startServer (callback) {
 
   app.use('/', express.static(path.join(__dirname, '..', 'public', 'dist'), { etag: false }))
 
-  app.use(sendDataMiddleware({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }))
+  app.use(sendDataMiddleware({ configs, shieldsioCounters }))
 
   // Apply the rate limiting middleware to all requests
   let limiter

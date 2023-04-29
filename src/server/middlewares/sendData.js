@@ -5,7 +5,7 @@ const debug = require('debug')('geoapipt:server')
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 const adaptObjForHtmlRes = require(path.join(appRoot.path, 'src', 'server', 'utils', 'adaptObjForHtmlRes.js'))
 
-module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, shieldsioCounters }) =>
+module.exports = ({ configs, shieldsioCounters }) =>
   (req, res, next) => {
     res.sendData = function (data) {
       debug(req.accepts(['html', 'json']))
@@ -20,13 +20,15 @@ module.exports = ({ defaultOrigin, gitProjectUrl, mainTitle, siteDescription, sh
       } else {
         res.type('text/html')
 
-        res.render(data.template || 'result', {
+        const template = data.template || 'result'
+        res.render(template, {
           layout: false,
-          defaultOrigin: defaultOrigin,
-          gitProjectUrl: gitProjectUrl,
-          pageTitle: data.pageTitle ? `${data.pageTitle} - ${mainTitle}` : mainTitle,
+          defaultOrigin: configs.defaultOrigin,
+          gitProjectUrl: configs.gitProjectUrl,
+          apiDocsOrigin: configs.apiDocsOrigin,
+          pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
           pageDescription: data.pageTitle || '',
-          siteDescription: siteDescription,
+          siteDescription: configs.description,
           input: data.input || {},
           data: dataToBeSent, // this is sent to frontend Javascript code
           dataToShowOnHtml: data.dataToShowOnHtml ? adaptObjForHtmlRes(data.dataToShowOnHtml) : {}
