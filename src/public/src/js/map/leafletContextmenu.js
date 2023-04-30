@@ -1,7 +1,5 @@
 /* global fetch */
 
-import 'leaflet-contextmenu/dist/leaflet.contextmenu.min.js'
-
 let map
 
 export function setMap (_map) {

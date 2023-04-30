@@ -1,6 +1,7 @@
 /* global L */
 
 import 'leaflet/dist/leaflet'
+import 'leaflet-contextmenu/dist/leaflet.contextmenu'
 
 import * as topojsonServer from 'topojson-server/dist/topojson-server'
 import * as topojsonClient from 'topojson-client/dist/topojson-client'
