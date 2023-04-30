@@ -58,6 +58,12 @@ module.exports = async () => {
             transform: minifyCss
           },
           {
+            from: require.resolve('bootstrap/dist/css/bootstrap.css'),
+            to: path.join('css', '[name].css'),
+            context: srcDir,
+            transform: minifyCss
+          },
+          {
             from: require.resolve('leaflet/dist/leaflet.css'),
             to: path.join('css', '[name].css'),
             context: srcDir,
