@@ -55,25 +55,19 @@ module.exports = async () => {
           {
             from: path.join('css', '**/*'),
             context: srcDir,
-            transform: (content, path) => {
-              return postcss([cssnano])
-                .process(content, {
-                  from: path
-                })
-                .then((result) => {
-                  return result.css
-                })
-            }
+            transform: minifyCss
           },
           {
             from: require.resolve('leaflet/dist/leaflet.css'),
             to: path.join('css', '[name].css'),
-            context: srcDir
+            context: srcDir,
+            transform: minifyCss
           },
           {
-            from: require.resolve('leaflet-contextmenu/dist/leaflet.contextmenu.min.css'),
+            from: require.resolve('leaflet-contextmenu/dist/leaflet.contextmenu.css'),
             to: path.join('css', '[name].css'),
-            context: srcDir
+            context: srcDir,
+            transform: minifyCss
           }
         ]
       })
@@ -95,4 +89,14 @@ module.exports = async () => {
       }
     }
   })
+}
+
+function minifyCss (content, path) {
+  return postcss([cssnano])
+    .process(content, {
+      from: path
+    })
+    .then((result) => {
+      return result.css
+    })
 }
