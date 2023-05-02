@@ -8,7 +8,7 @@ const CopyPlugin = require('copy-webpack-plugin')
 const commonsDir = path.join(appRoot.path, 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
-const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src')
+const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src').replace(/\\/g, '/')
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
 console.log('mode:', mode)
@@ -41,19 +41,19 @@ module.exports = async () => {
       new CopyPlugin({
         patterns: [
           {
-            from: path.join('*'),
+            from: path.posix.join('*'),
             context: srcDir
           },
           {
-            from: path.join('img', '**/*'),
+            from: path.posix.join('img', '**/*'),
             context: srcDir
           },
           {
-            from: path.join('fonts', '**/*'),
+            from: path.posix.join('fonts', '**/*'),
             context: srcDir
           },
           {
-            from: path.join('css', '**/*'),
+            from: path.posix.join('css', '**/*'),
             context: srcDir,
             transform: minifyCss
           },
