@@ -91,7 +91,7 @@ module.exports = async () => {
             colors: true // Shows colors in the console
           })
         )
-        throw new Error()
+        throw new Error(stats.toString())
       }
     }
   })
