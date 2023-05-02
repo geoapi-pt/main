@@ -6,6 +6,7 @@ const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const async = require('async')
+const compression = require('compression')
 const nocache = require('nocache')
 const debug = require('debug')('geoapipt:server') // run: DEBUG=geoapipt:server npm start
 const commandLineUsage = require('command-line-usage')
@@ -97,6 +98,7 @@ function startServer (callback) {
   console.log('Starting server...')
 
   const app = express()
+  app.use(compression())
   app.use(cors())
   app.use(bodyParser.json())
   app.use(nocache())
