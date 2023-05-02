@@ -5,3 +5,12 @@ export function mobileCheck () {
   return check;
 };
 /* eslint-enable */
+
+export const jsonFetchOptions = {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+    Accept: 'application/json',
+    'Accept-Encoding': 'deflate, gzip;'
+  }
+}

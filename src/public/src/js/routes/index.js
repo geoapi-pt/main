@@ -3,7 +3,7 @@ import '../getAuthorityInfo.js'
 import '../getPostalCodesInfo.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
-import { mobileCheck } from '../functions.js'
+import { mobileCheck, jsonFetchOptions } from '../functions.js'
 import * as mapFunctions from '../map/map-functions.js'
 
 const indexDataDomEl = document.getElementById('index-route-data')
@@ -94,7 +94,7 @@ function forwardToPage (e) {
 
 map.attributionControl.addAttribution('Carta Administrativa Oficial de Portugal <a href="https://www.dgterritorio.gov.pt/">Direção Geral do Território</a>')
 
-fetch('/distritos?json=1').then(r => r.json()).then(districts => {
+fetch('/distritos?json=1', jsonFetchOptions).then(r => r.json()).then(districts => {
   const geojsonFeatures = districts.filter(d => d.geojson).map(d => {
     const geojson = d.geojson
     Object.keys(d).forEach(key => {
