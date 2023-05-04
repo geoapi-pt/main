@@ -1,3 +1,7 @@
+<h1 align="center">
+  <a href="https://geoapi.pt"><img src="https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/src/icons/mstile-310x310.png?raw=true" alt="logo" width="200"/></a>
+</h1>
+
 [![JSON API documentation](https://img.shields.io/badge/JSON%20API-Documentation-informational)](https://docs.geoapi.pt/)
 [![Test API server](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml)
 [![CodeQL Security Check](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml)
@@ -10,8 +14,6 @@
 
 [js-standard-style_img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [js-standard-style_url]: https://standardjs.com/
-
-# GEO API PT
 
 [RESTful API](https://restfulapi.net/) which provides information on official divisional administrative regions of Portugal (based on "Carta Administrativa Oficial de Portugal, 2021", from [here](https://www.dgterritorio.gov.pt/dados-abertos)). It includes information on mainland Portugal, Azores and Madeira. It also provides information on Postal Codes and Census. For more information see the [resource](https://github.com/jfoclpf/geoapi.pt/tree/main/res) and [routines](https://github.com/jfoclpf/geoapi.pt/tree/main/routines) documentations.
 
