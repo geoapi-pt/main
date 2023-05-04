@@ -49,6 +49,10 @@ module.exports = async () => {
             context: srcDir
           },
           {
+            from: path.posix.join('icons', '**/*'),
+            context: srcDir
+          },
+          {
             from: path.posix.join('fonts', '**/*'),
             context: srcDir
           },
