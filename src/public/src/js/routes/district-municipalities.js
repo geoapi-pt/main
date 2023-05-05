@@ -67,7 +67,7 @@ function onEachFeature (feature, layer) {
   layer.on({
     mouseover: mapFunctions.getHighlightFeature(info),
     mouseout: resetHighlight,
-    click: mapFunctions.getZoomToFeature(map),
+    click: (e) => mapFunctions.getZoomToFeature(e),
     dblclick: forwardToPage
   })
 }
@@ -78,6 +78,7 @@ function resetHighlight (e) {
 }
 
 function forwardToPage (e) {
+  map.clicked = 0
   const municipality = e.target.feature.properties.Concelho
   if (municipality) {
     window.location.href = `/municipio/${encodeURIComponent(municipality.toLowerCase())}/freguesias`

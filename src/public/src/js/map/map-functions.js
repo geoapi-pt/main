@@ -17,6 +17,7 @@ L.Icon.Default.mergeOptions({
 
 export function setMap (_map) {
   map = _map
+  map.clicked = 0
   map.zoomControl.setPosition('bottomleft')
 }
 
@@ -81,9 +82,13 @@ export function getHighlightFeature (info) {
   return highlightFeature
 }
 
-export function getZoomToFeature (map) {
-  function zoomToFeature (e) {
-    map.fitBounds(e.target.getBounds())
-  }
-  return zoomToFeature
+// when feature is clicked
+export function getZoomToFeature (e) {
+  map.clicked = map.clicked + 1
+  setTimeout(function () {
+    if (map.clicked === 1) {
+      map.fitBounds(e.target.getBounds())
+      map.clicked = 0
+    }
+  }, 300)
 }
