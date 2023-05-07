@@ -13,6 +13,12 @@ export const mapOtions = {
     text: 'Detalhes deste local',
     callback: showDetails
   }, '-', {
+    text: 'Subsecção deste local',
+    callback: forwardToSubsection
+  }, {
+    text: 'Secção deste local',
+    callback: forwardToSection
+  }, {
     text: 'Freguesia deste local',
     callback: forwardToParish
   }, {
@@ -52,6 +58,30 @@ function zoomIn (e) {
 
 function zoomOut (e) {
   map.zoomOut()
+}
+
+function forwardToSubsection (e) {
+  fetchDetailsOfLocal(e)
+    .then(res => {
+      console.log('res: ', res)
+      window.location.href =
+      `/municipio/${encodeStr(res.concelho)}/freguesia/${encodeStr(res.freguesia)}/sec/${encodeStr(res.SEC)}/ss/${encodeStr(res.SS)}`
+    })
+    .catch(err => {
+      console.error(err)
+    })
+}
+
+function forwardToSection (e) {
+  fetchDetailsOfLocal(e)
+    .then(res => {
+      console.log('res: ', res)
+      window.location.href =
+        `/municipio/${encodeStr(res.concelho)}/freguesia/${encodeStr(res.freguesia)}/sec/${encodeStr(res.SEC)}`
+    })
+    .catch(err => {
+      console.error(err)
+    })
 }
 
 function forwardToParish (e) {
