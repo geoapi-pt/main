@@ -5,6 +5,7 @@ const debug = require('debug')('geoapipt:server')
 
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 const adaptObjForHtmlRes = require(path.join(appRoot.path, 'src', 'server', 'utils', 'adaptObjForHtmlRes.js'))
+const sendJsonBeauty = require(path.join(appRoot.path, 'src', 'server', 'utils', 'sendJsonBeauty.js'))
 
 module.exports = ({ configs, shieldsioCounters }) =>
   (req, res, next) => {
@@ -17,7 +18,11 @@ module.exports = ({ configs, shieldsioCounters }) =>
 
       res.set('Connection', 'close')
       if (isResponseJson(req)) {
-        res.json(dataToBeSent)
+        if (req.query.json === 'belo' || req.query.json === 'beauty') {
+          sendJsonBeauty(res, dataToBeSent, data, configs)
+        } else {
+          res.json(dataToBeSent)
+        }
       } else {
         res.type('text/html')
 
