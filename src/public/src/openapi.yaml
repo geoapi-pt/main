@@ -6313,7 +6313,7 @@ paths:
   /municipio/{municipio}/freguesia/{freguesia}/sec/{seccao}/ss/{subseccao}:
     get:
       operationId: getSubsectionOfSectionOfParishOfMunicipality
-      summary: Detalhes sobre Secção estatística de uma Freguesia de um determinado Município
+      summary: Detalhes sobre Subsecção estatística de uma Secção de uma Freguesia de um determinado Município
       parameters:
         - in: path
           name: municipio
