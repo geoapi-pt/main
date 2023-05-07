@@ -46,9 +46,9 @@ info.update = function (props) {
     contents += `<b>${props.Freguesia}</b><br>${props.Area_T_ha} hectares`
   } else {
     if (mobileCheck()) {
-      contents += 'Toque numa freguesia ou faça-lhe duplo toque'
+      contents += 'Toque numa freguesia ou faça-lhe duplo toque.<br>Pressione longamente num ponto do mapa para mais opções.'
     } else {
-      contents += 'Mova o rato sobre uma freguesia ou faça-lhe (duplo)clique'
+      contents += '<b>Mova o rato sobre uma freguesia ou faça-lhe (duplo)clique.<br>Clique no botão direito do rato num ponto do mapa para mais opções.</b>'
     }
   }
 
