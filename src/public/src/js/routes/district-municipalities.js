@@ -47,9 +47,9 @@ info.update = function (props) {
     contents += `<b>${props.Concelho}</b>`
   } else {
     if (mobileCheck()) {
-      contents = 'Toque num município ou faça-lhe duplo toque'
+      contents = 'Toque num município ou faça-lhe duplo toque.<br>Pressione longamente num ponto do mapa para mais opções.'
     } else {
-      contents = 'Mova o rato sobre um município ou faça-lhe (duplo)clique'
+      contents = '<b>Mova o rato sobre um município ou faça-lhe (duplo)clique.<br>Clique no botão direito do rato num ponto do mapa para mais opções.</b>'
     }
   }
 
