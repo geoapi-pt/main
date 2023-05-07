@@ -24,6 +24,8 @@ components:
           - '1'
           - 'true'
           - 'false'
+          - 'belo'
+          - 'beauty'
       description: Ativa resposta em JSON
       examples:
         '1':
@@ -32,6 +34,9 @@ components:
         'true':
           value: 'true'
           summary: Ativa resposta em JSON
+        'belo':
+          value: 'belo'
+          summary: Apresenta a hipotética resposta JSON de forma bonita e legível em HTML
     ext-apis:
       in: query
       name: ext-apis

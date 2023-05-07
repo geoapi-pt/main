@@ -5,5 +5,5 @@ module.exports = (req) => {
   return req.accepts(['html', 'json']) === 'json' ||
     (req.get('accept') && req.get('accept').includes('application/json')) ||
     (req.hostname && req.hostname.startsWith('json.')) ||
-    parseInt(req.query.json) || req.query.json === 'true'
+    parseInt(req.query.json) || req.query.json === 'true' || req.query.json === 'belo' || req.query.json === 'beauty'
 }
