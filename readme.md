@@ -31,11 +31,29 @@ This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenA
 
 By default the server replies with `text/html` format. To receive JSON format, chose **one** of these:
 
- - add the query GET parameter `json=1` to the URL (ex.: `/municipio/évora?json=1`);
+ - add the query GET parameter `json=1` to the URL (ex.: [`/municipio/évora?json=1`](https://geoapi.pt/municipio/evora?json=1));
  - set the HTTP request header `Accept` as JSON, that is, `Accept: application/json`; or
- - in case you're using the public API, use the host `json.geoapi.pt` (ex: `json.geoapi.pt/cp/2495-300`)
+ - in case you're using the public API, use the host `json.geoapi.pt` (ex: [`json.geoapi.pt/cp/2495-300`](https://json.geoapi.pt/cp/2495-300))
+ 
+For pretty-printing JSON as HTML response, use in the query `?json=belo`, for example [`/cp/2495-300?json=belo`](https://geoapi.pt/cp/2495-300?json=belo)
 
 ## Install this API on your machine
+
+### Option 1 (with docker)
+
+Just run
+
+```sh
+docker run -p 8080:8080 jfoclpf/geoapi.pt:latest
+```
+
+or to run as a service in the background
+
+```sh
+docker run -p 8080:8080 -d jfoclpf/geoapi.pt:latest
+```
+
+### Option 2 (directly with NodeJS)
 
 [Tested](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml) on Linux, Windows and MacOS
 
@@ -49,18 +67,18 @@ By default the server replies with `text/html` format. To receive JSON format, c
 
 For more information run `npm start -- --help`
 
-### Continuous operation
+#### Continuous operation
 
 For permanent and continuous operation (production) use for example [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/) or [forever](https://www.npmjs.com/package/forever).
 
-#### With pm2
+##### With pm2
 
 ```
 npm install pm2@latest -g
 pm2 start src/server/index.js -- --port 8080
 ```
 
-### Debug
+#### Debug
 
 ```
 DEBUG=geoapipt:* npm start -- --port=8080
