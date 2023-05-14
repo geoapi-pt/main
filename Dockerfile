@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-slim
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -13,8 +13,11 @@ COPY package*.json ./
 RUN npm ci
 
 # Bundle app source
-COPY . .
+COPY src/ ./src
+COPY routines/ ./routines
+COPY configs.json .
 
 ENV NODE_ENV production
 EXPOSE 8080
+USER nobody
 CMD [ "npm", "start" ]
