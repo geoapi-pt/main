@@ -1,6 +1,7 @@
 const path = require('path')
 const cssnano = require('cssnano')
 const postcss = require('postcss')
+const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
@@ -9,6 +10,7 @@ const commonsDir = path.join(appRoot.path, 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
 const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src').replace(/\\/g, '/')
+const destDir = path.resolve(appRoot.path, 'src', 'public', 'dist')
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
 console.log('mode:', mode)
@@ -26,7 +28,7 @@ module.exports = async () => {
     entry: JSentryPointsObj,
     output: {
       filename: path.join('js', '[name]'),
-      path: path.resolve(appRoot.path, 'src', 'public', 'dist'),
+      path: destDir,
       clean: true
     },
     module: {
@@ -97,6 +99,8 @@ module.exports = async () => {
         )
         throw new Error(stats.toString())
       }
+    } else {
+      console.log(colors.green('Front-end assets built into ' + path.relative(appRoot.path, destDir)))
     }
   })
 }
