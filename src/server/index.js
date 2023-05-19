@@ -37,6 +37,7 @@ const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
 
 const cliOptions = [
   { name: 'port', type: Number, description: `local port to run the sever, default is ${configs.defaultHttpPort}` },
+  { name: 'buildFeAssets', type: Boolean, description: 'build front-end assets before server startup' },
   { name: 'testStartup', type: Boolean, description: 'just test server startup, exit afterwards' },
   { name: 'rateLimit', type: Boolean, description: 'activate rate limiter for requests' },
   { name: 'help', type: Boolean, description: 'print this help' }
@@ -70,7 +71,13 @@ console.time('serverTimeToStart')
 let regions, administrations
 
 console.log('Starting. Please wait...')
-async.series([webpack, prepare, startServer],
+
+const steps = [prepare, startServer]
+if (argvOptions.buildFeAssets) {
+  steps.unshift(webpack)
+}
+
+async.series(steps,
   function (err) {
     if (err) {
       console.error(err)
