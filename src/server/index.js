@@ -26,7 +26,6 @@ const middlewaresDir = path.join(__dirname, 'middlewares')
 const utilsDir = path.join(__dirname, 'utils')
 
 // import server project modules
-const webpack = require(path.join(servicesDir, 'webpack.js'))
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
@@ -74,6 +73,7 @@ console.log('Starting. Please wait...')
 
 const steps = [prepare, startServer]
 if (argvOptions.buildFeAssets) {
+  const webpack = require(path.join(servicesDir, 'webpack.js'))
   steps.unshift(webpack)
 }
 
