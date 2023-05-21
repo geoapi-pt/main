@@ -44,33 +44,16 @@ For pretty-printing JSON as HTML response, use in the query `?json=belo`, for ex
 Just run
 
 ```sh
-docker run -v $PWD:/usr/src/app/res -p 8080:8080 jfoclpf/geoapi.pt:latest
+docker run -p 8080:8080 jfoclpf/geoapi.pt:latest
 ```
 
 or to run as a service in the background
 
 ```sh
-docker run -v $PWD:/usr/src/app/res -p 8080:8080 -d jfoclpf/geoapi.pt:latest
+docker run -p 8080:8080 -d jfoclpf/geoapi.pt:latest
 ```
-### Option 2 (with docker compose)
 
- 1. Clone the project (just the latest version):<br>
-    ```shell
-    git clone --depth=1 https://github.com/jfoclpf/geoapi.pt.git && cd geoapi.pt
-    ```
- 2. Run docker compose
-   
-    ```shell 
-    docker compose up
-    ``` 
-   
-    or as service in background
-   
-    ```shell 
-    docker compose up -d
-    ```
-
-### Option 3 (directly with NodeJS)
+### Option 2 (directly with NodeJS)
 
 [Tested](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml) on Linux, Windows and MacOS
 
