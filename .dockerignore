@@ -19,7 +19,9 @@ res/postal-codes/postalCodes.json
 res/pt_addresses.csv.zip
 res/**/*.txt
 
-src/public/dist/**/*
+# docker to run the API just needs
+# src/public/dist
+src/public/src/**/*
 
 # vstudio code
 geoapi.pt.code-workspace
