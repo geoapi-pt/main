@@ -73,13 +73,13 @@ For permanent and continuous operation (production) use for example [pm2](https:
 
 ##### With pm2
 
-```
+```sh
 npm install pm2@latest -g
 pm2 start src/server/index.js -- --port 8080
 ```
 
 #### Debug
 
-```
+```sh
 DEBUG=geoapipt:* npm start -- --port=8080
 ```
