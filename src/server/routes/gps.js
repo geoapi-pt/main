@@ -9,6 +9,11 @@ const PolygonLookup = require('polygon-lookup')
 // if that distance exceeds, use Nominatim
 const distanceInMetersThreshold = 10
 
+// when coordinate does not lie within the map boundaries, give some margin
+// for example for points near the coastal line or near the border
+// see https://github.com/jfoclpf/geoapi.pt/issues/34
+const distanceInMetersForMapMargins = 100
+
 // modules
 const utilsDir = path.join(appRoot.path, 'src', 'server', 'utils')
 const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
@@ -16,6 +21,7 @@ const { correctCase } = require(path.join(utilsDir, 'commonFunctions.js'))
 const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
 const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
+const distanceToPolygon = require(path.join(utilsDir, 'distanceToPolygon.js'))
 
 // directories
 const censosGeojsonDir = path.join(appRoot.path, 'res', 'geojson')
@@ -84,10 +90,41 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       municipalityIneCode = result.municipalityIneCode
       parishIneCode = result.parishIneCode
     } else {
-      res.status(404).sendData({ error: 'local não encontrado' })
-      return
+      // try other points around the point[lon, lat], i.e., provides a margin
+      // see https://github.com/jfoclpf/geoapi.pt/issues/34#issuecomment-1470107761
+      const geoJsonPoint = turf.point([lon, lat])
+      const circleMargin = []
+      for (let angle = 0; angle < 360; angle += 45) {
+        circleMargin.push(
+          turf.transformTranslate(geoJsonPoint, distanceInMetersForMapMargins / 1000, angle).geometry.coordinates
+        )
+      }
+
+      let found = false
+      for (const translatedPoint of circleMargin) {
+        const translatedResult = getLocalFromCoord(translatedPoint, { regions, administrations, isDetails })
+        if (translatedResult) {
+          local = { lon, lat, ...translatedResult.local }
+
+          local.distancia_da_freguesia_m = Math.round(Math.abs(distanceToPolygon({
+            point: turf.point(translatedPoint),
+            polygon: translatedResult.parishGeoJson
+          })))
+
+          municipalityIneCode = translatedResult.municipalityIneCode
+          parishIneCode = translatedResult.parishIneCode
+          found = true
+          break
+        }
+      }
+
+      if (!found) {
+        res.status(404).sendData({ error: 'local não encontrado' })
+        return
+      }
     }
   } catch (err) {
+    console.error(err)
     res.status(400).sendData(
       { error: 'Wrong request! Example of good request: /gps/40.153687,-8.514602' }
     )
@@ -108,6 +145,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
       censosGeojsonDir, 'subseccoes', '2021',
       `${municipalityIneCode.toString().padStart(4, '0')}.json`
     )
+
     fs.readFile(geojsonFilePath, (err, data) => {
       if (!err && data) {
         const geojsonData = JSON.parse(data)
@@ -244,6 +282,7 @@ function sendDataOk ({ req, res, local, lat, lon }) {
 function getLocalFromCoord (point, { regions, administrations, isDetails }) {
   const lon = point[0]
   const lat = point[1]
+  let parishGeoJson
 
   const res = {}
   let municipalityIneCode, parishIneCode
@@ -253,6 +292,8 @@ function getLocalFromCoord (point, { regions, administrations, isDetails }) {
     const freguesia = lookupFreguesias.search(lon, lat)
 
     if (freguesia) {
+      parishGeoJson = freguesia
+
       res.ilha = freguesia.properties.Ilha
       res.distrito = freguesia.properties.Distrito
       res.concelho = freguesia.properties.Concelho
@@ -275,7 +316,7 @@ function getLocalFromCoord (point, { regions, administrations, isDetails }) {
   if (!res.freguesia) {
     return false
   } else {
-    return { local: res, municipalityIneCode, parishIneCode }
+    return { local: res, municipalityIneCode, parishIneCode, parishGeoJson }
   }
 }
 
