@@ -34,8 +34,8 @@ module.exports = {
 }
 
 function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
-  const local = {} // the local data corresponding to the coordinates to send with the response
   let lon, lat,
+    local, // the local data corresponding to the coordinates to send with the response
     isDetails, // boolean activated with route /detalhes or &detalhes=1
     isBase, // boolean activated with route /base or &base=1
     useExternalApis, // boolean set to false when query parameter ext-apis=0 or ext-apis=false
@@ -78,31 +78,14 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
 
     useExternalApis = parseInt(req.query['ext-apis']) !== 0 && req.query['ext-apis'] !== 'false'
 
-    local.lon = lon
-    local.lat = lat
-
-    for (const key in regions) {
-      const lookupFreguesias = new PolygonLookup(regions[key].geojson)
-      const freguesia = lookupFreguesias.search(lon, lat)
-
-      if (freguesia) {
-        local.ilha = freguesia.properties.Ilha
-        local.distrito = freguesia.properties.Distrito
-        local.concelho = freguesia.properties.Concelho
-        local.freguesia = freguesia.properties.Freguesia
-
-        municipalityIneCode = parseInt((freguesia.properties.Dicofre || freguesia.properties.DICOFRE).slice(0, 4))
-        parishIneCode = parseInt(freguesia.properties.Dicofre || freguesia.properties.DICOFRE)
-
-        if (isDetails) {
-          local.detalhesFreguesia = administrations.parishesDetails
-            .find(parish => parseInt(parish.codigoine) === parishIneCode)
-
-          local.detalhesMunicipio = administrations.municipalitiesDetails
-            .find(municipality => parseInt(municipality.codigoine) === municipalityIneCode)
-        }
-        break
-      }
+    const result = getLocalFromCoord([lon, lat], { regions, administrations, isDetails })
+    if (result) {
+      local = { lon, lat, ...result.local }
+      municipalityIneCode = result.municipalityIneCode
+      parishIneCode = result.parishIneCode
+    } else {
+      res.status(404).sendData({ error: 'local não encontrado' })
+      return
     }
   } catch (err) {
     res.status(400).sendData(
@@ -110,12 +93,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     )
   }
 
-  if (!local.freguesia) {
-    res.status(404).sendData({ error: 'local não encontrado' })
-    return
-  }
-
-  // just sends distrito, município e freguesia
+  // if isBase is set on the request, just sends distrito, município e freguesia
   if (isBase) {
     sendDataOk({ req, res, local, lat, lon })
     return
@@ -260,6 +238,44 @@ function sendDataOk ({ req, res, local, lat, lon }) {
       pageTitle: `Dados correspondentes às coordenadas ${lat}, ${lon}`,
       template: 'routes/gps'
     })
+  }
+}
+
+function getLocalFromCoord (point, { regions, administrations, isDetails }) {
+  const lon = point[0]
+  const lat = point[1]
+
+  const res = {}
+  let municipalityIneCode, parishIneCode
+
+  for (const key in regions) {
+    const lookupFreguesias = new PolygonLookup(regions[key].geojson)
+    const freguesia = lookupFreguesias.search(lon, lat)
+
+    if (freguesia) {
+      res.ilha = freguesia.properties.Ilha
+      res.distrito = freguesia.properties.Distrito
+      res.concelho = freguesia.properties.Concelho
+      res.freguesia = freguesia.properties.Freguesia
+
+      municipalityIneCode = parseInt((freguesia.properties.Dicofre || freguesia.properties.DICOFRE).slice(0, 4))
+      parishIneCode = parseInt(freguesia.properties.Dicofre || freguesia.properties.DICOFRE)
+
+      if (isDetails) {
+        res.detalhesFreguesia = administrations.parishesDetails
+          .find(parish => parseInt(parish.codigoine) === parishIneCode)
+
+        res.detalhesMunicipio = administrations.municipalitiesDetails
+          .find(municipality => parseInt(municipality.codigoine) === municipalityIneCode)
+      }
+      break
+    }
+  }
+
+  if (!res.freguesia) {
+    return false
+  } else {
+    return { local: res, municipalityIneCode, parishIneCode }
   }
 }
 
