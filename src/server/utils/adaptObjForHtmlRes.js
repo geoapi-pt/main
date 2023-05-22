@@ -69,7 +69,7 @@ module.exports = (obj) => {
 
   // sanitize obj
   for (const key in obj) {
-    if (!obj[key]) {
+    if (!obj[key] && obj[key] !== 0) {
       delete obj[key]
     }
   }
@@ -78,7 +78,7 @@ module.exports = (obj) => {
 }
 
 function renameObjKey (obj, oldKey, newKey) {
-  if (obj[oldKey]) {
+  if (obj[oldKey] || obj[oldKey] === 0) {
     if (oldKey !== newKey) {
       Object.defineProperty(obj, newKey,
         Object.getOwnPropertyDescriptor(obj, oldKey)
