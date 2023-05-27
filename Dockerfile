@@ -12,9 +12,11 @@ COPY package*.json ./
 # If you are building your code for production
 RUN npm ci --omit=dev
 
+RUN npm install pm2 -g
+
 # Bundle app source
 COPY . .
 
 ENV NODE_ENV production
 EXPOSE 8080
-CMD [ "npm", "start" ]
+CMD [ "pm2-runtime", "src/server/index.js", "--", "--port", "8080" ]
