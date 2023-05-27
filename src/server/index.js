@@ -42,7 +42,7 @@ const cliOptions = [
   { name: 'help', type: Boolean, description: 'print this help' }
 ]
 const cliUsageObj = [
-  { header: 'geoptapi', content: `HTTP server for the GEO PT API: {italic ${siteDescription}}. For more information see ${gitProjectUrl}` },
+  { header: 'geoapipt', content: `HTTP server for the GEO API PT: {italic ${siteDescription}}. For more information see ${gitProjectUrl}` },
   { header: 'Options', optionList: cliOptions },
   {
     header: 'Examples',
