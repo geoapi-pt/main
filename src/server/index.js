@@ -168,7 +168,7 @@ function startServer (callback) {
   app.use(errorMiddleware({ apiDocsOrigin }))
 
   app.use((req, res) => {
-    res.status(404).sendData({ error: `Caminho não encontrado; ler instruções em ${apiDocsOrigin}` })
+    res.status(404).sendData({ error: `Caminho não encontrado: ${req.originalUrl}; ler instruções em ${apiDocsOrigin}` })
   })
 
   const server = app.listen(serverPort, () => {
