@@ -1,6 +1,6 @@
 const path = require('path')
 const appRoot = require('app-root-path')
-const debug = require('debug')('geoapipt:server')
+const debug = require('debug')('geoapipt:server:route:mmfp')
 
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
