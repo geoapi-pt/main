@@ -20,6 +20,7 @@ function routeFn (req, res, next, { administrations, regions }) {
 
   const municipality = req.params.municipality
   const parish = req.params.parish
+  debug(`municipality: ${municipality}; parish: ${parish}`)
 
   let results = [...administrations.parishesDetails]
 
