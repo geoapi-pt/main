@@ -19,4 +19,4 @@ COPY . .
 
 ENV NODE_ENV production
 EXPOSE 8080
-CMD [ "pm2-runtime", "src/server/index.js", "--", "--port", "8080" ]
+CMD [ "pm2-runtime", "src/server/index.js", "--", "--buildFeAssets", "--port", "8080" ]
