@@ -75,7 +75,7 @@ For permanent and continuous operation (production) use for example [pm2](https:
 
 ```sh
 npm install pm2@latest -g
-pm2 start src/server/index.js -- --port 8080
+pm2 start src/server/index.js -- --buildFeAssets --port 8080
 ```
 
 #### Debug
