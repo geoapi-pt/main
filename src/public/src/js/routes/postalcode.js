@@ -57,7 +57,12 @@ if (
         fillOpacity: 0.5,
         radius: 2
       }).addTo(map)
-      ponto.bindPopup(`${el.rua}${el.casa ? ', ' + el.casa : ''}`)
+
+      if (el.rua) {
+        ponto.bindPopup(`${el.rua}${el.casa ? ', ' + el.casa : ''}`)
+      } else if (el.casa) {
+        ponto.bindPopup(el.casa)
+      }
     })
 } else {
   const mapEl = document.getElementsByClassName('map-div')
