@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "node-terminal",
+      "name": "Test",
+      "request": "launch",
+      "command": "npm test",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
       "name": "Build frontend assets and Start",
       "request": "launch",
       "command": "npm start -- --buildFeAssets",
