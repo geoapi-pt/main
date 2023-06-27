@@ -246,3 +246,10 @@ iframe {
 		word-break: break-word;
 	}
 }
+
+/* Mainly for PWA */
+@media all and (display-mode: standalone) {
+  #header_wrap {
+    display: none
+  }
+}
