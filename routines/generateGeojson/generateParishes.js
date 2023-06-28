@@ -56,11 +56,11 @@ function generateGeojsonParishes () {
         console.error(parish)
         throw Error('Codigo INE for parish must have 6 digits')
       } else {
-        // the municipality code are the first 4 digits out of 6 digits
-        const municipalityCode = codigoine.slice(0, 4)
+        const districtCode = codigoine.slice(0, 2)
+        const municipalityCode = codigoine.slice(2, 4)
         const parishCode = codigoine.slice(4, 6)
 
-        const file = path.join(parishesGeojsonDir, municipalityCode, parishCode + '.geojson')
+        const file = path.join(parishesGeojsonDir, districtCode, municipalityCode, parishCode + '.geojson')
 
         createDirIfNotExist(path.dirname(file))
         const geojsonString = JSON.stringify(parish)
