@@ -67,24 +67,24 @@ function deleteAllFilesBasedOnExt (dir, extension, mainCallback) {
 }
 
 function validateAllJsonFilesAsGeojson (dir, mainCallback) {
-  console.log(`Validating all JSON files (.json) as GeoJson in ${
+  console.log(`Validating all files (.geojson and .json) as GeoJson in ${
     !Array.isArray(dir) ? path.relative(appRoot.path, dir) : dir.map(e => path.relative(appRoot.path, e)).join(', ')
   }`)
 
   // read files recursively from directory
   getFiles(dir).then(files => {
-    const filesToDelete = files.filter(f => path.extname(f) === '.json')
+    const filesToValidate = files.filter(f => path.extname(f) === '.json' || path.extname(f) === '.geojson')
 
     let bar
     if (!debug.enabled) {
-      bar = new ProgressBar('[:bar] :percent :info', { total: filesToDelete.length + 2, width: 80 })
+      bar = new ProgressBar('[:bar] :percent :info', { total: filesToValidate.length + 2, width: 80 })
     } else {
       bar = { tick: () => {}, terminate: () => {} }
     }
 
     bar.tick({ info: 'Validating' })
 
-    async.eachOf(filesToDelete, function (file, key, callback) {
+    async.eachOf(filesToValidate, function (file, key, callback) {
       try {
         if (fs.existsSync(file)) {
           const data = JSON.parse(fs.readFileSync(file))
