@@ -59,8 +59,9 @@ jobs:
       - 
         name: Check disk space
         run: |
+          sudo dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
           df . -h
-          sudo du /usr -hx -d 3 --threshold=1G | sort -h
+          sudo du /usr -hx -d 4 --threshold=1G | sort -h
       -
         name: Checkout
         uses: actions/checkout@v3
