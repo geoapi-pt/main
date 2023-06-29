@@ -13,7 +13,7 @@ jobs:
         name: Check disk space
         run: |
           df . -h
-          sudo du / -hx -d 2 | sort -h
+          sudo du / -hx -d 2 --threshold=1G | sort -h
       - 
         name: Free disk space
         run: |
@@ -60,7 +60,9 @@ jobs:
           sudo apt-get autoclean -y >/dev/null 2>&1 || true
       - 
         name: Check disk space
-        run: df . -h
+        run: |
+          df . -h
+          sudo du / -hx -d 2 --threshold=1G | sort -h
       -
         name: Checkout
         uses: actions/checkout@v3
