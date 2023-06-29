@@ -11,9 +11,7 @@ jobs:
     steps:
       - 
         name: Check disk space
-        run: |
-          df . -h
-          sudo du / -hx -d 2 --threshold=1G | sort -h
+        run: df . -h
       - 
         name: Free disk space
         run: |
@@ -62,7 +60,7 @@ jobs:
         name: Check disk space
         run: |
           df . -h
-          sudo du / -hx -d 2 --threshold=1G | sort -h
+          sudo du /usr -hx -d 3 --threshold=1G | sort -h
       -
         name: Checkout
         uses: actions/checkout@v3
