@@ -7,8 +7,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
+      - 
+        name: Check disk space
+        run: |
+          df . -h
+          sudo du / -hx -d 2 | sort -h
       - 
         name: Free disk space
         run: |
@@ -55,7 +60,7 @@ jobs:
           sudo apt-get autoclean -y >/dev/null 2>&1 || true
       - 
         name: Check disk space
-        run: df -h
+        run: df . -h
       -
         name: Checkout
         uses: actions/checkout@v3
@@ -65,9 +70,9 @@ jobs:
       - 
         name: Get more space
         run: |
-          df -h
+          df . -h
           sudo rm -rf ${GITHUB_WORKSPACE}/.git
-          df -h
+          df . -h
       -
         name: Login to Docker Hub
         uses: docker/login-action@v2
