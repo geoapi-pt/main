@@ -19,6 +19,7 @@ jobs:
           sudo swapoff /var/swap || true
           sudo rm -rf /var/swap /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/powershell /usr/share/swift || true
           echo "some directories deleted"
+          sudo apt install aptitude -y
           sudo aptitude purge aria2 ansible azure-cli shellcheck rpm xorriso zsync \
             lld* clang* \
             esl-erlang firefox g++* gfortran-8 gfortran-9 google-chrome-stable \
