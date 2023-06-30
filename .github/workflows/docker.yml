@@ -56,7 +56,7 @@ jobs:
             php-zmq snmp pollinate libpq-dev postgresql-client powershell ruby-full \
             sphinxsearch subversion mongodb-org google-cloud-sdk azure-cli microsoft-edge-stable \
             dotnet* google-chrome-stable temurin* \
-            -yq >/dev/null 2>&1 || true
+            -yq || true
           sudo apt-get autoremove -y >/dev/null 2>&1 || true
           sudo apt-get autoclean -y >/dev/null 2>&1 || true
       - 
