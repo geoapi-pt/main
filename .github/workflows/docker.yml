@@ -15,11 +15,10 @@ jobs:
       - 
         name: Free disk space
         run: |
-          sudo docker rmi $(docker image ls -aq) || true
-          sudo swapoff /var/swap || true
-          sudo rm -rf /var/swap /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/powershell /usr/share/swift || true
+          sudo docker rmi $(docker image ls -aq) >/dev/null 2>&1 || true
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/powershell /usr/share/swift || true
           echo "some directories deleted"
-          sudo apt install aptitude -y
+          sudo apt install aptitude -y 2>&1 || true
           sudo aptitude purge aria2 ansible azure-cli shellcheck rpm xorriso zsync \
             lld* clang* \
             esl-erlang firefox g++* gfortran-8 gfortran-9 google-chrome-stable \
@@ -31,6 +30,7 @@ jobs:
             snmp pollinate libpq-dev postgresql-client powershell ruby-full \
             sphinxsearch subversion mongodb-org azure-cli microsoft-edge-stable \
             dotnet* temurin* -y -f
+          sudo aptitude purge google-cloud-sdk microsoft-edge-stable -f -y
           sudo apt-get autoremove -y >/dev/null 2>&1 || true
           sudo apt-get autoclean -y >/dev/null 2>&1 || true
       - 
