@@ -46,7 +46,7 @@ if (
   })
 
   if (postcodeData.poligono) {
-    L.polygon(postcodeData.poligono).addTo(map)
+    L.polygon(postcodeData.poligono, { interactive: false }).addTo(map)
   }
 
   postcodeData.pontos
@@ -55,7 +55,8 @@ if (
         color: 'red',
         fillColor: '#f03',
         fillOpacity: 0.5,
-        radius: 2
+        radius: 2,
+        interactive: el.rua || el.casa
       }).addTo(map)
 
       if (el.rua) {
