@@ -101,6 +101,9 @@ function forwardToPage (e) {
 
 map.attributionControl.addAttribution('Carta Administrativa Oficial de Portugal <a href="https://www.dgterritorio.gov.pt/">Direção Geral do Território</a>')
 
+// allow user scroll to scroll the main page and not zoom the map
+document.querySelector('.map-div').style.pointerEvents = 'none'
+
 fetch('/distritos?json=1', jsonFetchOptions).then(r => r.json()).then(districts => {
   const geojsonFeatures = districts.filter(d => d.geojson).map(d => {
     const geojson = d.geojson
