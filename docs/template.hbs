@@ -41,12 +41,23 @@
     </head>
     <body>
       {{> bodyHeader}}
+
       <br>
       <center>
-        <h2>Documentação JSON API</h2>
+        <h2>Documentação da API JSON</h2>
+      </center>
+      {{> jsonOrHtmlDocs}}
+
+      <center>
+        <h3>Documentação simplificada</h3>
       </center>
       {{> docsTLDR}}
-      <hr/>
+
+      <br><br>
+
+      <center>
+        <h3>Documentação completa</h3>
+      </center>
       \{{{redocHTML}}}
     </body>
 </html>
