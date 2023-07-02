@@ -9,7 +9,7 @@
     "test": "standard && npm run depcheck && npm run validate-openapi && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
     "start": "node src/server/index.js",
     "build-frontend-assets": "node src/server/buildFeAssets.js",
-    "build-docs": "npm run validate-openapi && cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o index.html -t redocTemplate.temp.hbs --features.openapi.collapseResponseSamplePanel",
+    "build-docs": "npm run validate-openapi && cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o index.html -t redocTemplate.temp.hbs -- --features.openapi.collapseResponseSamplePanel",
     "generate-postalcodes": "node --max-old-space-size=16384 routines/generatePostalCodes/generate.js",
     "generate-admins-addresses": "node --max-old-space-size=16384 routines/admins-addresses/generate.js",
     "generate-geojsons": "cd routines/generateGeojson && node generateParishes.js && node generateMunicipalities.js && node generateDistricts.js && npm run censos-gpkg2geojson",
