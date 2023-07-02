@@ -11,6 +11,12 @@ const indexData = JSON.parse(decodeURIComponent(indexDataDomEl.dataset.indexrout
 window.indexData = indexData
 console.log('indexData:', indexData)
 
+// hide some divs
+const divsToHide = document.querySelectorAll('.map-limiter .map-related-info')
+for (const div of divsToHide) {
+  div.style.display = 'none'
+}
+
 const mapWidth = document.getElementById('map').offsetWidth
 const assumeMobile = mapWidth < 500 || mobileCheck()
 
