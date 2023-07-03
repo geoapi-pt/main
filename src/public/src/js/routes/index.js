@@ -4,7 +4,6 @@ import '../getParishInfo.js'
 import '../getMunicipalityInfo.js'
 import '../getDistrictInfo.js'
 
-import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { mobileCheck, jsonFetchOptions } from '../functions.js'
 import * as mapFunctions from '../map/map-functions.js'
 
@@ -22,8 +21,7 @@ for (const div of divsToHide) {
 const mapWidth = document.getElementById('map').offsetWidth
 const assumeMobile = mapWidth < 500 || mobileCheck()
 
-const map = L.map('map', leafletContextmenu.mapOtions)
-leafletContextmenu.setMap(map)
+const map = L.map('map', { zoomControl: true })
 mapFunctions.setMap(map)
 
 const bbox = indexData.bbox
@@ -68,9 +66,9 @@ info.update = function (properties) {
     }
   } else {
     if (mobileCheck()) {
-      contents = '<h4>Distritos</h4>Toque num distrito ou faça-lhe duplo toque.<br>Pressione longamente num ponto do mapa para mais opções.'
+      contents = '<h4>Distritos</h4>Toque num distrito ou faça-lhe duplo toque.'
     } else {
-      contents = '<h4>Distritos</h4><b>Mova o rato sobre um distrito ou faça-lhe (duplo)clique.<br>Clique no botão direito do rato num ponto do mapa para mais opções.</b>'
+      contents = '<h4>Distritos</h4><b>Mova o rato sobre um distrito ou faça-lhe (duplo)clique.</b>'
     }
   }
   this._div.innerHTML = contents
