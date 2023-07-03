@@ -49,6 +49,12 @@ info.onAdd = function (map) {
   return this._div
 }
 
+// convert keyMapping Array(2, 2) into an Object
+const keysMapingObj = {}
+for (const el of indexData.keysMaping) {
+  keysMapingObj[el[0]] = el[1]
+}
+
 info.update = function (properties) {
   let contents
   if (properties) {
@@ -59,7 +65,7 @@ info.update = function (properties) {
         `<div class="table-responsive"><table style="max-width:${(0.4 * mapWidth).toFixed(0)}px" class="table table-sm"><tbody>`
       for (const key in properties.censos2021) {
         contents +=
-          `<tr><th scope="row">${key}</th>` +
+          `<tr><th scope="row">${keysMapingObj[key]}</th>` +
           `<td>${properties.censos2021[key]}</td></tr>`
       }
       contents += '</tbody></table></div>'

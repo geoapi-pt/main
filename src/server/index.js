@@ -139,7 +139,10 @@ function startServer (callback) {
 
   app.get('/', function (req, res) {
     res.status(200).sendData({
-      data: { bbox: regions.cont.geojson.bbox },
+      data: {
+        bbox: regions.cont.geojson.bbox,
+        keysMaping: JSON.parse(fs.readFileSync(path.join(__dirname, 'utils', 'keysMaping.json')))
+      },
       template: 'index'
     })
   })
