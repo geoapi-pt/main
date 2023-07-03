@@ -1,6 +1,8 @@
 /* global L, fetch */
-import '../getAuthorityInfo.js'
 import '../getPostalCodesInfo.js'
+import '../getParishInfo.js'
+import '../getMunicipalityInfo.js'
+import '../getDistrictInfo.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { mobileCheck, jsonFetchOptions } from '../functions.js'

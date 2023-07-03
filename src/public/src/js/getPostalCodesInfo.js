@@ -5,6 +5,9 @@ const geoApiOrigin = location.origin
 
 const inputCodigoPostal = document.getElementById('codigo-postal')
 const resultCodigoPostal = document.getElementById('result-codigo-postal')
+const resultCodigoPostalTable = document.getElementById('result-codigo-postal-table')
+
+resultCodigoPostalTable.style.display = 'none'
 
 inputCodigoPostal.addEventListener('input', () => {
   inputCodigoPostal.value = inputCodigoPostal.value.replace(/[^\d\s\p{Dash}]/ug, '')
@@ -12,7 +15,9 @@ inputCodigoPostal.addEventListener('input', () => {
   if (!isPostalCodeOK(inputCodigoPostal.value)) {
     inputCodigoPostal.classList.add('border-danger')
     resultCodigoPostal.innerHTML = ''
+    resultCodigoPostalTable.style.display = 'none'
   } else {
+    resultCodigoPostalTable.style.display = 'table'
     inputCodigoPostal.classList.remove('border-danger')
     fetch(`${geoApiOrigin}/cp/${inputCodigoPostal.value}?json=1`)
       .then(res => res.json())

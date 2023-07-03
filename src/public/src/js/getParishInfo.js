@@ -1,13 +1,10 @@
-/* global fetch, location, Option, Event */
-
-// replace by 'https://geoapi.pt' if you're not running your own API
-const geoApiOrigin = location.origin
+/* global fetch, Option, Event */
 
 const selectMunicipality = document.getElementById('select-municipio')
 const selectFreguesia = document.getElementById('select-freguesia')
 
 selectMunicipality.addEventListener('change', () => {
-  fetch(`${geoApiOrigin}/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesias?json=1`)
+  fetch(`/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesias?json=1`)
     .then(res => res.json())
     .then((res) => {
       // clean select
@@ -32,7 +29,7 @@ selectFreguesia.addEventListener('change', () => {
   }
 })
 
-fetch(`${geoApiOrigin}/municipios?json=1`).then(res => res.json())
+fetch('/municipios?json=1').then(res => res.json())
   .then((municipios) => {
     municipios.forEach(el => {
       selectMunicipality.options.add(new Option(el, el))
