@@ -6291,7 +6291,7 @@ paths:
             type: string
             example: marvila
           allowReserved: true
-          description: Município
+          description: Freguesia
         - in: path
           name: seccao
           required: true
@@ -6310,6 +6310,50 @@ paths:
                 $ref: '#/components/schemas/seccao'
         '404':
           description: Secção não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /municipio/{municipio}/freguesia/{freguesia}/seccoes:
+    get:
+      operationId: getSectionsOfParishOfMunicipality
+      summary: Secções estatísticas de uma Freguesia de um determinado Município
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: lisboa
+          allowReserved: true
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: marvila
+          allowReserved: true
+          description: Freguesia
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Lista da Secções Estatística
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  freguesia:
+                    $ref: '#/components/schemas/freguesia'
+                  municipio:
+                    $ref: '#/components/schemas/municipio'
+                  geojson:
+                    type: object
+
+        '404':
+          description: Secções não disponíveis
           content:
             application/json:
               schema:
@@ -6335,7 +6379,7 @@ paths:
             type: string
             example: marvila
           allowReserved: true
-          description: Município
+          description: Freguesia
         - in: path
           name: seccao
           required: true
@@ -6362,6 +6406,50 @@ paths:
                 $ref: '#/components/schemas/subseccao'
         '404':
           description: Secção não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /municipio/{municipio}/freguesia/{freguesia}/subseccoes:
+    get:
+      operationId: getSubsectionsOfParishOfMunicipality
+      summary: Subsecções estatísticas de uma Freguesia de um determinado Município
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: lisboa
+          allowReserved: true
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: marvila
+          allowReserved: true
+          description: Freguesia
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Lista da Subsecções Estatística
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  freguesia:
+                    $ref: '#/components/schemas/freguesia'
+                  municipio:
+                    $ref: '#/components/schemas/municipio'
+                  geojson:
+                    type: object
+
+        '404':
+          description: Subsecções não disponíveis
           content:
             application/json:
               schema:
