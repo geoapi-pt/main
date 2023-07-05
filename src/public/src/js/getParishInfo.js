@@ -25,7 +25,20 @@ selectMunicipality.addEventListener('change', () => {
 
 selectFreguesia.addEventListener('change', () => {
   if (selectFreguesia.value) {
-    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}`
+    const option = document.querySelector('input[name="select-parish-radios"]:checked').value
+    switch (option) {
+      case 'info':
+        window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}`
+        break
+      case 'sections':
+        window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/secções`
+        break
+      case 'subsections':
+        window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/subsecções`
+        break
+      default:
+        throw new Error('unknown option: ' + option)
+    }
   }
 })
 
