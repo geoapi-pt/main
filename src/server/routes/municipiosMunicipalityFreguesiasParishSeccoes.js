@@ -11,7 +11,7 @@ const geojsonDir = path.join(appRoot.path, 'res', 'geojson')
 
 module.exports = {
   fn: routeFn,
-  route: '/municipios?/:municipality?/freguesias?/:parish?/sec(c|ç|%C3%A7)o(e|ẽ|%E1%BA%BD)s'
+  route: '/municipios?/:municipality?/freguesias?/:parish?/sec(co|çõ|%C3%A7%C3%B5)es'
 }
 
 async function routeFn (req, res, next, { administrations, regions }) {
