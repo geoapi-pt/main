@@ -70,16 +70,16 @@ input {
 	border: none !important
 }
 
+input[type=radio]{
+  transform:scale(1.5);
+}
+
 select.form-control {
 	max-width: 600px;
 }
 
-#select-municipio.form-control {
-	max-width: 300px;
-}
-
-#select-freguesia.form-control {
-	max-width: 800px;
+.form-check .form-check-label {
+	margin-left: 5px;
 }
 
 textarea {
@@ -150,6 +150,10 @@ iframe {
 
 .width_50perc {
 	width: 50%;
+}
+
+.width_33perc {
+	width: 33%;
 }
 
 #header_wrap {
