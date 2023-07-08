@@ -1,8 +1,9 @@
 /* global L, fetch */
-import '../getPostalCodesInfo.js'
-import '../getParishInfo.js'
-import '../getMunicipalityInfo.js'
 import '../getDistrictInfo.js'
+import '../getMunicipalityInfo.js'
+import '../getParishInfo.js'
+import '../getPostalCodesInfo.js'
+import '../getLocaleInfo.js'
 
 import { mobileCheck, jsonFetchOptions } from '../functions.js'
 import * as mapFunctions from '../map/map-functions.js'

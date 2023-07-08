@@ -1,21 +1,12 @@
-<div class="limiter main-padding">
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="row" class="table-info2">Obter informação de um <span class="text-primary">código postal</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <input type="text" id="codigo-postal" class="border rounded" name="codigo-postal" placeholder="1234-567" required minlength="8" maxlength="8" size="10">
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <table id="result-codigo-postal-table" class="table table-hover">
-    <tbody id="result-codigo-postal">
-    </tbody>
-  </table>   
+<div class="card">
+  <h5 class="card-title">Obter informação de um Código Postal</h5>
+  <div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <div class="input-group-text" id="codigo-postal-text">Código Postal:</div>
+      </div>
+      <input type="text" id="postal-code-input" class="form-control" placeholder="1234 ou 1234-567" aria-label="Input group example" aria-describedby="codigo-postal-text">
+    </div>
+    <button type="button" id="get-postal-code-info-button" class="btn btn-info">Detalhes sobre Código Postal</button>
+  </div>
 </div>

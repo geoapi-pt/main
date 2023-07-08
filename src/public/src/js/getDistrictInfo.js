@@ -1,21 +1,27 @@
 /* global fetch, Option */
 
+// select
 const selectDistrict = document.getElementById('select-district')
+// buttons
+const btnGetDistrictInfo = document.getElementById('get-district-info-button')
+const btnGetDistrictMunicipalities = document.getElementById('get-district-municipalities-button')
+const btnGetDistrictParishes = document.getElementById('get-district-parishes-button')
 
-selectDistrict.addEventListener('change', () => {
-  const option = document.querySelector('input[name="select-district-radios"]:checked').value
-  switch (option) {
-    case 'info':
-      window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}`
-      break
-    case 'municipalities':
-      window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}/municipios`
-      break
-    case 'parishes':
-      window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}/freguesias`
-      break
-    default:
-      throw new Error('unknown option: ' + option)
+btnGetDistrictInfo.addEventListener('click', () => {
+  if (selectDistrict.value && selectDistrict.value !== '0') {
+    window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}`
+  }
+})
+
+btnGetDistrictMunicipalities.addEventListener('click', () => {
+  if (selectDistrict.value && selectDistrict.value !== '0') {
+    window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}/municipios`
+  }
+})
+
+btnGetDistrictParishes.addEventListener('click', () => {
+  if (selectDistrict.value && selectDistrict.value !== '0') {
+    window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}/freguesias`
   }
 })
 

@@ -1,33 +1,15 @@
-<div class="limiter main-padding">
-  <table class="table">
-    <thead>
-      <tr>
-        <th colspan="2" scope="row" class="table-info2">Obter informação de um <span class="text-primary">município</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="width_50perc">
-          <div class="form-group">
-            <label for="select-municipality-info">Selecione municipio</label>
-            <select class="form-control" id="select-municipality-info"></select>
-          </div>
-        </td>
-        <td>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="select-municipality-radios" id="radio-municipality-info" value="info" checked>
-            <label class="form-check-label" for="radio-municipality-info">
-              Detalhes sobre o município
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="select-municipality-radios" id="radio-municipality-parishes" value="parishes">
-            <label class="form-check-label" for="radio-municipality-parishes">
-              Lista de freguesias do município
-            </label>
-          </div>
-        </td>
-      </tr>
-    </tbody>  
-  </table>
+<div class="card">
+  <h5 class="card-title">Obter informação de um Município</h5>
+  <div class="btn-group-vertical" role="group">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="select-municipality-info">Município</label>
+      </div>
+      <select class="custom-select" id="select-municipality-info">
+        <option selected>Selecione...</option>
+      </select>
+    </div>
+    <button type="button" id="get-municipality-info-button" class="btn btn-info">Dados gerais</button>
+    <button type="button" id="get-municipality-parishes-button" class="btn btn-info">Lista de freguesias</button>
+  </div>
 </div>

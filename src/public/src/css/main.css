@@ -64,24 +64,6 @@ li {
 	list-style-type: none
 }
 
-input {
-	display: block;
-	outline: none;
-	border: none !important
-}
-
-input[type=radio]{
-  transform:scale(1.4);
-}
-
-select.form-control {
-	max-width: 600px;
-}
-
-.form-check .form-check-label {
-	margin-left: 4px;
-}
-
 textarea {
 	display: block;
 	outline: none
@@ -89,20 +71,6 @@ textarea {
 
 textarea:focus {
 	border-color: transparent !important
-}
-
-button {
-	outline: none !important;
-	border: none;
-	background: 0 0
-}
-
-button:hover {
-	cursor: pointer
-}
-
-iframe {
-	border: none !important
 }
 
 .limiter {
@@ -224,6 +192,53 @@ iframe {
 #mylocalbutton img {
 	max-height: 110px;
 }
+
+/* main index page grid cards and bootstrap tweaks */
+.cards .card .btn-group-vertical button {
+  margin-top: 5px !important;
+  border-radius: 4px !important;
+}
+
+.cards .card .input-group.mb-3 {
+  margin-top: 5px !important;
+  margin-bottom: auto !important;
+  border-radius: 4px !important;
+}
+
+.cards .card {
+  background-color: transparent !important;
+  padding: 1rem;
+  overflow: auto;
+  border: none !important;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.input-group-prepend div,
+.input-group-prepend label {
+  min-width: 100px;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* === */
 
 @media (min-width: 500px) {
   #mylocalbutton {

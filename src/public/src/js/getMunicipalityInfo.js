@@ -1,18 +1,20 @@
 /* global fetch, Option */
 
+// select
 const selectMunicipality = document.getElementById('select-municipality-info')
+// buttons
+const btnGetMunicipalityInfo = document.getElementById('get-municipality-info-button')
+const btnGetMunicipalityParishes = document.getElementById('get-municipality-parishes-button')
 
-selectMunicipality.addEventListener('change', () => {
-  const option = document.querySelector('input[name="select-municipality-radios"]:checked').value
-  switch (option) {
-    case 'info':
-      window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}`
-      break
-    case 'parishes':
-      window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}/freguesias`
-      break
-    default:
-      throw new Error('unknown option: ' + option)
+btnGetMunicipalityInfo.addEventListener('click', () => {
+  if (selectMunicipality.value && selectMunicipality.value !== '0') {
+    window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}`
+  }
+})
+
+btnGetMunicipalityParishes.addEventListener('click', () => {
+  if (selectMunicipality.value && selectMunicipality.value !== '0') {
+    window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}/freguesias`
   }
 })
 
