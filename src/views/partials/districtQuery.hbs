@@ -1,39 +1,16 @@
-<div class="limiter main-padding">
-  <table class="table">
-    <thead>
-      <tr>
-        <th colspan="3" scope="row" class="table-info2">Obter informação de um <span class="text-primary">distrito</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="width_50perc">
-          <div class="form-group">
-            <label for="select-district">Selecione distrito</label>
-            <select class="form-control" id="select-district"></select>
-          </div>
-        </td>
-        <td>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="select-district-radios" id="radio-district-info" value="info" checked>
-            <label class="form-check-label" for="radio-district-info">
-              Detalhes sobre o distrito
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="select-district-radios" id="radio-district-municipalities" value="municipalities">
-            <label class="form-check-label" for="radio-district-municipalities">
-              Lista de municípios do distrito
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="select-district-radios" id="radio-district-parishes" value="parishes">
-            <label class="form-check-label" for="radio-district-parishes">
-              Lista de freguesias do distrito
-            </label>
-          </div>
-        </td>
-      </tr>
-    </tbody>  
-  </table>
+<div class="card">
+  <h5 class="card-title">Obter informação de um Distrito</h5>
+  <div class="btn-group-vertical" role="group">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="select-district">Distrito</label>
+      </div>
+      <select class="custom-select" id="select-district">
+        <option value="0" selected>Selecione...</option>
+      </select>
+    </div>
+    <button type="button" id="get-district-info-button" class="btn btn-info">Dados gerais</button>
+    <button type="button" id="get-district-municipalities-button" class="btn btn-info ">Lista de municípios</button>
+    <button type="button" id="get-district-parishes-button" class="btn btn-info">Lista de freguesias</button>
+  </div>
 </div>
