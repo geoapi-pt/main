@@ -14,7 +14,8 @@ window.indexData = indexData
 console.log('indexData:', indexData)
 
 // hide some divs
-const divsToHide = document.querySelectorAll('.map-limiter .map-related-info')
+const divsToHide = document
+  .querySelectorAll('.map-limiter .container-header, .map-limiter .map-related-info')
 for (const div of divsToHide) {
   div.style.display = 'none'
 }
