@@ -29,7 +29,10 @@ function routeFn (req, res, next, { administrations }) {
   const numberOfQueryVars = Object.keys(req.query).length
 
   // shows a list of all municipalities in this case
-  if (numberOfQueryVars === 0 || (numberOfQueryVars === 1 && parseInt(req.query.json))) {
+  if (
+    numberOfQueryVars === 0 ||
+    (numberOfQueryVars === 1 && req.query.json)
+  ) {
     const _result = administrations.listOfMunicipalitiesNames
     const result = JSON.parse(JSON.stringify(_result)) // deep clone
 
