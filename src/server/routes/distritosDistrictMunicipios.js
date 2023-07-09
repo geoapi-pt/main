@@ -46,7 +46,7 @@ function routeFn (req, res, next, { administrations }) {
           return encodeURIComponent(str.toLowerCase())
         }
 
-        dataToShowOnHtml.municipios = result.municipios
+        dataToShowOnHtml['Municípios'] = result.municipios
           .map(el => `<a href="/municipio/${encodeName(el.nome)}">${el.nome}</a>`)
 
         res.status(200).sendData({
