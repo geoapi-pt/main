@@ -175,7 +175,7 @@ textarea:focus {
 
 #mylocalbutton {
 	text-align: center;
-	padding: 10% 10% 0 10%;
+	padding: 0 10% 15px 10%;
 }
 
 #mylocalbutton a {
@@ -224,6 +224,14 @@ textarea:focus {
   min-width: 100px;
 }
 
+#latitude-gps-info {
+	border-bottom-left-radius: 0;
+}
+
+#longitude-gps-info {
+	border-top-left-radius: 0;
+}
+
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
   .cards {
@@ -238,7 +246,7 @@ textarea:focus {
   }
 }
 
-/* === */
+/* ========================== */
 
 @media (min-width: 500px) {
   #mylocalbutton {
