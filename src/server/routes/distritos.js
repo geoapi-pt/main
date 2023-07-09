@@ -16,6 +16,7 @@ module.exports = {
 function routeFn (req, res, next, { administrations, regions }) {
   debug(req.path, req.query, req.headers)
 
+  // if url is '/distritos/base?json=1' req.path is '/distritos/base'
   const isBase = Boolean(parseInt(req.query.base)) || (req.path && req.path.endsWith('/base'))
 
   if (isResponseJson(req)) {
