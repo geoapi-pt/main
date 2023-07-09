@@ -63,7 +63,7 @@ function routeFn (req, res, next, { administrations }) {
         return encodeURIComponent(str.toLowerCase())
       }
 
-      dataToShowOnHtml.freguesias = dataToShowOnHtml.freguesias.map(el =>
+      dataToShowOnHtml.Freguesias = dataToShowOnHtml.freguesias.map(el =>
         `<a href="/municipio/${encodeName(dataToShowOnHtml.nome)}/freguesia/${encodeName(el)}">${el}</a>`
       )
 
