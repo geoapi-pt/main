@@ -20,7 +20,6 @@ btnGetMunicipalityParishes.addEventListener('click', () => {
 
 fetch('/municipios?json=1').then(res => res.json())
   .then((municipios) => {
-    selectMunicipality.options.add(new Option('[selecione]', ''))
     municipios.forEach(el => {
       selectMunicipality.options.add(new Option(el, el))
     })
