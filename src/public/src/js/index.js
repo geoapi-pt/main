@@ -1,12 +1,12 @@
 /* global L, fetch */
-import '../getDistrictInfo.js'
-import '../getMunicipalityInfo.js'
-import '../getParishInfo.js'
-import '../getPostalCodesInfo.js'
-import '../getLocaleInfo.js'
+import './index/getDistrictInfo.js'
+import './index/getMunicipalityInfo.js'
+import './index/getParishInfo.js'
+import './index/getPostalCodesInfo.js'
+import './index/getLocaleInfo.js'
 
-import { mobileCheck, jsonFetchOptions } from '../functions.js'
-import * as mapFunctions from '../map/map-functions.js'
+import { mobileCheck, jsonFetchOptions } from './functions.js'
+import * as mapFunctions from './map/map-functions.js'
 
 const indexDataDomEl = document.getElementById('index-route-data')
 const indexData = JSON.parse(decodeURIComponent(indexDataDomEl.dataset.indexroute))
