@@ -58,3 +58,6 @@ function getOpenApiTestPaths () {
   pathsToTest = pathsToTest.filter(path => path !== '/')
   return pathsToTest
 }
+
+// uncomment for tests
+// console.log(getOpenApiTestPaths())
