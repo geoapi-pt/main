@@ -6,18 +6,28 @@ const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils',
 
 module.exports = {
   fn: routeFn,
-  route: '/distritos'
+  route: [
+    '/distritos',
+    '/distritos/base'
+  ]
 }
 
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
+  const isBase = Boolean(parseInt(req.query.base)) || (req.path && req.path.includes('/base'))
+
   if (isResponseJson(req)) {
-    const result = JSON.parse(JSON.stringify(administrations.districtsDetails)) // deep clone
-    // for info about municiaplities of each district use instead route /distritos/municipios
-    result.forEach(district => {
-      delete district.municipios
-    })
+    let result
+    if (isBase) {
+      result = JSON.parse(JSON.stringify(administrations.listOfDistricts)) // deep clone
+    } else {
+      result = JSON.parse(JSON.stringify(administrations.districtsDetails)) // deep clone
+      // for info about municiaplities of each district use instead route /distritos/municipios
+      result.forEach(district => {
+        delete district.municipios
+      })
+    }
     res.status(200).sendData({ data: result })
   } else {
     res.status(200).sendData({
