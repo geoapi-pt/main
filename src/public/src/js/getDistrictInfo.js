@@ -27,7 +27,6 @@ btnGetDistrictParishes.addEventListener('click', () => {
 
 fetch('/distritos?json=1').then(res => res.json())
   .then((distritos) => {
-    selectDistrict.options.add(new Option('[selecione]', ''))
     distritos.forEach(el => {
       selectDistrict.options.add(new Option(el.distrito, el.distrito))
     })
