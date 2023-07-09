@@ -16,8 +16,10 @@ const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development
 console.log('mode:', mode)
 
 module.exports = async () => {
-  const files = await getFiles(path.join(srcDir, 'js'))
-  const jsFiles = files.filter(f => path.extname(f) === '.js')
+  // assemble JS files as entry points
+  const jsFiles = [path.join(srcDir, 'js', 'index.js')]
+  const files = await getFiles(path.join(srcDir, 'js', 'routes'))
+  jsFiles.push(...files.filter(f => path.extname(f) === '.js'))
 
   const JSentryPointsObj = {}
   jsFiles.forEach(file => {
