@@ -77,23 +77,32 @@ module.exports = TEST_PORT => mainCallback => {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has no key SEC`))
+                eachCallback(Error(`Wrong JSON response from ${urlAbsolutePath} has no key SEC`))
               }
             } else if (regexSubsections.test(urlAbsolutePath)) {
               if (body.SS) {
                 eachCallback()
               } else {
                 console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has no key SS`))
+                eachCallback(Error(`Wrong JSON response from ${urlAbsolutePath} has no key SS`))
               }
             } else if (regexDistritos.test(urlAbsolutePath)) {
-              if (Array.isArray(body) && body.length && body[0].distrito && Array.isArray(body[0].municipios)) {
-                eachCallback()
-              } else if (body.distrito && Array.isArray(body.municipios)) {
-                eachCallback()
+              if (urlAbsolutePath.includes('/base')) {
+                if (Array.isArray(body) && body.length && body.every(e => typeof e === 'string')) {
+                  eachCallback()
+                } else {
+                  console.error(body)
+                  eachCallback(Error(`Wrong JSON response from ${urlAbsolutePath} is not an Array of strings`))
+                }
               } else {
-                console.error(body)
-                eachCallback(Error(`Wrong JSON response: ${urlAbsolutePath} has not these keys: 'distrito' and 'municipios (Array)'`))
+                if (Array.isArray(body) && body.length && body[0].distrito && Array.isArray(body[0].municipios)) {
+                  eachCallback()
+                } else if (body.distrito && Array.isArray(body.municipios)) {
+                  eachCallback()
+                } else {
+                  console.error(body)
+                  eachCallback(Error(`Wrong JSON response from ${urlAbsolutePath} has not these keys: 'distrito' and 'municipios (Array)'`))
+                }
               }
             } else if (postalCodeCP4.test(urlAbsolutePath)) {
               if (body.CP4 &&
