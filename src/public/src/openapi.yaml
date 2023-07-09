@@ -6098,12 +6098,12 @@ paths:
   /distritos:
     get:
       operationId: getAllDistricts
-      summary: Lista de todos os Distritos
+      summary: Lista de todos os Distritos com respectivos detalhes
       parameters: 
         - $ref: '#/components/parameters/json'
       responses:
         '200':
-          description: Informação de todos os Distritos
+          description: Informação de todos os Distritos com respectivos detalhes
           content:
             application/json:
               schema:
@@ -6121,6 +6121,28 @@ paths:
                       type: object
                     censos2021:
                       type: object
+        '400':
+          description: Pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /distritos/base:
+    get:
+      operationId: getListOfAllDistricts
+      summary: Lista de todos os Distritos
+      parameters: 
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Lista de todos os Distritos
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
         '400':
           description: Pedido com erro
           content:
