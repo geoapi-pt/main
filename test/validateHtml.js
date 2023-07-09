@@ -30,7 +30,7 @@ const testServer = require(path.join(__dirname, 'serverForTests'))
 const pathnamesToValidateArr = require(path.join(__dirname, 'openApiPaths'))()
 
 // add paths which are not in openapi.yaml because they are not API related, they are only HTML related
-pathnamesToValidateArr.push(...['/', '/cp'])
+pathnamesToValidateArr.push(...['/'])
 
 const bar = new ProgressBar('[:bar] :percent :info', { total: pathnamesToValidateArr.length + 1, width: 80 })
 
