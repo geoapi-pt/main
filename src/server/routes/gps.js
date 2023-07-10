@@ -143,7 +143,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     // files pattern like BGRI2021_0211.json; BGRI => Base Geográfica de Referenciação de Informação (INE, 2021)
     const geojsonFilePath = path.join(
       censosGeojsonDir, 'subseccoes', '2021',
-      `${municipalityIneCode.toString().padStart(4, '0')}.json`
+      `${municipalityIneCode.toString().padStart(4, '0')}.geojson`
     )
 
     fs.readFile(geojsonFilePath, (err, data) => {
