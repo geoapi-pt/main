@@ -33,7 +33,7 @@ That zip file is automatically unzipped in the directory `/res/postal-codes/` an
 
 ## Censos
 
-The Censos zipped GeoPackage files were got from the INE website [here](https://mapas.ine.pt/download/index2011.phtml). To update them, download the latest files from the INE website and put them into the respective directories inside `res/censos/source/{year}` according to the respective year; and then run `npm run convert-censos-gpkg2geojson` to generate the zipped geojson files inside `res/censos/geojson/{year}`.
+The Censos zipped GeoPackage files were got from the INE website [here](https://mapas.ine.pt/download/index2011.phtml). To update them, download the latest files from the INE website and put them into the respective directories inside `res/censos/source/{year}` according to the respective year; and then run `npm run generate-censos-sections-subsections` to generate the zipped geojson files inside `res/censos/geojson/{year}`.
 
 ## Carta de Uso e Ocupação do Solo
 

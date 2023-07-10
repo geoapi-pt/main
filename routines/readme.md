@@ -16,9 +16,9 @@ This script:
 
 ## Census (`censos/`)
 
-Via the command `npm run censos-generate-data`, the Censos GeoPackage ZIP [files](https://mapas.ine.pt/download/index2011.phtml) from INE, which are already stored in `res/censos/source`, are unzipped; all Census data is then agglomerated per municipality and per parish in `res/censos/data`. 
+Via the command `npm run generate-censos-data`, the Censos GeoPackage ZIP [files](https://mapas.ine.pt/download/index2011.phtml) from INE, which are already stored in `res/censos/source`, are unzipped; all Census data is then agglomerated per municipality and per parish in `res/censos/data`. 
 
-Via the command `npm run censos-gpkg2geojson`, the raw Censos GeoPackage data is converted to GeoJSON, each GeoJSON file corresponding to one municipality, and then stored in the `res/censos/geojson` directory.
+Via the command `npm run generate-censos-sections-subsections`, the raw Censos GeoPackage data is converted to GeoJSON, each GeoJSON file corresponding to one municipality, and then stored in the `res/censos/geojson` directory.
 
 This will provide to the server the function of a Census API, that is, for each parish or municipality, the respective Census information from different years (2011 and 2021).
 
