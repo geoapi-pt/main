@@ -3,6 +3,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const colors = require('colors')
 const geojsonhint = require('@mapbox/geojsonhint')
 const exec = require('child_process').execSync
 const ProgressBar = require('progress')
@@ -27,12 +28,13 @@ if (exec('ogr2ogr --version').toString().includes('GDAL')) {
 
 let regions
 
+console.log('Generating Geojson parishes files in ' + path.relative(appRoot.path, parishesGeojsonDir))
 getGeojsonRegions((err, _regions) => {
   if (!err) {
     regions = _regions
     generateGeojsonParishes()
     validateGeojsonFiles(() => {
-      console.log(`GeoJSON files generated OK into ${path.relative(appRoot.path, parishesGeojsonDir)}`)
+      console.log(colors.green(`GeoJSON files generated OK into ${path.relative(appRoot.path, parishesGeojsonDir)}`))
     })
   }
 })
@@ -66,7 +68,7 @@ function generateGeojsonParishes () {
         const geojsonString = JSON.stringify(parish)
 
         // lint to check if is valid
-        const lintErrors = geojsonhint.hint(geojsonString, { precisionWarning: false })
+        const lintErrors = geojsonhint.hint(geojsonString)
         if (
           Array.isArray(lintErrors) &&
           lintErrors.length &&
@@ -78,7 +80,7 @@ function generateGeojsonParishes () {
           exec(`ogr2ogr -f GeoJSON -lco RFC7946=YES ${file} ${file + '.tmp'}`)
 
           // check again to be sure is correct
-          const lintErrors = geojsonhint.hint(fs.readFileSync(file, 'utf-8'), { precisionWarning: false })
+          const lintErrors = geojsonhint.hint(fs.readFileSync(file, 'utf-8'))
           if (
             Array.isArray(lintErrors) &&
             lintErrors.length
