@@ -70,7 +70,7 @@ function generateGeojsonParishes () {
         if (
           Array.isArray(lintErrors) &&
           lintErrors.length &&
-          lintErrors.some(el => el.message.includes('right-hand rule'))
+          lintErrors.some(el => el.message.toLowerCase().includes('right-hand rule'))
         ) {
           // there's an error related with right-hand rule, correct geojson file with ogr2ogr
           // see https://gis.stackexchange.com/a/312356/182228
