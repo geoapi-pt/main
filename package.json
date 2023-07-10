@@ -6,7 +6,7 @@
     "depcheck": "depcheck --ignores=\"depcheck,leaflet,leaflet-contextmenu,webpack-cli\" --ignore-patterns=\"res/*\"",
     "validate-openapi": "redocly lint src/public/src/openapi.yaml && lint-openapi src/public/src/openapi.yaml -e -v -r docs/ibm-lint-openapi-rules.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
-    "test": "standard && npm run depcheck && npm run validate-openapi && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
+    "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateGeojsons.js && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
     "start": "node src/server/index.js",
     "build-frontend-assets": "node src/server/buildFeAssets.js",
     "build-docs": "npm run validate-openapi && cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o index.html -t redocTemplate.temp.hbs -- --features.openapi.collapseResponseSamplePanel",

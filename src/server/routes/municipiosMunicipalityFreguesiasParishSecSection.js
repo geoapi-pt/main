@@ -65,7 +65,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
       municipio: municipality
     }
 
-    const geojsonFile = path.join(geojsonDir, 'seccoes', '2021', `${municipalityCode}.json`)
+    const geojsonFile = path.join(geojsonDir, 'seccoes', '2021', `${municipalityCode}.geojson`)
     const censosFile = path.join(sectionsCensosDir, parishCode, `${sectionFullCode}.json`)
 
     if (!fs.existsSync(geojsonFile)) {

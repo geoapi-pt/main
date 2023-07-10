@@ -63,7 +63,7 @@ async function routeFn (req, res, next, { administrations, regions }) {
       municipio: municipality
     }
 
-    const geojsonFile = path.join(geojsonDir, 'subseccoes', '2021', `${municipalityCode}.json`)
+    const geojsonFile = path.join(geojsonDir, 'subseccoes', '2021', `${municipalityCode}.geojson`)
 
     if (!fs.existsSync(geojsonFile)) {
       res.status(404).sendData({ error: `Ficheiro Geojson ${path.relative(appRoot.path, geojsonFile)} não encontrado!` })
