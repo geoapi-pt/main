@@ -67,6 +67,8 @@ function routeFn (req, res, next, { administrations }) {
         `<a href="/municipio/${encodeName(dataToShowOnHtml.nome)}/freguesia/${encodeName(el)}">${el}</a>`
       )
 
+      delete dataToShowOnHtml.freguesias
+
       // no need for html, since it is already in input key
       delete dataToShowOnHtml.nome
 
