@@ -258,7 +258,7 @@ function testAllMunicipalities (mainCallback) {
 }
 
 function testPostalCode (callback) {
-  got(`http://localhost:${TEST_PORT}/cp/1950-449`)
+  got(`http://localhost:${TEST_PORT}/codigo_postal/1950-449`)
     .json()
     .then(body => {
       if (body.error || body.erro) {
@@ -282,7 +282,7 @@ function testPostalCode (callback) {
       }
     })
     .catch(err => {
-      callback(Error(`\n${err} on /cp/1950-449\n`))
+      callback(Error(`\n${err} on /codigo_postal/1950-449\n`))
     })
 }
 
@@ -337,7 +337,7 @@ function testOpenApiPathsHtml (mainCallback) {
           const regexMunicipios = /^\/municipios?\/.+/
           const regexFreguesias = /.+\/freguesias?\/.+/
           const regexDistritos = /^\/distritos?\/.+/
-          const postalCode = /^\/cp\/\d{4}/ // CP4 and CP7
+          const postalCode = /^\/codigo_postal\/\d{4}/ // CP4 and CP7
 
           if (
             gpsRegex.test(urlAbsolutePath) ||

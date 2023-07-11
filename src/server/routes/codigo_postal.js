@@ -9,10 +9,13 @@ const { isValidPostalCode } = require(path.join(appRoot.path, 'src', 'server', '
 
 module.exports = {
   fn: routeFn,
-  route: '/cp/:cp'
+  route: [
+    '/cp/:cp',
+    '/codigo_postal/:cp'
+  ]
 }
 
-// route for Postal Codes: /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
+// route for Postal Codes: /codigo_postal/XXXX, /codigo_postal/XXXXYYY or /codigo_postal/XXXX-YYY
 function routeFn (req, res, next, { appRootPath }) {
   debug(req.path, req.query, req.headers)
 
@@ -70,12 +73,12 @@ function routeFn (req, res, next, { appRootPath }) {
             input: { 'Código Postal': cp4 + (cp3 ? `-${cp3}` : '') },
             dataToShowOnHtml: dataToShowOnHtml,
             pageTitle: `Dados sobre o Código Postal ${cp4 + (cp3 ? `-${cp3}` : '')}`,
-            template: 'routes/cp'
+            template: 'routes/codigo_postal'
           })
         }
       }
     })
   } else {
-    res.status(404).sendData({ error: 'Postal Code format must be /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY' })
+    res.status(404).sendData({ error: 'Postal Code format must be /codigo_postal/XXXX, /codigo_postal/XXXXYYY or /codigo_postal/XXXX-YYY' })
   }
 }
