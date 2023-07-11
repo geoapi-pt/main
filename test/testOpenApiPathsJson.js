@@ -21,8 +21,8 @@ module.exports = TEST_PORT => mainCallback => {
             const regexSections = /^\/municipios?\/.+\/sec\/.\d+$/
             const regexSubsections = /^\/municipios?\/.+\/sec\/\d+\/ss\/\d+$/
             const regexDistritos = /^\/distritos?\/.+/
-            const postalCodeCP4 = /^\/cp\/\d{4}$/
-            const postalCodeCP7 = /^\/cp\/\d{4}\p{Dash}?\d{3}$/u
+            const postalCodeCP4 = /^\/codigo_postal\/\d{4}$/
+            const postalCodeCP7 = /^\/codigo_postal\/\d{4}\p{Dash}?\d{3}$/u
 
             if (gpsRegex.test(urlAbsolutePath)) {
               if (

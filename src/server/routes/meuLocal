@@ -3,7 +3,6 @@ module.exports = {
   route: '/meulocal'
 }
 
-// route for Postal Codes: /cp/XXXX, /cp/XXXXYYY or /cp/XXXX-YYY
 function routeFn (req, res, next) {
   res.status(200).sendData({
     pageTitle: 'Dados sobre o meu local',

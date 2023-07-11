@@ -54,7 +54,7 @@ module.exports = (obj) => {
 
   if (isValidPostalCode(obj['Código Postal'])) {
     const CP = obj['Código Postal']
-    obj['Código Postal'] = `<a href="/cp/${CP}">${CP}</a>`
+    obj['Código Postal'] = `<a href="/codigo_postal/${CP}">${CP}</a>`
   }
 
   if (isValidString(obj['Sítio'])) {

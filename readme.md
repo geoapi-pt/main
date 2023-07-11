@@ -33,9 +33,9 @@ By default the server replies with `text/html` format. To receive JSON format, c
 
  - add the query GET parameter `json=1` to the URL (ex.: [`/municipio/évora?json=1`](https://geoapi.pt/municipio/evora?json=1));
  - set the HTTP request header `Accept` as JSON, that is, `Accept: application/json`; or
- - in case you're using the public API, use the host `json.geoapi.pt` (ex: [`json.geoapi.pt/cp/2495-300`](https://json.geoapi.pt/cp/2495-300))
+ - in case you're using the public API, use the host `json.geoapi.pt` (ex: [`json.geoapi.pt/codigo_postal/2495-300`](https://json.geoapi.pt/codigo_postal/2495-300))
  
-For pretty-printing JSON as HTML response, use in the query `?json=belo`, for example [`/cp/2495-300?json=belo`](https://geoapi.pt/cp/2495-300?json=belo)
+For pretty-printing JSON as HTML response, use in the query `?json=belo`, for example [`/codigo_postal/2495-300?json=belo`](https://geoapi.pt/codigo_postal/2495-300?json=belo)
 
 ## Install this API on your machine
 

@@ -57,10 +57,10 @@ function createSitemap (cb) {
 
   const links = []
   for (const CP of postalCodes) {
-    links.push({ url: `/cp/${CP}`, changefreq: 'monthly', priority: 0.5 })
+    links.push({ url: `/codigo_postal/${CP}`, changefreq: 'monthly', priority: 0.5 })
   }
   for (const CP4 of CP4postalCodes) {
-    links.push({ url: `/cp/${CP4}`, changefreq: 'monthly', priority: 0.5 })
+    links.push({ url: `/codigo_postal/${CP4}`, changefreq: 'monthly', priority: 0.5 })
   }
 
   links.push({ url: '/municipios', changefreq: 'monthly', priority: 0.5 })

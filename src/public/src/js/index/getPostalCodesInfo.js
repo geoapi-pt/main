@@ -15,7 +15,7 @@ getPostalCodeInfoBtn.addEventListener('click', () => {
   inputCodigoPostal.value = inputCodigoPostal.value.replace(/[^\d\s\p{Dash}]/ug, '')
 
   if (isPostalCodeOK(inputCodigoPostal.value)) {
-    window.location.href = `/cp/${inputCodigoPostal.value}`
+    window.location.href = `/codigo_postal/${inputCodigoPostal.value}`
   }
 })
 
