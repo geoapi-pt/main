@@ -6537,6 +6537,54 @@ paths:
       responses:
         $ref: '#/paths/~1codigo_postal~1%7Bcp%7D/get/responses'
   
+  /codigos_postais:
+    get:
+      operationId: getListOfAllPostalCodes
+      summary: Todos os Códigos Postais
+      parameters: 
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Todos os Códigos Postais organizados em árvore com cada CP4 tendo respetivos filhos CP3
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  cp4:
+                    type: object
+                    properties:
+                      cp3:
+                        type: object
+        '400':
+          description: Pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
+            
+  /codigos_postais/base:
+    get:
+      operationId: getListOfAllPostalCodesBase
+      summary: Lista simples de todos os Códigos Postais
+      parameters: 
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Lista simples de todos os Códigos Postais no formato CP4-CP3
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+        '400':
+          description: Pedido com erro
+          content:
+            application/json:
+              schema:
+                type: string
+
   /shieldsio/requestslasthour:
     get:
       operationId: getRequestsPerHour
