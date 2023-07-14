@@ -1,13 +1,24 @@
+/* global fetch */
+
 const inputCodigoPostal = document.getElementById('postal-code-input')
 const getPostalCodeInfoBtn = document.getElementById('get-postal-code-info-button')
+
+let arrayOfcp7 // array with all the CP7s
+fetch('/codigos_postais/base?json=1')
+  .then(r => r.json())
+  .then(res => {
+    arrayOfcp7 = res
+  })
 
 inputCodigoPostal.addEventListener('input', () => {
   inputCodigoPostal.value = inputCodigoPostal.value.replace(/[^\d\s\p{Dash}]/ug, '')
 
-  if (!isPostalCodeOK(inputCodigoPostal.value)) {
-    inputCodigoPostal.classList.add('border-danger')
-  } else {
+  if (isPostalCodeOK(inputCodigoPostal.value) && arrayOfcp7.includes(inputCodigoPostal.value)) {
     inputCodigoPostal.classList.remove('border-danger')
+    inputCodigoPostal.classList.add('border-success')
+  } else {
+    inputCodigoPostal.classList.remove('border-success')
+    inputCodigoPostal.classList.add('border-danger')
   }
 })
 
