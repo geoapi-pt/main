@@ -3,7 +3,7 @@ import './index/getDistrictInfo.js'
 import './index/getMunicipalityInfo.js'
 import './index/getParishInfo.js'
 import './index/getPostalCodesInfo.js'
-import './index/getLocaleInfo.js'
+import './index/getLocationInfo.js'
 
 import { mobileCheck, jsonFetchOptions } from './functions.js'
 import * as mapFunctions from './map/map-functions.js'

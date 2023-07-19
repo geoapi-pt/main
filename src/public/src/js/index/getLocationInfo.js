@@ -2,7 +2,7 @@
 const inputLatitudeGps = document.getElementById('latitude-gps-input')
 const inputLongitudeGps = document.getElementById('longitude-gps-input')
 // buttons
-const btnGetLocaleInfo = document.getElementById('get-locale-info-button')
+const btnGetLocationInfo = document.getElementById('get-location-info-button')
 
 inputLatitudeGps.addEventListener('input', () => {
   if (!isInputAValidNumber(inputLatitudeGps)) {
@@ -20,7 +20,7 @@ inputLongitudeGps.addEventListener('input', () => {
   }
 })
 
-btnGetLocaleInfo.addEventListener('click', () => {
+btnGetLocationInfo.addEventListener('click', () => {
   if (isInputAValidNumber(inputLatitudeGps) && isInputAValidNumber(inputLongitudeGps)) {
     window.location.href = `/gps/${inputLatitudeGps.value},${inputLongitudeGps.value}`
   }
