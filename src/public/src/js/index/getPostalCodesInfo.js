@@ -16,9 +16,11 @@ inputCodigoPostal.addEventListener('input', () => {
   if (isPostalCodeOK(inputCodigoPostal.value) && arrayOfcp7.includes(inputCodigoPostal.value)) {
     inputCodigoPostal.classList.remove('border-danger')
     inputCodigoPostal.classList.add('border-success')
+    getPostalCodeInfoBtn.disabled = false
   } else {
     inputCodigoPostal.classList.remove('border-success')
     inputCodigoPostal.classList.add('border-danger')
+    getPostalCodeInfoBtn.disabled = true
   }
 })
 
