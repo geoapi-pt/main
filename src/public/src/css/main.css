@@ -17,7 +17,7 @@
 body,
 html {
 	height: 100%;
-	font-family: sans-serif
+	font-family: sans-serif;
 }
 
 body {
@@ -29,17 +29,17 @@ a {
 	transition: all .4s;
 	-webkit-transition: all .4s;
 	-o-transition: all .4s;
-	-moz-transition: all .4s
+	-moz-transition: all .4s;
 }
 
 a:focus {
-	outline: none !important
+	outline: none !important;
 }
 
-#project_title a, 
-#project_title a:hover, 
-#project_title a:focus, 
-#project_title a:active
+#project_title a,
+#project_title a:hover,
+#project_title a:focus,
+#project_title a:active,
 a, a:hover, a:focus, a:active {
 	text-decoration: none;
 	color: inherit;
@@ -51,26 +51,26 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0
+	margin: 0;
 }
 
 p {
-	margin: 0
+	margin: 0;
 }
 
 ul,
 li {
 	margin: 0;
-	list-style-type: none
+	list-style-type: none;
 }
 
 textarea {
 	display: block;
-	outline: none
+	outline: none;
 }
 
 textarea:focus {
-	border-color: transparent !important
+	border-color: transparent !important;
 }
 
 .limiter {
@@ -88,7 +88,7 @@ textarea:focus {
 }
 
 .table-info2, .table-info2>td, .table-info2>th {
-	background-color: #e8f8fb;	
+	background-color: #e8f8fb;
 }
 
 .container-table100 {
@@ -195,33 +195,33 @@ textarea:focus {
 
 /* main index page grid cards and bootstrap tweaks */
 .cards .card .btn-group-vertical button {
-  margin-top: 5px !important;
-  border-radius: 4px !important;
+	margin-top: 5px !important;
+	border-radius: 4px !important;
 }
 
 .cards .card .input-group.mb-3 {
-  margin-top: 5px !important;
-  margin-bottom: auto !important;
-  border-radius: 4px !important;
+	margin-top: 5px !important;
+	margin-bottom: auto !important;
+	border-radius: 4px !important;
 }
 
 .cards .card {
-  background-color: transparent !important;
-  padding: 1rem;
-  overflow: auto;
-  border: none !important;
+	background-color: transparent !important;
+	padding: 1rem;
+	overflow: auto;
+	border: none !important;
 }
 
 .cards {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: 1rem;
 }
 
 .input-group-prepend div,
 .input-group-prepend label {
-  min-width: 100px;
+	min-width: 100px;
 }
 
 #latitude-gps-info {
@@ -234,22 +234,22 @@ textarea:focus {
 
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 /* Screen larger than 900px? 3 columns */
 @media (min-width: 900px) {
-  .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 /* ========================== */
 
 @media (min-width: 500px) {
-  #mylocationbutton {
+	#mylocationbutton {
 		display: none;
 	}
 }
@@ -280,7 +280,7 @@ textarea:focus {
 
 /* Mainly for PWA */
 @media all and (display-mode: standalone) {
-  #header_wrap {
-    display: none
-  }
+	#header_wrap {
+		display: none;
+	}
 }
