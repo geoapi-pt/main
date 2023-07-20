@@ -7,16 +7,24 @@ const btnGetLocationInfo = document.getElementById('get-location-info-button')
 inputLatitudeGps.addEventListener('input', () => {
   if (!isInputAValidNumber(inputLatitudeGps)) {
     inputLatitudeGps.classList.add('border-danger')
+    btnGetLocationInfo.disabled = true
   } else {
     inputLatitudeGps.classList.remove('border-danger')
+    if (isInputAValidNumber(inputLongitudeGps)) {
+      btnGetLocationInfo.disabled = false
+    }
   }
 })
 
 inputLongitudeGps.addEventListener('input', () => {
   if (!isInputAValidNumber(inputLongitudeGps)) {
     inputLongitudeGps.classList.add('border-danger')
+    btnGetLocationInfo.disabled = true
   } else {
     inputLongitudeGps.classList.remove('border-danger')
+    if (isInputAValidNumber(inputLatitudeGps)) {
+      btnGetLocationInfo.disabled = false
+    }
   }
 })
 

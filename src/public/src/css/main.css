@@ -228,8 +228,18 @@ textarea:focus {
 	border-bottom-left-radius: 0;
 }
 
+#latitude-gps-input {
+	border-bottom-right-radius: 0;
+}
+
 #longitude-gps-info {
 	border-top-left-radius: 0;
+	border-top: none;
+}
+
+#longitude-gps-input {
+	border-top-right-radius: 0;
+	border-top: none;
 }
 
 /* Screen larger than 600px? 2 column */
