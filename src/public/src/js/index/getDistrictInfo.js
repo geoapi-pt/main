@@ -7,6 +7,18 @@ const btnGetDistrictInfo = document.getElementById('get-district-info-button')
 const btnGetDistrictMunicipalities = document.getElementById('get-district-municipalities-button')
 const btnGetDistrictParishes = document.getElementById('get-district-parishes-button')
 
+selectDistrict.addEventListener('change', () => {
+  if (selectDistrict.value && selectDistrict.value !== '0') {
+    btnGetDistrictInfo.disabled = false
+    btnGetDistrictMunicipalities.disabled = false
+    btnGetDistrictParishes.disabled = false
+  } else {
+    btnGetDistrictInfo.disabled = true
+    btnGetDistrictMunicipalities.disabled = true
+    btnGetDistrictParishes.disabled = true
+  }
+})
+
 btnGetDistrictInfo.addEventListener('click', () => {
   if (selectDistrict.value && selectDistrict.value !== '0') {
     window.location.href = `/distrito/${encodeURIComponent(selectDistrict.value)}`
