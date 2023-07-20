@@ -22,10 +22,24 @@ selectMunicipality.addEventListener('change', () => {
       res.freguesias.forEach(el => {
         selectFreguesia.options.add(new Option(el, el))
       })
+
+      selectFreguesia.disabled = false
     })
     .catch((err) => {
       console.error('error fetching freguesias', err)
     })
+})
+
+selectFreguesia.addEventListener('change', () => {
+  if (areBothSelectsSelected()) {
+    btnGetParishesInfo.disabled = false
+    btnGetParishesSections.disabled = false
+    btnGetParishesSubsections.disabled = false
+  } else {
+    btnGetParishesInfo.disabled = true
+    btnGetParishesSections.disabled = true
+    btnGetParishesSubsections.disabled = true
+  }
 })
 
 btnGetParishesInfo.addEventListener('click', () => {
