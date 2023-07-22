@@ -9,25 +9,31 @@ const btnGetParishesSections = document.getElementById('get-parish-sections-butt
 const btnGetParishesSubsections = document.getElementById('get-parish-subsections-button')
 
 selectMunicipality.addEventListener('change', () => {
-  fetch(`/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesias?json=1`)
-    .then(res => res.json())
-    .then((res) => {
-      // clean select
-      const length = selectFreguesia.options.length
-      for (let i = length - 1; i >= 0; i--) {
-        selectFreguesia.options[i] = null
-      }
+  // Clean list of parishes (except the 0th item, "Select...")
+  const length = selectFreguesia.options.length
+  for (let i = length - 1; i > 0; i--) {
+    selectFreguesia.remove(i)
+  }
 
-      selectFreguesia.options.add(new Option('Selecione...', '0'))
-      res.freguesias.forEach(el => {
-        selectFreguesia.options.add(new Option(el, el))
+  if (selectMunicipality.value && selectMunicipality.value !== '0') {
+    fetch(`/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesias?json=1`)
+      .then(res => res.json())
+      .then((res) => {
+        res.freguesias.forEach(el => {
+          selectFreguesia.options.add(new Option(el, el))
+        })
+
+        selectFreguesia.disabled = false
       })
-
-      selectFreguesia.disabled = false
-    })
-    .catch((err) => {
-      console.error('error fetching freguesias', err)
-    })
+      .catch((err) => {
+        console.error('error fetching freguesias', err)
+      })
+  } else {
+    selectFreguesia.disabled = true
+    btnGetParishesInfo.disabled = true
+    btnGetParishesSections.disabled = true
+    btnGetParishesSubsections.disabled = true
+  }
 })
 
 selectFreguesia.addEventListener('change', () => {
