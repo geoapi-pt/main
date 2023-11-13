@@ -5,6 +5,7 @@ const sanitize = require('sanitize-filename')
 const debug = require('debug')('geoapipt:server')
 
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
 const { isValidPostalCode } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
 
 module.exports = {
@@ -16,7 +17,7 @@ module.exports = {
 }
 
 // route for Postal Codes: /codigo_postal/XXXX, /codigo_postal/XXXXYYY or /codigo_postal/XXXX-YYY
-function routeFn (req, res, next, { appRootPath }) {
+function routeFn (req, res, next, { appRootPath, administrations }) {
   debug(req.path, req.query, req.headers)
 
   const cp = req.params.cp
@@ -41,6 +42,22 @@ function routeFn (req, res, next, { appRootPath }) {
         const data = JSON.parse(fileContent)
 
         if (isResponseJson(req)) {
+          if (data.Concelho) {
+            data.municipio = data.Concelho
+          }
+
+          const districtINEcode = administrations.districtsDetails
+            .find(d => normalizeName(d.distrito) === normalizeName(data.Distrito)).codigoine
+          const municipalityINEcode = administrations.municipalitiesDetails
+            .find(m => normalizeName(m.nome) === normalizeName(data.Concelho)).codigoine
+
+          if (districtINEcode) {
+            data.codigoineDistrito = districtINEcode
+          }
+          if (municipalityINEcode) {
+            data.codigoineMunicipio = municipalityINEcode
+          }
+
           res.status(200).sendData({ data: data })
         } else {
           // text/html
