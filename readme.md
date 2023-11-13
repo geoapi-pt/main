@@ -27,6 +27,11 @@ All the API documentation is at [docs.geoapi.pt](https://docs.geoapi.pt/).
 
 This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification), thus you can see all the routes in the [`openapi.yaml`](/src/public/src/openapi.yaml) file. 
 
+## Resources and Routines
+
+ - To know more about the raw resources used by this API, see the [`res/`](/res) readme file
+ - To check available backend routines (for example to update raw resources) run `npm run`. Read more on the [`routines/`](/routines) readme file
+
 ## JSON or HTML
 
 By default the server replies with `text/html` format. To receive JSON format, chose **one** of these:
