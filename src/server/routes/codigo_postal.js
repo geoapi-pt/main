@@ -53,7 +53,7 @@ function routeFn (req, res, next, { appRootPath }) {
             return obj
           })
 
-          const fieldsToDelete = ['CP', 'CP4', 'CP3', 'pontos', 'partes', 'poligono', 'ruas', 'centroide', 'centroDeMassa']
+          const fieldsToDelete = ['CP', 'CP4', 'CP3', 'pontos', 'partes', 'outliers', 'poligono', 'ruas', 'centroide', 'centroDeMassa']
           fieldsToDelete.forEach(el => {
             if (el in dataToShowOnHtml) delete dataToShowOnHtml[el]
           })
