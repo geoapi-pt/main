@@ -46,16 +46,16 @@ function routeFn (req, res, next, { appRootPath, administrations }) {
             data.municipio = data.Concelho
           }
 
-          const districtINEcode = administrations.districtsDetails
-            .find(d => normalizeName(d.distrito) === normalizeName(data.Distrito)).codigoine
-          const municipalityINEcode = administrations.municipalitiesDetails
-            .find(m => normalizeName(m.nome) === normalizeName(data.Concelho)).codigoine
+          const district = administrations.districtsDetails
+            .find(d => normalizeName(d.distrito) === normalizeName(data.Distrito))
+          const municipality = administrations.municipalitiesDetails
+            .find(m => normalizeName(m.nome) === normalizeName(data.Concelho))
 
-          if (districtINEcode) {
-            data.codigoineDistrito = districtINEcode
+          if (district && district.codigoine) {
+            data.codigoineDistrito = district.codigoine
           }
-          if (municipalityINEcode) {
-            data.codigoineMunicipio = municipalityINEcode
+          if (municipality && municipality.codigoine) {
+            data.codigoineMunicipio = municipality.codigoine
           }
 
           res.status(200).sendData({ data: data })
