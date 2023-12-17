@@ -5,7 +5,6 @@
 const fs = require('fs')
 const path = require('path')
 const shapefile = require('shapefile')
-const extract = require('extract-zip')
 const reproject = require('reproject')
 const async = require('async')
 const turf = require('@turf/turf')
@@ -24,36 +23,31 @@ const { uniteParishes, removeDuplicatesArr } = require(path.join(appRoot.path, '
 const regions = {
   cont: {
     name: 'Continente',
-    zipFileName: 'Cont_AAD_CAOP2021.zip',
-    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2021',
+    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2022',
     geojson: {}, // geojson FeatureCollection of polygons of all parishes
     projection: '' // info regarding the coordinates transformation
   },
   ArqMadeira: {
     name: 'Arquipélago da Madeira',
-    zipFileName: 'ArqMadeira_AAD_CAOP2021.zip',
-    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2021',
+    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2022',
     geojson: {},
     projection: ''
   },
   ArqAcores_GOcidental: {
     name: 'Arquipélago dos Açores (Grupo Ocidental)',
-    zipFileName: 'ArqAcores_GOcidental_AAd_CAOP2021.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2021',
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2022',
     geojson: {},
     projection: ''
   },
   ArqAcores_GCentral: {
     name: 'Arquipélago dos Açores (Grupo Central)',
-    zipFileName: 'ArqAcores_GCentral_AAd_CAOP2021.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2021',
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2022',
     geojson: {},
     projection: ''
   },
   ArqAcores_GOriental: {
     name: 'Arquipélago dos Açores (Grupo Oriental)',
-    zipFileName: 'ArqAcores_GOriental_AAd_CAOP2021.zip',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2021',
+    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2022',
     geojson: {},
     projection: ''
   }
@@ -67,7 +61,6 @@ module.exports = function (callback) {
   )
   async.series(
     [
-      extractZip, // extracts zip file with shapefile and projection files
       readShapefile, // fill in the geoson fields in the regions Object
       postProcessRegions, // post process data in the geoson fields in the regions Object
       readProjectionFile, // fill in the projection fields in the regions Object
@@ -82,31 +75,10 @@ module.exports = function (callback) {
         process.exitCode = 1
       } else {
         debug('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
+        console.log(regions.cont.geojson.features.filter(f => f.properties.Concelho.toLowerCase().trim() === 'lagoa'))
         callback(null, regions)
       }
     })
-}
-
-// extracts zip file with shapefile and projection files
-function extractZip (mainCallback) {
-  async.forEachOf(regions, function (region, key, callback) {
-    const zipFile = path.join(resDir, 'portuguese-administrative-chart', region.zipFileName)
-    extract(zipFile, { dir: path.join(resDir, 'portuguese-administrative-chart') })
-      .then(() => {
-        debug(`zip file extraction for ${region.name} complete`)
-        bar.tick()
-        callback()
-      })
-      .catch((errOnUnzip) => {
-        callback(Error('Error unziping file ' + zipFile + '. ' + errOnUnzip.message))
-      })
-  }, function (err) {
-    if (err) {
-      mainCallback(Error(err))
-    } else {
-      mainCallback()
-    }
-  })
 }
 
 // fill in the geoson fields in the regions Object
