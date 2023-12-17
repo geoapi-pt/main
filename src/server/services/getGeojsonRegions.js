@@ -140,6 +140,7 @@ function postProcessRegions (callback) {
           }
         })
       })
+
     callback()
   } catch (err) {
     console.error(err)
@@ -215,9 +216,11 @@ function mergeParishesParts (callback) {
       const compactedParish = uniteParishes(spreadParish);
 
       // copy some keys
-      ['Dicofre', 'Freguesia', 'Concelho', 'Distrito', 'Des_Simpli'].forEach(key => {
+      ['Freguesia', 'Concelho', 'Distrito', 'Des_Simpli'].forEach(key => {
         compactedParish.properties[key] = spreadParish[0].properties[key]
       })
+      compactedParish.properties.Dicofre =
+        spreadParish[0].properties.Dicofre || spreadParish[0].properties.DICOFRE
       delete compactedParish.TAA
 
       parishes = parishes.filter(el => code !== (el.properties.DICOFRE || el.properties.Dicofre))
