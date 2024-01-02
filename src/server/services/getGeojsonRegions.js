@@ -75,7 +75,6 @@ module.exports = function (callback) {
         process.exitCode = 1
       } else {
         debug('Municipalities and Parishes prepared with ' + colors.green.bold('success'))
-        console.log(regions.cont.geojson.features.filter(f => f.properties.Concelho.toLowerCase().trim() === 'lagoa'))
         callback(null, regions)
       }
     })
