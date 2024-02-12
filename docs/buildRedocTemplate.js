@@ -1,4 +1,6 @@
-/* buils API docs using redoc-cli and creating template for redoc-cli according to this project specs */
+/* Buils API docs using redoc-cli and creating template for redoc-cli according to this project specs
+   Run via: npm run build-docs
+*/
 
 const fs = require('fs')
 const path = require('path')
