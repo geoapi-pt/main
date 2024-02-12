@@ -7,12 +7,12 @@ const path = require('path')
 const Handlebars = require('handlebars')
 const appRoot = require('app-root-path')
 
-const configsPath = path.join(appRoot.path, 'configs.json')
-
 // Path of generated Template further used by redocly to generated API docs
 const redocTemplatePath = path.join(__dirname, 'redocTemplate.temp.hbs')
 
-const configs = JSON.parse(fs.readFileSync(configsPath))
+// get configuration variables
+const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
+const configs = require(path.join(servicesDir, 'getConfigs.js'))
 
 const template = Handlebars.compile(fs.readFileSync(path.join(__dirname, 'template.hbs'), 'utf-8'))
 

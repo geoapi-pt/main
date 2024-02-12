@@ -7,7 +7,6 @@ and returns the first to reply OK
 when external APIs are disabled
  - estimate altitude by interpolation based on fixed points */
 
-const fs = require('fs')
 const path = require('path')
 const got = require('got')
 const async = require('async')
@@ -21,9 +20,11 @@ const openElevationApiBaseUrl = 'https://api.open-elevation.com/api/v1/lookup'
 // see https://www.opentopodata.org/datasets/eudem/
 const openTopoDataApiBaseUrl = 'https://api.opentopodata.org/v1/eudem25m'
 
-const openTopoDataApiDockerPort = JSON.parse(
-  fs.readFileSync(path.join(appRoot.path, 'configs.json'))
-).openTopoDataApiDockerPort
+// get configuration variables
+const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
+const configs = require(path.join(servicesDir, 'getConfigs.js'))
+
+const openTopoDataApiDockerPort = configs.openTopoDataApiDockerPort
 const openTopoDataApiDockerUrl = `http://localhost:${openTopoDataApiDockerPort}/v1/eudem25m`
 
 module.exports = getOpenElevationData

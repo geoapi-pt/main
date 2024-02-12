@@ -13,17 +13,18 @@ const commandLineArgs = require('command-line-args')
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 
-const configs = JSON.parse(fs.readFileSync(path.join(appRoot.path, 'configs.json')))
-// origin=scheme+host+port, ex: http://example.com:8080
-const gitProjectUrl = configs.gitProjectUrl
-const siteDescription = configs.description
-const apiDocsOrigin = configs.apiDocsOrigin
-
 // define directories
 const servicesDir = path.join(__dirname, 'services')
 const expressRoutesDir = path.join(__dirname, 'routes')
 const middlewaresDir = path.join(__dirname, 'middlewares')
 const utilsDir = path.join(__dirname, 'utils')
+
+// get configuration variables
+const configs = require(path.join(servicesDir, 'getConfigs.js'))
+// origin=scheme+host+port, ex: http://example.com:8080
+const gitProjectUrl = configs.gitProjectUrl
+const siteDescription = configs.description
+const apiDocsOrigin = configs.apiDocsOrigin
 
 // import server project modules
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))

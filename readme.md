@@ -58,6 +58,15 @@ or to run as a service in the background
 docker run -p 8080:8080 -d jfoclpf/geoapi.pt:latest
 ```
 
+if you wish to amend the default configuration (which is defined in `./configs.json`)
+```sh
+docker run -e geoapipt_mainTitle='A minha GEO API' \
+-e geoapipt_description='Esta é a minha API personalizada' \
+-e geoapipt_defaultOrigin='https://geoapi.mydomain.pt' \
+-p 8080:8080 \
+jfoclpf/geoapi.pt:latest
+```
+
 ### Option 2 (directly with NodeJS)
 
 [Tested](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml) on Linux, Windows and MacOS
