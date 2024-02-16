@@ -129,10 +129,11 @@ function startServer (callback) {
   let limiter
   if (argvOptions.rateLimit) {
     limiter = rateLimit({
-      windowMs: 15 * 60 * 1000, // 15 minutes
-      max: 15 * 60 * 10, // Limit each IP to average 10 requests per sec
+      windowMs: 60 * 60 * 1000, // 1 hour
+      max: 120, // max requests per each IP in windowMs
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-      legacyHeaders: false // Disable the `X-RateLimit-*` headers
+      legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+      message: 'You have reached the limit of requests, please contact joao.pimentel.ferreira@gmail.com for unlimited use of this API and/or running it in your own machine (self-hosting)'
     })
   }
 
