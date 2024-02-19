@@ -24,7 +24,6 @@ const configs = require(path.join(servicesDir, 'getConfigs.js'))
 // origin=scheme+host+port, ex: http://example.com:8080
 const gitProjectUrl = configs.gitProjectUrl
 const siteDescription = configs.description
-const apiDocsOrigin = configs.apiDocsOrigin
 
 // import server project modules
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
@@ -172,10 +171,10 @@ function startServer (callback) {
     callback(Error(err))
   }
 
-  app.use(errorMiddleware({ apiDocsOrigin }))
+  app.use(errorMiddleware())
 
   app.use((req, res) => {
-    res.status(404).sendData({ error: `Caminho não encontrado: ${req.originalUrl}; ler instruções em ${apiDocsOrigin}` })
+    res.status(404).sendData({ error: `Caminho não encontrado: ${req.originalUrl}; ler instruções em /docs` })
   })
 
   const server = app.listen(serverPort, () => {

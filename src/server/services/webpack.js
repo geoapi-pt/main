@@ -10,6 +10,7 @@ const commonsDir = path.join(appRoot.path, 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
 const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src').replace(/\\/g, '/')
+const docsDir = path.resolve(appRoot.path, 'docs', 'dist').replace(/\\/g, '/')
 const destDir = path.resolve(appRoot.path, 'src', 'public', 'dist')
 
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
@@ -82,6 +83,10 @@ module.exports = async () => {
             to: path.join('css', '[name].css'),
             context: srcDir,
             transform: minifyCss
+          }, {
+            from: path.posix.join('*'),
+            to: 'docs',
+            context: docsDir
           }
         ]
       })

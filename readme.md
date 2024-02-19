@@ -2,7 +2,7 @@
   <a href="https://geoapi.pt"><img src="https://github.com/jfoclpf/geoapi.pt/blob/main/src/public/src/icons/mstile-310x310.png?raw=true" alt="logo" width="200"/></a>
 </h1>
 
-[![JSON API documentation](https://img.shields.io/badge/JSON%20API-Documentation-informational)](https://docs.geoapi.pt/)
+[![JSON API documentation](https://img.shields.io/badge/JSON%20API-Documentation-informational)](https://geoapi.pt/docs)
 [![Test API server](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml)
 [![CodeQL Security Check](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml)
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
@@ -23,7 +23,7 @@ It uses NodeJS ([much faster](https://benchmarksgame-team.pages.debian.net/bench
 
 ## Docs and Routes
 
-All the API documentation is at [docs.geoapi.pt](https://docs.geoapi.pt/).
+All the API documentation is at [geoapi.pt/docs](https://geoapi.pt/docs).
 
 This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification), thus you can see all the routes in the [`openapi.yaml`](/src/public/src/openapi.yaml) file. 
 

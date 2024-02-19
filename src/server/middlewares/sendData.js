@@ -31,7 +31,6 @@ module.exports = ({ configs, shieldsioCounters }) =>
           layout: false,
           defaultOrigin: configs.defaultOrigin,
           gitProjectUrl: configs.gitProjectUrl,
-          apiDocsOrigin: configs.apiDocsOrigin,
           pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
           pageDescription: data.pageTitle || '',
           siteDescription: configs.description,

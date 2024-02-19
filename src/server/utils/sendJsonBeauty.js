@@ -5,7 +5,6 @@ module.exports = (res, jsonObj, data, configs) => {
     layout: false,
     defaultOrigin: configs.defaultOrigin,
     gitProjectUrl: configs.gitProjectUrl,
-    apiDocsOrigin: configs.apiDocsOrigin,
     pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
     siteDescription: configs.description,
     jsonBeautyHtml: jsonBeautyHtml
