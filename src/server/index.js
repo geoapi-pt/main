@@ -31,10 +31,12 @@ const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
 const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
+// middlewares
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
+const staticFiles = require(path.join(middlewaresDir, 'staticFiles.js'))
 const errorMiddleware = require(path.join(middlewaresDir, 'error.js'))
+// handlebars helpers
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
-const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 
 const cliOptions = [
   { name: 'port', type: Number, description: `local port to run the sever, default is ${configs.defaultHttpPort}` },
@@ -122,15 +124,7 @@ function startServer (callback) {
   app.set('view engine', '.hbs')
   app.set('views', path.join(__dirname, '..', 'views'))
 
-  // only serve static files for the HTML request
-  app.use('/', (req, res, next) => {
-    if (isResponseJson(req)) {
-      next()
-    } else {
-      express.static(path.join(__dirname, '..', 'public', 'dist'), { etag: false })(req, res, next)
-    }
-  })
-
+  app.use('/', staticFiles)
   app.use(sendDataMiddleware({ configs, shieldsioCounters }))
 
   // Apply the rate limiting middleware to all requests
