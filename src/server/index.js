@@ -34,6 +34,7 @@ const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupI
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
 const errorMiddleware = require(path.join(middlewaresDir, 'error.js'))
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
+const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 
 const cliOptions = [
   { name: 'port', type: Number, description: `local port to run the sever, default is ${configs.defaultHttpPort}` },
@@ -121,7 +122,14 @@ function startServer (callback) {
   app.set('view engine', '.hbs')
   app.set('views', path.join(__dirname, '..', 'views'))
 
-  app.use('/', express.static(path.join(__dirname, '..', 'public', 'dist'), { etag: false }))
+  // only serve static files for the HTML request
+  app.use('/', (req, res, next) => {
+    if (isResponseJson(req)) {
+      next()
+    } else {
+      express.static(path.join(__dirname, '..', 'public', 'dist'), { etag: false })(req, res, next)
+    }
+  })
 
   app.use(sendDataMiddleware({ configs, shieldsioCounters }))
 
