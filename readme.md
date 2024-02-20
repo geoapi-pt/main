@@ -46,7 +46,17 @@ For pretty-printing JSON as HTML response, use in the query `?json=belo`, for ex
 
 ### Option 1 (with docker)
 
-Just run
+First you need to login
+```
+docker login -u jfoclpf -p dckr_pat_-6aQdSEg-m_sNNe0Xlx_4P0NEzc
+```
+
+Then pull image
+```
+docker pull jfoclpf/geoapi.pt:latest
+```
+
+and then just run directly
 
 ```sh
 docker run -p 8080:8080 jfoclpf/geoapi.pt:latest
