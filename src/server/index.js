@@ -1,7 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 const express = require('express')
-const rateLimit = require('express-rate-limit')
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -33,6 +32,7 @@ const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupI
 // middlewares
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
 const staticFiles = require(path.join(middlewaresDir, 'staticFiles.js'))
+const rateLimiter = require(path.join(middlewaresDir, 'rateLimiter.js'))
 const errorMiddleware = require(path.join(middlewaresDir, 'error.js'))
 // handlebars helpers
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
@@ -126,18 +126,6 @@ function startServer (callback) {
   app.use('/', staticFiles)
   app.use(sendDataMiddleware({ configs, shieldsioCounters }))
 
-  // Apply the rate limiting middleware to all requests
-  let limiter
-  if (argvOptions.rateLimit) {
-    limiter = rateLimit({
-      windowMs: 60 * 60 * 1000, // 1 hour
-      max: 120, // max requests per each IP in windowMs
-      standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
-      legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-      message: 'You have reached the limit of requests, please contact joao.pimentel.ferreira@gmail.com for unlimited use of this API and/or running it in your own machine (self-hosting)'
-    })
-  }
-
   shieldsioCounters.setTimers()
 
   app.get('/', function (req, res) {
@@ -160,7 +148,7 @@ function startServer (callback) {
         router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, gitProjectUrl })
       }
       if (argvOptions.rateLimit) {
-        app.get(router.route, limiter, routeFn)
+        app.get(router.route, rateLimiter({ filename }), routeFn)
       } else {
         app.get(router.route, routeFn)
       }
