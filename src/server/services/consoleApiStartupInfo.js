@@ -13,6 +13,6 @@ module.exports = ({ serverPort, gitProjectUrl }) => {
   console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/codigo_postal/2495-300')}${Array(27).join(' ')}║`)
   console.log(`║${Array(6).join(' ')}${colors.green.bold('http://localhost:' + serverPort + '/codigo_postal/1950')}${Array(31).join(' ')}║`)
   console.log('║                                                                           ║')
-  console.log(`║${Array(6).join(' ')}for instructions see ${colors.cyan.bold(gitProjectUrl)}${Array(14).join(' ')}║`)
+  console.log(`║${Array(6).join(' ')}for instructions see ${colors.cyan.bold('http://localhost:' + serverPort + '/docs')}${Array(24).join(' ')}║`)
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝')
 }

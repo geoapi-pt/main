@@ -162,7 +162,7 @@ function startServer (callback) {
   app.use(errorMiddleware())
 
   app.use((req, res) => {
-    res.status(404).sendData({ error: `Caminho não encontrado: ${req.originalUrl}; ler instruções em /docs` })
+    res.status(404).sendData({ error: `Caminho não encontrado: ${req.originalUrl}; ler instruções em ${req.get('host')}/docs` })
   })
 
   const server = app.listen(serverPort, () => {
