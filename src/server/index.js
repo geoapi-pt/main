@@ -128,7 +128,7 @@ function startServer (callback) {
 
   shieldsioCounters.setTimers()
 
-  app.get('/', function (req, res) {
+  app.get('/', (req, res) => {
     res.status(200).sendData({
       data: {
         bbox: regions.cont.geojson.bbox,
