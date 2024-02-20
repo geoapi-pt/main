@@ -47,12 +47,12 @@ For pretty-printing JSON as HTML response, use in the query `?json=belo`, for ex
 ### Option 1 (with docker)
 
 First you need to login
-```
+```sh
 docker login -u jfoclpf -p dckr_pat_-6aQdSEg-m_sNNe0Xlx_4P0NEzc
 ```
 
 Then pull image
-```
+```sh
 docker pull jfoclpf/geoapi.pt:latest
 ```
 
@@ -68,13 +68,14 @@ or to run as a service in the background
 docker run -p 8080:8080 -d jfoclpf/geoapi.pt:latest
 ```
 
-if you wish to amend the default configuration (which is defined in `./configs.json`)
+if you wish to amend the default configuration
 ```sh
 docker run -e geoapipt_mainTitle='A minha GEO API' \
--e geoapipt_description='Esta é a minha API personalizada' \
--e geoapipt_defaultOrigin='https://geoapi.mydomain.pt' \
--p 8080:8080 \
-jfoclpf/geoapi.pt:latest
+  -e geoapipt_description='Esta é a minha API personalizada' \
+  -e geoapipt_defaultOrigin='https://geoapi.mydomain.pt' \
+  -e geoapipt_jsonApiOrigin='https://json.geoapi.mydomain.pt' \
+  -p 8080:8080 \
+  jfoclpf/geoapi.pt:latest
 ```
 
 ### Option 2 (directly with NodeJS)
