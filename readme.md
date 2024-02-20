@@ -59,7 +59,7 @@ docker pull jfoclpf/geoapi.pt:latest
 and then just run directly
 
 ```sh
-docker run -p 8080:8080 jfoclpf/geoapi.pt:latest
+docker run -t -p 8080:8080 jfoclpf/geoapi.pt:latest
 ```
 
 or to run as a service in the background
