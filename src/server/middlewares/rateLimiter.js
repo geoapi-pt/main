@@ -1,5 +1,8 @@
 const path = require('path')
+const appRoot = require('app-root-path')
 const rateLimit = require('express-rate-limit')
+
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 const limiter = rateLimit({
   windowMs: 60 * 60 * 1000, // 1 hour
@@ -11,16 +14,21 @@ const limiter = rateLimit({
 
 module.exports = ({ filename }) =>
   (req, res, next) => {
-    const route = path.parse(filename).name // remove extension
-    // don't apply rate linmiter to same routes
-    if (
-      route === 'distritos' ||
-      route === 'codigos_postais' ||
-      route === 'municipiosFreguesias' ||
-      route === 'municipiosMunicipality'
-    ) {
-      next()
+    if (isResponseJson(req)) {
+      const route = path.parse(filename).name // remove extension
+      // don't apply rate linmiter to same routes
+      if (
+        route === 'distritos' ||
+        route === 'codigos_postais' ||
+        route === 'municipiosFreguesias' ||
+        route === 'municipiosMunicipality'
+      ) {
+        next()
+      } else {
+        limiter(req, res, next)
+      }
     } else {
-      limiter(req, res, next)
+      // don't apply limiter for HTML responses, just for JSON
+      next()
     }
   }
