@@ -39,7 +39,7 @@ module.exports = {
   ]
 }
 
-function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
+function routeFn (req, res, next, { administrations, regions, defaultOrigin }) {
   let lon, lat,
     local, // the local data corresponding to the coordinates to send with the response
     isDetails, // boolean activated with route /detalhes or &detalhes=1
@@ -66,7 +66,7 @@ function routeFn (req, res, next, { administrations, regions, gitProjectUrl }) {
     const parameters = Object.keys(req.query)
     const isQueryValid = parameters.includes('lat') && parameters.includes('lon')
     if (!isQueryValid) {
-      res.status(404).sendData({ error: 'Bad request for /gps. Check instrucions on ' + gitProjectUrl })
+      res.status(404).sendData({ error: `Bad request for /gps. Check instrucions on ${defaultOrigin}/docs` })
       return
     }
 

@@ -1,6 +1,6 @@
 const colors = require('colors/safe')
 
-module.exports = ({ serverPort, gitProjectUrl }) => {
+module.exports = ({ serverPort }) => {
   console.log('Listening on port ' + serverPort)
   console.log('To stop server press ' + colors.red.bold('CTRL+C') + '\n')
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗')

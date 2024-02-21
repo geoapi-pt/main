@@ -4,7 +4,6 @@ module.exports = (res, jsonObj, data, configs) => {
   res.render('jsonBeauty', {
     layout: false,
     defaultOrigin: configs.defaultOrigin,
-    gitProjectUrl: configs.gitProjectUrl,
     pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
     siteDescription: configs.description,
     jsonBeautyHtml: jsonBeautyHtml

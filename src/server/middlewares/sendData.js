@@ -30,7 +30,6 @@ module.exports = ({ configs, shieldsioCounters }) =>
         res.render(template, {
           layout: false,
           defaultOrigin: configs.defaultOrigin,
-          gitProjectUrl: configs.gitProjectUrl,
           pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
           pageDescription: data.pageTitle || '',
           siteDescription: configs.description,

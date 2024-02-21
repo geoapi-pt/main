@@ -21,7 +21,7 @@ const utilsDir = path.join(__dirname, 'utils')
 // get configuration variables
 const configs = require(path.join(servicesDir, 'getConfigs.js'))
 // origin=scheme+host+port, ex: http://example.com:8080
-const gitProjectUrl = configs.gitProjectUrl
+const defaultOrigin = configs.defaultOrigin
 const siteDescription = configs.description
 
 // import server project modules
@@ -45,7 +45,7 @@ const cliOptions = [
   { name: 'help', type: Boolean, description: 'print this help' }
 ]
 const cliUsageObj = [
-  { header: 'geoapipt', content: `HTTP server for the GEO API PT: {italic ${siteDescription}}. For more information see ${gitProjectUrl}` },
+  { header: 'geoapipt', content: `HTTP server for the GEO API PT: {italic ${siteDescription}}. For more information see ${defaultOrigin}/docs` },
   { header: 'Options', optionList: cliOptions },
   {
     header: 'Examples',
@@ -149,7 +149,7 @@ function startServer (callback) {
     fs.readdirSync(expressRoutesDir).forEach(filename => {
       const router = require(path.join(expressRoutesDir, filename))
       const routeFn = (req, res, next) => {
-        router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, gitProjectUrl })
+        router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, defaultOrigin })
       }
       if (argvOptions.rateLimit) {
         app.get(router.route, rateLimiter({ filename }), routeFn)
@@ -179,7 +179,7 @@ function startServer (callback) {
 
     console.timeEnd('serverTimeToStart')
 
-    consoleApiStartupInfo({ serverPort, gitProjectUrl })
+    consoleApiStartupInfo({ serverPort })
 
     if (process.send) {
       process.send('ready') // very important, trigger to PM2 that app is ready
