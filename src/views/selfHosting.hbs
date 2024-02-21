@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+   {{> htmlHead}}
+</head>
+<body>
+
+{{> bodyHeader}}
+
+<div class="limiter">
+  <p class="text-center h2"><br></p>
+  <p class="text-center h2">
+    Uso ilimitado desta API com <i>self-hosting</i> através do <i>docker</i>
+  </p>
+  <div class="container-table100">
+    <p class="text-justify lead">
+      Esta API JSON é acessível através do domínio <code>json.geoapi.pt</code> e é pública e de acesso gratuito, mas apresenta um limite conservador de 60 pedidos por hora por cada IP.
+    </p>
+    <p class="text-justify lead">
+      Caso queira ter acesso ilimitado atrvés de <i>self-hosting</i>, ou seja, caso queira instalar esta API na sua máquina ou no seu servidor sem qualquer limitação ou restrição, tal envolve um patrocínio no Github tendo um custo unitário e único de 99 USD.
+      A implementação é compatível com qualquer máquina (Linux, Windows ou Mac) pois é efetuada através de <i>docker</i>.
+    </p>
+    <p class="text-justify lead">
+      Primeiro entra-se na conta:<br>
+      <code>docker login -u jfoclpf -p {CHAVE}</code><br>
+      <br>
+      Depois faz-se o 'pull' do 'container' para a sua máquina:<br>
+      <code>docker pull jfoclpf/geoapi.pt:latest</code><br>
+      <br>
+      E corre-se o 'container':<br>
+      <code>docker run -t -p 8080:8080 jfoclpf/geoapi.pt:latest</code><br>
+      <br>
+      Caso queira correr em pano de fundo:<br>
+      <code>docker run -p 8080:8080 -d jfoclpf/geoapi.pt:latest</code><br>
+      <br>
+      Caso queira configurar as variáveis internas:<br>
+      <code>docker run -e geoapipt_mainTitle='A minha GEO API' \<br>
+      &nbsp;&nbsp;-e geoapipt_description='Esta é a minha API personalizada' \<br>
+      &nbsp;&nbsp;-e geoapipt_defaultOrigin='https://geoapi.mydomain.pt' \<br>
+      &nbsp;&nbsp;-e geoapipt_jsonApiOrigin='https://json.geoapi.mydomain.pt' \<br>
+      &nbsp;&nbsp;-p 8080:8080 \<br>
+      &nbsp;&nbsp;jfoclpf/geoapi.pt:latest<br>
+      </code>
+    </p>
+  </div>
+  <div class="container-table100">
+    <p class="text-center h3">
+      Pedido da Chave
+    </p>
+    <p class="text-justify lead">
+      Para pedir a sua Chave, faça o seu patrocínio <a href="https://github.com/sponsors/jfoclpf/sponsorships?sponsor=jfoclpf&preview=true&frequency=one-time&amount=99">AQUI</a>.
+      Após fazer o seu patrocínio <a href="mailto:joao.pimentel.ferreira@gmail.com">contacte-nos</a>, reenviando-nos o seu <i>username</i> do Github, para obter a sua Chave.
+    </p>
+  </div>
+</div>
+
+{{> footer}}
+
+</body>
+</html>

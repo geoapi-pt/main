@@ -138,6 +138,10 @@ function startServer (callback) {
     })
   })
 
+  app.get('/self-hosting', (req, res) => {
+    res.status(200).sendData({ template: 'selfHosting' })
+  })
+
   shieldsioCounters.loadExpressRoutes(app)
 
   // Load Express app.get() routers paths, respective files are stored in src/server/routes/
