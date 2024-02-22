@@ -35,7 +35,9 @@ module.exports = {
           route === 'distritos' ||
           route === 'codigos_postais' ||
           route === 'municipiosFreguesias' ||
-          route === 'municipiosMunicipality'
+          route === 'municipiosMunicipality' ||
+          route === 'municipiosFreguesias' ||
+          route === 'municipiosMunicipalityFreguesias'
         ) {
           next()
         } else {
@@ -49,22 +51,25 @@ module.exports = {
 }
 
 async function rateLimitFn (req, res) {
-  const apiAccessKey = req.query.key
+  const apiAccessKey = req.query.key || req.header('X-API-Key')
   try {
     if (await isUserPremium(apiAccessKey)) {
+      debug('user is premium')
       return 1000 * 60 * 60
     } else {
+      debug('user is not premium')
       return 60
     }
   } catch {
-    res.status(500).json({ error: 'Error reading key from database' })
+    debug('error fetching info from database')
+    return 60
   }
 }
 
 function isUserPremium (apiAccessKey) {
   return new Promise((resolve, reject) => {
     const query =
-      `SELECT ${mysql.escapeId('api_access_key')} FROM ${mysqlDb.database}.${mysqlDb.db_tables.users} ` +
+      `SELECT ${mysql.escapeId('api_access_key')} FROM \`${mysqlDb.database}\`.${mysqlDb.db_tables.users} ` +
       `WHERE api_access_key='${apiAccessKey}'`
 
     dbPool.query(query, (err, results, fields) => {
