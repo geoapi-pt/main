@@ -128,6 +128,10 @@ function startServer (callback) {
 
   shieldsioCounters.setTimers()
 
+  if (argvOptions.rateLimit) {
+    rateLimiter.init()
+  }
+
   app.get('/', (req, res) => {
     res.status(200).sendData({
       data: {
@@ -152,7 +156,7 @@ function startServer (callback) {
         router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, defaultOrigin })
       }
       if (argvOptions.rateLimit) {
-        app.get(router.route, rateLimiter({ filename }), routeFn)
+        app.get(router.route, rateLimiter.middleware({ filename }), routeFn)
       } else {
         app.get(router.route, routeFn)
       }
