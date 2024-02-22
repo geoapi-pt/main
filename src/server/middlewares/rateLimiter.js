@@ -16,12 +16,15 @@ module.exports = ({ filename }) =>
   (req, res, next) => {
     if (isResponseJson(req)) {
       const route = path.parse(filename).name // remove extension
-      // don't apply rate linmiter to same routes
+      // don't apply rate limiter to same routes
+      // it allows main HTML page loading, because it needs these JSON request
       if (
         route === 'distritos' ||
         route === 'codigos_postais' ||
         route === 'municipiosFreguesias' ||
-        route === 'municipiosMunicipality'
+        route === 'municipiosMunicipality' ||
+        route === 'municipiosFreguesias' ||
+        route === 'municipiosMunicipalityFreguesias'
       ) {
         next()
       } else {
