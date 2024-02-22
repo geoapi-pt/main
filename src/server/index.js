@@ -145,6 +145,9 @@ function startServer (callback) {
   app.get('/self-hosting', (req, res) => {
     res.status(200).sendData({ template: 'selfHosting' })
   })
+  app.get('/request-api-key', (req, res) => {
+    res.status(200).sendData({ template: 'requestApiKey' })
+  })
 
   shieldsioCounters.loadExpressRoutes(app)
 
