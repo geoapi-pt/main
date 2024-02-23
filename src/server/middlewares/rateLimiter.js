@@ -51,18 +51,25 @@ module.exports = {
 }
 
 async function rateLimitFn (req, res) {
+  const maxRequestsPerHourForNormalUsers = 60
+  const maxRequestsPerHourForPremiumUsers = 1000 * 60 * 60
+
   const apiAccessKey = req.query.key || req.header('X-API-Key')
+  if (!apiAccessKey) {
+    debug('no key provided')
+    return maxRequestsPerHourForNormalUsers
+  }
   try {
     if (await isUserPremium(apiAccessKey)) {
       debug('user is premium')
-      return 1000 * 60 * 60
+      return maxRequestsPerHourForPremiumUsers
     } else {
       debug('user is not premium')
-      return 60
+      return maxRequestsPerHourForNormalUsers
     }
   } catch {
     debug('error fetching info from database')
-    return 60
+    return maxRequestsPerHourForNormalUsers
   }
 }
 
