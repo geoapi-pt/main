@@ -57,18 +57,22 @@ async function rateLimitFn (req, res) {
   const apiAccessKey = req.query.key || req.header('X-API-Key')
   if (!apiAccessKey) {
     debug('no key provided')
+    res.header('X-API-Key-Staus', 'no-key-provided')
     return maxRequestsPerHourForNormalUsers
   }
   try {
     if (await isUserPremium(apiAccessKey)) {
       debug('user is premium')
+      res.header('X-API-Key-Staus', 'authenticated')
       return maxRequestsPerHourForPremiumUsers
     } else {
       debug('user is not premium')
+      res.header('X-API-Key-Staus', 'no-valid-key')
       return maxRequestsPerHourForNormalUsers
     }
   } catch {
     debug('error fetching info from database')
+    res.header('X-API-Key-Staus', 'error-fetching-key-from-db')
     return maxRequestsPerHourForNormalUsers
   }
 }
