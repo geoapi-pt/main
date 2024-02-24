@@ -11,6 +11,16 @@ servers:
   - url: https://json.geoapi.pt
 
 components:
+  securitySchemes:
+    ApiKeyAuthInHeader:
+      type: apiKey
+      in: header
+      name: X-API-Key
+    ApiKeyAuthInQuery:
+      type: apiKey
+      in: query
+      name: key
+
   parameters:
     json:
       in: query
@@ -4961,7 +4971,9 @@ components:
           example: [38.745199326112484,-9.113186834736876]
 
 
-security: [] # No security, fully public API
+security:
+  - ApiKeyAuthInHeader: []
+  - ApiKeyAuthInQuery: []
 
 paths:
   /gps:
