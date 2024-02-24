@@ -9,7 +9,7 @@ const sendJsonBeauty = require(path.join(appRoot.path, 'src', 'server', 'utils',
 
 module.exports = ({ configs, shieldsioCounters }) =>
   (req, res, next) => {
-    res.sendData = function (data) {
+    res.sendData = async function (data) {
       debug(req.accepts(['html', 'json']))
 
       shieldsioCounters.incrementCounters()
@@ -34,6 +34,8 @@ module.exports = ({ configs, shieldsioCounters }) =>
           pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
           pageDescription: data.pageTitle || '',
           siteDescription: configs.description,
+          requestsLastHour: await shieldsioCounters.getRequestsLastHour(),
+          requestsLastDay: await shieldsioCounters.getRequestsLastDay(),
           input: data.input || {},
           data: dataToBeSent, // this is sent to frontend Javascript code
           dataToShowOnHtml: data.dataToShowOnHtml ? adaptObjForHtmlRes(data.dataToShowOnHtml) : {}

@@ -7,7 +7,7 @@ const { JsonDB, Config } = require('node-json-db')
 
 const debug = require('debug')('geoapipt:server:counters')
 
-module.exports = { setTimers, incrementCounters, loadExpressRoutes }
+module.exports = { setTimers, incrementCounters, loadExpressRoutes, getRequestsLastHour, getRequestsLastDay }
 
 // a JSON "database" file is saved in root project directory as counters.json
 const dbFile = path.join(appRoot.path, 'counters.json')
@@ -64,34 +64,48 @@ async function incrementCounters () {
 
 function loadExpressRoutes (app) {
   app.get('/shieldsio/requestslasthour', async function (req, res) {
-    let requestsLastHour
-    try {
-      requestsLastHour = await db.getData('/requestsLastHour')
-    } catch {
-      requestsLastHour = 0
-    }
-
     res.json({
       schemaVersion: 1,
       label: 'Requests on last hour',
-      message: requestsLastHour.toString(),
+      message: await getRequestsLastHour(),
       color: 'orange'
     })
   })
 
   app.get('/shieldsio/requestslastday', async function (req, res) {
-    let requestsLastDay
-    try {
-      requestsLastDay = await db.getData('/requestsLastDay')
-    } catch {
-      requestsLastDay = 0
-    }
-
     res.json({
       schemaVersion: 1,
       label: 'Requests on last day',
-      message: requestsLastDay.toString(),
+      message: await getRequestsLastDay(),
       color: 'orange'
     })
   })
+}
+
+async function getRequestsLastHour () {
+  let requestsLastHour
+  try {
+    requestsLastHour = await db.getData('/requestsLastHour')
+  } catch {
+    try {
+      requestsLastHour = await db.getData('/requestsCounterPerHour')
+    } catch {
+      requestsLastHour = 0
+    }
+  }
+  return requestsLastHour.toString()
+}
+
+async function getRequestsLastDay () {
+  let requestsLastDay
+  try {
+    requestsLastDay = await db.getData('/requestsLastDay')
+  } catch {
+    try {
+      requestsLastDay = await db.getData('/requestsCounterPerDay')
+    } catch {
+      requestsLastDay = 0
+    }
+  }
+  return requestsLastDay.toString()
 }
