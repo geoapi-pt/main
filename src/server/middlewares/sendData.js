@@ -29,6 +29,7 @@ module.exports = ({ configs, shieldsioCounters }) =>
         const template = data.template || 'result'
         res.render(template, {
           layout: false,
+          mainTitle: configs.mainTitle,
           defaultOrigin: configs.defaultOrigin,
           pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
           pageDescription: data.pageTitle || '',
