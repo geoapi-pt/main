@@ -32,17 +32,19 @@ function routeFn (req, res, next, { administrations, regions }) {
     }
     res.status(200).sendData({ data: result })
   } else {
+    const listOfDistricts = JSON.parse(JSON.stringify(administrations.listOfDistricts)) // deep clone
+    const distritosHtml = listOfDistricts.map(
+      el => `<a href="/distrito/${encodeURIComponent(el.toLowerCase())}">${el}</a>`
+    )
+
     if (isBase) {
       res.status(200).sendData({
-        data: JSON.parse(JSON.stringify(administrations.listOfDistricts)), // deep clone
+        data: distritosHtml,
+        dataToShowOnHtml: distritosHtml,
         input: 'Lista de distritos',
         pageTitle: 'Lista de distritos de Portugal'
       })
     } else {
-      const dataToShowOnHtml = {}
-      dataToShowOnHtml.Distritos = JSON.parse(JSON.stringify(administrations.listOfDistricts))
-        .map(el => `<a href="/distrito/${encodeURIComponent(el.toLowerCase())}">${el}</a>`)
-
       res.status(200).sendData({
         data: { // in this particular case detailed data from districts is fetched client side
           bbox: regions.cont.geojson.bbox,
@@ -51,7 +53,7 @@ function routeFn (req, res, next, { administrations, regions }) {
           ))
         },
         pageTitle: 'Lista de Distritos de Portugal',
-        dataToShowOnHtml: dataToShowOnHtml,
+        dataToShowOnHtml: { Distritos: distritosHtml },
         template: 'routes/districts'
       })
     }
