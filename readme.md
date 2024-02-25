@@ -34,7 +34,7 @@ This is the `main` public repo of the geoapi.pt project
 The root directory structure of the main project should be like:
 ```
 geoapi.pt/
-  ├── resources/  # geoapi-pt/main (private)
+  ├── resources/  # geoapi-pt/resources (private)
   ├── main/       # this repo (public)
 ```
 
