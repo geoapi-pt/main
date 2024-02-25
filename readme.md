@@ -27,10 +27,16 @@ All the API documentation is at [geoapi.pt/docs](https://geoapi.pt/docs).
 
 This API follows the [OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification), thus you can see all the routes in the [`openapi.yaml`](/src/public/src/openapi.yaml) file. 
 
-## Resources and Routines
+## Resources of geaopi.pt
 
- - To know more about the raw resources used by this API, see the [`res/`](/res) readme file
- - To check available backend routines (for example to update raw resources) run `npm run`. Read more on the [`routines/`](/routines) readme file
+This is the `main` public repo of the geoapi.pt project
+
+The root directory structure of the main project should be like:
+```
+geoapi.pt/
+  ├── resources/  # geoapi-pt/main (private)
+  ├── main/       # this repo (public)
+```
 
 ## JSON or HTML
 
