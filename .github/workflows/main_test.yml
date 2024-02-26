@@ -31,7 +31,8 @@ jobs:
         token: ${{ secrets.GH_PAT }}
         node-version: ${{ matrix.node-version }}
         path: resources
-    - run: ls . -lh
+    - run: du ${GITHUB_WORKSPACE} -h
+    - run: df . -h
     - name: Install npm packages
       run: cd resources && npm ci --omit=dev && cd ../main && npm ci --omit=dev
     - run: npm test
