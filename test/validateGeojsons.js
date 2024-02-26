@@ -5,10 +5,10 @@ const ProgressBar = require('progress')
 const appRoot = require('app-root-path')
 const geojsonhint = require('@mapbox/geojsonhint')
 
-const commonsDir = path.join(appRoot.path, 'routines', 'commons')
+const commonsDir = path.join(appRoot.path, '..', 'resources', 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
-const geojsonDir = path.join(appRoot.path, 'res', 'geojson')
+const geojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson')
 
 module.exports = () => {
   return new Promise((resolve, reject) => {

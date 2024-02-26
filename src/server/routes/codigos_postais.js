@@ -4,7 +4,7 @@ const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
-const postalCodesResDir = path.join(appRoot.path, 'res', 'postal-codes')
+const postalCodesResDir = path.join(appRoot.path, '..', 'resources', 'res', 'postal-codes')
 
 module.exports = {
   fn: routeFn,

@@ -28,9 +28,9 @@ function routeFn (req, res, next, { appRootPath, administrations }) {
   if (isValidPostalCode(cp) && cp4) {
     let filename
     if (cp3) {
-      filename = path.join(appRootPath, 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json'))
+      filename = path.join(appRootPath, '..', 'resources', 'res', 'postal-codes', 'data', sanitize(cp4), sanitize(cp3 + '.json'))
     } else {
-      filename = path.join(appRootPath, 'res', 'postal-codes', 'data', sanitize(cp4 + '.json'))
+      filename = path.join(appRootPath, '..', 'resources', 'res', 'postal-codes', 'data', sanitize(cp4 + '.json'))
     }
 
     fs.readFile(filename, (err, fileContent) => {

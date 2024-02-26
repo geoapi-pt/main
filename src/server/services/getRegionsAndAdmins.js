@@ -13,7 +13,7 @@ const debug = require('debug')('geoapipt:getRegionsAndAdmins') // run: DEBUG=geo
 
 const { normalizeName, correctCase } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
-const resDir = path.join(appRoot.path, 'res')
+const resDir = path.join(appRoot.path, '..', 'resources', 'res')
 
 // Details of Parishes and Municipalities
 // some files are more recent,

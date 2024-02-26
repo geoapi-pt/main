@@ -24,9 +24,9 @@ const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
 const distanceToPolygon = require(path.join(utilsDir, 'distanceToPolygon.js'))
 
 // directories
-const censosGeojsonDir = path.join(appRoot.path, 'res', 'geojson')
-const adminAddressesDir = path.join(appRoot.path, 'res', 'admins-addresses')
-const cartaSoloDir = path.join(appRoot.path, 'res', 'carta-solo', 'freguesias')
+const censosGeojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson')
+const adminAddressesDir = path.join(appRoot.path, '..', 'resources', 'res', 'admins-addresses')
+const cartaSoloDir = path.join(appRoot.path, '..', 'resources', 'res', 'carta-solo', 'freguesias')
 
 module.exports = {
   fn: routeFn,

@@ -14,9 +14,9 @@ const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:getRegionsAndAdmins') // run: DEBUG=geoapipt:getRegionsAndAdmins npm start
 const debugGeojson = require('debug')('geoapipt:geojson') // run: DEBUG=geoapipt:geojson npm start
 
-const resDir = path.join(appRoot.path, 'res')
+const resDir = path.join(appRoot.path, '..', 'resources', 'res')
 
-const { uniteParishes, removeDuplicatesArr } = require(path.join(appRoot.path, 'routines', 'generateGeojson', 'functions'))
+const { uniteParishes, removeDuplicatesArr } = require(path.join(appRoot.path, '..', 'resources', 'routines', 'generateGeojson', 'functions'))
 
 // this Object will be filled and exported to other modules
 // it has geojson data about parishes (freguesias)

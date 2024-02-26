@@ -15,7 +15,7 @@ const sphereKnn = require('sphere-knn')
 module.exports = computeAltitude
 
 // preload points of altimetry
-const altimetryFilePath = path.join(appRoot.path, 'res', 'altimetria', 'altimetria.geojson')
+const altimetryFilePath = path.join(appRoot.path, '..', 'resources', 'res', 'altimetria', 'altimetria.geojson')
 const altimetryLookup = sphereKnn(
   JSON.parse(fs.readFileSync(altimetryFilePath)).features
     .map(feature => Object(

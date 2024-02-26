@@ -6,7 +6,7 @@ const appRoot = require('app-root-path')
 const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
 
-const commonsDir = path.join(appRoot.path, 'routines', 'commons')
+const commonsDir = path.join(appRoot.path, '..', 'resources', 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
 const srcDir = path.resolve(appRoot.path, 'src', 'public', 'src').replace(/\\/g, '/')

@@ -5,7 +5,7 @@ const debug = require('debug')('geoapipt:server')
 
 const { normalizeName } = require(path.join(appRoot.path, 'src', 'server', 'utils', 'commonFunctions.js'))
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
-const districtsGeojsonDir = path.join(appRoot.path, 'res', 'geojson', 'districts')
+const districtsGeojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson', 'districts')
 
 module.exports = {
   fn: routeFn,
