@@ -37,12 +37,12 @@ jobs:
         repository: geoapi-pt/resources
         token: ${{ secrets.GH_PAT }}
         path: resources
-    - run: ls ${GITHUB_WORKSPACE} -lh
-    - run: du ${GITHUB_WORKSPACE} -h
+    - name: List project root direcotory
+      run: ls ${GITHUB_WORKSPACE} -lh
     - name: Install npm packages
       run: |
-        cd ${GITHUB_WORKSPACE}/resources && npm ci --omit=dev
-        cd ${GITHUB_WORKSPACE}/main && npm ci --omit=dev
+        cd ${GITHUB_WORKSPACE}/resources && npm ci
+        cd ${GITHUB_WORKSPACE}/main && npm ci
     - name: Main Test
       run: cd ${GITHUB_WORKSPACE}/main && npm test
 
