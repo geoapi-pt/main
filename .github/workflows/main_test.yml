@@ -24,14 +24,15 @@ jobs:
 
     steps:
     - name: Main checkout
-      uses: actions/setup-node@v4
+      uses: actions/checkout@v4
       with:
         path: main
-    - uses: actions/setup-node@v4
+    - name: CHeckout Node
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
     - name: Checkout resources private repo
-      uses: actions/setup-node@v4
+      uses: actions/checkout@v4
       with:
         repository: geoapi-pt/resources
         token: ${{ secrets.GH_PAT }}
