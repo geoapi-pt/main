@@ -26,14 +26,12 @@ jobs:
     - name: Main checkout
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
         path: main
     - name: Checkout resources private repo
       uses: actions/setup-node@v4
       with:
         repository: geoapi-pt/resources
         token: ${{ secrets.GH_PAT }}
-        node-version: ${{ matrix.node-version }}
         path: resources
     - run: ls ${GITHUB_WORKSPACE} -lh
     - run: df . -h
