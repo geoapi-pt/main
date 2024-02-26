@@ -19,12 +19,10 @@ jobs:
     runs-on: ${{ matrix.platform }}
 
     steps:
-    - uses: actions/checkout@v3
     - name: Main checkout
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
         path: main
     - name: Checkout resources private repo
       uses: actions/setup-node@v4
@@ -32,7 +30,6 @@ jobs:
         repository: geoapi-pt/resources
         token: ${{ secrets.GH_PAT }}
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
         path: resources
     - name: Upgrade NPM
       run: npm install -g npm
