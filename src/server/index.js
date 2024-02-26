@@ -130,7 +130,7 @@ function startServer (callback) {
   shieldsioCounters.setTimers()
 
   if (argvOptions.rateLimit) {
-    rateLimiter.init()
+    rateLimiter.init({ defaultOrigin })
   }
 
   app.get('/', (req, res) => {

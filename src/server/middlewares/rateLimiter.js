@@ -6,7 +6,7 @@ const debug = require('debug')('geoapipt:server:rateLimiter')
 let mysql, mysqlDb, limiter, dbPool
 
 module.exports = {
-  init: () => {
+  init: ({ defaultOrigin }) => {
     mysql = require('mysql')
     const rateLimit = require('express-rate-limit')
 
@@ -22,7 +22,7 @@ module.exports = {
       limit: rateLimitFn, // max requests per each IP in windowMs
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
       legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-      message: 'You have reached the limit of requests, please contact joao.pimentel.ferreira@gmail.com for unlimited use of this API and/or running it in your own machine (self-hosting)'
+      message: `You have reached the limit of requests, please refer to ${defaultOrigin}/self-hosting or ${defaultOrigin}/request-api-key for unlimited use of this API`
     })
   },
   middleware: ({ filename }) =>
