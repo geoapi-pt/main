@@ -24,11 +24,11 @@ jobs:
 
     steps:
     - name: Main checkout
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v3
       with:
         path: main
     - name: Checkout resources private repo
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v3
       with:
         repository: geoapi-pt/resources
         token: ${{ secrets.GH_PAT }}
