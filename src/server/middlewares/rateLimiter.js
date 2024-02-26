@@ -18,7 +18,7 @@ module.exports = {
     dbPool = mysql.createPool(mysqlDb)
 
     limiter = rateLimit({
-      windowMs: 60 * 60 * 1000, // 1 hour
+      windowMs: 1000 * 60 * 60 * 24, // 1 day
       limit: rateLimitFn, // max requests per each IP in windowMs
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
       legacyHeaders: false, // Disable the `X-RateLimit-*` headers
@@ -51,29 +51,29 @@ module.exports = {
 }
 
 async function rateLimitFn (req, res) {
-  const maxRequestsPerHourForNormalUsers = 60
-  const maxRequestsPerHourForPremiumUsers = 1000 * 60 * 60
+  const maxRequestsPerDayForNormalUsers = 50
+  const maxRequestsPerDayForPremiumUsers = 1000000
 
   const apiAccessKey = req.query.key || req.header('X-API-Key')
   if (!apiAccessKey) {
     debug('no key provided')
     res.header('X-API-Key-Staus', 'no-key-provided')
-    return maxRequestsPerHourForNormalUsers
+    return maxRequestsPerDayForNormalUsers
   }
   try {
     if (await isUserPremium(apiAccessKey)) {
       debug('user is premium')
       res.header('X-API-Key-Staus', 'authenticated')
-      return maxRequestsPerHourForPremiumUsers
+      return maxRequestsPerDayForPremiumUsers
     } else {
       debug('user is not premium')
       res.header('X-API-Key-Staus', 'no-valid-key')
-      return maxRequestsPerHourForNormalUsers
+      return maxRequestsPerDayForNormalUsers
     }
   } catch {
     debug('error fetching info from database')
     res.header('X-API-Key-Staus', 'error-fetching-key-from-db')
-    return maxRequestsPerHourForNormalUsers
+    return maxRequestsPerDayForNormalUsers
   }
 }
 
