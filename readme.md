@@ -3,8 +3,8 @@
 </h1>
 
 [![JSON API documentation](https://img.shields.io/badge/JSON%20API-Documentation-informational)](https://geoapi.pt/docs)
-[![Test API server](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/node.js.yml)
-[![CodeQL Security Check](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml/badge.svg)](https://github.com/jfoclpf/geoapi.pt/actions/workflows/codeql.yml)
+[![Test API server](https://github.com/geoapi-pt/main/actions/workflows/main_test.yml/badge.svg)](https://github.com/geoapi-pt/main/actions/workflows/main_test.yml)
+[![CodeQL Security Check](https://github.com/geoapi-pt/main/actions/workflows/codeql.yml/badge.svg)](https://github.com/geoapi-pt/main/actions/workflows/codeql.yml)
 [![js-standard-style][js-standard-style_img]][js-standard-style_url]
 ![Request last hour](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2Frequestslasthour)
 ![Request last day](https://img.shields.io/endpoint?url=https%3A%2F%2Fgeoapi.pt%2Fshieldsio%2Frequestslastday)
