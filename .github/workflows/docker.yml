@@ -48,8 +48,22 @@ jobs:
           df . -h
           sudo du /usr/ -hx -d 4 --threshold=1G | sort -hr | head
       -
-        name: Checkout
-        uses: actions/checkout@v3
+        name: Main Checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
+      - 
+        name: Checkout Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+      - 
+        name: Checkout resources private repo
+        uses: actions/checkout@v4
+        with:
+          repository: geoapi-pt/resources
+          token: ${{ secrets.GH_PAT }}
+          path: resources
       - 
         name: Check working space directory
         run: du ${GITHUB_WORKSPACE} -h -d 1
@@ -57,7 +71,8 @@ jobs:
         name: Get more space
         run: |
           df . -h
-          sudo rm -rf ${GITHUB_WORKSPACE}/.git
+          sudo rm -rf ${GITHUB_WORKSPACE}/main/.git
+          sudo rm -rf ${GITHUB_WORKSPACE}/resources/.git
           df . -h
       -
         name: Login to Docker Hub
