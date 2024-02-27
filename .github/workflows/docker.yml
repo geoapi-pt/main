@@ -65,6 +65,12 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           path: resources
       - 
+        name: Checkout main root repo
+        uses: actions/checkout@v4
+        with:
+          repository: geoapi-pt/root
+          token: ${{ secrets.GH_PAT }}
+      - 
         name: Check working space directory
         run: du ${GITHUB_WORKSPACE} -h -d 1
       - 
