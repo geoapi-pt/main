@@ -30,7 +30,7 @@ module.exports = {
       const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
       if (isResponseJson(req)) {
         const route = path.parse(filename).name // remove extension
-        // don't apply rate linmiter to same routes
+        // don't apply rate linmiter to these routes
         if (
           route === 'distritos' ||
           route === 'codigos_postais' ||
