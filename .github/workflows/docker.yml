@@ -80,6 +80,14 @@ jobs:
           sudo rm -rf ${GITHUB_WORKSPACE}/main/.git
           sudo rm -rf ${GITHUB_WORKSPACE}/resources/.git
           df . -h
+      -  
+        name: List project root direcotory
+        run: ls ${GITHUB_WORKSPACE} -lh
+      - 
+        name: Install npm packages
+        run: |
+          cd ${GITHUB_WORKSPACE}/resources && npm ci --omit=dev
+          cd ${GITHUB_WORKSPACE}/main && npm ci --omit=dev  
       -
         name: Login to Docker Hub
         uses: docker/login-action@v2
