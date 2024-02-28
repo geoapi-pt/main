@@ -47,16 +47,22 @@ jobs:
           sudo dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -nr | head
           df . -h
           sudo du /usr/ -hx -d 4 --threshold=1G | sort -hr | head
-      -
-        name: Main Checkout
-        uses: actions/checkout@v4
-        with:
-          path: main
       - 
         name: Checkout Node
         uses: actions/setup-node@v4
         with:
           node-version: 16
+      - 
+        name: Checkout main root repo
+        uses: actions/checkout@v4
+        with:
+          repository: geoapi-pt/root
+          token: ${{ secrets.GH_PAT }}
+      -
+        name: Main Checkout
+        uses: actions/checkout@v4
+        with:
+          path: main
       - 
         name: Checkout resources private repo
         uses: actions/checkout@v4
@@ -64,12 +70,6 @@ jobs:
           repository: geoapi-pt/resources
           token: ${{ secrets.GH_PAT }}
           path: resources
-      - 
-        name: Checkout main root repo
-        uses: actions/checkout@v4
-        with:
-          repository: geoapi-pt/root
-          token: ${{ secrets.GH_PAT }}
       - 
         name: Check working space directory
         run: du ${GITHUB_WORKSPACE} -h -d 1
