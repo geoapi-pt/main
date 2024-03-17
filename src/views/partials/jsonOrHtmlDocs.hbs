@@ -1,10 +1,24 @@
 <div class="limiter footer-padding" style="width: fit-content;">
    <p>Para resultados em <b>JSON</b> pode usar <b>uma</b> das seguintes opções:</p> 
+   <p>Se estiver a usar a <b>API pública</b>:</p>
    <div>
       <ul>
-         <li>- adicionar a variável <code>json=1</code> ao pedido GET, ex: <a href="/codigo_postal/2495-300?json=1">/codigo_postal/2495-300?json=1</a>;</li>
-         <li>- colocar <code>Accept: application/json</code> no cabeçalho HTTP do pedido; ou</li>
-         <li>- aceder a <code>json.geoapi.pt</code>, ex: <a href="//json.geoapi.pt/codigo_postal/2495-300">json.geoapi.pt/codigo_postal/2495-300</a></li>
+         <li>- (<b>recomendado</b>) aceder a <code>json.geoapi.pt</code>, ex: <a href="{{{jsonApiOrigin}}}/cp/2495-300">{{{getHostnameFromUrl jsonApiOrigin}}}/cp/2495-300</a>;</li>
+         <li>- adicionar a variável <code>json=1</code> ao pedido GET, ex: <a href="{{{defaultOrigin}}}/cp/2495-300?json=1">{{{getHostnameFromUrl defaultOrigin}}}/cp/2495-300?json=1</a>; ou</li>
+         <li>- colocar <code>Accept: application/json</code> no cabeçalho HTTP do pedido</li>
+      </ul>
+   </div>
+   <p>Se estiver a usar a API em <b><i>self-hosting</i></b>:</p>
+   <div>
+      <ul>
+         <li>- adicionar a variável <code>json=1</code> ao pedido GET, ex: <a href="/cp/2495-300?json=1">/cp/2495-300?json=1</a>; ou</li>
+         <li>- colocar <code>Accept: application/json</code> no cabeçalho HTTP do pedido</li>
+      </ul>
+   </div>
+   <p>Para resultados em JSON "bonitos", i.e., pseudo-resposta em JSON mas em formato HTML para melhor vizualização:
+   <div>
+      <ul>
+         <li>- adicionar a variável <code>json=belo</code> ao pedido GET, ex: <a href="/cp/2495-300?json=belo">/cp/2495-300?json=belo</a>; ou</li>
       </ul>
    </div>
 </div>
