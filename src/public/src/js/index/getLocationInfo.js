@@ -1,4 +1,5 @@
 // inputs
+import 'bootstrap'
 const inputLatitudeGps = document.getElementById('latitude-gps-input')
 const inputLongitudeGps = document.getElementById('longitude-gps-input')
 // buttons

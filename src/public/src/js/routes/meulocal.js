@@ -1,3 +1,4 @@
+import 'bootstrap'
 const meulocalDataDomEl = document.getElementById('meulocal-route-data')
 const meulocalData = JSON.parse(decodeURIComponent(meulocalDataDomEl.dataset.meulocalroute))
 window.gpsData = meulocalData

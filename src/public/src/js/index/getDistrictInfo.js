@@ -1,5 +1,5 @@
 /* global fetch, Option */
-
+import 'bootstrap'
 // select
 const selectDistrict = document.getElementById('select-district')
 // buttons

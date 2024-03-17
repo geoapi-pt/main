@@ -18,7 +18,10 @@ console.log('mode:', mode)
 
 module.exports = async () => {
   // assemble JS files as entry points
-  const jsFiles = [path.join(srcDir, 'js', 'index.js')]
+  const jsFiles = [
+    path.join(srcDir, 'js', 'index.js'),
+    path.join(srcDir, 'js', 'import-bootstrap.js')
+  ]
   const files = await getFiles(path.join(srcDir, 'js', 'routes'))
   jsFiles.push(...files.filter(f => path.extname(f) === '.js'))
 

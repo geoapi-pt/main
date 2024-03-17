@@ -1,5 +1,5 @@
 /* global fetch, Option */
-
+import 'bootstrap'
 // select
 const selectMunicipality = document.getElementById('select-municipality-info')
 // buttons

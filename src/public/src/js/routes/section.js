@@ -1,5 +1,5 @@
 /* global L */
-
+import 'bootstrap'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import * as mapFunctions from '../map/map-functions.js'
 

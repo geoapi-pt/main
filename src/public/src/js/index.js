@@ -1,4 +1,5 @@
 /* global L, fetch */
+import 'bootstrap'
 import './index/getDistrictInfo.js'
 import './index/getMunicipalityInfo.js'
 import './index/getParishInfo.js'

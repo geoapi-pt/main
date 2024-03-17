@@ -7,17 +7,17 @@
         <link rel="shortcut icon" type="image/x-icon" href="https://geoapi.pt/favicon.ico">
 
         <meta name="title" content="Documentação do GEO API PT">
-        <meta name="description" content="Dados de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
+        <meta name="description" content="Dados gratuitos de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://geoapi.pt">
         <meta property="og:title" content="Documentação do GEO API PT">
-        <meta property="og:description" content="Dados de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
+        <meta property="og:description" content="Dados gratuitos de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://geoapi.pt">
         <meta property="twitter:title" content="Documentação do GEO API PT">
-        <meta property="twitter:description" content="Dados de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
+        <meta property="twitter:description" content="Dados gratuitos de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
 
-        <meta description="Dados de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
+        <meta description="Dados gratuitos de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -393,20 +393,29 @@ data-styled.g137[id="sc-cMdfCE"]{content:"dvQijr,"}/*!sc*/
         </script>
     </head>
     <body>
-      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-light border-bottom shadow-sm">   
+      <div id="#header_wrap" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-light border-bottom shadow-sm">   
          <h4 class="my-2 mr-md-auto font-weight-bold text-nowrap">
-            <a class="text-decoration-none" href="//geoapi.pt">
+            <a class="text-decoration-none" href="/">
                GEO API PT
             </a>
          </h4>
-         <h5 class="my-0 ml-4 mr-md-auto font-weight-small"><small>Dados de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais</small></h5>
+         <h5 class="my-0 ml-4 mr-md-auto font-weight-small"><small>Dados gratuitos de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais</small></h5>
          <nav class="my-2 ml-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="/docs">Documentação API JSON</a>
-            <a class="p-2 text-dark" href="/self-hosting">Self-hosting</a>
-            <span class="p-2 text-dark text-decoration-none">Pedidos / hora: </span>
-            <span class="p-2 text-dark text-decoration-none">Pedidos / dia: </span>
+            <a class="p-2 text-dark text-nowrap" href="/docs">Documentação API JSON</a>
+            <span class="p-2 text-dark text-decoration-none text-nowrap">Pedidos / hora: </span>
+            <span class="p-2 text-dark text-decoration-none text-nowrap">Pedidos / dia: </span>
          </nav>
-         <a class="btn btn-outline-primary" href="/request-api-key">Pedir chave</a>
+      
+         <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+               Premium
+            </button>
+            <div class="dropdown-menu">
+               <a class="dropdown-item" href="/request-api-key">Pedir chave</a>
+               <a class="dropdown-item" href="/self-hosting">Self-hosting</a>
+            </div>
+         </div>
+      
       </div>
       <br>
       <center>
