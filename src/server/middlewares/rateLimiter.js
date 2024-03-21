@@ -11,7 +11,7 @@ module.exports = {
     const rateLimit = require('express-rate-limit')
 
     mysqlDb = JSON.parse(
-      fs.readFileSync(path.join(appRoot.path, 'credentials.json'), 'utf8')
+      fs.readFileSync(path.join(appRoot.path, '..', 'credentials.json'), 'utf8')
     ).mysql_db
     debug(mysqlDb)
 
