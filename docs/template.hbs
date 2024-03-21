@@ -19,11 +19,21 @@
 
         <meta description="{{{siteDescription}}}">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <!-- CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/footer.css">
         <link rel="stylesheet" href="/css/bootstrap.css">
 
+        <!-- Sitemap -->
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml.gz">
+
+        <!-- Better view on mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!-- For the Progressive Web App (PWA) -->
+        <link rel="manifest" href="/manifest.json">
+        <script src="/register-service-worker.js"></script>
+        
         \{{{redocHead}}}
 
         <script>

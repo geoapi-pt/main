@@ -19,11 +19,21 @@
 
         <meta description="Dados gratuitos de Portugal sobre regiões administrativas oficiais, georreferenciação, censos e códigos postais">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <!-- CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/footer.css">
         <link rel="stylesheet" href="/css/bootstrap.css">
 
+        <!-- Sitemap -->
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml.gz">
+
+        <!-- Better view on mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+        <!-- For the Progressive Web App (PWA) -->
+        <link rel="manifest" href="/manifest.json">
+        <script src="/register-service-worker.js"></script>
+        
         <script src="https://cdn.redoc.ly/redoc/v2.1.3/bundles/redoc.standalone.js"></script><style data-styled="true" data-styled-version="6.1.8">.gikxZY{width:calc(100% - 40%);padding:0 40px;}/*!sc*/
 @media print,screen and (max-width: 75rem){.gikxZY{width:100%;padding:40px 40px;}}/*!sc*/
 data-styled.g4[id="sc-hLQSwg"]{content:"gikxZY,"}/*!sc*/
@@ -406,12 +416,12 @@ data-styled.g137[id="sc-cMdfCE"]{content:"dvQijr,"}/*!sc*/
          </nav>
       
          <div class="dropdown">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
-          aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      
+            <button class="py-0 btn btn-outline-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+               &equiv;
+            </button>
             <div class="dropdown-menu dropdown-menu-right">
-               <a class="dropdown-item" href="/docs">Documentação API JSON</a>
                <a class="dropdown-item" href="https://stats.uptimerobot.com/rWEK3trBEP"><i>Uptime</i> desta API</a>
+               <a class="dropdown-item" href="/docs">Documentação API JSON</a>
                <a class="dropdown-item" href="https://github.com/geoapi-pt/main">Código aberto no Github</a>
                <a class="dropdown-item" href="https://github.com/geoapi-pt/main/issues">Sugestões</a>
                <a class="dropdown-item" href="mailto:joao.pimentel.ferreira@gmail.com">Contacto</a>
@@ -419,6 +429,8 @@ data-styled.g137[id="sc-cMdfCE"]{content:"dvQijr,"}/*!sc*/
          </div>
       
       </div>
+      
+
       <br>
       <center>
         <h2>Documentação da API JSON</h2>
