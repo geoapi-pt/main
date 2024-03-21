@@ -1,12 +1,16 @@
-module.exports = (res, jsonObj, data, configs) => {
+module.exports = async (res, jsonObj, data, configs, shieldsioCounters) => {
   res.type('text/html')
+
   const jsonBeautyHtml = convertJsonObjToHtml(jsonObj)
   res.render('jsonBeauty', {
     layout: false,
     defaultOrigin: configs.defaultOrigin,
+    mainTitle: configs.mainTitle,
     pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
     siteDescription: configs.description,
-    jsonBeautyHtml: jsonBeautyHtml
+    jsonBeautyHtml: jsonBeautyHtml,
+    requestsLastHour: await shieldsioCounters.getRequestsLastHour(),
+    requestsLastDay: await shieldsioCounters.getRequestsLastDay()
   })
 }
 

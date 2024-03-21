@@ -19,7 +19,7 @@ module.exports = ({ configs, shieldsioCounters }) =>
       res.set('Connection', 'close')
       if (isResponseJson(req)) {
         if (req.query.json === 'belo' || req.query.json === 'beauty') {
-          sendJsonBeauty(res, dataToBeSent, data, configs)
+          sendJsonBeauty(res, dataToBeSent, data, configs, shieldsioCounters)
         } else {
           res.json(dataToBeSent)
         }
