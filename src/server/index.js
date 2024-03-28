@@ -26,6 +26,7 @@ const siteDescription = configs.description
 
 // import server project modules
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
+const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
 const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
@@ -97,7 +98,14 @@ function prepare (callback) {
     } else {
       regions = data.regions
       administrations = data.administrations
-      callback()
+
+      getAltitude.init((err) => {
+        if (err) {
+          callback(Error(err))
+        } else {
+          callback()
+        }
+      })
     }
   })
 }

@@ -173,7 +173,7 @@ function readJsonFiles (mainCallback) {
       )
     } else {
       bar = new ProgressBar(
-        'Preparing 2/2 :percent', { total: parishesDetailsB.length }
+        'Preparing 2/3 :percent', { total: parishesDetailsB.length }
       )
     }
 

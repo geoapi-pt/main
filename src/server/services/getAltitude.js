@@ -1,86 +1,103 @@
-/* Get altitude from
- - Open elevation API (external)
- - Open Topo Data API (external)
- - Open Topo Data API (internal with docker)
-and returns the first to reply OK
-  OR
-when external APIs are disabled
- - estimate altitude by interpolation based on fixed points */
-
+const fs = require('fs')
 const path = require('path')
-const got = require('got')
+const turf = require('@turf/turf')
 const async = require('async')
+const ProgressBar = require('progress')
+const PolygonLookup = require('polygon-lookup')
 const appRoot = require('app-root-path')
-const debug = require('debug')('geoapipt:server:getelevation')
+const debug = require('debug')('geoapipt:getAltitude')
 
 const computeAltitude = require(path.join(appRoot.path, 'src', 'server', 'utils', 'computeAltitude.js'))
 
-const openElevationApiBaseUrl = 'https://api.open-elevation.com/api/v1/lookup'
+const tifDirectory = path.resolve(appRoot.path, '..', 'resources', 'res', 'altimetria', 'tif', 'source-tiles')
+const commonsDir = path.resolve(appRoot.path, '..', 'resources', 'routines', 'commons')
 
-// see https://www.opentopodata.org/datasets/eudem/
-const openTopoDataApiBaseUrl = 'https://api.opentopodata.org/v1/eudem25m'
+// instance to lookup for tiles, i,e., detect in which tile the point lies
+let lookup
 
-// get configuration variables
-const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
-const configs = require(path.join(servicesDir, 'getConfigs.js'))
+module.exports = { init, get }
 
-const openTopoDataApiDockerPort = configs.openTopoDataApiDockerPort
-const openTopoDataApiDockerUrl = `http://localhost:${openTopoDataApiDockerPort}/v1/eudem25m`
+function init (callback) {
+  const { getFiles } = require(path.join(commonsDir, 'file.js'))
 
-module.exports = getOpenElevationData
+  // collection of geoJson polygons (boxes) with the coordinates of the corresponding TIF tiles
+  const tilesCollection = []
 
-function getOpenElevationData ({ req, lat, lon, useExternalApis }, mainCallback) {
-  let altitude
+  getFiles(tifDirectory).then(async files => {
+    const tifFiles = files.filter(f => path.extname(f) === '.tif')
 
-  if (useExternalApis) {
-    const referer = `${req.get('origin') || ''}/gps/${lat},${lon}`
+    let bar
+    if (!debug.enabled) {
+      bar = new ProgressBar(
+        'Preparing 3/3 :percent', { total: tifFiles.length * 2 }
+      )
+    } else {
+      bar = { tick: () => {} }
+    }
 
-    const options = {
-      headers: { Referer: referer },
-      timeout: {
-        lookup: 100,
-        connect: 50,
-        secureConnect: 50,
-        socket: 1000,
-        send: 2000,
-        response: 1000
+    const { fromArrayBuffer } = await import('geotiff')
+    async.each(tifFiles, async (tifFile) => {
+      bar.tick()
+      const arrBuffer = fs.readFileSync(tifFile).buffer
+
+      const tiff = await fromArrayBuffer(arrBuffer)
+      const image = await tiff.getImage() // by default, the first image is read.
+
+      const tile = turf.bboxPolygon(image.getBoundingBox())
+      tile.properties.filename = tifFile
+      tile.properties.image = image
+      tilesCollection.push(tile)
+      bar.tick()
+    }, (err) => {
+      if (err) {
+        console.error('Error processing geoTIF tiles', err)
+        callback(Error('Error processing geoTIF tiles'))
+      } else {
+        const collection = turf.featureCollection(tilesCollection)
+        lookup = new PolygonLookup(collection)
+        debug('geoTIF tiles for altimetry processed OK')
+        callback()
       }
-    }
+    })
+  })
+}
 
-    async.some([openTopoDataApiDockerUrl, openElevationApiBaseUrl, openTopoDataApiBaseUrl],
-      (apiBaseUrl, callback) => {
-        got(`${apiBaseUrl}?locations=${lat},${lon}`, options)
-          .json()
-          .then(res => {
-            if (res.results && Array.isArray(res.results)) {
-              altitude = Math.round(res.results[0].elevation)
-              debug(`used ${apiBaseUrl} to get altitude`)
-              callback(null, true)
-            } else {
-              callback(null, false)
-            }
-          })
-          .catch(err => {
-            callback(Error(`${apiBaseUrl} service unavailable. ${err.message}`), false)
-          })
-      },
-      (err, res) => {
-        if (err) {
-          mainCallback(Error(err.message))
-        } else if (!res) {
-          mainCallback(Error('None of the services got altitude'))
-        } else {
-          debug('fetched altitude: ' + altitude)
-          mainCallback(null, altitude)
-        }
-      })
-  } else {
-    try {
-      altitude = computeAltitude(lat, lon)
-      debug('computed altitude: ' + altitude)
-      mainCallback(null, altitude)
-    } catch (err) {
-      mainCallback(Error('Error computing altitude, ' + err.message))
-    }
+async function get ({ lat, lon }) {
+  debug(`Get altitude for ${lat.toFixed(6)},${lon.toFixed(6)}`)
+  let altitude
+  try {
+    const tile = lookup.search(lon, lat)
+
+    const image = tile.properties.image
+
+    const rasters = await image.readRasters()
+
+    // Construct the WGS-84 forward and inverse affine matrices:
+    const { ModelPixelScale: s, ModelTiepoint: t } = image.fileDirectory
+    let [sx, sy, sz] = s // eslint-disable-line
+    const [px, py, k, gx, gy, gz] = t // eslint-disable-line
+    sy = -sy // WGS-84 tiles have a "flipped" y component
+
+    const gpsToPixel = [-gx / sx, 1 / sx, 0, -gy / sy, 0, 1 / sy]
+    debug(`Looking up GPS coordinate (${lat.toFixed(6)},${lon.toFixed(6)})`)
+
+    const [x, y] = transform(lon, lat, gpsToPixel, true)
+    debug(`Corresponding tile pixel coordinate: [${x}][${y}]`)
+
+    // Finally, retrieve the elevation associated with this pixel's geographic area:
+    const { width, 0: raster } = rasters
+    altitude = Math.round(raster[x + y * width])
+    debug(`The altitude at (${lat.toFixed(6)},${lon.toFixed(6)}) is ${altitude}m`)
+  } catch {
+    altitude = computeAltitude(lat, lon)
   }
+  return altitude
+}
+
+function transform (a, b, M, roundToInt = false) {
+  const round = (v) => (roundToInt ? v | 0 : v)
+  return [
+    round(M[0] + M[1] * a + M[2] * b),
+    round(M[3] + M[4] * a + M[5] * b)
+  ]
 }

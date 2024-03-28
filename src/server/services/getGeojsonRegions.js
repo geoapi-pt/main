@@ -57,7 +57,7 @@ let bar
 
 module.exports = function (callback) {
   bar = new ProgressBar(
-    'Preparing 1/2 :percent', { total: 7 * Object.keys(regions).length }
+    'Preparing 1/3 :percent', { total: 7 * Object.keys(regions).length }
   )
   async.series(
     [

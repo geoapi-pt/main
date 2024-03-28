@@ -241,14 +241,15 @@ function routeFn (req, res, next, { administrations, regions, defaultOrigin }) {
       callback()
     })
   }, (callback) => {
-    getAltitude({ req, lat, lon, useExternalApis }, (err, res) => {
-      if (err) {
-        console.error(err.message)
-      } else {
+    getAltitude.get({ lat, lon })
+      .then(res => {
         local.altitude_m = res
-      }
-      callback()
-    })
+        callback()
+      })
+      .catch(err => {
+        console.error(err.message)
+        callback()
+      })
   }], (err) => {
     if (err) {
       console.error(err)
