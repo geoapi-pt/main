@@ -110,7 +110,7 @@ module.exports = async () => {
         throw new Error(stats.toString())
       }
     } else {
-      console.log(colors.green('Front-end assets built into ' + path.relative(appRoot.path, destDir)))
+      console.log(colors.green('\nFront-end assets built into ' + path.relative(appRoot.path, destDir)))
     }
   })
 }
