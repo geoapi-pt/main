@@ -51,7 +51,7 @@ module.exports = {
 }
 
 async function rateLimitFn (req, res) {
-  const maxRequestsPerDayForNormalUsers = 50
+  const maxRequestsPerDayForNormalUsers = 30
   const maxRequestsPerDayForPremiumUsers = 1000000
 
   const apiAccessKey = req.query.key || req.header('X-API-Key')
