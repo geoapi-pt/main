@@ -48,7 +48,7 @@ function routeFn (req, res, next, { administrations }) {
   if (
     !arrayOfQueryParam.some(par => keysOfMunicipalitiesDetails.includes(par))
   ) {
-    // no query paramters were provided
+    // no nome nor query parameters were provided
     // shows just a list of all municipalities in this case
     const _result = administrations.listOfMunicipalitiesNames
     const result = JSON.parse(JSON.stringify(_result)) // deep clone
