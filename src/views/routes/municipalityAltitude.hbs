@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+   {{> htmlHead}}
+   {{> includeLeaflet}}
+</head>
+<body>
+
+{{> bodyHeader}}
+{{> resultMap}}
+
+<data id="municipality-altitude-route-data" data-municipalityroute="{{{obj2dataAttribute data}}}"></data>
+
+{{> footer}}
+
+<script type="module" src="/js/municipality-altitude.js"></script>
+
+</body>
+</html>

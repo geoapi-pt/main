@@ -15,7 +15,12 @@ module.exports = {
 function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
-  if (req.params.municipality === 'freguesia' || req.params.municipality === 'freguesias') {
+  if (
+    req.params.municipality === 'freguesia' ||
+    req.params.municipality === 'freguesias' ||
+    req.params.municipality === 'altitude' ||
+    req.params.municipality === 'hipsometria'
+  ) {
     next()
     return
   }
