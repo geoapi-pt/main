@@ -19,11 +19,6 @@ module.exports = (app) => {
   })
 
   app.use('/geotiff', (req, res, next) => {
-    if (isResponseJson(req)) {
-      next()
-    } else {
-      // only serve static files for the HTML request
-      express.static(geotiffsDir, { etag: false })(req, res, next)
-    }
+    express.static(geotiffsDir, { etag: false })(req, res, next)
   })
 }
