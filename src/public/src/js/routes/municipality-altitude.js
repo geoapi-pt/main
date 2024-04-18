@@ -2,10 +2,12 @@
 import 'bootstrap'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import * as mapFunctions from '../map/map-functions.js'
+import { mobileCheck } from '../functions.js'
 
 import 'georaster'
 import 'georaster-layer-for-leaflet'
 import { ColorRampCollection } from '@maptiler/sdk'
+import geoblaze from 'geoblaze'
 
 const municipalityDataDomEl = document.getElementById('municipality-altitude-route-data')
 const municipalityData = JSON.parse(decodeURIComponent(municipalityDataDomEl.dataset.municipalityroute))
@@ -15,7 +17,7 @@ const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
 mapFunctions.setMap(map)
 
-const bbox = municipalityData.geojsons.municipio.bbox
+const bbox = municipalityData.geojson.bbox
 const corner1 = L.latLng(bbox[1], bbox[0])
 const corner2 = L.latLng(bbox[3], bbox[2])
 const bounds = L.latLngBounds(corner1, corner2)
@@ -45,5 +47,40 @@ fetch(urlToGeoTiff)
       }).addTo(map)
 
       map.fitBounds(layer.getBounds())
+
+      map.on('mousemove', evt => {
+        const lat = evt.latlng.lat
+        const lng = evt.latlng.lng
+        const rasterPointData = geoblaze.identify(georaster, [lng, lat])
+        const altitude = rasterPointData ? Math.round(rasterPointData[0]) : null
+        console.log(altitude)
+        info.update(altitude)
+      })
+
+      // control that shows altitude on hovering the map
+      const info = L.control()
+
+      info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info')
+        this.update()
+        return this._div
+      }
+
+      info.update = function (altitude) {
+        let contents = ''
+        if (altitude) {
+          contents += `<h2><b>${altitude} metros</b></h2>`
+        } else {
+          if (mobileCheck()) {
+            contents += 'Toque numa região colorida para obter a altitude.<br>Pressione longamente num ponto do mapa para mais opções.'
+          } else {
+            contents += '<b>Mova o rato sobre a região colorida para obter a altitude.<br>Clique no botão direito do rato num ponto do mapa para mais opções.</b>'
+          }
+        }
+
+        this._div.innerHTML = contents
+      }
+
+      info.addTo(map)
     })
   })
