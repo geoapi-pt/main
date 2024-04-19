@@ -42,7 +42,7 @@ fetch(urlToGeoTiff)
       const layer = new GeoRasterLayer({
         georaster: georaster,
         opacity: 0.8,
-        pixelValuesToColorFn: vals => vals[0] || vals[0] > 0 ? elevationColor.getColorHex(Math.round(vals[0])) : null,
+        pixelValuesToColorFn: vals => vals[0] && vals[0] >= 0 ? elevationColor.getColorHex(Math.round(vals[0])) : null,
         resolution: 512 // optional parameter for adjusting display resolution
       }).addTo(map)
 
@@ -68,7 +68,7 @@ fetch(urlToGeoTiff)
 
       info.update = function (altitude) {
         let contents = ''
-        if (altitude) {
+        if (altitude && altitude >= 0) {
           contents += `<h2><b>${altitude} metros</b></h2>`
         } else {
           if (mobileCheck()) {
