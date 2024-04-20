@@ -53,7 +53,6 @@ fetch(urlToGeoTiff)
         const lng = evt.latlng.lng
         const rasterPointData = geoblaze.identify(georaster, [lng, lat])
         const altitude = rasterPointData ? Math.round(rasterPointData[0]) : null
-        console.log(altitude)
         info.update(altitude)
       })
 
