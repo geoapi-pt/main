@@ -92,9 +92,19 @@ function routeFn (req, res, next, { administrations, regions }) {
       delete dataToShowOnHtml.eleitores2011
       delete dataToShowOnHtml.populacao2011
 
+      const encodeName = (str) => {
+        return encodeURIComponent(str.toLowerCase())
+      }
+
       res.status(200).sendData({
         data: result,
-        input: { Freguesia: `${result.nomecompleto} (<a href="/municipio/${result.municipio.toLowerCase()}">${result.municipio}</a>)` },
+        input: {
+          Freguesia:
+          `${result.nomecompleto} (` +
+          `Município: <a href="/municipio/${encodeName(result.municipio)}">${result.municipio}</a>, ` +
+          `<a href="/municipio/${encodeName(result.municipio)}/freguesia/${encodeName(parish)}/altimetria">Altimetria</a>` +
+          ')'
+        },
         dataToShowOnHtml: dataToShowOnHtml,
         pageTitle: `Dados sobre a Freguesia ${result.nomecompleto} (${result.municipio})`,
         template: 'routes/parish'

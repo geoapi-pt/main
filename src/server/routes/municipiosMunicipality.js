@@ -156,10 +156,14 @@ async function routeFn (req, res, next, { administrations }) {
         // information already available in section Censos
         delete dataToShowOnHtml.populacao
 
+        const encodeName = (str) => {
+          return encodeURIComponent(str.toLowerCase())
+        }
+
         res.status(200).sendData({
           data: result,
           input: {
-            Município: `${result.nome} (<a href="/municipio/${nome}/freguesias">Freguesias</a>)`
+            Município: `${result.nome} (<a href="/municipio/${encodeName(nome)}/freguesias">Freguesias</a>, <a href="/municipio/${encodeName(nome)}/altimetria">Altimetria</a>)`
           },
           dataToShowOnHtml: dataToShowOnHtml,
           pageTitle: `Dados sobre o Município de ${result.nome}`,
