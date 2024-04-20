@@ -4,15 +4,17 @@ const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 const { normalizeName } = require(path.join(__dirname, '..', 'utils', 'commonFunctions.js'))
 
-const municipalitiesGeojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson', 'municipalities')
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+
+const municipalitiesGeojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson', 'municipalities')
+const municipalitiesCensosDir = path.join(appRoot.path, '..', 'resources', 'res', 'censos', 'data', 'municipios')
 
 module.exports = {
   fn: routeFn,
   route: '/municipios?/:municipality?'
 }
 
-function routeFn (req, res, next, { administrations }) {
+async function routeFn (req, res, next, { administrations }) {
   debug(req.path, req.query, req.headers)
 
   if (
@@ -101,12 +103,42 @@ function routeFn (req, res, next, { administrations }) {
       })
     } else if (results.length === 1) {
       const result = results[0]
-      const municipalityGeojsons = JSON.parse(
-        fs.readFileSync(path.join(municipalitiesGeojsonDir, result.codigoine.padStart(4, '0') + '.json'))
-      )
+
+      const geojsonFile = path.join(municipalitiesGeojsonDir, result.codigoine.padStart(4, '0') + '.json')
+      const municipalityCodeNoLeadingZeros = parseInt(result.codigoine.padStart(4, '0')).toString() // to remove leading zeros
+      const censosFile = path.join(municipalitiesCensosDir, municipalityCodeNoLeadingZeros + '.json')
+
+      const promisesArray = []
+      if (fs.existsSync(geojsonFile)) {
+        promisesArray.push(fs.promises.readFile(geojsonFile))
+      } else {
+        res.status(404).sendData({ error: `Ficheiro Geojson ${path.relative(appRoot.path, geojsonFile)} não encontrado!` })
+        return
+      }
+      if (fs.existsSync(censosFile)) {
+        promisesArray.push(fs.promises.readFile(censosFile))
+      } else {
+        // if censos file is not available, still continues
+        console.error(`Ficheiro de Censos ${path.relative(appRoot.path, censosFile)} não encontrado!`)
+      }
+
+      const dataFromFiles = await Promise.all(promisesArray)
+      const municipalityGeojsons = JSON.parse(dataFromFiles[0])
 
       if (municipalityGeojsons) {
         result.geojsons = municipalityGeojsons
+      }
+
+      // data related to censos file from promisesArray[1]
+      if (dataFromFiles[1]) {
+        const municipalityCensos = JSON.parse(dataFromFiles[1])
+        if (municipalityCensos) {
+          for (const key in municipalityCensos) {
+            if (key.startsWith('censos')) {
+              result[key] = municipalityCensos[key]
+            }
+          }
+        }
       }
 
       if (isResponseJson(req)) {
