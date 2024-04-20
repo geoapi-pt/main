@@ -6421,7 +6421,7 @@ paths:
   /municipio/{municipio}/freguesia/{freguesia}/altimetria:
     get:
       operationId: getParishOfMunicipalityAltimetry
-      summary: Dados sobre Altimetria da Freguesia de um determinado Município
+      summary: Altimetria de uma Freguesia de um determinado Município
       parameters:
         - in: path
           name: municipio
