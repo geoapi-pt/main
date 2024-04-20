@@ -7,6 +7,7 @@ const selectFreguesia = document.getElementById('select-parish-on-parish-info')
 const btnGetParishesInfo = document.getElementById('get-parish-info-button')
 const btnGetParishesSections = document.getElementById('get-parish-sections-button')
 const btnGetParishesSubsections = document.getElementById('get-parish-subsections-button')
+const btnGetParishesAltimetry = document.getElementById('get-parish-altimetry-button')
 
 selectMunicipality.addEventListener('change', () => {
   // Clean list of parishes (except the 0th item, "Select...")
@@ -33,6 +34,7 @@ selectMunicipality.addEventListener('change', () => {
     btnGetParishesInfo.disabled = true
     btnGetParishesSections.disabled = true
     btnGetParishesSubsections.disabled = true
+    btnGetParishesAltimetry.disabled = true
   }
 })
 
@@ -41,10 +43,12 @@ selectFreguesia.addEventListener('change', () => {
     btnGetParishesInfo.disabled = false
     btnGetParishesSections.disabled = false
     btnGetParishesSubsections.disabled = false
+    btnGetParishesAltimetry.disabled = false
   } else {
     btnGetParishesInfo.disabled = true
     btnGetParishesSections.disabled = true
     btnGetParishesSubsections.disabled = true
+    btnGetParishesAltimetry.disabled = true
   }
 })
 
@@ -63,6 +67,12 @@ btnGetParishesSections.addEventListener('click', () => {
 btnGetParishesSubsections.addEventListener('click', () => {
   if (areBothSelectsSelected()) {
     window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/subsecções`
+  }
+})
+
+btnGetParishesAltimetry.addEventListener('click', () => {
+  if (areBothSelectsSelected()) {
+    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/altimetria`
   }
 })
 
