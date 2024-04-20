@@ -17,9 +17,7 @@ function routeFn (req, res, next, { administrations }) {
 
   if (
     req.params.municipality === 'freguesia' ||
-    req.params.municipality === 'freguesias' ||
-    req.params.municipality === 'altitude' ||
-    req.params.municipality === 'hipsometria'
+    req.params.municipality === 'freguesias'
   ) {
     next()
     return
