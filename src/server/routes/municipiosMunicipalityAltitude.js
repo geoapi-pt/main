@@ -33,6 +33,14 @@ function routeFn (req, res, next, { administrations }) {
 
   if (results.length === 1) {
     const result = results[0]
+
+    // in altimetry route delete all data related to censos
+    for (const key of Object.keys(result)) {
+      if (key.startsWith('censos')) {
+        delete result[key]
+      }
+    }
+
     const municipalityGeojsons = JSON.parse(
       fs.readFileSync(path.join(municipalitiesGeojsonDir, result.codigoine.padStart(4, '0') + '.json'))
     )

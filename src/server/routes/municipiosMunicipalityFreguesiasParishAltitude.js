@@ -52,6 +52,13 @@ function routeFn (req, res, next, { administrations, regions }) {
   if (results.length === 1) {
     const result = results[0]
 
+    // in altimetry route delete all data related to censos
+    for (const key of Object.keys(result)) {
+      if (key.startsWith('censos')) {
+        delete result[key]
+      }
+    }
+
     let parishGeojson
     for (const region in regions) {
       const parishes = regions[region].geojson.features
