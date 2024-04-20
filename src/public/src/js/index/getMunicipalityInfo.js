@@ -21,19 +21,19 @@ selectMunicipality.addEventListener('change', () => {
 
 btnGetMunicipalityInfo.addEventListener('click', () => {
   if (selectMunicipality.value && selectMunicipality.value !== '0') {
-    window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}`
+    window.location.href = `/municipios/${encodeName(selectMunicipality.value)}`
   }
 })
 
 btnGetMunicipalityParishes.addEventListener('click', () => {
   if (selectMunicipality.value && selectMunicipality.value !== '0') {
-    window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}/freguesias`
+    window.location.href = `/municipios/${encodeName(selectMunicipality.value)}/freguesias`
   }
 })
 
 btnGetMunicipalityAltimetry.addEventListener('click', () => {
   if (selectMunicipality.value && selectMunicipality.value !== '0') {
-    window.location.href = `/municipios/${encodeURIComponent(selectMunicipality.value)}/altimetria`
+    window.location.href = `/municipios/${encodeName(selectMunicipality.value)}/altimetria`
   }
 })
 
@@ -46,3 +46,7 @@ fetch('/municipios?json=1').then(res => res.json())
   .catch((err) => {
     console.error('error fetching municipios', err)
   })
+
+function encodeName (str) {
+  return encodeURIComponent(str.toLowerCase())
+}

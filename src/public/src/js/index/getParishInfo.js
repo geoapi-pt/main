@@ -54,25 +54,25 @@ selectFreguesia.addEventListener('change', () => {
 
 btnGetParishesInfo.addEventListener('click', () => {
   if (areBothSelectsSelected()) {
-    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}`
+    window.location.href = `/municipio/${encodeName(selectMunicipality.value)}/freguesia/${encodeName(selectFreguesia.value)}`
   }
 })
 
 btnGetParishesSections.addEventListener('click', () => {
   if (areBothSelectsSelected()) {
-    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/secções`
+    window.location.href = `/municipio/${encodeName(selectMunicipality.value)}/freguesia/${encodeName(selectFreguesia.value)}/secções`
   }
 })
 
 btnGetParishesSubsections.addEventListener('click', () => {
   if (areBothSelectsSelected()) {
-    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/subsecções`
+    window.location.href = `/municipio/${encodeName(selectMunicipality.value)}/freguesia/${encodeName(selectFreguesia.value)}/subsecções`
   }
 })
 
 btnGetParishesAltimetry.addEventListener('click', () => {
   if (areBothSelectsSelected()) {
-    window.location.href = `/municipio/${encodeURIComponent(selectMunicipality.value)}/freguesia/${encodeURIComponent(selectFreguesia.value)}/altimetria`
+    window.location.href = `/municipio/${encodeName(selectMunicipality.value)}/freguesia/${encodeName(selectFreguesia.value)}/altimetria`
   }
 })
 
@@ -92,3 +92,7 @@ fetch('/municipios?json=1').then(res => res.json())
   .catch((err) => {
     console.error('error fetching municipios', err)
   })
+
+function encodeName (str) {
+  return encodeURIComponent(str.toLowerCase())
+}
