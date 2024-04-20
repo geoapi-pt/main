@@ -351,6 +351,9 @@ function buildsAdministrationsDistrictsArrays (callback) {
 
 function addCensusData (callback) {
   const censosParishsesDir = path.join(resDir, 'censos', 'data', 'freguesias')
+  if (!fs.existsSync(censosParishsesDir)) {
+    throw (Error('Directory does not exist: ' + censosParishsesDir))
+  }
   administrations.parishesDetails.forEach(el => {
     const file = path.join(censosParishsesDir, String(el.codigoine).padStart(6, '0') + '.json')
     if (fs.existsSync(file)) {
@@ -363,7 +366,10 @@ function addCensusData (callback) {
     }
   })
 
-  const censosMunicipalitiesDir = path.join(appRoot.path, 'res', 'censos', 'data', 'municipios')
+  const censosMunicipalitiesDir = path.join(resDir, 'censos', 'data', 'municipios')
+  if (!fs.existsSync(censosMunicipalitiesDir)) {
+    throw (Error('Directory does not exist: ' + censosMunicipalitiesDir))
+  }
   administrations.municipalitiesDetails.forEach(el => {
     const file = path.join(censosMunicipalitiesDir, String(parseInt(el.codigoine)) + '.json')
     if (fs.existsSync(file)) {
@@ -376,7 +382,10 @@ function addCensusData (callback) {
     }
   })
 
-  const censosDistrictsDir = path.join(appRoot.path, 'res', 'censos', 'data', 'distritos')
+  const censosDistrictsDir = path.join(resDir, 'censos', 'data', 'distritos')
+  if (!fs.existsSync(censosDistrictsDir)) {
+    throw (Error('Directory does not exist: ' + censosDistrictsDir))
+  }
   administrations.districtsDetails.forEach(el => {
     const file = path.join(censosDistrictsDir, String(parseInt(el.codigoine)).padStart(2, '0') + '.json')
     if (fs.existsSync(file)) {
