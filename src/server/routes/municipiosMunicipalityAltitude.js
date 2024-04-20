@@ -11,10 +11,7 @@ const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils',
 
 module.exports = {
   fn: routeFn,
-  route: [
-    '/municipios?/:municipality?/altitude',
-    '/municipios?/:municipality?/hipsometria'
-  ]
+  route: '/municipios?/:municipality?/altimetria'
 }
 
 function routeFn (req, res, next, { administrations }) {
@@ -79,7 +76,7 @@ function routeFn (req, res, next, { administrations }) {
               data: result,
               input: { Município: `<a href="/municipio/${encodeName(result.nome)}">${result.nome}</a>` },
               dataToShowOnHtml: dataToShowOnHtml,
-              pageTitle: `Hipsometria do município de ${result.nome}`,
+              pageTitle: `Altimetria do município de ${result.nome}`,
               template: 'routes/municipalityAltitude'
             })
           }
