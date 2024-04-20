@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+   {{> htmlHead}}
+   {{> includeLeaflet}}
+</head>
+<body>
+
+{{> bodyHeader}}
+{{> resultMap}}
+
+<data id="parish-altitude-route-data" data-parishroute="{{{obj2dataAttribute data}}}"></data>
+
+{{> footer}}
+
+<script type="module" src="/js/parish-altitude.js"></script>
+
+</body>
+</html>
