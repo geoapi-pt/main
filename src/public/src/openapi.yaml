@@ -790,6 +790,133 @@ components:
                     type: number
                     example: -8.165696184305354
 
+    municipioAltimetria:
+      type: object
+      properties:
+        altitude: 
+          type: object
+          properties: 
+            url_geotiff: 
+              type: string
+              example: http://geoapi.pt/geotiff/municipalities/1106.tif
+            altitude_maxima:
+              type: number
+              example: 44
+            altitude_minima:
+              type: number
+              example: 0
+            diferencial_de_altitude:
+              type: number
+              example: 44
+        codigo: 
+          type: string
+          example: 2643
+        nif: 
+          type: string
+          example: 504828576
+        rua: 
+          type: string
+          example: Praça do Sertório
+        localidade: 
+          type: string
+          example: EVORA
+        codigopostal: 
+          type: string
+          example: 7004-506
+        descrpostal: 
+          type: string
+          example: EVORA
+        email: 
+          type: string
+          example: cmevora@cm-evora.pt
+        telefone: 
+          type: string
+          example: 266777000
+        fax: 
+          type: string
+          example: 266702950
+        sitio: 
+          type: string
+          example: www.cm-evora.pt
+        areaha: 
+          type: string
+          example: 1307.03
+        populacao: 
+          type: string
+          example: 56596
+        eleitores: 
+          type: string
+          example: 47923
+        codigoine: 
+          type: string
+          example: 705
+        nome: 
+          type: string
+          example: Évora
+        distrito: 
+          type: string
+          example: ÉVORA
+        geojson: 
+          type: object
+          properties: 
+            type: 
+              type: string
+              example: Feature
+            properties: 
+              type: object
+              properties: 
+                Dicofre: 
+                  type: string
+                  example: 0705
+                centros: 
+                  type: object
+                  properties: 
+                    centro: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -7.860315626897443
+                    centroide: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -7.873525045879464
+                    centroDeMassa: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -7.8702187180592365
+                    centroMedio: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -7.873561778484244
+                    centroMediano: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -7.873525045879465
+            geometry: 
+              type: object
+              properties: 
+                type: 
+                  type: string
+                  example: Polygon
+                coordinates: 
+                  type: array
+                  items: 
+                    type: array
+                    items: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -8.165696184305354
+            bbox: 
+              type: array
+              items: 
+                type: number
+                example: -8.165696184305354
+
     freguesia:
       type: object
       properties: 
@@ -1356,6 +1483,163 @@ components:
               type: integer
               format: int32
               example: 35482
+        geojson: 
+          type: object
+          properties: 
+            type: 
+              type: string
+              example: Feature
+            properties: 
+              type: object
+              properties: 
+                Dicofre: 
+                  type: string
+                  example: 110621
+                Freguesia: 
+                  type: string
+                  example: Marvila
+                Concelho: 
+                  type: string
+                  example: Lisboa
+                Distrito: 
+                  type: string
+                  example: Lisboa
+                TAA: 
+                  type: string
+                  example: ÁREA PRINCIPAL
+                Area_T_ha: 
+                  type: number
+                  example: 712.24
+                Area_EA_ha: 
+                  type: number
+                  example: 712.24
+                Des_Simpli: 
+                  type: string
+                  example: Marvila
+                centros: 
+                  type: object
+                  properties: 
+                    centro: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -9.110550057590924
+                    centroide: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -9.122147914640724
+                    centroDeMassa: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -9.11095555386038
+                    centroMedio: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -9.122110338288898
+                    centroMediano: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -9.122147914640724
+            geometry: 
+              type: object
+              properties: 
+                type: 
+                  type: string
+                  example: Polygon
+                coordinates: 
+                  type: array
+                  items: 
+                    type: array
+                    items: 
+                      type: array
+                      items: 
+                        type: number
+                        example: -9.103096704264637
+            bbox: 
+              type: array
+              items: 
+                type: number
+                example: -9.13039036150257
+
+    freguesiaAltimetria:
+      type: object
+      properties:
+        altitude: 
+          type: object
+          properties: 
+            url_geotiff: 
+              type: string
+              example: http://geoapi.pt/geotiff/municipalities/11/06/62.tif
+            altitude_maxima:
+              type: number
+              example: 44
+            altitude_minima:
+              type: number
+              example: 0
+            diferencial_de_altitude:
+              type: number
+              example: 44
+        codigo: 
+          type: string
+          example: 7821
+        nif: 
+          type: string
+          example: 507330609
+        rua: 
+          type: string
+          example: Avª. João Paulo II lote 526 - 1º A
+        localidade: 
+          type: string
+          example: Marvila
+        codigopostal: 
+          type: string
+          example: 1950-159
+        descrpostal: 
+          type: string
+          example: LISBOA
+        email: 
+          type: string
+          example: info@jf-marvila.pt
+        telefone: 
+          type: string
+          example: 218310350
+        fax: 
+          type: string
+          example: 218310359
+        sitio: 
+          type: string
+          example: www.jf-marvila.pt
+        codigoine: 
+          type: string
+          example: 110621
+        eleitores2011: 
+          type: string
+          example: 37125
+        populacao2011: 
+          type: string
+          example: 38767
+        areaha: 
+          type: string
+          example: 637.42
+        nomecompleto: 
+          type: string
+          example: Marvila
+        nome: 
+          type: string
+          example: Marvila
+        municipio: 
+          type: string
+          example: Lisboa
+        nomecompleto2: 
+          type: string
+          example: Marvila
+        nomecompleto3: 
+          type: string
+          example: Marvila
         geojson: 
           type: object
           properties: 
@@ -4797,7 +5081,6 @@ components:
         BGRI: 
           type: string
 
-
     CP4:
       type: object
       properties:
@@ -5540,6 +5823,34 @@ paths:
       responses:
         $ref: '#/paths/~1municipio~1%7Bmunicipio%7D/get/responses'
   
+  /municipio/{municipio}/altimetria:
+    get:
+      operationId: getMunicipalityAltimetry
+      summary: Altimetria sobre Município  
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: évora
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Detalhes do Município e sobre a sua Altimetria
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/municipioAltimetria'
+        '404':
+          description: Município não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
+
   /municipio/{municipio}/freguesias:
     get:
       operationId: getParishesOfMunicipality
@@ -6106,6 +6417,42 @@ paths:
         - $ref: '#/components/parameters/json'
       responses:
         $ref: '#/paths/~1municipio~1%7Bmunicipio%7D~1freguesia~1%7Bfreguesia%7D/get/responses'   
+
+  /municipio/{municipio}/freguesia/{freguesia}/altimetria:
+    get:
+      operationId: getParishOfMunicipalityAltimetry
+      summary: Dados sobre Altimetria da Freguesia de um determinado Município
+      parameters:
+        - in: path
+          name: municipio
+          required: true
+          schema:
+            type: string
+            example: guimarães
+          allowReserved: true
+          description: Município
+        - in: path
+          name: freguesia
+          required: true
+          schema:
+            type: string
+            example: serzedelo
+          allowReserved: true
+          description: Município
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Detalhes da Freguesia
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/freguesiaAltimetria'
+        '404':
+          description: Freguesia não encontrada
+          content:
+            application/json:
+              schema:
+                type: string
 
   /distritos:
     get:
