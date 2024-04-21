@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+   {{> htmlHead}}
+   {{> includeLeaflet}}
+</head>
+<body>
+
+{{> bodyHeader}}
+{{> resultMap}}
+
+<data id="district-altitude-route-data" data-districtroute="{{{obj2dataAttribute data}}}"></data>
+
+{{> footer}}
+
+<script type="module" src="/js/district-altitude.js"></script>
+
+</body>
+</html>
