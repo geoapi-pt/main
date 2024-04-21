@@ -60,6 +60,13 @@ function routeFn (req, res, next, { administrations }) {
     if (results.length === 1) {
       const result = results[0]
 
+      // in altimetry route delete all data related to censos
+      for (const key of Object.keys(result)) {
+        if (key.startsWith('censos')) {
+          delete result[key]
+        }
+      }
+
       // get same stats from the geotiff file
       const geotiffFilePath = path.join(districtsGeotiffsDir, `${result.codigoine.padStart(2, 0)}.tif`)
       fs.readFile(geotiffFilePath, (err, data) => {
