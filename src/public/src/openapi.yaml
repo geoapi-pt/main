@@ -86,6 +86,551 @@ components:
         type: string
       example: ["A dos Francos (Caldas da Rainha)","A dos Negros (Óbidos)","Abade de Neiva (Barcelos)","Abadim (Cabeceiras de Basto)","Abambres (Mirandela)","Abaças (Vila Real)","Abedim (Monção)","..."]
 
+    distrito:
+      type: object
+      properties:
+        distrito: 
+          type: string
+          example: Porto
+        codigoine: 
+          type: string
+          example: '11'
+        censos2011: 
+          type: object
+          properties: 
+            N_EDIFICIOS_CLASSICOS: 
+              type: integer
+              format: int32
+              example: 20676
+            N_EDIFICIOS_CLASSICOS_1OU2: 
+              type: integer
+              format: int32
+              example: 18953
+            N_EDIFICIOS_CLASSICOS_ISOLADOS: 
+              type: integer
+              format: int32
+              example: 4280
+            N_EDIFICIOS_CLASSICOS_GEMIN: 
+              type: integer
+              format: int32
+              example: 4096
+            N_EDIFICIOS_CLASSICOS_EMBANDA: 
+              type: integer
+              format: int32
+              example: 10577
+            N_EDIFICIOS_CLASSICOS_3OUMAIS: 
+              type: integer
+              format: int32
+              example: 1408
+            N_EDIFICIOS_CLASSICOS_OUTROS: 
+              type: integer
+              format: int32
+              example: 315
+            N_EDIFICIOS_EXCLUSIV_RESID: 
+              type: integer
+              format: int32
+              example: 19801
+            N_EDIFICIOS_PRINCIPAL_RESID: 
+              type: integer
+              format: int32
+              example: 656
+            N_EDIFICIOS_PRINCIP_NAO_RESID: 
+              type: integer
+              format: int32
+              example: 219
+            N_EDIFICIOS_1OU2_PISOS: 
+              type: integer
+              format: int32
+              example: 19312
+            N_EDIFICIOS_3OU4_PISOS: 
+              type: integer
+              format: int32
+              example: 1275
+            N_EDIFICIOS_CONSTR_ANTES_1919: 
+              type: integer
+              format: int32
+              example: 1140
+            N_EDIFICIOS_CONSTR_1919A1945: 
+              type: integer
+              format: int32
+              example: 3066
+            N_EDIFICIOS_CONSTR_1946A1960: 
+              type: integer
+              format: int32
+              example: 2735
+            N_EDIFICIOS_CONSTR_1961A1970: 
+              type: integer
+              format: int32
+              example: 2376
+            N_EDIFICIOS_CONSTR_1971A1980: 
+              type: integer
+              format: int32
+              example: 2528
+            N_EDIFICIOS_CONSTR_1981A1990: 
+              type: integer
+              format: int32
+              example: 3847
+            N_EDIFICIOS_CONSTR_1991A1995: 
+              type: integer
+              format: int32
+              example: 1397
+            N_EDIFICIOS_CONSTR_1996A2000: 
+              type: integer
+              format: int32
+              example: 1235
+            N_EDIFICIOS_CONSTR_2001A2005: 
+              type: integer
+              format: int32
+              example: 1340
+            N_EDIFICIOS_CONSTR_2006A2011: 
+              type: integer
+              format: int32
+              example: 1012
+            N_EDIFICIOS_ESTRUT_BETAO: 
+              type: integer
+              format: int32
+              example: 10687
+            N_EDIFICIOS_ESTRUT_COM_PLACA: 
+              type: integer
+              format: int32
+              example: 7205
+            N_EDIFICIOS_ESTRUT_SEM_PLACA: 
+              type: integer
+              format: int32
+              example: 2039
+            N_EDIFICIOS_ESTRUT_ADOBE_PEDRA: 
+              type: integer
+              format: int32
+              example: 729
+            N_EDIFICIOS_ESTRUT_OUTRA: 
+              type: integer
+              format: int32
+              example: 16
+            N_ALOJAMENTOS: 
+              type: integer
+              format: int32
+              example: 29311
+            N_ALOJAMENTOS_FAMILIARES: 
+              type: integer
+              format: int32
+              example: 29204
+            N_ALOJAMENTOS_FAM_CLASSICOS: 
+              type: integer
+              format: int32
+              example: 29171
+            N_ALOJAMENTOS_FAM_N_CLASSICOS: 
+              type: integer
+              format: int32
+              example: 33
+            N_ALOJAMENTOS_COLECTIVOS: 
+              type: integer
+              format: int32
+              example: 107
+            N_CLASSICOS_RES_HABITUAL: 
+              type: integer
+              format: int32
+              example: 22424
+            N_ALOJAMENTOS_RES_HABITUAL: 
+              type: integer
+              format: int32
+              example: 22457
+            N_ALOJAMENTOS_VAGOS: 
+              type: integer
+              format: int32
+              example: 3618
+            N_RES_HABITUAL_COM_AGUA: 
+              type: integer
+              format: int32
+              example: 22330
+            N_RES_HABITUAL_COM_RETRETE: 
+              type: integer
+              format: int32
+              example: 22250
+            N_RES_HABITUAL_COM_ESGOTOS: 
+              type: integer
+              format: int32
+              example: 22350
+            N_RES_HABITUAL_COM_BANHO: 
+              type: integer
+              format: int32
+              example: 22014
+            N_RES_HABITUAL_AREA_50: 
+              type: integer
+              format: int32
+              example: 2744
+            N_RES_HABITUAL_AREA_50_100: 
+              type: integer
+              format: int32
+              example: 9142
+            N_RES_HABITUAL_AREA_100_200: 
+              type: integer
+              format: int32
+              example: 9110
+            N_RES_HABITUAL_AREA_200: 
+              type: integer
+              format: int32
+              example: 1428
+            N_RES_HABITUAL_1_2_DIV: 
+              type: integer
+              format: int32
+              example: 604
+            N_RES_HABITUAL_3_4_DIV: 
+              type: integer
+              format: int32
+              example: 8035
+            N_RES_HABITUAL_ESTAC_1: 
+              type: integer
+              format: int32
+              example: 7972
+            N_RES_HABITUAL_ESTAC_2: 
+              type: integer
+              format: int32
+              example: 1719
+            N_RES_HABITUAL_ESTAC_3: 
+              type: integer
+              format: int32
+              example: 1090
+            N_RES_HABITUAL_PROP_OCUP: 
+              type: integer
+              format: int32
+              example: 14884
+            N_RES_HABITUAL_ARREND: 
+              type: integer
+              format: int32
+              example: 5853
+            N_FAMILIAS_CLASSICAS: 
+              type: integer
+              format: int32
+              example: 22774
+            N_FAMILIAS_INSTITUCIONAIS: 
+              type: integer
+              format: int32
+              example: 51
+            N_FAMILIAS_CLASSICAS_1OU2_PESS: 
+              type: integer
+              format: int32
+              example: 13010
+            N_FAMILIAS_CLASSICAS_3OU4_PESS: 
+              type: integer
+              format: int32
+              example: 8668
+            N_FAMILIAS_CLASSICAS_NPES65: 
+              type: integer
+              format: int32
+              example: 7570
+            N_FAMILIAS_CLASSICAS_NPES14: 
+              type: integer
+              format: int32
+              example: 5740
+            N_FAMILIAS_CLASSIC_SEM_DESEMP: 
+              type: integer
+              format: int32
+              example: 20154
+            N_FAMILIAS_CLASSIC_1DESEMPREG: 
+              type: integer
+              format: int32
+              example: 2350
+            N_FAMILIAS_CLASS_2MAIS_DESEMP: 
+              type: integer
+              format: int32
+              example: 270
+            N_NUCLEOS_FAMILIARES: 
+              type: integer
+              format: int32
+              example: 17250
+            N_NUCLEOS_1FILH_NAO_CASADO: 
+              type: integer
+              format: int32
+              example: 6496
+            N_NUCLEOS_2FILH_NAO_CASADO: 
+              type: integer
+              format: int32
+              example: 3674
+            N_NUCLEOS_FILH_INF_6ANOS: 
+              type: integer
+              format: int32
+              example: 2658
+            N_NUCLEOS_FILH_INF_15ANOS: 
+              type: integer
+              format: int32
+              example: 5680
+            N_NUCLEOS_FILH_MAIS_15ANOS: 
+              type: integer
+              format: int32
+              example: 6540
+            N_INDIVIDUOS_PRESENT: 
+              type: integer
+              format: int32
+              example: 55811
+            N_INDIVIDUOS_PRESENT_H: 
+              type: integer
+              format: int32
+              example: 26190
+            N_INDIVIDUOS_PRESENT_M: 
+              type: integer
+              format: int32
+              example: 29621
+            N_INDIVIDUOS_RESIDENT: 
+              type: integer
+              format: int32
+              example: 56596
+            N_INDIVIDUOS_RESIDENT_H: 
+              type: integer
+              format: int32
+              example: 26831
+            N_INDIVIDUOS_RESIDENT_M: 
+              type: integer
+              format: int32
+              example: 29765
+            N_INDIVIDUOS_RESIDENT_0A4: 
+              type: integer
+              format: int32
+              example: 2548
+            N_INDIVIDUOS_RESIDENT_5A9: 
+              type: integer
+              format: int32
+              example: 2702
+            N_INDIVIDUOS_RESIDENT_10A13: 
+              type: integer
+              format: int32
+              example: 2319
+            N_INDIVIDUOS_RESIDENT_14A19: 
+              type: integer
+              format: int32
+              example: 3409
+            N_INDIVIDUOS_RESIDENT_15A19: 
+              type: integer
+              format: int32
+              example: 2830
+            N_INDIVIDUOS_RESIDENT_20A24: 
+              type: integer
+              format: int32
+              example: 3065
+            N_INDIVIDUOS_RESIDENT_20A64: 
+              type: integer
+              format: int32
+              example: 34451
+            N_INDIVIDUOS_RESIDENT_25A64: 
+              type: integer
+              format: int32
+              example: 31386
+            N_INDIVIDUOS_RESIDENT_65: 
+              type: integer
+              format: int32
+              example: 11167
+            N_INDIVIDUOS_RESIDENT_H_0A4: 
+              type: integer
+              format: int32
+              example: 1329
+            N_INDIVIDUOS_RESIDENT_H_5A9: 
+              type: integer
+              format: int32
+              example: 1398
+            N_INDIVIDUOS_RESIDENT_H_10A13: 
+              type: integer
+              format: int32
+              example: 1201
+            N_INDIVIDUOS_RESIDENT_H_14A19: 
+              type: integer
+              format: int32
+              example: 1729
+            N_INDIVIDUOS_RESIDENT_H_15A19: 
+              type: integer
+              format: int32
+              example: 1433
+            N_INDIVIDUOS_RESIDENT_H_20A24: 
+              type: integer
+              format: int32
+              example: 1497
+            N_INDIVIDUOS_RESIDENT_H_20A64: 
+              type: integer
+              format: int32
+              example: 16495
+            N_INDIVIDUOS_RESIDENT_H_25A64: 
+              type: integer
+              format: int32
+              example: 14998
+            N_INDIVIDUOS_RESIDENT_H_65: 
+              type: integer
+              format: int32
+              example: 4679
+            N_INDIVIDUOS_RESIDENT_M_0A4: 
+              type: integer
+              format: int32
+              example: 1219
+            N_INDIVIDUOS_RESIDENT_M_5A9: 
+              type: integer
+              format: int32
+              example: 1304
+            N_INDIVIDUOS_RESIDENT_M_10A13: 
+              type: integer
+              format: int32
+              example: 1118
+            N_INDIVIDUOS_RESIDENT_M_14A19: 
+              type: integer
+              format: int32
+              example: 1680
+            N_INDIVIDUOS_RESIDENT_M_15A19: 
+              type: integer
+              format: int32
+              example: 1397
+            N_INDIVIDUOS_RESIDENT_M_20A24: 
+              type: integer
+              format: int32
+              example: 1568
+            N_INDIVIDUOS_RESIDENT_M_20A64: 
+              type: integer
+              format: int32
+              example: 17956
+            N_INDIVIDUOS_RESIDENT_M_25A64: 
+              type: integer
+              format: int32
+              example: 16388
+            N_INDIVIDUOS_RESIDENT_M_65: 
+              type: integer
+              format: int32
+              example: 6488
+            N_INDIV_RESIDENT_N_LER_ESCRV: 
+              type: integer
+              format: int32
+              example: 2844
+            N_IND_RESIDENT_FENSINO_1BAS: 
+              type: integer
+              format: int32
+              example: 2373
+            N_IND_RESIDENT_FENSINO_2BAS: 
+              type: integer
+              format: int32
+              example: 1334
+            N_IND_RESIDENT_FENSINO_3BAS: 
+              type: integer
+              format: int32
+              example: 2179
+            N_IND_RESIDENT_FENSINO_SEC: 
+              type: integer
+              format: int32
+              example: 2204
+            N_IND_RESIDENT_FENSINO_POSSEC: 
+              type: integer
+              format: int32
+              example: 85
+            N_IND_RESIDENT_FENSINO_SUP: 
+              type: integer
+              format: int32
+              example: 2879
+            N_IND_RESIDENT_ENSINCOMP_1BAS: 
+              type: integer
+              format: int32
+              example: 12069
+            N_IND_RESIDENT_ENSINCOMP_2BAS: 
+              type: integer
+              format: int32
+              example: 6644
+            N_IND_RESIDENT_ENSINCOMP_3BAS: 
+              type: integer
+              format: int32
+              example: 9093
+            N_IND_RESIDENT_ENSINCOMP_SEC: 
+              type: integer
+              format: int32
+              example: 9078
+            N_IND_RESIDENT_ENSINCOMP_POSEC: 
+              type: integer
+              format: int32
+              example: 508
+            N_IND_RESIDENT_ENSINCOMP_SUP: 
+              type: integer
+              format: int32
+              example: 8955
+            N_IND_RESID_DESEMP_PROC_1EMPRG: 
+              type: integer
+              format: int32
+              example: 577
+            N_IND_RESID_DESEMP_PROC_EMPRG: 
+              type: integer
+              format: int32
+              example: 2349
+            N_IND_RESID_EMPREGADOS: 
+              type: integer
+              format: int32
+              example: 24742
+            N_IND_RESID_PENS_REFORM: 
+              type: integer
+              format: int32
+              example: 13759
+            N_IND_RESID_SEM_ACT_ECON: 
+              type: integer
+              format: int32
+              example: 20780
+            N_IND_RESID_EMPREG_SECT_PRIM: 
+              type: integer
+              format: int32
+              example: 1039
+            N_IND_RESID_EMPREG_SECT_SEQ: 
+              type: integer
+              format: int32
+              example: 4350
+            N_IND_RESID_EMPREG_SECT_TERC: 
+              type: integer
+              format: int32
+              example: 19353
+            N_IND_RESID_ESTUD_MUN_RESID: 
+              type: integer
+              format: int32
+              example: 11325
+            N_IND_RESID_TRAB_MUN_RESID: 
+              type: integer
+              format: int32
+              example: 22177
+        censos2021: 
+          type: object
+          properties: 
+            N_EDIFICIOS_CLASSICOS: 
+              type: integer
+              format: int32
+              example: 20823
+            N_ALOJAMENTOS: 
+              type: integer
+              format: int32
+              example: 29836
+            N_AGREGADOS: 
+              type: integer
+              format: int32
+              example: 22410
+            N_INDIVIDUOS_RESIDENT: 
+              type: integer
+              format: int32
+              example: 53591
+        geojson: 
+          type: object
+
+    distritoAltimetria:
+      type: object
+      properties:
+        altitude: 
+          type: object
+          properties: 
+            url_geotiff: 
+              type: string
+              example: http://geoapi.pt/geotiff/districts/11.tif
+            altitude_maxima:
+              type: number
+              example: 321
+            altitude_minima:
+              type: number
+              example: 0
+            diferencial_de_altitude:
+              type: number
+              example: 321
+        distrito: 
+          type: string
+          example: Porto
+        codigoine: 
+          type: string
+          example: '11'
+        geojson: 
+          type: object
+
     municipio:
       type: object
       properties:
@@ -6539,7 +7084,63 @@ paths:
             application/json:
               schema:
                 type: string
-                
+
+  /distrito/{distrito}:
+    get:
+      operationId: getDistrict
+      summary: Dados do Distrito
+      parameters:
+        - in: path
+          name: distrito
+          required: true
+          schema:
+            type: string
+            example: porto
+          allowReserved: true
+          description: Distrito
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Detalhes do Distrito
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/distrito'
+        '404':
+          description: Distrito não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
+
+  /distrito/{distrito}/altimetria:
+    get:
+      operationId: getDistrictAltimetry
+      summary: Altimetria do Distrito
+      parameters:
+        - in: path
+          name: distrito
+          required: true
+          schema:
+            type: string
+            example: porto
+          allowReserved: true
+          description: Distrito
+        - $ref: '#/components/parameters/json'
+      responses:
+        '200':
+          description: Detalhes do Distrito
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/distritoAltimetria'
+        '404':
+          description: Distrito não encontrado
+          content:
+            application/json:
+              schema:
+                type: string
+
   /distrito/{distrito}/municipios:
     get:
       operationId: getMunicipalitiesOfDistrict
