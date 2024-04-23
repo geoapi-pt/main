@@ -42,6 +42,10 @@ module.exports = async () => {
         {
           test: /\.png/,
           type: 'asset/resource'
+        },
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader']
         }
       ]
     },
@@ -66,24 +70,6 @@ module.exports = async () => {
           },
           {
             from: path.posix.join('css', '**/*'),
-            context: srcDir,
-            transform: minifyCss
-          },
-          {
-            from: require.resolve('bootstrap/dist/css/bootstrap.css'),
-            to: path.join('css', '[name].css'),
-            context: srcDir,
-            transform: minifyCss
-          },
-          {
-            from: require.resolve('leaflet/dist/leaflet.css'),
-            to: path.join('css', '[name].css'),
-            context: srcDir,
-            transform: minifyCss
-          },
-          {
-            from: require.resolve('leaflet-contextmenu/dist/leaflet.contextmenu.css'),
-            to: path.join('css', '[name].css'),
             context: srcDir,
             transform: minifyCss
           }, {

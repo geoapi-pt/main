@@ -1,5 +1,6 @@
 /* global L */
 import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { mobileCheck } from '../functions.js'
 import * as mapFunctions from '../map/map-functions.js'

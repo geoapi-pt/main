@@ -1,7 +1,12 @@
 /* global L */
 
+import 'leaflet/dist/leaflet.css'
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'
 import 'leaflet/dist/leaflet'
+import 'leaflet-defaulticon-compatibility'
+
 import 'leaflet-contextmenu/dist/leaflet.contextmenu'
+import 'leaflet-contextmenu/dist/leaflet.contextmenu.min.css'
 
 import * as topojsonServer from 'topojson-server/dist/topojson-server'
 import * as topojsonClient from 'topojson-client/dist/topojson-client'
