@@ -1,6 +1,6 @@
 /* global L, fetch */
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import '../components.js'
+
 import { mobileCheck, jsonFetchOptions } from '../functions.js'
 import * as mapFunctions from '../map/map-functions.js'
 

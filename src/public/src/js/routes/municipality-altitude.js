@@ -1,6 +1,6 @@
 /* global L, fetch, parseGeoraster, GeoRasterLayer */
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import '../components.js'
+
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import * as mapFunctions from '../map/map-functions.js'
 import { mobileCheck } from '../functions.js'

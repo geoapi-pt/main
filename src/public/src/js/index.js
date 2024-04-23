@@ -1,6 +1,6 @@
 /* global L, fetch */
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './components.js'
+
 import './index/getDistrictInfo.js'
 import './index/getMunicipalityInfo.js'
 import './index/getParishInfo.js'
@@ -8,6 +8,7 @@ import './index/getPostalCodesInfo.js'
 import './index/getLocationInfo.js'
 
 import { mobileCheck, jsonFetchOptions } from './functions.js'
+import { setLayers } from './map/leafletLayers.js'
 import * as mapFunctions from './map/map-functions.js'
 
 const indexDataDomEl = document.getElementById('index-route-data')
@@ -39,10 +40,7 @@ const corner2 = L.latLng(
 const bounds = L.latLngBounds(corner1, corner2)
 map.fitBounds(bounds)
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map)
+setLayers(L, map)
 
 // control that shows state info on hover
 const info = L.control()

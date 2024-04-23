@@ -1,6 +1,4 @@
 const path = require('path')
-const cssnano = require('cssnano')
-const postcss = require('postcss')
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 const webpack = require('webpack')
@@ -46,6 +44,10 @@ module.exports = async () => {
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader']
+        },
+        {
+          test: /\.(woff|woff2|eot|ttf|otf)$/i,
+          type: 'asset/resource'
         }
       ]
     },
@@ -65,14 +67,6 @@ module.exports = async () => {
             context: srcDir
           },
           {
-            from: path.posix.join('fonts', '**/*'),
-            context: srcDir
-          },
-          {
-            from: path.posix.join('css', '**/*'),
-            context: srcDir,
-            transform: minifyCss
-          }, {
             from: path.posix.join('*'),
             to: 'docs',
             context: docsDir
@@ -99,14 +93,4 @@ module.exports = async () => {
       console.log(colors.green('\nFront-end assets built into ' + path.relative(appRoot.path, destDir)))
     }
   })
-}
-
-function minifyCss (content, path) {
-  return postcss([cssnano])
-    .process(content, {
-      from: path
-    })
-    .then((result) => {
-      return result.css
-    })
 }
