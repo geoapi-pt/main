@@ -1,6 +1,4 @@
 /* global fetch, Option */
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 // selects
 const selectMunicipality = document.getElementById('select-municipality-on-parish-info')
 const selectFreguesia = document.getElementById('select-parish-on-parish-info')

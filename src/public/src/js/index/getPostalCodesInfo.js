@@ -1,6 +1,4 @@
 /* global fetch */
-import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
 const inputCodigoPostal = document.getElementById('postal-code-input')
 const getPostalCodeInfoBtn = document.getElementById('get-postal-code-info-button')
 
