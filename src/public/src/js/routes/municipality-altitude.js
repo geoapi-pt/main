@@ -2,6 +2,7 @@
 import '../components.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
 import { mobileCheck } from '../functions.js'
 
@@ -24,11 +25,6 @@ const corner2 = L.latLng(bbox[3], bbox[2])
 const bounds = L.latLngBounds(corner1, corner2)
 map.fitBounds(bounds)
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '© OpenStreetMap | <a href="https://spacedata.copernicus.eu/">Copernicus DEM</a>'
-}).addTo(map)
-
 // path /geotiff maps to directory resources/res/altimetria/tif/regions/
 const urlToGeoTiff = `/geotiff/municipalities/${municipalityData.codigoine.padStart(4, 0)}.tif`
 
@@ -40,11 +36,14 @@ fetch(urlToGeoTiff)
       const max = Math.round(georaster.maxs[0])
       const elevationColor = ColorRampCollection.EARTH.scale(min < 0 ? 0 : min, max)
 
+      setLayers(L, map)
+
       const layer = new GeoRasterLayer({
         georaster: georaster,
         opacity: 0.8,
         pixelValuesToColorFn: vals => vals[0] && vals[0] >= 0 ? elevationColor.getColorHex(Math.round(vals[0])) : null,
-        resolution: 512 // optional parameter for adjusting display resolution
+        resolution: 512, // optional parameter for adjusting display resolution
+        zIndex: 99
       }).addTo(map)
 
       map.fitBounds(layer.getBounds())

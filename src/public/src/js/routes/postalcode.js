@@ -2,6 +2,7 @@
 import '../components.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
 
 const postcodeDataDomEl = document.getElementById('postcode-data')
@@ -34,10 +35,7 @@ if (
     ], { padding: [30, 30] })
   }
 
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '© OpenStreetMap'
-  }).addTo(map);
+  setLayers(L, map);
 
   ['centroide', 'centroDeMassa', 'centro'].forEach(el => {
     if (postcodeData[el]) {

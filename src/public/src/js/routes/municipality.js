@@ -2,6 +2,7 @@
 import '../components.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
 
 const municipalityDataDomEl = document.getElementById('municipality-route-data')
@@ -41,10 +42,7 @@ map.fitBounds(bounds);
   .addTo(map)
   .bindPopup('Centro médio.')
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '© OpenStreetMap'
-}).addTo(map)
+setLayers(L, map)
 
 L.geoJSON(municipalityData.geojsons.municipio, {
   style: {

@@ -2,6 +2,7 @@
 import '../components.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
+import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
 
 const subsectionDataDomEl = document.getElementById('subsection-route-data')
@@ -20,10 +21,7 @@ const corner2 = L.latLng(bbox[3], bbox[2])
 const bounds = L.latLngBounds(corner1, corner2)
 map.fitBounds(bounds)
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '© OpenStreetMap'
-}).addTo(map)
+setLayers(L, map)
 
 L.geoJSON(subsectionData.geojson, {
   style: {

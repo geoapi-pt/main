@@ -1,6 +1,7 @@
 /* global L, fetch */
 import '../components.js'
 
+import { setLayers } from '../map/leafletLayers.js'
 import { mobileCheck, jsonFetchOptions } from '../functions.js'
 import * as mapFunctions from '../map/map-functions.js'
 
@@ -29,10 +30,7 @@ const corner2 = L.latLng(
 const bounds = L.latLngBounds(corner1, corner2)
 map.fitBounds(bounds)
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map)
+setLayers(L, map)
 
 // control that shows state info on hover
 const info = L.control()
