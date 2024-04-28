@@ -1,4 +1,6 @@
 
+import Cookies from 'js-cookie'
+
 export function setLayers (L, map) {
   const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -27,5 +29,11 @@ export function setLayers (L, map) {
 
   L.control.layers(baseMaps, null, { position: 'topleft' }).addTo(map)
 
-  osm.addTo(map)
+  // openTopoMap.addTo(map)
+  const mapLayer = Cookies.get('map_layer') ? baseMaps[Cookies.get('map_layer')] : osm
+  mapLayer.addTo(map)
+
+  map.on('baselayerchange', (e) => {
+    Cookies.set('map_layer', e.name)
+  })
 }
