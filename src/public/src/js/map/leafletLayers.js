@@ -27,7 +27,7 @@ export function setLayers (L, map) {
     'Open Topo Map': openTopoMap
   }
 
-  L.control.layers(baseMaps, null, { position: 'topleft' }).addTo(map)
+  L.control.layers(baseMaps, null, { position: 'bottomright' }).addTo(map)
 
   // openTopoMap.addTo(map)
   const mapLayer = Cookies.get('map_layer') ? baseMaps[Cookies.get('map_layer')] : osm
