@@ -3,6 +3,7 @@ const colors = require('colors/safe')
 const appRoot = require('app-root-path')
 const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const commonsDir = path.join(appRoot.path, '..', 'resources', 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
@@ -43,7 +44,7 @@ module.exports = async () => {
         },
         {
           test: /\.css$/i,
-          use: ['style-loader', 'css-loader']
+          use: [MiniCssExtractPlugin.loader, 'css-loader']
         },
         {
           test: /\.(woff|woff2|eot|ttf|otf)$/i,
@@ -52,6 +53,9 @@ module.exports = async () => {
       ]
     },
     plugins: [
+      new MiniCssExtractPlugin({
+        filename: 'css/[name].css'
+      }),
       new CopyPlugin({
         patterns: [
           {
