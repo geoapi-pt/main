@@ -5,6 +5,7 @@
     "args" : "--port=4057 --rateLimit --buildFeAssets",
     "wait_ready" : true,
     "listen_timeout" : 50000,
+    "kill_timeout" : 10000,
     "watch" : false,
     "instances" : 4,
     "exec_mode" : "cluster",
