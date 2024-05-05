@@ -4,6 +4,7 @@ const appRoot = require('app-root-path')
 const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 
 const commonsDir = path.join(appRoot.path, '..', 'resources', 'routines', 'commons')
 const { getFiles } = require(path.join(commonsDir, 'file.js'))
@@ -50,6 +51,12 @@ module.exports = async () => {
           test: /\.(woff|woff2|eot|ttf|otf)$/i,
           type: 'asset/resource'
         }
+      ]
+    },
+    optimization: {
+      minimizer: [
+        '...', // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin` for JS minification)
+        new CssMinimizerPlugin()
       ]
     },
     plugins: [
