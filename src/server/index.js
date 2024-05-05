@@ -137,8 +137,9 @@ function startServer (callback) {
 
   shieldsioCounters.setTimers()
 
+  let dbPool
   if (argvOptions.rateLimit) {
-    rateLimiter.init({ defaultOrigin })
+    dbPool = rateLimiter.init({ defaultOrigin })
   }
 
   app.get('/', (req, res) => {
@@ -205,6 +206,6 @@ function startServer (callback) {
   })
 
   // gracefully exiting upon CTRL-C or when PM2 stops the process
-  process.on('SIGINT', (signal) => shutdownServer(signal, server))
-  process.on('SIGTERM', (signal) => shutdownServer(signal, server))
+  process.on('SIGINT', (signal) => shutdownServer(signal, server, dbPool))
+  process.on('SIGTERM', (signal) => shutdownServer(signal, server, dbPool))
 }

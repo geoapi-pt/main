@@ -24,6 +24,8 @@ module.exports = {
       legacyHeaders: false, // Disable the `X-RateLimit-*` headers
       message: `You have reached the limit of requests, please refer to ${defaultOrigin}/self-hosting or ${defaultOrigin}/request-api-key for unlimited use of this API`
     })
+
+    return dbPool
   },
   middleware: ({ filename }) =>
     (req, res, next) => {
