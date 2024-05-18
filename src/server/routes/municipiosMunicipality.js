@@ -34,7 +34,7 @@ async function routeFn (req, res, next, { administrations }) {
   // ### validate request query ###
   // check if all parameters of request exist in municipalitiesDetails
   const keysOfMunicipalitiesDetails = administrations.keysOfMunicipalitiesDetails
-  const allowableQueryParams = keysOfMunicipalitiesDetails.concat('json', 'key')
+  const allowableQueryParams = keysOfMunicipalitiesDetails.concat('json', 'key', 'mapa')
 
   const invalidParameters = []
   for (const param in req.query) {

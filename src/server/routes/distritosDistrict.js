@@ -25,7 +25,7 @@ function routeFn (req, res, next, { administrations }) {
   }
 
   // ### validate request query ###
-  const allowableQueryParams = ['nome', 'json', 'key']
+  const allowableQueryParams = ['nome', 'json', 'key', 'mapa']
 
   const invalidParameters = []
   for (const param in req.query) {

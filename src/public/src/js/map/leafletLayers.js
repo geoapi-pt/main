@@ -1,4 +1,6 @@
 
+/* global history */
+
 import Cookies from 'js-cookie'
 
 export function setLayers (L, map) {
@@ -29,11 +31,45 @@ export function setLayers (L, map) {
 
   L.control.layers(baseMaps, null, { position: 'bottomright' }).addTo(map)
 
-  // openTopoMap.addTo(map)
-  const mapLayer = Cookies.get('map_layer') ? baseMaps[Cookies.get('map_layer')] : osm
+  let mapLayer
+  const urlParams = new URLSearchParams(window.location.search)
+  const mapQueryParam = urlParams.get('mapa')
+  if (mapQueryParam) {
+    if (baseMaps[mapQueryParam]) {
+      mapLayer = baseMaps[mapQueryParam]
+    } else {
+      const mapName = Object.keys(baseMaps)[parseInt(mapQueryParam)]
+      if (mapName) {
+        mapLayer = baseMaps[mapName]
+        setUrlQueryParam(baseMaps, 'mapa', mapName)
+      } else {
+        mapLayer = osm
+        setUrlQueryParam(baseMaps, 'mapa', 'Open Street Map')
+      }
+    }
+  } else if (Cookies.get('mapa') && baseMaps[Cookies.get('mapa')]) {
+    const mapName = Cookies.get('mapa')
+    mapLayer = baseMaps[mapName]
+    setUrlQueryParam(baseMaps, 'mapa', mapName)
+  } else {
+    mapLayer = osm
+    setUrlQueryParam(baseMaps, 'mapa', 'Open Street Map')
+  }
+
   mapLayer.addTo(map)
 
   map.on('baselayerchange', (e) => {
-    Cookies.set('map_layer', e.name)
+    // set cookies
+    Cookies.set('mapa', e.name)
+    // update URL
+    setUrlQueryParam(baseMaps, 'mapa', e.name)
   })
+}
+
+function setUrlQueryParam (baseMaps, param, value) {
+  if ('URLSearchParams' in window) {
+    const url = new URL(window.location)
+    url.searchParams.set(param, encodeURIComponent(Object.keys(baseMaps).indexOf(value)))
+    history.pushState(null, '', url)
+  }
 }

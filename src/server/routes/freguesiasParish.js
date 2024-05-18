@@ -22,7 +22,7 @@ function routeFn (req, res, next, { administrations }) {
   // ### validate request query ###
   // check if all parameters of request exist in parishesDetails
   const keysOfParishesDetails = administrations.keysOfParishesDetails
-  const allowableQueryParams = keysOfParishesDetails.concat('json', 'key')
+  const allowableQueryParams = keysOfParishesDetails.concat('json', 'key', 'mapa')
 
   const invalidParameters = []
   for (const param in req.query) {
