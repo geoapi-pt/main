@@ -10,3 +10,7 @@ import 'bootstrap'
 import 'leaflet/dist/leaflet'
 import 'leaflet-defaulticon-compatibility'
 import 'leaflet-contextmenu/dist/leaflet.contextmenu'
+
+import * as Shareon from 'shareon'
+import 'shareon/css'
+Shareon.init()
