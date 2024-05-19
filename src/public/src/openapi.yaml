@@ -7095,7 +7095,16 @@ paths:
           required: true
           schema:
             type: string
-            example: porto
+          examples:
+            porto:
+              value: porto
+              summary: distrito do Porto
+            azores:
+              value: 'R. A. Açores'
+              summary: Região Autonómica dos Açores
+            madeira:
+              value: 'R. A. Madeira'
+              summary: Região Autonómica da Madeira
           allowReserved: true
           description: Distrito
         - $ref: '#/components/parameters/json'

@@ -1,7 +1,6 @@
 /* get all paths present in openapi.yaml file based on paths and provided example values */
 
 const fs = require('fs')
-const path = require('path')
 const YAML = require('yaml')
 
 module.exports = getOpenApiTestPaths
