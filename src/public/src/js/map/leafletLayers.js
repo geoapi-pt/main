@@ -38,7 +38,7 @@ export function setLayers (L, map) {
     if (baseMaps[mapQueryParam]) {
       mapLayer = baseMaps[mapQueryParam]
     } else {
-      const mapName = Object.keys(baseMaps)[parseInt(mapQueryParam)]
+      const mapName = Object.keys(baseMaps)[parseInt(mapQueryParam) - 1]
       if (mapName) {
         mapLayer = baseMaps[mapName]
         setUrlQueryParam(baseMaps, 'mapa', mapName)
@@ -69,7 +69,7 @@ export function setLayers (L, map) {
 function setUrlQueryParam (baseMaps, param, value) {
   if ('URLSearchParams' in window) {
     const url = new URL(window.location)
-    url.searchParams.set(param, encodeURIComponent(Object.keys(baseMaps).indexOf(value)))
+    url.searchParams.set(param, encodeURIComponent(Object.keys(baseMaps).indexOf(value) + 1))
     history.pushState(null, '', url)
   }
 }
