@@ -3,13 +3,10 @@
 const fs = require('fs')
 const path = require('path')
 const YAML = require('yaml')
-const appRoot = require('app-root-path')
-
-const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
 
 module.exports = getOpenApiTestPaths
 
-function getOpenApiTestPaths () {
+function getOpenApiTestPaths (openapiFilePath) {
   const openAPIObj = YAML.parse(fs.readFileSync(openapiFilePath, 'utf8'))
 
   let pathsToTest = []
@@ -60,4 +57,6 @@ function getOpenApiTestPaths () {
 }
 
 // uncomment for tests
-// console.log(getOpenApiTestPaths())
+// const appRoot = require('app-root-path')
+// const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
+// console.log(getOpenApiTestPaths(openapiFilePath))

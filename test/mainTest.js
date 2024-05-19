@@ -323,8 +323,10 @@ function testSomeGpsCoordinates (mainCallback) {
 
 function testOpenApiPathsHtml (mainCallback) {
   console.log('\nTest OpenAPI routes with HTML request')
+  const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
+
   async.each(
-    require(path.join(__dirname, 'openApiPaths'))(),
+    require(path.join(__dirname, 'openApiPaths'))(openapiFilePath),
     function (urlAbsolutePath, eachCallback) {
       const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
       got(url)
