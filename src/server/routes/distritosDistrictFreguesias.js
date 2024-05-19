@@ -25,11 +25,33 @@ function routeFn (req, res, next, { administrations }) {
     if (results.length === 1) {
       const result = results[0]
 
-      const districtGeojsons = JSON.parse(
-        fs.readFileSync(
-          path.join(districtsGeojsonDir, result.codigoine.toString().padStart(2, '0') + '.json')
+      let districtGeojsons
+      if (!Array.isArray(result.codigoine)) {
+        districtGeojsons = JSON.parse(
+          fs.readFileSync(
+            path.join(districtsGeojsonDir, result.codigoine.toString().padStart(2, '0') + '.json')
+          )
         )
-      )
+      } else if (Array.isArray(result.codigoine) && result.codigoine.length === 1) {
+        districtGeojsons = JSON.parse(
+          fs.readFileSync(
+            path.join(districtsGeojsonDir, result.codigoine[0].toString().padStart(2, '0') + '.json')
+          )
+        )
+      } else if (Array.isArray(result.codigoine) && result.codigoine.length > 1) {
+        // result.codigoine is an Array for Madeira and Azores
+        districtGeojsons = {
+          freguesias: []
+        }
+        for (const codigoine of result.codigoine) {
+          const geoJSON = JSON.parse(
+            fs.readFileSync(
+              path.join(districtsGeojsonDir, codigoine.toString().padStart(2, '0') + '.json')
+            )
+          )
+          districtGeojsons.freguesias.push(...geoJSON.freguesias)
+        }
+      }
 
       if (districtGeojsons) {
         delete districtGeojsons.municipios

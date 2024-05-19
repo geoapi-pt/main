@@ -15,18 +15,9 @@ console.log('geojsons:', geojsons)
 
 const parishesGeoJsonFeatureCollection = mapFunctions.getGeojsonFeatureCollection(geojsons.freguesias)
 
-const centros = geojsons.distrito.properties.centros
-const centro = centros.centro
-
-const map = L.map('map', leafletContextmenu.mapOtions).setView([centro[1], centro[0]], 16)
+const map = L.map('map', leafletContextmenu.mapOtions)
 leafletContextmenu.setMap(map)
 mapFunctions.setMap(map)
-
-const bbox = geojsons.distrito.bbox
-const corner1 = L.latLng(bbox[1], bbox[0])
-const corner2 = L.latLng(bbox[3], bbox[2])
-const bounds = L.latLngBounds(corner1, corner2)
-map.fitBounds(bounds)
 
 setLayers(L, map)
 
@@ -60,6 +51,8 @@ const geojsonLayer = L.geoJson(parishesGeoJsonFeatureCollection, {
   style: mapFunctions.style,
   onEachFeature
 }).addTo(map)
+
+map.fitBounds(geojsonLayer.getBounds())
 
 function onEachFeature (feature, layer) {
   layer.on({

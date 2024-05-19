@@ -337,12 +337,24 @@ function buildsAdministrationsDistrictsArrays (callback) {
     })
 
     district.distrito = correctCase(district.distrito)
-
+    // district.codigoine is an Array
     if (district.codigoine.length === 1) {
       district.codigoine = district.codigoine[0].padStart(2, '0')
       district.geojson = JSON.parse(
         fs.readFileSync(path.join(resDir, 'geojson', 'districts', district.codigoine + '.json'))
       ).distrito
+    } else {
+      // Madeira and Azores are spread amongst different 2-code INE codes
+      const polygons = []
+      for (const codigoine of district.codigoine) {
+        const codigoine_ = codigoine.padStart(2, '0')
+        const geojson = JSON.parse(
+          fs.readFileSync(path.join(resDir, 'geojson', 'districts', codigoine_ + '.json'))
+        ).distrito
+        polygons.push(geojson)
+      }
+      const union = polygons.reduce((a, b) => turf.union(a, b), polygons[0])
+      district.geojson = union
     }
   }
 
