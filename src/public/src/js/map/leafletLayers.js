@@ -2,6 +2,7 @@
 /* global history */
 
 import Cookies from 'js-cookie'
+import * as Shareon from 'shareon'
 
 export function setLayers (L, map) {
   const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -71,5 +72,6 @@ function setUrlQueryParam (baseMaps, param, value) {
     const url = new URL(window.location)
     url.searchParams.set(param, encodeURIComponent(Object.keys(baseMaps).indexOf(value) + 1))
     history.pushState(null, '', url)
+    Shareon.init()
   }
 }
