@@ -38,19 +38,19 @@ function getOpenApiTestPaths () {
       }
     } else { // path has path parameters, ex: /gps/{coordenadas}
       const parameters = openAPIObj.paths[path].get.parameters
-      let parsedPath = urlPath
       parameters.forEach(parameter => {
         if (parameter.in === 'path') {
           if (!parameter.examples) {
-            parsedPath = parsedPath.replace(`{${parameter.name}}`, parameter.schema.example)
+            const parsedPath = urlPath.replace(`{${parameter.name}}`, parameter.schema.example)
+            pathsToTest.push(parsedPath)
           } else {
-            const examplesKeys = Object.keys(parameter.examples)
-            const randomExampleIndex = Math.floor(Math.random() * examplesKeys.length)
-            parsedPath = parsedPath.replace(`{${parameter.name}}`, parameter.examples[examplesKeys[randomExampleIndex]].value)
+            for (const example in parameter.examples) {
+              const parsedPath = urlPath.replace(`{${parameter.name}}`, parameter.examples[example].value)
+              pathsToTest.push(parsedPath)
+            }
           }
         }
       })
-      pathsToTest.push(parsedPath)
     }
   }
 
