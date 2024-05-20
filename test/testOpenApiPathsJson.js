@@ -1,11 +1,14 @@
 const got = require('got')
 const path = require('path')
 const async = require('async')
+const appRoot = require('app-root-path')
 
 module.exports = TEST_PORT => mainCallback => {
   console.log('Test OpenAPI routes with JSON request')
+  const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
+
   async.each(
-    require(path.join(__dirname, 'openApiPaths'))(),
+    require(path.join(__dirname, 'openApiPaths'))(openapiFilePath),
     function (urlAbsolutePath, eachCallback) {
       const url = encodeURI(`http://localhost:${TEST_PORT}${urlAbsolutePath}`)
       got(url).json()
