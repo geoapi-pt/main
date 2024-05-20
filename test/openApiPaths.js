@@ -32,21 +32,34 @@ function getOpenApiTestPaths (openapiFilePath) {
       } else { // no parameters at all
         pathsToTest.push(urlPath)
       }
-    } else { // path has path parameters, ex: /gps/{coordenadas}
-      const parameters = openAPIObj.paths[path].get.parameters
+    } else { // path has path parameters, ex: /coordinates/{lat},{lon}
+      let parsedPaths = [urlPath] // ex: /coordinates/{lat},{lon}
+      const parameters = openAPIObj.paths[path].get.parameters // ex: Array [lat, lon]
+
       parameters.forEach(parameter => {
         if (parameter.in === 'path') {
           if (!parameter.examples) {
-            const parsedPath = urlPath.replace(`{${parameter.name}}`, parameter.schema.example)
-            pathsToTest.push(parsedPath)
+            // one example
+            parsedPaths = parsedPaths.map(path => path.replace(`{${parameter.name}}`, parameter.schema.example))
           } else {
-            for (const example in parameter.examples) {
-              const parsedPath = urlPath.replace(`{${parameter.name}}`, parameter.examples[example].value)
-              pathsToTest.push(parsedPath)
+            // several examples, consider them all by
+            // multiply/replicate parsedPaths by length of parameter.examples
+            const examplesObj = parameter.examples
+            const nbrExamples = Object.keys(examplesObj).length
+            const parsedPathsTmp = parsedPaths
+            for (let i = 0; i < nbrExamples - 1; i++) {
+              parsedPaths = parsedPaths.concat(parsedPathsTmp)
             }
+            parsedPaths = parsedPaths.map((path, i) =>
+              path.replace(
+              `{${parameter.name}}`,
+              examplesObj[Object.keys(examplesObj)[i % nbrExamples]].value
+              )
+            )
           }
         }
       })
+      pathsToTest.push(...parsedPaths)
     }
   }
 
@@ -56,6 +69,7 @@ function getOpenApiTestPaths (openapiFilePath) {
 }
 
 // uncomment for tests
+// const path = require('path')
 // const appRoot = require('app-root-path')
 // const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
 // console.log(getOpenApiTestPaths(openapiFilePath))
