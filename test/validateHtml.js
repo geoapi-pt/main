@@ -12,6 +12,7 @@ const async = require('async')
 const got = require('got')
 const colors = require('colors')
 const util = require('util')
+const appRoot = require('app-root-path')
 const ProgressBar = require('progress')
 const debug = require('debug')('test:validateHtml')
 
@@ -27,7 +28,8 @@ const htmlvalidate = new HTMLValidate({
 const testServer = require(path.join(__dirname, 'serverForTests'))
 
 // Array of url paths whose html is to validate
-const pathnamesToValidateArr = require(path.join(__dirname, 'openApiPaths'))()
+const openapiFilePath = path.join(appRoot.path, 'src', 'public', 'src', 'openapi.yaml')
+const pathnamesToValidateArr = require(path.join(__dirname, 'openApiPaths'))(openapiFilePath)
 
 // add paths which are not in openapi.yaml because they are not API related, they are only HTML related
 pathnamesToValidateArr.push(...['/'])
