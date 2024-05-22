@@ -3,7 +3,14 @@ const path = require('path')
 const appRoot = require('app-root-path')
 const debug = require('debug')('geoapipt:server')
 
-const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+const utilsDir = path.join(appRoot.path, 'src', 'server', 'utils')
+
+const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
+
+// mapping between keys and respective description
+let keysMapping = JSON.parse(fs.readFileSync(path.join(utilsDir, 'keysMaping.json')))
+const censosKeysMaping = JSON.parse(fs.readFileSync(path.join(utilsDir, 'censosKeysMaping.json')))
+keysMapping = keysMapping.concat(censosKeysMaping)
 
 module.exports = {
   fn: routeFn,
@@ -48,9 +55,7 @@ function routeFn (req, res, next, { administrations, regions }) {
       res.status(200).sendData({
         data: { // in this particular case detailed data from districts is fetched client side
           bbox: regions.cont.geojson.bbox,
-          keysMaping: JSON.parse(fs.readFileSync(
-            path.join(appRoot.path, 'src', 'server', 'utils', 'keysMaping.json')
-          ))
+          keysMaping: keysMapping
         },
         pageTitle: 'Lista de Distritos de Portugal',
         dataToShowOnHtml: { Distritos: distritosHtml },

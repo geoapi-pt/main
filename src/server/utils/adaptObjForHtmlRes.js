@@ -9,7 +9,9 @@ const { correctCase, isValidPostalCode } = require(path.join(__dirname, 'commonF
 // Rename keys for a more user friendly html/text result
 // Mapping from JSON result to HTML view result
 // This mapping also sets the order
-const keysMapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'keysMaping.json')))
+let keysMapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'keysMaping.json')))
+const censosKeysMaping = JSON.parse(fs.readFileSync(path.join(__dirname, 'censosKeysMaping.json')))
+keysMapping = keysMapping.concat(censosKeysMaping)
 
 module.exports = (obj) => {
   loopThroughObjRecurs(obj, (_obj) => {
