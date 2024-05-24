@@ -79,7 +79,7 @@ jobs:
       - name: Install npm packages
         run: |
           cd ${GITHUB_WORKSPACE}/resources && npm ci
-          cd ${GITHUB_WORKSPACE}/main && npm ci
+          cd ${GITHUB_WORKSPACE}/main && npm ci && npm run build-docs
       - name: Main Test
         run: cd ${GITHUB_WORKSPACE}/main && npm test
 
