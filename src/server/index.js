@@ -38,6 +38,11 @@ const errorMiddleware = require(path.join(middlewaresDir, 'error.js'))
 // handlebars helpers
 const hbsHelpers = require(path.join(utilsDir, 'hbsHelpers.js'))
 
+// mapping between keys and respective description
+let keysMapping = JSON.parse(fs.readFileSync(path.join(utilsDir, 'keysMaping.json')))
+const censosKeysMaping = JSON.parse(fs.readFileSync(path.join(utilsDir, 'censosKeysMaping.json')))
+keysMapping = keysMapping.concat(censosKeysMaping)
+
 const cliOptions = [
   { name: 'port', type: Number, description: `local port to run the sever, default is ${configs.defaultHttpPort}` },
   { name: 'buildFeAssets', type: Boolean, description: 'build front-end assets before server startup' },
@@ -146,7 +151,7 @@ function startServer (callback) {
     res.status(200).sendData({
       data: {
         bbox: regions.cont.geojson.bbox,
-        keysMaping: JSON.parse(fs.readFileSync(path.join(__dirname, 'utils', 'keysMaping.json')))
+        keysMaping: keysMapping
       },
       template: 'index'
     })
