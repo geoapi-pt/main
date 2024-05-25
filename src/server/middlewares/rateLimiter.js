@@ -17,6 +17,12 @@ module.exports = {
 
     dbPool = mysql.createPool(mysqlDb)
 
+    // this is important to avoid killing the whole process in case of error
+    // see: https://github.com/mysqljs/mysql?tab=readme-ov-file#error-handling
+    dbPool.on('error', (err) => {
+      console.error('Error on database pool: ', err.code)
+    })
+
     limiter = rateLimit({
       windowMs: 1000 * 60 * 60 * 24, // 1 day
       limit: rateLimitFn, // max requests per each IP in windowMs
@@ -87,9 +93,8 @@ function isUserPremium (apiAccessKey) {
 
     dbPool.query(query, (err, results, fields) => {
       if (err) {
-        // error handling code goes here
-        console.error('Error fetching info from database: ', err)
-        reject(Error('Error fetching key from database'))
+        console.error('Error fetching info from database: ', err.code)
+        resolve(true) // not user's fault the DB is not working, assume premium
       } else {
         debug('result from db: ', results)
         if (results.length) {
