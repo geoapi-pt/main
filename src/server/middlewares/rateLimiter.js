@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const appRoot = require('app-root-path')
+const colors = require('colors/safe')
 const debug = require('debug')('geoapipt:server:rateLimiter')
 
 let mysql, mysqlDb, limiter, dbPool
@@ -21,6 +22,14 @@ module.exports = {
     // see: https://github.com/mysqljs/mysql?tab=readme-ov-file#error-handling
     dbPool.on('error', (err) => {
       console.error('Error on database pool: ', err.code)
+    })
+
+    dbPool.getConnection((err, connection) => {
+      if (err) {
+        console.error('Error getting pool connection :', err.code)
+      } else {
+        console.log(`Connection to Database ${colors.green.bold('successful')}`)
+      }
     })
 
     limiter = rateLimit({
