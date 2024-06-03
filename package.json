@@ -7,9 +7,9 @@
     "validate-openapi": "redocly lint src/public/src/openapi.yaml && lint-openapi src/public/src/openapi.yaml -e -v -r docs/ibm-lint-openapi-rules.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
     "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateGeojsons.js && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
-    "start": "node src/server/index.js --buildFeAssets",
+    "start": "npm run build-docs && node src/server/index.js --buildFeAssets",
     "build-frontend-assets": "node src/server/buildFeAssets.js",
-    "build-docs": "npm run validate-openapi && cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o dist/index.html -t redocTemplate.temp.hbs -- --features.openapi.collapseResponseSamplePanel"
+    "build-docs": "cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o dist/index.html -t redocTemplate.temp.hbs -- --features.openapi.collapseResponseSamplePanel"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "homepage": "https://geoapi.pt/",
   "dependencies": {
     "@maptiler/sdk": "^2.0.1",
+    "@redocly/cli": "^1.14.0",
     "@turf/turf": "^6.5.0",
     "app-root-path": "^3.1.0",
     "async": "^3.2.1",
@@ -73,7 +74,6 @@
   },
   "devDependencies": {
     "@mapbox/geojsonhint": "^3.2.0",
-    "@redocly/cli": "^1.11.0",
     "depcheck": "^1.4.3",
     "html-validate": "^7.8.0",
     "ibm-openapi-validator": "^0.97.3",
