@@ -1,5 +1,5 @@
 /* global L, fetch */
-import '../components.js'
+import '../components-map.js'
 
 import { setLayers } from '../map/leafletLayers.js'
 import { mobileCheck, jsonFetchOptions } from '../functions.js'

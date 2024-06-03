@@ -1,5 +1,5 @@
 /* global L, fetch */
-import './components.js'
+import './components-map.js'
 
 import './index/getDistrictInfo.js'
 import './index/getMunicipalityInfo.js'

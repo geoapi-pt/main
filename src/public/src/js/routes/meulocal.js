@@ -1,4 +1,4 @@
-import '../components.js'
+import '../components-map.js'
 
 const meulocalDataDomEl = document.getElementById('meulocal-route-data')
 const meulocalData = JSON.parse(decodeURIComponent(meulocalDataDomEl.dataset.meulocalroute))
