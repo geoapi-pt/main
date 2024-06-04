@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const express = require('express')
 const exphbs = require('express-handlebars')
+const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const async = require('async')
@@ -123,6 +124,7 @@ function startServer (callback) {
   app.use(cors())
   app.use(bodyParser.json())
   app.use(nocache())
+  app.use(cookieParser())
 
   app.use(express.text())
   app.use(express.json())
@@ -164,6 +166,13 @@ function startServer (callback) {
     res.status(200).sendData({ template: 'requestApiKey' })
   })
 
+  if (argvOptions.rateLimit) {
+    // a path to be able to receive response headers on front end
+    app.get('/rate_limiter_test_path', rateLimiter.middleware('rate_limiter_test_path'), (req, res) => {
+      res.send()
+    })
+  }
+
   shieldsioCounters.loadExpressRoutes(app)
 
   // Load Express app.get() routers paths, respective files are stored in src/server/routes/
@@ -174,7 +183,9 @@ function startServer (callback) {
         router.fn(req, res, next, { administrations, regions, appRootPath: appRoot.path, defaultOrigin })
       }
       if (argvOptions.rateLimit) {
-        app.get(router.route, rateLimiter.middleware({ filename }), routeFn)
+        // 'route' as a file in directory src/server/routes but without extension
+        const route = path.parse(filename).name
+        app.get(router.route, rateLimiter.middleware(route), routeFn)
       } else {
         app.get(router.route, routeFn)
       }

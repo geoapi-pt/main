@@ -1,0 +1,35 @@
+<div id="insert-key-popup" class="popup-overlay">
+	<div class="popup">
+		<h3>Insira a sua chave</h3>
+		<a class="close" href="#">&times;</a>
+    <div class="form-group form-inline row px-3">
+      <label for="key_text_input" class="col-1">Chave:</label>
+      <input id="key_text_input" class="form-control col-9 ml-3 w-100" type="text" placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">
+      <small class="form-text text-muted">Ao inserir a chave, aceita que a guardemos neste navegador numa <i>cookie</i></small>
+    </div>
+    <div class="form-inline">
+      <div class="form-group">
+        <label class="mr-2" for="key_cookie_time_period">Período de armazenamento da chave:</label>
+        <select class="form-control" id="key_cookie_time_period">
+          <option value="">Esta sessão</option>
+          <option value="1">1 dia</option>
+          <option value="7">1 semana</option>
+          <option value="30">1 mês</option>
+          <option value="365">1 ano</option>
+        </select>
+      </div>
+      <button id="btn_submit_key" type="submit" class="btn btn-primary ml-4">Enviar</button>
+    </div>
+    <small id="submit_key_result_text" class="form-text">&nbsp;&nbsp;&nbsp;</small>
+	</div>
+</div>
+
+<div id="remove-key-popup" class="popup-overlay">
+	<div class="popup">
+    <a class="close" href="#">&times;</a>
+    <div class="form-inline">
+      <button id="btn_remove_key" type="submit" class="btn btn-warning ml-4">Remover chave</button>
+      <small id="remove_key_result_text" class="ml-3 form-text">&nbsp;&nbsp;&nbsp;</small>
+    </div>
+	</div>
+</div>

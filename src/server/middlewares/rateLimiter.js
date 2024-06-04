@@ -1,15 +1,21 @@
 const fs = require('fs')
 const path = require('path')
+const mysql = require('mysql')
+const sqlFormatter = require('sql-formatter')
+const rateLimit = require('express-rate-limit')
 const appRoot = require('app-root-path')
 const colors = require('colors/safe')
+
+// DEBUG=geoapipt:server:rateLimiter npm start -- --rateLimit
 const debug = require('debug')('geoapipt:server:rateLimiter')
 
-let mysql, mysqlDb, limiter, dbPool
+const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
+
+let mysqlDb, limiter, dbPool, defaultOrigin
 
 module.exports = {
-  init: ({ defaultOrigin }) => {
-    mysql = require('mysql')
-    const rateLimit = require('express-rate-limit')
+  init: ({ defaultOrigin_ }) => {
+    defaultOrigin = defaultOrigin_
 
     mysqlDb = JSON.parse(
       fs.readFileSync(path.join(appRoot.path, '..', 'credentials.json'), 'utf8')
@@ -18,7 +24,7 @@ module.exports = {
 
     dbPool = mysql.createPool(mysqlDb)
 
-    // this is important to avoid killing the whole process in case of error
+    // This is important to avoid killing the whole process in case of error
     // see: https://github.com/mysqljs/mysql?tab=readme-ov-file#error-handling
     dbPool.on('error', (err) => {
       console.error('Error on database pool: ', err.code)
@@ -37,60 +43,104 @@ module.exports = {
       limit: rateLimitFn, // max requests per each IP in windowMs
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
       legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-      message: `You have reached the limit of requests, please refer to ${defaultOrigin}/self-hosting or ${defaultOrigin}/request-api-key for unlimited use of this API`
+      handler: handlerLimitReachedFn
     })
 
     return dbPool
   },
-  middleware: ({ filename }) =>
-    (req, res, next) => {
-      const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
-      if (isResponseJson(req)) {
-        const route = path.parse(filename).name // remove extension
-        // don't apply rate linmiter to these routes
-        if (
-          route === 'distritos' ||
-          route === 'codigos_postais' ||
-          route === 'municipiosFreguesias' ||
-          route === 'municipiosMunicipality' ||
-          route === 'municipiosFreguesias' ||
-          route === 'municipiosMunicipalityFreguesias'
-        ) {
-          next()
+  middleware: (route) =>
+    async (req, res, next) => {
+      debug('\n\n\n====================================', req.originalUrl, '===================================')
+
+      if (route === 'rate_limiter_test_path') {
+        // don't apply rate limiter for /rate_limiter_test_path in either JSON or HTML,
+        // but yet inform about validity of the key
+        res.header('X-API-Key-Staus', await getApiAccessKeyStatus(req))
+        next()
+      } else {
+        if (isResponseJson(req)) {
+          // don't apply rate linmiter to these JSON routes,
+          // since the main index HTML page makes several of these JSON requests
+          if (
+            route === 'distritos' ||
+            route === 'codigos_postais' ||
+            route === 'municipiosFreguesias' ||
+            route === 'municipiosMunicipality' ||
+            route === 'municipiosFreguesias' ||
+            route === 'municipiosMunicipalityFreguesias'
+          ) {
+            next()
+          } else {
+            limiter(req, res, next)
+          }
         } else {
           limiter(req, res, next)
         }
-      } else {
-        // don't apply limiter for HTML responses, just for JSON
-        next()
       }
     }
 }
 
 async function rateLimitFn (req, res) {
-  const maxRequestsPerDayForNormalUsers = 30
+  const maxRequestsPerDayForNormalUsers = 25
   const maxRequestsPerDayForPremiumUsers = 1000000
 
-  const apiAccessKey = req.query.key || req.header('X-API-Key')
-  if (!apiAccessKey) {
-    debug('no key provided')
-    res.header('X-API-Key-Staus', 'no-key-provided')
-    return maxRequestsPerDayForNormalUsers
-  }
-  try {
-    if (await isUserPremium(apiAccessKey)) {
-      debug('user is premium')
-      res.header('X-API-Key-Staus', 'authenticated')
+  const apiAccessKey = getApiAccessKey(req)
+
+  const apiAccessKeyStatus = await getApiAccessKeyStatus(req)
+  res.header('X-API-Key-Staus', apiAccessKeyStatus)
+
+  switch (apiAccessKeyStatus) {
+    case 'authenticated':
+      debug('User is PREMIUM')
+      incrementAccessKeyCount(apiAccessKey)
       return maxRequestsPerDayForPremiumUsers
-    } else {
-      debug('user is not premium')
-      res.header('X-API-Key-Staus', 'no-valid-key')
+    case 'no-key-provided':
+      debug('NO KEY provided')
       return maxRequestsPerDayForNormalUsers
+    case 'no-valid-key':
+      debug('User is NOT Premium')
+      return maxRequestsPerDayForNormalUsers
+    case 'error-fetching-key-from-db':
+      debug('Error fetching info from database')
+      return maxRequestsPerDayForNormalUsers
+    default:
+      debug('Unknown error')
+      return maxRequestsPerDayForNormalUsers
+  }
+}
+
+function handlerLimitReachedFn (req, res, next, options) {
+  res.status(options.statusCode)
+  if (isResponseJson(req)) {
+    res.json({ msg: `You have reached the limit of requests, please refer to ${defaultOrigin}/self-hosting or ${defaultOrigin}/request-api-key for unlimited use of this API` })
+  } else {
+    // 429 http response code for "too many requests"
+    res.status(429).sendData({ template: 'limitReachedApiKey' })
+  }
+}
+
+async function getApiAccessKeyStatus (req) {
+  const apiAccessKey = getApiAccessKey(req)
+  if (apiAccessKey) {
+    try {
+      if (await isUserPremium(apiAccessKey)) {
+        return 'authenticated'
+      } else {
+        return 'no-valid-key'
+      }
+    } catch {
+      return 'error-fetching-key-from-db'
     }
-  } catch {
-    debug('error fetching info from database')
-    res.header('X-API-Key-Staus', 'error-fetching-key-from-db')
-    return maxRequestsPerDayForNormalUsers
+  } else {
+    return 'no-key-provided'
+  }
+}
+
+function getApiAccessKey (req) {
+  if (isResponseJson(req)) {
+    return req.query.key || req.header('X-API-Key')
+  } else {
+    return req.header('X-API-Key') || req.cookies.key
   }
 }
 
@@ -106,12 +156,27 @@ function isUserPremium (apiAccessKey) {
         resolve(true) // not user's fault the DB is not working, assume premium
       } else {
         debug('result from db: ', results)
-        if (results.length) {
-          resolve(true)
-        } else {
-          resolve(false)
-        }
+        resolve(Boolean(results.length))
       }
     })
+  })
+}
+
+// UPDATE `geoapi.pt`.users SET `api_key_total_requests` = `api_key_total_requests` + 1 WHERE `api_access_key`='6df68f9d-33d6-4269-9264-098266b308c7';
+function incrementAccessKeyCount (apiAccessKey) {
+  const query =
+    `UPDATE \`${mysqlDb.database}\`.${mysqlDb.db_tables.users} ` +
+    `SET ${mysql.escapeId('api_key_total_requests')} = ${mysql.escapeId('api_key_total_requests')} + 1 ` +
+    `WHERE api_access_key='${apiAccessKey}'`
+
+  debug('\n', sqlFormatter.format(query), '\n')
+
+  dbPool.query(query, (err, results, fields) => {
+    if (err) {
+      console.error('Error updating counter: ', err.code)
+      debug(err)
+    } else {
+      debug('Stats Count increment OK for key: ', apiAccessKey)
+    }
   })
 }

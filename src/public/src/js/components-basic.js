@@ -1,5 +1,5 @@
 import '../css/main.css'
-import '../css/key-popup.css'
+import '../css/key-auth.css'
 import '../css/map.css'
 import '../css/footer.css'
 
