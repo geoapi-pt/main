@@ -9,18 +9,25 @@
       <span class="p-2 text-dark text-decoration-none text-nowrap">Pedidos / hora: {{{requestsLastHour}}}</span>
       <span class="p-2 text-dark text-decoration-none text-nowrap">Pedidos / dia: {{{requestsLastDay}}}</span>
    </nav>
-
-   <div class="dropdown">
-      <button class="btn btn-outline-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-         Premium
-      </button>
-      <div class="dropdown-menu dropdown-menu-right">
-         <a class="dropdown-item" href="/request-api-key">Pedir chave</a>
-         <a class="dropdown-item" href="/self-hosting">Self-hosting</a>
-         <a class="dropdown-item" href="https://stats.uptimerobot.com/rWEK3trBEP">Uptime</a>
-         <a class="dropdown-item" href="/docs">Documentação</a>
+   <nav class="key-icon-dropdown">
+      <nav class="mx-3 my-2">
+         <i class="fa-solid fa-key fa-lg"></i>
+      </nav>
+      <div class="dropdown">
+         <button class="btn btn-outline-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+            Premium
+         </button>
+         <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="/request-api-key">Pedir chave</a>
+            <a class="dropdown-item" href="#insert-key-popup">Inserir chave (neste navegador)</a>
+            <a class="dropdown-item" href="#remove-key-popup">Remover chave (deste navegador)</a>
+            <a class="dropdown-item" href="/self-hosting">Self-hosting</a>
+            <a class="dropdown-item" href="https://stats.uptimerobot.com/rWEK3trBEP">Uptime</a>
+            <a class="dropdown-item" href="/docs">Documentação</a>
+         </div>
       </div>
-   </div>
+   </nav>
 
 </div>
 
+{{> keyPopups}}

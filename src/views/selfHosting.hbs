@@ -2,7 +2,7 @@
 <html lang="pt-pt">
 <head>
    {{> htmlHead}}
-   <link rel="stylesheet" type="text/css" href="/css/import-bootstrap.js.css">
+   <link rel="stylesheet" type="text/css" href="/css/components-basic.js.css">
 </head>
 <body>
 
@@ -15,10 +15,10 @@
   </p>
   <div class="container-table100">
     <p class="text-justify lead">
-      Esta API JSON é acessível através do domínio <code>json.geoapi.pt</code> e é pública e de acesso gratuito, mas apresenta um limite conservador de 30 pedidos por dia por cada IP.
+      Esta plataforma é de acesso gratuito sendo a API JSON acessível através do domínio <code>json.geoapi.pt</code>, mas apresentam ambas um limite conservador de 25 pedidos por dia por cada IP.
     </p>
     <p class="text-justify lead">
-      Caso queira ter acesso ilimitado através de <i>self-hosting</i>, ou seja, caso queira instalar esta API na sua máquina ou no seu servidor sem qualquer limitação ou restrição, tal envolve um patrocínio no Github tendo um custo unitário e único de 99 USD.
+      Caso queira ter acesso ilimitado a ambos estes serviços através de <i>self-hosting</i>, ou seja, caso queira instalar estes serviços na sua máquina ou no seu servidor sem qualquer limitação ou restrição, tal implica um pagamento único e não-recorrente.
       A implementação é compatível com qualquer máquina (Linux, Windows ou Mac) pois é efetuada através de <i>docker</i>.
     </p>
     <p class="text-justify lead">
@@ -52,19 +52,23 @@
     </ul>
   </div>
   <div class="container-table100">
-    <p class="text-center h3">
-      Pedido da Chave
-    </p>
-    <p class="text-justify lead">
-      Para pedir a sua Chave, faça o seu patrocínio <a href="https://github.com/sponsors/jfoclpf/sponsorships?sponsor=jfoclpf&preview=true&frequency=one-time&amount=99">AQUI</a>.
-      Após fazer o seu patrocínio <a href="mailto:joao.pimentel.ferreira@gmail.com">contacte-nos</a>, reenviando-nos o seu <i>username</i> do Github, para obter a sua Chave.
-    </p>
+    <div class="mx-auto">
+      <script async
+        src="https://js.stripe.com/v3/buy-button.js">
+      </script>
+
+      <stripe-buy-button
+        buy-button-id="buy_btn_1POI3nF0K7fIozWKAynfVAS2"
+        publishable-key="pk_live_51PLNS2F0K7fIozWKusN9ZLqxyoGdErFrxcwUlWDXvTQZOHJEUUumCWfwVTCSnj8VM8sEIyyks73krTpXHgCh7rk700c06TFoKA"
+      >
+      </stripe-buy-button>
+    </div>
   </div>
 </div>
 
 {{> footer}}
 
-<script type="module" src="/js/import-bootstrap.js"></script>
+<script type="module" src="/js/components-basic.js"></script>
 
 </body>
 </html>

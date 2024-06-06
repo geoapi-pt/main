@@ -1,5 +1,6 @@
 /* global L */
-import '../components.js'
+
+import '../components-map.js'
 import '../censos-charts.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'

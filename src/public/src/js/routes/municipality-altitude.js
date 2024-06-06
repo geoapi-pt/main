@@ -1,5 +1,5 @@
 /* global L, fetch, parseGeoraster, GeoRasterLayer */
-import '../components.js'
+import '../components-map.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'
