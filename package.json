@@ -7,6 +7,7 @@
     "validate-openapi": "redocly lint src/public/src/openapi.yaml && lint-openapi src/public/src/openapi.yaml -e -v -r docs/ibm-lint-openapi-rules.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
     "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateGeojsons.js && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
+    "frontend-test": "standard && npm run depcheck && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
     "start": "npm run build-docs && node src/server/index.js --buildFeAssets",
     "build-frontend-assets": "node src/server/buildFeAssets.js",
     "build-docs": "cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o dist/index.html -t redocTemplate.temp.hbs -- --features.openapi.collapseResponseSamplePanel"
