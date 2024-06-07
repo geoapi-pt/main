@@ -26,7 +26,7 @@ const defaultOrigin = configs.defaultOrigin
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
 const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
-const shieldsioCounters = require(path.join(servicesDir, 'shieldsioCounters.js'))
+const counters = require(path.join(servicesDir, 'counters.js'))
 const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
 // middlewares
 const sendDataMiddleware = require(path.join(middlewaresDir, 'sendData.js'))
@@ -116,9 +116,9 @@ function startServer (callback) {
   app.set('trust proxy', 1)
 
   staticFiles(app)
-  app.use(sendDataMiddleware({ configs, shieldsioCounters }))
+  app.use(sendDataMiddleware({ configs, counters }))
 
-  shieldsioCounters.setTimers()
+  counters.setTimers()
 
   let dbPool
   if (argvOptions.rateLimit) {
@@ -149,7 +149,7 @@ function startServer (callback) {
     })
   }
 
-  shieldsioCounters.loadExpressRoutes(app)
+  counters.loadExpressRoutes(app)
 
   // Load Express app.get() routers paths, respective files are stored in src/server/routes/
   try {

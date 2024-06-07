@@ -8,9 +8,7 @@ module.exports = async (res, jsonObj, data, configs, shieldsioCounters) => {
     mainTitle: configs.mainTitle,
     pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
     siteDescription: configs.description,
-    jsonBeautyHtml: jsonBeautyHtml,
-    requestsLastHour: await shieldsioCounters.getRequestsLastHour(),
-    requestsLastDay: await shieldsioCounters.getRequestsLastDay()
+    jsonBeautyHtml: jsonBeautyHtml
   })
 }
 

@@ -7,7 +7,7 @@ const { JsonDB, Config } = require('node-json-db')
 
 const debug = require('debug')('geoapipt:server:counters')
 
-module.exports = { setTimers, incrementCounters, loadExpressRoutes, getRequestsLastHour, getRequestsLastDay }
+module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 
 // a JSON "database" file is saved in root project directory as counters.json
 const dbFile = path.join(appRoot.path, 'counters.json')
@@ -63,7 +63,7 @@ async function incrementCounters () {
 }
 
 function loadExpressRoutes (app) {
-  app.get('/shieldsio/requestslasthour', async function (req, res) {
+  app.get(/\/(shieldsio|counters)\/requestslasthour/, async function (req, res) {
     res.json({
       schemaVersion: 1,
       label: 'Requests on last hour',
@@ -72,7 +72,7 @@ function loadExpressRoutes (app) {
     })
   })
 
-  app.get('/shieldsio/requestslastday', async function (req, res) {
+  app.get(/\/(shieldsio|counters)\/requestslastday/, async function (req, res) {
     res.json({
       schemaVersion: 1,
       label: 'Requests on last day',
