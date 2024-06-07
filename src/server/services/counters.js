@@ -30,10 +30,22 @@ function dbSet (name, val) {
   })
 }
 
+function dbSave () {
+  return new Promise((resolve, reject) => {
+    db.save()
+      .catch(err => {
+        console.error(`Error saving DB file ${path.relative(appRoot.path, dbFile)}`)
+      })
+      .finally(() => {
+        resolve()
+      })
+  })
+}
+
 (async () => {
   await dbSet('requestsCounterPerHour', 0)
   await dbSet('requestsCounterPerDay', 0)
-  await db.save()
+  await dbSave()
 })()
 
 function setTimers () {
@@ -43,7 +55,7 @@ function setTimers () {
       await dbSet('requestsLastHour', requestsCounterPerHour)
     } catch {} finally {
       await dbSet('requestsCounterPerHour', 0)
-      await db.save()
+      await dbSave()
     }
   }, 1000 * 60 * 60)
 
@@ -53,7 +65,7 @@ function setTimers () {
       await dbSet('requestsLastDay', requestsCounterPerDay)
     } catch {} finally {
       await dbSet('requestsCounterPerDay', 0)
-      await db.save()
+      await dbSave()
     }
   }, 1000 * 60 * 60 * 24)
 }
@@ -67,7 +79,7 @@ async function incrementCounters () {
   debug('requestsCounterPerDay: ' + requestsCounterPerDay.toString())
   await dbSet('requestsCounterPerDay', requestsCounterPerDay + 1)
 
-  await db.save()
+  await dbSave()
 }
 
 function loadExpressRoutes (app) {
