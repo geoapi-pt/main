@@ -22,7 +22,7 @@ function dbSet (name, val) {
   return new Promise((resolve, reject) => {
     db.push('/' + name, val)
       .catch(err => {
-        console.error(`Error setting ${val} to ${name} on DB file ${path.relative(appRoot.path, dbFile)}`)
+        console.error(`Error setting ${val} to ${name} on DB file ${path.relative(appRoot.path, dbFile)}`, err.message)
       })
       .finally(() => {
         resolve()
@@ -34,7 +34,7 @@ function dbSave () {
   return new Promise((resolve, reject) => {
     db.save()
       .catch(err => {
-        console.error(`Error saving DB file ${path.relative(appRoot.path, dbFile)}`)
+        console.error(`Error saving DB file ${path.relative(appRoot.path, dbFile)}`, err.message)
       })
       .finally(() => {
         resolve()
