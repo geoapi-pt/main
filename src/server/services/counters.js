@@ -11,7 +11,7 @@ module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 
 // a JSON "database" file is saved in root project directory as counters.json
 const dbFile = path.join(appRoot.path, 'counters.json')
-const db = new JsonDB(new Config(dbFile, true, false, '/'))
+const db = new JsonDB(new Config(dbFile, false, false, '/'))
 
 // if does not exit or it's empty
 if (!fs.existsSync(dbFile) || fs.statSync(dbFile).size === 0) {
@@ -21,6 +21,9 @@ if (!fs.existsSync(dbFile) || fs.statSync(dbFile).size === 0) {
 function dbSet (name, val) {
   return new Promise((resolve, reject) => {
     db.push('/' + name, val)
+      .catch(err => {
+        console.error(`Error setting ${val} to ${name} on DB file ${path.relative(appRoot.path, dbFile)}`)
+      })
       .finally(() => {
         resolve()
       })
@@ -30,6 +33,7 @@ function dbSet (name, val) {
 (async () => {
   await dbSet('requestsCounterPerHour', 0)
   await dbSet('requestsCounterPerDay', 0)
+  await db.save()
 })()
 
 function setTimers () {
@@ -39,6 +43,7 @@ function setTimers () {
       await dbSet('requestsLastHour', requestsCounterPerHour)
     } catch {} finally {
       await dbSet('requestsCounterPerHour', 0)
+      await db.save()
     }
   }, 1000 * 60 * 60)
 
@@ -48,6 +53,7 @@ function setTimers () {
       await dbSet('requestsLastDay', requestsCounterPerDay)
     } catch {} finally {
       await dbSet('requestsCounterPerDay', 0)
+      await db.save()
     }
   }, 1000 * 60 * 60 * 24)
 }
@@ -60,6 +66,8 @@ async function incrementCounters () {
   const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
   debug('requestsCounterPerDay: ' + requestsCounterPerDay.toString())
   await dbSet('requestsCounterPerDay', requestsCounterPerDay + 1)
+
+  await db.save()
 }
 
 function loadExpressRoutes (app) {
