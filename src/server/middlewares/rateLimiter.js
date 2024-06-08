@@ -173,7 +173,7 @@ function incrementAccessKeyCount (apiAccessKey) {
 
   dbPool.query(query, (err, results, fields) => {
     if (err) {
-      console.error('Error updating counter: ', err.code)
+      console.error('Error updating counter in MySQL DB: ', err.code)
       debug(err)
     } else {
       debug('Stats Count increment OK for key: ', apiAccessKey)
