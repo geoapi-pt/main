@@ -84,7 +84,7 @@ module.exports = {
 }
 
 async function rateLimitFn (req, res) {
-  const maxRequestsPerDayForNormalUsers = 25
+  const maxRequestsPerDayForNormalUsers = isResponseJson(req) ? 25 : 5
   const maxRequestsPerDayForPremiumUsers = 1000000
 
   const apiAccessKey = getApiAccessKey(req)
