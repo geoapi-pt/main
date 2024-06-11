@@ -10,6 +10,7 @@ const nocache = require('nocache')
 const debug = require('debug')('geoapipt:server') // run: DEBUG=geoapipt:server npm start
 const colors = require('colors/safe')
 const appRoot = require('app-root-path')
+const expressIsGoogleCrawler = require('express-is-googlecrawler')
 
 // define directories
 const servicesDir = path.join(__dirname, 'services')
@@ -104,6 +105,7 @@ function startServer (callback) {
 
   app.use(express.text())
   app.use(express.json())
+  app.use(expressIsGoogleCrawler)
 
   const hbs = exphbs.create({
     extname: '.hbs',

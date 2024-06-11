@@ -1,8 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 const mysql = require('mysql')
-const axios = require('axios')
-const net = require('node:net')
 const sqlFormatter = require('sql-formatter')
 const rateLimit = require('express-rate-limit')
 const appRoot = require('app-root-path')
@@ -14,11 +12,6 @@ const debug = require('debug')('geoapipt:server:rateLimiter')
 const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils', 'isResponseJson.js'))
 
 let mysqlDb, limiter, dbPool, defaultOrigin
-// indeed a whitelist for Googlebot
-const blockList = new net.BlockList()
-
-// JSON with Googlebots IPs, to avoid blocking Google Bots/Crawlers
-const googleBotsUrl = 'https://developers.google.com/static/search/apis/ipranges/googlebot.json'
 
 module.exports = {
   init: ({ defaultOrigin_ }) => {
@@ -53,26 +46,24 @@ module.exports = {
       handler: handlerLimitReachedFn
     })
 
-    loadGoogleBotsIps()
-
     return dbPool
   },
   middleware: (route) =>
     async (req, res, next) => {
       debug('\n\n\n====================================', req.originalUrl, '===================================')
-
+      console.log(res.locals.isGoogleCrawler)
       if (route === 'rate_limiter_test_path') {
         // don't apply rate limiter for /rate_limiter_test_path in either JSON or HTML,
         // but yet inform about validity of the key
         res.header('X-API-Key-Staus', await getApiAccessKeyStatus(req))
         next()
-      } if (isIpGoogleCrawler(req.ip)) {
+      } if (res.locals.isGoogleCrawler) {
         // don't apply rate limiter for Google Bots/Crawlers
         next()
       } else {
         if (isResponseJson(req)) {
           // don't apply rate linmiter to these JSON routes,
-          // since the main index HTML page makes several of these JSON requests
+          // since the main index HTML page makes several of these JSON requests to work properly
           if (
             route === 'distritos' ||
             route === 'codigos_postais' ||
@@ -191,43 +182,4 @@ function incrementAccessKeyCount (apiAccessKey) {
       debug('Stats Count increment OK for key: ', apiAccessKey)
     }
   })
-}
-
-function loadGoogleBotsIps () {
-  axios.get(googleBotsUrl, {
-    method: 'get',
-    responseType: 'json'
-  })
-    .then(function (response) {
-      const googleBotsData = response.data
-
-      googleBotsData.prefixes
-        .filter(el => 'ipv4Prefix' in el)
-        .map(el => el.ipv4Prefix)
-        .forEach(el => {
-          blockList.addSubnet(el.split('/')[0], parseInt(el.split('/')[1]), 'ipv4')
-        })
-      googleBotsData.prefixes
-        .filter(el => 'ipv6Prefix' in el)
-        .map(el => el.ipv6Prefix)
-        .forEach(el => {
-          blockList.addSubnet(el.split('/')[0], parseInt(el.split('/')[1]), 'ipv6')
-        })
-    })
-    .catch(function (error) {
-      console.error('Unable to download or process Google Bots IPs JSON file', error)
-    })
-}
-
-function isIpGoogleCrawler (ip) {
-  // see https://nodejs.org/api/net.html#netisipinput
-  const typeIp = net.isIP(ip)
-  switch (typeIp) {
-    case 4:
-      return blockList.check(ip, 'ipv4')
-    case 6:
-      return blockList.check(ip, 'ipv6')
-    default:
-      return false
-  }
 }
