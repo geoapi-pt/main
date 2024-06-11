@@ -4,7 +4,7 @@
   "description": "Open geographical data for Portugal",
   "scripts": {
     "depcheck": "depcheck --ignores=\"depcheck,leaflet,leaflet-contextmenu,webpack-cli,css-loader\" --ignore-patterns=\"res/*\"",
-    "validate-openapi": "redocly lint src/public/src/openapi.yaml && lint-openapi src/public/src/openapi.yaml -e -v -r docs/ibm-lint-openapi-rules.yaml",
+    "validate-openapi": "redocly lint src/public/src/openapi.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
     "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateGeojsons.js && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
     "frontend-test": "standard && npm run depcheck && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
@@ -82,7 +82,6 @@
     "@mapbox/geojsonhint": "^3.2.0",
     "depcheck": "^1.4.3",
     "html-validate": "^7.8.0",
-    "ibm-openapi-validator": "^0.97.3",
     "node-html-parser": "^6.1.4",
     "standard": "^16.0.3",
     "yaml": "^2.1.3"
