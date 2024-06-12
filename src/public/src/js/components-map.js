@@ -13,6 +13,7 @@ import 'leaflet-defaulticon-compatibility'
 import 'leaflet-contextmenu/dist/leaflet.contextmenu'
 
 import './key-auth.js'
+import './counters.js'
 
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { faKey } from '@fortawesome/free-solid-svg-icons'

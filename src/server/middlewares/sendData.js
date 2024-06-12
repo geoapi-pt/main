@@ -7,19 +7,19 @@ const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils',
 const adaptObjForHtmlRes = require(path.join(appRoot.path, 'src', 'server', 'utils', 'adaptObjForHtmlRes.js'))
 const sendJsonBeauty = require(path.join(appRoot.path, 'src', 'server', 'utils', 'sendJsonBeauty.js'))
 
-module.exports = ({ configs, shieldsioCounters }) =>
+module.exports = ({ configs, counters }) =>
   (req, res, next) => {
     res.sendData = async function (data) {
       debug(req.accepts(['html', 'json']))
 
-      shieldsioCounters.incrementCounters()
+      counters.incrementCounters()
 
       const dataToBeSent = data.error ? { erro: data.error } : data.data
 
       res.set('Connection', 'close')
       if (isResponseJson(req)) {
         if (req.query.json === 'belo' || req.query.json === 'beauty') {
-          sendJsonBeauty(res, dataToBeSent, data, configs, shieldsioCounters)
+          sendJsonBeauty(res, dataToBeSent, data, configs, counters)
         } else {
           res.json(dataToBeSent)
         }
@@ -34,8 +34,6 @@ module.exports = ({ configs, shieldsioCounters }) =>
           pageTitle: data.pageTitle ? `${data.pageTitle} - ${configs.mainTitle}` : configs.mainTitle,
           pageDescription: data.pageTitle || '',
           siteDescription: configs.description,
-          requestsLastHour: await shieldsioCounters.getRequestsLastHour(),
-          requestsLastDay: await shieldsioCounters.getRequestsLastDay(),
           input: data.input || {},
           data: dataToBeSent, // this is sent to frontend Javascript code
           dataToShowOnHtml: data.dataToShowOnHtml ? adaptObjForHtmlRes(data.dataToShowOnHtml) : {}

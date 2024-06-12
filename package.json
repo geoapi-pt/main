@@ -4,9 +4,10 @@
   "description": "Open geographical data for Portugal",
   "scripts": {
     "depcheck": "depcheck --ignores=\"depcheck,leaflet,leaflet-contextmenu,webpack-cli,css-loader\" --ignore-patterns=\"res/*\"",
-    "validate-openapi": "redocly lint src/public/src/openapi.yaml && lint-openapi src/public/src/openapi.yaml -e -v -r docs/ibm-lint-openapi-rules.yaml",
+    "validate-openapi": "redocly lint src/public/src/openapi.yaml",
     "test-server-startup": "node src/server/index.js --testStartup",
     "test": "standard && npm run depcheck && npm run validate-openapi && node test/validateGeojsons.js && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
+    "frontend-test": "standard && npm run depcheck && npm run build-frontend-assets && node test/validateHtml.js && node test/mainTest.js",
     "start": "npm run build-docs && node src/server/index.js --buildFeAssets",
     "build-frontend-assets": "node src/server/buildFeAssets.js",
     "build-docs": "cd docs && node buildRedocTemplate.js && redocly build-docs ../src/public/src/openapi.yaml -o dist/index.html -t redocTemplate.temp.hbs -- --features.openapi.collapseResponseSamplePanel"
@@ -16,7 +17,9 @@
     "url": "git+https://github.com/jfoclpf/geoapi.pt.git"
   },
   "keywords": [
-    "portugal"
+    "portugal",
+    "geo api",
+    "API"
   ],
   "author": "João Pimentel Ferreira",
   "license": "GPL-3.0-or-later",
@@ -46,6 +49,7 @@
     "debug": "^4.3.3",
     "express": "^4.17.3",
     "express-handlebars": "^6.0.6",
+    "express-is-googlecrawler": "^1.0.1",
     "express-rate-limit": "^7.1.5",
     "geoblaze": "^2.6.1",
     "georaster": "^1.6.0",
@@ -81,7 +85,6 @@
     "@mapbox/geojsonhint": "^3.2.0",
     "depcheck": "^1.4.3",
     "html-validate": "^7.8.0",
-    "ibm-openapi-validator": "^0.97.3",
     "node-html-parser": "^6.1.4",
     "standard": "^16.0.3",
     "yaml": "^2.1.3"

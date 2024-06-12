@@ -7,11 +7,11 @@ const { JsonDB, Config } = require('node-json-db')
 
 const debug = require('debug')('geoapipt:server:counters')
 
-module.exports = { setTimers, incrementCounters, loadExpressRoutes, getRequestsLastHour, getRequestsLastDay }
+module.exports = { setTimers, incrementCounters, loadExpressRoutes }
 
 // a JSON "database" file is saved in root project directory as counters.json
 const dbFile = path.join(appRoot.path, 'counters.json')
-const db = new JsonDB(new Config(dbFile, true, false, '/'))
+const db = new JsonDB(new Config(dbFile, false, false, '/'))
 
 // if does not exit or it's empty
 if (!fs.existsSync(dbFile) || fs.statSync(dbFile).size === 0) {
@@ -21,6 +21,21 @@ if (!fs.existsSync(dbFile) || fs.statSync(dbFile).size === 0) {
 function dbSet (name, val) {
   return new Promise((resolve, reject) => {
     db.push('/' + name, val)
+      .catch(err => {
+        console.error(`Error setting ${val} to ${name} on DB file ${path.relative(appRoot.path, dbFile)}`, err.message)
+      })
+      .finally(() => {
+        resolve()
+      })
+  })
+}
+
+function dbSave () {
+  return new Promise((resolve, reject) => {
+    db.save()
+      .catch(err => {
+        console.error(`Error saving DB file ${path.relative(appRoot.path, dbFile)}`, err.message)
+      })
       .finally(() => {
         resolve()
       })
@@ -30,6 +45,7 @@ function dbSet (name, val) {
 (async () => {
   await dbSet('requestsCounterPerHour', 0)
   await dbSet('requestsCounterPerDay', 0)
+  await dbSave()
 })()
 
 function setTimers () {
@@ -39,6 +55,7 @@ function setTimers () {
       await dbSet('requestsLastHour', requestsCounterPerHour)
     } catch {} finally {
       await dbSet('requestsCounterPerHour', 0)
+      await dbSave()
     }
   }, 1000 * 60 * 60)
 
@@ -48,6 +65,7 @@ function setTimers () {
       await dbSet('requestsLastDay', requestsCounterPerDay)
     } catch {} finally {
       await dbSet('requestsCounterPerDay', 0)
+      await dbSave()
     }
   }, 1000 * 60 * 60 * 24)
 }
@@ -60,10 +78,12 @@ async function incrementCounters () {
   const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
   debug('requestsCounterPerDay: ' + requestsCounterPerDay.toString())
   await dbSet('requestsCounterPerDay', requestsCounterPerDay + 1)
+
+  await dbSave()
 }
 
 function loadExpressRoutes (app) {
-  app.get('/shieldsio/requestslasthour', async function (req, res) {
+  app.get(/\/(shieldsio|counters)\/requestslasthour/, async function (req, res) {
     res.json({
       schemaVersion: 1,
       label: 'Requests on last hour',
@@ -72,7 +92,7 @@ function loadExpressRoutes (app) {
     })
   })
 
-  app.get('/shieldsio/requestslastday', async function (req, res) {
+  app.get(/\/(shieldsio|counters)\/requestslastday/, async function (req, res) {
     res.json({
       schemaVersion: 1,
       label: 'Requests on last day',

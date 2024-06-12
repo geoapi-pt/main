@@ -51,16 +51,19 @@ module.exports = {
   middleware: (route) =>
     async (req, res, next) => {
       debug('\n\n\n====================================', req.originalUrl, '===================================')
-
+      console.log(res.locals.isGoogleCrawler)
       if (route === 'rate_limiter_test_path') {
         // don't apply rate limiter for /rate_limiter_test_path in either JSON or HTML,
         // but yet inform about validity of the key
         res.header('X-API-Key-Staus', await getApiAccessKeyStatus(req))
         next()
+      } if (res.locals.isGoogleCrawler) {
+        // don't apply rate limiter for Google Bots/Crawlers
+        next()
       } else {
         if (isResponseJson(req)) {
           // don't apply rate linmiter to these JSON routes,
-          // since the main index HTML page makes several of these JSON requests
+          // since the main index HTML page makes several of these JSON requests to work properly
           if (
             route === 'distritos' ||
             route === 'codigos_postais' ||
@@ -81,7 +84,7 @@ module.exports = {
 }
 
 async function rateLimitFn (req, res) {
-  const maxRequestsPerDayForNormalUsers = 25
+  const maxRequestsPerDayForNormalUsers = isResponseJson(req) ? 25 : 5
   const maxRequestsPerDayForPremiumUsers = 1000000
 
   const apiAccessKey = getApiAccessKey(req)
@@ -173,7 +176,7 @@ function incrementAccessKeyCount (apiAccessKey) {
 
   dbPool.query(query, (err, results, fields) => {
     if (err) {
-      console.error('Error updating counter: ', err.code)
+      console.error('Error updating counter in MySQL DB: ', err.code)
       debug(err)
     } else {
       debug('Stats Count increment OK for key: ', apiAccessKey)

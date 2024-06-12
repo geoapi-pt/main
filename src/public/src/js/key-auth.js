@@ -12,14 +12,14 @@ function init () {
   checkIfKeyIsValid(key, (err, res) => {
     if (err) {
       console.error(err)
-      setKeyIconSwitch(false)
+      setKeyIconSwitch('hidden')
     } else {
       if (res === 'authenticated') {
         // set key icon green
-        setKeyIconSwitch(true)
+        setKeyIconSwitch('on')
       } else {
         // set key icon original color
-        setKeyIconSwitch(false)
+        setKeyIconSwitch('off')
       }
     }
   })
@@ -32,11 +32,14 @@ function checkIfKeyIsValid (key, callback) {
     mode: 'same-origin',
     headers: { 'X-API-Key': key }
   }).then(res => {
-    const auth = res.headers.get('X-Api-Key-Staus')
-    callback(null, auth)
+    if (res.ok) {
+      const auth = res.headers.get('X-Api-Key-Staus')
+      callback(null, auth)
+    } else {
+      callback(Error('Error checking if key is valid', res.status))
+    }
   }).catch((err) => {
-    console.error('Error checking if key is valid', err)
-    callback(Error('error'))
+    callback(Error('Error checking if key is valid', err))
   })
 }
 
@@ -64,7 +67,7 @@ function btnSubmitKeyOnClick () {
     checkIfKeyIsValid(key, (err, res) => {
       if (err) {
         console.error(err)
-        setKeyIconSwitch(false)
+        setKeyIconSwitch('hidden')
         setSubmitResultText('Ocorreu um erro', false)
       } else {
         if (res === 'authenticated') {
@@ -77,7 +80,7 @@ function btnSubmitKeyOnClick () {
           }
           setSubmitResultText('Chave inserida com sucesso', true)
           setTimeout(() => {
-            setKeyIconSwitch(true)
+            setKeyIconSwitch('on')
             // close popup
             document.querySelector('#insert-key-popup .close').click()
           }, 2000)
@@ -99,7 +102,7 @@ function btnRemoveKeyOnClick () {
     setRemoveResultText('Chave inexistente neste navegador', false)
   }
   setTimeout(() => {
-    setKeyIconSwitch(false)
+    setKeyIconSwitch('off')
     // close popup
     document.querySelector('#remove-key-popup .close').click()
   }, 2000)
@@ -131,12 +134,22 @@ function setRemoveResultText (text, success) {
 }
 
 // set color to the key icon located on the top right of the page
-function setKeyIconSwitch (bSwitch) {
+function setKeyIconSwitch (state) {
   const el = document.querySelector('#header_wrap .fa-key')
-  if (bSwitch) {
-    el.style.color = 'green'
-  } else {
-    el.style.color = 'inherit'
+  switch (state) {
+    case 'on':
+      el.style.display = 'block'
+      el.style.color = 'green'
+      break
+    case 'off':
+      el.style.display = 'block'
+      el.style.color = 'inherit'
+      break
+    case 'hidden':
+      el.style.display = 'none'
+      break
+    default:
+      console.error('Wrong option: ', state)
   }
 }
 
