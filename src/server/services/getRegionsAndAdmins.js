@@ -410,6 +410,12 @@ function addCensusData (callback) {
     }
   })
 
+  const censosChartsMaping = path.join(appRoot.path, 'src', 'server', 'utils', 'censosChartsMaping.json')
+  if (!fs.existsSync(censosChartsMaping)) {
+    throw (Error('File does not exist: ' + censosChartsMaping))
+  }
+  administrations.censosChartsMaping = JSON.parse(fs.readFileSync(censosChartsMaping))
+
   callback()
 }
 
