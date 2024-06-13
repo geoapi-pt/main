@@ -1,0 +1,23 @@
+#!/bin/bash                                                                      
+
+set -e                                                                           
+
+printf '\npost-checkout hook\n\n'                                                
+
+prevHEAD=$1                                                                      
+newHEAD=$2                                                                       
+checkoutType=$3                                                                  
+
+[[ $checkoutType == 1 ]] && checkoutType='branch' ||                             
+                            checkoutType='file' ;                                
+
+echo 'Checkout type: '$checkoutType                                              
+echo '    prev HEAD: '`git name-rev --name-only $prevHEAD`                       
+echo '     new HEAD: '`git name-rev --name-only $newHEAD`
+
+printf '\n'
+echo 'Installing packages of package*.json of branch '`git name-rev --name-only $newHEAD`
+printf '\n\n'
+
+npm ci
+
