@@ -1,6 +1,6 @@
 /* global L */
 import '../components-map.js'
-
+import { loadCharts } from '../censos-charts.js'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
@@ -8,6 +8,8 @@ import * as mapFunctions from '../map/map-functions.js'
 const districtDataDomEl = document.getElementById('district-route-data')
 const districtData = JSON.parse(decodeURIComponent(districtDataDomEl.dataset.districtroute))
 window.districtData = districtData
+
+loadCharts(districtData)
 
 console.log('geojsons:', districtData.geojson)
 
