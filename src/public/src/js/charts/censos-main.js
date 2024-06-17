@@ -18,6 +18,7 @@ import {
 } from 'chart.js'
 
 import * as edificios from './censos-edificios.js'
+import * as individuos from './censos-individuos.js'
 
 Chart.register(
   BarController,
@@ -45,10 +46,14 @@ export function loadCharts (administrationObject) {
 
   console.log(censos)
 
+  // Edifícios
   edificios.loadEdPorAnoConstr(censos, censosChartsMaping)
   edificios.loadEdClassPorDispUrb(censos, censosChartsMaping)
   edificios.loadEdClassPorNumAloj(censos, censosChartsMaping)
   edificios.loadEdPorTipoConstr(censos, censosChartsMaping)
   edificios.loadEdPorUtiliz(censos, censosChartsMaping)
   edificios.loadEdPorNumPisos(censos, censosChartsMaping)
+
+  // Indivíduos
+  individuos.loadIndivPorIdade(censos, censosChartsMaping)
 }

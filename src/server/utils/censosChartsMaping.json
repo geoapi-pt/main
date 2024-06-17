@@ -27,7 +27,7 @@
     },
     "Por número de pisos" : {
       "1 ou 2 pisos" : ["N_EDIFICIOS_1_OU_2_PISOS", "N_EDIFICIOS_1OU2_PISOS"],
-      "3 ou mais pisos" : ["N_EDIFICIOS_3_OU_MAIS_PISOS", "N_EDIFICIOS_3OU4_PISOS+N_EDIFICIOS_5OU_MAIS_PISOS"]
+      "3 ou mais pisos" : ["N_EDIFICIOS_3_OU_MAIS_PISOS", "N_EDIFICIOS_3OU4_PISOS + N_EDIFICIOS_5OU_MAIS_PISOS"]
     },
     "Por ano de construção" : {
       "Antes de 1945": "N_EDIFICIOS_CONSTR_ANTES_1945",
@@ -186,10 +186,10 @@
       "Mulheres": "N_INDIVIDUOS_M"
     },
     "Por idade": {
-      "Dos 0 aos 14 anos": "N_INDIVIDUOS_0_14",
-      "Dos 15 aos 24 anos": "N_INDIVIDUOS_15_24",
-      "Dos 25 aos 64 anos": "N_INDIVIDUOS_25_64",
-      "Com mais de 65 anos": "N_INDIVIDUOS_65_OU_MAIS"
+      "Dos 0 aos 14": ["N_INDIVIDUOS_0_14", "N_INDIVIDUOS_RESIDENT_0A4 + N_INDIVIDUOS_RESIDENT_5A9 + N_INDIVIDUOS_RESIDENT_10A13"],
+      "Dos 15 aos 24": ["N_INDIVIDUOS_15_24", "N_INDIVIDUOS_RESIDENT_14A19 + N_INDIVIDUOS_RESIDENT_15A19 + N_INDIVIDUOS_RESIDENT_20A24"],
+      "Dos 24 aos 64": ["N_INDIVIDUOS_25_64", "N_INDIVIDUOS_RESIDENT_25A64"],
+      "Com mais de 64": ["N_INDIVIDUOS_65_OU_MAIS", "N_INDIVIDUOS_RESIDENT_65"]
     },
     "Indivíduos presentes": {
       "__conceito": {
