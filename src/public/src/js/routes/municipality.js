@@ -1,7 +1,6 @@
 /* global L */
 
 import '../components-map.js'
-import '../censos-charts.js'
 
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'

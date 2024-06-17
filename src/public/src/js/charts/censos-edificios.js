@@ -1,63 +1,7 @@
-// import Chart from 'chart.js/auto' // if we want to import all modules
-// see https://www.chartjs.org/docs/latest/getting-started/integration.html
-import {
-  Chart,
-  BarController,
-  BarElement,
-  PieController,
-  LineController,
-  LineElement,
-  PointElement,
-  ArcElement,
-  LinearScale,
-  CategoryScale,
-  Title,
-  Legend,
-  Tooltip,
-  Colors
-} from 'chart.js'
-Chart.register(
-  BarController,
-  BarElement,
-  PieController,
-  LineController,
-  LineElement,
-  PointElement,
-  ArcElement,
-  LinearScale,
-  CategoryScale,
-  Title,
-  Legend,
-  Tooltip,
-  Colors
-)
-
-export function loadCharts (administrationObject) {
-  const censos = {
-    2011: administrationObject.censos2011,
-    2021: administrationObject.censos2021
-  }
-
-  const censosChartsMaping = administrationObject.censosChartsMaping
-
-  /* debug
-  Object.keys(censos2021)
-    .sort()
-    .forEach(function (v, i) {
-      console.log(v, censos2021[v])
-    }) */
-  console.log(censos)
-
-  loadEdPorAnoConstr(censos, censosChartsMaping)
-  loadEdClassPorDispUrb(censos, censosChartsMaping)
-  loadEdClassPorNumAloj(censos, censosChartsMaping)
-  loadEdPorTipoConstr(censos, censosChartsMaping)
-  loadEdPorUtiliz(censos, censosChartsMaping)
-  loadEdPorNumPisos(censos, censosChartsMaping)
-}
+import { Chart } from 'chart.js'
 
 // Edifícios por ano de construção
-function loadEdPorAnoConstr (censos, censosChartsMaping) {
+export function loadEdPorAnoConstr (censos, censosChartsMaping) {
   const chartCanvas = document.getElementById('censos-edificios-data-constr')
 
   const obj = censosChartsMaping['Edifícios']['Por data de comstrução']
@@ -103,7 +47,7 @@ function loadEdPorAnoConstr (censos, censosChartsMaping) {
 }
 
 // Edifícios clássicos por disposição urbana
-function loadEdClassPorDispUrb (censos, censosChartsMaping) {
+export function loadEdClassPorDispUrb (censos, censosChartsMaping) {
   const chartCanvas = document.getElementById('censos-edificios-classicos-disp-urbana')
 
   const obj = censosChartsMaping['Edifícios']['Clássicos']['Por disposição urbana']
@@ -138,7 +82,7 @@ function loadEdClassPorDispUrb (censos, censosChartsMaping) {
 }
 
 // Edifícios clássicos por número de alojamentos
-function loadEdClassPorNumAloj (censos, censosChartsMaping) {
+export function loadEdClassPorNumAloj (censos, censosChartsMaping) {
   const chartCanvas = document.getElementById('censos-edificios-classicos-num-aloj')
 
   const obj = censosChartsMaping['Edifícios']['Clássicos']['Por número de alojamentos']
@@ -181,7 +125,7 @@ function loadEdClassPorNumAloj (censos, censosChartsMaping) {
 }
 
 // Edifícios por tipo de construção
-function loadEdPorTipoConstr (censos, censosChartsMaping) {
+export function loadEdPorTipoConstr (censos, censosChartsMaping) {
   const chartCanvas = document.getElementById('censos-edificios-por-tipo-constr')
 
   const obj = censosChartsMaping['Edifícios']['Por tipo de construção']
@@ -233,7 +177,7 @@ function loadEdPorTipoConstr (censos, censosChartsMaping) {
 }
 
 // Edifícios por utilização
-function loadEdPorUtiliz (censos, censosChartsMaping) {
+export function loadEdPorUtiliz (censos, censosChartsMaping) {
   const chartCanvas = document.getElementById('censos-edificios-por-utiliz')
 
   const obj = censosChartsMaping['Edifícios']['Por utilização']
@@ -268,7 +212,7 @@ function loadEdPorUtiliz (censos, censosChartsMaping) {
 }
 
 // Edifícios por número de pisos
-function loadEdPorNumPisos (censos, censosChartsMaping) {
+export function loadEdPorNumPisos (censos, censosChartsMaping) {
   const chartCanvas = document.getElementById('censos-edificios-por-num-pisos')
 
   const obj = censosChartsMaping['Edifícios']['Por número de pisos']
@@ -312,7 +256,7 @@ function loadEdPorNumPisos (censos, censosChartsMaping) {
 }
 
 // see file censosChartsMaping.json
-function getData (obj, censos) {
+export function getData (obj, censos) {
   const data = Object.values(obj).map(el => {
     if (Array.isArray(el)) {
       for (const el_ of el) {
