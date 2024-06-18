@@ -1,6 +1,6 @@
 /* global L */
 import '../components-map.js'
-
+import { loadCharts } from '../charts/censos-main.js'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
@@ -8,6 +8,8 @@ import * as mapFunctions from '../map/map-functions.js'
 const sectionDataDomEl = document.getElementById('section-route-data')
 const sectionData = JSON.parse(decodeURIComponent(sectionDataDomEl.dataset.sectionroute))
 window.sectionData = sectionData
+
+loadCharts(sectionData)
 
 console.log('geojsons:', sectionData.geojson)
 
