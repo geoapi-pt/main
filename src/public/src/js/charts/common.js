@@ -1,16 +1,19 @@
 // see file censosChartsMaping.json
 export function getData (obj, censos) {
-  const data = Object.values(obj).map(el => {
-    if (Array.isArray(el)) {    
-      for (const indEl of el) {
-        const res = processExpression(indEl, censos)
-        if(res) return res
+  const data = Object.values(obj)
+    .filter(el => typeof el === 'string' || Array.isArray(el))
+    .map(el => {
+      if (Array.isArray(el)) {    
+        for (const el_ of el) {
+          const res = processExpression(el_, censos)
+          if(res) return res
+        }
+        return 0
+      } else {
+        return processExpression(el, censos)
       }
-      return 0
-    } else {
-      return processExpression(el, censos)
     }
-  })
+  )
 
   return data
 }
