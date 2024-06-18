@@ -18,28 +18,35 @@ export function getData (obj, censos) {
   return data
 }
 
+// expr_ may be for example "N_EDIFICIOS_3OU4_PISOS" or "N_EDIFICIOS_3OU4_PISOS + N_EDIFICIOS_5OU_MAIS_PISOS / 4"
 function processExpression (expr_, censos) {
   const expr = expr_.trim()
-  // expression does not have math symbols +, * or /
+  // expression is a single item, for example "N_EDIFICIOS_3OU4_PISOS"
   if (!/\+|\*|\//.test(expr)) {
     if (censos[expr]) { 
       return censos[expr]
     } else {
-      return 0
+      return null
     }
   } else {
     // it has math symbols +, * or /
+    // for ex.: "N_EDIFICIOS_3OU4_PISOS + N_EDIFICIOS_5OU_MAIS_PISOS / 4"
     let expr2 = expr
-    expr
-      .split(/\+|\*|\//)
-      .map(el => el.trim())
-      .forEach(el => {
-        if(censos[el]) {
-          expr2.replace(el, censos[el])
-        } else {
-          expr2.replace(el, 0)
-        }
-      })
+    try {
+      expr
+        .split(/\+|\*|\//)
+        .map(el => el.trim())
+        .filter(el => isNaN(el))
+        .forEach(el => {
+          if(censos[el]) {
+            expr2.replace(el, censos[el])
+          } else {
+            throw {} // break forEach loop
+          }
+        })
+    } catch {
+      return null
+    }
     return eval(expr2)
   }
 }
