@@ -26,7 +26,7 @@ function processExpression (expr_, censos) {
     if (censos[expr]) {
       return censos[expr]
     } else {
-      return null
+      return 0
     }
   } else {
     // it has math symbols +, * or /

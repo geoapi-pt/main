@@ -1,6 +1,6 @@
 /* global L */
 import '../components-map.js'
-
+import { loadCharts } from '../charts/censos-main.js'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
@@ -8,6 +8,8 @@ import * as mapFunctions from '../map/map-functions.js'
 const parishDataDomEl = document.getElementById('parish-route-data')
 const parishData = JSON.parse(decodeURIComponent(parishDataDomEl.dataset.parishroute))
 window.parishData = parishData
+
+loadCharts(parishData)
 
 console.log('geojsons:', parishData.geojson)
 

@@ -134,6 +134,9 @@ async function routeFn (req, res, next, { administrations, regions }) {
         delete dataToShowOnHtml.geojson
       }
 
+      // send censosChartsMaping Object to frontend
+      sectionObj.censosChartsMaping = administrations.censosChartsMaping
+
       res.status(200).sendData({
         data: sectionObj,
         input: {

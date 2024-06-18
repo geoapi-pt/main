@@ -46,14 +46,16 @@ export function loadCharts (administrationObject) {
 
   console.log(censos)
 
-  // Edifícios
-  edificios.loadEdPorAnoConstr(censos, censosChartsMaping)
-  edificios.loadEdClassPorDispUrb(censos, censosChartsMaping)
-  edificios.loadEdClassPorNumAloj(censos, censosChartsMaping)
-  edificios.loadEdPorTipoConstr(censos, censosChartsMaping)
-  edificios.loadEdPorUtiliz(censos, censosChartsMaping)
-  edificios.loadEdPorNumPisos(censos, censosChartsMaping)
+  document.addEventListener('DOMContentLoaded', function () {
+    // Edifícios
+    edificios.loadEdPorAnoConstr(censos, censosChartsMaping)
+    edificios.loadEdClassPorDispUrb(censos, censosChartsMaping)
+    edificios.loadEdClassPorNumAloj(censos, censosChartsMaping)
+    edificios.loadEdPorTipoConstr(censos, censosChartsMaping)
+    edificios.loadEdPorUtiliz(censos, censosChartsMaping)
+    edificios.loadEdPorNumPisos(censos, censosChartsMaping)
 
-  // Indivíduos
-  individuos.loadIndivPorIdade(censos, censosChartsMaping)
+    // Indivíduos
+    individuos.loadIndivPorIdade(censos, censosChartsMaping)
+  })
 }

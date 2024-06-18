@@ -160,6 +160,9 @@ async function routeFn (req, res, next, { administrations }) {
           return encodeURIComponent(str.toLowerCase())
         }
 
+        // send censosChartsMaping Object to frontend
+        result.censosChartsMaping = administrations.censosChartsMaping
+
         res.status(200).sendData({
           data: result,
           input: {

@@ -1,7 +1,7 @@
 /* global L */
 
 import '../components-map.js'
-
+import { loadCharts } from '../charts/censos-main.js'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'
 import * as mapFunctions from '../map/map-functions.js'
@@ -9,6 +9,8 @@ import * as mapFunctions from '../map/map-functions.js'
 const municipalityDataDomEl = document.getElementById('municipality-route-data')
 const municipalityData = JSON.parse(decodeURIComponent(municipalityDataDomEl.dataset.municipalityroute))
 window.municipalityData = municipalityData
+
+loadCharts(municipalityData)
 
 const centros = municipalityData.geojsons.municipio.properties.centros
 const centro = centros.centro

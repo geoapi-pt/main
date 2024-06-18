@@ -1,6 +1,6 @@
 /* global L */
 import '../components-map.js'
-
+import { loadCharts } from '../charts/censos-main.js'
 import * as leafletContextmenu from '../map/leafletContextmenu.js'
 import { setLayers } from '../map/leafletLayers.js'
 import { mobileCheck } from '../functions.js'
@@ -9,6 +9,8 @@ import * as mapFunctions from '../map/map-functions.js'
 const parishSubsectionsDataDomEl = document.getElementById('parish-subsections-route-data')
 const parishSubsectionsData = JSON.parse(decodeURIComponent(parishSubsectionsDataDomEl.dataset.parishssubectionsroute))
 window.parishSubsectionsData = parishSubsectionsData
+
+loadCharts(parishSubsectionsData)
 
 console.log('parishSubsectionsData:', parishSubsectionsData)
 
