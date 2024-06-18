@@ -31,7 +31,7 @@ function processExpression (expr_, censos) {
   } else {
     // it has math symbols +, * or /
     // for ex.: "N_EDIFICIOS_3OU4_PISOS + N_EDIFICIOS_5OU_MAIS_PISOS / 4"
-    const expr2 = expr
+    let expr2 = expr
     try {
       expr
         .split(/\+|\*|\//)
@@ -39,12 +39,11 @@ function processExpression (expr_, censos) {
         .filter(el => isNaN(el))
         .forEach(el => {
           if (censos[el]) {
-            expr2.replace(el, censos[el])
+            expr2 = expr2.replace(el, censos[el])
           } else {
             throw {} // eslint-disable-line 
           }
         })
-      console.log(expr2)
     } catch {
       return null
     }
