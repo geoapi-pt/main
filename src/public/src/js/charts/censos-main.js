@@ -48,6 +48,13 @@ export function loadCharts (administrationObject) {
 
   document.addEventListener('DOMContentLoaded', function () {
     // Edifícios
+    // Definição de Edifício Clássico
+    const edifDescr = document.getElementById('censos-edificio-description')
+    edifDescr.textContent = censosChartsMaping['Edifícios'].__conceito['definição']
+    // Definição de Edifício Clássico
+    const edifClassicoDescr = document.getElementById('censos-edificio-classico-description')
+    edifClassicoDescr.textContent = censosChartsMaping['Edifícios']['Clássicos'].__conceito['definição']
+
     edificios.loadEdPorAnoConstr(censos, censosChartsMaping)
     edificios.loadEdClassPorDispUrb(censos, censosChartsMaping)
     edificios.loadEdClassPorNumAloj(censos, censosChartsMaping)
