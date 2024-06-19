@@ -288,7 +288,7 @@ export function loadEdPorNumPisos (censos, censosChartsMaping) {
       plugins: {
         title: {
           display: true,
-          text: 'Edifícios por número de pisos (2011)'
+          text: 'Edifícios por número de pisos'
         }
       }
     }
