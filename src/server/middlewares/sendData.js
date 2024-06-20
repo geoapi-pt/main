@@ -12,7 +12,14 @@ module.exports = ({ configs, counters }) =>
     res.sendData = async function (data) {
       debug(req.accepts(['html', 'json']))
 
-      counters.incrementCounters()
+      // don't count for Google Bots/Crawlers when that info is available
+      if ('isGoogleCrawler' in res.locals) {
+        if (!res.locals.isGoogleCrawler) {
+          counters.incrementCounters()
+        }
+      } else {
+        counters.incrementCounters()
+      }
 
       const dataToBeSent = data.error ? { erro: data.error } : data.data
 
