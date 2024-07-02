@@ -182,8 +182,8 @@
   "Indivíduos": {
     "Nº total de indivíduos": "N_INDIVIDUOS",
     "Por sexo": {
-      "Homens": "N_INDIVIDUOS_H",
-      "Mulheres": "N_INDIVIDUOS_M"
+      "Homens": ["N_INDIVIDUOS_H", "N_INDIVIDUOS_RESIDENT_H"],
+      "Mulheres": ["N_INDIVIDUOS_M", "N_INDIVIDUOS_RESIDENT_M"]
     },
     "Por idade": {
       "Dos 0 aos 14": ["N_INDIVIDUOS_0_14", "N_INDIVIDUOS_RESIDENT_0A4 + N_INDIVIDUOS_RESIDENT_5A9 + N_INDIVIDUOS_RESIDENT_10A13 + N_INDIVIDUOS_RESIDENT_14A19 / 6"],

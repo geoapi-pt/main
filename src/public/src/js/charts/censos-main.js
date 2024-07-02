@@ -64,5 +64,6 @@ export function loadCharts (administrationObject) {
 
     // Indivíduos
     individuos.loadIndivPorIdade(censos, censosChartsMaping)
+    individuos.loadIndivPorSexo(censos, censosChartsMaping)
   })
 }
