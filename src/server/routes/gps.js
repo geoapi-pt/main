@@ -17,7 +17,7 @@ const distanceInMetersForMapMargins = 100
 // modules
 const utilsDir = path.join(appRoot.path, 'src', 'server', 'utils')
 const servicesDir = path.join(appRoot.path, 'src', 'server', 'services')
-const { correctCase } = require(path.join(utilsDir, 'commonFunctions.js'))
+const { correctCase, convertPerigoIncendio } = require(path.join(utilsDir, 'commonFunctions.js'))
 const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
 const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
@@ -27,6 +27,7 @@ const distanceToPolygon = require(path.join(utilsDir, 'distanceToPolygon.js'))
 const censosGeojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson')
 const adminAddressesDir = path.join(appRoot.path, '..', 'resources', 'res', 'admins-addresses')
 const cartaSoloDir = path.join(appRoot.path, '..', 'resources', 'res', 'carta-solo', 'freguesias')
+const incendioRuralDir = path.join(appRoot.path, '..', 'resources', 'res', 'perigosidade-incendio-rural', 'freguesias')
 
 module.exports = {
   fn: routeFn,
@@ -228,7 +229,7 @@ function routeFn (req, res, next, { administrations, regions, defaultOrigin }) {
     )
     fs.readFile(cartaSoloGeojsonFile, (err, data) => {
       if (!err && data) {
-        const geojsonData = JSON.parse(fs.readFileSync(cartaSoloGeojsonFile))
+        const geojsonData = JSON.parse(data)
         const lookupBGRI = new PolygonLookup(geojsonData)
         const zone = lookupBGRI.search(lon, lat)
         if (zone) {
@@ -241,6 +242,24 @@ function routeFn (req, res, next, { administrations, regions, defaultOrigin }) {
       callback()
     })
   }, (callback) => {
+    // Perigo de Incêndio (da Carta de Perigosidade de Incêndio Rural)
+    const incendioRuralGeojsonFile = path.join(
+      incendioRuralDir,
+      `${parishIneCode.toString().padStart(6, '0')}.geojson`
+    )
+    fs.readFile(incendioRuralGeojsonFile, (err, data) => {
+      if (!err && data) {
+        const geojsonData = JSON.parse(data)
+        const lookupBGRI = new PolygonLookup(geojsonData)
+        const zone = lookupBGRI.search(lon, lat)
+        if (zone) {
+          local.perigo_incendio = convertPerigoIncendio(zone.properties.gridcode)
+        }
+      }
+      callback()
+    })
+  },
+  (callback) => {
     getAltitude.get({ lat, lon })
       .then(res => {
         local.altitude_m = res

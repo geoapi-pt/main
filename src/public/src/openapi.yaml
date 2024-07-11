@@ -5834,7 +5834,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, Município, Freguesia, uso do solo, rua, número de porta e Código Postal
+          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, rua, número de porta e Código Postal
           content:
             application/json:
               schema:
@@ -5854,6 +5854,8 @@ paths:
                     type: string
                   uso:
                     type: string
+                  perigo_incendio:
+                    type: string
                   SEC:
                     type: string
                   SS:
@@ -5871,6 +5873,7 @@ paths:
                   concelho: Lisboa
                   freguesia: Marvila
                   uso: Tecido edificado contínuo predominantemente vertical
+                  perigo_incendio: nulo
                   SEC: 011
                   SS: 06
                   rua: Rua Fernando Maurício
@@ -5886,7 +5889,7 @@ paths:
   /gps/{coordenadas}:
     get:
       operationId: getAdminsByGps
-      summary: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal através de coordenadas GPS
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, rua, número de porta, altitude e código postal através de coordenadas GPS
       parameters:
         - in: path
           name: coordenadas
@@ -5920,6 +5923,8 @@ paths:
                     type: string
                   uso:
                     type: string
+                  perigo_incendio:
+                    type: string
                   SEC:
                     type: string
                   SS:
@@ -5939,6 +5944,7 @@ paths:
                   concelho: Lisboa
                   freguesia: Marvila
                   uso: Tecido edificado contínuo predominantemente vertical
+                  perigo_incendio: nulo
                   SEC: 011
                   SS: 06
                   rua: Rua Fernando Maurício
@@ -5955,7 +5961,7 @@ paths:
   /gps/{coordenadas}/detalhes:
     get:
       operationId: getAdminsByGpsWithDetails
-      summary: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes
       parameters:
         - in: path
           name: coordenadas
@@ -5997,6 +6003,9 @@ paths:
                   uso: 
                     type: string
                     example: Tecido edificado contínuo predominantemente vertical
+                  perigo_incendio:
+                    type: string
+                    example: nulo
                   carta_solo: 
                     type: object
                     properties: 

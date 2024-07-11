@@ -1,6 +1,6 @@
 /* functions common to many server modules and routines */
 
-module.exports = { normalizeName, correctCase, isValidPostalCode }
+module.exports = { normalizeName, correctCase, isValidPostalCode, convertPerigoIncendio }
 
 // normalize name of parish or name of municipality such that it can be compared
 function normalizeName (name) {
@@ -46,4 +46,24 @@ function correctCase (_str) {
 // asserts postal code is XXXX, XXXXYYY or XXXX-YYY
 function isValidPostalCode (str) {
   return str && /^\d{4}(\p{Dash}?\d{3})?$/u.test(str)
+}
+
+// the vectory layer for Carta de Perigosidade Incêndio Rural comes with coding numbers
+function convertPerigoIncendio (gridcode) {
+  switch (gridcode) {
+    case 0:
+      return 'nulo'
+    case 1:
+      return 'muito baixo'
+    case 2:
+      return 'baixo'
+    case 3:
+      return 'médio'
+    case 4:
+      return 'alto'
+    case 5:
+      return 'muito alto'
+    default:
+      return ''
+  }
 }
