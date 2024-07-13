@@ -24,10 +24,12 @@ const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
 const distanceToPolygon = require(path.join(utilsDir, 'distanceToPolygon.js'))
 
 // directories
-const censosGeojsonDir = path.join(appRoot.path, '..', 'resources', 'res', 'geojson')
-const adminAddressesDir = path.join(appRoot.path, '..', 'resources', 'res', 'admins-addresses')
-const cartaSoloDir = path.join(appRoot.path, '..', 'resources', 'res', 'carta-solo', 'freguesias')
-const incendioRuralDir = path.join(appRoot.path, '..', 'resources', 'res', 'perigosidade-incendio-rural', 'freguesias')
+const resDirectory = path.join(appRoot.path, '..', 'resources', 'res')
+const censosGeojsonDir = path.join(resDirectory, 'geojson')
+const adminAddressesDir = path.join(resDirectory, 'admins-addresses')
+const cartaSoloDir = path.join(resDirectory, 'carta-solo', 'freguesias')
+const incendioRuralDir = path.join(resDirectory, 'perigosidade-incendio-rural', 'freguesias')
+const inundacaoDir = path.join(resDirectory, 'risco-inundacao', 'freguesias')
 
 module.exports = {
   fn: routeFn,
@@ -255,6 +257,27 @@ function routeFn (req, res, next, { administrations, regions, defaultOrigin }) {
         if (zone) {
           local.perigo_incendio = convertPerigoIncendio(zone.properties.gridcode)
         }
+      }
+      callback()
+    })
+  }, (callback) => {
+    // Carta de Perigo de Inundação
+    const inundacaoGeojsonFile = path.join(
+      inundacaoDir,
+      `${parishIneCode.toString().padStart(6, '0')}.geojson`
+    )
+    fs.readFile(inundacaoGeojsonFile, (err, data) => {
+      if (!err && data) {
+        const geojsonData = JSON.parse(data)
+        const lookupBGRI = new PolygonLookup(geojsonData)
+        const zone = lookupBGRI.search(lon, lat)
+        if (zone) {
+          local.perigo_inundacao = zone.properties.perigo
+        } else {
+          local.perigo_inundacao = 'Nulo / Informação Inexistente'
+        }
+      } else {
+        local.perigo_inundacao = 'Nulo / Informação Inexistente'
       }
       callback()
     })

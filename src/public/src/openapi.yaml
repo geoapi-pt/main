@@ -5807,7 +5807,7 @@ paths:
   /gps:
     get:
       operationId: getAdminsByGpsAndQuery
-      summary: Distrito, Município e Freguesia através de coordenadas GPS nos parâmetros da query
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal; através de coordenadas GPS nos parâmetros da query
       parameters:
         - in: query
           name: lat
@@ -5834,7 +5834,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, rua, número de porta e Código Postal
+          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta e Código Postal
           content:
             application/json:
               schema:
@@ -5855,6 +5855,8 @@ paths:
                   uso:
                     type: string
                   perigo_incendio:
+                    type: string
+                  perigo_inundacao:
                     type: string
                   SEC:
                     type: string
@@ -5873,7 +5875,8 @@ paths:
                   concelho: Lisboa
                   freguesia: Marvila
                   uso: Tecido edificado contínuo predominantemente vertical
-                  perigo_incendio: nulo
+                  perigo_incendio: Nulo
+                  perigo_inundacao: Nulo / Informação Inexistente
                   SEC: 011
                   SS: 06
                   rua: Rua Fernando Maurício
@@ -5889,7 +5892,7 @@ paths:
   /gps/{coordenadas}:
     get:
       operationId: getAdminsByGps
-      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, rua, número de porta, altitude e código postal através de coordenadas GPS
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal; através de coordenadas GPS
       parameters:
         - in: path
           name: coordenadas
@@ -5903,7 +5906,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, Município, Freguesia, uso do solo, rua, número de porta, altitude e Código Postal
+          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e Código Postal
           content:
             application/json:
               schema:
@@ -5924,6 +5927,8 @@ paths:
                   uso:
                     type: string
                   perigo_incendio:
+                    type: string
+                  perigo_inundacao:
                     type: string
                   SEC:
                     type: string
@@ -5944,7 +5949,8 @@ paths:
                   concelho: Lisboa
                   freguesia: Marvila
                   uso: Tecido edificado contínuo predominantemente vertical
-                  perigo_incendio: nulo
+                  perigo_incendio: Nulo
+                  perigo_inundacao: Nulo / Informação Inexistente
                   SEC: 011
                   SS: 06
                   rua: Rua Fernando Maurício
@@ -5961,7 +5967,7 @@ paths:
   /gps/{coordenadas}/detalhes:
     get:
       operationId: getAdminsByGpsWithDetails
-      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes
       parameters:
         - in: path
           name: coordenadas
@@ -5975,7 +5981,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, município, freguesia, uso do solo, rua, número de porta, altitude e código postal com detalhes sobre respectivos Município e Freguesia
+          description: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal com detalhes sobre respectivos Município e Freguesia
           content:
             application/json:
               schema:
@@ -6005,7 +6011,10 @@ paths:
                     example: Tecido edificado contínuo predominantemente vertical
                   perigo_incendio:
                     type: string
-                    example: nulo
+                    example: Nulo
+                  perigo_inundacao:
+                    type: string
+                    example: Nulo / Informação Inexistente
                   carta_solo: 
                     type: object
                     properties: 
