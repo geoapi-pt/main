@@ -52,17 +52,17 @@ function isValidPostalCode (str) {
 function convertPerigoIncendio (gridcode) {
   switch (gridcode) {
     case 0:
-      return 'nulo'
+      return 'Nulo'
     case 1:
-      return 'muito baixo'
+      return 'Muito Baixo'
     case 2:
-      return 'baixo'
+      return 'Baixo'
     case 3:
-      return 'médio'
+      return 'Médio'
     case 4:
-      return 'alto'
+      return 'Alto'
     case 5:
-      return 'muito alto'
+      return 'Muito Alto'
     default:
       return ''
   }
