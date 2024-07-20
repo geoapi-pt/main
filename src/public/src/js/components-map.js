@@ -12,7 +12,7 @@ import 'leaflet/dist/leaflet'
 import 'leaflet-defaulticon-compatibility'
 import 'leaflet-contextmenu/dist/leaflet.contextmenu'
 
-import './key-auth.js'
+// import './key-auth.js' // right now this API is fully free, hence no need to request key
 import './counters.js'
 
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
