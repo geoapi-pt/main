@@ -26,6 +26,7 @@ const defaultOrigin = configs.defaultOrigin
 // import server project modules
 const getRegionsAndAdmins = require(path.join(servicesDir, 'getRegionsAndAdmins.js'))
 const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
+const getClimate = require(path.join(servicesDir, 'getClimate.js'))
 const shutdownServer = require(path.join(servicesDir, 'shutdownServer.js'))
 const counters = require(path.join(servicesDir, 'counters.js'))
 const consoleApiStartupInfo = require(path.join(servicesDir, 'consoleApiStartupInfo.js'))
@@ -74,14 +75,20 @@ async.series(steps,
     }
   })
 
-function prepare (callback) {
-  getRegionsAndAdmins((err, data) => {
-    if (err) {
-      callback(Error(err))
-    } else {
-      regions = data.regions
-      administrations = data.administrations
-
+function prepare (mainCallback) {
+  async.series([
+    function (callback) {
+      getRegionsAndAdmins((err, data) => {
+        if (err) {
+          callback(Error(err))
+        } else {
+          regions = data.regions
+          administrations = data.administrations
+          callback()
+        }
+      })
+    },
+    function (callback) {
       getAltitude.init((err) => {
         if (err) {
           callback(Error(err))
@@ -89,6 +96,21 @@ function prepare (callback) {
           callback()
         }
       })
+    },
+    function (callback) {
+      getClimate.init((err) => {
+        if (err) {
+          callback(Error(err))
+        } else {
+          callback()
+        }
+      })
+    }
+  ], function (err) {
+    if (err) {
+      mainCallback(Error(err))
+    } else {
+      mainCallback()
     }
   })
 }

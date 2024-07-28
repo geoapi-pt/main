@@ -24,3 +24,14 @@ marker.on('dragend', function (event) {
   const regex = /\/gps\/([\d.-]+,[\d.-]+)(.*)$/g
   window.location.href = window.location.href.replace(regex, `/gps/${position.lat},${position.lng}$2`)
 })
+
+// Toggle open all details elements, onload
+// Regardless of their initial status
+window.onload = (event) => {
+  document.body.querySelectorAll('details')
+    .forEach((e) => {
+      (e.hasAttribute('open'))
+        ? e.removeAttribute('open')
+        : e.setAttribute('open', true)
+    })
+}

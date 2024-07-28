@@ -21,6 +21,7 @@ const { correctCase, convertPerigoIncendio } = require(path.join(utilsDir, 'comm
 const isResponseJson = require(path.join(utilsDir, 'isResponseJson.js'))
 const getNominatimData = require(path.join(servicesDir, 'getNominatimData.js'))
 const getAltitude = require(path.join(servicesDir, 'getAltitude.js'))
+const getClimate = require(path.join(servicesDir, 'getClimate.js'))
 const distanceToPolygon = require(path.join(utilsDir, 'distanceToPolygon.js'))
 
 // directories
@@ -292,6 +293,15 @@ function routeFn (req, res, next, { administrations, regions, defaultOrigin }) {
         console.error(err.message)
         callback()
       })
+  },
+  (callback) => {
+    try {
+      local.clima = getClimate.get({ lat, lon })
+      callback()
+    } catch (err) {
+      console.error(`Error getting climate on point ${lat}, ${lon}: ${err.message}`)
+      callback()
+    }
   }], (err) => {
     if (err) {
       console.error(err)

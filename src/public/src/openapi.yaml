@@ -5807,7 +5807,7 @@ paths:
   /gps:
     get:
       operationId: getAdminsByGpsAndQuery
-      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal; através de coordenadas GPS nos parâmetros da query
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude, temperatura, humidade, pressão atmosférica e código postal; através de coordenadas GPS nos parâmetros da query
       parameters:
         - in: query
           name: lat
@@ -5834,7 +5834,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta e Código Postal
+          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, temperatura, humidade, pressão atmosférica e código Postal
           content:
             application/json:
               schema:
@@ -5868,6 +5868,19 @@ paths:
                     type: string
                   CP:
                     type: string
+                  clima: 
+                    type: object
+                    properties: 
+                      data_medicao:
+                        type: string
+                      hora_medicao:
+                        type: string
+                      temperatura_C:
+                        type: number
+                      humidade_%:
+                        type: number
+                      pressao_hPa:
+                        type: number
                 example:   # Sample object
                   lon: -9.102984
                   lat: 38.748406
@@ -5882,6 +5895,7 @@ paths:
                   rua: Rua Fernando Maurício
                   n_porta: 30
                   CP: 1950-449
+                  clima: {"data_medicao": "28/07/2024", "hora_medicao": "21:00:00", "temperatura_C": 29, "humidade_%": 42, "pressao_hPa": 1011}
         '404':
           description: Coordenadas não encontradas ou pedido com erro
           content:
@@ -5892,7 +5906,7 @@ paths:
   /gps/{coordenadas}:
     get:
       operationId: getAdminsByGps
-      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal; através de coordenadas GPS
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude, temperatura, humidade, pressão atmosférica e código postal; através de coordenadas GPS
       parameters:
         - in: path
           name: coordenadas
@@ -5906,7 +5920,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e Código Postal
+          description: Distrito, Município, Freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude, temperatura, humidade, pressão atmosférica e código Postal
           content:
             application/json:
               schema:
@@ -5942,6 +5956,19 @@ paths:
                     type: number
                   CP:
                     type: string
+                  clima: 
+                    type: object
+                    properties: 
+                      data_medicao:
+                        type: string
+                      hora_medicao:
+                        type: string
+                      temperatura_C:
+                        type: number
+                      humidade_%:
+                        type: number
+                      pressao_hPa:
+                        type: number
                 example:   # Sample object
                   lon: -9.102984
                   lat: 38.748406
@@ -5957,6 +5984,7 @@ paths:
                   n_porta: 30
                   altitude_m: 66
                   CP: 1950-449
+                  clima: {"data_medicao": "28/07/2024", "hora_medicao": "21:00:00", "temperatura_C": 29, "humidade_%": 42, "pressao_hPa": 1011}
         '404':
           description: Coordenadas não encontradas ou pedido com erro
           content:
@@ -5967,7 +5995,7 @@ paths:
   /gps/{coordenadas}/detalhes:
     get:
       operationId: getAdminsByGpsWithDetails
-      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal através de coordenadas GPS, com respetivos detalhes
+      summary: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude, temperatura, humidade, pressão atmosférica e código postal através de coordenadas GPS, com respetivos detalhes
       parameters:
         - in: path
           name: coordenadas
@@ -5981,7 +6009,7 @@ paths:
         - $ref: '#/components/parameters/ext-apis'
       responses:
         '200':
-          description: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude e código postal com detalhes sobre respectivos Município e Freguesia
+          description: Distrito, município, freguesia, uso do solo, perigo de incêndio, perigo de inundação, rua, número de porta, altitude, temperatura, humidade, pressão atmosférica e código postal com detalhes sobre respectivos Município e Freguesia
           content:
             application/json:
               schema:
