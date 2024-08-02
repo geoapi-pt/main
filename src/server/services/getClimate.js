@@ -1,9 +1,9 @@
-// Module that for every X minutes fetches data from IPMA API,
-// and creates for each variable (temperature, humidity, pression)
-// the respective Triangulated Irregular Network (TIN), sorting each triangle by area/surface.
-// Then, for every incoming request with coordinates of the point, it finds which trinagles contain the point,
-// and gets the first 5 triangles, doing then therein linear interpolation to deduce the variables on that point.
-// If the point does not fit within any triangle from the TIN, finds the nearest point/station instead
+// Module that for every X minutes fetches data from the IPMA meteo stations via its API,
+// and creates for each variable (temperature, humidity, pression) the respective 
+// Triangulated Irregular Network (TIN), sorting each triangle by area/surface.
+// Then, for every incoming request with coordinates of the point, it finds which triangles contain the point,
+// and gets the first 5 triangles (sorted by area), doing then for every triangle linear interpolation to deduce the variables
+// on that requested point. If the point does not fit within any triangle of the TIN, finds the nearest point/station instead.
 // This two-steps approach allows fast processing
 // For context of this problem see: https://earthscience.stackexchange.com/q/26399/33146
 
