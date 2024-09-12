@@ -1,5 +1,5 @@
 // Module that for every X minutes fetches data from the IPMA meteo stations via its API,
-// and creates for each variable (temperature, humidity, pression) the respective 
+// and creates for each variable (temperature, humidity, pression) the respective
 // Triangulated Irregular Network (TIN), sorting each triangle by area/surface.
 // Then, for every incoming request with coordinates of the point, it finds which triangles contain the point,
 // and gets the first 5 triangles (sorted by area), doing then for every triangle linear interpolation to deduce the variables
