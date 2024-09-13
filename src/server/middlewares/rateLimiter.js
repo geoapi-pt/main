@@ -51,7 +51,7 @@ module.exports = {
   middleware: (route) =>
     async (req, res, next) => {
       debug('\n\n\n====================================', req.originalUrl, '===================================')
-      console.log(res.locals.isGoogleCrawler)
+      debug('isGoogleCrawler: ' + res.locals.isGoogleCrawler)
       if (route === 'rate_limiter_test_path') {
         // don't apply rate limiter for /rate_limiter_test_path in either JSON or HTML,
         // but yet inform about validity of the key
