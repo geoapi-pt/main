@@ -83,7 +83,13 @@ function prepare (mainCallback) {
           callback(Error(err))
         } else {
           regions = data.regions
+          console.log(regions.cont.geojson.features[0].geometry.coordinates[0][0])
           administrations = data.administrations
+          if (debug.enabled) {
+            const sizeof = require('object-sizeof')
+            debug(`Size of the object 'regions': ${(sizeof(regions) / 1024 / 1024).toFixed(2)} Mb`)
+            debug(`Size of the object 'administrations': ${(sizeof(administrations) / 1024 / 1024).toFixed(2)} Mb`)
+          }
           callback()
         }
       })
