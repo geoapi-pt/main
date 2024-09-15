@@ -8,6 +8,7 @@
     "kill_timeout" : 10000,
     "watch" : false,
     "instances" : 2,
+    "instance_var" : "PM2_APP_INSTANCE_ID",
     "exec_mode" : "cluster",
     "log_date_format" : "DD-MM-YYYY",
     "env": {

@@ -49,25 +49,29 @@ function dbSave () {
 })()
 
 function setTimers () {
-  setInterval(async () => {
-    try {
-      const requestsCounterPerHour = await db.getData('/requestsCounterPerHour')
-      await dbSet('requestsLastHour', requestsCounterPerHour)
-    } catch {} finally {
-      await dbSet('requestsCounterPerHour', 0)
-      await dbSave()
-    }
-  }, 1000 * 60 * 60)
+  // in case PM2 runs the app in multiprocessing mode (cluster mode),
+  // only run the timers for the first instance to avoid repetition
+  if (!process.env.PM2_APP_INSTANCE_ID || process.env.PM2_APP_INSTANCE_ID === '0') {
+    setInterval(async () => {
+      try {
+        const requestsCounterPerHour = await db.getData('/requestsCounterPerHour')
+        await dbSet('requestsLastHour', requestsCounterPerHour)
+      } catch {} finally {
+        await dbSet('requestsCounterPerHour', 0)
+        await dbSave()
+      }
+    }, 1000 * 60 * 60)
 
-  setInterval(async () => {
-    try {
-      const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
-      await dbSet('requestsLastDay', requestsCounterPerDay)
-    } catch {} finally {
-      await dbSet('requestsCounterPerDay', 0)
-      await dbSave()
-    }
-  }, 1000 * 60 * 60 * 24)
+    setInterval(async () => {
+      try {
+        const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
+        await dbSet('requestsLastDay', requestsCounterPerDay)
+      } catch {} finally {
+        await dbSet('requestsCounterPerDay', 0)
+        await dbSave()
+      }
+    }, 1000 * 60 * 60 * 24)
+  }
 }
 
 async function incrementCounters () {
