@@ -1,89 +1,56 @@
 /* requests counter exposed as shieldsIO JSON endpoint https://shields.io/endpoint */
 
-const fs = require('fs')
-const path = require('path')
-const appRoot = require('app-root-path')
-const { JsonDB, Config } = require('node-json-db')
+const { createClient } = require('redis')
 
-const debug = require('debug')('geoapipt:server:counters')
+const debug = require('debug')('geoapipt:server:counters') // DEBUG=geoapipt:server:counters npm start
 
-module.exports = { setTimers, incrementCounters, loadExpressRoutes }
+module.exports = { init, incrementCounters, loadExpressRoutes }
 
-// a JSON "database" file is saved in root project directory as counters.json
-const dbFile = path.join(appRoot.path, 'counters.json')
-const db = new JsonDB(new Config(dbFile, false, false, '/'))
+let redis
 
-// if does not exit or it's empty
-if (!fs.existsSync(dbFile) || fs.statSync(dbFile).size === 0) {
-  fs.writeFileSync(dbFile, JSON.stringify({}))
-}
+async function init () {
+  debug('Redis Module started')
+  redis = createClient()
+  redis.on('error', err => console.error('Redis Client Error', err))
 
-function dbSet (name, val) {
-  return new Promise((resolve, reject) => {
-    db.push('/' + name, val)
-      .catch(err => {
-        console.error(`Error setting ${val} to ${name} on DB file ${path.relative(appRoot.path, dbFile)}`, err.message)
-      })
-      .finally(() => {
-        resolve()
-      })
-  })
-}
+  await redis.connect()
 
-function dbSave () {
-  return new Promise((resolve, reject) => {
-    db.save()
-      .catch(err => {
-        console.error(`Error saving DB file ${path.relative(appRoot.path, dbFile)}`, err.message)
-      })
-      .finally(() => {
-        resolve()
-      })
-  })
-}
-
-(async () => {
-  await dbSet('requestsCounterPerHour', 0)
-  await dbSet('requestsCounterPerDay', 0)
-  await dbSave()
-})()
-
-function setTimers () {
-  // in case PM2 runs the app in multiprocessing mode (cluster mode),
-  // only run the timers for the first instance to avoid repetition
-  if (!process.env.PM2_APP_INSTANCE_ID || process.env.PM2_APP_INSTANCE_ID === '0') {
-    setInterval(async () => {
-      try {
-        const requestsCounterPerHour = await db.getData('/requestsCounterPerHour')
-        await dbSet('requestsLastHour', requestsCounterPerHour)
-      } catch {} finally {
-        await dbSet('requestsCounterPerHour', 0)
-        await dbSave()
-      }
-    }, 1000 * 60 * 60)
-
-    setInterval(async () => {
-      try {
-        const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
-        await dbSet('requestsLastDay', requestsCounterPerDay)
-      } catch {} finally {
-        await dbSet('requestsCounterPerDay', 0)
-        await dbSave()
-      }
-    }, 1000 * 60 * 60 * 24)
+  debug('isSingleProcessOrFirstPm2Process', isSingleProcessOrFirstPm2Process())
+  if (isSingleProcessOrFirstPm2Process()) {
+    await redis.set('requestsCounterPerHour', 0)
+    await redis.set('requestsCounterPerDay', 0)
+    setTimers()
   }
 }
 
+function setTimers () {
+  setInterval(async () => {
+    try {
+      const requestsCounterPerHour = await redis.get('requestsCounterPerHour')
+      await redis.set('requestsLastHour', requestsCounterPerHour)
+    } catch {} finally {
+      await redis.set('requestsCounterPerHour', 0)
+    }
+  }, 1000 * 60 * 60)
+
+  setInterval(async () => {
+    try {
+      const requestsCounterPerDay = await redis.get('requestsCounterPerDay')
+      await redis.set('requestsLastDay', requestsCounterPerDay)
+    } catch {} finally {
+      await redis.set('requestsCounterPerDay', 0)
+    }
+  }, 1000 * 60 * 60 * 24)
+}
+
 async function incrementCounters () {
-  const requestsCounterPerHour = await db.getData('/requestsCounterPerHour')
+  const requestsCounterPerHour = parseInt(await redis.get('requestsCounterPerHour'))
   debug('requestsCounterPerHour: ' + requestsCounterPerHour.toString())
-  await dbSet('requestsCounterPerHour', requestsCounterPerHour + 1)
+  await redis.set('requestsCounterPerHour', requestsCounterPerHour + 1)
 
-  const requestsCounterPerDay = await db.getData('/requestsCounterPerDay')
+  const requestsCounterPerDay = parseInt(await redis.get('requestsCounterPerDay'))
   debug('requestsCounterPerDay: ' + requestsCounterPerDay.toString())
-  await dbSet('requestsCounterPerDay', requestsCounterPerDay + 1)
-
-  await dbSave()
+  await redis.set('requestsCounterPerDay', requestsCounterPerDay + 1)
 }
 
 function loadExpressRoutes (app) {
@@ -109,27 +76,36 @@ function loadExpressRoutes (app) {
 async function getRequestsLastHour () {
   let requestsLastHour
   try {
-    requestsLastHour = await db.getData('/requestsLastHour')
+    requestsLastHour = await redis.get('requestsLastHour')
   } catch {
     try {
-      requestsLastHour = await db.getData('/requestsCounterPerHour')
+      requestsLastHour = await redis.get('requestsCounterPerHour')
     } catch {
-      requestsLastHour = 0
+      requestsLastHour = '0'
     }
   }
-  return requestsLastHour.toString()
+  debug('requestsLastHour:', requestsLastHour)
+  return requestsLastHour || '0'
 }
 
 async function getRequestsLastDay () {
   let requestsLastDay
   try {
-    requestsLastDay = await db.getData('/requestsLastDay')
+    requestsLastDay = await redis.get('requestsLastDay')
   } catch {
     try {
-      requestsLastDay = await db.getData('/requestsCounterPerDay')
+      requestsLastDay = await redis.get('requestsCounterPerDay')
     } catch {
-      requestsLastDay = 0
+      requestsLastDay = '0'
     }
   }
-  return requestsLastDay.toString()
+  debug('requestsLastDay:', requestsLastDay)
+  return requestsLastDay || '0'
+}
+
+// Returns true when PM2 not involved (single process), OR
+// in case PM2 runs the app in multiprocessing mode (cluster mode),
+// returns true only for firt PM2 process.
+function isSingleProcessOrFirstPm2Process () {
+  return (!process.env.PM2_APP_INSTANCE_ID || process.env.PM2_APP_INSTANCE_ID === '0')
 }

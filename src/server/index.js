@@ -147,7 +147,7 @@ function startServer (callback) {
   staticFiles(app)
   app.use(sendDataMiddleware({ configs, counters }))
 
-  counters.setTimers()
+  counters.init()
 
   let dbPool
   if (argvOptions.rateLimit) {
