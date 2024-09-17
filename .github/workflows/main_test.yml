@@ -16,7 +16,6 @@ jobs:
       matrix:
         platform: [ubuntu-latest]
         node-version: [16] # node 16 is used in production
-        redis-version: [7]
         
     runs-on: ${{ matrix.platform }}
 
