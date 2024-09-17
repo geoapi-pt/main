@@ -55,6 +55,9 @@ jobs:
         run: |
           sudo dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -nr | head
           df . -h
+      - name: Install Redis Server
+        run: |
+          sudo apt install redis redis-server -y
       - name: Main checkout
         uses: actions/checkout@v4
         with:
@@ -63,10 +66,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Start Redis
-        uses: supercharge/redis-github-action@1.7.0
-        with:
-          redis-version: ${{ matrix.redis-version }}
       - name: Checkout resources private repo
         uses: actions/checkout@v4
         with:
