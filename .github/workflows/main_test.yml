@@ -16,6 +16,7 @@ jobs:
       matrix:
         platform: [ubuntu-latest]
         node-version: [16] # node 16 is used in production
+        redis-version: [7]
         
     runs-on: ${{ matrix.platform }}
 
@@ -62,6 +63,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Start Redis
+        uses: supercharge/redis-github-action@1.7.0
+        with:
+          redis-version: ${{ matrix.redis-version }}
       - name: Checkout resources private repo
         uses: actions/checkout@v4
         with:
