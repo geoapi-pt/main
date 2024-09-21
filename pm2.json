@@ -2,7 +2,7 @@
   "apps" : [{
     "name" : "geoapi.pt",
     "script" : "src/server/index.js",
-    "args" : "--port=4057 --buildFeAssets",
+    "args" : "--port=4057 --buildFeAssets --rateLimit",
     "wait_ready" : true,
     "listen_timeout" : 50000,
     "kill_timeout" : 10000,
