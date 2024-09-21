@@ -3,6 +3,8 @@ const path = require('path')
 const mysql = require('mysql')
 const sqlFormatter = require('sql-formatter')
 const rateLimit = require('express-rate-limit')
+const { RedisStore } = require('rate-limit-redis')
+const { createClient } = require('redis')
 const appRoot = require('app-root-path')
 const colors = require('colors/safe')
 
@@ -14,9 +16,10 @@ const isResponseJson = require(path.join(appRoot.path, 'src', 'server', 'utils',
 let mysqlDb, limiter, dbPool, defaultOrigin
 
 module.exports = {
-  init: ({ defaultOrigin_ }) => {
+  init: async ({ defaultOrigin_ }) => {
     defaultOrigin = defaultOrigin_
 
+    // MySQL database where the premium users are stored and respective keys
     mysqlDb = JSON.parse(
       fs.readFileSync(path.join(appRoot.path, '..', 'credentials.json'), 'utf8')
     ).mysql_db
@@ -38,12 +41,22 @@ module.exports = {
       }
     })
 
+    // redis database for rate limiter
+    const redis = createClient()
+    redis.on('error', err => console.error('Redis Client for Counter Error', err))
+    await redis.connect()
+    debug('Redis Module started')
+
     limiter = rateLimit({
       windowMs: 1000 * 60 * 60 * 24, // 1 day
       limit: rateLimitFn, // max requests per each IP in windowMs
       standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers
       legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-      handler: handlerLimitReachedFn
+      handler: handlerLimitReachedFn,
+      // Redis store configuration
+      store: new RedisStore({
+        sendCommand: (...args) => redis.sendCommand(args)
+      })
     })
 
     return dbPool

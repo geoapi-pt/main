@@ -9,11 +9,10 @@ module.exports = { init, incrementCounters, loadExpressRoutes }
 let redis
 
 async function init () {
-  debug('Redis Module started')
   redis = createClient()
-  redis.on('error', err => console.error('Redis Client Error', err))
-
+  redis.on('error', err => console.error('Redis Client for Counter Error', err))
   await redis.connect()
+  debug('Redis Module started')
 
   debug('isSingleProcessOrFirstPm2Process', isSingleProcessOrFirstPm2Process())
   if (isSingleProcessOrFirstPm2Process()) {
