@@ -54,6 +54,9 @@ jobs:
         run: |
           sudo dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -nr | head
           df . -h
+      - name: Install Redis Server
+        run: |
+          sudo apt install redis redis-server -y
       - name: Main checkout
         uses: actions/checkout@v4
         with:
