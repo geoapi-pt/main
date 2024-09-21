@@ -14,7 +14,7 @@ module.exports = function (signal, server, dbPool) {
         process.exit(1)
       } else {
         console.log('HTTP server closed successfully')
-        if (dbPool) {
+        if (dbPool && dbPool.end) {
           dbPool.end((err) => {
             if (err) {
               console.error('Error closing DB connections', err)
