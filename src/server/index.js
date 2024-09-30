@@ -120,7 +120,7 @@ function prepare (mainCallback) {
   })
 }
 
-async function startServer (callback) {
+async function startServer () {
   console.log('Server prepared with ' + colors.green.bold('success'))
   console.log('Starting server...')
 
@@ -198,7 +198,7 @@ async function startServer (callback) {
     })
   } catch (err) {
     console.error(err)
-    callback(Error(err))
+    throw new Error(err)
   }
 
   app.use(errorMiddleware())
@@ -222,8 +222,6 @@ async function startServer (callback) {
     if (process.send) {
       process.send('ready') // very important, trigger to PM2 that app is ready
     }
-
-    callback()
   })
 
   // gracefully exiting upon CTRL-C or when PM2 stops the process
