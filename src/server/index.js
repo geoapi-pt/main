@@ -120,7 +120,7 @@ function prepare (mainCallback) {
   })
 }
 
-function startServer (callback) {
+async function startServer (callback) {
   console.log('Server prepared with ' + colors.green.bold('success'))
   console.log('Starting server...')
 
@@ -151,7 +151,7 @@ function startServer (callback) {
 
   let dbPool
   if (argvOptions.rateLimit) {
-    dbPool = rateLimiter.init({ defaultOrigin })
+    dbPool = await rateLimiter.init({ defaultOrigin })
   }
 
   app.get('/', (req, res) => {
