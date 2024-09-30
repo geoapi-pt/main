@@ -1,6 +1,9 @@
-/* Extract zip files from Carta Administrativa de Portugal (from Direção Geral do Território)
+/* Read files from Carta Administrativa de Portugal (from Direção Geral do Território)
    and set it to the regions Object with respective geojson files
    The regions Object will then be exported to other modules that call this module */
+
+// year of Carta Administrativa de Portugal
+const YEAR = 2023
 
 const fs = require('fs')
 const path = require('path')
@@ -23,31 +26,31 @@ const { uniteParishes, removeDuplicatesArr } = require(path.join(appRoot.path, '
 const regions = {
   cont: {
     name: 'Continente',
-    unzippedFilenamesWithoutExtension: 'Cont_AAD_CAOP2022',
+    filenameWithoutExtension: 'Cont_AAD_CAOP' + YEAR.toString(),
     geojson: {}, // geojson FeatureCollection of polygons of all parishes
     projection: '' // info regarding the coordinates transformation
   },
   ArqMadeira: {
     name: 'Arquipélago da Madeira',
-    unzippedFilenamesWithoutExtension: 'ArqMadeira_AAd_CAOP2022',
+    filenameWithoutExtension: 'ArqMadeira_AAd_CAOP' + YEAR.toString(),
     geojson: {},
     projection: ''
   },
   ArqAcores_GOcidental: {
     name: 'Arquipélago dos Açores (Grupo Ocidental)',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP2022',
+    filenameWithoutExtension: 'ArqAcores_GOcidental_AAd_CAOP' + YEAR.toString(),
     geojson: {},
     projection: ''
   },
   ArqAcores_GCentral: {
     name: 'Arquipélago dos Açores (Grupo Central)',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP2022',
+    filenameWithoutExtension: 'ArqAcores_GCentral_AAd_CAOP' + YEAR.toString(),
     geojson: {},
     projection: ''
   },
   ArqAcores_GOriental: {
     name: 'Arquipélago dos Açores (Grupo Oriental)',
-    unzippedFilenamesWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP2022',
+    filenameWithoutExtension: 'ArqAcores_GOriental_AAd_CAOP' + YEAR.toString(),
     geojson: {},
     projection: ''
   }
@@ -83,30 +86,24 @@ module.exports = function (callback) {
 // fill in the geoson fields in the regions Object
 function readShapefile (mainCallback) {
   async.forEachOf(regions, function (region, key, forEachOfCallback) {
-    // try calling shapefile.read 5 times, waiting 500 ms between each retry
-    // see: https://github.com/mbostock/shapefile/issues/67
-    async.retry({ times: 5, interval: (retryCount) => 50 * Math.pow(2, retryCount) }, function (retryCallback) {
-      shapefile.read(
-        path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.shp'),
-        path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.dbf'),
-        { encoding: 'utf-8' }
-      ).then(geojson => {
-        debug(
-          `Shapefiles read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.shp')} ` +
-          `and from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`
-        )
-        retryCallback(null, geojson)
-      }).catch((err) => {
-        retryCallback(Error(err))
-      })
-    }, function (err, result) {
-      if (err) {
-        forEachOfCallback(Error(err))
-      } else {
-        regions[key].geojson = result
-        bar.tick()
-        forEachOfCallback()
+    shapefile.read(
+      path.join(resDir, 'portuguese-administrative-chart', YEAR.toString(), region.filenameWithoutExtension + '.shp'),
+      path.join(resDir, 'portuguese-administrative-chart', YEAR.toString(), region.filenameWithoutExtension + '.dbf'),
+      { encoding: 'utf-8' }
+    ).then(geojson => {
+      debug(
+        `Shapefiles read from ${colors.cyan(region.filenameWithoutExtension + '.shp')} ` +
+        `and from ${colors.cyan(region.filenameWithoutExtension + '.dbf')}`
+      )
+
+      // duplicate key for backward compatibility
+      for (const el of geojson.features) {
+        el.properties.Concelho = el.properties.Municipio
       }
+
+      regions[key].geojson = geojson
+      bar.tick()
+      forEachOfCallback()
     })
   }, function (err) {
     if (err) {
@@ -153,14 +150,14 @@ function postProcessRegions (callback) {
 function readProjectionFile (mainCallback) {
   async.forEachOf(regions, function (region, key, callback) {
     fs.readFile(
-      path.join(resDir, 'portuguese-administrative-chart', region.unzippedFilenamesWithoutExtension + '.prj'),
+      path.join(resDir, 'portuguese-administrative-chart', YEAR.toString(), region.filenameWithoutExtension + '.prj'),
       'utf8',
       (err, data) => {
         if (err) {
           callback(Error(err))
         } else {
           regions[key].projection = data
-          debug(`Projection info read from ${colors.cyan(region.unzippedFilenamesWithoutExtension + '.dbf')}`)
+          debug(`Projection info read from ${colors.cyan(region.filenameWithoutExtension + '.dbf')}`)
           bar.tick()
           callback()
         }

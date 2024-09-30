@@ -1,4 +1,4 @@
-/* Extract zip files from Carta Administrativa de Portugal
+/* Read files from Carta Administrativa de Portugal
    and read JSON files from details of Parishes and Municipalities (from DGAL)
    and then to process and combine data for fast delivery */
 
